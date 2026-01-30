@@ -37,7 +37,7 @@ export default function ArticlesPage() {
         <main className="min-h-screen bg-[#0a0a0a] pb-16">
             {/* Header */}
             <header className="pt-16 pb-8 px-4 text-center">
-                <div className="animate-fade-in">
+                <div>
                     <BookOpen className="w-16 h-16 mx-auto mb-6 text-green-400" />
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
                         Articles
@@ -58,7 +58,7 @@ export default function ArticlesPage() {
                             placeholder="Search articles..."
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
+                            className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50"
                         />
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export default function ArticlesPage() {
                 {loading && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {[1, 2, 3].map((i) => (
-                            <div key={i} className="bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden animate-pulse">
+                            <div key={i} className="bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden">
                                 <div className="h-52 bg-zinc-800" />
                                 <div className="p-5">
                                     <div className="h-4 bg-zinc-800 rounded w-1/3 mb-3" />
@@ -89,23 +89,22 @@ export default function ArticlesPage() {
                     </div>
                 )}
 
-                {/* Article Grid - Pure HTML anchor for reliable mobile navigation */}
+                {/* Article Grid - Simple static cards with NO animations */}
                 {!loading && filteredArticles.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {filteredArticles.map((article) => (
                             <a
                                 key={article.id}
                                 href={`/articles/${article.id}`}
-                                className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden"
+                                className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden"
                             >
-                                {/* Image Container */}
+                                {/* Image */}
                                 <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
                                     {article.image ? (
                                         <img
                                             src={article.image}
                                             alt={article.title}
                                             className="w-full h-full object-cover"
-                                            loading="lazy"
                                         />
                                     ) : (
                                         <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-900/20 to-zinc-900">
@@ -114,13 +113,13 @@ export default function ArticlesPage() {
                                     )}
                                     
                                     {article.category && (
-                                        <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30 backdrop-blur-sm">
+                                        <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30">
                                             {article.category}
                                         </span>
                                     )}
                                 </div>
 
-                                {/* Card Content */}
+                                {/* Content */}
                                 <div className="p-5">
                                     <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                         <Calendar className="w-3.5 h-3.5" />
@@ -159,45 +158,12 @@ export default function ArticlesPage() {
 
                 {/* Back Link */}
                 <div className="mt-12 text-center">
-                    <a
-                        href="/"
-                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400"
-                    >
+                    <a href="/" className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400">
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
                     </a>
                 </div>
             </div>
-
-            {/* Mobile-specific CSS to disable hover animations */}
-            <style jsx global>{`
-                /* Remove all hover/active animations on mobile - they block first tap */
-                @media (hover: none) and (pointer: coarse) {
-                    .article-card {
-                        transform: none !important;
-                        transition: none !important;
-                    }
-                    .article-card:hover,
-                    .article-card:active,
-                    .article-card:focus {
-                        transform: none !important;
-                    }
-                    .article-card * {
-                        transition: none !important;
-                    }
-                }
-                
-                /* Only apply hover effects on desktop */
-                @media (hover: hover) and (pointer: fine) {
-                    .article-card {
-                        transition: border-color 0.2s, box-shadow 0.2s;
-                    }
-                    .article-card:hover {
-                        border-color: rgba(34, 197, 94, 0.4);
-                        box-shadow: 0 10px 25px -5px rgba(34, 197, 94, 0.1);
-                    }
-                }
-            `}</style>
         </main>
     );
 }
