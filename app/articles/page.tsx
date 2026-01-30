@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import { BookOpen, ArrowLeft, Search, Calendar, ChevronRight, FileText } from 'lucide-react';
 
 interface Article {
@@ -14,7 +13,6 @@ interface Article {
 }
 
 export default function ArticlesPage() {
-    const router = useRouter();
     const [articles, setArticles] = useState<Article[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -34,15 +32,6 @@ export default function ArticlesPage() {
         article.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.category?.toLowerCase().includes(searchQuery.toLowerCase())
     );
-
-    // Direct navigation function for mobile compatibility
-    const navigateToArticle = (articleId: string) => {
-        window.location.href = `/articles/${articleId}`;
-    };
-
-    const navigateHome = () => {
-        window.location.href = '/';
-    };
 
     return (
         <main className="min-h-screen bg-[#0a0a0a] pb-16">
@@ -100,36 +89,23 @@ export default function ArticlesPage() {
                     </div>
                 )}
 
-                {/* Article Grid - Mobile Touch Optimized */}
+                {/* Article Grid - Pure HTML anchor for reliable mobile navigation */}
                 {!loading && filteredArticles.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {filteredArticles.map((article) => (
                             <a
                                 key={article.id}
                                 href={`/articles/${article.id}`}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    navigateToArticle(article.id);
-                                }}
-                                onTouchEnd={(e) => {
-                                    e.preventDefault();
-                                    navigateToArticle(article.id);
-                                }}
-                                className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden cursor-pointer select-none"
-                                style={{ 
-                                    touchAction: 'manipulation',
-                                    WebkitTapHighlightColor: 'transparent'
-                                }}
+                                className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden"
                             >
-                                {/* Image Container - Fixed Height */}
-                                <div className="h-52 w-full overflow-hidden bg-zinc-800 relative pointer-events-none">
+                                {/* Image Container */}
+                                <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
                                     {article.image ? (
                                         <img
                                             src={article.image}
                                             alt={article.title}
                                             className="w-full h-full object-cover"
                                             loading="lazy"
-                                            draggable={false}
                                         />
                                     ) : (
                                         <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-900/20 to-zinc-900">
@@ -137,7 +113,6 @@ export default function ArticlesPage() {
                                         </div>
                                     )}
                                     
-                                    {/* Category Badge */}
                                     {article.category && (
                                         <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30 backdrop-blur-sm">
                                             {article.category}
@@ -146,8 +121,7 @@ export default function ArticlesPage() {
                                 </div>
 
                                 {/* Card Content */}
-                                <div className="p-5 pointer-events-none">
-                                    {/* Date */}
+                                <div className="p-5">
                                     <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                         <Calendar className="w-3.5 h-3.5" />
                                         <span>{new Date(article.date).toLocaleDateString('en-US', { 
@@ -157,17 +131,14 @@ export default function ArticlesPage() {
                                         })}</span>
                                     </div>
 
-                                    {/* Title */}
                                     <h2 className="text-lg font-semibold text-white mb-3 line-clamp-2">
                                         {article.title}
                                     </h2>
 
-                                    {/* Preview Text */}
                                     <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
                                         {article.content.replace(/[#*`\[\]]/g, '').substring(0, 150)}
                                     </p>
 
-                                    {/* Read More */}
                                     <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium">
                                         <span>Read more</span>
                                         <ChevronRight className="w-4 h-4" />
@@ -190,25 +161,43 @@ export default function ArticlesPage() {
                 <div className="mt-12 text-center">
                     <a
                         href="/"
-                        onClick={(e) => {
-                            e.preventDefault();
-                            navigateHome();
-                        }}
-                        onTouchEnd={(e) => {
-                            e.preventDefault();
-                            navigateHome();
-                        }}
-                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 cursor-pointer select-none"
-                        style={{ 
-                            touchAction: 'manipulation',
-                            WebkitTapHighlightColor: 'transparent'
-                        }}
+                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400"
                     >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
                     </a>
                 </div>
             </div>
+
+            {/* Mobile-specific CSS to disable hover animations */}
+            <style jsx global>{`
+                /* Remove all hover/active animations on mobile - they block first tap */
+                @media (hover: none) and (pointer: coarse) {
+                    .article-card {
+                        transform: none !important;
+                        transition: none !important;
+                    }
+                    .article-card:hover,
+                    .article-card:active,
+                    .article-card:focus {
+                        transform: none !important;
+                    }
+                    .article-card * {
+                        transition: none !important;
+                    }
+                }
+                
+                /* Only apply hover effects on desktop */
+                @media (hover: hover) and (pointer: fine) {
+                    .article-card {
+                        transition: border-color 0.2s, box-shadow 0.2s;
+                    }
+                    .article-card:hover {
+                        border-color: rgba(34, 197, 94, 0.4);
+                        box-shadow: 0 10px 25px -5px rgba(34, 197, 94, 0.1);
+                    }
+                }
+            `}</style>
         </main>
     );
 }
