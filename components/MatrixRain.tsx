@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface MatrixRainProps {
     className?: string;
@@ -131,6 +131,3 @@ export function ImageWithFallback({ src, alt, className = '' }: ImageWithFallbac
         </div>
     );
 }
-
-// Need useState import
-import { useState } from 'react';
