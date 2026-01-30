@@ -81,6 +81,9 @@ export default async function ArticlePage({
                 {/* Back Button */}
                 <Link
                     href="/articles"
+                    onClick={() => {
+                        window.location.href = '/articles';
+                    }}
                     className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/50 backdrop-blur-md rounded-full text-white hover:bg-black/70 transition-colors"
                 >
                     <ArrowLeft className="w-4 h-4" />
@@ -187,6 +190,9 @@ export default async function ArticlePage({
                             </p>
                             <Link
                                 href="/articles"
+                                onClick={() => {
+                                    window.location.href = '/articles';
+                                }}
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium hover:bg-green-500/30 transition-colors"
                             >
                                 <ArrowLeft className="w-4 h-4" />
