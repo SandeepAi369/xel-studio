@@ -46,10 +46,7 @@ body {
 }
 
 /* ===== BACKGROUND FADE IN ===== */
-@keyframes bgFadeIn {
-  from {
-    opacity: 0;
-  }
+
 
   to {
     opacity: 1;
@@ -66,13 +63,9 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradientShimmer 3s ease-in-out infinite;
 }
 
-@keyframes gradientShimmer {
-  0% {
-    background-position: 0% 50%;
-  }
+
 
   50% {
     background-position: 100% 50%;
@@ -85,13 +78,9 @@ body {
 
 /* ===== SUBTITLE GLOW EFFECT ===== */
 .subtitle-glow {
-  animation: subtleGlow 2s ease-in-out infinite alternate;
 }
 
-@keyframes subtleGlow {
-  from {
-    text-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
-  }
+
 
   to {
     text-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
@@ -115,13 +104,9 @@ body {
   bottom: 0;
   background: var(--shimmer-bg);
   transform: translateX(-100%);
-  animation: skeletonShimmer 1.5s infinite;
 }
 
-@keyframes skeletonShimmer {
-  0% {
-    transform: translateX(-100%);
-  }
+
 
   100% {
     transform: translateX(100%);
@@ -165,14 +150,10 @@ body {
   opacity: 0.15;
   text-shadow: 0 0 10px var(--neon-green);
   word-wrap: break-word;
-  animation: matrixFade 2s ease-in-out infinite alternate;
   pointer-events: none;
 }
 
-@keyframes matrixFade {
-  0% {
-    opacity: 0.1;
-  }
+
 
   100% {
     opacity: 0.2;
@@ -185,14 +166,9 @@ body {
 }
 
 .glitch:hover {
-  animation: glitchAnim 0.3s ease-in-out;
 }
 
-@keyframes glitchAnim {
-  0% {
-    clip-path: inset(40% 0 61% 0);
-    transform: translate(-2px, 2px);
-  }
+
 
   20% {
     clip-path: inset(92% 0 1% 0);
@@ -225,13 +201,9 @@ body {
     0.05em 0 0 var(--neon-magenta),
     -0.025em -0.05em 0 var(--neon-green),
     0.025em 0.05em 0 var(--neon-blue);
-  animation: glitchText 0.5s infinite;
 }
 
-@keyframes glitchText {
-  0% {
-    text-shadow: 0.05em 0 0 var(--neon-magenta), -0.025em -0.05em 0 var(--neon-green), 0.025em 0.05em 0 var(--neon-blue);
-  }
+
 
   14% {
     text-shadow: 0.05em 0 0 var(--neon-magenta), -0.025em -0.05em 0 var(--neon-green), 0.025em 0.05em 0 var(--neon-blue);
@@ -341,13 +313,9 @@ body {
   border: 2px solid transparent;
   border-top-color: currentColor;
   border-radius: 50%;
-  animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+
 }
 
 /* ===== SKIP LINK (Accessibility) ===== */
@@ -425,7 +393,6 @@ body {
   .skeleton::after,
   .glitch:hover,
   .glitch-text:hover {
-    animation: none;
   }
 }
 
@@ -493,7 +460,6 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradientShimmer 4s ease-in-out infinite;
 }
 
 /* ===== LAZY IMAGE FADE IN ===== */
