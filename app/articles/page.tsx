@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { BookOpen, ArrowLeft, Search, Calendar, ChevronRight, FileText } from 'lucide-react';
 
 interface Article {
@@ -14,6 +14,7 @@ interface Article {
 }
 
 export default function ArticlesPage() {
+    const router = useRouter();
     const [articles, setArticles] = useState<Article[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -33,6 +34,15 @@ export default function ArticlesPage() {
         article.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.category?.toLowerCase().includes(searchQuery.toLowerCase())
     );
+
+    // Direct navigation function for mobile compatibility
+    const navigateToArticle = (articleId: string) => {
+        window.location.href = `/articles/${articleId}`;
+    };
+
+    const navigateHome = () => {
+        window.location.href = '/';
+    };
 
     return (
         <main className="min-h-screen bg-[#0a0a0a] pb-16">
@@ -90,26 +100,36 @@ export default function ArticlesPage() {
                     </div>
                 )}
 
-                {/* Article Grid - Simple Clickable Cards */}
+                {/* Article Grid - Mobile Touch Optimized */}
                 {!loading && filteredArticles.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {filteredArticles.map((article) => (
-                            <Link
+                            <a
                                 key={article.id}
                                 href={`/articles/${article.id}`}
-                                onClick={() => {
-                                    window.location.href = `/articles/${article.id}`;
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    navigateToArticle(article.id);
                                 }}
-                                className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/10 transition-all duration-300 hover:-translate-y-1 active:scale-[0.98] group"
+                                onTouchEnd={(e) => {
+                                    e.preventDefault();
+                                    navigateToArticle(article.id);
+                                }}
+                                className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden cursor-pointer select-none"
+                                style={{ 
+                                    touchAction: 'manipulation',
+                                    WebkitTapHighlightColor: 'transparent'
+                                }}
                             >
                                 {/* Image Container - Fixed Height */}
-                                <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
+                                <div className="h-52 w-full overflow-hidden bg-zinc-800 relative pointer-events-none">
                                     {article.image ? (
                                         <img
                                             src={article.image}
                                             alt={article.title}
-                                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                            className="w-full h-full object-cover"
                                             loading="lazy"
+                                            draggable={false}
                                         />
                                     ) : (
                                         <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-900/20 to-zinc-900">
@@ -126,7 +146,7 @@ export default function ArticlesPage() {
                                 </div>
 
                                 {/* Card Content */}
-                                <div className="p-5">
+                                <div className="p-5 pointer-events-none">
                                     {/* Date */}
                                     <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                         <Calendar className="w-3.5 h-3.5" />
@@ -138,7 +158,7 @@ export default function ArticlesPage() {
                                     </div>
 
                                     {/* Title */}
-                                    <h2 className="text-lg font-semibold text-white mb-3 group-hover:text-green-400 transition-colors line-clamp-2">
+                                    <h2 className="text-lg font-semibold text-white mb-3 line-clamp-2">
                                         {article.title}
                                     </h2>
 
@@ -148,12 +168,12 @@ export default function ArticlesPage() {
                                     </p>
 
                                     {/* Read More */}
-                                    <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium group-hover:gap-2 transition-all">
+                                    <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium">
                                         <span>Read more</span>
                                         <ChevronRight className="w-4 h-4" />
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
                         ))}
                     </div>
                 )}
@@ -168,16 +188,25 @@ export default function ArticlesPage() {
 
                 {/* Back Link */}
                 <div className="mt-12 text-center">
-                    <Link
+                    <a
                         href="/"
-                        onClick={() => {
-                            window.location.href = '/';
+                        onClick={(e) => {
+                            e.preventDefault();
+                            navigateHome();
                         }}
-                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
+                        onTouchEnd={(e) => {
+                            e.preventDefault();
+                            navigateHome();
+                        }}
+                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 cursor-pointer select-none"
+                        style={{ 
+                            touchAction: 'manipulation',
+                            WebkitTapHighlightColor: 'transparent'
+                        }}
                     >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
-                    </Link>
+                    </a>
                 </div>
             </div>
         </main>
