@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, ArrowLeft, Search, Calendar, ChevronRight, FileText, X, Eye, EyeOff } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
@@ -69,7 +70,7 @@ export default function ArticlesPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <BookOpen className="w-16 h-16 mx-auto mb-6 text-cyan-400" />
+                    <BookOpen className="w-16 h-16 mx-auto mb-6 text-green-400" />
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white glitch-text">
                         Articles
                     </h1>
@@ -79,13 +80,13 @@ export default function ArticlesPage() {
                 </motion.div>
             </header>
 
-            <div className="max-w-4xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto px-4">
                 {/* Search Bar */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
-                    className="mb-8"
+                    className="mb-10"
                 >
                     <div className="relative max-w-md mx-auto">
                         <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
@@ -94,14 +95,14 @@ export default function ArticlesPage() {
                             placeholder="Search articles..."
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-cyan-500/50 transition-colors"
+                            className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
                         />
                     </div>
                 </motion.div>
 
                 {/* Skeleton Loading State */}
                 {loading && (
-                    <SkeletonGrid count={4} variant="article" columns={1} />
+                    <SkeletonGrid count={6} variant="article" columns={3} />
                 )}
 
                 {/* Empty State */}
@@ -120,13 +121,13 @@ export default function ArticlesPage() {
                     </motion.div>
                 )}
 
-                {/* Article List */}
+                {/* Article Grid - Perfect Uniform Cards */}
                 {!loading && filteredArticles.length > 0 && (
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.2 }}
-                        className="space-y-4"
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
                     >
                         <AnimatePresence>
                             {filteredArticles.map((article, index) => (
@@ -137,45 +138,62 @@ export default function ArticlesPage() {
                                     exit={{ opacity: 0, y: -20 }}
                                     transition={{ delay: index * 0.1 }}
                                     onClick={() => setSelectedArticle(article)}
-                                    className="group p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-cyan-500/30 transition-all duration-300 cursor-pointer glitch"
+                                    className="group bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/10 transition-all duration-300 cursor-pointer flex flex-col"
                                 >
-                                    <div className="flex items-start gap-4">
-                                        {article.image && (
-                                            <div className="w-24 h-24 rounded-lg flex-shrink-0 overflow-hidden relative">
-                                                {imageError[article.id] ? (
-                                                    <MatrixRainCSS />
-                                                ) : (
-                                                    <img
-                                                        src={article.image}
-                                                        alt={article.title}
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        className="w-full h-full object-cover"
-                                                        onError={() => handleImageError(article.id)}
-                                                    />
-                                                )}
+                                    {/* Fixed Height Image Container */}
+                                    <div className="relative h-52 w-full overflow-hidden bg-zinc-800">
+                                        {article.image && !imageError[article.id] ? (
+                                            <Image
+                                                src={article.image}
+                                                alt={article.title}
+                                                fill
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                                onError={() => handleImageError(article.id)}
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full">
+                                                <MatrixRainCSS />
                                             </div>
                                         )}
-                                        <div className="flex-1 min-w-0">
-                                            <div className="flex items-center gap-2 mb-2">
-                                                {article.category && (
-                                                    <span className="px-2 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded">
-                                                        {article.category}
-                                                    </span>
-                                                )}
-                                                <span className="text-sm text-zinc-500 flex items-center gap-1">
-                                                    <Calendar className="w-3 h-3" />
-                                                    {new Date(article.date).toLocaleDateString()}
-                                                </span>
-                                            </div>
-                                            <h2 className="text-xl font-semibold text-white mb-2 group-hover:text-cyan-400 transition-colors">
-                                                {article.title}
-                                            </h2>
-                                            <p className="text-zinc-400 text-sm line-clamp-2">
-                                                {article.content.substring(0, 150)}...
-                                            </p>
+                                        {/* Gradient Overlay */}
+                                        <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 via-transparent to-transparent" />
+                                        
+                                        {/* Category Badge */}
+                                        {article.category && (
+                                            <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30 backdrop-blur-sm">
+                                                {article.category}
+                                            </span>
+                                        )}
+                                    </div>
+
+                                    {/* Card Content */}
+                                    <div className="p-5 flex-1 flex flex-col">
+                                        {/* Date */}
+                                        <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
+                                            <Calendar className="w-3.5 h-3.5" />
+                                            <span>{new Date(article.date).toLocaleDateString('en-US', { 
+                                                year: 'numeric', 
+                                                month: 'short', 
+                                                day: 'numeric' 
+                                            })}</span>
                                         </div>
-                                        <ChevronRight className="w-5 h-5 text-zinc-600 group-hover:text-cyan-400 group-hover:translate-x-1 transition-all flex-shrink-0" />
+
+                                        {/* Title */}
+                                        <h2 className="text-lg font-semibold text-white mb-3 group-hover:text-green-400 transition-colors line-clamp-2">
+                                            {article.title}
+                                        </h2>
+
+                                        {/* Preview Text - line-clamp-3 for perfect alignment */}
+                                        <p className="text-green-400/80 text-sm leading-relaxed line-clamp-3 flex-1">
+                                            {article.content.replace(/[#*`\[\]]/g, '').substring(0, 200)}
+                                        </p>
+
+                                        {/* Read More */}
+                                        <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium group-hover:gap-2 transition-all">
+                                            <span>Read more</span>
+                                            <ChevronRight className="w-4 h-4" />
+                                        </div>
                                     </div>
                                 </motion.article>
                             ))}
@@ -227,7 +245,7 @@ export default function ArticlesPage() {
                         >
                             {/* Glassmorphism Modal */}
                             <div
-                                className="glass-modal overflow-hidden scanlines"
+                                className="glass-modal overflow-hidden scanlines rounded-2xl"
                                 style={{
                                     background: `rgba(18, 18, 18, ${glassOpacity})`
                                 }}
@@ -254,14 +272,15 @@ export default function ArticlesPage() {
 
                                 {/* Article Image */}
                                 {selectedArticle.image && (
-                                    <div className="relative h-64 overflow-hidden">
+                                    <div className="relative h-72 overflow-hidden">
                                         {imageError[selectedArticle.id] ? (
                                             <MatrixRainCSS />
                                         ) : (
-                                            <img
+                                            <Image
                                                 src={selectedArticle.image}
                                                 alt={selectedArticle.title}
-                                                className="w-full h-full object-cover"
+                                                fill
+                                                className="object-cover"
                                                 onError={() => handleImageError(selectedArticle.id)}
                                             />
                                         )}
@@ -271,24 +290,39 @@ export default function ArticlesPage() {
 
                                 {/* Article Content */}
                                 <div className="p-6 md:p-8">
-                                    <div className="flex items-center gap-2 mb-4">
+                                    <div className="flex items-center gap-3 mb-5">
                                         {selectedArticle.category && (
-                                            <span className="px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded-full border border-cyan-500/30">
+                                            <span className="px-3 py-1.5 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30">
                                                 {selectedArticle.category}
                                             </span>
                                         )}
-                                        <span className="text-sm text-zinc-500 flex items-center gap-1">
-                                            <Calendar className="w-3 h-3" />
-                                            {new Date(selectedArticle.date).toLocaleDateString()}
+                                        <span className="text-sm text-zinc-500 flex items-center gap-1.5">
+                                            <Calendar className="w-3.5 h-3.5" />
+                                            {new Date(selectedArticle.date).toLocaleDateString('en-US', {
+                                                year: 'numeric',
+                                                month: 'long',
+                                                day: 'numeric'
+                                            })}
                                         </span>
                                     </div>
 
-                                    <h1 className="text-2xl md:text-3xl font-bold text-white mb-6 cyber-gradient inline-block">
+                                    <h1 className="text-2xl md:text-3xl font-bold text-white mb-8 leading-tight">
                                         {selectedArticle.title}
                                     </h1>
 
-                                    {/* Markdown Content with Cyber Prose */}
-                                    <div className="prose prose-invert prose-zinc max-w-none prose-cyber">
+                                    {/* Markdown Content with Premium Blog Styling */}
+                                    <div className="prose prose-invert prose-zinc max-w-none
+                                        prose-headings:text-white prose-headings:font-bold
+                                        prose-h1:text-2xl prose-h1:mt-8 prose-h1:mb-4
+                                        prose-h2:text-xl prose-h2:mt-6 prose-h2:mb-3 prose-h2:text-green-400
+                                        prose-h3:text-lg prose-h3:mt-4 prose-h3:mb-2
+                                        prose-p:text-green-400/80 prose-p:leading-relaxed prose-p:mb-4
+                                        prose-li:text-green-400/80 prose-li:marker:text-green-500
+                                        prose-strong:text-white prose-strong:font-semibold
+                                        prose-code:text-green-300 prose-code:bg-zinc-800/50 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded
+                                        prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-800
+                                        prose-blockquote:border-l-green-500 prose-blockquote:bg-zinc-900/50 prose-blockquote:py-1 prose-blockquote:text-zinc-300
+                                    ">
                                         <ReactMarkdown
                                             remarkPlugins={[remarkGfm]}
                                             components={{
@@ -297,7 +331,7 @@ export default function ArticlesPage() {
                                                         href={href}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-[var(--neon-green)] hover:text-[var(--neon-blue)] underline underline-offset-4 transition-colors"
+                                                        className="text-green-400 hover:text-green-300 underline underline-offset-4 decoration-green-500/50 hover:decoration-green-400 transition-colors"
                                                     >
                                                         {children}
                                                     </a>
@@ -310,7 +344,7 @@ export default function ArticlesPage() {
 
                                     <button
                                         onClick={() => setSelectedArticle(null)}
-                                        className="mt-8 px-6 py-3 neon-btn rounded-xl font-medium"
+                                        className="mt-10 px-8 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium hover:bg-green-500/30 transition-colors"
                                     >
                                         Close Article
                                     </button>
