@@ -97,6 +97,9 @@ export default function ArticlesPage() {
                             <Link
                                 key={article.id}
                                 href={`/articles/${article.id}`}
+                                onClick={() => {
+                                    window.location.href = `/articles/${article.id}`;
+                                }}
                                 className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/10 transition-all duration-300 hover:-translate-y-1 active:scale-[0.98] group"
                             >
                                 {/* Image Container - Fixed Height */}
@@ -167,6 +170,9 @@ export default function ArticlesPage() {
                 <div className="mt-12 text-center">
                     <Link
                         href="/"
+                        onClick={() => {
+                            window.location.href = '/';
+                        }}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />
