@@ -1,7 +1,7 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { BookOpen, ArrowLeft, Search, Calendar, ChevronRight, FileText } from 'lucide-react';
+import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText } from 'lucide-react';
+import fs from 'fs';
+import path from 'path';
+import Link from 'next/link';
 
 interface Article {
     id: string;
@@ -12,26 +12,24 @@ interface Article {
     category?: string;
 }
 
-export default function ArticlesPage() {
-    const [articles, setArticles] = useState<Article[]>([]);
-    const [loading, setLoading] = useState(true);
-    const [searchQuery, setSearchQuery] = useState('');
+interface DataFile {
+    articles: Article[];
+}
 
-    useEffect(() => {
-        fetch('/api/content?type=articles')
-            .then(res => res.json())
-            .then(data => {
-                setArticles(data.items || []);
-                setLoading(false);
-            })
-            .catch(() => setLoading(false));
-    }, []);
+async function getArticles(): Promise<Article[]> {
+    try {
+        const dataPath = path.join(process.cwd(), 'data', 'data.json');
+        const fileContents = fs.readFileSync(dataPath, 'utf8');
+        const data: DataFile = JSON.parse(fileContents);
+        return data.articles || [];
+    } catch (error) {
+        console.error('Error reading articles:', error);
+        return [];
+    }
+}
 
-    const filteredArticles = articles.filter(article =>
-        article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.category?.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+export default async function ArticlesPage() {
+    const articles = await getArticles();
 
     return (
         <main className="min-h-screen bg-[#0a0a0a] pb-16">
@@ -49,39 +47,8 @@ export default function ArticlesPage() {
             </header>
 
             <div className="max-w-6xl mx-auto px-4">
-                {/* Search Bar */}
-                <div className="mb-10">
-                    <div className="relative max-w-md mx-auto">
-                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-                        <input
-                            type="text"
-                            placeholder="Search articles..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50"
-                        />
-                    </div>
-                </div>
-
-                {/* Loading State */}
-                {loading && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {[1, 2, 3].map((i) => (
-                            <div key={i} className="bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden">
-                                <div className="h-52 bg-zinc-800" />
-                                <div className="p-5">
-                                    <div className="h-4 bg-zinc-800 rounded w-1/3 mb-3" />
-                                    <div className="h-6 bg-zinc-800 rounded w-3/4 mb-3" />
-                                    <div className="h-4 bg-zinc-800 rounded w-full mb-2" />
-                                    <div className="h-4 bg-zinc-800 rounded w-2/3" />
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                )}
-
                 {/* Empty State */}
-                {!loading && articles.length === 0 && (
+                {articles.length === 0 && (
                     <div className="text-center py-16">
                         <FileText className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
                         <p className="text-zinc-500 text-lg mb-2">No articles published yet</p>
@@ -89,11 +56,11 @@ export default function ArticlesPage() {
                     </div>
                 )}
 
-                {/* Article Grid - Simple static cards with NO animations */}
-                {!loading && filteredArticles.length > 0 && (
+                {/* Article Grid - Simple static cards */}
+                {articles.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {filteredArticles.map((article) => (
-                            <a
+                        {articles.map((article) => (
+                            <Link
                                 key={article.id}
                                 href={`/articles/${article.id}`}
                                 className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden"
@@ -143,25 +110,17 @@ export default function ArticlesPage() {
                                         <ChevronRight className="w-4 h-4" />
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         ))}
-                    </div>
-                )}
-
-                {/* No Search Results */}
-                {!loading && articles.length > 0 && filteredArticles.length === 0 && (
-                    <div className="text-center py-16">
-                        <Search className="w-12 h-12 mx-auto mb-4 text-zinc-600" />
-                        <p className="text-zinc-500">No articles match your search</p>
                     </div>
                 )}
 
                 {/* Back Link */}
                 <div className="mt-12 text-center">
-                    <a href="/" className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400">
+                    <Link href="/" className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400">
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
-                    </a>
+                    </Link>
                 </div>
             </div>
         </main>
