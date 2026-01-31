@@ -14,6 +14,9 @@ export async function GET(request: NextRequest) {
                 return NextResponse.json({ items: getAILabs() });
             case 'securityTools':
                 return NextResponse.json({ items: getSecurityTools() });
+            case 'aiNews':
+                // Ready for future API integration with real-time news
+                return NextResponse.json({ items: [] });
             default:
                 return NextResponse.json({
                     articles: getArticles(),
