@@ -4,7 +4,7 @@ import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
 import fs from 'fs';
 import path from 'path';
 
-// Force dynamic rendering - prevent static caching
+// Force dynamic rendering
 export const dynamic = 'force-dynamic';
 export const dynamicParams = true;
 export const revalidate = 0;
@@ -27,7 +27,6 @@ async function getArticle(id: string): Promise<Article | null> {
         const dataPath = path.join(process.cwd(), 'data', 'data.json');
         const fileContents = fs.readFileSync(dataPath, 'utf8');
         const data: DataFile = JSON.parse(fileContents);
-
         const article = data.articles.find((a) => a.id === id);
         return article || null;
     } catch (error) {
@@ -43,12 +42,10 @@ function getReadingTime(content: string): number {
 }
 
 function formatContent(content: string): string[] {
-    const paragraphs = content
+    return content
         .split(/\n\n+/)
         .map(p => p.trim())
         .filter(p => p.length > 0);
-
-    return paragraphs;
 }
 
 export default async function ArticlePage({
@@ -68,36 +65,39 @@ export default async function ArticlePage({
 
     return (
         <main className="min-h-screen bg-[#0a0a0a]">
-            {/* Hero Section with Image */}
-            <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
+            {/* Hero Section with Image - No complex overlays */}
+            <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900">
                 {article.image ? (
                     <img
                         src={article.image}
                         alt={article.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover opacity-80"
                     />
                 ) : (
                     <div className="w-full h-full bg-gradient-to-br from-green-900/30 to-zinc-900" />
                 )}
 
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
+                {/* Simple gradient overlay - pointer-events: none */}
+                <div 
+                    className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"
+                    style={{ pointerEvents: 'none' }}
+                />
 
-                {/* Back Button */}
+                {/* Back Button - Always clickable */}
                 <Link
                     href="/articles"
-                    className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/50 backdrop-blur-md rounded-full text-white"
+                    className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/60 rounded-full text-white hover:bg-black/80 transition-colors z-10"
                 >
                     <ArrowLeft className="w-4 h-4" />
-                    <span>Back to Articles</span>
+                    <span>Back</span>
                 </Link>
             </div>
 
-            {/* Article Content - Glass Container */}
-            <div className="max-w-4xl mx-auto px-4 -mt-32 relative z-10 pb-16">
-                <article className="bg-black/80 backdrop-blur-md rounded-2xl border border-zinc-800/50 overflow-hidden shadow-2xl">
+            {/* Article Content */}
+            <div className="max-w-4xl mx-auto px-4 -mt-20 relative z-10 pb-16">
+                <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800 overflow-hidden">
                     {/* Article Header */}
-                    <div className="p-8 md:p-12 border-b border-zinc-800/50">
+                    <div className="p-8 md:p-10 border-b border-zinc-800">
                         {/* Meta Info */}
                         <div className="flex flex-wrap items-center gap-4 mb-6">
                             {article.category && (
@@ -121,37 +121,39 @@ export default async function ArticlePage({
                         </div>
 
                         {/* Title */}
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+                        <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">
                             {article.title}
                         </h1>
                     </div>
 
-                    {/* Article Body - AI-Style Formatting */}
-                    <div className="p-8 md:p-12">
+                    {/* Article Body - Clean text formatting */}
+                    <div className="p-8 md:p-10">
                         <div className="space-y-6">
                             {paragraphs.map((paragraph, index) => {
                                 const isNumberedItem = /^\d+\./.test(paragraph);
                                 const hasLink = paragraph.includes('http');
 
+                                // Numbered list items
                                 if (isNumberedItem) {
                                     return (
                                         <div
                                             key={index}
                                             className="pl-6 border-l-2 border-green-500/30 py-2"
                                         >
-                                            <p className="text-gray-300 text-lg leading-7 whitespace-pre-line">
+                                            <p className="text-gray-300 text-lg leading-8">
                                                 {paragraph}
                                             </p>
                                         </div>
                                     );
                                 }
 
+                                // Paragraphs with links
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
                                     const parts = paragraph.split(urlRegex);
 
                                     return (
-                                        <p key={index} className="text-gray-300 text-lg leading-7 whitespace-pre-line">
+                                        <p key={index} className="text-gray-300 text-lg leading-8">
                                             {parts.map((part, i) => {
                                                 if (part.match(urlRegex)) {
                                                     return (
@@ -160,7 +162,7 @@ export default async function ArticlePage({
                                                             href={part}
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="text-green-400 underline underline-offset-4 break-all"
+                                                            className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
                                                         >
                                                             {part}
                                                         </a>
@@ -172,10 +174,11 @@ export default async function ArticlePage({
                                     );
                                 }
 
+                                // Regular paragraphs
                                 return (
                                     <p
                                         key={index}
-                                        className="text-gray-300 text-lg leading-7 whitespace-pre-line"
+                                        className="text-gray-300 text-lg leading-8"
                                     >
                                         {paragraph}
                                     </p>
@@ -185,14 +188,14 @@ export default async function ArticlePage({
                     </div>
 
                     {/* Article Footer */}
-                    <div className="p-8 md:p-12 border-t border-zinc-800/50 bg-zinc-900/30">
+                    <div className="p-8 md:p-10 border-t border-zinc-800 bg-zinc-900/50">
                         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                             <p className="text-zinc-500 text-sm">
                                 Thank you for reading this article.
                             </p>
                             <Link
                                 href="/articles"
-                                className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium hover:bg-green-500/30 transition-colors"
                             >
                                 <ArrowLeft className="w-4 h-4" />
                                 More Articles
@@ -214,9 +217,7 @@ export async function generateMetadata({
     const article = await getArticle(id);
 
     if (!article) {
-        return {
-            title: 'Article Not Found',
-        };
+        return { title: 'Article Not Found' };
     }
 
     return {

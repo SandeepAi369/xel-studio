@@ -39,15 +39,13 @@ export default async function ArticlesPage() {
         <main className="min-h-screen bg-[#0a0a0a] pb-16">
             {/* Header */}
             <header className="pt-16 pb-8 px-4 text-center">
-                <div>
-                    <BookOpen className="w-16 h-16 mx-auto mb-6 text-green-400" />
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-                        Articles
-                    </h1>
-                    <p className="text-zinc-400 text-lg max-w-md mx-auto">
-                        Deep dives into AI Research, LLM Architecture, and Technical Analysis
-                    </p>
-                </div>
+                <BookOpen className="w-16 h-16 mx-auto mb-6 text-green-400" />
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+                    Articles
+                </h1>
+                <p className="text-zinc-400 text-lg max-w-md mx-auto">
+                    Deep dives into AI Research, LLM Architecture, and Technical Analysis
+                </p>
             </header>
 
             <div className="max-w-6xl mx-auto px-4">
@@ -60,73 +58,88 @@ export default async function ArticlesPage() {
                     </div>
                 )}
 
-                {/* Article Grid - Simple static cards */}
+                {/* Article Grid - Simple clickable cards */}
                 {articles.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {articles.map((article) => (
-                            <Link
-                                key={article.id}
-                                href={`/articles/${article.id}`}
-                                className="block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden"
-                            >
-                                {/* Image */}
-                                <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
-                                    {article.image ? (
-                                        <img
-                                            src={article.image}
-                                            alt={article.title}
-                                            className="w-full h-full object-cover"
-                                        />
-                                    ) : (
-                                        <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-900/20 to-zinc-900">
-                                            <FileText className="w-12 h-12 text-green-500/30" />
-                                        </div>
-                                    )}
-
-                                    {article.category && (
-                                        <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30">
-                                            {article.category}
-                                        </span>
-                                    )}
-                                </div>
-
-                                {/* Content */}
-                                <div className="p-5">
-                                    <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
-                                        <Calendar className="w-3.5 h-3.5" />
-                                        <span>{new Date(article.date).toLocaleDateString('en-US', {
-                                            year: 'numeric',
-                                            month: 'short',
-                                            day: 'numeric'
-                                        })}</span>
-                                    </div>
-
-                                    <h2 className="text-lg font-semibold text-white mb-3 line-clamp-2">
-                                        {article.title}
-                                    </h2>
-
-                                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
-                                        {article.content.replace(/[#*`\[\]]/g, '').substring(0, 150)}
-                                    </p>
-
-                                    <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium">
-                                        <span>Read more</span>
-                                        <ChevronRight className="w-4 h-4" />
-                                    </div>
-                                </div>
-                            </Link>
+                            <ArticleCard key={article.id} article={article} />
                         ))}
                     </div>
                 )}
 
                 {/* Back Link */}
                 <div className="mt-12 text-center">
-                    <Link href="/" className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400">
+                    <Link 
+                        href="/" 
+                        className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
+                    >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
                     </Link>
                 </div>
             </div>
         </main>
+    );
+}
+
+// Separate component for article card - simple and click-friendly
+function ArticleCard({ article }: { article: Article }) {
+    return (
+        <Link
+            href={`/articles/${article.id}`}
+            className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer"
+            style={{ position: 'relative', zIndex: 1 }}
+        >
+            {/* Image Container - No overlays blocking clicks */}
+            <div className="h-52 w-full overflow-hidden bg-zinc-800">
+                {article.image ? (
+                    <img
+                        src={article.image}
+                        alt={article.title}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                    />
+                ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-900/20 to-zinc-900">
+                        <FileText className="w-12 h-12 text-green-500/30" />
+                    </div>
+                )}
+                
+                {/* Category badge - positioned but not blocking */}
+                {article.category && (
+                    <span 
+                        className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30"
+                        style={{ pointerEvents: 'none' }}
+                    >
+                        {article.category}
+                    </span>
+                )}
+            </div>
+
+            {/* Content - Simple text, no complex overlays */}
+            <div className="p-5">
+                <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
+                    <Calendar className="w-3.5 h-3.5" />
+                    <span>{new Date(article.date).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                    })}</span>
+                </div>
+
+                <h2 className="text-lg font-semibold text-white mb-3 line-clamp-2">
+                    {article.title}
+                </h2>
+
+                <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+                    {article.content.replace(/[#*`\[\]]/g, '').substring(0, 150)}...
+                </p>
+
+                <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium">
+                    <span>Read more</span>
+                    <ChevronRight className="w-4 h-4" />
+                </div>
+            </div>
+        </Link>
     );
 }
