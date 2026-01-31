@@ -4,6 +4,11 @@ import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
 import fs from 'fs';
 import path from 'path';
 
+// Force dynamic rendering - prevent static caching
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+export const revalidate = 0;
+
 interface Article {
     id: string;
     title: string;
@@ -22,7 +27,7 @@ async function getArticle(id: string): Promise<Article | null> {
         const dataPath = path.join(process.cwd(), 'data', 'data.json');
         const fileContents = fs.readFileSync(dataPath, 'utf8');
         const data: DataFile = JSON.parse(fileContents);
-        
+
         const article = data.articles.find((a) => a.id === id);
         return article || null;
     } catch (error) {
@@ -42,14 +47,14 @@ function formatContent(content: string): string[] {
         .split(/\n\n+/)
         .map(p => p.trim())
         .filter(p => p.length > 0);
-    
+
     return paragraphs;
 }
 
-export default async function ArticlePage({ 
-    params 
-}: { 
-    params: Promise<{ id: string }> 
+export default async function ArticlePage({
+    params
+}: {
+    params: Promise<{ id: string }>
 }) {
     const { id } = await params;
     const article = await getArticle(id);
@@ -74,10 +79,10 @@ export default async function ArticlePage({
                 ) : (
                     <div className="w-full h-full bg-gradient-to-br from-green-900/30 to-zinc-900" />
                 )}
-                
+
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
-                
+
                 {/* Back Button */}
                 <Link
                     href="/articles"
@@ -127,10 +132,10 @@ export default async function ArticlePage({
                             {paragraphs.map((paragraph, index) => {
                                 const isNumberedItem = /^\d+\./.test(paragraph);
                                 const hasLink = paragraph.includes('http');
-                                
+
                                 if (isNumberedItem) {
                                     return (
-                                        <div 
+                                        <div
                                             key={index}
                                             className="pl-6 border-l-2 border-green-500/30 py-2"
                                         >
@@ -140,11 +145,11 @@ export default async function ArticlePage({
                                         </div>
                                     );
                                 }
-                                
+
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
                                     const parts = paragraph.split(urlRegex);
-                                    
+
                                     return (
                                         <p key={index} className="text-gray-300 text-lg leading-7 whitespace-pre-line">
                                             {parts.map((part, i) => {
@@ -166,9 +171,9 @@ export default async function ArticlePage({
                                         </p>
                                     );
                                 }
-                                
+
                                 return (
-                                    <p 
+                                    <p
                                         key={index}
                                         className="text-gray-300 text-lg leading-7 whitespace-pre-line"
                                     >
@@ -200,14 +205,14 @@ export default async function ArticlePage({
     );
 }
 
-export async function generateMetadata({ 
-    params 
-}: { 
-    params: Promise<{ id: string }> 
+export async function generateMetadata({
+    params
+}: {
+    params: Promise<{ id: string }>
 }) {
     const { id } = await params;
     const article = await getArticle(id);
-    
+
     if (!article) {
         return {
             title: 'Article Not Found',
