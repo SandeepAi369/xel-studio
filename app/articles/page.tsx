@@ -3,6 +3,10 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
+// Force dynamic rendering - prevent static caching
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface Article {
     id: string;
     title: string;
@@ -78,7 +82,7 @@ export default async function ArticlesPage() {
                                             <FileText className="w-12 h-12 text-green-500/30" />
                                         </div>
                                     )}
-                                    
+
                                     {article.category && (
                                         <span className="absolute top-3 left-3 px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30">
                                             {article.category}
@@ -90,10 +94,10 @@ export default async function ArticlesPage() {
                                 <div className="p-5">
                                     <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                         <Calendar className="w-3.5 h-3.5" />
-                                        <span>{new Date(article.date).toLocaleDateString('en-US', { 
-                                            year: 'numeric', 
-                                            month: 'short', 
-                                            day: 'numeric' 
+                                        <span>{new Date(article.date).toLocaleDateString('en-US', {
+                                            year: 'numeric',
+                                            month: 'short',
+                                            day: 'numeric'
                                         })}</span>
                                     </div>
 
