@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, Brain, ShoppingBag, ShieldCheck } from 'lucide-react';
+import { BookOpen, Brain, ShoppingBag, ShieldCheck, Newspaper } from 'lucide-react';
 
 const cardData = [
     {
@@ -37,6 +37,14 @@ const cardData = [
         iconName: 'ShieldCheck',
         accentColor: '#f87171',
     },
+    {
+        id: 'ai-news',
+        title: 'AI News',
+        description: 'Latest AI Updates, Research Breakthroughs & Industry Trends',
+        href: '/ai-news',
+        iconName: 'Newspaper',
+        accentColor: '#f59e0b',
+    },
 ];
 
 const iconMap = {
@@ -44,6 +52,7 @@ const iconMap = {
     Brain,
     ShoppingBag,
     ShieldCheck,
+    Newspaper,
 };
 
 interface CardProps {
