@@ -55,46 +55,20 @@ body {
   }
 }
 
-/* ===== HERO GRADIENT TEXT WITH SHIMMER ===== */
+/* ===== HERO GRADIENT TEXT (Static) ===== */
 .hero-gradient-text {
   background: linear-gradient(135deg,
       #10b981 0%,
       #34d399 50%,
       #6ee7b7 100%);
-  background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradientShimmer 3s ease-in-out infinite;
 }
 
-@keyframes gradientShimmer {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* ===== SUBTITLE GLOW EFFECT ===== */
+/* ===== SUBTITLE GLOW EFFECT (Static) ===== */
 .subtitle-glow {
-  animation: subtleGlow 2s ease-in-out infinite alternate;
-}
-
-@keyframes subtleGlow {
-  from {
-    text-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
-  }
-
-  to {
-    text-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
-  }
+  text-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
 }
 
 /* ===== SKELETON SHIMMER EFFECT ===== */
@@ -189,41 +163,7 @@ body {
 }
 
 .glitch-text:hover {
-  text-shadow:
-    0.05em 0 0 var(--neon-magenta),
-    -0.025em -0.05em 0 var(--neon-green),
-    0.025em 0.05em 0 var(--neon-blue);
-  animation: glitchText 0.5s infinite;
-}
-
-@keyframes glitchText {
-  0% {
-    text-shadow: 0.05em 0 0 var(--neon-magenta), -0.025em -0.05em 0 var(--neon-green), 0.025em 0.05em 0 var(--neon-blue);
-  }
-
-  14% {
-    text-shadow: 0.05em 0 0 var(--neon-magenta), -0.025em -0.05em 0 var(--neon-green), 0.025em 0.05em 0 var(--neon-blue);
-  }
-
-  15% {
-    text-shadow: -0.05em -0.025em 0 var(--neon-magenta), 0.025em 0.025em 0 var(--neon-green), -0.05em -0.05em 0 var(--neon-blue);
-  }
-
-  49% {
-    text-shadow: -0.05em -0.025em 0 var(--neon-magenta), 0.025em 0.025em 0 var(--neon-green), -0.05em -0.05em 0 var(--neon-blue);
-  }
-
-  50% {
-    text-shadow: 0.025em 0.05em 0 var(--neon-magenta), 0.05em 0 0 var(--neon-green), 0 -0.05em 0 var(--neon-blue);
-  }
-
-  99% {
-    text-shadow: 0.025em 0.05em 0 var(--neon-magenta), 0.05em 0 0 var(--neon-green), 0 -0.05em 0 var(--neon-blue);
-  }
-
-  100% {
-    text-shadow: -0.025em 0 0 var(--neon-magenta), -0.025em -0.025em 0 var(--neon-green), -0.025em -0.05em 0 var(--neon-blue);
-  }
+  text-shadow: 0 0 8px var(--neon-green);
 }
 
 /* ===== SCANLINES OVERLAY ===== */
@@ -461,7 +401,6 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradientShimmer 4s ease-in-out infinite;
 }
 
 /* ===== LAZY IMAGE FADE IN ===== */
