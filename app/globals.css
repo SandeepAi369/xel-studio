@@ -184,39 +184,8 @@ body {
 }
 
 .glitch:hover {
-  animation: glitchAnim 0.3s ease-in-out;
-}
-
-@keyframes glitchAnim {
-  0% {
-    clip-path: inset(40% 0 61% 0);
-    transform: translate(-2px, 2px);
-  }
-
-  20% {
-    clip-path: inset(92% 0 1% 0);
-    transform: translate(2px, -2px);
-  }
-
-  40% {
-    clip-path: inset(43% 0 1% 0);
-    transform: translate(-2px, 2px);
-  }
-
-  60% {
-    clip-path: inset(25% 0 58% 0);
-    transform: translate(2px, -2px);
-  }
-
-  80% {
-    clip-path: inset(54% 0 7% 0);
-    transform: translate(-2px, 2px);
-  }
-
-  100% {
-    clip-path: inset(0);
-    transform: translate(0);
-  }
+  /* Simple glow instead of clip-path (clip-path blocks clicks) */
+  filter: drop-shadow(0 0 2px var(--neon-green));
 }
 
 .glitch-text:hover {

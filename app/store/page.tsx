@@ -132,7 +132,7 @@ export default function StorePage() {
                                     animate={{ opacity: 1, y: 0 }}
                                     exit={{ opacity: 0, y: -20 }}
                                     transition={{ delay: index * 0.1 }}
-                                    className="group p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-emerald-500/30 transition-all duration-300 glitch"
+                                    className="group p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-emerald-500/30 transition-all duration-300"
                                 >
                                     <div className="flex items-start gap-4 mb-4">
                                         <div className="w-14 h-14 bg-gradient-to-br from-emerald-500/20 to-emerald-600/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:shadow-[0_0_20px_rgba(0,255,170,0.3)] transition-shadow">
