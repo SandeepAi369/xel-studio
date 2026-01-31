@@ -10,7 +10,7 @@ interface MatrixRainProps {
 /**
  * Matrix Code Rain Component
  * Pure CSS/Canvas fallback for missing images
- * Displays katakana characters falling like digital rain
+ * IMPORTANT: pointer-events: none ensures this never blocks clicks
  */
 export default function MatrixRain({ className = '', opacity = 0.15 }: MatrixRainProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -22,7 +22,6 @@ export default function MatrixRain({ className = '', opacity = 0.15 }: MatrixRai
         const ctx = canvas.getContext('2d');
         if (!ctx) return;
 
-        // Set canvas size
         const resize = () => {
             canvas.width = canvas.offsetWidth;
             canvas.height = canvas.offsetHeight;
@@ -30,23 +29,15 @@ export default function MatrixRain({ className = '', opacity = 0.15 }: MatrixRai
         resize();
         window.addEventListener('resize', resize);
 
-        // Katakana characters
         const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789';
         const charArray = chars.split('');
-
         const fontSize = 14;
         const columns = Math.floor(canvas.width / fontSize);
-
-        // Drop positions for each column
         const drops: number[] = Array(columns).fill(1);
 
-        // Animation
         const draw = () => {
-            // Semi-transparent black for trail effect
             ctx.fillStyle = 'rgba(10, 10, 10, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            // Green neon text
             ctx.fillStyle = '#00FFAA';
             ctx.font = `${fontSize}px monospace`;
 
@@ -54,10 +45,8 @@ export default function MatrixRain({ className = '', opacity = 0.15 }: MatrixRai
                 const char = charArray[Math.floor(Math.random() * charArray.length)];
                 const x = i * fontSize;
                 const y = drops[i] * fontSize;
-
                 ctx.fillText(char, x, y);
 
-                // Reset drop randomly
                 if (y > canvas.height && Math.random() > 0.975) {
                     drops[i] = 0;
                 }
@@ -77,7 +66,10 @@ export default function MatrixRain({ className = '', opacity = 0.15 }: MatrixRai
         <canvas
             ref={canvasRef}
             className={`absolute inset-0 w-full h-full ${className}`}
-            style={{ opacity }}
+            style={{ 
+                opacity,
+                pointerEvents: 'none' // CRITICAL: Never block clicks
+            }}
             aria-hidden="true"
         />
     );
@@ -91,6 +83,7 @@ export function MatrixRainCSS({ className = '' }: { className?: string }) {
     return (
         <div
             className={`matrix-rain absolute inset-0 ${className}`}
+            style={{ pointerEvents: 'none' }}
             aria-hidden="true"
         />
     );
@@ -107,7 +100,6 @@ interface ImageWithFallbackProps {
 }
 
 export function ImageWithFallback({ src, alt, className = '' }: ImageWithFallbackProps) {
-    const imgRef = useRef<HTMLImageElement>(null);
     const [showFallback, setShowFallback] = useState(false);
     const [loaded, setLoaded] = useState(false);
 
@@ -117,13 +109,11 @@ export function ImageWithFallback({ src, alt, className = '' }: ImageWithFallbac
 
             {!showFallback && (
                 <img
-                    ref={imgRef}
                     src={src}
                     alt={alt}
                     loading="lazy"
                     decoding="async"
-                    className={`w-full h-full object-cover transition-opacity duration-300 ${loaded ? 'opacity-100' : 'opacity-0'
-                        }`}
+                    className={`w-full h-full object-cover transition-opacity duration-300 ${loaded ? 'opacity-100' : 'opacity-0'}`}
                     onLoad={() => setLoaded(true)}
                     onError={() => setShowFallback(true)}
                 />

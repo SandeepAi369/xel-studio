@@ -63,32 +63,31 @@ function BentoCard({ title, description, href, iconName, accentColor, isWide }: 
         <div className={isWide ? 'md:col-span-2' : ''}>
             <Link
                 href={href}
-                className="bento-card group block h-full min-h-[200px] md:min-h-[240px] p-6 md:p-8 rounded-2xl overflow-hidden bg-zinc-900/40 border border-zinc-800/50 transition-all duration-300 hover:-translate-y-2 hover:border-zinc-600/50 hover:shadow-lg hover:shadow-black/20"
-                style={{
-                    '--accent-color': accentColor,
-                } as React.CSSProperties}
+                className="bento-card group block h-full min-h-[200px] md:min-h-[240px] p-6 md:p-8 rounded-2xl overflow-hidden bg-zinc-900/40 border border-zinc-800/50 hover:border-zinc-600/50 cursor-pointer"
             >
                 <div className="flex flex-col h-full">
-                    <div className="mb-4 transition-transform duration-300 group-hover:scale-110">
+                    {/* Icon */}
+                    <div className="mb-4">
                         <Icon
-                            className="w-10 h-10 md:w-12 md:h-12 transition-all duration-300"
-                            style={{
-                                color: accentColor,
-                            }}
+                            className="w-10 h-10 md:w-12 md:h-12"
+                            style={{ color: accentColor }}
                         />
                     </div>
 
-                    <h2 className="text-xl md:text-2xl font-bold text-zinc-50 mb-2 transition-colors duration-300 group-hover:text-white">
+                    {/* Title */}
+                    <h2 className="text-xl md:text-2xl font-bold text-zinc-50 mb-2 group-hover:text-white">
                         {title}
                     </h2>
 
+                    {/* Description */}
                     <p className="text-sm md:text-base text-zinc-400 leading-relaxed flex-grow">
                         {description}
                     </p>
 
-                    <div className="mt-4 flex items-center gap-2 text-zinc-500 transition-colors duration-300 group-hover:text-zinc-300">
+                    {/* Explore Link */}
+                    <div className="mt-4 flex items-center gap-2 text-zinc-500 group-hover:text-zinc-300">
                         <span className="text-sm">Explore</span>
-                        <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                        <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </div>
             </Link>
