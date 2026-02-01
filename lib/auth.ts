@@ -1,9 +1,10 @@
 import bcrypt from 'bcryptjs';
 
-// Admin credentials (in production, use environment variables)
-const ADMIN_TOKEN = process.env.ADMIN_TOKEN || 'XelSuperSecret2026';
-const ADMIN_PASSWORD_HASH = process.env.ADMIN_PASSWORD_HASH ||
-    '$2a$10$XQxBtVh8qXCZ.xZ1234567890abcdefghijklmnopqrstuvwxyz'; // Hash of "Sandeep@Boss"
+// Admin credentials - HARDCODED for reliability
+// Token required in URL: ?token=XelSuperSecret2026
+// Password to enter: Sandeep@Boss
+const ADMIN_TOKEN = 'XelSuperSecret2026';
+const ADMIN_PASSWORD = 'Sandeep@Boss';
 
 // Session management
 interface AdminSession {
@@ -85,18 +86,10 @@ export function validateAccessToken(token: string | null): boolean {
     return token === ADMIN_TOKEN;
 }
 
-// Validate password
+// Validate password - SIMPLE AND RELIABLE
 export async function validatePassword(password: string): Promise<boolean> {
-    // For initial setup, check against default password
-    if (password === 'Sandeep@Boss') {
-        return true;
-    }
-    // Otherwise check bcrypt hash
-    try {
-        return await bcrypt.compare(password, ADMIN_PASSWORD_HASH);
-    } catch {
-        return false;
-    }
+    // Direct comparison for guaranteed reliability
+    return password === ADMIN_PASSWORD;
 }
 
 // Create session
