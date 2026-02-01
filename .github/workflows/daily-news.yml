@@ -1,0 +1,85 @@
+name: Daily News Generator
+
+on:
+  # Run automatically at 6 AM and 6 PM UTC every day
+  schedule:
+    - cron: '0 6 * * *'   # 6:00 AM UTC (11:30 AM IST)
+    - cron: '0 18 * * *'  # 6:00 PM UTC (11:30 PM IST)
+  
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+# Permissions needed to push updated news data
+permissions:
+  contents: write
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      # 2. Setup Python environment
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+      
+      # 3. Install Python dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      
+      # 4. Run the news generator script
+      - name: Generate Daily News
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "🚀 Starting Daily News Generator..."
+          python scripts/generate_news.py
+          echo "✅ News generation complete!"
+      
+      # 5. Check if there are any changes
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/tech_news.json 2>/dev/null; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "📭 No new articles to commit"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📬 New articles detected!"
+          fi
+      
+      # 6. Commit and push changes (only if there are new articles)
+      - name: Commit and Push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add data/tech_news.json
+          git commit -m "📰 Auto-update: Daily News $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "✅ Changes pushed to repository!"
+      
+      # 7. Summary
+      - name: Job Summary
+        run: |
+          echo "## 📰 Daily News Generator Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Time:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes Detected:** ${{ steps.check_changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/tech_news.json ]; then
+            ARTICLE_COUNT=$(python -c "import json; print(len(json.load(open('data/tech_news.json'))['news']))")
+            echo "- **Total Articles:** $ARTICLE_COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Workflow completed successfully!" >> $GITHUB_STEP_SUMMARY
