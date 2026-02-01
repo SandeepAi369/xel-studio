@@ -39,6 +39,16 @@ export interface SecurityTool {
     link?: string;
 }
 
+export interface TechNews {
+    id: string;
+    title: string;
+    summary: string;
+    image_url: string;
+    source_link: string;
+    source_name: string;
+    date: string;
+}
+
 export interface DownloadLog {
     id: string;
     apkId: string;
@@ -277,6 +287,23 @@ export function deleteSecurityTool(id: string): boolean {
         return true;
     }
     return false;
+}
+
+// Tech News (from separate JSON file managed by Python script)
+const TECH_NEWS_PATH = join(DATA_DIR, 'tech_news.json');
+
+export function getTechNews(): TechNews[] {
+    try {
+        if (!existsSync(TECH_NEWS_PATH)) {
+            return [];
+        }
+        const data = readFileSync(TECH_NEWS_PATH, 'utf-8');
+        const parsed = JSON.parse(data);
+        return parsed.news || [];
+    } catch (error) {
+        console.error('Error reading tech news:', error);
+        return [];
+    }
 }
 
 // Logging

@@ -5,13 +5,21 @@ import { BookOpen, Brain, ShoppingBag, ShieldCheck, Newspaper } from 'lucide-rea
 
 const cardData = [
     {
+        id: 'daily-news',
+        title: 'Daily News',
+        description: 'Latest Updates, Research Breakthroughs & Industry Trends',
+        href: '/ai-news',
+        iconName: 'Newspaper',
+        accentColor: '#f59e0b',
+        isWide: true,
+    },
+    {
         id: 'articles',
         title: 'Articles',
         description: 'Deep dives into AI Research, LLM Architecture, and Technical Analysis',
         href: '/articles',
         iconName: 'BookOpen',
         accentColor: '#06b6d4',
-        isWide: true,
     },
     {
         id: 'ai',
@@ -36,14 +44,6 @@ const cardData = [
         href: '/shield',
         iconName: 'ShieldCheck',
         accentColor: '#f87171',
-    },
-    {
-        id: 'ai-news',
-        title: 'AI News',
-        description: 'Latest AI Updates, Research Breakthroughs & Industry Trends',
-        href: '/ai-news',
-        iconName: 'Newspaper',
-        accentColor: '#f59e0b',
     },
 ];
 

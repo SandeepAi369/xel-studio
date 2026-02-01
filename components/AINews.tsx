@@ -61,7 +61,7 @@ export default function AINews() {
             >
                 <Sparkles className="w-8 h-8 text-yellow-400" />
                 <h2 className="text-3xl md:text-4xl font-bold text-zinc-50">
-                    AI News
+                    Daily News
                 </h2>
                 <span className="ml-2 px-3 py-1 text-xs font-medium bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-500/30 rounded-full text-cyan-400">
                     Live Feed
@@ -133,7 +133,7 @@ export default function AINews() {
                 transition={{ duration: 0.5, delay: 0.5 }}
             >
                 <button className="neon-btn px-8 py-3 rounded-xl font-semibold text-sm">
-                    View All AI News
+                    View All Daily News
                 </button>
             </motion.div>
         </section>
