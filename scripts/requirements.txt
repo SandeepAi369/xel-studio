@@ -1,0 +1,18 @@
+# Dependencies for Daily News Generator Script
+# Install with: pip install -r scripts/requirements.txt
+
+# Google Generative AI (Gemini)
+google-generativeai>=0.8.0
+
+# RSS Feed Parsing
+feedparser>=6.0.0
+
+# HTML Parsing for image extraction
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Environment Variables
+python-dotenv>=1.0.0

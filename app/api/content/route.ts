@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getArticles, getAPKs, getAILabs, getSecurityTools } from '@/lib/db';
+import { getArticles, getAPKs, getAILabs, getSecurityTools, getTechNews } from '@/lib/db';
 
 export async function GET(request: NextRequest) {
     const type = request.nextUrl.searchParams.get('type');
@@ -15,8 +15,8 @@ export async function GET(request: NextRequest) {
             case 'securityTools':
                 return NextResponse.json({ items: getSecurityTools() });
             case 'aiNews':
-                // Ready for future API integration with real-time news
-                return NextResponse.json({ items: [] });
+            case 'techNews':
+                return NextResponse.json({ items: getTechNews() });
             default:
                 return NextResponse.json({
                     articles: getArticles(),
