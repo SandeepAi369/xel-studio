@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getAPKById, logDownload, checkRateLimit, isValidDownloadUrl } from '@/lib/db';
+import { getAPKByIdAsync, logDownload, checkRateLimit, isValidDownloadUrl, initializeDB } from '@/lib/db';
+
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
 
 // Maximum file size: 100MB
 const MAX_FILE_SIZE = 100 * 1024 * 1024;
@@ -10,6 +13,9 @@ export async function GET(
 ) {
     try {
         const { id } = await params;
+
+        // Initialize database (loads from GitHub on Vercel)
+        await initializeDB();
 
         // Get client IP
         const ip = request.headers.get('x-forwarded-for')?.split(',')[0] ||
@@ -24,8 +30,8 @@ export async function GET(
             );
         }
 
-        // Get APK from database
-        const apk = getAPKById(id);
+        // Get APK from database (async for GitHub API support)
+        const apk = await getAPKByIdAsync(id);
         if (!apk) {
             return NextResponse.json(
                 { error: 'File not found' },

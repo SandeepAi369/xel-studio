@@ -1,32 +1,66 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getArticles, getAPKs, getAILabs, getSecurityTools, getTechNews } from '@/lib/db';
+import {
+    getArticlesAsync,
+    getAPKsAsync,
+    getAILabsAsync,
+    getSecurityToolsAsync,
+    getTechNewsAsync,
+    initializeDB
+} from '@/lib/db';
+
+// Force dynamic rendering - no caching
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET(request: NextRequest) {
     const type = request.nextUrl.searchParams.get('type');
 
     try {
+        // Initialize database (loads from GitHub on Vercel)
+        await initializeDB();
+
+        let data;
+
         switch (type) {
             case 'articles':
-                return NextResponse.json({ items: getArticles() });
+                data = { items: await getArticlesAsync() };
+                break;
             case 'apks':
-                return NextResponse.json({ items: getAPKs() });
+                data = { items: await getAPKsAsync() };
+                break;
             case 'aiLabs':
-                return NextResponse.json({ items: getAILabs() });
+                data = { items: await getAILabsAsync() };
+                break;
             case 'securityTools':
-                return NextResponse.json({ items: getSecurityTools() });
+                data = { items: await getSecurityToolsAsync() };
+                break;
             case 'aiNews':
             case 'techNews':
-                return NextResponse.json({ items: getTechNews() });
+                data = { items: await getTechNewsAsync() };
+                break;
             default:
-                return NextResponse.json({
-                    articles: getArticles(),
-                    apks: getAPKs(),
-                    aiLabs: getAILabs(),
-                    securityTools: getSecurityTools()
-                });
+                data = {
+                    articles: await getArticlesAsync(),
+                    apks: await getAPKsAsync(),
+                    aiLabs: await getAILabsAsync(),
+                    securityTools: await getSecurityToolsAsync()
+                };
         }
+
+        // Return with no-cache headers to always get fresh data
+        return NextResponse.json(data, {
+            headers: {
+                'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+                'Pragma': 'no-cache',
+                'Expires': '0',
+            }
+        });
+
     } catch (error) {
         console.error('Content API error:', error);
-        return NextResponse.json({ error: 'Failed to load content' }, { status: 500 });
+        return NextResponse.json({
+            error: 'Failed to load content',
+            details: error instanceof Error ? error.message : 'Unknown error'
+        }, { status: 500 });
     }
 }

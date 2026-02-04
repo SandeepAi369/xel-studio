@@ -309,6 +309,11 @@ export function getAPKById(id: string): APK | undefined {
     return readDB().apks.find(a => a.id === id);
 }
 
+export async function getAPKByIdAsync(id: string): Promise<APK | undefined> {
+    const db = await readDBAsync();
+    return db.apks.find(a => a.id === id);
+}
+
 export async function addAPKAsync(apk: Omit<APK, 'id'>): Promise<APK> {
     const db = await readDBAsync();
     const newAPK: APK = {
