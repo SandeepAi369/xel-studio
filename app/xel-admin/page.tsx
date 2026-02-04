@@ -203,7 +203,7 @@ function AdminPanel() {
                 setShowForm(false);
                 setFormData({});
             } else {
-                setError(data.error);
+                setError(data.error + (data.details ? `: ${data.details}` : ''));
             }
         } catch {
             setError('Failed to add item');
@@ -234,7 +234,7 @@ function AdminPanel() {
                 setEditingItem(null);
                 setFormData({});
             } else {
-                setError(data.error);
+                setError(data.error + (data.details ? `: ${data.details}` : ''));
             }
         } catch {
             setError('Failed to update item');
@@ -373,8 +373,8 @@ function AdminPanel() {
                                 key={tab.id}
                                 onClick={() => { setActiveTab(tab.id); closeForm(); }}
                                 className={`flex items-center gap-2 px-4 py-3 border-b-2 transition-colors ${activeTab === tab.id
-                                        ? 'border-emerald-500 text-emerald-400'
-                                        : 'border-transparent text-zinc-500 hover:text-white'
+                                    ? 'border-emerald-500 text-emerald-400'
+                                    : 'border-transparent text-zinc-500 hover:text-white'
                                     }`}
                             >
                                 <tab.icon className="w-4 h-4" />
