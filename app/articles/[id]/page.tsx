@@ -1,33 +1,19 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
-import fs from 'fs';
-import path from 'path';
+import { getArticlesAsync, initializeDB, Article } from '@/lib/db';
 
-// Force dynamic rendering
+// Force dynamic rendering - always fetch fresh data
 export const dynamic = 'force-dynamic';
 export const dynamicParams = true;
 export const revalidate = 0;
 
-interface Article {
-    id: string;
-    title: string;
-    image: string;
-    content: string;
-    date: string;
-    category?: string;
-}
-
-interface DataFile {
-    articles: Article[];
-}
-
 async function getArticle(id: string): Promise<Article | null> {
     try {
-        const dataPath = path.join(process.cwd(), 'data', 'data.json');
-        const fileContents = fs.readFileSync(dataPath, 'utf8');
-        const data: DataFile = JSON.parse(fileContents);
-        const article = data.articles.find((a) => a.id === id);
+        // Initialize and read from GitHub API on Vercel
+        await initializeDB();
+        const articles = await getArticlesAsync();
+        const article = articles.find((a) => a.id === id);
         return article || null;
     } catch (error) {
         console.error('Error reading article:', error);
@@ -78,7 +64,7 @@ export default async function ArticlePage({
                 )}
 
                 {/* Simple gradient overlay - pointer-events: none */}
-                <div 
+                <div
                     className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"
                     style={{ pointerEvents: 'none' }}
                 />
