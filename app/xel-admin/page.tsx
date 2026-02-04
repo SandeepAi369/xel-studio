@@ -185,18 +185,39 @@ function AdminPanel() {
 
     const handleAdd = async () => {
         setLoading(true);
+        setError('');
+
+        // Calculate payload size for debugging
+        const payload = JSON.stringify({
+            action: 'add',
+            sessionToken,
+            csrfToken,
+            contentType: getContentType(),
+            data: formData
+        });
+        const payloadSizeKB = Math.round(payload.length / 1024);
+
+        // Check if payload is too large (Vercel limit is 4.5MB)
+        if (payload.length > 4 * 1024 * 1024) {
+            setError(`Content too large (${payloadSizeKB}KB). Maximum allowed is 4MB.`);
+            setLoading(false);
+            return;
+        }
+
         try {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    action: 'add',
-                    sessionToken,
-                    csrfToken,
-                    contentType: getContentType(),
-                    data: formData
-                })
+                body: payload
             });
+
+            if (!res.ok) {
+                const text = await res.text();
+                setError(`Server error (${res.status}): ${text.substring(0, 200)}`);
+                setLoading(false);
+                return;
+            }
+
             const data = await res.json();
             if (data.success) {
                 loadData();
@@ -205,8 +226,9 @@ function AdminPanel() {
             } else {
                 setError(data.error + (data.details ? `: ${data.details}` : ''));
             }
-        } catch {
-            setError('Failed to add item');
+        } catch (err) {
+            const errorMsg = err instanceof Error ? err.message : 'Unknown error';
+            setError(`Network error: ${errorMsg}`);
         }
         setLoading(false);
     };
@@ -214,20 +236,38 @@ function AdminPanel() {
     const handleUpdate = async () => {
         if (!editingItem) return;
         setLoading(true);
+        setError('');
+
+        const payload = JSON.stringify({
+            action: 'update',
+            sessionToken,
+            csrfToken,
+            contentType: getContentType(),
+            itemId: editingItem.id,
+            data: formData
+        });
+        const payloadSizeKB = Math.round(payload.length / 1024);
+
+        if (payload.length > 4 * 1024 * 1024) {
+            setError(`Content too large (${payloadSizeKB}KB). Maximum allowed is 4MB.`);
+            setLoading(false);
+            return;
+        }
 
         try {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    action: 'update',
-                    sessionToken,
-                    csrfToken,
-                    contentType: getContentType(),
-                    itemId: editingItem.id,
-                    data: formData
-                })
+                body: payload
             });
+
+            if (!res.ok) {
+                const text = await res.text();
+                setError(`Server error (${res.status}): ${text.substring(0, 200)}`);
+                setLoading(false);
+                return;
+            }
+
             const data = await res.json();
             if (data.success) {
                 loadData();
@@ -236,8 +276,9 @@ function AdminPanel() {
             } else {
                 setError(data.error + (data.details ? `: ${data.details}` : ''));
             }
-        } catch {
-            setError('Failed to update item');
+        } catch (err) {
+            const errorMsg = err instanceof Error ? err.message : 'Unknown error';
+            setError(`Network error: ${errorMsg}`);
         }
         setLoading(false);
     };
