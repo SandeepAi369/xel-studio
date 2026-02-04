@@ -28,16 +28,15 @@ const corsHeaders = {
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
 
-// Force dynamic
+// Route segment config for large articles
 export const dynamic = 'force-dynamic';
+export const fetchCache = 'force-no-store';
+export const revalidate = 0;
+export const maxDuration = 60; // 60 seconds timeout for Vercel Pro/Enterprise
 
-// Increase body size limit for large articles (default is 1MB)
-export const maxDuration = 30; // Increase timeout for large payloads
+// Runtime edge is faster but we need Node.js for GitHub API
+export const runtime = 'nodejs';
 
-// Route segment config - allow up to 10MB request body
-export async function generateStaticParams() {
-    return [];
-}
 
 // Handle OPTIONS preflight request (for CORS)
 export async function OPTIONS() {
