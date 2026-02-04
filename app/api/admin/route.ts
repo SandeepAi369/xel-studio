@@ -19,6 +19,7 @@ import {
     getArticlesAsync, getAPKsAsync, getAILabsAsync, getSecurityToolsAsync,
     readDBAsync, initializeDB
 } from '@/lib/db';
+import { isVercel, isGitHubApiAvailable } from '@/lib/github-api';
 
 // CORS headers for Vercel deployment
 const corsHeaders = {
@@ -26,6 +27,9 @@ const corsHeaders = {
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
+
+// Force dynamic
+export const dynamic = 'force-dynamic';
 
 // Handle OPTIONS preflight request (for CORS)
 export async function OPTIONS() {
@@ -76,10 +80,15 @@ export async function POST(request: NextRequest) {
             const csrf = generateCSRFToken();
             await logAdminActionAsync('login_success', 'Admin logged in', ip);
 
+            // Return environment info for debugging
             return NextResponse.json({
                 success: true,
                 sessionToken: session,
-                csrfToken: csrf
+                csrfToken: csrf,
+                env: {
+                    isVercel: isVercel(),
+                    hasGitHubToken: isGitHubApiAvailable()
+                }
             }, { headers: corsHeaders });
         }
 
@@ -98,71 +107,114 @@ export async function POST(request: NextRequest) {
         // Handle content operations
         if (action === 'add') {
             let result;
-            switch (contentType) {
-                case 'article':
-                    result = await addArticleAsync(data);
-                    break;
-                case 'apk':
-                    result = await addAPKAsync(data);
-                    break;
-                case 'aiLab':
-                    result = await addAILabAsync(data);
-                    break;
-                case 'securityTool':
-                    result = await addSecurityToolAsync(data);
-                    break;
-                default:
-                    return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+            try {
+                switch (contentType) {
+                    case 'article':
+                        result = await addArticleAsync(data);
+                        break;
+                    case 'apk':
+                        result = await addAPKAsync(data);
+                        break;
+                    case 'aiLab':
+                        result = await addAILabAsync(data);
+                        break;
+                    case 'securityTool':
+                        result = await addSecurityToolAsync(data);
+                        break;
+                    default:
+                        return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+                }
+
+                if (!result) {
+                    return NextResponse.json({
+                        error: 'Failed to save content',
+                        details: isVercel() && !isGitHubApiAvailable()
+                            ? 'GITHUB_TOKEN not configured on Vercel'
+                            : 'Unknown write error'
+                    }, { status: 500, headers: corsHeaders });
+                }
+
+                await logAdminActionAsync('add', `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`, ip);
+                return NextResponse.json({
+                    success: true,
+                    data: result,
+                    storage: isVercel() ? 'github' : 'filesystem'
+                }, { headers: corsHeaders });
+
+            } catch (writeError) {
+                console.error('Write error:', writeError);
+                return NextResponse.json({
+                    error: 'Failed to save content',
+                    details: writeError instanceof Error ? writeError.message : 'Unknown error'
+                }, { status: 500, headers: corsHeaders });
             }
-            await logAdminActionAsync('add', `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`, ip);
-            return NextResponse.json({ success: true, data: result }, { headers: corsHeaders });
         }
 
         if (action === 'update') {
             let result;
-            switch (contentType) {
-                case 'article':
-                    result = await updateArticleAsync(itemId, data);
-                    break;
-                case 'apk':
-                    result = await updateAPKAsync(itemId, data);
-                    break;
-                case 'aiLab':
-                    result = await updateAILabAsync(itemId, data);
-                    break;
-                default:
-                    return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+            try {
+                switch (contentType) {
+                    case 'article':
+                        result = await updateArticleAsync(itemId, data);
+                        break;
+                    case 'apk':
+                        result = await updateAPKAsync(itemId, data);
+                        break;
+                    case 'aiLab':
+                        result = await updateAILabAsync(itemId, data);
+                        break;
+                    default:
+                        return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+                }
+                if (!result) {
+                    return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
+                }
+                await logAdminActionAsync('update', `Updated ${contentType} ${itemId}`, ip);
+                return NextResponse.json({
+                    success: true,
+                    data: result,
+                    storage: isVercel() ? 'github' : 'filesystem'
+                }, { headers: corsHeaders });
+            } catch (updateError) {
+                console.error('Update error:', updateError);
+                return NextResponse.json({
+                    error: 'Failed to update content',
+                    details: updateError instanceof Error ? updateError.message : 'Unknown error'
+                }, { status: 500, headers: corsHeaders });
             }
-            if (!result) {
-                return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
-            }
-            await logAdminActionAsync('update', `Updated ${contentType} ${itemId}`, ip);
-            return NextResponse.json({ success: true, data: result }, { headers: corsHeaders });
         }
 
         if (action === 'delete') {
             let success;
-            switch (contentType) {
-                case 'article':
-                    success = await deleteArticleAsync(itemId);
-                    break;
-                case 'apk':
-                    success = await deleteAPKAsync(itemId);
-                    break;
-                case 'aiLab':
-                    success = await deleteAILabAsync(itemId);
-                    break;
-                case 'securityTool':
-                    success = await deleteSecurityToolAsync(itemId);
-                    break;
-                default:
-                    return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+            try {
+                switch (contentType) {
+                    case 'article':
+                        success = await deleteArticleAsync(itemId);
+                        break;
+                    case 'apk':
+                        success = await deleteAPKAsync(itemId);
+                        break;
+                    case 'aiLab':
+                        success = await deleteAILabAsync(itemId);
+                        break;
+                    case 'securityTool':
+                        success = await deleteSecurityToolAsync(itemId);
+                        break;
+                    default:
+                        return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
+                }
+                if (!success) {
+                    return NextResponse.json({ error: 'Item not found or delete failed' }, { status: 404, headers: corsHeaders });
+                }
+                await logAdminActionAsync('delete', `Deleted ${contentType} ${itemId}`, ip);
+                return NextResponse.json({ success: true }, { headers: corsHeaders });
+            } catch (deleteError) {
+                console.error('Delete error:', deleteError);
+                return NextResponse.json({
+                    error: 'Failed to delete content',
+                    details: deleteError instanceof Error ? deleteError.message : 'Unknown error'
+                }, { status: 500, headers: corsHeaders });
             }
-            if (!success) {
-                return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
-            }
-            await logAdminActionAsync('delete', `Deleted ${contentType} ${itemId}`, ip);
-            return NextResponse.json({ success: true }, { headers: corsHeaders });
         }
 
         if (action === 'getData') {
@@ -173,7 +225,11 @@ export async function POST(request: NextRequest) {
                 aiLabs: await getAILabsAsync(),
                 securityTools: await getSecurityToolsAsync(),
                 downloadLogs: db.downloadLogs?.slice(-50) || [],
-                adminLogs: db.adminLogs?.slice(-50) || []
+                adminLogs: db.adminLogs?.slice(-50) || [],
+                env: {
+                    isVercel: isVercel(),
+                    hasGitHubToken: isGitHubApiAvailable()
+                }
             }, { headers: corsHeaders });
         }
 
@@ -196,5 +252,12 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ valid: false }, { headers: corsHeaders });
     }
 
-    return NextResponse.json({ valid: true }, { headers: corsHeaders });
+    // Return environment info for debugging
+    return NextResponse.json({
+        valid: true,
+        env: {
+            isVercel: isVercel(),
+            hasGitHubToken: isGitHubApiAvailable()
+        }
+    }, { headers: corsHeaders });
 }
