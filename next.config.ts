@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Increase body size limit for large article submissions
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '10mb',
+    },
+  },
   images: {
     remotePatterns: [
       {
@@ -28,3 +34,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
