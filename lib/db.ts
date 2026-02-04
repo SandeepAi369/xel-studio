@@ -139,18 +139,22 @@ function writeDBToFile(data: Database): boolean {
 }
 
 // Read database (async version for GitHub API)
-export async function readDBAsync(): Promise<Database> {
+// Set forceRefresh=true for write operations to avoid stale cache
+export async function readDBAsync(forceRefresh: boolean = false): Promise<Database> {
     if (isVercel()) {
-        // Check cache first
-        if (dbCache && Date.now() - cacheTimestamp < CACHE_TTL) {
+        // If force refresh requested, bypass cache
+        // This is CRITICAL for write operations to get latest data
+        if (!forceRefresh && dbCache && Date.now() - cacheTimestamp < CACHE_TTL) {
             return dbCache;
         }
 
         try {
+            console.log('readDBAsync: Fetching fresh data from GitHub...');
             const content = await readFileFromGitHub(GITHUB_DB_PATH);
             if (content) {
                 dbCache = JSON.parse(content) as Database;
                 cacheTimestamp = Date.now();
+                console.log('readDBAsync: Loaded', dbCache.articles?.length || 0, 'articles from GitHub');
                 return dbCache;
             }
         } catch (error) {
@@ -227,7 +231,7 @@ export function getArticleById(id: string): Article | undefined {
 }
 
 export async function addArticleAsync(article: Omit<Article, 'id' | 'date'>): Promise<Article> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const newArticle: Article = {
         ...article,
         id: generateId(),
@@ -251,7 +255,7 @@ export function addArticle(article: Omit<Article, 'id' | 'date'>): Article {
 }
 
 export async function updateArticleAsync(id: string, updates: Partial<Article>): Promise<Article | null> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const index = db.articles.findIndex(a => a.id === id);
     if (index === -1) return null;
 
@@ -271,7 +275,7 @@ export function updateArticle(id: string, updates: Partial<Article>): Article | 
 }
 
 export async function deleteArticleAsync(id: string): Promise<boolean> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const initialLength = db.articles.length;
     db.articles = db.articles.filter(a => a.id !== id);
     if (db.articles.length < initialLength) {
@@ -315,7 +319,7 @@ export async function getAPKByIdAsync(id: string): Promise<APK | undefined> {
 }
 
 export async function addAPKAsync(apk: Omit<APK, 'id'>): Promise<APK> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const newAPK: APK = {
         ...apk,
         id: generateId()
@@ -337,7 +341,7 @@ export function addAPK(apk: Omit<APK, 'id'>): APK {
 }
 
 export async function updateAPKAsync(id: string, updates: Partial<APK>): Promise<APK | null> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const index = db.apks.findIndex(a => a.id === id);
     if (index === -1) return null;
 
@@ -357,7 +361,7 @@ export function updateAPK(id: string, updates: Partial<APK>): APK | null {
 }
 
 export async function deleteAPKAsync(id: string): Promise<boolean> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const initialLength = db.apks.length;
     db.apks = db.apks.filter(a => a.id !== id);
     if (db.apks.length < initialLength) {
@@ -396,7 +400,7 @@ export function getAILabById(id: string): AILab | undefined {
 }
 
 export async function addAILabAsync(lab: Omit<AILab, 'id'>): Promise<AILab> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const newLab: AILab = {
         ...lab,
         id: generateId()
@@ -418,7 +422,7 @@ export function addAILab(lab: Omit<AILab, 'id'>): AILab {
 }
 
 export async function updateAILabAsync(id: string, updates: Partial<AILab>): Promise<AILab | null> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const index = db.aiLabs.findIndex(a => a.id === id);
     if (index === -1) return null;
 
@@ -438,7 +442,7 @@ export function updateAILab(id: string, updates: Partial<AILab>): AILab | null {
 }
 
 export async function deleteAILabAsync(id: string): Promise<boolean> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const initialLength = db.aiLabs.length;
     db.aiLabs = db.aiLabs.filter(a => a.id !== id);
     if (db.aiLabs.length < initialLength) {
@@ -473,7 +477,7 @@ export async function getSecurityToolsAsync(): Promise<SecurityTool[]> {
 }
 
 export async function addSecurityToolAsync(tool: Omit<SecurityTool, 'id'>): Promise<SecurityTool> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const newTool: SecurityTool = {
         ...tool,
         id: generateId()
@@ -495,7 +499,7 @@ export function addSecurityTool(tool: Omit<SecurityTool, 'id'>): SecurityTool {
 }
 
 export async function deleteSecurityToolAsync(id: string): Promise<boolean> {
-    const db = await readDBAsync();
+    const db = await readDBAsync(true);  // Force refresh to get latest data
     const initialLength = db.securityTools.length;
     db.securityTools = db.securityTools.filter(t => t.id !== id);
     if (db.securityTools.length < initialLength) {
