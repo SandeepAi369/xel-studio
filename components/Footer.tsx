@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react';
+import { Mail, Github } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -14,16 +14,25 @@ export default function Footer() {
                         © 2026 XeL Studio. Built by{' '}
                         <span className="text-emerald-400 font-medium">Sandeep</span>.
                     </p>
-                    <span className="text-xs text-zinc-600">v1.1</span>
+                    <span className="text-xs text-zinc-600">v1.2</span>
                 </div>
 
                 <div className="flex items-center gap-4">
                     <a
                         href="mailto:sandeep@xelstudio.dev"
                         aria-label="Send email"
-                        className="text-zinc-400"
+                        className="text-zinc-400 hover:text-emerald-400 transition-colors"
                     >
                         <Mail className="w-5 h-5" />
+                    </a>
+                    <a
+                        href="https://github.com/Sandeepchch"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub Profile"
+                        className="text-zinc-400 hover:text-emerald-400 transition-colors"
+                    >
+                        <Github className="w-5 h-5" />
                     </a>
                 </div>
             </div>
