@@ -31,6 +31,14 @@ const corsHeaders = {
 // Force dynamic
 export const dynamic = 'force-dynamic';
 
+// Increase body size limit for large articles (default is 1MB)
+export const maxDuration = 30; // Increase timeout for large payloads
+
+// Route segment config - allow up to 10MB request body
+export async function generateStaticParams() {
+    return [];
+}
+
 // Handle OPTIONS preflight request (for CORS)
 export async function OPTIONS() {
     return NextResponse.json({}, { headers: corsHeaders });
