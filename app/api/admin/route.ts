@@ -28,14 +28,10 @@ const corsHeaders = {
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
 
-// Route segment config for large articles
+// Route segment config - force dynamic rendering (no caching)
+// These are the only safe exports for Vercel hobby tier
 export const dynamic = 'force-dynamic';
-export const fetchCache = 'force-no-store';
 export const revalidate = 0;
-export const maxDuration = 60; // 60 seconds timeout for Vercel Pro/Enterprise
-
-// Runtime edge is faster but we need Node.js for GitHub API
-export const runtime = 'nodejs';
 
 
 // Handle OPTIONS preflight request (for CORS)
