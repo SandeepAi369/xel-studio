@@ -1,6 +1,96 @@
 {
   "news": [
     {
+      "id": "9310a3d1-5fc3-4c40-bd9d-e5c59be2a7fa",
+      "title": "Xcode moves into agentic coding with deeper OpenAI and Anthropic integrations",
+      "summary": "Hold onto your keyboards, developers! Xcode is leaping into the future of coding with groundbreaking, deeper integrations from OpenAI and Anthropic. Forget basic autocomplete; we're entering the era of 'agentic coding.' This means powerful AI tools like Claude and OpenAI's models will act as intelligent co-pilots, not just suggesting code but actively assisting in development – understanding context, generating solutions, and debugging complex problems. Imagine your IDE collaborating dynamically on your projects! This revolutionary update transforms Xcode into an incredibly powerful, intuitive environment. It promises to supercharge productivity and redefine how we build apps within Apple's ecosystem, ushering in an exciting, AI-powered development era.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc09Ka2NTWlBMZnJ4M2M2ODhSVnlaWC1KSXhnRFJDQml6UjBWUUlYQWtGcnpUTVNrUGZpS3VPQXFVNmlQMUwzaEVuWldOQlZYS2EzenRmeTVzMFhTMGU2bnlxQjN5cE02X1R1LUJhV2pTN3NxNWo4NWFLQkxEV3ppR1hTbkRFeHpDdUY5NGdNOWtvU3lPUkpSdHZlN2szSGVZZlFoek13N2R6SzhzTE16bjhn?oc=5",
+      "source_name": "TechCrunch",
+      "date": "2026-02-03T18:00:00Z"
+    },
+    {
+      "id": "d1e35cba-7657-4e89-9ef3-ecf14e585d62",
+      "title": "Nintendo Shares Plunge 10% After Weak Profit Spurs Margin Fears",
+      "summary": "Nintendo just took a huge hit! Shares plunged 10% after the gaming powerhouse reported weaker-than-expected profits, triggering concerns over future profit margins and potential memory chip shortages. This shake-up arrives despite the monumental success of the Switch, now confirmed as the second best-selling console ever, trailing only the PS2! While Nintendo maintains its forward guidance, analysts are scrutinizing potential headwinds for future hardware production. Enthusiasts are now watching closely, wondering how these financial tremors might influence upcoming blockbuster titles or the eventual unveiling of their much-anticipated next-generation console. What's next for the gaming giant?",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQckN3T0VJcE1aWlRHUGJFNUxlYlcxc1BYc1R0X0dpRkZIMkRYWlFtRVlmQ3hkMnR2eW94aC1UQ0ZPbzJmV1NEaHdfUE9jNXdvRHVuLWhieTVEYjhqRFV1aFVZdHpUZ2xJZGN2aVA2cWRmWHhzZFFaN2hIZFdmWFhjNTJ5TGRxalhZbDIxdEx4N2ZpeHh6SklzMlZ4OWVRc1FDMW1VU1I4MEpvSzFrOWdNcU12RW4?oc=5",
+      "source_name": "Bloomberg.com",
+      "date": "2026-02-04T03:55:00Z"
+    },
+    {
+      "id": "7a448c7e-aecc-4e10-a4be-f9ae2ede9893",
+      "title": "I Bought the Galaxy Z TriFold for Over $3,000. Follow Along as I Test It (Live Updates)",
+      "summary": "Get ready, tech fanatics! Samsung just dropped a bombshell: the groundbreaking Galaxy Z TriFold is finally here, and it’s turning heads and wallets. This innovative device, boasting a nearly $3,000 price tag, defied expectations by selling out almost instantly. It seems enthusiasts are more than ready to shell out for truly exciting innovation. A brave journalist has taken the plunge, buying one of these cutting-edge tri-folding marvels to provide live updates and a hands-on review. Prepare for an in-depth look at what could be the future of mobile tech. Is this the ultimate foldable, or a luxurious experiment? Follow their journey to find out!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xd3NXb05sc2tndTl3b1BSRFA2TVJqSncwcU1GM3BsUmdTVlVidGQ3ajFxYUhnZHBTY0xiOWpKRk4tc0pOUWFlMXNMMHlYd1dJcE1VZ1UtdTB3blpLd0o1N2Jlay03Q2RIR01LVmtEdUxJZmxpQnU1SS1kaw?oc=5",
+      "source_name": "CNET",
+      "date": "2026-02-03T14:10:00Z"
+    },
+    {
+      "id": "2528697a-65ec-43ff-a91f-9911ea7b6410",
+      "title": "Nintendo Expands Switch Online's Game Boy Library With Two More Titles",
+      "summary": "Nintendo Switch Online just unleashed a double dose of retro goodness, expanding the classic Game Boy library! Gamers can now dive into two beloved handheld gems, instantly expanding their portable nostalgia trips. Get ready to soar with **Balloon Kid**, the delightful sequel to the arcade classic Balloon Fight, offering more high-flying adventure and unique aerial fun. But that’s not all – puzzle fans rejoice as **Yoshi**, a charmingly addictive block-matching game developed by none other than Game Freak (yes, *that* Game Freak!), also joins the lineup. It’s a fantastic refresh for the service, bringing beloved handheld history to your Switch. Time to fire up those virtual cartridges!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOU9NT1U1WXg2VEU1ZEwzVUpBc19zRUtXYXA0VndqckNsOEhiWThTQUlZOUc3c2tadjdvZ085M09yVklJaXRwWldNYzg0XzQwSWFPV19LQWtYVWtSMUxrNzFXS1ExLUxLaG5lQjlCUnBMSVllVUV5QUNzZlZsd2ZPa2FXQTZ5eXZrVDk3UFM4OVU5RUlRTlJLN1QzakNsQUF5bTBtcXNSdVZBSl84OUliSg?oc=5",
+      "source_name": "Nintendo Life",
+      "date": "2026-02-04T01:05:00Z"
+    },
+    {
+      "id": "213cfad1-a9be-4067-89ec-e20846a90ad9",
+      "title": "The four best Super Bowl TV deals we found",
+      "summary": "Get ready for Super Bowl LVIII with epic TV deals! Tech enthusiasts, now's your chance to snag a cutting-edge display for the ultimate game-day experience. Retailers are slashing prices on top-tier smart TVs, including stunning OLEDs, perfect for crystal-clear action and truly immersive viewing. Don't settle for mediocre! These limited-time offers mean you can upgrade your living room into a stadium-worthy spectacle without breaking the bank. Imagine every touchdown, every commercial, in glorious high-definition. From vibrant colors to lightning-fast refresh rates, these TVs promise to elevate your watch party. Act fast – these game-changing deals are kicking off soon!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU1pJVFdTZU85TDRLbmhiX3hFS0lNRms4RWI4c243RUFTVWZvMlhrcUo0X1RKQUR2bHIzTDNYS2c2QWlWcXFvSXU3bHI5WWQ5TUpXU3FPeGRtbl9PQUZ5TFNfUnhqb3o0dGJMMTJLeENhYjB5SHNER3BrUzQycm95cQ?oc=5",
+      "source_name": "The Verge",
+      "date": "2026-02-03T21:23:36Z"
+    },
+    {
+      "id": "8805a994-7998-422d-a779-a3358ada9889",
+      "title": "Samsung’s Galaxy S26 Ultra renders showcase all four of its familiar colors",
+      "summary": "Hold onto your hats, Galaxy fans! Early renders for the Samsung S26 Ultra have hit the web, giving us a tantalizing peek at what’s coming. Expect to see the familiar, sleek color palettes we've come to love, showcased across its stunning design. But it’s not all sunshine and rainbows; some early leaks suggest a potential disappointment: the S26 Ultra might skip built-in Qi2 magnets, a feature many hoped for. Despite this, anticipation is building for the 2026 Unpacked event. These latest leaks and exclusive specs hint at a powerful device, promising significant performance upgrades and a refined user experience. Get ready for another flagship contender!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYWU3LUhfQXJwbnpOeFdySm00aU9mWnB2d3l1Vjl4SlpORFNhMWpIbGNvdkVNSnVTa0x4eXRoNFV1TjROM1pVZkRYdTVVRDQ3MVhIejBoRFB4MjlfSjJ1MUVRd0tYeVlDWk04TjkwUm5sRFZ0SXpnOFFYMC12SE5DWUVLOGJwa25EOXZKSEhDRmZnaF93MEpTSjVERmE4VGZCcHhfWkdjSVN0dw?oc=5",
+      "source_name": "9to5Google",
+      "date": "2026-02-03T15:14:00Z"
+    },
+    {
+      "id": "6e8eff50-dde4-4808-aa51-838e129c211e",
+      "title": "Secret Lair: Roll for Initiative Superdrop",
+      "summary": "Get ready, Planeswalkers and adventurers! Wizards of the Coast just unleashed the Secret Lair: Roll for Initiative Superdrop, a thrilling Magic: The Gathering x Dungeons & Dragons crossover event! This drop is bursting with incredible new cards featuring fan-favorite characters from Baldur's Gate 3, including Astarion and Shadowheart, reimagined with stunning art. Not only are we getting iconic D&D heroes, but this Superdrop also includes powerful, high-value reprints of popular MTG cards, all adorned with gorgeous D&D-themed artwork. Prepare to bolster your decks with these collectible treasures, merging two legendary universes in one truly epic release. Don't miss out on this fantastical fusion!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVU41R0ZCTmI3c3FVTGtFOEhSLXU5bmRkekkwS0stMlNBN29ZMkNuRUdiQ2l5RFFVSVlkN18wbWs2RTZtcXdtSlAtSlRGNV8tMUlvZ283R0l4dS1pMUVJdkpNbEsxb1ZicXlOYXpFdmNhOEdxN21PV09wR0NDc3YzZU92ckFERS1hNjdYODZMV2tQeGc?oc=5",
+      "source_name": "Magic: The Gathering",
+      "date": "2026-02-03T18:32:03Z"
+    },
+    {
+      "id": "55cc9451-3a4b-403f-b18e-137895525de8",
+      "title": "Stardew Valley Turns 10: The Big ConcernedApe Interview",
+      "summary": "Stardew Valley celebrates its tenth anniversary, and creator ConcernedApe sat down for a huge interview, revealing incredible news! Get ready for a massive 1.7 update that promises to overhaul the beloved farming sim. ConcernedApe admits the game might \"never be done,\" hinting at endless future content. This colossal patch will introduce not one, but *two* exciting new marriage candidates to romance, adding fresh relationship dynamics. Plus, children will become \"a little more interesting,\" making family life in Pelican Town even richer. And get this: a secret has been hidden in Stardew Valley for a decade, still undiscovered! The journey truly continues!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQWd6aGg3MXVBM3VMMWo2RE45NWFQNXFEMnBDb3BiRndFNklGcFNPUVNISmdsY1Q3c1VLblg0RDhodVFKMXNMci1tSlZHMU1ESHRQN1FNd21KdjhQMEptUG1JNGN2dUNtWFY4b3BnMGJPMVpLOTI2Q240akhETFBjOXUwanMwYmYtQVFR?oc=5",
+      "source_name": "IGN",
+      "date": "2026-02-03T18:24:30Z"
+    },
+    {
+      "id": "77e5fd19-fa58-41fd-832d-cda99f92e51a",
+      "title": "Hackers Crack ‘Fallout Remaster’ Countdown, Fans Left Disappointed",
+      "summary": "The wasteland faithful just got a dose of Nuka-Quantum-sized disappointment! Hype reached critical mass for a rumored Fallout 3 or New Vegas remaster, fueled by a mysterious countdown timer. Fans, ever hopeful for a modern refresh of these iconic RPGs, keenly followed its progression, especially with the phenomenal success of the Fallout TV series. However, hackers quickly cracked the countdown, revealing not a glorious new beginning, but an anticlimactic dud. Instead of a shiny, remastered journey back to the Capital Wasteland or Mojave, players were met with… nothing. A brutal reminder that not every countdown always leads to a cherished announcement. Ouch.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNEliOERFN2NFYy1xVXVhNGZ2MjJINGxWbnVkN0gyOFYyR2xjYVJsZkZjN0l2Sm1YTy0zV2Z0Y2VEZWRHZUlHeTEzRGpYSHh0ajRCX1BqNTJPdHJ3WnN1U2RzNHp2UTlrXzRpNUhlVzJQc05EOGd1enozd25pa3RGLTFBS0VpUTZNT3ZTTmNHOWNZYlk?oc=5",
+      "source_name": "GAMINGbible",
+      "date": "2026-02-03T16:32:09Z"
+    },
+    {
+      "id": "042461a1-cbd7-416e-8753-2894bb5d9642",
+      "title": "Foldable iPhone Design Leak Reveals You'll Need To Relearn How To Use Your Phone",
+      "summary": "Foldable iPhone Design Leak Reveals You'll Need To Relearn How To Use Your Phone bgr.com iPhone Fold: Launch Date, Price, RAM Limits and Everything We Know CNET Apple is working on an 'iPhone Flip,' report claims Mashable Fresh leak offers new details on the upcoming folding iPhone Macworld Apple Is Working on a Clamshell Version of Its First Foldable iPhone, Report Says CNET",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRnpLZlFsZDB5S0pjV2VGWTB5M2JwUlAyOUpZc2ZsSmc0WWZTa2FZMmZvMDUwdTVQSDRqb184b19LQ2hvYVZPdjBnM2NuNXdJLS1vSGhycE5DTmxxbTNhQmdCdEh5VGJJNm8tYVkxREhqTnFfTGV0YUZsYTFOUWZvMWhoQQ?oc=5",
+      "source_name": "bgr.com",
+      "date": "2026-02-03T18:40:47Z"
+    },
+    {
       "id": "f971f3a0-37b4-414a-8e98-120c8a8406e4",
       "title": "Nintendo net sales up 99.3% as Switch 2 shifts 17.37m units",
       "summary": "Nintendo is soaring to new heights! Their latest financial report reveals an astounding 99.3% surge in net sales, showcasing the incredible, sustained demand for their flagship console. The Switch family continues its phenomenal run, with an impressive 17.37 million units sold recently, catapulting its lifetime sales past the legendary DS to become Nintendo's best-selling console of all time! This isn't just about stellar numbers; it’s a powerful testament to the Switch’s enduring innovation and captivating game library. Despite market challenges, Nintendo’s robust performance confirms its industry dominance and promises an exciting future for enthusiastic gamers everywhere.",
