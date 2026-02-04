@@ -233,7 +233,7 @@ export async function addArticleAsync(article: Omit<Article, 'id' | 'date'>): Pr
         id: generateId(),
         date: new Date().toISOString()
     };
-    db.articles.push(newArticle);
+    db.articles.unshift(newArticle);  // Add to beginning so newest appears first
     await writeDBAsync(db);
     return newArticle;
 }
@@ -245,7 +245,7 @@ export function addArticle(article: Omit<Article, 'id' | 'date'>): Article {
         id: generateId(),
         date: new Date().toISOString()
     };
-    db.articles.push(newArticle);
+    db.articles.unshift(newArticle);  // Add to beginning so newest appears first
     writeDB(db);
     return newArticle;
 }
@@ -320,7 +320,7 @@ export async function addAPKAsync(apk: Omit<APK, 'id'>): Promise<APK> {
         ...apk,
         id: generateId()
     };
-    db.apks.push(newAPK);
+    db.apks.unshift(newAPK);  // Add to beginning so newest appears first
     await writeDBAsync(db);
     return newAPK;
 }
@@ -331,7 +331,7 @@ export function addAPK(apk: Omit<APK, 'id'>): APK {
         ...apk,
         id: generateId()
     };
-    db.apks.push(newAPK);
+    db.apks.unshift(newAPK);  // Add to beginning so newest appears first
     writeDB(db);
     return newAPK;
 }
@@ -401,7 +401,7 @@ export async function addAILabAsync(lab: Omit<AILab, 'id'>): Promise<AILab> {
         ...lab,
         id: generateId()
     };
-    db.aiLabs.push(newLab);
+    db.aiLabs.unshift(newLab);  // Add to beginning so newest appears first
     await writeDBAsync(db);
     return newLab;
 }
@@ -412,7 +412,7 @@ export function addAILab(lab: Omit<AILab, 'id'>): AILab {
         ...lab,
         id: generateId()
     };
-    db.aiLabs.push(newLab);
+    db.aiLabs.unshift(newLab);  // Add to beginning so newest appears first
     writeDB(db);
     return newLab;
 }
@@ -478,7 +478,7 @@ export async function addSecurityToolAsync(tool: Omit<SecurityTool, 'id'>): Prom
         ...tool,
         id: generateId()
     };
-    db.securityTools.push(newTool);
+    db.securityTools.unshift(newTool);  // Add to beginning so newest appears first
     await writeDBAsync(db);
     return newTool;
 }
@@ -489,7 +489,7 @@ export function addSecurityTool(tool: Omit<SecurityTool, 'id'>): SecurityTool {
         ...tool,
         id: generateId()
     };
-    db.securityTools.push(newTool);
+    db.securityTools.unshift(newTool);  // Add to beginning so newest appears first
     writeDB(db);
     return newTool;
 }
