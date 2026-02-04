@@ -79,18 +79,21 @@ export async function writeFileToGitHub(
     message: string
 ): Promise<boolean> {
     const { token, repo } = getConfig();
+    const startTime = Date.now();
 
     if (!token) {
-        console.error('GITHUB_TOKEN not set - cannot write to GitHub');
+        console.error('[GitHub API] ERROR: GITHUB_TOKEN not set');
         return false;
     }
 
-    try {
-        console.log(`GitHub write: Starting for ${path} (${content.length} chars)`);
+    console.log(`[GitHub API] Starting write to ${repo}/${path}`);
+    console.log(`[GitHub API] Content size: ${content.length} chars (${Math.round(content.length / 1024)}KB)`);
 
+    try {
         // First, get the current file SHA (required for updates)
         let sha: string | undefined;
 
+        console.log('[GitHub API] Fetching current file SHA...');
         const getResponse = await fetch(
             `${GITHUB_API}/repos/${repo}/contents/${path}`,
             {
@@ -105,26 +108,28 @@ export async function writeFileToGitHub(
         if (getResponse.ok) {
             const existingFile = await getResponse.json();
             sha = existingFile.sha;
-            console.log(`GitHub write: Found existing file with SHA ${sha?.substring(0, 8)}...`);
+            console.log(`[GitHub API] Found existing file, SHA: ${sha?.substring(0, 8)}...`);
         } else {
-            console.log('GitHub write: File does not exist, will create new');
+            console.log(`[GitHub API] File not found (${getResponse.status}), will create new`);
         }
 
-        // Encode content to base64 - handle special characters properly
-        // Use Buffer to properly encode all UTF-8 characters including URLs
+        // Encode content to base64
         const encodedContent = Buffer.from(content, 'utf-8').toString('base64');
-
-        console.log(`GitHub write: Encoded content (${encodedContent.length} base64 chars)`);
+        console.log(`[GitHub API] Base64 encoded: ${encodedContent.length} chars (${Math.round(encodedContent.length / 1024)}KB)`);
 
         // Create request body
         const requestBody = {
             message: message,
             content: encodedContent,
-            sha: sha, // Include SHA for updates, undefined for new files
+            sha: sha,
             branch: 'main'
         };
 
+        const bodySize = JSON.stringify(requestBody).length;
+        console.log(`[GitHub API] Request body size: ${Math.round(bodySize / 1024)}KB`);
+
         // Create or update file
+        console.log('[GitHub API] Sending PUT request...');
         const response = await fetch(
             `${GITHUB_API}/repos/${repo}/contents/${path}`,
             {
@@ -139,18 +144,21 @@ export async function writeFileToGitHub(
             }
         );
 
+        const elapsed = Date.now() - startTime;
+
         if (!response.ok) {
             const errorBody = await response.text();
-            console.error(`GitHub write error (${response.status}):`, errorBody);
+            console.error(`[GitHub API] ERROR (${response.status}) after ${elapsed}ms: ${errorBody}`);
             return false;
         }
 
         const result = await response.json();
-        console.log(`GitHub write: Success! New SHA: ${result.content?.sha?.substring(0, 8)}`);
+        console.log(`[GitHub API] SUCCESS after ${elapsed}ms. New SHA: ${result.content?.sha?.substring(0, 8)}`);
         return true;
 
     } catch (error) {
-        console.error('Error writing to GitHub:', error);
+        const elapsed = Date.now() - startTime;
+        console.error(`[GitHub API] EXCEPTION after ${elapsed}ms:`, error);
         return false;
     }
 }
