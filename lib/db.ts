@@ -238,7 +238,10 @@ export async function addArticleAsync(article: Omit<Article, 'id' | 'date'>): Pr
         date: new Date().toISOString()
     };
     db.articles.unshift(newArticle);  // Add to beginning so newest appears first
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to write article to database');
+    }
     return newArticle;
 }
 
@@ -260,7 +263,10 @@ export async function updateArticleAsync(id: string, updates: Partial<Article>):
     if (index === -1) return null;
 
     db.articles[index] = { ...db.articles[index], ...updates };
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to update article in database');
+    }
     return db.articles[index];
 }
 
@@ -325,7 +331,10 @@ export async function addAPKAsync(apk: Omit<APK, 'id'>): Promise<APK> {
         id: generateId()
     };
     db.apks.unshift(newAPK);  // Add to beginning so newest appears first
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to write APK to database');
+    }
     return newAPK;
 }
 
@@ -346,7 +355,10 @@ export async function updateAPKAsync(id: string, updates: Partial<APK>): Promise
     if (index === -1) return null;
 
     db.apks[index] = { ...db.apks[index], ...updates };
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to update APK in database');
+    }
     return db.apks[index];
 }
 
@@ -406,7 +418,10 @@ export async function addAILabAsync(lab: Omit<AILab, 'id'>): Promise<AILab> {
         id: generateId()
     };
     db.aiLabs.unshift(newLab);  // Add to beginning so newest appears first
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to write AI Lab to database');
+    }
     return newLab;
 }
 
@@ -427,7 +442,10 @@ export async function updateAILabAsync(id: string, updates: Partial<AILab>): Pro
     if (index === -1) return null;
 
     db.aiLabs[index] = { ...db.aiLabs[index], ...updates };
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to update AI Lab in database');
+    }
     return db.aiLabs[index];
 }
 
@@ -483,7 +501,10 @@ export async function addSecurityToolAsync(tool: Omit<SecurityTool, 'id'>): Prom
         id: generateId()
     };
     db.securityTools.unshift(newTool);  // Add to beginning so newest appears first
-    await writeDBAsync(db);
+    const success = await writeDBAsync(db);
+    if (!success) {
+        throw new Error('Failed to write Security Tool to database');
+    }
     return newTool;
 }
 
