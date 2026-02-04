@@ -11,13 +11,13 @@ import {
     clearLoginAttempts
 } from '@/lib/auth';
 import {
-    addArticle, updateArticle, deleteArticle,
-    addAPK, updateAPK, deleteAPK,
-    addAILab, updateAILab, deleteAILab,
-    addSecurityTool, deleteSecurityTool,
-    logAdminAction,
-    getArticles, getAPKs, getAILabs, getSecurityTools,
-    readDB
+    addArticleAsync, updateArticleAsync, deleteArticleAsync,
+    addAPKAsync, updateAPKAsync, deleteAPKAsync,
+    addAILabAsync, updateAILabAsync, deleteAILabAsync,
+    addSecurityToolAsync, deleteSecurityToolAsync,
+    logAdminActionAsync,
+    getArticlesAsync, getAPKsAsync, getAILabsAsync, getSecurityToolsAsync,
+    readDBAsync, initializeDB
 } from '@/lib/db';
 
 // CORS headers for Vercel deployment
@@ -37,8 +37,11 @@ export async function POST(request: NextRequest) {
     const ip = request.headers.get('x-forwarded-for')?.split(',')[0] || 'unknown';
 
     try {
+        // Initialize database cache on first request
+        await initializeDB();
+
         const body = await request.json();
-        const { action, password, sessionToken, csrfToken, data, contentType, itemId } = body;
+        const { action, password, sessionToken, data, contentType, itemId } = body;
 
         // Handle login
         if (action === 'login') {
@@ -53,7 +56,7 @@ export async function POST(request: NextRequest) {
             const isValid = await validatePassword(password);
             if (!isValid) {
                 const attemptResult = recordFailedAttempt(ip);
-                logAdminAction('login_failed', `Invalid password attempt (${attemptResult.attemptsRemaining} remaining)`, ip);
+                await logAdminActionAsync('login_failed', `Invalid password attempt (${attemptResult.attemptsRemaining} remaining)`, ip);
 
                 if (attemptResult.locked) {
                     return NextResponse.json({
@@ -71,7 +74,7 @@ export async function POST(request: NextRequest) {
 
             const session = createSession(ip);
             const csrf = generateCSRFToken();
-            logAdminAction('login_success', 'Admin logged in', ip);
+            await logAdminActionAsync('login_success', 'Admin logged in', ip);
 
             return NextResponse.json({
                 success: true,
@@ -88,7 +91,7 @@ export async function POST(request: NextRequest) {
         // Handle logout
         if (action === 'logout') {
             destroySession();
-            logAdminAction('logout', 'Admin logged out', ip);
+            await logAdminActionAsync('logout', 'Admin logged out', ip);
             return NextResponse.json({ success: true }, { headers: corsHeaders });
         }
 
@@ -97,21 +100,21 @@ export async function POST(request: NextRequest) {
             let result;
             switch (contentType) {
                 case 'article':
-                    result = addArticle(data);
+                    result = await addArticleAsync(data);
                     break;
                 case 'apk':
-                    result = addAPK(data);
+                    result = await addAPKAsync(data);
                     break;
                 case 'aiLab':
-                    result = addAILab(data);
+                    result = await addAILabAsync(data);
                     break;
                 case 'securityTool':
-                    result = addSecurityTool(data);
+                    result = await addSecurityToolAsync(data);
                     break;
                 default:
                     return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
             }
-            logAdminAction('add', `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`, ip);
+            await logAdminActionAsync('add', `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`, ip);
             return NextResponse.json({ success: true, data: result }, { headers: corsHeaders });
         }
 
@@ -119,13 +122,13 @@ export async function POST(request: NextRequest) {
             let result;
             switch (contentType) {
                 case 'article':
-                    result = updateArticle(itemId, data);
+                    result = await updateArticleAsync(itemId, data);
                     break;
                 case 'apk':
-                    result = updateAPK(itemId, data);
+                    result = await updateAPKAsync(itemId, data);
                     break;
                 case 'aiLab':
-                    result = updateAILab(itemId, data);
+                    result = await updateAILabAsync(itemId, data);
                     break;
                 default:
                     return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
@@ -133,7 +136,7 @@ export async function POST(request: NextRequest) {
             if (!result) {
                 return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
             }
-            logAdminAction('update', `Updated ${contentType} ${itemId}`, ip);
+            await logAdminActionAsync('update', `Updated ${contentType} ${itemId}`, ip);
             return NextResponse.json({ success: true, data: result }, { headers: corsHeaders });
         }
 
@@ -141,16 +144,16 @@ export async function POST(request: NextRequest) {
             let success;
             switch (contentType) {
                 case 'article':
-                    success = deleteArticle(itemId);
+                    success = await deleteArticleAsync(itemId);
                     break;
                 case 'apk':
-                    success = deleteAPK(itemId);
+                    success = await deleteAPKAsync(itemId);
                     break;
                 case 'aiLab':
-                    success = deleteAILab(itemId);
+                    success = await deleteAILabAsync(itemId);
                     break;
                 case 'securityTool':
-                    success = deleteSecurityTool(itemId);
+                    success = await deleteSecurityToolAsync(itemId);
                     break;
                 default:
                     return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
@@ -158,17 +161,17 @@ export async function POST(request: NextRequest) {
             if (!success) {
                 return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
             }
-            logAdminAction('delete', `Deleted ${contentType} ${itemId}`, ip);
+            await logAdminActionAsync('delete', `Deleted ${contentType} ${itemId}`, ip);
             return NextResponse.json({ success: true }, { headers: corsHeaders });
         }
 
         if (action === 'getData') {
-            const db = readDB();
+            const db = await readDBAsync();
             return NextResponse.json({
-                articles: getArticles(),
-                apks: getAPKs(),
-                aiLabs: getAILabs(),
-                securityTools: getSecurityTools(),
+                articles: await getArticlesAsync(),
+                apks: await getAPKsAsync(),
+                aiLabs: await getAILabsAsync(),
+                securityTools: await getSecurityToolsAsync(),
                 downloadLogs: db.downloadLogs?.slice(-50) || [],
                 adminLogs: db.adminLogs?.slice(-50) || []
             }, { headers: corsHeaders });
