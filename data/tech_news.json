@@ -1,6 +1,96 @@
 {
   "news": [
     {
+      "id": "a61b8c77-577b-4310-8c5d-a69f05803211",
+      "title": "Nvidia’s RTX 50-series Super refresh is delayed, and the RTX 60-series might miss 2027",
+      "summary": "PC gamers, brace yourselves for a major shake-up! Nvidia's highly anticipated RTX 50-series \"Super\" refresh is reportedly facing significant delays, pushing back those next-gen performance upgrades. But the news gets starker: the revolutionary RTX 60-series, initially eyed for 2027, might not arrive until 2028 or even later! The primary culprit? An overwhelming global memory chip shortage, with AI accelerators gobbling up vital HBM and GDDR6 components. This massive shift in market priorities means consumer gaming GPUs are taking a backseat. Get ready to hold onto your current cards longer, as cutting-edge upgrades from Team Green seem further than ever.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vUmJxTmN5bDZSRUdwVUlWMDhMRC05T2RFSHRuT25CZ1pKY1VBNVZzVjBVdXhkVk5QdzlKZkJKVTJUZ2VMTlNESGNkTUQwZVRDcHNYQ25QaE1VeE1Hcm83Y2czdDEzOTdUcnNDUUsxNUk1cjhRQlFTR0FsQWY?oc=5",
+      "source_name": "theverge.com",
+      "date": "2026-02-05T16:33:27Z"
+    },
+    {
+      "id": "e9631f04-a5c8-49b8-a0d7-65871e23ce76",
+      "title": "Everything we know about Valve's new Steam Machine",
+      "summary": "Valve’s next-gen Steam Machine is generating serious buzz, promising an incredible gaming experience! This powerful console-PC hybrid is now targeting an early 2026 launch, a slight delay due to ongoing component pricing challenges, particularly affecting RAM. But fear not, enthusiasts! Early reports suggest this beast will handle most games \"great\" at a stunning 4K resolution and smooth 60 frames per second. Imagine that truly raw power in your living room! AMD has confirmed its involvement, hinting at a high-performance device ready to redefine hybrid gaming. Get ready to experience your Steam library like never before, even if you have to wait a little longer.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS3poY1c1Yk5vd0dzQzRXbWxETUpDaERBWVlvNVJMOXdJT3VGUWdzRnN1VzZsNnFvd0RjUlJ0V0lrbi10T3hQSFJ5ckFLV0VVZVd3U0dkY3JUZjk3SWxlUTVfY1QtU3NIYnhhb1hOcWJtN2pHLUZoNFRHakx3X3p1NzRaRVMza2FIby1fMXlEZHpfNmJ2Z2hsY05fcDJQVGE2?oc=5",
+      "source_name": "Engadget",
+      "date": "2026-02-05T20:04:58Z"
+    },
+    {
+      "id": "e6ece3a5-7e2b-4da1-afd0-c6b146e67e78",
+      "title": "Tim Cook Teases Plans for Apple's Upcoming 50th Anniversary",
+      "summary": "Hold onto your iPhones, tech enthusiasts! Tim Cook just sparked massive excitement, teasing \"something special\" for Apple’s monumental 50th anniversary in 2026. Imagine commemorating half a century of groundbreaking innovation, from the original Macintosh to the latest Vision Pro. While details remain under wraps, expect a celebration befitting a company that redefined technology again and again. Cook also candidly discussed long-term succession plans, ensuring Apple’s legendary trajectory continues with robust leadership. This isn't merely a nostalgic look back; it's a powerful statement about Apple's relentless drive forward, promising future breakthroughs and solidifying its legacy. The anticipation is absolutely electrifying!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObmN3N1V0aW9nOVhqZ3NPSWdnc3FBNXJhTFhfZGNUVTJGQ0U4UXlwcmRtMlBYeWRLa05Dd05qYks4UllUQzhlcWJWNVRFRlo1T2U2UlZXcXpGUml3djZRTkdhbHNwMVRyYXFvZFloX2FoeWpOT1hjcnVpMWZmekVlMFZB?oc=5",
+      "source_name": "MacRumors",
+      "date": "2026-02-05T20:54:35Z"
+    },
+    {
+      "id": "eec523ba-388f-4e6a-960f-d592e7bf20fd",
+      "title": "The Switch 2 is getting a new Virtual Console (kind of)",
+      "summary": "Get ready, retro gamers! The legendary studio Hamster, behind the beloved Arcade Archives, is launching an exciting new venture: Console Archives. This isn't just another re-release; it’s being hailed as the spiritual successor to Nintendo's iconic Virtual Console, particularly with the \"Switch 2\" on the horizon. Kicking off with PlayStation classic Cool Boarders and a never-before-released version of Rave Racer, this series promises to unearth hidden gems and fan favorites from console history. While also hitting PS5 and Xbox, its potential impact on Nintendo's next-gen retro offerings is huge. Prepare for a glorious blast from the past!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDZLUUlmQXdpOUM1Vkh2Q2ZQZGhHRzZjeERRZmlhVmJ1RUF2VEc5TFZJV1NkQVpFY0pPaXR5TlBneTg3RVowUmZ6YTgxUndTNkprZnZGbzZrMEp3WFJ0dFczcW5CTTBpT3V4UE1leHQ4aDBjSXRaaFQyRXJsQWtpdEdzdVNnWkttZmJrOVhWcHM1SnpVa2c?oc=5",
+      "source_name": "Ars Technica",
+      "date": "2026-02-05T22:14:34Z"
+    },
+    {
+      "id": "fad9112e-5710-4678-a0a3-5fbd132196bc",
+      "title": "Latest Nintendo Direct: Partner Showcase Features New and Classic Titles Coming to Nintendo Switch 2 and Nintendo Switch",
+      "summary": "Nintendo just dropped a bombshell Partner Showcase, and gamers are absolutely buzzing! This exciting Direct unveiled a fantastic slate of both brand-new adventures and beloved classics destined for your current Nintendo Switch AND the highly anticipated Switch 2. Imagine cracking whips with Indiana Jones or diving headfirst into the post-apocalyptic world of Fallout 4 on a Nintendo console! While next-gen console details remain scarce, this showcase gave us a tantalizing glimpse into the incredible third-party support heading our way. Get ready for a gaming future packed with surprises and truly unforgettable experiences, proving Nintendo's ecosystem is stronger than ever before.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPOE9CRzZveFdScjVhWVpqSUhUNkVOLWM4MjlsQjZSUFVpTEhkZkF2NVdFYS1EVTAyNVpqMlQ1dlhjMzYwN01LTmdySU1KQ0ZEZFQ4WUZXYXc1WVktVC1jWm9wSmdTdzYxN3RuQ252WGxrV3cxU25XMGJlb1o5bUE0WURKYmxET3lKS3h3TzVkbk5obW52M1BlcC1pU0NNMTRQWjVLTjF3U2pkNWVOd1RhdXJnSGlGbmxaeVladFBwbkJFWFFiR1FzdzJVQVNkZy1ob2VqeTFESS1abm93VkNQM3ZFUXljdngyRkhTVW85RTV2eTFYT0o4NzBVSDlkMkhUYmZtdGVQNA?oc=5",
+      "source_name": "Business Wire",
+      "date": "2026-02-05T14:45:00Z"
+    },
+    {
+      "id": "2dbcde9e-2cb2-46bc-b631-b882796eccf2",
+      "title": "Samsung killed Galaxy S26 upgrades to avoid a price hike – leaks say it didn’t work",
+      "summary": "Hold onto your hats, Galaxy fans! Fresh leaks paint a grim picture for the upcoming Samsung S26 series. Rumor has it, Samsung aggressively cut many key upgrades, even an anticipated iPhone-like feature (think satellite connectivity!), all to stave off a major price increase. The kicker? Despite these sacrifices, the S26's cost is still expected to jump! This strategy seems to have backfired spectacularly, potentially ruining the big reveal. While core performance might still be stellar with the new Snapdragon chip, many are questioning the overall value. Is Samsung about to disappoint its most loyal users? The tech world is watching.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SWmQ1M2RhdWwtYmhXUHh3aHdfcGRuUEFBWW5UVHk2UUVpM29sc2ZjTFdicjNxM2NJbDJfZ0dlMnU3QUZpelNXVy1aSzhzajdNZFlyUFlzN1BZeHQ0N0ZmUTZpMUZ1UDJnTVZGQUxCQ1pTaW1DTXNucFkwNjZvZw?oc=5",
+      "source_name": "9to5Google",
+      "date": "2026-02-05T20:05:00Z"
+    },
+    {
+      "id": "4b3a7271-e522-4911-a628-b4050fc3bfae",
+      "title": "Preparing for your second Expedition",
+      "summary": "ARC Raiders fans, get ready! Embark Studios is gearing up for its second Expedition, and they've heard your cries for change. Following criticism over the previous steep reward requirements, the devs are making things significantly easier. Finishing the new Expedition will be *millions* cheaper, meaning more players can conquer challenges and claim their hard-earned loot. Brace yourselves for another character wipe, but don't fret – it paves the way for even greater rewards and a rebalanced, more accessible grind. This is a massive win for the community, promising a smoother, more enjoyable post-apocalyptic scavenging experience! Dive back in soon!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XdGdEdTlReE9HRnpxSnlUNFpjVFp6Z290eXJYUEFtYlc4cEV4SlFWdGRuWmxJUFYyYTRnWm54OW1sTmdmWjFFVjBXbVBsNm5tUWtfWWVwVHh4T0pzYU9DWTNwZGhodFY0RWVTckVkWDN0eExrMWY3M3d3?oc=5",
+      "source_name": "ARC Raiders",
+      "date": "2026-02-05T17:02:39Z"
+    },
+    {
+      "id": "cb9b17f4-11ed-4941-8012-c6092abc44cd",
+      "title": "Oblivion, Skyrim And Fallout Switch 2 Physicals Will All Be Code-In-A-Box, Bethesda Confirms",
+      "summary": "Hold up, Switch 2 fans! Bethesda just dropped a bomb concerning the physical releases of *Oblivion*, *Skyrim*, and *Fallout* for Nintendo's upcoming console. While you can snag those iconic box arts, don't expect a cartridge inside. Bethesda confirmed these will all be \"code-in-a-box\" editions. This means your \"physical\" purchase is essentially a fancy download code, making them digital-only on disc, so to speak. It's a move that's sure to spark debate among collectors and digital-first advocates. Is this the future of physical media, or a punch to the gut for those who cherish tangible game collections? Prepare for epic adventures!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRzRKWmFkMzd0SlgybV9fbTRDai03T0VtYjhYQlRCbVdfdWVVMzM4eWR3LW52czVWQlpjTjZvelNjYy1VRkVvU0xkTnFJRTcyN1p6cFB4elVyMUlWU1R1NWsxajQ1UUZuUEdJM0pVQUszR2VZRmx1dk1RcFgyS0taNy16RlA2M1VBUDE2NmxBUFNRaWVwUlZZZHBCZVJhNWZlbnlFdWdaRlViOGNfZjQyd0UyM183d05fTGFtdW45RlhRRkRKeEtPbWlhdEI?oc=5",
+      "source_name": "Nintendo Life",
+      "date": "2026-02-05T18:15:00Z"
+    },
+    {
+      "id": "147a5993-abd6-4708-861c-7d5cb7941961",
+      "title": "System76's COSMIC Desktop Planning Vulkan Renderer, Improved Gaming Experience",
+      "summary": "Gamers, prepare for a seismic shift! System76 is injecting some serious horsepower into its COSMIC Desktop, with plans for a groundbreaking Vulkan renderer. This isn't just a tweak; it's a strategic move to unlock your GPU's full potential, promising monumental performance gains for Linux gaming. Imagine your favorite titles running smoother, looking sharper, and feeling incredibly responsive directly on your open-source desktop. This ambitious roadmap, detailed for COSMIC's upcoming epochs, underscores System76's unwavering commitment to crafting the ultimate gaming-ready environment. Get ready for buttery-smooth frame rates and stunning visuals. A high-performance, enhanced gaming future on Linux is officially on the horizon!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkNXpCUUFSWF9Ub3hYUDBxM1BoZkI4MGlYM1lZRWt2V3ZWNmZLQ2NnZmx4SHJ4NWh1Nkl1ZllPQ1VmaVh6Q2FJUWpRZlNDbTl2T01DRXFDSkZIZEVtdmluZ2U2NDZJV1BpRllncg?oc=5",
+      "source_name": "Phoronix",
+      "date": "2026-02-05T01:13:00Z"
+    },
+    {
+      "id": "6d3709a3-3cb0-402a-8517-d67b18ee34a1",
+      "title": "PARANORMASIGHT: The Mermaid’s Curse announced for Switch, PC, iOS, and Android",
+      "summary": "PARANORMASIGHT: The Mermaid’s Curse announced for Switch, PC, iOS, and Android Gematsu A New Paranormasight Game Is Coming And I'm Begging You Not To Sleep On It Again GameSpot Paranormasight: The Mermaid's Curse Brings Underwater Horrors This February Game Informer Square Enix Unveils New Titles and Trailers in Latest Nintendo Direct TechPowerUp Paranormasight Is Getting a Surprise Sequel, and It's Out in Two Weeks IGN",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczFsSlRjM1RGNEt6MlJxQmYzdUFpX21oQVVSLWM2a00xMnNGMkJlNFlWcVVVaDNmWEdBN0k1ejhRc21BdUowUVpteU9XTTZlWVRDY05KTVJoLUpHaFhhU3RaTkw0TjZfMkltWkhzUzE5NmlscndSWDVrVmlnVUVnV1NaQmRVWEFlWGFkLTRTOThjekFxb0hZZnJybEJQaU1NYkNJWGRvMFE?oc=5",
+      "source_name": "Gematsu",
+      "date": "2026-02-05T14:05:57Z"
+    },
+    {
       "id": "17ba5630-3566-4890-8b30-721da5dcca27",
       "title": "Galaxy S26 Ultra pretty much confirmed to lag behind Pixel 10 and iPhone 17 in key area",
       "summary": "Hold onto your hats, Samsung fans! Leaks for the Galaxy S26 Ultra are dropping, and while it promises a *ridiculous* camera zoom that'll capture details from miles away, there's a catch. Fresh reports suggest the S26 Ultra will *definitely* skip integrated Qi2 magnets, putting it behind the curve compared to upcoming Pixel 10 and iPhone 17 models. This means no MagSafe-like accessory ecosystem or faster Qi2 wireless charging for Samsung's 2026 flagship. While other specs are still emerging, this omission could be a major buzzkill for enthusiasts hoping for peak innovation. Get ready for a fierce debate on whether zoom alone can win the day!",
@@ -359,96 +449,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRnpLZlFsZDB5S0pjV2VGWTB5M2JwUlAyOUpZc2ZsSmc0WWZTa2FZMmZvMDUwdTVQSDRqb184b19LQ2hvYVZPdjBnM2NuNXdJLS1vSGhycE5DTmxxbTNhQmdCdEh5VGJJNm8tYVkxREhqTnFfTGV0YUZsYTFOUWZvMWhoQQ?oc=5",
       "source_name": "bgr.com",
       "date": "2026-02-03T18:40:47Z"
-    },
-    {
-      "id": "f971f3a0-37b4-414a-8e98-120c8a8406e4",
-      "title": "Nintendo net sales up 99.3% as Switch 2 shifts 17.37m units",
-      "summary": "Nintendo is soaring to new heights! Their latest financial report reveals an astounding 99.3% surge in net sales, showcasing the incredible, sustained demand for their flagship console. The Switch family continues its phenomenal run, with an impressive 17.37 million units sold recently, catapulting its lifetime sales past the legendary DS to become Nintendo's best-selling console of all time! This isn't just about stellar numbers; it’s a powerful testament to the Switch’s enduring innovation and captivating game library. Despite market challenges, Nintendo’s robust performance confirms its industry dominance and promises an exciting future for enthusiastic gamers everywhere.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS2FuSERheEtnNkNBWS1hZlhNb2I2RFdnVDAzQzFMZ0Q0ZVZnRmtoT2NZWUo0ckJDd1hJa2ZYT2JQZ0MtZFZpa18zMkhfVTh5dEVlWnZyUDNXcGluaTc2U2F6QzhkdnVKeGMteVFDY3VldEV2X3o4QjZRTlloOFJKYlM1S19kQ1pXRXlHbFdVZw?oc=5",
-      "source_name": "GamesIndustry.biz",
-      "date": "2026-02-03T10:09:38Z"
-    },
-    {
-      "id": "4891422f-e597-422d-a6f9-178c7193607f",
-      "title": "Samsung Galaxy S26 Ultra Release Date: New Leaks, Disappointing News",
-      "summary": "Tech enthusiasts, brace yourselves! Early leaks for Samsung's Galaxy S26 Ultra are dropping, painting a mixed picture for the upcoming flagship. While anticipation builds for Unpacked 2026, a potential letdown is the rumored absence of built-in Qi2 magnets, a puzzling omission for wireless charging fans. On the flip side, early listings tease exciting color options! Price leaks suggest a bittersweet reveal, reassuring some wallets while shocking others. Expect cutting-edge power and design, but maybe some compromises. Stay tuned as more details emerge for Samsung’s next premium device, promising innovation with a few unexpected twists.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDZKcUlvYVk4TExmR29RdDhQLUdFY2w5V1ZhMnZlQVlPVjVFa0I3dms3VGtqMkhYX0Vjb0JjSmFPMVo1ZzlWcjc3bWx2UUg0b2Z6LVBpVVpzU0NRVE85bXJQaWFHMFRXa2xmVWlHWlZVTlBqVkZTYUt0dm1CajMtdmVITTcwUk9qUUR2LWdsSWM4cHNfOTVPOVRhbTYwNFgxdGtCdUJDZmdyMlh3?oc=5",
-      "source_name": "Forbes",
-      "date": "2026-02-03T14:44:00Z"
-    },
-    {
-      "id": "6e8ce6ef-cad8-422c-b711-fa609295c263",
-      "title": "Fitbit founders launch AI platform to help families monitor their health",
-      "summary": "The visionary minds behind Fitbit are back, revolutionizing family health with a groundbreaking new AI platform: Luffu! Moving beyond individual tracking, Luffu empowers entire families to proactively monitor everyone’s well-being using smart, connected technology. Imagine AI as your family’s digital guardian, providing vital insights and timely alerts to ensure safety and catch potential issues early. This isn't just another health gadget; it's a comprehensive, intelligent ecosystem designed for modern caregiving. For tech enthusiasts, this represents a significant leap in how AI can seamlessly integrate into our daily lives, truly transforming family health management into an interconnected, cutting-edge experience. Get ready for the future of care!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNFNkUEMyWFZkU1dsdndIQ05yRnZ6NVc2ZVlsZjdXLUI0a2RNVkpHeDNIZ3RCeXNXZFlkM0pFOGZ6azdnVXVkNVRfLTQ3WHl0UkNwVV9vdTFFalhSQllZUUNibV83cFRuU3BiVmZrZ0RUdmhwYy0wMEphMkdNVGh6X2VkS3I1bXJFYVFzZFNRaGgySm9KOEhkNXhTUGNjalN6eHBicjdvQXJ3UUk?oc=5",
-      "source_name": "TechCrunch",
-      "date": "2026-02-03T15:53:36Z"
-    },
-    {
-      "id": "2d30ac3f-89b0-43d3-a5bd-f7b0282cfac4",
-      "title": "Google Home finally adds support for buttons",
-      "summary": "Finally! Google Home users, your smart home just got a whole lot smarter and more tactile. Google Home is officially rolling out support for smart buttons, a game-changer many enthusiasts have eagerly awaited. Forget fumbling with your phone or shouting commands! Now, a simple press of a physical button can trigger complex routines, control lights, arm your security, or execute any custom action you’ve set up. This dramatically boosts convenience and accessibility, making your connected gadgets feel more intuitive and integrated. It’s the upgrade that brings a satisfying click to your automated life, streamlining daily interactions and elevating the Google Home experience to new, effortlessly interactive heights. Get ready to button up your smart home!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XVkNhMG9peGJYb3Vrak5Xa1dZdEFlSEtPdXJWcnBvVUF3NGdxTVV2Tm1BOGR3WnNscjNyajZYN2tGSGJOV0JRcV9rcHpieG82TGQ2RFRHLUNFWHlTRFZMMGwxX2dJUmlYaEl0RG1QOFhBSkRHNENBYjFpMA?oc=5",
-      "source_name": "The Verge",
-      "date": "2026-02-03T13:50:56Z"
-    },
-    {
-      "id": "6a76d821-5a1b-4ef5-9196-55d5551f70c0",
-      "title": "As a Virtual Boy owner I can confirm the Switch 2's NSO offering is alarmingly accurate and an essential history lesson",
-      "summary": "Get ready for a truly mind-bending retro trip! The upcoming Switch 2 is rumored to resurrect one of Nintendo's most infamous failures: the Virtual Boy! Early hands-on reports confirm an \"alarmingly accurate\" NSO offering or even a dedicated accessory that perfectly recreates the original's bizarre, eye-straining red monochrome experience. Far from a simple nostalgia play, this isn't just gaming; it’s an essential and fascinating history lesson. Enthusiasts are excitedly sticking their faces into this surprisingly faithful recreation, discovering the oddly comforting, yet undeniably strange, blast from the past. Prepare for Nintendo's strangest comeback!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92YjUxY3dGWUUweE1DNjZ3UHRTYllOWVk2U0NrYjZuUXVOa29wcUFTR3BqbEI3VDRJY1g1YUZTb1NaOTRkRVFFcENqNWJBeFpBVGRJaXpmTQ?oc=5",
-      "source_name": "Eurogamer",
-      "date": "2026-02-03T14:00:00Z"
-    },
-    {
-      "id": "b6365dde-79ef-4ddd-b094-0f98865980c0",
-      "title": "Samsung updates One UI software rollout roadmap – February 2026",
-      "summary": "Hold onto your Galaxies! Samsung has just unveiled significant shifts in its One UI software roadmap, and not every phone is getting the same VIP treatment. Enthusiasts, listen up: older flagships are facing tougher news. The beloved Galaxy S21 series is officially bowing out of future major One UI updates, marking the end of an era for many. Meanwhile, the Galaxy S22 and S21 FE models are being shifted to a slower update track, meaning longer waits for those sweet new features and security patches. This strategic move impacts millions of devices, so check your model. It’s a wake-up call for those clinging to older tech – time to consider your upgrade path!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORC1UOGVaelNRb2N4OGw4QXZfM3lpblZvX0d3aEJuVWJocTNUYmNfQ1QyWUMtb1Zid3BDS01HMFk5cjl2LXlXQnYxUlVjTGpmQjR2bExFbGtOM1g5NHFTVjZyU0ZWUVl3RnB6NnhZSlUzejNuSVVZRG0zbVhpSFROV0Nn0gGHAUFVX3lxTE1oSEVVZ1FLbWw2b3AxWVJ1OWNSbkF6N3loclRTVU1SWWdFRlFiRDBhaVdCVV9MRGNVUWJYVVBFRDdmZThYd2FZaG8wOGlKeU9SaGdYUzZuaDVhV1dnUlQtVkwwRUNzZW9XS1U0d0taV0VSRWxzRVl0Y3REbmxmUWlNanRpZzZGOA?oc=5",
-      "source_name": "Sammy Fans",
-      "date": "2026-02-03T05:22:45Z"
-    },
-    {
-      "id": "03564c9f-cef9-4fa3-ac88-9c3bda3cf5b2",
-      "title": "Gemini Live rolling out floating pill redesign on Android",
-      "summary": "Google's Gemini Live is rolling out a fantastic new update for Android users! Get ready for a sleek floating pill redesign that revolutionizes how you interact with your AI assistant. This intuitive, persistent UI element keeps Gemini Live accessible directly on your screen, no matter what app you’re using. Imagine seamless multitasking: dictate notes, get quick info, or brainstorm ideas without ever leaving your current task. It's designed to make your AI companion an always-on, dynamic presence, significantly boosting accessibility and user experience. Tech enthusiasts, prepare for a more integrated, powerful smart assistant experience right on your phone!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzWGxLbUo2Q1JueDBNbHdCYXJ5VXJMcmFLMHN2ZjVvcEVwdVRVVTlZeHprd3NZQUpQWl9VX0xiYURPVndlaFljcVBjSWZndGotVUxqT3U2dGFyanpzZDQ3WlFhU3R2Ry03ZzdWWVBIMjhKQQ?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-02T19:33:00Z"
-    },
-    {
-      "id": "b51a1ba5-31e5-49b0-bb73-663d0c8f22f5",
-      "title": "Galaxy Buds 4 may not have Galaxy Buds 3 like quality and reliability issues",
-      "summary": "Get ready, audiophiles! Samsung's Galaxy Buds 4 series is on the horizon, and leaks are spilling serious beans! Fresh renders reveal stunning designs for both the Galaxy Buds 4 and the premium Buds 4 Pro, the latter even accidentally confirmed by Samsung itself. Excitingly, whispers suggest these new buds could finally leave behind the frustrating quality and reliability issues that plagued some earlier models, promising a much more robust and dependable experience. Leaked prices give us an early peek at the wallet impact, while rumors point to a welcome return to a classic charging case design. Prepare for an audio upgrade that’s shaping up to be truly spectacular, hitting all the right notes!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM3hNalZOYVJUbFQyMmdGQmc0T1ZJTXI0eVBiLUVzMzhXYW5COGVQMzNsM0RPSEN6RnVBclBiWVB3cnF0T1VtRkV2UVkxX052Q0lobVY1TFNGMnBBeGNMbzYwS1ViamRxOWVwNWs3SHJPR0szdjViZmNKam5iZ1ByeEZHUjBTWFdHLUlJ?oc=5",
-      "source_name": "SamMobile",
-      "date": "2026-02-03T05:02:00Z"
-    },
-    {
-      "id": "926f8e72-85d7-4af4-ba84-04fed336ef27",
-      "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
-      "summary": "Brace yourselves, tech warriors! A critical new vulnerability, dubbed OpenClaw, is making waves, turning your digital world into a potential minefield. This isn't just another bug; it’s a \"dumpster fire\" according to experts, enabling devastating one-click Remote Code Execution (RCE) via a simple malicious link. Imagine, one wrong click and attackers could gain full control, pushing nasty password-stealing malware directly to your system, especially targeting macOS users. This dangerous flaw leverages AI agents like MoltBot, making it incredibly insidious. Security researchers are sounding the alarm, urging everyone to stay vigilant. Your clicking finger could be the weakest link!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdkhmMlQxeG1DZjdDb2lDOVFlZ054YkRqNlIwUVdKRzVNU2d2LXltYzZvZnpKRzluVDhjTmFPbnhQV0d0YnJ2YU45MXlzU0VoNFNUUDl6NzAyU1FzTGlUMFloWXdUSVRsMUhLS1dwYmVOTVc0dFBPc2VHZ04xdVVUVlVR?oc=5",
-      "source_name": "The Hacker News",
-      "date": "2026-02-02T16:28:00Z"
-    },
-    {
-      "id": "6582a569-ebeb-4e12-ae75-5adb35965053",
-      "title": "Android 16 QPR3: Pixel adds Adaptive Connectivity auto-switch, battery settings",
-      "summary": "Pixel fanatics, brace yourselves! Android 16 QPR3 is landing, packed with intelligent upgrades for your devices. The standout is Adaptive Connectivity, an auto-switch that seamlessly shuffles between Wi-Fi and mobile data. Say goodbye to dropped calls or buffering as your Wi-Fi falters! This smart system guarantees ultra-stable connections, optimizing performance effortlessly. But there’s more; revamped battery settings are also arriving, promising enhanced longevity and granular control over your phone’s power usage. Prepare for a noticeably smoother, more efficient Pixel experience. This isn't just an update; it's a significant leap forward, making daily use even better for enthusiasts!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxdHlfMWxlMUdpSGpPQUFrRVpZWGZQdG5RcXFtMkYwcEtVTldFaEZ2SmttaE9WSzlBTFhhcGhjaXJCb2gtMmlma1N2OHFpMjVSLWhfa0NFT3g1Ym52VXVEdXVYbFhiZ2ZtWjQtUGJjdDN6ZFkxd2ZWOFRzWQ?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-03T00:54:00Z"
     }
   ]
 }
