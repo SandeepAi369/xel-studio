@@ -1,12 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import {
-    getArticlesAsync,
-    getAPKsAsync,
-    getAILabsAsync,
-    getSecurityToolsAsync,
-    getTechNewsAsync,
-    initializeDB
-} from '@/lib/db';
+import { readDBAsync } from '@/lib/db';
+import { isVercel } from '@/lib/github-api';
 
 // Force dynamic rendering - no caching
 export const dynamic = 'force-dynamic';
@@ -16,34 +10,38 @@ export async function GET(request: NextRequest) {
     const type = request.nextUrl.searchParams.get('type');
 
     try {
-        // Initialize database (loads from GitHub on Vercel)
-        await initializeDB();
+        // Always get fresh data from GitHub (on Vercel) or filesystem (local)
+        // Force refresh on Vercel to ensure newly added articles appear immediately
+        const db = await readDBAsync(isVercel());
 
         let data;
 
         switch (type) {
             case 'articles':
-                data = { items: await getArticlesAsync() };
+                data = { items: db.articles || [] };
                 break;
             case 'apks':
-                data = { items: await getAPKsAsync() };
+                data = { items: db.apks || [] };
                 break;
             case 'aiLabs':
-                data = { items: await getAILabsAsync() };
+                data = { items: db.aiLabs || [] };
                 break;
             case 'securityTools':
-                data = { items: await getSecurityToolsAsync() };
+                data = { items: db.securityTools || [] };
                 break;
             case 'aiNews':
-            case 'techNews':
+            case 'techNews': {
+                // Tech news is separate - import dynamically
+                const { getTechNewsAsync } = await import('@/lib/db');
                 data = { items: await getTechNewsAsync() };
                 break;
+            }
             default:
                 data = {
-                    articles: await getArticlesAsync(),
-                    apks: await getAPKsAsync(),
-                    aiLabs: await getAILabsAsync(),
-                    securityTools: await getSecurityToolsAsync()
+                    articles: db.articles || [],
+                    apks: db.apks || [],
+                    aiLabs: db.aiLabs || [],
+                    securityTools: db.securityTools || []
                 };
         }
 

@@ -1,4 +1,5 @@
 import bcrypt from 'bcryptjs';
+import { createHmac, randomBytes } from 'crypto';
 
 // Admin credentials - HARDCODED for reliability
 // Token required in URL: ?token=XelSuperSecret2026
@@ -6,15 +7,10 @@ import bcrypt from 'bcryptjs';
 const ADMIN_TOKEN = 'XelSuperSecret2026';
 const ADMIN_PASSWORD = 'Sandeep@Boss';
 
-// Session management
-interface AdminSession {
-    token: string;
-    createdAt: number;
-    ip: string;
-}
-
-let activeSession: AdminSession | null = null;
-const SESSION_TIMEOUT = 15 * 60 * 1000; // 15 minutes
+// Session config
+// Stateless signed tokens - works across ALL Vercel serverless instances
+const SESSION_SECRET = `XeL_${ADMIN_TOKEN}_SessionKey_2026`;
+const SESSION_TIMEOUT = 30 * 60 * 1000; // 30 minutes (extended for reliability)
 
 // Login attempt tracking - Shadow Integration security
 interface LoginAttempt {
@@ -92,42 +88,60 @@ export async function validatePassword(password: string): Promise<boolean> {
     return password === ADMIN_PASSWORD;
 }
 
-// Create session
-export function createSession(ip: string): string {
-    const token = `session_${Date.now()}_${Math.random().toString(36).substr(2, 16)}`;
-    activeSession = {
-        token,
-        createdAt: Date.now(),
-        ip
-    };
-    return token;
+// =====================================================================
+// STATELESS SESSION MANAGEMENT
+// Uses cryptographically signed tokens (HMAC-SHA256)
+// Works across ALL Vercel serverless instances - no in-memory state needed
+// =====================================================================
+
+// Create session - returns a cryptographically signed token
+export function createSession(_ip: string): string {
+    const payload = JSON.stringify({
+        ts: Date.now(),
+        n: randomBytes(8).toString('hex')
+    });
+    const payloadB64 = Buffer.from(payload).toString('base64url');
+    const sig = createHmac('sha256', SESSION_SECRET).update(payloadB64).digest('base64url');
+    return `${payloadB64}.${sig}`;
 }
 
-// Validate session
-export function validateSession(token: string, ip: string): boolean {
-    if (!activeSession) return false;
-    if (activeSession.token !== token) return false;
-    if (activeSession.ip !== ip) return false;
+// Validate session - verifies signature and checks timeout
+// Stateless: works on ANY serverless instance without shared memory
+export function validateSession(token: string, _ip: string): boolean {
+    try {
+        if (!token || typeof token !== 'string') return false;
 
-    // Check timeout
-    if (Date.now() - activeSession.createdAt > SESSION_TIMEOUT) {
-        activeSession = null;
+        const dotIndex = token.indexOf('.');
+        if (dotIndex === -1) return false;
+
+        const payloadB64 = token.substring(0, dotIndex);
+        const sig = token.substring(dotIndex + 1);
+
+        // Verify signature
+        const expectedSig = createHmac('sha256', SESSION_SECRET)
+            .update(payloadB64)
+            .digest('base64url');
+        if (sig !== expectedSig) return false;
+
+        // Verify not expired
+        const payload = JSON.parse(Buffer.from(payloadB64, 'base64url').toString());
+        if (Date.now() - payload.ts > SESSION_TIMEOUT) return false;
+
+        return true;
+    } catch {
         return false;
     }
-
-    // Extend session on activity
-    activeSession.createdAt = Date.now();
-    return true;
 }
 
-// Destroy session
+// Destroy session - stateless tokens auto-expire after SESSION_TIMEOUT
 export function destroySession(): void {
-    activeSession = null;
+    // No server-side state to clear
+    // Client will clear token and redirect to login
 }
 
 // Generate CSRF token
 export function generateCSRFToken(): string {
-    return `csrf_${Date.now()}_${Math.random().toString(36).substr(2, 16)}`;
+    return `csrf_${Date.now()}_${randomBytes(8).toString('hex')}`;
 }
 
 // Hash password for storage

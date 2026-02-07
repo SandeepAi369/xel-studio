@@ -70,8 +70,36 @@ export async function readFileFromGitHub(path: string): Promise<string | null> {
 }
 
 /**
+ * Get the current SHA of a file in GitHub repository
+ */
+async function getFileSHA(path: string, token: string, repo: string): Promise<string | undefined> {
+    try {
+        const response = await fetch(
+            `${GITHUB_API}/repos/${repo}/contents/${path}`,
+            {
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'X-GitHub-Api-Version': '2022-11-28'
+                },
+                cache: 'no-store'
+            }
+        );
+
+        if (response.ok) {
+            const data = await response.json();
+            return data.sha;
+        }
+        return undefined;
+    } catch {
+        return undefined;
+    }
+}
+
+/**
  * Write/Update a file in GitHub repository
- * Handles large content with proper base64 encoding
+ * Includes retry logic for SHA conflicts (409 errors)
+ * Max 3 attempts with fresh SHA fetch on each retry
  */
 export async function writeFileToGitHub(
     path: string,
@@ -80,6 +108,7 @@ export async function writeFileToGitHub(
 ): Promise<boolean> {
     const { token, repo } = getConfig();
     const startTime = Date.now();
+    const MAX_RETRIES = 3;
 
     if (!token) {
         console.error('[GitHub API] ERROR: GITHUB_TOKEN not set');
@@ -89,78 +118,81 @@ export async function writeFileToGitHub(
     console.log(`[GitHub API] Starting write to ${repo}/${path}`);
     console.log(`[GitHub API] Content size: ${content.length} chars (${Math.round(content.length / 1024)}KB)`);
 
-    try {
-        // First, get the current file SHA (required for updates)
-        let sha: string | undefined;
+    // Encode content to base64 (do this once)
+    const encodedContent = Buffer.from(content, 'utf-8').toString('base64');
 
-        console.log('[GitHub API] Fetching current file SHA...');
-        const getResponse = await fetch(
-            `${GITHUB_API}/repos/${repo}/contents/${path}`,
-            {
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                    'Accept': 'application/vnd.github.v3+json',
-                    'X-GitHub-Api-Version': '2022-11-28'
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+        try {
+            console.log(`[GitHub API] Attempt ${attempt}/${MAX_RETRIES} - Fetching current SHA...`);
+
+            // Get fresh SHA on each attempt
+            const sha = await getFileSHA(path, token, repo);
+            if (sha) {
+                console.log(`[GitHub API] Found existing file, SHA: ${sha.substring(0, 8)}...`);
+            } else {
+                console.log('[GitHub API] File not found, will create new');
+            }
+
+            // Create request body
+            const requestBody: Record<string, string | undefined> = {
+                message: message,
+                content: encodedContent,
+                sha: sha,
+                branch: 'main'
+            };
+
+            // PUT the file
+            console.log('[GitHub API] Sending PUT request...');
+            const response = await fetch(
+                `${GITHUB_API}/repos/${repo}/contents/${path}`,
+                {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json',
+                        'X-GitHub-Api-Version': '2022-11-28'
+                    },
+                    body: JSON.stringify(requestBody)
                 }
+            );
+
+            const elapsed = Date.now() - startTime;
+
+            if (response.ok) {
+                const result = await response.json();
+                console.log(`[GitHub API] SUCCESS after ${elapsed}ms (attempt ${attempt}). New SHA: ${result.content?.sha?.substring(0, 8)}`);
+                return true;
             }
-        );
 
-        if (getResponse.ok) {
-            const existingFile = await getResponse.json();
-            sha = existingFile.sha;
-            console.log(`[GitHub API] Found existing file, SHA: ${sha?.substring(0, 8)}...`);
-        } else {
-            console.log(`[GitHub API] File not found (${getResponse.status}), will create new`);
-        }
-
-        // Encode content to base64
-        const encodedContent = Buffer.from(content, 'utf-8').toString('base64');
-        console.log(`[GitHub API] Base64 encoded: ${encodedContent.length} chars (${Math.round(encodedContent.length / 1024)}KB)`);
-
-        // Create request body
-        const requestBody = {
-            message: message,
-            content: encodedContent,
-            sha: sha,
-            branch: 'main'
-        };
-
-        const bodySize = JSON.stringify(requestBody).length;
-        console.log(`[GitHub API] Request body size: ${Math.round(bodySize / 1024)}KB`);
-
-        // Create or update file
-        console.log('[GitHub API] Sending PUT request...');
-        const response = await fetch(
-            `${GITHUB_API}/repos/${repo}/contents/${path}`,
-            {
-                method: 'PUT',
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                    'Accept': 'application/vnd.github.v3+json',
-                    'Content-Type': 'application/json',
-                    'X-GitHub-Api-Version': '2022-11-28'
-                },
-                body: JSON.stringify(requestBody)
+            // Handle conflict - retry with fresh SHA
+            if (response.status === 409 && attempt < MAX_RETRIES) {
+                console.warn(`[GitHub API] SHA conflict (409) on attempt ${attempt}, retrying...`);
+                await new Promise(resolve => setTimeout(resolve, 500 * attempt)); // backoff
+                continue;
             }
-        );
 
-        const elapsed = Date.now() - startTime;
-
-        if (!response.ok) {
             const errorBody = await response.text();
             console.error(`[GitHub API] ERROR (${response.status}) after ${elapsed}ms: ${errorBody}`);
-            return false;
+
+            // Don't retry on non-conflict errors
+            if (response.status !== 409) {
+                return false;
+            }
+
+        } catch (error) {
+            const elapsed = Date.now() - startTime;
+            console.error(`[GitHub API] EXCEPTION on attempt ${attempt} after ${elapsed}ms:`, error);
+
+            if (attempt === MAX_RETRIES) {
+                return false;
+            }
+            // Wait before retry
+            await new Promise(resolve => setTimeout(resolve, 500 * attempt));
         }
-
-        const result = await response.json();
-        console.log(`[GitHub API] SUCCESS after ${elapsed}ms. New SHA: ${result.content?.sha?.substring(0, 8)}`);
-        return true;
-
-    } catch (error) {
-        const elapsed = Date.now() - startTime;
-        console.error(`[GitHub API] EXCEPTION after ${elapsed}ms:`, error);
-        return false;
     }
+
+    return false;
 }
 
 /**
