@@ -83,7 +83,7 @@ const GITHUB_DB_PATH = 'data/data.json';
 // In-memory cache for Vercel
 let dbCache: Database | null = null;
 let cacheTimestamp: number = 0;
-const CACHE_TTL = 60000; // 1 minute cache
+const CACHE_TTL = 15000; // 15 second cache - faster updates
 
 // Default empty database
 const DEFAULT_DB: Database = {

@@ -11,13 +11,7 @@ import {
     clearLoginAttempts
 } from '@/lib/auth';
 import {
-    addArticleAsync, updateArticleAsync, deleteArticleAsync,
-    addAPKAsync, updateAPKAsync, deleteAPKAsync,
-    addAILabAsync, updateAILabAsync, deleteAILabAsync,
-    addSecurityToolAsync, deleteSecurityToolAsync,
-    logAdminActionAsync,
-    getArticlesAsync, getAPKsAsync, getAILabsAsync, getSecurityToolsAsync,
-    readDBAsync, initializeDB
+    readDBAsync, writeDBAsync, initializeDB, generateId
 } from '@/lib/db';
 import { isVercel, isGitHubApiAvailable } from '@/lib/github-api';
 
@@ -29,17 +23,16 @@ const corsHeaders = {
 };
 
 // Route segment config - force dynamic rendering (no caching)
-// These are the only safe exports for Vercel hobby tier
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
-
+export const maxDuration = 60; // Allow up to 60 seconds for GitHub API calls
 
 // Handle OPTIONS preflight request (for CORS)
 export async function OPTIONS() {
     return NextResponse.json({}, { headers: corsHeaders });
 }
 
-// Login endpoint
+// Main POST handler
 export async function POST(request: NextRequest) {
     const ip = request.headers.get('x-forwarded-for')?.split(',')[0] || 'unknown';
 
@@ -63,7 +56,6 @@ export async function POST(request: NextRequest) {
             const isValid = await validatePassword(password);
             if (!isValid) {
                 const attemptResult = recordFailedAttempt(ip);
-                await logAdminActionAsync('login_failed', `Invalid password attempt (${attemptResult.attemptsRemaining} remaining)`, ip);
 
                 if (attemptResult.locked) {
                     return NextResponse.json({
@@ -81,9 +73,23 @@ export async function POST(request: NextRequest) {
 
             const session = createSession(ip);
             const csrf = generateCSRFToken();
-            await logAdminActionAsync('login_success', 'Admin logged in', ip);
 
-            // Return environment info for debugging
+            // Log login (fire-and-forget, don't block the response)
+            try {
+                const db = await readDBAsync();
+                db.adminLogs.push({
+                    id: generateId(),
+                    action: 'login_success',
+                    details: 'Admin logged in',
+                    timestamp: new Date().toISOString(),
+                    ip
+                });
+                if (db.adminLogs.length > 500) {
+                    db.adminLogs = db.adminLogs.slice(-500);
+                }
+                writeDBAsync(db).catch(() => {}); // fire-and-forget
+            } catch { /* ignore logging errors */ }
+
             return NextResponse.json({
                 success: true,
                 sessionToken: session,
@@ -103,41 +109,69 @@ export async function POST(request: NextRequest) {
         // Handle logout
         if (action === 'logout') {
             destroySession();
-            await logAdminActionAsync('logout', 'Admin logged out', ip);
             return NextResponse.json({ success: true }, { headers: corsHeaders });
         }
 
-        // Handle content operations
+        // =====================================================================
+        // CONTENT OPERATIONS
+        // All use SINGLE-WRITE pattern: read once, modify, log, write once
+        // This cuts GitHub API calls in half and prevents race conditions
+        // =====================================================================
+
         if (action === 'add') {
-            let result;
             try {
+                // Single read from GitHub (force refresh for latest data)
+                const db = await readDBAsync(true);
+                let result;
+
                 switch (contentType) {
                     case 'article':
-                        result = await addArticleAsync(data);
+                        result = {
+                            ...data,
+                            id: generateId(),
+                            date: new Date().toISOString()
+                        };
+                        db.articles.unshift(result);
                         break;
                     case 'apk':
-                        result = await addAPKAsync(data);
+                        result = { ...data, id: generateId() };
+                        db.apks.unshift(result);
                         break;
                     case 'aiLab':
-                        result = await addAILabAsync(data);
+                        result = { ...data, id: generateId() };
+                        db.aiLabs.unshift(result);
                         break;
                     case 'securityTool':
-                        result = await addSecurityToolAsync(data);
+                        result = { ...data, id: generateId() };
+                        db.securityTools.unshift(result);
                         break;
                     default:
                         return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
                 }
 
-                if (!result) {
+                // Add admin log in the SAME write (no double-write!)
+                db.adminLogs.push({
+                    id: generateId(),
+                    action: 'add',
+                    details: `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`,
+                    timestamp: new Date().toISOString(),
+                    ip
+                });
+                if (db.adminLogs.length > 500) {
+                    db.adminLogs = db.adminLogs.slice(-500);
+                }
+
+                // Single write to GitHub
+                const success = await writeDBAsync(db);
+                if (!success) {
                     return NextResponse.json({
                         error: 'Failed to save content',
                         details: isVercel() && !isGitHubApiAvailable()
-                            ? 'GITHUB_TOKEN not configured on Vercel'
-                            : 'Unknown write error'
+                            ? 'GITHUB_TOKEN not configured on Vercel. Add it in Vercel Project Settings > Environment Variables.'
+                            : 'Write to storage failed. Check server logs.'
                     }, { status: 500, headers: corsHeaders });
                 }
 
-                await logAdminActionAsync('add', `Added ${contentType}: ${JSON.stringify(data).substring(0, 100)}`, ip);
                 return NextResponse.json({
                     success: true,
                     data: result,
@@ -154,30 +188,69 @@ export async function POST(request: NextRequest) {
         }
 
         if (action === 'update') {
-            let result;
             try {
+                const db = await readDBAsync(true);
+                let result = null;
+
                 switch (contentType) {
-                    case 'article':
-                        result = await updateArticleAsync(itemId, data);
+                    case 'article': {
+                        const idx = db.articles.findIndex(a => a.id === itemId);
+                        if (idx !== -1) {
+                            db.articles[idx] = { ...db.articles[idx], ...data };
+                            result = db.articles[idx];
+                        }
                         break;
-                    case 'apk':
-                        result = await updateAPKAsync(itemId, data);
+                    }
+                    case 'apk': {
+                        const idx = db.apks.findIndex(a => a.id === itemId);
+                        if (idx !== -1) {
+                            db.apks[idx] = { ...db.apks[idx], ...data };
+                            result = db.apks[idx];
+                        }
                         break;
-                    case 'aiLab':
-                        result = await updateAILabAsync(itemId, data);
+                    }
+                    case 'aiLab': {
+                        const idx = db.aiLabs.findIndex(a => a.id === itemId);
+                        if (idx !== -1) {
+                            db.aiLabs[idx] = { ...db.aiLabs[idx], ...data };
+                            result = db.aiLabs[idx];
+                        }
                         break;
+                    }
                     default:
                         return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
                 }
+
                 if (!result) {
                     return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
                 }
-                await logAdminActionAsync('update', `Updated ${contentType} ${itemId}`, ip);
+
+                // Admin log in same write
+                db.adminLogs.push({
+                    id: generateId(),
+                    action: 'update',
+                    details: `Updated ${contentType} ${itemId}`,
+                    timestamp: new Date().toISOString(),
+                    ip
+                });
+                if (db.adminLogs.length > 500) {
+                    db.adminLogs = db.adminLogs.slice(-500);
+                }
+
+                const success = await writeDBAsync(db);
+                if (!success) {
+                    return NextResponse.json({
+                        error: 'Failed to update content',
+                        details: 'Write to storage failed'
+                    }, { status: 500, headers: corsHeaders });
+                }
+
                 return NextResponse.json({
                     success: true,
                     data: result,
                     storage: isVercel() ? 'github' : 'filesystem'
                 }, { headers: corsHeaders });
+
             } catch (updateError) {
                 console.error('Update error:', updateError);
                 return NextResponse.json({
@@ -188,29 +261,62 @@ export async function POST(request: NextRequest) {
         }
 
         if (action === 'delete') {
-            let success;
             try {
+                const db = await readDBAsync(true);
+                let deleted = false;
+
                 switch (contentType) {
-                    case 'article':
-                        success = await deleteArticleAsync(itemId);
+                    case 'article': {
+                        const len = db.articles.length;
+                        db.articles = db.articles.filter(a => a.id !== itemId);
+                        deleted = db.articles.length < len;
                         break;
-                    case 'apk':
-                        success = await deleteAPKAsync(itemId);
+                    }
+                    case 'apk': {
+                        const len = db.apks.length;
+                        db.apks = db.apks.filter(a => a.id !== itemId);
+                        deleted = db.apks.length < len;
                         break;
-                    case 'aiLab':
-                        success = await deleteAILabAsync(itemId);
+                    }
+                    case 'aiLab': {
+                        const len = db.aiLabs.length;
+                        db.aiLabs = db.aiLabs.filter(a => a.id !== itemId);
+                        deleted = db.aiLabs.length < len;
                         break;
-                    case 'securityTool':
-                        success = await deleteSecurityToolAsync(itemId);
+                    }
+                    case 'securityTool': {
+                        const len = db.securityTools.length;
+                        db.securityTools = db.securityTools.filter(t => t.id !== itemId);
+                        deleted = db.securityTools.length < len;
                         break;
+                    }
                     default:
                         return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });
                 }
-                if (!success) {
-                    return NextResponse.json({ error: 'Item not found or delete failed' }, { status: 404, headers: corsHeaders });
+
+                if (!deleted) {
+                    return NextResponse.json({ error: 'Item not found' }, { status: 404, headers: corsHeaders });
                 }
-                await logAdminActionAsync('delete', `Deleted ${contentType} ${itemId}`, ip);
+
+                // Admin log in same write
+                db.adminLogs.push({
+                    id: generateId(),
+                    action: 'delete',
+                    details: `Deleted ${contentType} ${itemId}`,
+                    timestamp: new Date().toISOString(),
+                    ip
+                });
+                if (db.adminLogs.length > 500) {
+                    db.adminLogs = db.adminLogs.slice(-500);
+                }
+
+                const success = await writeDBAsync(db);
+                if (!success) {
+                    return NextResponse.json({ error: 'Delete failed - write error' }, { status: 500, headers: corsHeaders });
+                }
+
                 return NextResponse.json({ success: true }, { headers: corsHeaders });
+
             } catch (deleteError) {
                 console.error('Delete error:', deleteError);
                 return NextResponse.json({
@@ -221,14 +327,15 @@ export async function POST(request: NextRequest) {
         }
 
         if (action === 'getData') {
-            const db = await readDBAsync();
+            // Force refresh to always show latest data in admin panel
+            const db = await readDBAsync(true);
             return NextResponse.json({
-                articles: await getArticlesAsync(),
-                apks: await getAPKsAsync(),
-                aiLabs: await getAILabsAsync(),
-                securityTools: await getSecurityToolsAsync(),
-                downloadLogs: db.downloadLogs?.slice(-50) || [],
-                adminLogs: db.adminLogs?.slice(-50) || [],
+                articles: db.articles || [],
+                apks: db.apks || [],
+                aiLabs: db.aiLabs || [],
+                securityTools: db.securityTools || [],
+                downloadLogs: (db.downloadLogs || []).slice(-50),
+                adminLogs: (db.adminLogs || []).slice(-50),
                 env: {
                     isVercel: isVercel(),
                     hasGitHubToken: isGitHubApiAvailable()
@@ -255,7 +362,6 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ valid: false }, { headers: corsHeaders });
     }
 
-    // Return environment info for debugging
     return NextResponse.json({
         valid: true,
         env: {
