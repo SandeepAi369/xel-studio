@@ -1,6 +1,96 @@
 {
   "news": [
     {
+      "id": "38092aa4-b2f2-4296-8b16-3ed27eb26115",
+      "title": "Apple might let you use ChatGPT from CarPlay",
+      "summary": "Buckle up, drivers! Apple is revving up CarPlay, planning to open its in-car system to powerful third-party AI chatbots like ChatGPT, Claude, and Gemini. This isn't just about new apps; it's a massive game-changer for your commute. Imagine commanding advanced AI for directions, entertainment, and even complex queries, all hands-free and seamlessly integrated. Say goodbye to Siri-only limitations and hello to a universe of intelligent assistants directly in your dashboard. This strategic shift promises unprecedented flexibility and a truly smarter driving experience, transforming your car into an AI-powered co-pilot. Get ready for a monumental upgrade to your daily drive, bringing AI right to your fingertips!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNG1jb1g3dUI2TEQySElCU3p4RlBpR2lucVVUcDNqUU1GYWpveUtGb0QtcUQ2TU9yWXl1c2o3b1RDM1ZDNHlKWTRRMV9UZDdKUVczelV4d2tkek44S05yZnVzZ3BwcEMtM3RqSFlfOEFlLVB6Rkw2RkRNbnM2b3RxOVFHNUxWX05hclRma0JPdmQ?oc=5",
+      "source_name": "theverge.com",
+      "date": "2026-02-06T21:32:44Z"
+    },
+    {
+      "id": "359bb612-1e18-4734-b21d-e4c614777c62",
+      "title": "iPhone 18 Pro Max Rumored to Deliver Next-Level Battery Life",
+      "summary": "Tech enthusiasts, get ready! Whispers from the rumor mill suggest the iPhone 18 Pro Max is gearing up to redefine smartphone endurance with \"next-level\" battery life. Leaks hint at significantly larger batteries, potentially making your current iPhone 17 Pro Max feel obsolete overnight. Imagine days without reaching for a charger, even with heavy usage! This massive battery upgrade focuses on extending your on-screen time, with tipsters detailing separate battery capacities for eSIM and non-eSIM variants. While design tweaks are less dramatic this cycle, this power boost is a true game-changer. Prepare for an iPhone that truly keeps up with your demanding digital life!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHpzVGlvUVA4QTFCTV8xZzUzXzl1TDRCZy1tcUxKTEtneVZtR0haTG9sMnVkSlk1RWJYbnRLZWd5TzlySXhGSGZYWWNKVEFjOHlzTDhwOTZUdU0wSzAyQnFobHd4OFFneXdmbmd5ZFFiOVBIRnpzVGJZSlJGSS1ZQjBtRTd1dw?oc=5",
+      "source_name": "MacRumors",
+      "date": "2026-02-06T13:14:37Z"
+    },
+    {
+      "id": "ffda971f-3f9b-4600-8111-71e65666e894",
+      "title": "An Oral History Of Fallout",
+      "summary": "Dive deep into the radioactive origins of *Fallout*! This oral history unearths the incredible journey of a franchise that began as a \"B-tier side project\" at Interplay, overshadowed by D&D's \"money teams.\" Hear directly from the brilliant minds who forged its uniquely desolate, yet darkly humorous, post-apocalyptic world. Discover the creative struggles, innovative design philosophies, and bold choices that birthed an glorious RPG icon. From its Western-inspired roots to exploring humanity's resilience amidst nuclear devastation, *Fallout* defied expectations, striking a massive jackpot for enthusiasts. It’s a captivating look behind the Vault door at how a cult classic became a global phenomenon.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GS214OEdnVnZSYU1CTHJXVy01SDc2MTBiY2VjUmxydDNBLTdsd3lBMldJSzhUdEtleS1xUmdfNHFVdE1sNF9oY2JjZGFPVC1oOEFySFlR?oc=5",
+      "source_name": "Game Informer",
+      "date": "2026-02-06T16:34:43Z"
+    },
+    {
+      "id": "74bb6961-2069-49d4-97db-a548e3e05e22",
+      "title": "DOJ Over-Seized Hannah Natanson’s Garmin Device and Other Reporting Materials",
+      "summary": "Privacy bombshell for tech enthusiasts! The DOJ is under intense scrutiny for over-seizing a journalist's Garmin device and reporting materials, raising alarm bells about press freedom and government surveillance. But here’s the thrilling part: the FBI couldn't crack her iPhone! Apple's formidable Lockdown Mode, a feature designed for extreme security, successfully blocked access, showcasing its power against even federal agents. This incident isn't just about journalistic rights; it's a huge real-world validation of advanced digital privacy tech. It proves that robust security features can indeed protect your sensitive data, even from powerful entities. A massive win for personal data protection!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNVhLSUprV2R1MWJBajVIT05CQ1NaYzF2M1QybU41N1U1YWZwQnd4VVdqdHBRUVlCLTFlc0FaT1RvN2Q3bjVNMHp0ZmYzQVZ5R19vM3ExUUI5dXhreFFlNEhnbFBXLWNabk5lazR0Rmc5QzdmeDVtMkFOem5jbUd5Rk1FVDlvaWRzd25oTE4wUGxUTUQydXQtc1AwcTVCcy1VMFE?oc=5",
+      "source_name": "Emptywheel",
+      "date": "2026-02-06T21:13:13Z"
+    },
+    {
+      "id": "f4ad3d83-68eb-44d6-a94a-40c17b3d2029",
+      "title": "Goodbye from \"Post Reports\"",
+      "summary": "\"Post Reports,\" The Washington Post's innovative daily podcast, is signing off, leaving a significant void in audio journalism. For years, it set the bar, delivering in-depth news analysis and compelling storytelling straight to our headphones. This trailblazing show, celebrated for meticulous production and insightful hosts, redefined how millions consumed daily news. Its departure marks an era's end for a format seamlessly blending traditional reporting with innovative audio techniques, becoming a true audio staple. While we'll miss its distinctive voice, the legacy of \"Post Reports\" in shaping digital audio storytelling will echo across the industry, inspiring new generations of future creators.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa2VHSWxfTG9pR1FzYVVWai03bTV5cXg4c3pOekN2YTdyc25QLWNyalVxSlB1MFVLcTlOWWpQODFaRU1Fc3c4TzBUV0RkdFdsbmNGTDRzQ1N4UWNvR3NjZEV3RG9VM0JFb1FsQlA1ckdEcGlxcHpLZkJXS2Y4ODRpWjZibGhWdw?oc=5",
+      "source_name": "The Washington Post",
+      "date": "2026-02-06T18:50:07Z"
+    },
+    {
+      "id": "e79f2956-f6db-4c91-9718-adf77d1e5e4c",
+      "title": "Hamster's 'Console Archives' Starting Lineup Revealed, Includes More Than 10 Titles",
+      "summary": "Get ready, retro fans! Hamster's incredible \"Console Archives\" initiative has unveiled its electrifying starting lineup, bringing over ten classic titles to modern platforms like Switch, PS5, and Xbox. Prepare for a massive dose of nostalgia as this collection kicks off! The biggest bombshell? Namco's legendary *Rave Racer*, a beloved arcade masterpiece, is finally making its home console debut! After decades, gamers can experience this thrilling racer as it was meant to be, alongside other gems like *Cool Boarders*. Hamster is truly delivering on its promise, unlocking a treasure trove of gaming history for a new generation and seasoned enthusiasts alike. It's time to relive gaming history!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWnBzT0dCdGZkb2RUSFhNSnpIdDhXelBmMzNkLVhPRlY2cmxiRkR2T0pGTWI3NG9GdFN2NTZsNDFtdkRyUkU3Rk1vTlFYbzlDTm1ZZUlXalZSSUpxLXI5eU5KZDU0aWRpcENNVGd5dWpDTWNFWmR4M2ZJR2FDM1VnRjJtekljWGFObk1SUzVzbmlQT0YxUGh6blJvLXZXMkozU0JTM2dTLUh0RFcyUlhUbThfcE0wLTAzR3Rkakpn?oc=5",
+      "source_name": "Nintendo Life",
+      "date": "2026-02-07T01:30:00Z"
+    },
+    {
+      "id": "da1f740b-b380-434d-8f57-734769141be5",
+      "title": "iOS 26’s new Phone app has a feature I don’t ever want to go without",
+      "summary": "Get ready, iPhone users! iOS 26 is revamping the Phone app with a feature so good, you’ll wonder how you lived without it. Picture an end to frustrating spam and unknown calls interrupting your day. This isn't merely a basic blocker; it's a sophisticated, intuitive system that intelligently identifies and manages incoming calls. Whether silencing telemarketers, prioritizing important contacts, or visually enhancing who's on the line, this new addition makes your iPhone's calling experience truly modern and personalized. Say goodbye to guesswork and hello to seamless, stress-free communication. It's a massive quality-of-life upgrade, making the Phone app essential once more.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUlkNERWVmNYY0hMVHRhc0Ita1lTQjNBZmNDdVBfQnROVURpVEVrN25UelpQTzlMMm45N3Iwdi1BbWNqU3ZwVjF6UUtKODRqbHhGRk5tTXdqQWtnNTlpRzQ5NE1nYWdpVTJtTzdyWllDZjZrY3M0LXphcTFBR0dSNDhobWZrZnBSMGUyQ2xSQy1jT3VOaV9EaVVSY0kyU3M?oc=5",
+      "source_name": "9to5mac.com",
+      "date": "2026-02-06T20:57:00Z"
+    },
+    {
+      "id": "107e7dc4-2a31-478c-9fd8-06e1651818d8",
+      "title": "iFixIt tears down new AirTag, finds 50% louder speaker still 100% easy to disable",
+      "summary": "Tech enthusiasts, brace yourselves! iFixIt just tore down the latest Apple AirTag, and the findings are absolutely fascinating. While the new model boasts a 50% louder speaker – a welcome upgrade for locating lost keys – there's a critical catch. The teardown reveals that despite the enhanced audio, disabling the AirTag’s speaker remains surprisingly simple, essentially 100% easy. This ease of silence is a major talking point, especially considering ongoing privacy concerns. While great for finding your backpack, it raises questions about its effectiveness against unwanted tracking if the sound can be so quickly muted. A louder chime, but the same vulnerability!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzBmZ2JVZGNpZTl6TzhKTHBSTTR1bTZOSFF0MHJCbXJnRGFrMWFfNVpiUTh4Nkk4R1g0TzJWdFM3RzVoQ1NWaXdnWDQ1QlNwV3Nlc3lzRHZ2NDlEcFA0azVoYXZ3MWx0UUJ2OVNnNmNZQVkxS18yc1dLX1N6MEh0ZE9yVkkxQmVHZEEyWHgtcnZwbGhtX2VwaHdwLUlTVEhRZGVJTGhiYkZ6T2ljcDRn?oc=5",
+      "source_name": "9to5mac.com",
+      "date": "2026-02-05T20:30:00Z"
+    },
+    {
+      "id": "b47c219d-4c2d-4d69-8324-fbe333c73a71",
+      "title": "Free Play Days – 2K Takeover 2026",
+      "summary": "Xbox gamers, prepare for an epic Free Play Days event! A massive 2K takeover is unleashed, offering six incredible 2K titles completely free, but only for a limited time. This is your prime opportunity to dive into a diverse gaming lineup: from adrenaline-pumping sports simulations to immersive RPGs and strategic challenges. Experience these fan-favorite franchises without spending a dime. Whether you're a seasoned player or looking for a new obsession, there's a 2K gem waiting. Best of all, any progress you make seamlessly transfers if you purchase the full game. Don't miss out—this gaming extravaganza ends February 8th! Power up!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QcDUzMjJUVXF4bVZRTGp5TC1KenFuWUxwZGJ2OE9YTUZlN3AtNGcxaW84UzZfcmJhdHdVc3NGYXV3cm04U0dXSE92aGRKSkFkUE0tSEQ0ajJFd21VMFh0RXNpQUFEeFFaM21hQ3lnV0ZqN2c?oc=5",
+      "source_name": "Xbox Wire",
+      "date": "2026-02-05T16:02:40Z"
+    },
+    {
+      "id": "91523d3f-a942-4fcf-86ae-f7c326d2e79f",
+      "title": "Mewgenics – Review In Progress",
+      "summary": "Mewgenics – Review In Progress Game Informer Mewgenics review – infinite ways to skin a cat The Guardian Mewgenics Review - A Near-Purrfect Roguelite Adventure GameSpot 2026’s first actual GOTY contender is a surprise that also makes perfect sense Polygon 20 very up and down hours with Mewgenics Game File | Stephen Totilo",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBORHAtbUlDU192Ymk1WFNSQm1hSHZsS01JaWE5WnlrdUJac2JrVjk4RlNXNnVFTkppbTg5ZFliNUt3Sy1IQUdZVkFtVDhYYlpzSVRVVHh5SUlSZkYyNEllMTZVRE1rTXRhVnNRZ0Jsd3dCdw?oc=5",
+      "source_name": "Game Informer",
+      "date": "2026-02-06T16:20:55Z"
+    },
+    {
       "id": "1801c052-e3ad-4dc1-a207-49a3d52f4309",
       "title": "Google is expanding AirDrop support to more Android devices ‘very soon’",
       "summary": "Get ready, Android fanatics! Google just dropped a bombshell: its incredible AirDrop-like file sharing, Quick Share, is coming to even more Android devices \"very soon\"! This is huge news for anyone tired of clunky transfers and a feature users have been *praying* for. Imagine effortlessly beaming photos, videos, and documents between your devices with a tap, including PCs! This expansion promises a seamless, instant sharing experience, bringing much-needed convenience and bridging the gap in the Android ecosystem. It's the moment we've been waiting for – a future where sharing files is no longer a chore but a joy. Prepare for ultimate connectivity!",
@@ -359,96 +449,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wdUl6WW13cWdWZmRCVnhaX0xsaEVHVUpETmtoYVZTekp1VnFNVjRmQ3RldFFmZXpXN0pjVzVjRUQyQUNmMURHQ1dKMXYtQkd5eWVFM3Uxa3lSdzJMbi1CcDgwVkhHSjRsVm5jTFNqVW0zSmRMYXZISGNoQ0I?oc=5",
       "source_name": "theregister.com",
       "date": "2026-02-04T13:33:00Z"
-    },
-    {
-      "id": "371209ce-c72e-4ca1-bf4c-39dbda39c943",
-      "title": "Google announces Pixel 10a with completely flat camera, pre-order Feb 18",
-      "summary": "Get ready, Pixel fans! Google has unleashed details about the highly anticipated Pixel 10a. This mid-range marvel is set to redefine bold design with a groundbreaking, completely flat camera system, finally eliminating that pesky bump! Leaks hint at stunning new colorways, including a vibrant \"Berry\" that looks absolutely delicious. Enthusiasts are eagerly dissecting what two years of innovation will bring compared to the Pixel 8a, expecting major upgrades in performance and Google's signature AI smarts. The buzz is real: the 10a promises a sleek aesthetic paired with excellent value. Mark your calendars – pre-orders for this exciting smartphone kick off on February 18th!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16c3B3clRLQWZtMEhpZHAzZ3BoZ2JNeHJBcldzSzRob2gwSjR1MTc3OHMwaGRGSmlwSXZBOTMyY2tZQWN6OUNoVGFINktLOHJFV1NDSzFMcHl0WEg5aVFmdW1Zb09zcUtr?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-04T17:10:00Z"
-    },
-    {
-      "id": "f1ac13ef-f2b8-4fe4-9912-d5fbe3bce31b",
-      "title": "We Tested 35 Phones for the Best Battery Life. These 2 Brands Topped the Field",
-      "summary": "Tech enthusiasts, prepare for a revelation! A massive test pitted 35 leading smartphones against each other in an epic quest for ultimate battery life. The results are in, and two powerhouse brands have definitively topped the field, proving their incredible stamina under rigorous conditions. Forget constant charging anxiety; these devices promise to keep you powered through your busiest days and wildest adventures. While specific models impress, the overall brand performance indicates serious engineering prowess in power efficiency. This isn't just about big batteries; it's about optimized hardware and software delivering truly impressive endurance. Discover which titans now reign supreme in the longevity arena!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ER0Q4QURsWjdyVGt1NE5CeklJUngxMDVOTmNHd0h2TVRwSHhJVW1zNGFLQl9fS1ZNRVhNZU05aWdFVnpzVndvNWNKYkx2cTc1Ry1QQldWT2pZd3RlOEo3R3ZrNmtPR0ZpQmlPaVN4OWdDb1JlM2JaaXBkUEY?oc=5",
-      "source_name": "CNET",
-      "date": "2026-02-04T13:01:00Z"
-    },
-    {
-      "id": "f1a2f284-47be-4b07-8b3a-8e58e0cee908",
-      "title": "AMD suggests the next-gen Xbox will arrive in 2027",
-      "summary": "Hold onto your controllers, gamers! AMD has dropped a bombshell, hinting the next-generation Xbox console could arrive in 2027. This isn't just a rumor; AMD's own slides reportedly reveal that work on the powerful System-on-a-Chip for a 2027 Xbox launch is progressing well. It’s likely to feature their cutting-edge RDNA 5 graphics architecture. This means we're looking at a console poised to deliver groundbreaking visual fidelity and raw performance, pushing gaming's boundaries. Prepare for an epic leap in power, potentially redefining the home console experience. The future of gaming looks incredibly bright and closer than you think!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXN1OGxGU0tFN21yZjVpbUVTVDVETm84UzF2VzF3SWJLc1hUalc1d09mM0lyMHFsVU1OUlgzU2hIWDFwY1ZScDc3Mm9MZWI0Y1B6a0JyMmF6Q2w2MTd0bGlKN3l0clpFY2lZWmk4YTQwdWlQNEdqaVBLb3hNVjBqRWwyOENpRExtYVh6bjJUMzl0MWI5aXBYb3AwOVhkTW10UG04eA?oc=5",
-      "source_name": "Engadget",
-      "date": "2026-02-04T05:27:00Z"
-    },
-    {
-      "id": "9af46956-f4c3-4eef-a6e7-1623589c1580",
-      "title": "M5 Pro and M5 Max MacBook Pro Launch Imminent as Reseller Stock Dwindles",
-      "summary": "Tech enthusiasts, brace yourselves! The rumor mill is churning, and all signs point to an imminent launch of Apple's next-generation MacBook Pro, featuring the formidable M5 Pro and M5 Max chips! Reseller stock of current models is plummeting, a near-certain indicator Apple is gearing up to unveil its latest powerhouse machines. We're talking about a significant leap in performance, promising unparalleled speed and efficiency for everything from video editing to complex coding. While some reports hint at a March debut, the excitement is palpable. Prepare for a revolution in portable computing – these new MacBook Pros are set to redefine what's possible, delivering a truly exhilarating upgrade experience.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83MUNYX3g3SjhFUEVGanJneVBXRFY3UVVuZGR4Z3lFaUxvVXRDTlJHYVJ5SnBqUElpQi11X1N1SDI5NUI2UTd1QVRZbHdJSGp0c3hSVTRnaHFza21pRmstaWljRGcwams5dFF6d3hFUlJHS1NhYVlSRA?oc=5",
-      "source_name": "MacRumors",
-      "date": "2026-02-03T20:12:07Z"
-    },
-    {
-      "id": "bcbdcf28-bad5-48ed-9a50-462c0b5cf9a6",
-      "title": "iOS 26.2.1 Problems Reported by iPhone Users After the Update",
-      "summary": "iPhone users, brace yourselves! The latest iOS 26.2.1 update, intended to deliver critical fixes, is causing a stir with widespread reports of unexpected headaches. Many are experiencing baffling battery drain, persistent app crashes, and frustrating performance glitches that weren't present before. It seems Apple’s latest patch might have introduced its own set of bugs, leaving some devices feeling less \"pro\" and more problematic. While some users report smooth sailing, others are left wondering if this surprise update was truly worth the trouble. Keep an eye out for potential follow-up fixes, and remember, sometimes the bleeding edge cuts both ways! Your feedback is vital, so make your voices heard!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXA0TVdjUVgtbVV5TTVVcTkxOUNNd0VGVWVUelp3aDZhNVlDSDg5MkNOdkttSVJ1bnB2RmxiN0xZY1hVTkNiQWtqc0ZyQXQ1NmtKRzZHXzRrVndIYS0zX2Nzd1hiWVFPWDBhb2ZVVkZFRGZqUnl6XzF1bnRDWm5xeGswU2dFNGdHc0NMZVlRMktTMmduODlpU3l0OA?oc=5",
-      "source_name": "The Mac Observer",
-      "date": "2026-02-04T01:10:34Z"
-    },
-    {
-      "id": "6c8cd59c-a5ea-4bb8-871e-d5eb0e22ec14",
-      "title": "Apple's Studio Display 2 Reportedly on Track to Launch This Year With These New Features",
-      "summary": "Tech enthusiasts, rejoice! Apple's Studio Display 2 is reportedly on track for a launch *this year*, bringing some seriously exciting upgrades. Whispers suggest a powerful new Bionic chip will be at its core, enabling incredible performance and advanced functionality. Get ready for a visual feast with rumored ProMotion adaptive refresh rates, promising buttery-smooth scrolling and graphics. HDR support is also expected, delivering stunning contrast and vibrant colors for all your creative projects. Adding to the intrigue, there's talk of a mysterious \"unusual feature\" set to redefine display interaction. This refresh promises to be a monumental leap for Apple’s professional monitor line, elevating your desktop experience!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTWJtb01pNDYtaTM0UmVUZGdiZnpQUURZeUdLMjNPbmUzNG1GVk5Fc3hhM3B6LVNCMGVQbF9sNnJKT2ZTVFRKRkw3eHQ3bUEzMFZhSlJCcDNaTzdtTWNwX2xTQzVVaXNGV3BHbVQwS0RJcHk5Q1MwYm9WLUF2cDY1VHlZcw?oc=5",
-      "source_name": "MacRumors",
-      "date": "2026-02-03T13:46:58Z"
-    },
-    {
-      "id": "af91618a-2e1b-4c83-863d-a1d56df0cac8",
-      "title": "Nintendo Switch becomes gaming giant's best-selling console in history",
-      "summary": "The Nintendo Switch has officially made history, soaring past previous records to become the gaming giant's best-selling console of all time! This incredible feat cements its legacy as a cultural phenomenon, bringing joy to millions with its unique hybrid design and stellar game library. However, despite this monumental achievement, Nintendo's journey isn't without its challenges. Recent reports show a dip in company shares, fueled by concerns over memory shortages impacting production and speculation surrounding the highly anticipated \"Switch 2.\" Enthusiasts are buzzing, but the road ahead for Nintendo, balancing current success with future innovation, remains a thrilling tightrope walk.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PeFdxNEdQN1ZvX3hEa2xWZGRWcmVJUHVjakdNUE5SQTBXS3cwb2VEbEo0Z3ZfUzFoZFF4dWJYUmxOMVpPYTNoMFdDNFZqdzlYbkFHRjg5dHUtUQ?oc=5",
-      "source_name": "BBC",
-      "date": "2026-02-04T11:51:29Z"
-    },
-    {
-      "id": "4e11d956-9620-4d57-b328-7983c3f3709c",
-      "title": "Microsoft rolls out native Sysmon monitoring in Windows 11",
-      "summary": "Windows 11 power users, get ready! Microsoft is finally rolling out native Sysmon integration, a game-changer for system monitoring and security. No more clunky third-party installations – this powerful tool, long revered by IT pros and security researchers, is coming built-in. Sysmon provides deep insights into system activity, tracking processes, network connections, and file modifications, making it invaluable for detecting anomalies and potential threats. This move streamlines security, offering unprecedented visibility into your machine's heartbeat directly from the OS. It’s a massive win for enthusiasts eager to supercharge their defensive capabilities and truly understand what’s happening under the hood. A new era of Windows security dawns!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSW01RVVsVzFxYzduUjVlLTlCQjlGbW1FaWN6RHROVWRhTE41enNIUWZkaEZrRThDbGhLV1FFWjIzVGloSlItdVF3dzYzQXk4U0sxYkFERXdhc2t5cmpqRUVWaVRCSENYWlkwcXdjM3drVW1ULVAzSEdpdVkzWk5XRDQ5R2x3c2c4R21HakZfT1BQRHRpbXcwWGFtYjk1UVZFM0RIbkIwV2tVM1JIUmN4MlBWd9IBuAFBVV95cUxPZ2dFeXBQTTFNUF9HSXlyLTZOX3hmenhGcm84cWdWZExHWGRvcVlhOVBfNTRDb2tHMElHMllCT05wWmVqcmVNRjZVcXVuRnA5b0ljbHk2ckNSdktGTkQ5SjFVbTZ1bUg0YzAtRkc3TDNNQVZTVm5CSjVWSWptRV95MnQ4SElYb1NFd0NFVzFlUE1uQUVadTdEOFZUbTRWVjB1RDV0U2dWUDQ5X2p3VXRUT2NENTRWOWxT?oc=5",
-      "source_name": "BleepingComputer",
-      "date": "2026-02-04T12:58:20Z"
-    },
-    {
-      "id": "1b226fe1-0408-4b5a-81fb-b11b29260e0b",
-      "title": "You Should Change These 3 Apple TV HDMI Settings For A Better Picture",
-      "summary": "Apple TV owners, prepare to unlock your display’s true potential! Your beloved streamer might be leaving picture quality on the table, but a few simple tweaks can elevate your viewing experience. Forget settling for dull visuals; this essential guide reveals three crucial HDMI settings you absolutely *must* adjust. We’re talking sharper details, richer colors, and silky-smooth motion that will make your content pop like never before. Dive deep into your Apple TV's video output menu and follow expert advice to calibrate your setup for optimal performance. Stop watching, start experiencing – your eyes will thank you for these game-changing optimizations!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwN3diMWloMVI2NVZYa285ZkVrQWgzMEoxUkJzQWtRUENrZ2NCWUdJeWhsbl9CSE1BQXROOW9xSG91SzlCeFBOV3VvV0FxblRyRFFuVlNQOXllZ2QwdmFEclg0SThnbkRqMGc?oc=5",
-      "source_name": "bgr.com",
-      "date": "2026-02-03T16:47:00Z"
-    },
-    {
-      "id": "acef279d-01ef-4f4a-9516-2645e1c196ae",
-      "title": "Overwatch 2 Is Ditching the '2' Amid Launch of 'New, Story-Driven Era' With 10 New Heroes",
-      "summary": "Overwatch 2 is officially ditching its \"2,\" rebranding as simply \"Overwatch\" for an exhilarating new chapter! Blizzard is ushering in a \"new, story-driven era,\" promising the game's most ambitious narrative yet. Fans can brace themselves for an incredible content injection, including a staggering ten new heroes set to completely shake up the meta. This isn't just another update; it's a fundamental reimagining, aiming to deliver the experience the game was always meant to be. Prepare for deep lore, fresh strategies, and an epic ongoing saga that will keep enthusiasts hooked. The future of Overwatch looks brighter and more expansive than ever before!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObG5wX09sUlBPZ0FfR1BzMkNoWVB6Vm94NzJUZkFhd3hac0ZyXzRKTUtyY1pVRTZIYkxsU3dic3RBTEFJZU5FQWtFZTktcjJURE1qS1MzMy0wcnVzRE1QSDNfVlQzUHNhcEE1aWhXcVNuNXBTR0V3Yk83SGUyS1YxRlhrZXpfWVZJYzFxRDQ1OXpBRGRjamhnM2kzaVRKMUM0aGMyQ0J5Y3pxZHpBTDdWMTBtYw?oc=5",
-      "source_name": "IGN",
-      "date": "2026-02-04T16:45:00Z"
     }
   ]
 }
