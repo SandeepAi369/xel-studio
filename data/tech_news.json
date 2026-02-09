@@ -1,6 +1,96 @@
 {
   "news": [
     {
+      "id": "4be8a9dd-4aa0-4a6a-bd14-d9ceacdf126d",
+      "title": "YouTube Music starts putting lyrics behind a paywall",
+      "summary": "Whoa, tech enthusiasts, big news from YouTube Music! They're making a controversial move, locking song lyrics behind their Premium paywall. That's right – your go-to source for singalongs and understanding tricky verses will soon require a paid subscription. Free users are about to lose access to this popular feature, a staple for many music streaming platforms. This decision is already sparking debate, as rivals like Spotify and Apple Music generally offer lyrics without an extra charge. Is this a clever push for Premium sign-ups or a misstep that could drive users elsewhere? Get ready to pick a side in the great lyrics debate!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xSkdsdDNkNHZQcXRrbHY3ZmJYZDhicURlLXVqRGdzSXotamlQanhuM2JOY09VaXBZd25wcGprNS1YeWZOQ2xHdjFPeFprMlFVQ2ViVFVjVkpDTE9HVVNVenItUXBPaEpfSi1CRlVOeFdhOTJVTV9GNG5R?oc=5",
+      "source_name": "theverge.com",
+      "date": "2026-02-08T22:55:43Z"
+    },
+    {
+      "id": "45c90da8-ce55-4e34-ad1b-f8d548ba48f3",
+      "title": "Samsung Galaxy S26 Ultra Release Date Latest: What To Expect And When",
+      "summary": "Get ready, tech fanatics! The Samsung Galaxy S26 Ultra buzz is real, and it’s shaping up to be a beast. While a precise release date remains elusive, whispers point to an early 2026 debut, bringing serious upgrades. Expect game-changing AI features that could redefine smartphone interaction, though some speculate about the potential cost or trade-offs. Wireless charging is set for a boost, but don't expect Qi2 magnets. Intriguingly, it might lag behind rivals like the Pixel 10 and iPhone 17 in one key area. The big question: is it enough to tempt you from your S23 Ultra? This flagship promises innovation, but the full picture is still unfolding.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmZGX0x3Z2xDX3c5TnJ1ZUIzcDVkSjBScFRqSEtuS1doNlVfZ3FXOVpLV280ajliUEFQSldzdVpCb0JxcGZlMlVnVkp1SXRyRmg4UDl0UjA1dFQ3MUpKMGFZcXRMalIzajR3QmVrYmRIZTdEMlpwWWhXakFSTEpvVUFON0NXLUxiTmZrTC14NUNkdTEtaG9sZEZuck0xM2VMTjlOLVhmOFpmMFp3RTFSMkxmTjN3MmpnVHVCUUYxUEdtYVZ6MDlvbHdqaTg?oc=5",
+      "source_name": "Forbes",
+      "date": "2026-02-08T23:06:00Z"
+    },
+    {
+      "id": "c91287dc-6b58-4a4d-acde-21704ae58ceb",
+      "title": "Linus Torvalds Confirms The Next Kernel Is Linux 7.0",
+      "summary": "Hold onto your hats, Linux enthusiasts! Linus Torvalds has officially confirmed that the next major kernel version will be a landmark leap to Linux 7.0! Following his iconic \"fingers and toes\" rule, Torvalds is signaling a significant milestone, deciding the 6.x series won't simply continue indefinitely. This isn't just a number change; it's a clear indicator of evolving architecture, preparing the groundwork for exciting new features, performance boosts, and enhanced hardware compatibility. Get ready for a fresh, groundbreaking chapter that promises to redefine stability and push the boundaries of what's truly possible in the open-source world!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mTlB6UDVsXzJxZkhyUVhDeHdhMVdlejdNM2tXa1QzTTM1RTl5aDZ4TUVISGlnS3YwTjZsMlh3OTBNRm5ocXZDWW9tUERsWXFVV0xfTGpYRHkwRk0?oc=5",
+      "source_name": "Phoronix",
+      "date": "2026-02-08T21:25:00Z"
+    },
+    {
+      "id": "9caf6f8d-bbec-4ba3-bcd4-7b454baa5b1d",
+      "title": "Sunday Preview – Huron Blackheart sets sail from the Maelstrom",
+      "summary": "Get ready, Warhammer 40,000 fanatics! The galaxy’s most infamous pirate lord, Huron Blackheart, is making a grand return from the treacherous Maelstrom. This isn't just a whisper in the Warp; a brand-new expansion is hitting the scene, focusing on the thrilling, chaotic world of corsairs and their plundering fleets. Expect stunning new miniatures, including Huron himself and his Maelstrom Lords, bringing fresh horrors and strategic depth to your tabletop battles. With a refreshed datasheet for the Red Corsairs leader, your Chaos forces are poised to unleash unprecedented destruction. Pre-orders are imminent – prepare your fleets for interstellar piracy now!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzRpMzJlb04wLWNzX2o0TDNHVHdrMlo4U2RINXVhRkdrX2pucXNUMC1WQVdIMUx5ZEdESVVRUjQ5WlNrSmJhZ3Y2YlR0QlVYT1NWYzdwX1YxU01mb0xTRUFKYnI5UVI0WjVscWJZakRJWWFhZzlNOTc4bE83TGFEdHJyS3k2b2h0aVJVeV9MSFpMWUVyUUxKY3ROZ0FoU0tyOHgtOEtwaUFQeThXRFVmNm1VYmp0bDJPVTJubDFn?oc=5",
+      "source_name": "Warhammer Community",
+      "date": "2026-02-08T18:02:13Z"
+    },
+    {
+      "id": "4ec1e386-f21a-4d8e-b851-a6ac055f2e08",
+      "title": "Can AI Chatbots Write Emotionally Rich Romance Books?",
+      "summary": "Could AI be the next big romance novelist? Tech enthusiasts, prepare for a fascinating deep dive! As chatbots like ChatGPT flex their creative muscles, the big question looms: can they truly craft emotionally resonant love stories that captivate hearts? This article explores whether algorithms can master the nuances of human desire, heartbreak, and passion. While AI excels at generating plotlines and dialogue, replicating genuine emotional depth for romance remains a different beast. It’s a thrilling peek into the future of creative AI, challenging our perceptions of artistry. Will we someday swoon over AI-penned heroes? The verdict is out, but the debate is electrifying!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uWk55WkhaVG9Jd0laVklBYXU4QnZRbkRVSFVrUzlJcWhPdHFZbXF6M25KSEphLXJhbnRtOU9fb3NMcWVkY21Mdmc2ZC1xQ3h6Ul9BdHpEQXBCRThSWFJQc1RhRG52MGhYdnU3dUlGeHhyNmJhY1NFMmJYX3M?oc=5",
+      "source_name": "The New York Times",
+      "date": "2026-02-08T10:00:18Z"
+    },
+    {
+      "id": "aa6c2c6e-d2eb-4358-8c2e-e7e31cca41d0",
+      "title": "I tried a Claude Code rival that's local, open source, and completely free - how it went",
+      "summary": "Ever wished for a powerful AI coding assistant without the cloud, subscriptions, or privacy worries? Get ready! A groundbreaking open-source rival to services like Claude Code is here, running entirely *locally* on your machine. This isn't just a free alternative; it's a completely open-source solution, putting you in control. Imagine leveraging advanced AI for sysadmin tasks, debugging, and code generation, all without an internet connection or giving up your data. Early reports are buzzing with praise for its performance and versatility in real-world development. This game-changer empowers developers, offering top-tier AI capabilities, privacy, and freedom – no strings attached. Dive in and experience the future of local AI coding!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa0VEQ1lXZlkzUHkyUG52LW9heG50UmRNRnpqWUdaZGVaMm55SlZSeTM3a3hCWkhicGJ6NjRUWUdJNlFyLWwwWGhTc21HUFFQSkNpc0g2VmxoWXZlTU9ZRGNhY0REYnM0UUl6RTY0RUV6UFhPVFdiS2todGVNMnBaVmE3SWhfdktwRV9r?oc=5",
+      "source_name": "ZDNET",
+      "date": "2026-02-09T02:16:00Z"
+    },
+    {
+      "id": "00fc31b6-8536-4b68-a920-e342e2a4cafe",
+      "title": "New Cyberpunk Game Is Available for Free for All Steam Users",
+      "summary": "Hold onto your neural implants, Steam users! A brand-new cyberpunk experience just dropped, and it’s completely FREE for everyone. Dive into the neon-drenched dystopia of D1AL-ogue, a critically acclaimed title that’s racking up overwhelmingly positive reviews (we’re talking 95%!). This isn't another indie; it's a deep dive into classic cyberpunk themes with a unique narrative twist that promises to hook you from the first line of code. Whether you crave intricate storytelling, atmospheric visuals, or simply a fantastic free game, this is an unmissable opportunity. Power up your rig and claim your copy now before this incredible offer jacks out!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObkl6aWtsNWZ5bmlDbU8zOUItNHRvRTNNR0hrYjVLY2VhT21JTFN0R2FTMHhRZGhCYXBtR0tWRnlrODVjV2FxRTl1WGNuVDkyakJwZVBua2haLVp4ZHFZSkxINmM3QnUyc3BOQnNWcklKcWlwMVFaSTBsdnN4UHNZeXc3cC1YUm8yUXVjdjh0b3hTRUNHZ2pCZTVMRQ?oc=5",
+      "source_name": "ComicBook.com",
+      "date": "2026-02-08T15:44:14Z"
+    },
+    {
+      "id": "b1253676-265f-4055-8e80-c2dd75b8fbc2",
+      "title": "4 Best Uses For Your Old Audio System",
+      "summary": "Dust off that trusty old audio system! Before you toss it, SlashGear unearths four brilliant ways to give your vintage gear a thrilling second life. Imagine transforming those powerful speakers into a dedicated smart home audio hub, or finally getting that booming sound in your garage workshop. Ever considered upgrading your lackluster PC speakers with true audiophile quality? This article dives into revamping your setup for unparalleled desktop sound. Plus, for the ultimate retro revival, learn how to integrate modern streaming services without sacrificing that classic analog warmth. It's time to unleash the hidden potential and make your old system sing again, loud and proud!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4ZlFhNjFlR1hLaDhKbVVBRW8zZDlKLXVWTjNOMkpUXzFUaFdwazJkWnNzRUtBMTZKWWtianNjem5Za0lEb0huaFRDTjBxSWVTdnJTZHMxSWhQdEI4b0R0ZlRMNDRaaVJweV83SU9ZRnVYU084?oc=5",
+      "source_name": "SlashGear",
+      "date": "2026-02-09T00:45:00Z"
+    },
+    {
+      "id": "2135bdb4-5af3-4ecd-8248-c105e7840bc8",
+      "title": "PlayStation handheld reportedly with 24GB memory, PS6 console with 30GB",
+      "summary": "Whispers from the tech grapevine suggest Sony is gearing up for a serious memory upgrade! A new PlayStation handheld, distinct from the Portal, is reportedly packing a whopping 24GB of RAM. Imagine the portable power! But that’s not all – the much-anticipated PlayStation 6 console is rumored to boast an incredible 30GB of memory. These leaks, if true, point to a monumental leap in gaming capability, promising even more immersive worlds, hyper-realistic graphics, and lightning-fast load times. While some debate the PS6's immediate necessity, these potential specs indicate Sony is aiming for a future-proof powerhouse. Get ready for the next-gen gaming nirvana!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT21fNENRSm9BM2I1QlNFY0FMVFVrdXFlTl81bl8wWWJRZmFGNEk3cDdkSUVlN0dWLVFYTHJfYXBDVnRKQU1zal9iSFdxeFI4XzY3aktISS1aNEVGOHdZb3BtcjJVTjZxYjQ5blg4UVd1cXd2YUhBY2VIb204ajdsNjRLbEM3a0RLVG1xdDljeXE1cXlleTN4cFhfVDJudW8?oc=5",
+      "source_name": "VideoCardz.com",
+      "date": "2026-02-08T19:03:00Z"
+    },
+    {
+      "id": "46b956f9-0d43-4094-86d3-489ae26ee05f",
+      "title": "5 Cool Costco Finds That Can Help You Build Your Own Smart Garage",
+      "summary": "Tech enthusiasts, listen up! Dreaming of a connected home extends beyond your living room, right? Guess what? Your local Costco might just be the secret weapon for a next-level smart garage makeover. Forget expensive bespoke systems; this article unearths five unexpected, wallet-friendly finds at the warehouse giant that can supercharge your garage. From intelligent lighting to advanced security cameras and even innovative storage solutions, these savvy picks promise unparalleled convenience and peace of mind. Imagine voice-controlled doors, automatic lighting, and remote monitoring, all powered by surprisingly accessible gear. Dive in and transform your humble garage into the ultimate smart space – affordably and efficiently!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByV05oZXA0NmlDMFBvZ004Q0xtUEw1Z2hJYm5DYXNucVA2andWZEotcVU2ZWZNT3hIVHRBcXNpWl8yQi1zellOR2NUSmVWV2IwcTNIV3VuZjdoZVZvYlJ4ODVVblZMcFhJVkd4UA?oc=5",
+      "source_name": "bgr.com",
+      "date": "2026-02-08T03:17:00Z"
+    },
+    {
       "id": "cb46f7a1-e72f-43af-b393-bc1be5699efd",
       "title": "A New American Fashion Lineage",
       "summary": "Hold onto your pixels! A seismic shift is underway, birthing a dazzling new lineage in American fashion. Visionaries are tearing up the old rulebook, forging a bold aesthetic that’s innovative, fresh, and deeply resonant. This isn't just about clothes; it's a cultural reboot, a re-engineering of style for the modern age. Expect cutting-edge materials, sustainable practices, and designs challenging perception. Get ready to witness the next generation of style architects build an entirely new sartorial future. It’s disruptive, dynamic, and undeniably exciting – a true evolution of how we express ourselves through craft and creativity. Don't miss this paradigm shift!",
@@ -359,96 +449,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBORHAtbUlDU192Ymk1WFNSQm1hSHZsS01JaWE5WnlrdUJac2JrVjk4RlNXNnVFTkppbTg5ZFliNUt3Sy1IQUdZVkFtVDhYYlpzSVRVVHh5SUlSZkYyNEllMTZVRE1rTXRhVnNRZ0Jsd3dCdw?oc=5",
       "source_name": "Game Informer",
       "date": "2026-02-06T16:20:55Z"
-    },
-    {
-      "id": "1801c052-e3ad-4dc1-a207-49a3d52f4309",
-      "title": "Google is expanding AirDrop support to more Android devices ‘very soon’",
-      "summary": "Get ready, Android fanatics! Google just dropped a bombshell: its incredible AirDrop-like file sharing, Quick Share, is coming to even more Android devices \"very soon\"! This is huge news for anyone tired of clunky transfers and a feature users have been *praying* for. Imagine effortlessly beaming photos, videos, and documents between your devices with a tap, including PCs! This expansion promises a seamless, instant sharing experience, bringing much-needed convenience and bridging the gap in the Android ecosystem. It's the moment we've been waiting for – a future where sharing files is no longer a chore but a joy. Prepare for ultimate connectivity!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcE5LMW4xU3RuakpsbzVhanhnb1VDUnlCZWxDYkd6N3YtVnFDZTBUZjlRLTNpb29yODdXdUdoYmlpOGNrRW5USHc4d0hqWC1ZVmhZOU1UTjhXcTNBVmwwXzNNRUxsYzRmRk9NSmszc3RPSHdCRXRHTDdtSlNFNmNOMUx0QkNVTFpUMFR4MFpSSENzQQ?oc=5",
-      "source_name": "theverge.com",
-      "date": "2026-02-06T10:57:08Z"
-    },
-    {
-      "id": "b26af047-6765-4677-869c-06a4245a720d",
-      "title": "Samsung Galaxy S26 Ultra Release Date: New Leaks, Disappointing News",
-      "summary": "Tech enthusiasts, brace yourselves for a developing story! New leaks surrounding the Samsung Galaxy S26 Ultra paint a concerning picture. Despite hopes for groundbreaking innovation, reports suggest Samsung might be holding back. Disappointing leaks indicate minimal upgrades over the S25, particularly regarding crucial battery specs and charging. It seems Samsung reportedly scrapped some enhancements to avoid a steep price increase. However, sources hint this strategy might not prevent a higher cost, leaving fans notably unhyped. The anticipation for a truly next-gen device is dwindling, with many wondering if Samsung has a secret ace up its sleeve to reignite excitement for the S26 Ultra launch.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRTAwOUFveDRKbWNtOTJqMWkxelU5djVReHU2ekFJVWIwcE52cl9QSDZaS0lNRnhHSmtlMk1USVhwcGljQ295SkljbWhVaTVwdTNKdGxPYUpfbmxwdGRBRTA1aFlJMlQ5d29wLTU1VVlTNVBRNnJSMkI4WGVrMzcwYVlyUFFqQmpTbW5DTU9BT0ppYVN3R3JXNXlB?oc=5",
-      "source_name": "Forbes",
-      "date": "2026-02-06T14:21:00Z"
-    },
-    {
-      "id": "405f8ef7-8658-45dd-a97a-c86faf2cb83d",
-      "title": "Sony Announces Horizon Hunters Gathering, Guerrilla's New Co-Op Action Game for PS5 and PC With a Completely Different Art Style",
-      "summary": "Hold onto your focus, gamers! Sony and Guerrilla just unveiled *Horizon Hunters Gathering*, a thrilling new co-op action game landing on PS5 and PC. This isn't a direct sequel, but an exciting live-service spinoff set within the cherished Horizon universe. Get ready to team up with friends, because this multiplayer adventure promises intense machine-hunting action! The biggest surprise? It boasts a \"completely different art style,\" offering a fresh, vibrant take on familiar mechanical beasts and landscapes. Prepare to forge new bonds, hunt colossal robots collaboratively, and dive deep into an expanded Horizon world. Your next epic co-op obsession has arrived!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQktJbkpRS01oTXdlNFI3X1JrYmxWV1k5aUhTUHYwYnhzcFh4QXNTc09IdFFQdENPaDhHODBCZDNqWTJmWEhyWGdZSVNVOGUyWkZWX1IwdVduenIwUjFJUHhXUEM2THBub3BGWkpkOU5HYjY1UDRJcFh1RzNWY3pmaGRORzc0Y1IzX3VwTkJrSG1DOEdZRzVTQkRjenJxX255LVJ1TFRqZUpVS2JJdERTNS13eFZrWEVQ?oc=5",
-      "source_name": "IGN",
-      "date": "2026-02-05T22:43:05Z"
-    },
-    {
-      "id": "ec0f9580-d16a-4ec1-94d8-b82e1060b339",
-      "title": "iPhone 17e and iPad 12: New Features and Release Date Rumors Surface",
-      "summary": "Apple fans, get ready! Rumors are heating up fast for the iPhone 17e and iPad 12, with a potential release just weeks away! Whispers suggest the iPhone 17e could drop around February 19th, sparking intense speculation. Enthusiasts are buzzing, hoping for more than incremental updates, especially for the 17e which some feel needs a significant leap beyond MagSafe. While many anticipate \"incremental upgrades\" for both devices, the sheer speed of these leaks points to an imminent reveal. Could Apple surprise us with a groundbreaking feature, or will it be a refined iteration? Stay tuned, as the tech world is on high alert for what’s next!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42aVJCNmJWeVhJT29PT0g3aS1RNklWeUhTY2w2dElEODZkUkpsTVdLQmlJSmh1Z0ZaSUFhV3E0eFBGYi15ZHdUcWZqX1lCeHlFbnpYTDVPMXowQnE2UHdKMTJkMmVwaHczYU1EYXVpUUx6VnoyYXc?oc=5",
-      "source_name": "MacRumors",
-      "date": "2026-02-05T18:44:08Z"
-    },
-    {
-      "id": "24389504-b993-41f0-a600-d81d717e6ef0",
-      "title": "Sony confirms WF-1000XM6 release date in first official teaser",
-      "summary": "Hold onto your hats, audio fanatics! Sony just dropped the official bomb: the WF-1000XM6 earbuds are locked for a February 12th launch! The wait for the next iteration of noise-cancelling royalty is almost over. Early leaks tease a sophisticated, practical redesign, hinting at supreme comfort and a refined aesthetic that enthusiasts crave. While that elusive \"wow\" feature is still tightly guarded, expect Sony to deliver unparalleled sound fidelity and industry-best active noise cancellation. This is the moment to prepare for an audio revolution in your pocket. Get ready to experience true silence and incredible sound – the XM6 legacy awaits!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVk85UF9kWmhBaXM1THBzODhvazd6a1FXMnl1WXFuR3cxRDJEMzdILXZqSU43c2FRSW56M2JsMHZrMlloQzdkYnBBTV9KaDBjbGVZWXBHYjJCQWJBZ1BEVEZwVG9ESVdnQ0RQZ2UxTXgzRFNTb3JLV2lLTk1VV2NjbmpaNEVoa3VBN1J5NzNibjNMNG56Z3hVcEZhc0EwNDFuX29FSURZVzJ6RVk?oc=5",
-      "source_name": "Notebookcheck",
-      "date": "2026-02-05T21:56:00Z"
-    },
-    {
-      "id": "a6c6c9b9-fc0b-45cf-8023-6fac1550c597",
-      "title": "Tim Cook teases new product categories and services enabled by AI",
-      "summary": "Get ready, Apple fans! Tim Cook just dropped a bombshell, hinting at a future where AI isn't just a feature, but the core of entirely new product categories and services from Cupertino. This isn't your average Siri update; Cook is signaling a monumental shift, suggesting Apple is diving deep into the AI revolution. Forget minor tweaks; we're talking about groundbreaking innovations that will redefine how we interact with technology. With the company's 50th anniversary on the horizon, expect Apple to unleash its full AI potential, possibly shaking up the tech landscape with devices and experiences we haven't even imagined yet. The future is intelligent, and Apple is leading the charge!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb3dfTHBKM21oY2RIbVBXLWI4U0JGRWhvbTczaDBBN2pRSXFhWDlzRnVQYjB4M3RpbzlmV0VmUE9PdjhBdVYya1E0TmN4eEs0amtLUW15OGpoVkhEYW9hd2R3S1BaUmo3b05qbURMa18wWU96WUtZY2l3SlF0aGFmRFBnbzdWNlJOZC0yc3haZTVHMXdHb1VUV0RVYlRuZw?oc=5",
-      "source_name": "9to5Mac",
-      "date": "2026-02-05T20:51:00Z"
-    },
-    {
-      "id": "d6735a2a-5aad-4032-a079-ad2d59b691e5",
-      "title": "iPhone 17 Pro Max vs. Android Battery Life: New Test Reveals Winner",
-      "summary": "Ever wondered which phone truly lasts all day? A massive new battery showdown just pitted the anticipated iPhone 17 Pro Max against a formidable lineup of 35 top Android flagships, and the results are in! Tech enthusiasts, prepare for a surprise: Apple’s latest powerhouse didn't just compete; it dominated. Rigorous, real-world testing from independent labs reveals the iPhone 17 Pro, alongside its Max sibling, utterly crushed the competition, setting new endurance benchmarks. Forget mid-day scrambling for a charger – these iPhones offer unprecedented longevity, proving that when it comes to raw battery stamina, Apple truly raised the bar this year, leaving many Android rivals behind.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNW1QX0lraml5QWZOXy1kN2daZzRWNktZclJYZGloclNUT005MWwyY2VMRzdkS1lEQ1lvWmRIbmFKWlNObk9TQkFnNXBuM3ZaRDhzUEhDVXhTVmhSaWdZckZ2ZC1qNnkwTHdfcVVHdkxvbC02bXNOWlhQX1A0NXBXbjZTN0d5QQ?oc=5",
-      "source_name": "MacRumors",
-      "date": "2026-02-05T14:07:46Z"
-    },
-    {
-      "id": "8a88b805-47e2-4b54-b1ba-d8494a2bc140",
-      "title": "Honor, Nothing, and Google Pixel were some of 2025’s fastest-growing phone brands",
-      "summary": "The 2025 smartphone landscape was a thrilling ride, with some unexpected champions emerging! While the global market saw a modest 2% growth, certain brands absolutely skyrocketed. Honor, Nothing, and Google Pixel weren't just growing; they were setting the pace, becoming some of the year's fastest-growing brands. Pixel, especially with its 9a, made serious holiday waves, capturing hearts. Even Apple had a monstrous Q4, reaching historic market share levels in the US and achieving its biggest iPhone quarter ever. It’s clear innovation is paying off, shaking up the established order and giving enthusiasts plenty to cheer about as we head into what might be a challenging 2026!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTFLVUg0Qzh0d0dqVzB0UTI4MmFRbEFxMDNzZDdEREhGN2hyMDNMMVFmNUlDRUxfc0xXNHI5VVpkNHRzZUVBaThEa2ZfNld1cDkxYTc4OEpkdVJFOVMtRkxFeHVVdzM3WmE3dk84VXhsaC10TzFmQUxyUnEyUFI1MFB5ZHRSYlpVZkJOa1JlNk12X1RVX0Rkd25jQVBzVnk0V0N6Z3JIb29hMWE4ekdheDZvZw?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-05T18:35:00Z"
-    },
-    {
-      "id": "c7f8ff89-c842-4549-8b43-9beeb51fc874",
-      "title": "Stop Using Windows 11 Like a Beginner: 31 Hidden Tricks Microsoft Never Taught You",
-      "summary": "Tired of feeling like a Windows 11 newbie? Get ready to supercharge your PC! A new article reveals over 30 secret Windows 11 tricks that Microsoft keeps under wraps, transforming your everyday experience. Discover powerful built-in features you never knew existed, from advanced multitasking shortcuts to deeper customization options that will make your OS truly yours. Stop settling for basic functionality and unlock a world of efficiency and convenience. This essential guide is your ticket to becoming a Windows 11 power user, making your system even faster, smarter, and more tailored to your workflow. Dive in and reclaim ultimate control!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY1BtZDBjckZ0YTRBQWh0WmMzUUtCdFNLVkZSc2lMOG1ZaHdKd01HUFRhYXBMRWtQeERHbUVqWF9PUDRiWVVQYjBndzBvLUtIbE5QVkVhOTBkXzl0OUQ3bUpuNU5vT1FWNHZ5MFl2bG4wamNUYUtnc1Nmc1dsaFEyS3BJaTRMQ3lrNkswVFhZQmR6NjFib3loTGdHVFo2TzN2dFhDcndR?oc=5",
-      "source_name": "PCMag",
-      "date": "2026-02-05T16:46:05Z"
-    },
-    {
-      "id": "232a9dfa-97c1-43b6-b021-21793d73655c",
-      "title": "Saying Goodbye to the Mass Market Paperback",
-      "summary": "Tech-savvy bookworms, attention! The beloved mass market paperback is quietly on its way out. The New York Times reports a quiet demise for those cheap, ubiquitous novels that filled drugstore racks and airport kiosks. Blame it on soaring production costs, relentless supply chain woes, and—you guessed it—the unstoppable rise of e-readers and digital platforms. This isn't just a nostalgic farewell; it’s a seismic shift in how we consume stories. Publishers are pivoting to more expensive trade paperbacks or pushing digital formats, fundamentally altering book accessibility and affordability. For tech enthusiasts, it’s a familiar story: digital convenience and economics trumping a cherished physical staple. Is your Kindle ready?",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ad2pKOTBMVXVGVVI1UFBqcE11aXBzSW1rZXA1N3M0RmNRX3AwYm5aVVp2UkY2RG53UDZiVlJPNzd1Q1JCU2JiOXhDYWp0cGIyYk1abTVOUnczMjN0U3lEbGlTTDJ1MkNGMVNqeWxrdzdvcXFzRjg3WnZCbVlNUQ?oc=5",
-      "source_name": "The New York Times",
-      "date": "2026-02-06T17:49:27Z"
     }
   ]
 }
