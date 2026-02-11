@@ -1,6 +1,96 @@
 {
   "news": [
     {
+      "id": "ecc5e228-64c6-4d2e-a316-35f80699f408",
+      "title": "Samsung to Unveil AI-Charged Galaxy S26 Smartphones on Feb. 25",
+      "summary": "Tech enthusiasts, mark your calendars! Samsung's highly anticipated AI-charged Galaxy S26 smartphones are launching on February 25th, promising a massive leap in mobile intelligence. Forget minor upgrades; these devices are poised to redefine how we interact with our tech, making daily life significantly easier through advanced AI integration. Expect groundbreaking features that will transform everything from photography to personal assistance, moving beyond simple improvements. The hype is real for a more intuitive, powerful user experience. Incredible pre-order discounts, sometimes up to $900 off plus free credit, are already available. Get ready for an Unpacked event that could truly usher in the next era of smart mobile innovation!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWUydTFJdnVxUHRQMUlqNkcyUXBER2plRll6cVVUdEJkcXlzWXhPam9NNnN6SXl1LUgyTDFqUGdySWhDYzJXejFsNW9uNWFuVHFudy1qbHlhMldCSEgxYXZMQkhUNHllNktzN3dKUEEwMkxQX0tMbURiQVFHYm5wa3diNVpCV2p0WVpmbnFZUlQ4N1kzSkxzckFCa2tUMWREeWRiRmtUQnUzWlNUSXFIcFVXaw?oc=5",
+      "source_name": "Bloomberg.com",
+      "date": "2026-02-10T23:00:07Z"
+    },
+    {
+      "id": "2724f8bd-a3e5-4439-a3a8-0ba7f4fae4fb",
+      "title": "Microsoft is keeping Secure Boot alive with Windows updates",
+      "summary": "Attention Windows warriors! A critical security update is rolling out, and you absolutely need to pay heed. Microsoft is proactively refreshing the Secure Boot certificates on millions of PCs through standard Windows updates. Why the fuss? The original certificates, vital for preventing malicious software from hijacking your system *before* Windows even loads, are expiring in June. Without this refresh, your PC could be vulnerable, potentially failing to boot or opening the door to nasty rootkits. This isn't just for Windows 11; even Windows 10 users are impacted. Ensure your system is updated to keep that critical layer of pre-boot security locked down tight. Don't risk it – update now!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWkM1TGJ0d1Zvblo0SU9aVUxLWFNfYzJQa2ZBY3JZOUMwLTVURXlxOUFjQzI0MklXU0VodFpsZjVXRlk3U0RNX1lCa1NuR0ZOZ0ZuXzM0bFZwSFV0U1ZXV2Y1cUNCVGNtS1NTblVvNlA5UGlvSGF4cTNnWm40S2hiWmg5V01tcVRIV3h3ZnktRQ?oc=5",
+      "source_name": "The Verge",
+      "date": "2026-02-10T17:00:00Z"
+    },
+    {
+      "id": "170a143a-7488-4968-b94b-9f262933ff94",
+      "title": "iPhone 18 Pro: Three new design updates are coming this year",
+      "summary": "Get ready, Apple fanatics! The iPhone 18 Pro is set to drop this year with seriously exciting design overhauls. Leaks suggest three major updates are coming, promising a fresh, futuristic look that’ll truly turn heads. Imagine a sleeker, more refined aesthetic, potentially bringing a redesigned camera bump for an even more seamless profile. Rumors also hint at a new material finish, offering enhanced durability and a premium feel. We're talking about a significant visual refresh that moves beyond subtle tweaks, hinting at a bold step forward for Apple's flagship device. Plus, whispers suggest pricing might stay stable despite these exciting changes. Gear up for a stunning reveal!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYVJoYUxmMGtfLURCZVZ0VEtFanpTN2ZwbTFvOWg5UDR4Zkh5ejYySVhPd0xQMmZ4Y0pMa0l1MVotZkhxeVdpaWJaNGQ3dEpldFdQN0JPX1ZYY2ZvTTlRblpMeTdiRWJLTVdScDdiVmpDdnM3blFlek1kYXgxd0lPaFZYbFFiWkxWdVhYQzZRa25vNnBjeEE?oc=5",
+      "source_name": "9to5Mac",
+      "date": "2026-02-10T19:43:00Z"
+    },
+    {
+      "id": "cd52c59a-d71e-496c-832b-45cd9fecf176",
+      "title": "Hands-on: Nothing ‘Essential Apps’ hit beta so you can vibe code your homescreen [Gallery]",
+      "summary": "Nothing is revolutionizing homescreen customization with its \"Essential Apps\" beta, introducing a thrilling new concept: \"vibe coding\"! This isn't your average app builder; it's an intuitive AI-powered platform letting you craft personalized mini-apps and widgets tailored to your aesthetic. Part of the Playground beta for Nothing OS, it promises unparalleled creative freedom. While initial hands-on reports highlight the sheer fun of designing quirky tools—like a \"screaming tea timer\"—the ultimate test will be their practical utility. Tech enthusiasts can dive in, experiment, and truly transform their device’s look and feel, injecting personal flair directly into their digital experience. It's exciting, fresh, and uniquely Nothing.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TRUFkUnBCVHFGWWdBSzhrOVNGSkRQS3RVVkVPVEtoSjFsR1hoc09ab1g1UUY0SF9DRnFGRVFIN2pRUU9uVGhBOU5udkcyRDFJLVZhaDFlbllLUEw4TFhjTTZwY2F0bS0yNGFFbDBfSFNGLUVu?oc=5",
+      "source_name": "9to5Google",
+      "date": "2026-02-10T20:00:00Z"
+    },
+    {
+      "id": "5237ea51-c28a-48fc-9bce-5d4a5f1822e4",
+      "title": "Black Myth: Zhong Kui Gets Six Minutes of In-Engine Footage",
+      "summary": "Hold onto your gaming chairs! Game Science, the visionary creators of the highly anticipated Black Myth: Wukong, just unleashed a mesmerizing six-minute in-engine trailer for their latest mythical spectacle: Black Myth: Zhong Kui! This isn't just a glimpse; it's a jaw-dropping visual feast, brimming with stunning environments, intense combat, and grotesque creatures. Witness a masterclass in atmospheric design and cutting-edge graphics that push the boundaries of real-time rendering. Prepare for a captivating journey into a darkly enchanting world rooted in Chinese folklore, promising an unforgettable action RPG experience. The Black Myth universe continues to expand, and it looks unbelievably spectacular!",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51cUsyR0s4NDhvYV83cmphZzFTckZxOW5PT2tjZlc2SE1xNWtsN0g0bGs0Zlo5Wk8xNEJxWW1jemh1b3FadDk5dDZTTExyczJBT0p3X3p5S25UaVd0eTBQaTRPMTEwb3R5YTFXanNDcUVhVGdSYmNrOGt30gF_QVVfeXFMUHNrd295VkMtcXVmaTNhaDBvNmY2aklvZkVEREJaeTNIaTh0dGY1MjBsU09lc3VCRjVsTUV4WC1pTGE0aG1BbTRRQ0VxWm1MNEU2bEFyRTRqaXRMaG5IUmNBUV9sU01WMnExY1NyQW5qSVlaY1lYc0FSRG1qOTU1SQ?oc=5",
+      "source_name": "Wccftech",
+      "date": "2026-02-10T09:30:00Z"
+    },
+    {
+      "id": "f7199023-bc19-49b8-8f87-618f5816cc63",
+      "title": "Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws",
+      "summary": "Hold onto your hats, tech enthusiasts! Microsoft's February 2026 Patch Tuesday just landed, delivering crucial updates to keep your digital life secure. They’ve decisively tackled a whopping 58 security flaws. Even more critically, this includes patching six *zero-day* vulnerabilities – those dangerous weaknesses actively being exploited by malicious actors right now! These aren't just minor bugs; we're talking about serious vulnerabilities that could grant attackers unwelcome access or control over your system. Updating promptly is non-negotiable. Don't give cybercriminals an inch; hit that update button immediately to fortify your defenses against the latest threats.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaVFwQWxDeHRpN0UxOEhkbTRhYzYweHloeDYtVTVjVFFkRWdxQVZkMi1BYTJmTHFjczBGd0tybkZmVjc4bU5kTjNBcElPQUxReGFYZmEtSkVtdXVvMVI1ZzIwaGNZOGphZzFRbEFfUmxpb3ItV05veTZaVGVKZERrUmFlakNEQ1RUS3ZhSmUxdENabEk0dWV6ODhCMmpLYW54d1M5MWZUX3hpQ2V6dDRfNFFiRdIBuAFBVV95cUxPd0ZSclpHSXoyVGtNcWJ6VGNNaG5GT3VJX0ZqUnhZdWo5UjNmY3ZES2hucUlrai03aUdvWHBKbW5BemVJdkVTbFVEVTlIclpZT2V6VnhLend6YkRaWUVaU0VvcjA0ZjZtbno2eEJvRzNiS1JNUDRZSXV5M1NGMlhZc1JUZGdpUjEzc0Rsa3ZtYWEwSmdGdVQwdVRvSEd4VUxqWFhQbWhWVzV1UWhzZU5TdFhnNmE2MmEx?oc=5",
+      "source_name": "BleepingComputer",
+      "date": "2026-02-10T18:51:46Z"
+    },
+    {
+      "id": "102c97f2-6625-4bf8-a32c-90d5c9217459",
+      "title": "'We feel it in our bones': Can a machine ever love you?",
+      "summary": "Forget human-to-human. The latest tech frontier explores whether true love can bloom between us and AI! As chatbots become incredibly sophisticated, blurring the lines of companionship, people are reporting genuine emotional attachments, even falling deeply for their digital partners. But this brave new world sparks huge questions: Can AI genuinely reciprocate feelings, or is it just masterful mimicry? Experts debate the ethical minefield of artificial intimacy, the potential for addiction, and the unsettling reality of AI companions designed to always please. Get ready to ponder the very definition of love, connection, and what it means to be human in this AI-powered future.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uSG9OclF3MERzTDIwOUxnNzd3T1VVcWJMZ1VPLTc3OTlEODh3c2I2Vi1TVlgyQk9iZVVJX00xUmYxa29BTFBOQ0hOZE5DYnZxT25BSTlreVZMcW9wTDdHUEhxbjZCdDRONnBXY2xtVFM1cWNKYTRhOE1TMA?oc=5",
+      "source_name": "BBC",
+      "date": "2026-02-10T10:00:00Z"
+    },
+    {
+      "id": "5b4f0d12-b85f-4b27-83e1-2450c8b98e5e",
+      "title": "Razer’s resurrected 25-year-old gaming mouse will cost you $1,337",
+      "summary": "Get ready for a blast from the past, gamers! Razer is resurrecting an absolute legend: the Boomslang, their iconic *first-ever* gaming mouse, originally launched 25 years ago. This isn't just a re-release; it's a meticulously crafted tribute, designed for the most dedicated enthusiasts and collectors. Expect incredible attention to detail, bringing that retro feel with modern precision. But here's the electrifying twist: this ultra-exclusive, limited-edition piece of history will cost you exactly $1,337. That \"l33t\" price tag is no accident! Are you hardcore enough to own a true relic, or is this a bridge too far for even the most ardent Razer fan?",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWEFRaFp0RnRubzNybDQ4Q3ExUkhQNUwyLTBXbnB5UkswSlp5TDNxb1hadmVLVmdmM21XXzlBVm5WRkpRS2lqbE94QUdVTldoRzBUZnRzc2FkQW1faW1sRWNBWjZ5T1RuRDQyZG1RRnByUTFHTUhQeDNBNjFIZjV1Nk1fczJpUmtLSVRoTHN1a3NlME9CVDBjS3pqcG82akNibE5MRC0tVmR1RXNBMGc0?oc=5",
+      "source_name": "The Verge",
+      "date": "2026-02-10T16:41:54Z"
+    },
+    {
+      "id": "72874b1c-2b5a-4b62-aa10-969ef9c56444",
+      "title": "Mario Tennis Fever reviews roundup",
+      "summary": "Mario Tennis Fever reviews roundup Nintendo Everything Mario Tennis Fever Review IGN Mario Tennis Fever Review - Running Hot Game Informer Mario Tennis Fever perfects the Mario Kartification of tennis Polygon Mario Tennis Fever (Nintendo Switch 2) Review Comics Gaming Magazine",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WdDRQbFUwZ1lvQVlLUjlGaTROQldsZDgzLWxlX2J1U2Y2R3JpWFQxUnE2NWEtTnctZkFVZHFoWkR5bUFYdzFDVU1Sck5GTXVOUWVSYjhSeVgwQWg4WDYwbXVSbFltbUxDdGJ2Rkg5SFFwUHV3?oc=5",
+      "source_name": "Nintendo Everything",
+      "date": "2026-02-10T20:39:45Z"
+    },
+    {
+      "id": "41de568f-034e-46cb-93c6-f05821738986",
+      "title": "Helldivers 2's Invasion Of A Super-Tough, Socialist-Loving World Isn't Going Well",
+      "summary": "Helldivers 2's Invasion Of A Super-Tough, Socialist-Loving World Isn't Going Well GameSpot New Helldivers 2 update out today PlayStation.Blog As Helldivers 2 Launches the Battle for Cyberstan, Arrowhead Says It's Already Plotting to Expand the Scope of the Game IGN Everything In Helldivers 2’s New Cyberstan Cyborg ‘Machinery Of Oppression’ Event Forbes Helldivers 2 hands players the keys to a tank as the game continues an Automaton attack focus Massively Overpowered",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWkhKLTN1YlRJblYwWl9CTU9tbGJxbF85LVpBTVUtX29ENEpkTmJzRUZKRGk1Zm5CY3FRTGh0UmJNV1ozTGJfZHBQVDkxLWEtcjU3MHlfUlNLTkpVZjIxU0U2X010QWtUZEFydXF6ajNRUHlON1l6eFZkeVZUOEFtbE9DazZTYTFEYWh4X29EZzdZNF9CLTVUWmVISXh0SU9XT3RKUnB0QVNTcWVZMWVGOXBXeDkyR1dQSzB3MGtIMk5vRU9P?oc=5",
+      "source_name": "GameSpot",
+      "date": "2026-02-10T20:02:57Z"
+    },
+    {
       "id": "6b8a6573-930e-4935-85a3-209e1515ff28",
       "title": "YouTube rolls out an AI playlist generator for Premium users",
       "summary": "Premium subscribers, get ready for a game-changer in your music experience! YouTube Music is unleashing an incredibly smart AI playlist generator that promises to revolutionize how you discover and enjoy tunes. Forget endless scrolling or struggling to find the perfect vibe; now, you can simply type a prompt – like \"lo-fi beats for coding,\" \"epic workout anthems,\" or even an emoji – and watch the AI instantly craft a personalized soundtrack. This intelligent curation taps into your mood, genre preferences, and specific activities, injecting fresh energy into your listening. It’s an effortless way to find the perfect songs for any moment. Let your new AI DJ take the wheel!",
@@ -359,96 +449,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByV05oZXA0NmlDMFBvZ004Q0xtUEw1Z2hJYm5DYXNucVA2andWZEotcVU2ZWZNT3hIVHRBcXNpWl8yQi1zellOR2NUSmVWV2IwcTNIV3VuZjdoZVZvYlJ4ODVVblZMcFhJVkd4UA?oc=5",
       "source_name": "bgr.com",
       "date": "2026-02-08T03:17:00Z"
-    },
-    {
-      "id": "cb46f7a1-e72f-43af-b393-bc1be5699efd",
-      "title": "A New American Fashion Lineage",
-      "summary": "Hold onto your pixels! A seismic shift is underway, birthing a dazzling new lineage in American fashion. Visionaries are tearing up the old rulebook, forging a bold aesthetic that’s innovative, fresh, and deeply resonant. This isn't just about clothes; it's a cultural reboot, a re-engineering of style for the modern age. Expect cutting-edge materials, sustainable practices, and designs challenging perception. Get ready to witness the next generation of style architects build an entirely new sartorial future. It’s disruptive, dynamic, and undeniably exciting – a true evolution of how we express ourselves through craft and creativity. Don't miss this paradigm shift!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLWFDaEZNbjJYOGM1Rm14VVd2bE9jSlZQbEZqZ1BPdDdQb3RvZjhEcnlQeHdhOWowTHNkeGNsZnpvNHBEYkxWLXZ3UEtZVlp2YnRUMTdmeUxOdzVNangxX2MwNjd1M293NGVIS3BWM1NPOEhIaWtPWXctZF9uN0lxbnJfUGR5WXd1?oc=5",
-      "source_name": "The New York Times",
-      "date": "2026-02-08T10:02:11Z"
-    },
-    {
-      "id": "669b628f-5b85-4ce7-9568-d95a2681f4a4",
-      "title": "Samsung Unpacked 2026: 5 biggest rumors I'm seeing on Galaxy S26 Ultra, Buds 4 Pro, more",
-      "summary": "Gear up, Samsung fanatics! Rumors are swirling around Unpacked 2026, and the Galaxy S26 Ultra is stealing the show. Leaks suggest a monumental leap, especially for photography buffs, with hints of truly breathtaking camera improvements showcased in early videos. Forget the S23 Ultra; the S26 Ultra aims to redefine mobile imaging. We’re also hearing about boosted wireless charging, though surprisingly, no Qi2 magnets. Expect the Galaxy Buds 4 Pro to join the party, promising an even more immersive audio experience. The big question: when can we get our hands on this tech marvel? Speculation is rife, but one thing’s clear: Samsung is preparing to dazzle us again, making the wait excruciatingly exciting.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORWZJeGhYMy0wcXNrMURXUzQ5SENqaW5sWWVJVmpiQWdvQmlpNEgzemZFaV8xX0JCMkNXQlFCamNRbDlFcmNjd29NV2VOSm85VjNjSTNOY0NZd1hocThBbTQ1RUljR3E3dHpXRlhSXzJ4V1R4bkd0bjhEaExGUS01U1k0dE16UldURkRJUTdSN1VNMGRPY0UzN3hwYw?oc=5",
-      "source_name": "ZDNET",
-      "date": "2026-02-08T01:54:00Z"
-    },
-    {
-      "id": "c50c4716-6288-4868-9212-d9baa8b777d0",
-      "title": "A Lot Of Exciting Changes To Look Forward To With Linux 6.20 -- Or Linux 7.0",
-      "summary": "Get ready, Linux aficionados! The next kernel iteration, either 6.20 or a monumental 7.0, is shaping up to be a true game-changer. Expect a flurry of thrilling enhancements designed to supercharge your systems. We're talking significant performance boosts, especially for cutting-edge hardware, including next-gen GPUs and CPUs. Imagine snappier responsiveness, better power efficiency, and expanded compatibility. Developers are also pushing boundaries with file system improvements and crucial security updates that keep your data safer than ever. The jump to 7.0 would signal a truly massive overhaul, hinting at profound architectural shifts. Keep an eye out – this release promises to redefine your Linux experience with groundbreaking innovations!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qX2s2aWtPOWhSX3RHMnh0QkZibWdydHVyd2J5Yk02Q2VFTmh1dlE5NFhsSmVpQVlTX3ZqMTAyQXVFZmRmcGh5OUQwSjBZVlpjQmdiWHpRU2ZhOFdldTRYdkY0NVp0UQ?oc=5",
-      "source_name": "Phoronix",
-      "date": "2026-02-08T14:00:00Z"
-    },
-    {
-      "id": "384b83e3-ec25-4f15-a344-b15dc6220d00",
-      "title": "Apple Prepares to Kick Off 2026 With the iPhone 17e, New iPads and Macs",
-      "summary": "Apple is reportedly gearing up for a blockbuster start to 2026, dropping a whole new slate of exciting tech goodies! Enthusiasts, get ready for the rumored iPhone 17e, which insiders suggest is launching imminently with some seriously cool upgrades. We're talking an A19 chip for blazing speed, MagSafe for enhanced connectivity, and a total of four major new features to elevate your smartphone experience. But it's not just iPhones; fresh iPads and powerful new Macs are also on the horizon. This isn't just an update; it's a full-blown Apple ecosystem refresh designed to kick off the year with a bang, promising innovation across your essential devices.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV0VaSUViVTlCVzBLbTAyMHZCaVVqbjYwOXRSYXhDSElBRUprMnFac0dvUWpDUXFZZ29LQVZFaE1ZeS1lR2xwYXljdS1oUEFDNkp4QjBSTVdRcWU0ZXlocjJCSVJCcHlrc2FLdEVDZnRhTVhBTHpzdm1sYlZ6NTFNLWViVjg4eGYwazhDWmZ5V05jcUV0akJGQWFuSUI3MkxPQnpPMDBSSU1RZ1FzQ1ZXRGZWcEU4UXZMZUhHUEY3ZG50WWhmMGhTWC1YRTJNWGdRWE1fcg?oc=5",
-      "source_name": "Bloomberg.com",
-      "date": "2026-02-08T13:00:10Z"
-    },
-    {
-      "id": "91737edc-c921-4687-8481-3b0306d6082d",
-      "title": "10 Cool New Gadgets to Keep on Your Radar",
-      "summary": "Tech enthusiasts, brace yourselves! The latest wave of innovation is here, spotlighting ten must-have gadgets poised to redefine your digital life. From groundbreaking smart home devices that anticipate your every need to next-gen wearables pushing the boundaries of health tracking, there's something to spark every interest. Imagine seamless productivity tools, immersive audio experiences, and clever solutions to everyday dilemmas, all packed with cutting-edge tech. Gear Patrol has done the digging, unearthing brilliant innovations you won't want to miss. Get ready to upgrade your setup and marvel at the future unfolding before your eyes. Which game-changer will be on your wishlist first? Dive in and discover your next obsession!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iM3FkbUhKSmpZcmtpYUlGbHV0SU55M0gtQlRFTG51dG1ibm9UNjd6eldDSEEzQlg4UU95LU5nTGlqZHp6UHpNXzdNQnpHZk5Xc3VpUWdici1uSTZDa2ZuR213eHhGODhhSUctSzQ2TVBTQmpE?oc=5",
-      "source_name": "Gear Patrol",
-      "date": "2026-02-08T13:00:00Z"
-    },
-    {
-      "id": "a065ef33-0559-4432-971d-a2e2ecdaa131",
-      "title": "5 Handy Costco Gadgets To Upgrade Your Smart Home",
-      "summary": "Tech fanatics, prepare for a smart home revolution courtesy of… Costco! Forget premium prices; your favorite warehouse club is secretly stocking game-changing gadgets to transform your living space. We're talking about five unexpected finds that promise seamless integration and serious upgrades without breaking the bank. Imagine enhanced security, effortless convenience, and intelligent lighting, all wrapped up in irresistible deals. From smart plugs unlocking automation potential to innovative sensors safeguarding your sanctuary, these affordable wonders make upgrading your connected kingdom simpler than ever. Get ready to level up your abode and make your smart home dreams a budget-friendly reality. Discover these surprising tech treasures today!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4ZkNUTGJhVUFWRTFpMmo3aTlUX2NuU1Awa05tdEkxUVM1MlVSbTA3UmVaOWdvSjVQWGp2MFZWNDJiaHZPQkxPblJ4NEtSeXVCR1dFX3ZNTTFZWTZmOGIwXzVBTVdfZVBVcUZZRFVramlSdUo2Zy01YndORQ?oc=5",
-      "source_name": "SlashGear",
-      "date": "2026-02-08T02:45:00Z"
-    },
-    {
-      "id": "0fa96c04-9599-46bd-9645-c0df6b9bb337",
-      "title": "Retro Recap: All The Classic Gaming News From The Past Week (February 8th 2026)",
-      "summary": "Get ready for a serious blast from the past! This week’s retro gaming scene is absolutely buzzing, delivering a treasure trove of updates for every old-school enthusiast. We’re talking thrilling announcements on classic game remasters making their way to modern consoles, ensuring your beloved pixelated adventures look better than ever. Plus, there’s exciting news from the vibrant homebrew community, pushing boundaries with new experiences on beloved hardware. Dive into fresh hardware developments that promise to redefine your vintage gaming sessions, alongside crucial archival efforts preserving gaming history for future generations. From new physical releases to emulation breakthroughs, prepare for a serious dose of nostalgia!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNlBmRm5wWGhVRERVUi1PNDQtNWlsSm02RWQyc0VPWEtaeURYX0ZIdTZNU19IYWoyQ1FySmJuV1J2U25MRjlQNFppTG4tOUVfZzFOQjItaHhNWHdWZThEaVdDZXpKS1k4SUNFa1RBSk54SFZZYUZsVnlnZ0FTaV9GZ0hPSHlxWGlaakFRam83LWhYV1NuM09tMURadnR4OWxVRVVjVDNKdnp6YU01VEdEMW9BZXhOQQ?oc=5",
-      "source_name": "Time Extension",
-      "date": "2026-02-08T14:10:24Z"
-    },
-    {
-      "id": "84f07e44-397d-4327-ac4e-50cceb237630",
-      "title": "The '996' work culture taking over Silicon Valley is coming at a 'human expense,' these AI researchers say",
-      "summary": "Get ready to challenge your perception of Silicon Valley hustle! The infamous '996' work culture (9 AM to 9 PM, six days a week) is alarmingly spreading, and AI researchers are sounding a loud warning. They argue this extreme schedule, once celebrated, is extracting a severe human toll. Far from fueling innovation, it's actually stifling creativity, leading to widespread burnout, and significantly diminishing long-term productivity. This isn't just about logging more hours; it's about the unsustainable cost to brilliant minds driving our tech future. The pursuit of rapid advancements shouldn't come at the expense of well-being. It's time for a serious industry rethink.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcDBNYnJsV05Ya2lXZ3NNVml6bkNaZjBFWDBmSFNxRjM0ODg5cjlocTVzbjRORG5iUnh6QmdXRzJTWUdzRGNvckZjZDBLVUw0cklfV0ROMks4MzZVVnFuSTNJWUJYcnMzT3NlUWhUb3E3dWUyR3dsQS05U2gxN3hzQW1EendpN2NBRkFWd1ozVnlDejlUck1IQQ?oc=5",
-      "source_name": "Business Insider",
-      "date": "2026-02-08T10:07:00Z"
-    },
-    {
-      "id": "1cc1ac62-4ef4-4539-b61e-607e8142680a",
-      "title": "Light-based Ising computer runs at room temperature and stays stable for hours",
-      "summary": "Forget super-cooled labs! Scientists have unveiled a revolutionary light-based Ising computer that operates flawlessly at everyday room temperature. This isn't just a minor tweak; it's a massive leap forward. Previous versions often needed extreme chilling, making them impractical. What's more, this optical marvel maintains its stability for hours, a critical hurdle for real-world applications. Ising machines tackle incredibly complex optimization problems, from drug discovery to logistics and AI training, by mimicking magnetic systems. This breakthrough brings us closer to practical, powerful computing solutions, potentially unleashing new capabilities without the need for cryogenic infrastructure. Get ready for a new era of problem-solving!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ITlNmUjR2YWxLaEsxZ1VSVFZ2dEp3TDJhblhyWXpMbk1nazRSV05sQVJKNUsxaEoxekxTS0VXNVptdXo5YnY2Um1hZ29IaEFMQUk4LXpxV0U0a2J1dGVBWWlHdDExRUJYb1VOSkRBYVN3Q3VtZ2tleg?oc=5",
-      "source_name": "Phys.org",
-      "date": "2026-02-07T18:00:04Z"
-    },
-    {
-      "id": "1839b6ad-8c28-4126-8ab2-61c1e8536b22",
-      "title": "iOS 26.4: Here’s when Apple will release the first beta",
-      "summary": "Apple fans, gear up! The highly anticipated iOS 26.4 beta is dropping soon, promising a fresh wave of features to supercharge your iPhone experience. While 26.3 brings critical updates and exciting changes *right now*, 26.4 is where the future truly unfolds. Expect innovative new functionalities that will redefine how you interact with your device, from enhanced customization to performance boosts and perhaps even some groundbreaking AI integration. Developers and eager enthusiasts will soon get their hands on this early build, paving the way for a more stable, feature-rich official release. Get ready to explore the next frontier of iPhone innovation – the countdown begins!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa2ZjQnJNU0dtQ0xIdEdGU01ucGR1dDc0U1ItbVVhMmdpd0JuQVZLUVdKQVRmUjRQTzRMWHdKdTlNRE1JcllKbEZpa3ZwX0dRTjZYUlNfZ1dGN1BPaXJ4VTJIVktYSURlWEFBcUQ2RmNGQTlSekZiY0lTSWJiQmZXa2xnOGFTTnBGRkgzdFpB?oc=5",
-      "source_name": "9to5Mac",
-      "date": "2026-02-08T13:25:00Z"
     }
   ]
 }
