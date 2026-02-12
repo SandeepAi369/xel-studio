@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface Article {
@@ -15,6 +16,7 @@ interface Article {
 }
 
 export default function ArticlesPage() {
+    const router = useRouter();
     const [articles, setArticles] = useState<Article[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -125,13 +127,13 @@ export default function ArticlesPage() {
                     transition={{ delay: 0.3 }}
                     className="mt-12 text-center"
                 >
-                    <Link
-                        href="/"
+                    <button
+                        onClick={() => router.back()}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
-                    </Link>
+                    </button>
                 </motion.div>
             </div>
         </main>
