@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export const dynamic = 'force-dynamic';
-
-const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-const genAI = new GoogleGenerativeAI(GEMINI_KEY);
+export const maxDuration = 30; // Vercel serverless timeout (seconds)
 
 // Available models — user can pick from frontend
 const ALLOWED_MODELS: Record<string, string> = {
@@ -22,10 +20,13 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Message is required' }, { status: 400 });
         }
 
-        if (!GEMINI_KEY) {
+        // Read API key at request time (Vercel serverless compatible)
+        const apiKey = process.env.GEMINI_API_KEY;
+        if (!apiKey) {
             return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
         }
 
+        const genAI = new GoogleGenerativeAI(apiKey);
         const modelId = ALLOWED_MODELS[requestedModel] || DEFAULT_MODEL;
 
         const model = genAI.getGenerativeModel({
