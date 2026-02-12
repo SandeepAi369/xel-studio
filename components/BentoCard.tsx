@@ -1,16 +1,16 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, Brain, ShoppingBag, ShieldCheck, Newspaper } from 'lucide-react';
+import { BookOpen, Brain, ShoppingBag, ShieldCheck, MessageCircle } from 'lucide-react';
 
 const cardData = [
     {
-        id: 'daily-news',
-        title: 'Daily News',
-        description: 'Latest Updates, Research Breakthroughs & Industry Trends',
-        href: '/ai-news',
-        iconName: 'Newspaper',
-        accentColor: '#f59e0b',
+        id: 'chat-ai',
+        title: 'Chat with AI',
+        description: 'Ask anything — code, research, ideas. Powered by Gemini.',
+        href: '/chat',
+        iconName: 'MessageCircle',
+        accentColor: '#bf5af2',
         isWide: true,
     },
     {
@@ -52,7 +52,7 @@ const iconMap = {
     Brain,
     ShoppingBag,
     ShieldCheck,
-    Newspaper,
+    MessageCircle,
 };
 
 interface CardProps {

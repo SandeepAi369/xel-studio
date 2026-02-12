@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, ArrowLeft, Download, Search, Package } from 'lucide-react';
 import { SkeletonGrid } from '@/components/SkeletonCard';
@@ -19,6 +20,7 @@ interface APK {
 }
 
 export default function StorePage() {
+    const router = useRouter();
     const [apks, setApks] = useState<APK[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -192,13 +194,13 @@ export default function StorePage() {
                     transition={{ delay: 0.3 }}
                     className="mt-12 text-center"
                 >
-                    <Link
-                        href="/"
+                    <button
+                        onClick={() => router.back()}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
-                    </Link>
+                    </button>
                 </motion.div>
             </div>
         </main>

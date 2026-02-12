@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, ArrowLeft, Search, Lock, ExternalLink, Shield, Terminal, Key, Fingerprint } from 'lucide-react';
 
@@ -22,6 +23,7 @@ const categoryIcons: Record<string, React.ElementType> = {
 };
 
 export default function SecurityPage() {
+    const router = useRouter();
     const [tools, setTools] = useState<SecurityTool[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -207,13 +209,13 @@ export default function SecurityPage() {
                     transition={{ delay: 0.3 }}
                     className="mt-12 text-center"
                 >
-                    <Link
-                        href="/"
+                    <button
+                        onClick={() => router.back()}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />
                         Back to Home
-                    </Link>
+                    </button>
                 </motion.div>
             </div>
         </main>

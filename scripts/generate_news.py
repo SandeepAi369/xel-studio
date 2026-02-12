@@ -2,7 +2,7 @@
 """
 Daily News Generator Script - Safe Mode
 ========================================
-Fetches technology news from Google News RSS, generates AI summaries using Gemini,
+Fetches technology + AI news from Google News RSS, generates AI summaries using Gemini,
 and maintains a rotating list of up to 50 news items.
 
 Features:
@@ -53,6 +53,9 @@ except ImportError:
 
 # Google News RSS Feed (Technology Topic)
 GOOGLE_NEWS_RSS_URL = "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en"
+
+# AI / Machine Learning News RSS Feed
+AI_NEWS_RSS_URL = "https://news.google.com/rss/search?q=artificial+intelligence+OR+machine+learning+OR+LLM+OR+deep+learning+OR+GPT+OR+neural+network&hl=en-US&gl=US&ceid=US:en"
 
 # File paths
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -182,25 +185,43 @@ def clean_title(title: str) -> str:
 
 
 def fetch_google_news() -> list:
-    """Fetch and parse Google News RSS feed."""
-    print("\n📡 Fetching Google News RSS feed...")
-    
-    try:
-        feed = feedparser.parse(GOOGLE_NEWS_RSS_URL)
-        
-        if feed.bozo:
-            print(f"⚠️  Feed parsing issue: {feed.bozo_exception}")
-        
-        if not feed.entries:
-            print("❌ No entries found in RSS feed")
-            return []
-        
-        print(f"✅ Found {len(feed.entries)} entries in RSS feed")
-        return feed.entries
-    
-    except Exception as e:
-        print(f"❌ Error fetching RSS feed: {e}")
-        return []
+    """Fetch and parse Google News RSS feeds (Tech + AI)."""
+    all_entries = []
+    seen_links = set()
+
+    feeds = [
+        ("Tech News", GOOGLE_NEWS_RSS_URL),
+        ("AI News", AI_NEWS_RSS_URL),
+    ]
+
+    for feed_name, feed_url in feeds:
+        print(f"\n📡 Fetching {feed_name} RSS feed...")
+        try:
+            feed = feedparser.parse(feed_url)
+
+            if feed.bozo:
+                print(f"⚠️  {feed_name} feed parsing issue: {feed.bozo_exception}")
+
+            if not feed.entries:
+                print(f"❌ No entries found in {feed_name} RSS feed")
+                continue
+
+            # Deduplicate entries by link
+            new_count = 0
+            for entry in feed.entries:
+                link = getattr(entry, 'link', '')
+                if link and link not in seen_links:
+                    seen_links.add(link)
+                    all_entries.append(entry)
+                    new_count += 1
+
+            print(f"✅ Found {len(feed.entries)} entries in {feed_name} feed ({new_count} unique)")
+
+        except Exception as e:
+            print(f"❌ Error fetching {feed_name} RSS feed: {e}")
+
+    print(f"\n📊 Total unique entries across all feeds: {len(all_entries)}")
+    return all_entries
 
 
 # =============================================================================

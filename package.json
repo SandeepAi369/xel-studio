@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "bcryptjs": "^3.0.3",
+    "firebase": "^12.9.0",
     "framer-motion": "^12.29.2",
     "lucide-react": "^0.563.0",
     "next": "16.1.5",
