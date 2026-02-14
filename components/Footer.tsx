@@ -14,7 +14,7 @@ export default function Footer() {
                         © 2026 XeL Studio. Built by{' '}
                         <span className="text-emerald-400 font-medium">Sandeep</span>.
                     </p>
-                    <span className="text-xs text-zinc-600">v1.3</span>
+                    <span className="text-xs text-zinc-600">v2.0</span>
                 </div>
 
                 <div className="flex items-center gap-4">
