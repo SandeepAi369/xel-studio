@@ -79,18 +79,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-
-  // Rewrites for admin route protection
-  rewrites: async () => {
-    return {
-      beforeFiles: [
-        // Redirect /xel-admin without token to home
-        // This is handled in the page component instead for better UX
-      ],
-      afterFiles: [],
-      fallback: [],
-    };
-  },
 };
 
 export default nextConfig;

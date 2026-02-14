@@ -11,6 +11,7 @@ Features:
 - 30-second recovery sleep on errors
 - No placeholder images (clean, honest approach)
 - FIFO rotation (keeps only 50 most recent articles)
+- 200-250 word detailed summaries per article
 
 Usage:
     cd /home/sandeep/signature-prime
@@ -59,6 +60,7 @@ AI_NEWS_RSS_URL = "https://news.google.com/rss/search?q=artificial+intelligence+
 
 # File paths
 DATA_DIR = Path(__file__).parent.parent / "data"
+PUBLIC_DATA_DIR = Path(__file__).parent.parent / "public" / "data"
 NEWS_FILE = DATA_DIR / "tech_news.json"
 
 # HARD LIMITS - Rate Limit Protection
@@ -230,7 +232,7 @@ def fetch_google_news() -> list:
 
 def generate_ai_summary(model, title: str, original_summary: str) -> tuple[str, bool]:
     """
-    Generate an engaging 100-word summary using Gemini AI.
+    Generate a detailed 200-250 word summary using Gemini AI.
     
     Returns:
         tuple: (summary_text, was_successful)
@@ -239,27 +241,29 @@ def generate_ai_summary(model, title: str, original_summary: str) -> tuple[str, 
         # No model available - use cleaned original summary
         soup = BeautifulSoup(original_summary, 'html.parser')
         text = soup.get_text(separator=' ', strip=True)
-        words = text.split()[:100]
-        return ' '.join(words) + ('...' if len(text.split()) > 100 else ''), False
+        words = text.split()[:250]
+        return ' '.join(words) + ('...' if len(text.split()) > 250 else ''), False
     
-    prompt = f"""You are a tech journalist writing for enthusiasts. 
-Write an engaging, informative summary of exactly 100 words for this news article.
-Make it exciting and accessible. Do not include the title in the summary.
+    prompt = f"""You are a professional tech journalist writing detailed news coverage for enthusiasts.
+Write a comprehensive, engaging, and informative summary of 200 to 250 words for this news article.
+Cover the key details, context, implications, and why it matters.
+Make it exciting, well-structured, and accessible. Do not include the title in the summary.
+Do not use bullet points or lists - write in flowing paragraphs.
 
 Title: {title}
 
 Original Summary/Description: {original_summary}
 
-Write ONLY the 100-word summary, nothing else:"""
+Write ONLY the 200-250 word detailed summary, nothing else:"""
 
     try:
         response = model.generate_content(prompt)
         summary = response.text.strip()
         
-        # Ensure it's not too long
+        # Ensure it's within bounds (allow up to 280, trim to 250 if over)
         words = summary.split()
-        if len(words) > 120:
-            words = words[:100]
+        if len(words) > 280:
+            words = words[:250]
             summary = ' '.join(words) + '...'
         
         return summary, True
@@ -270,9 +274,8 @@ Write ONLY the 100-word summary, nothing else:"""
         # Fallback to cleaned original
         soup = BeautifulSoup(original_summary, 'html.parser')
         text = soup.get_text(separator=' ', strip=True)
-        words = text.split()[:100]
-        return ' '.join(words) + ('...' if len(text.split()) > 100 else ''), False
-
+        words = text.split()[:250]
+        return ' '.join(words) + ('...' if len(text.split()) > 250 else ''), False
 
 # =============================================================================
 # JSON FILE OPERATIONS
@@ -307,6 +310,13 @@ def save_news(news_items: list) -> None:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
     print(f"💾 Saved {len(news_items)} news items to {NEWS_FILE.name}")
+
+    # Also copy to public/data/ for Next.js static serving
+    PUBLIC_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    public_file = PUBLIC_DATA_DIR / "tech_news.json"
+    import shutil
+    shutil.copy2(NEWS_FILE, public_file)
+    print(f"📋 Synced to {public_file}")
 
 
 # =============================================================================

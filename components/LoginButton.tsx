@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useAuth } from '@/lib/AuthContext';
 import { useRouter } from 'next/navigation';
-import { LogOut, User, LayoutDashboard } from 'lucide-react';
+import { LogOut, LayoutDashboard } from 'lucide-react';
 
 export default function LoginButton() {
     const { user, loading, signInWithGoogle, signOut } = useAuth();
@@ -114,14 +114,6 @@ export default function LoginButton() {
                         >
                             <LayoutDashboard className="w-4 h-4 text-purple-400" />
                             Dashboard
-                        </button>
-                        <button
-                            onClick={() => { setDropdownOpen(false); router.push('/dashboard'); }}
-                            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-zinc-300
-                                       hover:bg-white/5 hover:text-white transition-colors cursor-pointer"
-                        >
-                            <User className="w-4 h-4 text-cyan-400" />
-                            Profile
                         </button>
                         <div className="my-1 border-t border-white/5" />
                         <button

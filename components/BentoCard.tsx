@@ -1,18 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, Brain, ShoppingBag, ShieldCheck, MessageCircle } from 'lucide-react';
+import { BookOpen, Brain, ShoppingBag, ShieldCheck } from 'lucide-react';
 
 const cardData = [
-    {
-        id: 'chat-ai',
-        title: 'Chat with AI',
-        description: 'Ask anything — code, research, ideas. Powered by Gemini.',
-        href: '/chat',
-        iconName: 'MessageCircle',
-        accentColor: '#bf5af2',
-        isWide: true,
-    },
     {
         id: 'articles',
         title: 'Articles',
@@ -52,7 +43,6 @@ const iconMap = {
     Brain,
     ShoppingBag,
     ShieldCheck,
-    MessageCircle,
 };
 
 interface CardProps {
@@ -62,14 +52,13 @@ interface CardProps {
     href: string;
     iconName: keyof typeof iconMap;
     accentColor: string;
-    isWide?: boolean;
 }
 
-function BentoCard({ title, description, href, iconName, accentColor, isWide }: CardProps) {
+function BentoCard({ title, description, href, iconName, accentColor }: CardProps) {
     const Icon = iconMap[iconName];
 
     return (
-        <div className={isWide ? 'md:col-span-2' : ''}>
+        <li>
             <Link
                 href={href}
                 className="bento-card group block h-full min-h-[200px] md:min-h-[240px] p-6 md:p-8 rounded-2xl overflow-hidden bg-zinc-900/40 border border-zinc-800/50 hover:border-zinc-600/50 cursor-pointer"
@@ -100,7 +89,7 @@ function BentoCard({ title, description, href, iconName, accentColor, isWide }: 
                     </div>
                 </div>
             </Link>
-        </div>
+        </li>
     );
 }
 
@@ -108,9 +97,7 @@ export default function BentoGrid() {
     return (
         <ul role="list" className="bento-grid">
             {cardData.map((card) => (
-                <li key={card.id}>
-                    <BentoCard {...card} iconName={card.iconName as keyof typeof iconMap} />
-                </li>
+                <BentoCard key={card.id} {...card} iconName={card.iconName as keyof typeof iconMap} />
             ))}
         </ul>
     );
