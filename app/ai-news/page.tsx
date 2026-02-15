@@ -144,25 +144,29 @@ export default function AINewsPage() {
                                     )}
 
                                     <div className="flex-1 min-w-0">
-                                        {/* Title */}
-                                        <h3 className="text-base font-semibold text-zinc-200 group-hover:text-white 
-                                                       transition-colors line-clamp-2 mb-1.5">
-                                            {item.title}
-                                        </h3>
+                                        {/* Title + Listen */}
+                                        <div className="flex items-start gap-3 mb-1.5">
+                                            <h3 className="text-base font-semibold text-zinc-200 group-hover:text-white 
+                                                           transition-colors line-clamp-2 flex-1">
+                                                {item.title}
+                                            </h3>
+                                            <div className="flex-shrink-0 mt-0.5" onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+                                                <SmartListenButton text={item.title + '. ' + item.summary} iconOnly className="w-9 h-9" />
+                                            </div>
+                                        </div>
 
                                         {/* Summary */}
                                         <p className="text-sm text-zinc-400 mb-3 leading-relaxed">
                                             {item.summary}
                                         </p>
 
-                                        {/* Meta + Listen */}
+                                        {/* Meta */}
                                         <div className="flex items-center gap-3 text-xs text-zinc-500">
                                             <span className="font-medium text-cyan-400/70">{item.source_name}</span>
                                             <span className="flex items-center gap-1">
                                                 <Clock className="w-3 h-3" />
                                                 {timeAgo(item.date)}
                                             </span>
-                                            <SmartListenButton text={item.title + '. ' + item.summary} iconOnly className="ml-1" />
                                             <span className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 text-zinc-400">
                                                 Read <ExternalLink className="w-3 h-3" />
                                             </span>
