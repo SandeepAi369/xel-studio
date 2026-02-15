@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
+import SmartListenButton from '@/components/SmartListenButton';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -191,17 +192,24 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
                         })}</span>
                     </div>
 
-                    <h2 className="text-lg font-semibold text-white mb-3 line-clamp-2">
-                        {article.title}
-                    </h2>
+                    <div className="flex items-start gap-3 mb-3">
+                        <h2 className="text-lg font-semibold text-white line-clamp-2 flex-1">
+                            {article.title}
+                        </h2>
+                        <div className="flex-shrink-0 mt-0.5" onClick={(e) => e.preventDefault()}>
+                            <SmartListenButton text={article.title + '. ' + article.content} iconOnly className="w-9 h-9" />
+                        </div>
+                    </div>
 
                     <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
                         {article.content.replace(/[#*`\[\]]/g, '').substring(0, 150)}...
                     </p>
 
-                    <div className="flex items-center gap-1 mt-4 text-green-400 text-sm font-medium">
-                        <span>Read more</span>
-                        <ChevronRight className="w-4 h-4" />
+                    <div className="flex items-center justify-between mt-4">
+                        <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
+                            <span>Read more</span>
+                            <ChevronRight className="w-4 h-4" />
+                        </div>
                     </div>
                 </div>
             </Link>

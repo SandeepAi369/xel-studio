@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
 import { getArticlesAsync, initializeDB, Article } from '@/lib/db';
+import SmartListenButton from '@/components/SmartListenButton';
 
 // Force dynamic rendering - always fetch fresh data
 export const dynamic = 'force-dynamic';
@@ -77,6 +78,7 @@ export default async function ArticlePage({
                     <ArrowLeft className="w-4 h-4" />
                     <span>Back</span>
                 </Link>
+
             </div>
 
             {/* Article Content */}
@@ -106,10 +108,17 @@ export default async function ArticlePage({
                             </span>
                         </div>
 
-                        {/* Title */}
-                        <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                            {article.title}
-                        </h1>
+                        {/* Title + Listen */}
+                        <div className="flex items-start gap-4">
+                            <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight flex-1">
+                                {article.title}
+                            </h1>
+                            <div className="flex-shrink-0 mt-1">
+                                <SmartListenButton text={article.title + '. ' + article.content} iconOnly className="w-11 h-11" />
+                            </div>
+                        </div>
+
+
                     </div>
 
                     {/* Article Body - Clean text formatting */}
