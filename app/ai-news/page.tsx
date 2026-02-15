@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, Clock, Newspaper } from 'lucide-react';
+import SmartListenButton from '@/components/SmartListenButton';
 
 interface NewsItem {
     id: string;
@@ -154,13 +155,14 @@ export default function AINewsPage() {
                                             {item.summary}
                                         </p>
 
-                                        {/* Meta */}
+                                        {/* Meta + Listen */}
                                         <div className="flex items-center gap-3 text-xs text-zinc-500">
                                             <span className="font-medium text-cyan-400/70">{item.source_name}</span>
                                             <span className="flex items-center gap-1">
                                                 <Clock className="w-3 h-3" />
                                                 {timeAgo(item.date)}
                                             </span>
+                                            <SmartListenButton text={item.title + '. ' + item.summary} iconOnly className="ml-1" />
                                             <span className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 text-zinc-400">
                                                 Read <ExternalLink className="w-3 h-3" />
                                             </span>

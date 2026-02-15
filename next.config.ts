@@ -34,6 +34,18 @@ const nextConfig: NextConfig = {
     ],
   },
 
+  // Proxy TTS requests to local Python server (dev only)
+  // On Vercel, requests go directly to api/stream_audio.py Python function
+  rewrites: async () => {
+    if (process.env.VERCEL) return [];
+    return [
+      {
+        source: '/api/stream_audio',
+        destination: 'http://localhost:5328/stream_audio',
+      },
+    ];
+  },
+
   // Security headers (replacing deprecated middleware)
   headers: async () => {
     return [

@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/stream_audio.py": {
+      "runtime": "@vercel/python@4.5.0",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/stream_audio",
+      "destination": "/api/stream_audio"
+    }
+  ]
+}
