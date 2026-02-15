@@ -70,7 +70,22 @@ jobs:
           git push
           echo "✅ Changes pushed to repository!"
       
-      # 7. Summary
+      # 7. Trigger Vercel revalidation so new news appears instantly
+      - name: Revalidate Vercel Cache
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          REVALIDATION_SECRET: ${{ secrets.REVALIDATION_SECRET }}
+        run: |
+          if [ -n "$SITE_URL" ] && [ -n "$REVALIDATION_SECRET" ]; then
+            echo "🔄 Triggering cache revalidation..."
+            curl -s -X POST "$SITE_URL/api/revalidate"               -H "Content-Type: application/json"               -d "{\"secret\": \"$REVALIDATION_SECRET\", \"paths\": [\"/\", \"/ai-news\"]}"
+            echo "✅ Cache revalidated!"
+          else
+            echo "⏭️ Skipping revalidation (SITE_URL or REVALIDATION_SECRET not set)"
+          fi
+
+      # 8. Summary
       - name: Job Summary
         run: |
           echo "## 📰 Daily News Generator Report" >> $GITHUB_STEP_SUMMARY
