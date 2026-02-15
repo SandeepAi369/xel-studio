@@ -1,70 +1,45 @@
-name: Deploy to Vercel
+name: Deploy to Vercel Production
 
 on:
-  # Trigger on every push to main branch
   push:
     branches: [main]
-  
-  # Allow manual trigger
   workflow_dispatch:
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      # 1. Checkout the code
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      # 3. Install dependencies
-      - name: Install Dependencies
-        run: npm ci
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
 
-      # 4. Build to verify no errors
+      - name: Pull Vercel Environment Info
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
       - name: Build Project
-        run: npm run build
-        env:
-          # Skip env validation during build
-          SKIP_ENV_VALIDATION: true
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
-      # 5. Deploy to Vercel using Deploy Hook
-      - name: Trigger Vercel Deployment
-        if: env.VERCEL_DEPLOY_HOOK != ''
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      - name: Deploy to Production
+        id: deploy
         run: |
-          echo "🚀 Triggering Vercel deployment..."
-          RESPONSE=$(curl -s -X POST "$VERCEL_DEPLOY_HOOK")
-          echo "Response: $RESPONSE"
-          echo "✅ Vercel deployment triggered!"
+          URL=$(vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }})
+          echo "url=$URL" >> $GITHUB_OUTPUT
+          echo "✅ Deployed to: $URL"
 
-      # 6. Alternative: Deploy with Vercel CLI (if token is set)
-      - name: Deploy with Vercel CLI
-        if: env.VERCEL_TOKEN != '' && env.VERCEL_DEPLOY_HOOK == ''
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      - name: Summary
         run: |
-          npm i -g vercel@latest
-          echo "🚀 Deploying to Vercel..."
-          vercel --prod --token="$VERCEL_TOKEN" --yes
-          echo "✅ Deployed to production!"
-
-      # 7. Summary
-      - name: Job Summary
-        run: |
-          echo "## 🚀 Deployment Report" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Time:** $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Status:** ✅ Build successful" >> $GITHUB_STEP_SUMMARY
+          echo "## 🚀 Deployed to Vercel" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL:** ${{ steps.deploy.outputs.url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
