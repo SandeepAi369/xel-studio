@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import {
     validateAccessToken,
     validatePassword,
@@ -14,6 +15,21 @@ import {
     readDBAsync, writeDBAsync, initializeDB, generateId
 } from '@/lib/db';
 import { isVercel, isGitHubApiAvailable } from '@/lib/github-api';
+
+// Revalidate all content pages after data changes
+function revalidateAllPages() {
+    try {
+        revalidatePath('/');
+        revalidatePath('/articles');
+        revalidatePath('/ai-news');
+        revalidatePath('/apks');
+        revalidatePath('/ai-labs');
+        revalidatePath('/security');
+        revalidatePath('/', 'layout');
+    } catch (e) {
+        console.error('Revalidation error:', e);
+    }
+}
 
 // CORS headers for Vercel deployment
 const corsHeaders = {
@@ -172,6 +188,9 @@ export async function POST(request: NextRequest) {
                     }, { status: 500, headers: corsHeaders });
                 }
 
+                // Revalidate all pages so new content appears instantly
+                revalidateAllPages();
+
                 return NextResponse.json({
                     success: true,
                     data: result,
@@ -245,6 +264,9 @@ export async function POST(request: NextRequest) {
                     }, { status: 500, headers: corsHeaders });
                 }
 
+                // Revalidate all pages so updated content appears instantly
+                revalidateAllPages();
+
                 return NextResponse.json({
                     success: true,
                     data: result,
@@ -314,6 +336,9 @@ export async function POST(request: NextRequest) {
                 if (!success) {
                     return NextResponse.json({ error: 'Delete failed - write error' }, { status: 500, headers: corsHeaders });
                 }
+
+                // Revalidate so deletion appears instantly
+                revalidateAllPages();
 
                 return NextResponse.json({ success: true }, { headers: corsHeaders });
 
