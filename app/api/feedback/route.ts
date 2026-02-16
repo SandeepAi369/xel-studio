@@ -33,9 +33,10 @@ export async function POST(request: NextRequest) {
 
         return NextResponse.json({ success: true });
 
-    } catch (err) {
-        console.error('Feedback POST error:', err);
-        return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+    } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : 'Internal server error';
+        console.error('Feedback POST error:', message);
+        return NextResponse.json({ error: message }, { status: 500 });
     }
 }
 
