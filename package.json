@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.95.3",
     "bcryptjs": "^3.0.3",
     "firebase": "^12.9.0",
     "framer-motion": "^12.29.2",

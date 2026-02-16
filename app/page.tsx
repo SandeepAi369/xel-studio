@@ -1,8 +1,9 @@
 import Hero from '@/components/Hero';
 import QuickActions from '@/components/QuickActions';
 import BentoGrid from '@/components/BentoCard';
-import Footer from '@/components/Footer';
+import FeedbackForm from '@/components/FeedbackForm';
 import LoginButton from '@/components/LoginButton';
+import { Github } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -29,9 +30,24 @@ export default function Home() {
         >
           <BentoGrid />
         </nav>
-      </main>
 
-      <Footer />
+        {/* User Feedback — button-triggered */}
+        <FeedbackForm />
+
+        {/* GitHub Profile */}
+        <div className="text-center pb-10">
+          <a
+            href="https://github.com/Sandeepchch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 text-zinc-400 hover:text-white transition-colors"
+            aria-label="Visit GitHub profile"
+          >
+            <Github className="w-5 h-5" />
+            <span className="text-sm">GitHub</span>
+          </a>
+        </div>
+      </main>
     </>
   );
 }

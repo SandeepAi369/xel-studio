@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
     ShieldCheck, BookOpen, Brain, ShoppingBag,
     Plus, Trash2, Edit, LogOut, Eye, Download,
-    Save, X, AlertTriangle
+    Save, X, AlertTriangle, MessageSquare, Mail
 } from 'lucide-react';
 
 interface Article {
@@ -58,8 +58,17 @@ interface AdminLog {
     timestamp: string;
 }
 
+interface Feedback {
+    id: string;
+    created_at: string;
+    content: string;
+    user_email: string;
+    user_name: string;
+    user_id: string;
+}
+
 type ContentItem = Article | APK | AILab | SecurityTool;
-type Tab = 'articles' | 'apks' | 'aiLabs' | 'security' | 'logs';
+type Tab = 'articles' | 'apks' | 'aiLabs' | 'security' | 'logs' | 'feedbacks';
 
 function AdminPanel() {
     const searchParams = useSearchParams();
@@ -80,6 +89,8 @@ function AdminPanel() {
     const [securityTools, setSecurityTools] = useState<SecurityTool[]>([]);
     const [downloadLogs, setDownloadLogs] = useState<DownloadLog[]>([]);
     const [adminLogs, setAdminLogs] = useState<AdminLog[]>([]);
+    const [feedbacks, setFeedbacks] = useState<Feedback[]>([]);
+    const [feedbackLoading, setFeedbackLoading] = useState(false);
 
     const [showForm, setShowForm] = useState(false);
     const [editingItem, setEditingItem] = useState<ContentItem | null>(null);
@@ -107,6 +118,7 @@ function AdminPanel() {
     useEffect(() => {
         if (isLoggedIn && sessionToken) {
             loadData();
+            loadFeedbacks();
         }
     }, [isLoggedIn, sessionToken]);
 
@@ -309,6 +321,47 @@ function AdminPanel() {
         }
     };
 
+    // ─── Feedback Operations ──────────────────────────────────
+    const loadFeedbacks = async () => {
+        setFeedbackLoading(true);
+        try {
+            const res = await fetch(`/api/feedback?session=${sessionToken}`);
+            const data = await res.json();
+            if (data.error) {
+                if (data.error === 'Unauthorized') {
+                    setIsLoggedIn(false);
+                    setError('Session expired. Please login again.');
+                } else {
+                    console.error('Feedback load error:', data.error);
+                }
+            } else {
+                setFeedbacks(data.feedbacks || []);
+            }
+        } catch (err) {
+            console.error('Failed to load feedbacks:', err);
+        }
+        setFeedbackLoading(false);
+    };
+
+    const deleteFeedback = async (id: string) => {
+        if (!confirm('Delete this feedback?')) return;
+        try {
+            const res = await fetch('/api/feedback', {
+                method: 'DELETE',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ sessionToken, feedbackId: id })
+            });
+            const data = await res.json();
+            if (data.success) {
+                setFeedbacks(prev => prev.filter(f => f.id !== id));
+            } else {
+                setError(data.error || 'Failed to delete feedback');
+            }
+        } catch {
+            setError('Failed to delete feedback');
+        }
+    };
+
     const startEdit = (item: ContentItem) => {
         setEditingItem(item);
         const itemRecord: Record<string, string> = {};
@@ -408,6 +461,7 @@ function AdminPanel() {
                             { id: 'apks' as Tab, icon: ShoppingBag, label: 'APKs' },
                             { id: 'aiLabs' as Tab, icon: Brain, label: 'AI Labs' },
                             { id: 'security' as Tab, icon: ShieldCheck, label: 'Security' },
+                            { id: 'feedbacks' as Tab, icon: MessageSquare, label: 'Feedbacks' },
                             { id: 'logs' as Tab, icon: Eye, label: 'Logs' },
                         ].map(tab => (
                             <button
@@ -435,7 +489,7 @@ function AdminPanel() {
                     </div>
                 )}
 
-                {activeTab !== 'logs' && (
+                {activeTab !== 'logs' && activeTab !== 'feedbacks' && (
                     <div className="mb-6 flex justify-between items-center">
                         <h2 className="text-xl font-semibold capitalize">{activeTab}</h2>
                         <button
@@ -449,7 +503,7 @@ function AdminPanel() {
                 )}
 
                 <AnimatePresence>
-                    {showModal && activeTab !== 'logs' && (
+                    {showModal && activeTab !== 'logs' && activeTab !== 'feedbacks' && (
                         <motion.div
                             key="modal"
                             initial={{ opacity: 0 }}
@@ -606,6 +660,61 @@ function AdminPanel() {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                )}
+
+                {activeTab === 'feedbacks' && (
+                    <div>
+                        <div className="mb-6 flex justify-between items-center">
+                            <h2 className="text-xl font-semibold">User Feedbacks</h2>
+                            <button
+                                onClick={loadFeedbacks}
+                                disabled={feedbackLoading}
+                                className="px-4 py-2 text-sm bg-zinc-800 hover:bg-zinc-700 rounded-lg transition-colors disabled:opacity-50"
+                            >
+                                {feedbackLoading ? 'Loading...' : 'Refresh'}
+                            </button>
+                        </div>
+                        <div className="grid gap-4">
+                            {feedbacks.length === 0 ? (
+                                <div className="text-center py-12 text-zinc-500">
+                                    {feedbackLoading ? (
+                                        <div className="w-6 h-6 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin mx-auto" />
+                                    ) : (
+                                        'No feedbacks yet'
+                                    )}
+                                </div>
+                            ) : feedbacks.map(fb => (
+                                <div key={fb.id} className="p-5 bg-zinc-900/50 border border-zinc-800 rounded-xl">
+                                    <div className="flex items-start justify-between gap-4">
+                                        <div className="flex-1 min-w-0">
+                                            <div className="flex items-center gap-3 mb-2">
+                                                <MessageSquare className="w-5 h-5 text-emerald-400 flex-shrink-0" />
+                                                <span className="font-medium text-white">{fb.user_name}</span>
+                                            </div>
+                                            <a
+                                                href={`mailto:${fb.user_email}`}
+                                                className="inline-flex items-center gap-1.5 text-sm text-emerald-400 hover:text-emerald-300 transition-colors mb-3"
+                                            >
+                                                <Mail className="w-3.5 h-3.5" />
+                                                {fb.user_email}
+                                            </a>
+                                            <p className="text-zinc-300 text-sm whitespace-pre-wrap">{fb.content}</p>
+                                            <p className="text-xs text-zinc-600 mt-3">
+                                                {new Date(fb.created_at).toLocaleString()}
+                                            </p>
+                                        </div>
+                                        <button
+                                            onClick={() => deleteFeedback(fb.id)}
+                                            className="p-2 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 rounded-lg transition-colors flex-shrink-0"
+                                            title="Delete feedback"
+                                        >
+                                            <Trash2 className="w-4 h-4 text-red-400" />
+                                        </button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 )}
 
