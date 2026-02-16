@@ -31,16 +31,27 @@ export default function FeedbackForm() {
         setErrorMsg('');
 
         try {
-            const res = await fetch('/api/feedback', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    content: message.trim(),
-                    user_name: name.trim(),
-                    user_email: user.email,
-                    user_id: user.uid,
-                }),
-            });
+            const sendFeedback = async () => {
+                const res = await fetch('/api/feedback', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        content: message.trim(),
+                        user_name: name.trim(),
+                        user_email: user.email,
+                        user_id: user.uid,
+                    }),
+                });
+                return res;
+            };
+
+            let res = await sendFeedback();
+
+            // Retry once if 404 (dev mode cold-start)
+            if (res.status === 404) {
+                await new Promise(r => setTimeout(r, 500));
+                res = await sendFeedback();
+            }
 
             const data = await res.json();
 
