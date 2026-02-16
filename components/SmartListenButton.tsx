@@ -18,6 +18,8 @@ interface SmartListenButtonProps {
     iconOnly?: boolean;
     className?: string;
     endpoint?: string;
+    /** Called when playback starts (useful for auto-expanding content) */
+    onPlay?: () => void;
 }
 
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
@@ -57,6 +59,7 @@ export default function SmartListenButton({
     iconOnly = false,
     className = '',
     endpoint = '/api/stream_audio',
+    onPlay,
 }: SmartListenButtonProps) {
     const instanceId = useId();
     const [state, setState] = useState<BtnState>('idle');
