@@ -21,7 +21,7 @@ export default function QuickActions() {
                                transition-all duration-200"
                 >
                     <Zap className="w-5 h-5 text-blue-400" />
-                    AI News
+                    AI Techniques
                 </Link>
 
                 <Link
