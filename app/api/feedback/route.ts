@@ -3,6 +3,7 @@ import { validateSession } from '@/lib/auth';
 import { getSupabaseAdmin } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 // ─── POST: Submit feedback (from Firebase-authed users) ───────
 export async function POST(request: NextRequest) {
