@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "40c3166e-71f7-47a5-a457-30c504e0f14b",
+      "title": "Generative Artificial Intelligence in Spectroscopy: What’s New and a Glossary of Terms",
+      "summary": "The integration of cutting-edge Generative AI with the foundational science of Spectroscopy marks a pivotal moment, pushing the boundaries of scientific discovery and technological advancement. Far from solely crafting images or text, models like GANs and VAEs are now being deployed to revolutionize how we analyze and interpret the interaction between matter and light. This seismic shift means AI isn't just identifying patterns; it's actively synthesizing novel spectral data, predicting molecular structures, and even designing materials with unprecedented accuracy and speed.\n\nTechnically, this represents a profound leap. Generative AI can overcome the long-standing challenge of limited experimental datasets by creating realistic synthetic spectra, enabling more robust model training and analysis. It drastically accelerates the inverse problem – predicting a molecule's structure from its spectral signature – a task traditionally requiring extensive human expertise and computation. This capability not only automates complex analytical processes but also opens pathways for hypothesis generation, allowing AI to suggest entirely new compounds or predict properties before costly lab experiments are conducted.\n\nFor AI enthusiasts, this signifies AI's burgeoning role as a true scientific partner, moving beyond mere analysis into the realm of creation and discovery. The industry implications are vast, promising to supercharge drug discovery by rapidly identifying potential therapeutic compounds, accelerate materials science by designing novel substances with desired properties, and enhance environmental monitoring. This integration of generative intelligence into core scientific instrumentation demonstrates the profound, transformative power of AI in unlocking previously unattainable scientific insights and truly reshaping the future of research and development.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1hINzJabllpM3dqLVUxa1FYaTlBWl9DSXdOQTV1bFhfSWZoYnZnZ1BSNHd2SnljdXJKVndyWTNheHcxNnRsYXBfalh6U21fc1YzMm1uSmF0dTFES2t0NUswNGJKM25PTXBRUEFmUjFUUDJiM25mSGJfZGUzVi1RUjNwVjlnSjVuV3Vza0NBSExpbk1WSHptLWthZUhBblM4S0lpRHkxMGMxWktSN0U1UTdmS1pVRU1MckdvTzh1WWU4UVk?oc=5",
+      "source_name": "Spectroscopy Online",
+      "date": "2026-02-17T03:04:59Z",
+      "category": "ai"
+    },
+    {
+      "id": "758b76be-d082-4522-85e9-5fe0e5f3d51c",
+      "title": "Optical Illusions Can Trick Artificial Intelligence, Just Like They Fool Us",
+      "summary": "Recent groundbreaking research reveals a fascinating and somewhat unnerving truth: Artificial intelligence, specifically large language models (LLMs) and advanced computer vision systems like convolutional neural networks (CNNs), can be tricked by optical illusions in much the same way humans are. Unlike general adversarial attacks designed to exploit specific vulnerabilities, this discovery shows these powerful AI models \"falling\" for classic visual deceptions – misjudging lengths, perceiving non-existent motion, or misinterpreting shapes – when presented with stimuli like the Müller-Lyer illusion.\n\nThis technical breakthrough signifies a deeper, more fundamental similarity between human and artificial perception than previously understood. It suggests that current AI architectures, despite their vast training datasets and computational power, might employ similar perceptual shortcuts or inductive biases as the human brain, leading to shared vulnerabilities in interpreting visual information. The implication is profound: AI hasn't simply learned to \"see\" perfectly; it carries some of the same innate perceptual limitations as biological systems.\n\nFor the AI industry, this raises critical questions about robustness and reliability, especially in high-stakes applications. Imagine self-driving cars misjudging distances on a visually ambiguous road, or medical diagnostic AI misinterpreting subtle patterns in scans due to a perceptual trick. AI enthusiasts should care because this discovery moves beyond mere data-driven learning, highlighting inherent biases and challenging the quest for truly robust and human-level artificial general intelligence. It underscores the vital need for developing AI that not only performs well but also understands the world with genuine, reliable perception, inspiring new research into architectures less susceptible to visual trickery.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3J0dW12VjJ4dVlfTzVuNmJ5a3JSb1VZM1NZSXVvVF9Oa2tva3IwUHlvMXp3Zm8zZzNmczM1ZkpJM29MOG5lY1p6QV9veGV0Sk1VdUtRRVBIM1JHeldGeWxoaF9XdHlGcFlrSTFNbTVaalQ3Q05UQUhYdWE5YmZkQms1Sll6X1AweDk0NUoxZDlxRnY5VTRMcUlfM1lKcTYySFQ0VHl2ajJLWGp6THlMTW1LUQ?oc=5",
+      "source_name": "Discover Magazine",
+      "date": "2026-02-16T21:02:36Z",
+      "category": "ai"
+    },
+    {
       "id": "b64cab3e-a0d3-43af-ad63-709bf2064d94",
       "title": "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe",
       "summary": "Google's ambitious rollout of AI Overviews, designed to revolutionize search with generative AI summaries, is unfortunately proving to be a double-edged sword, presenting a concerning new vector for sophisticated scams. This innovative feature, which synthesizes information directly into search results, can be manipulated by bad actors to generate highly convincing, yet entirely fraudulent, content. The danger lies in the inherent trust users place in Google’s authoritative platform; when AI Overviews unwittingly cite or even create deceptive information, it lends credibility to scams ranging from fake customer support numbers and phishing attempts to bogus investment opportunities.\n\nThis vulnerability amplifies the challenge of online safety. Scammers are rapidly adapting to leverage AI's ability to produce compelling narratives and bypass traditional content filters. For enthusiasts and everyday users alike, the implications are significant: a once-reliable gateway to information now demands heightened vigilance. Staying safe requires a critical approach: always cross-reference information from AI Overviews with established, reputable sources, prioritize official websites, and be inherently suspicious of offers that seem too good to be true. Recognizing common scam patterns and exercising a healthy dose of digital skepticism are now more crucial than ever to navigate this evolving digital landscape securely and protect against AI-powered deception.",
@@ -111,6 +131,16 @@
       "category": "ai"
     },
     {
+      "id": "3635d41b-0274-4fa0-ae2f-8e64a9e09b0d",
+      "title": "The Machine Learning Algorithms List: Types and Use Cases",
+      "summary": "In an era dominated by discussions of gargantuan large language models and dazzling generative AI, Simplilearn.com brings a crucial focus back to the foundational bedrock of all artificial intelligence: the diverse array of Machine Learning algorithms. This comprehensive overview isn't about a new breakthrough model, but rather a vital re-evaluation and consolidation of the core technical tools that power every predictive system, recognition engine, and autonomous decision-maker.\n\nTechnically, the significance lies in demystifying and categorizing these essential learning paradigms – from supervised learning’s classification and regression techniques to unsupervised learning’s clustering and association, and the intricate world of reinforcement learning. Understanding the unique strengths and optimal use cases for each algorithm, such as Linear Regression for predictions or K-Means for segmentation, is paramount. It highlights that the choice of algorithm is as critical as the data itself, determining model accuracy, efficiency, and interpretability.\n\nIndustry implications are profound. As AI integration accelerates across healthcare, finance, manufacturing, and beyond, a deep grasp of these fundamental algorithms empowers developers, data scientists, and business leaders alike to select the most appropriate tools for specific challenges, leading to more robust, ethical, and performant AI solutions. This knowledge fosters innovation by enabling tailored applications rather than a one-size-fits-all approach.\n\nFor AI enthusiasts, this is essential reading. Moving beyond the surface-level marvels of AI, a detailed understanding of these algorithms is key to truly grasping how intelligent systems learn and operate. It’s the difference between merely using AI and truly building, optimizing, and innovating with it, equipping you with the foundational expertise to critically evaluate existing systems and pioneer future advancements.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQnZRZUUyS19TYW9ZWUwzYk5rSG54YXVDZTg4b0FFdktjeFdQOXg4ZzNSOTRoQVh3SVMyaWdLSGlIVmxmZ1RURjVxNmVBLS1lR2puMjZhUjQ4NVpBeDFlWTVNc2YzcUdIWExGMVlfWjdpV0xka3FlUG1ma2FwOFlyMTYwdXVQcG9ldnctbzUwbENmTjQ?oc=5",
+      "source_name": "Simplilearn.com",
+      "date": "2026-02-11T08:00:00Z",
+      "category": "ai"
+    },
+    {
       "id": "21015d50-797d-4796-97f9-7d81fbb3f55f",
       "title": "Best Machine Learning Stocks of 2026 and How to Invest in Them",
       "summary": "For AI enthusiasts tracking the future landscape of innovation, understanding the companies poised to dominate the machine learning market by 2026 is critical. This analysis delves beyond immediate hype, highlighting a significant shift towards identifying sustainable leaders in the AI race. What's changed is a maturation in how market analysts view AI investment; it's less about speculative ventures and more about robust, technically significant advancements in specific companies. These firms are distinguishing themselves through fundamental contributions to AI infrastructure, advanced model development, and scalable deployment platforms.\n\nThe technical significance lies in the strategic accumulation of AI-enabling assets: cutting-edge semiconductor design crucial for accelerated computing, robust cloud AI services providing accessible computing power and specialized tools, and continuous breakthroughs in foundational models and data processing capabilities. These companies aren't just adopting AI; they are *building* the very fabric upon which future AI innovations will rest. Industry implications are vast, suggesting a consolidation of power among these foundational AI providers, influencing everything from enterprise solutions to consumer applications.\n\nWhy should AI enthusiasts care? This forward-looking perspective offers a crucial roadmap for where genuine innovation and significant R&D resources are being directed. By understanding which entities are set to be long-term leaders, enthusiasts gain insight into the platforms, toolchains, and strategic directions that will likely define the AI landscape for years to come. It’s about recognizing the engines driving the next wave of AI evolution, from theoretical breakthroughs to widespread, impactful deployment.",
@@ -118,6 +148,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUU3MkE1ZXJ2bDlyeUpvWlRhWm40emU3TE9rS1ZqRi16X1lTSW1TUlMzbERsUy1wY2Y2di1IUllHeVNhTHM3YkRSWHJIcFdPTVVVWHVxZGFsTEFqUDdkV1AwRlVvdnlvbWc2bXNOd0ZzbUtmdlItbWY3b3lIdTdmeW10dFNXbkZYRHhib3ZUWGFWNmxSWjRsVkZxY3VDVUtqeHVQejJQVHFmYlpNZkhzYnpSb1BCX00?oc=5",
       "source_name": "The Motley Fool",
       "date": "2026-01-26T08:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": "f0c7ec5b-1fae-4799-b5c7-ca5da89c4f9a",
+      "title": "Bridging computational power and environmental challenges: a perspective on neural network predictive models for environmental engineering",
+      "summary": "This critical perspective unveils a compelling double-edged sword at the nexus of artificial intelligence and environmental engineering: the immense power of neural network predictive models versus their significant computational footprint. The article highlights how these advanced AI models are becoming indispensable tools for tackling urgent environmental challenges, from optimizing resource management and pollution control to forecasting climate patterns and designing sustainable infrastructure.\n\nHowever, the core technical significance lies in the evolving understanding that deploying these computationally intensive AI solutions inherently carries its own environmental cost. The \"change\" isn't just about applying AI, but intelligently *bridging* the gap between its computational demands and the very environmental challenges it aims to solve. This calls for a paradigm shift towards developing more energy-efficient neural networks and sustainable AI deployment strategies within environmental engineering, ensuring that the cure doesn't exacerbate the problem.\n\nFor AI enthusiasts, the industry implications are profound. This isn't just about novel applications of AI; it's a vital call for responsible innovation, pushing the boundaries of \"Green AI.\" It signals a future where practitioners must not only harness AI's predictive capabilities for a healthier planet but also consciously engineer AI systems to be sustainable themselves. This evolving perspective underscores that the next frontier in AI isn't just about performance, but also about ethical resource consumption, making it a crucial topic for anyone passionate about AI's real-world impact and its long-term viability.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmlkbDFYVFhUbF80TGJ1WDVJYzRnQzdpTG1FelM2OUZIOFZJMXVib3NqaEhDcEtpMFpyRnZuT0hDN2tmcWV6b2trR0FBNEVrSEZlSnUzTjcwQkFNOVlaWmg1MFJVZktuUncyLVljM1ZaWjcyb1hCNmhsSGd6X28wTEZ2X3ktVzhoa2V5Q3hKVTlBQWdnenRFYzRBYVBrV2p1RXc?oc=5",
+      "source_name": "Frontiers",
+      "date": "2026-01-04T08:00:00Z",
       "category": "ai"
     },
     {
@@ -141,6 +181,26 @@
       "category": "ai"
     },
     {
+      "id": "9ddd35f6-4cb4-475f-92dc-ef8d2e59bd6c",
+      "title": "The usage of artificial Intelligence-empowered text analysis model with convolutional neural network in english reading",
+      "summary": "A groundbreaking development is reshaping the landscape of English reading, leveraging an Artificial Intelligence-empowered text analysis model integrated with a Convolutional Neural Network (CNN). Traditionally renowned for image processing, the innovative application of CNNs to textual data marks a significant technical leap. This model doesn't just process words; it meticulously analyzes text for deeper contextual understanding, identifying complex patterns and nuances that often elude conventional natural language processing techniques, thereby enhancing comprehension and engagement for readers.\n\nThis advancement signals a pivotal shift in how machines interpret human language, moving beyond superficial keyword recognition to grasp the underlying meaning and structure of sentences and paragraphs. The technical significance lies in the CNN’s ability to extract hierarchical features from text, much like it recognizes visual elements in images, allowing for a more robust and granular interpretation of reading material. This promises to revolutionize how individuals interact with written content, providing unprecedented insights into textual complexity and coherence.\n\nFor AI enthusiasts, this represents an exciting frontier. The industry implications are vast, ranging from personalized educational tools that adapt to individual reading levels and comprehension styles, to sophisticated language learning platforms, and even advanced content recommendation engines. This fusion of AI and reading showcases the immense potential of interdisciplinary model application, offering a glimpse into a future where AI not only understands our words but genuinely comprehends our world through them, making reading more accessible and insightful for everyone.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15WUhPdUhKMTE3My1PTkJhdzNFMzctaUtCRkdrd3ExSTdCQkNiM2xuWlVXc3VhLUEyS1dkUlo0SUpCMFdEdTVQUXlFaGlERWx4QWZpY0s0b1hHNW9aMUgw?oc=5",
+      "source_name": "Nature",
+      "date": "2025-11-28T08:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": "c2b82a98-5d55-4975-830b-541115bfd0b2",
+      "title": "How good old-fashioned AI could spark the field's next revolution",
+      "summary": "The AI landscape is currently witnessing an exciting re-evaluation, as \"good old-fashioned AI\" — the symbolic, rule-based systems once overshadowed by deep learning — is making a powerful comeback, poised to spark the field's next revolution. This fascinating shift centers on *neuro-symbolic AI*, a hybrid approach designed to merge the unparalleled pattern recognition capabilities of modern neural networks with the logical reasoning, common sense, and inherent explainability of classical symbolic methods.\n\nThe technical significance of this convergence is immense. While today's large language models excel at generation, they often struggle with true understanding, causality, and are prone to \"hallucinations.\" Neuro-symbolic systems promise to address these limitations, offering greater robustness, interpretability, and the ability to learn efficiently from less data. They aim to build AI that can reason about complex situations, plan effectively, and provide transparent insights into its decision-making, moving beyond mere correlation to genuine comprehension and systematic generalization.\n\nFor the industry, this pivot could unlock AI for critical, high-stakes applications demanding verifiable correctness and trust – from advanced medical diagnostics and financial compliance to safer autonomous systems. Companies stand to develop more reliable, transparent, and resource-efficient AI solutions. AI enthusiasts should be captivated by this potential paradigm shift. It represents a fundamental leap towards truly intelligent, human-like reasoning systems, blending foundational wisdom with cutting-edge power. This evolution promises AI that is not only powerful but also trustworthy, understandable, and capable of genuine insight, heralding a future where AI becomes a more reasoning and reliable partner.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04YzhjMExETjBsckd5RXpIQm8tb09QSXdfSVc2bTAtVVFONEtOOU15Ujg4dDAydWk3WXR5ZDAzWE5Zamh1cElyaEtKdGxvR0N4cFlLTnlZQzhEU0t5SXln?oc=5",
+      "source_name": "Nature",
+      "date": "2025-11-25T08:00:00Z",
+      "category": "ai"
+    },
+    {
       "id": "454c5c33-65f7-4c9b-8ac6-2fd1493dc7af",
       "title": "Artificial Intelligence’s Promise and Peril",
       "summary": "The International Monetary Fund (IMF) recently published a critical analysis titled \"Artificial Intelligence's Promise and Peril,\" offering a comprehensive look at the escalating impact of advanced AI technologies on the global economy. The report highlights the extraordinary potential unlocked by cutting-edge generative AI and sophisticated machine learning models. Technically, these advancements promise unprecedented boosts in productivity across sectors, from healthcare to finance, driving innovation and creating entirely new industries and job roles. The ability of AI to process vast datasets, automate complex tasks, and generate creative content signifies a profound shift in how economies operate, fueling growth and efficiency previously unimaginable.\n\nHowever, the IMF also issues a stark warning about the looming challenges. The rapid deployment of AI, without proper governance, risks exacerbating economic inequalities, leading to significant job displacement in certain sectors, and raising profound ethical concerns regarding bias, data privacy, and accountability. The report underscores the need for proactive policy frameworks to mitigate these risks, ensuring equitable access to AI's benefits and preparing labor markets for a disruptive transition.\n\nFor AI enthusiasts, this IMF analysis is crucial. It underscores that the future of AI isn't just about technological breakthroughs, but also about the societal, economic, and regulatory landscapes being shaped right now. Understanding these broader implications is vital for guiding responsible innovation, advocating for ethical deployment, and participating in the critical discussions that will define AI's trajectory and its ultimate impact on humanity.",
@@ -158,6 +218,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pNV94SzVpOUZndUlYQ0poWDg1UzVzTGJvX2tycXlhNVRfSU1rZTNhTjFnMjJBTkZ2WVlXdHZsSHc3VGxUblRnUVZXbTFNOTlMYkZibXBMY0ZBZ3RUVGxB?oc=5",
       "source_name": "Nature",
       "date": "2025-11-07T08:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": "bd6f2112-77a9-461c-b96b-db219116939d",
+      "title": "BlendNet: a blending-based convolutional neural network for effective deep learning of electrocardiogram signals",
+      "summary": "A groundbreaking AI development, BlendNet, a novel blending-based convolutional neural network (CNN), is poised to revolutionize cardiac diagnostics through its exceptional ability to effectively deep learn electrocardiogram (ECG) signals. This cutting-edge model represents a significant leap from traditional CNN architectures by incorporating a unique \"blending\" mechanism. Technically, BlendNet likely processes and intelligently fuses multi-scale or multi-feature information within the complex ECG waveform, enabling it to discern subtle, critical patterns often missed by conventional methods. This enhanced feature extraction and integration capability is what grants BlendNet its superior accuracy in identifying cardiac anomalies.\n\nThe implications for the healthcare industry are profound. With heart disease remaining a leading global health concern, BlendNet offers the potential for earlier, more precise diagnosis of various heart conditions, from arrhythmias to ischemic events. This could lead to timelier interventions, better patient outcomes, and reduced healthcare costs. For AI enthusiasts, BlendNet is a testament to the power of specialized architectural innovations in deep learning. It underscores how tailoring network designs, such as this blending-based approach for time-series data like ECGs, can unlock unprecedented performance in critical real-world applications. It’s an exciting example of AI directly impacting human health, showcasing the continuous evolution of neural networks beyond general-purpose models.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdFVzWDBhY1c1WFQ1ZW1GdnFLdDZaOWpzcHdHLWhyTzdlaEVWSTVXejg5OGdGcTVZZjdhcm1KWmlEQ0x4S25lSm83UEcyY2g1dlhXN0Q1X0JNSUdBc2QxOFJFdDNGZXRHU1hEWEtBeUM0YkVTUHFscHZNdXc1V0NVeVJ1dlJzcHROOEY1Q0FMRV9GM3BfRWxYSnVSRXEwV1d0ZUE?oc=5",
+      "source_name": "Frontiers",
+      "date": "2025-08-21T07:00:00Z",
       "category": "ai"
     },
     {
@@ -179,6 +249,36 @@
       "source_name": "Frontiers",
       "date": "2025-08-11T12:50:50Z",
       "category": "ai"
+    },
+    {
+      "id": "de3307b0-5e16-4a23-a7e4-09042fe67f6c",
+      "title": "Samsung Promotes New Feature Ahead Of Galaxy S26 Ultra Launch",
+      "summary": "Samsung is igniting intense anticipation for its upcoming Galaxy S26 Ultra, strategically promoting a groundbreaking new feature ahead of its February 2026 Galaxy Unpacked event. At the heart of this pre-launch buzz is an innovative privacy-focused display technology, potentially allowing users to control screen visibility from different angles. This sophisticated solution, designed to offer an unprecedented level of discretion in public spaces, is so compelling it’s even rumored that future Apple MacBooks might adopt similar tech to address their own privacy challenges – highlighting Samsung’s significant leap in mobile security and user control.\n\nThe Korean giant isn't stopping there, controversially rebranding the S26 Ultra not merely as a smartphone, but boldly as \"The Next AI Phone,\" even suggesting it transcends current mobile device definitions. This aggressive assertion underscores Samsung's deep commitment to integrated AI, promising a device that fundamentally enhances daily life through advanced intelligent features. While a substantial and potentially \"dangerous gamble\" that could redefine the mobile landscape, it also poses questions about market reception and consumer expectations for a device claiming such a paradigm shift. With Unpacked set to unveil enticing new pricing structures and deals alongside this AI-powered privacy marvel, Samsung is clearly aiming to make a seismic impact, challenging industry norms and setting a formidable new benchmark for device intelligence and user protection.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRDgwYjBIQ21UYnMtX0I4WnlZc0J1SGFjODgwQk5jV2Rhd20tdk02SEFpOEVLQzRpUXBLTllRdHROdEJFbHUwcWNUX3FjLVZxQlR3VE51UVdxc244QVAzRGtlcHctRTFWU0Y3T2I0SUpoQ2UzQU5YV2hMY0FidnhMUXR5YURKbE05b0htMjE4b0xxdnUwUWtPc2ZrWC1xd0hPdThxcXJXVThlLUtjVUNiQWx1WQ?oc=5",
+      "source_name": "Forbes",
+      "date": "2026-02-16T23:55:19Z",
+      "category": "tech"
+    },
+    {
+      "id": "f8223c78-2369-4c86-964b-c4c04f3b8f25",
+      "title": "Get ready for new Macs and iPads: Apple announces \"Special Experience\" on March 4",
+      "summary": "Get ready for new Macs and iPads: Apple announces \"Special Experience\" on March 4 Ars Technica Apple to Hold Product Launch on March 4 With Mac Updates Coming Bloomberg.com Apple Announces a Special Launch Event. Here’s What to Expect inc.com Apple To Hold Product Event On March 4. Cheaper iPhone Seen But No AI Siri Investor's Business Daily Apple’s doing something on March 4th The Verge",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWkJoWlFCYzYtYUh4TWRIQ2J4SDAxc3dXSUtKT2MtcjJqNG9GMEtGejBHekpZZzltYUZMVGw1UDRhVXhJV0ZPbk5tNHNDdzNqTkpiaE5qYi1Xc0YwZTZkUl9rSzFtLTFxc2loR2NaVWtyVGJZZmFMekp4TWdiT0QySHlIUnVBRl8wNU50VWxEcVA0LUVzazdKMXdOcXRPcVFXendiM2Z0aEQxZklmWDZHZ1JwWGpmaVMt?oc=5",
+      "source_name": "Ars Technica",
+      "date": "2026-02-16T20:30:15Z",
+      "category": "tech"
+    },
+    {
+      "id": "8af341d0-fd92-4789-b5b1-b12c89fc4643",
+      "title": "Apple introduces a new video podcast experience on Apple Podcasts",
+      "summary": "Apple is making a significant move to elevate its podcasting platform, officially launching a new, enhanced video podcast experience on Apple Podcasts. This isn't just about adding a video player; it's a strategic embrace of the visual storytelling trend that has been reshaping the digital audio landscape. Users can now seamlessly toggle between audio and video versions of their favorite shows, providing an unprecedented level of flexibility and engagement. Creators gain powerful new tools to enrich narratives, connect more deeply with their audience, and explore innovative content formats previously confined to platforms like YouTube.\n\nThis push comes as the podcast industry increasingly shifts towards visual content, with major players like Spotify already heavily investing in video and YouTube remaining a dominant force. Apple's entry signals a serious intent to compete directly in this burgeoning space, recognizing the evolving preferences of modern listeners who often seek visual context or a more immersive experience. For enthusiasts, this means a richer, more dynamic podcasting future, potentially unlocking a flood of innovative visual content from established and emerging creators alike. For Apple, it’s a crucial step in fortifying its robust ecosystem, ensuring its podcast platform remains a premier destination, and reaffirming its commitment to delivering cutting-edge media experiences in a highly competitive digital arena. This move could redefine what we expect from our favorite podcasts.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ0xlYWt6dFpuOUc0VHBGaURQNERNVWhkZXhYNUI1QTlrV3JJZldjUlBmWENUMUZIa3h0dHhHem50SnduMXl2aGdVb2s0SURLR3lSWWZFSWdVYnIzSXltaUZyOW1NS2pVRGQ0SUk4dGNHWldWVGlJZ0s5VGpydFZ0OUMzcmJITnN0aG9HVDlkRW96SHBMMzZJYlo3YWlHMWNzX2FsMFhfX0s?oc=5",
+      "source_name": "Apple",
+      "date": "2026-02-16T20:18:32Z",
+      "category": "tech"
     },
     {
       "id": "738afa39-dc26-4fec-9298-9b48405918c8",
@@ -398,106 +498,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMGE4TTNrS3c0enY4eFE4YmUycktzSDgtcnRlTm1KNURfSWtfbjh0UmlOWDBOb1VZaVdoNVN0Z1o1NzB1c3ExVmpXZWYtV1Brd0VPcW9IVFRRLS1TNU8zcEVaWlRaN0wzeFM1UlkwTE5zRlMzejhDZkRTeTl0eXlUajJ6bFZBcGc5LWxrdEtvcHVwaGlQMGQwc19vS1NFamhWNWx5OWxoZ3hhM3JVTWc4Mkln0gGwAUFVX3lxTE9kTTBXX1I2Zk1GeXQ2RG5fN3Rqb2FhODV2MEwwNW15aXVPRzIyR2dfcHUxcUFBMXl1a3JYa0JZY012OG1fMVdDeEdUVk13UEFCT3g2d1I0eWZYR3l3ejV6cElkOFY3OHFwUVZUY0tURVhoX3pyV2VrR3RYNXNJekhVNTNsbTdKWEZna3JHZDA5OG95bW1OTGNyd1NkbG5iZTBDdy1pUXoxYUp5RlRUV3BV?oc=5",
       "source_name": "Neowin",
       "date": "2026-02-13T20:30:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "97b04000-ac29-42a4-abaa-f1f2e4ba1077",
-      "title": "High On Life 2 Review - Contact High",
-      "summary": "Get ready, gamers! The highly anticipated High On Life 2 is finally here, and it’s set to blow your minds. Early reviews are buzzing about how this sequel *kickflips* the shooter genre on its head, blending intense gunplay with exhilarating skateboarding mechanics. Forget just running and gunning – imagine grinding rails and pulling off sick tricks mid-firefight! This isn't just another FPS; it's a vibrant, chaotic, and uniquely imaginative ride promising laugh-out-loud humor and unforgettable action. Whether you're a PlayStation devotee or an Xbox adventurer, prepare for a contact high of pure gaming joy. Don't miss this wild, genre-bending adventure!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IZG5YbGlkQ0JaRUdjRE5fc2lYM3RBM3pLLXdlRGZDUDE4T3ZzZ2kzNm03UGl1cjNsbU5TVnA4d01PTGNNQzRWbGFkbWVhamJodS1oQmVRam93OGFFclZvcDBsSVo3WG5sbHFj?oc=5",
-      "source_name": "Game Informer",
-      "date": "2026-02-13T19:49:10Z",
-      "category": "tech"
-    },
-    {
-      "id": "14bd27d6-604d-41e0-a3c7-0e5934a99a8c",
-      "title": "Samsung’s ‘Wide Fold’ surfaces with near-16:10 aspect ratio, wider than first Pixel Fold",
-      "summary": "Get ready, foldable fanatics! Samsung is cooking up something truly exciting behind the scenes: the \"Wide Fold.\" Leaks suggest this mysterious new Galaxy Z Fold device boasts a game-changing near-16:10 aspect ratio, making its inner display significantly wider than previous Z Folds and even outclassing Google's first Pixel Fold. This isn't just a minor tweak; it promises a much more tablet-like experience, perfect for productivity and immersive media. With hints of One UI 9 appearing, anticipation is skyrocketing for what could be Samsung's boldest foldable innovation yet. Get ready for a wider, more versatile future in your pocket!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVV2YTd5c2ZZN2EyRTUtVTlUOW5yZXZ1em9lZVR1OFQ0S21fTXVyNnh2NmhPeEMyVEQ4aFpacU5HSWZDU3hjdHl2WEk4RGVCX2ROcnJJLXRkNUtRRHBnQlBDb0o2a01ULU9IY001MUZDOUhjSWgwazNjUHpEM1N1NS1CelEzV1Fpc1BZSk9oT2NPRUV5RXZHTUM4ZVgzQQ?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-13T17:57:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "0bf83dc2-5ecc-4bd9-b71b-3ca70b64c128",
-      "title": "Rayman: 30th Anniversary Edition revealed for Nintendo Switch, out tomorrow [update: trailer]",
-      "summary": "Rayman's 30th Anniversary Edition explodes onto Nintendo Switch *tomorrow*! Fans, brace yourselves: this isn't just a remaster; it's an epic collection bundling five different iconic versions of the original Rayman game. Relive the vibrant, whimsical 2D platforming that defined a generation for countless players. Celebrating three decades of limbless heroics, this special release is a dream for both nostalgic veterans and newcomers alike. Get ready to jump, punch, and glide your way through a timeless classic – pure platforming bliss, available digitally *tomorrow*! This is the ultimate celebration for the legendary platformer.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa09UQkpiMUlVZ3lkTHk5WTVkbHlRdnUtNVM0LXR0QjVTUWQxVzBwWThnMHdpcHpHQ2ZNc2s4STJ6d1FwSEl1NnMxUUt3dmcyLVlsOWd4dEN6c2RNcjFIelNLeUNNMGtBNlUyUGZTZnZoYXZfQkkzaEczbnBHYnNrUGp5NXI1VVY4YVpSTExJRnlDWWluVkhXZ1owRXgwZ2JLNjRSOEpyaFM?oc=5",
-      "source_name": "Nintendo Everything",
-      "date": "2026-02-13T17:19:18Z",
-      "category": "tech"
-    },
-    {
-      "id": "c12e4494-a0ee-464e-9267-f0621c29f92d",
-      "title": "Stern Pinball’s New Pokémon Pinball Machine Is Available Now",
-      "summary": "Trainers, prepare for an electrifying new adventure! Stern Pinball has unleashed an epic Pokémon pinball machine, available now, and it’s a game-changer. Forget traditional bumpers; this beast lets you embark on a full-blown Pokémon journey. Catch your favorite creatures, engage in thrilling battles, and complete your Pokédex – all with the satisfying thwack of a flipper and dazzling lights. Critics praise its immersive gameplay, blending classic pinball mechanics with beloved Pokémon lore seamlessly. This isn't just a game; it's a monumental arcade experience, perfect for dedicated fans ready for a high-scoring, Poké Ball-slinging frenzy. Be ready for a premium investment – it's for serious collectors!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeGplemc4dDFiaWRiVzdjaHBXbS1rRlNoV0RoRS1tbHMxd0JyQlVhTXY4VHB1UmxaaWhYbVdhenZCU1pHWGd2cm43WXhfWlh6WFZUVHJxbnRZLXppd040T3U0WkpmbENfWlNOMTZVWTdOdzA3N0M5bjFtblZnQ2lQMENWdnJyc083SnZmRjlSeVBwYjd0RmEtbzNNWDZ0QkFD?oc=5",
-      "source_name": "Pokemon.com",
-      "date": "2026-02-13T17:10:29Z",
-      "category": "tech"
-    },
-    {
-      "id": "852cc04b-3334-4596-884c-f1731dbd0eb6",
-      "title": "Apple Now Testing Flip-Style Foldable iPhone",
-      "summary": "Apple is testing a flip-style foldable iPhone! Unlike bulky book-designs, Apple prioritizes pocketability, letting your device fold in half. Leaks hint at a thin profile, packing a 5,500mAh battery – an engineering marvel. This isn't mere speculation; Apple’s foldable entry is taking shape. Prepare for a revolutionary iPhone, redefining convenience, literally folding the future into your hand. The foldable era for enthusiasts is almost here. Get ready to flip!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93V3pIRDZzVGJMQzJ2UmtZMGVGV1h0UjN1alVUd3lOalVxWFFvd0Y3dGtuSWNfYlloWjB3S0c4VGFkNEJIVy1QZEpTaE9sSVVDNkR1RmZXb0s2WUYtSGlLbGdoaEpSb1RZdGxxOTVscHgxQng0S29ZMlpZUnE?oc=5",
-      "source_name": "MacRumors",
-      "date": "2026-02-13T16:47:45Z",
-      "category": "tech"
-    },
-    {
-      "id": "6a6fda5d-ec4e-4451-aac4-6df1fd7e292e",
-      "title": "February’s Windows 11 update is causing startup problems for users",
-      "summary": "The latest February cumulative updates for Windows 11 are casting a dark shadow over user experience, with reports surfacing of critical startup problems immediately following installation. Enthusiasts and everyday users alike are confronting frustrating boot failures after applying updates like KB5077181 and KB5075941, effectively locking them out of their systems. This isn't just a minor glitch; it's a significant disruption that prevents access to critical files and applications, turning productive machines into unresponsive bricks.\n\nThe widespread nature of these complaints underscores a worrying trend in Microsoft's update quality control. While the company frequently delivers performance enhancements and new features, instances of updates introducing severe bugs, like these startup issues, are becoming an all too familiar saga. For users, the implications are dire, often requiring arduous troubleshooting steps, system restores, or even a full OS reinstallation – a significant blow to productivity and a test of patience. This recurring pattern erodes user trust and highlights the constant tension between timely updates and system stability. It's a stark reminder that even essential software maintenance can inadvertently cripple the very systems it's designed to protect and improve. The tech community eagerly awaits an official acknowledgment and a swift, stable resolution from Microsoft.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEUxUTN3eFVHSzZvdVpzZUwtOEZJWlNZdzRnX2xTbDFGWEt1ZlFNTGZzUmw3RzRMdVlVV0Zxa0NvVmVmWlRfZEtpcjFMNmxZV29JZEw4WHdTbXJnS2kyRTM5aWtUZDhxS2Z3YXYyNHZDaS0zV3dPZ3dNOTN4TGJfNm5sTHBYdzd2aF8zX015V2pkTnNzaEt1clhIazhXWlVOS0c1Tlg0bjVXS21ueDZyakdVaUctTkpaUkE?oc=5",
-      "source_name": "PCWorld",
-      "date": "2026-02-13T15:21:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "1c311f76-50c1-4c11-a804-688925595565",
-      "title": "How to check if Windows 11 has applied the new Secure Boot 2023 certificates (replaces Secure Boot 2011)",
-      "summary": "Attention, Windows 11 users! A critical security update is rolling out, silently strengthening your PC's defenses. Microsoft is replacing the aging Secure Boot 2011 certificates with robust new 2023 versions. These certificates are vital for maintaining your system's \"root of trust,\" ensuring only legitimate software loads during startup and shielding you from nasty boot-level malware. The old ones expire in 2026, posing a significant security risk if not updated. Enthusiasts, it's time to check your system's status! Learn how to verify Windows 11 has applied these essential updates to keep your boot chain integrity solid and stay protected against future threats. Don't leave your digital fortress vulnerable!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR1hiZHB4ZmdwMkt2Q0FPX1gwUjMyclVTVm10WGxSd0g2N3FlbUIzQXpDZXBNT2psekhqN3RUZWYyS09tR3ZVMDZ3dkx6Zlc1N01VbF9mbVJSWWFuQm5KZl9YeE9TaElGLTFvblpxT2Z1a0hhQW1KWFpDTkcydHIyS2Y0bV9OalJOWEhOaGxoYnhWcWQ3WHIwVjZrTkdhT2daZHZrcXVnY3ZoOW5YYXd3V0s5RVBxdFBpcjRMNUtBYmFWWmozdzRfNlY1NzFzZXhIcWpIdE5faTE0Q0RP?oc=5",
-      "source_name": "Windows Latest",
-      "date": "2026-02-13T15:11:07Z",
-      "category": "tech"
-    },
-    {
-      "id": "06e8626a-2d82-4894-a9d5-711fb7a2a1b7",
-      "title": "Full Pixel 10a specs leak with new Gorilla Glass – how it compares to Pixel 9a",
-      "summary": "Hold onto your hats, Pixel fans! The Google Pixel 10a is shaping up to be a true contender, with juicy leaks spilling exciting details. Get ready for a major durability boost, as rumors point to brand-new, super-tough Gorilla Glass, a significant upgrade from its predecessors. Whispers suggest an \"unexpected upgrade\" that could give it an \"iPhone 17 Pro moment,\" hinting at a premium design overhaul or a serious camera bump. Beyond enhanced specs, expect vibrant new color options to turn heads. With the Pixel 9a seeing tempting price drops, the 10a's launch is clearly on the horizon, promising a powerful, stylish, and more resilient budget-friendly Pixel experience. Get ready!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10Z2VPVmZWS2hZMjZVcGhlWEY1ZHVabzNKZklxYTdJdDhBaXpNR1BuVUtxMEhhc1lTZ0RIcTZmOFdqa1VneDYydjhRZlRCMklxU24xejZhTE9YeWVZSElTa3YzV2piSmxXZWs0MGFPNm9UZ2psalA4RjlwUHR4Zw?oc=5",
-      "source_name": "9to5Google",
-      "date": "2026-02-13T14:55:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "50b5c6d9-1b90-4090-b986-2cbf5f70d9fe",
-      "title": "Apple Presidents' Day sales: Get the Apple Watch Series 11 for $299, plus more deals",
-      "summary": "Attention, tech enthusiasts! Presidents' Day sales are in full swing, bringing incredible Apple deals across major retailers. This is your chance to grab the hot new Apple Watch Series 11 for an unbelievable $299! But the savings don't stop there. Expect dazzling discounts on beloved AirPods, powerful iPads, and a whole host of essential accessories. We're seeing price cuts up to $400 off, with items like Apple Sport Bands slashed by 41%. Even MagSafe charging stands are seeing $100 reductions. Don't miss this prime opportunity to upgrade your Apple ecosystem or finally dive into their premium tech without breaking the bank. Act fast!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTWxMczRsRmkxTXVyR2EzT0FWMDFtVzFhSzZFSElzRF9TTTE3b05ncE53c2FRV0JvX1FZR1VNeXAwZmJwOEJKcUozN2k4bVNfMFRwYVRuVU4yYlJCNkdLNGlDRGk5LThaTHJUWFRrX1FZdFhmOG55MjFWWWNEOGpRSWl5UG1tTDRsak5QbW1xOGF2R2tld3Y0bGVtaTBZZEpaWDUxTVhRd081bld5Z2UwSWVzRXZvOFg3d2U3d2F2RnBvWEl4?oc=5",
-      "source_name": "Engadget",
-      "date": "2026-02-13T14:34:45Z",
-      "category": "tech"
-    },
-    {
-      "id": "382622ea-3712-4009-b9f8-eb1944e80530",
-      "title": "Steam beta lets users attach PC specs to game reviews",
-      "summary": "PC gamers, get ready for a game-changing update! Steam’s latest beta introduces a powerful new feature allowing users to attach their detailed hardware specifications directly to game reviews. This isn't just a minor tweak; it's a monumental leap for transparency. Imagine instantly seeing what GPU, CPU, and RAM a reviewer used, helping you accurately gauge how a game will perform on your *own* rig. No more frustrating guesses about optimization! This optional, yet incredibly valuable, addition empowers you to make smarter purchase decisions and avoid those infamous poorly optimized titles. Jump into the beta and help shape a truly informed gaming ecosystem!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOFRWX2doNzg4YW00SEVadmhsTk5WdzBzRjhfc05NRTFONS1VLXFOQXdKU0I3OHpZd01WY0h6YlRQOUVESk13MkV4TUZsWVZicWxvTWY1SmpVYkFYNU80ZTF4dzRoYlpvajlpWWlzVjNUQ2laNXZ3TVlHNGRvM0dndExQWHJuWi1O?oc=5",
-      "source_name": "VideoCardz.com",
-      "date": "2026-02-13T14:16:00Z",
       "category": "tech"
     }
   ]
