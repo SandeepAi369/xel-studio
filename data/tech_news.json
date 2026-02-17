@@ -1,6 +1,36 @@
 {
   "news": [
     {
+      "id": "1053d185-954c-4c3e-8b59-0071db1a8fd3",
+      "title": "Machine Learning Flags Cell Transplantation Risks",
+      "summary": "A groundbreaking application of artificial intelligence is set to revolutionize cell transplantation, as machine learning models are now proving adept at proactively flagging crucial risks. This innovation represents a significant leap from traditional assessment methods, where identifying potential complications often relies on extensive human expertise and reactive post-transplant monitoring. The technical brilliance lies in AI's capacity to analyze vast, intricate datasets – including patient genomics, immunological markers, and clinical histories – to uncover subtle, previously unnoticed patterns that predict adverse outcomes such as graft rejection or graft-versus-host disease (GVHD) with unprecedented accuracy.\n\nFor the medical industry, this development holds immense implications. It promises to usher in an era of truly personalized medicine, allowing clinicians to stratify patients with greater precision, tailor pre-transplant conditioning, and implement preventative measures proactively. This could dramatically improve patient safety and success rates for life-saving cell therapies, reducing severe complications and associated healthcare costs. AI enthusiasts should be particularly excited by this real-world demonstration of machine learning's power to directly impact human lives. It’s a powerful testament to how intelligent algorithms can augment medical professionals, pushing the boundaries of diagnostic prediction and treatment optimization in one of medicine's most complex and vital fields.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHVyTlV2bUdVYkV3V2JmSUJONzd5QnJXMWxRWVlldlllMnhPY1k1dl9uZ0VCM2hQS2hocVV3ejZVdkRGalRCTzF6SzlTbUR2Zm1IYmVQNk5vMTAxLS1NOEdvLWRJcFJLaHc3SkFrdnFkMEFjVHpsR3AxdXYxYmhMTTZTMmZlZmZOLWZyOWNtbmloWkxFXy1lT1hhUmdCT0piSlY5Q3g4ZHdSZ2NXNGxCWEJtQnVuRG8?oc=5",
+      "source_name": "Inside Precision Medicine",
+      "date": "2026-02-17T18:48:03Z",
+      "category": "ai"
+    },
+    {
+      "id": "030fdfd3-2f98-4cbf-bf79-9277c755c11d",
+      "title": "Evolution: Machine learning for station specific Ionosphere prediction in GNSS positioning",
+      "summary": "The quest for pinpoint accuracy in Global Navigation Satellite Systems (GNSS) has long been hampered by the unpredictable whims of the ionosphere, a critical layer in Earth's upper atmosphere. Now, a significant \"evolution\" is underway, leveraging advanced machine learning models to provide unprecedented station-specific ionosphere prediction. This paradigm shift moves beyond traditional, generalized atmospheric models that struggle with localized variability, instead employing AI to learn intricate patterns unique to individual GNSS receiver stations.\n\nTechnically, this means AI algorithms are now directly tackling one of the largest sources of error in GNSS positioning: ionospheric delay. By training on vast datasets of real-world GNSS observations and environmental factors, these machine learning models can anticipate and correct for these delays with superior precision compared to their conventional counterparts. The result is a highly localized, real-time prediction capability that drastically improves the reliability and accuracy of positioning data.\n\nThis development has profound industry implications, promising a quantum leap for sectors reliant on precise location. Autonomous vehicles, drones, high-precision agriculture, surveying, and even augmented reality applications stand to gain immensely from centimeter-level accuracy, free from ionospheric interference. For AI enthusiasts, this showcases machine learning's practical power in solving a fundamental challenge in critical infrastructure, moving from theoretical promise to tangible, real-world impact that underpins the next generation of location-aware technologies.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmxaUjZkTDR6NzB5bGRvcVFIN3c0QTIweFROS1RYTXIwdGdULTZUcGM3eDZhdHhXdlctN1M1LWIwU1ZjbDFOUXR0VGdMOXM3bEJlQ1BIdFRvd3ZSRk52M1NhS01MdDk0ZTBFbUpyTDIxVHRrem90V2RmbnpkT3lvYm16dncyN1JBS1MxdFV0RG02RHNYZWlSaURhdmw3dDJCTjNoajM1TDVZd2duRnpMVFd2VGJidw?oc=5",
+      "source_name": "GPS World",
+      "date": "2026-02-17T16:41:37Z",
+      "category": "ai"
+    },
+    {
+      "id": "63b0a585-8c90-4b82-b3cf-091cad698217",
+      "title": "ZAWYA-PRESSR: The Artificial Intelligence Office in collaboration with Samsung Gulf Electronics",
+      "summary": "A landmark collaboration poised to significantly accelerate AI adoption and innovation across the Gulf region has just been announced: The Artificial Intelligence Office has partnered with Samsung Gulf Electronics. This strategic alliance represents a powerful fusion of governmental foresight and private sector technological prowess, signaling a pivotal shift in the region's digital transformation journey and its ambition to lead in the global AI landscape.\n\nThe technical significance of this partnership lies in the synergistic leveraging of Samsung's extensive R&D capabilities, cutting-edge hardware infrastructure, and software expertise—spanning from advanced mobile AI and IoT to smart city solutions—with the AI Office's strategic vision for fostering a robust, ethical, and talent-rich AI ecosystem. This isn't merely an endorsement; it's a commitment to co-create localized AI applications, develop shared research initiatives, and integrate AI responsibly across key sectors, addressing unique regional challenges and opportunities.\n\nFor the industry, the implications are vast. This collaboration is set to drive significant advancements in AI literacy, promote large-scale upskilling initiatives, and catalyze the development of cutting-edge, regionally tailored AI technologies. It reinforces the Gulf's ambition to become a formidable global AI hub, attracting further investment and top-tier talent. AI enthusiasts should be particularly excited by the prospects: new educational programs, hackathons, and unprecedented career pathways in AI are likely to emerge, offering unparalleled opportunities to engage with next-generation technologies and contribute directly to shaping a smart, AI-powered future.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSGFwTEVUdTVJUEEwa0VoaDhMSG1vY3BHUGQ2VXF1NmN5QW9qXzRTaXpHT0VOaUlMWG5fS2VORVdUQnRwNjM0ZTZ3NzZfclNacV9JVUk2UnNoMVZFMjQ5ZTRyYVJhczZrbXVTbWFfbDJOaWd1ZnRXR2xRck5sVE9TZmpBSDh2c1I3eUt0ZHdtTGpDQlJRMHdCTWNjMXZYeWZWMEhDVDJpRU9rNEZ3bG13VDNKQlJnOVRlcUdRVmJfWUlXNEMzWm5rZ2dad250U1otcHhna25Tbzgtc3htdVNSelRYTWlpbkFsRE1hSl85TVlWdDQ5TWZwQXNrTDJVQTg?oc=5",
+      "source_name": "TradingView",
+      "date": "2026-02-17T13:15:22Z",
+      "category": "ai"
+    },
+    {
       "id": "40c3166e-71f7-47a5-a457-30c504e0f14b",
       "title": "Generative Artificial Intelligence in Spectroscopy: What’s New and a Glossary of Terms",
       "summary": "The integration of cutting-edge Generative AI with the foundational science of Spectroscopy marks a pivotal moment, pushing the boundaries of scientific discovery and technological advancement. Far from solely crafting images or text, models like GANs and VAEs are now being deployed to revolutionize how we analyze and interpret the interaction between matter and light. This seismic shift means AI isn't just identifying patterns; it's actively synthesizing novel spectral data, predicting molecular structures, and even designing materials with unprecedented accuracy and speed.\n\nTechnically, this represents a profound leap. Generative AI can overcome the long-standing challenge of limited experimental datasets by creating realistic synthetic spectra, enabling more robust model training and analysis. It drastically accelerates the inverse problem – predicting a molecule's structure from its spectral signature – a task traditionally requiring extensive human expertise and computation. This capability not only automates complex analytical processes but also opens pathways for hypothesis generation, allowing AI to suggest entirely new compounds or predict properties before costly lab experiments are conducted.\n\nFor AI enthusiasts, this signifies AI's burgeoning role as a true scientific partner, moving beyond mere analysis into the realm of creation and discovery. The industry implications are vast, promising to supercharge drug discovery by rapidly identifying potential therapeutic compounds, accelerate materials science by designing novel substances with desired properties, and enhance environmental monitoring. This integration of generative intelligence into core scientific instrumentation demonstrates the profound, transformative power of AI in unlocking previously unattainable scientific insights and truly reshaping the future of research and development.",
@@ -18,6 +48,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3J0dW12VjJ4dVlfTzVuNmJ5a3JSb1VZM1NZSXVvVF9Oa2tva3IwUHlvMXp3Zm8zZzNmczM1ZkpJM29MOG5lY1p6QV9veGV0Sk1VdUtRRVBIM1JHeldGeWxoaF9XdHlGcFlrSTFNbTVaalQ3Q05UQUhYdWE5YmZkQms1Sll6X1AweDk0NUoxZDlxRnY5VTRMcUlfM1lKcTYySFQ0VHl2ajJLWGp6THlMTW1LUQ?oc=5",
       "source_name": "Discover Magazine",
       "date": "2026-02-16T21:02:36Z",
+      "category": "ai"
+    },
+    {
+      "id": "5020b989-26ef-45c2-b7ed-1897e417c4e7",
+      "title": "From Descartes to Deep Learning: The Mathematics of Thought",
+      "summary": "The fascinating intersection of philosophy and advanced computation takes center stage in this exploration of \"The Mathematics of Thought,\" tracing a profound intellectual lineage from Descartes's rationalism to the complex algorithms of deep learning. The core shift highlighted is the evolution from abstract philosophical inquiry into the nature of thinking to a concrete, mathematical framework capable of modeling and manifesting cognitive processes through AI. Deep learning, the star technology here, represents the pinnacle of this journey, providing the computational tools to translate the once-elusive concept of \"thought\" into quantifiable patterns and predictive models.\n\nTechnically, this signifies a groundbreaking move from symbolic AI’s rigid rules to connectionist architectures that learn and adapt, mirroring neural pathways. This paradigm shift holds immense industry implications, promising to unlock new frontiers in AI development – from more human-like reasoning and problem-solving to potentially paving the way for truly generalized artificial intelligence. As our mathematical grasp of cognition deepens, we move closer to creating systems that don't just process information but genuinely understand and interact with the world in sophisticated ways.\n\nFor AI enthusiasts, this narrative is crucial. It offers a powerful reminder that current AI breakthroughs are built upon centuries of inquiry into intelligence, now made tangible through deep learning's mathematical power. Understanding this historical and technical trajectory enriches appreciation for the present capabilities of AI and ignites excitement for its future, suggesting that the quest to build truly intelligent machines is fundamentally about deciphering the mathematical underpinnings of thought itself.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcEpDMnNTRlEzNTAwNnFtTnU2dTIzNHRBbE5Ea1JpQ2pzYTBhZGVUMjN4eFh2S3NsQkpTSFo4V192aEFkUVllbFJ1R0k5bFhseUFzT2hWOWRuU3R1ZjFLQkc1QXdtajRwWEljYjl6d0Z3MDdPNnZVUXhtd2FQT3ZndEVoZ09nUzVQdG5ZbHlodFZxbzBvc1poVXdpMHXSAaIBQVVfeXFMTjdYbFBlOURfT3Z3a0VqRHBTT0tQem1RWWpUTmRFMzh5WjdrQkd5MDg5RzROWm1rZEtfNmVaRGRVTjBwZDFLT3lwcklBRFRTczV6REpLRUtjU0JXa0hiSzJMZWhIZW1tSV9yLU1YaDVLNVlNQWZWYTYtLXhISGRoTXZfam85X3NwNVh6b01xblFyUjd6YXJKU2N2MU5QcmFsUXFn?oc=5",
+      "source_name": "Next Big Idea Club",
+      "date": "2026-02-16T20:17:39Z",
       "category": "ai"
     },
     {
@@ -101,6 +141,16 @@
       "category": "ai"
     },
     {
+      "id": "277f1bfd-a182-436b-b60a-8504e1c5a7af",
+      "title": "Machine Learning Vs. Deep Learning - What's the difference?",
+      "summary": "For AI enthusiasts navigating the rapidly evolving landscape, a crystal-clear understanding of the distinction between Machine Learning (ML) and Deep Learning (DL) is paramount. Latest insights from Simplilearn confirm Deep Learning isn't a competitor but a powerful *subset* of Machine Learning, marking a crucial technical evolution within the broader AI field.\n\nThe core difference lies in their approach to feature extraction. Traditional ML algorithms often rely on human-engineered features and explicit instructions, effective for structured data and tasks needing interpretability. Deep Learning, however, harnesses multi-layered neural networks, inspired by the human brain, to automatically learn intricate features and representations directly from raw, unstructured data like images, audio, and text. This shift to autonomous feature learning is profoundly significant, enabling DL to achieve unprecedented accuracy and scale in complex domains.\n\nIndustry implications are vast. While ML remains indispensable for data analysis and predictive modeling where explainability is key, DL powers the cutting-edge of AI: from sophisticated computer vision and natural language processing to the generative AI models captivating the world. For enthusiasts, grasping this relationship isn't just academic; it’s essential for comprehending modern AI breakthroughs, informing career paths, and understanding why specific AI solutions are chosen for diverse real-world challenges, ultimately enhancing one's ability to innovate.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbS1zaGV4aVo1R29wcVF4eXBmOVNydWpfVW9FZV9DczBpcVVNTHFtNzEwd3dVVXZpRi13RDBSUUx2LXg4STlmbTBfTHl0anRBS1ZIQ2wtd2xVaFVQNzk3RnA0Wkk4emloT0RXSHBYSXNKYy1wRUVTdWNGeFhUal82S1BNR2R2S0Eybk1aOGlTbjlPNjlTWkptbEV2Y0RacnE3YUVJWWxFYw?oc=5",
+      "source_name": "Simplilearn.com",
+      "date": "2026-02-14T08:00:00Z",
+      "category": "ai"
+    },
+    {
       "id": "44c9f5ca-00e0-4df9-8a52-7666d2a3c619",
       "title": "There's Confusion Over God of War Sons of Sparta Having Co-Op, Based on Its PlayStation Store Description",
       "summary": "Hold onto your Blades of Chaos! A storm of confusion surrounds the newly released God of War: Sons of Sparta. Its PlayStation Store description tantalizingly hints at a co-op mode, sending fans into a frenzy! Could Kratos truly share his rage-filled journey with a friend? While the idea of a two-player Spartan rampage is undeniably epic, most believe this is an error, likely a copy-paste glitch. Nevertheless, the buzz is palpable, especially with the monumental news: the *original God of War trilogy is getting a full remake*! Imagine those classics stunningly revamped! Kratos's legendary saga is now reaching mythical levels!",
@@ -161,6 +211,16 @@
       "category": "ai"
     },
     {
+      "id": "86b79585-ae36-4f72-9c35-daf8f4a80110",
+      "title": "Trustworthy deep learning for malaria diagnosis using explainable artificial intelligence",
+      "summary": "A groundbreaking advancement in AI-driven healthcare is redefining diagnostic reliability through the application of trustworthy deep learning for malaria detection, powered by Explainable Artificial Intelligence (XAI). This isn't merely an incremental improvement in diagnostic accuracy; it fundamentally transforms how AI contributes to critical medical decisions. Historically, powerful deep learning models, while often highly precise, operated as \"black boxes,\" their reasoning opaque, hindering widespread adoption in high-stakes fields like medicine.\n\nThis innovative approach embeds XAI techniques directly into the deep learning pipeline for malaria diagnosis. Its technical significance lies in moving beyond mere prediction to providing clear, interpretable explanations for the AI's diagnostic conclusions. This transparency allows medical professionals to understand *why* the AI identified malaria, enabling them to verify its rationale and fostering essential trust in the system. The implications for the medical industry are profound, establishing a new benchmark for AI deployment in diagnostics. It proves that AI can be both powerful and transparent, paving the way for its responsible integration into other critical healthcare applications, particularly in resource-limited regions. AI enthusiasts should care deeply about this development: it exemplifies how ethical AI development, prioritizing interpretability and trustworthiness, isn't a luxury but a necessity for real-world impact. This is AI's tangible power to save lives and improve global health outcomes, moving the conversation from AI’s potential to its proven, accountable utility.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEdzdLUG5EVzNhN2xsWXZNRFNYOWdoSXRnUU02SnRHWkdDTWZMQ3VoaTU2dmFpVkYtN0E5dWpfLWNzREwwMm9LWlcxMmpYMmJScDdBYi1Ka0g1dlNWN1ZJ?oc=5",
+      "source_name": "Nature",
+      "date": "2025-12-19T08:00:00Z",
+      "category": "ai"
+    },
+    {
       "id": "8b2c2396-60be-4c26-95d7-d81d0079d35b",
       "title": "Machine Learning & Artificial Intelligence",
       "summary": "For AI enthusiasts tracking technology's real-world impact, a seismic shift is underway at the Centers for Disease Control and Prevention (CDC), as it strategically embeds Artificial Intelligence and Machine Learning across its core public health mission. This isn't just a pilot program; it marks a profound transformation in how a pivotal government agency approaches critical challenges. What’s truly changed is the CDC’s formalized, comprehensive commitment to leveraging AI – from advanced predictive analytics to nuanced data insights – as a fundamental tool to enhance infectious disease surveillance, accelerate outbreak prediction, champion health equity, and optimize responses to public health emergencies.\n\nTechnically, this involves deploying sophisticated AI models for forecasting disease spread with unprecedented accuracy, identifying subtle risk factors within vast datasets, and dynamically allocating resources where they're most needed. This showcases AI's power in complex, high-stakes environments, demanding rigorous attention to data privacy, algorithmic fairness, and transparency – crucial technical considerations for any AI professional. The industry implications are vast, establishing a blueprint for responsible AI adoption within government and public sector organizations worldwide. AI enthusiasts should care deeply about this initiative, as it demonstrates AI's capacity to transcend commercial applications and directly contribute to saving lives and improving global well-being, grappling with ethical dilemmas and data complexities at the frontier of AI for good.",
@@ -198,6 +258,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04YzhjMExETjBsckd5RXpIQm8tb09QSXdfSVc2bTAtVVFONEtOOU15Ujg4dDAydWk3WXR5ZDAzWE5Zamh1cElyaEtKdGxvR0N4cFlLTnlZQzhEU0t5SXln?oc=5",
       "source_name": "Nature",
       "date": "2025-11-25T08:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": "b5d9047b-d707-49d9-ac1a-b390ea28dab7",
+      "title": "The cost of thinking",
+      "summary": "Researchers at MIT have unveiled a significant breakthrough addressing one of the most pressing challenges in artificial intelligence: the immense computational cost and energy consumption of modern neural networks, especially large language models (LLMs). Dubbed \"the cost of thinking,\" this new research offers a novel methodology to dramatically reduce the energy footprint associated with AI inference, changing how models process information efficiently. Technically, the team has engineered a more energy-efficient computational paradigm, effectively allowing complex AI models to achieve similar levels of performance with a fraction of the power traditionally required. This isn't just about minor optimizations; it represents a fundamental shift in how AI hardware and software can be co-designed for sustainability and performance.\n\nThe technical significance is profound, potentially unlocking a new era of \"green AI\" that mitigates the environmental concerns associated with increasingly powerful systems. For the industry, this translates into substantial cost savings for deploying and scaling AI applications, making sophisticated intelligence more accessible to a broader range of businesses and researchers. We could see a democratization of advanced AI, enabling smaller players to compete and innovate without prohibitive infrastructure investments. AI enthusiasts should care deeply about this. It not only paves the way for faster innovation and the development of even more complex, energy-conscious AI systems but also moves us closer to ubiquitous, on-device AI that performs robustly without relying solely on massive, power-hungry data centers. This discovery is a critical step towards a sustainable and universally integrated AI future.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yQW1xQmYyVDhzTWVKenVVeloyN3hYbUpKWFQ5dmdSOGtKZ2NMRW40VGZVRTdZSkVFTl9ySFpDUWhhX0NGNnBINlZpU1lFVGxRRE1NbXJaQ1ZwWWc?oc=5",
+      "source_name": "MIT News",
+      "date": "2025-11-19T08:00:00Z",
       "category": "ai"
     },
     {
@@ -251,6 +321,16 @@
       "category": "ai"
     },
     {
+      "id": "a4f6d73f-e21e-4ce8-9532-e789b246bd49",
+      "title": "Samsung is slopping AI ads all over its social channels",
+      "summary": "Samsung is launching an unprecedented advertising blitz, \"slopping AI ads all over its social channels,\" as it ramps up the hype for its next generation of flagship devices. This aggressive marketing campaign is clearly laying the groundwork for the highly anticipated Galaxy S26 Ultra, expected to be unveiled at the \"Galaxy Unpacked February 2026\" event. The messaging is clear: \"The Next AI Phone Makes Your Life Easier.\"\n\nThis isn't just generic AI talk; Samsung is already teasing specific, impactful features. Among the most exciting is a \"Privacy Display\" for the S26 Ultra, hinting at technology that could dynamically hide your screen content from prying eyes, a potentially revolutionary step in mobile privacy. Such a feature, likely leveraging advanced on-device AI, underscores Samsung's commitment to integrating intelligent capabilities directly into the user experience, moving beyond mere software tricks.\n\nFor tech enthusiasts, this heavy investment in AI promotion signals a pivotal shift. Samsung is not just adding AI features; it's positioning AI as *the* core differentiator for its upcoming flagships. This strategy aims to reignite consumer interest and showcase practical, daily benefits beyond mere spec bumps. The intensity of this early marketing push highlights Samsung's ambition to lead the \"AI Phone\" era, making the February 2026 Unpacked event a must-watch for anyone keen on the future of mobile technology and what true on-device intelligence can deliver.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnVmSzJmX3VQSzRpemtDX2VLdHY5Zk9LLUJVSDdBYmlHYXBDRExUTTFqT0lscmVPRzVlYktiM2dnTUpYTzE3ZXNod3RRUng4LVZDbU54dUxteWFiaEZZcWhIWEc4dWxFTnZyak12R1hwalBpNzN3OXp4UmlFSjVXbVgza0tNUQ?oc=5",
+      "source_name": "The Verge",
+      "date": "2026-02-17T10:55:32Z",
+      "category": "tech"
+    },
+    {
       "id": "de3307b0-5e16-4a23-a7e4-09042fe67f6c",
       "title": "Samsung Promotes New Feature Ahead Of Galaxy S26 Ultra Launch",
       "summary": "Samsung is igniting intense anticipation for its upcoming Galaxy S26 Ultra, strategically promoting a groundbreaking new feature ahead of its February 2026 Galaxy Unpacked event. At the heart of this pre-launch buzz is an innovative privacy-focused display technology, potentially allowing users to control screen visibility from different angles. This sophisticated solution, designed to offer an unprecedented level of discretion in public spaces, is so compelling it’s even rumored that future Apple MacBooks might adopt similar tech to address their own privacy challenges – highlighting Samsung’s significant leap in mobile security and user control.\n\nThe Korean giant isn't stopping there, controversially rebranding the S26 Ultra not merely as a smartphone, but boldly as \"The Next AI Phone,\" even suggesting it transcends current mobile device definitions. This aggressive assertion underscores Samsung's deep commitment to integrated AI, promising a device that fundamentally enhances daily life through advanced intelligent features. While a substantial and potentially \"dangerous gamble\" that could redefine the mobile landscape, it also poses questions about market reception and consumer expectations for a device claiming such a paradigm shift. With Unpacked set to unveil enticing new pricing structures and deals alongside this AI-powered privacy marvel, Samsung is clearly aiming to make a seismic impact, challenging industry norms and setting a formidable new benchmark for device intelligence and user protection.",
@@ -258,6 +338,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRDgwYjBIQ21UYnMtX0I4WnlZc0J1SGFjODgwQk5jV2Rhd20tdk02SEFpOEVLQzRpUXBLTllRdHROdEJFbHUwcWNUX3FjLVZxQlR3VE51UVdxc244QVAzRGtlcHctRTFWU0Y3T2I0SUpoQ2UzQU5YV2hMY0FidnhMUXR5YURKbE05b0htMjE4b0xxdnUwUWtPc2ZrWC1xd0hPdThxcXJXVThlLUtjVUNiQWx1WQ?oc=5",
       "source_name": "Forbes",
       "date": "2026-02-16T23:55:19Z",
+      "category": "tech"
+    },
+    {
+      "id": "809631c3-eb95-42d6-838b-cab3d8617d02",
+      "title": "Android getting new ‘local file backup’ feature via Google Drive",
+      "summary": "Google is finally plugging a long-standing, critical gap in Android’s data protection strategy, rolling out an eagerly awaited feature: automatic local file backup directly to Google Drive. For years, Android’s robust backup system capably secured app data, system settings, and media via Google Photos, but critically overlooked generic files residing in local storage folders like \"Downloads.\" This meant crucial documents, PDFs, work files, or downloaded media often remained unsaved, leaving them vulnerable to loss if a device was misplaced, damaged, or upgraded, often requiring tedious manual transfers or complex third-party apps.\n\nThis significant update now extends Google Drive’s extensive reach to encompass these vital local files, providing Android users with a seamless, \"set-it-and-forget-it\" solution. The move offers immense peace of mind, ensuring that important downloaded content is automatically secured in the cloud, protected against unforeseen device issues. It’s a profound quality-of-life improvement, transforming Android into an even more reliable and user-friendly ecosystem. For tech enthusiasts, this overdue enhancement solidifies Android’s position as a truly comprehensive platform, finally eliminating a persistent blind spot and making data management effortlessly secure across the board, proving that even the most fundamental improvements can have the biggest impact.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BbVpaTTRyTERSZmNkbmpHTWx1dmQtT1hOY0FIVWktZFlrV3NSZ1piVHAwcDd1NHZPYVF3a2QwU3lLWXlJSTUwRnJWLXZ2aXlIY0tkZy1TLXFTck1rTTc2Q09WRkxrZi1pTHEyNw?oc=5",
+      "source_name": "9to5Google",
+      "date": "2026-02-16T22:12:00Z",
       "category": "tech"
     },
     {
@@ -288,6 +378,16 @@
       "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOElBSUlKSEVZaU8zZmU0U19saUpTXzhudDYyUFItYnJkX09COGc3Ym85RHFnSWVIMEVqWTBOXzZvZGhQd0VmUHA1eTd1NHc5OEJKT0QyNmRKcFFSNkhTMnh1N2RrSTV5ak43aDk1R3lrRE1yTDVtdTNlZkNCY1JKQjRkNm1WcElNN2U1WXJXcVlXdUZOOVl2dmxkN2lfeXY1YWx4UEdsclF5QmhSeWxQSndaMA?oc=5",
       "source_name": "Bloomberg.com",
       "date": "2026-02-16T15:05:26Z",
+      "category": "tech"
+    },
+    {
+      "id": "9e61e1d4-b36b-43cf-8073-85bb5a19aef4",
+      "title": "Apple's next event is set for March 4",
+      "summary": "Gear up, Apple enthusiasts! The Cupertino giant has officially set March 4th for its highly anticipated \"Special Experience\" events, with simultaneous gatherings planned across New York, London, and Shanghai. This global rollout strongly signals a major product unveiling, and the tech world is buzzing with excitement over what's coming next.\n\nWhispers from reliable sources point towards a significant refresh of Apple's Mac lineup. Top of the rumor mill is a brand-new, low-cost MacBook, potentially arriving in a vibrant array of \"fun colors\" – a move that could shake up the entry-level laptop market and bring Mac ownership to a broader audience. Beyond laptops, eager fans are also expecting updates to the iPad family, promising enhanced performance and possibly new features that push the boundaries of portable computing.\n\nThis event isn't just about new gadgets; it's about Apple's strategic direction. A more accessible MacBook could drastically expand their market share, while iPad advancements reinforce their tablet dominance. For tech aficionados, it’s a crucial date to witness the evolution of Apple's ecosystem, from potential M-series chip upgrades to fresh design philosophies. Mark your calendars – March 4th promises to be a pivotal moment, shaping the landscape of personal computing for the year ahead.",
+      "image_url": null,
+      "source_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV1hWNHpIZHlqemo4SUthQWt3Z3VhN2ZBWVptVmZiUEx3RlQwZWcycWcybEgyMzJ0OEpMYi1WXzZJU1hRYWVKSjZDZ20zbzd5ZWtHYVNjVXV3Szc5OVBZMTl2R0dUU2FKUHMteG1JRmZJR3JWQkVSMG5zQ1VpT21DUFV1ZzMtOHk3VTBqY0w4MWctYmdHWGl4LWFR?oc=5",
+      "source_name": "Engadget",
+      "date": "2026-02-16T14:59:31Z",
       "category": "tech"
     },
     {
@@ -398,106 +498,6 @@
       "source_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BekF6Y29CeUE0N2gteWV0eHJtbVdCbFVsa0xXWHNyTlFvZEQtNlpEWWVkdUpkUExMSW9Hd21GOVI1b1pmNzlOVF9kR05yTG00MmdKekxSODRzR181c2ZvTThyNW8?oc=5",
       "source_name": "9to5Google",
       "date": "2026-02-14T15:30:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "24a333fd-bd41-47cb-bf71-2c424400599f",
-      "title": "Apple Presidents' Day sales: Get the Apple Watch Series 11 for $299, plus more deals to shop this weekend",
-      "summary": "Gear up, Apple fanatics! Presidents' Day sales have officially landed, bringing insane deals on your favorite tech. You can snag the mighty Apple Watch Series 11 for an unbelievable $299 – a massive $100 off its usual price! But that's not all. Major retailers are slashing prices across the entire Apple ecosystem, with over two dozen deals offering savings up to $400 on iPhones, MacBooks, AirPods, and much more. Whether you're upgrading your daily driver or diving into the Apple world for the first time, now's your chance. These limited-time offers are simply too good to miss. Don't wait – your dream Apple setup awaits!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcDBVS0xFNDd1VnpIOUxrRmxKN0FJdmdINTRiZGJTbVhoaHBXR1prZDhCbnItQ09JY2pYZmpFRUhmYzhjUk1rbWtUdm0zOEZWUzBHV185R1FGenBSSDFhaEJKdWc4cXAwNU02NXhkbjFFU19ieHoxMzk3RGpxbF9Ja0RnYldsZXg3SWtEdm9DOENKcVZTdmdSa2RfSFpxQmxOdlVpN2hRNFJpQnhiSkhYZ05vLWJFaGUxR3Z2VnZXU2xrWEhlZWdQanpBOTFER0RHckFqRmozc3pwQV9YRjQzVA?oc=5",
-      "source_name": "Engadget",
-      "date": "2026-02-14T14:38:52Z",
-      "category": "tech"
-    },
-    {
-      "id": "db6222a0-ff51-474d-8c91-59dd25558062",
-      "title": "'One of the Worst Decisions Ever Made': God of War Creator Tears 'Total Crap' 2D Title Apart",
-      "summary": "Hold onto your Leviathan Axes, God of War fans, because the gaming world just witnessed a Kratos-level outburst from none other than series creator David Jaffe. In a moment that has sent shockwaves through the community, Jaffe didn't pull any punches, brutally lambasting a newly unveiled 2D spin-off title, reportedly *God of War: Sons of Sparta*. He didn't just criticize it; he tore it apart, labeling it \"total crap\" and \"one of the worst decisions ever made.\" This scathing indictment comes directly from the visionary who first brought Kratos's epic, visceral 3D adventures to life, making his dismissal of a side-scrolling iteration particularly impactful.\n\nThe drama unfolds amidst a much-celebrated announcement: the original *God of War* trilogy is receiving a full, glorious remake. This juxtaposition is striking. On one hand, we have a clear reverence for the series' foundational, sprawling 3D hack-and-slash design, promising a nostalgic return to form with modern polish. On the other, a foundational creator publicly disavows a new, experimental entry that deviates significantly from that established formula. Jaffe's blunt assessment raises critical questions about creative control, the direction of beloved IPs, and whether every expansion of a franchise truly honors its legacy. For enthusiasts, this isn't just news; it's a profound debate about what *God of War* truly represents and where its soul resides, highlighting the tension between innovation and preserving iconic identity.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM04wSktFbDhCaTdTYzA4dWFzV0xDbHRyV1RmcXlncXVRTjc0OHYwTk9MRVUzSUk0cGVEdHhaN2Q4ZkhjMkFfbnBCMWg4X0d4bFhJYTRyVWZYQmRZTFFFWG12Z2JJR00tc082YUQ4bzJvN2xJc21oR0RTRm9CcXJxT0tDc3pqSnE2aGpRUDhCQ2lfdTBqV2tVdEk2SWNaS2RZZG1WVG5LV3BsWW9wNlVGWnhOZGNqdTYyOHlhdmtJZDRmSmhHeVE?oc=5",
-      "source_name": "Push Square",
-      "date": "2026-02-14T13:00:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "d5cf21c9-8da4-4368-b33d-d3891fe14d31",
-      "title": "I found the best Presidents Day TV deals on the latest from Samsung, Sony and more",
-      "summary": "Calling all tech enthusiasts! Presidents Day sales are exploding with incredible deals on cutting-edge TVs from Samsung, Sony, and LG. Our experts have unearthed mind-blowing discounts, perfect for transforming your home entertainment setup. Picture this: the acclaimed LG C5 OLED, a true fan-favorite, slashed by a massive 48%! Whether you're eyeing brilliant QLEDs, deep-black OLEDs, or huge screens for next-gen gaming, now is your moment to upgrade. These limited-time opportunities mean premium displays are within reach for less. Don't let these stellar savings pass you by. Your ultimate viewing experience starts now!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMURKNGw3Zmo1eGFwZ1lsWkJ0VjlVckZraFB1dUdpNTNjTWs4QzNzNFVQWnNIQ2dhclAtVmxjWVgyYUU0YzNsWm9lVGhoMUxLdmE5SWRtOXZnWnhKTWhadUo5eGlCUUFzSUUtelpVR3BKSHloOUl5OFluTW9PZk00cGNn0gGHAUFVX3lxTE44WlJKa2tZUTc0NXpqajVKbGdVSFlsWTVlRnIzRzZIaFVrVzhGb2E2dE5oM3NKZVZLYlZweXZHMHBuczVOWGJTS0luOUhEWFllSnFYQVVkRVN4TV85Yy1VUzNQTW45OHo4Ui1IZHJ0Y3BRdk9Nc09mTDBSSWtXZU5USUdvcVN0QQ?oc=5",
-      "source_name": "CNN",
-      "date": "2026-02-14T12:48:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "f95306e3-6c43-4c73-afa2-1f26f46fa436",
-      "title": "What it’s like to go on a date with an AI in NYC",
-      "summary": "Forget swiping right! The future of romance just got a major upgrade in NYC, where people are experiencing real-world \"dates\" with AI companions. Imagine a dinner reservation, but your plus-one is a sophisticated bot designed to converse, understand, and even 'flirt' in person. Tech enthusiasts are exploring this fascinating frontier, reporting surprisingly deep, human-like interactions. It's not just virtual; these events are blurring the lines between digital and physical, offering a vivid glimpse into what genuine AI relationships could truly feel like. Are we ready for bots that genuinely get us? This is more than a novelty; it's a bold step into AI's emotional potential, redefining connection in the digital age.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMFBwVnlaV0VBWnhYbElQaXpiNlA4WGp1b1hOWVpDYms2S195YnlERERzUkE0RGFieHpoOTRNbGZxc2lzUmkyMGdkUWVpNXFRenV1dXFLNlh3bXltWkd0TEpfcnpyUERmRzBnNFU2d09PVGthZU5MMUhlUXl1OEhqUThJS0pSa0ZVSnY2MWFHRG00ZW9EVEVCSF9R?oc=5",
-      "source_name": "CNN",
-      "date": "2026-02-14T12:46:39Z",
-      "category": "tech"
-    },
-    {
-      "id": "5dbab604-83ac-44f1-833c-46afb9b0f36d",
-      "title": "It's a dangerous complication of pregnancy — but a new drug holds promise",
-      "summary": "A formidable threat to maternal and fetal health, a dangerous pregnancy complication has historically caused immense suffering and loss. Now, a revolutionary new pharmaceutical offers a beacon of hope, promising to redefine care for one of the most severe challenges in obstetrics. This innovative compound targets the underlying mechanisms of a condition that has long been a leading cause of maternal mortality and severe morbidity, often necessitating premature delivery with lifelong consequences for both mother and child.\n\nCurrent interventions are largely supportive and reactive, providing little in the way of preventative or truly curative measures. However, promising early trial data suggests this new drug can not only effectively mitigate symptoms but also address the root causes, offering a proactive and far less invasive solution. This isn't merely another medication; it represents a significant paradigm shift in reproductive healthcare.\n\nThe implications are profound: a dramatic reduction in maternal deaths and serious health complications, prevention of debilitating long-term health issues for survivors, and significantly improved neonatal outcomes by enabling pregnancies to reach healthier terms. For the tech-minded, this breakthrough underscores the incredible frontier of bio-innovation, where advanced scientific research yields tangible, life-altering solutions. It exemplifies the power of targeted therapeutics in redefining medical possibilities and brings us closer to overcoming some of humanity’s most persistent health challenges, potentially redefining pregnancy care for millions globally.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNjFKcE5aZWU1bkN2M0YwXzVLRTVRa2p2aUhUeThiRHlZUlJjWmduWlRrWks4NFdRaWMzb2tSczYxVlJKS2lCeWhzN0lkd3YyOFQ2dWZpZ0J2LTc3MFJSejl1cFZra3pVU3gyT0xvbjdnZW9kQmNqcmdmQ190c1lyLVVzdjNWbU9uUUVPbGYyYndUR1hm?oc=5",
-      "source_name": "NPR",
-      "date": "2026-02-14T12:46:18Z",
-      "category": "tech"
-    },
-    {
-      "id": "c2eab2bd-533b-4f30-9344-1f4f55dc434a",
-      "title": "Save $100 on Apple Watch Series 11, plus 28 other Apple Presidents Day deals",
-      "summary": "Tech enthusiasts, get ready to snag some coveted Apple gear! Presidents Day sales are officially here, ushering in a flurry of impressive discounts across the Apple ecosystem, spearheaded by an enticing $100 price cut on the Apple Watch Series 11. Now available for just $299 at various retailers, this makes Apple's latest smartwatch, often lauded as the best in its class despite iterative updates, an even more compelling purchase.\n\nBut the deals extend far beyond just wearables. A massive wave of sales encompasses nearly 30 other Apple products, with some discounts soaring up to an incredible $400 off. This makes it an opportune moment for consumers looking to upgrade their iPhones, iPads, MacBooks, or even accessories, without breaking the bank. The widespread availability through major retailers like Amazon, Engadget, and CNN ensures accessibility for all.\n\nThe Series 11, while perhaps not a revolutionary leap, solidifies its position as a top-tier health and fitness companion, making its reduced price a significant value proposition. Furthermore, the holiday sale isn't limited strictly to Apple; competitors like an Oura Ring rival are also seeing their lowest prices ever, creating a vibrant, competitive landscape of tech savings. This Presidents Day offers a golden window for savvy shoppers to dive into or expand their smart tech collections at unprecedented prices, but these limited-time offers demand quick action.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSDBubklmMDVEalRrdEtBb0xHSXRNbjJMNUdfUG04NHI5MmNFQk5yZ3FGWkI3Vk0wV0dONVZKcERvUjdwVTdqTHpKUVdOQjEtdHVnRnNadXlkbkJFQ3BUeXY1VzFsM3BEYWk2Z2NJVzhmWUNGaE4zVEc5R2tpNWJVVHYzYWPSAYoBQVVfeXFMUGhRNWl0emlwSGJ2ZEVUNjNfWWlrZDdPcWV2YW4yWW5YMk02dTBQOVprQnRvUVAzaXlHcTRtZU1wWUVHQlZFSUFudTFpd2k4WjVsczljcUtaLUQ4OXF1UkFZSHhFMnNPUFM5QWpOUF9Gb0hidnhqUUZEWS1UOW5jTGpQNzd2WUw1d2ZB?oc=5",
-      "source_name": "CNN",
-      "date": "2026-02-14T12:42:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "561dcf02-af15-4db4-85d7-66a32f2951cf",
-      "title": "Samsung Confirms Galaxy S26 Ultra Unpacked: How To Claim Your $900 Discount",
-      "summary": "Get ready, tech enthusiasts! Samsung has officially confirmed its highly anticipated Galaxy Unpacked event for February 2026, where the next-gen Galaxy S26 Ultra will be unveiled. Brace yourselves for what promises to be a groundbreaking AI phone designed to revolutionize your daily life with incredible new features. But here’s the kicker: early birds can score a massive deal! Samsung is offering an impressive pre-order discount of up to $900 with eligible trade-ins. This isn't just an upgrade; it's a leap forward. Mark your calendars and prepare for a smartphone experience unlike any other. Don't miss your chance to snag this future-forward device at an unbelievable price!",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV0NuRldaM01zQXBlc0tHdU92NzdieEMzOFl0LWFkaWhodndQVVFrTHF3UnZudDRCMHJyMkwwVzdEc0w5QmNrbHVaVGVnQXdYdWY4WHFrdWE4Y1JramEydzIwRFpXb1Fkc3NQYjhzdl93WlJuZ2dCMDRsQThzMHlVYU81LURFS0pFQW1xdGdaYWFUV1hTYUIxNWRwQWREa1ZCZlNqbnBMbkZ2cUVFYkg5LWpSZmQ5RE1aLUJjRUlzYmFzZ0U?oc=5",
-      "source_name": "Forbes",
-      "date": "2026-02-14T12:11:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "bd05479a-d67f-4960-b5b0-26f024b0ca0c",
-      "title": "Reanimal Review",
-      "summary": "\"Reanimal\" has landed, promising a genre-bending nightmare for horror aficionados! Imagine David Lynch directing an 'Alien' movie where everyday animals become your most terrifying foes. This isn't your typical creature feature; reviews are hailing its \"macabre merit\" and warning you'll never look at a pelican the same. Dive into a surreal, unsettling world where familiar creatures twist into grotesque threats. Gather your squad because robust co-op and crossplay options are essential to survive this bizarre horror experience. Influenced by unsettling cinema and slumber party suspense, \"Reanimal\" delivers a unique blend of psychological dread and visceral animalistic terror. Prepare for an unforgettable, unsettling ride that redefines horror gaming.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0wU0NaWjdzeWptZk5xNmgzZzB3aktSVjNzRTVXVFpfQlBybkhZeFItWGFyUjRFUTNHdFcxWWZyUDlDTnUwbUdra2ZXSUNySWVtWkRROHZ5cw?oc=5",
-      "source_name": "IGN",
-      "date": "2026-02-14T03:06:00Z",
-      "category": "tech"
-    },
-    {
-      "id": "185428e9-8098-42db-a536-43c8ab660bf3",
-      "title": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Bundle Delays in North America",
-      "summary": "Enthusiasts eagerly awaiting the radical mashup of *Magic: The Gathering* and the *Teenage Mutant Ninja Turtles* received a disappointing update: the highly anticipated Secret Lair Bundle is facing delays across North America. This Universes Beyond crossover, bringing iconic characters like Leonardo and Donatello into the Planeswalker multiverse, has generated considerable hype since its announcement, with previews already showcasing the unique artwork and mechanics that fans can expect from this unique collaboration.\n\nThe delay specifically affects the physical bundle, leaving many collectors and players wondering about the new timeline for obtaining these unique cards and accessories. While other elements of the MTG x TMNT release, such as the full set's general launch, appear unaffected, the bundle's hold-up casts a shadow on the immediate availability of this premium product. Adding to the intrigue, reports indicated the bundle was already discounted before this delay announcement, potentially creating further frustration for those who pre-ordered.\n\nSuch production and distribution setbacks, while not uncommon, can significantly impact player satisfaction and the secondary market for a premium Secret Lair drop. Wizards of the Coast will need to provide clear communication regarding revised release dates and any potential compensation or alternatives to mitigate disappointment among the dedicated fanbase. This delay underscores the challenges of managing complex cross-IP releases while keeping the enthusiasm alive for one of the year's most anticipated collaborations.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONDBqQWVnbHZwLUQ5REdQM1JEWW9pRThOemdNc0JqMzlDUHh0MHBneWR3UUkxdTA4Ym5NMFgxMjk5Y2ZST2VSdk5PWXNCalBleW5HWVJRczdmVDdoUG9BUThKc1gtQ0RLb1ItWmNBS09oOU9uOXdlVnRFQ2RiU3VXMHBaaTNMTWtnUWZGWm9od3pkTkFIanEzYXI3WU1NSlZEd0RlV1psWUs5UQ?oc=5",
-      "source_name": "Magic: The Gathering",
-      "date": "2026-02-13T21:26:12Z",
-      "category": "tech"
-    },
-    {
-      "id": "96467357-2e5d-4fc3-a774-1945a7ad1342",
-      "title": "Microsoft released KB5077180, KB5077374, KB5076124 Windows 11 setup & recovery updates",
-      "summary": "Microsoft has rolled out a trio of critical Windows 11 setup and recovery updates – KB5077180, KB5077374, and KB5076124 – designed to fortify the operating system’s foundational stability. These aren’t your typical monthly security patches; instead, they focus on enhancing the core processes of installing, reinstalling, and recovering Windows 11 from critical failures. For enthusiasts, robust setup and recovery tools are paramount, offering a crucial lifeline when issues arise and promising a smoother, more reliable OS experience from the ground up.\n\nHowever, this push for stability arrives amidst a backdrop of significant user frustration. Reports are flooding in about severe issues stemming from other recent Windows 11 updates, particularly KB5077181, which has led to widespread critical boot loops and startup problems for many users. This creates a compelling paradox: Microsoft is strengthening recovery mechanisms while simultaneously, some of its cumulative updates are introducing scenarios where those very recovery tools might become desperately needed.\n\nThis dichotomy highlights the delicate balance in modern OS development. While Microsoft continues to innovate, testing new features slated for 2026, the immediate user experience remains a mixed bag. Enthusiasts should proceed with caution, understanding that while these new setup and recovery updates aim for a more resilient system, current cumulative patches may still present considerable hurdles. It underscores the complex, ever-evolving nature of Windows 11 and the ongoing need for vigilance.",
-      "image_url": null,
-      "source_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMGE4TTNrS3c0enY4eFE4YmUycktzSDgtcnRlTm1KNURfSWtfbjh0UmlOWDBOb1VZaVdoNVN0Z1o1NzB1c3ExVmpXZWYtV1Brd0VPcW9IVFRRLS1TNU8zcEVaWlRaN0wzeFM1UlkwTE5zRlMzejhDZkRTeTl0eXlUajJ6bFZBcGc5LWxrdEtvcHVwaGlQMGQwc19vS1NFamhWNWx5OWxoZ3hhM3JVTWc4Mkln0gGwAUFVX3lxTE9kTTBXX1I2Zk1GeXQ2RG5fN3Rqb2FhODV2MEwwNW15aXVPRzIyR2dfcHUxcUFBMXl1a3JYa0JZY012OG1fMVdDeEdUVk13UEFCT3g2d1I0eWZYR3l3ejV6cElkOFY3OHFwUVZUY0tURVhoX3pyV2VrR3RYNXNJekhVNTNsbTdKWEZna3JHZDA5OG95bW1OTGNyd1NkbG5iZTBDdy1pUXoxYUp5RlRUV3BV?oc=5",
-      "source_name": "Neowin",
-      "date": "2026-02-13T20:30:00Z",
       "category": "tech"
     }
   ]
