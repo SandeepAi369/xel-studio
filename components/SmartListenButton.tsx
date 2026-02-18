@@ -24,10 +24,10 @@ interface SmartListenButtonProps {
 
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
-const FIRST_CHUNK = 6;   // Fewer words → faster first response
+const FIRST_CHUNK = 10;
 const REST_CHUNK = 50;
 const MAX_LEN = 5000;
-const PREFETCH_AHEAD = 4; // Prefetch more ahead since first chunk is smaller
+const PREFETCH_AHEAD = 4;
 
 function splitIntoChunks(text: string): string[] {
     const clean = text

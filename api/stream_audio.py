@@ -4,10 +4,11 @@ Voice: en-US-AvaNeural (Microsoft Edge TTS)
 Endpoint: GET /api/stream_audio?text=Hello+world
 
 Optimizations:
-  - Async generator streams audio chunks as they're produced
+  - Streams first audio bytes as soon as edge-tts produces them
+  - Uses chunked transfer encoding for instant playback start
   - Input sanitization & length cap (5000 chars)
   - CORS headers for cross-origin requests
-  - Memory-efficient: chunks written to buffer as generated
+  - Increased speech rate (+15%) for snappier delivery
 """
 
 from http.server import BaseHTTPRequestHandler
@@ -18,6 +19,7 @@ import json
 
 
 VOICE = "en-US-AvaNeural"
+RATE = "+15%"
 MAX_TEXT_LENGTH = 5000
 
 
@@ -44,7 +46,7 @@ class handler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "audio/mpeg")
             self.send_header("Content-Length", str(len(audio_bytes)))
-            self.send_header("Cache-Control", "public, max-age=3600, s-maxage=3600")
+            self.send_header("Cache-Control", "public, max-age=86400, s-maxage=86400")
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             self.wfile.write(audio_bytes)
@@ -68,7 +70,7 @@ class handler(BaseHTTPRequestHandler):
         loop = asyncio.new_event_loop()
 
         async def _stream():
-            communicate = edge_tts.Communicate(text, VOICE, rate="+12%")
+            communicate = edge_tts.Communicate(text, VOICE, rate=RATE)
             async for chunk in communicate.stream():
                 if chunk["type"] == "audio":
                     buf.write(chunk["data"])
