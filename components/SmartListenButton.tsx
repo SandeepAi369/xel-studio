@@ -24,10 +24,10 @@ interface SmartListenButtonProps {
 
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
-const FIRST_CHUNK = 10;
+const FIRST_CHUNK = 6;   // Fewer words → faster first response
 const REST_CHUNK = 50;
 const MAX_LEN = 5000;
-const PREFETCH_AHEAD = 3;
+const PREFETCH_AHEAD = 4; // Prefetch more ahead since first chunk is smaller
 
 function splitIntoChunks(text: string): string[] {
     const clean = text
@@ -136,7 +136,7 @@ export default function SmartListenButton({
                     promises.push(
                         fetchChunk(chunks[i], signal)
                             .then((url) => { urlsRef.current[i] = url; })
-                            .catch(() => {})
+                            .catch(() => { })
                     );
                 }
             }
@@ -205,17 +205,19 @@ export default function SmartListenButton({
             chunksRef.current = chunks;
             urlsRef.current = new Array(chunks.length).fill(null);
 
-            // Parallel fetch first 3 chunks
-            const batch = chunks.slice(0, 3);
-            const results = await Promise.all(
-                batch.map((c) => fetchChunk(c, signal))
-            );
-            results.forEach((url, i) => { urlsRef.current[i] = url; });
+            // Fetch ONLY chunk 0 — play immediately once ready
+            urlsRef.current[0] = await fetchChunk(chunks[0], signal);
 
             if (signal.aborted) return;
 
             setState('playing');
+            onPlay?.();
+
+            // Start playing chunk 0 immediately
             await playChunk(0);
+
+            // Prefetch remaining chunks in background (non-blocking)
+            prefetch(1, signal);
         } catch (err: any) {
             if (err.name !== 'AbortError') {
                 console.error('TTS error:', err);
@@ -223,7 +225,7 @@ export default function SmartListenButton({
                 setTimeout(() => setState('idle'), 3000);
             }
         }
-    }, [text, instanceId, hardStop, fetchChunk, playChunk]);
+    }, [text, instanceId, hardStop, fetchChunk, playChunk, prefetch, onPlay]);
 
     // ── Resume from pause ────────────────────────────────────────────
     const resume = useCallback(async () => {
@@ -274,10 +276,10 @@ export default function SmartListenButton({
                     ${isPlaying
                         ? 'bg-blue-600/25 border border-blue-500/40 text-blue-400 shadow-[0_0_12px_rgba(59,130,246,0.25)]'
                         : isLoading
-                        ? 'bg-amber-500/20 border border-amber-500/30 text-amber-400 animate-pulse'
-                        : isPaused
-                        ? 'bg-amber-500/15 border-2 border-amber-500/40 text-amber-400'
-                        : 'bg-white/15 border-2 border-white/50 text-white hover:text-white hover:border-white/70 hover:bg-white/25 shadow-[0_0_8px_rgba(255,255,255,0.1)]'
+                            ? 'bg-amber-500/20 border border-amber-500/30 text-amber-400 animate-pulse'
+                            : isPaused
+                                ? 'bg-amber-500/15 border-2 border-amber-500/40 text-amber-400'
+                                : 'bg-white/15 border-2 border-white/50 text-white hover:text-white hover:border-white/70 hover:bg-white/25 shadow-[0_0_8px_rgba(255,255,255,0.1)]'
                     }
                     hover:scale-110 active:scale-95
                     ${className}
@@ -312,10 +314,10 @@ export default function SmartListenButton({
                 ${isPlaying
                     ? 'bg-blue-600/20 border border-blue-500/30 text-blue-400 shadow-[0_0_14px_rgba(59,130,246,0.2)]'
                     : isLoading
-                    ? 'bg-amber-500/15 border border-amber-500/25 text-amber-400 animate-pulse'
-                    : isPaused
-                    ? 'bg-amber-500/15 border-2 border-amber-500/40 text-amber-400'
-                    : 'bg-white/15 border-2 border-white/50 text-white hover:text-white hover:border-white/70 hover:bg-white/25 shadow-[0_0_8px_rgba(255,255,255,0.1)]'
+                        ? 'bg-amber-500/15 border border-amber-500/25 text-amber-400 animate-pulse'
+                        : isPaused
+                            ? 'bg-amber-500/15 border-2 border-amber-500/40 text-amber-400'
+                            : 'bg-white/15 border-2 border-white/50 text-white hover:text-white hover:border-white/70 hover:bg-white/25 shadow-[0_0_8px_rgba(255,255,255,0.1)]'
                 }
                 hover:scale-105 active:scale-95
                 ${className}
