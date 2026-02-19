@@ -81,9 +81,14 @@ export function validateAccessToken(token: string | null): boolean {
     return token === ADMIN_TOKEN;
 }
 
-// Validate password - SIMPLE AND RELIABLE
+// Validate password - bcrypt when hashed, plaintext fallback
 export async function validatePassword(password: string): Promise<boolean> {
-    // Direct comparison for guaranteed reliability
+    if (!ADMIN_PASSWORD) return false;
+    // If stored password is a bcrypt hash, compare securely
+    if (ADMIN_PASSWORD.startsWith('$2')) {
+        return bcrypt.compare(password, ADMIN_PASSWORD);
+    }
+    // Fallback: plaintext comparison (for backward compatibility)
     return password === ADMIN_PASSWORD;
 }
 
