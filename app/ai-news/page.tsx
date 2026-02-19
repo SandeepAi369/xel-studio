@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
+import { db } from "@/lib/firebase";
+import { collection, query, orderBy, getDocs } from "firebase/firestore";
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface NewsItem {
@@ -85,8 +87,8 @@ function NewsCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, delay: index * 0.03 }}
       className={`rounded-xl border transition-all duration-200 p-5 group ${isAI
-          ? "bg-purple-950/20 border-purple-800/30 hover:border-purple-600/50 hover:bg-purple-950/30"
-          : "bg-zinc-900/40 border-zinc-800/50 hover:border-zinc-600/50 hover:bg-zinc-900/60"
+        ? "bg-purple-950/20 border-purple-800/30 hover:border-purple-600/50 hover:bg-purple-950/30"
+        : "bg-zinc-900/40 border-zinc-800/50 hover:border-zinc-600/50 hover:bg-zinc-900/60"
         }`}
     >
       <div className="flex gap-4">
@@ -111,8 +113,8 @@ function NewsCard({
               {/* Category Badge */}
               <span
                 className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded mb-1.5 ${isAI
-                    ? "bg-purple-500/20 text-purple-300"
-                    : "bg-cyan-500/15 text-cyan-400/70"
+                  ? "bg-purple-500/20 text-purple-300"
+                  : "bg-cyan-500/15 text-cyan-400/70"
                   }`}
               >
                 {isAI ? (
@@ -127,8 +129,8 @@ function NewsCard({
               </span>
               <h3
                 className={`text-base font-semibold transition-colors line-clamp-2 ${isAI
-                    ? "text-zinc-100 group-hover:text-purple-200"
-                    : "text-zinc-200 group-hover:text-white"
+                  ? "text-zinc-100 group-hover:text-purple-200"
+                  : "text-zinc-200 group-hover:text-white"
                   }`}
               >
                 {item.title}
@@ -214,10 +216,16 @@ export default function AINewsPage() {
   useEffect(() => {
     async function fetchNews() {
       try {
-        const res = await fetch("/data/tech_news.json");
-        if (!res.ok) throw new Error("Failed to load news");
-        const data = await res.json();
-        setNews(data.news || []);
+        const q = query(
+          collection(db, "news"),
+          orderBy("date", "desc")
+        );
+        const snapshot = await getDocs(q);
+        const items: NewsItem[] = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        })) as NewsItem[];
+        setNews(items);
       } catch (err) {
         setError("Could not load AI news. Please try again later.");
         console.error("News fetch error:", err);
@@ -285,8 +293,8 @@ export default function AINewsPage() {
               <button
                 onClick={() => setFilter("all")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
-                    ? "bg-zinc-700 text-white"
-                    : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
+                  ? "bg-zinc-700 text-white"
+                  : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
                   }`}
               >
                 All ({news.length})
@@ -294,8 +302,8 @@ export default function AINewsPage() {
               <button
                 onClick={() => setFilter("ai")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === "ai"
-                    ? "bg-purple-500/20 text-purple-300 border border-purple-500/30"
-                    : "bg-zinc-900/60 text-zinc-400 hover:text-purple-300 hover:bg-purple-500/10"
+                  ? "bg-purple-500/20 text-purple-300 border border-purple-500/30"
+                  : "bg-zinc-900/60 text-zinc-400 hover:text-purple-300 hover:bg-purple-500/10"
                   }`}
               >
                 <Sparkles className="w-3 h-3" /> AI ({aiCount})
@@ -303,8 +311,8 @@ export default function AINewsPage() {
               <button
                 onClick={() => setFilter("tech")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === "tech"
-                    ? "bg-cyan-500/20 text-cyan-300 border border-cyan-500/30"
-                    : "bg-zinc-900/60 text-zinc-400 hover:text-cyan-300 hover:bg-cyan-500/10"
+                  ? "bg-cyan-500/20 text-cyan-300 border border-cyan-500/30"
+                  : "bg-zinc-900/60 text-zinc-400 hover:text-cyan-300 hover:bg-cyan-500/10"
                   }`}
               >
                 <Cpu className="w-3 h-3" /> Tech ({techCount})
@@ -361,7 +369,7 @@ export default function AINewsPage() {
         {!loading && news.length > 0 && (
           <p className="text-center text-xs text-zinc-600 mt-8">
             Showing {sortedNews.length} of {news.length} articles · AI-first ·
-            Updated via GitHub Actions
+            Live from Firebase
           </p>
         )}
       </main>

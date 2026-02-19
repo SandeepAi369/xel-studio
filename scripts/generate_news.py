@@ -1,34 +1,31 @@
 #!/usr/bin/env python3
 """
-Hourly AI & Tech News Generator v3.0
-====================================
-AI-FIRST news pipeline: Prioritizes Artificial Intelligence, LLMs, and ML news.
-Falls back to general tech news when AI headlines are scarce.
+Hourly AI & Tech News Generator v4.0 — Firebase Firestore Edition
+=================================================================
+AI-FIRST news pipeline with Firebase Firestore storage.
+24-hour auto-cleanup keeps the database lean.
 
 Features:
 - Runs every hour via GitHub Actions, adds 1 article per run
+- Stores news directly in Firebase Firestore (no JSON files)
+- 24-hour TTL: old articles auto-deleted each run
 - AI-priority: prefers AI news, falls back to tech
-- Category tagging: Each article tagged as "ai" or "tech"  
-- AI news always sorted first in output
-- Title-based fuzzy dedup (prevents same story from different sources)
+- Category tagging: "ai" or "tech"
+- Title-based fuzzy dedup
 - 200-250 word Gemini AI summaries
-- FIFO rotation (50 most recent articles)
-
-Usage:
-    cd /home/sandeep/signature-prime
-    source venv/bin/activate
-    python scripts/generate_news.py
 
 Environment:
     GEMINI_API_KEY: Your Google Gemini API key
+    FIREBASE_SERVICE_ACCOUNT_KEY: Base64-encoded Firebase service account JSON
 """
 
+import base64
 import json
 import os
 import re
 import time
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 from typing import Optional
@@ -48,6 +45,15 @@ try:
 except ImportError:
     GENAI_AVAILABLE = False
     print("Warning: google-generativeai not installed. Run: pip install google-generativeai")
+
+# Firebase Admin SDK
+try:
+    import firebase_admin
+    from firebase_admin import credentials, firestore
+    FIREBASE_AVAILABLE = True
+except ImportError:
+    FIREBASE_AVAILABLE = False
+    print("Warning: firebase-admin not installed. Run: pip install firebase-admin")
 
 # =============================================================================
 # CONFIGURATION
@@ -83,18 +89,12 @@ AI_KEYWORDS = [
     'ai-powered', 'ai-driven', 'ai-generated', 'ai-based',
 ]
 
-# File paths
-DATA_DIR = Path(__file__).parent.parent / "data"
-PUBLIC_DATA_DIR = Path(__file__).parent.parent / "public" / "data"
-NEWS_FILE = DATA_DIR / "tech_news.json"
-
 # HARD LIMITS
 MAX_PROCESS_LIMIT = 1   # 1 article per hourly run
-MAX_STORAGE_LIMIT = 50
+NEWS_TTL_HOURS = 24     # Auto-delete news older than 24 hours
 
-# AI vs Tech ratio
-AI_TARGET_RATIO = 0.70
-MIN_AI_ARTICLES = 5
+# Firestore collection name
+FIRESTORE_COLLECTION = 'news'
 
 # Gemini models
 GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
@@ -320,50 +320,99 @@ Write ONLY the 200-250 word summary:"""
 
 
 # =============================================================================
-# JSON FILE OPERATIONS
+# FIREBASE FIRESTORE OPERATIONS
 # =============================================================================
 
-def load_existing_news():
-    """Load existing news from JSON file."""
-    if not NEWS_FILE.exists():
+def init_firebase():
+    """Initialize Firebase Admin SDK using service account key."""
+    if not FIREBASE_AVAILABLE:
+        print("ERROR: firebase-admin not installed")
+        return None
+
+    # Check if already initialized
+    try:
+        app = firebase_admin.get_app()
+        return firestore.client(app)
+    except ValueError:
+        pass
+
+    # Try base64-encoded key from env (for GitHub Actions)
+    key_b64 = os.environ.get('FIREBASE_SERVICE_ACCOUNT_KEY')
+    if key_b64:
+        try:
+            key_json = base64.b64decode(key_b64).decode('utf-8')
+            key_dict = json.loads(key_json)
+            cred = credentials.Certificate(key_dict)
+            app = firebase_admin.initialize_app(cred)
+            print("Firebase initialized from FIREBASE_SERVICE_ACCOUNT_KEY (base64)")
+            return firestore.client(app)
+        except Exception as e:
+            print(f"Error parsing FIREBASE_SERVICE_ACCOUNT_KEY: {e}")
+
+    # Try file path
+    key_file = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+    if key_file and os.path.exists(key_file):
+        cred = credentials.Certificate(key_file)
+        app = firebase_admin.initialize_app(cred)
+        print(f"Firebase initialized from file: {key_file}")
+        return firestore.client(app)
+
+    print("ERROR: No Firebase credentials found. Set FIREBASE_SERVICE_ACCOUNT_KEY or GOOGLE_APPLICATION_CREDENTIALS")
+    return None
+
+
+def load_existing_news(db_client):
+    """Load existing news from Firestore."""
+    if not db_client:
         return []
     try:
-        with open(NEWS_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get('news', [])
+        docs = db_client.collection(FIRESTORE_COLLECTION).order_by(
+            'date', direction=firestore.Query.DESCENDING
+        ).stream()
+        items = []
+        for doc in docs:
+            item = doc.to_dict()
+            item['id'] = doc.id
+            items.append(item)
+        return items
     except Exception as e:
-        print(f"Error loading existing news: {e}")
+        print(f"Error loading news from Firestore: {e}")
         return []
 
 
-def save_news(news_items):
-    """Save news items to JSON with FIFO rotation and AI-first sorting."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # Sort: AI first, then tech; within each by date descending
-    ai_items = [item for item in news_items if item.get('category') == 'ai']
-    tech_items = [item for item in news_items if item.get('category') != 'ai']
-    ai_items.sort(key=lambda x: x.get('date', ''), reverse=True)
-    tech_items.sort(key=lambda x: x.get('date', ''), reverse=True)
-    sorted_items = ai_items + tech_items
-    
-    if len(sorted_items) > MAX_STORAGE_LIMIT:
-        print(f"FIFO Rotation: {len(sorted_items)} -> {MAX_STORAGE_LIMIT}")
-        sorted_items = sorted_items[:MAX_STORAGE_LIMIT]
-    
-    data = {"news": sorted_items}
-    with open(NEWS_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    
-    ai_count = len([i for i in sorted_items if i.get('category') == 'ai'])
-    tech_count = len(sorted_items) - ai_count
-    print(f"Saved {len(sorted_items)} items ({ai_count} AI + {tech_count} Tech)")
+def save_news_item(db_client, item):
+    """Save a single news item to Firestore."""
+    if not db_client:
+        return False
+    try:
+        doc_ref = db_client.collection(FIRESTORE_COLLECTION).document(item['id'])
+        doc_ref.set(item)
+        print(f"  + Saved to Firestore: {item['title'][:60]}")
+        return True
+    except Exception as e:
+        print(f"  x Firestore save error: {e}")
+        return False
 
-    PUBLIC_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    public_file = PUBLIC_DATA_DIR / "tech_news.json"
-    import shutil
-    shutil.copy2(NEWS_FILE, public_file)
-    print(f"Synced to {public_file}")
+
+def cleanup_old_news(db_client):
+    """Delete news articles older than 24 hours from Firestore."""
+    if not db_client:
+        return 0
+    try:
+        cutoff = (datetime.now(timezone.utc) - timedelta(hours=NEWS_TTL_HOURS)).isoformat()
+        old_docs = db_client.collection(FIRESTORE_COLLECTION).where(
+            'date', '<', cutoff
+        ).stream()
+        deleted = 0
+        for doc in old_docs:
+            doc.reference.delete()
+            deleted += 1
+        if deleted > 0:
+            print(f"Cleaned up {deleted} articles older than {NEWS_TTL_HOURS}h")
+        return deleted
+    except Exception as e:
+        print(f"Cleanup error: {e}")
+        return 0
 
 
 # =============================================================================
@@ -388,10 +437,10 @@ def is_duplicate_title(title: str, existing_titles: list, threshold: float = 0.7
     return False
 
 
-def process_news_entries(ai_entries, tech_entries, model):
+def process_news_entries(ai_entries, tech_entries, model, db_client):
     """Process RSS entries with AI-PRIORITY ordering. Adds 1 article per run."""
     news_items = []
-    existing_news = load_existing_news()
+    existing_news = load_existing_news(db_client)
     existing_links = {item.get('source_link') for item in existing_news}
     existing_titles = [item.get('title', '') for item in existing_news]
     
@@ -420,7 +469,7 @@ def process_news_entries(ai_entries, tech_entries, model):
         summary, was_successful = generate_ai_summary(model, title, original_summary, "ai")
         print(f"   {'Summary OK' if was_successful else 'Fallback summary'}")
         published = getattr(entry, 'published_parsed', None)
-        date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.utcnow().isoformat() + 'Z'
+        date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.now(timezone.utc).isoformat()
         news_items.append({
             "id": str(uuid.uuid4()), "title": title, "summary": summary,
             "image_url": image_url, "source_link": link, "source_name": source_name,
@@ -449,7 +498,7 @@ def process_news_entries(ai_entries, tech_entries, model):
             summary, was_successful = generate_ai_summary(model, title, original_summary, category)
             print(f"   {'Summary OK' if was_successful else 'Fallback summary'}")
             published = getattr(entry, 'published_parsed', None)
-            date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.utcnow().isoformat() + 'Z'
+            date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.now(timezone.utc).isoformat()
             news_items.append({
                 "id": str(uuid.uuid4()), "title": title, "summary": summary,
                 "image_url": image_url, "source_link": link, "source_name": source_name,
@@ -465,8 +514,17 @@ def process_news_entries(ai_entries, tech_entries, model):
 def main():
     """Main function."""
     print("\n" + "=" * 60)
-    print("AI & TECH NEWS GENERATOR v3.0 - HOURLY MODE (1 article/run)")
+    print("AI & TECH NEWS GENERATOR v4.0 - FIREBASE FIRESTORE")
     print("=" * 60)
+    
+    # Initialize Firebase
+    db_client = init_firebase()
+    if not db_client:
+        print("FATAL: Cannot connect to Firebase. Exiting.")
+        return
+    
+    # Cleanup old articles (>24h)
+    cleanup_old_news(db_client)
     
     model = get_gemini_model()
     ai_entries, tech_entries = fetch_all_news()
@@ -474,29 +532,25 @@ def main():
         print("No entries to process.")
         return
     
-    existing_news = load_existing_news()
-    print(f"Existing articles: {len(existing_news)}")
+    existing_news = load_existing_news(db_client)
+    print(f"Existing articles in Firestore: {len(existing_news)}")
     
-    # Backfill category for old articles
-    for item in existing_news:
-        if 'category' not in item:
-            item['category'] = categorize_article(item.get('title', ''), item.get('summary', ''), 'tech')
-    
-    new_items = process_news_entries(ai_entries, tech_entries, model)
+    new_items = process_news_entries(ai_entries, tech_entries, model, db_client)
     
     if not new_items:
-        print("No new items.")
-        if existing_news:
-            save_news(existing_news)
+        print("No new items to add.")
         return
     
-    combined = new_items + existing_news
-    save_news(combined)
+    # Save each new item to Firestore
+    saved = 0
+    for item in new_items:
+        if save_news_item(db_client, item):
+            saved += 1
     
     ai_new = len([i for i in new_items if i.get('category') == 'ai'])
     tech_new = len(new_items) - ai_new
-    print(f"\nDONE: {ai_new} AI + {tech_new} Tech = {len(new_items)} new articles")
-    print(f"Total stored: {min(len(combined), MAX_STORAGE_LIMIT)}")
+    print(f"\nDONE: {ai_new} AI + {tech_new} Tech = {saved} saved to Firestore")
+    print(f"Total in Firestore: {len(existing_news) + saved}")
 
 
 if __name__ == "__main__":

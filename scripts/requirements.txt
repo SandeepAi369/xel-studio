@@ -16,3 +16,6 @@ requests>=2.31.0
 
 # Environment Variables
 python-dotenv>=1.0.0
+
+# Firebase Admin SDK (Firestore)
+firebase-admin>=6.0.0

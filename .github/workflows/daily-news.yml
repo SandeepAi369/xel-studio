@@ -8,10 +8,6 @@ on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
-# Permissions needed to push updated news data
-permissions:
-  contents: write
-
 jobs:
   generate-news:
     runs-on: ubuntu-latest
@@ -20,8 +16,6 @@ jobs:
       # 1. Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       # 2. Setup Python environment
       - name: Setup Python
@@ -37,63 +31,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
       
-      # 4. Run the news generator script
-      - name: Generate Daily News
+      # 4. Run the news generator script (writes directly to Firestore)
+      - name: Generate & Store News in Firestore
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
         run: |
-          echo "🚀 Starting Hourly News Generator..."
+          echo "Starting Hourly News Generator v4.0 (Firestore)..."
           python scripts/generate_news.py
-          echo "✅ News generation complete!"
+          echo "News generation complete!"
       
-      # 5. Check if there are any changes
-      - name: Check for Changes
-        id: check_changes
-        run: |
-          if git diff --quiet data/tech_news.json 2>/dev/null; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "📭 No new articles to commit"
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "📬 New articles detected!"
-          fi
-      
-      # 6. Commit and push changes (only if there are new articles)
-      - name: Commit and Push
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions Bot"
-          git add data/tech_news.json public/data/tech_news.json
-          git commit -m "📰 Auto-update: Daily News $(date +'%Y-%m-%d %H:%M UTC')"
-          git push
-          echo "✅ Changes pushed to repository!"
-      
-      # 7. Trigger Vercel revalidation so new news appears instantly
-      - name: Revalidate Vercel Cache
-        if: steps.check_changes.outputs.has_changes == 'true'
-        env:
-          SITE_URL: ${{ secrets.SITE_URL }}
-          REVALIDATION_SECRET: ${{ secrets.REVALIDATION_SECRET }}
-        run: |
-          if [ -n "$SITE_URL" ] && [ -n "$REVALIDATION_SECRET" ]; then
-            echo "🔄 Triggering cache revalidation..."
-            curl -s -X POST "$SITE_URL/api/revalidate"               -H "Content-Type: application/json"               -d "{\"secret\": \"$REVALIDATION_SECRET\", \"paths\": [\"/\", \"/ai-news\"]}"
-            echo "✅ Cache revalidated!"
-          else
-            echo "⏭️ Skipping revalidation (SITE_URL or REVALIDATION_SECRET not set)"
-          fi
-
-      # 8. Summary
+      # 5. Summary
       - name: Job Summary
         run: |
-          echo "## 📰 Hourly News Generator Report" >> $GITHUB_STEP_SUMMARY
+          echo "## Hourly News Generator Report" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Run Time:** $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Changes Detected:** ${{ steps.check_changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
-          if [ -f data/tech_news.json ]; then
-            ARTICLE_COUNT=$(python -c "import json; print(len(json.load(open('data/tech_news.json'))['news']))")
-            echo "- **Total Articles:** $ARTICLE_COUNT" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "- **Storage:** Firebase Firestore (direct write)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Cleanup:** Articles older than 24h auto-deleted" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Workflow completed successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "Workflow completed successfully!" >> $GITHUB_STEP_SUMMARY
