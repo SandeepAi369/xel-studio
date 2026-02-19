@@ -15,6 +15,7 @@ import {
   ChevronUp,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
+import { prepareTTSText } from "@/lib/tts-text";
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface NewsItem {
@@ -83,11 +84,10 @@ function NewsCard({
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, delay: index * 0.03 }}
-      className={`rounded-xl border transition-all duration-200 p-5 group ${
-        isAI
+      className={`rounded-xl border transition-all duration-200 p-5 group ${isAI
           ? "bg-purple-950/20 border-purple-800/30 hover:border-purple-600/50 hover:bg-purple-950/30"
           : "bg-zinc-900/40 border-zinc-800/50 hover:border-zinc-600/50 hover:bg-zinc-900/60"
-      }`}
+        }`}
     >
       <div className="flex gap-4">
         {/* Image */}
@@ -110,11 +110,10 @@ function NewsCard({
             <div className="flex-1 min-w-0">
               {/* Category Badge */}
               <span
-                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded mb-1.5 ${
-                  isAI
+                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded mb-1.5 ${isAI
                     ? "bg-purple-500/20 text-purple-300"
                     : "bg-cyan-500/15 text-cyan-400/70"
-                }`}
+                  }`}
               >
                 {isAI ? (
                   <>
@@ -127,11 +126,10 @@ function NewsCard({
                 )}
               </span>
               <h3
-                className={`text-base font-semibold transition-colors line-clamp-2 ${
-                  isAI
+                className={`text-base font-semibold transition-colors line-clamp-2 ${isAI
                     ? "text-zinc-100 group-hover:text-purple-200"
                     : "text-zinc-200 group-hover:text-white"
-                }`}
+                  }`}
               >
                 {item.title}
               </h3>
@@ -144,7 +142,7 @@ function NewsCard({
               }}
             >
               <SmartListenButton
-                text={item.title + ". " + item.summary}
+                text={prepareTTSText(item.title, item.summary)}
                 iconOnly
                 className="w-9 h-9"
                 onPlay={handlePlay}
@@ -178,9 +176,8 @@ function NewsCard({
           {/* Meta */}
           <div className="flex items-center gap-3 text-xs text-zinc-500">
             <span
-              className={`font-medium ${
-                isAI ? "text-purple-400/70" : "text-cyan-400/70"
-              }`}
+              className={`font-medium ${isAI ? "text-purple-400/70" : "text-cyan-400/70"
+                }`}
             >
               {item.source_name}
             </span>
@@ -287,31 +284,28 @@ export default function AINewsPage() {
             <nav className="flex items-center gap-2 mb-8">
               <button
                 onClick={() => setFilter("all")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  filter === "all"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
                     ? "bg-zinc-700 text-white"
                     : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
-                }`}
+                  }`}
               >
                 All ({news.length})
               </button>
               <button
                 onClick={() => setFilter("ai")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${
-                  filter === "ai"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === "ai"
                     ? "bg-purple-500/20 text-purple-300 border border-purple-500/30"
                     : "bg-zinc-900/60 text-zinc-400 hover:text-purple-300 hover:bg-purple-500/10"
-                }`}
+                  }`}
               >
                 <Sparkles className="w-3 h-3" /> AI ({aiCount})
               </button>
               <button
                 onClick={() => setFilter("tech")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${
-                  filter === "tech"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === "tech"
                     ? "bg-cyan-500/20 text-cyan-300 border border-cyan-500/30"
                     : "bg-zinc-900/60 text-zinc-400 hover:text-cyan-300 hover:bg-cyan-500/10"
-                }`}
+                  }`}
               >
                 <Cpu className="w-3 h-3" /> Tech ({techCount})
               </button>

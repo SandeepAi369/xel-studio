@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
 import { getArticlesAsync, initializeDB, Article } from '@/lib/db';
 import SmartListenButton from '@/components/SmartListenButton';
+import { prepareTTSText } from '@/lib/tts-text';
 
 // Force dynamic rendering - always fetch fresh data
 export const dynamic = 'force-dynamic';
@@ -51,7 +52,7 @@ export default async function ArticlePage({
     const paragraphs = formatContent(article.content);
 
     return (
-        <main className="min-h-screen bg-[#0a0a0a]">
+        <main className="min-h-screen bg-[#0a0a0a]" role="main" aria-label={article.title}>
             {/* Hero Section with Image - No complex overlays */}
             <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900">
                 {article.image ? (
@@ -114,7 +115,7 @@ export default async function ArticlePage({
                                 {article.title}
                             </h1>
                             <div className="flex-shrink-0 mt-1">
-                                <SmartListenButton text={article.title + '. ' + article.content} iconOnly className="w-11 h-11" />
+                                <SmartListenButton text={prepareTTSText(article.title, article.content)} iconOnly className="w-11 h-11" />
                             </div>
                         </div>
 

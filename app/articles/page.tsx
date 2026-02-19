@@ -6,6 +6,7 @@ import SmartListenButton from '@/components/SmartListenButton';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { prepareTTSText, stripMarkdown } from '@/lib/tts-text';
 
 interface Article {
     id: string;
@@ -197,12 +198,12 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
                             {article.title}
                         </h2>
                         <div className="flex-shrink-0 mt-0.5" onClick={(e) => e.preventDefault()}>
-                            <SmartListenButton text={article.title + '. ' + article.content} iconOnly className="w-9 h-9" />
+                            <SmartListenButton text={prepareTTSText(article.title, article.content)} iconOnly className="w-9 h-9" />
                         </div>
                     </div>
 
                     <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
-                        {article.content.replace(/[#*`\[\]]/g, '').substring(0, 150)}...
+                        {stripMarkdown(article.content).substring(0, 150)}...
                     </p>
 
                     <div className="flex items-center justify-between mt-4">
