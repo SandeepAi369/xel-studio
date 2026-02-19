@@ -16,7 +16,7 @@ export default function Home() {
         <LoginButton />
       </div>
 
-      <main id="main-content" role="main" aria-label="Signature Prime Home" className="flex-grow">
+      <main id="main-content" role="main" aria-label="XeL Studio Home" className="flex-grow">
         {/* Hero Section */}
         <Hero />
 
