@@ -45,8 +45,8 @@ function timeAgo(dateStr: string): string {
   return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-/** Truncate text to ~40 words */
-function truncateSummary(text: string, wordLimit = 40): string {
+/** Truncate text to ~150 words */
+function truncateSummary(text: string, wordLimit = 150): string {
   const words = text.split(/\s+/);
   if (words.length <= wordLimit) return text;
   return words.slice(0, wordLimit).join(" ") + "...";
@@ -62,7 +62,7 @@ function NewsCard({
 }) {
   const [expanded, setExpanded] = useState(false);
   const isAI = item.category === "ai";
-  const needsTruncation = item.summary.split(/\s+/).length > 45;
+  const needsTruncation = item.summary.split(/\s+/).length > 155;
   const displaySummary = expanded ? item.summary : truncateSummary(item.summary);
 
   /** Called by SmartListenButton when playback starts — auto-expand */
