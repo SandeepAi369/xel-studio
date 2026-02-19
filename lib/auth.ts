@@ -8,7 +8,7 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 
 // Session config
 // Stateless signed tokens - works across ALL Vercel serverless instances
-const SESSION_SECRET = process.env.SESSION_SECRET || `XeL_${ADMIN_TOKEN}_SessionKey`;
+const SESSION_SECRET = process.env.SESSION_SECRET || '';
 const SESSION_TIMEOUT = 30 * 60 * 1000; // 30 minutes (extended for reliability)
 
 // Login attempt tracking - Shadow Integration security
