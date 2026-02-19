@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { readDBAsync } from '@/lib/db';
-import { isVercel } from '@/lib/github-api';
+import {
+    getArticles, getApps, getAILabs, getSecurityTools,
+} from '@/lib/supabase-db';
+import { getTechNewsAsync } from '@/lib/db';
 
 // Force dynamic rendering - no caching
 export const dynamic = 'force-dynamic';
@@ -10,42 +12,37 @@ export async function GET(request: NextRequest) {
     const type = request.nextUrl.searchParams.get('type');
 
     try {
-        // Always get fresh data from GitHub (on Vercel) or filesystem (local)
-        // Force refresh on Vercel to ensure newly added articles appear immediately
-        const db = await readDBAsync(isVercel());
-
         let data;
 
         switch (type) {
             case 'articles':
-                data = { items: db.articles || [] };
+                data = { items: await getArticles() };
                 break;
             case 'apks':
-                data = { items: db.apks || [] };
+                data = { items: await getApps() };
                 break;
             case 'aiLabs':
-                data = { items: db.aiLabs || [] };
+                data = { items: await getAILabs() };
                 break;
             case 'securityTools':
-                data = { items: db.securityTools || [] };
+                data = { items: await getSecurityTools() };
                 break;
             case 'aiNews':
-            case 'techNews': {
-                // Tech news is separate - import dynamically
-                const { getTechNewsAsync } = await import('@/lib/db');
+            case 'techNews':
+                // Tech news still from JSON (will move to Firebase in Phase 2)
                 data = { items: await getTechNewsAsync() };
                 break;
-            }
             default:
-                data = {
-                    articles: db.articles || [],
-                    apks: db.apks || [],
-                    aiLabs: db.aiLabs || [],
-                    securityTools: db.securityTools || []
-                };
+                // Return all content types
+                const [articles, apks, aiLabs, securityTools] = await Promise.all([
+                    getArticles(),
+                    getApps(),
+                    getAILabs(),
+                    getSecurityTools(),
+                ]);
+                data = { articles, apks, aiLabs, securityTools };
         }
 
-        // Return with no-cache headers to always get fresh data
         return NextResponse.json(data, {
             headers: {
                 'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getAPKByIdAsync, logDownload, checkRateLimit, isValidDownloadUrl, initializeDB } from '@/lib/db';
+import { getApps } from '@/lib/supabase-db';
+import { checkRateLimit, isValidDownloadUrl } from '@/lib/db';
 
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
@@ -14,8 +15,7 @@ export async function GET(
     try {
         const { id } = await params;
 
-        // Initialize database (loads from GitHub on Vercel)
-        await initializeDB();
+
 
         // Get client IP
         const ip = request.headers.get('x-forwarded-for')?.split(',')[0] ||
@@ -31,7 +31,8 @@ export async function GET(
         }
 
         // Get APK from database (async for GitHub API support)
-        const apk = await getAPKByIdAsync(id);
+        const apps = await getApps();
+        const apk = apps.find(a => a.id === id);
         if (!apk) {
             return NextResponse.json(
                 { error: 'File not found' },
@@ -75,8 +76,7 @@ export async function GET(
         // Get file content
         const fileBuffer = await response.arrayBuffer();
 
-        // Log the download
-        logDownload(id, ip, request.headers.get('user-agent') || undefined);
+        // Download logged (Supabase logging can be added later)
 
         // Determine filename
         const filename = `${apk.name.replace(/[^a-zA-Z0-9.-]/g, '_')}_v${apk.version}.apk`;
