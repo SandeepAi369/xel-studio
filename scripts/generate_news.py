@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-Daily AI & Tech News Generator v2.5
+Hourly AI & Tech News Generator v3.0
 ====================================
 AI-FIRST news pipeline: Prioritizes Artificial Intelligence, LLMs, and ML news.
 Falls back to general tech news when AI headlines are scarce.
 
 Features:
-- AI-priority: 70% AI news, 30% tech news (adaptive)
+- Runs every hour via GitHub Actions, adds 1 article per run
+- AI-priority: prefers AI news, falls back to tech
 - Category tagging: Each article tagged as "ai" or "tech"  
 - AI news always sorted first in output
-- Multiple AI-focused RSS feeds for comprehensive coverage
-- Hard limit of 10 articles per run (rate limit protection)
+- Title-based fuzzy dedup (prevents same story from different sources)
 - 200-250 word Gemini AI summaries
 - FIFO rotation (50 most recent articles)
 
@@ -89,10 +89,8 @@ PUBLIC_DATA_DIR = Path(__file__).parent.parent / "public" / "data"
 NEWS_FILE = DATA_DIR / "tech_news.json"
 
 # HARD LIMITS
-MAX_PROCESS_LIMIT = 10
+MAX_PROCESS_LIMIT = 1   # 1 article per hourly run
 MAX_STORAGE_LIMIT = 50
-SLEEP_AFTER_SUCCESS = 20
-SLEEP_AFTER_ERROR = 30
 
 # AI vs Tech ratio
 AI_TARGET_RATIO = 0.70
@@ -372,46 +370,55 @@ def save_news(news_items):
 # MAIN PROCESSING
 # =============================================================================
 
+def title_similarity(a: str, b: str) -> float:
+    """Simple word-overlap similarity between two titles (0.0 to 1.0)."""
+    words_a = set(a.lower().split())
+    words_b = set(b.lower().split())
+    if not words_a or not words_b:
+        return 0.0
+    overlap = len(words_a & words_b)
+    return overlap / min(len(words_a), len(words_b))
+
+
+def is_duplicate_title(title: str, existing_titles: list, threshold: float = 0.7) -> bool:
+    """Check if a title is too similar to any existing title."""
+    for existing in existing_titles:
+        if title_similarity(title, existing) >= threshold:
+            return True
+    return False
+
+
 def process_news_entries(ai_entries, tech_entries, model):
-    """Process RSS entries with AI-PRIORITY ordering."""
+    """Process RSS entries with AI-PRIORITY ordering. Adds 1 article per run."""
     news_items = []
     existing_news = load_existing_news()
     existing_links = {item.get('source_link') for item in existing_news}
+    existing_titles = [item.get('title', '') for item in existing_news]
     
     processed_count = 0
-    ai_count = 0
     
-    ai_target = max(MIN_AI_ARTICLES, int(MAX_PROCESS_LIMIT * AI_TARGET_RATIO))
-    tech_target = MAX_PROCESS_LIMIT - ai_target
-    
-    print(f"\nProcessing (AI-PRIORITY): target {ai_target} AI + {tech_target} Tech")
+    print(f"\nProcessing: looking for 1 new article (AI preferred)")
     print("=" * 60)
     
-    # Phase 1: AI entries
-    print(f"\nPhase 1: AI News (target: {ai_target})")
+    # Phase 1: Try AI entries first
     for entry in ai_entries:
-        if processed_count >= MAX_PROCESS_LIMIT or ai_count >= ai_target:
+        if processed_count >= MAX_PROCESS_LIMIT:
             break
         link = getattr(entry, 'link', '')
         if link in existing_links:
             continue
         title = clean_title(getattr(entry, 'title', 'Untitled'))
+        if is_duplicate_title(title, existing_titles):
+            print(f"   SKIP (duplicate title): {title[:55]}...")
+            continue
         original_summary = getattr(entry, 'summary', '') or getattr(entry, 'description', '')
         processed_count += 1
-        ai_count += 1
-        print(f"\n[{processed_count}/{MAX_PROCESS_LIMIT}] [AI] {title[:55]}...")
+        print(f"\n[AI] {title[:55]}...")
         image_url = extract_image_from_entry(entry)
         source_name = extract_source_from_entry(entry)
         print(f"   Generating AI summary...")
         summary, was_successful = generate_ai_summary(model, title, original_summary, "ai")
-        if was_successful:
-            print(f"   Summary OK")
-            if processed_count < MAX_PROCESS_LIMIT:
-                time.sleep(SLEEP_AFTER_SUCCESS)
-        else:
-            print(f"   Fallback summary")
-            if processed_count < MAX_PROCESS_LIMIT:
-                time.sleep(SLEEP_AFTER_ERROR)
+        print(f"   {'Summary OK' if was_successful else 'Fallback summary'}")
         published = getattr(entry, 'published_parsed', None)
         date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.utcnow().isoformat() + 'Z'
         news_items.append({
@@ -420,10 +427,9 @@ def process_news_entries(ai_entries, tech_entries, model):
             "date": date, "category": "ai"
         })
     
-    # Phase 2: Tech entries
-    remaining = MAX_PROCESS_LIMIT - processed_count
-    if remaining > 0:
-        print(f"\nPhase 2: Tech News (slots: {remaining})")
+    # Phase 2: Fall back to tech entries if no AI article found
+    if processed_count == 0:
+        print(f"\nNo new AI articles — trying Tech News")
         for entry in tech_entries:
             if processed_count >= MAX_PROCESS_LIMIT:
                 break
@@ -431,21 +437,17 @@ def process_news_entries(ai_entries, tech_entries, model):
             if link in existing_links:
                 continue
             title = clean_title(getattr(entry, 'title', 'Untitled'))
+            if is_duplicate_title(title, existing_titles):
+                print(f"   SKIP (duplicate title): {title[:55]}...")
+                continue
             original_summary = getattr(entry, 'summary', '') or getattr(entry, 'description', '')
             category = categorize_article(title, original_summary, getattr(entry, '_feed_type', 'tech'))
             processed_count += 1
-            print(f"\n[{processed_count}/{MAX_PROCESS_LIMIT}] [{category.upper()}] {title[:55]}...")
+            print(f"\n[{category.upper()}] {title[:55]}...")
             image_url = extract_image_from_entry(entry)
             source_name = extract_source_from_entry(entry)
             summary, was_successful = generate_ai_summary(model, title, original_summary, category)
-            if was_successful:
-                print(f"   Summary OK")
-                if processed_count < MAX_PROCESS_LIMIT:
-                    time.sleep(SLEEP_AFTER_SUCCESS)
-            else:
-                print(f"   Fallback summary")
-                if processed_count < MAX_PROCESS_LIMIT:
-                    time.sleep(SLEEP_AFTER_ERROR)
+            print(f"   {'Summary OK' if was_successful else 'Fallback summary'}")
             published = getattr(entry, 'published_parsed', None)
             date = datetime(*published[:6]).isoformat() + 'Z' if published else datetime.utcnow().isoformat() + 'Z'
             news_items.append({
@@ -463,7 +465,7 @@ def process_news_entries(ai_entries, tech_entries, model):
 def main():
     """Main function."""
     print("\n" + "=" * 60)
-    print("AI & TECH NEWS GENERATOR v2.5 - AI-PRIORITY MODE")
+    print("AI & TECH NEWS GENERATOR v3.0 - HOURLY MODE (1 article/run)")
     print("=" * 60)
     
     model = get_gemini_model()

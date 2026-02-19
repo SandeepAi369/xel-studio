@@ -267,12 +267,15 @@ export default function SmartListenButton({
         return (
             <button
                 onClick={toggle}
-                aria-label={isPlaying ? 'Pause audio' : isPaused ? 'Resume audio' : 'Listen'}
+                aria-label={isPlaying ? 'Pause audio' : isPaused ? 'Resume audio' : 'Listen to this article'}
+                aria-pressed={isPlaying}
+                title={isPlaying ? 'Pause' : 'Listen'}
                 className={`
                     relative group/listen w-8 h-8 rounded-full
                     flex items-center justify-center
                     transition-all duration-300 ease-out cursor-pointer
                     outline-none focus-visible:ring-2 focus-visible:ring-blue-500
+                    focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950
                     ${isPlaying
                         ? 'bg-blue-600/25 border border-blue-500/40 text-blue-400 shadow-[0_0_12px_rgba(59,130,246,0.25)]'
                         : isLoading
@@ -305,12 +308,15 @@ export default function SmartListenButton({
     return (
         <button
             onClick={toggle}
-            aria-label={isPlaying ? 'Pause audio' : isPaused ? 'Resume audio' : 'Listen'}
+            aria-label={isPlaying ? 'Pause audio' : isPaused ? 'Resume audio' : 'Listen to this article'}
+            aria-pressed={isPlaying}
+            title={isPlaying ? 'Pause' : 'Listen'}
             className={`
                 relative group/listen inline-flex items-center gap-1.5
                 px-3 py-1.5 rounded-full text-xs font-medium
                 transition-all duration-300 ease-out cursor-pointer
                 outline-none focus-visible:ring-2 focus-visible:ring-blue-500
+                focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950
                 ${isPlaying
                     ? 'bg-blue-600/20 border border-blue-500/30 text-blue-400 shadow-[0_0_14px_rgba(59,130,246,0.2)]'
                     : isLoading

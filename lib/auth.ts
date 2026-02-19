@@ -1,15 +1,14 @@
 import bcrypt from 'bcryptjs';
 import { createHmac, randomBytes } from 'crypto';
 
-// Admin credentials - HARDCODED for reliability
-// Token required in URL: ?token=XelSuperSecret2026
-// Password to enter: Sandeep@Boss
-const ADMIN_TOKEN = 'XelSuperSecret2026';
-const ADMIN_PASSWORD = 'Sandeep@Boss';
+// Admin credentials — read from environment variables
+// Set these in Vercel (xel-studio) and in .env.local for local dev
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN || '';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 
 // Session config
 // Stateless signed tokens - works across ALL Vercel serverless instances
-const SESSION_SECRET = `XeL_${ADMIN_TOKEN}_SessionKey_2026`;
+const SESSION_SECRET = process.env.SESSION_SECRET || `XeL_${ADMIN_TOKEN}_SessionKey`;
 const SESSION_TIMEOUT = 30 * 60 * 1000; // 30 minutes (extended for reliability)
 
 // Login attempt tracking - Shadow Integration security
