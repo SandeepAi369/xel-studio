@@ -2,9 +2,12 @@
  * Prepare text for TTS (Text-to-Speech) consumption.
  *
  * - Strips markdown formatting characters (#, *, `, [], etc.)
- * - Inserts a period (.) every ~10 words to create natural breathing
- *   pauses for screen readers and TTS engines like edge-tts.
  * - Cleans up excessive whitespace
+ * - Preserves paragraph breaks for SSML generation on the backend
+ *
+ * NOTE: The actual speech pacing (pauses between paragraphs, prosody)
+ * is handled via SSML in the Python backend (api/stream_audio.py).
+ * This module only handles text cleanup on the frontend.
  */
 
 /** Strip markdown formatting from text */
@@ -26,38 +29,12 @@ export function stripMarkdown(text: string): string {
 }
 
 /**
- * Insert invisible pause dots every N words.
- * This causes TTS engines to add natural breathing pauses.
- */
-export function addTTSPauses(text: string, everyNWords: number = 10): string {
-    const words = text.split(/\s+/).filter(w => w.length > 0);
-    const result: string[] = [];
-
-    for (let i = 0; i < words.length; i++) {
-        result.push(words[i]);
-        // Add a period after every N words, but only if:
-        // - Not at the end of the text
-        // - The word doesn't already end with punctuation
-        if (
-            (i + 1) % everyNWords === 0 &&
-            i < words.length - 1 &&
-            !/[.!?,;:]$/.test(words[i])
-        ) {
-            // Add a period to create a TTS pause
-            result[result.length - 1] = words[i] + '.';
-        }
-    }
-
-    return result.join(' ');
-}
-
-/**
  * Prepare text for TTS playback.
- * Combines stripping markdown + adding pauses.
+ * Strips markdown from title and content, joins them with a period.
+ * The backend handles SSML wrapping for natural speech pacing.
  */
 export function prepareTTSText(title: string, content: string): string {
     const cleanTitle = stripMarkdown(title);
     const cleanContent = stripMarkdown(content);
-    const full = cleanTitle + '. ' + cleanContent;
-    return addTTSPauses(full);
+    return cleanTitle + '. ' + cleanContent;
 }
