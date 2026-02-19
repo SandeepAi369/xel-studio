@@ -35,7 +35,7 @@ export default function Home() {
         <FeedbackForm />
 
         {/* GitHub Profile + Version */}
-        <div className="text-center pb-10">
+        <footer className="text-center pb-10">
           <a
             href="https://github.com/Sandeepchch"
             target="_blank"
@@ -46,10 +46,10 @@ export default function Home() {
             <Github className="w-5 h-5" />
             <span className="text-sm">GitHub</span>
           </a>
-          <p className="mt-2 text-xs text-zinc-600 tracking-wider">
-            XeL Studio v2.0
+          <p className="mt-3 text-sm text-zinc-400 font-medium tracking-widest">
+            v2.0
           </p>
-        </div>
+        </footer>
       </main>
     </>
   );
