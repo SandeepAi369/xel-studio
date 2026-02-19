@@ -160,6 +160,23 @@ export async function readDBAsync(forceRefresh: boolean = false): Promise<Databa
         } catch (error) {
             console.error('Error reading from GitHub:', error);
         }
+
+        // Fallback: try reading bundled data.json from filesystem
+        // Next.js bundles data/ directory, so this should work on Vercel
+        try {
+            if (existsSync(DB_PATH)) {
+                console.log('readDBAsync: Falling back to bundled data.json...');
+                const data = readFileSync(DB_PATH, 'utf-8');
+                const parsed = JSON.parse(data) as Database;
+                dbCache = parsed;
+                cacheTimestamp = Date.now();
+                console.log('readDBAsync: Loaded', parsed.articles?.length || 0, 'articles from bundled file');
+                return parsed;
+            }
+        } catch (fallbackError) {
+            console.error('Error reading bundled data.json:', fallbackError);
+        }
+
         return { ...DEFAULT_DB };
     } else {
         return readDBFromFile();
