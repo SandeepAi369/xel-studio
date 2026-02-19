@@ -14,7 +14,7 @@ const GITHUB_API = 'https://api.github.com';
 // Get configuration from environment
 function getConfig() {
     const token = process.env.GITHUB_TOKEN;
-    const repo = process.env.GITHUB_REPO || 'Sandeepchch/PCL';
+    const repo = process.env.GITHUB_REPO || 'Sandeepchch/xel-studio';
 
     if (!token) {
         console.warn('GITHUB_TOKEN not set - GitHub API will not work');
