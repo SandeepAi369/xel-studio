@@ -19,7 +19,7 @@ import re
 
 
 VOICE = "en-US-AndrewMultilingualNeural"
-RATE = "+10%"
+RATE = "+50%"
 MAX_TEXT_LENGTH = 5000
 
 
