@@ -19,7 +19,7 @@ import re
 
 
 VOICE = "en-US-AvaNeural"
-RATE = "+20%"
+RATE = "+18%"
 MAX_TEXT_LENGTH = 5000
 
 
