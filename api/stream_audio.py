@@ -18,8 +18,8 @@ import json
 import re
 
 
-VOICE = "en-US-AndrewMultilingualNeural"
-RATE = "+50%"
+VOICE = "en-US-AvaNeural"
+RATE = "+20%"
 MAX_TEXT_LENGTH = 5000
 
 
