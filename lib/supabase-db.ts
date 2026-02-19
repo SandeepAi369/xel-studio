@@ -39,18 +39,19 @@ export interface AILab {
     id: string;
     name: string;
     description: string;
-    status: 'active' | 'experimental' | 'archived';
-    demoUrl?: string;
-    image?: string;
+    icon?: string;
+    url?: string;
+    category?: string;
     created_at?: string;
 }
 
 export interface SecurityTool {
     id: string;
-    name: string;
+    title: string;
     description: string;
-    category: string;
-    link?: string;
+    icon?: string;
+    url?: string;
+    category?: string;
     created_at?: string;
 }
 
@@ -84,28 +85,8 @@ function appToDB_APK(apk: Partial<APK>): Record<string, unknown> {
     return row;
 }
 
-function dbToApp_AILab(row: Record<string, unknown>): AILab {
-    return {
-        id: row.id as string,
-        name: row.name as string,
-        description: row.description as string,
-        status: (row.status as AILab['status']) || 'active',
-        demoUrl: (row.demo_url as string) || '',
-        image: (row.image as string) || '',
-        created_at: row.created_at as string,
-    };
-}
-
-function appToDB_AILab(lab: Partial<AILab>): Record<string, unknown> {
-    const row: Record<string, unknown> = {};
-    if (lab.id !== undefined) row.id = lab.id;
-    if (lab.name !== undefined) row.name = lab.name;
-    if (lab.description !== undefined) row.description = lab.description;
-    if (lab.status !== undefined) row.status = lab.status;
-    if (lab.demoUrl !== undefined) row.demo_url = lab.demoUrl;
-    if (lab.image !== undefined) row.image = lab.image;
-    return row;
-}
+// AILab fields now match DB columns directly — no mapping needed
+// SecurityTool fields now match DB columns directly — no mapping needed
 
 // Articles and SecurityTools use matching field names (no mapping needed)
 // except created_at which is auto-added by DB
@@ -288,14 +269,14 @@ export async function getAILabs(): Promise<AILab[]> {
         console.error('Error fetching AI labs:', error);
         return [];
     }
-    return (data || []).map(dbToApp_AILab);
+    return (data || []) as AILab[];
 }
 
 export async function addAILab(lab: Omit<AILab, 'id' | 'created_at'>): Promise<AILab> {
     const supabase = getSupabaseAdmin();
     const newLab = {
-        ...appToDB_AILab(lab),
         id: generateId(),
+        ...lab,
     };
 
     const { data, error } = await supabase
@@ -308,17 +289,17 @@ export async function addAILab(lab: Omit<AILab, 'id' | 'created_at'>): Promise<A
         console.error('Error adding AI lab:', error);
         throw new Error(`Failed to add AI lab: ${error.message}`);
     }
-    return dbToApp_AILab(data as Record<string, unknown>);
+    return data as AILab;
 }
 
 export async function updateAILab(id: string, updates: Partial<AILab>): Promise<AILab | null> {
     const supabase = getSupabaseAdmin();
-    const dbUpdates = appToDB_AILab(updates);
-    delete dbUpdates.id;
+    const { id: _id, created_at: _ca, ...safeUpdates } = updates;
+    void _id; void _ca;
 
     const { data, error } = await supabase
         .from('ai_labs')
-        .update(dbUpdates)
+        .update(safeUpdates)
         .eq('id', id)
         .select()
         .single();
@@ -327,7 +308,7 @@ export async function updateAILab(id: string, updates: Partial<AILab>): Promise<
         console.error('Error updating AI lab:', error);
         return null;
     }
-    return dbToApp_AILab(data as Record<string, unknown>);
+    return data as AILab;
 }
 
 export async function deleteAILab(id: string): Promise<boolean> {

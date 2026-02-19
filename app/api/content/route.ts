@@ -1,61 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
-    getArticles as getArticlesFromSupabase,
-    getApps as getAppsFromSupabase,
-    getAILabs as getAILabsFromSupabase,
-    getSecurityTools as getSecurityToolsFromSupabase,
+    getArticles, getApps, getAILabs, getSecurityTools,
 } from '@/lib/supabase-db';
-import {
-    getArticlesAsync,
-    getAPKsAsync,
-    getAILabsAsync,
-    getSecurityToolsAsync,
-} from '@/lib/db';
 
 // Force dynamic rendering - no caching
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
-
-/** Try Supabase first, fall back to data.json/GitHub if empty or error */
-async function getArticles() {
-    try {
-        const items = await getArticlesFromSupabase();
-        if (items.length > 0) return items;
-    } catch (e) {
-        console.warn('Supabase articles failed, falling back to data.json:', e);
-    }
-    return await getArticlesAsync();
-}
-
-async function getApps() {
-    try {
-        const items = await getAppsFromSupabase();
-        if (items.length > 0) return items;
-    } catch (e) {
-        console.warn('Supabase apps failed, falling back to data.json:', e);
-    }
-    return await getAPKsAsync();
-}
-
-async function getAILabs() {
-    try {
-        const items = await getAILabsFromSupabase();
-        if (items.length > 0) return items;
-    } catch (e) {
-        console.warn('Supabase AI labs failed, falling back to data.json:', e);
-    }
-    return await getAILabsAsync();
-}
-
-async function getSecurityTools() {
-    try {
-        const items = await getSecurityToolsFromSupabase();
-        if (items.length > 0) return items;
-    } catch (e) {
-        console.warn('Supabase security tools failed, falling back to data.json:', e);
-    }
-    return await getSecurityToolsAsync();
-}
 
 export async function GET(request: NextRequest) {
     const type = request.nextUrl.searchParams.get('type');
