@@ -1,6 +1,6 @@
-import { initializeApp, getApps } from 'firebase/app';
-import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp, getApps, type FirebaseApp } from 'firebase/app';
+import { getAuth, GoogleAuthProvider, type Auth } from 'firebase/auth';
+import { getFirestore, type Firestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -12,11 +12,16 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase (prevent duplicate initialization)
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
+// Lazy initialization — only initialize when actually used (client-side)
+// This prevents build crashes when env vars aren't set yet
+function getApp(): FirebaseApp {
+  if (getApps().length > 0) return getApps()[0];
+  return initializeApp(firebaseConfig);
+}
 
-export const auth = getAuth(app);
-export const db = getFirestore(app);
-export const googleProvider = new GoogleAuthProvider();
+// Lazy getters — Firebase only initializes when these are accessed
+export const auth: Auth = typeof window !== 'undefined' ? getAuth(getApp()) : ({} as Auth);
+export const db: Firestore = typeof window !== 'undefined' ? getFirestore(getApp()) : ({} as Firestore);
+export const googleProvider = typeof window !== 'undefined' ? new GoogleAuthProvider() : ({} as GoogleAuthProvider);
 
-export default app;
+export default typeof window !== 'undefined' ? getApp() : ({} as FirebaseApp);
