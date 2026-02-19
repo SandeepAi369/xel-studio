@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
-import { getArticlesAsync, initializeDB, Article } from '@/lib/db';
+import { getArticleById, Article } from '@/lib/supabase-db';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
 
@@ -12,11 +12,7 @@ export const revalidate = 0;
 
 async function getArticle(id: string): Promise<Article | null> {
     try {
-        // Initialize and read from GitHub API on Vercel
-        await initializeDB();
-        const articles = await getArticlesAsync();
-        const article = articles.find((a) => a.id === id);
-        return article || null;
+        return await getArticleById(id);
     } catch (error) {
         console.error('Error reading article:', error);
         return null;
