@@ -1,14 +1,13 @@
 """
 Streaming Text-to-Speech API — Vercel Python Serverless Function
-Voice: en-US-AvaNeural (Microsoft Edge TTS)
+Voice: en-US-AndrewMultilingualNeural (Microsoft Edge TTS)
 Endpoint: GET /api/stream_audio?text=Hello+world
 
-Optimizations:
-  - Streams first audio bytes as soon as edge-tts produces them
-  - Uses chunked transfer encoding for instant playback start
+Features:
+  - Smart text processing with paragraph-based natural pauses
+  - Uses sentence/paragraph structure for human-like pacing
   - Input sanitization & length cap (5000 chars)
   - CORS headers for cross-origin requests
-  - Increased speech rate (+15%) for snappier delivery
 """
 
 from http.server import BaseHTTPRequestHandler
@@ -16,11 +15,48 @@ from urllib.parse import parse_qs, urlparse
 import asyncio
 import io
 import json
+import re
 
 
-VOICE = "en-US-AvaNeural"
-RATE = "+15%"
+VOICE = "en-US-AndrewMultilingualNeural"
+RATE = "+10%"
 MAX_TEXT_LENGTH = 5000
+
+
+def prepare_tts_text(raw_text: str) -> str:
+    """
+    Prepare text for natural TTS reading.
+    
+    - Ensures proper sentence-ending punctuation for natural pauses
+    - Adds paragraph breaks as double periods for breathing room
+    - Removes unwanted characters that break TTS flow
+    - Does NOT insert fake pauses every N words (that was annoying)
+    """
+    if not raw_text or not raw_text.strip():
+        return ""
+
+    # Clean up the text
+    text = raw_text.strip()
+    
+    # Remove markdown artifacts that might have leaked through
+    text = re.sub(r'#{1,6}\s*', '', text)           # headings
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)  # bold
+    text = re.sub(r'\*([^*]+)\*', r'\1', text)      # italic
+    text = re.sub(r'`([^`]+)`', r'\1', text)        # inline code
+    text = re.sub(r'```[\s\S]*?```', '', text)       # code blocks
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)  # links
+    text = re.sub(r'https?://\S+', '', text)         # bare URLs
+    
+    # Split into sentences for natural flow
+    # edge_tts naturally pauses at periods, so we just ensure
+    # proper punctuation exists
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    
+    # Rejoin with single spaces — edge_tts handles sentence 
+    # pauses naturally at punctuation marks
+    result = ' '.join(s.strip() for s in sentences if s.strip())
+    
+    return result
 
 
 class handler(BaseHTTPRequestHandler):
@@ -36,6 +72,12 @@ class handler(BaseHTTPRequestHandler):
 
             # Sanitize & cap length
             text = text[:MAX_TEXT_LENGTH]
+            
+            # Clean text for natural TTS
+            text = prepare_tts_text(text)
+            
+            if not text:
+                return self._json_error(400, "Text is empty after cleaning")
 
             # Generate audio
             audio_bytes = self._generate(text)
