@@ -24,8 +24,10 @@ export const maxDuration = 60; // Vercel timeout fix
 const FIRESTORE_COLLECTION = 'news';
 const NEWS_TTL_HOURS = 24;
 const MAX_ARTICLES_PER_RUN = 1;
-const MAX_GEMINI_RETRIES = 3;
+const MAX_GEMINI_RETRIES = 4;
 const RETRY_DELAY_MS = 2000;
+const MIN_SUMMARY_WORDS = 180; // slightly below 200 for margin
+const MAX_SUMMARY_WORDS = 260; // slightly above 250 for margin
 
 // Category distribution: use UTC hour to decide category
 // Even half-hours → AI/Technology (23 slots)
@@ -163,10 +165,11 @@ async function generateSummary(
 
     const prompts: Record<string, string> = {
         ai: `You are a professional AI & technology journalist writing detailed coverage for AI enthusiasts.
-Write a comprehensive, engaging summary of 200 to 250 words for this AI news article.
+Write a comprehensive, engaging summary of EXACTLY 200 to 250 words for this AI news article.
 Focus on: What AI technology/model/company is involved, what changed, technical significance,
 industry implications, and why AI enthusiasts should care.
-Make it exciting, well-structured, and accessible. No title. No bullet points - flowing paragraphs only.${skipClause}
+Make it exciting, well-structured, and accessible. No title. No bullet points - flowing paragraphs only.
+CRITICAL: Your response MUST be between 200 and 250 words. Count carefully. Do not write fewer than 200 words.${skipClause}
 
 Title: ${title}
 Original: ${originalSummary}
@@ -174,9 +177,10 @@ Original: ${originalSummary}
 Write ONLY the 200-250 word summary:`,
 
         technology: `You are a professional tech journalist writing detailed news coverage for enthusiasts.
-Write a comprehensive, engaging summary of 200 to 250 words for this technology news article.
+Write a comprehensive, engaging summary of EXACTLY 200 to 250 words for this technology news article.
 Cover the key details, context, implications, and why it matters.
-Make it exciting, well-structured, and accessible. No title. No bullet points - flowing paragraphs only.${skipClause}
+Make it exciting, well-structured, and accessible. No title. No bullet points - flowing paragraphs only.
+CRITICAL: Your response MUST be between 200 and 250 words. Count carefully. Do not write fewer than 200 words.${skipClause}
 
 Title: ${title}
 Original: ${originalSummary}
@@ -184,9 +188,10 @@ Original: ${originalSummary}
 Write ONLY the 200-250 word summary:`,
 
         general: `You are a professional international journalist writing clear, informative news coverage.
-Write a comprehensive, engaging summary of 200 to 250 words for this news article.
+Write a comprehensive, engaging summary of EXACTLY 200 to 250 words for this news article.
 Cover: What happened, who is involved, why it matters globally, and implications.
-Maintain journalistic neutrality. No title. No bullet points - flowing paragraphs only.${skipClause}
+Maintain journalistic neutrality. No title. No bullet points - flowing paragraphs only.
+CRITICAL: Your response MUST be between 200 and 250 words. Count carefully. Do not write fewer than 200 words.${skipClause}
 
 Title: ${title}
 Original: ${originalSummary}
@@ -198,11 +203,31 @@ Write ONLY the 200-250 word summary:`,
 
     for (let attempt = 1; attempt <= MAX_GEMINI_RETRIES; attempt++) {
         try {
-            const result = await model.generateContent(prompt);
+            // On retry after too-short, use a stronger prompt
+            const currentPrompt = attempt > 1
+                ? prompt + `\n\nPREVIOUS ATTEMPT WAS TOO SHORT. You MUST write AT LEAST 200 words. Expand with more context, implications, background, and analysis. Be thorough and detailed.`
+                : prompt;
+
+            const result = await model.generateContent(currentPrompt);
             const text = result.response.text().trim();
             const words = text.split(/\s+/);
-            const summary = words.length > 280 ? words.slice(0, 250).join(' ') + '...' : text;
-            console.log(`  Summary OK (attempt ${attempt}, ${words.length} words)`);
+            const wordCount = words.length;
+
+            // Check minimum word count
+            if (wordCount < MIN_SUMMARY_WORDS) {
+                console.warn(`  Attempt ${attempt}: too short (${wordCount} words, need ${MIN_SUMMARY_WORDS}+). Retrying...`);
+                if (attempt < MAX_GEMINI_RETRIES) {
+                    await sleep(RETRY_DELAY_MS);
+                    continue;
+                }
+            }
+
+            // Trim if too long (soft cap)
+            const summary = wordCount > MAX_SUMMARY_WORDS
+                ? words.slice(0, 250).join(' ') + '.'
+                : text;
+
+            console.log(`  Summary OK (attempt ${attempt}, ${wordCount} words)`);
             return { summary, success: true };
         } catch (e) {
             const msg = e instanceof Error ? e.message : String(e);
@@ -213,10 +238,16 @@ Write ONLY the 200-250 word summary:`,
         }
     }
 
+    // All retries exhausted — build a padded fallback from the original content
     console.warn('  All Gemini retries exhausted — using fallback summary');
-    const fallback = originalSummary.replace(/<[^>]*>/g, '').trim();
-    const words = fallback.split(/\s+/).slice(0, 250);
-    return { summary: words.join(' ') || 'Summary unavailable.', success: false };
+    const cleaned = originalSummary.replace(/<[^>]*>/g, '').trim();
+    const fallbackWords = cleaned.split(/\s+/);
+    if (fallbackWords.length >= MIN_SUMMARY_WORDS) {
+        return { summary: fallbackWords.slice(0, 250).join(' '), success: false };
+    }
+    // If original is too short, pad with context
+    const padded = `${cleaned} This development marks a significant moment in the ${category === 'ai' ? 'artificial intelligence' : category === 'technology' ? 'technology' : 'global'} landscape, with experts closely monitoring its potential implications for the industry and beyond. Further details are expected to emerge as the story develops.`;
+    return { summary: padded, success: false };
 }
 
 // ─── Main Logic ──────────────────────────────────────────────

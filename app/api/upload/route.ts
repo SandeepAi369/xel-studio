@@ -3,7 +3,7 @@ import { v2 as cloudinary } from 'cloudinary';
 import { validateAccessToken } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
-export const maxDuration = 30; // Allow up to 30s for large uploads
+export const maxDuration = 60; // 60s — enough for large images on cold starts
 
 // Max upload size: 10MB
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
@@ -74,34 +74,26 @@ export async function POST(req: NextRequest) {
         const buffer = Buffer.from(await file.arrayBuffer());
         const originalSize = buffer.length;
 
-        // Upload to Cloudinary with automatic optimization
-        // q_auto = best quality at smallest size (Cloudinary AI-powered)
-        // f_auto = serve WebP/AVIF based on browser support
-        const result = await new Promise<{ secure_url: string; bytes: number; format: string; width: number; height: number }>((resolve, reject) => {
-            const uploadStream = cloudinary.uploader.upload_stream(
+        // Upload to Cloudinary using base64 data URI for maximum speed
+        // This is faster than upload_stream for sub-10MB files
+        const base64 = `data:${file.type};base64,${buffer.toString('base64')}`;
+
+        const result = await cloudinary.uploader.upload(base64, {
+            folder: 'xel-studio/articles',
+            resource_type: 'image',
+            quality: 'auto:good',
+            fetch_format: 'auto',
+            transformation: [
                 {
-                    folder: 'xel-studio/articles',        // organize in folder
-                    resource_type: 'image',
-                    quality: 'auto:good',                  // AI-powered quality (visually lossless)
-                    fetch_format: 'auto',                  // serve WebP/AVIF automatically
-                    transformation: [
-                        {
-                            width: 1200,
-                            crop: 'limit',                 // max 1200px, no upscaling
-                            quality: 'auto:good',
-                            fetch_format: 'auto',
-                        },
-                    ],
-                    unique_filename: true,
-                    overwrite: false,
+                    width: 1200,
+                    crop: 'limit',
+                    quality: 'auto:good',
+                    fetch_format: 'auto',
                 },
-                (error, uploadResult) => {
-                    if (error) reject(error);
-                    else if (uploadResult) resolve(uploadResult as { secure_url: string; bytes: number; format: string; width: number; height: number });
-                    else reject(new Error('Upload returned no result'));
-                }
-            );
-            uploadStream.end(buffer);
+            ],
+            unique_filename: true,
+            overwrite: false,
+            timeout: 55000, // 55s Cloudinary timeout (below our 60s maxDuration)
         });
 
         const compressedSize = result.bytes;
@@ -112,7 +104,7 @@ export async function POST(req: NextRequest) {
         );
 
         return NextResponse.json({
-            url: result.secure_url,                   // persistent CDN URL
+            url: result.secure_url,
             format: result.format,
             width: result.width,
             height: result.height,
