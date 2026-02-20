@@ -1,19 +1,17 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import {
   ArrowLeft,
-  ExternalLink,
   Clock,
   Newspaper,
   Bot,
-  Cpu,
   Sparkles,
   Globe,
   Zap,
   ChevronRight,
-  ChevronUp,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
@@ -103,31 +101,21 @@ function timeAgo(dateStr: string): string {
   return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-/* ─── NewsCard — matches article card styling ────────────── */
+/* ─── NewsCard — preview only, links to detail page ────── */
 function NewsCard({ item }: { item: NewsItem }) {
-  const [expanded, setExpanded] = useState(false);
   const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
   const Icon = config.icon;
 
   const words = item.summary.split(/\s+/);
-  const needsTruncation = words.length > PREVIEW_WORD_LIMIT;
-  const previewText = needsTruncation
-    ? words.slice(0, PREVIEW_WORD_LIMIT).join(" ") + "..."
-    : item.summary;
-
-  const handlePlay = useCallback(() => {
-    if (!expanded && needsTruncation) setExpanded(true);
-  }, [expanded, needsTruncation]);
-
-  const toggleExpand = useCallback((e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setExpanded((prev) => !prev);
-  }, []);
+  const previewText =
+    words.length > PREVIEW_WORD_LIMIT
+      ? words.slice(0, PREVIEW_WORD_LIMIT).join(" ") + "..."
+      : item.summary;
 
   return (
-    <article
-      className="rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 p-6 group"
+    <Link
+      href={`/ai-news/${item.id}`}
+      className="block rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 p-6 group cursor-pointer"
     >
       <div className="flex gap-4">
         {/* Image */}
@@ -154,9 +142,7 @@ function NewsCard({ item }: { item: NewsItem }) {
                 <Icon className="w-2.5 h-2.5" />
                 {config.label}
               </span>
-              <h3
-                className="text-lg font-semibold transition-colors line-clamp-2 text-white group-hover:text-green-100"
-              >
+              <h3 className="text-lg font-semibold transition-colors line-clamp-2 text-white group-hover:text-green-100">
                 {item.title}
               </h3>
             </div>
@@ -171,37 +157,16 @@ function NewsCard({ item }: { item: NewsItem }) {
                 text={prepareTTSText(item.title, item.summary)}
                 iconOnly
                 className="w-9 h-9"
-                onPlay={handlePlay}
               />
             </div>
           </div>
 
-          {/* Summary */}
-          <div className="mb-4">
-            <p className="text-base text-gray-400 leading-relaxed">
-              {expanded ? item.summary : previewText}
-            </p>
-            {needsTruncation && (
-              <button
-                onClick={toggleExpand}
-                className="flex items-center gap-1 mt-3 text-green-400 text-sm font-medium hover:text-green-300 transition-colors cursor-pointer"
-              >
-                {expanded ? (
-                  <>
-                    <span>Show less</span>
-                    <ChevronUp className="w-4 h-4" />
-                  </>
-                ) : (
-                  <>
-                    <span>Read more</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </>
-                )}
-              </button>
-            )}
-          </div>
+          {/* Preview text */}
+          <p className="text-base text-gray-400 leading-relaxed mb-4">
+            {previewText}
+          </p>
 
-          {/* Meta */}
+          {/* Meta + Read more */}
           <div className="flex items-center gap-3 text-xs text-zinc-500">
             <span className={`font-medium ${config.sourceColor}`}>
               {item.source_name}
@@ -210,18 +175,14 @@ function NewsCard({ item }: { item: NewsItem }) {
               <Clock className="w-3 h-3" />
               {timeAgo(item.date)}
             </time>
-            <a
-              href={item.source_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 text-zinc-400 hover:text-zinc-200"
-            >
-              Read <ExternalLink className="w-3 h-3" />
-            </a>
+            <span className="ml-auto flex items-center gap-1 text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors">
+              Read more
+              <ChevronRight className="w-4 h-4" />
+            </span>
           </div>
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 
