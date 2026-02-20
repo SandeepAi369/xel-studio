@@ -91,20 +91,28 @@ const PROMPTS = [
 
 const SYSTEM_PROMPT = `You are a world-class AI and technology journalist for "XeL News".
 
-RULES YOU MUST FOLLOW:
-1. Write MINIMUM 200 words. Target 200-300 words. Articles under 150 words are REJECTED.
-2. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-3. Use flowing paragraphs only. NO bullet points, NO numbered lists, NO headers.
-4. Do NOT start with the word "In" or "The". Start with something punchy.
-5. Include specific company names, product names, and technical details.
-6. Include a quote or attributed statement (can be realistic but made-up for the article).
-7. End with forward-looking implications or what to watch next.
-8. Output ONLY the article body text. No title. No sign-off.
-9. Write in an engaging, exciting tone that makes readers want to share the article.
-10. Do NOT write about discontinued products or old news. Focus on current/future developments.
-11. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
-12. Write at least 3-4 full paragraphs. Each paragraph should be 3-5 sentences long.
-13. Include background context so readers unfamiliar with the topic can understand the significance.`;
+=== CRITICAL LENGTH REQUIREMENT ===
+Your article MUST be between 250 and 350 words. This is NON-NEGOTIABLE.
+Articles under 200 words will be REJECTED and you will need to rewrite.
+You MUST write at least 4 full paragraphs. Each paragraph MUST have 3-5 sentences.
+=== END LENGTH REQUIREMENT ===
+
+ADDITIONAL RULES:
+1. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
+2. Use flowing paragraphs only. NO bullet points, NO numbered lists, NO headers.
+3. Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
+4. Include specific company names, product names, version numbers, and technical details.
+5. Include a quote or attributed statement (can be realistic but fabricated for the article).
+6. End with forward-looking implications or what to watch next.
+7. Output ONLY the article body text. No title. No sign-off. No word count.
+8. Write in an engaging, exciting tone that makes readers want to share the article.
+9. Do NOT write about discontinued products or old news. Focus on current/future developments.
+10. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
+11. Include background context so readers unfamiliar with the topic can understand the significance.
+12. REMEMBER: 250-350 words, 4+ paragraphs, 3-5 sentences each. This is mandatory.`;
+
+// Suffix added to every prompt to reinforce word count
+const WORD_COUNT_SUFFIX = `\n\nIMPORTANT REMINDER: Your response MUST be 250-350 words long with 4+ paragraphs. Do NOT write a short summary. Write a FULL article.`;
 
 // ─── Helpers ─────────────────────────────────────────────────
 
@@ -191,10 +199,10 @@ async function generateNews() {
     if (!apiKey) throw new Error('GEMINI_API_KEY not set');
 
     const ai = new GoogleGenAI({ apiKey });
-    const promptText = SYSTEM_PROMPT + '\n\n' + prompt.instruction;
+    const userPrompt = prompt.instruction + WORD_COUNT_SUFFIX;
 
     // Model fallback chain: latest → stable → legacy
-    const MODELS = ['gemini-3-flash', 'gemini-2.5-flash', 'gemini-2.0-flash'];
+    const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
     let responseText = '';
     let usedModel = '';
 
@@ -204,21 +212,40 @@ async function generateNews() {
         cleanupOldArticles(),
     ]);
 
+    // Helper to call Gemini with proper system instruction separation
+    async function callGemini(modelName: string, contentText: string): Promise<string> {
+        const result = await ai.models.generateContent({
+            model: modelName,
+            contents: contentText,
+            config: {
+                systemInstruction: SYSTEM_PROMPT,
+                temperature: 0.95,
+                maxOutputTokens: 2048,
+                topP: 0.95,
+                tools: [{ googleSearch: {} }],
+            },
+        });
+        return result.text?.trim() || '';
+    }
+
     for (const modelName of MODELS) {
         try {
             console.log(`🔄 Trying model: ${modelName}`);
-            const result = await ai.models.generateContent({
-                model: modelName,
-                contents: promptText,
-                config: {
-                    temperature: 0.9,
-                    maxOutputTokens: 1500,
-                    topP: 0.95,
-                    tools: [{ googleSearch: {} }],
-                },
-            });
-            responseText = result.text?.trim() || '';
+            responseText = await callGemini(modelName, userPrompt);
             if (!responseText) throw new Error('Empty response');
+
+            // Check word count — retry once if too short
+            const firstWordCount = responseText.split(/\s+/).length;
+            if (firstWordCount < 150) {
+                console.log(`⚠️ First attempt too short (${firstWordCount} words), retrying...`);
+                const retryPrompt = prompt.instruction + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. This is FAR too short. You MUST write at least 250 words with 4 full paragraphs of 3-5 sentences each. Write a COMPLETE, DETAILED article NOW.`;
+                const retryText = await callGemini(modelName, retryPrompt);
+                if (retryText && retryText.split(/\s+/).length > firstWordCount) {
+                    responseText = retryText;
+                    console.log(`✅ Retry produced ${retryText.split(/\s+/).length} words`);
+                }
+            }
+
             usedModel = modelName;
             console.log(`✅ Success with: ${modelName}`);
             break;
