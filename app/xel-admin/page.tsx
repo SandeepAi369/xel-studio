@@ -74,7 +74,7 @@ interface Feedback {
 type ContentItem = Article | APK | AILab | SecurityTool;
 type Tab = 'articles' | 'apks' | 'aiLabs' | 'security' | 'logs' | 'feedbacks';
 
-// ─── Image Upload Component ────────────────────────────────────
+// ─── Image Upload Component (Direct-to-Cloudinary) ─────────────
 function ImageUploader({
     token,
     currentUrl,
@@ -86,28 +86,9 @@ function ImageUploader({
 }) {
     const fileRef = useRef<HTMLInputElement>(null);
     const [uploading, setUploading] = useState(false);
+    const [progress, setProgress] = useState(0);
     const [uploadResult, setUploadResult] = useState<{ url: string; savings: string } | null>(null);
     const [uploadError, setUploadError] = useState('');
-
-    const doUpload = async (file: File): Promise<Response> => {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s timeout
-
-        const formData = new FormData();
-        formData.append('image', file);
-
-        try {
-            const res = await fetch('/api/upload', {
-                method: 'POST',
-                headers: { 'Authorization': `Bearer ${token}` },
-                body: formData,
-                signal: controller.signal,
-            });
-            return res;
-        } finally {
-            clearTimeout(timeoutId);
-        }
-    };
 
     const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -119,34 +100,97 @@ function ImageUploader({
             return;
         }
 
+        // Validate type
+        const validTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/avif'];
+        if (!validTypes.includes(file.type)) {
+            setUploadError('Invalid image type. Supported: JPEG, PNG, WebP, GIF, AVIF');
+            return;
+        }
+
         setUploading(true);
         setUploadError('');
         setUploadResult(null);
+        setProgress(0);
 
         let lastError = '';
-        // Retry once on network failure
+
         for (let attempt = 0; attempt < 2; attempt++) {
             try {
-                const res = await doUpload(file);
-                const data = await res.json();
+                // Step 1: Get signed upload params from our server (tiny JSON — no file data)
+                setProgress(5);
+                const signRes = await fetch('/api/upload/sign', {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${token}` },
+                });
 
-                if (!res.ok) {
-                    lastError = data.error || `Upload failed (${res.status})`;
-                    // Don't retry on auth/validation errors
-                    if (res.status === 401 || res.status === 400) break;
+                if (!signRes.ok) {
+                    const signData = await signRes.json();
+                    lastError = signData.error || `Auth failed (${signRes.status})`;
+                    if (signRes.status === 401) break; // Don't retry auth errors
                     continue;
                 }
 
-                setUploadResult({ url: data.url, savings: data.savings });
-                onUploaded(data.url);
+                const { signature, timestamp, cloudName, apiKey, folder, transformation } = await signRes.json();
+
+                // Step 2: Upload DIRECTLY to Cloudinary (browser → Cloudinary, Vercel is out)
+                setProgress(10);
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('api_key', apiKey);
+                formData.append('timestamp', String(timestamp));
+                formData.append('signature', signature);
+                formData.append('folder', folder);
+                formData.append('transformation', transformation);
+                formData.append('unique_filename', 'true');
+                formData.append('overwrite', 'false');
+
+                const cloudinaryUrl = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`;
+
+                // Use XMLHttpRequest for upload progress tracking
+                const result = await new Promise<{ secure_url: string; bytes: number; format: string; width: number; height: number }>((resolve, reject) => {
+                    const xhr = new XMLHttpRequest();
+
+                    xhr.upload.addEventListener('progress', (e) => {
+                        if (e.lengthComputable) {
+                            // Map 10-95% for the actual file upload
+                            const pct = Math.round(10 + (e.loaded / e.total) * 85);
+                            setProgress(pct);
+                        }
+                    });
+
+                    xhr.addEventListener('load', () => {
+                        if (xhr.status >= 200 && xhr.status < 300) {
+                            setProgress(100);
+                            resolve(JSON.parse(xhr.responseText));
+                        } else {
+                            try {
+                                const err = JSON.parse(xhr.responseText);
+                                reject(new Error(err.error?.message || `Cloudinary error (${xhr.status})`));
+                            } catch {
+                                reject(new Error(`Upload failed (${xhr.status})`));
+                            }
+                        }
+                    });
+
+                    xhr.addEventListener('error', () => reject(new Error('Network error')));
+                    xhr.addEventListener('timeout', () => reject(new Error('Upload timed out')));
+                    xhr.timeout = 120000; // 2 min — direct upload can handle large files
+
+                    xhr.open('POST', cloudinaryUrl);
+                    xhr.send(formData);
+                });
+
+                const originalSize = file.size;
+                const savings = Math.round((1 - result.bytes / originalSize) * 100);
+
+                setUploadResult({ url: result.secure_url, savings: `${savings}%` });
+                onUploaded(result.secure_url);
                 setUploading(false);
                 return;
+
             } catch (err) {
-                if (err instanceof DOMException && err.name === 'AbortError') {
-                    lastError = 'Upload timed out. Try a smaller image.';
-                    break; // Don't retry timeouts
-                }
-                lastError = attempt === 0 ? 'Retrying upload...' : 'Network error — check your connection and try again.';
+                const msg = err instanceof Error ? err.message : 'Unknown error';
+                lastError = attempt === 0 ? `Retrying... (${msg})` : msg;
             }
         }
 
@@ -167,7 +211,7 @@ function ImageUploader({
                 </div>
             )}
 
-            {/* Upload button */}
+            {/* URL input + Upload button */}
             <div className="flex gap-2">
                 <input
                     type="text"
@@ -183,7 +227,7 @@ function ImageUploader({
                     className="px-4 py-3 bg-violet-600 hover:bg-violet-500 disabled:bg-zinc-700 text-white rounded-lg transition-colors flex items-center gap-2 text-sm font-medium whitespace-nowrap"
                 >
                     {uploading ? (
-                        <><Loader2 className="w-4 h-4 animate-spin" /> Uploading...</>
+                        <><Loader2 className="w-4 h-4 animate-spin" /> {progress}%</>
                     ) : (
                         <><Upload className="w-4 h-4" /> Upload</>
                     )}
@@ -198,11 +242,21 @@ function ImageUploader({
                 className="hidden"
             />
 
+            {/* Upload progress bar */}
+            {uploading && (
+                <div className="w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                    <div
+                        className="h-full bg-violet-500 rounded-full transition-all duration-300"
+                        style={{ width: `${progress}%` }}
+                    />
+                </div>
+            )}
+
             {/* Result */}
             {uploadResult && (
                 <div className="flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-lg px-3 py-2">
                     <CheckCircle2 className="w-3.5 h-3.5" />
-                    Uploaded to Cloudinary! Saved {uploadResult.savings}
+                    Uploaded directly to Cloudinary! Saved {uploadResult.savings}
                 </div>
             )}
             {uploadError && (
