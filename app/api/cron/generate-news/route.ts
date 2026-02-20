@@ -22,7 +22,7 @@ import { adminDb } from '@/lib/firebase-admin';
 
 // ─── Config ──────────────────────────────────────────────────
 export const dynamic = 'force-dynamic';
-export const maxDuration = 10; // Hobby plan: keep lean, no bloat
+export const maxDuration = 60; // Gemini + Google Search grounding needs more time
 
 const COLLECTION = 'news';
 const HEALTH_DOC = 'system/cron_health';
