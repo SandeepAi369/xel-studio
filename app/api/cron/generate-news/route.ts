@@ -188,25 +188,48 @@ async function generateNews() {
     if (!apiKey) throw new Error('GEMINI_API_KEY not set');
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({
-        model: 'gemini-2.0-flash',
-        generationConfig: {
-            temperature: 0.9,
-            maxOutputTokens: 500,  // ~250 words max
-            topP: 0.95,
-        },
-    });
+    const promptText = SYSTEM_PROMPT + '\n\n' + prompt.instruction;
 
-    // 3. Run Gemini + cleanup + dedup check in parallel where possible
-    const [geminiResult, , existingSnap] = await Promise.all([
-        model.generateContent(SYSTEM_PROMPT + '\n\n' + prompt.instruction),
-        cleanupOldArticles(),
+    // Model fallback chain — each has separate free tier quota
+    const MODELS = ['gemini-2.0-flash-lite', 'gemini-1.5-flash', 'gemini-2.0-flash'];
+    let geminiResult = null;
+    let usedModel = '';
+
+    // 3. Run cleanup + dedup check in parallel, then try models
+    const [existingSnap] = await Promise.all([
         adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
+        cleanupOldArticles(),
     ]);
+
+    for (const modelName of MODELS) {
+        try {
+            console.log(`🔄 Trying model: ${modelName}`);
+            const model = genAI.getGenerativeModel({
+                model: modelName,
+                generationConfig: {
+                    temperature: 0.9,
+                    maxOutputTokens: 500,
+                    topP: 0.95,
+                },
+            });
+            geminiResult = await model.generateContent(promptText);
+            usedModel = modelName;
+            console.log(`✅ Success with: ${modelName}`);
+            break;
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : String(err);
+            console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
+            if (!msg.includes('429') && !msg.includes('quota') && !msg.includes('rate')) {
+                throw err; // Non-quota errors should fail immediately
+            }
+        }
+    }
+
+    if (!geminiResult) throw new Error('All Gemini models quota exhausted');
 
     const summary = geminiResult.response.text().trim();
     const wordCount = summary.split(/\s+/).length;
-    console.log(`📝 Gemini response: ${wordCount} words`);
+    console.log(`📝 Response (${usedModel}): ${wordCount} words`);
 
     // 4. Generate title and check dups
     const title = generateTitle(prompt.topic, prompt.category);
