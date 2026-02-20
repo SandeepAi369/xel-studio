@@ -936,13 +936,21 @@ function AdminPanel() {
                                                 <MessageSquare className="w-5 h-5 text-emerald-400 flex-shrink-0" />
                                                 <span className="font-medium text-white">{fb.user_name}</span>
                                             </div>
-                                            <a
-                                                href={`mailto:${fb.user_email}`}
-                                                className="inline-flex items-center gap-1.5 text-sm text-emerald-400 hover:text-emerald-300 transition-colors mb-3"
-                                            >
-                                                <Mail className="w-3.5 h-3.5" />
-                                                {fb.user_email}
-                                            </a>
+                                            <div className="flex flex-wrap items-center gap-2 mb-3">
+                                                <a
+                                                    href={`mailto:${fb.user_email}`}
+                                                    className="inline-flex items-center gap-1.5 text-sm text-emerald-400 hover:text-emerald-300 transition-colors py-1"
+                                                >
+                                                    <Mail className="w-3.5 h-3.5" />
+                                                    {fb.user_email}
+                                                </a>
+                                                <a
+                                                    href={`mailto:${fb.user_email}?subject=Re: Your feedback on XeL Studio&body=Hi ${fb.user_name},%0A%0A`}
+                                                    className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium bg-emerald-500/15 text-emerald-400 hover:bg-emerald-500/25 border border-emerald-500/30 rounded-full transition-colors"
+                                                >
+                                                    Reply
+                                                </a>
+                                            </div>
                                             <p className="text-zinc-300 text-sm whitespace-pre-wrap">{fb.content}</p>
                                             <p className="text-xs text-zinc-600 mt-3">
                                                 {new Date(fb.created_at).toLocaleString()}
