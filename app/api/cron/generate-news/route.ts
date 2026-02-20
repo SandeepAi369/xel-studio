@@ -199,9 +199,7 @@ async function generateNews() {
 
     // 3. Run Gemini + cleanup + dedup check in parallel where possible
     const [geminiResult, , existingSnap] = await Promise.all([
-        model.generateContent([
-            { role: 'user', parts: [{ text: SYSTEM_PROMPT + '\n\n' + prompt.instruction }] },
-        ]),
+        model.generateContent(SYSTEM_PROMPT + '\n\n' + prompt.instruction),
         cleanupOldArticles(),
         adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
     ]);
