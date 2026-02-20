@@ -18,7 +18,7 @@ import {
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
 import { db } from "@/lib/firebase";
-import { collection, query, orderBy, getDocs } from "firebase/firestore";
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface NewsItem {
@@ -89,7 +89,7 @@ const CATEGORY_CONFIG = {
   },
 };
 
-const PREVIEW_WORD_LIMIT = 30;
+const PREVIEW_WORD_LIMIT = 50;
 
 /* ─── Helpers ──────────────────────────────────────────────── */
 function timeAgo(dateStr: string): string {
@@ -233,28 +233,33 @@ export default function AINewsPage() {
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
 
-  // Fetch from Firebase Firestore (uses 50MB offline cache automatically)
+  // Real-time Firestore listener — news auto-updates without page refresh
   useEffect(() => {
-    async function fetchNews() {
-      try {
-        const q = query(
-          collection(db, "news"),
-          orderBy("date", "desc")
-        );
-        const snapshot = await getDocs(q);
+    const q = query(
+      collection(db, "news"),
+      orderBy("date", "desc")
+    );
+
+    const unsubscribe = onSnapshot(
+      q,
+      (snapshot) => {
         const items: NewsItem[] = snapshot.docs.map((doc) => ({
           id: doc.id,
           ...doc.data(),
         })) as NewsItem[];
         setNews(items);
-      } catch (err) {
+        setLoading(false);
+        setError(null);
+      },
+      (err) => {
         setError("Could not load news. Please try again later.");
-        console.error("News fetch error:", err);
-      } finally {
+        console.error("News listener error:", err);
         setLoading(false);
       }
-    }
-    fetchNews();
+    );
+
+    // Cleanup listener on unmount
+    return () => unsubscribe();
   }, []);
 
   // Sort: AI first, then Technology, then General — within each group by date
