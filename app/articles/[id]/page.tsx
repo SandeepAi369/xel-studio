@@ -26,9 +26,27 @@ function getReadingTime(content: string): number {
 }
 
 function formatContent(content: string): string[] {
-    return content
-        .split(/\n\n+/)
-        .map(p => p.trim())
+    // Clean up common issues from direct user input
+    let cleaned = content
+        .replace(/\r\n/g, '\n')           // normalize line endings
+        .replace(/\t/g, ' ')               // tabs to spaces
+        .replace(/ {3,}/g, '  ')           // collapse excessive spaces
+        .replace(/([.!?])\1{2,}/g, '$1')   // fix repeated punctuation (... stays, .... becomes .)
+        .replace(/\*{3,}/g, '')            // remove decorative asterisks
+        .replace(/#{1,6}\s*/g, '')         // strip markdown headers
+        .replace(/^[-=]{3,}$/gm, '')       // strip horizontal rules
+        .trim();
+
+    // Split on double newlines first, then single newlines for paragraphs
+    return cleaned
+        .split(/\n{2,}/)
+        .flatMap(block => {
+            // If a block is very long (>500 chars) and has single newlines, split those too
+            if (block.length > 500 && block.includes('\n')) {
+                return block.split(/\n/).map(p => p.trim()).filter(p => p.length > 0);
+            }
+            return [block.trim()];
+        })
         .filter(p => p.length > 0);
 }
 
@@ -107,7 +125,7 @@ export default async function ArticlePage({
 
                         {/* Title + Listen */}
                         <div className="flex items-start gap-4">
-                            <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight flex-1">
+                            <h1 className="text-2xl md:text-3xl font-bold text-white leading-snug flex-1">
                                 {article.title}
                             </h1>
                             <div className="flex-shrink-0 mt-1">
@@ -120,7 +138,7 @@ export default async function ArticlePage({
 
                     {/* Article Body - Clean text formatting */}
                     <div className="p-8 md:p-10">
-                        <div className="space-y-6">
+                        <div className="space-y-4">
                             {paragraphs.map((paragraph, index) => {
                                 const isNumberedItem = /^\d+\./.test(paragraph);
                                 const hasLink = paragraph.includes('http');
@@ -132,7 +150,7 @@ export default async function ArticlePage({
                                             key={index}
                                             className="pl-6 border-l-2 border-green-500/30 py-2"
                                         >
-                                            <p className="text-gray-300 text-lg leading-8">
+                                            <p className="text-gray-300 text-base leading-7">
                                                 {paragraph}
                                             </p>
                                         </div>
@@ -145,7 +163,7 @@ export default async function ArticlePage({
                                     const parts = paragraph.split(urlRegex);
 
                                     return (
-                                        <p key={index} className="text-gray-300 text-lg leading-8">
+                                        <p key={index} className="text-gray-300 text-base leading-7">
                                             {parts.map((part, i) => {
                                                 if (part.match(urlRegex)) {
                                                     return (
@@ -170,7 +188,7 @@ export default async function ArticlePage({
                                 return (
                                     <p
                                         key={index}
-                                        className="text-gray-300 text-lg leading-8"
+                                        className="text-gray-300 text-base leading-7"
                                     >
                                         {paragraph}
                                     </p>
