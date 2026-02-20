@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import {
   ArrowLeft,
@@ -106,7 +106,6 @@ function timeAgo(dateStr: string): string {
 /* ─── NewsCard — matches article card styling ────────────── */
 function NewsCard({ item }: { item: NewsItem }) {
   const [expanded, setExpanded] = useState(false);
-  const cardRef = useRef<HTMLElement>(null);
   const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
   const Icon = config.icon;
 
@@ -123,21 +122,11 @@ function NewsCard({ item }: { item: NewsItem }) {
   const toggleExpand = useCallback((e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    setExpanded((prev) => {
-      const next = !prev;
-      // When expanding, scroll card into view after DOM update
-      if (next) {
-        requestAnimationFrame(() => {
-          cardRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        });
-      }
-      return next;
-    });
+    setExpanded((prev) => !prev);
   }, []);
 
   return (
     <article
-      ref={cardRef}
       className="rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 p-6 group"
     >
       <div className="flex gap-4">
