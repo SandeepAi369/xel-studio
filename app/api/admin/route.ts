@@ -5,7 +5,7 @@ import {
     getArticles, addArticle, updateArticle, deleteArticle,
     getApps, addApp, updateApp, deleteApp,
     getAILabs, addAILab, updateAILab, deleteAILab,
-    getSecurityTools, addSecurityTool, deleteSecurityTool,
+    getSecurityTools, addSecurityTool, updateSecurityTool, deleteSecurityTool,
     generateId,
 } from '@/lib/supabase-db';
 import type { Article, APK, AILab, SecurityTool } from '@/lib/supabase-db';
@@ -140,6 +140,9 @@ export async function POST(request: NextRequest) {
                         break;
                     case 'aiLab':
                         result = await updateAILab(itemId, data);
+                        break;
+                    case 'securityTool':
+                        result = await updateSecurityTool(itemId, data);
                         break;
                     default:
                         return NextResponse.json({ error: 'Invalid content type' }, { status: 400, headers: corsHeaders });

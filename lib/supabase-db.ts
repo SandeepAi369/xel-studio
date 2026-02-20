@@ -363,6 +363,25 @@ export async function addSecurityTool(tool: Omit<SecurityTool, 'id' | 'created_a
     return data as SecurityTool;
 }
 
+export async function updateSecurityTool(id: string, updates: Partial<SecurityTool>): Promise<SecurityTool | null> {
+    const supabase = getSupabaseAdmin();
+    const { id: _id, created_at: _ca, ...safeUpdates } = updates;
+    void _id; void _ca;
+
+    const { data, error } = await supabase
+        .from('security_tools')
+        .update(safeUpdates)
+        .eq('id', id)
+        .select()
+        .single();
+
+    if (error) {
+        console.error('Error updating security tool:', error);
+        return null;
+    }
+    return data as SecurityTool;
+}
+
 export async function deleteSecurityTool(id: string): Promise<boolean> {
     const supabase = getSupabaseAdmin();
     const { error } = await supabase
