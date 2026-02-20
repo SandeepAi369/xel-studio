@@ -17,7 +17,7 @@
  */
 
 import { NextResponse } from 'next/server';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import { adminDb } from '@/lib/firebase-admin';
 
 // ─── Config ──────────────────────────────────────────────────
@@ -187,12 +187,12 @@ async function generateNews() {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) throw new Error('GEMINI_API_KEY not set');
 
-    const genAI = new GoogleGenerativeAI(apiKey);
+    const ai = new GoogleGenAI({ apiKey });
     const promptText = SYSTEM_PROMPT + '\n\n' + prompt.instruction;
 
-    // Model fallback chain — each has separate free tier quota
-    const MODELS = ['gemini-2.0-flash-lite', 'gemini-1.5-flash', 'gemini-2.0-flash'];
-    let geminiResult = null;
+    // Model fallback chain: latest → stable → legacy
+    const MODELS = ['gemini-3-flash', 'gemini-2.5-flash', 'gemini-2.0-flash'];
+    let responseText = '';
     let usedModel = '';
 
     // 3. Run cleanup + dedup check in parallel, then try models
@@ -204,30 +204,33 @@ async function generateNews() {
     for (const modelName of MODELS) {
         try {
             console.log(`🔄 Trying model: ${modelName}`);
-            const model = genAI.getGenerativeModel({
+            const result = await ai.models.generateContent({
                 model: modelName,
-                generationConfig: {
+                contents: promptText,
+                config: {
                     temperature: 0.9,
                     maxOutputTokens: 500,
                     topP: 0.95,
+                    tools: [{ googleSearch: {} }],
                 },
             });
-            geminiResult = await model.generateContent(promptText);
+            responseText = result.text?.trim() || '';
+            if (!responseText) throw new Error('Empty response');
             usedModel = modelName;
             console.log(`✅ Success with: ${modelName}`);
             break;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
-            if (!msg.includes('429') && !msg.includes('quota') && !msg.includes('rate')) {
-                throw err; // Non-quota errors should fail immediately
+            if (!msg.includes('429') && !msg.includes('quota') && !msg.includes('rate') && !msg.includes('not found')) {
+                throw err; // Non-recoverable errors should fail immediately
             }
         }
     }
 
-    if (!geminiResult) throw new Error('All Gemini models quota exhausted');
+    if (!responseText) throw new Error('All Gemini models failed');
 
-    const summary = geminiResult.response.text().trim();
+    const summary = responseText;
     const wordCount = summary.split(/\s+/).length;
     console.log(`📝 Response (${usedModel}): ${wordCount} words`);
 
