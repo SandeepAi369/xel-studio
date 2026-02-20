@@ -801,9 +801,9 @@ function AdminPanel() {
                         {articles.length === 0 ? (
                             <div className="text-center py-12 text-zinc-500">No articles yet. Add your first article!</div>
                         ) : articles.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
                                 {item.image && (
-                                    <div className="w-12 h-12 rounded-lg overflow-hidden bg-zinc-800 flex-shrink-0">
+                                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden bg-zinc-800 flex-shrink-0">
                                         <img src={item.image} alt="" className="w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
                                     </div>
                                 )}
@@ -812,9 +812,13 @@ function AdminPanel() {
                                     <h3 className="font-medium truncate">{item.title}</h3>
                                     <p className="text-sm text-zinc-500">{new Date(item.date).toLocaleDateString()}{item.category ? ` • ${item.category}` : ''}</p>
                                 </div>
-                                <div className="flex gap-2">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg"><Trash2 className="w-4 h-4 text-red-400" /></button>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -826,15 +830,19 @@ function AdminPanel() {
                         {apks.length === 0 ? (
                             <div className="text-center py-12 text-zinc-500">No APKs yet. Add your first APK!</div>
                         ) : apks.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
                                 <Download className="w-8 h-8 text-emerald-400 flex-shrink-0" />
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.name}</h3>
                                     <p className="text-sm text-zinc-500">v{item.version} • {item.size}</p>
                                 </div>
-                                <div className="flex gap-2">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg"><Trash2 className="w-4 h-4 text-red-400" /></button>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -846,15 +854,19 @@ function AdminPanel() {
                         {aiLabs.length === 0 ? (
                             <div className="text-center py-12 text-zinc-500">No AI Labs yet. Add your first experiment!</div>
                         ) : aiLabs.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
                                 <Brain className="w-8 h-8 text-purple-400 flex-shrink-0" />
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.name}</h3>
                                     <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}{item.url ? ` • ${item.url}` : ''}</p>
                                 </div>
-                                <div className="flex gap-2">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg"><Trash2 className="w-4 h-4 text-red-400" /></button>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -866,15 +878,19 @@ function AdminPanel() {
                         {securityTools.length === 0 ? (
                             <div className="text-center py-12 text-zinc-500">No security tools yet. Add your first tool!</div>
                         ) : securityTools.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
                                 <ShieldCheck className="w-8 h-8 text-red-400 flex-shrink-0" />
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.title}</h3>
                                     <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}</p>
                                 </div>
-                                <div className="flex gap-2">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg"><Trash2 className="w-4 h-4 text-red-400" /></button>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
                                 </div>
                             </div>
                         ))}
