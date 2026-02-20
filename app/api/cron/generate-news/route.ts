@@ -92,7 +92,7 @@ const PROMPTS = [
 const SYSTEM_PROMPT = `You are a world-class AI and technology journalist for "XeL News".
 
 RULES YOU MUST FOLLOW:
-1. Write MINIMUM 200 words. Target 200-300 words. Articles under 150 words are REJECTED.
+1. Write MINIMUM 300 words. Target 300-500 words. Articles under 250 words are REJECTED.
 2. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
 3. Use flowing paragraphs only. NO bullet points, NO numbered lists, NO headers.
 4. Do NOT start with the word "In" or "The". Start with something punchy.
@@ -102,7 +102,9 @@ RULES YOU MUST FOLLOW:
 8. Output ONLY the article body text. No title. No sign-off.
 9. Write in an engaging, exciting tone that makes readers want to share the article.
 10. Do NOT write about discontinued products or old news. Focus on current/future developments.
-11. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.`;
+11. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
+12. Write at least 3-4 full paragraphs. Each paragraph should be 3-5 sentences long.
+13. Include background context so readers unfamiliar with the topic can understand the significance.`;
 
 // ─── Helpers ─────────────────────────────────────────────────
 
@@ -210,7 +212,7 @@ async function generateNews() {
                 contents: promptText,
                 config: {
                     temperature: 0.9,
-                    maxOutputTokens: 800,
+                    maxOutputTokens: 1500,
                     topP: 0.95,
                     tools: [{ googleSearch: {} }],
                 },
