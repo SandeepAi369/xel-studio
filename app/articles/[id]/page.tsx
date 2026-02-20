@@ -97,10 +97,10 @@ export default async function ArticlePage({
             </div>
 
             {/* Article Content */}
-            <div className="max-w-4xl mx-auto px-4 -mt-20 relative z-10 pb-16">
-                <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800 overflow-hidden">
+            <div className="max-w-5xl mx-auto px-3 sm:px-6 -mt-20 relative z-10 pb-16">
+                <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800/60 overflow-hidden shadow-xl shadow-black/20">
                     {/* Article Header */}
-                    <div className="p-8 md:p-10 border-b border-zinc-800">
+                    <div className="p-5 sm:p-8 md:p-10 border-b border-zinc-800">
                         {/* Meta Info */}
                         <div className="flex flex-wrap items-center gap-4 mb-6">
                             {article.category && (
@@ -137,8 +137,8 @@ export default async function ArticlePage({
                     </div>
 
                     {/* Article Body - Clean text formatting */}
-                    <div className="p-8 md:p-10">
-                        <div className="space-y-4">
+                    <div className="p-5 sm:p-8 md:p-10">
+                        <div className="space-y-4 max-w-none">
                             {paragraphs.map((paragraph, index) => {
                                 const isNumberedItem = /^\d+\./.test(paragraph);
                                 const hasLink = paragraph.includes('http');
@@ -150,7 +150,7 @@ export default async function ArticlePage({
                                             key={index}
                                             className="pl-6 border-l-2 border-green-500/30 py-2"
                                         >
-                                            <p className="text-gray-300 text-base leading-7">
+                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
                                                 {paragraph}
                                             </p>
                                         </div>
@@ -163,7 +163,7 @@ export default async function ArticlePage({
                                     const parts = paragraph.split(urlRegex);
 
                                     return (
-                                        <p key={index} className="text-gray-300 text-base leading-7">
+                                        <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
                                             {parts.map((part, i) => {
                                                 if (part.match(urlRegex)) {
                                                     return (
@@ -188,7 +188,7 @@ export default async function ArticlePage({
                                 return (
                                     <p
                                         key={index}
-                                        className="text-gray-300 text-base leading-7"
+                                        className="text-gray-300 text-[15px] leading-[1.8]"
                                     >
                                         {paragraph}
                                     </p>
