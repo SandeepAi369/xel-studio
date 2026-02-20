@@ -183,23 +183,23 @@ function NewsCard({ item }: { item: NewsItem }) {
             {needsTruncation && (
               <button
                 onClick={toggleExpand}
-                className="mt-2.5 inline-flex items-center gap-1.5 text-sm font-bold px-4 py-1.5 rounded-full transition-all duration-200 shadow-lg text-white"
+                className="mt-2.5 inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full transition-all duration-200 text-white"
                 style={{
                   background: expanded
-                    ? "linear-gradient(135deg, #6b21a8, #7c3aed)"
-                    : "linear-gradient(135deg, #7c3aed, #a855f7)",
+                    ? "linear-gradient(135deg, #166534, #22c55e)"
+                    : "linear-gradient(135deg, #16a34a, #4ade80)",
                   boxShadow: expanded
-                    ? "0 2px 8px rgba(124, 58, 237, 0.25)"
-                    : "0 4px 15px rgba(168, 85, 247, 0.4)",
+                    ? "0 2px 6px rgba(34, 197, 94, 0.2)"
+                    : "0 3px 10px rgba(74, 222, 128, 0.3)",
                 }}
               >
                 {expanded ? (
                   <>
-                    Show less <ChevronUp className="w-3.5 h-3.5" />
+                    Show less <ChevronUp className="w-3 h-3" />
                   </>
                 ) : (
                   <>
-                    Read more <ChevronDown className="w-3.5 h-3.5" />
+                    Read more <ChevronDown className="w-3 h-3" />
                   </>
                 )}
               </button>
@@ -326,8 +326,8 @@ export default function AINewsPage() {
               <button
                 onClick={() => setFilter("all")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
-                    ? "bg-zinc-700 text-white"
-                    : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
+                  ? "bg-zinc-700 text-white"
+                  : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
                   }`}
               >
                 All ({news.length})
@@ -343,8 +343,8 @@ export default function AINewsPage() {
                     key={cat}
                     onClick={() => setFilter(cat)}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === cat
-                        ? `${config.activeBg} ${config.activeText} border ${config.activeBorder}`
-                        : `bg-zinc-900/60 text-zinc-400 ${config.hoverText} ${config.hoverBg}`
+                      ? `${config.activeBg} ${config.activeText} border ${config.activeBorder}`
+                      : `bg-zinc-900/60 text-zinc-400 ${config.hoverText} ${config.hoverBg}`
                       }`}
                   >
                     <Icon className="w-3 h-3" />
