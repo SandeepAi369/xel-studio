@@ -76,12 +76,12 @@ const PROMPTS = [
 
     // ── GENERAL/GEOPOLITICS PROMPTS (2) ─────────────────────
     {
-        category: 'general',
+        category: 'world',
         topic: 'Global Tech & Geopolitics',
         instruction: `Write a breaking news article about a major global technology or geopolitical development. Cover US-China tech rivalry, semiconductor trade wars, space exploration milestones, cybersecurity incidents, digital currency developments, or major tech company antitrust actions. Include geopolitical context and global implications.`,
     },
     {
-        category: 'general',
+        category: 'world',
         topic: 'Science & Climate',
         instruction: `Write a breaking news article about a major scientific breakthrough or climate development. Cover fusion energy, quantum computing milestones, climate policy updates, renewable energy records, space discoveries, biotech breakthroughs, or environmental technology. Include scientific significance and societal impact.`,
     },

@@ -11,7 +11,8 @@ import {
   Cpu,
   Sparkles,
   Globe,
-  ChevronDown,
+  Zap,
+  ChevronRight,
   ChevronUp,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
@@ -28,63 +29,63 @@ interface NewsItem {
   source_link: string;
   source_name: string;
   date: string;
-  category: "ai" | "technology" | "general";
+  category: "ai" | "tech" | "world";
 }
 
-type FilterTab = "all" | "ai" | "technology" | "general";
+type FilterTab = "all" | "ai" | "tech" | "world";
 
 /* ─── Category Config ─────────────────────────────────────── */
 const CATEGORY_CONFIG = {
   ai: {
     icon: Sparkles,
     label: "AI",
-    color: "text-purple-300",
-    bg: "bg-purple-500/20",
-    cardBg: "bg-purple-950/20",
-    cardBorder: "border-purple-800/30",
-    cardHoverBorder: "hover:border-purple-600/50",
-    cardHoverBg: "hover:bg-purple-950/30",
-    titleHover: "group-hover:text-purple-200",
-    sourceColor: "text-purple-400/70",
-    activeBg: "bg-purple-500/20",
-    activeText: "text-purple-300",
-    activeBorder: "border-purple-500/30",
-    hoverText: "hover:text-purple-300",
-    hoverBg: "hover:bg-purple-500/10",
+    color: "text-violet-300",
+    bg: "bg-violet-500/20",
+    cardBg: "bg-violet-950/15",
+    cardBorder: "border-violet-800/30",
+    cardHoverBorder: "hover:border-violet-600/50",
+    cardHoverBg: "hover:bg-violet-950/25",
+    titleHover: "group-hover:text-violet-200",
+    sourceColor: "text-violet-400/70",
+    activeBg: "bg-violet-500/20",
+    activeText: "text-violet-300",
+    activeBorder: "border-violet-500/30",
+    hoverText: "hover:text-violet-300",
+    hoverBg: "hover:bg-violet-500/10",
   },
-  technology: {
-    icon: Cpu,
-    label: "Technology",
-    color: "text-cyan-300",
-    bg: "bg-cyan-500/15",
-    cardBg: "bg-cyan-950/10",
-    cardBorder: "border-cyan-800/30",
-    cardHoverBorder: "hover:border-cyan-600/50",
-    cardHoverBg: "hover:bg-cyan-950/20",
-    titleHover: "group-hover:text-cyan-200",
-    sourceColor: "text-cyan-400/70",
-    activeBg: "bg-cyan-500/20",
-    activeText: "text-cyan-300",
-    activeBorder: "border-cyan-500/30",
-    hoverText: "hover:text-cyan-300",
-    hoverBg: "hover:bg-cyan-500/10",
+  tech: {
+    icon: Zap,
+    label: "Tech",
+    color: "text-sky-300",
+    bg: "bg-sky-500/15",
+    cardBg: "bg-sky-950/10",
+    cardBorder: "border-sky-800/30",
+    cardHoverBorder: "hover:border-sky-600/50",
+    cardHoverBg: "hover:bg-sky-950/20",
+    titleHover: "group-hover:text-sky-200",
+    sourceColor: "text-sky-400/70",
+    activeBg: "bg-sky-500/20",
+    activeText: "text-sky-300",
+    activeBorder: "border-sky-500/30",
+    hoverText: "hover:text-sky-300",
+    hoverBg: "hover:bg-sky-500/10",
   },
-  general: {
+  world: {
     icon: Globe,
-    label: "General",
-    color: "text-amber-300",
-    bg: "bg-amber-500/15",
+    label: "World",
+    color: "text-emerald-300",
+    bg: "bg-emerald-500/15",
     cardBg: "bg-zinc-900/40",
     cardBorder: "border-zinc-800/50",
-    cardHoverBorder: "hover:border-amber-600/40",
+    cardHoverBorder: "hover:border-emerald-600/40",
     cardHoverBg: "hover:bg-zinc-900/60",
-    titleHover: "group-hover:text-amber-200",
-    sourceColor: "text-amber-400/70",
-    activeBg: "bg-amber-500/20",
-    activeText: "text-amber-300",
-    activeBorder: "border-amber-500/30",
-    hoverText: "hover:text-amber-300",
-    hoverBg: "hover:bg-amber-500/10",
+    titleHover: "group-hover:text-emerald-200",
+    sourceColor: "text-emerald-400/70",
+    activeBg: "bg-emerald-500/20",
+    activeText: "text-emerald-300",
+    activeBorder: "border-emerald-500/30",
+    hoverText: "hover:text-emerald-300",
+    hoverBg: "hover:bg-emerald-500/10",
   },
 };
 
@@ -105,7 +106,7 @@ function timeAgo(dateStr: string): string {
 /* ─── NewsCard — NO framer-motion, pure CSS ──────────────── */
 function NewsCard({ item }: { item: NewsItem }) {
   const [expanded, setExpanded] = useState(false);
-  const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.general;
+  const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
   const Icon = config.icon;
 
   const words = item.summary.split(/\s+/);
@@ -183,23 +184,17 @@ function NewsCard({ item }: { item: NewsItem }) {
             {needsTruncation && (
               <button
                 onClick={toggleExpand}
-                className="mt-2.5 inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full transition-all duration-200 text-white"
-                style={{
-                  background: expanded
-                    ? "linear-gradient(135deg, #166534, #22c55e)"
-                    : "linear-gradient(135deg, #16a34a, #4ade80)",
-                  boxShadow: expanded
-                    ? "0 2px 6px rgba(34, 197, 94, 0.2)"
-                    : "0 3px 10px rgba(74, 222, 128, 0.3)",
-                }}
+                className="flex items-center gap-1 mt-3 text-green-400 text-sm font-medium hover:text-green-300 transition-colors cursor-pointer"
               >
                 {expanded ? (
                   <>
-                    Show less <ChevronUp className="w-3 h-3" />
+                    <span>Show less</span>
+                    <ChevronUp className="w-4 h-4" />
                   </>
                 ) : (
                   <>
-                    Read more <ChevronDown className="w-3 h-3" />
+                    <span>Read more</span>
+                    <ChevronRight className="w-4 h-4" />
                   </>
                 )}
               </button>
@@ -268,7 +263,7 @@ export default function AINewsPage() {
     if (filter !== "all") {
       filtered = news.filter((n) => n.category === filter);
     }
-    const priorityMap: Record<string, number> = { ai: 0, technology: 1, general: 2 };
+    const priorityMap: Record<string, number> = { ai: 0, tech: 1, world: 2 };
     return [...filtered].sort((a, b) => {
       const pA = priorityMap[a.category] ?? 2;
       const pB = priorityMap[b.category] ?? 2;
@@ -279,7 +274,7 @@ export default function AINewsPage() {
 
   // Counts per category
   const counts = useMemo(() => {
-    const c = { ai: 0, technology: 0, general: 0 };
+    const c = { ai: 0, tech: 0, world: 0 };
     news.forEach((n) => {
       if (n.category in c) c[n.category as keyof typeof c]++;
     });
@@ -334,7 +329,7 @@ export default function AINewsPage() {
               </button>
 
               {/* Category Tabs */}
-              {(["ai", "technology", "general"] as const).map((cat) => {
+              {(["ai", "tech", "world"] as const).map((cat) => {
                 const config = CATEGORY_CONFIG[cat];
                 const Icon = config.icon;
                 const count = counts[cat];
