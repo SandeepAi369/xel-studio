@@ -89,38 +89,69 @@ function ImageUploader({
     const [uploadResult, setUploadResult] = useState<{ url: string; savings: string } | null>(null);
     const [uploadError, setUploadError] = useState('');
 
+    const doUpload = async (file: File): Promise<Response> => {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s timeout
+
+        const formData = new FormData();
+        formData.append('image', file);
+
+        try {
+            const res = await fetch('/api/upload', {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${token}` },
+                body: formData,
+                signal: controller.signal,
+            });
+            return res;
+        } finally {
+            clearTimeout(timeoutId);
+        }
+    };
+
     const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
         if (!file) return;
+
+        // Client-side size check (10MB)
+        if (file.size > 10 * 1024 * 1024) {
+            setUploadError(`File too large (${(file.size / 1024 / 1024).toFixed(1)}MB). Max 10MB.`);
+            return;
+        }
 
         setUploading(true);
         setUploadError('');
         setUploadResult(null);
 
-        try {
-            const formData = new FormData();
-            formData.append('image', file);
+        let lastError = '';
+        // Retry once on network failure
+        for (let attempt = 0; attempt < 2; attempt++) {
+            try {
+                const res = await doUpload(file);
+                const data = await res.json();
 
-            const res = await fetch('/api/upload', {
-                method: 'POST',
-                headers: { 'Authorization': `Bearer ${token}` },
-                body: formData,
-            });
+                if (!res.ok) {
+                    lastError = data.error || `Upload failed (${res.status})`;
+                    // Don't retry on auth/validation errors
+                    if (res.status === 401 || res.status === 400) break;
+                    continue;
+                }
 
-            const data = await res.json();
-
-            if (!res.ok) {
-                setUploadError(data.error || 'Upload failed');
+                setUploadResult({ url: data.url, savings: data.savings });
+                onUploaded(data.url);
+                setUploading(false);
                 return;
+            } catch (err) {
+                if (err instanceof DOMException && err.name === 'AbortError') {
+                    lastError = 'Upload timed out. Try a smaller image.';
+                    break; // Don't retry timeouts
+                }
+                lastError = attempt === 0 ? 'Retrying upload...' : 'Network error — check your connection and try again.';
             }
-
-            setUploadResult({ url: data.url, savings: data.savings });
-            onUploaded(data.url);
-        } catch {
-            setUploadError('Network error — upload failed');
-        } finally {
-            setUploading(false);
         }
+
+        setUploadError(lastError);
+        setUploading(false);
     };
 
     return (

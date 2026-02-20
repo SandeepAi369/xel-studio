@@ -1,21 +1,27 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 
 /**
  * Custom scroll position restoration for Next.js App Router.
- * 
+ *
  * Saves scroll position to sessionStorage on route change,
- * restores it when navigating back via browser history.
+ * restores it when navigating back via browser history OR
+ * when returning to a previously visited page.
  */
 export default function ScrollRestoration() {
     const pathname = usePathname();
     const prevPathRef = useRef<string>(pathname);
     const isPopStateRef = useRef(false);
+    const visitedPagesRef = useRef<Set<string>>(new Set());
+
+    // Track visited pages to know when we're "going back" to a page
+    useEffect(() => {
+        visitedPagesRef.current.add(pathname);
+    }, [pathname]);
 
     useEffect(() => {
-        // Detect back/forward navigation
         const handlePopState = () => {
             isPopStateRef.current = true;
         };
@@ -24,41 +30,43 @@ export default function ScrollRestoration() {
         return () => window.removeEventListener('popstate', handlePopState);
     }, []);
 
+    const restoreScroll = useCallback((scrollY: number) => {
+        // Aggressively restore scroll — retry many times to beat async loading & animations
+        const attempts = [0, 50, 100, 200, 350, 500, 750, 1000, 1500];
+        attempts.forEach((delay) => {
+            setTimeout(() => {
+                window.scrollTo({ top: scrollY, behavior: 'instant' as ScrollBehavior });
+            }, delay);
+        });
+    }, []);
+
     useEffect(() => {
+        const prevPath = prevPathRef.current;
+
         // Save scroll position of the page we're leaving
-        if (prevPathRef.current !== pathname) {
-            const key = `scroll:${prevPathRef.current}`;
+        if (prevPath !== pathname) {
+            const key = `scroll:${prevPath}`;
             sessionStorage.setItem(key, String(window.scrollY));
         }
 
-        // Restore scroll position if this is a back/forward navigation
-        if (isPopStateRef.current) {
-            const key = `scroll:${pathname}`;
-            const saved = sessionStorage.getItem(key);
+        // Check if going back (popstate OR returning to a previously visited page)
+        const isGoingBack = isPopStateRef.current || visitedPagesRef.current.has(pathname);
+        const key = `scroll:${pathname}`;
+        const saved = sessionStorage.getItem(key);
 
-            if (saved !== null) {
-                const scrollY = parseInt(saved, 10);
-                // Use requestAnimationFrame + timeout to wait for content to render
-                const restore = () => {
-                    requestAnimationFrame(() => {
-                        window.scrollTo(0, scrollY);
-                    });
-                };
-                // Try multiple times as content may load asynchronously
-                restore();
-                setTimeout(restore, 100);
-                setTimeout(restore, 300);
-                setTimeout(restore, 600);
+        if (isGoingBack && saved !== null) {
+            const scrollY = parseInt(saved, 10);
+            if (scrollY > 0) {
+                restoreScroll(scrollY);
             }
-
-            isPopStateRef.current = false;
-        } else {
-            // Forward navigation — scroll to top
+        } else if (!isPopStateRef.current) {
+            // Only scroll to top on genuinely new forward navigation
             window.scrollTo(0, 0);
         }
 
+        isPopStateRef.current = false;
         prevPathRef.current = pathname;
-    }, [pathname]);
+    }, [pathname, restoreScroll]);
 
     return null;
 }
