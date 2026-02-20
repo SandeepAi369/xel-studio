@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import {
   ArrowLeft,
@@ -103,9 +103,10 @@ function timeAgo(dateStr: string): string {
   return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-/* ─── NewsCard — NO framer-motion, pure CSS ──────────────── */
+/* ─── NewsCard — matches article card styling ────────────── */
 function NewsCard({ item }: { item: NewsItem }) {
   const [expanded, setExpanded] = useState(false);
+  const cardRef = useRef<HTMLElement>(null);
   const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
   const Icon = config.icon;
 
@@ -122,17 +123,27 @@ function NewsCard({ item }: { item: NewsItem }) {
   const toggleExpand = useCallback((e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    setExpanded((prev) => !prev);
+    setExpanded((prev) => {
+      const next = !prev;
+      // When expanding, scroll card into view after DOM update
+      if (next) {
+        requestAnimationFrame(() => {
+          cardRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        });
+      }
+      return next;
+    });
   }, []);
 
   return (
     <article
-      className={`rounded-xl border transition-all duration-200 p-5 group ${config.cardBg} ${config.cardBorder} ${config.cardHoverBorder} ${config.cardHoverBg}`}
+      ref={cardRef}
+      className="rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 p-6 group"
     >
       <div className="flex gap-4">
         {/* Image */}
         {item.image_url && (
-          <div className="hidden sm:block shrink-0 w-20 h-20 rounded-lg overflow-hidden bg-zinc-800">
+          <div className="hidden sm:block shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-zinc-800">
             <img
               src={item.image_url}
               alt=""
@@ -146,16 +157,16 @@ function NewsCard({ item }: { item: NewsItem }) {
 
         <div className="flex-1 min-w-0">
           {/* Category Badge + Title + Listen */}
-          <div className="flex items-start gap-3 mb-1.5">
+          <div className="flex items-start gap-3 mb-2">
             <div className="flex-1 min-w-0">
               <span
-                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded mb-1.5 ${config.bg} ${config.color}`}
+                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mb-2 ${config.bg} ${config.color}`}
               >
                 <Icon className="w-2.5 h-2.5" />
                 {config.label}
               </span>
               <h3
-                className={`text-base font-semibold transition-colors line-clamp-2 text-zinc-100 ${config.titleHover}`}
+                className="text-lg font-semibold transition-colors line-clamp-2 text-white group-hover:text-green-100"
               >
                 {item.title}
               </h3>
@@ -176,9 +187,9 @@ function NewsCard({ item }: { item: NewsItem }) {
             </div>
           </div>
 
-          {/* Summary — 40 words preview, expandable */}
-          <div className="mb-3">
-            <p className="text-sm text-zinc-400 leading-relaxed">
+          {/* Summary */}
+          <div className="mb-4">
+            <p className="text-base text-gray-400 leading-relaxed">
               {expanded ? item.summary : previewText}
             </p>
             {needsTruncation && (
