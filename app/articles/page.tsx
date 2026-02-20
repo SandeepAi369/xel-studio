@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
 import SmartListenButton from '@/components/SmartListenButton';
+import { SkeletonGrid } from '@/components/SkeletonCard';
+import { fetchWithCache } from '@/lib/DataCache';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -24,10 +26,12 @@ export default function ArticlesPage() {
     const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
-        fetch('/api/content?type=articles')
-            .then(res => res.json())
-            .then(data => {
-                setArticles(data.items || []);
+        fetchWithCache<Article[]>(
+            '/api/content?type=articles',
+            (data: Record<string, unknown>) => (data.items as Article[]) || []
+        )
+            .then(items => {
+                setArticles(items);
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -80,9 +84,7 @@ export default function ArticlesPage() {
 
                 {/* Loading State */}
                 {loading && (
-                    <div className="flex justify-center py-16">
-                        <div className="w-8 h-8 border-2 border-green-500 border-t-transparent rounded-full animate-spin" />
-                    </div>
+                    <SkeletonGrid count={6} variant="article" columns={2} />
                 )}
 
                 {/* Empty State */}

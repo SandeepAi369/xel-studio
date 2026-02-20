@@ -40,10 +40,50 @@ export async function OPTIONS() {
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        const { action, token, contentType, data, itemId } = body;
+        const { action, token, sessionToken, contentType, data, itemId, password } = body;
 
-        // Validate token
-        if (!validateAccessToken(token)) {
+        // Use whichever token field the client sent
+        const authToken = token || sessionToken;
+
+        // ─── LOGIN ──────────────────────────────────────────
+        if (action === 'login') {
+            const { validatePassword, createSession, clearLoginAttempts, isLockedOut, recordFailedAttempt } = await import('@/lib/auth');
+
+            const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
+
+            // Check lockout
+            const lockStatus = isLockedOut(ip);
+            if (lockStatus.locked) {
+                return NextResponse.json({
+                    error: `Too many attempts. Try again in ${lockStatus.remainingTime} minutes.`
+                }, { status: 429, headers: corsHeaders });
+            }
+
+            if (!password || !(await validatePassword(password))) {
+                const attempt = recordFailedAttempt(ip);
+                return NextResponse.json({
+                    error: attempt.locked
+                        ? 'Account locked. Try again in 15 minutes.'
+                        : `Invalid password. ${attempt.attemptsRemaining} attempts remaining.`
+                }, { status: 401, headers: corsHeaders });
+            }
+
+            clearLoginAttempts(ip);
+            const newSessionToken = createSession(ip);
+
+            return NextResponse.json({
+                sessionToken: newSessionToken,
+                csrfToken: `csrf_${Date.now()}_${Math.random().toString(36).slice(2)}`,
+            }, { headers: corsHeaders });
+        }
+
+        // ─── LOGOUT ──────────────────────────────────────────
+        if (action === 'logout') {
+            return NextResponse.json({ success: true }, { headers: corsHeaders });
+        }
+
+        // Validate token for all data operations
+        if (!validateAccessToken(authToken)) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401, headers: corsHeaders });
         }
 

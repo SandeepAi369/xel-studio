@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Brain, ArrowLeft, Search, Beaker, ExternalLink, Sparkles, Archive, FlaskConical } from 'lucide-react';
+import { SkeletonGrid } from '@/components/SkeletonCard';
+import { fetchWithCache } from '@/lib/DataCache';
 
 interface AILab {
     id: string;
@@ -29,10 +31,12 @@ export default function AIPage() {
     const [selectedLab, setSelectedLab] = useState<AILab | null>(null);
 
     useEffect(() => {
-        fetch('/api/content?type=aiLabs')
-            .then(res => res.json())
-            .then(data => {
-                setLabs(data.items || []);
+        fetchWithCache<AILab[]>(
+            '/api/content?type=aiLabs',
+            (data: Record<string, unknown>) => (data.items as AILab[]) || []
+        )
+            .then(items => {
+                setLabs(items);
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -84,9 +88,7 @@ export default function AIPage() {
 
                 {/* Loading State */}
                 {loading && (
-                    <div className="flex justify-center py-16">
-                        <div className="w-8 h-8 border-2 border-purple-500 border-t-transparent rounded-full animate-spin" />
-                    </div>
+                    <SkeletonGrid count={4} variant="ai" columns={2} />
                 )}
 
                 {/* Empty State */}

@@ -21,7 +21,11 @@ export default function DashboardPage() {
     if (loading) {
         return (
             <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center">
-                <div className="w-8 h-8 border-2 border-purple-500 border-t-transparent rounded-full animate-spin" />
+                <div className="flex flex-col items-center gap-4">
+                    <div className="w-16 h-16 rounded-2xl bg-zinc-800 animate-pulse" />
+                    <div className="w-32 h-4 rounded bg-zinc-800 animate-pulse" />
+                    <div className="w-24 h-3 rounded bg-zinc-800/60 animate-pulse" />
+                </div>
             </div>
         );
     }

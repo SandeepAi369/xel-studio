@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, ArrowLeft, Search, Lock, ExternalLink, Shield, Terminal, Key, Fingerprint } from 'lucide-react';
+import { SkeletonGrid } from '@/components/SkeletonCard';
+import { fetchWithCache } from '@/lib/DataCache';
 
 interface SecurityTool {
     id: string;
@@ -30,10 +32,12 @@ export default function SecurityPage() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
     useEffect(() => {
-        fetch('/api/content?type=securityTools')
-            .then(res => res.json())
-            .then(data => {
-                setTools(data.items || []);
+        fetchWithCache<SecurityTool[]>(
+            '/api/content?type=securityTools',
+            (data: Record<string, unknown>) => (data.items as SecurityTool[]) || []
+        )
+            .then(items => {
+                setTools(items);
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -98,8 +102,8 @@ export default function SecurityPage() {
                         <button
                             onClick={() => setSelectedCategory(null)}
                             className={`px-4 py-2 rounded-lg text-sm transition-colors ${!selectedCategory
-                                    ? 'bg-red-600/30 text-red-400 border border-red-500/30'
-                                    : 'bg-zinc-800/50 text-zinc-400 border border-zinc-700 hover:border-zinc-600'
+                                ? 'bg-red-600/30 text-red-400 border border-red-500/30'
+                                : 'bg-zinc-800/50 text-zinc-400 border border-zinc-700 hover:border-zinc-600'
                                 }`}
                         >
                             All
@@ -109,8 +113,8 @@ export default function SecurityPage() {
                                 key={cat}
                                 onClick={() => setSelectedCategory(cat)}
                                 className={`px-4 py-2 rounded-lg text-sm transition-colors ${selectedCategory === cat
-                                        ? 'bg-red-600/30 text-red-400 border border-red-500/30'
-                                        : 'bg-zinc-800/50 text-zinc-400 border border-zinc-700 hover:border-zinc-600'
+                                    ? 'bg-red-600/30 text-red-400 border border-red-500/30'
+                                    : 'bg-zinc-800/50 text-zinc-400 border border-zinc-700 hover:border-zinc-600'
                                     }`}
                             >
                                 {cat}
@@ -121,9 +125,7 @@ export default function SecurityPage() {
 
                 {/* Loading State */}
                 {loading && (
-                    <div className="flex justify-center py-16">
-                        <div className="w-8 h-8 border-2 border-red-500 border-t-transparent rounded-full animate-spin" />
-                    </div>
+                    <SkeletonGrid count={6} variant="security" columns={3} />
                 )}
 
                 {/* Empty State */}
