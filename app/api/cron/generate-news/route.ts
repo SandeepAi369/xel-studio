@@ -135,9 +135,7 @@ function generateTitle(topic: string, category: string): string {
         ],
     };
     const prefix = pickRandom(prefixes[category] || prefixes.general);
-    const now = new Date();
-    const timeTag = now.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true });
-    return `${prefix} ${topic} — ${now.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} ${timeTag}`;
+    return `${prefix} ${topic}`;
 }
 
 // ─── Health Tracking (Tick/Cross System) ─────────────────────
