@@ -39,6 +39,12 @@ body {
   overflow-x: hidden;
 }
 
+/* Allow horizontal scroll on admin panel (mobile swipe to see full layout) */
+html.admin-scrollable,
+body.admin-scrollable {
+  overflow-x: auto;
+}
+
 
 /* ===== HERO GRADIENT TEXT ===== */
 .hero-gradient-text {
@@ -59,7 +65,8 @@ body {
   overflow: hidden;
   background: #0a0a0a;
   font-family: 'Courier New', monospace;
-  pointer-events: none; /* CRITICAL: Never block clicks */
+  pointer-events: none;
+  /* CRITICAL: Never block clicks */
 }
 
 .matrix-rain::before {
@@ -75,7 +82,8 @@ body {
   opacity: 0.15;
   text-shadow: 0 0 10px var(--neon-green);
   word-wrap: break-word;
-  pointer-events: none; /* CRITICAL: Never block clicks */
+  pointer-events: none;
+  /* CRITICAL: Never block clicks */
 }
 
 /* ===== SCANLINES OVERLAY - NON-BLOCKING ===== */
@@ -91,7 +99,8 @@ body {
   right: 0;
   bottom: 0;
   background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 0, 0, 0.05) 2px, rgba(0, 0, 0, 0.05) 4px);
-  pointer-events: none; /* CRITICAL: Never block clicks */
+  pointer-events: none;
+  /* CRITICAL: Never block clicks */
   z-index: 10;
 }
 
@@ -210,7 +219,10 @@ body {
 
 /* ===== REDUCED MOTION SUPPORT ===== */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -223,7 +235,7 @@ body {
   .bento-card {
     transition-duration: 0.15s;
   }
-  
+
   .scanlines::before {
     display: none;
   }

@@ -315,6 +315,16 @@ function AdminPanel() {
             .catch(() => router.push('/'));
     }, [token, router]);
 
+    // Allow horizontal scrolling on admin panel (mobile swipe)
+    useEffect(() => {
+        document.documentElement.classList.add('admin-scrollable');
+        document.body.classList.add('admin-scrollable');
+        return () => {
+            document.documentElement.classList.remove('admin-scrollable');
+            document.body.classList.remove('admin-scrollable');
+        };
+    }, []);
+
     useEffect(() => {
         if (isLoggedIn && sessionToken) {
             loadData();
