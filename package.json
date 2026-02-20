@@ -12,6 +12,7 @@
     "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.95.3",
     "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
     "firebase": "^12.9.0",
     "framer-motion": "^12.29.2",
     "lucide-react": "^0.563.0",
@@ -19,8 +20,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1",
-    "sharp": "^0.34.5"
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

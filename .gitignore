@@ -45,5 +45,3 @@ venv/
 __pycache__/
 *.pyc
 
-# Uploaded images (compressed via Sharp)
-public/uploads/
