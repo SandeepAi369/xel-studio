@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
 
-  // Image optimization — Sharp compression + WebP/AVIF
+  // Image optimization — Cloudinary CDN + WebP/AVIF auto-serve
   images: {
     formats: ['image/webp', 'image/avif'],
     remotePatterns: [
