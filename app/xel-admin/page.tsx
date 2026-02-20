@@ -1,14 +1,16 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
     ShieldCheck, BookOpen, Brain, ShoppingBag,
     Plus, Trash2, Edit, LogOut, Eye, Download,
-    Save, X, AlertTriangle, MessageSquare, Mail
+    Save, X, AlertTriangle, MessageSquare, Mail,
+    Upload, Image as ImageIcon, Loader2, CheckCircle2
 } from 'lucide-react';
 
+// ─── Interfaces (aligned with Supabase schema) ────────────────
 interface Article {
     id: string;
     title: string;
@@ -32,16 +34,18 @@ interface AILab {
     id: string;
     name: string;
     description: string;
-    status: 'active' | 'experimental' | 'archived';
-    demoUrl?: string;
+    icon?: string;
+    url?: string;
+    category?: string;
 }
 
 interface SecurityTool {
     id: string;
-    name: string;
+    title: string;
     description: string;
-    category: string;
-    link?: string;
+    icon?: string;
+    url?: string;
+    category?: string;
 }
 
 interface DownloadLog {
@@ -70,6 +74,117 @@ interface Feedback {
 type ContentItem = Article | APK | AILab | SecurityTool;
 type Tab = 'articles' | 'apks' | 'aiLabs' | 'security' | 'logs' | 'feedbacks';
 
+// ─── Image Upload Component ────────────────────────────────────
+function ImageUploader({
+    token,
+    currentUrl,
+    onUploaded,
+}: {
+    token: string;
+    currentUrl: string;
+    onUploaded: (url: string) => void;
+}) {
+    const fileRef = useRef<HTMLInputElement>(null);
+    const [uploading, setUploading] = useState(false);
+    const [uploadResult, setUploadResult] = useState<{ url: string; savings: string } | null>(null);
+    const [uploadError, setUploadError] = useState('');
+
+    const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+
+        setUploading(true);
+        setUploadError('');
+        setUploadResult(null);
+
+        try {
+            const formData = new FormData();
+            formData.append('image', file);
+
+            const res = await fetch('/api/upload', {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${token}` },
+                body: formData,
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) {
+                setUploadError(data.error || 'Upload failed');
+                return;
+            }
+
+            setUploadResult({ url: data.url, savings: data.savings });
+            onUploaded(data.url);
+        } catch {
+            setUploadError('Network error — upload failed');
+        } finally {
+            setUploading(false);
+        }
+    };
+
+    return (
+        <div className="space-y-2">
+            <label className="text-xs text-zinc-400 font-medium uppercase tracking-wider">
+                Article Image
+            </label>
+
+            {/* Current image preview */}
+            {currentUrl && (
+                <div className="relative w-full h-32 rounded-lg overflow-hidden bg-zinc-800 border border-zinc-700">
+                    <img src={currentUrl} alt="Preview" className="w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                </div>
+            )}
+
+            {/* Upload button */}
+            <div className="flex gap-2">
+                <input
+                    type="text"
+                    placeholder="Image URL (or upload below)"
+                    value={currentUrl}
+                    onChange={(e) => onUploaded(e.target.value)}
+                    className="flex-1 px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white text-sm"
+                />
+                <button
+                    type="button"
+                    onClick={() => fileRef.current?.click()}
+                    disabled={uploading}
+                    className="px-4 py-3 bg-violet-600 hover:bg-violet-500 disabled:bg-zinc-700 text-white rounded-lg transition-colors flex items-center gap-2 text-sm font-medium whitespace-nowrap"
+                >
+                    {uploading ? (
+                        <><Loader2 className="w-4 h-4 animate-spin" /> Uploading...</>
+                    ) : (
+                        <><Upload className="w-4 h-4" /> Upload</>
+                    )}
+                </button>
+            </div>
+
+            <input
+                ref={fileRef}
+                type="file"
+                accept="image/*"
+                onChange={handleUpload}
+                className="hidden"
+            />
+
+            {/* Result */}
+            {uploadResult && (
+                <div className="flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-lg px-3 py-2">
+                    <CheckCircle2 className="w-3.5 h-3.5" />
+                    Uploaded to Cloudinary! Saved {uploadResult.savings}
+                </div>
+            )}
+            {uploadError && (
+                <div className="flex items-center gap-2 text-xs text-red-400 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2">
+                    <AlertTriangle className="w-3.5 h-3.5" />
+                    {uploadError}
+                </div>
+            )}
+        </div>
+    );
+}
+
+// ─── Main Admin Panel ──────────────────────────────────────────
 function AdminPanel() {
     const searchParams = useSearchParams();
     const router = useRouter();
@@ -127,7 +242,7 @@ function AdminPanel() {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ action: 'getData', sessionToken })
+                body: JSON.stringify({ action: 'getData', token })
             });
             const data = await res.json();
             if (data.error) {
@@ -199,19 +314,16 @@ function AdminPanel() {
         setLoading(true);
         setError('');
 
-        // Calculate payload size for debugging
         const payload = JSON.stringify({
             action: 'add',
-            sessionToken,
+            token,
             csrfToken,
             contentType: getContentType(),
             data: formData
         });
-        const payloadSizeKB = Math.round(payload.length / 1024);
 
-        // Check if payload is too large (Vercel limit is 4.5MB)
         if (payload.length > 4 * 1024 * 1024) {
-            setError(`Content too large (${payloadSizeKB}KB). Maximum allowed is 4MB.`);
+            setError('Content too large. Maximum allowed is 4MB.');
             setLoading(false);
             return;
         }
@@ -252,16 +364,15 @@ function AdminPanel() {
 
         const payload = JSON.stringify({
             action: 'update',
-            sessionToken,
+            token,
             csrfToken,
             contentType: getContentType(),
             itemId: editingItem.id,
             data: formData
         });
-        const payloadSizeKB = Math.round(payload.length / 1024);
 
         if (payload.length > 4 * 1024 * 1024) {
-            setError(`Content too large (${payloadSizeKB}KB). Maximum allowed is 4MB.`);
+            setError('Content too large. Maximum allowed is 4MB.');
             setLoading(false);
             return;
         }
@@ -304,7 +415,7 @@ function AdminPanel() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     action: 'delete',
-                    sessionToken,
+                    token,
                     csrfToken,
                     contentType: getContentType(),
                     itemId: id
@@ -379,6 +490,7 @@ function AdminPanel() {
         setFormData({});
     };
 
+    // ─── Loading / Token Check ────────────────────────────────
     if (isValidToken === null) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a]">
@@ -387,6 +499,7 @@ function AdminPanel() {
         );
     }
 
+    // ─── Login Screen ─────────────────────────────────────────
     if (!isLoggedIn) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a] px-4">
@@ -433,6 +546,7 @@ function AdminPanel() {
         );
     }
 
+    // ─── Dashboard ─────────────────────────────────────────────
     const showModal = showForm || editingItem !== null;
 
     return (
@@ -455,19 +569,19 @@ function AdminPanel() {
 
             <div className="border-b border-zinc-800">
                 <div className="max-w-7xl mx-auto px-4">
-                    <nav className="flex gap-1 -mb-px">
-                        {[
+                    <nav className="flex gap-1 -mb-px overflow-x-auto">
+                        {([
                             { id: 'articles' as Tab, icon: BookOpen, label: 'Articles' },
                             { id: 'apks' as Tab, icon: ShoppingBag, label: 'APKs' },
                             { id: 'aiLabs' as Tab, icon: Brain, label: 'AI Labs' },
                             { id: 'security' as Tab, icon: ShieldCheck, label: 'Security' },
                             { id: 'feedbacks' as Tab, icon: MessageSquare, label: 'Feedbacks' },
                             { id: 'logs' as Tab, icon: Eye, label: 'Logs' },
-                        ].map(tab => (
+                        ]).map(tab => (
                             <button
                                 key={tab.id}
                                 onClick={() => { setActiveTab(tab.id); closeForm(); }}
-                                className={`flex items-center gap-2 px-4 py-3 border-b-2 transition-colors ${activeTab === tab.id
+                                className={`flex items-center gap-2 px-4 py-3 border-b-2 transition-colors whitespace-nowrap ${activeTab === tab.id
                                     ? 'border-emerald-500 text-emerald-400'
                                     : 'border-transparent text-zinc-500 hover:text-white'
                                     }`}
@@ -502,6 +616,7 @@ function AdminPanel() {
                     </div>
                 )}
 
+                {/* ─── Modal Form ─────────────────────────────── */}
                 <AnimatePresence>
                     {showModal && activeTab !== 'logs' && activeTab !== 'feedbacks' && (
                         <motion.div
@@ -520,48 +635,58 @@ function AdminPanel() {
                                 className="w-full max-w-lg bg-zinc-900 border border-zinc-800 rounded-2xl p-6 max-h-[90vh] overflow-y-auto"
                             >
                                 <h3 className="text-lg font-semibold mb-6">
-                                    {editingItem ? 'Edit' : 'Add'} {activeTab.slice(0, -1)}
+                                    {editingItem ? 'Edit' : 'Add'} {activeTab === 'security' ? 'Security Tool' : activeTab.slice(0, -1)}
                                 </h3>
 
                                 <div className="space-y-4">
+                                    {/* ── Article Form ─── */}
                                     {activeTab === 'articles' && (
                                         <>
                                             <input type="text" placeholder="Title" value={formData.title || ''} onChange={e => setFormData({ ...formData, title: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Image URL" value={formData.image || ''} onChange={e => setFormData({ ...formData, image: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <textarea placeholder="Content (Markdown)" rows={6} value={formData.content || ''} onChange={e => setFormData({ ...formData, content: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+
+                                            {/* Cloudinary Image Upload */}
+                                            <ImageUploader
+                                                token={token || ''}
+                                                currentUrl={formData.image || ''}
+                                                onUploaded={(url) => setFormData({ ...formData, image: url })}
+                                            />
+
+                                            <textarea placeholder="Content (Markdown)" rows={8} value={formData.content || ''} onChange={e => setFormData({ ...formData, content: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white font-mono text-sm" />
                                             <input type="text" placeholder="Category" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                         </>
                                     )}
 
+                                    {/* ── APK Form ─── */}
                                     {activeTab === 'apks' && (
                                         <>
                                             <input type="text" placeholder="Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <input type="text" placeholder="Version (e.g., 1.0.0)" value={formData.version || ''} onChange={e => setFormData({ ...formData, version: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <input type="text" placeholder="Download URL (GitHub releases)" value={formData.downloadUrl || ''} onChange={e => setFormData({ ...formData, downloadUrl: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <input type="text" placeholder="Size (e.g., 15 MB)" value={formData.size || ''} onChange={e => setFormData({ ...formData, size: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <textarea placeholder="Description" rows={3} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                         </>
                                     )}
 
+                                    {/* ── AI Lab Form (aligned with schema) ─── */}
                                     {activeTab === 'aiLabs' && (
                                         <>
                                             <input type="text" placeholder="Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <select value={formData.status || 'experimental'} onChange={e => setFormData({ ...formData, status: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white">
-                                                <option value="active">Active</option>
-                                                <option value="experimental">Experimental</option>
-                                                <option value="archived">Archived</option>
-                                            </select>
-                                            <input type="text" placeholder="Demo URL (optional)" value={formData.demoUrl || ''} onChange={e => setFormData({ ...formData, demoUrl: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="URL (optional)" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Category (optional)" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                         </>
                                     )}
 
+                                    {/* ── Security Tool Form (aligned with schema) ─── */}
                                     {activeTab === 'security' && (
                                         <>
-                                            <input type="text" placeholder="Tool Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Tool Title" value={formData.title || ''} onChange={e => setFormData({ ...formData, title: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <textarea placeholder="Description" rows={3} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Category" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Link (optional)" value={formData.link || ''} onChange={e => setFormData({ ...formData, link: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="URL (optional)" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Category (optional)" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                         </>
                                     )}
                                 </div>
@@ -584,16 +709,23 @@ function AdminPanel() {
                     )}
                 </AnimatePresence>
 
+                {/* ─── Content Lists ──────────────────────────── */}
+
                 {activeTab === 'articles' && (
                     <div className="grid gap-4">
                         {articles.length === 0 ? (
                             <div className="text-center py-12 text-zinc-500">No articles yet. Add your first article!</div>
                         ) : articles.map(item => (
                             <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
-                                <BookOpen className="w-8 h-8 text-cyan-400 flex-shrink-0" />
+                                {item.image && (
+                                    <div className="w-12 h-12 rounded-lg overflow-hidden bg-zinc-800 flex-shrink-0">
+                                        <img src={item.image} alt="" className="w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                                    </div>
+                                )}
+                                {!item.image && <BookOpen className="w-8 h-8 text-cyan-400 flex-shrink-0" />}
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.title}</h3>
-                                    <p className="text-sm text-zinc-500">{new Date(item.date).toLocaleDateString()}</p>
+                                    <p className="text-sm text-zinc-500">{new Date(item.date).toLocaleDateString()}{item.category ? ` • ${item.category}` : ''}</p>
                                 </div>
                                 <div className="flex gap-2">
                                     <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
@@ -633,7 +765,7 @@ function AdminPanel() {
                                 <Brain className="w-8 h-8 text-purple-400 flex-shrink-0" />
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.name}</h3>
-                                    <p className="text-sm text-zinc-500 capitalize">{item.status}</p>
+                                    <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}{item.url ? ` • ${item.url}` : ''}</p>
                                 </div>
                                 <div className="flex gap-2">
                                     <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
@@ -652,10 +784,11 @@ function AdminPanel() {
                             <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex items-center gap-4">
                                 <ShieldCheck className="w-8 h-8 text-red-400 flex-shrink-0" />
                                 <div className="flex-1 min-w-0">
-                                    <h3 className="font-medium truncate">{item.name}</h3>
-                                    <p className="text-sm text-zinc-500">{item.category}</p>
+                                    <h3 className="font-medium truncate">{item.title}</h3>
+                                    <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}</p>
                                 </div>
                                 <div className="flex gap-2">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg"><Edit className="w-4 h-4 text-zinc-400" /></button>
                                     <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg"><Trash2 className="w-4 h-4 text-red-400" /></button>
                                 </div>
                             </div>

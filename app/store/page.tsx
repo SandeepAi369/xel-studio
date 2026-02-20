@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, ArrowLeft, Download, Search, Package } from 'lucide-react';
 import { SkeletonGrid } from '@/components/SkeletonCard';
+import { fetchWithCache } from '@/lib/DataCache';
 import { proxyDownload } from '@/lib/ghost-download';
 
 interface APK {
@@ -27,10 +28,12 @@ export default function StorePage() {
     const [downloading, setDownloading] = useState<string | null>(null);
 
     useEffect(() => {
-        fetch('/api/content?type=apks')
-            .then(res => res.json())
-            .then(data => {
-                setApks(data.items || []);
+        fetchWithCache<APK[]>(
+            '/api/content?type=apks',
+            (data: Record<string, unknown>) => (data.items as APK[]) || []
+        )
+            .then(items => {
+                setApks(items);
                 setLoading(false);
             })
             .catch(() => setLoading(false));
