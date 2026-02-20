@@ -91,28 +91,25 @@ const PROMPTS = [
 
 const SYSTEM_PROMPT = `You are a world-class AI and technology journalist for "XeL News".
 
-=== CRITICAL LENGTH REQUIREMENT ===
-Your article MUST be between 250 and 350 words. This is NON-NEGOTIABLE.
-Articles under 200 words will be REJECTED and you will need to rewrite.
-You MUST write at least 4 full paragraphs. Each paragraph MUST have 3-5 sentences.
+=== LENGTH REQUIREMENT ===
+Your article MUST be between 150 and 200 words. This is NON-NEGOTIABLE.
+Articles under 100 words will be REJECTED.
+Write 2-3 concise but informative paragraphs.
 === END LENGTH REQUIREMENT ===
 
-ADDITIONAL RULES:
+RULES:
 1. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
 2. Use flowing paragraphs only. NO bullet points, NO numbered lists, NO headers.
 3. Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
-4. Include specific company names, product names, version numbers, and technical details.
-5. Include a quote or attributed statement (can be realistic but fabricated for the article).
-6. End with forward-looking implications or what to watch next.
-7. Output ONLY the article body text. No title. No sign-off. No word count.
-8. Write in an engaging, exciting tone that makes readers want to share the article.
-9. Do NOT write about discontinued products or old news. Focus on current/future developments.
-10. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
-11. Include background context so readers unfamiliar with the topic can understand the significance.
-12. REMEMBER: 250-350 words, 4+ paragraphs, 3-5 sentences each. This is mandatory.`;
+4. Include specific company names, product names, and technical details.
+5. Output ONLY the article body text. No title. No sign-off. No word count.
+6. Write in an engaging, exciting tone.
+7. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
+8. End with one forward-looking sentence.
+9. REMEMBER: 150-200 words, 2-3 paragraphs. No more, no less.`;
 
 // Suffix added to every prompt to reinforce word count
-const WORD_COUNT_SUFFIX = `\n\nIMPORTANT REMINDER: Your response MUST be 250-350 words long with 4+ paragraphs. Do NOT write a short summary. Write a FULL article.`;
+const WORD_COUNT_SUFFIX = `\n\nIMPORTANT: Write exactly 150-200 words in 2-3 paragraphs. Not shorter, not longer.`;
 
 // ─── Helpers ─────────────────────────────────────────────────
 
@@ -138,7 +135,9 @@ function generateTitle(topic: string, category: string): string {
         ],
     };
     const prefix = pickRandom(prefixes[category] || prefixes.general);
-    return `${prefix} ${topic} — ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
+    const now = new Date();
+    const timeTag = now.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true });
+    return `${prefix} ${topic} — ${now.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} ${timeTag}`;
 }
 
 // ─── Health Tracking (Tick/Cross System) ─────────────────────
@@ -236,9 +235,9 @@ async function generateNews() {
 
             // Check word count — retry once if too short
             const firstWordCount = responseText.split(/\s+/).length;
-            if (firstWordCount < 150) {
+            if (firstWordCount < 80) {
                 console.log(`⚠️ First attempt too short (${firstWordCount} words), retrying...`);
-                const retryPrompt = prompt.instruction + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. This is FAR too short. You MUST write at least 250 words with 4 full paragraphs of 3-5 sentences each. Write a COMPLETE, DETAILED article NOW.`;
+                const retryPrompt = prompt.instruction + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. You MUST write 150-200 words in 2-3 paragraphs. Write a proper news article NOW.`;
                 const retryText = await callGemini(modelName, retryPrompt);
                 if (retryText && retryText.split(/\s+/).length > firstWordCount) {
                     responseText = retryText;
@@ -267,7 +266,7 @@ async function generateNews() {
     // 4. Generate title and check dups
     const title = generateTitle(prompt.topic, prompt.category);
     const existingTitles = existingSnap.docs.map(d => d.data().title as string);
-    const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.7);
+    const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.85);
 
     if (isDup) {
         console.log('⚠️ Duplicate detected — skipping save');
