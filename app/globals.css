@@ -22,6 +22,11 @@
 
 /* ===== BASE STYLES ===== */
 html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  touch-action: manipulation;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,7 +36,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
+
 
 /* ===== HERO GRADIENT TEXT ===== */
 .hero-gradient-text {
