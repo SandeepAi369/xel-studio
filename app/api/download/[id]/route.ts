@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getApps } from '@/lib/supabase-db';
-import { checkRateLimit, isValidDownloadUrl } from '@/lib/db';
+import { checkRateLimit, isValidDownloadUrl } from '@/lib/download-helpers';
 
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';

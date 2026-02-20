@@ -22,9 +22,10 @@ const ALL_CONTENT_PATHS = [
     '/',
     '/articles',
     '/ai-news',
-    '/apks',
-    '/ai-labs',
-    '/security',
+    '/store',
+    '/ai',
+    '/shield',
+    '/dashboard',
 ];
 
 export async function POST(request: NextRequest) {
@@ -34,7 +35,7 @@ export async function POST(request: NextRequest) {
         let paths: string[] | null = null;
 
         const query = request.nextUrl.searchParams.get('secret');
-        
+
         try {
             const body = await request.json();
             secret = body.secret || query;
@@ -83,7 +84,7 @@ export async function POST(request: NextRequest) {
 export async function GET(request: NextRequest) {
     const secret = request.nextUrl.searchParams.get('secret');
     const expectedSecret = process.env.REVALIDATION_SECRET || process.env.ADMIN_PASSWORD;
-    
+
     if (secret !== expectedSecret) {
         return NextResponse.json({ error: 'Invalid secret' }, { status: 401 });
     }
