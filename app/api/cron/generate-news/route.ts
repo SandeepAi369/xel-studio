@@ -1,17 +1,17 @@
 /**
- * /api/cron/generate-news — AI News Generator v4 (DuckDuckGo + Thumbnails)
- * =========================================================================
- * Pipeline: DuckDuckGo News → Gemini (with live context) →
- *           Unsplash (professional keyword) → Cloudinary → Firestore.
+ * /api/cron/generate-news — AI News Generator v5 (Dynamic Query + Thumbnails)
+ * =============================================================================
+ * Pipeline: Dynamic Query → DuckDuckGo Search → Gemini (elite journalist) →
+ *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
  *
  * Architecture:
- *   - 10 AI-heavy weighted prompts with tailored DuckDuckGo search queries
- *   - DuckDuckGo news search provides real-time context to Gemini
- *   - Gemini writes article + generates professional multi-word imageKeyword
- *   - Unsplash API fetches editorial-quality images using that keyword
+ *   - Dynamic Query Generation Algorithm: randomized keyword combos from
+ *     6 categories (AI Models, Tech Giants, Sub-Niches, Indian AI, World, General)
+ *   - DuckDuckGo search provides real-time context to Gemini
+ *   - Gemini returns structured JSON: articleText + imageKeyword
+ *   - Unsplash API fetches editorial-quality images using descriptive keyword
  *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
- *   - Node.js runtime (firebase-admin incompatible with Edge)
  *
  * Health Tracking (system/cron_health):
  *   ✅ Success → { status: "✅ Success", timestamp, last_news_title }
@@ -30,109 +30,71 @@ export const maxDuration = 60;
 const COLLECTION = 'news';
 const HEALTH_DOC = 'system/cron_health';
 const NEWS_TTL_HOURS = 24;
-const DDG_RESULT_COUNT = 8; // Number of DuckDuckGo results to fetch
+const DDG_RESULT_COUNT = 8;
 
-// ─── 10 AI-Heavy Weighted Prompts with DuckDuckGo Search Queries ──
-const PROMPTS = [
-    // ── AI PROMPTS (8) ──────────────────────────────────────
-    {
-        category: 'ai',
-        topic: 'OpenAI & Anthropic',
-        searchQuery: 'OpenAI Anthropic Claude GPT latest news today',
-        instruction: `Write a breaking AI news article about the latest developments from OpenAI, Anthropic, or their competitors. Cover new model releases (GPT, Claude, etc.), API updates, safety research, partnerships, or product launches. Include technical significance, market impact, and what it means for developers and businesses.`,
-    },
-    {
-        category: 'ai',
-        topic: 'Google DeepMind & Microsoft AI',
-        searchQuery: 'Google DeepMind Gemini Microsoft Copilot AI news today',
-        instruction: `Write a breaking AI news article about Google DeepMind, Microsoft AI, or Copilot developments. Cover new Gemini models, Azure AI features, AI integration into Google/Microsoft products, research breakthroughs (AlphaFold, etc.), or enterprise AI adoption. Include competitive dynamics and technical implications.`,
-    },
-    {
-        category: 'ai',
-        topic: 'Open-Source AI & GitHub Trends',
-        searchQuery: 'open source AI model Hugging Face Llama Mistral DeepSeek news',
-        instruction: `Write a breaking AI news article about open-source AI developments. Cover new model releases on Hugging Face, trending GitHub AI repositories, Llama/Mistral/DeepSeek updates, community fine-tuning breakthroughs, open-source vs closed-source debates, or democratization of AI tools. Include practical developer impact.`,
-    },
-    {
-        category: 'ai',
-        topic: 'India AI Mission & Startups',
-        searchQuery: 'India AI startup Krutrim Sarvam IndiaAI Mission news today',
-        instruction: `Write a breaking AI news article about India's AI ecosystem. Cover IndiaAI Mission progress, Indian AI startups (Krutrim, Sarvam AI, etc.), government AI policies, AI adoption in Indian industries, IIT/IISC research breakthroughs, or India's role in global AI competition. Include economic and social implications.`,
-    },
-    {
-        category: 'ai',
-        topic: 'AI Hardware & Nvidia',
-        searchQuery: 'Nvidia GPU AI chip Blackwell AMD Intel data center news',
-        instruction: `Write a breaking AI news article about AI hardware and infrastructure. Cover Nvidia GPU launches (H100, B200, Blackwell), AMD/Intel AI chips, AI data center expansion, cloud GPU pricing, custom AI silicon (Google TPU, Amazon Trainium), or semiconductor supply chain updates. Include performance benchmarks and industry impact.`,
-    },
-    {
-        category: 'ai',
-        topic: 'AI Agents & Automation',
-        searchQuery: 'AI agent autonomous coding assistant Copilot Cursor automation news',
-        instruction: `Write a breaking AI news article about AI agents and autonomous systems. Cover new AI agent frameworks, AutoGPT/CrewAI/LangChain updates, enterprise AI automation, coding assistants (Cursor, GitHub Copilot, Windsurf), AI in robotics, or multi-agent systems. Include practical applications and workforce implications.`,
-    },
-    {
-        category: 'ai',
-        topic: 'AI Safety & Regulation',
-        searchQuery: 'AI safety regulation EU AI Act alignment deepfake policy news',
-        instruction: `Write a breaking AI news article about AI safety, ethics, or regulation. Cover EU AI Act implementation, US AI executive orders, AI alignment research, deepfake concerns, AI in elections, responsible AI practices, or major company AI safety commitments. Include policy analysis and global coordination efforts.`,
-    },
-    {
-        category: 'ai',
-        topic: 'Generative AI & Creative Tools',
-        searchQuery: 'generative AI Midjourney Sora Stable Diffusion text to video news',
-        instruction: `Write a breaking AI news article about generative AI advances. Cover text-to-image (Midjourney, DALL-E, Stable Diffusion), text-to-video (Sora, Runway, Kling), AI music generation, AI coding tools, or creative AI applications. Include quality improvements, accessibility, and impact on creative industries.`,
-    },
+// ─── Dynamic Query Generation Algorithm ─────────────────────
 
-    // ── GENERAL/GEOPOLITICS PROMPTS (2) ─────────────────────
-    {
-        category: 'world',
-        topic: 'Global Tech & Geopolitics',
-        searchQuery: 'US China tech semiconductor trade war cybersecurity geopolitics news',
-        instruction: `Write a breaking news article about a major global technology or geopolitical development. Cover US-China tech rivalry, semiconductor trade wars, space exploration milestones, cybersecurity incidents, digital currency developments, or major tech company antitrust actions. Include geopolitical context and global implications.`,
-    },
-    {
-        category: 'world',
-        topic: 'Science & Climate',
-        searchQuery: 'fusion energy quantum computing climate breakthrough renewable energy news',
-        instruction: `Write a breaking news article about a major scientific breakthrough or climate development. Cover fusion energy, quantum computing milestones, climate policy updates, renewable energy records, space discoveries, biotech breakthroughs, or environmental technology. Include scientific significance and societal impact.`,
-    },
-];
+const keywordCategories: Record<string, string[]> = {
+    aiModels: ['GPT-5', 'Gemini 2.0', 'Claude 3.5', 'Llama 3', 'Mistral Large', 'DeepSeek R1', 'Grok 3', 'Qwen 2.5'],
+    techGiants: ['OpenAI', 'Nvidia', 'Anthropic', 'Google DeepMind', 'Microsoft AI', 'Hugging Face', 'xAI', 'Meta AI'],
+    subNiches: ['Autonomous Agents', 'AI Robotics', 'Quantum Computing', 'AI Hardware/Chips', 'Open-Source AI', 'Multimodal AI', 'AI Safety', 'Edge AI', 'Synthetic Data'],
+    indianAI: ['Sarvam AI', 'Krutrim AI', 'India AI Mission', 'Bhashini', 'MeitY AI', 'Reliance Jio AI', 'Tata AI', 'Indian LLM', 'Aadhaar AI', 'BharatGen'],
+    worldNews: ['US-China AI rivalry', 'EU AI Act', 'China AI chips', 'Global AI governance', 'AI in climate policy', 'AI cybersecurity threats', 'UN AI summit'],
+    generalNews: ['India economy 2026', 'global stock markets', 'India budget 2026', 'ISRO AI', 'world economy update', 'geopolitical tech', 'breaking India news'],
+};
 
-// ─── System Prompt — uses real-time DuckDuckGo context ───────
-
-const SYSTEM_PROMPT = `You are a world-class AI and technology journalist for "XeL News".
-
-=== OUTPUT FORMAT ===
-You MUST output a valid JSON object with exactly two fields:
-  - "articleText": the article body (150-200 words, 2-3 paragraphs, flowing text only)
-  - "imageKeyword": a professional 2-3 word Unsplash search phrase for finding a stunning, editorial-quality photograph related to the article topic.
-    GOOD examples: "artificial intelligence laboratory", "quantum computing chip", "autonomous robot manufacturing", "cybersecurity dark server", "neural network visualization", "semiconductor cleanroom facility", "space rocket launch", "renewable solar farm"
-    BAD examples (too generic): "technology", "robot", "computer", "science"
-
-Output ONLY the raw JSON object. No markdown code fences, no backticks, no extra text before or after.
-=== END OUTPUT FORMAT ===
-
-=== ARTICLE RULES ===
-1. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-2. The "articleText" must be 150-200 words in 2-3 flowing paragraphs. NO bullet points, NO numbered lists, NO headers.
-3. Do NOT start the articleText with the word "In" or "The". Start with something punchy and attention-grabbing.
-4. Include specific company names, product names, and technical details.
-5. Write in an engaging, exciting tone.
-6. You will be given LIVE NEWS CONTEXT scraped from the internet. Use this real-time context to write about ACTUAL current events. Cite real facts, names, and developments from the context.
-7. If the live context is empty or irrelevant, use your training knowledge to write about the most recent known developments.
-8. End with one forward-looking sentence.
-9. REMEMBER: 150-200 words, 2-3 paragraphs. No more, no less.
-=== END ARTICLE RULES ===`;
-
-// Suffix to reinforce format
-const WORD_COUNT_SUFFIX = `\n\nIMPORTANT: Write exactly 150-200 words in 2-3 paragraphs. Output ONLY a valid JSON object with "articleText" and "imageKeyword" fields. The imageKeyword MUST be 2-3 descriptive words for Unsplash (NOT a single generic word). No markdown, no code fences.`;
-
-// ─── Helpers ─────────────────────────────────────────────────
-
-function pickRandom<T>(arr: T[]): T {
+function getRandomElement<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
 }
+
+function getRandomElements<T>(arr: T[], count: number): T[] {
+    return [...arr].sort(() => Math.random() - 0.5).slice(0, count);
+}
+
+export function generateDynamicQuery(): string {
+    const categoryKeys = Object.keys(keywordCategories);
+    const numKeywords = Math.random() > 0.4 ? 2 : 1;
+    const selectedCategories = numKeywords === 1
+        ? [getRandomElement(categoryKeys)]
+        : getRandomElements(categoryKeys, 2);
+    const keywords = selectedCategories.map(cat => getRandomElement(keywordCategories[cat]));
+    const coreQuery = keywords.length === 1
+        ? keywords[0]
+        : keywords[0] + (Math.random() > 0.5 ? ' AND ' : ' OR ') + keywords[1];
+
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.toLocaleString('en-US', { month: 'long' });
+    const timeModifiers = [
+        'latest breaking news', 'updates today', `news ${month} ${year}`,
+        'fresh developments', 'this week', 'breaking today',
+        `${year} breakthrough`, 'exclusive update',
+    ];
+
+    return `${coreQuery} ${getRandomElement(timeModifiers)}`.trim();
+}
+
+// ─── Detect category from dynamic query ─────────────────────
+
+function detectCategory(query: string): string {
+    const q = query.toLowerCase();
+    const aiPatterns = ['gpt', 'gemini', 'claude', 'llama', 'mistral', 'deepseek', 'grok', 'qwen',
+        'openai', 'nvidia', 'anthropic', 'deepmind', 'hugging face', 'xai', 'meta ai',
+        'autonomous agent', 'ai robot', 'quantum', 'ai hardware', 'open-source ai',
+        'multimodal', 'ai safety', 'edge ai', 'synthetic data', 'microsoft ai'];
+    const indiaPatterns = ['sarvam', 'krutrim', 'india ai', 'bhashini', 'meity', 'jio ai',
+        'tata ai', 'indian llm', 'aadhaar', 'bharatgen', 'isro', 'india economy', 'india budget'];
+    const worldPatterns = ['us-china', 'eu ai act', 'china ai', 'global ai governance',
+        'climate policy', 'cybersecurity', 'un ai summit', 'geopolitical', 'stock market',
+        'world economy'];
+
+    if (indiaPatterns.some(p => q.includes(p))) return 'ai'; // Indian AI still under ai category
+    if (worldPatterns.some(p => q.includes(p))) return 'world';
+    if (aiPatterns.some(p => q.includes(p))) return 'ai';
+    return Math.random() > 0.3 ? 'ai' : 'world';
+}
+
+// ─── Helpers ─────────────────────────────────────────────────
 
 function generateTitle(topic: string, category: string): string {
     const prefixes: Record<string, string[]> = {
@@ -151,30 +113,37 @@ function generateTitle(topic: string, category: string): string {
             'World Report:',
         ],
     };
-    const prefix = pickRandom(prefixes[category] || prefixes.general);
+    const prefix = getRandomElement(prefixes[category] || prefixes.general);
     return `${prefix} ${topic}`;
 }
 
-// ─── DuckDuckGo News Search ─────────────────────────────────
+// Extract a clean topic name from the dynamic query
+function extractTopic(query: string): string {
+    // Remove time modifiers to get the core topic
+    const timePatterns = /\s*(latest breaking news|updates today|news \w+ \d+|fresh developments|this week|breaking today|\d+ breakthrough|exclusive update)$/i;
+    let topic = query.replace(timePatterns, '').trim();
+    // Remove AND/OR connectors for cleaner title
+    topic = topic.replace(/\s+(AND|OR)\s+/g, ' & ');
+    return topic;
+}
 
-async function searchDuckDuckGo(query: string): Promise<string> {
+// ─── DuckDuckGo Search ──────────────────────────────────────
+
+async function searchDuckDuckGo(query: string): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
     try {
         console.log(`🔍 DuckDuckGo: searching "${query}"...`);
 
-        // Use DuckDuckGo text search with time filter for recency
         const results = await Promise.race([
             search(query, {
                 safeSearch: SafeSearchType.MODERATE,
-                time: SearchTimeType.DAY, // Last 24 hours for freshness
+                time: SearchTimeType.DAY,
             }),
-            // 8-second timeout fallback
             new Promise<never>((_, reject) =>
                 setTimeout(() => reject(new Error('DuckDuckGo timeout')), 8000)
             ),
         ]);
 
         if (!results?.results || results.results.length === 0) {
-            // Retry without time filter if no results
             console.log('🔄 No recent results, retrying without time filter...');
             const retryResults = await Promise.race([
                 search(query, {
@@ -187,7 +156,7 @@ async function searchDuckDuckGo(query: string): Promise<string> {
 
             if (!retryResults?.results || retryResults.results.length === 0) {
                 console.warn('⚠️ DuckDuckGo returned no results');
-                return '';
+                return { context: '', results: [] };
             }
 
             const topResults = retryResults.results.slice(0, DDG_RESULT_COUNT);
@@ -195,7 +164,7 @@ async function searchDuckDuckGo(query: string): Promise<string> {
                 .map((r, i) => `[${i + 1}] ${r.title}\n${r.description}`)
                 .join('\n\n');
             console.log(`🔍 DuckDuckGo: ${topResults.length} results (unfiltered)`);
-            return context;
+            return { context, results: topResults.map(r => ({ title: r.title, description: r.description })) };
         }
 
         const topResults = results.results.slice(0, DDG_RESULT_COUNT);
@@ -204,11 +173,11 @@ async function searchDuckDuckGo(query: string): Promise<string> {
             .join('\n\n');
 
         console.log(`🔍 DuckDuckGo: ${topResults.length} results for "${query}"`);
-        return context;
+        return { context, results: topResults.map(r => ({ title: r.title, description: r.description })) };
     } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);
         console.warn(`⚠️ DuckDuckGo search failed: ${msg}`);
-        return ''; // Graceful fallback — Gemini uses training data
+        return { context: '', results: [] };
     }
 }
 
@@ -278,7 +247,7 @@ function parseGeminiResponse(text: string): { articleText: string; imageKeyword:
     console.warn('⚠️ Could not parse JSON from Gemini — using fallback');
     return {
         articleText: text.trim(),
-        imageKeyword: 'artificial intelligence technology',
+        imageKeyword: 'futuristic artificial intelligence technology lab',
     };
 }
 
@@ -328,47 +297,66 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v4 — DuckDuckGo + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v5 — Dynamic Query + DuckDuckGo + Thumbnails');
 
-    // 1. Pick random prompt
-    const prompt = pickRandom(PROMPTS);
-    console.log(`📌 Prompt: [${prompt.category.toUpperCase()}] ${prompt.topic}`);
+    // 1. Generate dynamic search query
+    const searchQuery = generateDynamicQuery();
+    console.log('📰 Generated dynamic query:', searchQuery);
 
-    // 2. Init Gemini
+    // 2. Detect category from query
+    const category = detectCategory(searchQuery);
+    const topic = extractTopic(searchQuery);
+    console.log(`📌 Category: ${category.toUpperCase()}, Topic: "${topic}"`);
+
+    // 3. Init Gemini
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) throw new Error('GEMINI_API_KEY not set');
     const ai = new GoogleGenAI({ apiKey });
 
-    // 3. Run DuckDuckGo search + cleanup + dedup check in parallel
-    const [liveContext, existingSnap] = await Promise.all([
-        searchDuckDuckGo(prompt.searchQuery),
+    // 4. Run DuckDuckGo search + cleanup + dedup check in parallel
+    const [ddgResult, existingSnap] = await Promise.all([
+        searchDuckDuckGo(searchQuery),
         adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
         cleanupOldArticles(),
     ]);
 
-    // 4. Build the user prompt with live context
-    const contextBlock = liveContext
-        ? `\n\n=== LIVE NEWS CONTEXT (from DuckDuckGo — use this to write about REAL current events) ===\n${liveContext}\n=== END LIVE CONTEXT ===\n`
-        : '\n\n(No live context available — use your training knowledge about the most recent developments.)\n';
+    const scrapedData = ddgResult.results;
 
-    const userPrompt = prompt.instruction + contextBlock + WORD_COUNT_SUFFIX;
+    // 5. Build the elite journalist prompt with live context
+    const userPrompt = `You are an elite tech journalist writing for a top-tier publication.
+The user searched DuckDuckGo with this highly specific query: "${searchQuery}"
+
+Here is the raw scraped data:
+${JSON.stringify(scrapedData, null, 2)}
+
+Write a highly engaging, cutting-edge 150-200 word article based on this data. Make it feel like an exclusive, premium piece. Use vivid language, sharp analysis, and a forward-looking insight.
+
+Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
+Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
+If the scraped data is empty, use your training knowledge about the most recent known developments for the query topic.
+
+You MUST return the response in strict JSON format with exactly TWO keys:
+1. "articleText": The 150-200 word article in 2-3 flowing paragraphs. NO bullet points, NO lists, NO headers.
+2. "imageKeyword": A highly relevant, descriptive 3-5 word Unsplash search phrase for a stunning, cinematic, editorial-quality photograph.
+   EXCELLENT examples: "glowing neural network server room", "futuristic autonomous robot assembly line", "quantum computing processor closeup", "cybersecurity hacker dark terminal", "semiconductor cleanroom neon lights", "space satellite earth orbit", "scientist AI holographic display"
+   BAD examples (too generic, will give boring images): "technology", "robot", "AI", "computer"
+
+Output ONLY the raw JSON object. No markdown code fences, no backticks, no explanation.`;
 
     // Model fallback chain
     const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
     let responseText = '';
     let usedModel = '';
 
-    // 5. Call Gemini (NO Google Search grounding — we provide our own context)
+    // 6. Call Gemini (no Google Search — we provide DuckDuckGo context)
     async function callGemini(modelName: string, contentText: string): Promise<string> {
         const result = await ai.models.generateContent({
             model: modelName,
             contents: contentText,
             config: {
-                systemInstruction: SYSTEM_PROMPT,
                 temperature: 0.95,
                 maxOutputTokens: 2048,
                 topP: 0.95,
-                // No tools — DuckDuckGo provides real-time context instead
             },
         });
         return result.text?.trim() || '';
@@ -385,7 +373,7 @@ async function generateNews() {
             const firstWordCount = parsed.articleText.split(/\s+/).length;
             if (firstWordCount < 80) {
                 console.log(`⚠️ First attempt too short (${firstWordCount} words), retrying...`);
-                const retryPrompt = prompt.instruction + contextBlock + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. You MUST write 150-200 words in 2-3 paragraphs. Write a proper news article NOW. Output ONLY a valid JSON with "articleText" and "imageKeyword" fields. The imageKeyword must be 2-3 descriptive words.`;
+                const retryPrompt = userPrompt + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. You MUST write 150-200 words in 2-3 paragraphs. The imageKeyword MUST be 3-5 descriptive words for a cinematic photo. Output ONLY valid JSON.`;
                 const retryText = await callGemini(modelName, retryPrompt);
                 if (retryText) {
                     const retryParsed = parseGeminiResponse(retryText);
@@ -410,13 +398,13 @@ async function generateNews() {
 
     if (!responseText) throw new Error('All Gemini models failed');
 
-    // 6. Parse the structured JSON response
+    // 7. Parse the structured JSON response
     const { articleText, imageKeyword } = parseGeminiResponse(responseText);
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Response (${usedModel}): ${wordCount} words, keyword: "${imageKeyword}"`);
 
-    // 7. Generate title and check dups
-    const title = generateTitle(prompt.topic, prompt.category);
+    // 8. Generate title and check dups
+    const title = generateTitle(topic, category);
     const existingTitles = existingSnap.docs.map(d => d.data().title as string);
     const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.85);
 
@@ -430,7 +418,7 @@ async function generateNews() {
         return { status: 'duplicate', title, duration_ms: Date.now() - t0 };
     }
 
-    // 8. Fetch image from Unsplash + wrap with Cloudinary
+    // 9. Fetch image from Unsplash + wrap with Cloudinary
     let imageUrl: string | null = null;
     const unsplashUrl = await fetchUnsplashImage(imageKeyword);
     if (unsplashUrl) {
@@ -440,7 +428,7 @@ async function generateNews() {
         console.log('📷 No image — article will be saved without thumbnail');
     }
 
-    // 9. Save to Firestore
+    // 10. Save to Firestore
     const newsItem = {
         id: crypto.randomUUID(),
         title,
@@ -448,7 +436,7 @@ async function generateNews() {
         image_url: imageUrl,
         source_link: null,
         source_name: 'XeL AI News',
-        category: prompt.category,
+        category,
         date: new Date().toISOString(),
     };
 
@@ -456,14 +444,15 @@ async function generateNews() {
     const duration = Date.now() - t0;
     console.log(`✅ Saved: "${title}" in ${duration}ms`);
 
-    // 10. Log health ✅
+    // 11. Log health ✅
     await logHealth('✅ Success', {
         last_news_title: title,
-        category: prompt.category,
+        category,
         word_count: `${wordCount}`,
         image_keyword: imageKeyword,
         has_image: imageUrl ? 'yes' : 'no',
-        ddg_context: liveContext ? 'yes' : 'no',
+        ddg_query: searchQuery,
+        ddg_results: `${scrapedData.length}`,
         duration_ms: `${duration}`,
     });
 
@@ -471,11 +460,12 @@ async function generateNews() {
         status: 'ok',
         saved: 1,
         title,
-        category: prompt.category,
+        category,
         word_count: wordCount,
         image_keyword: imageKeyword,
         has_image: !!imageUrl,
-        ddg_context: !!liveContext,
+        ddg_query: searchQuery,
+        ddg_results: scrapedData.length,
         duration_ms: duration,
     };
 }
