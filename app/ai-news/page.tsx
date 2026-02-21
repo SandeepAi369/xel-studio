@@ -234,19 +234,15 @@ export default function AINewsPage() {
     }
   }, [loading]);
 
-  // Sort: AI first, then Technology, then General — within each group by date
+  // Sort: latest news first (by date, newest at top)
   const sortedAndFilteredNews = useMemo(() => {
     let filtered = news;
     if (filter !== "all") {
       filtered = news.filter((n) => n.category === filter);
     }
-    const priorityMap: Record<string, number> = { ai: 0, tech: 1, world: 2 };
-    return [...filtered].sort((a, b) => {
-      const pA = priorityMap[a.category] ?? 2;
-      const pB = priorityMap[b.category] ?? 2;
-      if (pA !== pB) return pA - pB;
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
-    });
+    return [...filtered].sort((a, b) =>
+      new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
   }, [news, filter]);
 
   // Counts per category

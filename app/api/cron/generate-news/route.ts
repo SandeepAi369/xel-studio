@@ -87,18 +87,27 @@ function detectCategory(query: string): string {
 function generateTitle(topic: string, category: string): string {
     const prefixes: Record<string, string[]> = {
         ai: [
-            'Breaking: Major AI Breakthrough in',
-            'AI Industry Shakeup:',
-            'Next-Gen AI:',
-            'AI Revolution:',
-            'Exclusive:',
-            'Breaking:',
+            'AI Update:',
+            'AI Development:',
+            'AI News:',
+            'AI Progress:',
+        ],
+        tech: [
+            'Tech Update:',
+            'Tech News:',
+            'Technology:',
+            'Industry Update:',
+        ],
+        world: [
+            'Global Tech:',
+            'World Update:',
+            'Global News:',
+            'World Tech:',
         ],
         general: [
-            'Global Update:',
-            'Breaking:',
-            'Major Development:',
-            'World Report:',
+            'Update:',
+            'News:',
+            'Report:',
         ],
     };
     const prefix = getRandomElement(prefixes[category] || prefixes.general);
@@ -345,10 +354,10 @@ RULES:
 4. Structure as 2-3 paragraphs separated by double newlines.
 5. Do NOT start with "In" or "The". Start punchy.
 6. NEVER mention search queries, DuckDuckGo, or any internal details.
-7. MINIMUM 150 words, MAXIMUM 200 words. This is non-negotiable.
+7. MINIMUM 175 words, MAXIMUM 225 words. This is non-negotiable.
 8. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
 
-Return JSON with exactly one key: { "articleText": "your 150-200 word article here" }`;
+Return JSON with exactly one key: { "articleText": "your 175-225 word article here" }`;
 
     const MODELS = ['gemini-3.0-flash', 'gemini-2.5-flash'];
     let articleText = '';
