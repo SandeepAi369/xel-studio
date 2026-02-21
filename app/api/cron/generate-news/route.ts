@@ -1,14 +1,14 @@
 /**
- * /api/cron/generate-news — AI News Generator v7 (Gemini + DuckDuckGo + Thumbnails)
+ * /api/cron/generate-news — AI News Generator v8 (Groq Llama 4 + DuckDuckGo + Thumbnails)
  * =============================================================================
- * Pipeline: Dynamic Query → DuckDuckGo Search → Gemini (strict factual JSON) →
+ * Pipeline: Dynamic Query → DuckDuckGo Search → Groq (Llama 4 strict factual JSON) →
  *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
  *
  * Architecture:
  *   - Simple Query Generation: random selection from curated search queries
  *   - DuckDuckGo search provides real-time context with auto-retry fallback
- *   - Gemini returns structured JSON via responseMimeType: application/json
- *   - TWO separate Gemini calls: (1) article text, (2) image keyword
+ *   - Groq returns structured JSON via response_format: json_object
+ *   - Single Groq call returns both articleText + imageKeyword
  *   - Unsplash API fetches editorial-quality images using descriptive keyword
  *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
@@ -19,7 +19,7 @@
  */
 
 import { NextResponse } from 'next/server';
-import { GoogleGenAI } from '@google/genai';
+import Groq from 'groq-sdk';
 import { adminDb } from '@/lib/firebase-admin';
 import { search, SafeSearchType, SearchTimeType } from 'duck-duck-scrape';
 
@@ -293,7 +293,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v7 — Gemini + DuckDuckGo + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v8 — Groq Llama 4 + DuckDuckGo + Thumbnails');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -304,10 +304,10 @@ async function generateNews() {
     const topic = extractTopic(searchQuery);
     console.log(`📌 Category: ${category.toUpperCase()}, Topic: "${topic}"`);
 
-    // 3. Init Gemini
-    const geminiApiKey = process.env.GEMINI_API_KEY;
-    if (!geminiApiKey) throw new Error('GEMINI_API_KEY not set');
-    const ai = new GoogleGenAI({ apiKey: geminiApiKey });
+    // 3. Init Groq
+    const groqApiKey = process.env.GROQ_API_KEY;
+    if (!groqApiKey) throw new Error('GROQ_API_KEY not set');
+    const groq = new Groq({ apiKey: groqApiKey });
 
     // 4. Run DuckDuckGo search with AUTO-RETRY FALLBACK + cleanup + dedup check
     const [initialDdgResult, existingSnap] = await Promise.all([
@@ -324,7 +324,6 @@ async function generateNews() {
     ).join('').length;
 
     if (!scrapedData.length || totalTextLength < 50) {
-        // FALLBACK: initial search was empty/weak — try a general topic
         const fallbackQuery = generateFallbackQuery();
         console.log(`⚠️ Primary search weak (${scrapedData.length} results, ${totalTextLength} chars). Retrying with fallback: "${fallbackQuery}"`);
         const fallbackResult = await searchDuckDuckGo(fallbackQuery);
@@ -333,14 +332,16 @@ async function generateNews() {
             usedQuery = fallbackQuery;
             console.log(`✅ Fallback search succeeded: ${scrapedData.length} results`);
         } else {
-            console.log('⚠️ Fallback also empty — Gemini will generate from general knowledge');
+            console.log('⚠️ Fallback also empty — Llama will generate from general knowledge');
         }
     } else {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. GEMINI — Single call for BOTH articleText + imageKeyword
-    const prompt = `You are a strict, factual tech reporter writing for a premium news publication.
+    // 5. GROQ — Single call for BOTH articleText + imageKeyword
+    const systemPrompt = `You are a strict, factual tech reporter. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other keys, no markdown, no explanation — ONLY the JSON object.`;
+
+    const userPrompt = `Write a news article based on the search data below.
 
 Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
 
@@ -350,65 +351,61 @@ ${JSON.stringify(scrapedData, null, 2)}
 STRICT RULES FOR articleText:
 1. Write STRICTLY based on facts from the data. NO speculation, NO invented info.
 2. Pick the single most prominent news event. Do NOT mix unrelated topics.
-3. Write clean, professional prose. Rewrite facts naturally — do not copy-paste raw snippets.
+3. Write clean, professional prose. Rewrite facts naturally.
 4. Structure as 2-3 well-developed paragraphs separated by double newlines.
 5. Do NOT start with "In" or "The". Start punchy and attention-grabbing.
-6. NEVER mention search queries, DuckDuckGo, scraped data, or any internal pipeline details.
-7. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
+6. NEVER mention search queries, DuckDuckGo, scraped data, or internal details.
+7. If data is empty, write about the most recent CONFIRMED, publicly known development.
 
-WORD COUNT REQUIREMENT (CRITICAL — READ CAREFULLY):
+WORD COUNT REQUIREMENT (CRITICAL):
 - You MUST write BETWEEN 175 and 225 words. This is MANDATORY.
-- An article under 170 words is COMPLETELY UNACCEPTABLE and will be REJECTED.
-- Count your words carefully. If your draft is under 175 words, ADD more factual context, background, industry impact, or expert analysis.
-- Do NOT pad with filler. Add substantive, relevant information.
+- Under 170 words is COMPLETELY UNACCEPTABLE.
+- Count your words. If under 175, ADD factual context, background, or analysis.
 
 RULES FOR imageKeyword:
-- Based on the article you wrote, generate a 3-5 word cinematic Unsplash photo search phrase.
-- Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "data center corridor blue lights"
-- Bad examples (too generic): "technology", "AI", "computer", "robot"
+- Based on your article, generate a 3-5 word cinematic Unsplash photo search phrase.
+- Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light"
+- Bad examples (too generic): "technology", "AI", "computer"
 
-Return JSON with EXACTLY two keys: { "articleText": "your 175-225 word article", "imageKeyword": "your 3-5 word phrase" }`;
+Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your 3-5 word phrase" }`;
 
-    // Use STABLE GA models only (preview models like gemini-3.0-flash are unreliable)
-    const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+    // Llama 4 models on Groq
+    const MODELS = ['meta-llama/llama-4-scout-17b-16e-instruct', 'meta-llama/llama-4-maverick-17b-128e-instruct'];
     let articleText = '';
     let imageKeyword = '';
     let usedModel = '';
 
-    // Helper to call Gemini
-    async function callGemini(modelName: string, inputPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
-        const result = await ai.models.generateContent({
+    // Helper to call Groq
+    async function callGroq(modelName: string, sysPrompt: string, usrPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
+        const completion = await groq.chat.completions.create({
             model: modelName,
-            contents: inputPrompt,
-            config: {
-                temperature: 0.4,
-                maxOutputTokens: 4096,
-                responseMimeType: 'application/json',
-            },
+            messages: [
+                { role: 'system', content: sysPrompt },
+                { role: 'user', content: usrPrompt },
+            ],
+            temperature: 0.4,
+            max_tokens: 4096,
+            response_format: { type: 'json_object' },
         });
-        const raw = result.text?.trim() || '';
+
+        const raw = completion.choices[0]?.message?.content?.trim() || '';
         if (!raw) throw new Error('Empty response');
 
         const article = parseArticleResponse(raw);
-        // Try to extract imageKeyword from JSON too
         let imgKw = 'futuristic artificial intelligence technology';
         try {
-            let clean = raw;
-            if (clean.startsWith('```')) {
-                clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
-            }
-            const parsed = JSON.parse(clean);
+            const parsed = JSON.parse(raw);
             if (parsed.imageKeyword) imgKw = parsed.imageKeyword.trim().toLowerCase();
         } catch { /* use fallback */ }
 
         return { articleText: article, imageKeyword: imgKw };
     }
 
-    // --- Single Gemini call with model fallback + word count retry ---
+    // --- Single Groq call with model fallback + word count retry ---
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 Trying Gemini model: ${modelName}`);
-            const result = await callGemini(modelName, prompt);
+            console.log(`🔄 Trying Groq model: ${modelName}`);
+            const result = await callGroq(modelName, systemPrompt, userPrompt);
             articleText = result.articleText;
             imageKeyword = result.imageKeyword;
             usedModel = modelName;
@@ -419,15 +416,15 @@ Return JSON with EXACTLY two keys: { "articleText": "your 175-225 word article",
             // AUTO-RETRY if too short
             if (firstWordCount < 170) {
                 console.log(`⚠️ Too short (${firstWordCount} words), retrying...`);
-                const retryPrompt = `${prompt}
+                const retryUserPrompt = `${userPrompt}
 
-CRITICAL CORRECTION: Your previous attempt was ONLY ${firstWordCount} words. This is UNACCEPTABLE.
+CRITICAL CORRECTION: Your previous attempt was ONLY ${firstWordCount} words. UNACCEPTABLE.
 You MUST write AT LEAST 175 words and NO MORE than 225 words.
-Expand with more factual details, background context, industry implications, or analysis.
+Expand with more factual details, background context, industry implications.
 Do NOT repeat the same content. ADD NEW substantive information.`;
 
                 try {
-                    const retryResult = await callGemini(modelName, retryPrompt);
+                    const retryResult = await callGroq(modelName, systemPrompt, retryUserPrompt);
                     const retryWordCount = retryResult.articleText.split(/\s+/).length;
                     console.log(`📝 Retry: ${retryWordCount} words`);
 
@@ -450,7 +447,7 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         }
     }
 
-    if (!articleText) throw new Error('All Gemini models failed for article generation');
+    if (!articleText) throw new Error('All Groq models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Article (${usedModel}): ${wordCount} words, imageKeyword: "${imageKeyword}"`);
