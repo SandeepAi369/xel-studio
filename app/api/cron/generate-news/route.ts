@@ -1,14 +1,14 @@
 /**
- * /api/cron/generate-news — AI News Generator v6 (Groq + DuckDuckGo + Thumbnails)
+ * /api/cron/generate-news — AI News Generator v7 (Gemini + DuckDuckGo + Thumbnails)
  * =============================================================================
- * Pipeline: Dynamic Query → DuckDuckGo Search → Groq (Llama 3.3 strict factual) →
+ * Pipeline: Dynamic Query → DuckDuckGo Search → Gemini (strict factual JSON) →
  *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
  *
  * Architecture:
- *   - Dynamic Query Generation Algorithm: 60/40 weighted single-keyword selection
- *     from 6 categories (Core Giants, AI Hardware, Global Models, Sub-Niches, Indian AI, World)
- *   - DuckDuckGo search provides real-time context to Groq
- *   - Groq returns structured JSON via native json_object mode: articleText + imageKeyword
+ *   - Simple Query Generation: random selection from curated search queries
+ *   - DuckDuckGo search provides real-time context with auto-retry fallback
+ *   - Gemini returns structured JSON via responseMimeType: application/json
+ *   - TWO separate Gemini calls: (1) article text, (2) image keyword
  *   - Unsplash API fetches editorial-quality images using descriptive keyword
  *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
@@ -19,7 +19,7 @@
  */
 
 import { NextResponse } from 'next/server';
-import Groq from 'groq-sdk';
+import { GoogleGenAI } from '@google/genai';
 import { adminDb } from '@/lib/firebase-admin';
 import { search, SafeSearchType, SearchTimeType } from 'duck-duck-scrape';
 
@@ -284,7 +284,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v6 — Groq + DuckDuckGo + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v7 — Gemini + DuckDuckGo + Thumbnails');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -295,10 +295,10 @@ async function generateNews() {
     const topic = extractTopic(searchQuery);
     console.log(`📌 Category: ${category.toUpperCase()}, Topic: "${topic}"`);
 
-    // 3. Init Groq
-    const groqApiKey = process.env.GROQ_API_KEY;
-    if (!groqApiKey) throw new Error('GROQ_API_KEY not set');
-    const groq = new Groq({ apiKey: groqApiKey });
+    // 3. Init Gemini
+    const geminiApiKey = process.env.GEMINI_API_KEY;
+    if (!geminiApiKey) throw new Error('GEMINI_API_KEY not set');
+    const ai = new GoogleGenAI({ apiKey: geminiApiKey });
 
     // 4. Run DuckDuckGo search with AUTO-RETRY FALLBACK + cleanup + dedup check
     const [initialDdgResult, existingSnap] = await Promise.all([
@@ -324,16 +324,14 @@ async function generateNews() {
             usedQuery = fallbackQuery;
             console.log(`✅ Fallback search succeeded: ${scrapedData.length} results`);
         } else {
-            console.log('⚠️ Fallback also empty — Groq will generate from general knowledge');
+            console.log('⚠️ Fallback also empty — Gemini will generate from general knowledge');
         }
     } else {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. GROQ CALL 1 — Generate the NEWS ARTICLE (articleText only)
-    const newsSystemPrompt = `You are a strict, factual tech reporter. You MUST output valid JSON with exactly one key: "articleText". No other keys, no other output.`;
-
-    const newsUserPrompt = `Write a news article based on this search data.
+    // 5. GEMINI CALL 1 — Generate the NEWS ARTICLE (articleText only)
+    const articlePrompt = `You are a strict, factual tech reporter writing for a premium news publication.
 
 Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
 
@@ -348,10 +346,11 @@ RULES:
 5. Do NOT start with "In" or "The". Start punchy.
 6. NEVER mention search queries, DuckDuckGo, or any internal details.
 7. MINIMUM 150 words, MAXIMUM 200 words. This is non-negotiable.
+8. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
 
-JSON output: { "articleText": "your 150-200 word article here" }`;
+Return JSON with exactly one key: { "articleText": "your 150-200 word article here" }`;
 
-    const MODELS = ['llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b'];
+    const MODELS = ['gemini-3.0-flash', 'gemini-2.5-flash'];
     let articleText = '';
     let imageKeyword = '';
     let usedModel = '';
@@ -359,19 +358,18 @@ JSON output: { "articleText": "your 150-200 word article here" }`;
     // --- Call 1: News Article ---
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 [Article] Trying Groq model: ${modelName}`);
-            const completion = await groq.chat.completions.create({
+            console.log(`🔄 [Article] Trying Gemini model: ${modelName}`);
+            const result = await ai.models.generateContent({
                 model: modelName,
-                messages: [
-                    { role: 'system', content: newsSystemPrompt },
-                    { role: 'user', content: newsUserPrompt },
-                ],
-                temperature: 0.3,
-                max_tokens: 2048,
-                response_format: { type: 'json_object' },
+                contents: articlePrompt,
+                config: {
+                    temperature: 0.3,
+                    maxOutputTokens: 2048,
+                    responseMimeType: 'application/json',
+                },
             });
 
-            const raw = completion.choices[0]?.message?.content?.trim() || '';
+            const raw = result.text?.trim() || '';
             if (!raw) throw new Error('Empty response');
 
             articleText = parseArticleResponse(raw);
@@ -381,40 +379,40 @@ JSON output: { "articleText": "your 150-200 word article here" }`;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
-            if (!msg.includes('429') && !msg.includes('rate') && !msg.includes('not found')) {
+            if (!msg.includes('429') && !msg.includes('rate') && !msg.includes('quota')) {
                 throw err;
             }
         }
     }
 
-    if (!articleText) throw new Error('All Groq models failed for article generation');
+    if (!articleText) throw new Error('All Gemini models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Article (${usedModel}): ${wordCount} words`);
 
-    // --- Call 2: Image Keyword (SEPARATE call based on article) ---
+    // --- Call 2: Image Keyword (SEPARATE Gemini call based on article) ---
     try {
         console.log('🎨 [Image] Generating image keyword...');
-        const imageCompletion = await groq.chat.completions.create({
-            model: 'llama-3.3-70b-versatile',
-            messages: [
-                { role: 'system', content: 'You generate cinematic Unsplash image search phrases. Output valid JSON with exactly one key: "imageKeyword". No other output.' },
-                {
-                    role: 'user', content: `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase that would produce a stunning, relevant editorial photograph.
+        const imagePrompt = `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase (maximum 15 words) that would produce a stunning, relevant editorial photograph.
 
-Article: "${articleText.substring(0, 300)}"
+Article: "${articleText.substring(0, 400)}"
 
 Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "cybersecurity dark hacker terminal glow", "data center corridor blue lights", "tech conference keynote stage lights", "silicon wafer golden chip manufacturing", "autonomous vehicle lidar sensor night", "neural network brain digital art", "stock market trading screens wall", "microchip circuit board extreme macro", "space satellite earth orbit", "Indian tech startup office modern"
-Bad examples: "technology", "AI", "computer", "robot", "chip"
+Bad examples (too generic): "technology", "AI", "computer", "robot", "chip"
 
-JSON output: { "imageKeyword": "your 3-5 word phrase" }` },
-            ],
-            temperature: 0.5,
-            max_tokens: 100,
-            response_format: { type: 'json_object' },
+Return JSON with exactly one key: { "imageKeyword": "your 3-5 word phrase" }`;
+
+        const imageResult = await ai.models.generateContent({
+            model: 'gemini-3.0-flash',
+            contents: imagePrompt,
+            config: {
+                temperature: 0.5,
+                maxOutputTokens: 100,
+                responseMimeType: 'application/json',
+            },
         });
 
-        const imageRaw = imageCompletion.choices[0]?.message?.content?.trim() || '';
+        const imageRaw = imageResult.text?.trim() || '';
         imageKeyword = parseImageKeyword(imageRaw);
         console.log(`🎨 [Image] Keyword: "${imageKeyword}"`);
     } catch (err) {
