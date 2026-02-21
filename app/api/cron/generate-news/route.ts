@@ -45,62 +45,36 @@ const keywordCategories: Record<string, string[]> = {
 
 // Anchor categories (60% weight) — the heavy-hitters
 const ANCHOR_CATEGORIES = ['coreGiants', 'aiHardware', 'globalModels'];
+// Wildcard categories (40% weight) — variety and niche topics
+const WILDCARD_CATEGORIES = ['subNiches', 'indianAI', 'worldNews'];
 
 function getRandomElement<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function getRandomElements<T>(arr: T[], count: number): T[] {
-    return [...arr].sort(() => Math.random() - 0.5).slice(0, count);
-}
-
 export function generateDynamicQuery(): string {
-    const allCategories = Object.keys(keywordCategories);
-    let keywords: string[];
+    // 60/40 weighted single-keyword selection — NO multi-keyword combos
+    let keyword: string;
 
     if (Math.random() < 0.6) {
-        // ── 60% ANCHOR: first keyword from core categories ──
-        const anchorCat = getRandomElement(ANCHOR_CATEGORIES);
-        const anchor = getRandomElement(keywordCategories[anchorCat]);
-
-        // Optionally add a second keyword from any OTHER category
-        if (Math.random() > 0.35) {
-            const otherCats = allCategories.filter(c => c !== anchorCat);
-            const secondCat = getRandomElement(otherCats);
-            const second = getRandomElement(keywordCategories[secondCat]);
-            keywords = [anchor, second];
-        } else {
-            keywords = [anchor];
-        }
+        // ── 60% ANCHOR: one keyword from core categories ──
+        const cat = getRandomElement(ANCHOR_CATEGORIES);
+        keyword = getRandomElement(keywordCategories[cat]);
     } else {
-        // ── 40% WILDCARD: any category, 1-2 keywords ──
-        const numKeywords = Math.random() > 0.4 ? 2 : 1;
-        if (numKeywords === 1) {
-            const cat = getRandomElement(allCategories);
-            keywords = [getRandomElement(keywordCategories[cat])];
-        } else {
-            const [cat1, cat2] = getRandomElements(allCategories, 2);
-            keywords = [
-                getRandomElement(keywordCategories[cat1]),
-                getRandomElement(keywordCategories[cat2]),
-            ];
-        }
+        // ── 40% WILDCARD: one keyword from niche/world categories ──
+        const cat = getRandomElement(WILDCARD_CATEGORIES);
+        keyword = getRandomElement(keywordCategories[cat]);
     }
-
-    const coreQuery = keywords.length === 1
-        ? keywords[0]
-        : keywords[0] + (Math.random() > 0.5 ? ' AND ' : ' OR ') + keywords[1];
 
     const now = new Date();
     const year = now.getFullYear();
     const month = now.toLocaleString('en-US', { month: 'long' });
     const timeModifiers = [
-        'latest breaking news', 'updates today', `news ${month} ${year}`,
-        'fresh developments', 'this week', 'breaking today',
-        `${year} breakthrough`, 'exclusive update',
+        'latest news today', 'recent updates', `news ${month} ${year}`,
+        'latest developments', `${year} update`, 'news today',
     ];
 
-    return `${coreQuery} ${getRandomElement(timeModifiers)}`.trim();
+    return `${keyword} ${getRandomElement(timeModifiers)}`.trim();
 }
 
 // ─── Detect category from dynamic query ─────────────────────
@@ -350,25 +324,27 @@ async function generateNews() {
 
     const scrapedData = ddgResult.results;
 
-    // 5. Build the elite journalist prompt with live context
-    const userPrompt = `You are an elite tech journalist writing for a top-tier publication.
-The user searched DuckDuckGo with this highly specific query: "${searchQuery}"
+    // 5. Build the strict factual reporter prompt with live context
+    const userPrompt = `You are a strict, factual tech reporter.
+The user searched DuckDuckGo for: "${searchQuery}"
 
 Here is the raw scraped data:
 ${JSON.stringify(scrapedData, null, 2)}
 
-Write a highly engaging, cutting-edge 150-200 word article based on this data. Make it feel like an exclusive, premium piece. Use vivid language, sharp analysis, and a forward-looking insight.
-
-Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
-Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-If the scraped data is empty, use your training knowledge about the most recent known developments for the query topic.
+CRITICAL RULES:
+1. NO SPECULATION. Base your 150-200 word article STRICTLY on the facts provided in the scraped data.
+2. Do not invent rumors, future partnerships, or exclusive leaks. If it is not in the DuckDuckGo data, DO NOT write it.
+3. If the scraped data contains mixed or weak links, find the most prominent factual news event in the text and report ONLY on that.
+4. Maintain a professional, objective journalistic tone.
+5. Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
+6. Write as if reporting news happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
+7. If the scraped data is completely empty, write about the most recent CONFIRMED, PUBLICLY KNOWN development for the query topic. Do not speculate.
 
 You MUST return the response in strict JSON format with exactly TWO keys:
-1. "articleText": The 150-200 word article in 2-3 flowing paragraphs. NO bullet points, NO lists, NO headers.
-2. "imageKeyword": An ultra-specific, cinematic 4-6 word Unsplash search phrase that describes a SCENE, not just an object. Include lighting, setting, or mood for dramatic editorial photography.
-   EXCELLENT examples: "glowing blue neural network dark server room", "nvidia gpu chip neon light closeup", "futuristic robot arm factory assembly line", "quantum computing processor golden light macro", "dark cybersecurity operations center screens", "semiconductor wafer cleanroom purple ultraviolet", "astronaut space station earth sunrise window", "AI researcher holographic display dark lab"
-   GOOD technique: combine [subject] + [setting/environment] + [lighting/mood] for cinematic results.
-   BAD examples (too generic — will give BORING stock photos): "technology", "robot", "AI", "computer", "server", "chip"
+1. "articleText": The strictly factual 150-200 word article in 2-3 flowing paragraphs. NO bullet points, NO lists, NO headers.
+2. "imageKeyword": A highly relevant 3-5 word cinematic Unsplash search phrase for a stunning editorial photograph.
+   EXCELLENT examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit"
+   BAD examples: "technology", "robot", "AI", "computer"
 
 Output ONLY the raw JSON object. No markdown code fences, no backticks, no explanation.`;
 
