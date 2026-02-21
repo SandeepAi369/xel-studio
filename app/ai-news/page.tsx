@@ -1,24 +1,22 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import {
   ArrowLeft,
-  ExternalLink,
   Clock,
   Newspaper,
   Bot,
-  Cpu,
   Sparkles,
   Globe,
   Zap,
   ChevronRight,
-  ChevronUp,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
 import { db } from "@/lib/firebase";
-import { collection, query, orderBy, getDocs } from "firebase/firestore";
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface NewsItem {
@@ -89,7 +87,7 @@ const CATEGORY_CONFIG = {
   },
 };
 
-const PREVIEW_WORD_LIMIT = 30;
+const PREVIEW_WORD_LIMIT = 50;
 
 /* ─── Helpers ──────────────────────────────────────────────── */
 function timeAgo(dateStr: string): string {
@@ -103,62 +101,72 @@ function timeAgo(dateStr: string): string {
   return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-/* ─── NewsCard — NO framer-motion, pure CSS ──────────────── */
+/* ─── NewsCard — with hero thumbnail image ─────────────── */
 function NewsCard({ item }: { item: NewsItem }) {
-  const [expanded, setExpanded] = useState(false);
   const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
   const Icon = config.icon;
+  const [imgError, setImgError] = useState(false);
+  const hasImage = !!item.image_url && !imgError;
 
   const words = item.summary.split(/\s+/);
-  const needsTruncation = words.length > PREVIEW_WORD_LIMIT;
-  const previewText = needsTruncation
-    ? words.slice(0, PREVIEW_WORD_LIMIT).join(" ") + "..."
-    : item.summary;
-
-  const handlePlay = useCallback(() => {
-    if (!expanded && needsTruncation) setExpanded(true);
-  }, [expanded, needsTruncation]);
-
-  const toggleExpand = useCallback((e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setExpanded((prev) => !prev);
-  }, []);
+  const previewText =
+    words.length > PREVIEW_WORD_LIMIT
+      ? words.slice(0, PREVIEW_WORD_LIMIT).join(" ") + "..."
+      : item.summary;
 
   return (
-    <article
-      className={`rounded-xl border transition-all duration-200 p-5 group ${config.cardBg} ${config.cardBorder} ${config.cardHoverBorder} ${config.cardHoverBg}`}
+    <Link
+      href={`/ai-news/${item.id}`}
+      className="block rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 group cursor-pointer overflow-hidden"
     >
-      <div className="flex gap-4">
-        {/* Image */}
-        {item.image_url && (
-          <div className="hidden sm:block shrink-0 w-20 h-20 rounded-lg overflow-hidden bg-zinc-800">
-            <img
-              src={item.image_url}
-              alt=""
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = "none";
-              }}
+      {/* Hero Image */}
+      {hasImage && (
+        <div className="relative w-full aspect-[16/9] bg-zinc-800 overflow-hidden">
+          <img
+            src={item.image_url!}
+            alt={item.title}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            onError={() => setImgError(true)}
+          />
+          {/* Gradient overlay for readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+          {/* Category badge on image */}
+          <div className="absolute top-3 left-3">
+            <span
+              className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full backdrop-blur-sm ${config.bg} ${config.color} border border-white/10`}
+            >
+              <Icon className="w-2.5 h-2.5" />
+              {config.label}
+            </span>
+          </div>
+          {/* Listen button on image */}
+          <div
+            className="absolute top-3 right-3"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+            }}
+          >
+            <SmartListenButton
+              text={prepareTTSText(item.title, item.summary)}
+              iconOnly
+              className="w-9 h-9 backdrop-blur-sm bg-black/30 border border-white/10 rounded-lg"
             />
           </div>
-        )}
+        </div>
+      )}
 
-        <div className="flex-1 min-w-0">
-          {/* Category Badge + Title + Listen */}
-          <div className="flex items-start gap-3 mb-1.5">
+      <div className="p-5">
+        {/* Category Badge (only when no image) */}
+        {!hasImage && (
+          <div className="flex items-start gap-3 mb-2">
             <div className="flex-1 min-w-0">
               <span
-                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded mb-1.5 ${config.bg} ${config.color}`}
+                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mb-2 ${config.bg} ${config.color}`}
               >
                 <Icon className="w-2.5 h-2.5" />
                 {config.label}
               </span>
-              <h3
-                className={`text-base font-semibold transition-colors line-clamp-2 text-zinc-100 ${config.titleHover}`}
-              >
-                {item.title}
-              </h3>
             </div>
             <div
               className="flex-shrink-0 mt-0.5"
@@ -171,57 +179,37 @@ function NewsCard({ item }: { item: NewsItem }) {
                 text={prepareTTSText(item.title, item.summary)}
                 iconOnly
                 className="w-9 h-9"
-                onPlay={handlePlay}
               />
             </div>
           </div>
+        )}
 
-          {/* Summary — 40 words preview, expandable */}
-          <div className="mb-3">
-            <p className="text-sm text-zinc-400 leading-relaxed">
-              {expanded ? item.summary : previewText}
-            </p>
-            {needsTruncation && (
-              <button
-                onClick={toggleExpand}
-                className="flex items-center gap-1 mt-3 text-green-400 text-sm font-medium hover:text-green-300 transition-colors cursor-pointer"
-              >
-                {expanded ? (
-                  <>
-                    <span>Show less</span>
-                    <ChevronUp className="w-4 h-4" />
-                  </>
-                ) : (
-                  <>
-                    <span>Read more</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </>
-                )}
-              </button>
-            )}
-          </div>
+        {/* Title */}
+        <h3 className="text-lg font-semibold transition-colors line-clamp-2 text-white group-hover:text-green-100 mb-2">
+          {item.title}
+        </h3>
 
-          {/* Meta */}
-          <div className="flex items-center gap-3 text-xs text-zinc-500">
-            <span className={`font-medium ${config.sourceColor}`}>
-              {item.source_name}
-            </span>
-            <time dateTime={item.date} className="flex items-center gap-1">
-              <Clock className="w-3 h-3" />
-              {timeAgo(item.date)}
-            </time>
-            <a
-              href={item.source_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 text-zinc-400 hover:text-zinc-200"
-            >
-              Read <ExternalLink className="w-3 h-3" />
-            </a>
-          </div>
+        {/* Preview text */}
+        <p className="text-base text-gray-400 leading-relaxed mb-4">
+          {previewText}
+        </p>
+
+        {/* Meta + Read more */}
+        <div className="flex items-center gap-3 text-xs text-zinc-500">
+          <span className={`font-medium ${config.sourceColor}`}>
+            {item.source_name}
+          </span>
+          <time dateTime={item.date} className="flex items-center gap-1">
+            <Clock className="w-3 h-3" />
+            {timeAgo(item.date)}
+          </time>
+          <span className="ml-auto flex items-center gap-1 text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors">
+            Read more
+            <ChevronRight className="w-4 h-4" />
+          </span>
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 
@@ -233,28 +221,33 @@ export default function AINewsPage() {
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
 
-  // Fetch from Firebase Firestore (uses 50MB offline cache automatically)
+  // Real-time Firestore listener — news auto-updates without page refresh
   useEffect(() => {
-    async function fetchNews() {
-      try {
-        const q = query(
-          collection(db, "news"),
-          orderBy("date", "desc")
-        );
-        const snapshot = await getDocs(q);
+    const q = query(
+      collection(db, "news"),
+      orderBy("date", "desc")
+    );
+
+    const unsubscribe = onSnapshot(
+      q,
+      (snapshot) => {
         const items: NewsItem[] = snapshot.docs.map((doc) => ({
           id: doc.id,
           ...doc.data(),
         })) as NewsItem[];
         setNews(items);
-      } catch (err) {
+        setLoading(false);
+        setError(null);
+      },
+      (err) => {
         setError("Could not load news. Please try again later.");
-        console.error("News fetch error:", err);
-      } finally {
+        console.error("News listener error:", err);
         setLoading(false);
       }
-    }
-    fetchNews();
+    );
+
+    // Cleanup listener on unmount
+    return () => unsubscribe();
   }, []);
 
   // Sort: AI first, then Technology, then General — within each group by date

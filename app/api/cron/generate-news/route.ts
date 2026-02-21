@@ -1,13 +1,16 @@
 /**
- * /api/cron/generate-news — AI News Generator v2 (Single-Shot Pipeline)
- * =====================================================================
- * Ultra-fast, single-shot pipeline: Prompt → Gemini → Firestore → Done.
- * No RSS. No retries. No retry loops. Target: <5-7 seconds total.
+ * /api/cron/generate-news — AI News Generator v3 (with Thumbnails)
+ * =================================================================
+ * Pipeline: Prompt → Gemini (JSON: articleText + imageKeyword) →
+ *           Unsplash (fetch image) → Cloudinary Fetch (CDN wrap) →
+ *           Firestore → Done.
  *
  * Architecture:
  *   - 10 AI-heavy weighted prompts (80% AI, 20% general)
  *   - Random prompt selection per execution
- *   - Single Gemini Flash call (no retries = saves ~8-16s)
+ *   - Gemini returns structured JSON with article text + image keyword
+ *   - Unsplash API fetches a relevant image using the keyword
+ *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
  *   - Node.js runtime (firebase-admin incompatible with Edge)
  *
@@ -22,15 +25,13 @@ import { adminDb } from '@/lib/firebase-admin';
 
 // ─── Config ──────────────────────────────────────────────────
 export const dynamic = 'force-dynamic';
-export const maxDuration = 60; // Gemini + Google Search grounding needs more time
+export const maxDuration = 60;
 
 const COLLECTION = 'news';
 const HEALTH_DOC = 'system/cron_health';
 const NEWS_TTL_HOURS = 24;
 
 // ─── 10 AI-Heavy Weighted Prompts (80/20 Rule) ──────────────
-// 8 AI-focused + 2 general/geopolitics. One is picked randomly per run.
-
 const PROMPTS = [
     // ── AI PROMPTS (8) ──────────────────────────────────────
     {
@@ -87,24 +88,31 @@ const PROMPTS = [
     },
 ];
 
-// ─── System Prompt (shared) ──────────────────────────────────
+// ─── System Prompt — now returns structured JSON ─────────────
 
 const SYSTEM_PROMPT = `You are a world-class AI and technology journalist for "XeL News".
 
-RULES YOU MUST FOLLOW:
-1. Write MINIMUM 200 words. Target 200-300 words. Articles under 150 words are REJECTED.
-2. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-3. Use flowing paragraphs only. NO bullet points, NO numbered lists, NO headers.
-4. Do NOT start with the word "In" or "The". Start with something punchy.
-5. Include specific company names, product names, and technical details.
-6. Include a quote or attributed statement (can be realistic but made-up for the article).
-7. End with forward-looking implications or what to watch next.
-8. Output ONLY the article body text. No title. No sign-off.
-9. Write in an engaging, exciting tone that makes readers want to share the article.
-10. Do NOT write about discontinued products or old news. Focus on current/future developments.
-11. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
-12. Write at least 3-4 full paragraphs. Each paragraph should be 3-5 sentences long.
-13. Include background context so readers unfamiliar with the topic can understand the significance.`;
+=== OUTPUT FORMAT ===
+You MUST output a valid JSON object with exactly two fields:
+  - "articleText": the article body (150-200 words, 2-3 paragraphs, flowing text only)
+  - "imageKeyword": a single, highly descriptive English word for finding a relevant photo on Unsplash (e.g., "robot", "cybersecurity", "semiconductor", "satellite", "chip", "server")
+
+Output ONLY the raw JSON object. No markdown code fences, no backticks, no extra text before or after.
+=== END OUTPUT FORMAT ===
+
+=== ARTICLE RULES ===
+1. Write as if reporting BREAKING NEWS happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
+2. The "articleText" must be 150-200 words in 2-3 flowing paragraphs. NO bullet points, NO numbered lists, NO headers.
+3. Do NOT start the articleText with the word "In" or "The". Start with something punchy and attention-grabbing.
+4. Include specific company names, product names, and technical details.
+5. Write in an engaging, exciting tone.
+6. IMPORTANT: Use your Google Search access to find REAL current news. Cite actual events.
+7. End with one forward-looking sentence.
+8. REMEMBER: 150-200 words, 2-3 paragraphs. No more, no less.
+=== END ARTICLE RULES ===`;
+
+// Suffix added to every prompt to reinforce word count and JSON format
+const WORD_COUNT_SUFFIX = `\n\nIMPORTANT: Write exactly 150-200 words in 2-3 paragraphs. Output ONLY a valid JSON object with "articleText" and "imageKeyword" fields. No markdown, no code fences.`;
 
 // ─── Helpers ─────────────────────────────────────────────────
 
@@ -130,7 +138,81 @@ function generateTitle(topic: string, category: string): string {
         ],
     };
     const prefix = pickRandom(prefixes[category] || prefixes.general);
-    return `${prefix} ${topic} — ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
+    return `${prefix} ${topic}`;
+}
+
+// ─── Unsplash Image Fetch ────────────────────────────────────
+
+async function fetchUnsplashImage(keyword: string): Promise<string | null> {
+    const accessKey = process.env.UNSPLASH_ACCESS_KEY;
+    if (!accessKey || accessKey === 'YOUR_KEY_HERE') {
+        console.log('⚠️ UNSPLASH_ACCESS_KEY not configured — skipping image');
+        return null;
+    }
+
+    try {
+        const url = `https://api.unsplash.com/photos/random?query=${encodeURIComponent(keyword)}&orientation=landscape&content_filter=high`;
+        const res = await fetch(url, {
+            headers: { Authorization: `Client-ID ${accessKey}` },
+            signal: AbortSignal.timeout(8000), // 8s timeout
+        });
+
+        if (!res.ok) {
+            console.warn(`⚠️ Unsplash API returned ${res.status}: ${res.statusText}`);
+            return null;
+        }
+
+        const data = await res.json();
+        const imageUrl = data?.urls?.regular || data?.urls?.small || null;
+
+        if (imageUrl) {
+            console.log(`🖼️ Unsplash image fetched for keyword: "${keyword}"`);
+        }
+
+        return imageUrl;
+    } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        console.warn(`⚠️ Unsplash fetch failed: ${msg}`);
+        return null;
+    }
+}
+
+// ─── Cloudinary Fetch URL Builder ────────────────────────────
+
+function buildCloudinaryFetchUrl(imageUrl: string): string {
+    const cloudName = process.env.CLOUDINARY_CLOUD_NAME || 'dxlok864h';
+    // Cloudinary Fetch: fetches, transforms, caches, and serves via CDN
+    // f_auto = auto format (WebP/AVIF), q_auto = auto quality, w_800 h_450 c_fill = 16:9 crop
+    return `https://res.cloudinary.com/${cloudName}/image/fetch/f_auto,q_auto,w_800,h_450,c_fill/${imageUrl}`;
+}
+
+// ─── Parse Gemini JSON Response ──────────────────────────────
+
+function parseGeminiResponse(text: string): { articleText: string; imageKeyword: string } {
+    // Strip markdown code fences if Gemini wraps them
+    let clean = text.trim();
+    if (clean.startsWith('```')) {
+        clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
+    }
+
+    try {
+        const parsed = JSON.parse(clean);
+        if (parsed.articleText && parsed.imageKeyword) {
+            return {
+                articleText: parsed.articleText.trim(),
+                imageKeyword: parsed.imageKeyword.trim().toLowerCase(),
+            };
+        }
+    } catch {
+        // JSON parse failed — fall back to treating entire response as article text
+    }
+
+    // Fallback: treat entire text as article, use generic keyword
+    console.warn('⚠️ Could not parse JSON from Gemini — using fallback');
+    return {
+        articleText: text.trim(),
+        imageKeyword: 'technology',
+    };
 }
 
 // ─── Health Tracking (Tick/Cross System) ─────────────────────
@@ -147,7 +229,6 @@ async function logHealth(
             ...details,
         });
     } catch (e) {
-        // Health logging should never crash the pipeline
         console.error('Health log write failed:', e);
     }
 }
@@ -180,7 +261,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v2 — Single Shot');
+    console.log('⚡ NEWS PIPELINE v3 — Single Shot + Thumbnails');
 
     // 1. Pick random prompt
     const prompt = pickRandom(PROMPTS);
@@ -191,10 +272,10 @@ async function generateNews() {
     if (!apiKey) throw new Error('GEMINI_API_KEY not set');
 
     const ai = new GoogleGenAI({ apiKey });
-    const promptText = SYSTEM_PROMPT + '\n\n' + prompt.instruction;
+    const userPrompt = prompt.instruction + WORD_COUNT_SUFFIX;
 
-    // Model fallback chain: latest → stable → legacy
-    const MODELS = ['gemini-3-flash', 'gemini-2.5-flash', 'gemini-2.0-flash'];
+    // Model fallback chain: latest → stable
+    const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
     let responseText = '';
     let usedModel = '';
 
@@ -204,21 +285,44 @@ async function generateNews() {
         cleanupOldArticles(),
     ]);
 
+    // Helper to call Gemini with proper system instruction separation
+    async function callGemini(modelName: string, contentText: string): Promise<string> {
+        const result = await ai.models.generateContent({
+            model: modelName,
+            contents: contentText,
+            config: {
+                systemInstruction: SYSTEM_PROMPT,
+                temperature: 0.95,
+                maxOutputTokens: 2048,
+                topP: 0.95,
+                tools: [{ googleSearch: {} }],
+            },
+        });
+        return result.text?.trim() || '';
+    }
+
     for (const modelName of MODELS) {
         try {
             console.log(`🔄 Trying model: ${modelName}`);
-            const result = await ai.models.generateContent({
-                model: modelName,
-                contents: promptText,
-                config: {
-                    temperature: 0.9,
-                    maxOutputTokens: 1500,
-                    topP: 0.95,
-                    tools: [{ googleSearch: {} }],
-                },
-            });
-            responseText = result.text?.trim() || '';
+            responseText = await callGemini(modelName, userPrompt);
             if (!responseText) throw new Error('Empty response');
+
+            // Check word count — retry once if too short
+            const parsed = parseGeminiResponse(responseText);
+            const firstWordCount = parsed.articleText.split(/\s+/).length;
+            if (firstWordCount < 80) {
+                console.log(`⚠️ First attempt too short (${firstWordCount} words), retrying...`);
+                const retryPrompt = prompt.instruction + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. You MUST write 150-200 words in 2-3 paragraphs. Write a proper news article NOW. Output ONLY a valid JSON with "articleText" and "imageKeyword" fields.`;
+                const retryText = await callGemini(modelName, retryPrompt);
+                if (retryText) {
+                    const retryParsed = parseGeminiResponse(retryText);
+                    if (retryParsed.articleText.split(/\s+/).length > firstWordCount) {
+                        responseText = retryText;
+                        console.log(`✅ Retry produced ${retryParsed.articleText.split(/\s+/).length} words`);
+                    }
+                }
+            }
+
             usedModel = modelName;
             console.log(`✅ Success with: ${modelName}`);
             break;
@@ -226,21 +330,22 @@ async function generateNews() {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
             if (!msg.includes('429') && !msg.includes('quota') && !msg.includes('rate') && !msg.includes('not found')) {
-                throw err; // Non-recoverable errors should fail immediately
+                throw err;
             }
         }
     }
 
     if (!responseText) throw new Error('All Gemini models failed');
 
-    const summary = responseText;
-    const wordCount = summary.split(/\s+/).length;
-    console.log(`📝 Response (${usedModel}): ${wordCount} words`);
+    // 4. Parse the structured JSON response
+    const { articleText, imageKeyword } = parseGeminiResponse(responseText);
+    const wordCount = articleText.split(/\s+/).length;
+    console.log(`📝 Response (${usedModel}): ${wordCount} words, keyword: "${imageKeyword}"`);
 
-    // 4. Generate title and check dups
+    // 5. Generate title and check dups
     const title = generateTitle(prompt.topic, prompt.category);
     const existingTitles = existingSnap.docs.map(d => d.data().title as string);
-    const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.7);
+    const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.85);
 
     if (isDup) {
         console.log('⚠️ Duplicate detected — skipping save');
@@ -252,12 +357,22 @@ async function generateNews() {
         return { status: 'duplicate', title, duration_ms: Date.now() - t0 };
     }
 
-    // 5. Save to Firestore
+    // 6. Fetch image from Unsplash + wrap with Cloudinary
+    let imageUrl: string | null = null;
+    const unsplashUrl = await fetchUnsplashImage(imageKeyword);
+    if (unsplashUrl) {
+        imageUrl = buildCloudinaryFetchUrl(unsplashUrl);
+        console.log(`🌐 Cloudinary URL: ${imageUrl.substring(0, 80)}...`);
+    } else {
+        console.log('📷 No image — article will be saved without thumbnail');
+    }
+
+    // 7. Save to Firestore
     const newsItem = {
         id: crypto.randomUUID(),
         title,
-        summary,
-        image_url: null,
+        summary: articleText,
+        image_url: imageUrl,
         source_link: null,
         source_name: 'XeL AI News',
         category: prompt.category,
@@ -268,11 +383,13 @@ async function generateNews() {
     const duration = Date.now() - t0;
     console.log(`✅ Saved: "${title}" in ${duration}ms`);
 
-    // 6. Log health ✅
+    // 8. Log health ✅
     await logHealth('✅ Success', {
         last_news_title: title,
         category: prompt.category,
         word_count: `${wordCount}`,
+        image_keyword: imageKeyword,
+        has_image: imageUrl ? 'yes' : 'no',
         duration_ms: `${duration}`,
     });
 
@@ -282,6 +399,8 @@ async function generateNews() {
         title,
         category: prompt.category,
         word_count: wordCount,
+        image_keyword: imageKeyword,
+        has_image: !!imageUrl,
         duration_ms: duration,
     };
 }

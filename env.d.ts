@@ -25,5 +25,14 @@ declare namespace NodeJS {
         // GitHub
         GITHUB_TOKEN?: string;
         GITHUB_REPO?: string;
+
+        // Cloudinary
+        CLOUDINARY_CLOUD_NAME?: string;
+
+        // Unsplash
+        UNSPLASH_ACCESS_KEY?: string;
+
+        // Cron
+        CRON_SECRET?: string;
     }
 }
