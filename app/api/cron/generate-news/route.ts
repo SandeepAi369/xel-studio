@@ -1,14 +1,14 @@
 /**
- * /api/cron/generate-news — AI News Generator v5 (Dynamic Query + Thumbnails)
+ * /api/cron/generate-news — AI News Generator v6 (Groq + DuckDuckGo + Thumbnails)
  * =============================================================================
- * Pipeline: Dynamic Query → DuckDuckGo Search → Gemini (elite journalist) →
+ * Pipeline: Dynamic Query → DuckDuckGo Search → Groq (Llama 3.3 strict factual) →
  *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
  *
  * Architecture:
- *   - Dynamic Query Generation Algorithm: randomized keyword combos from
- *     6 categories (AI Models, Tech Giants, Sub-Niches, Indian AI, World, General)
- *   - DuckDuckGo search provides real-time context to Gemini
- *   - Gemini returns structured JSON: articleText + imageKeyword
+ *   - Dynamic Query Generation Algorithm: 60/40 weighted single-keyword selection
+ *     from 6 categories (Core Giants, AI Hardware, Global Models, Sub-Niches, Indian AI, World)
+ *   - DuckDuckGo search provides real-time context to Groq
+ *   - Groq returns structured JSON via native json_object mode: articleText + imageKeyword
  *   - Unsplash API fetches editorial-quality images using descriptive keyword
  *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
@@ -19,7 +19,7 @@
  */
 
 import { NextResponse } from 'next/server';
-import { GoogleGenAI } from '@google/genai';
+import Groq from 'groq-sdk';
 import { adminDb } from '@/lib/firebase-admin';
 import { search, SafeSearchType, SearchTimeType } from 'duck-duck-scrape';
 
@@ -228,7 +228,7 @@ function buildCloudinaryFetchUrl(imageUrl: string): string {
 
 // ─── Parse Gemini JSON Response ──────────────────────────────
 
-function parseGeminiResponse(text: string): { articleText: string; imageKeyword: string } {
+function parseJsonResponse(text: string): { articleText: string; imageKeyword: string } {
     let clean = text.trim();
     if (clean.startsWith('```')) {
         clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
@@ -246,7 +246,7 @@ function parseGeminiResponse(text: string): { articleText: string; imageKeyword:
         // JSON parse failed — fall back
     }
 
-    console.warn('⚠️ Could not parse JSON from Gemini — using fallback');
+    console.warn('⚠️ Could not parse JSON from Groq — using fallback');
     return {
         articleText: text.trim(),
         imageKeyword: 'futuristic artificial intelligence technology lab',
@@ -299,7 +299,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v5 — Dynamic Query + DuckDuckGo + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v6 — Groq + DuckDuckGo + Thumbnails');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -310,10 +310,10 @@ async function generateNews() {
     const topic = extractTopic(searchQuery);
     console.log(`📌 Category: ${category.toUpperCase()}, Topic: "${topic}"`);
 
-    // 3. Init Gemini
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) throw new Error('GEMINI_API_KEY not set');
-    const ai = new GoogleGenAI({ apiKey });
+    // 3. Init Groq
+    const groqApiKey = process.env.GROQ_API_KEY;
+    if (!groqApiKey) throw new Error('GROQ_API_KEY not set');
+    const groq = new Groq({ apiKey: groqApiKey });
 
     // 4. Run DuckDuckGo search + cleanup + dedup check in parallel
     const [ddgResult, existingSnap] = await Promise.all([
@@ -324,74 +324,53 @@ async function generateNews() {
 
     const scrapedData = ddgResult.results;
 
-    // 5. Build the strict factual reporter prompt with live context
-    const userPrompt = `You are a strict, factual tech reporter writing for a premium news publication.
-The user searched DuckDuckGo for: "${searchQuery}"
+    // 5. Build the strict factual reporter prompt
+    const systemPrompt = `You are a strict, factual tech reporter writing for a premium news publication. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other output.`;
 
-Here is the raw scraped data:
+    const userPrompt = `Write a news article based on this DuckDuckGo search data.
+
+Search query: "${searchQuery}"
+Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+
+Scraped data:
 ${JSON.stringify(scrapedData, null, 2)}
 
-CRITICAL RULES:
-1. NO SPECULATION. Base your 150-200 word article STRICTLY on the facts provided in the scraped data.
-2. Do not invent rumors, future partnerships, or exclusive leaks. If it is not in the DuckDuckGo data, DO NOT write it.
-3. If the scraped data contains mixed or weak links, find the most prominent factual news event and report ONLY on that single topic. Do NOT mix multiple unrelated topics.
-4. Write in a professional, polished, human-readable narrative style. Rewrite facts in your own words — do NOT copy-paste raw search snippets.
-5. Structure the article as 2-3 clearly separated paragraphs. Use double newlines (\\n\\n) between paragraphs.
-6. Do NOT start with "In" or "The". Start with something punchy and attention-grabbing.
-7. Write as if reporting news happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-8. If the scraped data is empty, write about the most recent CONFIRMED, publicly known development. Do not speculate.
-9. NEVER mention "image keywords", "search queries", "DuckDuckGo", "scraped data", or any internal pipeline details in the article text. The article must read like a clean news report.
+RULES:
+1. Write STRICTLY based on facts from the scraped data. NO speculation, NO invented rumors or partnerships.
+2. If data is mixed, pick the single most prominent factual news event. Do NOT combine unrelated topics.
+3. Write in clean, professional prose. Rewrite facts naturally — no copy-pasting raw snippets.
+4. Structure as 2-3 paragraphs separated by double newlines.
+5. Do NOT start with "In" or "The". Start with something punchy.
+6. NEVER mention search queries, DuckDuckGo, scraped data, or image keywords in the article.
+7. If scraped data is empty, write about the most recent CONFIRMED, publicly known development. No speculation.
 
-You MUST return the response in strict JSON format with exactly TWO keys:
-1. "articleText": The strictly factual article in 2-3 paragraphs separated by \\n\\n. NO bullet points, NO lists, NO headers. Clean flowing prose only.
-   WORD COUNT: MINIMUM 150 words, MAXIMUM 200 words. This is NON-NEGOTIABLE. Under 140 words is UNACCEPTABLE — if needed, add more factual context, background, or analysis to reach at least 150 words.
-2. "imageKeyword": A highly relevant 3-5 word cinematic Unsplash search phrase for a stunning editorial photograph.
-   EXCELLENT examples (pick the style closest to your article topic):
-   "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit", "cybersecurity dark hacker terminal glow", "silicon wafer golden chip manufacturing", "autonomous vehicle lidar sensor night", "tech conference keynote stage lights", "data center corridor blue lights", "neural network brain digital art", "stock market trading screens wall", "Indian tech startup office modern", "microchip circuit board extreme macro"
-   BAD examples (too generic — gives boring results): "technology", "robot", "AI", "computer", "server", "chip"
+JSON output format:
+{
+  "articleText": "Your 150-200 word article here. MINIMUM 150 words — this is non-negotiable. If needed, add factual context or background to reach 150 words. Separate paragraphs with double newlines.",
+  "imageKeyword": "3-5 word cinematic Unsplash photo search phrase matching the article topic. Examples: nvidia gpu server rack closeup, AI research lab dark screens, semiconductor cleanroom neon light, quantum computing processor macro, robot arm factory assembly, space satellite earth orbit, cybersecurity dark hacker terminal glow, silicon wafer golden chip manufacturing, autonomous vehicle lidar sensor night, tech conference keynote stage lights, data center corridor blue lights, neural network brain digital art, stock market trading screens wall, Indian tech startup office modern, microchip circuit board extreme macro"
+}`;
 
-Output ONLY the raw JSON object. No markdown code fences, no backticks, no explanation.`;
-
-    // Model fallback chain
-    const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+    // 6. Call Groq — model fallback chain
+    const MODELS = ['llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b'];
     let responseText = '';
     let usedModel = '';
 
-    // 6. Call Gemini (no Google Search — we provide DuckDuckGo context)
-    async function callGemini(modelName: string, contentText: string): Promise<string> {
-        const result = await ai.models.generateContent({
-            model: modelName,
-            contents: contentText,
-            config: {
-                temperature: 0.95,
-                maxOutputTokens: 2048,
-                topP: 0.95,
-            },
-        });
-        return result.text?.trim() || '';
-    }
-
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 Trying model: ${modelName}`);
-            responseText = await callGemini(modelName, userPrompt);
-            if (!responseText) throw new Error('Empty response');
+            console.log(`🔄 Trying Groq model: ${modelName}`);
+            const completion = await groq.chat.completions.create({
+                model: modelName,
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userPrompt },
+                ],
+                temperature: 0.3,
+                max_tokens: 2048,
+                response_format: { type: 'json_object' },
+            });
 
-            // Check word count — retry once if too short
-            const parsed = parseGeminiResponse(responseText);
-            const firstWordCount = parsed.articleText.split(/\s+/).length;
-            if (firstWordCount < 80) {
-                console.log(`⚠️ First attempt too short (${firstWordCount} words), retrying...`);
-                const retryPrompt = userPrompt + `\n\nCRITICAL: Your previous attempt was only ${firstWordCount} words. You MUST write 150-200 words in 2-3 paragraphs. The imageKeyword MUST be 3-5 descriptive words for a cinematic photo. Output ONLY valid JSON.`;
-                const retryText = await callGemini(modelName, retryPrompt);
-                if (retryText) {
-                    const retryParsed = parseGeminiResponse(retryText);
-                    if (retryParsed.articleText.split(/\s+/).length > firstWordCount) {
-                        responseText = retryText;
-                        console.log(`✅ Retry produced ${retryParsed.articleText.split(/\s+/).length} words`);
-                    }
-                }
-            }
+            responseText = completion.choices[0]?.message?.content?.trim() || '';
+            if (!responseText) throw new Error('Empty response');
 
             usedModel = modelName;
             console.log(`✅ Success with: ${modelName}`);
@@ -399,16 +378,16 @@ Output ONLY the raw JSON object. No markdown code fences, no backticks, no expla
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
-            if (!msg.includes('429') && !msg.includes('quota') && !msg.includes('rate') && !msg.includes('not found')) {
+            if (!msg.includes('429') && !msg.includes('rate') && !msg.includes('not found')) {
                 throw err;
             }
         }
     }
 
-    if (!responseText) throw new Error('All Gemini models failed');
+    if (!responseText) throw new Error('All Groq models failed');
 
     // 7. Parse the structured JSON response
-    const { articleText, imageKeyword } = parseGeminiResponse(responseText);
+    const { articleText, imageKeyword } = parseJsonResponse(responseText);
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Response (${usedModel}): ${wordCount} words, keyword: "${imageKeyword}"`);
 

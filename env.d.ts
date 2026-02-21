@@ -22,6 +22,9 @@ declare namespace NodeJS {
         GEMINI_API_KEY?: string;
         GEMINI_CHAT_API_KEY?: string;
 
+        // Groq
+        GROQ_API_KEY?: string;
+
         // GitHub
         GITHUB_TOKEN?: string;
         GITHUB_REPO?: string;
