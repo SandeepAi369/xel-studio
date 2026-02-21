@@ -346,8 +346,9 @@ You MUST return the response in strict JSON format with exactly TWO keys:
 1. "articleText": The strictly factual article in 2-3 paragraphs separated by \\n\\n. NO bullet points, NO lists, NO headers. Clean flowing prose only.
    WORD COUNT: MINIMUM 150 words, MAXIMUM 200 words. This is NON-NEGOTIABLE. Under 140 words is UNACCEPTABLE — if needed, add more factual context, background, or analysis to reach at least 150 words.
 2. "imageKeyword": A highly relevant 3-5 word cinematic Unsplash search phrase for a stunning editorial photograph.
-   EXCELLENT examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit"
-   BAD examples: "technology", "robot", "AI", "computer"
+   EXCELLENT examples (pick the style closest to your article topic):
+   "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit", "cybersecurity dark hacker terminal glow", "silicon wafer golden chip manufacturing", "autonomous vehicle lidar sensor night", "tech conference keynote stage lights", "data center corridor blue lights", "neural network brain digital art", "stock market trading screens wall", "Indian tech startup office modern", "microchip circuit board extreme macro"
+   BAD examples (too generic — gives boring results): "technology", "robot", "AI", "computer", "server", "chip"
 
 Output ONLY the raw JSON object. No markdown code fences, no backticks, no explanation.`;
 
