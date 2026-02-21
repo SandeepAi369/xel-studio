@@ -35,13 +35,16 @@ const DDG_RESULT_COUNT = 8;
 // ─── Dynamic Query Generation Algorithm ─────────────────────
 
 const keywordCategories: Record<string, string[]> = {
-    aiModels: ['GPT-5', 'Gemini 2.0', 'Claude 3.5', 'Llama 3', 'Mistral Large', 'DeepSeek R1', 'Grok 3', 'Qwen 2.5'],
-    techGiants: ['OpenAI', 'Nvidia', 'Anthropic', 'Google DeepMind', 'Microsoft AI', 'Hugging Face', 'xAI', 'Meta AI'],
-    subNiches: ['Autonomous Agents', 'AI Robotics', 'Quantum Computing', 'AI Hardware/Chips', 'Open-Source AI', 'Multimodal AI', 'AI Safety', 'Edge AI', 'Synthetic Data'],
-    indianAI: ['Sarvam AI', 'Krutrim AI', 'India AI Mission', 'Bhashini', 'MeitY AI', 'Reliance Jio AI', 'Tata AI', 'Indian LLM', 'Aadhaar AI', 'BharatGen'],
-    worldNews: ['US-China AI rivalry', 'EU AI Act', 'China AI chips', 'Global AI governance', 'AI in climate policy', 'AI cybersecurity threats', 'UN AI summit'],
-    generalNews: ['India economy 2026', 'global stock markets', 'India budget 2026', 'ISRO AI', 'world economy update', 'geopolitical tech', 'breaking India news'],
+    coreGiants: ['OpenAI', 'Google DeepMind', 'Microsoft AI', 'Anthropic', 'Meta AI', 'Apple Intelligence', 'Amazon AWS AI', 'xAI', 'Hugging Face'],
+    aiHardware: ['Nvidia', 'AMD', 'TSMC', 'ARM', 'Qualcomm AI', 'Custom AI Silicon'],
+    globalModels: ['DeepSeek R1', 'Qwen 2.5', 'Llama 3.5', 'Mistral Large', 'Gemini 2.0', 'Claude 3.5', 'Grok 3'],
+    subNiches: ['Autonomous Agents', 'AI Robotics', 'Quantum Computing', 'AI Safety', 'Synthetic Data', 'Edge AI'],
+    indianAI: ['Sarvam AI', 'Krutrim AI', 'India AI Mission', 'Bhashini', 'Reliance Jio AI', 'Tata AI'],
+    worldNews: ['US-China AI tech war', 'EU AI Act', 'AI chip export bans', 'Global AI regulation', 'Tech layoffs 2026'],
 };
+
+// Anchor categories (60% weight) — the heavy-hitters
+const ANCHOR_CATEGORIES = ['coreGiants', 'aiHardware', 'globalModels'];
 
 function getRandomElement<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -52,12 +55,38 @@ function getRandomElements<T>(arr: T[], count: number): T[] {
 }
 
 export function generateDynamicQuery(): string {
-    const categoryKeys = Object.keys(keywordCategories);
-    const numKeywords = Math.random() > 0.4 ? 2 : 1;
-    const selectedCategories = numKeywords === 1
-        ? [getRandomElement(categoryKeys)]
-        : getRandomElements(categoryKeys, 2);
-    const keywords = selectedCategories.map(cat => getRandomElement(keywordCategories[cat]));
+    const allCategories = Object.keys(keywordCategories);
+    let keywords: string[];
+
+    if (Math.random() < 0.6) {
+        // ── 60% ANCHOR: first keyword from core categories ──
+        const anchorCat = getRandomElement(ANCHOR_CATEGORIES);
+        const anchor = getRandomElement(keywordCategories[anchorCat]);
+
+        // Optionally add a second keyword from any OTHER category
+        if (Math.random() > 0.35) {
+            const otherCats = allCategories.filter(c => c !== anchorCat);
+            const secondCat = getRandomElement(otherCats);
+            const second = getRandomElement(keywordCategories[secondCat]);
+            keywords = [anchor, second];
+        } else {
+            keywords = [anchor];
+        }
+    } else {
+        // ── 40% WILDCARD: any category, 1-2 keywords ──
+        const numKeywords = Math.random() > 0.4 ? 2 : 1;
+        if (numKeywords === 1) {
+            const cat = getRandomElement(allCategories);
+            keywords = [getRandomElement(keywordCategories[cat])];
+        } else {
+            const [cat1, cat2] = getRandomElements(allCategories, 2);
+            keywords = [
+                getRandomElement(keywordCategories[cat1]),
+                getRandomElement(keywordCategories[cat2]),
+            ];
+        }
+    }
+
     const coreQuery = keywords.length === 1
         ? keywords[0]
         : keywords[0] + (Math.random() > 0.5 ? ' AND ' : ' OR ') + keywords[1];
@@ -78,17 +107,16 @@ export function generateDynamicQuery(): string {
 
 function detectCategory(query: string): string {
     const q = query.toLowerCase();
-    const aiPatterns = ['gpt', 'gemini', 'claude', 'llama', 'mistral', 'deepseek', 'grok', 'qwen',
-        'openai', 'nvidia', 'anthropic', 'deepmind', 'hugging face', 'xai', 'meta ai',
-        'autonomous agent', 'ai robot', 'quantum', 'ai hardware', 'open-source ai',
-        'multimodal', 'ai safety', 'edge ai', 'synthetic data', 'microsoft ai'];
-    const indiaPatterns = ['sarvam', 'krutrim', 'india ai', 'bhashini', 'meity', 'jio ai',
-        'tata ai', 'indian llm', 'aadhaar', 'bharatgen', 'isro', 'india economy', 'india budget'];
-    const worldPatterns = ['us-china', 'eu ai act', 'china ai', 'global ai governance',
-        'climate policy', 'cybersecurity', 'un ai summit', 'geopolitical', 'stock market',
-        'world economy'];
+    const aiPatterns = ['openai', 'deepmind', 'microsoft ai', 'anthropic', 'meta ai',
+        'apple intelligence', 'amazon aws ai', 'xai', 'hugging face',
+        'nvidia', 'amd', 'tsmc', 'arm', 'qualcomm', 'custom ai silicon',
+        'deepseek', 'qwen', 'llama', 'mistral', 'gemini', 'claude', 'grok',
+        'autonomous agent', 'ai robot', 'quantum', 'ai safety', 'synthetic data', 'edge ai'];
+    const indiaPatterns = ['sarvam', 'krutrim', 'india ai', 'bhashini', 'jio ai', 'tata ai'];
+    const worldPatterns = ['us-china', 'eu ai act', 'chip export', 'global ai regulation',
+        'tech layoffs'];
 
-    if (indiaPatterns.some(p => q.includes(p))) return 'ai'; // Indian AI still under ai category
+    if (indiaPatterns.some(p => q.includes(p))) return 'ai';
     if (worldPatterns.some(p => q.includes(p))) return 'world';
     if (aiPatterns.some(p => q.includes(p))) return 'ai';
     return Math.random() > 0.3 ? 'ai' : 'world';
@@ -337,9 +365,10 @@ If the scraped data is empty, use your training knowledge about the most recent 
 
 You MUST return the response in strict JSON format with exactly TWO keys:
 1. "articleText": The 150-200 word article in 2-3 flowing paragraphs. NO bullet points, NO lists, NO headers.
-2. "imageKeyword": A highly relevant, descriptive 3-5 word Unsplash search phrase for a stunning, cinematic, editorial-quality photograph.
-   EXCELLENT examples: "glowing neural network server room", "futuristic autonomous robot assembly line", "quantum computing processor closeup", "cybersecurity hacker dark terminal", "semiconductor cleanroom neon lights", "space satellite earth orbit", "scientist AI holographic display"
-   BAD examples (too generic, will give boring images): "technology", "robot", "AI", "computer"
+2. "imageKeyword": An ultra-specific, cinematic 4-6 word Unsplash search phrase that describes a SCENE, not just an object. Include lighting, setting, or mood for dramatic editorial photography.
+   EXCELLENT examples: "glowing blue neural network dark server room", "nvidia gpu chip neon light closeup", "futuristic robot arm factory assembly line", "quantum computing processor golden light macro", "dark cybersecurity operations center screens", "semiconductor wafer cleanroom purple ultraviolet", "astronaut space station earth sunrise window", "AI researcher holographic display dark lab"
+   GOOD technique: combine [subject] + [setting/environment] + [lighting/mood] for cinematic results.
+   BAD examples (too generic — will give BORING stock photos): "technology", "robot", "AI", "computer", "server", "chip"
 
 Output ONLY the raw JSON object. No markdown code fences, no backticks, no explanation.`;
 
