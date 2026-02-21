@@ -87,7 +87,7 @@ const CATEGORY_CONFIG = {
   },
 };
 
-const PREVIEW_WORD_LIMIT = 50;
+const PREVIEW_WORD_LIMIT = 30;
 
 /* ─── Helpers ──────────────────────────────────────────────── */
 function timeAgo(dateStr: string): string {
