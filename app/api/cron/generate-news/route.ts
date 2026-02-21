@@ -34,65 +34,44 @@ const DDG_RESULT_COUNT = 8;
 
 // ─── Dynamic Query Generation Algorithm ─────────────────────
 
-const keywordCategories: Record<string, string[]> = {
-    coreGiants: ['OpenAI', 'Google DeepMind', 'Microsoft AI', 'Anthropic', 'Meta AI', 'Apple Intelligence', 'Amazon AWS AI', 'xAI', 'Hugging Face'],
-    aiHardware: ['Nvidia', 'AMD', 'TSMC', 'ARM', 'Qualcomm AI', 'Custom AI Silicon'],
-    globalModels: ['DeepSeek R1', 'Qwen 2.5', 'Llama 3.5', 'Mistral Large', 'Gemini 2.0', 'Claude 3.5', 'Grok 3'],
-    subNiches: ['Autonomous Agents', 'AI Robotics', 'Quantum Computing', 'AI Safety', 'Synthetic Data', 'Edge AI'],
-    indianAI: ['Sarvam AI', 'Krutrim AI', 'India AI Mission', 'Bhashini', 'Reliance Jio AI', 'Tata AI'],
-    worldNews: ['US-China AI tech war', 'EU AI Act', 'AI chip export bans', 'Global AI regulation', 'Tech layoffs 2026'],
-};
-
-// Anchor categories (60% weight) — the heavy-hitters
-const ANCHOR_CATEGORIES = ['coreGiants', 'aiHardware', 'globalModels'];
-// Wildcard categories (40% weight) — variety and niche topics
-const WILDCARD_CATEGORIES = ['subNiches', 'indianAI', 'worldNews'];
+// NO AI model names — only companies and broad topics
+const companies = ['OpenAI', 'Google', 'Microsoft', 'Nvidia', 'Meta', 'Apple', 'Amazon', 'TSMC', 'AMD'];
+const generalTopics = [
+    'New AI technology', 'Artificial intelligence breakthroughs', 'Global tech news',
+    'AI startup innovations', 'Tech industry trends', 'Cybersecurity updates',
+];
 
 function getRandomElement<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
 export function generateDynamicQuery(): string {
-    // 60/40 weighted single-keyword selection — NO multi-keyword combos
-    let keyword: string;
-
-    if (Math.random() < 0.6) {
-        // ── 60% ANCHOR: one keyword from core categories ──
-        const cat = getRandomElement(ANCHOR_CATEGORIES);
-        keyword = getRandomElement(keywordCategories[cat]);
+    // 70% company search, 30% general topic search
+    if (Math.random() < 0.7) {
+        const company = getRandomElement(companies);
+        return `${company} latest tech news today`;
     } else {
-        // ── 40% WILDCARD: one keyword from niche/world categories ──
-        const cat = getRandomElement(WILDCARD_CATEGORIES);
-        keyword = getRandomElement(keywordCategories[cat]);
+        const topic = getRandomElement(generalTopics);
+        return `${topic} today`;
     }
+}
 
-    const now = new Date();
-    const year = now.getFullYear();
-    const month = now.toLocaleString('en-US', { month: 'long' });
-    const timeModifiers = [
-        'latest news today', 'recent updates', `news ${month} ${year}`,
-        'latest developments', `${year} update`, 'news today',
-    ];
-
-    return `${keyword} ${getRandomElement(timeModifiers)}`.trim();
+function generateFallbackQuery(): string {
+    const topic = getRandomElement(generalTopics);
+    return `${topic} today`;
 }
 
 // ─── Detect category from dynamic query ─────────────────────
 
 function detectCategory(query: string): string {
     const q = query.toLowerCase();
-    const aiPatterns = ['openai', 'deepmind', 'microsoft ai', 'anthropic', 'meta ai',
-        'apple intelligence', 'amazon aws ai', 'xai', 'hugging face',
-        'nvidia', 'amd', 'tsmc', 'arm', 'qualcomm', 'custom ai silicon',
-        'deepseek', 'qwen', 'llama', 'mistral', 'gemini', 'claude', 'grok',
-        'autonomous agent', 'ai robot', 'quantum', 'ai safety', 'synthetic data', 'edge ai'];
-    const indiaPatterns = ['sarvam', 'krutrim', 'india ai', 'bhashini', 'jio ai', 'tata ai'];
-    const worldPatterns = ['us-china', 'eu ai act', 'chip export', 'global ai regulation',
-        'tech layoffs'];
+    const aiCompanies = ['openai', 'google', 'microsoft', 'nvidia', 'meta', 'apple', 'amazon', 'tsmc', 'amd'];
+    const aiTopics = ['ai technology', 'artificial intelligence', 'ai startup', 'ai innovation'];
+    const worldTopics = ['global tech', 'tech industry', 'cybersecurity'];
 
-    if (indiaPatterns.some(p => q.includes(p))) return 'ai';
-    if (worldPatterns.some(p => q.includes(p))) return 'world';
-    if (aiPatterns.some(p => q.includes(p))) return 'ai';
+    if (aiCompanies.some(p => q.includes(p))) return 'ai';
+    if (aiTopics.some(p => q.includes(p))) return 'ai';
+    if (worldTopics.some(p => q.includes(p))) return 'world';
     return Math.random() > 0.3 ? 'ai' : 'world';
 }
 
@@ -315,21 +294,42 @@ async function generateNews() {
     if (!groqApiKey) throw new Error('GROQ_API_KEY not set');
     const groq = new Groq({ apiKey: groqApiKey });
 
-    // 4. Run DuckDuckGo search + cleanup + dedup check in parallel
-    const [ddgResult, existingSnap] = await Promise.all([
+    // 4. Run DuckDuckGo search with AUTO-RETRY FALLBACK + cleanup + dedup check
+    const [initialDdgResult, existingSnap] = await Promise.all([
         searchDuckDuckGo(searchQuery),
         adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
         cleanupOldArticles(),
     ]);
 
-    const scrapedData = ddgResult.results;
+    // Check if initial search returned usable data
+    let scrapedData = initialDdgResult.results;
+    let usedQuery = searchQuery;
+    const totalTextLength = scrapedData.map((r: { title?: string; description?: string }) =>
+        `${r.title || ''} ${r.description || ''}`
+    ).join('').length;
+
+    if (!scrapedData.length || totalTextLength < 50) {
+        // FALLBACK: initial search was empty/weak — try a general topic
+        const fallbackQuery = generateFallbackQuery();
+        console.log(`⚠️ Primary search weak (${scrapedData.length} results, ${totalTextLength} chars). Retrying with fallback: "${fallbackQuery}"`);
+        const fallbackResult = await searchDuckDuckGo(fallbackQuery);
+        if (fallbackResult.results.length > 0) {
+            scrapedData = fallbackResult.results;
+            usedQuery = fallbackQuery;
+            console.log(`✅ Fallback search succeeded: ${scrapedData.length} results`);
+        } else {
+            console.log('⚠️ Fallback also empty — Groq will generate from general knowledge');
+        }
+    } else {
+        console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
+    }
 
     // 5. Build the strict factual reporter prompt
     const systemPrompt = `You are a strict, factual tech reporter writing for a premium news publication. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other output.`;
 
     const userPrompt = `Write a news article based on this DuckDuckGo search data.
 
-Search query: "${searchQuery}"
+Search query: "${usedQuery}"
 Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
 
 Scraped data:
@@ -439,7 +439,7 @@ JSON output format:
         word_count: `${wordCount}`,
         image_keyword: imageKeyword,
         has_image: imageUrl ? 'yes' : 'no',
-        ddg_query: searchQuery,
+        ddg_query: usedQuery,
         ddg_results: `${scrapedData.length}`,
         duration_ms: `${duration}`,
     });
@@ -452,7 +452,7 @@ JSON output format:
         word_count: wordCount,
         image_keyword: imageKeyword,
         has_image: !!imageUrl,
-        ddg_query: searchQuery,
+        ddg_query: usedQuery,
         ddg_results: scrapedData.length,
         duration_ms: duration,
     };
