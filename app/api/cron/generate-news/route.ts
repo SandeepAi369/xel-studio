@@ -339,19 +339,19 @@ async function generateNews() {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. GEMINI CALL 1 — Generate the NEWS ARTICLE (articleText only)
-    const articlePrompt = `You are a strict, factual tech reporter writing for a premium news publication.
+    // 5. GEMINI — Single call for BOTH articleText + imageKeyword
+    const prompt = `You are a strict, factual tech reporter writing for a premium news publication.
 
 Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
 
 Search data:
 ${JSON.stringify(scrapedData, null, 2)}
 
-STRICT RULES:
+STRICT RULES FOR articleText:
 1. Write STRICTLY based on facts from the data. NO speculation, NO invented info.
 2. Pick the single most prominent news event. Do NOT mix unrelated topics.
 3. Write clean, professional prose. Rewrite facts naturally — do not copy-paste raw snippets.
-4. Structure as 2-3 well-developed paragraphs separated by double newlines (\\n\\n).
+4. Structure as 2-3 well-developed paragraphs separated by double newlines.
 5. Do NOT start with "In" or "The". Start punchy and attention-grabbing.
 6. NEVER mention search queries, DuckDuckGo, scraped data, or any internal pipeline details.
 7. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
@@ -359,21 +359,27 @@ STRICT RULES:
 WORD COUNT REQUIREMENT (CRITICAL — READ CAREFULLY):
 - You MUST write BETWEEN 175 and 225 words. This is MANDATORY.
 - An article under 170 words is COMPLETELY UNACCEPTABLE and will be REJECTED.
-- Count your words carefully before submitting. If your draft is under 175 words, ADD more factual context, background information, industry impact, or expert analysis to reach at least 175 words.
+- Count your words carefully. If your draft is under 175 words, ADD more factual context, background, industry impact, or expert analysis.
 - Do NOT pad with filler. Add substantive, relevant information.
 
-Return JSON with exactly one key: { "articleText": "your 175-225 word article here" }`;
+RULES FOR imageKeyword:
+- Based on the article you wrote, generate a 3-5 word cinematic Unsplash photo search phrase.
+- Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "data center corridor blue lights"
+- Bad examples (too generic): "technology", "AI", "computer", "robot"
 
-    const MODELS = ['gemini-3.0-flash', 'gemini-2.5-flash'];
+Return JSON with EXACTLY two keys: { "articleText": "your 175-225 word article", "imageKeyword": "your 3-5 word phrase" }`;
+
+    // Use STABLE GA models only (preview models like gemini-3.0-flash are unreliable)
+    const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
     let articleText = '';
     let imageKeyword = '';
     let usedModel = '';
 
-    // Helper function to call Gemini for article generation
-    async function callGeminiArticle(modelName: string, prompt: string): Promise<string> {
+    // Helper to call Gemini
+    async function callGemini(modelName: string, inputPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
         const result = await ai.models.generateContent({
             model: modelName,
-            contents: prompt,
+            contents: inputPrompt,
             config: {
                 temperature: 0.4,
                 maxOutputTokens: 4096,
@@ -382,54 +388,64 @@ Return JSON with exactly one key: { "articleText": "your 175-225 word article he
         });
         const raw = result.text?.trim() || '';
         if (!raw) throw new Error('Empty response');
-        return parseArticleResponse(raw);
+
+        const article = parseArticleResponse(raw);
+        // Try to extract imageKeyword from JSON too
+        let imgKw = 'futuristic artificial intelligence technology';
+        try {
+            let clean = raw;
+            if (clean.startsWith('```')) {
+                clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
+            }
+            const parsed = JSON.parse(clean);
+            if (parsed.imageKeyword) imgKw = parsed.imageKeyword.trim().toLowerCase();
+        } catch { /* use fallback */ }
+
+        return { articleText: article, imageKeyword: imgKw };
     }
 
-    // --- Call 1: News Article (with auto-retry for word count) ---
+    // --- Single Gemini call with model fallback + word count retry ---
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 [Article] Trying Gemini model: ${modelName}`);
-            articleText = await callGeminiArticle(modelName, articlePrompt);
+            console.log(`🔄 Trying Gemini model: ${modelName}`);
+            const result = await callGemini(modelName, prompt);
+            articleText = result.articleText;
+            imageKeyword = result.imageKeyword;
             usedModel = modelName;
 
             const firstWordCount = articleText.split(/\s+/).length;
-            console.log(`📝 [Article] First attempt: ${firstWordCount} words`);
+            console.log(`📝 First attempt: ${firstWordCount} words, image: "${imageKeyword}"`);
 
-            // AUTO-RETRY: If too short, retry with explicit word count feedback
+            // AUTO-RETRY if too short
             if (firstWordCount < 170) {
-                console.log(`⚠️ [Article] Too short (${firstWordCount} words), retrying with stronger prompt...`);
-                const retryPrompt = `${articlePrompt}
+                console.log(`⚠️ Too short (${firstWordCount} words), retrying...`);
+                const retryPrompt = `${prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY ${firstWordCount} words. This is UNACCEPTABLE.
 You MUST write AT LEAST 175 words and NO MORE than 225 words.
-Expand the article with more factual details, background context, industry implications, or analysis.
-Do NOT just repeat the same content. ADD NEW substantive information.
-
-Return JSON: { "articleText": "your expanded 175-225 word article" }`;
+Expand with more factual details, background context, industry implications, or analysis.
+Do NOT repeat the same content. ADD NEW substantive information.`;
 
                 try {
-                    const retryText = await callGeminiArticle(modelName, retryPrompt);
-                    const retryWordCount = retryText.split(/\s+/).length;
-                    console.log(`📝 [Article] Retry attempt: ${retryWordCount} words`);
+                    const retryResult = await callGemini(modelName, retryPrompt);
+                    const retryWordCount = retryResult.articleText.split(/\s+/).length;
+                    console.log(`📝 Retry: ${retryWordCount} words`);
 
-                    // Use retry if it's longer than the first attempt
                     if (retryWordCount > firstWordCount) {
-                        articleText = retryText;
-                        console.log(`✅ [Article] Retry accepted: ${retryWordCount} words`);
-                    } else {
-                        console.log(`⚠️ [Article] Retry not better, keeping first attempt`);
+                        articleText = retryResult.articleText;
+                        imageKeyword = retryResult.imageKeyword;
+                        console.log(`✅ Retry accepted: ${retryWordCount} words`);
                     }
-                } catch (retryErr) {
-                    console.warn('⚠️ [Article] Retry failed, keeping first attempt');
+                } catch {
+                    console.warn('⚠️ Retry failed, keeping first attempt');
                 }
             }
 
-            console.log(`✅ [Article] Final success with: ${modelName}`);
+            console.log(`✅ Success with: ${modelName}`);
             break;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 200)}`);
-            // Always try the next model — don't throw on any error
             articleText = '';
         }
     }
@@ -437,45 +453,7 @@ Return JSON: { "articleText": "your expanded 175-225 word article" }`;
     if (!articleText) throw new Error('All Gemini models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
-    console.log(`📝 Article (${usedModel}): ${wordCount} words (final)`);
-
-    // --- 3-second cooldown before image call to avoid Gemini rate limits ---
-    console.log('⏳ Waiting 3 seconds before image keyword call...');
-    await new Promise(resolve => setTimeout(resolve, 3000));
-
-    // --- Call 2: Image Keyword (SEPARATE Gemini call based on article) ---
-    const imagePrompt = `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase (maximum 15 words) that would produce a stunning, relevant editorial photograph.
-
-Article: "${articleText.substring(0, 400)}"
-
-Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "cybersecurity dark hacker terminal glow", "data center corridor blue lights", "tech conference keynote stage lights", "silicon wafer golden chip manufacturing", "autonomous vehicle lidar sensor night", "neural network brain digital art", "stock market trading screens wall", "microchip circuit board extreme macro", "space satellite earth orbit", "Indian tech startup office modern"
-Bad examples (too generic): "technology", "AI", "computer", "robot", "chip"
-
-Return JSON with exactly one key: { "imageKeyword": "your 3-5 word phrase" }`;
-
-    for (const imgModel of MODELS) {
-        try {
-            console.log(`🎨 [Image] Trying Gemini model: ${imgModel}`);
-            const imageResult = await ai.models.generateContent({
-                model: imgModel,
-                contents: imagePrompt,
-                config: {
-                    temperature: 0.5,
-                    maxOutputTokens: 150,
-                    responseMimeType: 'application/json',
-                },
-            });
-
-            const imageRaw = imageResult.text?.trim() || '';
-            imageKeyword = parseImageKeyword(imageRaw);
-            console.log(`🎨 [Image] Keyword: "${imageKeyword}"`);
-            break; // success — exit loop
-        } catch (err) {
-            const msg = err instanceof Error ? err.message : String(err);
-            console.warn(`⚠️ [Image] ${imgModel} failed: ${msg.substring(0, 100)}`);
-            imageKeyword = 'futuristic artificial intelligence technology lab';
-        }
-    }
+    console.log(`📝 Article (${usedModel}): ${wordCount} words, imageKeyword: "${imageKeyword}"`);
 
     // 8. Generate title and check dups
     const title = generateTitle(topic, category);
