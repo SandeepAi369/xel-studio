@@ -347,15 +347,20 @@ Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'nu
 Search data:
 ${JSON.stringify(scrapedData, null, 2)}
 
-RULES:
+STRICT RULES:
 1. Write STRICTLY based on facts from the data. NO speculation, NO invented info.
 2. Pick the single most prominent news event. Do NOT mix unrelated topics.
-3. Write clean, professional prose. Rewrite facts naturally.
-4. Structure as 2-3 paragraphs separated by double newlines.
-5. Do NOT start with "In" or "The". Start punchy.
-6. NEVER mention search queries, DuckDuckGo, or any internal details.
-7. MINIMUM 175 words, MAXIMUM 225 words. This is non-negotiable.
-8. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
+3. Write clean, professional prose. Rewrite facts naturally — do not copy-paste raw snippets.
+4. Structure as 2-3 well-developed paragraphs separated by double newlines (\\n\\n).
+5. Do NOT start with "In" or "The". Start punchy and attention-grabbing.
+6. NEVER mention search queries, DuckDuckGo, scraped data, or any internal pipeline details.
+7. If scraped data is empty, write about the most recent CONFIRMED, publicly known development.
+
+WORD COUNT REQUIREMENT (CRITICAL — READ CAREFULLY):
+- You MUST write BETWEEN 175 and 225 words. This is MANDATORY.
+- An article under 170 words is COMPLETELY UNACCEPTABLE and will be REJECTED.
+- Count your words carefully before submitting. If your draft is under 175 words, ADD more factual context, background information, industry impact, or expert analysis to reach at least 175 words.
+- Do NOT pad with filler. Add substantive, relevant information.
 
 Return JSON with exactly one key: { "articleText": "your 175-225 word article here" }`;
 
@@ -364,26 +369,62 @@ Return JSON with exactly one key: { "articleText": "your 175-225 word article he
     let imageKeyword = '';
     let usedModel = '';
 
-    // --- Call 1: News Article ---
+    // Helper function to call Gemini for article generation
+    async function callGeminiArticle(modelName: string, prompt: string): Promise<string> {
+        const result = await ai.models.generateContent({
+            model: modelName,
+            contents: prompt,
+            config: {
+                temperature: 0.4,
+                maxOutputTokens: 4096,
+                responseMimeType: 'application/json',
+            },
+        });
+        const raw = result.text?.trim() || '';
+        if (!raw) throw new Error('Empty response');
+        return parseArticleResponse(raw);
+    }
+
+    // --- Call 1: News Article (with auto-retry for word count) ---
     for (const modelName of MODELS) {
         try {
             console.log(`🔄 [Article] Trying Gemini model: ${modelName}`);
-            const result = await ai.models.generateContent({
-                model: modelName,
-                contents: articlePrompt,
-                config: {
-                    temperature: 0.3,
-                    maxOutputTokens: 2048,
-                    responseMimeType: 'application/json',
-                },
-            });
-
-            const raw = result.text?.trim() || '';
-            if (!raw) throw new Error('Empty response');
-
-            articleText = parseArticleResponse(raw);
+            articleText = await callGeminiArticle(modelName, articlePrompt);
             usedModel = modelName;
-            console.log(`✅ [Article] Success with: ${modelName}`);
+
+            const firstWordCount = articleText.split(/\s+/).length;
+            console.log(`📝 [Article] First attempt: ${firstWordCount} words`);
+
+            // AUTO-RETRY: If too short, retry with explicit word count feedback
+            if (firstWordCount < 170) {
+                console.log(`⚠️ [Article] Too short (${firstWordCount} words), retrying with stronger prompt...`);
+                const retryPrompt = `${articlePrompt}
+
+CRITICAL CORRECTION: Your previous attempt was ONLY ${firstWordCount} words. This is UNACCEPTABLE.
+You MUST write AT LEAST 175 words and NO MORE than 225 words.
+Expand the article with more factual details, background context, industry implications, or analysis.
+Do NOT just repeat the same content. ADD NEW substantive information.
+
+Return JSON: { "articleText": "your expanded 175-225 word article" }`;
+
+                try {
+                    const retryText = await callGeminiArticle(modelName, retryPrompt);
+                    const retryWordCount = retryText.split(/\s+/).length;
+                    console.log(`📝 [Article] Retry attempt: ${retryWordCount} words`);
+
+                    // Use retry if it's longer than the first attempt
+                    if (retryWordCount > firstWordCount) {
+                        articleText = retryText;
+                        console.log(`✅ [Article] Retry accepted: ${retryWordCount} words`);
+                    } else {
+                        console.log(`⚠️ [Article] Retry not better, keeping first attempt`);
+                    }
+                } catch (retryErr) {
+                    console.warn('⚠️ [Article] Retry failed, keeping first attempt');
+                }
+            }
+
+            console.log(`✅ [Article] Final success with: ${modelName}`);
             break;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
@@ -397,7 +438,7 @@ Return JSON with exactly one key: { "articleText": "your 175-225 word article he
     if (!articleText) throw new Error('All Gemini models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
-    console.log(`📝 Article (${usedModel}): ${wordCount} words`);
+    console.log(`📝 Article (${usedModel}): ${wordCount} words (final)`);
 
     // --- Call 2: Image Keyword (SEPARATE Gemini call based on article) ---
     try {
