@@ -325,7 +325,7 @@ async function generateNews() {
     const scrapedData = ddgResult.results;
 
     // 5. Build the strict factual reporter prompt with live context
-    const userPrompt = `You are a strict, factual tech reporter.
+    const userPrompt = `You are a strict, factual tech reporter writing for a premium news publication.
 The user searched DuckDuckGo for: "${searchQuery}"
 
 Here is the raw scraped data:
@@ -334,14 +334,16 @@ ${JSON.stringify(scrapedData, null, 2)}
 CRITICAL RULES:
 1. NO SPECULATION. Base your 150-200 word article STRICTLY on the facts provided in the scraped data.
 2. Do not invent rumors, future partnerships, or exclusive leaks. If it is not in the DuckDuckGo data, DO NOT write it.
-3. If the scraped data contains mixed or weak links, find the most prominent factual news event in the text and report ONLY on that.
-4. Maintain a professional, objective journalistic tone.
-5. Do NOT start with the word "In" or "The". Start with something punchy and attention-grabbing.
-6. Write as if reporting news happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
-7. If the scraped data is completely empty, write about the most recent CONFIRMED, PUBLICLY KNOWN development for the query topic. Do not speculate.
+3. If the scraped data contains mixed or weak links, find the most prominent factual news event and report ONLY on that single topic. Do NOT mix multiple unrelated topics.
+4. Write in a professional, polished, human-readable narrative style. Rewrite facts in your own words — do NOT copy-paste raw search snippets.
+5. Structure the article as 2-3 clearly separated paragraphs. Use double newlines (\\n\\n) between paragraphs.
+6. Do NOT start with "In" or "The". Start with something punchy and attention-grabbing.
+7. Write as if reporting news happening TODAY (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).
+8. If the scraped data is empty, write about the most recent CONFIRMED, publicly known development. Do not speculate.
+9. NEVER mention "image keywords", "search queries", "DuckDuckGo", "scraped data", or any internal pipeline details in the article text. The article must read like a clean news report.
 
 You MUST return the response in strict JSON format with exactly TWO keys:
-1. "articleText": The strictly factual 150-200 word article in 2-3 flowing paragraphs. NO bullet points, NO lists, NO headers.
+1. "articleText": The strictly factual 150-200 word article in 2-3 paragraphs separated by \\n\\n. NO bullet points, NO lists, NO headers. Clean flowing prose only.
 2. "imageKeyword": A highly relevant 3-5 word cinematic Unsplash search phrase for a stunning editorial photograph.
    EXCELLENT examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit"
    BAD examples: "technology", "robot", "AI", "computer"

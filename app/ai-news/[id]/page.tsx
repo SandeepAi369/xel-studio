@@ -11,6 +11,9 @@ import {
     Globe,
     Zap,
     Share2,
+    Heart,
+    Copy,
+    Check,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
@@ -83,6 +86,8 @@ export default function NewsDetailPage() {
     const [loading, setLoading] = useState(true);
     const [mounted, setMounted] = useState(false);
     const [imgError, setImgError] = useState(false);
+    const [liked, setLiked] = useState(false);
+    const [copied, setCopied] = useState(false);
 
     useEffect(() => {
         async function fetchArticle() {
@@ -240,20 +245,84 @@ export default function NewsDetailPage() {
                     </div>
                 </div>
 
-                {/* Article body */}
+                {/* Article body — split into proper paragraphs */}
                 <div className="prose prose-invert prose-lg max-w-none">
-                    {article.summary.split("\n\n").map((paragraph, i) => (
-                        <p
-                            key={i}
-                            className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6"
+                    {(() => {
+                        // Split by double newlines first
+                        let paragraphs = article.summary.split(/\n\n+/).filter(p => p.trim());
+                        // If only one big paragraph, try splitting by sentences (~3 per paragraph)
+                        if (paragraphs.length === 1 && paragraphs[0].length > 200) {
+                            const sentences = paragraphs[0].match(/[^.!?]+[.!?]+/g) || [paragraphs[0]];
+                            paragraphs = [];
+                            for (let i = 0; i < sentences.length; i += 3) {
+                                paragraphs.push(sentences.slice(i, i + 3).join(' ').trim());
+                            }
+                        }
+                        return paragraphs.map((paragraph, i) => (
+                            <p
+                                key={i}
+                                className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6"
+                            >
+                                {paragraph.trim()}
+                            </p>
+                        ));
+                    })()}
+                </div>
+
+                {/* Action Buttons — Like, Share, Copy */}
+                <div className="mt-8 pt-6 border-t border-zinc-800/60">
+                    <div className="flex items-center gap-3">
+                        {/* Like */}
+                        <button
+                            onClick={() => setLiked(!liked)}
+                            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${liked
+                                    ? 'bg-red-500/15 text-red-400 border border-red-500/30'
+                                    : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
+                                }`}
                         >
-                            {paragraph}
-                        </p>
-                    ))}
+                            <Heart className={`w-4 h-4 ${liked ? 'fill-red-400' : ''}`} />
+                            {liked ? 'Liked' : 'Like'}
+                        </button>
+
+                        {/* Share */}
+                        <button
+                            onClick={() => {
+                                if (navigator.share) {
+                                    navigator.share({
+                                        title: article.title,
+                                        text: article.summary.slice(0, 100) + '...',
+                                        url: window.location.href,
+                                    }).catch(() => { });
+                                } else {
+                                    navigator.clipboard?.writeText(window.location.href);
+                                }
+                            }}
+                            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white text-sm font-medium transition-all duration-200"
+                        >
+                            <Share2 className="w-4 h-4" />
+                            Share
+                        </button>
+
+                        {/* Copy */}
+                        <button
+                            onClick={() => {
+                                navigator.clipboard?.writeText(article.summary);
+                                setCopied(true);
+                                setTimeout(() => setCopied(false), 2000);
+                            }}
+                            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${copied
+                                    ? 'bg-green-500/15 text-green-400 border border-green-500/30'
+                                    : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
+                                }`}
+                        >
+                            {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                            {copied ? 'Copied!' : 'Copy'}
+                        </button>
+                    </div>
                 </div>
 
                 {/* Footer */}
-                <div className="mt-12 pt-6 border-t border-zinc-800/60 flex items-center justify-between">
+                <div className="mt-8 pt-6 border-t border-zinc-800/60 flex items-center justify-between">
                     <button
                         onClick={() => router.back()}
                         className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors group"
