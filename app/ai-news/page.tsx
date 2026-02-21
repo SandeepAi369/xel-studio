@@ -139,20 +139,6 @@ function NewsCard({ item }: { item: NewsItem }) {
               {config.label}
             </span>
           </div>
-          {/* Listen button on image */}
-          <div
-            className="absolute top-3 right-3"
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-            }}
-          >
-            <SmartListenButton
-              text={prepareTTSText(item.title, item.summary)}
-              iconOnly
-              className="w-9 h-9 backdrop-blur-sm bg-black/30 border border-white/10 rounded-lg"
-            />
-          </div>
         </div>
       )}
 
@@ -167,19 +153,6 @@ function NewsCard({ item }: { item: NewsItem }) {
                 <Icon className="w-2.5 h-2.5" />
                 {config.label}
               </span>
-            </div>
-            <div
-              className="flex-shrink-0 mt-0.5"
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-              }}
-            >
-              <SmartListenButton
-                text={prepareTTSText(item.title, item.summary)}
-                iconOnly
-                className="w-9 h-9"
-              />
             </div>
           </div>
         )}
