@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -13,8 +13,7 @@ import {
   Zap,
   ChevronRight,
 } from "lucide-react";
-import SmartListenButton from "@/components/SmartListenButton";
-import { prepareTTSText } from "@/lib/tts-text";
+
 import { db } from "@/lib/firebase";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
@@ -117,6 +116,7 @@ function NewsCard({ item }: { item: NewsItem }) {
   return (
     <Link
       href={`/ai-news/${item.id}`}
+      onClick={() => sessionStorage.setItem('ai-news-scroll', String(window.scrollY))}
       className="block rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 group cursor-pointer overflow-hidden"
     >
       {/* Hero Image */}
@@ -222,6 +222,17 @@ export default function AINewsPage() {
     // Cleanup listener on unmount
     return () => unsubscribe();
   }, []);
+
+  // Scroll position restoration
+  useEffect(() => {
+    const savedPos = sessionStorage.getItem('ai-news-scroll');
+    if (savedPos && !loading) {
+      requestAnimationFrame(() => {
+        window.scrollTo(0, parseInt(savedPos, 10));
+        sessionStorage.removeItem('ai-news-scroll');
+      });
+    }
+  }, [loading]);
 
   // Sort: AI first, then Technology, then General — within each group by date
   const sortedAndFilteredNews = useMemo(() => {

@@ -343,7 +343,8 @@ CRITICAL RULES:
 9. NEVER mention "image keywords", "search queries", "DuckDuckGo", "scraped data", or any internal pipeline details in the article text. The article must read like a clean news report.
 
 You MUST return the response in strict JSON format with exactly TWO keys:
-1. "articleText": The strictly factual 150-200 word article in 2-3 paragraphs separated by \\n\\n. NO bullet points, NO lists, NO headers. Clean flowing prose only.
+1. "articleText": The strictly factual article in 2-3 paragraphs separated by \\n\\n. NO bullet points, NO lists, NO headers. Clean flowing prose only.
+   WORD COUNT: MINIMUM 150 words, MAXIMUM 200 words. This is NON-NEGOTIABLE. Under 140 words is UNACCEPTABLE — if needed, add more factual context, background, or analysis to reach at least 150 words.
 2. "imageKeyword": A highly relevant 3-5 word cinematic Unsplash search phrase for a stunning editorial photograph.
    EXCELLENT examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "space satellite earth orbit"
    BAD examples: "technology", "robot", "AI", "computer"
