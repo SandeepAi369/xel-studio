@@ -30,15 +30,29 @@ export const maxDuration = 60;
 const COLLECTION = 'news';
 const HEALTH_DOC = 'system/cron_health';
 const NEWS_TTL_HOURS = 24;
-const DDG_RESULT_COUNT = 8;
+const DDG_RESULT_COUNT = 15;
 
-// ─── Dynamic Query Generation Algorithm ─────────────────────
+// ─── Simple Query Generation ─────────────────────────────
 
-// NO AI model names — only companies and broad topics
-const companies = ['OpenAI', 'Google', 'Microsoft', 'Nvidia', 'Meta', 'Apple', 'Amazon', 'TSMC', 'AMD'];
-const generalTopics = [
-    'New AI technology', 'Artificial intelligence breakthroughs', 'Global tech news',
-    'AI startup innovations', 'Tech industry trends', 'Cybersecurity updates',
+const searchQueries = [
+    // AI news
+    'latest artificial intelligence news today',
+    'AI breakthroughs and developments today',
+    'OpenAI Google Microsoft AI news today',
+    'new AI tools and products launched today',
+    'AI industry updates and announcements',
+    // Tech news
+    'latest technology news today',
+    'Nvidia AMD TSMC chip semiconductor news today',
+    'big tech companies news today',
+    'new tech products and launches today',
+    'Silicon Valley startup news today',
+    // Global / geopolitical tech
+    'global technology regulation news today',
+    'cybersecurity threats and updates today',
+    'tech industry layoffs and hiring news',
+    'space technology and innovation news today',
+    'quantum computing robotics breakthrough news today',
 ];
 
 function getRandomElement<T>(arr: T[]): T {
@@ -46,33 +60,26 @@ function getRandomElement<T>(arr: T[]): T {
 }
 
 export function generateDynamicQuery(): string {
-    // 70% company search, 30% general topic search
-    if (Math.random() < 0.7) {
-        const company = getRandomElement(companies);
-        return `${company} latest tech news today`;
-    } else {
-        const topic = getRandomElement(generalTopics);
-        return `${topic} today`;
-    }
+    return getRandomElement(searchQueries);
 }
 
 function generateFallbackQuery(): string {
-    const topic = getRandomElement(generalTopics);
-    return `${topic} today`;
+    // Always falls back to the broadest possible query
+    const fallbacks = [
+        'latest technology news today',
+        'AI news and updates today',
+        'big tech news today',
+    ];
+    return getRandomElement(fallbacks);
 }
 
-// ─── Detect category from dynamic query ─────────────────────
+// ─── Detect category from query ───────────────────────────
 
 function detectCategory(query: string): string {
     const q = query.toLowerCase();
-    const aiCompanies = ['openai', 'google', 'microsoft', 'nvidia', 'meta', 'apple', 'amazon', 'tsmc', 'amd'];
-    const aiTopics = ['ai technology', 'artificial intelligence', 'ai startup', 'ai innovation'];
-    const worldTopics = ['global tech', 'tech industry', 'cybersecurity'];
-
-    if (aiCompanies.some(p => q.includes(p))) return 'ai';
-    if (aiTopics.some(p => q.includes(p))) return 'ai';
-    if (worldTopics.some(p => q.includes(p))) return 'world';
-    return Math.random() > 0.3 ? 'ai' : 'world';
+    if (q.includes('ai') || q.includes('artificial intelligence') || q.includes('openai') || q.includes('nvidia')) return 'ai';
+    if (q.includes('global') || q.includes('regulation') || q.includes('cybersecurity') || q.includes('geopolitical')) return 'world';
+    return 'tech';
 }
 
 // ─── Helpers ─────────────────────────────────────────────────
@@ -205,31 +212,30 @@ function buildCloudinaryFetchUrl(imageUrl: string): string {
     return `https://res.cloudinary.com/${cloudName}/image/fetch/f_auto,q_auto,w_800,h_450,c_fill/${imageUrl}`;
 }
 
-// ─── Parse Gemini JSON Response ──────────────────────────────
+// ─── Parse JSON Responses ────────────────────────────────────
 
-function parseJsonResponse(text: string): { articleText: string; imageKeyword: string } {
+function parseArticleResponse(text: string): string {
     let clean = text.trim();
     if (clean.startsWith('```')) {
         clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
     }
-
     try {
         const parsed = JSON.parse(clean);
-        if (parsed.articleText && parsed.imageKeyword) {
-            return {
-                articleText: parsed.articleText.trim(),
-                imageKeyword: parsed.imageKeyword.trim().toLowerCase(),
-            };
-        }
-    } catch {
-        // JSON parse failed — fall back
-    }
+        if (parsed.articleText) return parsed.articleText.trim();
+    } catch { /* not JSON, use raw text */ }
+    return clean;
+}
 
-    console.warn('⚠️ Could not parse JSON from Groq — using fallback');
-    return {
-        articleText: text.trim(),
-        imageKeyword: 'futuristic artificial intelligence technology lab',
-    };
+function parseImageKeyword(text: string): string {
+    let clean = text.trim();
+    if (clean.startsWith('```')) {
+        clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
+    }
+    try {
+        const parsed = JSON.parse(clean);
+        if (parsed.imageKeyword) return parsed.imageKeyword.trim().toLowerCase();
+    } catch { /* not JSON, use raw text */ }
+    return clean.toLowerCase().replace(/["']/g, '').substring(0, 60);
 }
 
 // ─── Health Tracking ─────────────────────────────────────────
@@ -324,56 +330,53 @@ async function generateNews() {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. Build the strict factual reporter prompt
-    const systemPrompt = `You are a strict, factual tech reporter writing for a premium news publication. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other output.`;
+    // 5. GROQ CALL 1 — Generate the NEWS ARTICLE (articleText only)
+    const newsSystemPrompt = `You are a strict, factual tech reporter. You MUST output valid JSON with exactly one key: "articleText". No other keys, no other output.`;
 
-    const userPrompt = `Write a news article based on this DuckDuckGo search data.
+    const newsUserPrompt = `Write a news article based on this search data.
 
-Search query: "${usedQuery}"
 Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
 
-Scraped data:
+Search data:
 ${JSON.stringify(scrapedData, null, 2)}
 
 RULES:
-1. Write STRICTLY based on facts from the scraped data. NO speculation, NO invented rumors or partnerships.
-2. If data is mixed, pick the single most prominent factual news event. Do NOT combine unrelated topics.
-3. Write in clean, professional prose. Rewrite facts naturally — no copy-pasting raw snippets.
+1. Write STRICTLY based on facts from the data. NO speculation, NO invented info.
+2. Pick the single most prominent news event. Do NOT mix unrelated topics.
+3. Write clean, professional prose. Rewrite facts naturally.
 4. Structure as 2-3 paragraphs separated by double newlines.
-5. Do NOT start with "In" or "The". Start with something punchy.
-6. NEVER mention search queries, DuckDuckGo, scraped data, or image keywords in the article.
-7. If scraped data is empty, write about the most recent CONFIRMED, publicly known development. No speculation.
+5. Do NOT start with "In" or "The". Start punchy.
+6. NEVER mention search queries, DuckDuckGo, or any internal details.
+7. MINIMUM 150 words, MAXIMUM 200 words. This is non-negotiable.
 
-JSON output format:
-{
-  "articleText": "Your 150-200 word article here. MINIMUM 150 words — this is non-negotiable. If needed, add factual context or background to reach 150 words. Separate paragraphs with double newlines.",
-  "imageKeyword": "3-5 word cinematic Unsplash photo search phrase matching the article topic. Examples: nvidia gpu server rack closeup, AI research lab dark screens, semiconductor cleanroom neon light, quantum computing processor macro, robot arm factory assembly, space satellite earth orbit, cybersecurity dark hacker terminal glow, silicon wafer golden chip manufacturing, autonomous vehicle lidar sensor night, tech conference keynote stage lights, data center corridor blue lights, neural network brain digital art, stock market trading screens wall, Indian tech startup office modern, microchip circuit board extreme macro"
-}`;
+JSON output: { "articleText": "your 150-200 word article here" }`;
 
-    // 6. Call Groq — model fallback chain
     const MODELS = ['llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b'];
-    let responseText = '';
+    let articleText = '';
+    let imageKeyword = '';
     let usedModel = '';
 
+    // --- Call 1: News Article ---
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 Trying Groq model: ${modelName}`);
+            console.log(`🔄 [Article] Trying Groq model: ${modelName}`);
             const completion = await groq.chat.completions.create({
                 model: modelName,
                 messages: [
-                    { role: 'system', content: systemPrompt },
-                    { role: 'user', content: userPrompt },
+                    { role: 'system', content: newsSystemPrompt },
+                    { role: 'user', content: newsUserPrompt },
                 ],
                 temperature: 0.3,
                 max_tokens: 2048,
                 response_format: { type: 'json_object' },
             });
 
-            responseText = completion.choices[0]?.message?.content?.trim() || '';
-            if (!responseText) throw new Error('Empty response');
+            const raw = completion.choices[0]?.message?.content?.trim() || '';
+            if (!raw) throw new Error('Empty response');
 
+            articleText = parseArticleResponse(raw);
             usedModel = modelName;
-            console.log(`✅ Success with: ${modelName}`);
+            console.log(`✅ [Article] Success with: ${modelName}`);
             break;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
@@ -384,12 +387,40 @@ JSON output format:
         }
     }
 
-    if (!responseText) throw new Error('All Groq models failed');
+    if (!articleText) throw new Error('All Groq models failed for article generation');
 
-    // 7. Parse the structured JSON response
-    const { articleText, imageKeyword } = parseJsonResponse(responseText);
     const wordCount = articleText.split(/\s+/).length;
-    console.log(`📝 Response (${usedModel}): ${wordCount} words, keyword: "${imageKeyword}"`);
+    console.log(`📝 Article (${usedModel}): ${wordCount} words`);
+
+    // --- Call 2: Image Keyword (SEPARATE call based on article) ---
+    try {
+        console.log('🎨 [Image] Generating image keyword...');
+        const imageCompletion = await groq.chat.completions.create({
+            model: 'llama-3.3-70b-versatile',
+            messages: [
+                { role: 'system', content: 'You generate cinematic Unsplash image search phrases. Output valid JSON with exactly one key: "imageKeyword". No other output.' },
+                {
+                    role: 'user', content: `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase that would produce a stunning, relevant editorial photograph.
+
+Article: "${articleText.substring(0, 300)}"
+
+Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light", "quantum computing processor macro", "robot arm factory assembly", "cybersecurity dark hacker terminal glow", "data center corridor blue lights", "tech conference keynote stage lights", "silicon wafer golden chip manufacturing", "autonomous vehicle lidar sensor night", "neural network brain digital art", "stock market trading screens wall", "microchip circuit board extreme macro", "space satellite earth orbit", "Indian tech startup office modern"
+Bad examples: "technology", "AI", "computer", "robot", "chip"
+
+JSON output: { "imageKeyword": "your 3-5 word phrase" }` },
+            ],
+            temperature: 0.5,
+            max_tokens: 100,
+            response_format: { type: 'json_object' },
+        });
+
+        const imageRaw = imageCompletion.choices[0]?.message?.content?.trim() || '';
+        imageKeyword = parseImageKeyword(imageRaw);
+        console.log(`🎨 [Image] Keyword: "${imageKeyword}"`);
+    } catch (err) {
+        console.warn('⚠️ Image keyword generation failed, using fallback');
+        imageKeyword = 'futuristic artificial intelligence technology lab';
+    }
 
     // 8. Generate title and check dups
     const title = generateTitle(topic, category);
