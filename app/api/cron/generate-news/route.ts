@@ -428,10 +428,9 @@ Return JSON: { "articleText": "your expanded 175-225 word article" }`;
             break;
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : String(err);
-            console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 100)}`);
-            if (!msg.includes('429') && !msg.includes('rate') && !msg.includes('quota')) {
-                throw err;
-            }
+            console.warn(`⚠️ ${modelName} failed: ${msg.substring(0, 200)}`);
+            // Always try the next model — don't throw on any error
+            articleText = '';
         }
     }
 
@@ -440,10 +439,12 @@ Return JSON: { "articleText": "your expanded 175-225 word article" }`;
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Article (${usedModel}): ${wordCount} words (final)`);
 
+    // --- 3-second cooldown before image call to avoid Gemini rate limits ---
+    console.log('⏳ Waiting 3 seconds before image keyword call...');
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
     // --- Call 2: Image Keyword (SEPARATE Gemini call based on article) ---
-    try {
-        console.log('🎨 [Image] Generating image keyword...');
-        const imagePrompt = `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase (maximum 15 words) that would produce a stunning, relevant editorial photograph.
+    const imagePrompt = `Based on this news article, generate a 3-5 word cinematic Unsplash photo search phrase (maximum 15 words) that would produce a stunning, relevant editorial photograph.
 
 Article: "${articleText.substring(0, 400)}"
 
@@ -452,22 +453,28 @@ Bad examples (too generic): "technology", "AI", "computer", "robot", "chip"
 
 Return JSON with exactly one key: { "imageKeyword": "your 3-5 word phrase" }`;
 
-        const imageResult = await ai.models.generateContent({
-            model: 'gemini-3.0-flash',
-            contents: imagePrompt,
-            config: {
-                temperature: 0.5,
-                maxOutputTokens: 100,
-                responseMimeType: 'application/json',
-            },
-        });
+    for (const imgModel of MODELS) {
+        try {
+            console.log(`🎨 [Image] Trying Gemini model: ${imgModel}`);
+            const imageResult = await ai.models.generateContent({
+                model: imgModel,
+                contents: imagePrompt,
+                config: {
+                    temperature: 0.5,
+                    maxOutputTokens: 150,
+                    responseMimeType: 'application/json',
+                },
+            });
 
-        const imageRaw = imageResult.text?.trim() || '';
-        imageKeyword = parseImageKeyword(imageRaw);
-        console.log(`🎨 [Image] Keyword: "${imageKeyword}"`);
-    } catch (err) {
-        console.warn('⚠️ Image keyword generation failed, using fallback');
-        imageKeyword = 'futuristic artificial intelligence technology lab';
+            const imageRaw = imageResult.text?.trim() || '';
+            imageKeyword = parseImageKeyword(imageRaw);
+            console.log(`🎨 [Image] Keyword: "${imageKeyword}"`);
+            break; // success — exit loop
+        } catch (err) {
+            const msg = err instanceof Error ? err.message : String(err);
+            console.warn(`⚠️ [Image] ${imgModel} failed: ${msg.substring(0, 100)}`);
+            imageKeyword = 'futuristic artificial intelligence technology lab';
+        }
     }
 
     // 8. Generate title and check dups
