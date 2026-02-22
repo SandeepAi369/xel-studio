@@ -30,9 +30,11 @@ declare namespace NodeJS {
 
         // Cloudinary
         CLOUDINARY_CLOUD_NAME?: string;
+        CLOUDINARY_API_KEY?: string;
+        CLOUDINARY_API_SECRET?: string;
 
-        // Unsplash
-        UNSPLASH_ACCESS_KEY?: string;
+        // Hugging Face
+        HF_TOKEN?: string;
 
         // Cron
         CRON_SECRET?: string;

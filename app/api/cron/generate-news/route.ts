@@ -1,16 +1,16 @@
 /**
- * /api/cron/generate-news — AI News Generator v10 (Cerebras GPT-OSS 120B + Tavily + Thumbnails)
+ * /api/cron/generate-news — AI News Generator v11 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
  * =============================================================================
  * Pipeline: Dynamic Query → Tavily Search → Cerebras (GPT-OSS 120B strict factual JSON) →
- *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
+ *           FLUX.1-schnell (AI image) → Cloudinary (upload) → Firestore.
  *
  * Architecture:
  *   - Simple Query Generation: random selection from curated search queries
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
- *   - Single Cerebras call returns both articleText + imageKeyword
- *   - Unsplash API fetches editorial-quality images using descriptive keyword
- *   - Cloudinary Fetch URL wraps the image for CDN optimization
+ *   - Single Cerebras call returns articleText; second fast call generates image prompt
+ *   - HF FLUX.1-schnell generates cinematic 16:9 news thumbnail from prompt
+ *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
  *
  * Health Tracking (system/cron_health):
@@ -194,47 +194,127 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── Unsplash Image Fetch ────────────────────────────────────
+// ─── HF FLUX.1-schnell Image Generation ─────────────────────
 
-async function fetchUnsplashImage(keyword: string): Promise<string | null> {
-    const accessKey = process.env.UNSPLASH_ACCESS_KEY;
-    if (!accessKey || accessKey === 'YOUR_KEY_HERE') {
-        console.log('⚠️ UNSPLASH_ACCESS_KEY not configured — skipping image');
+const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
+const HF_IMAGE_WIDTH = 1024;
+const HF_IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
+const HF_TIMEOUT_MS = 25000;
+const HF_MAX_RETRIES = 2;
+
+async function generateFluxImage(prompt: string): Promise<Buffer | null> {
+    const hfToken = process.env.HF_TOKEN;
+    if (!hfToken) {
+        console.warn('⚠️ HF_TOKEN not set — skipping image generation');
+        return null;
+    }
+
+    for (let attempt = 1; attempt <= HF_MAX_RETRIES; attempt++) {
+        try {
+            console.log(`🎨 FLUX.1-schnell: generating image (attempt ${attempt}/${HF_MAX_RETRIES})...`);
+            const res = await fetch(`https://router.huggingface.co/hf-inference/models/${HF_MODEL}`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${hfToken}`,
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    inputs: prompt,
+                    parameters: {
+                        width: HF_IMAGE_WIDTH,
+                        height: HF_IMAGE_HEIGHT,
+                        num_inference_steps: 4,
+                    },
+                }),
+                signal: AbortSignal.timeout(HF_TIMEOUT_MS),
+            });
+
+            if (!res.ok) {
+                const errText = await res.text().catch(() => '');
+                // Model loading — wait and retry
+                if (res.status === 503 && attempt < HF_MAX_RETRIES) {
+                    const wait = 10000;
+                    console.log(`⏳ FLUX model loading, waiting ${wait / 1000}s before retry...`);
+                    await new Promise(r => setTimeout(r, wait));
+                    continue;
+                }
+                console.warn(`⚠️ FLUX API error ${res.status}: ${errText.substring(0, 200)}`);
+                return null;
+            }
+
+            const arrayBuffer = await res.arrayBuffer();
+            if (arrayBuffer.byteLength < 1000) {
+                console.warn('⚠️ FLUX returned suspiciously small image, skipping');
+                return null;
+            }
+
+            console.log(`🎨 FLUX image generated: ${Math.round(arrayBuffer.byteLength / 1024)}KB`);
+            return Buffer.from(arrayBuffer);
+        } catch (err) {
+            const msg = err instanceof Error ? err.message : String(err);
+            console.warn(`⚠️ FLUX attempt ${attempt} failed: ${msg}`);
+            if (attempt >= HF_MAX_RETRIES) return null;
+        }
+    }
+    return null;
+}
+
+// ─── Cloudinary Direct Upload ────────────────────────────────
+
+async function uploadToCloudinary(imageBuffer: Buffer): Promise<string | null> {
+    const cloudName = process.env.CLOUDINARY_CLOUD_NAME || 'dxlok864h';
+    const apiKey = process.env.CLOUDINARY_API_KEY;
+    const apiSecret = process.env.CLOUDINARY_API_SECRET;
+
+    if (!apiKey || !apiSecret) {
+        console.warn('⚠️ Cloudinary credentials not set — skipping upload');
         return null;
     }
 
     try {
-        const url = `https://api.unsplash.com/photos/random?query=${encodeURIComponent(keyword)}&orientation=landscape&content_filter=high`;
-        const res = await fetch(url, {
-            headers: { Authorization: `Client-ID ${accessKey}` },
-            signal: AbortSignal.timeout(8000),
+        const timestamp = Math.floor(Date.now() / 1000);
+        const folder = 'news-thumbnails';
+
+        // Cloudinary signature: alphabetically sorted params + apiSecret
+        const paramsToSign = `folder=${folder}&timestamp=${timestamp}${apiSecret}`;
+
+        // Generate SHA-1 signature
+        const encoder = new TextEncoder();
+        const data = encoder.encode(paramsToSign);
+        const hashBuffer = await crypto.subtle.digest('SHA-1', data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const signature = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+        // Build multipart form
+        const formData = new FormData();
+        const blob = new Blob([new Uint8Array(imageBuffer)], { type: 'image/png' });
+        formData.append('file', blob, 'news-thumbnail.png');
+        formData.append('api_key', apiKey);
+        formData.append('timestamp', String(timestamp));
+        formData.append('signature', signature);
+        formData.append('folder', folder);
+
+        const res = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
+            method: 'POST',
+            body: formData,
+            signal: AbortSignal.timeout(15000),
         });
 
         if (!res.ok) {
-            console.warn(`⚠️ Unsplash API returned ${res.status}: ${res.statusText}`);
+            const errText = await res.text().catch(() => '');
+            console.warn(`⚠️ Cloudinary upload failed ${res.status}: ${errText.substring(0, 200)}`);
             return null;
         }
 
-        const data = await res.json();
-        const imageUrl = data?.urls?.regular || data?.urls?.small || null;
-
-        if (imageUrl) {
-            console.log(`🖼️ Unsplash image fetched for keyword: "${keyword}"`);
-        }
-
-        return imageUrl;
+        const result = await res.json();
+        const url = result.secure_url || result.url;
+        console.log(`☁️ Cloudinary upload OK: ${url?.substring(0, 80)}...`);
+        return url;
     } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);
-        console.warn(`⚠️ Unsplash fetch failed: ${msg}`);
+        console.warn(`⚠️ Cloudinary upload failed: ${msg}`);
         return null;
     }
-}
-
-// ─── Cloudinary Fetch URL Builder ────────────────────────────
-
-function buildCloudinaryFetchUrl(imageUrl: string): string {
-    const cloudName = process.env.CLOUDINARY_CLOUD_NAME || 'dxlok864h';
-    return `https://res.cloudinary.com/${cloudName}/image/fetch/f_auto,q_auto,w_800,h_450,c_fill/${imageUrl}`;
 }
 
 // ─── Parse JSON Responses ────────────────────────────────────
@@ -309,7 +389,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v10 — Cerebras GPT-OSS 120B + Tavily + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v11 — Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -365,8 +445,8 @@ async function generateNews() {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. CEREBRAS — Single call for BOTH articleText + imageKeyword
-    const systemPrompt = `You are a strict, factual tech journalist. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other keys, no markdown, no explanation — ONLY the JSON object.`;
+    // 5. CEREBRAS — article generation
+    const systemPrompt = `You are a strict, factual tech journalist. You MUST output valid JSON with exactly one key: "articleText". No other keys, no markdown, no explanation — ONLY the JSON object.`;
 
     const userPrompt = `Write a news article based ONLY on the search results below.
 
@@ -388,21 +468,16 @@ WORD COUNT REQUIREMENT (CRITICAL):
 - Under 170 words is COMPLETELY UNACCEPTABLE.
 - Count your words. If under 175, ADD factual context, background, or analysis.
 
-RULES FOR imageKeyword:
-- Based on your article, generate a 3-5 word cinematic Unsplash photo search phrase.
-- Good examples: "nvidia gpu server rack closeup", "AI research lab dark screens", "semiconductor cleanroom neon light"
-- Bad examples (too generic): "technology", "AI", "computer"
-
-Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your 3-5 word phrase" }`;
+Return JSON: { "articleText": "your 175-225 word article" }`;
 
     // Models available on Cerebras (gpt-oss-120b for quality, llama3.1-8b as fallback)
     const MODELS = ['gpt-oss-120b', 'llama3.1-8b'];
     let articleText = '';
-    let imageKeyword = '';
+    let imagePrompt = '';
     let usedModel = '';
 
     // Helper to call Cerebras
-    async function callCerebras(modelName: string, sysPrompt: string, usrPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
+    async function callCerebras(modelName: string, sysPrompt: string, usrPrompt: string): Promise<{ articleText: string }> {
         const completion = await cerebras.chat.completions.create({
             model: modelName,
             messages: [
@@ -418,13 +493,7 @@ Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your
         if (!raw) throw new Error('Empty response');
 
         const article = parseArticleResponse(raw);
-        let imgKw = 'futuristic artificial intelligence technology';
-        try {
-            const parsed = JSON.parse(raw);
-            if (parsed.imageKeyword) imgKw = parsed.imageKeyword.trim().toLowerCase();
-        } catch { /* use fallback */ }
-
-        return { articleText: article, imageKeyword: imgKw };
+        return { articleText: article };
     }
 
     // --- Single Cerebras call with model fallback + word count retry ---
@@ -433,11 +502,10 @@ Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your
             console.log(`🔄 Trying Cerebras model: ${modelName}`);
             const result = await callCerebras(modelName, systemPrompt, userPrompt);
             articleText = result.articleText;
-            imageKeyword = result.imageKeyword;
             usedModel = modelName;
 
             const firstWordCount = articleText.split(/\s+/).length;
-            console.log(`📝 First attempt: ${firstWordCount} words, image: "${imageKeyword}"`);
+            console.log(`📝 First attempt: ${firstWordCount} words`);
 
             // AUTO-RETRY if too short
             if (firstWordCount < 170) {
@@ -456,7 +524,6 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
 
                     if (retryWordCount > firstWordCount) {
                         articleText = retryResult.articleText;
-                        imageKeyword = retryResult.imageKeyword;
                         console.log(`✅ Retry accepted: ${retryWordCount} words`);
                     }
                 } catch {
@@ -476,7 +543,26 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
     if (!articleText) throw new Error('All Cerebras models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
-    console.log(`📝 Article (${usedModel}): ${wordCount} words, imageKeyword: "${imageKeyword}"`);
+    console.log(`📝 Article (${usedModel}): ${wordCount} words`);
+
+    // 7. Generate cinematic image prompt from article (fast Cerebras call)
+    try {
+        const imgPromptCompletion = await cerebras.chat.completions.create({
+            model: 'llama3.1-8b', // fast model for quick prompt generation
+            messages: [
+                { role: 'system', content: 'You generate cinematic, photorealistic image descriptions for news article thumbnails. Output ONLY the description text, nothing else. No quotes, no explanation.' },
+                { role: 'user', content: `Based on this news article, write a 25-30 word cinematic and photorealistic image description suitable for an AI image generator. The image should be dramatic, editorial-quality, widescreen 16:9 composition. Focus on concrete visual elements, lighting, and mood. Do NOT include any text or words in the image.\n\nArticle: ${articleText.substring(0, 500)}` },
+            ],
+            temperature: 0.7,
+            max_tokens: 100,
+        }) as { choices: Array<{ message: { content: string | null } }> };
+        imagePrompt = imgPromptCompletion.choices[0]?.message?.content?.trim() || '';
+        console.log(`🎨 Image prompt: "${imagePrompt.substring(0, 80)}..."`);
+    } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        console.warn(`⚠️ Image prompt generation failed: ${msg}`);
+        imagePrompt = 'futuristic technology lab with glowing screens and neon blue ambient lighting, cinematic wide shot, photorealistic editorial photograph';
+    }
 
     // 8. Generate title and check dups
     const title = generateTitle(topic, category);
@@ -493,13 +579,16 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         return { status: 'duplicate', title, duration_ms: Date.now() - t0 };
     }
 
-    // 9. Fetch image from Unsplash + wrap with Cloudinary
+    // 9. Generate image with FLUX.1-schnell → upload to Cloudinary
     let imageUrl: string | null = null;
-    const unsplashUrl = await fetchUnsplashImage(imageKeyword);
-    if (unsplashUrl) {
-        imageUrl = buildCloudinaryFetchUrl(unsplashUrl);
-        console.log(`🌐 Cloudinary URL: ${imageUrl.substring(0, 80)}...`);
-    } else {
+    const fluxBuffer = await generateFluxImage(imagePrompt);
+    if (fluxBuffer) {
+        imageUrl = await uploadToCloudinary(fluxBuffer);
+        if (imageUrl) {
+            console.log(`🌐 Image uploaded: ${imageUrl.substring(0, 80)}...`);
+        }
+    }
+    if (!imageUrl) {
         console.log('📷 No image — article will be saved without thumbnail');
     }
 
@@ -524,7 +613,7 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         last_news_title: title,
         category,
         word_count: `${wordCount}`,
-        image_keyword: imageKeyword,
+        image_prompt: imagePrompt.substring(0, 100),
         has_image: imageUrl ? 'yes' : 'no',
         search_query: usedQuery,
         search_results: `${scrapedData.length}`,
@@ -537,7 +626,7 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         title,
         category,
         word_count: wordCount,
-        image_keyword: imageKeyword,
+        image_prompt: imagePrompt.substring(0, 80),
         has_image: !!imageUrl,
         search_query: usedQuery,
         search_results: scrapedData.length,
