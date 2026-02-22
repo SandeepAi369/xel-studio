@@ -130,46 +130,68 @@ function extractTopic(query: string): string {
 
 // ─── Tavily Search ──────────────────────────────────────────
 
+async function searchTavilyWithKey(apiKey: string, query: string, daysBack: number): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
+    const client = tavily({ apiKey });
+
+    const response = await client.search(query, {
+        searchDepth: 'advanced',
+        topic: 'news',
+        days: daysBack,
+        maxResults: TAVILY_RESULT_COUNT,
+        includeAnswer: false,
+    });
+
+    if (!response?.results || response.results.length === 0) {
+        return { context: '', results: [] };
+    }
+
+    const mapped = response.results.map((r: { title: string; content: string; url: string }) => ({
+        title: r.title,
+        description: r.content,
+    }));
+
+    const context = mapped
+        .map((r: { title: string; description: string }, i: number) => `[${i + 1}] ${r.title}\n${r.description}`)
+        .join('\n\n');
+
+    return { context, results: mapped };
+}
+
 async function searchTavily(query: string, daysBack: number = 3): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
-    const tavilyApiKey = process.env.TAVILY_API_KEY;
-    if (!tavilyApiKey) {
-        console.warn('⚠️ TAVILY_API_KEY not set — skipping search');
+    const keys = [
+        process.env.TAVILY_API_KEY,
+        process.env.TAVILY_API_KEY_2,
+    ].filter(Boolean) as string[];
+
+    if (keys.length === 0) {
+        console.warn('⚠️ No TAVILY_API_KEY set — skipping search');
         return { context: '', results: [] };
     }
 
-    try {
-        console.log(`🔍 Tavily: searching "${query}" (last ${daysBack} days)...`);
-        const client = tavily({ apiKey: tavilyApiKey });
+    for (let i = 0; i < keys.length; i++) {
+        const label = i === 0 ? 'primary' : 'fallback';
+        try {
+            console.log(`🔍 Tavily (${label}): searching "${query}" (last ${daysBack} days)...`);
+            const result = await searchTavilyWithKey(keys[i], query, daysBack);
 
-        const response = await client.search(query, {
-            searchDepth: 'advanced',
-            topic: 'news',
-            days: daysBack,
-            maxResults: TAVILY_RESULT_COUNT,
-            includeAnswer: false,
-        });
+            if (result.results.length === 0) {
+                console.warn(`⚠️ Tavily (${label}) returned no results for "${query}" (${daysBack} days)`);
+                continue;
+            }
 
-        if (!response?.results || response.results.length === 0) {
-            console.warn(`⚠️ Tavily returned no results for "${query}" (${daysBack} days)`);
-            return { context: '', results: [] };
+            console.log(`🔍 Tavily (${label}): ${result.results.length} results for "${query}"`);
+            return result;
+        } catch (err) {
+            const msg = err instanceof Error ? err.message : String(err);
+            console.warn(`⚠️ Tavily (${label}) failed: ${msg}`);
+            if (i < keys.length - 1) {
+                console.log('🔄 Switching to fallback Tavily API key...');
+            }
         }
-
-        const mapped = response.results.map((r: { title: string; content: string; url: string }) => ({
-            title: r.title,
-            description: r.content,
-        }));
-
-        const context = mapped
-            .map((r: { title: string; description: string }, i: number) => `[${i + 1}] ${r.title}\n${r.description}`)
-            .join('\n\n');
-
-        console.log(`🔍 Tavily: ${mapped.length} results for "${query}"`);
-        return { context, results: mapped };
-    } catch (err) {
-        const msg = err instanceof Error ? err.message : String(err);
-        console.warn(`⚠️ Tavily search failed: ${msg}`);
-        return { context: '', results: [] };
     }
+
+    console.warn('⚠️ All Tavily keys exhausted — no results');
+    return { context: '', results: [] };
 }
 
 // ─── Unsplash Image Fetch ────────────────────────────────────

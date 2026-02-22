@@ -39,5 +39,6 @@ declare namespace NodeJS {
 
         // Tavily
         TAVILY_API_KEY?: string;
+        TAVILY_API_KEY_2?: string;
     }
 }
