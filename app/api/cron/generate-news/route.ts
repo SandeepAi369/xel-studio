@@ -1,14 +1,14 @@
 /**
- * /api/cron/generate-news — AI News Generator v8 (Groq Llama 4 + DuckDuckGo + Thumbnails)
+ * /api/cron/generate-news — AI News Generator v10 (Cerebras GPT-OSS 120B + Tavily + Thumbnails)
  * =============================================================================
- * Pipeline: Dynamic Query → DuckDuckGo Search → Groq (Llama 4 strict factual JSON) →
+ * Pipeline: Dynamic Query → Tavily Search → Cerebras (GPT-OSS 120B strict factual JSON) →
  *           Unsplash (descriptive keyword) → Cloudinary → Firestore.
  *
  * Architecture:
  *   - Simple Query Generation: random selection from curated search queries
- *   - DuckDuckGo search provides real-time context with auto-retry fallback
- *   - Groq returns structured JSON via response_format: json_object
- *   - Single Groq call returns both articleText + imageKeyword
+ *   - Tavily AI search provides LLM-optimized real-time news context
+ *   - Cerebras returns structured JSON via response_format: json_object
+ *   - Single Cerebras call returns both articleText + imageKeyword
  *   - Unsplash API fetches editorial-quality images using descriptive keyword
  *   - Cloudinary Fetch URL wraps the image for CDN optimization
  *   - Firestore write for news + health tracking doc
@@ -19,9 +19,9 @@
  */
 
 import { NextResponse } from 'next/server';
-import Groq from 'groq-sdk';
+import Cerebras from '@cerebras/cerebras_cloud_sdk';
 import { adminDb } from '@/lib/firebase-admin';
-import { search, SafeSearchType, SearchTimeType } from 'duck-duck-scrape';
+import { tavily } from '@tavily/core';
 
 // ─── Config ──────────────────────────────────────────────────
 export const dynamic = 'force-dynamic';
@@ -30,29 +30,33 @@ export const maxDuration = 60;
 const COLLECTION = 'news';
 const HEALTH_DOC = 'system/cron_health';
 const NEWS_TTL_HOURS = 24;
-const DDG_RESULT_COUNT = 15;
+const TAVILY_RESULT_COUNT = 10;
 
 // ─── Simple Query Generation ─────────────────────────────
 
 const searchQueries = [
-    // AI news
-    'latest artificial intelligence news today',
-    'AI breakthroughs and developments today',
-    'OpenAI Google Microsoft AI news today',
-    'new AI tools and products launched today',
-    'AI industry updates and announcements',
-    // Tech news
-    'latest technology news today',
-    'Nvidia AMD TSMC chip semiconductor news today',
-    'big tech companies news today',
-    'new tech products and launches today',
-    'Silicon Valley startup news today',
-    // Global / geopolitical tech
-    'global technology regulation news today',
-    'cybersecurity threats and updates today',
-    'tech industry layoffs and hiring news',
-    'space technology and innovation news today',
-    'quantum computing robotics breakthrough news today',
+    // AI & ML (broad, reliable queries)
+    'artificial intelligence latest news',
+    'AI breakthroughs developments',
+    'OpenAI Google DeepMind AI announcements',
+    'generative AI tools products launches',
+    'AI industry updates acquisitions funding',
+    'machine learning research papers breakthroughs',
+    // Tech industry
+    'technology news today',
+    'Nvidia AMD semiconductor chip news',
+    'Apple Google Microsoft tech announcements',
+    'tech startup funding unicorn news',
+    'cloud computing AWS Azure Google Cloud updates',
+    // Emerging tech
+    'cybersecurity threats data breach news',
+    'space technology SpaceX NASA news',
+    'quantum computing breakthrough news',
+    'robotics automation industry news',
+    'electric vehicle EV autonomous driving news',
+    // Digital economy
+    'tech regulation antitrust policy news',
+    'social media platform changes updates',
 ];
 
 function getRandomElement<T>(arr: T[]): T {
@@ -64,11 +68,11 @@ export function generateDynamicQuery(): string {
 }
 
 function generateFallbackQuery(): string {
-    // Always falls back to the broadest possible query
     const fallbacks = [
-        'latest technology news today',
-        'AI news and updates today',
-        'big tech news today',
+        'technology news',
+        'AI artificial intelligence news',
+        'tech industry news',
+        'latest tech announcements',
     ];
     return getRandomElement(fallbacks);
 }
@@ -124,56 +128,46 @@ function extractTopic(query: string): string {
     return topic;
 }
 
-// ─── DuckDuckGo Search ──────────────────────────────────────
+// ─── Tavily Search ──────────────────────────────────────────
 
-async function searchDuckDuckGo(query: string): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
+async function searchTavily(query: string, daysBack: number = 3): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
+    const tavilyApiKey = process.env.TAVILY_API_KEY;
+    if (!tavilyApiKey) {
+        console.warn('⚠️ TAVILY_API_KEY not set — skipping search');
+        return { context: '', results: [] };
+    }
+
     try {
-        console.log(`🔍 DuckDuckGo: searching "${query}"...`);
+        console.log(`🔍 Tavily: searching "${query}" (last ${daysBack} days)...`);
+        const client = tavily({ apiKey: tavilyApiKey });
 
-        const results = await Promise.race([
-            search(query, {
-                safeSearch: SafeSearchType.MODERATE,
-                time: SearchTimeType.DAY,
-            }),
-            new Promise<never>((_, reject) =>
-                setTimeout(() => reject(new Error('DuckDuckGo timeout')), 8000)
-            ),
-        ]);
+        const response = await client.search(query, {
+            searchDepth: 'advanced',
+            topic: 'news',
+            days: daysBack,
+            maxResults: TAVILY_RESULT_COUNT,
+            includeAnswer: false,
+        });
 
-        if (!results?.results || results.results.length === 0) {
-            console.log('🔄 No recent results, retrying without time filter...');
-            const retryResults = await Promise.race([
-                search(query, {
-                    safeSearch: SafeSearchType.MODERATE,
-                }),
-                new Promise<never>((_, reject) =>
-                    setTimeout(() => reject(new Error('DuckDuckGo retry timeout')), 6000)
-                ),
-            ]);
-
-            if (!retryResults?.results || retryResults.results.length === 0) {
-                console.warn('⚠️ DuckDuckGo returned no results');
-                return { context: '', results: [] };
-            }
-
-            const topResults = retryResults.results.slice(0, DDG_RESULT_COUNT);
-            const context = topResults
-                .map((r, i) => `[${i + 1}] ${r.title}\n${r.description}`)
-                .join('\n\n');
-            console.log(`🔍 DuckDuckGo: ${topResults.length} results (unfiltered)`);
-            return { context, results: topResults.map(r => ({ title: r.title, description: r.description })) };
+        if (!response?.results || response.results.length === 0) {
+            console.warn(`⚠️ Tavily returned no results for "${query}" (${daysBack} days)`);
+            return { context: '', results: [] };
         }
 
-        const topResults = results.results.slice(0, DDG_RESULT_COUNT);
-        const context = topResults
-            .map((r, i) => `[${i + 1}] ${r.title}\n${r.description}`)
+        const mapped = response.results.map((r: { title: string; content: string; url: string }) => ({
+            title: r.title,
+            description: r.content,
+        }));
+
+        const context = mapped
+            .map((r: { title: string; description: string }, i: number) => `[${i + 1}] ${r.title}\n${r.description}`)
             .join('\n\n');
 
-        console.log(`🔍 DuckDuckGo: ${topResults.length} results for "${query}"`);
-        return { context, results: topResults.map(r => ({ title: r.title, description: r.description })) };
+        console.log(`🔍 Tavily: ${mapped.length} results for "${query}"`);
+        return { context, results: mapped };
     } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);
-        console.warn(`⚠️ DuckDuckGo search failed: ${msg}`);
+        console.warn(`⚠️ Tavily search failed: ${msg}`);
         return { context: '', results: [] };
     }
 }
@@ -293,7 +287,7 @@ function titleSimilarity(a: string, b: string): number {
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v8 — Groq Llama 4 + DuckDuckGo + Thumbnails');
+    console.log('⚡ NEWS PIPELINE v10 — Cerebras GPT-OSS 120B + Tavily + Thumbnails');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -304,58 +298,68 @@ async function generateNews() {
     const topic = extractTopic(searchQuery);
     console.log(`📌 Category: ${category.toUpperCase()}, Topic: "${topic}"`);
 
-    // 3. Init Groq
-    const groqApiKey = process.env.GROQ_API_KEY;
-    if (!groqApiKey) throw new Error('GROQ_API_KEY not set');
-    const groq = new Groq({ apiKey: groqApiKey });
+    // 3. Init Cerebras
+    const cerebrasApiKey = process.env.CEREBRAS_API_KEY;
+    if (!cerebrasApiKey) throw new Error('CEREBRAS_API_KEY not set');
+    const cerebras = new Cerebras({ apiKey: cerebrasApiKey });
 
-    // 4. Run DuckDuckGo search with AUTO-RETRY FALLBACK + cleanup + dedup check
-    const [initialDdgResult, existingSnap] = await Promise.all([
-        searchDuckDuckGo(searchQuery),
+    // 4. Run Tavily search (3 days) + cleanup + dedup check
+    const [initialSearchResult, existingSnap] = await Promise.all([
+        searchTavily(searchQuery, 3),
         adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
         cleanupOldArticles(),
     ]);
 
     // Check if initial search returned usable data
-    let scrapedData = initialDdgResult.results;
+    let scrapedData = initialSearchResult.results;
     let usedQuery = searchQuery;
     const totalTextLength = scrapedData.map((r: { title?: string; description?: string }) =>
         `${r.title || ''} ${r.description || ''}`
     ).join('').length;
 
     if (!scrapedData.length || totalTextLength < 50) {
+        // Fallback 1: broader query, still 3 days
         const fallbackQuery = generateFallbackQuery();
-        console.log(`⚠️ Primary search weak (${scrapedData.length} results, ${totalTextLength} chars). Retrying with fallback: "${fallbackQuery}"`);
-        const fallbackResult = await searchDuckDuckGo(fallbackQuery);
+        console.log(`⚠️ Primary search weak (${scrapedData.length} results, ${totalTextLength} chars). Trying fallback: "${fallbackQuery}"`);
+        const fallbackResult = await searchTavily(fallbackQuery, 3);
         if (fallbackResult.results.length > 0) {
             scrapedData = fallbackResult.results;
             usedQuery = fallbackQuery;
             console.log(`✅ Fallback search succeeded: ${scrapedData.length} results`);
         } else {
-            console.log('⚠️ Fallback also empty — Llama will generate from general knowledge');
+            // Fallback 2: even broader, 7 days
+            console.log('⚠️ 3-day fallback empty. Trying 7-day window...');
+            const widerResult = await searchTavily('latest technology AI news', 7);
+            if (widerResult.results.length > 0) {
+                scrapedData = widerResult.results;
+                usedQuery = 'latest technology AI news (7d)';
+                console.log(`✅ 7-day search succeeded: ${scrapedData.length} results`);
+            } else {
+                console.error('❌ All search attempts failed — cannot generate news without data');
+                throw new Error('No search results found after all fallback attempts');
+            }
         }
     } else {
         console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
     }
 
-    // 5. GROQ — Single call for BOTH articleText + imageKeyword
-    const systemPrompt = `You are a strict, factual tech reporter. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other keys, no markdown, no explanation — ONLY the JSON object.`;
+    // 5. CEREBRAS — Single call for BOTH articleText + imageKeyword
+    const systemPrompt = `You are a strict, factual tech journalist. You MUST output valid JSON with exactly two keys: "articleText" and "imageKeyword". No other keys, no markdown, no explanation — ONLY the JSON object.`;
 
-    const userPrompt = `Write a news article based on the search data below.
+    const userPrompt = `Write a news article based ONLY on the search results below.
 
-Today's date: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-
-Search data:
+Search results:
 ${JSON.stringify(scrapedData, null, 2)}
 
 STRICT RULES FOR articleText:
-1. Write STRICTLY based on facts from the data. NO speculation, NO invented info.
-2. Pick the single most prominent news event. Do NOT mix unrelated topics.
-3. Write clean, professional prose. Rewrite facts naturally.
+1. Write STRICTLY based on facts from the search results above. NO speculation, NO invented info.
+2. Pick the single most prominent or interesting news story. Do NOT mix unrelated topics.
+3. Write clean, professional prose that a news reader would enjoy. Rewrite facts naturally.
 4. Structure as 2-3 well-developed paragraphs separated by double newlines.
-5. Do NOT start with "In" or "The". Start punchy and attention-grabbing.
-6. NEVER mention search queries, DuckDuckGo, scraped data, or internal details.
-7. If data is empty, write about the most recent CONFIRMED, publicly known development.
+5. Start with a punchy, attention-grabbing opening. Do NOT start with "In" or "The".
+6. NEVER mention search engines, APIs, scraped data, prompts, or internal system details.
+7. NEVER include specific dates like "as of February 2026" or "on February 22". Write timelessly — use phrases like "recently", "this week", or just state the news directly without date references.
+8. Include relevant context: who, what, where, why, and implications.
 
 WORD COUNT REQUIREMENT (CRITICAL):
 - You MUST write BETWEEN 175 and 225 words. This is MANDATORY.
@@ -369,15 +373,15 @@ RULES FOR imageKeyword:
 
 Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your 3-5 word phrase" }`;
 
-    // Llama 4 models on Groq
-    const MODELS = ['meta-llama/llama-4-scout-17b-16e-instruct', 'meta-llama/llama-4-maverick-17b-128e-instruct'];
+    // Models available on Cerebras (gpt-oss-120b for quality, llama3.1-8b as fallback)
+    const MODELS = ['gpt-oss-120b', 'llama3.1-8b'];
     let articleText = '';
     let imageKeyword = '';
     let usedModel = '';
 
-    // Helper to call Groq
-    async function callGroq(modelName: string, sysPrompt: string, usrPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
-        const completion = await groq.chat.completions.create({
+    // Helper to call Cerebras
+    async function callCerebras(modelName: string, sysPrompt: string, usrPrompt: string): Promise<{ articleText: string; imageKeyword: string }> {
+        const completion = await cerebras.chat.completions.create({
             model: modelName,
             messages: [
                 { role: 'system', content: sysPrompt },
@@ -386,7 +390,7 @@ Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your
             temperature: 0.4,
             max_tokens: 4096,
             response_format: { type: 'json_object' },
-        });
+        }) as { choices: Array<{ message: { content: string | null } }> };
 
         const raw = completion.choices[0]?.message?.content?.trim() || '';
         if (!raw) throw new Error('Empty response');
@@ -401,11 +405,11 @@ Return JSON: { "articleText": "your 175-225 word article", "imageKeyword": "your
         return { articleText: article, imageKeyword: imgKw };
     }
 
-    // --- Single Groq call with model fallback + word count retry ---
+    // --- Single Cerebras call with model fallback + word count retry ---
     for (const modelName of MODELS) {
         try {
-            console.log(`🔄 Trying Groq model: ${modelName}`);
-            const result = await callGroq(modelName, systemPrompt, userPrompt);
+            console.log(`🔄 Trying Cerebras model: ${modelName}`);
+            const result = await callCerebras(modelName, systemPrompt, userPrompt);
             articleText = result.articleText;
             imageKeyword = result.imageKeyword;
             usedModel = modelName;
@@ -424,7 +428,7 @@ Expand with more factual details, background context, industry implications.
 Do NOT repeat the same content. ADD NEW substantive information.`;
 
                 try {
-                    const retryResult = await callGroq(modelName, systemPrompt, retryUserPrompt);
+                    const retryResult = await callCerebras(modelName, systemPrompt, retryUserPrompt);
                     const retryWordCount = retryResult.articleText.split(/\s+/).length;
                     console.log(`📝 Retry: ${retryWordCount} words`);
 
@@ -447,7 +451,7 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         }
     }
 
-    if (!articleText) throw new Error('All Groq models failed for article generation');
+    if (!articleText) throw new Error('All Cerebras models failed for article generation');
 
     const wordCount = articleText.split(/\s+/).length;
     console.log(`📝 Article (${usedModel}): ${wordCount} words, imageKeyword: "${imageKeyword}"`);
@@ -500,8 +504,8 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         word_count: `${wordCount}`,
         image_keyword: imageKeyword,
         has_image: imageUrl ? 'yes' : 'no',
-        ddg_query: usedQuery,
-        ddg_results: `${scrapedData.length}`,
+        search_query: usedQuery,
+        search_results: `${scrapedData.length}`,
         duration_ms: `${duration}`,
     });
 
@@ -513,8 +517,8 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         word_count: wordCount,
         image_keyword: imageKeyword,
         has_image: !!imageUrl,
-        ddg_query: usedQuery,
-        ddg_results: scrapedData.length,
+        search_query: usedQuery,
+        search_results: scrapedData.length,
         duration_ms: duration,
     };
 }

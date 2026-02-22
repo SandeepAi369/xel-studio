@@ -18,11 +18,10 @@ declare namespace NodeJS {
         NEXT_PUBLIC_SUPABASE_URL?: string;
         SUPABASE_SERVICE_ROLE_KEY?: string;
 
-        // Gemini
-        GEMINI_API_KEY?: string;
-        GEMINI_CHAT_API_KEY?: string;
+        // Cerebras
+        CEREBRAS_API_KEY?: string;
 
-        // Groq
+        // Groq (chat fallback)
         GROQ_API_KEY?: string;
 
         // GitHub
@@ -37,5 +36,8 @@ declare namespace NodeJS {
 
         // Cron
         CRON_SECRET?: string;
+
+        // Tavily
+        TAVILY_API_KEY?: string;
     }
 }

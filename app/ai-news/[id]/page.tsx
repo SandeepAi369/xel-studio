@@ -223,25 +223,14 @@ export default function NewsDetailPage() {
                         <Clock className="w-3.5 h-3.5" />
                         {timeAgo(article.date)}
                     </time>
-                    <span className="text-zinc-600">·</span>
-                    <span>{formatDate(article.date)}</span>
 
-                    {/* Actions */}
-                    <div className="flex items-center gap-2 ml-auto">
+                    {/* Listen button */}
+                    <div className="ml-auto">
                         <SmartListenButton
                             text={prepareTTSText(article.title, article.summary)}
                             iconOnly
                             className="w-9 h-9"
                         />
-                        <button
-                            onClick={() => {
-                                navigator.clipboard?.writeText(window.location.href);
-                            }}
-                            className="w-9 h-9 flex items-center justify-center rounded-lg bg-zinc-800/60 text-zinc-400 hover:text-white hover:bg-zinc-700/60 transition-colors"
-                            title="Copy link"
-                        >
-                            <Share2 className="w-4 h-4" />
-                        </button>
                     </div>
                 </div>
 
@@ -276,8 +265,8 @@ export default function NewsDetailPage() {
                         <button
                             onClick={() => setLiked(!liked)}
                             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${liked
-                                    ? 'bg-red-500/15 text-red-400 border border-red-500/30'
-                                    : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
+                                ? 'bg-red-500/15 text-red-400 border border-red-500/30'
+                                : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
                                 }`}
                         >
                             <Heart className={`w-4 h-4 ${liked ? 'fill-red-400' : ''}`} />
@@ -311,8 +300,8 @@ export default function NewsDetailPage() {
                                 setTimeout(() => setCopied(false), 2000);
                             }}
                             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${copied
-                                    ? 'bg-green-500/15 text-green-400 border border-green-500/30'
-                                    : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
+                                ? 'bg-green-500/15 text-green-400 border border-green-500/30'
+                                : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
                                 }`}
                         >
                             {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
