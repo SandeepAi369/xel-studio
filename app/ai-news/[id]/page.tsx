@@ -14,9 +14,9 @@ import {
     Heart,
     Copy,
     Check,
+    Accessibility,
+    LayoutGrid,
 } from "lucide-react";
-import SmartListenButton from "@/components/SmartListenButton";
-import { prepareTTSText } from "@/lib/tts-text";
 import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
@@ -29,7 +29,7 @@ interface NewsItem {
     source_link: string;
     source_name: string;
     date: string;
-    category: "ai" | "tech" | "world";
+    category: string;
 }
 
 /* ─── Category Config ─────────────────────────────────────── */
@@ -48,12 +48,26 @@ const CATEGORY_CONFIG: Record<string, { icon: typeof Sparkles; label: string; co
         bg: "bg-sky-500/15",
         accent: "from-sky-600/20 to-sky-900/10",
     },
+    disability: {
+        icon: Accessibility,
+        label: "Disability",
+        color: "text-amber-300",
+        bg: "bg-amber-500/15",
+        accent: "from-amber-600/20 to-amber-900/10",
+    },
     world: {
         icon: Globe,
         label: "World News",
         color: "text-emerald-300",
         bg: "bg-emerald-500/15",
         accent: "from-emerald-600/20 to-emerald-900/10",
+    },
+    general: {
+        icon: LayoutGrid,
+        label: "General",
+        color: "text-zinc-300",
+        bg: "bg-zinc-500/15",
+        accent: "from-zinc-600/20 to-zinc-900/10",
     },
 };
 
@@ -113,8 +127,8 @@ export default function NewsDetailPage() {
     }, []);
 
     const config = article
-        ? CATEGORY_CONFIG[article.category] || CATEGORY_CONFIG.world
-        : CATEGORY_CONFIG.world;
+        ? CATEGORY_CONFIG[article.category] || CATEGORY_CONFIG.general
+        : CATEGORY_CONFIG.general;
     const Icon = config.icon;
 
     /* ─── Loading Skeleton ─── */
@@ -224,14 +238,7 @@ export default function NewsDetailPage() {
                         {timeAgo(article.date)}
                     </time>
 
-                    {/* Listen button */}
-                    <div className="ml-auto">
-                        <SmartListenButton
-                            text={prepareTTSText(article.title, article.summary)}
-                            iconOnly
-                            className="w-9 h-9"
-                        />
-                    </div>
+
                 </div>
 
                 {/* Article body — split into proper paragraphs */}
