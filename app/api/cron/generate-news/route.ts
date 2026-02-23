@@ -37,31 +37,51 @@ const NEWS_TTL_HOURS = 24;
 const HISTORY_TTL_DAYS = 10;
 const TAVILY_RESULT_COUNT = 10;
 
-// ─── Simple Query Generation ─────────────────────────────
+// ─── Search Queries (categorized) ────────────────────────
 
 const searchQueries = [
-    // AI & ML (broad, reliable queries)
-    'artificial intelligence latest news',
-    'AI breakthroughs developments',
-    'OpenAI Google DeepMind AI announcements',
+    // ── AI & Tech (merged category) ──
+    'artificial intelligence latest news breakthroughs',
+    'OpenAI Google DeepMind Anthropic AI announcements',
     'generative AI tools products launches',
-    'AI industry updates acquisitions funding',
-    'machine learning research papers breakthroughs',
-    // Tech industry
-    'technology news today',
-    'Nvidia AMD semiconductor chip news',
+    'AI industry acquisitions funding deals',
+    'Nvidia AMD semiconductor chip AI hardware news',
     'Apple Google Microsoft tech announcements',
-    'tech startup funding unicorn news',
-    'cloud computing AWS Azure Google Cloud updates',
-    // Emerging tech
-    'cybersecurity threats data breach news',
+    'Sam Altman Sundar Pichai Satya Nadella CEO statements AI',
+    'Elon Musk xAI Grok AI news',
+    'Meta AI Mark Zuckerberg announcements',
+    'Amazon AWS Bedrock AI cloud updates',
+    'AI regulation policy government updates',
+    'machine learning research papers breakthroughs',
+    'robotics automation AI industry news',
+    'quantum computing AI breakthrough news',
+    'cybersecurity AI threats data breach news',
+    'tech startup unicorn funding news',
+    'cloud computing infrastructure updates',
     'space technology SpaceX NASA news',
-    'quantum computing breakthrough news',
-    'robotics automation industry news',
-    'electric vehicle EV autonomous driving news',
-    // Digital economy
-    'tech regulation antitrust policy news',
-    'social media platform changes updates',
+    'electric vehicle autonomous driving AI news',
+    // ── Disability ──
+    'disability technology assistive tech accessibility news',
+    'disability rights inclusion policy news',
+    'accessible technology innovations disabled people',
+    'disability employment inclusion workplace news',
+    'disability awareness advocacy campaign news',
+    'assistive devices AI disability healthcare',
+    'special education disability inclusion schools news',
+    'disability sports paralympics achievements news',
+    // ── World ──
+    'global technology regulation policy news',
+    'geopolitical technology competition news',
+    'international tech policy digital sovereignty',
+    'global economy technology impact news',
+    'climate technology clean energy innovation news',
+    // ── General ──
+    'social media platform changes updates news',
+    'healthcare technology innovation news',
+    'education technology digital learning news',
+    'fintech digital payments banking innovation news',
+    'entertainment streaming gaming industry news',
+    'science discovery research breakthrough news',
 ];
 
 function getRandomElement<T>(arr: T[]): T {
@@ -74,10 +94,10 @@ export function generateDynamicQuery(): string {
 
 function generateFallbackQuery(): string {
     const fallbacks = [
-        'technology news',
-        'AI artificial intelligence news',
-        'tech industry news',
+        'technology AI news today',
         'latest tech announcements',
+        'disability accessibility news',
+        'science innovation news',
     ];
     return getRandomElement(fallbacks);
 }
@@ -86,37 +106,52 @@ function generateFallbackQuery(): string {
 
 function detectCategory(query: string): string {
     const q = query.toLowerCase();
-    if (q.includes('ai') || q.includes('artificial intelligence') || q.includes('openai') || q.includes('nvidia')) return 'ai';
-    if (q.includes('global') || q.includes('regulation') || q.includes('cybersecurity') || q.includes('geopolitical')) return 'world';
-    return 'tech';
+    // Disability keywords
+    if (q.includes('disability') || q.includes('assistive') || q.includes('accessible') ||
+        q.includes('accessibility') || q.includes('inclusion') || q.includes('paralympic') ||
+        q.includes('special education')) return 'disability';
+    // World / geopolitical
+    if (q.includes('global') || q.includes('geopolitical') || q.includes('international') ||
+        q.includes('sovereignty') || q.includes('climate') || q.includes('regulation policy')) return 'world';
+    // AI & Tech (broad — includes AI, tech, cloud, chips, CEOs, etc.)
+    if (q.includes('ai') || q.includes('artificial intelligence') || q.includes('openai') ||
+        q.includes('nvidia') || q.includes('tech') || q.includes('chip') || q.includes('cloud') ||
+        q.includes('quantum') || q.includes('robot') || q.includes('cyber') || q.includes('startup') ||
+        q.includes('spacex') || q.includes('nasa') || q.includes('electric vehicle') ||
+        q.includes('ceo') || q.includes('altman') || q.includes('pichai') || q.includes('nadella') ||
+        q.includes('zuckerberg') || q.includes('musk')) return 'ai-tech';
+    // General (healthcare, education, social media, entertainment, science, fintech)
+    return 'general';
 }
 
 // ─── Helpers ─────────────────────────────────────────────────
 
 function generateTitle(topic: string, category: string): string {
     const prefixes: Record<string, string[]> = {
-        ai: [
-            'AI Update:',
-            'AI Development:',
-            'AI News:',
-            'AI Progress:',
-        ],
-        tech: [
+        'ai-tech': [
+            'AI & Tech:',
             'Tech Update:',
-            'Tech News:',
-            'Technology:',
-            'Industry Update:',
+            'AI News:',
+            'Innovation:',
+            'Tech Spotlight:',
+        ],
+        disability: [
+            'Accessibility:',
+            'Disability News:',
+            'Inclusion Update:',
+            'Disability & Tech:',
         ],
         world: [
+            'Global Update:',
+            'World News:',
             'Global Tech:',
-            'World Update:',
-            'Global News:',
-            'World Tech:',
+            'World Report:',
         ],
         general: [
-            'Update:',
             'News:',
+            'Update:',
             'Report:',
+            'Spotlight:',
         ],
     };
     const prefix = getRandomElement(prefixes[category] || prefixes.general);

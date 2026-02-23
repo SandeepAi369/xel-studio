@@ -9,7 +9,6 @@ import {
   Bot,
   Sparkles,
   Globe,
-  Zap,
   ChevronRight,
   Calendar,
   FileText,
@@ -33,53 +32,58 @@ interface NewsItem {
   category: string;
 }
 
-type FilterTab = "all" | "ai" | "tech" | "disability" | "world" | "general";
+type FilterTab = "all" | "ai-tech" | "disability" | "world" | "general";
 
 /* ─── Category Config ─────────────────────────────────────── */
-const CATEGORIES: { key: FilterTab; icon: typeof Sparkles; label: string; badgeBg: string; badgeText: string; badgeBorder: string }[] = [
-  {
-    key: "ai",
-    icon: Sparkles,
-    label: "AI",
-    badgeBg: "bg-violet-500/20",
-    badgeText: "text-violet-400",
-    badgeBorder: "border-violet-500/30",
-  },
-  {
-    key: "tech",
-    icon: Zap,
-    label: "Tech",
-    badgeBg: "bg-sky-500/20",
-    badgeText: "text-sky-400",
-    badgeBorder: "border-sky-500/30",
-  },
-  {
-    key: "disability",
-    icon: Accessibility,
-    label: "Disability",
-    badgeBg: "bg-amber-500/20",
-    badgeText: "text-amber-400",
-    badgeBorder: "border-amber-500/30",
-  },
-  {
-    key: "world",
-    icon: Globe,
-    label: "World",
-    badgeBg: "bg-emerald-500/20",
-    badgeText: "text-emerald-400",
-    badgeBorder: "border-emerald-500/30",
-  },
-  {
-    key: "general",
-    icon: LayoutGrid,
-    label: "General",
-    badgeBg: "bg-zinc-500/20",
-    badgeText: "text-zinc-400",
-    badgeBorder: "border-zinc-500/30",
-  },
-];
+const CATEGORIES: {
+  key: FilterTab;
+  icon: typeof Sparkles;
+  label: string;
+  badgeBg: string;
+  badgeText: string;
+  badgeBorder: string;
+}[] = [
+    {
+      key: "ai-tech",
+      icon: Sparkles,
+      label: "AI & Tech",
+      badgeBg: "bg-violet-500/20",
+      badgeText: "text-violet-400",
+      badgeBorder: "border-violet-500/30",
+    },
+    {
+      key: "disability",
+      icon: Accessibility,
+      label: "Disability",
+      badgeBg: "bg-amber-500/20",
+      badgeText: "text-amber-400",
+      badgeBorder: "border-amber-500/30",
+    },
+    {
+      key: "world",
+      icon: Globe,
+      label: "World",
+      badgeBg: "bg-emerald-500/20",
+      badgeText: "text-emerald-400",
+      badgeBorder: "border-emerald-500/30",
+    },
+    {
+      key: "general",
+      icon: LayoutGrid,
+      label: "General",
+      badgeBg: "bg-zinc-500/20",
+      badgeText: "text-zinc-400",
+      badgeBorder: "border-zinc-500/30",
+    },
+  ];
 
-const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map(c => [c.key, c]));
+const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.key, c]));
+
+// Map legacy backend categories to new ones
+function resolveCategory(cat: string): string {
+  if (cat === "ai" || cat === "tech") return "ai-tech";
+  return cat;
+}
 
 /* ─── Main Page ────────────────────────────────────────────── */
 export default function AINewsPage() {
@@ -97,10 +101,14 @@ export default function AINewsPage() {
     const unsubscribe = onSnapshot(
       q,
       (snapshot) => {
-        const items: NewsItem[] = snapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        })) as NewsItem[];
+        const items: NewsItem[] = snapshot.docs.map((doc) => {
+          const data = doc.data();
+          return {
+            id: doc.id,
+            ...data,
+            category: resolveCategory(data.category || "general"),
+          } as NewsItem;
+        });
         setNews(items);
         setLoading(false);
         setError(null);
@@ -140,9 +148,12 @@ export default function AINewsPage() {
   // Category counts
   const counts = useMemo(() => {
     const c: Record<string, number> = {};
-    CATEGORIES.forEach(cat => { c[cat.key] = 0; });
+    CATEGORIES.forEach((cat) => {
+      c[cat.key] = 0;
+    });
     news.forEach((n) => {
-      if (n.category in c) c[n.category]++;
+      const resolved = n.category;
+      if (resolved in c) c[resolved]++;
     });
     return c;
   }, [news]);
@@ -157,7 +168,7 @@ export default function AINewsPage() {
             Daily News Feed
           </h1>
           <p className="text-zinc-400 text-lg max-w-md mx-auto">
-            AI-powered coverage · Technology, AI & World News
+            AI-powered coverage · Tech, Disability, World & General News
           </p>
         </div>
       </header>
@@ -231,7 +242,9 @@ export default function AINewsPage() {
         {!loading && !error && filteredNews.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {filteredNews.map((item) => {
-              const config = CATEGORY_MAP[item.category as FilterTab] || CATEGORY_MAP.general;
+              const config =
+                CATEGORY_MAP[item.category as FilterTab] ||
+                CATEGORY_MAP.general;
 
               return (
                 <Link
