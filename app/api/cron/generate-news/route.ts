@@ -250,7 +250,7 @@ const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
 const HF_IMAGE_WIDTH = 1024;
 const HF_IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
 const HF_TIMEOUT_MS = 30000;
-const HF_INFERENCE_STEPS = 16; // higher quality while still fast on schnell
+const HF_INFERENCE_STEPS = 4; // schnell is optimized for 4 steps
 const HF_MAX_RETRIES = 2;
 
 async function generateFluxImage(prompt: string): Promise<Buffer | null> {
