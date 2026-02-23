@@ -9,7 +9,6 @@ import {
     Bot,
     Sparkles,
     Globe,
-    Zap,
     Share2,
     Heart,
     Copy,
@@ -34,19 +33,27 @@ interface NewsItem {
 
 /* ─── Category Config ─────────────────────────────────────── */
 const CATEGORY_CONFIG: Record<string, { icon: typeof Sparkles; label: string; color: string; bg: string; accent: string }> = {
+    'ai-tech': {
+        icon: Sparkles,
+        label: "AI & Technology",
+        color: "text-violet-300",
+        bg: "bg-violet-500/20",
+        accent: "from-violet-600/20 to-violet-900/10",
+    },
+    // Legacy support — map old 'ai' and 'tech' separately too
     ai: {
         icon: Sparkles,
-        label: "Artificial Intelligence",
+        label: "AI & Technology",
         color: "text-violet-300",
         bg: "bg-violet-500/20",
         accent: "from-violet-600/20 to-violet-900/10",
     },
     tech: {
-        icon: Zap,
-        label: "Technology",
-        color: "text-sky-300",
-        bg: "bg-sky-500/15",
-        accent: "from-sky-600/20 to-sky-900/10",
+        icon: Sparkles,
+        label: "AI & Technology",
+        color: "text-violet-300",
+        bg: "bg-violet-500/20",
+        accent: "from-violet-600/20 to-violet-900/10",
     },
     disability: {
         icon: Accessibility,
