@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -12,11 +12,10 @@ import {
   Zap,
   ChevronRight,
   Calendar,
-  Search,
   FileText,
+  Accessibility,
+  LayoutGrid,
 } from "lucide-react";
-import SmartListenButton from "@/components/SmartListenButton";
-import { prepareTTSText, stripMarkdown } from "@/lib/tts-text";
 import { SkeletonGrid } from "@/components/SkeletonCard";
 
 import { db } from "@/lib/firebase";
@@ -31,50 +30,56 @@ interface NewsItem {
   source_link: string;
   source_name: string;
   date: string;
-  category: "ai" | "tech" | "world";
+  category: string;
 }
 
-type FilterTab = "all" | "ai" | "tech" | "world";
+type FilterTab = "all" | "ai" | "tech" | "disability" | "world" | "general";
 
 /* ─── Category Config ─────────────────────────────────────── */
-const CATEGORY_CONFIG = {
-  ai: {
+const CATEGORIES: { key: FilterTab; icon: typeof Sparkles; label: string; badgeBg: string; badgeText: string; badgeBorder: string }[] = [
+  {
+    key: "ai",
     icon: Sparkles,
     label: "AI",
     badgeBg: "bg-violet-500/20",
     badgeText: "text-violet-400",
     badgeBorder: "border-violet-500/30",
-    activeBg: "bg-violet-500/20",
-    activeText: "text-violet-300",
-    activeBorder: "border-violet-500/30",
-    hoverText: "hover:text-violet-300",
-    hoverBg: "hover:bg-violet-500/10",
   },
-  tech: {
+  {
+    key: "tech",
     icon: Zap,
     label: "Tech",
     badgeBg: "bg-sky-500/20",
     badgeText: "text-sky-400",
     badgeBorder: "border-sky-500/30",
-    activeBg: "bg-sky-500/20",
-    activeText: "text-sky-300",
-    activeBorder: "border-sky-500/30",
-    hoverText: "hover:text-sky-300",
-    hoverBg: "hover:bg-sky-500/10",
   },
-  world: {
+  {
+    key: "disability",
+    icon: Accessibility,
+    label: "Disability",
+    badgeBg: "bg-amber-500/20",
+    badgeText: "text-amber-400",
+    badgeBorder: "border-amber-500/30",
+  },
+  {
+    key: "world",
     icon: Globe,
     label: "World",
     badgeBg: "bg-emerald-500/20",
     badgeText: "text-emerald-400",
     badgeBorder: "border-emerald-500/30",
-    activeBg: "bg-emerald-500/20",
-    activeText: "text-emerald-300",
-    activeBorder: "border-emerald-500/30",
-    hoverText: "hover:text-emerald-300",
-    hoverBg: "hover:bg-emerald-500/10",
   },
-};
+  {
+    key: "general",
+    icon: LayoutGrid,
+    label: "General",
+    badgeBg: "bg-zinc-500/20",
+    badgeText: "text-zinc-400",
+    badgeBorder: "border-zinc-500/30",
+  },
+];
+
+const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map(c => [c.key, c]));
 
 /* ─── Main Page ────────────────────────────────────────────── */
 export default function AINewsPage() {
@@ -83,7 +88,7 @@ export default function AINewsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
-  const [searchQuery, setSearchQuery] = useState("");
+  const tabsRef = useRef<HTMLDivElement>(null);
 
   // Real-time Firestore listener
   useEffect(() => {
@@ -121,37 +126,30 @@ export default function AINewsPage() {
     }
   }, [loading]);
 
-  // Filter + search + sort
+  // Filter + sort
   const filteredNews = useMemo(() => {
     let result = news;
     if (filter !== "all") {
       result = result.filter((n) => n.category === filter);
     }
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      result = result.filter(
-        (n) =>
-          n.title.toLowerCase().includes(q) ||
-          n.summary.toLowerCase().includes(q)
-      );
-    }
     return [...result].sort(
       (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
-  }, [news, filter, searchQuery]);
+  }, [news, filter]);
 
   // Category counts
   const counts = useMemo(() => {
-    const c = { ai: 0, tech: 0, world: 0 };
+    const c: Record<string, number> = {};
+    CATEGORIES.forEach(cat => { c[cat.key] = 0; });
     news.forEach((n) => {
-      if (n.category in c) c[n.category as keyof typeof c]++;
+      if (n.category in c) c[n.category]++;
     });
     return c;
   }, [news]);
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] pb-16">
-      {/* Header — matching articles page */}
+      {/* Header */}
       <header className="pt-16 pb-8 px-4 text-center">
         <div>
           <Bot className="w-16 h-16 mx-auto mb-6 text-purple-400" />
@@ -165,56 +163,50 @@ export default function AINewsPage() {
       </header>
 
       <div className="max-w-6xl mx-auto px-4">
-        {/* Search Bar — same as articles */}
-        <div className="mb-8">
-          <div className="relative max-w-md mx-auto">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-            <input
-              type="text"
-              placeholder="Search news..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
-            />
-          </div>
-        </div>
-
-        {/* Category Filter Tabs */}
+        {/* Category Filter Tabs — horizontal scrollable */}
         {!loading && news.length > 0 && (
-          <nav className="flex items-center justify-center gap-2 mb-8 flex-wrap">
-            <button
-              onClick={() => setFilter("all")}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${filter === "all"
-                  ? "bg-zinc-700 text-white"
-                  : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
-                }`}
+          <div className="mb-8 -mx-4 px-4">
+            <div
+              ref={tabsRef}
+              className="flex items-center gap-2.5 overflow-x-auto scrollbar-hide pb-2"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
-              All ({news.length})
-            </button>
+              {/* All Tab */}
+              <button
+                onClick={() => setFilter("all")}
+                className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${filter === "all"
+                    ? "bg-white text-black"
+                    : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
+                  }`}
+              >
+                All ({news.length})
+              </button>
 
-            {(["ai", "tech", "world"] as const).map((cat) => {
-              const config = CATEGORY_CONFIG[cat];
-              const Icon = config.icon;
-              const count = counts[cat];
-              return (
-                <button
-                  key={cat}
-                  onClick={() => setFilter(cat)}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5 ${filter === cat
-                      ? `${config.activeBg} ${config.activeText} border ${config.activeBorder}`
-                      : `bg-zinc-900/60 text-zinc-400 ${config.hoverText} ${config.hoverBg}`
-                    }`}
-                >
-                  <Icon className="w-3.5 h-3.5" />
-                  {config.label} ({count})
-                </button>
-              );
-            })}
-          </nav>
+              {/* Category Tabs */}
+              {CATEGORIES.map((cat) => {
+                const Icon = cat.icon;
+                const count = counts[cat.key] || 0;
+                const isActive = filter === cat.key;
+                return (
+                  <button
+                    key={cat.key}
+                    onClick={() => setFilter(cat.key)}
+                    className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5 ${isActive
+                        ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
+                        : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
+                      }`}
+                  >
+                    <Icon className="w-3.5 h-3.5" />
+                    {cat.label} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         )}
 
-        {/* Loading — same skeleton as articles */}
-        {loading && <SkeletonGrid count={6} variant="article" columns={3} />}
+        {/* Loading */}
+        {loading && <SkeletonGrid count={4} variant="article" columns={2} />}
 
         {/* Error */}
         {error && (
@@ -226,30 +218,20 @@ export default function AINewsPage() {
         {/* Empty */}
         {!loading && !error && filteredNews.length === 0 && (
           <div className="text-center py-16">
-            {searchQuery ? (
-              <>
-                <Search className="w-12 h-12 mx-auto mb-4 text-zinc-600" />
-                <p className="text-zinc-500">No news matches your search</p>
-              </>
-            ) : (
-              <>
-                <Newspaper className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
-                <p className="text-zinc-500 text-lg mb-2">
-                  {filter !== "all"
-                    ? `No ${CATEGORY_CONFIG[filter]?.label || filter} news available.`
-                    : "No news available yet. Feed will populate automatically."}
-                </p>
-              </>
-            )}
+            <Newspaper className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
+            <p className="text-zinc-500 text-lg mb-2">
+              {filter !== "all"
+                ? `No ${CATEGORY_MAP[filter]?.label || filter} news available.`
+                : "No news available yet. Feed will populate automatically."}
+            </p>
           </div>
         )}
 
-        {/* News Grid — matching articles grid layout */}
+        {/* News Grid — 2 columns */}
         {!loading && !error && filteredNews.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {filteredNews.map((item) => {
-              const config =
-                CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.tech;
+              const config = CATEGORY_MAP[item.category as FilterTab] || CATEGORY_MAP.general;
 
               return (
                 <Link
@@ -263,7 +245,7 @@ export default function AINewsPage() {
                   }
                   className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
                 >
-                  {/* Image — same fixed height as articles */}
+                  {/* Image */}
                   <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
                     {item.image_url ? (
                       <img
@@ -279,12 +261,14 @@ export default function AINewsPage() {
                     )}
 
                     {/* Category badge on image */}
-                    <span
-                      className={`absolute top-3 left-3 px-3 py-1 text-xs font-medium rounded-full border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
-                      style={{ pointerEvents: "none" }}
-                    >
-                      {config.label}
-                    </span>
+                    {config && (
+                      <span
+                        className={`absolute top-3 left-3 px-3 py-1 text-xs font-medium rounded-full border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                        style={{ pointerEvents: "none" }}
+                      >
+                        {config.label}
+                      </span>
+                    )}
                   </div>
 
                   {/* Content */}
@@ -300,24 +284,12 @@ export default function AINewsPage() {
                       </span>
                     </div>
 
-                    <div className="flex items-start gap-3 mb-3">
-                      <h2 className="text-lg font-semibold text-white line-clamp-2 flex-1">
-                        {item.title}
-                      </h2>
-                      <div
-                        className="flex-shrink-0 mt-0.5"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <SmartListenButton
-                          text={prepareTTSText(item.title, item.summary)}
-                          iconOnly
-                          className="w-9 h-9"
-                        />
-                      </div>
-                    </div>
+                    <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
+                      {item.title}
+                    </h2>
 
                     <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
-                      {stripMarkdown(item.summary).substring(0, 150)}...
+                      {item.summary.substring(0, 150)}...
                     </p>
 
                     <div className="flex items-center justify-between mt-4">
@@ -341,7 +313,7 @@ export default function AINewsPage() {
           </p>
         )}
 
-        {/* Back Link — same as articles */}
+        {/* Back Link */}
         <div className="mt-12 text-center">
           <button
             onClick={() => router.back()}
