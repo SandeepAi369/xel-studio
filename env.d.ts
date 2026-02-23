@@ -33,8 +33,8 @@ declare namespace NodeJS {
         CLOUDINARY_API_KEY?: string;
         CLOUDINARY_API_SECRET?: string;
 
-        // Hugging Face
-        HF_TOKEN?: string;
+        // Gemini (image generation)
+        GEMINI_API_KEY?: string;
 
         // Cron
         CRON_SECRET?: string;
