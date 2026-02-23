@@ -10,5 +10,19 @@
       "source": "/api/stream_audio",
       "destination": "/api/stream_audio"
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/generate-news",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-history",
+      "schedule": "30 20 * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-history",
+      "schedule": "30 22 * * *"
+    }
   ]
 }

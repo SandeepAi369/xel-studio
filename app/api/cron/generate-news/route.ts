@@ -5,6 +5,7 @@
  *           Cerebras (GPT-OSS 120B strict factual JSON) → FLUX.1-schnell (AI image) →
  *           Cloudinary (upload) → Firestore → Save to History.
  *
+ *
  * Architecture:
  *   - Smart 10-Day History: news_history collection stores all source URLs
  *   - Strict URL-based dedup: only exact URL matches are filtered (no title guessing)
@@ -14,7 +15,7 @@
  *   - HF FLUX.1-schnell generates cinematic 16:9 news thumbnail from prompt
  *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
- *   - Auto-cleanup: history items older than 10 days are pruned each run
+ *   - Cleanup is handled by separate /api/cron/cleanup-history route
  *
  * Health Tracking (system/cron_health):
  *   ✅ Success → { status: "✅ Success", timestamp, last_news_title }
@@ -33,7 +34,6 @@ export const maxDuration = 60;
 const COLLECTION = 'news';
 const HISTORY_COLLECTION = 'news_history';
 const HEALTH_DOC = 'system/cron_health';
-const NEWS_TTL_HOURS = 24;
 const HISTORY_TTL_DAYS = 10;
 const TAVILY_RESULT_COUNT = 10;
 
@@ -402,21 +402,7 @@ async function logHealth(
     }
 }
 
-// ─── Cleanup old articles ────────────────────────────────────
 
-async function cleanupOldArticles() {
-    const cutoff = new Date(Date.now() - NEWS_TTL_HOURS * 60 * 60 * 1000).toISOString();
-    const old = await adminDb.collection(COLLECTION).where('date', '<', cutoff).get();
-    if (old.size > 0) {
-        // Firestore batch limit = 500, chunk deletes
-        for (let i = 0; i < old.docs.length; i += 500) {
-            const batch = adminDb.batch();
-            old.docs.slice(i, i + 500).forEach(doc => batch.delete(doc.ref));
-            await batch.commit();
-        }
-        console.log(`🧹 Cleaned ${old.size} old news articles`);
-    }
-}
 
 // ─── Smart 10-Day URL History ────────────────────────────────
 
@@ -482,19 +468,7 @@ async function saveToHistory(title: string, content: string, sourceUrls: string[
     }
 }
 
-/** Delete history items older than 10 days */
-async function cleanupOldHistory() {
-    const cutoff = new Date(Date.now() - HISTORY_TTL_DAYS * 24 * 60 * 60 * 1000).toISOString();
-    const old = await adminDb.collection(HISTORY_COLLECTION).where('createdAt', '<', cutoff).get();
-    if (old.size > 0) {
-        for (let i = 0; i < old.docs.length; i += 500) {
-            const batch = adminDb.batch();
-            old.docs.slice(i, i + 500).forEach(doc => batch.delete(doc.ref));
-            await batch.commit();
-        }
-        console.log(`🧹 History cleanup: removed ${old.size} entries older than ${HISTORY_TTL_DAYS} days`);
-    }
-}
+
 
 // ─── Main Pipeline ───────────────────────────────────────────
 
@@ -516,12 +490,10 @@ async function generateNews() {
     if (!cerebrasApiKey) throw new Error('CEREBRAS_API_KEY not set');
     const cerebras = new Cerebras({ apiKey: cerebrasApiKey });
 
-    // 4. Load URL history + Run Tavily search + cleanup (all parallel)
+    // 4. Load URL history + Run Tavily search (parallel)
     const [initialSearchResult, knownUrls] = await Promise.all([
         searchTavily(searchQuery, 3),
         loadHistoryUrls(),
-        cleanupOldArticles(),
-        cleanupOldHistory(),
     ]);
 
     // 5. Filter search results by URL history
