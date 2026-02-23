@@ -9,8 +9,13 @@
  *   3. Log cleanup results
  *
  * Schedule (vercel.json):
- *   - Runs twice daily at 2:00 AM IST and 4:00 AM IST (20:30 UTC, 22:30 UTC)
- *   - Second run at 4 AM catches anything missed by the first run
+ *   - Runs at 2:05 AM IST and 4:05 AM IST (21:05 UTC, 23:05 UTC)
+ *   - Offset by 5 min from generate-news (:00/:30) to avoid overlap
+ *   - Second run at 4:05 AM catches anything missed by the first run
+ *
+ * IMPORTANT: news_history is NEVER fully cleared — only entries older
+ * than 10 days are removed. This preserves the full dedup window so
+ * generate-news can always check URLs against recent history.
  *
  * Firestore batch limit: 500 ops per batch — handled with chunking.
  */
