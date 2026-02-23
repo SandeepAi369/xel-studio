@@ -16,6 +16,8 @@ import {
     Accessibility,
     LayoutGrid,
 } from "lucide-react";
+import SmartListenButton from "@/components/SmartListenButton";
+import { prepareTTSText } from "@/lib/tts-text";
 import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
@@ -245,7 +247,14 @@ export default function NewsDetailPage() {
                         {timeAgo(article.date)}
                     </time>
 
-
+                    {/* Listen button */}
+                    <div className="ml-auto">
+                        <SmartListenButton
+                            text={prepareTTSText(article.title, article.summary)}
+                            iconOnly
+                            className="w-9 h-9"
+                        />
+                    </div>
                 </div>
 
                 {/* Article body — split into proper paragraphs */}
