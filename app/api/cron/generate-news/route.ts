@@ -2,7 +2,7 @@
  * /api/cron/generate-news — AI News Generator v12 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
  * =============================================================================
  * Pipeline: Load URL History → Dynamic Query → Tavily Search → URL Dedup →
- *           Cerebras (GPT-OSS 120B strict factual JSON) → FLUX.1-schnell (AI image) →
+ *           Cerebras (GPT-OSS 120B strict factual JSON) → Pollinations FLUX (AI image) →
  *           Cloudinary (upload) → Firestore → Save to History.
  *
  *
@@ -12,7 +12,7 @@
  *   - Related updates on same topic with different URLs pass through
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
- *   - HF FLUX.1-schnell generates cinematic 16:9 news thumbnail from prompt
+ *   - Pollinations.ai generates high-quality FLUX dev images (free, unlimited, no API key)
  *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
  *   - Cleanup is handled by separate /api/cron/cleanup-history route
@@ -243,68 +243,56 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── HF FLUX.1-schnell Fast Image Generation ────────────────
-// TODO: Upgrade to FLUX.1-dev with 50+ steps for premium quality later
+// ─── Pollinations.ai FLUX Image Generation (Free & Unlimited) ───
 
-const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
-const HF_IMAGE_WIDTH = 1024;
-const HF_IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
-const HF_TIMEOUT_MS = 30000;
-const HF_INFERENCE_STEPS = 4; // schnell is optimized for 4 steps
-const HF_MAX_RETRIES = 2;
+const POLLINATIONS_WIDTH = 1024;
+const POLLINATIONS_HEIGHT = 576; // 16:9 cinematic ratio
+const POLLINATIONS_TIMEOUT_MS = 60000; // 60s — Pollinations can take time for high-quality
+const POLLINATIONS_MAX_RETRIES = 2;
 
-async function generateFluxImage(prompt: string): Promise<Buffer | null> {
-    const hfToken = process.env.HF_TOKEN;
-    if (!hfToken) {
-        console.warn('⚠️ HF_TOKEN not set — skipping image generation');
-        return null;
-    }
-
-    for (let attempt = 1; attempt <= HF_MAX_RETRIES; attempt++) {
+async function generatePollinationsImage(prompt: string): Promise<Buffer | null> {
+    for (let attempt = 1; attempt <= POLLINATIONS_MAX_RETRIES; attempt++) {
         try {
-            console.log(`🎨 FLUX.1-dev: generating image (${HF_INFERENCE_STEPS} steps, attempt ${attempt}/${HF_MAX_RETRIES})...`);
-            const res = await fetch(`https://router.huggingface.co/hf-inference/models/${HF_MODEL}`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${hfToken}`,
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    inputs: prompt,
-                    parameters: {
-                        width: HF_IMAGE_WIDTH,
-                        height: HF_IMAGE_HEIGHT,
-                        num_inference_steps: HF_INFERENCE_STEPS,
-                    },
-                }),
-                signal: AbortSignal.timeout(HF_TIMEOUT_MS),
+            const seed = Math.floor(Math.random() * 999999);
+            const encodedPrompt = encodeURIComponent(prompt);
+            const url = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${POLLINATIONS_WIDTH}&height=${POLLINATIONS_HEIGHT}&seed=${seed}&model=flux&nologo=true`;
+
+            console.log(`🎨 Pollinations FLUX: generating image (seed=${seed}, attempt ${attempt}/${POLLINATIONS_MAX_RETRIES})...`);
+
+            const res = await fetch(url, {
+                signal: AbortSignal.timeout(POLLINATIONS_TIMEOUT_MS),
             });
 
             if (!res.ok) {
                 const errText = await res.text().catch(() => '');
-                // Model loading — wait and retry
-                if (res.status === 503 && attempt < HF_MAX_RETRIES) {
-                    const wait = 10000;
-                    console.log(`⏳ FLUX model loading, waiting ${wait / 1000}s before retry...`);
-                    await new Promise(r => setTimeout(r, wait));
+                console.warn(`⚠️ Pollinations API error ${res.status}: ${errText.substring(0, 200)}`);
+                if (attempt < POLLINATIONS_MAX_RETRIES) {
+                    console.log('🔄 Retrying with new seed...');
                     continue;
                 }
-                console.warn(`⚠️ FLUX API error ${res.status}: ${errText.substring(0, 200)}`);
+                return null;
+            }
+
+            const contentType = res.headers.get('content-type') || '';
+            if (!contentType.includes('image')) {
+                console.warn(`⚠️ Pollinations returned non-image content-type: ${contentType}`);
+                if (attempt < POLLINATIONS_MAX_RETRIES) continue;
                 return null;
             }
 
             const arrayBuffer = await res.arrayBuffer();
-            if (arrayBuffer.byteLength < 1000) {
-                console.warn('⚠️ FLUX returned suspiciously small image, skipping');
+            if (arrayBuffer.byteLength < 5000) {
+                console.warn(`⚠️ Pollinations returned suspiciously small image (${arrayBuffer.byteLength} bytes), retrying...`);
+                if (attempt < POLLINATIONS_MAX_RETRIES) continue;
                 return null;
             }
 
-            console.log(`🎨 FLUX image generated: ${Math.round(arrayBuffer.byteLength / 1024)}KB`);
+            console.log(`🎨 Pollinations image generated: ${Math.round(arrayBuffer.byteLength / 1024)}KB (seed=${seed})`);
             return Buffer.from(arrayBuffer);
         } catch (err) {
             const msg = err instanceof Error ? err.message : String(err);
-            console.warn(`⚠️ FLUX attempt ${attempt} failed: ${msg}`);
-            if (attempt >= HF_MAX_RETRIES) return null;
+            console.warn(`⚠️ Pollinations attempt ${attempt} failed: ${msg}`);
+            if (attempt >= POLLINATIONS_MAX_RETRIES) return null;
         }
     }
     return null;
@@ -474,7 +462,7 @@ async function saveToHistory(title: string, content: string, sourceUrls: string[
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v12 — Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell + URL History');
+    console.log('⚡ NEWS PIPELINE v13 — Cerebras GPT-OSS 120B + Tavily + Pollinations FLUX + URL History');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -668,11 +656,11 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
     // 8. Generate title
     const title = generateTitle(topic, category);
 
-    // 9. Generate image with FLUX.1-schnell → upload to Cloudinary
+    // 9. Generate image with Pollinations FLUX → upload to Cloudinary
     let imageUrl: string | null = null;
-    const fluxBuffer = await generateFluxImage(imagePrompt);
-    if (fluxBuffer) {
-        imageUrl = await uploadToCloudinary(fluxBuffer);
+    const imageBuffer = await generatePollinationsImage(imagePrompt);
+    if (imageBuffer) {
+        imageUrl = await uploadToCloudinary(imageBuffer);
         if (imageUrl) {
             console.log(`🌐 Image uploaded: ${imageUrl.substring(0, 80)}...`);
         }
