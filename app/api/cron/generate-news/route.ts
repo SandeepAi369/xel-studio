@@ -243,12 +243,14 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── HF FLUX.1-schnell Image Generation ─────────────────────
+// ─── HF FLUX.1-dev High-Quality Image Generation ────────────
 
-const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
+const HF_MODEL = 'black-forest-labs/FLUX.1-dev';
 const HF_IMAGE_WIDTH = 1024;
 const HF_IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
-const HF_TIMEOUT_MS = 25000;
+const HF_TIMEOUT_MS = 120000; // 2 min for high-quality generation
+const HF_INFERENCE_STEPS = 50; // 50 steps for detailed, polished output
+const HF_GUIDANCE_SCALE = 7.5;
 const HF_MAX_RETRIES = 2;
 
 async function generateFluxImage(prompt: string): Promise<Buffer | null> {
@@ -260,7 +262,7 @@ async function generateFluxImage(prompt: string): Promise<Buffer | null> {
 
     for (let attempt = 1; attempt <= HF_MAX_RETRIES; attempt++) {
         try {
-            console.log(`🎨 FLUX.1-schnell: generating image (attempt ${attempt}/${HF_MAX_RETRIES})...`);
+            console.log(`🎨 FLUX.1-dev: generating image (${HF_INFERENCE_STEPS} steps, attempt ${attempt}/${HF_MAX_RETRIES})...`);
             const res = await fetch(`https://router.huggingface.co/hf-inference/models/${HF_MODEL}`, {
                 method: 'POST',
                 headers: {
@@ -272,7 +274,8 @@ async function generateFluxImage(prompt: string): Promise<Buffer | null> {
                     parameters: {
                         width: HF_IMAGE_WIDTH,
                         height: HF_IMAGE_HEIGHT,
-                        num_inference_steps: 4,
+                        num_inference_steps: HF_INFERENCE_STEPS,
+                        guidance_scale: HF_GUIDANCE_SCALE,
                     },
                 }),
                 signal: AbortSignal.timeout(HF_TIMEOUT_MS),
@@ -677,18 +680,18 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         const imgPromptCompletion = await cerebras.chat.completions.create({
             model: 'llama3.1-8b', // fast model for quick prompt generation
             messages: [
-                { role: 'system', content: 'You generate cinematic, photorealistic image descriptions for news article thumbnails. Output ONLY the description text, nothing else. No quotes, no explanation.' },
-                { role: 'user', content: `Based on this news article, write a 25-30 word cinematic and photorealistic image description suitable for an AI image generator. The image should be dramatic, editorial-quality, widescreen 16:9 composition. Focus on concrete visual elements, lighting, and mood. Do NOT include any text or words in the image.\n\nArticle: ${articleText.substring(0, 500)}` },
+                { role: 'system', content: 'You generate stunning, futuristic, high-detail image descriptions for news article thumbnails. Output ONLY the description text, nothing else. No quotes, no explanation.' },
+                { role: 'user', content: `Based on this news article, write a 40-60 word futuristic and stylish image description for an AI image generator. The image should be dramatic, editorial-quality, widescreen 16:9. Include: glowing neon light effects, rich vibrant colors, futuristic technology elements, cinematic depth-of-field, photorealistic detail. The image must fully cover the frame edge-to-edge with no borders or empty space. Do NOT include any text, words, or letters in the image.\n\nArticle: ${articleText.substring(0, 600)}` },
             ],
-            temperature: 0.7,
-            max_tokens: 100,
+            temperature: 0.8,
+            max_tokens: 150,
         }) as { choices: Array<{ message: { content: string | null } }> };
         imagePrompt = imgPromptCompletion.choices[0]?.message?.content?.trim() || '';
-        console.log(`🎨 Image prompt: "${imagePrompt.substring(0, 80)}..."`);
+        console.log(`🎨 Image prompt: "${imagePrompt.substring(0, 100)}..."`);
     } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);
         console.warn(`⚠️ Image prompt generation failed: ${msg}`);
-        imagePrompt = 'futuristic technology lab with glowing screens and neon blue ambient lighting, cinematic wide shot, photorealistic editorial photograph';
+        imagePrompt = 'futuristic technology command center with glowing holographic displays, neon blue and purple ambient lighting, sleek metallic surfaces with reflections, dramatic cinematic wide-angle shot, photorealistic editorial photograph, edge-to-edge composition';
     }
 
     // 8. Generate title

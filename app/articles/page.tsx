@@ -132,14 +132,9 @@ export default function ArticlesPage() {
                                         })}</span>
                                     </div>
 
-                                    <div className="flex items-start gap-3 mb-3">
-                                        <h2 className="text-lg font-semibold text-white line-clamp-2 flex-1">
-                                            {article.title}
-                                        </h2>
-                                        <div className="flex-shrink-0 mt-0.5" onClick={(e) => e.preventDefault()}>
-                                            <SmartListenButton text={prepareTTSText(article.title, article.content)} iconOnly className="w-9 h-9" />
-                                        </div>
-                                    </div>
+                                    <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
+                                        {article.title}
+                                    </h2>
 
                                     <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
                                         {stripMarkdown(article.content).substring(0, 150)}...
