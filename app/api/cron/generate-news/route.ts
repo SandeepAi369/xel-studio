@@ -2,7 +2,7 @@
  * /api/cron/generate-news — AI News Generator v12 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
  * =============================================================================
  * Pipeline: Load URL History → Dynamic Query → Tavily Search → URL Dedup →
- *           Cerebras (GPT-OSS 120B strict factual JSON) → Pollinations FLUX (AI image) →
+ *           Cerebras (GPT-OSS 120B strict factual JSON) → Gemini Flash (AI image) →
  *           Cloudinary (upload) → Firestore → Save to History.
  *
  *
@@ -12,7 +12,7 @@
  *   - Related updates on same topic with different URLs pass through
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
- *   - Pollinations.ai generates high-quality FLUX dev images (free, unlimited, no API key)
+ *   - Gemini 2.5 Flash (Nano Banana) generates cinematic 16:9 news images via REST API
  *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
  *   - Cleanup is handled by separate /api/cron/cleanup-history route
@@ -243,56 +243,100 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── Pollinations.ai FLUX Image Generation (Free & Unlimited) ───
+// ─── Gemini 2.5 Flash (Nano Banana) Image Generation ───────────
+// Uses the REST API directly — no SDK needed.
+// Model: gemini-2.5-flash-image (fast, high-quality, free tier available)
+// Docs: https://ai.google.dev/gemini-api/docs/image-generation
 
-const POLLINATIONS_WIDTH = 1024;
-const POLLINATIONS_HEIGHT = 576; // 16:9 cinematic ratio
-const POLLINATIONS_TIMEOUT_MS = 60000; // 60s — Pollinations can take time for high-quality
-const POLLINATIONS_MAX_RETRIES = 2;
+const GEMINI_IMAGE_MODEL = 'gemini-2.5-flash-image';
+const GEMINI_IMAGE_API = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_IMAGE_MODEL}:generateContent`;
+const GEMINI_IMAGE_TIMEOUT_MS = 60000; // 60s timeout
+const GEMINI_IMAGE_MAX_RETRIES = 2;
 
-async function generatePollinationsImage(prompt: string): Promise<Buffer | null> {
-    for (let attempt = 1; attempt <= POLLINATIONS_MAX_RETRIES; attempt++) {
+async function generateGeminiImage(prompt: string): Promise<Buffer | null> {
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+        console.warn('⚠️ GEMINI_API_KEY not set — skipping image generation');
+        return null;
+    }
+
+    for (let attempt = 1; attempt <= GEMINI_IMAGE_MAX_RETRIES; attempt++) {
         try {
-            const seed = Math.floor(Math.random() * 999999);
-            const encodedPrompt = encodeURIComponent(prompt);
-            const url = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${POLLINATIONS_WIDTH}&height=${POLLINATIONS_HEIGHT}&seed=${seed}&model=flux&nologo=true`;
+            console.log(`🎨 Gemini Flash: generating image (attempt ${attempt}/${GEMINI_IMAGE_MAX_RETRIES})...`);
 
-            console.log(`🎨 Pollinations FLUX: generating image (seed=${seed}, attempt ${attempt}/${POLLINATIONS_MAX_RETRIES})...`);
-
-            const res = await fetch(url, {
-                signal: AbortSignal.timeout(POLLINATIONS_TIMEOUT_MS),
+            const res = await fetch(GEMINI_IMAGE_API, {
+                method: 'POST',
+                headers: {
+                    'x-goog-api-key': apiKey,
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    contents: [{
+                        parts: [{ text: prompt }],
+                    }],
+                    generationConfig: {
+                        responseModalities: ['Image'],
+                        imageConfig: {
+                            aspectRatio: '16:9',
+                        },
+                    },
+                }),
+                signal: AbortSignal.timeout(GEMINI_IMAGE_TIMEOUT_MS),
             });
 
             if (!res.ok) {
                 const errText = await res.text().catch(() => '');
-                console.warn(`⚠️ Pollinations API error ${res.status}: ${errText.substring(0, 200)}`);
-                if (attempt < POLLINATIONS_MAX_RETRIES) {
-                    console.log('🔄 Retrying with new seed...');
+                console.warn(`⚠️ Gemini Image API error ${res.status}: ${errText.substring(0, 300)}`);
+                if (res.status === 429 && attempt < GEMINI_IMAGE_MAX_RETRIES) {
+                    const wait = 5000 * attempt;
+                    console.log(`⏳ Rate limited, waiting ${wait / 1000}s before retry...`);
+                    await new Promise(r => setTimeout(r, wait));
+                    continue;
+                }
+                if (res.status === 503 && attempt < GEMINI_IMAGE_MAX_RETRIES) {
+                    console.log('🔄 Model temporarily unavailable, retrying...');
+                    await new Promise(r => setTimeout(r, 3000));
                     continue;
                 }
                 return null;
             }
 
-            const contentType = res.headers.get('content-type') || '';
-            if (!contentType.includes('image')) {
-                console.warn(`⚠️ Pollinations returned non-image content-type: ${contentType}`);
-                if (attempt < POLLINATIONS_MAX_RETRIES) continue;
+            const json = await res.json();
+
+            // Extract base64 image from response
+            const parts = json?.candidates?.[0]?.content?.parts;
+            if (!parts || parts.length === 0) {
+                console.warn('⚠️ Gemini returned no parts in response');
+                if (attempt < GEMINI_IMAGE_MAX_RETRIES) continue;
                 return null;
             }
 
-            const arrayBuffer = await res.arrayBuffer();
-            if (arrayBuffer.byteLength < 5000) {
-                console.warn(`⚠️ Pollinations returned suspiciously small image (${arrayBuffer.byteLength} bytes), retrying...`);
-                if (attempt < POLLINATIONS_MAX_RETRIES) continue;
+            // Find the image part (inlineData)
+            const imagePart = parts.find((p: { inlineData?: { data: string; mimeType: string } }) => p.inlineData?.data);
+            if (!imagePart?.inlineData?.data) {
+                // Check if response has text instead (safety filter or prompt rejection)
+                const textPart = parts.find((p: { text?: string }) => p.text);
+                if (textPart?.text) {
+                    console.warn(`⚠️ Gemini returned text instead of image: ${textPart.text.substring(0, 200)}`);
+                }
+                if (attempt < GEMINI_IMAGE_MAX_RETRIES) continue;
                 return null;
             }
 
-            console.log(`🎨 Pollinations image generated: ${Math.round(arrayBuffer.byteLength / 1024)}KB (seed=${seed})`);
-            return Buffer.from(arrayBuffer);
+            const imageBuffer = Buffer.from(imagePart.inlineData.data, 'base64');
+            if (imageBuffer.byteLength < 5000) {
+                console.warn(`⚠️ Gemini returned suspiciously small image (${imageBuffer.byteLength} bytes)`);
+                if (attempt < GEMINI_IMAGE_MAX_RETRIES) continue;
+                return null;
+            }
+
+            const mimeType = imagePart.inlineData.mimeType || 'image/png';
+            console.log(`🎨 Gemini image generated: ${Math.round(imageBuffer.byteLength / 1024)}KB (${mimeType})`);
+            return imageBuffer;
         } catch (err) {
             const msg = err instanceof Error ? err.message : String(err);
-            console.warn(`⚠️ Pollinations attempt ${attempt} failed: ${msg}`);
-            if (attempt >= POLLINATIONS_MAX_RETRIES) return null;
+            console.warn(`⚠️ Gemini image attempt ${attempt} failed: ${msg}`);
+            if (attempt >= GEMINI_IMAGE_MAX_RETRIES) return null;
         }
     }
     return null;
@@ -462,7 +506,7 @@ async function saveToHistory(title: string, content: string, sourceUrls: string[
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v13 — Cerebras GPT-OSS 120B + Tavily + Pollinations FLUX + URL History');
+    console.log('⚡ NEWS PIPELINE v14 — Cerebras GPT-OSS 120B + Tavily + Gemini Flash Image + URL History');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -656,9 +700,9 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
     // 8. Generate title
     const title = generateTitle(topic, category);
 
-    // 9. Generate image with Pollinations FLUX → upload to Cloudinary
+    // 9. Generate image with Gemini 2.5 Flash → upload to Cloudinary
     let imageUrl: string | null = null;
-    const imageBuffer = await generatePollinationsImage(imagePrompt);
+    const imageBuffer = await generateGeminiImage(imagePrompt);
     if (imageBuffer) {
         imageUrl = await uploadToCloudinary(imageBuffer);
         if (imageUrl) {
