@@ -243,14 +243,14 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── HF FLUX.1-dev High-Quality Image Generation ────────────
+// ─── HF FLUX.1-schnell Fast Image Generation ────────────────
+// TODO: Upgrade to FLUX.1-dev with 50+ steps for premium quality later
 
-const HF_MODEL = 'black-forest-labs/FLUX.1-dev';
+const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
 const HF_IMAGE_WIDTH = 1024;
 const HF_IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
-const HF_TIMEOUT_MS = 120000; // 2 min for high-quality generation
-const HF_INFERENCE_STEPS = 50; // 50 steps for detailed, polished output
-const HF_GUIDANCE_SCALE = 7.5;
+const HF_TIMEOUT_MS = 30000;
+const HF_INFERENCE_STEPS = 8; // schnell sweet-spot: fast + decent quality
 const HF_MAX_RETRIES = 2;
 
 async function generateFluxImage(prompt: string): Promise<Buffer | null> {
@@ -275,7 +275,6 @@ async function generateFluxImage(prompt: string): Promise<Buffer | null> {
                         width: HF_IMAGE_WIDTH,
                         height: HF_IMAGE_HEIGHT,
                         num_inference_steps: HF_INFERENCE_STEPS,
-                        guidance_scale: HF_GUIDANCE_SCALE,
                     },
                 }),
                 signal: AbortSignal.timeout(HF_TIMEOUT_MS),
