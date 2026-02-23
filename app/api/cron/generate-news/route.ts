@@ -1,17 +1,20 @@
 /**
- * /api/cron/generate-news — AI News Generator v11 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
+ * /api/cron/generate-news — AI News Generator v12 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
  * =============================================================================
- * Pipeline: Dynamic Query → Tavily Search → Cerebras (GPT-OSS 120B strict factual JSON) →
- *           FLUX.1-schnell (AI image) → Cloudinary (upload) → Firestore.
+ * Pipeline: Load URL History → Dynamic Query → Tavily Search → URL Dedup →
+ *           Cerebras (GPT-OSS 120B strict factual JSON) → FLUX.1-schnell (AI image) →
+ *           Cloudinary (upload) → Firestore → Save to History.
  *
  * Architecture:
- *   - Simple Query Generation: random selection from curated search queries
+ *   - Smart 10-Day History: news_history collection stores all source URLs
+ *   - Strict URL-based dedup: only exact URL matches are filtered (no title guessing)
+ *   - Related updates on same topic with different URLs pass through
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
- *   - Single Cerebras call returns articleText; second fast call generates image prompt
  *   - HF FLUX.1-schnell generates cinematic 16:9 news thumbnail from prompt
  *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
+ *   - Auto-cleanup: history items older than 10 days are pruned each run
  *
  * Health Tracking (system/cron_health):
  *   ✅ Success → { status: "✅ Success", timestamp, last_news_title }
@@ -28,8 +31,10 @@ export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
 
 const COLLECTION = 'news';
+const HISTORY_COLLECTION = 'news_history';
 const HEALTH_DOC = 'system/cron_health';
 const NEWS_TTL_HOURS = 24;
+const HISTORY_TTL_DAYS = 10;
 const TAVILY_RESULT_COUNT = 10;
 
 // ─── Simple Query Generation ─────────────────────────────
@@ -128,9 +133,17 @@ function extractTopic(query: string): string {
     return topic;
 }
 
+// ─── Types ───────────────────────────────────────────────────
+
+interface TavilyResult {
+    title: string;
+    description: string;
+    url: string;
+}
+
 // ─── Tavily Search ──────────────────────────────────────────
 
-async function searchTavilyWithKey(apiKey: string, query: string, daysBack: number): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
+async function searchTavilyWithKey(apiKey: string, query: string, daysBack: number): Promise<{ context: string; results: TavilyResult[] }> {
     const client = tavily({ apiKey });
 
     const response = await client.search(query, {
@@ -145,19 +158,20 @@ async function searchTavilyWithKey(apiKey: string, query: string, daysBack: numb
         return { context: '', results: [] };
     }
 
-    const mapped = response.results.map((r: { title: string; content: string; url: string }) => ({
+    const mapped: TavilyResult[] = response.results.map((r: { title: string; content: string; url: string }) => ({
         title: r.title,
         description: r.content,
+        url: r.url,
     }));
 
     const context = mapped
-        .map((r: { title: string; description: string }, i: number) => `[${i + 1}] ${r.title}\n${r.description}`)
+        .map((r, i) => `[${i + 1}] ${r.title}\n${r.description}`)
         .join('\n\n');
 
     return { context, results: mapped };
 }
 
-async function searchTavily(query: string, daysBack: number = 3): Promise<{ context: string; results: Array<{ title: string; description: string }> }> {
+async function searchTavily(query: string, daysBack: number = 3): Promise<{ context: string; results: TavilyResult[] }> {
     const keys = [
         process.env.TAVILY_API_KEY,
         process.env.TAVILY_API_KEY_2,
@@ -331,17 +345,7 @@ function parseArticleResponse(text: string): string {
     return clean;
 }
 
-function parseImageKeyword(text: string): string {
-    let clean = text.trim();
-    if (clean.startsWith('```')) {
-        clean = clean.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
-    }
-    try {
-        const parsed = JSON.parse(clean);
-        if (parsed.imageKeyword) return parsed.imageKeyword.trim().toLowerCase();
-    } catch { /* not JSON, use raw text */ }
-    return clean.toLowerCase().replace(/["']/g, '').substring(0, 60);
-}
+
 
 // ─── Health Tracking ─────────────────────────────────────────
 
@@ -367,29 +371,99 @@ async function cleanupOldArticles() {
     const cutoff = new Date(Date.now() - NEWS_TTL_HOURS * 60 * 60 * 1000).toISOString();
     const old = await adminDb.collection(COLLECTION).where('date', '<', cutoff).get();
     if (old.size > 0) {
-        const batch = adminDb.batch();
-        old.docs.forEach(doc => batch.delete(doc.ref));
-        await batch.commit();
-        console.log(`🧹 Cleaned ${old.size} old articles`);
+        // Firestore batch limit = 500, chunk deletes
+        for (let i = 0; i < old.docs.length; i += 500) {
+            const batch = adminDb.batch();
+            old.docs.slice(i, i + 500).forEach(doc => batch.delete(doc.ref));
+            await batch.commit();
+        }
+        console.log(`🧹 Cleaned ${old.size} old news articles`);
     }
 }
 
-// ─── Duplicate check ─────────────────────────────────────────
+// ─── Smart 10-Day URL History ────────────────────────────────
 
-function titleSimilarity(a: string, b: string): number {
-    const wa = new Set(a.toLowerCase().split(/\s+/));
-    const wb = new Set(b.toLowerCase().split(/\s+/));
-    if (wa.size === 0 || wb.size === 0) return 0;
-    let overlap = 0;
-    wa.forEach(w => { if (wb.has(w)) overlap++; });
-    return overlap / Math.min(wa.size, wb.size);
+/** Normalize URL for consistent comparison */
+function normalizeUrl(url: string): string {
+    try {
+        const u = new URL(url);
+        // lowercase host, remove trailing slash, remove common tracking params
+        u.hostname = u.hostname.toLowerCase();
+        u.pathname = u.pathname.replace(/\/+$/, '');
+        u.searchParams.delete('utm_source');
+        u.searchParams.delete('utm_medium');
+        u.searchParams.delete('utm_campaign');
+        u.searchParams.delete('utm_content');
+        u.searchParams.delete('utm_term');
+        u.searchParams.delete('ref');
+        u.searchParams.delete('source');
+        return u.toString();
+    } catch {
+        return url.toLowerCase().replace(/\/+$/, '');
+    }
+}
+
+/** Load all source URLs from news_history into a Set for O(1) lookup */
+async function loadHistoryUrls(): Promise<Set<string>> {
+    const snap = await adminDb.collection(HISTORY_COLLECTION).select('sourceUrls').get();
+    const urls = new Set<string>();
+    snap.docs.forEach(doc => {
+        const data = doc.data();
+        if (Array.isArray(data.sourceUrls)) {
+            data.sourceUrls.forEach((u: string) => urls.add(normalizeUrl(u)));
+        }
+    });
+    console.log(`📚 History loaded: ${urls.size} known URLs from ${snap.size} articles`);
+    return urls;
+}
+
+/** Filter Tavily results — remove any whose URL exactly matches history */
+function filterByUrlHistory(results: TavilyResult[], knownUrls: Set<string>): { fresh: TavilyResult[]; filtered: number } {
+    const fresh = results.filter(r => !knownUrls.has(normalizeUrl(r.url)));
+    const filtered = results.length - fresh.length;
+    if (filtered > 0) {
+        console.log(`🔗 URL filter: ${filtered} already-used URLs removed, ${fresh.length} fresh results remain`);
+    }
+    return { fresh, filtered };
+}
+
+/** Save generated article metadata + source URLs to history */
+async function saveToHistory(title: string, content: string, sourceUrls: string[]) {
+    try {
+        // Normalize URLs before storing for consistent future comparisons
+        const normalized = sourceUrls.map(normalizeUrl);
+        await adminDb.collection(HISTORY_COLLECTION).add({
+            title,
+            content,
+            sourceUrls: normalized,
+            createdAt: new Date().toISOString(),
+        });
+        console.log(`📚 History saved: "${title.substring(0, 50)}" with ${normalized.length} URLs`);
+    } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        console.warn(`⚠️ History save failed (non-critical): ${msg}`);
+    }
+}
+
+/** Delete history items older than 10 days */
+async function cleanupOldHistory() {
+    const cutoff = new Date(Date.now() - HISTORY_TTL_DAYS * 24 * 60 * 60 * 1000).toISOString();
+    const old = await adminDb.collection(HISTORY_COLLECTION).where('createdAt', '<', cutoff).get();
+    if (old.size > 0) {
+        for (let i = 0; i < old.docs.length; i += 500) {
+            const batch = adminDb.batch();
+            old.docs.slice(i, i + 500).forEach(doc => batch.delete(doc.ref));
+            await batch.commit();
+        }
+        console.log(`🧹 History cleanup: removed ${old.size} entries older than ${HISTORY_TTL_DAYS} days`);
+    }
 }
 
 // ─── Main Pipeline ───────────────────────────────────────────
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v11 — Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell');
+    console.log('⚡ NEWS PIPELINE v12 — Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell + URL History');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -405,53 +479,71 @@ async function generateNews() {
     if (!cerebrasApiKey) throw new Error('CEREBRAS_API_KEY not set');
     const cerebras = new Cerebras({ apiKey: cerebrasApiKey });
 
-    // 4. Run Tavily search (3 days) + cleanup + dedup check
-    const [initialSearchResult, existingSnap] = await Promise.all([
+    // 4. Load URL history + Run Tavily search + cleanup (all parallel)
+    const [initialSearchResult, knownUrls] = await Promise.all([
         searchTavily(searchQuery, 3),
-        adminDb.collection(COLLECTION).orderBy('date', 'desc').limit(50).get(),
+        loadHistoryUrls(),
         cleanupOldArticles(),
+        cleanupOldHistory(),
     ]);
 
-    // Check if initial search returned usable data
+    // 5. Filter search results by URL history
     let scrapedData = initialSearchResult.results;
     let usedQuery = searchQuery;
-    const totalTextLength = scrapedData.map((r: { title?: string; description?: string }) =>
+    let totalFiltered = 0;
+
+    // Apply URL-based dedup filter
+    const { fresh: freshResults, filtered: filteredCount } = filterByUrlHistory(scrapedData, knownUrls);
+    scrapedData = freshResults;
+    totalFiltered = filteredCount;
+
+    const totalTextLength = scrapedData.map(r =>
         `${r.title || ''} ${r.description || ''}`
     ).join('').length;
 
     if (!scrapedData.length || totalTextLength < 50) {
         // Fallback 1: broader query, still 3 days
         const fallbackQuery = generateFallbackQuery();
-        console.log(`⚠️ Primary search weak (${scrapedData.length} results, ${totalTextLength} chars). Trying fallback: "${fallbackQuery}"`);
+        console.log(`⚠️ Primary search weak after URL filter (${scrapedData.length} fresh, ${filteredCount} filtered). Trying fallback: "${fallbackQuery}"`);
         const fallbackResult = await searchTavily(fallbackQuery, 3);
-        if (fallbackResult.results.length > 0) {
-            scrapedData = fallbackResult.results;
+        const fallbackFresh = filterByUrlHistory(fallbackResult.results, knownUrls);
+        if (fallbackFresh.fresh.length > 0) {
+            scrapedData = fallbackFresh.fresh;
+            totalFiltered += fallbackFresh.filtered;
             usedQuery = fallbackQuery;
-            console.log(`✅ Fallback search succeeded: ${scrapedData.length} results`);
+            console.log(`✅ Fallback search succeeded: ${scrapedData.length} fresh results`);
         } else {
             // Fallback 2: even broader, 7 days
-            console.log('⚠️ 3-day fallback empty. Trying 7-day window...');
+            console.log('⚠️ 3-day fallback empty after URL filter. Trying 7-day window...');
             const widerResult = await searchTavily('latest technology AI news', 7);
-            if (widerResult.results.length > 0) {
-                scrapedData = widerResult.results;
+            const widerFresh = filterByUrlHistory(widerResult.results, knownUrls);
+            if (widerFresh.fresh.length > 0) {
+                scrapedData = widerFresh.fresh;
+                totalFiltered += widerFresh.filtered;
                 usedQuery = 'latest technology AI news (7d)';
-                console.log(`✅ 7-day search succeeded: ${scrapedData.length} results`);
+                console.log(`✅ 7-day search succeeded: ${scrapedData.length} fresh results`);
             } else {
-                console.error('❌ All search attempts failed — cannot generate news without data');
-                throw new Error('No search results found after all fallback attempts');
+                console.error('❌ All search attempts failed — no fresh URLs after all fallbacks');
+                throw new Error('No fresh search results found after URL history filtering');
             }
         }
     } else {
-        console.log(`✅ Primary search OK: ${scrapedData.length} results, ${totalTextLength} chars`);
+        console.log(`✅ Primary search OK: ${scrapedData.length} fresh results, ${totalTextLength} chars (${filteredCount} URLs filtered)`);
     }
 
-    // 5. CEREBRAS — article generation
+    // Collect source URLs from the results we'll use for article generation
+    const sourceUrls = scrapedData.map(r => r.url).filter(Boolean);
+
+    // 6. CEREBRAS — article generation
     const systemPrompt = `You are a strict, factual tech journalist. You MUST output valid JSON with exactly one key: "articleText". No other keys, no markdown, no explanation — ONLY the JSON object.`;
+
+    // Strip URLs from data sent to LLM (saves tokens, LLM doesn't need them)
+    const cerebrasData = scrapedData.map(({ title, description }) => ({ title, description }));
 
     const userPrompt = `Write a news article based ONLY on the search results below.
 
 Search results:
-${JSON.stringify(scrapedData, null, 2)}
+${JSON.stringify(cerebrasData, null, 2)}
 
 STRICT RULES FOR articleText:
 1. Write STRICTLY based on facts from the search results above. NO speculation, NO invented info.
@@ -564,20 +656,8 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         imagePrompt = 'futuristic technology lab with glowing screens and neon blue ambient lighting, cinematic wide shot, photorealistic editorial photograph';
     }
 
-    // 8. Generate title and check dups
+    // 8. Generate title
     const title = generateTitle(topic, category);
-    const existingTitles = existingSnap.docs.map(d => d.data().title as string);
-    const isDup = existingTitles.some(t => titleSimilarity(title, t) >= 0.85);
-
-    if (isDup) {
-        console.log('⚠️ Duplicate detected — skipping save');
-        await logHealth('✅ Success', {
-            last_news_title: title,
-            note: 'Duplicate — not saved',
-            duration_ms: `${Date.now() - t0}`,
-        });
-        return { status: 'duplicate', title, duration_ms: Date.now() - t0 };
-    }
 
     // 9. Generate image with FLUX.1-schnell → upload to Cloudinary
     let imageUrl: string | null = null;
@@ -604,7 +684,11 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         date: new Date().toISOString(),
     };
 
-    await adminDb.collection(COLLECTION).doc(newsItem.id).set(newsItem);
+    // Save article + record in history (parallel)
+    await Promise.all([
+        adminDb.collection(COLLECTION).doc(newsItem.id).set(newsItem),
+        saveToHistory(title, articleText, sourceUrls),
+    ]);
     const duration = Date.now() - t0;
     console.log(`✅ Saved: "${title}" in ${duration}ms`);
 
@@ -630,6 +714,8 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
         has_image: !!imageUrl,
         search_query: usedQuery,
         search_results: scrapedData.length,
+        urls_filtered: totalFiltered,
+        history_urls: knownUrls.size,
         duration_ms: duration,
     };
 }
