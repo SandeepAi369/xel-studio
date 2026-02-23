@@ -1,18 +1,23 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   ArrowLeft,
-  Clock,
   Newspaper,
   Bot,
   Sparkles,
   Globe,
   Zap,
   ChevronRight,
+  Calendar,
+  Search,
+  FileText,
 } from "lucide-react";
+import SmartListenButton from "@/components/SmartListenButton";
+import { prepareTTSText, stripMarkdown } from "@/lib/tts-text";
+import { SkeletonGrid } from "@/components/SkeletonCard";
 
 import { db } from "@/lib/firebase";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
@@ -36,14 +41,9 @@ const CATEGORY_CONFIG = {
   ai: {
     icon: Sparkles,
     label: "AI",
-    color: "text-violet-300",
-    bg: "bg-violet-500/20",
-    cardBg: "bg-violet-950/15",
-    cardBorder: "border-violet-800/30",
-    cardHoverBorder: "hover:border-violet-600/50",
-    cardHoverBg: "hover:bg-violet-950/25",
-    titleHover: "group-hover:text-violet-200",
-    sourceColor: "text-violet-400/70",
+    badgeBg: "bg-violet-500/20",
+    badgeText: "text-violet-400",
+    badgeBorder: "border-violet-500/30",
     activeBg: "bg-violet-500/20",
     activeText: "text-violet-300",
     activeBorder: "border-violet-500/30",
@@ -53,14 +53,9 @@ const CATEGORY_CONFIG = {
   tech: {
     icon: Zap,
     label: "Tech",
-    color: "text-sky-300",
-    bg: "bg-sky-500/15",
-    cardBg: "bg-sky-950/10",
-    cardBorder: "border-sky-800/30",
-    cardHoverBorder: "hover:border-sky-600/50",
-    cardHoverBg: "hover:bg-sky-950/20",
-    titleHover: "group-hover:text-sky-200",
-    sourceColor: "text-sky-400/70",
+    badgeBg: "bg-sky-500/20",
+    badgeText: "text-sky-400",
+    badgeBorder: "border-sky-500/30",
     activeBg: "bg-sky-500/20",
     activeText: "text-sky-300",
     activeBorder: "border-sky-500/30",
@@ -70,14 +65,9 @@ const CATEGORY_CONFIG = {
   world: {
     icon: Globe,
     label: "World",
-    color: "text-emerald-300",
-    bg: "bg-emerald-500/15",
-    cardBg: "bg-zinc-900/40",
-    cardBorder: "border-zinc-800/50",
-    cardHoverBorder: "hover:border-emerald-600/40",
-    cardHoverBg: "hover:bg-zinc-900/60",
-    titleHover: "group-hover:text-emerald-200",
-    sourceColor: "text-emerald-400/70",
+    badgeBg: "bg-emerald-500/20",
+    badgeText: "text-emerald-400",
+    badgeBorder: "border-emerald-500/30",
     activeBg: "bg-emerald-500/20",
     activeText: "text-emerald-300",
     activeBorder: "border-emerald-500/30",
@@ -86,120 +76,18 @@ const CATEGORY_CONFIG = {
   },
 };
 
-const PREVIEW_WORD_LIMIT = 30;
-
-/* ─── Helpers ──────────────────────────────────────────────── */
-function timeAgo(dateStr: string): string {
-  const now = new Date();
-  const date = new Date(dateStr);
-  const diff = Math.floor((now.getTime() - date.getTime()) / 1000);
-  if (diff < 60) return "just now";
-  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-  if (diff < 604800) return `${Math.floor(diff / 86400)}d ago`;
-  return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-}
-
-/* ─── NewsCard — with hero thumbnail image ─────────────── */
-function NewsCard({ item }: { item: NewsItem }) {
-  const config = CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.world;
-  const Icon = config.icon;
-  const [imgError, setImgError] = useState(false);
-  const hasImage = !!item.image_url && !imgError;
-
-  const words = item.summary.split(/\s+/);
-  const previewText =
-    words.length > PREVIEW_WORD_LIMIT
-      ? words.slice(0, PREVIEW_WORD_LIMIT).join(" ") + "..."
-      : item.summary;
-
-  return (
-    <Link
-      href={`/ai-news/${item.id}`}
-      onClick={() => sessionStorage.setItem('ai-news-scroll', String(window.scrollY))}
-      className="block rounded-2xl border border-zinc-800 bg-zinc-900/60 hover:border-green-500/40 hover:bg-zinc-900/80 transition-all duration-200 group cursor-pointer overflow-hidden"
-    >
-      {/* Hero Image */}
-      {hasImage && (
-        <div className="relative w-full aspect-[16/9] bg-zinc-800 overflow-hidden">
-          <img
-            src={item.image_url!}
-            alt={item.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            onError={() => setImgError(true)}
-          />
-          {/* Gradient overlay for readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-          {/* Category badge on image */}
-          <div className="absolute top-3 left-3">
-            <span
-              className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full backdrop-blur-sm ${config.bg} ${config.color} border border-white/10`}
-            >
-              <Icon className="w-2.5 h-2.5" />
-              {config.label}
-            </span>
-          </div>
-        </div>
-      )}
-
-      <div className="p-5">
-        {/* Category Badge (only when no image) */}
-        {!hasImage && (
-          <div className="flex items-start gap-3 mb-2">
-            <div className="flex-1 min-w-0">
-              <span
-                className={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mb-2 ${config.bg} ${config.color}`}
-              >
-                <Icon className="w-2.5 h-2.5" />
-                {config.label}
-              </span>
-            </div>
-          </div>
-        )}
-
-        {/* Title */}
-        <h3 className="text-lg font-semibold transition-colors line-clamp-2 text-white group-hover:text-green-100 mb-2">
-          {item.title}
-        </h3>
-
-        {/* Preview text */}
-        <p className="text-base text-gray-400 leading-relaxed mb-4">
-          {previewText}
-        </p>
-
-        {/* Meta + Read more */}
-        <div className="flex items-center gap-3 text-xs text-zinc-500">
-          <span className={`font-medium ${config.sourceColor}`}>
-            {item.source_name}
-          </span>
-          <time dateTime={item.date} className="flex items-center gap-1">
-            <Clock className="w-3 h-3" />
-            {timeAgo(item.date)}
-          </time>
-          <span className="ml-auto flex items-center gap-1 text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors">
-            Read more
-            <ChevronRight className="w-4 h-4" />
-          </span>
-        </div>
-      </div>
-    </Link>
-  );
-}
-
-/* ─── Main Page — NO framer-motion animations ────────────── */
+/* ─── Main Page ────────────────────────────────────────────── */
 export default function AINewsPage() {
   const router = useRouter();
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
-  // Real-time Firestore listener — news auto-updates without page refresh
+  // Real-time Firestore listener
   useEffect(() => {
-    const q = query(
-      collection(db, "news"),
-      orderBy("date", "desc")
-    );
+    const q = query(collection(db, "news"), orderBy("date", "desc"));
 
     const unsubscribe = onSnapshot(
       q,
@@ -219,33 +107,40 @@ export default function AINewsPage() {
       }
     );
 
-    // Cleanup listener on unmount
     return () => unsubscribe();
   }, []);
 
   // Scroll position restoration
   useEffect(() => {
-    const savedPos = sessionStorage.getItem('ai-news-scroll');
+    const savedPos = sessionStorage.getItem("ai-news-scroll");
     if (savedPos && !loading) {
       requestAnimationFrame(() => {
         window.scrollTo(0, parseInt(savedPos, 10));
-        sessionStorage.removeItem('ai-news-scroll');
+        sessionStorage.removeItem("ai-news-scroll");
       });
     }
   }, [loading]);
 
-  // Sort: latest news first (by date, newest at top)
-  const sortedAndFilteredNews = useMemo(() => {
-    let filtered = news;
+  // Filter + search + sort
+  const filteredNews = useMemo(() => {
+    let result = news;
     if (filter !== "all") {
-      filtered = news.filter((n) => n.category === filter);
+      result = result.filter((n) => n.category === filter);
     }
-    return [...filtered].sort((a, b) =>
-      new Date(b.date).getTime() - new Date(a.date).getTime()
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter(
+        (n) =>
+          n.title.toLowerCase().includes(q) ||
+          n.summary.toLowerCase().includes(q)
+      );
+    }
+    return [...result].sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
-  }, [news, filter]);
+  }, [news, filter, searchQuery]);
 
-  // Counts per category
+  // Category counts
   const counts = useMemo(() => {
     const c = { ai: 0, tech: 0, world: 0 };
     news.forEach((n) => {
@@ -255,90 +150,71 @@ export default function AINewsPage() {
   }, [news]);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
-      {/* Header */}
-      <header className="border-b border-white/5">
-        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-          <button
-            onClick={() => router.back()}
-            className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span className="text-sm">Back</span>
-          </button>
-          <div className="flex items-center gap-2">
-            <Bot className="w-4 h-4 text-purple-400" />
-            <span className="text-sm font-medium text-zinc-300">
-              Live News Feed
-            </span>
-          </div>
-          <div className="w-[52px]" />
+    <main className="min-h-screen bg-[#0a0a0a] pb-16">
+      {/* Header — matching articles page */}
+      <header className="pt-16 pb-8 px-4 text-center">
+        <div>
+          <Bot className="w-16 h-16 mx-auto mb-6 text-purple-400" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+            Daily News Feed
+          </h1>
+          <p className="text-zinc-400 text-lg max-w-md mx-auto">
+            AI-powered coverage · Technology, AI & World News
+          </p>
         </div>
       </header>
 
-      {/* Content */}
-      <main className="max-w-5xl mx-auto px-4 py-8">
-        <div>
-          <h1 className="text-2xl md:text-3xl font-bold text-zinc-100 mb-1">
-            Daily News Feed
-          </h1>
-          <p className="text-sm text-zinc-500 mb-6">
-            AI-first coverage with text-to-speech · AI, Technology, World News &
-            Geopolitics
-          </p>
-
-          {/* Category Filter Tabs */}
-          {!loading && news.length > 0 && (
-            <nav className="flex items-center gap-2 mb-8 flex-wrap">
-              {/* All Tab */}
-              <button
-                onClick={() => setFilter("all")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
-                  ? "bg-zinc-700 text-white"
-                  : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
-                  }`}
-              >
-                All ({news.length})
-              </button>
-
-              {/* Category Tabs */}
-              {(["ai", "tech", "world"] as const).map((cat) => {
-                const config = CATEGORY_CONFIG[cat];
-                const Icon = config.icon;
-                const count = counts[cat];
-                return (
-                  <button
-                    key={cat}
-                    onClick={() => setFilter(cat)}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 ${filter === cat
-                      ? `${config.activeBg} ${config.activeText} border ${config.activeBorder}`
-                      : `bg-zinc-900/60 text-zinc-400 ${config.hoverText} ${config.hoverBg}`
-                      }`}
-                  >
-                    <Icon className="w-3 h-3" />
-                    {config.label} ({count})
-                  </button>
-                );
-              })}
-            </nav>
-          )}
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Search Bar — same as articles */}
+        <div className="mb-8">
+          <div className="relative max-w-md mx-auto">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
+            <input
+              type="text"
+              placeholder="Search news..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
+            />
+          </div>
         </div>
 
-        {/* Loading */}
-        {loading && (
-          <div className="space-y-4">
-            {[...Array(5)].map((_, i) => (
-              <div
-                key={i}
-                className="rounded-xl bg-zinc-900/40 border border-zinc-800/50 p-5 animate-pulse"
-              >
-                <div className="h-4 bg-zinc-800 rounded w-3/4 mb-3" />
-                <div className="h-3 bg-zinc-800/60 rounded w-full mb-2" />
-                <div className="h-3 bg-zinc-800/60 rounded w-5/6" />
-              </div>
-            ))}
-          </div>
+        {/* Category Filter Tabs */}
+        {!loading && news.length > 0 && (
+          <nav className="flex items-center justify-center gap-2 mb-8 flex-wrap">
+            <button
+              onClick={() => setFilter("all")}
+              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${filter === "all"
+                  ? "bg-zinc-700 text-white"
+                  : "bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60"
+                }`}
+            >
+              All ({news.length})
+            </button>
+
+            {(["ai", "tech", "world"] as const).map((cat) => {
+              const config = CATEGORY_CONFIG[cat];
+              const Icon = config.icon;
+              const count = counts[cat];
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setFilter(cat)}
+                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5 ${filter === cat
+                      ? `${config.activeBg} ${config.activeText} border ${config.activeBorder}`
+                      : `bg-zinc-900/60 text-zinc-400 ${config.hoverText} ${config.hoverBg}`
+                    }`}
+                >
+                  <Icon className="w-3.5 h-3.5" />
+                  {config.label} ({count})
+                </button>
+              );
+            })}
+          </nav>
         )}
+
+        {/* Loading — same skeleton as articles */}
+        {loading && <SkeletonGrid count={6} variant="article" columns={3} />}
 
         {/* Error */}
         {error && (
@@ -348,34 +224,134 @@ export default function AINewsPage() {
         )}
 
         {/* Empty */}
-        {!loading && !error && sortedAndFilteredNews.length === 0 && (
+        {!loading && !error && filteredNews.length === 0 && (
           <div className="text-center py-16">
-            <Newspaper className="w-12 h-12 text-zinc-700 mx-auto mb-4" />
-            <p className="text-zinc-500">
-              {filter !== "all"
-                ? `No ${CATEGORY_CONFIG[filter]?.label || filter} news available.`
-                : "No news available yet. Feed will populate automatically."}
-            </p>
+            {searchQuery ? (
+              <>
+                <Search className="w-12 h-12 mx-auto mb-4 text-zinc-600" />
+                <p className="text-zinc-500">No news matches your search</p>
+              </>
+            ) : (
+              <>
+                <Newspaper className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
+                <p className="text-zinc-500 text-lg mb-2">
+                  {filter !== "all"
+                    ? `No ${CATEGORY_CONFIG[filter]?.label || filter} news available.`
+                    : "No news available yet. Feed will populate automatically."}
+                </p>
+              </>
+            )}
           </div>
         )}
 
-        {/* News List */}
-        {!loading && !error && sortedAndFilteredNews.length > 0 && (
-          <section id="news-list" className="space-y-4">
-            {sortedAndFilteredNews.map((item) => (
-              <NewsCard key={item.id} item={item} />
-            ))}
-          </section>
+        {/* News Grid — matching articles grid layout */}
+        {!loading && !error && filteredNews.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredNews.map((item) => {
+              const config =
+                CATEGORY_CONFIG[item.category] || CATEGORY_CONFIG.tech;
+
+              return (
+                <Link
+                  key={item.id}
+                  href={`/ai-news/${item.id}`}
+                  onClick={() =>
+                    sessionStorage.setItem(
+                      "ai-news-scroll",
+                      String(window.scrollY)
+                    )
+                  }
+                  className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
+                >
+                  {/* Image — same fixed height as articles */}
+                  <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
+                    {item.image_url ? (
+                      <img
+                        src={item.image_url}
+                        alt={item.title}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-900/20 to-zinc-900">
+                        <FileText className="w-12 h-12 text-purple-500/30" />
+                      </div>
+                    )}
+
+                    {/* Category badge on image */}
+                    <span
+                      className={`absolute top-3 left-3 px-3 py-1 text-xs font-medium rounded-full border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      style={{ pointerEvents: "none" }}
+                    >
+                      {config.label}
+                    </span>
+                  </div>
+
+                  {/* Content */}
+                  <div className="p-5">
+                    <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
+                      <Calendar className="w-3.5 h-3.5" />
+                      <span>
+                        {new Date(item.date).toLocaleDateString("en-US", {
+                          year: "numeric",
+                          month: "short",
+                          day: "numeric",
+                        })}
+                      </span>
+                    </div>
+
+                    <div className="flex items-start gap-3 mb-3">
+                      <h2 className="text-lg font-semibold text-white line-clamp-2 flex-1">
+                        {item.title}
+                      </h2>
+                      <div
+                        className="flex-shrink-0 mt-0.5"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <SmartListenButton
+                          text={prepareTTSText(item.title, item.summary)}
+                          iconOnly
+                          className="w-9 h-9"
+                        />
+                      </div>
+                    </div>
+
+                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+                      {stripMarkdown(item.summary).substring(0, 150)}...
+                    </p>
+
+                    <div className="flex items-center justify-between mt-4">
+                      <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
+                        <span>Read more</span>
+                        <ChevronRight className="w-4 h-4" />
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
         )}
 
-        {/* Footer */}
+        {/* Footer count */}
         {!loading && news.length > 0 && (
           <p className="text-center text-xs text-zinc-600 mt-8">
-            Showing {sortedAndFilteredNews.length} of {news.length} articles ·
-            AI-first · Live from Firebase
+            Showing {filteredNews.length} of {news.length} articles · AI-powered
+            · Live from Firebase
           </p>
         )}
-      </main>
-    </div>
+
+        {/* Back Link — same as articles */}
+        <div className="mt-12 text-center">
+          <button
+            onClick={() => router.back()}
+            className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </button>
+        </div>
+      </div>
+    </main>
   );
 }
