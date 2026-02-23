@@ -18,11 +18,11 @@
     },
     {
       "path": "/api/cron/cleanup-history",
-      "schedule": "30 20 * * *"
+      "schedule": "5 21 * * *"
     },
     {
       "path": "/api/cron/cleanup-history",
-      "schedule": "30 22 * * *"
+      "schedule": "5 23 * * *"
     }
   ]
 }
