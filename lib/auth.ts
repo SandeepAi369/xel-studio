@@ -11,6 +11,13 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 const SESSION_SECRET = process.env.SESSION_SECRET || '';
 const SESSION_TIMEOUT = 30 * 60 * 1000; // 30 minutes (extended for reliability)
 
+function getSessionSecret(): string {
+    if (!SESSION_SECRET) {
+        throw new Error('SESSION_SECRET env var is required for secure session management');
+    }
+    return SESSION_SECRET;
+}
+
 // Login attempt tracking - Shadow Integration security
 interface LoginAttempt {
     count: number;
@@ -105,7 +112,7 @@ export function createSession(_ip: string): string {
         n: randomBytes(8).toString('hex')
     });
     const payloadB64 = Buffer.from(payload).toString('base64url');
-    const sig = createHmac('sha256', SESSION_SECRET).update(payloadB64).digest('base64url');
+    const sig = createHmac('sha256', getSessionSecret()).update(payloadB64).digest('base64url');
     return `${payloadB64}.${sig}`;
 }
 
@@ -122,7 +129,7 @@ export function validateSession(token: string, _ip: string): boolean {
         const sig = token.substring(dotIndex + 1);
 
         // Verify signature
-        const expectedSig = createHmac('sha256', SESSION_SECRET)
+        const expectedSig = createHmac('sha256', getSessionSecret())
             .update(payloadB64)
             .digest('base64url');
         if (sig !== expectedSig) return false;

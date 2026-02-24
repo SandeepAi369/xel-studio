@@ -47,7 +47,7 @@ export default function Home() {
             <span className="text-sm">GitHub</span>
           </a>
           <p className="mt-3 text-sm text-zinc-400 font-medium tracking-widest">
-            v2.0
+            v2.5
           </p>
         </footer>
       </main>

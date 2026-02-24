@@ -13,8 +13,10 @@ import type { Article, APK, AILab, SecurityTool } from '@/lib/supabase-db';
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
 
+const ALLOWED_ORIGIN = process.env.NEXT_PUBLIC_SITE_URL || 'https://xel-studio.vercel.app';
+
 const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
@@ -40,7 +42,7 @@ export async function OPTIONS() {
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        const { action, token, sessionToken, contentType, data, itemId, password } = body;
+        const { action, token, sessionToken, csrfToken, contentType, data, itemId, password } = body;
 
         // Use whichever token field the client sent
         const authToken = token || sessionToken;

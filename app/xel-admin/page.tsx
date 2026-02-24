@@ -730,7 +730,7 @@ function AdminPanel() {
                                 className="w-full max-w-lg bg-zinc-900 border border-zinc-800 rounded-2xl p-6 max-h-[90vh] overflow-y-auto"
                             >
                                 <h3 className="text-lg font-semibold mb-6">
-                                    {editingItem ? 'Edit' : 'Add'} {activeTab === 'security' ? 'Security Tool' : activeTab.slice(0, -1)}
+                                    {editingItem ? 'Edit' : 'Add'} {{ articles: 'Article', apks: 'APK', aiLabs: 'AI Lab', security: 'Security Tool' }[activeTab] || activeTab}
                                 </h3>
 
                                 <div className="space-y-4">

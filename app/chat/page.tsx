@@ -38,13 +38,16 @@ export default function ChatPage() {
             if (saved) setMessages(JSON.parse(saved));
             const savedModel = localStorage.getItem(MODEL_KEY);
             if (savedModel && MODELS.some(m => m.id === savedModel)) setSelectedModel(savedModel);
-        } catch {}
+        } catch { }
     }, []);
 
-    // Save to localStorage
+    // Save to localStorage (debounced to avoid blocking main thread)
     useEffect(() => {
         if (messages.length > 0) {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+            const timer = setTimeout(() => {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+            }, 500);
+            return () => clearTimeout(timer);
         }
     }, [messages]);
 
@@ -214,11 +217,10 @@ export default function ChatPage() {
                                 </div>
                             )}
                             <div
-                                className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
-                                    msg.role === 'user'
+                                className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${msg.role === 'user'
                                         ? 'bg-purple-600/20 border border-purple-500/20 text-zinc-200'
                                         : 'bg-zinc-800/50 border border-white/5 text-zinc-300'
-                                }`}
+                                    }`}
                             >
                                 {msg.role === 'ai' ? (
                                     <div className="prose-cyber prose prose-sm max-w-none">

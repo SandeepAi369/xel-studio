@@ -18,11 +18,13 @@ export default function FeedbackForm() {
     const nameInputRef = useRef<HTMLInputElement>(null);
     const triggerBtnRef = useRef<HTMLButtonElement>(null);
 
-    // Pre-fill name from Firebase user when form opens
-    if (user && !nameInitialized) {
-        setName(user.displayName || '');
-        setNameInitialized(true);
-    }
+    // Pre-fill name from Firebase user when available
+    useEffect(() => {
+        if (user && !nameInitialized) {
+            setName(user.displayName || '');
+            setNameInitialized(true);
+        }
+    }, [user, nameInitialized]);
 
     // Focus management: move focus to name input when form opens
     useEffect(() => {
