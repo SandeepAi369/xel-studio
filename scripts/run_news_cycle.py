@@ -162,7 +162,9 @@ def init_firebase() -> firestore.Client:
     if firebase_admin._apps:
         return firestore.client()
 
-    creds_json = os.environ.get("FIREBASE_CREDENTIALS")
+    # Check both env var names (GitHub Actions uses FIREBASE_CREDENTIALS,
+    # local .env.local uses FIREBASE_SERVICE_ACCOUNT)
+    creds_json = os.environ.get("FIREBASE_CREDENTIALS") or os.environ.get("FIREBASE_SERVICE_ACCOUNT")
     if creds_json:
         try:
             creds_dict = json.loads(creds_json)
