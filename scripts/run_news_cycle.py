@@ -3,7 +3,7 @@
 News Pipeline Worker — GitHub Actions Background Runner
 ========================================================
 Pipeline: Dynamic Query → Tavily Search → URL Dedup →
-          Cerebras (GPT-OSS 120B / llama3.1-8b) → Pollinations FLUX (image) →
+          Cerebras (GPT-OSS 120B / llama3.1-8b) → g4f Image Gen (Flux/DALL-E) →
           Cloudinary Upload → Firestore Save → History Update
 
 Ported from: app/api/cron/generate-news/route.ts (v17)
@@ -16,7 +16,7 @@ import sys
 import time
 import uuid
 from datetime import datetime, timezone
-from urllib.parse import quote, urlparse, urlencode, parse_qs, urlunparse
+from urllib.parse import urlparse, urlencode, parse_qs, urlunparse
 
 import cloudinary
 import cloudinary.uploader
@@ -344,47 +344,158 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation ────────────────────────────────────────
+# ─── Image Generation (g4f) & Cloudinary Upload ─────────────
 
-# Pollinations.ai blocks server-side requests (530/401) but works perfectly
-# when loaded directly by a browser. We construct the URL server-side and
-# save it to Firestore. The frontend <img> tag loads it client-side.
+# g4f handles provider rotation internally (Pollinations, Together, etc.)
+# We generate the image, download the bytes, upload to Cloudinary,
+# and save the Cloudinary URL to Firestore.
 
+IMAGE_MODELS = ["flux", "flux-realism", "sdxl", "dalle"]
+IMAGE_MAX_RETRIES = 3
 PLACEHOLDER_IMAGE_URL = (
     "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
 )
 
 
-def generate_image_url(prompt: str) -> str:
+def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Construct a Pollinations.ai image URL for browser-side rendering.
-    
-    The URL is a lazy-load endpoint: the image is generated when the browser
-    first requests it. This works because Pollinations only blocks server-side
-    requests, not browser requests.
+    Generate image via g4f library (multi-provider, multi-model),
+    download the actual image bytes, upload to Cloudinary,
+    and return the Cloudinary secure URL.
+
+    Falls back through: flux → flux-realism → sdxl → dalle
+    g4f handles provider rotation internally for each model.
     """
+    from g4f.client import Client as G4FClient
     import re as _re
-    
-    # Sanitize prompt for URL safety
-    clean = _re.sub(r"[^\w\s,\-]", "", prompt)
-    clean = _re.sub(r"\s+", " ", clean).strip()
-    # Truncate to prevent URL-too-long errors
-    if len(clean) > 200:
-        clean = clean[:200].rsplit(" ", 1)[0]
-    
-    enhanced = f"{clean}, photorealistic, cinematic, 8k"
-    encoded = quote(enhanced)
-    seed = random.randint(0, 999999)
-    
-    url = (
-        f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}"
-        f"&seed={seed}&nologo=true"
+
+    print(f"\n{'─'*50}")
+    print("🖼️ IMAGE PIPELINE START (g4f → Cloudinary)")
+    print(f"   Article ID: {article_id}")
+    print(f"   Models to try: {IMAGE_MODELS}")
+    print(f"{'─'*50}")
+
+    # Sanitize prompt
+    clean_prompt = _re.sub(r"[^\w\s,.\-!?']", "", prompt)
+    clean_prompt = _re.sub(r"\s+", " ", clean_prompt).strip()
+    if len(clean_prompt) > 300:
+        clean_prompt = clean_prompt[:300].rsplit(" ", 1)[0]
+
+    enhanced_prompt = (
+        f"{clean_prompt}, photorealistic, highly detailed, "
+        "sharp focus, professional lighting, cinematic, 8k"
     )
-    
-    print(f"🖼️ Image URL constructed (seed={seed}, len={len(url)})")
-    print(f"   Prompt: \"{clean[:80]}...\"")
-    return url
+
+    print(f"   Prompt: \"{clean_prompt[:80]}...\"")
+
+    g4f_client = G4FClient()
+    last_error = ""
+
+    for attempt, model_name in enumerate(IMAGE_MODELS, 1):
+        print(f"\n  🎨 Attempt {attempt}/{len(IMAGE_MODELS)} — Model: {model_name}")
+
+        # Step 1: Generate image via g4f
+        image_url = None
+        try:
+            print(f"  ⬇️ Calling g4f images.generate(model='{model_name}')...")
+            response = g4f_client.images.generate(
+                model=model_name,
+                prompt=enhanced_prompt,
+                response_format="url",
+            )
+
+            if response and response.data and len(response.data) > 0:
+                image_url = response.data[0].url
+                print(f"  📎 g4f returned URL: {image_url[:100]}...")
+            else:
+                print(f"  ❌ g4f returned empty response")
+                continue
+
+        except Exception as e:
+            last_error = str(e)
+            print(f"  ❌ g4f generate failed: {last_error[:200]}")
+            time.sleep(2)
+            continue
+
+        if not image_url:
+            print(f"  ❌ No image URL from g4f")
+            continue
+
+        # Step 2: Download the actual image bytes
+        image_bytes = None
+        try:
+            print(f"  ⬇️ Downloading image from URL (timeout=60s)...")
+            dl_resp = requests.get(image_url, timeout=60)
+            dl_resp.raise_for_status()
+
+            content_type = dl_resp.headers.get("content-type", "")
+            content_length = len(dl_resp.content)
+            print(f"  📦 Download: type={content_type}, size={content_length} bytes")
+
+            if content_length < 1000:
+                print(f"  ❌ Image too small ({content_length} bytes), likely error page")
+                continue
+
+            image_bytes = dl_resp.content
+            print(f"  ✅ Image downloaded: {content_length} bytes")
+
+        except Exception as e:
+            last_error = str(e)
+            print(f"  ❌ Image download failed: {last_error[:200]}")
+            time.sleep(2)
+            continue
+
+        # Step 3: Upload to Cloudinary
+        try:
+            print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
+            result = cloudinary.uploader.upload(
+                image_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            cloudinary_url = result.get("secure_url", "")
+            print(f"  ☁️ Cloudinary URL: {cloudinary_url[:80]}...")
+            print(f"  ☁️ Format: {result.get('format')}, "
+                  f"Size: {result.get('bytes')} bytes, "
+                  f"Dims: {result.get('width')}x{result.get('height')}")
+
+            if cloudinary_url:
+                print(f"  ✅ IMAGE PIPELINE SUCCESS — Cloudinary URL ready")
+                return cloudinary_url
+            else:
+                print(f"  ❌ Cloudinary returned empty URL")
+                continue
+
+        except Exception as e:
+            last_error = str(e)
+            print(f"  ❌ Cloudinary upload failed: {last_error[:200]}")
+            continue
+
+    # All models exhausted — try uploading a placeholder to Cloudinary
+    print(f"\n  ⚠️ All {len(IMAGE_MODELS)} models failed. Last error: {last_error[:100]}")
+    print(f"  🔄 Uploading placeholder to Cloudinary...")
+
+    try:
+        placeholder_bytes = requests.get(PLACEHOLDER_IMAGE_URL, timeout=15).content
+        if placeholder_bytes and len(placeholder_bytes) > 500:
+            result = cloudinary.uploader.upload(
+                placeholder_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            placeholder_url = result.get("secure_url", "")
+            if placeholder_url:
+                print(f"  ✅ Placeholder uploaded to Cloudinary: {placeholder_url[:80]}...")
+                return placeholder_url
+    except Exception as e:
+        print(f"  ⚠️ Placeholder upload failed: {e}")
+
+    print(f"  ⚠️ Using static placeholder URL")
+    return PLACEHOLDER_IMAGE_URL
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
@@ -612,9 +723,9 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     # 7. Generate title
     title = generate_title(topic, category)
 
-    # 8. Generate image URL (browser loads it client-side from Pollinations)
+    # 8. Generate image via g4f + upload to Cloudinary
     article_id = str(uuid.uuid4())
-    image_url = generate_image_url(image_prompt)
+    image_url = generate_and_upload_image(image_prompt, article_id)
 
     # 9. Save to Firestore
 
@@ -642,7 +753,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
         "word_count": str(word_count),
         "image_prompt": image_prompt[:100],
         "has_image": "yes" if image_url else "no",
-        "image_source": "pollinations",
+        "image_source": "cloudinary" if "cloudinary" in image_url else "placeholder",
         "search_query": used_query,
         "search_results": str(len(scraped_data)),
         "duration_ms": str(duration),
@@ -653,7 +764,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    Pollinations (browser-loaded)")
+    print(f"   Image:    {'Cloudinary (g4f)' if 'cloudinary' in image_url else 'Placeholder'}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 

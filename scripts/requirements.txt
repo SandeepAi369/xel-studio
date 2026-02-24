@@ -13,5 +13,8 @@ requests>=2.31.0
 # Cerebras Cloud SDK (LLM — GPT-OSS 120B, llama3.1-8b)
 cerebras-cloud-sdk>=1.0.0
 
+# g4f (GPT4Free) — Image generation via Flux, DALL-E, etc.
+g4f>=0.3.0
+
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
