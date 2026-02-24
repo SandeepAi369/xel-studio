@@ -3,20 +3,12 @@
     "api/stream_audio.py": {
       "runtime": "@vercel/python@4.5.0",
       "maxDuration": 30
-    },
-    "api/generate_image.py": {
-      "runtime": "@vercel/python@4.5.0",
-      "maxDuration": 60
     }
   },
   "rewrites": [
     {
       "source": "/api/stream_audio",
       "destination": "/api/stream_audio"
-    },
-    {
-      "source": "/api/generate-image",
-      "destination": "/api/generate_image"
     }
   ],
   "crons": [

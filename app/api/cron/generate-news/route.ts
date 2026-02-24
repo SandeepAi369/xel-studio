@@ -2,8 +2,8 @@
  * /api/cron/generate-news — AI News Generator v12 (Cerebras GPT-OSS 120B + Tavily + FLUX.1-schnell)
  * =============================================================================
  * Pipeline: Load URL History → Dynamic Query → Tavily Search → URL Dedup →
- *           Cerebras (GPT-OSS 120B strict factual JSON) → Pollinations FLUX (AI image) →
- *           Cloudinary (upload) → Firestore → Save to History.
+ *           Cerebras (GPT-OSS 120B strict factual JSON) → Pollinations FLUX (image URL) →
+ *           Firestore → Save to History.
  *
  *
  * Architecture:
@@ -13,8 +13,8 @@
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
  *   - g4f generates FLUX model images (free, auto-provider rotation, no API key)
- *   - Cloudinary direct upload for CDN-optimized delivery
- *   - Firestore write for news + health tracking doc
+ *   - Pollinations URL stored directly — user's browser loads images (no server download)
+ *   - Cloudinary available for manual uploads via admin panel
  *   - Cleanup is handled by separate /api/cron/cleanup-history route
  *
  * Health Tracking (system/cron_health):
@@ -243,98 +243,22 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── g4f Image Generation (Free, No API Key, Auto Provider Rotation) ─────
-// Calls internal /api/generate-image Python serverless function.
-// g4f uses FLUX model with auto-rotation between providers
-// (Pollinations, Together, HuggingSpace — bypasses direct IP blocks).
-// Returns image URL → we fetch binary → upload to Cloudinary for CDN.
+// ─── Pollinations.ai Image URL Generation (Free, No API Key) ───────
+// Constructs a deterministic Pollinations URL and returns it directly.
+// The USER's browser fetches the image — not the server.
+// This avoids all server-side IP blocks (Cloudflare, regional blocks).
+// Same prompt + seed = same image (acts like a content-addressable CDN).
 
-const IMAGE_TIMEOUT_MS = 90000; // 90s — generation + download
-const IMAGE_MAX_RETRIES = 2;
+const IMAGE_WIDTH = 1024;
+const IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
 
-async function generateImage(prompt: string): Promise<Buffer | null> {
-    for (let attempt = 1; attempt <= IMAGE_MAX_RETRIES; attempt++) {
-        try {
-            console.log(`🎨 g4f FLUX: generating image (attempt ${attempt}/${IMAGE_MAX_RETRIES})...`);
-
-            // 1. Call internal Python g4f endpoint to get image URL
-            const baseUrl = process.env.VERCEL_URL
-                ? `https://${process.env.VERCEL_URL}`
-                : 'http://localhost:3000';
-
-            const genRes = await fetch(`${baseUrl}/api/generate-image`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    prompt: `${prompt}, photorealistic, 8k, highly detailed, sharp focus, professional lighting, cinematic`,
-                    model: 'flux',
-                }),
-                signal: AbortSignal.timeout(IMAGE_TIMEOUT_MS),
-            });
-
-            if (!genRes.ok) {
-                const errText = await genRes.text().catch(() => '');
-                console.warn(`⚠️ g4f endpoint error ${genRes.status}: ${errText.substring(0, 300)}`);
-                if (attempt < IMAGE_MAX_RETRIES) {
-                    await new Promise(r => setTimeout(r, 3000));
-                    continue;
-                }
-                return null;
-            }
-
-            const genData = await genRes.json();
-            if (!genData.success || !genData.url) {
-                console.warn(`⚠️ g4f returned no image URL: ${JSON.stringify(genData.errors || []).substring(0, 300)}`);
-                if (attempt < IMAGE_MAX_RETRIES) {
-                    await new Promise(r => setTimeout(r, 3000));
-                    continue;
-                }
-                return null;
-            }
-
-            console.log(`🔗 g4f image URL (model=${genData.model}): ${genData.url.substring(0, 80)}...`);
-
-            // 2. Fetch the actual image binary from the URL
-            const imgRes = await fetch(genData.url, {
-                headers: { 'Accept': 'image/*' },
-                redirect: 'follow',
-                signal: AbortSignal.timeout(30000),
-            });
-
-            if (!imgRes.ok) {
-                console.warn(`⚠️ Failed to download image from URL: ${imgRes.status}`);
-                if (attempt < IMAGE_MAX_RETRIES) continue;
-                return null;
-            }
-
-            const arrayBuffer = await imgRes.arrayBuffer();
-            const buffer = Buffer.from(arrayBuffer);
-
-            // 3. Validate magic bytes (JPEG/PNG/WebP)
-            const header = buffer.subarray(0, 4).toString('hex');
-            const isImage = header.startsWith('ffd8ff') ||   // JPEG
-                header.startsWith('89504e47') || // PNG
-                header.startsWith('52494646');   // WebP (RIFF)
-
-            if (!isImage || buffer.byteLength < 5000) {
-                console.warn(`⚠️ Downloaded content is not a valid image (${buffer.byteLength} bytes, magic: ${header})`);
-                if (attempt < IMAGE_MAX_RETRIES) continue;
-                return null;
-            }
-
-            console.log(`🎨 Image downloaded: ${Math.round(buffer.byteLength / 1024)}KB`);
-            return buffer;
-        } catch (err) {
-            const msg = err instanceof Error ? err.message : String(err);
-            console.warn(`⚠️ Image attempt ${attempt} failed: ${msg}`);
-            if (attempt < IMAGE_MAX_RETRIES) {
-                await new Promise(r => setTimeout(r, 3000 * attempt));
-                continue;
-            }
-            return null;
-        }
-    }
-    return null;
+function generateImageUrl(prompt: string): string {
+    const seed = Math.floor(Math.random() * 999999);
+    const enhancedPrompt = `${prompt}, photorealistic, highly detailed, sharp focus, professional lighting, cinematic, 8k`;
+    const encoded = encodeURIComponent(enhancedPrompt);
+    const url = `https://image.pollinations.ai/prompt/${encoded}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}&seed=${seed}&nologo=true`;
+    console.log(`🎨 Pollinations image URL constructed (seed=${seed})`);
+    return url;
 }
 
 // ─── Cloudinary Direct Upload ────────────────────────────────
@@ -501,7 +425,7 @@ async function saveToHistory(title: string, content: string, sourceUrls: string[
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v16 — Cerebras GPT-OSS 120B + Tavily + g4f FLUX + URL History');
+    console.log('⚡ NEWS PIPELINE v17 — Cerebras GPT-OSS 120B + Tavily + Pollinations URL + URL History');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
@@ -695,18 +619,9 @@ Do NOT repeat the same content. ADD NEW substantive information.`;
     // 8. Generate title
     const title = generateTitle(topic, category);
 
-    // 9. Generate image with Pollinations FLUX → upload to Cloudinary
-    let imageUrl: string | null = null;
-    const imageBuffer = await generateImage(imagePrompt);
-    if (imageBuffer) {
-        imageUrl = await uploadToCloudinary(imageBuffer);
-        if (imageUrl) {
-            console.log(`🌐 Image uploaded: ${imageUrl.substring(0, 80)}...`);
-        }
-    }
-    if (!imageUrl) {
-        console.log('📷 No image — article will be saved without thumbnail');
-    }
+    // 9. Generate image URL with Pollinations (user's browser loads image directly)
+    const imageUrl = generateImageUrl(imagePrompt);
+    console.log(`🌐 Image URL ready (user browser will load from Pollinations CDN)`);
 
     // 10. Save to Firestore
     const newsItem = {
