@@ -221,22 +221,7 @@ def init_cloudinary():
             print("⚠️ No Cloudinary credentials — images will use Pollinations URL directly")
 
 
-def upload_to_cloudinary(image_bytes: bytes, public_id: str) -> str | None:
-    """Upload image bytes to Cloudinary, return secure URL."""
-    try:
-        result = cloudinary.uploader.upload(
-            image_bytes,
-            public_id=f"xel-news/{public_id}",
-            folder="xel-news",
-            resource_type="image",
-            overwrite=True,
-        )
-        url = result.get("secure_url", "")
-        print(f"☁️ Cloudinary upload OK: {url[:80]}...")
-        return url
-    except Exception as e:
-        print(f"⚠️ Cloudinary upload failed: {e}")
-        return None
+
 
 
 # ─── Tavily Search ───────────────────────────────────────────
@@ -359,34 +344,125 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Pollinations Image ─────────────────────────────────────
+# ─── Image Generation & Upload ───────────────────────────────
+
+# Static placeholder — a pre-existing Cloudinary image used when generation fails.
+# This MUST be a real, working image URL. Upload one manually to Cloudinary if needed.
+PLACEHOLDER_IMAGE_URL = (
+    "https://res.cloudinary.com/dxlok864h/image/upload/v1/xel-news/placeholder_news.jpg"
+)
+
+IMAGE_MAX_RETRIES = 3
 
 
-def generate_pollinations_url(prompt: str) -> str:
-    """Construct Pollinations.ai FLUX image URL."""
-    seed = random.randint(0, 999999)
-    enhanced = f"{prompt}, photorealistic, highly detailed, sharp focus, professional lighting, cinematic, 8k"
-    encoded = quote(enhanced)
-    url = f"https://image.pollinations.ai/prompt/{encoded}?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}&seed={seed}&nologo=true"
-    print(f"🎨 Pollinations URL constructed (seed={seed})")
-    return url
+def generate_and_upload_image(prompt: str, article_id: str) -> str:
+    """
+    Generate image via Pollinations, upload to Cloudinary, return secure URL.
+    
+    CRITICAL: This function NEVER returns a Pollinations URL.
+    It returns either a Cloudinary URL or the static placeholder.
+    """
+    print(f"\n{'─'*50}")
+    print("🖼️ IMAGE PIPELINE START")
+    print(f"   Prompt: \"{prompt[:80]}...\"")
+    print(f"   Article ID: {article_id}")
+    print(f"   Max retries: {IMAGE_MAX_RETRIES}")
+    print(f"{'─'*50}")
 
+    enhanced_prompt = f"{prompt}, photorealistic, highly detailed, sharp focus, professional lighting, cinematic, 8k"
+    encoded_prompt = quote(enhanced_prompt)
 
-def download_image(url: str, timeout: int = 120) -> bytes | None:
-    """Download image from Pollinations (may take 30-120s for generation)."""
+    for attempt in range(1, IMAGE_MAX_RETRIES + 1):
+        seed = random.randint(0, 999999)
+        pollinations_url = (
+            f"https://image.pollinations.ai/prompt/{encoded_prompt}"
+            f"?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}"
+            f"&seed={seed}&nologo=true"
+        )
+        print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES} (seed={seed})")
+
+        # Step 1: Download from Pollinations
+        image_bytes = None
+        try:
+            print(f"  ⬇️ Downloading from Pollinations (timeout=180s)...")
+            resp = requests.get(pollinations_url, timeout=180)
+            resp.raise_for_status()
+
+            content_type = resp.headers.get("content-type", "")
+            content_length = len(resp.content)
+            print(f"  📦 Response: type={content_type}, size={content_length} bytes")
+
+            # Validate it's actually an image
+            if "image" not in content_type:
+                print(f"  ❌ Not an image (content-type: {content_type})")
+                continue
+            if content_length < 5000:
+                print(f"  ❌ Image too small ({content_length} bytes) — likely an error page")
+                continue
+
+            image_bytes = resp.content
+            print(f"  ✅ Image downloaded: {content_length} bytes")
+
+        except requests.Timeout:
+            print(f"  ❌ Download timed out after 180s")
+            continue
+        except Exception as e:
+            print(f"  ❌ Download failed: {e}")
+            continue
+
+        # Step 2: Upload to Cloudinary
+        try:
+            print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
+            result = cloudinary.uploader.upload(
+                image_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            cloudinary_url = result.get("secure_url", "")
+            print(f"  ☁️ Cloudinary response: url={cloudinary_url[:80]}...")
+            print(f"  ☁️ Cloudinary format: {result.get('format')}, "
+                  f"size: {result.get('bytes')} bytes, "
+                  f"dimensions: {result.get('width')}x{result.get('height')}")
+
+            if cloudinary_url:
+                print(f"  ✅ IMAGE PIPELINE SUCCESS — Cloudinary URL ready")
+                return cloudinary_url
+            else:
+                print(f"  ❌ Cloudinary returned empty URL")
+                continue
+
+        except Exception as e:
+            print(f"  ❌ Cloudinary upload failed: {e}")
+            continue
+
+    # All retries exhausted — upload a placeholder to Cloudinary
+    print(f"\n  ⚠️ All {IMAGE_MAX_RETRIES} attempts failed.")
+    print(f"  🔄 Uploading placeholder image to Cloudinary...")
+
     try:
-        print(f"⬇️ Downloading image (timeout={timeout}s)...")
-        resp = requests.get(url, timeout=timeout, stream=True)
-        resp.raise_for_status()
-        content_type = resp.headers.get("content-type", "")
-        if "image" not in content_type and len(resp.content) < 1000:
-            print(f"⚠️ Response doesn't look like an image (type={content_type}, size={len(resp.content)})")
-            return None
-        print(f"✅ Image downloaded: {len(resp.content)} bytes")
-        return resp.content
+        # Try to upload a generic placeholder from a reliable public URL
+        placeholder_src = "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
+        placeholder_bytes = requests.get(placeholder_src, timeout=15).content
+        if placeholder_bytes and len(placeholder_bytes) > 500:
+            result = cloudinary.uploader.upload(
+                placeholder_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            placeholder_url = result.get("secure_url", "")
+            if placeholder_url:
+                print(f"  ✅ Placeholder uploaded to Cloudinary: {placeholder_url[:80]}...")
+                return placeholder_url
     except Exception as e:
-        print(f"⚠️ Image download failed: {e}")
-        return None
+        print(f"  ⚠️ Placeholder upload also failed: {e}")
+
+    # Ultimate fallback — return the static placeholder URL
+    print(f"  ⚠️ Using static placeholder URL: {PLACEHOLDER_IMAGE_URL}")
+    return PLACEHOLDER_IMAGE_URL
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
@@ -614,26 +690,11 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     # 7. Generate title
     title = generate_title(topic, category)
 
-    # 8. Generate + upload image
-    pollinations_url = generate_pollinations_url(image_prompt)
-    image_url = pollinations_url  # fallback
-
-    # Try downloading and uploading to Cloudinary
-    image_bytes = download_image(pollinations_url, timeout=120)
-    if image_bytes:
-        article_id = str(uuid.uuid4())
-        cloudinary_url = upload_to_cloudinary(image_bytes, article_id)
-        if cloudinary_url:
-            image_url = cloudinary_url
-        else:
-            print("⚠️ Cloudinary failed — falling back to Pollinations URL")
-    else:
-        article_id = str(uuid.uuid4())
-        print("⚠️ Image download failed — using Pollinations URL directly")
+    # 8. Generate + upload image (ALL done server-side, NO Pollinations URLs saved)
+    article_id = str(uuid.uuid4())
+    image_url = generate_and_upload_image(image_prompt, article_id)
 
     # 9. Save to Firestore
-    if "article_id" not in dir():
-        article_id = str(uuid.uuid4())
 
     news_item = {
         "id": article_id,
@@ -659,7 +720,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
         "word_count": str(word_count),
         "image_prompt": image_prompt[:100],
         "has_image": "yes" if image_url else "no",
-        "image_source": "cloudinary" if "cloudinary" in image_url else "pollinations",
+        "image_source": "cloudinary" if "cloudinary" in image_url else "placeholder",
         "search_query": used_query,
         "search_results": str(len(scraped_data)),
         "duration_ms": str(duration),
@@ -670,7 +731,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else 'Pollinations'}")
+    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else 'Placeholder'}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 
