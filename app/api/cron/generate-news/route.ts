@@ -12,7 +12,7 @@
  *   - Related updates on same topic with different URLs pass through
  *   - Tavily AI search provides LLM-optimized real-time news context
  *   - Cerebras returns structured JSON via response_format: json_object
- *   - Pollinations.ai generates FLUX model images (free, no API key, unlimited)
+ *   - g4f generates FLUX model images (free, auto-provider rotation, no API key)
  *   - Cloudinary direct upload for CDN-optimized delivery
  *   - Firestore write for news + health tracking doc
  *   - Cleanup is handled by separate /api/cron/cleanup-history route
@@ -243,77 +243,92 @@ async function searchTavily(query: string, daysBack: number = 3): Promise<{ cont
     return { context: '', results: [] };
 }
 
-// ─── Pollinations.ai Direct Image Generation (Free, No API Key) ─────
-// Uses FLUX model via Pollinations — most stable free image generation.
-// Simple GET request returns image binary directly.
-// Docs: https://pollinations.ai
-// Note: Works from Vercel (US servers). May get Cloudflare-blocked from India locally.
+// ─── g4f Image Generation (Free, No API Key, Auto Provider Rotation) ─────
+// Calls internal /api/generate-image Python serverless function.
+// g4f uses FLUX model with auto-rotation between providers
+// (Pollinations, Together, HuggingSpace — bypasses direct IP blocks).
+// Returns image URL → we fetch binary → upload to Cloudinary for CDN.
 
-const IMAGE_TIMEOUT_MS = 90000; // 90s — FLUX generation can take time
-const IMAGE_MAX_RETRIES = 3;
-const IMAGE_WIDTH = 1024;
-const IMAGE_HEIGHT = 576; // 16:9 cinematic ratio
+const IMAGE_TIMEOUT_MS = 90000; // 90s — generation + download
+const IMAGE_MAX_RETRIES = 2;
 
 async function generateImage(prompt: string): Promise<Buffer | null> {
-    // Enhance prompt for photorealistic quality
-    const enhancedPrompt = `${prompt}, photorealistic, highly detailed, sharp focus, professional lighting, 8k`;
-
     for (let attempt = 1; attempt <= IMAGE_MAX_RETRIES; attempt++) {
         try {
-            const seed = Math.floor(Math.random() * 999999);
-            const encoded = encodeURIComponent(enhancedPrompt);
-            const url = `https://image.pollinations.ai/prompt/${encoded}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}&seed=${seed}&nologo=true`;
+            console.log(`🎨 g4f FLUX: generating image (attempt ${attempt}/${IMAGE_MAX_RETRIES})...`);
 
-            console.log(`🎨 Pollinations FLUX: generating image (seed=${seed}, attempt ${attempt}/${IMAGE_MAX_RETRIES})...`);
+            // 1. Call internal Python g4f endpoint to get image URL
+            const baseUrl = process.env.VERCEL_URL
+                ? `https://${process.env.VERCEL_URL}`
+                : 'http://localhost:3000';
 
-            const res = await fetch(url, {
-                headers: {
-                    'Accept': 'image/*',
-                    'User-Agent': 'XelStudio-NewsBot/1.0',
-                },
-                redirect: 'follow',
+            const genRes = await fetch(`${baseUrl}/api/generate-image`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    prompt: `${prompt}, photorealistic, 8k, highly detailed, sharp focus, professional lighting, cinematic`,
+                    model: 'flux',
+                }),
                 signal: AbortSignal.timeout(IMAGE_TIMEOUT_MS),
             });
 
-            if (!res.ok) {
-                const errText = await res.text().catch(() => '');
-                console.warn(`⚠️ Pollinations error ${res.status}: ${errText.substring(0, 200)}`);
+            if (!genRes.ok) {
+                const errText = await genRes.text().catch(() => '');
+                console.warn(`⚠️ g4f endpoint error ${genRes.status}: ${errText.substring(0, 300)}`);
                 if (attempt < IMAGE_MAX_RETRIES) {
-                    const wait = 3000 * attempt;
-                    console.log(`🔄 Retrying with new seed in ${wait / 1000}s...`);
-                    await new Promise(r => setTimeout(r, wait));
+                    await new Promise(r => setTimeout(r, 3000));
                     continue;
                 }
                 return null;
             }
 
-            const arrayBuffer = await res.arrayBuffer();
+            const genData = await genRes.json();
+            if (!genData.success || !genData.url) {
+                console.warn(`⚠️ g4f returned no image URL: ${JSON.stringify(genData.errors || []).substring(0, 300)}`);
+                if (attempt < IMAGE_MAX_RETRIES) {
+                    await new Promise(r => setTimeout(r, 3000));
+                    continue;
+                }
+                return null;
+            }
+
+            console.log(`🔗 g4f image URL (model=${genData.model}): ${genData.url.substring(0, 80)}...`);
+
+            // 2. Fetch the actual image binary from the URL
+            const imgRes = await fetch(genData.url, {
+                headers: { 'Accept': 'image/*' },
+                redirect: 'follow',
+                signal: AbortSignal.timeout(30000),
+            });
+
+            if (!imgRes.ok) {
+                console.warn(`⚠️ Failed to download image from URL: ${imgRes.status}`);
+                if (attempt < IMAGE_MAX_RETRIES) continue;
+                return null;
+            }
+
+            const arrayBuffer = await imgRes.arrayBuffer();
             const buffer = Buffer.from(arrayBuffer);
 
-            // Validate it's actually an image (check magic bytes)
-            // JPEG: FF D8 FF, PNG: 89 50 4E 47, WebP: 52 49 46 46
+            // 3. Validate magic bytes (JPEG/PNG/WebP)
             const header = buffer.subarray(0, 4).toString('hex');
-            const isImage = header.startsWith('ffd8ff') || // JPEG
+            const isImage = header.startsWith('ffd8ff') ||   // JPEG
                 header.startsWith('89504e47') || // PNG
-                header.startsWith('52494646');    // WebP (RIFF)
+                header.startsWith('52494646');   // WebP (RIFF)
 
-            if (!isImage || buffer.byteLength < 10000) {
-                console.warn(`⚠️ Pollinations returned non-image or too small (${buffer.byteLength} bytes, magic: ${header})`);
-                if (attempt < IMAGE_MAX_RETRIES) {
-                    // Likely got HTML page instead — retry with new seed
-                    await new Promise(r => setTimeout(r, 2000));
-                    continue;
-                }
+            if (!isImage || buffer.byteLength < 5000) {
+                console.warn(`⚠️ Downloaded content is not a valid image (${buffer.byteLength} bytes, magic: ${header})`);
+                if (attempt < IMAGE_MAX_RETRIES) continue;
                 return null;
             }
 
-            console.log(`🎨 Image generated: ${Math.round(buffer.byteLength / 1024)}KB (seed=${seed})`);
+            console.log(`🎨 Image downloaded: ${Math.round(buffer.byteLength / 1024)}KB`);
             return buffer;
         } catch (err) {
             const msg = err instanceof Error ? err.message : String(err);
             console.warn(`⚠️ Image attempt ${attempt} failed: ${msg}`);
             if (attempt < IMAGE_MAX_RETRIES) {
-                await new Promise(r => setTimeout(r, 2000 * attempt));
+                await new Promise(r => setTimeout(r, 3000 * attempt));
                 continue;
             }
             return null;
@@ -486,7 +501,7 @@ async function saveToHistory(title: string, content: string, sourceUrls: string[
 
 async function generateNews() {
     const t0 = Date.now();
-    console.log('⚡ NEWS PIPELINE v15 — Cerebras GPT-OSS 120B + Tavily + Pollinations FLUX + URL History');
+    console.log('⚡ NEWS PIPELINE v16 — Cerebras GPT-OSS 120B + Tavily + g4f FLUX + URL History');
 
     // 1. Generate dynamic search query
     const searchQuery = generateDynamicQuery();
