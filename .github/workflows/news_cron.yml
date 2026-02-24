@@ -28,27 +28,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Patch g4f broken Copilot provider
-        run: |
-          # g4f's Copilot provider has broken imports that crash the entire library.
-          # We disable it entirely by removing the module file.
-          # g4f will skip it and use working providers (PollinationsAI, etc.)
-          # Use pip show to find g4f location (importing g4f would crash)
-          G4F_DIR=$(pip show g4f 2>/dev/null | grep Location | cut -d' ' -f2)
-          if [ -n "$G4F_DIR" ]; then
-            G4F_DIR="$G4F_DIR/g4f"
-            echo "g4f package dir: $G4F_DIR"
-            # Remove broken Copilot files 
-            for f in "$G4F_DIR/Provider/Copilot.py" "$G4F_DIR/Provider/needs_auth/Copilot.py"; do
-              if [ -f "$f" ]; then
-                echo "Disabling broken provider: $f"
-                echo "# Disabled due to broken imports" > "$f"
-              fi
-            done
-            # Verify g4f can import now
-            python -c "from g4f.client import Client; print('✅ g4f Client imports OK')" 2>&1 || echo "⚠️ g4f still has issues"
-          else
-            echo "g4f not found or Provider dir missing"
-          fi
+        run: python scripts/patch_g4f.py
 
       - name: Run news pipeline
         env:
