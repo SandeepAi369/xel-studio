@@ -362,24 +362,49 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     CRITICAL: This function NEVER returns a Pollinations URL.
     It returns either a Cloudinary URL or the static placeholder.
     """
+    import re as _re
+
     print(f"\n{'─'*50}")
     print("🖼️ IMAGE PIPELINE START")
-    print(f"   Prompt: \"{prompt[:80]}...\"")
     print(f"   Article ID: {article_id}")
     print(f"   Max retries: {IMAGE_MAX_RETRIES}")
     print(f"{'─'*50}")
 
-    enhanced_prompt = f"{prompt}, photorealistic, highly detailed, sharp focus, professional lighting, cinematic, 8k"
-    encoded_prompt = quote(enhanced_prompt)
+    def sanitize_prompt(text: str, max_len: int = 200) -> str:
+        """Strip special chars and truncate for URL safety."""
+        # Remove special chars that bloat URL encoding
+        clean = _re.sub(r"[^\w\s,\-]", "", text)
+        # Collapse whitespace
+        clean = _re.sub(r"\s+", " ", clean).strip()
+        # Truncate to max_len
+        if len(clean) > max_len:
+            clean = clean[:max_len].rsplit(" ", 1)[0]
+        return clean
+
+    # Build 3 progressively simpler prompts for each retry
+    prompts = [
+        # Attempt 1: Original prompt (sanitized + truncated)
+        sanitize_prompt(prompt, 200) + ", cinematic photorealistic 8k",
+        # Attempt 2: Shorter version
+        sanitize_prompt(prompt, 100) + ", photorealistic cinematic",
+        # Attempt 3: Generic tech-news fallback
+        "futuristic technology scene with glowing neon lights holographic displays circuit boards cinematic photorealistic 8k",
+    ]
 
     for attempt in range(1, IMAGE_MAX_RETRIES + 1):
+        current_prompt = prompts[attempt - 1] if attempt <= len(prompts) else prompts[-1]
         seed = random.randint(0, 999999)
+
+        encoded_prompt = quote(current_prompt)
         pollinations_url = (
             f"https://image.pollinations.ai/prompt/{encoded_prompt}"
             f"?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}"
             f"&seed={seed}&nologo=true"
         )
-        print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES} (seed={seed})")
+
+        url_length = len(pollinations_url)
+        print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES} (seed={seed}, url_len={url_length})")
+        print(f"     Prompt: \"{current_prompt[:80]}...\"")
 
         # Step 1: Download from Pollinations
         image_bytes = None
@@ -442,7 +467,6 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     print(f"  🔄 Uploading placeholder image to Cloudinary...")
 
     try:
-        # Try to upload a generic placeholder from a reliable public URL
         placeholder_src = "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
         placeholder_bytes = requests.get(placeholder_src, timeout=15).content
         if placeholder_bytes and len(placeholder_bytes) > 500:
@@ -460,7 +484,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     except Exception as e:
         print(f"  ⚠️ Placeholder upload also failed: {e}")
 
-    # Ultimate fallback — return the static placeholder URL
+    # Ultimate fallback
     print(f"  ⚠️ Using static placeholder URL: {PLACEHOLDER_IMAGE_URL}")
     return PLACEHOLDER_IMAGE_URL
 
