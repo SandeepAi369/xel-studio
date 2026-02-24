@@ -34,17 +34,45 @@ def main():
     print(f"Patching: {copilot_path}")
 
     stub = (
-        "# Stub: replaces broken Copilot provider to prevent import crash\n"
-        "from __future__ import annotations\n"
-        "\n"
-        "class Copilot:\n"
-        "    working = False\n"
+        '# Stub: replaces broken Copilot provider to prevent import crash\n'
+        '# All symbols that other g4f modules import from here are stubbed.\n'
+        'from __future__ import annotations\n'
+        '\n'
+        '# --- Stub functions imported by other g4f modules ---\n'
+        'def get_headers(*args, **kwargs):\n'
+        '    return {}\n'
+        '\n'
+        'def get_har_files(*args, **kwargs):\n'
+        '    return []\n'
+        '\n'
+        'def readHAR(*args, **kwargs):\n'
+        '    return None, None, {}\n'
+        '\n'
+        'def click_trunstile(*args, **kwargs):\n'
+        '    pass\n'
+        '\n'
+        'def get_fake_cookie(*args, **kwargs):\n'
+        '    return {}\n'
+        '\n'
+        '# --- Stub classes ---\n'
+        'class Conversation:\n'
+        '    conversation_id: str = ""\n'
+        '    def __init__(self, conversation_id: str = ""):\n'
+        '        self.conversation_id = conversation_id\n'
+        '\n'
+        'class Copilot:\n'
+        '    working = False\n'
         '    label = "Copilot (disabled)"\n'
         '    url = ""\n'
-        "    supports_stream = False\n"
-        "\n"
-        "    @classmethod\n"
-        "    def create_completion(cls, *args, **kwargs):\n"
+        '    supports_stream = False\n'
+        '    default_model = "Copilot"\n'
+        '    models = []\n'
+        '    model_aliases = {}\n'
+        '    @classmethod\n'
+        '    def create_completion(cls, *args, **kwargs):\n'
+        '        raise RuntimeError("Copilot provider is disabled")\n'
+        '    @classmethod\n'
+        '    def create_authed(cls, *args, **kwargs):\n'
         '        raise RuntimeError("Copilot provider is disabled")\n'
     )
 
