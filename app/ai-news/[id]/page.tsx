@@ -248,7 +248,7 @@ export default function NewsDetailPage() {
                     </time>
 
                     {/* Listen button */}
-                    <div className="ml-auto">
+                    <div className="ml-auto mr-2">
                         <SmartListenButton
                             text={prepareTTSText(article.title, article.summary)}
                             iconOnly
