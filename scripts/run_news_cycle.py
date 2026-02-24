@@ -391,26 +391,43 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
         "futuristic technology scene with glowing neon lights holographic displays circuit boards cinematic photorealistic 8k",
     ]
 
+    # Build URLs/payloads for each attempt with different endpoints
+    ENDPOINTS = [
+        # Attempt 1: gen.pollinations.ai (newer endpoint)
+        {"type": "get", "base": "https://gen.pollinations.ai/image"},
+        # Attempt 2: image.pollinations.ai (classic endpoint)
+        {"type": "get", "base": "https://image.pollinations.ai/prompt"},
+        # Attempt 3: gen.pollinations.ai with generic prompt
+        {"type": "get", "base": "https://gen.pollinations.ai/image"},
+    ]
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "image/*, */*",
+    }
+
     for attempt in range(1, IMAGE_MAX_RETRIES + 1):
         current_prompt = prompts[attempt - 1] if attempt <= len(prompts) else prompts[-1]
         seed = random.randint(0, 999999)
+        endpoint = ENDPOINTS[attempt - 1] if attempt <= len(ENDPOINTS) else ENDPOINTS[-1]
 
         encoded_prompt = quote(current_prompt)
         pollinations_url = (
-            f"https://image.pollinations.ai/prompt/{encoded_prompt}"
+            f"{endpoint['base']}/{encoded_prompt}"
             f"?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}"
-            f"&seed={seed}&nologo=true"
+            f"&seed={seed}&nologo=true&safe=true"
         )
 
         url_length = len(pollinations_url)
         print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES} (seed={seed}, url_len={url_length})")
+        print(f"     Endpoint: {endpoint['base']}")
         print(f"     Prompt: \"{current_prompt[:80]}...\"")
 
         # Step 1: Download from Pollinations
         image_bytes = None
         try:
             print(f"  ⬇️ Downloading from Pollinations (timeout=180s)...")
-            resp = requests.get(pollinations_url, timeout=180)
+            resp = requests.get(pollinations_url, timeout=180, headers=headers)
             resp.raise_for_status()
 
             content_type = resp.headers.get("content-type", "")
@@ -420,9 +437,15 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             # Validate it's actually an image
             if "image" not in content_type:
                 print(f"  ❌ Not an image (content-type: {content_type})")
+                if attempt < IMAGE_MAX_RETRIES:
+                    print(f"  ⏳ Waiting 10s before retry...")
+                    time.sleep(10)
                 continue
             if content_length < 5000:
                 print(f"  ❌ Image too small ({content_length} bytes) — likely an error page")
+                if attempt < IMAGE_MAX_RETRIES:
+                    print(f"  ⏳ Waiting 10s before retry...")
+                    time.sleep(10)
                 continue
 
             image_bytes = resp.content
@@ -433,6 +456,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             continue
         except Exception as e:
             print(f"  ❌ Download failed: {e}")
+            if attempt < IMAGE_MAX_RETRIES:
+                print(f"  ⏳ Waiting 10s before retry...")
+                time.sleep(10)
             continue
 
         # Step 2: Upload to Cloudinary
