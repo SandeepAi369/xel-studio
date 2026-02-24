@@ -383,66 +383,20 @@ def _upload_placeholder_to_cloudinary(article_id: str) -> str:
 
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Generate image via g4f library (multi-provider, multi-model),
+    Generate image via g4f library (subprocess isolation),
     download the actual image bytes, upload to Cloudinary,
     and return the Cloudinary secure URL.
 
-    Falls back through: flux → flux-realism → sdxl → dalle
-    g4f handles provider rotation internally for each model.
+    g4f runs in a subprocess (g4f_image_gen.py) to avoid import
+    chain issues with broken providers. The subprocess handles
+    model fallback: flux → flux-realism → sdxl → dalle.
     """
     import re as _re
-    import sys
-    import types
-    import base64
-
-    # ─── Patch broken g4f Copilot provider ───
-    # g4f has a broken Copilot.py module (typo 'click_trunstile' and
-    # missing dependencies). We create a complete mock module with
-    # a dummy Copilot class so g4f's provider discovery doesn't crash.
-    for mod_name in [
-        "g4f.Provider.Copilot",
-        "g4f.Provider.needs_auth.Copilot",
-    ]:
-        if mod_name not in sys.modules:
-            dummy = types.ModuleType(mod_name)
-            # Create a dummy Copilot class
-            dummy_class = type("Copilot", (), {
-                "__init__": lambda self, *a, **kw: None,
-                "create_completion": lambda *a, **kw: iter([]),
-                "create_async_generator": lambda *a, **kw: None,
-                "supports_message_history": True,
-                "supports_system_message": True,
-                "supports_stream": True,
-                "working": False,  # Mark as non-working so g4f skips it
-                "url": "",
-                "model": "",
-            })
-            dummy.Copilot = dummy_class
-            dummy.click_trunstile = lambda *a, **kw: None
-            sys.modules[mod_name] = dummy
-
-    g4f_available = False
-    G4FClient = None
-    try:
-        from g4f.client import Client as G4FClient
-        g4f_available = True
-        print("  ✅ g4f client imported successfully")
-    except Exception as e:
-        print(f"  ⚠️ g4f import issue: {e}")
-        # Try alternative: import just PollinationsAI provider directly
-        try:
-            from g4f.client import Client as G4FClient
-            g4f_available = True
-            print("  ✅ g4f client imported on second attempt")
-        except Exception as e2:
-            print(f"  ❌ g4f import fully failed: {e2}")
-            print("  🔄 Falling back to placeholder...")
-            return _upload_placeholder_to_cloudinary(article_id)
+    import subprocess
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE START (g4f → Cloudinary)")
+    print("🖼️ IMAGE PIPELINE START (g4f subprocess → Cloudinary)")
     print(f"   Article ID: {article_id}")
-    print(f"   Models to try: {IMAGE_MODELS}")
     print(f"{'─'*50}")
 
     # Sanitize prompt
@@ -458,94 +412,87 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    g4f_client = G4FClient()
-    last_error = ""
+    # Step 1: Run g4f in a subprocess to get image URL
+    image_url = None
+    script_path = os.path.join(os.path.dirname(__file__), "g4f_image_gen.py")
 
-    for attempt, model_name in enumerate(IMAGE_MODELS, 1):
-        print(f"\n  🎨 Attempt {attempt}/{len(IMAGE_MODELS)} — Model: {model_name}")
+    try:
+        print(f"  ⬇️ Calling g4f subprocess (timeout=180s)...")
+        result = subprocess.run(
+            [sys.executable, script_path, enhanced_prompt],
+            capture_output=True,
+            text=True,
+            timeout=180,
+        )
+        stdout = result.stdout.strip()
+        stderr = result.stderr.strip()
 
-        # Step 1: Generate image via g4f
-        image_url = None
-        try:
-            print(f"  ⬇️ Calling g4f images.generate(model='{model_name}')...")
-            response = g4f_client.images.generate(
-                model=model_name,
-                prompt=enhanced_prompt,
-                response_format="url",
-            )
+        if stderr:
+            for line in stderr.split("\n"):
+                print(f"  📋 g4f: {line}")
 
-            if response and response.data and len(response.data) > 0:
-                image_url = response.data[0].url
-                print(f"  📎 g4f returned URL: {image_url[:100]}...")
-            else:
-                print(f"  ❌ g4f returned empty response")
-                continue
+        if result.returncode == 0 and stdout:
+            image_url = stdout.split("\n")[-1].strip()  # Last line = URL
+            print(f"  📎 g4f returned URL: {image_url[:100]}...")
+        else:
+            print(f"  ❌ g4f subprocess failed (exit={result.returncode})")
+    except subprocess.TimeoutExpired:
+        print(f"  ❌ g4f subprocess timed out after 180s")
+    except Exception as e:
+        print(f"  ❌ g4f subprocess error: {e}")
 
-        except Exception as e:
-            last_error = str(e)
-            print(f"  ❌ g4f generate failed: {last_error[:200]}")
-            time.sleep(2)
-            continue
+    if not image_url:
+        print(f"  ⚠️ No image URL from g4f, using placeholder")
+        return _upload_placeholder_to_cloudinary(article_id)
 
-        if not image_url:
-            print(f"  ❌ No image URL from g4f")
-            continue
+    # Step 2: Download the actual image bytes
+    image_bytes = None
+    try:
+        print(f"  ⬇️ Downloading image from URL (timeout=60s)...")
+        dl_resp = requests.get(image_url, timeout=60)
+        dl_resp.raise_for_status()
 
-        # Step 2: Download the actual image bytes
-        image_bytes = None
-        try:
-            print(f"  ⬇️ Downloading image from URL (timeout=60s)...")
-            dl_resp = requests.get(image_url, timeout=60)
-            dl_resp.raise_for_status()
+        content_type = dl_resp.headers.get("content-type", "")
+        content_length = len(dl_resp.content)
+        print(f"  📦 Download: type={content_type}, size={content_length} bytes")
 
-            content_type = dl_resp.headers.get("content-type", "")
-            content_length = len(dl_resp.content)
-            print(f"  📦 Download: type={content_type}, size={content_length} bytes")
+        if content_length < 1000:
+            print(f"  ❌ Image too small ({content_length} bytes)")
+            return _upload_placeholder_to_cloudinary(article_id)
 
-            if content_length < 1000:
-                print(f"  ❌ Image too small ({content_length} bytes), likely error page")
-                continue
+        image_bytes = dl_resp.content
+        print(f"  ✅ Image downloaded: {content_length} bytes")
 
-            image_bytes = dl_resp.content
-            print(f"  ✅ Image downloaded: {content_length} bytes")
+    except Exception as e:
+        print(f"  ❌ Image download failed: {e}")
+        return _upload_placeholder_to_cloudinary(article_id)
 
-        except Exception as e:
-            last_error = str(e)
-            print(f"  ❌ Image download failed: {last_error[:200]}")
-            time.sleep(2)
-            continue
+    # Step 3: Upload to Cloudinary
+    try:
+        print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
+        result = cloudinary.uploader.upload(
+            image_bytes,
+            public_id=article_id,
+            folder="xel-news",
+            resource_type="image",
+            overwrite=True,
+        )
+        cloudinary_url = result.get("secure_url", "")
+        print(f"  ☁️ Cloudinary URL: {cloudinary_url[:80]}...")
+        print(f"  ☁️ Format: {result.get('format')}, "
+              f"Size: {result.get('bytes')} bytes, "
+              f"Dims: {result.get('width')}x{result.get('height')}")
 
-        # Step 3: Upload to Cloudinary
-        try:
-            print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
-            result = cloudinary.uploader.upload(
-                image_bytes,
-                public_id=article_id,
-                folder="xel-news",
-                resource_type="image",
-                overwrite=True,
-            )
-            cloudinary_url = result.get("secure_url", "")
-            print(f"  ☁️ Cloudinary URL: {cloudinary_url[:80]}...")
-            print(f"  ☁️ Format: {result.get('format')}, "
-                  f"Size: {result.get('bytes')} bytes, "
-                  f"Dims: {result.get('width')}x{result.get('height')}")
+        if cloudinary_url:
+            print(f"  ✅ IMAGE PIPELINE SUCCESS — Cloudinary URL ready")
+            return cloudinary_url
+        else:
+            print(f"  ❌ Cloudinary returned empty URL")
+            return _upload_placeholder_to_cloudinary(article_id)
 
-            if cloudinary_url:
-                print(f"  ✅ IMAGE PIPELINE SUCCESS — Cloudinary URL ready")
-                return cloudinary_url
-            else:
-                print(f"  ❌ Cloudinary returned empty URL")
-                continue
-
-        except Exception as e:
-            last_error = str(e)
-            print(f"  ❌ Cloudinary upload failed: {last_error[:200]}")
-            continue
-
-    # All models exhausted — upload placeholder to Cloudinary
-    print(f"\n  ⚠️ All {len(IMAGE_MODELS)} models failed. Last error: {last_error[:100]}")
-    return _upload_placeholder_to_cloudinary(article_id)
+    except Exception as e:
+        print(f"  ❌ Cloudinary upload failed: {e}")
+        return _upload_placeholder_to_cloudinary(article_id)
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
