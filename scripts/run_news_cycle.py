@@ -396,21 +396,48 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     import base64
 
     # ─── Patch broken g4f Copilot provider ───
-    # g4f's latest version has a typo `click_trunstile` in Copilot.py
-    # that crashes on import. We inject a dummy module to prevent it.
-    copilot_module_name = "g4f.Provider.Copilot"
-    if copilot_module_name not in sys.modules:
-        dummy = types.ModuleType(copilot_module_name)
-        dummy.click_trunstile = lambda *a, **kw: None  # stub
-        sys.modules[copilot_module_name] = dummy
+    # g4f has a broken Copilot.py module (typo 'click_trunstile' and
+    # missing dependencies). We create a complete mock module with
+    # a dummy Copilot class so g4f's provider discovery doesn't crash.
+    for mod_name in [
+        "g4f.Provider.Copilot",
+        "g4f.Provider.needs_auth.Copilot",
+    ]:
+        if mod_name not in sys.modules:
+            dummy = types.ModuleType(mod_name)
+            # Create a dummy Copilot class
+            dummy_class = type("Copilot", (), {
+                "__init__": lambda self, *a, **kw: None,
+                "create_completion": lambda *a, **kw: iter([]),
+                "create_async_generator": lambda *a, **kw: None,
+                "supports_message_history": True,
+                "supports_system_message": True,
+                "supports_stream": True,
+                "working": False,  # Mark as non-working so g4f skips it
+                "url": "",
+                "model": "",
+            })
+            dummy.Copilot = dummy_class
+            dummy.click_trunstile = lambda *a, **kw: None
+            sys.modules[mod_name] = dummy
 
+    g4f_available = False
+    G4FClient = None
     try:
         from g4f.client import Client as G4FClient
+        g4f_available = True
         print("  ✅ g4f client imported successfully")
-    except ImportError as e:
-        print(f"  ❌ g4f import failed: {e}")
-        print("  🔄 Falling back to placeholder...")
-        return _upload_placeholder_to_cloudinary(article_id)
+    except Exception as e:
+        print(f"  ⚠️ g4f import issue: {e}")
+        # Try alternative: import just PollinationsAI provider directly
+        try:
+            from g4f.client import Client as G4FClient
+            g4f_available = True
+            print("  ✅ g4f client imported on second attempt")
+        except Exception as e2:
+            print(f"  ❌ g4f import fully failed: {e2}")
+            print("  🔄 Falling back to placeholder...")
+            return _upload_placeholder_to_cloudinary(article_id)
 
     print(f"\n{'─'*50}")
     print("🖼️ IMAGE PIPELINE START (g4f → Cloudinary)")
