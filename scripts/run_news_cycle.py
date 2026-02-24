@@ -16,7 +16,7 @@ import sys
 import time
 import uuid
 from datetime import datetime, timezone
-from urllib.parse import quote, urlparse, urlencode, parse_qs, urlunparse
+from urllib.parse import urlparse, urlencode, parse_qs, urlunparse
 
 import cloudinary
 import cloudinary.uploader
@@ -355,110 +355,154 @@ PLACEHOLDER_IMAGE_URL = (
 IMAGE_MAX_RETRIES = 3
 
 
+def _upload_placeholder(article_id: str) -> str:
+    """Upload a placeholder image to Cloudinary, or return static URL as fallback."""
+    print(f"  🔄 Uploading placeholder image to Cloudinary...")
+    try:
+        placeholder_src = "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
+        placeholder_bytes = requests.get(placeholder_src, timeout=15).content
+        if placeholder_bytes and len(placeholder_bytes) > 500:
+            result = cloudinary.uploader.upload(
+                placeholder_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            placeholder_url = result.get("secure_url", "")
+            if placeholder_url:
+                print(f"  ✅ Placeholder uploaded to Cloudinary: {placeholder_url[:80]}...")
+                return placeholder_url
+    except Exception as e:
+        print(f"  ⚠️ Placeholder upload failed: {e}")
+
+    print(f"  ⚠️ Using static placeholder URL: {PLACEHOLDER_IMAGE_URL}")
+    return PLACEHOLDER_IMAGE_URL
+
+
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Generate image via Pollinations, upload to Cloudinary, return secure URL.
+    Generate image via Hugging Face Inference API (FLUX.1-schnell),
+    upload to Cloudinary, return secure URL.
     
-    CRITICAL: This function NEVER returns a Pollinations URL.
+    CRITICAL: This function NEVER returns a raw generation URL.
     It returns either a Cloudinary URL or the static placeholder.
     """
     import re as _re
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE START")
+    print("🖼️ IMAGE PIPELINE START (Hugging Face FLUX.1-schnell)")
     print(f"   Article ID: {article_id}")
     print(f"   Max retries: {IMAGE_MAX_RETRIES}")
     print(f"{'─'*50}")
 
+    hf_token = os.environ.get("HF_TOKEN")
+    if not hf_token:
+        print("  ⚠️ HF_TOKEN not set — skipping image generation, using placeholder")
+        return _upload_placeholder(article_id)
+
     def sanitize_prompt(text: str, max_len: int = 200) -> str:
-        """Strip special chars and truncate for URL safety."""
-        # Remove special chars that bloat URL encoding
+        """Clean and truncate prompt."""
         clean = _re.sub(r"[^\w\s,\-]", "", text)
-        # Collapse whitespace
         clean = _re.sub(r"\s+", " ", clean).strip()
-        # Truncate to max_len
         if len(clean) > max_len:
             clean = clean[:max_len].rsplit(" ", 1)[0]
         return clean
 
-    # Build 3 progressively simpler prompts for each retry
+    # Build 3 progressively simpler prompts
     prompts = [
-        # Attempt 1: Original prompt (sanitized + truncated)
         sanitize_prompt(prompt, 200) + ", cinematic photorealistic 8k",
-        # Attempt 2: Shorter version
         sanitize_prompt(prompt, 100) + ", photorealistic cinematic",
-        # Attempt 3: Generic tech-news fallback
-        "futuristic technology scene with glowing neon lights holographic displays circuit boards cinematic photorealistic 8k",
+        "futuristic technology scene glowing neon lights holographic displays cinematic photorealistic 8k",
     ]
 
-    # Build URLs/payloads for each attempt with different endpoints
-    ENDPOINTS = [
-        # Attempt 1: gen.pollinations.ai (newer endpoint)
-        {"type": "get", "base": "https://gen.pollinations.ai/image"},
-        # Attempt 2: image.pollinations.ai (classic endpoint)
-        {"type": "get", "base": "https://image.pollinations.ai/prompt"},
-        # Attempt 3: gen.pollinations.ai with generic prompt
-        {"type": "get", "base": "https://gen.pollinations.ai/image"},
+    # Hugging Face models to try (free inference API)
+    HF_MODELS = [
+        "black-forest-labs/FLUX.1-schnell",
+        "stabilityai/stable-diffusion-xl-base-1.0",
     ]
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "image/*, */*",
+    hf_headers = {
+        "Authorization": f"Bearer {hf_token}",
     }
 
     for attempt in range(1, IMAGE_MAX_RETRIES + 1):
         current_prompt = prompts[attempt - 1] if attempt <= len(prompts) else prompts[-1]
-        seed = random.randint(0, 999999)
-        endpoint = ENDPOINTS[attempt - 1] if attempt <= len(ENDPOINTS) else ENDPOINTS[-1]
+        # Rotate models: attempt 1,3 use FLUX.1-schnell, attempt 2 uses SDXL
+        model = HF_MODELS[0] if attempt != 2 else HF_MODELS[1]
+        api_url = f"https://api-inference.huggingface.co/models/{model}"
 
-        encoded_prompt = quote(current_prompt)
-        pollinations_url = (
-            f"{endpoint['base']}/{encoded_prompt}"
-            f"?model=flux&width={IMAGE_WIDTH}&height={IMAGE_HEIGHT}"
-            f"&seed={seed}&nologo=true&safe=true"
-        )
-
-        url_length = len(pollinations_url)
-        print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES} (seed={seed}, url_len={url_length})")
-        print(f"     Endpoint: {endpoint['base']}")
+        print(f"\n  🎨 Attempt {attempt}/{IMAGE_MAX_RETRIES}")
+        print(f"     Model: {model}")
         print(f"     Prompt: \"{current_prompt[:80]}...\"")
 
-        # Step 1: Download from Pollinations
+        # Step 1: Generate image via HF Inference API
         image_bytes = None
         try:
-            print(f"  ⬇️ Downloading from Pollinations (timeout=180s)...")
-            resp = requests.get(pollinations_url, timeout=180, headers=headers)
-            resp.raise_for_status()
+            print(f"  ⬇️ Calling HF Inference API (timeout=120s)...")
+            resp = requests.post(
+                api_url,
+                headers=hf_headers,
+                json={"inputs": current_prompt},
+                timeout=120,
+            )
 
             content_type = resp.headers.get("content-type", "")
             content_length = len(resp.content)
-            print(f"  📦 Response: type={content_type}, size={content_length} bytes")
+            print(f"  📦 Response: status={resp.status_code}, type={content_type}, size={content_length} bytes")
 
-            # Validate it's actually an image
+            # Check for model loading (503)
+            if resp.status_code == 503:
+                wait_time = 20
+                try:
+                    err_data = resp.json()
+                    wait_time = min(int(err_data.get("estimated_time", 20)), 60)
+                except Exception:
+                    pass
+                print(f"  ⏳ Model loading, waiting {wait_time}s...")
+                time.sleep(wait_time)
+                # Retry same model
+                print(f"  🔄 Retrying after model load...")
+                resp = requests.post(
+                    api_url,
+                    headers=hf_headers,
+                    json={"inputs": current_prompt},
+                    timeout=120,
+                )
+                content_type = resp.headers.get("content-type", "")
+                content_length = len(resp.content)
+                print(f"  📦 Retry response: status={resp.status_code}, type={content_type}, size={content_length} bytes")
+
+            resp.raise_for_status()
+
+            # Validate response is an image
             if "image" not in content_type:
                 print(f"  ❌ Not an image (content-type: {content_type})")
+                try:
+                    err_text = resp.text[:200]
+                    print(f"  ❌ Response body: {err_text}")
+                except Exception:
+                    pass
                 if attempt < IMAGE_MAX_RETRIES:
-                    print(f"  ⏳ Waiting 10s before retry...")
-                    time.sleep(10)
+                    time.sleep(5)
                 continue
-            if content_length < 5000:
-                print(f"  ❌ Image too small ({content_length} bytes) — likely an error page")
+
+            if content_length < 1000:
+                print(f"  ❌ Image too small ({content_length} bytes)")
                 if attempt < IMAGE_MAX_RETRIES:
-                    print(f"  ⏳ Waiting 10s before retry...")
-                    time.sleep(10)
+                    time.sleep(5)
                 continue
 
             image_bytes = resp.content
-            print(f"  ✅ Image downloaded: {content_length} bytes")
+            print(f"  ✅ Image generated: {content_length} bytes")
 
         except requests.Timeout:
-            print(f"  ❌ Download timed out after 180s")
+            print(f"  ❌ HF API timed out after 120s")
             continue
         except Exception as e:
-            print(f"  ❌ Download failed: {e}")
+            print(f"  ❌ HF API failed: {e}")
             if attempt < IMAGE_MAX_RETRIES:
-                print(f"  ⏳ Waiting 10s before retry...")
-                time.sleep(10)
+                time.sleep(5)
             continue
 
         # Step 2: Upload to Cloudinary
@@ -488,31 +532,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             print(f"  ❌ Cloudinary upload failed: {e}")
             continue
 
-    # All retries exhausted — upload a placeholder to Cloudinary
+    # All retries exhausted
     print(f"\n  ⚠️ All {IMAGE_MAX_RETRIES} attempts failed.")
-    print(f"  🔄 Uploading placeholder image to Cloudinary...")
-
-    try:
-        placeholder_src = "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
-        placeholder_bytes = requests.get(placeholder_src, timeout=15).content
-        if placeholder_bytes and len(placeholder_bytes) > 500:
-            result = cloudinary.uploader.upload(
-                placeholder_bytes,
-                public_id=article_id,
-                folder="xel-news",
-                resource_type="image",
-                overwrite=True,
-            )
-            placeholder_url = result.get("secure_url", "")
-            if placeholder_url:
-                print(f"  ✅ Placeholder uploaded to Cloudinary: {placeholder_url[:80]}...")
-                return placeholder_url
-    except Exception as e:
-        print(f"  ⚠️ Placeholder upload also failed: {e}")
-
-    # Ultimate fallback
-    print(f"  ⚠️ Using static placeholder URL: {PLACEHOLDER_IMAGE_URL}")
-    return PLACEHOLDER_IMAGE_URL
+    return _upload_placeholder(article_id)
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
