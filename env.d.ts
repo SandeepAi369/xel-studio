@@ -35,6 +35,7 @@ declare namespace NodeJS {
 
         // Gemini (image generation)
         GEMINI_API_KEY?: string;
+        GEMINI_CHAT_API_KEY?: string;
 
         // Cron
         CRON_SECRET?: string;
@@ -45,5 +46,9 @@ declare namespace NodeJS {
 
         // Vercel system
         VERCEL_URL?: string;
+        VERCEL?: string;
+
+        // Site URL (for CORS)
+        NEXT_PUBLIC_SITE_URL?: string;
     }
 }

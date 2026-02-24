@@ -4,6 +4,17 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 30; // Vercel serverless timeout (seconds)
 
+// Lazy singleton — reuses client across requests within the same serverless instance
+let _genAIClient: GoogleGenerativeAI | null = null;
+let _cachedKey: string | null = null;
+
+function getGenAIClient(apiKey: string): GoogleGenerativeAI {
+    if (_genAIClient && _cachedKey === apiKey) return _genAIClient;
+    _genAIClient = new GoogleGenerativeAI(apiKey);
+    _cachedKey = apiKey;
+    return _genAIClient;
+}
+
 // Available models — user can pick from frontend
 const ALLOWED_MODELS: Record<string, string> = {
     'gemini-2.5-flash': 'gemini-2.5-flash',
@@ -26,7 +37,8 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
         }
 
-        const genAI = new GoogleGenerativeAI(apiKey);
+        // Reuse cached client (module-level singleton per API key)
+        const genAI = getGenAIClient(apiKey);
         const modelId = ALLOWED_MODELS[requestedModel] || DEFAULT_MODEL;
 
         const model = genAI.getGenerativeModel({

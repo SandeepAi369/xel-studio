@@ -261,63 +261,7 @@ function generateImageUrl(prompt: string): string {
     return url;
 }
 
-// ─── Cloudinary Direct Upload ────────────────────────────────
 
-async function uploadToCloudinary(imageBuffer: Buffer): Promise<string | null> {
-    const cloudName = process.env.CLOUDINARY_CLOUD_NAME || 'dxlok864h';
-    const apiKey = process.env.CLOUDINARY_API_KEY;
-    const apiSecret = process.env.CLOUDINARY_API_SECRET;
-
-    if (!apiKey || !apiSecret) {
-        console.warn('⚠️ Cloudinary credentials not set — skipping upload');
-        return null;
-    }
-
-    try {
-        const timestamp = Math.floor(Date.now() / 1000);
-        const folder = 'news-thumbnails';
-
-        // Cloudinary signature: alphabetically sorted params + apiSecret
-        const paramsToSign = `folder=${folder}&timestamp=${timestamp}${apiSecret}`;
-
-        // Generate SHA-1 signature
-        const encoder = new TextEncoder();
-        const data = encoder.encode(paramsToSign);
-        const hashBuffer = await crypto.subtle.digest('SHA-1', data);
-        const hashArray = Array.from(new Uint8Array(hashBuffer));
-        const signature = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-
-        // Build multipart form
-        const formData = new FormData();
-        const blob = new Blob([new Uint8Array(imageBuffer)], { type: 'image/png' });
-        formData.append('file', blob, 'news-thumbnail.png');
-        formData.append('api_key', apiKey);
-        formData.append('timestamp', String(timestamp));
-        formData.append('signature', signature);
-        formData.append('folder', folder);
-
-        const res = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
-            method: 'POST',
-            body: formData,
-            signal: AbortSignal.timeout(15000),
-        });
-
-        if (!res.ok) {
-            const errText = await res.text().catch(() => '');
-            console.warn(`⚠️ Cloudinary upload failed ${res.status}: ${errText.substring(0, 200)}`);
-            return null;
-        }
-
-        const result = await res.json();
-        const url = result.secure_url || result.url;
-        console.log(`☁️ Cloudinary upload OK: ${url?.substring(0, 80)}...`);
-        return url;
-    } catch (err) {
-        const msg = err instanceof Error ? err.message : String(err);
-        console.warn(`⚠️ Cloudinary upload failed: ${msg}`);
-        return null;
-    }
-}
 
 // ─── Parse JSON Responses ────────────────────────────────────
 

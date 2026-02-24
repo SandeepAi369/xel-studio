@@ -1,6 +1,6 @@
 import { initializeApp, getApps } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from 'firebase/firestore';
+import { getFirestore, initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -19,14 +19,22 @@ export const auth = getAuth(app);
 
 // Firestore with persistent local cache (50MB, auto-cleanup)
 // Data persists across page reloads — AI News loads instantly from cache
-export const db = getApps().length <= 1
-  ? initializeFirestore(app, {
-    localCache: persistentLocalCache({
-      tabManager: persistentMultipleTabManager(),
-      cacheSizeBytes: 50 * 1024 * 1024, // 50MB
-    }),
-  })
-  : initializeFirestore(app, {});
+// Uses try/catch to handle hot-reload where Firestore is already initialized
+function createFirestore() {
+  try {
+    return initializeFirestore(app, {
+      localCache: persistentLocalCache({
+        tabManager: persistentMultipleTabManager(),
+        cacheSizeBytes: 50 * 1024 * 1024, // 50MB
+      }),
+    });
+  } catch {
+    // Firestore already initialized (hot-reload) — use existing instance
+    return getFirestore(app);
+  }
+}
+
+export const db = createFirestore();
 
 export const googleProvider = new GoogleAuthProvider();
 
