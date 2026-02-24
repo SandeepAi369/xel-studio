@@ -357,6 +357,30 @@ PLACEHOLDER_IMAGE_URL = (
 )
 
 
+def _upload_placeholder_to_cloudinary(article_id: str) -> str:
+    """Upload a placeholder image to Cloudinary, or return static URL as ultimate fallback."""
+    print(f"  🔄 Uploading placeholder to Cloudinary...")
+    try:
+        placeholder_bytes = requests.get(PLACEHOLDER_IMAGE_URL, timeout=15).content
+        if placeholder_bytes and len(placeholder_bytes) > 500:
+            result = cloudinary.uploader.upload(
+                placeholder_bytes,
+                public_id=article_id,
+                folder="xel-news",
+                resource_type="image",
+                overwrite=True,
+            )
+            placeholder_url = result.get("secure_url", "")
+            if placeholder_url:
+                print(f"  ✅ Placeholder uploaded: {placeholder_url[:80]}...")
+                return placeholder_url
+    except Exception as e:
+        print(f"  ⚠️ Placeholder upload failed: {e}")
+
+    print(f"  ⚠️ Using static placeholder URL")
+    return PLACEHOLDER_IMAGE_URL
+
+
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
     Generate image via g4f library (multi-provider, multi-model),
@@ -366,8 +390,27 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     Falls back through: flux → flux-realism → sdxl → dalle
     g4f handles provider rotation internally for each model.
     """
-    from g4f.client import Client as G4FClient
     import re as _re
+    import sys
+    import types
+    import base64
+
+    # ─── Patch broken g4f Copilot provider ───
+    # g4f's latest version has a typo `click_trunstile` in Copilot.py
+    # that crashes on import. We inject a dummy module to prevent it.
+    copilot_module_name = "g4f.Provider.Copilot"
+    if copilot_module_name not in sys.modules:
+        dummy = types.ModuleType(copilot_module_name)
+        dummy.click_trunstile = lambda *a, **kw: None  # stub
+        sys.modules[copilot_module_name] = dummy
+
+    try:
+        from g4f.client import Client as G4FClient
+        print("  ✅ g4f client imported successfully")
+    except ImportError as e:
+        print(f"  ❌ g4f import failed: {e}")
+        print("  🔄 Falling back to placeholder...")
+        return _upload_placeholder_to_cloudinary(article_id)
 
     print(f"\n{'─'*50}")
     print("🖼️ IMAGE PIPELINE START (g4f → Cloudinary)")
@@ -473,29 +516,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             print(f"  ❌ Cloudinary upload failed: {last_error[:200]}")
             continue
 
-    # All models exhausted — try uploading a placeholder to Cloudinary
+    # All models exhausted — upload placeholder to Cloudinary
     print(f"\n  ⚠️ All {len(IMAGE_MODELS)} models failed. Last error: {last_error[:100]}")
-    print(f"  🔄 Uploading placeholder to Cloudinary...")
-
-    try:
-        placeholder_bytes = requests.get(PLACEHOLDER_IMAGE_URL, timeout=15).content
-        if placeholder_bytes and len(placeholder_bytes) > 500:
-            result = cloudinary.uploader.upload(
-                placeholder_bytes,
-                public_id=article_id,
-                folder="xel-news",
-                resource_type="image",
-                overwrite=True,
-            )
-            placeholder_url = result.get("secure_url", "")
-            if placeholder_url:
-                print(f"  ✅ Placeholder uploaded to Cloudinary: {placeholder_url[:80]}...")
-                return placeholder_url
-    except Exception as e:
-        print(f"  ⚠️ Placeholder upload failed: {e}")
-
-    print(f"  ⚠️ Using static placeholder URL")
-    return PLACEHOLDER_IMAGE_URL
+    return _upload_placeholder_to_cloudinary(article_id)
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
