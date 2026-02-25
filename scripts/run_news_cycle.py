@@ -36,104 +36,63 @@ TAVILY_RESULT_COUNT = 10
 IMAGE_WIDTH = 1024
 IMAGE_HEIGHT = 576  # 16:9 cinematic ratio
 
-# ─── Search Queries (categorized) ────────────────────────────
+# ─── Search Queries (AI & Tech ONLY) ─────────────────────────
+# Focused exclusively on AI, tech, and innovation topics.
+# No climate, geopolitics, cybersecurity, entertainment, etc.
 
 SEARCH_QUERIES = [
-    # ── AI & Tech ──
-    "artificial intelligence latest news breakthroughs",
-    "OpenAI Google DeepMind Anthropic AI announcements",
-    "generative AI tools products launches",
-    "Nvidia AMD semiconductor chip AI hardware news",
-    "Apple Google Microsoft tech announcements",
-    "AI industry acquisitions funding deals",
-    "Meta AI Mark Zuckerberg announcements",
+    # ── Core AI ──
+    "artificial intelligence latest breakthroughs announcements",
+    "OpenAI GPT new model release announcements",
+    "Google DeepMind Gemini AI research news",
+    "Anthropic Claude AI safety research news",
+    "Meta AI Llama open source model news",
+    "generative AI tools products launches today",
+    "AI startup funding acquisition deals news",
     "AI regulation policy government updates",
-    "robotics automation AI industry news",
-    "quantum computing breakthrough news",
-    "cybersecurity data breach threats news",
-    "tech startup unicorn funding news",
-    "cloud computing infrastructure updates",
-    "electric vehicle autonomous driving news",
-    # ── Science & Space ──
-    "space technology SpaceX NASA launch news",
-    "science discovery research breakthrough news",
-    "climate change environmental research news",
-    "physics astronomy major discovery news",
-    "biotechnology genetics medical research news",
-    # ── Business & Economy ──
-    "global economy markets financial news today",
-    "fintech digital payments banking innovation news",
-    "major corporate earnings stock market movers",
-    "cryptocurrency blockchain regulation news",
-    "tech layoffs hiring market employment news",
-    # ── World & Politics ──
-    "geopolitical technology competition news",
-    "global technology regulation policy news",
-    "international trade technology tariffs news",
-    "climate policy energy transition news",
-    "digital privacy surveillance regulation news",
-    # ── Health & Society ──
-    "healthcare technology innovation news",
-    "mental health digital wellness technology",
-    "disability technology assistive tech accessibility news",
-    "education technology digital learning news",
-    # ── Culture & Entertainment ──
-    "social media platform changes updates news",
-    "entertainment streaming gaming industry news",
-    "esports gaming industry major news",
-    "viral internet culture technology trends",
+    # ── Tech Hardware & Infrastructure ──
+    "Nvidia AMD AI chip semiconductor news",
+    "Apple Google Microsoft major tech announcements",
+    "quantum computing breakthrough research news",
+    "cloud computing AI infrastructure updates",
+    # ── Robotics & Autonomous ──
+    "robotics automation humanoid robot news",
+    "autonomous driving self-driving car AI news",
+    # ── AI Applications ──
+    "AI healthcare medical diagnosis breakthrough",
+    "AI coding programming developer tools news",
+    "AI image video generation model news",
+    # ── Tech Business ──
+    "tech company earnings big tech stock news",
+    "tech startup unicorn IPO funding news",
+    "cryptocurrency blockchain Web3 AI news",
 ]
 
 FALLBACK_QUERIES = [
-    "technology news today",
-    "latest science discovery news",
-    "world business tech news today",
-    "breaking news technology",
+    "artificial intelligence news today",
+    "latest AI technology breakthrough",
+    "OpenAI Google AI news today",
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────
 
 
 def detect_category(query: str) -> str:
+    """Detect category from search query — AI/tech focused."""
     q = query.lower()
-    # Science & Space
+    # Business & Finance
     if any(kw in q for kw in [
-        "space", "spacex", "nasa", "physics", "astronomy",
-        "biotechnology", "genetics", "science discovery", "research breakthrough",
-    ]):
-        return "science"
-    # Health & Society
-    if any(kw in q for kw in [
-        "healthcare", "health", "disability", "assistive", "accessible",
-        "accessibility", "mental health", "wellness", "education",
-    ]):
-        return "health"
-    # Business & Economy
-    if any(kw in q for kw in [
-        "economy", "market", "fintech", "earnings", "stock",
-        "crypto", "blockchain", "employment", "layoff", "hiring",
+        "earnings", "stock", "ipo", "funding", "startup", "unicorn",
+        "crypto", "blockchain", "web3",
     ]):
         return "business"
-    # World & Politics
+    # Science & Research
     if any(kw in q for kw in [
-        "global", "geopolitical", "international", "sovereignty",
-        "climate policy", "regulation", "trade", "tariff", "privacy", "surveillance",
+        "quantum", "research", "breakthrough", "healthcare", "medical",
     ]):
-        return "world"
-    # Culture & Entertainment
-    if any(kw in q for kw in [
-        "social media", "streaming", "gaming", "esports",
-        "entertainment", "viral", "internet culture",
-    ]):
-        return "entertainment"
-    # AI & Tech
-    if any(kw in q for kw in [
-        "ai", "artificial intelligence", "openai", "nvidia", "tech",
-        "chip", "cloud", "quantum", "robot", "cyber", "startup",
-        "electric vehicle", "autonomous",
-    ]):
-        return "ai-tech"
-    return "general"
+        return "science"
+    # AI & Tech (default for most queries)
+    return "ai-tech"
 
 
 def extract_topic(query: str) -> str:
@@ -359,7 +318,10 @@ def log_health(db: firestore.Client, status: str, details: dict):
 
 FLUX_SPACE_URL = "https://black-forest-labs-flux-1-dev.hf.space"
 FLUX_API_NAME = "infer"
-FLUX_TIMEOUT = 150  # seconds for image generation
+FLUX_TIMEOUT = 120  # seconds for image generation
+
+POLLINATIONS_URL = "https://image.pollinations.ai/prompt"
+POLLINATIONS_TIMEOUT = 60  # seconds
 
 PLACEHOLDER_IMAGE_URL = (
     "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
@@ -495,16 +457,60 @@ def _call_flux_gradio(prompt: str) -> str | None:
         return None
 
 
+def _call_pollinations(prompt: str) -> bytes | None:
+    """Fallback: Generate image via Pollinations.ai (free, no API key)."""
+    import urllib.parse as _urlparse
+
+    encoded = _urlparse.quote(prompt[:500])
+    url = f"{POLLINATIONS_URL}/{encoded}?width=1024&height=576&nologo=true"
+    print(f"  🌸 Trying Pollinations.ai fallback...")
+
+    try:
+        resp = requests.get(url, timeout=POLLINATIONS_TIMEOUT)
+        if resp.status_code == 200 and len(resp.content) > 5000:
+            print(f"  ✅ Pollinations returned {len(resp.content)} bytes")
+            return resp.content
+        print(f"  ❌ Pollinations: status={resp.status_code}, size={len(resp.content)}")
+        return None
+    except Exception as e:
+        print(f"  ❌ Pollinations failed: {e}")
+        return None
+
+
+def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | None:
+    """Upload raw image bytes to Cloudinary, return secure URL or None."""
+    try:
+        print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
+        result = cloudinary.uploader.upload(
+            image_bytes,
+            public_id=article_id,
+            folder="xel-news",
+            resource_type="image",
+            overwrite=True,
+        )
+        url = result.get("secure_url", "")
+        if url:
+            print(f"  ☁️ Cloudinary URL: {url[:80]}...")
+            print(f"  ☁️ Format: {result.get('format')}, "
+                  f"Size: {result.get('bytes')} bytes, "
+                  f"Dims: {result.get('width')}x{result.get('height')}")
+            return url
+    except Exception as e:
+        print(f"  ❌ Cloudinary upload failed: {e}")
+    return None
+
+
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Generate image via FLUX.1-dev (HuggingFace Space Gradio API),
-    download the actual image bytes, upload to Cloudinary,
-    and return the Cloudinary secure URL.
+    Image pipeline with 3-level fallback:
+      1. FLUX.1-dev (HuggingFace Space) → Cloudinary
+      2. Pollinations.ai (free) → Cloudinary
+      3. Placeholder → Cloudinary
     """
     import re as _re
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE START (FLUX.1-dev → Cloudinary)")
+    print("🖼️ IMAGE PIPELINE (FLUX → Pollinations → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -518,63 +524,34 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
         f"{clean_prompt}, photorealistic, highly detailed, "
         "sharp focus, professional lighting, cinematic, 8k"
     )
-
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # Step 1: Generate image via FLUX.1-dev
+    # ── Attempt 1: FLUX.1-dev ────────────────────────────────
     image_url = _call_flux_gradio(enhanced_prompt)
+    if image_url:
+        try:
+            print(f"  ⬇️ Downloading FLUX image...")
+            dl = requests.get(image_url, timeout=60)
+            dl.raise_for_status()
+            if len(dl.content) > 1000:
+                result = _upload_bytes_to_cloudinary(dl.content, article_id)
+                if result:
+                    print(f"  ✅ IMAGE SUCCESS (FLUX.1-dev → Cloudinary)")
+                    return result
+        except Exception as e:
+            print(f"  ❌ FLUX download failed: {e}")
 
-    if not image_url:
-        print(f"  ⚠️ FLUX.1-dev failed, using placeholder")
-        return _upload_placeholder_to_cloudinary(article_id)
+    # ── Attempt 2: Pollinations.ai ───────────────────────────
+    poll_bytes = _call_pollinations(clean_prompt)
+    if poll_bytes:
+        result = _upload_bytes_to_cloudinary(poll_bytes, article_id)
+        if result:
+            print(f"  ✅ IMAGE SUCCESS (Pollinations → Cloudinary)")
+            return result
 
-    # Step 2: Download the actual image bytes
-    try:
-        print(f"  ⬇️ Downloading image (timeout=60s)...")
-        dl_resp = requests.get(image_url, timeout=60)
-        dl_resp.raise_for_status()
-
-        content_type = dl_resp.headers.get("content-type", "")
-        content_length = len(dl_resp.content)
-        print(f"  📦 Download: type={content_type}, size={content_length} bytes")
-
-        if content_length < 1000:
-            print(f"  ❌ Image too small ({content_length} bytes)")
-            return _upload_placeholder_to_cloudinary(article_id)
-
-        image_bytes = dl_resp.content
-        print(f"  ✅ Image downloaded: {content_length} bytes")
-
-    except Exception as e:
-        print(f"  ❌ Image download failed: {e}")
-        return _upload_placeholder_to_cloudinary(article_id)
-
-    # Step 3: Upload to Cloudinary
-    try:
-        print(f"  ☁️ Uploading to Cloudinary (public_id=xel-news/{article_id})...")
-        result = cloudinary.uploader.upload(
-            image_bytes,
-            public_id=article_id,
-            folder="xel-news",
-            resource_type="image",
-            overwrite=True,
-        )
-        cloudinary_url = result.get("secure_url", "")
-        print(f"  ☁️ Cloudinary URL: {cloudinary_url[:80]}...")
-        print(f"  ☁️ Format: {result.get('format')}, "
-              f"Size: {result.get('bytes')} bytes, "
-              f"Dims: {result.get('width')}x{result.get('height')}")
-
-        if cloudinary_url:
-            print(f"  ✅ IMAGE PIPELINE SUCCESS — Cloudinary URL ready")
-            return cloudinary_url
-        else:
-            print(f"  ❌ Cloudinary returned empty URL")
-            return _upload_placeholder_to_cloudinary(article_id)
-
-    except Exception as e:
-        print(f"  ❌ Cloudinary upload failed: {e}")
-        return _upload_placeholder_to_cloudinary(article_id)
+    # ── Attempt 3: Placeholder ───────────────────────────────
+    print(f"  ⚠️ All image sources failed, using placeholder")
+    return _upload_placeholder_to_cloudinary(article_id)
 
 
 # ─── Parse JSON Response ─────────────────────────────────────
@@ -617,16 +594,91 @@ def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt:
     return parse_article_response(raw)
 
 
+# ─── Cleanup Old News ────────────────────────────────────────
+
+
+def cleanup_old_news(db: firestore.Client):
+    """
+    Daily cleanup:
+      1. Keep only the newest 15 articles in 'news' collection (frontend)
+      2. Delete history entries older than 10 days from 'news_history'
+    """
+    print("\n🧹 CLEANUP — Removing old news...")
+
+    # ── 1. Keep only 15 newest articles in 'news' ────────────
+    try:
+        # Get all news docs ordered by date descending
+        all_news = list(
+            db.collection(COLLECTION)
+            .order_by("date", direction=firestore.Query.DESCENDING)
+            .stream()
+        )
+        total = len(all_news)
+        if total > 15:
+            to_delete = all_news[15:]  # everything after the 15 newest
+            batch = db.batch()
+            count = 0
+            for doc_snap in to_delete:
+                batch.delete(doc_snap.reference)
+                count += 1
+                # Firestore batch limit is 500
+                if count % 400 == 0:
+                    batch.commit()
+                    batch = db.batch()
+            if count % 400 != 0:
+                batch.commit()
+            print(f"  🗑️ Deleted {count} old news articles (kept newest 15 of {total})")
+        else:
+            print(f"  ✅ Only {total} articles — no cleanup needed (limit: 15)")
+    except Exception as e:
+        print(f"  ⚠️ News cleanup failed: {e}")
+
+    # ── 2. Purge history older than 10 days ──────────────────
+    try:
+        cutoff = datetime.now(timezone.utc).isoformat()
+        # Calculate cutoff: 10 days ago
+        from datetime import timedelta
+        cutoff_dt = datetime.now(timezone.utc) - timedelta(days=HISTORY_TTL_DAYS)
+        cutoff_iso = cutoff_dt.isoformat()
+
+        old_history = list(
+            db.collection(HISTORY_COLLECTION)
+            .where("createdAt", "<", cutoff_iso)
+            .stream()
+        )
+        if old_history:
+            batch = db.batch()
+            count = 0
+            for doc_snap in old_history:
+                batch.delete(doc_snap.reference)
+                count += 1
+                if count % 400 == 0:
+                    batch.commit()
+                    batch = db.batch()
+            if count % 400 != 0:
+                batch.commit()
+            print(f"  🗑️ Purged {count} history entries older than {HISTORY_TTL_DAYS} days")
+        else:
+            print(f"  ✅ No history entries older than {HISTORY_TTL_DAYS} days")
+    except Exception as e:
+        print(f"  ⚠️ History cleanup failed: {e}")
+
+    print("🧹 Cleanup complete\n")
+
+
 # ─── Main Pipeline ───────────────────────────────────────────
 
 
 def generate_news():
     t0 = time.time()
-    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras GPT-OSS 120B + Tavily + Cloudinary")
+    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + FLUX/Pollinations + Cloudinary")
 
     # Init services
     db = init_firebase()
     init_cloudinary()
+
+    # Run cleanup before generating new article
+    cleanup_old_news(db)
 
     cerebras_key = os.environ.get("CEREBRAS_API_KEY")
     if not cerebras_key:
@@ -819,42 +871,52 @@ Do NOT repeat the same content. ADD NEW substantive information."""
                 {
                     "role": "system",
                     "content": (
-                        "You write professional news headlines like Reuters, BBC, or Bloomberg. "
-                        "Output ONLY the headline text. No quotes, no explanation, no prefix labels."
+                        "You are a headline writer for Reuters, Bloomberg, and The Wall Street Journal. "
+                        "You write crisp, professional headlines that immediately communicate the news. "
+                        "Output ONLY the headline text. No quotes, no explanation, no labels."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write a single professional news headline (8-15 words) for this article. "
-                        f"Rules:\n"
-                        f"- Direct, factual headline like major news outlets\n"
-                        f"- NO prefix labels like 'Tech Update:', 'AI News:', 'Report:', 'Breaking:', etc.\n"
-                        f"- NO colons at the beginning\n"
-                        f"- Start with the key subject or action\n"
-                        f"- Use active voice and strong verbs\n"
-                        f"- Capitalize like a title (Title Case)\n\n"
-                        f"Article: {article_text[:400]}"
+                        f"Write ONE professional news headline for this article.\n\n"
+                        f"MANDATORY RULES:\n"
+                        f"1. Exactly 8-14 words, Title Case\n"
+                        f"2. Start with the WHO or WHAT (company name, person, or key noun)\n"
+                        f"3. Use a strong active verb (Launches, Unveils, Reports, Acquires, Faces, etc.)\n"
+                        f"4. ABSOLUTELY NO prefix labels — no 'AI News:', 'Tech:', 'Breaking:', 'Report:', etc.\n"
+                        f"5. ABSOLUTELY NO colons in the headline\n"
+                        f"6. MUST be specific — mention actual names, products, or numbers\n\n"
+                        f"GOOD examples: 'OpenAI Launches GPT-5 With Advanced Reasoning Capabilities'\n"
+                        f"BAD examples: 'AI News: Latest Technology Breakthrough Updates Today'\n\n"
+                        f"Article: {article_text[:500]}"
                     ),
                 },
             ],
-            temperature=0.5,
+            temperature=0.4,
             max_tokens=50,
         )
         raw_title = (title_completion.choices[0].message.content or "").strip()
-        # Clean up: remove any quotes or prefix patterns the LLM might add
+        # Clean up: remove any quotes, prefix patterns, or colons the LLM might add
         import re as _re
         raw_title = raw_title.strip('"\'')
-        raw_title = _re.sub(r'^(Breaking|Update|Report|News|Spotlight|Alert|Headline):\s*', '', raw_title, flags=_re.IGNORECASE)
-        if raw_title:
+        raw_title = _re.sub(r'^(Breaking|Update|Report|News|Spotlight|Alert|Headline|Tech|AI|Analysis)[:\s]+', '', raw_title, flags=_re.IGNORECASE)
+        # Remove leading colon if still present
+        raw_title = _re.sub(r'^[:\s]+', '', raw_title)
+        if raw_title and len(raw_title.split()) >= 4:
             title = raw_title
             print(f"📰 LLM Title: \"{title}\"")
     except Exception as e:
         print(f"⚠️ LLM title generation failed: {e}")
 
-    # Fallback: use topic-based title if LLM failed
+    # Fallback: extract meaningful title from article's first sentence
     if not title:
-        title = topic.title() if topic else "Technology and Innovation News"
+        import re as _re
+        first_sentence = _re.split(r'[.!?]', article_text)[0].strip()
+        if len(first_sentence) > 15 and len(first_sentence) < 120:
+            title = first_sentence
+        else:
+            title = "New Developments in AI and Technology"
         print(f"📰 Fallback title: \"{title}\"")
 
     # 8. Generate image via FLUX.1-dev + upload to Cloudinary
