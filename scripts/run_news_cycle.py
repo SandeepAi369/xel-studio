@@ -12,7 +12,7 @@ Ported from: app/api/cron/generate-news/route.ts (v17)
 import json
 import os
 import random
-
+import sys
 import time
 import uuid
 from datetime import datetime, timezone
@@ -39,55 +39,56 @@ IMAGE_HEIGHT = 576  # 16:9 cinematic ratio
 # ─── Search Queries (categorized) ────────────────────────────
 
 SEARCH_QUERIES = [
-    # ── AI & Tech (merged category) ──
+    # ── AI & Tech ──
     "artificial intelligence latest news breakthroughs",
     "OpenAI Google DeepMind Anthropic AI announcements",
     "generative AI tools products launches",
-    "AI industry acquisitions funding deals",
     "Nvidia AMD semiconductor chip AI hardware news",
     "Apple Google Microsoft tech announcements",
-    "Sam Altman Sundar Pichai Satya Nadella CEO statements AI",
-    "Elon Musk xAI Grok AI news",
+    "AI industry acquisitions funding deals",
     "Meta AI Mark Zuckerberg announcements",
-    "Amazon AWS Bedrock AI cloud updates",
     "AI regulation policy government updates",
-    "machine learning research papers breakthroughs",
     "robotics automation AI industry news",
-    "quantum computing AI breakthrough news",
-    "cybersecurity AI threats data breach news",
+    "quantum computing breakthrough news",
+    "cybersecurity data breach threats news",
     "tech startup unicorn funding news",
     "cloud computing infrastructure updates",
-    "space technology SpaceX NASA news",
-    "electric vehicle autonomous driving AI news",
-    # ── Disability ──
-    "disability technology assistive tech accessibility news",
-    "disability rights inclusion policy news",
-    "accessible technology innovations disabled people",
-    "disability employment inclusion workplace news",
-    "disability awareness advocacy campaign news",
-    "assistive devices AI disability healthcare",
-    "special education disability inclusion schools news",
-    "disability sports paralympics achievements news",
-    # ── World ──
-    "global technology regulation policy news",
-    "geopolitical technology competition news",
-    "international tech policy digital sovereignty",
-    "global economy technology impact news",
-    "climate technology clean energy innovation news",
-    # ── General ──
-    "social media platform changes updates news",
-    "healthcare technology innovation news",
-    "education technology digital learning news",
-    "fintech digital payments banking innovation news",
-    "entertainment streaming gaming industry news",
+    "electric vehicle autonomous driving news",
+    # ── Science & Space ──
+    "space technology SpaceX NASA launch news",
     "science discovery research breakthrough news",
+    "climate change environmental research news",
+    "physics astronomy major discovery news",
+    "biotechnology genetics medical research news",
+    # ── Business & Economy ──
+    "global economy markets financial news today",
+    "fintech digital payments banking innovation news",
+    "major corporate earnings stock market movers",
+    "cryptocurrency blockchain regulation news",
+    "tech layoffs hiring market employment news",
+    # ── World & Politics ──
+    "geopolitical technology competition news",
+    "global technology regulation policy news",
+    "international trade technology tariffs news",
+    "climate policy energy transition news",
+    "digital privacy surveillance regulation news",
+    # ── Health & Society ──
+    "healthcare technology innovation news",
+    "mental health digital wellness technology",
+    "disability technology assistive tech accessibility news",
+    "education technology digital learning news",
+    # ── Culture & Entertainment ──
+    "social media platform changes updates news",
+    "entertainment streaming gaming industry news",
+    "esports gaming industry major news",
+    "viral internet culture technology trends",
 ]
 
 FALLBACK_QUERIES = [
-    "technology AI news today",
-    "latest tech announcements",
-    "disability accessibility news",
-    "science innovation news",
+    "technology news today",
+    "latest science discovery news",
+    "world business tech news today",
+    "breaking news technology",
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────
@@ -95,38 +96,44 @@ FALLBACK_QUERIES = [
 
 def detect_category(query: str) -> str:
     q = query.lower()
-    # Disability keywords
+    # Science & Space
     if any(kw in q for kw in [
-        "disability", "assistive", "accessible", "accessibility",
-        "inclusion", "paralympic", "special education",
+        "space", "spacex", "nasa", "physics", "astronomy",
+        "biotechnology", "genetics", "science discovery", "research breakthrough",
     ]):
-        return "disability"
-    # World / geopolitical
+        return "science"
+    # Health & Society
+    if any(kw in q for kw in [
+        "healthcare", "health", "disability", "assistive", "accessible",
+        "accessibility", "mental health", "wellness", "education",
+    ]):
+        return "health"
+    # Business & Economy
+    if any(kw in q for kw in [
+        "economy", "market", "fintech", "earnings", "stock",
+        "crypto", "blockchain", "employment", "layoff", "hiring",
+    ]):
+        return "business"
+    # World & Politics
     if any(kw in q for kw in [
         "global", "geopolitical", "international", "sovereignty",
-        "climate", "regulation policy",
+        "climate policy", "regulation", "trade", "tariff", "privacy", "surveillance",
     ]):
         return "world"
+    # Culture & Entertainment
+    if any(kw in q for kw in [
+        "social media", "streaming", "gaming", "esports",
+        "entertainment", "viral", "internet culture",
+    ]):
+        return "entertainment"
     # AI & Tech
     if any(kw in q for kw in [
         "ai", "artificial intelligence", "openai", "nvidia", "tech",
         "chip", "cloud", "quantum", "robot", "cyber", "startup",
-        "spacex", "nasa", "electric vehicle", "ceo", "altman",
-        "pichai", "nadella", "zuckerberg", "musk",
+        "electric vehicle", "autonomous",
     ]):
         return "ai-tech"
     return "general"
-
-
-def generate_title(topic: str, category: str) -> str:
-    prefixes = {
-        "ai-tech": ["AI & Tech:", "Tech Update:", "AI News:", "Innovation:", "Tech Spotlight:"],
-        "disability": ["Accessibility:", "Disability News:", "Inclusion Update:", "Disability & Tech:"],
-        "world": ["Global Update:", "World News:", "Global Tech:", "World Report:"],
-        "general": ["News:", "Update:", "Report:", "Spotlight:"],
-    }
-    prefix = random.choice(prefixes.get(category, prefixes["general"]))
-    return f"{prefix} {topic}"
 
 
 def extract_topic(query: str) -> str:
@@ -726,7 +733,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    # 6. Generate image prompt
+    # 6. Generate image prompt (60-80 words, photorealistic editorial style)
     image_prompt = ""
     try:
         img_completion = cerebras_client.chat.completions.create(
@@ -735,38 +742,93 @@ Do NOT repeat the same content. ADD NEW substantive information."""
                 {
                     "role": "system",
                     "content": (
-                        "You generate stunning, futuristic, high-detail image descriptions for news article "
-                        "thumbnails. Output ONLY the description text, nothing else. No quotes, no explanation."
+                        "You are an expert visual director for a premium news publication. You write "
+                        "photorealistic image descriptions that look like award-winning editorial photographs. "
+                        "Output ONLY the image description, nothing else. Never include any text, words, "
+                        "letters, logos, or watermarks in the description."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Based on this news article, write a 40-60 word futuristic and stylish image description "
-                        f"for an AI image generator. The image should be dramatic, editorial-quality, widescreen "
-                        f"16:9. Include: glowing neon light effects, rich vibrant colors, futuristic technology "
-                        f"elements, cinematic depth-of-field, photorealistic detail. The image must fully cover "
-                        f"the frame edge-to-edge with no borders or empty space. Do NOT include any text, words, "
-                        f"or letters in the image.\n\nArticle: {article_text[:600]}"
+                        f"Write a 60-80 word photorealistic image description for this news article. "
+                        f"The image should look like a real editorial photograph, NOT sci-fi or cartoon.\n\n"
+                        f"STYLE RULES:\n"
+                        f"- Photorealistic, shot on Canon EOS R5, 85mm lens, f/2.8\n"
+                        f"- Natural lighting (golden hour, soft studio, or dramatic overcast)\n"
+                        f"- Real-world setting that matches the article topic (office, lab, city, etc.)\n"
+                        f"- Include specific visual details: materials, textures, environment\n"
+                        f"- Cinematic composition, shallow depth-of-field, 16:9 widescreen\n"
+                        f"- NO neon, NO glowing effects, NO holographic elements\n"
+                        f"- NO text, words, letters, or UI elements in the image\n\n"
+                        f"Article: {article_text[:600]}"
                     ),
                 },
             ],
-            temperature=0.8,
-            max_tokens=150,
+            temperature=0.7,
+            max_tokens=200,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
-        print(f'🎨 Image prompt: "{image_prompt[:100]}..."')
+        # Remove any quotes wrapping the response
+        if image_prompt.startswith('"') and image_prompt.endswith('"'):
+            image_prompt = image_prompt[1:-1]
+        print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt[:120]}..."')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
         image_prompt = (
-            "futuristic technology command center with glowing holographic displays, "
-            "neon blue and purple ambient lighting, sleek metallic surfaces with reflections, "
-            "dramatic cinematic wide-angle shot, photorealistic editorial photograph, "
-            "edge-to-edge composition"
+            "A wide-angle editorial photograph of a modern technology workspace, "
+            "warm golden-hour light streaming through floor-to-ceiling windows, "
+            "sleek minimalist desk with multiple monitors showing data visualizations, "
+            "shallow depth-of-field, professional Canon EOS R5 photography, "
+            "crisp details, natural color palette, 16:9 cinematic composition"
         )
 
-    # 7. Generate title
-    title = generate_title(topic, category)
+    # 7. Generate professional headline via LLM
+    title = ""
+    try:
+        title_completion = cerebras_client.chat.completions.create(
+            model="llama3.1-8b",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You write professional news headlines like Reuters, BBC, or Bloomberg. "
+                        "Output ONLY the headline text. No quotes, no explanation, no prefix labels."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"Write a single professional news headline (8-15 words) for this article. "
+                        f"Rules:\n"
+                        f"- Direct, factual headline like major news outlets\n"
+                        f"- NO prefix labels like 'Tech Update:', 'AI News:', 'Report:', 'Breaking:', etc.\n"
+                        f"- NO colons at the beginning\n"
+                        f"- Start with the key subject or action\n"
+                        f"- Use active voice and strong verbs\n"
+                        f"- Capitalize like a title (Title Case)\n\n"
+                        f"Article: {article_text[:400]}"
+                    ),
+                },
+            ],
+            temperature=0.5,
+            max_tokens=50,
+        )
+        raw_title = (title_completion.choices[0].message.content or "").strip()
+        # Clean up: remove any quotes or prefix patterns the LLM might add
+        import re as _re
+        raw_title = raw_title.strip('"\'')
+        raw_title = _re.sub(r'^(Breaking|Update|Report|News|Spotlight|Alert|Headline):\s*', '', raw_title, flags=_re.IGNORECASE)
+        if raw_title:
+            title = raw_title
+            print(f"📰 LLM Title: \"{title}\"")
+    except Exception as e:
+        print(f"⚠️ LLM title generation failed: {e}")
+
+    # Fallback: use topic-based title if LLM failed
+    if not title:
+        title = topic.title() if topic else "Technology and Innovation News"
+        print(f"📰 Fallback title: \"{title}\"")
 
     # 8. Generate image via FLUX.1-dev + upload to Cloudinary
     article_id = str(uuid.uuid4())
