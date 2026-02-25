@@ -36,12 +36,19 @@ TAVILY_RESULT_COUNT = 10
 IMAGE_WIDTH = 1024
 IMAGE_HEIGHT = 576  # 16:9 cinematic ratio
 
-# ─── Search Queries (AI & Tech ONLY) ─────────────────────────
-# Focused exclusively on AI, tech, and innovation topics.
-# No climate, geopolitics, cybersecurity, entertainment, etc.
+# ─── Search Queries (Balanced: ~50% AI/Tech, ~50% Diverse) ───
+#
+# Distribution:
+#   ~50% → AI, Tech, Hardware, Robotics (primary focus)
+#   ~50% → Disability/Accessibility, Climate/Environment, World Affairs,
+#           CEO/Business Leaders, Science, Health, Culture
+#
+# Each pipeline run picks ONE random query, so over time the mix balances out.
 
 SEARCH_QUERIES = [
-    # ── Core AI ──
+    # ═══════════════════════════════════════════════════════════
+    # 50% — AI & TECH (primary focus)
+    # ═══════════════════════════════════════════════════════════
     "artificial intelligence latest breakthroughs announcements",
     "OpenAI GPT new model release announcements",
     "Google DeepMind Gemini AI research news",
@@ -50,48 +57,110 @@ SEARCH_QUERIES = [
     "generative AI tools products launches today",
     "AI startup funding acquisition deals news",
     "AI regulation policy government updates",
-    # ── Tech Hardware & Infrastructure ──
-    "Nvidia AMD AI chip semiconductor news",
+    "Nvidia AMD AI chip semiconductor hardware news",
     "Apple Google Microsoft major tech announcements",
     "quantum computing breakthrough research news",
-    "cloud computing AI infrastructure updates",
-    # ── Robotics & Autonomous ──
     "robotics automation humanoid robot news",
-    "autonomous driving self-driving car AI news",
-    # ── AI Applications ──
-    "AI healthcare medical diagnosis breakthrough",
     "AI coding programming developer tools news",
     "AI image video generation model news",
-    # ── Tech Business ──
+    "cloud computing AI infrastructure updates",
+
+    # ═══════════════════════════════════════════════════════════
+    # 50% — DIVERSE TOPICS
+    # ═══════════════════════════════════════════════════════════
+
+    # ── Disability & Accessibility ──
+    "disability technology assistive tech accessibility news",
+    "AI assistive technology disability inclusion news",
+    "accessible technology innovations disabled people news",
+
+    # ── Climate & Environment ──
+    "climate change environmental research news",
+    "climate technology clean energy innovation news",
+    "climate policy energy transition sustainability news",
+
+    # ── World Affairs & Geopolitics ──
+    "geopolitical technology competition world news",
+    "international trade technology policy news",
+    "digital privacy surveillance regulation world news",
+
+    # ── CEO & Business Leaders ──
+    "tech CEO statements leadership announcements news",
+    "Elon Musk Sam Altman Sundar Pichai CEO news",
+    "tech industry leader interview insights news",
+
+    # ── Science & Space ──
+    "space technology SpaceX NASA launch news",
+    "science discovery research breakthrough news",
+    "biotechnology genetics medical research news",
+
+    # ── Health & Society ──
+    "healthcare technology innovation AI news",
+    "mental health digital wellness technology news",
+
+    # ── Business & Economy ──
     "tech company earnings big tech stock news",
     "tech startup unicorn IPO funding news",
-    "cryptocurrency blockchain Web3 AI news",
+    "cryptocurrency blockchain Web3 news",
+
+    # ── Culture & Entertainment ──
+    "social media platform changes updates news",
+    "gaming esports streaming industry news",
 ]
 
 FALLBACK_QUERIES = [
     "artificial intelligence news today",
-    "latest AI technology breakthrough",
-    "OpenAI Google AI news today",
+    "latest technology breakthrough news",
+    "tech CEO AI announcements today",
+    "climate technology disability news today",
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────
 
 
 def detect_category(query: str) -> str:
-    """Detect category from search query — AI/tech focused."""
+    """Detect category from search query."""
     q = query.lower()
-    # Business & Finance
+    # Disability & Accessibility
     if any(kw in q for kw in [
-        "earnings", "stock", "ipo", "funding", "startup", "unicorn",
-        "crypto", "blockchain", "web3",
+        "disability", "assistive", "accessible", "accessibility", "inclusion",
     ]):
-        return "business"
-    # Science & Research
+        return "accessibility"
+    # Climate & Environment
     if any(kw in q for kw in [
-        "quantum", "research", "breakthrough", "healthcare", "medical",
+        "climate", "environment", "clean energy", "sustainability", "energy transition",
+    ]):
+        return "climate"
+    # Science & Space
+    if any(kw in q for kw in [
+        "space", "spacex", "nasa", "physics", "astronomy",
+        "biotechnology", "genetics", "science discovery", "research breakthrough",
+        "quantum",
     ]):
         return "science"
-    # AI & Tech (default for most queries)
+    # Health & Society
+    if any(kw in q for kw in [
+        "healthcare", "health", "mental health", "wellness",
+    ]):
+        return "health"
+    # Business & Economy
+    if any(kw in q for kw in [
+        "earnings", "stock", "ipo", "funding", "startup", "unicorn",
+        "crypto", "blockchain", "web3", "ceo", "leader",
+    ]):
+        return "business"
+    # World & Geopolitics
+    if any(kw in q for kw in [
+        "geopolitical", "international", "trade", "privacy", "surveillance",
+        "world", "regulation",
+    ]):
+        return "world"
+    # Culture & Entertainment
+    if any(kw in q for kw in [
+        "social media", "streaming", "gaming", "esports", "entertainment",
+    ]):
+        return "entertainment"
+    # AI & Tech (default)
     return "ai-tech"
 
 
