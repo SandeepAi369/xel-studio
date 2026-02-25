@@ -403,11 +403,12 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation (Direct FLUX.1-dev) & Cloudinary Upload ─
+# ─── Image Generation (Gemini API + FLUX.1-dev + Pollinations) & Cloudinary Upload ─
 
-# Calls HuggingFace Space FLUX.1-dev Gradio API directly — no g4f,
-# no subprocess, no broken import patching. Same model g4f uses
-# under the hood, but with a simple requests-based approach.
+# Priority 1: Gemini API (native image generation via gemini-2.5-flash)
+# Priority 2: FLUX.1-dev (HuggingFace Space Gradio API)
+# Priority 3: Pollinations.ai (free, no API key)
+# Priority 4: Placeholder image
 
 FLUX_SPACE_URL = "https://black-forest-labs-flux-1-dev.hf.space"
 FLUX_API_NAME = "infer"
@@ -593,17 +594,31 @@ def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | No
     return None
 
 
+def _call_gemini_api(prompt: str) -> bytes | None:
+    """Attempt image generation via Gemini API (Priority 1)."""
+    try:
+        from gemini_image_gen import generate_image_gemini
+        return generate_image_gemini(prompt)
+    except ImportError:
+        print("  ⚠️ gemini_image_gen not available (google-genai not installed?)")
+        return None
+    except Exception as e:
+        print(f"  ❌ Gemini API error: {e}")
+        return None
+
+
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Image pipeline with 3-level fallback:
-      1. FLUX.1-dev (HuggingFace Space) → Cloudinary
-      2. Pollinations.ai (free) → Cloudinary
-      3. Placeholder → Cloudinary
+    Image pipeline with 4-level fallback:
+      1. Gemini API (native image generation) → Cloudinary
+      2. FLUX.1-dev (HuggingFace Space) → Cloudinary
+      3. Pollinations.ai (free) → Cloudinary
+      4. Placeholder → Cloudinary
     """
     import re as _re
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (FLUX → Pollinations → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (Gemini API → FLUX → Pollinations → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -619,7 +634,15 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     )
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # ── Attempt 1: FLUX.1-dev ────────────────────────────────
+    # ── Attempt 1: Gemini API ────────────────────────────────
+    gemini_bytes = _call_gemini_api(enhanced_prompt)
+    if gemini_bytes:
+        result = _upload_bytes_to_cloudinary(gemini_bytes, article_id)
+        if result:
+            print(f"  ✅ IMAGE SUCCESS (Gemini API → Cloudinary)")
+            return result
+
+    # ── Attempt 2: FLUX.1-dev ────────────────────────────────
     image_url = _call_flux_gradio(enhanced_prompt)
     if image_url:
         try:
@@ -634,7 +657,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
         except Exception as e:
             print(f"  ❌ FLUX download failed: {e}")
 
-    # ── Attempt 2: Pollinations.ai ───────────────────────────
+    # ── Attempt 3: Pollinations.ai ───────────────────────────
     poll_bytes = _call_pollinations(clean_prompt)
     if poll_bytes:
         result = _upload_bytes_to_cloudinary(poll_bytes, article_id)
@@ -642,7 +665,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             print(f"  ✅ IMAGE SUCCESS (Pollinations → Cloudinary)")
             return result
 
-    # ── Attempt 3: Placeholder ───────────────────────────────
+    # ── Attempt 4: Placeholder ───────────────────────────────
     print(f"  ⚠️ All image sources failed, using placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
@@ -789,7 +812,7 @@ def cleanup_old_news(db: firestore.Client):
 
 def generate_news():
     t0 = time.time()
-    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + FLUX/Pollinations + Cloudinary")
+    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini API/FLUX/Pollinations + Cloudinary")
 
     # Init services
     db = init_firebase()
@@ -1060,7 +1083,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    {'Cloudinary (FLUX.1-dev)' if 'cloudinary' in image_url else 'Placeholder'}")
+    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else 'Placeholder'}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 
