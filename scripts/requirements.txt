@@ -16,5 +16,8 @@ cerebras-cloud-sdk>=1.0.0
 
 
 
+# Google Gemini API (native image generation)
+google-genai>=1.0.0
+
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0

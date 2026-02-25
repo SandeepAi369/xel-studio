@@ -27,9 +27,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-
       - name: Run news pipeline
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}

@@ -95,3 +95,8 @@ yarn-error.log*
 # ── Misc ──────────────────────────────────────────────────────
 .turbo
 .cache
+
+# ── Gemini Browser Agent (auth session — contains cookies) ──
+scripts/.gemini_session/
+scripts/test_output.png
+gemini_test_output.png
