@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Gemini API Image Generation
-============================
-Generates images via Google's Gemini / Imagen models.
-Simple API call — no browser, no sessions, no Playwright.
+Gemini Web Image Generation (Cookie-based)
+============================================
+Generates images via Google Gemini's web interface using gemini-webapi.
+Uses your premium Google account cookies — no API key quotas.
 
-Supports dual API key fallback via GEMINI_API_KEY and GEMINI_API_KEY_2.
+Auth: Requires __Secure-1PSID and __Secure-1PSIDTS cookies from gemini.google.com
 
 Usage:
     # As a module:
@@ -16,124 +16,90 @@ Usage:
     python scripts/gemini_image_gen.py "A robot painting"
 """
 
-import base64
+import asyncio
 import os
 import sys
 import time
+import tempfile
 
 try:
-    from google import genai
-    from google.genai import types
-    _genai_available = True
+    from gemini_webapi import GeminiClient
+    _webapi_available = True
 except ImportError:
-    _genai_available = False
+    _webapi_available = False
 
 
-# Models to try, in priority order
-# gemini-2.0-flash-exp-image-generation — dedicated image gen model
-# gemini-2.5-flash-image — Nano Banana (speed-optimized)
-IMAGE_MODELS = [
-    "gemini-2.0-flash-exp-image-generation",
-    "gemini-2.5-flash-image",
-]
+async def _generate_image_async(prompt: str, psid: str, psidts: str) -> bytes | None:
+    """Async image generation via Gemini web interface."""
+    client = GeminiClient(psid, psidts)
+    await client.init(timeout=60, auto_close=True, close_delay=30, auto_refresh=True)
 
+    # Ask Gemini to generate an image (must use "generate" keyword)
+    image_prompt = f"Generate a photorealistic image: {prompt}"
+    response = await client.generate_content(image_prompt)
 
-def _try_gemini_model(client, model_name: str, prompt: str) -> bytes | None:
-    """Try generating an image using a Gemini-style model (generate_content)."""
-    response = client.models.generate_content(
-        model=model_name,
-        contents=[prompt],
-        config=types.GenerateContentConfig(
-            response_modalities=["IMAGE", "TEXT"],
-        ),
-    )
+    if response.images:
+        # Save first generated image to temp file and read bytes
+        img = response.images[0]
+        with tempfile.TemporaryDirectory() as tmpdir:
+            filepath = os.path.join(tmpdir, "generated.png")
+            await img.save(path=tmpdir, filename="generated.png")
+            if os.path.isfile(filepath):
+                with open(filepath, "rb") as f:
+                    return f.read()
 
-    if response and response.candidates:
-        for part in response.candidates[0].content.parts:
-            if hasattr(part, 'inline_data') and part.inline_data is not None:
-                image_data = part.inline_data.data
-                if isinstance(image_data, str):
-                    return base64.b64decode(image_data)
-                return bytes(image_data)
     return None
 
 
 def generate_image_gemini(
     prompt: str,
-    api_key: str | None = None,
     retries: int = 2,
 ) -> bytes | None:
     """
-    Generate an image using Gemini's native image generation API.
-    Supports dual API key fallback (GEMINI_API_KEY, GEMINI_API_KEY_2).
+    Generate an image using Gemini's web interface (cookie-based).
 
     Args:
         prompt: Text description of the image to generate.
-        api_key: Google AI API key override. Falls back to env vars.
-        retries: Number of retry attempts per model per key.
+        retries: Number of retry attempts.
 
     Returns:
         Image bytes (PNG/JPEG) or None if generation fails.
     """
-    if not _genai_available:
-        print("  ⚠️ google-genai not installed. Run: pip install google-genai")
+    if not _webapi_available:
+        print("  ⚠️ gemini-webapi not installed. Run: pip install gemini-webapi")
         return None
 
-    # Collect available API keys
-    keys = []
-    if api_key:
-        keys.append(("provided", api_key))
-    env_key1 = os.environ.get("GEMINI_API_KEY")
-    env_key2 = os.environ.get("GEMINI_API_KEY_2")
-    if env_key1 and ("provided", env_key1) not in keys:
-        keys.append(("primary", env_key1))
-    if env_key2:
-        keys.append(("fallback", env_key2))
+    psid = os.environ.get("GEMINI_SECURE_1PSID", "")
+    psidts = os.environ.get("GEMINI_SECURE_1PSIDTS", "")
 
-    if not keys:
-        print("  ⚠️ No GEMINI_API_KEY set — skipping Gemini image generation")
+    if not psid:
+        print("  ⚠️ No GEMINI_SECURE_1PSID set — skipping Gemini web image generation")
         return None
 
-    for key_label, key_value in keys:
-        print(f"  🔑 Trying Gemini API key: {key_label}")
-        client = genai.Client(api_key=key_value)
+    for attempt in range(1, retries + 1):
+        try:
+            print(f"  🎨 Gemini Web [{attempt}/{retries}] generating image...")
 
-        for model_name in IMAGE_MODELS:
-            for attempt in range(1, retries + 1):
-                try:
-                    print(f"  🎨 [{model_name}] attempt {attempt}/{retries}...")
+            image_bytes = asyncio.run(_generate_image_async(prompt, psid, psidts))
 
-                    image_bytes = _try_gemini_model(client, model_name, prompt)
+            if image_bytes and len(image_bytes) > 1000:
+                print(f"  ✅ Gemini Web: generated {len(image_bytes):,} bytes")
+                return image_bytes
+            elif image_bytes:
+                print(f"  ⚠️ Image too small: {len(image_bytes)} bytes")
+            else:
+                print(f"  ⚠️ No image in response (Gemini may have returned text only)")
 
-                    if image_bytes and len(image_bytes) > 1000:
-                        print(f"  ✅ Gemini: generated {len(image_bytes):,} bytes ({key_label} key)")
-                        return image_bytes
-                    elif image_bytes:
-                        print(f"  ⚠️ Image too small: {len(image_bytes)} bytes")
-                    else:
-                        print(f"  ⚠️ No image in response")
+        except Exception as e:
+            err_str = str(e)
+            print(f"  ❌ Gemini Web error [{attempt}]: {err_str[:200]}")
 
-                except Exception as e:
-                    err_str = str(e)
-                    short_err = err_str[:150]
-                    print(f"  ❌ Error [{model_name}] attempt {attempt}: {short_err}")
+            if attempt < retries:
+                wait = 5 * attempt
+                print(f"  ⏳ Waiting {wait}s before retry...")
+                time.sleep(wait)
 
-                    if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                        if attempt < retries:
-                            wait = 5 * attempt
-                            print(f"  ⏳ Rate limited, waiting {wait}s...")
-                            time.sleep(wait)
-                        else:
-                            # Exhausted retries on this model, try next
-                            print(f"  ⏩ Quota exhausted for this key+model, moving on...")
-                            break
-                    elif "not found" in err_str.lower() or "not supported" in err_str.lower():
-                        print(f"  ⏩ Model not available, skipping...")
-                        break
-                    elif attempt < retries:
-                        time.sleep(2 * attempt)
-
-    print(f"  ❌ Gemini: all keys and models exhausted")
+    print(f"  ❌ Gemini Web: all {retries} attempts failed")
     return None
 
 
@@ -151,7 +117,7 @@ if __name__ == "__main__":
     )
 
     print("=" * 60)
-    print("🧪 GEMINI IMAGE GENERATION TEST")
+    print("🧪 GEMINI WEB IMAGE GENERATION TEST")
     print("=" * 60)
     print(f"📝 Prompt: \"{prompt[:80]}...\"")
     print()
