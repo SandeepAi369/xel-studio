@@ -10,7 +10,7 @@ import { audioManager } from '@/lib/audio-manager';
    ✅ Pause / Resume (resumes from where user stopped)
    ✅ Single-player-at-a-time (global AudioManager)
    ✅ In-memory cache (instant replay)
-   ✅ Low-latency chunking (10-word first, 50-word rest)
+   ✅ Low-latency chunking (40-word first, 50-word rest)
    ───────────────────────────────────────────────────────────────────── */
 
 interface SmartListenButtonProps {
@@ -24,7 +24,7 @@ interface SmartListenButtonProps {
 
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
-const FIRST_CHUNK = 10;
+const FIRST_CHUNK = 40;
 const REST_CHUNK = 50;
 const MAX_LEN = 5000;
 const PREFETCH_AHEAD = 4;
