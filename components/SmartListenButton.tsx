@@ -10,6 +10,7 @@ import { audioManager } from '@/lib/audio-manager';
    ✅ Pause / Resume (resumes from where user stopped)
    ✅ Single-player-at-a-time (global AudioManager)
    ✅ In-memory cache (instant replay)
+   ✅ Instant start: tiny first chunk (~1 sentence) + aggressive prefetch
    ✅ Smart sentence-boundary chunking (pauses hidden at natural breaks)
    ───────────────────────────────────────────────────────────────────── */
 
@@ -25,26 +26,28 @@ interface SmartListenButtonProps {
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
 /* ── Smart chunking constants ─────────────────────────────────────
-   CHUNK_MIN: aim for this many words before looking for a boundary
-   CHUNK_MAX: never exceed this — force-split if no boundary found
-   These values are tuned so the listener never notices the gap
-   between chunks, because it always falls on a sentence boundary. */
-const CHUNK_MIN = 35;
-const CHUNK_MAX = 60;
+   FIRST_CHUNK_MAX: first chunk is just 1-2 sentences for instant start
+   CHUNK_MIN/MAX: remaining chunks target natural sentence boundaries
+   The first chunk is intentionally tiny (~10-20 words) so TTS generates
+   audio almost instantly — like how Gemini/ChatGPT start speaking
+   before the full response is ready. */
+const FIRST_CHUNK_MAX = 25;  // First chunk: just 1-2 short sentences
+const CHUNK_MIN = 35;        // Remaining chunks: 35-55 words
+const CHUNK_MAX = 55;
 const MAX_LEN = 5000;
-const PREFETCH_AHEAD = 4;
+const PREFETCH_AHEAD = 6;    // Prefetch 6 chunks ahead (aggressive)
 
 /**
- * Smart sentence-boundary chunking for natural TTS playback.
+ * Smart sentence-boundary chunking optimized for instant playback.
  *
- * Strategy (based on TTS best practices):
- *   1. Clean the text and split into individual sentences
- *   2. Group sentences into chunks targeting CHUNK_MIN–CHUNK_MAX words
- *   3. Chunk boundaries ALWAYS fall at sentence endings (. ! ?)
- *      where the listener expects a natural pause — making the
- *      inter-chunk loading gap completely imperceptible
- *
- * This eliminates the "mid-sentence pause" problem entirely.
+ * Strategy:
+ *   1. First chunk = just the first sentence (or two short ones)
+ *      → TTS generates ~1-2s of audio almost instantly
+ *      → User hears audio within ~300-500ms of click
+ *   2. Remaining chunks = sentences grouped to 35-55 words
+ *      → Chunk boundaries fall at sentence endings (. ! ?)
+ *      → Inter-chunk gap hidden behind natural speech pause
+ *   3. Extra-long sentences (>55 words) split at clause boundaries
  */
 function splitIntoChunks(text: string): string[] {
     const clean = text
@@ -57,7 +60,6 @@ function splitIntoChunks(text: string): string[] {
     if (!clean) return [];
 
     // Split into sentences at . ! ? (keeping the punctuation)
-    // Also handles abbreviations like "U.S." by requiring a space after
     const sentences = clean
         .split(/(?<=[.!?])\s+/)
         .map(s => s.trim())
@@ -65,35 +67,37 @@ function splitIntoChunks(text: string): string[] {
 
     if (sentences.length === 0) return [clean];
 
-    // Group sentences into chunks, targeting CHUNK_MIN-CHUNK_MAX words
     const chunks: string[] = [];
     let currentChunk: string[] = [];
     let currentWordCount = 0;
+    let isFirstChunk = true;
 
     for (const sentence of sentences) {
         const sentenceWords = sentence.split(' ').length;
+        const maxTarget = isFirstChunk ? FIRST_CHUNK_MAX : CHUNK_MAX;
+        const minTarget = isFirstChunk ? 1 : CHUNK_MIN; // First chunk: finalize after ANY sentence
 
-        // If adding this sentence keeps us under CHUNK_MAX, add it
-        if (currentWordCount + sentenceWords <= CHUNK_MAX) {
+        // If adding this sentence keeps us under the max, add it
+        if (currentWordCount + sentenceWords <= maxTarget) {
             currentChunk.push(sentence);
             currentWordCount += sentenceWords;
 
-            // If we've hit the sweet spot (>= CHUNK_MIN), finalize this chunk
-            if (currentWordCount >= CHUNK_MIN) {
+            // Finalize when we've hit our target
+            if (currentWordCount >= minTarget) {
                 chunks.push(currentChunk.join(' '));
                 currentChunk = [];
                 currentWordCount = 0;
+                isFirstChunk = false;
             }
         } else {
-            // Adding this sentence would exceed CHUNK_MAX
-            // Save what we have (if anything), then start fresh
+            // Adding this sentence would exceed the max
             if (currentChunk.length > 0) {
                 chunks.push(currentChunk.join(' '));
+                isFirstChunk = false;
             }
 
             // Handle very long sentences (> CHUNK_MAX words)
             if (sentenceWords > CHUNK_MAX) {
-                // Fall back to clause-based splitting for extra-long sentences
                 const words = sentence.split(' ');
                 let clauseChunk: string[] = [];
                 for (const w of words) {
@@ -101,9 +105,11 @@ function splitIntoChunks(text: string): string[] {
                     if (clauseChunk.length >= CHUNK_MIN && /[,;:—]$/.test(w)) {
                         chunks.push(clauseChunk.join(' '));
                         clauseChunk = [];
+                        isFirstChunk = false;
                     } else if (clauseChunk.length >= CHUNK_MAX) {
                         chunks.push(clauseChunk.join(' '));
                         clauseChunk = [];
+                        isFirstChunk = false;
                     }
                 }
                 if (clauseChunk.length > 0) {
@@ -120,7 +126,6 @@ function splitIntoChunks(text: string): string[] {
         }
     }
 
-    // Don't forget the last chunk
     if (currentChunk.length > 0) {
         chunks.push(currentChunk.join(' '));
     }
@@ -279,8 +284,17 @@ export default function SmartListenButton({
             chunksRef.current = chunks;
             urlsRef.current = new Array(chunks.length).fill(null);
 
-            // Fetch ONLY chunk 0 — play immediately once ready
-            urlsRef.current[0] = await fetchChunk(chunks[0], signal);
+            // 🚀 KEY OPTIMIZATION: Fetch chunk 0 + prefetch chunks 1-6 IN PARALLEL
+            // Chunk 0 (tiny first sentence) fetches fast → instant playback
+            // While listening to chunk 0, chunks 1-6 are already loading
+            const chunk0Promise = fetchChunk(chunks[0], signal)
+                .then((url) => { urlsRef.current[0] = url; });
+
+            // Fire prefetch in background (non-blocking)
+            prefetch(1, signal);
+
+            // Wait ONLY for chunk 0 — it's just 1 sentence, so it's fast
+            await chunk0Promise;
 
             if (signal.aborted) return;
 
@@ -289,9 +303,6 @@ export default function SmartListenButton({
 
             // Start playing chunk 0 immediately
             await playChunk(0);
-
-            // Prefetch remaining chunks in background (non-blocking)
-            prefetch(1, signal);
         } catch (err: any) {
             if (err.name !== 'AbortError') {
                 console.error('TTS error:', err);
