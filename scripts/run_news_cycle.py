@@ -318,7 +318,7 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
     return {"context": "", "results": []}
 
 
-# ─── URL History ─────────────────────────────────────────────
+# ─── URL History & LLM Dedup ─────────────────────────────────
 
 
 def load_history_urls(db: firestore.Client) -> set[str]:
@@ -335,6 +335,30 @@ def load_history_urls(db: firestore.Client) -> set[str]:
                 urls.add(normalize_url(u))
     print(f"📚 History loaded: {len(urls)} known URLs from {doc_count} articles")
     return urls
+
+
+def load_existing_titles(db: firestore.Client) -> list[str]:
+    """Load ALL existing titles from both 'news' and 'news_history'.
+    The LLM uses this list to avoid generating repeated/similar topics."""
+    titles = []
+    # From live news collection
+    try:
+        for doc in db.collection(COLLECTION).select(["title"]).stream():
+            t = doc.to_dict().get("title", "")
+            if t:
+                titles.append(t)
+    except Exception:
+        pass
+    # From history (deleted articles — still need dedup)
+    try:
+        for doc in db.collection(HISTORY_COLLECTION).select(["title"]).stream():
+            t = doc.to_dict().get("title", "")
+            if t:
+                titles.append(t)
+    except Exception:
+        pass
+    print(f"📋 Dedup: loaded {len(titles)} existing titles (news + history)")
+    return titles
 
 
 def filter_by_url_history(results: list[dict], known_urls: set[str]) -> tuple[list[dict], int]:
@@ -788,9 +812,10 @@ def generate_news():
     topic = extract_topic(search_query)
     print(f"📌 Category: {category.upper()}, Topic: \"{topic}\"")
 
-    # 3. Load URL history + Run Tavily search
+    # 3. Load URL history + existing titles for LLM dedup + Run Tavily search
     known_urls = load_history_urls(db)
-    initial_result = search_tavily(search_query, 3)
+    existing_titles = load_existing_titles(db)
+    initial_result = search_tavily(search_query, 7)
 
     # 4. Filter by URL history
     scraped_data = initial_result["results"]
@@ -807,7 +832,7 @@ def generate_news():
         # Fallback 1: broader query, 3 days
         fallback_query = random.choice(FALLBACK_QUERIES)
         print(f"⚠️ Primary search weak. Trying fallback: \"{fallback_query}\"")
-        fallback_result = search_tavily(fallback_query, 3)
+        fallback_result = search_tavily(fallback_query, 7)
         fallback_fresh, fb_filtered = filter_by_url_history(fallback_result["results"], known_urls)
         if fallback_fresh:
             scraped_data = fallback_fresh
@@ -831,35 +856,36 @@ def generate_news():
 
     source_urls = [r.get("url", "") for r in scraped_data if r.get("url")]
 
-    # 5. Cerebras article generation
+    # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a strict, factual tech journalist. You MUST output valid JSON with exactly one key: '
-        '"articleText". No other keys, no markdown, no explanation — ONLY the JSON object.'
+        'You are a factual tech journalist. Output valid JSON: {"articleText": "..."}. '
+        'No other keys, no markdown, no explanation.'
     )
 
     cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
 
-    user_prompt = f"""Write a news article based ONLY on the search results below.
+    # Build dedup context — show LLM what already exists so it doesn't repeat
+    dedup_section = ""
+    if existing_titles:
+        # Show last 30 titles max to save tokens
+        recent_titles = existing_titles[-30:]
+        titles_list = "\n".join(f"- {t}" for t in recent_titles)
+        dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a DIFFERENT story from the search results. If all results overlap with published titles, find a unique angle."""
+
+    user_prompt = f"""Write a news article from the search results below.{dedup_section}
 
 Search results:
 {json.dumps(cerebras_data, indent=2)}
 
-STRICT RULES FOR articleText:
-1. Write STRICTLY based on facts from the search results above. NO speculation, NO invented info.
-2. Pick the single most prominent or interesting news story. Do NOT mix unrelated topics.
-3. Write clean, professional prose that a news reader would enjoy. Rewrite facts naturally.
-4. Structure as 2-3 well-developed paragraphs separated by double newlines.
-5. Start with a punchy, attention-grabbing opening. Do NOT start with "In" or "The".
-6. NEVER mention search engines, APIs, scraped data, prompts, or internal system details.
-7. NEVER include specific dates like "as of February 2026" or "on February 22". Write timelessly — use phrases like "recently", "this week", or just state the news directly without date references.
-8. Include relevant context: who, what, where, why, and implications.
+RULES:
+1. Facts only from search results. No speculation.
+2. Pick ONE story. Do NOT mix topics.
+3. Professional prose, 2-3 paragraphs.
+4. Punchy opening. Don't start with "In" or "The".
+5. No dates, no system details, no "breaking news" labels.
+6. 175-225 words. Under 170 is unacceptable.
 
-WORD COUNT REQUIREMENT (CRITICAL):
-- You MUST write BETWEEN 175 and 225 words. This is MANDATORY.
-- Under 170 words is COMPLETELY UNACCEPTABLE.
-- Count your words. If under 175, ADD factual context, background, or analysis.
-
-Return JSON: {{ "articleText": "your 175-225 word article" }}"""
+Return JSON: {{ "articleText": "your article" }}"""
 
     MODELS = ["gpt-oss-120b", "llama3.1-8b"]
     article_text = ""
@@ -906,7 +932,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    # 6. Generate image prompt (60-80 words, photorealistic editorial style)
+    # 6. Generate image prompt (concise, photorealistic editorial style)
     image_prompt = ""
     try:
         img_completion = cerebras_client.chat.completions.create(
@@ -914,46 +940,31 @@ Do NOT repeat the same content. ADD NEW substantive information."""
             messages=[
                 {
                     "role": "system",
-                    "content": (
-                        "You are an expert visual director for a premium news publication. You write "
-                        "photorealistic image descriptions that look like award-winning editorial photographs. "
-                        "Output ONLY the image description, nothing else. Never include any text, words, "
-                        "letters, logos, or watermarks in the description."
-                    ),
+                    "content": "Write photorealistic image descriptions for news. Output ONLY the description. No text/words/logos in the image.",
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write a 60-80 word photorealistic image description for this news article. "
-                        f"The image should look like a real editorial photograph, NOT sci-fi or cartoon.\n\n"
-                        f"STYLE RULES:\n"
-                        f"- Photorealistic, shot on Canon EOS R5, 85mm lens, f/2.8\n"
-                        f"- Natural lighting (golden hour, soft studio, or dramatic overcast)\n"
-                        f"- Real-world setting that matches the article topic (office, lab, city, etc.)\n"
-                        f"- Include specific visual details: materials, textures, environment\n"
-                        f"- Cinematic composition, shallow depth-of-field, 16:9 widescreen\n"
-                        f"- NO neon, NO glowing effects, NO holographic elements\n"
-                        f"- NO text, words, letters, or UI elements in the image\n\n"
-                        f"Article: {article_text[:600]}"
+                        f"50-70 word photorealistic editorial photo description for this article. "
+                        f"Canon EOS R5, natural lighting, real-world setting, cinematic 16:9, "
+                        f"shallow DOF. No neon/glowing/text/UI.\n\n"
+                        f"Article: {article_text[:400]}"
                     ),
                 },
             ],
             temperature=0.7,
-            max_tokens=200,
+            max_tokens=120,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
-        # Remove any quotes wrapping the response
         if image_prompt.startswith('"') and image_prompt.endswith('"'):
             image_prompt = image_prompt[1:-1]
         print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt[:120]}..."')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
         image_prompt = (
-            "A wide-angle editorial photograph of a modern technology workspace, "
-            "warm golden-hour light streaming through floor-to-ceiling windows, "
-            "sleek minimalist desk with multiple monitors showing data visualizations, "
-            "shallow depth-of-field, professional Canon EOS R5 photography, "
-            "crisp details, natural color palette, 16:9 cinematic composition"
+            "Editorial photograph of modern technology workspace, golden-hour light, "
+            "minimalist desk with monitors, shallow depth-of-field, Canon EOS R5, "
+            "natural color palette, cinematic 16:9"
         )
 
     # 7. Generate professional headline via LLM
@@ -964,39 +975,34 @@ Do NOT repeat the same content. ADD NEW substantive information."""
             messages=[
                 {
                     "role": "system",
-                    "content": (
-                        "You are a headline writer for Reuters, Bloomberg, and The Wall Street Journal. "
-                        "You write crisp, professional headlines that immediately communicate the news. "
-                        "Output ONLY the headline text. No quotes, no explanation, no labels."
-                    ),
+                    "content": "Write one professional news headline. Output ONLY the headline. No quotes, no labels, no colons.",
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write ONE professional news headline for this article.\n\n"
-                        f"MANDATORY RULES:\n"
-                        f"1. Exactly 8-14 words, Title Case\n"
-                        f"2. Start with the WHO or WHAT (company name, person, or key noun)\n"
-                        f"3. Use a strong active verb (Launches, Unveils, Reports, Acquires, Faces, etc.)\n"
-                        f"4. ABSOLUTELY NO prefix labels — no 'AI News:', 'Tech:', 'Breaking:', 'Report:', etc.\n"
-                        f"5. ABSOLUTELY NO colons in the headline\n"
-                        f"6. MUST be specific — mention actual names, products, or numbers\n\n"
-                        f"GOOD examples: 'OpenAI Launches GPT-5 With Advanced Reasoning Capabilities'\n"
-                        f"BAD examples: 'AI News: Latest Technology Breakthrough Updates Today'\n\n"
-                        f"Article: {article_text[:500]}"
+                        f"Write ONE headline for this article. 8-14 words, Title Case. "
+                        f"Start with WHO/WHAT. Use active verb. "
+                        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
+                        f"Be specific — mention names/products/numbers.\n\n"
+                        f"Article: {article_text[:400]}"
                     ),
                 },
             ],
             temperature=0.4,
-            max_tokens=50,
+            max_tokens=40,
         )
         raw_title = (title_completion.choices[0].message.content or "").strip()
-        # Clean up: remove any quotes, prefix patterns, or colons the LLM might add
+        # Clean up: remove quotes, prefix patterns, colons
         import re as _re
         raw_title = raw_title.strip('"\'')
-        raw_title = _re.sub(r'^(Breaking|Update|Report|News|Spotlight|Alert|Headline|Tech|AI|Analysis)[:\s]+', '', raw_title, flags=_re.IGNORECASE)
-        # Remove leading colon if still present
-        raw_title = _re.sub(r'^[:\s]+', '', raw_title)
+        # Strip ALL common prefix labels the LLM might add
+        raw_title = _re.sub(
+            r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
+            r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
+            r'Development|Watch)[:\s—–-]+',
+            '', raw_title, flags=_re.IGNORECASE
+        )
+        raw_title = _re.sub(r'^[:\s—–-]+', '', raw_title).strip()
         if raw_title and len(raw_title.split()) >= 4:
             title = raw_title
             print(f"📰 LLM Title: \"{title}\"")
