@@ -27,8 +27,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Patch g4f broken Copilot provider
-        run: python scripts/patch_g4f.py
 
       - name: Run news pipeline
         env:
