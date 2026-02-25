@@ -168,7 +168,7 @@ export default function AINewsPage() {
             Daily News Feed
           </h1>
           <p className="text-zinc-400 text-lg max-w-md mx-auto">
-            AI-powered coverage · AI, Tech, Science &amp; Business News
+            AI-powered coverage · AI, Tech, Climate, Accessibility &amp; World News
           </p>
         </div>
       </header>
