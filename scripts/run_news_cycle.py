@@ -3,7 +3,7 @@
 News Pipeline Worker — GitHub Actions Background Runner
 ========================================================
 Pipeline: Dynamic Query → Tavily Search → URL Dedup →
-          Cerebras (GPT-OSS 120B / llama3.1-8b) → g4f Image Gen (Flux/DALL-E) →
+          Cerebras (GPT-OSS 120B / llama3.1-8b) → FLUX.1-dev Image Gen →
           Cloudinary Upload → Firestore Save → History Update
 
 Ported from: app/api/cron/generate-news/route.ts (v17)
@@ -12,7 +12,7 @@ Ported from: app/api/cron/generate-news/route.ts (v17)
 import json
 import os
 import random
-import sys
+
 import time
 import uuid
 from datetime import datetime, timezone
@@ -344,14 +344,16 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation (g4f) & Cloudinary Upload ─────────────
+# ─── Image Generation (Direct FLUX.1-dev) & Cloudinary Upload ─
 
-# g4f handles provider rotation internally (Pollinations, Together, etc.)
-# We generate the image, download the bytes, upload to Cloudinary,
-# and save the Cloudinary URL to Firestore.
+# Calls HuggingFace Space FLUX.1-dev Gradio API directly — no g4f,
+# no subprocess, no broken import patching. Same model g4f uses
+# under the hood, but with a simple requests-based approach.
 
-IMAGE_MODELS = ["flux", "flux-realism", "sdxl", "dalle"]
-IMAGE_MAX_RETRIES = 3
+FLUX_SPACE_URL = "https://black-forest-labs-flux-1-dev.hf.space"
+FLUX_API_NAME = "infer"
+FLUX_TIMEOUT = 150  # seconds for image generation
+
 PLACEHOLDER_IMAGE_URL = (
     "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
 )
@@ -381,21 +383,94 @@ def _upload_placeholder_to_cloudinary(article_id: str) -> str:
     return PLACEHOLDER_IMAGE_URL
 
 
+def _call_flux_gradio(prompt: str) -> str | None:
+    """
+    Call FLUX.1-dev HuggingFace Space via Gradio API.
+    Returns the generated image URL, or None on failure.
+    
+    API flow: POST to queue → poll SSE for result → extract file URL.
+    """
+    import json as _json
+
+    hf_token = os.environ.get("HF_TOKEN", "")
+    headers = {"Authorization": f"Bearer {hf_token}"} if hf_token else {}
+
+    # Step 1: Queue the generation request
+    # Args: [prompt, seed, randomize_seed, width, height, guidance_scale, num_steps]
+    try:
+        print(f"  📤 Queuing FLUX.1-dev generation...")
+        queue_resp = requests.post(
+            f"{FLUX_SPACE_URL}/gradio_api/call/{FLUX_API_NAME}",
+            json={"data": [prompt, 0, True, 1024, 1024, 3.5, 28]},
+            headers=headers,
+            timeout=30,
+        )
+        if queue_resp.status_code != 200:
+            print(f"  ❌ Queue failed ({queue_resp.status_code}): {queue_resp.text[:150]}")
+            return None
+        event_id = queue_resp.json().get("event_id")
+        print(f"  📋 Queued: event_id={event_id}")
+    except Exception as e:
+        print(f"  ❌ Queue request failed: {e}")
+        return None
+
+    # Step 2: Poll SSE stream for the result
+    try:
+        print(f"  ⏳ Waiting for FLUX.1-dev result (timeout={FLUX_TIMEOUT}s)...")
+        sse_resp = requests.get(
+            f"{FLUX_SPACE_URL}/gradio_api/call/{FLUX_API_NAME}/{event_id}",
+            headers=headers,
+            stream=True,
+            timeout=FLUX_TIMEOUT,
+        )
+        image_url = None
+        for line in sse_resp.iter_lines(decode_unicode=True):
+            if not line or not line.startswith("data: "):
+                continue
+            raw = line[6:]
+            if not (raw.startswith("[") or raw.startswith("{")):
+                continue
+            try:
+                parsed = _json.loads(raw)
+                if isinstance(parsed, list):
+                    for item in parsed:
+                        if isinstance(item, dict):
+                            url = item.get("url", "")
+                            if url:
+                                if not url.startswith("http"):
+                                    image_url = f"{FLUX_SPACE_URL}/gradio_api/file={url}"
+                                else:
+                                    image_url = url
+                                break
+            except _json.JSONDecodeError:
+                pass
+            if image_url:
+                break
+
+        if image_url:
+            print(f"  📎 FLUX returned: {image_url[:100]}...")
+        else:
+            print(f"  ❌ No image URL in FLUX response")
+        return image_url
+
+    except requests.exceptions.Timeout:
+        print(f"  ❌ FLUX timed out after {FLUX_TIMEOUT}s")
+        return None
+    except Exception as e:
+        print(f"  ❌ FLUX SSE error: {e}")
+        return None
+
+
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Generate image via g4f library (subprocess isolation),
+    Generate image via FLUX.1-dev (HuggingFace Space Gradio API),
     download the actual image bytes, upload to Cloudinary,
     and return the Cloudinary secure URL.
-
-    g4f runs in a subprocess (g4f_image_gen.py) to avoid import
-    chain issues with broken providers. The subprocess handles
-    model fallback: flux → flux-realism → sdxl → dalle.
     """
     import re as _re
-    import subprocess
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE START (g4f subprocess → Cloudinary)")
+    print("🖼️ IMAGE PIPELINE START (FLUX.1-dev → Cloudinary)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -412,43 +487,16 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # Step 1: Run g4f in a subprocess to get image URL
-    image_url = None
-    script_path = os.path.join(os.path.dirname(__file__), "g4f_image_gen.py")
-
-    try:
-        print(f"  ⬇️ Calling g4f subprocess (timeout=180s)...")
-        result = subprocess.run(
-            [sys.executable, script_path, enhanced_prompt],
-            capture_output=True,
-            text=True,
-            timeout=180,
-        )
-        stdout = result.stdout.strip()
-        stderr = result.stderr.strip()
-
-        if stderr:
-            for line in stderr.split("\n"):
-                print(f"  📋 g4f: {line}")
-
-        if result.returncode == 0 and stdout:
-            image_url = stdout.split("\n")[-1].strip()  # Last line = URL
-            print(f"  📎 g4f returned URL: {image_url[:100]}...")
-        else:
-            print(f"  ❌ g4f subprocess failed (exit={result.returncode})")
-    except subprocess.TimeoutExpired:
-        print(f"  ❌ g4f subprocess timed out after 180s")
-    except Exception as e:
-        print(f"  ❌ g4f subprocess error: {e}")
+    # Step 1: Generate image via FLUX.1-dev
+    image_url = _call_flux_gradio(enhanced_prompt)
 
     if not image_url:
-        print(f"  ⚠️ No image URL from g4f, using placeholder")
+        print(f"  ⚠️ FLUX.1-dev failed, using placeholder")
         return _upload_placeholder_to_cloudinary(article_id)
 
     # Step 2: Download the actual image bytes
-    image_bytes = None
     try:
-        print(f"  ⬇️ Downloading image from URL (timeout=60s)...")
+        print(f"  ⬇️ Downloading image (timeout=60s)...")
         dl_resp = requests.get(image_url, timeout=60)
         dl_resp.raise_for_status()
 
@@ -720,7 +768,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     # 7. Generate title
     title = generate_title(topic, category)
 
-    # 8. Generate image via g4f + upload to Cloudinary
+    # 8. Generate image via FLUX.1-dev + upload to Cloudinary
     article_id = str(uuid.uuid4())
     image_url = generate_and_upload_image(image_prompt, article_id)
 
@@ -761,7 +809,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    {'Cloudinary (g4f)' if 'cloudinary' in image_url else 'Placeholder'}")
+    print(f"   Image:    {'Cloudinary (FLUX.1-dev)' if 'cloudinary' in image_url else 'Placeholder'}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 
