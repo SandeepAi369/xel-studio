@@ -669,25 +669,50 @@ def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt:
 def cleanup_old_news(db: firestore.Client):
     """
     Daily cleanup:
-      1. Keep only the newest 15 articles in 'news' collection (frontend)
-      2. Delete history entries older than 10 days from 'news_history'
+      1. Delete the 15 OLDEST articles from 'news' collection
+         → Before deleting, archive their source URLs to 'news_history'
+           so the AI dedup system remembers them and won't regenerate.
+      2. Purge 'news_history' entries older than 10 days (they've served
+         their dedup purpose by then).
     """
     print("\n🧹 CLEANUP — Removing old news...")
 
-    # ── 1. Keep only 15 newest articles in 'news' ────────────
+    # ── 1. Delete the 15 oldest articles from 'news' ─────────
     try:
-        # Get all news docs ordered by date descending
+        # Get all news ordered by date ASCENDING (oldest first)
         all_news = list(
             db.collection(COLLECTION)
-            .order_by("date", direction=firestore.Query.DESCENDING)
+            .order_by("date", direction=firestore.Query.ASCENDING)
             .stream()
         )
         total = len(all_news)
-        if total > 15:
-            to_delete = all_news[15:]  # everything after the 15 newest
+
+        if total <= 15:
+            print(f"  ✅ Only {total} articles — no cleanup needed yet")
+        else:
+            # Take the 15 oldest
+            to_delete = all_news[:15]
             batch = db.batch()
             count = 0
+
             for doc_snap in to_delete:
+                data = doc_snap.to_dict()
+
+                # ── Archive to news_history BEFORE deleting ──
+                # This ensures the AI remembers these URLs for dedup
+                source_urls = data.get("sourceUrls", [])
+                title = data.get("title", "")
+                if source_urls or title:
+                    try:
+                        db.collection(HISTORY_COLLECTION).add({
+                            "title": title,
+                            "sourceUrls": source_urls,
+                            "createdAt": datetime.now(timezone.utc).isoformat(),
+                            "archivedFrom": "cleanup",
+                        })
+                    except Exception as he:
+                        print(f"  ⚠️ History archive failed for '{title[:40]}': {he}")
+
                 batch.delete(doc_snap.reference)
                 count += 1
                 # Firestore batch limit is 500
@@ -696,13 +721,13 @@ def cleanup_old_news(db: firestore.Client):
                     batch = db.batch()
             if count % 400 != 0:
                 batch.commit()
-            print(f"  🗑️ Deleted {count} old news articles (kept newest 15 of {total})")
-        else:
-            print(f"  ✅ Only {total} articles — no cleanup needed (limit: 15)")
+            print(f"  🗑️ Deleted {count} oldest articles (of {total} total), archived to history for dedup")
+
     except Exception as e:
         print(f"  ⚠️ News cleanup failed: {e}")
 
     # ── 2. Purge history older than 10 days ──────────────────
+    # After 10 days, dedup entries are no longer needed
     try:
         cutoff = datetime.now(timezone.utc).isoformat()
         # Calculate cutoff: 10 days ago
