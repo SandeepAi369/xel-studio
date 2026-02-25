@@ -168,7 +168,7 @@ export default function AINewsPage() {
             Daily News Feed
           </h1>
           <p className="text-zinc-400 text-lg max-w-md mx-auto">
-            AI-powered coverage · Tech, Disability, World & General News
+            AI-powered coverage · AI, Tech, Science &amp; Business News
           </p>
         </div>
       </header>
@@ -186,8 +186,8 @@ export default function AINewsPage() {
               <button
                 onClick={() => setFilter("all")}
                 className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${filter === "all"
-                    ? "bg-white text-black"
-                    : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
+                  ? "bg-white text-black"
+                  : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
                   }`}
               >
                 All ({news.length})
@@ -203,8 +203,8 @@ export default function AINewsPage() {
                     key={cat.key}
                     onClick={() => setFilter(cat.key)}
                     className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5 ${isActive
-                        ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
-                        : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
+                      ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
+                      : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
                       }`}
                   >
                     <Icon className="w-3.5 h-3.5" />
