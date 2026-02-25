@@ -403,9 +403,9 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation (Gemini API + FLUX.1-dev + Pollinations) & Cloudinary Upload ─
+# ─── Image Generation (Gemini Web + FLUX.1-dev + Pollinations) & Cloudinary Upload ─
 
-# Priority 1: Gemini API (native image generation via gemini-2.5-flash)
+# Priority 1: Gemini Web (cookie-based, uses premium Google account)
 # Priority 2: FLUX.1-dev (HuggingFace Space Gradio API)
 # Priority 3: Pollinations.ai (free, no API key)
 # Priority 4: Placeholder image
@@ -595,22 +595,22 @@ def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | No
 
 
 def _call_gemini_api(prompt: str) -> bytes | None:
-    """Attempt image generation via Gemini API (Priority 1)."""
+    """Attempt image generation via Gemini Web (Priority 1)."""
     try:
         from gemini_image_gen import generate_image_gemini
         return generate_image_gemini(prompt)
     except ImportError:
-        print("  ⚠️ gemini_image_gen not available (google-genai not installed?)")
+        print("  ⚠️ gemini_image_gen not available (gemini-webapi not installed?)")
         return None
     except Exception as e:
-        print(f"  ❌ Gemini API error: {e}")
+        print(f"  ❌ Gemini Web error: {e}")
         return None
 
 
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
     Image pipeline with 4-level fallback:
-      1. Gemini API (native image generation) → Cloudinary
+      1. Gemini Web (cookie-based, premium Google account) → Cloudinary
       2. FLUX.1-dev (HuggingFace Space) → Cloudinary
       3. Pollinations.ai (free) → Cloudinary
       4. Placeholder → Cloudinary
@@ -618,7 +618,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     import re as _re
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (Gemini API → FLUX → Pollinations → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (Gemini Web → FLUX → Pollinations → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -634,12 +634,12 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     )
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # ── Attempt 1: Gemini API ────────────────────────────────
+    # ── Attempt 1: Gemini Web ────────────────────────────────
     gemini_bytes = _call_gemini_api(enhanced_prompt)
     if gemini_bytes:
         result = _upload_bytes_to_cloudinary(gemini_bytes, article_id)
         if result:
-            print(f"  ✅ IMAGE SUCCESS (Gemini API → Cloudinary)")
+            print(f"  ✅ IMAGE SUCCESS (Gemini Web → Cloudinary)")
             return result
 
     # ── Attempt 2: FLUX.1-dev ────────────────────────────────
@@ -812,7 +812,7 @@ def cleanup_old_news(db: firestore.Client):
 
 def generate_news():
     t0 = time.time()
-    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini API/FLUX/Pollinations + Cloudinary")
+    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini Web/FLUX/Pollinations + Cloudinary")
 
     # Init services
     db = init_firebase()
