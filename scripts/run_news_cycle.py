@@ -396,6 +396,11 @@ def _call_flux_gradio(prompt: str) -> str | None:
     Returns the generated image URL, or None on failure.
     
     API flow: POST to queue → poll SSE for result → extract file URL.
+    
+    IMPORTANT: Gradio SSE sends multiple events:
+      - event: generating  → intermediate progress frames (noisy/incomplete)
+      - event: complete     → final rendered image
+    We MUST wait for 'complete' and ignore 'generating' frames.
     """
     import json as _json
 
@@ -421,7 +426,7 @@ def _call_flux_gradio(prompt: str) -> str | None:
         print(f"  ❌ Queue request failed: {e}")
         return None
 
-    # Step 2: Poll SSE stream for the result
+    # Step 2: Poll SSE stream for the FINAL result
     try:
         print(f"  ⏳ Waiting for FLUX.1-dev result (timeout={FLUX_TIMEOUT}s)...")
         sse_resp = requests.get(
@@ -430,13 +435,33 @@ def _call_flux_gradio(prompt: str) -> str | None:
             stream=True,
             timeout=FLUX_TIMEOUT,
         )
+
         image_url = None
+        current_event = ""
+
         for line in sse_resp.iter_lines(decode_unicode=True):
-            if not line or not line.startswith("data: "):
+            if not line:
                 continue
+
+            # Track the SSE event type
+            if line.startswith("event: "):
+                current_event = line[7:].strip()
+                if current_event == "generating":
+                    print(f"  🔄 Generating (progress frame, skipping)...")
+                continue
+
+            # Only process data from "complete" events
+            if not line.startswith("data: "):
+                continue
+
+            # Skip data from intermediate "generating" events (latent noise frames)
+            if current_event != "complete":
+                continue
+
             raw = line[6:]
             if not (raw.startswith("[") or raw.startswith("{")):
                 continue
+
             try:
                 parsed = _json.loads(raw)
                 if isinstance(parsed, list):
@@ -451,14 +476,16 @@ def _call_flux_gradio(prompt: str) -> str | None:
                                 break
             except _json.JSONDecodeError:
                 pass
+
             if image_url:
                 break
 
         if image_url:
-            print(f"  📎 FLUX returned: {image_url[:100]}...")
+            print(f"  📎 FLUX final image: {image_url[:100]}...")
         else:
             print(f"  ❌ No image URL in FLUX response")
         return image_url
+
 
     except requests.exceptions.Timeout:
         print(f"  ❌ FLUX timed out after {FLUX_TIMEOUT}s")
