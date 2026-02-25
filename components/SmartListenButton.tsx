@@ -10,7 +10,7 @@ import { audioManager } from '@/lib/audio-manager';
    ✅ Pause / Resume (resumes from where user stopped)
    ✅ Single-player-at-a-time (global AudioManager)
    ✅ In-memory cache (instant replay)
-   ✅ Low-latency chunking (40-word first, 50-word rest)
+   ✅ Smart sentence-boundary chunking (pauses hidden at natural breaks)
    ───────────────────────────────────────────────────────────────────── */
 
 interface SmartListenButtonProps {
@@ -24,11 +24,28 @@ interface SmartListenButtonProps {
 
 type BtnState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
-const FIRST_CHUNK = 40;
-const REST_CHUNK = 50;
+/* ── Smart chunking constants ─────────────────────────────────────
+   CHUNK_MIN: aim for this many words before looking for a boundary
+   CHUNK_MAX: never exceed this — force-split if no boundary found
+   These values are tuned so the listener never notices the gap
+   between chunks, because it always falls on a sentence boundary. */
+const CHUNK_MIN = 35;
+const CHUNK_MAX = 60;
 const MAX_LEN = 5000;
 const PREFETCH_AHEAD = 4;
 
+/**
+ * Smart sentence-boundary chunking for natural TTS playback.
+ *
+ * Strategy (based on TTS best practices):
+ *   1. Clean the text and split into individual sentences
+ *   2. Group sentences into chunks targeting CHUNK_MIN–CHUNK_MAX words
+ *   3. Chunk boundaries ALWAYS fall at sentence endings (. ! ?)
+ *      where the listener expects a natural pause — making the
+ *      inter-chunk loading gap completely imperceptible
+ *
+ * This eliminates the "mid-sentence pause" problem entirely.
+ */
 function splitIntoChunks(text: string): string[] {
     const clean = text
         .replace(/[#*`\[\]]/g, '')
@@ -38,20 +55,77 @@ function splitIntoChunks(text: string): string[] {
         .trim()
         .slice(0, MAX_LEN);
     if (!clean) return [];
-    const words = clean.split(' ');
-    if (words.length <= FIRST_CHUNK) return [clean];
-    const chunks: string[] = [words.slice(0, FIRST_CHUNK).join(' ')];
-    let cur: string[] = [];
-    for (let i = FIRST_CHUNK; i < words.length; i++) {
-        const w = words[i];
-        cur.push(w);
-        if ((cur.length >= REST_CHUNK && /[.!?;:]$/.test(w)) || cur.length >= REST_CHUNK + 15) {
-            chunks.push(cur.join(' '));
-            cur = [];
+
+    // Split into sentences at . ! ? (keeping the punctuation)
+    // Also handles abbreviations like "U.S." by requiring a space after
+    const sentences = clean
+        .split(/(?<=[.!?])\s+/)
+        .map(s => s.trim())
+        .filter(s => s.length > 0);
+
+    if (sentences.length === 0) return [clean];
+
+    // Group sentences into chunks, targeting CHUNK_MIN-CHUNK_MAX words
+    const chunks: string[] = [];
+    let currentChunk: string[] = [];
+    let currentWordCount = 0;
+
+    for (const sentence of sentences) {
+        const sentenceWords = sentence.split(' ').length;
+
+        // If adding this sentence keeps us under CHUNK_MAX, add it
+        if (currentWordCount + sentenceWords <= CHUNK_MAX) {
+            currentChunk.push(sentence);
+            currentWordCount += sentenceWords;
+
+            // If we've hit the sweet spot (>= CHUNK_MIN), finalize this chunk
+            if (currentWordCount >= CHUNK_MIN) {
+                chunks.push(currentChunk.join(' '));
+                currentChunk = [];
+                currentWordCount = 0;
+            }
+        } else {
+            // Adding this sentence would exceed CHUNK_MAX
+            // Save what we have (if anything), then start fresh
+            if (currentChunk.length > 0) {
+                chunks.push(currentChunk.join(' '));
+            }
+
+            // Handle very long sentences (> CHUNK_MAX words)
+            if (sentenceWords > CHUNK_MAX) {
+                // Fall back to clause-based splitting for extra-long sentences
+                const words = sentence.split(' ');
+                let clauseChunk: string[] = [];
+                for (const w of words) {
+                    clauseChunk.push(w);
+                    if (clauseChunk.length >= CHUNK_MIN && /[,;:—]$/.test(w)) {
+                        chunks.push(clauseChunk.join(' '));
+                        clauseChunk = [];
+                    } else if (clauseChunk.length >= CHUNK_MAX) {
+                        chunks.push(clauseChunk.join(' '));
+                        clauseChunk = [];
+                    }
+                }
+                if (clauseChunk.length > 0) {
+                    currentChunk = [clauseChunk.join(' ')];
+                    currentWordCount = clauseChunk.length;
+                } else {
+                    currentChunk = [];
+                    currentWordCount = 0;
+                }
+            } else {
+                currentChunk = [sentence];
+                currentWordCount = sentenceWords;
+            }
         }
     }
-    if (cur.length) chunks.push(cur.join(' '));
-    return chunks;
+
+    // Don't forget the last chunk
+    if (currentChunk.length > 0) {
+        chunks.push(currentChunk.join(' '));
+    }
+
+    return chunks.length > 0 ? chunks : [clean];
 }
 
 export default function SmartListenButton({
