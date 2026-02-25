@@ -176,17 +176,17 @@ export default function AINewsPage() {
       <div className="max-w-6xl mx-auto px-4">
         {/* Category Filter Tabs — horizontal scrollable */}
         {!loading && news.length > 0 && (
-          <div className="mb-8 -mx-4 px-4">
+          <div className="mb-6 -mx-4 px-4">
             <div
               ref={tabsRef}
-              className="flex items-center gap-2.5 overflow-x-auto scrollbar-hide pb-2"
+              className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1.5"
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
               {/* All Tab */}
               <button
                 onClick={() => setFilter("all")}
-                className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${filter === "all"
-                  ? "bg-white text-black"
+                className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
+                  ? "bg-zinc-200 text-zinc-900"
                   : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
                   }`}
               >
@@ -202,12 +202,12 @@ export default function AINewsPage() {
                   <button
                     key={cat.key}
                     onClick={() => setFilter(cat.key)}
-                    className={`flex-shrink-0 px-4 py-2.5 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5 ${isActive
+                    className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1 ${isActive
                       ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
                       : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
                       }`}
                   >
-                    <Icon className="w-3.5 h-3.5" />
+                    <Icon className="w-3 h-3" />
                     {cat.label} ({count})
                   </button>
                 );
@@ -276,7 +276,7 @@ export default function AINewsPage() {
                     {/* Category badge on image */}
                     {config && (
                       <span
-                        className={`absolute top-3 left-3 px-3 py-1 text-xs font-medium rounded-full border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                        className={`absolute top-2.5 left-2.5 px-2 py-0.5 text-[10px] font-medium rounded-md border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
                         style={{ pointerEvents: "none" }}
                       >
                         {config.label}
@@ -285,9 +285,9 @@ export default function AINewsPage() {
                   </div>
 
                   {/* Content */}
-                  <div className="p-5">
-                    <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
-                      <Calendar className="w-3.5 h-3.5" />
+                  <div className="p-4">
+                    <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-2">
+                      <Calendar className="w-3 h-3" />
                       <span>
                         {new Date(item.date).toLocaleDateString("en-US", {
                           year: "numeric",
@@ -297,18 +297,18 @@ export default function AINewsPage() {
                       </span>
                     </div>
 
-                    <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
+                    <h2 className="text-base font-semibold text-white line-clamp-2 mb-2">
                       {item.title}
                     </h2>
 
-                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+                    <p className="text-gray-400 text-[13px] leading-relaxed line-clamp-3">
                       {item.summary.substring(0, 150)}...
                     </p>
 
-                    <div className="flex items-center justify-between mt-4">
-                      <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
+                    <div className="flex items-center justify-between mt-3">
+                      <div className="flex items-center gap-1 text-green-400 text-xs font-medium">
                         <span>Read more</span>
-                        <ChevronRight className="w-4 h-4" />
+                        <ChevronRight className="w-3.5 h-3.5" />
                       </div>
                     </div>
                   </div>
