@@ -1115,7 +1115,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
         "word_count": str(word_count),
         "image_prompt": image_prompt[:100],
         "has_image": "yes" if image_url else "no",
-        "image_source": "cloudinary" if "cloudinary" in image_url else "placeholder",
+        "image_source": "cloudinary" if "cloudinary" in image_url else ("pollinations" if "pollinations" in image_url else "placeholder"),
         "search_query": used_query,
         "search_results": str(len(scraped_data)),
         "duration_ms": str(duration),
@@ -1126,7 +1126,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else 'Placeholder'}")
+    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else ('Pollinations URL' if 'pollinations' in image_url else 'Placeholder')}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 
