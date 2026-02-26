@@ -715,16 +715,16 @@ def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt:
 
 def cleanup_old_news(db: firestore.Client):
     """
-    Daily cleanup:
-      1. Delete the 15 OLDEST articles from 'news' collection
-         → Before deleting, archive their source URLs to 'news_history'
-           so the AI dedup system remembers them and won't regenerate.
-      2. Purge 'news_history' entries older than 10 days (they've served
-         their dedup purpose by then).
+    Cleanup: keep the newest 30 articles, delete any excess.
+      - Only deletes articles beyond the 30-article threshold
+      - Archives deleted article URLs to 'news_history' for dedup
+      - Purges 'news_history' entries older than 10 days
     """
-    print("\n🧹 CLEANUP — Removing old news...")
+    print("\n🧹 CLEANUP — Checking news collection...")
 
-    # ── 1. Delete the 15 oldest articles from 'news' ─────────
+    MIN_ARTICLES_TO_KEEP = 30  # Always keep at least this many articles
+
+    # ── 1. Delete excess articles beyond MIN_ARTICLES_TO_KEEP ──
     try:
         # Get all news ordered by date ASCENDING (oldest first)
         all_news = list(
@@ -734,11 +734,12 @@ def cleanup_old_news(db: firestore.Client):
         )
         total = len(all_news)
 
-        if total <= 15:
-            print(f"  ✅ Only {total} articles — no cleanup needed yet")
+        if total <= MIN_ARTICLES_TO_KEEP:
+            print(f"  ✅ {total} articles (under {MIN_ARTICLES_TO_KEEP} limit) — no cleanup needed")
         else:
-            # Take the 15 oldest
-            to_delete = all_news[:15]
+            # Only delete the EXCESS beyond the threshold
+            excess = total - MIN_ARTICLES_TO_KEEP
+            to_delete = all_news[:excess]
             batch = db.batch()
             count = 0
 
@@ -746,7 +747,6 @@ def cleanup_old_news(db: firestore.Client):
                 data = doc_snap.to_dict()
 
                 # ── Archive to news_history BEFORE deleting ──
-                # This ensures the AI remembers these URLs for dedup
                 source_urls = data.get("sourceUrls", [])
                 title = data.get("title", "")
                 if source_urls or title:
@@ -768,7 +768,8 @@ def cleanup_old_news(db: firestore.Client):
                     batch = db.batch()
             if count % 400 != 0:
                 batch.commit()
-            print(f"  🗑️ Deleted {count} oldest articles (of {total} total), archived to history for dedup")
+            print(f"  🗑️ Deleted {count} excess articles (had {total}, keeping {MIN_ARTICLES_TO_KEEP})")
+
 
     except Exception as e:
         print(f"  ⚠️ News cleanup failed: {e}")
