@@ -207,7 +207,7 @@ export default function NewsDetailPage() {
 
                         {/* Title + Listen */}
                         <div className="flex items-start gap-4">
-                            <h1 className="text-xl md:text-2xl font-bold text-white leading-snug flex-1">
+                            <h1 className="text-lg md:text-xl font-bold text-white leading-snug flex-1">
                                 {article.title}
                             </h1>
                             <div className="flex-shrink-0 mt-1">
