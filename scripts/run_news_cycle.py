@@ -118,49 +118,64 @@ FALLBACK_QUERIES = [
 # ─── Helpers ─────────────────────────────────────────────────
 
 
-def detect_category(query: str) -> str:
-    """Detect category from search query."""
-    q = query.lower()
-    # Disability & Accessibility
-    if any(kw in q for kw in [
-        "disability", "assistive", "accessible", "accessibility", "inclusion",
-    ]):
-        return "accessibility"
-    # Climate & Environment
-    if any(kw in q for kw in [
-        "climate", "environment", "clean energy", "sustainability", "energy transition",
-    ]):
-        return "climate"
-    # Science & Space
-    if any(kw in q for kw in [
-        "space", "spacex", "nasa", "physics", "astronomy",
-        "biotechnology", "genetics", "science discovery", "research breakthrough",
-        "quantum",
-    ]):
-        return "science"
-    # Health & Society
-    if any(kw in q for kw in [
-        "healthcare", "health", "mental health", "wellness",
-    ]):
-        return "health"
-    # Business & Economy
-    if any(kw in q for kw in [
-        "earnings", "stock", "ipo", "funding", "startup", "unicorn",
-        "crypto", "blockchain", "web3", "ceo", "leader",
-    ]):
-        return "business"
-    # World & Geopolitics
-    if any(kw in q for kw in [
-        "geopolitical", "international", "trade", "privacy", "surveillance",
-        "world", "regulation",
-    ]):
-        return "world"
-    # Culture & Entertainment
-    if any(kw in q for kw in [
-        "social media", "streaming", "gaming", "esports", "entertainment",
-    ]):
-        return "entertainment"
-    # AI & Tech (default)
+def detect_category(query: str, title: str = "", content: str = "") -> str:
+    """Detect category from search query, title, and article content.
+    Checks ALL text for keyword matches, with priority weighting."""
+    # Combine all text for analysis (title gets extra weight by appearing twice)
+    q = f"{query} {title} {title} {content[:500]}".lower()
+
+    # Category rules: ordered from most specific to least
+    CATEGORY_RULES = [
+        ("disability", [
+            "disability", "disabled", "assistive", "accessible", "accessibility",
+            "inclusion", "wheelchair", "blind", "deaf", "autism", "neurodiversity",
+            "ada ", "special needs", "impairment", "prosthetic", "screen reader",
+        ]),
+        ("health", [
+            "healthcare", "health", "mental health", "wellness", "medical",
+            "disease", "vaccine", "hospital", "patient", "therapy", "drug ",
+            "pharmaceutical", "clinical trial", "who ", "cdc ",
+        ]),
+        ("climate", [
+            "climate", "environment", "clean energy", "sustainability",
+            "energy transition", "carbon", "emissions", "renewable", "solar",
+            "wind energy", "ev ", "electric vehicle", "green",
+        ]),
+        ("science", [
+            "space", "spacex", "nasa", "physics", "astronomy", "mars",
+            "biotechnology", "genetics", "science discovery", "research breakthrough",
+            "quantum", "crispr", "genome", "telescope", "satellite",
+        ]),
+        ("world", [
+            "geopolitical", "international", "trade war", "privacy", "surveillance",
+            "world", "regulation", "government", "policy", "law ", "legislation",
+            "congress", "parliament", "sanctions", "diplomacy", "united nations",
+            "eu ", "european union", "china", "india", "nist", "ftc",
+        ]),
+        ("business", [
+            "earnings", "stock", "ipo", "funding", "startup", "unicorn",
+            "crypto", "blockchain", "web3", "ceo", "revenue", "acquisition",
+            "merger", "market cap", "investor", "venture capital", "valuation",
+        ]),
+        ("entertainment", [
+            "social media", "streaming", "gaming", "esports", "entertainment",
+            "movie", "music", "tiktok", "youtube", "netflix", "spotify",
+        ]),
+    ]
+
+    # Score each category by keyword matches
+    scores: dict[str, int] = {}
+    for cat, keywords in CATEGORY_RULES:
+        score = sum(1 for kw in keywords if kw in q)
+        if score > 0:
+            scores[cat] = score
+
+    if scores:
+        best_cat = max(scores, key=scores.get)
+        if scores[best_cat] >= 1:
+            return best_cat
+
+    # AI & Tech (default for anything AI/tech related)
     return "ai-tech"
 
 
@@ -752,6 +767,7 @@ RULES:
 4. Punchy opening. Don't start with "In" or "The".
 5. No dates, no system details, no "breaking news" labels.
 6. 175-225 words. Under 170 is unacceptable.
+7. Use SIMPLE, CLEAR language that anyone can understand. Avoid jargon and complex technical terms. Write like explaining to a smart friend, not a PhD.
 
 Return JSON: {{ "articleText": "your article" }}"""
 
@@ -887,11 +903,17 @@ Do NOT repeat the same content. ADD NEW substantive information."""
             title = "New Developments in AI and Technology"
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 8. Generate image via FLUX.1-dev + upload to Cloudinary
+    # 8. Re-validate category using title + article text (smarter detection)
+    refined_category = detect_category(search_query, title, article_text)
+    if refined_category != category:
+        print(f"📌 Category refined: {category} → {refined_category} (based on title+content)")
+        category = refined_category
+
+    # 9. Generate image via g4f + upload to Cloudinary
     article_id = str(uuid.uuid4())
     image_url = generate_and_upload_image(image_prompt, article_id)
 
-    # 9. Save to Firestore
+    # 10. Save to Firestore
 
     news_item = {
         "id": article_id,
