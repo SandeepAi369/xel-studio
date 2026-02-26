@@ -79,10 +79,27 @@ const CATEGORIES: {
 
 const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.key, c]));
 
-// Map legacy backend categories to new ones
+// Map backend categories → frontend filter tabs
 function resolveCategory(cat: string): string {
-  if (cat === "ai" || cat === "tech") return "ai-tech";
-  return cat;
+  const map: Record<string, string> = {
+    // AI & Tech bucket
+    "ai": "ai-tech",
+    "tech": "ai-tech",
+    "ai-tech": "ai-tech",
+    "science": "ai-tech",
+    "business": "ai-tech",
+    "entertainment": "ai-tech",
+    // Disability bucket
+    "disability": "disability",
+    "accessibility": "disability",
+    "health": "disability",
+    // World bucket
+    "world": "world",
+    "climate": "world",
+    // General fallback
+    "general": "general",
+  };
+  return map[cat] || "general";
 }
 
 /* ─── Main Page ────────────────────────────────────────────── */
