@@ -1,42 +1,126 @@
 #!/usr/bin/env python3
 """
-Gemini Official API Image Generation
-======================================
-Generates images via Google's official Gemini API using google-genai SDK.
-Uses API key authentication — no cookies, no IP restrictions, no proxies.
+Gemini Web Image Generation (Cookie-based + Indian Proxy)
+==========================================================
+Generates images via Google Gemini's web interface using gemini-webapi.
+Routes all requests through Indian proxy to match cookie origin IP.
 
-Models (in order of preference):
-  1. gemini-3.1-flash-image-preview (Nano Banana 2) — best all-around
-  2. gemini-2.5-flash-image (Nano Banana) — high-volume, fast, 500 free/day
-
-Auth: Requires GEMINI_API_KEY from https://aistudio.google.com/apikey
+Auth: Requires __Secure-1PSID and __Secure-1PSIDTS cookies from gemini.google.com
+Proxy: Fetches free Indian proxies automatically before each request.
 
 Usage:
-    # As a module:
     from gemini_image_gen import generate_image_gemini
     img_bytes = generate_image_gemini("A futuristic city")
-
-    # Standalone test:
-    python scripts/gemini_image_gen.py "A robot painting"
 """
 
+import asyncio
 import os
 import sys
 import time
-import base64
+import tempfile
+import requests
 
 try:
-    from google import genai
-    _genai_available = True
+    from gemini_webapi import GeminiClient
+    _webapi_available = True
 except ImportError:
-    _genai_available = False
+    _webapi_available = False
 
 
-# Models in priority order (newest → stable fallback)
-GEMINI_IMAGE_MODELS = [
-    "gemini-3.1-flash-image-preview",   # Nano Banana 2 (launched Feb 26, 2026)
-    "gemini-2.5-flash-image",           # Nano Banana (stable, 500 free/day)
+# ── Free Indian Proxy Fetcher ────────────────────────────────
+
+# Sources for free Indian HTTP/HTTPS proxies (updated frequently)
+PROXY_SOURCES = [
+    "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
 ]
+
+_cached_indian_proxies: list[str] = []
+_proxy_cache_time: float = 0
+PROXY_CACHE_TTL = 600  # 10 min cache
+
+
+def _fetch_indian_proxies() -> list[str]:
+    """Fetch free Indian proxy IPs from public lists, filtered by geo-check."""
+    global _cached_indian_proxies, _proxy_cache_time
+
+    # Return cached if fresh
+    if _cached_indian_proxies and (time.time() - _proxy_cache_time) < PROXY_CACHE_TTL:
+        return _cached_indian_proxies
+
+    all_proxies = []
+    for source_url in PROXY_SOURCES:
+        try:
+            resp = requests.get(source_url, timeout=10)
+            if resp.status_code == 200:
+                lines = resp.text.strip().split("\n")
+                all_proxies.extend([l.strip() for l in lines if l.strip() and ":" in l])
+        except Exception:
+            continue
+
+    if not all_proxies:
+        print("  ⚠️ Could not fetch any proxy lists")
+        return []
+
+    print(f"  🌐 Fetched {len(all_proxies)} proxies from {len(PROXY_SOURCES)} sources")
+
+    # Test proxies for Indian geo (check via ip-api.com)
+    indian_proxies = []
+    tested = 0
+    for proxy_str in all_proxies[:100]:  # Test max 100
+        if len(indian_proxies) >= 5:  # Get 5 working Indian proxies
+            break
+        tested += 1
+        try:
+            proxy_url = f"http://{proxy_str}"
+            r = requests.get(
+                "http://ip-api.com/json/?fields=countryCode",
+                proxies={"http": proxy_url, "https": proxy_url},
+                timeout=5,
+            )
+            if r.status_code == 200:
+                data = r.json()
+                if data.get("countryCode") == "IN":
+                    indian_proxies.append(proxy_str)
+                    print(f"  ✅ Indian proxy found: {proxy_str}")
+        except Exception:
+            continue
+
+    print(f"  🇮🇳 Found {len(indian_proxies)} Indian proxies (tested {tested})")
+
+    _cached_indian_proxies = indian_proxies
+    _proxy_cache_time = time.time()
+    return indian_proxies
+
+
+# ── Gemini Image Generation ──────────────────────────────────
+
+
+async def _generate_image_async(prompt: str, psid: str, psidts: str, proxy: str | None = None) -> bytes | None:
+    """Async image generation via Gemini web interface with optional proxy."""
+    kwargs = {}
+    if proxy:
+        proxy_url = f"http://{proxy}"
+        kwargs["proxies"] = {"https": proxy_url, "http": proxy_url}
+        print(f"  🌐 Routing through Indian proxy: {proxy}")
+
+    client = GeminiClient(psid, psidts, proxy=proxy_url if proxy else None)
+    await client.init(timeout=60, auto_close=True, close_delay=30, auto_refresh=True)
+
+    image_prompt = f"Generate a photorealistic image: {prompt}"
+    response = await client.generate_content(image_prompt)
+
+    if response.images:
+        img = response.images[0]
+        with tempfile.TemporaryDirectory() as tmpdir:
+            filepath = os.path.join(tmpdir, "generated.png")
+            await img.save(path=tmpdir, filename="generated.png")
+            if os.path.isfile(filepath):
+                with open(filepath, "rb") as f:
+                    return f.read()
+
+    return None
 
 
 def generate_image_gemini(
@@ -44,66 +128,64 @@ def generate_image_gemini(
     retries: int = 2,
 ) -> bytes | None:
     """
-    Generate an image using Google's official Gemini API.
+    Generate an image using Gemini's web interface (cookie-based).
+    Automatically routes through Indian proxy to prevent IP mismatch.
 
     Args:
         prompt: Text description of the image to generate.
-        retries: Number of retry attempts per model.
+        retries: Number of retry attempts.
 
     Returns:
-        Image bytes (PNG) or None if generation fails.
+        Image bytes (PNG/JPEG) or None if generation fails.
     """
-    if not _genai_available:
-        print("  ⚠️ google-genai not installed. Run: pip install google-genai")
+    if not _webapi_available:
+        print("  ⚠️ gemini-webapi not installed. Run: pip install gemini-webapi")
         return None
 
-    api_key = os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        print("  ⚠️ No GEMINI_API_KEY set — skipping Gemini image generation")
+    psid = os.environ.get("GEMINI_SECURE_1PSID", "")
+    psidts = os.environ.get("GEMINI_SECURE_1PSIDTS", "")
+
+    if not psid:
+        print("  ⚠️ No GEMINI_SECURE_1PSID set — skipping Gemini web image generation")
         return None
 
-    client = genai.Client(api_key=api_key)
+    # Fetch Indian proxies to route requests through Indian IP
+    indian_proxies = _fetch_indian_proxies()
 
-    for model in GEMINI_IMAGE_MODELS:
-        print(f"  🎨 Trying model: {model}")
+    for attempt in range(1, retries + 1):
+        # Pick a proxy for this attempt (cycle through available ones)
+        proxy = indian_proxies[(attempt - 1) % len(indian_proxies)] if indian_proxies else None
 
-        for attempt in range(1, retries + 1):
-            try:
-                print(f"  🎨 Gemini API [{attempt}/{retries}] generating image...")
+        try:
+            print(f"  🎨 Gemini Web [{attempt}/{retries}] generating image...")
+            if not proxy:
+                print(f"  ⚠️ No Indian proxy available, trying direct connection...")
 
-                response = client.models.generate_content(
-                    model=model,
-                    contents=[f"Generate a photorealistic image: {prompt}"],
-                )
+            image_bytes = asyncio.run(_generate_image_async(prompt, psid, psidts, proxy))
 
-                # Extract image from response parts
-                if response and response.candidates:
-                    for part in response.candidates[0].content.parts:
-                        if hasattr(part, 'inline_data') and part.inline_data is not None:
-                            image_bytes = part.inline_data.data
-                            if isinstance(image_bytes, str):
-                                image_bytes = base64.b64decode(image_bytes)
+            if image_bytes and len(image_bytes) > 1000:
+                print(f"  ✅ Gemini Web: generated {len(image_bytes):,} bytes")
+                return image_bytes
+            elif image_bytes:
+                print(f"  ⚠️ Image too small: {len(image_bytes)} bytes")
+            else:
+                print(f"  ⚠️ No image in response (Gemini may have returned text only)")
 
-                            if image_bytes and len(image_bytes) > 1000:
-                                print(f"  ✅ Gemini API: generated {len(image_bytes):,} bytes ({model})")
-                                return image_bytes
-                            else:
-                                print(f"  ⚠️ Image too small: {len(image_bytes) if image_bytes else 0} bytes")
+        except Exception as e:
+            err_str = str(e)
+            print(f"  ❌ Gemini Web error [{attempt}]: {err_str[:200]}")
 
-                print(f"  ⚠️ No image in response (model may have returned text only)")
+            # If proxy failed, try next proxy
+            if proxy and indian_proxies:
+                indian_proxies.remove(proxy)
+                print(f"  🔄 Removed bad proxy, {len(indian_proxies)} remaining")
 
-            except Exception as e:
-                err_str = str(e)
-                print(f"  ❌ Gemini API error [{attempt}]: {err_str[:200]}")
+            if attempt < retries:
+                wait = 5 * attempt
+                print(f"  ⏳ Waiting {wait}s before retry...")
+                time.sleep(wait)
 
-                if attempt < retries:
-                    wait = 5 * attempt
-                    print(f"  ⏳ Waiting {wait}s before retry...")
-                    time.sleep(wait)
-
-        print(f"  ⚠️ Model {model} failed, trying next...")
-
-    print(f"  ❌ Gemini API: all models and attempts failed")
+    print(f"  ❌ Gemini Web: all {retries} attempts failed")
     return None
 
 
@@ -121,7 +203,7 @@ if __name__ == "__main__":
     )
 
     print("=" * 60)
-    print("🧪 GEMINI OFFICIAL API IMAGE GENERATION TEST")
+    print("🧪 GEMINI WEB IMAGE GENERATION TEST (with Indian Proxy)")
     print("=" * 60)
     print(f"📝 Prompt: \"{prompt[:80]}...\"")
     print()
