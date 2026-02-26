@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
-Gemini Web Image Generation (Cookie-based)
-============================================
-Generates images via Google Gemini's web interface using gemini-webapi.
-Uses your premium Google account cookies — no API key quotas.
+Gemini Official API Image Generation
+======================================
+Generates images via Google's official Gemini API using google-genai SDK.
+Uses API key authentication — no cookies, no IP restrictions, no proxies.
 
-Auth: Requires __Secure-1PSID and __Secure-1PSIDTS cookies from gemini.google.com
+Models (in order of preference):
+  1. gemini-3.1-flash-image-preview (Nano Banana 2) — best all-around
+  2. gemini-2.5-flash-image (Nano Banana) — high-volume, fast, 500 free/day
+
+Auth: Requires GEMINI_API_KEY from https://aistudio.google.com/apikey
 
 Usage:
     # As a module:
@@ -16,39 +20,23 @@ Usage:
     python scripts/gemini_image_gen.py "A robot painting"
 """
 
-import asyncio
 import os
 import sys
 import time
-import tempfile
+import base64
 
 try:
-    from gemini_webapi import GeminiClient
-    _webapi_available = True
+    from google import genai
+    _genai_available = True
 except ImportError:
-    _webapi_available = False
+    _genai_available = False
 
 
-async def _generate_image_async(prompt: str, psid: str, psidts: str) -> bytes | None:
-    """Async image generation via Gemini web interface."""
-    client = GeminiClient(psid, psidts)
-    await client.init(timeout=60, auto_close=True, close_delay=30, auto_refresh=True)
-
-    # Ask Gemini to generate an image (must use "generate" keyword)
-    image_prompt = f"Generate a photorealistic image: {prompt}"
-    response = await client.generate_content(image_prompt)
-
-    if response.images:
-        # Save first generated image to temp file and read bytes
-        img = response.images[0]
-        with tempfile.TemporaryDirectory() as tmpdir:
-            filepath = os.path.join(tmpdir, "generated.png")
-            await img.save(path=tmpdir, filename="generated.png")
-            if os.path.isfile(filepath):
-                with open(filepath, "rb") as f:
-                    return f.read()
-
-    return None
+# Models in priority order (newest → stable fallback)
+GEMINI_IMAGE_MODELS = [
+    "gemini-3.1-flash-image-preview",   # Nano Banana 2 (launched Feb 26, 2026)
+    "gemini-2.5-flash-image",           # Nano Banana (stable, 500 free/day)
+]
 
 
 def generate_image_gemini(
@@ -56,50 +44,66 @@ def generate_image_gemini(
     retries: int = 2,
 ) -> bytes | None:
     """
-    Generate an image using Gemini's web interface (cookie-based).
+    Generate an image using Google's official Gemini API.
 
     Args:
         prompt: Text description of the image to generate.
-        retries: Number of retry attempts.
+        retries: Number of retry attempts per model.
 
     Returns:
-        Image bytes (PNG/JPEG) or None if generation fails.
+        Image bytes (PNG) or None if generation fails.
     """
-    if not _webapi_available:
-        print("  ⚠️ gemini-webapi not installed. Run: pip install gemini-webapi")
+    if not _genai_available:
+        print("  ⚠️ google-genai not installed. Run: pip install google-genai")
         return None
 
-    psid = os.environ.get("GEMINI_SECURE_1PSID", "")
-    psidts = os.environ.get("GEMINI_SECURE_1PSIDTS", "")
-
-    if not psid:
-        print("  ⚠️ No GEMINI_SECURE_1PSID set — skipping Gemini web image generation")
+    api_key = os.environ.get("GEMINI_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ No GEMINI_API_KEY set — skipping Gemini image generation")
         return None
 
-    for attempt in range(1, retries + 1):
-        try:
-            print(f"  🎨 Gemini Web [{attempt}/{retries}] generating image...")
+    client = genai.Client(api_key=api_key)
 
-            image_bytes = asyncio.run(_generate_image_async(prompt, psid, psidts))
+    for model in GEMINI_IMAGE_MODELS:
+        print(f"  🎨 Trying model: {model}")
 
-            if image_bytes and len(image_bytes) > 1000:
-                print(f"  ✅ Gemini Web: generated {len(image_bytes):,} bytes")
-                return image_bytes
-            elif image_bytes:
-                print(f"  ⚠️ Image too small: {len(image_bytes)} bytes")
-            else:
-                print(f"  ⚠️ No image in response (Gemini may have returned text only)")
+        for attempt in range(1, retries + 1):
+            try:
+                print(f"  🎨 Gemini API [{attempt}/{retries}] generating image...")
 
-        except Exception as e:
-            err_str = str(e)
-            print(f"  ❌ Gemini Web error [{attempt}]: {err_str[:200]}")
+                response = client.models.generate_content(
+                    model=model,
+                    contents=[f"Generate a photorealistic image: {prompt}"],
+                )
 
-            if attempt < retries:
-                wait = 5 * attempt
-                print(f"  ⏳ Waiting {wait}s before retry...")
-                time.sleep(wait)
+                # Extract image from response parts
+                if response and response.candidates:
+                    for part in response.candidates[0].content.parts:
+                        if hasattr(part, 'inline_data') and part.inline_data is not None:
+                            image_bytes = part.inline_data.data
+                            if isinstance(image_bytes, str):
+                                image_bytes = base64.b64decode(image_bytes)
 
-    print(f"  ❌ Gemini Web: all {retries} attempts failed")
+                            if image_bytes and len(image_bytes) > 1000:
+                                print(f"  ✅ Gemini API: generated {len(image_bytes):,} bytes ({model})")
+                                return image_bytes
+                            else:
+                                print(f"  ⚠️ Image too small: {len(image_bytes) if image_bytes else 0} bytes")
+
+                print(f"  ⚠️ No image in response (model may have returned text only)")
+
+            except Exception as e:
+                err_str = str(e)
+                print(f"  ❌ Gemini API error [{attempt}]: {err_str[:200]}")
+
+                if attempt < retries:
+                    wait = 5 * attempt
+                    print(f"  ⏳ Waiting {wait}s before retry...")
+                    time.sleep(wait)
+
+        print(f"  ⚠️ Model {model} failed, trying next...")
+
+    print(f"  ❌ Gemini API: all models and attempts failed")
     return None
 
 
@@ -117,7 +121,7 @@ if __name__ == "__main__":
     )
 
     print("=" * 60)
-    print("🧪 GEMINI WEB IMAGE GENERATION TEST")
+    print("🧪 GEMINI OFFICIAL API IMAGE GENERATION TEST")
     print("=" * 60)
     print(f"📝 Prompt: \"{prompt[:80]}...\"")
     print()
