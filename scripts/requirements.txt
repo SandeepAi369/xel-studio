@@ -16,8 +16,8 @@ cerebras-cloud-sdk>=1.0.0
 
 
 
-# Gemini Web API (cookie-based image generation + proxy routing)
-gemini-webapi>=1.19.0
+# g4f (gpt4free) — multi-provider image generation (Flux, DALL-E, SDXL)
+g4f[image]
 
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
