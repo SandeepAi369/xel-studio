@@ -16,9 +16,8 @@ cerebras-cloud-sdk>=1.0.0
 
 
 
-# Google Gemini Official API (image generation via API key)
-google-genai>=1.0.0
-Pillow>=10.0.0
+# Gemini Web API (cookie-based image generation + proxy routing)
+gemini-webapi>=1.19.0
 
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
