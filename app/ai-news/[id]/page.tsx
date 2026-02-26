@@ -82,6 +82,8 @@ export default function NewsDetailPage() {
 
     const [article, setArticle] = useState<NewsItem | null>(null);
     const [loading, setLoading] = useState(true);
+    const [liked, setLiked] = useState(false);
+    const [copied, setCopied] = useState(false);
 
     useEffect(() => {
         if (!id) return;
@@ -143,9 +145,6 @@ export default function NewsDetailPage() {
         );
     }
 
-    const [liked, setLiked] = useState(false);
-    const [copied, setCopied] = useState(false);
-
     const readingTime = getReadingTime(article.summary);
     const paragraphs = formatContent(article.summary);
     const catConfig = CATEGORY_DISPLAY[article.category] || CATEGORY_DISPLAY.general;
@@ -157,7 +156,7 @@ export default function NewsDetailPage() {
             );
             setCopied(true);
             setTimeout(() => setCopied(false), 2000);
-        } catch {
+        } catch (err) {
             /* fallback: do nothing */
         }
     };
@@ -176,7 +175,7 @@ export default function NewsDetailPage() {
                 setCopied(true);
                 setTimeout(() => setCopied(false), 2000);
             }
-        } catch {
+        } catch (err) {
             /* user cancelled */
         }
     };
@@ -319,28 +318,28 @@ export default function NewsDetailPage() {
                                 onClick={handleCopy}
                                 title={copied ? "Copied!" : "Copy article"}
                                 className={`p-2.5 rounded-xl border transition-all duration-200 ${copied
-                                        ? "bg-green-500/20 border-green-500/40 text-green-400"
-                                        : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
+                                    ? "bg-green-500/20 border-green-500/40 text-green-400"
+                                    : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
                                     }`}
                             >
-                                <Copy className="w-4.5 h-4.5" />
+                                <Copy className="w-[18px] h-[18px]" />
                             </button>
                             <button
                                 onClick={handleShare}
                                 title="Share article"
                                 className="p-2.5 rounded-xl border bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50 transition-all duration-200"
                             >
-                                <Share2 className="w-4.5 h-4.5" />
+                                <Share2 className="w-[18px] h-[18px]" />
                             </button>
                             <button
                                 onClick={() => setLiked(!liked)}
                                 title={liked ? "Unlike" : "Like"}
                                 className={`p-2.5 rounded-xl border transition-all duration-200 ${liked
-                                        ? "bg-red-500/20 border-red-500/40 text-red-400"
-                                        : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
+                                    ? "bg-red-500/20 border-red-500/40 text-red-400"
+                                    : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
                                     }`}
                             >
-                                <Heart className={`w-4.5 h-4.5 ${liked ? "fill-red-400" : ""}`} />
+                                <Heart className={`w-[18px] h-[18px] ${liked ? "fill-red-400" : ""}`} />
                             </button>
                         </div>
                     </div>
