@@ -634,16 +634,18 @@ def _call_gemini_api(prompt: str) -> bytes | None:
 
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Image pipeline with 4-level fallback:
-      1. Gemini Web (cookie-based, premium Google account) → Cloudinary
+    Image pipeline with 5-level fallback:
+      1. Gemini Web (cookie-based) → Cloudinary
       2. FLUX.1-dev (HuggingFace Space) → Cloudinary
-      3. Pollinations.ai (free) → Cloudinary
-      4. Placeholder → Cloudinary
+      3. Pollinations.ai download → Cloudinary
+      4. Pollinations.ai direct URL (no download, stored as-is)
+      5. Placeholder → Cloudinary
     """
     import re as _re
+    import urllib.parse as _urlparse
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (Gemini Web → FLUX → Pollinations → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (Gemini → FLUX → Pollinations → Direct URL → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -682,7 +684,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
         except Exception as e:
             print(f"  ❌ FLUX download failed: {e}")
 
-    # ── Attempt 3: Pollinations.ai ───────────────────────────
+    # ── Attempt 3: Pollinations.ai (download → Cloudinary) ───
     poll_bytes = _call_pollinations(clean_prompt)
     if poll_bytes:
         result = _upload_bytes_to_cloudinary(poll_bytes, article_id)
@@ -690,7 +692,22 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             print(f"  ✅ IMAGE SUCCESS (Pollinations → Cloudinary)")
             return result
 
-    # ── Attempt 4: Placeholder ───────────────────────────────
+    # ── Attempt 4: Pollinations direct URL (no download) ─────
+    # If download fails (530 errors), store the Pollinations URL directly
+    # The user's browser will fetch the image on-demand
+    try:
+        import random
+        seed = random.randint(1, 999999)
+        short_prompt = clean_prompt[:150].rsplit(" ", 1)[0] if len(clean_prompt) > 150 else clean_prompt
+        encoded = _urlparse.quote(short_prompt)
+        direct_url = f"https://image.pollinations.ai/prompt/{encoded}?width=1024&height=576&nologo=true&seed={seed}"
+        print(f"  🔗 Using Pollinations direct URL (browser will fetch on-demand)")
+        print(f"  ✅ IMAGE SUCCESS (Pollinations Direct URL)")
+        return direct_url
+    except Exception as e:
+        print(f"  ❌ Direct URL generation failed: {e}")
+
+    # ── Attempt 5: Placeholder ───────────────────────────────
     print(f"  ⚠️ All image sources failed, using placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
