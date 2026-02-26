@@ -253,7 +253,7 @@ def init_cloudinary():
             )
             print("☁️ Cloudinary initialized from individual env vars")
         else:
-            print("⚠️ No Cloudinary credentials — images will use Pollinations URL directly")
+            print("⚠️ No Cloudinary credentials — images will use placeholder")
 
 
 
@@ -403,19 +403,10 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation (Gemini Web + FLUX.1-dev + Pollinations) & Cloudinary Upload ─
+# ─── Image Generation (Gemini Web) & Cloudinary Upload ───────
 
 # Priority 1: Gemini Web (cookie-based, uses premium Google account)
-# Priority 2: FLUX.1-dev (HuggingFace Space Gradio API)
-# Priority 3: Pollinations.ai (free, no API key)
-# Priority 4: Placeholder image
-
-FLUX_SPACE_URL = "https://black-forest-labs-flux-1-dev.hf.space"
-FLUX_API_NAME = "infer"
-FLUX_TIMEOUT = 120  # seconds for image generation
-
-POLLINATIONS_URL = "https://image.pollinations.ai/prompt"
-POLLINATIONS_TIMEOUT = 60  # seconds
+# Priority 2: Placeholder image
 
 PLACEHOLDER_IMAGE_URL = (
     "https://placehold.co/1024x576/1a1a2e/e2e8f0?text=XeL+AI+News&font=roboto"
@@ -446,154 +437,7 @@ def _upload_placeholder_to_cloudinary(article_id: str) -> str:
     return PLACEHOLDER_IMAGE_URL
 
 
-def _call_flux_gradio(prompt: str) -> str | None:
-    """
-    Call FLUX.1-dev HuggingFace Space via Gradio API.
-    Returns the generated image URL, or None on failure.
-    
-    API flow: POST to queue → poll SSE for result → extract file URL.
-    
-    IMPORTANT: Gradio SSE sends multiple events:
-      - event: generating  → intermediate progress frames (noisy/incomplete)
-      - event: complete     → final rendered image
-    We MUST wait for 'complete' and ignore 'generating' frames.
-    """
-    import json as _json
 
-    hf_token = os.environ.get("HF_TOKEN", "")
-    headers = {"Authorization": f"Bearer {hf_token}"} if hf_token else {}
-
-    # Step 1: Queue the generation request
-    # Args: [prompt, seed, randomize_seed, width, height, guidance_scale, num_steps]
-    try:
-        print(f"  📤 Queuing FLUX.1-dev generation...")
-        queue_resp = requests.post(
-            f"{FLUX_SPACE_URL}/gradio_api/call/{FLUX_API_NAME}",
-            json={"data": [prompt, 0, True, 1024, 1024, 3.5, 28]},
-            headers=headers,
-            timeout=30,
-        )
-        if queue_resp.status_code != 200:
-            print(f"  ❌ Queue failed ({queue_resp.status_code}): {queue_resp.text[:150]}")
-            return None
-        event_id = queue_resp.json().get("event_id")
-        print(f"  📋 Queued: event_id={event_id}")
-    except Exception as e:
-        print(f"  ❌ Queue request failed: {e}")
-        return None
-
-    # Step 2: Poll SSE stream for the FINAL result
-    try:
-        print(f"  ⏳ Waiting for FLUX.1-dev result (timeout={FLUX_TIMEOUT}s)...")
-        sse_resp = requests.get(
-            f"{FLUX_SPACE_URL}/gradio_api/call/{FLUX_API_NAME}/{event_id}",
-            headers=headers,
-            stream=True,
-            timeout=FLUX_TIMEOUT,
-        )
-
-        image_url = None
-        current_event = ""
-
-        for line in sse_resp.iter_lines(decode_unicode=True):
-            if not line:
-                continue
-
-            # Track the SSE event type
-            if line.startswith("event: "):
-                current_event = line[7:].strip()
-                if current_event == "generating":
-                    print(f"  🔄 Generating (progress frame, skipping)...")
-                continue
-
-            # Only process data from "complete" events
-            if not line.startswith("data: "):
-                continue
-
-            # Skip data from intermediate "generating" events (latent noise frames)
-            if current_event != "complete":
-                continue
-
-            raw = line[6:]
-            if not (raw.startswith("[") or raw.startswith("{")):
-                continue
-
-            try:
-                parsed = _json.loads(raw)
-                if isinstance(parsed, list):
-                    for item in parsed:
-                        if isinstance(item, dict):
-                            url = item.get("url", "")
-                            if url:
-                                if not url.startswith("http"):
-                                    image_url = f"{FLUX_SPACE_URL}/gradio_api/file={url}"
-                                else:
-                                    image_url = url
-                                break
-            except _json.JSONDecodeError:
-                pass
-
-            if image_url:
-                break
-
-        if image_url:
-            print(f"  📎 FLUX final image: {image_url[:100]}...")
-        else:
-            print(f"  ❌ No image URL in FLUX response")
-        return image_url
-
-
-    except requests.exceptions.Timeout:
-        print(f"  ❌ FLUX timed out after {FLUX_TIMEOUT}s")
-        return None
-    except Exception as e:
-        print(f"  ❌ FLUX SSE error: {e}")
-        return None
-
-
-def _call_pollinations(prompt: str) -> bytes | None:
-    """Fallback: Generate image via Pollinations.ai (free, no API key).
-    Includes retries with backoff and shorter prompt for reliability."""
-    import urllib.parse as _urlparse
-    import random
-
-    # Shorten prompt — Pollinations fails on very long prompts (530 errors)
-    short_prompt = prompt[:200].rsplit(" ", 1)[0] if len(prompt) > 200 else prompt
-
-    for attempt in range(1, 4):  # 3 retries
-        try:
-            seed = random.randint(1, 999999)
-            encoded = _urlparse.quote(short_prompt)
-            url = f"{POLLINATIONS_URL}/{encoded}?width=1024&height=576&nologo=true&seed={seed}&model=flux"
-            print(f"  🌸 Pollinations.ai [{attempt}/3]...")
-
-            resp = requests.get(
-                url,
-                timeout=POLLINATIONS_TIMEOUT,
-                headers={"User-Agent": "Mozilla/5.0 XeL-News/1.0"},
-            )
-            if resp.status_code == 200 and len(resp.content) > 5000:
-                print(f"  ✅ Pollinations returned {len(resp.content):,} bytes")
-                return resp.content
-
-            print(f"  ⚠️ Pollinations: status={resp.status_code}, size={len(resp.content)}")
-
-            if attempt < 3:
-                wait = 5 * attempt
-                print(f"  ⏳ Retry in {wait}s...")
-                time.sleep(wait)
-
-        except requests.exceptions.Timeout:
-            print(f"  ⚠️ Pollinations timed out [{attempt}/3]")
-            if attempt < 3:
-                time.sleep(5)
-        except Exception as e:
-            print(f"  ❌ Pollinations failed [{attempt}/3]: {e}")
-            if attempt < 3:
-                time.sleep(5)
-
-    print(f"  ❌ Pollinations: all 3 attempts failed")
-    return None
 
 
 def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | None:
@@ -634,18 +478,14 @@ def _call_gemini_api(prompt: str) -> bytes | None:
 
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
-    Image pipeline with 5-level fallback:
-      1. Gemini Web (cookie-based) → Cloudinary
-      2. FLUX.1-dev (HuggingFace Space) → Cloudinary
-      3. Pollinations.ai download → Cloudinary
-      4. Pollinations.ai direct URL (no download, stored as-is)
-      5. Placeholder → Cloudinary
+    Image pipeline:
+      1. Gemini Web (cookie-based, premium Google account) → Cloudinary
+      2. Placeholder → Cloudinary
     """
     import re as _re
-    import urllib.parse as _urlparse
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (Gemini → FLUX → Pollinations → Direct URL → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (Gemini Web → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -669,46 +509,8 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
             print(f"  ✅ IMAGE SUCCESS (Gemini Web → Cloudinary)")
             return result
 
-    # ── Attempt 2: FLUX.1-dev ────────────────────────────────
-    image_url = _call_flux_gradio(enhanced_prompt)
-    if image_url:
-        try:
-            print(f"  ⬇️ Downloading FLUX image...")
-            dl = requests.get(image_url, timeout=60)
-            dl.raise_for_status()
-            if len(dl.content) > 1000:
-                result = _upload_bytes_to_cloudinary(dl.content, article_id)
-                if result:
-                    print(f"  ✅ IMAGE SUCCESS (FLUX.1-dev → Cloudinary)")
-                    return result
-        except Exception as e:
-            print(f"  ❌ FLUX download failed: {e}")
-
-    # ── Attempt 3: Pollinations.ai (download → Cloudinary) ───
-    poll_bytes = _call_pollinations(clean_prompt)
-    if poll_bytes:
-        result = _upload_bytes_to_cloudinary(poll_bytes, article_id)
-        if result:
-            print(f"  ✅ IMAGE SUCCESS (Pollinations → Cloudinary)")
-            return result
-
-    # ── Attempt 4: Pollinations direct URL (no download) ─────
-    # If download fails (530 errors), store the Pollinations URL directly
-    # The user's browser will fetch the image on-demand
-    try:
-        import random
-        seed = random.randint(1, 999999)
-        short_prompt = clean_prompt[:150].rsplit(" ", 1)[0] if len(clean_prompt) > 150 else clean_prompt
-        encoded = _urlparse.quote(short_prompt)
-        direct_url = f"https://image.pollinations.ai/prompt/{encoded}?width=1024&height=576&nologo=true&seed={seed}"
-        print(f"  🔗 Using Pollinations direct URL (browser will fetch on-demand)")
-        print(f"  ✅ IMAGE SUCCESS (Pollinations Direct URL)")
-        return direct_url
-    except Exception as e:
-        print(f"  ❌ Direct URL generation failed: {e}")
-
-    # ── Attempt 5: Placeholder ───────────────────────────────
-    print(f"  ⚠️ All image sources failed, using placeholder")
+    # ── Attempt 2: Placeholder ───────────────────────────────
+    print(f"  ⚠️ Gemini failed, using placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
 
@@ -855,7 +657,7 @@ def cleanup_old_news(db: firestore.Client):
 
 def generate_news():
     t0 = time.time()
-    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini Web/FLUX/Pollinations + Cloudinary")
+    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini Web + Cloudinary")
 
     # Init services
     db = init_firebase()
@@ -1115,7 +917,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
         "word_count": str(word_count),
         "image_prompt": image_prompt[:100],
         "has_image": "yes" if image_url else "no",
-        "image_source": "cloudinary" if "cloudinary" in image_url else ("pollinations" if "pollinations" in image_url else "placeholder"),
+        "image_source": "cloudinary" if "cloudinary" in image_url else "placeholder",
         "search_query": used_query,
         "search_results": str(len(scraped_data)),
         "duration_ms": str(duration),
@@ -1126,7 +928,7 @@ Do NOT repeat the same content. ADD NEW substantive information."""
     print(f"   Title:    {title}")
     print(f"   Category: {category}")
     print(f"   Words:    {word_count}")
-    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else ('Pollinations URL' if 'pollinations' in image_url else 'Placeholder')}")
+    print(f"   Image:    {'Cloudinary' if 'cloudinary' in image_url else 'Placeholder'}")
     print(f"   Duration: {duration}ms")
     print(f"{'='*60}")
 
