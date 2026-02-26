@@ -552,23 +552,48 @@ def _call_flux_gradio(prompt: str) -> str | None:
 
 
 def _call_pollinations(prompt: str) -> bytes | None:
-    """Fallback: Generate image via Pollinations.ai (free, no API key)."""
+    """Fallback: Generate image via Pollinations.ai (free, no API key).
+    Includes retries with backoff and shorter prompt for reliability."""
     import urllib.parse as _urlparse
+    import random
 
-    encoded = _urlparse.quote(prompt[:500])
-    url = f"{POLLINATIONS_URL}/{encoded}?width=1024&height=576&nologo=true"
-    print(f"  🌸 Trying Pollinations.ai fallback...")
+    # Shorten prompt — Pollinations fails on very long prompts (530 errors)
+    short_prompt = prompt[:200].rsplit(" ", 1)[0] if len(prompt) > 200 else prompt
 
-    try:
-        resp = requests.get(url, timeout=POLLINATIONS_TIMEOUT)
-        if resp.status_code == 200 and len(resp.content) > 5000:
-            print(f"  ✅ Pollinations returned {len(resp.content)} bytes")
-            return resp.content
-        print(f"  ❌ Pollinations: status={resp.status_code}, size={len(resp.content)}")
-        return None
-    except Exception as e:
-        print(f"  ❌ Pollinations failed: {e}")
-        return None
+    for attempt in range(1, 4):  # 3 retries
+        try:
+            seed = random.randint(1, 999999)
+            encoded = _urlparse.quote(short_prompt)
+            url = f"{POLLINATIONS_URL}/{encoded}?width=1024&height=576&nologo=true&seed={seed}&model=flux"
+            print(f"  🌸 Pollinations.ai [{attempt}/3]...")
+
+            resp = requests.get(
+                url,
+                timeout=POLLINATIONS_TIMEOUT,
+                headers={"User-Agent": "Mozilla/5.0 XeL-News/1.0"},
+            )
+            if resp.status_code == 200 and len(resp.content) > 5000:
+                print(f"  ✅ Pollinations returned {len(resp.content):,} bytes")
+                return resp.content
+
+            print(f"  ⚠️ Pollinations: status={resp.status_code}, size={len(resp.content)}")
+
+            if attempt < 3:
+                wait = 5 * attempt
+                print(f"  ⏳ Retry in {wait}s...")
+                time.sleep(wait)
+
+        except requests.exceptions.Timeout:
+            print(f"  ⚠️ Pollinations timed out [{attempt}/3]")
+            if attempt < 3:
+                time.sleep(5)
+        except Exception as e:
+            print(f"  ❌ Pollinations failed [{attempt}/3]: {e}")
+            if attempt < 3:
+                time.sleep(5)
+
+    print(f"  ❌ Pollinations: all 3 attempts failed")
+    return None
 
 
 def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | None:
