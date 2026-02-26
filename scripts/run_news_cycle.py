@@ -819,8 +819,8 @@ def generate_news():
     db = init_firebase()
     init_cloudinary()
 
-    # Run cleanup before generating new article
-    cleanup_old_news(db)
+    # NOTE: Cleanup is now a separate daily cron job (news_cleanup.yml)
+    # Runs once at 12:15 AM IST — keeps 50 articles, deletes excess
 
     cerebras_key = os.environ.get("CEREBRAS_API_KEY")
     if not cerebras_key:
