@@ -11,6 +11,8 @@ import {
     Bot,
     FileText,
 } from "lucide-react";
+import SmartListenButton from "@/components/SmartListenButton";
+import { prepareTTSText } from "@/lib/tts-text";
 
 import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
@@ -203,10 +205,15 @@ export default function NewsDetailPage() {
                             </span>
                         </div>
 
-                        {/* Title */}
-                        <h1 className="text-2xl md:text-3xl font-bold text-white leading-snug">
-                            {article.title}
-                        </h1>
+                        {/* Title + Listen */}
+                        <div className="flex items-start gap-4">
+                            <h1 className="text-xl md:text-2xl font-bold text-white leading-snug flex-1">
+                                {article.title}
+                            </h1>
+                            <div className="flex-shrink-0 mt-1">
+                                <SmartListenButton text={prepareTTSText(article.title, article.summary)} iconOnly className="w-11 h-11" />
+                            </div>
+                        </div>
                     </div>
 
                     {/* Article Body — Clean text formatting (same as articles section) */}
