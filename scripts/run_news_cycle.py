@@ -403,9 +403,9 @@ def log_health(db: firestore.Client, status: str, details: dict):
         print(f"Health log write failed: {e}")
 
 
-# ─── Image Generation (Gemini Web) & Cloudinary Upload ───────
+# ─── Image Generation (g4f multi-provider) & Cloudinary Upload ───
 
-# Priority 1: Gemini Web (cookie-based, uses premium Google account)
+# Priority 1: g4f (Flux, DALL-E 3, SDXL, SD3 — no API keys needed)
 # Priority 2: Placeholder image
 
 PLACEHOLDER_IMAGE_URL = (
@@ -463,29 +463,29 @@ def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | No
     return None
 
 
-def _call_gemini_api(prompt: str) -> bytes | None:
-    """Attempt image generation via Gemini Web (Priority 1)."""
+def _call_g4f_image(prompt: str) -> bytes | None:
+    """Attempt image generation via g4f multi-provider system."""
     try:
         from gemini_image_gen import generate_image_gemini
         return generate_image_gemini(prompt)
     except ImportError:
-        print("  ⚠️ gemini_image_gen not available (gemini-webapi not installed?)")
+        print("  ⚠️ g4f image gen not available (g4f not installed?)")
         return None
     except Exception as e:
-        print(f"  ❌ Gemini Web error: {e}")
+        print(f"  ❌ g4f image error: {e}")
         return None
 
 
 def generate_and_upload_image(prompt: str, article_id: str) -> str:
     """
     Image pipeline:
-      1. Gemini Web (cookie-based, premium Google account) → Cloudinary
+      1. g4f (Flux, DALL-E 3, SDXL, SD3) → Cloudinary
       2. Placeholder → Cloudinary
     """
     import re as _re
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (Gemini Web → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (g4f → Placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -501,16 +501,16 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     )
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # ── Attempt 1: Gemini Web ────────────────────────────────
-    gemini_bytes = _call_gemini_api(enhanced_prompt)
-    if gemini_bytes:
-        result = _upload_bytes_to_cloudinary(gemini_bytes, article_id)
+    # ── Attempt 1: g4f (multi-provider) ──────────────────────
+    g4f_bytes = _call_g4f_image(enhanced_prompt)
+    if g4f_bytes:
+        result = _upload_bytes_to_cloudinary(g4f_bytes, article_id)
         if result:
-            print(f"  ✅ IMAGE SUCCESS (Gemini Web → Cloudinary)")
+            print(f"  ✅ IMAGE SUCCESS (g4f → Cloudinary)")
             return result
 
     # ── Attempt 2: Placeholder ───────────────────────────────
-    print(f"  ⚠️ Gemini failed, using placeholder")
+    print(f"  ⚠️ g4f failed, using placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
 
@@ -657,7 +657,7 @@ def cleanup_old_news(db: firestore.Client):
 
 def generate_news():
     t0 = time.time()
-    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + Gemini Web + Cloudinary")
+    print("⚡ NEWS PIPELINE (GitHub Actions) — Cerebras + Tavily + g4f + Cloudinary")
 
     # Init services
     db = init_firebase()

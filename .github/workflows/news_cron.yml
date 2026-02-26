@@ -29,8 +29,6 @@ jobs:
 
       - name: Run news pipeline
         env:
-          GEMINI_SECURE_1PSID: ${{ secrets.GEMINI_SECURE_1PSID }}
-          GEMINI_SECURE_1PSIDTS: ${{ secrets.GEMINI_SECURE_1PSIDTS }}
           FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}

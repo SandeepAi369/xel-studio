@@ -1,126 +1,39 @@
 #!/usr/bin/env python3
 """
-Gemini Web Image Generation (Cookie-based + Indian Proxy)
-==========================================================
-Generates images via Google Gemini's web interface using gemini-webapi.
-Routes all requests through Indian proxy to match cookie origin IP.
+Image Generation via g4f (gpt4free)
+====================================
+Uses the g4f library to generate images via multiple free providers.
+No API keys needed — g4f handles provider selection automatically.
 
-Auth: Requires __Secure-1PSID and __Secure-1PSIDTS cookies from gemini.google.com
-Proxy: Fetches free Indian proxies automatically before each request.
+Providers include: Flux, DALL-E (Bing), and other free image models.
+
+Install: pip install -U g4f[image]
 
 Usage:
     from gemini_image_gen import generate_image_gemini
     img_bytes = generate_image_gemini("A futuristic city")
 """
 
-import asyncio
 import os
 import sys
 import time
-import tempfile
 import requests
 
 try:
-    from gemini_webapi import GeminiClient
-    _webapi_available = True
+    from g4f.client import Client as G4FClient
+    _g4f_available = True
 except ImportError:
-    _webapi_available = False
+    _g4f_available = False
 
 
-# ── Free Indian Proxy Fetcher ────────────────────────────────
-
-# Sources for free Indian HTTP/HTTPS proxies (updated frequently)
-PROXY_SOURCES = [
-    "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
-    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
-    "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+# Image models to try in order (best quality → fastest)
+IMAGE_MODELS = [
+    "flux",          # High-quality, free
+    "dall-e-3",      # Microsoft Bing DALL-E 3
+    "dall-e",        # Bing DALL-E fallback
+    "sdxl",          # Stable Diffusion XL
+    "sd-3",          # Stable Diffusion 3
 ]
-
-_cached_indian_proxies: list[str] = []
-_proxy_cache_time: float = 0
-PROXY_CACHE_TTL = 600  # 10 min cache
-
-
-def _fetch_indian_proxies() -> list[str]:
-    """Fetch free Indian proxy IPs from public lists, filtered by geo-check."""
-    global _cached_indian_proxies, _proxy_cache_time
-
-    # Return cached if fresh
-    if _cached_indian_proxies and (time.time() - _proxy_cache_time) < PROXY_CACHE_TTL:
-        return _cached_indian_proxies
-
-    all_proxies = []
-    for source_url in PROXY_SOURCES:
-        try:
-            resp = requests.get(source_url, timeout=10)
-            if resp.status_code == 200:
-                lines = resp.text.strip().split("\n")
-                all_proxies.extend([l.strip() for l in lines if l.strip() and ":" in l])
-        except Exception:
-            continue
-
-    if not all_proxies:
-        print("  ⚠️ Could not fetch any proxy lists")
-        return []
-
-    print(f"  🌐 Fetched {len(all_proxies)} proxies from {len(PROXY_SOURCES)} sources")
-
-    # Test proxies for Indian geo (check via ip-api.com)
-    indian_proxies = []
-    tested = 0
-    for proxy_str in all_proxies[:100]:  # Test max 100
-        if len(indian_proxies) >= 5:  # Get 5 working Indian proxies
-            break
-        tested += 1
-        try:
-            proxy_url = f"http://{proxy_str}"
-            r = requests.get(
-                "http://ip-api.com/json/?fields=countryCode",
-                proxies={"http": proxy_url, "https": proxy_url},
-                timeout=5,
-            )
-            if r.status_code == 200:
-                data = r.json()
-                if data.get("countryCode") == "IN":
-                    indian_proxies.append(proxy_str)
-                    print(f"  ✅ Indian proxy found: {proxy_str}")
-        except Exception:
-            continue
-
-    print(f"  🇮🇳 Found {len(indian_proxies)} Indian proxies (tested {tested})")
-
-    _cached_indian_proxies = indian_proxies
-    _proxy_cache_time = time.time()
-    return indian_proxies
-
-
-# ── Gemini Image Generation ──────────────────────────────────
-
-
-async def _generate_image_async(prompt: str, psid: str, psidts: str, proxy: str | None = None) -> bytes | None:
-    """Async image generation via Gemini web interface with optional proxy."""
-    kwargs = {}
-    if proxy:
-        proxy_url = f"http://{proxy}"
-        kwargs["proxies"] = {"https": proxy_url, "http": proxy_url}
-        print(f"  🌐 Routing through Indian proxy: {proxy}")
-
-    client = GeminiClient(psid, psidts, proxy=proxy_url if proxy else None)
-    await client.init(timeout=60, auto_close=True, close_delay=30, auto_refresh=True)
-
-    image_prompt = f"Generate a photorealistic image: {prompt}"
-    response = await client.generate_content(image_prompt)
-
-    if response.images:
-        img = response.images[0]
-        with tempfile.TemporaryDirectory() as tmpdir:
-            filepath = os.path.join(tmpdir, "generated.png")
-            await img.save(path=tmpdir, filename="generated.png")
-            if os.path.isfile(filepath):
-                with open(filepath, "rb") as f:
-                    return f.read()
-
-    return None
 
 
 def generate_image_gemini(
@@ -128,64 +41,67 @@ def generate_image_gemini(
     retries: int = 2,
 ) -> bytes | None:
     """
-    Generate an image using Gemini's web interface (cookie-based).
-    Automatically routes through Indian proxy to prevent IP mismatch.
+    Generate an image using g4f (gpt4free) multi-provider system.
+
+    Tries multiple free image models (Flux, DALL-E 3, SDXL, SD3).
+    Downloads the generated image and returns raw bytes.
 
     Args:
         prompt: Text description of the image to generate.
-        retries: Number of retry attempts.
+        retries: Number of retry attempts per model.
 
     Returns:
-        Image bytes (PNG/JPEG) or None if generation fails.
+        Image bytes (PNG/JPEG) or None if all models fail.
     """
-    if not _webapi_available:
-        print("  ⚠️ gemini-webapi not installed. Run: pip install gemini-webapi")
+    if not _g4f_available:
+        print("  ⚠️ g4f not installed. Run: pip install -U g4f[image]")
         return None
 
-    psid = os.environ.get("GEMINI_SECURE_1PSID", "")
-    psidts = os.environ.get("GEMINI_SECURE_1PSIDTS", "")
+    client = G4FClient()
 
-    if not psid:
-        print("  ⚠️ No GEMINI_SECURE_1PSID set — skipping Gemini web image generation")
-        return None
+    for model in IMAGE_MODELS:
+        print(f"  🎨 Trying g4f model: {model}")
 
-    # Fetch Indian proxies to route requests through Indian IP
-    indian_proxies = _fetch_indian_proxies()
+        for attempt in range(1, retries + 1):
+            try:
+                print(f"  🎨 g4f [{attempt}/{retries}] generating with {model}...")
 
-    for attempt in range(1, retries + 1):
-        # Pick a proxy for this attempt (cycle through available ones)
-        proxy = indian_proxies[(attempt - 1) % len(indian_proxies)] if indian_proxies else None
+                response = client.images.generate(
+                    model=model,
+                    prompt=prompt,
+                    response_format="url",
+                )
 
-        try:
-            print(f"  🎨 Gemini Web [{attempt}/{retries}] generating image...")
-            if not proxy:
-                print(f"  ⚠️ No Indian proxy available, trying direct connection...")
+                # Extract image URL from response
+                if response and response.data and len(response.data) > 0:
+                    image_url = response.data[0].url
+                    if image_url:
+                        print(f"  📎 Image URL: {image_url[:100]}...")
 
-            image_bytes = asyncio.run(_generate_image_async(prompt, psid, psidts, proxy))
+                        # Download the image bytes
+                        dl = requests.get(image_url, timeout=60, headers={
+                            "User-Agent": "Mozilla/5.0 XeL-News/1.0"
+                        })
+                        if dl.status_code == 200 and len(dl.content) > 1000:
+                            print(f"  ✅ g4f: downloaded {len(dl.content):,} bytes ({model})")
+                            return dl.content
+                        else:
+                            print(f"  ⚠️ Download failed: status={dl.status_code}, size={len(dl.content)}")
 
-            if image_bytes and len(image_bytes) > 1000:
-                print(f"  ✅ Gemini Web: generated {len(image_bytes):,} bytes")
-                return image_bytes
-            elif image_bytes:
-                print(f"  ⚠️ Image too small: {len(image_bytes)} bytes")
-            else:
-                print(f"  ⚠️ No image in response (Gemini may have returned text only)")
+                print(f"  ⚠️ No image URL in g4f response for {model}")
 
-        except Exception as e:
-            err_str = str(e)
-            print(f"  ❌ Gemini Web error [{attempt}]: {err_str[:200]}")
+            except Exception as e:
+                err_str = str(e)
+                print(f"  ❌ g4f error [{attempt}] ({model}): {err_str[:200]}")
 
-            # If proxy failed, try next proxy
-            if proxy and indian_proxies:
-                indian_proxies.remove(proxy)
-                print(f"  🔄 Removed bad proxy, {len(indian_proxies)} remaining")
+                if attempt < retries:
+                    wait = 3 * attempt
+                    print(f"  ⏳ Waiting {wait}s before retry...")
+                    time.sleep(wait)
 
-            if attempt < retries:
-                wait = 5 * attempt
-                print(f"  ⏳ Waiting {wait}s before retry...")
-                time.sleep(wait)
+        print(f"  ⚠️ Model {model} failed, trying next...")
 
-    print(f"  ❌ Gemini Web: all {retries} attempts failed")
+    print(f"  ❌ g4f: all models failed")
     return None
 
 
@@ -203,7 +119,7 @@ if __name__ == "__main__":
     )
 
     print("=" * 60)
-    print("🧪 GEMINI WEB IMAGE GENERATION TEST (with Indian Proxy)")
+    print("🧪 G4F IMAGE GENERATION TEST")
     print("=" * 60)
     print(f"📝 Prompt: \"{prompt[:80]}...\"")
     print()
@@ -225,7 +141,7 @@ if __name__ == "__main__":
         else:
             fmt = "unknown"
 
-        out_path = os.path.join(os.path.dirname(__file__), "test_gemini_output.png")
+        out_path = os.path.join(os.path.dirname(__file__), "test_g4f_output.png")
         with open(out_path, "wb") as f:
             f.write(result)
 
