@@ -1,23 +1,17 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
+import Link from "next/link";
 import {
     ArrowLeft,
     Clock,
+    Calendar,
+    Tag,
     Bot,
-    Sparkles,
-    Globe,
-    Share2,
-    Heart,
-    Copy,
-    Check,
-    Accessibility,
-    LayoutGrid,
+    FileText,
 } from "lucide-react";
-import SmartListenButton from "@/components/SmartListenButton";
-import { prepareTTSText } from "@/lib/tts-text";
+
 import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
@@ -33,320 +27,266 @@ interface NewsItem {
     category: string;
 }
 
-/* ─── Category Config ─────────────────────────────────────── */
-const CATEGORY_CONFIG: Record<string, { icon: typeof Sparkles; label: string; color: string; bg: string; accent: string }> = {
-    'ai-tech': {
-        icon: Sparkles,
-        label: "AI & Technology",
-        color: "text-violet-300",
-        bg: "bg-violet-500/20",
-        accent: "from-violet-600/20 to-violet-900/10",
-    },
-    // Legacy support — map old 'ai' and 'tech' separately too
-    ai: {
-        icon: Sparkles,
-        label: "AI & Technology",
-        color: "text-violet-300",
-        bg: "bg-violet-500/20",
-        accent: "from-violet-600/20 to-violet-900/10",
-    },
-    tech: {
-        icon: Sparkles,
-        label: "AI & Technology",
-        color: "text-violet-300",
-        bg: "bg-violet-500/20",
-        accent: "from-violet-600/20 to-violet-900/10",
-    },
-    disability: {
-        icon: Accessibility,
-        label: "Disability",
-        color: "text-amber-300",
-        bg: "bg-amber-500/15",
-        accent: "from-amber-600/20 to-amber-900/10",
-    },
-    world: {
-        icon: Globe,
-        label: "World News",
-        color: "text-emerald-300",
-        bg: "bg-emerald-500/15",
-        accent: "from-emerald-600/20 to-emerald-900/10",
-    },
-    general: {
-        icon: LayoutGrid,
-        label: "General",
-        color: "text-zinc-300",
-        bg: "bg-zinc-500/15",
-        accent: "from-zinc-600/20 to-zinc-900/10",
-    },
+/* ─── Category Display Config ─────────────────────────────── */
+const CATEGORY_DISPLAY: Record<string, { label: string; color: string; bg: string; border: string }> = {
+    "ai-tech": { label: "AI & Technology", color: "text-violet-400", bg: "bg-violet-500/20", border: "border-violet-500/30" },
+    "accessibility": { label: "Disability & Accessibility", color: "text-amber-400", bg: "bg-amber-500/20", border: "border-amber-500/30" },
+    "disability": { label: "Disability & Accessibility", color: "text-amber-400", bg: "bg-amber-500/20", border: "border-amber-500/30" },
+    "health": { label: "Health & Society", color: "text-amber-400", bg: "bg-amber-500/20", border: "border-amber-500/30" },
+    "climate": { label: "Climate & Environment", color: "text-emerald-400", bg: "bg-emerald-500/20", border: "border-emerald-500/30" },
+    "world": { label: "World News", color: "text-emerald-400", bg: "bg-emerald-500/20", border: "border-emerald-500/30" },
+    "science": { label: "Science & Space", color: "text-blue-400", bg: "bg-blue-500/20", border: "border-blue-500/30" },
+    "business": { label: "Business & Economy", color: "text-cyan-400", bg: "bg-cyan-500/20", border: "border-cyan-500/30" },
+    "entertainment": { label: "Culture & Entertainment", color: "text-pink-400", bg: "bg-pink-500/20", border: "border-pink-500/30" },
+    "general": { label: "General", color: "text-zinc-400", bg: "bg-zinc-500/20", border: "border-zinc-500/30" },
 };
 
 /* ─── Helpers ──────────────────────────────────────────────── */
-function formatDate(dateStr: string): string {
-    return new Date(dateStr).toLocaleDateString("en-US", {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    });
+function getReadingTime(content: string): number {
+    const wordsPerMinute = 200;
+    const words = content.split(/\s+/).length;
+    return Math.ceil(words / wordsPerMinute);
 }
 
-function timeAgo(dateStr: string): string {
-    const diff = Math.floor((Date.now() - new Date(dateStr).getTime()) / 1000);
-    if (diff < 60) return "just now";
-    if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-    if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-    if (diff < 604800) return `${Math.floor(diff / 86400)}d ago`;
-    return formatDate(dateStr);
+function formatContent(content: string): string[] {
+    let cleaned = content
+        .replace(/\r\n/g, '\n')
+        .replace(/\t/g, ' ')
+        .replace(/ {3,}/g, '  ')
+        .replace(/([.!?])\1{2,}/g, '$1')
+        .replace(/\*{3,}/g, '')
+        .replace(/#{1,6}\s*/g, '')
+        .replace(/^[-=]{3,}$/gm, '')
+        .trim();
+
+    return cleaned
+        .split(/\n{2,}/)
+        .flatMap(block => {
+            if (block.length > 500 && block.includes('\n')) {
+                return block.split(/\n/).map(p => p.trim()).filter(p => p.length > 0);
+            }
+            return [block.trim()];
+        })
+        .filter(p => p.length > 0);
 }
 
 /* ─── Page Component ──────────────────────────────────────── */
 export default function NewsDetailPage() {
-    const router = useRouter();
     const params = useParams();
-    const id = params.id as string;
+    const id = params?.id as string;
 
     const [article, setArticle] = useState<NewsItem | null>(null);
     const [loading, setLoading] = useState(true);
-    const [mounted, setMounted] = useState(false);
-    const [imgError, setImgError] = useState(false);
-    const [liked, setLiked] = useState(false);
-    const [copied, setCopied] = useState(false);
 
     useEffect(() => {
+        if (!id) return;
+
         async function fetchArticle() {
             try {
                 const docRef = doc(db, "news", id);
-                const snap = await getDoc(docRef);
-                if (snap.exists()) {
-                    setArticle({ id: snap.id, ...snap.data() } as NewsItem);
+                const docSnap = await getDoc(docRef);
+                if (docSnap.exists()) {
+                    setArticle({ id: docSnap.id, ...docSnap.data() } as NewsItem);
                 }
             } catch (err) {
-                console.error("Failed to load article:", err);
+                console.error("Error fetching news article:", err);
             } finally {
                 setLoading(false);
             }
         }
-        if (id) fetchArticle();
+
+        fetchArticle();
     }, [id]);
 
-    // Trigger entrance animation after mount
-    useEffect(() => {
-        const timer = setTimeout(() => setMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
-
-    const config = article
-        ? CATEGORY_CONFIG[article.category] || CATEGORY_CONFIG.general
-        : CATEGORY_CONFIG.general;
-    const Icon = config.icon;
-
-    /* ─── Loading Skeleton ─── */
+    // Loading state
     if (loading) {
         return (
-            <div className="min-h-screen bg-[#0a0a0a] text-white">
-                <div className="max-w-3xl mx-auto px-4 py-8">
-                    <div className="animate-pulse space-y-6">
-                        <div className="h-4 bg-zinc-800 rounded w-20" />
-                        <div className="w-full aspect-[16/9] bg-zinc-800 rounded-2xl" />
-                        <div className="h-8 bg-zinc-800 rounded w-3/4" />
-                        <div className="h-4 bg-zinc-800/60 rounded w-1/3" />
-                        <div className="space-y-3 pt-4">
-                            <div className="h-4 bg-zinc-800/40 rounded w-full" />
-                            <div className="h-4 bg-zinc-800/40 rounded w-full" />
-                            <div className="h-4 bg-zinc-800/40 rounded w-5/6" />
-                            <div className="h-4 bg-zinc-800/40 rounded w-full" />
-                            <div className="h-4 bg-zinc-800/40 rounded w-4/6" />
+            <main className="min-h-screen bg-[#0a0a0a]">
+                <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900 animate-pulse" />
+                <div className="max-w-5xl mx-auto px-3 sm:px-6 -mt-20 relative z-10 pb-16">
+                    <div className="bg-zinc-900/95 rounded-2xl border border-zinc-800/60 p-8">
+                        <div className="h-6 w-24 bg-zinc-800 rounded-full mb-6 animate-pulse" />
+                        <div className="h-10 w-3/4 bg-zinc-800 rounded-lg mb-4 animate-pulse" />
+                        <div className="space-y-3 mt-8">
+                            <div className="h-4 bg-zinc-800 rounded animate-pulse" />
+                            <div className="h-4 bg-zinc-800 rounded animate-pulse w-5/6" />
+                            <div className="h-4 bg-zinc-800 rounded animate-pulse w-4/6" />
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         );
     }
 
-    /* ─── Not Found ─── */
+    // Not found
     if (!article) {
         return (
-            <div className="min-h-screen bg-[#0a0a0a] text-white flex items-center justify-center">
+            <main className="min-h-screen bg-[#0a0a0a] flex items-center justify-center">
                 <div className="text-center">
-                    <Bot className="w-16 h-16 text-zinc-700 mx-auto mb-4" />
-                    <h2 className="text-xl font-semibold text-zinc-300 mb-2">
-                        Article not found
-                    </h2>
-                    <p className="text-zinc-500 mb-6">
-                        This article may have been removed or expired.
-                    </p>
-                    <button
-                        onClick={() => router.push("/ai-news")}
-                        className="px-5 py-2.5 rounded-xl bg-zinc-800 text-zinc-300 hover:bg-zinc-700 transition-colors text-sm"
+                    <FileText className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
+                    <h1 className="text-2xl font-bold text-white mb-2">Article Not Found</h1>
+                    <p className="text-zinc-400 mb-6">This news article could not be found.</p>
+                    <Link
+                        href="/ai-news"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium hover:bg-green-500/30 transition-colors"
                     >
-                        ← Back to News Feed
-                    </button>
+                        <ArrowLeft className="w-4 h-4" />
+                        Back to News
+                    </Link>
                 </div>
-            </div>
+            </main>
         );
     }
 
-    /* ─── Article Detail ─── */
-    return (
-        <div className="min-h-screen bg-[#0a0a0a] text-white">
-            {/* Gradient accent header */}
-            <div className={`bg-gradient-to-b ${config.accent} to-transparent`}>
-                <div className="max-w-3xl mx-auto px-4 pt-6 pb-2">
-                    <button
-                        onClick={() => router.back()}
-                        className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 group"
-                    >
-                        <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                        <span className="text-sm">Back to Feed</span>
-                    </button>
-                </div>
-            </div>
+    const readingTime = getReadingTime(article.summary);
+    const paragraphs = formatContent(article.summary);
+    const catConfig = CATEGORY_DISPLAY[article.category] || CATEGORY_DISPLAY.general;
 
-            {/* Article content — with slide-up entrance */}
-            <article
-                className={`max-w-3xl mx-auto px-4 pb-16 transition-all duration-500 ease-out ${mounted
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-6"
-                    }`}
-            >
-                {/* Hero Image */}
-                {article.image_url && !imgError && (
-                    <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-6 bg-zinc-800">
-                        <img
-                            src={article.image_url}
-                            alt={article.title}
-                            className="w-full h-full object-cover"
-                            onError={() => setImgError(true)}
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                    </div>
+    return (
+        <main className="min-h-screen bg-[#0a0a0a]" role="main" aria-label={article.title}>
+            {/* Hero Section with Image */}
+            <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900">
+                {article.image_url ? (
+                    <img
+                        src={article.image_url}
+                        alt={article.title}
+                        className="w-full h-full object-cover opacity-80"
+                    />
+                ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-purple-900/30 to-zinc-900" />
                 )}
 
-                {/* Category badge */}
-                <div className="mb-4">
-                    <span
-                        className={`inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${config.bg} ${config.color}`}
-                    >
-                        <Icon className="w-3.5 h-3.5" />
-                        {config.label}
-                    </span>
-                </div>
+                {/* Gradient overlay */}
+                <div
+                    className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"
+                    style={{ pointerEvents: 'none' }}
+                />
 
-                {/* Title */}
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight mb-4">
-                    {article.title}
-                </h1>
+                {/* Back Button */}
+                <Link
+                    href="/ai-news"
+                    className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/60 rounded-full text-white hover:bg-black/80 transition-colors z-10"
+                >
+                    <ArrowLeft className="w-4 h-4" />
+                    <span>Back</span>
+                </Link>
+            </div>
 
-                {/* Meta bar */}
-                <div className="flex items-center flex-wrap gap-4 text-sm text-zinc-500 mb-8 pb-6 border-b border-zinc-800/60">
-                    <span className="font-medium text-zinc-400">
-                        {article.source_name}
-                    </span>
-                    <time dateTime={article.date} className="flex items-center gap-1.5">
-                        <Clock className="w-3.5 h-3.5" />
-                        {timeAgo(article.date)}
-                    </time>
+            {/* Article Content */}
+            <div className="max-w-5xl mx-auto px-3 sm:px-6 -mt-20 relative z-10 pb-16">
+                <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800/60 overflow-hidden shadow-xl shadow-black/20">
+                    {/* Article Header */}
+                    <div className="p-5 sm:p-8 md:p-10 border-b border-zinc-800">
+                        {/* Meta Info */}
+                        <div className="flex flex-wrap items-center gap-4 mb-6">
+                            {article.category && (
+                                <span className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium ${catConfig.bg} ${catConfig.color} rounded-full border ${catConfig.border}`}>
+                                    <Tag className="w-3.5 h-3.5" />
+                                    {catConfig.label}
+                                </span>
+                            )}
+                            <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
+                                <Calendar className="w-4 h-4" />
+                                {new Date(article.date).toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric',
+                                })}
+                            </span>
+                            <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
+                                <Clock className="w-4 h-4" />
+                                {readingTime} min read
+                            </span>
+                            <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
+                                <Bot className="w-4 h-4" />
+                                AI Generated
+                            </span>
+                        </div>
 
-                    {/* Listen button */}
-                    <div className="ml-auto mr-2">
-                        <SmartListenButton
-                            text={prepareTTSText(article.title, article.summary)}
-                            iconOnly
-                            className="w-9 h-9"
-                        />
+                        {/* Title */}
+                        <h1 className="text-2xl md:text-3xl font-bold text-white leading-snug">
+                            {article.title}
+                        </h1>
                     </div>
-                </div>
 
-                {/* Article body — split into proper paragraphs */}
-                <div className="prose prose-invert prose-lg max-w-none">
-                    {(() => {
-                        // Split by double newlines first
-                        let paragraphs = article.summary.split(/\n\n+/).filter(p => p.trim());
-                        // If only one big paragraph, try splitting by sentences (~3 per paragraph)
-                        if (paragraphs.length === 1 && paragraphs[0].length > 200) {
-                            const sentences = paragraphs[0].match(/[^.!?]+[.!?]+/g) || [paragraphs[0]];
-                            paragraphs = [];
-                            for (let i = 0; i < sentences.length; i += 3) {
-                                paragraphs.push(sentences.slice(i, i + 3).join(' ').trim());
-                            }
-                        }
-                        return paragraphs.map((paragraph, i) => (
-                            <p
-                                key={i}
-                                className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6"
-                            >
-                                {paragraph.trim()}
-                            </p>
-                        ));
-                    })()}
-                </div>
+                    {/* Article Body — Clean text formatting (same as articles section) */}
+                    <div className="p-5 sm:p-8 md:p-10">
+                        <div className="space-y-4 max-w-none">
+                            {paragraphs.map((paragraph, index) => {
+                                const isNumberedItem = /^\d+\./.test(paragraph);
+                                const hasLink = paragraph.includes('http');
 
-                {/* Action Buttons — Like, Share, Copy */}
-                <div className="mt-8 pt-6 border-t border-zinc-800/60">
-                    <div className="flex items-center gap-3">
-                        {/* Like */}
-                        <button
-                            onClick={() => setLiked(!liked)}
-                            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${liked
-                                ? 'bg-red-500/15 text-red-400 border border-red-500/30'
-                                : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
-                                }`}
-                        >
-                            <Heart className={`w-4 h-4 ${liked ? 'fill-red-400' : ''}`} />
-                            {liked ? 'Liked' : 'Like'}
-                        </button>
-
-                        {/* Share */}
-                        <button
-                            onClick={() => {
-                                if (navigator.share) {
-                                    navigator.share({
-                                        title: article.title,
-                                        text: article.summary.slice(0, 100) + '...',
-                                        url: window.location.href,
-                                    }).catch(() => { });
-                                } else {
-                                    navigator.clipboard?.writeText(window.location.href);
+                                // Numbered list items
+                                if (isNumberedItem) {
+                                    return (
+                                        <div
+                                            key={index}
+                                            className="pl-6 border-l-2 border-green-500/30 py-2"
+                                        >
+                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
+                                                {paragraph}
+                                            </p>
+                                        </div>
+                                    );
                                 }
-                            }}
-                            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white text-sm font-medium transition-all duration-200"
-                        >
-                            <Share2 className="w-4 h-4" />
-                            Share
-                        </button>
 
-                        {/* Copy */}
-                        <button
-                            onClick={() => {
-                                navigator.clipboard?.writeText(article.summary);
-                                setCopied(true);
-                                setTimeout(() => setCopied(false), 2000);
-                            }}
-                            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${copied
-                                ? 'bg-green-500/15 text-green-400 border border-green-500/30'
-                                : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/50 hover:bg-zinc-700/60 hover:text-white'
-                                }`}
-                        >
-                            {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-                            {copied ? 'Copied!' : 'Copy'}
-                        </button>
+                                // Paragraphs with links
+                                if (hasLink) {
+                                    const urlRegex = /(https?:\/\/[^\s]+)/g;
+                                    const parts = paragraph.split(urlRegex);
+
+                                    return (
+                                        <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
+                                            {parts.map((part, i) => {
+                                                if (part.match(urlRegex)) {
+                                                    return (
+                                                        <a
+                                                            key={i}
+                                                            href={part}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
+                                                        >
+                                                            {part}
+                                                        </a>
+                                                    );
+                                                }
+                                                return part;
+                                            })}
+                                        </p>
+                                    );
+                                }
+
+                                // Regular paragraphs
+                                return (
+                                    <p
+                                        key={index}
+                                        className="text-gray-300 text-[15px] leading-[1.8]"
+                                    >
+                                        {paragraph}
+                                    </p>
+                                );
+                            })}
+                        </div>
                     </div>
-                </div>
 
-                {/* Footer */}
-                <div className="mt-8 pt-6 border-t border-zinc-800/60 flex items-center justify-between">
-                    <button
-                        onClick={() => router.back()}
-                        className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors group"
-                    >
-                        <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                        <span className="text-sm">Back to Feed</span>
-                    </button>
-                    <span className="text-xs text-zinc-600">
-                        XeL AI News · {new Date(article.date).toLocaleDateString()}
-                    </span>
-                </div>
-            </article>
-        </div>
+                    {/* Article Footer */}
+                    <div className="p-8 md:p-10 border-t border-zinc-800 bg-zinc-900/50">
+                        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <p className="text-zinc-500 text-sm">
+                                Thank you for reading this article.
+                            </p>
+                            <Link
+                                href="/ai-news"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/20 text-green-400 border border-green-500/30 rounded-xl font-medium hover:bg-green-500/30 transition-colors"
+                            >
+                                <ArrowLeft className="w-4 h-4" />
+                                More News
+                            </Link>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
     );
 }
