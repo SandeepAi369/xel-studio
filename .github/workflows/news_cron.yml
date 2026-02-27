@@ -6,6 +6,8 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch:
     # Allow manual trigger from GitHub Actions UI
+  repository_dispatch:
+    types: [trigger-news-update]
 
 jobs:
   generate-news:
