@@ -270,8 +270,8 @@ export default function NewsDetailPage() {
                         </div>
                     </div>
 
-                    {/* Article Body — Clean text formatting (same as articles section) */}
-                    <div className="p-5 sm:p-8 md:p-10">
+                    {/* Article Body — Clean text formatting */}
+                    <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-6">
                         <div className="space-y-1 max-w-none">
                             {paragraphs.map((block, index) => {
                                 // Bullet point — render with dot and bold text
