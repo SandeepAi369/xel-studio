@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef, useCallback } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -14,7 +14,6 @@ import {
   FileText,
   Accessibility,
   LayoutGrid,
-  RefreshCw,
 } from "lucide-react";
 import { SkeletonGrid } from "@/components/SkeletonCard";
 
@@ -175,19 +174,6 @@ export default function AINewsPage() {
     });
     return c;
   }, [news]);
-  // Last updated relative time
-  const lastUpdated = useMemo(() => {
-    if (news.length === 0) return null;
-    const newest = new Date(news[0].date);
-    const now = new Date();
-    const diffMs = now.getTime() - newest.getTime();
-    const diffMin = Math.floor(diffMs / 60000);
-    if (diffMin < 1) return "Just now";
-    if (diffMin < 60) return `${diffMin}m ago`;
-    const diffHrs = Math.floor(diffMin / 60);
-    if (diffHrs < 24) return `${diffHrs}h ago`;
-    return `${Math.floor(diffHrs / 24)}d ago`;
-  }, [news]);
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] pb-16">
@@ -201,22 +187,6 @@ export default function AINewsPage() {
           <p className="text-zinc-400 text-lg max-w-md mx-auto">
             AI-powered coverage · AI, Tech, Climate, Accessibility &amp; World News
           </p>
-          {/* Live status + last updated */}
-          {!loading && news.length > 0 && (
-            <div className="flex items-center justify-center gap-3 mt-4 text-xs text-zinc-500">
-              <span className="flex items-center gap-1.5">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
-                </span>
-                Live
-              </span>
-              <span>·</span>
-              <span>Latest: {lastUpdated}</span>
-              <span>·</span>
-              <span>{news.length} articles</span>
-            </div>
-          )}
         </div>
       </header>
 
