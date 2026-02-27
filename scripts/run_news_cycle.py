@@ -53,7 +53,11 @@ SEARCH_QUERIES = [
     "OpenAI GPT new model release announcements",
     "Google DeepMind Gemini AI research news",
     "Anthropic Claude AI safety research news",
+    "Anthropic AI company announcements updates news",
     "Meta AI Llama open source model news",
+    "open source AI models community development news",
+    "Hugging Face open source AI tools models news",
+    "Mistral AI open source language model news",
     "generative AI tools products launches today",
     "AI startup funding acquisition deals news",
     "AI regulation policy government updates",
@@ -73,6 +77,17 @@ SEARCH_QUERIES = [
     "disability technology assistive tech accessibility news",
     "AI assistive technology disability inclusion news",
     "accessible technology innovations disabled people news",
+    "visually impaired blind students assistive technology news",
+    "screen reader accessibility blind people technology news",
+    "deaf hearing impaired technology accessibility news",
+    "wheelchair disability mobility technology innovation news",
+    "autism neurodiversity technology support news",
+
+    # ── Health ──
+    "healthcare technology innovation AI medical news",
+    "mental health digital wellness technology news",
+    "AI healthcare diagnosis treatment breakthrough news",
+    "medical technology health research discovery news",
 
     # ── Climate & Environment ──
     "climate change environmental research news",
@@ -84,35 +99,23 @@ SEARCH_QUERIES = [
     "international trade technology policy news",
     "digital privacy surveillance regulation world news",
 
-    # ── CEO & Business Leaders ──
+    # ── General / Business / Culture ──
     "tech CEO statements leadership announcements news",
-    "Elon Musk Sam Altman Sundar Pichai CEO news",
-    "tech industry leader interview insights news",
-
-    # ── Science & Space ──
-    "space technology SpaceX NASA launch news",
-    "science discovery research breakthrough news",
-    "biotechnology genetics medical research news",
-
-    # ── Health & Society ──
-    "healthcare technology innovation AI news",
-    "mental health digital wellness technology news",
-
-    # ── Business & Economy ──
     "tech company earnings big tech stock news",
     "tech startup unicorn IPO funding news",
     "cryptocurrency blockchain Web3 news",
-
-    # ── Culture & Entertainment ──
     "social media platform changes updates news",
     "gaming esports streaming industry news",
+    "science discovery research breakthrough news",
+    "space technology SpaceX NASA launch news",
 ]
 
 FALLBACK_QUERIES = [
     "artificial intelligence news today",
     "latest technology breakthrough news",
-    "tech CEO AI announcements today",
-    "climate technology disability news today",
+    "Anthropic open source AI news today",
+    "disability assistive technology news today",
+    "health technology AI news today",
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────
@@ -532,8 +535,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 # ─── Parse JSON Response ─────────────────────────────────────
 
 
-def parse_article_response(text: str) -> str:
-    """Extract articleText from JSON response."""
+def parse_article_response(text: str) -> tuple[str, str]:
+    """Extract articleText and category from JSON response.
+    Returns (article_text, category)."""
     clean = text.strip()
     if clean.startswith("```"):
         import re
@@ -541,18 +545,23 @@ def parse_article_response(text: str) -> str:
         clean = re.sub(r"\n?```\s*$", "", clean)
     try:
         parsed = json.loads(clean)
-        if "articleText" in parsed:
-            return parsed["articleText"].strip()
+        article = parsed.get("articleText", "").strip() if "articleText" in parsed else clean
+        category = parsed.get("category", "").strip().lower() if "category" in parsed else ""
+        # Validate category is one of the allowed values
+        valid_categories = {"ai-tech", "disability", "health", "world", "general"}
+        if category not in valid_categories:
+            category = ""
+        return (article, category)
     except json.JSONDecodeError:
         pass
-    return clean
+    return (clean, "")
 
 
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt: str) -> str:
-    """Call Cerebras API and return article text."""
+def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt: str) -> tuple[str, str]:
+    """Call Cerebras API and return (article_text, category)."""
     completion = client.chat.completions.create(
         model=model,
         messages=[
@@ -741,7 +750,7 @@ def generate_news():
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a factual tech journalist. Output valid JSON: {"articleText": "..."}. '
+        'You are a factual tech journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
         'No other keys, no markdown, no explanation.'
     )
 
@@ -763,13 +772,19 @@ Search results:
 RULES:
 1. Facts only from search results. No speculation.
 2. Pick ONE story. Do NOT mix topics.
-3. Professional prose, 2-3 paragraphs.
-4. Punchy opening. Don't start with "In" or "The".
+3. Write a SHORT punchy opening line (1 sentence), then use BULLET POINTS for the key facts.
+4. Don't start with "In" or "The".
 5. No dates, no system details, no "breaking news" labels.
-6. 175-225 words. Under 170 is unacceptable.
-7. Use SIMPLE, CLEAR language that anyone can understand. Avoid jargon and complex technical terms. Write like explaining to a smart friend, not a PhD.
+6. 75-150 words TOTAL. Under 70 is unacceptable.
+7. Use SIMPLE, CLEAR language that anyone can understand. Avoid jargon.
+8. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general
+   - ai-tech: AI, technology, open source AI, startups, chips, coding, Anthropic, OpenAI, etc.
+   - disability: assistive tech, blind, deaf, wheelchair, accessibility, visually impaired, inclusion
+   - health: healthcare, medical, mental health, wellness, disease, treatment
+   - world: geopolitics, regulation, policy, climate, environment, international trade
+   - general: business, earnings, crypto, entertainment, gaming, social media, anything else
 
-Return JSON: {{ "articleText": "your article" }}"""
+Return JSON: {{ "articleText": "your article", "category": "one-of-the-five" }}"""
 
     MODELS = ["gpt-oss-120b", "llama3.1-8b"]
     article_text = ""
@@ -778,28 +793,32 @@ Return JSON: {{ "articleText": "your article" }}"""
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text = call_cerebras(cerebras_client, model_name, system_prompt, user_prompt)
+            article_text, ai_category = call_cerebras(cerebras_client, model_name, system_prompt, user_prompt)
             used_model = model_name
+
+            if ai_category:
+                print(f"🤖 AI picked category: {ai_category}")
 
             word_count = len(article_text.split())
             print(f"📝 First attempt: {word_count} words")
 
             # Auto-retry if too short
-            if word_count < 170:
+            if word_count < 60:
                 print(f"⚠️ Too short ({word_count} words), retrying...")
                 retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write AT LEAST 175 words and NO MORE than 225 words.
-Expand with more factual details, background context, industry implications.
-Do NOT repeat the same content. ADD NEW substantive information."""
+You MUST write AT LEAST 75 words and NO MORE than 150 words.
+Use bullet points for key facts. ADD more factual details."""
 
                 try:
-                    retry_text = call_cerebras(cerebras_client, model_name, system_prompt, retry_prompt)
+                    retry_text, retry_cat = call_cerebras(cerebras_client, model_name, system_prompt, retry_prompt)
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
                         article_text = retry_text
+                        if retry_cat:
+                            ai_category = retry_cat
                         print(f"✅ Retry accepted: {retry_wc} words")
                 except Exception:
                     print("⚠️ Retry failed, keeping first attempt")
@@ -903,11 +922,17 @@ Do NOT repeat the same content. ADD NEW substantive information."""
             title = "New Developments in AI and Technology"
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 8. Re-validate category using title + article text (smarter detection)
-    refined_category = detect_category(search_query, title, article_text)
-    if refined_category != category:
-        print(f"📌 Category refined: {category} → {refined_category} (based on title+content)")
-        category = refined_category
+    # 8. Use AI-picked category (primary), fallback to keyword detection
+    if ai_category:
+        if ai_category != category:
+            print(f"📌 AI category: {ai_category} (keyword was: {category})")
+        category = ai_category
+    else:
+        # Fallback: re-validate with keyword detection
+        refined_category = detect_category(search_query, title, article_text)
+        if refined_category != category:
+            print(f"📌 Category refined: {category} → {refined_category} (keyword fallback)")
+            category = refined_category
 
     # 9. Generate image via g4f + upload to Cloudinary
     article_id = str(uuid.uuid4())
