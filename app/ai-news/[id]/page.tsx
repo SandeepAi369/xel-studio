@@ -53,26 +53,44 @@ function getReadingTime(content: string): number {
     return Math.ceil(words / wordsPerMinute);
 }
 
-function formatContent(content: string): string[] {
-    let cleaned = content
+type ContentBlock =
+    | { type: 'bullet'; text: string }
+    | { type: 'paragraph'; text: string };
+
+function formatContent(content: string): ContentBlock[] {
+    const cleaned = content
         .replace(/\r\n/g, '\n')
         .replace(/\t/g, ' ')
         .replace(/ {3,}/g, '  ')
         .replace(/([.!?])\1{2,}/g, '$1')
-        .replace(/\*{3,}/g, '')
         .replace(/#{1,6}\s*/g, '')
         .replace(/^[-=]{3,}$/gm, '')
         .trim();
 
-    return cleaned
-        .split(/\n{2,}/)
-        .flatMap(block => {
-            if (block.length > 500 && block.includes('\n')) {
-                return block.split(/\n/).map(p => p.trim()).filter(p => p.length > 0);
-            }
-            return [block.trim()];
-        })
-        .filter(p => p.length > 0);
+    const lines = cleaned.split(/\n/).map(l => l.trim()).filter(l => l.length > 0);
+    const blocks: ContentBlock[] = [];
+
+    for (const line of lines) {
+        // Detect bullet points: starts with -, •, or * (but not **bold**)
+        if (/^[-•*]\s+/.test(line) && !/^\*\*/.test(line)) {
+            blocks.push({ type: 'bullet', text: line.replace(/^[-•*]\s+/, '') });
+        } else {
+            blocks.push({ type: 'paragraph', text: line });
+        }
+    }
+
+    return blocks;
+}
+
+/** Render text with **bold** markdown into React nodes */
+function renderBoldText(text: string): React.ReactNode[] {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+    return parts.map((part, i) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+            return <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>;
+        }
+        return <span key={i}>{part}</span>;
+    });
 }
 
 /* ─── Page Component ──────────────────────────────────────── */
@@ -255,9 +273,21 @@ export default function NewsDetailPage() {
                     {/* Article Body — Clean text formatting (same as articles section) */}
                     <div className="p-5 sm:p-8 md:p-10">
                         <div className="space-y-4 max-w-none">
-                            {paragraphs.map((paragraph, index) => {
-                                const isNumberedItem = /^\d+\./.test(paragraph);
-                                const hasLink = paragraph.includes('http');
+                            {paragraphs.map((block, index) => {
+                                // Bullet point — render with dot and bold text
+                                if (block.type === 'bullet') {
+                                    return (
+                                        <div key={index} className="flex gap-3 py-1">
+                                            <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
+                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
+                                                {renderBoldText(block.text)}
+                                            </p>
+                                        </div>
+                                    );
+                                }
+
+                                const isNumberedItem = /^\d+\./.test(block.text);
+                                const hasLink = block.text.includes('http');
 
                                 // Numbered list items
                                 if (isNumberedItem) {
@@ -267,7 +297,7 @@ export default function NewsDetailPage() {
                                             className="pl-6 border-l-2 border-green-500/30 py-2"
                                         >
                                             <p className="text-gray-300 text-[15px] leading-[1.8]">
-                                                {paragraph}
+                                                {renderBoldText(block.text)}
                                             </p>
                                         </div>
                                     );
@@ -276,7 +306,7 @@ export default function NewsDetailPage() {
                                 // Paragraphs with links
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
-                                    const parts = paragraph.split(urlRegex);
+                                    const parts = block.text.split(urlRegex);
 
                                     return (
                                         <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
@@ -294,7 +324,7 @@ export default function NewsDetailPage() {
                                                         </a>
                                                     );
                                                 }
-                                                return part;
+                                                return renderBoldText(part);
                                             })}
                                         </p>
                                     );
@@ -306,7 +336,7 @@ export default function NewsDetailPage() {
                                         key={index}
                                         className="text-gray-300 text-[15px] leading-[1.8]"
                                     >
-                                        {paragraph}
+                                        {renderBoldText(block.text)}
                                     </p>
                                 );
                             })}
@@ -360,7 +390,7 @@ export default function NewsDetailPage() {
                         </div>
                     </div>
                 </article>
-            </div>
-        </main>
+            </div >
+        </main >
     );
 }

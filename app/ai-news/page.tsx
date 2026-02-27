@@ -329,7 +329,7 @@ export default function AINewsPage() {
                     </h2>
 
                     <p className="text-gray-400 text-[13px] leading-relaxed line-clamp-3">
-                      {item.summary.substring(0, 150)}...
+                      {item.summary.replace(/\*\*/g, '').replace(/^[-•*]\s+/gm, '').substring(0, 150)}...
                     </p>
 
                     <div className="flex items-center justify-between mt-3">
