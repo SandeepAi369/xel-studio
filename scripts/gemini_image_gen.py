@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 """
-Image Generation — Multi-provider with fallbacks
-=================================================
-Priority 1: Pollinations.ai (free, no auth, direct URL)
-Priority 2: g4f (gpt4free) multi-provider
-Priority 3: Returns None (caller uses placeholder)
-
-Usage:
-    from gemini_image_gen import generate_image_gemini
-    img_bytes = generate_image_gemini("A futuristic city")
+Image Generation — g4f primary (3 retries), Pollinations backup
 """
 
 import os
@@ -18,56 +10,24 @@ import requests
 from urllib.parse import quote
 
 
-# ── Provider 1: Pollinations.ai ──────────────────────────────
+# ── Priority 1: g4f (3 retries per model) ────────────────────
 
-def _try_pollinations(prompt: str, retries: int = 2) -> bytes | None:
-    """
-    Generate image via Pollinations.ai — free, no auth, direct URL.
-    Returns image bytes or None.
-    """
-    encoded = quote(prompt)
-    url = f"https://image.pollinations.ai/prompt/{encoded}?width=1024&height=576&nologo=true&seed={int(time.time())}"
-
-    for attempt in range(1, retries + 1):
-        try:
-            print(f"  🎨 Pollinations [{attempt}/{retries}] generating...")
-            resp = requests.get(url, timeout=90, headers={
-                "User-Agent": "Mozilla/5.0 XeL-News/1.0"
-            })
-            if resp.status_code == 200 and len(resp.content) > 5000:
-                print(f"  ✅ Pollinations: {len(resp.content):,} bytes")
-                return resp.content
-            else:
-                print(f"  ⚠️ Pollinations: status={resp.status_code}, size={len(resp.content)}")
-        except Exception as e:
-            print(f"  ❌ Pollinations error [{attempt}]: {str(e)[:150]}")
-
-        if attempt < retries:
-            time.sleep(3)
-
-    return None
-
-
-# ── Provider 2: g4f (gpt4free) ───────────────────────────────
-
-def _try_g4f(prompt: str, retries: int = 1) -> bytes | None:
-    """
-    Generate image via g4f multi-provider system.
-    Returns image bytes or None.
-    """
+def _try_g4f(prompt: str) -> bytes | None:
+    """g4f with 3 retry attempts per model."""
     try:
         from g4f.client import Client as G4FClient
     except ImportError:
-        print("  ⚠️ g4f not installed, skipping")
+        print("  ⚠️ g4f not installed")
         return None
 
     client = G4FClient()
     models = ["flux", "dall-e-3", "dall-e", "sdxl", "sd-3"]
 
     for model in models:
-        for attempt in range(1, retries + 1):
+        print(f"  🎨 Trying g4f model: {model}")
+        for attempt in range(1, 4):  # 3 retries
             try:
-                print(f"  🎨 g4f [{attempt}/{retries}] {model}...")
+                print(f"  🎨 g4f [{attempt}/3] {model}...")
                 response = client.images.generate(
                     model=model,
                     prompt=prompt,
@@ -82,41 +42,65 @@ def _try_g4f(prompt: str, retries: int = 1) -> bytes | None:
                         if dl.status_code == 200 and len(dl.content) > 1000:
                             print(f"  ✅ g4f: {len(dl.content):,} bytes ({model})")
                             return dl.content
+                        else:
+                            print(f"  ⚠️ Download issue: status={dl.status_code}, size={len(dl.content)}")
+                print(f"  ⚠️ No image URL from g4f ({model})")
             except Exception as e:
-                print(f"  ❌ g4f error ({model}): {str(e)[:120]}")
-            if attempt < retries:
-                time.sleep(2)
+                print(f"  ❌ g4f error [{attempt}/3] ({model}): {str(e)[:150]}")
+
+            if attempt < 3:
+                wait = 3 * attempt
+                print(f"  ⏳ Waiting {wait}s before retry...")
+                time.sleep(wait)
+
+        print(f"  ⚠️ Model {model} failed after 3 attempts, trying next...")
+
+    return None
+
+
+# ── Priority 2: Pollinations (backup only) ───────────────────
+
+def _try_pollinations(prompt: str) -> bytes | None:
+    """Pollinations.ai as last resort backup."""
+    encoded = quote(prompt)
+    url = f"https://image.pollinations.ai/prompt/{encoded}?width=1024&height=576&nologo=true&seed={int(time.time())}"
+
+    for attempt in range(1, 3):
+        try:
+            print(f"  🎨 Pollinations [{attempt}/2] generating...")
+            resp = requests.get(url, timeout=90, headers={
+                "User-Agent": "Mozilla/5.0 XeL-News/1.0"
+            })
+            if resp.status_code == 200 and len(resp.content) > 5000:
+                print(f"  ✅ Pollinations: {len(resp.content):,} bytes")
+                return resp.content
+            else:
+                print(f"  ⚠️ Pollinations: status={resp.status_code}, size={len(resp.content)}")
+        except Exception as e:
+            print(f"  ❌ Pollinations error [{attempt}]: {str(e)[:150]}")
+        if attempt < 2:
+            time.sleep(3)
+
     return None
 
 
 # ── Main Entry Point ─────────────────────────────────────────
 
-def generate_image_gemini(
-    prompt: str,
-    retries: int = 2,
-) -> bytes | None:
+def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
     """
-    Generate an image using multiple providers with fallbacks.
-    
-    Priority: Pollinations.ai → g4f → None (placeholder)
-
-    Args:
-        prompt: Text description of the image to generate.
-        retries: Number of retry attempts per provider.
-
-    Returns:
-        Image bytes (PNG/JPEG) or None if all providers fail.
+    Priority 1: g4f (3 retries per model, 5 models)
+    Priority 2: Pollinations.ai (backup)
     """
 
-    # 1. Pollinations.ai (most reliable, free, no auth)
-    print("  📷 Trying Pollinations.ai...")
-    result = _try_pollinations(prompt, retries)
+    # 1. g4f — primary (3 retries per model)
+    print("  📷 Trying g4f (primary)...")
+    result = _try_g4f(prompt)
     if result:
         return result
 
-    # 2. g4f fallback
-    print("  📷 Trying g4f fallback...")
-    result = _try_g4f(prompt, retries=1)
+    # 2. Pollinations — backup
+    print("  📷 Trying Pollinations (backup)...")
+    result = _try_pollinations(prompt)
     if result:
         return result
 
