@@ -14,6 +14,7 @@ import {
   FileText,
   Accessibility,
   LayoutGrid,
+  Heart,
 } from "lucide-react";
 import { SkeletonGrid } from "@/components/SkeletonCard";
 
@@ -32,7 +33,7 @@ interface NewsItem {
   category: string;
 }
 
-type FilterTab = "all" | "ai-tech" | "disability" | "world" | "general";
+type FilterTab = "all" | "ai-tech" | "disability" | "health" | "world" | "general";
 
 /* ─── Category Config ─────────────────────────────────────── */
 const CATEGORIES: {
@@ -58,6 +59,14 @@ const CATEGORIES: {
       badgeBg: "bg-amber-500/20",
       badgeText: "text-amber-400",
       badgeBorder: "border-amber-500/30",
+    },
+    {
+      key: "health",
+      icon: Heart,
+      label: "Health",
+      badgeBg: "bg-blue-500/20",
+      badgeText: "text-blue-400",
+      badgeBorder: "border-blue-500/30",
     },
     {
       key: "world",
@@ -87,17 +96,18 @@ function resolveCategory(cat: string): string {
     "tech": "ai-tech",
     "ai-tech": "ai-tech",
     "science": "ai-tech",
-    "business": "ai-tech",
-    "entertainment": "ai-tech",
     // Disability bucket
     "disability": "disability",
     "accessibility": "disability",
-    "health": "disability",
+    // Health bucket
+    "health": "health",
     // World bucket
     "world": "world",
     "climate": "world",
-    // General fallback
+    // General bucket
     "general": "general",
+    "business": "general",
+    "entertainment": "general",
   };
   return map[cat] || "general";
 }
