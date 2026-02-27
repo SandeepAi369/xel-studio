@@ -2,8 +2,8 @@ name: "🧹 News Cleanup"
 
 on:
   schedule:
-    # 12:15 AM IST = 18:45 UTC (previous day)
-    - cron: "45 18 * * *"
+    # Run at 12:45 AM IST (19:15 UTC previous day)
+    - cron: "15 19 * * *"
   workflow_dispatch:
     # Allow manual trigger
 

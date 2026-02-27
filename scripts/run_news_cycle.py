@@ -1001,13 +1001,6 @@ if __name__ == "__main__":
     try:
         result = generate_news()
         print(f"\n📄 Result: {json.dumps({'title': result['title'], 'category': result['category']}, indent=2)}")
-
-        # Run cleanup after successful generation
-        try:
-            db = init_firebase()
-            cleanup_old_news(db)
-        except Exception as ce:
-            print(f"⚠️ Cleanup failed: {ce}")
     except Exception as e:
         print(f"\n❌ Pipeline failed: {e}")
         # Try to log failure to Firestore
