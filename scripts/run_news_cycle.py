@@ -590,7 +590,7 @@ def cleanup_old_news(db: firestore.Client):
     """
     print("\n🧹 CLEANUP — Checking news collection...")
 
-    MIN_ARTICLES_TO_KEEP = 30  # Always keep at least this many articles
+    MIN_ARTICLES_TO_KEEP = 50  # Always keep at least this many articles
 
     # ── 1. Delete excess articles beyond MIN_ARTICLES_TO_KEEP ──
     try:
@@ -1001,6 +1001,13 @@ if __name__ == "__main__":
     try:
         result = generate_news()
         print(f"\n📄 Result: {json.dumps({'title': result['title'], 'category': result['category']}, indent=2)}")
+
+        # Run cleanup after successful generation
+        try:
+            db = init_firebase()
+            cleanup_old_news(db)
+        except Exception as ce:
+            print(f"⚠️ Cleanup failed: {ce}")
     except Exception as e:
         print(f"\n❌ Pipeline failed: {e}")
         # Try to log failure to Firestore
