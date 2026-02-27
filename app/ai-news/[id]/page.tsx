@@ -272,12 +272,12 @@ export default function NewsDetailPage() {
 
                     {/* Article Body — Clean text formatting (same as articles section) */}
                     <div className="p-5 sm:p-8 md:p-10">
-                        <div className="space-y-4 max-w-none">
+                        <div className="space-y-1 max-w-none">
                             {paragraphs.map((block, index) => {
                                 // Bullet point — render with dot and bold text
                                 if (block.type === 'bullet') {
                                     return (
-                                        <div key={index} className="flex gap-3 py-1">
+                                        <div key={index} className="flex gap-3 py-0.5">
                                             <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
                                             <p className="text-gray-300 text-[15px] leading-[1.8]">
                                                 {renderBoldText(block.text)}

@@ -844,20 +844,32 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
             messages=[
                 {
                     "role": "system",
-                    "content": "Write photorealistic image descriptions for news. Output ONLY the description. No text/words/logos in the image.",
+                    "content": (
+                        "You are an expert editorial photo director. Write highly detailed, photorealistic image descriptions for news articles. "
+                        "Your descriptions MUST match the article topic exactly. "
+                        "Include: specific scene/setting, key objects, background elements, lighting conditions, color palette, mood/atmosphere, camera angle. "
+                        "Output ONLY the description. Never include text, words, logos, watermarks, or UI elements in the image."
+                    ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"50-70 word photorealistic editorial photo description for this article. "
-                        f"Canon EOS R5, natural lighting, real-world setting, cinematic 16:9, "
-                        f"shallow DOF. No neon/glowing/text/UI.\n\n"
-                        f"Article: {article_text[:400]}"
+                        f"Write an 80-120 word photorealistic editorial photo description that matches this news article.\n\n"
+                        f"Title: {title or 'Technology news'}\n"
+                        f"Article: {article_text[:500]}\n\n"
+                        f"Requirements:\n"
+                        f"- Shot on Canon EOS R5, 35mm lens, natural lighting\n"
+                        f"- Cinematic 16:9 composition, shallow depth-of-field\n"
+                        f"- Describe specific real-world objects, people, or places relevant to the story\n"
+                        f"- Specify exact background color tones (warm amber, cool blue, neutral gray, etc.)\n"
+                        f"- Include mood: urgent, hopeful, professional, dramatic, calm, etc.\n"
+                        f"- NO neon glow, NO futuristic effects, NO text overlays, NO abstract shapes\n"
+                        f"- Make it look like a real Reuters/AP news photograph"
                     ),
                 },
             ],
             temperature=0.7,
-            max_tokens=120,
+            max_tokens=200,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
         if image_prompt.startswith('"') and image_prompt.endswith('"'):
