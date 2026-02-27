@@ -764,27 +764,28 @@ def generate_news():
         titles_list = "\n".join(f"- {t}" for t in recent_titles)
         dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a DIFFERENT story from the search results. If all results overlap with published titles, find a unique angle."""
 
-    user_prompt = f"""Write a news article from the search results below.{dedup_section}
+    user_prompt = f"""Write a news summary from the search results below.{dedup_section}
 
 Search results:
 {json.dumps(cerebras_data, indent=2)}
 
-RULES:
-1. Facts only from search results. No speculation.
-2. Pick ONE story. Do NOT mix topics.
-3. Write a SHORT punchy opening line (1 sentence), then use BULLET POINTS for the key facts.
-4. Don't start with "In" or "The".
-5. No dates, no system details, no "breaking news" labels.
-6. 75-150 words TOTAL. Under 70 is unacceptable.
-7. Use SIMPLE, CLEAR language that anyone can understand. Avoid jargon.
-8. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general
+STRICT FORMATTING RULES:
+1. Word Count: strictly between 100 to 150 words.
+2. Structure: Do NOT write paragraphs. Use exactly 3 to 4 bullet points.
+3. Bold Starting Keywords (CRITICAL): Each bullet point MUST start with a **Bolded Subject, Entity, or Keyword** (e.g., **Gold**, **Microsoft**, **The global market**), followed immediately by the rest of the sentence in regular text.
+4. Tone: Factual, objective, punchy. No fluff, no adjectives, no dramatic words.
+5. No Title: Do NOT generate any title or heading. Output ONLY the bullet points.
+6. Pick ONE story from the results. Do NOT mix topics.
+7. No dates, no "breaking news" labels, no system details.
+8. Use SIMPLE, CLEAR language anyone can understand.
+9. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general
    - ai-tech: AI, technology, open source AI, startups, chips, coding, Anthropic, OpenAI, etc.
    - disability: assistive tech, blind, deaf, wheelchair, accessibility, visually impaired, inclusion
    - health: healthcare, medical, mental health, wellness, disease, treatment
    - world: geopolitics, regulation, policy, climate, environment, international trade
    - general: business, earnings, crypto, entertainment, gaming, social media, anything else
 
-Return JSON: {{ "articleText": "your article", "category": "one-of-the-five" }}"""
+Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-five" }}"""
 
     MODELS = ["gpt-oss-120b", "llama3.1-8b"]
     article_text = ""
@@ -803,13 +804,13 @@ Return JSON: {{ "articleText": "your article", "category": "one-of-the-five" }}"
             print(f"📝 First attempt: {word_count} words")
 
             # Auto-retry if too short
-            if word_count < 60:
+            if word_count < 80:
                 print(f"⚠️ Too short ({word_count} words), retrying...")
                 retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write AT LEAST 75 words and NO MORE than 150 words.
-Use bullet points for key facts. ADD more factual details."""
+You MUST write between 100 to 150 words using 3-4 bullet points.
+Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
 
                 try:
                     retry_text, retry_cat = call_cerebras(cerebras_client, model_name, system_prompt, retry_prompt)
