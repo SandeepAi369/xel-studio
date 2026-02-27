@@ -836,8 +836,46 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    # 6. Generate image prompt (concise, photorealistic editorial style)
+    # 6. Generate image prompt with varied styles
     image_prompt = ""
+
+    # Rotate styles for variety
+    import random
+    IMAGE_STYLES = [
+        {
+            "style": "Cinematic thumbnail",
+            "camera": "Shot on RED Komodo, 50mm anamorphic lens, dramatic cinematic lighting",
+            "look": "Movie poster composition, rich contrast, deep shadows with highlights, bokeh background",
+            "colors": "deep teal and orange color grading, dark moody tones",
+        },
+        {
+            "style": "Realistic photojournalism",
+            "camera": "Shot on Canon EOS R5, 35mm lens, natural available light",
+            "look": "Reuters/AP wire photo style, documentary feel, real-world environment",
+            "colors": "natural muted earth tones, neutral grays and warm browns",
+        },
+        {
+            "style": "Vibrant colorful editorial",
+            "camera": "Shot on Sony A7IV, 24-70mm lens, golden hour soft light",
+            "look": "Magazine cover quality, vivid saturated colors, clean modern composition",
+            "colors": "vibrant blues, warm oranges, rich greens, bold contrasting palette",
+        },
+        {
+            "style": "Dramatic high-contrast",
+            "camera": "Shot on Nikon Z9, 85mm lens, single directional hard light",
+            "look": "High contrast black and white tones with selective color, powerful silhouettes",
+            "colors": "deep blacks, bright whites, one accent color pop (red or blue or gold)",
+        },
+        {
+            "style": "Warm editorial portrait",
+            "camera": "Shot on Fujifilm GFX, 110mm lens, soft diffused window light",
+            "look": "Intimate close-up perspective, soft focus background, professional warmth",
+            "colors": "warm amber, soft cream, honey gold tones, cozy atmosphere",
+        },
+    ]
+    chosen_style = random.choice(IMAGE_STYLES)
+    print(f"🎨 Image style: {chosen_style['style']}")
+
     try:
         img_completion = cerebras_client.chat.completions.create(
             model="llama3.1-8b",
@@ -845,30 +883,32 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert editorial photo director. Write highly detailed, photorealistic image descriptions for news articles. "
+                        "You are an expert editorial photo director. Write highly detailed image descriptions for news thumbnails. "
                         "Your descriptions MUST match the article topic exactly. "
-                        "Include: specific scene/setting, key objects, background elements, lighting conditions, color palette, mood/atmosphere, camera angle. "
-                        "Output ONLY the description. Never include text, words, logos, watermarks, or UI elements in the image."
+                        "Include: specific scene/setting, key objects, people or places, background elements, lighting, color palette, mood. "
+                        "Output ONLY the description. Never include text, words, logos, watermarks, or UI elements."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write an 80-120 word photorealistic editorial photo description that matches this news article.\n\n"
+                        f"Write an 80-120 word image description that matches this news article.\n\n"
                         f"Title: {title or 'Technology news'}\n"
                         f"Article: {article_text[:500]}\n\n"
+                        f"STYLE: {chosen_style['style']}\n"
+                        f"CAMERA: {chosen_style['camera']}\n"
+                        f"LOOK: {chosen_style['look']}\n"
+                        f"COLORS: {chosen_style['colors']}\n\n"
                         f"Requirements:\n"
-                        f"- Shot on Canon EOS R5, 35mm lens, natural lighting\n"
-                        f"- Cinematic 16:9 composition, shallow depth-of-field\n"
                         f"- Describe specific real-world objects, people, or places relevant to the story\n"
-                        f"- Specify exact background color tones (warm amber, cool blue, neutral gray, etc.)\n"
-                        f"- Include mood: urgent, hopeful, professional, dramatic, calm, etc.\n"
-                        f"- NO neon glow, NO futuristic effects, NO text overlays, NO abstract shapes\n"
-                        f"- Make it look like a real Reuters/AP news photograph"
+                        f"- Include company logos, product designs, or brand elements if relevant\n"
+                        f"- Vary the background — use offices, labs, streets, factories, nature, conferences\n"
+                        f"- NO plain single-color backgrounds, NO simple drawings, NO abstract art\n"
+                        f"- Make it look like a professional news thumbnail"
                     ),
                 },
             ],
-            temperature=0.7,
+            temperature=0.85,
             max_tokens=200,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
