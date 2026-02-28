@@ -273,72 +273,44 @@ export default function NewsDetailPage() {
 
                     {/* Article Body — Clean text formatting */}
                     <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-4">
-                        <ul className="space-y-2 max-w-none pl-4">
+                        <ul className="space-y-2 max-w-none pl-4 list-none">
                             {paragraphs.map((block, index) => {
-                                // Bullet point — render with dot and bold text
-                                if (block.type === 'bullet') {
-                                    return (
-                                        <li key={index} className="flex gap-3">
-                                            <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
-                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
-                                                {renderBoldText(block.text)}
-                                            </p>
-                                        </li>
-                                    );
-                                }
+                                const text = block.text;
+                                const hasLink = text.includes('http');
 
-                                const isNumberedItem = /^\d+\./.test(block.text);
-                                const hasLink = block.text.includes('http');
-
-                                // Numbered list items
-                                if (isNumberedItem) {
-                                    return (
-                                        <div
-                                            key={index}
-                                            className="pl-6 border-l-2 border-green-500/30 py-2"
-                                        >
-                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
-                                                {renderBoldText(block.text)}
-                                            </p>
-                                        </div>
-                                    );
-                                }
-
-                                // Paragraphs with links
+                                // Render inner content (handles links + bold)
+                                let innerContent;
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
-                                    const parts = block.text.split(urlRegex);
-
-                                    return (
-                                        <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
-                                            {parts.map((part, i) => {
-                                                if (part.match(urlRegex)) {
-                                                    return (
-                                                        <a
-                                                            key={i}
-                                                            href={part}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
-                                                        >
-                                                            {part}
-                                                        </a>
-                                                    );
-                                                }
-                                                return renderBoldText(part);
-                                            })}
-                                        </p>
-                                    );
+                                    const parts = text.split(urlRegex);
+                                    innerContent = parts.map((part, i) => {
+                                        if (part.match(urlRegex)) {
+                                            return (
+                                                <a
+                                                    key={i}
+                                                    href={part}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
+                                                >
+                                                    {part}
+                                                </a>
+                                            );
+                                        }
+                                        return <span key={i}>{renderBoldText(part)}</span>;
+                                    });
+                                } else {
+                                    innerContent = renderBoldText(text);
                                 }
 
-                                // Regular paragraphs
+                                // ALL items get a bullet dot — no exceptions
                                 return (
-                                    <p
-                                        key={index}
-                                        className="text-gray-300 text-[15px] leading-[1.8]"
-                                    >
-                                        {renderBoldText(block.text)}
-                                    </p>
+                                    <li key={index} className="flex gap-3">
+                                        <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
+                                        <p className="text-gray-300 text-[15px] leading-[1.8]">
+                                            {innerContent}
+                                        </p>
+                                    </li>
                                 );
                             })}
                         </ul>
