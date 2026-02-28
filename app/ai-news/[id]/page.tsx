@@ -272,17 +272,17 @@ export default function NewsDetailPage() {
 
                     {/* Article Body — Clean text formatting */}
                     <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-6">
-                        <div className="space-y-1 max-w-none">
+                        <ul className="space-y-4 max-w-none pl-4">
                             {paragraphs.map((block, index) => {
                                 // Bullet point — render with dot and bold text
                                 if (block.type === 'bullet') {
                                     return (
-                                        <div key={index} className="flex gap-3 py-0.5">
+                                        <li key={index} className="flex gap-3">
                                             <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
                                             <p className="text-gray-300 text-[15px] leading-[1.8]">
                                                 {renderBoldText(block.text)}
                                             </p>
-                                        </div>
+                                        </li>
                                     );
                                 }
 
@@ -340,7 +340,7 @@ export default function NewsDetailPage() {
                                     </p>
                                 );
                             })}
-                        </div>
+                        </ul>
 
                         {/* Action Buttons — icon-only */}
                         <div className="flex items-center gap-3 mt-8 pt-6 border-t border-zinc-800/60">
