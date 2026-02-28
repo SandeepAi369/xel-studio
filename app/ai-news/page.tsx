@@ -391,11 +391,13 @@ export default function AINewsPage() {
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
-                className="h-screen w-full flex-shrink-0 cursor-pointer block"
+                className="h-screen w-full flex-shrink-0 cursor-pointer flex flex-col"
                 style={{ scrollSnapAlign: "start" }}
+                role="article"
+                aria-label={`${item.title} - ${config?.label || "News"}`}
               >
-                {/* ── Image section (top half) ─────────────── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: "50vh", paddingTop: "48px" }}>
+                {/* ── Image (top 55%) — no padding, no gap ──── */}
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: "55%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -409,45 +411,45 @@ export default function AINewsPage() {
                     </div>
                   )}
 
-                  {/* Category badge — bottom-left of image */}
+                  {/* Category badge */}
                   {config && (
                     <span
-                      className={`absolute bottom-4 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      className={`absolute bottom-3 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-xs font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
                     >
                       {config.label}
                     </span>
                   )}
                 </div>
 
-                {/* ── Text section (bottom half) ───────────── */}
-                <div className="w-full bg-[#0a0a0a] px-5 py-5 md:px-8 md:py-6 pr-14 flex flex-col justify-center" style={{ height: "50vh" }}>
+                {/* ── Text (bottom 45%) — flush against image ── */}
+                <div className="w-full bg-[#0a0a0a] px-5 py-4 md:px-8 md:py-5 pr-14 flex flex-col justify-center" style={{ height: "45%" }}>
                   {/* Date */}
-                  <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-2">
-                    <Calendar className="w-3 h-3" />
-                    <span>
+                  <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
+                    <Calendar className="w-3.5 h-3.5" />
+                    <time dateTime={item.date}>
                       {new Date(item.date).toLocaleDateString("en-US", {
                         year: "numeric",
                         month: "short",
                         day: "numeric",
                       })}
-                    </span>
+                    </time>
                   </div>
 
                   {/* Title */}
-                  <h2 className="text-lg md:text-2xl font-bold text-white leading-snug mb-2 line-clamp-3">
+                  <h2 className="text-xl md:text-2xl font-bold text-white leading-snug mb-2 line-clamp-3">
                     {item.title}
                   </h2>
 
                   {/* Summary */}
-                  <p className="text-gray-400 text-[13px] md:text-sm leading-relaxed mb-4 line-clamp-3 max-w-2xl">
+                  <p className="text-zinc-300 text-sm md:text-base leading-relaxed mb-4 line-clamp-3 max-w-2xl">
                     {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
                   </p>
 
-                  {/* Read more indicator */}
-                  <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
-                    <span>Read more</span>
+                  {/* Read more */}
+                  <span className="inline-flex items-center gap-1 text-green-400 text-sm font-semibold" aria-label="Read full article">
+                    Read more
                     <ChevronRight className="w-4 h-4" />
-                  </div>
+                  </span>
                 </div>
               </Link>
             );
