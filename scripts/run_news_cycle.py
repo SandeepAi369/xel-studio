@@ -513,10 +513,7 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     if len(clean_prompt) > 300:
         clean_prompt = clean_prompt[:300].rsplit(" ", 1)[0]
 
-    enhanced_prompt = (
-        f"{clean_prompt}, photorealistic, highly detailed, "
-        "sharp focus, professional lighting, cinematic, 8k"
-    )
+    enhanced_prompt = clean_prompt
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
     # ── Attempt 1: g4f (multi-provider) ──────────────────────
@@ -836,7 +833,55 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    # 6. Generate image prompt with varied styles
+    # 6. Generate professional headline via LLM (MUST come before image prompt)
+    title = ""
+    try:
+        title_completion = cerebras_client.chat.completions.create(
+            model="llama3.1-8b",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Write one professional news headline. Output ONLY the headline. No quotes, no labels, no colons.",
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"Write ONE headline for this article. 8-14 words, Title Case. "
+                        f"Start with WHO/WHAT. Use active verb. "
+                        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
+                        f"Be specific — mention names/products/numbers.\n\n"
+                        f"Article: {article_text[:400]}"
+                    ),
+                },
+            ],
+            temperature=0.4,
+            max_tokens=40,
+        )
+        raw_title = (title_completion.choices[0].message.content or "").strip()
+        import re as _re
+        raw_title = raw_title.strip('"\'')
+        raw_title = _re.sub(
+            r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
+            r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
+            r'Development|Watch)[:\s—–-]+',
+            '', raw_title, flags=_re.IGNORECASE
+        )
+        raw_title = _re.sub(r'^[:\s—–-]+', '', raw_title).strip()
+        if raw_title and len(raw_title.split()) >= 4:
+            title = raw_title
+            print(f"📰 LLM Title: \"{title}\"")
+    except Exception as e:
+        print(f"⚠️ LLM title generation failed: {e}")
+
+    # Use article first sentence as fallback title
+    if not title:
+        fallback = article_text.replace("**", "").replace("- ", "").strip()
+        sentences = fallback.split(".")
+        title = (sentences[0].strip() + ".") if sentences else "AI Technology News Update"
+        title = title[:100]
+        print(f"📰 Fallback title: \"{title}\"")
+
+    # 7. Generate image prompt with varied styles (title is now available)
     image_prompt = ""
 
     # Rotate styles for variety
@@ -892,7 +937,7 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                     "role": "user",
                     "content": (
                         f"Write an 80-120 word image description that matches this news article.\n\n"
-                        f"Title: {title or 'Technology news'}\n"
+                        f"Title: {title}\n"
                         f"Article: {article_text[:500]}\n\n"
                         f"STYLE: {chosen_style['style']}\n"
                         f"CAMERA: {chosen_style['camera']}\n"
@@ -922,57 +967,6 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
             "natural color palette, cinematic 16:9"
         )
 
-    # 7. Generate professional headline via LLM
-    title = ""
-    try:
-        title_completion = cerebras_client.chat.completions.create(
-            model="llama3.1-8b",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "Write one professional news headline. Output ONLY the headline. No quotes, no labels, no colons.",
-                },
-                {
-                    "role": "user",
-                    "content": (
-                        f"Write ONE headline for this article. 8-14 words, Title Case. "
-                        f"Start with WHO/WHAT. Use active verb. "
-                        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
-                        f"Be specific — mention names/products/numbers.\n\n"
-                        f"Article: {article_text[:400]}"
-                    ),
-                },
-            ],
-            temperature=0.4,
-            max_tokens=40,
-        )
-        raw_title = (title_completion.choices[0].message.content or "").strip()
-        # Clean up: remove quotes, prefix patterns, colons
-        import re as _re
-        raw_title = raw_title.strip('"\'')
-        # Strip ALL common prefix labels the LLM might add
-        raw_title = _re.sub(
-            r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
-            r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
-            r'Development|Watch)[:\s—–-]+',
-            '', raw_title, flags=_re.IGNORECASE
-        )
-        raw_title = _re.sub(r'^[:\s—–-]+', '', raw_title).strip()
-        if raw_title and len(raw_title.split()) >= 4:
-            title = raw_title
-            print(f"📰 LLM Title: \"{title}\"")
-    except Exception as e:
-        print(f"⚠️ LLM title generation failed: {e}")
-
-    # Fallback: extract meaningful title from article's first sentence
-    if not title:
-        import re as _re
-        first_sentence = _re.split(r'[.!?]', article_text)[0].strip()
-        if len(first_sentence) > 15 and len(first_sentence) < 120:
-            title = first_sentence
-        else:
-            title = "New Developments in AI and Technology"
-        print(f"📰 Fallback title: \"{title}\"")
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
     if ai_category:
