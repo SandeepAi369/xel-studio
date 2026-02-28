@@ -1,22 +1,22 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   ArrowLeft,
   Newspaper,
-  Bot,
   Sparkles,
   Globe,
   ChevronRight,
+  ChevronUp,
+  ChevronDown,
   Calendar,
   FileText,
   Accessibility,
   LayoutGrid,
   Heart,
 } from "lucide-react";
-import { SkeletonGrid } from "@/components/SkeletonCard";
 
 import { db } from "@/lib/firebase";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
@@ -91,20 +91,15 @@ const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.key, c]));
 // Map backend categories → frontend filter tabs
 function resolveCategory(cat: string): string {
   const map: Record<string, string> = {
-    // AI & Tech bucket
     "ai": "ai-tech",
     "tech": "ai-tech",
     "ai-tech": "ai-tech",
     "science": "ai-tech",
-    // Disability bucket
     "disability": "disability",
     "accessibility": "disability",
-    // Health bucket
     "health": "health",
-    // World bucket
     "world": "world",
     "climate": "world",
-    // General bucket
     "general": "general",
     "business": "general",
     "entertainment": "general",
@@ -119,7 +114,10 @@ export default function AINewsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
-  const tabsRef = useRef<HTMLDivElement>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showHint, setShowHint] = useState(true);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   // Real-time Firestore listener
   useEffect(() => {
@@ -150,17 +148,6 @@ export default function AINewsPage() {
     return () => unsubscribe();
   }, []);
 
-  // Scroll position restoration
-  useEffect(() => {
-    const savedPos = sessionStorage.getItem("ai-news-scroll");
-    if (savedPos && !loading) {
-      requestAnimationFrame(() => {
-        window.scrollTo(0, parseInt(savedPos, 10));
-        sessionStorage.removeItem("ai-news-scroll");
-      });
-    }
-  }, [loading]);
-
   // Filter + sort
   const filteredNews = useMemo(() => {
     let result = news;
@@ -185,9 +172,85 @@ export default function AINewsPage() {
     return c;
   }, [news]);
 
+  // Reset index when filter changes
+  useEffect(() => {
+    setCurrentIndex(0);
+    if (containerRef.current) {
+      containerRef.current.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [filter]);
+
+  // Scroll position restoration (save/restore slide index)
+  useEffect(() => {
+    const savedIdx = sessionStorage.getItem("ai-news-slide-index");
+    if (savedIdx && !loading && filteredNews.length > 0) {
+      const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
+      setCurrentIndex(idx);
+      requestAnimationFrame(() => {
+        slideRefs.current[idx]?.scrollIntoView({ behavior: "auto" });
+        sessionStorage.removeItem("ai-news-slide-index");
+      });
+    }
+  }, [loading, filteredNews.length]);
+
+  // Track current slide via IntersectionObserver
+  useEffect(() => {
+    if (loading || filteredNews.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const idx = Number(entry.target.getAttribute("data-index"));
+            if (!isNaN(idx)) {
+              setCurrentIndex(idx);
+              setShowHint(false);
+            }
+          }
+        }
+      },
+      { threshold: 0.6 }
+    );
+
+    slideRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => observer.disconnect();
+  }, [loading, filteredNews]);
+
+  // Navigate to specific slide
+  const goToSlide = useCallback((idx: number) => {
+    slideRefs.current[idx]?.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
+  // Loading state
+  if (loading) {
+    return (
+      <main className="h-screen w-full bg-[#0a0a0a] flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 mx-auto mb-6 rounded-full border-4 border-zinc-800 border-t-green-500 animate-spin" />
+          <p className="text-zinc-400 text-lg">Loading news feed...</p>
+        </div>
+      </main>
+    );
+  }
+
+  // Error state
+  if (error) {
+    return (
+      <main className="h-screen w-full bg-[#0a0a0a] flex items-center justify-center">
+        <div className="text-center">
+          <Newspaper className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
+          <p className="text-zinc-400">{error}</p>
+        </div>
+      </main>
+    );
+  }
+
   return (
-    <main className="min-h-screen bg-[#0a0a0a] pb-16">
-      {/* LIVE indicator */}
+    <div className="h-screen w-full bg-[#0a0a0a] overflow-hidden relative">
+      {/* ── LIVE indicator ───────────────────────────────────── */}
       <div className="fixed top-4 left-4 z-50 flex items-center gap-1.5 bg-black/70 backdrop-blur-sm border border-green-500/30 rounded-full px-3 py-1.5">
         <span className="relative flex h-2.5 w-2.5">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
@@ -196,183 +259,217 @@ export default function AINewsPage() {
         <span className="text-green-400 text-xs font-semibold tracking-wider">LIVE</span>
       </div>
 
-      {/* Header */}
-      <header className="pt-16 pb-8 px-4 text-center">
-        <div>
-          <Bot className="w-16 h-16 mx-auto mb-6 text-purple-400" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-            Daily News Feed
-          </h1>
-          <p className="text-zinc-400 text-lg max-w-md mx-auto">
-            AI-powered coverage · AI, Tech, Climate, Accessibility &amp; World News
-          </p>
-        </div>
-      </header>
+      {/* ── Back button ──────────────────────────────────────── */}
+      <button
+        onClick={() => router.back()}
+        className="fixed top-4 right-4 z-50 flex items-center gap-1.5 px-3 py-1.5 bg-black/60 backdrop-blur-sm border border-zinc-700/50 rounded-full text-zinc-300 hover:text-white hover:bg-black/80 transition-all text-xs"
+      >
+        <ArrowLeft className="w-3.5 h-3.5" />
+        Back
+      </button>
 
-      <div className="max-w-6xl mx-auto px-4">
-        {/* Category Filter Tabs — horizontal scrollable */}
-        {!loading && news.length > 0 && (
-          <div className="mb-6 -mx-4 px-4">
-            <div
-              ref={tabsRef}
-              className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1.5"
-              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+      {/* ── Category filter tabs — fixed top center ──────────── */}
+      {news.length > 0 && (
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 max-w-[70vw] md:max-w-lg">
+          <div
+            className="flex items-center gap-1.5 overflow-x-auto px-3 py-2 bg-black/60 backdrop-blur-xl border border-zinc-700/40 rounded-full"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            {/* All Tab */}
+            <button
+              onClick={() => setFilter("all")}
+              className={`flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-medium transition-all ${filter === "all"
+                ? "bg-white text-black"
+                : "text-zinc-400 hover:text-white"
+                }`}
             >
-              {/* All Tab */}
-              <button
-                onClick={() => setFilter("all")}
-                className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${filter === "all"
-                  ? "bg-zinc-200 text-zinc-900"
-                  : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
-                  }`}
-              >
-                All ({news.length})
-              </button>
-
-              {/* Category Tabs */}
-              {CATEGORIES.map((cat) => {
-                const Icon = cat.icon;
-                const count = counts[cat.key] || 0;
-                const isActive = filter === cat.key;
-                return (
-                  <button
-                    key={cat.key}
-                    onClick={() => setFilter(cat.key)}
-                    className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1 ${isActive
-                      ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
-                      : "bg-zinc-900/80 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/80 border border-zinc-800"
-                      }`}
-                  >
-                    <Icon className="w-3 h-3" />
-                    {cat.label} ({count})
-                  </button>
-                );
-              })}
-            </div>
+              All
+            </button>
+            {/* Category Tabs */}
+            {CATEGORIES.map((cat) => {
+              const Icon = cat.icon;
+              const isActive = filter === cat.key;
+              return (
+                <button
+                  key={cat.key}
+                  onClick={() => setFilter(cat.key)}
+                  className={`flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-medium transition-all flex items-center gap-1 ${isActive
+                    ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
+                    : "text-zinc-400 hover:text-white"
+                    }`}
+                >
+                  <Icon className="w-3 h-3" />
+                  {cat.label}
+                </button>
+              );
+            })}
           </div>
-        )}
+        </div>
+      )}
 
-        {/* Loading */}
-        {loading && <SkeletonGrid count={4} variant="article" columns={2} />}
+      {/* ── Progress dots — right side ───────────────────────── */}
+      {filteredNews.length > 1 && (
+        <div className="fixed right-4 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center gap-1.5">
+          {filteredNews.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => goToSlide(i)}
+              className={`rounded-full transition-all duration-300 ${i === currentIndex
+                ? "w-2 h-5 bg-green-400"
+                : "w-1.5 h-1.5 bg-zinc-600 hover:bg-zinc-400"
+                }`}
+              aria-label={`Go to article ${i + 1}`}
+            />
+          ))}
+          {/* Counter */}
+          <span className="text-[10px] text-zinc-500 mt-2 font-mono">
+            {currentIndex + 1}/{filteredNews.length}
+          </span>
+        </div>
+      )}
 
-        {/* Error */}
-        {error && (
-          <div className="text-center py-16">
-            <p className="text-zinc-400">{error}</p>
-          </div>
-        )}
+      {/* ── Nav arrows — bottom right ────────────────────────── */}
+      {filteredNews.length > 1 && (
+        <div className="fixed bottom-6 right-4 z-40 flex flex-col gap-2">
+          <button
+            onClick={() => currentIndex > 0 && goToSlide(currentIndex - 1)}
+            disabled={currentIndex === 0}
+            className="w-10 h-10 rounded-full bg-black/50 backdrop-blur-sm border border-zinc-700/40 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-black/70 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronUp className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => currentIndex < filteredNews.length - 1 && goToSlide(currentIndex + 1)}
+            disabled={currentIndex === filteredNews.length - 1}
+            className="w-10 h-10 rounded-full bg-black/50 backdrop-blur-sm border border-zinc-700/40 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-black/70 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronDown className="w-5 h-5" />
+          </button>
+        </div>
+      )}
 
-        {/* Empty */}
-        {!loading && !error && filteredNews.length === 0 && (
-          <div className="text-center py-16">
+      {/* ── Empty state ──────────────────────────────────────── */}
+      {filteredNews.length === 0 && (
+        <div className="h-full flex items-center justify-center">
+          <div className="text-center">
             <Newspaper className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
             <p className="text-zinc-500 text-lg mb-2">
               {filter !== "all"
                 ? `No ${CATEGORY_MAP[filter]?.label || filter} news available.`
-                : "No news available yet. Feed will populate automatically."}
+                : "No news available yet."}
             </p>
           </div>
-        )}
-
-        {/* News Grid — 2 columns */}
-        {!loading && !error && filteredNews.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredNews.map((item) => {
-              const config =
-                CATEGORY_MAP[item.category as FilterTab] ||
-                CATEGORY_MAP.general;
-
-              return (
-                <Link
-                  key={item.id}
-                  href={`/ai-news/${item.id}`}
-                  onClick={() =>
-                    sessionStorage.setItem(
-                      "ai-news-scroll",
-                      String(window.scrollY)
-                    )
-                  }
-                  className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
-                >
-                  {/* Image */}
-                  <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
-                    {item.image_url ? (
-                      <img
-                        src={item.image_url}
-                        alt={item.title}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-900/20 to-zinc-900">
-                        <FileText className="w-12 h-12 text-purple-500/30" />
-                      </div>
-                    )}
-
-                    {/* Category badge on image */}
-                    {config && (
-                      <span
-                        className={`absolute top-2.5 left-2.5 px-2 py-0.5 text-[10px] font-medium rounded-md border ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
-                        style={{ pointerEvents: "none" }}
-                      >
-                        {config.label}
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-4">
-                    <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-2">
-                      <Calendar className="w-3 h-3" />
-                      <span>
-                        {new Date(item.date).toLocaleDateString("en-US", {
-                          year: "numeric",
-                          month: "short",
-                          day: "numeric",
-                        })}
-                      </span>
-                    </div>
-
-                    <h2 className="text-base font-semibold text-white line-clamp-2 mb-2">
-                      {item.title}
-                    </h2>
-
-                    <p className="text-gray-400 text-[13px] leading-relaxed line-clamp-3">
-                      {item.summary.replace(/\*\*/g, '').replace(/^[-•*]\s+/gm, '').substring(0, 150)}...
-                    </p>
-
-                    <div className="flex items-center justify-between mt-3">
-                      <div className="flex items-center gap-1 text-green-400 text-xs font-medium">
-                        <span>Read more</span>
-                        <ChevronRight className="w-3.5 h-3.5" />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        )}
-
-        {/* Footer count */}
-        {!loading && news.length > 0 && (
-          <p className="text-center text-xs text-zinc-600 mt-8">
-            Showing {filteredNews.length} of {news.length} articles · AI-powered
-            · Live from Firebase
-          </p>
-        )}
-
-        {/* Back Link */}
-        <div className="mt-12 text-center">
-          <button
-            onClick={() => router.back()}
-            className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Home
-          </button>
         </div>
-      </div>
-    </main>
+      )}
+
+      {/* ── Snap-scroll container ────────────────────────────── */}
+      {filteredNews.length > 0 && (
+        <div
+          ref={containerRef}
+          className="h-full w-full overflow-y-auto"
+          style={{
+            scrollSnapType: "y mandatory",
+            scrollBehavior: "smooth",
+            WebkitOverflowScrolling: "touch",
+            overscrollBehavior: "contain",
+          }}
+        >
+          {filteredNews.map((item, index) => {
+            const config =
+              CATEGORY_MAP[item.category as FilterTab] ||
+              CATEGORY_MAP.general;
+
+            return (
+              <div
+                key={item.id}
+                ref={(el) => { slideRefs.current[index] = el; }}
+                data-index={index}
+                className="h-screen w-full flex flex-col flex-shrink-0"
+                style={{ scrollSnapAlign: "start" }}
+              >
+                {/* ── Image section (top ~55%) ─────────────── */}
+                <div className="relative w-full flex-1 min-h-0 overflow-hidden bg-zinc-900">
+                  {item.image_url ? (
+                    <img
+                      src={item.image_url}
+                      alt={item.title}
+                      className="w-full h-full object-cover object-center"
+                      loading={index < 3 ? "eager" : "lazy"}
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-purple-900/20 via-zinc-900 to-zinc-950 flex items-center justify-center">
+                      <FileText className="w-20 h-20 text-purple-500/20" />
+                    </div>
+                  )}
+
+                  {/* Category badge on image */}
+                  {config && (
+                    <span
+                      className={`absolute top-14 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                    >
+                      {config.label}
+                    </span>
+                  )}
+
+                  {/* Subtle bottom fade into content area */}
+                  <div
+                    className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#0a0a0a] to-transparent"
+                    style={{ pointerEvents: "none" }}
+                  />
+                </div>
+
+                {/* ── Text content section (bottom) ────────── */}
+                <div className="w-full bg-[#0a0a0a] px-5 py-4 md:px-8 md:py-5 pr-14 flex flex-col justify-center" style={{ minHeight: "45%" }}>
+                  {/* Date */}
+                  <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-2">
+                    <Calendar className="w-3 h-3" />
+                    <span>
+                      {new Date(item.date).toLocaleDateString("en-US", {
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric",
+                      })}
+                    </span>
+                  </div>
+
+                  {/* Title */}
+                  <h2 className="text-lg md:text-2xl font-bold text-white leading-snug mb-2 line-clamp-2">
+                    {item.title}
+                  </h2>
+
+                  {/* Summary */}
+                  <p className="text-gray-400 text-[13px] md:text-sm leading-relaxed mb-4 line-clamp-3 max-w-2xl">
+                    {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
+                  </p>
+
+                  {/* Read more link */}
+                  <Link
+                    href={`/ai-news/${item.id}`}
+                    onClick={() =>
+                      sessionStorage.setItem(
+                        "ai-news-slide-index",
+                        String(currentIndex)
+                      )
+                    }
+                    className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors w-fit"
+                  >
+                    Read more
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* ── Swipe hint (first load only) ─────────────────────── */}
+      {showHint && filteredNews.length > 1 && (
+        <div className="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center animate-bounce">
+          <ChevronUp className="w-6 h-6 text-zinc-400" />
+          <span className="text-zinc-500 text-xs mt-1">Scroll to explore</span>
+        </div>
+      )}
+    </div>
   );
 }
