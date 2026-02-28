@@ -45,78 +45,132 @@ IMAGE_HEIGHT = 576  # 16:9 cinematic ratio
 #
 # Each pipeline run picks ONE random query, so over time the mix balances out.
 
-SEARCH_QUERIES = [
-    # ═══════════════════════════════════════════════════════════
-    # 50% — AI & TECH (primary focus)
-    # ═══════════════════════════════════════════════════════════
-    "artificial intelligence latest breakthroughs announcements",
-    "OpenAI GPT new model release announcements",
-    "Google DeepMind Gemini AI research news",
-    "Anthropic Claude AI safety research news",
-    "Anthropic AI company announcements updates news",
-    "Meta AI Llama open source model news",
-    "open source AI models community development news",
-    "Hugging Face open source AI tools models news",
-    "Mistral AI open source language model news",
-    "generative AI tools products launches today",
-    "AI startup funding acquisition deals news",
-    "AI regulation policy government updates",
-    "Nvidia AMD AI chip semiconductor hardware news",
-    "Apple Google Microsoft major tech announcements",
-    "quantum computing breakthrough research news",
-    "robotics automation humanoid robot news",
-    "AI coding programming developer tools news",
-    "AI image video generation model news",
-    "cloud computing AI infrastructure updates",
+QUERY_BUCKETS = {
+    # ── AI & Tech (core) ──
+    "ai-tech": [
+        "artificial intelligence latest breakthroughs announcements",
+        "OpenAI GPT new model release announcements",
+        "Google DeepMind Gemini AI research news",
+        "Anthropic Claude AI safety research news",
+        "Meta AI Llama open source model news",
+        "generative AI tools products launches today",
+        "AI startup funding acquisition deals news",
+        "AI regulation policy government updates",
+        "Nvidia AMD AI chip semiconductor hardware news",
+        "quantum computing breakthrough research news",
+        "robotics automation humanoid robot news",
+        "AI coding programming developer tools news",
+        "AI image video generation model news",
+        "cloud computing AI infrastructure updates",
+    ],
 
-    # ═══════════════════════════════════════════════════════════
-    # 50% — DIVERSE TOPICS
-    # ═══════════════════════════════════════════════════════════
+    # ── Open Source AI ──
+    "open-source": [
+        "open source AI models community development news",
+        "Hugging Face open source AI tools models news",
+        "Mistral AI open source language model news",
+        "open source large language model release news",
+        "Linux open source software community news",
+        "open source AI framework PyTorch TensorFlow news",
+    ],
 
     # ── Disability & Accessibility ──
-    "disability technology assistive tech accessibility news",
-    "AI assistive technology disability inclusion news",
-    "accessible technology innovations disabled people news",
-    "visually impaired blind students assistive technology news",
-    "screen reader accessibility blind people technology news",
-    "deaf hearing impaired technology accessibility news",
-    "wheelchair disability mobility technology innovation news",
-    "autism neurodiversity technology support news",
+    "disability": [
+        "disability technology assistive tech accessibility news",
+        "AI assistive technology disability inclusion news",
+        "accessible technology innovations disabled people news",
+        "visually impaired blind students assistive technology news",
+        "screen reader accessibility blind people technology news",
+        "deaf hearing impaired technology accessibility news",
+        "wheelchair disability mobility technology innovation news",
+        "autism neurodiversity technology support news",
+    ],
 
     # ── Health ──
-    "healthcare technology innovation AI medical news",
-    "mental health digital wellness technology news",
-    "AI healthcare diagnosis treatment breakthrough news",
-    "medical technology health research discovery news",
+    "health": [
+        "healthcare technology innovation AI medical news",
+        "mental health digital wellness technology news",
+        "AI healthcare diagnosis treatment breakthrough news",
+        "medical technology health research discovery news",
+        "telemedicine digital health innovation news",
+        "drug discovery AI pharmaceutical research news",
+    ],
 
-    # ── Climate & Environment ──
-    "climate change environmental research news",
-    "climate technology clean energy innovation news",
-    "climate policy energy transition sustainability news",
+    # ── Climate & Natural Disasters ──
+    "climate": [
+        "climate change global warming research news today",
+        "climate technology clean energy innovation news",
+        "earthquake volcano natural disaster news today",
+        "extreme weather flooding hurricane disaster news",
+        "renewable energy solar wind power news",
+        "climate policy carbon emissions sustainability news",
+        "wildlife conservation biodiversity environmental news",
+    ],
 
-    # ── World Affairs & Geopolitics ──
-    "geopolitical technology competition world news",
-    "international trade technology policy news",
-    "digital privacy surveillance regulation world news",
+    # ── World Affairs ──
+    "world": [
+        "geopolitical technology competition world news",
+        "international trade technology policy news",
+        "digital privacy surveillance regulation world news",
+        "global economy recession inflation news today",
+        "war conflict peace diplomatic negotiations news",
+        "election democracy political news today",
+        "refugee migration humanitarian crisis news",
+    ],
 
-    # ── General / Business / Culture ──
-    "tech CEO statements leadership announcements news",
-    "tech company earnings big tech stock news",
-    "tech startup unicorn IPO funding news",
-    "cryptocurrency blockchain Web3 news",
-    "social media platform changes updates news",
-    "gaming esports streaming industry news",
-    "science discovery research breakthrough news",
-    "space technology SpaceX NASA launch news",
+    # ── General / Business / Science ──
+    "general": [
+        "tech CEO statements leadership announcements news",
+        "tech company earnings big tech stock news",
+        "Apple Google Microsoft major tech announcements",
+        "cryptocurrency blockchain Web3 news",
+        "social media platform changes updates news",
+        "science discovery research breakthrough news",
+        "space technology SpaceX NASA launch news",
+        "gaming esports streaming industry news",
+    ],
+}
+
+# Rotation order — ensures each category gets coverage across the day
+# 48 runs/day (every 30 min) spread across 7 categories
+ROTATION_ORDER = [
+    "ai-tech", "disability", "climate", "open-source",
+    "health", "world", "general", "ai-tech",
+    "open-source", "disability", "ai-tech", "climate",
+    "world", "health", "general", "ai-tech",
+    "disability", "open-source", "climate", "health",
+    "ai-tech", "world", "general", "disability",
+    "open-source", "ai-tech", "climate", "health",
+    "world", "general", "ai-tech", "disability",
+    "climate", "open-source", "health", "ai-tech",
+    "world", "general", "disability", "climate",
+    "open-source", "health", "ai-tech", "world",
+    "general", "disability", "ai-tech", "climate",
 ]
 
-FALLBACK_QUERIES = [
-    "artificial intelligence news today",
-    "latest technology breakthrough news",
-    "Anthropic open source AI news today",
-    "disability assistive technology news today",
-    "health technology AI news today",
-]
+
+def pick_search_query() -> tuple[str, str]:
+    """Pick a search query based on time-of-day rotation.
+    Returns (query, category_key)."""
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+    # Slot index: each 30-min slot gets a category
+    slot = (now.hour * 2 + (1 if now.minute >= 30 else 0)) % len(ROTATION_ORDER)
+    category_key = ROTATION_ORDER[slot]
+    queries = QUERY_BUCKETS[category_key]
+    query = random.choice(queries)
+    return query, category_key
+
+
+def pick_fallback_queries(exclude_category: str) -> list[tuple[str, str]]:
+    """Pick queries from OTHER categories for fallback."""
+    fallbacks = []
+    other_keys = [k for k in QUERY_BUCKETS if k != exclude_category]
+    random.shuffle(other_keys)
+    for key in other_keys[:3]:  # Try 3 different categories
+        q = random.choice(QUERY_BUCKETS[key])
+        fallbacks.append((q, key))
+    return fallbacks
 
 # ─── Helpers ─────────────────────────────────────────────────
 
@@ -692,9 +746,9 @@ def generate_news():
         raise RuntimeError("CEREBRAS_API_KEY not set")
     cerebras_client = Cerebras(api_key=cerebras_key)
 
-    # 1. Generate dynamic search query
-    search_query = random.choice(SEARCH_QUERIES)
-    print(f"📰 Generated dynamic query: {search_query}")
+    # 1. Pick search query via time-based rotation
+    search_query, query_category = pick_search_query()
+    print(f"📰 Query [{query_category}]: {search_query}")
 
     # 2. Detect category from query
     category = detect_category(search_query)
@@ -718,26 +772,34 @@ def generate_news():
     total_text = sum(len(f"{r.get('title','')} {r.get('description','')}") for r in scraped_data)
 
     if not scraped_data or total_text < 50:
-        # Fallback 1: broader query, 3 days
-        fallback_query = random.choice(FALLBACK_QUERIES)
-        print(f"⚠️ Primary search weak. Trying fallback: \"{fallback_query}\"")
-        fallback_result = search_tavily(fallback_query, 7)
-        fallback_fresh, fb_filtered = filter_by_url_history(fallback_result["results"], known_urls)
-        if fallback_fresh:
-            scraped_data = fallback_fresh
-            total_filtered += fb_filtered
-            used_query = fallback_query
-            print(f"✅ Fallback search succeeded: {len(scraped_data)} fresh results")
-        else:
-            # Fallback 2: even broader, 7 days
-            print("⚠️ 3-day fallback empty. Trying 7-day window...")
-            wider_result = search_tavily("latest technology AI news", 7)
-            wider_fresh, w_filtered = filter_by_url_history(wider_result["results"], known_urls)
-            if wider_fresh:
-                scraped_data = wider_fresh
-                total_filtered += w_filtered
-                used_query = "latest technology AI news (7d)"
-                print(f"✅ 7-day search succeeded: {len(scraped_data)} fresh results")
+        # Fallback: try queries from OTHER categories (up to 3)
+        fallback_queries = pick_fallback_queries(query_category)
+        found_fallback = False
+        for fb_query, fb_cat in fallback_queries:
+            print(f"⚠️ Primary search weak. Trying [{fb_cat}]: \"{fb_query}\"")
+            fb_result = search_tavily(fb_query, 7)
+            fb_fresh, fb_filtered = filter_by_url_history(fb_result["results"], known_urls)
+            if fb_fresh and sum(len(f"{r.get('title','')} {r.get('description','')}") for r in fb_fresh) >= 50:
+                scraped_data = fb_fresh
+                total_filtered += fb_filtered
+                used_query = fb_query
+                category = detect_category(fb_query)
+                print(f"✅ Fallback [{fb_cat}] succeeded: {len(scraped_data)} fresh results")
+                found_fallback = True
+                break
+            else:
+                print(f"  ⚠️ [{fb_cat}] also empty, trying next...")
+
+        if not found_fallback:
+            # Last resort: very broad search
+            print("⚠️ All category fallbacks empty. Trying ultra-broad search...")
+            broad_result = search_tavily("latest breaking news today", 7)
+            broad_fresh, br_filtered = filter_by_url_history(broad_result["results"], known_urls)
+            if broad_fresh:
+                scraped_data = broad_fresh
+                total_filtered += br_filtered
+                used_query = "latest breaking news today"
+                print(f"✅ Broad search succeeded: {len(scraped_data)} fresh results")
             else:
                 raise RuntimeError("No fresh search results found after all fallbacks")
     else:
