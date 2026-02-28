@@ -943,8 +943,59 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 7. Generate SHORT image prompt — topic-focused, 15-25 words only
+    # 7. Generate CINEMATIC image prompt — topic-aware style routing, 50-90 words
     image_prompt = ""
+
+    # ── Style routing based on article category ──
+    STYLE_ROUTES = {
+        "ai-tech": {
+            "aesthetic": "futuristic cyberpunk tech aesthetic, glowing neon circuits, sleek holographic interfaces, digital data streams",
+            "lighting": "volumetric neon blue and purple lighting, glowing rim lights, cybernetic atmosphere",
+            "environment": "high-tech control room, futuristic lab, holographic displays, server racks with LED lights",
+        },
+        "disability": {
+            "aesthetic": "warm human-centered editorial, empowering perspective, inclusive modern design",
+            "lighting": "soft golden natural light, warm diffused tones, hopeful atmosphere",
+            "environment": "modern accessible workspace, bright community center, adaptive technology in use",
+        },
+        "health": {
+            "aesthetic": "clean clinical macro-detail, glowing biological data particles, precision medical technology",
+            "lighting": "clean bright white clinical lighting, subtle blue accents, sterile pristine glow",
+            "environment": "advanced medical facility, molecular visualization, diagnostic screens, research lab",
+        },
+        "climate": {
+            "aesthetic": "dramatic high-contrast raw nature, breathtaking environmental realism, powerful elemental forces",
+            "lighting": "dramatic chiaroscuro, moody storm light, golden hour through clouds, atmospheric fog",
+            "environment": "vast natural landscape, extreme weather, volcanic terrain, ocean waves, melting ice, dense forest",
+        },
+        "world": {
+            "aesthetic": "powerful editorial photojournalism, symbolic minimalism, documentary gravitas",
+            "lighting": "dramatic directional shadows, low-key editorial lighting, powerful contrast",
+            "environment": "diplomatic halls, city skylines, global landmarks, press conferences, crowded streets",
+        },
+        "general": {
+            "aesthetic": "premium modern editorial, vibrant magazine quality, polished corporate aesthetic",
+            "lighting": "bright studio-quality lighting, subtle gradients, professional warmth",
+            "environment": "modern office, tech campus, conference stage, financial district, product showcase",
+        },
+        "open-source": {
+            "aesthetic": "developer community vibe, collaborative open workspace, code and collaboration",
+            "lighting": "warm ambient monitor glow mixed with daylight, creative workspace atmosphere",
+            "environment": "developer workspace with multiple screens, open-source community hackathon, code repositories",
+        },
+    }
+
+    # Pick style based on detected category
+    detected_cat = (ai_category or category or "general").lower().strip()
+    style = STYLE_ROUTES.get(detected_cat, STYLE_ROUTES["general"])
+    print(f"🎨 Style route: {detected_cat}")
+
+    # Universal quality boosters — always appended
+    QUALITY_BOOST = (
+        "cinematic lighting, masterpiece, 8K resolution, hyper-detailed, "
+        "dramatic contrast, photorealistic, professional color grading, "
+        "volumetric lighting, award-winning photography, no text no words no letters"
+    )
 
     try:
         img_completion = cerebras_client.chat.completions.create(
@@ -953,39 +1004,54 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "Write a SHORT image prompt (15-25 words MAX) for a news thumbnail. "
-                        "The image MUST directly show the SUBJECT of the article. "
-                        "Focus on: the main topic, relevant objects, people, or technology mentioned. "
-                        "Do NOT describe random scenes unrelated to the article. "
-                        "End with: photorealistic, sharp detail. "
-                        "Output ONLY the prompt, nothing else."
+                        "You are EliteImageMaster — a master cinematic image prompt engineer. "
+                        "Your task: convert a news headline into a visually stunning image generation prompt. "
+                        "INTERNAL ALGORITHM (use but don't explain): "
+                        "1) Analyze the topic: identify core subject, emotion, key visual elements. "
+                        "2) Construct scene: Subject + Action + Environment + Camera Angle + Lighting. "
+                        "3) The image MUST directly represent the article's actual subject matter. "
+                        "4) Use hyper-realistic textures, immersive atmosphere, dynamic composition. "
+                        "5) Apply the provided STYLE ROUTE for visual aesthetic. "
+                        "OUTPUT: Write ONLY 50-90 words. One paragraph. No explanations. No labels. "
+                        "CONSTRAINT: Never include text, letters, or words inside the image. Use visual symbolism only."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write a 15-25 word image prompt for this news:\n"
-                        f"Title: {title}\n"
-                        f"Summary: {article_text[:300]}\n\n"
-                        f"The image MUST show what this article is about. Be specific to the topic."
+                        f"Generate a 50-90 word cinematic image prompt for this news:\n\n"
+                        f"HEADLINE: {title}\n"
+                        f"ARTICLE: {article_text[:400]}\n\n"
+                        f"STYLE ROUTE:\n"
+                        f"- Aesthetic: {style['aesthetic']}\n"
+                        f"- Lighting: {style['lighting']}\n"
+                        f"- Environment: {style['environment']}\n\n"
+                        f"RULES:\n"
+                        f"- Image MUST show the specific subject of this article\n"
+                        f"- Describe the main subject with vivid detail first\n"
+                        f"- Then describe environment, camera angle, lighting\n"
+                        f"- Make it jaw-dropping, high production value, cinematic"
                     ),
                 },
             ],
-            temperature=0.7,
-            max_tokens=60,
+            temperature=0.8,
+            max_tokens=150,
         )
-        image_prompt = (img_completion.choices[0].message.content or "").strip()
-        if image_prompt.startswith('"') and image_prompt.endswith('"'):
-            image_prompt = image_prompt[1:-1]
-        # Ensure quality suffix
-        if "photorealistic" not in image_prompt.lower():
-            image_prompt += ", photorealistic, sharp detail"
-        print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt}"')
+        raw_prompt = (img_completion.choices[0].message.content or "").strip()
+        if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
+            raw_prompt = raw_prompt[1:-1]
+        # Strip any labels the LLM might add
+        import re as _re
+        raw_prompt = _re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=_re.IGNORECASE).strip()
+        raw_prompt = _re.sub(r'^\*\*.*?\*\*\s*', '', raw_prompt).strip()
+        # Append quality boosters
+        image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
+        print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
-        # Fallback: use title directly as prompt
-        image_prompt = f"{title}, photorealistic, sharp detail, professional news thumbnail"
-        print(f'🎨 Fallback prompt: "{image_prompt}"')
+        # Fallback: title + style + quality
+        image_prompt = f"{title}, {style['aesthetic']}, {style['lighting']}, {QUALITY_BOOST}"
+        print(f'🎨 Fallback prompt: "{image_prompt[:120]}..."')
 
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
