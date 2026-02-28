@@ -840,7 +840,6 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
     image_prompt = ""
 
     # Rotate styles for variety
-    import random
     IMAGE_STYLES = [
         {
             "style": "Cinematic thumbnail",
