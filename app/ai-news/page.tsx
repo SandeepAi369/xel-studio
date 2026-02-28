@@ -187,6 +187,15 @@ export default function AINewsPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] pb-16">
+      {/* LIVE indicator */}
+      <div className="fixed top-4 left-4 z-50 flex items-center gap-1.5 bg-black/70 backdrop-blur-sm border border-green-500/30 rounded-full px-3 py-1.5">
+        <span className="relative flex h-2.5 w-2.5">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
+        </span>
+        <span className="text-green-400 text-xs font-semibold tracking-wider">LIVE</span>
+      </div>
+
       {/* Header */}
       <header className="pt-16 pb-8 px-4 text-center">
         <div>
