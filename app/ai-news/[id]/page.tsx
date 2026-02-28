@@ -107,6 +107,9 @@ export default function NewsDetailPage() {
     useEffect(() => {
         if (!id) return;
 
+        // Always scroll to top when article opens
+        window.scrollTo(0, 0);
+
         async function fetchArticle() {
             try {
                 const docRef = doc(db, "news", id);
@@ -273,7 +276,7 @@ export default function NewsDetailPage() {
 
                     {/* Article Body — Clean text formatting */}
                     <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-4">
-                        <ul className="space-y-2 max-w-none pl-4 list-none">
+                        <ul className="space-y-2 max-w-none pl-1 list-none">
                             {paragraphs.map((block, index) => {
                                 const text = block.text;
                                 const hasLink = text.includes('http');
