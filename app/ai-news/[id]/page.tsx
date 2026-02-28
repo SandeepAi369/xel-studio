@@ -65,6 +65,7 @@ function formatContent(content: string): ContentBlock[] {
         .replace(/([.!?])\1{2,}/g, '$1')
         .replace(/#{1,6}\s*/g, '')
         .replace(/^[-=]{3,}$/gm, '')
+        .replace(/\n{2,}/g, '\n')
         .trim();
 
     const lines = cleaned.split(/\n/).map(l => l.trim()).filter(l => l.length > 0);
@@ -271,8 +272,8 @@ export default function NewsDetailPage() {
                     </div>
 
                     {/* Article Body — Clean text formatting */}
-                    <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-6">
-                        <ul className="space-y-4 max-w-none pl-4">
+                    <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-4">
+                        <ul className="space-y-2 max-w-none pl-4">
                             {paragraphs.map((block, index) => {
                                 // Bullet point — render with dot and bold text
                                 if (block.type === 'bullet') {
