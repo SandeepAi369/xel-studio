@@ -943,40 +943,40 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 7. Generate image prompt with varied styles (title is now available)
+    # 7. Generate image prompt — optimized for CLARITY and QUALITY
     image_prompt = ""
 
-    # Rotate styles for variety
+    # All styles emphasize bright, clear, well-lit scenes (dark/moody renders poorly in AI)
     IMAGE_STYLES = [
         {
-            "style": "Cinematic thumbnail",
-            "camera": "Shot on RED Komodo, 50mm anamorphic lens, dramatic cinematic lighting",
-            "look": "Movie poster composition, rich contrast, deep shadows with highlights, bokeh background",
-            "colors": "deep teal and orange color grading, dark moody tones",
+            "style": "Bright cinematic wide shot",
+            "camera": "Shot on RED Komodo, 35mm anamorphic lens, golden hour natural light",
+            "look": "Wide establishing shot, bright and vivid, cinematic 16:9, sharp focus throughout, rich detail",
+            "colors": "warm golden sunlight, vivid greens, bright sky blue, natural earth tones",
         },
         {
-            "style": "Realistic photojournalism",
-            "camera": "Shot on Canon EOS R5, 35mm lens, natural available light",
-            "look": "Reuters/AP wire photo style, documentary feel, real-world environment",
-            "colors": "natural muted earth tones, neutral grays and warm browns",
+            "style": "Vibrant outdoor editorial",
+            "camera": "Shot on Canon EOS R5, 24mm wide lens, bright daylight",
+            "look": "National Geographic quality, ultra-sharp detail, vivid colors, expansive outdoor environment",
+            "colors": "saturated greens, deep blue sky, warm amber highlights, crisp white clouds",
         },
         {
-            "style": "Vibrant colorful editorial",
-            "camera": "Shot on Sony A7IV, 24-70mm lens, golden hour soft light",
-            "look": "Magazine cover quality, vivid saturated colors, clean modern composition",
-            "colors": "vibrant blues, warm oranges, rich greens, bold contrasting palette",
+            "style": "Clean modern professional",
+            "camera": "Shot on Sony A7IV, 50mm lens, bright studio-quality lighting",
+            "look": "Apple keynote presentation quality, clean and sharp, bright white background accents, modern aesthetic",
+            "colors": "clean whites, bright accent colors, subtle gradients, premium tech feel",
         },
         {
-            "style": "Dramatic high-contrast",
-            "camera": "Shot on Nikon Z9, 85mm lens, single directional hard light",
-            "look": "High contrast black and white tones with selective color, powerful silhouettes",
-            "colors": "deep blacks, bright whites, one accent color pop (red or blue or gold)",
+            "style": "Warm sunset landscape",
+            "camera": "Shot on Hasselblad X2D, 45mm lens, magic hour golden light",
+            "look": "Travel magazine quality, breathtaking vista, warm atmospheric glow, stunning clarity",
+            "colors": "golden amber, warm orange sunset, deep purple sky, silhouette elements",
         },
         {
-            "style": "Warm editorial portrait",
-            "camera": "Shot on Fujifilm GFX, 110mm lens, soft diffused window light",
-            "look": "Intimate close-up perspective, soft focus background, professional warmth",
-            "colors": "warm amber, soft cream, honey gold tones, cozy atmosphere",
+            "style": "Crisp aerial perspective",
+            "camera": "Shot on DJI Mavic, wide angle, bright clear day",
+            "look": "Birds-eye or elevated perspective, vast landscape, ultra-sharp details, dramatic scale",
+            "colors": "vivid patchwork of greens and browns, bright blue water, distinct building outlines",
         },
     ]
     chosen_style = random.choice(IMAGE_STYLES)
@@ -989,37 +989,46 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert editorial photo director. Write highly detailed image descriptions for news thumbnails. "
-                        "Your descriptions MUST match the article topic exactly. "
-                        "Include: specific scene/setting, key objects, people or places, background elements, lighting, color palette, mood. "
-                        "Output ONLY the description. Never include text, words, logos, watermarks, or UI elements."
+                        "You write vivid, crystal-clear image descriptions for AI news thumbnails. "
+                        "CRITICAL RULES for high-quality output: "
+                        "1) ALWAYS describe BRIGHT, well-lit outdoor or environmental scenes — never dark or dimly lit. "
+                        "2) Include 3-5 specific PHYSICAL OBJECTS with exact details (colors, materials, shapes). "
+                        "3) Describe the BACKGROUND in detail — sky color, terrain, buildings, vegetation. "
+                        "4) Use words like: crisp, vivid, sharp, bright, clear, detailed, sunlit, vibrant. "
+                        "5) NEVER use: dark, dim, shadowy, moody, noir, neon, glow, abstract. "
+                        "Output ONLY the description. No text/words/logos in the image."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write an 80-120 word image description that matches this news article.\n\n"
+                        f"Write a 90-130 word VIVID, BRIGHT image description for this news article.\n\n"
                         f"Title: {title}\n"
                         f"Article: {article_text[:500]}\n\n"
                         f"STYLE: {chosen_style['style']}\n"
                         f"CAMERA: {chosen_style['camera']}\n"
                         f"LOOK: {chosen_style['look']}\n"
                         f"COLORS: {chosen_style['colors']}\n\n"
-                        f"Requirements:\n"
-                        f"- Describe specific real-world objects, people, or places relevant to the story\n"
-                        f"- Include company logos, product designs, or brand elements if relevant\n"
-                        f"- Vary the background — use offices, labs, streets, factories, nature, conferences\n"
-                        f"- NO plain single-color backgrounds, NO simple drawings, NO abstract art\n"
-                        f"- Make it look like a professional news thumbnail"
+                        f"MANDATORY RULES:\n"
+                        f"- Scene must be BRIGHT with natural daylight or golden hour—NO dark/night scenes\n"
+                        f"- Describe specific objects: vehicles, buildings, trees, equipment, people, terrain\n"
+                        f"- Include exact colors for sky, ground, and main objects\n"
+                        f"- Background must be detailed environment (city, forest, field, ocean, mountain)\n"
+                        f"- Image must feel CRISP and HIGH-RESOLUTION like a 4K photograph\n"
+                        f"- NO blurry backgrounds, NO flat colors, NO dimly lit interiors\n"
+                        f"- End the prompt with: ultra sharp, 4K, high detail, professional photography"
                     ),
                 },
             ],
             temperature=0.85,
-            max_tokens=200,
+            max_tokens=250,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
         if image_prompt.startswith('"') and image_prompt.endswith('"'):
             image_prompt = image_prompt[1:-1]
+        # Ensure quality suffix
+        if "4K" not in image_prompt and "ultra sharp" not in image_prompt:
+            image_prompt += ", ultra sharp, 4K, high detail, professional photography"
         print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt[:120]}..."')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
