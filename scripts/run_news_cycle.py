@@ -943,44 +943,8 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 7. Generate image prompt — optimized for CLARITY and QUALITY
+    # 7. Generate SHORT image prompt — topic-focused, 15-25 words only
     image_prompt = ""
-
-    # All styles emphasize bright, clear, well-lit scenes (dark/moody renders poorly in AI)
-    IMAGE_STYLES = [
-        {
-            "style": "Bright cinematic wide shot",
-            "camera": "Shot on RED Komodo, 35mm anamorphic lens, golden hour natural light",
-            "look": "Wide establishing shot, bright and vivid, cinematic 16:9, sharp focus throughout, rich detail",
-            "colors": "warm golden sunlight, vivid greens, bright sky blue, natural earth tones",
-        },
-        {
-            "style": "Vibrant outdoor editorial",
-            "camera": "Shot on Canon EOS R5, 24mm wide lens, bright daylight",
-            "look": "National Geographic quality, ultra-sharp detail, vivid colors, expansive outdoor environment",
-            "colors": "saturated greens, deep blue sky, warm amber highlights, crisp white clouds",
-        },
-        {
-            "style": "Clean modern professional",
-            "camera": "Shot on Sony A7IV, 50mm lens, bright studio-quality lighting",
-            "look": "Apple keynote presentation quality, clean and sharp, bright white background accents, modern aesthetic",
-            "colors": "clean whites, bright accent colors, subtle gradients, premium tech feel",
-        },
-        {
-            "style": "Warm sunset landscape",
-            "camera": "Shot on Hasselblad X2D, 45mm lens, magic hour golden light",
-            "look": "Travel magazine quality, breathtaking vista, warm atmospheric glow, stunning clarity",
-            "colors": "golden amber, warm orange sunset, deep purple sky, silhouette elements",
-        },
-        {
-            "style": "Crisp aerial perspective",
-            "camera": "Shot on DJI Mavic, wide angle, bright clear day",
-            "look": "Birds-eye or elevated perspective, vast landscape, ultra-sharp details, dramatic scale",
-            "colors": "vivid patchwork of greens and browns, bright blue water, distinct building outlines",
-        },
-    ]
-    chosen_style = random.choice(IMAGE_STYLES)
-    print(f"🎨 Image style: {chosen_style['style']}")
 
     try:
         img_completion = cerebras_client.chat.completions.create(
@@ -989,54 +953,39 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "You write vivid, crystal-clear image descriptions for AI news thumbnails. "
-                        "CRITICAL RULES for high-quality output: "
-                        "1) ALWAYS describe BRIGHT, well-lit outdoor or environmental scenes — never dark or dimly lit. "
-                        "2) Include 3-5 specific PHYSICAL OBJECTS with exact details (colors, materials, shapes). "
-                        "3) Describe the BACKGROUND in detail — sky color, terrain, buildings, vegetation. "
-                        "4) Use words like: crisp, vivid, sharp, bright, clear, detailed, sunlit, vibrant. "
-                        "5) NEVER use: dark, dim, shadowy, moody, noir, neon, glow, abstract. "
-                        "Output ONLY the description. No text/words/logos in the image."
+                        "Write a SHORT image prompt (15-25 words MAX) for a news thumbnail. "
+                        "The image MUST directly show the SUBJECT of the article. "
+                        "Focus on: the main topic, relevant objects, people, or technology mentioned. "
+                        "Do NOT describe random scenes unrelated to the article. "
+                        "End with: photorealistic, sharp detail. "
+                        "Output ONLY the prompt, nothing else."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write a 90-130 word VIVID, BRIGHT image description for this news article.\n\n"
+                        f"Write a 15-25 word image prompt for this news:\n"
                         f"Title: {title}\n"
-                        f"Article: {article_text[:500]}\n\n"
-                        f"STYLE: {chosen_style['style']}\n"
-                        f"CAMERA: {chosen_style['camera']}\n"
-                        f"LOOK: {chosen_style['look']}\n"
-                        f"COLORS: {chosen_style['colors']}\n\n"
-                        f"MANDATORY RULES:\n"
-                        f"- Scene must be BRIGHT with natural daylight or golden hour—NO dark/night scenes\n"
-                        f"- Describe specific objects: vehicles, buildings, trees, equipment, people, terrain\n"
-                        f"- Include exact colors for sky, ground, and main objects\n"
-                        f"- Background must be detailed environment (city, forest, field, ocean, mountain)\n"
-                        f"- Image must feel CRISP and HIGH-RESOLUTION like a 4K photograph\n"
-                        f"- NO blurry backgrounds, NO flat colors, NO dimly lit interiors\n"
-                        f"- End the prompt with: ultra sharp, 4K, high detail, professional photography"
+                        f"Summary: {article_text[:300]}\n\n"
+                        f"The image MUST show what this article is about. Be specific to the topic."
                     ),
                 },
             ],
-            temperature=0.85,
-            max_tokens=250,
+            temperature=0.7,
+            max_tokens=60,
         )
         image_prompt = (img_completion.choices[0].message.content or "").strip()
         if image_prompt.startswith('"') and image_prompt.endswith('"'):
             image_prompt = image_prompt[1:-1]
         # Ensure quality suffix
-        if "4K" not in image_prompt and "ultra sharp" not in image_prompt:
-            image_prompt += ", ultra sharp, 4K, high detail, professional photography"
-        print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt[:120]}..."')
+        if "photorealistic" not in image_prompt.lower():
+            image_prompt += ", photorealistic, sharp detail"
+        print(f'🎨 Image prompt ({len(image_prompt.split())} words): "{image_prompt}"')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
-        image_prompt = (
-            "Editorial photograph of modern technology workspace, golden-hour light, "
-            "minimalist desk with monitors, shallow depth-of-field, Canon EOS R5, "
-            "natural color palette, cinematic 16:9"
-        )
+        # Fallback: use title directly as prompt
+        image_prompt = f"{title}, photorealistic, sharp detail, professional news thumbnail"
+        print(f'🎨 Fallback prompt: "{image_prompt}"')
 
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
