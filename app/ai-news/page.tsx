@@ -422,7 +422,7 @@ export default function AINewsPage() {
                 </div>
 
                 {/* ── Text (bottom 45%) — flush against image ── */}
-                <div className="w-full bg-[#0a0a0a] px-5 py-4 md:px-8 md:py-5 pr-14 flex flex-col justify-center" style={{ height: "45%" }}>
+                <div className="w-full bg-[#0a0a0a] px-5 pt-1 pb-4 md:px-8 md:pt-1 md:pb-5 pr-14 flex flex-col justify-center" style={{ height: "45%" }}>
                   {/* Date */}
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
                     <Calendar className="w-3.5 h-3.5" />
