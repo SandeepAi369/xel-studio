@@ -380,14 +380,21 @@ export default function AINewsPage() {
               CATEGORY_MAP.general;
 
             return (
-              <div
+              <Link
                 key={item.id}
-                ref={(el) => { slideRefs.current[index] = el; }}
+                href={`/ai-news/${item.id}`}
+                onClick={() =>
+                  sessionStorage.setItem(
+                    "ai-news-slide-index",
+                    String(currentIndex)
+                  )
+                }
+                ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
-                className="h-screen w-full flex flex-col flex-shrink-0"
+                className="h-screen w-full flex flex-col flex-shrink-0 cursor-pointer"
                 style={{ scrollSnapAlign: "start" }}
               >
-                {/* ── Image section (top ~55%) ─────────────── */}
+                {/* ── Image section (top, fills remaining space) ── */}
                 <div className="relative w-full flex-1 min-h-0 overflow-hidden bg-zinc-900">
                   {item.image_url ? (
                     <img
@@ -402,10 +409,10 @@ export default function AINewsPage() {
                     </div>
                   )}
 
-                  {/* Category badge on image */}
+                  {/* Category badge — bottom of image */}
                   {config && (
                     <span
-                      className={`absolute top-14 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      className={`absolute bottom-20 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
                     >
                       {config.label}
                     </span>
@@ -418,10 +425,10 @@ export default function AINewsPage() {
                   />
                 </div>
 
-                {/* ── Text content section (bottom) ────────── */}
-                <div className="w-full bg-[#0a0a0a] px-5 py-4 md:px-8 md:py-5 pr-14 flex flex-col justify-center" style={{ minHeight: "45%" }}>
+                {/* ── Text content section (compact, no excess space) ── */}
+                <div className="w-full bg-[#0a0a0a] px-5 py-4 md:px-8 md:py-5 pr-14">
                   {/* Date */}
-                  <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-2">
+                  <div className="flex items-center gap-1.5 text-zinc-500 text-xs mb-1.5">
                     <Calendar className="w-3 h-3" />
                     <span>
                       {new Date(item.date).toLocaleDateString("en-US", {
@@ -433,31 +440,22 @@ export default function AINewsPage() {
                   </div>
 
                   {/* Title */}
-                  <h2 className="text-lg md:text-2xl font-bold text-white leading-snug mb-2 line-clamp-2">
+                  <h2 className="text-base md:text-xl font-bold text-white leading-snug mb-1.5 line-clamp-2">
                     {item.title}
                   </h2>
 
                   {/* Summary */}
-                  <p className="text-gray-400 text-[13px] md:text-sm leading-relaxed mb-4 line-clamp-3 max-w-2xl">
-                    {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
+                  <p className="text-gray-400 text-[13px] md:text-sm leading-relaxed mb-3 line-clamp-2 max-w-2xl">
+                    {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 150)}...
                   </p>
 
-                  {/* Read more link */}
-                  <Link
-                    href={`/ai-news/${item.id}`}
-                    onClick={() =>
-                      sessionStorage.setItem(
-                        "ai-news-slide-index",
-                        String(currentIndex)
-                      )
-                    }
-                    className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors w-fit"
-                  >
-                    Read more
+                  {/* Read more indicator */}
+                  <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
+                    <span>Read more</span>
                     <ChevronRight className="w-4 h-4" />
-                  </Link>
+                  </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
