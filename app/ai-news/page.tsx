@@ -116,8 +116,19 @@ export default function AINewsPage() {
   const [filter, setFilter] = useState<FilterTab>("all");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  // System auto detector for mobile/tablet viewport
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    const update = () => setIsMobile(media.matches);
+
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
 
   // Real-time Firestore listener
   useEffect(() => {
@@ -277,19 +288,31 @@ export default function AINewsPage() {
       {/* ── Category filter tabs — full width top bar ──────── */}
       {news.length > 0 && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-xl border-b border-zinc-800/50">
-          <div className="flex items-center justify-between px-3 py-2.5">
+          <div className={`${isMobile ? "px-3 pt-2 pb-2" : "px-3 py-2.5"}`}>
             {/* Back button */}
-            <button
-              onClick={() => router.back()}
-              className="flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-              Back
-            </button>
+            <div className={`${isMobile ? "mb-2" : "hidden"}`}>
+              <button
+                onClick={() => router.back()}
+                className="flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
+              >
+                <ArrowLeft className="w-3.5 h-3.5" />
+                Back
+              </button>
+            </div>
+
+            {!isMobile && (
+              <button
+                onClick={() => router.back()}
+                className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
+              >
+                <ArrowLeft className="w-3.5 h-3.5" />
+                Back
+              </button>
+            )}
 
             {/* Category tabs */}
             <div
-              className="flex items-center gap-1 overflow-x-auto flex-1 mx-2 justify-center"
+              className={`flex items-center gap-1 overflow-x-auto ${isMobile ? "w-full" : "mx-20 justify-center"}`}
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
               <button
@@ -365,7 +388,8 @@ export default function AINewsPage() {
           ref={containerRef}
           className="h-full w-full overflow-y-auto"
           style={{
-            scrollSnapType: "y mandatory",
+            scrollSnapType: isMobile ? "y proximity" : "y mandatory",
+            scrollBehavior: "smooth",
             WebkitOverflowScrolling: "touch",
             overscrollBehavior: "contain",
           }}
@@ -393,7 +417,7 @@ export default function AINewsPage() {
                 aria-label={`${item.title} - ${config?.label || "News"}`}
               >
                 {/* ── Image (top 55%) — no padding, no gap ──── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: "55%" }}>
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "48%" : "55%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -410,7 +434,7 @@ export default function AINewsPage() {
                   {/* Category badge */}
                   {config && (
                     <span
-                      className={`absolute bottom-3 left-4 inline-flex items-center gap-1 px-2.5 py-1 text-xs font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      className={`absolute ${isMobile ? "bottom-2 left-3" : "bottom-3 left-4"} inline-flex items-center gap-1 px-2.5 py-1 text-xs font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
                     >
                       {config.label}
                     </span>
@@ -418,7 +442,10 @@ export default function AINewsPage() {
                 </div>
 
                 {/* ── Text (bottom 45%) — flush against image ── */}
-                <div className="w-full bg-[#0a0a0a] px-5 pt-1 pb-4 md:px-8 md:pt-1 md:pb-5 pr-14 flex flex-col justify-center" style={{ height: "45%" }}>
+                <div
+                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-2 pb-4 pr-4" : "px-5 pt-1 pb-4 md:px-8 md:pt-1 md:pb-5 pr-14"} flex flex-col justify-center`}
+                  style={{ height: isMobile ? "52%" : "45%" }}
+                >
                   {/* Date */}
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
                     <Calendar className="w-3.5 h-3.5" />
@@ -432,12 +459,12 @@ export default function AINewsPage() {
                   </div>
 
                   {/* Title */}
-                  <h2 className="text-xl md:text-2xl font-bold text-white leading-snug mb-2 line-clamp-3">
+                  <h2 className={`${isMobile ? "text-lg" : "text-xl md:text-2xl"} font-bold text-white leading-snug mb-2 line-clamp-3`}>
                     {item.title}
                   </h2>
 
                   {/* Summary */}
-                  <p className="text-zinc-300 text-sm md:text-base leading-relaxed mb-4 line-clamp-3 max-w-2xl">
+                  <p className={`${isMobile ? "text-sm line-clamp-4" : "text-sm md:text-base line-clamp-3"} text-zinc-300 leading-relaxed mb-4 max-w-2xl`}>
                     {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
                   </p>
 
