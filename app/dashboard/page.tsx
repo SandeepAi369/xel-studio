@@ -39,7 +39,7 @@ export default function DashboardPage() {
             <div className="border-b border-white/5">
                 <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
                     <button
-                        onClick={() => router.back()}
+                        onClick={() => router.push('/')}
                         className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />

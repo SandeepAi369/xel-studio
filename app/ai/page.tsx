@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Brain, ArrowLeft, Search, Beaker, ExternalLink, Sparkles, Archive, FlaskConical } from 'lucide-react';
@@ -27,6 +26,7 @@ export default function AIPage() {
     const router = useRouter();
     const [labs, setLabs] = useState<AILab[]>([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedLab, setSelectedLab] = useState<AILab | null>(null);
 
@@ -39,7 +39,7 @@ export default function AIPage() {
                 setLabs(items);
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch(() => { setError(true); setLoading(false); });
     }, []);
 
     const filteredLabs = labs.filter(lab =>
@@ -102,6 +102,23 @@ export default function AIPage() {
                         <p className="text-zinc-500 text-lg mb-2">No experiments yet</p>
                         <p className="text-zinc-600 text-sm">AI research projects coming soon!</p>
                     </motion.div>
+                )}
+
+                
+                {/* Error State */}
+                {!loading && error && (
+                    <div className="text-center py-16">
+                        <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-purple-500/10 flex items-center justify-center">
+                            <span className="text-3xl">⚠️</span>
+                        </div>
+                        <p className="text-zinc-400 text-lg mb-2">Failed to load AI experiments</p>
+                        <button
+                            onClick={() => window.location.reload()}
+                            className="mt-4 px-6 py-2.5 bg-purple-500/20 text-purple-400 border border-purple-500/30 rounded-xl hover:bg-purple-500/30 transition-colors"
+                        >
+                            Try Again
+                        </button>
+                    </div>
                 )}
 
                 {/* Labs Grid */}
@@ -182,7 +199,7 @@ export default function AIPage() {
                     className="mt-12 text-center"
                 >
                     <button
-                        onClick={() => router.back()}
+                        onClick={() => router.push('/')}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />
