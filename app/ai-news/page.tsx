@@ -112,6 +112,7 @@ export default function AINewsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
+  const [restoring, setRestoring] = useState(() => !!sessionStorage.getItem("ai-news-slide-index"));
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -186,7 +187,7 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration — INSTANT jump, no animation
+  // Scroll position restoration — INSTANT jump, no flash
   useEffect(() => {
     const savedIdx = sessionStorage.getItem("ai-news-slide-index");
     if (savedIdx && !loading && filteredNews.length > 0) {
@@ -200,8 +201,13 @@ export default function AINewsPage() {
             containerRef.current.scrollTo({ top: el.offsetTop, behavior: "instant" as ScrollBehavior });
           }
           sessionStorage.removeItem("ai-news-slide-index");
+          // Reveal container after scroll is in position
+          setRestoring(false);
         });
       });
+    } else if (!loading) {
+      // No restoration needed — show immediately
+      setRestoring(false);
     }
   }, [loading, filteredNews.length]);
 
@@ -347,7 +353,7 @@ export default function AINewsPage() {
       {filteredNews.length > 0 && (
         <div
           ref={containerRef}
-          className="h-full w-full overflow-y-auto"
+          className="h-full w-full overflow-y-auto transition-opacity duration-200"
           role="feed"
           aria-label={`News articles, showing ${filteredNews.length} articles`}
           aria-busy={loading}
@@ -356,6 +362,7 @@ export default function AINewsPage() {
             scrollSnapType: "y mandatory",
             WebkitOverflowScrolling: "touch",
             overscrollBehavior: "contain",
+            opacity: restoring ? 0 : 1,
           }}
         >
           {/* Screen reader: current position */}
