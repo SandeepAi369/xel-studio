@@ -7,8 +7,6 @@ import {
   Sparkles,
   Globe,
   ChevronRight,
-  ChevronUp,
-  ChevronDown,
   Calendar,
   FileText,
   Accessibility,
@@ -233,10 +231,7 @@ export default function AINewsPage() {
     return () => observer.disconnect();
   }, [loading, filteredNews]);
 
-  // Navigate to specific slide
-  const goToSlide = useCallback((idx: number) => {
-    slideRefs.current[idx]?.scrollIntoView({ behavior: "smooth" });
-  }, []);
+
 
   // Loading state
   if (loading) {
@@ -324,26 +319,6 @@ export default function AINewsPage() {
 
 
 
-      {/* ── Nav arrows — bottom right ────────────────────────── */}
-      {filteredNews.length > 1 && (
-        <div className="fixed bottom-6 right-4 z-40 flex flex-col gap-2">
-          <button
-            onClick={() => currentIndex > 0 && goToSlide(currentIndex - 1)}
-            disabled={currentIndex === 0}
-            className="w-10 h-10 rounded-full bg-black/50 backdrop-blur-sm border border-zinc-700/40 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-black/70 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
-          >
-            <ChevronUp className="w-5 h-5" />
-          </button>
-          <button
-            onClick={() => currentIndex < filteredNews.length - 1 && goToSlide(currentIndex + 1)}
-            disabled={currentIndex === filteredNews.length - 1}
-            className="w-10 h-10 rounded-full bg-black/50 backdrop-blur-sm border border-zinc-700/40 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-black/70 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
-          >
-            <ChevronDown className="w-5 h-5" />
-          </button>
-        </div>
-      )}
-
       {/* ── Empty state ──────────────────────────────────────── */}
       {filteredNews.length === 0 && (
         <div className="h-full flex items-center justify-center">
@@ -364,7 +339,7 @@ export default function AINewsPage() {
           ref={containerRef}
           className="h-full w-full overflow-y-auto"
           style={{
-            paddingTop: "60px",
+            paddingTop: "50px",
             scrollSnapType: "y mandatory",
             scrollBehavior: "smooth",
             WebkitOverflowScrolling: "touch",
@@ -390,7 +365,7 @@ export default function AINewsPage() {
                 data-index={index}
                 className="w-full flex-shrink-0 cursor-pointer flex flex-col"
                 style={{ 
-                  height: "calc(100vh - 60px)",
+                  height: "calc(100vh - 50px)",
                   scrollSnapAlign: "start",
                   scrollSnapStop: "always"
                 }}
@@ -398,7 +373,7 @@ export default function AINewsPage() {
                 aria-label={`${item.title} - ${config?.label || "News"}`}
               >
                 {/* ── Image section — properly sized ──── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "45%" : "55%" }}>
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "48%" : "55%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -424,8 +399,8 @@ export default function AINewsPage() {
 
                 {/* ── Text section — properly sized ── */}
                 <div
-                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-4 pb-5" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-start`}
-                  style={{ height: isMobile ? "55%" : "45%" }}
+                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-3 pb-4" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-center`}
+                  style={{ height: isMobile ? "52%" : "45%" }}
                 >
                   {/* Date */}
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
@@ -461,13 +436,6 @@ export default function AINewsPage() {
         </div>
       )}
 
-      {/* ── Swipe hint (first load only) ─────────────────────── */}
-      {showHint && filteredNews.length > 1 && (
-        <div className="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center animate-bounce">
-          <ChevronUp className="w-6 h-6 text-zinc-400" />
-          <span className="text-zinc-500 text-xs mt-1">Scroll to explore</span>
-        </div>
-      )}
     </div>
   );
 }

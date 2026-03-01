@@ -249,7 +249,7 @@ html {
 /* News section specific optimizations */
 [style*="scroll-snap-type"] {
   -webkit-overflow-scrolling: touch;
-  scroll-padding-top: 60px;
+  scroll-padding-top: 50px;
 }
 
 /* Smooth transitions for all interactive elements */
