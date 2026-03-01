@@ -112,7 +112,7 @@ export default function AINewsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  const [restoring, setRestoring] = useState(() => !!sessionStorage.getItem("ai-news-slide-index"));
+  const [restoring, setRestoring] = useState(() => typeof window !== "undefined" && !!sessionStorage.getItem("ai-news-slide-index"));
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
