@@ -112,7 +112,19 @@ export default function AINewsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  const [restoring, setRestoring] = useState(() => typeof window !== "undefined" && !!sessionStorage.getItem("ai-news-slide-index"));
+  // Only restore position if saved within the last 5 minutes (300000ms)
+  const [restoring, setRestoring] = useState(() => {
+    if (typeof window === "undefined") return false;
+    const raw = sessionStorage.getItem("ai-news-slide-index");
+    if (!raw) return false;
+    try {
+      const { ts } = JSON.parse(raw);
+      return Date.now() - ts < 300000; // 5 min expiry
+    } catch {
+      sessionStorage.removeItem("ai-news-slide-index");
+      return false;
+    }
+  });
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -187,26 +199,37 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration — INSTANT jump, no flash
+  // Scroll position restoration — INSTANT jump, no flash, 5-min expiry
   useEffect(() => {
-    const savedIdx = sessionStorage.getItem("ai-news-slide-index");
-    if (savedIdx && !loading && filteredNews.length > 0) {
-      const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
-      setCurrentIndex(idx);
-      // Use double rAF to ensure DOM is painted, then instant scroll
-      requestAnimationFrame(() => {
+    const raw = sessionStorage.getItem("ai-news-slide-index");
+    if (raw && !loading && filteredNews.length > 0) {
+      let idx = 0;
+      let isValid = false;
+      try {
+        const parsed = JSON.parse(raw);
+        idx = Math.min(parsed.idx ?? 0, filteredNews.length - 1);
+        isValid = Date.now() - (parsed.ts ?? 0) < 300000; // 5 min window
+      } catch {
+        // Invalid data — ignore
+      }
+      sessionStorage.removeItem("ai-news-slide-index");
+
+      if (isValid && idx > 0) {
+        setCurrentIndex(idx);
         requestAnimationFrame(() => {
-          const el = slideRefs.current[idx];
-          if (el && containerRef.current) {
-            containerRef.current.scrollTo({ top: el.offsetTop, behavior: "instant" as ScrollBehavior });
-          }
-          sessionStorage.removeItem("ai-news-slide-index");
-          // Reveal container after scroll is in position
-          setRestoring(false);
+          requestAnimationFrame(() => {
+            const el = slideRefs.current[idx];
+            if (el && containerRef.current) {
+              containerRef.current.scrollTo({ top: el.offsetTop, behavior: "instant" as ScrollBehavior });
+            }
+            setRestoring(false);
+          });
         });
-      });
+      } else {
+        // Expired or index 0 — show latest (top)
+        setRestoring(false);
+      }
     } else if (!loading) {
-      // No restoration needed — show immediately
       setRestoring(false);
     }
   }, [loading, filteredNews.length]);
@@ -381,7 +404,7 @@ export default function AINewsPage() {
                 onClick={() =>
                   sessionStorage.setItem(
                     "ai-news-slide-index",
-                    String(currentIndex)
+                    JSON.stringify({ idx: currentIndex, ts: Date.now() })
                   )
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
