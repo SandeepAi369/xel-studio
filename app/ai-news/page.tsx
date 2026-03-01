@@ -180,15 +180,21 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration (save/restore slide index)
+  // Scroll position restoration — INSTANT jump, no animation
   useEffect(() => {
     const savedIdx = sessionStorage.getItem("ai-news-slide-index");
     if (savedIdx && !loading && filteredNews.length > 0) {
       const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
       setCurrentIndex(idx);
+      // Use double rAF to ensure DOM is painted, then instant scroll
       requestAnimationFrame(() => {
-        slideRefs.current[idx]?.scrollIntoView({ behavior: "auto" });
-        sessionStorage.removeItem("ai-news-slide-index");
+        requestAnimationFrame(() => {
+          const el = slideRefs.current[idx];
+          if (el && containerRef.current) {
+            containerRef.current.scrollTo({ top: el.offsetTop, behavior: "instant" as ScrollBehavior });
+          }
+          sessionStorage.removeItem("ai-news-slide-index");
+        });
       });
     }
   }, [loading, filteredNews.length]);
@@ -227,10 +233,25 @@ export default function AINewsPage() {
   // Loading state
   if (loading) {
     return (
-      <main className="h-screen w-full bg-[#0a0a0a] flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-16 h-16 mx-auto mb-6 rounded-full border-4 border-zinc-800 border-t-green-500 animate-spin" />
-          <p className="text-zinc-400 text-lg">Loading news feed...</p>
+      <main className="h-screen w-full bg-[#0a0a0a] flex flex-col">
+        {/* Skeleton category bar */}
+        <div className="w-full px-4 py-3 flex items-center justify-between gap-2">
+          <div className="h-8 w-16 rounded-full bg-zinc-800 animate-pulse" />
+          <div className="h-8 w-20 rounded-full bg-zinc-800 animate-pulse" />
+          <div className="h-8 w-24 rounded-full bg-zinc-800 animate-pulse" />
+          <div className="h-8 w-16 rounded-full bg-zinc-800 animate-pulse" />
+          <div className="h-8 w-20 rounded-full bg-zinc-800 animate-pulse" />
+        </div>
+        {/* Skeleton image */}
+        <div className="w-full bg-zinc-800 animate-pulse" style={{ height: "55%" }} />
+        {/* Skeleton text */}
+        <div className="flex-1 bg-[#0a0a0a] px-5 py-5 space-y-3">
+          <div className="h-3 w-24 rounded bg-zinc-800 animate-pulse" />
+          <div className="h-6 w-full rounded bg-zinc-800 animate-pulse" />
+          <div className="h-6 w-3/4 rounded bg-zinc-800 animate-pulse" />
+          <div className="h-4 w-full rounded bg-zinc-800/60 animate-pulse mt-2" />
+          <div className="h-4 w-5/6 rounded bg-zinc-800/60 animate-pulse" />
+          <div className="h-4 w-20 rounded bg-green-900/40 animate-pulse mt-3" />
         </div>
       </main>
     );
@@ -250,83 +271,59 @@ export default function AINewsPage() {
 
   return (
     <div className="h-screen w-full bg-[#0a0a0a] overflow-hidden relative">
-      {/* ── LIVE indicator ───────────────────────────────────── */}
-      <div className="fixed top-4 left-4 z-50 flex items-center gap-1.5 bg-black/70 backdrop-blur-sm border border-green-500/30 rounded-full px-3 py-1.5">
-        <span className="relative flex h-2.5 w-2.5">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
-        </span>
-        <span className="text-green-400 text-xs font-semibold tracking-wider">LIVE</span>
-      </div>
 
-      {/* ── Back button ──────────────────────────────────────── */}
-      <button
-        onClick={() => router.back()}
-        className="fixed top-4 right-4 z-50 flex items-center gap-1.5 px-3 py-1.5 bg-black/60 backdrop-blur-sm border border-zinc-700/50 rounded-full text-zinc-300 hover:text-white hover:bg-black/80 transition-all text-xs"
-      >
-        <ArrowLeft className="w-3.5 h-3.5" />
-        Back
-      </button>
 
-      {/* ── Category filter tabs — fixed top center ──────────── */}
+
+      {/* ── Category filter tabs — full width top bar ──────── */}
       {news.length > 0 && (
-        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 max-w-[70vw] md:max-w-lg">
-          <div
-            className="flex items-center gap-1.5 overflow-x-auto px-3 py-2 bg-black/60 backdrop-blur-xl border border-zinc-700/40 rounded-full"
-            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-          >
-            {/* All Tab */}
+        <div className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-xl border-b border-zinc-800/50">
+          <div className="flex items-center justify-between px-3 py-2.5">
+            {/* Back button */}
             <button
-              onClick={() => setFilter("all")}
-              className={`flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-medium transition-all ${filter === "all"
-                ? "bg-white text-black"
-                : "text-zinc-400 hover:text-white"
-                }`}
+              onClick={() => router.back()}
+              className="flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
             >
-              All
+              <ArrowLeft className="w-3.5 h-3.5" />
+              Back
             </button>
-            {/* Category Tabs */}
-            {CATEGORIES.map((cat) => {
-              const Icon = cat.icon;
-              const isActive = filter === cat.key;
-              return (
-                <button
-                  key={cat.key}
-                  onClick={() => setFilter(cat.key)}
-                  className={`flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-medium transition-all flex items-center gap-1 ${isActive
-                    ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
-                    : "text-zinc-400 hover:text-white"
-                    }`}
-                >
-                  <Icon className="w-3 h-3" />
-                  {cat.label}
-                </button>
-              );
-            })}
+
+            {/* Category tabs */}
+            <div
+              className="flex items-center gap-1 overflow-x-auto flex-1 mx-2 justify-center"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+            >
+              <button
+                onClick={() => setFilter("all")}
+                className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all ${filter === "all"
+                  ? "bg-white text-black"
+                  : "text-zinc-400 hover:text-white"
+                  }`}
+              >
+                All
+              </button>
+              {CATEGORIES.map((cat) => {
+                const Icon = cat.icon;
+                const isActive = filter === cat.key;
+                return (
+                  <button
+                    key={cat.key}
+                    onClick={() => setFilter(cat.key)}
+                    className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all flex items-center gap-1 ${isActive
+                      ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
+                      : "text-zinc-400 hover:text-white"
+                      }`}
+                  >
+                    <Icon className="w-3 h-3" />
+                    {cat.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
       )}
 
-      {/* ── Progress dots — right side ───────────────────────── */}
-      {filteredNews.length > 1 && (
-        <div className="fixed right-4 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center gap-1.5">
-          {filteredNews.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => goToSlide(i)}
-              className={`rounded-full transition-all duration-300 ${i === currentIndex
-                ? "w-2 h-5 bg-green-400"
-                : "w-1.5 h-1.5 bg-zinc-600 hover:bg-zinc-400"
-                }`}
-              aria-label={`Go to article ${i + 1}`}
-            />
-          ))}
-          {/* Counter */}
-          <span className="text-[10px] text-zinc-500 mt-2 font-mono">
-            {currentIndex + 1}/{filteredNews.length}
-          </span>
-        </div>
-      )}
+
 
       {/* ── Nav arrows — bottom right ────────────────────────── */}
       {filteredNews.length > 1 && (
@@ -369,7 +366,6 @@ export default function AINewsPage() {
           className="h-full w-full overflow-y-auto"
           style={{
             scrollSnapType: "y mandatory",
-            scrollBehavior: "smooth",
             WebkitOverflowScrolling: "touch",
             overscrollBehavior: "contain",
           }}
