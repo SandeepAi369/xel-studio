@@ -398,7 +398,7 @@ export default function AINewsPage() {
                 aria-label={`${item.title} - ${config?.label || "News"}`}
               >
                 {/* ── Image section — properly sized ──── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "50%" : "55%" }}>
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "45%" : "55%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -424,8 +424,8 @@ export default function AINewsPage() {
 
                 {/* ── Text section — properly sized ── */}
                 <div
-                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-3 pb-4" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-start`}
-                  style={{ height: isMobile ? "50%" : "45%" }}
+                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-4 pb-5" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-start`}
+                  style={{ height: isMobile ? "55%" : "45%" }}
                 >
                   {/* Date */}
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
