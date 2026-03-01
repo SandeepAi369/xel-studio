@@ -236,9 +236,9 @@ export default function AINewsPage() {
   // Loading state
   if (loading) {
     return (
-      <main className="h-screen w-full bg-[#0a0a0a] flex flex-col">
+      <main className="h-screen w-full bg-[#0a0a0a] flex flex-col" role="status" aria-label="Loading news feed" aria-live="polite">
         {/* Skeleton category bar */}
-        <div className="w-full px-4 py-3 flex items-center justify-between gap-2">
+        <div className="w-full px-4 py-3 flex items-center justify-between gap-2" aria-hidden="true">
           <div className="h-8 w-16 rounded-full bg-zinc-800 animate-pulse" />
           <div className="h-8 w-20 rounded-full bg-zinc-800 animate-pulse" />
           <div className="h-8 w-24 rounded-full bg-zinc-800 animate-pulse" />
@@ -246,9 +246,9 @@ export default function AINewsPage() {
           <div className="h-8 w-20 rounded-full bg-zinc-800 animate-pulse" />
         </div>
         {/* Skeleton image */}
-        <div className="w-full bg-zinc-800 animate-pulse" style={{ height: "55%" }} />
+        <div className="w-full bg-zinc-800 animate-pulse" style={{ height: "55%" }} aria-hidden="true" />
         {/* Skeleton text */}
-        <div className="flex-1 bg-[#0a0a0a] px-5 py-5 space-y-3">
+        <div className="flex-1 bg-[#0a0a0a] px-5 py-5 space-y-3" aria-hidden="true">
           <div className="h-3 w-24 rounded bg-zinc-800 animate-pulse" />
           <div className="h-6 w-full rounded bg-zinc-800 animate-pulse" />
           <div className="h-6 w-3/4 rounded bg-zinc-800 animate-pulse" />
@@ -256,6 +256,8 @@ export default function AINewsPage() {
           <div className="h-4 w-5/6 rounded bg-zinc-800/60 animate-pulse" />
           <div className="h-4 w-20 rounded bg-green-900/40 animate-pulse mt-3" />
         </div>
+        {/* Screen reader text */}
+        <span className="sr-only">Loading news articles, please wait...</span>
       </main>
     );
   }
@@ -280,15 +282,20 @@ export default function AINewsPage() {
       {/* ── Category filter tabs — full width top bar ──────── */}
       {news.length > 0 && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-xl border-b border-zinc-800/50">
-          <div className="px-3 py-3 flex items-center justify-center">
+          <nav className="px-3 py-3 flex items-center justify-center" aria-label="News categories">
             {/* Category tabs - centered */}
             <div
               className="flex items-center gap-1.5 overflow-x-auto max-w-full"
+              role="tablist"
+              aria-label="Filter news by category"
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
               <button
                 onClick={() => setFilter("all")}
-                className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all ${filter === "all"
+                role="tab"
+                aria-selected={filter === "all"}
+                aria-label="Show all news"
+                className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-1 focus-visible:ring-offset-black ${filter === "all"
                   ? "bg-white text-black"
                   : "text-zinc-400 hover:text-white"
                   }`}
@@ -302,18 +309,21 @@ export default function AINewsPage() {
                   <button
                     key={cat.key}
                     onClick={() => setFilter(cat.key)}
-                    className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all flex items-center gap-1 ${isActive
+                    role="tab"
+                    aria-selected={isActive}
+                    aria-label={`Filter by ${cat.label}`}
+                    className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-1 focus-visible:ring-offset-black ${isActive
                       ? `${cat.badgeBg} ${cat.badgeText} border ${cat.badgeBorder}`
                       : "text-zinc-400 hover:text-white"
                       }`}
                   >
-                    <Icon className="w-3 h-3" />
+                    <Icon className="w-3 h-3" aria-hidden="true" />
                     {cat.label}
                   </button>
                 );
               })}
             </div>
-          </div>
+          </nav>
         </div>
       )}
 
@@ -338,6 +348,9 @@ export default function AINewsPage() {
         <div
           ref={containerRef}
           className="h-full w-full overflow-y-auto"
+          role="feed"
+          aria-label={`News articles, showing ${filteredNews.length} articles`}
+          aria-busy={loading}
           style={{
             paddingTop: "50px",
             scrollSnapType: "y mandatory",
@@ -345,6 +358,10 @@ export default function AINewsPage() {
             overscrollBehavior: "contain",
           }}
         >
+          {/* Screen reader: current position */}
+          <div className="sr-only" aria-live="polite" aria-atomic="true">
+            Article {currentIndex + 1} of {filteredNews.length}
+          </div>
           {filteredNews.map((item, index) => {
             const config =
               CATEGORY_MAP[item.category as FilterTab] ||
@@ -362,14 +379,17 @@ export default function AINewsPage() {
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
-                className="w-full flex-shrink-0 cursor-pointer flex flex-col"
+                tabIndex={0}
+                className="w-full flex-shrink-0 cursor-pointer flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-green-400"
                 style={{
                   height: "calc(100vh - 50px)",
                   scrollSnapAlign: "start",
                   scrollSnapStop: "always"
                 }}
                 role="article"
-                aria-label={`${item.title} - ${config?.label || "News"}`}
+                aria-label={`Article ${index + 1} of ${filteredNews.length}: ${item.title} - ${config?.label || "News"}`}
+                aria-setsize={filteredNews.length}
+                aria-posinset={index + 1}
               >
                 {/* ── Image section — properly sized ──── */}
                 <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "48%" : "55%" }}>
@@ -390,6 +410,7 @@ export default function AINewsPage() {
                   {config && (
                     <span
                       className={`absolute bottom-3 left-4 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border backdrop-blur-md ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      aria-label={`Category: ${config.label}`}
                     >
                       {config.label}
                     </span>
@@ -426,7 +447,7 @@ export default function AINewsPage() {
                   {/* Read more */}
                   <span className="inline-flex items-center gap-1 text-green-400 text-sm font-semibold" aria-label="Read full article">
                     Read more
-                    <ChevronRight className="w-4 h-4" />
+                    <ChevronRight className="w-4 h-4" aria-hidden="true" />
                   </span>
                 </div>
               </Link>
