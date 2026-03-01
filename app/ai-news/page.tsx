@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef, useCallback } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
 import {
   Newspaper,
@@ -112,11 +112,8 @@ export default function AINewsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  // sessionStorage auto-clears on browser close → user always sees latest news on fresh open
-  const [restoring, setRestoring] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return !!sessionStorage.getItem("ai-news-slide-index");
-  });
+  const [restoring, setRestoring] = useState(false);
+  const isBackNavRef = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -128,6 +125,15 @@ export default function AINewsPage() {
     update();
     media.addEventListener("change", update);
     return () => media.removeEventListener("change", update);
+  }, []);
+
+  // Detect browser back navigation — only then restore scroll position
+  useEffect(() => {
+    const handlePopState = () => {
+      isBackNavRef.current = true;
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
   }, []);
 
   // Real-time Firestore listener
@@ -191,14 +197,21 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration — simple sessionStorage approach
+  // Scroll position restoration — ONLY on browser back navigation
+  // Fresh visits always show latest news at the top
   useEffect(() => {
+    if (loading || filteredNews.length === 0) return;
+
     const savedIdx = sessionStorage.getItem("ai-news-slide-index");
-    if (savedIdx && !loading && filteredNews.length > 0) {
+
+    // Only restore if user pressed browser back button
+    if (savedIdx && isBackNavRef.current) {
       const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
       sessionStorage.removeItem("ai-news-slide-index");
+      isBackNavRef.current = false;
 
       if (idx > 0) {
+        setRestoring(true);
         setCurrentIndex(idx);
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
@@ -209,11 +222,14 @@ export default function AINewsPage() {
             setRestoring(false);
           });
         });
-      } else {
-        setRestoring(false);
       }
-    } else if (!loading) {
-      setRestoring(false);
+    } else {
+      // Fresh visit — clear any stale saved position, show latest
+      sessionStorage.removeItem("ai-news-slide-index");
+      setCurrentIndex(0);
+      if (containerRef.current) {
+        containerRef.current.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
+      }
     }
   }, [loading, filteredNews.length]);
 
