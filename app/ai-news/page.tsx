@@ -1,10 +1,8 @@
 "use client";
 
 import { useState, useEffect, useMemo, useRef, useCallback } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
-  ArrowLeft,
   Newspaper,
   Sparkles,
   Globe,
@@ -109,7 +107,6 @@ function resolveCategory(cat: string): string {
 
 /* ─── Main Page ────────────────────────────────────────────── */
 export default function AINewsPage() {
-  const router = useRouter();
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -288,31 +285,10 @@ export default function AINewsPage() {
       {/* ── Category filter tabs — full width top bar ──────── */}
       {news.length > 0 && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-xl border-b border-zinc-800/50">
-          <div className={`${isMobile ? "px-3 pt-2 pb-2" : "px-3 py-2.5"}`}>
-            {/* Back button */}
-            <div className={`${isMobile ? "mb-2" : "hidden"}`}>
-              <button
-                onClick={() => router.back()}
-                className="flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-                Back
-              </button>
-            </div>
-
-            {!isMobile && (
-              <button
-                onClick={() => router.back()}
-                className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center gap-1 px-2.5 py-1.5 text-zinc-400 hover:text-white transition-colors text-xs font-medium"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-                Back
-              </button>
-            )}
-
-            {/* Category tabs */}
+          <div className="px-3 py-3 flex items-center justify-center">
+            {/* Category tabs - centered */}
             <div
-              className={`flex items-center gap-1 overflow-x-auto ${isMobile ? "w-full" : "mx-20 justify-center"}`}
+              className="flex items-center gap-1.5 overflow-x-auto max-w-full"
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
               <button
@@ -388,7 +364,8 @@ export default function AINewsPage() {
           ref={containerRef}
           className="h-full w-full overflow-y-auto"
           style={{
-            scrollSnapType: isMobile ? "y proximity" : "y mandatory",
+            paddingTop: "60px",
+            scrollSnapType: "y mandatory",
             scrollBehavior: "smooth",
             WebkitOverflowScrolling: "touch",
             overscrollBehavior: "contain",
@@ -411,13 +388,17 @@ export default function AINewsPage() {
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
-                className="h-screen w-full flex-shrink-0 cursor-pointer flex flex-col"
-                style={{ scrollSnapAlign: "start" }}
+                className="w-full flex-shrink-0 cursor-pointer flex flex-col"
+                style={{ 
+                  height: "calc(100vh - 60px)",
+                  scrollSnapAlign: "start",
+                  scrollSnapStop: "always"
+                }}
                 role="article"
                 aria-label={`${item.title} - ${config?.label || "News"}`}
               >
-                {/* ── Image (top 55%) — no padding, no gap ──── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "48%" : "55%" }}>
+                {/* ── Image section — properly sized ──── */}
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "50%" : "55%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -434,17 +415,17 @@ export default function AINewsPage() {
                   {/* Category badge */}
                   {config && (
                     <span
-                      className={`absolute ${isMobile ? "bottom-2 left-3" : "bottom-3 left-4"} inline-flex items-center gap-1 px-2.5 py-1 text-xs font-semibold rounded-full border backdrop-blur-sm ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
+                      className={`absolute bottom-3 left-4 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border backdrop-blur-md ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
                     >
                       {config.label}
                     </span>
                   )}
                 </div>
 
-                {/* ── Text (bottom 45%) — flush against image ── */}
+                {/* ── Text section — properly sized ── */}
                 <div
-                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-2 pb-4 pr-4" : "px-5 pt-1 pb-4 md:px-8 md:pt-1 md:pb-5 pr-14"} flex flex-col justify-center`}
-                  style={{ height: isMobile ? "52%" : "45%" }}
+                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-3 pb-4" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-start`}
+                  style={{ height: isMobile ? "50%" : "45%" }}
                 >
                   {/* Date */}
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
