@@ -112,18 +112,10 @@ export default function AINewsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  // Only restore position if saved within the last 5 minutes (300000ms)
+  // sessionStorage auto-clears on browser close → user always sees latest news on fresh open
   const [restoring, setRestoring] = useState(() => {
     if (typeof window === "undefined") return false;
-    const raw = sessionStorage.getItem("ai-news-slide-index");
-    if (!raw) return false;
-    try {
-      const { ts } = JSON.parse(raw);
-      return Date.now() - ts < 300000; // 5 min expiry
-    } catch {
-      sessionStorage.removeItem("ai-news-slide-index");
-      return false;
-    }
+    return !!sessionStorage.getItem("ai-news-slide-index");
   });
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -199,22 +191,14 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration — INSTANT jump, no flash, 5-min expiry
+  // Scroll position restoration — simple sessionStorage approach
   useEffect(() => {
-    const raw = sessionStorage.getItem("ai-news-slide-index");
-    if (raw && !loading && filteredNews.length > 0) {
-      let idx = 0;
-      let isValid = false;
-      try {
-        const parsed = JSON.parse(raw);
-        idx = Math.min(parsed.idx ?? 0, filteredNews.length - 1);
-        isValid = Date.now() - (parsed.ts ?? 0) < 300000; // 5 min window
-      } catch {
-        // Invalid data — ignore
-      }
+    const savedIdx = sessionStorage.getItem("ai-news-slide-index");
+    if (savedIdx && !loading && filteredNews.length > 0) {
+      const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
       sessionStorage.removeItem("ai-news-slide-index");
 
-      if (isValid && idx > 0) {
+      if (idx > 0) {
         setCurrentIndex(idx);
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
@@ -226,7 +210,6 @@ export default function AINewsPage() {
           });
         });
       } else {
-        // Expired or index 0 — show latest (top)
         setRestoring(false);
       }
     } else if (!loading) {
@@ -404,7 +387,7 @@ export default function AINewsPage() {
                 onClick={() =>
                   sessionStorage.setItem(
                     "ai-news-slide-index",
-                    JSON.stringify({ idx: currentIndex, ts: Date.now() })
+                    String(currentIndex)
                   )
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
