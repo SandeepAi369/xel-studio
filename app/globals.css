@@ -241,6 +241,27 @@ body.admin-scrollable {
   }
 }
 
+/* ===== SMOOTH SCROLL & SNAP BEHAVIOR ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* News section specific optimizations */
+[style*="scroll-snap-type"] {
+  -webkit-overflow-scrolling: touch;
+  scroll-padding-top: 60px;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, .article-card {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Prevent layout shift during scroll */
+img {
+  content-visibility: auto;
+}
+
 /* ===== SELECTION STYLES ===== */
 ::selection {
   background: var(--neon-green);
