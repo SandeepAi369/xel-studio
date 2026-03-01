@@ -5,10 +5,9 @@ import { getArticleById, Article } from '@/lib/supabase-db';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
 
-// Force dynamic rendering - always fetch fresh data
-export const dynamic = 'force-dynamic';
+// ISR: cache for 60s then revalidate — instant loads after first visit
 export const dynamicParams = true;
-export const revalidate = 0;
+export const revalidate = 60;
 
 async function getArticle(id: string): Promise<Article | null> {
     try {

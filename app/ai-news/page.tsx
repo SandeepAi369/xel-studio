@@ -341,7 +341,6 @@ export default function AINewsPage() {
           style={{
             paddingTop: "50px",
             scrollSnapType: "y mandatory",
-            scrollBehavior: "smooth",
             WebkitOverflowScrolling: "touch",
             overscrollBehavior: "contain",
           }}
@@ -364,7 +363,7 @@ export default function AINewsPage() {
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
                 className="w-full flex-shrink-0 cursor-pointer flex flex-col"
-                style={{ 
+                style={{
                   height: "calc(100vh - 50px)",
                   scrollSnapAlign: "start",
                   scrollSnapStop: "always"
