@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, ArrowLeft, Download, Search, Package } from 'lucide-react';
@@ -24,6 +23,7 @@ export default function StorePage() {
     const router = useRouter();
     const [apks, setApks] = useState<APK[]>([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [downloading, setDownloading] = useState<string | null>(null);
 
@@ -36,7 +36,7 @@ export default function StorePage() {
                 setApks(items);
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch(() => { setError(true); setLoading(false); });
     }, []);
 
     const filteredApks = apks.filter(apk =>
@@ -121,6 +121,23 @@ export default function StorePage() {
                     </motion.div>
                 )}
 
+                
+                {/* Error State */}
+                {!loading && error && (
+                    <div className="text-center py-16">
+                        <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-emerald-500/10 flex items-center justify-center">
+                            <span className="text-3xl">⚠️</span>
+                        </div>
+                        <p className="text-zinc-400 text-lg mb-2">Failed to load store items</p>
+                        <button
+                            onClick={() => window.location.reload()}
+                            className="mt-4 px-6 py-2.5 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-xl hover:bg-emerald-500/30 transition-colors"
+                        >
+                            Try Again
+                        </button>
+                    </div>
+                )}
+
                 {/* APK Grid */}
                 {!loading && filteredApks.length > 0 && (
                     <motion.div
@@ -198,7 +215,7 @@ export default function StorePage() {
                     className="mt-12 text-center"
                 >
                     <button
-                        onClick={() => router.back()}
+                        onClick={() => router.push('/')}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />

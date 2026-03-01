@@ -110,7 +110,6 @@ export default function AINewsPage() {
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<FilterTab>("all");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showHint, setShowHint] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
   const [restoring, setRestoring] = useState(false);
   const isBackNavRef = useRef(false);
@@ -175,19 +174,6 @@ export default function AINewsPage() {
       (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
   }, [news, filter]);
-
-  // Category counts
-  const counts = useMemo(() => {
-    const c: Record<string, number> = {};
-    CATEGORIES.forEach((cat) => {
-      c[cat.key] = 0;
-    });
-    news.forEach((n) => {
-      const resolved = n.category;
-      if (resolved in c) c[resolved]++;
-    });
-    return c;
-  }, [news]);
 
   // Reset index when filter changes
   useEffect(() => {

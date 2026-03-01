@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, ArrowLeft, Search, Lock, ExternalLink, Shield, Terminal, Key, Fingerprint } from 'lucide-react';
@@ -28,6 +27,7 @@ export default function SecurityPage() {
     const router = useRouter();
     const [tools, setTools] = useState<SecurityTool[]>([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
@@ -40,7 +40,7 @@ export default function SecurityPage() {
                 setTools(items);
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch(() => { setError(true); setLoading(false); });
     }, []);
 
     const categories = [...new Set(tools.map(t => t.category))];
@@ -141,6 +141,23 @@ export default function SecurityPage() {
                     </motion.div>
                 )}
 
+                
+                {/* Error State */}
+                {!loading && error && (
+                    <div className="text-center py-16">
+                        <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-red-500/10 flex items-center justify-center">
+                            <span className="text-3xl">⚠️</span>
+                        </div>
+                        <p className="text-zinc-400 text-lg mb-2">Failed to load security tools</p>
+                        <button
+                            onClick={() => window.location.reload()}
+                            className="mt-4 px-6 py-2.5 bg-red-500/20 text-red-400 border border-red-500/30 rounded-xl hover:bg-red-500/30 transition-colors"
+                        >
+                            Try Again
+                        </button>
+                    </div>
+                )}
+
                 {/* Tools Grid */}
                 {!loading && filteredTools.length > 0 && (
                     <motion.div
@@ -212,7 +229,7 @@ export default function SecurityPage() {
                     className="mt-12 text-center"
                 >
                     <button
-                        onClick={() => router.back()}
+                        onClick={() => router.push('/')}
                         className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4" />

@@ -2,12 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
-import SmartListenButton from '@/components/SmartListenButton';
 import { SkeletonGrid } from '@/components/SkeletonCard';
 import { fetchWithCache } from '@/lib/DataCache';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { prepareTTSText, stripMarkdown } from '@/lib/tts-text';
+import { stripMarkdown } from '@/lib/tts-text';
 import PageTransition from '@/components/PageTransition';
 
 interface Article {
