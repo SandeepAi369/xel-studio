@@ -97,7 +97,12 @@ def _try_g4f(prompt: str) -> bytes | None:
         return None
 
     client = G4FClient()
-    models = ["flux", "dall-e-3", "dall-e", "sdxl", "sd-3"]
+    # Model priority (tested March 2026, g4f v7.2.5):
+    #   flux-dev  → BEST quality (138KB, rich detail, artistic composition) — HuggingFace Gradio
+    #   flux      → Good quality (126KB, clean but less artistic) — HuggingFace Gradio
+    # All others FAIL: dall-e-3 (needs cookie), dall-e/sd-3 (530), sdxl/gpt-image (wrong content),
+    #   flux-schnell/flux-pro/flux-kontext (need API key), sd-3.5-large (503), sdxl-turbo (text/plain)
+    models = ["flux-dev", "flux"]
 
     for model in models:
         print(f"  🎨 Trying g4f model: {model}")
