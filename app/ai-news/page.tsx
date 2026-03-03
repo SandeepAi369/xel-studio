@@ -111,8 +111,16 @@ export default function AINewsPage() {
   const [filter, setFilter] = useState<FilterTab>("all");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
-  const [restoring, setRestoring] = useState(false);
-  const isBackNavRef = useRef(false);
+  // Hide container during scroll restoration to prevent flash
+  const [restoring, setRestoring] = useState(() => {
+    if (typeof window === "undefined") return false;
+    const raw = sessionStorage.getItem("ai-news-slide-index");
+    if (!raw) return false;
+    try {
+      const { ts } = JSON.parse(raw);
+      return Date.now() - ts < 300000; // only if within 5 min
+    } catch { return false; }
+  });
   const containerRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -124,15 +132,6 @@ export default function AINewsPage() {
     update();
     media.addEventListener("change", update);
     return () => media.removeEventListener("change", update);
-  }, []);
-
-  // Detect browser back navigation — only then restore scroll position
-  useEffect(() => {
-    const handlePopState = () => {
-      isBackNavRef.current = true;
-    };
-    window.addEventListener("popstate", handlePopState);
-    return () => window.removeEventListener("popstate", handlePopState);
   }, []);
 
   // Real-time Firestore listener
@@ -183,21 +182,24 @@ export default function AINewsPage() {
     }
   }, [filter]);
 
-  // Scroll position restoration — ONLY on browser back navigation
-  // Fresh visits always show latest news at the top
+  // Scroll position restoration — 5-minute memory window
+  // Within 5 min: restore to exact article position (e.g. clicked article and came back)
+  // After 5 min or fresh browser open: always show latest news at index 0
   useEffect(() => {
     if (loading || filteredNews.length === 0) return;
 
-    const savedIdx = sessionStorage.getItem("ai-news-slide-index");
-
-    // Only restore if user pressed browser back button
-    if (savedIdx && isBackNavRef.current) {
-      const idx = Math.min(parseInt(savedIdx, 10), filteredNews.length - 1);
+    const raw = sessionStorage.getItem("ai-news-slide-index");
+    if (raw) {
+      let idx = 0;
+      let isValid = false;
+      try {
+        const parsed = JSON.parse(raw);
+        idx = Math.min(parsed.idx ?? 0, filteredNews.length - 1);
+        isValid = Date.now() - (parsed.ts ?? 0) < 300000; // 5 min
+      } catch { /* invalid */ }
       sessionStorage.removeItem("ai-news-slide-index");
-      isBackNavRef.current = false;
 
-      if (idx > 0) {
-        setRestoring(true);
+      if (isValid && idx > 0) {
         setCurrentIndex(idx);
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
@@ -208,14 +210,15 @@ export default function AINewsPage() {
             setRestoring(false);
           });
         });
+        return;
       }
-    } else {
-      // Fresh visit — clear any stale saved position, show latest
-      sessionStorage.removeItem("ai-news-slide-index");
-      setCurrentIndex(0);
-      if (containerRef.current) {
-        containerRef.current.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
-      }
+    }
+
+    // No valid saved position — show latest news
+    setRestoring(false);
+    setCurrentIndex(0);
+    if (containerRef.current) {
+      containerRef.current.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
     }
   }, [loading, filteredNews.length]);
 
@@ -389,7 +392,7 @@ export default function AINewsPage() {
                 onClick={() =>
                   sessionStorage.setItem(
                     "ai-news-slide-index",
-                    String(currentIndex)
+                    JSON.stringify({ idx: currentIndex, ts: Date.now() })
                   )
                 }
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
