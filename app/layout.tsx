@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   description: "Architecting Intelligence - AI Research, Custom Models, and Cyber Security Tools by Sandeep",
   keywords: ["AI Research", "Cyber Security", "LLM", "Machine Learning", "Security Tools"],
   authors: [{ name: "Sandeep" }],
+  verification: {
+    google: "FM0rU4JR-PGH2cL8V8PCqNo0bflPeEGiwD6cAcG-jOQ",
+  },
   openGraph: {
     title: "XeL Studio | AI Research & Cyber Security",
     description: "Architecting Intelligence - AI Research, Custom Models, and Cyber Security Tools",
