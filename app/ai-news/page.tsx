@@ -360,8 +360,98 @@ export default function AINewsPage() {
         </div>
       )}
 
-      {/* ── Snap-scroll container ────────────────────────────── */}
-      {filteredNews.length > 0 && (
+      {/* ── Desktop: YouTube-style scrollable grid ─────────── */}
+      {filteredNews.length > 0 && !isMobile && (
+        <div
+          ref={containerRef}
+          className="h-full w-full overflow-y-auto transition-opacity duration-200"
+          role="feed"
+          aria-label={`News articles, showing ${filteredNews.length} articles`}
+          aria-busy={loading}
+          style={{ paddingTop: "60px", opacity: restoring ? 0 : 1 }}
+        >
+          <div className="max-w-5xl mx-auto px-6 py-6 flex flex-col gap-5">
+            {filteredNews.map((item, index) => {
+              const config =
+                CATEGORY_MAP[item.category as FilterTab] ||
+                CATEGORY_MAP.general;
+
+              return (
+                <Link
+                  key={item.id}
+                  href={`/ai-news/${item.id}`}
+                  onClick={() =>
+                    sessionStorage.setItem(
+                      "ai-news-slide-index",
+                      JSON.stringify({ idx: index, ts: Date.now() })
+                    )
+                  }
+                  ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
+                  data-index={index}
+                  className="group flex gap-5 bg-zinc-900/50 hover:bg-zinc-800/60 rounded-xl overflow-hidden border border-zinc-800/50 hover:border-zinc-700/60 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
+                  role="article"
+                  aria-label={`${item.title} - ${config?.label || "News"}`}
+                >
+                  {/* Thumbnail */}
+                  <div className="relative w-[380px] min-w-[380px] h-[214px] overflow-hidden flex-shrink-0">
+                    {item.image_url ? (
+                      <img
+                        src={item.image_url}
+                        alt={item.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading={index < 4 ? "eager" : "lazy"}
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-purple-900/20 via-zinc-900 to-zinc-950 flex items-center justify-center">
+                        <FileText className="w-12 h-12 text-purple-500/20" />
+                      </div>
+                    )}
+                    {/* Duration-style category badge */}
+                    {config && (
+                      <span
+                        className={`absolute bottom-2 right-2 px-2 py-0.5 text-xs font-semibold rounded ${config.badgeBg} ${config.badgeText} backdrop-blur-md`}
+                      >
+                        {config.label}
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Text content */}
+                  <div className="flex-1 py-3 pr-5 flex flex-col justify-between min-w-0">
+                    <div>
+                      <h2 className="text-lg font-semibold text-white leading-snug line-clamp-2 mb-2 group-hover:text-green-400 transition-colors">
+                        {item.title}
+                      </h2>
+                      <p className="text-sm text-zinc-400 leading-relaxed line-clamp-3 mb-3">
+                        {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 200)}...
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-3 text-xs text-zinc-500">
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-3 h-3" />
+                        <time dateTime={item.date}>
+                          {new Date(item.date).toLocaleDateString("en-US", {
+                            year: "numeric",
+                            month: "short",
+                            day: "numeric",
+                          })}
+                        </time>
+                      </span>
+                      <span className="text-zinc-700">•</span>
+                      <span className="text-green-500 font-medium flex items-center gap-0.5">
+                        Read more <ChevronRight className="w-3 h-3" />
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* ── Mobile: Full-screen snap-scroll (unchanged) ───── */}
+      {filteredNews.length > 0 && isMobile && (
         <div
           ref={containerRef}
           className="h-full w-full overflow-y-auto transition-opacity duration-200"
@@ -405,12 +495,12 @@ export default function AINewsPage() {
                   scrollSnapStop: "always"
                 }}
                 role="article"
-                aria-label={`Article ${index + 1} of ${filteredNews.length}: ${item.title} - ${config?.label || "News"}`}
+                aria-label={`Article ${index + 1} of ${filteredNews.length}: ${item.title}`}
                 aria-setsize={filteredNews.length}
                 aria-posinset={index + 1}
               >
-                {/* ── Image section — properly sized ──── */}
-                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: isMobile ? "48%" : "55%" }}>
+                {/* Image */}
+                <div className="relative w-full overflow-hidden bg-zinc-900" style={{ height: "48%" }}>
                   {item.image_url ? (
                     <img
                       src={item.image_url}
@@ -423,8 +513,6 @@ export default function AINewsPage() {
                       <FileText className="w-16 h-16 text-purple-500/20" />
                     </div>
                   )}
-
-                  {/* Category badge */}
                   {config && (
                     <span
                       className={`absolute bottom-3 left-4 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border backdrop-blur-md ${config.badgeBg} ${config.badgeText} ${config.badgeBorder}`}
@@ -435,12 +523,8 @@ export default function AINewsPage() {
                   )}
                 </div>
 
-                {/* ── Text section — properly sized ── */}
-                <div
-                  className={`w-full bg-[#0a0a0a] ${isMobile ? "px-4 pt-3 pb-4" : "px-6 pt-4 pb-5 md:px-8"} flex flex-col justify-center`}
-                  style={{ height: isMobile ? "52%" : "45%" }}
-                >
-                  {/* Date */}
+                {/* Text */}
+                <div className="w-full bg-[#0a0a0a] px-4 pt-3 pb-4 flex flex-col justify-center" style={{ height: "52%" }}>
                   <div className="flex items-center gap-1.5 text-zinc-400 text-sm mb-2" aria-label="Publication date">
                     <Calendar className="w-3.5 h-3.5" />
                     <time dateTime={item.date}>
@@ -451,18 +535,12 @@ export default function AINewsPage() {
                       })}
                     </time>
                   </div>
-
-                  {/* Title */}
-                  <h2 className={`${isMobile ? "text-lg" : "text-xl md:text-2xl"} font-bold text-white leading-snug mb-2 line-clamp-3`}>
+                  <h2 className="text-lg font-bold text-white leading-snug mb-2 line-clamp-3">
                     {item.title}
                   </h2>
-
-                  {/* Summary */}
-                  <p className={`${isMobile ? "text-sm line-clamp-4" : "text-sm md:text-base line-clamp-3"} text-zinc-300 leading-relaxed mb-4 max-w-2xl`}>
+                  <p className="text-sm line-clamp-4 text-zinc-300 leading-relaxed mb-4 max-w-2xl">
                     {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
                   </p>
-
-                  {/* Read more */}
                   <span className="inline-flex items-center gap-1 text-green-400 text-sm font-semibold" aria-label="Read full article">
                     Read more
                     <ChevronRight className="w-4 h-4" aria-hidden="true" />
