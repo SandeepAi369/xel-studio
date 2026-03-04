@@ -154,17 +154,6 @@ export default function Home() {
         {/* Hero Section */}
         <Hero />
 
-        {/* SSR-visible descriptive content for crawlers and AI bots */}
-        <section className="max-w-4xl mx-auto px-6 pb-10 text-center" aria-label="About XeL Studio">
-          <h2 className="sr-only">About XeL Studio</h2>
-          <p className="text-zinc-500 text-sm leading-relaxed max-w-2xl mx-auto">
-            XeL Studio is an AI research and cyber security platform built by Sandeep.
-            It features automated AI-powered news aggregation, research articles, an AI chat assistant
-            powered by Google Gemini, a digital store, security tools, and text-to-speech for all content.
-            News is generated multiple times daily using Cerebras GPT, Tavily search, and FLUX AI image generation.
-          </p>
-        </section>
-
         {/* AI News + Chat — distinct action cards */}
         <QuickActions />
 
