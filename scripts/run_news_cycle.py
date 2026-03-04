@@ -28,7 +28,7 @@ from cerebras.cloud.sdk import Cerebras
 # ─── Config ──────────────────────────────────────────────────
 
 COLLECTION = "news"
-HISTORY_COLLECTION = "news_history"
+# HISTORY_COLLECTION removed — history now stored in scripts/news_history.json
 HEALTH_DOC_PATH = "system/cron_health"
 HISTORY_TTL_DAYS = 10
 TAVILY_RESULT_COUNT = 10
@@ -390,56 +390,91 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
     return {"context": "", "results": []}
 
 
-# ─── URL History & LLM Dedup ─────────────────────────────────
+# ─── JSON-Based History & Dedup (ZERO Firestore reads) ───────
+# History stored in scripts/news_history.json (Git-tracked)
+# Format: {"entries": [{"title": ..., "urls": [...], "date": ...}, ...], "lastUpdated": ...}
+
+HISTORY_JSON_PATH = os.path.join(os.path.dirname(__file__), "news_history.json")
 
 
-def load_history_urls(db: firestore.Client) -> set[str]:
-    """Load recent source URLs from news_history for dedup.
-    Only reads last 5 days to stay within Firestore free-tier quota."""
-    urls = set()
-    doc_count = 0
+def _load_history_json() -> dict:
+    """Load the JSON history file. Returns {entries: [], lastUpdated: ''}."""
     try:
-        from datetime import timedelta
-        from google.cloud.firestore_v1.base_query import FieldFilter
-        cutoff = (datetime.now(timezone.utc) - timedelta(days=5)).isoformat()
-        docs = (
-            db.collection(HISTORY_COLLECTION)
-            .where(filter=FieldFilter("createdAt", ">=", cutoff))
-            .select(["sourceUrls"])
-            .stream()
-        )
-        for doc in docs:
-            doc_count += 1
-            data = doc.to_dict()
-            source_urls = data.get("sourceUrls", [])
-            if isinstance(source_urls, list):
-                for u in source_urls:
-                    urls.add(normalize_url(u))
-        print(f"📚 History loaded: {len(urls)} known URLs from {doc_count} articles (last 5 days)")
+        if os.path.exists(HISTORY_JSON_PATH):
+            with open(HISTORY_JSON_PATH, "r") as f:
+                data = json.load(f)
+            if isinstance(data, dict) and "entries" in data:
+                return data
     except Exception as e:
-        print(f"⚠️ History load failed (non-critical, continuing without dedup): {str(e)[:150]}")
+        print(f"⚠️ History JSON read error: {e}")
+    return {"entries": [], "lastUpdated": ""}
+
+
+def _save_history_json(data: dict):
+    """Save the JSON history file."""
+    try:
+        data["lastUpdated"] = datetime.now(timezone.utc).isoformat()
+        with open(HISTORY_JSON_PATH, "w") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"⚠️ History JSON write error: {e}")
+
+
+def _purge_old_entries(data: dict, max_days: int = 10) -> dict:
+    """Remove entries older than max_days from history."""
+    from datetime import timedelta
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=max_days)).isoformat()
+    before = len(data["entries"])
+    data["entries"] = [e for e in data["entries"] if e.get("date", "") >= cutoff]
+    purged = before - len(data["entries"])
+    if purged > 0:
+        print(f"🧹 Purged {purged} history entries older than {max_days} days")
+    return data
+
+
+def _git_push_history():
+    """Commit and push the history JSON file."""
+    try:
+        import subprocess
+        repo_dir = os.path.dirname(os.path.dirname(__file__))
+        subprocess.run(
+            ["git", "add", HISTORY_JSON_PATH],
+            cwd=repo_dir, capture_output=True, timeout=15
+        )
+        subprocess.run(
+            ["git", "commit", "-m", "auto: update news history JSON", "--no-verify"],
+            cwd=repo_dir, capture_output=True, timeout=15
+        )
+        result = subprocess.run(
+            ["git", "push", "origin", "main"],
+            cwd=repo_dir, capture_output=True, timeout=30
+        )
+        if result.returncode == 0:
+            print("📤 History JSON pushed to GitHub")
+        else:
+            print(f"⚠️ Git push: {result.stderr.decode()[:100]}")
+    except Exception as e:
+        print(f"⚠️ Git push failed (non-critical): {str(e)[:100]}")
+
+
+def load_history_urls(db=None) -> set[str]:
+    """Load all known URLs from the JSON history file.
+    ZERO Firestore reads — completely local."""
+    history = _load_history_json()
+    urls = set()
+    for entry in history.get("entries", []):
+        for u in entry.get("urls", []):
+            urls.add(normalize_url(u))
+    print(f"📚 History loaded: {len(urls)} known URLs from {len(history['entries'])} entries (JSON file)")
     return urls
 
 
-def load_existing_titles(db: firestore.Client) -> list[str]:
-    """Load recent titles from the live news collection for LLM dedup.
-    Limited to newest 50 to avoid Firestore quota issues."""
-    titles = []
-    try:
-        docs = (
-            db.collection(COLLECTION)
-            .order_by("date", direction=firestore.Query.DESCENDING)
-            .limit(50)
-            .select(["title"])
-            .stream()
-        )
-        for doc in docs:
-            t = doc.to_dict().get("title", "")
-            if t:
-                titles.append(t)
-        print(f"📋 Dedup: loaded {len(titles)} existing titles (newest 50)")
-    except Exception as e:
-        print(f"⚠️ Title load failed (non-critical): {str(e)[:150]}")
+def load_existing_titles(db=None) -> list[str]:
+    """Load all known titles from the JSON history file.
+    ZERO Firestore reads — completely local."""
+    history = _load_history_json()
+    titles = [e.get("title", "") for e in history.get("entries", []) if e.get("title")]
+    print(f"📋 Dedup: loaded {len(titles)} existing titles (JSON file)")
     return titles
 
 
@@ -452,17 +487,22 @@ def filter_by_url_history(results: list[dict], known_urls: set[str]) -> tuple[li
     return fresh, filtered
 
 
-def save_to_history(db: firestore.Client, title: str, content: str, source_urls: list[str]):
-    """Save generated article metadata + source URLs to history."""
+def save_to_history(db=None, title: str = "", content: str = "", source_urls: list[str] = None):
+    """Save article metadata + source URLs to the JSON history file."""
+    if source_urls is None:
+        source_urls = []
     try:
+        history = _load_history_json()
         normalized = [normalize_url(u) for u in source_urls]
-        db.collection(HISTORY_COLLECTION).add({
+        history["entries"].append({
             "title": title,
-            "content": content,
-            "sourceUrls": normalized,
-            "createdAt": datetime.now(timezone.utc).isoformat(),
+            "urls": normalized,
+            "date": datetime.now(timezone.utc).isoformat(),
         })
-        print(f'📚 History saved: "{title[:50]}" with {len(normalized)} URLs')
+        # Purge old entries (>10 days)
+        history = _purge_old_entries(history)
+        _save_history_json(history)
+        print(f'📚 History saved: "{title[:50]}" with {len(normalized)} URLs (JSON file)')
     except Exception as e:
         print(f"⚠️ History save failed (non-critical): {e}")
 
@@ -644,18 +684,16 @@ def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt:
 
 def cleanup_old_news(db: firestore.Client):
     """
-    Cleanup: keep the newest 30 articles, delete any excess.
-      - Only deletes articles beyond the 30-article threshold
-      - Archives deleted article URLs to 'news_history' for dedup
-      - Purges 'news_history' entries older than 10 days
+    Cleanup: keep the newest 50 articles in Firestore, delete excess.
+    Archives deleted article URLs to JSON history file (not Firestore).
+    No Firestore reads for history — all dedup via JSON file.
     """
     print("\n🧹 CLEANUP — Checking news collection...")
 
-    MIN_ARTICLES_TO_KEEP = 50  # Always keep at least this many articles
+    MIN_ARTICLES_TO_KEEP = 50
 
-    # ── 1. Delete excess articles beyond MIN_ARTICLES_TO_KEEP ──
+    # ── 1. Delete excess articles from Firestore ──
     try:
-        # Get all news ordered by date ASCENDING (oldest first)
         all_news = list(
             db.collection(COLLECTION)
             .order_by("date", direction=firestore.Query.ASCENDING)
@@ -666,69 +704,53 @@ def cleanup_old_news(db: firestore.Client):
         if total <= MIN_ARTICLES_TO_KEEP:
             print(f"  ✅ {total} articles (under {MIN_ARTICLES_TO_KEEP} limit) — no cleanup needed")
         else:
-            # Only delete the EXCESS beyond the threshold
             excess = total - MIN_ARTICLES_TO_KEEP
             to_delete = all_news[:excess]
             batch = db.batch()
             count = 0
 
+            # Load JSON history to archive deleted articles
+            history = _load_history_json()
+
             for doc_snap in to_delete:
                 data = doc_snap.to_dict()
 
-                # ── Archive to news_history BEFORE deleting ──
+                # Archive to JSON history (not Firestore)
                 source_urls = data.get("sourceUrls", [])
                 title = data.get("title", "")
                 if source_urls or title:
-                    try:
-                        db.collection(HISTORY_COLLECTION).add({
-                            "title": title,
-                            "sourceUrls": source_urls,
-                            "createdAt": datetime.now(timezone.utc).isoformat(),
-                            "archivedFrom": "cleanup",
-                        })
-                    except Exception as he:
-                        print(f"  ⚠️ History archive failed for '{title[:40]}': {he}")
+                    history["entries"].append({
+                        "title": title,
+                        "urls": [normalize_url(u) for u in source_urls] if source_urls else [],
+                        "date": datetime.now(timezone.utc).isoformat(),
+                    })
 
                 batch.delete(doc_snap.reference)
                 count += 1
-                # Firestore batch limit is 500
                 if count % 400 == 0:
                     batch.commit()
                     batch = db.batch()
             if count % 400 != 0:
                 batch.commit()
-            print(f"  🗑️ Deleted {count} excess articles (had {total}, keeping {MIN_ARTICLES_TO_KEEP})")
 
+            # Save updated JSON history
+            history = _purge_old_entries(history)
+            _save_history_json(history)
+            print(f"  🗑️ Deleted {count} excess articles (had {total}, keeping {MIN_ARTICLES_TO_KEEP})")
 
     except Exception as e:
         print(f"  ⚠️ News cleanup failed: {e}")
 
-    # ── 2. Purge history older than 10 days ──────────────────
-    # After 10 days, dedup entries are no longer needed
+    # ── 2. Purge old JSON history entries ──
     try:
-        cutoff = datetime.now(timezone.utc).isoformat()
-        # Calculate cutoff: 10 days ago
-        from datetime import timedelta
-        cutoff_dt = datetime.now(timezone.utc) - timedelta(days=HISTORY_TTL_DAYS)
-        cutoff_iso = cutoff_dt.isoformat()
-
-        old_history = list(
-            db.collection(HISTORY_COLLECTION)
-            .where("createdAt", "<", cutoff_iso)
-            .stream()
-        )
-        if old_history:
-            batch = db.batch()
-            count = 0
-            for doc_snap in old_history:
-                batch.delete(doc_snap.reference)
-                count += 1
-                if count % 400 == 0:
-                    batch.commit()
-                    batch = db.batch()
-            if count % 400 != 0:
-                batch.commit()
-            print(f"  🗑️ Purged {count} history entries older than {HISTORY_TTL_DAYS} days")
+        history = _load_history_json()
+        before_count = len(history["entries"])
+        history = _purge_old_entries(history, max_days=HISTORY_TTL_DAYS)
+        after_count = len(history["entries"])
+        _save_history_json(history)
+        purged = before_count - after_count
+        if purged > 0:
+            print(f"  🗑️ Purged {purged} history entries older than {HISTORY_TTL_DAYS} days")
         else:
             print(f"  ✅ No history entries older than {HISTORY_TTL_DAYS} days")
     except Exception as e:
@@ -1116,6 +1138,7 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
 
     db.collection(COLLECTION).document(article_id).set(news_item)
     save_to_history(db, title, article_text, source_urls)
+    _git_push_history()  # Push updated JSON to GitHub
 
     duration = int((time.time() - t0) * 1000)
     print(f'✅ Saved: "{title}" in {duration}ms')
