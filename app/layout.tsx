@@ -18,17 +18,55 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "XeL Studio | AI Research & Cyber Security",
-  description: "Architecting Intelligence - AI Research, Custom Models, and Cyber Security Tools by Sandeep",
-  keywords: ["AI Research", "Cyber Security", "LLM", "Machine Learning", "Security Tools"],
-  authors: [{ name: "Sandeep" }],
+  metadataBase: new URL("https://xel-studio.vercel.app"),
+  title: {
+    default: "XeL Studio | AI Research & Cyber Security Platform",
+    template: "%s | XeL Studio",
+  },
+  description:
+    "XeL Studio is an AI research and cyber security platform by Sandeep. Explore automated AI news, research articles, AI chat (Gemini), security tools, text-to-speech, and more.",
+  keywords: [
+    "AI Research", "Cyber Security", "AI News", "LLM", "Machine Learning",
+    "Security Tools", "AI Chat", "Gemini AI", "Research Articles",
+    "Text-to-Speech", "Artificial Intelligence", "XeL Studio",
+  ],
+  authors: [{ name: "Sandeep", url: "https://github.com/Sandeepchch" }],
+  creator: "Sandeep",
+  publisher: "XeL Studio",
   verification: {
     google: "FM0rU4JR-PGH2cL8V8PCqNo0bflPeEGiwD6cAcG-jOQ",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "XeL Studio | AI Research & Cyber Security",
-    description: "Architecting Intelligence - AI Research, Custom Models, and Cyber Security Tools",
+    title: "XeL Studio | AI Research & Cyber Security Platform",
+    description:
+      "AI-powered news aggregation, research articles, Gemini chat, security tools, and text-to-speech — all in one platform.",
     type: "website",
+    url: "https://xel-studio.vercel.app",
+    siteName: "XeL Studio",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "XeL Studio | AI Research & Cyber Security",
+    description:
+      "AI-powered news, articles, chat, security tools by Sandeep.",
+  },
+  alternates: {
+    canonical: "https://xel-studio.vercel.app",
+    types: {
+      "application/rss+xml": "https://xel-studio.vercel.app/api/rss",
+    },
   },
 };
 
