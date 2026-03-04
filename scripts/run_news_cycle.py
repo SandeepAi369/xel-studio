@@ -394,42 +394,52 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
 
 
 def load_history_urls(db: firestore.Client) -> set[str]:
-    """Load all source URLs from news_history into a Set for O(1) lookup."""
-    docs = db.collection(HISTORY_COLLECTION).select(["sourceUrls"]).stream()
+    """Load recent source URLs from news_history for dedup.
+    Only reads last 5 days to stay within Firestore free-tier quota."""
     urls = set()
     doc_count = 0
-    for doc in docs:
-        doc_count += 1
-        data = doc.to_dict()
-        source_urls = data.get("sourceUrls", [])
-        if isinstance(source_urls, list):
-            for u in source_urls:
-                urls.add(normalize_url(u))
-    print(f"📚 History loaded: {len(urls)} known URLs from {doc_count} articles")
+    try:
+        from datetime import timedelta
+        from google.cloud.firestore_v1.base_query import FieldFilter
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=5)).isoformat()
+        docs = (
+            db.collection(HISTORY_COLLECTION)
+            .where(filter=FieldFilter("createdAt", ">=", cutoff))
+            .select(["sourceUrls"])
+            .stream()
+        )
+        for doc in docs:
+            doc_count += 1
+            data = doc.to_dict()
+            source_urls = data.get("sourceUrls", [])
+            if isinstance(source_urls, list):
+                for u in source_urls:
+                    urls.add(normalize_url(u))
+        print(f"📚 History loaded: {len(urls)} known URLs from {doc_count} articles (last 5 days)")
+    except Exception as e:
+        print(f"⚠️ History load failed (non-critical, continuing without dedup): {str(e)[:150]}")
     return urls
 
 
 def load_existing_titles(db: firestore.Client) -> list[str]:
-    """Load ALL existing titles from both 'news' and 'news_history'.
-    The LLM uses this list to avoid generating repeated/similar topics."""
+    """Load recent titles from the live news collection for LLM dedup.
+    Limited to newest 50 to avoid Firestore quota issues."""
     titles = []
-    # From live news collection
     try:
-        for doc in db.collection(COLLECTION).select(["title"]).stream():
+        docs = (
+            db.collection(COLLECTION)
+            .order_by("date", direction=firestore.Query.DESCENDING)
+            .limit(50)
+            .select(["title"])
+            .stream()
+        )
+        for doc in docs:
             t = doc.to_dict().get("title", "")
             if t:
                 titles.append(t)
-    except Exception:
-        pass
-    # From history (deleted articles — still need dedup)
-    try:
-        for doc in db.collection(HISTORY_COLLECTION).select(["title"]).stream():
-            t = doc.to_dict().get("title", "")
-            if t:
-                titles.append(t)
-    except Exception:
-        pass
-    print(f"📋 Dedup: loaded {len(titles)} existing titles (news + history)")
+        print(f"📋 Dedup: loaded {len(titles)} existing titles (newest 50)")
+    except Exception as e:
+        print(f"⚠️ Title load failed (non-critical): {str(e)[:150]}")
     return titles
 
 
