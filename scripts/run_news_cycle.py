@@ -975,58 +975,133 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 7. Generate CINEMATIC image prompt — topic-aware style routing, 50-90 words
+    # 7. Generate DIVERSE image prompt — randomized style routing, topic-aware
     image_prompt = ""
 
-    # ── Style routing based on article category ──
-    STYLE_ROUTES = {
-        "ai-tech": {
-            "aesthetic": "futuristic cyberpunk tech aesthetic, glowing neon circuits, sleek holographic interfaces, digital data streams",
-            "lighting": "volumetric neon blue and purple lighting, glowing rim lights, cybernetic atmosphere",
-            "environment": "high-tech control room, futuristic lab, holographic displays, server racks with LED lights",
+    # ── Diverse style pools — randomly pick ONE per run ──
+    import random
+
+    AI_TECH_STYLES = [
+        {
+            "aesthetic": "clean minimalist tech photography, white background, product-shot precision",
+            "lighting": "bright diffused studio light, soft shadows, professional commercial photography",
+            "mood": "modern, elegant, aspirational",
         },
-        "disability": {
-            "aesthetic": "warm human-centered editorial, empowering perspective, inclusive modern design",
+        {
+            "aesthetic": "dramatic aerial photography of tech campuses and innovation hubs",
+            "lighting": "golden hour sunlight, long shadows, warm amber tones",
+            "mood": "expansive, ambitious, grounded in reality",
+        },
+        {
+            "aesthetic": "macro close-up of real hardware — chips, circuit boards, cables, screens",
+            "lighting": "warm tungsten desk lamp light mixed with cool monitor glow",
+            "mood": "intimate, detailed, tactile, engineering-focused",
+        },
+        {
+            "aesthetic": "editorial portrait style — real people using technology naturally",
+            "lighting": "natural window light, realistic indoor ambiance, soft bokeh",
+            "mood": "human-centered, authentic, candid",
+        },
+        {
+            "aesthetic": "isometric 3D illustration, colorful flat design, modern infographic style",
+            "lighting": "flat even lighting, vibrant saturated colors, playful gradients",
+            "mood": "educational, approachable, modern design",
+        },
+        {
+            "aesthetic": "photojournalistic documentary, raw candid office and lab environments",
+            "lighting": "mixed fluorescent and daylight, naturalistic, unposed atmosphere",
+            "mood": "authentic, newsworthy, behind-the-scenes",
+        },
+        {
+            "aesthetic": "abstract geometric data visualization, flowing particle systems, organic shapes",
+            "lighting": "gradient background from teal to coral, soft luminous particles",
+            "mood": "conceptual, artistic, data-driven beauty",
+        },
+        {
+            "aesthetic": "retro-futuristic poster art, bold graphic shapes, mid-century modern palette",
+            "lighting": "flat bold colors, graphic contrast, vintage warmth",
+            "mood": "nostalgic-futuristic, bold, eye-catching",
+        },
+    ]
+
+    DISABILITY_STYLES = [
+        {
+            "aesthetic": "warm empowering editorial, inclusive modern design, diverse people",
             "lighting": "soft golden natural light, warm diffused tones, hopeful atmosphere",
-            "environment": "modern accessible workspace, bright community center, adaptive technology in use",
+            "mood": "empowering, inclusive, uplifting",
         },
-        "health": {
-            "aesthetic": "clean clinical macro-detail, glowing biological data particles, precision medical technology",
-            "lighting": "clean bright white clinical lighting, subtle blue accents, sterile pristine glow",
-            "environment": "advanced medical facility, molecular visualization, diagnostic screens, research lab",
+        {
+            "aesthetic": "bright community-focused photography, adaptive technology in everyday use",
+            "lighting": "cheerful outdoor daylight, vivid colors, natural warmth",
+            "mood": "celebratory, community, independence",
         },
-        "climate": {
-            "aesthetic": "dramatic high-contrast raw nature, breathtaking environmental realism, powerful elemental forces",
-            "lighting": "dramatic chiaroscuro, moody storm light, golden hour through clouds, atmospheric fog",
-            "environment": "vast natural landscape, extreme weather, volcanic terrain, ocean waves, melting ice, dense forest",
+    ]
+
+    HEALTH_STYLES = [
+        {
+            "aesthetic": "clean clinical macro-detail, precision medical instruments, modern diagnostics",
+            "lighting": "clean bright white clinical lighting, subtle teal accents",
+            "mood": "precise, trustworthy, advanced",
         },
-        "world": {
+        {
+            "aesthetic": "warm patient-care photography, compassionate healthcare moments",
+            "lighting": "soft warm ambient light, natural skin tones, gentle atmosphere",
+            "mood": "caring, human, reassuring",
+        },
+        {
+            "aesthetic": "scientific visualization, molecular structures, DNA helixes, cell biology",
+            "lighting": "deep dark background with bioluminescent greens and soft pinks",
+            "mood": "discovery, microscopic beauty, breakthrough",
+        },
+    ]
+
+    WORLD_STYLES = [
+        {
             "aesthetic": "powerful editorial photojournalism, symbolic minimalism, documentary gravitas",
-            "lighting": "dramatic directional shadows, low-key editorial lighting, powerful contrast",
-            "environment": "diplomatic halls, city skylines, global landmarks, press conferences, crowded streets",
+            "lighting": "dramatic directional shadows, low-key editorial lighting",
+            "mood": "serious, impactful, global",
         },
-        "general": {
-            "aesthetic": "premium modern editorial, vibrant magazine quality, polished corporate aesthetic",
+        {
+            "aesthetic": "sweeping landscape photography, iconic global locations, cultural richness",
+            "lighting": "dramatic sky, atmospheric haze, natural grandeur",
+            "mood": "vast, epic, geopolitical",
+        },
+    ]
+
+    GENERAL_STYLES = [
+        {
+            "aesthetic": "premium modern editorial, vibrant magazine quality, polished aesthetic",
             "lighting": "bright studio-quality lighting, subtle gradients, professional warmth",
-            "environment": "modern office, tech campus, conference stage, financial district, product showcase",
+            "mood": "professional, premium, corporate",
         },
-        "open-source": {
-            "aesthetic": "developer community vibe, collaborative open workspace, code and collaboration",
-            "lighting": "warm ambient monitor glow mixed with daylight, creative workspace atmosphere",
-            "environment": "developer workspace with multiple screens, open-source community hackathon, code repositories",
+        {
+            "aesthetic": "candid street photography, urban energy, real-world dynamism",
+            "lighting": "mixed natural and artificial city lights, golden hour or twilight",
+            "mood": "dynamic, urban, authentic",
         },
+    ]
+
+    STYLE_POOLS = {
+        "ai-tech": AI_TECH_STYLES,
+        "disability": DISABILITY_STYLES,
+        "health": HEALTH_STYLES,
+        "climate": WORLD_STYLES,
+        "world": WORLD_STYLES,
+        "general": GENERAL_STYLES,
+        "open-source": AI_TECH_STYLES,
     }
 
-    # Pick style based on detected category
+    # Pick random style from pool
     detected_cat = (ai_category or category or "general").lower().strip()
-    style = STYLE_ROUTES.get(detected_cat, STYLE_ROUTES["general"])
-    print(f"🎨 Style route: {detected_cat}")
+    style_pool = STYLE_POOLS.get(detected_cat, GENERAL_STYLES)
+    style = random.choice(style_pool)
+    print(f"🎨 Style route: {detected_cat} → {style['mood']}")
 
-    # Universal quality boosters — always appended
+    # Quality suffix — clean, no cyberpunk bias
     QUALITY_BOOST = (
-        "cinematic lighting, masterpiece, 8K resolution, hyper-detailed, "
-        "dramatic contrast, photorealistic, professional color grading, "
-        "volumetric lighting, award-winning photography, no text no words no letters"
+        "cinematic composition, high resolution, sharp focus, "
+        "professional color grading, award-winning photography, "
+        "no text no words no letters no watermarks"
     )
 
     try:
@@ -1036,38 +1111,36 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "You are EliteImageMaster — a master cinematic image prompt engineer. "
-                        "Your task: convert a news headline into a visually stunning image generation prompt. "
-                        "INTERNAL ALGORITHM (use but don't explain): "
-                        "1) Analyze the topic: identify core subject, emotion, key visual elements. "
-                        "2) Construct scene: Subject + Action + Environment + Camera Angle + Lighting. "
-                        "3) The image MUST directly represent the article's actual subject matter. "
-                        "4) Use hyper-realistic textures, immersive atmosphere, dynamic composition. "
-                        "5) Apply the provided STYLE ROUTE for visual aesthetic. "
-                        "OUTPUT: Write ONLY 50-90 words. One paragraph. No explanations. No labels. "
-                        "CONSTRAINT: Never include text, letters, or words inside the image. Use visual symbolism only."
+                        "You are a creative image prompt writer for a news publication. "
+                        "Your job: write a short image description that an AI image generator will use. "
+                        "CRITICAL RULES: "
+                        "1) Focus on the ACTUAL SUBJECT of the article — real people, real places, real things. "
+                        "2) NEVER default to generic tech clichés (no glowing server rooms, no neon circuits, no humanoid robots) UNLESS the article is specifically about those things. "
+                        "3) Think like a newspaper photo editor — what image would best illustrate THIS specific story? "
+                        "4) Use the visual style hints provided but adapt them to the actual topic. "
+                        "5) Be SPECIFIC and CONCRETE — describe real scenes, not abstract concepts. "
+                        "6) Each prompt must be UNIQUE — never repeat compositions across articles. "
+                        "OUTPUT: 30-50 words only. One paragraph. No labels."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Generate a 50-90 word cinematic image prompt for this news:\n\n"
+                        f"Write a 30-50 word image prompt for this news article:\n\n"
                         f"HEADLINE: {title}\n"
-                        f"ARTICLE: {article_text[:400]}\n\n"
-                        f"STYLE ROUTE:\n"
-                        f"- Aesthetic: {style['aesthetic']}\n"
+                        f"ARTICLE EXCERPT: {article_text[:300]}\n\n"
+                        f"VISUAL STYLE:\n"
+                        f"- Look: {style['aesthetic']}\n"
                         f"- Lighting: {style['lighting']}\n"
-                        f"- Environment: {style['environment']}\n\n"
-                        f"RULES:\n"
-                        f"- Image MUST show the specific subject of this article\n"
-                        f"- Describe the main subject with vivid detail first\n"
-                        f"- Then describe environment, camera angle, lighting\n"
-                        f"- Make it jaw-dropping, high production value, cinematic"
+                        f"- Mood: {style['mood']}\n\n"
+                        f"AVOID: generic server rooms, neon blue glowing circuits, "
+                        f"humanoid robots (unless article is literally about robots), "
+                        f"dark cyberpunk backgrounds, repetitive tech stock-photo clichés"
                     ),
                 },
             ],
-            temperature=0.8,
-            max_tokens=150,
+            temperature=0.9,
+            max_tokens=100,
         )
         raw_prompt = (img_completion.choices[0].message.content or "").strip()
         if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
