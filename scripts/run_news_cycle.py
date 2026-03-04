@@ -975,133 +975,16 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
 
-    # 7. Generate DIVERSE image prompt — randomized style routing, topic-aware
+    # 7. Intelligent adaptive image prompt — LLM auto-detects topic, adapts style
     image_prompt = ""
 
-    # ── Diverse style pools — randomly pick ONE per run ──
-    import random
-
-    AI_TECH_STYLES = [
-        {
-            "aesthetic": "clean minimalist tech photography, white background, product-shot precision",
-            "lighting": "bright diffused studio light, soft shadows, professional commercial photography",
-            "mood": "modern, elegant, aspirational",
-        },
-        {
-            "aesthetic": "dramatic aerial photography of tech campuses and innovation hubs",
-            "lighting": "golden hour sunlight, long shadows, warm amber tones",
-            "mood": "expansive, ambitious, grounded in reality",
-        },
-        {
-            "aesthetic": "macro close-up of real hardware — chips, circuit boards, cables, screens",
-            "lighting": "warm tungsten desk lamp light mixed with cool monitor glow",
-            "mood": "intimate, detailed, tactile, engineering-focused",
-        },
-        {
-            "aesthetic": "editorial portrait style — real people using technology naturally",
-            "lighting": "natural window light, realistic indoor ambiance, soft bokeh",
-            "mood": "human-centered, authentic, candid",
-        },
-        {
-            "aesthetic": "isometric 3D illustration, colorful flat design, modern infographic style",
-            "lighting": "flat even lighting, vibrant saturated colors, playful gradients",
-            "mood": "educational, approachable, modern design",
-        },
-        {
-            "aesthetic": "photojournalistic documentary, raw candid office and lab environments",
-            "lighting": "mixed fluorescent and daylight, naturalistic, unposed atmosphere",
-            "mood": "authentic, newsworthy, behind-the-scenes",
-        },
-        {
-            "aesthetic": "abstract geometric data visualization, flowing particle systems, organic shapes",
-            "lighting": "gradient background from teal to coral, soft luminous particles",
-            "mood": "conceptual, artistic, data-driven beauty",
-        },
-        {
-            "aesthetic": "retro-futuristic poster art, bold graphic shapes, mid-century modern palette",
-            "lighting": "flat bold colors, graphic contrast, vintage warmth",
-            "mood": "nostalgic-futuristic, bold, eye-catching",
-        },
-    ]
-
-    DISABILITY_STYLES = [
-        {
-            "aesthetic": "warm empowering editorial, inclusive modern design, diverse people",
-            "lighting": "soft golden natural light, warm diffused tones, hopeful atmosphere",
-            "mood": "empowering, inclusive, uplifting",
-        },
-        {
-            "aesthetic": "bright community-focused photography, adaptive technology in everyday use",
-            "lighting": "cheerful outdoor daylight, vivid colors, natural warmth",
-            "mood": "celebratory, community, independence",
-        },
-    ]
-
-    HEALTH_STYLES = [
-        {
-            "aesthetic": "clean clinical macro-detail, precision medical instruments, modern diagnostics",
-            "lighting": "clean bright white clinical lighting, subtle teal accents",
-            "mood": "precise, trustworthy, advanced",
-        },
-        {
-            "aesthetic": "warm patient-care photography, compassionate healthcare moments",
-            "lighting": "soft warm ambient light, natural skin tones, gentle atmosphere",
-            "mood": "caring, human, reassuring",
-        },
-        {
-            "aesthetic": "scientific visualization, molecular structures, DNA helixes, cell biology",
-            "lighting": "deep dark background with bioluminescent greens and soft pinks",
-            "mood": "discovery, microscopic beauty, breakthrough",
-        },
-    ]
-
-    WORLD_STYLES = [
-        {
-            "aesthetic": "powerful editorial photojournalism, symbolic minimalism, documentary gravitas",
-            "lighting": "dramatic directional shadows, low-key editorial lighting",
-            "mood": "serious, impactful, global",
-        },
-        {
-            "aesthetic": "sweeping landscape photography, iconic global locations, cultural richness",
-            "lighting": "dramatic sky, atmospheric haze, natural grandeur",
-            "mood": "vast, epic, geopolitical",
-        },
-    ]
-
-    GENERAL_STYLES = [
-        {
-            "aesthetic": "premium modern editorial, vibrant magazine quality, polished aesthetic",
-            "lighting": "bright studio-quality lighting, subtle gradients, professional warmth",
-            "mood": "professional, premium, corporate",
-        },
-        {
-            "aesthetic": "candid street photography, urban energy, real-world dynamism",
-            "lighting": "mixed natural and artificial city lights, golden hour or twilight",
-            "mood": "dynamic, urban, authentic",
-        },
-    ]
-
-    STYLE_POOLS = {
-        "ai-tech": AI_TECH_STYLES,
-        "disability": DISABILITY_STYLES,
-        "health": HEALTH_STYLES,
-        "climate": WORLD_STYLES,
-        "world": WORLD_STYLES,
-        "general": GENERAL_STYLES,
-        "open-source": AI_TECH_STYLES,
-    }
-
-    # Pick random style from pool
     detected_cat = (ai_category or category or "general").lower().strip()
-    style_pool = STYLE_POOLS.get(detected_cat, GENERAL_STYLES)
-    style = random.choice(style_pool)
-    print(f"🎨 Style route: {detected_cat} → {style['mood']}")
+    print(f"🎨 Category: {detected_cat}")
 
-    # Quality suffix — clean, no cyberpunk bias
+    # Quality suffix — universal, no style bias
     QUALITY_BOOST = (
         "cinematic composition, high resolution, sharp focus, "
-        "professional color grading, award-winning photography, "
-        "no text no words no letters no watermarks"
+        "professional color grading, no text no words no letters no watermarks"
     )
 
     try:
@@ -1111,36 +994,53 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                 {
                     "role": "system",
                     "content": (
-                        "You are a creative image prompt writer for a news publication. "
-                        "Your job: write a short image description that an AI image generator will use. "
-                        "CRITICAL RULES: "
-                        "1) Focus on the ACTUAL SUBJECT of the article — real people, real places, real things. "
-                        "2) NEVER default to generic tech clichés (no glowing server rooms, no neon circuits, no humanoid robots) UNLESS the article is specifically about those things. "
-                        "3) Think like a newspaper photo editor — what image would best illustrate THIS specific story? "
-                        "4) Use the visual style hints provided but adapt them to the actual topic. "
-                        "5) Be SPECIFIC and CONCRETE — describe real scenes, not abstract concepts. "
-                        "6) Each prompt must be UNIQUE — never repeat compositions across articles. "
-                        "OUTPUT: 30-50 words only. One paragraph. No labels."
+                        "You are an elite creative director at a premium news publication. "
+                        "Your job: read a news article and craft a unique image prompt that an AI image generator will use.\n\n"
+                        "YOUR CREATIVE PROCESS (follow this exactly):\n"
+                        "Step 1 — ANALYZE THE TOPIC: What is this article specifically about? "
+                        "Identify the core subject (a person? a company? a policy? a product? a scientific discovery? a crisis?).\n"
+                        "Step 2 — CHOOSE THE RIGHT VISUAL APPROACH for THIS topic:\n"
+                        "  • Company/product news → show the actual product, logo context, or corporate setting\n"
+                        "  • Policy/regulation → show lawmakers, courtrooms, documents, government buildings\n"
+                        "  • Scientific breakthrough → show the actual research: labs, microscopes, experiments, nature\n"
+                        "  • Cybersecurity/hacking → show real-world consequences: worried people, screens with alerts, offices\n"
+                        "  • AI/ML research → show researchers at whiteboards, code on screens, university settings\n"
+                        "  • Hardware/chips → show actual hardware: close-up chips, manufacturing, clean rooms\n"
+                        "  • Public health → show real patients, doctors, hospitals, communities\n"
+                        "  • Climate/environment → show landscapes, weather events, wildlife, ecosystems\n"
+                        "  • Business/finance → show boardrooms, trading floors, cityscapes, handshakes\n"
+                        "  • If the topic doesn't fit any above, imagine you're sending a photographer — where would you send them?\n"
+                        "Step 3 — CHOOSE A UNIQUE COLOR PALETTE that matches the article's emotional tone:\n"
+                        "  • Hopeful/positive → warm golds, soft greens, morning light\n"
+                        "  • Urgent/crisis → stark contrasts, reds, dramatic shadows\n"
+                        "  • Corporate/formal → clean whites, steel blues, neutral tones\n"
+                        "  • Innovation/discovery → bright whites, clean teals, lab lighting\n"
+                        "  • Human interest → warm skin tones, natural daylight, intimate bokeh\n"
+                        "  • Each article gets a DIFFERENT palette — never repeat the same colors\n"
+                        "Step 4 — CHOOSE PHOTOGRAPHY STYLE based on subject matter:\n"
+                        "  • Editorial portrait, photojournalism, macro product shot, aerial landscape, "
+                        "documentary candid, scientific visualization, architectural photography, street photography\n\n"
+                        "ABSOLUTE BANS (never use unless the article is literally about these things):\n"
+                        "❌ Generic glowing server rooms with blue/purple neon lights\n"
+                        "❌ Humanoid robots standing in corridors\n"
+                        "❌ Abstract floating holographic interfaces\n"
+                        "❌ Dark cyberpunk backgrounds with neon circuits\n"
+                        "❌ Generic 'futuristic' 3D renders\n\n"
+                        "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
                     ),
                 },
                 {
                     "role": "user",
                     "content": (
-                        f"Write a 30-50 word image prompt for this news article:\n\n"
+                        f"Create a unique image prompt for this article:\n\n"
                         f"HEADLINE: {title}\n"
-                        f"ARTICLE EXCERPT: {article_text[:300]}\n\n"
-                        f"VISUAL STYLE:\n"
-                        f"- Look: {style['aesthetic']}\n"
-                        f"- Lighting: {style['lighting']}\n"
-                        f"- Mood: {style['mood']}\n\n"
-                        f"AVOID: generic server rooms, neon blue glowing circuits, "
-                        f"humanoid robots (unless article is literally about robots), "
-                        f"dark cyberpunk backgrounds, repetitive tech stock-photo clichés"
+                        f"CATEGORY: {detected_cat}\n"
+                        f"ARTICLE: {article_text[:500]}"
                     ),
                 },
             ],
-            temperature=0.9,
-            max_tokens=100,
+            temperature=0.95,
+            max_tokens=80,
         )
         raw_prompt = (img_completion.choices[0].message.content or "").strip()
         if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
@@ -1149,13 +1049,14 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         import re as _re
         raw_prompt = _re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=_re.IGNORECASE).strip()
         raw_prompt = _re.sub(r'^\*\*.*?\*\*\s*', '', raw_prompt).strip()
+        raw_prompt = _re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=_re.IGNORECASE).strip()
         # Append quality boosters
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
         print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
     except Exception as e:
         print(f"⚠️ Image prompt generation failed: {e}")
-        # Fallback: title + style + quality
-        image_prompt = f"{title}, {style['aesthetic']}, {style['lighting']}, {QUALITY_BOOST}"
+        # Fallback: simple title-based prompt
+        image_prompt = f"{title}, editorial news photography, natural lighting, {QUALITY_BOOST}"
         print(f'🎨 Fallback prompt: "{image_prompt[:120]}..."')
 
 
