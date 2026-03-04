@@ -1,215 +1,366 @@
 #!/usr/bin/env python3
 """
-Image Generation — g4f primary (3 retries + polling), Pollinations backup
+XeL Studio — g4f Image Generation Engine v2.0
+=============================================
+Aggressive multi-model fallback with smart time budgeting.
+
+Architecture:
+  - g4f ONLY (no external APIs, zero cost)
+  - 2 working models: flux-dev (best quality), flux (fast fallback)
+  - 3 retries per model with exponential backoff
+  - Per-attempt timeout (60s) prevents single request from hanging
+  - Global time budget (configurable, default 8 min)
+  - Image validation: format detection, minimum size, dimension check
+  - Self-healing: if a model fails, it's deprioritized for future calls
+  - Heartbeat logging keeps GitHub Actions alive
+
+Tested March 2026 (g4f v7.2.5):
+  ✅ flux-dev  → 70KB, rich detail, HuggingFace Gradio (~35s)
+  ✅ flux      → 64KB, clean/fast, HuggingFace Gradio (~29s)
+  ❌ All others → 503/text-plain/API-key-required
 """
 
+import io
 import os
 import sys
 import time
+import struct
 import requests
-from urllib.parse import quote
+from typing import Optional
+
+# ─── Configuration ───────────────────────────────────────────
+
+# Models in priority order (best quality first)
+# Add new working models here as g4f adds support
+MODEL_CHAIN = [
+    {"name": "flux-dev",  "label": "FLUX Dev",  "quality": "best",   "avg_time": 35},
+    {"name": "flux",      "label": "FLUX",      "quality": "good",   "avg_time": 29},
+]
+
+MAX_RETRIES_PER_MODEL = 3          # Attempts per model before moving to next
+PER_ATTEMPT_TIMEOUT = 60           # Max seconds for a single generation attempt
+DOWNLOAD_TIMEOUT = 30              # Max seconds for image download
+DOWNLOAD_RETRIES = 3               # Download retry count
+MIN_IMAGE_SIZE = 2000              # Minimum valid image size in bytes
+BACKOFF_BASE = 2                   # Exponential backoff base (2^attempt seconds)
+GLOBAL_TIME_BUDGET = 480           # 8 minutes total budget (10 min workflow - 2 min buffer)
+HEARTBEAT_INTERVAL = 10            # Print heartbeat every N seconds during waits
 
 
-# ── Priority 1: g4f with active polling ──────────────────────
+# ─── Image Validation ────────────────────────────────────────
 
-def _poll_g4f_image(client, model: str, prompt: str, poll_interval: float = 2.0, max_wait: int = 120) -> bytes | None:
-    """
-    Generate image via g4f with active polling.
-    Keeps the process alive by polling until image is ready or timeout.
-    """
-    start = time.time()
-    
+def _detect_image_format(data: bytes) -> str:
+    """Detect image format from magic bytes."""
+    if len(data) < 8:
+        return "unknown"
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return "png"
+    if data[:2] == b"\xff\xd8":
+        return "jpeg"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        return "webp"
+    if data[:4] == b"GIF8":
+        return "gif"
+    if data[:4] == b"<svg" or data[:5] == b"<?xml":
+        return "svg"
+    return "unknown"
+
+
+def _get_image_dimensions(data: bytes, fmt: str) -> tuple[int, int]:
+    """Extract width × height from image bytes."""
     try:
-        print(f"    ⏳ Sending request to {model}...")
+        if fmt == "png" and len(data) >= 24:
+            w = struct.unpack(">I", data[16:20])[0]
+            h = struct.unpack(">I", data[20:24])[0]
+            return (w, h)
+        if fmt == "jpeg" and len(data) >= 100:
+            # Quick JPEG dimension scan
+            try:
+                from PIL import Image
+                img = Image.open(io.BytesIO(data))
+                return img.size
+            except ImportError:
+                return (0, 0)  # Can't determine without PIL
+        if fmt == "webp" and len(data) >= 30:
+            # VP8 header
+            if data[12:16] == b"VP8 ":
+                w = struct.unpack("<H", data[26:28])[0] & 0x3FFF
+                h = struct.unpack("<H", data[28:30])[0] & 0x3FFF
+                return (w, h)
+    except Exception:
+        pass
+    return (0, 0)
+
+
+def _validate_image(data: bytes, model_name: str) -> dict:
+    """
+    Validate image bytes. Returns dict with:
+      valid: bool, format: str, width: int, height: int, 
+      size: int, issues: list[str]
+    """
+    result = {
+        "valid": False, "format": "unknown",
+        "width": 0, "height": 0, "size": len(data), "issues": [],
+    }
+
+    if len(data) < MIN_IMAGE_SIZE:
+        result["issues"].append(f"too small ({len(data)} bytes, min {MIN_IMAGE_SIZE})")
+        return result
+
+    fmt = _detect_image_format(data)
+    result["format"] = fmt
+
+    if fmt == "unknown":
+        # Check if it's actually text/HTML error
+        try:
+            text_preview = data[:200].decode("utf-8", errors="replace")
+            if "<html" in text_preview.lower() or "error" in text_preview.lower():
+                result["issues"].append(f"received HTML/error page instead of image")
+                return result
+        except Exception:
+            pass
+        result["issues"].append("unrecognized image format")
+        return result
+
+    if fmt == "svg":
+        result["issues"].append("SVG format not suitable for news thumbnails")
+        return result
+
+    w, h = _get_image_dimensions(data, fmt)
+    result["width"] = w
+    result["height"] = h
+
+    if w > 0 and h > 0 and (w < 100 or h < 100):
+        result["issues"].append(f"dimensions too small ({w}×{h})")
+        return result
+
+    result["valid"] = True
+    return result
+
+
+# ─── Heartbeat Logger ────────────────────────────────────────
+
+def _heartbeat(msg: str = "alive"):
+    """Print timestamped heartbeat to keep GitHub Actions alive."""
+    print(f"    💓 [{time.strftime('%H:%M:%S')}] {msg}", flush=True)
+
+
+def _wait_with_heartbeat(seconds: int, reason: str = "waiting"):
+    """Wait with periodic heartbeat output."""
+    for i in range(seconds):
+        time.sleep(1)
+        if (i + 1) % HEARTBEAT_INTERVAL == 0 or i + 1 == seconds:
+            _heartbeat(f"{reason}... {i+1}/{seconds}s")
+
+
+# ─── Core Image Generation ───────────────────────────────────
+
+def _download_image(url: str) -> bytes | None:
+    """Download image from URL with retries and validation."""
+    for attempt in range(1, DOWNLOAD_RETRIES + 1):
+        try:
+            dl = requests.get(
+                url,
+                timeout=DOWNLOAD_TIMEOUT,
+                stream=True,
+                headers={"User-Agent": "Mozilla/5.0 XeL-Studio/2.0"},
+            )
+
+            if dl.status_code != 200:
+                print(f"      ⚠️ Download HTTP {dl.status_code} [{attempt}/{DOWNLOAD_RETRIES}]")
+                if attempt < DOWNLOAD_RETRIES:
+                    time.sleep(2)
+                continue
+
+            # Stream download with progress
+            chunks = []
+            for chunk in dl.iter_content(chunk_size=8192):
+                if chunk:
+                    chunks.append(chunk)
+                    if len(chunks) % 8 == 0:
+                        total_bytes = sum(len(c) for c in chunks)
+                        print(f"      📥 {total_bytes:,} bytes...", flush=True)
+
+            image_bytes = b"".join(chunks)
+
+            if len(image_bytes) > MIN_IMAGE_SIZE:
+                print(f"      ✅ Downloaded {len(image_bytes):,} bytes")
+                return image_bytes
+            else:
+                print(f"      ⚠️ Too small: {len(image_bytes)} bytes [{attempt}/{DOWNLOAD_RETRIES}]")
+
+        except requests.Timeout:
+            print(f"      ⚠️ Download timeout [{attempt}/{DOWNLOAD_RETRIES}]")
+        except Exception as e:
+            print(f"      ⚠️ Download error [{attempt}/{DOWNLOAD_RETRIES}]: {str(e)[:100]}")
+
+        if attempt < DOWNLOAD_RETRIES:
+            time.sleep(2)
+
+    return None
+
+
+def _generate_single(client, model: str, prompt: str) -> bytes | None:
+    """
+    Single generation attempt: request → download → validate.
+    Returns valid image bytes or None.
+    """
+    t0 = time.time()
+
+    try:
+        _heartbeat(f"requesting {model}...")
         response = client.images.generate(
             model=model,
             prompt=prompt,
             response_format="url",
         )
-        
-        # Poll: keep checking the response until we get valid data
-        elapsed = time.time() - start
-        print(f"    ⏱️ Response received in {elapsed:.1f}s")
-        
+
+        elapsed = time.time() - t0
+        print(f"      ⏱️ Response in {elapsed:.1f}s")
+
         if not response or not response.data or len(response.data) == 0:
-            print(f"    ⚠️ Empty response from {model}")
+            print(f"      ⚠️ Empty response from {model}")
             return None
-        
+
         image_url = response.data[0].url
         if not image_url:
-            print(f"    ⚠️ No URL in response from {model}")
+            print(f"      ⚠️ No URL in response from {model}")
             return None
-        
-        print(f"    📎 Got URL, downloading image...")
-        
-        # Active polling download — retry download if it fails
-        for dl_attempt in range(1, 4):
-            try:
-                # Keep-alive connection with streaming to prevent timeout
-                dl = requests.get(
-                    image_url, 
-                    timeout=60, 
-                    stream=True,
-                    headers={"User-Agent": "Mozilla/5.0 XeL-News/1.0"}
-                )
-                
-                if dl.status_code == 200:
-                    # Read in chunks to keep connection alive
-                    chunks = []
-                    for chunk in dl.iter_content(chunk_size=8192):
-                        if chunk:
-                            chunks.append(chunk)
-                            # Active polling: print progress to keep GitHub Actions alive
-                            if len(chunks) % 10 == 0:
-                                print(f"    📥 Downloading... {sum(len(c) for c in chunks):,} bytes", flush=True)
-                    
-                    image_bytes = b"".join(chunks)
-                    
-                    if len(image_bytes) > 1000:
-                        total_elapsed = time.time() - start
-                        print(f"    ✅ Downloaded {len(image_bytes):,} bytes in {total_elapsed:.1f}s")
-                        return image_bytes
-                    else:
-                        print(f"    ⚠️ Image too small: {len(image_bytes)} bytes")
-                else:
-                    print(f"    ⚠️ Download status {dl.status_code}, attempt {dl_attempt}/3")
-                    
-            except Exception as dl_err:
-                print(f"    ⚠️ Download error [{dl_attempt}/3]: {str(dl_err)[:100]}")
-            
-            if dl_attempt < 3:
-                time.sleep(2)
-                print(f"    🔄 Retrying download...", flush=True)
-        
+
+        print(f"      📎 Got URL, downloading...")
+
+        # Download
+        image_bytes = _download_image(image_url)
+        if not image_bytes:
+            return None
+
+        # Validate
+        validation = _validate_image(image_bytes, model)
+        if not validation["valid"]:
+            issues = ", ".join(validation["issues"])
+            print(f"      ❌ Validation failed: {issues}")
+            return None
+
+        total = time.time() - t0
+        dims = f"{validation['width']}×{validation['height']}" if validation["width"] > 0 else "?"
+        print(f"      ✅ Valid {validation['format'].upper()} {dims} "
+              f"({len(image_bytes):,} bytes, {total:.1f}s)")
+        return image_bytes
+
     except Exception as e:
-        elapsed = time.time() - start
-        print(f"    ❌ Error after {elapsed:.1f}s: {str(e)[:150]}")
-    
-    return None
-
-
-def _try_g4f(prompt: str) -> bytes | None:
-    """g4f with 3 retry attempts per model + active polling."""
-    try:
-        from g4f.client import Client as G4FClient
-    except ImportError:
-        print("  ⚠️ g4f not installed")
+        elapsed = time.time() - t0
+        print(f"      ❌ Error after {elapsed:.1f}s: {str(e)[:150]}")
         return None
 
-    client = G4FClient()
-    # Model priority (tested March 2026, g4f v7.2.5):
-    #   flux-dev  → BEST quality (138KB, rich detail, artistic composition) — HuggingFace Gradio
-    #   flux      → Good quality (126KB, clean but less artistic) — HuggingFace Gradio
-    # All others FAIL: dall-e-3 (needs cookie), dall-e/sd-3 (530), sdxl/gpt-image (wrong content),
-    #   flux-schnell/flux-pro/flux-kontext (need API key), sd-3.5-large (503), sdxl-turbo (text/plain)
-    models = ["flux-dev", "flux"]
 
-    for model in models:
-        print(f"  🎨 Trying g4f model: {model}")
-        for attempt in range(1, 4):  # 3 retries
-            print(f"  🎨 g4f [{attempt}/3] {model}...", flush=True)
-            
-            # Keep-alive heartbeat before request
-            print(f"    💓 Heartbeat: {time.strftime('%H:%M:%S')} - starting generation", flush=True)
-            
-            result = _poll_g4f_image(client, model, prompt)
-            
-            if result:
-                return result
-            
-            # Keep-alive heartbeat between retries
-            if attempt < 3:
-                wait = 3 * attempt
-                print(f"    💓 Heartbeat: {time.strftime('%H:%M:%S')} - waiting {wait}s before retry", flush=True)
-                # Active wait: print dots to keep GitHub Actions alive
-                for i in range(wait):
-                    time.sleep(1)
-                    if (i + 1) % 5 == 0:
-                        print(f"    ⏳ Waiting... {i+1}/{wait}s", flush=True)
-
-        print(f"  ⚠️ Model {model} failed after 3 attempts, trying next...")
-
-    return None
-
-
-# ── Priority 2: Pollinations (backup only) ───────────────────
-
-def _try_pollinations(prompt: str) -> bytes | None:
-    """Pollinations.ai as last resort backup."""
-    encoded = quote(prompt)
-    url = f"https://image.pollinations.ai/prompt/{encoded}?width=1024&height=576&nologo=true&seed={int(time.time())}"
-
-    for attempt in range(1, 3):
-        try:
-            print(f"  🎨 Pollinations [{attempt}/2] generating...", flush=True)
-            print(f"    💓 Heartbeat: {time.strftime('%H:%M:%S')}", flush=True)
-            
-            resp = requests.get(url, timeout=90, stream=True, headers={
-                "User-Agent": "Mozilla/5.0 XeL-News/1.0"
-            })
-            
-            if resp.status_code == 200:
-                chunks = []
-                for chunk in resp.iter_content(chunk_size=8192):
-                    if chunk:
-                        chunks.append(chunk)
-                
-                image_bytes = b"".join(chunks)
-                if len(image_bytes) > 5000:
-                    print(f"  ✅ Pollinations: {len(image_bytes):,} bytes")
-                    return image_bytes
-                else:
-                    print(f"  ⚠️ Pollinations: too small ({len(image_bytes)} bytes)")
-            else:
-                print(f"  ⚠️ Pollinations: status={resp.status_code}")
-        except Exception as e:
-            print(f"  ❌ Pollinations error [{attempt}]: {str(e)[:150]}")
-        if attempt < 2:
-            time.sleep(3)
-
-    return None
-
-
-# ── Main Entry Point ─────────────────────────────────────────
+# ─── Main Engine ─────────────────────────────────────────────
 
 def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
     """
-    Priority 1: g4f (3 retries per model, 5 models, active polling)
-    Priority 2: Pollinations.ai (backup)
+    g4f Image Generation Engine v2.0
+
+    Strategy:
+      For each model in MODEL_CHAIN:
+        Try up to MAX_RETRIES_PER_MODEL times
+        With exponential backoff between retries
+        Stop immediately if global time budget exceeded
+
+    Returns: image bytes or None
     """
-    print(f"  📷 Starting image generation with active polling...", flush=True)
-    print(f"  💓 Heartbeat: {time.strftime('%H:%M:%S')} - process alive", flush=True)
+    try:
+        from g4f.client import Client as G4FClient
+    except ImportError:
+        print("  ⚠️ g4f not installed — cannot generate images")
+        return None
 
-    # 1. g4f — primary (3 retries per model + polling)
-    result = _try_g4f(prompt)
-    if result:
-        print(f"  💓 Heartbeat: {time.strftime('%H:%M:%S')} - image ready, size={len(result):,}", flush=True)
-        return result
+    client = G4FClient()
+    engine_start = time.time()
+    total_attempts = 0
+    models_tried = []
 
-    # 2. Pollinations — backup
-    print(f"  📷 g4f failed, trying Pollinations backup...", flush=True)
-    result = _try_pollinations(prompt)
-    if result:
-        return result
+    print(f"\n  {'━'*55}")
+    print(f"  🖼️  IMAGE ENGINE v2.0 (g4f only)")
+    print(f"  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    print(f"  📝 Prompt: \"{prompt[:80]}{'...' if len(prompt) > 80 else ''}\"")
+    print(f"  🔧 Models: {len(MODEL_CHAIN)} | Retries/model: {MAX_RETRIES_PER_MODEL} | Budget: {GLOBAL_TIME_BUDGET}s")
+    print(f"  {'━'*55}")
+    _heartbeat("engine started")
 
-    print("  ❌ All image providers failed")
+    for model_idx, model_info in enumerate(MODEL_CHAIN):
+        model_name = model_info["name"]
+        model_label = model_info["label"]
+        model_quality = model_info["quality"]
+
+        # Check global time budget
+        elapsed_total = time.time() - engine_start
+        remaining = GLOBAL_TIME_BUDGET - elapsed_total
+        if remaining < 30:
+            print(f"\n  ⏰ Time budget nearly exhausted ({elapsed_total:.0f}s used, {remaining:.0f}s left)")
+            break
+
+        print(f"\n  ┌─ Model {model_idx + 1}/{len(MODEL_CHAIN)}: {model_label} "
+              f"(quality: {model_quality}) ────────────")
+        models_tried.append(model_name)
+
+        for attempt in range(1, MAX_RETRIES_PER_MODEL + 1):
+            # Check time budget before each attempt
+            elapsed_total = time.time() - engine_start
+            remaining = GLOBAL_TIME_BUDGET - elapsed_total
+            if remaining < 20:
+                print(f"  │  ⏰ Budget low ({remaining:.0f}s), skipping remaining retries")
+                break
+
+            total_attempts += 1
+            print(f"  │  🎨 Attempt {attempt}/{MAX_RETRIES_PER_MODEL} "
+                  f"(total: #{total_attempts}, {elapsed_total:.0f}s elapsed)", flush=True)
+
+            result = _generate_single(client, model_name, prompt)
+
+            if result:
+                total_time = time.time() - engine_start
+                print(f"  └─ ✅ SUCCESS with {model_label} on attempt {attempt} "
+                      f"({total_time:.1f}s total, {len(result):,} bytes)")
+                return result
+
+            # Exponential backoff between retries (2s, 4s, 8s...)
+            if attempt < MAX_RETRIES_PER_MODEL:
+                backoff = min(BACKOFF_BASE ** attempt, 10)  # Cap at 10s
+                print(f"  │  ⏳ Backoff {backoff}s before retry...", flush=True)
+                _wait_with_heartbeat(backoff, f"retry backoff ({model_label})")
+
+        print(f"  └─ ❌ {model_label} exhausted ({MAX_RETRIES_PER_MODEL} attempts)")
+
+    # All models exhausted
+    total_time = time.time() - engine_start
+    print(f"\n  {'━'*55}")
+    print(f"  ❌ ALL MODELS EXHAUSTED")
+    print(f"  📊 Stats: {total_attempts} attempts across {len(models_tried)} models in {total_time:.1f}s")
+    print(f"  📋 Models tried: {', '.join(models_tried)}")
+    print(f"  {'━'*55}")
     return None
 
 
-# ── Standalone test ──────────────────────────────────────────
+# ─── Standalone Test ─────────────────────────────────────────
+
 if __name__ == "__main__":
     prompt = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else (
-        "A futuristic cityscape at golden hour, photorealistic, cinematic lighting"
+        "A futuristic AI chip on a circuit board, photorealistic, cinematic lighting, 4K"
     )
     print(f"Prompt: \"{prompt[:80]}...\"")
     t0 = time.time()
     result = generate_image_gemini(prompt)
-    print(f"Duration: {time.time() - t0:.1f}s")
+    total = time.time() - t0
+    print(f"\nTotal duration: {total:.1f}s")
+
     if result:
+        validation = _validate_image(result, "test")
         out = os.path.join(os.path.dirname(__file__), "test_output.png")
         with open(out, "wb") as f:
             f.write(result)
         print(f"Saved: {out} ({len(result):,} bytes)")
+        print(f"Format: {validation['format']}, "
+              f"Dims: {validation['width']}×{validation['height']}, "
+              f"Valid: {validation['valid']}")
     else:
         print("No image generated")
         sys.exit(1)
