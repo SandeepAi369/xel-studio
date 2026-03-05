@@ -500,7 +500,7 @@ def load_existing_titles(db=None) -> list[str]:
     # Primary: Read from Firestore (the actual database with all articles)
     if db:
         try:
-            docs = db.collection(COLLECTION).limit(50).get()
+            docs = list(db.collection(COLLECTION).limit(50).stream())
             for doc in docs:
                 data = doc.to_dict()
                 t = data.get("title", "")
