@@ -491,16 +491,15 @@ def load_history_urls(db=None) -> set[str]:
 
 
 def load_existing_titles(db=None) -> list[str]:
-    """Load all known titles — PRIMARY: Firestore DB, FALLBACK: JSON file.
-    Firestore has all published articles. JSON may be empty/stale."""
+    """Load all known titles for dedup.
+    Strategy: Read from Firestore DB, also sync titles into JSON for backup.
+    Firestore has all published articles. JSON is a local cache/backup."""
     titles = []
 
     # Primary: Read from Firestore (the actual database with all articles)
     if db:
         try:
-            docs = db.collection(COLLECTION).order_by(
-                "date", direction=firestore.Query.DESCENDING
-            ).limit(50).stream()
+            docs = db.collection(COLLECTION).limit(50).get()
             for doc in docs:
                 data = doc.to_dict()
                 t = data.get("title", "")
@@ -508,6 +507,25 @@ def load_existing_titles(db=None) -> list[str]:
                     titles.append(t)
             if titles:
                 print(f"📋 Dedup: loaded {len(titles)} titles from Firestore DB")
+                # Sync to JSON so the file isn't empty anymore
+                try:
+                    history = _load_history_json()
+                    existing_json_titles = {e.get("title", "") for e in history.get("entries", [])}
+                    new_count = 0
+                    for t in titles:
+                        if t and t not in existing_json_titles:
+                            history["entries"].append({
+                                "title": t,
+                                "urls": [],
+                                "date": datetime.now(timezone.utc).isoformat(),
+                            })
+                            new_count += 1
+                    if new_count > 0:
+                        history = _purge_old_entries(history)
+                        _save_history_json(history)
+                        print(f"📥 Synced {new_count} titles from Firestore → JSON cache")
+                except Exception as sync_err:
+                    print(f"⚠️ JSON sync failed (non-critical): {sync_err}")
                 return titles
         except Exception as e:
             print(f"⚠️ Firestore title read failed: {e}")
