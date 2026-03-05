@@ -260,7 +260,6 @@ def detect_category(query: str, title: str = "", content: str = "") -> str:
 
 def extract_topic(query: str) -> str:
     """Remove time modifiers to get the core topic."""
-    import re
     time_pattern = r"\s*(latest breaking news|updates today|news \w+ \d+|fresh developments|this week|breaking today|\d+ breakthrough|exclusive update)$"
     topic = re.sub(time_pattern, "", query, flags=re.IGNORECASE).strip()
     topic = re.sub(r"\s+(AND|OR)\s+", " & ", topic)
@@ -664,7 +663,6 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
       1. g4f (Flux, DALL-E 3, SDXL, SD3) → Cloudinary
       2. Placeholder → Cloudinary
     """
-    import re as _re
 
     print(f"\n{'─'*50}")
     print("🖼️ IMAGE PIPELINE (g4f → Placeholder)")
@@ -672,8 +670,8 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     print(f"{'─'*50}")
 
     # Sanitize prompt
-    clean_prompt = _re.sub(r"[^\w\s,.\-!?']", "", prompt)
-    clean_prompt = _re.sub(r"\s+", " ", clean_prompt).strip()
+    clean_prompt = re.sub(r"[^\w\s,.\-!?']", "", prompt)
+    clean_prompt = re.sub(r"\s+", " ", clean_prompt).strip()
     if len(clean_prompt) > 300:
         clean_prompt = clean_prompt[:300].rsplit(" ", 1)[0]
 
@@ -701,7 +699,6 @@ def parse_article_response(text: str) -> tuple[str, str]:
     Returns (article_text, category)."""
     clean = text.strip()
     if clean.startswith("```"):
-        import re
         clean = re.sub(r"^```(?:json)?\s*\n?", "", clean)
         clean = re.sub(r"\n?```\s*$", "", clean)
     try:
@@ -1138,15 +1135,14 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
             max_tokens=40,
         )
         raw_title = (title_completion.choices[0].message.content or "").strip()
-        import re as _re
         raw_title = raw_title.strip('"\'')
-        raw_title = _re.sub(
+        raw_title = re.sub(
             r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
             r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
             r'Development|Watch)[:\s—–-]+',
-            '', raw_title, flags=_re.IGNORECASE
+            '', raw_title, flags=re.IGNORECASE
         )
-        raw_title = _re.sub(r'^[:\s—–-]+', '', raw_title).strip()
+        raw_title = re.sub(r'^[:\s—–-]+', '', raw_title).strip()
         if raw_title and len(raw_title.split()) >= 4:
             title = raw_title
             print(f"📰 LLM Title: \"{title}\"")
@@ -1252,10 +1248,9 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
             raw_prompt = raw_prompt[1:-1]
         # Strip any labels the LLM might add
-        import re as _re
-        raw_prompt = _re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=_re.IGNORECASE).strip()
-        raw_prompt = _re.sub(r'^\*\*.*?\*\*\s*', '', raw_prompt).strip()
-        raw_prompt = _re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=_re.IGNORECASE).strip()
+        raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
+        raw_prompt = re.sub(r'^\*\*.*?\*\*\s*', '', raw_prompt).strip()
+        raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
         # Append quality boosters
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
         print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
