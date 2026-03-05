@@ -227,8 +227,17 @@ def detect_category(query: str, title: str = "", content: str = "") -> str:
             "merger", "market cap", "investor", "venture capital", "valuation",
         ]),
         ("entertainment", [
-            "social media", "streaming", "gaming", "esports", "entertainment",
-            "movie", "music", "tiktok", "youtube", "netflix", "spotify",
+            "social media", "streaming", "movie",
+            "music", "tiktok", "youtube", "netflix", "spotify",
+        ]),
+        ("sports", [
+            "sport", "athlete", "championship", "olympic", "medal", "tournament",
+            "football", "soccer", "basketball", "cricket", "tennis", "golf",
+            "boxing", "mma", "ufc", "marathon", "athletics", "track and field",
+            "world record", "league", "playoff", "super bowl", "world cup",
+            "esport", "gaming tournament", "victory", "trophy", "championship",
+            "grand slam", "premier league", "nba", "nfl", "mlb", "fifa",
+            "ipl", "f1", "formula 1", "race", "wrestling", "gymnast",
         ]),
     ]
 
@@ -853,7 +862,9 @@ def generate_news():
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a factual tech journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
+        'You are a factual journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
+        'Valid categories: ai-tech, disability, health, world, general, sports. '
+        'Pick the BEST matching category for the article topic. '
         'No other keys, no markdown, no explanation.'
     )
 
