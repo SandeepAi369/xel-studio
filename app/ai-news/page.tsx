@@ -121,7 +121,17 @@ export default function AINewsPage() {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [filter, setFilter] = useState<FilterTab>("all");
+  const [filter, setFilter] = useState<FilterTab>(() => {
+    if (typeof window === "undefined") return "all";
+    try {
+      const raw = sessionStorage.getItem("ai-news-filter");
+      if (raw) {
+        const { tab, ts } = JSON.parse(raw);
+        if (Date.now() - ts < 300000) return tab as FilterTab; // 5 min TTL
+      }
+    } catch { }
+    return "all";
+  });
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   // Hide container during scroll restoration to prevent flash
@@ -321,7 +331,10 @@ export default function AINewsPage() {
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
               <button
-                onClick={() => setFilter("all")}
+                onClick={() => {
+                  setFilter("all");
+                  sessionStorage.setItem("ai-news-filter", JSON.stringify({ tab: "all", ts: Date.now() }));
+                }}
                 role="tab"
                 aria-selected={filter === "all"}
                 aria-label="Show all news"
@@ -338,7 +351,10 @@ export default function AINewsPage() {
                 return (
                   <button
                     key={cat.key}
-                    onClick={() => setFilter(cat.key)}
+                    onClick={() => {
+                      setFilter(cat.key);
+                      sessionStorage.setItem("ai-news-filter", JSON.stringify({ tab: cat.key, ts: Date.now() }));
+                    }}
                     role="tab"
                     aria-selected={isActive}
                     aria-label={`Filter by ${cat.label}`}
