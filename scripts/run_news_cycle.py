@@ -871,7 +871,6 @@ def generate_news():
     cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
 
     # Build dedup context — show LLM what already exists so it doesn't repeat
-    # Also do programmatic semantic similarity check
     dedup_section = ""
     if existing_titles:
         # Show last 30 titles max to save tokens
@@ -879,38 +878,122 @@ def generate_news():
         titles_list = "\n".join(f"- {t}" for t in recent_titles)
         dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a COMPLETELY DIFFERENT story. Even slight rewording of the same topic is NOT allowed. If the search results are all about the same topic as published articles, find a totally different angle or sub-topic."""
 
-    # Programmatic dedup: filter out search results that are too similar to existing titles
+    # ===== ENHANCED 3-LAYER DEDUPLICATION =====
+    # Layer 1: Normalized title matching (catches exact rewording)
+    # Layer 2: N-gram similarity (catches phrase-level overlap like "OpenAI GPT-5.3")
+    # Layer 3: Entity extraction (catches same companies/products/people)
+
+    def _normalize_title(t: str) -> str:
+        """Normalize a title for comparison: lowercase, strip punctuation, collapse whitespace."""
+        t = re.sub(r'[^a-zA-Z0-9\s]', ' ', t.lower())
+        t = re.sub(r'\s+', ' ', t).strip()
+        return t
+
+    def _get_ngrams(text: str, n: int = 2) -> set:
+        """Extract character n-grams and word n-grams from text."""
+        words = text.split()
+        word_ngrams = set()
+        for i in range(len(words) - n + 1):
+            word_ngrams.add(' '.join(words[i:i+n]))
+        return word_ngrams
+
+    def _extract_entities(text: str) -> set:
+        """Extract key entities (company names, product names, proper nouns) without NLP libs."""
+        # Known tech/company entities
+        known_entities = [
+            'openai', 'google', 'microsoft', 'apple', 'meta', 'nvidia', 'tesla', 'amazon',
+            'anthropic', 'deepmind', 'cerebras', 'mistral', 'hugging face', 'ibm', 'intel',
+            'amd', 'qualcomm', 'samsung', 'spacex', 'nasa', 'who', 'un', 'eu', 'fda',
+            'gpt', 'gemini', 'claude', 'llama', 'copilot', 'chatgpt', 'sora', 'dall-e',
+            'bitcoin', 'ethereum', 'iphone', 'android', 'linux', 'windows', 'chrome',
+        ]
+        text_lower = text.lower()
+        found = set()
+        for entity in known_entities:
+            if entity in text_lower:
+                found.add(entity)
+        # Also extract capitalized multi-word phrases (likely proper nouns)
+        for match in re.finditer(r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)\b', text):
+            found.add(match.group().lower())
+        # Extract version numbers with product (e.g., "GPT-5.3", "iOS 18")
+        for match in re.finditer(r'\b([A-Za-z]+[-\s]?\d+(?:\.\d+)?)\b', text):
+            found.add(match.group().lower())
+        return found
+
     def _title_words(t: str) -> set:
         """Extract significant words from a title (ignore common words)."""
         stop = {'the','a','an','in','on','at','to','for','of','with','and','or','is','are','was','were',
                 'by','from','as','its','that','this','has','have','had','be','been','will','would',
                 'it','not','but','their','new','into','than','also','how','what','when','where','who',
-                'can','could','may','should','about','up','out','over','after','before','between'}
+                'can','could','may','should','about','up','out','over','after','before','between',
+                'says','said','report','reports','news','update','updates','announces','announced',
+                'launches','launched','reveals','revealed','unveils','unveiled','releases','released'}
         return {w.lower() for w in re.sub(r'[^a-zA-Z0-9\s]', '', t).split() if len(w) > 2 and w.lower() not in stop}
 
+    def _calculate_similarity(title_a: str, title_b: str) -> float:
+        """Calculate multi-layer similarity score between two titles. Returns 0.0 - 1.0."""
+        norm_a = _normalize_title(title_a)
+        norm_b = _normalize_title(title_b)
+
+        # Layer 1: Exact normalized match
+        if norm_a == norm_b:
+            return 1.0
+
+        # Layer 2: Word overlap (improved with action-verb stopwords)
+        words_a = _title_words(title_a)
+        words_b = _title_words(title_b)
+        if words_a and words_b:
+            word_overlap = len(words_a & words_b) / min(len(words_a), len(words_b))
+        else:
+            word_overlap = 0.0
+
+        # Layer 3: Bigram overlap (catches phrase-level similarity)
+        bigrams_a = _get_ngrams(norm_a, 2)
+        bigrams_b = _get_ngrams(norm_b, 2)
+        if bigrams_a and bigrams_b:
+            bigram_overlap = len(bigrams_a & bigrams_b) / min(len(bigrams_a), len(bigrams_b))
+        else:
+            bigram_overlap = 0.0
+
+        # Layer 4: Entity overlap (catches same company/product)
+        entities_a = _extract_entities(title_a)
+        entities_b = _extract_entities(title_b)
+        if entities_a and entities_b:
+            entity_overlap = len(entities_a & entities_b) / min(len(entities_a), len(entities_b))
+        else:
+            entity_overlap = 0.0
+
+        # Combined score: weighted average (entities matter most)
+        score = (word_overlap * 0.3) + (bigram_overlap * 0.3) + (entity_overlap * 0.4)
+        return score
+
     if existing_titles and scraped_data:
-        existing_word_sets = [_title_words(t) for t in existing_titles]
         filtered_scraped = []
         for r in scraped_data:
-            r_words = _title_words(r.get('title', ''))
-            if not r_words:
+            r_title = r.get('title', '')
+            if not r_title:
                 filtered_scraped.append(r)
                 continue
             is_dup = False
-            for ew in existing_word_sets:
-                if not ew:
-                    continue
-                overlap = len(r_words & ew) / max(len(r_words), 1)
-                if overlap >= 0.6:  # 60% word overlap = duplicate topic
+            best_score = 0.0
+            matched_title = ''
+            for existing_t in existing_titles:
+                sim = _calculate_similarity(r_title, existing_t)
+                if sim > best_score:
+                    best_score = sim
+                    matched_title = existing_t
+                if sim >= 0.5:  # 50% combined score = duplicate topic
                     is_dup = True
                     break
             if not is_dup:
                 filtered_scraped.append(r)
             else:
-                print(f"🔁 Dedup filtered: \"{r.get('title', '')[:60]}\"")
+                print(f"🔁 Dedup filtered (score={best_score:.2f}): \"{r_title[:60]}\"")
+                print(f"   Matched: \"{matched_title[:60]}\"")
         if filtered_scraped:
             scraped_data = filtered_scraped
-            print(f"📋 After semantic dedup: {len(scraped_data)} unique results remain")
+            cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
+            print(f"📋 After enhanced dedup: {len(scraped_data)} unique results remain")
         else:
             print("⚠️ All results matched existing titles — keeping originals for LLM to handle")
 
@@ -928,14 +1011,15 @@ STRICT FORMATTING RULES:
 6. Pick ONE story from the results. Do NOT mix topics.
 7. No dates, no "breaking news" labels, no system details.
 8. Use SIMPLE, CLEAR language anyone can understand.
-9. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general
+9. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general, sports
    - ai-tech: AI, technology, open source AI, startups, chips, coding, Anthropic, OpenAI, etc.
    - disability: assistive tech, blind, deaf, wheelchair, accessibility, visually impaired, inclusion
    - health: healthcare, medical, mental health, wellness, disease, treatment
    - world: geopolitics, regulation, policy, climate, environment, international trade
-   - general: business, earnings, crypto, entertainment, gaming, social media, anything else
+   - general: business, earnings, crypto, entertainment, social media, anything else
+   - sports: sports achievements, athletic records, championships, Olympic, tournaments, incredible sports moments
 
-Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-five" }}"""
+Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
 
     MODELS = ["gpt-oss-120b", "llama3.1-8b"]
     article_text = ""
@@ -1033,6 +1117,21 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
         title = (sentences[0].strip() + ".") if sentences else "AI Technology News Update"
         title = title[:100]
         print(f"📰 Fallback title: \"{title}\"")
+
+    # POST-GENERATION DEDUP: Final safety net — check if generated title is too similar to existing
+    if title and existing_titles:
+        best_sim = 0.0
+        best_match = ""
+        for existing_t in existing_titles:
+            sim = _calculate_similarity(title, existing_t)
+            if sim > best_sim:
+                best_sim = sim
+                best_match = existing_t
+        if best_sim >= 0.6:
+            print(f"⚠️ POST-DEDUP WARNING: Generated title is {best_sim:.0%} similar to existing!")
+            print(f"   Generated: \"{title[:60]}\"")
+            print(f"   Existing:  \"{best_match[:60]}\"")
+            print(f"   ⚠️ This article may be a duplicate — but publishing since it passed other checks")
 
     # 7. Intelligent adaptive image prompt — LLM auto-detects topic, adapts style
     image_prompt = ""
