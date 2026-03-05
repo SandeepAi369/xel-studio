@@ -12,6 +12,7 @@ Ported from: app/api/cron/generate-news/route.ts (v17)
 import json
 import os
 import random
+import re
 import sys
 import time
 import uuid
