@@ -491,11 +491,31 @@ def load_history_urls(db=None) -> set[str]:
 
 
 def load_existing_titles(db=None) -> list[str]:
-    """Load all known titles from the JSON history file.
-    ZERO Firestore reads — completely local."""
+    """Load all known titles — PRIMARY: Firestore DB, FALLBACK: JSON file.
+    Firestore has all published articles. JSON may be empty/stale."""
+    titles = []
+
+    # Primary: Read from Firestore (the actual database with all articles)
+    if db:
+        try:
+            docs = db.collection(COLLECTION).order_by(
+                "date", direction=firestore.Query.DESCENDING
+            ).limit(50).stream()
+            for doc in docs:
+                data = doc.to_dict()
+                t = data.get("title", "")
+                if t:
+                    titles.append(t)
+            if titles:
+                print(f"📋 Dedup: loaded {len(titles)} titles from Firestore DB")
+                return titles
+        except Exception as e:
+            print(f"⚠️ Firestore title read failed: {e}")
+
+    # Fallback: Read from JSON file
     history = _load_history_json()
     titles = [e.get("title", "") for e in history.get("entries", []) if e.get("title")]
-    print(f"📋 Dedup: loaded {len(titles)} existing titles (JSON file)")
+    print(f"📋 Dedup: loaded {len(titles)} existing titles (JSON fallback)")
     return titles
 
 
@@ -673,6 +693,10 @@ def parse_article_response(text: str) -> tuple[str, str]:
         valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
         if category not in valid_categories:
             category = ""
+        # Strip any remaining JSON artifacts from article text
+        article = re.sub(r'^\s*\{\s*"articleText"\s*:\s*"', '', article)
+        article = re.sub(r'"\s*,\s*"category"\s*:\s*"[^"]*"\s*\}\s*$', '', article)
+        article = article.replace('\\n', '\n').replace('\\"', '"')
         return (article, category)
     except json.JSONDecodeError:
         pass
