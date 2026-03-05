@@ -409,12 +409,16 @@ export default function AINewsPage() {
                 <Link
                   key={item.id}
                   href={`/ai-news/${item.id}`}
-                  onClick={() =>
+                  onClick={() => {
                     sessionStorage.setItem(
                       "ai-news-slide-index",
                       JSON.stringify({ idx: index, ts: Date.now() })
-                    )
-                  }
+                    );
+                    sessionStorage.setItem(
+                      "ai-news-filter",
+                      JSON.stringify({ tab: filter, ts: Date.now() })
+                    );
+                  }}
                   ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                   data-index={index}
                   className="group flex gap-5 bg-zinc-900/50 hover:bg-zinc-800/60 rounded-xl overflow-hidden border border-zinc-800/50 hover:border-zinc-700/60 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
@@ -508,12 +512,16 @@ export default function AINewsPage() {
               <Link
                 key={item.id}
                 href={`/ai-news/${item.id}`}
-                onClick={() =>
+                onClick={() => {
                   sessionStorage.setItem(
                     "ai-news-slide-index",
                     JSON.stringify({ idx: currentIndex, ts: Date.now() })
-                  )
-                }
+                  );
+                  sessionStorage.setItem(
+                    "ai-news-filter",
+                    JSON.stringify({ tab: filter, ts: Date.now() })
+                  );
+                }}
                 ref={(el: HTMLAnchorElement | null) => { slideRefs.current[index] = el as unknown as HTMLDivElement; }}
                 data-index={index}
                 tabIndex={0}
