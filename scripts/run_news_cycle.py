@@ -129,23 +129,35 @@ QUERY_BUCKETS = {
         "space technology SpaceX NASA launch news",
         "gaming esports streaming industry news",
     ],
+
+    # ── Sports & Achievements ──
+    "sports": [
+        "sports achievement world record breaking news today",
+        "incredible sports moments historic victory news",
+        "Olympic athlete achievement gold medal news",
+        "football soccer basketball cricket incredible play news",
+        "tennis golf boxing MMA UFC championship news",
+        "sports technology innovation performance analytics news",
+        "marathon running athletics track field record news",
+        "esports competitive gaming tournament championship news",
+    ],
 }
 
 # Rotation order — ensures each category gets coverage across the day
-# 48 runs/day (every 30 min) spread across 7 categories
+# 48 runs/day (every 30 min) spread across 8 categories
 ROTATION_ORDER = [
-    "ai-tech", "disability", "climate", "open-source",
-    "health", "world", "general", "ai-tech",
-    "open-source", "disability", "ai-tech", "climate",
-    "world", "health", "general", "ai-tech",
-    "disability", "open-source", "climate", "health",
-    "ai-tech", "world", "general", "disability",
-    "open-source", "ai-tech", "climate", "health",
-    "world", "general", "ai-tech", "disability",
+    "ai-tech", "sports", "disability", "climate",
+    "open-source", "health", "world", "general",
+    "ai-tech", "sports", "open-source", "disability",
+    "ai-tech", "climate", "world", "health",
+    "general", "sports", "ai-tech", "disability",
+    "open-source", "climate", "health", "ai-tech",
+    "world", "sports", "general", "disability",
     "climate", "open-source", "health", "ai-tech",
-    "world", "general", "disability", "climate",
-    "open-source", "health", "ai-tech", "world",
-    "general", "disability", "ai-tech", "climate",
+    "world", "sports", "general", "disability",
+    "climate", "open-source", "health", "ai-tech",
+    "world", "general", "sports", "disability",
+    "ai-tech", "climate", "open-source", "health",
 ]
 
 
@@ -649,7 +661,7 @@ def parse_article_response(text: str) -> tuple[str, str]:
         article = parsed.get("articleText", "").strip() if "articleText" in parsed else clean
         category = parsed.get("category", "").strip().lower() if "category" in parsed else ""
         # Validate category is one of the allowed values
-        valid_categories = {"ai-tech", "disability", "health", "world", "general"}
+        valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
         if category not in valid_categories:
             category = ""
         return (article, category)
@@ -848,12 +860,48 @@ def generate_news():
     cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
 
     # Build dedup context — show LLM what already exists so it doesn't repeat
+    # Also do programmatic semantic similarity check
     dedup_section = ""
     if existing_titles:
         # Show last 30 titles max to save tokens
         recent_titles = existing_titles[-30:]
         titles_list = "\n".join(f"- {t}" for t in recent_titles)
-        dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a DIFFERENT story from the search results. If all results overlap with published titles, find a unique angle."""
+        dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a COMPLETELY DIFFERENT story. Even slight rewording of the same topic is NOT allowed. If the search results are all about the same topic as published articles, find a totally different angle or sub-topic."""
+
+    # Programmatic dedup: filter out search results that are too similar to existing titles
+    def _title_words(t: str) -> set:
+        """Extract significant words from a title (ignore common words)."""
+        stop = {'the','a','an','in','on','at','to','for','of','with','and','or','is','are','was','were',
+                'by','from','as','its','that','this','has','have','had','be','been','will','would',
+                'it','not','but','their','new','into','than','also','how','what','when','where','who',
+                'can','could','may','should','about','up','out','over','after','before','between'}
+        return {w.lower() for w in re.sub(r'[^a-zA-Z0-9\s]', '', t).split() if len(w) > 2 and w.lower() not in stop}
+
+    if existing_titles and scraped_data:
+        existing_word_sets = [_title_words(t) for t in existing_titles]
+        filtered_scraped = []
+        for r in scraped_data:
+            r_words = _title_words(r.get('title', ''))
+            if not r_words:
+                filtered_scraped.append(r)
+                continue
+            is_dup = False
+            for ew in existing_word_sets:
+                if not ew:
+                    continue
+                overlap = len(r_words & ew) / max(len(r_words), 1)
+                if overlap >= 0.6:  # 60% word overlap = duplicate topic
+                    is_dup = True
+                    break
+            if not is_dup:
+                filtered_scraped.append(r)
+            else:
+                print(f"🔁 Dedup filtered: \"{r.get('title', '')[:60]}\"")
+        if filtered_scraped:
+            scraped_data = filtered_scraped
+            print(f"📋 After semantic dedup: {len(scraped_data)} unique results remain")
+        else:
+            print("⚠️ All results matched existing titles — keeping originals for LLM to handle")
 
     user_prompt = f"""Write a news summary from the search results below.{dedup_section}
 
@@ -1020,12 +1068,17 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
                         "Step 4 — CHOOSE PHOTOGRAPHY STYLE based on subject matter:\n"
                         "  • Editorial portrait, photojournalism, macro product shot, aerial landscape, "
                         "documentary candid, scientific visualization, architectural photography, street photography\n\n"
-                        "ABSOLUTE BANS (never use unless the article is literally about these things):\n"
+                        "ABSOLUTE BANS (NEVER use these — they make all images look the same):\n"
+                        "❌ People sitting at computers or desks (this is the #1 problem — NEVER default to this)\n"
+                        "❌ Rows of people working at computer screens in an office\n"
                         "❌ Generic glowing server rooms with blue/purple neon lights\n"
                         "❌ Humanoid robots standing in corridors\n"
                         "❌ Abstract floating holographic interfaces\n"
                         "❌ Dark cyberpunk backgrounds with neon circuits\n"
+                        "❌ People in lab coats looking at screens\n"
                         "❌ Generic 'futuristic' 3D renders\n\n"
+                        "PREFER INSTEAD: Show the OBJECT of the news (the product, the building, the chip, the landscape, "
+                        "the handshake, the document, the chart) rather than generic people at desks.\n\n"
                         "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
                     ),
                 },

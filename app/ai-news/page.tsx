@@ -12,6 +12,7 @@ import {
   Accessibility,
   LayoutGrid,
   Heart,
+  Trophy,
 } from "lucide-react";
 
 import { db } from "@/lib/firebase";
@@ -29,7 +30,7 @@ interface NewsItem {
   category: string;
 }
 
-type FilterTab = "all" | "ai-tech" | "disability" | "health" | "world" | "general";
+type FilterTab = "all" | "ai-tech" | "disability" | "health" | "world" | "general" | "sports";
 
 /* ─── Category Config ─────────────────────────────────────── */
 const CATEGORIES: {
@@ -80,6 +81,14 @@ const CATEGORIES: {
       badgeText: "text-zinc-400",
       badgeBorder: "border-zinc-500/30",
     },
+    {
+      key: "sports",
+      icon: Trophy,
+      label: "Sports",
+      badgeBg: "bg-orange-500/20",
+      badgeText: "text-orange-400",
+      badgeBorder: "border-orange-500/30",
+    },
   ];
 
 const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.key, c]));
@@ -99,6 +108,10 @@ function resolveCategory(cat: string): string {
     "general": "general",
     "business": "general",
     "entertainment": "general",
+    "sports": "sports",
+    "sport": "sports",
+    "athletics": "sports",
+    "achievement": "sports",
   };
   return map[cat] || "general";
 }
