@@ -1063,7 +1063,7 @@ STRICT FORMATTING RULES:
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
 
-    MODELS = ["gpt-oss-120b", "llama3.1-8b"]
+    MODELS = ["llama3.3-70b", "llama-4-scout-17b-16e-instruct", "llama3.1-8b"]
     article_text = ""
     used_model = ""
 
@@ -1080,7 +1080,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
             print(f"📝 First attempt: {word_count} words")
 
             # Auto-retry if too short
-            if word_count < 150:
+            if word_count < 180:
                 print(f"⚠️ Too short ({word_count} words), retrying...")
                 retry_prompt = f"""{user_prompt}
 
