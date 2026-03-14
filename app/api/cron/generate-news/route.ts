@@ -460,11 +460,11 @@ STRICT RULES FOR articleText:
 8. Include relevant context: who, what, where, why, and implications.
 
 WORD COUNT REQUIREMENT (CRITICAL):
-- You MUST write BETWEEN 140 and 180 words. This is MANDATORY.
-- Under 130 words is COMPLETELY UNACCEPTABLE.
-- Count your words. If under 140, ADD factual context, background, or analysis.
+- You MUST write BETWEEN 150 and 180 words. This is MANDATORY.
+- Under 140 words is COMPLETELY UNACCEPTABLE.
+- Count your words. If under 150, ADD factual context, background, or analysis.
 
-Return JSON: { "articleText": "your 140-180 word article" }`;
+Return JSON: { "articleText": "your 150-180 word article" }`;
 
     // Models available on Cerebras (gpt-oss-120b is dead, use llama3.1-8b)
     const MODELS = ['llama3.1-8b'];
@@ -504,12 +504,12 @@ Return JSON: { "articleText": "your 140-180 word article" }`;
             console.log(`📝 First attempt: ${firstWordCount} words`);
 
             // AUTO-RETRY if too short
-            if (firstWordCount < 130) {
+            if (firstWordCount < 140) {
                 console.log(`⚠️ Too short (${firstWordCount} words), retrying...`);
                 const retryUserPrompt = `${userPrompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY ${firstWordCount} words. UNACCEPTABLE.
-You MUST write AT LEAST 140 words and NO MORE than 180 words.
+You MUST write AT LEAST 150 words and NO MORE than 180 words.
 Expand with more factual details, background context, industry implications.
 Do NOT repeat the same content. ADD NEW substantive information.`;
 
