@@ -902,9 +902,10 @@ def generate_news():
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a factual journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
+        'You are a focused factual journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
+        'Write about ONE SINGLE story in depth. NEVER mix multiple unrelated topics. '
         'No other keys, no markdown, no explanation.'
     )
 
@@ -1043,15 +1044,16 @@ Search results:
 {json.dumps(cerebras_data, indent=2)}
 
 STRICT FORMATTING RULES:
-1. Word Count: strictly between 100 to 150 words.
-2. Structure: Do NOT write paragraphs. Use exactly 3 to 4 bullet points.
+1. Word Count: strictly between 200 to 300 words. This is CRITICAL — do NOT write less than 200 words.
+2. Structure: Do NOT write paragraphs. Use exactly 5 to 6 bullet points.
 3. Bold Starting Keywords (CRITICAL): Each bullet point MUST start with a **Bolded Subject, Entity, or Keyword** (e.g., **Gold**, **Microsoft**, **The global market**), followed immediately by the rest of the sentence in regular text.
 4. Tone: Factual, objective, punchy. No fluff, no adjectives, no dramatic words.
 5. No Title: Do NOT generate any title or heading. Output ONLY the bullet points.
-6. Pick ONE story from the results. Do NOT mix topics.
+6. SINGLE TOPIC ONLY: Pick ONE story from the results and go DEEP into it with detail. Do NOT combine, merge, or reference multiple unrelated stories. Every bullet point must be about the SAME story. If you mention a different company or topic in any bullet, you are FAILING.
 7. No dates, no "breaking news" labels, no system details.
 8. Use SIMPLE, CLEAR language anyone can understand.
-9. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general, sports
+9. DEPTH: Give specific numbers, quotes, names, context, and implications. Each bullet should add NEW information, not repeat what was already said.
+10. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general, sports
    - ai-tech: AI, technology, open source AI, startups, chips, coding, Anthropic, OpenAI, etc.
    - disability: assistive tech, blind, deaf, wheelchair, accessibility, visually impaired, inclusion
    - health: healthcare, medical, mental health, wellness, disease, treatment
@@ -1078,13 +1080,14 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
             print(f"📝 First attempt: {word_count} words")
 
             # Auto-retry if too short
-            if word_count < 80:
+            if word_count < 150:
                 print(f"⚠️ Too short ({word_count} words), retrying...")
                 retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write between 100 to 150 words using 3-4 bullet points.
-Each bullet MUST start with **Bold Keyword**. ADD more factual details."""
+You MUST write between 200 to 300 words using 5-6 bullet points.
+Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific numbers, names, and context.
+STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
                     retry_text, retry_cat = call_cerebras(cerebras_client, model_name, system_prompt, retry_prompt)
