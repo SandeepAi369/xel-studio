@@ -1044,8 +1044,8 @@ Search results:
 {json.dumps(cerebras_data, indent=2)}
 
 STRICT FORMATTING RULES:
-1. Word Count: strictly between 200 to 300 words. This is CRITICAL — do NOT write less than 200 words.
-2. Structure: Do NOT write paragraphs. Use exactly 5 to 6 bullet points.
+1. Word Count: strictly between 250 to 350 words. This is CRITICAL — do NOT write less than 250 words. You MUST write a long, detailed article.
+2. Structure: Do NOT write paragraphs. Use exactly 5 to 6 bullet points. You MUST separate each bullet point with a real newline (`\n`).
 3. Bold Starting Keywords (CRITICAL): Each bullet point MUST start with a **Bolded Subject, Entity, or Keyword** (e.g., **Gold**, **Microsoft**, **The global market**), followed immediately by the rest of the sentence in regular text.
 4. Tone: Factual, objective, punchy. No fluff, no adjectives, no dramatic words.
 5. No Title: Do NOT generate any title or heading. Output ONLY the bullet points.
@@ -1063,7 +1063,7 @@ STRICT FORMATTING RULES:
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
 
-    MODELS = ["llama3.3-70b", "llama-4-scout-17b-16e-instruct", "llama3.1-8b"]
+    MODELS = ["llama3.1-8b"]
     article_text = ""
     used_model = ""
 
@@ -1085,7 +1085,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
                 retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write between 200 to 300 words using 5-6 bullet points.
+You MUST write between 250 to 350 words using 5-6 bullet points. Each bullet MUST be separated by a newline (`\n`).
 Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific numbers, names, and context.
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
