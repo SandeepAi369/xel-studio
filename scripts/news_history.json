@@ -4114,7 +4114,16 @@
         "https://www.yahoo.com/news/articles/satellite-study-reveals-bridges-across-091920210.html"
       ],
       "date": "2026-03-14T09:31:14.523964+00:00"
+    },
+    {
+      "title": "PhantomRaven Malware Returns to npm with 88 Compromised Packages Affecting 200,000 Websites.",
+      "urls": [
+        "https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues",
+        "https://www.csoonline.com/article/4144231/phantomraven-returns-to-npm-with-88-bad-packages.html",
+        "https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks"
+      ],
+      "date": "2026-03-14T10:01:24.784376+00:00"
     }
   ],
-  "lastUpdated": "2026-03-14T09:31:14.524013+00:00"
+  "lastUpdated": "2026-03-14T10:01:24.784430+00:00"
 }
