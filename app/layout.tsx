@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Security Tools", "AI Chat", "Gemini AI", "Research Articles",
     "Text-to-Speech", "Artificial Intelligence", "XeL Studio",
   ],
-  authors: [{ name: "Sandeep", url: "https://github.com/Sandeepchch" }],
+  authors: [{ name: "Sandeep", url: "https://github.com/SandeepAi369" }],
   creator: "Sandeep",
   publisher: "XeL Studio",
   verification: {
