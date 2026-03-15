@@ -26,7 +26,7 @@ export default function Footer() {
                         <Mail className="w-5 h-5" />
                     </a>
                     <a
-                        href="https://github.com/Sandeepchch"
+                        href="https://github.com/SandeepAi369"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="GitHub Profile"

@@ -59,9 +59,9 @@ function JsonLd() {
         founder: {
           '@type': 'Person',
           name: 'Sandeep',
-          url: 'https://github.com/Sandeepchch',
+          url: 'https://github.com/SandeepAi369',
         },
-        sameAs: ['https://github.com/Sandeepchch'],
+        sameAs: ['https://github.com/SandeepAi369'],
       },
       {
         '@type': 'WebPage',
@@ -247,7 +247,7 @@ export default function Home() {
         {/* GitHub Profile + Version */}
         <footer className="text-center pb-10">
           <a
-            href="https://github.com/Sandeepchch"
+            href="https://github.com/SandeepAi369"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 text-zinc-400 hover:text-white transition-colors"

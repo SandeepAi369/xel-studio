@@ -313,7 +313,7 @@ xel-studio/
 
 ```bash
 # 1. Clone
-git clone https://github.com/Sandeepchch/xel-studio.git
+git clone https://github.com/SandeepAi369/xel-studio.git
 cd xel-studio
 
 # 2. Install dependencies
@@ -566,7 +566,7 @@ This project is open source under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ by [Sandeep](https://github.com/Sandeepchch)**
+**Built with ❤️ by [Sandeep](https://github.com/SandeepAi369)**
 
 ⚡ XeL Studio v2.5
 
