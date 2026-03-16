@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Northwest Arkansas Council Report Finds AI Enhances Roles in Local Health System",
-      "urls": [
-        "https://www.arkansasonline.com/news/2026/mar/02/report-says-ai-should-augment-northwest-arkansas"
-      ],
-      "date": "2026-03-06T19:01:23.023773+00:00"
-    },
-    {
       "title": "Anthropic's Opus 4.6 Model and Claude Code Prove Viable in Hackathon Competition",
       "urls": [
         "https://thenextweb.com/news/oslos-unleash-raises-35m-to-govern-ai-generated-code-as-european-enterprise-bets-grow-bolder",
@@ -4085,7 +4078,14 @@
         "https://www.researchprofessionalnews.com/rr-news-uk-politics-2026-3-sussex-vc-warns-of-profound-consequences-from-study-visa-ban"
       ],
       "date": "2026-03-16T18:31:16.280266+00:00"
+    },
+    {
+      "title": "Researchers Utilize β-Arrestins to Develop Targeted Therapies for Intracellular Signaling Proteins",
+      "urls": [
+        "https://www.biotechniques.com/drug-discovery-development/a-new-approach-to-drug-development-with-unexplored-peptides"
+      ],
+      "date": "2026-03-16T19:01:31.947914+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T18:31:16.280325+00:00"
+  "lastUpdated": "2026-03-16T19:01:31.947969+00:00"
 }
