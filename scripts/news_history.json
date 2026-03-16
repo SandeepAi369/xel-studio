@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT-5.4 Model for Enhanced Excel and Google Sheets File Management",
-      "urls": [
-        "https://www.axios.com/2026/03/05/openai-gpt-54-chatgpt-office"
-      ],
-      "date": "2026-03-06T18:31:10.726531+00:00"
-    },
-    {
       "title": "Northwest Arkansas Council Report Finds AI Enhances Roles in Local Health System",
       "urls": [
         "https://www.arkansasonline.com/news/2026/mar/02/report-says-ai-should-augment-northwest-arkansas"
@@ -4081,7 +4074,18 @@
         "https://science.nasa.gov/earth/earth-observatory/canon-fiords-whirling-waters"
       ],
       "date": "2026-03-16T18:01:37.352889+00:00"
+    },
+    {
+      "title": "World Food Programme Rationing Supplies for Over 800,000 Displaced People in Lebanon",
+      "urls": [
+        "https://www.timesofisrael.com/iranians-weigh-whether-to-flee-country-amid-the-war",
+        "https://www.newsweek.com/fears-grow-in-lebanon-over-israeli-attacks-there-is-a-very-heavy-sadness-11675463",
+        "https://www.modernghana.com/amp/videonews/624775",
+        "https://www.jpost.com/middle-east/article-889870",
+        "https://www.researchprofessionalnews.com/rr-news-uk-politics-2026-3-sussex-vc-warns-of-profound-consequences-from-study-visa-ban"
+      ],
+      "date": "2026-03-16T18:31:16.280266+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T18:01:37.352960+00:00"
+  "lastUpdated": "2026-03-16T18:31:16.280325+00:00"
 }
