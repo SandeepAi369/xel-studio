@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "UK Adults Embracing AI Counseling with Over 40% Willingness to Seek Digital Support",
-      "urls": [
-        "https://www.newsweek.com/readerschoice/best-mindfulness-wellness-app",
-        "https://www.nature.com/articles/s41562-026-02415-6",
-        "https://www.bbc.com/news/articles/cy4wwjmjp4no",
-        "https://www.mediapost.com/publications/article/413145/teens-zill-in-new-ad-council-mental-health-campa.html?edition=141738",
-        "https://www.nature.com/collections/igabdcacch/participating-journals"
-      ],
-      "date": "2026-03-06T11:01:20.561722+00:00"
-    },
-    {
       "title": "OpenAI Launches Native Windows Desktop App for Codex AI Coding Agents",
       "urls": [
         "https://www.pcworld.com/article/3078509/openais-ai-coding-app-comes-to-windows-at-last.html",
@@ -4135,7 +4124,14 @@
         "https://www.forbes.com/sites/melissacristinamarquez/2026/03/15/how-ai-is-tracking-illegal-wildlife-trade-hidden-in-online-marketplaces"
       ],
       "date": "2026-03-16T10:31:29.026852+00:00"
+    },
+    {
+      "title": "Kathy Bostjancic Warns of Rising Core PCE Inflation Amid Slowing Economic Growth",
+      "urls": [
+        "https://www.axios.com/2026/03/13/iran-inflation-jobs-gdp"
+      ],
+      "date": "2026-03-16T11:01:38.738867+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T10:31:29.026930+00:00"
+  "lastUpdated": "2026-03-16T11:01:38.738928+00:00"
 }
