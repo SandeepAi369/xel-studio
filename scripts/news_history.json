@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Successfully Test AI-Driven Scribing Software for Ophthalmology Exams",
-      "urls": [
-        "https://www.nature.com/articles/s41433-026-04325-3",
-        "https://www.cnet.com/tech/services-and-software/openai-chatgpt-5-4-thinking-news"
-      ],
-      "date": "2026-03-06T23:01:33.108932+00:00"
-    },
-    {
       "title": "New Study Reveals Online Activity Reduces Depressive Symptoms in 500 Worldwide Participants",
       "urls": [
         "https://www.sciencealert.com/one-10-minute-exercise-can-reduce-depression-even-a-month-later"
@@ -4075,7 +4067,15 @@
         "https://www.chicagotribune.com/2026/03/14/power-outages-property-destruction-march-weather"
       ],
       "date": "2026-03-16T22:31:24.905714+00:00"
+    },
+    {
+      "title": "DR-DOS Creator Releases New Version with Enhanced Robustness and Reliability Features",
+      "urls": [
+        "https://www.phoronix.com/news/Linux-7.1-Retiring-UDP-Lite",
+        "https://hackaday.com/2026/03/15/dr-dos-is-back-but-not-quite-as-we-knew-it"
+      ],
+      "date": "2026-03-16T23:01:33.672683+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T22:31:24.905779+00:00"
+  "lastUpdated": "2026-03-16T23:01:33.672754+00:00"
 }
