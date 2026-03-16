@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic's Opus 4.6 Model and Claude Code Prove Viable in Hackathon Competition",
-      "urls": [
-        "https://thenextweb.com/news/oslos-unleash-raises-35m-to-govern-ai-generated-code-as-european-enterprise-bets-grow-bolder",
-        "https://nypost.com/2026/02/27/business/anthropic-hackathon-proves-vibe-coding-is-here-to-stay",
-        "https://9to5google.com/2026/03/06/google-says-these-ai-models-are-best-at-coding-android-apps"
-      ],
-      "date": "2026-03-06T19:31:13.862592+00:00"
-    },
-    {
       "title": "Senate Passes Children and Teens' Online Privacy Protection Act to Shield Minors from Targeted Ads",
       "urls": [
         "https://tvnewscheck.com/regulation/article/senate-passes-bill-prohibiting-ads-targeting-minors-under-17",
@@ -4085,7 +4076,21 @@
         "https://www.biotechniques.com/drug-discovery-development/a-new-approach-to-drug-development-with-unexplored-peptides"
       ],
       "date": "2026-03-16T19:01:31.947914+00:00"
+    },
+    {
+      "title": "Sun Yat-sen University Study Reveals AI Coding Agents Fail to Maintain Code for 8 Months",
+      "urls": [
+        "https://thenewstack.io/anthropics-claude-interactive-visualizations",
+        "https://www.aol.com/articles/keep-intuition-sharp-while-using-152843506.html",
+        "https://garymarcus.substack.com/p/a-spate-of-outages-including-incidents",
+        "https://www.itnews.com.au/news/australian-unitys-shift-left-on-code-quality-and-security-is-just-in-time-for-ai-624200",
+        "https://www.itnews.com.au/news/atlassian-to-cut-roughly-1600-jobs-624222",
+        "https://www.businessinsider.com/amazon-tech-lead-promotion-vibecoding-tips-ai-products-2026-3",
+        "https://www.itnews.com.au/feature/ai-driven-attacks-shrinking-response-window-for-security-teams-elastic-warns-624182",
+        "https://www.aol.com/articles/im-amazon-tech-lead-got-064035238.html"
+      ],
+      "date": "2026-03-16T19:31:18.703960+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T19:01:31.947969+00:00"
+  "lastUpdated": "2026-03-16T19:31:18.704025+00:00"
 }
