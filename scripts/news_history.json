@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Unveils GPT-5.4 Foundation Model with Enhanced Reasoning and Financial Plugins",
-      "urls": [
-        "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions",
-        "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for",
-        "https://thenextweb.com/news/openai-launches-gpt-5-3-instant-to-improve-chatgpts-most-used-model",
-        "https://www.forbes.com/sites/janakirammsv/2026/03/06/microsoft-builds-a-compact-ai-model-that-decides-when-to-think"
-      ],
-      "date": "2026-03-06T10:01:20.097193+00:00"
-    },
-    {
       "title": "Europe Secures $202 Billion in Renewable Energy Investments Amid Rapid Project Expansion",
       "urls": [
         "https://trellis.net/article/climate-tech-startups-to-watch-2026-application",
@@ -4147,7 +4137,14 @@
         "https://tanahair.net/clean-energy-boosts-industrial-efficiency-and-rural-lighting-in-central-java"
       ],
       "date": "2026-03-16T09:31:19.552118+00:00"
+    },
+    {
+      "title": "Researchers at UNM and LANL Launch THOR AI Framework for Complex Physics Calculations",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/03/260315004344.htm"
+      ],
+      "date": "2026-03-16T10:01:28.579571+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T09:31:19.552187+00:00"
+  "lastUpdated": "2026-03-16T10:01:28.579635+00:00"
 }
