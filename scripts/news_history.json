@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "GitHub Developers Unveil Tiered Payment System for High-Volume Open Source Users",
-      "urls": [
-        "https://9to5linux.com/ubuntu-fedora-linux-mint-eye-age-verification-amid-california-law-backlash",
-        "https://www.phoronix.com/news/System76-Age-Verification-Laws",
-        "https://www.theregister.com/2026/02/28/open_source_opinion"
-      ],
-      "date": "2026-03-06T14:31:17.366761+00:00"
-    },
-    {
       "title": "Mayo Clinic Collaborates with 18 AI Startups to Enhance Precision Medicine and Oncology Research",
       "urls": [
         "https://hitconsultant.net/2026/03/06/mayo-clinic-platform-accelerate-2026-cohort-ai-startups",
@@ -4104,7 +4095,15 @@
         "https://www.xda-developers.com/cachyos-dethrones-arch-as-the-top-desktop-distro-for-linux-gamers-on-protondb"
       ],
       "date": "2026-03-16T14:01:31.146760+00:00"
+    },
+    {
+      "title": "Linux Catches Up to Windows in Performance with Groundbreaking Kernel Update",
+      "urls": [
+        "https://www.phoronix.com/news/Open-Source-GreenBoost-NVIDIA",
+        "https://www.iowaparkleader.com/linux-finally-catches-up-to-windows-with-a-game-changing-performance-feature"
+      ],
+      "date": "2026-03-16T14:31:28.358353+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T14:01:31.146842+00:00"
+  "lastUpdated": "2026-03-16T14:31:28.358416+00:00"
 }
