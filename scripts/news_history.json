@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Target Shares Rise Over 3% After Beating Earnings Forecast By 12 Cents",
-      "urls": [
-        "https://www.cnbc.com/2026/03/03/stocks-making-the-biggest-moves-premarket-tgt-bby-mdb-crdo.html",
-        "https://www.cnbc.com/2026/03/01/here-are-the-5-big-things-were-watching-in-the-stock-market-this-week.html",
-        "https://www.marketbeat.com/instant-alerts/murata-manufacturing-otcmktsmraay-shares-gap-down-should-you-sell-2026-03-03",
-        "https://www.marketbeat.com/instant-alerts/cipher-mining-nasdaqcifr-rating-lowered-to-strong-sell-at-wall-street-zen-2026-03-01"
-      ],
-      "date": "2026-03-06T17:01:23.899483+00:00"
-    },
-    {
       "title": "Oxa Secures $103 Million in Series D Funding from Strategic Investors",
       "urls": [
         "https://www.automotiveworld.com/news/oxa-secures-us103m-for-autonomous-vehicle-tech",
@@ -4091,7 +4081,16 @@
         "https://www.benzinga.com/content/51268398/innov8-ag-launches-industrys-first-operational-intelligence-service-for-agriculture"
       ],
       "date": "2026-03-16T16:31:21.672612+00:00"
+    },
+    {
+      "title": "AdvantageClubai Unveils AI-Powered Talent Acquisition and Retention Strategy for Businesses Globally",
+      "urls": [
+        "https://www.tipranks.com/news/micron-mu-is-about-to-report-q2-earnings-lets-look-at-who-owns-the-chip-stock",
+        "https://www.tipranks.com/news/company-announcements/cgn-mining-sets-march-board-meeting-to-approve-2025-results-and-consider-final-dividend",
+        "https://www.tipranks.com/news/private-companies/advantageclubai-emphasizes-data-driven-skills-sensing-in-workforce-strategy"
+      ],
+      "date": "2026-03-16T17:01:49.915258+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T16:31:21.672676+00:00"
+  "lastUpdated": "2026-03-16T17:01:49.915323+00:00"
 }
