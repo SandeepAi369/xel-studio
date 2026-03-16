@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senate Passes Children and Teens' Online Privacy Protection Act to Shield Minors from Targeted Ads",
-      "urls": [
-        "https://tvnewscheck.com/regulation/article/senate-passes-bill-prohibiting-ads-targeting-minors-under-17",
-        "https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike",
-        "https://www.scworld.com/brief/report-finds-shift-toward-identity-based-cyberattacks",
-        "https://europeansting.com/2026/03/02/commission-approves-e1-1-billion-french-state-aid-scheme-to-support-cleantech-manufacturing-capacity-in-line-with-clean-industrial-deal-objectives"
-      ],
-      "date": "2026-03-06T20:01:18.773905+00:00"
-    },
-    {
       "title": "Gate Ventures Invests in Sats Terminal for Decentralized Lending and Yield Products",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/gate-ventures-announces-strategic-investment-in-bitcoin-finance-platform-sats-terminal-1035896126",
@@ -4090,7 +4080,15 @@
         "https://www.aol.com/articles/im-amazon-tech-lead-got-064035238.html"
       ],
       "date": "2026-03-16T19:31:18.703960+00:00"
+    },
+    {
+      "title": "Illinois Voters Cast Ballots in State Primary Election Featuring 16 Senate Candidates",
+      "urls": [
+        "https://apnews.com/article/republic-of-congo-president-election-a7e32fea3127f90dabfc838eedd83d21",
+        "https://www.washingtonpost.com/politics/2026/03/16/illinois-primary-senate-governor-house/1963027e-212b-11f1-954a-6300919c9854_story.html"
+      ],
+      "date": "2026-03-16T20:01:50.086392+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T19:31:18.704025+00:00"
+  "lastUpdated": "2026-03-16T20:01:50.086450+00:00"
 }
