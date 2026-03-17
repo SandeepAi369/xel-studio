@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ronald Acuna Jr. Propels Venezuela to Early Lead in World Baseball Classic Opener",
-      "urls": [
-        "https://www.greenwichtime.com/sports/article/today-in-sports-week-ahead-march-6-12-21956980.php",
-        "https://www.foxsports.com/watch-vertical/fmc-lhi412xmakb5d44h",
-        "https://www.foxsports.com/watch-vertical/fmc-a905fe4whkjohb8t",
-        "https://www.espn.com/video/clip?id=48065285",
-        "https://www.foxsports.com/watch-vertical/fmc-nz426lsr8751d0xr",
-        "https://www.espn.com/watch/player?bucketId=6200&id=08b7114b-5462-4129-ac90-89df59f16b96&appName=NFLMobile",
-        "https://www.espn.com/video/clip?id=48058843",
-        "https://www.espn.com/video/clip?id=48066058"
-      ],
-      "date": "2026-03-07T00:01:26.022920+00:00"
-    },
-    {
       "title": "Harry Maguire Accuses Jorgen Strand Larsen of Head Injury in Premier League Clash",
       "urls": [
         "https://www.skysports.com/football/video/30998/13514184/harry-maguire-injury-claim-goes-viral-take-a-closer-look",
@@ -4078,7 +4064,18 @@
         "https://www.espn.com/nba/story/_/id/41745678/nba-gambling-probe-results-arrests-indictments"
       ],
       "date": "2026-03-16T23:31:19.029936+00:00"
+    },
+    {
+      "title": "OpenAI Sued Over Allegations of Ignoring Warnings in ChatGPT Conversations with Minors",
+      "urls": [
+        "https://community.designtaxi.com/topic/25043-openai-faces-lawsuit-after-mother-of-tumbler-ridge-victim-says-it-ignored-warning-signs-in-the-mass-shooters-chatgpt-conversations",
+        "https://www.cnet.com/tech/services-and-software/openai-chatgpt-to-launch-talk-dirty-mode-despite-warnings",
+        "https://www.cnet.com/tech/services-and-software/nvidia-gtc-2026-3-things-you-should-know-about",
+        "https://www.ign.com/articles/nvidia-announces-dlss-5-injecting-even-more-ai-into-games",
+        "https://9to5google.com/2026/03/12/pixel-camera-10-3"
+      ],
+      "date": "2026-03-17T00:01:26.118593+00:00"
     }
   ],
-  "lastUpdated": "2026-03-16T23:31:19.030001+00:00"
+  "lastUpdated": "2026-03-17T00:01:26.118657+00:00"
 }
