@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hardik Pandya Achieves Historic 200-Run, 10-Wicket Double in T20 World Cup",
-      "urls": [
-        "https://www.houstonchronicle.com/sports/article/loch-in-position-to-tie-zoeggeler-s-world-cup-21961301.php",
-        "https://www.telecomasia.net/blog/t20-world-cup-final-preview-india-chase-history-as-new-zealand-aim-to-break-the-runner-up-curse",
-        "https://www.newser.com/story/384740/bad-bunnys-super-bowl-show-smashes-viewership-record.html",
-        "https://www.skysports.com/f1/video/36497/13516365/australian-gp-lewis-hamilton-bizarrely-reveals-he-owns-cow-called-max"
-      ],
-      "date": "2026-03-07T21:03:22.938639+00:00"
-    },
-    {
       "title": "Counselors Deployed in Schools to Monitor Student Mental Health 24/7",
       "urls": [
         "https://www.theguardian.com/technology/ng-interactive/2026/mar/03/schools-student-ai-counselor",
@@ -3914,7 +3904,23 @@
         "https://www.olympics.com/en/olympic-channel"
       ],
       "date": "2026-03-17T21:01:54.882170+00:00"
+    },
+    {
+      "title": "What Autism Spectrum Disorder Diagnosis Looks Like Before Age 3",
+      "urls": [
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934",
+        "https://newsnetwork.mayoclinic.org/discussion/understanding-autism-the-path-to-diagnosis-awareness-and-support",
+        "https://mcpress.mayoclinic.org/parenting/early-signs-of-autism",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/care-at-mayo-clinic/mac-20581890",
+        "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-treatments-and-therapies-for-autism",
+        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-what-is-autism",
+        "https://www.mayoclinic.org/es/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937"
+      ],
+      "date": "2026-03-17T21:32:09.966735+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T21:01:54.882245+00:00"
+  "lastUpdated": "2026-03-17T21:32:09.966803+00:00"
 }
