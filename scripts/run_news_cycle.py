@@ -3,7 +3,7 @@
 News Pipeline Worker — GitHub Actions Background Runner
 ========================================================
 Pipeline: Dynamic Query → Tavily Search → URL Dedup →
-          Cerebras (GPT-OSS 120B / llama3.1-8b) → FLUX.1-dev Image Gen →
+          Cerebras (Qwen 235B / llama3.1-8b) → FLUX.1-dev Image Gen →
           Cloudinary Upload → Firestore Save → History Update
 
 Ported from: app/api/cron/generate-news/route.ts (v17)
@@ -1084,7 +1084,7 @@ STRICT FORMATTING RULES:
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
 
-    MODELS = ["llama3.1-8b"]
+    MODELS = ["qwen-3-235b-a22b-instruct-2507"]
     article_text = ""
     used_model = ""
 
@@ -1138,7 +1138,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     title = ""
     try:
         title_completion = cerebras_client.chat.completions.create(
-            model="llama3.1-8b",
+            model="qwen-3-235b-a22b-instruct-2507",
             messages=[
                 {
                     "role": "system",
@@ -1210,7 +1210,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
     try:
         img_completion = cerebras_client.chat.completions.create(
-            model="llama3.1-8b",
+            model="qwen-3-235b-a22b-instruct-2507",
             messages=[
                 {
                     "role": "system",
