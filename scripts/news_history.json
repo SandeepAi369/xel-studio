@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rockford Lions Host Device Collection Event at Center for Sight & Hearing in Rockford.",
-      "urls": [
-        "https://www.rrstar.com/story/news/local/2026/03/04/donate-old-vision-and-hearing-devices-at-rockford-event/88944935007",
-        "https://www.medtechdive.com/news/abbott-wins-fda-approval-for-updated-heart-failure-monitoring-device/813453",
-        "https://www.forbes.com/sites/marksparrow/2026/03/04/grell-oae2-are-the-latest-open-back-headphones-from-the-legendary-axel-grell",
-        "https://www.whathifi.com/av/rewind-the-end-of-an-era-for-oled-tvs-samsungs-finest-earbuds-yet-a-wiim-hi-fi-challenger-and-more"
-      ],
-      "date": "2026-03-07T17:31:15.391526+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT-5.4 Model with Enhanced Computer Control Capabilities",
       "urls": [
         "https://www.engadget.com/ai/i-hope-you-like-spreadsheets-because-gpt-54-loves-them-180000444.html"
@@ -3856,7 +3846,18 @@
         "https://www.screen.co.jp/news/2025"
       ],
       "date": "2026-03-17T17:11:55.519914+00:00"
+    },
+    {
+      "title": "OpenAI Faces Backlash Over Failed ChatGPT Subscription Payments",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI",
+        "https://www.reddit.com/r/OpenAI/comments/187fzdb/openai_api_free_alternative_or_does_openai_api",
+        "https://www.reddit.com/r/OpenAI/comments/12saych/openai_refuses_to_take_my_money_three_different",
+        "https://www.reddit.com/r/OpenAI/comments/vc3aub/openai_is_not_open",
+        "https://www.reddit.com/r/cscareerquestions/comments/15wf2w9/name_and_shame_openai"
+      ],
+      "date": "2026-03-17T17:32:35.529534+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T17:11:55.519964+00:00"
+  "lastUpdated": "2026-03-17T17:32:35.529596+00:00"
 }
