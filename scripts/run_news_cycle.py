@@ -1044,7 +1044,7 @@ Search results:
 {json.dumps(cerebras_data, indent=2)}
 
 STRICT FORMATTING RULES:
-1. Word Count: strictly between 120 to 160 words. This is CRITICAL.
+1. Word Count: strictly between 130 to 170 words. This is CRITICAL.
 2. Structure: Do NOT write paragraphs. Use exactly 3 to 4 bullet points. You MUST separate each bullet point with a real newline (`\n`).
 3. Bold Starting Keywords (CRITICAL): Each bullet point MUST start with a **Bolded Subject, Entity, or Keyword** (e.g., **Gold**, **Microsoft**, **The global market**), followed immediately by the rest of the sentence in regular text.
 4. Tone: Factual, objective, punchy. No fluff, no adjectives, no dramatic words.
@@ -1080,12 +1080,12 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
             print(f"📝 First attempt: {word_count} words")
 
             # Auto-retry if too short
-            if word_count < 110:
+            if word_count < 120:
                 print(f"⚠️ Too short ({word_count} words), retrying...")
                 retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write between 120 to 160 words using 3-4 bullet points. Each bullet MUST be separated by a newline (`\n`).
+You MUST write between 130 to 170 words using 3-4 bullet points. Each bullet MUST be separated by a newline (`\n`).
 Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific numbers, names, and context.
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
@@ -1349,15 +1349,43 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 # ─── Entry Point ─────────────────────────────────────────────
 
 if __name__ == "__main__":
-    try:
-        result = generate_news()
-        print(f"\n📄 Result: {json.dumps({'title': result['title'], 'category': result['category']}, indent=2)}")
-    except Exception as e:
-        print(f"\n❌ Pipeline failed: {e}")
-        # Try to log failure to Firestore
+    MAX_RETRY_SECONDS = 600  # 10 minutes total budget
+    RETRY_WAIT = 60          # wait 60 seconds between retries
+    start_time = time.time()
+    attempt = 0
+
+    while True:
+        attempt += 1
+        elapsed = time.time() - start_time
+        remaining = MAX_RETRY_SECONDS - elapsed
+
+        if remaining <= 0:
+            print(f"\n❌ Pipeline exhausted all retries after {int(elapsed)}s ({attempt-1} attempts)")
+            try:
+                db = init_firebase()
+                log_health(db, "❌ Failed", {"error_message": f"All {attempt-1} attempts failed in {int(elapsed)}s", "runner": "github-actions"})
+            except Exception:
+                pass
+            sys.exit(1)
+
+        print(f"\n{'='*60}")
+        print(f"🔄 Attempt {attempt} | Elapsed: {int(elapsed)}s | Budget remaining: {int(remaining)}s")
+        print(f"{'='*60}")
+
         try:
-            db = init_firebase()
-            log_health(db, "❌ Failed", {"error_message": str(e), "runner": "github-actions"})
-        except Exception:
-            pass
-        sys.exit(1)
+            result = generate_news()
+            print(f"\n📄 Result: {json.dumps({'title': result['title'], 'category': result['category']}, indent=2)}")
+            break  # SUCCESS — exit the retry loop
+        except Exception as e:
+            print(f"\n⚠️ Attempt {attempt} failed: {e}")
+            elapsed_now = time.time() - start_time
+            if elapsed_now + RETRY_WAIT >= MAX_RETRY_SECONDS:
+                print(f"❌ Not enough time for another retry. Total: {int(elapsed_now)}s")
+                try:
+                    db = init_firebase()
+                    log_health(db, "❌ Failed", {"error_message": str(e), "runner": "github-actions"})
+                except Exception:
+                    pass
+                sys.exit(1)
+            print(f"⏳ Waiting {RETRY_WAIT}s before retry... (budget: {int(MAX_RETRY_SECONDS - elapsed_now)}s left)")
+            time.sleep(RETRY_WAIT)
