@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thyme Care Unveils AI-Powered Social Support Model for At-Risk Patients Nationwide",
-      "urls": [
-        "https://www.forbes.com/sites/lanceeliot/2026/03/06/ai-in-mental-health-is-forcing-human-therapy-away-from-the-billable-hour-and-toward-subscription-based-ai-aware-behavioral-care",
-        "https://hitconsultant.net/2026/03/06/thyme-care-launches-integrated-social-support-model-ai-oncology"
-      ],
-      "date": "2026-03-07T02:33:57.212533+00:00"
-    },
-    {
       "title": "Home Secretary Shabana Mahmood Introduces Temporary Asylum Rule for Refugee Status Holders",
       "urls": [
         "https://ejewishphilanthropy.com/keep-the-lamp-on",
@@ -4080,7 +4072,15 @@
         "https://www.biospace.com/press-releases/iqvia-unveils-iqvia-ai-a-unified-agentic-ai-platform-powered-by-nvidia-to-improve-efficiency-and-decision-making-across-life-sciences"
       ],
       "date": "2026-03-17T02:31:13.956284+00:00"
+    },
+    {
+      "title": "US Consumer Spending Surpasses Forecasts with 0.4 Percent Increase in January",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-03-13/us-consumer-spending-barely-rose-in-january-inflation-strong",
+        "https://www.reuters.com/world/us/us-consumer-spending-core-pce-inflation-firmer-january-2026-03-13"
+      ],
+      "date": "2026-03-17T03:01:20.588240+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T02:31:13.956353+00:00"
+  "lastUpdated": "2026-03-17T03:01:20.588298+00:00"
 }
