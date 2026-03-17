@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Atlanta Braves Record 13 Hit Win with Ronald Acuña Jr's Grand Slam",
-      "urls": [
-        "https://sports.yahoo.com/articles/braves-news-ronald-acu-jr-130506989.html",
-        "https://timesofindia.indiatimes.com/india/pm-modi-make-our-agriculture-export-oriented/articleshow/129187993.cms",
-        "https://www.skysports.com/f1/video/30998/13516359/australian-gp-george-russell-ready-to-fight-for-maiden-world-title",
-        "https://www.espn.com/video/clip?id=48065946"
-      ],
-      "date": "2026-03-07T04:31:11.171630+00:00"
-    },
-    {
       "title": "Researchers Assemble First Half-Möbius Molecule Using IBM Quantum System's Advanced Simulation Capabilities",
       "urls": [
         "https://research.ibm.com/blog/half-mobius-molecule",
@@ -4062,7 +4052,15 @@
         "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
       ],
       "date": "2026-03-17T04:01:32.978260+00:00"
+    },
+    {
+      "title": "Kyle Schwarber Names Indiana's First National Football Championship as US Sports Moment",
+      "urls": [
+        "https://sports.yahoo.com/articles/kyle-schwarber-shares-pick-greatest-235549301.html",
+        "https://www.espn.com/video/clip/_/id/48217625"
+      ],
+      "date": "2026-03-17T04:31:12.813559+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T04:01:32.978329+00:00"
+  "lastUpdated": "2026-03-17T04:31:12.813621+00:00"
 }
