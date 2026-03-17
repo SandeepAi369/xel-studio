@@ -377,8 +377,6 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
                     "api_key": key,
                     "query": query,
                     "search_depth": "advanced",
-                    "topic": "news",
-                    "days": days_back,
                     "max_results": TAVILY_RESULT_COUNT,
                     "include_answer": False,
                 },
