@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Government Unveils National Cyber Strategy to Bolster Economic Dominance and Free Expression",
-      "urls": [
-        "https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies"
-      ],
-      "date": "2026-03-07T22:33:12.734067+00:00"
-    },
-    {
       "title": "Erin L Cox Leads AI Conference for Publishing Professionals at AI@Media International",
       "urls": [
         "https://publishingperspectives.com/2026/03/lets-get-practical-about-ai-aimedia-international-march-24th"
@@ -3927,7 +3920,23 @@
         "https://climate.nasa.gov/system/internal_resources/details/original/2264_N_09_extent_v3.0.csv"
       ],
       "date": "2026-03-17T22:31:11.170668+00:00"
+    },
+    {
+      "title": "MIT Researchers Develop Explainable AI Technique Using Visual Concepts",
+      "urls": [
+        "https://news.mit.edu/topic/artificial-intelligence2",
+        "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
+        "https://news.mit.edu/2025/ai-tool-generates-high-quality-images-faster-0321",
+        "https://stackoverflow.com/ai-assist",
+        "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
+        "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
+        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219",
+        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
+        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
+        "https://news.mit.edu/2025/helping-k-12-schools-navigate-complex-world-of-ai-1103"
+      ],
+      "date": "2026-03-17T23:01:21.350630+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T22:31:11.170726+00:00"
+  "lastUpdated": "2026-03-17T23:01:21.350733+00:00"
 }
