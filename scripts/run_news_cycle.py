@@ -401,7 +401,10 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
             return {"context": context, "results": mapped}
 
         except Exception as e:
-            print(f"⚠️ Tavily ({label}) failed: {e}")
+            error_details = ""
+            if hasattr(e, "response") and hasattr(e.response, "text"):
+                error_details = f" Details: {e.response.text}"
+            print(f"⚠️ Tavily ({label}) failed: {e}{error_details}")
             if i < len(keys) - 1:
                 print("🔄 Switching to fallback Tavily API key...")
 
