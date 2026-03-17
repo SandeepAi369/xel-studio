@@ -12,6 +12,7 @@ Ported from: app/api/cron/generate-news/route.ts (v17)
 import json
 import os
 import random
+from duckduckgo_search import DDGS
 import re
 import sys
 import time
