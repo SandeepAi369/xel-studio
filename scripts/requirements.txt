@@ -21,3 +21,4 @@ g4f[image]
 
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
+duckduckgo-search>=7.5.0
