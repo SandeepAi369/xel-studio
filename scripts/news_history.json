@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Target Deploys Generative AI Across Stores and Supply Chain with Trend Brain and Zebra Scanners",
-      "urls": [
-        "https://www.businessinsider.com/target-ai-powered-turnaround-plan-2026-3"
-      ],
-      "date": "2026-03-07T19:33:11.102908+00:00"
-    },
-    {
       "title": "UN Secretary-General Warns Global Economy Faces Grave Risk Amid Middle East Tensions",
       "urls": [
         "https://www.cnbc.com/2026/03/06/stock-market-next-week-outlook-for-march-9-13-2026.html",
@@ -3894,7 +3887,18 @@
         "https://www.ssa.gov/retirement"
       ],
       "date": "2026-03-17T19:31:20.258405+00:00"
+    },
+    {
+      "title": "World Wildlife Fund Reports 52 Percent Drop in Vertebrate Populations",
+      "urls": [
+        "https://www.youtube.com/watch?v=Fd95sDDARdA",
+        "https://en.wikipedia.org/wiki/Wildlife",
+        "https://www.worldwildlife.org",
+        "https://www.nwf.org/Wildlife.aspx",
+        "https://education.nationalgeographic.org/resource/wildlife-around-the-world"
+      ],
+      "date": "2026-03-17T20:01:39.410607+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T19:31:20.258468+00:00"
+  "lastUpdated": "2026-03-17T20:01:39.410671+00:00"
 }
