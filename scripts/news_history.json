@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Unveils GPT-5.4 Model with Enhanced Computer Control Capabilities",
-      "urls": [
-        "https://www.engadget.com/ai/i-hope-you-like-spreadsheets-because-gpt-54-loves-them-180000444.html"
-      ],
-      "date": "2026-03-07T18:01:26.737829+00:00"
-    },
-    {
       "title": "MIT Researchers Analyze 700 Job Tasks to Identify High-Risk Automation in Finance and Legal Sectors",
       "urls": [
         "https://www.facebook.com/rapplerdotcom/posts/studies-from-mit-microsoft-and-anthropic-attempt-to-measure-which-occupations-ha/1458195016342562"
@@ -3857,7 +3850,23 @@
         "https://www.reddit.com/r/cscareerquestions/comments/15wf2w9/name_and_shame_openai"
       ],
       "date": "2026-03-17T17:32:35.529534+00:00"
+    },
+    {
+      "title": "Who Launches $8 Million Appeal After Myanmar Quakes",
+      "urls": [
+        "https://www.who.int/southeastasia/outbreaks-and-emergencies/myanmar-earthquake-response-2025",
+        "https://www.who.int/nepal/emergencies/west-nepal-earthquake",
+        "https://www.who.int/health-topics/earthquakes",
+        "https://www.who.int/nepal/news/detail/07-11-2023-who-responds-to-nepal-earthquake",
+        "https://www.who.int/westernpacific/newsroom/feature-stories/item/on-the-path-to-recovery--three-months-after-the-earthquake-in-vanuatu",
+        "https://www.who.int/publications/i/item/9789290225188",
+        "https://www.who.int/emergencies/situations/Earthquake-Türkiye-Syria",
+        "https://www.who.int/publications/m/item/who-flash-appeal--earthquake-response-in-myanmar",
+        "https://www.who.int/news-room/feature-stories/detail/how-rehabilitation-provided-a-second-chance-to-an-earthquake-survivor",
+        "https://www.who.int/myanmar/news/feature-stories/detail/lives-rebuilt--personal-stories-from-myanmar-s-earthquake-recovery"
+      ],
+      "date": "2026-03-17T18:01:34.024508+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T17:32:35.529596+00:00"
+  "lastUpdated": "2026-03-17T18:01:34.024572+00:00"
 }
