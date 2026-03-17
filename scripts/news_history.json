@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andrej Karpathy Announces Revolutionary AI Agents to Replace Traditional Hand-Typing of Code",
-      "urls": [
-        "https://www.forbes.com/sites/johnwerner/2026/03/07/choose-your-own-adventure-ai-runs-on-top-of-the-saas-pocalypse",
-        "https://www.forbes.com/sites/quickerbettertech/2026/03/07/small-business-technology-news-intuit-launches-ai-powered-erp-solution-tailored-for-construction-industry",
-        "https://www.nbcnews.com/now/video/exclusive-why-mark-cuban-wants-students-to-bet-big-on-ai-258861125642"
-      ],
-      "date": "2026-03-07T22:03:23.780448+00:00"
-    },
-    {
       "title": "Government Unveils National Cyber Strategy to Bolster Economic Dominance and Free Expression",
       "urls": [
         "https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies"
@@ -3923,7 +3914,20 @@
         "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics"
       ],
       "date": "2026-03-17T22:02:29.325592+00:00"
+    },
+    {
+      "title": "Nasa Airs Instrument Boosts Global Weather Forecast Accuracy By 25 Percent",
+      "urls": [
+        "https://climate.nasa.gov/evidence",
+        "https://climate.nasa.gov/ask-nasa-climate/294/best-in-show/in-progress",
+        "https://climate.nasa.gov/news/3173/from-weather-forecasting-to-climate-change-nasas-airs-builds-a-legacy?platform=hootsuite",
+        "https://climate.nasa.gov/earth-now?event=eo_event_190221",
+        "https://climate.nasa.gov/news/3133/one-year-from-launch-us-european-satellite-to-track-worlds-water?field_user_list_category_tid=all&page=21",
+        "https://climate.nasa.gov/internal_resources/2022",
+        "https://climate.nasa.gov/system/internal_resources/details/original/2264_N_09_extent_v3.0.csv"
+      ],
+      "date": "2026-03-17T22:31:11.170668+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T22:02:29.325657+00:00"
+  "lastUpdated": "2026-03-17T22:31:11.170726+00:00"
 }
