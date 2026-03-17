@@ -408,7 +408,26 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
             if i < len(keys) - 1:
                 print("🔄 Switching to fallback Tavily API key...")
 
-    print("⚠️ All Tavily keys exhausted — no results")
+    print("⚠️ All Tavily keys exhausted — falling back to DuckDuckGo Search...")
+    try:
+        ddgs = DDGS()
+        results = [r for r in ddgs.text(query + " news", max_results=TAVILY_RESULT_COUNT)]
+        if results:
+            mapped = [
+                {"title": r.get("title", ""), "description": r.get("body", r.get("abstract", "")), "url": r.get("href", "")}
+                for r in results
+            ]
+            context = "\n\n".join(
+                f"[{j+1}] {r['title']}\n{r['description']}" for j, r in enumerate(mapped)
+            )
+            print(f'🔍 DuckDuckGo: {len(mapped)} results for "{query}"')
+            return {"context": context, "results": mapped}
+        else:
+            print("⚠️ DuckDuckGo returned no results.")
+    except Exception as e:
+        print(f"⚠️ DuckDuckGo failed: {e}")
+
+    print("❌ All search methods failed.")
     return {"context": "", "results": []}
 
 
