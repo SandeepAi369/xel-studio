@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Secretary-General Warns Global Economy Faces Grave Risk Amid Middle East Tensions",
-      "urls": [
-        "https://www.cnbc.com/2026/03/06/stock-market-next-week-outlook-for-march-9-13-2026.html",
-        "https://news.un.org/en/story/2026/03/1167087"
-      ],
-      "date": "2026-03-07T20:03:21.249098+00:00"
-    },
-    {
       "title": "Nvidia Shares Rise 2% on Strong Demand for AI-Focused GPUs and Upcoming Updates",
       "urls": [
         "https://www.tipranks.com/news/company-announcements/coal-india-announces-cessation-of-independent-director-ghanshyam-singh-rathore",
@@ -3898,7 +3890,23 @@
         "https://education.nationalgeographic.org/resource/wildlife-around-the-world"
       ],
       "date": "2026-03-17T20:01:39.410607+00:00"
+    },
+    {
+      "title": "Senate Debates SAVE America Act This Week",
+      "urls": [
+        "https://www.foxnews.com?msockid=304c22c221a2610425ec35dd2067603e",
+        "https://www.cnn.com",
+        "https://www.nbcnews.com",
+        "https://abcnews.com",
+        "https://apnews.com",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
+        "https://www.cbsnews.com",
+        "https://www.nytimes.com",
+        "https://www.bbc.com/news",
+        "https://news.yahoo.com"
+      ],
+      "date": "2026-03-17T20:31:43.200416+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T20:01:39.410671+00:00"
+  "lastUpdated": "2026-03-17T20:31:43.200475+00:00"
 }
