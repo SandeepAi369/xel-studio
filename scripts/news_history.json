@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pepeto Secures Over $7.4 Million in Presale, Revolutionizing Cross-Chain Trading Ecosystem",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/crypto-news-today-pepeto-announces-7-43m-raised-as-bull-run-approaching-and-traders-search-for-the-next-dogecoin-1035886731",
-        "https://markets.businessinsider.com/news/stocks/new-crypto-ethereum-based-pepeto-unveils-7-391m-presale-milestone-as-xrp-news-make-waves-and-bitcoin-target-150-000-this-year-1035882544",
-        "https://www.forbes.com/sites/digital-assets/2026/03/05/how-kraken-is-collapsing-the-wall-between-crypto-and-stock-markets",
-        "https://fintechmagazine.com/articles/how-tech-partnerships-drive-financial-asset-tokenisation"
-      ],
-      "date": "2026-03-07T03:33:01.343828+00:00"
-    },
-    {
-      "title": "Manufacturers Double AI Investment to Improve Productivity Across Global Factories",
-      "urls": [
-        "https://www.manufacturing.net/artificial-intelligence/news/22962007/manufacturers-double-ai-spending-struggle-to-scale-beyond-pilot-projects",
-        "https://www.cnbc.com/video/2026/03/03/chinese-ai-startups-see-progress-amid-u-s-ai-trade-concerns.html",
-        "https://www.startupecosystem.ca/news/ai-industry-pledge-to-fund-data-center-power-costs",
-        "https://www.axios.com/2026/02/28/nvidia-ai-rally-nasdaq-stocks"
-      ],
-      "date": "2026-03-07T04:01:27.119141+00:00"
-    },
-    {
       "title": "Atlanta Braves Record 13 Hit Win with Ronald Acuña Jr's Grand Slam",
       "urls": [
         "https://sports.yahoo.com/articles/braves-news-ronald-acu-jr-130506989.html",
@@ -4073,7 +4053,16 @@
         "https://www.geeky-gadgets.com/deep-red-iphone-18-pro"
       ],
       "date": "2026-03-17T03:31:18.531726+00:00"
+    },
+    {
+      "title": "Agility Robotics' Digit Robot Achieves Rare Fine Motor Control in Unstructured Environment",
+      "urls": [
+        "https://roboticsandautomationnews.com/2026/03/16/the-uncanny-valley-and-how-humans-relate-to-humanoids/99725",
+        "https://www.therobotreport.com/humanoid-robotics-developers-must-address-a-wide-range-of-applications",
+        "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
+      ],
+      "date": "2026-03-17T04:01:32.978260+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T03:31:18.531798+00:00"
+  "lastUpdated": "2026-03-17T04:01:32.978329+00:00"
 }
