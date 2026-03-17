@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Walmart Launches Better Care Services, Bundling Urgent Care and Telehealth Options",
-      "urls": [
-        "https://www.mediapost.com/publications/article/411918/walmart-pushes-deeper-into-healthcare-with-better.html"
-      ],
-      "date": "2026-03-07T19:03:21.210897+00:00"
-    },
-    {
       "title": "Target Deploys Generative AI Across Stores and Supply Chain with Trend Brain and Zebra Scanners",
       "urls": [
         "https://www.businessinsider.com/target-ai-powered-turnaround-plan-2026-3"
@@ -3890,7 +3883,18 @@
         "https://www.intel.com/content/www/us/en/learn/what-is-artificial-intelligence.html"
       ],
       "date": "2026-03-17T19:01:31.852624+00:00"
+    },
+    {
+      "title": "Social Security Administration Launches Full Online Benefits Application",
+      "urls": [
+        "https://www.ssa.gov/myaccount",
+        "https://www.ssa.gov/onlineservices",
+        "https://secure.ssa.gov/RIL/HdkwsoView.action",
+        "https://www.ssa.gov/agency/contact",
+        "https://www.ssa.gov/retirement"
+      ],
+      "date": "2026-03-17T19:31:20.258405+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T19:01:31.852673+00:00"
+  "lastUpdated": "2026-03-17T19:31:20.258468+00:00"
 }
