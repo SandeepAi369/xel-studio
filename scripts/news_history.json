@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Counselors Deployed in Schools to Monitor Student Mental Health 24/7",
-      "urls": [
-        "https://www.theguardian.com/technology/ng-interactive/2026/mar/03/schools-student-ai-counselor",
-        "https://www.lincolnjournal.com/online_features/press_releases/mindmaze-therapeutics-provides-corporate-update-and-publishes-march-2026-investor-presentation/article_3e75d53e-0748-531e-906c-4ea6358e7147.html"
-      ],
-      "date": "2026-03-07T21:33:15.779293+00:00"
-    },
-    {
       "title": "Andrej Karpathy Announces Revolutionary AI Agents to Replace Traditional Hand-Typing of Code",
       "urls": [
         "https://www.forbes.com/sites/johnwerner/2026/03/07/choose-your-own-adventure-ai-runs-on-top-of-the-saas-pocalypse",
@@ -3920,7 +3912,18 @@
         "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937"
       ],
       "date": "2026-03-17T21:32:09.966735+00:00"
+    },
+    {
+      "title": "Quantum Physics Reveals Subatomic Particles Defy Classical Laws",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Quantum",
+        "https://www.britannica.com/science/quantum",
+        "https://www.sciencenewstoday.org/what-is-quantum-physics-a-beginners-guide",
+        "https://science.nasa.gov/biological-physical/quantum-leaps",
+        "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics"
+      ],
+      "date": "2026-03-17T22:02:29.325592+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T21:32:09.966803+00:00"
+  "lastUpdated": "2026-03-17T22:02:29.325657+00:00"
 }
