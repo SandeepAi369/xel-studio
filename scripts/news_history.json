@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "FDA Unveils Guidelines for AI Use in Drug Development with Industry Leaders.",
-      "urls": [
-        "https://www.biospace.com/fda/opinion-navigating-the-fda-after-the-storm-to-advance-drug-candidates",
-        "https://www.forbes.com/sites/amyfeldman/2026/03/07/how-lilly-used-ai-to-crank-up-production-of-its-popular-glp-1s"
-      ],
-      "date": "2026-03-08T07:32:54.833802+00:00"
-    },
-    {
       "title": "Gap CEO Richard Dickson Unveils Plan for Continued Sales Momentum and Expansion",
       "urls": [
         "https://www.cnbc.com/video/2026/03/05/gap-ceo-says-next-phase-of-turnaround-plan-is-about-building-momentum.html",
@@ -3982,7 +3974,23 @@
         "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
       ],
       "date": "2026-03-18T07:32:15.884931+00:00"
+    },
+    {
+      "title": "Google Microsoft And Dropbox Expand Cloud Services For Global Users",
+      "urls": [
+        "https://www.icloud.com",
+        "https://cloud.google.com",
+        "https://de.wikipedia.org/wiki/Cloud_Computing",
+        "https://www.cloudflare.com/learning/cloud/what-is-the-cloud",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/cloud-computing-verbraucher_node.html",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=1bdab6eb9e4c611129dea1cb9f8e6032",
+        "https://www.pcloud.com/de",
+        "https://www.ionos.de/digitalguide/server/knowhow/was-ist-eine-cloud",
+        "https://www.oracle.com/cloud/what-is-cloud-computing",
+        "https://www.dropbox.com/features/cloud-storage"
+      ],
+      "date": "2026-03-18T08:02:35.709891+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T07:32:15.885003+00:00"
+  "lastUpdated": "2026-03-18T08:02:35.709968+00:00"
 }
