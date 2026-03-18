@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nepal Voters Cast Ballots at 23,000 Polling Stations Amid Heavily Guarded Election",
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/nepal-goes-polls-voters-seek-change-after-youth-led-protests-2026-03-05",
-        "https://www.reuters.com/world/china/nepal-vote-first-election-since-gen-z-led-protests-toppled-government-2026-03-04",
-        "https://www.reuters.com/video/watch/idRW083804032026RP1",
-        "https://apnews.com/article/nepal-parliament-election-results-balendra-shah-aac242077d2dd052e7e9bdd7c088ccc9",
-        "https://apnews.com/article/nepal-election-parliament-government-5f8e4088fb4b6a88161289eac9c7f924",
-        "https://www.bbc.com/news/articles/c8r137lkj5zo",
-        "https://www.reuters.com/video/watch/idRW151706032026RP1?chan=politics",
-        "https://sports.yahoo.com/videos/ben-saraf-2-pt-025955903.html",
-        "https://www.modernghana.com/amp/videonews/619700",
-        "https://www.reuters.com/video/watch/idRW024803032026RP1"
-      ],
-      "date": "2026-03-08T07:03:17.650867+00:00"
-    },
-    {
       "title": "FDA Unveils Guidelines for AI Use in Drug Development with Industry Leaders.",
       "urls": [
         "https://www.biospace.com/fda/opinion-navigating-the-fda-after-the-storm-to-advance-drug-candidates",
@@ -3982,7 +3966,23 @@
         "https://www.anthropic.com/news/healthcare-life-sciences"
       ],
       "date": "2026-03-18T07:01:31.392252+00:00"
+    },
+    {
+      "title": "Hugging Face Launches AI Sheets For No-Code Data Enrichment",
+      "urls": [
+        "https://huggingface.co",
+        "https://allthingsopen.org/articles/hugging-face-review-developers-guide",
+        "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025",
+        "https://the-decoder.com/hugging-face-launches-omni-chat-an-ai-router-for-open-source-models",
+        "https://devblogs.microsoft.com/foundry/microsoft-and-hugging-face-expand-partnership-to-accelerate-open-source-ai-innovation-on-azure-ai-foundry",
+        "https://sloanreview.mit.edu/audio/challenging-the-average-with-open-source-ai-hugging-faces-thomas-wolf",
+        "https://blog.jetbrains.com/ai/2025/04/mellum-goes-open-source-a-purpose-built-llm-for-developers-now-on-hugging-face",
+        "https://www.business-standard.com/technology/tech-news/china-open-source-ai-models-rise-us-concerns-deepseek-alibaba-qwen-125112700348_1.html",
+        "https://www.infoq.com/news/2025/09/ai-sheets",
+        "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
+      ],
+      "date": "2026-03-18T07:32:15.884931+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T07:01:31.392307+00:00"
+  "lastUpdated": "2026-03-18T07:32:15.885003+00:00"
 }
