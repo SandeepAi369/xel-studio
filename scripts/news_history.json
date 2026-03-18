@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bria Wins Top Hollywood Award for Innovative Ethical Generative-AI Platform",
-      "urls": [
-        "https://www.ynetnews.com/tech-and-digital/article/sjixuejt11x"
-      ],
-      "date": "2026-03-08T23:01:09.487123+00:00"
-    },
-    {
       "title": "UK Labour Market Shows Increased Resilience with AI-Focused Policies in Place",
       "urls": [
         "https://www.consultancy.uk/news/amp/43315/uk-labour-resilience-rises-due-to-ai-policy-response",
@@ -4032,7 +4025,23 @@
         "https://zhidao.baidu.com/question/373587710723490372.html"
       ],
       "date": "2026-03-18T22:31:16.422052+00:00"
+    },
+    {
+      "title": "Meta Slashes Workforce To Cope With AI Infrastructure Costs",
+      "urls": [
+        "https://www.meta.com/about",
+        "https://business.facebook.com",
+        "https://en.wikipedia.org/wiki/Meta_Platforms",
+        "https://investor.atmeta.com/home/default.aspx",
+        "https://about.fb.com/news/category/technologies/meta",
+        "https://finance.yahoo.com/quote/META",
+        "https://auth.meta.com/login",
+        "https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html?msockid=02e3d79543cb6f230f6dc0b542eb6ec6",
+        "https://www.facebook.com/Meta/home",
+        "https://www.merriam-webster.com/dictionary/meta"
+      ],
+      "date": "2026-03-18T23:02:31.706308+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T22:31:16.422118+00:00"
+  "lastUpdated": "2026-03-18T23:02:31.706374+00:00"
 }
