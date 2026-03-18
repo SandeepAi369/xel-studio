@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "X Launches Investigation into Grok Chatbot After Racist Slurs Emerge in Internal Testing Logs",
-      "urls": [
-        "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08"
-      ],
-      "date": "2026-03-08T14:30:53.492997+00:00"
-    },
-    {
       "title": "Psychiatrists Warn Against Excessive Wearable Tracking and Rigid Health Goals.",
       "urls": [
         "https://www.newsweek.com/3-healthy-habits-can-worsen-anxiety-psychiatrist-explains-11610027"
@@ -3993,7 +3986,14 @@
         "https://travelwyoming.com/blog/stories/post/10-places-to-spot-wyoming-wildlife"
       ],
       "date": "2026-03-18T14:02:51.334094+00:00"
+    },
+    {
+      "title": "Milano Cortina 2026 Announces 116 Events And Volunteer Force",
+      "urls": [
+        "https://www.olympics.com/en/milano-cortina-2026"
+      ],
+      "date": "2026-03-18T14:32:04.471096+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T14:02:51.334154+00:00"
+  "lastUpdated": "2026-03-18T14:32:04.471158+00:00"
 }
