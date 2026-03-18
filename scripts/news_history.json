@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Airlines Flight Diverts to Los Angeles International Airport Due to Engine Problem",
-      "urls": [
-        "https://www.cbsnews.com/newyork/video/united-airlines-flight-makes-emergency-landing-at-lax-while-heading-to-newark-after-engine-issue",
-        "https://www.cbsnews.com/texas/video/two-elementary-school-students-struck-by-vehicle-while-riding-bikes-police-say",
-        "https://www.cbsnews.com/newyork/video/some-nyc-brokers-arent-following-new-rules-and-still-charging-tenants-fees"
-      ],
-      "date": "2026-03-08T01:33:07.280403+00:00"
-    },
-    {
       "title": "NASA Scientists Track Meteor Fireball Over Vancouver and Western Washington Last Night",
       "urls": [
         "https://timesofindia.indiatimes.com/world/south-asia/balen-shah-engineer-rapper-mayor-disruptor-nepals-next-pm-at-35/articleshow/129132542.cms",
@@ -3949,7 +3940,16 @@
         "https://www.usatoday.com/live-story/news/world/2026/03/15/iran-war-live-updates-trump-latest/89164437007"
       ],
       "date": "2026-03-18T01:31:10.205990+00:00"
+    },
+    {
+      "title": "Miami-Dade Reports 12 Percent Violent Crime Increase",
+      "urls": [
+        "https://www.foxnews.com",
+        "https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKVFJ5Z0FQAQ",
+        "https://www.miamiherald.com/news/local/community/miami-dade"
+      ],
+      "date": "2026-03-18T02:02:33.421087+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T01:31:10.206079+00:00"
+  "lastUpdated": "2026-03-18T02:02:33.421160+00:00"
 }
