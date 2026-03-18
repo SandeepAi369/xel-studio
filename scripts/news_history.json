@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Lacks Independent Verification for Sarvam's Large Language Models Amid Growing Industry Standards",
-      "urls": [
-        "https://www.forbes.com/sites/janakirammsv/2026/03/07/india-can-train-a-sovereign-model-but-still-cannot-prove-it-works"
-      ],
-      "date": "2026-03-08T05:03:14.050700+00:00"
-    },
-    {
       "title": "Lighthouse Guild Launches Lincoln Square Technology Center for Visually Impaired Adults and Seniors",
       "urls": [
         "https://www.nytimes.com/2026/03/06/us/helen-keller-dead.html",
@@ -3969,7 +3962,23 @@
         "https://www.zhihu.com/question/11944342931"
       ],
       "date": "2026-03-18T05:01:22.398802+00:00"
+    },
+    {
+      "title": "Refugees Flee Persecution War Violence Seeking International Protection",
+      "urls": [
+        "https://www.unrefugees.org/refugee-facts/what-is-a-refugee",
+        "https://en.wikipedia.org/wiki/Refugee",
+        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
+        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
+        "https://www.britannica.com/topic/refugee",
+        "https://education.nationalgeographic.org/resource/refugee",
+        "https://usafacts.org/articles/refugee-definition",
+        "https://www.worldvision.org/refugees-news-stories/what-is-a-refugee-facts",
+        "https://ohss.dhs.gov/topics/immigration/refugees",
+        "https://worldrelief.org/what-is-a-refugee"
+      ],
+      "date": "2026-03-18T05:31:14.586662+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T05:01:22.398862+00:00"
+  "lastUpdated": "2026-03-18T05:31:14.586758+00:00"
 }
