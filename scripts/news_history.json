@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Storm Prediction Center Hosts Conference to Enhance Dallas-Fort Worth Region's Emergency Response Capabilities",
-      "urls": [
-        "https://www.nbcnewyork.com/video/weather/video-weather/latest-forecast-from-storm-team-4-9853/6473179",
-        "https://www.cbsnews.com/texas/video/national-storm-conference-underway-at-ut-arlington"
-      ],
-      "date": "2026-03-08T14:02:26.819370+00:00"
-    },
-    {
       "title": "X Launches Investigation into Grok Chatbot After Racist Slurs Emerge in Internal Testing Logs",
       "urls": [
         "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08"
@@ -3992,7 +3984,16 @@
         "https://www.shopch.jp/ap/jewelry"
       ],
       "date": "2026-03-18T13:37:46.363364+00:00"
+    },
+    {
+      "title": "Wyoming Game And Fish Department Protects Over 800 Species Through Conservation Programs",
+      "urls": [
+        "https://wgfd.wyo.gov/wyoming-wildlife",
+        "https://www.wildlifedepartment.com",
+        "https://travelwyoming.com/blog/stories/post/10-places-to-spot-wyoming-wildlife"
+      ],
+      "date": "2026-03-18T14:02:51.334094+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T13:37:46.363425+00:00"
+  "lastUpdated": "2026-03-18T14:02:51.334154+00:00"
 }
