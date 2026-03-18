@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "Los Angeles Marathon Cancels Remaining 8.2 Miles Due to Heat Safety Concerns",
-      "urls": [
-        "https://www.nytimes.com/2026/03/07/us/los-angeles-marathon-medals.html",
-        "https://www.latimes.com/california/newsletter/2026-03-06/la-marathons-final-8-miles-are-blazing-hot-concrete-hellscape-i-learned-to-love-them-anyway",
-        "https://www.telecoms.com/partner-content/huawei-launches-world-s-lightest-running-watch-with-push-for-inclusive-fitness",
-        "https://www.foxnews.com/sports/ceo-olympic-styled-sporting-event-allows-enhancements-ready-put-negative-connotations-bed",
-        "https://ca.sports.yahoo.com/news/mile-race-honours-insurance-clerk-093838054.html",
-        "https://variety.com/2026/film/news/cinema-audio-society-awards-2026-winners-1236680402"
-      ],
-      "date": "2026-03-08T08:33:09.026615+00:00"
-    },
-    {
-      "title": "Anthropic Study Reveals High-Risk AI Exposure for Certain Professions Including Lawyers and Doctors",
-      "urls": [
-        "https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers",
-        "https://www.cbsnews.com/news/anthropic-claude-ai-iran-war-u-s",
-        "https://www.theguardian.com/technology/2026/mar/02/claude-anthropic-ai-pentagon",
-        "https://www.wsj.com/tech/ai/send-us-more-anthropics-claude-sniffs-out-bevy-of-bugs-c6822075?gaa_at=eafs&gaa_n=AWEtsqfBrjj7GO-DAF9WKjEcO7nwJdZ1wV_W3MoFHtwWEKUMge_3yZnDKoo_&gaa_ts=69aabb29&gaa_sig=p5fTJeXJb2_TyFnLr6EuO7KOFedqltZM_ANGvkhjvmGn4JbqUeuikZSTnHxAtrORJq75yWkH3UbV-L6sz0mqqg%3D%3D",
-        "https://techcrunch.com/2026/03/01/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute",
-        "https://www.fiercebiotech.com/keyword/anthropic",
-        "https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage",
-        "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-tries-to-win-users-from-chatgpt-with-memory-feature",
-        "https://www.adweek.com/agencies/ad-agencies-embrace-vibe-coding",
-        "https://gizmodo.com/anthropic-improves-feature-to-switch-from-competitors-as-users-call-for-chatgpt-boycott-2000728352"
-      ],
-      "date": "2026-03-08T09:03:23.862900+00:00"
-    },
-    {
       "title": "Smart Wheelchairs Equipped with Quiet High-Torque Motors and Advanced Smartphone Integration.",
       "urls": [
         "https://www.jpost.com/consumerism/article-888779",
@@ -3985,7 +3957,22 @@
         "https://www.1800wheelchair.com"
       ],
       "date": "2026-03-18T08:31:11.908725+00:00"
+    },
+    {
+      "title": "MIT Researchers Build 3D Objects From Spoken Descriptions Using AI",
+      "urls": [
+        "https://news.mit.edu/topic/robotics",
+        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
+        "https://spectrum.ieee.org/top-robotics-stories-2025",
+        "https://news.mit.edu/topic/robotics?page=1",
+        "https://spectrum.ieee.org/tag/robotics",
+        "https://spectrum.ieee.org/top-robotics-stories-2024",
+        "https://spectrum.ieee.org/mits-ai-robotics-lab-director",
+        "https://spectrum.ieee.org/ai-institute",
+        "https://spectrum.ieee.org/robots-ces-2026"
+      ],
+      "date": "2026-03-18T09:03:33.397754+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T08:31:11.908790+00:00"
+  "lastUpdated": "2026-03-18T09:03:33.397821+00:00"
 }
