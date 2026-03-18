@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Agentic AI Systems Increase Operational Efficiency but Raise New Security Concerns for Enterprises Worldwide",
-      "urls": [
-        "https://www.govexec.com/assets/securing-agentic-ai-identity-emerging-foundation-d/portal"
-      ],
-      "date": "2026-03-08T06:03:16.726405+00:00"
-    },
-    {
-      "title": "EU Commission Proposes Industrial Accelerator Act to Boost Domestic Clean-Tech Capacity",
-      "urls": [
-        "https://www.esgtoday.com/european-commission-unveils-low-carbon-made-in-eu-rules-for-manufacturing-cleantech-sectors",
-        "https://www.azomining.com/Article.aspx?ArticleID=1935"
-      ],
-      "date": "2026-03-08T06:31:09.412155+00:00"
-    },
-    {
       "title": "Nepal Voters Cast Ballots at 23,000 Polling Stations Amid Heavily Guarded Election",
       "urls": [
         "https://www.reuters.com/world/asia-pacific/nepal-goes-polls-voters-seek-change-after-youth-led-protests-2026-03-05",
@@ -3979,7 +3964,14 @@
         "https://www.thetimes.com/us/news-today?msockid=2e964184f34e693b061e56a4f293680f"
       ],
       "date": "2026-03-18T06:01:39.244405+00:00"
+    },
+    {
+      "title": "Asus ROG Strix G16 Users Report Linux Compatibility Issues",
+      "urls": [
+        "https://www.linux.org/threads/asus-armoury-crate-or-g-helper.57134"
+      ],
+      "date": "2026-03-18T06:31:11.752118+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T06:01:39.244461+00:00"
+  "lastUpdated": "2026-03-18T06:31:11.752187+00:00"
 }
