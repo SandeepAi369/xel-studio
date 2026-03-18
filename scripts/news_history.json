@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lighthouse Guild Launches Lincoln Square Technology Center for Visually Impaired Adults and Seniors",
-      "urls": [
-        "https://www.nytimes.com/2026/03/06/us/helen-keller-dead.html",
-        "https://www.cbsnews.com/newyork/video/inside-the-lighthouse-guild-technology-center-that-empowers-the-visually-impaired"
-      ],
-      "date": "2026-03-08T05:33:08.146943+00:00"
-    },
-    {
       "title": "Agentic AI Systems Increase Operational Efficiency but Raise New Security Concerns for Enterprises Worldwide",
       "urls": [
         "https://www.govexec.com/assets/securing-agentic-ai-identity-emerging-foundation-d/portal"
@@ -3978,7 +3970,16 @@
         "https://worldrelief.org/what-is-a-refugee"
       ],
       "date": "2026-03-18T05:31:14.586662+00:00"
+    },
+    {
+      "title": "The Times Offers U.S. Subscribers Access To The Sunday Times",
+      "urls": [
+        "https://www.foxnews.com?msockid=2e964184f34e693b061e56a4f293680f",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
+        "https://www.thetimes.com/us/news-today?msockid=2e964184f34e693b061e56a4f293680f"
+      ],
+      "date": "2026-03-18T06:01:39.244405+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T05:31:14.586758+00:00"
+  "lastUpdated": "2026-03-18T06:01:39.244461+00:00"
 }
