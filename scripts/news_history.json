@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Code-Review Bench Index provides monthly ranking of AI code-review tools based on controlled and beh",
-      "urls": [
-        "https://www.jpost.com/consumerism/article-889076",
-        "https://www.mediapost.com/publications/article/413144/mod-op-tool-helps-brands-respond-to-dangerous-ai-g.html"
-      ],
-      "date": "2026-03-08T18:31:16.179830+00:00"
-    },
-    {
       "title": "Brugada Syndrome Wearers First to Use AI-Powered T-Shirts for Continuous Heart Monitoring",
       "urls": [
         "https://www.foxnews.com/tech/ai-t-shirt-could-detect-hidden-heart-risks"
@@ -4010,7 +4002,14 @@
         "https://news.mit.edu/2024/mit-researchers-develop-efficiency-training-more-reliable-ai-agents-1122"
       ],
       "date": "2026-03-18T18:01:34.470068+00:00"
+    },
+    {
+      "title": "United States And Israel Strike Iranian Missile Facilities",
+      "urls": [
+        "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/market-pulse/what-we-know-and-what-matters-geopolitical-risks-rise"
+      ],
+      "date": "2026-03-18T18:32:38.311898+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T18:01:34.470130+00:00"
+  "lastUpdated": "2026-03-18T18:32:38.311955+00:00"
 }
