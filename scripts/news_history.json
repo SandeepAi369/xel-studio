@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "AT&T Embeds Fiber and 5G Wireless Access into AWS Environments for AI Workloads",
-      "urls": [
-        "https://www.rcrwireless.com/20260303/network-infrastructure/att-combines-with-aws-in-metro-ericsson-in-ran-azure-at-edge",
-        "https://www.ien.com/artificial-intelligence/article/22961754/engineering-the-next-generation-of-data-centers-for-ai-workloads",
-        "https://www.accountingtoday.com/opinion/ai-is-changing-infrastructure-economics-and-accounting-models",
-        "https://www.designdevelopmenttoday.com/industries/iot/news/22961765/nvidia-investing-4b-to-boost-us-laser-components-production",
-        "https://www.developingtelecoms.com/telecom-technology/data-centres-networks/19887-mou-aims-to-aims-to-shorten-ai-data-centre-construction-timelines.html",
-        "https://finance.yahoo.com/news/oracle-openai-end-plans-expand-201106441.html",
-        "https://www.forbes.com/sites/the-prototype/2026/03/07/startup-loft-orbital-is-launching-ai-powered-satellites-this-fall",
-        "https://www.powermag.com/hyperscalers-sign-white-house-pledge-to-fund-data-center-power-grid-upgrades"
-      ],
-      "date": "2026-03-08T11:30:57.459074+00:00"
-    },
-    {
       "title": "US Approves $151.8 Million Munitions Sale to Israel Without Congressional Review",
       "urls": [
         "https://abcnews.com/alerts/Ukraine",
@@ -3978,7 +3964,19 @@
         "https://wildlifeinformer.com"
       ],
       "date": "2026-03-18T11:01:29.339360+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT 5.3 Instant For Smarter Chat Conversations",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-5-4",
+        "https://openai.com/research/index/release",
+        "https://openai.com/index/introducing-gpt-5-2",
+        "https://openai.com/gpt-5",
+        "https://openai.com/index/gpt-5-3-instant",
+        "https://openai.com/index/gpt-5-1"
+      ],
+      "date": "2026-03-18T11:35:58.737426+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T11:01:29.339424+00:00"
+  "lastUpdated": "2026-03-18T11:35:58.737488+00:00"
 }
