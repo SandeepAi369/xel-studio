@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eaton Unveils Unified Cybersecurity Platform for Hospitals Under New Healthcare Cybersecurity Act Requirements",
-      "urls": [
-        "https://healthtechmagazine.net/article/2026/03/eaton-bolsters-hospital-defenses-healthcare-cybersecurity-act-arrives"
-      ],
-      "date": "2026-03-08T20:01:08.403137+00:00"
-    },
-    {
       "title": "Austria commissions its first dedicated military satellite, BEACONSAT, to monitor and locate satelli",
       "urls": [
         "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-10-41-b1078-ccsfs-jrti-17-23-b1082-vsfb-ocisly",
@@ -4017,7 +4010,18 @@
         "https://www.sap.com/resources/what-is-generative-ai"
       ],
       "date": "2026-03-18T19:31:29.444926+00:00"
+    },
+    {
+      "title": "Merriam-Webster Defines Incredible As Extraordinary And Improbable",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/incredible",
+        "https://dictionary.cambridge.org/us/dictionary/english/incredible",
+        "https://www.dictionary.com/browse/incredible",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/incredible",
+        "https://www.thefreedictionary.com/Incredible"
+      ],
+      "date": "2026-03-18T20:02:32.121095+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T19:31:29.445002+00:00"
+  "lastUpdated": "2026-03-18T20:02:32.121180+00:00"
 }
