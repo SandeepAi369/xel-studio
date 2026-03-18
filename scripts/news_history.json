@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Syngenta Abandons Global Production of Paraquat Amid Regulatory Crackdown and Health Worries",
-      "urls": [
-        "https://agfundernews.com/agrifood-signals-syngenta-ditches-paraquat-targan-bags-100m-for-animal-health-aerofarms-for-sale"
-      ],
-      "date": "2026-03-08T00:03:26.226234+00:00"
-    },
-    {
       "title": "Masters Wins 20th Paralympic Gold Medal in Historic Women's Sitting Biathlon Sprint Victory",
       "urls": [
         "https://www.si.com/winter-olympics/ilia-malinin-earns-olympic-award-for-sweet-moment-at-milan-cortina-games",
@@ -3944,7 +3937,18 @@
         "https://www.reddit.com/r/nvidia/comments/129p5ph/nvidia_profile_inspector_v2404_released"
       ],
       "date": "2026-03-18T00:01:27.152139+00:00"
+    },
+    {
+      "title": "WMO Forecasts Record Global Temperatures Through 2029",
+      "urls": [
+        "https://wmo.int/topics/climate",
+        "https://wmo.int/topics/climate-change",
+        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024",
+        "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/wmo-global-annual-decadal-climate-update-2025-2029",
+        "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2019"
+      ],
+      "date": "2026-03-18T00:32:21.833703+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T00:01:27.152221+00:00"
+  "lastUpdated": "2026-03-18T00:32:21.833785+00:00"
 }
