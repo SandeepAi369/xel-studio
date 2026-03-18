@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Physicists at University of Texas Confirm Two-Dimensional Magnetism Theory After Five Decades of Research",
-      "urls": [
-        "https://pitchbook.com/news/articles/discovering-new-materials-with-ai-has-a-winding-road-to-vc-returns",
-        "https://www.sciencedaily.com/releases/2026/03/260306224223.htm"
-      ],
-      "date": "2026-03-08T13:01:04.508596+00:00"
-    },
-    {
       "title": "Microsoft Unveils Natural OS, AI-First Operating System for Seamless User Experience",
       "urls": [
         "https://thenextweb.com/news/the-designer-rebuilding-ai-interfaces-for-humans"
@@ -3983,7 +3975,15 @@
         "https://www.ssa.gov/OACT/TR/2025/index.html"
       ],
       "date": "2026-03-18T12:31:15.015717+00:00"
+    },
+    {
+      "title": "The Times Expands U S Live News Coverage With 15 City Reporting Network",
+      "urls": [
+        "https://www.foxnews.com?msockid=2c7e089cfa23699419cd1fbcfb8868a0",
+        "https://www.thetimes.com/us/news-today?msockid=2c7e089cfa23699419cd1fbcfb8868a0"
+      ],
+      "date": "2026-03-18T13:02:00.511537+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T12:31:15.015782+00:00"
+  "lastUpdated": "2026-03-18T13:02:00.511596+00:00"
 }
