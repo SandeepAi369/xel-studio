@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils Natural OS, AI-First Operating System for Seamless User Experience",
-      "urls": [
-        "https://thenextweb.com/news/the-designer-rebuilding-ai-interfaces-for-humans"
-      ],
-      "date": "2026-03-08T13:30:48.353144+00:00"
-    },
-    {
       "title": "Storm Prediction Center Hosts Conference to Enhance Dallas-Fort Worth Region's Emergency Response Capabilities",
       "urls": [
         "https://www.nbcnewyork.com/video/weather/video-weather/latest-forecast-from-storm-team-4-9853/6473179",
@@ -3983,7 +3976,23 @@
         "https://www.thetimes.com/us/news-today?msockid=2c7e089cfa23699419cd1fbcfb8868a0"
       ],
       "date": "2026-03-18T13:02:00.511537+00:00"
+    },
+    {
+      "title": "Shop Channel Launches 30th Anniversary Campaign With Multi Platform Expansion",
+      "urls": [
+        "https://discussions.apple.com/docs/DOC-250009890",
+        "https://discussions.apple.com/thread/255148892",
+        "https://discussions.apple.com/community/apple-account",
+        "https://discussions.apple.com/thread/253883205",
+        "https://discussions.apple.com/welcome",
+        "https://www.shopch.jp",
+        "https://www.shopch.jp/pc/tv/programlist",
+        "https://www.shopch.jp/pc/product/brandlist",
+        "https://www.shopch.jp/pc/cmn/a/guide/index",
+        "https://www.shopch.jp/ap/jewelry"
+      ],
+      "date": "2026-03-18T13:37:46.363364+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T13:02:00.511596+00:00"
+  "lastUpdated": "2026-03-18T13:37:46.363425+00:00"
 }
