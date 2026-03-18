@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tshirt Successfully Detects Hidden Cardiovascular Risk in 2,000 Participants with High Accuracy",
-      "urls": [
-        "https://www.foxnews.com/tech/ai-newsletter-pentagon-ai-battle"
-      ],
-      "date": "2026-03-07T23:33:07.488034+00:00"
-    },
-    {
       "title": "Syngenta Abandons Global Production of Paraquat Amid Regulatory Crackdown and Health Worries",
       "urls": [
         "https://agfundernews.com/agrifood-signals-syngenta-ditches-paraquat-targan-bags-100m-for-animal-health-aerofarms-for-sale"
@@ -3940,7 +3933,18 @@
         "https://mobilitydeck.com/best-wheelchairs"
       ],
       "date": "2026-03-17T23:31:19.077494+00:00"
+    },
+    {
+      "title": "Nvidia Releases Beta App for RTX GPU Owners",
+      "urls": [
+        "https://www.reddit.com/r/nvidia?t=DAY",
+        "https://www.reddit.com/r/nvidia/comments/16qke8w/which_one_should_i_install_between_gameready",
+        "https://www.reddit.com/r/MoonlightStreaming/comments/1axk7y7/the_new_nvidia_app_beta",
+        "https://www.reddit.com/r/nvidia/comments/1axr8nj/setup_guide_for_hdr_including_new_settings_for",
+        "https://www.reddit.com/r/nvidia/comments/129p5ph/nvidia_profile_inspector_v2404_released"
+      ],
+      "date": "2026-03-18T00:01:27.152139+00:00"
     }
   ],
-  "lastUpdated": "2026-03-17T23:31:19.077555+00:00"
+  "lastUpdated": "2026-03-18T00:01:27.152221+00:00"
 }
