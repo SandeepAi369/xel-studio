@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Brugada Syndrome Wearers First to Use AI-Powered T-Shirts for Continuous Heart Monitoring",
-      "urls": [
-        "https://www.foxnews.com/tech/ai-t-shirt-could-detect-hidden-heart-risks"
-      ],
-      "date": "2026-03-08T19:01:05.656218+00:00"
-    },
-    {
       "title": "Microsoft Reveals Sophisticated Cyberattacks Leveraging Generative AI Across Multiple Stages",
       "urls": [
         "https://www.bbc.com/news/articles/ckg8wvz427vo",
@@ -4009,7 +4002,23 @@
         "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/market-pulse/what-we-know-and-what-matters-geopolitical-risks-rise"
       ],
       "date": "2026-03-18T18:32:38.311898+00:00"
+    },
+    {
+      "title": "Google Updates Health Information Policies Across Search And YouTube",
+      "urls": [
+        "https://support.google.com/websearch/answer/2364942?hl=en",
+        "https://support.google.com/fitbit/answer/14566053?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16679511?hl=en",
+        "https://support.google.com/youtubetv/answer/16403764?hl=en",
+        "https://support.google.com/youtube/answer/16337018?hl=en",
+        "https://support.google.com/adspolicy/answer/15596627?hl=en",
+        "https://support.google.com/youtube/answer/13813322?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/14738291?hl=en",
+        "https://support.google.com/youtube/answer/9795167?hl=en",
+        "https://support.google.com/a/users/answer/9282742?hl=en"
+      ],
+      "date": "2026-03-18T19:01:23.402142+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T18:32:38.311955+00:00"
+  "lastUpdated": "2026-03-18T19:01:23.402206+00:00"
 }
