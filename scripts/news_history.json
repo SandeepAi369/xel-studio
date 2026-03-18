@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Psychiatrists Warn Against Excessive Wearable Tracking and Rigid Health Goals.",
-      "urls": [
-        "https://www.newsweek.com/3-healthy-habits-can-worsen-anxiety-psychiatrist-explains-11610027"
-      ],
-      "date": "2026-03-08T15:03:22.964545+00:00"
-    },
-    {
-      "title": "OpenAI Delays Rollout of ChatGPT's Adult Mode to Focus on Core Functionality Improvements",
-      "urls": [
-        "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again"
-      ],
-      "date": "2026-03-08T15:30:57.297333+00:00"
-    },
-    {
       "title": "US Markets Plummet as Investors React to President Trump's Economic Policy Comments",
       "urls": [
         "https://www.cnbc.com/2026/03/04/cnbc-daily-open-markets-take-a-beating-despite-trumps-reassurances.html"
@@ -4009,7 +3995,18 @@
         "https://www.fifa.com/en/news/articles/poland-ukraine-vietnam-mens-futsal-ranking"
       ],
       "date": "2026-03-18T15:02:36.598583+00:00"
+    },
+    {
+      "title": "Generative AI is a subfield of artificial intelligence focused on creating new content including tex",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "https://www.ibm.com/think/topics/generative-ai",
+        "https://www.merriam-webster.com/dictionary/generative",
+        "https://www.coursera.org/articles/what-is-generative-ai",
+        "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial"
+      ],
+      "date": "2026-03-18T15:36:50.528655+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T15:02:36.598651+00:00"
+  "lastUpdated": "2026-03-18T15:36:50.528717+00:00"
 }
