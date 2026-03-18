@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LIGO-Virgo-KAGRA Collaboration Releases GWTC-4, Doubling Black-Hole Merger Signals in Gravitational-Wave Catalog.",
-      "urls": [
-        "https://dailygalaxy.com/2026/03/the-largest-black-hole-mergers-detected"
-      ],
-      "date": "2026-03-08T21:31:02.037500+00:00"
-    },
-    {
       "title": "Congress Considers Bipartisan AI Framework Draft with Strict Safety Protocols for Public Sector Systems",
       "urls": [
         "https://mezha.net/eng/bukvy/washington_debates_bipartisan",
@@ -4027,7 +4020,16 @@
         "https://visual.ly/users/luatlongphan/portfolio"
       ],
       "date": "2026-03-18T21:01:28.107424+00:00"
+    },
+    {
+      "title": "Google Launches New AI Model With Advanced Language Capabilities",
+      "urls": [
+        "https://www.ibm.com/think/topics/artificial-intelligence",
+        "https://www.iso.org/artificial-intelligence/what-is-ai",
+        "https://www.cloudflare.com/learning/ai/what-is-artificial-intelligence"
+      ],
+      "date": "2026-03-18T21:32:37.571541+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T21:01:28.107494+00:00"
+  "lastUpdated": "2026-03-18T21:32:37.571592+00:00"
 }
