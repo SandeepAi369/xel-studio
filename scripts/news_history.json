@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Reveals Sophisticated Cyberattacks Leveraging Generative AI Across Multiple Stages",
-      "urls": [
-        "https://www.bbc.com/news/articles/ckg8wvz427vo",
-        "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks"
-      ],
-      "date": "2026-03-08T19:30:53.914370+00:00"
-    },
-    {
       "title": "Eaton Unveils Unified Cybersecurity Platform for Hospitals Under New Healthcare Cybersecurity Act Requirements",
       "urls": [
         "https://healthtechmagazine.net/article/2026/03/eaton-bolsters-hospital-defenses-healthcare-cybersecurity-act-arrives"
@@ -4018,7 +4010,14 @@
         "https://support.google.com/a/users/answer/9282742?hl=en"
       ],
       "date": "2026-03-18T19:01:23.402142+00:00"
+    },
+    {
+      "title": "SAP Deploys Generative AI To Automate Enterprise Reporting And Customer Support",
+      "urls": [
+        "https://www.sap.com/resources/what-is-generative-ai"
+      ],
+      "date": "2026-03-18T19:31:29.444926+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T19:01:23.402206+00:00"
+  "lastUpdated": "2026-03-18T19:31:29.445002+00:00"
 }
