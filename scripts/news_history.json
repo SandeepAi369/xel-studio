@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "LeBron James Surpasses Kareem Abdul-Jabbar's Record for Most Field Goals Made in NBA History",
-      "urls": [
-        "https://www.nbcsports.com/nba/news/more-history-from-lebron-james-passes-kareem-abdul-jabbar-for-most-field-goals-made-in-nba-history",
-        "https://www.foxnews.com/sports/american-runner-jessica-mcclain-speaks-out-after-bizarre-mishap-costs-her-first-place-truly-sucks",
-        "https://www.forbes.com/sites/gladyslouisetyler/2026/03/08/happy-international-womens-day-now-what"
-      ],
-      "date": "2026-03-08T12:30:54.636632+00:00"
-    },
-    {
       "title": "Physicists at University of Texas Confirm Two-Dimensional Magnetism Theory After Five Decades of Research",
       "urls": [
         "https://pitchbook.com/news/articles/discovering-new-materials-with-ai-has-a-winding-road-to-vc-returns",
@@ -3980,7 +3971,19 @@
         "https://www.ibm.com/mx-es/think/topics/digital-marketing"
       ],
       "date": "2026-03-18T12:01:38.708081+00:00"
+    },
+    {
+      "title": "Social Security Trustees Warn 2035 Trust Fund Depletion Without Reform",
+      "urls": [
+        "https://www.ssa.gov",
+        "https://secure.ssa.gov/RIL/SiView.action",
+        "https://www.ssa.gov/manage-benefits/make-an-appointment",
+        "https://www.ssa.gov/faqs/en/questions/KA-01921.html",
+        "https://www.ssa.gov/myaccount/what.html",
+        "https://www.ssa.gov/OACT/TR/2025/index.html"
+      ],
+      "date": "2026-03-18T12:31:15.015717+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T12:01:38.708148+00:00"
+  "lastUpdated": "2026-03-18T12:31:15.015782+00:00"
 }
