@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kiplimo Sets New Half-Marathon World Record in Lisbon with 57:20 Time",
-      "urls": [
-        "https://www.reuters.com/sports/ugandas-kiplimo-regains-world-half-marathon-record-lisbon-2026-03-08",
-        "https://www.runnerspace.com/gprofile.php?mgroup_id=44531&do=news&news_id=674395",
-        "https://nypost.com/2026/03/07/world-news/news-of-the-world-what-you-missed-this-week-internationally-9",
-        "https://apnews.com/article/t20-world-cup-final-india-new-zealand-5461fd654307835216341c9f0fa2b69e"
-      ],
-      "date": "2026-03-08T16:31:29.666283+00:00"
-    },
-    {
       "title": "Mentorship Initiative Launches New Cohort of Twelve Emerging Writers Under Mike Gauyo's Guidance",
       "urls": [
         "https://deadline.com/2026/03/black-boy-writes-black-girl-writes-2026-class-mentorship-1236741409"
@@ -4015,7 +4005,17 @@
         "https://edition.cnn.com/sport/tennis"
       ],
       "date": "2026-03-18T16:04:59.014340+00:00"
+    },
+    {
+      "title": "Iran Launches Missile Barrage Targeting Israeli Military Bases",
+      "urls": [
+        "https://www.cbsnews.com/live-updates/iran-war-us-israel-persian-gulf-strait-of-hormuz-trump-netanyahu",
+        "https://www.foxnews.com?msockid=360b6af4639a6f1416357dd462c06e04",
+        "https://www.reuters.com/world/us",
+        "https://www.npr.org/sections/national"
+      ],
+      "date": "2026-03-18T16:31:42.566973+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T16:04:59.014412+00:00"
+  "lastUpdated": "2026-03-18T16:31:42.567039+00:00"
 }
