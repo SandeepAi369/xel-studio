@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Approves $151.8 Million Munitions Sale to Israel Without Congressional Review",
-      "urls": [
-        "https://abcnews.com/alerts/Ukraine",
-        "https://www.reuters.com/sustainability/sustainable-switch-are-attacks-iran-legal-2026-03-06",
-        "https://www.latimes.com/world-nation/story/2026-03-02/some-fear-new-war-will-distract-world-from-gaza-ceasefire",
-        "https://www.ft.com/content/e93e124d-f4cb-41bd-8b92-0ae8a4a9d2f7",
-        "https://www.reuters.com/world/middle-east/us-state-department-approves-possible-military-sale-israel-1518-million-2026-03-07",
-        "https://www.haaretz.com/gaza/2026-03-04/ty-article/.premium/israel-opens-one-gaza-crossing-for-humanitarian-aid-after-u-s-pressure/0000019c-b7c8-df64-a59c-fffeca8a0000"
-      ],
-      "date": "2026-03-08T12:00:57.854724+00:00"
-    },
-    {
       "title": "LeBron James Surpasses Kareem Abdul-Jabbar's Record for Most Field Goals Made in NBA History",
       "urls": [
         "https://www.nbcsports.com/nba/news/more-history-from-lebron-james-passes-kareem-abdul-jabbar-for-most-field-goals-made-in-nba-history",
@@ -3976,7 +3964,23 @@
         "https://openai.com/index/gpt-5-1"
       ],
       "date": "2026-03-18T11:35:58.737426+00:00"
+    },
+    {
+      "title": "IBM Champions Digital Transformation With Cloud And AI Solutions",
+      "urls": [
+        "https://www.ibm.com/br-pt/think/topics/digital-transformation",
+        "https://www.ibm.com/think/topics/digital-transformation",
+        "https://forums.digitalspy.com/discussion/2473676/the-ratings-thread-part-76",
+        "https://forums.digitalspy.com/categories/streaming",
+        "https://forums.digitalspy.com/categories/movies",
+        "https://forums.digitalspy.com/discussion/2480434/radio-football-commentators-and-reporters-2025-26",
+        "https://www.ibm.com/mx-es/think/topics/digital-transformation",
+        "https://forums.digitalspy.com/categories/sport",
+        "https://www.ibm.com/kr-ko/think/topics/digital-twin",
+        "https://www.ibm.com/mx-es/think/topics/digital-marketing"
+      ],
+      "date": "2026-03-18T12:01:38.708081+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T11:35:58.737488+00:00"
+  "lastUpdated": "2026-03-18T12:01:38.708148+00:00"
 }
