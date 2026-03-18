@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congress Considers Bipartisan AI Framework Draft with Strict Safety Protocols for Public Sector Systems",
-      "urls": [
-        "https://mezha.net/eng/bukvy/washington_debates_bipartisan",
-        "https://www.law.com/newyorklawjournal/2026/03/06/your-ai-made-a-great-ad-your-lawyer-has-questions",
-        "https://www.researchprofessionalnews.com/rr-news-europe-nordics-2026-3-sweden-aims-to-become-a-top-10-country-for-artificial-intelligence"
-      ],
-      "date": "2026-03-08T22:01:13.620516+00:00"
-    },
-    {
       "title": "Georgia Agriculture Commissioner Unveils $531 Million Block Grant for Hurricane Helene Relief",
       "urls": [
         "https://www.actionnewsjax.com/news/local/georgia-agriculture-commissioner-announces-531m-hurricane-helene-relief-program/BBD76VLGJJD5LDVXDP6SXP6DC4?outputType=amp"
@@ -4029,7 +4020,15 @@
         "https://www.cloudflare.com/learning/ai/what-is-artificial-intelligence"
       ],
       "date": "2026-03-18T21:32:37.571541+00:00"
+    },
+    {
+      "title": "Autism Diagnosis Relies on Early Behavioral Screening",
+      "urls": [
+        "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/understanding-autism",
+        "https://www.mayoclinichealthsystem.org/topics/autism"
+      ],
+      "date": "2026-03-18T22:01:28.915879+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T21:32:37.571592+00:00"
+  "lastUpdated": "2026-03-18T22:01:28.915945+00:00"
 }
