@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft's Azure AI Transcribes Spoken Notes into Polished Text for Lawyers and Parents",
-      "urls": [
-        "https://abovethelaw.com/2026/03/the-hands-free-law-practice-how-nursing-moms-and-carpooling-crusaders-can-get-real-work-done-with-ai"
-      ],
-      "date": "2026-03-08T01:03:17.613817+00:00"
-    },
-    {
       "title": "United Airlines Flight Diverts to Los Angeles International Airport Due to Engine Problem",
       "urls": [
         "https://www.cbsnews.com/newyork/video/united-airlines-flight-makes-emergency-landing-at-lax-while-heading-to-newark-after-engine-issue",
@@ -3948,7 +3941,15 @@
         "https://www.target.com/c/mobility-home-health-care/wheelchair/-/N-4yinmZal25lf9fc45"
       ],
       "date": "2026-03-18T01:01:34.020109+00:00"
+    },
+    {
+      "title": "Macron Warns Middle East Faces Chaos Amid Iran-Linked Attacks",
+      "urls": [
+        "https://www.foxnews.com?msockid=189050f684bf61b6253247d6853e6057",
+        "https://www.usatoday.com/live-story/news/world/2026/03/15/iran-war-live-updates-trump-latest/89164437007"
+      ],
+      "date": "2026-03-18T01:31:10.205990+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T01:01:34.020173+00:00"
+  "lastUpdated": "2026-03-18T01:31:10.206079+00:00"
 }
