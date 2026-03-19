@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Peruvian Researchers Find Puna Grasslands Critical for Andean Spectacled Bear Habitat",
-      "urls": [
-        "https://goodmenproject.com/featured-content/protecting-perus-grasslands-vital-for-spectacled-bears",
-        "https://www.nytimes.com/2026/03/05/climate/trump-nature-assessment.html"
-      ],
-      "date": "2026-03-09T12:30:56.923502+00:00"
-    },
-    {
       "title": "Scientists Successfully Deploy Logic-Gated Nanoparticles Targeting Metastatic Cancer Cells with STING Activators",
       "urls": [
         "https://www.nature.com/articles/s41565-026-02131-2",
@@ -4104,7 +4096,18 @@
         "https://thegeopolitics.com"
       ],
       "date": "2026-03-19T12:02:28.747483+00:00"
+    },
+    {
+      "title": "Who: World Health Organization Releases Mental Health Atlas 2024",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+        "https://www.who.int/health-topics/mental-health",
+        "https://www.who.int/publications/i/item/9789240114487",
+        "https://www.who.int/news-room/commentaries/detail/mental-health-and-ncds--a-shared-but-differentiated-agenda-for-the-2025-un-high-level-meeting"
+      ],
+      "date": "2026-03-19T12:32:25.584226+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T12:02:28.747549+00:00"
+  "lastUpdated": "2026-03-19T12:32:25.584288+00:00"
 }
