@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hiroh Smartphone Offers Enhanced Security Features and Physical Switch for Instant Camera and Microphone Disconnection",
-      "urls": [
-        "https://www.cnet.com/tech/mobile/this-privacy-smartphone-blocks-audio-and-video-snooping-at-the-flick-of-a-switch",
-        "https://www.jpost.com/consumerism/article-888082",
-        "https://www.cnet.com/videos/mits-alterego-isnt-exactly-mind-reading",
-        "https://www.cbsnews.com/chicago/video/illinois-expands-eligibility-for-able-account-savings-program"
-      ],
-      "date": "2026-03-09T17:30:59.250308+00:00"
-    },
-    {
       "title": "FEMA Faces Leadership Uncertainty Amid Shift in Administration Nomination Process",
       "urls": [
         "https://www.insurancejournal.com/news/national/2026/03/09/860948.htm"
@@ -4098,7 +4088,18 @@
         "https://www.foxnews.com?msockid=18d07ab8bfa16d4d3cdc6d99bef16ca3"
       ],
       "date": "2026-03-19T17:02:41.972559+00:00"
+    },
+    {
+      "title": "Anthropic Releases Claude 3.5 With Enhanced Safety And Performance",
+      "urls": [
+        "https://www.anthropic.com",
+        "https://www.anthropic.com/learn",
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/company",
+        "https://www.anthropic.com/research"
+      ],
+      "date": "2026-03-19T17:31:30.011086+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T17:02:41.972619+00:00"
+  "lastUpdated": "2026-03-19T17:31:30.011152+00:00"
 }
