@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Law Firms Slow to Adopt Generative AI Due to Governance and Training Concerns",
-      "urls": [
-        "https://www.axios.com/pro/all-deals/2026/03/03/pro-rata-premium-first-look",
-        "https://www.law.com/legaltechnews/2026/03/09/legalweek-2026-day-1-identifying-law-firm-return-on-investment-in-ai",
-        "https://www.law.com/legaltechnews/2026/03/09/legalweek-2026-day-1-new-competitive-pressures-for-law-firms-and-legal-techs-ai-slop-phase-"
-      ],
-      "date": "2026-03-09T22:01:29.962512+00:00"
-    },
-    {
       "title": "Instagram Algorithm Shifts Focus to AI-Generated Content Reduces User Engagement Across Platforms",
       "urls": [
         "https://www.cnet.com/news/social-media/instagram-threads-and-linkedin-engagement-dipped-last-year-heres-whats-happening-to-our-feeds"
@@ -4120,7 +4111,15 @@
         "https://www.healthcare.gov/forgot-password"
       ],
       "date": "2026-03-19T21:32:31.616295+00:00"
+    },
+    {
+      "title": "Crest Ai Platform Designs 12000 Experiments With 78 Percent Success Rate",
+      "urls": [
+        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919",
+        "https://news.mit.edu/2025/ai-system-learns-many-types-scientific-information-and-runs-experiments-discovering-new-materials-0925"
+      ],
+      "date": "2026-03-19T22:02:24.275153+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T21:32:31.616355+00:00"
+  "lastUpdated": "2026-03-19T22:02:24.275213+00:00"
 }
