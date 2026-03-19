@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rastriya Swatantra Party Leader Secures Decisive Lead in Nepal's Parliamentary Election.",
-      "urls": [
-        "https://apnews.com/article/nepal-parliament-election-new-party-38cefee554c5e2e036b7d0c561a5cb2e",
-        "https://apnews.com/article/neuer-bayern-goalkeeper-injury-225d43febfb72d1bbe4dbe336201b080"
-      ],
-      "date": "2026-03-09T03:01:42.174134+00:00"
-    },
-    {
       "title": "Broadcom Surpasses Analyst Projections with 8% Revenue Growth to $29.1 Billion",
       "urls": [
         "https://www.tipranks.com/news/private-companies/multiverse-computing-emphasizes-diversity-and-inclusion-in-technology-workforce",
@@ -4071,7 +4063,15 @@
         "https://www.who.int/health-topics/medicines"
       ],
       "date": "2026-03-19T02:31:13.796009+00:00"
+    },
+    {
+      "title": "Screen Holdings Develops Advanced Coater For 3nm Semiconductor Production",
+      "urls": [
+        "https://www.screen.co.jp/about/organization",
+        "https://www.screen.co.jp/news/NR240222"
+      ],
+      "date": "2026-03-19T03:03:37.455107+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T02:31:13.796070+00:00"
+  "lastUpdated": "2026-03-19T03:03:37.455162+00:00"
 }
