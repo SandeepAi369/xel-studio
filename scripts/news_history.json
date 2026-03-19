@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senate Passes Bipartisan Bill to Restrict Targeted Advertising for Minors Under 17",
-      "urls": [
-        "https://www.mediapost.com/publications/article/413271/senate-passes-bill-prohibiting-ads-targeting-minor.html?edition=141839",
-        "https://www.itnews.com.au/news/us-suspects-china-in-breach-of-fbi-surveillance-network-624132",
-        "https://www.mediapost.com/publications/article/413061/california-bill-would-pay-privacy-whistleblowers.html",
-        "https://www.vitallaw.com/news/after-house-passes-bill-to-reopen-cisa-senate-signals-opposition/cspd01fd41d33243de4f85b7c41f06c5563d3b",
-        "https://www.atlantanewsfirst.com/2026/03/06/free-tool-helps-protect-your-online-privacy-beyond-passwords",
-        "https://www.itnews.com.au/news/russia-backed-hackers-breach-signal-whatsapp-accounts-of-officials-journalists-624153"
-      ],
-      "date": "2026-03-09T20:01:26.400672+00:00"
-    },
-    {
       "title": "Electronic Arts Announces Staff Layoffs at Criterion, Dice, Ripple Effect and Motive Studios",
       "urls": [
         "https://www.eurogamer.net/ea-lays-off-staff-across-battlefield-studios-following-last-years-record-breaking-battlefield-6-debut",
@@ -4111,7 +4099,23 @@
         "https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai"
       ],
       "date": "2026-03-19T19:32:18.258625+00:00"
+    },
+    {
+      "title": "Tomatoes Recalled in 14 States Over Salmonella Risk",
+      "urls": [
+        "https://www.bucyrustelegraphforum.com/news",
+        "https://www.bucyrustelegraphforum.com/story/news/local/in-depth/2014/08/23/telemedicine-growing-ohio-faces-obstacles/14437635",
+        "https://www.bucyrustelegraphforum.com/story/sports/high-school/basketball/girls/2024/01/13/buckeye-central-girls-win-first-northern-10-game-at-wynford/72192623007",
+        "https://www.bucyrustelegraphforum.com/story/news/politics/2025/02/14/ohio-abortion-judge-blocks-law-requiring-fetal-remains-buried-cremated/78623599007",
+        "https://www.bucyrustelegraphforum.com/story/news/2025/05/08/tomato-recall-in-14-states/83511157007",
+        "https://www.bucyrustelegraphforum.com/obituaries/pwoo0854641",
+        "https://www.bucyrustelegraphforum.com/story/lifestyle/2024/12/30/before-the-six-triple-eight-came-to-netflix-the-story-was-told-here/77320915007",
+        "https://www.bucyrustelegraphforum.com/story/news/local/2025/11/26/new-leader-wants-to-attract-young-families-to-crawford-county/87452889007",
+        "https://www.bucyrustelegraphforum.com/story/entertainment/life/2026/03/03/first-day-of-spring-2026/88662563007",
+        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/02/25/florida-wildfire-big-cypress-national-preserve-alligator-alcatraz/88869182007"
+      ],
+      "date": "2026-03-19T20:01:33.175092+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T19:32:18.258686+00:00"
+  "lastUpdated": "2026-03-19T20:01:33.175152+00:00"
 }
