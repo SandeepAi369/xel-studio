@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Announces Historic White House Event with Top Fighters and Enhanced Security Measures",
-      "urls": [
-        "https://www.skysports.com/tennis/watch/9187738381193713112/bnp-paribas-open-2026",
-        "https://www.foxsports.com.au/ufc/ufc-2026-white-house-card-revealed-dana-white-conor-mcgregor-jon-jones-donald-trump-joe-rogan-ilia-topuria-news-videos-full-card/news-story/e3944c5dc06ecdc45eac258dc92b5016",
-        "https://www.skysports.com/golf/video/30998/13517115/what-test-can-pga-tour-stars-expect-at-the-players",
-        "https://www.skysports.com/tennis/video/33733/13517052/aryna-sabalenka-vs-jaqueline-cristian-indian-wells-highlights",
-        "https://www.skysports.com/tennis/watch/8579433725314067112/bnp-paribas-open-2026",
-        "https://www.skysports.com/golf/video/30998/13517120/arnold-palmer-invitational-day-four-highlights",
-        "https://www.skysports.com/tennis/video/33733/13517113/ben-shelton-vs-learner-tien-indian-wells-highlights"
-      ],
-      "date": "2026-03-09T08:30:51.809362+00:00"
-    },
-    {
       "title": "Labs Launches AI-Driven Crypto Trading Platform Utilizing Computer-Vision Technology",
       "urls": [
         "https://zamin.uz/en/technology/193736-new-rules-developed-for-ai-development.html",
@@ -4101,7 +4088,15 @@
         "https://coinmarketcap.com/currencies/xrp"
       ],
       "date": "2026-03-19T08:04:38.763892+00:00"
+    },
+    {
+      "title": "U.S. Admits Over 30000 Refugees From Congo And Syria This Fiscal Year",
+      "urls": [
+        "https://www.rpc.state.gov/admissions-and-arrivals",
+        "https://ccdsd.org/refugee-services"
+      ],
+      "date": "2026-03-19T08:31:25.542277+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T08:04:38.763960+00:00"
+  "lastUpdated": "2026-03-19T08:31:25.542337+00:00"
 }
