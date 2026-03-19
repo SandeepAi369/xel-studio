@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Identify Nitric Oxide's Role in Autism Spectrum Disorder through TSC2 Protein Modification",
-      "urls": [
-        "https://www.nature.com/articles/s44220-026-00601-z",
-        "https://neurosciencenews.com/nitric-oxide-tsc2-mtor-autism-30244",
-        "https://www.hrmagazine.co.uk/content/comment/baftas-incident-proves-why-hr-must-prioritise-dialogue-education-and-duty-of-care",
-        "https://www.martechcube.com/cognitiv-co-founders-aaron-andalman-jeremy-fain-named-to-adweek-ai-power-50",
-        "https://www.chronicle.com/newsletter/academe-today/2026-03-09"
-      ],
-      "date": "2026-03-09T15:30:57.875801+00:00"
-    },
-    {
       "title": "Asian Exporters Shift Strategies Amid Rising Geopolitical Risk and Tariff Uncertainty",
       "urls": [
         "https://www.cnbc.com/video/2026/03/05/tariffs-completely-forgotten-crucial-for-asias-export-sector-jp-morgan.html",
@@ -4111,7 +4100,14 @@
         "https://ai.meta.com/research"
       ],
       "date": "2026-03-19T15:03:05.307364+00:00"
+    },
+    {
+      "title": "MIT Researchers Develop Safe Control System for Soft Robots Using Lyapunov Theory",
+      "urls": [
+        "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202"
+      ],
+      "date": "2026-03-19T15:32:24.083794+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T15:03:05.307431+00:00"
+  "lastUpdated": "2026-03-19T15:32:24.083854+00:00"
 }
