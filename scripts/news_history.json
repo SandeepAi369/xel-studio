@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Science Corporation's Implant Device Restores Vision for Most Trial Participants with Advanced Dry Macular Degeneration",
-      "urls": [
-        "https://www.npr.org/player/embed/nx-s1-5737426/nx-s1-9679068",
-        "https://www.medtechdive.com/news/science-corporation-raises-230m-for-prima-vision-restoration-device/814118",
-        "https://www.ft.com/content/6c96e089-bdd0-4afe-aea0-8bb1c6cb8bda"
-      ],
-      "date": "2026-03-09T01:01:21.496825+00:00"
-    },
-    {
       "title": "North Texas Residents Urged to Seek Shelter as Severe Weather Hits Region",
       "urls": [
         "https://www.cbsnews.com/texas/video/first-round-of-severe-weather-this-spring-heads-for-north-texas",
@@ -4053,7 +4044,23 @@
         "https://www.swvasports.com/ipb/index.php"
       ],
       "date": "2026-03-19T00:33:22.143348+00:00"
+    },
+    {
+      "title": "Magnetic Microrobots Achieve Clinical Readiness For Targeted Therapy",
+      "urls": [
+        "https://www.science.org",
+        "https://www.science.org/journal/science",
+        "https://www.science.org/news",
+        "https://www.science.org/toc/science/current",
+        "https://www.science.org/doi/10.1126/science.ads8197",
+        "https://www.science.org/toc/science/0/0",
+        "https://www.science.org/doi/10.1126/science.adz0276",
+        "https://www.science.org/journals",
+        "https://www.science.org/doi/10.1126/science.adq7203",
+        "https://www.science.org/doi/10.1126/science.adx1708"
+      ],
+      "date": "2026-03-19T01:04:32.230773+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T00:33:22.143412+00:00"
+  "lastUpdated": "2026-03-19T01:04:32.230847+00:00"
 }
