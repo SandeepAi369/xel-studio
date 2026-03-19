@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pentagon Invests in Smack Technologies AI Solutions for Secure On-Premise Military Deployment",
-      "urls": [
-        "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969?oref=d1-featured-river-top",
-        "https://mashable.com/article/march-7-1minai-advanced-business-plan-lifetime-subscription"
-      ],
-      "date": "2026-03-09T06:01:08.658995+00:00"
-    },
-    {
       "title": "Kilbirnie Community-Owned Turbine Starts Commercial Operation in North Ayrshire Today",
       "urls": [
         "https://www.edie.net/wiltshires-green-skills-innovation-centre-and-europes-largest-passivhaus-housing-project-the-sustainability-success-stories-of-the-week"
@@ -4068,7 +4060,23 @@
         "https://www.foxnews.com?msockid=295d78b8d570691c22606f99d48968e7"
       ],
       "date": "2026-03-19T05:32:19.956158+00:00"
+    },
+    {
+      "title": "Artificial Products Replicate Nature Through Human Innovation",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/artificial",
+        "https://www.dictionary.com/browse/artificial",
+        "https://dictionary.cambridge.org/dictionary/english/artificial",
+        "https://en.m.wiktionary.org/wiki/artificial",
+        "https://www.collinsdictionary.com/dictionary/english/artificial",
+        "https://www.thefreedictionary.com/artificial",
+        "https://www.wordreference.com/definition/artificial",
+        "https://www.yourdictionary.com/artificial",
+        "https://www.wordnik.com/words/artificial",
+        "https://www.definitions.net/definition/artificial"
+      ],
+      "date": "2026-03-19T06:01:23.980334+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T05:32:19.956219+00:00"
+  "lastUpdated": "2026-03-19T06:01:23.980389+00:00"
 }
