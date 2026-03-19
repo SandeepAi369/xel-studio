@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Partners with Researchers to Integrate AI in Fragile Territories for Economic Growth",
-      "urls": [
-        "https://www.darkreading.com/cyber-risk/speakeasies-shadow-ai-banning-ai-browsers-fail",
-        "https://www.devdiscourse.com/article/technology/3828309-ai-solutions-could-improve-agriculture-disaster-prediction-and-urban-planning-in-fragile-areas",
-        "https://www.itnews.com.au/gallery/in-pictures-kinetic-it-servicenow-ai-powered-service-management-roundtable-624136"
-      ],
-      "date": "2026-03-09T09:30:54.693088+00:00"
-    },
-    {
       "title": "Anthropic Study Warns AI May Replace Many Roles Based on Theoretical Capability Estimates",
       "urls": [
         "https://www.forbes.com/sites/hamiltonmann/2026/03/08/anthropics-study-does-not-measure-ais-labor-market-impacts"
@@ -4094,7 +4085,19 @@
         "https://forums.digitalspy.com/discussions"
       ],
       "date": "2026-03-19T09:01:33.121732+00:00"
+    },
+    {
+      "title": "Apple Unveils Eight New Products Including iPhone 17e and M5 MacBooks",
+      "urls": [
+        "https://www.apple.com",
+        "https://www.apple.com/store",
+        "https://apps.microsoft.com/detail/9np83lwlpz9k",
+        "https://www.macrumors.com/2026/03/17/apple-eight-new-products",
+        "https://support.apple.com",
+        "https://www.att.com/buy/tablets/browse/apple?msockid=2305f7bb0cc966cc0c2ce09a0d5767dd"
+      ],
+      "date": "2026-03-19T09:32:15.954684+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T09:01:33.121797+00:00"
+  "lastUpdated": "2026-03-19T09:32:15.954735+00:00"
 }
