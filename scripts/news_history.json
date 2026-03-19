@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Successfully Modulate Microbiome to Enhance Cancer Immunotherapy Treatments Worldwide",
-      "urls": [
-        "https://www.nature.com/articles/s41591-026-04285-x"
-      ],
-      "date": "2026-03-09T19:01:45.769767+00:00"
-    },
-    {
-      "title": "Heat Waves Trigger Flash Droughts Across Temperate Regions in Record Numbers",
-      "urls": [
-        "https://www.newscientist.com/letter/mg26935850-300-understanding-the-urgency-of-climate-change-1",
-        "https://www.greenwichtime.com/news/article/heat-waves-that-spark-damaging-droughts-are-21959660.php",
-        "https://www.reuters.com/video/watch/idRW109605032026RP1",
-        "https://www.nature.com/articles/s41558-026-02586-0"
-      ],
-      "date": "2026-03-09T19:31:12.642014+00:00"
-    },
-    {
       "title": "Senate Passes Bipartisan Bill to Restrict Targeted Advertising for Minors Under 17",
       "urls": [
         "https://www.mediapost.com/publications/article/413271/senate-passes-bill-prohibiting-ads-targeting-minor.html?edition=141839",
@@ -4116,7 +4099,19 @@
         "https://www.foxnews.com?msockid=31f3ab7f0a256acd22d1bc5e0b856b0e"
       ],
       "date": "2026-03-19T19:01:27.378477+00:00"
+    },
+    {
+      "title": "Generative AI Models Create Human Like Content Using Deep Learning",
+      "urls": [
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=054ccaf567a66a4e226dddd466016bb0",
+        "https://researchguides.library.wisc.edu/GenerativeAI",
+        "https://dictionary.cambridge.org/dictionary/english/generative",
+        "https://www.dictionary.com/browse/generative",
+        "https://www.thefreedictionary.com/generative",
+        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai"
+      ],
+      "date": "2026-03-19T19:32:18.258625+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T19:01:27.378526+00:00"
+  "lastUpdated": "2026-03-19T19:32:18.258686+00:00"
 }
