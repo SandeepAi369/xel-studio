@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Electronic Arts Announces Staff Layoffs at Criterion, Dice, Ripple Effect and Motive Studios",
-      "urls": [
-        "https://www.eurogamer.net/ea-lays-off-staff-across-battlefield-studios-following-last-years-record-breaking-battlefield-6-debut",
-        "https://www.hollywoodreporter.com/business/business-news/showmax-end-canal-plus-multichoice-africa-streaming-service-1236522251",
-        "https://www.mediapost.com/publications/article/413294/netflix-acquires-movie-production-firm-founded-by.html?edition=141818"
-      ],
-      "date": "2026-03-09T20:31:26.888291+00:00"
-    },
-    {
       "title": "Uzi Cup Unveils €144,589 Prize Pool for Veteran Esports Teams in Live Competition",
       "urls": [
         "https://www.sheepesports.com/en/lol/articles/uzi-cup-announced-with-cny1-000-000-self-funded-prize-pool/en",
@@ -4115,7 +4106,17 @@
         "https://www.bucyrustelegraphforum.com/story/news/nation/2026/02/25/florida-wildfire-big-cypress-national-preserve-alligator-alcatraz/88869182007"
       ],
       "date": "2026-03-19T20:01:33.175092+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Generate 13% Of Global Electricity In 2023",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Renewable_energy",
+        "https://www.merriam-webster.com/dictionary/renewable",
+        "https://www.nationalgeographic.com/environment/article/renewable-energy",
+        "https://ourworldindata.org/renewable-energy"
+      ],
+      "date": "2026-03-19T20:32:21.062203+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T20:01:33.175152+00:00"
+  "lastUpdated": "2026-03-19T20:32:21.062274+00:00"
 }
