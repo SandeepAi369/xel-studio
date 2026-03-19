@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CBS Sports Offers Live Coverage of Italy vs Denmark European Qualifier Match",
-      "urls": [
-        "https://www.cbssports.com/watch/soccer/LET-211532380",
-        "https://www.skysports.com/golf/video/30998/13516954/joburg-open-day-four-highlights"
-      ],
-      "date": "2026-03-09T16:31:02.934104+00:00"
-    },
-    {
       "title": "Broadcom Exceeds Earnings Expectations with Strong Sales of AI-Focused Semiconductors",
       "urls": [
         "https://fortune.com/2026/03/04/berkshire-hathaway-nvidia-warren-buffett-jensen-huang-changes-employee-stock-compensation-costs-gaap-earnings",
@@ -4101,7 +4093,14 @@
         "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
       ],
       "date": "2026-03-19T16:01:20.551080+00:00"
+    },
+    {
+      "title": "FIFA Announces Match Schedule at Ahmad Bin Ali Stadium",
+      "urls": [
+        "https://media.fifa.com/en/news/qatar-confirmed-as-fifa-intercontinental-cup-2025-tm-final-phase-host"
+      ],
+      "date": "2026-03-19T16:36:04.859715+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T16:01:20.551139+00:00"
+  "lastUpdated": "2026-03-19T16:36:04.859774+00:00"
 }
