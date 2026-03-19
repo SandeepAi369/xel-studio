@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Youth Arrested for Extremist Activities Completes Government Mandated De-radicalization Program Successfully",
-      "urls": [
-        "https://www.channelnewsasia.com/watch/former-self-radicalised-singaporean-youth-shares-his-rehabilitation-journey-5979976",
-        "https://www.edsurge.com/news/2026-03-09-screen-free-schools-some-legislators-push-for-a-new-normal",
-        "https://www.edweek.org/technology/teens-say-they-should-be-able-to-use-ai-to-complete-assignments-parents-disagree/2026/03"
-      ],
-      "date": "2026-03-09T13:30:59.255682+00:00"
-    },
-    {
       "title": "EY and BlackRock Named in Investigation into Questionable Carbon Credits Sales in Brazil",
       "urls": [
         "https://www.washingtonexaminer.com/in_focus/4483523/net-zero-out-of-reach-trump-opposes-global-climate-goals",
@@ -4114,7 +4105,14 @@
         "https://bluegrasspreps.com/forums/forum/4-ky-football-high-school"
       ],
       "date": "2026-03-19T13:03:49.428231+00:00"
+    },
+    {
+      "title": "Google Launches 200-Step Search Help Guide With Video Tutorials",
+      "urls": [
+        "https://support.google.com/websearch?hl=en"
+      ],
+      "date": "2026-03-19T13:32:27.224770+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T13:03:49.428293+00:00"
+  "lastUpdated": "2026-03-19T13:32:27.224845+00:00"
 }
