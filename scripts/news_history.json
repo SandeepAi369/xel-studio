@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pogačar Wears Advanced Wearable Sensor During Victory Celebration at Strade Bianche",
-      "urls": [
-        "https://en.edairynews.com/data-driven-strategy-revives-pennsylvania-dairy-farm",
-        "https://www.sfchronicle.com/sports/article/olympic-champion-pinheiro-braathen-leads-world-21961055.php",
-        "https://www.cyclingnews.com/cycling-tech-components/what-was-the-strange-black-arm-sensor-worn-by-tadej-pogacar-at-strade-bianche",
-        "https://markets.businessinsider.com/news/stocks/datawiz-launches-unified-retail-analytics-platform-to-address-departmental-data-conflicts-in-mid-to-large-retail-chains-1035894224",
-        "https://deadspin.com/liv-golf-ceo-scott-oneil-intent-on-impact-growing-sport-in-asia",
-        "https://deadspin.com/livs-thomas-detry-shares-war-zone-to-tourney-reality"
-      ],
-      "date": "2026-03-09T23:31:08.703166+00:00"
-    },
-    {
       "title": "US Senators Urge Federal Agencies to Update AI Data Collection and Reporting Requirements",
       "urls": [
         "https://www.govexec.com/technology/2026/03/fed-agencies-told-track-ais-impact-workforce/411971?oref=ge-featured-river-top"
@@ -4120,7 +4108,14 @@
         "https://climate.nasa.gov/news/3192/nasa-fema-release-comprehensive-climate-action-guide?_hsenc=p2ANqtz-9URcYMFJD2SW5yaxEccMBjcceToNuzPreYjRMuSkuRMCbbp-MkGxEbw-_EOVOTpfbKB01G"
       ],
       "date": "2026-03-19T23:04:37.725985+00:00"
+    },
+    {
+      "title": "Geopolitical Monitor Delivers Global Analysis Across 127 Countries",
+      "urls": [
+        "https://www.geopoliticalmonitor.com"
+      ],
+      "date": "2026-03-19T23:31:15.070800+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T23:04:37.726057+00:00"
+  "lastUpdated": "2026-03-19T23:31:15.070863+00:00"
 }
