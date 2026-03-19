@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "EY and BlackRock Named in Investigation into Questionable Carbon Credits Sales in Brazil",
-      "urls": [
-        "https://www.washingtonexaminer.com/in_focus/4483523/net-zero-out-of-reach-trump-opposes-global-climate-goals",
-        "https://www.edie.net/carbon-credits-scandal-companies-slammed-for-sourcing-problematic-offsets-from-brazil",
-        "https://www.ainonline.com/aviation-news/futureflight/2026-03-04/faa-accepts-zero-engine-taxi-certification-plan",
-        "https://www.edie.net/amazon-google-and-others-join-forces-to-reduce-highly-warming-superpollutants"
-      ],
-      "date": "2026-03-09T14:01:12.307803+00:00"
-    },
-    {
       "title": "Roche Announces Disappointing Phase 3 Results for Giredestrant in Advanced Breast Cancer Treatment",
       "urls": [
         "https://pharmaphorum.com/rd/closed-collaborative-january-february-2026"
@@ -4112,7 +4102,14 @@
         "https://support.google.com/websearch?hl=en"
       ],
       "date": "2026-03-19T13:32:27.224770+00:00"
+    },
+    {
+      "title": "Apple Community Resolves Over 1.2 Million Support Requests",
+      "urls": [
+        "https://discussions.apple.com/thread/255554428"
+      ],
+      "date": "2026-03-19T14:01:42.765565+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T13:32:27.224845+00:00"
+  "lastUpdated": "2026-03-19T14:01:42.765624+00:00"
 }
