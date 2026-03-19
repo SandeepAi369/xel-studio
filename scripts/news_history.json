@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Markus Persson Warns of Security Flaws in Popular AI Coding Assistant Products",
-      "urls": [
-        "https://www.aol.com/articles/minecraft-creator-calls-using-ai-030041507.html",
-        "https://www.aol.com/articles/ai-creating-identity-crisis-coders-101501535.html",
-        "https://www.theregister.com/2026/03/07/anthropic_bods_rework_ai_damage"
-      ],
-      "date": "2026-03-09T00:01:08.553443+00:00"
-    },
-    {
       "title": "Roblox, Call of Duty, and Fortnite Dominate Global Video Game Revenue Landscape",
       "urls": [
         "https://www.forbes.com/sites/dbloom/2026/03/07/the-game-business-is-bigger-than-ever-so-why-are-so-many-having-problems",
@@ -4040,7 +4031,23 @@
         "https://www.foxnews.com?msockid=26efe60dd02e66e8203cf12dd1eb67c3"
       ],
       "date": "2026-03-18T23:35:36.078317+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Drive Renewable Energy Growth",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Renewable_energy",
+        "https://www.britannica.com/science/renewable-energy",
+        "https://www.eia.gov/energyexplained/renewable-sources",
+        "https://www.un.org/en/climatechange/what-is-renewable-energy",
+        "https://scienceinsights.org/why-are-renewable-resources-important",
+        "https://understand-energy.stanford.edu/energy-resources/renewable-energy/introduction-renewable-energy",
+        "https://extension.psu.edu/what-is-renewable-energy",
+        "https://education.nationalgeographic.org/resource/renewable-resources",
+        "https://iere.org/what-is-renewable-energy",
+        "https://www.discoverengineering.org/fundamentals-of-renewable-energy"
+      ],
+      "date": "2026-03-19T00:01:27.295293+00:00"
     }
   ],
-  "lastUpdated": "2026-03-18T23:35:36.078382+00:00"
+  "lastUpdated": "2026-03-19T00:01:27.295355+00:00"
 }
