@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Unveils Ambitious Five-Year Plan to Boost Domestic AI and Quantum Industries",
-      "urls": [
-        "https://apnews.com/article/china-five-year-plan-technology-economy-7face4580fcfba44410ff2134a09d6bb"
-      ],
-      "date": "2026-03-09T05:31:19.242552+00:00"
-    },
-    {
       "title": "Pentagon Invests in Smack Technologies AI Solutions for Secure On-Premise Military Deployment",
       "urls": [
         "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969?oref=d1-featured-river-top",
@@ -4068,7 +4061,14 @@
         "https://www.nsf.gov/science-matters/curious-about-quantum"
       ],
       "date": "2026-03-19T05:01:22.029469+00:00"
+    },
+    {
+      "title": "Fox News Launches Zip Code Based Weather Updates",
+      "urls": [
+        "https://www.foxnews.com?msockid=295d78b8d570691c22606f99d48968e7"
+      ],
+      "date": "2026-03-19T05:32:19.956158+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T05:01:22.029560+00:00"
+  "lastUpdated": "2026-03-19T05:32:19.956219+00:00"
 }
