@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "UnityAI Secures $8.5 Million in Series A Funding Led by Third Prime",
-      "urls": [
-        "https://www.mobihealthnews.com/video/ai-and-ehrs-can-restore-not-replace-human-connection",
-        "https://hitconsultant.net/2026/03/04/unityai-agentic-ai-healthcare-operations",
-        "https://pharmaphorum.com/digital/stem-ai-new-lens-data-led-field-team-performance"
-      ],
-      "date": "2026-03-09T15:01:21.838378+00:00"
-    },
-    {
       "title": "Researchers Identify Nitric Oxide's Role in Autism Spectrum Disorder through TSC2 Protein Modification",
       "urls": [
         "https://www.nature.com/articles/s44220-026-00601-z",
@@ -4113,7 +4104,14 @@
         "https://www.who.int/news-room/facts-in-pictures/detail/disabilities"
       ],
       "date": "2026-03-19T14:31:37.023672+00:00"
+    },
+    {
+      "title": "Research Unveils Multimodal System With 88% Accuracy Across 12 Languages",
+      "urls": [
+        "https://ai.meta.com/research"
+      ],
+      "date": "2026-03-19T15:03:05.307364+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T14:31:37.023732+00:00"
+  "lastUpdated": "2026-03-19T15:03:05.307431+00:00"
 }
