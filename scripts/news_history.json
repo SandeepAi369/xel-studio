@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Roche Announces Disappointing Phase 3 Results for Giredestrant in Advanced Breast Cancer Treatment",
-      "urls": [
-        "https://pharmaphorum.com/rd/closed-collaborative-january-february-2026"
-      ],
-      "date": "2026-03-09T14:31:02.989536+00:00"
-    },
-    {
       "title": "UnityAI Secures $8.5 Million in Series A Funding Led by Third Prime",
       "urls": [
         "https://www.mobihealthnews.com/video/ai-and-ehrs-can-restore-not-replace-human-connection",
@@ -4109,7 +4102,18 @@
         "https://discussions.apple.com/thread/255554428"
       ],
       "date": "2026-03-19T14:01:42.765565+00:00"
+    },
+    {
+      "title": "Who What The World Health Organization Defines Disability Using Icf Framework",
+      "urls": [
+        "https://www.who.int/health-topics/disability",
+        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
+        "https://www.who.int/docs/librariesprovider2/default-document-library/disability-sdg-factsheet.pdf",
+        "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
+        "https://www.who.int/news-room/facts-in-pictures/detail/disabilities"
+      ],
+      "date": "2026-03-19T14:31:37.023672+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T14:01:42.765624+00:00"
+  "lastUpdated": "2026-03-19T14:31:37.023732+00:00"
 }
