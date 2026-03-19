@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "North Texas Residents Urged to Seek Shelter as Severe Weather Hits Region",
-      "urls": [
-        "https://www.cbsnews.com/texas/video/first-round-of-severe-weather-this-spring-heads-for-north-texas",
-        "https://www.cbsnews.com/chicago/video/1-year-old-porkchop-is-looking-for-a-forever-home",
-        "https://www.greenwichtime.com/news/article/some-travelers-stranded-in-dubai-are-paying-huge-21952682.php"
-      ],
-      "date": "2026-03-09T01:31:14.307121+00:00"
-    },
-    {
       "title": "Google Releases Android Security Update Fixing 129 Vulnerabilities and Qualcomm Zero-Day Exploit",
       "urls": [
         "https://cyberscoop.com/android-security-update-march-2026",
@@ -4060,7 +4051,18 @@
         "https://www.science.org/doi/10.1126/science.adx1708"
       ],
       "date": "2026-03-19T01:04:32.230773+00:00"
+    },
+    {
+      "title": "NovaTech Secures $42 Million Led by Andreessen Horowitz for Edge Computing Expansion",
+      "urls": [
+        "https://www.techradar.com",
+        "https://techcrunch.com",
+        "https://www.pcmag.com/news",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+        "https://www.theverge.com/tech"
+      ],
+      "date": "2026-03-19T01:32:18.874043+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T01:04:32.230847+00:00"
+  "lastUpdated": "2026-03-19T01:32:18.874103+00:00"
 }
