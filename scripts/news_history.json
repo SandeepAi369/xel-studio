@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Broadcom Exceeds Earnings Expectations with Strong Sales of AI-Focused Semiconductors",
-      "urls": [
-        "https://fortune.com/2026/03/04/berkshire-hathaway-nvidia-warren-buffett-jensen-huang-changes-employee-stock-compensation-costs-gaap-earnings",
-        "https://www.wsj.com/cfo-journal/big-techs-deals-for-ai-data-center-power-present-accounting-questions-28bbb4e0?gaa_at=eafs&gaa_n=AWEtsqcrBpDc0rXKcBNiom7tXms8pkLYFFpX41GrN89MBi0L6vTAAfQ70ZdW&gaa_ts=69a84fa3&gaa_sig=iCe2TsZguCctjDKD4ozS48bRrNzau8ZA1GVfJ6IPpW2FDB0aGb4v1_fIe-RvzqGNEs5pQlM5CV89J98oXzsmhg%3D%3D",
-        "https://www.barrons.com/articles/broadcom-avgo-earnings-stock-price-0e2efe3e"
-      ],
-      "date": "2026-03-09T17:01:23.671728+00:00"
-    },
-    {
       "title": "Hiroh Smartphone Offers Enhanced Security Features and Physical Switch for Instant Camera and Microphone Disconnection",
       "urls": [
         "https://www.cnet.com/tech/mobile/this-privacy-smartphone-blocks-audio-and-video-snooping-at-the-flick-of-a-switch",
@@ -4100,7 +4091,14 @@
         "https://media.fifa.com/en/news/qatar-confirmed-as-fifa-intercontinental-cup-2025-tm-final-phase-host"
       ],
       "date": "2026-03-19T16:36:04.859715+00:00"
+    },
+    {
+      "title": "Fox News Launches Zip Code Based Weather Updates",
+      "urls": [
+        "https://www.foxnews.com?msockid=18d07ab8bfa16d4d3cdc6d99bef16ca3"
+      ],
+      "date": "2026-03-19T17:02:41.972559+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T16:36:04.859774+00:00"
+  "lastUpdated": "2026-03-19T17:02:41.972619+00:00"
 }
