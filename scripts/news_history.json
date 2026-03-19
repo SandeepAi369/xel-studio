@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Labs Launches AI-Driven Crypto Trading Platform Utilizing Computer-Vision Technology",
-      "urls": [
-        "https://zamin.uz/en/technology/193736-new-rules-developed-for-ai-development.html",
-        "https://markets.businessinsider.com/news/stocks/ai-labs-introduces-ai-assisted-crypto-trading-platform-focused-on-data-analysis-and-automated-execution-1035908256",
-        "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen"
-      ],
-      "date": "2026-03-09T09:01:12.221635+00:00"
-    },
-    {
       "title": "Microsoft Partners with Researchers to Integrate AI in Fragile Territories for Economic Growth",
       "urls": [
         "https://www.darkreading.com/cyber-risk/speakeasies-shadow-ai-banning-ai-browsers-fail",
@@ -4096,7 +4087,14 @@
         "https://ccdsd.org/refugee-services"
       ],
       "date": "2026-03-19T08:31:25.542277+00:00"
+    },
+    {
+      "title": "Digital Spy Members Surge Past 2.3 Million in Active Engagement",
+      "urls": [
+        "https://forums.digitalspy.com/discussions"
+      ],
+      "date": "2026-03-19T09:01:33.121732+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T08:31:25.542337+00:00"
+  "lastUpdated": "2026-03-19T09:01:33.121797+00:00"
 }
