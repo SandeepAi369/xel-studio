@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Taliz CEO Dekel Taliaz Launches AI-Powered Platform to Streamline Israeli Psychiatric Care.",
-      "urls": [
-        "https://www.modernhealthcare.com/health-tech/mh-top-funding-grow-therapy-cognito-therapeutics",
-        "https://www.jpost.com/podcast/article-889344"
-      ],
-      "date": "2026-03-10T19:01:47.447740+00:00"
-    },
-    {
-      "title": "Anthropic Unveils Code Review Tool for Claude AI Agents in Research Preview",
-      "urls": [
-        "https://www.pcgamer.com/software/ai/anthropic-introduces-claude-code-review-so-you-dont-even-need-to-check-all-of-your-own-ai-slop"
-      ],
-      "date": "2026-03-10T19:31:15.365699+00:00"
-    },
-    {
       "title": "European Regulators Reinforce Digital Sovereignty with Strong Encryption and Control of Encryption Keys",
       "urls": [
         "https://www.itnews.com.au/gallery/in-pictures-securing-ai-agents-and-nhis---saviynt-sydney-roundtable-624138",
@@ -4182,7 +4167,14 @@
         "https://www.who.int/es/health-topics/mental-health"
       ],
       "date": "2026-03-20T19:01:34.034574+00:00"
+    },
+    {
+      "title": "Amazon Deploys 750000 Robots And Digit Humanoids To Speed Fulfillment",
+      "urls": [
+        "https://spectrum.ieee.org/amazon-ai-robotics"
+      ],
+      "date": "2026-03-20T19:31:18.572253+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T19:01:34.034627+00:00"
+  "lastUpdated": "2026-03-20T19:31:18.572314+00:00"
 }
