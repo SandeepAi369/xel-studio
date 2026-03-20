@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Government Convenes Safety Forum for Autonomous Vehicle Leaders Waymo Zoox and Aurora",
-      "urls": [
-        "https://timesofindia.indiatimes.com/auto/cars/us-to-host-self-driving-safety-forum-with-waymo-zoox-and-aurora-ceos/articleshow/129260588.cms",
-        "https://www.nbcnewyork.com/video/news/watch-suspects-in-gracie-mansion-ied-case-walked/6474188",
-        "https://www.nbcnewyork.com/video/news/huge-fire-destroys-row-of-bronx-businesses/6473244"
-      ],
-      "date": "2026-03-10T05:01:30.137272+00:00"
-    },
-    {
       "title": "Sword Health Unveils Groundbreaking AI-Powered Mental Health Platform at HIMSS26 Conference",
       "urls": [
         "https://hitconsultant.net/2026/03/09/himss26-pre-day-recap",
@@ -4125,7 +4116,15 @@
         "https://www.sciencenews.org/article/fractals-math-science-society-50-years"
       ],
       "date": "2026-03-20T04:31:14.012847+00:00"
+    },
+    {
+      "title": "Reuters Journalists Deliver Real-Time Global News From 160 Countries",
+      "urls": [
+        "https://www.foxnews.com?msockid=0f296314698961be1435743668a260e3",
+        "https://www.reuters.com/live"
+      ],
+      "date": "2026-03-20T05:04:40.513176+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T04:31:14.012913+00:00"
+  "lastUpdated": "2026-03-20T05:04:40.513226+00:00"
 }
