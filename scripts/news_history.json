@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jai Opetaia Captures Zuffa Boxing Cruiserweight Championship in Las Vegas Upset.",
-      "urls": [
-        "https://www.mmamania.com/zuffa-boxing-news/427050/highlights-jai-opetaia-dominates-brandon-glanton-becomes-first-ever-zuffa-boxing-champion-in-las-vegas",
-        "https://deadspin.com/francis-ngannou-added-to-netflixs-rousey-carano-card",
-        "https://www.skysports.com/tennis/watch/6016925600774357112/bnp-paribas-open-2026",
-        "https://jp.ufc.com/news/brandon-glanton-is-chasing-immortality-zuffa-boxing-04",
-        "https://www.skysports.com/tennis/video/30998/13517500/jessica-pegula-vs-jelena-ostapenko-indian-wells-highlights"
-      ],
-      "date": "2026-03-10T00:31:08.396217+00:00"
-    },
-    {
       "title": "Nigeria Launches National Initiative to Empower Women with Disabilities in Agricultural Development",
       "urls": [
         "https://www.miragenews.com/nigeria-advances-disability-inclusive-1632520",
@@ -4115,7 +4104,14 @@
         "https://www.linux.org/forums/getting-started.148"
       ],
       "date": "2026-03-20T00:04:37.011654+00:00"
+    },
+    {
+      "title": "WMO Reports Global Temperatures Hit 1.54°C Above Pre-Industrial Levels",
+      "urls": [
+        "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-2024-update-cop29"
+      ],
+      "date": "2026-03-20T00:35:43.690426+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T00:04:37.011729+00:00"
+  "lastUpdated": "2026-03-20T00:35:43.690504+00:00"
 }
