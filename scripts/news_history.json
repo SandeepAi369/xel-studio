@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils Over a Dozen New Devices Including Budget iPad 12 and Refreshed HomePod Mini",
-      "urls": [
-        "https://www.macrumors.com/2026/03/09/apple-the-first-50-years-book-launch",
-        "https://www.gsmarena.com/weekly_deals_iphone_17e_new_ipad_air_macbook_neo_plus_new_macbook_air_and_pro-news-71842.php",
-        "https://www.cultofmac.com/news/apple-spring-2026",
-        "https://9to5mac.com/2026/03/07/apple-products-in-the-pipeline-for-2026-after-macbook-neo-launch",
-        "https://www.cnet.com/videos/the-future-of-phones-is-weird",
-        "https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next",
-        "https://www.macrumors.com/2026/03/10/apple-the-first-50-years-book-launch",
-        "https://www.bloomberg.com/news/newsletters/2026-03-08/apple-to-expand-ultra-lines-after-599-macbook-neo-3d-printed-aluminum-imacs-mmhpa12d"
-      ],
-      "date": "2026-03-10T20:31:22.239155+00:00"
-    },
-    {
-      "title": "Tiger Woods Makes Historic Birdie Putt at 2001 Players Championship",
-      "urls": [
-        "https://www.skysports.com/golf/video/37486/13517322/tiger-woods-iconic-putt-at-players-championship-25-years-on-the-greatest-putt-in-pga-tour-history",
-        "https://www.foxsports.com/watch-vertical/fmc-bvhrpscjqxy6vtr9",
-        "https://www.mlb.com/stories?r=%2Fdbacks&s=https%3A%2F%2Fwww.mlb.com%2Fstories%2Fgame%2F831720"
-      ],
-      "date": "2026-03-10T21:01:30.262066+00:00"
-    },
-    {
       "title": "Streaming Platforms Expand Sign-Language Options to Meet Growing Demand for Inclusive Content",
       "urls": [
         "https://www.cnet.com/tech/home-entertainment/rise-of-asl-streaming-entertainment",
@@ -4185,7 +4162,14 @@
         "https://www.bbc.com/technology"
       ],
       "date": "2026-03-20T20:31:15.005711+00:00"
+    },
+    {
+      "title": "Who What: WHO Deploys Emergency Teams to Vanuatu After 7.3 Quake",
+      "urls": [
+        "https://www.who.int/westernpacific/newsroom/feature-stories/item/vanuatu-responds-to-multiple-health-challenges-following-7.3-magnitude-earthquake"
+      ],
+      "date": "2026-03-20T21:02:42.690051+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T20:31:15.005772+00:00"
+  "lastUpdated": "2026-03-20T21:02:42.690116+00:00"
 }
