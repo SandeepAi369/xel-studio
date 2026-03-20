@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cedars-Sinai Launches Unified Digital Platform for Smart Hospital Operations and Enhanced Medical Education",
-      "urls": [
-        "https://www.mobihealthnews.com/news/smart-hospital-design-shifts-hardware-software-data",
-        "https://www.mobihealthnews.com/video/rewriting-medical-school-playbook-ai"
-      ],
-      "date": "2026-03-10T07:31:18.393268+00:00"
-    },
-    {
-      "title": "Bluesky CEO Jay Graber Transitions to Chief Innovation Officer Role",
-      "urls": [
-        "https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down",
-        "https://www.cnbc.com/video/2026/03/05/investor-dilemma-to-buy-or-not-to-buy-the-dip.html",
-        "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
-        "https://nextunicorn.ventures/techcrunchs-key-players-and-recent-developments-in-funding-and-podcasts"
-      ],
-      "date": "2026-03-10T08:01:29.124009+00:00"
-    },
-    {
       "title": "Tim Cahill Scores Crucial Equalising Goal Against Belgium in 2014 World Cup.",
       "urls": [
         "https://www.latimes.com/sports/newsletter/2026-03-09/best-basketball-team-in-area",
@@ -4166,7 +4148,23 @@
         "https://www.zhihu.com/question/1891199099660923566"
       ],
       "date": "2026-03-20T07:31:10.766157+00:00"
+    },
+    {
+      "title": "Google Cloud Integrates Cloud Storage With BigQuery For Real Time Analytics",
+      "urls": [
+        "https://cloud.google.com/storage",
+        "https://storage.cloud.google.com",
+        "https://docs.cloud.google.com/docs/overview",
+        "https://docs.cloud.google.com/docs/get-started",
+        "https://docs.cloud.google.com",
+        "https://cloud.google.com/storage?hl=es-419",
+        "https://cloud.google.com/solutions",
+        "https://docs.cloud.google.com/docs/get-started?hl=zh-cn",
+        "https://docs.cloud.google.com/docs",
+        "https://docs.cloud.google.com/docs/get-started?hl=zh-tw"
+      ],
+      "date": "2026-03-20T08:01:33.366193+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T07:31:10.766218+00:00"
+  "lastUpdated": "2026-03-20T08:01:33.366255+00:00"
 }
