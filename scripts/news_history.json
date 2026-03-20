@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congolese Museum Conflicts Erupt Over 19th Century Mining Maps Ownership Dispute",
-      "urls": [
-        "https://www.reuters.com/video/watch/idRW118605032026RP1",
-        "https://www.reuters.com/video/watch/idRW035703032026RP1",
-        "https://gizmodo.com/chinas-new-5-year-plan-more-ai-less-us-2000730114",
-        "https://www.reuters.com/video/watch/idRW037303032026RP1",
-        "https://www.reuters.com/video/watch/idRW065004032026RP1"
-      ],
-      "date": "2026-03-10T10:34:00.819774+00:00"
-    },
-    {
-      "title": "Alasaad's Syrian War Crimes Documentary Premieres at Thessaloniki Documentary Festival in Spring 2024",
-      "urls": [
-        "https://variety.com/2026/film/global/ashes-no-other-land-syria-justice-1236682247",
-        "https://ejewishphilanthropy.com/jewish-agency-launches-fresh-fund-for-victims-of-latest-war-with-iran",
-        "https://www.reuters.com/world/middle-east/maybe-we-die-together-voices-iran-turkey-mountain-crossing-2026-03-10",
-        "https://www.latimes.com/opinion/story/2026-03-04/israel-block-aid-gaza-ceasefire"
-      ],
-      "date": "2026-03-10T11:02:05.522584+00:00"
-    },
-    {
       "title": "HPE Raises Earnings Outlook on Strong Demand for Hybrid Cloud Services and AI Hardware.",
       "urls": [
         "https://www.wsj.com/business/earnings/hpe-sales-rise-on-networking-growth-despite-cloud-and-ai-decline-3673aac0?gaa_at=eafs&gaa_n=AWEtsqeunjSSVHSEyQv_tQD8pf0-eQ447XtWljUDTwO_O_OYMGgUW-Zuldk3&gaa_ts=69afc354&gaa_sig=owCD9QeXw15LWug0hlyL2sJ5k39q7hDVj06soUCl3iOMz1PsYYyQyIymki2eq4Y_3GEGKTUdsHZMjUM8AsSJBw%3D%3D"
@@ -4177,7 +4156,14 @@
         "https://www.foxnews.com?msockid=0dedb926de2e6ef50268ae04df9e6f32"
       ],
       "date": "2026-03-20T10:32:45.430526+00:00"
+    },
+    {
+      "title": "Fox News Launches Zip Code Specific Weather Forecasts Nationwide",
+      "urls": [
+        "https://www.foxnews.com?msockid=03ad1cab8ee96b5a226d0b898fa16a4d"
+      ],
+      "date": "2026-03-20T11:02:31.508396+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T10:32:45.430591+00:00"
+  "lastUpdated": "2026-03-20T11:02:31.508463+00:00"
 }
