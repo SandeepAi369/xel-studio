@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Obama Endorses Virginia Democrats' Redistricting Map Ahead of Upcoming Voter Approval",
-      "urls": [
-        "https://apnews.com/article/obama-virginia-redistricting-midterms-congress-c81f3a7bf7ca3dfd16dd0ca7fda5955a",
-        "https://www.devdiscourse.com/article/politics/3832248-political-clash-agriculture-schemes-at-the-heart-of-west-bengals-electoral-battle",
-        "https://www.wsoctv.com/news/local/updates-north-carolina-primary-election-results/UOO4PTG4N5FGHJLAR56K3EFQZA"
-      ],
-      "date": "2026-03-10T12:02:15.272067+00:00"
-    },
-    {
       "title": "Zuffa Boxing's Inaugural Cruiserweight Title Fight Sees Jai Opetaia Defeat Brandon Glanton",
       "urls": [
         "https://sports.yahoo.com/articles/opetaia-becomes-first-ever-zuffa-043622095.html",
@@ -4179,7 +4170,14 @@
         "https://www.olympics.com/en/sports"
       ],
       "date": "2026-03-20T12:01:24.844383+00:00"
+    },
+    {
+      "title": "Fox News Launches Nationwide Weather Alert System",
+      "urls": [
+        "https://www.foxnews.com?msockid=299cf4edd90c6ada173ee3cfd85c6be0"
+      ],
+      "date": "2026-03-20T12:31:27.982251+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T12:01:24.844433+00:00"
+  "lastUpdated": "2026-03-20T12:31:27.982318+00:00"
 }
