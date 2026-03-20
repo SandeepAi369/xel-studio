@@ -4109,7 +4109,15 @@
         "https://coinmarketcap.com/currencies/bitcoin"
       ],
       "date": "2026-03-20T01:02:32.733527+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Forecasts For 28000 Zip Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=07e41a867d496bf0378f0da47c1b6a24",
+        "https://www.ndtv.com/latest"
+      ],
+      "date": "2026-03-20T01:31:14.959070+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T01:02:32.733586+00:00"
+  "lastUpdated": "2026-03-20T01:31:14.959124+00:00"
 }
