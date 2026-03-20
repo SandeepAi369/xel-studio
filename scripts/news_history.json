@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tim Cahill Scores Crucial Equalising Goal Against Belgium in 2014 World Cup.",
-      "urls": [
-        "https://www.latimes.com/sports/newsletter/2026-03-09/best-basketball-team-in-area",
-        "https://www.foxsports.com/watch/fmc-v56lkcq2nhupy641",
-        "https://www.foxsports.com/watch/fmc-5z3io3il8t6gdesr",
-        "https://www.foxsports.com/watch/fmc-qwr86d4hfbdyzhu3",
-        "https://www.foxsports.com/watch/fmc-cxoj32ii0pxely0d",
-        "https://www.espn.com/cricket/series/8039/coverage/65090/crossDomain",
-        "https://www.foxsports.com/watch-vertical/fmc-taj8v2ii796viqoe",
-        "https://www.foxsports.com/watch-vertical/fmc-m113c99xkm0oc3sk",
-        "https://www.foxsports.com/watch-vertical/fmc-bll4cgofgd779jap"
-      ],
-      "date": "2026-03-10T08:31:13.536929+00:00"
-    },
-    {
       "title": "OpenAI's Codex Security Tool Discovers Over 11,000 High-Severity Flaws in Real-World Codebases",
       "urls": [
         "https://www.csoonline.com/article/4142354/openai-says-codex-security-found-11000-high-impact-bugs-in-a-month.html"
@@ -4164,7 +4149,16 @@
         "https://docs.cloud.google.com/docs/get-started?hl=zh-tw"
       ],
       "date": "2026-03-20T08:01:33.366193+00:00"
+    },
+    {
+      "title": "Sacramento Tennis League Connects 1200 Players With USTA Sanctioned Matches",
+      "urls": [
+        "https://www.tennissacramento.com",
+        "https://en.wikipedia.org/wiki/Tennis",
+        "https://www.usta.com/en/home.html"
+      ],
+      "date": "2026-03-20T08:32:32.458899+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T08:01:33.366255+00:00"
+  "lastUpdated": "2026-03-20T08:32:32.458961+00:00"
 }
