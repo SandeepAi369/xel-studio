@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Senators Urge Federal Agencies to Update AI Data Collection and Reporting Requirements",
-      "urls": [
-        "https://www.govexec.com/technology/2026/03/fed-agencies-told-track-ais-impact-workforce/411971?oref=ge-featured-river-top"
-      ],
-      "date": "2026-03-10T00:01:24.129358+00:00"
-    },
-    {
       "title": "Jai Opetaia Captures Zuffa Boxing Cruiserweight Championship in Las Vegas Upset.",
       "urls": [
         "https://www.mmamania.com/zuffa-boxing-news/427050/highlights-jai-opetaia-dominates-brandon-glanton-becomes-first-ever-zuffa-boxing-champion-in-las-vegas",
@@ -4115,7 +4108,14 @@
         "https://www.geopoliticalmonitor.com"
       ],
       "date": "2026-03-19T23:31:15.070800+00:00"
+    },
+    {
+      "title": "Linux Org Launches New User Support Forum for Easier OS Setup",
+      "urls": [
+        "https://www.linux.org/forums/getting-started.148"
+      ],
+      "date": "2026-03-20T00:04:37.011654+00:00"
     }
   ],
-  "lastUpdated": "2026-03-19T23:31:15.070863+00:00"
+  "lastUpdated": "2026-03-20T00:04:37.011729+00:00"
 }
