@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Investors Analyze Earnings from Hewlett Packard Enterprise and Oracle Amid Market Volatility",
-      "urls": [
-        "https://www.cnbc.com/2026/03/08/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03052026-11919938"
-      ],
-      "date": "2026-03-10T03:31:12.575791+00:00"
-    },
-    {
       "title": "Anthropic Discloses 22 New Firefox Browser Flaws Using Claude Opus 4.6 Model",
       "urls": [
         "https://indianexpress.com/article/explained/explained-sci-tech/anthropic-vs-pentagon-us-supply-chain-risk-standoff-claude-ai-10571260/lite",
@@ -4111,7 +4103,23 @@
         "https://jumbleanswers.com/fivyer-jumble"
       ],
       "date": "2026-03-20T03:01:32.203655+00:00"
+    },
+    {
+      "title": "International Trucks Expands to 85 Locations Across Mexico",
+      "urls": [
+        "https://www.360.internationaltrucks.com",
+        "https://mexico.internationaltrucks.com",
+        "https://mexico.internationaltrucks.com/camiones-de-carga",
+        "https://mexico.internationaltrucks.com/contacto",
+        "https://mexico.internationaltrucks.com/distribuidores-international",
+        "https://mexico.internationaltrucks.com/camiones-torton",
+        "https://mexico.internationaltrucks.com/camiones-chatos",
+        "https://mexico.internationaltrucks.com/nosotros",
+        "https://mexico.internationaltrucks.com/tractocamion-en-venta",
+        "https://mexico.internationaltrucks.com/autobus-de-pasajeros"
+      ],
+      "date": "2026-03-20T03:31:13.428081+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T03:01:32.203708+00:00"
+  "lastUpdated": "2026-03-20T03:31:13.428143+00:00"
 }
