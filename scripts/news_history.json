@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Commission to Review Emissions Trading System by July Deadline",
-      "urls": [
-        "https://www.reuters.com/sustainability/climate-energy/eu-leaders-demand-carbon-market-reform-by-july-draft-shows-2026-03-10",
-        "https://www.openpr.com/news/4418209/climate-resilient-agriculture-market-expected-to-reach-us",
-        "https://www.nature.com/articles/s41558-026-02589-x"
-      ],
-      "date": "2026-03-10T23:31:10.106507+00:00"
-    },
-    {
       "title": "Xiaomi Deploys Humanoid Robots on Electric-Vehicle Assembly Line for Efficiency Trial",
       "urls": [
         "https://roboticsandautomationnews.com/2026/03/10/xiaomi-tests-humanoid-robots-on-electric-production-line-in-automotive-factory/99418",
@@ -4185,7 +4176,16 @@
         "https://visual.ly/community/presentation/business/jewelry-website-designers"
       ],
       "date": "2026-03-20T23:01:27.666562+00:00"
+    },
+    {
+      "title": "Waffle House Closes Multiple South Carolina Locations Amid Winter Storm",
+      "urls": [
+        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/01/24/waffle-houses-close-as-winter-storm-nears-south-carolina/88344756007",
+        "https://www.bucyrustelegraphforum.com/story/news/education/2018/04/19/McKay-salem-keizer-ballot-measure-24-429-oregon-bond-improvements/526409002",
+        "https://www.bucyrustelegraphforum.com/story/news/local/2018/07/10/crawford-county-fair-schedule-events/767317002"
+      ],
+      "date": "2026-03-20T23:31:15.201645+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T23:01:27.666624+00:00"
+  "lastUpdated": "2026-03-20T23:31:15.201705+00:00"
 }
