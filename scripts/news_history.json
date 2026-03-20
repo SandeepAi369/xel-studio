@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Tools Raise Concerns Among Moms Across Political Lines in US Schools",
-      "urls": [
-        "https://www.edweek.org/technology/moms-across-the-political-spectrum-urge-caution-on-ai-in-schools/2026/03"
-      ],
-      "date": "2026-03-10T17:31:16.153751+00:00"
-    },
-    {
       "title": "Schneider Electric Engages 2700 Suppliers in Large-Scale Renewable Energy Procurement Effort Globally",
       "urls": [
         "https://procurementmag.com/news/procurement-the-engine-driving-net-zero"
@@ -4167,7 +4160,14 @@
         "https://www.thefreedictionary.com/accessible"
       ],
       "date": "2026-03-20T17:06:17.393662+00:00"
+    },
+    {
+      "title": "Screen Holdings Develops Advanced Photolithography Tools for 2nm Chips",
+      "urls": [
+        "https://www.screen.co.jp/overview"
+      ],
+      "date": "2026-03-20T17:32:16.199726+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T17:06:17.393724+00:00"
+  "lastUpdated": "2026-03-20T17:32:16.199796+00:00"
 }
