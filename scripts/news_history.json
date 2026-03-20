@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Workspace CLI Enables AI Agents to Automate Google Cloud Tasks Seamlessly",
-      "urls": [
-        "https://www.tomsguide.com/ai/i-ran-7-real-world-prompts-on-gemini-3-and-claude-sonnet-4-6-the-results-surprised-me",
-        "https://www.practicalecommerce.com/studies-reveal-ai-citation-clues",
-        "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data",
-        "https://www.newscientist.com/article/2518450-the-moment-that-kicked-off-the-ai-revolution"
-      ],
-      "date": "2026-03-10T02:01:37.426245+00:00"
-    },
-    {
-      "title": "Tool Revolutionizes Pharmaceutical Industry with Rapid Molecular Design and Synthesis Process",
-      "urls": [
-        "https://bioengineer.org/ai-tool-revolutionizes-drug-synthesis-process"
-      ],
-      "date": "2026-03-10T02:31:14.953522+00:00"
-    },
-    {
       "title": "Scientists Discover Human Saliva Components Neutralize Peanut Allergen Protein in Lab Tests",
       "urls": [
         "https://digg.com/offbeat/S7EVukF/scientists-find-a-built-in-weapon"
@@ -4115,7 +4098,20 @@
         "https://www.foxnews.com?msockid=29b6442980b76c1826c9530b81596da6"
       ],
       "date": "2026-03-20T02:01:26.594884+00:00"
+    },
+    {
+      "title": "Google Expands Ecosystem With Gemini AI And Cloud Innovations",
+      "urls": [
+        "https://mail.google.com/mail",
+        "https://mail.google.com/mail/u/0",
+        "https://www.google.com",
+        "https://translate.google.com.hk",
+        "https://about.google/products",
+        "https://en.wikipedia.org/wiki/Google",
+        "https://about.google"
+      ],
+      "date": "2026-03-20T02:34:34.546245+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T02:01:26.594946+00:00"
+  "lastUpdated": "2026-03-20T02:34:34.546304+00:00"
 }
