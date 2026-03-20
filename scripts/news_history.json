@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI's Codex Security Tool Discovers Over 11,000 High-Severity Flaws in Real-World Codebases",
-      "urls": [
-        "https://www.csoonline.com/article/4142354/openai-says-codex-security-found-11000-high-impact-bugs-in-a-month.html"
-      ],
-      "date": "2026-03-10T09:03:46.357117+00:00"
-    },
-    {
-      "title": "Tether Develops Brain-to-Text Platform Utilizing AI Pipeline for Secure Neural Data Translation",
-      "urls": [
-        "https://techcrunch.com/sponsor/tether/tether-is-setting-the-standards-forbrain-to-text-speech-decoding-withai-augmented-bci-implants",
-        "https://www.defensenews.com/news/your-military/2026/03/03/national-guard-members-invention-allows-cyber-warfare-training-on-the-go"
-      ],
-      "date": "2026-03-10T09:33:23.795768+00:00"
-    },
-    {
       "title": "Congolese Museum Conflicts Erupt Over 19th Century Mining Maps Ownership Dispute",
       "urls": [
         "https://www.reuters.com/video/watch/idRW118605032026RP1",
@@ -4165,7 +4150,14 @@
         "https://www.wordreference.com/definition/incredible"
       ],
       "date": "2026-03-20T09:01:25.673659+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 U.S. ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=07c1cc6135e66e910a47db4334d36f83"
+      ],
+      "date": "2026-03-20T09:33:42.898068+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T09:01:25.673713+00:00"
+  "lastUpdated": "2026-03-20T09:33:42.898135+00:00"
 }
