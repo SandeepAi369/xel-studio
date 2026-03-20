@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zuffa Boxing's Inaugural Cruiserweight Title Fight Sees Jai Opetaia Defeat Brandon Glanton",
-      "urls": [
-        "https://sports.yahoo.com/articles/opetaia-becomes-first-ever-zuffa-043622095.html",
-        "https://www.skysports.com/boxing/news/12183/13517151/jai-opetaia-wins-zuffa-world-cruiserweight-championship-and-now-determined-to-unify-the-division",
-        "https://bloodyelbow.com/2026/03/08/charles-oliveira-responds-to-conor-mcgregor-and-nate-diaz-criticism-with-a-challenge-for-both-men"
-      ],
-      "date": "2026-03-10T12:31:28.119148+00:00"
-    },
-    {
       "title": "Icelandic Psychiatrist Dagur Bjarnason Calls for Overhaul of Autism Mental Health Services",
       "urls": [
         "https://hrexecutive.com/neurodivergence-and-the-workplace-5-must-watch-trends",
@@ -4177,7 +4168,14 @@
         "https://www.foxnews.com?msockid=299cf4edd90c6ada173ee3cfd85c6be0"
       ],
       "date": "2026-03-20T12:31:27.982251+00:00"
+    },
+    {
+      "title": "Who Are Refugees According To UNHCR Definition",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Refugee"
+      ],
+      "date": "2026-03-20T13:01:35.210593+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T12:31:27.982318+00:00"
+  "lastUpdated": "2026-03-20T13:01:35.210651+00:00"
 }
