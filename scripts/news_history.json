@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Discloses 22 New Firefox Browser Flaws Using Claude Opus 4.6 Model",
-      "urls": [
-        "https://indianexpress.com/article/explained/explained-sci-tech/anthropic-vs-pentagon-us-supply-chain-risk-standoff-claude-ai-10571260/lite",
-        "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
-        "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code",
-        "https://www.wsj.com/tech/ai/send-us-more-anthropics-claude-sniffs-out-bevy-of-bugs-c6822075?gaa_at=eafs&gaa_n=AWEtsqdZ4OveydbpE6jR7aT5ztVcR08zmPzUXXAIXhTQQU01_fk5LMcIS7hy&gaa_ts=69ac2382&gaa_sig=CXb8eJhwFKFOY41SV5XCGr6fRM9nCxOLYiEXz4VJQNu9vujqVOsocO7KY7EwvPeuyxbrCidt1xYdeyec0Ho2oQ%3D%3D"
-      ],
-      "date": "2026-03-10T04:01:19.941470+00:00"
-    },
-    {
       "title": "Oksana Masters Wins 20th Paralympic Medal in Women's 7.5km Biathlon Sitting Event",
       "urls": [
         "https://www.nbcolympics.com/news/masters-secures-20th-paralympic-medal-75km-gold-gretsch-takes-silver",
@@ -4119,7 +4109,16 @@
         "https://mexico.internationaltrucks.com/autobus-de-pasajeros"
       ],
       "date": "2026-03-20T03:31:13.428081+00:00"
+    },
+    {
+      "title": "Insurers Submit ACA Premium Hikes Over 10% for Federal Review",
+      "urls": [
+        "https://www.healthcare.gov/create-account",
+        "https://ratereview.healthcare.gov",
+        "https://www.healthcare.gov/lower-costs"
+      ],
+      "date": "2026-03-20T04:01:26.365873+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T03:31:13.428143+00:00"
+  "lastUpdated": "2026-03-20T04:01:26.365947+00:00"
 }
