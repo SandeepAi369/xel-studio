@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia plans to launch an open-source AI agent platform called NemoClaw for enterprises, allowing co",
-      "urls": [
-        "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html"
-      ],
-      "date": "2026-03-10T15:32:15.028705+00:00"
-    },
-    {
       "title": "China Sets 2026 GDP Growth Range Amid Efforts to Expand Domestic Consumption",
       "urls": [
         "https://www.latimes.com/business/story/2026-03-09/what-chinas-latest-economic-plans-say-about-its-tech-ambitions",
@@ -4179,7 +4172,14 @@
         "https://cloud.google.com/products"
       ],
       "date": "2026-03-20T15:31:18.711266+00:00"
+    },
+    {
+      "title": "International Launches Urban Buses With ABS And Proximity Sensors",
+      "urls": [
+        "https://mexico.internationaltrucks.com/autobuses-de-pasajeros"
+      ],
+      "date": "2026-03-20T16:01:24.012287+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T15:31:18.711330+00:00"
+  "lastUpdated": "2026-03-20T16:01:24.012350+00:00"
 }
