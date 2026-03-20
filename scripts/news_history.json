@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gautam Solar Expands Production Capacity to Meet Rising Indian Solar Demand Requirements",
-      "urls": [
-        "https://solarquarter.com/2026/03/10/gautam-solar-breaks-into-indias-top-4-solar-module-manufacturers"
-      ],
-      "date": "2026-03-10T14:05:10.610916+00:00"
-    },
-    {
-      "title": "HAIL AI Unveils Groundbreaking Multi-System AI Architecture for Public Websites Worldwide",
-      "urls": [
-        "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world",
-        "https://natlawreview.com/press-releases/hail-aitm-unveils-multi-system-ai-architecture-public-websites"
-      ],
-      "date": "2026-03-10T14:31:34.903386+00:00"
-    },
-    {
       "title": "Kobe University Researchers Create AI System to Detect Rare Hormone Disorder Acromegaly",
       "urls": [
         "https://www.news-medical.net/news/20260309/AI-model-flags-hidden-breast-cancers-years-before-diagnosis-in-routine-mammograms.aspx",
@@ -4182,7 +4167,15 @@
         "https://thehill.com/opinion/national-security/5789981-geopolitical-instability-us-security-threats"
       ],
       "date": "2026-03-20T14:02:49.079116+00:00"
+    },
+    {
+      "title": "Hugging Face Outage Disrupts Global AI Model Access",
+      "urls": [
+        "https://www.zhihu.com/question/599683557",
+        "https://www.zhihu.com/question/10196054241"
+      ],
+      "date": "2026-03-20T14:34:36.905655+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T14:02:49.079175+00:00"
+  "lastUpdated": "2026-03-20T14:34:36.905718+00:00"
 }
