@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Schneider Electric Engages 2700 Suppliers in Large-Scale Renewable Energy Procurement Effort Globally",
-      "urls": [
-        "https://procurementmag.com/news/procurement-the-engine-driving-net-zero"
-      ],
-      "date": "2026-03-10T18:01:34.863385+00:00"
-    },
-    {
       "title": "CYBER.ORG Launches AI Modules for Educators and Parents Across the United States",
       "urls": [
         "https://www.axios.com/2026/03/10/ai-agents-spam-the-volunteers-securing-open-source-software",
@@ -4167,7 +4160,18 @@
         "https://www.screen.co.jp/overview"
       ],
       "date": "2026-03-20T17:32:16.199726+00:00"
+    },
+    {
+      "title": "Apple Unveils iPhone 17 Pro With Titanium Frame And 8GB RAM",
+      "urls": [
+        "https://www.morningstar.com/stocks/xnas/aapl/quote",
+        "https://www.att.com/buy/tablets/browse/apple?msockid=0a842434b9226171103f3316b8a5605b",
+        "https://www.walmart.com/cp/apple-brand-shop/1229722",
+        "https://www.apple.com/iphone",
+        "https://www.apple.com/mac"
+      ],
+      "date": "2026-03-20T18:02:47.373527+00:00"
     }
   ],
-  "lastUpdated": "2026-03-20T17:32:16.199796+00:00"
+  "lastUpdated": "2026-03-20T18:02:47.373589+00:00"
 }
