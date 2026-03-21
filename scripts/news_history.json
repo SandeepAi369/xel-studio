@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI's Codex Agents Challenge Anthropic's Claude Code with Enhanced Automation Capabilities",
-      "urls": [
-        "https://www.wired.com/story/openai-codex-race-claude-code"
-      ],
-      "date": "2026-03-11T19:31:18.152421+00:00"
-    },
-    {
-      "title": "Global Economy Faces Uncertainty as Oil Price Surge Sparks Inflation Fears",
-      "urls": [
-        "https://www.axios.com/2026/03/10/oil-prices-iran-war-trump-fed",
-        "https://www.reuters.com/video/watch/idRW170706032026RP1"
-      ],
-      "date": "2026-03-11T20:01:22.868052+00:00"
-    },
-    {
       "title": "SpaceX to Launch EchoStar XXV Satellite on Falcon 9 Rocket from Cape Canaveral",
       "urls": [
         "https://spaceflightnow.com/2026/03/09/live-coverage-spacex-to-launch-direct-television-satellite-for-echostar",
@@ -4222,7 +4207,14 @@
         "https://jumbleanswers.com/shoulder-coverings"
       ],
       "date": "2026-03-21T19:31:12.815370+00:00"
+    },
+    {
+      "title": "Thunder Client Adds Hugging Face Model Downloads to Firefox Extension",
+      "urls": [
+        "https://www.zhihu.com/question/639318529"
+      ],
+      "date": "2026-03-21T20:03:48.560618+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T19:31:12.815424+00:00"
+  "lastUpdated": "2026-03-21T20:03:48.560678+00:00"
 }
