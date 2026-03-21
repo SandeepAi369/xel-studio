@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Energy Crisis Revived as Natural Gas Prices Soar Amid Renewed Pressures",
-      "urls": [
-        "https://www.wsj.com/business/energy-oil/europes-new-energy-crisis-will-mean-a-bull-market-in-renewables-d68b42f7?gaa_at=eafs&gaa_n=AWEtsqcecRO8vQSh1J911aOX-NteJtQbZLHCYg_EuNqIifSjJ8MBJt6VR8C1&gaa_ts=69b13a3b&gaa_sig=y_NMZv-V-f0byd0Ls-ag58KWFYwUIvHxyStMjBvMivD6pXOH48lIVNQbLVX6iUQDX-89cRhbNC15aPAZEZD93w%3D%3D",
-        "https://www.energetica-india.net/news/sahaj-solar-plans-750-mw-solar-panel-plant-in-uae-with-strategic-partner"
-      ],
-      "date": "2026-03-11T10:31:11.744440+00:00"
-    },
-    {
       "title": "Bayer's AI-driven Leaps Program Cuts Early-stage Research from Years to Weeks",
       "urls": [
         "https://agfundernews.com/leaps-by-bayers-pj-amini-on-exits-epigenetics-ai-driven-discovery-and-his-50-rule"
@@ -4197,7 +4189,14 @@
         "https://m.youtube.com/watch?v=D6TbwSdt-88"
       ],
       "date": "2026-03-21T10:01:36.595764+00:00"
+    },
+    {
+      "title": "QuantumCT Achieves 150 Microsecond Coherence With Strontium-88 Ion Qubits",
+      "urls": [
+        "https://www.quantumct.org"
+      ],
+      "date": "2026-03-21T10:32:22.488983+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T10:01:36.595848+00:00"
+  "lastUpdated": "2026-03-21T10:32:22.489047+00:00"
 }
