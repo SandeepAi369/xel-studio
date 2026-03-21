@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kilauea Volcano Erupts Suddenly Sending Lava Fountains Over 1,000 Feet High",
-      "urls": [
-        "https://www.usatoday.com/story/news/nation/2026/03/10/kilauea-volcano-erupts-in-hawaii/89090409007",
-        "https://www.foxweather.com/earth-space/eruption-mount-kilauea-volcano-lava-fountains-ashfall-warning-hawaii",
-        "https://www.nbcnews.com/video/hawaii-s-k-lauea-volcano-shoots-lava-more-than-1-000-feet-high-259099205801",
-        "https://www.nbcnews.com/news/us-news/towering-lava-fountains-hawaiis-kilauea-volcano-trigger-park-highway-c-rcna262901",
-        "https://www.sfgate.com/national-parks/article/volcanic-eruption-closes-hawaii-national-park-22066992.php",
-        "https://www.nbcnews.com/video/shorts/tornadoes-spotted-across-illinois-259101253732"
-      ],
-      "date": "2026-03-11T14:01:34.011743+00:00"
-    },
-    {
       "title": "Open-Source AI Models Struggle to Compete with Proprietary Counterparts in Market Dominance",
       "urls": [
         "https://cursus.edu/en/35677/will-open-code-survive-the-age-of-proprietary-ai",
@@ -4209,7 +4197,14 @@
         "https://www.healthcare.gov/using-marketplace-coverage/common-questions"
       ],
       "date": "2026-03-21T13:36:19.915493+00:00"
+    },
+    {
+      "title": "Fox News Launches National Weather Alert System for 50 States",
+      "urls": [
+        "https://www.foxnews.com?msockid=20489c295b7d661412e98b0a5a3167ce"
+      ],
+      "date": "2026-03-21T14:02:28.945437+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T13:36:19.915554+00:00"
+  "lastUpdated": "2026-03-21T14:02:28.945501+00:00"
 }
