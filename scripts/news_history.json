@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Adidas Unveils Adizero Dropset Elite with Revolutionary Energy Rim Midsole Design",
-      "urls": [
-        "https://www.menshealth.com/uk/gym-wear/a70583491/adidas-adizero-dropset-elite-review",
-        "https://deadspin.com/jake-knapp-withdraws-from-arnold-palmer-invitational",
-        "https://deadspin.com/report-broncos-ol-alex-palczewski-agree-on-2-year-deal",
-        "https://deadspin.com/msg-game-set-to-break-us-womens-hockey-attendance-mark",
-        "https://deadspin.com/reports-bills-releasing-veteran-cb-taron-johnson"
-      ],
-      "date": "2026-03-11T00:31:11.279136+00:00"
-    },
-    {
       "title": "Zoom Integrates with Epic's Electronic Health Record System for Enhanced Virtual Visits",
       "urls": [
         "https://www.insidehighered.com/news/quick-takes/2026/03/06/advocacy-group-raises-concern-about-ai-federal-student-aid",
@@ -4189,7 +4178,17 @@
         "https://www.flashscore.com"
       ],
       "date": "2026-03-21T00:02:29.865123+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Confirms 2024 As Warmest Year On Record",
+      "urls": [
+        "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop30",
+        "https://wmo.int/publication-series/state-of-climate-africa-2024",
+        "https://public.wmo.int/files/state-of-global-climate-2024",
+        "https://wmo.int/news/media-centre/european-state-of-climate-extreme-events-warmest-year-record"
+      ],
+      "date": "2026-03-21T00:32:15.934606+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T00:02:29.865185+00:00"
+  "lastUpdated": "2026-03-21T00:32:15.934669+00:00"
 }
