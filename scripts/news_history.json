@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Toni Schneider Named Interim CEO of Bluesky Following Leadership Transition",
-      "urls": [
-        "https://www.cnbc.com/2026/03/09/bluesky-ceo-jay-graber-toni-schneider.html"
-      ],
-      "date": "2026-03-11T03:31:21.499066+00:00"
-    },
-    {
       "title": "Boston Dynamics Unveils Electric-Powered Atlas Robot for U.S. Auto Plant Deployment",
       "urls": [
         "https://www.businessinsider.com/agility-robotics-humanoid-robots-labor-shortage-aging-workforce-2026-3",
@@ -4189,7 +4182,14 @@
         "https://www.sciencenews.org/topic/physics"
       ],
       "date": "2026-03-21T03:02:33.962595+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Alerts For 28000 Zip Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=24e97ffd24f26ae321c868de25a26b7d"
+      ],
+      "date": "2026-03-21T03:33:13.752902+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T03:02:33.962653+00:00"
+  "lastUpdated": "2026-03-21T03:33:13.752960+00:00"
 }
