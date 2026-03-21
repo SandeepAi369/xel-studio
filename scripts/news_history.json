@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Snowflake and Hakkoda Report Reveals Fragmented Data Hinders Agentic AI in Hospitals",
-      "urls": [
-        "https://healthtechmagazine.net/article/2026/03/himss26-strengthen-muscle-ai-strategy-clinical-insight",
-        "https://hitconsultant.net/2026/03/10/snowflake-hakkoda-report-ai-interoperability-healthcare-2026",
-        "https://pharmaphorum.com/digital/why-siloed-data-stalling-future-smarter-healthcare"
-      ],
-      "date": "2026-03-11T02:31:15.482699+00:00"
-    },
-    {
-      "title": "Nathan Martin Edges Cherono in Thrilling Photo Finish at 2026 Los Angeles Marathon",
-      "urls": [
-        "https://www.dailynews.com/2026/03/08/american-nathan-martin-wins-the-2026-los-angeles-marathon-in-a-photo-finish",
-        "https://www.facebook.com/nytimes/posts/from-the-athletic-nathan-martin-a-high-school-running-coach-won-the-los-angeles-/1316815300300930",
-        "https://www.cnn.com/2026/03/09/entertainment/video/rihanna-house-shooting-beverly-hills-hnk-vrtc-digvid"
-      ],
-      "date": "2026-03-11T03:01:29.753325+00:00"
-    },
-    {
       "title": "Toni Schneider Named Interim CEO of Bluesky Following Leadership Transition",
       "urls": [
         "https://www.cnbc.com/2026/03/09/bluesky-ceo-jay-graber-toni-schneider.html"
@@ -4200,7 +4182,14 @@
         "https://www.drugs.com/kratom.html"
       ],
       "date": "2026-03-21T02:31:12.660083+00:00"
+    },
+    {
+      "title": "Physicists At Cern And Eth Zurich Discover New Quantum State In Ultracold Strontium Atoms",
+      "urls": [
+        "https://www.sciencenews.org/topic/physics"
+      ],
+      "date": "2026-03-21T03:02:33.962595+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T02:31:12.660139+00:00"
+  "lastUpdated": "2026-03-21T03:02:33.962653+00:00"
 }
