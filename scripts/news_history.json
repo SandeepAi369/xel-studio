@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Acquires Promptfoo Red-Team Platform to Enhance AI Security Testing Capabilities",
-      "urls": [
-        "https://thenextweb.com/news/openai-acquires-promptfoo-ai-security-frontier",
-        "https://gigazine.net/gsc_news/en/20260310-openai-to-acquire-promptfoo"
-      ],
-      "date": "2026-03-11T02:01:21.179768+00:00"
-    },
-    {
       "title": "Snowflake and Hakkoda Report Reveals Fragmented Data Hinders Agentic AI in Hospitals",
       "urls": [
         "https://healthtechmagazine.net/article/2026/03/himss26-strengthen-muscle-ai-strategy-clinical-insight",
@@ -4184,7 +4176,15 @@
         "https://www.foxnews.com?msockid=12618b351d3c6f9135fe9c161c386e03"
       ],
       "date": "2026-03-21T01:32:22.154800+00:00"
+    },
+    {
+      "title": "Iran Launches Drone And Missile Strikes On Israeli Military Targets",
+      "urls": [
+        "https://www.foxnews.com?msockid=0ba14b49cb62646034d05c6aca856564",
+        "https://www.nytimes.com/live/2026/03/20/world/iran-war-oil-trump"
+      ],
+      "date": "2026-03-21T02:04:05.297913+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T01:32:22.154855+00:00"
+  "lastUpdated": "2026-03-21T02:04:05.297967+00:00"
 }
