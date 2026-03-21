@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boston Dynamics Unveils Electric-Powered Atlas Robot for U.S. Auto Plant Deployment",
-      "urls": [
-        "https://www.businessinsider.com/agility-robotics-humanoid-robots-labor-shortage-aging-workforce-2026-3",
-        "https://techxplore.com/news/2026-03-robots-ai-evolves-legged-metamachines.html"
-      ],
-      "date": "2026-03-11T04:01:25.137350+00:00"
-    },
-    {
       "title": "Darell Hernaiz Hits Walk-Off Home Run for Puerto Rico in Thrilling World Baseball Classic Upset",
       "urls": [
         "https://defector.com/the-world-baseball-classic-is-already-producing-some-classic-world-baseball",
@@ -4189,7 +4181,15 @@
         "https://www.foxnews.com?msockid=24e97ffd24f26ae321c868de25a26b7d"
       ],
       "date": "2026-03-21T03:33:13.752902+00:00"
+    },
+    {
+      "title": "Konami Launches eFootball As Free-To-Play Live Service",
+      "urls": [
+        "https://www.konami.com/efootball/en/page/download_edition_list",
+        "https://www.konami.com/efootball/en/topic/news/4839"
+      ],
+      "date": "2026-03-21T04:01:28.377956+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T03:33:13.752960+00:00"
+  "lastUpdated": "2026-03-21T04:01:28.378021+00:00"
 }
