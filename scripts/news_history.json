@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Block CEO Jack Dorsey Announces 4000 Layoffs Amid AI Integration Concerns",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding",
-        "https://www.consultancy-me.com/news/amp/12884/software-development-in-financial-services-enters-new-era-as-gen-ai-supercharges-productivity",
-        "https://www.npr.org/sections/planet-money/2026/03/10/g-s1-112700/pro-worker-ai-streaming-fatalities-and-other-fascinating-new-economic-studies"
-      ],
-      "date": "2026-03-11T15:31:25.553326+00:00"
-    },
-    {
       "title": "Investors Warn of Stagflation Risk as Oil Price Surges Above $100 Per Barrel",
       "urls": [
         "https://www.reuters.com/business/energy/global-markets-stagflation-graphic-2026-03-09",
@@ -4209,7 +4200,15 @@
         "https://cloud.google.com/gcp"
       ],
       "date": "2026-03-21T15:03:22.831289+00:00"
+    },
+    {
+      "title": "Apple To Generate Over $1 Billion From On-Device AI Features",
+      "urls": [
+        "https://www.wsj.com/tech/ai/apple-ai-subscriptions-strategy-7ce4ba7f?msockid=16cc393c5d3c6f541c0c2e1f5c256e86",
+        "https://www.apple.com/logic-pro"
+      ],
+      "date": "2026-03-21T15:32:22.442642+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T15:03:22.831353+00:00"
+  "lastUpdated": "2026-03-21T15:32:22.442706+00:00"
 }
