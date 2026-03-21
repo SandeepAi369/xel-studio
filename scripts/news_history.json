@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Acquires Moltbook to Expand AI Agent Social Network Capabilities Globally",
-      "urls": [
-        "https://www.cnn.com/2026/03/10/tech/meta-moltbook-bots-social-media",
-        "https://adage.com/influencers-creators/aa-trends-mcdonalds-elf-cosmetics-petsmart-spotter",
-        "https://adage.com/creativity/campaigns-commercials/aa-creative-ads-today-billie-cash-app-genentech-he-gets-us-hyundai"
-      ],
-      "date": "2026-03-11T08:02:06.887115+00:00"
-    },
-    {
       "title": "Team Liquid Secures Top Seed in PGL Wallachia Season 7 with Perfect Group Stage Record",
       "urls": [
         "https://deadspin.com/yandex-aurora-heroic-reach-pgl-wallachia-season-7-playoffs",
@@ -4193,7 +4184,14 @@
         "https://www.foxnews.com?msockid=24aea7302d816f3c0bc6b0132c2f6ebf"
       ],
       "date": "2026-03-21T07:33:22.412127+00:00"
+    },
+    {
+      "title": "OpenAI GPT-4 And Google Gemini Lead Generative AI Innovation",
+      "urls": [
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=1ca94dca1d18644931445ae91cee6543"
+      ],
+      "date": "2026-03-21T08:03:32.271161+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T07:33:22.412187+00:00"
+  "lastUpdated": "2026-03-21T08:03:32.271217+00:00"
 }
