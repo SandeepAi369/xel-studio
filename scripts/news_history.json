@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bayer's AI-driven Leaps Program Cuts Early-stage Research from Years to Weeks",
-      "urls": [
-        "https://agfundernews.com/leaps-by-bayers-pj-amini-on-exits-epigenetics-ai-driven-discovery-and-his-50-rule"
-      ],
-      "date": "2026-03-11T11:01:24.252682+00:00"
-    },
-    {
       "title": "EU Regulators Enact Stricter Cybersecurity Measures Under NIS2 Directive and EU AI Act",
       "urls": [
         "https://thenextweb.com/news/why-2026-will-be-the-year-of-governed-cybersecurity-ai"
@@ -4196,7 +4189,15 @@
         "https://www.quantumct.org"
       ],
       "date": "2026-03-21T10:32:22.488983+00:00"
+    },
+    {
+      "title": "The Guardian Launches Washington Investigative Unit To Expand U.S. Coverage",
+      "urls": [
+        "https://www.foxnews.com?msockid=3a774c993bfe6fbf2b4e5bba3a796eb5",
+        "https://www.theguardian.com/us-news"
+      ],
+      "date": "2026-03-21T11:01:27.628265+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T10:32:22.489047+00:00"
+  "lastUpdated": "2026-03-21T11:01:27.628339+00:00"
 }
