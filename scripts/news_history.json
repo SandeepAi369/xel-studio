@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qatar Fund for Development Commits $434.2 Million to Rebuild Lebanon's Energy Infrastructure",
-      "urls": [
-        "https://solarquarter.com/2026/03/11/government-highlights-green-steel-and-industrial-initiatives-to-reduce-carbon-emissions"
-      ],
-      "date": "2026-03-11T06:31:14.206782+00:00"
-    },
-    {
       "title": "Nvidia and AMD Face New U.S. Export Review for AI Chip Sales Approval",
       "urls": [
         "https://www.politico.com/newsletters/forecast/2026/03/09/ais-moment-of-global-reckoning-00819424",
@@ -4193,7 +4186,14 @@
         "https://www.t-mobile.com/cell-phones/brand/apple?msockid=064b75be9c9f63782a6b629d9dfb62fe"
       ],
       "date": "2026-03-21T06:03:31.472980+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Reports 2022 Among Warmest Years Despite La Niña",
+      "urls": [
+        "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2022"
+      ],
+      "date": "2026-03-21T06:33:18.198665+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T06:03:31.473038+00:00"
+  "lastUpdated": "2026-03-21T06:33:18.198734+00:00"
 }
