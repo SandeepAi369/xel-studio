@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran's Border Reopens to Azerbaijan Cargo Traffic Amid Escalating Middle East Tensions",
-      "urls": [
-        "https://apnews.com/article/russia-ukraine-war-drones-iran-5cafbae5d360a44c4502b69647269037",
-        "https://www.reuters.com/world/middle-east/azerbaijan-reopens-iran-border-cargo-traffic-after-drone-incident-tass-reports-2026-03-09",
-        "https://www.nbcnews.com/nightly-news/video/on-the-frontlines-in-lebanon-258867781983"
-      ],
-      "date": "2026-03-11T12:01:23.132212+00:00"
-    },
-    {
       "title": "Juan Soto Leads Dominican Republic's Dominant Lineup in World Baseball Classic Showdown",
       "urls": [
         "https://www.skysports.com/tennis/video/30998/13517682/indian-wells-defending-champ-mirra-andreeva-fumes-as-she-smashes-racket-in-defeat-to-siniakova",
@@ -4205,7 +4196,19 @@
         "https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285"
       ],
       "date": "2026-03-21T11:33:56.074087+00:00"
+    },
+    {
+      "title": "Cancun Tourism Boom Causes Water Pollution and Beach Erosion",
+      "urls": [
+        "https://climate.nasa.gov/images-of-change?intent=131",
+        "https://climate.nasa.gov/earth-now?event=eo_event_190408",
+        "https://climate.nasa.gov/news/2709/nasa-invites-media-to-launch-of-grace-follow-on-spacecraft/in-progress",
+        "https://climate.nasa.gov/news/830/climate-modelers-and-the-moth?hsamp_network=TWITTER&hsamp=baZvRBBNXzUc",
+        "https://climate.nasa.gov/search?q=Vessel+N",
+        "https://climate.nasa.gov/newsletters/56"
+      ],
+      "date": "2026-03-21T12:01:25.045631+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T11:33:56.074150+00:00"
+  "lastUpdated": "2026-03-21T12:01:25.045695+00:00"
 }
