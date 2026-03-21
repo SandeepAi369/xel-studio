@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kona Low Brings Heavy Rain and Strong Winds to Hawaii's Kauai and Oahu Islands",
-      "urls": [
-        "https://www.nytimes.com/2026/03/11/weather/hawaii-kona-storm.html",
-        "https://www.facebook.com/SkyNewsAustralia/posts/darwin-residents-warned-to-decrease-water-use-as-main-dam-overflows-after-severe/1370880081736253",
-        "https://www.cbsnews.com/newyork/video/warning-for-boaters-about-floating-debris-after-harsh-winter"
-      ],
-      "date": "2026-03-11T22:31:19.208511+00:00"
-    },
-    {
       "title": "Anthropic CEO Dario Amodei Apologizes for Memo Criticizing OpenAI's Pentagon Deal Approach",
       "urls": [
         "https://fortune.com/2026/03/06/anthropic-openai-ceo-apologizes-leaked-memo-supply-chain-risk-designation",
@@ -4215,7 +4206,15 @@
         "https://www.britannica.com/dictionary/artificial"
       ],
       "date": "2026-03-21T22:02:29.338171+00:00"
+    },
+    {
+      "title": "Renewable Energy Capacity Jumps With 4600 GW Additions Expected By 2030",
+      "urls": [
+        "https://www.iea.org/reports/renewables-2025/renewable-electricity",
+        "https://scienceinsights.org/how-much-energy-comes-from-renewable-sources"
+      ],
+      "date": "2026-03-21T22:35:22.529229+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T22:02:29.338221+00:00"
+  "lastUpdated": "2026-03-21T22:35:22.529287+00:00"
 }
