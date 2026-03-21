@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic CEO Dario Amodei Apologizes for Memo Criticizing OpenAI's Pentagon Deal Approach",
-      "urls": [
-        "https://fortune.com/2026/03/06/anthropic-openai-ceo-apologizes-leaked-memo-supply-chain-risk-designation",
-        "https://www.wsj.com/tech/ai/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523"
-      ],
-      "date": "2026-03-11T23:01:26.390355+00:00"
-    },
-    {
-      "title": "UK Breast Cancer Screening Program Sees 10.4 Percent Detection Boost with AI Assistance",
-      "urls": [
-        "https://medicalxpress.com/news/2026-03-ai-boosts-breast-cancer-uk.html",
-        "https://www.wunc.org/2026-03-11/chatgpt-might-give-you-bad-medical-advice-studies-warn",
-        "https://www.wboi.org/npr-news/2026-03-11/chatgpt-might-give-you-bad-medical-advice-studies-warn"
-      ],
-      "date": "2026-03-11T23:31:12.429291+00:00"
-    },
-    {
       "title": "Washington Post Columnist Completes First Ultramarathon at Age 52 After Intensive Training",
       "urls": [
         "https://www.runnerspace.com/gprofile.php?mgroup_id=44531&do=news&news_id=674290",
@@ -4222,7 +4205,14 @@
         "https://bluegrasspreps.com/forums/topic/255841-2025-2026-college-football-bowl-schedule"
       ],
       "date": "2026-03-21T23:01:23.102466+00:00"
+    },
+    {
+      "title": "Who Defines Mental Health As Integral To Wellbeing",
+      "urls": [
+        "https://www.who.int/europe/news-room/fact-sheets/item/mental-health"
+      ],
+      "date": "2026-03-21T23:33:22.681776+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T23:01:23.102529+00:00"
+  "lastUpdated": "2026-03-21T23:33:22.681827+00:00"
 }
