@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Montana Governor Gianforte's Administration Rescinds Bison Grazing Permits for 63,000 Acres",
-      "urls": [
-        "https://www.bozemandailychronicle.com/news/thomas-baumeister-bison-bureaucrats-and-bad-politics-with-american-prairie/article_f971a62c-e6d2-41a1-8990-2af2fa7bda59.html"
-      ],
-      "date": "2026-03-11T17:31:17.752617+00:00"
-    },
-    {
       "title": "Carbon Pricing Mechanisms Reduce Emissions Intensity by 15.4% and 8.5% Respectively",
       "urls": [
         "https://www.nature.com/articles/s41558-026-02578-0",
@@ -4204,7 +4197,14 @@
         "https://www.reuters.com/world"
       ],
       "date": "2026-03-21T17:03:40.753129+00:00"
+    },
+    {
+      "title": "XMind Users Open And Edit Files With Official Desktop App",
+      "urls": [
+        "https://www.zhihu.com/question/635737934"
+      ],
+      "date": "2026-03-21T17:32:24.861212+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T17:03:40.753197+00:00"
+  "lastUpdated": "2026-03-21T17:32:24.861273+00:00"
 }
