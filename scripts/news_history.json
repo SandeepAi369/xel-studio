@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nikola Jokic Surpasses Kareem Abdul-Jabbar's 65-Year Record for Triple-Double Performance",
-      "urls": [
-        "https://sports.yahoo.com/articles/y-sports-am-wins-losses-125529810.html",
-        "https://www.telecomasia.net/news/nba/denver-nuggets-center-jokic-breaks-abdul-jabbar-s-65-year-old-nba-record",
-        "https://timesofindia.indiatimes.com/sports/nfl/news/the-chiefs-owe-patrick-mahomes-450-million-but-his-net-worth-is-only-160-million-where-is-all-the-money-going-truth-behind-why-the-nfls-greatest-qb-gets-outearned-by-qbs-whove-never-won-a-super-bowl/articleshow/129398703.cms"
-      ],
-      "date": "2026-03-11T21:03:19.147240+00:00"
-    },
-    {
       "title": "iotaMotion Secures New U.S. Patent for Robotic Cochlear Implant Technology Advancements",
       "urls": [
         "https://www.biospace.com/press-releases/iotamotion-strengthens-leadership-position-in-robotic-cochlear-implant-surgery-with-issuance-of-new-u-s-patent",
@@ -4206,7 +4197,14 @@
         "https://coinmarketcap.com/charts/spot-market"
       ],
       "date": "2026-03-21T20:31:14.591071+00:00"
+    },
+    {
+      "title": "Google Replaces Medical Knowledge Graphs With AI Summaries",
+      "urls": [
+        "https://support.google.com/websearch/thread/388699163/can-no-longer-see-medical-knowledge-graphs-on-google-search?hl=en"
+      ],
+      "date": "2026-03-21T21:05:41.093038+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T20:31:14.591133+00:00"
+  "lastUpdated": "2026-03-21T21:05:41.093092+00:00"
 }
