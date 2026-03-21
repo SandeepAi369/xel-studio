@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zoom Integrates with Epic's Electronic Health Record System for Enhanced Virtual Visits",
-      "urls": [
-        "https://www.insidehighered.com/news/quick-takes/2026/03/06/advocacy-group-raises-concern-about-ai-federal-student-aid",
-        "https://www.chronicle.com/newsletter/academe-today/2026-03-10",
-        "https://www.chronicle.com/newsletter/teaching/2026-03-05",
-        "https://hitconsultant.net/2026/03/10/zoom-himss-2026-epic-ehr-integration-ambient-ai-clinical-notes"
-      ],
-      "date": "2026-03-11T01:01:22.122967+00:00"
-    },
-    {
-      "title": "Global Temperature Rises 0.35°C Per Decade Over Ten Years to 2025",
-      "urls": [
-        "https://www.yahoo.com/news/articles/earth-warming-faster-previously-estimated-001444614.html",
-        "https://www.nature.com/articles/s41558-025-02515-7",
-        "https://www.sustainableviews.com/climate-is-agricultures-biggest-business-risk-5006cc87"
-      ],
-      "date": "2026-03-11T01:31:15.990658+00:00"
-    },
-    {
       "title": "OpenAI Acquires Promptfoo Red-Team Platform to Enhance AI Security Testing Capabilities",
       "urls": [
         "https://thenextweb.com/news/openai-acquires-promptfoo-ai-security-frontier",
@@ -4196,7 +4177,14 @@
         "https://edition.cnn.com/2026/03/20/tech/white-house-ai-framework"
       ],
       "date": "2026-03-21T01:01:19.790243+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code Specific Weather Forecasts",
+      "urls": [
+        "https://www.foxnews.com?msockid=12618b351d3c6f9135fe9c161c386e03"
+      ],
+      "date": "2026-03-21T01:32:22.154800+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T01:01:19.790298+00:00"
+  "lastUpdated": "2026-03-21T01:32:22.154855+00:00"
 }
