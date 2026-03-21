@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Investors Warn of Stagflation Risk as Oil Price Surges Above $100 Per Barrel",
-      "urls": [
-        "https://www.reuters.com/business/energy/global-markets-stagflation-graphic-2026-03-09",
-        "https://www.cnbc.com/2026/03/10/new-inflation-data-is-set-for-release-wednesday-how-to-trade-it.html",
-        "https://www.wsj.com/livecoverage/cpi-inflation-data-stock-market-03-11-2026",
-        "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty",
-        "https://nypost.com/2026/03/11/business/inflation-held-steady-in-february-though-iran-war-could-reheat-prices",
-        "https://www.bloomberg.com/news/articles/2026-03-09/china-consumer-prices-rebound-driven-by-record-holiday-spending",
-        "https://www.cnbc.com/video/2026/03/09/even-a-short-iran-war-could-keep-interest-rates-higher.html",
-        "https://www.forexfactory.com/news/1387614-china-consumer-inflation-hits-three-year-high-as-producer"
-      ],
-      "date": "2026-03-11T16:01:45.956966+00:00"
-    },
-    {
       "title": "Microsoft Rolls Out Custom AI Agents for First-Generation College Students Nationwide",
       "urls": [
         "https://www.govtech.com/education/higher-ed/students-struggle-with-wi-fi-ai-policy-and-tool-overload",
@@ -4208,7 +4194,14 @@
         "https://www.apple.com/logic-pro"
       ],
       "date": "2026-03-21T15:32:22.442642+00:00"
+    },
+    {
+      "title": "Social Security Launches Enhanced My Account Platform",
+      "urls": [
+        "https://www.ssa.gov/myaccount/create.html"
+      ],
+      "date": "2026-03-21T16:02:38.409216+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T15:32:22.442706+00:00"
+  "lastUpdated": "2026-03-21T16:02:38.409284+00:00"
 }
