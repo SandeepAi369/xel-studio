@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "EU Regulators Enact Stricter Cybersecurity Measures Under NIS2 Directive and EU AI Act",
-      "urls": [
-        "https://thenextweb.com/news/why-2026-will-be-the-year-of-governed-cybersecurity-ai"
-      ],
-      "date": "2026-03-11T11:31:13.928683+00:00"
-    },
-    {
       "title": "Iran's Border Reopens to Azerbaijan Cargo Traffic Amid Escalating Middle East Tensions",
       "urls": [
         "https://apnews.com/article/russia-ukraine-war-drones-iran-5cafbae5d360a44c4502b69647269037",
@@ -4197,7 +4190,22 @@
         "https://www.theguardian.com/us-news"
       ],
       "date": "2026-03-21T11:01:27.628265+00:00"
+    },
+    {
+      "title": "Anthropic Labeled Unacceptable Risk Over National Security Concerns",
+      "urls": [
+        "https://baike.baidu.com/item/Anthropic/62639515",
+        "https://claude.com",
+        "https://zhuanlan.zhihu.com/p/13568558856",
+        "https://news.qq.com/rain/a/20250409A09PHS00",
+        "https://en.wikipedia.org/wiki/Anthropic",
+        "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon",
+        "https://m.baike.com/wikiid/7195455854832981307",
+        "https://www.nytimes.com/2026/03/17/technology/anthropic-pentagon-national-security-risk.html",
+        "https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285"
+      ],
+      "date": "2026-03-21T11:33:56.074087+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T11:01:27.628339+00:00"
+  "lastUpdated": "2026-03-21T11:33:56.074150+00:00"
 }
