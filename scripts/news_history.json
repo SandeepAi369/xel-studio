@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Acquires Moltbook, Expanding AI Capabilities Through Superintelligence Labs Division",
-      "urls": [
-        "https://www.wsj.com/tech/ai/meta-to-acquire-ai-only-social-media-platform-moltbook-0d9cd9d6",
-        "https://mlq.ai/news/meta-acquires-moltbook-the-social-network-for-ai-agents"
-      ],
-      "date": "2026-03-11T17:01:33.717341+00:00"
-    },
-    {
       "title": "Montana Governor Gianforte's Administration Rescinds Bison Grazing Permits for 63,000 Acres",
       "urls": [
         "https://www.bozemandailychronicle.com/news/thomas-baumeister-bison-bureaucrats-and-bad-politics-with-american-prairie/article_f971a62c-e6d2-41a1-8990-2af2fa7bda59.html"
@@ -4203,7 +4195,16 @@
         "https://www.zhihu.com/question/657652935"
       ],
       "date": "2026-03-21T16:34:42.108521+00:00"
+    },
+    {
+      "title": "NCAA Women's Basketball Tournament Begins With 68 Teams Competing",
+      "urls": [
+        "https://www.foxnews.com?msockid=1f42bec8c682681233b3a9ebc78d6903",
+        "https://www.cbsnews.com/us",
+        "https://www.reuters.com/world"
+      ],
+      "date": "2026-03-21T17:03:40.753129+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T16:34:42.108572+00:00"
+  "lastUpdated": "2026-03-21T17:03:40.753197+00:00"
 }
