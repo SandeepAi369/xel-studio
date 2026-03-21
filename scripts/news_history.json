@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Rolls Out Custom AI Agents for First-Generation College Students Nationwide",
-      "urls": [
-        "https://www.govtech.com/education/higher-ed/students-struggle-with-wi-fi-ai-policy-and-tool-overload",
-        "https://www.govtech.com/education/k-12/study-finds-most-common-ed-tech-tools-not-backed-by-evidence",
-        "https://edtechmagazine.com/higher/article/2026/03/how-ai-can-close-equity-gaps-first-generation-students"
-      ],
-      "date": "2026-03-11T16:31:28.824701+00:00"
-    },
-    {
       "title": "Meta Acquires Moltbook, Expanding AI Capabilities Through Superintelligence Labs Division",
       "urls": [
         "https://www.wsj.com/tech/ai/meta-to-acquire-ai-only-social-media-platform-moltbook-0d9cd9d6",
@@ -4201,7 +4192,18 @@
         "https://www.ssa.gov/myaccount/create.html"
       ],
       "date": "2026-03-21T16:02:38.409216+00:00"
+    },
+    {
+      "title": "Mistral AI Launches 22 Billion Parameter Codestral Model",
+      "urls": [
+        "https://www.zhihu.com/question/15346365588",
+        "https://www.zhihu.com/question/649929393",
+        "https://www.zhihu.com/question/14580770188",
+        "https://www.zhihu.com/pin/1952369016715846773",
+        "https://www.zhihu.com/question/657652935"
+      ],
+      "date": "2026-03-21T16:34:42.108521+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T16:02:38.409284+00:00"
+  "lastUpdated": "2026-03-21T16:34:42.108572+00:00"
 }
