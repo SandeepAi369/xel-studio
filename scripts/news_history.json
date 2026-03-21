@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia and AMD Face New U.S. Export Review for AI Chip Sales Approval",
-      "urls": [
-        "https://www.politico.com/newsletters/forecast/2026/03/09/ais-moment-of-global-reckoning-00819424",
-        "https://www.axios.com/2026/03/05/ai-nvidia-chips-amd-exports",
-        "https://www.cnbc.com/2026/03/11/china-cant-afford-another-crackdown-on-its-tech-companies.html"
-      ],
-      "date": "2026-03-11T07:01:24.517063+00:00"
-    },
-    {
-      "title": "Amazon Health AI Expands to Amazon.com and Mobile App for U.S. Users",
-      "urls": [
-        "https://www.bitget.com/amp/news/detail/12560605254351",
-        "https://hitconsultant.net/2026/03/10/bwell-samsung-kill-the-clipboard-cms-interoperability",
-        "https://www.mobihealthnews.com/video/aws-makes-consumer-health-ai-announcement-himss26"
-      ],
-      "date": "2026-03-11T07:31:32.997880+00:00"
-    },
-    {
       "title": "Meta Acquires Moltbook to Expand AI Agent Social Network Capabilities Globally",
       "urls": [
         "https://www.cnn.com/2026/03/10/tech/meta-moltbook-bots-social-media",
@@ -4204,7 +4186,14 @@
         "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
       ],
       "date": "2026-03-21T07:01:16.398303+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 US ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=24aea7302d816f3c0bc6b0132c2f6ebf"
+      ],
+      "date": "2026-03-21T07:33:22.412127+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T07:01:16.398352+00:00"
+  "lastUpdated": "2026-03-21T07:33:22.412187+00:00"
 }
