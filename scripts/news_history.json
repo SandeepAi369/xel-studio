@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LinkedIn Surpasses Google to Become Second Most Cited Source for AI-Generated Answers",
-      "urls": [
-        "https://www.socialmediatoday.com/news/linkedin-is-a-leading-source-for-ai-answers/814388"
-      ],
-      "date": "2026-03-11T22:01:26.941505+00:00"
-    },
-    {
       "title": "Kona Low Brings Heavy Rain and Strong Winds to Hawaii's Kauai and Oahu Islands",
       "urls": [
         "https://www.nytimes.com/2026/03/11/weather/hawaii-kona-storm.html",
@@ -4212,7 +4205,17 @@
         "https://www.sportingnews.com"
       ],
       "date": "2026-03-21T21:34:16.211549+00:00"
+    },
+    {
+      "title": "Artificial Intelligence Mimics Human Learning Processes",
+      "urls": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/artificial",
+        "https://en.wiktionary.org/wiki/artificial",
+        "https://www.collinsdictionary.com/us/dictionary/english/artificial",
+        "https://www.britannica.com/dictionary/artificial"
+      ],
+      "date": "2026-03-21T22:02:29.338171+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T21:34:16.211599+00:00"
+  "lastUpdated": "2026-03-21T22:02:29.338221+00:00"
 }
