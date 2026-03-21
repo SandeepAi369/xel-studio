@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team Liquid Secures Top Seed in PGL Wallachia Season 7 with Perfect Group Stage Record",
-      "urls": [
-        "https://deadspin.com/yandex-aurora-heroic-reach-pgl-wallachia-season-7-playoffs",
-        "https://deadspin.com/liquid-spirit-charge-into-pgl-wallachia-season-7-playoffs"
-      ],
-      "date": "2026-03-11T08:31:18.435677+00:00"
-    },
-    {
       "title": "Syapse and Aurora Cancer Care Launch Precision Medicine Program for Cancer Patients",
       "urls": [
         "https://hitconsultant.net/category/health-it/page/866"
@@ -4191,7 +4183,15 @@
         "https://www.coursera.org/articles/what-is-generative-ai?msockid=1ca94dca1d18644931445ae91cee6543"
       ],
       "date": "2026-03-21T08:03:32.271161+00:00"
+    },
+    {
+      "title": "Massachusetts Health Connector Enrolls Over 250000 Annually With Subsidized ACA Plans",
+      "urls": [
+        "https://www.healthcare.gov/Massachusetts",
+        "https://www.healthcare.gov/marketplace-in-your-state"
+      ],
+      "date": "2026-03-21T08:32:20.341602+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T08:03:32.271217+00:00"
+  "lastUpdated": "2026-03-21T08:32:20.341667+00:00"
 }
