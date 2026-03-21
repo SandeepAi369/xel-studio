@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Currys says adding closed captions to TV ads aligns with its inclusivity goals and could reach up to",
-      "urls": [
-        "https://www.marketingweek.com/channel-4-subtitle-currys"
-      ],
-      "date": "2026-03-11T09:32:17.046733+00:00"
-    },
-    {
       "title": "Researchers Discover AI Chatbots Can Reinforce Anxiety Patterns or Provide Calming Reinforcement in Users",
       "urls": [
         "https://www.nature.com/articles/s44220-026-00595-8",
@@ -4193,7 +4186,14 @@
         "https://www.foxnews.com?msockid=0c654b6502176b1f1dc65c4603cf6a93"
       ],
       "date": "2026-03-21T09:02:26.619578+00:00"
+    },
+    {
+      "title": "Apple Launches First Product Apple I In 1976",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Apple_Inc."
+      ],
+      "date": "2026-03-21T09:33:24.063158+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T09:02:26.619658+00:00"
+  "lastUpdated": "2026-03-21T09:33:24.063242+00:00"
 }
