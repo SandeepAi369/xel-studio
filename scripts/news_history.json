@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mondo Duplantis Sets New Pole-Vault World Record at Uppsala's Mondo Classic Venue",
-      "urls": [
-        "https://www.greenwichtime.com/sports/article/at-a-meet-named-after-him-mondo-duplantis-raises-22073671.php"
-      ],
-      "date": "2026-03-12T23:01:23.569705+00:00"
-    },
-    {
       "title": "ChatGPT Found to Provide Inaccurate Medical Information to Users in Some Cases",
       "urls": [
         "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn",
@@ -4229,7 +4222,14 @@
         "https://www.foxnews.com?msockid=03b3dbacba386b792c3dcc88bb506a0c"
       ],
       "date": "2026-03-22T22:34:25.207988+00:00"
+    },
+    {
+      "title": "ESPN Deportes Covers Liga MX Teams With Live Updates",
+      "urls": [
+        "https://espndeportes.espn.com/gaming"
+      ],
+      "date": "2026-03-22T23:10:14.288878+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T22:34:25.208051+00:00"
+  "lastUpdated": "2026-03-22T23:10:14.288941+00:00"
 }
