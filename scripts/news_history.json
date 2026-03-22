@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Washington Post Columnist Completes First Ultramarathon at Age 52 After Intensive Training",
-      "urls": [
-        "https://www.runnerspace.com/gprofile.php?mgroup_id=44531&do=news&news_id=674290",
-        "https://www.washingtonpost.com/wellness/2026/03/10/how-to-run-ultramarathon-middle-age"
-      ],
-      "date": "2026-03-12T00:01:30.411835+00:00"
-    },
-    {
       "title": "FBI Director Kash Patel Announces Arrest of John Daghita for $46 Million Crypto Heist",
       "urls": [
         "https://www.coindesk.com/policy/2026/03/07/trump-s-cyber-strategy-vows-to-support-the-security-of-cryptocurrencies-and-blockchain",
@@ -4212,7 +4204,17 @@
         "https://www.who.int/europe/news-room/fact-sheets/item/mental-health"
       ],
       "date": "2026-03-21T23:33:22.681776+00:00"
+    },
+    {
+      "title": "Meta Deploys Next Generation MTIA Chips for AI Workloads",
+      "urls": [
+        "https://about.fb.com/news",
+        "https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads",
+        "https://about.fb.com/news/2021/10/facebook-company-is-now-meta",
+        "https://about.fb.com/news/2025/11/meta-data-centers-drive-economic-growth-across-us"
+      ],
+      "date": "2026-03-22T00:01:38.031673+00:00"
     }
   ],
-  "lastUpdated": "2026-03-21T23:33:22.681827+00:00"
+  "lastUpdated": "2026-03-22T00:01:38.031738+00:00"
 }
