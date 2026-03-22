@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Releases Major Android Update Fixing 129 Critical Security Flaws",
-      "urls": [
-        "https://www.phoronix.com/news/Linux-7.0-rc3",
-        "https://www.phoronix.com/news/Rust-Coreutils-uutils-0.7",
-        "https://www.phoronix.com/news/CachyOS-March-2026",
-        "https://www.automotiveworld.com/news/qorix-and-red-hat-target-sdv-middleware-integration",
-        "https://cyberguy.com/security/security-hold-android-fixes-129-security-flaws-major-phone-update",
-        "https://www.unmannedsystemstechnology.com/2026/03/sbg-systems-releases-firmware-6-0-to-advance-uav-navigation-sensor-fusion"
-      ],
-      "date": "2026-03-12T14:31:59.004219+00:00"
-    },
-    {
-      "title": "Amazon Unveils Free Healthcare AI Tool for Prime Members at HIMSS26 Conference",
-      "urls": [
-        "https://www.mobihealthnews.com/video/amazon-makes-consumer-health-ai-announcement-himss26"
-      ],
-      "date": "2026-03-12T15:01:38.893967+00:00"
-    },
-    {
       "title": "German Start-Up Firm Plans to Construct 30-Megawatt AI Data Centre in Germany",
       "urls": [
         "https://www.rcrwireless.com/20260311/reader-forum/secure-ai-native-networks",
@@ -4246,7 +4227,14 @@
         "https://mexico.internationaltrucks.com/camiones-electricos"
       ],
       "date": "2026-03-22T14:31:19.385019+00:00"
+    },
+    {
+      "title": "Hugging Face Models Now Available Through Chinese Mirror Site",
+      "urls": [
+        "https://www.zhihu.com/question/371644077"
+      ],
+      "date": "2026-03-22T15:03:42.387595+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T14:31:19.385076+00:00"
+  "lastUpdated": "2026-03-22T15:03:42.387659+00:00"
 }
