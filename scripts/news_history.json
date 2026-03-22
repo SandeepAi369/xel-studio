@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "VIB Researchers Discover Genetic Link to Rare Frontotemporal Dementia Subtype in Nature Genetics",
-      "urls": [
-        "https://www.researchprofessionalnews.com/rr-news-africa-pan-african-2026-3-africa-news-roundup-6-12-march",
-        "https://medicalxpress.com/news/2026-03-major-genetic-factor-rare-dementia.html",
-        "https://science.nasa.gov/earth/earth-observatory/dust-outbreak-reaches-europe",
-        "https://phys.org/news/2026-03-queen-bees-survive-winter-underwater.html"
-      ],
-      "date": "2026-03-12T20:31:13.237231+00:00"
-    },
-    {
       "title": "Italy Upsets United States 5-0 in Thrilling World Baseball Classic Victory",
       "urls": [
         "https://www.foxsports.com/watch-vertical/fmc-kijc5s37zcrpyndk"
@@ -4233,7 +4223,23 @@
         "https://www.fiercehealthcare.com/providers/bipartisan-bill-introduced-exempt-healthcare-workers-100000-h-1b-visa-fee"
       ],
       "date": "2026-03-22T20:02:24.483595+00:00"
+    },
+    {
+      "title": "Unctad Warns Tariff Hikes Risk Global Recession",
+      "urls": [
+        "https://www.reuters.com/markets/econ-world",
+        "https://www.ft.com/global-economy",
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR2RtY0hNekVnSmxiaWdBUAE",
+        "https://fortune.com/section/economy",
+        "https://www.imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+        "https://www.cnbc.com/economy?msockid=2209f1c34ea16df10db3e6e74f606ce2",
+        "https://www.economist.com/topics/economy",
+        "https://www.oecd.org/en/about/news/press-releases/2025/12/global-economy-proves-resilient-but-remains-fragile.html",
+        "https://unctad.org/news/trade-tensions-and-rising-uncertainty-drag-global-economy-towards-recession"
+      ],
+      "date": "2026-03-22T20:37:37.004512+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T20:02:24.483656+00:00"
+  "lastUpdated": "2026-03-22T20:37:37.004584+00:00"
 }
