@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Collaborates with Sydney Opera House on Digital Experiences for Australian Youth",
-      "urls": [
-        "https://www.macrumors.com/2026/03/05/apple-sydney-opera-house-collaboration",
-        "https://www.cnet.com/tech/computing/everything-apple-announced-this-week-from-iphone-17e-to-macbook-neo",
-        "https://www.cnet.com/videos/nothing-phone-4a-pro-first-look",
-        "https://www.newsweek.com/apple-ultra-line-2026-11652339",
-        "https://www.macrumors.com/2026/03/07/apple-adds-three-executives-to-leadership-page"
-      ],
-      "date": "2026-03-12T08:01:35.966265+00:00"
-    },
-    {
-      "title": "Sonay Kartal and Emma Navarro Engage in Thrilling Match at Indian Wells Tournament",
-      "urls": [
-        "https://www.premierleague.com/en/news/4604919/vote-adobe-express-creative-moment-of-the-month",
-        "https://www.espn.com/video/clip?id=48130668",
-        "https://www.skysports.com/tennis/video/30998/13516763/sonay-kartal-vs-emma-navarro-indian-wells-highlights",
-        "https://www.skysports.com/f1/video/31312/13515956/australian-grand-prix-practice-highlights"
-      ],
-      "date": "2026-03-12T08:31:27.183640+00:00"
-    },
-    {
       "title": "Penguins Stun Bruins 5-4 in Thrilling Comeback Led by Tommy Novak's Overtime Heroics",
       "urls": [
         "https://www.sportingnews.com/us/nhl/pittsburgh-penguins/news/penguins-make-franchise-history-not-done-2001-wild-win-bruins/79e5c5047c75d4d979220296",
@@ -4230,7 +4209,14 @@
         "https://support.google.com/youtube?hl=ja"
       ],
       "date": "2026-03-22T08:01:29.212589+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code-Level Weather Forecasting Initiative",
+      "urls": [
+        "https://www.foxnews.com?msockid=33b35c49de156c5603c64b6ddfeb6d76"
+      ],
+      "date": "2026-03-22T08:32:14.936867+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T08:01:29.212657+00:00"
+  "lastUpdated": "2026-03-22T08:32:14.936960+00:00"
 }
