@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Retail Inflation Surges to 3.21% Year-Over-Year Amid Rising Food Costs",
-      "urls": [
-        "https://www.reuters.com/world/india/indias-february-retail-inflation-quickens-321-yy-2026-03-12"
-      ],
-      "date": "2026-03-12T12:01:29.472281+00:00"
-    },
-    {
       "title": "Chris White Sets New Record for Fastest Half Marathon Time with MS",
       "urls": [
         "https://www.bbc.com/news/articles/c3rzyyyq238o"
@@ -4227,7 +4220,15 @@
         "https://www.zhihu.com/question/315746660"
       ],
       "date": "2026-03-22T11:32:25.402395+00:00"
+    },
+    {
+      "title": "Microsoft Copilot Launches AI Features in Windows 11",
+      "urls": [
+        "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/how-to-use-ai-on-your-computer?msockid=23a8ff93d1bb6db137fde8b7d0f76c48",
+        "https://aws.amazon.com/what-is/artificial-intelligence"
+      ],
+      "date": "2026-03-22T12:02:42.791593+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T11:32:25.402472+00:00"
+  "lastUpdated": "2026-03-22T12:02:42.791657+00:00"
 }
