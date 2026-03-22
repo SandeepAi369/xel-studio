@@ -337,7 +337,7 @@ function AdminPanel() {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ action: 'getData', token: sessionToken })
+                body: JSON.stringify({ action: 'getData', token })
             });
             const data = await res.json();
             if (data.error) {
@@ -411,7 +411,7 @@ function AdminPanel() {
 
         const payload = JSON.stringify({
             action: 'add',
-            token: sessionToken,
+            token,
             csrfToken,
             contentType: getContentType(),
             data: formData
@@ -459,7 +459,7 @@ function AdminPanel() {
 
         const payload = JSON.stringify({
             action: 'update',
-            token: sessionToken,
+            token,
             csrfToken,
             contentType: getContentType(),
             itemId: editingItem.id,
@@ -510,7 +510,7 @@ function AdminPanel() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     action: 'delete',
-                    token: sessionToken,
+                    token,
                     csrfToken,
                     contentType: getContentType(),
                     itemId: id
