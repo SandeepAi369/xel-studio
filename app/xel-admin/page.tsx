@@ -411,7 +411,7 @@ function AdminPanel() {
 
         const payload = JSON.stringify({
             action: 'add',
-            token,
+            token: sessionToken,
             csrfToken,
             contentType: getContentType(),
             data: formData
@@ -459,7 +459,7 @@ function AdminPanel() {
 
         const payload = JSON.stringify({
             action: 'update',
-            token,
+            token: sessionToken,
             csrfToken,
             contentType: getContentType(),
             itemId: editingItem.id,
@@ -510,7 +510,7 @@ function AdminPanel() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     action: 'delete',
-                    token,
+                    token: sessionToken,
                     csrfToken,
                     contentType: getContentType(),
                     itemId: id
