@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Commits $26 Billion to Develop Open-Weight AI Models Over Five Years",
-      "urls": [
-        "https://www.wired.com/story/nvidia-investing-26-billion-open-source-models"
-      ],
-      "date": "2026-03-12T10:01:26.589039+00:00"
-    },
-    {
-      "title": "Haut.AI Unveils Face Analysis 3.0, Revolutionizing Personalized Skincare on Amazon Platform",
-      "urls": [
-        "https://cosmeticsbusiness.com/haut-ai-named-finalist-in-the-innovative-world-tech"
-      ],
-      "date": "2026-03-12T10:31:16.247382+00:00"
-    },
-    {
       "title": "Afya Gemma Launches AI-Driven Clinical Guidelines for Kenyan Clinics and Health Posts",
       "urls": [
         "https://www.mobihealthnews.com/video/ai-enables-culturally-competent-clinical-decision-support-kenya"
@@ -4226,7 +4212,23 @@
         "https://www.cnet.com/tech/services-and-software/openai-is-planning-to-combine-its-ai-tools-in-a-desktop-superapp"
       ],
       "date": "2026-03-22T10:01:26.219258+00:00"
+    },
+    {
+      "title": "Ethereum Completes Shift to Proof-of-Stake, Slashing Energy Use by 99.95 Percent",
+      "urls": [
+        "https://coinheadlines.com",
+        "https://www.forbes.com/digital-assets/news",
+        "https://web3news.org",
+        "https://www.coindesk.com",
+        "https://todayonchain.com",
+        "https://cointelegraph.com/category/latest-news",
+        "https://www.ft.com/crypto",
+        "https://www.theblock.co",
+        "https://crypto.news/tag/web3",
+        "https://blocknews.com"
+      ],
+      "date": "2026-03-22T10:32:15.941672+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T10:01:26.219325+00:00"
+  "lastUpdated": "2026-03-22T10:32:15.941730+00:00"
 }
