@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Afya Gemma Launches AI-Driven Clinical Guidelines for Kenyan Clinics and Health Posts",
-      "urls": [
-        "https://www.mobihealthnews.com/video/ai-enables-culturally-competent-clinical-decision-support-kenya"
-      ],
-      "date": "2026-03-12T11:01:22.837349+00:00"
-    },
-    {
       "title": "Scientists Utilize Quantum Entanglement to Enhance Angular Resolution in Optical Interferometry Prototype",
       "urls": [
         "https://www.nature.com/articles/s41928-026-01576-6",
@@ -4228,7 +4221,14 @@
         "https://blocknews.com"
       ],
       "date": "2026-03-22T10:32:15.941672+00:00"
+    },
+    {
+      "title": "HealthCare Gov Launches Direct Enrollment For Insurance Plans",
+      "urls": [
+        "https://www.healthcare.gov/apply-and-enroll/how-to-apply"
+      ],
+      "date": "2026-03-22T11:01:37.652772+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T10:32:15.941730+00:00"
+  "lastUpdated": "2026-03-22T11:01:37.652842+00:00"
 }
