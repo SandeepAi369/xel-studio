@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "EU Trade Commissioner Announces US Commitment to Respect Existing Trade Agreement",
-      "urls": [
-        "https://www.reuters.com/world/canada-eu-sign-deal-modernize-economic-trade-agreement-2026-03-05",
-        "https://news.bloomberglaw.com/daily-tax-report/us-starts-trade-probe-into-china-eu-as-trump-revives-duties-1",
-        "https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-11-the-greenland-ultimatum-trump-weaponizes-tariffs-in-bid-for-the-arctics-crown-jewel",
-        "https://www.cnbc.com/2026/03/12/us-israel-iran-india-trade-europe.html"
-      ],
-      "date": "2026-03-12T07:01:24.058122+00:00"
-    },
-    {
       "title": "U.N. Holds Emergency Meeting as Over 750,000 People Flee Lebanon Conflict",
       "urls": [
         "https://www.nbcnews.com/world/middle-east/iran-war-israel-lebanon-hezbollah-displacement-crisis-middle-east-rcna262894",
@@ -4227,7 +4217,19 @@
         "https://about.fb.com/ltam/news/2024/09/los-productos-de-ia-de-meta-ahora-son-mas-inteligentes-y-utiles"
       ],
       "date": "2026-03-22T07:01:18.823177+00:00"
+    },
+    {
+      "title": "The White House Unveils AI Regulatory Framework for Congressional Approval",
+      "urls": [
+        "https://www.reuters.com/technology/artificial-intelligence",
+        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=2ffdc58e579d6d0a0137d2aa56466cf0",
+        "https://www.sap.com/resources/what-is-artificial-intelligence",
+        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai",
+        "https://apnews.com/article/white-house-donald-trump-artificial-intelligence-479eb3d0a50fe7237678a9bfb146ac7a",
+        "https://builtin.com/artificial-intelligence"
+      ],
+      "date": "2026-03-22T07:31:12.952149+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T07:01:18.823230+00:00"
+  "lastUpdated": "2026-03-22T07:31:12.952256+00:00"
 }
