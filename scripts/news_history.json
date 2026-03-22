@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eisai and Pokémon Launch AI-Powered Sleep Awareness Campaign in Japan",
-      "urls": [
-        "https://pharmaphorum.com/sales-marketing/harnessing-ai-transform-end-end-customer-engagement-pharma-and-biotech"
-      ],
-      "date": "2026-03-12T18:31:13.350725+00:00"
-    },
-    {
       "title": "ECRI Names AI Diagnostic Errors Top Patient Safety Issue for 2026",
       "urls": [
         "https://www.modernhealthcare.com/providers/safety-quality/mh-ai-diagnostics-patient-safety-ecri"
@@ -4215,7 +4208,18 @@
         "https://education.nationalgeographic.org/resource/wildlife-conservation"
       ],
       "date": "2026-03-22T18:02:12.346567+00:00"
+    },
+    {
+      "title": "Micron Technology Posts Record $8.6 Billion Quarterly Revenue",
+      "urls": [
+        "https://markets.businessinsider.com",
+        "https://www.reuters.com",
+        "https://www.telegraph.co.uk/technology",
+        "https://www.bloomberg.com/news/articles/2026-03-18/micron-earnings-face-high-expectations-as-its-stock-keeps-rising",
+        "https://about.nike.com/en/newsroom"
+      ],
+      "date": "2026-03-22T18:31:21.937553+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T18:02:12.346645+00:00"
+  "lastUpdated": "2026-03-22T18:31:21.937618+00:00"
 }
