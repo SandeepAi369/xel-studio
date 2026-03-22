@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "US and China Agree on 2024 Pact to Maintain Human Control Over Nuclear Weapons",
-      "urls": [
-        "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/11/introducing-new-ai-tech-brief-now-published-by-wp-intelligence",
-        "https://www.reuters.com/video/watch/idRW238409032026RP1",
-        "https://tnsr.org/roundtable/artificial-intelligence-and-the-future-of-strategic-stability",
-        "https://news.risky.biz/risky-bulletin-new-white-house-eo-prioritizes-fight-against-scams-and-cybercrime"
-      ],
-      "date": "2026-03-12T03:01:30.178252+00:00"
-    },
-    {
       "title": "Scientists Successfully Quantify Endosomal Escape in Live Animals Using Lysosomal Barcoding Technique",
       "urls": [
         "https://www.nature.com/articles/s43588-026-00966-2",
@@ -4226,7 +4216,16 @@
         "https://www.who.int/news-room/facts-in-pictures/detail/mental-health"
       ],
       "date": "2026-03-22T02:31:09.791219+00:00"
+    },
+    {
+      "title": "BBC News Delivers Live Global Coverage To 426 Million Weekly Viewers",
+      "urls": [
+        "https://www.foxnews.com?msockid=1d02250c1ce36ad80df932281d186b0c",
+        "https://news.google.com",
+        "https://www.bbc.com/watch-live-news"
+      ],
+      "date": "2026-03-22T03:02:33.664545+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T02:31:09.791274+00:00"
+  "lastUpdated": "2026-03-22T03:02:33.664606+00:00"
 }
