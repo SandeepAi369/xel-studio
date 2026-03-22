@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Successfully Track Gene-Therapy Nanoparticles to Their Intended Targets in Human Tissue",
-      "urls": [
-        "https://phys.org/news/2026-03-dna-barcoding-reveals-gene-therapy.html"
-      ],
-      "date": "2026-03-12T13:01:36.623999+00:00"
-    },
-    {
       "title": "SkyBitz Evaluates SmartTrailer Ecosystem Against Key Trailer Tracking Solution Requirements",
       "urls": [
         "https://www.fleetowner.com/resources/white-papers/whitepaper/55362158/the-ultimate-trailer-tracking-technology-checklist-for-fleets"
@@ -4240,7 +4233,17 @@
         "https://3dprintedgames.myshopify.com"
       ],
       "date": "2026-03-22T13:01:31.632217+00:00"
+    },
+    {
+      "title": "Reuters Tracks Global Markets as Tech Drives 32% of S&P 500 Gains",
+      "urls": [
+        "https://www.seattletimes.com",
+        "https://www.aninews.in",
+        "https://www.cbsnews.com/texas",
+        "https://www.reuters.com/markets"
+      ],
+      "date": "2026-03-22T13:31:19.015287+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T13:01:31.632265+00:00"
+  "lastUpdated": "2026-03-22T13:31:19.015366+00:00"
 }
