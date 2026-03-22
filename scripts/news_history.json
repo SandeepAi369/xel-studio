@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.N. Holds Emergency Meeting as Over 750,000 People Flee Lebanon Conflict",
-      "urls": [
-        "https://www.nbcnews.com/world/middle-east/iran-war-israel-lebanon-hezbollah-displacement-crisis-middle-east-rcna262894",
-        "https://weeklyvoice.com/global-philanthropy-and-education-leader-maysa-jalbout-appointed-director-of-education-cannot-wait-5",
-        "https://www.hrmagazine.co.uk/content/news/glasgow-fire-disrupts-thousands-of-workers-commutes",
-        "https://www.propublica.org/article/trump-defense-department-iran-hegseth-civilian-casualties"
-      ],
-      "date": "2026-03-12T07:31:16.829641+00:00"
-    },
-    {
       "title": "Apple Collaborates with Sydney Opera House on Digital Experiences for Australian Youth",
       "urls": [
         "https://www.macrumors.com/2026/03/05/apple-sydney-opera-house-collaboration",
@@ -4229,7 +4219,18 @@
         "https://builtin.com/artificial-intelligence"
       ],
       "date": "2026-03-22T07:31:12.952149+00:00"
+    },
+    {
+      "title": "YouTube Launches Customizable Channels and Studio Dashboard for Creators",
+      "urls": [
+        "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop",
+        "https://support.google.com/youtube?hl=sv",
+        "https://support.google.com/youtubecreatorstudio/answer/7548152?hl=en&co=GENIE.Platform%3DDesktop",
+        "https://support.google.com/youtube/answer/7636475?hl=en",
+        "https://support.google.com/youtube?hl=ja"
+      ],
+      "date": "2026-03-22T08:01:29.212589+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T07:31:12.952256+00:00"
+  "lastUpdated": "2026-03-22T08:01:29.212657+00:00"
 }
