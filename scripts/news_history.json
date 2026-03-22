@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Unveils Enterprise AI Agent Platform Integrating Large Language Models with Business Workflows",
-      "urls": [
-        "https://mlq.ai/news/openai-acquires-ai-security-startup-promptfoo",
-        "https://thenextweb.com/news/nvidia-is-reportedly-building-an-enterprise-ai-agent-platform",
-        "https://www.reuters.com/video/watch/idRW289111032026RP1?chan=technology"
-      ],
-      "date": "2026-03-12T02:01:26.773011+00:00"
-    },
-    {
       "title": "US and China Agree on 2024 Pact to Maintain Human Control Over Nuclear Weapons",
       "urls": [
         "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/11/introducing-new-ai-tech-brief-now-published-by-wp-intelligence",
@@ -4213,7 +4204,20 @@
         "https://www.nwtrek.org"
       ],
       "date": "2026-03-22T01:31:14.757584+00:00"
+    },
+    {
+      "title": "PowerShell Delivers Over 200 Cmdlets For Cross-Platform Automation",
+      "urls": [
+        "https://twitchy.com/eric-v/2025/03/30/scott-presler-in-wisconsin-supreme-court-election-n2410692",
+        "https://twitchy.com/warren-squire/2025/08/28/gavin-newsom-i-am-absolutely-convinced-there-wont-be-an-election-in-2028-n2418028",
+        "https://learn.microsoft.com/zh-cn/powershell",
+        "https://zhuanlan.zhihu.com/p/7845076577",
+        "https://github.com/PowerShell/PowerShell",
+        "https://www.runoob.com/powershell/powershell-start.html",
+        "https://en.wikipedia.org/wiki/PowerShell"
+      ],
+      "date": "2026-03-22T02:03:25.988772+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T01:31:14.757649+00:00"
+  "lastUpdated": "2026-03-22T02:03:25.988833+00:00"
 }
