@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sunday Secures $165 Million Series B Funding Led by Coatue Management and Tiger Global",
-      "urls": [
-        "https://roboticsandautomationnews.com/2026/03/12/workr-to-demonstrate-25-per-hour-robotics-as-a-service-system-for-factory-automation-at-nvidia-gtc/99544",
-        "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots"
-      ],
-      "date": "2026-03-12T22:01:34.991499+00:00"
-    },
-    {
-      "title": "Penguins in New Zealand Preferentially Choose White Plastic Over Colored Debris in Feeding Study",
-      "urls": [
-        "https://www.washingtonpost.com/video/climate-environment/penguins-are-attracted-to-eating-white-plastic-studies-show/2026/03/12/60dd900c-5971-4f80-96d9-827ab0619c30_video.html"
-      ],
-      "date": "2026-03-12T22:31:11.234303+00:00"
-    },
-    {
       "title": "Mondo Duplantis Sets New Pole-Vault World Record at Uppsala's Mondo Classic Venue",
       "urls": [
         "https://www.greenwichtime.com/sports/article/at-a-meet-named-after-him-mondo-duplantis-raises-22073671.php"
@@ -4237,7 +4222,14 @@
         "https://www.dict.cc?s=accessible"
       ],
       "date": "2026-03-22T22:01:29.577570+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code Based Weather Forecasting System",
+      "urls": [
+        "https://www.foxnews.com?msockid=03b3dbacba386b792c3dcc88bb506a0c"
+      ],
+      "date": "2026-03-22T22:34:25.207988+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T22:01:29.577628+00:00"
+  "lastUpdated": "2026-03-22T22:34:25.208051+00:00"
 }
