@@ -337,7 +337,7 @@ function AdminPanel() {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ action: 'getData', token })
+                body: JSON.stringify({ action: 'getData', token: sessionToken })
             });
             const data = await res.json();
             if (data.error) {
