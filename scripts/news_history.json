@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ChatGPT Found to Provide Inaccurate Medical Information to Users in Some Cases",
-      "urls": [
-        "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn",
-        "https://www.mobihealthnews.com/video/ai-assisted-care-can-improve-us-health-and-economic-outcomes"
-      ],
-      "date": "2026-03-12T23:31:11.514522+00:00"
-    },
-    {
       "title": "Nvidia Unveils Dedicated AI Inference Chip NemoClaw at GTC 2026 Conference",
       "urls": [
         "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote",
@@ -4229,7 +4221,14 @@
         "https://espndeportes.espn.com/gaming"
       ],
       "date": "2026-03-22T23:10:14.288878+00:00"
+    },
+    {
+      "title": "Modern Bioenergy Powers Over Half Of Global Renewable Use In 2023",
+      "urls": [
+        "https://www.iea.org/energy-system/renewables"
+      ],
+      "date": "2026-03-22T23:34:46.838102+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T23:10:14.288941+00:00"
+  "lastUpdated": "2026-03-22T23:34:46.838179+00:00"
 }
