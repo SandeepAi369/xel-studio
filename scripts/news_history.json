@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "NAPLAN Online Testing Platform Fails on First Day Due to Widespread Technical Issues",
-      "urls": [
-        "https://www.itnews.com.au/news/naplan-tests-disrupted-by-tech-issue-on-first-day-624185",
-        "https://nerdbot.com/2026/03/11/top-ai-hr-and-elearning-tools-to-boost-workforce-productivity",
-        "https://hitconsultant.net/2026/03/11/himss26-day-3-wrap-up"
-      ],
-      "date": "2026-03-12T05:31:09.689667+00:00"
-    },
-    {
       "title": "Nvidia Partners with Thinking Machines Lab on Multi-Year Strategic Compute Deal",
       "urls": [
         "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia",
@@ -4221,7 +4212,14 @@
         "https://www.mrplumber.sg"
       ],
       "date": "2026-03-22T05:04:33.065516+00:00"
+    },
+    {
+      "title": "Fox News Reaches 2.3 Million Prime-Time Viewers in 2023",
+      "urls": [
+        "https://www.foxnews.com?msockid=0b5061a89a7b69aa0235768c9b1e6836"
+      ],
+      "date": "2026-03-22T05:31:14.625058+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T05:04:33.065583+00:00"
+  "lastUpdated": "2026-03-22T05:31:14.625126+00:00"
 }
