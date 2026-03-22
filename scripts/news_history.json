@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Acquires Promptfoo to Enhance Security Features in Frontier Platform",
-      "urls": [
-        "https://www.securityweek.com/openai-to-acquire-ai-security-startup-promptfoo"
-      ],
-      "date": "2026-03-12T04:01:26.078821+00:00"
-    },
-    {
-      "title": "Islanders' Barzal Scores Overtime Goal in Thrilling 3-2 Win Over Rangers",
-      "urls": [
-        "https://deadspin.com/playoff-field-finalized-for-pgl-wallachia-season-7",
-        "https://www.espn.com/video/clip?id=48169045",
-        "https://www.nhl.com/news/nhl-nhlpa-select-finalists-for-innovation-competition",
-        "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-is-enacting-victim-compensation-protocol-for-everyone-who-has-been-negatively-affected-by-the-incentivised-throwing-epidemic-the-system-will-automatically-restore-lost-points"
-      ],
-      "date": "2026-03-12T04:31:11.000584+00:00"
-    },
-    {
-      "title": "Regulators Urge Updates to Federal Frameworks to Curb AI-Driven Diagnostic Errors",
-      "urls": [
-        "https://www.mobihealthnews.com/video/ai-ethics-and-regulation-discussed-himss26-day-1"
-      ],
-      "date": "2026-03-12T05:01:21.931070+00:00"
-    },
-    {
       "title": "NAPLAN Online Testing Platform Fails on First Day Due to Widespread Technical Issues",
       "urls": [
         "https://www.itnews.com.au/news/naplan-tests-disrupted-by-tech-issue-on-first-day-624185",
@@ -4234,7 +4210,18 @@
         "https://cloud.google.com/learn/what-is-cloud-computing?hl=es"
       ],
       "date": "2026-03-22T04:01:22.034429+00:00"
+    },
+    {
+      "title": "Mr Handyman Deploys 50 Licensed Plumbers For 24/7 Emergency Repairs In Singapore",
+      "urls": [
+        "https://www.yelp.com/search?find_desc=Plumbers&find_loc=8+Haji+Ln%2C+Singapore+189201",
+        "https://www.yelp.ca/search?find_desc=Plumbers&find_loc=Haji+Ln%2C+Singapore",
+        "https://thesingaporean.sg/plumber-singapore",
+        "https://mrhandyman.sg/plumbing-services-singapore",
+        "https://www.mrplumber.sg"
+      ],
+      "date": "2026-03-22T05:04:33.065516+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T04:01:22.034500+00:00"
+  "lastUpdated": "2026-03-22T05:04:33.065583+00:00"
 }
