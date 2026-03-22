@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "German Start-Up Firm Plans to Construct 30-Megawatt AI Data Centre in Germany",
-      "urls": [
-        "https://www.rcrwireless.com/20260311/reader-forum/secure-ai-native-networks",
-        "https://markets.businessinsider.com/news/stocks/fulloop-highlights-institutional-shift-toward-ai-infrastructure-investment-1035916673",
-        "https://www.reuters.com/sustainability/climate-energy/german-start-up-plans-30-megawatt-ai-data-centre-boost-sovereign-control-2026-03-10",
-        "https://zamin.uz/en/technology/193735-specialized-worker-towns-built-for-ai-centers.html"
-      ],
-      "date": "2026-03-12T15:31:28.763746+00:00"
-    },
-    {
       "title": "Oracle and OpenAI Halt AI Data Center Expansion in Texas Amid Financing Disputes",
       "urls": [
         "https://www.reuters.com/business/us-court-international-trade-suspends-march-5-order-tariff-refunds-2026-03-06",
@@ -4234,7 +4224,14 @@
         "https://www.zhihu.com/question/371644077"
       ],
       "date": "2026-03-22T15:03:42.387595+00:00"
+    },
+    {
+      "title": "Crypto Fear And Greed Index Tracks Market Sentiment In Real Time",
+      "urls": [
+        "https://coinmarketcap.com/charts/fear-and-greed-index"
+      ],
+      "date": "2026-03-22T15:34:30.850002+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T15:03:42.387659+00:00"
+  "lastUpdated": "2026-03-22T15:34:30.850057+00:00"
 }
