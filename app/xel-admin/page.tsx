@@ -667,11 +667,7 @@ function AdminPanel() {
                     <nav className="flex gap-1 -mb-px overflow-x-auto">
                         {([
                             { id: 'articles' as Tab, icon: BookOpen, label: 'Articles' },
-                            { id: 'apks' as Tab, icon: ShoppingBag, label: 'APKs' },
-                            { id: 'aiLabs' as Tab, icon: Brain, label: 'AI Labs' },
-                            { id: 'security' as Tab, icon: ShieldCheck, label: 'Security' },
                             { id: 'feedbacks' as Tab, icon: MessageSquare, label: 'Feedbacks' },
-                            { id: 'logs' as Tab, icon: Eye, label: 'Logs' },
                         ]).map(tab => (
                             <button
                                 key={tab.id}
@@ -751,39 +747,6 @@ function AdminPanel() {
                                         </>
                                     )}
 
-                                    {/* ── APK Form ─── */}
-                                    {activeTab === 'apks' && (
-                                        <>
-                                            <input type="text" placeholder="Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Version (e.g., 1.0.0)" value={formData.version || ''} onChange={e => setFormData({ ...formData, version: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Download URL (GitHub releases)" value={formData.downloadUrl || ''} onChange={e => setFormData({ ...formData, downloadUrl: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Size (e.g., 15 MB)" value={formData.size || ''} onChange={e => setFormData({ ...formData, size: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <textarea placeholder="Description" rows={3} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                        </>
-                                    )}
-
-                                    {/* ── AI Lab Form (aligned with schema) ─── */}
-                                    {activeTab === 'aiLabs' && (
-                                        <>
-                                            <input type="text" placeholder="Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="URL (optional)" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Category (optional)" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                        </>
-                                    )}
-
-                                    {/* ── Security Tool Form (aligned with schema) ─── */}
-                                    {activeTab === 'security' && (
-                                        <>
-                                            <input type="text" placeholder="Tool Title" value={formData.title || ''} onChange={e => setFormData({ ...formData, title: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <textarea placeholder="Description" rows={3} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Icon URL (optional)" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="URL (optional)" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Category (optional)" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                        </>
-                                    )}
                                 </div>
 
                                 <div className="flex gap-3 mt-6">
@@ -835,77 +798,7 @@ function AdminPanel() {
                     </div>
                 )}
 
-                {activeTab === 'apks' && (
-                    <div className="grid gap-4">
-                        {apks.length === 0 ? (
-                            <div className="text-center py-12 text-zinc-500">No APKs yet. Add your first APK!</div>
-                        ) : apks.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
-                                <Download className="w-8 h-8 text-emerald-400 flex-shrink-0" />
-                                <div className="flex-1 min-w-0">
-                                    <h3 className="font-medium truncate">{item.name}</h3>
-                                    <p className="text-sm text-zinc-500">v{item.version} • {item.size}</p>
-                                </div>
-                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
-                                        <Edit className="w-4 h-4 text-zinc-400" />
-                                    </button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
-                                        <Trash2 className="w-4 h-4 text-red-400" />
-                                    </button>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                )}
-
-                {activeTab === 'aiLabs' && (
-                    <div className="grid gap-4">
-                        {aiLabs.length === 0 ? (
-                            <div className="text-center py-12 text-zinc-500">No AI Labs yet. Add your first experiment!</div>
-                        ) : aiLabs.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
-                                <Brain className="w-8 h-8 text-purple-400 flex-shrink-0" />
-                                <div className="flex-1 min-w-0">
-                                    <h3 className="font-medium truncate">{item.name}</h3>
-                                    <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}{item.url ? ` • ${item.url}` : ''}</p>
-                                </div>
-                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
-                                        <Edit className="w-4 h-4 text-zinc-400" />
-                                    </button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
-                                        <Trash2 className="w-4 h-4 text-red-400" />
-                                    </button>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                )}
-
-                {activeTab === 'security' && (
-                    <div className="grid gap-4">
-                        {securityTools.length === 0 ? (
-                            <div className="text-center py-12 text-zinc-500">No security tools yet. Add your first tool!</div>
-                        ) : securityTools.map(item => (
-                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
-                                <ShieldCheck className="w-8 h-8 text-red-400 flex-shrink-0" />
-                                <div className="flex-1 min-w-0">
-                                    <h3 className="font-medium truncate">{item.title}</h3>
-                                    <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}</p>
-                                </div>
-                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
-                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
-                                        <Edit className="w-4 h-4 text-zinc-400" />
-                                    </button>
-                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
-                                        <Trash2 className="w-4 h-4 text-red-400" />
-                                    </button>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                )}
+                {/* Non-Article item lists omitted */}
 
                 {activeTab === 'feedbacks' && (
                     <div>
@@ -970,51 +863,7 @@ function AdminPanel() {
                     </div>
                 )}
 
-                {activeTab === 'logs' && (
-                    <div className="space-y-8">
-                        <div>
-                            <h3 className="text-lg font-semibold mb-4">Recent Downloads</h3>
-                            <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl overflow-hidden">
-                                {downloadLogs.length === 0 ? (
-                                    <div className="p-8 text-center text-zinc-500">No downloads yet</div>
-                                ) : (
-                                    <div className="divide-y divide-zinc-800 max-h-64 overflow-y-auto">
-                                        {downloadLogs.map((log) => (
-                                            <div key={log.id} className="p-3 text-sm">
-                                                <span className="text-zinc-400">{new Date(log.timestamp).toLocaleString()}</span>
-                                                <span className="mx-2 text-zinc-600">|</span>
-                                                <span className="text-emerald-400">APK: {log.apkId}</span>
-                                                <span className="mx-2 text-zinc-600">|</span>
-                                                <span className="text-zinc-500">IP: {log.ip}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-
-                        <div>
-                            <h3 className="text-lg font-semibold mb-4">Admin Activity</h3>
-                            <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl overflow-hidden">
-                                {adminLogs.length === 0 ? (
-                                    <div className="p-8 text-center text-zinc-500">No admin activity yet</div>
-                                ) : (
-                                    <div className="divide-y divide-zinc-800 max-h-64 overflow-y-auto">
-                                        {adminLogs.map((log) => (
-                                            <div key={log.id} className="p-3 text-sm">
-                                                <span className="text-zinc-400">{new Date(log.timestamp).toLocaleString()}</span>
-                                                <span className="mx-2 text-zinc-600">|</span>
-                                                <span className="text-purple-400">{log.action}</span>
-                                                <span className="mx-2 text-zinc-600">|</span>
-                                                <span className="text-zinc-500 truncate">{log.details}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-                    </div>
-                )}
+                {/* Logs section omitted */}
             </main>
         </div>
     );
