@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Successfully Quantify Endosomal Escape in Live Animals Using Lysosomal Barcoding Technique",
-      "urls": [
-        "https://www.nature.com/articles/s43588-026-00966-2",
-        "https://www.nature.com/articles/s41587-026-03047-x"
-      ],
-      "date": "2026-03-12T03:31:04.045263+00:00"
-    },
-    {
       "title": "OpenAI Acquires Promptfoo to Enhance Security Features in Frontier Platform",
       "urls": [
         "https://www.securityweek.com/openai-to-acquire-ai-security-startup-promptfoo"
@@ -4225,7 +4217,17 @@
         "https://www.bbc.com/watch-live-news"
       ],
       "date": "2026-03-22T03:02:33.664545+00:00"
+    },
+    {
+      "title": "Extreme Releases First Album in 13 Years Featuring 12 Tracks",
+      "urls": [
+        "https://www.extremenetworks.com",
+        "https://www.youtube.com/watch?v=D6TbwSdt-88",
+        "https://dictionary.cambridge.org/dictionary/english/extreme",
+        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=09d075c7fbe262fb3d2e62e3fa2b637c"
+      ],
+      "date": "2026-03-22T03:31:18.972214+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T03:02:33.664606+00:00"
+  "lastUpdated": "2026-03-22T03:31:18.972281+00:00"
 }
