@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chris White Sets New Record for Fastest Half Marathon Time with MS",
-      "urls": [
-        "https://www.bbc.com/news/articles/c3rzyyyq238o"
-      ],
-      "date": "2026-03-12T12:31:28.554152+00:00"
-    },
-    {
       "title": "Researchers Successfully Track Gene-Therapy Nanoparticles to Their Intended Targets in Human Tissue",
       "urls": [
         "https://phys.org/news/2026-03-dna-barcoding-reveals-gene-therapy.html"
@@ -4228,7 +4221,15 @@
         "https://aws.amazon.com/what-is/artificial-intelligence"
       ],
       "date": "2026-03-22T12:02:42.791593+00:00"
+    },
+    {
+      "title": "Nato Strengthens Eastern Flank After Russia's Ukraine Invasion",
+      "urls": [
+        "https://www.foreignaffairs.com/topics/geopolitics",
+        "https://geopol.uk/concepts/geopolitics-introduction"
+      ],
+      "date": "2026-03-22T12:33:26.881672+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T12:02:42.791657+00:00"
+  "lastUpdated": "2026-03-22T12:33:26.881735+00:00"
 }
