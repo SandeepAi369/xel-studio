@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "SkyBitz Evaluates SmartTrailer Ecosystem Against Key Trailer Tracking Solution Requirements",
-      "urls": [
-        "https://www.fleetowner.com/resources/white-papers/whitepaper/55362158/the-ultimate-trailer-tracking-technology-checklist-for-fleets"
-      ],
-      "date": "2026-03-12T13:31:22.727092+00:00"
-    },
-    {
-      "title": "Kilauea Volcano Erupts Blasting Lava 1000 Feet into the Hawaiian Sky",
-      "urls": [
-        "https://apnews.com/article/hawaii-volcano-lava-fountains-kilauea-73296dea384c0032246f5a436fd50570",
-        "https://www.sfchronicle.com/travel/article/kilauea-volcano-eruption-hawaii-22064046.php"
-      ],
-      "date": "2026-03-12T14:01:20.440039+00:00"
-    },
-    {
       "title": "Google Releases Major Android Update Fixing 129 Critical Security Flaws",
       "urls": [
         "https://www.phoronix.com/news/Linux-7.0-rc3",
@@ -4243,7 +4228,18 @@
         "https://www.reuters.com/markets"
       ],
       "date": "2026-03-22T13:31:19.015287+00:00"
+    },
+    {
+      "title": "HealthCare Gov Streamlines Affordable Care Act Enrollment With Secure Online Platform",
+      "urls": [
+        "https://www.healthcare.gov/find-assistance",
+        "https://www.healthcare.gov/screener/income",
+        "https://www.healthcare.gov/topics",
+        "https://www.healthcare.gov/update-password",
+        "https://www.healthcare.gov/security-code/enroll/choose-your-method"
+      ],
+      "date": "2026-03-22T14:04:48.870711+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T13:31:19.015366+00:00"
+  "lastUpdated": "2026-03-22T14:04:48.870784+00:00"
 }
