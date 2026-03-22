@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ECRI Names AI Diagnostic Errors Top Patient Safety Issue for 2026",
-      "urls": [
-        "https://www.modernhealthcare.com/providers/safety-quality/mh-ai-diagnostics-patient-safety-ecri"
-      ],
-      "date": "2026-03-12T19:01:22.867245+00:00"
-    },
-    {
       "title": "KIMM Unveils Task AI System Capable of Learning Complex Tasks through Human Demonstrations",
       "urls": [
         "https://www.marinelink.com/news/kimm-fast-tracks-ai-system-robotics-536890",
@@ -4219,7 +4212,14 @@
         "https://about.nike.com/en/newsroom"
       ],
       "date": "2026-03-22T18:31:21.937553+00:00"
+    },
+    {
+      "title": "Michigan Launches Refugee Assistance Program to Boost Employment and Integration",
+      "urls": [
+        "https://www.michigan.gov/ogm/about/refugee-services"
+      ],
+      "date": "2026-03-22T19:07:08.712712+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T18:31:21.937618+00:00"
+  "lastUpdated": "2026-03-22T19:07:08.712773+00:00"
 }
