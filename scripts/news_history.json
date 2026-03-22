@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistant Enhances Syllabi Review with Honest Feedback and Custom Visuals",
-      "urls": [
-        "https://www.govtech.com/education/k-12/opinion-10-tips-for-teachers-using-ai-in-class"
-      ],
-      "date": "2026-03-12T17:32:04.694813+00:00"
-    },
-    {
-      "title": "NASA Partners with Top Universities to Launch University Innovation Project Nationwide",
-      "urls": [
-        "https://www.nasa.gov/directorates/armd/tacp/ui/about-ui"
-      ],
-      "date": "2026-03-12T18:01:21.228886+00:00"
-    },
-    {
       "title": "Eisai and Pokémon Launch AI-Powered Sleep Awareness Campaign in Japan",
       "urls": [
         "https://pharmaphorum.com/sales-marketing/harnessing-ai-transform-end-end-customer-engagement-pharma-and-biotech"
@@ -4219,7 +4205,17 @@
         "https://www.screen.co.jp/ir"
       ],
       "date": "2026-03-22T17:31:14.441669+00:00"
+    },
+    {
+      "title": "National Wildlife Federation Combats Habitat Destruction in Southern California",
+      "urls": [
+        "https://www.wildlifeworld.com",
+        "https://cawildlife.org",
+        "https://www.nwf.org",
+        "https://education.nationalgeographic.org/resource/wildlife-conservation"
+      ],
+      "date": "2026-03-22T18:02:12.346567+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T17:31:14.441774+00:00"
+  "lastUpdated": "2026-03-22T18:02:12.346645+00:00"
 }
