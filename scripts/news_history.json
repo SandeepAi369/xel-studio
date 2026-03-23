@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Aurora Cancer Care Partners with Syapse to Launch Precision Oncology Medicine Program",
-      "urls": [
-        "https://hitconsultant.net/category/health-it/page/868"
-      ],
-      "date": "2026-03-13T21:31:17.020710+00:00"
-    },
-    {
       "title": "Alphabet's Waymo Leads Surge in Venture Capital Investments in Physical AI Technology",
       "urls": [
         "https://www.wsj.com/articles/ai-cyber-startup-kai-raises-125-million-e43c9413?gaa_at=eafs&gaa_n=AWEtsqdHZBltuqeZA-hM0GVmgq_7EzQcy7TlLH-XnQ9Tp7X5zkwpmWkG4xIS&gaa_ts=69afeb4b&gaa_sig=miGYzWGvlsWUk5cFZ4yteZkUzb9cTTEP5-HsSQxCPpDXByObiv_vVFPJ9rKHLWGibAN3Mlxs5osIHrC_uSEIag%3D%3D",
@@ -4239,7 +4232,14 @@
         "https://www.cnn.com/videos"
       ],
       "date": "2026-03-23T21:01:40.058894+00:00"
+    },
+    {
+      "title": "Fox News Launches Expanded Global Coverage With Real-Time Updates",
+      "urls": [
+        "https://www.foxnews.com/world?msockid=230d59eedb4f69b817284ecbdaa96887"
+      ],
+      "date": "2026-03-23T21:33:33.687731+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T21:01:40.058957+00:00"
+  "lastUpdated": "2026-03-23T21:33:33.687811+00:00"
 }
