@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Develop New Schemes to Protect Quantum Data in Logical Qubits Prototypes",
-      "urls": [
-        "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing",
-        "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all",
-        "https://phys.org/news/2026-03-precisely-quantum-large-ensembles.html",
-        "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-        "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-        "https://www.nature.com/articles/s41566-026-01860-z"
-      ],
-      "date": "2026-03-13T15:31:17.182145+00:00"
-    },
-    {
       "title": "Adobe Shares Plummet Over 10% Following CEO Shantanu Narayen's Abrupt Departure Announcement",
       "urls": [
         "https://www.cnbc.com/video/2026/03/13/market-open-march-13-2026.html"
@@ -4221,7 +4209,16 @@
         "https://climate.nasa.gov/news/482/cleaning-the-air-would-limit-short-term-climate-warming"
       ],
       "date": "2026-03-23T15:04:19.521209+00:00"
+    },
+    {
+      "title": "U.S. Fish And Wildlife Service Manages 570 National Wildlife Refuges",
+      "urls": [
+        "https://wildlife.org",
+        "https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee",
+        "https://www.usda.gov/sustainability/conservation/wildlife"
+      ],
+      "date": "2026-03-23T15:36:55.496990+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T15:04:19.521269+00:00"
+  "lastUpdated": "2026-03-23T15:36:55.497054+00:00"
 }
