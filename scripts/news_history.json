@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "African Climate Experts Challenge IPCC Scenarios Over Inadequate Developing Country Representation",
-      "urls": [
-        "https://www.nature.com/articles/s41558-026-02580-6"
-      ],
-      "date": "2026-03-13T23:01:31.577365+00:00"
-    },
-    {
       "title": "University of Pennsylvania Researchers Develop Imaging Technique to Prevent Pancreatic Cancer Lesions",
       "urls": [
         "https://medicalxpress.com/news/2026-03-strategy-intercepts-pancreatic-cancer-microscopic.html",
@@ -4269,7 +4262,23 @@
         "https://www.nextmsc.com/news/mcdonalds-pilots-humanoid-robots-in-chinas-service-sector"
       ],
       "date": "2026-03-23T23:01:31.339582+00:00"
+    },
+    {
+      "title": "Hawaii Braces for Catastrophic Flooding After 50 Inches of Rain",
+      "urls": [
+        "https://www.foxweather.com/weather-news/hawaii-flash-flooding-rescues-evacuations-damage-disaster-dangerous",
+        "https://www.nbcnews.com/weather/floods/hawaii-worst-flooding-in-20-years-rcna264573",
+        "https://abcnews.com/US/wildfires-floods-extreme-heat-biggest-weather-stories-2025/story?id=128556731",
+        "https://www.cnn.com/2026/03/20/weather/hawaii-flooding-oahu-climate",
+        "https://www.msn.com/en-us/weather/meteorology/kona-storm-batters-hawaii-with-record-rain-and-hurricane-force-winds/ar-AA1Z2W5d",
+        "https://www.cbsnews.com/tag/disaster",
+        "https://www.msn.com/en-us/weather/topstories/kona-storm-hits-hawaii-with-135-mph-winds-44-in-rain-and-summit-snow/ar-AA1YOUVz",
+        "https://www.foxweather.com/weather-news/kona-low-hawaii-monumental-rain-hurricane-force-winds",
+        "https://www.hawaii.edu/news/2026/03/19/hawaii-mesonet-storm-data",
+        "https://apnews.com/live/hurricane-milton-florida-tracker-updates"
+      ],
+      "date": "2026-03-23T23:31:10.164055+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T23:01:31.339635+00:00"
+  "lastUpdated": "2026-03-23T23:31:10.164113+00:00"
 }
