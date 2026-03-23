@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lionel Messi's 57th-Minute Strike Falls Short as LA Galaxy Defeats Club América 3-1",
-      "urls": [
-        "https://www.nhl.com/nhl-network/topic/nhln-latest-video/nhl-now-about-last-night-6390755813112",
-        "https://deadspin.com/concacaf-champions-cup-galaxys-gabriel-pec-nets-hat-trick"
-      ],
-      "date": "2026-03-13T00:31:07.887107+00:00"
-    },
-    {
       "title": "Health Systems Struggle to Protect Unmanaged Medical Devices from Cyber Intrusion",
       "urls": [
         "https://hitconsultant.net/2026/03/11/himss-elisity-report-microsegmentation-iomt-security-paradox",
@@ -4227,7 +4219,17 @@
         "https://www.foxnews.com?msockid=39aa6eb3ce86663734a97996cf726700"
       ],
       "date": "2026-03-23T00:03:36.454541+00:00"
+    },
+    {
+      "title": "NFL Announces 2025 Schedule With Expanded Thanksgiving Games And London Series",
+      "urls": [
+        "https://www.nfl.com/news",
+        "https://www.nfl.com/scores",
+        "https://www.nfl.com/schedules/2025/by-week/post-4",
+        "https://www.nfl.com/videos"
+      ],
+      "date": "2026-03-23T00:31:13.093295+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T00:03:36.454592+00:00"
+  "lastUpdated": "2026-03-23T00:31:13.093361+00:00"
 }
