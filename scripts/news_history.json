@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jeff McNeil's Two-Run Homer Extends Athletics' Lead Over the Rangers in Cactus League",
-      "urls": [
-        "https://www.mlb.com/video/jeff-mcneil-s-two-run-home-run-x6068"
-      ],
-      "date": "2026-03-13T14:31:22.968920+00:00"
-    },
-    {
       "title": "Andrej Karpathy's Autoresearch System Iteratively Self-Improves Code in Groundbreaking AI Research Achievement",
       "urls": [
         "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
@@ -4223,7 +4216,14 @@
         "https://www.nbcnews.com/us-news"
       ],
       "date": "2026-03-23T14:06:06.220149+00:00"
+    },
+    {
+      "title": "Fox News has integrated ZIP code-based targeting into its weather reporting platform, delivering loc",
+      "urls": [
+        "https://www.foxnews.com?msockid=3fef5c8c4b1965aa3cde4ba94afc644a"
+      ],
+      "date": "2026-03-23T14:33:59.554184+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T14:06:06.220229+00:00"
+  "lastUpdated": "2026-03-23T14:33:59.554251+00:00"
 }
