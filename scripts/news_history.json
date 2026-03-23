@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Health Systems Struggle to Protect Unmanaged Medical Devices from Cyber Intrusion",
-      "urls": [
-        "https://hitconsultant.net/2026/03/11/himss-elisity-report-microsegmentation-iomt-security-paradox",
-        "https://www.miningweekly.com/article/technology-central-to-overcoming-minings-growth-constraints-2026-03-13",
-        "https://markets.businessinsider.com/news/currencies/zone-air-publishes-2026-homeowner-guide-to-evaluating-mini-split-hvac-systems-1035925564"
-      ],
-      "date": "2026-03-13T01:01:23.702418+00:00"
-    },
-    {
       "title": "FEMA Awards Osceola County $13 Million Grant for Drainage Infrastructure Upgrades",
       "urls": [
         "https://www.govtech.com/em/safety/osceola-county-fla-awarded-13m-for-flood-mitigation",
@@ -4229,7 +4220,14 @@
         "https://www.nfl.com/videos"
       ],
       "date": "2026-03-23T00:31:13.093295+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather System for 29000 US ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=035efb46c4f46b9b2c83ec63c5d16a54"
+      ],
+      "date": "2026-03-23T01:02:38.331401+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T00:31:13.093361+00:00"
+  "lastUpdated": "2026-03-23T01:02:38.331461+00:00"
 }
