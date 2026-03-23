@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Capacity in Iran Reduced Amid US Funding Cuts and Fears of Mass Afghan Displacement",
-      "urls": [
-        "https://www.cfr.org/articles/the-iran-war-is-breaking-global-humanitarian-aid-efforts",
-        "https://ejewishphilanthropy.com/from-helplessness-to-impact-opening-gateways-for-change",
-        "https://www.bbc.com/news/articles/cz7g5xnvl2eo",
-        "https://deadline.com/2026/03/one-in-a-million-makes-documentary-clip-1236751019"
-      ],
-      "date": "2026-03-13T11:01:28.844263+00:00"
-    },
-    {
       "title": "Gautam Solar Ranks Fourth in Indian Solar Module Manufacturers Amid Consolidation",
       "urls": [
         "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/gautam-solar-ranks-among-india---s-top-4-solar-module-manufacturers/87919"
@@ -4213,7 +4203,18 @@
         "https://shop-list.com"
       ],
       "date": "2026-03-23T10:32:24.394213+00:00"
+    },
+    {
+      "title": "NVIDIA has launched a new beta application replacing GeForce Experience, consolidating driver update",
+      "urls": [
+        "https://www.reddit.com/r/nvidia/comments/1b7u3ck/considering_downloading_new_nvidia_app_beta",
+        "https://www.reddit.com/r/Windows10/comments/k1d2y3/wtf_is_nividia_container_and_why_it_consumes_20",
+        "https://www.reddit.com/r/GeForceExperience/comments/1cmlzyl/nvidia_app_stream_option_gone",
+        "https://www.reddit.com/r/GeForceNOW",
+        "https://www.reddit.com/r/overclocking/comments/15393ab/can_someone_explain_to_me_what_voltage_maximum"
+      ],
+      "date": "2026-03-23T11:02:05.387426+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T10:32:24.394277+00:00"
+  "lastUpdated": "2026-03-23T11:02:05.387486+00:00"
 }
