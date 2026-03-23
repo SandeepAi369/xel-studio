@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dr Mehmet Oz and Jeremy Renner Discuss AI and Digital Health at HIMSS26 Conference",
-      "urls": [
-        "https://www.mobihealthnews.com/video/final-day-himss26-punctuated-dr-oz-and-jeremy-renner-keynotes",
-        "https://www.mobihealthnews.com/video/hot-topics-himss26-day-2-wearables-cybersecurity"
-      ],
-      "date": "2026-03-13T19:01:32.481110+00:00"
-    },
-    {
       "title": "YouTube Rolls Out AI Likeness Detection Tool for Government Officials and Journalists",
       "urls": [
         "https://gizmodo.com/google-invests-1-million-in-company-that-makes-ai-youtube-videos-for-kids-2000732685",
@@ -4227,7 +4219,17 @@
         "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2021/Haiti"
       ],
       "date": "2026-03-23T18:31:17.444625+00:00"
+    },
+    {
+      "title": "Nasa Reports 1.2C Global Temperature Rise And Record 421 Ppm Co2 Levels",
+      "urls": [
+        "https://climate.nasa.gov/images-of-change",
+        "https://climate.nasa.gov/news/2944/nasa-noaa-to-announce-2019-global-temperatures-climate-conditions/in-progress",
+        "https://climate.nasa.gov/visual-sitemap/resource/2021",
+        "https://climate.nasa.gov/quizzes/carbon-quiz/3/9"
+      ],
+      "date": "2026-03-23T19:02:09.684849+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T18:31:17.444696+00:00"
+  "lastUpdated": "2026-03-23T19:02:09.684922+00:00"
 }
