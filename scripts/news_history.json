@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oil Prices Soar Past $125 Per Barrel Amid Middle East Conflict Tensions",
-      "urls": [
-        "https://www.cnn.com/2026/03/10/business/us-economy-war-iran-recession"
-      ],
-      "date": "2026-03-13T03:01:25.632553+00:00"
-    },
-    {
       "title": "SpaceX's Contract Value Rises $253 Million Due to Delayed Propellant-Transfer Demonstration",
       "urls": [
         "https://www.hjkc.de/_blog/26954-raumfahrt-startvorbereitung-von-spacex-falcon-9-mit-crs-24-mission",
@@ -4227,7 +4220,15 @@
         "https://chat.openai.com/chat"
       ],
       "date": "2026-03-23T02:33:18.857756+00:00"
+    },
+    {
+      "title": "FBI Recovers Surveillance Footage In Nancy Guthrie Disappearance Probe",
+      "urls": [
+        "https://www.foxnews.com?msockid=1a666cd2097b650b1ff67bf7080c64f7",
+        "https://www.timesnownews.com/world/us/us-news/latest-on-nancy-guthrie-case-today-fbi-agent-arrests-savannah-guthrie-article-153891975"
+      ],
+      "date": "2026-03-23T03:01:35.563606+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T02:33:18.857821+00:00"
+  "lastUpdated": "2026-03-23T03:01:35.563676+00:00"
 }
