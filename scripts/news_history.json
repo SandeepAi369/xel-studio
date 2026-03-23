@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Europe's EarthCare Mission Suffers as UK's FAAM Facility for Airborne Atmospheric Measurements Closes",
-      "urls": [
-        "https://www.researchprofessionalnews.com/rr-news-uk-politics-2026-3-what-s-going-on-in-the-uk-16-february-to-11-march",
-        "https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2026-2-closure-of-uk-flying-lab-a-big-blow-to-international-mission",
-        "https://www.global-agriculture.com/ag-tech-research-news/scaling-up-crop-insurance-in-africa-for-climate-resilience-and-agricultural-transformation"
-      ],
-      "date": "2026-03-13T14:01:40.185687+00:00"
-    },
-    {
       "title": "Jeff McNeil's Two-Run Homer Extends Athletics' Lead Over the Rangers in Cactus League",
       "urls": [
         "https://www.mlb.com/video/jeff-mcneil-s-two-run-home-run-x6068"
@@ -4221,7 +4212,18 @@
         "https://www.foxnews.com?msockid=102ffb03727c6d8514efec26733f6ce7"
       ],
       "date": "2026-03-23T13:31:32.618956+00:00"
+    },
+    {
+      "title": "Perplexity AI Delivers Real-Time Answers With Cited Sources",
+      "urls": [
+        "https://www.perplexity.ai",
+        "https://arena.ai",
+        "https://huggingface.co/FudanCVL/GlyphPrinter",
+        "https://x.com/MallocPrivacy/status/2029514386943963640",
+        "https://www.nbcnews.com/us-news"
+      ],
+      "date": "2026-03-23T14:06:06.220149+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T13:31:32.619014+00:00"
+  "lastUpdated": "2026-03-23T14:06:06.220229+00:00"
 }
