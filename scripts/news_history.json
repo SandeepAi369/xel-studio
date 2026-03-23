@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Reschedules Falcon 9 Launch with 29 Starlink Satellites to Saturday Orbit.",
-      "urls": [
-        "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-friday-morning-starlink-mission-from-cape-canaveral",
-        "https://www.nasa.gov/blogs/spacestation/2026/03/12/cygnus-xl-spacecraft-departing-station-soon-live-on-nasa"
-      ],
-      "date": "2026-03-13T13:01:29.856071+00:00"
-    },
-    {
       "title": "Managers at Major Companies Lack Training to Support Neurodiverse Employees Effectively",
       "urls": [
         "https://www.hrmagazine.co.uk/content/news/a-third-of-employees-say-managers-lack-neurodiversity-training",
@@ -4222,7 +4214,15 @@
         "https://www.foxnews.com/politics/iran-conflict-wont-trigger-biden-style-refugee-replay-expert-predicts?msockid=138cd49a0ac76dce00d4c3bf0bcd6c02"
       ],
       "date": "2026-03-23T12:31:36.143296+00:00"
+    },
+    {
+      "title": "Clyde Fa Faces Trial For York Stabbings And Robberies",
+      "urls": [
+        "https://www.bucyrustelegraphforum.com/story/news/2026/03/11/tsa-lines-wait-times-florida-airports-government-shutdown/89096305007",
+        "https://www.bucyrustelegraphforum.com/story/news/crime/2026/01/16/york-man-set-to-face-trial-from-stabbing-robberies-investigation/88219345007"
+      ],
+      "date": "2026-03-23T13:02:04.915099+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T12:31:36.143356+00:00"
+  "lastUpdated": "2026-03-23T13:02:04.915166+00:00"
 }
