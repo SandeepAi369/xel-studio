@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX's Contract Value Rises $253 Million Due to Delayed Propellant-Transfer Demonstration",
-      "urls": [
-        "https://www.hjkc.de/_blog/26954-raumfahrt-startvorbereitung-von-spacex-falcon-9-mit-crs-24-mission",
-        "https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development",
-        "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch",
-        "https://payloadspace.com/fireflys-alpha-rocket-reaches-orbit",
-        "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-cargo-spacecraft-departure"
-      ],
-      "date": "2026-03-13T03:31:10.459274+00:00"
-    },
-    {
-      "title": "Canva Unveils Magic Layers Feature in Public Beta for US and Global Users",
-      "urls": [
-        "https://www.reuters.com/business/openai-plans-launch-its-sora-video-tool-chatgpt-information-reports-2026-03-11",
-        "https://www.theverge.com/tech/893124/canva-ai-magic-layers-feature-beta",
-        "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive",
-        "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts",
-        "https://techcrunch.com/2026/03/12/webflow-buys-ai-content-generation-platform-vidoso-to-bolster-its-marketing-suite"
-      ],
-      "date": "2026-03-13T04:01:22.083843+00:00"
-    },
-    {
       "title": "Oksana Masters Wins Third Gold Medal in Women's Sitting Cross-Country at Paralympics",
       "urls": [
         "https://www.cbsnews.com/sanfrancisco/video/watch-olympic-figure-skater-alysa-liu-speaks-ahead-of-oakland-celebration-of-gold-medal",
@@ -4236,7 +4214,14 @@
         "https://homepage.aol.com"
       ],
       "date": "2026-03-23T03:31:05.708307+00:00"
+    },
+    {
+      "title": "Fox News Launches Real-Time Weather Coverage For All 29000 US ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=3e9a6ebca2e762b416da7999a3de6334"
+      ],
+      "date": "2026-03-23T04:01:27.287490+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T03:31:05.708360+00:00"
+  "lastUpdated": "2026-03-23T04:01:27.287550+00:00"
 }
