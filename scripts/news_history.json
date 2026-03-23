@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Governments Fail to Enforce Marine Protected Areas Established by EU Regulations",
-      "urls": [
-        "https://www.butlernature.com/2026/03/08/pascale-moehrle-a-life-spent-pushing-europe-to-protect-the-ocean",
-        "https://www.bozemandailychronicle.com/opinions/guest_columnists/dorothy-bradley-our-reverence-for-recreation-vs-irreverence-toward-extinction/article_2ca9dc98-7000-481e-b5a3-ef17078137e7.html"
-      ],
-      "date": "2026-03-13T18:01:25.898621+00:00"
-    },
-    {
       "title": "Meta's AI Ambitions Hit Snag as Avocado Model Falls Behind Competitors",
       "urls": [
         "https://gizmodo.com/mark-zuckerbergs-billion-dollar-hiring-spree-avocado-delays-ai-2000733284"
@@ -4228,7 +4220,14 @@
         "https://en.m.wikipedia.org/wiki/Google"
       ],
       "date": "2026-03-23T17:36:32.585933+00:00"
+    },
+    {
+      "title": "Lennart Karl Scores In Three Straight Bundesliga Matches For Bayern Munich",
+      "urls": [
+        "https://www.fifa.com/en/news/articles/lennart-karl-bayern-munich-germany"
+      ],
+      "date": "2026-03-23T18:01:27.922639+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T17:36:32.585997+00:00"
+  "lastUpdated": "2026-03-23T18:01:27.922702+00:00"
 }
