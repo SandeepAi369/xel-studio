@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senator Wyden Unveils Bipartisan Bill to Rein in Government AI Surveillance Practices",
-      "urls": [
-        "https://www.vitallaw.com/news/bipartisan-coalition-plans-comprehensive-bill-to-address-privacy-surveillance-sen-wyden-says/cspd01dbe6e7785eb24016a1c0bdabb50f8162",
-        "https://www.wsj.com/tech/cybersecurity/cyber-breach-hack-0c2c44ad?gaa_at=eafs&gaa_n=AWEtsqeoPuZ8I0poTS7QluAMdvVRr6_txnUd5REe5wWEyzDP1K817gshq5YC&gaa_ts=69b060e6&gaa_sig=exUvI5Q8Lzg4Nyml3kveiii9mc4_OH-Ya5YuIUpl6bybABNdBt4Bfu_pv4coVwcxJFzNXsZpLfamIMr0hTzeUQ%3D%3D",
-        "https://www.darkreading.com/threat-intelligence/commercial-spyware-opponents-fear-us-policy-shifting"
-      ],
-      "date": "2026-03-13T12:01:21.645838+00:00"
-    },
-    {
       "title": "Mondo Duplantis Sets New Men's Pole Vault World Record for 15th Time",
       "urls": [
         "https://www.skysports.com/more-sports/athletics/news/29175/13519023/mondo-duplantis-pole-vaulter-sets-15th-world-record-as-he-registers-jump-of-6-31m-in-sweden",
@@ -4214,7 +4205,23 @@
         "https://www.foxnews.com?msockid=347dd7271b1d65653d15c0021ab7646f"
       ],
       "date": "2026-03-23T11:32:32.088530+00:00"
+    },
+    {
+      "title": "Steve Brown's AI System Flags Missed Blood Cancer Diagnosis",
+      "urls": [
+        "https://www.sciencenewstoday.org/15-most-important-ai-breakthroughs-in-medicine",
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
+        "https://hms.harvard.edu/news/ai-system-detailed-diagnostic-reasoning-makes-its-case",
+        "https://nypost.com/2026/03/19/health/california-man-built-ai-after-docs-dismissed-cancer-symptoms",
+        "https://newsnetwork.mayoclinic.org/discussion/a-year-of-discovery-10-mayo-clinic-research-breakthroughs-moving-medicine-forward",
+        "https://interestingengineering.com/health/seven-medical-breakthroughs-in-2025",
+        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
+        "https://theoutpost.ai/news-stories/health",
+        "https://microsoft.ai/news/the-path-to-medical-superintelligence"
+      ],
+      "date": "2026-03-23T12:07:03.150802+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T11:32:32.088590+00:00"
+  "lastUpdated": "2026-03-23T12:07:03.150878+00:00"
 }
