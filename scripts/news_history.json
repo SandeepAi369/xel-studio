@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nielsen Unveils Insights on Upfront Ad Budget Shifts to Targeted Multiplatform Audiences",
-      "urls": [
-        "https://tvnewscheck.com/business/article/nielsens-new-insights-could-help-shift-ad-budgets-in-the-upfront"
-      ],
-      "date": "2026-03-13T21:01:23.314823+00:00"
-    },
-    {
       "title": "Aurora Cancer Care Partners with Syapse to Launch Precision Oncology Medicine Program",
       "urls": [
         "https://hitconsultant.net/category/health-it/page/868"
@@ -4233,7 +4226,20 @@
         "https://www.yardbarker.com/mlb/teams/chicago_cubs/6"
       ],
       "date": "2026-03-23T20:31:28.656168+00:00"
+    },
+    {
+      "title": "Iran Targets Major U.S. Tech Firms With Cyber And Drone Threats",
+      "urls": [
+        "https://www.cnbc.com/technology?msockid=16c1d30d8e8f68512bb5c4288fa069fa",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB/sections/CAQiW0NCQVNQZ29JTDIwdk1EZGpNWFlTQW1WdUdnSlZVeUlQQ0FRYUN3b0pMMjB2TURKdFpqRnVLaGtLRndvVFIwRkVSMFZVWDFORlExUkpUMDVmVGtGTlJTQUJLQUEqKggAKiYICiIgQ0JBU0Vnb0lMMjB2TURkak1YWVNBbVZ1R2dKVlV5Z0FQAVAB?hl=en-US&ceid=US%3Aen",
+        "https://news.microsoft.com/recent-news?msockid=16c1d30d8e8f68512bb5c4288fa069fa",
+        "https://finance.yahoo.com/news/live/tech-stocks-today-anthropic-says-pentagon-ban-could-cost-it-billions-meta-announces-new-ai-chips-134456659.html",
+        "https://blogs.nvidia.com/blog/gtc-2026-news",
+        "https://www.cbsnews.com/news/iran-war-tehran-us-tech-companies-targets-middle-east-drones-cyberattacks",
+        "https://www.cnn.com/videos"
+      ],
+      "date": "2026-03-23T21:01:40.058894+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T20:31:28.656223+00:00"
+  "lastUpdated": "2026-03-23T21:01:40.058957+00:00"
 }
