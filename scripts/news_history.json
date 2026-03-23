@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta's AI Ambitions Hit Snag as Avocado Model Falls Behind Competitors",
-      "urls": [
-        "https://gizmodo.com/mark-zuckerbergs-billion-dollar-hiring-spree-avocado-delays-ai-2000733284"
-      ],
-      "date": "2026-03-13T18:31:15.340312+00:00"
-    },
-    {
       "title": "Dr Mehmet Oz and Jeremy Renner Discuss AI and Digital Health at HIMSS26 Conference",
       "urls": [
         "https://www.mobihealthnews.com/video/final-day-himss26-punctuated-dr-oz-and-jeremy-renner-keynotes",
@@ -4227,7 +4220,14 @@
         "https://www.fifa.com/en/news/articles/lennart-karl-bayern-munich-germany"
       ],
       "date": "2026-03-23T18:01:27.922639+00:00"
+    },
+    {
+      "title": "Haiti Launches Emergency Response After 7.2 Magnitude Earthquake",
+      "urls": [
+        "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2021/Haiti"
+      ],
+      "date": "2026-03-23T18:31:17.444625+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T18:01:27.922702+00:00"
+  "lastUpdated": "2026-03-23T18:31:17.444696+00:00"
 }
