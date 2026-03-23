@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists at GFZ Helmholtz Centre Map Magma Reservoir Beneath Lake Laach Volcano",
-      "urls": [
-        "https://www.earth.com/news/germanys-dormant-lake-laach-volcano-shows-new-signs-of-activity"
-      ],
-      "date": "2026-03-13T10:31:16.004045+00:00"
-    },
-    {
       "title": "UNHCR Capacity in Iran Reduced Amid US Funding Cuts and Fears of Mass Afghan Displacement",
       "urls": [
         "https://www.cfr.org/articles/the-iran-war-is-breaking-global-humanitarian-aid-efforts",
@@ -4207,7 +4200,20 @@
         "https://loudwire.com/extreme-six-album-rise-video"
       ],
       "date": "2026-03-23T10:01:32.383389+00:00"
+    },
+    {
+      "title": "Shop App Launches Unified Platform For Brand Browsing And Rewards",
+      "urls": [
+        "https://shop.app",
+        "https://www.amazon.com",
+        "https://www.rakuten.co.jp",
+        "https://www.shop.com",
+        "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
+        "https://galleriadallas.com",
+        "https://shop-list.com"
+      ],
+      "date": "2026-03-23T10:32:24.394213+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T10:01:32.383450+00:00"
+  "lastUpdated": "2026-03-23T10:32:24.394277+00:00"
 }
