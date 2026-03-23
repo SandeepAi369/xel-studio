@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oil Prices Surge After Strategic Reserve Release Amid Supply Disruption Concerns",
-      "urls": [
-        "https://finance.yahoo.com/news/live/earnings-live-dollar-general-stock-falls-bumble-stock-soars-on-earnings-beat-122701439.html",
-        "https://finance.yahoo.com/news/oracle-beats-q3-expectations-raises-2027-revenue-outlook-sending-stock-higher-203555383.html",
-        "https://www.bloomberg.com/news/articles/2026-03-09/hpe-projects-sales-that-top-estimates-on-ai-hardware-demand",
-        "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-data-oracle-orcl",
-        "https://www.reuters.com/business/media-telecom/tech-companies-tap-debt-markets-fund-ai-cloud-expansion-2026-03-10"
-      ],
-      "date": "2026-03-13T08:01:17.657553+00:00"
-    },
-    {
       "title": "Khamzat Chimaev to Defend UFC Middleweight Title Against Challenger Sean Strickland",
       "urls": [
         "https://www.espn.com/mma/ufc/story/_/id/48190465/khamzat-chimaev-defend-middleweight-title-vs-sean-strickland",
@@ -4212,7 +4201,14 @@
         "https://www.ada.gov/resources/web-guidance"
       ],
       "date": "2026-03-23T07:35:48.251284+00:00"
+    },
+    {
+      "title": "Erling Haaland Chases Ronaldo’s 140-Goal Champions League Record",
+      "urls": [
+        "https://www.fifa.com/en/news/articles/records-broken-2025"
+      ],
+      "date": "2026-03-23T08:01:31.617131+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T07:35:48.251334+00:00"
+  "lastUpdated": "2026-03-23T08:01:31.617194+00:00"
 }
