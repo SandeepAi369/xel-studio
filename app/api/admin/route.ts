@@ -35,6 +35,34 @@ function revalidateAllPages() {
     }
 }
 
+// Trigger GitHub Actions sync workflow instantly when articles change
+async function triggerGitHubSync() {
+    try {
+        const token = (process.env as any).GITHUB_PAT;
+        if (!token) {
+            console.warn('GITHUB_PAT not found. Add it to Vercel to enable instant syncing.');
+            return;
+        }
+        const response = await fetch('https://api.github.com/repos/SandeepAi369/deepAI-Articles/actions/workflows/sync.yml/dispatches', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ ref: 'main' })
+        });
+        if (!response.ok) {
+            console.error('Failed to trigger GitHub sync:', await response.text());
+        } else {
+            console.log('Successfully triggered GitHub sync workflow for articles');
+        }
+    } catch (e) {
+        console.error('Error triggering GitHub sync:', e);
+    }
+}
+
 export async function OPTIONS() {
     return new NextResponse(null, { status: 200, headers: corsHeaders });
 }
@@ -112,6 +140,10 @@ export async function POST(request: NextRequest) {
                 }
 
                 revalidateAllPages();
+                if (contentType === 'article') {
+                    // Fire-and-forget ping signal to GitHub Actions
+                    triggerGitHubSync().catch(console.error);
+                }
 
                 return NextResponse.json({
                     success: true,
@@ -155,6 +187,10 @@ export async function POST(request: NextRequest) {
                 }
 
                 revalidateAllPages();
+                if (contentType === 'article') {
+                    // Fire-and-forget ping signal to GitHub Actions
+                    triggerGitHubSync().catch(console.error);
+                }
 
                 return NextResponse.json({
                     success: true,
@@ -198,6 +234,10 @@ export async function POST(request: NextRequest) {
                 }
 
                 revalidateAllPages();
+                if (contentType === 'article') {
+                    // Fire-and-forget ping signal to GitHub Actions
+                    triggerGitHubSync().catch(console.error);
+                }
 
                 return NextResponse.json({ success: true, storage: 'supabase' }, { headers: corsHeaders });
 
