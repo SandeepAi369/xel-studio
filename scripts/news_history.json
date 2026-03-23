@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andrej Karpathy's Autoresearch System Iteratively Self-Improves Code in Groundbreaking AI Research Achievement",
-      "urls": [
-        "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
-        "https://www.reuters.com/business/ex-meta-ai-chief-yann-lecuns-ami-raises-103-billion-alternative-ai-approach-2026-03-10",
-        "https://quantumzeitgeist.com/andrej-karpathy-autoresearch-ai-code-improvement",
-        "https://zamin.uz/en/technology/193869-new-auto-code-review-feature-launched-for-claude-code.html"
-      ],
-      "date": "2026-03-13T15:01:35.087147+00:00"
-    },
-    {
       "title": "Researchers Develop New Schemes to Protect Quantum Data in Logical Qubits Prototypes",
       "urls": [
         "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing",
@@ -4223,7 +4213,15 @@
         "https://www.foxnews.com?msockid=3fef5c8c4b1965aa3cde4ba94afc644a"
       ],
       "date": "2026-03-23T14:33:59.554184+00:00"
+    },
+    {
+      "title": "Nasa And Columbia Study Shows Cutting Black Carbon And Ozone Emissions Could Slash Near Term Warming By 50 Percent",
+      "urls": [
+        "https://climate.nasa.gov/earth-now?event=eo_event_181126",
+        "https://climate.nasa.gov/news/482/cleaning-the-air-would-limit-short-term-climate-warming"
+      ],
+      "date": "2026-03-23T15:04:19.521209+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T14:33:59.554251+00:00"
+  "lastUpdated": "2026-03-23T15:04:19.521269+00:00"
 }
