@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "SHRM's AI + HI Project Warns of Growing Employee Anxiety Over AI Displacement Fears",
-      "urls": [
-        "https://www.shrm.org/topics-tools/news/similarities-abound-between-ai-adoption-id-work",
-        "https://hrexecutive.com/the-invisible-interview-how-ai-is-reshaping-employer-brand",
-        "https://hitconsultant.net/2026/03/10/himss26-tuesday-wrap-up",
-        "https://www.mobihealthnews.com/news/anz/newly-approved-lung-cancer-ai-australia-and-more-briefs"
-      ],
-      "date": "2026-03-13T06:01:25.437011+00:00"
-    },
-    {
       "title": "Native American Communities Face Disproportionate Environmental Degradation Nationwide",
       "urls": [
         "https://www.boisestatepublicradio.org/2026-03-12/report-nature-loss-pollution-development-western-communities"
@@ -4220,7 +4210,17 @@
         "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928"
       ],
       "date": "2026-03-23T06:01:24.182846+00:00"
+    },
+    {
+      "title": "Brent Crude Surges Past $120 Amid Middle East Supply Fears",
+      "urls": [
+        "https://www.foxbusiness.com/economy",
+        "https://www.cnn.com/business/economy",
+        "https://apnews.com/article/inflation-economy-trump-federal-reserve-fabecefa501709184895bf73b3dc698a",
+        "https://www.theguardian.com/news/ng-interactive/2026/mar/22/iran-war-global-economy-donald-trump-oil-prices-inflation"
+      ],
+      "date": "2026-03-23T06:31:07.508457+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T06:01:24.182906+00:00"
+  "lastUpdated": "2026-03-23T06:31:07.508525+00:00"
 }
