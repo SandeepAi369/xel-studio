@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Unveils Dedicated AI Inference Chip NemoClaw at GTC 2026 Conference",
-      "urls": [
-        "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote",
-        "https://www.infosecurity-magazine.com/news/ai-security-startups-cyber"
-      ],
-      "date": "2026-03-13T00:01:22.845370+00:00"
-    },
-    {
       "title": "Lionel Messi's 57th-Minute Strike Falls Short as LA Galaxy Defeats Club América 3-1",
       "urls": [
         "https://www.nhl.com/nhl-network/topic/nhln-latest-video/nhl-now-about-last-night-6390755813112",
@@ -4228,7 +4220,14 @@
         "https://www.iea.org/energy-system/renewables"
       ],
       "date": "2026-03-22T23:34:46.838102+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code Level Weather Alerts",
+      "urls": [
+        "https://www.foxnews.com?msockid=39aa6eb3ce86663734a97996cf726700"
+      ],
+      "date": "2026-03-23T00:03:36.454541+00:00"
     }
   ],
-  "lastUpdated": "2026-03-22T23:34:46.838179+00:00"
+  "lastUpdated": "2026-03-23T00:03:36.454592+00:00"
 }
