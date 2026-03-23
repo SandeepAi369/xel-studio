@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gautam Solar Ranks Fourth in Indian Solar Module Manufacturers Amid Consolidation",
-      "urls": [
-        "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/gautam-solar-ranks-among-india---s-top-4-solar-module-manufacturers/87919"
-      ],
-      "date": "2026-03-13T11:31:33.238149+00:00"
-    },
-    {
       "title": "Senator Wyden Unveils Bipartisan Bill to Rein in Government AI Surveillance Practices",
       "urls": [
         "https://www.vitallaw.com/news/bipartisan-coalition-plans-comprehensive-bill-to-address-privacy-surveillance-sen-wyden-says/cspd01dbe6e7785eb24016a1c0bdabb50f8162",
@@ -4214,7 +4207,14 @@
         "https://www.reddit.com/r/overclocking/comments/15393ab/can_someone_explain_to_me_what_voltage_maximum"
       ],
       "date": "2026-03-23T11:02:05.387426+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code Based Weather System",
+      "urls": [
+        "https://www.foxnews.com?msockid=347dd7271b1d65653d15c0021ab7646f"
+      ],
+      "date": "2026-03-23T11:32:32.088530+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T11:02:05.387486+00:00"
+  "lastUpdated": "2026-03-23T11:32:32.088590+00:00"
 }
