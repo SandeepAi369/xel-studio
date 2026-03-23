@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Managers at Major Companies Lack Training to Support Neurodiverse Employees Effectively",
-      "urls": [
-        "https://www.hrmagazine.co.uk/content/news/a-third-of-employees-say-managers-lack-neurodiversity-training",
-        "https://www.researchprofessionalnews.com/rr-news-europe-nordics-2026-3-nordic-news-roundup-3-9-march"
-      ],
-      "date": "2026-03-13T13:31:10.099470+00:00"
-    },
-    {
       "title": "Europe's EarthCare Mission Suffers as UK's FAAM Facility for Airborne Atmospheric Measurements Closes",
       "urls": [
         "https://www.researchprofessionalnews.com/rr-news-uk-politics-2026-3-what-s-going-on-in-the-uk-16-february-to-11-march",
@@ -4222,7 +4214,14 @@
         "https://www.bucyrustelegraphforum.com/story/news/crime/2026/01/16/york-man-set-to-face-trial-from-stabbing-robberies-investigation/88219345007"
       ],
       "date": "2026-03-23T13:02:04.915099+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Forecasts For All 29000 U S Zip Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=102ffb03727c6d8514efec26733f6ce7"
+      ],
+      "date": "2026-03-23T13:31:32.618956+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T13:02:04.915166+00:00"
+  "lastUpdated": "2026-03-23T13:31:32.619014+00:00"
 }
