@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Automated AI Voice-Over Feature for Performance Max Video Ads",
-      "urls": [
-        "https://www.mediapost.com/publications/article/413365/google-to-add-ai-voice-overs-to-performance-max-vi.html",
-        "https://www.bbc.com/news/articles/cx28v08jpe7o"
-      ],
-      "date": "2026-03-13T05:01:25.468584+00:00"
-    },
-    {
       "title": "Legora Secures $550 Million in Series D Funding from Top Venture Capital Firms",
       "urls": [
         "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10",
@@ -4216,7 +4208,16 @@
         "https://www.foxnews.com?msockid=0ddf0d0e83646c6605c11a2b82396de7"
       ],
       "date": "2026-03-23T04:32:23.116099+00:00"
+    },
+    {
+      "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Behaviors",
+      "urls": [
+        "https://news.mit.edu/2023/explained-generative-ai-1109",
+        "https://stackoverflow.com/questions/79717434/how-to-disable-ai-autocomplete-in-vs-code",
+        "https://news.mit.edu/2024/mit-researchers-advance-automated-interpretability-ai-models-maia-0723"
+      ],
+      "date": "2026-03-23T05:02:37.143521+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T04:32:23.116165+00:00"
+  "lastUpdated": "2026-03-23T05:02:37.143578+00:00"
 }
