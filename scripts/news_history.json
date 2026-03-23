@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oksana Masters Wins Third Gold Medal in Women's Sitting Cross-Country at Paralympics",
-      "urls": [
-        "https://www.cbsnews.com/sanfrancisco/video/watch-olympic-figure-skater-alysa-liu-speaks-ahead-of-oakland-celebration-of-gold-medal",
-        "https://www.cbsnews.com/sanfrancisco/video/oakland-celebrates-hometown-girl-alysa-liu-following-her-olympic-gold-medal-wins",
-        "https://www.huffpost.com/entry/oksana-masters-another-win-paralympics-2026_n_69b15c15e4b06efa4a0c3f01",
-        "https://www.huffpost.com/entry/oksana-masters-11th-gold-medal-paralympics_n_69b05a1ee4b0a62acae5eeb4",
-        "https://www.greenwichtime.com/sports/article/oksana-masters-wins-3rd-gold-at-milan-cortina-22070294.php",
-        "https://www.telecomasia.net/news/other/olympic-silver-medalist-wakaba-higuchi-ends-skating-career"
-      ],
-      "date": "2026-03-13T04:31:07.877178+00:00"
-    },
-    {
       "title": "Google Unveils Automated AI Voice-Over Feature for Performance Max Video Ads",
       "urls": [
         "https://www.mediapost.com/publications/article/413365/google-to-add-ai-voice-overs-to-performance-max-vi.html",
@@ -4221,7 +4209,14 @@
         "https://www.foxnews.com?msockid=3e9a6ebca2e762b416da7999a3de6334"
       ],
       "date": "2026-03-23T04:01:27.287490+00:00"
+    },
+    {
+      "title": "Fox News Launches Real-Time Hyperlocal Weather Updates for 29000 US ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=0ddf0d0e83646c6605c11a2b82396de7"
+      ],
+      "date": "2026-03-23T04:32:23.116099+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T04:01:27.287550+00:00"
+  "lastUpdated": "2026-03-23T04:32:23.116165+00:00"
 }
