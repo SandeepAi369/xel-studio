@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Khamzat Chimaev to Defend UFC Middleweight Title Against Challenger Sean Strickland",
-      "urls": [
-        "https://www.espn.com/mma/ufc/story/_/id/48190465/khamzat-chimaev-defend-middleweight-title-vs-sean-strickland",
-        "https://www.wsj.com/sports/golf/pga-tour-scheffler-mcilroy-3faa3799?gaa_at=eafs&gaa_n=AWEtsqelMv55G-c7ZNQfNn37JEhjrowavo9skld_dcpcdQ0mY7z7sKdfMbst&gaa_ts=69b2c869&gaa_sig=fomilIacganKZCM9ZmuoegT7jLetXTBq-XgGXkUc0imtvQYmpjXv6fb6paBvtsBLHVkZsOvHjmLKUACkH_fOzw%3D%3D"
-      ],
-      "date": "2026-03-13T08:31:16.151367+00:00"
-    },
-    {
       "title": "Atlassian Announces Reduction of 1200 Positions Globally Amid Revenue Pressures and Cost-Saving Efforts",
       "urls": [
         "https://www.siliconrepublic.com/business/atlassian-cut-10pc-workforce-embrace-ai-layoffs-software-jobs"
@@ -4208,7 +4200,15 @@
         "https://www.fifa.com/en/news/articles/records-broken-2025"
       ],
       "date": "2026-03-23T08:01:31.617131+00:00"
+    },
+    {
+      "title": "Screen Readers Enable Blind Users to Navigate Digital Devices Independently",
+      "urls": [
+        "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
+        "https://www.techmeme.com"
+      ],
+      "date": "2026-03-23T08:32:29.304414+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T08:01:31.617194+00:00"
+  "lastUpdated": "2026-03-23T08:32:29.304478+00:00"
 }
