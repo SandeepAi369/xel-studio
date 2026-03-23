@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Firms Dominate Global AI Computing Capacity with 70 Percent Market Share",
-      "urls": [
-        "https://ceoworld.biz/2026/03/12/how-geo-economics-is-replacing-geopolitics-as-the-new-axis-of-power"
-      ],
-      "date": "2026-03-13T07:01:28.423157+00:00"
-    },
-    {
-      "title": "Pepeto Project Unveils New Stage Focused on DeFi Tools and Infrastructure Development",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-update-new-presale-stage-follow-shiba-inu-success-while-bitcoin-price-prediction-targets-250k-1035925772",
-        "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-announces-update-on-defi-tools-while-trump-signals-end-of-iran-war-and-bitcoin-price-prediction-targets-200k-1035925919"
-      ],
-      "date": "2026-03-13T07:31:16.296280+00:00"
-    },
-    {
       "title": "Oil Prices Surge After Strategic Reserve Release Amid Supply Disruption Concerns",
       "urls": [
         "https://finance.yahoo.com/news/live/earnings-live-dollar-general-stock-falls-bumble-stock-soars-on-earnings-beat-122701439.html",
@@ -4220,7 +4205,14 @@
         "https://mexico.internationaltrucks.com/camiones-motores"
       ],
       "date": "2026-03-23T07:01:28.224205+00:00"
+    },
+    {
+      "title": "Department Of Justice Mandates Web Accessibility For State And Local Sites",
+      "urls": [
+        "https://www.ada.gov/resources/web-guidance"
+      ],
+      "date": "2026-03-23T07:35:48.251284+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T07:01:28.224277+00:00"
+  "lastUpdated": "2026-03-23T07:35:48.251334+00:00"
 }
