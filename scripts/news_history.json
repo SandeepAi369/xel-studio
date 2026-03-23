@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "China and ASEAN Unite Global Innovators in AI Development through TusCBEC Initiative",
-      "urls": [
-        "https://www.manilatimes.net/2026/03/13/tmt-newswire/pr-newswire/tuscbec-invites-global-innovators-to-join-china-asean-ai-innovation-collaboration-initiative/2299365/amp"
-      ],
-      "date": "2026-03-13T17:01:28.577499+00:00"
-    },
-    {
       "title": "Vincci Tang and Dr Phil Klassen Promote AI-assisted Triage for Behavioral Health Care",
       "urls": [
         "https://www.mobihealthnews.com/video/ai-accelerates-triage-behavioral-health-treatment"
@@ -4223,7 +4216,19 @@
         "https://visual.ly/community/Infographics/travel/outdoor-adventure-activities-adventure-and-events"
       ],
       "date": "2026-03-23T16:32:11.513523+00:00"
+    },
+    {
+      "title": "NVIDIA DLSS 5 Uses Generative AI To Create Full Frames",
+      "urls": [
+        "https://www.foxnews.com/politics?msockid=29b90db1b353664821271a94b2a26761",
+        "https://news.yahoo.com/news",
+        "https://www.newsbusters.org/cnsnews",
+        "https://www.ir.lucidmotors.com/news-releases/news-release-details/lucid-details-upcoming-midsize-platform-and-announces-new",
+        "https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games",
+        "https://seekingalpha.com/market-news"
+      ],
+      "date": "2026-03-23T17:04:08.590786+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T16:32:11.513587+00:00"
+  "lastUpdated": "2026-03-23T17:04:08.590857+00:00"
 }
