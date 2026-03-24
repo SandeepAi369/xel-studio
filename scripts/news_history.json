@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Scientists Use Satellite Images to Identify High-Risk Long-Span Bridges in North America",
-      "urls": [
-        "https://www.icelandreview.com/news/magnitude-3-7-earthquake-recorded-near-torfajokull",
-        "https://www.space.com/astronomy/earth/satellite-spies-an-erupting-volcano-space-photo-of-the-day-for-march-13-2026",
-        "https://www.marinelink.com/news/imo-secretarygeneral-seafarer-deaths-536665",
-        "https://www.yahoo.com/news/articles/satellite-study-reveals-bridges-across-091920210.html"
-      ],
-      "date": "2026-03-14T09:31:14.523964+00:00"
-    },
-    {
-      "title": "PhantomRaven Malware Returns to npm with 88 Compromised Packages Affecting 200,000 Websites.",
-      "urls": [
-        "https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues",
-        "https://www.csoonline.com/article/4144231/phantomraven-returns-to-npm-with-88-bad-packages.html",
-        "https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks"
-      ],
-      "date": "2026-03-14T10:01:24.784376+00:00"
-    },
-    {
       "title": "Ireland Invests €2.6 Million in Biomethane Research Using Macroalgae and AI-Powered Digital Twins",
       "urls": [
         "https://www.bioenergy-news.com/news/optimal-renewable-gas-secures-20m-grant-for-griffith-biomethane-hub"
@@ -4307,7 +4288,14 @@
         "https://scienceinsights.org/what-is-renewable-energy-types-and-examples"
       ],
       "date": "2026-03-24T09:01:31.115149+00:00"
+    },
+    {
+      "title": "Gary Cherone Leads Extreme To Reunion Tour After 28 Years",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Gary_Cherone"
+      ],
+      "date": "2026-03-24T10:01:37.079579+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T09:01:31.115222+00:00"
+  "lastUpdated": "2026-03-24T10:01:37.079640+00:00"
 }
