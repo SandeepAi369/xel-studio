@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senate Unanimously Passes COPPA 2.0 Bill Restricting Online Data Collection for Teens",
-      "urls": [
-        "https://advocacy.consumerreports.org/research/consumer-reports-supports-colorado-bill-to-prohibit-surveillance-pricing-hb26-1210",
-        "https://www.mediapost.com/publications/article/413271",
-        "https://glassalmanac.com/ray%E2%80%91ban-meta-glasses-draw-u-k-probe-7m-sold-by-2025-why-it-matters-now"
-      ],
-      "date": "2026-03-14T12:01:21.525575+00:00"
-    },
-    {
       "title": "Farmers Leverage Drones and AI Analytics to Boost Sustainability Metrics in Global Markets",
       "urls": [
         "https://www.defenseone.com/technology/2026/03/new-science-heat-changing-future-soldiering/411996",
@@ -4301,7 +4292,14 @@
         "https://docs.cloud.google.com/docs/overview?hl=zh-cn"
       ],
       "date": "2026-03-24T11:34:44.123129+00:00"
+    },
+    {
+      "title": "Fox News Launches ZIP Code Targeted Weather Alerts",
+      "urls": [
+        "https://www.foxnews.com?msockid=0ca6a8eb440a678a3544bfcd457e66d8"
+      ],
+      "date": "2026-03-24T12:03:05.122633+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T11:34:44.123195+00:00"
+  "lastUpdated": "2026-03-24T12:03:05.122695+00:00"
 }
