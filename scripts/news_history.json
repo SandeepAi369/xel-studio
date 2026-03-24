@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Denver Transfers 34 Bison to Tribes for Enhanced Conservation Efforts in Mountain Parks",
-      "urls": [
-        "https://www.boisestatepublicradio.org/2026-03-13/denver-gives-bison-to-tribes-to-enhance-conservation-efforts"
-      ],
-      "date": "2026-03-14T06:31:10.870467+00:00"
-    },
-    {
       "title": "Balendra Shah's Party Secures Landslide Victory in Nepal's Parliamentary Election",
       "urls": [
         "https://www.washingtonpost.com/world/2026/03/09/colombia-election-petro-party/4a4c21a2-1bf6-11f1-a29c-fd43da9a479a_story.html",
@@ -4313,7 +4306,19 @@
         "https://www.theguardian.com/world/extreme-weather"
       ],
       "date": "2026-03-24T06:02:26.993513+00:00"
+    },
+    {
+      "title": "Northern Wildfires Burn Deep Into Peat Releasing Ancient Carbon",
+      "urls": [
+        "https://www.reuters.com/sustainability/climate-energy",
+        "https://news.mit.edu/2025/post-cop30-more-aggressive-policies-needed-to-cap-global-warming-1217",
+        "https://www.ox.ac.uk/news/2025-11-07-climate-policy-strengthens-globally-despite-unprecedented-contestation-us-and-europe",
+        "https://www.sciencedaily.com/news/earth_climate/sustainability",
+        "https://unfccc.int/news",
+        "https://www.weforum.org/stories/2025/10/co2-levels-hit-new-high-2024-climate-nature-news"
+      ],
+      "date": "2026-03-24T06:32:11.485120+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T06:02:26.993578+00:00"
+  "lastUpdated": "2026-03-24T06:32:11.485173+00:00"
 }
