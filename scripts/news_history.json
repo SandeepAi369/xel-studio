@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pepeto Bridge Expands Cross-Chain Compatibility to Ethereum, BNB Chain, and Solana Networks",
-      "urls": [],
-      "date": "2026-03-14T18:06:12.947976+00:00"
-    },
-    {
-      "title": "Philipp Oggiano's Study Offers Solutions to Align Zurich Agriculture with Net-Zero Target",
-      "urls": [
-        "https://www.openpr.com/news/4419106/carbon-farming-market-to-reach-usd-2-17-billion-by-2034-as",
-        "https://www.nature.com/articles/s41599-026-06920-x",
-        "https://www.theguardian.com/world/2026/mar/14/germany-misses-climate-targets-as-emissions-barely-fall-in-2025",
-        "https://www.global-agriculture.com/farming-agriculture/voices-on-climate-modelling-can-be-used-to-derive-concrete-recommendations"
-      ],
-      "date": "2026-03-14T18:06:40.099497+00:00"
-    },
-    {
-      "title": "Waaree Energies to Establish 10 GW Solar Ingot and Wafer Manufacturing Facility in Nagpur",
-      "urls": [],
-      "date": "2026-03-14T18:30:43.605277+00:00"
-    },
-    {
-      "title": "Katy Zang Shatters Mary Cain's National High School 2-Mile Record at New Balance Nationals Indoor",
-      "urls": [
-        "https://www.runnerspace.com/gprofile.php?mgroup_id=44531&do=news&news_id=674428"
-      ],
-      "date": "2026-03-14T18:31:14.523789+00:00"
-    },
-    {
       "title": "OpenAI Acquires Promptfoo to Enhance Security of Its Large Language Models",
       "urls": [
         "https://www.forbes.com/sites/rachelwells/2026/03/08/i-wrote-a-resume-for-a-180000-job-using-chatgpt-54-this-happened",
@@ -4287,7 +4260,17 @@
         "https://www.dictionary.com/browse/extreme"
       ],
       "date": "2026-03-24T18:03:39.541600+00:00"
+    },
+    {
+      "title": "Autism Spectrum Disorder Diagnosis Relies on Early Behavioral Assessments",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Autism",
+        "https://autism.org/what-is-autism",
+        "https://www.cdc.gov/autism/signs-symptoms/index.html",
+        "https://www.webmd.com/brain/autism/understanding-autism-basics"
+      ],
+      "date": "2026-03-24T18:31:18.416408+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T18:03:39.541662+00:00"
+  "lastUpdated": "2026-03-24T18:31:18.416487+00:00"
 }
