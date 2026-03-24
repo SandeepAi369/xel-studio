@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ireland Invests €2.6 Million in Biomethane Research Using Macroalgae and AI-Powered Digital Twins",
-      "urls": [
-        "https://www.bioenergy-news.com/news/optimal-renewable-gas-secures-20m-grant-for-griffith-biomethane-hub"
-      ],
-      "date": "2026-03-14T10:31:10.310873+00:00"
-    },
-    {
       "title": "Bitcoin Price Surges 1.03% to New High of $71,800 Overnight",
       "urls": [
         "https://www.bitget.com/amp/news/detail/12560605262016"
@@ -4295,7 +4288,23 @@
         "https://en.wikipedia.org/wiki/Gary_Cherone"
       ],
       "date": "2026-03-24T10:01:37.079579+00:00"
+    },
+    {
+      "title": "Apertus Launches Switzerland's First Open Multilingual AI Model",
+      "urls": [
+        "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+        "https://llm-stats.com/ai-news",
+        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html",
+        "https://www.miragenews.com/apertus-fully-open-transparent-multilingual-1525404",
+        "https://theaiinsider.tech/2025/09/02/teams-release-apertus-switzerlands-first-large-scale-multilingual-language-model",
+        "https://open-llm-radar.com",
+        "https://finance.biggo.com/news/202507120112_Swiss_Open_Source_LLM_Release",
+        "https://betanews.com/article/new-fully-open-and-transparent-large-language-model-launches-its-swiss-of-course",
+        "https://mljourney.com/top-15-best-open-source-large-language-models",
+        "https://mistral.ai/news/mistral-3"
+      ],
+      "date": "2026-03-24T10:34:33.573292+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T10:01:37.079640+00:00"
+  "lastUpdated": "2026-03-24T10:34:33.573351+00:00"
 }
