@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Economy at Risk as Oil Prices Soar Above $100 Amid Iran War Disruptions",
-      "urls": [
-        "https://www.businessinsider.com/recession-outlook-oil-price-shock-us-iran-war-economic-impact-2026-3",
-        "https://www.cnbc.com/video/2026/03/13/the-late-morning-rundow-march-13-2026.html"
-      ],
-      "date": "2026-03-14T03:01:32.258278+00:00"
-    },
-    {
-      "title": "Bybit Launches UAE Dirham Trading Pairs for Direct Digital Asset Transactions",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-update-exchange-passing-high-stress-test-while-cardano-price-prediction-targets-new-highs-1035925922",
-        "https://thefintechtimes.com/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-rebrand",
-        "https://thefintechtimes.com/bybit-bridges-traditional-banking-and-digital-assets-with-direct-aed-trading-pairs"
-      ],
-      "date": "2026-03-14T03:31:13.336745+00:00"
-    },
-    {
       "title": "Nvidia and Google Showcase Generative AI at GDC Expo Amid Industry Talent Rift",
       "urls": [
         "https://www.pcgamer.com/software/ai/major-investor-is-shocked-and-sad-that-the-games-industry-is-demonizing-generative-ai",
@@ -4309,7 +4292,14 @@
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=1949f8edd652600c1a2befcbd7b96166"
       ],
       "date": "2026-03-24T03:01:23.779531+00:00"
+    },
+    {
+      "title": "Ghost Robotics Equips Vision 60 With Robotic Arm For Autonomous Object Manipulation",
+      "urls": [
+        "https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm"
+      ],
+      "date": "2026-03-24T03:34:37.678930+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T03:01:23.779611+00:00"
+  "lastUpdated": "2026-03-24T03:34:37.678997+00:00"
 }
