@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA's Johnson Space Center Captures Stunning Images of Earth's Dynamic Atmosphere",
-      "urls": [],
-      "date": "2026-03-14T21:30:48.087971+00:00"
-    },
-    {
       "title": "Ukrainian Biathlete Maksym Murashkovskyi Credits ChatGPT with Silver Medal Win at Milano Cortina Winter Paralympics",
       "urls": [
         "https://www.npr.org/2026/03/13/nx-s1-5745204/2026-winter-paralympics-prosthetic-business",
@@ -4294,7 +4289,14 @@
         "https://www.foxnews.com?msockid=1130c9ff32a3695f31bbded933da6856"
       ],
       "date": "2026-03-24T21:03:48.128763+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Forecasts For 29000 U.S. ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=3157fd27fedc6d7016e4ea01ffb06c98"
+      ],
+      "date": "2026-03-24T21:31:13.756227+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T21:03:48.128825+00:00"
+  "lastUpdated": "2026-03-24T21:31:13.756291+00:00"
 }
