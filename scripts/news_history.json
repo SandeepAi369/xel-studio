@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democrats Maintain Midterm Edge in New NBC News Poll with 51 Percent Support",
-      "urls": [
-        "https://www.washingtonpost.com/world/2026/03/08/nepal-parliament-election-new-party/066cba00-1ab1-11f1-aef0-0aac8e8e94db_story.html",
-        "https://www.washingtonpost.com/politics/2026/03/12/ai-funding-midterm-elections",
-        "https://apnews.com/article/virginia-congressional-bid-dorothy-mcauliffe-1ec54ed2f908591179908081b8b2b7fd",
-        "https://www.politico.com/newsletters/california-playbook/2026/03/10/what-new-polling-shows-about-the-wealth-tax-00820339",
-        "https://www.nbcnews.com/meet-the-press/video/steve-kornacki-democrats-hold-midterm-edge-in-new-nbc-news-poll-258927173829"
-      ],
-      "date": "2026-03-14T16:01:18.384365+00:00"
-    },
-    {
       "title": "Fox's Monday Coverage of U.S. vs Mexico Game Sets New World Baseball Classic Viewership Record",
       "urls": [
         "https://deadspin.com/team-usa-scores-record-wbc-ratings-for-fox"
@@ -4316,7 +4305,20 @@
         "https://www.foxnews.com?msockid=2bf7345fb40c6fd933372379b5606e99"
       ],
       "date": "2026-03-24T15:31:56.743772+00:00"
+    },
+    {
+      "title": "Anthropic Sues U.S. Government Over Blacklist Threat",
+      "urls": [
+        "https://claude.com/product/overview",
+        "https://claude.ai/login",
+        "https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c",
+        "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html?msockid=25db954bda746bdb30f4826ddb266a92",
+        "https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either",
+        "https://www.euronews.com/next/2026/03/24/anthropic-v-us-department-of-war-ai-company-challenges-government-in-court",
+        "https://builtin.com/articles/anthropic"
+      ],
+      "date": "2026-03-24T16:02:40.144978+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T15:31:56.743855+00:00"
+  "lastUpdated": "2026-03-24T16:02:40.145135+00:00"
 }
