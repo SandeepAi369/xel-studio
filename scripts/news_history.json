@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ukrainian Biathlete Maksym Murashkovskyi Credits ChatGPT with Silver Medal Win at Milano Cortina Winter Paralympics",
-      "urls": [
-        "https://www.npr.org/2026/03/13/nx-s1-5745204/2026-winter-paralympics-prosthetic-business",
-        "https://www.modernhealthcare.com/medical-devices/mh-fda-childrens-hospital-pediatric-device-innovation",
-        "https://www.reuters.com/sports/ukraine-biathlete-credits-chatgpt-silver-win-2026-03-10"
-      ],
-      "date": "2026-03-14T21:31:14.217008+00:00"
-    },
-    {
-      "title": "Researchers Struggle to Overcome Technical Barriers in Quantum Chemistry with VQE Algorithm",
-      "urls": [
-        "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html"
-      ],
-      "date": "2026-03-14T22:01:17.156877+00:00"
-    },
-    {
       "title": "Waaree Energies Commences Groundbreaking Ceremony for India's Largest Solar Manufacturing Facility",
       "urls": [
         "https://energy.economictimes.indiatimes.com/amp/news/renewable/waaree-energies-to-set-up-10-gw-integrated-solar-ingot-wafer-manufacturing-facility-in-nagpur/129575305"
@@ -4296,7 +4280,17 @@
         "https://www.foxnews.com?msockid=3157fd27fedc6d7016e4ea01ffb06c98"
       ],
       "date": "2026-03-24T21:31:13.756227+00:00"
+    },
+    {
+      "title": "Live Earthquake Tracker provides real-time monitoring of global seismic activity, updating every two",
+      "urls": [
+        "https://liveearthquaketracker.com",
+        "https://earthquaketrack.com",
+        "https://www.emsc-csem.org",
+        "https://www.youtube.com/@DisasterToday"
+      ],
+      "date": "2026-03-24T22:03:34.845101+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T21:31:13.756291+00:00"
+  "lastUpdated": "2026-03-24T22:03:34.845151+00:00"
 }
