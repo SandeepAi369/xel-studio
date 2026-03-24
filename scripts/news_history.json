@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin Price Surges 1.03% to New High of $71,800 Overnight",
-      "urls": [
-        "https://www.bitget.com/amp/news/detail/12560605262016"
-      ],
-      "date": "2026-03-14T11:01:29.902701+00:00"
-    },
-    {
       "title": "Cloud Security Alliance Unveils AI Controls Matrix Framework for Secure AI Technologies Development",
       "urls": [
         "https://www.powermag.com/ai-groups-utilidata-nexgen-cloud-partner-to-unlock-stranded-energy",
@@ -4304,7 +4297,14 @@
         "https://mistral.ai/news/mistral-3"
       ],
       "date": "2026-03-24T10:34:33.573292+00:00"
+    },
+    {
+      "title": "Cryptocurrency Market Data Platform Tracks 2000 Digital Assets In Real Time",
+      "urls": [
+        "https://coinmarketcap.com/es"
+      ],
+      "date": "2026-03-24T11:02:29.815392+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T10:34:33.573351+00:00"
+  "lastUpdated": "2026-03-24T11:02:29.815451+00:00"
 }
