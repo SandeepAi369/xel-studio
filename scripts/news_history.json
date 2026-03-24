@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yanik Guillemette Analyzes AI's Projected Impact on Modern Workplaces Over the Next Ten Years",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/canadian-tech-entrepreneur-yanik-guillemette-publishes-analysis-on-the-future-of-artificial-intelligence-in-the-workplace-1035925769",
-        "https://www.nbcnews.com/video/meta-buys-ai-social-network-moltbook-259302981712"
-      ],
-      "date": "2026-03-14T09:01:22.863798+00:00"
-    },
-    {
       "title": "NASA Scientists Use Satellite Images to Identify High-Risk Long-Span Bridges in North America",
       "urls": [
         "https://www.icelandreview.com/news/magnitude-3-7-earthquake-recorded-near-torfajokull",
@@ -4308,7 +4300,14 @@
         "https://www.foxnews.com?msockid=210255247fa362250a0642027ef8632b"
       ],
       "date": "2026-03-24T08:33:19.201534+00:00"
+    },
+    {
+      "title": "Solar Power Generated Over 40 Percent of Renewable Energy in 2023",
+      "urls": [
+        "https://scienceinsights.org/what-is-renewable-energy-types-and-examples"
+      ],
+      "date": "2026-03-24T09:01:31.115149+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T08:33:19.201598+00:00"
+  "lastUpdated": "2026-03-24T09:01:31.115222+00:00"
 }
