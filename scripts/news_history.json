@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Israel Fails to Provide Accessible Missile Defense for Over 600,000 People with Disabilities",
-      "urls": [
-        "https://www.jpost.com/israel-news/article-889631",
-        "https://www.insurancetimes.co.uk/news/high-five-catch-up-on-the-biggest-stories-this-week/1458006.article"
-      ],
-      "date": "2026-03-14T01:31:33.378981+00:00"
-    },
-    {
       "title": "EU Proposes Landmark Ban on AI-Generated Child Sexual Abuse Images Created by Grok.",
       "urls": [
         "https://www.reuters.com/business/us-commerce-department-withdraws-planned-rule-ai-chip-exports-government-website-2026-03-13",
@@ -4302,7 +4294,14 @@
         "https://expose-news.com/2026/03/21/renewable-energy-subsidies-were-destroying-americas"
       ],
       "date": "2026-03-24T01:31:23.481421+00:00"
+    },
+    {
+      "title": "Earth's Temperature Rises at Twice the Rate in Past Decade",
+      "urls": [
+        "https://www.motherjones.com/environment/2026/03/global-warming-accelerated-past-decade-study"
+      ],
+      "date": "2026-03-24T02:01:26.088685+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T01:31:23.481476+00:00"
+  "lastUpdated": "2026-03-24T02:01:26.088762+00:00"
 }
