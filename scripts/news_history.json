@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Acquires Promptfoo to Enhance Security of Its Large Language Models",
-      "urls": [
-        "https://www.forbes.com/sites/rachelwells/2026/03/08/i-wrote-a-resume-for-a-180000-job-using-chatgpt-54-this-happened",
-        "https://www.theguardian.com/technology/2026/mar/09/openai-delays-adult-mode-for-chatgpt-to-focus-on-work-of-higher-priority",
-        "https://www.businessinsider.com/chatgpt-slow-motion-advertising-rollout-2026-3",
-        "https://www.adweek.com/media/openai-is-testing-an-ads-manager-as-its-new-ads-business-fights-growing-pains",
-        "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents"
-      ],
-      "date": "2026-03-14T19:31:10.666344+00:00"
-    },
-    {
       "title": "Mobility in Motion Partners with Nicole Brennan to Promote Accessible Vehicle Adaptations",
       "urls": [
         "https://www.znewsservice.com/business/para-taekwondo-athlete-nicole-brennan-announced-as-mobility-in-motion-brand-ambassador/22799"
@@ -4277,7 +4266,21 @@
         "https://www.foxnews.com?msockid=03275b965b7d64982c7b4cb05a0d65b1"
       ],
       "date": "2026-03-24T19:02:34.559437+00:00"
+    },
+    {
+      "title": "Vertex And Crispr Therapeutics Launch First Crispr Therapy Casgevy For Sickle Cell Disease",
+      "urls": [
+        "https://www.sciencedaily.com",
+        "https://www.nature.com/news",
+        "https://scienceinsights.org/what-is-happening-in-science-today-top-breakthroughs",
+        "https://theweek.com/health-and-science/1019386/recent-scientific-breakthroughs",
+        "https://www.smithsonianmag.com/science-nature/the-ten-most-significant-science-stories-of-2025-from-medical-breakthroughs-to-an-interstellar-visitor-180987905",
+        "https://scitechdaily.com",
+        "https://hms.harvard.edu/news/harvard-medical-schools-top-science-news-2025",
+        "https://phys.org"
+      ],
+      "date": "2026-03-24T19:34:03.300040+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T19:02:34.559492+00:00"
+  "lastUpdated": "2026-03-24T19:34:03.300109+00:00"
 }
