@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia CEO Jensen Huang Leads Panel Discussion on Open Source Frontier Models Progress",
-      "urls": [
-        "https://www.forbes.com/sites/timkeary/2026/03/14/5-highlights-to-watch-at-nvidia-gtc-2026"
-      ],
-      "date": "2026-03-14T14:31:11.971614+00:00"
-    },
-    {
       "title": "Blackstone Valley Prep Wins State Division II Final on Dramatic Goal by Colin Dorgan",
       "urls": [
         "https://www.greenwichtime.com/sports/article/today-in-sports-rookie-wilt-chamberlain-scores-22074843.php",
@@ -4317,7 +4310,16 @@
         "https://www.nature.com/subjects/climate-change"
       ],
       "date": "2026-03-24T14:04:56.187618+00:00"
+    },
+    {
+      "title": "OpenAI GPT And Google Gemini Lead Generative AI Advancements",
+      "urls": [
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=06db8fae94176f1b0a189888951d6e70",
+        "https://www.oracle.com/artificial-intelligence/generative-ai/what-is-generative-ai",
+        "https://drakeinstitute.osu.edu/getting-started-generative-artificial-intelligence-considerations-and-strategies"
+      ],
+      "date": "2026-03-24T14:32:23.488179+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T14:04:56.187696+00:00"
+  "lastUpdated": "2026-03-24T14:32:23.488245+00:00"
 }
