@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia and Google Showcase Generative AI at GDC Expo Amid Industry Talent Rift",
-      "urls": [
-        "https://www.pcgamer.com/software/ai/major-investor-is-shocked-and-sad-that-the-games-industry-is-demonizing-generative-ai",
-        "https://www.polygon.com/generative-ai-gdc-2026"
-      ],
-      "date": "2026-03-14T04:01:21.196965+00:00"
-    },
-    {
       "title": "Novak Djokovic Advances to Next Round with Dominant Victory Over Aleksander Kovacevic",
       "urls": [
         "https://www.skysports.com/tennis/video/30998/13517494/novak-djokovic-vs-aleksander-kovacevic-indian-wells-highlights"
@@ -4299,7 +4291,20 @@
         "https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm"
       ],
       "date": "2026-03-24T03:34:37.678930+00:00"
+    },
+    {
+      "title": "American Medical Association reports physician adoption of artificial intelligence has doubled, with",
+      "urls": [
+        "https://clinicalai.news",
+        "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+        "https://www.healthcareitnews.com/topics/artificial-intelligence",
+        "https://www.euronews.com/health/2026/03/16/from-diagnosis-to-data-how-ai-is-reshaping-healthcare-and-raising-ethical-questions",
+        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health",
+        "https://www.modernhealthcare.com/health-tech",
+        "https://www.nejm.org/ai-in-medicine"
+      ],
+      "date": "2026-03-24T04:02:33.385606+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T03:34:37.678997+00:00"
+  "lastUpdated": "2026-03-24T04:02:33.385671+00:00"
 }
