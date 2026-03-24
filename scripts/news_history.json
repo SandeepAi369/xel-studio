@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quizlet Unveils AI-Powered Learning Experience with OpenAI and Note-Taking App Acquisition",
-      "urls": [
-        "https://marketbrief.edweek.org/education-market/quizlet-expands-ai-strategy-with-new-study-tool-openai-integration/2026/03"
-      ],
-      "date": "2026-03-14T17:31:16.420335+00:00"
-    },
-    {
       "title": "University of Toronto Engineers Synthesize Long Noncoding RNA Sequences Outside the Cell Successfully",
       "urls": [
         "https://phys.org/news/2026-03-dark-transcriptome-potential-drug-molecules.html",
@@ -4314,7 +4307,15 @@
         "https://www.anthropic.com/careers"
       ],
       "date": "2026-03-24T17:01:43.026595+00:00"
+    },
+    {
+      "title": "Meta Launches AI Anti-Scam Tools On WhatsApp And Facebook",
+      "urls": [
+        "https://about.fb.com/news/2025/12/ai-breakthroughs-advanced-ai-glasses-meta-2025-highlights",
+        "https://about.fb.com/news/2026/03/meta-launches-new-anti-scam-tools-deploys-ai-technology-to-fight-scammers-and-protect-people"
+      ],
+      "date": "2026-03-24T17:31:25.656701+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T17:01:43.026654+00:00"
+  "lastUpdated": "2026-03-24T17:31:25.656766+00:00"
 }
