@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Legora Secures Record $9 Billion in Funding for European AI Startups in 2026",
-      "urls": [
-        "https://www.cnbc.com/2026/03/10/swedish-ai-legaltech-legora-hits-5-billion-valuation.html"
-      ],
-      "date": "2026-03-14T15:31:31.972261+00:00"
-    },
-    {
       "title": "Democrats Maintain Midterm Edge in New NBC News Poll with 51 Percent Support",
       "urls": [
         "https://www.washingtonpost.com/world/2026/03/08/nepal-parliament-election-new-party/066cba00-1ab1-11f1-aef0-0aac8e8e94db_story.html",
@@ -4316,7 +4309,14 @@
         "https://www.skysports.com/tennis/news/12110/13523718/miami-open-jannik-sinner-creates-masters-1000-history-and-breaks-novak-djokovics-set-record-during-third-round-win"
       ],
       "date": "2026-03-24T15:01:37.008613+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Alerts for 29000 ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=2bf7345fb40c6fd933372379b5606e99"
+      ],
+      "date": "2026-03-24T15:31:56.743772+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T15:01:37.008699+00:00"
+  "lastUpdated": "2026-03-24T15:31:56.743855+00:00"
 }
