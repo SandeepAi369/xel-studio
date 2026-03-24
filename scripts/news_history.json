@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "EU Lawmakers Agree to Ban Non-Consensual AI-Generated Intimate Deepfakes Under New AI Act",
-      "urls": [
-        "https://thenextweb.com/news/eu-lawmakers-deal-to-ban-ai-non-consensual-intimate-deepfakes"
-      ],
-      "date": "2026-03-14T20:31:17.210145+00:00"
-    },
-    {
       "title": "BioNTech Founders Ugur Sahin and Ozlem Tureci Plan Departure by Year's End",
       "urls": [
         "https://www.forbes.com/sites/innovationrx/2026/03/11/the-worlds-richest-healthcare-billionaires"
@@ -4285,7 +4278,23 @@
         "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance"
       ],
       "date": "2026-03-24T20:03:03.338867+00:00"
+    },
+    {
+      "title": "IUCN Designates 12 Million Hectares As Protected Areas",
+      "urls": [
+        "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
+        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
+        "https://news.mongabay.com/list/wildlife-conservation",
+        "https://wildlife.org/news",
+        "https://iucn.org/news/202512/conservation-action-our-year-review",
+        "https://www.theguardian.com/environment/2026/mar/16/conservation-trump-cuts-natural-world-usaid-funding-biodiversity-aoe",
+        "https://www.pbs.org/newshour/tag/wildlife-conservation",
+        "https://www.nwf.org/latest-news",
+        "https://apnews.com/hub/biodiversity",
+        "https://www.wildlandsnetwork.org/news"
+      ],
+      "date": "2026-03-24T20:32:23.908188+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T20:03:03.338930+00:00"
+  "lastUpdated": "2026-03-24T20:32:23.908241+00:00"
 }
