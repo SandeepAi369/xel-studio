@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cloud Security Alliance Unveils AI Controls Matrix Framework for Secure AI Technologies Development",
-      "urls": [
-        "https://www.powermag.com/ai-groups-utilidata-nexgen-cloud-partner-to-unlock-stranded-energy",
-        "https://www.rcrwireless.com/20260312/ai-infrastructure/agents-of-chaos-equinix-ai",
-        "https://finance.yahoo.com/news/cloud-security-alliance-ai-controls-130500743.html",
-        "https://www.insideselfstorage.com/suppliers-products/storable-updates-self-storage-software-platforms-offers-new-ai-capabilities-in-honor-of-sitelink-brand-s-30th-anniversary"
-      ],
-      "date": "2026-03-14T11:31:13.412517+00:00"
-    },
-    {
       "title": "Senate Unanimously Passes COPPA 2.0 Bill Restricting Online Data Collection for Teens",
       "urls": [
         "https://advocacy.consumerreports.org/research/consumer-reports-supports-colorado-bill-to-prohibit-surveillance-pricing-hb26-1210",
@@ -4304,7 +4294,14 @@
         "https://coinmarketcap.com/es"
       ],
       "date": "2026-03-24T11:02:29.815392+00:00"
+    },
+    {
+      "title": "Google Cloud provides a comprehensive suite of cloud computing services, including infrastructure, p",
+      "urls": [
+        "https://docs.cloud.google.com/docs/overview?hl=zh-cn"
+      ],
+      "date": "2026-03-24T11:34:44.123129+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T11:02:29.815451+00:00"
+  "lastUpdated": "2026-03-24T11:34:44.123195+00:00"
 }
