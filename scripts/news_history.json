@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard University Partners with Google to Integrate AI Chatbots into Elementary School Curricula",
-      "urls": [
-        "https://www.chronicle.com/newsletter/academe-today/2026-03-13",
-        "https://michigan.newsnetmedia.com/story/114514/project-kontrast-founder-kameron-katsch-unveils-the-whole-thing-a-unified-humanitarian-platform-targeting-global-energy-health-and-workforce-challenges-by-2030",
-        "https://www.mediapost.com/publications/article/413027/generation-ai-and-their-parents-too.html?edition=141877"
-      ],
-      "date": "2026-03-14T08:31:15.278688+00:00"
-    },
-    {
       "title": "Yanik Guillemette Analyzes AI's Projected Impact on Modern Workplaces Over the Next Ten Years",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/canadian-tech-entrepreneur-yanik-guillemette-publishes-analysis-on-the-future-of-artificial-intelligence-in-the-workplace-1035925769",
@@ -4310,7 +4301,14 @@
         "https://www.weforum.org/stories/2025/04/the-global-economy-enters-a-new-era"
       ],
       "date": "2026-03-24T08:04:05.652574+00:00"
+    },
+    {
+      "title": "Fox News Expands Digital Platform With Real Time Updates",
+      "urls": [
+        "https://www.foxnews.com?msockid=210255247fa362250a0642027ef8632b"
+      ],
+      "date": "2026-03-24T08:33:19.201534+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T08:04:05.652632+00:00"
+  "lastUpdated": "2026-03-24T08:33:19.201598+00:00"
 }
