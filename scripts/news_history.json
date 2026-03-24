@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mobility in Motion Partners with Nicole Brennan to Promote Accessible Vehicle Adaptations",
-      "urls": [
-        "https://www.znewsservice.com/business/para-taekwondo-athlete-nicole-brennan-announced-as-mobility-in-motion-brand-ambassador/22799"
-      ],
-      "date": "2026-03-14T20:01:27.885897+00:00"
-    },
-    {
       "title": "EU Lawmakers Agree to Ban Non-Consensual AI-Generated Intimate Deepfakes Under New AI Act",
       "urls": [
         "https://thenextweb.com/news/eu-lawmakers-deal-to-ban-ai-non-consensual-intimate-deepfakes"
@@ -4280,7 +4273,19 @@
         "https://phys.org"
       ],
       "date": "2026-03-24T19:34:03.300040+00:00"
+    },
+    {
+      "title": "World Meteorological Organization reports the Earth's climate is more out of balance than at any poi",
+      "urls": [
+        "https://www.npr.org/sections/climate",
+        "https://news.un.org/en/focus-topic/climate-change",
+        "https://science.nasa.gov/climate-change",
+        "https://link.springer.com/subjects/climate-change",
+        "https://www.nytimes.com/section/climate",
+        "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance"
+      ],
+      "date": "2026-03-24T20:03:03.338867+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T19:34:03.300109+00:00"
+  "lastUpdated": "2026-03-24T20:03:03.338930+00:00"
 }
