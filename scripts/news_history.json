@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "BioNTech Founders Ugur Sahin and Ozlem Tureci Plan Departure by Year's End",
-      "urls": [
-        "https://www.forbes.com/sites/innovationrx/2026/03/11/the-worlds-richest-healthcare-billionaires"
-      ],
-      "date": "2026-03-14T21:01:20.980451+00:00"
-    },
-    {
       "title": "NASA's Johnson Space Center Captures Stunning Images of Earth's Dynamic Atmosphere",
       "urls": [],
       "date": "2026-03-14T21:30:48.087971+00:00"
@@ -4294,7 +4287,14 @@
         "https://www.wildlandsnetwork.org/news"
       ],
       "date": "2026-03-24T20:32:23.908188+00:00"
+    },
+    {
+      "title": "Fox News Launches Hyperlocal Weather Forecasts For 29000 Zip Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=1130c9ff32a3695f31bbded933da6856"
+      ],
+      "date": "2026-03-24T21:03:48.128763+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T20:32:23.908241+00:00"
+  "lastUpdated": "2026-03-24T21:03:48.128825+00:00"
 }
