@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "China's Clean Energy Investment Surpasses 39% of Global Green Energy Investment Last Year",
-      "urls": [
-        "https://www.forbes.com/sites/kensilverstein/2026/03/08/chinas-green-leap-an-industrial-strategy-leaving-the-west-behind",
-        "https://news.bloomberglaw.com/pharma-and-life-sciences/renewable-energy-tax-credit-policy-should-reflect-sector-reality"
-      ],
-      "date": "2026-03-14T13:31:42.713197+00:00"
-    },
-    {
       "title": "Dell Technologies and HP Inc Lead US Computer Export Surge to Record $2.6 Billion",
       "urls": [
         "https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-13-us-trade-deficit-narrows-to-545-billion-as-record-gold-and-tech-exports-drive-growth"
@@ -4308,7 +4300,20 @@
         "https://nod.org/driving-change/technology"
       ],
       "date": "2026-03-24T13:05:56.418541+00:00"
+    },
+    {
+      "title": "OrCam MyEye And Aira Use AI To Assist Visually Impaired Users",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
+        "https://www.cmu.edu/computing/news/2025/ai-future-accessibility.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11898476",
+        "https://news.un.org/en/story/2025/10/1166082",
+        "https://oeb.global/oeb-insights/ai-transforming-assistive-and-inclusive-technologies",
+        "https://www.timesnownews.com/bizz-impact/code-to-inclusion-how-inclusive-digital-infrastructure-and-ai-can-transform-disability-inclusion-article-153870805",
+        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
+      ],
+      "date": "2026-03-24T13:33:29.173592+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T13:05:56.418593+00:00"
+  "lastUpdated": "2026-03-24T13:33:29.173652+00:00"
 }
