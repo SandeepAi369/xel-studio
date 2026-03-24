@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "University of Pennsylvania Researchers Develop Imaging Technique to Prevent Pancreatic Cancer Lesions",
-      "urls": [
-        "https://medicalxpress.com/news/2026-03-strategy-intercepts-pancreatic-cancer-microscopic.html",
-        "https://www.regmednet.com/cell-therapy-weekly-initiative-to-expand-apac-cell-and-gene-therapy-development"
-      ],
-      "date": "2026-03-13T23:31:10.388107+00:00"
-    },
-    {
-      "title": "ETH Zurich Researchers Develop Palm-Sized Superconducting Magnet Exceeding 42 Tesla Record.",
-      "urls": [
-        "https://phys.org/news/2026-03-palm-sized-superconducting-magnet-tesla.html"
-      ],
-      "date": "2026-03-14T00:01:26.613147+00:00"
-    },
-    {
       "title": "Oettinger Surprises HopeKids Children with Olympic Gold Medal Try-On at Amazon Fulfillment Center",
       "urls": [
         "https://www.nbcnews.com/now/video/salvadoran-athletes-make-history-in-milan-after-being-shot-by-gang-members-259282501737",
@@ -4278,7 +4263,20 @@
         "https://apnews.com/live/hurricane-milton-florida-tracker-updates"
       ],
       "date": "2026-03-23T23:31:10.164055+00:00"
+    },
+    {
+      "title": "Manchester City Defeat Liverpool 3-1 To Close Gap On Arsenal",
+      "urls": [
+        "https://www.bbc.com/sport",
+        "https://www.bbc.co.uk/sport/football",
+        "https://sports.ndtv.com/football/news",
+        "https://www.skysports.com",
+        "https://www.youtube.com/@supersport",
+        "https://www.bbc.co.uk/sport",
+        "https://tv.youtube.com/sports"
+      ],
+      "date": "2026-03-24T00:06:51.698582+00:00"
     }
   ],
-  "lastUpdated": "2026-03-23T23:31:10.164113+00:00"
+  "lastUpdated": "2026-03-24T00:06:51.698642+00:00"
 }
