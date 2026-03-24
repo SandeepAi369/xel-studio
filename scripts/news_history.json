@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Discover Amplified Variability in Southern Hemisphere Weather Patterns.",
-      "urls": [
-        "https://www.nature.com/articles/s41558-026-02593-1"
-      ],
-      "date": "2026-03-14T06:01:22.094422+00:00"
-    },
-    {
       "title": "Denver Transfers 34 Bison to Tribes for Enhanced Conservation Efforts in Mountain Parks",
       "urls": [
         "https://www.boisestatepublicradio.org/2026-03-13/denver-gives-bison-to-tribes-to-enhance-conservation-efforts"
@@ -4312,7 +4305,15 @@
         "https://www.foxnews.com?msockid=220a9588d3c06b8d1ce782aed25b6a54"
       ],
       "date": "2026-03-24T05:33:25.696527+00:00"
+    },
+    {
+      "title": "Peru Declares State of Emergency After Deadly Floods Displace 120,000",
+      "urls": [
+        "https://apnews.com/hub/weather",
+        "https://www.theguardian.com/world/extreme-weather"
+      ],
+      "date": "2026-03-24T06:02:26.993513+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T05:33:25.696577+00:00"
+  "lastUpdated": "2026-03-24T06:02:26.993578+00:00"
 }
