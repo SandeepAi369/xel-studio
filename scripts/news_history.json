@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Modeling Study Links AMOC Weakening to Shift in Gulf Stream's Northern Path",
-      "urls": [
-        "https://www.livescience.com/science-news-this-week-amocs-collapse-signal-the-suns-galactic-migration-the-worlds-smallest-qr-code-and-oils-dying-days"
-      ],
-      "date": "2026-03-15T14:01:24.386311+00:00"
-    },
-    {
       "title": "Rhett Ayers Butler's Mongabay Platform Celebrates 25 Years of Environmental Journalism Excellence",
       "urls": [
         "https://www.butlernature.com/2026/03/15/from-the-most-depressing-site-on-the-internet-to-stories-of-possibility",
@@ -4311,7 +4304,15 @@
         "https://www.foxnews.com?msockid=3094c6ed29d061733897d1ca28dd60ef"
       ],
       "date": "2026-03-25T13:33:14.621857+00:00"
+    },
+    {
+      "title": "Fox News Launches Real-Time Weather Alerts For All 29000 U.S. ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=28195025901061fa1f3d4702917a604c",
+        "https://www.thetimes.com/us/news-today?msockid=28195025901061fa1f3d4702917a604c"
+      ],
+      "date": "2026-03-25T14:02:33.463958+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T13:33:14.621916+00:00"
+  "lastUpdated": "2026-03-25T14:02:33.464029+00:00"
 }
