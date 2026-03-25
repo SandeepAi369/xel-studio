@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "VEREM's Real-World Asset Ecosystem Successfully Tokenizes GIA-Certified Emeralds for Decentralized Trading.",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-announces-update-on-stage-sold-out-with-record-demand-amid-xrp-market-shifts-1035930438",
-        "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-announcement-on-the-cross-chain-bridge-update-and-the-bitcoin-price-target-1035930423",
-        "https://markets.businessinsider.com/news/stocks/verem-sets-new-benchmark-for-rwa-security-with-successful-completion-of-hacken-smart-contract-audit-1035930385"
-      ],
-      "date": "2026-03-15T02:01:18.229077+00:00"
-    },
-    {
       "title": "NASA Releases Breathtaking Images of Earth Captured by International Space Station Cameras",
       "urls": [
         "https://www.facebook.com/abscbnNEWS/posts/earth-in-motion-swirling-clouds-deep-blue-oceans-and-the-subtle-curve-of-the-hor/1445713484270570"
@@ -4300,7 +4291,19 @@
         "https://refugeeone.org"
       ],
       "date": "2026-03-25T01:32:23.506250+00:00"
+    },
+    {
+      "title": "World Economic Forum Ranks Climate Inaction Top Global Risk",
+      "urls": [
+        "https://www.weforum.org/publications/global-risks-report-2025",
+        "https://www.weforum.org/stories/2026/02/2026-global-risks-report-environmental-risks-remain-urgent",
+        "https://www.weforum.org/stories/2026/01/davos-2026-annual-meeting-what-to-expect",
+        "https://www.weforum.org/stories/2024/12/top-global-health-stories-2024",
+        "https://www.weforum.org/stories/global-cooperation",
+        "https://www.weforum.org/stories/2025/05/wef-chief-economists-outlook-tariffs"
+      ],
+      "date": "2026-03-25T02:02:30.341446+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T01:32:23.506315+00:00"
+  "lastUpdated": "2026-03-25T02:02:30.341505+00:00"
 }
