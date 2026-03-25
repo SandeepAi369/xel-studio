@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ElevenLabs Collaborates with Nonprofits to Restore 1 Million Voices Worldwide",
-      "urls": [
-        "https://mashable.com/article/elevenlabs-eric-dane-1-million-voices-initiative-sxsw-2026",
-        "https://www.global-agriculture.com/global-agriculture/fao-is-fully-committed-to-promoting-the-inclusion-of-people-with-disabilities-in-all-its-work-and-policies-leaving-no-one-behind-director-general-says",
-        "https://www.manilatimes.net/2026/03/11/tmt-newswire/globenewswire/whispeara-6-second-brain-mute-button-claims-evaluated-2026-consumer-report-examining-whispeara-tinnitus-drops-ingredient-research-for-natural-hearing-support/2297484"
-      ],
-      "date": "2026-03-15T10:31:15.258682+00:00"
-    },
-    {
       "title": "Researchers Discover Protein DnrV Boosts Doxorubicin Production by 180 Percent Overnight",
       "urls": [
         "https://www.news-medical.net/news/20260313/Researchers-achieve-breakthrough-in-the-production-of-vital-chemotherapy-agent.aspx"
@@ -4318,7 +4309,15 @@
         "https://www.reuters.com/world/earthquakes"
       ],
       "date": "2026-03-25T10:04:42.931993+00:00"
+    },
+    {
+      "title": "Screen Semiconductor Solutions Launches SB-3300 With 99.98% Particle Removal Efficiency",
+      "urls": [
+        "https://www.screen.co.jp/spe/products",
+        "https://www.screen.co.jp/recruit_info"
+      ],
+      "date": "2026-03-25T10:36:40.953625+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T10:04:42.932047+00:00"
+  "lastUpdated": "2026-03-25T10:36:40.953687+00:00"
 }
