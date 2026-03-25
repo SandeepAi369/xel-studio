@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Integrates Sora Video Generator into ChatGPT Platform Globally",
-      "urls": [
-        "https://www.aol.com/articles/sora-video-generator-coming-chatgpt-143758703.html"
-      ],
-      "date": "2026-03-15T04:01:20.185470+00:00"
-    },
-    {
       "title": "ByteDance Halts Global Rollout of Seedance 2.0 AI Video Model Amid Copyright Disputes",
       "urls": [
         "https://gizmodo.com/bytedances-controversial-ai-video-model-reportedly-on-hold-globally-due-to-copyright-disputes-2000733748"
@@ -4311,7 +4304,14 @@
         "https://phys.org/news/2026-03-quantum-fundamental-limit.html"
       ],
       "date": "2026-03-25T03:32:15.632008+00:00"
+    },
+    {
+      "title": "Google Cloud Hub Unifies Management Across Core Services",
+      "urls": [
+        "https://console.cloud.google.com/start"
+      ],
+      "date": "2026-03-25T04:04:33.211046+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T03:32:15.632070+00:00"
+  "lastUpdated": "2026-03-25T04:04:33.211107+00:00"
 }
