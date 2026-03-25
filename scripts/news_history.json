@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Adobe CEO Shantanu Narayen Announces Resignation Amid AI Era Competition Concerns",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-03-12/adobe-announces-ceo-to-step-down-gives-lackluster-forecast",
-        "https://techcrunch.com/2026/03/12/when-startups-become-a-family-business",
-        "https://www.businessinsider.com/dario-amodei-get-off-pentagon-naughty-list-anthropic-donald-trump-2026-3",
-        "https://www.newsweek.com/ai-impact-is-ai-actually-intelligent-stephen-fry-weighs-in-11667975",
-        "https://www.cnbc.com/video/2026/03/12/fast-money-traders-talk-the-impact-of-the-energy-shock-hitting-the-market.html"
-      ],
-      "date": "2026-03-15T08:01:18.377601+00:00"
-    },
-    {
       "title": "OpTic Texas Extends Unbeaten Streak to 9-0 in Call of Duty League Stage 2 Qualifying",
       "urls": [
         "https://deadspin.com/yandex-betboom-move-into-wallachia-season-7-upper-bracket-final",
@@ -4328,7 +4317,14 @@
         "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716"
       ],
       "date": "2026-03-25T07:36:39.482211+00:00"
+    },
+    {
+      "title": "WMO Reports 2025 Global Temperatures Hit 1.3°C Above Pre-Industrial Levels",
+      "urls": [
+        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025"
+      ],
+      "date": "2026-03-25T08:07:57.964824+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T07:36:39.482279+00:00"
+  "lastUpdated": "2026-03-25T08:07:57.964884+00:00"
 }
