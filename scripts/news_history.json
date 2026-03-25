@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Combines Trainium and Cerebras Chips to Enhance Cloud AI Capabilities",
-      "urls": [
-        "https://www.tipranks.com/news/private-companies/interos-emphasizes-gender-diversity-in-supply-chain-risk-intelligence-workforce"
-      ],
-      "date": "2026-03-15T13:01:20.335383+00:00"
-    },
-    {
       "title": "Microsoft Unveils Project Helix Gaming Platform with Promising Full-Screen Experience Features",
       "urls": [
         "https://www.govtech.com/sponsored/9-steps-to-navigate-the-doj-accessibility-ruling",
@@ -4311,7 +4304,15 @@
         "https://www.olympics.com/en/news"
       ],
       "date": "2026-03-25T12:40:05.972496+00:00"
+    },
+    {
+      "title": "Fox News expands its hyperlocal weather forecasting initiative to cover all 29,000 U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=05df7042b4326f5c10ad6765b5556e29",
+        "https://www.washingtonpost.com"
+      ],
+      "date": "2026-03-25T13:04:59.488031+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T12:40:05.972557+00:00"
+  "lastUpdated": "2026-03-25T13:04:59.488093+00:00"
 }
