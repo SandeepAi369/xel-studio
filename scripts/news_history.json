@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Industrial Leaders Emphasize Digitalization and Electrification for Decarbonization Efforts",
-      "urls": [
-        "https://www.relocatemagazine.com/industrial-leaders-ready-to-invest-in-flexible-electrified-operations-siemens-study-finds-0626",
-        "https://www.edie.net/to-navigate-extreme-heat-businesses-must-invest-in-climate-action"
-      ],
-      "date": "2026-03-15T01:31:07.350614+00:00"
-    },
-    {
       "title": "VEREM's Real-World Asset Ecosystem Successfully Tokenizes GIA-Certified Emeralds for Decentralized Trading.",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-announces-update-on-stage-sold-out-with-record-demand-amid-xrp-market-shifts-1035930438",
@@ -4301,7 +4293,14 @@
         "https://www.ibm.com/think/topics/digital-twin"
       ],
       "date": "2026-03-25T01:05:34.368642+00:00"
+    },
+    {
+      "title": "RefugeeOne Resettles Over 1 500 Refugees Annually With Housing And Job Training",
+      "urls": [
+        "https://refugeeone.org"
+      ],
+      "date": "2026-03-25T01:32:23.506250+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T01:05:34.368692+00:00"
+  "lastUpdated": "2026-03-25T01:32:23.506315+00:00"
 }
