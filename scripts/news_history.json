@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Buzzfeed CEO Evan Spiegel Warns of Potential Layoffs Amid Financial Crisis",
-      "urls": [
-        "https://www.newser.com/story/385425/buzzfeed-warns-it-may-not-be-around-much-longer.html",
-        "https://www.nbcnewyork.com/video/news/massive-fire-erupts-at-brooklyn-warehouse/6475305"
-      ],
-      "date": "2026-03-15T18:31:21.349884+00:00"
-    },
-    {
       "title": "Google Continues to Leverage Heterogeneous Infrastructure with Nvidia and Ironwood GPUs",
       "urls": [
         "https://www.forbes.com/sites/janakirammsv/2026/03/14/aws-and-microsoft-are-borrowing-what-google-already-built"
@@ -4314,7 +4306,14 @@
         "https://www.iheart.com/artist/extreme-40596"
       ],
       "date": "2026-03-25T18:02:01.073370+00:00"
+    },
+    {
+      "title": "Earthquake Recovery Program Aids 3100 Mothers And Newborns",
+      "urls": [
+        "https://www.who.int/myanmar/news/feature-stories/detail/healing-in-the-open--stories-of-strength-and-recovery-after-the-earthquake"
+      ],
+      "date": "2026-03-25T18:31:30.625539+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T18:02:01.073434+00:00"
+  "lastUpdated": "2026-03-25T18:31:30.625607+00:00"
 }
