@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Discover Protein DnrV Boosts Doxorubicin Production by 180 Percent Overnight",
-      "urls": [
-        "https://www.news-medical.net/news/20260313/Researchers-achieve-breakthrough-in-the-production-of-vital-chemotherapy-agent.aspx"
-      ],
-      "date": "2026-03-15T11:01:24.037834+00:00"
-    },
-    {
       "title": "Anthropic Commits $100 Million to Claude Partner Network Expansion",
       "urls": [
         "https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network",
@@ -4317,7 +4310,15 @@
         "https://www.screen.co.jp/recruit_info"
       ],
       "date": "2026-03-25T10:36:40.953625+00:00"
+    },
+    {
+      "title": "Global Energy Sector Invests Heavily To Meet 2026 Demand Amid Geopolitical Challenges",
+      "urls": [
+        "https://www.weforum.org/stories/2025/12/global-energy-2026-growth-resilience-and-competition",
+        "https://www.weforum.org/publications/global-aviation-sustainability-outlook-2026"
+      ],
+      "date": "2026-03-25T11:01:31.719443+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T10:36:40.953687+00:00"
+  "lastUpdated": "2026-03-25T11:01:31.719504+00:00"
 }
