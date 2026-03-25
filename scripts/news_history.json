@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rhett Ayers Butler's Mongabay Platform Celebrates 25 Years of Environmental Journalism Excellence",
-      "urls": [
-        "https://www.butlernature.com/2026/03/15/from-the-most-depressing-site-on-the-internet-to-stories-of-possibility",
-        "https://www.fsrmagazine.com/feature/sustainability-as-a-growth-engine-why-eco-driven-companies-outperform-in-modern-markets"
-      ],
-      "date": "2026-03-15T14:31:19.814857+00:00"
-    },
-    {
       "title": "Google Integrates Gemini AI into Workspace Apps for Enhanced Productivity Features",
       "urls": [
         "https://seekingalpha.com/news/4562806-google-unveils-new-multimodal-gemini-embedding-2-model",
@@ -4312,7 +4304,18 @@
         "https://www.thetimes.com/us/news-today?msockid=28195025901061fa1f3d4702917a604c"
       ],
       "date": "2026-03-25T14:02:33.463958+00:00"
+    },
+    {
+      "title": "U.S. And China Ramp Up AI Export Controls Amid Trade Tensions",
+      "urls": [
+        "https://www.goldmansachs.com/insights/articles/the-generative-world-order-ai-geopolitics-and-power",
+        "https://www.cbc.ca/news/politics/carney-norway-nordic-summit-defence-russia-greenland-9.7129246",
+        "https://www.spglobal.com/en/research-insights/market-insights/geopolitical-risk",
+        "https://www.imf.org/-/media/Files/News/Seminars/2023/fragmentation-conference/session-3-paper-1-the-impact-of-geopolitical-conflicts-on-trade-growth-and-innovation.ashx",
+        "https://www.csis.org/analysis/four-scenarios-geopolitical-order-2025-2030-what-will-great-power-competition-look"
+      ],
+      "date": "2026-03-25T14:32:22.885856+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T14:02:33.464029+00:00"
+  "lastUpdated": "2026-03-25T14:32:22.885933+00:00"
 }
