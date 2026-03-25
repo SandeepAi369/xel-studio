@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Commits $100 Million to Claude Partner Network Expansion",
-      "urls": [
-        "https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network",
-        "https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans",
-        "https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work",
-        "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
-        "https://www.aol.com/articles/anthropic-launched-ai-code-reviewer-060929137.html",
-        "https://www.businessinsider.com/why-ai-startup-founder-switched-chatgpt-to-claude-2026-3",
-        "https://www.infosecurity-magazine.com/podcasts/exclusive-interview-openclaw"
-      ],
-      "date": "2026-03-15T11:31:16.249181+00:00"
-    },
-    {
       "title": "Michigan Governor Gretchen Whitmer Condemns Oakland County Synagogue Attack on Jewish Community",
       "urls": [
         "https://timesofindia.indiatimes.com/science/is-diamond-no-longer-the-hardest-chinese-scientists-claim-a-breakthrough-with-hexagonal-diamond/articleshow/129415246.cms",
@@ -4318,7 +4305,16 @@
         "https://www.weforum.org/publications/global-aviation-sustainability-outlook-2026"
       ],
       "date": "2026-03-25T11:01:31.719443+00:00"
+    },
+    {
+      "title": "Florida wildlife enthusiasts can observe native species year-round through designated wildlife viewi",
+      "urls": [
+        "https://www.visitflorida.com/things-to-do/outdoors-and-adventure/wildlife",
+        "https://www.nationalgeographic.org/society/our-focus/wildlife",
+        "https://www.worldwildlife.org/species"
+      ],
+      "date": "2026-03-25T11:34:08.414581+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T11:01:31.719504+00:00"
+  "lastUpdated": "2026-03-25T11:34:08.414647+00:00"
 }
