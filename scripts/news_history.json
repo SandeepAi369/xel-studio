@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UCSF and UCLA Researchers Successfully Implement Neural Implants for Spinal Cord Injury Patients",
-      "urls": [
-        "https://www.latimes.com/politics/story/2026-03-15/trumps-america-air-travel-wheelchair-regulation-on-hold",
-        "https://www.nature.com/articles/s41551-026-01627-5"
-      ],
-      "date": "2026-03-15T17:31:10.370785+00:00"
-    },
-    {
       "title": "Residents Ordered to Evacuate Camp Otake Due to Rising Floodwaters in Waialua Area",
       "urls": [
         "https://www.hawaiinewsnow.com/2026/03/15/honolulu-emergency-official-gives-update-kona-low-storm-impacts-oahu"
@@ -4311,7 +4303,17 @@
         "https://www.foxnews.com?msockid=3d917bb0f7986add12b06c97f69f6bbb"
       ],
       "date": "2026-03-25T17:05:39.664334+00:00"
+    },
+    {
+      "title": "Social Security Launches Online SSDI Application Portal",
+      "urls": [
+        "https://www.ssa.gov/disability",
+        "https://www.usa.gov/social-security-disability",
+        "https://www.cdc.gov/disability-and-health/about/index.html",
+        "https://www.ssa.gov/applyfordisability/index.htm"
+      ],
+      "date": "2026-03-25T17:32:23.309141+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T17:05:39.664396+00:00"
+  "lastUpdated": "2026-03-25T17:32:23.309201+00:00"
 }
