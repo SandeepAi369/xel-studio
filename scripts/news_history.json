@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Acquires Groq in $20 Billion Deal to Bolster AI Chip Dominance",
-      "urls": [
-        "https://www.cnbc.com/2026/03/13/a-closer-look-at-nvidias-20-billion-bet-on-tech-for-a-new-ai-chip.html",
-        "https://www.telecoms.com/ai/meta-details-its-in-house-ai-chip-roadmap",
-        "https://www.businessinsider.com/nvidia-ai-dominance-rising-competition-from-rivals-2026-3",
-        "https://www.pcmag.com/news/amd-pushes-a-new-category-of-pcs-the-agent-computer",
-        "https://www.reuters.com/technology/nvidia-focus-competition-beating-ai-advances-megaconference-2026-03-13"
-      ],
-      "date": "2026-03-15T00:01:25.826041+00:00"
-    },
-    {
       "title": "FUT Esports Secures Semifinal Spot in ESL Pro League Season 23 with Thrilling Upset",
       "urls": [
         "https://deadspin.com/fut-esports-squeeze-into-esl-pro-league-season-23-semis"
@@ -4291,7 +4280,22 @@
         "https://www.foxnews.com?msockid=154fbdfa52916e650153aadc53716f45"
       ],
       "date": "2026-03-24T23:37:44.718948+00:00"
+    },
+    {
+      "title": "Platforms Detect Learning Differences in U.S. Students",
+      "urls": [
+        "https://northpoint.org.uk/news/digital-innovations-neurodiversity-pathways",
+        "https://apnews.com/article/neurodiversity-alliance-autism-adhd-dyslexia-15bdbb49ce538a60562a2adc7a2d86ae",
+        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html?msockid=232a14d69ffa64fd15ce03f19e0b6581",
+        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths?msockid=232a14d69ffa64fd15ce03f19e0b6581",
+        "https://ascendeducation.com/news/neurodiversity-in-tech-why-inclusive-learning-is-the-next-big-priority",
+        "https://theconversation.com/topics/neurodiversity-103349",
+        "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions",
+        "https://www.auoow.com/using-tech-to-support-neurodiverse-learners",
+        "https://autismspectrumnews.org"
+      ],
+      "date": "2026-03-25T00:03:34.451076+00:00"
     }
   ],
-  "lastUpdated": "2026-03-24T23:37:44.719012+00:00"
+  "lastUpdated": "2026-03-25T00:03:34.451141+00:00"
 }
