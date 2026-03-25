@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alibaba's Qwen AI Models Surpass One Billion Downloads Globally Amid Rising Adoption",
-      "urls": [
-        "https://fortune.com/2026/03/14/openclaw-china-ai-agent-boom-open-source-lobster-craze-minimax-qwen"
-      ],
-      "date": "2026-03-15T10:01:19.339076+00:00"
-    },
-    {
       "title": "ElevenLabs Collaborates with Nonprofits to Restore 1 Million Voices Worldwide",
       "urls": [
         "https://mashable.com/article/elevenlabs-eric-dane-1-million-voices-initiative-sxsw-2026",
@@ -4314,7 +4307,18 @@
         "https://kanmon.com/blog/financing-for-growth-how-strategic-funding"
       ],
       "date": "2026-03-25T09:38:43.460506+00:00"
+    },
+    {
+      "title": "Tonga Hit By 7.5 Magnitude Earthquake Triggering Tsunami Warnings",
+      "urls": [
+        "https://www.volcanodiscovery.com/earthquakes/today.html",
+        "https://pnsn.org/events/map",
+        "https://www.msn.com/en-us/news/world/tonga-struck-by-major-75-magnitude-earthquake-what-to-know/ar-AA1ZhXHL",
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2N5YXpFU0FuSjFLQUFQAQ",
+        "https://www.reuters.com/world/earthquakes"
+      ],
+      "date": "2026-03-25T10:04:42.931993+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T09:38:43.460568+00:00"
+  "lastUpdated": "2026-03-25T10:04:42.932047+00:00"
 }
