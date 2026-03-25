@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "LeBron James' New Patch Sparks Debate Over Self-Aggrandizing Statement on Jerseys",
-      "urls": [
-        "https://www.nba.com/watch/video/top-10-plays-march-14-2026?plsrc=nba&collection=top-trending-videos",
-        "https://news.ssbcrack.com/lebron-james-latest-patch-sparks-debate-over-his-self-aggrandizing-ways"
-      ],
-      "date": "2026-03-15T15:31:17.064175+00:00"
-    },
-    {
       "title": "China Unveils Ambitious 2026-2030 Plan to Develop Brain-Computer Interface Technology Nationwide",
       "urls": [
         "https://www.greenwichtime.com/news/world/article/what-china-s-latest-economic-plans-say-about-its-21963341.php",
@@ -4311,7 +4303,14 @@
         "https://www.thetimes.com/us/news-today?msockid=0421e68c47546b5a2130f1ab46606afb"
       ],
       "date": "2026-03-25T15:10:10.874205+00:00"
+    },
+    {
+      "title": "Hugging Face Blocked In China Amid DNS Pollution Attacks",
+      "urls": [
+        "https://www.zhihu.com/question/599683557/answers/updated"
+      ],
+      "date": "2026-03-25T15:31:34.183810+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T15:10:10.874265+00:00"
+  "lastUpdated": "2026-03-25T15:31:34.183873+00:00"
 }
