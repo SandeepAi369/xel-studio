@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pierre Omidyar's Omidyar Network Doubles Down on AI Philanthropy for Underrepresented Communities",
-      "urls": [
-        "https://www.cbsnews.com/losangeles/video/innovative-tech-trains-teachers-on-how-to-help-students-trauma",
-        "https://www.psypost.org/the-extreme-male-brain-theory-of-autism-applies-more-strongly-to-females",
-        "https://www.nhregister.com/business/article/a-civil-rights-lawyer-will-lead-the-billionaire-22071202.php"
-      ],
-      "date": "2026-03-15T01:01:19.510212+00:00"
-    },
-    {
       "title": "Industrial Leaders Emphasize Digitalization and Electrification for Decarbonization Efforts",
       "urls": [
         "https://www.relocatemagazine.com/industrial-leaders-ready-to-invest-in-flexible-electrified-operations-siemens-study-finds-0626",
@@ -4299,7 +4290,18 @@
         "https://www.aldi.us/products"
       ],
       "date": "2026-03-25T00:31:16.819824+00:00"
+    },
+    {
+      "title": "Ibm Deploys Ai-Driven Digital Twins To Cut Equipment Downtime By 30 Percent",
+      "urls": [
+        "https://www.ibm.com/es-es/think/topics/digital-transformation",
+        "https://www.ibm.com/think/topics/digital-transformation-use-cases",
+        "https://www.ibm.com/mx-es/think/topics/digital-identity",
+        "https://www.ibm.com/es-es/think/topics/digital-footprint",
+        "https://www.ibm.com/think/topics/digital-twin"
+      ],
+      "date": "2026-03-25T01:05:34.368642+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T00:31:16.819884+00:00"
+  "lastUpdated": "2026-03-25T01:05:34.368692+00:00"
 }
