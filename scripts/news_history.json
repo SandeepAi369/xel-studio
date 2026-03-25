@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "AWS Unveils Enhanced Live Video Reframing for TikTok, Reels, and YouTube Platforms",
-      "urls": [
-        "https://www.mediapost.com/publications/article/413245/taylormade-banks-on-documentary-to-promote-new-clu.html",
-        "https://www.mediapost.com/publications/article/413044/aws-reframes-live-video-for-tiktok-reels-youtube.html?edition=141717"
-      ],
-      "date": "2026-03-15T06:01:23.701250+00:00"
-    },
-    {
-      "title": "NASA Administrator Outlines Plans for Artemis 3 and Blue Moon Mk 2 Missions",
-      "urls": [
-        "https://spaceflightnow.com/2026/03/14/nasa-administrator-teases-further-artemis-program-updates-in-one-on-one-interview"
-      ],
-      "date": "2026-03-15T06:31:08.558439+00:00"
-    },
-    {
       "title": "José Antonio Kast Wins Landslide Victory in Chile's Presidential Election",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-03-11/fuller-harris-head-to-ga-special-house-runoff-ddhq-projects",
@@ -4335,7 +4320,14 @@
         "https://docs.typebot.io/get-started/introduction"
       ],
       "date": "2026-03-25T06:01:22.813413+00:00"
+    },
+    {
+      "title": "Who: World Health Organization Issues 2025 Safety Alerts on Antimalarial and Pediatric Drugs",
+      "urls": [
+        "https://www.who.int/publications/i/item/9789240110755"
+      ],
+      "date": "2026-03-25T06:31:16.003746+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T06:01:22.813469+00:00"
+  "lastUpdated": "2026-03-25T06:31:16.003810+00:00"
 }
