@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Continues to Leverage Heterogeneous Infrastructure with Nvidia and Ironwood GPUs",
-      "urls": [
-        "https://www.forbes.com/sites/janakirammsv/2026/03/14/aws-and-microsoft-are-borrowing-what-google-already-built"
-      ],
-      "date": "2026-03-15T19:01:25.951449+00:00"
-    },
-    {
       "title": "US Army Awards $20 Billion Contract to Anduril for AI-Driven Defense Technology Upgrade",
       "urls": [
         "https://mlq.ai/news/ai2-launches-open-source-tools-for-robots-trained-solely-in-virtual-environments"
@@ -4313,7 +4306,16 @@
         "https://www.who.int/myanmar/news/feature-stories/detail/healing-in-the-open--stories-of-strength-and-recovery-after-the-earthquake"
       ],
       "date": "2026-03-25T18:31:30.625539+00:00"
+    },
+    {
+      "title": "Lowe's Sells ADA-Compliant Wheelchair Ramps Supporting Up To 800 Pounds",
+      "urls": [
+        "https://www.apria.com/durable-medical-equipment-wheelchairs",
+        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=1e49a52fc05a63b11484b208c10b6260",
+        "https://www.bestbuy.com/site/mobility-aids/wheelchairs/pcmcat1619466386000.c?id=pcmcat1619466386000"
+      ],
+      "date": "2026-03-25T19:05:17.363106+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T18:31:30.625607+00:00"
+  "lastUpdated": "2026-03-25T19:05:17.363161+00:00"
 }
