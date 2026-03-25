@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Haitian Government Announces Plans to Hold Elections in Late August This Year",
-      "urls": [
-        "https://kansaspublicradio.org/npr-news/2026-03-13/a-record-number-of-political-parties-register-for-haitis-first-election-in-a-decade",
-        "https://thehill.com/newsletters/defense-national-security/5783805-cnns-reporting-on-strait-of-hormuz-riles-white-house"
-      ],
-      "date": "2026-03-15T03:01:15.959375+00:00"
-    },
-    {
       "title": "Google Researchers Develop Multi-Agent Architecture for Artificial General Decision Making",
       "urls": [
         "https://www.forbes.com/sites/chuckbrooks/2026/03/14/the-rapid-trajectory-of-artificial-intelligence",
@@ -4312,7 +4304,15 @@
         "https://www.zhihu.com/question/1929468619848398534"
       ],
       "date": "2026-03-25T02:32:16.344197+00:00"
+    },
+    {
+      "title": "Science Names General-Purpose Language Models 2025 Breakthrough of the Year",
+      "urls": [
+        "https://www.science.org/content/page/contributing-science-family-journals",
+        "https://www.science.org/content/article/breakthrough-2025"
+      ],
+      "date": "2026-03-25T03:04:52.756122+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T02:32:16.344257+00:00"
+  "lastUpdated": "2026-03-25T03:04:52.756188+00:00"
 }
