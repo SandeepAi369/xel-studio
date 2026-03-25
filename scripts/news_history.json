@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ByteDance Halts Global Rollout of Seedance 2.0 AI Video Model Amid Copyright Disputes",
-      "urls": [
-        "https://gizmodo.com/bytedances-controversial-ai-video-model-reportedly-on-hold-globally-due-to-copyright-disputes-2000733748"
-      ],
-      "date": "2026-03-15T04:31:10.450099+00:00"
-    },
-    {
       "title": "Chinese Companies Rapidly Adopt OpenClaw AI Assistant Across Major Tech Firms and Local Governments",
       "urls": [
         "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html"
@@ -4311,7 +4304,18 @@
         "https://console.cloud.google.com/start"
       ],
       "date": "2026-03-25T04:04:33.211046+00:00"
+    },
+    {
+      "title": "Apple Mail Users Report Sync Bug After iOS 18.3 Update",
+      "urls": [
+        "https://discussions.apple.com/thread/255006655",
+        "https://discussions.apple.com/thread/255701760",
+        "https://discussions.apple.com/thread/255487071",
+        "https://discussions.apple.com/thread/255969524",
+        "https://discussions.apple.com/thread/255965927"
+      ],
+      "date": "2026-03-25T04:37:45.352840+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T04:04:33.211107+00:00"
+  "lastUpdated": "2026-03-25T04:37:45.352917+00:00"
 }
