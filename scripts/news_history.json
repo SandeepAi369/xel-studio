@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Integrates Gemini AI into Workspace Apps for Enhanced Productivity Features",
-      "urls": [
-        "https://seekingalpha.com/news/4562806-google-unveils-new-multimodal-gemini-embedding-2-model",
-        "https://www.theverge.com/tech/890996/google-workspace-gemini-ai-docs-sheets-drive",
-        "https://www.jpost.com/consumerism/article-889783",
-        "https://thenextweb.com/news/google-brings-gemini-deeper-into-docs-sheets-slides-and-drive-with-new-beta-features",
-        "https://arstechnica.com/ai/2026/03/gemini-burrows-deeper-into-google-workspace-with-revamped-document-creation-and-editing",
-        "https://techxplore.com/news/2026-03-ai-game-playing-flaws-alphazero.html"
-      ],
-      "date": "2026-03-15T15:01:22.070833+00:00"
-    },
-    {
       "title": "LeBron James' New Patch Sparks Debate Over Self-Aggrandizing Statement on Jerseys",
       "urls": [
         "https://www.nba.com/watch/video/top-10-plays-march-14-2026?plsrc=nba&collection=top-trending-videos",
@@ -4315,7 +4303,15 @@
         "https://www.csis.org/analysis/four-scenarios-geopolitical-order-2025-2030-what-will-great-power-competition-look"
       ],
       "date": "2026-03-25T14:32:22.885856+00:00"
+    },
+    {
+      "title": "The Times Delivers Real-Time U.S. National Coverage With Live Video And In-Depth Analysis",
+      "urls": [
+        "https://www.foxnews.com?msockid=0421e68c47546b5a2130f1ab46606afb",
+        "https://www.thetimes.com/us/news-today?msockid=0421e68c47546b5a2130f1ab46606afb"
+      ],
+      "date": "2026-03-25T15:10:10.874205+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T14:32:22.885933+00:00"
+  "lastUpdated": "2026-03-25T15:10:10.874265+00:00"
 }
