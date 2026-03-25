@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Authorities Investigate Evacuation of Kansas City Airport Amid Potential Threat",
-      "urls": [
-        "https://apnews.com/article/georgia-house-election-marjorie-taylor-greene-district-dad40663d4b5a7b0aa77aa44e2fa74f3"
-      ],
-      "date": "2026-03-15T07:31:10.878800+00:00"
-    },
-    {
       "title": "Adobe CEO Shantanu Narayen Announces Resignation Amid AI Era Competition Concerns",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-03-12/adobe-announces-ceo-to-step-down-gives-lackluster-forecast",
@@ -4328,7 +4321,14 @@
         "https://www.wildlandspa.org/wildlife-rescue-resources"
       ],
       "date": "2026-03-25T07:05:35.148899+00:00"
+    },
+    {
+      "title": "Struggles With Complex Code Despite Advances",
+      "urls": [
+        "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716"
+      ],
+      "date": "2026-03-25T07:36:39.482211+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T07:05:35.148959+00:00"
+  "lastUpdated": "2026-03-25T07:36:39.482279+00:00"
 }
