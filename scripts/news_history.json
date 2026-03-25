@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "FUT Esports Secures Semifinal Spot in ESL Pro League Season 23 with Thrilling Upset",
-      "urls": [
-        "https://deadspin.com/fut-esports-squeeze-into-esl-pro-league-season-23-semis"
-      ],
-      "date": "2026-03-15T00:31:09.284973+00:00"
-    },
-    {
       "title": "Pierre Omidyar's Omidyar Network Doubles Down on AI Philanthropy for Underrepresented Communities",
       "urls": [
         "https://www.cbsnews.com/losangeles/video/innovative-tech-trains-teachers-on-how-to-help-students-trauma",
@@ -4295,7 +4288,18 @@
         "https://autismspectrumnews.org"
       ],
       "date": "2026-03-25T00:03:34.451076+00:00"
+    },
+    {
+      "title": "Aldi Launches New Weekly Rotation Of Limited-Time Deals Across 2500 Stores",
+      "urls": [
+        "https://www.aldi.us",
+        "https://www.aldi.us/weekly-specials",
+        "https://www.aldi.us/weekly-specials/weekly-ads",
+        "https://www.aldi.us/weekly-specials/this-weeks-aldi-finds",
+        "https://www.aldi.us/products"
+      ],
+      "date": "2026-03-25T00:31:16.819824+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T00:03:34.451141+00:00"
+  "lastUpdated": "2026-03-25T00:31:16.819884+00:00"
 }
