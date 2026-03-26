@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Utilize β-Arrestins to Develop Targeted Therapies for Intracellular Signaling Proteins",
-      "urls": [
-        "https://www.biotechniques.com/drug-discovery-development/a-new-approach-to-drug-development-with-unexplored-peptides"
-      ],
-      "date": "2026-03-16T19:01:31.947914+00:00"
-    },
-    {
       "title": "Sun Yat-sen University Study Reveals AI Coding Agents Fail to Maintain Code for 8 Months",
       "urls": [
         "https://thenewstack.io/anthropics-claude-interactive-visualizations",
@@ -4506,7 +4499,22 @@
         "https://www.ibm.com/mx-es/think/topics/digital-transformation-use-cases"
       ],
       "date": "2026-03-26T18:31:27.456120+00:00"
+    },
+    {
+      "title": "Medi Cal Expansion Boosts Access To Preventive Care For Californians",
+      "urls": [
+        "https://www.dhcs.ca.gov/Medi-Cal/Pages/home.aspx",
+        "https://www.alamedahealthsystem.org/locations/san-leandro-hospital",
+        "https://healthy.kaiserpermanente.org/northern-california/facilities/san-leandro-medical-center-301981",
+        "https://epic-care.com/location/san-leandro",
+        "https://www.webmd.com",
+        "https://nmciclinic.com/san-leandro",
+        "https://www.yelp.com/search?find_desc=Medical+Clinics&find_loc=San+Leandro%2C+CA&msockid=2f6d60c2f93365f91b8a77eaf89264bc",
+        "https://www.healthgrades.com/group-directory/ca-california/san-leandro",
+        "https://www.mayoclinic.org/diseases-conditions"
+      ],
+      "date": "2026-03-26T19:01:32.521728+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T18:31:27.456186+00:00"
+  "lastUpdated": "2026-03-26T19:01:32.521803+00:00"
 }
