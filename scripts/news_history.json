@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "CachyOS Surpasses Arch Linux as Top Desktop Distro for Linux Gamers on ProtonDB",
-      "urls": [
-        "https://www.phoronix.com/news/KDE-Linux-Adds-APFS",
-        "https://www.phoronix.com/news/Linux-7.0-rc4-More-Rust",
-        "https://www.phoronix.com/news/SuperTux-0.7-Released",
-        "https://www.phoronix.com/news/Bcachefs-1.37-Released",
-        "https://www.xda-developers.com/cachyos-dethrones-arch-as-the-top-desktop-distro-for-linux-gamers-on-protondb"
-      ],
-      "date": "2026-03-16T14:01:31.146760+00:00"
-    },
-    {
       "title": "Linux Catches Up to Windows in Performance with Groundbreaking Kernel Update",
       "urls": [
         "https://www.phoronix.com/news/Open-Source-GreenBoost-NVIDIA",
@@ -4529,7 +4518,16 @@
         "https://portal.nifa.usda.gov/portal/front/home"
       ],
       "date": "2026-03-26T13:32:40.163971+00:00"
+    },
+    {
+      "title": "Accessibility refers to the design of products, services, and environments that can be reached, ente",
+      "urls": [
+        "https://www.ldoceonline.com/dictionary/accessible",
+        "https://www.britannica.com/dictionary/accessible",
+        "https://www.vocabulary.com/dictionary/accessible"
+      ],
+      "date": "2026-03-26T14:02:43.522093+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T13:32:40.164062+00:00"
+  "lastUpdated": "2026-03-26T14:02:43.522174+00:00"
 }
