@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hellen Obiri Wins Second United Airlines NYC Half Title in Record-Breaking 30229 Finishers",
-      "urls": [
-        "https://www.nbcsports.com/olympics/news/mikaela-shiffrin-alpine-skiing-world-cup-wins-109",
-        "https://www.nbcnewyork.com/news/local/nothing-half-hearted-about-it-nyc-half-marathon-breaks-record/6476699"
-      ],
-      "date": "2026-03-16T12:31:22.237093+00:00"
-    },
-    {
       "title": "NASA Scientists Discover Collision of Two Extreme Stars in Galactic Center Region",
       "urls": [
         "https://science.nasa.gov/researchers/solicitations/roses-2025/c-12-faimm-correction-qa-update-and-webinar-materials-available"
@@ -4516,7 +4508,20 @@
         "https://www.todayonchain.com/news"
       ],
       "date": "2026-03-26T12:05:58.072361+00:00"
+    },
+    {
+      "title": "ICC Expands T20 World Cup To 20 Teams For 2026 Tournament",
+      "urls": [
+        "https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSFFpZ0FQAQ?hl=en-GB&ceid=GB%3Aen",
+        "https://www.foxnews.com/sports?msockid=01d4ceba2fa961c52204d9922ea86055",
+        "https://www.hindustantimes.com/sports",
+        "https://www.reuters.com/sports/soccer",
+        "https://apnews.com/sports",
+        "https://www.espncricinfo.com/cricket-news",
+        "https://www.usatoday.com/sports"
+      ],
+      "date": "2026-03-26T12:32:18.997244+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T12:05:58.072424+00:00"
+  "lastUpdated": "2026-03-26T12:32:18.997308+00:00"
 }
