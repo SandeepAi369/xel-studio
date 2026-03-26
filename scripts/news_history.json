@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hungary's Magyar Gains 20 Percentage Point Lead in Rural Election Polls",
-      "urls": [
-        "https://apnews.com/article/hungary-orban-magyar-rival-rallies-election-d9802379bae4d314463d9b80dacea950",
-        "https://apnews.com/article/chile-kast-inauguration-new-administration-00d398c96e0ff25378838dc8831dcbe8",
-        "https://www.houstonchronicle.com/news/world/article/orb-n-and-challenger-magyar-summon-rival-rallies-22077698.php",
-        "https://www.politico.eu/article/france-municipal-elections-2026-results-first-round-live-updates"
-      ],
-      "date": "2026-03-16T16:01:40.916500+00:00"
-    },
-    {
       "title": "Innov8.ag Unveils HarvestReplay, Groundbreaking Operational Intelligence Service for Agriculture Industry",
       "urls": [
         "https://wwd.com/footwear-news/shoe-features/bombas-sport-ceo-interview-david-larose-1238673817",
@@ -4520,7 +4510,14 @@
         "https://www.foxnews.com?msockid=1a8190019680672b296b872997d266af"
       ],
       "date": "2026-03-26T15:32:10.097626+00:00"
+    },
+    {
+      "title": "Apple MOV Files Face Compatibility Issues on Non Apple Devices",
+      "urls": [
+        "https://www.zhihu.com/question/268479838/answers/updated"
+      ],
+      "date": "2026-03-26T16:03:14.456545+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T15:32:10.097692+00:00"
+  "lastUpdated": "2026-03-26T16:03:14.456611+00:00"
 }
