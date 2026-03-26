@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers at UNM and LANL Launch THOR AI Framework for Complex Physics Calculations",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/03/260315004344.htm"
-      ],
-      "date": "2026-03-16T10:01:28.579571+00:00"
-    },
-    {
-      "title": "Researchers Utilize AI to Track and Analyze Online Wildlife Trafficking on Major E-commerce Platforms",
-      "urls": [
-        "https://www.forbes.com/sites/melissacristinamarquez/2026/03/15/how-ai-is-tracking-illegal-wildlife-trade-hidden-in-online-marketplaces"
-      ],
-      "date": "2026-03-16T10:31:29.026852+00:00"
-    },
-    {
-      "title": "Kathy Bostjancic Warns of Rising Core PCE Inflation Amid Slowing Economic Growth",
-      "urls": [
-        "https://www.axios.com/2026/03/13/iran-inflation-jobs-gdp"
-      ],
-      "date": "2026-03-16T11:01:38.738867+00:00"
-    },
-    {
       "title": "Swansea University Researchers Harness AI to Boost Creative Design in Virtual Car Project",
       "urls": [
         "https://techcrunch.com/2026/03/10/youtube-ai-deepfake-detection-politicians-government-officials-journalists",
@@ -4522,7 +4501,23 @@
         "https://www.yelp.com/search?find_desc=wheelchair+rental&find_loc=Los+Angeles%2C+CA&msockid=20aa1df8d8856dd32bf70ad0d9a46c95"
       ],
       "date": "2026-03-26T09:32:39.856507+00:00"
+    },
+    {
+      "title": "StockAnalysis Com Launches Free Screener For 130000 Global Stocks",
+      "urls": [
+        "https://www.bankofamerica.com",
+        "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
+        "https://play.google.com/store/apps/details?id=com.infonow.bofa&hl=en-US",
+        "https://about.bankofamerica.com/en/our-company/financial-products-services",
+        "https://bankofamerica.banklocationmaps.com/en/usa/new-jersey/dayton",
+        "https://stockanalysis.com",
+        "https://stockanalysis.com/stocks/screener",
+        "https://stockanalysis.com/watchlist",
+        "https://stockanalysis.com/chart",
+        "https://stockanalysis.com/trending"
+      ],
+      "date": "2026-03-26T11:07:33.045806+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T09:32:39.856569+00:00"
+  "lastUpdated": "2026-03-26T11:07:33.045870+00:00"
 }
