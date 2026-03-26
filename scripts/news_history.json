@@ -4388,7 +4388,23 @@
         "https://leveluptalk.com/news/nani-stops-streaming-reason-detailed-info"
       ],
       "date": "2026-03-25T23:32:24.688577+00:00"
+    },
+    {
+      "title": "PyTorch Foundation Integrates Ray For Scalable AI Workloads",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
+        "https://arxiv.org/html/2508.04035v1",
+        "https://www.prnewswire.com/news-releases/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack-302591184.html",
+        "https://www.marktechpost.com/2025/08/20/deep-learning-framework-showdown-pytorch-vs-tensorflow-in-2025",
+        "https://www.pythoncentral.io/tensorflow-pytorch-or-scikit-learn-a-guide-to-python-ai-frameworks",
+        "https://www.opensourceforu.com/2025/12/google-and-meta-bet-on-open-source-pytorch-to-break-nvidias-cuda-lock-in",
+        "https://biggo.com/news/202510261933_PyTorch-TensorFlow-Research-Dominance-2025",
+        "https://www.phoronix.com/news/PyTorch-Ray-AI-Compute-Engine",
+        "https://blogs.nvidia.com/blog/open-source-ai-week",
+        "https://sider.ai/blog/ai-tools/is-pytorch-still-the-best-deep-learning-framework-a-2025-review"
+      ],
+      "date": "2026-03-26T00:01:41.023450+00:00"
     }
   ],
-  "lastUpdated": "2026-03-25T23:32:24.688631+00:00"
+  "lastUpdated": "2026-03-26T00:01:41.023505+00:00"
 }
