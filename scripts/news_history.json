@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists at Potsdam Institute Warn of Accelerating Global Warming Rate of 0.35 Degrees Per Decade",
-      "urls": [
-        "https://digg.com/science/cCq6ros/scientists-detect-a-sudden-acceleration-in",
-        "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future",
-        "https://www.haaretz.com/science-and-health/climate-change/2026-03-11/ty-article/global-warming-is-accelerating-so-is-denialism-of-it/0000019c-d869-d3d8-afdf-f97b5a2c0000",
-        "https://science.nasa.gov/earth/earth-observatory/canon-fiords-whirling-waters"
-      ],
-      "date": "2026-03-16T18:01:37.352889+00:00"
-    },
-    {
       "title": "World Food Programme Rationing Supplies for Over 800,000 Displaced People in Lebanon",
       "urls": [
         "https://www.timesofisrael.com/iranians-weigh-whether-to-flee-country-amid-the-war",
@@ -4512,7 +4502,15 @@
         "https://www.sciencenews.org/article/science-america-trump-administration"
       ],
       "date": "2026-03-26T17:33:26.695472+00:00"
+    },
+    {
+      "title": "Colorado Parks and Wildlife Hosts Puppet Shows at Roxborough State Park",
+      "urls": [
+        "https://cpw.state.co.us",
+        "https://coloradostateparks.net/parks/lake-pueblo/wildlife"
+      ],
+      "date": "2026-03-26T18:02:45.596049+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T17:33:26.695530+00:00"
+  "lastUpdated": "2026-03-26T18:02:45.596106+00:00"
 }
