@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Catches Up to Windows in Performance with Groundbreaking Kernel Update",
-      "urls": [
-        "https://www.phoronix.com/news/Open-Source-GreenBoost-NVIDIA",
-        "https://www.iowaparkleader.com/linux-finally-catches-up-to-windows-with-a-game-changing-performance-feature"
-      ],
-      "date": "2026-03-16T14:31:28.358353+00:00"
-    },
-    {
       "title": "USMCA Leaders Push for Renewal of Landmark Trade Deal Benefiting Farmers and Manufacturers",
       "urls": [
         "https://www.politico.eu/newsletter/forecast/ais-moment-of-global-reckoning",
@@ -4527,7 +4519,18 @@
         "https://www.vocabulary.com/dictionary/accessible"
       ],
       "date": "2026-03-26T14:02:43.522093+00:00"
+    },
+    {
+      "title": "Mistral Launches Largest Wine Catalogue in Brazil With Thousands of Global Varietals",
+      "urls": [
+        "https://www.mistral.com.br",
+        "https://www.mistral.com.br/catalogo",
+        "https://www.mistral.com.br/regiao",
+        "https://www.mistral.com.br/tipo-de-uva",
+        "https://www.mistral.com.br/nossas-lojas"
+      ],
+      "date": "2026-03-26T14:32:43.477004+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T14:02:43.522174+00:00"
+  "lastUpdated": "2026-03-26T14:32:43.477077+00:00"
 }
