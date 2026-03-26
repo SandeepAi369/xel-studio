@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Baseball Team Advances to World Baseball Classic Championship Final",
-      "urls": [
-        "https://www.espn.com/video/clip?id=48213151",
-        "https://www.espn.com/video/clip?id=48210005",
-        "https://www.foxsports.com/watch-vertical/fmc-601n52auo8frecmw"
-      ],
-      "date": "2026-03-16T08:36:58.453726+00:00"
-    },
-    {
-      "title": "Meta Announces 20 Percent Workforce Reduction Amid Accelerated AI Investments",
-      "urls": [
-        "https://thenextweb.com/news/europe-startup-funding-rounds-march",
-        "https://www.tipranks.com/news/meta-meta-may-cut-20-of-workforce-as-ai-investments-accelerate"
-      ],
-      "date": "2026-03-16T09:01:58.512420+00:00"
-    },
-    {
       "title": "Clean Sky Programme Fails to Meet Ambitious CO2 Emissions Reduction Target by 2020",
       "urls": [
         "https://cleantechnica.com/2026/03/15/will-the-next-disruptive-plane-be-european",
@@ -4531,7 +4514,15 @@
         "https://www.foxnews.com?msockid=03158bd595cd6faf209d9cfd94d36ead"
       ],
       "date": "2026-03-26T08:31:30.606387+00:00"
+    },
+    {
+      "title": "Meta AI Launches in Brazil Across WhatsApp and Web Platforms",
+      "urls": [
+        "https://about.fb.com/br/news/2024/10/meta-ai-chega-ao-brasil-assistente-de-inteligencia-artificial-comeca-a-ser-disponibilizado-no-pais",
+        "https://about.fb.com/news/2025/12/bringing-more-real-time-news-and-content-to-meta-ai"
+      ],
+      "date": "2026-03-26T09:05:48.425783+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T08:31:30.606452+00:00"
+  "lastUpdated": "2026-03-26T09:05:48.425844+00:00"
 }
