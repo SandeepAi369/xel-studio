@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "USMCA Leaders Push for Renewal of Landmark Trade Deal Benefiting Farmers and Manufacturers",
-      "urls": [
-        "https://www.politico.eu/newsletter/forecast/ais-moment-of-global-reckoning",
-        "https://asianbusinessreview.com/economy/news/asia-pacific-solidifies-global-trade-leadership-singapore-tops-rankings",
-        "https://www.aginfo.net/report/64955/Land-Livestock-Report/Ag-and-Manufacturing-Leaders-Push-for-USMCA-Renewal"
-      ],
-      "date": "2026-03-16T15:01:39.543841+00:00"
-    },
-    {
-      "title": "Russian Ophthalmologist Andrey Demchinsky Leverages AI Models to Create Viral Medical Video",
-      "urls": [
-        "https://mlq.ai/news/qutwo-launches-os-platform-to-bridge-enterprises-toward-quantum-computing",
-        "https://www.nature.com/articles/s41433-026-04421-4"
-      ],
-      "date": "2026-03-16T15:32:09.344966+00:00"
-    },
-    {
       "title": "Hungary's Magyar Gains 20 Percentage Point Lead in Rural Election Polls",
       "urls": [
         "https://apnews.com/article/hungary-orban-magyar-rival-rallies-election-d9802379bae4d314463d9b80dacea950",
@@ -4530,7 +4513,14 @@
         "https://www.mistral.com.br/nossas-lojas"
       ],
       "date": "2026-03-26T14:32:43.477004+00:00"
+    },
+    {
+      "title": "Fox News Expands Weather Alert System to All 29000 US ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com?msockid=1a8190019680672b296b872997d266af"
+      ],
+      "date": "2026-03-26T15:32:10.097626+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T14:32:43.477077+00:00"
+  "lastUpdated": "2026-03-26T15:32:10.097692+00:00"
 }
