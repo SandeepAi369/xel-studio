@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sun Yat-sen University Study Reveals AI Coding Agents Fail to Maintain Code for 8 Months",
-      "urls": [
-        "https://thenewstack.io/anthropics-claude-interactive-visualizations",
-        "https://www.aol.com/articles/keep-intuition-sharp-while-using-152843506.html",
-        "https://garymarcus.substack.com/p/a-spate-of-outages-including-incidents",
-        "https://www.itnews.com.au/news/australian-unitys-shift-left-on-code-quality-and-security-is-just-in-time-for-ai-624200",
-        "https://www.itnews.com.au/news/atlassian-to-cut-roughly-1600-jobs-624222",
-        "https://www.businessinsider.com/amazon-tech-lead-promotion-vibecoding-tips-ai-products-2026-3",
-        "https://www.itnews.com.au/feature/ai-driven-attacks-shrinking-response-window-for-security-teams-elastic-warns-624182",
-        "https://www.aol.com/articles/im-amazon-tech-lead-got-064035238.html"
-      ],
-      "date": "2026-03-16T19:31:18.703960+00:00"
-    },
-    {
       "title": "Illinois Voters Cast Ballots in State Primary Election Featuring 16 Senate Candidates",
       "urls": [
         "https://apnews.com/article/republic-of-congo-president-election-a7e32fea3127f90dabfc838eedd83d21",
@@ -4514,7 +4500,17 @@
         "https://www.mayoclinic.org/diseases-conditions"
       ],
       "date": "2026-03-26T19:01:32.521728+00:00"
+    },
+    {
+      "title": "International RH And CT6 Trucks Launch In Mexico For Heavy And Light Cargo Transport",
+      "urls": [
+        "https://mexico.internationaltrucks.com/international-rh",
+        "https://mexico.internationaltrucks.com/camion-de-6-toneladas",
+        "https://mexico.internationaltrucks.com/soluciones-de-servicio",
+        "https://mexico.internationaltrucks.com/camiones-electricos-o"
+      ],
+      "date": "2026-03-26T19:35:24.338738+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T19:01:32.521803+00:00"
+  "lastUpdated": "2026-03-26T19:35:24.338803+00:00"
 }
