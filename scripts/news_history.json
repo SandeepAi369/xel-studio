@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Illinois Voters Cast Ballots in State Primary Election Featuring 16 Senate Candidates",
-      "urls": [
-        "https://apnews.com/article/republic-of-congo-president-election-a7e32fea3127f90dabfc838eedd83d21",
-        "https://www.washingtonpost.com/politics/2026/03/16/illinois-primary-senate-governor-house/1963027e-212b-11f1-954a-6300919c9854_story.html"
-      ],
-      "date": "2026-03-16T20:01:50.086392+00:00"
-    },
-    {
       "title": "Apple Unveils Revolutionary Liquid Glass Interface at WWDC 2026 Conference",
       "urls": [
         "https://www.cnet.com/tech/computing/macbook-neo-launches-apple-into-a-cooler-era-and-with-a-mascot",
@@ -4510,7 +4502,14 @@
         "https://mexico.internationaltrucks.com/camiones-electricos-o"
       ],
       "date": "2026-03-26T19:35:24.338738+00:00"
+    },
+    {
+      "title": "Autodesk Desktop App Manages AutoCAD Updates And License Validation",
+      "urls": [
+        "https://www.zhihu.com/question/400387556"
+      ],
+      "date": "2026-03-26T20:02:40.861902+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T19:35:24.338803+00:00"
+  "lastUpdated": "2026-03-26T20:02:40.861972+00:00"
 }
