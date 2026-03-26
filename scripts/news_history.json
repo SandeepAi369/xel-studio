@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Swansea University Researchers Harness AI to Boost Creative Design in Virtual Car Project",
-      "urls": [
-        "https://techcrunch.com/2026/03/10/youtube-ai-deepfake-detection-politicians-government-officials-journalists",
-        "https://www.hollywoodreporter.com/business/business-news/canal-plus-sky-english-drama-openai-google-cloud-ai-deals-1236527214",
-        "https://www.sciencedaily.com/releases/2026/03/260315004355.htm"
-      ],
-      "date": "2026-03-16T11:31:25.864876+00:00"
-    },
-    {
       "title": "US Economic Growth Slows to 0.7% in Fourth Quarter Amid Government Shutdown",
       "urls": [
         "https://www.realtor.com/news/trends/gdp-economic-growth-revision-q4-2025-shutdown",
@@ -4517,7 +4508,14 @@
         "https://stockanalysis.com/trending"
       ],
       "date": "2026-03-26T11:07:33.045806+00:00"
+    },
+    {
+      "title": "Quantum provides data storage and management solutions designed for organizations handling large-sca",
+      "urls": [
+        "https://www.quantum.com/en/company/about-us"
+      ],
+      "date": "2026-03-26T11:36:57.833114+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T11:07:33.045870+00:00"
+  "lastUpdated": "2026-03-26T11:36:57.833169+00:00"
 }
