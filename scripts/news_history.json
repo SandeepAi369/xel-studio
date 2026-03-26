@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NIH Investment in Research Generates $94.2 Billion in New Economic Activity Nationwide",
-      "urls": [
-        "https://www.researchprofessionalnews.com/rr-news-usa-2026-3-us-news-roundup-6-12-march"
-      ],
-      "date": "2026-03-16T08:03:17.517975+00:00"
-    },
-    {
-      "title": "Amazon Web Services Launches Elemental Inference for Vertical Video Content Creation on Social Media",
-      "urls": [
-        "https://www.forbes.com/sites/davidphelan/2026/03/14/meta-confirms-its-killing-crucial-instagram-feature-check-the-app-now",
-        "https://chainstoreage.com/facebook-ai-enables-key-seller-features-marketplace",
-        "https://www.mediapost.com/publications/article/413044/aws-reframes-live-video-for-tiktok-reels-youtube.html"
-      ],
-      "date": "2026-03-16T08:07:03.281168+00:00"
-    },
-    {
       "title": "US Baseball Team Advances to World Baseball Classic Championship Final",
       "urls": [
         "https://www.espn.com/video/clip?id=48213151",
@@ -4540,7 +4524,14 @@
         "https://www.foxnews.com?msockid=3bdff66cf0086f4b3b42e144f1146e63"
       ],
       "date": "2026-03-26T08:01:23.035691+00:00"
+    },
+    {
+      "title": "Fox News Launches Enhanced Live Streaming With Interactive Features",
+      "urls": [
+        "https://www.foxnews.com?msockid=03158bd595cd6faf209d9cfd94d36ead"
+      ],
+      "date": "2026-03-26T08:31:30.606387+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T08:01:23.035758+00:00"
+  "lastUpdated": "2026-03-26T08:31:30.606452+00:00"
 }
