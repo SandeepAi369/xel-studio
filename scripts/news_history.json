@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Venture Investment in B2C AI Startups Surges to $89 Billion in 2025.",
-      "urls": [
-        "https://pitchbook.com/news/reports/q1-2026-pitchbook-analyst-note-vc-investment-in-consumer-ai",
-        "https://thenextweb.com/news/italian-ai-startup-alomana-raises-e4m"
-      ],
-      "date": "2026-03-16T22:01:34.215676+00:00"
-    },
-    {
       "title": "Severe Weather Conditions Cause Over 600,000 Power Outages in Ohio Pennsylvania and Michigan",
       "urls": [
         "https://www.pbs.org/newshour/nation/severe-weather-batter-parts-of-u-s-with-threat-of-thunderstorms-and-tornadoes-starting-later-sunday",
@@ -4516,7 +4508,18 @@
         "https://www.270towin.com/news"
       ],
       "date": "2026-03-26T22:01:27.275936+00:00"
+    },
+    {
+      "title": "Marathon Runners Complete 42.195 Kilometers In World Athletics Event",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Marathon",
+        "https://www.marathonthegame.com",
+        "https://worldathletics.org/disciplines/road/marathon",
+        "https://www.marathonguide.com",
+        "https://runningintheusa.com/classic/list/map/marathon/upcoming"
+      ],
+      "date": "2026-03-26T22:31:22.429694+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T22:01:27.276028+00:00"
+  "lastUpdated": "2026-03-26T22:31:22.429754+00:00"
 }
