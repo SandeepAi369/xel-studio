@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Wins 24 Medals, Including 13 Gold, at Strongest Paralympics Showing in 20 Years",
-      "urls": [
-        "https://sports.yahoo.com/articles/olympic-champ-mikaela-shiffrin-golden-131949419.html",
-        "https://www.womenshealthmag.com/life/a70726997/elana-meyers-taylor-olympics-huddle",
-        "https://www.npr.org/2026/03/16/nx-s1-5742376/2026-winter-paralympics-highlights-usa-hockey-skiing-snowboarding",
-        "https://www.iowapublicradio.org/news-from-npr/2026-03-16/team-usa-dominated-the-paralympics-on-both-ice-and-snow-check-out-the-highlights",
-        "https://peninsulanewsreview.com/2026/03/14/trio-of-victoria-sports-figures-capture-top-provincial-honours"
-      ],
-      "date": "2026-03-16T21:01:27.142960+00:00"
-    },
-    {
-      "title": "Research Ireland Awards €6 Million to 32 STEM Projects Across Ireland",
-      "urls": [
-        "https://www.researchprofessionalnews.com/rr-news-europe-ireland-2026-3-6m-awarded-to-32-irish-projects-to-expand-stem-engagement"
-      ],
-      "date": "2026-03-16T21:31:30.508893+00:00"
-    },
-    {
       "title": "Venture Investment in B2C AI Startups Surges to $89 Billion in 2025.",
       "urls": [
         "https://pitchbook.com/news/reports/q1-2026-pitchbook-analyst-note-vc-investment-in-consumer-ai",
@@ -4516,7 +4498,14 @@
         "https://www.ssa.gov/agency/contact/phone.html"
       ],
       "date": "2026-03-26T21:01:24.145668+00:00"
+    },
+    {
+      "title": "Fox News Digital Publishes 150 Original Stories Daily With 200 Journalists",
+      "urls": [
+        "https://www.foxnews.com?msockid=2f3128d7b3f660772de53fffb22861a3"
+      ],
+      "date": "2026-03-26T21:34:42.157009+00:00"
     }
   ],
-  "lastUpdated": "2026-03-26T21:01:24.145726+00:00"
+  "lastUpdated": "2026-03-26T21:34:42.157089+00:00"
 }
