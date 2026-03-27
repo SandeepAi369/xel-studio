@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Winux 11 Launches With Windows 11 Interface For Seamless Transition",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://www.linux.org",
-        "https://www.linux.org/forums",
-        "https://www.linux.org/forums/linux-beginner-tutorials.123",
-        "https://www.linux.org/whats-new",
-        "https://www.linux.org/forums/installation.175",
-        "https://www.linux.org/threads/winux-11-a-linux-distribution-designed-for-windows-users.58122",
-        "https://www.linux.org/threads/try-linux-in-your-browser-for-free.46050",
-        "https://www.linux.org/threads/what-is-linux.4106",
-        "https://www.linux.org/threads/showing-applications-on-taskbar.49899"
-      ],
-      "date": "2026-03-17T18:32:31.031726+00:00"
-    },
-    {
       "title": "Google Gemini Launches Advanced AI Assistant For Real Time Collaboration",
       "urls": [
         "https://openai.com",
@@ -4697,7 +4681,17 @@
         "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtbDBLQUFQAQ"
       ],
       "date": "2026-03-27T18:01:41.705774+00:00"
+    },
+    {
+      "title": "U.S. Access Board Updates ADA Parking Space Requirements",
+      "urls": [
+        "https://www.ada.gov",
+        "https://www.access-board.gov",
+        "https://www.definitions.net/definition/accessible",
+        "https://www.collinsdictionary.com/us/dictionary/english/accessible"
+      ],
+      "date": "2026-03-27T18:32:40.812515+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T18:01:41.705838+00:00"
+  "lastUpdated": "2026-03-27T18:32:40.812567+00:00"
 }
