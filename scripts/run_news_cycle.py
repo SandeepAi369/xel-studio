@@ -936,7 +936,7 @@ def generate_news():
     dedup_section = ""
     if existing_titles:
         # Show last 30 titles max to save tokens
-        recent_titles = existing_titles[-30:]
+        recent_titles = existing_titles[-50:]
         titles_list = "\n".join(f"- {t}" for t in recent_titles)
         dedup_section = f"""\n\nALREADY PUBLISHED (DO NOT REPEAT these topics):\n{titles_list}\n\nYou MUST pick a COMPLETELY DIFFERENT story. Even slight rewording of the same topic is NOT allowed. If the search results are all about the same topic as published articles, find a totally different angle or sub-topic."""
 
@@ -1044,7 +1044,7 @@ def generate_news():
                 if sim > best_score:
                     best_score = sim
                     matched_title = existing_t
-                if sim >= 0.5:  # 50% combined score = duplicate topic
+                if sim >= 0.4:  # 40% combined score = duplicate topic
                     is_dup = True
                     break
             if not is_dup:
@@ -1190,7 +1190,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
             if sim > best_sim:
                 best_sim = sim
                 best_match = existing_t
-        if best_sim >= 0.6:
+        if best_sim >= 0.5:
             print(f"⚠️ POST-DEDUP WARNING: Generated title is {best_sim:.0%} similar to existing!")
             print(f"   Generated: \"{title[:60]}\"")
             print(f"   Existing:  \"{best_match[:60]}\"")
