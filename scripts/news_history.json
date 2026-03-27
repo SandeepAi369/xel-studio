@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "DAZN Closes in on Top Rank Deal Amid Matchroom Frustrations and Industry Shifts",
-      "urls": [
-        "https://tvnewscheck.com/ai/article/ai-will-soon-run-an-entire-ad-campaign"
-      ],
-      "date": "2026-03-17T02:01:37.215559+00:00"
-    },
-    {
       "title": "Roche Launches AI Factory with Nvidia Technology to Speed Up Drug Development",
       "urls": [
         "https://www.forbes.com/sites/amyfeldman/2026/03/16/roche-bought-thousands-of-nvidia-ai-chips-to-speed-up-drug-development",
@@ -4494,7 +4487,14 @@
         "https://www.who.int/news/item/25-06-2024-over-3-million-annual-deaths-due-to-alcohol-and-drug-use-majority-among-men"
       ],
       "date": "2026-03-27T01:32:31.080480+00:00"
+    },
+    {
+      "title": "Mayo Clinic Advances Autism Care With Early Diagnosis And Personalized Therapies",
+      "urls": [
+        "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
+      ],
+      "date": "2026-03-27T02:03:32.815441+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T01:32:31.080540+00:00"
+  "lastUpdated": "2026-03-27T02:03:32.815499+00:00"
 }
