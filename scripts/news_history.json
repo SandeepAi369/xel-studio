@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "SCREEN Holdings Co Ltd Establishes R&D Center in Albany to Boost Semiconductor Production",
-      "urls": [
-        "https://www.screen.co.jp/spe/en",
-        "https://www.screen.co.jp",
-        "https://www.screen.co.jp/products",
-        "https://www.screen.co.jp/en",
-        "https://www.screen.co.jp/about/outline",
-        "https://www.screen.co.jp/about",
-        "https://www.screen.co.jp/ir/library",
-        "https://www.screen.co.jp/en/news/NR251216E",
-        "https://www.screen.co.jp/news/2025"
-      ],
-      "date": "2026-03-17T17:11:55.519914+00:00"
-    },
-    {
       "title": "OpenAI Faces Backlash Over Failed ChatGPT Subscription Payments",
       "urls": [
         "https://www.reddit.com/r/OpenAI",
@@ -4715,7 +4700,23 @@
         "https://www.foxnews.com?msockid=21ccfab8d83165133d2ced91d9af64ef"
       ],
       "date": "2026-03-27T17:09:26.903506+00:00"
+    },
+    {
+      "title": "Iran Conflict Raises Energy Costs, Delays Global AI Expansion",
+      "urls": [
+        "https://economictimes.indiatimes.com/news/defence/from-oil-shock-to-algo-shock-iran-war-is-shaking-ai-industry/articleshow/129829006.cms",
+        "https://www.oecd.org/en/about/news/press-releases/2025/10/oecd-science-technology-and-innovation-outlook-2025.html",
+        "https://carnegieendowment.org/europe/strategic-europe/2025/10/corporate-geopolitics-when-billionaires-rival-states",
+        "https://www.worldpoliticsreview.com/technology-revolution-geopolitical-competition",
+        "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
+        "https://theword360.com/2025/09/05/technology-innovation-as-a-geopolitical-game-changer",
+        "https://www.diplopolis.com/power-plays/the-geopolitics-of-ai-how-technology-is-rewiring-global-power-structures",
+        "https://moderndiplomacy.eu/2025/05/10/us-china-technology-competition-a-new-cold-war-threat-to-global-stability",
+        "https://seekingalpha.com/article/4813495-defining-rivalry-21st-century-ai-new-geopolitical-battlefield",
+        "https://www.atlanticcouncil.org/in-depth-research-reports/report/navigating-the-us-prc-tech-competition-in-the-global-south"
+      ],
+      "date": "2026-03-27T17:31:22.001024+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T17:09:26.903566+00:00"
+  "lastUpdated": "2026-03-27T17:31:22.001089+00:00"
 }
