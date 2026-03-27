@@ -1,38 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senate Debates SAVE America Act This Week",
-      "urls": [
-        "https://www.foxnews.com?msockid=304c22c221a2610425ec35dd2067603e",
-        "https://www.cnn.com",
-        "https://www.nbcnews.com",
-        "https://abcnews.com",
-        "https://apnews.com",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
-        "https://www.cbsnews.com",
-        "https://www.nytimes.com",
-        "https://www.bbc.com/news",
-        "https://news.yahoo.com"
-      ],
-      "date": "2026-03-17T20:31:43.200416+00:00"
-    },
-    {
-      "title": "Paris 2024 Achieves Full Gender Parity With 5250 Female And Male Athletes",
-      "urls": [
-        "https://www.olympics.com/en",
-        "https://www.olympics.com/en/olympic-games",
-        "https://www.olympics.com/en/olympic-games/paris-2024",
-        "https://www.olympics.com/ioc",
-        "https://www.olympics.com/en/olympic-games/los-angeles-2028",
-        "https://www.olympics.com/en/milano-cortina-2026/medals",
-        "https://www.olympics.com/en/milano-cortina-2026/schedule",
-        "https://www.olympics.com/en/olympic-games/paris-2024/results",
-        "https://www.olympics.com/en/olympic-games/olympic-results",
-        "https://www.olympics.com/en/olympic-channel"
-      ],
-      "date": "2026-03-17T21:01:54.882170+00:00"
-    },
-    {
       "title": "What Autism Spectrum Disorder Diagnosis Looks Like Before Age 3",
       "urls": [
         "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
@@ -4693,7 +4661,15 @@
         "https://www.hunton.com/insights/publications/part-1-open-source-ai-models-how-open-are-they-really"
       ],
       "date": "2026-03-27T20:31:20.192445+00:00"
+    },
+    {
+      "title": "Systems Detect Lung Cancer In Scans With 90 Percent Accuracy",
+      "urls": [
+        "https://www.sciencenewstoday.org/10-ways-artificial-intelligence-is-transforming-healthcare",
+        "https://www.forbes.com/councils/forbestechcouncil/2025/02/28/five-ai-innovations-that-will-redefine-healthcare-in-2025"
+      ],
+      "date": "2026-03-27T21:03:36.496254+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T20:31:20.192512+00:00"
+  "lastUpdated": "2026-03-27T21:03:36.496365+00:00"
 }
