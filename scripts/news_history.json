@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Roche Launches AI Factory with Nvidia Technology to Speed Up Drug Development",
-      "urls": [
-        "https://www.forbes.com/sites/amyfeldman/2026/03/16/roche-bought-thousands-of-nvidia-ai-chips-to-speed-up-drug-development",
-        "https://www.fiercebiotech.com/biotech/roche-inks-nvidia-deal-bolster-ai-factory-speed-drug-and-diagnostic-development",
-        "https://www.biospace.com/press-releases/manifold-bio-demonstrates-million-scale-experimental-validation-of-ai-driven-protein-binder-design-with-nvidia",
-        "https://www.biospace.com/press-releases/iqvia-unveils-iqvia-ai-a-unified-agentic-ai-platform-powered-by-nvidia-to-improve-efficiency-and-decision-making-across-life-sciences"
-      ],
-      "date": "2026-03-17T02:31:13.956284+00:00"
-    },
-    {
       "title": "US Consumer Spending Surpasses Forecasts with 0.4 Percent Increase in January",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-03-13/us-consumer-spending-barely-rose-in-january-inflation-strong",
@@ -4494,7 +4484,23 @@
         "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
       ],
       "date": "2026-03-27T02:03:32.815441+00:00"
+    },
+    {
+      "title": "YouTube Launches in 2005 With Founding Team From PayPal",
+      "urls": [
+        "https://www.youtube.com",
+        "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US",
+        "https://about.youtube",
+        "https://blog.youtube",
+        "https://apps.apple.com/us/app/youtube/id544007664",
+        "https://en.wikipedia.org/wiki/YouTube",
+        "https://www.youtube.com/@________________",
+        "https://www.youtube.com/youtube",
+        "https://www.youtube.com/feed/homepage",
+        "https://www.youtube.com/@-._-.-_.-"
+      ],
+      "date": "2026-03-27T02:31:16.770189+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T02:03:32.815499+00:00"
+  "lastUpdated": "2026-03-27T02:31:16.770262+00:00"
 }
