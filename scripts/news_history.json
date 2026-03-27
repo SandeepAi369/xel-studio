@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Gemini Launches Advanced AI Assistant For Real Time Collaboration",
-      "urls": [
-        "https://openai.com",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://gemini.google.com",
-        "https://www.britannica.com/technology/artificial-intelligence",
-        "https://deepai.org/chat/what-is-ai",
-        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=1238599003eb6c433b5a4e8f02a36d98",
-        "https://ai.google",
-        "https://chatgpt.com",
-        "https://www.intel.com/content/www/us/en/learn/what-is-artificial-intelligence.html"
-      ],
-      "date": "2026-03-17T19:01:31.852624+00:00"
-    },
-    {
       "title": "Social Security Administration Launches Full Online Benefits Application",
       "urls": [
         "https://www.ssa.gov/myaccount",
@@ -4691,7 +4676,17 @@
         "https://www.collinsdictionary.com/us/dictionary/english/accessible"
       ],
       "date": "2026-03-27T18:32:40.812515+00:00"
+    },
+    {
+      "title": "Drugs Com Launches Enhanced Interaction Checker For 25 000 Medications",
+      "urls": [
+        "https://www.drugs.com/drug_interactions.html",
+        "https://www.drugs.com/pill_identification.html",
+        "https://www.drugs.com/condition/drug-and-substance-abuse.html",
+        "https://www.drugs.com/medical-answers/glp-1-drug-best-weight-loss-3579236"
+      ],
+      "date": "2026-03-27T19:01:35.766089+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T18:32:40.812567+00:00"
+  "lastUpdated": "2026-03-27T19:01:35.766153+00:00"
 }
