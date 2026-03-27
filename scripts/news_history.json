@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Agility Robotics' Digit Robot Achieves Rare Fine Motor Control in Unstructured Environment",
-      "urls": [
-        "https://roboticsandautomationnews.com/2026/03/16/the-uncanny-valley-and-how-humans-relate-to-humanoids/99725",
-        "https://www.therobotreport.com/humanoid-robotics-developers-must-address-a-wide-range-of-applications",
-        "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
-      ],
-      "date": "2026-03-17T04:01:32.978260+00:00"
-    },
-    {
       "title": "Kyle Schwarber Names Indiana's First National Football Championship as US Sports Moment",
       "urls": [
         "https://sports.yahoo.com/articles/kyle-schwarber-shares-pick-greatest-235549301.html",
@@ -4497,7 +4488,14 @@
         "https://cloud.google.com?hl=ja"
       ],
       "date": "2026-03-27T03:32:14.904508+00:00"
+    },
+    {
+      "title": "Apple Users Targeted by Sophisticated Phishing Scams Mimicking Security Alerts",
+      "urls": [
+        "https://discussions.apple.com/thread/256192348"
+      ],
+      "date": "2026-03-27T04:02:25.869946+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T03:32:14.904571+00:00"
+  "lastUpdated": "2026-03-27T04:02:25.870009+00:00"
 }
