@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Methane Emissions from Natural Gas Production and Transport Exceed 580 Million Metric Tons Annually",
-      "urls": [
-        "https://climate.nasa.gov/vital-signs/methane?intent=121&link_id=1&can_id=67635b605acca28b41bfa48cafffe8a7&email_referrer=email_2381768&email_subject=republicens-july-flash-poll-last-chance",
-        "https://climate.nasa.gov/news/3041/beating-back-the-tides",
-        "https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate",
-        "https://climate.nasa.gov/resources/graphics_and_multimedia?scope=featured&topic=156",
-        "https://climate.nasa.gov/earth-now?vs_name=carbon_monoxide&dataset_id=828&group_id=48&animating=t&start=2019-12-20&end=2020-01-06"
-      ],
-      "date": "2026-03-17T17:05:24.359247+00:00"
-    },
-    {
       "title": "SCREEN Holdings Co Ltd Establishes R&D Center in Albany to Boost Semiconductor Production",
       "urls": [
         "https://www.screen.co.jp/spe/en",
@@ -4719,7 +4708,14 @@
         "https://mexico.internationaltrucks.com/tractocamion-lt"
       ],
       "date": "2026-03-27T16:34:43.664022+00:00"
+    },
+    {
+      "title": "Fox News Digital Expands Global Coverage With 50 New Journalists",
+      "urls": [
+        "https://www.foxnews.com?msockid=21ccfab8d83165133d2ced91d9af64ef"
+      ],
+      "date": "2026-03-27T17:09:26.903506+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T16:34:43.664081+00:00"
+  "lastUpdated": "2026-03-27T17:09:26.903566+00:00"
 }
