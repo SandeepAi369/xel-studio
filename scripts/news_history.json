@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils Revolutionary Variable Aperture System for Enhanced Camera Performance",
-      "urls": [
-        "https://www.cnet.com/videos/highlights-from-nvidias-gtc-2026-keynote-with-jensen-huang",
-        "https://www.phonearena.com/news/iphone-18-pro-fresh-design-leak_id178838",
-        "https://www.geeky-gadgets.com/deep-red-iphone-18-pro"
-      ],
-      "date": "2026-03-17T03:31:18.531726+00:00"
-    },
-    {
       "title": "Agility Robotics' Digit Robot Achieves Rare Fine Motor Control in Unstructured Environment",
       "urls": [
         "https://roboticsandautomationnews.com/2026/03/16/the-uncanny-valley-and-how-humans-relate-to-humanoids/99725",
@@ -4499,7 +4490,14 @@
         "https://www.politicaltalktoday.com/what-is-geopolitics-a-beginners-comprehensive-intro"
       ],
       "date": "2026-03-27T03:07:57.793519+00:00"
+    },
+    {
+      "title": "Google Cloud Launches Vertex AI To Accelerate Enterprise Machine Learning Deployment",
+      "urls": [
+        "https://cloud.google.com?hl=ja"
+      ],
+      "date": "2026-03-27T03:32:14.904508+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T03:07:57.793580+00:00"
+  "lastUpdated": "2026-03-27T03:32:14.904571+00:00"
 }
