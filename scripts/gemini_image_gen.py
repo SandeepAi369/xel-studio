@@ -33,8 +33,11 @@ from typing import Optional
 # Models in priority order (best quality first)
 # Add new working models here as g4f adds support
 MODEL_CHAIN = [
-    {"name": "flux-dev",  "label": "FLUX Dev",  "quality": "best",   "avg_time": 35},
-    {"name": "flux",      "label": "FLUX",      "quality": "good",   "avg_time": 29},
+    {"name": "flux-dev",    "label": "FLUX Dev",    "quality": "best",   "avg_time": 35, "retries": 4},
+    {"name": "flux",        "label": "FLUX",        "quality": "good",   "avg_time": 29, "retries": 3},
+    {"name": "flux-schnell","label": "FLUX Schnell","quality": "good",   "avg_time": 20, "retries": 3},
+    {"name": "sdxl",        "label": "SDXL",        "quality": "good",   "avg_time": 25, "retries": 2},
+    {"name": "dall-e-3",    "label": "DALL-E 3",    "quality": "best",   "avg_time": 30, "retries": 2},
 ]
 
 MAX_RETRIES_PER_MODEL = 3          # Attempts per model before moving to next
@@ -133,6 +136,38 @@ def _validate_image(data: bytes, model_name: str) -> dict:
     if w > 0 and h > 0 and (w < 100 or h < 100):
         result["issues"].append(f"dimensions too small ({w}×{h})")
         return result
+
+    # Check pixel diversity — reject solid-color / all-black images
+    if fmt in ("png", "jpeg", "webp") and len(data) > 4000:
+        try:
+            from PIL import Image as PILImage
+            img = PILImage.open(io.BytesIO(data))
+            # Sample pixels from 4 corners + center
+            w_img, h_img = img.size
+            if w_img > 10 and h_img > 10:
+                sample_points = [
+                    (5, 5), (w_img - 5, 5), (5, h_img - 5),
+                    (w_img - 5, h_img - 5), (w_img // 2, h_img // 2),
+                    (w_img // 4, h_img // 4), (w_img * 3 // 4, h_img * 3 // 4),
+                ]
+                pixels = [img.getpixel(p) for p in sample_points]
+                # Check if all pixels are nearly identical (solid color)
+                unique_pixels = set()
+                for px in pixels:
+                    if isinstance(px, tuple):
+                        unique_pixels.add(px[:3])  # RGB only
+                    else:
+                        unique_pixels.add((px, px, px))
+                if len(unique_pixels) <= 2:
+                    # Check if it's all-black or all-white
+                    avg_brightness = sum(sum(p) for p in unique_pixels) / (len(unique_pixels) * 3)
+                    if avg_brightness < 15 or avg_brightness > 245:
+                        result["issues"].append(f"solid-color image detected (brightness: {avg_brightness:.0f})")
+                        return result
+        except ImportError:
+            pass  # PIL not available, skip diversity check
+        except Exception:
+            pass  # Don't fail validation on diversity check errors
 
     result["valid"] = True
     return result
@@ -302,7 +337,9 @@ def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
               f"(quality: {model_quality}) ────────────")
         models_tried.append(model_name)
 
-        for attempt in range(1, MAX_RETRIES_PER_MODEL + 1):
+        model_retries = model_info.get("retries", MAX_RETRIES_PER_MODEL)
+
+        for attempt in range(1, model_retries + 1):
             # Check time budget before each attempt
             elapsed_total = time.time() - engine_start
             remaining = GLOBAL_TIME_BUDGET - elapsed_total
@@ -311,7 +348,7 @@ def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
                 break
 
             total_attempts += 1
-            print(f"  │  🎨 Attempt {attempt}/{MAX_RETRIES_PER_MODEL} "
+            print(f"  │  🎨 Attempt {attempt}/{model_retries} "
                   f"(total: #{total_attempts}, {elapsed_total:.0f}s elapsed)", flush=True)
 
             result = _generate_single(client, model_name, prompt)
@@ -323,12 +360,12 @@ def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
                 return result
 
             # Exponential backoff between retries (2s, 4s, 8s...)
-            if attempt < MAX_RETRIES_PER_MODEL:
+            if attempt < model_retries:
                 backoff = min(BACKOFF_BASE ** attempt, 10)  # Cap at 10s
                 print(f"  │  ⏳ Backoff {backoff}s before retry...", flush=True)
                 _wait_with_heartbeat(backoff, f"retry backoff ({model_label})")
 
-        print(f"  └─ ❌ {model_label} exhausted ({MAX_RETRIES_PER_MODEL} attempts)")
+        print(f"  └─ ❌ {model_label} exhausted ({model_retries} attempts)")
 
     # All models exhausted
     total_time = time.time() - engine_start

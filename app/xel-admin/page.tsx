@@ -667,6 +667,9 @@ function AdminPanel() {
                     <nav className="flex gap-1 -mb-px overflow-x-auto">
                         {([
                             { id: 'articles' as Tab, icon: BookOpen, label: 'Articles' },
+                            { id: 'apks' as Tab, icon: ShoppingBag, label: 'Store' },
+                            { id: 'aiLabs' as Tab, icon: Brain, label: 'AI Labs' },
+                            { id: 'security' as Tab, icon: ShieldCheck, label: 'Security' },
                             { id: 'feedbacks' as Tab, icon: MessageSquare, label: 'Feedbacks' },
                         ]).map(tab => (
                             <button
@@ -747,6 +750,40 @@ function AdminPanel() {
                                         </>
                                     )}
 
+                                    {/* ── APK/Store Form ─── */}
+                                    {activeTab === 'apks' && (
+                                        <>
+                                            <input type="text" placeholder="App Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Version (e.g. 1.0.0)" value={formData.version || ''} onChange={e => setFormData({ ...formData, version: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Download URL" value={formData.downloadUrl || ''} onChange={e => setFormData({ ...formData, downloadUrl: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Size (e.g. 15 MB)" value={formData.size || ''} onChange={e => setFormData({ ...formData, size: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                        </>
+                                    )}
+
+                                    {/* ── AI Labs Form ─── */}
+                                    {activeTab === 'aiLabs' && (
+                                        <>
+                                            <input type="text" placeholder="Lab Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="URL" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Category" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                        </>
+                                    )}
+
+                                    {/* ── Security Tools Form ─── */}
+                                    {activeTab === 'security' && (
+                                        <>
+                                            <input type="text" placeholder="Tool Title" value={formData.title || ''} onChange={e => setFormData({ ...formData, title: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Icon URL" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="URL" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Category" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                        </>
+                                    )}
+
                                 </div>
 
                                 <div className="flex gap-3 mt-6">
@@ -798,7 +835,77 @@ function AdminPanel() {
                     </div>
                 )}
 
-                {/* Non-Article item lists omitted */}
+                {activeTab === 'apks' && (
+                    <div className="grid gap-4">
+                        {apks.length === 0 ? (
+                            <div className="text-center py-12 text-zinc-500">No apps in store yet. Add your first app!</div>
+                        ) : apks.map(item => (
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
+                                <ShoppingBag className="w-8 h-8 text-emerald-400 flex-shrink-0" />
+                                <div className="flex-1 min-w-0">
+                                    <h3 className="font-medium truncate">{item.name}</h3>
+                                    <p className="text-sm text-zinc-500">v{item.version} • {item.size}</p>
+                                </div>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+
+                {activeTab === 'aiLabs' && (
+                    <div className="grid gap-4">
+                        {aiLabs.length === 0 ? (
+                            <div className="text-center py-12 text-zinc-500">No AI Labs yet. Add your first AI Lab!</div>
+                        ) : aiLabs.map(item => (
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
+                                <Brain className="w-8 h-8 text-violet-400 flex-shrink-0" />
+                                <div className="flex-1 min-w-0">
+                                    <h3 className="font-medium truncate">{item.name}</h3>
+                                    <p className="text-sm text-zinc-500">{item.description?.substring(0, 60)}{(item.description?.length ?? 0) > 60 ? '...' : ''}</p>
+                                </div>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+
+                {activeTab === 'security' && (
+                    <div className="grid gap-4">
+                        {securityTools.length === 0 ? (
+                            <div className="text-center py-12 text-zinc-500">No security tools yet. Add your first security tool!</div>
+                        ) : securityTools.map(item => (
+                            <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
+                                <ShieldCheck className="w-8 h-8 text-amber-400 flex-shrink-0" />
+                                <div className="flex-1 min-w-0">
+                                    <h3 className="font-medium truncate">{item.title}</h3>
+                                    <p className="text-sm text-zinc-500">{item.description?.substring(0, 60)}{(item.description?.length ?? 0) > 60 ? '...' : ''}</p>
+                                </div>
+                                <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
+                                        <Edit className="w-4 h-4 text-zinc-400" />
+                                    </button>
+                                    <button onClick={() => handleDelete(item.id)} className="p-2 hover:bg-red-500/20 rounded-lg transition-colors" title="Delete">
+                                        <Trash2 className="w-4 h-4 text-red-400" />
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
 
                 {activeTab === 'feedbacks' && (
                     <div>

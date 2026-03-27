@@ -17,7 +17,7 @@ cerebras-cloud-sdk>=1.0.0
 
 
 # g4f (gpt4free) — multi-provider image generation (Flux, DALL-E, SDXL)
-g4f[image]
+g4f[image]>=7.3.4
 
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
