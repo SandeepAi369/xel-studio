@@ -133,7 +133,7 @@ export default function AIPage() {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: -20 }}
                                         transition={{ delay: index * 0.1 }}
-                                        onClick={() => setSelectedLab(lab)}
+                                        onClick={() => lab.url ? window.open(lab.url, '_blank') : setSelectedLab(lab)}
                                         className="group p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-purple-500/30 transition-all duration-300 cursor-pointer"
                                     >
                                         <div className="flex items-start gap-4">
@@ -145,35 +145,38 @@ export default function AIPage() {
                                                 )}
                                             </div>
                                             <div className="flex-1 min-w-0">
-                                                {lab.category && (
-                                                    <div className="flex items-center gap-2 mb-2">
-                                                        <span className="px-2 py-1 text-xs bg-purple-500/20 text-purple-400 rounded flex items-center gap-1">
-                                                            <Sparkles className="w-3 h-3" />
-                                                            {lab.category}
-                                                        </span>
+                                                <div className="flex justify-between items-start gap-2">
+                                                    <div>
+                                                        {lab.category && (
+                                                            <div className="flex items-center gap-2 mb-2">
+                                                                <span className="px-2 py-1 text-xs bg-purple-500/20 text-purple-400 rounded flex items-center gap-1">
+                                                                    <Sparkles className="w-3 h-3" />
+                                                                    {lab.category}
+                                                                </span>
+                                                            </div>
+                                                        )}
+                                                        <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-purple-400 transition-colors">
+                                                            {lab.name}
+                                                        </h3>
                                                     </div>
-                                                )}
-                                                <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-purple-400 transition-colors">
-                                                    {lab.name}
-                                                </h3>
+                                                    {lab.url && (
+                                                        <a
+                                                            href={lab.url}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            onClick={(e) => e.stopPropagation()}
+                                                            className="flex flex-shrink-0 items-center gap-1.5 px-3 py-1.5 mt-1 text-xs font-medium bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 text-purple-400 rounded-lg transition-colors"
+                                                        >
+                                                            Open
+                                                            <ExternalLink className="w-3 h-3" />
+                                                        </a>
+                                                    )}
+                                                </div>
                                                 <p className="text-sm text-zinc-400 line-clamp-2">
                                                     {lab.description}
                                                 </p>
                                             </div>
                                         </div>
-
-                                        {lab.url && (
-                                            <a
-                                                href={lab.url}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                onClick={(e) => e.stopPropagation()}
-                                                className="mt-4 w-full py-3 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 text-purple-400 rounded-xl transition-colors flex items-center justify-center gap-2"
-                                            >
-                                                <ExternalLink className="w-4 h-4" />
-                                                Open
-                                            </a>
-                                        )}
                                     </motion.div>
                                 );
                             })}
