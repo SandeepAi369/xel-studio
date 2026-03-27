@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Consumer Spending Surpasses Forecasts with 0.4 Percent Increase in January",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-03-13/us-consumer-spending-barely-rose-in-january-inflation-strong",
-        "https://www.reuters.com/world/us/us-consumer-spending-core-pce-inflation-firmer-january-2026-03-13"
-      ],
-      "date": "2026-03-17T03:01:20.588240+00:00"
-    },
-    {
       "title": "Apple Unveils Revolutionary Variable Aperture System for Enhanced Camera Performance",
       "urls": [
         "https://www.cnet.com/videos/highlights-from-nvidias-gtc-2026-keynote-with-jensen-huang",
@@ -4500,7 +4492,14 @@
         "https://www.youtube.com/@-._-.-_.-"
       ],
       "date": "2026-03-27T02:31:16.770189+00:00"
+    },
+    {
+      "title": "Russia And United States Leverage Geography For Global Power Advantage",
+      "urls": [
+        "https://www.politicaltalktoday.com/what-is-geopolitics-a-beginners-comprehensive-intro"
+      ],
+      "date": "2026-03-27T03:07:57.793519+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T02:31:16.770262+00:00"
+  "lastUpdated": "2026-03-27T03:07:57.793580+00:00"
 }
