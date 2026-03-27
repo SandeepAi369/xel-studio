@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Brain, ArrowLeft, Search, Beaker, ExternalLink, Sparkles, Archive, FlaskConical } from 'lucide-react';
+import { Brain, ArrowLeft, Search, Beaker, ExternalLink, Sparkles } from 'lucide-react';
 import { SkeletonGrid } from '@/components/SkeletonCard';
 import { fetchWithCache } from '@/lib/DataCache';
 
@@ -11,16 +11,11 @@ interface AILab {
     id: string;
     name: string;
     description: string;
-    status: 'active' | 'experimental' | 'archived';
-    demoUrl?: string;
-    image?: string;
+    icon?: string;
+    url?: string;
+    category?: string;
+    created_at?: string;
 }
-
-const statusConfig = {
-    active: { icon: Sparkles, color: 'text-green-400', bg: 'bg-green-500/20', label: 'Active' },
-    experimental: { icon: FlaskConical, color: 'text-yellow-400', bg: 'bg-yellow-500/20', label: 'Experimental' },
-    archived: { icon: Archive, color: 'text-zinc-400', bg: 'bg-zinc-500/20', label: 'Archived' }
-};
 
 export default function AIPage() {
     const router = useRouter();
@@ -131,9 +126,6 @@ export default function AIPage() {
                     >
                         <AnimatePresence>
                             {filteredLabs.map((lab, index) => {
-                                const status = statusConfig[lab.status];
-                                const StatusIcon = status.icon;
-
                                 return (
                                     <motion.div
                                         key={lab.id}
@@ -145,16 +137,22 @@ export default function AIPage() {
                                         className="group p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-purple-500/30 transition-all duration-300 cursor-pointer"
                                     >
                                         <div className="flex items-start gap-4">
-                                            <div className="w-14 h-14 bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                                <Brain className="w-7 h-7 text-purple-400" />
+                                            <div className="w-14 h-14 bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                                {lab.icon ? (
+                                                    <img src={lab.icon} alt={lab.name} className="w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                                                ) : (
+                                                    <Brain className="w-7 h-7 text-purple-400" />
+                                                )}
                                             </div>
                                             <div className="flex-1 min-w-0">
-                                                <div className="flex items-center gap-2 mb-2">
-                                                    <span className={`px-2 py-1 text-xs ${status.bg} ${status.color} rounded flex items-center gap-1`}>
-                                                        <StatusIcon className="w-3 h-3" />
-                                                        {status.label}
-                                                    </span>
-                                                </div>
+                                                {lab.category && (
+                                                    <div className="flex items-center gap-2 mb-2">
+                                                        <span className="px-2 py-1 text-xs bg-purple-500/20 text-purple-400 rounded flex items-center gap-1">
+                                                            <Sparkles className="w-3 h-3" />
+                                                            {lab.category}
+                                                        </span>
+                                                    </div>
+                                                )}
                                                 <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-purple-400 transition-colors">
                                                     {lab.name}
                                                 </h3>
@@ -164,16 +162,16 @@ export default function AIPage() {
                                             </div>
                                         </div>
 
-                                        {lab.demoUrl && (
+                                        {lab.url && (
                                             <a
-                                                href={lab.demoUrl}
+                                                href={lab.url}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 onClick={(e) => e.stopPropagation()}
                                                 className="mt-4 w-full py-3 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 text-purple-400 rounded-xl transition-colors flex items-center justify-center gap-2"
                                             >
                                                 <ExternalLink className="w-4 h-4" />
-                                                Try Demo
+                                                Open
                                             </a>
                                         )}
                                     </motion.div>
@@ -226,14 +224,20 @@ export default function AIPage() {
                             className="w-full max-w-lg bg-zinc-900 border border-zinc-800 rounded-2xl p-6"
                         >
                             <div className="flex items-center gap-4 mb-6">
-                                <div className="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-xl flex items-center justify-center">
-                                    <Brain className="w-8 h-8 text-purple-400" />
+                                <div className="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-xl flex items-center justify-center overflow-hidden">
+                                    {selectedLab.icon ? (
+                                        <img src={selectedLab.icon} alt={selectedLab.name} className="w-full h-full object-cover" />
+                                    ) : (
+                                        <Brain className="w-8 h-8 text-purple-400" />
+                                    )}
                                 </div>
                                 <div>
                                     <h2 className="text-2xl font-bold text-white">{selectedLab.name}</h2>
-                                    <span className={`inline-flex items-center gap-1 px-2 py-1 text-xs ${statusConfig[selectedLab.status].bg} ${statusConfig[selectedLab.status].color} rounded mt-1`}>
-                                        {statusConfig[selectedLab.status].label}
-                                    </span>
+                                    {selectedLab.category && (
+                                        <span className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-purple-500/20 text-purple-400 rounded mt-1">
+                                            {selectedLab.category}
+                                        </span>
+                                    )}
                                 </div>
                             </div>
 
@@ -248,15 +252,15 @@ export default function AIPage() {
                                 >
                                     Close
                                 </button>
-                                {selectedLab.demoUrl && (
+                                {selectedLab.url && (
                                     <a
-                                        href={selectedLab.demoUrl}
+                                        href={selectedLab.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex-1 py-3 bg-purple-600 hover:bg-purple-500 rounded-xl text-white transition-colors flex items-center justify-center gap-2"
                                     >
                                         <ExternalLink className="w-4 h-4" />
-                                        Open Demo
+                                        Open
                                     </a>
                                 )}
                             </div>
