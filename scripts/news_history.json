@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Develop Explainable AI Technique Using Visual Concepts",
-      "urls": [
-        "https://news.mit.edu/topic/artificial-intelligence2",
-        "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
-        "https://news.mit.edu/2025/ai-tool-generates-high-quality-images-faster-0321",
-        "https://stackoverflow.com/ai-assist",
-        "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
-        "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
-        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219",
-        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
-        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
-        "https://news.mit.edu/2025/helping-k-12-schools-navigate-complex-world-of-ai-1103"
-      ],
-      "date": "2026-03-17T23:01:21.350630+00:00"
-    },
-    {
       "title": "Equate Expands Lightweight Wheelchair Options on Major Retail Platforms",
       "urls": [
         "https://www.amazon.com/Wheelchairs/b?node=4075961",
@@ -4658,7 +4642,18 @@
         "https://www.npr.org/sections/politics"
       ],
       "date": "2026-03-27T22:32:23.677587+00:00"
+    },
+    {
+      "title": "PyTorch Foundation Integrates Ray For Scalable AI Training",
+      "urls": [
+        "https://pytorch.org",
+        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
+        "https://www.is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2025-81",
+        "https://keras.io",
+        "https://blog.tensorflow.org"
+      ],
+      "date": "2026-03-27T23:02:36.522512+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T22:32:23.677649+00:00"
+  "lastUpdated": "2026-03-27T23:02:36.522581+00:00"
 }
