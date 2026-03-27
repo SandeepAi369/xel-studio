@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "What Autism Spectrum Disorder Diagnosis Looks Like Before Age 3",
-      "urls": [
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934",
-        "https://newsnetwork.mayoclinic.org/discussion/understanding-autism-the-path-to-diagnosis-awareness-and-support",
-        "https://mcpress.mayoclinic.org/parenting/early-signs-of-autism",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/care-at-mayo-clinic/mac-20581890",
-        "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-treatments-and-therapies-for-autism",
-        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-what-is-autism",
-        "https://www.mayoclinic.org/es/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937"
-      ],
-      "date": "2026-03-17T21:32:09.966735+00:00"
-    },
-    {
-      "title": "Quantum Physics Reveals Subatomic Particles Defy Classical Laws",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Quantum",
-        "https://www.britannica.com/science/quantum",
-        "https://www.sciencenewstoday.org/what-is-quantum-physics-a-beginners-guide",
-        "https://science.nasa.gov/biological-physical/quantum-leaps",
-        "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics"
-      ],
-      "date": "2026-03-17T22:02:29.325592+00:00"
-    },
-    {
       "title": "Nasa Airs Instrument Boosts Global Weather Forecast Accuracy By 25 Percent",
       "urls": [
         "https://climate.nasa.gov/evidence",
@@ -4677,7 +4650,18 @@
         "https://support.microsoft.com/en-us/windows/system-restore-a5ae3ed9-07c4-fd56-45ee-096777ecd14e"
       ],
       "date": "2026-03-27T21:31:15.299799+00:00"
+    },
+    {
+      "title": "Mississippi Department Of Wildlife Manages 1.3 Million Acres Across 48 WMAs",
+      "urls": [
+        "https://www.mdwfp.com/wildlife-hunting/wildlife-management-areas",
+        "https://www.mississippi.gov/Agencies/department-wildlife-fisheries-and-parks",
+        "https://en.wikipedia.org/wiki/Wildlife",
+        "https://www.youtube.com/watch?v=Fd95sDDARdA",
+        "https://www.worldwildlife.org"
+      ],
+      "date": "2026-03-27T22:02:41.643278+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T21:31:15.299855+00:00"
+  "lastUpdated": "2026-03-27T22:02:41.643353+00:00"
 }
