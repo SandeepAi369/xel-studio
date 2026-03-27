@@ -79,10 +79,12 @@ function ImageUploader({
     token,
     currentUrl,
     onUploaded,
+    label = 'Image',
 }: {
     token: string;
     currentUrl: string;
     onUploaded: (url: string) => void;
+    label?: string;
 }) {
     const fileRef = useRef<HTMLInputElement>(null);
     const [uploading, setUploading] = useState(false);
@@ -201,7 +203,7 @@ function ImageUploader({
     return (
         <div className="space-y-2">
             <label className="text-xs text-zinc-400 font-medium uppercase tracking-wider">
-                Article Image
+                {label}
             </label>
 
             {/* Current image preview */}
@@ -743,6 +745,7 @@ function AdminPanel() {
                                                 token={token || ''}
                                                 currentUrl={formData.image || ''}
                                                 onUploaded={(url) => setFormData({ ...formData, image: url })}
+                                                label="Article Image"
                                             />
 
                                             <textarea placeholder="Content (Markdown)" rows={8} value={formData.content || ''} onChange={e => setFormData({ ...formData, content: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white font-mono text-sm" />
@@ -767,9 +770,17 @@ function AdminPanel() {
                                         <>
                                             <input type="text" placeholder="Lab Name" value={formData.name || ''} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                             <textarea placeholder="Description" rows={4} value={formData.description || ''} onChange={e => setFormData({ ...formData, description: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Icon URL" value={formData.icon || ''} onChange={e => setFormData({ ...formData, icon: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="URL" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
-                                            <input type="text" placeholder="Category" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+
+                                            {/* Cloudinary Image Upload for AI Lab icon */}
+                                            <ImageUploader
+                                                token={token || ''}
+                                                currentUrl={formData.icon || ''}
+                                                onUploaded={(url) => setFormData({ ...formData, icon: url })}
+                                                label="Lab Icon / Image"
+                                            />
+
+                                            <input type="text" placeholder="URL (e.g. https://t.me/your_bot)" value={formData.url || ''} onChange={e => setFormData({ ...formData, url: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
+                                            <input type="text" placeholder="Category (e.g. Chatbot, Automation)" value={formData.category || ''} onChange={e => setFormData({ ...formData, category: e.target.value })} className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white" />
                                         </>
                                     )}
 
@@ -865,12 +876,23 @@ function AdminPanel() {
                             <div className="text-center py-12 text-zinc-500">No AI Labs yet. Add your first AI Lab!</div>
                         ) : aiLabs.map(item => (
                             <div key={item.id} className="p-4 bg-zinc-900/50 border border-zinc-800 rounded-xl flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4">
-                                <Brain className="w-8 h-8 text-violet-400 flex-shrink-0" />
+                                {item.icon ? (
+                                    <div className="w-12 h-12 rounded-xl overflow-hidden bg-zinc-800 flex-shrink-0">
+                                        <img src={item.icon} alt={item.name} className="w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                                    </div>
+                                ) : (
+                                    <Brain className="w-8 h-8 text-violet-400 flex-shrink-0" />
+                                )}
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-medium truncate">{item.name}</h3>
-                                    <p className="text-sm text-zinc-500">{item.description?.substring(0, 60)}{(item.description?.length ?? 0) > 60 ? '...' : ''}</p>
+                                    <p className="text-sm text-zinc-500">{item.category || 'Uncategorized'}{item.url ? ` • ${item.url.substring(0, 30)}...` : ''}</p>
                                 </div>
                                 <div className="flex gap-2 w-full sm:w-auto justify-end flex-shrink-0">
+                                    {item.url && (
+                                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="px-3 py-2 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 text-purple-400 rounded-lg transition-colors flex items-center gap-1.5 text-sm font-medium" title="Open">
+                                            <Eye className="w-3.5 h-3.5" /> Open
+                                        </a>
+                                    )}
                                     <button onClick={() => startEdit(item)} className="p-2 hover:bg-zinc-800 rounded-lg transition-colors" title="Edit">
                                         <Edit className="w-4 h-4 text-zinc-400" />
                                     </button>
