@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Numotion Delivers Custom Wheelchairs Nationwide With Healthcare Partners",
-      "urls": [
-        "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs",
-        "https://www.karmanhealthcare.com",
-        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/pick-up-today/4294644793-4294701516?msockid=2d96655857fd6a613cca7278566e6bb9",
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=2d96655857fd6a613cca7278566e6bb9",
-        "https://www.numotion.com/adult-mobility-solutions",
-        "https://www.target.com/c/mobility-home-health-care/wheelchair/-/N-4yinmZal25lf9fc45"
-      ],
-      "date": "2026-03-18T01:01:34.020109+00:00"
-    },
-    {
-      "title": "Macron Warns Middle East Faces Chaos Amid Iran-Linked Attacks",
-      "urls": [
-        "https://www.foxnews.com?msockid=189050f684bf61b6253247d6853e6057",
-        "https://www.usatoday.com/live-story/news/world/2026/03/15/iran-war-live-updates-trump-latest/89164437007"
-      ],
-      "date": "2026-03-18T01:31:10.205990+00:00"
-    },
-    {
       "title": "Miami-Dade Reports 12 Percent Violent Crime Increase",
       "urls": [
         "https://www.foxnews.com",
@@ -4662,7 +4642,18 @@
         "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
       ],
       "date": "2026-03-28T01:01:23.335977+00:00"
+    },
+    {
+      "title": "Mental Health America Study Finds 68 Percent Use Apps To Manage Symptoms",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079407",
+        "https://www.mhanational.org/technology-mental-health-report",
+        "https://www.sciencedirect.com/science/article/pii/S2214782925000259",
+        "https://link.springer.com/article/10.1007/s44155-025-00259-5",
+        "https://psychtimes.com/tech/digital-balance-how-technology-is-shaping-modern-mental-wellness"
+      ],
+      "date": "2026-03-28T01:33:32.986174+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T01:01:23.336039+00:00"
+  "lastUpdated": "2026-03-28T01:33:32.986244+00:00"
 }
