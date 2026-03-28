@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration operates a nationwide network of local field offices to assist benefi",
-      "urls": [
-        "https://secure.ssa.gov/ossnap/public/landingOSsnap",
-        "https://www.ssa.gov/locator"
-      ],
-      "date": "2026-03-18T17:03:01.112029+00:00"
-    },
-    {
-      "title": "Wfp Rations Food For 800000 Refugees In Lebanon",
-      "urls": [
-        "https://istheservicedown.com/problems/charter-communications/map",
-        "https://www.spectrum.net/page/spectrum-storm-center",
-        "https://downdetector.com/status/spectrum",
-        "https://geoblackout.com/us/report/internet/spectrum",
-        "https://statusgator.com/services/spectrum",
-        "https://www.unhcr.org",
-        "https://incontextinternational.org/2026/03/16/lebanons-refugee-crisis-at-breaking-point",
-        "https://www.newsday.com/news/nation/refugees-iran-turkey-war-migration-d22854",
-        "https://www.foxnews.com/category/us/immigration",
-        "https://www.abc.net.au/news/2026-03-16/iran-refugee-war-will-australia-offer-humanitarian-support/106457316"
-      ],
-      "date": "2026-03-18T17:31:18.776294+00:00"
-    },
-    {
       "title": "MIT Researchers Cut AI Training Costs By 40 Percent",
       "urls": [
         "https://news.mit.edu/2024/mit-researchers-develop-efficiency-training-more-reliable-ai-agents-1122"
@@ -4602,7 +4578,17 @@
         "https://thetechjunction.net/social-media-updates-2025"
       ],
       "date": "2026-03-28T17:01:55.666439+00:00"
+    },
+    {
+      "title": "WMO Reports 2024 Global Temperatures Hit 1.55°C Above Pre-Industrial Levels",
+      "urls": [
+        "https://wmo.int/topics/climate",
+        "https://wmo.int",
+        "https://wmo.int/topics/climate-change",
+        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024"
+      ],
+      "date": "2026-03-28T17:31:20.209838+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T17:01:55.666498+00:00"
+  "lastUpdated": "2026-03-28T17:31:20.209908+00:00"
 }
