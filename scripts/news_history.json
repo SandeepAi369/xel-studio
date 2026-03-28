@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autism Diagnosis Relies on Early Behavioral Screening",
-      "urls": [
-        "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/understanding-autism",
-        "https://www.mayoclinichealthsystem.org/topics/autism"
-      ],
-      "date": "2026-03-18T22:01:28.915879+00:00"
-    },
-    {
-      "title": "Retail Brands Adopt .Shop Domains With Over 1.2 Million Registered",
-      "urls": [
-        "https://www.zhihu.com/question/51035231",
-        "https://zhidao.baidu.com/question/1905777606816737380.html",
-        "https://www.zhihu.com/question/518052224",
-        "https://zhidao.baidu.com/question/324417264.html",
-        "https://zhidao.baidu.com/question/373587710723490372.html"
-      ],
-      "date": "2026-03-18T22:31:16.422052+00:00"
-    },
-    {
       "title": "Meta Slashes Workforce To Cope With AI Infrastructure Costs",
       "urls": [
         "https://www.meta.com/about",
@@ -4595,7 +4576,15 @@
         "https://www.reddit.com/r/OpenAI/comments/1cfxd42/how_is_openai_going_to_be_profitable_if_they_have"
       ],
       "date": "2026-03-28T22:01:22.047999+00:00"
+    },
+    {
+      "title": "World Economic Forum Publishes Global Risks Report 2025 Highlighting Climate Inaction And Extreme Weather",
+      "urls": [
+        "https://www.weforum.org/publications/global-risks-report-2025/global-risks-2025-a-world-of-growing-divisions-c943fe3ba0",
+        "https://www.weforum.org/stories/2025/12/asean-global-growth-digital-economy-wef"
+      ],
+      "date": "2026-03-28T22:32:26.134468+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T22:01:22.048061+00:00"
+  "lastUpdated": "2026-03-28T22:32:26.134523+00:00"
 }
