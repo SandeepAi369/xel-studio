@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Equate Expands Lightweight Wheelchair Options on Major Retail Platforms",
-      "urls": [
-        "https://www.amazon.com/Wheelchairs/b?node=4075961",
-        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051",
-        "https://www.homedepot.com/b/Health-And-Wellness-Mobility-Aids-Wheelchairs/N-5yc1vZc8kh",
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3",
-        "https://mobilitydeck.com/best-wheelchairs"
-      ],
-      "date": "2026-03-17T23:31:19.077494+00:00"
-    },
-    {
-      "title": "Nvidia Releases Beta App for RTX GPU Owners",
-      "urls": [
-        "https://www.reddit.com/r/nvidia?t=DAY",
-        "https://www.reddit.com/r/nvidia/comments/16qke8w/which_one_should_i_install_between_gameready",
-        "https://www.reddit.com/r/MoonlightStreaming/comments/1axk7y7/the_new_nvidia_app_beta",
-        "https://www.reddit.com/r/nvidia/comments/1axr8nj/setup_guide_for_hdr_including_new_settings_for",
-        "https://www.reddit.com/r/nvidia/comments/129p5ph/nvidia_profile_inspector_v2404_released"
-      ],
-      "date": "2026-03-18T00:01:27.152139+00:00"
-    },
-    {
       "title": "WMO Forecasts Record Global Temperatures Through 2029",
       "urls": [
         "https://wmo.int/topics/climate",
@@ -4663,7 +4641,22 @@
         "https://www.maryvilleforum.com/news/election_2024/hann-wins-sheriff-race-in-high-turnout-primary/article_58e8df0a-5467-11ef-830b-7b8f93823adf.html"
       ],
       "date": "2026-03-27T23:31:08.837137+00:00"
+    },
+    {
+      "title": "CBS News Produces 120 Original Reports Daily With Global Teams",
+      "urls": [
+        "https://www.cbsnews.com",
+        "https://www.foxnews.com?msockid=0f2694d16be8670c104583fb6a89668a",
+        "https://apnews.com",
+        "https://www.nbcnews.com",
+        "https://www.cnn.com",
+        "https://abcnews.com",
+        "https://www.bbc.com/news",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
+        "https://news.yahoo.com"
+      ],
+      "date": "2026-03-28T00:02:38.665540+00:00"
     }
   ],
-  "lastUpdated": "2026-03-27T23:31:08.837192+00:00"
+  "lastUpdated": "2026-03-28T00:02:38.665601+00:00"
 }
