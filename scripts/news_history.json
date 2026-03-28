@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches New AI Model With Advanced Language Capabilities",
-      "urls": [
-        "https://www.ibm.com/think/topics/artificial-intelligence",
-        "https://www.iso.org/artificial-intelligence/what-is-ai",
-        "https://www.cloudflare.com/learning/ai/what-is-artificial-intelligence"
-      ],
-      "date": "2026-03-18T21:32:37.571541+00:00"
-    },
-    {
       "title": "Autism Diagnosis Relies on Early Behavioral Screening",
       "urls": [
         "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/understanding-autism",
@@ -4591,7 +4582,20 @@
         "https://theconversation.com/topics/geopolitics-4230"
       ],
       "date": "2026-03-28T21:31:14.208146+00:00"
+    },
+    {
+      "title": "OpenAI Tests GPT 4.5 Turbo For Enhanced Reasoning And Efficiency",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI",
+        "https://www.reddit.com/r/OpenAI/comments/12saych/openai_refuses_to_take_my_money_three_different",
+        "https://www.reddit.com/r/OpenAI/comments/187fzdb/openai_api_free_alternative_or_does_openai_api",
+        "https://www.reddit.com/r/OpenAI/comments/vc3aub/openai_is_not_open",
+        "https://www.reddit.com/r/cscareerquestions/comments/15wf2w9/name_and_shame_openai",
+        "https://www.reddit.com/r/OpenAI/comments/1bd0l8b/gpt_45_turbo_confirmed",
+        "https://www.reddit.com/r/OpenAI/comments/1cfxd42/how_is_openai_going_to_be_profitable_if_they_have"
+      ],
+      "date": "2026-03-28T22:01:22.047999+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T21:31:14.208208+00:00"
+  "lastUpdated": "2026-03-28T22:01:22.048061+00:00"
 }
