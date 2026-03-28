@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Trustees Warn 2035 Trust Fund Depletion Without Reform",
-      "urls": [
-        "https://www.ssa.gov",
-        "https://secure.ssa.gov/RIL/SiView.action",
-        "https://www.ssa.gov/manage-benefits/make-an-appointment",
-        "https://www.ssa.gov/faqs/en/questions/KA-01921.html",
-        "https://www.ssa.gov/myaccount/what.html",
-        "https://www.ssa.gov/OACT/TR/2025/index.html"
-      ],
-      "date": "2026-03-18T12:31:15.015717+00:00"
-    },
-    {
       "title": "The Times Expands U S Live News Coverage With 15 City Reporting Network",
       "urls": [
         "https://www.foxnews.com?msockid=2c7e089cfa23699419cd1fbcfb8868a0",
@@ -4619,7 +4607,14 @@
         "https://www.nbcsports.com"
       ],
       "date": "2026-03-28T12:31:11.995526+00:00"
+    },
+    {
+      "title": "Extreme Releases Fifth Studio Album After 15-Year Hiatus",
+      "urls": [
+        "https://music.youtube.com/channel/UCLNdQ1KGO8L5RlHUVjuOQFQ"
+      ],
+      "date": "2026-03-28T13:01:20.725645+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T12:31:11.995613+00:00"
+  "lastUpdated": "2026-03-28T13:01:20.725731+00:00"
 }
