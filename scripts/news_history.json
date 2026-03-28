@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI is a subfield of artificial intelligence focused on creating new content including tex",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
-        "https://www.ibm.com/think/topics/generative-ai",
-        "https://www.merriam-webster.com/dictionary/generative",
-        "https://www.coursera.org/articles/what-is-generative-ai",
-        "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial"
-      ],
-      "date": "2026-03-18T15:36:50.528655+00:00"
-    },
-    {
       "title": "ATP Tour Launches 2026 Live Streaming On Tennis TV",
       "urls": [
         "https://www.tennis.com",
@@ -4607,7 +4596,15 @@
         "https://www.aha.org/news/headline/2026-03-20-white-house-releases-national-ai-policy-framework"
       ],
       "date": "2026-03-28T15:31:16.104660+00:00"
+    },
+    {
+      "title": "China Expands Influence Through South China Sea Territorial Control",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Geopolitics",
+        "https://www.britannica.com/topic/geopolitics"
+      ],
+      "date": "2026-03-28T16:01:39.754055+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T15:31:16.104725+00:00"
+  "lastUpdated": "2026-03-28T16:01:39.754120+00:00"
 }
