@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "JumbleAnswers Com Delivers Daily Puzzle Solutions",
-      "urls": [
-        "https://jumbleanswers.com",
-        "https://jumbleanswers.com/ballpark-buys"
-      ],
-      "date": "2026-03-18T10:01:35.060282+00:00"
-    },
-    {
       "title": "Wmo Leads Global Atmosphere Watch With 100 Monitoring Stations",
       "urls": [
         "https://wmo.int"
@@ -4610,7 +4602,15 @@
         "https://www.linux.org/threads/try-linux-in-your-browser-for-free.46050"
       ],
       "date": "2026-03-28T09:32:14.495485+00:00"
+    },
+    {
+      "title": "San Jose Approves $450 Million For 3,200 Affordable Housing Units",
+      "urls": [
+        "https://www.foxnews.com?msockid=0a5e2ab7e7d263fa23423d9de6016240",
+        "https://www.newsbreak.com/san-jose-ca"
+      ],
+      "date": "2026-03-28T10:03:36.242661+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T09:32:14.495546+00:00"
+  "lastUpdated": "2026-03-28T10:03:36.242737+00:00"
 }
