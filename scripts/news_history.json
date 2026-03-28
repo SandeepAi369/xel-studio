@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wmo Leads Global Atmosphere Watch With 100 Monitoring Stations",
-      "urls": [
-        "https://wmo.int"
-      ],
-      "date": "2026-03-18T10:31:19.949167+00:00"
-    },
-    {
       "title": "U.S. Fish and Wildlife Service Expands Habitat Protection for White-Tailed Deer Across 568 Refuges",
       "urls": [
         "https://wildlife.ca.gov",
@@ -4610,7 +4603,18 @@
         "https://www.newsbreak.com/san-jose-ca"
       ],
       "date": "2026-03-28T10:03:36.242661+00:00"
+    },
+    {
+      "title": "Nvidia Dominates AI Chip Market With Blackwell GPUs",
+      "urls": [
+        "https://www.newscase.com/the-ai-chip-race-nvidia-and-amd-battle-for-semiconductor-supremacy",
+        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales",
+        "https://www.techradar.com/pro/nvidia-ai-sales-to-reach-almost-usd400-billion-by-2028-claims-research-and-then-things-will-get-a-bit-tricky-for-the-worlds-largest-company",
+        "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-chip-sector-pressure-intel-and-amd-falter-as-great-rotation-and-new-rivals-reshape-the-market"
+      ],
+      "date": "2026-03-28T10:31:20.645560+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T10:03:36.242737+00:00"
+  "lastUpdated": "2026-03-28T10:31:20.645632+00:00"
 }
