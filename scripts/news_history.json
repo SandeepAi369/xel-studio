@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Build 3D Objects From Spoken Descriptions Using AI",
-      "urls": [
-        "https://news.mit.edu/topic/robotics",
-        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
-        "https://spectrum.ieee.org/top-robotics-stories-2025",
-        "https://news.mit.edu/topic/robotics?page=1",
-        "https://spectrum.ieee.org/tag/robotics",
-        "https://spectrum.ieee.org/top-robotics-stories-2024",
-        "https://spectrum.ieee.org/mits-ai-robotics-lab-director",
-        "https://spectrum.ieee.org/ai-institute",
-        "https://spectrum.ieee.org/robots-ces-2026"
-      ],
-      "date": "2026-03-18T09:03:33.397754+00:00"
-    },
-    {
-      "title": "OpenAI Launches GPT 5.4 Mini And Nano For Faster Agent Workflows",
-      "urls": [
-        "https://thenewstack.io/gpt-54-nano-mini",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-gpt-5-4-mini-and-nano-models-following-gpt-5-4-debut/articleshow/129649030.cms",
-        "https://community.openai.com/t/introducing-gpt-5-3-codex-the-most-powerful-interactive-and-productive-codex-yet/1373453",
-        "https://www.cnet.com/tech/services-and-software/openai-gpt-5-4-nano-mini-release",
-        "https://tech.yahoo.com/ai/chatgpt/articles/openai-releases-gpt-5-4-190113783.html"
-      ],
-      "date": "2026-03-18T09:31:21.985964+00:00"
-    },
-    {
       "title": "JumbleAnswers Com Delivers Daily Puzzle Solutions",
       "urls": [
         "https://jumbleanswers.com",
@@ -4620,7 +4594,23 @@
         "https://cloud.google.com"
       ],
       "date": "2026-03-28T09:03:32.756536+00:00"
+    },
+    {
+      "title": "Linux Org Lists 24 Distros For Beginners And Experts",
+      "urls": [
+        "https://www.linux.org/pages/download",
+        "https://www.linux.org",
+        "https://www.linux.org/forums",
+        "https://www.linux.org/forums/linux-beginner-tutorials.123",
+        "https://www.linux.org/whats-new",
+        "https://www.linux.org/threads/winux-11-a-linux-distribution-designed-for-windows-users.58122",
+        "https://www.linux.org/forums/installation.175",
+        "https://www.linux.org/threads/what-is-linux.4106",
+        "https://askubuntu.com/questions/401920/what-does-or-double-angle-brackets-mean",
+        "https://www.linux.org/threads/try-linux-in-your-browser-for-free.46050"
+      ],
+      "date": "2026-03-28T09:32:14.495485+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T09:03:32.756605+00:00"
+  "lastUpdated": "2026-03-28T09:32:14.495546+00:00"
 }
