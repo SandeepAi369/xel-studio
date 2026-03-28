@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Visual Ly Launches Interactive Tool To Solve Monty Hall Problem",
-      "urls": [
-        "https://get.visual.ly/m/design-portfolio/changing-customer-conversations",
-        "https://get.visual.ly/m/google-analytics-everything-you-need-to-know",
-        "https://visual.ly/m/design-portfolio/the-customer-centric-customer-rises",
-        "https://visual.ly/m/design-portfolio/trimble-defects-pro-marketing-video",
-        "https://visual.ly/community/interactive-graphic/business/forums-list",
-        "https://visual.ly/community/Infographics/lifestyle/design-elements-gestures",
-        "https://visual.ly/community/Infographics/entertainment/lets-solve-monty-hall-problem",
-        "https://visual.ly/community/infographic/travel/thanksgiving-travel-0",
-        "https://visual.ly/users/JohnBuchmiller",
-        "https://visual.ly/users/luatlongphan/portfolio"
-      ],
-      "date": "2026-03-18T21:01:28.107424+00:00"
-    },
-    {
       "title": "Google Launches New AI Model With Advanced Language Capabilities",
       "urls": [
         "https://www.ibm.com/think/topics/artificial-intelligence",
@@ -4588,7 +4572,15 @@
         "https://www.zhihu.com/question/655616250"
       ],
       "date": "2026-03-28T20:33:16.215945+00:00"
+    },
+    {
+      "title": "HealthCare.gov Updates Platform To Streamline Medicaid And CHIP Reenrollment",
+      "urls": [
+        "https://www.healthcare.gov/screener/sep/medicaid-loss",
+        "https://www.healthcare.gov/screener/income/next-steps?prev=income"
+      ],
+      "date": "2026-03-28T21:01:38.636309+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T20:33:16.216007+00:00"
+  "lastUpdated": "2026-03-28T21:01:38.636374+00:00"
 }
