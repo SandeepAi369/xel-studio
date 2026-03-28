@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Forecasts Record Global Temperatures Through 2029",
-      "urls": [
-        "https://wmo.int/topics/climate",
-        "https://wmo.int/topics/climate-change",
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024",
-        "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/wmo-global-annual-decadal-climate-update-2025-2029",
-        "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2019"
-      ],
-      "date": "2026-03-18T00:32:21.833703+00:00"
-    },
-    {
       "title": "Numotion Delivers Custom Wheelchairs Nationwide With Healthcare Partners",
       "urls": [
         "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs",
@@ -4664,7 +4653,16 @@
         "https://metalinjection.net/tour-dates/extreme-announce-2024-us-tour-with-living-colour"
       ],
       "date": "2026-03-28T00:31:18.085930+00:00"
+    },
+    {
+      "title": "OpenAI GPT And Google Gemini Lead Generative AI Revolution",
+      "urls": [
+        "https://scienceinsights.org/what-is-a-generative-model-types-and-how-they-work",
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=2d8eb831c5746bd612f7af1bc4a36a26",
+        "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+      ],
+      "date": "2026-03-28T01:01:23.335977+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T00:31:18.085984+00:00"
+  "lastUpdated": "2026-03-28T01:01:23.336039+00:00"
 }
