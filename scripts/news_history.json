@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Slashes Workforce To Cope With AI Infrastructure Costs",
-      "urls": [
-        "https://www.meta.com/about",
-        "https://business.facebook.com",
-        "https://en.wikipedia.org/wiki/Meta_Platforms",
-        "https://investor.atmeta.com/home/default.aspx",
-        "https://about.fb.com/news/category/technologies/meta",
-        "https://finance.yahoo.com/quote/META",
-        "https://auth.meta.com/login",
-        "https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html?msockid=02e3d79543cb6f230f6dc0b542eb6ec6",
-        "https://www.facebook.com/Meta/home",
-        "https://www.merriam-webster.com/dictionary/meta"
-      ],
-      "date": "2026-03-18T23:02:31.706308+00:00"
-    },
-    {
       "title": "Fox News Delivers Localized Weather Updates Using Zip Code Data",
       "urls": [
         "https://www.foxnews.com?msockid=26efe60dd02e66e8203cf12dd1eb67c3"
@@ -4584,7 +4568,16 @@
         "https://www.weforum.org/stories/2025/12/asean-global-growth-digital-economy-wef"
       ],
       "date": "2026-03-28T22:32:26.134468+00:00"
+    },
+    {
+      "title": "Visually Launches Trimble Defects Pro Video Campaign",
+      "urls": [
+        "https://get.visual.ly/m/design-portfolio/changing-customer-conversations",
+        "https://visual.ly/m/design-portfolio/trimble-defects-pro-marketing-video",
+        "https://get.visual.ly/m/google-analytics-everything-you-need-to-know"
+      ],
+      "date": "2026-03-28T23:02:33.903267+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T22:32:26.134523+00:00"
+  "lastUpdated": "2026-03-28T23:02:33.903350+00:00"
 }
