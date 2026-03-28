@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Times Offers U.S. Subscribers Access To The Sunday Times",
-      "urls": [
-        "https://www.foxnews.com?msockid=2e964184f34e693b061e56a4f293680f",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
-        "https://www.thetimes.com/us/news-today?msockid=2e964184f34e693b061e56a4f293680f"
-      ],
-      "date": "2026-03-18T06:01:39.244405+00:00"
-    },
-    {
-      "title": "Asus ROG Strix G16 Users Report Linux Compatibility Issues",
-      "urls": [
-        "https://www.linux.org/threads/asus-armoury-crate-or-g-helper.57134"
-      ],
-      "date": "2026-03-18T06:31:11.752118+00:00"
-    },
-    {
       "title": "Claude Opus 4.6 Launches With 14 Percent Gain In Coding Performance",
       "urls": [
         "https://www.anthropic.com/news/claude-opus-4-6",
@@ -4635,7 +4619,19 @@
         "https://accounts.google.com?authuser=1"
       ],
       "date": "2026-03-28T06:01:28.059730+00:00"
+    },
+    {
+      "title": "Kobe Bryant Scores 81 Points In 2006 Game",
+      "urls": [
+        "https://www.sportingnews.com/us/tsn/news/sporting-news-140-greatest-sports-moments/34766fecd31d636b303ca1d2",
+        "https://parade.com/1062315/meganoneill/great-moments-in-sports-history",
+        "https://www.watchmojo.com/articles/top-20-most-iconic-sports-moments-of-all-time",
+        "https://www.thesaurus.com/browse/incredible",
+        "https://en.wikipedia.org/wiki/The_Incredibles",
+        "https://www.incredible.co.za"
+      ],
+      "date": "2026-03-28T06:31:13.999100+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T06:01:28.059807+00:00"
+  "lastUpdated": "2026-03-28T06:31:13.999162+00:00"
 }
