@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Fish and Wildlife Service Expands Habitat Protection for White-Tailed Deer Across 568 Refuges",
-      "urls": [
-        "https://wildlife.ca.gov",
-        "https://www.imdb.com/title/tt5929754",
-        "https://www.fws.gov",
-        "https://explore.panda.org/wildlife",
-        "https://wildlifeinformer.com"
-      ],
-      "date": "2026-03-18T11:01:29.339360+00:00"
-    },
-    {
       "title": "OpenAI Releases GPT 5.3 Instant For Smarter Chat Conversations",
       "urls": [
         "https://openai.com/index/introducing-gpt-5-4",
@@ -4614,7 +4603,21 @@
         "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-chip-sector-pressure-intel-and-amd-falter-as-great-rotation-and-new-rivals-reshape-the-market"
       ],
       "date": "2026-03-28T10:31:20.645560+00:00"
+    },
+    {
+      "title": "White House Unveils Seven-Point AI Regulation Framework",
+      "urls": [
+        "https://federalnewsnetwork.com/acquisition-policy/2026/03/gsas-new-ai-clause-drives-contractors-to-sound-the-alarm",
+        "https://natlawreview.com/article/trump-administration-unveils-new-ai-policy-framework-calling-congress-act",
+        "https://cset.georgetown.edu/article/unpacking-the-white-house-national-policy-framework-for-ai",
+        "https://www.politico.com/news/2026/03/20/white-house-releases-ai-policy-blueprint-for-congress-00837354",
+        "https://www.nextgov.com/artificial-intelligence/2026/03/white-house-releases-regulatory-vision-ai/412274",
+        "https://www.congress.gov/crs-product/R48555",
+        "https://www.gao.gov/products/gao-25-107933",
+        "https://www.index.dev/blog/ai-regulations-and-policy-updates-us-eu-asia"
+      ],
+      "date": "2026-03-28T11:01:32.109729+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T10:31:20.645632+00:00"
+  "lastUpdated": "2026-03-28T11:01:32.109797+00:00"
 }
