@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Refugees Flee Persecution War Violence Seeking International Protection",
-      "urls": [
-        "https://www.unrefugees.org/refugee-facts/what-is-a-refugee",
-        "https://en.wikipedia.org/wiki/Refugee",
-        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
-        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
-        "https://www.britannica.com/topic/refugee",
-        "https://education.nationalgeographic.org/resource/refugee",
-        "https://usafacts.org/articles/refugee-definition",
-        "https://www.worldvision.org/refugees-news-stories/what-is-a-refugee-facts",
-        "https://ohss.dhs.gov/topics/immigration/refugees",
-        "https://worldrelief.org/what-is-a-refugee"
-      ],
-      "date": "2026-03-18T05:31:14.586662+00:00"
-    },
-    {
       "title": "The Times Offers U.S. Subscribers Access To The Sunday Times",
       "urls": [
         "https://www.foxnews.com?msockid=2e964184f34e693b061e56a4f293680f",
@@ -4637,7 +4621,14 @@
         "https://champstory.com/record-breaking-performances-the-top-sports-news-highlights-of-the-week"
       ],
       "date": "2026-03-28T05:04:37.351725+00:00"
+    },
+    {
+      "title": "Chicago Ensures Accessibility For 1.9 Million Residents With Disabilities",
+      "urls": [
+        "https://www.chicago.gov/city/en/depts/mopd/supp_info/accessibilitycitywide.html"
+      ],
+      "date": "2026-03-28T05:31:28.977287+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T05:04:37.351793+00:00"
+  "lastUpdated": "2026-03-28T05:31:28.977396+00:00"
 }
