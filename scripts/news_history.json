@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Milano Cortina 2026 Announces 116 Events And Volunteer Force",
-      "urls": [
-        "https://www.olympics.com/en/milano-cortina-2026"
-      ],
-      "date": "2026-03-18T14:32:04.471096+00:00"
-    },
-    {
       "title": "FIFA Expands 2026 World Cup To 48 Teams Across Three Host Nations",
       "urls": [
         "https://www.fifa.com/en/news/articles/tournaments-2026",
@@ -4596,7 +4589,17 @@
         "https://insideclimatenews.org/news/29092025/states-push-for-renewable-energy-policy"
       ],
       "date": "2026-03-28T14:04:19.579276+00:00"
+    },
+    {
+      "title": "Claude Code Launches Auto Mode For Autonomous Coding Tasks",
+      "urls": [
+        "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash",
+        "https://fortune.com/2025/12/02/how-anthropics-safety-first-approach-won-over-big-business-and-how-its-own-engineers-are-using-its-claude-ai",
+        "https://digitalbrightfuture.com/anthropic-ai-safety",
+        "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude"
+      ],
+      "date": "2026-03-28T14:34:23.442564+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T14:04:19.579337+00:00"
+  "lastUpdated": "2026-03-28T14:34:23.442628+00:00"
 }
