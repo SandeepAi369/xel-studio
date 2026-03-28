@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT 5.3 Instant For Smarter Chat Conversations",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-5-4",
-        "https://openai.com/research/index/release",
-        "https://openai.com/index/introducing-gpt-5-2",
-        "https://openai.com/gpt-5",
-        "https://openai.com/index/gpt-5-3-instant",
-        "https://openai.com/index/gpt-5-1"
-      ],
-      "date": "2026-03-18T11:35:58.737426+00:00"
-    },
-    {
-      "title": "IBM Champions Digital Transformation With Cloud And AI Solutions",
-      "urls": [
-        "https://www.ibm.com/br-pt/think/topics/digital-transformation",
-        "https://www.ibm.com/think/topics/digital-transformation",
-        "https://forums.digitalspy.com/discussion/2473676/the-ratings-thread-part-76",
-        "https://forums.digitalspy.com/categories/streaming",
-        "https://forums.digitalspy.com/categories/movies",
-        "https://forums.digitalspy.com/discussion/2480434/radio-football-commentators-and-reporters-2025-26",
-        "https://www.ibm.com/mx-es/think/topics/digital-transformation",
-        "https://forums.digitalspy.com/categories/sport",
-        "https://www.ibm.com/kr-ko/think/topics/digital-twin",
-        "https://www.ibm.com/mx-es/think/topics/digital-marketing"
-      ],
-      "date": "2026-03-18T12:01:38.708081+00:00"
-    },
-    {
       "title": "Social Security Trustees Warn 2035 Trust Fund Depletion Without Reform",
       "urls": [
         "https://www.ssa.gov",
@@ -4631,7 +4603,14 @@
         "https://www.zhihu.com/question/28957092"
       ],
       "date": "2026-03-28T11:31:13.386659+00:00"
+    },
+    {
+      "title": "Meta AI Launches Real-Time Voice And Photo Sharing Across Facebook Instagram WhatsApp",
+      "urls": [
+        "https://about.fb.com/news/2024/09/metas-ai-product-news-connect"
+      ],
+      "date": "2026-03-28T12:02:31.059491+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T11:31:13.386717+00:00"
+  "lastUpdated": "2026-03-28T12:02:31.059572+00:00"
 }
