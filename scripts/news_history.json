@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Prepares For First Starship Version 3 Launch In Four Weeks",
-      "urls": [
-        "https://www.space.com",
-        "https://techannouncer.com/latest-satellites-news-spacex-launches-space-tech-updates-and-more",
-        "https://www.msn.com/en-us/news/technology/space-news-artemis-ii-mission-spacex-launches-and-a-planet-collision/ar-AA1YKCAX",
-        "https://spaceflightnow.com",
-        "https://nasaspacenews.com/2026/03/spacex-is-around-4-weeks-away",
-        "https://www.nytimes.com/2025/09/24/science/imap-nasa-spacex-launch.html",
-        "https://www.spacex.com/launches",
-        "https://www.nasa.gov/news-release/nasa-ignites-new-golden-age-of-exploration-innovation-in-2025",
-        "https://spaceexplored.com",
-        "https://www.reuters.com/technology/space"
-      ],
-      "date": "2026-03-18T04:31:13.685915+00:00"
-    },
-    {
       "title": "OpenAI Releases First Open Source Model Gpt Oss",
       "urls": [
         "https://www.zhihu.com/question/1936975185833096194",
@@ -4641,7 +4625,21 @@
         "https://www.democracynow.org"
       ],
       "date": "2026-03-28T04:03:34.646398+00:00"
+    },
+    {
+      "title": "Climate Tech Atlas Launches To Map 2300 Global Decarbonization Hotspots",
+      "urls": [
+        "https://www.forbes.com/sites/energyinnovation/2025/09/21/climate-tech-atlas-could-unlock-net-zero-breakthroughs",
+        "https://interestingengineering.com/energy/technologies-redefining-fight-against-global-warming",
+        "https://techcrunch.com/category/climate",
+        "https://www.bloomberg.com/news/articles/2025-12-24/good-climate-news-2025-investments-innovations-and-policy",
+        "https://www.sciencedirect.com/science/article/pii/S2590123024013768",
+        "https://www.techtimes.com/articles/313358/20251225/10-green-tech-innovations-leading-future-sustainable-technology-planet-protection.htm",
+        "https://www.weforum.org/press/2025/10/10-transformative-innovations-for-climate-action-and-planetary-health",
+        "https://www.sciencenewstoday.org/how-technology-is-fighting-climate-change"
+      ],
+      "date": "2026-03-28T04:32:26.984616+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T04:03:34.646457+00:00"
+  "lastUpdated": "2026-03-28T04:32:26.984685+00:00"
 }
