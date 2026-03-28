@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Claude Opus 4.6 Launches With 14 Percent Gain In Coding Performance",
-      "urls": [
-        "https://www.anthropic.com/news/claude-opus-4-6",
-        "https://www.anthropic.com/news/claude-opus-4-5",
-        "https://www.anthropic.com/news/claude-new-constitution",
-        "https://www.anthropic.com/news/the-anthropic-institute",
-        "https://www.anthropic.com/news/healthcare-life-sciences"
-      ],
-      "date": "2026-03-18T07:01:31.392252+00:00"
-    },
-    {
       "title": "Hugging Face Launches AI Sheets For No-Code Data Enrichment",
       "urls": [
         "https://huggingface.co",
@@ -4631,7 +4620,14 @@
         "https://www.incredible.co.za"
       ],
       "date": "2026-03-28T06:31:13.999100+00:00"
+    },
+    {
+      "title": "Agility Robotics Deploys Digit Humanoid In Warehouse Trials",
+      "urls": [
+        "https://spectrum.ieee.org/topic/robotics"
+      ],
+      "date": "2026-03-28T07:03:42.011043+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T06:31:13.999162+00:00"
+  "lastUpdated": "2026-03-28T07:03:42.011114+00:00"
 }
