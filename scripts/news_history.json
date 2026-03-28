@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Microsoft And Dropbox Expand Cloud Services For Global Users",
-      "urls": [
-        "https://www.icloud.com",
-        "https://cloud.google.com",
-        "https://de.wikipedia.org/wiki/Cloud_Computing",
-        "https://www.cloudflare.com/learning/cloud/what-is-the-cloud",
-        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/cloud-computing-verbraucher_node.html",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=1bdab6eb9e4c611129dea1cb9f8e6032",
-        "https://www.pcloud.com/de",
-        "https://www.ionos.de/digitalguide/server/knowhow/was-ist-eine-cloud",
-        "https://www.oracle.com/cloud/what-is-cloud-computing",
-        "https://www.dropbox.com/features/cloud-storage"
-      ],
-      "date": "2026-03-18T08:02:35.709891+00:00"
-    },
-    {
-      "title": "Walmart And Amazon Expand Access To Equate Lightweight Wheelchairs",
-      "urls": [
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=08e35b73d6d0630f2f8e4c53d716626b",
-        "https://www.walmart.com/browse/health-medicine/lightweight-wheelchairs/976760_1005860_3226051_2491107",
-        "https://www.amazon.com/wheelchairs/s?k=wheelchairs",
-        "https://www.amazon.com/wheelchairs-seniors/s?k=wheelchairs+for+seniors",
-        "https://www.1800wheelchair.com"
-      ],
-      "date": "2026-03-18T08:31:11.908725+00:00"
-    },
-    {
       "title": "MIT Researchers Build 3D Objects From Spoken Descriptions Using AI",
       "urls": [
         "https://news.mit.edu/topic/robotics",
@@ -4629,7 +4602,18 @@
         "https://kffhealthnews.org/morning-breakout/research-roundup-the-latest-science-discoveries-and-breakthroughs-61"
       ],
       "date": "2026-03-28T08:02:31.316243+00:00"
+    },
+    {
+      "title": "BMW Dallas Marathon Attracts Thousands To Annual Race Weekend",
+      "urls": [
+        "https://www.marathonguide.com/marathons/usa/tx",
+        "https://findarace.com/us/running/marathons",
+        "https://dallasmarathon.com",
+        "https://www.active.com/running/marathon",
+        "https://www.marathonguide.com/races/races.cfm"
+      ],
+      "date": "2026-03-28T08:32:18.395675+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T08:02:31.316298+00:00"
+  "lastUpdated": "2026-03-28T08:32:18.395774+00:00"
 }
