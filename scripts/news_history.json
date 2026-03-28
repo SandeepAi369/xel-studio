@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Multilingual Mistral-Large Model With Advanced Code Generation",
-      "urls": [
-        "https://www.zhihu.com/question/646034422",
-        "https://www.zhihu.com/question/634137761",
-        "https://www.zhihu.com/question/624299709",
-        "https://www.zhihu.com/question/645997182",
-        "https://www.zhihu.com/question/1979468317455586837"
-      ],
-      "date": "2026-03-18T20:31:24.838644+00:00"
-    },
-    {
       "title": "Visual Ly Launches Interactive Tool To Solve Monty Hall Problem",
       "urls": [
         "https://get.visual.ly/m/design-portfolio/changing-customer-conversations",
@@ -4592,7 +4581,14 @@
         "https://jumbleanswers.com/volne-jumble"
       ],
       "date": "2026-03-28T20:02:38.365358+00:00"
+    },
+    {
+      "title": "Mistral Nemo Launches With Strong Performance But Minimal Safety Auditing",
+      "urls": [
+        "https://www.zhihu.com/question/655616250"
+      ],
+      "date": "2026-03-28T20:33:16.215945+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T20:02:38.365424+00:00"
+  "lastUpdated": "2026-03-28T20:33:16.216007+00:00"
 }
