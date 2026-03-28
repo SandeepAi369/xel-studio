@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SAP Deploys Generative AI To Automate Enterprise Reporting And Customer Support",
-      "urls": [
-        "https://www.sap.com/resources/what-is-generative-ai"
-      ],
-      "date": "2026-03-18T19:31:29.444926+00:00"
-    },
-    {
       "title": "Merriam-Webster Defines Incredible As Extraordinary And Improbable",
       "urls": [
         "https://www.merriam-webster.com/dictionary/incredible",
@@ -4594,7 +4587,15 @@
         "https://mcpress.mayoclinic.org/research-innovation/transforming-healthcare-the-impact-of-telehealth-and-telemedicine"
       ],
       "date": "2026-03-28T19:05:31.877984+00:00"
+    },
+    {
+      "title": "Social Media Advocates Demand Meta Overhaul After Landmark Rulings",
+      "urls": [
+        "https://www.cnn.com/2026/03/28/tech/social-media-verdict-advocates-hope-for-changes",
+        "https://www.cnbc.com/social-media?msockid=139c7238e2b66b6b02246512e3fc6a76"
+      ],
+      "date": "2026-03-28T19:32:27.690616+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T19:05:31.878055+00:00"
+  "lastUpdated": "2026-03-28T19:32:27.690698+00:00"
 }
