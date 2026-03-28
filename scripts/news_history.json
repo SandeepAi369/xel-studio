@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States and Israel conducted joint military strikes on Iran on February 28, marking a signific",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Geopolitics",
-        "https://www.britannica.com/topic/geopolitics",
-        "https://www.economist.com/topics/geopolitics",
-        "https://www.csis.org/geopolitics-foreign-policy",
-        "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/market-pulse/what-we-know-and-what-matters-geopolitical-risks-rise?msockid=2b707990f2b8655425296eb0f3f364a6",
-        "https://www.merriam-webster.com/dictionary/geopolitics",
-        "https://dictionary.cambridge.org/dictionary/english/geopolitical"
-      ],
-      "date": "2026-03-18T03:02:29.127069+00:00"
-    },
-    {
-      "title": "Equate Launches New 17-Pound Lightweight Wheelchairs on Amazon and Walmart",
-      "urls": [
-        "https://www.amazon.com/wheelchair/s?k=wheelchair"
-      ],
-      "date": "2026-03-18T03:31:21.656082+00:00"
-    },
-    {
       "title": "Jacob Kiplimo Sets New Half Marathon World Record With 57:20 Finish",
       "urls": [
         "https://zhidao.baidu.com/question/52472402.html",
@@ -4660,7 +4640,15 @@
         "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708"
       ],
       "date": "2026-03-28T03:01:24.355715+00:00"
+    },
+    {
+      "title": "Social Security Expands My Social Security Portal For 70 Million Users",
+      "urls": [
+        "https://www.ssa.gov/myaccount",
+        "https://www.ssa.gov/onlineservices"
+      ],
+      "date": "2026-03-28T03:32:23.218916+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T03:01:24.355767+00:00"
+  "lastUpdated": "2026-03-28T03:32:23.218971+00:00"
 }
