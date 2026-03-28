@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA Expands 2026 World Cup To 48 Teams Across Three Host Nations",
-      "urls": [
-        "https://www.fifa.com/en/news/articles/tournaments-2026",
-        "https://www.fifa.com/en/news/articles/european-qualifying-results-fixtures-world-cup-26",
-        "https://www.fifa.com/en/news/articles/fifa-series-2026-match-schedule-available",
-        "https://inside.fifa.com/en/news/fifa-celebrates-launch-official-match-ball-world-cup-26-trionda?requester=MediaHub&entryId=4NmEoJkBwuj9zmMTHj8PMa",
-        "https://www.fifa.com/en/news/articles/tournaments-2025",
-        "https://www.fifa.com/en/news/articles/halftime-show-confirmed",
-        "https://www.fifa.com/en/news/articles/thomas-tuchel-new-england-contract",
-        "https://www.fifa.com/en/news/articles/world-cup-qualifier-and-derbies-win-points-with-predictions",
-        "https://www.fifa.com/en/news/index",
-        "https://www.fifa.com/en/news/articles/poland-ukraine-vietnam-mens-futsal-ranking"
-      ],
-      "date": "2026-03-18T15:02:36.598583+00:00"
-    },
-    {
       "title": "Generative AI is a subfield of artificial intelligence focused on creating new content including tex",
       "urls": [
         "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
@@ -4614,7 +4598,16 @@
         "https://www.sciencenewstoday.org/the-future-of-digital-privacy-can-we-protect-our-data"
       ],
       "date": "2026-03-28T15:01:44.267624+00:00"
+    },
+    {
+      "title": "California Enacts SB 53 To Regulate High Risk AI Systems",
+      "urls": [
+        "https://natlawreview.com/article/artificial-intelligence-legislative-update",
+        "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry",
+        "https://www.aha.org/news/headline/2026-03-20-white-house-releases-national-ai-policy-framework"
+      ],
+      "date": "2026-03-28T15:31:16.104660+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T15:01:44.267678+00:00"
+  "lastUpdated": "2026-03-28T15:31:16.104725+00:00"
 }
