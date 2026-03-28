@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches AI Sheets For No-Code Data Enrichment",
-      "urls": [
-        "https://huggingface.co",
-        "https://allthingsopen.org/articles/hugging-face-review-developers-guide",
-        "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025",
-        "https://the-decoder.com/hugging-face-launches-omni-chat-an-ai-router-for-open-source-models",
-        "https://devblogs.microsoft.com/foundry/microsoft-and-hugging-face-expand-partnership-to-accelerate-open-source-ai-innovation-on-azure-ai-foundry",
-        "https://sloanreview.mit.edu/audio/challenging-the-average-with-open-source-ai-hugging-faces-thomas-wolf",
-        "https://blog.jetbrains.com/ai/2025/04/mellum-goes-open-source-a-purpose-built-llm-for-developers-now-on-hugging-face",
-        "https://www.business-standard.com/technology/tech-news/china-open-source-ai-models-rise-us-concerns-deepseek-alibaba-qwen-125112700348_1.html",
-        "https://www.infoq.com/news/2025/09/ai-sheets",
-        "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
-      ],
-      "date": "2026-03-18T07:32:15.884931+00:00"
-    },
-    {
       "title": "Google Microsoft And Dropbox Expand Cloud Services For Global Users",
       "urls": [
         "https://www.icloud.com",
@@ -4627,7 +4611,18 @@
         "https://spectrum.ieee.org/topic/robotics"
       ],
       "date": "2026-03-28T07:03:42.011043+00:00"
+    },
+    {
+      "title": "Google Launches New AI Model To Enhance Machine Learning Accuracy",
+      "urls": [
+        "https://openai.com",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://gemini.google.com",
+        "https://deepai.org/chat/what-is-ai",
+        "https://www.britannica.com/technology/artificial-intelligence"
+      ],
+      "date": "2026-03-28T07:33:30.433793+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T07:03:42.011114+00:00"
+  "lastUpdated": "2026-03-28T07:33:30.433857+00:00"
 }
