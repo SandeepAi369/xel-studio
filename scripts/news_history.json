@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Times Expands U S Live News Coverage With 15 City Reporting Network",
-      "urls": [
-        "https://www.foxnews.com?msockid=2c7e089cfa23699419cd1fbcfb8868a0",
-        "https://www.thetimes.com/us/news-today?msockid=2c7e089cfa23699419cd1fbcfb8868a0"
-      ],
-      "date": "2026-03-18T13:02:00.511537+00:00"
-    },
-    {
       "title": "Shop Channel Launches 30th Anniversary Campaign With Multi Platform Expansion",
       "urls": [
         "https://discussions.apple.com/docs/DOC-250009890",
@@ -4614,7 +4606,14 @@
         "https://music.youtube.com/channel/UCLNdQ1KGO8L5RlHUVjuOQFQ"
       ],
       "date": "2026-03-28T13:01:20.725645+00:00"
+    },
+    {
+      "title": "Fox News Digital Expands Weather Alerts to All 29000 U.S. ZIP Codes",
+      "urls": [
+        "https://www.foxnews.com"
+      ],
+      "date": "2026-03-28T13:31:11.096857+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T13:01:20.725731+00:00"
+  "lastUpdated": "2026-03-28T13:31:11.096921+00:00"
 }
