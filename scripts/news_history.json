@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And Israel Strike Iranian Missile Facilities",
-      "urls": [
-        "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/market-pulse/what-we-know-and-what-matters-geopolitical-risks-rise"
-      ],
-      "date": "2026-03-18T18:32:38.311898+00:00"
-    },
-    {
-      "title": "Google Updates Health Information Policies Across Search And YouTube",
-      "urls": [
-        "https://support.google.com/websearch/answer/2364942?hl=en",
-        "https://support.google.com/fitbit/answer/14566053?hl=en",
-        "https://support.google.com/googleplay/android-developer/answer/16679511?hl=en",
-        "https://support.google.com/youtubetv/answer/16403764?hl=en",
-        "https://support.google.com/youtube/answer/16337018?hl=en",
-        "https://support.google.com/adspolicy/answer/15596627?hl=en",
-        "https://support.google.com/youtube/answer/13813322?hl=en",
-        "https://support.google.com/googleplay/android-developer/answer/14738291?hl=en",
-        "https://support.google.com/youtube/answer/9795167?hl=en",
-        "https://support.google.com/a/users/answer/9282742?hl=en"
-      ],
-      "date": "2026-03-18T19:01:23.402142+00:00"
-    },
-    {
       "title": "SAP Deploys Generative AI To Automate Enterprise Reporting And Customer Support",
       "urls": [
         "https://www.sap.com/resources/what-is-generative-ai"
@@ -4601,7 +4578,23 @@
         "https://www.idaireland.com/latest-news/insights/top-medical-innovations-transforming-healthcare-in-2025"
       ],
       "date": "2026-03-28T18:31:18.825877+00:00"
+    },
+    {
+      "title": "Cms Proposes 2026 Expansion Of Remote Patient Monitoring Reimbursement",
+      "urls": [
+        "https://telehealth.org/telehealth-news",
+        "https://www.digitalhealthnews.com/category/telehealth",
+        "https://www.arnoldporter.com/en/perspectives/publications/2025/07/virtual-and-digital-health-digest",
+        "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1646802/full",
+        "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0413",
+        "https://openloophealth.com/blog/recent-digital-health-trends-insight-and-news-november-2025",
+        "https://www.healthcareitnews.com/topics/telehealth",
+        "https://www.beckershospitalreview.com/rural-health/telehealth-innovation",
+        "https://www.mobihealthnews.com",
+        "https://mcpress.mayoclinic.org/research-innovation/transforming-healthcare-the-impact-of-telehealth-and-telemedicine"
+      ],
+      "date": "2026-03-28T19:05:31.877984+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T18:31:18.825942+00:00"
+  "lastUpdated": "2026-03-28T19:05:31.878055+00:00"
 }
