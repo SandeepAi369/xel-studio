@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization Releases Antibiotic Resistance Report",
-      "urls": [
-        "https://www.who.int/health-topics/drugs-psychoactive",
-        "https://www.who.int/our-work/access-to-medicines-and-health-products/who-drug-information",
-        "https://www.who.int/teams/mental-health-and-substance-use/alcohol-drugs-and-addictive-behaviours/drugs-psychoactive",
-        "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2025/tb-disease-burden/1-3-drug-resistant-tb",
-        "https://www.who.int/news/item/24-11-2025-who-launches-new-framework-to-tackle-drug-resistance-to-hiv-hepatitis-b-and-c-and-stis",
-        "https://www.who.int/news/item/15-04-2025-who-announces-landmark-changes-in-treatment-of-drug-resistant-tuberculosis",
-        "https://www.who.int/news/item/09-02-2025-who-updates-guidelines-on-opioid-dependence-treatment-and-overdose-prevention",
-        "https://www.who.int/news/item/29-04-2025-antibiotics-most-responsible-for-drug-resistance-are-overused---who-report",
-        "https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
-        "https://www.who.int/health-topics/medicines"
-      ],
-      "date": "2026-03-19T02:31:13.796009+00:00"
-    },
-    {
       "title": "Screen Holdings Develops Advanced Coater For 3nm Semiconductor Production",
       "urls": [
         "https://www.screen.co.jp/about/organization",
@@ -4560,7 +4544,18 @@
         "https://www.zhihu.com/question/580758213"
       ],
       "date": "2026-03-29T02:02:34.343340+00:00"
+    },
+    {
+      "title": "Google Delivers Verified Health Information In Search Results",
+      "urls": [
+        "https://support.google.com/fitbit/answer/14566053?hl=en",
+        "https://support.google.com/websearch/answer/2364942?hl=en",
+        "https://support.google.com/youtubetv/answer/16403764?hl=en",
+        "https://support.google.com/youtube/answer/16337018?hl=en",
+        "https://support.google.com/adspolicy/answer/15596627?hl=en"
+      ],
+      "date": "2026-03-29T02:31:29.424600+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T02:02:34.343404+00:00"
+  "lastUpdated": "2026-03-29T02:31:29.424673+00:00"
 }
