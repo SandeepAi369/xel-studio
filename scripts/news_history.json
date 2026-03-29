@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Develop Safe Control System for Soft Robots Using Lyapunov Theory",
-      "urls": [
-        "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202"
-      ],
-      "date": "2026-03-19T15:32:24.083794+00:00"
-    },
-    {
-      "title": "World Economic Forum Warns Of Geoeconomic Confrontation In 2026 Report",
-      "urls": [
-        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
-      ],
-      "date": "2026-03-19T16:01:20.551080+00:00"
-    },
-    {
       "title": "FIFA Announces Match Schedule at Ahmad Bin Ali Stadium",
       "urls": [
         "https://media.fifa.com/en/news/qatar-confirmed-as-fifa-intercontinental-cup-2025-tm-final-phase-host"
@@ -4564,7 +4550,14 @@
         "https://www.reddit.com/r/NVDA_Stock/comments/1ca1b9e/daily_chat_thread_and_discussion"
       ],
       "date": "2026-03-29T15:31:13.907027+00:00"
+    },
+    {
+      "title": "Mayo Clinic Links Gut Microbiome Imbalances to Autism Symptoms",
+      "urls": [
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/expert-answers/autism-and-digestive-symptoms/faq-20322778"
+      ],
+      "date": "2026-03-29T16:05:43.997923+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T15:31:13.907088+00:00"
+  "lastUpdated": "2026-03-29T16:05:43.998035+00:00"
 }
