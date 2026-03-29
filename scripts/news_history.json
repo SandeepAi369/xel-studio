@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Crest Ai Platform Designs 12000 Experiments With 78 Percent Success Rate",
-      "urls": [
-        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919",
-        "https://news.mit.edu/2025/ai-system-learns-many-types-scientific-information-and-runs-experiments-discovering-new-materials-0925"
-      ],
-      "date": "2026-03-19T22:02:24.275153+00:00"
-    },
-    {
       "title": "Who World Health Organization Launches Global Initiative For Disability Health Equity",
       "urls": [
         "https://www.who.int/initiatives/disability-health-equity-initiative/network"
@@ -4540,7 +4532,14 @@
         "https://www.cnbc.com/quotes/GOOGL?msockid=1f17610f7151625a1cba762470406373"
       ],
       "date": "2026-03-29T21:33:15.832681+00:00"
+    },
+    {
+      "title": "Microsoft Edge Launches Enhanced Password Manager With Cross Device Sync",
+      "urls": [
+        "https://support.microsoft.com/en-us/topic/view-or-edit-your-passwords-in-microsoft-edge-38ef988f-5a65-4c6a-9db8-937995d3ae31"
+      ],
+      "date": "2026-03-29T22:03:30.250464+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T21:33:15.832735+00:00"
+  "lastUpdated": "2026-03-29T22:03:30.250559+00:00"
 }
