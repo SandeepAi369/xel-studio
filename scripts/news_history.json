@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And Israel Strike Iran In Coordinated Military Operation",
-      "urls": [
-        "https://www.thegeopoliticaldesk.com",
-        "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/market-pulse/what-we-know-and-what-matters-geopolitical-risks-rise?msockid=0b5038f60534693d257a2fd70448684b",
-        "https://www.ft.com/geopolitics",
-        "https://www.geopolitika.it/en/geopolitics-definition-meaning-and-role-of-a-foundational-discipline-in-understanding-global-power",
-        "https://thegeopolitics.com"
-      ],
-      "date": "2026-03-19T12:02:28.747483+00:00"
-    },
-    {
-      "title": "Who: World Health Organization Releases Mental Health Atlas 2024",
-      "urls": [
-        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
-        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
-        "https://www.who.int/health-topics/mental-health",
-        "https://www.who.int/publications/i/item/9789240114487",
-        "https://www.who.int/news-room/commentaries/detail/mental-health-and-ncds--a-shared-but-differentiated-agenda-for-the-2025-un-high-level-meeting"
-      ],
-      "date": "2026-03-19T12:32:25.584226+00:00"
-    },
-    {
       "title": "KONAMI Celebrates eFootball 30th Anniversary With Limited Messi Cards",
       "urls": [
         "https://www.konami.com/efootball/30th/en-us",
@@ -4560,7 +4538,14 @@
         "https://www.reuters.com/world/us"
       ],
       "date": "2026-03-29T12:01:30.487823+00:00"
+    },
+    {
+      "title": "US Open Releases 2026 Full Tournament Schedule And Ticket Options",
+      "urls": [
+        "https://www.usopen.org/en_US/about/eventschedule.html"
+      ],
+      "date": "2026-03-29T12:32:39.232855+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T12:01:30.487880+00:00"
+  "lastUpdated": "2026-03-29T12:32:39.232921+00:00"
 }
