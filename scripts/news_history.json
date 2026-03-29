@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA Announces Match Schedule at Ahmad Bin Ali Stadium",
-      "urls": [
-        "https://media.fifa.com/en/news/qatar-confirmed-as-fifa-intercontinental-cup-2025-tm-final-phase-host"
-      ],
-      "date": "2026-03-19T16:36:04.859715+00:00"
-    },
-    {
-      "title": "Fox News Launches Zip Code Based Weather Updates",
-      "urls": [
-        "https://www.foxnews.com?msockid=18d07ab8bfa16d4d3cdc6d99bef16ca3"
-      ],
-      "date": "2026-03-19T17:02:41.972559+00:00"
-    },
-    {
       "title": "Anthropic Releases Claude 3.5 With Enhanced Safety And Performance",
       "urls": [
         "https://www.anthropic.com",
@@ -4572,7 +4558,15 @@
         "https://education.nationalgeographic.org/resource/all-about-climate"
       ],
       "date": "2026-03-29T16:31:19.754246+00:00"
+    },
+    {
+      "title": "Social Security Administration Expands Online Account Access For 70 Million Beneficiaries",
+      "urls": [
+        "https://www.ssa.gov",
+        "https://secure.ssa.gov/RIL/SiView.action"
+      ],
+      "date": "2026-03-29T17:05:04.574090+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T16:31:19.754303+00:00"
+  "lastUpdated": "2026-03-29T17:05:04.574161+00:00"
 }
