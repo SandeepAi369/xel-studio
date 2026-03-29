@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Zip Code Based Local Weather Updates",
-      "urls": [
-        "https://www.foxnews.com?msockid=31f3ab7f0a256acd22d1bc5e0b856b0e"
-      ],
-      "date": "2026-03-19T19:01:27.378477+00:00"
-    },
-    {
       "title": "Generative AI Models Create Human Like Content Using Deep Learning",
       "urls": [
         "https://www.coursera.org/articles/what-is-generative-ai?msockid=054ccaf567a66a4e226dddd466016bb0",
@@ -4560,7 +4553,14 @@
         "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen"
       ],
       "date": "2026-03-29T18:32:18.899683+00:00"
+    },
+    {
+      "title": "Mistral Launches 15000 Label Wine Catalog Across Brazil",
+      "urls": [
+        "https://www.mistral.com.br/sobre-a-mistral"
+      ],
+      "date": "2026-03-29T19:03:40.137404+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T18:32:18.899747+00:00"
+  "lastUpdated": "2026-03-29T19:03:40.137467+00:00"
 }
