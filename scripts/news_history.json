@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Magnetic Microrobots Achieve Clinical Readiness For Targeted Therapy",
-      "urls": [
-        "https://www.science.org",
-        "https://www.science.org/journal/science",
-        "https://www.science.org/news",
-        "https://www.science.org/toc/science/current",
-        "https://www.science.org/doi/10.1126/science.ads8197",
-        "https://www.science.org/toc/science/0/0",
-        "https://www.science.org/doi/10.1126/science.adz0276",
-        "https://www.science.org/journals",
-        "https://www.science.org/doi/10.1126/science.adq7203",
-        "https://www.science.org/doi/10.1126/science.adx1708"
-      ],
-      "date": "2026-03-19T01:04:32.230773+00:00"
-    },
-    {
       "title": "NovaTech Secures $42 Million Led by Andreessen Horowitz for Edge Computing Expansion",
       "urls": [
         "https://www.techradar.com",
@@ -4581,7 +4565,14 @@
         "https://www.who.int/publications/m/item/who-flash-appeal--earthquake-response-in-myanmar"
       ],
       "date": "2026-03-29T01:02:25.303965+00:00"
+    },
+    {
+      "title": "Riot Games Expands League of Legends Esports Across Four Major Regions",
+      "urls": [
+        "https://www.espn.com/gaming/story/_/id/14555655/latest-league-legends-news-esports"
+      ],
+      "date": "2026-03-29T01:31:05.875582+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T01:02:25.304039+00:00"
+  "lastUpdated": "2026-03-29T01:31:05.875649+00:00"
 }
