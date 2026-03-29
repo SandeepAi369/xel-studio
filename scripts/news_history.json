@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Research Unveils Multimodal System With 88% Accuracy Across 12 Languages",
-      "urls": [
-        "https://ai.meta.com/research"
-      ],
-      "date": "2026-03-19T15:03:05.307364+00:00"
-    },
-    {
       "title": "MIT Researchers Develop Safe Control System for Soft Robots Using Lyapunov Theory",
       "urls": [
         "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202"
@@ -4558,7 +4551,20 @@
         "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
       ],
       "date": "2026-03-29T15:01:26.966351+00:00"
+    },
+    {
+      "title": "Nvidia Replaces GeForce Experience With Unified App Beta",
+      "urls": [
+        "https://www.reddit.com/r/nvidia?t=DAY",
+        "https://www.reddit.com/r/nvidia/comments/16qke8w/which_one_should_i_install_between_gameready",
+        "https://www.reddit.com/r/nvidia/comments/129p5ph/nvidia_profile_inspector_v2404_released",
+        "https://www.reddit.com/r/MoonlightStreaming/comments/1axk7y7/the_new_nvidia_app_beta",
+        "https://www.reddit.com/r/nvidia/comments/1axr8nj/setup_guide_for_hdr_including_new_settings_for",
+        "https://www.reddit.com/r/nvidia/comments/vrg7td/for_people_who_used_automatic_tuning_with_nvdia",
+        "https://www.reddit.com/r/NVDA_Stock/comments/1ca1b9e/daily_chat_thread_and_discussion"
+      ],
+      "date": "2026-03-29T15:31:13.907027+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T15:01:26.966422+00:00"
+  "lastUpdated": "2026-03-29T15:31:13.907088+00:00"
 }
