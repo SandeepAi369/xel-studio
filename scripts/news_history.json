@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tomatoes Recalled in 14 States Over Salmonella Risk",
-      "urls": [
-        "https://www.bucyrustelegraphforum.com/news",
-        "https://www.bucyrustelegraphforum.com/story/news/local/in-depth/2014/08/23/telemedicine-growing-ohio-faces-obstacles/14437635",
-        "https://www.bucyrustelegraphforum.com/story/sports/high-school/basketball/girls/2024/01/13/buckeye-central-girls-win-first-northern-10-game-at-wynford/72192623007",
-        "https://www.bucyrustelegraphforum.com/story/news/politics/2025/02/14/ohio-abortion-judge-blocks-law-requiring-fetal-remains-buried-cremated/78623599007",
-        "https://www.bucyrustelegraphforum.com/story/news/2025/05/08/tomato-recall-in-14-states/83511157007",
-        "https://www.bucyrustelegraphforum.com/obituaries/pwoo0854641",
-        "https://www.bucyrustelegraphforum.com/story/lifestyle/2024/12/30/before-the-six-triple-eight-came-to-netflix-the-story-was-told-here/77320915007",
-        "https://www.bucyrustelegraphforum.com/story/news/local/2025/11/26/new-leader-wants-to-attract-young-families-to-crawford-county/87452889007",
-        "https://www.bucyrustelegraphforum.com/story/entertainment/life/2026/03/03/first-day-of-spring-2026/88662563007",
-        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/02/25/florida-wildfire-big-cypress-national-preserve-alligator-alcatraz/88869182007"
-      ],
-      "date": "2026-03-19T20:01:33.175092+00:00"
-    },
-    {
       "title": "Solar And Wind Power Generate 13% Of Global Electricity In 2023",
       "urls": [
         "https://en.wikipedia.org/wiki/Renewable_energy",
@@ -4559,7 +4543,14 @@
         "https://www.marathonguide.com/races/home.cfm"
       ],
       "date": "2026-03-29T19:34:19.232605+00:00"
+    },
+    {
+      "title": "Who Defines A Refugee And How UNHCR Protects Them Worldwide",
+      "urls": [
+        "https://ohss.dhs.gov/topics/immigration/refugees"
+      ],
+      "date": "2026-03-29T20:05:34.459378+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T19:34:19.232663+00:00"
+  "lastUpdated": "2026-03-29T20:05:34.459453+00:00"
 }
