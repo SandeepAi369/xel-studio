@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils Eight New Products Including iPhone 17e and M5 MacBooks",
-      "urls": [
-        "https://www.apple.com",
-        "https://www.apple.com/store",
-        "https://apps.microsoft.com/detail/9np83lwlpz9k",
-        "https://www.macrumors.com/2026/03/17/apple-eight-new-products",
-        "https://support.apple.com",
-        "https://www.att.com/buy/tablets/browse/apple?msockid=2305f7bb0cc966cc0c2ce09a0d5767dd"
-      ],
-      "date": "2026-03-19T09:32:15.954684+00:00"
-    },
-    {
-      "title": "Prudential Releases 10 Illustrations To Boost Financial Literacy",
-      "urls": [
-        "https://www.get.visual.ly/m/design-portfolio/illustrations"
-      ],
-      "date": "2026-03-19T10:01:18.433162+00:00"
-    },
-    {
       "title": "Thesaurus Com Delivers 131 Hate Synonyms With Contextual Examples",
       "urls": [
         "https://www.wordhippo.com/what-is/the-opposite-of/hate.html",
@@ -4562,7 +4543,20 @@
         "https://www.nytimes.com"
       ],
       "date": "2026-03-29T09:31:18.651781+00:00"
+    },
+    {
+      "title": "Maine Woman Finds 250 Unsealed State Ballots in Amazon Delivery",
+      "urls": [
+        "https://twitchy.com/samj/2025/11/04/live-election-results-buckle-up-folks-today-is-election-day-in-virginia-new-jersey-new-york-city-n2421234",
+        "https://twitchy.com/eric-v/2025/09/02/the-penguin-is-out-jerry-nadler-will-not-seek-re-election-n2418283",
+        "https://twitchy.com/brettt/2025/10/01/maine-woman-finds-250-state-ballots-in-her-amazon-delivery-n2419776",
+        "https://twitchy.com/samj/2025/10/19/whoa-biden-administration-democrat-comes-out-and-admits-hell-vote-republican-in-virginia-race-n2420554",
+        "https://www.maryvilleforum.com/news/election_2024/voters-approve-23m-maryville-r-ii-bond/article_a7131410-f162-11ee-ac0e-6b855a7960a7.html",
+        "https://twitchy.com/warren-squire/2025/12/02/breaking-epps-defeats-aftyn-behn-n2422378",
+        "https://www.maryvilleforum.com/news/nodaway-county-official-aug-6-primary-election-results/article_96dffdb8-5424-11ef-b247-0fe06e01378c.html"
+      ],
+      "date": "2026-03-29T10:03:09.009682+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T09:31:18.651840+00:00"
+  "lastUpdated": "2026-03-29T10:03:09.009746+00:00"
 }
