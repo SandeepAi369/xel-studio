@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Localized Weather Updates Using Zip Code Data",
-      "urls": [
-        "https://www.foxnews.com?msockid=26efe60dd02e66e8203cf12dd1eb67c3"
-      ],
-      "date": "2026-03-18T23:35:36.078317+00:00"
-    },
-    {
-      "title": "Solar And Wind Power Drive Renewable Energy Growth",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Renewable_energy",
-        "https://www.britannica.com/science/renewable-energy",
-        "https://www.eia.gov/energyexplained/renewable-sources",
-        "https://www.un.org/en/climatechange/what-is-renewable-energy",
-        "https://scienceinsights.org/why-are-renewable-resources-important",
-        "https://understand-energy.stanford.edu/energy-resources/renewable-energy/introduction-renewable-energy",
-        "https://extension.psu.edu/what-is-renewable-energy",
-        "https://education.nationalgeographic.org/resource/renewable-resources",
-        "https://iere.org/what-is-renewable-energy",
-        "https://www.discoverengineering.org/fundamentals-of-renewable-energy"
-      ],
-      "date": "2026-03-19T00:01:27.295293+00:00"
-    },
-    {
       "title": "Williamsburg Indoor Sports Complex Opens 120000 Square Foot Facility",
       "urls": [
         "https://www.visitwilliamsburg.com/listing/williamsburg-indoor-sports-complex/5124",
@@ -4584,7 +4561,15 @@
         "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/wmo-global-annual-decadal-climate-update-2025-2029"
       ],
       "date": "2026-03-28T23:31:23.291968+00:00"
+    },
+    {
+      "title": "Google Chrome Protects Billions With Advanced Safe Browsing Security",
+      "urls": [
+        "https://www.google.com/chrome",
+        "https://www.google.com?hl=to-US"
+      ],
+      "date": "2026-03-29T00:02:30.593821+00:00"
     }
   ],
-  "lastUpdated": "2026-03-28T23:31:23.292024+00:00"
+  "lastUpdated": "2026-03-29T00:02:30.593894+00:00"
 }
