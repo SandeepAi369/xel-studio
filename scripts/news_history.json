@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Zip Code Based Weather Updates",
-      "urls": [
-        "https://www.foxnews.com?msockid=295d78b8d570691c22606f99d48968e7"
-      ],
-      "date": "2026-03-19T05:32:19.956158+00:00"
-    },
-    {
-      "title": "Artificial Products Replicate Nature Through Human Innovation",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/artificial",
-        "https://www.dictionary.com/browse/artificial",
-        "https://dictionary.cambridge.org/dictionary/english/artificial",
-        "https://en.m.wiktionary.org/wiki/artificial",
-        "https://www.collinsdictionary.com/dictionary/english/artificial",
-        "https://www.thefreedictionary.com/artificial",
-        "https://www.wordreference.com/definition/artificial",
-        "https://www.yourdictionary.com/artificial",
-        "https://www.wordnik.com/words/artificial",
-        "https://www.definitions.net/definition/artificial"
-      ],
-      "date": "2026-03-19T06:01:23.980334+00:00"
-    },
-    {
       "title": "Florida Psychiatrist Links Hugs To Healthy Child Development",
       "urls": [
         "https://wol.jw.org/en/wol/d/r1/lp-e/102009449",
@@ -4578,7 +4555,17 @@
         "https://sports.justwatch.com/us/tennis"
       ],
       "date": "2026-03-29T05:31:12.460126+00:00"
+    },
+    {
+      "title": "Google Launches PaLM 2 With Enhanced Text And Code Generation",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "https://www.merriam-webster.com/dictionary/generative",
+        "https://www.ibm.com/think/topics/generative-ai",
+        "https://www.coursera.org/articles/what-is-generative-ai"
+      ],
+      "date": "2026-03-29T06:02:24.295801+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T05:31:12.460190+00:00"
+  "lastUpdated": "2026-03-29T06:02:24.295864+00:00"
 }
