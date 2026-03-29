@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration Centralizes Medical Reviews for 11 Million Recipients",
-      "urls": [
-        "https://www.ssa.gov/news/en/press/releases/2026-03-12.html"
-      ],
-      "date": "2026-03-19T11:03:30.082146+00:00"
-    },
-    {
-      "title": "Geopolitical Futures provides in-depth analysis of global political trends using forecasting models ",
-      "urls": [
-        "https://geopoliticalfutures.com"
-      ],
-      "date": "2026-03-19T11:31:26.421943+00:00"
-    },
-    {
       "title": "United States And Israel Strike Iran In Coordinated Military Operation",
       "urls": [
         "https://www.thegeopoliticaldesk.com",
@@ -4559,7 +4545,14 @@
         "https://www.usitc.gov/press_room/news_release/2025/er0923_67606.htm"
       ],
       "date": "2026-03-29T11:01:34.358640+00:00"
+    },
+    {
+      "title": "Konami Launches eFootball As Free-To-Play Global Sports Platform",
+      "urls": [
+        "https://www.konami.com/efootball/es/page/overview"
+      ],
+      "date": "2026-03-29T11:32:14.750970+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T11:01:34.358715+00:00"
+  "lastUpdated": "2026-03-29T11:32:14.751037+00:00"
 }
