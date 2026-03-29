@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Models Create Human Like Content Using Deep Learning",
-      "urls": [
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=054ccaf567a66a4e226dddd466016bb0",
-        "https://researchguides.library.wisc.edu/GenerativeAI",
-        "https://dictionary.cambridge.org/dictionary/english/generative",
-        "https://www.dictionary.com/browse/generative",
-        "https://www.thefreedictionary.com/generative",
-        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai"
-      ],
-      "date": "2026-03-19T19:32:18.258625+00:00"
-    },
-    {
       "title": "Tomatoes Recalled in 14 States Over Salmonella Risk",
       "urls": [
         "https://www.bucyrustelegraphforum.com/news",
@@ -4560,7 +4548,18 @@
         "https://www.mistral.com.br/sobre-a-mistral"
       ],
       "date": "2026-03-29T19:03:40.137404+00:00"
+    },
+    {
+      "title": "Cleveland Marathon Celebrates Over Four Decades Of Community Running",
+      "urls": [
+        "https://findmymarathon.com",
+        "https://www.usamarathonlist.com",
+        "https://www.britannica.com/sports/marathon-race",
+        "https://www.clevelandmarathon.com",
+        "https://www.marathonguide.com/races/home.cfm"
+      ],
+      "date": "2026-03-29T19:34:19.232605+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T19:03:40.137467+00:00"
+  "lastUpdated": "2026-03-29T19:34:19.232663+00:00"
 }
