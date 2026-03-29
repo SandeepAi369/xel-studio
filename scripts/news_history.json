@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "KONAMI Celebrates eFootball 30th Anniversary With Limited Messi Cards",
-      "urls": [
-        "https://www.konami.com/efootball/30th/en-us",
-        "https://www.konami.com/efootball/ar/page/overview",
-        "https://www.konami.com/efootball/en",
-        "https://www.konami.com/efootball/en-us/page/overview",
-        "https://bluegrasspreps.com/forums/topic/251031-2025-collins-titans",
-        "https://bluegrasspreps.com/forums/topic/252694-2025-nfhs-football-rules-changes",
-        "https://bluegrasspreps.com/forums/topic/257639-khsaa-board-of-control-meeting-february-19-2026",
-        "https://www.konami.com/games/eu/en/topics/17409",
-        "https://www.konami.com/games/eu/en/products/pes2017",
-        "https://bluegrasspreps.com/forums/forum/4-ky-football-high-school"
-      ],
-      "date": "2026-03-19T13:03:49.428231+00:00"
-    },
-    {
       "title": "Google Launches 200-Step Search Help Guide With Video Tutorials",
       "urls": [
         "https://support.google.com/websearch?hl=en"
@@ -4558,7 +4542,15 @@
         "https://environnement.brussels/citoyen/documentation-et-outils/etat-des-lieux-de-lenvironnement/le-climat-en-region-bruxelloise"
       ],
       "date": "2026-03-29T13:02:26.790773+00:00"
+    },
+    {
+      "title": "IBM Advances Machine Learning With New AI Algorithms",
+      "urls": [
+        "https://ai.google",
+        "https://www.ibm.com/think/topics/artificial-intelligence"
+      ],
+      "date": "2026-03-29T13:31:19.389715+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T13:02:26.790835+00:00"
+  "lastUpdated": "2026-03-29T13:31:19.389781+00:00"
 }
