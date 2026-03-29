@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ethereum Trades at $2,199 Amid $23.2 Billion Volume Surge",
-      "urls": [
-        "https://coinmarketcap.com/all/views/all",
-        "https://coinmarketcap.com/coins",
-        "https://coinmarketcap.com/charts",
-        "https://coinmarketcap.com/currencies/ethereum",
-        "https://coinmarketcap.com/cryptocurrency-category",
-        "https://coinmarketcap.com/trending-cryptocurrencies",
-        "https://coinmarketcap.com/gainers-losers",
-        "https://coinmarketcap.com/best-cryptos",
-        "https://coinmarketcap.com/rankings/exchanges",
-        "https://coinmarketcap.com/currencies/xrp"
-      ],
-      "date": "2026-03-19T08:04:38.763892+00:00"
-    },
-    {
       "title": "U.S. Admits Over 30000 Refugees From Congo And Syria This Fiscal Year",
       "urls": [
         "https://www.rpc.state.gov/admissions-and-arrivals",
@@ -4564,7 +4548,14 @@
         "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
       ],
       "date": "2026-03-29T08:01:32.612374+00:00"
+    },
+    {
+      "title": "Tricia McLaughlin Steps Down As Deputy Press Secretary",
+      "urls": [
+        "https://www.bucyrustelegraphforum.com/story/news/politics/2026/02/17/dhs-immigration-spokeswoman-tricia-mclaughlin-departs/88723022007"
+      ],
+      "date": "2026-03-29T08:31:09.508703+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T08:01:32.612422+00:00"
+  "lastUpdated": "2026-03-29T08:31:09.508769+00:00"
 }
