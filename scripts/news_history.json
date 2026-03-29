@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Accessible Design Ensures Buildings Accommodate People With Disabilities",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible",
-        "https://dictionary.cambridge.org/dictionary/english/accessible",
-        "https://www.dictionary.com/browse/accessible",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/accessible",
-        "https://www.wordreference.com/definition/accessible"
-      ],
-      "date": "2026-03-19T04:32:47.450787+00:00"
-    },
-    {
       "title": "Quantum Fiber Launches 360 WiFi System With 5 Gbps Speeds",
       "urls": [
         "https://www.quantumfiber.com",
@@ -4574,7 +4563,17 @@
         "https://edition.cnn.com/sport/tennis"
       ],
       "date": "2026-03-29T04:04:26.806721+00:00"
+    },
+    {
+      "title": "MIT Researchers Discover AI Chatbots Favor Privileged Users",
+      "urls": [
+        "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
+        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
+        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
+        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219"
+      ],
+      "date": "2026-03-29T04:34:27.422118+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T04:04:26.806793+00:00"
+  "lastUpdated": "2026-03-29T04:34:27.422199+00:00"
 }
