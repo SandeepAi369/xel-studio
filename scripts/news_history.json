@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Williamsburg Indoor Sports Complex Opens 120000 Square Foot Facility",
-      "urls": [
-        "https://www.visitwilliamsburg.com/listing/williamsburg-indoor-sports-complex/5124",
-        "https://www.visitwilliamsburg.com/sports",
-        "https://www.visitwilliamsburg.com/events/sports-and-recreation",
-        "https://www.swvasports.com/ipb/index.php",
-        "https://www.visitwilliamsburg.com/sports/events",
-        "https://www.visitwilliamsburg.com/listing/warhill-sports-complex/3689",
-        "https://www.swvasports.com/ipb/index.php",
-        "https://www.swvasports.com/ipb/index.php",
-        "https://www.swvasports.com/ipb/index.php",
-        "https://www.swvasports.com/ipb/index.php"
-      ],
-      "date": "2026-03-19T00:33:22.143348+00:00"
-    },
-    {
       "title": "Magnetic Microrobots Achieve Clinical Readiness For Targeted Therapy",
       "urls": [
         "https://www.science.org",
@@ -4583,7 +4567,21 @@
         "https://www.olympics.com/en/olympic-games/olympic-results"
       ],
       "date": "2026-03-29T00:31:11.873975+00:00"
+    },
+    {
+      "title": "Who: Myanmar Earthquake Kills Over 150 in Sagaing Region",
+      "urls": [
+        "https://www.who.int/southeastasia/outbreaks-and-emergencies/myanmar-earthquake-response-2025",
+        "https://www.who.int/westernpacific/newsroom/feature-stories/item/on-the-path-to-recovery--three-months-after-the-earthquake-in-vanuatu",
+        "https://www.who.int/nepal/emergencies/west-nepal-earthquake",
+        "https://www.who.int/nepal/news/detail/07-11-2023-who-responds-to-nepal-earthquake",
+        "https://www.who.int/health-topics/earthquakes",
+        "https://www.who.int/emergencies/situations/Earthquake-Türkiye-Syria",
+        "https://www.who.int/news-room/feature-stories/detail/how-rehabilitation-provided-a-second-chance-to-an-earthquake-survivor",
+        "https://www.who.int/publications/m/item/who-flash-appeal--earthquake-response-in-myanmar"
+      ],
+      "date": "2026-03-29T01:02:25.303965+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T00:31:11.874033+00:00"
+  "lastUpdated": "2026-03-29T01:02:25.304039+00:00"
 }
