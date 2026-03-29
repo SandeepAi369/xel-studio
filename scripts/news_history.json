@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches 200-Step Search Help Guide With Video Tutorials",
-      "urls": [
-        "https://support.google.com/websearch?hl=en"
-      ],
-      "date": "2026-03-19T13:32:27.224770+00:00"
-    },
-    {
-      "title": "Apple Community Resolves Over 1.2 Million Support Requests",
-      "urls": [
-        "https://discussions.apple.com/thread/255554428"
-      ],
-      "date": "2026-03-19T14:01:42.765565+00:00"
-    },
-    {
       "title": "Who What The World Health Organization Defines Disability Using Icf Framework",
       "urls": [
         "https://www.who.int/health-topics/disability",
@@ -4550,7 +4536,14 @@
         "https://www.ibm.com/think/topics/artificial-intelligence"
       ],
       "date": "2026-03-29T13:31:19.389715+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Households and 100 Million Online Users Monthly",
+      "urls": [
+        "https://www.foxnews.com?msockid=34c7669eaf136db33e4471b5ae506c46"
+      ],
+      "date": "2026-03-29T14:05:42.881275+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T13:31:19.389781+00:00"
+  "lastUpdated": "2026-03-29T14:05:42.881338+00:00"
 }
