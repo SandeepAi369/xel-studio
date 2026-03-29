@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thesaurus Com Delivers 131 Hate Synonyms With Contextual Examples",
-      "urls": [
-        "https://www.wordhippo.com/what-is/the-opposite-of/hate.html",
-        "https://www.merriam-webster.com/thesaurus/hate",
-        "https://www.thesaurus.com/browse/hate",
-        "https://www.synonyms.com/antonyms/hate+",
-        "https://dictionary.cambridge.org/thesaurus/hate",
-        "https://www.powerthesaurus.org/hate/antonyms",
-        "https://www.examveda.com/antonym-of-hate-100651",
-        "https://www.synonyms-thesaurus.com/antonyms-hate",
-        "https://www.antonym.com/antonyms/hate",
-        "https://www.applied-grammar.com/opposite-of-hate"
-      ],
-      "date": "2026-03-19T10:32:22.337225+00:00"
-    },
-    {
       "title": "Social Security Administration Centralizes Medical Reviews for 11 Million Recipients",
       "urls": [
         "https://www.ssa.gov/news/en/press/releases/2026-03-12.html"
@@ -4566,7 +4550,16 @@
         "https://www.nature.com/subjects/conservation"
       ],
       "date": "2026-03-29T10:31:11.727936+00:00"
+    },
+    {
+      "title": "Unctad Reports 4% Global Trade Growth In Early 2025",
+      "urls": [
+        "https://www.usnews.com/topics/subjects/international-trade",
+        "https://unctad.org/publication/trade-and-development-report-2025",
+        "https://www.usitc.gov/press_room/news_release/2025/er0923_67606.htm"
+      ],
+      "date": "2026-03-29T11:01:34.358640+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T10:31:11.727999+00:00"
+  "lastUpdated": "2026-03-29T11:01:34.358715+00:00"
 }
