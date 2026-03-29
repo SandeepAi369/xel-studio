@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare Gov Launches 2024 Marketplace Plans With Expanded Coverage Options",
-      "urls": [
-        "https://www.healthcare.gov",
-        "https://www.healthcare.gov/login",
-        "https://www.healthcare.gov/get-coverage",
-        "https://www.healthcare.gov/see-plans",
-        "https://www.healthcare.gov/screener",
-        "https://www.healthcare.gov/apply-and-enroll/health-insurance-plans-estimator-overview",
-        "https://www.healthcare.gov/contact-us",
-        "https://www.healthcare.gov/get-answers",
-        "https://www.healthcare.gov/find-local-help/results?q=ohio457.org",
-        "https://www.healthcare.gov/forgot-password"
-      ],
-      "date": "2026-03-19T21:32:31.616295+00:00"
-    },
-    {
       "title": "Crest Ai Platform Designs 12000 Experiments With 78 Percent Success Rate",
       "urls": [
         "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919",
@@ -4548,7 +4532,15 @@
         "https://www.fifa.com"
       ],
       "date": "2026-03-29T21:04:38.780917+00:00"
+    },
+    {
+      "title": "Alphabet Reports 28% Year-Over-Year Growth In Google Cloud Revenue",
+      "urls": [
+        "https://www.marketwatch.com/investing/stock/googl",
+        "https://www.cnbc.com/quotes/GOOGL?msockid=1f17610f7151625a1cba762470406373"
+      ],
+      "date": "2026-03-29T21:33:15.832681+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T21:04:38.780994+00:00"
+  "lastUpdated": "2026-03-29T21:33:15.832735+00:00"
 }
