@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who What The World Health Organization Defines Disability Using Icf Framework",
-      "urls": [
-        "https://www.who.int/health-topics/disability",
-        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
-        "https://www.who.int/docs/librariesprovider2/default-document-library/disability-sdg-factsheet.pdf",
-        "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
-        "https://www.who.int/news-room/facts-in-pictures/detail/disabilities"
-      ],
-      "date": "2026-03-19T14:31:37.023672+00:00"
-    },
-    {
       "title": "Research Unveils Multimodal System With 88% Accuracy Across 12 Languages",
       "urls": [
         "https://ai.meta.com/research"
@@ -4553,7 +4542,23 @@
         "https://sports.yahoo.com/watch"
       ],
       "date": "2026-03-29T14:31:35.204671+00:00"
+    },
+    {
+      "title": "Mayo Clinic Identifies Autism Spectrum Disorder Through Behavioral Assessments",
+      "urls": [
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934",
+        "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://www.mayoclinichealthsystem.org/topics/autism",
+        "https://www.mayoclinic.org/es/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/understanding-autism",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937",
+        "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/autism-treatments-and-therapies",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/care-at-mayo-clinic/mac-20581890",
+        "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
+      ],
+      "date": "2026-03-29T15:01:26.966351+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T14:31:35.204728+00:00"
+  "lastUpdated": "2026-03-29T15:01:26.966422+00:00"
 }
