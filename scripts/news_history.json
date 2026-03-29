@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Fiber Launches 360 WiFi System With 5 Gbps Speeds",
-      "urls": [
-        "https://www.quantumfiber.com",
-        "https://www.nist.gov/blogs/taking-measure/demystifying-quantum-its-here-there-and-everywhere",
-        "https://www.quantum.com",
-        "https://www.sciencenewstoday.org/the-basics-of-quantum-physics",
-        "https://www.anl.gov/science-101/quantum",
-        "https://www.nsf.gov/science-matters/curious-about-quantum"
-      ],
-      "date": "2026-03-19T05:01:22.029469+00:00"
-    },
-    {
       "title": "Fox News Launches Zip Code Based Weather Updates",
       "urls": [
         "https://www.foxnews.com?msockid=295d78b8d570691c22606f99d48968e7"
@@ -4573,7 +4561,17 @@
         "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219"
       ],
       "date": "2026-03-29T04:34:27.422118+00:00"
+    },
+    {
+      "title": "Ubuntu Launches Multiple Editions For Desktop Server And IoT Devices",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Linux",
+        "https://www.linux.com/what-is-linux",
+        "https://ubuntu.com/download",
+        "https://www.linuxmint.com"
+      ],
+      "date": "2026-03-29T05:01:24.607665+00:00"
     }
   ],
-  "lastUpdated": "2026-03-29T04:34:27.422199+00:00"
+  "lastUpdated": "2026-03-29T05:01:24.607729+00:00"
 }
