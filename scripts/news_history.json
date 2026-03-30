@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Relationships Rare Among Affluent Urban Chinese",
-      "urls": [
-        "https://www.zhihu.com/question/374473926",
-        "https://www.zhihu.com/question/267106456"
-      ],
-      "date": "2026-03-20T18:35:32.460715+00:00"
-    },
-    {
-      "title": "Who: World Health Organization Reports Over 1 Billion With Mental Health Conditions",
-      "urls": [
-        "https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up",
-        "https://www.who.int/data/gho/data/themes/theme-details/GHO/mental-health",
-        "https://www.who.int/europe/news/item/25-09-2024-teens--screens-and-mental-health",
-        "https://www.who.int/news/item/16-12-2025-world-leaders-adopt-a-historic-global-declaration-on-noncommunicable-diseases-and-mental-health",
-        "https://www.who.int/es/health-topics/mental-health"
-      ],
-      "date": "2026-03-20T19:01:34.034574+00:00"
-    },
-    {
       "title": "Amazon Deploys 750000 Robots And Digit Humanoids To Speed Fulfillment",
       "urls": [
         "https://spectrum.ieee.org/amazon-ai-robotics"
@@ -4579,7 +4560,18 @@
         "https://www.foxnews.com?msockid=08c04de53e676335113f5ac93f5c62fa"
       ],
       "date": "2026-03-30T18:31:57.942820+00:00"
+    },
+    {
+      "title": "Moody's Economist Warns Of Recession As Oil Prices Surge",
+      "urls": [
+        "https://www.weforum.org/publications/global-risks-report-2023/in-full/1-global-risks-2023-today-s-crisis",
+        "https://money.usnews.com/investing/articles/recession-2026-what-to-watch-how-to-prepare",
+        "https://www.cnbc.com/2026/03/26/global-forecasting-group-sees-us-inflation-at-4point2percent-this-year-much-higher-than-fed-estimate.html",
+        "https://www.thestreet.com/economy/moodys-delivers-blunt-verdict-on-recession",
+        "https://www.cbsnews.com/news/oil-prices-record-high-middle-east-conflict-inflation"
+      ],
+      "date": "2026-03-30T19:02:34.183392+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T18:31:57.942883+00:00"
+  "lastUpdated": "2026-03-30T19:02:34.183455+00:00"
 }
