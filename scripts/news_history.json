@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen Holdings Develops Advanced Photolithography Tools for 2nm Chips",
-      "urls": [
-        "https://www.screen.co.jp/overview"
-      ],
-      "date": "2026-03-20T17:32:16.199726+00:00"
-    },
-    {
       "title": "Apple Unveils iPhone 17 Pro With Titanium Frame And 8GB RAM",
       "urls": [
         "https://www.morningstar.com/stocks/xnas/aapl/quote",
@@ -4567,7 +4560,18 @@
         "https://www.who.int/publications/i/item/9789290225188"
       ],
       "date": "2026-03-30T17:10:08.835585+00:00"
+    },
+    {
+      "title": "Merriam-Webster And Cambridge Define Accessibility For All Users",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/accessible",
+        "https://dictionary.cambridge.org/dictionary/english/accessible",
+        "https://www.dictionary.com/browse/accessible",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/accessible",
+        "https://www.thefreedictionary.com/accessible"
+      ],
+      "date": "2026-03-30T17:40:39.084611+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T17:10:08.835663+00:00"
+  "lastUpdated": "2026-03-30T17:40:39.084670+00:00"
 }
