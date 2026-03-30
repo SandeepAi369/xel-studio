@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who What: WHO Deploys Emergency Teams to Vanuatu After 7.3 Quake",
-      "urls": [
-        "https://www.who.int/westernpacific/newsroom/feature-stories/item/vanuatu-responds-to-multiple-health-challenges-following-7.3-magnitude-earthquake"
-      ],
-      "date": "2026-03-20T21:02:42.690051+00:00"
-    },
-    {
       "title": "PC Gamer Forums Fix Layout Issues Affecting User Experience",
       "urls": [
         "https://forums.pcgamer.com/forums/general-gaming.33",
@@ -4591,7 +4584,15 @@
         "https://news.mit.edu/2022/data-visualization-accessible-blind-0602"
       ],
       "date": "2026-03-30T21:01:32.436498+00:00"
+    },
+    {
+      "title": "NewsBreak Delivers Local Updates To 150 Million Users Monthly",
+      "urls": [
+        "https://www.foxnews.com?msockid=344a802f2fec698202db97032e66684b",
+        "https://www.newsbreak.com"
+      ],
+      "date": "2026-03-30T21:32:13.257496+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T21:01:32.436572+00:00"
+  "lastUpdated": "2026-03-30T21:32:13.257558+00:00"
 }
