@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sacramento Tennis League Connects 1200 Players With USTA Sanctioned Matches",
-      "urls": [
-        "https://www.tennissacramento.com",
-        "https://en.wikipedia.org/wiki/Tennis",
-        "https://www.usta.com/en/home.html"
-      ],
-      "date": "2026-03-20T08:32:32.458899+00:00"
-    },
-    {
-      "title": "Incredible Feat Achieved by Team USA at World Championships",
-      "urls": [
-        "https://www.wordreference.com/definition/incredible"
-      ],
-      "date": "2026-03-20T09:01:25.673659+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 U.S. ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=07c1cc6135e66e910a47db4334d36f83"
@@ -4532,7 +4516,17 @@
         "https://www.swvasports.com/ipb/index.php"
       ],
       "date": "2026-03-30T08:32:20.669734+00:00"
+    },
+    {
+      "title": "Extreme Finishes Seventh Studio Album After 13 Years",
+      "urls": [
+        "https://www.syracuse.com/entertainment/2026/03/90s-rock-band-says-its-new-album-is-greatest-album-weve-ever-done.html",
+        "https://www.livenation.com/artist/K8vZ9171Caf/extreme-events",
+        "https://www.extremegymnastics.com",
+        "https://www.imdb.com/name/nm1928195"
+      ],
+      "date": "2026-03-30T09:02:47.831400+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T08:32:20.669790+00:00"
+  "lastUpdated": "2026-03-30T09:02:47.831463+00:00"
 }
