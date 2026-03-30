@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Histology Guide Launches 300 Slide Virtual Microscopy Platform",
-      "urls": [
-        "https://histologyguide.com",
-        "https://histologyguide.com/slidebox/slidebox.html",
-        "https://histologyguide.com/search.html",
-        "https://histologyguide.com/gallery/gallery.html",
-        "https://histologyguide.com/slidebox/01-introduction.html",
-        "https://www.zhihu.com/topic/19552757",
-        "https://www.zhihu.com/column/c_1853009557510561792",
-        "https://www.zhihu.com/question/3141235744",
-        "https://www.zhihu.com/question/8523409683",
-        "https://www.zhihu.com/question/1891199099660923566"
-      ],
-      "date": "2026-03-20T07:31:10.766157+00:00"
-    },
-    {
       "title": "Google Cloud Integrates Cloud Storage With BigQuery For Real Time Analytics",
       "urls": [
         "https://cloud.google.com/storage",
@@ -4525,7 +4509,22 @@
         "https://mexico.internationaltrucks.com/camiones-torton"
       ],
       "date": "2026-03-30T07:03:39.561995+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Deliver Cheapest New Electricity At 3 To 5 Cents Per Kilowatt-Hour",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Renewable_energy",
+        "https://www.britannica.com/science/renewable-energy",
+        "https://www.eia.gov/energyexplained/renewable-sources",
+        "https://www.un.org/en/climatechange/what-is-renewable-energy",
+        "https://extension.psu.edu/what-is-renewable-energy",
+        "https://www.nationalgeographic.com/environment/article/renewable-energy",
+        "https://understand-energy.stanford.edu/energy-resources/renewable-energy/introduction-renewable-energy",
+        "https://iere.org/what-is-renewable-energy",
+        "https://electricrates.org/blog/renewable-electricity-sources-guide"
+      ],
+      "date": "2026-03-30T07:33:29.375670+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T07:03:39.562056+00:00"
+  "lastUpdated": "2026-03-30T07:33:29.375732+00:00"
 }
