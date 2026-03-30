@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Brett Erickson Warns Border Security At Risk Amid Global Crises",
-      "urls": [
-        "https://thehill.com/opinion/national-security/5789981-geopolitical-instability-us-security-threats"
-      ],
-      "date": "2026-03-20T14:02:49.079116+00:00"
-    },
-    {
-      "title": "Hugging Face Outage Disrupts Global AI Model Access",
-      "urls": [
-        "https://www.zhihu.com/question/599683557",
-        "https://www.zhihu.com/question/10196054241"
-      ],
-      "date": "2026-03-20T14:34:36.905655+00:00"
-    },
-    {
       "title": "TheBloke Releases Over 1500 Quantized AI Models for Consumer Hardware",
       "urls": [
         "https://www.zhihu.com/pin/1988007536113239253"
@@ -4555,7 +4540,14 @@
         "https://china2brazil.com.br/upseller-erp-oferece-solucao-gratuita-para-alavancar-a-eficiencia-dos-vendedores"
       ],
       "date": "2026-03-30T14:01:50.918096+00:00"
+    },
+    {
+      "title": "Fox News maintains a broad reach across the United States with its programming available in approxim",
+      "urls": [
+        "https://www.foxnews.com?msockid=2a3b125569ac65fb175f057968fd6483"
+      ],
+      "date": "2026-03-30T14:35:02.824597+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T14:01:50.918153+00:00"
+  "lastUpdated": "2026-03-30T14:35:02.824668+00:00"
 }
