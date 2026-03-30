@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Deploys 750000 Robots And Digit Humanoids To Speed Fulfillment",
-      "urls": [
-        "https://spectrum.ieee.org/amazon-ai-robotics"
-      ],
-      "date": "2026-03-20T19:31:18.572253+00:00"
-    },
-    {
       "title": "Ibm Enhances Digital Experience Monitoring With Real Time User Analytics",
       "urls": [
         "https://www.ibm.com/mx-es/think/topics/digital-experience-monitoring",
@@ -4579,7 +4572,15 @@
         "https://www.forbes.com/digital-assets/news/web3"
       ],
       "date": "2026-03-30T19:31:15.639676+00:00"
+    },
+    {
+      "title": "Facial Recognition Deployed In 75 Cities Amid Legal Gaps",
+      "urls": [
+        "https://www.abacademies.org/articles/the-politics-of-privacy-global-responses-to-data-protection-and-surveillance-laws.pdf",
+        "https://news.un.org/en/story/2023/06/1137302"
+      ],
+      "date": "2026-03-30T20:01:17.371266+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T19:31:15.639733+00:00"
+  "lastUpdated": "2026-03-30T20:01:17.371369+00:00"
 }
