@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google App integrates advanced AI tools like Lens, AR, and voice search to enhance user interaction.",
-      "urls": [
-        "https://accounts.google.com",
-        "https://mail.google.com",
-        "https://www.google.us/travel",
-        "https://search.google/google-app",
-        "https://apps.apple.com/us/app/google/id284815942",
-        "https://blog.google",
-        "https://maps.google.com"
-      ],
-      "date": "2026-03-20T10:02:39.897205+00:00"
-    },
-    {
       "title": "Fox News Launches Zip Code Level Weather Alerts Nationwide",
       "urls": [
         "https://www.foxnews.com?msockid=0dedb926de2e6ef50268ae04df9e6f32"
@@ -4544,7 +4531,15 @@
         "https://www.irishtimes.com/sport/athletics/2026/03/11/ronnie-delany-irelands-olympic-gold-medal-winning-athlete-has-died-aged-91"
       ],
       "date": "2026-03-30T10:02:04.041221+00:00"
+    },
+    {
+      "title": "GPT And Dall E Generate Original Content Using Deep Learning",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial"
+      ],
+      "date": "2026-03-30T10:31:23.250824+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T10:02:04.041287+00:00"
+  "lastUpdated": "2026-03-30T10:31:23.250885+00:00"
 }
