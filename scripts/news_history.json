@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ibm Enhances Digital Experience Monitoring With Real Time User Analytics",
-      "urls": [
-        "https://www.ibm.com/mx-es/think/topics/digital-experience-monitoring",
-        "https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/business-trends-2026"
-      ],
-      "date": "2026-03-20T20:02:34.453766+00:00"
-    },
-    {
-      "title": "Apple Updates iPhone Battery Optimization in iOS 17.5",
-      "urls": [
-        "https://www.reuters.com/technology",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
-        "https://www.cnet.com/tech",
-        "https://www.cnbc.com/technology?msockid=05bb47976510627a355b50b564e06350",
-        "https://www.bbc.com/technology"
-      ],
-      "date": "2026-03-20T20:31:15.005711+00:00"
-    },
-    {
       "title": "Who What: WHO Deploys Emergency Teams to Vanuatu After 7.3 Quake",
       "urls": [
         "https://www.who.int/westernpacific/newsroom/feature-stories/item/vanuatu-responds-to-multiple-health-challenges-following-7.3-magnitude-earthquake"
@@ -4580,7 +4561,21 @@
         "https://news.un.org/en/story/2023/06/1137302"
       ],
       "date": "2026-03-30T20:01:17.371266+00:00"
+    },
+    {
+      "title": "MIT Researchers Build 3D Objects Using Voice Commands and AI",
+      "urls": [
+        "https://news.mit.edu/topic/robotics",
+        "https://spectrum.ieee.org/tag/robotics",
+        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
+        "https://spectrum.ieee.org/top-robotics-stories-2025",
+        "https://news.mit.edu/topic/robotics?page=1",
+        "https://spectrum.ieee.org/top-robotics-stories-2024",
+        "https://spectrum.ieee.org/ai-institute",
+        "https://spectrum.ieee.org/mits-ai-robotics-lab-director"
+      ],
+      "date": "2026-03-30T20:32:16.119573+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T20:01:17.371369+00:00"
+  "lastUpdated": "2026-03-30T20:32:16.119646+00:00"
 }
