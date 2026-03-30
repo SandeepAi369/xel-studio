@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Trucks Expands to 85 Locations Across Mexico",
-      "urls": [
-        "https://www.360.internationaltrucks.com",
-        "https://mexico.internationaltrucks.com",
-        "https://mexico.internationaltrucks.com/camiones-de-carga",
-        "https://mexico.internationaltrucks.com/contacto",
-        "https://mexico.internationaltrucks.com/distribuidores-international",
-        "https://mexico.internationaltrucks.com/camiones-torton",
-        "https://mexico.internationaltrucks.com/camiones-chatos",
-        "https://mexico.internationaltrucks.com/nosotros",
-        "https://mexico.internationaltrucks.com/tractocamion-en-venta",
-        "https://mexico.internationaltrucks.com/autobus-de-pasajeros"
-      ],
-      "date": "2026-03-20T03:31:13.428081+00:00"
-    },
-    {
       "title": "Insurers Submit ACA Premium Hikes Over 10% for Federal Review",
       "urls": [
         "https://www.healthcare.gov/create-account",
@@ -4552,7 +4536,18 @@
         "https://www.si.com/nfl"
       ],
       "date": "2026-03-30T03:08:02.749338+00:00"
+    },
+    {
+      "title": "World Economic Forum Warns Geopolitical Tensions Disrupt Global Trade in 2025",
+      "urls": [
+        "https://www.weforum.org/publications/global-risks-report-2026",
+        "https://www.weforum.org/stories/2025/08/inflection-points-7-global-shifts-defining-2025-so-far-in-charts",
+        "https://www.weforum.org/stories/2026/01/global-risks-2026-top-10-two-and-ten-year-horizon",
+        "https://www.weforum.org/stories/2025/06/how-supply-chains-need-to-adapt-to-a-shifting-global-landscape",
+        "https://www.weforum.org/publications/global-retail-investor-outlook-2025"
+      ],
+      "date": "2026-03-30T03:33:20.957644+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T03:08:02.749391+00:00"
+  "lastUpdated": "2026-03-30T03:33:20.957712+00:00"
 }
