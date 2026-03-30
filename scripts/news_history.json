@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Insurers Submit ACA Premium Hikes Over 10% for Federal Review",
-      "urls": [
-        "https://www.healthcare.gov/create-account",
-        "https://ratereview.healthcare.gov",
-        "https://www.healthcare.gov/lower-costs"
-      ],
-      "date": "2026-03-20T04:01:26.365873+00:00"
-    },
-    {
       "title": "Calgary Sees Rise In Childhood Cavities After Fluoride Removal",
       "urls": [
         "https://www.sciencenews.org",
@@ -4547,7 +4538,19 @@
         "https://www.weforum.org/publications/global-retail-investor-outlook-2025"
       ],
       "date": "2026-03-30T03:33:20.957644+00:00"
+    },
+    {
+      "title": "Anthropic Launches Institute for AI Safety and Public Policy Expansion",
+      "urls": [
+        "https://www.anthropic.com",
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/learn",
+        "https://www.anthropic.com/company",
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news/the-anthropic-institute"
+      ],
+      "date": "2026-03-30T04:02:28.738619+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T03:33:20.957712+00:00"
+  "lastUpdated": "2026-03-30T04:02:28.738686+00:00"
 }
