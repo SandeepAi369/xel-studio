@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters Journalists Deliver Real-Time Global News From 160 Countries",
-      "urls": [
-        "https://www.foxnews.com?msockid=0f296314698961be1435743668a260e3",
-        "https://www.reuters.com/live"
-      ],
-      "date": "2026-03-20T05:04:40.513176+00:00"
-    },
-    {
       "title": "International Olympic Committee Ends Esports Deal With Saudi Arabia",
       "urls": [
         "https://www.espn.com/gaming",
@@ -4560,7 +4552,17 @@
         "https://store.steampowered.com/app/280680/Krita"
       ],
       "date": "2026-03-30T05:03:35.340850+00:00"
+    },
+    {
+      "title": "United States And Israel Strike Iranian Nuclear Facilities",
+      "urls": [
+        "https://www.geopolitika.it/en/geopolitics-definition-meaning-and-role-of-a-foundational-discipline-in-understanding-global-power",
+        "https://www.csis.org/geopolitics-foreign-policy",
+        "https://geopoliticalfutures.com",
+        "https://www.middleeastmonitor.com/20260325-geopolitical-economic-and-humanitarian-implications-of-the-2026-us-israel-iran-conflict"
+      ],
+      "date": "2026-03-30T05:31:16.022026+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T05:03:35.340903+00:00"
+  "lastUpdated": "2026-03-30T05:31:16.022088+00:00"
 }
