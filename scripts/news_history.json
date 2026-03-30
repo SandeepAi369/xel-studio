@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Expands Ecosystem With Gemini AI And Cloud Innovations",
-      "urls": [
-        "https://mail.google.com/mail",
-        "https://mail.google.com/mail/u/0",
-        "https://www.google.com",
-        "https://translate.google.com.hk",
-        "https://about.google/products",
-        "https://en.wikipedia.org/wiki/Google",
-        "https://about.google"
-      ],
-      "date": "2026-03-20T02:34:34.546245+00:00"
-    },
-    {
-      "title": "Daily Jumble Challenges Players With Four Word Puzzles And Cartoon Caption",
-      "urls": [
-        "https://jumbleanswers.com/fivyer-jumble"
-      ],
-      "date": "2026-03-20T03:01:32.203655+00:00"
-    },
-    {
       "title": "International Trucks Expands to 85 Locations Across Mexico",
       "urls": [
         "https://www.360.internationaltrucks.com",
@@ -4564,7 +4544,15 @@
         "https://support.google.com/websearch?hl=en"
       ],
       "date": "2026-03-30T02:32:25.897761+00:00"
+    },
+    {
+      "title": "Dallas Cowboys Target Defensive Reinforcements With Twin First Round Draft Picks",
+      "urls": [
+        "https://www.nytimes.com/athletic/nfl",
+        "https://www.si.com/nfl"
+      ],
+      "date": "2026-03-30T03:08:02.749338+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T02:32:25.897816+00:00"
+  "lastUpdated": "2026-03-30T03:08:02.749391+00:00"
 }
