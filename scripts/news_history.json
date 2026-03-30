@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Calgary Sees Rise In Childhood Cavities After Fluoride Removal",
-      "urls": [
-        "https://www.sciencenews.org",
-        "https://www.sciencenews.org/topics",
-        "https://www.sciencenews.org/about-science-news",
-        "https://www.sciencenews.org/all-stories",
-        "https://www.sciencenews.org/sn-magazine/january-2025",
-        "https://www.sciencenews.org/topic/life",
-        "https://www.sciencenews.org/article/fluoride-drinking-water-dental-health",
-        "https://www.sciencenews.org/article/hubble-space-telescope-35th-anniversary",
-        "https://www.sciencenews.org/topic/earth",
-        "https://www.sciencenews.org/article/fractals-math-science-society-50-years"
-      ],
-      "date": "2026-03-20T04:31:14.012847+00:00"
-    },
-    {
       "title": "Reuters Journalists Deliver Real-Time Global News From 160 Countries",
       "urls": [
         "https://www.foxnews.com?msockid=0f296314698961be1435743668a260e3",
@@ -4550,7 +4534,17 @@
         "https://www.anthropic.com/news/the-anthropic-institute"
       ],
       "date": "2026-03-30T04:02:28.738619+00:00"
+    },
+    {
+      "title": "Extreme Reunites for 2024 Tour Celebrating Funk Rock Legacy",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Extreme_(band)",
+        "https://extreme-band.com",
+        "https://www.youtube.com/watch?v=ZDm6EhYadEw",
+        "https://www.airsoftextreme.com/locations/sacramento"
+      ],
+      "date": "2026-03-30T04:32:24.058168+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T04:02:28.738686+00:00"
+  "lastUpdated": "2026-03-30T04:32:24.058243+00:00"
 }
