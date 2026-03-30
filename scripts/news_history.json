@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Launches Vertex AI And AutoML For Enterprise Adoption",
-      "urls": [
-        "https://cloud.google.com?hl=fr",
-        "https://cloud.google.com/products"
-      ],
-      "date": "2026-03-20T15:31:18.711266+00:00"
-    },
-    {
       "title": "International Launches Urban Buses With ABS And Proximity Sensors",
       "urls": [
         "https://mexico.internationaltrucks.com/autobuses-de-pasajeros"
@@ -4548,7 +4540,23 @@
         "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
       ],
       "date": "2026-03-30T15:10:39.910186+00:00"
+    },
+    {
+      "title": "Walmart And Target Expand Wheelchair Availability Across U.S. Stores",
+      "urls": [
+        "https://www.amazon.com/Wheelchairs/b?node=4075961",
+        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051",
+        "https://www.homedepot.com/b/Health-And-Wellness-Mobility-Aids-Wheelchairs/N-5yc1vZc8kh",
+        "https://www.1800wheelchair.com",
+        "https://mobilitydeck.com/best-wheelchairs",
+        "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs",
+        "https://www.target.com/c/mobility-home-health-care/wheelchair/-/N-4yinmZal25lf9fc45",
+        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=0e0bc87547f76cd005f7df59463a6d39",
+        "https://www.medline.com/category/Wheelchairs/Z05-CA11_10",
+        "https://www.pridemobility.com/jazzy-power-chairs/models.asp"
+      ],
+      "date": "2026-03-30T15:33:40.425367+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T15:10:39.910249+00:00"
+  "lastUpdated": "2026-03-30T15:33:40.425435+00:00"
 }
