@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Forecasts For 28000 US Zip Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=29b6442980b76c1826c9530b81596da6"
-      ],
-      "date": "2026-03-20T02:01:26.594884+00:00"
-    },
-    {
       "title": "Google Expands Ecosystem With Gemini AI And Cloud Innovations",
       "urls": [
         "https://mail.google.com/mail",
@@ -4564,7 +4557,14 @@
         "https://www.anl.gov/science-101/quantum"
       ],
       "date": "2026-03-30T02:01:26.430372+00:00"
+    },
+    {
+      "title": "Google Launches Updated Search Help Center With Advanced Tutorial Tools",
+      "urls": [
+        "https://support.google.com/websearch?hl=en"
+      ],
+      "date": "2026-03-30T02:32:25.897761+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T02:01:26.430425+00:00"
+  "lastUpdated": "2026-03-30T02:32:25.897816+00:00"
 }
