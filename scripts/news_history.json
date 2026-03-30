@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "TheBloke Releases Over 1500 Quantized AI Models for Consumer Hardware",
-      "urls": [
-        "https://www.zhihu.com/pin/1988007536113239253"
-      ],
-      "date": "2026-03-20T15:03:42.360822+00:00"
-    },
-    {
       "title": "Google Cloud Launches Vertex AI And AutoML For Enterprise Adoption",
       "urls": [
         "https://cloud.google.com?hl=fr",
@@ -4547,7 +4540,15 @@
         "https://www.foxnews.com?msockid=2a3b125569ac65fb175f057968fd6483"
       ],
       "date": "2026-03-30T14:35:02.824597+00:00"
+    },
+    {
+      "title": "MIT Hosts Generative AI Summit With 28% Coherence Breakthrough",
+      "urls": [
+        "https://news.mit.edu/2025/ai-system-learns-many-types-scientific-information-and-runs-experiments-discovering-new-materials-0925",
+        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
+      ],
+      "date": "2026-03-30T15:10:39.910186+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T14:35:02.824668+00:00"
+  "lastUpdated": "2026-03-30T15:10:39.910249+00:00"
 }
