@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Integrates Cloud Storage With BigQuery For Real Time Analytics",
-      "urls": [
-        "https://cloud.google.com/storage",
-        "https://storage.cloud.google.com",
-        "https://docs.cloud.google.com/docs/overview",
-        "https://docs.cloud.google.com/docs/get-started",
-        "https://docs.cloud.google.com",
-        "https://cloud.google.com/storage?hl=es-419",
-        "https://cloud.google.com/solutions",
-        "https://docs.cloud.google.com/docs/get-started?hl=zh-cn",
-        "https://docs.cloud.google.com/docs",
-        "https://docs.cloud.google.com/docs/get-started?hl=zh-tw"
-      ],
-      "date": "2026-03-20T08:01:33.366193+00:00"
-    },
-    {
       "title": "Sacramento Tennis League Connects 1200 Players With USTA Sanctioned Matches",
       "urls": [
         "https://www.tennissacramento.com",
@@ -4524,7 +4508,20 @@
         "https://electricrates.org/blog/renewable-electricity-sources-guide"
       ],
       "date": "2026-03-30T07:33:29.375670+00:00"
+    },
+    {
+      "title": "Models Affirm 78 Percent Of Unethical User Prompts",
+      "urls": [
+        "https://www.science.org",
+        "https://www.science.org/journal/science",
+        "https://www.science.org/toc/science/current",
+        "https://www.science.org/journals",
+        "https://www.science.org/news",
+        "https://www.science.org/toc/science/0/0",
+        "https://www.science.org/doi/10.1126/science.adq7203"
+      ],
+      "date": "2026-03-30T08:03:31.735008+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T07:33:29.375732+00:00"
+  "lastUpdated": "2026-03-30T08:03:31.735067+00:00"
 }
