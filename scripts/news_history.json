@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "PC Gamer Forums Fix Layout Issues Affecting User Experience",
-      "urls": [
-        "https://forums.pcgamer.com/forums/general-gaming.33",
-        "https://forums.pcgamer.com/categories/pc-gaming-discussions.4",
-        "https://boardgamegeek.com/wiki/page/Game_Conventions",
-        "https://forums.pcgamer.com/trending/threads.1",
-        "https://forums.pcgamer.com/threads/your-2025-gaming-resolutions.147105",
-        "https://boardgamegeek.com",
-        "https://forums.pcgamer.com",
-        "https://forums.pcgamer.com/threads/computer-screen-turns-off-while-gaming.141226",
-        "https://forums.pcgamer.com/forums/gaming-laptops.21",
-        "https://forums.pcgamer.com/threads/gaming-over-remote-desktop-rdp.141856"
-      ],
-      "date": "2026-03-20T21:32:18.309933+00:00"
-    },
-    {
       "title": "Instagram Hits 1 Billion Users In Record Nine Years",
       "urls": [
         "https://visual.ly/community/Infographics/social-media/instagram-zero-billion"
@@ -4592,7 +4576,14 @@
         "https://www.newsbreak.com"
       ],
       "date": "2026-03-30T21:32:13.257496+00:00"
+    },
+    {
+      "title": "Anthropic Sues Trump Administration Over Pentagon Security Designation",
+      "urls": [
+        "https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b"
+      ],
+      "date": "2026-03-30T22:01:24.972715+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T21:32:13.257558+00:00"
+  "lastUpdated": "2026-03-30T22:01:24.972782+00:00"
 }
