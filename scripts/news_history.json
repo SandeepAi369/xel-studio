@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Access Board Updates ADA Accessibility Standards for Public Buildings",
-      "urls": [
-        "https://www.collinsdictionary.com/dictionary/english/accessible",
-        "https://www.thefreedictionary.com/accessible"
-      ],
-      "date": "2026-03-20T17:06:17.393662+00:00"
-    },
-    {
       "title": "Screen Holdings Develops Advanced Photolithography Tools for 2nm Chips",
       "urls": [
         "https://www.screen.co.jp/overview"
@@ -4568,7 +4560,14 @@
         "https://incrediblefoodandfun.com"
       ],
       "date": "2026-03-30T16:40:24.190954+00:00"
+    },
+    {
+      "title": "Nepal Earthquake Kills Nearly 9000 And Destroys Over 600000 Buildings",
+      "urls": [
+        "https://www.who.int/publications/i/item/9789290225188"
+      ],
+      "date": "2026-03-30T17:10:08.835585+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T16:40:24.191026+00:00"
+  "lastUpdated": "2026-03-30T17:10:08.835663+00:00"
 }
