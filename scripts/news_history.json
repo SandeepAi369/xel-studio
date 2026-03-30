@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Waffle House Closes Multiple South Carolina Locations Amid Winter Storm",
-      "urls": [
-        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/01/24/waffle-houses-close-as-winter-storm-nears-south-carolina/88344756007",
-        "https://www.bucyrustelegraphforum.com/story/news/education/2018/04/19/McKay-salem-keizer-ballot-measure-24-429-oregon-bond-improvements/526409002",
-        "https://www.bucyrustelegraphforum.com/story/news/local/2018/07/10/crawford-county-fair-schedule-events/767317002"
-      ],
-      "date": "2026-03-20T23:31:15.201645+00:00"
-    },
-    {
       "title": "NFL Expands Digital Reach With Major Broadcast Partnerships",
       "urls": [
         "https://www.nfl.com",
@@ -4566,7 +4557,14 @@
         "https://www.visitwilliamsburg.com/listing/warhill-sports-complex/3689"
       ],
       "date": "2026-03-30T23:01:41.141417+00:00"
+    },
+    {
+      "title": "Anthropic Releases Claude Opus 4.6 With Superior Code And Reasoning Performance",
+      "urls": [
+        "https://www.anthropic.com/claude/opus"
+      ],
+      "date": "2026-03-30T23:31:15.618320+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T23:01:41.141480+00:00"
+  "lastUpdated": "2026-03-30T23:31:15.618396+00:00"
 }
