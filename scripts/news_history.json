@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "War Game Attracts 2.3 Million Active Players Worldwide",
-      "urls": [
-        "https://play.wargrow.com.br"
-      ],
-      "date": "2026-03-20T16:31:22.788179+00:00"
-    },
-    {
       "title": "U.S. Access Board Updates ADA Accessibility Standards for Public Buildings",
       "urls": [
         "https://www.collinsdictionary.com/dictionary/english/accessible",
@@ -4565,7 +4558,17 @@
         "https://www.ibm.com/kr-ko/think/topics/digital-twin"
       ],
       "date": "2026-03-30T16:04:59.986420+00:00"
+    },
+    {
+      "title": "Incredible Food & Fun Opens New Family Entertainment Center",
+      "urls": [
+        "https://www.thefreedictionary.com/Incredible",
+        "https://www.collinsdictionary.com/dictionary/english/incredible",
+        "https://dictionary.cambridge.org/us/dictionary/english/incredible",
+        "https://incrediblefoodandfun.com"
+      ],
+      "date": "2026-03-30T16:40:24.190954+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T16:04:59.986477+00:00"
+  "lastUpdated": "2026-03-30T16:40:24.191026+00:00"
 }
