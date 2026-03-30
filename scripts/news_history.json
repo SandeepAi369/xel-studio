@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 U.S. ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=07c1cc6135e66e910a47db4334d36f83"
-      ],
-      "date": "2026-03-20T09:33:42.898068+00:00"
-    },
-    {
       "title": "Google App integrates advanced AI tools like Lens, AR, and voice search to enhance user interaction.",
       "urls": [
         "https://accounts.google.com",
@@ -4535,7 +4528,23 @@
         "https://www.merriam-webster.com/dictionary/renewable"
       ],
       "date": "2026-03-30T09:31:36.945765+00:00"
+    },
+    {
+      "title": "Belgium is set to send a record number of athletes to the 2026 Winter Olympics, marking its largest ",
+      "urls": [
+        "https://www.teambelgium.be/en",
+        "https://www.pipa.be/en/articles/another-1st-olympiad-pigeon-jean-pierre-palm-braine-lalleud-belgium-2025-40272",
+        "https://www.vrt.be/vrtnws/en/2026/01/23/record-number-of-belgian-athletes-to-compete-at-the-2026-winter",
+        "https://www.pipa.be/en/articles/pigeon-racing-becomes-olympic-discipline-2028-update-april-fools-37886",
+        "https://www.herbots.be/en/article/noel-de-clercq-mater-oudenaarde-owns-with",
+        "https://olympicfestival.be",
+        "https://olympic-charleroi.be/les-actus",
+        "https://edunovations.com/currentaffairs/international/brazil-first-winter-olympics-medal",
+        "https://www.foxnews.com/sports/olympians-react-ioc-policy-change-protect-womens-sports?msockid=3803a8eaf8256f3d0965bfc6f91f6e91",
+        "https://www.irishtimes.com/sport/athletics/2026/03/11/ronnie-delany-irelands-olympic-gold-medal-winning-athlete-has-died-aged-91"
+      ],
+      "date": "2026-03-30T10:02:04.041221+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T09:31:36.945822+00:00"
+  "lastUpdated": "2026-03-30T10:02:04.041287+00:00"
 }
