@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Defined as Accessible and Unrestricted Across Major Dictionaries",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/open",
-        "https://dictionary.cambridge.org/dictionary/english/open",
-        "https://www.thefreedictionary.com/open",
-        "https://www.dictionary.com/browse/open"
-      ],
-      "date": "2026-03-21T18:31:20.356178+00:00"
-    },
-    {
       "title": "OpenAI Builds Super App With ChatGPT Codex And Browser",
       "urls": [
         "https://chatgpt.com/auth/login",
@@ -4577,7 +4567,14 @@
         "https://public.wmo.int/files/state-of-global-climate-2024"
       ],
       "date": "2026-03-31T18:06:51.261539+00:00"
+    },
+    {
+      "title": "Fox News reaches approximately 80 million households across the United States, maintaining a dominan",
+      "urls": [
+        "https://www.foxnews.com?msockid=2a22b04d02f768652d08a76003de69ca"
+      ],
+      "date": "2026-03-31T18:33:03.277922+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T18:06:51.261602+00:00"
+  "lastUpdated": "2026-03-31T18:33:03.278005+00:00"
 }
