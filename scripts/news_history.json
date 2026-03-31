@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who Reports 1.5 Billion With Hearing Loss",
-      "urls": [
-        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
-        "https://www.who.int/health-topics/hearing-loss",
-        "https://www.who.int/news-room/facts-in-pictures/detail/deafness",
-        "https://www.who.int/news-room/questions-and-answers/item/how-to-be-hearing-loss-friendly",
-        "https://www.who.int/news-room/feature-stories/detail/the-deafblind-community--fighting-not-to-be-forgotten"
-      ],
-      "date": "2026-03-21T05:33:30.378983+00:00"
-    },
-    {
       "title": "Apple Launches Eight New Devices Including iPhone 15 Pro and M2 iPad Air",
       "urls": [
         "https://9to5mac.com/2026/03/16/apple-has-announced-8-new-products-this-month",
@@ -4590,7 +4579,20 @@
         "https://apps.apple.com/us/app/google/id284815942"
       ],
       "date": "2026-03-31T05:31:11.530508+00:00"
+    },
+    {
+      "title": "Terminal 1 Launches 10000 Square Meter Immersive Entertainment Hub In Brussels",
+      "urls": [
+        "https://www.visit.brussels/en/visitors/what-to-do/pop-and-geek-culture-in-brussels",
+        "https://terminal1.brussels/en",
+        "https://www.visit.brussels/fr/visiteurs/que-faire/la-culture-pop-et-geek-a-bruxelles",
+        "https://www.visit.brussels/en/visitors/what-to-do/vr",
+        "https://terminal1.brussels",
+        "https://www.visit.brussels/en/visitors/venue-details.battlekart-tourandtaxis.280378",
+        "https://games.brussels"
+      ],
+      "date": "2026-03-31T06:03:08.340898+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T05:31:11.530623+00:00"
+  "lastUpdated": "2026-03-31T06:03:08.340960+00:00"
 }
