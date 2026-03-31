@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artificial Intelligence Mimics Human Learning Processes",
-      "urls": [
-        "https://www.oxfordlearnersdictionaries.com/definition/english/artificial",
-        "https://en.wiktionary.org/wiki/artificial",
-        "https://www.collinsdictionary.com/us/dictionary/english/artificial",
-        "https://www.britannica.com/dictionary/artificial"
-      ],
-      "date": "2026-03-21T22:02:29.338171+00:00"
-    },
-    {
       "title": "Renewable Energy Capacity Jumps With 4600 GW Additions Expected By 2030",
       "urls": [
         "https://www.iea.org/reports/renewables-2025/renewable-electricity",
@@ -4579,7 +4569,16 @@
         "https://www.foxnews.com?msockid=3416c65f8cb06c3b1c23d1728d1b6d9b"
       ],
       "date": "2026-03-31T22:01:36.230754+00:00"
+    },
+    {
+      "title": "Extreme Announces 2026 North America Tour Celebrating 37 Years",
+      "urls": [
+        "https://extreme-band.com/tour",
+        "https://www.extrememusic.com",
+        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=3232766354646a9037a5614e55946b51"
+      ],
+      "date": "2026-03-31T22:32:02.347573+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T22:01:36.230822+00:00"
+  "lastUpdated": "2026-03-31T22:32:02.347635+00:00"
 }
