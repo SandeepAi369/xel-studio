@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=24aea7302d816f3c0bc6b0132c2f6ebf"
-      ],
-      "date": "2026-03-21T07:33:22.412127+00:00"
-    },
-    {
       "title": "OpenAI GPT-4 And Google Gemini Lead Generative AI Innovation",
       "urls": [
         "https://www.coursera.org/articles/what-is-generative-ai?msockid=1ca94dca1d18644931445ae91cee6543"
@@ -4581,7 +4574,15 @@
         "https://climate.nasa.gov/earth-now?event=eo_event_181218"
       ],
       "date": "2026-03-31T07:05:33.458833+00:00"
+    },
+    {
+      "title": "Democrats Flip Two Republican House Seats in 2026 Special Elections",
+      "urls": [
+        "https://www.maryvilleforum.com/news/state_news/do-special-election-results-spell-doom-for-republicans-in-2026/article_94205eaa-9520-59e8-88c4-0af2bf36213e.html",
+        "https://twitchy.com/samj/2026/03/03/live-election-results-primary-night-in-texas-and-north-carolina-n2425650"
+      ],
+      "date": "2026-03-31T07:34:16.872494+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T07:05:33.458892+00:00"
+  "lastUpdated": "2026-03-31T07:34:16.872561+00:00"
 }
