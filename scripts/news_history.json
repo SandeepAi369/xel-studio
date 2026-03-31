@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "BoardGameGeek Lists 120 Gaming Groups Across New England",
-      "urls": [
-        "https://boardgamegeek.com/wiki/page/Gaming_Groups_in_New_England_-_USA"
-      ],
-      "date": "2026-03-21T13:01:25.623346+00:00"
-    },
-    {
       "title": "HealthCare Gov Releases Marketplace Enrollment Data for Public Research",
       "urls": [
         "https://data.healthcare.gov/datasets?keyword%5B%5D=rtl",
@@ -4598,7 +4591,19 @@
         "https://www.unep.org/topics/energy/renewable-energy/renewable-energy"
       ],
       "date": "2026-03-31T12:36:15.791332+00:00"
+    },
+    {
+      "title": "Nasdaq 100 fell into correction territory amid a sharp decline in major technology stocks, marking a",
+      "urls": [
+        "https://jumbleanswers.com/skippers-area",
+        "https://www.bloomberg.com/news/articles/2026-03-27/nasdaq-100-sinks-into-correction-as-big-tech-stocks-keep-falling",
+        "https://www.cnbc.com/quotes/VSNT",
+        "https://www.wsj.com/market-data/quotes/MU",
+        "https://www.ainvest.com/news/big-tech-valuation-compression-hides-ai-earnings-surge-rotation-gains-momentum-2603",
+        "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026"
+      ],
+      "date": "2026-03-31T13:04:07.519900+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T12:36:15.791384+00:00"
+  "lastUpdated": "2026-03-31T13:04:07.519973+00:00"
 }
