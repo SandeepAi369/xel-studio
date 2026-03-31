@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildlife Populations Drop 69 Percent Since 1970",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Wildlife",
-        "https://m.youtube.com/watch?v=Fd95sDDARdA",
-        "https://m.imdb.com/title/tt5929754",
-        "https://wildlife.org/about-us"
-      ],
-      "date": "2026-03-21T18:01:22.618249+00:00"
-    },
-    {
       "title": "Open Defined as Accessible and Unrestricted Across Major Dictionaries",
       "urls": [
         "https://www.merriam-webster.com/dictionary/open",
@@ -4580,7 +4570,14 @@
         "https://climate.nasa.gov/quizzes/quiz-co2/8/9"
       ],
       "date": "2026-03-31T17:32:46.614203+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Reports 2024 Warmest Year On Record",
+      "urls": [
+        "https://public.wmo.int/files/state-of-global-climate-2024"
+      ],
+      "date": "2026-03-31T18:06:51.261539+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T17:32:46.614283+00:00"
+  "lastUpdated": "2026-03-31T18:06:51.261602+00:00"
 }
