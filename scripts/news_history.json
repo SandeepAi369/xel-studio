@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "QuantumCT Achieves 150 Microsecond Coherence With Strontium-88 Ion Qubits",
-      "urls": [
-        "https://www.quantumct.org"
-      ],
-      "date": "2026-03-21T10:32:22.488983+00:00"
-    },
-    {
-      "title": "The Guardian Launches Washington Investigative Unit To Expand U.S. Coverage",
-      "urls": [
-        "https://www.foxnews.com?msockid=3a774c993bfe6fbf2b4e5bba3a796eb5",
-        "https://www.theguardian.com/us-news"
-      ],
-      "date": "2026-03-21T11:01:27.628265+00:00"
-    },
-    {
       "title": "Anthropic Labeled Unacceptable Risk Over National Security Concerns",
       "urls": [
         "https://baike.baidu.com/item/Anthropic/62639515",
@@ -4610,7 +4595,14 @@
         "https://www.who.int/es/news-room/fact-sheets/detail/disability-and-health"
       ],
       "date": "2026-03-31T10:31:49.059692+00:00"
+    },
+    {
+      "title": "MIT-IBM Watson AI Lab Develops Efficient Multimodal Systems For Medical Diagnostics",
+      "urls": [
+        "https://news.mit.edu/2025/creating-ai-that-matters-1021"
+      ],
+      "date": "2026-03-31T11:05:09.187590+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T10:31:49.059753+00:00"
+  "lastUpdated": "2026-03-31T11:05:09.187662+00:00"
 }
