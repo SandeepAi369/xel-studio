@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Launches First Product Apple I In 1976",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Apple_Inc."
-      ],
-      "date": "2026-03-21T09:33:24.063158+00:00"
-    },
-    {
-      "title": "Extreme Releases New Album Six After 13 Years",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Extreme_(band)",
-        "https://m.youtube.com/watch?v=ZDm6EhYadEw",
-        "https://music.apple.com/us/artist/extreme/106804",
-        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=23070fc89db16473179418eb9ca5654e",
-        "https://extreme-band.com/tour",
-        "https://m.youtube.com/watch?v=D6TbwSdt-88"
-      ],
-      "date": "2026-03-21T10:01:36.595764+00:00"
-    },
-    {
       "title": "QuantumCT Achieves 150 Microsecond Coherence With Strontium-88 Ion Qubits",
       "urls": [
         "https://www.quantumct.org"
@@ -4600,7 +4581,23 @@
         "https://www.express.co.uk/sport/tennis/2188029/tennis-live-miami-open-final-sinner-lehecka"
       ],
       "date": "2026-03-31T09:32:18.851902+00:00"
+    },
+    {
+      "title": "International Space University Launches 38th Space Studies Program in Strasbourg",
+      "urls": [
+        "https://www.isunet.edu",
+        "https://www.isunet.edu/what-is-isu",
+        "https://www.isunet.edu/apply-online",
+        "https://www.isunet.edu/ssp",
+        "https://www.isunet.edu/faculty",
+        "https://www.isunet.edu/admissions-requirements",
+        "https://www.isunet.edu/event/space-studies-program-2026",
+        "https://na.isunet.edu",
+        "https://www.isunet.edu/shssp",
+        "https://www.isunet.edu/facilities"
+      ],
+      "date": "2026-03-31T10:05:09.806578+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T09:32:18.851950+00:00"
+  "lastUpdated": "2026-03-31T10:05:09.806642+00:00"
 }
