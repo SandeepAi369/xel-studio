@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Replaces Medical Knowledge Graphs With AI Summaries",
-      "urls": [
-        "https://support.google.com/websearch/thread/388699163/can-no-longer-see-medical-knowledge-graphs-on-google-search?hl=en"
-      ],
-      "date": "2026-03-21T21:05:41.093038+00:00"
-    },
-    {
       "title": "Tennessee Volunteers Advance to Sweet 16 With 75-73 Overtime Win Over Iowa",
       "urls": [
         "https://sports.yahoo.com",
@@ -4584,7 +4577,18 @@
         "https://www.besensable.com/post/visually-impaired-products"
       ],
       "date": "2026-03-31T21:01:28.691917+00:00"
+    },
+    {
+      "title": "Who World Health Organization Warns 2.5 Billion Will Have Hearing Loss By 2050",
+      "urls": [
+        "https://www.who.int/campaigns/world-hearing-day/2026",
+        "https://www.who.int/europe/news/item/12-04-2023-safeguarding-the-rights-of-deaf-people-in-ukraine",
+        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-ear-care",
+        "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
+      ],
+      "date": "2026-03-31T21:31:18.029075+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T21:01:28.691995+00:00"
+  "lastUpdated": "2026-03-31T21:31:18.029147+00:00"
 }
