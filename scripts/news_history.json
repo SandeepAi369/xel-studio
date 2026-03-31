@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Launches Enhanced My Account Platform",
-      "urls": [
-        "https://www.ssa.gov/myaccount/create.html"
-      ],
-      "date": "2026-03-21T16:02:38.409216+00:00"
-    },
-    {
       "title": "Mistral AI Launches 22 Billion Parameter Codestral Model",
       "urls": [
         "https://www.zhihu.com/question/15346365588",
@@ -4589,7 +4582,14 @@
         "https://climate.nasa.gov/internal_resources/2443"
       ],
       "date": "2026-03-31T15:39:58.817304+00:00"
+    },
+    {
+      "title": "Who: WHO And UNHCR Report 110 Million Displaced Amid Rising Health Crises",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-health"
+      ],
+      "date": "2026-03-31T16:33:38.475248+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T15:39:58.817387+00:00"
+  "lastUpdated": "2026-03-31T16:33:38.475316+00:00"
 }
