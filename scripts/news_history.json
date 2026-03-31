@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Unveils National AI Framework Under Trump Administration",
-      "urls": [
-        "https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework",
-        "https://edition.cnn.com/2026/03/20/tech/white-house-ai-framework"
-      ],
-      "date": "2026-03-21T01:01:19.790243+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code Specific Weather Forecasts",
       "urls": [
         "https://www.foxnews.com?msockid=12618b351d3c6f9135fe9c161c386e03"
@@ -4566,7 +4558,18 @@
         "https://ahdictionary.com/word/search.html?q=accessible"
       ],
       "date": "2026-03-31T01:01:13.786586+00:00"
+    },
+    {
+      "title": "The Global Partnership For Education Launches Infographic Showing Schooling Boosts Earnings And GDP",
+      "urls": [
+        "https://www.get.visual.ly/m/design-portfolio/illustrations",
+        "https://get.visual.ly/m/design-portfolio/5-ways-education-can-save-lives",
+        "https://visual.ly/community/Infographics/entertainment/lets-solve-monty-hall-problem",
+        "https://visual.ly/community/videographic/business/how-maintain-good-eye-health",
+        "https://visual.ly/community/infographic/travel/thanksgiving-travel-0"
+      ],
+      "date": "2026-03-31T01:31:08.158659+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T01:01:13.786644+00:00"
+  "lastUpdated": "2026-03-31T01:31:08.158724+00:00"
 }
