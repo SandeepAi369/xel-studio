@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare Gov Releases Marketplace Enrollment Data for Public Research",
-      "urls": [
-        "https://data.healthcare.gov/datasets?keyword%5B%5D=rtl",
-        "https://www.healthcare.gov/Texas",
-        "https://www.healthcare.gov/using-marketplace-coverage/common-questions"
-      ],
-      "date": "2026-03-21T13:36:19.915493+00:00"
-    },
-    {
-      "title": "Fox News Launches National Weather Alert System for 50 States",
-      "urls": [
-        "https://www.foxnews.com?msockid=20489c295b7d661412e98b0a5a3167ce"
-      ],
-      "date": "2026-03-21T14:02:28.945437+00:00"
-    },
-    {
       "title": "United States Women's Team Retains Top FIFA Ranking",
       "urls": [
         "https://www.fifa.com/en/world-rankings",
@@ -4613,7 +4597,14 @@
         "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=03164f0696906e1537f9582b97a76fa2"
       ],
       "date": "2026-03-31T13:33:51.679521+00:00"
+    },
+    {
+      "title": "Oil Markets Surge Amid Geopolitical Tensions in Middle East",
+      "urls": [
+        "https://oilprice.com/Geopolitics"
+      ],
+      "date": "2026-03-31T14:33:24.552902+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T13:33:51.679578+00:00"
+  "lastUpdated": "2026-03-31T14:33:24.552964+00:00"
 }
