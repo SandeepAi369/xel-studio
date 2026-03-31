@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "NFL Expands Digital Reach With Major Broadcast Partnerships",
-      "urls": [
-        "https://www.nfl.com",
-        "https://www.espn.com/nfl",
-        "https://www.cbssports.com/nfl",
-        "https://www.foxsports.com/nfl",
-        "https://www.football.com",
-        "https://www.nbcsports.com/nfl",
-        "https://apnews.com/hub/football",
-        "https://www.sportingnews.com/us/nfl",
-        "https://www.flashscore.com"
-      ],
-      "date": "2026-03-21T00:02:29.865123+00:00"
-    },
-    {
       "title": "World Meteorological Organization Confirms 2024 As Warmest Year On Record",
       "urls": [
         "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop30",
@@ -4564,7 +4549,14 @@
         "https://www.anthropic.com/claude/opus"
       ],
       "date": "2026-03-30T23:31:15.618320+00:00"
+    },
+    {
+      "title": "Paris 2024 Adds Four New Sports Including Breaking And Surfing",
+      "urls": [
+        "https://www.olympics.com/en/sports"
+      ],
+      "date": "2026-03-31T00:02:30.172509+00:00"
     }
   ],
-  "lastUpdated": "2026-03-30T23:31:15.618396+00:00"
+  "lastUpdated": "2026-03-31T00:02:30.172574+00:00"
 }
