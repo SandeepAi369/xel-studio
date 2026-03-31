@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tennessee Volunteers Advance to Sweet 16 With 75-73 Overtime Win Over Iowa",
-      "urls": [
-        "https://sports.yahoo.com",
-        "https://www.espn.com",
-        "https://www.cbssports.com",
-        "https://nypost.com/sports",
-        "https://www.sny.tv",
-        "https://www.nytimes.com/athletic",
-        "https://www.foxsports.com",
-        "https://www.si.com",
-        "https://www.nydailynews.com/sports",
-        "https://www.sportingnews.com"
-      ],
-      "date": "2026-03-21T21:34:16.211549+00:00"
-    },
-    {
       "title": "Artificial Intelligence Mimics Human Learning Processes",
       "urls": [
         "https://www.oxfordlearnersdictionaries.com/definition/english/artificial",
@@ -4588,7 +4572,14 @@
         "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
       ],
       "date": "2026-03-31T21:31:18.029075+00:00"
+    },
+    {
+      "title": "Fox News Dominates Cable Ratings With Prime Time Audience Surge",
+      "urls": [
+        "https://www.foxnews.com?msockid=3416c65f8cb06c3b1c23d1728d1b6d9b"
+      ],
+      "date": "2026-03-31T22:01:36.230754+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T21:31:18.029147+00:00"
+  "lastUpdated": "2026-03-31T22:01:36.230822+00:00"
 }
