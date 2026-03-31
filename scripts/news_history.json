@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Alerts For 28000 Zip Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=24e97ffd24f26ae321c868de25a26b7d"
-      ],
-      "date": "2026-03-21T03:33:13.752902+00:00"
-    },
-    {
-      "title": "Konami Launches eFootball As Free-To-Play Live Service",
-      "urls": [
-        "https://www.konami.com/efootball/en/page/download_edition_list",
-        "https://www.konami.com/efootball/en/topic/news/4839"
-      ],
-      "date": "2026-03-21T04:01:28.377956+00:00"
-    },
-    {
       "title": "Solar System Orrery Visualizes Real-Time Planetary Orbits Using NASA Data",
       "urls": [
         "https://visual.ly/community/Infographics/computers/lenovo",
@@ -4579,7 +4564,16 @@
         "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/2916-como-buscar-personas-en-facebook"
       ],
       "date": "2026-03-31T03:31:11.742591+00:00"
+    },
+    {
+      "title": "Waffle House Closes South Carolina Locations Amid Winter Storm",
+      "urls": [
+        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/01/24/waffle-houses-close-as-winter-storm-nears-south-carolina/88344756007",
+        "https://www.bucyrustelegraphforum.com/story/news/education/2024/02/12/colonel-crawford-local-school-district-to-hold-march-open-enrollment-applications/72536672007",
+        "https://www.bucyrustelegraphforum.com/story/news/local/2024/04/02/tips-from-former-nasa-astronaut-terry-virts-on-watching-the-eclipse/73147131007"
+      ],
+      "date": "2026-03-31T04:02:30.546140+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T03:31:11.742702+00:00"
+  "lastUpdated": "2026-03-31T04:02:30.546208+00:00"
 }
