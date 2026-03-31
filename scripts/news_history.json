@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin Leads Cryptocurrency Market With Blockchain Innovation Since 2009",
-      "urls": [
-        "https://coinmarketcap.com/academy/article/what-is-cryptocurrency",
-        "https://coinmarketcap.com/charts/spot-market"
-      ],
-      "date": "2026-03-21T20:31:14.591071+00:00"
-    },
-    {
       "title": "Google Replaces Medical Knowledge Graphs With AI Summaries",
       "urls": [
         "https://support.google.com/websearch/thread/388699163/can-no-longer-see-medical-knowledge-graphs-on-google-search?hl=en"
@@ -4577,7 +4569,22 @@
         "https://www.news18.com/world/iran-war-us-troops-82-airborne-deploy-peace-talks-west-asia-conflict-coercive-diplomacy-trump-ws-l-9997153.html"
       ],
       "date": "2026-03-31T20:31:09.975773+00:00"
+    },
+    {
+      "title": "MIT Researchers Launch AI System Converting Graphics To Audio Descriptions",
+      "urls": [
+        "https://www.csail.mit.edu/news/improving-accessibility-online-graphics-blind-users",
+        "https://toptechtidbits.com/how-voice-first-ai-could-soon-change-everything-for-blv-people",
+        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
+        "https://theconversation.com/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-but-still-face-barriers-to-the-digital-world-212600",
+        "https://discoversight.com/title-10-best-adaptive-technology-devices-for-blind-users-in-2025-from-a-blind-users-perspective-ṁ",
+        "https://www.iamhable.com/blogs/article/accessible-reading-and-assistive-tech-for-visually-impaired-readers-a-2025-guide",
+        "https://link.springer.com/article/10.1007/s10791-024-09460-7",
+        "https://veroniiiica.com/accessing-the-news-with-assistive-technology",
+        "https://www.besensable.com/post/visually-impaired-products"
+      ],
+      "date": "2026-03-31T21:01:28.691917+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T20:31:09.975849+00:00"
+  "lastUpdated": "2026-03-31T21:01:28.691995+00:00"
 }
