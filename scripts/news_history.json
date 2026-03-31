@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches ZIP Code Specific Weather Forecasts",
-      "urls": [
-        "https://www.foxnews.com?msockid=12618b351d3c6f9135fe9c161c386e03"
-      ],
-      "date": "2026-03-21T01:32:22.154800+00:00"
-    },
-    {
       "title": "Iran Launches Drone And Missile Strikes On Israeli Military Targets",
       "urls": [
         "https://www.foxnews.com?msockid=0ba14b49cb62646034d05c6aca856564",
@@ -4569,7 +4562,21 @@
         "https://visual.ly/community/infographic/travel/thanksgiving-travel-0"
       ],
       "date": "2026-03-31T01:31:08.158659+00:00"
+    },
+    {
+      "title": "HealthCare Gov Opens Enrollment For Affordable Care Act Plans",
+      "urls": [
+        "https://www.healthcare.gov",
+        "https://www.healthcare.gov/create-account",
+        "https://www.healthcare.gov/login",
+        "https://www.healthcare.gov/see-plans",
+        "https://www.healthcare.gov/get-answers",
+        "https://www.healthcare.gov/screener",
+        "https://www.healthcare.gov/contact-us",
+        "https://www.healthcare.gov/lower-costs"
+      ],
+      "date": "2026-03-31T02:01:40.635773+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T01:31:08.158724+00:00"
+  "lastUpdated": "2026-03-31T02:01:40.635828+00:00"
 }
