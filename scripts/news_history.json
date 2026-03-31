@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches 22 Billion Parameter Codestral Model",
-      "urls": [
-        "https://www.zhihu.com/question/15346365588",
-        "https://www.zhihu.com/question/649929393",
-        "https://www.zhihu.com/question/14580770188",
-        "https://www.zhihu.com/pin/1952369016715846773",
-        "https://www.zhihu.com/question/657652935"
-      ],
-      "date": "2026-03-21T16:34:42.108521+00:00"
-    },
-    {
       "title": "NCAA Women's Basketball Tournament Begins With 68 Teams Competing",
       "urls": [
         "https://www.foxnews.com?msockid=1f42bec8c682681233b3a9ebc78d6903",
@@ -4589,7 +4578,17 @@
         "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-health"
       ],
       "date": "2026-03-31T16:33:38.475248+00:00"
+    },
+    {
+      "title": "Apple Launches New iPhone And Apple Watch Models",
+      "urls": [
+        "https://www.apple.com",
+        "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "https://www.apple.com/store",
+        "https://www.google.com/finance/quote/AAPL:NASDAQ"
+      ],
+      "date": "2026-03-31T17:02:58.877592+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T16:33:38.475316+00:00"
+  "lastUpdated": "2026-03-31T17:02:58.877665+00:00"
 }
