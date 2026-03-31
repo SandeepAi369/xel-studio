@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Launches Drone And Missile Strikes On Israeli Military Targets",
-      "urls": [
-        "https://www.foxnews.com?msockid=0ba14b49cb62646034d05c6aca856564",
-        "https://www.nytimes.com/live/2026/03/20/world/iran-war-oil-trump"
-      ],
-      "date": "2026-03-21T02:04:05.297913+00:00"
-    },
-    {
-      "title": "Kratom Use Rises Amid DEA Concerns Over Addiction Risks",
-      "urls": [
-        "https://www.drugs.com",
-        "https://www.drugs.com/drug_information.html",
-        "https://www.drugs.com/news.html",
-        "https://www.drugs.com/professionals.html",
-        "https://www.drugs.com/schedule-3-drugs.html",
-        "https://www.drugs.com/article/csa-schedule-1.html",
-        "https://www.drugs.com/compare",
-        "https://www.drugs.com/schedule-2-drugs.html",
-        "https://www.drugs.com/csa-schedule.html",
-        "https://www.drugs.com/kratom.html"
-      ],
-      "date": "2026-03-21T02:31:12.660083+00:00"
-    },
-    {
       "title": "Physicists At Cern And Eth Zurich Discover New Quantum State In Ultracold Strontium Atoms",
       "urls": [
         "https://www.sciencenews.org/topic/physics"
@@ -4576,7 +4552,23 @@
         "https://www.healthcare.gov/lower-costs"
       ],
       "date": "2026-03-31T02:01:40.635773+00:00"
+    },
+    {
+      "title": "Who World Health Organization Reports Over 1 Billion With Mental Health Disorders",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+        "https://www.who.int/health-topics/mental-health",
+        "https://www.who.int/news-room/commentaries/detail/mental-health-and-ncds--a-shared-but-differentiated-agenda-for-the-2025-un-high-level-meeting",
+        "https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up",
+        "https://www.who.int/data/gho/data/themes/theme-details/GHO/mental-health",
+        "https://www.who.int/news/item/16-12-2025-world-leaders-adopt-a-historic-global-declaration-on-noncommunicable-diseases-and-mental-health",
+        "https://www.who.int/teams/mental-health-and-substance-use/overview/1",
+        "https://www.who.int/es/health-topics/mental-health",
+        "https://www.who.int/europe/news/item/25-09-2024-teens--screens-and-mental-health"
+      ],
+      "date": "2026-03-31T02:32:26.363210+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T02:01:40.635828+00:00"
+  "lastUpdated": "2026-03-31T02:32:26.363274+00:00"
 }
