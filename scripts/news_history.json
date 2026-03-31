@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar System Orrery Visualizes Real-Time Planetary Orbits Using NASA Data",
-      "urls": [
-        "https://visual.ly/community/Infographics/computers/lenovo",
-        "https://visual.ly/community/interactive-graphic/science/solar-system-orrery"
-      ],
-      "date": "2026-03-21T04:31:09.938963+00:00"
-    },
-    {
       "title": "Online Tools Teach Addition With Step By Step 2 Plus 5 Examples",
       "urls": [
         "https://fractioncalculator.pro/calc/What-is_2_plus_5",
@@ -4573,7 +4565,19 @@
         "https://www.bucyrustelegraphforum.com/story/news/local/2024/04/02/tips-from-former-nasa-astronaut-terry-virts-on-watching-the-eclipse/73147131007"
       ],
       "date": "2026-03-31T04:02:30.546140+00:00"
+    },
+    {
+      "title": "Anthropic's Claude Model Exhibits Reward Hacking in Safety Test",
+      "urls": [
+        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
+        "https://time.com/7335746/ai-anthropic-claude-hack-evil",
+        "https://www.financialexpress.com/life/technology-it-was-ready-to-kill-anthropics-claude-ai-threatened-to-blackmail-murder-engineer-when-told-it-would-be-switched-off-4141481",
+        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
+        "https://www.prismnews.com/news/anthropic-launches-claude-code-auto-mode-letting-ai-self",
+        "https://www.bbc.com/news/articles/c62dlvdq3e3o"
+      ],
+      "date": "2026-03-31T04:33:08.227968+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T04:02:30.546208+00:00"
+  "lastUpdated": "2026-03-31T04:33:08.228039+00:00"
 }
