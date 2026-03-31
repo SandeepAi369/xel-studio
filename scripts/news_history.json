@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Builds Super App With ChatGPT Codex And Browser",
-      "urls": [
-        "https://chatgpt.com/auth/login",
-        "https://en.wikipedia.org/wiki/OpenAI",
-        "https://www.open-openai.com/app",
-        "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html?msockid=2eb2d84865d96d303bf2cf6b64f46ca9",
-        "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher",
-        "https://www.reuters.com/technology/openai-buy-python-toolmaker-astral-take-anthropic-2026-03-19",
-        "https://openai.smapply.org",
-        "https://www.pcmag.com/news/openai-plans-desktop-superapp-to-combine-chatgpt-codex-atlas-browser",
-        "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral"
-      ],
-      "date": "2026-03-21T19:02:27.961163+00:00"
-    },
-    {
       "title": "Daily Jumble Puzzle Challenges Readers In 600 Newspapers",
       "urls": [
         "https://jumbleanswers.com/jumble/mpteo-daily-jumble",
@@ -4574,7 +4559,14 @@
         "https://www.foxnews.com?msockid=2a22b04d02f768652d08a76003de69ca"
       ],
       "date": "2026-03-31T18:33:03.277922+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Households With 1.9 Million Prime Time Viewers",
+      "urls": [
+        "https://www.foxnews.com?msockid=02f62d3a395365220c1d3a17387064f6"
+      ],
+      "date": "2026-03-31T19:03:43.945817+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T18:33:03.278005+00:00"
+  "lastUpdated": "2026-03-31T19:03:43.945883+00:00"
 }
