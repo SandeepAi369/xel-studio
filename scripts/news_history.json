@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Launches Eight New Devices Including iPhone 15 Pro and M2 iPad Air",
-      "urls": [
-        "https://9to5mac.com/2026/03/16/apple-has-announced-8-new-products-this-month",
-        "https://www.marketwatch.com/investing/stock/aapl",
-        "https://www.t-mobile.com/cell-phones/brand/apple?msockid=064b75be9c9f63782a6b629d9dfb62fe"
-      ],
-      "date": "2026-03-21T06:03:31.472980+00:00"
-    },
-    {
       "title": "World Meteorological Organization Reports 2022 Among Warmest Years Despite La Niña",
       "urls": [
         "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2022"
@@ -4592,7 +4583,15 @@
         "https://games.brussels"
       ],
       "date": "2026-03-31T06:03:08.340898+00:00"
+    },
+    {
+      "title": "United States And Israel Expand Strikes On Iranian Targets",
+      "urls": [
+        "https://www.foxnews.com?msockid=239c82e3b4d760872dcb95ceb5866115",
+        "https://www.fox9.com/news/iran-war-latest-middle-east"
+      ],
+      "date": "2026-03-31T06:31:58.420921+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T06:03:08.340960+00:00"
+  "lastUpdated": "2026-03-31T06:31:58.420988+00:00"
 }
