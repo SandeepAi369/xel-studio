@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple To Generate Over $1 Billion From On-Device AI Features",
-      "urls": [
-        "https://www.wsj.com/tech/ai/apple-ai-subscriptions-strategy-7ce4ba7f?msockid=16cc393c5d3c6f541c0c2e1f5c256e86",
-        "https://www.apple.com/logic-pro"
-      ],
-      "date": "2026-03-21T15:32:22.442642+00:00"
-    },
-    {
       "title": "Social Security Launches Enhanced My Account Platform",
       "urls": [
         "https://www.ssa.gov/myaccount/create.html"
@@ -4588,7 +4580,16 @@
         "https://www.who.int/publications/i/item/9789240114487"
       ],
       "date": "2026-03-31T15:08:42.325969+00:00"
+    },
+    {
+      "title": "NASA Links Rising Global Temperatures to Increased Wildfire Activity",
+      "urls": [
+        "https://climate.nasa.gov/images-of-change?intent=131",
+        "https://climate.nasa.gov/climate_resources/25/interactive-climate-time-machine/&nbsp",
+        "https://climate.nasa.gov/internal_resources/2443"
+      ],
+      "date": "2026-03-31T15:39:58.817304+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T15:08:42.326027+00:00"
+  "lastUpdated": "2026-03-31T15:39:58.817387+00:00"
 }
