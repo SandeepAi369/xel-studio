@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Reports 2022 Among Warmest Years Despite La Niña",
-      "urls": [
-        "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2022"
-      ],
-      "date": "2026-03-21T06:33:18.198665+00:00"
-    },
-    {
-      "title": "Who What One In Four People Will Have Hearing Loss By 2050",
-      "urls": [
-        "https://www.who.int/campaigns/world-hearing-day/2026",
-        "https://www.who.int/europe/news/item/12-04-2023-safeguarding-the-rights-of-deaf-people-in-ukraine",
-        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
-        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-ear-care",
-        "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
-      ],
-      "date": "2026-03-21T07:01:16.398303+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Alerts For All 28000 US ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=24aea7302d816f3c0bc6b0132c2f6ebf"
@@ -4591,7 +4573,15 @@
         "https://www.fox9.com/news/iran-war-latest-middle-east"
       ],
       "date": "2026-03-31T06:31:58.420921+00:00"
+    },
+    {
+      "title": "NASA Reports Carbon Dioxide Levels Surge To 420 Ppm In 2023",
+      "urls": [
+        "https://climate.nasa.gov/quizzes/carbon-quiz?intent=011",
+        "https://climate.nasa.gov/earth-now?event=eo_event_181218"
+      ],
+      "date": "2026-03-31T07:05:33.458833+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T06:31:58.420988+00:00"
+  "lastUpdated": "2026-03-31T07:05:33.458892+00:00"
 }
