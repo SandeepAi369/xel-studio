@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI GPT-4 And Google Gemini Lead Generative AI Innovation",
-      "urls": [
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=1ca94dca1d18644931445ae91cee6543"
-      ],
-      "date": "2026-03-21T08:03:32.271161+00:00"
-    },
-    {
       "title": "Massachusetts Health Connector Enrolls Over 250000 Annually With Subsidized ACA Plans",
       "urls": [
         "https://www.healthcare.gov/Massachusetts",
@@ -4582,7 +4575,23 @@
         "https://twitchy.com/samj/2026/03/03/live-election-results-primary-night-in-texas-and-north-carolina-n2425650"
       ],
       "date": "2026-03-31T07:34:16.872494+00:00"
+    },
+    {
+      "title": "Microsoft Faces Worst Quarterly Drop Since 2008 Amid Azure And OpenAI Profitability Concerns",
+      "urls": [
+        "https://www.microsoft.com/en-us?msockid=3c62fef520216bc424a9e9d821fd6ac2",
+        "https://www.office.com",
+        "https://en.wikipedia.org/wiki/Microsoft_campus",
+        "https://signup.live.com",
+        "https://account.microsoft.com/account",
+        "https://m365.cloud.microsoft",
+        "https://www.bloomberg.com/news/articles/2026-03-27/microsoft-set-for-worst-quarter-since-2008-as-ai-takes-two-bites",
+        "https://factually.co/fact-checks/technology/microsoft-campus-1-microsoft-way-redmond-a5179d",
+        "https://myaccount.microsoft.com",
+        "https://fortune.com/2026/03/27/microsoft-texas-data-center-open-ai-former-partner-cloud-provider"
+      ],
+      "date": "2026-03-31T08:04:27.069574+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T07:34:16.872561+00:00"
+  "lastUpdated": "2026-03-31T08:04:27.069640+00:00"
 }
