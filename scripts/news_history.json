@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thunder Client Adds Hugging Face Model Downloads to Firefox Extension",
-      "urls": [
-        "https://www.zhihu.com/question/639318529"
-      ],
-      "date": "2026-03-21T20:03:48.560618+00:00"
-    },
-    {
       "title": "Bitcoin Leads Cryptocurrency Market With Blockchain Innovation Since 2009",
       "urls": [
         "https://coinmarketcap.com/academy/article/what-is-cryptocurrency",
@@ -4573,7 +4566,18 @@
         "https://www.foxnews.com?msockid=23fd4ab6c4e4666b3a875d9bc5f967e4"
       ],
       "date": "2026-03-31T20:02:23.858837+00:00"
+    },
+    {
+      "title": "Pakistan Leads Four-Nation Push For U.S.-Iran Talks",
+      "urls": [
+        "https://gulfnews.com/world/americas/how-nations-are-pushing-diplomacy-to-end-the-war-1.500485154",
+        "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy",
+        "https://www.npr.org/2026/03/29/nx-s1-5765344/pakistan-diplomatic-discussions-iran-war",
+        "https://theconversation.com/war-on-iran-during-nuclear-negotiations-undermines-the-uss-ability-to-talk-peace-around-the-world-and-the-effects-wont-end-when-trump-leaves-office-279079",
+        "https://www.news18.com/world/iran-war-us-troops-82-airborne-deploy-peace-talks-west-asia-conflict-coercive-diplomacy-trump-ws-l-9997153.html"
+      ],
+      "date": "2026-03-31T20:31:09.975773+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T20:02:23.858897+00:00"
+  "lastUpdated": "2026-03-31T20:31:09.975849+00:00"
 }
