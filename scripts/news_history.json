@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Women's Team Retains Top FIFA Ranking",
-      "urls": [
-        "https://www.fifa.com/en/world-rankings",
-        "https://www.fifa.com/en/home",
-        "https://inside.fifa.com/en/fifa-world-ranking/news?topic=t2zKryga5SVfJmUEZFBiI",
-        "https://www.fifa.com/world-rankings",
-        "https://www.fifa.com/en/tournaments/mens/worldcup",
-        "https://inside.fifa.com/fifa-world-ranking/men",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams",
-        "https://www.fifa.com/en/fifa-com",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
-        "https://inside.fifa.com/fifa-world-ranking/men?dateId=id14933"
-      ],
-      "date": "2026-03-21T14:35:07.920440+00:00"
-    },
-    {
-      "title": "Google Cloud Expands Compute Engine With 35 Global Regions And 30 Percent Discounts",
-      "urls": [
-        "https://cloud.google.com/gcp"
-      ],
-      "date": "2026-03-21T15:03:22.831289+00:00"
-    },
-    {
       "title": "Apple To Generate Over $1 Billion From On-Device AI Features",
       "urls": [
         "https://www.wsj.com/tech/ai/apple-ai-subscriptions-strategy-7ce4ba7f?msockid=16cc393c5d3c6f541c0c2e1f5c256e86",
@@ -4604,7 +4581,14 @@
         "https://oilprice.com/Geopolitics"
       ],
       "date": "2026-03-31T14:33:24.552902+00:00"
+    },
+    {
+      "title": "World Health Organization releases the Mental Health Atlas 2024, a comprehensive global survey asses",
+      "urls": [
+        "https://www.who.int/publications/i/item/9789240114487"
+      ],
+      "date": "2026-03-31T15:08:42.325969+00:00"
     }
   ],
-  "lastUpdated": "2026-03-31T14:33:24.552964+00:00"
+  "lastUpdated": "2026-03-31T15:08:42.326027+00:00"
 }
