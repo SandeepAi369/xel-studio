@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zhihu Launches AI-Powered Search Tool To Enhance User Experience",
-      "urls": [
-        "https://www.zhihu.com",
-        "https://www.zhihu.com/question/600193307",
-        "https://www.zhihu.com/question/319535620",
-        "https://www.zhihu.com/question/315746660"
-      ],
-      "date": "2026-03-22T11:32:25.402395+00:00"
-    },
-    {
-      "title": "Microsoft Copilot Launches AI Features in Windows 11",
-      "urls": [
-        "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/how-to-use-ai-on-your-computer?msockid=23a8ff93d1bb6db137fde8b7d0f76c48",
-        "https://aws.amazon.com/what-is/artificial-intelligence"
-      ],
-      "date": "2026-03-22T12:02:42.791593+00:00"
-    },
-    {
       "title": "Nato Strengthens Eastern Flank After Russia's Ukraine Invasion",
       "urls": [
         "https://www.foreignaffairs.com/topics/geopolitics",
@@ -4671,7 +4653,18 @@
         "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield"
       ],
       "date": "2026-04-01T11:32:06.922534+00:00"
+    },
+    {
+      "title": "U.S. And Israel Launch Airstrikes To Secure Iranian Airspace",
+      "urls": [
+        "https://www.youtube.com/watch?v=HeriORbvRU4",
+        "https://www.newsweek.com/iran-war-live-updates-israel-iran-trade-fire-trump-talks-diplomacy-11747865",
+        "https://www.youtube.com/watch?v=ztCho1eDsyM",
+        "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran",
+        "https://www.atlanticcouncil.org/dispatches/experts-react-how-the-world-is-responding-to-the-us-israeli-war-with-iran"
+      ],
+      "date": "2026-04-01T12:02:49.455032+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T11:32:06.922588+00:00"
+  "lastUpdated": "2026-04-01T12:02:49.455096+00:00"
 }
