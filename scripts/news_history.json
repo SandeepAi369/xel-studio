@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Launches Customizable Channels and Studio Dashboard for Creators",
-      "urls": [
-        "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop",
-        "https://support.google.com/youtube?hl=sv",
-        "https://support.google.com/youtubecreatorstudio/answer/7548152?hl=en&co=GENIE.Platform%3DDesktop",
-        "https://support.google.com/youtube/answer/7636475?hl=en",
-        "https://support.google.com/youtube?hl=ja"
-      ],
-      "date": "2026-03-22T08:01:29.212589+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code-Level Weather Forecasting Initiative",
       "urls": [
         "https://www.foxnews.com?msockid=33b35c49de156c5603c64b6ddfeb6d76"
@@ -4629,7 +4618,21 @@
         "https://www.statnews.com/topic/health-tech"
       ],
       "date": "2026-04-01T07:33:12.288944+00:00"
+    },
+    {
+      "title": "Big Tech Earnings Shake Markets Amid AI Spending Concerns",
+      "urls": [
+        "https://bloomberg.com/latest/tech-company-earnings",
+        "https://www.youtube.com/watch?v=sGakJSUHD9Y",
+        "https://www.marketwatch.com/investing/stocks/tech-stocks?gaa_at=eafs&gaa_n=AWEtsqdW1djxZnbVtRmlm3Erb6Kri99nGUXCvLle7vFzLbVWfyFR-BEWqIvQ&gaa_ts=69ccd43e&gaa_sig=iOZzsUSsl87EArlc_83wn04Ygb-cN9ZSQek8I2ZkfsxhfIxUS0EpExtdRAqQGUBiEbZ7ZTGOpQMKXffFToc4-A%3D%3D",
+        "https://www.youtube.com/watch?v=3ls3yC6_aME",
+        "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-rout-flashing-112815599.html",
+        "https://investingnews.com/top-tech-news",
+        "https://finance.yahoo.com/research-hub/screener/growth_technology_stocks",
+        "https://finance.yahoo.com/sectors/technology"
+      ],
+      "date": "2026-04-01T08:02:10.486726+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T07:33:12.289006+00:00"
+  "lastUpdated": "2026-04-01T08:02:10.486779+00:00"
 }
