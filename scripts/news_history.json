@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches ZIP Code-Level Weather Forecasting Initiative",
-      "urls": [
-        "https://www.foxnews.com?msockid=33b35c49de156c5603c64b6ddfeb6d76"
-      ],
-      "date": "2026-03-22T08:32:14.936867+00:00"
-    },
-    {
-      "title": "Senate Fails to Pass DHS Funding Bill Amid Border Dispute",
-      "urls": [
-        "https://www.foxnews.com?msockid=0b7f5419a6d46d811ed1433da77f6c8b",
-        "https://www.usatoday.com/story/news/2026/03/20/is-senate-voting-today-to-end-government-shutdown-2026-live-updates-dhs-tsa-delays/89251663007"
-      ],
-      "date": "2026-03-22T09:01:27.841872+00:00"
-    },
-    {
       "title": "Grete Waitz Smashes Women's Marathon Record At 1984 London Marathon",
       "urls": [
         "https://marathon.com",
@@ -4648,7 +4633,23 @@
         "https://www.youtube.com/watch?v=EmXSlHF_Iv0"
       ],
       "date": "2026-04-01T08:31:24.425816+00:00"
+    },
+    {
+      "title": "Meta Launches Llama 4 Maverick With 17 Billion Parameters",
+      "urls": [
+        "https://siliconangle.com/2025/04/06/mark-zuckerberg-says-metas-latest-llama-models-put-open-source-ai-driving-seat",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases",
+        "https://www.republicworld.com/tech/open-source-ai-models-including-meta-s-llama-may-be-vulnerable-to-criminal-misuse-warn-researchers",
+        "https://techcrunch.com/2025/10/06/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model",
+        "https://ai.meta.com/blog/meta-llama-3-1",
+        "https://www.zdnet.com/article/as-meta-fades-in-open-source-ai-nvidia-senses-its-chance-to-lead",
+        "https://ai.meta.com/blog/future-of-ai-built-with-llama",
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence",
+        "https://www.llama.com",
+        "https://ai.meta.com/open"
+      ],
+      "date": "2026-04-01T09:02:32.782287+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T08:31:24.425882+00:00"
+  "lastUpdated": "2026-04-01T09:02:32.782350+00:00"
 }
