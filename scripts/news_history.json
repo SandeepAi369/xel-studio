@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Crypto Fear And Greed Index Tracks Market Sentiment In Real Time",
-      "urls": [
-        "https://coinmarketcap.com/charts/fear-and-greed-index"
-      ],
-      "date": "2026-03-22T15:34:30.850002+00:00"
-    },
-    {
       "title": "Basidiobolus Ranarum Fungus Alleviates Liver Inflammation In Preclinical MASH Models",
       "urls": [
         "https://www.science.org/doi/10.1126/science.adp5540",
@@ -4696,7 +4689,19 @@
         "https://flippa.com/blog/acquisitions/artificial-intelligence-industry-acquisitions"
       ],
       "date": "2026-04-01T15:33:52.966905+00:00"
+    },
+    {
+      "title": "Anthropic Removes Safety Pause Clause From Scaling Policy",
+      "urls": [
+        "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge",
+        "https://www.forbes.com/sites/conormurray/2026/02/09/anthropic-ai-safety-researcher-warns-of-world-in-peril-in-resignation",
+        "https://www.yahoo.com/news/articles/anthropic-forced-removal-u-government-220000390.html",
+        "https://aibusiness.com/generative-ai/anthropic-downgrades-its-ai-safety-policy",
+        "https://fortune.com/article/why-is-anthropic-ceo-dario-amodei-deeply-uncomfortable-companies-in-charge-ai-regulating-themselves",
+        "https://www.youtube.com/watch?v=eLqNoZP0vFU"
+      ],
+      "date": "2026-04-01T16:03:37.172439+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T15:33:52.966969+00:00"
+  "lastUpdated": "2026-04-01T16:03:37.172506+00:00"
 }
