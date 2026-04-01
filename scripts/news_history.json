@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Micron Technology Posts Record $8.6 Billion Quarterly Revenue",
-      "urls": [
-        "https://markets.businessinsider.com",
-        "https://www.reuters.com",
-        "https://www.telegraph.co.uk/technology",
-        "https://www.bloomberg.com/news/articles/2026-03-18/micron-earnings-face-high-expectations-as-its-stock-keeps-rising",
-        "https://about.nike.com/en/newsroom"
-      ],
-      "date": "2026-03-22T18:31:21.937553+00:00"
-    },
-    {
       "title": "Michigan Launches Refugee Assistance Program to Boost Employment and Integration",
       "urls": [
         "https://www.michigan.gov/ogm/about/refugee-services"
@@ -4713,7 +4702,15 @@
         "https://www.weather.gov/okx/20260104"
       ],
       "date": "2026-04-01T18:02:34.411465+00:00"
+    },
+    {
+      "title": "Linux And Open Source Podcast Debuts Weekly Deep Dives On Spotify",
+      "urls": [
+        "https://open.spotify.com/show/3AZjRagzOkDX55Ftk8meuZ",
+        "https://www.reddit.com/r/linuxquestions/comments/1rsn7ty/are_there_any_good_linux_news_sources_out_there"
+      ],
+      "date": "2026-04-01T18:31:44.391184+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T18:02:34.411532+00:00"
+  "lastUpdated": "2026-04-01T18:31:44.391246+00:00"
 }
