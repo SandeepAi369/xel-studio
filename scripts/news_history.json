@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ESPN Deportes Covers Liga MX Teams With Live Updates",
-      "urls": [
-        "https://espndeportes.espn.com/gaming"
-      ],
-      "date": "2026-03-22T23:10:14.288878+00:00"
-    },
-    {
       "title": "Modern Bioenergy Powers Over Half Of Global Renewable Use In 2023",
       "urls": [
         "https://www.iea.org/energy-system/renewables"
@@ -4751,7 +4744,22 @@
         "https://www.computerworld.com/article/4146860/mistral-launches-forge-to-help-enterprises-build-their-own-ai-models-2.html"
       ],
       "date": "2026-04-01T23:01:22.286758+00:00"
+    },
+    {
+      "title": "St Jude Launches New Computational Tool To Enhance Rna Sequencing Accuracy",
+      "urls": [
+        "https://www.medicaldiscoverynews.com",
+        "https://scitechdaily.com/news/health",
+        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
+        "https://www.medicalnewstoday.com/categories/medical-innovation",
+        "https://icahn.mssm.edu/research/breakthroughs",
+        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
+        "https://www.stjude.org/media-resources/news-releases/2025-medicine-science-news.html",
+        "https://www.nih.gov/news-events/news-releases",
+        "https://www.bioworld.com/topics/84-bioworld"
+      ],
+      "date": "2026-04-01T23:31:11.778612+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T23:01:22.286823+00:00"
+  "lastUpdated": "2026-04-01T23:31:11.778674+00:00"
 }
