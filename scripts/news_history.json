@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "PowerShell Delivers Over 200 Cmdlets For Cross-Platform Automation",
-      "urls": [
-        "https://twitchy.com/eric-v/2025/03/30/scott-presler-in-wisconsin-supreme-court-election-n2410692",
-        "https://twitchy.com/warren-squire/2025/08/28/gavin-newsom-i-am-absolutely-convinced-there-wont-be-an-election-in-2028-n2418028",
-        "https://learn.microsoft.com/zh-cn/powershell",
-        "https://zhuanlan.zhihu.com/p/7845076577",
-        "https://github.com/PowerShell/PowerShell",
-        "https://www.runoob.com/powershell/powershell-start.html",
-        "https://en.wikipedia.org/wiki/PowerShell"
-      ],
-      "date": "2026-03-22T02:03:25.988772+00:00"
-    },
-    {
-      "title": "Who Prioritizes Mental Health In Crisis Zones",
-      "urls": [
-        "https://www.who.int/india/health-topics/mental-health",
-        "https://www.who.int/campaigns/world-mental-health-day/2025",
-        "https://www.who.int/news-room/facts-in-pictures/detail/mental-health"
-      ],
-      "date": "2026-03-22T02:31:09.791219+00:00"
-    },
-    {
       "title": "BBC News Delivers Live Global Coverage To 426 Million Weekly Viewers",
       "urls": [
         "https://www.foxnews.com?msockid=1d02250c1ce36ad80df932281d186b0c",
@@ -4581,7 +4559,16 @@
         "https://climate.nasa.gov/quizzes/ocean-quiz/4/9"
       ],
       "date": "2026-04-01T02:01:18.920199+00:00"
+    },
+    {
+      "title": "Nasa And Noaa Confirm Earth On Track To Exceed 1.5°C Warming By 2031",
+      "urls": [
+        "https://phys.org/earth-news",
+        "https://link.springer.com/subjects/climate-change-impacts",
+        "https://www.scientificamerican.com/climate-change"
+      ],
+      "date": "2026-04-01T02:34:02.588850+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T02:01:18.920257+00:00"
+  "lastUpdated": "2026-04-01T02:34:02.588917+00:00"
 }
