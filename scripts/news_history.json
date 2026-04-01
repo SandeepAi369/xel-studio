@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare Gov Streamlines Affordable Care Act Enrollment With Secure Online Platform",
-      "urls": [
-        "https://www.healthcare.gov/find-assistance",
-        "https://www.healthcare.gov/screener/income",
-        "https://www.healthcare.gov/topics",
-        "https://www.healthcare.gov/update-password",
-        "https://www.healthcare.gov/security-code/enroll/choose-your-method"
-      ],
-      "date": "2026-03-22T14:04:48.870711+00:00"
-    },
-    {
-      "title": "International Launches eMV Series With 250-Mile Electric Range",
-      "urls": [
-        "https://mexico.internationaltrucks.com/camiones-electricos"
-      ],
-      "date": "2026-03-22T14:31:19.385019+00:00"
-    },
-    {
       "title": "Hugging Face Models Now Available Through Chinese Mirror Site",
       "urls": [
         "https://www.zhihu.com/question/371644077"
@@ -4685,7 +4667,23 @@
         "https://earth.org/biodiversity"
       ],
       "date": "2026-04-01T14:03:50.589494+00:00"
+    },
+    {
+      "title": "Aws And Linux Foundation Launch OpenSearch Software Foundation",
+      "urls": [
+        "https://www.linux.com",
+        "https://9to5linux.com",
+        "https://www.linuxinsider.com/section/community",
+        "https://itsfoss.com/news",
+        "https://www.linuxfoundation.org/press",
+        "https://techcommunity.microsoft.com/category/azure/blog/linuxandopensourceblog",
+        "https://lwn.net",
+        "https://www.linuxtoday.com",
+        "https://www.reddit.com/r/linux/comments/jpixq4/best_news_source_for_linux",
+        "https://github.blog/open-source"
+      ],
+      "date": "2026-04-01T14:33:29.514364+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T14:03:50.589581+00:00"
+  "lastUpdated": "2026-04-01T14:33:29.514438+00:00"
 }
