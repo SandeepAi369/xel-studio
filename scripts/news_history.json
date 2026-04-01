@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "The White House Unveils AI Regulatory Framework for Congressional Approval",
-      "urls": [
-        "https://www.reuters.com/technology/artificial-intelligence",
-        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=2ffdc58e579d6d0a0137d2aa56466cf0",
-        "https://www.sap.com/resources/what-is-artificial-intelligence",
-        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai",
-        "https://apnews.com/article/white-house-donald-trump-artificial-intelligence-479eb3d0a50fe7237678a9bfb146ac7a",
-        "https://builtin.com/artificial-intelligence"
-      ],
-      "date": "2026-03-22T07:31:12.952149+00:00"
-    },
-    {
       "title": "YouTube Launches Customizable Channels and Studio Dashboard for Creators",
       "urls": [
         "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop",
@@ -4626,7 +4614,22 @@
         "https://www.pbs.org/newshour/tag/migrant-crisis"
       ],
       "date": "2026-04-01T07:04:02.935326+00:00"
+    },
+    {
+      "title": "Talkspace To Be Acquired For $835 Million By Qualified Health",
+      "urls": [
+        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
+        "https://telehealth.org/news/category/technology-and-innovation",
+        "https://www.nibib.nih.gov/programs/digital-health",
+        "https://www.worldhealthexpo.com/insights/medical-technology/telemedicine",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://www.fastcompany.com/section/telemedicine",
+        "https://www.ft.com/digital-health",
+        "https://www.jpmorgan.com/payments/payments-unbound/volume-2/the-new-telehealth-economy",
+        "https://www.statnews.com/topic/health-tech"
+      ],
+      "date": "2026-04-01T07:33:12.288944+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T07:04:02.935412+00:00"
+  "lastUpdated": "2026-04-01T07:33:12.289006+00:00"
 }
