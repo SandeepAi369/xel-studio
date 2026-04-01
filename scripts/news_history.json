@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC News Delivers Live Global Coverage To 426 Million Weekly Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=1d02250c1ce36ad80df932281d186b0c",
-        "https://news.google.com",
-        "https://www.bbc.com/watch-live-news"
-      ],
-      "date": "2026-03-22T03:02:33.664545+00:00"
-    },
-    {
-      "title": "Extreme Releases First Album in 13 Years Featuring 12 Tracks",
-      "urls": [
-        "https://www.extremenetworks.com",
-        "https://www.youtube.com/watch?v=D6TbwSdt-88",
-        "https://dictionary.cambridge.org/dictionary/english/extreme",
-        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=09d075c7fbe262fb3d2e62e3fa2b637c"
-      ],
-      "date": "2026-03-22T03:31:18.972214+00:00"
-    },
-    {
       "title": "Google Cloud Launches Over 100 Scalable Enterprise Tools",
       "urls": [
         "https://cloud.google.com/learn/what-is-cloud-computing?hl=es"
@@ -4584,7 +4565,21 @@
         "https://www.facebook.com/KSHB41/posts/just-over-a-month-into-the-war-in-iran-the-white-house-says-peace-talks-are-prog/1371771888327924"
       ],
       "date": "2026-04-01T03:01:23.148213+00:00"
+    },
+    {
+      "title": "Twitch Viewership Surges To 57 Million Daily Hours Watched",
+      "urls": [
+        "https://g-mnews.com/en/how-streaming-changed-the-gaming-industry",
+        "https://www.gamesindustry.biz/topics/streaming",
+        "https://sqmagazine.co.uk/game-streaming-statistics",
+        "https://finance.yahoo.com/news/esports-industry-reach-usd-9-164000699.html",
+        "https://www.thestreet.com/crypto/newsroom/esports-sector-experiences-unprecedented-growth-amid-audience-surge",
+        "https://www.cgmagonline.com/articles/esports-creation-and-streaming",
+        "https://www.edgeofnft.com/podcasts/game-on-demand-how-streaming-platforms-are-reshaping-the-future-of-gaming",
+        "https://www.businessinsider.com/category/esports"
+      ],
+      "date": "2026-04-01T03:32:00.053737+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T03:01:23.148273+00:00"
+  "lastUpdated": "2026-04-01T03:32:00.053799+00:00"
 }
