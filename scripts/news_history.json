@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches ZIP Code Based Weather Forecasting System",
-      "urls": [
-        "https://www.foxnews.com?msockid=03b3dbacba386b792c3dcc88bb506a0c"
-      ],
-      "date": "2026-03-22T22:34:25.207988+00:00"
-    },
-    {
       "title": "ESPN Deportes Covers Liga MX Teams With Live Updates",
       "urls": [
         "https://espndeportes.espn.com/gaming"
@@ -4748,7 +4741,17 @@
         "https://energyinnovation.org/about/press"
       ],
       "date": "2026-04-01T22:31:03.517258+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mistral Large 3 With 256K Context Window",
+      "urls": [
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
+        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai",
+        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
+        "https://www.computerworld.com/article/4146860/mistral-launches-forge-to-help-enterprises-build-their-own-ai-models-2.html"
+      ],
+      "date": "2026-04-01T23:01:22.286758+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T22:31:03.517312+00:00"
+  "lastUpdated": "2026-04-01T23:01:22.286823+00:00"
 }
