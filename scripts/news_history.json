@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Merriam-Webster Clarifies Extreme With Real-World Usage Data",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/extreme"
-      ],
-      "date": "2026-03-22T00:31:13.632868+00:00"
-    },
-    {
       "title": "Refugees International Demands Urgent Aid for 120 Million Displaced in 2026",
       "urls": [
         "https://www.refugeesinternational.org",
@@ -4567,7 +4560,22 @@
         "https://www.zhihu.com/question/453589364"
       ],
       "date": "2026-04-01T00:04:40.026960+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Trending Papers With Meta AI And Papers With Code",
+      "urls": [
+        "https://www.zhihu.com/org/huggingface",
+        "https://www.zhihu.com/question/564621151",
+        "https://www.zhihu.com/pin/1932186071048890006",
+        "https://www.zhihu.com/question/639318529",
+        "https://www.zhihu.com/tardis/bd/art/692929631",
+        "https://www.zhihu.com/question/482692136/answers/updated",
+        "https://www.zhihu.com/pin/1863937065265287168",
+        "https://www.zhihu.com/question/10196054241",
+        "https://www.zhihu.com/question/643150746"
+      ],
+      "date": "2026-04-01T00:32:16.257930+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T00:04:40.027031+00:00"
+  "lastUpdated": "2026-04-01T00:32:16.257995+00:00"
 }
