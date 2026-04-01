@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters Tracks Global Markets as Tech Drives 32% of S&P 500 Gains",
-      "urls": [
-        "https://www.seattletimes.com",
-        "https://www.aninews.in",
-        "https://www.cbsnews.com/texas",
-        "https://www.reuters.com/markets"
-      ],
-      "date": "2026-03-22T13:31:19.015287+00:00"
-    },
-    {
       "title": "HealthCare Gov Streamlines Affordable Care Act Enrollment With Secure Online Platform",
       "urls": [
         "https://www.healthcare.gov/find-assistance",
@@ -4672,7 +4662,23 @@
         "https://www.youtube.com/watch?v=nrhMUJg30_8"
       ],
       "date": "2026-04-01T13:03:10.571026+00:00"
+    },
+    {
+      "title": "Northeastern Researchers Develop Autonomous Wheelchair With Robotic Arm",
+      "urls": [
+        "https://keywaymedical.com/innovations-in-mobility-aids-a-look-at-the-latest-technologies",
+        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOooHLpJxTumMO7HI_NvTNyjXEyJXj2XmSI9VRajDTpgdBEI2rkQ4",
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOorzeYwQzPysugvWrpkb191eMSHhYtjYc15tQXjhAOqFLqJ87OKR",
+        "https://www.atcmobility.com/the-latest-technologies-in-wheelchair-accessible-vehicles",
+        "https://www.intcowheelchair.com/news/how-modern-wheelchair-designs-are-transforming-mobility",
+        "https://news.northeastern.edu/2025/11/05/autonomous-wheelchair-robot-arm-research",
+        "https://newmobility.com",
+        "https://connsensereport.com/2025/12/26/the-latest-trends-in-mobility-aid-technology",
+        "https://mashable.com/article/disability-tech-startup-innovation-remarkable-summit",
+        "https://www.youtube.com/watch?v=kk1UOV7Tib0"
+      ],
+      "date": "2026-04-01T13:33:29.351757+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T13:03:10.571089+00:00"
+  "lastUpdated": "2026-04-01T13:33:29.351833+00:00"
 }
