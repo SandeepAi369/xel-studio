@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Models Now Available Through Chinese Mirror Site",
-      "urls": [
-        "https://www.zhihu.com/question/371644077"
-      ],
-      "date": "2026-03-22T15:03:42.387595+00:00"
-    },
-    {
       "title": "Crypto Fear And Greed Index Tracks Market Sentiment In Real Time",
       "urls": [
         "https://coinmarketcap.com/charts/fear-and-greed-index"
@@ -4683,7 +4676,20 @@
         "https://github.blog/open-source"
       ],
       "date": "2026-04-01T14:33:29.514364+00:00"
+    },
+    {
+      "title": "Qure.ai Gains FDA Clearance For AI Chest X-Ray Tool",
+      "urls": [
+        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156",
+        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
+        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
+        "https://www.ama-assn.org/topics/health-care-ai",
+        "https://www.qure.ai/us/newsroom",
+        "https://www.youtube.com/watch?v=5kwyuYJ2xEA"
+      ],
+      "date": "2026-04-01T15:08:04.555592+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T14:33:29.514438+00:00"
+  "lastUpdated": "2026-04-01T15:08:04.555653+00:00"
 }
