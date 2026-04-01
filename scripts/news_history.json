@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Launches Over 100 Scalable Enterprise Tools",
-      "urls": [
-        "https://cloud.google.com/learn/what-is-cloud-computing?hl=es"
-      ],
-      "date": "2026-03-22T04:01:22.034429+00:00"
-    },
-    {
       "title": "Mr Handyman Deploys 50 Licensed Plumbers For 24/7 Emergency Repairs In Singapore",
       "urls": [
         "https://www.yelp.com/search?find_desc=Plumbers&find_loc=8+Haji+Ln%2C+Singapore+189201",
@@ -4579,7 +4572,23 @@
         "https://www.businessinsider.com/category/esports"
       ],
       "date": "2026-04-01T03:32:00.053737+00:00"
+    },
+    {
+      "title": "Google Cloud Report Reveals 98 Percent Of Organizations Pursue Generative AI Adoption",
+      "urls": [
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://www.cio.com/article/4096970/from-cloud-native-to-ai-native-why-your-infrastructure-must-be-rebuilt-for-intelligence.html",
+        "https://medium.com/online-inference/harnessing-the-ai-cloud-infrastructure-for-the-generative-era-759d976c95ad",
+        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
+        "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
+        "https://www.cio.inc/ai-infrastructure-pressures-push-enterprises-to-cloud-a-30302",
+        "https://seekingalpha.com/news/4569351-cloud-infrastructure-emerges-as-the-quiet-winner-of-the-ai-boom",
+        "https://www.akamai.com/blog/cloud/ai-cloud-computing-revolutionizing-landscape",
+        "https://biztechmagazine.com/article/2026/01/how-ai-changing-businesses-infrastructure-strategies",
+        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqej16r6YIlKkJVibyPvOctmc3g_ggE0bD4I2NvmFj3cYoBj9Ix8L5HI&gaa_ts=69cc9bff&gaa_sig=6slPadfo9Os3ahFC-RtFpz5H9Uetbr3-ecc9qJAKIfStv1OjvQNvlhpS6Tlt9QWzLvb1jY2CZsIGAKUodQeK4g%3D%3D"
+      ],
+      "date": "2026-04-01T04:01:51.853197+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T03:32:00.053799+00:00"
+  "lastUpdated": "2026-04-01T04:01:51.853248+00:00"
 }
