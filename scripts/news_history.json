@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ladwp Expands Solar And Wind Projects To Reach 100 Percent Clean Energy By 2035",
-      "urls": [
-        "https://www.ladwp.com/who-we-are/power-system/renewable-energy/renewable-energy-program"
-      ],
-      "date": "2026-03-22T21:33:13.425336+00:00"
-    },
-    {
-      "title": "LEO Dictionary And Dict Dot CC Provide German English Translation Tools",
-      "urls": [
-        "https://dict.leo.org/englisch-deutsch/accessible",
-        "https://www.dict.cc?s=accessible"
-      ],
-      "date": "2026-03-22T22:01:29.577570+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code Based Weather Forecasting System",
       "urls": [
         "https://www.foxnews.com?msockid=03b3dbacba386b792c3dcc88bb506a0c"
@@ -4740,7 +4725,16 @@
         "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility"
       ],
       "date": "2026-04-01T21:31:04.381523+00:00"
+    },
+    {
+      "title": "Agility Robotics Scales Digit Robot Production in Oregon Factory",
+      "urls": [
+        "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
+        "https://roboticsandautomationnews.com",
+        "https://www.youtube.com/watch?v=CoATRD4S_B4"
+      ],
+      "date": "2026-04-01T22:01:52.177693+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T21:31:04.381579+00:00"
+  "lastUpdated": "2026-04-01T22:01:52.177765+00:00"
 }
