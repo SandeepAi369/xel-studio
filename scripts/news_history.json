@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ethereum Completes Shift to Proof-of-Stake, Slashing Energy Use by 99.95 Percent",
-      "urls": [
-        "https://coinheadlines.com",
-        "https://www.forbes.com/digital-assets/news",
-        "https://web3news.org",
-        "https://www.coindesk.com",
-        "https://todayonchain.com",
-        "https://cointelegraph.com/category/latest-news",
-        "https://www.ft.com/crypto",
-        "https://www.theblock.co",
-        "https://crypto.news/tag/web3",
-        "https://blocknews.com"
-      ],
-      "date": "2026-03-22T10:32:15.941672+00:00"
-    },
-    {
-      "title": "HealthCare Gov Launches Direct Enrollment For Insurance Plans",
-      "urls": [
-        "https://www.healthcare.gov/apply-and-enroll/how-to-apply"
-      ],
-      "date": "2026-03-22T11:01:37.652772+00:00"
-    },
-    {
       "title": "Zhihu Launches AI-Powered Search Tool To Enhance User Experience",
       "urls": [
         "https://www.zhihu.com",
@@ -4665,7 +4642,23 @@
         "https://www.conservation.org/news"
       ],
       "date": "2026-04-01T10:32:12.650408+00:00"
+    },
+    {
+      "title": "Bayer Partners With Cradle To Accelerate Antibody Development Using Generative AI",
+      "urls": [
+        "https://www.genengnews.com/topics/artificial-intelligence/pharmas-ai-investment-signals-new-drug-discovery-paradigm",
+        "https://www.mckinsey.com/featured-insights/the-next-normal/biotech",
+        "https://pharmanewslive.com/news/ai-set-to-transform-pharma-drug-development-could-speed-up-and-boost-profits-by-10-says-bernstein.html",
+        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706",
+        "https://pharmaphorum.com/news/ai-drug-development-news-round",
+        "https://www.biospace.com/business/ai-is-changing-pharmas-bottom-line-now-but-not-through-splashy-drug-discovery",
+        "https://www.youtube.com/watch?v=NXGa7rjaUPM",
+        "https://www.drugtargetreview.com/article/192951/ai-in-drug-discovery-2025-in-review",
+        "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html",
+        "https://www.weforum.org/stories/2026/01/how-ai-is-reshaping-drug-discovery"
+      ],
+      "date": "2026-04-01T11:03:55.686743+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T10:32:12.650457+00:00"
+  "lastUpdated": "2026-04-01T11:03:55.686811+00:00"
 }
