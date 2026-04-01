@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Begins Recording Seventh Studio Album With Michael Wagener",
-      "urls": [
-        "https://blabbermouth.net/news/extreme-begins-work-on-seventh-studio-album",
-        "https://www.xtreme.energy/home/englewood",
-        "https://extreme-band.com/about"
-      ],
-      "date": "2026-03-22T06:37:31.606895+00:00"
-    },
-    {
-      "title": "Meta Launches Standalone AI App Powered By Llama 4",
-      "urls": [
-        "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant",
-        "https://about.fb.com/news/2026/01/dina-powell-mccormick-joins-meta-as-president-and-vice-chairman",
-        "https://about.fb.com/news/2024/07/meta-ai-is-now-multilingual-more-creative-and-smarter",
-        "https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement",
-        "https://about.fb.com/ltam/news/2024/09/los-productos-de-ia-de-meta-ahora-son-mas-inteligentes-y-utiles"
-      ],
-      "date": "2026-03-22T07:01:18.823177+00:00"
-    },
-    {
       "title": "The White House Unveils AI Regulatory Framework for Congressional Approval",
       "urls": [
         "https://www.reuters.com/technology/artificial-intelligence",
@@ -4633,7 +4613,20 @@
         "https://www.nbcnews.com/climate-in-crisis"
       ],
       "date": "2026-04-01T06:31:52.788291+00:00"
+    },
+    {
+      "title": "IOM Deploys Emergency Aid to Displaced Civilians in Lebanon and Syria",
+      "urls": [
+        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
+        "https://www.hrw.org/topic/refugees-and-migrants",
+        "https://www.unrefugees.org/emergencies/ukraine",
+        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
+        "https://www.unhcr.org/us/news/briefing-notes/unhcr-mobilizing-across-region-middle-east-crisis-escalates",
+        "https://www.iom.int/escalating-conflict-middle-east-growing-humanitarian-crisis",
+        "https://www.pbs.org/newshour/tag/migrant-crisis"
+      ],
+      "date": "2026-04-01T07:04:02.935326+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T06:31:52.788364+00:00"
+  "lastUpdated": "2026-04-01T07:04:02.935412+00:00"
 }
