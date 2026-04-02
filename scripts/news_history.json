@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clyde Fa Faces Trial For York Stabbings And Robberies",
-      "urls": [
-        "https://www.bucyrustelegraphforum.com/story/news/2026/03/11/tsa-lines-wait-times-florida-airports-government-shutdown/89096305007",
-        "https://www.bucyrustelegraphforum.com/story/news/crime/2026/01/16/york-man-set-to-face-trial-from-stabbing-robberies-investigation/88219345007"
-      ],
-      "date": "2026-03-23T13:02:04.915099+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Forecasts For All 29000 U S Zip Codes",
       "urls": [
         "https://www.foxnews.com?msockid=102ffb03727c6d8514efec26733f6ce7"
@@ -4819,7 +4811,23 @@
         "https://www.youtube.com/watch?v=tvwCWwpY-X8"
       ],
       "date": "2026-04-02T13:01:36.772181+00:00"
+    },
+    {
+      "title": "Neurotechnology Launches Lithuanian LLM Surpassing Llama 2",
+      "urls": [
+        "https://aibusiness.com/nlp/ai2-olmo-large-language-model-is-truly-open-source-",
+        "https://blog.mlq.ai/this-week-in-ai-large-language-model",
+        "https://www.neurotechnology.com/press_release_nlp_large_language_model_for_lithuanian.html",
+        "https://www.analyticsvidhya.com/blog/2023/07/falcon-ai-the-new-open-source-large-language-model",
+        "https://www.jimintriglia.com/blog/first-look-meta-llama-2-open-source-large-language-model",
+        "https://neurotechnology.com/press_release_nlp_large_language_model_for_lithuanian.html",
+        "https://pandaily.com/tencent-releases-open-source-moe-large-language-model-hunyuan-large",
+        "https://indiaai.gov.in/article/understanding-stablelm-an-open-source-large-language-model",
+        "https://www.techdogs.com/tech-news/td-newsdesk/ai2-unleashes-olmo-a-game-changing-open-source-large-language-model",
+        "https://bobweb.ai/googles-latest-open-source-large-language-model"
+      ],
+      "date": "2026-04-02T13:31:23.977684+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T13:01:36.772241+00:00"
+  "lastUpdated": "2026-04-02T13:31:23.977750+00:00"
 }
