@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Plans to Nearly Double Workforce to 8,000 by 2026",
-      "urls": [
-        "https://zhuanlan.zhihu.com/p/602089899",
-        "https://openai.com/index/hello-gpt-4o",
-        "https://platform.openai.com",
-        "https://www.cnbc.com/2026/03/21/openai-to-nearly-double-workforce-to-8000-by-end-2026-ft-reports.html?msockid=30259217452b63cd0149853244e2628f",
-        "https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3",
-        "https://www.engadget.com/ai/openai-is-putting-chatgpt-its-browser-and-code-generator-into-one-desktop-app-025709839.html",
-        "https://www.financialexpress.com/business/news/amid-anthropic-rivalry-openai-to-go-against-layoff-boom-by-nearly-doubling-workforce-in-2026-report/4180236",
-        "https://chat.openai.com/chat"
-      ],
-      "date": "2026-03-23T02:33:18.857756+00:00"
-    },
-    {
       "title": "FBI Recovers Surveillance Footage In Nancy Guthrie Disappearance Probe",
       "urls": [
         "https://www.foxnews.com?msockid=1a666cd2097b650b1ff67bf7080c64f7",
@@ -4789,7 +4775,14 @@
         "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
       ],
       "date": "2026-04-02T02:31:25.043819+00:00"
+    },
+    {
+      "title": "Aft Demands Federal Action To Protect Unaccompanied Border Children",
+      "urls": [
+        "https://www.aft.org/our-community/immigration/humanitarian-crisis-us-border"
+      ],
+      "date": "2026-04-02T03:01:32.851796+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T02:31:25.043907+00:00"
+  "lastUpdated": "2026-04-02T03:01:32.851858+00:00"
 }
