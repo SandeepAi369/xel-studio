@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Johnson Delivers Incredible Performance in Championship Final",
-      "urls": [
-        "https://dictionary.cambridge.org/dictionary/english/incredible",
-        "https://www.yourdictionary.com/incredible"
-      ],
-      "date": "2026-03-23T09:02:48.241563+00:00"
-    },
-    {
       "title": "U.S. Access Board Sets 32 Inch Door Width Standard",
       "urls": [
         "https://www.access-board.gov/ada/guides/chapter-4-entrances-doors-and-gates",
@@ -4829,7 +4821,19 @@
         "https://www.merlyn.org/blog/truly-open-ai-metas-llama-offers-open-sourced-foundation-models"
       ],
       "date": "2026-04-02T09:01:36.585704+00:00"
+    },
+    {
+      "title": "Stanford Accelerator For Learning Releases White Paper On Inclusive AI In Education",
+      "urls": [
+        "https://www.cnn.com/2024/07/08/tech/ai-assistive-technology-disabilities",
+        "https://www.undp.org/uzbekistan/blog/ai-revolution-it-game-changer-disability-inclusion",
+        "https://learningenglish.voanews.com/a/students-with-disabilities-praise-assistive-technology-using-ai/7926297.html",
+        "https://www.technologyreview.com/2024/08/23/1096607/ai-people-with-disabilities-accessibility",
+        "https://apnews.com/article/artificial-intelligence-students-disabilities-ff1f51379b3861978efb0c1334a2a953",
+        "https://acceleratelearning.stanford.edu/story/what-does-ai-mean-for-learners-with-disabilities"
+      ],
+      "date": "2026-04-02T09:31:22.470336+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T09:01:36.585758+00:00"
+  "lastUpdated": "2026-04-02T09:31:22.470410+00:00"
 }
