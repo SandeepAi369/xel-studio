@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization Declares Gaming Disorder A New Health Condition",
-      "urls": [
-        "https://www.who.int/news-room/questions-and-answers/item"
-      ],
-      "date": "2026-03-23T05:31:18.491286+00:00"
-    },
-    {
-      "title": "Mayo Clinic Details Childhood Vaccine Schedule With DTaP IPV And MMR Recommendations",
-      "urls": [
-        "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928"
-      ],
-      "date": "2026-03-23T06:01:24.182846+00:00"
-    },
-    {
       "title": "Brent Crude Surges Past $120 Amid Middle East Supply Fears",
       "urls": [
         "https://www.foxbusiness.com/economy",
@@ -4813,7 +4799,14 @@
         "https://www.hearingtracker.com/news/audio-accessibility-creating-inclusive-listening-experiences-for-everyone"
       ],
       "date": "2026-04-02T05:31:18.090839+00:00"
+    },
+    {
+      "title": "Enterprises Forecast 20 Percent AI Workload Surge",
+      "urls": [
+        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqfloC-BH8Ynx6mHn6fcfS7nXgmGT4dUp2eS2ApCn6s7Kw6LRwuWYnCu&gaa_ts=69ce099f&gaa_sig=7NtsF4wxYbZ7CnoB7jOM9b_hyIqhJJcr_5ATFoSd3yv4c9pKZw-t71yzMmoyfe90HwVxiAkU1Txm2QXVTpVP8w%3D%3D"
+      ],
+      "date": "2026-04-02T06:01:29.291562+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T05:31:18.090908+00:00"
+  "lastUpdated": "2026-04-02T06:01:29.291616+00:00"
 }
