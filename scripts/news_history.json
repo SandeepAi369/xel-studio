@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches ZIP Code Level Weather Alerts",
-      "urls": [
-        "https://www.foxnews.com?msockid=39aa6eb3ce86663734a97996cf726700"
-      ],
-      "date": "2026-03-23T00:03:36.454541+00:00"
-    },
-    {
-      "title": "NFL Announces 2025 Schedule With Expanded Thanksgiving Games And London Series",
-      "urls": [
-        "https://www.nfl.com/news",
-        "https://www.nfl.com/scores",
-        "https://www.nfl.com/schedules/2025/by-week/post-4",
-        "https://www.nfl.com/videos"
-      ],
-      "date": "2026-03-23T00:31:13.093295+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather System for 29000 US ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=035efb46c4f46b9b2c83ec63c5d16a54"
@@ -4767,7 +4750,21 @@
         "https://research.google/blog"
       ],
       "date": "2026-04-02T00:01:32.220496+00:00"
+    },
+    {
+      "title": "Iraq Wins 2-1 Against Bolivia To Qualify For 2026 World Cup",
+      "urls": [
+        "https://www.youtube.com/watch?v=RxLiK9I-9mo",
+        "https://www.reuters.com/sports",
+        "https://abcnews.com/Sports",
+        "https://www.nbcnews.com/sports",
+        "https://www.nytimes.com/athletic",
+        "https://www.aljazeera.com/sports",
+        "https://www.foxnews.com/SPORTS",
+        "https://sports.yahoo.com/articles/most-extraordinary-game-ive-attended-190122951.html"
+      ],
+      "date": "2026-04-02T00:31:15.221591+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T00:01:32.220558+00:00"
+  "lastUpdated": "2026-04-02T00:31:15.221646+00:00"
 }
