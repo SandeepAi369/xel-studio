@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches ZIP Code Targeted Weather Alerts",
-      "urls": [
-        "https://www.foxnews.com?msockid=3cefa54153a76ba4320cb26452906a24"
-      ],
-      "date": "2026-03-23T16:09:05.649151+00:00"
-    },
-    {
-      "title": "Bottlenose Dolphins Exhibit Complex Feeding Strategies in Coastal Waters",
-      "urls": [
-        "https://visual.ly/community/Infographics/animals/bottlenose-dolphin",
-        "https://pages.visual.ly",
-        "https://visual.ly/users/goodmoodvaporizers",
-        "https://visual.ly/community/Infographics/health/hand-safety-and-glove-guidelines-oil-and-gas-industry",
-        "https://visual.ly/community/Infographics/other/domestos-infographic",
-        "https://visual.ly/community/Infographics/travel/outdoor-adventure-activities-adventure-and-events"
-      ],
-      "date": "2026-03-23T16:32:11.513523+00:00"
-    },
-    {
       "title": "NVIDIA DLSS 5 Uses Generative AI To Create Full Frames",
       "urls": [
         "https://www.foxnews.com/politics?msockid=29b90db1b353664821271a94b2a26761",
@@ -4839,7 +4820,14 @@
         "https://www.atlanticcouncil.org/content-series/inflection-points/its-time-to-reckon-with-the-geopolitics-of-artificial-intelligence"
       ],
       "date": "2026-04-02T16:04:21.888960+00:00"
+    },
+    {
+      "title": "Kylian Mbappe Scores Hat-Trick in World Cup Final Comeback",
+      "urls": [
+        "https://www.reddit.com/r/billsimmons/comments/17qpffb/what_is_the_most_significant_sports_moment_from"
+      ],
+      "date": "2026-04-02T16:34:13.252542+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T16:04:21.889025+00:00"
+  "lastUpdated": "2026-04-02T16:34:13.252616+00:00"
 }
