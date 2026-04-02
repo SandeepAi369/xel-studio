@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Handles Over 8.5 Billion Daily Searches",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Google"
-      ],
-      "date": "2026-03-23T17:36:32.585933+00:00"
-    },
-    {
-      "title": "Lennart Karl Scores In Three Straight Bundesliga Matches For Bayern Munich",
-      "urls": [
-        "https://www.fifa.com/en/news/articles/lennart-karl-bayern-munich-germany"
-      ],
-      "date": "2026-03-23T18:01:27.922639+00:00"
-    },
-    {
       "title": "Haiti Launches Emergency Response After 7.2 Magnitude Earthquake",
       "urls": [
         "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2021/Haiti"
@@ -4829,7 +4815,14 @@
         "https://csrwire.com/press-release/ai-and-iot-innovations-are-transforming-accessibility-opportunities"
       ],
       "date": "2026-04-02T17:31:34.816934+00:00"
+    },
+    {
+      "title": "Stable Diffusion Powers Open Source Creative AI Tools",
+      "urls": [
+        "https://criticalplayground.org/open-source-ai-models-are-reshaping-creative-workflows"
+      ],
+      "date": "2026-04-02T18:01:35.479400+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T17:31:34.816986+00:00"
+  "lastUpdated": "2026-04-02T18:01:35.479464+00:00"
 }
