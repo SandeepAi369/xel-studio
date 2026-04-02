@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Real-Time Hyperlocal Weather Updates for 29000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=0ddf0d0e83646c6605c11a2b82396de7"
-      ],
-      "date": "2026-03-23T04:32:23.116099+00:00"
-    },
-    {
       "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Behaviors",
       "urls": [
         "https://news.mit.edu/2023/explained-generative-ai-1109",
@@ -4798,7 +4791,22 @@
         "https://www.facebook.com/CBSMornings/videos/how-cricket-is-becoming-more-popular-in-the-us/889973692888379"
       ],
       "date": "2026-04-02T04:31:14.257769+00:00"
+    },
+    {
+      "title": "Storm Leonardo Kills Six in Portugal and Spain",
+      "urls": [
+        "https://www.instagram.com/reel/DUVWK4Yib0o",
+        "https://www.facebook.com/CopernicusEU/posts/-storm-leonardo-brought-heavy-and-persistent-rainfall-to-both-coastal-and-inland/1340327451469563",
+        "https://www.instagram.com/p/DUfZX7sDHJ2",
+        "https://www.euronews.com/2026/02/05/at-least-one-killed-and-thousands-evacuated-as-storm-leonardo-tears-through-portugal-and-s",
+        "https://phys.org/news/2026-02-spain-portugal-chaos-deadly-storm.html",
+        "https://www.theguardian.com/world/2026/feb/26/recent-mediterranean-storms-tragedies-spain-portugal-morocco",
+        "https://reliefweb.int/report/world/global-weather-hazards-summary-february-26-2026-march-04-2026",
+        "https://www.click2houston.com/video/weather/2026/02/04/why-tuesdays-storm-turned-severe",
+        "https://www.worldweatherattribution.org/increasingly-severe-rainstorms-pose-growing-risk-for-people-and-structures-build-in-the-floodplains"
+      ],
+      "date": "2026-04-02T05:01:37.728887+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T04:31:14.257827+00:00"
+  "lastUpdated": "2026-04-02T05:01:37.728960+00:00"
 }
