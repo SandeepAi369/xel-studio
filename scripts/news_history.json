@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Department Of Justice Mandates Web Accessibility For State And Local Sites",
-      "urls": [
-        "https://www.ada.gov/resources/web-guidance"
-      ],
-      "date": "2026-03-23T07:35:48.251284+00:00"
-    },
-    {
-      "title": "Erling Haaland Chases Ronaldo’s 140-Goal Champions League Record",
-      "urls": [
-        "https://www.fifa.com/en/news/articles/records-broken-2025"
-      ],
-      "date": "2026-03-23T08:01:31.617131+00:00"
-    },
-    {
       "title": "Screen Readers Enable Blind Users to Navigate Digital Devices Independently",
       "urls": [
         "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
@@ -4824,7 +4810,15 @@
         "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2025/08/new-method-advances-reliability-of-ai-with-applications-in-medical-diagnostics"
       ],
       "date": "2026-04-02T07:31:12.665762+00:00"
+    },
+    {
+      "title": "Esports industry is projected to generate $1.",
+      "urls": [
+        "https://streamscharts.com/news",
+        "https://theleadersglobe.com/science-technology/esports-news-and-trends-how-competitive-gaming-is-redefining-modern-entertainment"
+      ],
+      "date": "2026-04-02T08:01:46.235890+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T07:31:12.665834+00:00"
+  "lastUpdated": "2026-04-02T08:01:46.235952+00:00"
 }
