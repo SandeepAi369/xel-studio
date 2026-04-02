@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Releases Pornograffitti Album Reaching No 10 On Billboard",
-      "urls": [
-        "https://en.m.wiktionary.org/wiki/extreme",
-        "https://m.imdb.com/name/nm1928195",
-        "https://www.billboard.com/artist/extreme",
-        "https://www.extremepizza.com"
-      ],
-      "date": "2026-03-23T02:02:27.124763+00:00"
-    },
-    {
       "title": "OpenAI Plans to Nearly Double Workforce to 8,000 by 2026",
       "urls": [
         "https://zhuanlan.zhihu.com/p/602089899",
@@ -4788,7 +4778,18 @@
         "https://news.ycombinator.com/item?id=44594156"
       ],
       "date": "2026-04-02T02:01:54.632889+00:00"
+    },
+    {
+      "title": "AiCure Uses AI To Boost Clinical Trial Adherence",
+      "urls": [
+        "https://www.mobihealthnews.com/tag/healthcare-innovation",
+        "https://www.healthcareitnews.com",
+        "https://finance.yahoo.com/news/generative-ai-game-changer-healthcare-150000116.html",
+        "https://www.insideprecisionmedicine.com/topics/translational-research/harnessing-ai-innovation-to-modernize-clinical-trials",
+        "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
+      ],
+      "date": "2026-04-02T02:31:25.043819+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T02:01:54.632950+00:00"
+  "lastUpdated": "2026-04-02T02:31:25.043907+00:00"
 }
