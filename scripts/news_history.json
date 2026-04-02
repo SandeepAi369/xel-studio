@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Forecasts For All 29000 U S Zip Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=102ffb03727c6d8514efec26733f6ce7"
-      ],
-      "date": "2026-03-23T13:31:32.618956+00:00"
-    },
-    {
       "title": "Perplexity AI Delivers Real-Time Answers With Cited Sources",
       "urls": [
         "https://www.perplexity.ai",
@@ -4827,7 +4820,22 @@
         "https://bobweb.ai/googles-latest-open-source-large-language-model"
       ],
       "date": "2026-04-02T13:31:23.977684+00:00"
+    },
+    {
+      "title": "U.S. Wind and Solar Generate 17% of Electricity in 2025 Record",
+      "urls": [
+        "https://renewablesnow.com",
+        "https://renews.biz",
+        "https://www.reuters.com/business/energy/wind",
+        "https://apnews.com/hub/wind-power",
+        "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
+        "https://www.energy.gov/cmei/systems/listings/wind-news",
+        "https://www.eia.gov/todayinenergy/detail.php?id=67367",
+        "https://globalenergymonitor.org/report/global-wind-and-solar-2025-the-g7-gap",
+        "https://cleanpower.org/news"
+      ],
+      "date": "2026-04-02T14:03:16.872195+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T13:31:23.977750+00:00"
+  "lastUpdated": "2026-04-02T14:03:16.872258+00:00"
 }
