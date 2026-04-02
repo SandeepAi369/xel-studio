@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA DLSS 5 Uses Generative AI To Create Full Frames",
-      "urls": [
-        "https://www.foxnews.com/politics?msockid=29b90db1b353664821271a94b2a26761",
-        "https://news.yahoo.com/news",
-        "https://www.newsbusters.org/cnsnews",
-        "https://www.ir.lucidmotors.com/news-releases/news-release-details/lucid-details-upcoming-midsize-platform-and-announces-new",
-        "https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games",
-        "https://seekingalpha.com/market-news"
-      ],
-      "date": "2026-03-23T17:04:08.590786+00:00"
-    },
-    {
       "title": "Google Handles Over 8.5 Billion Daily Searches",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Google"
@@ -4834,7 +4822,14 @@
         "https://www.emarketer.com/content/faq-on-esports--what-marketers-need-know-about-competitive-gaming--streaming--gaming-creators"
       ],
       "date": "2026-04-02T17:02:55.121680+00:00"
+    },
+    {
+      "title": "Lg Launches Ai-Powered Smart Home Devices For Disabled Users",
+      "urls": [
+        "https://csrwire.com/press-release/ai-and-iot-innovations-are-transforming-accessibility-opportunities"
+      ],
+      "date": "2026-04-02T17:31:34.816934+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T17:02:55.121737+00:00"
+  "lastUpdated": "2026-04-02T17:31:34.816986+00:00"
 }
