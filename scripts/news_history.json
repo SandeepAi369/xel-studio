@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasa And Columbia Study Shows Cutting Black Carbon And Ozone Emissions Could Slash Near Term Warming By 50 Percent",
-      "urls": [
-        "https://climate.nasa.gov/earth-now?event=eo_event_181126",
-        "https://climate.nasa.gov/news/482/cleaning-the-air-would-limit-short-term-climate-warming"
-      ],
-      "date": "2026-03-23T15:04:19.521209+00:00"
-    },
-    {
       "title": "U.S. Fish And Wildlife Service Manages 570 National Wildlife Refuges",
       "urls": [
         "https://wildlife.org",
@@ -4824,7 +4816,23 @@
         "https://lxer.com"
       ],
       "date": "2026-04-02T14:34:47.601222+00:00"
+    },
+    {
+      "title": "Harvard Researchers Warn Emotional Wellness Apps Harm Users",
+      "urls": [
+        "https://www.smartherapypc.com/post/how-technology-is-revolutionizing-mental-health-care",
+        "https://www.icthealth.org/news/digital-health-mental-wellbeing-a-lifeline-in-tough-times",
+        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
+        "https://yourhealthmagazine.net/article/mental-health/how-wellness-entrepreneurs-are-using-technology-to-drive-mental-health-awareness",
+        "https://www.innsightful.com/the-future-of-integrated-digital-approaches-in-mental-wellness",
+        "https://www.psychiatrictimes.com/topics/tech-psychiatry",
+        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
+        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
+        "https://news.harvard.edu/gazette/story/2025/06/got-emotional-wellness-app-it-may-be-doing-more-harm-than-good",
+        "https://www.apa.org/monitor/2026/01-02/trends-personalized-mental-health-care"
+      ],
+      "date": "2026-04-02T15:06:18.478880+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T14:34:47.601284+00:00"
+  "lastUpdated": "2026-04-02T15:06:18.478965+00:00"
 }
