@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasa Reports 1.2C Global Temperature Rise And Record 421 Ppm Co2 Levels",
-      "urls": [
-        "https://climate.nasa.gov/images-of-change",
-        "https://climate.nasa.gov/news/2944/nasa-noaa-to-announce-2019-global-temperatures-climate-conditions/in-progress",
-        "https://climate.nasa.gov/visual-sitemap/resource/2021",
-        "https://climate.nasa.gov/quizzes/carbon-quiz/3/9"
-      ],
-      "date": "2026-03-23T19:02:09.684849+00:00"
-    },
-    {
-      "title": "AP Updates Stylebook To Standardize Lowercase Esports",
-      "urls": [
-        "https://www.espn.com/gaming/story/_/id/19860473/why-associated-press-stylebook-went-esports-not-esports",
-        "https://www.espn.com/gaming/story/_/id/44054378/pokemon-champions-esports-scene"
-      ],
-      "date": "2026-03-23T19:31:15.527657+00:00"
-    },
-    {
       "title": "Farmers in Chipangali Boost Yields with Climate-Smart Techniques",
       "urls": [
         "https://news.un.org/en/story/2025/10/1166204",
@@ -4835,7 +4817,23 @@
         "https://www.youtube.com/watch?v=tMvzZmPuVIA"
       ],
       "date": "2026-04-02T19:01:29.906789+00:00"
+    },
+    {
+      "title": "Harvard researchers have developed the first continuously operating quantum computer, marking a majo",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/quantum-computing/harvard-researchers-hail-quantum-computing-breakthrough-with-machine-that-can-run-for-two-hours-atomic-loss-quashed-by-experimental-design-systems-that-can-run-forever-just-3-years-away",
+        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough",
+        "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
+        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
+        "https://www.livescience.com/technology/computing/googles-breakthrough-quantum-echoes-algorithm-pushes-us-closer-to-useful-quantum-computing-running-13-000-times-faster-than-on-a-supercomputer",
+        "https://thedebrief.org/new-impossible-material-leads-researchers-to-a-quantum-computing-breakthrough",
+        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
+        "https://scitechdaily.com/scientists-may-have-found-the-holy-grail-of-quantum-computing",
+        "https://thequantuminsider.com",
+        "https://www.sciencedaily.com/releases/2026/02/260221000252.htm"
+      ],
+      "date": "2026-04-02T19:33:44.201347+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T19:01:29.906839+00:00"
+  "lastUpdated": "2026-04-02T19:33:44.201410+00:00"
 }
