@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Perplexity AI Delivers Real-Time Answers With Cited Sources",
-      "urls": [
-        "https://www.perplexity.ai",
-        "https://arena.ai",
-        "https://huggingface.co/FudanCVL/GlyphPrinter",
-        "https://x.com/MallocPrivacy/status/2029514386943963640",
-        "https://www.nbcnews.com/us-news"
-      ],
-      "date": "2026-03-23T14:06:06.220149+00:00"
-    },
-    {
-      "title": "Fox News has integrated ZIP code-based targeting into its weather reporting platform, delivering loc",
-      "urls": [
-        "https://www.foxnews.com?msockid=3fef5c8c4b1965aa3cde4ba94afc644a"
-      ],
-      "date": "2026-03-23T14:33:59.554184+00:00"
-    },
-    {
       "title": "Nasa And Columbia Study Shows Cutting Black Carbon And Ozone Emissions Could Slash Near Term Warming By 50 Percent",
       "urls": [
         "https://climate.nasa.gov/earth-now?event=eo_event_181126",
@@ -4835,7 +4817,14 @@
         "https://cleanpower.org/news"
       ],
       "date": "2026-04-02T14:03:16.872195+00:00"
+    },
+    {
+      "title": "LXer Delivers Weekly GNU Linux News And Security Updates",
+      "urls": [
+        "https://lxer.com"
+      ],
+      "date": "2026-04-02T14:34:47.601222+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T14:03:16.872258+00:00"
+  "lastUpdated": "2026-04-02T14:34:47.601284+00:00"
 }
