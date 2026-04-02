@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen Readers Enable Blind Users to Navigate Digital Devices Independently",
-      "urls": [
-        "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
-        "https://www.techmeme.com"
-      ],
-      "date": "2026-03-23T08:32:29.304414+00:00"
-    },
-    {
       "title": "Johnson Delivers Incredible Performance in Championship Final",
       "urls": [
         "https://dictionary.cambridge.org/dictionary/english/incredible",
@@ -4818,7 +4810,19 @@
         "https://theleadersglobe.com/science-technology/esports-news-and-trends-how-competitive-gaming-is-redefining-modern-entertainment"
       ],
       "date": "2026-04-02T08:01:46.235890+00:00"
+    },
+    {
+      "title": "Israel Adesanya Faces Retirement Calls After Fifth Straight Loss",
+      "urls": [
+        "https://sports.yahoo.com/mma",
+        "https://www.nytimes.com/athletic/mma",
+        "https://www.bbc.com/sport/mixed-martial-arts",
+        "https://www.cbssports.com/ufc",
+        "https://bleacherreport.com/mma",
+        "https://www.espn.com/mma"
+      ],
+      "date": "2026-04-02T08:32:30.252028+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T08:01:46.235952+00:00"
+  "lastUpdated": "2026-04-02T08:32:30.252113+00:00"
 }
