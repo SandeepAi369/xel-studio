@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather System for 29000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=035efb46c4f46b9b2c83ec63c5d16a54"
-      ],
-      "date": "2026-03-23T01:02:38.331401+00:00"
-    },
-    {
       "title": "KONAMI Enables Controller Support for eFootball Versus AI and Friend Matches",
       "urls": [
         "https://www.konami.com/efootball/en/page/mobile_controller"
@@ -4780,7 +4773,15 @@
         "https://www.perkins.org/resource/z-assistive-technology-low-vision"
       ],
       "date": "2026-04-02T01:01:29.775502+00:00"
+    },
+    {
+      "title": "Antarctic Peninsula Ice Melt To Accelerate By 2100",
+      "urls": [
+        "https://www.sciencenews.org/topic/climate",
+        "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
+      ],
+      "date": "2026-04-02T01:30:56.766075+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T01:01:29.775575+00:00"
+  "lastUpdated": "2026-04-02T01:30:56.766136+00:00"
 }
