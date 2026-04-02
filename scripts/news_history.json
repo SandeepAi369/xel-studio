@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Releases First New Album in 15 Years Titled Six",
-      "urls": [
-        "https://www.youtube.com/watch?v=UrIiLvg58SY",
-        "https://www.facebook.com/extremeband",
-        "https://www.allmusic.com/artist/extreme-mn0000789064",
-        "https://loudwire.com/extreme-six-album-rise-video"
-      ],
-      "date": "2026-03-23T10:01:32.383389+00:00"
-    },
-    {
       "title": "Shop App Launches Unified Platform For Brand Browsing And Rewards",
       "urls": [
         "https://shop.app",
@@ -4834,7 +4824,16 @@
         "https://www.zdnet.com/article/maybe-open-source-needs-ai"
       ],
       "date": "2026-04-02T10:01:31.300321+00:00"
+    },
+    {
+      "title": "UN Convention on Biological Diversity Launches Global Framework to Protect Ecosystems",
+      "urls": [
+        "https://www.conservation.cam.ac.uk/aggregator/sources/2",
+        "https://www.biologicaldiversity.org/publications/papers",
+        "https://www.un.org/en/climatechange/science/climate-issues/biodiversity"
+      ],
+      "date": "2026-04-02T10:31:28.528979+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T10:01:31.300384+00:00"
+  "lastUpdated": "2026-04-02T10:31:28.529043+00:00"
 }
