@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "KONAMI Enables Controller Support for eFootball Versus AI and Friend Matches",
-      "urls": [
-        "https://www.konami.com/efootball/en/page/mobile_controller"
-      ],
-      "date": "2026-03-23T01:32:14.624311+00:00"
-    },
-    {
       "title": "Extreme Releases Pornograffitti Album Reaching No 10 On Billboard",
       "urls": [
         "https://en.m.wiktionary.org/wiki/extreme",
@@ -4781,7 +4774,21 @@
         "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
       ],
       "date": "2026-04-02T01:30:56.766075+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mixtral 8x7B With 128000 Token Context Window",
+      "urls": [
+        "https://article-factory.ai/news/mistral-ai-launches-open-source-voice-model-voxtral-tts",
+        "https://aibusiness.com/nlp/mistral-ai-s-new-language-model-aims-for-open-source-supremacy",
+        "https://venturebeat.com/business/mistral-ai-drops-new-open-source-model-that-outperforms-gpt-4o-mini-with-fraction-of-parameters",
+        "https://mistral.ai/news/mistral-medium-3",
+        "https://cryptorank.io/ru/news/feed/3a958-mistral-ai-voxtral-tts-speech-model",
+        "https://www.youtube.com/watch?v=CtCsCvQlQ84",
+        "https://mistral.ai/news/voxtral",
+        "https://news.ycombinator.com/item?id=44594156"
+      ],
+      "date": "2026-04-02T02:01:54.632889+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T01:30:56.766136+00:00"
+  "lastUpdated": "2026-04-02T02:01:54.632950+00:00"
 }
