@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Haiti Launches Emergency Response After 7.2 Magnitude Earthquake",
-      "urls": [
-        "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2021/Haiti"
-      ],
-      "date": "2026-03-23T18:31:17.444625+00:00"
-    },
-    {
       "title": "Nasa Reports 1.2C Global Temperature Rise And Record 421 Ppm Co2 Levels",
       "urls": [
         "https://climate.nasa.gov/images-of-change",
@@ -4822,7 +4815,19 @@
         "https://criticalplayground.org/open-source-ai-models-are-reshaping-creative-workflows"
       ],
       "date": "2026-04-02T18:01:35.479400+00:00"
+    },
+    {
+      "title": "Sam Altman Announces OpenAI To Release Open Weight Model",
+      "urls": [
+        "https://www.wired.com/story/openai-sam-altman-announce-open-source-model",
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
+        "https://www.infoq.com/llms/news",
+        "https://thenewstack.io/llm",
+        "https://openai.com/open-models",
+        "https://explodingtopics.com/blog/list-of-llms"
+      ],
+      "date": "2026-04-02T18:32:40.435120+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T18:01:35.479464+00:00"
+  "lastUpdated": "2026-04-02T18:32:40.435184+00:00"
 }
