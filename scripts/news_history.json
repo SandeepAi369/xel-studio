@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Targets Major U.S. Tech Firms With Cyber And Drone Threats",
-      "urls": [
-        "https://www.cnbc.com/technology?msockid=16c1d30d8e8f68512bb5c4288fa069fa",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB/sections/CAQiW0NCQVNQZ29JTDIwdk1EZGpNWFlTQW1WdUdnSlZVeUlQQ0FRYUN3b0pMMjB2TURKdFpqRnVLaGtLRndvVFIwRkVSMFZVWDFORlExUkpUMDVmVGtGTlJTQUJLQUEqKggAKiYICiIgQ0JBU0Vnb0lMMjB2TURkak1YWVNBbVZ1R2dKVlV5Z0FQAVAB?hl=en-US&ceid=US%3Aen",
-        "https://news.microsoft.com/recent-news?msockid=16c1d30d8e8f68512bb5c4288fa069fa",
-        "https://finance.yahoo.com/news/live/tech-stocks-today-anthropic-says-pentagon-ban-could-cost-it-billions-meta-announces-new-ai-chips-134456659.html",
-        "https://blogs.nvidia.com/blog/gtc-2026-news",
-        "https://www.cbsnews.com/news/iran-war-tehran-us-tech-companies-targets-middle-east-drones-cyberattacks",
-        "https://www.cnn.com/videos"
-      ],
-      "date": "2026-03-23T21:01:40.058894+00:00"
-    },
-    {
       "title": "Fox News Launches Expanded Global Coverage With Real-Time Updates",
       "urls": [
         "https://www.foxnews.com/world?msockid=230d59eedb4f69b817284ecbdaa96887"
@@ -4827,7 +4814,23 @@
         "https://www.youtube.com/watch?v=NQjkqzClcNQ"
       ],
       "date": "2026-04-02T20:33:18.952860+00:00"
+    },
+    {
+      "title": "Oecd Cuts Global Growth Forecast Amid Rising Energy Prices",
+      "urls": [
+        "https://www.cnbc.com/economy",
+        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqfi5tPVeepcBzzoroGK6L6CB_juOwjxqmGoU832Kd7hkBvgQJX1j4PD&gaa_ts=69cedc95&gaa_sig=vQFGc9HaX-pSWTSQdXFI7mc1f_3JIZ40bBeLyUTyaIspqyE-IJ9sa0srR38jt9Mf-nkeHGFf-f_JTmhjz7Tzaw%3D%3D",
+        "https://www.reuters.com/markets/econ-world",
+        "https://finance.yahoo.com/news/war-hits-global-economy-us-100000814.html",
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
+        "https://www.economist.com/topics/economy",
+        "https://apnews.com/hub/inflation",
+        "https://www.cnn.com/business/economy",
+        "https://www.nytimes.com/section/business/economy",
+        "https://www.youtube.com/watch?v=fwjW_7G8w6I"
+      ],
+      "date": "2026-04-02T21:02:56.195475+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T20:33:18.952920+00:00"
+  "lastUpdated": "2026-04-02T21:02:56.195560+00:00"
 }
