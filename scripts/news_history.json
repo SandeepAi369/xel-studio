@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Fish And Wildlife Service Manages 570 National Wildlife Refuges",
-      "urls": [
-        "https://wildlife.org",
-        "https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee",
-        "https://www.usda.gov/sustainability/conservation/wildlife"
-      ],
-      "date": "2026-03-23T15:36:55.496990+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code Targeted Weather Alerts",
       "urls": [
         "https://www.foxnews.com?msockid=3cefa54153a76ba4320cb26452906a24"
@@ -4839,7 +4830,16 @@
         "https://www.youtube.com/watch?v=Io_GqmbNBbY"
       ],
       "date": "2026-04-02T15:31:56.702754+00:00"
+    },
+    {
+      "title": "China has expanded its geopolitical reach through a series of advanced scientific missions in polar,",
+      "urls": [
+        "https://www.scmp.com/economy/china-economy/article/3330611/chinas-geopolitical-competition-expands-new-frontiers-scientific-milestones",
+        "https://spectrum.ieee.org/geopolitics-and-technology",
+        "https://www.atlanticcouncil.org/content-series/inflection-points/its-time-to-reckon-with-the-geopolitics-of-artificial-intelligence"
+      ],
+      "date": "2026-04-02T16:04:21.888960+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T15:31:56.702811+00:00"
+  "lastUpdated": "2026-04-02T16:04:21.889025+00:00"
 }
