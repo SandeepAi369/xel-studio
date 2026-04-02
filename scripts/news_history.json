@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Real-Time Weather Coverage For All 29000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=3e9a6ebca2e762b416da7999a3de6334"
-      ],
-      "date": "2026-03-23T04:01:27.287490+00:00"
-    },
-    {
       "title": "Fox News Launches Real-Time Hyperlocal Weather Updates for 29000 US ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=0ddf0d0e83646c6605c11a2b82396de7"
@@ -4781,7 +4774,22 @@
         "https://cryptoslate.com"
       ],
       "date": "2026-04-02T03:31:16.780981+00:00"
+    },
+    {
+      "title": "Trump Administration Unveils National AI Policy Framework",
+      "urls": [
+        "https://www.cisa.gov/ai/recent-efforts",
+        "https://www.nytimes.com/2026/03/20/us/politics/white-house-unveils-ai-policy-aimed-at-blocking-state-laws.html",
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
+        "https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation",
+        "https://www.americascreditunions.org/blogs/compliance/patchwork-policy-federal-governments-new-approach-ai-regulation",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://www.govtech.com/artificial-intelligence/what-the-new-federal-ai-framework-could-mean-for-states",
+        "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
+        "https://www.bclplaw.com/en-US/events-insights-news/us-state-by-state-artificial-intelligence-legislation-snapshot.html"
+      ],
+      "date": "2026-04-02T04:01:46.112671+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T03:31:16.781048+00:00"
+  "lastUpdated": "2026-04-02T04:01:46.112733+00:00"
 }
