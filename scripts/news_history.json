@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Modern Bioenergy Powers Over Half Of Global Renewable Use In 2023",
-      "urls": [
-        "https://www.iea.org/energy-system/renewables"
-      ],
-      "date": "2026-03-22T23:34:46.838102+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code Level Weather Alerts",
       "urls": [
         "https://www.foxnews.com?msockid=39aa6eb3ce86663734a97996cf726700"
@@ -4759,7 +4752,22 @@
         "https://www.bioworld.com/topics/84-bioworld"
       ],
       "date": "2026-04-01T23:31:11.778612+00:00"
+    },
+    {
+      "title": "Gemini 3 Deep Think Upgraded With Aletheia Verification System",
+      "urls": [
+        "https://deepmind.google/research/publications",
+        "https://deepmind.google/blog",
+        "https://blog.google/products-and-platforms/products/gemini",
+        "https://deepmind.google/research",
+        "https://www.youtube.com/watch?v=OFb3f3RnxRk",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think",
+        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+        "https://gemini.google/overview/deep-research",
+        "https://research.google/blog"
+      ],
+      "date": "2026-04-02T00:01:32.220496+00:00"
     }
   ],
-  "lastUpdated": "2026-04-01T23:31:11.778674+00:00"
+  "lastUpdated": "2026-04-02T00:01:32.220558+00:00"
 }
