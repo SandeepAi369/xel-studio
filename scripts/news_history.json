@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shop App Launches Unified Platform For Brand Browsing And Rewards",
-      "urls": [
-        "https://shop.app",
-        "https://www.amazon.com",
-        "https://www.rakuten.co.jp",
-        "https://www.shop.com",
-        "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
-        "https://galleriadallas.com",
-        "https://shop-list.com"
-      ],
-      "date": "2026-03-23T10:32:24.394213+00:00"
-    },
-    {
-      "title": "NVIDIA has launched a new beta application replacing GeForce Experience, consolidating driver update",
-      "urls": [
-        "https://www.reddit.com/r/nvidia/comments/1b7u3ck/considering_downloading_new_nvidia_app_beta",
-        "https://www.reddit.com/r/Windows10/comments/k1d2y3/wtf_is_nividia_container_and_why_it_consumes_20",
-        "https://www.reddit.com/r/GeForceExperience/comments/1cmlzyl/nvidia_app_stream_option_gone",
-        "https://www.reddit.com/r/GeForceNOW",
-        "https://www.reddit.com/r/overclocking/comments/15393ab/can_someone_explain_to_me_what_voltage_maximum"
-      ],
-      "date": "2026-03-23T11:02:05.387426+00:00"
-    },
-    {
       "title": "Fox News Launches ZIP Code Based Weather System",
       "urls": [
         "https://www.foxnews.com?msockid=347dd7271b1d65653d15c0021ab7646f"
@@ -4833,7 +4809,15 @@
         "https://www.un.org/en/climatechange/science/climate-issues/biodiversity"
       ],
       "date": "2026-04-02T10:31:28.528979+00:00"
+    },
+    {
+      "title": "Amgen has open-sourced its AMPLIFY platform, releasing all code, data, and model weights to accelera",
+      "urls": [
+        "https://wyss.harvard.edu/news/from-data-to-drugs-the-role-of-artificial-intelligence-in-drug-discovery",
+        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159"
+      ],
+      "date": "2026-04-02T11:03:03.380059+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T10:31:28.529043+00:00"
+  "lastUpdated": "2026-04-02T11:03:03.380123+00:00"
 }
