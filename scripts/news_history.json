@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "McDonald's Shanghai Tests Keenon Robotics Humanoids for Frontline Service",
-      "urls": [
-        "https://www.therobotreport.com/robotics-news",
-        "https://www.humanoid.press",
-        "https://humanoidroboticstechnology.com/category/news",
-        "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
-        "https://www.eweek.com/news/techman-tm-xplore-i-humanoid-robot-nvidia-gtc-2026",
-        "https://computing.net/news/stocks/mcdonalds-shanghai-location-tests-keenon-robotics-humanoid-workers",
-        "https://manufacturingdigital.com/articles/rivian-how-ai-powered-robots-will-enhance-manufacturing",
-        "https://internewscast.com/news/us/revolutionizing-fast-food-mcdonalds-introduces-humanoid-robots-in-china-to-elevate-customer-experience",
-        "https://www.gadgetreview.com/mcdonalds-has-deployed-its-first-humanoid-service-robots",
-        "https://www.nextmsc.com/news/mcdonalds-pilots-humanoid-robots-in-chinas-service-sector"
-      ],
-      "date": "2026-03-23T23:01:31.339582+00:00"
-    },
-    {
       "title": "Hawaii Braces for Catastrophic Flooding After 50 Inches of Rain",
       "urls": [
         "https://www.foxweather.com/weather-news/hawaii-flash-flooding-rescues-evacuations-damage-disaster-dangerous",
@@ -4832,7 +4816,15 @@
         "https://www.youtube.com/watch?v=Mi4b1GfHl9Y"
       ],
       "date": "2026-04-02T22:33:12.497831+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Three New Models Including Devstral 2 123B",
+      "urls": [
+        "https://www.ibm.com/think/topics/mistral-ai",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week"
+      ],
+      "date": "2026-04-02T23:03:34.923802+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T22:33:12.497902+00:00"
+  "lastUpdated": "2026-04-02T23:03:34.923864+00:00"
 }
