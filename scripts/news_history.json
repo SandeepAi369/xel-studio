@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Behaviors",
-      "urls": [
-        "https://news.mit.edu/2023/explained-generative-ai-1109",
-        "https://stackoverflow.com/questions/79717434/how-to-disable-ai-autocomplete-in-vs-code",
-        "https://news.mit.edu/2024/mit-researchers-advance-automated-interpretability-ai-models-maia-0723"
-      ],
-      "date": "2026-03-23T05:02:37.143521+00:00"
-    },
-    {
       "title": "Who World Health Organization Declares Gaming Disorder A New Health Condition",
       "urls": [
         "https://www.who.int/news-room/questions-and-answers/item"
@@ -4806,7 +4797,23 @@
         "https://www.worldweatherattribution.org/increasingly-severe-rainstorms-pose-growing-risk-for-people-and-structures-build-in-the-floodplains"
       ],
       "date": "2026-04-02T05:01:37.728887+00:00"
+    },
+    {
+      "title": "Google Launches AI Smart Glasses With Real-Time Subtitles",
+      "urls": [
+        "https://asm.org/articles/2024/september/building-accessibility-for-deaf-and-hard-of-hearin",
+        "https://rnid.org.uk/information-and-support/technology-and-products",
+        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
+        "https://www.wired.com/tag/accessibility",
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooqeJHyGXLhT4CK3U5E7S4umcI98gzXsLSgOs3_kdIelGMHossD",
+        "https://www.youtube.com/watch?v=TXH_JzxV7xw",
+        "https://www.wavefrontcentre.ca/uncategorized/the-future-of-hearing-technology-whats-next-for-assistive-listening-devices",
+        "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people",
+        "https://www.youtube.com/watch?v=VbGiJHuvOGg",
+        "https://www.hearingtracker.com/news/audio-accessibility-creating-inclusive-listening-experiences-for-everyone"
+      ],
+      "date": "2026-04-02T05:31:18.090839+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T05:01:37.728960+00:00"
+  "lastUpdated": "2026-04-02T05:31:18.090908+00:00"
 }
