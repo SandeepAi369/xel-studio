@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "FBI Recovers Surveillance Footage In Nancy Guthrie Disappearance Probe",
-      "urls": [
-        "https://www.foxnews.com?msockid=1a666cd2097b650b1ff67bf7080c64f7",
-        "https://www.timesnownews.com/world/us/us-news/latest-on-nancy-guthrie-case-today-fbi-agent-arrests-savannah-guthrie-article-153891975"
-      ],
-      "date": "2026-03-23T03:01:35.563606+00:00"
-    },
-    {
-      "title": "AOL Delivers Breaking News To 35 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=3380a90a342e6baf2396be2f35826a5d",
-        "https://homepage.aol.com"
-      ],
-      "date": "2026-03-23T03:31:05.708307+00:00"
-    },
-    {
       "title": "Fox News Launches Real-Time Weather Coverage For All 29000 US ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=3e9a6ebca2e762b416da7999a3de6334"
@@ -4782,7 +4766,22 @@
         "https://www.aft.org/our-community/immigration/humanitarian-crisis-us-border"
       ],
       "date": "2026-04-02T03:01:32.851796+00:00"
+    },
+    {
+      "title": "Drift Loses $200 Million In Major Solana Exploit",
+      "urls": [
+        "https://blockworks.co/category/web3",
+        "https://www.forbes.com/digital-assets/news",
+        "https://thepaypers.com/crypto-web3-and-cbdc",
+        "https://www.coindesk.com/tag/web3",
+        "https://www.theblock.co/category/web3",
+        "https://www.dlnews.com/articles/web3",
+        "https://www.businesswire.com/newsroom/industry/technology/web3",
+        "https://www.theblock.co",
+        "https://cryptoslate.com"
+      ],
+      "date": "2026-04-02T03:31:16.780981+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T03:01:32.851858+00:00"
+  "lastUpdated": "2026-04-02T03:31:16.781048+00:00"
 }
