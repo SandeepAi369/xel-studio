@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hawaii Braces for Catastrophic Flooding After 50 Inches of Rain",
-      "urls": [
-        "https://www.foxweather.com/weather-news/hawaii-flash-flooding-rescues-evacuations-damage-disaster-dangerous",
-        "https://www.nbcnews.com/weather/floods/hawaii-worst-flooding-in-20-years-rcna264573",
-        "https://abcnews.com/US/wildfires-floods-extreme-heat-biggest-weather-stories-2025/story?id=128556731",
-        "https://www.cnn.com/2026/03/20/weather/hawaii-flooding-oahu-climate",
-        "https://www.msn.com/en-us/weather/meteorology/kona-storm-batters-hawaii-with-record-rain-and-hurricane-force-winds/ar-AA1Z2W5d",
-        "https://www.cbsnews.com/tag/disaster",
-        "https://www.msn.com/en-us/weather/topstories/kona-storm-hits-hawaii-with-135-mph-winds-44-in-rain-and-summit-snow/ar-AA1YOUVz",
-        "https://www.foxweather.com/weather-news/kona-low-hawaii-monumental-rain-hurricane-force-winds",
-        "https://www.hawaii.edu/news/2026/03/19/hawaii-mesonet-storm-data",
-        "https://apnews.com/live/hurricane-milton-florida-tracker-updates"
-      ],
-      "date": "2026-03-23T23:31:10.164055+00:00"
-    },
-    {
       "title": "Manchester City Defeat Liverpool 3-1 To Close Gap On Arsenal",
       "urls": [
         "https://www.bbc.com/sport",
@@ -4824,7 +4808,14 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week"
       ],
       "date": "2026-04-02T23:03:34.923802+00:00"
+    },
+    {
+      "title": "Avandra Launches With $17.75 Million To Transform Medical Data Analysis",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news"
+      ],
+      "date": "2026-04-02T23:33:16.276832+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T23:03:34.923864+00:00"
+  "lastUpdated": "2026-04-02T23:33:16.276894+00:00"
 }
