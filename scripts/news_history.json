@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Access Board Sets 32 Inch Door Width Standard",
-      "urls": [
-        "https://www.access-board.gov/ada/guides/chapter-4-entrances-doors-and-gates",
-        "https://en.wiktionary.org/wiki/accessible"
-      ],
-      "date": "2026-03-23T09:32:18.587122+00:00"
-    },
-    {
       "title": "Extreme Releases First New Album in 15 Years Titled Six",
       "urls": [
         "https://www.youtube.com/watch?v=UrIiLvg58SY",
@@ -4833,7 +4825,16 @@
         "https://acceleratelearning.stanford.edu/story/what-does-ai-mean-for-learners-with-disabilities"
       ],
       "date": "2026-04-02T09:31:22.470336+00:00"
+    },
+    {
+      "title": "Open Source AI Models Outperform Giants in 2025",
+      "urls": [
+        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
+        "https://www.ibm.com/think/news/2025-open-ai-trends",
+        "https://www.zdnet.com/article/maybe-open-source-needs-ai"
+      ],
+      "date": "2026-04-02T10:01:31.300321+00:00"
     }
   ],
-  "lastUpdated": "2026-04-02T09:31:22.470410+00:00"
+  "lastUpdated": "2026-04-02T10:01:31.300384+00:00"
 }
