@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apertus Launches Switzerland's First Open Multilingual AI Model",
-      "urls": [
-        "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
-        "https://llm-stats.com/ai-news",
-        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html",
-        "https://www.miragenews.com/apertus-fully-open-transparent-multilingual-1525404",
-        "https://theaiinsider.tech/2025/09/02/teams-release-apertus-switzerlands-first-large-scale-multilingual-language-model",
-        "https://open-llm-radar.com",
-        "https://finance.biggo.com/news/202507120112_Swiss_Open_Source_LLM_Release",
-        "https://betanews.com/article/new-fully-open-and-transparent-large-language-model-launches-its-swiss-of-course",
-        "https://mljourney.com/top-15-best-open-source-large-language-models",
-        "https://mistral.ai/news/mistral-3"
-      ],
-      "date": "2026-03-24T10:34:33.573292+00:00"
-    },
-    {
-      "title": "Cryptocurrency Market Data Platform Tracks 2000 Digital Assets In Real Time",
-      "urls": [
-        "https://coinmarketcap.com/es"
-      ],
-      "date": "2026-03-24T11:02:29.815392+00:00"
-    },
-    {
       "title": "Google Cloud provides a comprehensive suite of cloud computing services, including infrastructure, p",
       "urls": [
         "https://docs.cloud.google.com/docs/overview?hl=zh-cn"
@@ -4856,7 +4833,15 @@
         "https://www.nytimes.com/topic/subject/wind-power"
       ],
       "date": "2026-04-03T10:33:14.055077+00:00"
+    },
+    {
+      "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Detect Pancreatic Cancer Earlier",
+      "urls": [
+        "https://www.youtube.com/watch?v=cx_CKLb8Yl4",
+        "https://www.xr.health/eu/us/blog/generative-ai-in-healthcare"
+      ],
+      "date": "2026-04-03T11:03:27.870499+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T10:33:14.055135+00:00"
+  "lastUpdated": "2026-04-03T11:03:27.870574+00:00"
 }
