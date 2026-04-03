@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Integrates Cloud Connectivity Into File Explorer For Seamless OneDrive Access",
-      "urls": [
-        "https://support.microsoft.com/en-us/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1",
-        "https://support.microsoft.com/en-us/office/how-to-sign-in-to-hotmail-c378938b-c0eb-40c1-b99e-338dd9e776a8",
-        "https://support.microsoft.com/en-us/office/open-files-from-the-file-menu-97f087d8-3136-4485-8e86-c5b12a8c4176",
-        "https://support.microsoft.com/en-us/office/install-or-reinstall-classic-outlook-on-a-windows-pc-5c94902b-31a5-4274-abb0-b07f4661edf5",
-        "https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-b9582171-fd1f-4284-9846-bdd72bb28426",
-        "https://support.microsoft.com/en-us/windows/exploring-windows-settings-56bdfb5a-b809-4e65-9c90-4bab76745e19",
-        "https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd",
-        "https://support.microsoft.com/en-us/windows/find-your-files-and-apps-in-windows-5c7c8cfe-c289-fae4-f5f8-6b3fdba418d2",
-        "https://support.microsoft.com/en-us/microsoft-edge/change-your-browser-home-page-a531e1b8-ed54-d057-0262-cc5983a065c6",
-        "https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-4b55f974-2cc6-2d2b-d092-5905080eaf98"
-      ],
-      "date": "2026-03-24T04:32:21.295052+00:00"
-    },
-    {
       "title": "Usa Today Delivers Daily News To 45 Million Online Users",
       "urls": [
         "https://www.foxnews.com?msockid=114902c25e1f6f500cb915e45f116ee4",
@@ -4807,7 +4791,17 @@
         "https://spectrum.ieee.org/tag/humanoids"
       ],
       "date": "2026-04-03T04:03:32.661089+00:00"
+    },
+    {
+      "title": "Alessandro De Souza Ferreira Wins Gold And Sets 400-Meter Hurdles World Record",
+      "urls": [
+        "https://acappellas.co.uk/breaking-records-and-shocking-defeats-lead-sports-coverage-this-week",
+        "https://www.youtube.com/watch?v=OBqy7iKRBU8",
+        "https://www.instagram.com/reel/DWcvr5aMjLg",
+        "https://www.guinnessworldrecords.com"
+      ],
+      "date": "2026-04-03T04:33:12.791484+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T04:03:32.661153+00:00"
+  "lastUpdated": "2026-04-03T04:33:12.791545+00:00"
 }
