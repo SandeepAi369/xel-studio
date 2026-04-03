@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "OrCam MyEye And Aira Use AI To Assist Visually Impaired Users",
-      "urls": [
-        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
-        "https://www.cmu.edu/computing/news/2025/ai-future-accessibility.html",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11898476",
-        "https://news.un.org/en/story/2025/10/1166082",
-        "https://oeb.global/oeb-insights/ai-transforming-assistive-and-inclusive-technologies",
-        "https://www.timesnownews.com/bizz-impact/code-to-inclusion-how-inclusive-digital-infrastructure-and-ai-can-transform-disability-inclusion-article-153870805",
-        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
-      ],
-      "date": "2026-03-24T13:33:29.173592+00:00"
-    },
-    {
       "title": "WMO Declares 2015-2025 Hottest Decade On Record",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/global_warming",
@@ -4849,7 +4836,14 @@
         "https://nationaldeafcenter.org/news-items/accessible-teleworld"
       ],
       "date": "2026-04-03T13:33:25.464581+00:00"
+    },
+    {
+      "title": "Teamfight Tactics Players Use Data To Dominate Ranked Play",
+      "urls": [
+        "https://www.reddit.com/r/CompetitiveTFT/comments/1s8atj7/set_17_pbe_rundown"
+      ],
+      "date": "2026-04-03T14:03:24.614377+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T13:33:25.464646+00:00"
+  "lastUpdated": "2026-04-03T14:03:24.614442+00:00"
 }
