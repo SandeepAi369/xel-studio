@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Declares 2015-2025 Hottest Decade On Record",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://www.reuters.com/sustainability/climate-change",
-        "https://www.wri.org/climate-change-news",
-        "https://news.un.org/en/story/2026/03/1167178",
-        "https://www.nature.com/subjects/climate-change"
-      ],
-      "date": "2026-03-24T14:04:56.187618+00:00"
-    },
-    {
-      "title": "OpenAI GPT And Google Gemini Lead Generative AI Advancements",
-      "urls": [
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=06db8fae94176f1b0a189888951d6e70",
-        "https://www.oracle.com/artificial-intelligence/generative-ai/what-is-generative-ai",
-        "https://drakeinstitute.osu.edu/getting-started-generative-artificial-intelligence-considerations-and-strategies"
-      ],
-      "date": "2026-03-24T14:32:23.488179+00:00"
-    },
-    {
       "title": "Jannik Sinner Smashes Djokovic's Miami Open Record With 71-Minute Victory",
       "urls": [
         "https://www.skysports.com/tennis/news/12110/13523718/miami-open-jannik-sinner-creates-masters-1000-history-and-breaks-novak-djokovics-set-record-during-third-round-win"
@@ -4843,7 +4823,16 @@
         "https://www.reddit.com/r/CompetitiveTFT/comments/1s8atj7/set_17_pbe_rundown"
       ],
       "date": "2026-04-03T14:03:24.614377+00:00"
+    },
+    {
+      "title": "TensorFlow And PyTorch Lead AI Development With Scalable Tools And Research Adoption",
+      "urls": [
+        "https://automationinside.com/content/open-source-ai-tools",
+        "https://www.hyperstack.cloud/blog/case-study/pytorch-vs-tensorflow",
+        "https://www.tensorflow.org"
+      ],
+      "date": "2026-04-03T14:33:56.084051+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T14:03:24.614442+00:00"
+  "lastUpdated": "2026-04-03T14:33:56.084120+00:00"
 }
