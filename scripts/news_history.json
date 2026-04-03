@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Smart Wheelchairs And AI Screen Readers Debut At CSUN 2025",
-      "urls": [
-        "https://www.startdisability.com/making-life-easier-disabled/technology-assistive-general-intro",
-        "https://www.ces.tech/topics/accessibility",
-        "https://www.innocaption.com/recentnews/top-5-assistive-technologies-csun-2025",
-        "https://nod.org/driving-change/technology"
-      ],
-      "date": "2026-03-24T13:05:56.418541+00:00"
-    },
-    {
       "title": "OrCam MyEye And Aira Use AI To Assist Visually Impaired Users",
       "urls": [
         "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
@@ -4849,7 +4839,17 @@
         "https://www.heyorca.com/blog/instagram-social-news"
       ],
       "date": "2026-04-03T13:03:26.759486+00:00"
+    },
+    {
+      "title": "Digital Accessibility for the d/Deaf and hard of hearing requires more than just captions, according",
+      "urls": [
+        "https://www.audioeye.com/post/digital-accessibility-deaf-hard-of-hearing",
+        "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments",
+        "https://tulanehullabaloo.com/68827/data/ai-tools-transform-accessibility-for-deaf-deafblind",
+        "https://nationaldeafcenter.org/news-items/accessible-teleworld"
+      ],
+      "date": "2026-04-03T13:33:25.464581+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T13:03:26.759588+00:00"
+  "lastUpdated": "2026-04-03T13:33:25.464646+00:00"
 }
