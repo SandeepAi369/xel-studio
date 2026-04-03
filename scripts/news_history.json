@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autism Spectrum Disorder Diagnosis Relies on Early Behavioral Assessments",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Autism",
-        "https://autism.org/what-is-autism",
-        "https://www.cdc.gov/autism/signs-symptoms/index.html",
-        "https://www.webmd.com/brain/autism/understanding-autism-basics"
-      ],
-      "date": "2026-03-24T18:31:18.416408+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Forecasts For All 29000 U.S. ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=03275b965b7d64982c7b4cb05a0d65b1"
@@ -4864,7 +4854,14 @@
         "https://aimultiple.com/ai-chip-makers"
       ],
       "date": "2026-04-03T18:30:54.329798+00:00"
+    },
+    {
+      "title": "Google And Northwestern Medicine AI Detects Lung Cancer More Accurately Than Radiologists",
+      "urls": [
+        "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare"
+      ],
+      "date": "2026-04-03T19:01:26.459031+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T18:30:54.329858+00:00"
+  "lastUpdated": "2026-04-03T19:01:26.459100+00:00"
 }
