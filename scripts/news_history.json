@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earth's Temperature Rises at Twice the Rate in Past Decade",
-      "urls": [
-        "https://www.motherjones.com/environment/2026/03/global-warming-accelerated-past-decade-study"
-      ],
-      "date": "2026-03-24T02:01:26.088685+00:00"
-    },
-    {
       "title": "Tokyo Marathon Offers $280000 Bonus To Break Course Record In 2026",
       "urls": [
         "https://www.marathons.com/en",
@@ -4811,7 +4804,15 @@
         "https://www.nationalacademies.org/topics/climate-change"
       ],
       "date": "2026-04-03T01:33:08.336409+00:00"
+    },
+    {
+      "title": "Anthropic Removes Safety Clause From AI Development Policy",
+      "urls": [
+        "https://thehill.com/policy/technology/5754539-anthropic-ai-pentagon-dispute",
+        "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540?gaa_at=eafs&gaa_n=AWEtsqfSrBLRSXFem5_TW4-LJ77XHE0LocfRe-SsNAE5XEDw9bOEyDMY0_Ca&gaa_ts=69cf22e2&gaa_sig=UpBxgwwn226IPOnaOeD9PfiSSyTitX_jKUHT6xiTXrF849cOCe9kRcpHmHJNuf01DlPR79CVK63m1wjMuCJxDg%3D%3D"
+      ],
+      "date": "2026-04-03T02:03:28.832861+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T01:33:08.336477+00:00"
+  "lastUpdated": "2026-04-03T02:03:28.832915+00:00"
 }
