@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Forecasts For All 29000 U.S. ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=03275b965b7d64982c7b4cb05a0d65b1"
-      ],
-      "date": "2026-03-24T19:02:34.559437+00:00"
-    },
-    {
       "title": "Vertex And Crispr Therapeutics Launch First Crispr Therapy Casgevy For Sickle Cell Disease",
       "urls": [
         "https://www.sciencedaily.com",
@@ -4861,7 +4854,22 @@
         "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare"
       ],
       "date": "2026-04-03T19:01:26.459031+00:00"
+    },
+    {
+      "title": "OpenAI's ChatGPT Surpasses 180 Million Weekly Users",
+      "urls": [
+        "https://aimagazine.com/news/top-10-generative-ai-tools",
+        "https://www.sganalytics.com/blog/top-generative-ai-tools",
+        "https://ai.google/products",
+        "https://ryantronier.com/resources/generative-ai-tools",
+        "https://www.edureka.co/blog/top-generative-ai-tools",
+        "https://bootcamp.uic.edu/blog/best-generative-ai-tools",
+        "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/top-generative-ai-tools",
+        "https://cloud.google.com/use-cases/free-ai-tools",
+        "https://mashable.com/article/upcoming-ai-productivity-tools-models"
+      ],
+      "date": "2026-04-03T19:31:06.596780+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T19:01:26.459100+00:00"
+  "lastUpdated": "2026-04-03T19:31:06.596839+00:00"
 }
