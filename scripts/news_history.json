@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Expands Digital Platform with Real Time Global Coverage",
-      "urls": [
-        "https://www.foxnews.com?msockid=220a9588d3c06b8d1ce782aed25b6a54"
-      ],
-      "date": "2026-03-24T05:33:25.696527+00:00"
-    },
-    {
-      "title": "Peru Declares State of Emergency After Deadly Floods Displace 120,000",
-      "urls": [
-        "https://apnews.com/hub/weather",
-        "https://www.theguardian.com/world/extreme-weather"
-      ],
-      "date": "2026-03-24T06:02:26.993513+00:00"
-    },
-    {
       "title": "Northern Wildfires Burn Deep Into Peat Releasing Ancient Carbon",
       "urls": [
         "https://www.reuters.com/sustainability/climate-energy",
@@ -4812,7 +4797,14 @@
         "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled"
       ],
       "date": "2026-04-03T05:33:24.146007+00:00"
+    },
+    {
+      "title": "Google DeepMind Solves Longstanding Algorithm Challenge With Gemini 2.5 Breakthrough",
+      "urls": [
+        "https://www.theguardian.com/technology/2025/sep/17/google-deepmind-claims-historic-ai-breakthrough-in-problem-solving"
+      ],
+      "date": "2026-04-03T06:03:15.836743+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T05:33:24.146065+00:00"
+  "lastUpdated": "2026-04-03T06:03:15.836813+00:00"
 }
