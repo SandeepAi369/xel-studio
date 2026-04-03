@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gary Cherone Leads Extreme To Reunion Tour After 28 Years",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Gary_Cherone"
-      ],
-      "date": "2026-03-24T10:01:37.079579+00:00"
-    },
-    {
       "title": "Apertus Launches Switzerland's First Open Multilingual AI Model",
       "urls": [
         "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
@@ -4836,7 +4829,23 @@
         "https://engineering.nyu.edu/news/new-virtual-reality-tested-system-shows-promise-aiding-navigation-people-blindness-or-low"
       ],
       "date": "2026-04-03T09:33:27.424670+00:00"
+    },
+    {
+      "title": "TensorFlow And PyTorch Lead AI Framework Market In 2025",
+      "urls": [
+        "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
+        "https://www.instagram.com/p/DVUpCtyCr0I",
+        "https://news.ycombinator.com/item?id=45844142",
+        "https://www.ultralytics.com/blog/exploring-vision-ai-frameworks-tensorflow-pytorch-and-opencv",
+        "https://www.lightly.ai/blog/pytorch-vs-tensorflow",
+        "https://rafay.co/ai-and-cloud-native-blog/pytorch-vs-tensorflow-a-comprehensive-comparison",
+        "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
+        "https://www.usaii.org/ai-insights/pytorch-vs-tensorflow-which-is-best-for-ai-and-machine-learning",
+        "https://www.researchgate.net/post/Why_most_researchers_are_shifting_from_tensorFlow_to_Pytorch",
+        "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
+      ],
+      "date": "2026-04-03T10:03:52.997633+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T09:33:27.424726+00:00"
+  "lastUpdated": "2026-04-03T10:03:52.997712+00:00"
 }
