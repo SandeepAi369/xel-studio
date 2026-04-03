@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "title": "Manchester City Defeat Liverpool 3-1 To Close Gap On Arsenal",
-      "urls": [
-        "https://www.bbc.com/sport",
-        "https://www.bbc.co.uk/sport/football",
-        "https://sports.ndtv.com/football/news",
-        "https://www.skysports.com",
-        "https://www.youtube.com/@supersport",
-        "https://www.bbc.co.uk/sport",
-        "https://tv.youtube.com/sports"
-      ],
-      "date": "2026-03-24T00:06:51.698582+00:00"
-    },
-    {
-      "title": "Movsar Evloev Defeats Lerone Murphy By Unanimous Decision At UFC London",
-      "urls": [
-        "https://www.mmamania.com/ufc-news",
-        "https://www.espn.com/mma/ufc",
-        "https://www.mmahive.com",
-        "https://ufc.news",
-        "https://www.ufc.com",
-        "https://www.mmafighting.com/latest-news",
-        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREUyY2pObkVnSmxiaWdBUAE?hl=en-US&ceid=US%3Aen",
-        "https://bloodyelbow.com",
-        "https://www.cbssports.com/watch/ufc",
-        "https://firstrowsports-t9.b-cdn.net"
-      ],
-      "date": "2026-03-24T00:32:19.192087+00:00"
-    },
-    {
       "title": "Chelsea Pursue Napoli Striker Victor Osimhen in Summer Transfer Push",
       "urls": [
         "https://www.foxnews.com?msockid=0028ef2d27bf6a750642f80b26286b3a",
@@ -4830,7 +4801,21 @@
         "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model"
       ],
       "date": "2026-04-03T00:03:31.388122+00:00"
+    },
+    {
+      "title": "United States Esports Federation Merges With USA Esports to Unify National Team Efforts",
+      "urls": [
+        "https://www.esportschampionship.gg/news",
+        "https://www.usef.gg/news",
+        "https://ugc.gg",
+        "https://www.wral.com/esports/17801745",
+        "https://www.polygon.com/esports1",
+        "https://egamersworld.com/events",
+        "https://www.youtube.com/watch?v=P99sWXAu3oA",
+        "https://escharts.com/top-games"
+      ],
+      "date": "2026-04-03T00:33:13.709048+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T00:03:31.388185+00:00"
+  "lastUpdated": "2026-04-03T00:33:13.709107+00:00"
 }
