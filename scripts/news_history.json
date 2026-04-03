@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Defined as Farthest Point From Ordinary by Dictionary.com",
-      "urls": [
-        "https://www.thefreedictionary.com/extreme",
-        "https://www.dictionary.com/browse/extreme"
-      ],
-      "date": "2026-03-24T18:03:39.541600+00:00"
-    },
-    {
       "title": "Autism Spectrum Disorder Diagnosis Relies on Early Behavioral Assessments",
       "urls": [
         "https://en.wikipedia.org/wiki/Autism",
@@ -4857,7 +4849,22 @@
         "https://www.usgs.gov/programs/VHP/volcano-updates"
       ],
       "date": "2026-04-03T18:01:35.637408+00:00"
+    },
+    {
+      "title": "U.S. Regulators Draft Rules To Control AI Chip Exports",
+      "urls": [
+        "https://www.barrons.com/articles/nvidia-amd-google-ai-chips-71871e42?gaa_at=eafs&gaa_n=AWEtsqfXAD9OflDzfgFYaCLlvuTKA9heW_HtZogHBrcHPHz7iWIgz4rZYtCg&gaa_ts=69d00adc&gaa_sig=hb32YgO9QyEYSicKb0gs97WgsNfxphHdcAqDhwmjXfZFQjIS-c9vSXLaFxlA8Tp6mkq1kFQMqlHyatOaOa_72Q%3D%3D",
+        "https://www.youtube.com/watch?v=MleiSYvWIzY",
+        "https://finance.yahoo.com/news/nvidia-amd-could-face-worldwide-232031799.html",
+        "https://www.reddit.com/r/AMD_Stock/comments/1lghvnk/realistically_how_close_is_amd_to_nvidia_in_ai",
+        "https://www.fool.com/investing/2026/03/05/nvidia-and-amd-could-face-worldwide-ai-chip-export",
+        "https://patentpc.com/blog/the-ai-chip-market-explosion-key-stats-on-nvidia-amd-and-intels-ai-dominance",
+        "https://www.heygotrade.com/en/news/us-ai-chip-export-rules-tighten-nvidia-amd-stocks-slide",
+        "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
+        "https://aimultiple.com/ai-chip-makers"
+      ],
+      "date": "2026-04-03T18:30:54.329798+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T18:01:35.637464+00:00"
+  "lastUpdated": "2026-04-03T18:30:54.329858+00:00"
 }
