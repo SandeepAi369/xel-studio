@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization reports the Earth's climate is more out of balance than at any poi",
-      "urls": [
-        "https://www.npr.org/sections/climate",
-        "https://news.un.org/en/focus-topic/climate-change",
-        "https://science.nasa.gov/climate-change",
-        "https://link.springer.com/subjects/climate-change",
-        "https://www.nytimes.com/section/climate",
-        "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance"
-      ],
-      "date": "2026-03-24T20:03:03.338867+00:00"
-    },
-    {
       "title": "IUCN Designates 12 Million Hectares As Protected Areas",
       "urls": [
         "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
@@ -4871,7 +4859,23 @@
         "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture"
       ],
       "date": "2026-04-03T20:01:27.202444+00:00"
+    },
+    {
+      "title": "Apple Partners With Google To Power Apple Intelligence Using Gemini AI",
+      "urls": [
+        "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three",
+        "https://techcrunch.com/2024/09/20/hottest-apple-products-google-microsoft",
+        "https://www.newsbooktimes.com/ai-news/google-microsoft-and-apple-ai-updates-whats-new-this-year",
+        "https://www.heygotrade.com/en/news/google-ai-expansion-challenges-microsoft-apple",
+        "https://www.youtube.com/watch?v=IHbOyZKhYvk",
+        "https://uk.pcmag.com/ai/158419/apple-is-years-behind-google-and-microsoft-in-ai-how-soon-will-it-affect-sales",
+        "https://www.youtube.com/watch?v=vPrOJ7d-7Mg",
+        "https://seekingalpha.com/article/4876922-big-tech-teams-up-against-alphabet-while-apple-reaps-the-rewards",
+        "https://www.nytimes.com/2026/01/12/technology/apple-google-ai-partnership.html",
+        "https://www.usatoday.com/story/money/2026/04/01/apple-turns-50-microsoft-google/89421094007"
+      ],
+      "date": "2026-04-03T20:31:26.727092+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T20:01:27.202508+00:00"
+  "lastUpdated": "2026-04-03T20:31:26.727171+00:00"
 }
