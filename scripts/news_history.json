@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vertex And Crispr Therapeutics Launch First Crispr Therapy Casgevy For Sickle Cell Disease",
-      "urls": [
-        "https://www.sciencedaily.com",
-        "https://www.nature.com/news",
-        "https://scienceinsights.org/what-is-happening-in-science-today-top-breakthroughs",
-        "https://theweek.com/health-and-science/1019386/recent-scientific-breakthroughs",
-        "https://www.smithsonianmag.com/science-nature/the-ten-most-significant-science-stories-of-2025-from-medical-breakthroughs-to-an-interstellar-visitor-180987905",
-        "https://scitechdaily.com",
-        "https://hms.harvard.edu/news/harvard-medical-schools-top-science-news-2025",
-        "https://phys.org"
-      ],
-      "date": "2026-03-24T19:34:03.300040+00:00"
-    },
-    {
       "title": "World Meteorological Organization reports the Earth's climate is more out of balance than at any poi",
       "urls": [
         "https://www.npr.org/sections/climate",
@@ -4869,7 +4855,23 @@
         "https://mashable.com/article/upcoming-ai-productivity-tools-models"
       ],
       "date": "2026-04-03T19:31:06.596780+00:00"
+    },
+    {
+      "title": "United Nations Warns Spyware Threatens Global Human Rights",
+      "urls": [
+        "https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report",
+        "https://cepa.org/article/uk-tech-regulation-surveillance-shouldnt-trump-privacy",
+        "https://www.nytimes.com/topic/subject/online-privacy-regulation",
+        "https://www.reuters.com/legal/data-privacy",
+        "https://www.isaca.org/resources/news-and-trends/industry-news/2024/the-evolving-world-of-data-privacy-trends-and-strategies",
+        "https://www.youtube.com/watch?v=l4bnww9SVak",
+        "https://www.weforum.org/videos/right-online-privacy",
+        "https://www.bbc.com/news/articles/c4gj39zk1k0o",
+        "https://www.aclu.org/news/privacy-technology/government-mandated-software",
+        "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture"
+      ],
+      "date": "2026-04-03T20:01:27.202444+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T19:31:06.596839+00:00"
+  "lastUpdated": "2026-04-03T20:01:27.202508+00:00"
 }
