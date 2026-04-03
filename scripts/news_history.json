@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usa Today Delivers Daily News To 45 Million Online Users",
-      "urls": [
-        "https://www.foxnews.com?msockid=114902c25e1f6f500cb915e45f116ee4",
-        "https://www.usatoday.com"
-      ],
-      "date": "2026-03-24T05:02:32.158288+00:00"
-    },
-    {
       "title": "Fox News Expands Digital Platform with Real Time Global Coverage",
       "urls": [
         "https://www.foxnews.com?msockid=220a9588d3c06b8d1ce782aed25b6a54"
@@ -4801,7 +4793,15 @@
         "https://www.guinnessworldrecords.com"
       ],
       "date": "2026-04-03T04:33:12.791484+00:00"
+    },
+    {
+      "title": "InnoCaption Launches Real-Time Captioning For Phone Calls",
+      "urls": [
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooHv6OgiQauahiCH_TooGtYIkHb7AoYWVe5dmESBeiQcy-5JcZs",
+        "https://www.youtube.com/watch?v=mECgXiHjFT4"
+      ],
+      "date": "2026-04-03T05:03:34.834859+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T04:33:12.791545+00:00"
+  "lastUpdated": "2026-04-03T05:03:34.834923+00:00"
 }
