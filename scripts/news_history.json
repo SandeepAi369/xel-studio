@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "1800Wheelchair Expands Nationwide Delivery of Custom Mobility Solutions",
-      "urls": [
-        "https://www.yellowpages.com/danville-il/wheelchairs",
-        "https://www.1800wheelchair.com/category/wheelchairs",
-        "https://www.permobil.com/en-us",
-        "https://www.mobilityplus.com/rentals",
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=1949f8edd652600c1a2befcbd7b96166"
-      ],
-      "date": "2026-03-24T03:01:23.779531+00:00"
-    },
-    {
       "title": "Ghost Robotics Equips Vision 60 With Robotic Arm For Autonomous Object Manipulation",
       "urls": [
         "https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm"
@@ -4804,7 +4793,18 @@
         "https://www.boa.ac.uk/learning-and-events/artificial-intelligence-ai-in-t-o/ai-in-healthcare-news-and-updates.html"
       ],
       "date": "2026-04-03T02:33:36.707636+00:00"
+    },
+    {
+      "title": "Prognosia Breast AI Predicts Five-Year Cancer Risk From Mammograms",
+      "urls": [
+        "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
+        "https://www.npr.org/2026/01/30/nx-s1-5693219/chatgpt-chatbot-ai-health-medical-advice",
+        "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells",
+        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
+        "https://medicine.washu.edu/news/ai-based-breast-cancer-risk-technology-receives-fda-breakthrough-device-designation"
+      ],
+      "date": "2026-04-03T03:03:27.724505+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T02:33:36.707726+00:00"
+  "lastUpdated": "2026-04-03T03:03:27.724569+00:00"
 }
