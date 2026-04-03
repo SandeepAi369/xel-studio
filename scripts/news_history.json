@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jannik Sinner Smashes Djokovic's Miami Open Record With 71-Minute Victory",
-      "urls": [
-        "https://www.skysports.com/tennis/news/12110/13523718/miami-open-jannik-sinner-creates-masters-1000-history-and-breaks-novak-djokovics-set-record-during-third-round-win"
-      ],
-      "date": "2026-03-24T15:01:37.008613+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Alerts for 29000 ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=2bf7345fb40c6fd933372379b5606e99"
@@ -4832,7 +4825,16 @@
         "https://www.tensorflow.org"
       ],
       "date": "2026-04-03T14:33:56.084051+00:00"
+    },
+    {
+      "title": "Medtronic Deploys GI Genius To Cut Missed Polyps By 50 Percent",
+      "urls": [
+        "https://www.healthcareitnews.com/topics/artificial-intelligence",
+        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology-solutions.html",
+        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
+      ],
+      "date": "2026-04-03T15:07:04.356667+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T14:33:56.084120+00:00"
+  "lastUpdated": "2026-04-03T15:07:04.356723+00:00"
 }
