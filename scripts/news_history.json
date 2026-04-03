@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Carlos Alcaraz Defeats Taylor Fritz To Reach Miami Open Fourth Round",
-      "urls": [
-        "https://www.reuters.com/sports/tennis",
-        "https://www.tennisexplorer.com/ranking/atp-men",
-        "https://sports.yahoo.com/tennis/article/how-to-watch-the-2026-miami-open-tennis-tournament-third-round-schedule-where-to-stream-free-and-more-194805842.html"
-      ],
-      "date": "2026-03-24T23:03:41.360722+00:00"
-    },
-    {
       "title": "Fox News Delivers Real Time Updates Across Digital Platforms",
       "urls": [
         "https://www.foxnews.com?msockid=154fbdfa52916e650153aadc53716f45"
@@ -4871,7 +4862,14 @@
         "https://www.linux-magazine.com/Online/News"
       ],
       "date": "2026-04-03T23:01:23.667515+00:00"
+    },
+    {
+      "title": "Systems Analyze Medical Data To Enhance Patient Diagnoses",
+      "urls": [
+        "https://www.xr.health/us/blog/generative-ai-in-healthcare"
+      ],
+      "date": "2026-04-03T23:31:08.688696+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T23:01:23.667587+00:00"
+  "lastUpdated": "2026-04-03T23:31:08.688757+00:00"
 }
