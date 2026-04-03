@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Trade Flows Reshape Amid U.S. China Economic Rivalry",
-      "urls": [
-        "https://www.weforum.org/stories/2025/04/the-global-economy-enters-a-new-era"
-      ],
-      "date": "2026-03-24T08:04:05.652574+00:00"
-    },
-    {
-      "title": "Fox News Expands Digital Platform With Real Time Updates",
-      "urls": [
-        "https://www.foxnews.com?msockid=210255247fa362250a0642027ef8632b"
-      ],
-      "date": "2026-03-24T08:33:19.201534+00:00"
-    },
-    {
       "title": "Solar Power Generated Over 40 Percent of Renewable Energy in 2023",
       "urls": [
         "https://scienceinsights.org/what-is-renewable-energy-types-and-examples"
@@ -4817,7 +4803,16 @@
         "https://www.cnbc.com/corporate-leaders"
       ],
       "date": "2026-04-03T08:03:24.865678+00:00"
+    },
+    {
+      "title": "Max Holloway Faces Charles Oliveira for BMF Title at UFC 326",
+      "urls": [
+        "https://bloodyelbow.com",
+        "https://www.espn.com/mma/ufc",
+        "https://www.ufc.com"
+      ],
+      "date": "2026-04-03T08:33:19.451011+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T08:03:24.865773+00:00"
+  "lastUpdated": "2026-04-03T08:33:19.451075+00:00"
 }
