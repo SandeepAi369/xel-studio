@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Forecasts For 29000 Zip Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=1130c9ff32a3695f31bbded933da6856"
-      ],
-      "date": "2026-03-24T21:03:48.128763+00:00"
-    },
-    {
-      "title": "Fox News Launches Hyperlocal Weather Forecasts For 29000 U.S. ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=3157fd27fedc6d7016e4ea01ffb06c98"
-      ],
-      "date": "2026-03-24T21:31:13.756227+00:00"
-    },
-    {
       "title": "Live Earthquake Tracker provides real-time monitoring of global seismic activity, updating every two",
       "urls": [
         "https://liveearthquaketracker.com",
@@ -4873,7 +4859,15 @@
         "https://www.instagram.com/reel/DWLuJOvDPB5"
       ],
       "date": "2026-04-03T21:01:27.991683+00:00"
+    },
+    {
+      "title": "All Star Wheelchairs Launches Voice-Controlled Mobility Devices With Advanced Safety Features",
+      "urls": [
+        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoow18DICTFER1O5_csqdqpkwBzxt71smF8M9YHCFrOZBy1lswR9",
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopXyjhY6dYXz9gdkEqKMnFFwlKDe28NHMw8YKgHDXR_BVV9v0UK"
+      ],
+      "date": "2026-04-03T21:31:17.162634+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T21:01:27.991750+00:00"
+  "lastUpdated": "2026-04-03T21:31:17.162699+00:00"
 }
