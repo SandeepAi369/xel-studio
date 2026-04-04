@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Times Delivers Real-Time U.S. National Coverage With Live Video And In-Depth Analysis",
-      "urls": [
-        "https://www.foxnews.com?msockid=0421e68c47546b5a2130f1ab46606afb",
-        "https://www.thetimes.com/us/news-today?msockid=0421e68c47546b5a2130f1ab46606afb"
-      ],
-      "date": "2026-03-25T15:10:10.874205+00:00"
-    },
-    {
       "title": "Hugging Face Blocked In China Amid DNS Pollution Attacks",
       "urls": [
         "https://www.zhihu.com/question/599683557/answers/updated"
@@ -4860,7 +4852,15 @@
         "https://www.nature.com/subjects/conservation/ncomms"
       ],
       "date": "2026-04-04T15:01:18.848619+00:00"
+    },
+    {
+      "title": "NVIDIA To Launch Vera Rubin AI Hardware In 2026",
+      "urls": [
+        "https://movesilicon.com/news/nvidia-and-amd-target-the-us-the-new-frontier-of-ai-chip-production",
+        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43?gaa_at=eafs&gaa_n=AWEtsqcKTfHNhRulhRHMpXgwLSl_mTT9Mc_IzJTgS6XZIi6bxkZyXacgRAex&gaa_ts=69d1322b&gaa_sig=Qycnd1-V7jsbgcQct30DdUHvL3JEme3nopazuDJW9BdsvvIEZQaVKG9vrrzvvotwVvcN-O9V_9IpwXTdYViErw%3D%3D"
+      ],
+      "date": "2026-04-04T15:31:07.046156+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T15:01:18.848700+00:00"
+  "lastUpdated": "2026-04-04T15:31:07.046247+00:00"
 }
