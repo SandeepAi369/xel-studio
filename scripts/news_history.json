@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI GPT And Google Gemini Pioneer Generative AI Content Creation",
-      "urls": [
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=0c383f13aa566bde0a432834abab6a43",
-        "https://dictionary.cambridge.org/us/dictionary/english/generative"
-      ],
-      "date": "2026-03-25T21:36:38.675090+00:00"
-    },
-    {
       "title": "Hugging Face Launches HuggingChat To Challenge ChatGPT With Open Source Model",
       "urls": [
         "https://www.zhihu.com/question/598032916"
@@ -4863,7 +4855,15 @@
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOopCOLp5aHKcsBY6U1Cixi50Y4IgM1_AgwFdwYgRsleCqfm1_mVi"
       ],
       "date": "2026-04-04T21:30:54.281747+00:00"
+    },
+    {
+      "title": "Aws To Invest Over 200 Billion In Ai Infrastructure And Custom Chips",
+      "urls": [
+        "https://www.cloudcomputing-news.net/news/cloud-demand-shifts-toward-ai-as-enterprise-usage-deepens",
+        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqcwVzzTmKhN3UjhOMpt_huxb9h0mocvlAFuNaz797pHvROj_KwvaBTx&gaa_ts=69d18da4&gaa_sig=vHT643LmtplZbgXg3VvAGdXqwuUaOANLW20FUj8F2zu7P6K9TaDxrNTfL_FVaKiq-B1VbllnQObOGuiGW7IJcg%3D%3D"
+      ],
+      "date": "2026-04-04T22:01:12.705930+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T21:30:54.281811+00:00"
+  "lastUpdated": "2026-04-04T22:01:12.705998+00:00"
 }
