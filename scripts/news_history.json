@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Times Delivers Real Time National Coverage Across Urban And Rural America",
-      "urls": [
-        "https://www.foxnews.com?msockid=2abf2c6f789962a9183f3b4879006382",
-        "https://www.thetimes.com/us/news-today?msockid=2abf2c6f789962a9183f3b4879006382"
-      ],
-      "date": "2026-03-25T20:32:28.980145+00:00"
-    },
-    {
       "title": "Fema Allocates $15.3 Billion As Climate Disasters Surge",
       "urls": [
         "https://www.thetimes.com/us/news-today"
@@ -4863,7 +4855,15 @@
         "https://www.youtube.com/watch?v=VkUdO1qgnA0"
       ],
       "date": "2026-04-04T20:31:08.829401+00:00"
+    },
+    {
+      "title": "Diego Lopes Knocks Out Calvin Kattar In UFC History Making Finish",
+      "urls": [
+        "https://www.sportingnews.com/us/mma/news",
+        "https://mmajunkie.usatoday.com"
+      ],
+      "date": "2026-04-04T21:01:11.149105+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T20:31:08.829472+00:00"
+  "lastUpdated": "2026-04-04T21:01:11.149167+00:00"
 }
