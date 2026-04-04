@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches HuggingChat To Challenge ChatGPT With Open Source Model",
-      "urls": [
-        "https://www.zhihu.com/question/598032916"
-      ],
-      "date": "2026-03-25T22:01:33.465080+00:00"
-    },
-    {
       "title": "Unhcr Reports Record 123 Million Displaced By End Of 2024",
       "urls": [
         "https://www.thenewhumanitarian.org/migration",
@@ -4863,7 +4856,18 @@
         "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqcwVzzTmKhN3UjhOMpt_huxb9h0mocvlAFuNaz797pHvROj_KwvaBTx&gaa_ts=69d18da4&gaa_sig=vHT643LmtplZbgXg3VvAGdXqwuUaOANLW20FUj8F2zu7P6K9TaDxrNTfL_FVaKiq-B1VbllnQObOGuiGW7IJcg%3D%3D"
       ],
       "date": "2026-04-04T22:01:12.705930+00:00"
+    },
+    {
+      "title": "Microplastics Disrupt Ocean Carbon Sequestration, Scientists Warn",
+      "urls": [
+        "https://www.livescience.com/planet-earth/climate-change",
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.nature.com/subjects/climate-change",
+        "https://science.nasa.gov/climate-change",
+        "https://www.nytimes.com/section/climate"
+      ],
+      "date": "2026-04-04T22:30:56.879140+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T22:01:12.705998+00:00"
+  "lastUpdated": "2026-04-04T22:30:56.879202+00:00"
 }
