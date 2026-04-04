@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computers May Hit Performance Wall At 1000 Qubits",
-      "urls": [
-        "https://quantumconsortium.org/publication/quantum-101-what-is-quantum-physics",
-        "https://phys.org/news/2026-03-quantum-fundamental-limit.html"
-      ],
-      "date": "2026-03-25T03:32:15.632008+00:00"
-    },
-    {
       "title": "Google Cloud Hub Unifies Management Across Core Services",
       "urls": [
         "https://console.cloud.google.com/start"
@@ -4867,7 +4859,15 @@
         "https://www.youtube.com/watch?v=IO0QHlVA-2U"
       ],
       "date": "2026-04-04T03:31:12.949287+00:00"
+    },
+    {
+      "title": "Generative AI Tools Transform Workflows Across Fortune 500 Enterprises",
+      "urls": [
+        "https://www.youtube.com/watch?v=1sQ1MOxzViM",
+        "https://bootcamp.cpe.vt.edu/blog/best-generative-ai-tools"
+      ],
+      "date": "2026-04-04T04:01:18.861542+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T03:31:12.949352+00:00"
+  "lastUpdated": "2026-04-04T04:01:18.861601+00:00"
 }
