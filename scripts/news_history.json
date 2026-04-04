@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen Semiconductor Solutions Launches SB-3300 With 99.98% Particle Removal Efficiency",
-      "urls": [
-        "https://www.screen.co.jp/spe/products",
-        "https://www.screen.co.jp/recruit_info"
-      ],
-      "date": "2026-03-25T10:36:40.953625+00:00"
-    },
-    {
       "title": "Global Energy Sector Invests Heavily To Meet 2026 Demand Amid Geopolitical Challenges",
       "urls": [
         "https://www.weforum.org/stories/2025/12/global-energy-2026-growth-resilience-and-competition",
@@ -4866,7 +4858,15 @@
         "https://www.climate.gov/news-features/climate-tech"
       ],
       "date": "2026-04-04T10:31:10.002220+00:00"
+    },
+    {
+      "title": "Mental Health Apps Market To Reach $15.69 Billion By 2033",
+      "urls": [
+        "https://www.globalwellnesssummit.com/2020-global-wellness-trends/mental-wellness-and-technology",
+        "https://finance.yahoo.com/news/mental-health-apps-market-hit-144400549.html"
+      ],
+      "date": "2026-04-04T11:01:19.553988+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T10:31:10.002273+00:00"
+  "lastUpdated": "2026-04-04T11:01:19.554039+00:00"
 }
