@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Ranks Climate Inaction Top Global Risk",
-      "urls": [
-        "https://www.weforum.org/publications/global-risks-report-2025",
-        "https://www.weforum.org/stories/2026/02/2026-global-risks-report-environmental-risks-remain-urgent",
-        "https://www.weforum.org/stories/2026/01/davos-2026-annual-meeting-what-to-expect",
-        "https://www.weforum.org/stories/2024/12/top-global-health-stories-2024",
-        "https://www.weforum.org/stories/global-cooperation",
-        "https://www.weforum.org/stories/2025/05/wef-chief-economists-outlook-tariffs"
-      ],
-      "date": "2026-03-25T02:02:30.341446+00:00"
-    },
-    {
       "title": "UPS Launches Real-Time Tracking For Millions Of Daily Shipments",
       "urls": [
         "https://www.ups.com/track?loc=en_US",
@@ -4875,7 +4863,15 @@
         "https://huggingface.co/spaces/huggingface/open-source-ai-year-in-review-2024"
       ],
       "date": "2026-04-04T02:01:32.070346+00:00"
+    },
+    {
+      "title": "Recursion Pharmaceuticals and AbCellera Accelerate Drug Discovery With AI Platforms",
+      "urls": [
+        "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html",
+        "https://www.fastcompany.com/91520205/the-ai-drug-revolution-is-real-but-the-hype-around-it-isnt"
+      ],
+      "date": "2026-04-04T02:31:15.595537+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T02:01:32.070410+00:00"
+  "lastUpdated": "2026-04-04T02:31:15.595598+00:00"
 }
