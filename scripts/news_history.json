@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Real-Time Weather Alerts For All 29000 U.S. ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=28195025901061fa1f3d4702917a604c",
-        "https://www.thetimes.com/us/news-today?msockid=28195025901061fa1f3d4702917a604c"
-      ],
-      "date": "2026-03-25T14:02:33.463958+00:00"
-    },
-    {
       "title": "U.S. And China Ramp Up AI Export Controls Amid Trade Tensions",
       "urls": [
         "https://www.goldmansachs.com/insights/articles/the-generative-world-order-ai-geopolitics-and-power",
@@ -4859,7 +4851,16 @@
         "https://www.usgs.gov/programs/VHP/news"
       ],
       "date": "2026-04-04T14:01:21.142399+00:00"
+    },
+    {
+      "title": "PyTorch Powers 63% of AI Training Projects in 2024",
+      "urls": [
+        "https://www.cdotrends.com/story/16094/machine-learning-2022-tensorflow-or-pytorch",
+        "https://www.huawei.com/sg/news/2023/pytorch-an-ever-growing-ai-framework-among-ai-practitioners",
+        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
+      ],
+      "date": "2026-04-04T14:31:18.038652+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T14:01:21.142461+00:00"
+  "lastUpdated": "2026-04-04T14:31:18.038718+00:00"
 }
