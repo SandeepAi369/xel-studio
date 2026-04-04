@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "UPS Launches Real-Time Tracking For Millions Of Daily Shipments",
-      "urls": [
-        "https://www.ups.com/track?loc=en_US",
-        "https://www.ups.com/us/en/home",
-        "https://www.ups.com/us/en/support/tracking-support/where-is-my-package",
-        "https://www.ups.com/us/en/support/tracking-support",
-        "https://www.theupsstore.com/tools/track-a-package",
-        "https://www.zhihu.com/question/447227447",
-        "https://www.zhihu.com/question/581516731",
-        "https://www.zhihu.com/question/1931415684325287535",
-        "https://www.zhihu.com/question/635836784",
-        "https://www.zhihu.com/question/1929468619848398534"
-      ],
-      "date": "2026-03-25T02:32:16.344197+00:00"
-    },
-    {
       "title": "Science Names General-Purpose Language Models 2025 Breakthrough of the Year",
       "urls": [
         "https://www.science.org/content/page/contributing-science-family-journals",
@@ -4871,7 +4855,17 @@
         "https://www.fastcompany.com/91520205/the-ai-drug-revolution-is-real-but-the-hype-around-it-isnt"
       ],
       "date": "2026-04-04T02:31:15.595537+00:00"
+    },
+    {
+      "title": "J.P. Morgan Reports Global Core Inflation Stuck Near 3% Since 2024",
+      "urls": [
+        "https://www.youtube.com/watch?v=Mlt6wIiM6oE",
+        "https://www.jpmorgan.com/insights/global-research/economy/global-inflation-forecast",
+        "https://www.cnbc.com/world-economy",
+        "https://finance.yahoo.com/topic/economic-news"
+      ],
+      "date": "2026-04-04T03:01:27.697003+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T02:31:15.595598+00:00"
+  "lastUpdated": "2026-04-04T03:01:27.697089+00:00"
 }
