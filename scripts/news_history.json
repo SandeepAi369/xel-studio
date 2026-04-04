@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jai Opetaia Knocks Out Brandon Glanton To Claim Inaugural IBF Cruiserweight Title",
-      "urls": [
-        "https://sports.yahoo.com/mlb",
-        "https://sports.yahoo.com/boxing/breaking-news/live/zuffa-boxing-4-live-results-round-by-round-updates-ring-walks-for-jai-opetaia-vs-brandon-glanton-080011827.html",
-        "https://uk.sports.yahoo.com",
-        "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/march-madness-bracket-2026-ncaa-tournament-announced-with-duke-as-no-1-overall-seed-220224034.html"
-      ],
-      "date": "2026-03-25T23:02:28.583195+00:00"
-    },
-    {
       "title": "Roblox Launches Browser Play Through Now Gg Cloud Streaming",
       "urls": [
         "https://www.esports.net/news/gaming/how-to-play-roblox-without-downloading-it",
@@ -4860,7 +4850,14 @@
         "https://llm-stats.com/ai-news"
       ],
       "date": "2026-04-04T23:02:09.262937+00:00"
+    },
+    {
+      "title": "Nature Outlines Four Strategies To Boost AI In Drug Discovery",
+      "urls": [
+        "https://www.nature.com/articles/d41586-025-00602-5"
+      ],
+      "date": "2026-04-04T23:30:54.427084+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T23:02:09.263008+00:00"
+  "lastUpdated": "2026-04-04T23:30:54.427143+00:00"
 }
