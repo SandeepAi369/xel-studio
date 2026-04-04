@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Unhcr Reports Record 123 Million Displaced By End Of 2024",
-      "urls": [
-        "https://www.thenewhumanitarian.org/migration",
-        "https://news.un.org/en/focus-topic/refugees-and-migrants",
-        "https://www.unhcr.org/global-trends",
-        "https://www.independent.co.uk/news/world/middle-east/iran-war-us-refugee-crisis-eu-b2931172.html",
-        "https://apnews.com/article/asylum-refugees-sudan-chad-greece-europe-54c6cb76a18a97bec3eac944d8baf9d5",
-        "https://www.aljazeera.com/news/2026/3/17/irans-neighbours-prepare-for-fallout-as-war-threatens-new-refugee-crisis",
-        "https://www.nytimes.com/2026/03/18/world/europe/iran-war-refugees-turkey.html",
-        "https://concernusa.org/news/largest-refugee-crises",
-        "https://www.theguardian.com/world/refugees",
-        "https://www.nrc.no/feature/2025/a-global-displacement-crisis-as-the-world-abandons-aid"
-      ],
-      "date": "2026-03-25T22:31:09.809741+00:00"
-    },
-    {
       "title": "Jai Opetaia Knocks Out Brandon Glanton To Claim Inaugural IBF Cruiserweight Title",
       "urls": [
         "https://sports.yahoo.com/mlb",
@@ -4867,7 +4851,16 @@
         "https://www.nytimes.com/section/climate"
       ],
       "date": "2026-04-04T22:30:56.879140+00:00"
+    },
+    {
+      "title": "Z AI Releases GLM-5 Open Source Language Model",
+      "urls": [
+        "https://www.youtube.com/watch?v=x9e4D-t_Dfo",
+        "https://www.datacamp.com/blog/top-open-source-llms",
+        "https://llm-stats.com/ai-news"
+      ],
+      "date": "2026-04-04T23:02:09.262937+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T22:30:56.879202+00:00"
+  "lastUpdated": "2026-04-04T23:02:09.263008+00:00"
 }
