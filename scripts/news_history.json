@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kanmon offers embedded lending infrastructure that enables vertical SaaS platforms to provide workin",
-      "urls": [
-        "https://kanmon.com",
-        "https://www.openbankingtracker.com/embedded-finance/kanmon",
-        "https://www.linkedin.com/company/kanmon",
-        "https://capital.fieldpulse.com",
-        "https://pitchbook.com/profiles/advisor/467199-28",
-        "https://www.infinityvc.capital/founder-spotlights/mengxi-lu",
-        "https://www.f6s.com/software/kanmon",
-        "https://kanmon.com/about-us",
-        "https://www.linkedin.com/posts/kanmon_kanmonpartner-embeddedfinancing-invoicefinancing-activity-7122681014765633536-VJaX",
-        "https://kanmon.com/blog/financing-for-growth-how-strategic-funding"
-      ],
-      "date": "2026-03-25T09:38:43.460506+00:00"
-    },
-    {
       "title": "Tonga Hit By 7.5 Magnitude Earthquake Triggering Tsunami Warnings",
       "urls": [
         "https://www.volcanodiscovery.com/earthquakes/today.html",
@@ -4876,7 +4860,14 @@
         "https://www.youtube.com/watch?v=_S06kHhVflc"
       ],
       "date": "2026-04-04T09:30:56.702509+00:00"
+    },
+    {
+      "title": "Enterprises Adopt Open Source AI With 62 Percent In Key Sectors",
+      "urls": [
+        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai"
+      ],
+      "date": "2026-04-04T10:01:25.239001+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T09:30:56.702570+00:00"
+  "lastUpdated": "2026-04-04T10:01:25.239066+00:00"
 }
