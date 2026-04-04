@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Energy Sector Invests Heavily To Meet 2026 Demand Amid Geopolitical Challenges",
-      "urls": [
-        "https://www.weforum.org/stories/2025/12/global-energy-2026-growth-resilience-and-competition",
-        "https://www.weforum.org/publications/global-aviation-sustainability-outlook-2026"
-      ],
-      "date": "2026-03-25T11:01:31.719443+00:00"
-    },
-    {
       "title": "Florida wildlife enthusiasts can observe native species year-round through designated wildlife viewi",
       "urls": [
         "https://www.visitflorida.com/things-to-do/outdoors-and-adventure/wildlife",
@@ -4866,7 +4858,16 @@
         "https://finance.yahoo.com/news/mental-health-apps-market-hit-144400549.html"
       ],
       "date": "2026-04-04T11:01:19.553988+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT 5.4 With 17 Percent Accuracy Boost",
+      "urls": [
+        "https://www.youtube.com/watch?v=M_wKxIA12oU",
+        "https://developers.openai.com/api/docs/models",
+        "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
+      ],
+      "date": "2026-04-04T11:31:10.524442+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T11:01:19.554039+00:00"
+  "lastUpdated": "2026-04-04T11:31:10.524517+00:00"
 }
