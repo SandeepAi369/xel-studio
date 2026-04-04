@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ibm Deploys Ai-Driven Digital Twins To Cut Equipment Downtime By 30 Percent",
-      "urls": [
-        "https://www.ibm.com/es-es/think/topics/digital-transformation",
-        "https://www.ibm.com/think/topics/digital-transformation-use-cases",
-        "https://www.ibm.com/mx-es/think/topics/digital-identity",
-        "https://www.ibm.com/es-es/think/topics/digital-footprint",
-        "https://www.ibm.com/think/topics/digital-twin"
-      ],
-      "date": "2026-03-25T01:05:34.368642+00:00"
-    },
-    {
       "title": "RefugeeOne Resettles Over 1 500 Refugees Annually With Housing And Job Training",
       "urls": [
         "https://refugeeone.org"
@@ -4868,7 +4857,16 @@
         "https://beaccessible.com/post/screen-reader-accessibility-testing"
       ],
       "date": "2026-04-04T01:01:29.804307+00:00"
+    },
+    {
+      "title": "Britain Logs 2% Drop In Greenhouse Gas Emissions",
+      "urls": [
+        "https://www.reuters.com/sustainability/climate-energy",
+        "https://usclimatealliance.org/news-events",
+        "https://www.theclimatepledge.com"
+      ],
+      "date": "2026-04-04T01:31:18.720379+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T01:01:29.804362+00:00"
+  "lastUpdated": "2026-04-04T01:31:18.720445+00:00"
 }
