@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Real Time Updates Across Digital Platforms",
-      "urls": [
-        "https://www.foxnews.com?msockid=154fbdfa52916e650153aadc53716f45"
-      ],
-      "date": "2026-03-24T23:37:44.718948+00:00"
-    },
-    {
       "title": "Platforms Detect Learning Differences in U.S. Students",
       "urls": [
         "https://northpoint.org.uk/news/digital-innovations-neurodiversity-pathways",
@@ -4869,7 +4862,15 @@
         "https://www.xr.health/us/blog/generative-ai-in-healthcare"
       ],
       "date": "2026-04-03T23:31:08.688696+00:00"
+    },
+    {
+      "title": "Chinese Researchers Stabilize Quantum Information With New Control Technique",
+      "urls": [
+        "https://dig.watch/updates/quantum-computing-breakthrough-slows-information-loss",
+        "https://www.networkworld.com/article/4088709/top-quantum-breakthroughs-of-2025.html"
+      ],
+      "date": "2026-04-04T00:01:22.317994+00:00"
     }
   ],
-  "lastUpdated": "2026-04-03T23:31:08.688757+00:00"
+  "lastUpdated": "2026-04-04T00:01:22.318057+00:00"
 }
