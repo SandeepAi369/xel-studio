@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Mail Users Report Sync Bug After iOS 18.3 Update",
-      "urls": [
-        "https://discussions.apple.com/thread/255006655",
-        "https://discussions.apple.com/thread/255701760",
-        "https://discussions.apple.com/thread/255487071",
-        "https://discussions.apple.com/thread/255969524",
-        "https://discussions.apple.com/thread/255965927"
-      ],
-      "date": "2026-03-25T04:37:45.352840+00:00"
-    },
-    {
       "title": "Lse Offers 158 Postgraduate Programs Amid Rising Global Demand",
       "urls": [
         "https://www.lse.ac.uk/study-at-lse/Graduate/Available-programmes",
@@ -4872,7 +4861,14 @@
         "https://www.foxsports.com"
       ],
       "date": "2026-04-04T04:31:17.670436+00:00"
+    },
+    {
+      "title": "Linux Foundation Reports Surge in Open Source Contributions",
+      "urls": [
+        "https://www.newsnow.com/us/Business/IT/Computer+Technology/Software/Open+Source"
+      ],
+      "date": "2026-04-04T05:01:22.701716+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T04:31:17.670505+00:00"
+  "lastUpdated": "2026-04-04T05:01:22.701781+00:00"
 }
