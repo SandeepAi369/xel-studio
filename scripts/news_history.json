@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earthquake Recovery Program Aids 3100 Mothers And Newborns",
-      "urls": [
-        "https://www.who.int/myanmar/news/feature-stories/detail/healing-in-the-open--stories-of-strength-and-recovery-after-the-earthquake"
-      ],
-      "date": "2026-03-25T18:31:30.625539+00:00"
-    },
-    {
       "title": "Lowe's Sells ADA-Compliant Wheelchair Ramps Supporting Up To 800 Pounds",
       "urls": [
         "https://www.apria.com/durable-medical-equipment-wheelchairs",
@@ -4861,7 +4854,14 @@
         "https://datamites.com/blog/pytorch-vs-tensorflow?srsltid=AfmBOorMQDrEXbD7xpafMIDKdOAh0HUxNpxxLKxLqmNDTcWpFhNg-GPu"
       ],
       "date": "2026-04-04T18:31:21.043742+00:00"
+    },
+    {
+      "title": "Fda Clears Over 500 AI Diagnostic Tools Since 2015",
+      "urls": [
+        "https://www.medicaleconomics.com/view/commercializing-ai-in-medical-technology-challenges-opportunities"
+      ],
+      "date": "2026-04-04T19:01:33.141356+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T18:31:21.043805+00:00"
+  "lastUpdated": "2026-04-04T19:01:33.141426+00:00"
 }
