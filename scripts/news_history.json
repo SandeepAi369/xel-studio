@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Blocked In China Amid DNS Pollution Attacks",
-      "urls": [
-        "https://www.zhihu.com/question/599683557/answers/updated"
-      ],
-      "date": "2026-03-25T15:31:34.183810+00:00"
-    },
-    {
       "title": "Louisiana Department of Wildlife and Fisheries manages over 3.",
       "urls": [
         "https://www.wlf.louisiana.gov"
@@ -4860,7 +4853,14 @@
         "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43?gaa_at=eafs&gaa_n=AWEtsqcKTfHNhRulhRHMpXgwLSl_mTT9Mc_IzJTgS6XZIi6bxkZyXacgRAex&gaa_ts=69d1322b&gaa_sig=Qycnd1-V7jsbgcQct30DdUHvL3JEme3nopazuDJW9BdsvvIEZQaVKG9vrrzvvotwVvcN-O9V_9IpwXTdYViErw%3D%3D"
       ],
       "date": "2026-04-04T15:31:07.046156+00:00"
+    },
+    {
+      "title": "Fifteen States Sue To Block Presidential Voting Order",
+      "urls": [
+        "https://www.reuters.com/world/us/elections"
+      ],
+      "date": "2026-04-04T16:01:32.731321+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T15:31:07.046247+00:00"
+  "lastUpdated": "2026-04-04T16:01:32.731388+00:00"
 }
