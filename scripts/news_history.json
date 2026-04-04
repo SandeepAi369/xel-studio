@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lowe's Sells ADA-Compliant Wheelchair Ramps Supporting Up To 800 Pounds",
-      "urls": [
-        "https://www.apria.com/durable-medical-equipment-wheelchairs",
-        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=1e49a52fc05a63b11484b208c10b6260",
-        "https://www.bestbuy.com/site/mobility-aids/wheelchairs/pcmcat1619466386000.c?id=pcmcat1619466386000"
-      ],
-      "date": "2026-03-25T19:05:17.363106+00:00"
-    },
-    {
       "title": "World Economic Forum Flags Extreme Weather As Top Global Risk",
       "urls": [
         "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-chapter-1"
@@ -4861,7 +4852,16 @@
         "https://www.medicaleconomics.com/view/commercializing-ai-in-medical-technology-challenges-opportunities"
       ],
       "date": "2026-04-04T19:01:33.141356+00:00"
+    },
+    {
+      "title": "Humanoid Robots Hinder Deployment Due to Data Gap",
+      "urls": [
+        "https://news.berkeley.edu/2025/08/27/are-we-truly-on-the-verge-of-the-humanoid-robot-revolution",
+        "https://interestingengineering.com/ai-robotics/agility-humanoid-robot-maker-rebrands",
+        "https://www.youtube.com/watch?v=QDRzgF-8-50"
+      ],
+      "date": "2026-04-04T19:31:24.983199+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T19:01:33.141426+00:00"
+  "lastUpdated": "2026-04-04T19:31:24.983267+00:00"
 }
