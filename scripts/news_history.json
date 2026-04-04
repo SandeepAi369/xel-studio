@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Typebot Launches GitHub Integration for Chatbot Flow Version Control",
-      "urls": [
-        "https://docs.typebot.io/editor/export-import",
-        "https://n8n.io/workflows/5899-automatic-typebot-flows-two-way-sync-with-github-using-typebot-api",
-        "https://gist.github.com/thatguynef/366987a4ef9ae581e731e2cb39e6fe4c",
-        "https://typebot.io/templates",
-        "https://docs.chatworth.io/editor/export_import",
-        "https://elest.io/open-source/typebot/resources/quickstart",
-        "https://github.com/baptisteArno/typebot.io",
-        "https://docs.typebot.io/self-hosting/configuration",
-        "https://codesandbox.io/examples/package/typebot-js",
-        "https://docs.typebot.io/get-started/introduction"
-      ],
-      "date": "2026-03-25T06:01:22.813413+00:00"
-    },
-    {
-      "title": "Who: World Health Organization Issues 2025 Safety Alerts on Antimalarial and Pediatric Drugs",
-      "urls": [
-        "https://www.who.int/publications/i/item/9789240110755"
-      ],
-      "date": "2026-03-25T06:31:16.003746+00:00"
-    },
-    {
       "title": "Tanganyika Wildlife Park Offers 15 Daily Animal Encounters",
       "urls": [
         "https://www.nationalgeographic.com/animals",
@@ -4873,7 +4850,14 @@
         "https://blog.google/innovation-and-ai/technology/ai"
       ],
       "date": "2026-04-04T06:01:14.921542+00:00"
+    },
+    {
+      "title": "Orsted Shares Jump 7% After Court Unblocks 704-Megawatt Revolution Wind Project",
+      "urls": [
+        "https://www.cnbc.com/renewable-energy"
+      ],
+      "date": "2026-04-04T06:31:20.610017+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T06:01:14.921597+00:00"
+  "lastUpdated": "2026-04-04T06:31:20.610084+00:00"
 }
