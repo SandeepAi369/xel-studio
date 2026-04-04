@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. And China Ramp Up AI Export Controls Amid Trade Tensions",
-      "urls": [
-        "https://www.goldmansachs.com/insights/articles/the-generative-world-order-ai-geopolitics-and-power",
-        "https://www.cbc.ca/news/politics/carney-norway-nordic-summit-defence-russia-greenland-9.7129246",
-        "https://www.spglobal.com/en/research-insights/market-insights/geopolitical-risk",
-        "https://www.imf.org/-/media/Files/News/Seminars/2023/fragmentation-conference/session-3-paper-1-the-impact-of-geopolitical-conflicts-on-trade-growth-and-innovation.ashx",
-        "https://www.csis.org/analysis/four-scenarios-geopolitical-order-2025-2030-what-will-great-power-competition-look"
-      ],
-      "date": "2026-03-25T14:32:22.885856+00:00"
-    },
-    {
       "title": "The Times Delivers Real-Time U.S. National Coverage With Live Video And In-Depth Analysis",
       "urls": [
         "https://www.foxnews.com?msockid=0421e68c47546b5a2130f1ab46606afb",
@@ -4860,7 +4849,18 @@
         "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
       ],
       "date": "2026-04-04T14:31:18.038652+00:00"
+    },
+    {
+      "title": "Insect Species Face Climate Threats in 2026 Study",
+      "urls": [
+        "https://www.biologicaldiversity.org/news/press_releases",
+        "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
+        "https://wildlife.org/news",
+        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
+        "https://www.nature.com/subjects/conservation/ncomms"
+      ],
+      "date": "2026-04-04T15:01:18.848619+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T14:31:18.038718+00:00"
+  "lastUpdated": "2026-04-04T15:01:18.848700+00:00"
 }
