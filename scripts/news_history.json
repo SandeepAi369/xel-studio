@@ -3,13 +3,6 @@
     {
       "title": "Fox News Launches Real-Time Weather Alerts For All 29000 U.S. ZIP Codes",
       "urls": [
-        "https://www.foxnews.com?msockid=3094c6ed29d061733897d1ca28dd60ef"
-      ],
-      "date": "2026-03-25T13:33:14.621857+00:00"
-    },
-    {
-      "title": "Fox News Launches Real-Time Weather Alerts For All 29000 U.S. ZIP Codes",
-      "urls": [
         "https://www.foxnews.com?msockid=28195025901061fa1f3d4702917a604c",
         "https://www.thetimes.com/us/news-today?msockid=28195025901061fa1f3d4702917a604c"
       ],
@@ -4858,7 +4851,15 @@
         "https://newsletter.zackkass.com/p/ai-powered-accessibility-the-end"
       ],
       "date": "2026-04-04T13:31:15.354815+00:00"
+    },
+    {
+      "title": "Mauna Loa Erupts For First Time In 38 Years",
+      "urls": [
+        "https://www.youtube.com/watch?v=txdFxYnPKNU",
+        "https://www.usgs.gov/programs/VHP/news"
+      ],
+      "date": "2026-04-04T14:01:21.142399+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T13:31:15.354896+00:00"
+  "lastUpdated": "2026-04-04T14:01:21.142461+00:00"
 }
