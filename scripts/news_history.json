@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tonga Hit By 7.5 Magnitude Earthquake Triggering Tsunami Warnings",
-      "urls": [
-        "https://www.volcanodiscovery.com/earthquakes/today.html",
-        "https://pnsn.org/events/map",
-        "https://www.msn.com/en-us/news/world/tonga-struck-by-major-75-magnitude-earthquake-what-to-know/ar-AA1ZhXHL",
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2N5YXpFU0FuSjFLQUFQAQ",
-        "https://www.reuters.com/world/earthquakes"
-      ],
-      "date": "2026-03-25T10:04:42.931993+00:00"
-    },
-    {
       "title": "Screen Semiconductor Solutions Launches SB-3300 With 99.98% Particle Removal Efficiency",
       "urls": [
         "https://www.screen.co.jp/spe/products",
@@ -4867,7 +4856,17 @@
         "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai"
       ],
       "date": "2026-04-04T10:01:25.239001+00:00"
+    },
+    {
+      "title": "Clean Energy Group Wins DOE Award to Boost Solar Storage in Affordable Housing",
+      "urls": [
+        "https://www.economist.com/business/2025/08/14/a-new-wave-of-clean-energy-innovation-is-building",
+        "https://www.cleanegroup.org/press-releases",
+        "https://climateinsider.com",
+        "https://www.climate.gov/news-features/climate-tech"
+      ],
+      "date": "2026-04-04T10:31:10.002220+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T10:01:25.239066+00:00"
+  "lastUpdated": "2026-04-04T10:31:10.002273+00:00"
 }
