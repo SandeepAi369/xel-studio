@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tanganyika Wildlife Park Offers 15 Daily Animal Encounters",
-      "urls": [
-        "https://www.nationalgeographic.com/animals",
-        "https://twpark.com",
-        "https://www.wildlandspa.org/wildlife-rescue-resources"
-      ],
-      "date": "2026-03-25T07:05:35.148899+00:00"
-    },
-    {
       "title": "Struggles With Complex Code Despite Advances",
       "urls": [
         "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716"
@@ -4865,7 +4856,16 @@
         "https://www.atalayar.com/en/articulo/politics/artificial-intelligence-the-new-frontier-in-geopolitical-competition/20250801100000217131.html"
       ],
       "date": "2026-04-04T07:01:30.811035+00:00"
+    },
+    {
+      "title": "Grace Bell Gives Birth To First UK Baby From Deceased Womb Transplant",
+      "urls": [
+        "https://med.stanford.edu/news/topics/innovation-technology.html",
+        "https://www.pennmedicine.org/news/research-innovation",
+        "https://www.bbc.com/news/topics/c1038wnxy50t"
+      ],
+      "date": "2026-04-04T07:31:08.533367+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T07:01:30.811114+00:00"
+  "lastUpdated": "2026-04-04T07:31:08.533431+00:00"
 }
