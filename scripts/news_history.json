@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Hyperlocal Weather Updates Using Zip Code Data",
-      "urls": [
-        "https://www.foxnews.com?msockid=3d917bb0f7986add12b06c97f69f6bbb"
-      ],
-      "date": "2026-03-25T17:05:39.664334+00:00"
-    },
-    {
       "title": "Social Security Launches Online SSDI Application Portal",
       "urls": [
         "https://www.ssa.gov/disability",
@@ -4856,7 +4849,16 @@
         "https://www.youtube.com/watch?v=y1-Rvd06RsA"
       ],
       "date": "2026-04-04T17:01:22.895296+00:00"
+    },
+    {
+      "title": "Noora AI Chatbot Helps Autism Patients Enhance Empathy Skills",
+      "urls": [
+        "https://insidetelecom.com/workers-use-ai-for-neurodivergent-brain-support",
+        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html",
+        "https://hai.stanford.edu/news/an-ai-social-coach-is-teaching-empathy-to-people-with-autism"
+      ],
+      "date": "2026-04-04T17:31:26.139113+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T17:01:22.895357+00:00"
+  "lastUpdated": "2026-04-04T17:31:26.139204+00:00"
 }
