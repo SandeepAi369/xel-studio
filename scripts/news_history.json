@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Louisiana Department of Wildlife and Fisheries manages over 3.",
-      "urls": [
-        "https://www.wlf.louisiana.gov"
-      ],
-      "date": "2026-03-25T16:08:27.017173+00:00"
-    },
-    {
-      "title": "OpenAI Shuts Down Sora Video App Three Months After Launch",
-      "urls": [
-        "https://edition.cnn.com/2026/03/24/tech/openai-sora-video-app-shutting-down",
-        "https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html?msockid=0aac7ea8982a617a2566698f99516057",
-        "https://www.nytimes.com/2026/03/24/technology/openai-shutting-down-sora.html",
-        "https://www.bloomberg.com/news/articles/2026-03-24/openai-set-to-raise-about-10-billion-from-mgx-coatue-thrive",
-        "https://openai.com/index/gpt-4",
-        "https://www.reuters.com/business/openai-non-profit-names-leaders-plans-spend-1-billion-this-year-bloomberg-news-2026-03-24"
-      ],
-      "date": "2026-03-25T16:31:36.691791+00:00"
-    },
-    {
       "title": "Fox News Launches Hyperlocal Weather Updates Using Zip Code Data",
       "urls": [
         "https://www.foxnews.com?msockid=3d917bb0f7986add12b06c97f69f6bbb"
@@ -4860,7 +4841,15 @@
         "https://www.reuters.com/world/us/elections"
       ],
       "date": "2026-04-04T16:01:32.731321+00:00"
+    },
+    {
+      "title": "Elite Runners Shatter Records With Data And Carbon Shoes",
+      "urls": [
+        "https://www.youtube.com/watch?v=NKfBR1CalXQ",
+        "https://www.youtube.com/watch?v=kSfwtbkmYeI"
+      ],
+      "date": "2026-04-04T16:31:47.384184+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T16:01:32.731388+00:00"
+  "lastUpdated": "2026-04-04T16:31:47.384246+00:00"
 }
