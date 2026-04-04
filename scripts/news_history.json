@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Reports 2025 Global Temperatures Hit 1.3°C Above Pre-Industrial Levels",
-      "urls": [
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025"
-      ],
-      "date": "2026-03-25T08:07:57.964824+00:00"
-    },
-    {
       "title": "Robert Morris University launched the first varsity collegiate esports program in 2014, fielding a s",
       "urls": [
         "https://www.espn.com/gaming/story/_/id/21152905/college-esports-list-varsity-esports-programs-north-america"
@@ -4865,7 +4858,16 @@
         "https://www.apaservices.org/practice/business/technology/tech-talk/wellness-treatment-digital-mental-health"
       ],
       "date": "2026-04-04T08:01:23.650026+00:00"
+    },
+    {
+      "title": "Voting Rights Act Under Siege As 18 States Pass 34 Restrictive Laws",
+      "urls": [
+        "https://www.cbsnews.com/politics",
+        "https://www.youtube.com/watch?v=KP8hPVnxeRo",
+        "https://www.nytimes.com/section/politics"
+      ],
+      "date": "2026-04-04T08:31:07.158103+00:00"
     }
   ],
-  "lastUpdated": "2026-04-04T08:01:23.650093+00:00"
+  "lastUpdated": "2026-04-04T08:31:07.158159+00:00"
 }
