@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Launches Largest Wine Catalogue in Brazil With Thousands of Global Varietals",
-      "urls": [
-        "https://www.mistral.com.br",
-        "https://www.mistral.com.br/catalogo",
-        "https://www.mistral.com.br/regiao",
-        "https://www.mistral.com.br/tipo-de-uva",
-        "https://www.mistral.com.br/nossas-lojas"
-      ],
-      "date": "2026-03-26T14:32:43.477004+00:00"
-    },
-    {
       "title": "Fox News Expands Weather Alert System to All 29000 US ZIP Codes",
       "urls": [
         "https://www.foxnews.com?msockid=1a8190019680672b296b872997d266af"
@@ -4862,7 +4851,14 @@
         "https://huggingface.co/blog/daya-shankar/open-source-llms"
       ],
       "date": "2026-04-05T14:30:59.869622+00:00"
+    },
+    {
+      "title": "Vitamin A Supplementation Programs Reduce Deficiency Rates By 30 Percent",
+      "urls": [
+        "https://www.sciencedaily.com/news/health_medicine"
+      ],
+      "date": "2026-04-05T15:01:15.611020+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T14:30:59.869691+00:00"
+  "lastUpdated": "2026-04-05T15:01:15.611084+00:00"
 }
