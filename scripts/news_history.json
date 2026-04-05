@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Institute of Food and Agriculture leads federal efforts to support climate-resilient agricu",
-      "urls": [
-        "https://www.nifa.usda.gov/offices/division-climate",
-        "https://www.nifa.usda.gov/offices/institute-bioenergy-climate-environment",
-        "https://www.nifa.usda.gov/national-institute-food-agriculture-annual-report/agroclimate-science",
-        "https://www.nifa.usda.gov",
-        "https://www.nifa.usda.gov/offices/division-agricultural-systems",
-        "https://www.nifa.usda.gov/topics/ecosystems",
-        "https://www.nifa.usda.gov/topics/sustainable-agriculture",
-        "https://www.nifa.usda.gov/topics/environment",
-        "https://www.nifa.usda.gov/offices/division-environmental-systems",
-        "https://portal.nifa.usda.gov/portal/front/home"
-      ],
-      "date": "2026-03-26T13:32:40.163971+00:00"
-    },
-    {
       "title": "Accessibility refers to the design of products, services, and environments that can be reached, ente",
       "urls": [
         "https://www.ldoceonline.com/dictionary/accessible",
@@ -4871,7 +4855,15 @@
         "https://lighthouseguild.org/fantastic-new-tech-for-people-with-low-vision-or-blindness"
       ],
       "date": "2026-04-05T13:31:13.390096+00:00"
+    },
+    {
+      "title": "Britain Hits Record 42.3% Renewable Electricity Share In 2025",
+      "urls": [
+        "https://www.reuters.com/sustainability/clean-energy",
+        "https://www.cnbc.com/clean-energy"
+      ],
+      "date": "2026-04-05T14:01:15.139271+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T13:31:13.390159+00:00"
+  "lastUpdated": "2026-04-05T14:01:15.139337+00:00"
 }
