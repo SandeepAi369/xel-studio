@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta AI Launches in Brazil Across WhatsApp and Web Platforms",
-      "urls": [
-        "https://about.fb.com/br/news/2024/10/meta-ai-chega-ao-brasil-assistente-de-inteligencia-artificial-comeca-a-ser-disponibilizado-no-pais",
-        "https://about.fb.com/news/2025/12/bringing-more-real-time-news-and-content-to-meta-ai"
-      ],
-      "date": "2026-03-26T09:05:48.425783+00:00"
-    },
-    {
       "title": "Lowe's offers a range of mobility solutions including fixed and portable ramps designed to help whee",
       "urls": [
         "https://www.lowes.com/pl/wheelchairs-mobility-aids/4294644793?msockid=20aa1df8d8856dd32bf70ad0d9a46c95",
@@ -4864,7 +4856,17 @@
         "https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02"
       ],
       "date": "2026-04-05T09:01:16.978108+00:00"
+    },
+    {
+      "title": "Meta Ray-Ban Smart Glasses Use AI To Identify Objects In Real Time",
+      "urls": [
+        "https://news.un.org/en/story/2025/10/1166082",
+        "https://www.newamerica.org/insights/ai-tech-inclusion-disabilities-design",
+        "https://ablenews.com/ai-experts-raise-concerns-the-technologys-biases-toward-disability",
+        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
+      ],
+      "date": "2026-04-05T09:30:55.843525+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T09:01:16.978174+00:00"
+  "lastUpdated": "2026-04-05T09:30:55.843606+00:00"
 }
