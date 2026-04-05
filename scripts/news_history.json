@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "StockAnalysis Com Launches Free Screener For 130000 Global Stocks",
-      "urls": [
-        "https://www.bankofamerica.com",
-        "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
-        "https://play.google.com/store/apps/details?id=com.infonow.bofa&hl=en-US",
-        "https://about.bankofamerica.com/en/our-company/financial-products-services",
-        "https://bankofamerica.banklocationmaps.com/en/usa/new-jersey/dayton",
-        "https://stockanalysis.com",
-        "https://stockanalysis.com/stocks/screener",
-        "https://stockanalysis.com/watchlist",
-        "https://stockanalysis.com/chart",
-        "https://stockanalysis.com/trending"
-      ],
-      "date": "2026-03-26T11:07:33.045806+00:00"
-    },
-    {
       "title": "Quantum provides data storage and management solutions designed for organizations handling large-sca",
       "urls": [
         "https://www.quantum.com/en/company/about-us"
@@ -4880,7 +4864,15 @@
         "https://www.qure.ai/newsroom"
       ],
       "date": "2026-04-05T11:01:04.758850+00:00"
+    },
+    {
+      "title": "Iran's IRGC Threatens Apple Microsoft and 16 Other US Tech Firms",
+      "urls": [
+        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOopyhk9mRfAfO5VdTd9ZuZwrB3N7t_JMNkI05-akubOwzQLg3ynM",
+        "https://www.youtube.com/watch?v=_TbJnjNz4is"
+      ],
+      "date": "2026-04-05T11:30:58.920718+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T11:01:04.758903+00:00"
+  "lastUpdated": "2026-04-05T11:30:58.920780+00:00"
 }
