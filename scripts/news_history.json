@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Expands Weather Alert System to All 29000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=0bc1552b9099650d14f0420391a464b8"
-      ],
-      "date": "2026-03-26T02:01:26.313921+00:00"
-    },
-    {
       "title": "Health Savings Accounts now integrate with more health plans starting in 2026, expanding access to t",
       "urls": [
         "https://www.healthcare.gov/hsa-options",
@@ -4856,7 +4849,22 @@
         "https://discovery.patsnap.com/company/shanghai-jiabao-medical-health-care-technology"
       ],
       "date": "2026-04-05T02:01:06.704634+00:00"
+    },
+    {
+      "title": "Alysa Liu Wins Two Gold Medals At 2026 Winter Olympics",
+      "urls": [
+        "https://www.youtube.com/watch?v=4hHRbMCBUJg",
+        "https://oaklandside.org/2026/02/19/alysa-liu-winter-olympics-gold-figure-skating",
+        "https://www.gbnews.com/sport/winter-olympics/winter-olympics-alysa-liu-gold-2675298381",
+        "https://www.cbsnews.com/news/us-olympic-team-gold-medal-record-winter-games",
+        "https://www.ncaa.org/news/2026/2/16/2026-olympics-elana-meyers-taylor-wins-6th-olympic-medal-ties-bonnie-blairs-us-winter-medal-mark.aspx",
+        "https://www.npr.org/2026/02/23/nx-s1-5720980/us-gold-medals-winter-games-vermont-alaska",
+        "https://www.mynbc5.com/article/alysa-liu-milan-cortina-gold-medal-win-interview/70434992",
+        "https://www.nytimes.com/athletic/7058382/2026/02/19/alysa-liu-figure-skating-winter-olympics-gold",
+        "https://www.nhpr.org/2026-02-12/this-years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
+      ],
+      "date": "2026-04-05T02:30:59.164119+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T02:01:06.704703+00:00"
+  "lastUpdated": "2026-04-05T02:30:59.164191+00:00"
 }
