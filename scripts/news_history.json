@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Medicine AI Platform Detects Pancreatic Cancer With 94% Accuracy",
-      "urls": [
-        "https://www.sciencedaily.com/news/health_medicine",
-        "https://www.medtechdive.com",
-        "https://med.stanford.edu/news/all-news/2025/12/top-advancements-2025.html",
-        "https://www.medicalnewstoday.com/news",
-        "https://www.news-medical.net",
-        "https://medicalxpress.com",
-        "https://www.bioworld.com",
-        "https://www.npr.org/sections/research-news"
-      ],
-      "date": "2026-03-26T05:32:24.592622+00:00"
-    },
-    {
       "title": "Epornor Hosts Over 5 Million HD Adult Videos Daily",
       "urls": [
         "https://www.eporner.com",
@@ -4873,7 +4859,15 @@
         "https://www.datacenterknowledge.com/ai-data-centers/neurodiversity-emerges-as-a-skill-in-artificial-intelligence-work"
       ],
       "date": "2026-04-05T05:30:59.074217+00:00"
+    },
+    {
+      "title": "Meta Launches Llama 3 With Sevenfold Data Increase",
+      "urls": [
+        "https://aibusiness.com/nlp/meta-unveils-llama-3-the-most-powerful-open-source-model-yet",
+        "https://techcrunch.com/2025/07/30/zuckerberg-says-meta-likely-wont-open-source-all-of-its-superintelligence-ai-models"
+      ],
+      "date": "2026-04-05T06:01:07.900517+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T05:30:59.074276+00:00"
+  "lastUpdated": "2026-04-05T06:01:07.900580+00:00"
 }
