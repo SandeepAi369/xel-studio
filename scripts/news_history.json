@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration Offers Phone Support For Benefit Claims",
-      "urls": [
-        "https://www.ssa.gov/agency/contact/phone.html"
-      ],
-      "date": "2026-03-26T21:01:24.145668+00:00"
-    },
-    {
       "title": "Fox News Digital Publishes 150 Original Stories Daily With 200 Journalists",
       "urls": [
         "https://www.foxnews.com?msockid=2f3128d7b3f660772de53fffb22861a3"
@@ -4855,7 +4848,15 @@
         "https://dig.watch/updates/data-privacy-shifts-from-breaches-to-authorised-surveillance"
       ],
       "date": "2026-04-05T21:01:06.096156+00:00"
+    },
+    {
+      "title": "USA Hockey Cedes Control To NHL's $2 Billion Franchise In Player Development Overhaul",
+      "urls": [
+        "https://www.usatoday.com",
+        "https://news.google.com"
+      ],
+      "date": "2026-04-05T21:30:58.910800+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T21:01:06.096209+00:00"
+  "lastUpdated": "2026-04-05T21:30:58.910880+00:00"
 }
