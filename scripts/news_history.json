@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ibm Showcases Real World Digital Transformation Success Stories",
-      "urls": [
-        "https://www.ibm.com/mx-es/think/topics/digital-transformation-use-cases"
-      ],
-      "date": "2026-03-26T18:31:27.456120+00:00"
-    },
-    {
       "title": "Medi Cal Expansion Boosts Access To Preventive Care For Californians",
       "urls": [
         "https://www.dhcs.ca.gov/Medi-Cal/Pages/home.aspx",
@@ -4869,7 +4862,14 @@
         "https://www.infoworld.com/article/4100421/mistral-targets-lightweight-processors-with-its-biggest-open-model-yet.html"
       ],
       "date": "2026-04-05T18:30:58.441731+00:00"
+    },
+    {
+      "title": "Nyus Ai System Speeds Disease Detection And Simplifies Patient Reports",
+      "urls": [
+        "https://nyulangone.org/news/digital-health"
+      ],
+      "date": "2026-04-05T19:01:06.919785+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T18:30:58.441797+00:00"
+  "lastUpdated": "2026-04-05T19:01:06.919863+00:00"
 }
