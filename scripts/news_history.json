@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Foundation Integrates Ray For Scalable AI Workloads",
-      "urls": [
-        "https://pytorch.org/blog/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
-        "https://arxiv.org/html/2508.04035v1",
-        "https://www.prnewswire.com/news-releases/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack-302591184.html",
-        "https://www.marktechpost.com/2025/08/20/deep-learning-framework-showdown-pytorch-vs-tensorflow-in-2025",
-        "https://www.pythoncentral.io/tensorflow-pytorch-or-scikit-learn-a-guide-to-python-ai-frameworks",
-        "https://www.opensourceforu.com/2025/12/google-and-meta-bet-on-open-source-pytorch-to-break-nvidias-cuda-lock-in",
-        "https://biggo.com/news/202510261933_PyTorch-TensorFlow-Research-Dominance-2025",
-        "https://www.phoronix.com/news/PyTorch-Ray-AI-Compute-Engine",
-        "https://blogs.nvidia.com/blog/open-source-ai-week",
-        "https://sider.ai/blog/ai-tools/is-pytorch-still-the-best-deep-learning-framework-a-2025-review"
-      ],
-      "date": "2026-03-26T00:01:41.023450+00:00"
-    },
-    {
       "title": "Leasing Admin Streamlines Tenant Processes Across Property Types",
       "urls": [
         "https://get.visual.ly/m/design-portfolio/a-day-in-the-life-of-a-leasing-admin",
@@ -4856,7 +4840,15 @@
         "https://cryptorank.io/news/feed/1fb3c-ai-coding-tools-open-source-reality"
       ],
       "date": "2026-04-05T00:01:05.009605+00:00"
+    },
+    {
+      "title": "Tier 2 Esports Players Earn Below Minimum Wage Amid Financial Crisis",
+      "urls": [
+        "https://www.youtube.com/watch?v=pAWzqKeptKM",
+        "https://www.reddit.com/r/CoDCompetitive/comments/1sca8py/a_young_hitch_in_the_crowd_filming_for_vision_as"
+      ],
+      "date": "2026-04-05T00:31:02.425082+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T00:01:05.009683+00:00"
+  "lastUpdated": "2026-04-05T00:31:02.425151+00:00"
 }
