@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phantom Crane Flies Use Legs as Aerodynamic Rudders in Flight",
-      "urls": [
-        "https://www.sciencenews.org/sn-magazine/september-2025",
-        "https://www.sciencenews.org/article-type/the-science-life",
-        "https://www.sciencenews.org/article-type/news",
-        "https://www.sciencenews.org/article/science-america-trump-administration"
-      ],
-      "date": "2026-03-26T17:33:26.695472+00:00"
-    },
-    {
       "title": "Colorado Parks and Wildlife Hosts Puppet Shows at Roxborough State Park",
       "urls": [
         "https://cpw.state.co.us",
@@ -4870,7 +4860,14 @@
         "https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview"
       ],
       "date": "2026-04-05T17:31:01.504727+00:00"
+    },
+    {
+      "title": "UFC Fight Night Draws 3.2 Million Streams With Belal Muhammad Victory",
+      "urls": [
+        "https://www.mmamania.com"
+      ],
+      "date": "2026-04-05T18:01:10.256235+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T17:31:01.504791+00:00"
+  "lastUpdated": "2026-04-05T18:01:10.256307+00:00"
 }
