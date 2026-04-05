@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Accessibility refers to the design of products, services, and environments that can be reached, ente",
-      "urls": [
-        "https://www.ldoceonline.com/dictionary/accessible",
-        "https://www.britannica.com/dictionary/accessible",
-        "https://www.vocabulary.com/dictionary/accessible"
-      ],
-      "date": "2026-03-26T14:02:43.522093+00:00"
-    },
-    {
       "title": "Mistral Launches Largest Wine Catalogue in Brazil With Thousands of Global Varietals",
       "urls": [
         "https://www.mistral.com.br",
@@ -4863,7 +4854,15 @@
         "https://www.cnbc.com/clean-energy"
       ],
       "date": "2026-04-05T14:01:15.139271+00:00"
+    },
+    {
+      "title": "Hugging Face Promotes Open Source AI With Qwen3 And Llama 4",
+      "urls": [
+        "https://sloanreview.mit.edu/audio/challenging-the-average-with-open-source-ai-hugging-faces-thomas-wolf",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms"
+      ],
+      "date": "2026-04-05T14:30:59.869622+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T14:01:15.139337+00:00"
+  "lastUpdated": "2026-04-05T14:30:59.869691+00:00"
 }
