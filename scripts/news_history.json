@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Electric vehicles are projected to account for 25% of global car sales this year, marking a signific",
-      "urls": [
-        "https://www.weforum.org/stories/2025/05/evs-reach-quarter-global-car-sales-2025-nature-climate-news"
-      ],
-      "date": "2026-03-26T13:03:45.932123+00:00"
-    },
-    {
       "title": "National Institute of Food and Agriculture leads federal efforts to support climate-resilient agricu",
       "urls": [
         "https://www.nifa.usda.gov/offices/division-climate",
@@ -4870,7 +4863,15 @@
         "https://www.bbc.com/innovation/science"
       ],
       "date": "2026-04-05T13:01:08.836151+00:00"
+    },
+    {
+      "title": "IrisVision Launches Biopic Tilt Eyewear For Low Vision Patients",
+      "urls": [
+        "https://ok.vision/how-technology-can-help-students-with-vision-impairments",
+        "https://lighthouseguild.org/fantastic-new-tech-for-people-with-low-vision-or-blindness"
+      ],
+      "date": "2026-04-05T13:31:13.390096+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T13:01:08.836211+00:00"
+  "lastUpdated": "2026-04-05T13:31:13.390159+00:00"
 }
