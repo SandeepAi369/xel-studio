@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Expands Digital Weather Alerts to All 29000 U.S. ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=0c760c99284c64711d8e1bb1298f650c"
-      ],
-      "date": "2026-03-26T17:05:04.229981+00:00"
-    },
-    {
       "title": "Phantom Crane Flies Use Legs as Aerodynamic Rudders in Flight",
       "urls": [
         "https://www.sciencenews.org/sn-magazine/september-2025",
@@ -4869,7 +4862,15 @@
         "https://www.besensable.com/post/assistive-technology-for-disabilities"
       ],
       "date": "2026-04-05T17:01:13.925265+00:00"
+    },
+    {
+      "title": "United States Advances AI Accountability Legislation in 2026",
+      "urls": [
+        "https://www.anecdotes.ai/learn/ai-regulations-in-2025-us-eu-uk-japan-china-and-more",
+        "https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview"
+      ],
+      "date": "2026-04-05T17:31:01.504727+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T17:01:13.925324+00:00"
+  "lastUpdated": "2026-04-05T17:31:01.504791+00:00"
 }
