@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "ICC Expands T20 World Cup To 20 Teams For 2026 Tournament",
-      "urls": [
-        "https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSFFpZ0FQAQ?hl=en-GB&ceid=GB%3Aen",
-        "https://www.foxnews.com/sports?msockid=01d4ceba2fa961c52204d9922ea86055",
-        "https://www.hindustantimes.com/sports",
-        "https://www.reuters.com/sports/soccer",
-        "https://apnews.com/sports",
-        "https://www.espncricinfo.com/cricket-news",
-        "https://www.usatoday.com/sports"
-      ],
-      "date": "2026-03-26T12:32:18.997244+00:00"
-    },
-    {
       "title": "Electric vehicles are projected to account for 25% of global car sales this year, marking a signific",
       "urls": [
         "https://www.weforum.org/stories/2025/05/evs-reach-quarter-global-car-sales-2025-nature-climate-news"
@@ -4873,7 +4860,17 @@
         "https://www.sportskeeda.com"
       ],
       "date": "2026-04-05T12:31:02.282512+00:00"
+    },
+    {
+      "title": "Scientists Discover New Underwater Mountain Range in Pacific Ocean",
+      "urls": [
+        "https://www.cnn.com/specials/science-breakthroughs",
+        "https://www.sciencedaily.com",
+        "https://www.nature.com/news",
+        "https://www.bbc.com/innovation/science"
+      ],
+      "date": "2026-04-05T13:01:08.836151+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T12:31:02.282567+00:00"
+  "lastUpdated": "2026-04-05T13:01:08.836211+00:00"
 }
