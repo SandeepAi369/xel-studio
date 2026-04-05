@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medi Cal Expansion Boosts Access To Preventive Care For Californians",
-      "urls": [
-        "https://www.dhcs.ca.gov/Medi-Cal/Pages/home.aspx",
-        "https://www.alamedahealthsystem.org/locations/san-leandro-hospital",
-        "https://healthy.kaiserpermanente.org/northern-california/facilities/san-leandro-medical-center-301981",
-        "https://epic-care.com/location/san-leandro",
-        "https://www.webmd.com",
-        "https://nmciclinic.com/san-leandro",
-        "https://www.yelp.com/search?find_desc=Medical+Clinics&find_loc=San+Leandro%2C+CA&msockid=2f6d60c2f93365f91b8a77eaf89264bc",
-        "https://www.healthgrades.com/group-directory/ca-california/san-leandro",
-        "https://www.mayoclinic.org/diseases-conditions"
-      ],
-      "date": "2026-03-26T19:01:32.521728+00:00"
-    },
-    {
       "title": "International RH And CT6 Trucks Launch In Mexico For Heavy And Light Cargo Transport",
       "urls": [
         "https://mexico.internationaltrucks.com/international-rh",
@@ -4869,7 +4854,14 @@
         "https://nyulangone.org/news/digital-health"
       ],
       "date": "2026-04-05T19:01:06.919785+00:00"
+    },
+    {
+      "title": "Nvidia Powers 95 Percent Of Global AI Training Workloads",
+      "urls": [
+        "https://www.nvidia.com/en-us"
+      ],
+      "date": "2026-04-05T19:30:53.578601+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T19:01:06.919863+00:00"
+  "lastUpdated": "2026-04-05T19:30:53.578654+00:00"
 }
