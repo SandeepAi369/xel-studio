@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Launches New Developer Tutorials And Product Demos",
-      "urls": [
-        "https://www.youtube.com/google​"
-      ],
-      "date": "2026-03-26T23:02:30.468390+00:00"
-    },
-    {
       "title": "Stanford HAI Releases 2025 AI Index Report With 37% Growth In Publications",
       "urls": [
         "https://hai.stanford.edu/ai-index/2025-ai-index-report"
@@ -4849,7 +4842,14 @@
         "https://www.reddit.com/r/accessibility/comments/1reup6k/do_any_news_sites_have_an_accessibility_news"
       ],
       "date": "2026-04-05T23:01:05.818709+00:00"
+    },
+    {
+      "title": "Hospitals Cut Diagnosis Time 40 Percent Using AI Tools",
+      "urls": [
+        "https://www.innovationnewsnetwork.com/ai-in-healthcare-better-diagnosis-and-care/65827"
+      ],
+      "date": "2026-04-05T23:30:57.255648+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T23:01:05.818809+00:00"
+  "lastUpdated": "2026-04-05T23:30:57.255713+00:00"
 }
