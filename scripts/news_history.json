@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Colorado Parks and Wildlife Hosts Puppet Shows at Roxborough State Park",
-      "urls": [
-        "https://cpw.state.co.us",
-        "https://coloradostateparks.net/parks/lake-pueblo/wildlife"
-      ],
-      "date": "2026-03-26T18:02:45.596049+00:00"
-    },
-    {
       "title": "Ibm Showcases Real World Digital Transformation Success Stories",
       "urls": [
         "https://www.ibm.com/mx-es/think/topics/digital-transformation-use-cases"
@@ -4867,7 +4859,17 @@
         "https://www.mmamania.com"
       ],
       "date": "2026-04-05T18:01:10.256235+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Open Source Mistral 3 Series With Multilingual Support",
+      "urls": [
+        "https://www.digitimes.com/news/a20251211PD208/mistral-ai-startup-software-language.html",
+        "https://mistral.ai/news/mistral-3",
+        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html",
+        "https://www.infoworld.com/article/4100421/mistral-targets-lightweight-processors-with-its-biggest-open-model-yet.html"
+      ],
+      "date": "2026-04-05T18:30:58.441731+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T18:01:10.256307+00:00"
+  "lastUpdated": "2026-04-05T18:30:58.441797+00:00"
 }
