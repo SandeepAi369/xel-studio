@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Study Reveals 18 Percent Of U.S. Jobs Face High AI Exposure",
-      "urls": [
-        "https://www.anthropic.com/research/labor-market-impacts"
-      ],
-      "date": "2026-03-26T05:05:51.419005+00:00"
-    },
-    {
       "title": "Stanford Medicine AI Platform Detects Pancreatic Cancer With 94% Accuracy",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine",
@@ -4873,7 +4866,14 @@
         "https://www.instaclustr.com/education/open-source-ai/top-10-open-source-llms-for-2025"
       ],
       "date": "2026-04-05T05:01:06.629142+00:00"
+    },
+    {
+      "title": "Neurodiverse Workers Excel in AI Pattern Recognition Tasks",
+      "urls": [
+        "https://www.datacenterknowledge.com/ai-data-centers/neurodiversity-emerges-as-a-skill-in-artificial-intelligence-work"
+      ],
+      "date": "2026-04-05T05:30:59.074217+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T05:01:06.629203+00:00"
+  "lastUpdated": "2026-04-05T05:30:59.074276+00:00"
 }
