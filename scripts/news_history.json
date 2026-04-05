@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wmo Confirms 2025 Among Three Warmest Years On Record",
-      "urls": [
-        "https://worldweather.wmo.int/en/home.html",
-        "https://wmo.int/zh-hans",
-        "https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record",
-        "https://wmo.int/media/news/un-climate-summit-increases-momentum-cop30",
-        "https://wmo.int/media/update/global-seasonal-climate-update-march-april-may-2026",
-        "https://wmo.int/resources/publication-series/state-of-climate-latin-america-and-caribbean/state-of-climate-latin-america-and-caribbean-2024"
-      ],
-      "date": "2026-03-26T20:34:57.485840+00:00"
-    },
-    {
       "title": "Social Security Administration Offers Phone Support For Benefit Claims",
       "urls": [
         "https://www.ssa.gov/agency/contact/phone.html"
@@ -4860,7 +4848,14 @@
         "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqdUZ0ybCZYAxwDnJjCkYftRrhy3_ELTbeBi--FWP2X06HeYz3Rn1GrR&gaa_ts=69d2c9fd&gaa_sig=DJcAlnCgMWmaJZsHqYfNaLWiiQuH6KPIPacRr1xrDORJ0uKpSfJZj4N7pqrInD9321AORmobbZN7gveQT46Z5Q%3D%3D"
       ],
       "date": "2026-04-05T20:30:58.919340+00:00"
+    },
+    {
+      "title": "US Border Authorities Expand Digital Surveillance Using AI Tools",
+      "urls": [
+        "https://dig.watch/updates/data-privacy-shifts-from-breaches-to-authorised-surveillance"
+      ],
+      "date": "2026-04-05T21:01:06.096156+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T20:30:58.919400+00:00"
+  "lastUpdated": "2026-04-05T21:01:06.096209+00:00"
 }
