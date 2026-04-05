@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NCAA Women’s Basketball Tournament Begins March 18 With 68 Teams",
-      "urls": [
-        "https://www.msn.com/en-us/sports"
-      ],
-      "date": "2026-03-26T01:01:34.067971+00:00"
-    },
-    {
       "title": "WMO Projects Record High Temperatures Through 2029 Amid El Niño And Rising Emissions",
       "urls": [
         "https://wmo.int/news/media-centre/global-climate-predictions-show-temperatures-expected-remain-or-near-record-levels-coming-5-years"
@@ -4847,7 +4840,14 @@
         "https://www.instagram.com/p/DWjpTF0CUQL"
       ],
       "date": "2026-04-05T01:01:05.101499+00:00"
+    },
+    {
+      "title": "Solar Investments Hit Record $1.8 Trillion in 2024",
+      "urls": [
+        "https://www.ft.com/renewable-energy"
+      ],
+      "date": "2026-04-05T01:30:56.592434+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T01:01:05.101568+00:00"
+  "lastUpdated": "2026-04-05T01:30:56.592499+00:00"
 }
