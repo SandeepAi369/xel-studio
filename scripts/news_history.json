@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin reached a new all-time high of $73,500 amid surging institutional adoption and macroeconomic",
-      "urls": [
-        "https://cointelegraph.com",
-        "https://www.coingecko.com/en/news",
-        "https://www.todayonchain.com/news"
-      ],
-      "date": "2026-03-26T12:05:58.072361+00:00"
-    },
-    {
       "title": "ICC Expands T20 World Cup To 20 Teams For 2026 Tournament",
       "urls": [
         "https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSFFpZ0FQAQ?hl=en-GB&ceid=GB%3Aen",
@@ -4874,7 +4865,15 @@
         "https://volcano.si.edu/reports_weekly.cfm"
       ],
       "date": "2026-04-05T12:01:09.985184+00:00"
+    },
+    {
+      "title": "Dawn Staley Confronts Geno Auriemma After South Carolina's Final Four Win",
+      "urls": [
+        "https://www.skysports.com/watch",
+        "https://www.sportskeeda.com"
+      ],
+      "date": "2026-04-05T12:31:02.282512+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T12:01:09.985250+00:00"
+  "lastUpdated": "2026-04-05T12:31:02.282567+00:00"
 }
