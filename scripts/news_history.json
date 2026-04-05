@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "International RH And CT6 Trucks Launch In Mexico For Heavy And Light Cargo Transport",
-      "urls": [
-        "https://mexico.internationaltrucks.com/international-rh",
-        "https://mexico.internationaltrucks.com/camion-de-6-toneladas",
-        "https://mexico.internationaltrucks.com/soluciones-de-servicio",
-        "https://mexico.internationaltrucks.com/camiones-electricos-o"
-      ],
-      "date": "2026-03-26T19:35:24.338738+00:00"
-    },
-    {
       "title": "Autodesk Desktop App Manages AutoCAD Updates And License Validation",
       "urls": [
         "https://www.zhihu.com/question/400387556"
@@ -4861,7 +4851,16 @@
         "https://www.nvidia.com/en-us"
       ],
       "date": "2026-04-05T19:30:53.578601+00:00"
+    },
+    {
+      "title": "Midjourney Launches V1 AI Video Generator For Creators",
+      "urls": [
+        "https://finance.yahoo.com/news/midjourney-launches-first-ai-video-192121917.html",
+        "https://www.youtube.com/watch?v=SY5Wm7fUJFE",
+        "https://huggingface.co/blog/video_gen"
+      ],
+      "date": "2026-04-05T20:01:04.936553+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T19:30:53.578654+00:00"
+  "lastUpdated": "2026-04-05T20:01:04.936639+00:00"
 }
