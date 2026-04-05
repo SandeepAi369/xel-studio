@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gap Integrates Google AI Tools To Accelerate Apparel Design And Supply Chain",
-      "urls": [
-        "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
-        "https://www.turing.com/resources/generative-ai-tools",
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://techannouncer.com/latest-generative-ai-news-breakthroughs-and-industry-updates",
-        "https://aibusiness.com/generative-ai",
-        "https://techcrunch.com/tag/generative-ai",
-        "https://currentai.news",
-        "https://www.simplilearn.com/generative-ai-news-article",
-        "https://learn.g2.com/best-generative-ai-tools"
-      ],
-      "date": "2026-03-26T07:03:35.659360+00:00"
-    },
-    {
       "title": "PopEVE AI Analyzes 70000 Genomes To Speed Rare Disease Diagnosis",
       "urls": [
         "https://www.sciencenewstoday.org/how-ai-is-transforming-healthcare-diagnosis-treatment-and-beyond",
@@ -4868,7 +4853,14 @@
         "https://www.unhcr.org/us/news-and-stories"
       ],
       "date": "2026-04-05T07:01:07.046245+00:00"
+    },
+    {
+      "title": "Mental Health Apps Shift to Preventive Care with Daily Engagement Tools",
+      "urls": [
+        "https://mindstudios.medium.com/the-17-billion-opportunity-why-mental-health-apps-are-the-most-important-tech-youre-not-building-c54610de6fff"
+      ],
+      "date": "2026-04-05T07:30:56.150837+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T07:01:07.046319+00:00"
+  "lastUpdated": "2026-04-05T07:30:56.150902+00:00"
 }
