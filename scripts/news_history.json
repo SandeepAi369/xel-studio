@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Expands Weather Alert System to All 29000 US ZIP Codes",
-      "urls": [
-        "https://www.foxnews.com?msockid=1a8190019680672b296b872997d266af"
-      ],
-      "date": "2026-03-26T15:32:10.097626+00:00"
-    },
-    {
       "title": "Apple MOV Files Face Compatibility Issues on Non Apple Devices",
       "urls": [
         "https://www.zhihu.com/question/268479838/answers/updated"
@@ -4865,7 +4858,16 @@
         "https://www.youtube.com/watch?v=Immq_y5KQH4"
       ],
       "date": "2026-04-05T15:30:59.433877+00:00"
+    },
+    {
+      "title": "U.S. Bans Connected Vehicle Imports From China And Russia",
+      "urls": [
+        "https://www.itic.org/news-events/news-releases",
+        "https://www.bis.gov/news-updates",
+        "https://sdgnews.com/wto-says-global-trade-is-slowing-as-conflict-and-ai-pull-the-economy-in-opposite-directions"
+      ],
+      "date": "2026-04-05T16:01:12.360225+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T15:30:59.433932+00:00"
+  "lastUpdated": "2026-04-05T16:01:12.360291+00:00"
 }
