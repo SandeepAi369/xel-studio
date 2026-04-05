@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Digital Publishes 150 Original Stories Daily With 200 Journalists",
-      "urls": [
-        "https://www.foxnews.com?msockid=2f3128d7b3f660772de53fffb22861a3"
-      ],
-      "date": "2026-03-26T21:34:42.157009+00:00"
-    },
-    {
       "title": "270toWin Updates Electoral College Projections Daily With State Polling Data",
       "urls": [
         "https://www.nbcnews.com/politics",
@@ -4856,7 +4849,15 @@
         "https://news.google.com"
       ],
       "date": "2026-04-05T21:30:58.910800+00:00"
+    },
+    {
+      "title": "Demis Hassabis Leads Google DeepMind In Advancing Gemini AI Across Android And Search",
+      "urls": [
+        "https://www.youtube.com/watch?v=uVPdYqiULTo",
+        "https://finance.yahoo.com/video/google-deepmind-ceo-warns-dangers-102451359.html"
+      ],
+      "date": "2026-04-05T22:01:08.116648+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T21:30:58.910880+00:00"
+  "lastUpdated": "2026-04-05T22:01:08.116723+00:00"
 }
