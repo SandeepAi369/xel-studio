@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "270toWin Updates Electoral College Projections Daily With State Polling Data",
-      "urls": [
-        "https://www.nbcnews.com/politics",
-        "https://apnews.com/politics",
-        "https://www.foxnews.com/politics",
-        "https://www.cnn.com/politics",
-        "https://www.270towin.com/news"
-      ],
-      "date": "2026-03-26T22:01:27.275936+00:00"
-    },
-    {
       "title": "Marathon Runners Complete 42.195 Kilometers In World Athletics Event",
       "urls": [
         "https://en.wikipedia.org/wiki/Marathon",
@@ -4857,7 +4846,14 @@
         "https://finance.yahoo.com/video/google-deepmind-ceo-warns-dangers-102451359.html"
       ],
       "date": "2026-04-05T22:01:08.116648+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Surpass Coal In Global Electricity Generation",
+      "urls": [
+        "https://www.mprnews.org/story/2025/10/06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says"
+      ],
+      "date": "2026-04-05T22:30:54.369043+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T22:01:08.116723+00:00"
+  "lastUpdated": "2026-04-05T22:30:54.369099+00:00"
 }
