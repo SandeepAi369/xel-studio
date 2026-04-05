@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum provides data storage and management solutions designed for organizations handling large-sca",
-      "urls": [
-        "https://www.quantum.com/en/company/about-us"
-      ],
-      "date": "2026-03-26T11:36:57.833114+00:00"
-    },
-    {
       "title": "Bitcoin reached a new all-time high of $73,500 amid surging institutional adoption and macroeconomic",
       "urls": [
         "https://cointelegraph.com",
@@ -4872,7 +4865,16 @@
         "https://www.youtube.com/watch?v=_TbJnjNz4is"
       ],
       "date": "2026-04-05T11:30:58.920718+00:00"
+    },
+    {
+      "title": "Mount Merapi Records 22 Earthquakes Amid Rising Magma Activity",
+      "urls": [
+        "https://www.newsnow.com/us/World/Natural+Disasters",
+        "https://www.volcanodiscovery.com/news.html",
+        "https://volcano.si.edu/reports_weekly.cfm"
+      ],
+      "date": "2026-04-05T12:01:09.985184+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T11:30:58.920780+00:00"
+  "lastUpdated": "2026-04-05T12:01:09.985250+00:00"
 }
