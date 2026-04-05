@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Enhanced Live Streaming With Interactive Features",
-      "urls": [
-        "https://www.foxnews.com?msockid=03158bd595cd6faf209d9cfd94d36ead"
-      ],
-      "date": "2026-03-26T08:31:30.606387+00:00"
-    },
-    {
       "title": "Meta AI Launches in Brazil Across WhatsApp and Web Platforms",
       "urls": [
         "https://about.fb.com/br/news/2024/10/meta-ai-chega-ao-brasil-assistente-de-inteligencia-artificial-comeca-a-ser-disponibilizado-no-pais",
@@ -4863,7 +4856,15 @@
         "https://www.reddit.com/r/sports/comments/1scjuh7/cooper_flagg_becomes_the_youngest_player_in_nba"
       ],
       "date": "2026-04-05T08:31:06.306436+00:00"
+    },
+    {
+      "title": "Google TPUs Capture 25 Percent AI Chip Market by 2030",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1fgq1dr/new_ai_chip_beats_nvidia_amd_and_intel_by_a_mile",
+        "https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02"
+      ],
+      "date": "2026-04-05T09:01:16.978108+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T08:31:06.306492+00:00"
+  "lastUpdated": "2026-04-05T09:01:16.978174+00:00"
 }
