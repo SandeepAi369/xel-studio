@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lowe's offers a range of mobility solutions including fixed and portable ramps designed to help whee",
-      "urls": [
-        "https://www.lowes.com/pl/wheelchairs-mobility-aids/4294644793?msockid=20aa1df8d8856dd32bf70ad0d9a46c95",
-        "https://www.yelp.com/search?find_desc=wheelchair+rental&find_loc=Los+Angeles%2C+CA&msockid=20aa1df8d8856dd32bf70ad0d9a46c95"
-      ],
-      "date": "2026-03-26T09:32:39.856507+00:00"
-    },
-    {
       "title": "StockAnalysis Com Launches Free Screener For 130000 Global Stocks",
       "urls": [
         "https://www.bankofamerica.com",
@@ -4866,7 +4858,14 @@
         "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
       ],
       "date": "2026-04-05T09:30:55.843525+00:00"
+    },
+    {
+      "title": "FaZe Clan Launches Ghost-Sponsored Reality Show on Twitch",
+      "urls": [
+        "https://www.adweek.com/category/esports"
+      ],
+      "date": "2026-04-05T10:01:12.262206+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T09:30:55.843606+00:00"
+  "lastUpdated": "2026-04-05T10:01:12.262268+00:00"
 }
