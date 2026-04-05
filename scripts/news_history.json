@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iga Świątek Defeats Elina Svitolina 6-3 6-2 In Rain-Affected Quarterfinal",
-      "urls": [
-        "https://www.wtatennis.com/scores",
-        "https://www.tennis.com/scores"
-      ],
-      "date": "2026-03-26T04:31:07.053140+00:00"
-    },
-    {
       "title": "Anthropic Study Reveals 18 Percent Of U.S. Jobs Face High AI Exposure",
       "urls": [
         "https://www.anthropic.com/research/labor-market-impacts"
@@ -4873,7 +4865,15 @@
         "https://www.cnbc.com/social-media"
       ],
       "date": "2026-04-05T04:30:56.847730+00:00"
+    },
+    {
+      "title": "Together Ai Releases 120B Parameter Gpt Oss 120B For Research Use",
+      "urls": [
+        "https://www.simplilearn.com/open-source-llms-article",
+        "https://www.instaclustr.com/education/open-source-ai/top-10-open-source-llms-for-2025"
+      ],
+      "date": "2026-04-05T05:01:06.629142+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T04:30:56.847792+00:00"
+  "lastUpdated": "2026-04-05T05:01:06.629203+00:00"
 }
