@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Marathon Runners Complete 42.195 Kilometers In World Athletics Event",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Marathon",
-        "https://www.marathonthegame.com",
-        "https://worldathletics.org/disciplines/road/marathon",
-        "https://www.marathonguide.com",
-        "https://runningintheusa.com/classic/list/map/marathon/upcoming"
-      ],
-      "date": "2026-03-26T22:31:22.429694+00:00"
-    },
-    {
       "title": "YouTube Launches New Developer Tutorials And Product Demos",
       "urls": [
         "https://www.youtube.com/google​"
@@ -4853,7 +4842,14 @@
         "https://www.mprnews.org/story/2025/10/06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says"
       ],
       "date": "2026-04-05T22:30:54.369043+00:00"
+    },
+    {
+      "title": "PlaintextHeadlines Expands Coverage Of Assistive Technology Innovations",
+      "urls": [
+        "https://www.reddit.com/r/accessibility/comments/1reup6k/do_any_news_sites_have_an_accessibility_news"
+      ],
+      "date": "2026-04-05T23:01:05.818709+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T22:30:54.369099+00:00"
+  "lastUpdated": "2026-04-05T23:01:05.818809+00:00"
 }
