@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 150 Daily Stories With 200 Journalists",
-      "urls": [
-        "https://www.foxnews.com?msockid=35265819f8ea65f12b544f30f9256454",
-        "https://www.newsbreak.com/headlines"
-      ],
-      "date": "2026-03-27T05:37:52.835451+00:00"
-    },
-    {
       "title": "International Motors México Reports Weight Variance In Commercial Vehicle Specifications",
       "urls": [
         "https://mexico.internationaltrucks.com/hubfs/MV+6x4+Ficha+tecnica+-+2025-1.pdf"
@@ -4852,7 +4844,16 @@
         "https://energyinnovation.org/research-resources/reports"
       ],
       "date": "2026-04-06T05:30:54.909495+00:00"
+    },
+    {
+      "title": "Epa Reverses Greenhouse Gas Endangerment Finding",
+      "urls": [
+        "https://www.bsg.ox.ac.uk/news/climate-policy-strengthens-globally-despite-unprecedented-contestation-us-and-europe",
+        "https://www.sustainability.gov/archive/biden46/federalsustainabilityplan/emissions.html",
+        "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
+      ],
+      "date": "2026-04-06T06:01:10.026459+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T05:30:54.909568+00:00"
+  "lastUpdated": "2026-04-06T06:01:10.026523+00:00"
 }
