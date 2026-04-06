@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches ChatGPT Enterprise For Large Organizations",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/18lm504/how_do_i_force_whisper_to_use_gpu_instead_of_cpu",
-        "https://www.reddit.com/r/OpenAI/comments/xgeo5i/what_do_you_think_about_codex",
-        "https://www.reddit.com/r/LocalLLaMA/comments/195mi89/cost_comparisons_between_openai_mistral_claude",
-        "https://www.reddit.com/r/OpenAI/comments/163syc8/openai_launches_chatgpt_enterprise",
-        "https://www.reddit.com/r/OpenAI/comments/1913ggm/anyone_knows_how_to_request_account_email_change"
-      ],
-      "date": "2026-03-27T05:01:29.318959+00:00"
-    },
-    {
       "title": "Fox News Publishes 150 Daily Stories With 200 Journalists",
       "urls": [
         "https://www.foxnews.com?msockid=35265819f8ea65f12b544f30f9256454",
@@ -4853,7 +4842,17 @@
         "https://www.youtube.com/watch?v=ZpVZO5VDrcs"
       ],
       "date": "2026-04-06T05:01:17.325410+00:00"
+    },
+    {
+      "title": "ITIF Center Advocates Clean Energy Innovation for Price Performance Parity",
+      "urls": [
+        "https://itif.org/issues/clean-energy-innovation",
+        "https://climatechangeresources.org/learn-more/new-technologies",
+        "https://climatetechdigital.com/climate-technology",
+        "https://energyinnovation.org/research-resources/reports"
+      ],
+      "date": "2026-04-06T05:30:54.909495+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T05:01:17.325501+00:00"
+  "lastUpdated": "2026-04-06T05:30:54.909568+00:00"
 }
