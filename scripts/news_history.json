@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford HAI Releases 2025 AI Index Report With Global Insights",
-      "urls": [
-        "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ",
-        "https://techcrunch.com/category/artificial-intelligence",
-        "https://www.cnn.com/business/tech/ai-news-artificial-intelligence-updates",
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
-        "https://aichief.com/news",
-        "https://www.artificialintelligence-news.com",
-        "https://www.wsj.com/tech/ai?msockid=26928478c0026c043fbe9351c1216d94"
-      ],
-      "date": "2026-03-27T14:31:44.789148+00:00"
-    },
-    {
       "title": "Incredible Health operates a digital hiring platform exclusively for healthcare professionals, conne",
       "urls": [
         "https://www.incrediblehealth.com",
@@ -4811,7 +4798,17 @@
         "https://thehill.com/policy/technology/5812881-gottheimer-presses-anthropic-ai-safety"
       ],
       "date": "2026-04-06T14:31:14.326857+00:00"
+    },
+    {
+      "title": "Stanford-Led Team Develops AI Collaboration Model For LMIC Health Care",
+      "urls": [
+        "https://aparc.fsi.stanford.edu/news/digital-health-innovations-pathway-improving-healthcare-underserved-communities",
+        "https://www.tmasolutions.com/insights/digital-health-innovation-trends-technologies-in-2025",
+        "https://www.who.int/health-topics/digital-health",
+        "https://www.ama-assn.org/practice-management/digital-health"
+      ],
+      "date": "2026-04-06T15:01:13.290994+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T14:31:14.326921+00:00"
+  "lastUpdated": "2026-04-06T15:01:13.291062+00:00"
 }
