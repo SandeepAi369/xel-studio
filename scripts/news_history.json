@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Motors México Reports Weight Variance In Commercial Vehicle Specifications",
-      "urls": [
-        "https://mexico.internationaltrucks.com/hubfs/MV+6x4+Ficha+tecnica+-+2025-1.pdf"
-      ],
-      "date": "2026-03-27T06:02:38.527368+00:00"
-    },
-    {
       "title": "NASA and FEMA have jointly released a comprehensive climate action guide to improve disaster prepare",
       "urls": [
         "https://climate.nasa.gov/news/3192/nasa-fema-release-comprehensive-climate-action-guide?_hsenc=p2ANqtz--6-U90YbUZKvKrl4BRyEPE1rXA124X28I035oTSvMeyODJAcgfylG93w0sOD5H5EazEOwA",
@@ -4853,7 +4846,14 @@
         "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
       ],
       "date": "2026-04-06T06:01:10.026459+00:00"
+    },
+    {
+      "title": "Eurozone Inflation Rises To 2.5% In March",
+      "urls": [
+        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqdX3AvNu-ZRhRss7ABvmjBLEMm3cXBF_d0lOdnh35LjryO2pd79kEpl&gaa_ts=69d356a2&gaa_sig=FgXAgw58p9Y2U4USzbj4yGziwnil53ndbWjwb89ZdMWyzCZuj4e4lT1SUlIp75CLLzabbVMiZB5iJVgxe8PzNA%3D%3D"
+      ],
+      "date": "2026-04-06T06:31:01.770923+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T06:01:10.026523+00:00"
+  "lastUpdated": "2026-04-06T06:31:01.770988+00:00"
 }
