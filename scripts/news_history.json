@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vertex And Crispr Therapeutics Cure Over 1200 Sickle Cell Patients With Single Dose Therapy",
-      "urls": [
-        "https://www.scientificamerican.com/article/10-transformational-health-discoveries-of-2025",
-        "https://www.science.org/content/article/scienceadviser-all-breakthroughs-2025-what-topped-science-s-list"
-      ],
-      "date": "2026-03-27T07:34:24.492675+00:00"
-    },
-    {
-      "title": "LiveNOW From Fox Streams Breaking News To 15 Million Monthly Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=166499a737d266e017e88e8e36236729",
-        "https://www.livenowfox.com"
-      ],
-      "date": "2026-03-27T08:02:29.003807+00:00"
-    },
-    {
       "title": "Ethereum Completes Dencun Upgrade Transitioning Fully to Proof-of-Stake",
       "urls": [
         "https://web3.market/news",
@@ -4843,7 +4827,14 @@
         "https://www.usa.edu/blog/how-ai-is-revolutionizing-healthcare"
       ],
       "date": "2026-04-06T07:31:03.006317+00:00"
+    },
+    {
+      "title": "OHCHR has released a comprehensive report mapping global human rights challenges in the digital age,",
+      "urls": [
+        "https://www.ohchr.org/en/privacy-in-the-digital-age"
+      ],
+      "date": "2026-04-06T08:03:36.658277+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T07:31:03.006381+00:00"
+  "lastUpdated": "2026-04-06T08:03:36.658342+00:00"
 }
