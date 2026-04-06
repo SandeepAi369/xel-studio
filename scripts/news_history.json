@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches AI Studio With Nano Banana For Rapid App Development",
-      "urls": [
-        "https://deepai.org?lang=en",
-        "https://aistudio.google.com"
-      ],
-      "date": "2026-03-27T09:01:28.349063+00:00"
-    },
-    {
       "title": "Kling AI Launches O3 Model For Cinematic Image To Video Conversion",
       "urls": [
         "https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models",
@@ -4843,7 +4835,14 @@
         "https://x.com/GWR?lang=en"
       ],
       "date": "2026-04-06T09:01:18.305434+00:00"
+    },
+    {
+      "title": "Microsoft And IBM AI Tools Transform Learning For Neurodiverse Students",
+      "urls": [
+        "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions"
+      ],
+      "date": "2026-04-06T09:30:59.970724+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T09:01:18.305521+00:00"
+  "lastUpdated": "2026-04-06T09:30:59.970793+00:00"
 }
