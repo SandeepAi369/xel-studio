@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earth's Magnetic Field Weakens 10 Times Faster Since 1840",
-      "urls": [
-        "https://www.livescience.com/news"
-      ],
-      "date": "2026-03-27T20:01:25.209569+00:00"
-    },
-    {
       "title": "Open Source AI Models Surpass Proprietary Systems in Performance",
       "urls": [
         "https://github.blog/open-source/maintainers/from-mcp-to-multi-agents-the-top-10-open-source-ai-projects-on-github-right-now-and-why-they-matter",
@@ -4805,7 +4798,18 @@
         "https://www.theguardian.com/technology/2024/sep/19/social-media-companies-surveillance-ftc"
       ],
       "date": "2026-04-06T20:01:10.817801+00:00"
+    },
+    {
+      "title": "Sentinel-6B Launches On SpaceX Falcon 9 To Monitor Sea Level Rise",
+      "urls": [
+        "https://www.jpl.nasa.gov/news/nasa-spacex-launch-us-european-satellite-to-monitor-earths-oceans",
+        "https://x.com/SpaceX",
+        "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast",
+        "https://www.nasa.gov/blogs/spacestation/2026/02/13/crew-12-falcon-9-first-stage-returns",
+        "https://www.facebook.com/NASA/videos/liftoff-the-artemis-ii-mission-launches-from-nasas-kennedy-space-center-at-635-p/803371852819094"
+      ],
+      "date": "2026-04-06T20:31:02.683629+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T20:01:10.817888+00:00"
+  "lastUpdated": "2026-04-06T20:31:02.683697+00:00"
 }
