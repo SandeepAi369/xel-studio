@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization Launches Mental Health Training Manual With UNICEF",
-      "urls": [
-        "https://www.who.int/news/item/11-07-2025-who-launches-new-foundational-helping-skills-training-manual-to-strengthen-mental-health-support"
-      ],
-      "date": "2026-03-27T00:35:36.867155+00:00"
-    },
-    {
       "title": "Who World Health Organization Launches Global Initiative To Bridge Disability Health Gaps",
       "urls": [
         "https://www.who.int/initiatives/disability-health-equity-initiative"
@@ -4848,7 +4841,15 @@
         "https://www.biologicaldiversity.org/news/breaking"
       ],
       "date": "2026-04-06T00:30:58.199921+00:00"
+    },
+    {
+      "title": "Jordan Stolz Wins 1000m Gold With Olympic Record 1:06 22",
+      "urls": [
+        "https://alaskapublic.org/news/national/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
+        "https://www.foxnews.com/sports/american-olympian-jordan-stolz-sets-olympic-record-captures-gold-1000-meter-race"
+      ],
+      "date": "2026-04-06T01:01:08.919741+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T00:30:58.199977+00:00"
+  "lastUpdated": "2026-04-06T01:01:08.919807+00:00"
 }
