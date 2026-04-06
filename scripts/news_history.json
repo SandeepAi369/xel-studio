@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Foundation Integrates Ray For Scalable AI Training",
-      "urls": [
-        "https://pytorch.org",
-        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
-        "https://www.is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2025-81",
-        "https://keras.io",
-        "https://blog.tensorflow.org"
-      ],
-      "date": "2026-03-27T23:02:36.522512+00:00"
-    },
-    {
       "title": "Tulsi Gabbard Urges Senate Democrats To Mandate Election Audits",
       "urls": [
         "https://twitchy.com/samj/2026/02/03/tulsi-gabbard-statement-to-congress-n2424614",
@@ -4798,7 +4787,15 @@
         "https://www.infoworld.com/article/4145314/how-ai-is-changing-open-source.html"
       ],
       "date": "2026-04-06T23:01:13.826621+00:00"
+    },
+    {
+      "title": "Privacy Rights Project Ranks Tech Giants on User Data Protection",
+      "urls": [
+        "https://www.theguardian.com/sustainable-business/who-protects-digital-privacy-rankings",
+        "https://www.cnbc.com/video/2026/04/02/world-view-ceo-says-peace-without-surveillance-is-just-not-possible-in-the-iranian-region.html"
+      ],
+      "date": "2026-04-06T23:31:00.141530+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T23:01:13.826683+00:00"
+  "lastUpdated": "2026-04-06T23:31:00.141602+00:00"
 }
