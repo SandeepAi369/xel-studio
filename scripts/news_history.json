@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Spans Six Time Zones From Hawaii To Eastern Seaboard",
-      "urls": [
-        "https://time.is/United_States",
-        "https://www.timeanddate.com/worldclock/usa",
-        "https://www.time.gov",
-        "https://usa-time-now.com",
-        "https://www.worldometers.info/time/united-states"
-      ],
-      "date": "2026-03-27T10:07:01.973555+00:00"
-    },
-    {
       "title": "Nvidia And Micron Drop Amid Tech Sell-Off Fueled By Rising Yields",
       "urls": [
         "https://economictimes.indiatimes.com/news/international/us/why-nvidia-micron-tesla-stock-crashing-big-today-nvda-down-1-while-mu-stock-crashes-nearly-5-heres-why-tsla-stock-is-falling-today-amid-oil-surge-and-fed-uncertainty/articleshow/129684125.cms",
@@ -4833,7 +4822,15 @@
         "https://www.prnewswire.com/news-releases/ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology-302534613.html"
       ],
       "date": "2026-04-06T10:01:09.920404+00:00"
+    },
+    {
+      "title": "European Commission Adopts Nature Restoration Law To Heal 20% Of Degraded Ecosystems By 2030",
+      "urls": [
+        "https://www.mofo.com/sustainability-resources/sustainability-corporate-responsibility-news",
+        "https://www.washingtonpost.com/climate-environment/climate-policy"
+      ],
+      "date": "2026-04-06T10:31:08.707487+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T10:01:09.920470+00:00"
+  "lastUpdated": "2026-04-06T10:31:08.707554+00:00"
 }
