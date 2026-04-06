@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Geological Survey Deploys 7000 Sensors To Monitor Quakes",
-      "urls": [
-        "https://ens-eq.usgs.gov",
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtbDBLQUFQAQ"
-      ],
-      "date": "2026-03-27T18:01:41.705774+00:00"
-    },
-    {
       "title": "U.S. Access Board Updates ADA Parking Space Requirements",
       "urls": [
         "https://www.ada.gov",
@@ -4808,7 +4800,16 @@
         "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOopQk7S0ix6ZoGX6CTXUDJI9XXlJ-itM0sx02KwlMl-N8BDkDz7d"
       ],
       "date": "2026-04-06T18:01:11.042572+00:00"
+    },
+    {
+      "title": "Researchers Debunk Quantum Computing Breakthrough With Classical Explanation",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+        "https://www.sciencedaily.com/news/computers_math/quantum_computers",
+        "https://www.youtube.com/watch?v=BrtT2P-LyW0"
+      ],
+      "date": "2026-04-06T18:31:16.153238+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T18:01:11.042638+00:00"
+  "lastUpdated": "2026-04-06T18:31:16.153304+00:00"
 }
