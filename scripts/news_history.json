@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Access Board Updates ADA Parking Space Requirements",
-      "urls": [
-        "https://www.ada.gov",
-        "https://www.access-board.gov",
-        "https://www.definitions.net/definition/accessible",
-        "https://www.collinsdictionary.com/us/dictionary/english/accessible"
-      ],
-      "date": "2026-03-27T18:32:40.812515+00:00"
-    },
-    {
       "title": "Drugs Com Launches Enhanced Interaction Checker For 25 000 Medications",
       "urls": [
         "https://www.drugs.com/drug_interactions.html",
@@ -4809,7 +4799,15 @@
         "https://www.youtube.com/watch?v=BrtT2P-LyW0"
       ],
       "date": "2026-04-06T18:31:16.153238+00:00"
+    },
+    {
+      "title": "Google's Veo 3 Generates Hyperrealistic Videos With Synchronized Sound",
+      "urls": [
+        "https://www.youtube.com/watch?v=ETeL0mYJxQs",
+        "https://theweek.com/tech/unreal-quantum-leap-ai-video-google"
+      ],
+      "date": "2026-04-06T19:01:22.668569+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T18:31:16.153304+00:00"
+  "lastUpdated": "2026-04-06T19:01:22.668635+00:00"
 }
