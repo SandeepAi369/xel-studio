@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who Alcohol Causes 2.6 Million Deaths Annually Worldwide",
-      "urls": [
-        "https://www.who.int/news/item/25-06-2024-over-3-million-annual-deaths-due-to-alcohol-and-drug-use-majority-among-men"
-      ],
-      "date": "2026-03-27T01:32:31.080480+00:00"
-    },
-    {
       "title": "Mayo Clinic Advances Autism Care With Early Diagnosis And Personalized Therapies",
       "urls": [
         "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
@@ -4855,7 +4848,14 @@
         "https://www.weather.gov/ict/event_20240604"
       ],
       "date": "2026-04-06T01:31:01.880819+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts Over 800000 Models Including Qwen And DeepSeek",
+      "urls": [
+        "https://www.youtube.com/watch?v=8dmZRDVWsiQ"
+      ],
+      "date": "2026-04-06T02:01:06.781994+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T01:31:01.880874+00:00"
+  "lastUpdated": "2026-04-06T02:01:06.782060+00:00"
 }
