@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches App Bundle With Search Chrome Gmail Maps And Drive",
-      "urls": [
-        "https://apps.apple.com/us/app-bundle/best-of-google-bundle/id1814195639"
-      ],
-      "date": "2026-03-27T13:33:33.398372+00:00"
-    },
-    {
-      "title": "Fox News Publishes 150 Daily Stories With 200 Journalists",
-      "urls": [
-        "https://www.foxnews.com?msockid=2f4334514719603337072378464661d4"
-      ],
-      "date": "2026-03-27T14:01:32.211212+00:00"
-    },
-    {
       "title": "Stanford HAI Releases 2025 AI Index Report With Global Insights",
       "urls": [
         "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ",
@@ -4810,7 +4796,14 @@
         "https://mn.gov/deaf-hard-of-hearing/assistive-technology/index.jsp"
       ],
       "date": "2026-04-06T13:31:07.874104+00:00"
+    },
+    {
+      "title": "Solar Power Filled 61% of U.S. Electricity Demand Growth in 2025",
+      "urls": [
+        "https://renews.biz/106333/solar-powers-majority-of-rising-us-electricity-demand"
+      ],
+      "date": "2026-04-06T14:04:59.974498+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T13:31:07.874167+00:00"
+  "lastUpdated": "2026-04-06T14:04:59.974553+00:00"
 }
