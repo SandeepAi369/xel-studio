@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Digital Expands Global Coverage With 50 New Journalists",
-      "urls": [
-        "https://www.foxnews.com?msockid=21ccfab8d83165133d2ced91d9af64ef"
-      ],
-      "date": "2026-03-27T17:09:26.903506+00:00"
-    },
-    {
       "title": "Iran Conflict Raises Energy Costs, Delays Global AI Expansion",
       "urls": [
         "https://economictimes.indiatimes.com/news/defence/from-oil-shock-to-algo-shock-iran-war-is-shaking-ai-industry/articleshow/129829006.cms",
@@ -4816,7 +4809,15 @@
         "https://www.blockchain.com/explorer/news"
       ],
       "date": "2026-04-06T17:02:28.787285+00:00"
+    },
+    {
+      "title": "Anthropic Abandons AI Safety Pledge Amid Rapid Deployment Push",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1rem4td/anthropic_ditches_its_core_safety_promise_in_the",
+        "https://www.youtube.com/watch?v=aAPpQC-3EyE"
+      ],
+      "date": "2026-04-06T17:31:00.958071+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T17:02:28.787363+00:00"
+  "lastUpdated": "2026-04-06T17:31:00.958142+00:00"
 }
