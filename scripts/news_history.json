@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates a digital publishing network producing high-volume content across U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=354e8372878567431996945b86bc66ee"
-      ],
-      "date": "2026-03-27T13:02:03.400715+00:00"
-    },
-    {
       "title": "Google Launches App Bundle With Search Chrome Gmail Maps And Drive",
       "urls": [
         "https://apps.apple.com/us/app-bundle/best-of-google-bundle/id1814195639"
@@ -4806,7 +4799,18 @@
         "https://www.youtube.com/watch?v=8hCGb6aQHn4"
       ],
       "date": "2026-04-06T13:01:28.243528+00:00"
+    },
+    {
+      "title": "InnoCaption Launches Real-Time Captioning Service For Deaf And Hard-Of-Hearing Users",
+      "urls": [
+        "https://csd.org/stories/the-importance-of-accessible-technology-in-everyday-life",
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooMuW_k2pJ-daQpUrJkpvk-tskrwx28B5rXrW3ZmIydVnvuODTh",
+        "https://rutartan.com/news/the-future-of-accessibility-a-new-role-of-ai-powered-technology-for-people-with-disabilities",
+        "https://www.youtube.com/watch?v=xvGtT3Ench4",
+        "https://mn.gov/deaf-hard-of-hearing/assistive-technology/index.jsp"
+      ],
+      "date": "2026-04-06T13:31:07.874104+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T13:01:28.243681+00:00"
+  "lastUpdated": "2026-04-06T13:31:07.874167+00:00"
 }
