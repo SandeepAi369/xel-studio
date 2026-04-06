@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "City Of Littleton Deploys Extreme Networks For Citywide Connectivity Upgrade",
-      "urls": [
-        "https://www.extremenetworks.com/resources/case-study/city-of-littleton-colorado-takes-network-management-to-the-extreme"
-      ],
-      "date": "2026-03-27T16:02:45.596752+00:00"
-    },
-    {
       "title": "International LT Sets New Standard With Best-In-Class Aerodynamics",
       "urls": [
         "https://mexico.internationaltrucks.com/tractocamion-lt"
@@ -4816,7 +4809,14 @@
         "https://www.youtube.com/watch?v=iALI7plJhLs"
       ],
       "date": "2026-04-06T16:02:24.445838+00:00"
+    },
+    {
+      "title": "Hugging Face has launched AI Sheets, an open-source no-code application that enables users to build,",
+      "urls": [
+        "https://www.infoq.com/news/2025/09/ai-sheets"
+      ],
+      "date": "2026-04-06T16:31:04.890233+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T16:02:24.445904+00:00"
+  "lastUpdated": "2026-04-06T16:31:04.890293+00:00"
 }
