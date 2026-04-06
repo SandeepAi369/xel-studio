@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford HAI Releases 2025 AI Index Report With 37% Growth In Publications",
-      "urls": [
-        "https://hai.stanford.edu/ai-index/2025-ai-index-report"
-      ],
-      "date": "2026-03-26T23:34:33.607044+00:00"
-    },
-    {
       "title": "Daily Jumble Challenges 600 Newspapers With Word Puzzles",
       "urls": [
         "https://jumbleanswers.com/jumble/bnori-daily-jumble",
@@ -4849,7 +4842,14 @@
         "https://www.innovationnewsnetwork.com/ai-in-healthcare-better-diagnosis-and-care/65827"
       ],
       "date": "2026-04-05T23:30:57.255648+00:00"
+    },
+    {
+      "title": "Meta Launches Llama 4 Outperforming Google Gemma 3 And Mistral 3.1",
+      "urls": [
+        "https://www.ndtvprofit.com/technology/llama-4-meta-claims-latest-open-source-ai-model-beats-google-openai-models-9864559"
+      ],
+      "date": "2026-04-06T00:01:19.063165+00:00"
     }
   ],
-  "lastUpdated": "2026-04-05T23:30:57.255713+00:00"
+  "lastUpdated": "2026-04-06T00:01:19.063237+00:00"
 }
