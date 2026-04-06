@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kling AI Launches O3 Model For Cinematic Image To Video Conversion",
-      "urls": [
-        "https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models",
-        "https://www.msn.com/en-us/news/technology/bytedance-s-new-ai-video-generation-model-dreamina-seedance-20-comes-to-capcut/ar-AA1Zt3nS",
-        "https://www.eweek.com/news/adobe-firefly-custom-ai-models-image-video-generation",
-        "https://www.toolify.ai/ai-news/ai-video-generation-latest-advances-top-tools-in-2025-3350185",
-        "https://aiexotic.com/blog/kling-o3-model-launches-cinematic-image-to-video-ai-powerhouse",
-        "https://www.nbcnews.com/tech/tech-news/openai-shuttering-sora-video-generating-service-rcna264989",
-        "https://www.gadgets360.com/ai/news/meta-three-new-ai-models-under-development-image-video-coding-generation-world-model-report-9845658",
-        "https://pixeldojo.ai/industry-news/advancements-in-ai-image-and-video-generation-a-deep-dive-into-recent-developments",
-        "https://www.forbes.com/sites/anjanasusarla/2025/11/03/are-we-ready-for-the-tidal-wave-of-ai-generated-video",
-        "https://gaga.art/blog/ai-video-generation-model"
-      ],
-      "date": "2026-03-27T09:31:25.254936+00:00"
-    },
-    {
       "title": "United States Spans Six Time Zones From Hawaii To Eastern Seaboard",
       "urls": [
         "https://time.is/United_States",
@@ -4842,7 +4826,14 @@
         "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions"
       ],
       "date": "2026-04-06T09:30:59.970724+00:00"
+    },
+    {
+      "title": "IBM And NASA Launch Surya AI To Predict Solar Weather",
+      "urls": [
+        "https://www.prnewswire.com/news-releases/ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology-302534613.html"
+      ],
+      "date": "2026-04-06T10:01:09.920404+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T09:30:59.970793+00:00"
+  "lastUpdated": "2026-04-06T10:01:09.920470+00:00"
 }
