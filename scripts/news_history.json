@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Advances Autism Care With Early Diagnosis And Personalized Therapies",
-      "urls": [
-        "https://www.mayoclinic.org/ar/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934"
-      ],
-      "date": "2026-03-27T02:03:32.815441+00:00"
-    },
-    {
       "title": "YouTube Launches in 2005 With Founding Team From PayPal",
       "urls": [
         "https://www.youtube.com",
@@ -4855,7 +4848,14 @@
         "https://www.youtube.com/watch?v=8dmZRDVWsiQ"
       ],
       "date": "2026-04-06T02:01:06.781994+00:00"
+    },
+    {
+      "title": "Congressional Research Service Report Highlights AI Advancements in U.S. Health Care",
+      "urls": [
+        "https://www.congress.gov/crs-product/R48319"
+      ],
+      "date": "2026-04-06T02:30:58.413527+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T02:01:06.782060+00:00"
+  "lastUpdated": "2026-04-06T02:30:58.413622+00:00"
 }
