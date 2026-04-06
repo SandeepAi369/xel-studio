@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andy Beshear Expands Medicaid For 500000 Kentuckians",
-      "urls": [
-        "https://www.nbcnews.com/politics/elections",
-        "https://thehill.com",
-        "https://www.politico.com",
-        "https://www.npr.org/sections/politics"
-      ],
-      "date": "2026-03-27T22:32:23.677587+00:00"
-    },
-    {
       "title": "PyTorch Foundation Integrates Ray For Scalable AI Training",
       "urls": [
         "https://pytorch.org",
@@ -4800,7 +4790,15 @@
         "https://www.youtube.com/watch?v=mExpCgQ9IJw"
       ],
       "date": "2026-04-06T22:31:00.736073+00:00"
+    },
+    {
+      "title": "Open Source AI Grows With Global Developer Collaboration",
+      "urls": [
+        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
+        "https://www.infoworld.com/article/4145314/how-ai-is-changing-open-source.html"
+      ],
+      "date": "2026-04-06T23:01:13.826621+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T22:31:00.736136+00:00"
+  "lastUpdated": "2026-04-06T23:01:13.826683+00:00"
 }
