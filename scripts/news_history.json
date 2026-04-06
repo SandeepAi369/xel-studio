@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Users Targeted by Sophisticated Phishing Scams Mimicking Security Alerts",
-      "urls": [
-        "https://discussions.apple.com/thread/256192348"
-      ],
-      "date": "2026-03-27T04:02:25.869946+00:00"
-    },
-    {
       "title": "United States Admits 100060 Refugees In 2024 Resettlement Surge",
       "urls": [
         "https://otda.ny.gov/programs/bria/programs.asp",
@@ -4854,7 +4847,15 @@
         "https://www.bloomberg.com/economics-v2"
       ],
       "date": "2026-04-06T04:01:09.141263+00:00"
+    },
+    {
+      "title": "Maria José Marin Wins Augusta National Women's Amateur At 12-Under Par",
+      "urls": [
+        "https://apnews.com/sports",
+        "https://www.foxsports.com.au"
+      ],
+      "date": "2026-04-06T04:31:01.237653+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T04:01:09.141322+00:00"
+  "lastUpdated": "2026-04-06T04:31:01.237715+00:00"
 }
