@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drugs Com Launches Enhanced Interaction Checker For 25 000 Medications",
-      "urls": [
-        "https://www.drugs.com/drug_interactions.html",
-        "https://www.drugs.com/pill_identification.html",
-        "https://www.drugs.com/condition/drug-and-substance-abuse.html",
-        "https://www.drugs.com/medical-answers/glp-1-drug-best-weight-loss-3579236"
-      ],
-      "date": "2026-03-27T19:01:35.766089+00:00"
-    },
-    {
       "title": "Who Updates TB Treatment Guidelines for 180 Countries Using New 6-Month Regimen",
       "urls": [
         "https://www.who.int/publications/i/item/9789240107243"
@@ -4807,7 +4797,14 @@
         "https://theweek.com/tech/unreal-quantum-leap-ai-video-google"
       ],
       "date": "2026-04-06T19:01:22.668569+00:00"
+    },
+    {
+      "title": "Quinnipiac Students Develop AI Navigation Tool For Visually Impaired",
+      "urls": [
+        "https://www.youtube.com/watch?v=hYAXsUaqD88"
+      ],
+      "date": "2026-04-06T19:31:01.745110+00:00"
     }
   ],
-  "lastUpdated": "2026-04-06T19:01:22.668635+00:00"
+  "lastUpdated": "2026-04-06T19:31:01.745164+00:00"
 }
