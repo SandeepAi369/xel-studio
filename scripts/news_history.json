@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Unveils Seven-Point AI Regulation Framework",
-      "urls": [
-        "https://federalnewsnetwork.com/acquisition-policy/2026/03/gsas-new-ai-clause-drives-contractors-to-sound-the-alarm",
-        "https://natlawreview.com/article/trump-administration-unveils-new-ai-policy-framework-calling-congress-act",
-        "https://cset.georgetown.edu/article/unpacking-the-white-house-national-policy-framework-for-ai",
-        "https://www.politico.com/news/2026/03/20/white-house-releases-ai-policy-blueprint-for-congress-00837354",
-        "https://www.nextgov.com/artificial-intelligence/2026/03/white-house-releases-regulatory-vision-ai/412274",
-        "https://www.congress.gov/crs-product/R48555",
-        "https://www.gao.gov/products/gao-25-107933",
-        "https://www.index.dev/blog/ai-regulations-and-policy-updates-us-eu-asia"
-      ],
-      "date": "2026-03-28T11:01:32.109729+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-5 With 40% Improved Contextual Accuracy",
       "urls": [
         "https://www.zhihu.com/question/1936975185833096194",
@@ -4751,7 +4737,16 @@
         "https://yaleclimateconnections.org/2025/07/devastating-flash-floods-slam-texas-hill-country-tropical-storm-chantal-heads-for-carolinas"
       ],
       "date": "2026-04-07T10:34:32.108276+00:00"
+    },
+    {
+      "title": "Apple Beats Forecasts With $90.8 Billion Revenue Driven By iPhone Sales",
+      "urls": [
+        "https://www.investopedia.com/tech-earnings-live-stocks-msft-meta-tsla-aapl-ibm-01292026-11895205",
+        "https://www.investors.com/technology",
+        "https://finance.yahoo.com/topic/tech"
+      ],
+      "date": "2026-04-07T11:01:36.613910+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T10:34:32.108341+00:00"
+  "lastUpdated": "2026-04-07T11:01:36.613975+00:00"
 }
