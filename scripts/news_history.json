@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT-5 With 40% Improved Contextual Accuracy",
-      "urls": [
-        "https://www.zhihu.com/question/1936975185833096194",
-        "https://www.zhihu.com/question/1936231771294376320",
-        "https://www.zhihu.com/question/594290080",
-        "https://www.zhihu.com?lang=zh-Hant",
-        "https://www.zhihu.com/question/62147169",
-        "https://www.zhihu.com/question/26346098",
-        "https://www.zhihu.com/question/284715281",
-        "https://www.zhihu.com/question/28957092"
-      ],
-      "date": "2026-03-28T11:31:13.386659+00:00"
-    },
-    {
       "title": "Meta AI Launches Real-Time Voice And Photo Sharing Across Facebook Instagram WhatsApp",
       "urls": [
         "https://about.fb.com/news/2024/09/metas-ai-product-news-connect"
@@ -4746,7 +4732,17 @@
         "https://finance.yahoo.com/topic/tech"
       ],
       "date": "2026-04-07T11:01:36.613910+00:00"
+    },
+    {
+      "title": "U.S. Drafts Global Licensing Rule for AI Chip Exports",
+      "urls": [
+        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43?gaa_at=eafs&gaa_n=AWEtsqcVHIaENAabl4Q7cWmoXy-mmd0ANmowK_z7QdpPEwxb5zpzvL0m8WMs&gaa_ts=69d4ee77&gaa_sig=MP4Rp9SCf1sr6SbBfQiV7dB7KdwoNGNTLIEKwKOrIzaZuZ-x1fYVjxABjxygTJj9pwk-wW6swP5XrvOhwnjACg%3D%3D",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales",
+        "https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia",
+        "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us"
+      ],
+      "date": "2026-04-07T11:31:32.110153+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T11:01:36.613975+00:00"
+  "lastUpdated": "2026-04-07T11:31:32.110219+00:00"
 }
