@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Org Lists 24 Distros For Beginners And Experts",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://www.linux.org",
-        "https://www.linux.org/forums",
-        "https://www.linux.org/forums/linux-beginner-tutorials.123",
-        "https://www.linux.org/whats-new",
-        "https://www.linux.org/threads/winux-11-a-linux-distribution-designed-for-windows-users.58122",
-        "https://www.linux.org/forums/installation.175",
-        "https://www.linux.org/threads/what-is-linux.4106",
-        "https://askubuntu.com/questions/401920/what-does-or-double-angle-brackets-mean",
-        "https://www.linux.org/threads/try-linux-in-your-browser-for-free.46050"
-      ],
-      "date": "2026-03-28T09:32:14.495485+00:00"
-    },
-    {
       "title": "San Jose Approves $450 Million For 3,200 Affordable Housing Units",
       "urls": [
         "https://www.foxnews.com?msockid=0a5e2ab7e7d263fa23423d9de6016240",
@@ -4764,7 +4748,14 @@
         "https://www.cnn.com/politics"
       ],
       "date": "2026-04-07T09:31:11.624246+00:00"
+    },
+    {
+      "title": "PyTorch\nis favored by researchers for its intuitive debugging using standard Python tools like pdb, ",
+      "urls": [
+        "https://blackthorn-vision.com/blog/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-04-07T10:02:01.496444+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T09:31:11.624316+00:00"
+  "lastUpdated": "2026-04-07T10:02:01.496511+00:00"
 }
