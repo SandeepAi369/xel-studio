@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare.gov Updates Platform To Streamline Medicaid And CHIP Reenrollment",
-      "urls": [
-        "https://www.healthcare.gov/screener/sep/medicaid-loss",
-        "https://www.healthcare.gov/screener/income/next-steps?prev=income"
-      ],
-      "date": "2026-03-28T21:01:38.636309+00:00"
-    },
-    {
       "title": "European Publics Doubt U.S. Reliability Under Trump Presidency",
       "urls": [
         "https://www.economist.com/topics/geopolitics",
@@ -4720,7 +4712,14 @@
         "https://spacelaunchnow.me"
       ],
       "date": "2026-04-07T20:33:30.742306+00:00"
+    },
+    {
+      "title": "Carl Lewis Nearly Lost Olympic Gold After Teammate's Doping Violation",
+      "urls": [
+        "https://people.com/olympic-athletes-stripped-of-medals-11906807"
+      ],
+      "date": "2026-04-07T21:02:14.084025+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T20:33:30.742378+00:00"
+  "lastUpdated": "2026-04-07T21:02:14.084084+00:00"
 }
