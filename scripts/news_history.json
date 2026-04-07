@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Agility Robotics Deploys Digit Humanoid In Warehouse Trials",
-      "urls": [
-        "https://spectrum.ieee.org/topic/robotics"
-      ],
-      "date": "2026-03-28T07:03:42.011043+00:00"
-    },
-    {
       "title": "Google Launches New AI Model To Enhance Machine Learning Accuracy",
       "urls": [
         "https://openai.com",
@@ -4762,7 +4755,15 @@
         "https://www.youtube.com/watch?v=6Wua_toUiQw"
       ],
       "date": "2026-04-07T07:01:37.864268+00:00"
+    },
+    {
+      "title": "Enterprises Forecast 20 Percent AI Workload Surge by 2025",
+      "urls": [
+        "https://aibusiness.com/verticals/cloud-computing",
+        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqf6LW1PVfq2nZeoksMMmu2l3b28AHbFmNtXUO_LSem_B0gISb7_DsmO&gaa_ts=69d4b670&gaa_sig=Dmtkfio3QHOn1WctQ7P_snQ8f-P-dWCS5mugpMrCmPhYacRwVdoRthmC02Kw6VgaY0-vSG6nDkPdHclF3TdhWA%3D%3D"
+      ],
+      "date": "2026-04-07T07:32:03.889280+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T07:01:37.864329+00:00"
+  "lastUpdated": "2026-04-07T07:32:03.889357+00:00"
 }
