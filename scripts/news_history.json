@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eu Commission Mandates Real-Time Data Access For Meta Google Amazon",
-      "urls": [
-        "https://stateofsurveillance.org/news",
-        "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data",
-        "https://iapp.org/news",
-        "https://natlawreview.com/article/br-privacy-security-download-november-2025",
-        "https://techcrunch.com/category/privacy",
-        "https://www.context.news/surveillance",
-        "https://www.diplopolis.com/conflict-security/death-of-privacy-how-digital-surveillance-is-reshaping-international-relations-and-state-power",
-        "https://www.cpomagazine.com/news",
-        "https://www.sciencenewstoday.org/the-future-of-digital-privacy-can-we-protect-our-data"
-      ],
-      "date": "2026-03-28T15:01:44.267624+00:00"
-    },
-    {
       "title": "California Enacts SB 53 To Regulate High Risk AI Systems",
       "urls": [
         "https://natlawreview.com/article/artificial-intelligence-legislative-update",
@@ -4741,7 +4726,14 @@
         "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
       ],
       "date": "2026-04-07T14:39:04.788007+00:00"
+    },
+    {
+      "title": "Texas ERCOT grid set all-time records for wind, solar, and battery discharge in early March 2025, ma",
+      "urls": [
+        "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
+      ],
+      "date": "2026-04-07T15:04:56.299593+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T14:39:04.788081+00:00"
+  "lastUpdated": "2026-04-07T15:04:56.299657+00:00"
 }
