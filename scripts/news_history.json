@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Media Advocates Demand Meta Overhaul After Landmark Rulings",
-      "urls": [
-        "https://www.cnn.com/2026/03/28/tech/social-media-verdict-advocates-hope-for-changes",
-        "https://www.cnbc.com/social-media?msockid=139c7238e2b66b6b02246512e3fc6a76"
-      ],
-      "date": "2026-03-28T19:32:27.690616+00:00"
-    },
-    {
       "title": "JumbleAnswers Com Solves Daily Jumble Puzzles With Cartoon Clues",
       "urls": [
         "https://jumbleanswers.com",
@@ -4722,7 +4714,15 @@
         "https://www.ycombinator.com/companies/industry/generative-ai"
       ],
       "date": "2026-04-07T19:31:23.176072+00:00"
+    },
+    {
+      "title": "UNHCR reports a significant rise in global displacement, with over 110 million people forcibly displ",
+      "urls": [
+        "https://www.theguardian.com/world/refugees",
+        "https://www.unhcr.org/global-trends"
+      ],
+      "date": "2026-04-07T20:01:28.666101+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T19:31:23.176163+00:00"
+  "lastUpdated": "2026-04-07T20:01:28.666172+00:00"
 }
