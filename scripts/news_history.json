@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Guinness World Records Celebrates 70 Years Of Global Achievements",
-      "urls": [
-        "https://www.guinnessworldrecords.com/news/sports-and-fitness",
-        "https://www.nobleworldrecords.net/newsarticles.html",
-        "https://worldsporty.com/global-sports-news/recent-records-broken-global-sports",
-        "https://newspeas.com/breaking-records-the-latest-achievements-in-sports-and-athletics",
-        "https://globalsportswatch.com/archives/264",
-        "https://www.cbsnews.com/tag/guinness-world-records",
-        "https://www.espn.com/espn/latestnews",
-        "https://champstory.com/record-breaking-performances-the-top-sports-news-highlights-of-the-week"
-      ],
-      "date": "2026-03-28T05:04:37.351725+00:00"
-    },
-    {
       "title": "Chicago Ensures Accessibility For 1.9 Million Residents With Disabilities",
       "urls": [
         "https://www.chicago.gov/city/en/depts/mopd/supp_info/accessibilitycitywide.html"
@@ -4767,7 +4753,16 @@
         "https://www.youtube.com/watch?v=uumBW1bMJaI"
       ],
       "date": "2026-04-07T05:01:11.026778+00:00"
+    },
+    {
+      "title": "Gerard Quinn Urges AI Developers to Prioritize Disability Inclusion",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://www.science.org/doi/10.1126/science.aea4918",
+        "https://www.youtube.com/watch?v=Uh-t8pTErm4"
+      ],
+      "date": "2026-04-07T05:31:17.182526+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T05:01:11.026839+00:00"
+  "lastUpdated": "2026-04-07T05:31:17.182611+00:00"
 }
