@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Publics Doubt U.S. Reliability Under Trump Presidency",
-      "urls": [
-        "https://www.economist.com/topics/geopolitics",
-        "https://fiveable.me/introduction-world-geography/key-terms/geopolitics",
-        "https://dictionary.cambridge.org/dictionary/english/geopolitical",
-        "https://www.merriam-webster.com/dictionary/geopolitics",
-        "https://theconversation.com/topics/geopolitics-4230"
-      ],
-      "date": "2026-03-28T21:31:14.208146+00:00"
-    },
-    {
       "title": "OpenAI Tests GPT 4.5 Turbo For Enhanced Reasoning And Efficiency",
       "urls": [
         "https://www.reddit.com/r/OpenAI",
@@ -4726,7 +4715,14 @@
         "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
       ],
       "date": "2026-04-07T21:31:04.707067+00:00"
+    },
+    {
+      "title": "Go Developers Express Limited Satisfaction With AI Coding Tools",
+      "urls": [
+        "https://www.infoworld.com/article/4121617/go-developers-meh-on-ai-coding-tools-survey.html"
+      ],
+      "date": "2026-04-07T22:01:15.335902+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T21:31:04.707129+00:00"
+  "lastUpdated": "2026-04-07T22:01:15.335961+00:00"
 }
