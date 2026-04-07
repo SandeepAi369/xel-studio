@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI GPT And Google Gemini Lead Generative AI Revolution",
-      "urls": [
-        "https://scienceinsights.org/what-is-a-generative-model-types-and-how-they-work",
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=2d8eb831c5746bd612f7af1bc4a36a26",
-        "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
-      ],
-      "date": "2026-03-28T01:01:23.335977+00:00"
-    },
-    {
       "title": "Mental Health America Study Finds 68 Percent Use Apps To Manage Symptoms",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079407",
@@ -4786,7 +4777,15 @@
         "https://www.youtube.com/watch?v=M8BPeV17mHA"
       ],
       "date": "2026-04-07T01:01:07.948157+00:00"
+    },
+    {
+      "title": "Roblox Launches Two AI Tools For 3D Game Creation",
+      "urls": [
+        "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
+        "https://futurense.com/blog/gen-ai-tools"
+      ],
+      "date": "2026-04-07T01:31:02.262278+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T01:01:07.948223+00:00"
+  "lastUpdated": "2026-04-07T01:31:02.262340+00:00"
 }
