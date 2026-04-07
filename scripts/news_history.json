@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ronnie O'Sullivan Smashes World Record With 153-Break Against Ryan Day",
-      "urls": [
-        "https://www.newsbreak.com/trending/top/world-record-achievements-news",
-        "https://www.foxnews.com/sports?msockid=1caf370aa954637613dd2020a8dc6258",
-        "https://www.cnn.com/sport",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtWnlHZ0pEU0NnQVAB?hl=en-US&ceid=US%3Aen",
-        "https://www.msn.com/en-in/news/world/ronnie-o-sullivan-achieves-record-breaking-153-break-in-snooker/ar-AA1Z3Y3P",
-        "https://worldathletics.org/competitions/world-athletics-indoor-championships/kujawypomorze26/news/press-releases/record-breaking-kujawy-pomorze-26-benchmark-global-season"
-      ],
-      "date": "2026-03-28T02:31:13.499626+00:00"
-    },
-    {
       "title": "Mit And Hasso Plattner Institute Launch Joint Ai Creativity Hub",
       "urls": [
         "https://news.mit.edu/topic/artificial-intelligence2",
@@ -4780,7 +4768,16 @@
         "https://tech-drop.io/gaming-competition-news-breaking-major-championship-unveils-dramatic-format-overhaul-and-record-prize-award-2"
       ],
       "date": "2026-04-07T02:31:01.425847+00:00"
+    },
+    {
+      "title": "ITI Releases Policy Paper to Align Trade Rules With AI Advancements",
+      "urls": [
+        "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
+        "https://www.wto.org/english/news_e/news24_e/publ_21nov24_e.htm",
+        "https://internationaltradetoday.com"
+      ],
+      "date": "2026-04-07T03:01:17.441982+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T02:31:01.425921+00:00"
+  "lastUpdated": "2026-04-07T03:01:17.442052+00:00"
 }
