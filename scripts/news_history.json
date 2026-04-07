@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "CBS News Produces 120 Original Reports Daily With Global Teams",
-      "urls": [
-        "https://www.cbsnews.com",
-        "https://www.foxnews.com?msockid=0f2694d16be8670c104583fb6a89668a",
-        "https://apnews.com",
-        "https://www.nbcnews.com",
-        "https://www.cnn.com",
-        "https://abcnews.com",
-        "https://www.bbc.com/news",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
-        "https://news.yahoo.com"
-      ],
-      "date": "2026-03-28T00:02:38.665540+00:00"
-    },
-    {
       "title": "Extreme And Living Colour Announce 25-Show 2024 U.S. Tour",
       "urls": [
         "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=05c2b27143f66c1d242ba55b42166dc4",
@@ -4793,7 +4778,15 @@
         "https://www.newsnationnow.com/us-news/sports"
       ],
       "date": "2026-04-07T00:01:11.382482+00:00"
+    },
+    {
+      "title": "MIT Study Links Corporate Green Initiatives To Uneven Air Quality Outcomes",
+      "urls": [
+        "https://www.cnbc.com/climate-policy",
+        "https://news.mit.edu/2025/when-companies-go-green-air-quality-impacts-can-vary-dramatically-1208"
+      ],
+      "date": "2026-04-07T00:31:00.723761+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T00:01:11.382545+00:00"
+  "lastUpdated": "2026-04-07T00:31:00.723830+00:00"
 }
