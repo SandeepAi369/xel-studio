@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mit And Hasso Plattner Institute Launch Joint Ai Creativity Hub",
-      "urls": [
-        "https://news.mit.edu/topic/artificial-intelligence2",
-        "https://stackoverflow.com/ai-assist",
-        "https://news.mit.edu/2025/ai-tool-generates-high-quality-images-faster-0321",
-        "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
-        "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708"
-      ],
-      "date": "2026-03-28T03:01:24.355715+00:00"
-    },
-    {
       "title": "Social Security Expands My Social Security Portal For 70 Million Users",
       "urls": [
         "https://www.ssa.gov/myaccount",
@@ -4777,7 +4766,14 @@
         "https://internationaltradetoday.com"
       ],
       "date": "2026-04-07T03:01:17.441982+00:00"
+    },
+    {
+      "title": "Artemis II Crew Orbits Moon At 6500 Miles",
+      "urls": [
+        "https://www.livescience.com/news"
+      ],
+      "date": "2026-04-07T03:30:58.122877+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T03:01:17.442052+00:00"
+  "lastUpdated": "2026-04-07T03:30:58.122940+00:00"
 }
