@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "JumbleAnswers Com Solves Daily Jumble Puzzles With Cartoon Clues",
-      "urls": [
-        "https://jumbleanswers.com",
-        "https://jumbleanswers.com/volne-jumble"
-      ],
-      "date": "2026-03-28T20:02:38.365358+00:00"
-    },
-    {
-      "title": "Mistral Nemo Launches With Strong Performance But Minimal Safety Auditing",
-      "urls": [
-        "https://www.zhihu.com/question/655616250"
-      ],
-      "date": "2026-03-28T20:33:16.215945+00:00"
-    },
-    {
       "title": "HealthCare.gov Updates Platform To Streamline Medicaid And CHIP Reenrollment",
       "urls": [
         "https://www.healthcare.gov/screener/sep/medicaid-loss",
@@ -4722,7 +4707,20 @@
         "https://www.unhcr.org/global-trends"
       ],
       "date": "2026-04-07T20:01:28.666101+00:00"
+    },
+    {
+      "title": "SpaceX Launches 25 Starlink Satellites From California",
+      "urls": [
+        "https://blogs.nasa.gov/spacex",
+        "https://spaceflightnow.com",
+        "https://eu.floridatoday.com/story/tech/science/space/2026/04/01/rocket-launch-schedule-coming-up-in-april-from-cape-canaveral-florida-and-nasa-kennedy-space-center/89418850007",
+        "https://rocketlaunch.org",
+        "https://www.cbs8.com/article/news/local/spacex-falcon-9-rocket-launch-vandenberg-california-space-force-base-starlink/509-981ee716-8c29-4adc-aafc-60c2fb582cb1",
+        "https://en.wikipedia.org/wiki/SpaceX",
+        "https://spacelaunchnow.me"
+      ],
+      "date": "2026-04-07T20:33:30.742306+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T20:01:28.666172+00:00"
+  "lastUpdated": "2026-04-07T20:33:30.742378+00:00"
 }
