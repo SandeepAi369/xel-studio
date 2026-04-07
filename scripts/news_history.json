@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "San Jose Approves $450 Million For 3,200 Affordable Housing Units",
-      "urls": [
-        "https://www.foxnews.com?msockid=0a5e2ab7e7d263fa23423d9de6016240",
-        "https://www.newsbreak.com/san-jose-ca"
-      ],
-      "date": "2026-03-28T10:03:36.242661+00:00"
-    },
-    {
-      "title": "Nvidia Dominates AI Chip Market With Blackwell GPUs",
-      "urls": [
-        "https://www.newscase.com/the-ai-chip-race-nvidia-and-amd-battle-for-semiconductor-supremacy",
-        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales",
-        "https://www.techradar.com/pro/nvidia-ai-sales-to-reach-almost-usd400-billion-by-2028-claims-research-and-then-things-will-get-a-bit-tricky-for-the-worlds-largest-company",
-        "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-20-chip-sector-pressure-intel-and-amd-falter-as-great-rotation-and-new-rivals-reshape-the-market"
-      ],
-      "date": "2026-03-28T10:31:20.645560+00:00"
-    },
-    {
       "title": "White House Unveils Seven-Point AI Regulation Framework",
       "urls": [
         "https://federalnewsnetwork.com/acquisition-policy/2026/03/gsas-new-ai-clause-drives-contractors-to-sound-the-alarm",
@@ -4755,7 +4736,22 @@
         "https://blackthorn-vision.com/blog/pytorch-vs-tensorflow"
       ],
       "date": "2026-04-07T10:02:01.496444+00:00"
+    },
+    {
+      "title": "Texas Hill Country experienced catastrophic flash flooding after historic rainfall overwhelmed the G",
+      "urls": [
+        "https://www.facebook.com/fijivillage/posts/fijivillageonrecord-with-vijay-narayan-5pm-7th-april-2026-expect-heavy-rain-flas/1302834845327772",
+        "https://www.facebook.com/plantationisland/posts/update-7-april-2026-at-530pm-fjtfiji-is-currently-being-affected-by-category-3-t/1363065509191843",
+        "https://www.facebook.com/VoxWeather/posts/weather-maps-and-warnings-for-tuesday-07-april-2026%EF%B8%8F-much-cooler-and-cloudy-in-t/951627887222961",
+        "https://www.facebook.com/SLMetDept/posts/warm-weather-advisoryissued-by-the-natural-hazards-early-warning-centreissued-at/1265073895813089",
+        "https://www.facebook.com/FoxWeather/videos/state-of-emergency-declared-in-kansas-after-torrential-rains-trigger-flash-flood/2019586975442333",
+        "https://www.cnn.com/2025/07/04/weather/storm-three-chantal-track-forecast",
+        "https://weather.com/storms/severe/news/2025-07-04-deadly-flash-flood-emergency-central-texas",
+        "https://www.foxweather.com/watch/fmc-drnlbn6huzavbkl0",
+        "https://yaleclimateconnections.org/2025/07/devastating-flash-floods-slam-texas-hill-country-tropical-storm-chantal-heads-for-carolinas"
+      ],
+      "date": "2026-04-07T10:34:32.108276+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T10:02:01.496511+00:00"
+  "lastUpdated": "2026-04-07T10:34:32.108341+00:00"
 }
