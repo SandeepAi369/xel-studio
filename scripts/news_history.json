@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar And Wind Power Drive Global Renewable Energy Expansion",
-      "urls": [
-        "https://energy.economictimes.indiatimes.com/news/renewable/renewables-to-drive-bulk-of-power-capacity-expansion-solar-and-wind-to-lead-growth-centrum-report/129819319",
-        "https://insideclimatenews.org/news/29092025/states-push-for-renewable-energy-policy"
-      ],
-      "date": "2026-03-28T14:04:19.579276+00:00"
-    },
-    {
-      "title": "Claude Code Launches Auto Mode For Autonomous Coding Tasks",
-      "urls": [
-        "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash",
-        "https://fortune.com/2025/12/02/how-anthropics-safety-first-approach-won-over-big-business-and-how-its-own-engineers-are-using-its-claude-ai",
-        "https://digitalbrightfuture.com/anthropic-ai-safety",
-        "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude"
-      ],
-      "date": "2026-03-28T14:34:23.442564+00:00"
-    },
-    {
       "title": "Eu Commission Mandates Real-Time Data Access For Meta Google Amazon",
       "urls": [
         "https://stateofsurveillance.org/news",
@@ -4752,7 +4734,14 @@
         "https://www.canarymedia.com/articles/clean-energy/solar-wind-meet-power-demand"
       ],
       "date": "2026-04-07T14:03:39.516171+00:00"
+    },
+    {
+      "title": "Hugging Face reports a significant rise in legacy companies upgrading organizational subscriptions t",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
+      ],
+      "date": "2026-04-07T14:39:04.788007+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T14:03:39.516233+00:00"
+  "lastUpdated": "2026-04-07T14:39:04.788081+00:00"
 }
