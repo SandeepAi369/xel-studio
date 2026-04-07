@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Reports 2024 Global Temperatures Hit 1.55°C Above Pre-Industrial Levels",
-      "urls": [
-        "https://wmo.int/topics/climate",
-        "https://wmo.int",
-        "https://wmo.int/topics/climate-change",
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024"
-      ],
-      "date": "2026-03-28T17:31:20.209838+00:00"
-    },
-    {
       "title": "Screen Holdings Restructures To Boost Chip Equipment Innovation",
       "urls": [
         "https://www.screen.co.jp",
@@ -4727,7 +4717,15 @@
         "https://www.vvitchdigital.com/blog/social-media-platform-changes-2026"
       ],
       "date": "2026-04-07T17:03:00.359204+00:00"
+    },
+    {
+      "title": "Royal Society releases a comprehensive report on digital assistive technologies, emphasizing their r",
+      "urls": [
+        "https://www.youtube.com/watch?v=ecazz5FnpVw",
+        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
+      ],
+      "date": "2026-04-07T17:33:31.999197+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T17:03:00.359274+00:00"
+  "lastUpdated": "2026-04-07T17:33:31.999249+00:00"
 }
