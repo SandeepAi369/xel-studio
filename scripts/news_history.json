@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches New AI Model To Enhance Machine Learning Accuracy",
-      "urls": [
-        "https://openai.com",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://gemini.google.com",
-        "https://deepai.org/chat/what-is-ai",
-        "https://www.britannica.com/technology/artificial-intelligence"
-      ],
-      "date": "2026-03-28T07:33:30.433793+00:00"
-    },
-    {
       "title": "Study Links Livestock Antibiotic Use to Human Resistance in 47 States",
       "urls": [
         "https://kffhealthnews.org/morning-breakout/research-roundup-the-latest-science-discoveries-and-breakthroughs-61"
@@ -4763,7 +4752,14 @@
         "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqf6LW1PVfq2nZeoksMMmu2l3b28AHbFmNtXUO_LSem_B0gISb7_DsmO&gaa_ts=69d4b670&gaa_sig=Dmtkfio3QHOn1WctQ7P_snQ8f-P-dWCS5mugpMrCmPhYacRwVdoRthmC02Kw6VgaY0-vSG6nDkPdHclF3TdhWA%3D%3D"
       ],
       "date": "2026-04-07T07:32:03.889280+00:00"
+    },
+    {
+      "title": "Uc Irvine Researchers Reprogram Brain Immune Cells With Crispr For Targeted Neurological Therapies",
+      "urls": [
+        "https://www.universityofcalifornia.edu/news/10-awesome-discoveries-uc-research-2025"
+      ],
+      "date": "2026-04-07T08:01:14.597698+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T07:32:03.889357+00:00"
+  "lastUpdated": "2026-04-07T08:01:14.597772+00:00"
 }
