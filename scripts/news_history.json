@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Smart Insulin Patches Improve Glucose Control By 35 Percent In MIT Trials",
-      "urls": [
-        "https://www.idaireland.com/latest-news/insights/top-medical-innovations-transforming-healthcare-in-2025"
-      ],
-      "date": "2026-03-28T18:31:18.825877+00:00"
-    },
-    {
       "title": "Cms Proposes 2026 Expansion Of Remote Patient Monitoring Reimbursement",
       "urls": [
         "https://telehealth.org/telehealth-news",
@@ -4729,7 +4722,16 @@
         "https://www.jpost.com/consumerism/article-888779"
       ],
       "date": "2026-04-07T18:31:10.157250+00:00"
+    },
+    {
+      "title": "Digital health technologies are expanding access to mental health care, particularly in underserved ",
+      "urls": [
+        "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
+        "https://giftsandentertainment.roche.com/open-outlook/new-tech-revolutionizing-mental-health-1767648041",
+        "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age"
+      ],
+      "date": "2026-04-07T19:01:30.316344+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T18:31:10.157325+00:00"
+  "lastUpdated": "2026-04-07T19:01:30.316405+00:00"
 }
