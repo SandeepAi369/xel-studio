@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Enacts SB 53 To Regulate High Risk AI Systems",
-      "urls": [
-        "https://natlawreview.com/article/artificial-intelligence-legislative-update",
-        "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry",
-        "https://www.aha.org/news/headline/2026-03-20-white-house-releases-national-ai-policy-framework"
-      ],
-      "date": "2026-03-28T15:31:16.104660+00:00"
-    },
-    {
       "title": "China Expands Influence Through South China Sea Territorial Control",
       "urls": [
         "https://en.wikipedia.org/wiki/Geopolitics",
@@ -4733,7 +4724,18 @@
         "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
       ],
       "date": "2026-04-07T15:04:56.299593+00:00"
+    },
+    {
+      "title": "Databricks has reached a $62 billion valuation after completing a record-setting venture capital fun",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
+        "https://aifundingtracker.com/ai-startup-funding-news-today",
+        "https://inforcapital.com/blog/2026-03-26-85-ai-deals-three-billion-dollar-valuations-one-week",
+        "https://news.crunchbase.com/ma/most-active-startup-acquirers-3-years-crm-openai-snowflake",
+        "https://finance.yahoo.com/news/ai-startups-founders-vcs-could-094530075.html"
+      ],
+      "date": "2026-04-07T15:32:02.992670+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T15:04:56.299657+00:00"
+  "lastUpdated": "2026-04-07T15:32:02.992753+00:00"
 }
