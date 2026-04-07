@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Launches 100 Pre-Trained AI APIs for Enterprise Use",
-      "urls": [
-        "https://cloud.google.com"
-      ],
-      "date": "2026-03-28T09:03:32.756536+00:00"
-    },
-    {
       "title": "Linux Org Lists 24 Distros For Beginners And Experts",
       "urls": [
         "https://www.linux.org/pages/download",
@@ -4760,7 +4753,18 @@
         "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video"
       ],
       "date": "2026-04-07T09:01:17.650388+00:00"
+    },
+    {
+      "title": "Chad Bianco Alleges Election Fraud In Riverside County Gubernatorial Race",
+      "urls": [
+        "https://www.nbcnews.com/politics",
+        "https://www.270towin.com/news",
+        "https://www.usatoday.com/elections",
+        "https://www.politico.com",
+        "https://www.cnn.com/politics"
+      ],
+      "date": "2026-04-07T09:31:11.624246+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T09:01:17.650452+00:00"
+  "lastUpdated": "2026-04-07T09:31:11.624316+00:00"
 }
