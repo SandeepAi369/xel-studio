@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chicago Ensures Accessibility For 1.9 Million Residents With Disabilities",
-      "urls": [
-        "https://www.chicago.gov/city/en/depts/mopd/supp_info/accessibilitycitywide.html"
-      ],
-      "date": "2026-03-28T05:31:28.977287+00:00"
-    },
-    {
-      "title": "Google Accounts Secures 1.5 Billion Users With Two-Factor Authentication",
-      "urls": [
-        "https://accounts.google.com?authuser=1"
-      ],
-      "date": "2026-03-28T06:01:28.059730+00:00"
-    },
-    {
       "title": "Kobe Bryant Scores 81 Points In 2006 Game",
       "urls": [
         "https://www.sportingnews.com/us/tsn/news/sporting-news-140-greatest-sports-moments/34766fecd31d636b303ca1d2",
@@ -4762,7 +4748,16 @@
         "https://www.youtube.com/watch?v=Uh-t8pTErm4"
       ],
       "date": "2026-04-07T05:31:17.182526+00:00"
+    },
+    {
+      "title": "Developers Accept AI Code 40% to 60% Without Review",
+      "urls": [
+        "https://www.youtube.com/watch?v=b9EbCb5A408",
+        "https://thenewstack.io/ai-coding-tools-reckoning",
+        "https://dev.to/gabrielanhaia/ai-coding-tools-are-making-developers-dumber-the-data-agrees-10li"
+      ],
+      "date": "2026-04-07T06:04:43.388369+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T05:31:17.182611+00:00"
+  "lastUpdated": "2026-04-07T06:04:43.388441+00:00"
 }
