@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ABC News Deploys 1200 Journalists For Live Event Coverage",
-      "urls": [
-        "https://www.washingtonpost.com/latest-headlines",
-        "https://www.foxnews.com?msockid=120d3ab06ad76f4013f42d9a6b5b6e82",
-        "https://abc.com/watch-live/784b058c-3aee-4ec9-a6d3-754ba6e4dbac"
-      ],
-      "date": "2026-03-28T02:02:30.193266+00:00"
-    },
-    {
       "title": "Ronnie O'Sullivan Smashes World Record With 153-Break Against Ryan Day",
       "urls": [
         "https://www.newsbreak.com/trending/top/world-record-achievements-news",
@@ -4782,7 +4773,14 @@
         "https://pytorch.org"
       ],
       "date": "2026-04-07T02:01:09.405988+00:00"
+    },
+    {
+      "title": "Esports Championship Launches Six-Month Global Tournament For 120 Teams",
+      "urls": [
+        "https://tech-drop.io/gaming-competition-news-breaking-major-championship-unveils-dramatic-format-overhaul-and-record-prize-award-2"
+      ],
+      "date": "2026-04-07T02:31:01.425847+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T02:01:09.406053+00:00"
+  "lastUpdated": "2026-04-07T02:31:01.425921+00:00"
 }
