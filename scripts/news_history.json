@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mental Health America Study Finds 68 Percent Use Apps To Manage Symptoms",
-      "urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079407",
-        "https://www.mhanational.org/technology-mental-health-report",
-        "https://www.sciencedirect.com/science/article/pii/S2214782925000259",
-        "https://link.springer.com/article/10.1007/s44155-025-00259-5",
-        "https://psychtimes.com/tech/digital-balance-how-technology-is-shaping-modern-mental-wellness"
-      ],
-      "date": "2026-03-28T01:33:32.986174+00:00"
-    },
-    {
       "title": "ABC News Deploys 1200 Journalists For Live Event Coverage",
       "urls": [
         "https://www.washingtonpost.com/latest-headlines",
@@ -4785,7 +4774,15 @@
         "https://futurense.com/blog/gen-ai-tools"
       ],
       "date": "2026-04-07T01:31:02.262278+00:00"
+    },
+    {
+      "title": "PyTorch Foundation Launches Cloud Credit Program for Researchers and Startups",
+      "urls": [
+        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework",
+        "https://pytorch.org"
+      ],
+      "date": "2026-04-07T02:01:09.405988+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T01:31:02.262340+00:00"
+  "lastUpdated": "2026-04-07T02:01:09.406053+00:00"
 }
