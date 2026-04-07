@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cms Proposes 2026 Expansion Of Remote Patient Monitoring Reimbursement",
-      "urls": [
-        "https://telehealth.org/telehealth-news",
-        "https://www.digitalhealthnews.com/category/telehealth",
-        "https://www.arnoldporter.com/en/perspectives/publications/2025/07/virtual-and-digital-health-digest",
-        "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1646802/full",
-        "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0413",
-        "https://openloophealth.com/blog/recent-digital-health-trends-insight-and-news-november-2025",
-        "https://www.healthcareitnews.com/topics/telehealth",
-        "https://www.beckershospitalreview.com/rural-health/telehealth-innovation",
-        "https://www.mobihealthnews.com",
-        "https://mcpress.mayoclinic.org/research-innovation/transforming-healthcare-the-impact-of-telehealth-and-telemedicine"
-      ],
-      "date": "2026-03-28T19:05:31.877984+00:00"
-    },
-    {
       "title": "Social Media Advocates Demand Meta Overhaul After Landmark Rulings",
       "urls": [
         "https://www.cnn.com/2026/03/28/tech/social-media-verdict-advocates-hope-for-changes",
@@ -4731,7 +4715,14 @@
         "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age"
       ],
       "date": "2026-04-07T19:01:30.316344+00:00"
+    },
+    {
+      "title": "Y Combinator Funds 232 Generative AI Startups in 2026 Cohort",
+      "urls": [
+        "https://www.ycombinator.com/companies/industry/generative-ai"
+      ],
+      "date": "2026-04-07T19:31:23.176072+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T19:01:30.316405+00:00"
+  "lastUpdated": "2026-04-07T19:31:23.176163+00:00"
 }
