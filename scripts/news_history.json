@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Links Gut Microbiome Imbalances to Autism Symptoms",
-      "urls": [
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/expert-answers/autism-and-digestive-symptoms/faq-20322778"
-      ],
-      "date": "2026-03-29T16:05:43.997923+00:00"
-    },
-    {
-      "title": "San Diego Records Less Than 12 Inches Of Annual Rainfall",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Climate_of_San_Diego",
-        "https://www.accuweather.com/en/us/san-diego/92101/current-weather/347628",
-        "https://www.weather.gov/sgx/san-san",
-        "https://www.britannica.com/science/climate-meteorology",
-        "https://www.usclimatedata.com/climate/san-diego/california/united-states/usca0982",
-        "https://www.noaa.gov/climate",
-        "https://www.climatestotravel.com/climate/united-states/san-diego",
-        "https://www.climate.gov/maps-data",
-        "https://education.nationalgeographic.org/resource/all-about-climate"
-      ],
-      "date": "2026-03-29T16:31:19.754246+00:00"
-    },
-    {
       "title": "Social Security Administration Expands Online Account Access For 70 Million Beneficiaries",
       "urls": [
         "https://www.ssa.gov",
@@ -4673,7 +4651,19 @@
         "https://www.youtube.com/watch?v=-0qOzx3URO4"
       ],
       "date": "2026-04-08T16:02:45.617053+00:00"
+    },
+    {
+      "title": "Team USA Wins Gold With 3-2 Overtime Victory Over Canada",
+      "urls": [
+        "https://sports.yahoo.com/articles/reactions-energy-stadium-really-helped-001000058.html",
+        "https://www.bbc.co.uk/sport/football",
+        "https://www.today.com/news/sports",
+        "https://www.cnn.com/sport",
+        "https://www.espn.com/espn/latestnews",
+        "https://www.theguardian.com/uk/sport"
+      ],
+      "date": "2026-04-08T16:32:22.798162+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T16:02:45.617128+00:00"
+  "lastUpdated": "2026-04-08T16:32:22.798232+00:00"
 }
