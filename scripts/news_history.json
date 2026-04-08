@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Konami Launches eFootball As Free-To-Play Global Sports Platform",
-      "urls": [
-        "https://www.konami.com/efootball/es/page/overview"
-      ],
-      "date": "2026-03-29T11:32:14.750970+00:00"
-    },
-    {
       "title": "Fox News Delivers Conservative Coverage To 80 Million Households",
       "urls": [
         "https://www.foxnews.com?msockid=0577c10dde9569ef0bbad626dfb468ba",
@@ -4689,7 +4682,14 @@
         "https://www.facebook.com/100089795433287/posts/as-severe-tropical-cyclone-maila-reaches-a-catastrophic-category-5-intensity-cri/906804392322734"
       ],
       "date": "2026-04-08T11:32:05.272207+00:00"
+    },
+    {
+      "title": "Medtronic Deploys AI In Insulin Pumps To Cut Hypoglycemic Events By 50 Percent",
+      "urls": [
+        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
+      ],
+      "date": "2026-04-08T12:01:20.362545+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T11:32:05.272268+00:00"
+  "lastUpdated": "2026-04-08T12:01:20.362623+00:00"
 }
