@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "St Martins Church Launches Scenic Viewpoint To Boost Tourism",
-      "urls": [
-        "https://top.vlaanderen/en/extra-info/nieuwe-sites-events-topics-opaalkust-belgie-zeeuws-vlaanderen/uitzichtpunt-eglise-saint-martin-tardinghen-pas-de-calais",
-        "https://top.vlaanderen/en/tag/leuven",
-        "https://www.liberalen.vlaanderen",
-        "https://top.vlaanderen/en/tag/haut-pays-du-montreuillois",
-        "https://top.vlaanderen/en/mooiste-historische-sites-opaalkust-frans-vlaanderen-belgie-zeeuws-vlaanderen/domein-de-chalet-kemmel-belgie",
-        "https://www.dopingvrij.vlaanderen/nieuws/2025/dopinglijst-2026",
-        "https://platform.post.vlaanderen"
-      ],
-      "date": "2026-03-29T17:33:25.731845+00:00"
-    },
-    {
       "title": "Who World Health Organization Reports 1.3 Billion People Live With Disabilities",
       "urls": [
         "https://www.who.int/health-topics/disability",
@@ -4669,7 +4656,15 @@
         "https://forklog.com/en/ai-enhances-productivity-for-individuals-with-adhd-and-autism"
       ],
       "date": "2026-04-08T17:31:02.823983+00:00"
+    },
+    {
+      "title": "Congressional Democrats Warn Trump Rhetoric Escalates Iran Tensions",
+      "urls": [
+        "https://www.youtube.com/watch?v=KgAdmngIoNs",
+        "https://www.npr.org/sections/politics"
+      ],
+      "date": "2026-04-08T18:01:32.224293+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T17:31:02.824035+00:00"
+  "lastUpdated": "2026-04-08T18:01:32.224358+00:00"
 }
