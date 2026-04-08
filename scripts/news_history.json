@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alphabet Reports 28% Year-Over-Year Growth In Google Cloud Revenue",
-      "urls": [
-        "https://www.marketwatch.com/investing/stock/googl",
-        "https://www.cnbc.com/quotes/GOOGL?msockid=1f17610f7151625a1cba762470406373"
-      ],
-      "date": "2026-03-29T21:33:15.832681+00:00"
-    },
-    {
       "title": "Microsoft Edge Launches Enhanced Password Manager With Cross Device Sync",
       "urls": [
         "https://support.microsoft.com/en-us/topic/view-or-edit-your-passwords-in-microsoft-edge-38ef988f-5a65-4c6a-9db8-937995d3ae31"
@@ -4660,7 +4652,14 @@
         "https://www.youtube.com/watch?v=q7-rXxNIUMA"
       ],
       "date": "2026-04-08T21:33:14.035043+00:00"
+    },
+    {
+      "title": "Meta Unveils Four New MTIA AI Chips for Efficient Inference and Training",
+      "urls": [
+        "https://finance.yahoo.com/news/meta-announces-4-new-ai-chips-raising-competitive-stakes-with-nvidia-amd-140011384.html"
+      ],
+      "date": "2026-04-08T22:01:09.006561+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T21:33:14.035108+00:00"
+  "lastUpdated": "2026-04-08T22:01:09.006636+00:00"
 }
