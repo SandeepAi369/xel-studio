@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Launches 15000 Label Wine Catalog Across Brazil",
-      "urls": [
-        "https://www.mistral.com.br/sobre-a-mistral"
-      ],
-      "date": "2026-03-29T19:03:40.137404+00:00"
-    },
-    {
       "title": "Cleveland Marathon Celebrates Over Four Decades Of Community Running",
       "urls": [
         "https://findmymarathon.com",
@@ -4666,7 +4659,17 @@
         "https://vitalsmagazine.dartmouth.edu/articles/can-digital-therapeutics-apps-solve-the-mental-health-crisis"
       ],
       "date": "2026-04-08T19:02:32.779443+00:00"
+    },
+    {
+      "title": "Unicom Engineering Deploys Dell-Based AI Data Centers With High-Density GPU Support",
+      "urls": [
+        "https://cloud.google.com/ai-infrastructure",
+        "https://www.youtube.com/watch?v=rnV9TgOqnX8",
+        "https://www.barchart.com/story/news/1095136/5-cloud-and-ai-infrastructure-stocks-powering-the-next-wave-of-ai",
+        "https://www.unicomengineering.com/blog/new-draft-preparing-for-ai"
+      ],
+      "date": "2026-04-08T19:33:59.311931+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T19:02:32.779496+00:00"
+  "lastUpdated": "2026-04-08T19:33:59.311999+00:00"
 }
