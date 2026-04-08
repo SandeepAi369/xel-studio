@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization Reports 1.3 Billion People Live With Disabilities",
-      "urls": [
-        "https://www.who.int/health-topics/disability",
-        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
-      ],
-      "date": "2026-03-29T18:03:48.090608+00:00"
-    },
-    {
       "title": "Google News Aggregates 50000 Sources With Machine Learning",
       "urls": [
         "https://www.foxnews.com?msockid=2b05e851fe5b65711d3aff7affaa6433",
@@ -4664,7 +4656,14 @@
         "https://www.npr.org/sections/politics"
       ],
       "date": "2026-04-08T18:01:32.224293+00:00"
+    },
+    {
+      "title": "Esports Championship launches Season Two featuring competitive tournaments for Street Fighter 6 and ",
+      "urls": [
+        "https://www.esportschampionship.gg"
+      ],
+      "date": "2026-04-08T18:31:55.649077+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T18:01:32.224358+00:00"
+  "lastUpdated": "2026-04-08T18:31:55.649140+00:00"
 }
