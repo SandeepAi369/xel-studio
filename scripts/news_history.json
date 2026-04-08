@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Chrome Protects Billions With Advanced Safe Browsing Security",
-      "urls": [
-        "https://www.google.com/chrome",
-        "https://www.google.com?hl=to-US"
-      ],
-      "date": "2026-03-29T00:02:30.593821+00:00"
-    },
-    {
-      "title": "Paris 2024 Delivers Historic Games With Record Female Participation",
-      "urls": [
-        "https://www.olympics.com/en",
-        "https://www.olympics.com/en/olympic-games",
-        "https://www.olympics.com/en/olympic-games/paris-2024",
-        "https://www.olympics.com/en/milano-cortina-2026",
-        "https://www.olympics.com/ioc",
-        "https://www.olympics.com/en/olympic-games/paris-2024/results",
-        "https://www.olympics.com/en/olympic-games/los-angeles-2028",
-        "https://www.olympics.com/en/olympic-games/olympic-results"
-      ],
-      "date": "2026-03-29T00:31:11.873975+00:00"
-    },
-    {
       "title": "Who: Myanmar Earthquake Kills Over 150 in Sagaing Region",
       "urls": [
         "https://www.who.int/southeastasia/outbreaks-and-emergencies/myanmar-earthquake-response-2025",
@@ -4721,7 +4699,14 @@
         "https://www.youtube.com/watch?v=0hpn9mn9vSs"
       ],
       "date": "2026-04-08T00:01:54.124747+00:00"
+    },
+    {
+      "title": "Nvidia Dominates AI Chip Market With H100 And B200 GPUs",
+      "urls": [
+        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43"
+      ],
+      "date": "2026-04-08T00:32:10.205628+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T00:01:54.124816+00:00"
+  "lastUpdated": "2026-04-08T00:32:10.205677+00:00"
 }
