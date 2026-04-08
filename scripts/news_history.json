@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Delivers Verified Health Information In Search Results",
-      "urls": [
-        "https://support.google.com/fitbit/answer/14566053?hl=en",
-        "https://support.google.com/websearch/answer/2364942?hl=en",
-        "https://support.google.com/youtubetv/answer/16403764?hl=en",
-        "https://support.google.com/youtube/answer/16337018?hl=en",
-        "https://support.google.com/adspolicy/answer/15596627?hl=en"
-      ],
-      "date": "2026-03-29T02:31:29.424600+00:00"
-    },
-    {
-      "title": "United States Admits 125000 Refugees Under 2023 Resettlement Program",
-      "urls": [
-        "https://www.unrefugees.org/refugee-facts/what-is-a-refugee",
-        "https://en.wikipedia.org/wiki/Refugee",
-        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
-        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
-        "https://www.britannica.com/topic/refugee",
-        "https://www.usa.gov/refugee-and-asylum",
-        "https://education.nationalgeographic.org/resource/refugee",
-        "https://www.worldvision.org/refugees-news-stories/what-is-a-refugee-facts",
-        "https://usafacts.org/articles/refugee-definition",
-        "https://worldrelief.org/what-is-a-refugee"
-      ],
-      "date": "2026-03-29T03:01:26.321757+00:00"
-    },
-    {
       "title": "Mr Incredible Fights Crime Before Government Ban Forces Retirement",
       "urls": [
         "https://www.merriam-webster.com/dictionary/incredible",
@@ -4715,7 +4688,16 @@
         "https://www.mobihealthnews.com"
       ],
       "date": "2026-04-08T02:31:12.933043+00:00"
+    },
+    {
+      "title": "Eurozone inflation rises at the fastest pace in over a year, driven by surging energy prices linked ",
+      "urls": [
+        "https://www.wsj.com/economy/global",
+        "https://www.nytimes.com/topic/subject/recession",
+        "https://www.usbank.com/investing/financial-perspectives/market-news/economic-recovery-status.html"
+      ],
+      "date": "2026-04-08T03:02:24.363230+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T02:31:12.933113+00:00"
+  "lastUpdated": "2026-04-08T03:02:24.363296+00:00"
 }
