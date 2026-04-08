@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maine Woman Finds 250 Unsealed State Ballots in Amazon Delivery",
-      "urls": [
-        "https://twitchy.com/samj/2025/11/04/live-election-results-buckle-up-folks-today-is-election-day-in-virginia-new-jersey-new-york-city-n2421234",
-        "https://twitchy.com/eric-v/2025/09/02/the-penguin-is-out-jerry-nadler-will-not-seek-re-election-n2418283",
-        "https://twitchy.com/brettt/2025/10/01/maine-woman-finds-250-state-ballots-in-her-amazon-delivery-n2419776",
-        "https://twitchy.com/samj/2025/10/19/whoa-biden-administration-democrat-comes-out-and-admits-hell-vote-republican-in-virginia-race-n2420554",
-        "https://www.maryvilleforum.com/news/election_2024/voters-approve-23m-maryville-r-ii-bond/article_a7131410-f162-11ee-ac0e-6b855a7960a7.html",
-        "https://twitchy.com/warren-squire/2025/12/02/breaking-epps-defeats-aftyn-behn-n2422378",
-        "https://www.maryvilleforum.com/news/nodaway-county-official-aug-6-primary-election-results/article_96dffdb8-5424-11ef-b247-0fe06e01378c.html"
-      ],
-      "date": "2026-03-29T10:03:09.009682+00:00"
-    },
-    {
-      "title": "U.S. Falls Short on 30×30 Conservation Pledge Amid Species Decline",
-      "urls": [
-        "https://news.mongabay.com",
-        "https://theconversation.com/topics/biodiversity-486",
-        "https://www.iowadnr.gov/newsroom/news-releases",
-        "https://www.nature.com/subjects/conservation"
-      ],
-      "date": "2026-03-29T10:31:11.727936+00:00"
-    },
-    {
       "title": "Unctad Reports 4% Global Trade Growth In Early 2025",
       "urls": [
         "https://www.usnews.com/topics/subjects/international-trade",
@@ -4690,7 +4667,21 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models"
       ],
       "date": "2026-04-08T10:01:45.590802+00:00"
+    },
+    {
+      "title": "United States And Iran Agree To Two-Week Ceasefire",
+      "urls": [
+        "https://www.cnn.com",
+        "https://www.foxnews.com",
+        "https://www.cbsnews.com",
+        "https://abcnews.com",
+        "https://news.yahoo.com",
+        "https://apnews.com",
+        "https://www.nytimes.com",
+        "https://www.nbcnews.com"
+      ],
+      "date": "2026-04-08T10:32:13.344542+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T10:01:45.590860+00:00"
+  "lastUpdated": "2026-04-08T10:32:13.344604+00:00"
 }
