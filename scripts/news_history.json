@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bozar is hosting an exhibition titled \"Focus on Belgium\" that highlights 95 Renaissance artworks fro",
-      "urls": [
-        "https://www.vrt.be/vrtnws/en",
-        "https://www.belgium.be/en/news",
-        "https://www.rsca.be/en/news",
-        "https://nieuws.kuleuven.be/en",
-        "https://focusonbelgium.be/en",
-        "https://digisonde.oma.be/ionogif/latest.html",
-        "https://www.belgiantrain.be/en/travel-info/current/ongoing-disturbances-and-works"
-      ],
-      "date": "2026-03-29T20:33:57.791430+00:00"
-    },
-    {
-      "title": "FIFA Expands Women's World Cup To 32 Teams In 2023",
-      "urls": [
-        "https://www.fifa.com"
-      ],
-      "date": "2026-03-29T21:04:38.780917+00:00"
-    },
-    {
       "title": "Alphabet Reports 28% Year-Over-Year Growth In Google Cloud Revenue",
       "urls": [
         "https://www.marketwatch.com/investing/stock/googl",
@@ -4669,7 +4649,18 @@
         "https://escharts.com"
       ],
       "date": "2026-04-08T20:31:08.091111+00:00"
+    },
+    {
+      "title": "WheelMove has unveiled a powered wheel system designed to transform manual wheelchairs into motorize",
+      "urls": [
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopNzKYSigzLbIZvYd5qrScsHbAxbPuDNgwE8ll7IRP9tvYPxkqE",
+        "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs",
+        "https://www.outreach1.org/2025/05/04/innovations-in-smart-wheelchairs",
+        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion",
+        "https://www.youtube.com/watch?v=q7-rXxNIUMA"
+      ],
+      "date": "2026-04-08T21:33:14.035043+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T20:31:08.091163+00:00"
+  "lastUpdated": "2026-04-08T21:33:14.035108+00:00"
 }
