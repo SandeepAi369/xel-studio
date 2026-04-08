@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tencent Cloud Powers Millions Of Enterprises With Secure Computing Services",
-      "urls": [
-        "https://www.icloud.com",
-        "https://cloud.tencent.com",
-        "https://cn.aliyun.com",
-        "https://www.cloudflare.com/learning/cloud/what-is-the-cloud",
-        "https://www.tencentcloud.com/zh",
-        "https://www.huaweicloud.com/intl/zh-cn",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=0e185bfa2325601937da4cd122f56152",
-        "https://www.ibm.com/think/topics/cloud-computing",
-        "https://cloud.google.com?hl=zh-cn"
-      ],
-      "date": "2026-03-29T09:01:24.947188+00:00"
-    },
-    {
-      "title": "Camden Police Rebuild Cuts Homicides By 75 Percent",
-      "urls": [
-        "https://www.nytimes.com"
-      ],
-      "date": "2026-03-29T09:31:18.651781+00:00"
-    },
-    {
       "title": "Maine Woman Finds 250 Unsealed State Ballots in Amazon Delivery",
       "urls": [
         "https://twitchy.com/samj/2025/11/04/live-election-results-buckle-up-folks-today-is-election-day-in-virginia-new-jersey-new-york-city-n2421234",
@@ -4695,7 +4673,17 @@
         "https://www.foxweather.com/watch/fmc-iyb240g8q0twzbb2"
       ],
       "date": "2026-04-08T09:01:24.610747+00:00"
+    },
+    {
+      "title": "PyTorch And TensorFlow Dominate Deep Learning Framework Adoption",
+      "urls": [
+        "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
+        "https://www.marktechpost.com/2025/08/20/deep-learning-framework-showdown-pytorch-vs-tensorflow-in-2025",
+        "https://viso.ai/deep-learning/pytorch-vs-tensorflow",
+        "https://futurense.com/blog/deep-learning-frameworks"
+      ],
+      "date": "2026-04-08T09:32:09.011985+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T09:01:24.610809+00:00"
+  "lastUpdated": "2026-04-08T09:32:09.012050+00:00"
 }
