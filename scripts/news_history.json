@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "JustWatch Streams Live ATP And WTA Matches",
-      "urls": [
-        "https://sports.justwatch.com/us/tennis"
-      ],
-      "date": "2026-03-29T05:31:12.460126+00:00"
-    },
-    {
       "title": "Google Launches PaLM 2 With Enhanced Text And Code Generation",
       "urls": [
         "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
@@ -4702,7 +4695,14 @@
         "https://www.cio.com/article/3961674/10-most-used-gen-ai-tools-in-the-enterprise.html"
       ],
       "date": "2026-04-08T05:30:57.126040+00:00"
+    },
+    {
+      "title": "AI tools are enabling employees with disabilities to perform tasks independently, using voice-to-tex",
+      "urls": [
+        "https://www.forbes.com/sites/nicholaswyman/2025/11/17/how-ai-tools-are-opening-doors-for-employees-with-disabilities"
+      ],
+      "date": "2026-04-08T06:02:15.954906+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T05:30:57.126110+00:00"
+  "lastUpdated": "2026-04-08T06:02:15.954969+00:00"
 }
