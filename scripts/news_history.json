@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Edge Launches Enhanced Password Manager With Cross Device Sync",
-      "urls": [
-        "https://support.microsoft.com/en-us/topic/view-or-edit-your-passwords-in-microsoft-edge-38ef988f-5a65-4c6a-9db8-937995d3ae31"
-      ],
-      "date": "2026-03-29T22:03:30.250464+00:00"
-    },
-    {
       "title": "Fox News Reaches 80 Million Homes And Averages 1.9 Million Prime Time Viewers",
       "urls": [
         "https://www.foxnews.com?msockid=2b3a9c56a18a6805281e8b7da0b66993"
@@ -4659,7 +4652,14 @@
         "https://finance.yahoo.com/news/meta-announces-4-new-ai-chips-raising-competitive-stakes-with-nvidia-amd-140011384.html"
       ],
       "date": "2026-04-08T22:01:09.006561+00:00"
+    },
+    {
+      "title": "United States And Iran Agree To Two-Week Ceasefire",
+      "urls": [
+        "https://www.npr.org/sections/news"
+      ],
+      "date": "2026-04-08T22:31:05.091655+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T22:01:09.006636+00:00"
+  "lastUpdated": "2026-04-08T22:31:05.091729+00:00"
 }
