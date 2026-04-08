@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Discover AI Chatbots Favor Privileged Users",
-      "urls": [
-        "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
-        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
-        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
-        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219"
-      ],
-      "date": "2026-03-29T04:34:27.422118+00:00"
-    },
-    {
       "title": "Ubuntu Launches Multiple Editions For Desktop Server And IoT Devices",
       "urls": [
         "https://en.wikipedia.org/wiki/Linux",
@@ -4701,7 +4691,19 @@
         "https://www.youtube.com/watch?v=dhiPmsV8A74"
       ],
       "date": "2026-04-08T04:31:01.279396+00:00"
+    },
+    {
+      "title": "Tropical Cyclone Debby caused widespread destruction across the Eastern United States, stalling for ",
+      "urls": [
+        "https://www.facebook.com/South.Pacific.Post/posts/tropical-cyclone-warning-number-13-issued-by-papua-new-guinea-national-weather-s/1391681732976239",
+        "https://en.wikipedia.org/wiki/Hurricane_Debby",
+        "https://www.youtube.com/watch?v=f7gKuTqDv4g",
+        "https://www.youtube.com/watch?v=VeYe0Nkn5eI",
+        "https://www.facebook.com/NBCBougainville/posts/1625137029618919",
+        "https://www.facebook.com/pngbreakingnews/posts/cyclone-maila-causes-flooding-and-damage-in-western-new-britain-as-the-effects-o/954370963992828"
+      ],
+      "date": "2026-04-08T05:01:14.929928+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T04:31:01.279459+00:00"
+  "lastUpdated": "2026-04-08T05:01:14.929990+00:00"
 }
