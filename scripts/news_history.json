@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Homes And Averages 1.9 Million Prime Time Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=2b3a9c56a18a6805281e8b7da0b66993"
-      ],
-      "date": "2026-03-29T22:33:22.979399+00:00"
-    },
-    {
       "title": "Meta Signs 20-Year Nuclear Deal With Constellation To Power Wisconsin Data Center",
       "urls": [
         "https://about.fb.com/news/category/technologies/meta",
@@ -4659,7 +4652,14 @@
         "https://www.npr.org/sections/news"
       ],
       "date": "2026-04-08T22:31:05.091655+00:00"
+    },
+    {
+      "title": "Linux Adoption Surpasses 90 Percent In Public Cloud Workloads",
+      "urls": [
+        "https://www.youtube.com/watch?v=zcFdvHd9Yek"
+      ],
+      "date": "2026-04-08T23:01:09.124970+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T22:31:05.091729+00:00"
+  "lastUpdated": "2026-04-08T23:01:09.125031+00:00"
 }
