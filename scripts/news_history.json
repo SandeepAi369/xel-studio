@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Projects Record Global Temperatures Will Surpass 1.5°C Threshold By 2029",
-      "urls": [
-        "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/wmo-global-annual-decadal-climate-update-2025-2029"
-      ],
-      "date": "2026-03-28T23:31:23.291968+00:00"
-    },
-    {
       "title": "Google Chrome Protects Billions With Advanced Safe Browsing Security",
       "urls": [
         "https://www.google.com/chrome",
@@ -4719,7 +4712,16 @@
         "https://www.medtechdive.com"
       ],
       "date": "2026-04-07T23:30:56.772056+00:00"
+    },
+    {
+      "title": "AI coding tools have become the default for top engineering teams, with nearly two-thirds of code no",
+      "urls": [
+        "https://www.nytimes.com/2026/04/06/technology/ai-code-overload.html",
+        "https://www.techradar.com/pro/security/ai-coding-tools-are-now-the-default-top-engineering-teams-double-their-output-as-nearly-two-thirds-of-code-production-shifts-to-ai-generation-and-could-reach-90-within-a-year",
+        "https://www.youtube.com/watch?v=0hpn9mn9vSs"
+      ],
+      "date": "2026-04-08T00:01:54.124747+00:00"
     }
   ],
-  "lastUpdated": "2026-04-07T23:30:56.772123+00:00"
+  "lastUpdated": "2026-04-08T00:01:54.124816+00:00"
 }
