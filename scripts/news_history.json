@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Removes Covid Specific Misinformation Rules",
-      "urls": [
-        "https://support.google.com/youtube/answer/13813322?hl=en",
-        "https://support.google.com/googleplay/android-developer/answer/16679511?hl=en",
-        "https://support.google.com/googleplay/android-developer/answer/14738291?hl=en",
-        "https://support.google.com/a/users/answer/9282742?hl=en"
-      ],
-      "date": "2026-03-29T07:31:16.814548+00:00"
-    },
-    {
       "title": "FIFA Expands 2026 World Cup to 48 Teams Across Three Nations",
       "urls": [
         "https://www.fifa.com/en/ ",
@@ -4693,7 +4683,14 @@
         "https://techcrunch.com/category/social"
       ],
       "date": "2026-04-08T07:31:07.078222+00:00"
+    },
+    {
+      "title": "Investors Pour 242 Billion Into AI Startups Led By Anthropic And Mistral AI",
+      "urls": [
+        "https://www.youtube.com/watch?v=WPldpsoJtVQ"
+      ],
+      "date": "2026-04-08T08:01:11.761048+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T07:31:07.078279+00:00"
+  "lastUpdated": "2026-04-08T08:01:11.761114+00:00"
 }
