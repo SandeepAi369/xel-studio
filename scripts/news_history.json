@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google News Aggregates 50000 Sources With Machine Learning",
-      "urls": [
-        "https://www.foxnews.com?msockid=2b05e851fe5b65711d3aff7affaa6433",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen"
-      ],
-      "date": "2026-03-29T18:32:18.899683+00:00"
-    },
-    {
       "title": "Mistral Launches 15000 Label Wine Catalog Across Brazil",
       "urls": [
         "https://www.mistral.com.br/sobre-a-mistral"
@@ -4663,7 +4655,18 @@
         "https://www.esportschampionship.gg"
       ],
       "date": "2026-04-08T18:31:55.649077+00:00"
+    },
+    {
+      "title": "Anomie Launches VR Mental Health App In Metaverse",
+      "urls": [
+        "https://annabelleschneider.com/New-Technology-Mental-Health-Wellbeing",
+        "https://userway.org/blog/technology-and-mental-health",
+        "https://www.youtube.com/watch?v=IJRip8Ay9-E",
+        "https://www.drugtopics.com/view/swipe-right-on-wellness-the-rise-of-digital-therapeutics-in-mental-health",
+        "https://vitalsmagazine.dartmouth.edu/articles/can-digital-therapeutics-apps-solve-the-mental-health-crisis"
+      ],
+      "date": "2026-04-08T19:02:32.779443+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T18:31:55.649140+00:00"
+  "lastUpdated": "2026-04-08T19:02:32.779496+00:00"
 }
