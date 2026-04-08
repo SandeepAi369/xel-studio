@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Riot Games Expands League of Legends Esports Across Four Major Regions",
-      "urls": [
-        "https://www.espn.com/gaming/story/_/id/14555655/latest-league-legends-news-esports"
-      ],
-      "date": "2026-03-29T01:31:05.875582+00:00"
-    },
-    {
       "title": "Zhihu Launches Enhanced Q&A Platform for Expert Knowledge Sharing",
       "urls": [
         "https://www.zhihu.com/question/580758213"
@@ -4715,7 +4708,14 @@
         "https://www.cnbc.com/2024/08/07/tropical-storm-debby-churns-up-the-east-coast-and-affects-weather-as-far-away-as-the-great-lakes-.html"
       ],
       "date": "2026-04-08T01:30:56.824272+00:00"
+    },
+    {
+      "title": "Open Source Initiative expands global outreach, emphasizing the economic impact of open source softw",
+      "urls": [
+        "https://opensource.org"
+      ],
+      "date": "2026-04-08T02:01:22.297265+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T01:30:56.824372+00:00"
+  "lastUpdated": "2026-04-08T02:01:22.297338+00:00"
 }
