@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ubuntu Launches Multiple Editions For Desktop Server And IoT Devices",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://www.linux.com/what-is-linux",
-        "https://ubuntu.com/download",
-        "https://www.linuxmint.com"
-      ],
-      "date": "2026-03-29T05:01:24.607665+00:00"
-    },
-    {
       "title": "JustWatch Streams Live ATP And WTA Matches",
       "urls": [
         "https://sports.justwatch.com/us/tennis"
@@ -4703,7 +4693,16 @@
         "https://www.facebook.com/pngbreakingnews/posts/cyclone-maila-causes-flooding-and-damage-in-western-new-britain-as-the-effects-o/954370963992828"
       ],
       "date": "2026-04-08T05:01:14.929928+00:00"
+    },
+    {
+      "title": "Google Vertex Powers Enterprise AI With Scalable Cloud Tools",
+      "urls": [
+        "https://www.crn.com/news/ai/2024/the-10-coolest-genai-products-and-ai-tools-of-2024",
+        "https://www.webfx.com/blog/ai/best-generative-ai-tools",
+        "https://www.cio.com/article/3961674/10-most-used-gen-ai-tools-in-the-enterprise.html"
+      ],
+      "date": "2026-04-08T05:30:57.126040+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T05:01:14.929990+00:00"
+  "lastUpdated": "2026-04-08T05:30:57.126110+00:00"
 }
