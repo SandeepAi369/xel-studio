@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mr Incredible Fights Crime Before Government Ban Forces Retirement",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/incredible",
-        "https://www.dictionary.com/browse/incredible",
-        "https://www.imdb.com/title/tt0317705",
-        "https://www.wordhippo.com/what-is/another-word-for/incredible.html",
-        "https://www.youtube.com/playlist?list=PLv8LVa0HO3-pM8osGx2BId25p5JOI5ycF"
-      ],
-      "date": "2026-03-29T03:39:48.608748+00:00"
-    },
-    {
       "title": "Wimbledon Adopts Hawk-Eye Live For All Courts In 2026",
       "urls": [
         "https://www.tennis.com",
@@ -4710,7 +4699,14 @@
         "https://www.anthropic.com/glasswing"
       ],
       "date": "2026-04-08T03:30:58.266354+00:00"
+    },
+    {
+      "title": "Google Quantum AI and Quantinuum Achieve Stable Error-Corrected Logical Qubits",
+      "urls": [
+        "https://www.youtube.com/watch?v=t4GRe9q-Q0o"
+      ],
+      "date": "2026-04-08T04:01:41.317590+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T03:30:58.266430+00:00"
+  "lastUpdated": "2026-04-08T04:01:41.317643+00:00"
 }
