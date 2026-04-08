@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Brussels Launches PACE To Cut Emissions 47% By 2030",
-      "urls": [
-        "https://be.brussels/en/about-region/structure-and-organisations/overview-administrations-and-institutions-region/bruxelles-environnement-ibge",
-        "https://be.brussels/en/about-region/values-budget-and-strategy/strategy-and-policy-priorities/go4brussels-2030-strategic-multi-year-plan",
-        "https://environnement.brussels",
-        "https://be.brussels/en/about-region/structure-and-organisations/overview-administrations-and-institutions-region/brussels-environment",
-        "https://environnement.brussels/citoyen/documentation-et-outils/rapports-annuels/plan-air-climat-energie-bruxelles-en-route-vers-la-neutralite-carbone-rapport-annuel-2023",
-        "https://www.cogito.brussels",
-        "https://environnement.brussels/citoyen/documentation-et-outils/etat-des-lieux-de-lenvironnement/le-climat-en-region-bruxelloise"
-      ],
-      "date": "2026-03-29T13:02:26.790773+00:00"
-    },
-    {
-      "title": "IBM Advances Machine Learning With New AI Algorithms",
-      "urls": [
-        "https://ai.google",
-        "https://www.ibm.com/think/topics/artificial-intelligence"
-      ],
-      "date": "2026-03-29T13:31:19.389715+00:00"
-    },
-    {
       "title": "Fox News Reaches 80 Million Households and 100 Million Online Users Monthly",
       "urls": [
         "https://www.foxnews.com?msockid=34c7669eaf136db33e4471b5ae506c46"
@@ -4692,7 +4671,15 @@
         "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission"
       ],
       "date": "2026-04-08T13:01:44.545313+00:00"
+    },
+    {
+      "title": "JPMorgan Chase And Ford Hire More Autistic Talent",
+      "urls": [
+        "https://www.wsj.com/lifestyle/careers/jobs-for-the-autistic-grow-beyond-tech-b4eee329",
+        "https://www.youtube.com/watch?v=egm6GvcbRzU"
+      ],
+      "date": "2026-04-08T13:31:28.342561+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T13:01:44.545392+00:00"
+  "lastUpdated": "2026-04-08T13:31:28.342630+00:00"
 }
