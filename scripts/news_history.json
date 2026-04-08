@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches PaLM 2 With Enhanced Text And Code Generation",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
-        "https://www.merriam-webster.com/dictionary/generative",
-        "https://www.ibm.com/think/topics/generative-ai",
-        "https://www.coursera.org/articles/what-is-generative-ai"
-      ],
-      "date": "2026-03-29T06:02:24.295801+00:00"
-    },
-    {
-      "title": "Solar And Wind Projects Face 12 Percent Global Slowdown",
-      "urls": [
-        "https://www.energyglobal.com/news",
-        "https://www.rechargenews.com",
-        "https://apnews.com/hub/renewable-energy",
-        "https://www.renewableenergyworld.com",
-        "https://www.renewableinstitute.org/daily-news",
-        "https://www.solardaily.com",
-        "https://voiceofrenewables.com"
-      ],
-      "date": "2026-03-29T06:31:08.407360+00:00"
-    },
-    {
       "title": "Vegetable Lo Mein Gains Popularity With 15-Minute JoyFoodSunshine Recipe",
       "urls": [
         "https://www.simplyrecipes.com/recipes/easy_vegetable_lo_mein",
@@ -4702,7 +4679,15 @@
         "https://www.forbes.com/sites/nicholaswyman/2025/11/17/how-ai-tools-are-opening-doors-for-employees-with-disabilities"
       ],
       "date": "2026-04-08T06:02:15.954906+00:00"
+    },
+    {
+      "title": "CEOs Voice Confidence Amid AI Stock Sell-Off",
+      "urls": [
+        "https://www.youtube.com/watch?v=ia3Qyj73M9A",
+        "https://www.yahoo.com/news/articles/president-trump-names-meta-nvidia-142701317.html"
+      ],
+      "date": "2026-04-08T06:32:04.844357+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T06:02:15.954969+00:00"
+  "lastUpdated": "2026-04-08T06:32:04.844430+00:00"
 }
