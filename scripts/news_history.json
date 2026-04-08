@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who: Myanmar Earthquake Kills Over 150 in Sagaing Region",
-      "urls": [
-        "https://www.who.int/southeastasia/outbreaks-and-emergencies/myanmar-earthquake-response-2025",
-        "https://www.who.int/westernpacific/newsroom/feature-stories/item/on-the-path-to-recovery--three-months-after-the-earthquake-in-vanuatu",
-        "https://www.who.int/nepal/emergencies/west-nepal-earthquake",
-        "https://www.who.int/nepal/news/detail/07-11-2023-who-responds-to-nepal-earthquake",
-        "https://www.who.int/health-topics/earthquakes",
-        "https://www.who.int/emergencies/situations/Earthquake-Türkiye-Syria",
-        "https://www.who.int/news-room/feature-stories/detail/how-rehabilitation-provided-a-second-chance-to-an-earthquake-survivor",
-        "https://www.who.int/publications/m/item/who-flash-appeal--earthquake-response-in-myanmar"
-      ],
-      "date": "2026-03-29T01:02:25.303965+00:00"
-    },
-    {
       "title": "Riot Games Expands League of Legends Esports Across Four Major Regions",
       "urls": [
         "https://www.espn.com/gaming/story/_/id/14555655/latest-league-legends-news-esports"
@@ -4715,7 +4701,21 @@
         "https://cerre.eu/news/the-paris-ai-summit-must-rescue-ai-from-geopolitical-competition"
       ],
       "date": "2026-04-08T01:01:10.483624+00:00"
+    },
+    {
+      "title": "Tropical Storm Debby Intensifies to 70 mph Ahead of Florida Landfall",
+      "urls": [
+        "https://www.facebook.com/FijiGovernment/posts/weather-update-severe-tc-vaianu-8-april-2026here-is-the-latest-weather-brief-on-/1393383952825798",
+        "https://www.citizensvoice.com/2024/08/04/tropical-storm-debby-hits-florida-with-floods-threat-of-record-rain-in-georgia-and-the-carolinas",
+        "https://www.savannahnow.com/story/weather/severe/2025/08/04/tropical-storm-dexter-moves-away-from-the-us/85509715007",
+        "https://www.facebook.com/thefijitimes/posts/fijitimesnews-while-vendors-at-the-ba-market-experienced-minimal-damage-after-th/1373441044825701",
+        "https://www.facebook.com/groups/210533169715892/posts/2209034216532434",
+        "https://www.chicagotribune.com/2024/08/04/tropical-storm-debby",
+        "https://www.facebook.com/FijiMetService/posts/tropical-cyclone-vaianusevere-tropical-cyclone-vaianu-category-3-was-located-nea/1403582221811177",
+        "https://www.cnbc.com/2024/08/07/tropical-storm-debby-churns-up-the-east-coast-and-affects-weather-as-far-away-as-the-great-lakes-.html"
+      ],
+      "date": "2026-04-08T01:30:56.824272+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T01:01:10.483686+00:00"
+  "lastUpdated": "2026-04-08T01:30:56.824372+00:00"
 }
