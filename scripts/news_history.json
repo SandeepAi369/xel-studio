@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cleveland Marathon Celebrates Over Four Decades Of Community Running",
-      "urls": [
-        "https://findmymarathon.com",
-        "https://www.usamarathonlist.com",
-        "https://www.britannica.com/sports/marathon-race",
-        "https://www.clevelandmarathon.com",
-        "https://www.marathonguide.com/races/home.cfm"
-      ],
-      "date": "2026-03-29T19:34:19.232605+00:00"
-    },
-    {
       "title": "Who Defines A Refugee And How UNHCR Protects Them Worldwide",
       "urls": [
         "https://ohss.dhs.gov/topics/immigration/refugees"
@@ -4669,7 +4658,15 @@
         "https://www.unicomengineering.com/blog/new-draft-preparing-for-ai"
       ],
       "date": "2026-04-08T19:33:59.311931+00:00"
+    },
+    {
+      "title": "AI-powered assistive tools are transforming accessibility for people with disabilities by enabling m",
+      "urls": [
+        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
+        "https://www.digitallearninginstitute.com/blog/revolutionising-accessibility:-the-role-of-ai-in-assistive-technology"
+      ],
+      "date": "2026-04-08T20:01:32.207157+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T19:33:59.311999+00:00"
+  "lastUpdated": "2026-04-08T20:01:32.207219+00:00"
 }
