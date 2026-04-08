@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households and 100 Million Online Users Monthly",
-      "urls": [
-        "https://www.foxnews.com?msockid=34c7669eaf136db33e4471b5ae506c46"
-      ],
-      "date": "2026-03-29T14:05:42.881275+00:00"
-    },
-    {
       "title": "Yaxel Lendeborg Powers Michigan To Final Four With 18.4 Points Per Game",
       "urls": [
         "https://sports.yahoo.com/nfl",
@@ -4689,7 +4682,15 @@
         "https://www.biologicaldiversity.org/campaigns/victories"
       ],
       "date": "2026-04-08T14:01:40.273568+00:00"
+    },
+    {
+      "title": "PyTorch Replaces TensorFlow In OpenAI Core Research Pipeline",
+      "urls": [
+        "https://builtin.com/data-science/pytorch-vs-tensorflow",
+        "https://www.reddit.com/r/MachineLearning/comments/ew8oxq/n_openai_switches_to_pytorch"
+      ],
+      "date": "2026-04-08T14:31:07.432644+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T14:01:40.273639+00:00"
+  "lastUpdated": "2026-04-08T14:31:07.432712+00:00"
 }
