@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dallas Cowboys Target Defensive Reinforcements With Twin First Round Draft Picks",
-      "urls": [
-        "https://www.nytimes.com/athletic/nfl",
-        "https://www.si.com/nfl"
-      ],
-      "date": "2026-03-30T03:08:02.749338+00:00"
-    },
-    {
       "title": "World Economic Forum Warns Geopolitical Tensions Disrupt Global Trade in 2025",
       "urls": [
         "https://www.weforum.org/publications/global-risks-report-2026",
@@ -4646,7 +4638,19 @@
         "https://www.youtube.com/watch?v=GWkM4KSzN5E"
       ],
       "date": "2026-04-09T03:01:25.466796+00:00"
+    },
+    {
+      "title": "Stanford Researchers Unveil Light-Based Chip For Scalable Quantum Computing",
+      "urls": [
+        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
+        "https://www.artificialintelligence-news.com",
+        "https://www.youtube.com/watch?v=a18whsKY_rw",
+        "https://www.wsj.com/tech/ai",
+        "https://techcrunch.com/category/artificial-intelligence",
+        "https://news.mit.edu/topic/artificial-intelligence2"
+      ],
+      "date": "2026-04-09T03:31:20.548223+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T03:01:25.466857+00:00"
+  "lastUpdated": "2026-04-09T03:31:20.548308+00:00"
 }
