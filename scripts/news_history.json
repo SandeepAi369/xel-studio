@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "GPT And Dall E Generate Original Content Using Deep Learning",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Generative_artificial_intelligence",
-        "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial"
-      ],
-      "date": "2026-03-30T10:31:23.250824+00:00"
-    },
-    {
       "title": "IOC And Saudi Arabia Cancel 12-Year Olympic Esports Games Deal",
       "urls": [
         "https://www.espn.com/gaming",
@@ -4597,7 +4589,15 @@
         "https://www.smithschool.ox.ac.uk/news/climate-policy-strengthens-globally-despite-unprecedented-contestation-us-and-europe"
       ],
       "date": "2026-04-09T10:30:59.648991+00:00"
+    },
+    {
+      "title": "NASA Announces Live Coverage For Artemis Ii Moon Mission",
+      "urls": [
+        "https://www.investors.com/news/artemis-ii-nasa-mission-lunar-flyby-spacex-launches",
+        "https://www.nasa.gov/missions/artemis/artemis-2/nasa-sets-coverage-for-artemis-ii-moon-mission"
+      ],
+      "date": "2026-04-09T11:01:22.476705+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T10:30:59.649051+00:00"
+  "lastUpdated": "2026-04-09T11:01:22.476794+00:00"
 }
