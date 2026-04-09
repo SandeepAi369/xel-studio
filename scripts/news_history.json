@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Merriam-Webster And Cambridge Define Accessibility For All Users",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible",
-        "https://dictionary.cambridge.org/dictionary/english/accessible",
-        "https://www.dictionary.com/browse/accessible",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/accessible",
-        "https://www.thefreedictionary.com/accessible"
-      ],
-      "date": "2026-03-30T17:40:39.084611+00:00"
-    },
-    {
       "title": "Extreme Soundz Installs Custom Audio Systems In Cars And Boats",
       "urls": [
         "https://www.facebook.com/extremesoundznc",
@@ -4563,7 +4552,16 @@
         "https://www.cmarix.com/blog/pytorch-vs-tensorflow"
       ],
       "date": "2026-04-09T17:33:06.264268+00:00"
+    },
+    {
+      "title": "Wind And Solar Generated 17 Percent Of Us Electricity In 2024",
+      "urls": [
+        "https://www.zmescience.com/ecology/renewable-energy-ecology/for-the-first-time-ever-wind-and-solar-produced-more-electricity-than-coal-in-the-us",
+        "https://www.canarymedia.com/articles/wind",
+        "https://www.renewableenergyworld.com"
+      ],
+      "date": "2026-04-09T18:01:21.190802+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T17:33:06.264330+00:00"
+  "lastUpdated": "2026-04-09T18:01:21.190864+00:00"
 }
