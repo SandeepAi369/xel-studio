@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Spectrum Customers Face Webmail Changes During Platform Integration",
-      "urls": [
-        "https://community.spectrum.net/categories/Acct_Mgmt-7",
-        "https://community.spectrum.net/discussion/175374/how-can-i-access-my-email",
-        "https://community.spectrum.net/discussion/175887/access-my-email-account",
-        "https://community.spectrum.net/discussion/165854/my-spectrum-app-my-account",
-        "https://community.spectrum.net/discussion/170572/spectrum-webmail-access",
-        "https://community.spectrum.net/discussion/178341/a-message-to-customers-having-trouble-accessing-legacy-rr-com-and-roadrunner-com-email-accounts",
-        "https://community.spectrum.net/categories/MySpectrum-35",
-        "https://community.spectrum.net/discussion/178326/roadrunner-email-did-not-transition-to-spectrum-email",
-        "https://community.spectrum.net/categories/email-22",
-        "https://community.spectrum.net/discussion/174924/show-me-my-current-bill"
-      ],
-      "date": "2026-03-29T23:34:35.291949+00:00"
-    },
-    {
       "title": "Ms Now Launches Live News Platform With Global Coverage",
       "urls": [
         "https://www.foxnews.com?msockid=1271cb096e2a6fdb0ab3dc256f766e6f",
@@ -4657,7 +4641,15 @@
         "https://www.mdpi.com/2673-8392/5/4/206"
       ],
       "date": "2026-04-08T23:30:55.605505+00:00"
+    },
+    {
+      "title": "Anthropic Launches Claude Mythos Preview With Enhanced Reasoning And Safety Features",
+      "urls": [
+        "https://www.instagram.com/p/DW3_KiZja5p",
+        "https://bostoninstituteofanalytics.org/blog/genai-tools-of-the-week-6th-to-12th-dec-5-new-genai-apps-everyone-is-talking-about"
+      ],
+      "date": "2026-04-09T00:01:16.115844+00:00"
     }
   ],
-  "lastUpdated": "2026-04-08T23:30:55.605570+00:00"
+  "lastUpdated": "2026-04-09T00:01:16.115929+00:00"
 }
