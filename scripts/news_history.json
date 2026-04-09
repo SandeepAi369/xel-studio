@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Build 3D Objects Using Voice Commands and AI",
-      "urls": [
-        "https://news.mit.edu/topic/robotics",
-        "https://spectrum.ieee.org/tag/robotics",
-        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
-        "https://spectrum.ieee.org/top-robotics-stories-2025",
-        "https://news.mit.edu/topic/robotics?page=1",
-        "https://spectrum.ieee.org/top-robotics-stories-2024",
-        "https://spectrum.ieee.org/ai-institute",
-        "https://spectrum.ieee.org/mits-ai-robotics-lab-director"
-      ],
-      "date": "2026-03-30T20:32:16.119573+00:00"
-    },
-    {
       "title": "MIT Researchers Develop Accessible Data Visualization Tools for Blind Users",
       "urls": [
         "https://www.amazon.com/screen/s?k=screen",
@@ -4545,7 +4531,16 @@
         "https://www.nutanix.com/theforecastbynutanix/profile/hugging-face-finds-open-source-ai-and-ml-models-that-meet-business-needs"
       ],
       "date": "2026-04-09T20:01:37.776526+00:00"
+    },
+    {
+      "title": "Biden Administration Adopts Calibri Font to Aid Screen Reader Users",
+      "urls": [
+        "https://medicalxpress.com/news/2023-12-low-vision-people-powerful-technology-barriers.html",
+        "https://www.cnib.ca/en/screen-readers",
+        "https://www.pcmag.com/series/accessibility-technology"
+      ],
+      "date": "2026-04-09T20:32:38.911632+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T20:01:37.776594+00:00"
+  "lastUpdated": "2026-04-09T20:32:38.911711+00:00"
 }
