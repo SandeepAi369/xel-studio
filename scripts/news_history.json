@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nepal Earthquake Kills Nearly 9000 And Destroys Over 600000 Buildings",
-      "urls": [
-        "https://www.who.int/publications/i/item/9789290225188"
-      ],
-      "date": "2026-03-30T17:10:08.835585+00:00"
-    },
-    {
       "title": "Merriam-Webster And Cambridge Define Accessibility For All Users",
       "urls": [
         "https://www.merriam-webster.com/dictionary/accessible",
@@ -4563,7 +4556,14 @@
         "https://www.youtube.com/watch?v=LoBmhEzI27Y"
       ],
       "date": "2026-04-09T17:01:15.034113+00:00"
+    },
+    {
+      "title": "PyTorch Powers 70% Of Top AI Research Papers In 2026",
+      "urls": [
+        "https://www.cmarix.com/blog/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-04-09T17:33:06.264268+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T17:01:15.034208+00:00"
+  "lastUpdated": "2026-04-09T17:33:06.264330+00:00"
 }
