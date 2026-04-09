@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News maintains a broad reach across the United States with its programming available in approxim",
-      "urls": [
-        "https://www.foxnews.com?msockid=2a3b125569ac65fb175f057968fd6483"
-      ],
-      "date": "2026-03-30T14:35:02.824597+00:00"
-    },
-    {
       "title": "MIT Hosts Generative AI Summit With 28% Coherence Breakthrough",
       "urls": [
         "https://news.mit.edu/2025/ai-system-learns-many-types-scientific-information-and-runs-experiments-discovering-new-materials-0925",
@@ -4575,7 +4568,14 @@
         "https://www.nature.com/articles/d41586-026-00347-9"
       ],
       "date": "2026-04-09T14:31:13.536489+00:00"
+    },
+    {
+      "title": "Wildlife Trade Threatens Biodiversity As CITES Struggles To Curb Illegal Exchanges",
+      "urls": [
+        "https://www.nrdc.org/issues/wildlife"
+      ],
+      "date": "2026-04-09T15:01:54.790986+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T14:31:13.536548+00:00"
+  "lastUpdated": "2026-04-09T15:01:54.791050+00:00"
 }
