@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Develop Accessible Data Visualization Tools for Blind Users",
-      "urls": [
-        "https://www.amazon.com/screen/s?k=screen",
-        "https://support.microsoft.com/en-us/windows/screen-mirroring-and-projecting-to-your-pc-or-wireless-display-5af9f371-c704-1c7f-8f0d-fa607551d09c",
-        "https://www.screenmobile.com/locations/riverside",
-        "https://www.merriam-webster.com/dictionary/screen",
-        "https://www.ritescreen.com",
-        "https://kotaku.com",
-        "https://www.loc.gov/nls",
-        "https://learningally.org",
-        "https://www.aboutamazon.com/news/devices/amazon-accessibility-features",
-        "https://news.mit.edu/2022/data-visualization-accessible-blind-0602"
-      ],
-      "date": "2026-03-30T21:01:32.436498+00:00"
-    },
-    {
-      "title": "NewsBreak Delivers Local Updates To 150 Million Users Monthly",
-      "urls": [
-        "https://www.foxnews.com?msockid=344a802f2fec698202db97032e66684b",
-        "https://www.newsbreak.com"
-      ],
-      "date": "2026-03-30T21:32:13.257496+00:00"
-    },
-    {
       "title": "Anthropic Sues Trump Administration Over Pentagon Security Designation",
       "urls": [
         "https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b"
@@ -4549,7 +4525,15 @@
         "https://www.facebook.com/LateNightSeth/posts/football-rivalries-are-cute-but-have-you-heard-about-cricket-rivalries/1320211016141461"
       ],
       "date": "2026-04-09T21:01:11.403285+00:00"
+    },
+    {
+      "title": "Eyejustread Launches AI Tool To Aid Dyslexic Readers",
+      "urls": [
+        "https://www.youtube.com/watch?v=sLXY7L0woPc",
+        "https://www.weforum.org/stories/2023/04/how-cognitive-diversity-and-disability-centred-ai-can-improve-social-inclusion"
+      ],
+      "date": "2026-04-09T21:32:22.416655+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T21:01:11.403340+00:00"
+  "lastUpdated": "2026-04-09T21:32:22.416727+00:00"
 }
