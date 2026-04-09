@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Institute for AI Safety and Public Policy Expansion",
-      "urls": [
-        "https://www.anthropic.com",
-        "https://www.anthropic.com/news",
-        "https://www.anthropic.com/learn",
-        "https://www.anthropic.com/company",
-        "https://www.anthropic.com/research",
-        "https://www.anthropic.com/news/the-anthropic-institute"
-      ],
-      "date": "2026-03-30T04:02:28.738619+00:00"
-    },
-    {
       "title": "Extreme Reunites for 2024 Tour Celebrating Funk Rock Legacy",
       "urls": [
         "https://en.wikipedia.org/wiki/Extreme_(band)",
@@ -4646,7 +4634,14 @@
         "https://www.youtube.com/watch?v=zZ3KjE1204s"
       ],
       "date": "2026-04-09T04:01:07.082136+00:00"
+    },
+    {
+      "title": "Sports Analytics Transforms Training With Real-Time Biometric Data",
+      "urls": [
+        "https://www.linkedin.com/pulse/transforming-sports-performance-how-data-technology-aller-mba-cscs-my5uc"
+      ],
+      "date": "2026-04-09T04:31:00.963886+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T04:01:07.082206+00:00"
+  "lastUpdated": "2026-04-09T04:31:00.963964+00:00"
 }
