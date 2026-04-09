@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households And Averages 1.9 Million Prime Time Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=08c04de53e676335113f5ac93f5c62fa"
-      ],
-      "date": "2026-03-30T18:31:57.942820+00:00"
-    },
-    {
       "title": "Moody's Economist Warns Of Recession As Oil Prices Surge",
       "urls": [
         "https://www.weforum.org/publications/global-risks-report-2023/in-full/1-global-risks-2023-today-s-crisis",
@@ -4556,7 +4549,15 @@
         "https://www.youtube.com/watch?v=ZeIMPqIrZMc"
       ],
       "date": "2026-04-09T18:31:25.394630+00:00"
+    },
+    {
+      "title": "Digital Twin Technology Models Pregnancies To Prevent Uterine Rupture",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
+        "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1646802/full"
+      ],
+      "date": "2026-04-09T19:02:10.424320+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T18:31:25.394712+00:00"
+  "lastUpdated": "2026-04-09T19:02:10.424388+00:00"
 }
