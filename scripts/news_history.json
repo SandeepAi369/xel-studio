@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Homes With Prime Time Audience Of 1.9 Million",
-      "urls": [
-        "https://www.foxnews.com?msockid=043f5611fa7660bb3378413dfb1761e2"
-      ],
-      "date": "2026-03-30T13:02:45.660621+00:00"
-    },
-    {
       "title": "Cedric Maake Convicted Of 27 Murders In Wemmer Pan Killing Spree",
       "urls": [
         "https://www.argos.co.uk",
@@ -4591,7 +4584,14 @@
         "https://www.nasa.gov/blogs/spacestation/2026/04/08/nasas-northrop-grumman-crs-24-mission-targets-april-11"
       ],
       "date": "2026-04-09T13:01:40.726372+00:00"
+    },
+    {
+      "title": "CuteCircuit Launches SoundShirt With 30 Vibration Patterns For Deaf Music Lovers",
+      "urls": [
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOopNA19H40hhe5cQg08YcWPaA9rauEux4JG4B9AyHVijNujsSKqn"
+      ],
+      "date": "2026-04-09T13:31:05.882261+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T13:01:40.726442+00:00"
+  "lastUpdated": "2026-04-09T13:31:05.882335+00:00"
 }
