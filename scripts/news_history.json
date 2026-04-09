@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CNN Delivers Global News To 120 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=1a060e54a44266ec35ba1978a51b67af",
-        "https://edition.cnn.com"
-      ],
-      "date": "2026-03-30T06:02:42.494277+00:00"
-    },
-    {
       "title": "Extreme Revives Legacy With Fan-Driven Song Tournament On Instagram",
       "urls": [
         "https://www.instagram.com/extreme_band",
@@ -4629,7 +4621,14 @@
         "https://www.runnersworld.com/races-places/a20823734/these-are-the-worlds-fastest-marathoners-and-marathon-courses"
       ],
       "date": "2026-04-09T06:01:15.149347+00:00"
+    },
+    {
+      "title": "UFC Announces 18 New Champions Including Islam Makhachev And Alexa Grasso",
+      "urls": [
+        "https://www.ufc.com/athletes"
+      ],
+      "date": "2026-04-09T06:31:04.151131+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T06:01:15.149400+00:00"
+  "lastUpdated": "2026-04-09T06:31:04.151196+00:00"
 }
