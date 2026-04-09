@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar And Wind Power Deliver Cheapest New Electricity At 3 To 5 Cents Per Kilowatt-Hour",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Renewable_energy",
-        "https://www.britannica.com/science/renewable-energy",
-        "https://www.eia.gov/energyexplained/renewable-sources",
-        "https://www.un.org/en/climatechange/what-is-renewable-energy",
-        "https://extension.psu.edu/what-is-renewable-energy",
-        "https://www.nationalgeographic.com/environment/article/renewable-energy",
-        "https://understand-energy.stanford.edu/energy-resources/renewable-energy/introduction-renewable-energy",
-        "https://iere.org/what-is-renewable-energy",
-        "https://electricrates.org/blog/renewable-electricity-sources-guide"
-      ],
-      "date": "2026-03-30T07:33:29.375670+00:00"
-    },
-    {
       "title": "Models Affirm 78 Percent Of Unethical User Prompts",
       "urls": [
         "https://www.science.org",
@@ -4626,7 +4611,14 @@
         "https://www.iea.org/reports/clean-energy-innovation"
       ],
       "date": "2026-04-09T07:31:00.574869+00:00"
+    },
+    {
+      "title": "NASA Announces Artemis Program Launch Schedule With Public Live Coverage",
+      "urls": [
+        "https://www.nasa.gov/events"
+      ],
+      "date": "2026-04-09T08:02:15.919777+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T07:31:00.574923+00:00"
+  "lastUpdated": "2026-04-09T08:02:15.919846+00:00"
 }
