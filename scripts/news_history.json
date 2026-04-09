@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Particles Exhibit Unique Behaviors In Fundamental Physics Studies",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Quantum",
-        "https://www.britannica.com/science/quantum",
-        "https://quantum-journal.org",
-        "https://science.nasa.gov/biological-physical/quantum-leaps",
-        "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics",
-        "https://www.nsf.gov/science-matters/curious-about-quantum",
-        "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
-        "https://www.merriam-webster.com/dictionary/quantum",
-        "https://www.nature.com/subjects/quantum-physics",
-        "https://www.anl.gov/science-101/quantum"
-      ],
-      "date": "2026-03-30T02:01:26.430372+00:00"
-    },
-    {
       "title": "Google Launches Updated Search Help Center With Advanced Tutorial Tools",
       "urls": [
         "https://support.google.com/websearch?hl=en"
@@ -4648,7 +4632,16 @@
         "https://www.youtube.com/watch?v=JTAplHwI56c"
       ],
       "date": "2026-04-09T02:01:07.739193+00:00"
+    },
+    {
+      "title": "Federica Brignone Wins Olympic Super-G Gold With Flawless Final Run",
+      "urls": [
+        "https://www.nbcolympics.com/news/federica-brignone-caps-remarkable-comeback-gold-medal-victory-olympic-super-g",
+        "https://dailybruin.com/2026/02/23/ucla-student-alysa-liu-wins-2-olympic-figure-skating-gold-medals",
+        "https://www.houstonpublicmedia.org/npr/2026/02/13/nx-s1-5712772/this-years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
+      ],
+      "date": "2026-04-09T02:30:58.537345+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T02:01:07.739248+00:00"
+  "lastUpdated": "2026-04-09T02:30:58.537421+00:00"
 }
