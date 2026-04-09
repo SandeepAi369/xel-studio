@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Sues Trump Administration Over Pentagon Security Designation",
-      "urls": [
-        "https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b"
-      ],
-      "date": "2026-03-30T22:01:24.972715+00:00"
-    },
-    {
       "title": "Nebius Group Breaks Ground on $1.2 Billion AI Data Center in Vineland",
       "urls": [
         "https://chatgpt.com",
@@ -4533,7 +4526,16 @@
         "https://www.weforum.org/stories/2023/04/how-cognitive-diversity-and-disability-centred-ai-can-improve-social-inclusion"
       ],
       "date": "2026-04-09T21:32:22.416655+00:00"
+    },
+    {
+      "title": "The Trump administration released a National Policy Framework for Artificial Intelligence outlining ",
+      "urls": [
+        "https://www.jdsupra.com/legalnews/emerging-federal-ai-policy-what-to-know-8882048",
+        "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker",
+        "https://www.congress.gov/crs-product/R48555"
+      ],
+      "date": "2026-04-09T22:02:51.016447+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T21:32:22.416727+00:00"
+  "lastUpdated": "2026-04-09T22:02:51.016518+00:00"
 }
