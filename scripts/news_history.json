@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nebius Group Breaks Ground on $1.2 Billion AI Data Center in Vineland",
-      "urls": [
-        "https://chatgpt.com",
-        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=3a3f3fcd49f361de202228e14827608e",
-        "https://cumberlandcountyhome.com/vinelands-new-ai-data-center-a-boost-for-south-jersey"
-      ],
-      "date": "2026-03-30T22:30:58.615425+00:00"
-    },
-    {
       "title": "Warhill Sports Complex hosts a range of youth baseball and softball fields in Williamsburg, serving ",
       "urls": [
         "https://www.visitwilliamsburg.com/listing/warhill-sports-complex/3689"
@@ -4535,7 +4526,14 @@
         "https://www.congress.gov/crs-product/R48555"
       ],
       "date": "2026-04-09T22:02:51.016447+00:00"
+    },
+    {
+      "title": "Meta has rebranded its 'Made with AI' label to 'AI info' across its platforms, signaling a shift tow",
+      "urls": [
+        "https://www.reddit.com/r/socialmedia/comments/1dya2s3/social_media_updates_marketing_news_you_missed"
+      ],
+      "date": "2026-04-09T22:32:24.864566+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T22:02:51.016518+00:00"
+  "lastUpdated": "2026-04-09T22:32:24.864632+00:00"
 }
