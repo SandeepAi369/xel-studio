@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Krita Releases Versions 5.3.0 and 6.0.0 With Enhanced Comic Tools and HDR Support",
-      "urls": [
-        "https://krita.org/en",
-        "https://krita-artists.org/t/krita-5-3-0-released/176519",
-        "https://gizmodo.com/download/krita",
-        "https://play.google.com/store/apps/details?id=org.krita&hl=en-IN",
-        "https://en.wikipedia.org/wiki/Krita",
-        "https://www.linuxteck.com/krita-5-3-released-2026",
-        "https://planet.kde.org/krita-news-2026-03-24-krita-5-3-0-released",
-        "https://www.howtogeek.com/krita-53-brings-new-tools-and-wayland-support-to-the-open-source-paint-app",
-        "https://apps.microsoft.com/detail/9n6x57zgrw96",
-        "https://store.steampowered.com/app/280680/Krita"
-      ],
-      "date": "2026-03-30T05:03:35.340850+00:00"
-    },
-    {
       "title": "United States And Israel Strike Iranian Nuclear Facilities",
       "urls": [
         "https://www.geopolitika.it/en/geopolitics-definition-meaning-and-role-of-a-foundational-discipline-in-understanding-global-power",
@@ -4638,7 +4622,15 @@
         "https://seekingalpha.com/market-news/technology"
       ],
       "date": "2026-04-09T05:01:12.103314+00:00"
+    },
+    {
+      "title": "Battlefy Hosts Over 500000 Tournaments For 20 Million Players",
+      "urls": [
+        "https://battlefy.com",
+        "https://www.youtube.com/watch?v=rG5XrdGFG9w"
+      ],
+      "date": "2026-04-09T05:30:56.290981+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T05:01:12.103384+00:00"
+  "lastUpdated": "2026-04-09T05:30:56.291050+00:00"
 }
