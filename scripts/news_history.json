@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin Leads Crypto Market With $1.35 Trillion Valuation",
-      "urls": [
-        "https://coinmarketcap.com/all/views/all",
-        "https://coinmarketcap.com/coins"
-      ],
-      "date": "2026-03-30T01:31:23.605744+00:00"
-    },
-    {
       "title": "Quantum Particles Exhibit Unique Behaviors In Fundamental Physics Studies",
       "urls": [
         "https://en.wikipedia.org/wiki/Quantum",
@@ -4649,7 +4641,14 @@
         "https://www.esgtoday.com/new-york-governor-proposes-pushing-back-climate-targets-that-have-become-costly-and-unattainable"
       ],
       "date": "2026-04-09T01:31:16.671224+00:00"
+    },
+    {
+      "title": "SpaceX Starship To Lead NASA Future Deep Space Missions",
+      "urls": [
+        "https://www.youtube.com/watch?v=JTAplHwI56c"
+      ],
+      "date": "2026-04-09T02:01:07.739193+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T01:31:16.671294+00:00"
+  "lastUpdated": "2026-04-09T02:01:07.739248+00:00"
 }
