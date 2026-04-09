@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Hosts Generative AI Summit With 28% Coherence Breakthrough",
-      "urls": [
-        "https://news.mit.edu/2025/ai-system-learns-many-types-scientific-information-and-runs-experiments-discovering-new-materials-0925",
-        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
-      ],
-      "date": "2026-03-30T15:10:39.910186+00:00"
-    },
-    {
       "title": "Walmart And Target Expand Wheelchair Availability Across U.S. Stores",
       "urls": [
         "https://www.amazon.com/Wheelchairs/b?node=4075961",
@@ -4575,7 +4567,18 @@
         "https://www.nrdc.org/issues/wildlife"
       ],
       "date": "2026-04-09T15:01:54.790986+00:00"
+    },
+    {
+      "title": "CoreWeave Lands $21 Billion Deal With Meta for AI Cloud Capacity",
+      "urls": [
+        "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations",
+        "https://www.cloudcomputing-news.net",
+        "https://aws.amazon.com/ai/infrastructure",
+        "https://www.coreweave.com",
+        "https://www.reuters.com/business/autos-transportation/companies-pouring-billions-advance-ai-infrastructure-2026-04-09"
+      ],
+      "date": "2026-04-09T15:31:16.825408+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T15:01:54.791050+00:00"
+  "lastUpdated": "2026-04-09T15:31:16.825489+00:00"
 }
