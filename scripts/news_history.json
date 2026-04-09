@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Launches New MV Series Medium-Duty Trucks For Urban Fleets",
-      "urls": [
-        "https://mexico.internationaltrucks.com/camiones-de-carga",
-        "https://www.360.internationaltrucks.com",
-        "https://mexico.internationaltrucks.com/camiones-torton"
-      ],
-      "date": "2026-03-30T07:03:39.561995+00:00"
-    },
-    {
       "title": "Solar And Wind Power Deliver Cheapest New Electricity At 3 To 5 Cents Per Kilowatt-Hour",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Renewable_energy",
@@ -4628,7 +4619,14 @@
         "https://www.youtube.com/watch?v=IvI7Io5Sric"
       ],
       "date": "2026-04-09T07:01:29.675979+00:00"
+    },
+    {
+      "title": "Iea Urges Accelerated Deployment Of Clean Energy Technologies",
+      "urls": [
+        "https://www.iea.org/reports/clean-energy-innovation"
+      ],
+      "date": "2026-04-09T07:31:00.574869+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T07:01:29.676048+00:00"
+  "lastUpdated": "2026-04-09T07:31:00.574923+00:00"
 }
