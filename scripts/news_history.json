@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ms Now Launches Live News Platform With Global Coverage",
-      "urls": [
-        "https://www.foxnews.com?msockid=1271cb096e2a6fdb0ab3dc256f766e6f",
-        "https://www.ms.now"
-      ],
-      "date": "2026-03-30T00:04:37.116683+00:00"
-    },
-    {
       "title": "TheTopTens Ranks 1980 U.S. Olympic Hockey Miracle On Ice As Greatest Sports Moment",
       "urls": [
         "https://www.thetoptens.com/sports/greatest-moments-sports-history",
@@ -4649,7 +4641,15 @@
         "https://bostoninstituteofanalytics.org/blog/genai-tools-of-the-week-6th-to-12th-dec-5-new-genai-apps-everyone-is-talking-about"
       ],
       "date": "2026-04-09T00:01:16.115844+00:00"
+    },
+    {
+      "title": "Scottie Scheffler is the early favorite to win the 2026 Masters Tournament, according to multiple be",
+      "urls": [
+        "https://www.bbc.com/sport/football",
+        "https://www.cbssports.com"
+      ],
+      "date": "2026-04-09T00:31:11.459170+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T00:01:16.115929+00:00"
+  "lastUpdated": "2026-04-09T00:31:11.459241+00:00"
 }
