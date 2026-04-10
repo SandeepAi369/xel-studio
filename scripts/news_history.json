@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Reports Carbon Dioxide Levels Surge To 420 Ppm In 2023",
-      "urls": [
-        "https://climate.nasa.gov/quizzes/carbon-quiz?intent=011",
-        "https://climate.nasa.gov/earth-now?event=eo_event_181218"
-      ],
-      "date": "2026-03-31T07:05:33.458833+00:00"
-    },
-    {
       "title": "Democrats Flip Two Republican House Seats in 2026 Special Elections",
       "urls": [
         "https://www.maryvilleforum.com/news/state_news/do-special-election-results-spell-doom-for-republicans-in-2026/article_94205eaa-9520-59e8-88c4-0af2bf36213e.html",
@@ -4512,7 +4504,15 @@
         "https://www.perkins.org/5-disabilitytech-companies-prioritizing-accessibility-and-safety-amid-climate-change"
       ],
       "date": "2026-04-10T07:01:16.029148+00:00"
+    },
+    {
+      "title": "Schlessinger Leads AI-Driven Drug Discovery Breakthrough at Mount Sinai",
+      "urls": [
+        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10",
+        "https://www.youtube.com/watch?v=6sxSLZYDGd4"
+      ],
+      "date": "2026-04-10T07:30:56.561285+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T07:01:16.029215+00:00"
+  "lastUpdated": "2026-04-10T07:30:56.561364+00:00"
 }
