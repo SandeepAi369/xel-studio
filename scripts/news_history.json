@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Releases Claude Opus 4.6 With Superior Code And Reasoning Performance",
-      "urls": [
-        "https://www.anthropic.com/claude/opus"
-      ],
-      "date": "2026-03-30T23:31:15.618320+00:00"
-    },
-    {
       "title": "Paris 2024 Adds Four New Sports Including Breaking And Surfing",
       "urls": [
         "https://www.olympics.com/en/sports"
@@ -4542,7 +4535,17 @@
         "https://www.youtube.com/watch?v=vixt-ZT3Ixw"
       ],
       "date": "2026-04-09T23:31:01.674645+00:00"
+    },
+    {
+      "title": "Anthropic Raises $13 Billion in Series F Funding Round",
+      "urls": [
+        "https://af.net/realtime/ai-startup-funding-news-highlights-latest-500m-deals",
+        "https://www.reddit.com/r/artificial/comments/1of0ojp/latest_ai_business_updates_acquisitions_deals",
+        "https://www.youtube.com/watch?v=H-pJo-pSe2w",
+        "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025"
+      ],
+      "date": "2026-04-10T00:01:23.725926+00:00"
     }
   ],
-  "lastUpdated": "2026-04-09T23:31:01.674696+00:00"
+  "lastUpdated": "2026-04-10T00:01:23.726024+00:00"
 }
