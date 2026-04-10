@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yahoo Mail offers a free email service with AI-powered tools to streamline inbox management and enha",
-      "urls": [
-        "https://mail.yahoo.com",
-        "https://login.yahoo.com",
-        "https://www.yahoo.com",
-        "https://mobile.yahoo.com/mail",
-        "https://help.yahoo.com/kb/SLN3407.html",
-        "https://us.yahoo.com",
-        "https://au.mobile.yahoo.com/mail",
-        "https://ca.mobile.yahoo.com/mail",
-        "https://downdetector.com/status/yahoo-mail",
-        "https://help.yahoo.com/kb/SLN5193.html"
-      ],
-      "date": "2026-03-31T12:03:07.880522+00:00"
-    },
-    {
       "title": "Renewable Energy Investment Hits 366 Billion In 2019",
       "urls": [
         "https://www.sciencedirect.com/journal/renewable-energy",
@@ -4493,7 +4477,15 @@
         "https://www.youtube.com/watch?v=n-s1rFnGHRU"
       ],
       "date": "2026-04-10T12:02:22.743016+00:00"
+    },
+    {
+      "title": "Two New Tb Vaccines Show Limited Protection In Trials",
+      "urls": [
+        "https://www.youtube.com/watch?v=KdAf6oDD8-c",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx"
+      ],
+      "date": "2026-04-10T12:31:20.901156+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T12:02:22.743094+00:00"
+  "lastUpdated": "2026-04-10T12:31:20.901230+00:00"
 }
