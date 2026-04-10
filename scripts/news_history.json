@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Launch AI System Converting Graphics To Audio Descriptions",
-      "urls": [
-        "https://www.csail.mit.edu/news/improving-accessibility-online-graphics-blind-users",
-        "https://toptechtidbits.com/how-voice-first-ai-could-soon-change-everything-for-blv-people",
-        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
-        "https://theconversation.com/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-but-still-face-barriers-to-the-digital-world-212600",
-        "https://discoversight.com/title-10-best-adaptive-technology-devices-for-blind-users-in-2025-from-a-blind-users-perspective-ṁ",
-        "https://www.iamhable.com/blogs/article/accessible-reading-and-assistive-tech-for-visually-impaired-readers-a-2025-guide",
-        "https://link.springer.com/article/10.1007/s10791-024-09460-7",
-        "https://veroniiiica.com/accessing-the-news-with-assistive-technology",
-        "https://www.besensable.com/post/visually-impaired-products"
-      ],
-      "date": "2026-03-31T21:01:28.691917+00:00"
-    },
-    {
-      "title": "Who World Health Organization Warns 2.5 Billion Will Have Hearing Loss By 2050",
-      "urls": [
-        "https://www.who.int/campaigns/world-hearing-day/2026",
-        "https://www.who.int/europe/news/item/12-04-2023-safeguarding-the-rights-of-deaf-people-in-ukraine",
-        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
-        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-ear-care",
-        "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
-      ],
-      "date": "2026-03-31T21:31:18.029075+00:00"
-    },
-    {
       "title": "Fox News Dominates Cable Ratings With Prime Time Audience Surge",
       "urls": [
         "https://www.foxnews.com?msockid=3416c65f8cb06c3b1c23d1728d1b6d9b"
@@ -4511,7 +4485,16 @@
         "https://www.tiktok.com/@valorantesports/video/7626372515329346846"
       ],
       "date": "2026-04-10T21:01:15.490510+00:00"
+    },
+    {
+      "title": "Global Assistive Tech Market To Reach $13.31 Billion By 2030",
+      "urls": [
+        "https://vocal.media/journal/assistive-technologies-for-visually-impaired-market-to-reach-13-3-b-by-2030",
+        "https://www.youtube.com/watch?v=C0EwclD_A40",
+        "https://afb.org/blog/entry/surviving-technology"
+      ],
+      "date": "2026-04-10T21:32:14.381117+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T21:01:15.490579+00:00"
+  "lastUpdated": "2026-04-10T21:32:14.381189+00:00"
 }
