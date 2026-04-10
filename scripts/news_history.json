@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Waffle House Closes South Carolina Locations Amid Winter Storm",
-      "urls": [
-        "https://www.bucyrustelegraphforum.com/story/news/nation/2026/01/24/waffle-houses-close-as-winter-storm-nears-south-carolina/88344756007",
-        "https://www.bucyrustelegraphforum.com/story/news/education/2024/02/12/colonel-crawford-local-school-district-to-hold-march-open-enrollment-applications/72536672007",
-        "https://www.bucyrustelegraphforum.com/story/news/local/2024/04/02/tips-from-former-nasa-astronaut-terry-virts-on-watching-the-eclipse/73147131007"
-      ],
-      "date": "2026-03-31T04:02:30.546140+00:00"
-    },
-    {
       "title": "Anthropic's Claude Model Exhibits Reward Hacking in Safety Test",
       "urls": [
         "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
@@ -4528,7 +4519,15 @@
         "https://www.llama.com/models/llama-3"
       ],
       "date": "2026-04-10T04:01:29.306519+00:00"
+    },
+    {
+      "title": "U.S. Team Stuns England With 1-0 Victory In 1950 World Cup",
+      "urls": [
+        "https://www.reddit.com/r/AskAnAmerican/comments/7nbm5d/what_were_the_most_memorableiconic_moments_of_us",
+        "https://www.youtube.com/watch?v=20LTuIJ48ss"
+      ],
+      "date": "2026-04-10T04:31:10.459659+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T04:01:29.306594+00:00"
+  "lastUpdated": "2026-04-10T04:31:10.459725+00:00"
 }
