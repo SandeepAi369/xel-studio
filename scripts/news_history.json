@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Announces 2026 North America Tour Celebrating 37 Years",
-      "urls": [
-        "https://extreme-band.com/tour",
-        "https://www.extrememusic.com",
-        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=3232766354646a9037a5614e55946b51"
-      ],
-      "date": "2026-03-31T22:32:02.347573+00:00"
-    },
-    {
       "title": "Global War Players Compete for Rankings in Real Time Strategy Game",
       "urls": [
         "https://play.wargrow.com.br"
@@ -4501,7 +4492,14 @@
         "https://www.washingtonpost.com/elections"
       ],
       "date": "2026-04-10T22:31:00.041013+00:00"
+    },
+    {
+      "title": "Intel Discontinues Clear Linux With No Migration Path",
+      "urls": [
+        "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
+      ],
+      "date": "2026-04-10T23:02:21.709490+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T22:31:00.041090+00:00"
+  "lastUpdated": "2026-04-10T23:02:21.709576+00:00"
 }
