@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable Energy Investment Hits 366 Billion In 2019",
-      "urls": [
-        "https://www.sciencedirect.com/journal/renewable-energy",
-        "https://www.unep.org/topics/energy/renewable-energy/renewable-energy"
-      ],
-      "date": "2026-03-31T12:36:15.791332+00:00"
-    },
-    {
       "title": "Nasdaq 100 fell into correction territory amid a sharp decline in major technology stocks, marking a",
       "urls": [
         "https://jumbleanswers.com/skippers-area",
@@ -4485,7 +4477,17 @@
         "https://www.news-medical.net/category/Medical-Research-News.aspx"
       ],
       "date": "2026-04-10T12:31:20.901156+00:00"
+    },
+    {
+      "title": "Artemis II Crew Splashes Down After Historic Lunar Orbit Mission",
+      "urls": [
+        "https://www.youtube.com/watch?v=zCM-Kwq91cc",
+        "https://www.youtube.com/watch?v=MITcYk0GOBo",
+        "https://www.youtube.com/watch?v=9KssfGHYf_s",
+        "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-comes-home-official-broadcast"
+      ],
+      "date": "2026-04-10T13:03:16.178545+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T12:31:20.901230+00:00"
+  "lastUpdated": "2026-04-10T13:03:16.178613+00:00"
 }
