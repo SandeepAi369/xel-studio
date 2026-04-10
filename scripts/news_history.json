@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wheelchair Rentals offers a range of mobility solutions across Arizona, including Scottsdale, Phoeni",
-      "urls": [
-        "https://azmediquip.com/medical-equipment-rent/wheelchair-rental-in-arizona",
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=03164f0696906e1537f9582b97a76fa2",
-        "https://www.target.com/c/mobility-home-health-care/-/N-4yinm",
-        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=03164f0696906e1537f9582b97a76fa2"
-      ],
-      "date": "2026-03-31T13:33:51.679521+00:00"
-    },
-    {
       "title": "Oil Markets Surge Amid Geopolitical Tensions in Middle East",
       "urls": [
         "https://oilprice.com/Geopolitics"
@@ -4482,7 +4472,16 @@
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoohw8P0PGcLr8hLyYBHGQ76thoKjqNrXmNlciZMJn8fxjHcmSwZ"
       ],
       "date": "2026-04-10T13:32:10.513804+00:00"
+    },
+    {
+      "title": "Bitcoin remains vulnerable to quantum attacks, with 35% of its supply at risk due to outdated wallet",
+      "urls": [
+        "https://www.coindesk.com",
+        "https://www.forbes.com/digital-assets/news/web3",
+        "https://aws.amazon.com/web3"
+      ],
+      "date": "2026-04-10T14:01:36.676978+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T13:32:10.513871+00:00"
+  "lastUpdated": "2026-04-10T14:01:36.677050+00:00"
 }
