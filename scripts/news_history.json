@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Dominates Cable Ratings With Prime Time Audience Surge",
-      "urls": [
-        "https://www.foxnews.com?msockid=3416c65f8cb06c3b1c23d1728d1b6d9b"
-      ],
-      "date": "2026-03-31T22:01:36.230754+00:00"
-    },
-    {
       "title": "Extreme Announces 2026 North America Tour Celebrating 37 Years",
       "urls": [
         "https://extreme-band.com/tour",
@@ -4501,7 +4494,14 @@
         "https://pitchbook.com/news/articles/ai-m-a-deals-drive-record-q1-for-high-grade-bonds-as-spreads-rise"
       ],
       "date": "2026-04-10T22:01:33.872552+00:00"
+    },
+    {
+      "title": "Kevin Ryan Wins Illinois Senate Primary With 52 Percent Vote",
+      "urls": [
+        "https://www.washingtonpost.com/elections"
+      ],
+      "date": "2026-04-10T22:31:00.041013+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T22:01:33.872622+00:00"
+  "lastUpdated": "2026-04-10T22:31:00.041090+00:00"
 }
