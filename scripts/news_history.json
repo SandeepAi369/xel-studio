@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Facebook Users Can Download Full App Via CCM",
-      "urls": [
-        "https://es.ccm.net/descargas/comunicacion/5426-facebook",
-        "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/2074-como-entrar-en-tu-facebook-directamente-sin-contrasena",
-        "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/915-que-hacer-si-olvidaste-tu-contrasena-de-facebook",
-        "https://es.ccm.net/descargas/comunicacion/6642-facebook-lite-para-android-apk",
-        "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/2916-como-buscar-personas-en-facebook"
-      ],
-      "date": "2026-03-31T03:31:11.742591+00:00"
-    },
-    {
       "title": "Waffle House Closes South Carolina Locations Amid Winter Storm",
       "urls": [
         "https://www.bucyrustelegraphforum.com/story/news/nation/2026/01/24/waffle-houses-close-as-winter-storm-nears-south-carolina/88344756007",
@@ -4529,7 +4518,17 @@
         "https://www.yahoo.com/news/articles/trump-name-zuckerberg-ellison-huang-131205854.html"
       ],
       "date": "2026-04-10T03:30:57.710662+00:00"
+    },
+    {
+      "title": "Meta Releases Llama 3.3 70B Model For Efficient High Performance AI Tasks",
+      "urls": [
+        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
+        "https://sherwood.news/tech/report-some-of-metas-new-ai-models-will-eventually-be-open-source",
+        "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "https://www.llama.com/models/llama-3"
+      ],
+      "date": "2026-04-10T04:01:29.306519+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T03:30:57.710723+00:00"
+  "lastUpdated": "2026-04-10T04:01:29.306594+00:00"
 }
