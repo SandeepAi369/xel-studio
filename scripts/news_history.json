@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And Israel Expand Strikes On Iranian Targets",
-      "urls": [
-        "https://www.foxnews.com?msockid=239c82e3b4d760872dcb95ceb5866115",
-        "https://www.fox9.com/news/iran-war-latest-middle-east"
-      ],
-      "date": "2026-03-31T06:31:58.420921+00:00"
-    },
-    {
       "title": "NASA Reports Carbon Dioxide Levels Surge To 420 Ppm In 2023",
       "urls": [
         "https://climate.nasa.gov/quizzes/carbon-quiz?intent=011",
@@ -4512,7 +4504,15 @@
         "https://www.canarymedia.com"
       ],
       "date": "2026-04-10T06:31:18.022057+00:00"
+    },
+    {
+      "title": "Alison Sheridan Highlights Voice And Eye Tracking Innovations At CES 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=b5DvFC4SaUE",
+        "https://www.perkins.org/5-disabilitytech-companies-prioritizing-accessibility-and-safety-amid-climate-change"
+      ],
+      "date": "2026-04-10T07:01:16.029148+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T06:31:18.022133+00:00"
+  "lastUpdated": "2026-04-10T07:01:16.029215+00:00"
 }
