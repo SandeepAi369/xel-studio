@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Reports 2024 Warmest Year On Record",
-      "urls": [
-        "https://public.wmo.int/files/state-of-global-climate-2024"
-      ],
-      "date": "2026-03-31T18:06:51.261539+00:00"
-    },
-    {
       "title": "Fox News reaches approximately 80 million households across the United States, maintaining a dominan",
       "urls": [
         "https://www.foxnews.com?msockid=2a22b04d02f768652d08a76003de69ca"
@@ -4510,7 +4503,15 @@
         "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
       ],
       "date": "2026-04-10T18:01:42.235537+00:00"
+    },
+    {
+      "title": "Hugging Face Launches RT-2 And RT-3 Open Source Robotics Models",
+      "urls": [
+        "https://www.youtube.com/watch?v=3Tgyt_ucN_k",
+        "https://www.rtinsights.com/hugging-face-releases-open-source-robots-in-two-models"
+      ],
+      "date": "2026-04-10T18:32:09.992435+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T18:01:42.235605+00:00"
+  "lastUpdated": "2026-04-10T18:32:09.992501+00:00"
 }
