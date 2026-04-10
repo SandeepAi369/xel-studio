@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization releases the Mental Health Atlas 2024, a comprehensive global survey asses",
-      "urls": [
-        "https://www.who.int/publications/i/item/9789240114487"
-      ],
-      "date": "2026-03-31T15:08:42.325969+00:00"
-    },
-    {
       "title": "NASA Links Rising Global Temperatures to Increased Wildfire Activity",
       "urls": [
         "https://climate.nasa.gov/images-of-change?intent=131",
@@ -4496,7 +4489,18 @@
         "https://www.youtube.com/watch?v=3ZThyUMZMpc"
       ],
       "date": "2026-04-10T15:01:54.333737+00:00"
+    },
+    {
+      "title": "Cyclone Vaianu Triggers Red Warnings With 120 Km H Winds",
+      "urls": [
+        "https://nationaltoday.com/us/oh/lima/news/2026/04/05/early-april-2026-flooding-and-severe-thunderstorms-batter-midwest",
+        "https://www.youtube.com/watch?v=UeGuUbeiQww",
+        "https://www.youtube.com/watch?v=ix1qNwrnDqY",
+        "https://www.foxla.com/news/socal-storm-rain-snow-timeline-april-9-2026",
+        "https://weather.com/science/weather-explainers/video/weekend-travel-delays-airports-roads-severe-storms-rain-snow"
+      ],
+      "date": "2026-04-10T15:31:18.929286+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T15:01:54.333800+00:00"
+  "lastUpdated": "2026-04-10T15:31:18.929358+00:00"
 }
