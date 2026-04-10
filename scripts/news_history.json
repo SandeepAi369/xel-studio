@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households With 1.9 Million Prime Time Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=02f62d3a395365220c1d3a17387064f6"
-      ],
-      "date": "2026-03-31T19:03:43.945817+00:00"
-    },
-    {
       "title": "Gillette Infinity Esports Trains Players 10 Hours Daily In Mexico City Facility",
       "urls": [
         "https://www.espn.com/espn/feature/story/_/id/29118440/a-look-gillette-infinity-esports-gaming-house-mexico-city",
@@ -4512,7 +4505,16 @@
         "https://aimultiple.com/generative-ai-applications"
       ],
       "date": "2026-04-10T19:01:11.586450+00:00"
+    },
+    {
+      "title": "Apple Google Microsoft Expand Into Healthcare With AI And Cloud Tools",
+      "urls": [
+        "https://www.youtube.com/shorts/gCVfwBQnHhc",
+        "https://www.youtube.com/watch?v=cvl98AlTagg",
+        "https://www.reddit.com/r/accelerate/comments/1sf3xb9/anthropic_launches_project_glasswing_claude"
+      ],
+      "date": "2026-04-10T19:31:00.568823+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T19:01:11.586518+00:00"
+  "lastUpdated": "2026-04-10T19:31:00.568878+00:00"
 }
