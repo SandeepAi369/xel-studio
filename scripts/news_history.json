@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "WHO Reports 430 Million People Affected by Hearing Loss Worldwide",
-      "urls": [
-        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
-        "https://www.who.int/health-topics/hearing-loss",
-        "https://www.who.int/news-room/facts-in-pictures/detail/deafness",
-        "https://www.who.int/news-room/questions-and-answers/item/how-to-be-hearing-loss-friendly",
-        "https://www.who.int/news-room/feature-stories/detail/the-deafblind-community--fighting-not-to-be-forgotten"
-      ],
-      "date": "2026-03-31T11:32:24.256332+00:00"
-    },
-    {
       "title": "Yahoo Mail offers a free email service with AI-powered tools to streamline inbox management and enha",
       "urls": [
         "https://mail.yahoo.com",
@@ -4496,7 +4485,15 @@
         "https://io.net/blog/the-state-of-ai-cloud-infrastructure"
       ],
       "date": "2026-04-10T11:31:06.279827+00:00"
+    },
+    {
+      "title": "United States And China Escalate Trade Tensions With Mutual Tariff Hikes",
+      "urls": [
+        "https://www.itic.org/policy/trade-investment",
+        "https://www.youtube.com/watch?v=n-s1rFnGHRU"
+      ],
+      "date": "2026-04-10T12:02:22.743016+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T11:31:06.279888+00:00"
+  "lastUpdated": "2026-04-10T12:02:22.743094+00:00"
 }
