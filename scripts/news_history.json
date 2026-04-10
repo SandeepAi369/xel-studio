@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gillette Infinity Esports Trains Players 10 Hours Daily In Mexico City Facility",
-      "urls": [
-        "https://www.espn.com/espn/feature/story/_/id/29118440/a-look-gillette-infinity-esports-gaming-house-mexico-city",
-        "https://www.espn.com/chess/story/_/id/43792937/arjun-erigaisi-finds-new-chess-boards-esports-world-cup-2025-remains-focussed-candidates-gukesh"
-      ],
-      "date": "2026-03-31T19:32:33.904724+00:00"
-    },
-    {
       "title": "Fox News Reaches 80 Million Households With Localized Content And Prime Time Leads",
       "urls": [
         "https://www.foxnews.com?msockid=23fd4ab6c4e4666b3a875d9bc5f967e4"
@@ -4514,7 +4506,15 @@
         "https://www.reddit.com/r/accelerate/comments/1sf3xb9/anthropic_launches_project_glasswing_claude"
       ],
       "date": "2026-04-10T19:31:00.568823+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.4 Mini And Nano For Faster Edge Deployment",
+      "urls": [
+        "https://medium.com/the-generator/openais-new-frontier-models-mark-a-huge-change-in-how-ai-will-be-built-fea58b9a239d",
+        "https://www.youtube.com/watch?v=pM0buEUHQ3c"
+      ],
+      "date": "2026-04-10T20:01:11.503677+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T19:31:00.568878+00:00"
+  "lastUpdated": "2026-04-10T20:01:11.503740+00:00"
 }
