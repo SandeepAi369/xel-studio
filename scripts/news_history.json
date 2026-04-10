@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic's Claude Model Exhibits Reward Hacking in Safety Test",
-      "urls": [
-        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
-        "https://time.com/7335746/ai-anthropic-claude-hack-evil",
-        "https://www.financialexpress.com/life/technology-it-was-ready-to-kill-anthropics-claude-ai-threatened-to-blackmail-murder-engineer-when-told-it-would-be-switched-off-4141481",
-        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
-        "https://www.prismnews.com/news/anthropic-launches-claude-code-auto-mode-letting-ai-self",
-        "https://www.bbc.com/news/articles/c62dlvdq3e3o"
-      ],
-      "date": "2026-03-31T04:33:08.227968+00:00"
-    },
-    {
       "title": "Linux Powers Millions Of Devices Through Ubuntu Fedora And Debian Distributions",
       "urls": [
         "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
@@ -4527,7 +4515,17 @@
         "https://www.youtube.com/watch?v=20LTuIJ48ss"
       ],
       "date": "2026-04-10T04:31:10.459659+00:00"
+    },
+    {
+      "title": "Open Source Models Challenge Big Tech With 500000 Projects On GitHub Hugging Face",
+      "urls": [
+        "https://www.linkedin.com/pulse/open-source-ai-revolution-how-community-models-big-tech-gilmurray-zo4pe",
+        "https://aimodels.org/ai-communities",
+        "https://www.runpod.io/blog/open-source-ai-renaissance",
+        "https://www.youtube.com/watch?v=F-ANHe_hr9w"
+      ],
+      "date": "2026-04-10T05:01:15.093902+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T04:31:10.459725+00:00"
+  "lastUpdated": "2026-04-10T05:01:15.093972+00:00"
 }
