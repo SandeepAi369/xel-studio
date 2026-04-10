@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Local Weather Alerts Using Zip Code Data",
-      "urls": [
-        "https://www.foxnews.com?msockid=311983b0f7236ef7022f949df6006f39"
-      ],
-      "date": "2026-03-31T03:01:36.745491+00:00"
-    },
-    {
       "title": "Facebook Users Can Download Full App Via CCM",
       "urls": [
         "https://es.ccm.net/descargas/comunicacion/5426-facebook",
@@ -4528,7 +4521,15 @@
         "https://www.youtube.com/watch?v=6AE3zdpQxH8"
       ],
       "date": "2026-04-10T03:01:17.006157+00:00"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Champions U.S. AI Infrastructure Investment",
+      "urls": [
+        "https://www.youtube.com/watch?v=OT_9HqGQzhw",
+        "https://www.yahoo.com/news/articles/trump-name-zuckerberg-ellison-huang-131205854.html"
+      ],
+      "date": "2026-04-10T03:30:57.710662+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T03:01:17.006212+00:00"
+  "lastUpdated": "2026-04-10T03:30:57.710723+00:00"
 }
