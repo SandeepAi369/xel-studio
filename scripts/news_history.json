@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare Gov Opens Enrollment For Affordable Care Act Plans",
-      "urls": [
-        "https://www.healthcare.gov",
-        "https://www.healthcare.gov/create-account",
-        "https://www.healthcare.gov/login",
-        "https://www.healthcare.gov/see-plans",
-        "https://www.healthcare.gov/get-answers",
-        "https://www.healthcare.gov/screener",
-        "https://www.healthcare.gov/contact-us",
-        "https://www.healthcare.gov/lower-costs"
-      ],
-      "date": "2026-03-31T02:01:40.635773+00:00"
-    },
-    {
       "title": "Who World Health Organization Reports Over 1 Billion With Mental Health Disorders",
       "urls": [
         "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
@@ -4542,7 +4528,14 @@
         "https://www.youtube.com/watch?v=sJdiNezVJ4k"
       ],
       "date": "2026-04-10T02:01:08.738031+00:00"
+    },
+    {
+      "title": "Ibm Simulates Lithium Hydride Electron Interactions With 127 Qubit Processor",
+      "urls": [
+        "https://www.barrons.com/articles/quantum-computing-ibm-materials-19a9da60"
+      ],
+      "date": "2026-04-10T02:31:06.649667+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T02:01:08.738086+00:00"
+  "lastUpdated": "2026-04-10T02:31:06.649731+00:00"
 }
