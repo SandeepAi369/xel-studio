@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households With Localized Content And Prime Time Leads",
-      "urls": [
-        "https://www.foxnews.com?msockid=23fd4ab6c4e4666b3a875d9bc5f967e4"
-      ],
-      "date": "2026-03-31T20:02:23.858837+00:00"
-    },
-    {
       "title": "Pakistan Leads Four-Nation Push For U.S.-Iran Talks",
       "urls": [
         "https://gulfnews.com/world/americas/how-nations-are-pushing-diplomacy-to-end-the-war-1.500485154",
@@ -4514,7 +4507,15 @@
         "https://www.youtube.com/watch?v=pM0buEUHQ3c"
       ],
       "date": "2026-04-10T20:01:11.503677+00:00"
+    },
+    {
+      "title": "League Of Legends And Counter Strike 2 Lead Esports Game Nominations",
+      "urls": [
+        "https://escharts.com/upcoming-tournaments",
+        "https://thegameawards.com/winners/best-esports-game"
+      ],
+      "date": "2026-04-10T20:31:05.410241+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T20:01:11.503740+00:00"
+  "lastUpdated": "2026-04-10T20:31:05.410308+00:00"
 }
