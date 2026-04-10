@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pakistan Leads Four-Nation Push For U.S.-Iran Talks",
-      "urls": [
-        "https://gulfnews.com/world/americas/how-nations-are-pushing-diplomacy-to-end-the-war-1.500485154",
-        "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy",
-        "https://www.npr.org/2026/03/29/nx-s1-5765344/pakistan-diplomatic-discussions-iran-war",
-        "https://theconversation.com/war-on-iran-during-nuclear-negotiations-undermines-the-uss-ability-to-talk-peace-around-the-world-and-the-effects-wont-end-when-trump-leaves-office-279079",
-        "https://www.news18.com/world/iran-war-us-troops-82-airborne-deploy-peace-talks-west-asia-conflict-coercive-diplomacy-trump-ws-l-9997153.html"
-      ],
-      "date": "2026-03-31T20:31:09.975773+00:00"
-    },
-    {
       "title": "MIT Researchers Launch AI System Converting Graphics To Audio Descriptions",
       "urls": [
         "https://www.csail.mit.edu/news/improving-accessibility-online-graphics-blind-users",
@@ -4515,7 +4504,14 @@
         "https://thegameawards.com/winners/best-esports-game"
       ],
       "date": "2026-04-10T20:31:05.410241+00:00"
+    },
+    {
+      "title": "Riot Games Overhauls VCT With Global Promotion System",
+      "urls": [
+        "https://www.tiktok.com/@valorantesports/video/7626372515329346846"
+      ],
+      "date": "2026-04-10T21:01:15.490510+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T20:31:05.410308+00:00"
+  "lastUpdated": "2026-04-10T21:01:15.490579+00:00"
 }
