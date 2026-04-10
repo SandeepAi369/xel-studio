@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who: World Health Organization Reports 1.3 Billion Live With Disability",
-      "urls": [
-        "https://www.who.int/europe/news-room/fact-sheets/item/disability",
-        "https://www.who.int/europe/health-topics/disability",
-        "https://www.who.int/news-room/facts-in-pictures/detail/disabilities",
-        "https://www.who.int/news-room/events/detail/2025/04/02/default-calendar/global-disability-summit-2025",
-        "https://www.who.int/westernpacific/health-topics/disability",
-        "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
-        "https://www.who.int/es/news-room/fact-sheets/detail/disability-and-health"
-      ],
-      "date": "2026-03-31T10:31:49.059692+00:00"
-    },
-    {
       "title": "MIT-IBM Watson AI Lab Develops Efficient Multimodal Systems For Medical Diagnostics",
       "urls": [
         "https://news.mit.edu/2025/creating-ai-that-matters-1021"
@@ -4501,7 +4488,14 @@
         "https://www.floridadisaster.org/weather"
       ],
       "date": "2026-04-10T10:31:21.912692+00:00"
+    },
+    {
+      "title": "Anthropic Acquires Coefficient Bio for $400 Million in Stock",
+      "urls": [
+        "https://www.siliconreport.com/category/startups"
+      ],
+      "date": "2026-04-10T11:02:15.369494+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T10:31:21.912762+00:00"
+  "lastUpdated": "2026-04-10T11:02:15.369556+00:00"
 }
