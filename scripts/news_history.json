@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oil Markets Surge Amid Geopolitical Tensions in Middle East",
-      "urls": [
-        "https://oilprice.com/Geopolitics"
-      ],
-      "date": "2026-03-31T14:33:24.552902+00:00"
-    },
-    {
       "title": "World Health Organization releases the Mental Health Atlas 2024, a comprehensive global survey asses",
       "urls": [
         "https://www.who.int/publications/i/item/9789240114487"
@@ -4481,7 +4474,21 @@
         "https://aws.amazon.com/web3"
       ],
       "date": "2026-04-10T14:01:36.676978+00:00"
+    },
+    {
+      "title": "PyTorch Foundation Attracts Triple Conference Registrations in 2024",
+      "urls": [
+        "https://opencv.org/blog/pytorch-vs-tensorflow",
+        "https://aimultiple.com/open-source-ai-platforms",
+        "https://news.ycombinator.com/item?id=22193029",
+        "https://pytorch.org/blog/2024-year-in-review",
+        "https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023",
+        "https://arxiv.org/html/2508.04035v1",
+        "https://en.wikipedia.org/wiki/PyTorch",
+        "https://store.outrightcrm.com/blog/open-source-ai-libraries"
+      ],
+      "date": "2026-04-10T14:34:11.352411+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T14:01:36.677050+00:00"
+  "lastUpdated": "2026-04-10T14:34:11.352484+00:00"
 }
