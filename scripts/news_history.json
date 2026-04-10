@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Data Shows Rising CO2 Levels Drive Global Warming",
-      "urls": [
-        "https://climate.nasa.gov/quizzes/ocean-quiz/3/9",
-        "https://climate.nasa.gov/quizzes/quiz-co2/8/9"
-      ],
-      "date": "2026-03-31T17:32:46.614203+00:00"
-    },
-    {
       "title": "World Meteorological Organization Reports 2024 Warmest Year On Record",
       "urls": [
         "https://public.wmo.int/files/state-of-global-climate-2024"
@@ -4511,7 +4503,14 @@
         "https://www.instagram.com/reel/DW3E2-jDzeU"
       ],
       "date": "2026-04-10T17:32:17.059403+00:00"
+    },
+    {
+      "title": "Replika AI Companions Reduce Anxiety for Neurodivergent Users",
+      "urls": [
+        "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
+      ],
+      "date": "2026-04-10T18:01:42.235537+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T17:32:17.059475+00:00"
+  "lastUpdated": "2026-04-10T18:01:42.235605+00:00"
 }
