@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Terminal 1 Launches 10000 Square Meter Immersive Entertainment Hub In Brussels",
-      "urls": [
-        "https://www.visit.brussels/en/visitors/what-to-do/pop-and-geek-culture-in-brussels",
-        "https://terminal1.brussels/en",
-        "https://www.visit.brussels/fr/visiteurs/que-faire/la-culture-pop-et-geek-a-bruxelles",
-        "https://www.visit.brussels/en/visitors/what-to-do/vr",
-        "https://terminal1.brussels",
-        "https://www.visit.brussels/en/visitors/venue-details.battlekart-tourandtaxis.280378",
-        "https://games.brussels"
-      ],
-      "date": "2026-03-31T06:03:08.340898+00:00"
-    },
-    {
       "title": "United States And Israel Expand Strikes On Iranian Targets",
       "urls": [
         "https://www.foxnews.com?msockid=239c82e3b4d760872dcb95ceb5866115",
@@ -4518,7 +4505,14 @@
         "https://finance.yahoo.com/video/ai-weekly-mega-earnings-forecasts-113952012.html"
       ],
       "date": "2026-04-10T06:01:24.247917+00:00"
+    },
+    {
+      "title": "Canary Media Reports U.S. Grid Emissions Fell 4% in 2024",
+      "urls": [
+        "https://www.canarymedia.com"
+      ],
+      "date": "2026-04-10T06:31:18.022057+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T06:01:24.247983+00:00"
+  "lastUpdated": "2026-04-10T06:31:18.022133+00:00"
 }
