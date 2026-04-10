@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Docs Supports Real-Time Editing For Up To 100 Users Simultaneously",
-      "urls": [
-        "https://www.google.com",
-        "https://www.google.us/travel",
-        "https://about.google/products",
-        "https://en.wikipedia.org/wiki/Google",
-        "https://www.googleapps.com/docs/about?hl=en",
-        "https://search.google/google-app",
-        "https://apps.apple.com/us/app/google/id284815942"
-      ],
-      "date": "2026-03-31T05:31:11.530508+00:00"
-    },
-    {
       "title": "Terminal 1 Launches 10000 Square Meter Immersive Entertainment Hub In Brussels",
       "urls": [
         "https://www.visit.brussels/en/visitors/what-to-do/pop-and-geek-culture-in-brussels",
@@ -4522,7 +4509,16 @@
         "https://www.youtube.com/watch?v=5Lc_jQkpTIA"
       ],
       "date": "2026-04-10T05:31:00.611362+00:00"
+    },
+    {
+      "title": "Meta Launches MTIA 400 Chip to Challenge Nvidia and AMD",
+      "urls": [
+        "https://www.youtube.com/watch?v=uSvT8pouEgA",
+        "https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-big-tech-stocks-point-to-strong-open-ai-industry-seeks-to-allay-fears-144220399.html",
+        "https://finance.yahoo.com/video/ai-weekly-mega-earnings-forecasts-113952012.html"
+      ],
+      "date": "2026-04-10T06:01:24.247917+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T05:31:00.611425+00:00"
+  "lastUpdated": "2026-04-10T06:01:24.247983+00:00"
 }
