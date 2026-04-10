@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Powers Millions Of Devices Through Ubuntu Fedora And Debian Distributions",
-      "urls": [
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://www.techradar.com/best/best-linux-distros",
-        "https://distrowatch.com",
-        "https://www.howtogeek.com/693588/how-to-install-linux",
-        "https://opensource.com/resources/linux"
-      ],
-      "date": "2026-03-31T05:01:29.108342+00:00"
-    },
-    {
       "title": "Google Docs Supports Real-Time Editing For Up To 100 Users Simultaneously",
       "urls": [
         "https://www.google.com",
@@ -4525,7 +4514,15 @@
         "https://www.youtube.com/watch?v=F-ANHe_hr9w"
       ],
       "date": "2026-04-10T05:01:15.093902+00:00"
+    },
+    {
+      "title": "Ohio School for the Blind Students Gain Independence with Free Sight Savers America Devices",
+      "urls": [
+        "https://abc6onyourside.com/news/local/ohio-school-for-the-blind-students-gain-independence-with-new-assistive-technology-sight-savers-america",
+        "https://www.youtube.com/watch?v=5Lc_jQkpTIA"
+      ],
+      "date": "2026-04-10T05:31:00.611362+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T05:01:15.093972+00:00"
+  "lastUpdated": "2026-04-10T05:31:00.611425+00:00"
 }
