@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Paris 2024 Adds Four New Sports Including Breaking And Surfing",
-      "urls": [
-        "https://www.olympics.com/en/sports"
-      ],
-      "date": "2026-03-31T00:02:30.172509+00:00"
-    },
-    {
       "title": "Konami Launches eFootball 2024 With Major Gameplay Overhaul",
       "urls": [
         "https://www.konami.com/efootball/ar/page/overview",
@@ -4545,7 +4538,14 @@
         "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025"
       ],
       "date": "2026-04-10T00:01:23.725926+00:00"
+    },
+    {
+      "title": "Us Aid Drop Spurs Global Foreign Assistance Decline",
+      "urls": [
+        "https://www.aljazeera.com/economy"
+      ],
+      "date": "2026-04-10T00:31:10.151575+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T00:01:23.726024+00:00"
+  "lastUpdated": "2026-04-10T00:31:10.151646+00:00"
 }
