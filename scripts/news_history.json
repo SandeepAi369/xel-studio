@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households With 1.9 Million Prime Time Viewers",
-      "urls": [
-        "https://www.foxnews.com?msockid=117b5388c3b062d424fc44a5c26b6339"
-      ],
-      "date": "2026-03-31T09:02:33.307326+00:00"
-    },
-    {
       "title": "Jannik Sinner Wins Miami Open To Complete Sunshine Double",
       "urls": [
         "https://en.wikipedia.org/wiki/Tennis",
@@ -4504,7 +4497,14 @@
         "https://www.musc.edu/content-hub/News/2026/04/06/ai-symposium"
       ],
       "date": "2026-04-10T09:01:12.416308+00:00"
+    },
+    {
+      "title": "CuteCircuit developed the SoundShirt, a wearable tech garment that translates live music into vibrat",
+      "urls": [
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOorFbT2FRTGRyBKeNpMB4L2ELd3clLEU64M724dMxLNCXajwt21Y"
+      ],
+      "date": "2026-04-10T09:31:26.034585+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T09:01:12.416364+00:00"
+  "lastUpdated": "2026-04-10T09:31:26.034656+00:00"
 }
