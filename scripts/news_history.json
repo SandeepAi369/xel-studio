@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bayer Partners With Cradle To Accelerate Antibody Development Using Generative AI",
-      "urls": [
-        "https://www.genengnews.com/topics/artificial-intelligence/pharmas-ai-investment-signals-new-drug-discovery-paradigm",
-        "https://www.mckinsey.com/featured-insights/the-next-normal/biotech",
-        "https://pharmanewslive.com/news/ai-set-to-transform-pharma-drug-development-could-speed-up-and-boost-profits-by-10-says-bernstein.html",
-        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706",
-        "https://pharmaphorum.com/news/ai-drug-development-news-round",
-        "https://www.biospace.com/business/ai-is-changing-pharmas-bottom-line-now-but-not-through-splashy-drug-discovery",
-        "https://www.youtube.com/watch?v=NXGa7rjaUPM",
-        "https://www.drugtargetreview.com/article/192951/ai-in-drug-discovery-2025-in-review",
-        "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html",
-        "https://www.weforum.org/stories/2026/01/how-ai-is-reshaping-drug-discovery"
-      ],
-      "date": "2026-04-01T11:03:55.686743+00:00"
-    },
-    {
       "title": "Openai Backs Isara In $94 Million Ai Swarm Funding Round",
       "urls": [
         "https://www.eenewseurope.com/en/ai-startup-funding-hits-220-billion-in-two-months",
@@ -4408,7 +4392,20 @@
         "https://abcnews.com/Politics"
       ],
       "date": "2026-04-11T11:02:28.309166+00:00"
+    },
+    {
+      "title": "Physicists at Silicon Quantum Computing Build Nine-Nuclear-Qubit Chip with 99 99 Fidelity",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/02/260216084525.htm",
+        "https://quantumcomputingreport.com/news",
+        "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+        "https://www.nature.com/articles/d41586-026-01054-1",
+        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
+        "https://www.princeton.edu/news/2025/11/05/princeton-puts-quantum-computing-fast-track-new-qubit",
+        "https://www.livescience.com/technology/computing/scientists-build-most-accurate-quantum-computing-chip-ever-thanks-to-new-silicon-based-computing-architecture"
+      ],
+      "date": "2026-04-11T11:31:17.327004+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T11:02:28.309230+00:00"
+  "lastUpdated": "2026-04-11T11:31:17.327103+00:00"
 }
