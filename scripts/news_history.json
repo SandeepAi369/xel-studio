@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia CEO Jensen Huang Mandates AI Integration Across All Employee Workflows",
-      "urls": [
-        "https://www.scmp.com/topics/tech-ceos",
-        "https://www.youtube.com/watch?v=41zobye2Uuk",
-        "https://www.youtube.com/watch?v=a0_eaEQXt9A",
-        "https://www.msn.com/en-us/news/politics/jensen-huang-and-mark-zuckerberg-among-tech-leaders-appointed-to-white-house-tech-council/ar-AA1ZnWp6",
-        "https://www.investing.com/news/stock-market-news/trump-to-name-zuckerberg-ellison-huang-to-tech-panel-wsj-reports-4580051",
-        "https://cio.economictimes.indiatimes.com/news/corporate-news/trump-names-nvidia-meta-ceos-to-science-and-tech-council/129820311",
-        "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments",
-        "https://qz.com/nvidia-employees-ai-use-jensen-huang",
-        "https://finance.yahoo.com/news/jensen-huang-wants-nvidia-employees-172611230.html",
-        "https://www.youtube.com/watch?v=nrhMUJg30_8"
-      ],
-      "date": "2026-04-01T13:03:10.571026+00:00"
-    },
-    {
       "title": "Northeastern Researchers Develop Autonomous Wheelchair With Robotic Arm",
       "urls": [
         "https://keywaymedical.com/innovations-in-mobility-aids-a-look-at-the-latest-technologies",
@@ -4397,7 +4381,15 @@
         "https://finance.yahoo.com/news/google-apple-enter-multi-ai-162042206.html"
       ],
       "date": "2026-04-11T13:01:05.178615+00:00"
+    },
+    {
+      "title": "Caney Mountain Crayfish And Barrens Tiger Beetle Face Extinction Risks",
+      "urls": [
+        "https://www.conservation.org/news",
+        "https://www.natureserve.org/biodiversity"
+      ],
+      "date": "2026-04-11T13:31:40.943898+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T13:01:05.178686+00:00"
+  "lastUpdated": "2026-04-11T13:31:40.943976+00:00"
 }
