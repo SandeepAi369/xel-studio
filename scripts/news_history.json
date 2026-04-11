@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Potsdam Institute Reports Global Warming Rate Nearly Doubles Since 2013",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/climate",
-        "https://www.cnn.com/climate",
-        "https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature",
-        "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts",
-        "https://www.un.org/en/climatechange/reports",
-        "https://www.nature.com/nclimate",
-        "https://www.bbc.com/news/topics/cmj34zmwm1zt",
-        "https://www.nbcnews.com/climate-in-crisis"
-      ],
-      "date": "2026-04-01T06:31:52.788291+00:00"
-    },
-    {
       "title": "IOM Deploys Emergency Aid to Displaced Civilians in Lebanon and Syria",
       "urls": [
         "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
@@ -4455,7 +4441,18 @@
         "https://cmr.berkeley.edu/2026/01/the-coming-disruption-how-open-source-ai-will-challenge-closed-model-giants"
       ],
       "date": "2026-04-11T06:31:15.183053+00:00"
+    },
+    {
+      "title": "U.S. And Iran Hold Direct Talks In Islamabad Amid Ceasefire Push",
+      "urls": [
+        "https://www.aljazeera.com/video/upfront/2026/4/10/can-iran-negotiations-lead-to-peace",
+        "https://www.youtube.com/watch?v=q1sJ875n7b0",
+        "https://www.pbs.org/newshour/world/what-we-know-and-dont-know-about-iran-war-negotiations",
+        "https://www.youtube.com/watch?v=jdYRelgJoF0",
+        "https://www.bbc.com/news/articles/cvgkv9y97n0o"
+      ],
+      "date": "2026-04-11T07:01:08.361356+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T06:31:15.183118+00:00"
+  "lastUpdated": "2026-04-11T07:01:08.361416+00:00"
 }
