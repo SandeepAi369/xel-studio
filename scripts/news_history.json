@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Green sea turtles are making a significant recovery from near extinction, according to the Internati",
-      "urls": [
-        "https://www.campaignfornature.org/news/tag/wildlife",
-        "https://wwf.panda.org/discover/our_focus/wildlife_practice/species_news",
-        "https://www.theguardian.com/environment/conservation",
-        "https://earth.org/how-recent-conservation-wins-proved-nature-can-bounce-back",
-        "https://www.biologicaldiversity.org/news",
-        "https://www.conservation.org/news"
-      ],
-      "date": "2026-04-01T10:32:12.650408+00:00"
-    },
-    {
       "title": "Bayer Partners With Cradle To Accelerate Antibody Development Using Generative AI",
       "urls": [
         "https://www.genengnews.com/topics/artificial-intelligence/pharmas-ai-investment-signals-new-drug-discovery-paradigm",
@@ -4412,7 +4400,15 @@
         "https://www.youtube.com/watch?v=Rc3t4sGI4ao"
       ],
       "date": "2026-04-11T10:30:55.750582+00:00"
+    },
+    {
+      "title": "Republican Candidate Wins Georgia Runoff for Greene's House Seat",
+      "urls": [
+        "https://apnews.com/politics",
+        "https://abcnews.com/Politics"
+      ],
+      "date": "2026-04-11T11:02:28.309166+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T10:30:55.750645+00:00"
+  "lastUpdated": "2026-04-11T11:02:28.309230+00:00"
 }
