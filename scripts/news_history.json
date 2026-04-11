@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source AI Models To Match OpenAI Within 16 Months",
-      "urls": [
-        "https://medium.com/@kierangilmurray/open-source-ai-revolution-how-community-models-are-disrupting-big-tech-aebd86163430",
-        "https://www.ictworks.org/open-source-foundational-ai-models",
-        "https://www.nytimes.com/paidpost/2024-meta-ai/2024-meta-ai/opensource-ai-innovation.html",
-        "https://cmr.berkeley.edu/2026/01/the-coming-disruption-how-open-source-ai-will-challenge-closed-model-giants",
-        "https://www.eetimes.com/open-source-ai-gains-ground-as-rising-costs-push-shift-to-smaller-models",
-        "https://stackoverflow.blog/2025/04/07/open-source-ai-are-younger-developers-leading-the-way",
-        "https://www.linuxfoundation.org/blog/open-source-ai-is-transforming-the-economy",
-        "https://www.youtube.com/watch?v=sXVbWkoCVaA"
-      ],
-      "date": "2026-04-01T05:02:19.430171+00:00"
-    },
-    {
       "title": "Jaws Empowers Blind Musicians With Cakewalk Sonar Integration",
       "urls": [
         "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
@@ -4468,7 +4454,14 @@
         "https://web3newswire.com?srsltid=AfmBOooOcYl002QM9YPqjObs9X-eBjSelUnuz-66LY52DXRUt8QnIpn6"
       ],
       "date": "2026-04-11T05:01:24.292562+00:00"
+    },
+    {
+      "title": "Whill Deploys AI Wheelchairs With LiDAR For Urban Navigation",
+      "urls": [
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOor7UnVDCe2k9CjzjZUAIdMao21PrmaPFtTQ1NE-0zl1TqWXgj_P"
+      ],
+      "date": "2026-04-11T05:30:59.023884+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T05:01:24.292671+00:00"
+  "lastUpdated": "2026-04-11T05:30:59.023950+00:00"
 }
