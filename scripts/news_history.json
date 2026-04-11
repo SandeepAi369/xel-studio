@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society Report Urges Inclusion Of Disabled People In Digital Assistive Technology Design",
-      "urls": [
-        "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities",
-        "https://connsensereport.com/2025/08/10/accessible-innovations-in-technology-2025-updates",
-        "https://govcio.com/resources/article/six-exciting-advancements-in-accessible-technology",
-        "https://royalsociety.org/news/2025/06/disability-technology",
-        "https://www.rickhansen.com/news-stories/blog/accessible-futures-how-technology-helping-people-disabilities-thrive",
-        "https://www.forbes.com/sites/billschiffmiller/2025/01/20/accessibility-tech-showcased-at-ces-2025-is-transforming-shared-experiences",
-        "https://www.bbc.com/news/articles/cz7pdy3yq3qo",
-        "https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024",
-        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility"
-      ],
-      "date": "2026-04-01T21:31:04.381523+00:00"
-    },
-    {
       "title": "Agility Robotics Scales Digit Robot Production in Oregon Factory",
       "urls": [
         "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
@@ -4332,7 +4317,14 @@
         "https://www.youtube.com/watch?v=I2HZ_9RO3u8"
       ],
       "date": "2026-04-11T21:31:00.191799+00:00"
+    },
+    {
+      "title": "Boston Dynamics Atlas Robot Masters Warehouse Tasks With AI",
+      "urls": [
+        "https://spectrum.ieee.org/tag/humanoid-robots"
+      ],
+      "date": "2026-04-11T22:01:11.963414+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T21:31:00.191864+00:00"
+  "lastUpdated": "2026-04-11T22:01:11.963466+00:00"
 }
