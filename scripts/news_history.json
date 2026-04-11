@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Launches Enhanced My Social Security Portal",
-      "urls": [
-        "https://www.ssa.gov/myaccount/create.html"
-      ],
-      "date": "2026-03-31T23:32:19.021804+00:00"
-    },
-    {
       "title": "Xmind Users Open Files Across Windows macOS And Linux Platforms",
       "urls": [
         "https://www.zhihu.com/question/635737934",
@@ -4499,7 +4492,14 @@
         "https://news.vt.edu/articles/2024/10/sa-wellness-digital-well-being-challenges.html"
       ],
       "date": "2026-04-10T23:30:55.565877+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT 5.4 Thinking For Premium Users",
+      "urls": [
+        "https://www.thurrott.com/a-i/333418/openai-releases-new-gpt-5-4-flagship-model"
+      ],
+      "date": "2026-04-11T00:02:12.035143+00:00"
     }
   ],
-  "lastUpdated": "2026-04-10T23:30:55.565944+00:00"
+  "lastUpdated": "2026-04-11T00:02:12.035209+00:00"
 }
