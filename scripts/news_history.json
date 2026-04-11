@@ -1,36 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jaws Empowers Blind Musicians With Cakewalk Sonar Integration",
-      "urls": [
-        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
-        "https://rackham.umich.edu/discover-rackham/full/pioneering-accessibility-early-computing-screen-readers-and-new-tech",
-        "https://www.govtech.com/computing/digital-inaccessibility-blind-and-low-vision-people-have-powerful-tech-but-still-face-digital-barriers",
-        "https://www.youtube.com/watch?v=rUG1L0498Js",
-        "https://accessibility.wayne.edu/news/how-screen-readers-work-60460",
-        "https://pubmed.ncbi.nlm.nih.gov/40614067",
-        "https://www.youtube.com/watch?v=yWrqoOSViDY",
-        "https://blog.usablenet.com/a-screen-reader-users-honest-take"
-      ],
-      "date": "2026-04-01T05:31:56.570314+00:00"
-    },
-    {
-      "title": "Siemens Tests Humanoid Robots in German Factory Trial",
-      "urls": [
-        "https://technologymagazine.com/news/automation-the-humanoid-robots-inside-siemens-factory",
-        "https://thehumanoid.ai/newsroom",
-        "https://www.iotworldtoday.com/robotics/humanoid-robots",
-        "https://humanoid.press",
-        "https://www.robotics247.com/topic/tag/Humanoid",
-        "https://www.therobotreport.com",
-        "https://interestingengineering.com/ai-robotics/lifelike-humanoid-robot-sparks-debate",
-        "https://www.youtube.com/watch?v=inG-6mJOXFg",
-        "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden",
-        "https://www.youtube.com/watch?v=l-CmzOLo34g"
-      ],
-      "date": "2026-04-01T06:01:13.747627+00:00"
-    },
-    {
       "title": "Potsdam Institute Reports Global Warming Rate Nearly Doubles Since 2013",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/climate",
@@ -4461,7 +4431,21 @@
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOor7UnVDCe2k9CjzjZUAIdMao21PrmaPFtTQ1NE-0zl1TqWXgj_P"
       ],
       "date": "2026-04-11T05:30:59.023884+00:00"
+    },
+    {
+      "title": "Cerebras Unveils 4 Trillion Transistor Chip Doubling Nvidia Speed",
+      "urls": [
+        "https://www.gurufocus.com/news/4096190/amd-amd-unveils-new-chip-to-challenge-nvidia-in-ai-hardware-market?mobile=true",
+        "https://www.theglobeandmail.com/investing/markets/stocks/AMD/pressreleases/29249700/new-ai-chip-leaves-nvidia-amd-and-intel-in-the-dust-with-20x-faster-speeds-and-over-4-trillion-transistors",
+        "https://www.youtube.com/watch?v=h2Iz3B4GkWc",
+        "https://finance.yahoo.com/news/nvidia-amd-showcased-newest-ai-154143605.html",
+        "https://www.aol.com/articles/amd-targeting-nvidia-ai-lead-153221218.html",
+        "https://finance.yahoo.com/markets/stocks/articles/nvidia-advanced-micro-devices-sounded-132600579.html",
+        "https://www.thestreet.com/technology/nvidia-move-deals-a-major-blow-to-amd-intel-and-arm",
+        "https://www.youtube.com/watch?v=IfU201u9J08"
+      ],
+      "date": "2026-04-11T06:02:42.951651+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T05:30:59.023950+00:00"
+  "lastUpdated": "2026-04-11T06:02:42.951724+00:00"
 }
