@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Xmind Users Open Files Across Windows macOS And Linux Platforms",
-      "urls": [
-        "https://www.zhihu.com/question/635737934",
-        "https://www.zhihu.com/question/453589364"
-      ],
-      "date": "2026-04-01T00:04:40.026960+00:00"
-    },
-    {
       "title": "Hugging Face Launches Trending Papers With Meta AI And Papers With Code",
       "urls": [
         "https://www.zhihu.com/org/huggingface",
@@ -4499,7 +4491,17 @@
         "https://www.thurrott.com/a-i/333418/openai-releases-new-gpt-5-4-flagship-model"
       ],
       "date": "2026-04-11T00:02:12.035143+00:00"
+    },
+    {
+      "title": "Sports Technology Market To Surpass 96 Billion By 2033",
+      "urls": [
+        "https://www.linkedin.com/pulse/tech-innovations-sports-performance-analysis-deep-dive-patil-93lbe",
+        "https://finance.yahoo.com/news/sports-technology-market-insights-companies-125000113.html",
+        "https://www.missioncloud.com/blog/future-trends-in-sports-analytics-lessons-from-the-field",
+        "https://wsc-sports.com/blog/industry-insights/why-more-teams-are-switching-to-ai-powered-sports-analytics"
+      ],
+      "date": "2026-04-11T00:31:19.432494+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T00:02:12.035209+00:00"
+  "lastUpdated": "2026-04-11T00:31:19.432569+00:00"
 }
