@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Deep Research Feature For Gemini Advanced Users",
-      "urls": [
-        "https://insiderph.com/googles-gemini-ai-rolls-out-deep-research-to-revolutionize-information-gathering",
-        "https://www.kukarella.com/news/gemini-deep-think-tackles-complex-research-challenges-p1771218000",
-        "https://generativeai.pub/unveiling-gemini-google-deepminds-multimodal-ai-family-challenges-gpt-4-with-superior-e7cc7724d3e9",
-        "https://www.youtube.com/watch?v=RagkHetxdJs",
-        "https://deepmind.google",
-        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
-        "https://www.youtube.com/watch?v=r1uvEz7MkDY",
-        "https://www.foxbusiness.com/technology/google-consolidates-ai-focused-deepmind-research-teams",
-        "https://deepmind.google/models/gemini",
-        "https://www.youtube.com/watch?v=NNkCAL9tk6A"
-      ],
-      "date": "2026-04-01T19:30:57.402585+00:00"
-    },
-    {
       "title": "United States Proposes New AI Chip Export Rules For Large Shipments",
       "urls": [
         "https://tradecouncil.org/category/news/technology-trade-policy",
@@ -4359,7 +4343,14 @@
         "https://www.reddit.com/r/TechGawker/comments/1s9rbvp/anthropic_talking_about_ai_safety_while_its_own"
       ],
       "date": "2026-04-11T19:30:56.589881+00:00"
+    },
+    {
+      "title": "Fungi extinction risk nearly one in three studied species face extinction due to deforestation and c",
+      "urls": [
+        "https://earth.org/biodiversity"
+      ],
+      "date": "2026-04-11T20:01:07.257146+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T19:30:56.589943+00:00"
+  "lastUpdated": "2026-04-11T20:01:07.257217+00:00"
 }
