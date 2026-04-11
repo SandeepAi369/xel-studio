@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "IOM Deploys Emergency Aid to Displaced Civilians in Lebanon and Syria",
-      "urls": [
-        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
-        "https://www.hrw.org/topic/refugees-and-migrants",
-        "https://www.unrefugees.org/emergencies/ukraine",
-        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
-        "https://www.unhcr.org/us/news/briefing-notes/unhcr-mobilizing-across-region-middle-east-crisis-escalates",
-        "https://www.iom.int/escalating-conflict-middle-east-growing-humanitarian-crisis",
-        "https://www.pbs.org/newshour/tag/migrant-crisis"
-      ],
-      "date": "2026-04-01T07:04:02.935326+00:00"
-    },
-    {
       "title": "Talkspace To Be Acquired For $835 Million By Qualified Health",
       "urls": [
         "https://www.businesswire.com/newsroom/industry/health/telemedicine",
@@ -4452,7 +4439,15 @@
         "https://www.bbc.com/news/articles/cvgkv9y97n0o"
       ],
       "date": "2026-04-11T07:01:08.361356+00:00"
+    },
+    {
+      "title": "Accelerates Drug Discovery With Machine Learning Breakthrough",
+      "urls": [
+        "https://www.drugdiscoverynews.com/weekly-rundown-anthropic-and-lilly-s-deals-prove-ai-is-becoming-biopharma-s-biggest-infrastructure-bet-17118",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406033"
+      ],
+      "date": "2026-04-11T07:30:51.707368+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T07:01:08.361416+00:00"
+  "lastUpdated": "2026-04-11T07:30:51.707439+00:00"
 }
