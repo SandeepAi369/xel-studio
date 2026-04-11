@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA And NOAA Report Sea Levels Rising 4.6 Millimeters Per Year",
-      "urls": [
-        "https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate",
-        "https://climate.nasa.gov/quizzes/ocean-quiz/4/9"
-      ],
-      "date": "2026-04-01T02:01:18.920199+00:00"
-    },
-    {
       "title": "Nasa And Noaa Confirm Earth On Track To Exceed 1.5°C Warming By 2031",
       "urls": [
         "https://phys.org/earth-news",
@@ -4492,7 +4484,14 @@
         "https://www.youtube.com/watch?v=kvz9SW09-q4"
       ],
       "date": "2026-04-11T02:01:15.170271+00:00"
+    },
+    {
+      "title": "Imf Warns Global Inflation And Slow Growth Threaten Economic Stability",
+      "urls": [
+        "https://seekingalpha.com/news/4573839-global-economy-faces-rising-inflation-and-slower-growth-imf-s-director"
+      ],
+      "date": "2026-04-11T02:31:02.700649+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T02:01:15.170337+00:00"
+  "lastUpdated": "2026-04-11T02:31:02.700717+00:00"
 }
