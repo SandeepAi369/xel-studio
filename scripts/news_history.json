@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Proposes New AI Chip Export Rules For Large Shipments",
-      "urls": [
-        "https://tradecouncil.org/category/news/technology-trade-policy",
-        "https://www.trade.gov/tech",
-        "https://www.cta.tech/topics/trade-and-tariffs",
-        "https://www.itic.org/news-events/news-releases/tech-industry-and-?p=6",
-        "https://m.youtube.com/watch?v=LpsaeaTKngg&pp=0gcJCdsKAYcqIYzv",
-        "https://www.weforum.org/stories/2024/10/ai-regulation-international-trade-what-know-this-month",
-        "https://www.itic.org/news-events/news-releases/sustained-tariffs-damage-tech-innovation-u-s-global-leadership",
-        "https://itif.org/issues/non-tariff-attacks",
-        "https://apnews.com/hub/tariffs",
-        "https://www.news18.com/world/us-mulls-new-global-rules-for-ai-chip-exports-could-require-foreign-investment-report-ws-l-9945091.html"
-      ],
-      "date": "2026-04-01T20:01:18.610518+00:00"
-    },
-    {
       "title": "NASA is preparing for the Artemis II mission, a crewed flyby of the Moon that marks the first human ",
       "urls": [
         "https://theconversation.com/topics/scientific-discovery-10843",
@@ -4350,7 +4334,15 @@
         "https://earth.org/biodiversity"
       ],
       "date": "2026-04-11T20:01:07.257146+00:00"
+    },
+    {
+      "title": "Midjourney has released an updated generative AI model in 2025 that generates high-resolution images",
+      "urls": [
+        "https://www.neo.space/blog/new-ai-tools",
+        "https://www.youtube.com/watch?v=vU42JgrVo2Y"
+      ],
+      "date": "2026-04-11T20:30:57.982003+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T20:01:07.257217+00:00"
+  "lastUpdated": "2026-04-11T20:30:57.982065+00:00"
 }
