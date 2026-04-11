@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Identifies Top Global Risks For 2026",
-      "urls": [
-        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
-        "https://www.weforum.org/publications/global-cybersecurity-outlook-2026"
-      ],
-      "date": "2026-04-01T01:31:13.242655+00:00"
-    },
-    {
       "title": "NASA And NOAA Report Sea Levels Rising 4.6 Millimeters Per Year",
       "urls": [
         "https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate",
@@ -4484,7 +4476,14 @@
         "https://afb.org/blog/entry/future-accessible-tech"
       ],
       "date": "2026-04-11T01:02:14.782044+00:00"
+    },
+    {
+      "title": "Sitetracker Launches Scout AI To Accelerate Solar Project Development",
+      "urls": [
+        "https://www.solarpowerworldonline.com/category/industry-news"
+      ],
+      "date": "2026-04-11T01:31:15.318636+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T01:02:14.782107+00:00"
+  "lastUpdated": "2026-04-11T01:31:15.318696+00:00"
 }
