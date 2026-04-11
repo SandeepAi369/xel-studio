@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. And Israel Launch Airstrikes To Secure Iranian Airspace",
-      "urls": [
-        "https://www.youtube.com/watch?v=HeriORbvRU4",
-        "https://www.newsweek.com/iran-war-live-updates-israel-iran-trade-fire-trump-talks-diplomacy-11747865",
-        "https://www.youtube.com/watch?v=ztCho1eDsyM",
-        "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran",
-        "https://www.atlanticcouncil.org/dispatches/experts-react-how-the-world-is-responding-to-the-us-israeli-war-with-iran"
-      ],
-      "date": "2026-04-01T12:02:49.455032+00:00"
-    },
-    {
       "title": "Usain Bolt Shatters 100m World Record With 9.69 Second Dash",
       "urls": [
         "https://www.youtube.com/watch?v=EvZMNcMfu-A",
@@ -4399,7 +4388,20 @@
         "https://www.yahoo.com/news/articles/health-experts-deploy-groundbreaking-ai-160000608.html"
       ],
       "date": "2026-04-11T12:01:30.057504+00:00"
+    },
+    {
+      "title": "Leju Robotics Launches First High-Volume Humanoid Production Line With Dongfang Precision",
+      "urls": [
+        "https://www.robotics247.com/topic/tag/Humanoid",
+        "https://www.iotworldtoday.com/robotics/humanoid-robots",
+        "https://www.foxnews.com/tech/humanoid-robots-hit-mass-production-china",
+        "https://www.therobotreport.com",
+        "https://humanoid.press",
+        "https://www.aol.com/articles/humanoid-robots-hit-mass-production-170044001.html",
+        "https://www.youtube.com/watch?v=Vq0W85mnYU0"
+      ],
+      "date": "2026-04-11T12:31:15.840790+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T12:01:30.057601+00:00"
+  "lastUpdated": "2026-04-11T12:31:15.840851+00:00"
 }
