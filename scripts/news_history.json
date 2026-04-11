@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Aws And Linux Foundation Launch OpenSearch Software Foundation",
-      "urls": [
-        "https://www.linux.com",
-        "https://9to5linux.com",
-        "https://www.linuxinsider.com/section/community",
-        "https://itsfoss.com/news",
-        "https://www.linuxfoundation.org/press",
-        "https://techcommunity.microsoft.com/category/azure/blog/linuxandopensourceblog",
-        "https://lwn.net",
-        "https://www.linuxtoday.com",
-        "https://www.reddit.com/r/linux/comments/jpixq4/best_news_source_for_linux",
-        "https://github.blog/open-source"
-      ],
-      "date": "2026-04-01T14:33:29.514364+00:00"
-    },
-    {
       "title": "Qure.ai Gains FDA Clearance For AI Chest X-Ray Tool",
       "urls": [
         "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time",
@@ -4381,7 +4365,16 @@
         "https://www.linuxfoundation.org/resources/publications"
       ],
       "date": "2026-04-11T14:30:57.705277+00:00"
+    },
+    {
+      "title": "PyTorch has solidified its position as a leading deep learning framework, favored by researchers for",
+      "urls": [
+        "https://www.cointelligence.com/content/the-most-powerful-open-source-ai-tools-available-now",
+        "https://www.facebook.com/pytorch/posts/pytorch-foundation-is-expanding-its-open-source-ai-stack-with-safetensors-execut/943106055013074",
+        "https://is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2026-171"
+      ],
+      "date": "2026-04-11T15:01:06.607617+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T14:30:57.705345+00:00"
+  "lastUpdated": "2026-04-11T15:01:06.607672+00:00"
 }
