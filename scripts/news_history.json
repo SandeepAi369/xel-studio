@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Earnings Shake Markets Amid AI Spending Concerns",
-      "urls": [
-        "https://bloomberg.com/latest/tech-company-earnings",
-        "https://www.youtube.com/watch?v=sGakJSUHD9Y",
-        "https://www.marketwatch.com/investing/stocks/tech-stocks?gaa_at=eafs&gaa_n=AWEtsqdW1djxZnbVtRmlm3Erb6Kri99nGUXCvLle7vFzLbVWfyFR-BEWqIvQ&gaa_ts=69ccd43e&gaa_sig=iOZzsUSsl87EArlc_83wn04Ygb-cN9ZSQek8I2ZkfsxhfIxUS0EpExtdRAqQGUBiEbZ7ZTGOpQMKXffFToc4-A%3D%3D",
-        "https://www.youtube.com/watch?v=3ls3yC6_aME",
-        "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-rout-flashing-112815599.html",
-        "https://investingnews.com/top-tech-news",
-        "https://finance.yahoo.com/research-hub/screener/growth_technology_stocks",
-        "https://finance.yahoo.com/sectors/technology"
-      ],
-      "date": "2026-04-01T08:02:10.486726+00:00"
-    },
-    {
       "title": "Seven World Records Set in Track and Field Over Nine Days",
       "urls": [
         "https://www.nytimes.com/athletic/6144421/2025/02/19/seven-athletics-world-records-in-one-week-february-analysis",
@@ -4439,7 +4425,15 @@
         "https://www.sciencenews.org/article/2025-scientific-discoveries-record"
       ],
       "date": "2026-04-11T08:01:06.093350+00:00"
+    },
+    {
+      "title": "Elana Meyers Taylor Wins First Olympic Gold in Women’s Bobsled",
+      "urls": [
+        "https://www.foxnews.com/sports/american-elana-meyers-taylor-finally-captures-gold-medal-winter-olympics-makes-team-usa-history",
+        "https://www.facebook.com/wcvb5/posts/the-us-olympic-team-won-its-record-breaking-11th-gold-medal-of-the-winter-games-/1455770123245738"
+      ],
+      "date": "2026-04-11T08:31:16.286696+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T08:01:06.093444+00:00"
+  "lastUpdated": "2026-04-11T08:31:16.286767+00:00"
 }
