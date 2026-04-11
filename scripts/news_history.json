@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Removes Safety Pause Clause From Scaling Policy",
-      "urls": [
-        "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge",
-        "https://www.forbes.com/sites/conormurray/2026/02/09/anthropic-ai-safety-researcher-warns-of-world-in-peril-in-resignation",
-        "https://www.yahoo.com/news/articles/anthropic-forced-removal-u-government-220000390.html",
-        "https://aibusiness.com/generative-ai/anthropic-downgrades-its-ai-safety-policy",
-        "https://fortune.com/article/why-is-anthropic-ceo-dario-amodei-deeply-uncomfortable-companies-in-charge-ai-regulating-themselves",
-        "https://www.youtube.com/watch?v=eLqNoZP0vFU"
-      ],
-      "date": "2026-04-01T16:03:37.172439+00:00"
-    },
-    {
       "title": "Australia's Cricket Dominance Confirmed By 4 Million NRL Final Viewers",
       "urls": [
         "https://sports.yahoo.com/articles/season-improbable-incredible-144800461.html",
@@ -4369,7 +4357,14 @@
         "https://mlfa.org/how-government-surveillance-and-big-tech-erase-your-privacy-rights"
       ],
       "date": "2026-04-11T16:01:11.310614+00:00"
+    },
+    {
+      "title": "Eileen Gu secured three medals at the 2026 Winter Olympics, including one gold and two silvers, soli",
+      "urls": [
+        "https://www.olympics.com/en/milano-cortina-2026/news/eileen-gu-on-historic-winter-olympics-2026-rising-tide-raises-all-boats"
+      ],
+      "date": "2026-04-11T16:31:03.337967+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T16:01:11.310676+00:00"
+  "lastUpdated": "2026-04-11T16:31:03.338035+00:00"
 }
