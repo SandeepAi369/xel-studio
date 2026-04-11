@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Acquires 30 AI Startups To Boost Siri And On-Device Learning",
-      "urls": [
-        "https://flippa.com/blog/acquisitions/artificial-intelligence-industry-acquisitions"
-      ],
-      "date": "2026-04-01T15:33:52.966905+00:00"
-    },
-    {
       "title": "Anthropic Removes Safety Pause Clause From Scaling Policy",
       "urls": [
         "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge",
@@ -4368,7 +4361,15 @@
         "https://www.polsinelli.com/publications/politics-of-ai-regulation-federal-government-vs-states"
       ],
       "date": "2026-04-11T15:30:55.779903+00:00"
+    },
+    {
+      "title": "Big Tech Tracks 10000 Data Points Per User Monthly",
+      "urls": [
+        "https://www.youtube.com/watch?v=us69h0Wda8M",
+        "https://mlfa.org/how-government-surveillance-and-big-tech-erase-your-privacy-rights"
+      ],
+      "date": "2026-04-11T16:01:11.310614+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T15:30:55.779960+00:00"
+  "lastUpdated": "2026-04-11T16:01:11.310676+00:00"
 }
