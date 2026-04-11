@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA is preparing for the Artemis II mission, a crewed flyby of the Moon that marks the first human ",
-      "urls": [
-        "https://theconversation.com/topics/scientific-discovery-10843",
-        "https://news.columbia.edu/content/research-discovery",
-        "https://www.livescience.com/news/page/4",
-        "https://www.worldwidecancerresearch.org/our-latest-news/news-and-press/our-top-cancer-research-breakthroughs-of-2025",
-        "https://www.nytimes.com/section/science",
-        "https://www.cnn.com/science",
-        "https://www.theguardian.com/science",
-        "https://www.nbcnews.com/science"
-      ],
-      "date": "2026-04-01T20:31:07.162634+00:00"
-    },
-    {
       "title": "Jordan Stolz won gold in the men's 500-meter speedskating race, setting a new Olympic record with a ",
       "urls": [
         "https://www.facebook.com/nytimes/posts/breaking-news-from-the-athletic-american-speedskater-jordan-stolz-set-another-ol/1298325132149947",
@@ -4342,7 +4328,15 @@
         "https://www.youtube.com/watch?v=vU42JgrVo2Y"
       ],
       "date": "2026-04-11T20:30:57.982003+00:00"
+    },
+    {
+      "title": "Rodtang Dominates Rival, Haggerty Claims Flyweight Muay Thai Title",
+      "urls": [
+        "https://www.mmafighting.com",
+        "https://www.youtube.com/watch?v=OCZq6npp-KI"
+      ],
+      "date": "2026-04-11T21:03:07.291719+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T20:30:57.982065+00:00"
+  "lastUpdated": "2026-04-11T21:03:07.291784+00:00"
 }
