@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qure.ai Gains FDA Clearance For AI Chest X-Ray Tool",
-      "urls": [
-        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156",
-        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
-        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
-        "https://www.ama-assn.org/topics/health-care-ai",
-        "https://www.qure.ai/us/newsroom",
-        "https://www.youtube.com/watch?v=5kwyuYJ2xEA"
-      ],
-      "date": "2026-04-01T15:08:04.555592+00:00"
-    },
-    {
       "title": "Apple Acquires 30 AI Startups To Boost Siri And On-Device Learning",
       "urls": [
         "https://flippa.com/blog/acquisitions/artificial-intelligence-industry-acquisitions"
@@ -4374,7 +4361,14 @@
         "https://is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2026-171"
       ],
       "date": "2026-04-11T15:01:06.607617+00:00"
+    },
+    {
+      "title": "White House Signs Executive Order 14365 To Standardize National AI Policy",
+      "urls": [
+        "https://www.polsinelli.com/publications/politics-of-ai-regulation-federal-government-vs-states"
+      ],
+      "date": "2026-04-11T15:30:55.779903+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T15:01:06.607672+00:00"
+  "lastUpdated": "2026-04-11T15:30:55.779960+00:00"
 }
