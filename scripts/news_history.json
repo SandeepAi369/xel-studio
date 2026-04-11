@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux And Open Source Podcast Debuts Weekly Deep Dives On Spotify",
-      "urls": [
-        "https://open.spotify.com/show/3AZjRagzOkDX55Ftk8meuZ",
-        "https://www.reddit.com/r/linuxquestions/comments/1rsn7ty/are_there_any_good_linux_news_sources_out_there"
-      ],
-      "date": "2026-04-01T18:31:44.391184+00:00"
-    },
-    {
       "title": "Who Global Health Leaders Prioritize AI Integration For Underserved Regions",
       "urls": [
         "https://www.worldhealthexpo.com/insights/ai-automation/top-5-ai-driven-medical-innovations-in-the-united-states",
@@ -4353,7 +4345,15 @@
         "https://www.youtube.com/watch?v=kOthGa4R0VI"
       ],
       "date": "2026-04-11T18:30:54.953737+00:00"
+    },
+    {
+      "title": "Mit Physicists Unveil Terahertz Microscope To Capture Quantum Electron Motions",
+      "urls": [
+        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
+      ],
+      "date": "2026-04-11T19:01:03.612436+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T18:30:54.953810+00:00"
+  "lastUpdated": "2026-04-11T19:01:03.612507+00:00"
 }
