@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usain Bolt Shatters 100m World Record With 9.69 Second Dash",
-      "urls": [
-        "https://www.youtube.com/watch?v=EvZMNcMfu-A",
-        "https://www.loveexploring.com/gallerylist/478683/historic-photos-of-the-sporting-moments-that-shook-the-world",
-        "https://www.jamescampion.com/greatest_sports.html",
-        "https://www.theringer.com/project/100-best-sports-moments-of-the-century",
-        "https://www.givemesport.com/greatest-sporting-moments-21st-century"
-      ],
-      "date": "2026-04-01T12:33:23.419414+00:00"
-    },
-    {
       "title": "Nvidia CEO Jensen Huang Mandates AI Integration Across All Employee Workflows",
       "urls": [
         "https://www.scmp.com/topics/tech-ceos",
@@ -4401,7 +4390,14 @@
         "https://www.youtube.com/watch?v=Vq0W85mnYU0"
       ],
       "date": "2026-04-11T12:31:15.840790+00:00"
+    },
+    {
+      "title": "Apple Integrates Google Gemini Into Revamped Siri",
+      "urls": [
+        "https://finance.yahoo.com/news/google-apple-enter-multi-ai-162042206.html"
+      ],
+      "date": "2026-04-11T13:01:05.178615+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T12:31:15.840851+00:00"
+  "lastUpdated": "2026-04-11T13:01:05.178686+00:00"
 }
