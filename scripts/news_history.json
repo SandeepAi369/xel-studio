@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Talkspace To Be Acquired For $835 Million By Qualified Health",
-      "urls": [
-        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
-        "https://telehealth.org/news/category/technology-and-innovation",
-        "https://www.nibib.nih.gov/programs/digital-health",
-        "https://www.worldhealthexpo.com/insights/medical-technology/telemedicine",
-        "https://www.aamc.org/news/telehealth-innovations-health-technology",
-        "https://www.fastcompany.com/section/telemedicine",
-        "https://www.ft.com/digital-health",
-        "https://www.jpmorgan.com/payments/payments-unbound/volume-2/the-new-telehealth-economy",
-        "https://www.statnews.com/topic/health-tech"
-      ],
-      "date": "2026-04-01T07:33:12.288944+00:00"
-    },
-    {
       "title": "Big Tech Earnings Shake Markets Amid AI Spending Concerns",
       "urls": [
         "https://bloomberg.com/latest/tech-company-earnings",
@@ -4447,7 +4432,14 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406033"
       ],
       "date": "2026-04-11T07:30:51.707368+00:00"
+    },
+    {
+      "title": "James Webb Space Telescope Spots Earliest Confirmed Black Hole 13 Billion Light-Years Away",
+      "urls": [
+        "https://www.sciencenews.org/article/2025-scientific-discoveries-record"
+      ],
+      "date": "2026-04-11T08:01:06.093350+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T07:30:51.707439+00:00"
+  "lastUpdated": "2026-04-11T08:01:06.093444+00:00"
 }
