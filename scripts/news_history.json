@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who Global Health Leaders Prioritize AI Integration For Underserved Regions",
-      "urls": [
-        "https://www.worldhealthexpo.com/insights/ai-automation/top-5-ai-driven-medical-innovations-in-the-united-states",
-        "https://pharmaphorum.com/digital/why-ai-innovation-healthcare-needs-effective-implementation"
-      ],
-      "date": "2026-04-01T19:01:27.336152+00:00"
-    },
-    {
       "title": "Google Launches Deep Research Feature For Gemini Advanced Users",
       "urls": [
         "https://insiderph.com/googles-gemini-ai-rolls-out-deep-research-to-revolutionize-information-gathering",
@@ -4353,7 +4345,21 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
       ],
       "date": "2026-04-11T19:01:03.612436+00:00"
+    },
+    {
+      "title": "ClaAUDE MYTHOS Outperforms Humans In Cybersecurity Vulnerability Detection",
+      "urls": [
+        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
+        "https://www.cnet.com/tech/services-and-software/anthropic-project-glasswing-claude-mythos-preview",
+        "https://www.anthropic.com/research",
+        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
+        "https://www.bbc.com/news/articles/c62dlvdq3e3o",
+        "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public",
+        "https://www.youtube.com/watch?v=VCMtJBC0a2A",
+        "https://www.reddit.com/r/TechGawker/comments/1s9rbvp/anthropic_talking_about_ai_safety_while_its_own"
+      ],
+      "date": "2026-04-11T19:30:56.589881+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T19:01:03.612507+00:00"
+  "lastUpdated": "2026-04-11T19:30:56.589943+00:00"
 }
