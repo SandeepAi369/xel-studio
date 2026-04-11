@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fungi face increasing extinction risks, with nearly one in three studied species threatened by defor",
-      "urls": [
-        "https://earth.org/biodiversity"
-      ],
-      "date": "2026-04-01T14:03:50.589494+00:00"
-    },
-    {
       "title": "Aws And Linux Foundation Launch OpenSearch Software Foundation",
       "urls": [
         "https://www.linux.com",
@@ -4381,7 +4374,14 @@
         "https://www.bbc.co.uk/news/videos/c30rj5p2gzyo"
       ],
       "date": "2026-04-11T14:01:24.317319+00:00"
+    },
+    {
+      "title": "Linux Foundation Supports Nearly 1000 Open Source Projects",
+      "urls": [
+        "https://www.linuxfoundation.org/resources/publications"
+      ],
+      "date": "2026-04-11T14:30:57.705277+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T14:01:24.317386+00:00"
+  "lastUpdated": "2026-04-11T14:30:57.705345+00:00"
 }
