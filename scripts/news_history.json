@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Marin County Floods Submerge Highway 101 Under Four Feet Of Water",
-      "urls": [
-        "https://www.weatherapi.com",
-        "https://weather.com/news/news/2026-01-04-california-king-tides-flooding",
-        "https://www.instagram.com/reel/DTGH3rNDGph",
-        "https://www.instagram.com/reel/DUKm6ZFArVy",
-        "https://www.accuweather.com/en/winter-weather/early-2026-storms-bring-heavy-rain-to-the-western-us-raising-flooding-risk-in-northern-california/1849545",
-        "https://www.copernicus.eu/en/media/image-day-gallery/storm-leonardo-caused-floods-central-portugal",
-        "https://www.facebook.com/GovernmentZA/posts/%EF%B8%8F-weather-alert-sunday-4-january-2026scattered-to-widespread-rainfall-is-expecte/1337806771718453",
-        "https://www.ksby.com/santa-barbara-south-coast/santa-barbara-county-declares-local-emergency-following-severe-winter-storms",
-        "https://esa.act.gov.au/severe-thunderstorm-warning-4-january-2026",
-        "https://www.weather.gov/okx/20260104"
-      ],
-      "date": "2026-04-01T18:02:34.411465+00:00"
-    },
-    {
       "title": "Linux And Open Source Podcast Debuts Weekly Deep Dives On Spotify",
       "urls": [
         "https://open.spotify.com/show/3AZjRagzOkDX55Ftk8meuZ",
@@ -4362,7 +4346,14 @@
         "https://weather.com/storms/severe/video/severe-storms-plains-midwest-hail-tornadoes"
       ],
       "date": "2026-04-11T18:01:08.431760+00:00"
+    },
+    {
+      "title": "Open Source Software Accelerates AI Innovation With Global Developer Network",
+      "urls": [
+        "https://www.youtube.com/watch?v=kOthGa4R0VI"
+      ],
+      "date": "2026-04-11T18:30:54.953737+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T18:01:08.431834+00:00"
+  "lastUpdated": "2026-04-11T18:30:54.953810+00:00"
 }
