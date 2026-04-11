@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches Trending Papers With Meta AI And Papers With Code",
-      "urls": [
-        "https://www.zhihu.com/org/huggingface",
-        "https://www.zhihu.com/question/564621151",
-        "https://www.zhihu.com/pin/1932186071048890006",
-        "https://www.zhihu.com/question/639318529",
-        "https://www.zhihu.com/tardis/bd/art/692929631",
-        "https://www.zhihu.com/question/482692136/answers/updated",
-        "https://www.zhihu.com/pin/1863937065265287168",
-        "https://www.zhihu.com/question/10196054241",
-        "https://www.zhihu.com/question/643150746"
-      ],
-      "date": "2026-04-01T00:32:16.257930+00:00"
-    },
-    {
-      "title": "Extreme Releases Sixth Studio Album Sixteen Years After Reunion",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Extreme_(band)",
-        "https://xtremeactionpark.com",
-        "https://www.merriam-webster.com/dictionary/extreme",
-        "https://m.youtube.com/watch?v=ZDm6EhYadEw"
-      ],
-      "date": "2026-04-01T01:01:40.228173+00:00"
-    },
-    {
       "title": "World Economic Forum Identifies Top Global Risks For 2026",
       "urls": [
         "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
@@ -4501,7 +4476,15 @@
         "https://wsc-sports.com/blog/industry-insights/why-more-teams-are-switching-to-ai-powered-sports-analytics"
       ],
       "date": "2026-04-11T00:31:19.432494+00:00"
+    },
+    {
+      "title": "SensAble Launches Haptic Wearable For Blind Navigation",
+      "urls": [
+        "https://www.besensable.com/post/visually-impaired-products",
+        "https://afb.org/blog/entry/future-accessible-tech"
+      ],
+      "date": "2026-04-11T01:02:14.782044+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T00:31:19.432569+00:00"
+  "lastUpdated": "2026-04-11T01:02:14.782107+00:00"
 }
