@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Llama 4 Maverick With 17 Billion Parameters",
-      "urls": [
-        "https://siliconangle.com/2025/04/06/mark-zuckerberg-says-metas-latest-llama-models-put-open-source-ai-driving-seat",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases",
-        "https://www.republicworld.com/tech/open-source-ai-models-including-meta-s-llama-may-be-vulnerable-to-criminal-misuse-warn-researchers",
-        "https://techcrunch.com/2025/10/06/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model",
-        "https://ai.meta.com/blog/meta-llama-3-1",
-        "https://www.zdnet.com/article/as-meta-fades-in-open-source-ai-nvidia-senses-its-chance-to-lead",
-        "https://ai.meta.com/blog/future-of-ai-built-with-llama",
-        "https://ai.meta.com/blog/llama-4-multimodal-intelligence",
-        "https://www.llama.com",
-        "https://ai.meta.com/open"
-      ],
-      "date": "2026-04-01T09:02:32.782287+00:00"
-    },
-    {
-      "title": "Screen Reader Users Juggle Multiple Tools At Work",
-      "urls": [
-        "https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2025-07/McDonnall%20et%20al.%20%282025%29%20Screen%20reader%20use.pdf",
-        "https://www.wired.com/story/web-accessibility-blind-users-dominos",
-        "https://ktla.com/news/latest-assistive-tech-thats-changing-lives"
-      ],
-      "date": "2026-04-01T09:31:42.652576+00:00"
-    },
-    {
       "title": "Mistral AI Launches Open Source Voxtral TTS For Global Enterprise Use",
       "urls": [
         "https://siliconangle.com/2025/01/30/mistral-ai2-release-new-open-source-llms",
@@ -4425,7 +4400,15 @@
         "https://www.youtube.com/watch?v=ApU5nYCWxGk"
       ],
       "date": "2026-04-11T09:01:31.296315+00:00"
+    },
+    {
+      "title": "Generative AI Accelerates Drug Discovery For Bayer And AstraZeneca",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7577280",
+        "https://finance.yahoo.com/news/generative-ai-revolutionizes-life-sciences-143000737.html"
+      ],
+      "date": "2026-04-11T09:34:06.638607+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T09:01:31.296384+00:00"
+  "lastUpdated": "2026-04-11T09:34:06.638673+00:00"
 }
