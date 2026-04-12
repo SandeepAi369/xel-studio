@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gemini 3 Deep Think Upgraded With Aletheia Verification System",
-      "urls": [
-        "https://deepmind.google/research/publications",
-        "https://deepmind.google/blog",
-        "https://blog.google/products-and-platforms/products/gemini",
-        "https://deepmind.google/research",
-        "https://www.youtube.com/watch?v=OFb3f3RnxRk",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think",
-        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
-        "https://gemini.google/overview/deep-research",
-        "https://research.google/blog"
-      ],
-      "date": "2026-04-02T00:01:32.220496+00:00"
-    },
-    {
       "title": "Iraq Wins 2-1 Against Bolivia To Qualify For 2026 World Cup",
       "urls": [
         "https://www.youtube.com/watch?v=RxLiK9I-9mo",
@@ -4321,7 +4306,16 @@
         "https://biztechmagazine.com/article/2026/01/how-ai-changing-businesses-infrastructure-strategies"
       ],
       "date": "2026-04-12T00:01:07.966920+00:00"
+    },
+    {
+      "title": "Jess Stenson Smashes Australian Women's Marathon Record In Tokyo",
+      "urls": [
+        "https://www.usatoday.com/sports",
+        "https://www.foxnews.com/sports",
+        "https://www.foxsports.com.au/more-sports/latest-news"
+      ],
+      "date": "2026-04-12T00:31:02.425791+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T00:01:07.966989+00:00"
+  "lastUpdated": "2026-04-12T00:31:02.425854+00:00"
 }
