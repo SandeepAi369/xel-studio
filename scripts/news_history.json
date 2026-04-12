@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Storm Leonardo Kills Six in Portugal and Spain",
-      "urls": [
-        "https://www.instagram.com/reel/DUVWK4Yib0o",
-        "https://www.facebook.com/CopernicusEU/posts/-storm-leonardo-brought-heavy-and-persistent-rainfall-to-both-coastal-and-inland/1340327451469563",
-        "https://www.instagram.com/p/DUfZX7sDHJ2",
-        "https://www.euronews.com/2026/02/05/at-least-one-killed-and-thousands-evacuated-as-storm-leonardo-tears-through-portugal-and-s",
-        "https://phys.org/news/2026-02-spain-portugal-chaos-deadly-storm.html",
-        "https://www.theguardian.com/world/2026/feb/26/recent-mediterranean-storms-tragedies-spain-portugal-morocco",
-        "https://reliefweb.int/report/world/global-weather-hazards-summary-february-26-2026-march-04-2026",
-        "https://www.click2houston.com/video/weather/2026/02/04/why-tuesdays-storm-turned-severe",
-        "https://www.worldweatherattribution.org/increasingly-severe-rainstorms-pose-growing-risk-for-people-and-structures-build-in-the-floodplains"
-      ],
-      "date": "2026-04-02T05:01:37.728887+00:00"
-    },
-    {
       "title": "Google Launches AI Smart Glasses With Real-Time Subtitles",
       "urls": [
         "https://asm.org/articles/2024/september/building-accessibility-for-deaf-and-hard-of-hearin",
@@ -4300,7 +4285,16 @@
         "https://worldathletics.org/records/by-category/world-records"
       ],
       "date": "2026-04-12T05:01:10.408525+00:00"
+    },
+    {
+      "title": "Telehealth Visits Surpass 20 Percent Of U.S. Outpatient Care",
+      "urls": [
+        "https://www.digitalhealthnews.com/category/telehealth",
+        "https://telehealth.org/news/category/technology-and-innovation",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719"
+      ],
+      "date": "2026-04-12T05:30:58.561428+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T05:01:10.408610+00:00"
+  "lastUpdated": "2026-04-12T05:30:58.561489+00:00"
 }
