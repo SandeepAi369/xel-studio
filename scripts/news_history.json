@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eu Strengthens Alliances To Counter Global Tech Rivalries",
-      "urls": [
-        "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762384",
-        "https://www.csis.org/events/insights-us-china-technology-competition",
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOorIk8AaQP7nDylJig5PBIG_NJvW93YROgS6IMhZOqlk2GULndU1",
-        "https://www.facebook.com/BeijingFocus/posts/amid-intensifying-geopolitical-competition-in-high-tech-sectors-china-unveiled-o/1335149208643262",
-        "https://www.youtube.com/watch?v=JIA2EgH7Z-o",
-        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
-        "https://www.stimson.org/2021/unpacking-the-geopolitics-of-technology",
-        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
-        "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/ai-geopolitics-us-policy-and-tech-giants-converge-on-china-threat/129858317"
-      ],
-      "date": "2026-04-02T07:01:34.662999+00:00"
-    },
-    {
       "title": "Johns Hopkins Team Unveils MIGHT Tool To Boost AI Accuracy In Cancer Detection",
       "urls": [
         "https://www.gbnews.com/health/ai-cancer-breakthrough-save-patients",
@@ -4289,7 +4274,14 @@
         "https://www.unhcr.org/us/global-trends"
       ],
       "date": "2026-04-12T07:01:06.540001+00:00"
+    },
+    {
+      "title": "Olympic Medals Fall Apart During Ceremonies Prompting Investigation",
+      "urls": [
+        "https://www.gpb.org/news/2026/02/13/years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
+      ],
+      "date": "2026-04-12T07:31:02.473512+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T07:01:06.540067+00:00"
+  "lastUpdated": "2026-04-12T07:31:02.473578+00:00"
 }
