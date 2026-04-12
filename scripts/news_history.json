@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Russ Tedrake Develops New Control Algorithms to Improve Humanoid Robot Dexterity",
-      "urls": [
-        "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
-      ],
-      "date": "2026-04-02T11:31:29.235552+00:00"
-    },
-    {
       "title": "Rohingya refugee died after being abandoned by U.",
       "urls": [
         "https://www.aljazeera.com/tag/refugees"
@@ -4284,7 +4277,15 @@
         "https://www.aol.com/articles/humanoid-robots-hit-mass-production-170044489.html"
       ],
       "date": "2026-04-12T11:30:59.251080+00:00"
+    },
+    {
+      "title": "Election Analysts Project Tight Senate Race In Montana",
+      "urls": [
+        "https://www.wsj.com/politics/elections",
+        "https://www.youtube.com/watch?v=1HlvDr4uJmM"
+      ],
+      "date": "2026-04-12T12:01:16.937869+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T11:30:59.251167+00:00"
+  "lastUpdated": "2026-04-12T12:01:16.937949+00:00"
 }
