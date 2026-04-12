@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Link MIND Diet To Slowed Brain Aging By Two Years",
-      "urls": [
-        "https://www.rockefeller.edu/news/38720-intriguing-science-discoveries-of-2025",
-        "https://www.harvard.edu/in-focus/breakthroughs-of-2025",
-        "https://www.sciencealert.com",
-        "https://www.sci.news",
-        "https://www.youtube.com/watch?v=tvwCWwpY-X8"
-      ],
-      "date": "2026-04-02T13:01:36.772181+00:00"
-    },
-    {
       "title": "Neurotechnology Launches Lithuanian LLM Surpassing Llama 2",
       "urls": [
         "https://aibusiness.com/nlp/ai2-olmo-large-language-model-is-truly-open-source-",
@@ -4287,7 +4276,14 @@
         "https://www.marketwatch.com/story/these-5-tech-stocks-could-be-big-winners-this-earnings-season-0556bf47"
       ],
       "date": "2026-04-12T13:01:08.799149+00:00"
+    },
+    {
+      "title": "Royal Society Urges Inclusion Of Disabled People In Digital Assistive Technology Design",
+      "urls": [
+        "https://royalsociety.org/news/2025/06/disability-technology"
+      ],
+      "date": "2026-04-12T13:30:59.282821+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T13:01:08.799225+00:00"
+  "lastUpdated": "2026-04-12T13:30:59.282888+00:00"
 }
