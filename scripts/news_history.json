@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Department Of Energy Report Downplays Economic Risks Of Carbon Emissions",
-      "urls": [
-        "https://www.energy.gov/topics/climate",
-        "https://esgnews.com",
-        "https://fsc.org/en/blog/good-climate-news",
-        "https://www.un.org/en/climatechange/net-zero-coalition",
-        "https://climateactiontracker.org/countries/usa",
-        "https://www.carbonbrief.org",
-        "https://2021-2025.state.gov/climate-crisis",
-        "https://www.youtube.com/watch?v=Mi4b1GfHl9Y"
-      ],
-      "date": "2026-04-02T22:33:12.497831+00:00"
-    },
-    {
       "title": "Mistral AI Launches Three New Models Including Devstral 2 123B",
       "urls": [
         "https://www.ibm.com/think/topics/mistral-ai",
@@ -4265,7 +4251,17 @@
         "https://renewablesnow.com"
       ],
       "date": "2026-04-12T22:30:53.922255+00:00"
+    },
+    {
+      "title": "Open Source AI Models Close In on Proprietary Leaders",
+      "urls": [
+        "https://medium.com/@kierangilmurray/open-source-ai-revolution-how-community-models-are-disrupting-big-tech-aebd86163430",
+        "https://www.linkedin.com/pulse/how-open-source-community-transforming-ai-channel-alyssa-fitzpatrick-i4ake",
+        "https://www.help.com/articles/the-open-source-ai-revolution-businesses-backing-community-driven-models.html",
+        "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects"
+      ],
+      "date": "2026-04-12T23:01:11.164423+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T22:30:53.922346+00:00"
+  "lastUpdated": "2026-04-12T23:01:11.164491+00:00"
 }
