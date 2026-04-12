@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Wind and Solar Generate 17% of Electricity in 2025 Record",
-      "urls": [
-        "https://renewablesnow.com",
-        "https://renews.biz",
-        "https://www.reuters.com/business/energy/wind",
-        "https://apnews.com/hub/wind-power",
-        "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
-        "https://www.energy.gov/cmei/systems/listings/wind-news",
-        "https://www.eia.gov/todayinenergy/detail.php?id=67367",
-        "https://globalenergymonitor.org/report/global-wind-and-solar-2025-the-g7-gap",
-        "https://cleanpower.org/news"
-      ],
-      "date": "2026-04-02T14:03:16.872195+00:00"
-    },
-    {
       "title": "LXer Delivers Weekly GNU Linux News And Security Updates",
       "urls": [
         "https://lxer.com"
@@ -4277,7 +4262,14 @@
         "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield"
       ],
       "date": "2026-04-12T14:01:05.590825+00:00"
+    },
+    {
+      "title": "Google And Hugging Face Integrate Model Hub With Cloud TPUs",
+      "urls": [
+        "https://huggingface.co/google"
+      ],
+      "date": "2026-04-12T14:31:01.970036+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T14:01:05.590891+00:00"
+  "lastUpdated": "2026-04-12T14:31:01.970103+00:00"
 }
