@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amgen has open-sourced its AMPLIFY platform, releasing all code, data, and model weights to accelera",
-      "urls": [
-        "https://wyss.harvard.edu/news/from-data-to-drugs-the-role-of-artificial-intelligence-in-drug-discovery",
-        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159"
-      ],
-      "date": "2026-04-02T11:03:03.380059+00:00"
-    },
-    {
       "title": "Russ Tedrake Develops New Control Algorithms to Improve Humanoid Robot Dexterity",
       "urls": [
         "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
@@ -4284,7 +4276,15 @@
         "https://www.dexerto.com"
       ],
       "date": "2026-04-12T11:01:08.462717+00:00"
+    },
+    {
+      "title": "Leju Robotics Launches High-Speed Production Line With Dongfang Precision",
+      "urls": [
+        "https://thehumanoid.ai/newsroom",
+        "https://www.aol.com/articles/humanoid-robots-hit-mass-production-170044489.html"
+      ],
+      "date": "2026-04-12T11:30:59.251080+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T11:01:08.462781+00:00"
+  "lastUpdated": "2026-04-12T11:30:59.251167+00:00"
 }
