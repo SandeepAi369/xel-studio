@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Antarctic Peninsula Ice Melt To Accelerate By 2100",
-      "urls": [
-        "https://www.sciencenews.org/topic/climate",
-        "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
-      ],
-      "date": "2026-04-02T01:30:56.766075+00:00"
-    },
-    {
       "title": "Mistral AI Launches Mixtral 8x7B With 128000 Token Context Window",
       "urls": [
         "https://article-factory.ai/news/mistral-ai-launches-open-source-voice-model-voxtral-tts",
@@ -4307,7 +4299,15 @@
         "https://www.youtube.com/watch?v=mhSP74sYA6o"
       ],
       "date": "2026-04-12T01:30:52.026034+00:00"
+    },
+    {
+      "title": "U.S. Olympic Team Wins Multiple Golds at Winter Games",
+      "urls": [
+        "https://www.nytimes.com/athletic/7050927/2026/02/16/elana-meyers-taylor-monobob-gold-medal-winter-olympics",
+        "https://www.kuow.org/stories/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states"
+      ],
+      "date": "2026-04-12T02:01:04.200468+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T01:30:52.026102+00:00"
+  "lastUpdated": "2026-04-12T02:01:04.200538+00:00"
 }
