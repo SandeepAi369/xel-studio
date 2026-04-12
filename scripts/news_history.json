@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports industry is projected to generate $1.",
-      "urls": [
-        "https://streamscharts.com/news",
-        "https://theleadersglobe.com/science-technology/esports-news-and-trends-how-competitive-gaming-is-redefining-modern-entertainment"
-      ],
-      "date": "2026-04-02T08:01:46.235890+00:00"
-    },
-    {
       "title": "Israel Adesanya Faces Retirement Calls After Fifth Straight Loss",
       "urls": [
         "https://sports.yahoo.com/mma",
@@ -4276,7 +4268,17 @@
         "https://www.youtube.com/watch?v=0l71fKjBZMk"
       ],
       "date": "2026-04-12T08:01:13.665060+00:00"
+    },
+    {
+      "title": "Jakob Ingebrigtsen Smashes 1500m World Best With 3:29.63 In Lievin",
+      "urls": [
+        "https://www.olympics.com/en/news/athletics-all-track-and-field-world-records-at-a-glance",
+        "https://www.youtube.com/watch?v=bItXghj3Re8",
+        "https://usatf.org/news",
+        "https://www.flotrack.org"
+      ],
+      "date": "2026-04-12T08:30:58.111566+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T08:01:13.665113+00:00"
+  "lastUpdated": "2026-04-12T08:30:58.111632+00:00"
 }
