@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jarmila Kratochvilova Sets 800m Record That Stands For Over 40 Years",
-      "urls": [
-        "https://www.olympics.com/en/news/athletics-all-track-and-field-world-records-at-a-glance",
-        "https://www.runcolfax.org/colfax-marathon-record-holder-heading-to-us-marathon-olympic-trials"
-      ],
-      "date": "2026-04-02T06:31:17.855281+00:00"
-    },
-    {
       "title": "Eu Strengthens Alliances To Counter Global Tech Rivalries",
       "urls": [
         "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762384",
@@ -4286,7 +4278,18 @@
         "https://www.nytimes.com/2025/11/04/climate/climate-emissions-united-nations.html"
       ],
       "date": "2026-04-12T06:30:52.650208+00:00"
+    },
+    {
+      "title": "Biden Administration Confronts Record 2 Million Border Encounters",
+      "urls": [
+        "https://www.unrefugees.org/emergencies/ukraine",
+        "https://www.iom.int/escalating-conflict-middle-east-growing-humanitarian-crisis",
+        "https://www.pbs.org/newshour/tag/migrant-crisis",
+        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
+        "https://www.unhcr.org/us/global-trends"
+      ],
+      "date": "2026-04-12T07:01:06.540001+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T06:30:52.650275+00:00"
+  "lastUpdated": "2026-04-12T07:01:06.540067+00:00"
 }
