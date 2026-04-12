@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eli Lilly Invests 2.8 Billion In X-Chem For AI Drug Discovery",
-      "urls": [
-        "https://www.drugtargetreview.com/article/192962/ai-in-drug-discovery-predictions-for-2026",
-        "https://www.youtube.com/watch?v=tMvzZmPuVIA"
-      ],
-      "date": "2026-04-02T19:01:29.906789+00:00"
-    },
-    {
       "title": "Harvard researchers have developed the first continuously operating quantum computer, marking a majo",
       "urls": [
         "https://www.tomshardware.com/tech-industry/quantum-computing/harvard-researchers-hail-quantum-computing-breakthrough-with-machine-that-can-run-for-two-hours-atomic-loss-quashed-by-experimental-design-systems-that-can-run-forever-just-3-years-away",
@@ -4281,7 +4273,17 @@
         "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
       ],
       "date": "2026-04-12T19:01:09.063208+00:00"
+    },
+    {
+      "title": "Zealand Pharma Opens Cambridge Hub For AI Drug Discovery",
+      "urls": [
+        "https://pharmaphorum.com/news/ai-drug-discovery-and-development-news-watch",
+        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706",
+        "https://www.weforum.org/stories/2026/01/how-ai-is-reshaping-drug-discovery",
+        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159"
+      ],
+      "date": "2026-04-12T19:30:58.301371+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T19:01:09.063274+00:00"
+  "lastUpdated": "2026-04-12T19:30:58.301460+00:00"
 }
