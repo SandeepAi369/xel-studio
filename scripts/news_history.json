@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Administration Unveils National AI Policy Framework",
-      "urls": [
-        "https://www.cisa.gov/ai/recent-efforts",
-        "https://www.nytimes.com/2026/03/20/us/politics/white-house-unveils-ai-policy-aimed-at-blocking-state-laws.html",
-        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
-        "https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation",
-        "https://www.americascreditunions.org/blogs/compliance/patchwork-policy-federal-governments-new-approach-ai-regulation",
-        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
-        "https://www.govtech.com/artificial-intelligence/what-the-new-federal-ai-framework-could-mean-for-states",
-        "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
-        "https://www.bclplaw.com/en-US/events-insights-news/us-state-by-state-artificial-intelligence-legislation-snapshot.html"
-      ],
-      "date": "2026-04-02T04:01:46.112671+00:00"
-    },
-    {
       "title": "Team Usa Cricket Stuns Top Ten Ranked Pakistan In Historic Upset",
       "urls": [
         "https://www.facebook.com/NewYorkMag/posts/sure-the-covid-sports-season-was-weird-but-the-level-of-play-was-extraordinary-a/1136156018374994",
@@ -4304,7 +4289,16 @@
         "https://www.youtube.com/watch?v=CoATRD4S_B4"
       ],
       "date": "2026-04-12T04:01:07.030441+00:00"
+    },
+    {
+      "title": "Cedars-Sinai Researchers Link Gut Microbe Molecules To Colorectal Cancer Risk",
+      "urls": [
+        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
+        "https://www.sciencenews.org",
+        "https://www.nbcnews.com/science"
+      ],
+      "date": "2026-04-12T04:30:57.261901+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T04:01:07.030505+00:00"
+  "lastUpdated": "2026-04-12T04:30:57.261968+00:00"
 }
