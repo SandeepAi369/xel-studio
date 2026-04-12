@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Metr Study Finds AI Coding Tools Slow Developer Productivity by 19 Percent",
-      "urls": [
-        "https://www.infoq.com/news/2025/07/ai-productivity",
-        "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026",
-        "https://garymarcus.substack.com/p/breaking-news-ai-coding-may-not-be",
-        "https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them",
-        "https://techxplore.com/news/2026-03-ai-coding-tools.html",
-        "https://news.ycombinator.com/item?id=46301886",
-        "https://www.businessinsider.com/ai-coding-changing-software-developer-role-2026-3",
-        "https://www.forbes.com/sites/joetoscano1/2026/01/20/developers-use-ai-coding-tools-to-get-started-not-finish-the-job",
-        "https://appdevelopermagazine.com/artificial-intelligence",
-        "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know"
-      ],
-      "date": "2026-04-02T22:03:49.254898+00:00"
-    },
-    {
       "title": "Department Of Energy Report Downplays Economic Risks Of Carbon Emissions",
       "urls": [
         "https://www.energy.gov/topics/climate",
@@ -4271,7 +4255,17 @@
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think"
       ],
       "date": "2026-04-12T22:01:04.362062+00:00"
+    },
+    {
+      "title": "Ontario Awards 1.3 Gigawatts Of Solar And Wind Contracts",
+      "urls": [
+        "https://www.reuters.com/business/energy/wind",
+        "https://apnews.com/hub/wind-power",
+        "https://renews.biz",
+        "https://renewablesnow.com"
+      ],
+      "date": "2026-04-12T22:30:53.922255+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T22:01:04.362127+00:00"
+  "lastUpdated": "2026-04-12T22:30:53.922346+00:00"
 }
