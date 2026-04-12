@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rohingya refugee died after being abandoned by U.",
-      "urls": [
-        "https://www.aljazeera.com/tag/refugees"
-      ],
-      "date": "2026-04-02T12:02:44.390505+00:00"
-    },
-    {
       "title": "Red Hat Powers Enterprise AI With Hybrid Cloud Solutions",
       "urls": [
         "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff",
@@ -4285,7 +4278,18 @@
         "https://www.youtube.com/watch?v=1HlvDr4uJmM"
       ],
       "date": "2026-04-12T12:01:16.937869+00:00"
+    },
+    {
+      "title": "Mexico City Sets Record With 9500 In Largest Football Training Session",
+      "urls": [
+        "https://www.bbc.com/news/topics/celyp4y5rwrt",
+        "https://www.reddit.com/r/sports/comments/1sj8k4v/18_year_old_gout_gout_runs_1967_for_200m_to_set_a",
+        "https://www.youtube.com/watch?v=ZsXXhCo0sRM",
+        "https://www.tiktok.com/@redbull/video/7626759488418237718",
+        "https://www.reuters.com/sports"
+      ],
+      "date": "2026-04-12T12:30:54.483242+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T12:01:16.937949+00:00"
+  "lastUpdated": "2026-04-12T12:30:54.483314+00:00"
 }
