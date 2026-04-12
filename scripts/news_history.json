@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drift Loses $200 Million In Major Solana Exploit",
-      "urls": [
-        "https://blockworks.co/category/web3",
-        "https://www.forbes.com/digital-assets/news",
-        "https://thepaypers.com/crypto-web3-and-cbdc",
-        "https://www.coindesk.com/tag/web3",
-        "https://www.theblock.co/category/web3",
-        "https://www.dlnews.com/articles/web3",
-        "https://www.businesswire.com/newsroom/industry/technology/web3",
-        "https://www.theblock.co",
-        "https://cryptoslate.com"
-      ],
-      "date": "2026-04-02T03:31:16.780981+00:00"
-    },
-    {
       "title": "Trump Administration Unveils National AI Policy Framework",
       "urls": [
         "https://www.cisa.gov/ai/recent-efforts",
@@ -4309,7 +4294,17 @@
         "https://finance.yahoo.com/research-hub/screener/growth_technology_stocks"
       ],
       "date": "2026-04-12T03:30:52.184748+00:00"
+    },
+    {
+      "title": "Agility Robotics To Build 10000 Digit Robots Annually In Oregon Factory",
+      "urls": [
+        "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
+        "https://roboticsandautomationnews.com",
+        "https://www.nbcnews.com/video/shorts/new-humanoid-robots-replacing-workers-in-factories-261041221991",
+        "https://www.youtube.com/watch?v=CoATRD4S_B4"
+      ],
+      "date": "2026-04-12T04:01:07.030441+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T03:30:52.184810+00:00"
+  "lastUpdated": "2026-04-12T04:01:07.030505+00:00"
 }
