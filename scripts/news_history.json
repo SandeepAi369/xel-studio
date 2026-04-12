@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches AI Smart Glasses With Real-Time Subtitles",
-      "urls": [
-        "https://asm.org/articles/2024/september/building-accessibility-for-deaf-and-hard-of-hearin",
-        "https://rnid.org.uk/information-and-support/technology-and-products",
-        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
-        "https://www.wired.com/tag/accessibility",
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooqeJHyGXLhT4CK3U5E7S4umcI98gzXsLSgOs3_kdIelGMHossD",
-        "https://www.youtube.com/watch?v=TXH_JzxV7xw",
-        "https://www.wavefrontcentre.ca/uncategorized/the-future-of-hearing-technology-whats-next-for-assistive-listening-devices",
-        "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people",
-        "https://www.youtube.com/watch?v=VbGiJHuvOGg",
-        "https://www.hearingtracker.com/news/audio-accessibility-creating-inclusive-listening-experiences-for-everyone"
-      ],
-      "date": "2026-04-02T05:31:18.090839+00:00"
-    },
-    {
       "title": "Enterprises Forecast 20 Percent AI Workload Surge",
       "urls": [
         "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqfloC-BH8Ynx6mHn6fcfS7nXgmGT4dUp2eS2ApCn6s7Kw6LRwuWYnCu&gaa_ts=69ce099f&gaa_sig=7NtsF4wxYbZ7CnoB7jOM9b_hyIqhJJcr_5ATFoSd3yv4c9pKZw-t71yzMmoyfe90HwVxiAkU1Txm2QXVTpVP8w%3D%3D"
@@ -4294,7 +4278,14 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719"
       ],
       "date": "2026-04-12T05:30:58.561428+00:00"
+    },
+    {
+      "title": "Who What Digital Tools Transform Mental Health With Real Time Wearable Data",
+      "urls": [
+        "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1560580/full"
+      ],
+      "date": "2026-04-12T06:01:08.268769+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T05:30:58.561489+00:00"
+  "lastUpdated": "2026-04-12T06:01:08.268855+00:00"
 }
