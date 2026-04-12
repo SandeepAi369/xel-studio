@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Three New Models Including Devstral 2 123B",
-      "urls": [
-        "https://www.ibm.com/think/topics/mistral-ai",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week"
-      ],
-      "date": "2026-04-02T23:03:34.923802+00:00"
-    },
-    {
       "title": "Avandra Launches With $17.75 Million To Transform Medical Data Analysis",
       "urls": [
         "https://www.crescendo.ai/news/ai-in-healthcare-news"
@@ -4261,7 +4253,17 @@
         "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects"
       ],
       "date": "2026-04-12T23:01:11.164423+00:00"
+    },
+    {
+      "title": "Sudan Conflict Displaces Over 10 Million People Since 2023",
+      "urls": [
+        "https://www.iom.int/escalation-middle-east-and-beyond-growing-humanitarian-crisis",
+        "https://www.youtube.com/watch?v=oB9ZBV54ZKY",
+        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
+        "https://www.aljazeera.com/tag/refugees"
+      ],
+      "date": "2026-04-12T23:30:55.649356+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T23:01:11.164491+00:00"
+  "lastUpdated": "2026-04-12T23:30:55.649424+00:00"
 }
