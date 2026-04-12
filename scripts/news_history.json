@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Convention on Biological Diversity Launches Global Framework to Protect Ecosystems",
-      "urls": [
-        "https://www.conservation.cam.ac.uk/aggregator/sources/2",
-        "https://www.biologicaldiversity.org/publications/papers",
-        "https://www.un.org/en/climatechange/science/climate-issues/biodiversity"
-      ],
-      "date": "2026-04-02T10:31:28.528979+00:00"
-    },
-    {
       "title": "Amgen has open-sourced its AMPLIFY platform, releasing all code, data, and model weights to accelera",
       "urls": [
         "https://wyss.harvard.edu/news/from-data-to-drugs-the-role-of-artificial-intelligence-in-drug-discovery",
@@ -4286,7 +4277,14 @@
         "https://www.youtube.com/watch?v=tILZuOvro6I"
       ],
       "date": "2026-04-12T10:30:58.280707+00:00"
+    },
+    {
+      "title": "Dexerto Expands With Exclusive Content From Shroud Pokimane And Ninja",
+      "urls": [
+        "https://www.dexerto.com"
+      ],
+      "date": "2026-04-12T11:01:08.462717+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T10:30:58.280768+00:00"
+  "lastUpdated": "2026-04-12T11:01:08.462781+00:00"
 }
