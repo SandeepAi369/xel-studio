@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Microsoft Alphabet Rally On AI Growth Confidence",
-      "urls": [
-        "https://finance.yahoo.com/news/live/tech-stocks-today-big-tech-stocks-sell-off-anthropic-considers-ipo-as-soon-as-q4-144220271.html",
-        "https://www.cnbc.com/video/2025/10/31/big-tech-earnings-tell-you-the-companies-you-want-to-own-tech-investor.html",
-        "https://www.marketwatch.com/investing/stocks/tech-stocks?gaa_at=eafs&gaa_n=AWEtsqeo9hrNYolLMF_WI27KzXi8oHgVawuqfnZEuM97KtfV4JKV0t4YLjY-&gaa_ts=69ced582&gaa_sig=LWfYRBOkiXbNqjsjuqVsKHr_pMSCaaPv9axFCRcC_zVQYrPimEXy8Uuha73iheYcbe28X2vGctNQ8F4J6ZNX_A%3D%3D",
-        "https://www.youtube.com/watch?v=NQjkqzClcNQ"
-      ],
-      "date": "2026-04-02T20:33:18.952860+00:00"
-    },
-    {
       "title": "Oecd Cuts Global Growth Forecast Amid Rising Energy Prices",
       "urls": [
         "https://www.cnbc.com/economy",
@@ -4278,7 +4268,15 @@
         "https://www.youtube.com/watch?v=kk1UOV7Tib0"
       ],
       "date": "2026-04-12T20:31:01.348034+00:00"
+    },
+    {
+      "title": "Gasoline Prices Surge 21.2 Percent Driving Inflation to 3.3 Percent",
+      "urls": [
+        "https://www.nbcnews.com/business/economy",
+        "https://www.youtube.com/watch?v=mMYaEht5fHY"
+      ],
+      "date": "2026-04-12T21:02:05.874088+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T20:31:01.348100+00:00"
+  "lastUpdated": "2026-04-12T21:02:05.874167+00:00"
 }
