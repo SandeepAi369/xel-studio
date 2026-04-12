@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard researchers have developed the first continuously operating quantum computer, marking a majo",
-      "urls": [
-        "https://www.tomshardware.com/tech-industry/quantum-computing/harvard-researchers-hail-quantum-computing-breakthrough-with-machine-that-can-run-for-two-hours-atomic-loss-quashed-by-experimental-design-systems-that-can-run-forever-just-3-years-away",
-        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough",
-        "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
-        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
-        "https://www.livescience.com/technology/computing/googles-breakthrough-quantum-echoes-algorithm-pushes-us-closer-to-useful-quantum-computing-running-13-000-times-faster-than-on-a-supercomputer",
-        "https://thedebrief.org/new-impossible-material-leads-researchers-to-a-quantum-computing-breakthrough",
-        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
-        "https://scitechdaily.com/scientists-may-have-found-the-holy-grail-of-quantum-computing",
-        "https://thequantuminsider.com",
-        "https://www.sciencedaily.com/releases/2026/02/260221000252.htm"
-      ],
-      "date": "2026-04-02T19:33:44.201347+00:00"
-    },
-    {
       "title": "U.S. Department Of Commerce Slaps Duties On Chinese Subsidized Imports",
       "urls": [
         "https://www.itic.org/news-events/news-releases?policy=trade-investment",
@@ -4283,7 +4267,17 @@
         "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159"
       ],
       "date": "2026-04-12T19:30:58.301371+00:00"
+    },
+    {
+      "title": "China Deploys Tan Suo San Hao For Arctic Crewed Dives",
+      "urls": [
+        "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762384",
+        "https://www.scmp.com/economy/china-economy/article/3330611/chinas-geopolitical-competition-expands-new-frontiers-scientific-milestones",
+        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
+        "https://www.atlanticcouncil.org/content-series/inflection-points/its-time-to-reckon-with-the-geopolitics-of-artificial-intelligence"
+      ],
+      "date": "2026-04-12T20:01:10.841199+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T19:30:58.301460+00:00"
+  "lastUpdated": "2026-04-12T20:01:10.841256+00:00"
 }
