@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Red Hat Powers Enterprise AI With Hybrid Cloud Solutions",
-      "urls": [
-        "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff",
-        "https://www.youtube.com/watch?v=cQ3auCVzfrA",
-        "https://www.linuxinsider.com"
-      ],
-      "date": "2026-04-02T12:31:48.785399+00:00"
-    },
-    {
       "title": "Scientists Link MIND Diet To Slowed Brain Aging By Two Years",
       "urls": [
         "https://www.rockefeller.edu/news/38720-intriguing-science-discoveries-of-2025",
@@ -4289,7 +4280,14 @@
         "https://www.reuters.com/sports"
       ],
       "date": "2026-04-12T12:30:54.483242+00:00"
+    },
+    {
+      "title": "Giants Face Earnings Test Amid AI Growth Challenges",
+      "urls": [
+        "https://www.marketwatch.com/story/these-5-tech-stocks-could-be-big-winners-this-earnings-season-0556bf47"
+      ],
+      "date": "2026-04-12T13:01:08.799149+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T12:30:54.483314+00:00"
+  "lastUpdated": "2026-04-12T13:01:08.799225+00:00"
 }
