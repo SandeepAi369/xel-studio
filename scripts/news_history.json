@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sam Altman Announces OpenAI To Release Open Weight Model",
-      "urls": [
-        "https://www.wired.com/story/openai-sam-altman-announce-open-source-model",
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
-        "https://www.infoq.com/llms/news",
-        "https://thenewstack.io/llm",
-        "https://openai.com/open-models",
-        "https://explodingtopics.com/blog/list-of-llms"
-      ],
-      "date": "2026-04-02T18:32:40.435120+00:00"
-    },
-    {
       "title": "Eli Lilly Invests 2.8 Billion In X-Chem For AI Drug Discovery",
       "urls": [
         "https://www.drugtargetreview.com/article/192962/ai-in-drug-discovery-predictions-for-2026",
@@ -4286,7 +4274,14 @@
         "https://github.blog/open-source"
       ],
       "date": "2026-04-12T18:30:54.613178+00:00"
+    },
+    {
+      "title": "A I Systems Detect Early Cancer With 94 Percent Accuracy In U S Hospitals",
+      "urls": [
+        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
+      ],
+      "date": "2026-04-12T19:01:09.063208+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T18:30:54.613252+00:00"
+  "lastUpdated": "2026-04-12T19:01:09.063274+00:00"
 }
