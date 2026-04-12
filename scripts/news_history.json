@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Minnesota Access Center Launches Assistive Tech Tuesdays Webinar Series",
-      "urls": [
-        "https://education.mn.gov/mdeprod/groups/educ/documents/structure/cm9k/mdk3/~edisp/prod097501.pdf",
-        "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired",
-        "https://link.springer.com/chapter/10.1007/978-3-032-12781-5_5",
-        "https://guides.library.illinois.edu/c.php?g=526852&p=3602299",
-        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
-        "https://miusa.org/resource/tip-sheets/assistivetechnologyforblind",
-        "https://www.isbe.net/Documents/Assistive-Technology-Students-Visually-Impaired.pdf",
-        "https://www.letsenvision.com/blog/top-5-assistive-technology-devices-for-people-who-are-blind-or-have-low-vision-2023",
-        "https://afb.org/blindness-and-low-vision/using-technology",
-        "https://www.perkins.org/resource/z-assistive-technology-low-vision"
-      ],
-      "date": "2026-04-02T01:01:29.775502+00:00"
-    },
-    {
       "title": "Antarctic Peninsula Ice Melt To Accelerate By 2100",
       "urls": [
         "https://www.sciencenews.org/topic/climate",
@@ -4310,7 +4294,20 @@
         "https://govcio.com/resources/article/six-exciting-advancements-in-accessible-technology"
       ],
       "date": "2026-04-12T01:01:06.516412+00:00"
+    },
+    {
+      "title": "NOAA Warns 25 Million Of Tornado Threat In Midwest Storm Outbreak",
+      "urls": [
+        "https://www.weatherapi.com",
+        "https://www.youtube.com/watch?v=HbDZH1WoccQ",
+        "https://www.1news.co.nz/2026/04/12/govt-gives-briefing-on-cyclone-vaianu-response-full-video",
+        "https://www.foxweather.com/weather-news/severe-storms-target-heartland-close-out-march-stormy-april-pattern-follows",
+        "https://www.ncei.noaa.gov/access/billions/events",
+        "https://www.youtube.com/watch?v=VThYDwocW-o",
+        "https://www.youtube.com/watch?v=mhSP74sYA6o"
+      ],
+      "date": "2026-04-12T01:30:52.026034+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T01:01:06.516485+00:00"
+  "lastUpdated": "2026-04-12T01:30:52.026102+00:00"
 }
