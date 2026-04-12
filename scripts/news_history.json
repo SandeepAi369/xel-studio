@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "AiCure Uses AI To Boost Clinical Trial Adherence",
-      "urls": [
-        "https://www.mobihealthnews.com/tag/healthcare-innovation",
-        "https://www.healthcareitnews.com",
-        "https://finance.yahoo.com/news/generative-ai-game-changer-healthcare-150000116.html",
-        "https://www.insideprecisionmedicine.com/topics/translational-research/harnessing-ai-innovation-to-modernize-clinical-trials",
-        "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
-      ],
-      "date": "2026-04-02T02:31:25.043819+00:00"
-    },
-    {
       "title": "Aft Demands Federal Action To Protect Unaccompanied Border Children",
       "urls": [
         "https://www.aft.org/our-community/immigration/humanitarian-crisis-us-border"
@@ -4306,7 +4295,14 @@
         "https://www.statnews.com/topic/health-tech"
       ],
       "date": "2026-04-12T02:30:59.079119+00:00"
+    },
+    {
+      "title": "Akamai Deploys Edge AI To Optimize Global Cloud Infrastructure",
+      "urls": [
+        "https://www.akamai.com/blog/cloud/ai-cloud-computing-revolutionizing-landscape"
+      ],
+      "date": "2026-04-12T03:01:10.081258+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T02:30:59.079191+00:00"
+  "lastUpdated": "2026-04-12T03:01:10.081321+00:00"
 }
