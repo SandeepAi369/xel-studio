@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source AI Models Outperform Giants in 2025",
-      "urls": [
-        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
-        "https://www.ibm.com/think/news/2025-open-ai-trends",
-        "https://www.zdnet.com/article/maybe-open-source-needs-ai"
-      ],
-      "date": "2026-04-02T10:01:31.300321+00:00"
-    },
-    {
       "title": "UN Convention on Biological Diversity Launches Global Framework to Protect Ecosystems",
       "urls": [
         "https://www.conservation.cam.ac.uk/aggregator/sources/2",
@@ -4288,7 +4279,14 @@
         "https://www.bioworld.com/topics/84-bioworld"
       ],
       "date": "2026-04-12T10:01:06.048615+00:00"
+    },
+    {
+      "title": "Anthropic Launches Autonomous AI Agents For Enterprise Workflows",
+      "urls": [
+        "https://www.youtube.com/watch?v=tILZuOvro6I"
+      ],
+      "date": "2026-04-12T10:30:58.280707+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T10:01:06.048673+00:00"
+  "lastUpdated": "2026-04-12T10:30:58.280768+00:00"
 }
