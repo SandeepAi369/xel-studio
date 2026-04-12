@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "St Jude Launches New Computational Tool To Enhance Rna Sequencing Accuracy",
-      "urls": [
-        "https://www.medicaldiscoverynews.com",
-        "https://scitechdaily.com/news/health",
-        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
-        "https://www.medicalnewstoday.com/categories/medical-innovation",
-        "https://icahn.mssm.edu/research/breakthroughs",
-        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
-        "https://www.stjude.org/media-resources/news-releases/2025-medicine-science-news.html",
-        "https://www.nih.gov/news-events/news-releases",
-        "https://www.bioworld.com/topics/84-bioworld"
-      ],
-      "date": "2026-04-01T23:31:11.778612+00:00"
-    },
-    {
       "title": "Gemini 3 Deep Think Upgraded With Aletheia Verification System",
       "urls": [
         "https://deepmind.google/research/publications",
@@ -4323,7 +4308,20 @@
         "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html"
       ],
       "date": "2026-04-11T23:30:58.393722+00:00"
+    },
+    {
+      "title": "Thylander Deploys AI-Optimized Data Centers Across Europe",
+      "urls": [
+        "https://www.aiblogue.com/blog/ai-blogue/cloud-computing-updates-what-you-need-to-know",
+        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
+        "https://www.youtube.com/watch?v=qJshjEGfTKE",
+        "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://www.cio.inc/ai-infrastructure-pressures-push-enterprises-to-cloud-a-30302",
+        "https://biztechmagazine.com/article/2026/01/how-ai-changing-businesses-infrastructure-strategies"
+      ],
+      "date": "2026-04-12T00:01:07.966920+00:00"
     }
   ],
-  "lastUpdated": "2026-04-11T23:30:58.393786+00:00"
+  "lastUpdated": "2026-04-12T00:01:07.966989+00:00"
 }
