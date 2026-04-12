@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepMind has unveiled a new AI system capable of autonomously designing and running scientific exper",
-      "urls": [
-        "https://www.youtube.com/watch?v=Io_GqmbNBbY"
-      ],
-      "date": "2026-04-02T15:31:56.702754+00:00"
-    },
-    {
       "title": "China has expanded its geopolitical reach through a series of advanced scientific missions in polar,",
       "urls": [
         "https://www.scmp.com/economy/china-economy/article/3330611/chinas-geopolitical-competition-expands-new-frontiers-scientific-milestones",
@@ -4263,7 +4256,17 @@
         "https://www.computerworld.com/article/3975705/from-prompts-to-production-ai-will-soon-write-most-code-reshape-developer-roles.html"
       ],
       "date": "2026-04-12T15:30:54.640816+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://tradecouncil.org/category/news/technology-trade-policy",
+        "https://itif.org/publications/2025/12/01/defending-american-tech-in-global-markets",
+        "https://actonline.org/2026/03/24/trade-policys-big-impacts-on-small-tech",
+        "https://www.itic.org/news-events/news-releases?policy=federal-advocacy"
+      ],
+      "date": "2026-04-12T16:01:08.714594+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T15:30:54.640877+00:00"
+  "lastUpdated": "2026-04-12T16:01:08.714657+00:00"
 }
