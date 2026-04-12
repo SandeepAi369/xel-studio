@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Neurotechnology Launches Lithuanian LLM Surpassing Llama 2",
-      "urls": [
-        "https://aibusiness.com/nlp/ai2-olmo-large-language-model-is-truly-open-source-",
-        "https://blog.mlq.ai/this-week-in-ai-large-language-model",
-        "https://www.neurotechnology.com/press_release_nlp_large_language_model_for_lithuanian.html",
-        "https://www.analyticsvidhya.com/blog/2023/07/falcon-ai-the-new-open-source-large-language-model",
-        "https://www.jimintriglia.com/blog/first-look-meta-llama-2-open-source-large-language-model",
-        "https://neurotechnology.com/press_release_nlp_large_language_model_for_lithuanian.html",
-        "https://pandaily.com/tencent-releases-open-source-moe-large-language-model-hunyuan-large",
-        "https://indiaai.gov.in/article/understanding-stablelm-an-open-source-large-language-model",
-        "https://www.techdogs.com/tech-news/td-newsdesk/ai2-unleashes-olmo-a-game-changing-open-source-large-language-model",
-        "https://bobweb.ai/googles-latest-open-source-large-language-model"
-      ],
-      "date": "2026-04-02T13:31:23.977684+00:00"
-    },
-    {
       "title": "U.S. Wind and Solar Generate 17% of Electricity in 2025 Record",
       "urls": [
         "https://renewablesnow.com",
@@ -4283,7 +4267,17 @@
         "https://royalsociety.org/news/2025/06/disability-technology"
       ],
       "date": "2026-04-12T13:30:59.282821+00:00"
+    },
+    {
+      "title": "Tenex AI secured $250 million in Series B funding, marking a significant milestone in its growth as ",
+      "urls": [
+        "https://techfundingnews.com/category/acquisition",
+        "https://news.crunchbase.com/venture/record-setting-global-funding-february-2026-openai-anthropic",
+        "https://vcnewsdaily.com",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield"
+      ],
+      "date": "2026-04-12T14:01:05.590825+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T13:30:59.282888+00:00"
+  "lastUpdated": "2026-04-12T14:01:05.590891+00:00"
 }
