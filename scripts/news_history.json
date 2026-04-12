@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stable Diffusion Powers Open Source Creative AI Tools",
-      "urls": [
-        "https://criticalplayground.org/open-source-ai-models-are-reshaping-creative-workflows"
-      ],
-      "date": "2026-04-02T18:01:35.479400+00:00"
-    },
-    {
       "title": "Sam Altman Announces OpenAI To Release Open Weight Model",
       "urls": [
         "https://www.wired.com/story/openai-sam-altman-announce-open-source-model",
@@ -4277,7 +4270,23 @@
         "https://watchers.news/2026/02/21/coastal-storm-and-long-duration-atmospheric-river-to-bring-heavy-precipitation-to-pacific-northwest-and-california"
       ],
       "date": "2026-04-12T18:01:13.375721+00:00"
+    },
+    {
+      "title": "Debian Restructures Data Protection Team and Issues Critical Security Updates",
+      "urls": [
+        "https://www.linux.com",
+        "https://9to5linux.com",
+        "https://itsfoss.com/news",
+        "https://www.linuxfoundation.org/press",
+        "https://open.spotify.com/show/3AZjRagzOkDX55Ftk8meuZ",
+        "https://techcommunity.microsoft.com/category/azure/blog/linuxandopensourceblog",
+        "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff",
+        "https://lwn.net",
+        "https://www.linuxtoday.com",
+        "https://github.blog/open-source"
+      ],
+      "date": "2026-04-12T18:30:54.613178+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T18:01:13.375788+00:00"
+  "lastUpdated": "2026-04-12T18:30:54.613252+00:00"
 }
