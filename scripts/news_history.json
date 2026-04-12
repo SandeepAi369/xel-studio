@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Israel Adesanya Faces Retirement Calls After Fifth Straight Loss",
-      "urls": [
-        "https://sports.yahoo.com/mma",
-        "https://www.nytimes.com/athletic/mma",
-        "https://www.bbc.com/sport/mixed-martial-arts",
-        "https://www.cbssports.com/ufc",
-        "https://bleacherreport.com/mma",
-        "https://www.espn.com/mma"
-      ],
-      "date": "2026-04-02T08:32:30.252028+00:00"
-    },
-    {
       "title": "Meta Releases LLaMA AI Models To Promote Open Research",
       "urls": [
         "https://www.merlyn.org/blog/truly-open-ai-metas-llama-offers-open-sourced-foundation-models"
@@ -4278,7 +4266,23 @@
         "https://www.flotrack.org"
       ],
       "date": "2026-04-12T08:30:58.111566+00:00"
+    },
+    {
+      "title": "Google Gemini 3 DeepThink Solves Olympiad Math With Aletheia Verification",
+      "urls": [
+        "https://www.youtube.com/watch?v=OFb3f3RnxRk",
+        "https://deepmind.google/research",
+        "https://deepmind.google/research/publications",
+        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+        "https://blog.google/products-and-platforms/products/gemini",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
+        "https://deepmind.google/blog",
+        "https://deepmind.google",
+        "https://gemini.google/overview/deep-research",
+        "https://research.google/blog"
+      ],
+      "date": "2026-04-12T09:01:07.188627+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T08:30:58.111632+00:00"
+  "lastUpdated": "2026-04-12T09:01:07.188701+00:00"
 }
