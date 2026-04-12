@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Researchers Warn Emotional Wellness Apps Harm Users",
-      "urls": [
-        "https://www.smartherapypc.com/post/how-technology-is-revolutionizing-mental-health-care",
-        "https://www.icthealth.org/news/digital-health-mental-wellbeing-a-lifeline-in-tough-times",
-        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
-        "https://yourhealthmagazine.net/article/mental-health/how-wellness-entrepreneurs-are-using-technology-to-drive-mental-health-awareness",
-        "https://www.innsightful.com/the-future-of-integrated-digital-approaches-in-mental-wellness",
-        "https://www.psychiatrictimes.com/topics/tech-psychiatry",
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
-        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
-        "https://news.harvard.edu/gazette/story/2025/06/got-emotional-wellness-app-it-may-be-doing-more-harm-than-good",
-        "https://www.apa.org/monitor/2026/01-02/trends-personalized-mental-health-care"
-      ],
-      "date": "2026-04-02T15:06:18.478880+00:00"
-    },
-    {
       "title": "DeepMind has unveiled a new AI system capable of autonomously designing and running scientific exper",
       "urls": [
         "https://www.youtube.com/watch?v=Io_GqmbNBbY"
@@ -4271,7 +4255,15 @@
         "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
       ],
       "date": "2026-04-12T15:01:04.359221+00:00"
+    },
+    {
+      "title": "Coding Tools Accelerate App Development And Transform Developer Workflows",
+      "urls": [
+        "https://www.developer-tech.com/news/ai-coding-tools-are-driving-a-surge-in-new-app-development",
+        "https://www.computerworld.com/article/3975705/from-prompts-to-production-ai-will-soon-write-most-code-reshape-developer-roles.html"
+      ],
+      "date": "2026-04-12T15:30:54.640816+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T15:01:04.359274+00:00"
+  "lastUpdated": "2026-04-12T15:30:54.640877+00:00"
 }
