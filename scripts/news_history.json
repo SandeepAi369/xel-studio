@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LXer Delivers Weekly GNU Linux News And Security Updates",
-      "urls": [
-        "https://lxer.com"
-      ],
-      "date": "2026-04-02T14:34:47.601222+00:00"
-    },
-    {
       "title": "Harvard Researchers Warn Emotional Wellness Apps Harm Users",
       "urls": [
         "https://www.smartherapypc.com/post/how-technology-is-revolutionizing-mental-health-care",
@@ -4269,7 +4262,16 @@
         "https://huggingface.co/google"
       ],
       "date": "2026-04-12T14:31:01.970036+00:00"
+    },
+    {
+      "title": "Kīlauea Eruption Ends As USGS Lowers Alert Level",
+      "urls": [
+        "https://www.instagram.com/reel/DXB5trTjDQ_",
+        "https://www.usgs.gov/observatories/hvo/news/volcano-watch-caldera-clues-tephra-deposits-kilaueas-past",
+        "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      ],
+      "date": "2026-04-12T15:01:04.359221+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T14:31:01.970103+00:00"
+  "lastUpdated": "2026-04-12T15:01:04.359274+00:00"
 }
