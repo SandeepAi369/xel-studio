@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oecd Cuts Global Growth Forecast Amid Rising Energy Prices",
-      "urls": [
-        "https://www.cnbc.com/economy",
-        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqfi5tPVeepcBzzoroGK6L6CB_juOwjxqmGoU832Kd7hkBvgQJX1j4PD&gaa_ts=69cedc95&gaa_sig=vQFGc9HaX-pSWTSQdXFI7mc1f_3JIZ40bBeLyUTyaIspqyE-IJ9sa0srR38jt9Mf-nkeHGFf-f_JTmhjz7Tzaw%3D%3D",
-        "https://www.reuters.com/markets/econ-world",
-        "https://finance.yahoo.com/news/war-hits-global-economy-us-100000814.html",
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
-        "https://www.economist.com/topics/economy",
-        "https://apnews.com/hub/inflation",
-        "https://www.cnn.com/business/economy",
-        "https://www.nytimes.com/section/business/economy",
-        "https://www.youtube.com/watch?v=fwjW_7G8w6I"
-      ],
-      "date": "2026-04-02T21:02:56.195475+00:00"
-    },
-    {
       "title": "New York City Bar Association Releases AI Accessibility Recommendations",
       "urls": [
         "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
@@ -4276,7 +4260,21 @@
         "https://www.youtube.com/watch?v=mMYaEht5fHY"
       ],
       "date": "2026-04-12T21:02:05.874088+00:00"
+    },
+    {
+      "title": "Openai Voice Stack Empowers Blind Users With Conversational Ai Interface",
+      "urls": [
+        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
+        "https://rackham.umich.edu/discover-rackham/full/pioneering-accessibility-early-computing-screen-readers-and-new-tech",
+        "https://pubmed.ncbi.nlm.nih.gov/40614067",
+        "https://toptechtidbits.com/how-voice-first-ai-could-soon-change-everything-for-blv-people",
+        "https://www.govtech.com/computing/digital-inaccessibility-blind-and-low-vision-people-have-powerful-tech-but-still-face-digital-barriers",
+        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired/screen-readers",
+        "https://blog.usablenet.com/a-screen-reader-users-honest-take",
+        "https://www.youtube.com/watch?v=yWrqoOSViDY"
+      ],
+      "date": "2026-04-12T21:30:59.567334+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T21:02:05.874167+00:00"
+  "lastUpdated": "2026-04-12T21:30:59.567403+00:00"
 }
