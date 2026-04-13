@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Issues Executive Order 14365 to Unify National AI Policy",
-      "urls": [
-        "https://phillipslytle.com/executive-order-issued-to-restrict-state-regulation-of-artificial-intelligence"
-      ],
-      "date": "2026-04-03T11:33:08.929532+00:00"
-    },
-    {
       "title": "Democratic Frontrunner Weighs Run For Nebraska's 2nd District",
       "urls": [
         "https://www.politico.com/politics",
@@ -4232,7 +4225,22 @@
         "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4"
       ],
       "date": "2026-04-13T11:32:07.832391+00:00"
+    },
+    {
+      "title": "United States announced plans to blockade the Strait of Hormuz following the collapse of peace talks",
+      "urls": [
+        "https://www.arabnews.com/node/2639632/world",
+        "https://www.dw.com/en/peace-talks-between-the-us-and-iran-collapse/video-76755646",
+        "https://www.aol.com/live-updates-vance-heads-peace-130450408.html",
+        "https://www.youtube.com/watch?v=LuZ28ZGmlFI",
+        "https://www.youtube.com/watch?v=dXY17EHKCOc",
+        "https://www.instagram.com/reel/DXBgM-fGTfl",
+        "https://www.youtube.com/watch?v=CoLrF3pliTU",
+        "https://www.france24.com/en/iran-believes-they-hold-the-cards-amid-dysfunction-chaos-in-us-national-security-decision-making",
+        "https://www.bbc.com/news/live/cn4v0xm9y0kt"
+      ],
+      "date": "2026-04-13T12:02:11.981619+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T11:32:07.832471+00:00"
+  "lastUpdated": "2026-04-13T12:02:11.981682+00:00"
 }
