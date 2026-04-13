@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Regulators Draft Rules To Control AI Chip Exports",
-      "urls": [
-        "https://www.barrons.com/articles/nvidia-amd-google-ai-chips-71871e42?gaa_at=eafs&gaa_n=AWEtsqfXAD9OflDzfgFYaCLlvuTKA9heW_HtZogHBrcHPHz7iWIgz4rZYtCg&gaa_ts=69d00adc&gaa_sig=hb32YgO9QyEYSicKb0gs97WgsNfxphHdcAqDhwmjXfZFQjIS-c9vSXLaFxlA8Tp6mkq1kFQMqlHyatOaOa_72Q%3D%3D",
-        "https://www.youtube.com/watch?v=MleiSYvWIzY",
-        "https://finance.yahoo.com/news/nvidia-amd-could-face-worldwide-232031799.html",
-        "https://www.reddit.com/r/AMD_Stock/comments/1lghvnk/realistically_how_close_is_amd_to_nvidia_in_ai",
-        "https://www.fool.com/investing/2026/03/05/nvidia-and-amd-could-face-worldwide-ai-chip-export",
-        "https://patentpc.com/blog/the-ai-chip-market-explosion-key-stats-on-nvidia-amd-and-intels-ai-dominance",
-        "https://www.heygotrade.com/en/news/us-ai-chip-export-rules-tighten-nvidia-amd-stocks-slide",
-        "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
-        "https://aimultiple.com/ai-chip-makers"
-      ],
-      "date": "2026-04-03T18:30:54.329798+00:00"
-    },
-    {
       "title": "Google And Northwestern Medicine AI Detects Lung Cancer More Accurately Than Radiologists",
       "urls": [
         "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare"
@@ -4224,7 +4209,21 @@
         "https://www.instagram.com/reel/DXEdXhhCULE"
       ],
       "date": "2026-04-13T18:05:01.140233+00:00"
+    },
+    {
+      "title": "PyTorch excels in research and rapid prototyping due to its dynamic computation graph, making it the",
+      "urls": [
+        "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
+        "https://news.ycombinator.com/item?id=45844142",
+        "https://www.hyperstack.cloud/blog/case-study/pytorch-vs-tensorflow",
+        "https://www.ultralytics.com/blog/exploring-vision-ai-frameworks-tensorflow-pytorch-and-opencv",
+        "https://www.lightly.ai/blog/pytorch-vs-tensorflow",
+        "https://rafay.co/ai-and-cloud-native-blog/pytorch-vs-tensorflow-a-comprehensive-comparison",
+        "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
+        "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
+      ],
+      "date": "2026-04-13T18:34:48.361797+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T18:05:01.140313+00:00"
+  "lastUpdated": "2026-04-13T18:34:48.361848+00:00"
 }
