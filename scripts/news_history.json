@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Warns Spyware Threatens Global Human Rights",
-      "urls": [
-        "https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report",
-        "https://cepa.org/article/uk-tech-regulation-surveillance-shouldnt-trump-privacy",
-        "https://www.nytimes.com/topic/subject/online-privacy-regulation",
-        "https://www.reuters.com/legal/data-privacy",
-        "https://www.isaca.org/resources/news-and-trends/industry-news/2024/the-evolving-world-of-data-privacy-trends-and-strategies",
-        "https://www.youtube.com/watch?v=l4bnww9SVak",
-        "https://www.weforum.org/videos/right-online-privacy",
-        "https://www.bbc.com/news/articles/c4gj39zk1k0o",
-        "https://www.aclu.org/news/privacy-technology/government-mandated-software",
-        "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture"
-      ],
-      "date": "2026-04-03T20:01:27.202444+00:00"
-    },
-    {
       "title": "Apple Partners With Google To Power Apple Intelligence Using Gemini AI",
       "urls": [
         "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three",
@@ -4221,7 +4205,16 @@
         "https://www.youtube.com/watch?v=MleiSYvWIzY"
       ],
       "date": "2026-04-13T19:33:49.227595+00:00"
+    },
+    {
+      "title": "{\"articleText\": \"Viktor Orb\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\",
+      "urls": [
+        "https://www.npr.org/sections/elections",
+        "https://abcnews.com/politics",
+        "https://www.youtube.com/watch?v=5KjLTkU5SS8"
+      ],
+      "date": "2026-04-13T20:04:20.731571+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T19:33:49.227666+00:00"
+  "lastUpdated": "2026-04-13T20:04:20.731653+00:00"
 }
