@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "UiPath And AutonomyWorks Boost AI Training With Neurodivergent Talent",
-      "urls": [
-        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech",
-        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths",
-        "https://news.vt.edu/articles/2025/11/eng-ise-smarter-robots.html",
-        "https://www.news-medical.net/news/20260120/New-AI-learning-tool-bridges-communication-gaps-between-autistic-and-neurotypical-people.aspx",
-        "https://www.avnetwork.com/news/leveraging-technology-to-empower-neurodivergent-individuals",
-        "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
-        "https://enabledintelligence.net/press/neurodiversity-emerges-as-a-skill-in-artificial-intelligence-work",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817661",
-        "https://www.nature.com/articles/s41746-024-01355-7",
-        "https://www.fortayconnect.com/content/revolutionising-business-how-dialpads-new-ai-tool-takes-customer-service-to-new-heights-0-1"
-      ],
-      "date": "2026-04-03T01:03:21.512827+00:00"
-    },
-    {
       "title": "U.S. Climate Program Urged to Prioritize Immediate Risk Mitigation",
       "urls": [
         "https://www.nationalacademies.org/topics/climate-change"
@@ -4255,7 +4239,19 @@
         "https://www.foxsports.com/stories"
       ],
       "date": "2026-04-13T01:01:12.110868+00:00"
+    },
+    {
+      "title": "United Nations Reports Record High Greenhouse Gas Levels",
+      "urls": [
+        "https://www.cnn.com/climate",
+        "https://www.nbcnews.com/climate-in-crisis",
+        "https://www.sciencenews.org/topic/climate",
+        "https://www.un.org/en/climatechange/reports",
+        "https://www.bbc.com/news/topics/cmj34zmwm1zt",
+        "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
+      ],
+      "date": "2026-04-13T01:30:56.375993+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T01:01:12.110929+00:00"
+  "lastUpdated": "2026-04-13T01:30:56.376066+00:00"
 }
