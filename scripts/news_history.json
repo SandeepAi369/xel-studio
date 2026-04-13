@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Climate Program Urged to Prioritize Immediate Risk Mitigation",
-      "urls": [
-        "https://www.nationalacademies.org/topics/climate-change"
-      ],
-      "date": "2026-04-03T01:33:08.336409+00:00"
-    },
-    {
       "title": "Anthropic Removes Safety Clause From AI Development Policy",
       "urls": [
         "https://thehill.com/policy/technology/5754539-anthropic-ai-pentagon-dispute",
@@ -4251,7 +4244,18 @@
         "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
       ],
       "date": "2026-04-13T01:30:56.375993+00:00"
+    },
+    {
+      "title": "Open Source Llms Match Proprietary Models In Performance",
+      "urls": [
+        "https://thenewstack.io/llm",
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
+        "https://www.infoq.com/llms/news",
+        "https://openai.com/open-models",
+        "https://explodingtopics.com/blog/list-of-llms"
+      ],
+      "date": "2026-04-13T02:03:23.129714+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T01:30:56.376066+00:00"
+  "lastUpdated": "2026-04-13T02:03:23.129784+00:00"
 }
