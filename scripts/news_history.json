@@ -1,37 +1,6 @@
 {
   "entries": [
     {
-      "title": "Seedance 2.0 Sparks Hollywood Fears With Hyper-Realistic AI Videos",
-      "urls": [
-        "https://www.eweek.com/news/runway-ai-video-model",
-        "https://www.mbhb.com/intelligence/snippets/ai-news-roundup-openai-releases-new-video-generation-model-california-ai-bill-signed-into-law-ai-actress-sparks-backlash-in-hollywood-and-more",
-        "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
-        "https://magichour.ai/blog/the-state-of-ai-in-video-and-image-generation",
-        "https://www.datacamp.com/blog/top-video-generation-models",
-        "https://www.superhuman.ai/p/new-ai-video-model-takes-over-the-internet",
-        "https://www.technologyreview.com/2025/09/12/1123562/how-do-ai-models-generate-videos",
-        "https://tech.yahoo.com/ai/gemini/articles/most-popular-ai-image-video-115900909.html",
-        "https://www.youtube.com/watch?v=msrbd-d6lWk",
-        "https://www.youtube.com/watch?v=X9ZAas973aQ"
-      ],
-      "date": "2026-04-03T09:03:34.037462+00:00"
-    },
-    {
-      "title": "Nyu Engineers Unveil Haptic Navigation Belt For Low Vision Users",
-      "urls": [
-        "https://battleforblindness.org/empowering-education-the-best-assistive-technologies-for-visually-impaired-students-in-2024",
-        "https://wach.com/news/local/sc-school-for-the-blind-students-receive-high-tech-vision-aids-blind-vision-impairment-glasses-south-carolina-student-loan-and-vispero-sight-savers-america",
-        "https://www.yahoo.com/news/articles/blind-visually-impaired-children-receive-171210450.html",
-        "https://www.9news.com/article/news/local/9news-mornings/facial-expression-communication-device/73-faefd37a-c3c7-4313-82c7-7415b70d02c2",
-        "https://bism.org/news-resources/faq/perspectives/breaking-barriers-the-impact-of-assistive-technology-at-bism",
-        "https://wchstv.com/news/local/technology-conference-showcases-latest-technology-to-help-vision-impaired",
-        "https://news.asu.edu/20250220-science-and-technology-student-sees-how-ai-can-assist-people-vision-loss",
-        "https://www.msn.com/en-us/news/technology/quinnipiac-students-working-on-ai-technology-to-help-the-visually-impaired/vi-AA1QfzcM",
-        "https://engineering.nyu.edu/news/new-virtual-reality-tested-system-shows-promise-aiding-navigation-people-blindness-or-low"
-      ],
-      "date": "2026-04-03T09:33:27.424670+00:00"
-    },
-    {
       "title": "TensorFlow And PyTorch Lead AI Framework Market In 2025",
       "urls": [
         "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
@@ -4255,7 +4224,14 @@
         "https://www.youtube.com/watch?v=htBaVVh_k90"
       ],
       "date": "2026-04-13T09:03:28.736804+00:00"
+    },
+    {
+      "title": "InnoCaption Launches Real Time Captioning For Phone Calls",
+      "urls": [
+        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoqT5n8jHX1L7e5wmbTeGKt8SgSK_kl9dRxFT4Ga14FDGrmVKMs6"
+      ],
+      "date": "2026-04-13T09:33:48.456453+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T09:03:28.736860+00:00"
+  "lastUpdated": "2026-04-13T09:33:48.456526+00:00"
 }
