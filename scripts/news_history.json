@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Avandra Launches With $17.75 Million To Transform Medical Data Analysis",
-      "urls": [
-        "https://www.crescendo.ai/news/ai-in-healthcare-news"
-      ],
-      "date": "2026-04-02T23:33:16.276832+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.4 With Advanced Reasoning For Professionals",
       "urls": [
         "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -4263,7 +4256,17 @@
         "https://www.aljazeera.com/tag/refugees"
       ],
       "date": "2026-04-12T23:30:55.649356+00:00"
+    },
+    {
+      "title": "NVIDIA Launches Rubin Platform With Six New Chips For AI Supercomputing",
+      "urls": [
+        "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+        "https://www.youtube.com/watch?v=rYadLBoh6VA",
+        "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-design-is-pushing-2-5d-packaging-to-its-limits",
+        "https://www.instagram.com/p/DViNkAfliH2"
+      ],
+      "date": "2026-04-13T00:01:10.014515+00:00"
     }
   ],
-  "lastUpdated": "2026-04-12T23:30:55.649424+00:00"
+  "lastUpdated": "2026-04-13T00:01:10.014578+00:00"
 }
