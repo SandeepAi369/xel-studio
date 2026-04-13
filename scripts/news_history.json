@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google And Northwestern Medicine AI Detects Lung Cancer More Accurately Than Radiologists",
-      "urls": [
-        "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare"
-      ],
-      "date": "2026-04-03T19:01:26.459031+00:00"
-    },
-    {
       "title": "OpenAI's ChatGPT Surpasses 180 Million Weekly Users",
       "urls": [
         "https://aimagazine.com/news/top-10-generative-ai-tools",
@@ -4223,7 +4216,16 @@
         "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
       ],
       "date": "2026-04-13T18:34:48.361797+00:00"
+    },
+    {
+      "title": "Healthcare CIOs Struggle to Scale AI Amid EHR Dependence",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.healthcareitnews.com/topics/artificial-intelligence",
+        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
+      ],
+      "date": "2026-04-13T19:02:28.509561+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T18:34:48.361848+00:00"
+  "lastUpdated": "2026-04-13T19:02:28.509625+00:00"
 }
