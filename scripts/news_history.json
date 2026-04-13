@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar And Wind Power Exceed Global Demand Growth In 2023",
-      "urls": [
-        "https://www.youtube.com/watch?v=spSOp5s_6_A",
-        "https://www.usnews.com/news/us/articles/2025-10-06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says",
-        "https://www.windtech-international.com/industry-news/wind-leads-renewable-electricity-growth-in-usa-as-solar-and-batteries-drive-new-capacity",
-        "https://www.utilitydive.com/topic/solar",
-        "https://www.nytimes.com/topic/subject/wind-power"
-      ],
-      "date": "2026-04-03T10:33:14.055077+00:00"
-    },
-    {
       "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Detect Pancreatic Cancer Earlier",
       "urls": [
         "https://www.youtube.com/watch?v=cx_CKLb8Yl4",
@@ -4231,7 +4220,19 @@
         "https://www.instagram.com/reel/DW7lzsDCQ5z"
       ],
       "date": "2026-04-13T10:33:02.502412+00:00"
+    },
+    {
+      "title": "Replit Launches AI Tool To Build And Monetize iOS Apps From Text Prompts",
+      "urls": [
+        "https://www.pragmaticcoders.com/resources/ai-developer-tools",
+        "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026",
+        "https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them",
+        "https://www.forbes.com/sites/joetoscano1/2026/01/20/developers-use-ai-coding-tools-to-get-started-not-finish-the-job",
+        "https://news.ycombinator.com/item?id=46301886",
+        "https://www.youtube.com/watch?v=GOa3SfkQ0vE"
+      ],
+      "date": "2026-04-13T11:02:19.203630+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T10:33:02.502481+00:00"
+  "lastUpdated": "2026-04-13T11:02:19.203697+00:00"
 }
