@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Detect Pancreatic Cancer Earlier",
-      "urls": [
-        "https://www.youtube.com/watch?v=cx_CKLb8Yl4",
-        "https://www.xr.health/eu/us/blog/generative-ai-in-healthcare"
-      ],
-      "date": "2026-04-03T11:03:27.870499+00:00"
-    },
-    {
       "title": "White House Issues Executive Order 14365 to Unify National AI Policy",
       "urls": [
         "https://phillipslytle.com/executive-order-issued-to-restrict-state-regulation-of-artificial-intelligence"
@@ -4232,7 +4224,15 @@
         "https://www.youtube.com/watch?v=GOa3SfkQ0vE"
       ],
       "date": "2026-04-13T11:02:19.203630+00:00"
+    },
+    {
+      "title": "Workloads To Rise 20 Percent In Enterprises",
+      "urls": [
+        "https://hbr.org/sponsored/2025/10/tapping-ais-potential-with-powerful-infrastructure-from-cloud-to-edge",
+        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4"
+      ],
+      "date": "2026-04-13T11:32:07.832391+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T11:02:19.203697+00:00"
+  "lastUpdated": "2026-04-13T11:32:07.832471+00:00"
 }
