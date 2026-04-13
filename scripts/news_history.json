@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rethink Trade Warns Big Tech Exploits USMCA To Undermine Antitrust Laws",
-      "urls": [
-        "https://rethinktrade.org/digitaltrade"
-      ],
-      "date": "2026-04-03T07:03:57.531649+00:00"
-    },
-    {
       "title": "Telehealth And Medicine Today Advances Global Digital Health Innovation",
       "urls": [
         "https://telehealthandmedicinetoday.com"
@@ -4249,7 +4242,19 @@
         "https://www.youtube.com/watch?v=2WE0b5DeOUc"
       ],
       "date": "2026-04-13T07:01:23.456674+00:00"
+    },
+    {
+      "title": "Harvard Researchers Build First Continuously Operating Quantum Computer",
+      "urls": [
+        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough",
+        "https://thequantuminsider.com",
+        "https://www.discovermagazine.com/quantum-computing-is-beginning-to-take-shape-here-are-three-recent-breakthroughs-48938",
+        "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
+        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
+        "https://www.youtube.com/watch?v=1oJLrvQtnHs"
+      ],
+      "date": "2026-04-13T07:31:02.378348+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T07:01:23.456742+00:00"
+  "lastUpdated": "2026-04-13T07:31:02.378409+00:00"
 }
