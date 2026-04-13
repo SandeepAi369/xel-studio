@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Launches Real-Time Captioning For Phone Calls",
-      "urls": [
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooHv6OgiQauahiCH_TooGtYIkHb7AoYWVe5dmESBeiQcy-5JcZs",
-        "https://www.youtube.com/watch?v=mECgXiHjFT4"
-      ],
-      "date": "2026-04-03T05:03:34.834859+00:00"
-    },
-    {
       "title": "Asger First Child To Walk To School Using New Pediatric Exoskeleton",
       "urls": [
         "https://www.rehabtool.com/news.html",
@@ -4244,7 +4236,21 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
       ],
       "date": "2026-04-13T05:01:11.864076+00:00"
+    },
+    {
+      "title": "NeuroBridge Launches AI Tool To Bridge Communication Gaps",
+      "urls": [
+        "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
+        "https://www.nature.com/articles/s41746-024-01355-7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817661",
+        "https://www.news-medical.net/news/20260120/New-AI-learning-tool-bridges-communication-gaps-between-autistic-and-neurotypical-people.aspx",
+        "https://news.vt.edu/articles/2025/11/eng-ise-smarter-robots.html",
+        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths",
+        "https://www.understood.org/en/podcasts/missunderstood/hyperfocus-what-could-the-ai-boom-mean-for-neurodivergent-people",
+        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech"
+      ],
+      "date": "2026-04-13T05:30:54.034629+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T05:01:11.864150+00:00"
+  "lastUpdated": "2026-04-13T05:30:54.034697+00:00"
 }
