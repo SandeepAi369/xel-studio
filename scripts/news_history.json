@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Solves Longstanding Algorithm Challenge With Gemini 2.5 Breakthrough",
-      "urls": [
-        "https://www.theguardian.com/technology/2025/sep/17/google-deepmind-claims-historic-ai-breakthrough-in-problem-solving"
-      ],
-      "date": "2026-04-03T06:03:15.836743+00:00"
-    },
-    {
       "title": "Storm Therese Deluges Canary Islands With Over 300 mm Rain",
       "urls": [
         "https://www.youtube.com/watch?v=9Uivld1Mfhg",
@@ -4251,7 +4244,19 @@
         "https://www.llama.com"
       ],
       "date": "2026-04-13T06:01:09.439618+00:00"
+    },
+    {
+      "title": "Dominican Republic faces widespread flooding after heavy rains since April 8 caused casualties and i",
+      "urls": [
+        "https://www.facebook.com/GovJoshGreen/videos/as-we-continue-to-monitor-the-april-severe-weather-event-we-are-expecting-46-inc/2160493144746056",
+        "https://recovery.hawaiicounty.gov/Home/Components/News/News/4477/2706",
+        "https://www.nzherald.co.nz/nz/video-from-across-the-north-island-shows-early-extent-of-cyclone-vaianu-damage/U5RYHEMLCZIEZCS6IE6KEITLLI",
+        "https://mauinow.com/2026/04/11/maui-severe-weather-update-disturbance-renews-threat-of-flooding-through-monday",
+        "https://reliefweb.int/report/dominican-republic/dominican-republic-severe-weather-and-floods-noaa-cpc-indomet-media-echo-daily-flash-10-april-2026",
+        "https://weather.com/forecast/regional/video/heat-warmth-east-central-temperatures-above-average"
+      ],
+      "date": "2026-04-13T06:32:03.840445+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T06:01:09.439701+00:00"
+  "lastUpdated": "2026-04-13T06:32:03.840547+00:00"
 }
