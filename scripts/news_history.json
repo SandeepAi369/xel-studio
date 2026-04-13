@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alessandro De Souza Ferreira Wins Gold And Sets 400-Meter Hurdles World Record",
-      "urls": [
-        "https://acappellas.co.uk/breaking-records-and-shocking-defeats-lead-sports-coverage-this-week",
-        "https://www.youtube.com/watch?v=OBqy7iKRBU8",
-        "https://www.instagram.com/reel/DWcvr5aMjLg",
-        "https://www.guinnessworldrecords.com"
-      ],
-      "date": "2026-04-03T04:33:12.791484+00:00"
-    },
-    {
       "title": "InnoCaption Launches Real-Time Captioning For Phone Calls",
       "urls": [
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooHv6OgiQauahiCH_TooGtYIkHb7AoYWVe5dmESBeiQcy-5JcZs",
@@ -4247,7 +4237,14 @@
         "https://www.reddit.com/r/trackandfield/comments/1sj4jet/gout_gouts_1967_200m_at_australian_champs"
       ],
       "date": "2026-04-13T04:30:54.591858+00:00"
+    },
+    {
+      "title": "LocalLLaMA Community Reaches 684000 Members Amid Surge In Offline AI Adoption",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
+      ],
+      "date": "2026-04-13T05:01:11.864076+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T04:30:54.591930+00:00"
+  "lastUpdated": "2026-04-13T05:01:11.864150+00:00"
 }
