@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT 5.4 With Advanced Reasoning For Professionals",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://openai.com/index/introducing-gpt-5-4",
-        "https://openai.com/research/index/release",
-        "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://www.cnet.com/tech/services-and-software/openai-gpt-5-4-nano-mini-release",
-        "https://openai.com/news/product-releases",
-        "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/whats-new",
-        "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model"
-      ],
-      "date": "2026-04-03T00:03:31.388122+00:00"
-    },
-    {
       "title": "United States Esports Federation Merges With USA Esports to Unify National Team Efforts",
       "urls": [
         "https://www.esportschampionship.gg/news",
@@ -4266,7 +4251,15 @@
         "https://www.instagram.com/p/DViNkAfliH2"
       ],
       "date": "2026-04-13T00:01:10.014515+00:00"
+    },
+    {
+      "title": "Sports Teams Adopt AI To Boost Performance And Prevent Injuries",
+      "urls": [
+        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoqki-lk3V8F9LxOGiokKk2YIYXFlbIxZUjPliQfKO6XtRtvgxKv",
+        "https://natlawreview.com/press-releases/ai-sports-market-2026-data-analytics-and-performance-intelligence"
+      ],
+      "date": "2026-04-13T00:31:00.896663+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T00:01:10.014578+00:00"
+  "lastUpdated": "2026-04-13T00:31:00.896726+00:00"
 }
