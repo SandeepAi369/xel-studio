@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Reports 5X ROI From Open Source Adoption",
-      "urls": [
-        "https://www.linux-magazine.com/Online/News"
-      ],
-      "date": "2026-04-03T23:01:23.667515+00:00"
-    },
-    {
-      "title": "Systems Analyze Medical Data To Enhance Patient Diagnoses",
-      "urls": [
-        "https://www.xr.health/us/blog/generative-ai-in-healthcare"
-      ],
-      "date": "2026-04-03T23:31:08.688696+00:00"
-    },
-    {
       "title": "Chinese Researchers Stabilize Quantum Information With New Control Technique",
       "urls": [
         "https://dig.watch/updates/quantum-computing-breakthrough-slows-information-loss",
@@ -4224,7 +4210,16 @@
         "https://www.avnetwork.com/news/leveraging-technology-to-empower-neurodivergent-individuals"
       ],
       "date": "2026-04-13T23:01:21.267427+00:00"
+    },
+    {
+      "title": "Gout Gout Smashes Australian U20 200m Record With 19.67 Run",
+      "urls": [
+        "https://xs-79.com/sport-news-today-breaking-records-and-unexpected-victories-dominate-headlines-across-major-sports",
+        "https://acappellas.co.uk/unprecedented-records-and-shocking-upsets-command-attention-in-worldwide-athletics",
+        "https://www.reddit.com/r/sydney/comments/1sj8n03/history_made_in_sydney_18yo_gout_gout_smashes"
+      ],
+      "date": "2026-04-13T23:32:03.235192+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T23:01:21.267510+00:00"
+  "lastUpdated": "2026-04-13T23:32:03.235252+00:00"
 }
