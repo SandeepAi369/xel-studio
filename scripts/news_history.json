@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nhs Ai Trial Saves Time For 30000 Healthcare Workers",
-      "urls": [
-        "https://www.boa.ac.uk/learning-and-events/artificial-intelligence-ai-in-t-o/ai-in-healthcare-news-and-updates.html"
-      ],
-      "date": "2026-04-03T02:33:36.707636+00:00"
-    },
-    {
       "title": "Prognosia Breast AI Predicts Five-Year Cancer Risk From Mammograms",
       "urls": [
         "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
@@ -4254,7 +4247,17 @@
         "https://hms.harvard.edu/about-hms/history-hms/timeline-discovery"
       ],
       "date": "2026-04-13T02:30:58.396164+00:00"
+    },
+    {
+      "title": "U.S. Commerce Department Targets Chinese Imports With New Trade Measures",
+      "urls": [
+        "https://www.bakermckenzie.com/en/insight/publications/2026/03/trade-and-tariff-shifts-reshaping-tech",
+        "https://www.trade.gov/press-releases",
+        "https://itif.org/issues/non-tariff-attacks",
+        "https://www.citizen.org/news/map-big-tech-expands-global-assault-on-digital-rules-mapping-big-techs-global-deregulatory-demands-for-the-trump-trade-agenda"
+      ],
+      "date": "2026-04-13T03:01:22.285543+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T02:30:58.396225+00:00"
+  "lastUpdated": "2026-04-13T03:01:22.285611+00:00"
 }
