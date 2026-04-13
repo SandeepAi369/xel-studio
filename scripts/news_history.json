@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar Power Set To Dominate Global Energy By 2050",
-      "urls": [
-        "https://insideclimatenews.org/news/15012026/inside-clean-energy-solar-dominance"
-      ],
-      "date": "2026-04-03T22:31:10.854483+00:00"
-    },
-    {
       "title": "Linux Foundation Reports 5X ROI From Open Source Adoption",
       "urls": [
         "https://www.linux-magazine.com/Online/News"
@@ -4224,7 +4217,14 @@
         "https://volcanoes.usgs.gov/hans2/volcano/cas"
       ],
       "date": "2026-04-13T22:31:03.911882+00:00"
+    },
+    {
+      "title": "HOK Releases Book On Neuroinclusive Workplace Design",
+      "urls": [
+        "https://www.avnetwork.com/news/leveraging-technology-to-empower-neurodivergent-individuals"
+      ],
+      "date": "2026-04-13T23:01:21.267427+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T22:31:03.911945+00:00"
+  "lastUpdated": "2026-04-13T23:01:21.267510+00:00"
 }
