@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "All Star Wheelchairs Launches Voice-Controlled Mobility Devices With Advanced Safety Features",
-      "urls": [
-        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoow18DICTFER1O5_csqdqpkwBzxt71smF8M9YHCFrOZBy1lswR9",
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopXyjhY6dYXz9gdkEqKMnFFwlKDe28NHMw8YKgHDXR_BVV9v0UK"
-      ],
-      "date": "2026-04-03T21:31:17.162634+00:00"
-    },
-    {
       "title": "Nvidia Outperforms AMD In AI Chip Efficiency With Blackwell Ultra",
       "urls": [
         "https://www.sdxcentral.com/news/nvidia-pulls-ahead-as-amds-software-stack-falls-short-report"
@@ -4209,7 +4201,18 @@
         "https://sports.yahoo.com/golf/article/yahoo-sports-am-top-20-sports-moments-of-the-century-161839037.html"
       ],
       "date": "2026-04-13T21:03:19.384018+00:00"
+    },
+    {
+      "title": "New York City Bar Association has released a report warning that AI systems risk harming people with",
+      "urls": [
+        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
+        "https://www.undp.org/uzbekistan/blog/ai-revolution-it-game-changer-disability-inclusion",
+        "https://www.everylearnereverywhere.org/blog/how-ai-in-assistive-technology-supports-students-and-educators-with-disabilities",
+        "https://www.nycbar.org/reports/the-impact-of-the-use-of-ai-on-people-with-disabilities",
+        "https://acceleratelearning.stanford.edu/story/what-does-ai-mean-for-learners-with-disabilities"
+      ],
+      "date": "2026-04-13T21:32:00.497352+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T21:03:19.384092+00:00"
+  "lastUpdated": "2026-04-13T21:32:00.497434+00:00"
 }
