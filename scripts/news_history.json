@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI's ChatGPT Surpasses 180 Million Weekly Users",
-      "urls": [
-        "https://aimagazine.com/news/top-10-generative-ai-tools",
-        "https://www.sganalytics.com/blog/top-generative-ai-tools",
-        "https://ai.google/products",
-        "https://ryantronier.com/resources/generative-ai-tools",
-        "https://www.edureka.co/blog/top-generative-ai-tools",
-        "https://bootcamp.uic.edu/blog/best-generative-ai-tools",
-        "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/top-generative-ai-tools",
-        "https://cloud.google.com/use-cases/free-ai-tools",
-        "https://mashable.com/article/upcoming-ai-productivity-tools-models"
-      ],
-      "date": "2026-04-03T19:31:06.596780+00:00"
-    },
-    {
       "title": "United Nations Warns Spyware Threatens Global Human Rights",
       "urls": [
         "https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report",
@@ -4225,7 +4210,18 @@
         "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
       ],
       "date": "2026-04-13T19:02:28.509561+00:00"
+    },
+    {
+      "title": "Qualcomm announces new data center AI accelerator chips focused on inference, directly challenging N",
+      "urls": [
+        "https://www.cnbc.com/2025/10/27/qualcomm-ai200-ai250-ai-chips-nvidia-amd.html",
+        "https://patentpc.com/blog/the-ai-chip-market-explosion-key-stats-on-nvidia-amd-and-intels-ai-dominance",
+        "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-reveals-roadmap-with-nine-month-cadence-for-new-ai-processor-releases-beating-nvidia-and-amds-yearly-cadence-musk-plans-to-have-the-highest-volume-chips-in-the-world",
+        "https://www.youtube.com/watch?v=MleiSYvWIzY"
+      ],
+      "date": "2026-04-13T19:33:49.227595+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T19:02:28.509625+00:00"
+  "lastUpdated": "2026-04-13T19:33:49.227666+00:00"
 }
