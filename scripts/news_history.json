@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democratic Frontrunner Weighs Run For Nebraska's 2nd District",
-      "urls": [
-        "https://www.politico.com/politics",
-        "https://www.cnn.com/2026/04/03/politics/video/cnn-poll-shows-democratic-midterm-advantage-lnd-digvid",
-        "https://www.npr.org/sections/elections",
-        "https://abcnews.com/politics",
-        "https://www.washingtonpost.com/politics"
-      ],
-      "date": "2026-04-03T12:04:47.206266+00:00"
-    },
-    {
       "title": "All Star Wheelchairs Launch AI-Powered Models With Real-Time Urban Navigation",
       "urls": [
         "https://www.mobilityplus.com/blog/technological-innovations-transforming-wheelchair-design",
@@ -4240,7 +4229,22 @@
         "https://www.bbc.com/news/live/cn4v0xm9y0kt"
       ],
       "date": "2026-04-13T12:02:11.981619+00:00"
+    },
+    {
+      "title": "Carlos Ulberg Knocks Out Jiri Prochazka In First Round At UFC 327",
+      "urls": [
+        "https://bloodyelbow.com",
+        "https://www.ufc.com",
+        "https://sports.yahoo.com/mma",
+        "https://www.bbc.com/sport/mixed-martial-arts",
+        "https://bleacherreport.com/mma",
+        "https://supersport.com/mma/video/35e925e2-ab7e-425d-ad23-8e1bb437150a/murzakanov-v-costa-fight-highlights-ufc-fight-night",
+        "https://www.espn.com/mma/ufc",
+        "https://www.cbssports.com/ufc",
+        "https://www.espn.com/mma"
+      ],
+      "date": "2026-04-13T12:34:11.703747+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T12:02:11.981682+00:00"
+  "lastUpdated": "2026-04-13T12:34:11.703837+00:00"
 }
