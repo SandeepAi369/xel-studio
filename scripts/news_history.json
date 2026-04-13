@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Removes Safety Clause From AI Development Policy",
-      "urls": [
-        "https://thehill.com/policy/technology/5754539-anthropic-ai-pentagon-dispute",
-        "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540?gaa_at=eafs&gaa_n=AWEtsqfSrBLRSXFem5_TW4-LJ77XHE0LocfRe-SsNAE5XEDw9bOEyDMY0_Ca&gaa_ts=69cf22e2&gaa_sig=UpBxgwwn226IPOnaOeD9PfiSSyTitX_jKUHT6xiTXrF849cOCe9kRcpHmHJNuf01DlPR79CVK63m1wjMuCJxDg%3D%3D"
-      ],
-      "date": "2026-04-03T02:03:28.832861+00:00"
-    },
-    {
       "title": "Nhs Ai Trial Saves Time For 30000 Healthcare Workers",
       "urls": [
         "https://www.boa.ac.uk/learning-and-events/artificial-intelligence-ai-in-t-o/ai-in-healthcare-news-and-updates.html"
@@ -4255,7 +4247,14 @@
         "https://explodingtopics.com/blog/list-of-llms"
       ],
       "date": "2026-04-13T02:03:23.129714+00:00"
+    },
+    {
+      "title": "Harvard Researchers Identify RIPK1 Inhibitors As Promising Treatment For ALS And Alzheimer’s",
+      "urls": [
+        "https://hms.harvard.edu/about-hms/history-hms/timeline-discovery"
+      ],
+      "date": "2026-04-13T02:30:58.396164+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T02:03:23.129784+00:00"
+  "lastUpdated": "2026-04-13T02:30:58.396225+00:00"
 }
