@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow And PyTorch Lead AI Development With Scalable Tools And Research Adoption",
-      "urls": [
-        "https://automationinside.com/content/open-source-ai-tools",
-        "https://www.hyperstack.cloud/blog/case-study/pytorch-vs-tensorflow",
-        "https://www.tensorflow.org"
-      ],
-      "date": "2026-04-03T14:33:56.084051+00:00"
-    },
-    {
       "title": "Medtronic Deploys GI Genius To Cut Missed Polyps By 50 Percent",
       "urls": [
         "https://www.healthcareitnews.com/topics/artificial-intelligence",
@@ -4244,7 +4235,14 @@
         "https://www.phoronix.com"
       ],
       "date": "2026-04-13T14:31:14.096870+00:00"
+    },
+    {
+      "title": "Pharma 4.",
+      "urls": [
+        "https://www.youtube.com/watch?v=9JGqG7866W4"
+      ],
+      "date": "2026-04-13T15:03:33.462018+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T14:31:14.096954+00:00"
+  "lastUpdated": "2026-04-13T15:03:33.462084+00:00"
 }
