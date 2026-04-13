@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medtronic Deploys GI Genius To Cut Missed Polyps By 50 Percent",
-      "urls": [
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology-solutions.html",
-        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
-      ],
-      "date": "2026-04-03T15:07:04.356667+00:00"
-    },
-    {
       "title": "Glide And Flux Launch Integrated Crypto Payment Solutions For Global Businesses",
       "urls": [
         "https://www.ycombinator.com/companies/industry/crypto-web3"
@@ -4242,7 +4233,20 @@
         "https://www.youtube.com/watch?v=9JGqG7866W4"
       ],
       "date": "2026-04-13T15:03:33.462018+00:00"
+    },
+    {
+      "title": "Nvidia has agreed to acquire AI chip startup Groq's assets for $20 billion in cash, marking its larg",
+      "urls": [
+        "https://www.entrepreneur.com/business-news/apple-acquires-qai-biggest-deal-since-beats",
+        "https://www.businessinsider.com/legal-tech-vc-startups-funding-hits-3-billion-2025-11",
+        "https://www.wsj.com/tech/ai/meta-buys-ai-startup-manus-adding-millions-of-paying-users-f1dc7ef8",
+        "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
+        "https://www.reuters.com/business/musks-spacex-merge-with-xai-combined-valuation-125-trillion-bloomberg-news-2026-02-02",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince",
+        "https://www.linkedin.com/posts/y-combinator_offdeal-has-just-raised-a-12m-series-a-to-activity-7355976651521863680-lyIF"
+      ],
+      "date": "2026-04-13T15:32:08.043566+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T15:03:33.462084+00:00"
+  "lastUpdated": "2026-04-13T15:32:08.043629+00:00"
 }
