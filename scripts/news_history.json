@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Accessibility for the d/Deaf and hard of hearing requires more than just captions, according",
-      "urls": [
-        "https://www.audioeye.com/post/digital-accessibility-deaf-hard-of-hearing",
-        "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments",
-        "https://tulanehullabaloo.com/68827/data/ai-tools-transform-accessibility-for-deaf-deafblind",
-        "https://nationaldeafcenter.org/news-items/accessible-teleworld"
-      ],
-      "date": "2026-04-03T13:33:25.464581+00:00"
-    },
-    {
-      "title": "Teamfight Tactics Players Use Data To Dominate Ranked Play",
-      "urls": [
-        "https://www.reddit.com/r/CompetitiveTFT/comments/1s8atj7/set_17_pbe_rundown"
-      ],
-      "date": "2026-04-03T14:03:24.614377+00:00"
-    },
-    {
       "title": "TensorFlow And PyTorch Lead AI Development With Scalable Tools And Research Adoption",
       "urls": [
         "https://automationinside.com/content/open-source-ai-tools",
@@ -4250,7 +4233,18 @@
         "https://afb.org/blog"
       ],
       "date": "2026-04-13T13:30:55.323838+00:00"
+    },
+    {
+      "title": "Open-source vulnerabilities have doubled in the past year as AI-assisted coding accelerates software",
+      "urls": [
+        "https://www.linuxinsider.com",
+        "https://opensource.com/tags/news",
+        "https://linuxiac.com/category/news",
+        "https://lxer.com",
+        "https://www.phoronix.com"
+      ],
+      "date": "2026-04-13T14:31:14.096870+00:00"
     }
   ],
-  "lastUpdated": "2026-04-13T13:30:55.323900+00:00"
+  "lastUpdated": "2026-04-13T14:31:14.096954+00:00"
 }
