@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Hosts Over 45000 Open Source AI Models",
-      "urls": [
-        "https://www.analyticsvidhya.com/blog/2024/12/top-open-source-models-on-hugging-face",
-        "https://neuralbrief.in/news/huggingface-open-source-ai-platform",
-        "https://huggingface.co/papers/trending",
-        "https://huggingface.co/blog",
-        "https://huggingface.co/papers",
-        "https://www.youtube.com/watch?v=Nb0PxyrafOE",
-        "https://www.nutanix.com/theforecastbynutanix/videos/hugging-face-helps-find-and-use-open-source-ai-models",
-        "https://huggingface.co",
-        "https://huggingface.co/models",
-        "https://huggingface.co/spaces/huggingface/open-source-ai-year-in-review-2024"
-      ],
-      "date": "2026-04-04T02:01:32.070346+00:00"
-    },
-    {
       "title": "Recursion Pharmaceuticals and AbCellera Accelerate Drug Discovery With AI Platforms",
       "urls": [
         "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html",
@@ -4215,7 +4199,19 @@
         "https://www.utilitydive.com/topic/solar"
       ],
       "date": "2026-04-14T01:35:04.812967+00:00"
+    },
+    {
+      "title": "EU regulators are investigating Google over allegations it is manipulating online advertising prices",
+      "urls": [
+        "https://www.nytimes.com/topic/subject/online-privacy-regulation",
+        "https://www.youtube.com/watch?v=TmfP-gHHpKg",
+        "https://www.bbc.com/news/articles/c4gj39zk1k0o",
+        "https://www.reuters.com/legal/data-privacy",
+        "https://www.aclu.org/news/privacy-technology/government-mandated-software",
+        "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture"
+      ],
+      "date": "2026-04-14T02:02:14.896707+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T01:35:04.813057+00:00"
+  "lastUpdated": "2026-04-14T02:02:14.896792+00:00"
 }
