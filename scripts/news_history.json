@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Launches Free Real-Time Captioning For Phone Calls",
-      "urls": [
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOopCOLp5aHKcsBY6U1Cixi50Y4IgM1_AgwFdwYgRsleCqfm1_mVi"
-      ],
-      "date": "2026-04-04T21:30:54.281747+00:00"
-    },
-    {
       "title": "Aws To Invest Over 200 Billion In Ai Infrastructure And Custom Chips",
       "urls": [
         "https://www.cloudcomputing-news.net/news/cloud-demand-shifts-toward-ai-as-enterprise-usage-deepens",
@@ -4206,7 +4199,14 @@
         "https://escharts.com/top-games"
       ],
       "date": "2026-04-14T21:02:18.608740+00:00"
+    },
+    {
+      "title": "Acesight and NuEyes Headsets Empower Visually Impaired Children",
+      "urls": [
+        "https://www.aoa.org/news/clinical-eye-care/diseases-and-conditions/how-technology-has-changed-recommendations-for-visually-impaired-children"
+      ],
+      "date": "2026-04-14T21:32:01.155124+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T21:02:18.608806+00:00"
+  "lastUpdated": "2026-04-14T21:32:01.155199+00:00"
 }
