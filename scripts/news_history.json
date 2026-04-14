@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Engineers Unveil Wristband That Controls Robotic Hand With 95% Accuracy",
-      "urls": [
-        "https://webable.com",
-        "https://disabilityinsider.com/technology",
-        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
-        "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
-        "https://news.mit.edu/topic/assistive-technology",
-        "https://www.reddit.com/r/AssistiveTechnology",
-        "https://www.tandfonline.com/toc/iidt20/current"
-      ],
-      "date": "2026-04-04T05:31:16.263015+00:00"
-    },
-    {
-      "title": "OpenAI Raises $12 Billion to Scale Infrastructure and AI Safety Research",
-      "urls": [
-        "https://www.wsj.com/tech/ai?gaa_at=eafs&gaa_n=AWEtsqd20r2yWLE9Rw6qs4ZBvARvbpBd4cQKnVrKU_og-yWj1LVSb9cSCjbG&gaa_ts=69d0ac9d&gaa_sig=x3xmVJJy7VX0efJm4dij1yOVpnWi83ht3aNF78kw7ZMk9_cZ8ZO9GV2JPy2uAvIoC9LQqv_LWUn9H1VpfeFjQQ%3D%3D",
-        "https://www.reuters.com/technology/artificial-intelligence",
-        "https://today.ucsd.edu/story/nine-breakthroughs-made-possible-by-ai",
-        "https://www.nytimes.com/spotlight/artificial-intelligence",
-        "https://blog.google/innovation-and-ai/technology/ai"
-      ],
-      "date": "2026-04-04T06:01:14.921542+00:00"
-    },
-    {
       "title": "Orsted Shares Jump 7% After Court Unblocks 704-Megawatt Revolution Wind Project",
       "urls": [
         "https://www.cnbc.com/renewable-energy"
@@ -4216,7 +4192,19 @@
         "https://wach.com/news/local/sc-school-for-the-blind-students-receive-high-tech-vision-aids-blind-vision-impairment-glasses-south-carolina-student-loan-and-vispero-sight-savers-america"
       ],
       "date": "2026-04-14T05:30:57.405704+00:00"
+    },
+    {
+      "title": "OpenAI has launched GPT-5.",
+      "urls": [
+        "https://www.cnet.com/tech/services-and-software/openai-gpt-5-4-nano-mini-release",
+        "https://www.youtube.com/watch?v=d8QrEzKhUII",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://openai.com/research/index/release",
+        "https://openai.com/index/introducing-gpt-5-4",
+        "https://openai.com/news/product-releases"
+      ],
+      "date": "2026-04-14T06:02:14.402294+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T05:30:57.405773+00:00"
+  "lastUpdated": "2026-04-14T06:02:14.402355+00:00"
 }
