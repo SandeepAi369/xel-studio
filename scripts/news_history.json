@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Powers 63% of AI Training Projects in 2024",
-      "urls": [
-        "https://www.cdotrends.com/story/16094/machine-learning-2022-tensorflow-or-pytorch",
-        "https://www.huawei.com/sg/news/2023/pytorch-an-ever-growing-ai-framework-among-ai-practitioners",
-        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
-      ],
-      "date": "2026-04-04T14:31:18.038652+00:00"
-    },
-    {
       "title": "Insect Species Face Climate Threats in 2026 Study",
       "urls": [
         "https://www.biologicaldiversity.org/news/press_releases",
@@ -4203,7 +4194,17 @@
         "https://www.youtube.com/watch?v=Od06bmOvEl4"
       ],
       "date": "2026-04-14T14:04:19.988633+00:00"
+    },
+    {
+      "title": "Israel and Lebanon will hold diplomatic talks in the United States, marking a significant step towar",
+      "urls": [
+        "https://www.youtube.com/watch?v=2YFgX2MW7bg",
+        "https://www.ungeneva.org/en/about/topics/peace-negotiations",
+        "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran",
+        "https://www.foxnews.com/video/6393065796112"
+      ],
+      "date": "2026-04-14T14:32:06.200478+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T14:04:19.988699+00:00"
+  "lastUpdated": "2026-04-14T14:32:06.200540+00:00"
 }
