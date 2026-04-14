@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fda Clears Over 500 AI Diagnostic Tools Since 2015",
-      "urls": [
-        "https://www.medicaleconomics.com/view/commercializing-ai-in-medical-technology-challenges-opportunities"
-      ],
-      "date": "2026-04-04T19:01:33.141356+00:00"
-    },
-    {
-      "title": "Humanoid Robots Hinder Deployment Due to Data Gap",
-      "urls": [
-        "https://news.berkeley.edu/2025/08/27/are-we-truly-on-the-verge-of-the-humanoid-robot-revolution",
-        "https://interestingengineering.com/ai-robotics/agility-humanoid-robot-maker-rebrands",
-        "https://www.youtube.com/watch?v=QDRzgF-8-50"
-      ],
-      "date": "2026-04-04T19:31:24.983199+00:00"
-    },
-    {
       "title": "Global Central Banks Navigate Inflation Risks Amid War-Driven Supply Disruptions",
       "urls": [
         "https://www.youtube.com/watch?v=zCAndRR3bZI",
@@ -4210,7 +4194,16 @@
         "https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article"
       ],
       "date": "2026-04-14T19:01:17.281781+00:00"
+    },
+    {
+      "title": "Nvidia Loses Ground As Chinese Chipmakers Capture 41% AI GPU Market",
+      "urls": [
+        "https://movesilicon.com/news/nvidia-and-amd-target-the-us-the-new-frontier-of-ai-chip-production",
+        "https://www.tomshardware.com/tech-industry/nvidia-market-share-in-china-falls-to-less-than-60-percent-chinese-chip-makers-deliver-1-65-million-ai-gpus-as-the-government-pushes-data-centers-to-use-domestic-chips",
+        "https://finance.yahoo.com/news/amazon-releases-new-ai-chip-amid-industry-push-to-challenge-nvidias-dominance-160720223.html"
+      ],
+      "date": "2026-04-14T19:31:42.314792+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T19:01:17.281850+00:00"
+  "lastUpdated": "2026-04-14T19:31:42.314869+00:00"
 }
