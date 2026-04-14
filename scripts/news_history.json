@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Withdraws Claude Opus 4.6 Risk Report Amid Leadership Exit",
-      "urls": [
-        "https://mashable.com/article/anthropic-safety-policy-change",
-        "https://www.ndtvprofit.com/technology/anthropic-published-a-50-page-risk-report-on-claude-opus-4-6-soon-after-its-ai-safety-chief-quit-10991823"
-      ],
-      "date": "2026-04-04T09:01:20.285725+00:00"
-    },
-    {
-      "title": "Ally Labs Launches Envision Glasses To Identify 1000+ Objects For Visually Impaired Users",
-      "urls": [
-        "https://www.aoa.org/news/clinical-eye-care/diseases-and-conditions/how-technology-has-changed-recommendations-for-visually-impaired-children",
-        "https://www.youtube.com/watch?v=_S06kHhVflc"
-      ],
-      "date": "2026-04-04T09:30:56.702509+00:00"
-    },
-    {
       "title": "Enterprises Adopt Open Source AI With 62 Percent In Key Sectors",
       "urls": [
         "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai"
@@ -4215,7 +4199,14 @@
         "https://cset.georgetown.edu/publication/acquiring-ai-companies-tracking-u-s-ai-mergers-and-acquisitions"
       ],
       "date": "2026-04-14T09:01:13.318042+00:00"
+    },
+    {
+      "title": "Atos is advancing the integration of AI and accessibility to transform workplace inclusivity, emphas",
+      "urls": [
+        "https://atos.net/en/blog/the-future-is-assistive-how-ai-and-accessibility-will-shape-the-next-decade-of-work"
+      ],
+      "date": "2026-04-14T09:30:58.842105+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T09:01:13.318101+00:00"
+  "lastUpdated": "2026-04-14T09:30:58.842178+00:00"
 }
