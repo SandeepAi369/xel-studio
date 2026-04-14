@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT 5.4 With 17 Percent Accuracy Boost",
-      "urls": [
-        "https://www.youtube.com/watch?v=M_wKxIA12oU",
-        "https://developers.openai.com/api/docs/models",
-        "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
-      ],
-      "date": "2026-04-04T11:31:10.524442+00:00"
-    },
-    {
-      "title": "Barham Salih Leads UN Effort For 117 Million Displaced Amid South Sudan Crisis",
-      "urls": [
-        "https://news.un.org/en/news/topic/migrants-and-refugees",
-        "https://www.unhcr.org/us/news/briefing-notes/unhcr-responds-rising-displacement-middle-east-emergency"
-      ],
-      "date": "2026-04-04T12:01:31.532682+00:00"
-    },
-    {
       "title": "Esports World Cup Foundation Launches 2024 Event With 25 Tournaments And $27M Prize Pool",
       "urls": [
         "https://edition.cnn.com/sponsor/edition/esports-world-cup-foundation/competitive-gaming-is-reaching-new-heights"
@@ -4204,7 +4187,14 @@
         "https://www.nytimes.com/topic/subject/international-trade-and-world-market-trade-disputes"
       ],
       "date": "2026-04-14T11:31:02.922692+00:00"
+    },
+    {
+      "title": "Syria Conflict Displaces 12 Million After 13 Years",
+      "urls": [
+        "https://www.unrefugees.org/emergencies"
+      ],
+      "date": "2026-04-14T12:08:33.362423+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T11:31:02.922761+00:00"
+  "lastUpdated": "2026-04-14T12:08:33.362504+00:00"
 }
