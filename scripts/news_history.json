@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Britain Logs 2% Drop In Greenhouse Gas Emissions",
-      "urls": [
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://usclimatealliance.org/news-events",
-        "https://www.theclimatepledge.com"
-      ],
-      "date": "2026-04-04T01:31:18.720379+00:00"
-    },
-    {
       "title": "Hugging Face Hosts Over 45000 Open Source AI Models",
       "urls": [
         "https://www.analyticsvidhya.com/blog/2024/12/top-open-source-models-on-hugging-face",
@@ -4215,7 +4206,16 @@
         "https://www.ces.tech/ces-innovation-awards/2025/trailblazing-wheelchair-conquering-obstacles"
       ],
       "date": "2026-04-14T01:02:26.545445+00:00"
+    },
+    {
+      "title": "Wind And Solar Set U.S. Generation Record Amid Permit Delays",
+      "urls": [
+        "https://www.nytimes.com/topic/subject/wind-power",
+        "https://www.youtube.com/watch?v=spSOp5s_6_A",
+        "https://www.utilitydive.com/topic/solar"
+      ],
+      "date": "2026-04-14T01:35:04.812967+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T01:02:26.545520+00:00"
+  "lastUpdated": "2026-04-14T01:35:04.813057+00:00"
 }
