@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Enterprises Adopt Open Source AI With 62 Percent In Key Sectors",
-      "urls": [
-        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai"
-      ],
-      "date": "2026-04-04T10:01:25.239001+00:00"
-    },
-    {
       "title": "Clean Energy Group Wins DOE Award to Boost Solar Storage in Affordable Housing",
       "urls": [
         "https://www.economist.com/business/2025/08/14/a-new-wave-of-clean-energy-innovation-is-building",
@@ -4206,7 +4199,14 @@
         "https://atos.net/en/blog/the-future-is-assistive-how-ai-and-accessibility-will-shape-the-next-decade-of-work"
       ],
       "date": "2026-04-14T09:30:58.842105+00:00"
+    },
+    {
+      "title": "Fireship Showcases Seven Open Source AI Tools",
+      "urls": [
+        "https://www.youtube.com/watch?v=sXVbWkoCVaA"
+      ],
+      "date": "2026-04-14T10:02:26.514432+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T09:30:58.842178+00:00"
+  "lastUpdated": "2026-04-14T10:02:26.514504+00:00"
 }
