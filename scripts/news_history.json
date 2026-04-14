@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA To Launch Vera Rubin AI Hardware In 2026",
-      "urls": [
-        "https://movesilicon.com/news/nvidia-and-amd-target-the-us-the-new-frontier-of-ai-chip-production",
-        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43?gaa_at=eafs&gaa_n=AWEtsqcKTfHNhRulhRHMpXgwLSl_mTT9Mc_IzJTgS6XZIi6bxkZyXacgRAex&gaa_ts=69d1322b&gaa_sig=Qycnd1-V7jsbgcQct30DdUHvL3JEme3nopazuDJW9BdsvvIEZQaVKG9vrrzvvotwVvcN-O9V_9IpwXTdYViErw%3D%3D"
-      ],
-      "date": "2026-04-04T15:31:07.046156+00:00"
-    },
-    {
       "title": "Fifteen States Sue To Block Presidential Voting Order",
       "urls": [
         "https://www.reuters.com/world/us/elections"
@@ -4209,7 +4201,14 @@
         "https://www.youtube.com/watch?v=GdX6WdtP2Zc"
       ],
       "date": "2026-04-14T15:31:03.072419+00:00"
+    },
+    {
+      "title": "Unhcr Reports 6.3 Million Displaced In Horn Of Africa",
+      "urls": [
+        "https://www.unhcr.org/news-and-stories"
+      ],
+      "date": "2026-04-14T16:01:17.436942+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T15:31:03.072475+00:00"
+  "lastUpdated": "2026-04-14T16:01:17.437055+00:00"
 }
