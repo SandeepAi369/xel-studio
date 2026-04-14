@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Openai Surpasses 850 Billion Valuation Amid Surging Enterprise Demand",
-      "urls": [
-        "https://www.youtube.com/watch?v=y1-Rvd06RsA"
-      ],
-      "date": "2026-04-04T17:01:22.895296+00:00"
-    },
-    {
-      "title": "Noora AI Chatbot Helps Autism Patients Enhance Empathy Skills",
-      "urls": [
-        "https://insidetelecom.com/workers-use-ai-for-neurodivergent-brain-support",
-        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html",
-        "https://hai.stanford.edu/news/an-ai-social-coach-is-teaching-empathy-to-people-with-autism"
-      ],
-      "date": "2026-04-04T17:31:26.139113+00:00"
-    },
-    {
       "title": "Afghanistan Disaster Management Authority Reports 77 Dead In Floods",
       "urls": [
         "https://www.washingtonpost.com/world/2026/04/04/afghanistan-extreme-weather-flood-landslide-rain-storm/36a339f6-3028-11f1-aac2-f56b5ccad184_story.html",
@@ -4208,7 +4192,16 @@
         "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments"
       ],
       "date": "2026-04-14T17:01:18.241102+00:00"
+    },
+    {
+      "title": "Texas A&M researchers are studying how generative AI technologies impact blind and visually impaired",
+      "urls": [
+        "https://afb.org/blindness-and-low-vision/using-technology",
+        "https://nemo.asee.org/public/conferences/363/papers/45200/view",
+        "https://www.youtube.com/watch?v=ryJyfM1H6eU"
+      ],
+      "date": "2026-04-14T17:33:09.043086+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T17:01:18.241157+00:00"
+  "lastUpdated": "2026-04-14T17:33:09.043139+00:00"
 }
