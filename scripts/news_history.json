@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fifteen States Sue To Block Presidential Voting Order",
-      "urls": [
-        "https://www.reuters.com/world/us/elections"
-      ],
-      "date": "2026-04-04T16:01:32.731321+00:00"
-    },
-    {
-      "title": "Elite Runners Shatter Records With Data And Carbon Shoes",
-      "urls": [
-        "https://www.youtube.com/watch?v=NKfBR1CalXQ",
-        "https://www.youtube.com/watch?v=kSfwtbkmYeI"
-      ],
-      "date": "2026-04-04T16:31:47.384184+00:00"
-    },
-    {
       "title": "Openai Surpasses 850 Billion Valuation Amid Surging Enterprise Demand",
       "urls": [
         "https://www.youtube.com/watch?v=y1-Rvd06RsA"
@@ -4208,7 +4193,15 @@
         "https://www.unhcr.org/news-and-stories"
       ],
       "date": "2026-04-14T16:01:17.436942+00:00"
+    },
+    {
+      "title": "NFL is intensifying efforts to expand its global footprint, identifying cricket as an unexpected com",
+      "urls": [
+        "https://sports.yahoo.com/article/nfls-global-competition-includes-cricket-132830019.html",
+        "https://www.nbcsports.com"
+      ],
+      "date": "2026-04-14T16:33:05.042756+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T16:01:17.437055+00:00"
+  "lastUpdated": "2026-04-14T16:33:05.042816+00:00"
 }
