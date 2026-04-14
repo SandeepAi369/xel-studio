@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clean Energy Group Wins DOE Award to Boost Solar Storage in Affordable Housing",
-      "urls": [
-        "https://www.economist.com/business/2025/08/14/a-new-wave-of-clean-energy-innovation-is-building",
-        "https://www.cleanegroup.org/press-releases",
-        "https://climateinsider.com",
-        "https://www.climate.gov/news-features/climate-tech"
-      ],
-      "date": "2026-04-04T10:31:10.002220+00:00"
-    },
-    {
       "title": "Mental Health Apps Market To Reach $15.69 Billion By 2033",
       "urls": [
         "https://www.globalwellnesssummit.com/2020-global-wellness-trends/mental-wellness-and-technology",
@@ -4206,7 +4196,15 @@
         "https://www.youtube.com/watch?v=sXVbWkoCVaA"
       ],
       "date": "2026-04-14T10:02:26.514432+00:00"
+    },
+    {
+      "title": "Earthquake Damages Nevada Infrastructure",
+      "urls": [
+        "https://www.usnews.com/topics/subjects/natural_disasters",
+        "https://www.youtube.com/watch?v=bOf1fIknW4Q"
+      ],
+      "date": "2026-04-14T10:34:19.154150+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T10:02:26.514504+00:00"
+  "lastUpdated": "2026-04-14T10:34:19.154215+00:00"
 }
