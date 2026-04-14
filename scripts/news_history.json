@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Tools Transform Workflows Across Fortune 500 Enterprises",
-      "urls": [
-        "https://www.youtube.com/watch?v=1sQ1MOxzViM",
-        "https://bootcamp.cpe.vt.edu/blog/best-generative-ai-tools"
-      ],
-      "date": "2026-04-04T04:01:18.861542+00:00"
-    },
-    {
       "title": "Alex Palou Wins Alabama Grand Prix For Second Straight Victory",
       "urls": [
         "https://www.youtube.com/watch?v=gAQ55uXlwPk",
@@ -4214,7 +4206,15 @@
         "https://www.youtube.com/watch?v=NV74iiEFct8"
       ],
       "date": "2026-04-14T03:32:05.440624+00:00"
+    },
+    {
+      "title": "D-Wave Demonstrates Quantum Supremacy In Magnetic Materials Simulation",
+      "urls": [
+        "https://www.networkworld.com/article/4088709/top-quantum-breakthroughs-of-2025.html",
+        "https://www.youtube.com/watch?v=8JRJxsvJdRs"
+      ],
+      "date": "2026-04-14T04:02:10.898604+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T03:32:05.440688+00:00"
+  "lastUpdated": "2026-04-14T04:02:10.898679+00:00"
 }
