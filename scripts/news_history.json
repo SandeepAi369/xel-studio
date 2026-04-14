@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microplastics Disrupt Ocean Carbon Sequestration, Scientists Warn",
-      "urls": [
-        "https://www.livescience.com/planet-earth/climate-change",
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://www.nature.com/subjects/climate-change",
-        "https://science.nasa.gov/climate-change",
-        "https://www.nytimes.com/section/climate"
-      ],
-      "date": "2026-04-04T22:30:56.879140+00:00"
-    },
-    {
       "title": "Z AI Releases GLM-5 Open Source Language Model",
       "urls": [
         "https://www.youtube.com/watch?v=x9e4D-t_Dfo",
@@ -4212,7 +4201,14 @@
         "https://www.cnbc.com/renewable-energy"
       ],
       "date": "2026-04-14T22:30:56.170051+00:00"
+    },
+    {
+      "title": "Linux Adoption Rises 18 Percent in 2025",
+      "urls": [
+        "https://www.youtube.com/watch?v=cQ3auCVzfrA"
+      ],
+      "date": "2026-04-14T23:01:08.052606+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T22:30:56.170135+00:00"
+  "lastUpdated": "2026-04-14T23:01:08.052690+00:00"
 }
