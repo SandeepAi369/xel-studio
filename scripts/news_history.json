@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Insect Species Face Climate Threats in 2026 Study",
-      "urls": [
-        "https://www.biologicaldiversity.org/news/press_releases",
-        "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
-        "https://wildlife.org/news",
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://www.nature.com/subjects/conservation/ncomms"
-      ],
-      "date": "2026-04-04T15:01:18.848619+00:00"
-    },
-    {
       "title": "NVIDIA To Launch Vera Rubin AI Hardware In 2026",
       "urls": [
         "https://movesilicon.com/news/nvidia-and-amd-target-the-us-the-new-frontier-of-ai-chip-production",
@@ -4204,7 +4193,16 @@
         "https://www.foxnews.com/video/6393065796112"
       ],
       "date": "2026-04-14T14:32:06.200478+00:00"
+    },
+    {
+      "title": "Digital Wellness Market To Hit $200 Billion By 2030",
+      "urls": [
+        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
+        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
+        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health"
+      ],
+      "date": "2026-04-14T15:01:19.979517+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T14:32:06.200540+00:00"
+  "lastUpdated": "2026-04-14T15:01:19.979585+00:00"
 }
