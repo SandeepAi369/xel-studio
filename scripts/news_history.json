@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mauna Loa Erupts For First Time In 38 Years",
-      "urls": [
-        "https://www.youtube.com/watch?v=txdFxYnPKNU",
-        "https://www.usgs.gov/programs/VHP/news"
-      ],
-      "date": "2026-04-04T14:01:21.142399+00:00"
-    },
-    {
       "title": "PyTorch Powers 63% of AI Training Projects in 2024",
       "urls": [
         "https://www.cdotrends.com/story/16094/machine-learning-2022-tensorflow-or-pytorch",
@@ -4203,7 +4195,15 @@
         "https://www.hearingloss.org/find-help/hearing-assistive-technology"
       ],
       "date": "2026-04-14T13:32:05.380425+00:00"
+    },
+    {
+      "title": "Earthquake swarm at the Juan de Fuca Ridge has recorded over 800 seismic events since midnight, mark",
+      "urls": [
+        "https://www.youtube.com/watch?v=te-dkCvi9Xs",
+        "https://www.youtube.com/watch?v=Od06bmOvEl4"
+      ],
+      "date": "2026-04-14T14:04:19.988633+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T13:32:05.380489+00:00"
+  "lastUpdated": "2026-04-14T14:04:19.988699+00:00"
 }
