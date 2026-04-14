@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Leads Beginners in AI With Intuitive Design and Dynamic Graphs",
-      "urls": [
-        "https://dev-discuss.pytorch.org/t/is-pytorch-better-than-tensorflow-for-beginners-in-ai-ml-in-2025/3033",
-        "https://datamites.com/blog/pytorch-vs-tensorflow?srsltid=AfmBOorMQDrEXbD7xpafMIDKdOAh0HUxNpxxLKxLqmNDTcWpFhNg-GPu"
-      ],
-      "date": "2026-04-04T18:31:21.043742+00:00"
-    },
-    {
       "title": "Fda Clears Over 500 AI Diagnostic Tools Since 2015",
       "urls": [
         "https://www.medicaleconomics.com/view/commercializing-ai-in-medical-technology-challenges-opportunities"
@@ -4197,7 +4189,20 @@
         "https://www.sciencedaily.com/news/earth_climate/biodiversity"
       ],
       "date": "2026-04-14T18:03:14.503954+00:00"
+    },
+    {
+      "title": "Hugging Face Showcases FLUX.1 And Llama-3.2 Vision Models",
+      "urls": [
+        "https://www.analyticsvidhya.com/blog/2024/12/top-open-source-models-on-hugging-face",
+        "https://huggingface.co/models",
+        "https://www.youtube.com/watch?v=Nb0PxyrafOE",
+        "https://huggingface.co",
+        "https://huggingface.co/blog",
+        "https://huggingface.co/papers/trending",
+        "https://huggingface.co/papers"
+      ],
+      "date": "2026-04-14T18:32:08.456935+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T18:03:14.504025+00:00"
+  "lastUpdated": "2026-04-14T18:32:08.456991+00:00"
 }
