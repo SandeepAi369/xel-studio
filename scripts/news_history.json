@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alex Palou Wins Alabama Grand Prix For Second Straight Victory",
-      "urls": [
-        "https://www.youtube.com/watch?v=gAQ55uXlwPk",
-        "https://www.facebook.com/seastats/posts/the-worlds-most-popular-sports-a-global-fan-frenzyaccording-to-data-from-worldat/775134681525052",
-        "https://www.skysports.com/football/story-telling/12040/12169901",
-        "https://bleacherreport.com",
-        "https://www.espn.com",
-        "https://www.foxsports.com"
-      ],
-      "date": "2026-04-04T04:31:17.670436+00:00"
-    },
-    {
       "title": "Linux Foundation Reports Surge in Open Source Contributions",
       "urls": [
         "https://www.newsnow.com/us/Business/IT/Computer+Technology/Software/Open+Source"
@@ -4214,7 +4202,14 @@
         "https://www.youtube.com/watch?v=8JRJxsvJdRs"
       ],
       "date": "2026-04-14T04:02:10.898604+00:00"
+    },
+    {
+      "title": "Gaethje Faces Paddy Pimblett For UFC Interim Lightweight Title At UFC 324",
+      "urls": [
+        "https://www.nytimes.com/athletic/mma"
+      ],
+      "date": "2026-04-14T04:32:05.638455+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T04:02:10.898679+00:00"
+  "lastUpdated": "2026-04-14T04:32:05.638524+00:00"
 }
