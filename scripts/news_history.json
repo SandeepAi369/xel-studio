@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Reports Surge in Open Source Contributions",
-      "urls": [
-        "https://www.newsnow.com/us/Business/IT/Computer+Technology/Software/Open+Source"
-      ],
-      "date": "2026-04-04T05:01:22.701716+00:00"
-    },
-    {
       "title": "MIT Engineers Unveil Wristband That Controls Robotic Hand With 95% Accuracy",
       "urls": [
         "https://webable.com",
@@ -4209,7 +4202,14 @@
         "https://www.nytimes.com/athletic/mma"
       ],
       "date": "2026-04-14T04:32:05.638455+00:00"
+    },
+    {
+      "title": "Open source AI models are increasingly tailored for specific enterprise use cases, such as customer ",
+      "urls": [
+        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
+      ],
+      "date": "2026-04-14T05:02:14.862693+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T04:32:05.638524+00:00"
+  "lastUpdated": "2026-04-14T05:02:14.862754+00:00"
 }
