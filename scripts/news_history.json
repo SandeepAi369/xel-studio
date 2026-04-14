@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Central Banks Navigate Inflation Risks Amid War-Driven Supply Disruptions",
-      "urls": [
-        "https://www.youtube.com/watch?v=zCAndRR3bZI",
-        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqeS-RBBAlTpaKwLWZzYCAI5mnkwMTbTP8Xf22UgJEcFr0iq8PpHhUeX&gaa_ts=69d1717c&gaa_sig=JLrykdKQG391OMz1rMQpl0O5qce4vWQoy_aMez9vuSAd1tfPX342eGccDxNho01sXXT2cc1YR05oM2EckTGydA%3D%3D"
-      ],
-      "date": "2026-04-04T20:01:16.264695+00:00"
-    },
-    {
       "title": "Apple Google And Microsoft Unveil Autonomous AI Agents At 2025 Developer Events",
       "urls": [
         "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai",
@@ -4203,7 +4195,15 @@
         "https://finance.yahoo.com/news/amazon-releases-new-ai-chip-amid-industry-push-to-challenge-nvidias-dominance-160720223.html"
       ],
       "date": "2026-04-14T19:31:42.314792+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://itif.org/issues/trade",
+        "https://m.economictimes.com/tech/technology/us-mulls-new-rules-for-ai-chip-exports-including-requiring-us-investments-by-foreign-firms/articleshow/129127663.cms"
+      ],
+      "date": "2026-04-14T20:02:17.586138+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T19:31:42.314869+00:00"
+  "lastUpdated": "2026-04-14T20:02:17.586210+00:00"
 }
