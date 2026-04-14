@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Z AI Releases GLM-5 Open Source Language Model",
-      "urls": [
-        "https://www.youtube.com/watch?v=x9e4D-t_Dfo",
-        "https://www.datacamp.com/blog/top-open-source-llms",
-        "https://llm-stats.com/ai-news"
-      ],
-      "date": "2026-04-04T23:02:09.262937+00:00"
-    },
-    {
-      "title": "Nature Outlines Four Strategies To Boost AI In Drug Discovery",
-      "urls": [
-        "https://www.nature.com/articles/d41586-025-00602-5"
-      ],
-      "date": "2026-04-04T23:30:54.427084+00:00"
-    },
-    {
       "title": "Harness Report Finds Daily AI Tool Users Deploy Code Faster",
       "urls": [
         "https://www.itpro.com/software/development/ai-doesnt-solve-the-burnout-problem-if-anything-it-amplifies-it-ai-coding-tools-might-supercharge-software-development-but-working-at-machine-speed-has-a-big-impact-on-developers",
@@ -4208,7 +4192,15 @@
         "https://www.youtube.com/watch?v=cQ3auCVzfrA"
       ],
       "date": "2026-04-14T23:01:08.052606+00:00"
+    },
+    {
+      "title": "Grace Bell gave birth to Hugo, the first British baby born following a womb transplant from a deceas",
+      "urls": [
+        "https://www.pennmedicine.org/news/research-innovation",
+        "https://www.bbc.com/news/topics/c1038wnxy50t"
+      ],
+      "date": "2026-04-14T23:32:03.224607+00:00"
     }
   ],
-  "lastUpdated": "2026-04-14T23:01:08.052690+00:00"
+  "lastUpdated": "2026-04-14T23:32:03.224665+00:00"
 }
