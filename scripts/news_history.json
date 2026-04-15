@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tools Automate 40 Percent Of Physician Notes In U.S. Health Systems",
-      "urls": [
-        "https://www.nejm.org/ai-in-medicine"
-      ],
-      "date": "2026-04-05T04:01:09.723859+00:00"
-    },
-    {
       "title": "Instagram Launches Google TV App To Expand Reels Reach",
       "urls": [
         "https://blog.gainapp.com/social-media-updates",
@@ -4190,7 +4183,14 @@
         "https://www.instagram.com/reel/DW1pcLylPLa"
       ],
       "date": "2026-04-15T03:31:03.189325+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Gemini 3 With Deep Think And Flash Lite Features",
+      "urls": [
+        "https://deepmind.google/models/gemini"
+      ],
+      "date": "2026-04-15T04:02:10.321089+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T03:31:03.189383+00:00"
+  "lastUpdated": "2026-04-15T04:02:10.321165+00:00"
 }
