@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qure.ai Wins FDA Clearance For Pneumothorax Detection Tool",
-      "urls": [
-        "https://www.qure.ai/newsroom"
-      ],
-      "date": "2026-04-05T11:01:04.758850+00:00"
-    },
-    {
       "title": "Iran's IRGC Threatens Apple Microsoft and 16 Other US Tech Firms",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOopyhk9mRfAfO5VdTd9ZuZwrB3N7t_JMNkI05-akubOwzQLg3ynM",
@@ -4210,7 +4203,15 @@
         "https://market.us/report/esports-streaming-platforms-market"
       ],
       "date": "2026-04-15T10:31:05.225329+00:00"
+    },
+    {
+      "title": "Nature Urges Unified Data Standards To Accelerate AI Drug Discovery",
+      "urls": [
+        "https://www.nature.com/articles/d41586-025-00602-5",
+        "https://www.fastcompany.com/91520205/the-ai-drug-revolution-is-real-but-the-hype-around-it-isnt"
+      ],
+      "date": "2026-04-15T11:02:18.208828+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T10:31:05.225393+00:00"
+  "lastUpdated": "2026-04-15T11:02:18.208915+00:00"
 }
