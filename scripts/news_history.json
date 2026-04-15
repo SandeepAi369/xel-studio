@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tier 2 Esports Players Earn Below Minimum Wage Amid Financial Crisis",
-      "urls": [
-        "https://www.youtube.com/watch?v=pAWzqKeptKM",
-        "https://www.reddit.com/r/CoDCompetitive/comments/1sca8py/a_young_hitch_in_the_crowd_filming_for_vision_as"
-      ],
-      "date": "2026-04-05T00:31:02.425082+00:00"
-    },
-    {
       "title": "Iran Warns It Will Strike 18 U.S. Military Sites If Attacked",
       "urls": [
         "https://www.pcmag.com/opinions/wwdc-2025-apple-intelligence-is-behind-google-microsoft",
@@ -4198,7 +4190,19 @@
         "https://www.nsf.gov/science-matters/quantum-computing-expanding-whats-possible"
       ],
       "date": "2026-04-15T00:02:16.192100+00:00"
+    },
+    {
+      "title": "Super Typhoon Sinlaku Hits 150 mph, Threatens Guam and Northern Mariana Islands",
+      "urls": [
+        "https://www.weather.gov/media/mfl/news/SWAW2026/HurcnWeb_2026.pdf",
+        "https://www.fema.gov/disaster/declarations",
+        "https://www.youtube.com/watch?v=SmXgk7beIkE",
+        "https://www.youtube.com/watch?v=LDb0U_j_DiY",
+        "https://weather.com/news/weather/video/super-typhoon-sinlaku-saipan-tinian-guam",
+        "https://www.newsweek.com/heavy-snow-warning-20-inches-snow-hit-travel-impossible-11818727"
+      ],
+      "date": "2026-04-15T00:33:03.275949+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T00:02:16.192162+00:00"
+  "lastUpdated": "2026-04-15T00:33:03.276018+00:00"
 }
