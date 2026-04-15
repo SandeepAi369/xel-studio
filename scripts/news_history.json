@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "PlaintextHeadlines Expands Coverage Of Assistive Technology Innovations",
-      "urls": [
-        "https://www.reddit.com/r/accessibility/comments/1reup6k/do_any_news_sites_have_an_accessibility_news"
-      ],
-      "date": "2026-04-05T23:01:05.818709+00:00"
-    },
-    {
       "title": "Hospitals Cut Diagnosis Time 40 Percent Using AI Tools",
       "urls": [
         "https://www.innovationnewsnetwork.com/ai-in-healthcare-better-diagnosis-and-care/65827"
@@ -4230,7 +4223,17 @@
         "https://www.bbc.com/news/topics/c9grgwq2krzt"
       ],
       "date": "2026-04-15T22:31:05.128055+00:00"
+    },
+    {
+      "title": "Eli Lilly Expands Anthropic AI Collaboration to Accelerate Drug Discovery",
+      "urls": [
+        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
+        "https://www.youtube.com/watch?v=y69d262a8Dc",
+        "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html",
+        "https://pda.org/pda-letter-portal/home/full-article/the-ai-revolution-in-drug-discovery"
+      ],
+      "date": "2026-04-15T23:01:13.642312+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T22:31:05.128129+00:00"
+  "lastUpdated": "2026-04-15T23:01:13.642374+00:00"
 }
