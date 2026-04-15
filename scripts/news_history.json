@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Fight Night Draws 3.2 Million Streams With Belal Muhammad Victory",
-      "urls": [
-        "https://www.mmamania.com"
-      ],
-      "date": "2026-04-05T18:01:10.256235+00:00"
-    },
-    {
       "title": "Mistral AI Launches Open Source Mistral 3 Series With Multilingual Support",
       "urls": [
         "https://www.digitimes.com/news/a20251211PD208/mistral-ai-startup-software-language.html",
@@ -4219,7 +4212,18 @@
         "https://lighthouseguild.org/news/low-vision-awareness-whats-the-latest-assistive-tech-available"
       ],
       "date": "2026-04-15T17:36:16.681713+00:00"
+    },
+    {
+      "title": "Hexicon Sells 32MW Twinhub Wind Project For £1 After CfD Loss",
+      "urls": [
+        "https://www.powermag.com/category/wind",
+        "https://www.reuters.com/business/energy/solar",
+        "https://www.ft.com/renewable-energy",
+        "https://www.windpowermonthly.com/news",
+        "https://www.nytimes.com/topic/subject/solar-energy"
+      ],
+      "date": "2026-04-15T18:04:27.133507+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T17:36:16.681794+00:00"
+  "lastUpdated": "2026-04-15T18:04:27.133580+00:00"
 }
