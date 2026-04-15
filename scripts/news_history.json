@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Advances AI Accountability Legislation in 2026",
-      "urls": [
-        "https://www.anecdotes.ai/learn/ai-regulations-in-2025-us-eu-uk-japan-china-and-more",
-        "https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview"
-      ],
-      "date": "2026-04-05T17:31:01.504727+00:00"
-    },
-    {
       "title": "UFC Fight Night Draws 3.2 Million Streams With Belal Muhammad Victory",
       "urls": [
         "https://www.mmamania.com"
@@ -4217,7 +4209,17 @@
         "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells"
       ],
       "date": "2026-04-15T17:02:17.483804+00:00"
+    },
+    {
+      "title": "BeyondSight has launched a new sensory system developed by a two-student team aiming to enhance mobi",
+      "urls": [
+        "https://ok.vision/how-technology-can-help-students-with-vision-impairments",
+        "https://news.fiu.edu/2024/virtual-guide-dog-new-navigation-for-the-visually-impaired",
+        "https://www.neco.edu/news/braille-as-modern-digital-assistive-technology",
+        "https://lighthouseguild.org/news/low-vision-awareness-whats-the-latest-assistive-tech-available"
+      ],
+      "date": "2026-04-15T17:36:16.681713+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T17:02:17.483872+00:00"
+  "lastUpdated": "2026-04-15T17:36:16.681794+00:00"
 }
