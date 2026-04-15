@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "IrisVision Launches Biopic Tilt Eyewear For Low Vision Patients",
-      "urls": [
-        "https://ok.vision/how-technology-can-help-students-with-vision-impairments",
-        "https://lighthouseguild.org/fantastic-new-tech-for-people-with-low-vision-or-blindness"
-      ],
-      "date": "2026-04-05T13:31:13.390096+00:00"
-    },
-    {
-      "title": "Britain Hits Record 42.3% Renewable Electricity Share In 2025",
-      "urls": [
-        "https://www.reuters.com/sustainability/clean-energy",
-        "https://www.cnbc.com/clean-energy"
-      ],
-      "date": "2026-04-05T14:01:15.139271+00:00"
-    },
-    {
       "title": "Hugging Face Promotes Open Source AI With Qwen3 And Llama 4",
       "urls": [
         "https://sloanreview.mit.edu/audio/challenging-the-average-with-open-source-ai-hugging-faces-thomas-wolf",
@@ -4219,7 +4203,15 @@
         "https://www.cnbc.com/elections"
       ],
       "date": "2026-04-15T13:31:05.465822+00:00"
+    },
+    {
+      "title": "AI climate tech startups are attracting significant venture capital as investors seek solutions to r",
+      "urls": [
+        "https://finance.yahoo.com/news/ai-climate-tech-startups-propping-205249393.html",
+        "https://energyinnovation.org/about/press"
+      ],
+      "date": "2026-04-15T14:03:26.604243+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T13:31:05.465879+00:00"
+  "lastUpdated": "2026-04-15T14:03:26.604319+00:00"
 }
