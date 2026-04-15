@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran's IRGC Threatens Apple Microsoft and 16 Other US Tech Firms",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOopyhk9mRfAfO5VdTd9ZuZwrB3N7t_JMNkI05-akubOwzQLg3ynM",
-        "https://www.youtube.com/watch?v=_TbJnjNz4is"
-      ],
-      "date": "2026-04-05T11:30:58.920718+00:00"
-    },
-    {
       "title": "Mount Merapi Records 22 Earthquakes Amid Rising Magma Activity",
       "urls": [
         "https://www.newsnow.com/us/World/Natural+Disasters",
@@ -4211,7 +4203,16 @@
         "https://www.fastcompany.com/91520205/the-ai-drug-revolution-is-real-but-the-hype-around-it-isnt"
       ],
       "date": "2026-04-15T11:02:18.208828+00:00"
+    },
+    {
+      "title": "Uc San Diego Researchers Use Ai To Uncover Alzheimer's Molecular Trigger",
+      "urls": [
+        "https://www.reuters.com/technology/artificial-intelligence",
+        "https://today.ucsd.edu/story/nine-breakthroughs-made-possible-by-ai",
+        "https://blog.google/innovation-and-ai/technology/ai"
+      ],
+      "date": "2026-04-15T11:32:07.992262+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T11:02:18.208915+00:00"
+  "lastUpdated": "2026-04-15T11:32:07.992331+00:00"
 }
