@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar Investments Hit Record $1.8 Trillion in 2024",
-      "urls": [
-        "https://www.ft.com/renewable-energy"
-      ],
-      "date": "2026-04-05T01:30:56.592434+00:00"
-    },
-    {
       "title": "Marie Harvey Receives 2025 Discovery Award for Public Health Research",
       "urls": [
         "https://www.techmezine.com/latest-medical-technology-news",
@@ -4203,7 +4196,14 @@
         "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai"
       ],
       "date": "2026-04-15T01:02:14.170005+00:00"
+    },
+    {
+      "title": "Texas Lags In Offshore Wind Development Despite Gulf Potential",
+      "urls": [
+        "https://insideclimatenews.org/category/clean-energy"
+      ],
+      "date": "2026-04-15T01:30:58.038971+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T01:02:14.170078+00:00"
+  "lastUpdated": "2026-04-15T01:30:58.039053+00:00"
 }
