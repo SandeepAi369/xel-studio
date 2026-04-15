@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nyus Ai System Speeds Disease Detection And Simplifies Patient Reports",
-      "urls": [
-        "https://nyulangone.org/news/digital-health"
-      ],
-      "date": "2026-04-05T19:01:06.919785+00:00"
-    },
-    {
       "title": "Nvidia Powers 95 Percent Of Global AI Training Workloads",
       "urls": [
         "https://www.nvidia.com/en-us"
@@ -4221,7 +4214,15 @@
         "https://news.tuxmachines.org"
       ],
       "date": "2026-04-15T18:35:11.279854+00:00"
+    },
+    {
+      "title": "Meta Ray-Ban Smart Glasses Use AI to Assist Visually Impaired Users",
+      "urls": [
+        "https://news.un.org/en/story/2025/10/1166082",
+        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
+      ],
+      "date": "2026-04-15T19:01:25.179018+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T18:35:11.279907+00:00"
+  "lastUpdated": "2026-04-15T19:01:25.179115+00:00"
 }
