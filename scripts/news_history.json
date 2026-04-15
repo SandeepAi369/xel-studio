@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google TPUs Capture 25 Percent AI Chip Market by 2030",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1fgq1dr/new_ai_chip_beats_nvidia_amd_and_intel_by_a_mile",
-        "https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02"
-      ],
-      "date": "2026-04-05T09:01:16.978108+00:00"
-    },
-    {
-      "title": "Meta Ray-Ban Smart Glasses Use AI To Identify Objects In Real Time",
-      "urls": [
-        "https://news.un.org/en/story/2025/10/1166082",
-        "https://www.newamerica.org/insights/ai-tech-inclusion-disabilities-design",
-        "https://ablenews.com/ai-experts-raise-concerns-the-technologys-biases-toward-disability",
-        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
-      ],
-      "date": "2026-04-05T09:30:55.843525+00:00"
-    },
-    {
       "title": "FaZe Clan Launches Ghost-Sponsored Reality Show on Twitch",
       "urls": [
         "https://www.adweek.com/category/esports"
@@ -4212,7 +4194,18 @@
         "https://www.youtube.com/watch?v=JCZbFl1L6pE"
       ],
       "date": "2026-04-15T09:01:10.177126+00:00"
+    },
+    {
+      "title": "MIT Engineers Unveil Wristband That Controls Robotic Hand With Muscle Signals",
+      "urls": [
+        "https://disabilityinsider.com/assistive-technology",
+        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
+        "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled",
+        "https://www.youtube.com/watch?v=XG57NfQ85OA",
+        "https://news.mit.edu/topic/assistive-technology"
+      ],
+      "date": "2026-04-15T09:30:59.090493+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T09:01:10.177215+00:00"
+  "lastUpdated": "2026-04-15T09:30:59.090564+00:00"
 }
