@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hospitals Cut Diagnosis Time 40 Percent Using AI Tools",
-      "urls": [
-        "https://www.innovationnewsnetwork.com/ai-in-healthcare-better-diagnosis-and-care/65827"
-      ],
-      "date": "2026-04-05T23:30:57.255648+00:00"
-    },
-    {
       "title": "Meta Launches Llama 4 Outperforming Google Gemma 3 And Mistral 3.1",
       "urls": [
         "https://www.ndtvprofit.com/technology/llama-4-meta-claims-latest-open-source-ai-model-beats-google-openai-models-9864559"
@@ -4233,7 +4226,15 @@
         "https://pda.org/pda-letter-portal/home/full-article/the-ai-revolution-in-drug-discovery"
       ],
       "date": "2026-04-15T23:01:13.642312+00:00"
+    },
+    {
+      "title": "Dr David Sinclair's Therapy Reverses Cellular Aging By 75 Percent In Human Trials",
+      "urls": [
+        "https://www.youtube.com/watch?v=tvwCWwpY-X8",
+        "https://www.sciencedaily.com/news/health_medicine"
+      ],
+      "date": "2026-04-15T23:31:00.146019+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T23:01:13.642374+00:00"
+  "lastUpdated": "2026-04-15T23:31:00.146085+00:00"
 }
