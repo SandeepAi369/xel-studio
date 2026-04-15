@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Marie Harvey Receives 2025 Discovery Award for Public Health Research",
-      "urls": [
-        "https://www.techmezine.com/latest-medical-technology-news",
-        "https://www.discoverymedicine.com/category/research-technology/disease-gene-discovery",
-        "https://discovery.patsnap.com/company/hengyi-beijing-medical-technology/news",
-        "https://www.ebsco.com/health-care/products/research-technology",
-        "https://about.ebsco.com/health-care/products/research-technology",
-        "https://news.vumc.org/2015/10/29/health-sciences-technology-expert-edelman-set-for-discovery-lecture",
-        "https://health.oregonstate.edu/good-news/2025-08/marie-harvey-receives-2025-discovery-award-medical-research-foundation",
-        "https://discovery.patsnap.com/company/beijing-xinwang-medical-information-technology/news",
-        "https://lifetechnology.com/blogs/life-technology-medical-news/tagged/medical-research",
-        "https://discovery.patsnap.com/company/shanghai-jiabao-medical-health-care-technology"
-      ],
-      "date": "2026-04-05T02:01:06.704634+00:00"
-    },
-    {
       "title": "Alysa Liu Wins Two Gold Medals At 2026 Winter Olympics",
       "urls": [
         "https://www.youtube.com/watch?v=4hHRbMCBUJg",
@@ -4203,7 +4187,19 @@
         "https://insideclimatenews.org/category/clean-energy"
       ],
       "date": "2026-04-15T01:30:58.038971+00:00"
+    },
+    {
+      "title": "Mistral released a new open-source text-to-speech model called Voxtral TTS, designed for enterprise ",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
+        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models",
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
+        "https://mistral.ai/news",
+        "https://finance.yahoo.com/news/mistral-closes-big-ai-rivals-153707603.html",
+        "https://news.ycombinator.com/item?id=44594156"
+      ],
+      "date": "2026-04-15T02:01:08.601415+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T01:30:58.039053+00:00"
+  "lastUpdated": "2026-04-15T02:01:08.601483+00:00"
 }
