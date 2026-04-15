@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Warns It Will Strike 18 U.S. Military Sites If Attacked",
-      "urls": [
-        "https://www.pcmag.com/opinions/wwdc-2025-apple-intelligence-is-behind-google-microsoft",
-        "https://www.instagram.com/p/DWjpTF0CUQL"
-      ],
-      "date": "2026-04-05T01:01:05.101499+00:00"
-    },
-    {
       "title": "Solar Investments Hit Record $1.8 Trillion in 2024",
       "urls": [
         "https://www.ft.com/renewable-energy"
@@ -4202,7 +4194,16 @@
         "https://www.newsweek.com/heavy-snow-warning-20-inches-snow-hit-travel-impossible-11818727"
       ],
       "date": "2026-04-15T00:33:03.275949+00:00"
+    },
+    {
+      "title": "Apple Google And Microsoft Unveil Autonomous AI Agents At 2025 Developer Conferences",
+      "urls": [
+        "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three",
+        "https://www.newsbooktimes.com/ai-news/google-microsoft-and-apple-ai-updates-whats-new-this-year",
+        "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai"
+      ],
+      "date": "2026-04-15T01:02:14.170005+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T00:33:03.276018+00:00"
+  "lastUpdated": "2026-04-15T01:02:14.170078+00:00"
 }
