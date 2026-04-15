@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasa Launches Artemis Ii With Four Astronauts On Historic Lunar Flyby",
-      "urls": [
-        "https://www.spacex.com/updates",
-        "https://www.spacex.com/launches",
-        "https://www.nasa.gov/news-release/nasas-spacex-crew-12-launches-to-international-space-station",
-        "https://www.spacex.com",
-        "https://www.youtube.com/watch?v=43Ta51jqIeg",
-        "https://www.pbs.org/newshour/science/watch-live-nasa-holds-pre-launch-news-conference-on-artemis-ii-farthest-crewed-flight-in-decades",
-        "https://www.nasa.gov/mission/artemis-ii",
-        "https://www.youtube.com/watch?v=Tf_UjBMIzNo",
-        "https://www.bbc.com/news/videos/ce3d5gkd2geo"
-      ],
-      "date": "2026-04-05T03:30:58.803641+00:00"
-    },
-    {
       "title": "Tools Automate 40 Percent Of Physician Notes In U.S. Health Systems",
       "urls": [
         "https://www.nejm.org/ai-in-medicine"
@@ -4193,7 +4178,19 @@
         "https://www.youtube.com/watch?v=mRnwwrgAdq8"
       ],
       "date": "2026-04-15T03:01:12.053083+00:00"
+    },
+    {
+      "title": "Jamie Dimon Warns Of Recession Risks In 84-Page Shareholder Letter",
+      "urls": [
+        "https://www.cnbc.com/corporate-leaders",
+        "https://www.youtube.com/watch?v=bta18wTOr_k",
+        "https://www.aol.com/finance/big-tech-ceos-seek-quell-170124906.html",
+        "https://qz.com/nvidia-employees-ai-use-jensen-huang",
+        "https://www.msn.com/en-us/money/other/sr-white-house-officials-met-with-top-tech-ceos-last-week-on-ai-cybersecurity-risks-according-to-sources/vi-AA20Bu4K?uxmode=ruby",
+        "https://www.instagram.com/reel/DW1pcLylPLa"
+      ],
+      "date": "2026-04-15T03:31:03.189325+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T03:01:12.053148+00:00"
+  "lastUpdated": "2026-04-15T03:31:03.189383+00:00"
 }
