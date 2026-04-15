@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "USA Hockey Cedes Control To NHL's $2 Billion Franchise In Player Development Overhaul",
-      "urls": [
-        "https://www.usatoday.com",
-        "https://news.google.com"
-      ],
-      "date": "2026-04-05T21:30:58.910800+00:00"
-    },
-    {
       "title": "Demis Hassabis Leads Google DeepMind In Advancing Gemini AI Across Android And Search",
       "urls": [
         "https://www.youtube.com/watch?v=uVPdYqiULTo",
@@ -4226,7 +4218,17 @@
         "https://www.facebook.com/groups/312924925565944/posts/2602943616564052"
       ],
       "date": "2026-04-15T21:01:18.854708+00:00"
+    },
+    {
+      "title": "Ruth Chepngetich Smashes World Record With Sub 2:10 Chicago Marathon Win",
+      "urls": [
+        "https://trackandfieldnews.com/article/for-the-record-may-2024",
+        "https://www.facebook.com/FloTrack/posts/a-crazy-world-record-and-morewe-break-down-everything-that-happened-at-the-chica/1087050976108080",
+        "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "https://www.youtube.com/watch?v=kSfwtbkmYeI"
+      ],
+      "date": "2026-04-15T21:32:02.225699+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T21:01:18.854760+00:00"
+  "lastUpdated": "2026-04-15T21:32:02.225757+00:00"
 }
