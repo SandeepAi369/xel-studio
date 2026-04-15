@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Powers 95 Percent Of Global AI Training Workloads",
-      "urls": [
-        "https://www.nvidia.com/en-us"
-      ],
-      "date": "2026-04-05T19:30:53.578601+00:00"
-    },
-    {
       "title": "Midjourney Launches V1 AI Video Generator For Creators",
       "urls": [
         "https://finance.yahoo.com/news/midjourney-launches-first-ai-video-192121917.html",
@@ -4222,7 +4215,14 @@
         "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
       ],
       "date": "2026-04-15T19:01:25.179018+00:00"
+    },
+    {
+      "title": "OpenAI claims it could rebuild GPT-4 from scratch with only 5 to 10 engineers, citing efficiency bre",
+      "urls": [
+        "https://caias.mst.edu/ai-news"
+      ],
+      "date": "2026-04-15T19:31:20.651590+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T19:01:25.179115+00:00"
+  "lastUpdated": "2026-04-15T19:31:20.651664+00:00"
 }
