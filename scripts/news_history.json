@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Bans Connected Vehicle Imports From China And Russia",
-      "urls": [
-        "https://www.itic.org/news-events/news-releases",
-        "https://www.bis.gov/news-updates",
-        "https://sdgnews.com/wto-says-global-trade-is-slowing-as-conflict-and-ai-pull-the-economy-in-opposite-directions"
-      ],
-      "date": "2026-04-05T16:01:12.360225+00:00"
-    },
-    {
       "title": "PyTorch Powers 70% Of Top AI Research Papers In 2025",
       "urls": [
         "https://www.facebook.com/codecademy/posts/pytorch-and-tensorflow-are-both-powerful-deep-learning-frameworks-with-their-own/1179205757571273"
@@ -4218,7 +4209,14 @@
         "https://www.youtube.com/watch?v=lMaCfQMlXY0"
       ],
       "date": "2026-04-15T15:32:11.576197+00:00"
+    },
+    {
+      "title": "Donald Trump Shares Doctored Jesus-Like Image Sparking Religious Backlash",
+      "urls": [
+        "https://www.youtube.com/watch?v=9cVFjWf5Qro"
+      ],
+      "date": "2026-04-15T16:01:13.991647+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T15:32:11.576263+00:00"
+  "lastUpdated": "2026-04-15T16:01:13.991719+00:00"
 }
