@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Demis Hassabis Leads Google DeepMind In Advancing Gemini AI Across Android And Search",
-      "urls": [
-        "https://www.youtube.com/watch?v=uVPdYqiULTo",
-        "https://finance.yahoo.com/video/google-deepmind-ceo-warns-dangers-102451359.html"
-      ],
-      "date": "2026-04-05T22:01:08.116648+00:00"
-    },
-    {
       "title": "Solar And Wind Power Surpass Coal In Global Electricity Generation",
       "urls": [
         "https://www.mprnews.org/story/2025/10/06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says"
@@ -4228,7 +4220,17 @@
         "https://www.youtube.com/watch?v=kSfwtbkmYeI"
       ],
       "date": "2026-04-15T21:32:02.225699+00:00"
+    },
+    {
+      "title": "Lens Launches MCP Server For AI Coding Assistants And Kubernetes Integration",
+      "urls": [
+        "https://appdevelopermagazine.com/artificial-intelligence",
+        "https://cybernews.com/ai-tools/best-ai-for-software-development",
+        "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know",
+        "https://www.reddit.com/r/webdev/comments/1ihikux/heres_my_oneline_review_of_all_the_ai_programming"
+      ],
+      "date": "2026-04-15T22:01:11.224211+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T21:32:02.225757+00:00"
+  "lastUpdated": "2026-04-15T22:01:11.224276+00:00"
 }
