@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Powers 70% Of Top AI Research Papers In 2025",
-      "urls": [
-        "https://www.facebook.com/codecademy/posts/pytorch-and-tensorflow-are-both-powerful-deep-learning-frameworks-with-their-own/1179205757571273"
-      ],
-      "date": "2026-04-05T16:32:28.237611+00:00"
-    },
-    {
-      "title": "Liftware Steady Cuts Spillage By 76 Percent",
-      "urls": [
-        "https://www.kent.edu/equalaccess/news/assistive-technology-innovations-driving-equity",
-        "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html",
-        "https://www.besensable.com/post/assistive-technology-for-disabilities"
-      ],
-      "date": "2026-04-05T17:01:13.925265+00:00"
-    },
-    {
       "title": "United States Advances AI Accountability Legislation in 2026",
       "urls": [
         "https://www.anecdotes.ai/learn/ai-regulations-in-2025-us-eu-uk-japan-china-and-more",
@@ -4224,7 +4208,16 @@
         "https://www.kpcnews.com/news/national/article_007f5fd2-0e7f-571e-9fef-65ba659ff5c0.html"
       ],
       "date": "2026-04-15T16:30:59.013006+00:00"
+    },
+    {
+      "title": "Harvard Medical School has developed an AI model called PDGrapher that identifies gene and drug comb",
+      "urls": [
+        "https://www.facebook.com/wxii12news/posts/health-experts-say-ai-is-helping-them-diagnose-diseases-develop-new-drugs-and-de/1389516836535901",
+        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
+        "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells"
+      ],
+      "date": "2026-04-15T17:02:17.483804+00:00"
     }
   ],
-  "lastUpdated": "2026-04-15T16:30:59.013072+00:00"
+  "lastUpdated": "2026-04-15T17:02:17.483872+00:00"
 }
