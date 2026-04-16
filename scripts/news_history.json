@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eurozone Inflation Rises To 2.5% In March",
-      "urls": [
-        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqdX3AvNu-ZRhRss7ABvmjBLEMm3cXBF_d0lOdnh35LjryO2pd79kEpl&gaa_ts=69d356a2&gaa_sig=FgXAgw58p9Y2U4USzbj4yGziwnil53ndbWjwb89ZdMWyzCZuj4e4lT1SUlIp75CLLzabbVMiZB5iJVgxe8PzNA%3D%3D"
-      ],
-      "date": "2026-04-06T06:31:01.770923+00:00"
-    },
-    {
-      "title": "Israel And Hamas Consider 45-Day Ceasefire Proposal",
-      "urls": [
-        "https://www.facebook.com/NewZealandBrand/posts/45-days-for-peace-new-ceasefire-push-raises-big-questionsa-fresh-diplomatic-effo/1535987715195322"
-      ],
-      "date": "2026-04-06T07:01:11.940062+00:00"
-    },
-    {
       "title": "Systems Detect Cancer 30% More Accurately Than Doctors",
       "urls": [
         "https://www.usa.edu/blog/how-ai-is-revolutionizing-healthcare"
@@ -4255,7 +4241,16 @@
         "https://www.youtube.com/watch?v=_rZ8e5Mj3Xo"
       ],
       "date": "2026-04-16T06:30:59.353959+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://www.youtube.com/watch?v=JIA2EgH7Z-o",
+        "https://www.linkedin.com/pulse/geopolitics-technology-innovation-america-china-tussle-ernest-gavor-ydwde",
+        "https://www.scmp.com/topics/ai-geopolitics"
+      ],
+      "date": "2026-04-16T07:01:37.969961+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T06:30:59.354026+00:00"
+  "lastUpdated": "2026-04-16T07:01:37.970024+00:00"
 }
