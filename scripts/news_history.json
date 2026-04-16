@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Develop Algorithm To Predict Scientific Breakthroughs Using Citation Data",
-      "urls": [
-        "https://www.aol.com/articles/scientists-way-detect-scientific-breakthroughs-180700526.html"
-      ],
-      "date": "2026-04-06T03:31:11.699074+00:00"
-    },
-    {
-      "title": "Germany Inflation Jumps To 2.8% In March On Energy Price Surge",
-      "urls": [
-        "https://www.wsj.com/economy/global?gaa_at=eafs&gaa_n=AWEtsqcxK1j2OLPyepNNqq7FjFuV68H7GCS_cVZsNuNR7vPks8DHOOTfIHqE&gaa_ts=69d33380&gaa_sig=Yc2SUgOcdF8Lk58M8TsUX5yIGRyxwmbJrQf7tl_8_lISOZ8clIyyh6NxpJr9m0bPRCz2q-NyssGc1u93VMn6vA%3D%3D",
-        "https://www.bloomberg.com/economics-v2"
-      ],
-      "date": "2026-04-06T04:01:09.141263+00:00"
-    },
-    {
       "title": "Maria José Marin Wins Augusta National Women's Amateur At 12-Under Par",
       "urls": [
         "https://apnews.com/sports",
@@ -4244,7 +4229,18 @@
         "https://www.facebook.com/NASASpaceflight/videos/artemis-ii-returns-re-entry-and-splashdown/2422911808208826"
       ],
       "date": "2026-04-16T03:31:00.680278+00:00"
+    },
+    {
+      "title": "Alibaba Launches Top-Ranked AI Video Model",
+      "urls": [
+        "https://www.marketwatch.com/story/alibaba-s-new-ai-video-generation-model-tops-global-ranking-after-debut-52f54c00",
+        "https://www.superhuman.ai/p/new-ai-video-model-takes-over-the-internet",
+        "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
+        "https://www.youtube.com/watch?v=msrbd-d6lWk",
+        "https://www.theinformation.com/newsletters/ai-agenda/startup-helps-users-generate-videos-without-breaking-bank"
+      ],
+      "date": "2026-04-16T04:01:10.714044+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T03:31:00.680344+00:00"
+  "lastUpdated": "2026-04-16T04:01:10.714108+00:00"
 }
