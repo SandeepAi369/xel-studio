@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Blockchain Com Launches Real Time Crypto News Aggregator",
-      "urls": [
-        "https://www.blockchain.com/explorer/news"
-      ],
-      "date": "2026-04-06T17:02:28.787285+00:00"
-    },
-    {
       "title": "Anthropic Abandons AI Safety Pledge Amid Rapid Deployment Push",
       "urls": [
         "https://www.reddit.com/r/ClaudeAI/comments/1rem4td/anthropic_ditches_its_core_safety_promise_in_the",
@@ -4239,7 +4232,17 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week"
       ],
       "date": "2026-04-16T16:31:19.276492+00:00"
+    },
+    {
+      "title": "South Korea will pilot blockchain-based deposit tokens for government spending, aiming to modernize ",
+      "urls": [
+        "https://www.newsnow.com/us/Business/Cryptocurrencies/Web3",
+        "https://web3newswire.com?srsltid=AfmBOorkzE_8YMoFNgYIyVl5D7bCEOWCyAKOPz9rgSkm1_Zdu6_wSyDo",
+        "https://www.theblock.co",
+        "https://cryptoslate.com"
+      ],
+      "date": "2026-04-16T17:04:03.701279+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T16:31:19.276561+00:00"
+  "lastUpdated": "2026-04-16T17:04:03.701338+00:00"
 }
