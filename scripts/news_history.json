@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Llm Co Study Finds 52 Percent Of Enterprises Adopt Open Source Llms",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/llm-co-releases-study-on-the-growth-of-open-source-vs-closed-source-llm-adoption-1035921230",
-        "https://kairntech.com/blog/articles/top-open-source-llm-models-in-2026",
-        "https://pricepertoken.com/news/model-releases"
-      ],
-      "date": "2026-04-06T11:01:25.379818+00:00"
-    },
-    {
       "title": "Generative AI tools are transforming content creation and product development workflows across indus",
       "urls": [
         "https://www.producthunt.com/products/saas-ai-tools",
@@ -4259,7 +4250,15 @@
         "https://www.youtube.com/watch?v=7MrJqHZcK4o"
       ],
       "date": "2026-04-16T10:34:03.812821+00:00"
+    },
+    {
+      "title": "Adoption Could Save U.S. Healthcare $360 Billion Annually",
+      "urls": [
+        "https://www.pbs.org/newshour/science/ai-in-health-care-could-save-lives-and-money-but-not-yet",
+        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness"
+      ],
+      "date": "2026-04-16T11:01:33.058757+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T10:34:03.812876+00:00"
+  "lastUpdated": "2026-04-16T11:01:33.058816+00:00"
 }
