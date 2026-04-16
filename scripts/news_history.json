@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jordan Stolz Wins 1000m Gold With Olympic Record 1:06 22",
-      "urls": [
-        "https://alaskapublic.org/news/national/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
-        "https://www.foxnews.com/sports/american-olympian-jordan-stolz-sets-olympic-record-captures-gold-1000-meter-race"
-      ],
-      "date": "2026-04-06T01:01:08.919741+00:00"
-    },
-    {
       "title": "Kenya Floods Kill 110 Displace Over 34,000 People",
       "urls": [
         "https://www.youtube.com/watch?v=ox-yZy5gjLM",
@@ -4235,7 +4227,18 @@
         "https://www.tiktok.com/@australianathletics/video/7627723787290545429"
       ],
       "date": "2026-04-16T00:32:02.466060+00:00"
+    },
+    {
+      "title": "Cmd It Empowers Neurodivergent Talent In Tech Nationwide",
+      "urls": [
+        "https://www.vanderbilt.edu/autismandinnovation/neurotech-rising-and-the-autistic-founders-rewriting-the-autism-story-by-aras-sheikhi",
+        "https://cmd-it.org/celebrating-neurodiversity-in-tech",
+        "https://childmind.org/article/screens-and-neurodivergent-kids",
+        "https://www.youtube.com/watch?v=in2P1x1yFx4",
+        "https://www.undp.org/blog/using-technology-support-neurodiversity-and-education"
+      ],
+      "date": "2026-04-16T01:01:15.335204+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T00:32:02.466131+00:00"
+  "lastUpdated": "2026-04-16T01:01:15.335276+00:00"
 }
