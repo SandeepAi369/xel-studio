@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Hosts Over 800000 Models Including Qwen And DeepSeek",
-      "urls": [
-        "https://www.youtube.com/watch?v=8dmZRDVWsiQ"
-      ],
-      "date": "2026-04-06T02:01:06.781994+00:00"
-    },
-    {
       "title": "Congressional Research Service Report Highlights AI Advancements in U.S. Health Care",
       "urls": [
         "https://www.congress.gov/crs-product/R48319"
@@ -4241,7 +4234,15 @@
         "https://www.tensorflow.org"
       ],
       "date": "2026-04-16T02:01:03.130779+00:00"
+    },
+    {
+      "title": "Github Releases Guide For Open Source Llm Integration",
+      "urls": [
+        "https://github.blog/ai-and-ml/llms",
+        "https://zapier.com/blog/best-llm"
+      ],
+      "date": "2026-04-16T02:30:57.420687+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T02:01:03.130848+00:00"
+  "lastUpdated": "2026-04-16T02:30:57.420744+00:00"
 }
