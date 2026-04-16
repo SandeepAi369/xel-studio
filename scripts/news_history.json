@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft And IBM AI Tools Transform Learning For Neurodiverse Students",
-      "urls": [
-        "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions"
-      ],
-      "date": "2026-04-06T09:30:59.970724+00:00"
-    },
-    {
       "title": "IBM And NASA Launch Surya AI To Predict Solar Weather",
       "urls": [
         "https://www.prnewswire.com/news-releases/ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology-302534613.html"
@@ -4253,7 +4246,15 @@
         "https://www.youtube.com/watch?v=I3pupzwiGJQ"
       ],
       "date": "2026-04-16T09:02:13.795122+00:00"
+    },
+    {
+      "title": "Screen readers enable individuals with visual impairments to access digital content by converting te",
+      "urls": [
+        "https://accessibility.wayne.edu/news/how-screen-readers-work-60460",
+        "https://membership.digicol.org/2025-accessibility-summit-resources/bridging-the-gap-how-screen-readers-allow-equal-access-to-technology-for-those-who-are-blind-or-visually-impaired"
+      ],
+      "date": "2026-04-16T09:33:03.852982+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T09:02:13.795192+00:00"
+  "lastUpdated": "2026-04-16T09:33:03.853044+00:00"
 }
