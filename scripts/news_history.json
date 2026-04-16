@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maria José Marin Wins Augusta National Women's Amateur At 12-Under Par",
-      "urls": [
-        "https://apnews.com/sports",
-        "https://www.foxsports.com.au"
-      ],
-      "date": "2026-04-06T04:31:01.237653+00:00"
-    },
-    {
       "title": "Dukono Volcano Erupts With Ash Plumes Reaching 2000 Meters",
       "urls": [
         "https://www.youtube.com/watch?v=ZpVZO5VDrcs"
@@ -4240,7 +4232,18 @@
         "https://www.theinformation.com/newsletters/ai-agenda/startup-helps-users-generate-videos-without-breaking-bank"
       ],
       "date": "2026-04-16T04:01:10.714044+00:00"
+    },
+    {
+      "title": "Clayton Keller Helps USA Win First Men's Olympic Hockey Gold Since 1980",
+      "urls": [
+        "https://golf.com/news/clayton-keller-olympics-golf-subpar?srsltid=AfmBOorE2O4KLkJinoXTrFwU8cSkQyqbyaYr7kDzaJuGMtU32zgNKIGB",
+        "https://www.wusf.org/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
+        "https://oaklandside.org/2026/02/19/alysa-liu-winter-olympics-gold-figure-skating",
+        "https://www.cnn.com/2026/02/17/sport/elana-meyers-taylor-gold-medal",
+        "https://www.nhpr.org/2026-02-12/this-years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
+      ],
+      "date": "2026-04-16T04:31:17.619599+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T04:01:10.714108+00:00"
+  "lastUpdated": "2026-04-16T04:31:17.619657+00:00"
 }
