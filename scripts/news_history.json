@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has launched AI Sheets, an open-source no-code application that enables users to build,",
-      "urls": [
-        "https://www.infoq.com/news/2025/09/ai-sheets"
-      ],
-      "date": "2026-04-06T16:31:04.890233+00:00"
-    },
-    {
       "title": "Blockchain Com Launches Real Time Crypto News Aggregator",
       "urls": [
         "https://www.blockchain.com/explorer/news"
@@ -4239,7 +4232,14 @@
         "https://noticias.foxnews.com/opinion/not-just-tariffs-foreign-nations-profited-off-us-now-trump-striking-back"
       ],
       "date": "2026-04-16T16:05:22.595430+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils Three Advanced Models in One Week",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week"
+      ],
+      "date": "2026-04-16T16:31:19.276492+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T16:05:22.595486+00:00"
+  "lastUpdated": "2026-04-16T16:31:19.276561+00:00"
 }
