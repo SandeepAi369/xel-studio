@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kelvin Kiptum Smashes Marathon World Record With 2:00:35 In Chicago",
-      "urls": [
-        "https://www.cryo.com/record-breaking-performances-and-shocking-upsets-lead-news-coverage-throughout-international-athletics",
-        "https://www.usairnet.com/record-breaking-news",
-        "https://www.instagram.com/reel/DWvgzsYFU0Z",
-        "https://amchamindia.com/shattering-records-and-surprising-defeats-define-this-weeks-athletic-news-this-week",
-        "https://x.com/GWR?lang=en"
-      ],
-      "date": "2026-04-06T09:01:18.305434+00:00"
-    },
-    {
       "title": "Microsoft And IBM AI Tools Transform Learning For Neurodiverse Students",
       "urls": [
         "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions"
@@ -4255,7 +4244,16 @@
         "https://ugc.gg"
       ],
       "date": "2026-04-16T08:32:01.160856+00:00"
+    },
+    {
+      "title": "Humanoid has unveiled the HMND 01, a modular humanoid robot designed for industrial applications, fe",
+      "urls": [
+        "https://thehumanoid.ai",
+        "https://www.prnewswire.com/news-releases/ai-powered-humanoid-robots-billion-dollar-market-emerging-as-a-high-growth-automation-play-for-global-investors-302666011.html",
+        "https://www.youtube.com/watch?v=I3pupzwiGJQ"
+      ],
+      "date": "2026-04-16T09:02:13.795122+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T08:32:01.160921+00:00"
+  "lastUpdated": "2026-04-16T09:02:13.795192+00:00"
 }
