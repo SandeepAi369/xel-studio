@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pakistan Hosts Regional Diplomats To Mediate U.S.-Iran Tensions",
-      "urls": [
-        "https://www.facebook.com/25NewsKXXV/posts/just-over-a-month-into-the-war-in-iran-the-white-house-says-peace-talks-are-prog/1409416011219749",
-        "https://www.youtube.com/watch?v=TW4IX1oFbA8",
-        "https://www.nytimes.com/live/2026/03/23/world/iran-war-oil-trump",
-        "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-top-saudi-turkish-egyptian-diplomats-over-war-in-iran",
-        "https://www.ms.now/news/diplomatic-efforts-to-end-iran-war-face-new-roadblocks",
-        "https://www.cfr.org/articles/trump-weighs-iran-military-options-amid-a-weekend-of-clashes-and-diplomacy",
-        "https://www.youtube.com/watch?v=ZDD8LpnTSXA",
-        "https://www.un.org/en/global-issues/peace-and-security"
-      ],
-      "date": "2026-04-06T03:01:24.109585+00:00"
-    },
-    {
       "title": "Scientists Develop Algorithm To Predict Scientific Breakthroughs Using Citation Data",
       "urls": [
         "https://www.aol.com/articles/scientists-way-detect-scientific-breakthroughs-180700526.html"
@@ -4250,7 +4236,15 @@
         "https://www.bbc.com/news/articles/c4g66p2q075o"
       ],
       "date": "2026-04-16T03:01:10.327920+00:00"
+    },
+    {
+      "title": "Artemis II has successfully completed its lunar flyby mission, returning to Earth with a controlled ",
+      "urls": [
+        "https://www.youtube.com/watch?v=jUT4oCpGFYU",
+        "https://www.facebook.com/NASASpaceflight/videos/artemis-ii-returns-re-entry-and-splashdown/2422911808208826"
+      ],
+      "date": "2026-04-16T03:31:00.680278+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T03:01:10.327988+00:00"
+  "lastUpdated": "2026-04-16T03:31:00.680344+00:00"
 }
