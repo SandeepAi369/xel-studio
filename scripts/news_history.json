@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Launches Real-Time Captioning Service For Deaf And Hard-Of-Hearing Users",
-      "urls": [
-        "https://csd.org/stories/the-importance-of-accessible-technology-in-everyday-life",
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooMuW_k2pJ-daQpUrJkpvk-tskrwx28B5rXrW3ZmIydVnvuODTh",
-        "https://rutartan.com/news/the-future-of-accessibility-a-new-role-of-ai-powered-technology-for-people-with-disabilities",
-        "https://www.youtube.com/watch?v=xvGtT3Ench4",
-        "https://mn.gov/deaf-hard-of-hearing/assistive-technology/index.jsp"
-      ],
-      "date": "2026-04-06T13:31:07.874104+00:00"
-    },
-    {
       "title": "Solar Power Filled 61% of U.S. Electricity Demand Growth in 2025",
       "urls": [
         "https://renews.biz/106333/solar-powers-majority-of-rising-us-electricity-demand"
@@ -4251,7 +4240,14 @@
         "https://www.cnet.com/videos/omt-apple-in-space-iphone-17-pro-max-and-artemis-ii"
       ],
       "date": "2026-04-16T13:07:15.001686+00:00"
+    },
+    {
+      "title": "Autism experts highlight technology's role in supporting parents of autistic children, offering tool",
+      "urls": [
+        "https://www.actionnews5.com/video/2026/04/14/expert-shares-how-tech-can-serve-tool-parents-autistic-children"
+      ],
+      "date": "2026-04-16T13:32:45.236021+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T13:07:15.001747+00:00"
+  "lastUpdated": "2026-04-16T13:32:45.236085+00:00"
 }
