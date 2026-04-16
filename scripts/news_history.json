@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sentinel-6B Launches On SpaceX Falcon 9 To Monitor Sea Level Rise",
-      "urls": [
-        "https://www.jpl.nasa.gov/news/nasa-spacex-launch-us-european-satellite-to-monitor-earths-oceans",
-        "https://x.com/SpaceX",
-        "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast",
-        "https://www.nasa.gov/blogs/spacestation/2026/02/13/crew-12-falcon-9-first-stage-returns",
-        "https://www.facebook.com/NASA/videos/liftoff-the-artemis-ii-mission-launches-from-nasas-kennedy-space-center-at-635-p/803371852819094"
-      ],
-      "date": "2026-04-06T20:31:02.683629+00:00"
-    },
-    {
-      "title": "Fifa World Cup Draws Billions As Football Dominates Global Sports",
-      "urls": [
-        "https://www.facebook.com/seastats/posts/the-worlds-most-popular-sports-football-still-on-topsports-bring-billions-of-peo/821340763571110"
-      ],
-      "date": "2026-04-06T21:01:18.380849+00:00"
-    },
-    {
       "title": "Free Fire Tournaments Attract Over 2 Million Peak Viewers",
       "urls": [
         "https://esportsinsider.com",
@@ -4233,7 +4215,16 @@
         "https://www.bloomberg.com/news/videos/2026-04-16/hormuz-a-sticking-point-amid-us-iran-diplomatic-efforts-video"
       ],
       "date": "2026-04-16T20:07:47.362619+00:00"
+    },
+    {
+      "title": "Yordan Alvarez hit a solo home run in the third inning, marking his fifth homer of the season and ex",
+      "urls": [
+        "https://www.youtube.com/watch?v=RxLiK9I-9mo",
+        "https://apnews.com/sports",
+        "https://www.sportsmediawatch.com"
+      ],
+      "date": "2026-04-16T21:10:01.058302+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T20:07:47.362686+00:00"
+  "lastUpdated": "2026-04-16T21:10:01.058400+00:00"
 }
