@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Commission Adopts Nature Restoration Law To Heal 20% Of Degraded Ecosystems By 2030",
-      "urls": [
-        "https://www.mofo.com/sustainability-resources/sustainability-corporate-responsibility-news",
-        "https://www.washingtonpost.com/climate-environment/climate-policy"
-      ],
-      "date": "2026-04-06T10:31:08.707487+00:00"
-    },
-    {
       "title": "Llm Co Study Finds 52 Percent Of Enterprises Adopt Open Source Llms",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/llm-co-releases-study-on-the-growth-of-open-source-vs-closed-source-llm-adoption-1035921230",
@@ -4259,7 +4251,15 @@
         "https://mistral.ai/en"
       ],
       "date": "2026-04-16T10:03:22.444509+00:00"
+    },
+    {
+      "title": "California Volcano Observatory Monitors 18 Active Volcanoes Threatening 13 Million Residents",
+      "urls": [
+        "https://www.usgs.gov/california-volcano-observatory",
+        "https://www.youtube.com/watch?v=7MrJqHZcK4o"
+      ],
+      "date": "2026-04-16T10:34:03.812821+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T10:03:22.444561+00:00"
+  "lastUpdated": "2026-04-16T10:34:03.812876+00:00"
 }
