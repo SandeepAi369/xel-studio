@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congressional Research Service Report Highlights AI Advancements in U.S. Health Care",
-      "urls": [
-        "https://www.congress.gov/crs-product/R48319"
-      ],
-      "date": "2026-04-06T02:30:58.413527+00:00"
-    },
-    {
       "title": "Pakistan Hosts Regional Diplomats To Mediate U.S.-Iran Tensions",
       "urls": [
         "https://www.facebook.com/25NewsKXXV/posts/just-over-a-month-into-the-war-in-iran-the-white-house-says-peace-talks-are-prog/1409416011219749",
@@ -4242,7 +4235,22 @@
         "https://zapier.com/blog/best-llm"
       ],
       "date": "2026-04-16T02:30:57.420687+00:00"
+    },
+    {
+      "title": "Imf Warns Iran Conflict Could Trigger Global Recession",
+      "urls": [
+        "https://www.youtube.com/watch?v=0w5_KA6Uvxo",
+        "https://www.youtube.com/watch?v=dkXE9PWXDZ0",
+        "https://time.com/article/2026/04/15/imf-global-recession-war-us-israel-iran-energy-hormuz",
+        "https://finance.yahoo.com/economy/article/imf-lowers-growth-outlook-warns-of-global-recession-if-iran-oil-shock-is-severe-130000854.html",
+        "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026",
+        "https://thehill.com/opinion/lindseys-lens/5832699-war-global-economy-recession-warning",
+        "https://www.imf.org/en/blogs/articles/2026/04/14/war-darkens-global-economic-outlook-and-reshapes-policy-priorities",
+        "https://www.nytimes.com/2026/04/14/business/iran-war-imf-economic-growth.html",
+        "https://www.bbc.com/news/articles/c4g66p2q075o"
+      ],
+      "date": "2026-04-16T03:01:10.327920+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T02:30:57.420744+00:00"
+  "lastUpdated": "2026-04-16T03:01:10.327988+00:00"
 }
