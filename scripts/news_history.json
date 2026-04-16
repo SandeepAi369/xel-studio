@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar Power Filled 61% of U.S. Electricity Demand Growth in 2025",
-      "urls": [
-        "https://renews.biz/106333/solar-powers-majority-of-rising-us-electricity-demand"
-      ],
-      "date": "2026-04-06T14:04:59.974498+00:00"
-    },
-    {
-      "title": "Anthropic Shifts Focus As Claude Development Accelerates",
-      "urls": [
-        "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540?gaa_at=eafs&gaa_n=AWEtsqeLLNtPZi-F4jjB02ox5iPzYa8-Ic24RU0zwaEKdU5BScmFOLprxfne&gaa_ts=69d3c723&gaa_sig=kA1X8Peh1_GLZle2ocGG4VFlhYgEP8rfVdfyuJOEBiRjTlwtPgkIwslj2feEECuicpdN4mWttnP6rqRw13GYIg%3D%3D",
-        "https://thehill.com/policy/technology/5812881-gottheimer-presses-anthropic-ai-safety"
-      ],
-      "date": "2026-04-06T14:31:14.326857+00:00"
-    },
-    {
       "title": "Stanford-Led Team Develops AI Collaboration Model For LMIC Health Care",
       "urls": [
         "https://aparc.fsi.stanford.edu/news/digital-health-innovations-pathway-improving-healthcare-underserved-communities",
@@ -4263,7 +4248,14 @@
         "https://apnews.com/climate-and-environment"
       ],
       "date": "2026-04-16T14:03:09.055898+00:00"
+    },
+    {
+      "title": "Hugging Face has urged the U.",
+      "urls": [
+        "https://www.artificialintelligence-news.com/news/hugging-face-open-source-focus-ai-action-plan"
+      ],
+      "date": "2026-04-16T14:40:20.538920+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T14:03:09.055963+00:00"
+  "lastUpdated": "2026-04-16T14:40:20.538993+00:00"
 }
