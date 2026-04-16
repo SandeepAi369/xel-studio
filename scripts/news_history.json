@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kenya Floods Kill 110 Displace Over 34,000 People",
-      "urls": [
-        "https://www.youtube.com/watch?v=ox-yZy5gjLM",
-        "https://reliefweb.int/report/kenya/kenya-severe-weather-and-floods-media-noaa-cpc-echo-daily-flash-2-april-2026",
-        "https://www.facebook.com/Hiltonfiji/posts/advice-1-6-april-2026-1015-amdear-guestwe-trust-your-stay-with-us-thus-far-in-an/1412872914210387",
-        "https://weather.com/storms/hurricane/news/2025-06-04-rare-june-united-states-hurricane-landfalls-nearly-40-years",
-        "https://nypost.com/2022/06/04/south-florida-flooded-as-storm-dumps-11-inches-of-rain",
-        "https://www.facebook.com/usembassysuva/posts/-tropical-cyclone-vaianu-is-currently-causing-flash-flooding-high-winds-and-heav/1365929925579925",
-        "https://www.weather.gov/ict/event_20240604"
-      ],
-      "date": "2026-04-06T01:31:01.880819+00:00"
-    },
-    {
       "title": "Hugging Face Hosts Over 800000 Models Including Qwen And DeepSeek",
       "urls": [
         "https://www.youtube.com/watch?v=8dmZRDVWsiQ"
@@ -4238,7 +4225,14 @@
         "https://www.undp.org/blog/using-technology-support-neurodiversity-and-education"
       ],
       "date": "2026-04-16T01:01:15.335204+00:00"
+    },
+    {
+      "title": "Wind Energy Leads U.S. Renewable Growth With 52% Of New Capacity",
+      "urls": [
+        "https://www.windtech-international.com/industry-news/wind-leads-renewable-electricity-growth-in-usa-as-solar-and-batteries-drive-new-capacity"
+      ],
+      "date": "2026-04-16T01:31:58.903999+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T01:01:15.335276+00:00"
+  "lastUpdated": "2026-04-16T01:31:58.904062+00:00"
 }
