@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Debunk Quantum Computing Breakthrough With Classical Explanation",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-        "https://www.sciencedaily.com/news/computers_math/quantum_computers",
-        "https://www.youtube.com/watch?v=BrtT2P-LyW0"
-      ],
-      "date": "2026-04-06T18:31:16.153238+00:00"
-    },
-    {
       "title": "Google's Veo 3 Generates Hyperrealistic Videos With Synchronized Sound",
       "urls": [
         "https://www.youtube.com/watch?v=ETeL0mYJxQs",
@@ -4237,7 +4228,15 @@
         "https://www.youtube.com/watch?v=AbSbDbSxAtc"
       ],
       "date": "2026-04-16T18:04:50.213123+00:00"
+    },
+    {
+      "title": "Verge Genomics Uses AI To Accelerate Neurological Drug Discovery",
+      "urls": [
+        "https://www.touro.edu/news--events/stories/five-exciting-ways-ai-technology-is-transforming-healthcare.php",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7640807"
+      ],
+      "date": "2026-04-16T19:01:13.937329+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T18:04:50.213194+00:00"
+  "lastUpdated": "2026-04-16T19:01:13.937404+00:00"
 }
