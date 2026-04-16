@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "UK Regulator Fines Two Tech Firms £92 Million For Unauthorized Facial Recognition Use",
-      "urls": [
-        "https://www.infosecurity-magazine.com/privacy",
-        "https://www.openrightsgroup.org/category/online-privacy",
-        "https://www.youtube.com/watch?v=iALI7plJhLs"
-      ],
-      "date": "2026-04-06T16:02:24.445838+00:00"
-    },
-    {
       "title": "Hugging Face has launched AI Sheets, an open-source no-code application that enables users to build,",
       "urls": [
         "https://www.infoq.com/news/2025/09/ai-sheets"
@@ -4241,7 +4232,14 @@
         "https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02"
       ],
       "date": "2026-04-16T15:39:28.473315+00:00"
+    },
+    {
+      "title": "Riley Gaines addressed backlash from MAGA supporters over her criticism of Donald Trump's AI-generat",
+      "urls": [
+        "https://noticias.foxnews.com/opinion/not-just-tariffs-foreign-nations-profited-off-us-now-trump-striking-back"
+      ],
+      "date": "2026-04-16T16:05:22.595430+00:00"
     }
   ],
-  "lastUpdated": "2026-04-16T15:39:28.473384+00:00"
+  "lastUpdated": "2026-04-16T16:05:22.595486+00:00"
 }
