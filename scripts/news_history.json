@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Smart Wheelchairs Launch With Voice Control And 360-Degree Mobility",
-      "urls": [
-        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoqv7-cfjvl6vVWGofFxh96VeznoEum2VxQZ6NqRrzsPl956TQlg",
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoo88-rFOw9E14u0ofVu-x4F1rZy45ST-csqyI_W9tXqOxvk-xjS",
-        "https://www.jpost.com/consumerism/article-888779"
-      ],
-      "date": "2026-04-07T18:31:10.157250+00:00"
-    },
-    {
       "title": "Digital health technologies are expanding access to mental health care, particularly in underserved ",
       "urls": [
         "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
@@ -4242,7 +4233,15 @@
         "https://www.youtube.com/watch?v=REVzUhbxQAE"
       ],
       "date": "2026-04-17T18:03:16.199635+00:00"
+    },
+    {
+      "title": "Mistral AI is a France-based startup specializing in open source large language models, gaining reco",
+      "urls": [
+        "https://www.ibm.com/think/topics/mistral-ai",
+        "https://mistral.ai/models"
+      ],
+      "date": "2026-04-17T18:32:02.516419+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T18:03:16.199699+00:00"
+  "lastUpdated": "2026-04-17T18:32:02.516484+00:00"
 }
