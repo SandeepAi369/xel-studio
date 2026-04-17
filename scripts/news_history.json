@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch\nis favored by researchers for its intuitive debugging using standard Python tools like pdb, ",
-      "urls": [
-        "https://blackthorn-vision.com/blog/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-04-07T10:02:01.496444+00:00"
-    },
-    {
       "title": "Texas Hill Country experienced catastrophic flash flooding after historic rainfall overwhelmed the G",
       "urls": [
         "https://www.facebook.com/fijivillage/posts/fijivillageonrecord-with-vijay-narayan-5pm-7th-april-2026-expect-heavy-rain-flas/1302834845327772",
@@ -4241,7 +4234,20 @@
         "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework"
       ],
       "date": "2026-04-17T10:01:26.276478+00:00"
+    },
+    {
+      "title": "White House Unveils National AI Framework to Override State Laws",
+      "urls": [
+        "https://www.anecdotes.ai/learn/ai-regulations-in-2025-us-eu-uk-japan-china-and-more",
+        "https://www.nga.org/updates/in-summary-the-white-house-national-legislative-policy-framework-for-artificial-intelligence",
+        "https://www.cisa.gov/ai/recent-efforts",
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
+        "https://www.americascreditunions.org/blogs/compliance/patchwork-policy-federal-governments-new-approach-ai-regulation",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation"
+      ],
+      "date": "2026-04-17T10:33:15.192542+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T10:01:26.276552+00:00"
+  "lastUpdated": "2026-04-17T10:33:15.192598+00:00"
 }
