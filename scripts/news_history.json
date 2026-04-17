@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Study Links Corporate Green Initiatives To Uneven Air Quality Outcomes",
-      "urls": [
-        "https://www.cnbc.com/climate-policy",
-        "https://news.mit.edu/2025/when-companies-go-green-air-quality-impacts-can-vary-dramatically-1208"
-      ],
-      "date": "2026-04-07T00:31:00.723761+00:00"
-    },
-    {
       "title": "JPMorgan Chase And Ford Hire More Autistic Workers",
       "urls": [
         "https://www.wsj.com/lifestyle/careers/jobs-for-the-autistic-grow-beyond-tech-b4eee329?gaa_at=eafs&gaa_n=AWEtsqdxbq8KImH7Glnvv-SES2svqmWSFNfcFcpTCMk_WncPFxokQSNXKTxf&gaa_ts=69d45acf&gaa_sig=YjslR1NNIAfQI8HTeHQLO19NWqndr5AdlNhzyNZVilwQMKdAPkz1EqXume9V1UbqIVtxe3noMs9fmzTxI47fFg%3D%3D",
@@ -4219,7 +4211,15 @@
         "https://mmajunkie.usatoday.com"
       ],
       "date": "2026-04-17T00:30:55.239554+00:00"
+    },
+    {
+      "title": "eSight Smart Glasses Empower Low-Vision Students With Real-Time Visual Enhancement",
+      "urls": [
+        "https://battleforblindness.org/empowering-education-the-best-assistive-technologies-for-visually-impaired-students-in-2024",
+        "https://www.youtube.com/watch?v=GrQPSQWrOHo"
+      ],
+      "date": "2026-04-17T01:01:04.265119+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T00:30:55.239620+00:00"
+  "lastUpdated": "2026-04-17T01:01:04.265188+00:00"
 }
