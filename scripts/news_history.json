@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Carl Lewis Nearly Lost Olympic Gold After Teammate's Doping Violation",
-      "urls": [
-        "https://people.com/olympic-athletes-stripped-of-medals-11906807"
-      ],
-      "date": "2026-04-07T21:02:14.084025+00:00"
-    },
-    {
       "title": "Webaim Survey Reveals 72 Percent Of Screen Reader Users Prefer Ios Voiceover",
       "urls": [
         "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
@@ -4240,7 +4233,18 @@
         "https://www.sportingnews.com/us/mma/news"
       ],
       "date": "2026-04-17T21:02:13.248119+00:00"
+    },
+    {
+      "title": "XRAI Inc has launched an updated version of its live-captioning smart glasses, providing real-time s",
+      "urls": [
+        "https://csd.org/stories/the-importance-of-accessible-technology-in-everyday-life",
+        "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people",
+        "https://www.msn.com/en-us/news/other/technology-improves-safety-for-deaf-hard-of-hearing/ar-AA1P03Vj",
+        "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOor-k3qRS6xbStr1KKEyRBj-3JjZD_xLftnJIeiyaZilHywlA-aK",
+        "https://www.youtube.com/watch?v=mECgXiHjFT4"
+      ],
+      "date": "2026-04-17T21:30:56.731730+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T21:02:13.248183+00:00"
+  "lastUpdated": "2026-04-17T21:30:56.731781+00:00"
 }
