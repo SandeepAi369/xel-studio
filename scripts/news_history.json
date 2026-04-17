@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Enterprises Forecast 20 Percent AI Workload Surge by 2025",
-      "urls": [
-        "https://aibusiness.com/verticals/cloud-computing",
-        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4?gaa_at=eafs&gaa_n=AWEtsqf6LW1PVfq2nZeoksMMmu2l3b28AHbFmNtXUO_LSem_B0gISb7_DsmO&gaa_ts=69d4b670&gaa_sig=Dmtkfio3QHOn1WctQ7P_snQ8f-P-dWCS5mugpMrCmPhYacRwVdoRthmC02Kw6VgaY0-vSG6nDkPdHclF3TdhWA%3D%3D"
-      ],
-      "date": "2026-04-07T07:32:03.889280+00:00"
-    },
-    {
       "title": "Uc Irvine Researchers Reprogram Brain Immune Cells With Crispr For Targeted Neurological Therapies",
       "urls": [
         "https://www.universityofcalifornia.edu/news/10-awesome-discoveries-uc-research-2025"
@@ -4233,7 +4225,14 @@
         "https://www.youtube.com/watch?v=nk3uzZUbu4I"
       ],
       "date": "2026-04-17T07:03:13.742781+00:00"
+    },
+    {
+      "title": "Mayo Clinic researchers have developed an experimental dual-drug nanotherapy that successfully cross",
+      "urls": [
+        "https://newsnetwork.mayoclinic.org/research"
+      ],
+      "date": "2026-04-17T07:37:29.988764+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T07:03:13.742845+00:00"
+  "lastUpdated": "2026-04-17T07:37:29.988837+00:00"
 }
