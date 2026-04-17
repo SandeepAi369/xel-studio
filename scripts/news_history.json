@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ITI Releases Policy Paper to Align Trade Rules With AI Advancements",
-      "urls": [
-        "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
-        "https://www.wto.org/english/news_e/news24_e/publ_21nov24_e.htm",
-        "https://internationaltradetoday.com"
-      ],
-      "date": "2026-04-07T03:01:17.441982+00:00"
-    },
-    {
       "title": "Artemis II Crew Orbits Moon At 6500 Miles",
       "urls": [
         "https://www.livescience.com/news"
@@ -4215,7 +4206,21 @@
         "https://www.youtube.com/watch?v=NPTGN2_CWWE"
       ],
       "date": "2026-04-17T02:31:02.962990+00:00"
+    },
+    {
+      "title": "Imf Cuts Global Growth Forecast Amid Iran War Oil Crisis",
+      "urls": [
+        "https://www.cnbc.com/economy",
+        "https://www.youtube.com/watch?v=Yicuy3kC_Sg",
+        "https://apnews.com/hub/inflation",
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
+        "https://www.nytimes.com/news-event/economy-business-us",
+        "https://www.reuters.com/markets/econ-world",
+        "https://finance.yahoo.com/topic/economic-news",
+        "https://www.youtube.com/watch?v=OGoOmWDzfKg"
+      ],
+      "date": "2026-04-17T03:02:12.019458+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T02:31:02.963051+00:00"
+  "lastUpdated": "2026-04-17T03:02:12.019507+00:00"
 }
