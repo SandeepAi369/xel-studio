@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "JPMorgan Chase And Ford Hire More Autistic Workers",
-      "urls": [
-        "https://www.wsj.com/lifestyle/careers/jobs-for-the-autistic-grow-beyond-tech-b4eee329?gaa_at=eafs&gaa_n=AWEtsqdxbq8KImH7Glnvv-SES2svqmWSFNfcFcpTCMk_WncPFxokQSNXKTxf&gaa_ts=69d45acf&gaa_sig=YjslR1NNIAfQI8HTeHQLO19NWqndr5AdlNhzyNZVilwQMKdAPkz1EqXume9V1UbqIVtxe3noMs9fmzTxI47fFg%3D%3D",
-        "https://www.youtube.com/watch?v=M8BPeV17mHA"
-      ],
-      "date": "2026-04-07T01:01:07.948157+00:00"
-    },
-    {
       "title": "Roblox Launches Two AI Tools For 3D Game Creation",
       "urls": [
         "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
@@ -4219,7 +4211,20 @@
         "https://www.youtube.com/watch?v=GrQPSQWrOHo"
       ],
       "date": "2026-04-17T01:01:04.265119+00:00"
+    },
+    {
+      "title": "Southeast Wisconsin faced severe flooding after torrential rains overwhelmed drainage systems, subme",
+      "urls": [
+        "https://www.youtube.com/watch?v=l4wbMVqnpnM",
+        "https://www.youtube.com/watch?v=oq5IGqvW0XY",
+        "https://www.youtube.com/watch?v=ooTbeaNwr0s",
+        "https://www.youtube.com/watch?v=Z-A25Hq4qck",
+        "https://www.instagram.com/reel/DXLgY2bCNP3",
+        "https://weather.com/news/weather/video/milwaukee-drivers-trapped-storms-flood-streets",
+        "https://weather.com/news/trending/video/overnight-tornado-hit-ice-arenas-homes-ann-arbor-michigan"
+      ],
+      "date": "2026-04-17T01:30:55.082491+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T01:01:04.265188+00:00"
+  "lastUpdated": "2026-04-17T01:30:55.082561+00:00"
 }
