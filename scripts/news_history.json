@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chad Bianco Alleges Election Fraud In Riverside County Gubernatorial Race",
-      "urls": [
-        "https://www.nbcnews.com/politics",
-        "https://www.270towin.com/news",
-        "https://www.usatoday.com/elections",
-        "https://www.politico.com",
-        "https://www.cnn.com/politics"
-      ],
-      "date": "2026-04-07T09:31:11.624246+00:00"
-    },
-    {
       "title": "PyTorch\nis favored by researchers for its intuitive debugging using standard Python tools like pdb, ",
       "urls": [
         "https://blackthorn-vision.com/blog/pytorch-vs-tensorflow"
@@ -4244,7 +4233,15 @@
         "https://www.youtube.com/watch?v=ydW6Io2T4ho&vl=en"
       ],
       "date": "2026-04-17T09:31:02.486840+00:00"
+    },
+    {
+      "title": "PyTorch powers a growing ecosystem of AI development tools and cloud integrations, supporting framew",
+      "urls": [
+        "https://pytorch.org",
+        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework"
+      ],
+      "date": "2026-04-17T10:01:26.276478+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T09:31:02.486902+00:00"
+  "lastUpdated": "2026-04-17T10:01:26.276552+00:00"
 }
