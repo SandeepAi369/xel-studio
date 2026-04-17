@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Drafts Global Licensing Rule for AI Chip Exports",
-      "urls": [
-        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43?gaa_at=eafs&gaa_n=AWEtsqcVHIaENAabl4Q7cWmoXy-mmd0ANmowK_z7QdpPEwxb5zpzvL0m8WMs&gaa_ts=69d4ee77&gaa_sig=MP4Rp9SCf1sr6SbBfQiV7dB7KdwoNGNTLIEKwKOrIzaZuZ-x1fYVjxABjxygTJj9pwk-wW6swP5XrvOhwnjACg%3D%3D",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales",
-        "https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia",
-        "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us"
-      ],
-      "date": "2026-04-07T11:31:32.110153+00:00"
-    },
-    {
       "title": "Jim Jordan is being discussed as a potential replacement for Mike Johnson as House Speaker, amid ong",
       "urls": [
         "https://www.youtube.com/watch?v=u9uwDRdY8Ss"
@@ -4241,7 +4231,16 @@
         "https://www.cnn.com/politics"
       ],
       "date": "2026-04-17T11:31:03.668003+00:00"
+    },
+    {
+      "title": "UK BioBank exposed confidential health records online due to a security oversight, affecting sensiti",
+      "urls": [
+        "https://www.theguardian.com/world/privacy",
+        "https://techpolicy.press/how-trumps-data-regulation-crackdown-undermines-digital-sovereignty",
+        "https://www.infosecurity-magazine.com/privacy"
+      ],
+      "date": "2026-04-17T12:01:15.198285+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T11:31:03.668071+00:00"
+  "lastUpdated": "2026-04-17T12:01:15.198349+00:00"
 }
