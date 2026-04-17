@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kishane Thompson Smashes 150-Meter Sprint Record With 14.92-Second Run",
-      "urls": [
-        "https://www.instagram.com/p/DWudfBaCUqu",
-        "https://www.instagram.com/reel/DWysRD9DkeX",
-        "https://www.facebook.com/CeylonAthletics/posts/duplantis-breaks-world-record-surpasses-bubkas-tallyarmand-mondo-duplantis-deliv/1481750659983199",
-        "https://www.instagram.com/reel/DWzYm1AAU84"
-      ],
-      "date": "2026-04-07T04:31:02.450486+00:00"
-    },
-    {
-      "title": "Kermadec Trench Records 40 Earthquakes Including 6.2 Magnitude Quake",
-      "urls": [
-        "https://www.youtube.com/watch?v=uumBW1bMJaI"
-      ],
-      "date": "2026-04-07T05:01:11.026778+00:00"
-    },
-    {
       "title": "Gerard Quinn Urges AI Developers to Prioritize Disability Inclusion",
       "urls": [
         "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
@@ -4237,7 +4220,19 @@
         "https://sports.yahoo.com/articles/push-limit-cumberland-county-man-201649240.html"
       ],
       "date": "2026-04-17T04:30:56.430512+00:00"
+    },
+    {
+      "title": "Chinese AI models have rapidly advanced, with open-weight language models now matching or exceeding ",
+      "urls": [
+        "https://www.facebook.com/freecodecamp/posts/open-source-ai-is-improving-fast-but-how-close-is-it-really-to-frontier-models-i/1008986588380775",
+        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
+        "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+        "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/sam-altman-on-ai-s-future-and-open-source",
+        "https://hai.stanford.edu/policy/beyond-deepseek-chinas-diverse-open-weight-ai-ecosystem-and-its-policy-implications",
+        "https://blog.cloudflare.com/high-performance-llms"
+      ],
+      "date": "2026-04-17T05:02:08.159399+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T04:30:56.430575+00:00"
+  "lastUpdated": "2026-04-17T05:02:08.159454+00:00"
 }
