@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas ERCOT grid set all-time records for wind, solar, and battery discharge in early March 2025, ma",
-      "urls": [
-        "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
-      ],
-      "date": "2026-04-07T15:04:56.299593+00:00"
-    },
-    {
-      "title": "Databricks has reached a $62 billion valuation after completing a record-setting venture capital fun",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
-        "https://aifundingtracker.com/ai-startup-funding-news-today",
-        "https://inforcapital.com/blog/2026-03-26-85-ai-deals-three-billion-dollar-valuations-one-week",
-        "https://news.crunchbase.com/ma/most-active-startup-acquirers-3-years-crm-openai-snowflake",
-        "https://finance.yahoo.com/news/ai-startups-founders-vcs-could-094530075.html"
-      ],
-      "date": "2026-04-07T15:32:02.992670+00:00"
-    },
-    {
       "title": "AI geopolitics is intensifying as nations treat data and computing infrastructure as strategic asset",
       "urls": [
         "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOorkDPkSsf0c-wI71RF5WwTmZXrVzTtJDhT72hvz7aaOq93nBexd",
@@ -4250,7 +4232,14 @@
         "https://www.healthcarebusinessreview.com/news/transforming-healthcare-access-through-telemedicine-innovation-nwid-3012.html"
       ],
       "date": "2026-04-17T15:04:33.953797+00:00"
+    },
+    {
+      "title": "WWF Living Planet Report 2024 reveals the average size of wildlife populations has declined by 73% b",
+      "urls": [
+        "https://livingplanet.panda.org"
+      ],
+      "date": "2026-04-17T15:34:20.638942+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T15:04:33.953869+00:00"
+  "lastUpdated": "2026-04-17T15:34:20.639019+00:00"
 }
