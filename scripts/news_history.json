@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face reports a significant rise in legacy companies upgrading organizational subscriptions t",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
-      ],
-      "date": "2026-04-07T14:39:04.788007+00:00"
-    },
-    {
       "title": "Texas ERCOT grid set all-time records for wind, solar, and battery discharge in early March 2025, ma",
       "urls": [
         "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
@@ -4250,7 +4243,14 @@
         "https://red.anthropic.com/2026/mythos-preview"
       ],
       "date": "2026-04-17T14:32:13.412379+00:00"
+    },
+    {
+      "title": "Telemedicine adoption has surged by 300% across rural U.",
+      "urls": [
+        "https://www.healthcarebusinessreview.com/news/transforming-healthcare-access-through-telemedicine-innovation-nwid-3012.html"
+      ],
+      "date": "2026-04-17T15:04:33.953797+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T14:32:13.412464+00:00"
+  "lastUpdated": "2026-04-17T15:04:33.953869+00:00"
 }
