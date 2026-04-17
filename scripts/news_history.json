@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Roblox Launches Two AI Tools For 3D Game Creation",
-      "urls": [
-        "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
-        "https://futurense.com/blog/gen-ai-tools"
-      ],
-      "date": "2026-04-07T01:31:02.262278+00:00"
-    },
-    {
-      "title": "PyTorch Foundation Launches Cloud Credit Program for Researchers and Startups",
-      "urls": [
-        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework",
-        "https://pytorch.org"
-      ],
-      "date": "2026-04-07T02:01:09.405988+00:00"
-    },
-    {
       "title": "Esports Championship Launches Six-Month Global Tournament For 120 Teams",
       "urls": [
         "https://tech-drop.io/gaming-competition-news-breaking-major-championship-unveils-dramatic-format-overhaul-and-record-prize-award-2"
@@ -4224,7 +4208,14 @@
         "https://weather.com/news/trending/video/overnight-tornado-hit-ice-arenas-homes-ann-arbor-michigan"
       ],
       "date": "2026-04-17T01:30:55.082491+00:00"
+    },
+    {
+      "title": "IBM Survey Reveals 51% Of Open-Source AI Users Achieve Positive ROI",
+      "urls": [
+        "https://www.ibm.com/think/news/2025-open-ai-trends"
+      ],
+      "date": "2026-04-17T02:01:09.995432+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T01:30:55.082561+00:00"
+  "lastUpdated": "2026-04-17T02:01:09.995498+00:00"
 }
