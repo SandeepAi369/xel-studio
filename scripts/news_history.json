@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Webaim Survey Reveals 72 Percent Of Screen Reader Users Prefer Ios Voiceover",
-      "urls": [
-        "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
-      ],
-      "date": "2026-04-07T21:31:04.707067+00:00"
-    },
-    {
       "title": "Go Developers Express Limited Satisfaction With AI Coding Tools",
       "urls": [
         "https://www.infoworld.com/article/4121617/go-developers-meh-on-ai-coding-tools-survey.html"
@@ -4244,7 +4237,14 @@
         "https://www.youtube.com/watch?v=mECgXiHjFT4"
       ],
       "date": "2026-04-17T21:30:56.731730+00:00"
+    },
+    {
+      "title": "U.S. Government Imposes New Export Rules on Nvidia AMD AI Chips",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales"
+      ],
+      "date": "2026-04-17T22:01:10.033884+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T21:30:56.731781+00:00"
+  "lastUpdated": "2026-04-17T22:01:10.033952+00:00"
 }
