@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gerard Quinn Urges AI Developers to Prioritize Disability Inclusion",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
-        "https://www.science.org/doi/10.1126/science.aea4918",
-        "https://www.youtube.com/watch?v=Uh-t8pTErm4"
-      ],
-      "date": "2026-04-07T05:31:17.182526+00:00"
-    },
-    {
       "title": "Developers Accept AI Code 40% to 60% Without Review",
       "urls": [
         "https://www.youtube.com/watch?v=b9EbCb5A408",
@@ -4243,7 +4234,14 @@
         "https://www.braunability.com/us/en/community/the-driving-force/future-mobility-technology.html"
       ],
       "date": "2026-04-17T05:31:01.626082+00:00"
+    },
+    {
+      "title": "Caltech Scientists Unveil 6100 Qubit Quantum Processor",
+      "urls": [
+        "https://www.sciencedaily.com/news/computers_math/quantum_computers"
+      ],
+      "date": "2026-04-17T06:02:11.205490+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T05:31:01.626139+00:00"
+  "lastUpdated": "2026-04-17T06:02:11.205589+00:00"
 }
