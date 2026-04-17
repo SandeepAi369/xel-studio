@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Faces Scrutiny Over Business Practices Amid Record $7.7 Billion Deal",
-      "urls": [
-        "https://www.youtube.com/watch?v=7iKoH6LceBo"
-      ],
-      "date": "2026-04-07T08:32:05.827800+00:00"
-    },
-    {
       "title": "Google Veo 3.1 Powers High-Quality 4K Video Generation Across Gemini And YouTube Shorts",
       "urls": [
         "https://www.bbc.com/news/articles/ckg1dl410q9o",
@@ -4234,7 +4227,17 @@
         "https://www.cnbc.com/social-media"
       ],
       "date": "2026-04-17T08:01:14.768049+00:00"
+    },
+    {
+      "title": "Allyson Felix has been inducted into the U.",
+      "urls": [
+        "https://www.wbaltv.com/article/alysa-liu-milan-cortina-gold-medal-win-interview/70434992",
+        "https://www.bayer.com/en/societal-engagement/medals-achievements-bayer-athletes",
+        "https://alaskapublic.org/news/national/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
+        "https://usopm.org/allyson-felix"
+      ],
+      "date": "2026-04-17T08:36:05.321547+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T08:01:14.768119+00:00"
+  "lastUpdated": "2026-04-17T08:36:05.321620+00:00"
 }
