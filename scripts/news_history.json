@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society releases a comprehensive report on digital assistive technologies, emphasizing their r",
-      "urls": [
-        "https://www.youtube.com/watch?v=ecazz5FnpVw",
-        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
-      ],
-      "date": "2026-04-07T17:33:31.999197+00:00"
-    },
-    {
-      "title": "A 3.",
-      "urls": [
-        "https://www.youtube.com/watch?v=BxbBuFmkFwY",
-        "https://science.nasa.gov/earth/earth-observatory/topics/natural-events"
-      ],
-      "date": "2026-04-07T18:01:42.330851+00:00"
-    },
-    {
       "title": "Smart Wheelchairs Launch With Voice Control And 360-Degree Mobility",
       "urls": [
         "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoqv7-cfjvl6vVWGofFxh96VeznoEum2VxQZ6NqRrzsPl956TQlg",
@@ -4249,7 +4233,16 @@
         "https://www.reddit.com/r/AssistiveTechnology"
       ],
       "date": "2026-04-17T17:32:19.120078+00:00"
+    },
+    {
+      "title": "Krakatoa Eruption Killed Over 36000 In 1883",
+      "urls": [
+        "https://www.newsnow.com/us/World/Natural+Disasters",
+        "https://www.youtube.com/watch?v=wsz7hhG3-nk",
+        "https://www.youtube.com/watch?v=REVzUhbxQAE"
+      ],
+      "date": "2026-04-17T18:03:16.199635+00:00"
     }
   ],
-  "lastUpdated": "2026-04-17T17:32:19.120132+00:00"
+  "lastUpdated": "2026-04-17T18:03:16.199699+00:00"
 }
