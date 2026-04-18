@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "WheelMove has unveiled a powered wheel system designed to transform manual wheelchairs into motorize",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopNzKYSigzLbIZvYd5qrScsHbAxbPuDNgwE8ll7IRP9tvYPxkqE",
-        "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs",
-        "https://www.outreach1.org/2025/05/04/innovations-in-smart-wheelchairs",
-        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion",
-        "https://www.youtube.com/watch?v=q7-rXxNIUMA"
-      ],
-      "date": "2026-04-08T21:33:14.035043+00:00"
-    },
-    {
-      "title": "Meta Unveils Four New MTIA AI Chips for Efficient Inference and Training",
-      "urls": [
-        "https://finance.yahoo.com/news/meta-announces-4-new-ai-chips-raising-competitive-stakes-with-nvidia-amd-140011384.html"
-      ],
-      "date": "2026-04-08T22:01:09.006561+00:00"
-    },
-    {
       "title": "United States And Iran Agree To Two-Week Ceasefire",
       "urls": [
         "https://www.npr.org/sections/news"
@@ -4258,7 +4240,14 @@
         "https://blog.rallyfuel.com/sports-tech-leaders"
       ],
       "date": "2026-04-18T21:33:05.088501+00:00"
+    },
+    {
+      "title": "White House Releases National AI Legislative Framework",
+      "urls": [
+        "https://www.wiley.law/alert-White-House-Releases-National-Legislative-Policy-Framework-for-AI"
+      ],
+      "date": "2026-04-18T22:01:13.759198+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T21:33:05.088564+00:00"
+  "lastUpdated": "2026-04-18T22:01:13.759263+00:00"
 }
