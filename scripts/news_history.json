@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Unicom Engineering Deploys Dell-Based AI Data Centers With High-Density GPU Support",
-      "urls": [
-        "https://cloud.google.com/ai-infrastructure",
-        "https://www.youtube.com/watch?v=rnV9TgOqnX8",
-        "https://www.barchart.com/story/news/1095136/5-cloud-and-ai-infrastructure-stocks-powering-the-next-wave-of-ai",
-        "https://www.unicomengineering.com/blog/new-draft-preparing-for-ai"
-      ],
-      "date": "2026-04-08T19:33:59.311931+00:00"
-    },
-    {
       "title": "AI-powered assistive tools are transforming accessibility for people with disabilities by enabling m",
       "urls": [
         "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
@@ -4254,7 +4244,16 @@
         "https://www.nvidia.com/en-us"
       ],
       "date": "2026-04-18T19:30:56.298016+00:00"
+    },
+    {
+      "title": "Online privacy is under increasing threat as social media platforms and digital services expand data",
+      "urls": [
+        "https://v45.diplomacy.edu/updates/online-privacy-digital-surveillance",
+        "https://www.openrightsgroup.org/category/online-privacy",
+        "https://www.youtube.com/watch?v=l4bnww9SVak"
+      ],
+      "date": "2026-04-18T20:01:09.108270+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T19:30:56.298096+00:00"
+  "lastUpdated": "2026-04-18T20:01:09.108331+00:00"
 }
