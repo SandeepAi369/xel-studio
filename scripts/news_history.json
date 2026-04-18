@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Initiative expands global outreach, emphasizing the economic impact of open source softw",
-      "urls": [
-        "https://opensource.org"
-      ],
-      "date": "2026-04-08T02:01:22.297265+00:00"
-    },
-    {
       "title": "MobiHealthNews provides daily and weekly digital health news updates, focusing on trends in telemedi",
       "urls": [
         "https://www.mobihealthnews.com"
@@ -4222,7 +4215,23 @@
         "https://www.cnbc.com/world-economy"
       ],
       "date": "2026-04-18T01:31:04.073639+00:00"
+    },
+    {
+      "title": "Linux Foundation Reports 5X ROI From Open Source Adoption",
+      "urls": [
+        "https://nzoss.org.nz/linux-the-open-source-operating-system-for-the-masses",
+        "https://linux.org.au/tag/open-source-community",
+        "https://www.linux-magazine.com/index.php/tags/view/Software/open%20source",
+        "https://www.linux-magazine.com/index.php/tags/view/Software/open+source",
+        "https://www.tecmint.com/best-open-source-forum-software-for-linux",
+        "https://www.linux-magazine.com/index.php/tags/view/Software/open%20source",
+        "https://blenderartists.org/t/a-new-2d-animation-open-source-software-enve-for-linux/1198202",
+        "https://www.linuxtoday.com/blog/10-best-open-source-accounting-software-for-linux-users",
+        "https://www.forbes.com/sites/jasonevangelho/2019/10/15/microsoft-to-linux-community-we-are-an-open-source-company",
+        "https://www.fsdaily.com/EndUser/7_More_Free_and_Open_Source_Finance_Accounting_Software_for_Linux"
+      ],
+      "date": "2026-04-18T02:02:18.469178+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T01:31:04.073702+00:00"
+  "lastUpdated": "2026-04-18T02:02:18.469246+00:00"
 }
