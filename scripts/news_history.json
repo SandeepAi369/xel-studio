@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indigenous Communities Protest Land Threats at Brasilia Rally",
-      "urls": [
-        "https://www.theguardian.com/environment/conservation+biodiversity",
-        "https://news.mongabay.com",
-        "https://www.wcs.org/updates",
-        "https://www.biologicaldiversity.org/campaigns/victories"
-      ],
-      "date": "2026-04-08T14:01:40.273568+00:00"
-    },
-    {
       "title": "PyTorch Replaces TensorFlow In OpenAI Core Research Pipeline",
       "urls": [
         "https://builtin.com/data-science/pytorch-vs-tensorflow",
@@ -4243,7 +4233,14 @@
         "https://www.youtube.com/watch?v=lBzSWiCBT_8"
       ],
       "date": "2026-04-18T14:01:13.853098+00:00"
+    },
+    {
+      "title": "Federal Reserve Holds Interest Rates Steady Amid Inflation And Job Market Uncertainty",
+      "urls": [
+        "https://www.wsj.com/economy/global?eafs_enabled=false"
+      ],
+      "date": "2026-04-18T14:30:54.704511+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T14:01:13.853162+00:00"
+  "lastUpdated": "2026-04-18T14:30:54.704572+00:00"
 }
