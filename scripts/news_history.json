@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tropical Storm Debby Intensifies to 70 mph Ahead of Florida Landfall",
-      "urls": [
-        "https://www.facebook.com/FijiGovernment/posts/weather-update-severe-tc-vaianu-8-april-2026here-is-the-latest-weather-brief-on-/1393383952825798",
-        "https://www.citizensvoice.com/2024/08/04/tropical-storm-debby-hits-florida-with-floods-threat-of-record-rain-in-georgia-and-the-carolinas",
-        "https://www.savannahnow.com/story/weather/severe/2025/08/04/tropical-storm-dexter-moves-away-from-the-us/85509715007",
-        "https://www.facebook.com/thefijitimes/posts/fijitimesnews-while-vendors-at-the-ba-market-experienced-minimal-damage-after-th/1373441044825701",
-        "https://www.facebook.com/groups/210533169715892/posts/2209034216532434",
-        "https://www.chicagotribune.com/2024/08/04/tropical-storm-debby",
-        "https://www.facebook.com/FijiMetService/posts/tropical-cyclone-vaianusevere-tropical-cyclone-vaianu-category-3-was-located-nea/1403582221811177",
-        "https://www.cnbc.com/2024/08/07/tropical-storm-debby-churns-up-the-east-coast-and-affects-weather-as-far-away-as-the-great-lakes-.html"
-      ],
-      "date": "2026-04-08T01:30:56.824272+00:00"
-    },
-    {
       "title": "Open Source Initiative expands global outreach, emphasizing the economic impact of open source softw",
       "urls": [
         "https://opensource.org"
@@ -4229,7 +4215,14 @@
         "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
       ],
       "date": "2026-04-18T01:01:14.762283+00:00"
+    },
+    {
+      "title": "Imf Cuts Global Growth Forecast To 2.7 Percent",
+      "urls": [
+        "https://www.cnbc.com/world-economy"
+      ],
+      "date": "2026-04-18T01:31:04.073639+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T01:01:14.762360+00:00"
+  "lastUpdated": "2026-04-18T01:31:04.073702+00:00"
 }
