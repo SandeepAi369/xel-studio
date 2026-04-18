@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Dominates AI Chip Market With H100 And B200 GPUs",
-      "urls": [
-        "https://www.barrons.com/articles/nvidia-stock-price-broadcom-amd-intel-ai-chips-e314ad43"
-      ],
-      "date": "2026-04-08T00:32:10.205628+00:00"
-    },
-    {
-      "title": "United States And China Vie For Tech Influence In Global South",
-      "urls": [
-        "https://www.atlanticcouncil.org/emerging-technologies-and-great-power-competition-in-the-global-south",
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOoqa4OY4O7ZQw1Z5Lyz94tX1FTthilwBr6BgaaPkgA0JONtlF6sx",
-        "https://cerre.eu/news/the-paris-ai-summit-must-rescue-ai-from-geopolitical-competition"
-      ],
-      "date": "2026-04-08T01:01:10.483624+00:00"
-    },
-    {
       "title": "Tropical Storm Debby Intensifies to 70 mph Ahead of Florida Landfall",
       "urls": [
         "https://www.facebook.com/FijiGovernment/posts/weather-update-severe-tc-vaianu-8-april-2026here-is-the-latest-weather-brief-on-/1393383952825798",
@@ -4238,7 +4222,14 @@
         "https://www.instagram.com/reel/DXBVMWDAfGl"
       ],
       "date": "2026-04-18T00:31:07.578196+00:00"
+    },
+    {
+      "title": "WebAIM Survey Reveals 72 Percent Of Blind Mobile Users Depend On Apple VoiceOver",
+      "urls": [
+        "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
+      ],
+      "date": "2026-04-18T01:01:14.762283+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T00:31:07.578273+00:00"
+  "lastUpdated": "2026-04-18T01:01:14.762360+00:00"
 }
