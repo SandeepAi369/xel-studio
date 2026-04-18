@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Llama 3 With Enhanced Reasoning And Multilingual Support",
-      "urls": [
-        "https://ai.meta.com/blog/meta-llama-3",
-        "https://www.facebook.com/gizmodo/posts/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models/1384756936850770"
-      ],
-      "date": "2026-04-08T15:32:03.160446+00:00"
-    },
-    {
       "title": "Dr Regina Barzilay Develops Ai Model Predicting Breast Cancer Five Years Early",
       "urls": [
         "https://www.youtube.com/watch?v=-0qOzx3URO4"
@@ -4239,7 +4231,20 @@
         "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
       ],
       "date": "2026-04-18T15:31:58.042812+00:00"
+    },
+    {
+      "title": "Congress Debates Section 702 Reform Amid Surveillance Abuses",
+      "urls": [
+        "https://www.eff.org/issues/privacy",
+        "https://techcrunch.com/2026/04/17/with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-from-warrantless-surveillance",
+        "https://www.youtube.com/watch?v=FqGk47gUSlM",
+        "https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html",
+        "https://www.thestreet.com/retirement/more-states-are-taking-privacy-seriously-but-the-work-isnt-done",
+        "https://www.mayerbrown.com/en/insights/publications/2026/04/traveling-abroad-your-phone-may-be-the-first-checkpoint-the-expanding-reach-of-electronic-device-searches",
+        "https://www.gibsondunn.com/gibson-dunn-europe-data-protection-april-2026"
+      ],
+      "date": "2026-04-18T16:01:07.485919+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T15:31:58.042868+00:00"
+  "lastUpdated": "2026-04-18T16:01:07.485979+00:00"
 }
