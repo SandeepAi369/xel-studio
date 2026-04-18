@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And Iran Agree To Two-Week Ceasefire",
-      "urls": [
-        "https://www.cnn.com",
-        "https://www.foxnews.com",
-        "https://www.cbsnews.com",
-        "https://abcnews.com",
-        "https://news.yahoo.com",
-        "https://apnews.com",
-        "https://www.nytimes.com",
-        "https://www.nbcnews.com"
-      ],
-      "date": "2026-04-08T10:32:13.344542+00:00"
-    },
-    {
       "title": "Vanderbilt Researchers Unveil AI Model That Decodes 2.1 Billion Proteins",
       "urls": [
         "https://www.yahoo.com/news/articles/scientists-ai-driven-breakthrough-fight-160000120.html"
@@ -4243,7 +4229,17 @@
         "https://news.ycombinator.com/item?id=47418295"
       ],
       "date": "2026-04-18T10:02:14.594855+00:00"
+    },
+    {
+      "title": "Esports Charts Launches $2.95 Million Viewership Incentive For CS2 Teams",
+      "urls": [
+        "https://www.reddit.com/r/esports/comments/1d7pik2/introducing_the_future_of_esports_a_multititle",
+        "https://escharts.com/news",
+        "https://esportsinsider.com",
+        "https://www.youtube.com/watch?v=XBDlEhT0-6U"
+      ],
+      "date": "2026-04-18T10:32:57.441377+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T10:02:14.594910+00:00"
+  "lastUpdated": "2026-04-18T10:32:57.441441+00:00"
 }
