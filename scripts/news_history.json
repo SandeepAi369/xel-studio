@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And Iran Agree To Two-Week Ceasefire",
-      "urls": [
-        "https://www.npr.org/sections/news"
-      ],
-      "date": "2026-04-08T22:31:05.091655+00:00"
-    },
-    {
       "title": "Linux Adoption Surpasses 90 Percent In Public Cloud Workloads",
       "urls": [
         "https://www.youtube.com/watch?v=zcFdvHd9Yek"
@@ -4254,7 +4247,14 @@
         "https://www.youtube.com/watch?v=4cAz6qEdJj8"
       ],
       "date": "2026-04-18T22:30:53.038555+00:00"
+    },
+    {
+      "title": "Federal Reserve held interest rates steady amid ongoing inflation pressures and a cooling job market",
+      "urls": [
+        "https://www.wsj.com/economy/global"
+      ],
+      "date": "2026-04-18T23:01:03.213820+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T22:30:53.038637+00:00"
+  "lastUpdated": "2026-04-18T23:01:03.213888+00:00"
 }
