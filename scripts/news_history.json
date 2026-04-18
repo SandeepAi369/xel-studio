@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tropical Cyclone Debby caused widespread destruction across the Eastern United States, stalling for ",
-      "urls": [
-        "https://www.facebook.com/South.Pacific.Post/posts/tropical-cyclone-warning-number-13-issued-by-papua-new-guinea-national-weather-s/1391681732976239",
-        "https://en.wikipedia.org/wiki/Hurricane_Debby",
-        "https://www.youtube.com/watch?v=f7gKuTqDv4g",
-        "https://www.youtube.com/watch?v=VeYe0Nkn5eI",
-        "https://www.facebook.com/NBCBougainville/posts/1625137029618919",
-        "https://www.facebook.com/pngbreakingnews/posts/cyclone-maila-causes-flooding-and-damage-in-western-new-britain-as-the-effects-o/954370963992828"
-      ],
-      "date": "2026-04-08T05:01:14.929928+00:00"
-    },
-    {
       "title": "Google Vertex Powers Enterprise AI With Scalable Cloud Tools",
       "urls": [
         "https://www.crn.com/news/ai/2024/the-10-coolest-genai-products-and-ai-tools-of-2024",
@@ -4236,7 +4224,16 @@
         "https://spectrum.ieee.org/geopolitics-and-technology"
       ],
       "date": "2026-04-18T04:32:02.042679+00:00"
+    },
+    {
+      "title": "Linux Foundation Reports Fivefold ROI From Open Source AI Adoption",
+      "urls": [
+        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
+        "https://fortune.com/2025/08/20/gpt-5-is-getting-all-the-buzz-but-the-new-open-models-of-ai-matters-more",
+        "https://www.nytimes.com/paidpost/2024-meta-ai/2024-meta-ai/opensource-ai-innovation.html"
+      ],
+      "date": "2026-04-18T05:02:11.581064+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T04:32:02.042736+00:00"
+  "lastUpdated": "2026-04-18T05:02:11.581133+00:00"
 }
