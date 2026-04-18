@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Replaces TensorFlow In OpenAI Core Research Pipeline",
-      "urls": [
-        "https://builtin.com/data-science/pytorch-vs-tensorflow",
-        "https://www.reddit.com/r/MachineLearning/comments/ew8oxq/n_openai_switches_to_pytorch"
-      ],
-      "date": "2026-04-08T14:31:07.432644+00:00"
-    },
-    {
-      "title": "Iran Conflict Cuts Qatar Helium Output By 30 Percent",
-      "urls": [
-        "https://www.axios.com/energy-climate"
-      ],
-      "date": "2026-04-08T15:01:53.929981+00:00"
-    },
-    {
       "title": "Meta Launches Llama 3 With Enhanced Reasoning And Multilingual Support",
       "urls": [
         "https://ai.meta.com/blog/meta-llama-3",
@@ -4240,7 +4225,14 @@
         "https://www.wsj.com/economy/global?eafs_enabled=false"
       ],
       "date": "2026-04-18T14:30:54.704511+00:00"
+    },
+    {
+      "title": "Mayo Clinic Team Tests Dual-Drug Nanotherapy Against Glioblastoma In Primates",
+      "urls": [
+        "https://www.youtube.com/watch?v=pjU6TzxBE58"
+      ],
+      "date": "2026-04-18T15:03:11.485736+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T14:30:54.704572+00:00"
+  "lastUpdated": "2026-04-18T15:03:11.485804+00:00"
 }
