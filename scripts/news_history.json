@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "JPMorgan Chase And Ford Hire More Autistic Talent",
-      "urls": [
-        "https://www.wsj.com/lifestyle/careers/jobs-for-the-autistic-grow-beyond-tech-b4eee329",
-        "https://www.youtube.com/watch?v=egm6GvcbRzU"
-      ],
-      "date": "2026-04-08T13:31:28.342561+00:00"
-    },
-    {
       "title": "Indigenous Communities Protest Land Threats at Brasilia Rally",
       "urls": [
         "https://www.theguardian.com/environment/conservation+biodiversity",
@@ -4243,7 +4235,15 @@
         "https://www.youtube.com/watch?v=B2ddXjJgl2s"
       ],
       "date": "2026-04-18T13:30:59.636928+00:00"
+    },
+    {
+      "title": "Mauna Loa Erupts For First Time In 38 Years",
+      "urls": [
+        "https://www.usgs.gov/programs/VHP/news",
+        "https://www.youtube.com/watch?v=lBzSWiCBT_8"
+      ],
+      "date": "2026-04-18T14:01:13.853098+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T13:30:59.636984+00:00"
+  "lastUpdated": "2026-04-18T14:01:13.853162+00:00"
 }
