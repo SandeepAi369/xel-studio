@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congressional Democrats Warn Trump Rhetoric Escalates Iran Tensions",
-      "urls": [
-        "https://www.youtube.com/watch?v=KgAdmngIoNs",
-        "https://www.npr.org/sections/politics"
-      ],
-      "date": "2026-04-08T18:01:32.224293+00:00"
-    },
-    {
       "title": "Esports Championship launches Season Two featuring competitive tournaments for Street Fighter 6 and ",
       "urls": [
         "https://www.esportschampionship.gg"
@@ -4258,7 +4250,14 @@
         "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
       ],
       "date": "2026-04-18T18:01:09.187599+00:00"
+    },
+    {
+      "title": "Hugging Face Acquires Pollen Robotics to Expand Open Source AI Robot Access",
+      "urls": [
+        "https://www.wired.com/story/hugging-face-acquires-open-source-robot-startup"
+      ],
+      "date": "2026-04-18T18:30:54.911756+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T18:01:09.187662+00:00"
+  "lastUpdated": "2026-04-18T18:30:54.911825+00:00"
 }
