@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Quantum AI and Quantinuum Achieve Stable Error-Corrected Logical Qubits",
-      "urls": [
-        "https://www.youtube.com/watch?v=t4GRe9q-Q0o"
-      ],
-      "date": "2026-04-08T04:01:41.317590+00:00"
-    },
-    {
       "title": "Mondo Duplantis Soars To 6.26m World Record In Tokyo",
       "urls": [
         "https://apro-software.com/sport-news-today-breaking-records-and-landmark-wins-dominate-headlines-across-global-sports",
@@ -4235,7 +4228,17 @@
         "https://www.nytimes.com/section/science"
       ],
       "date": "2026-04-18T03:32:01.185964+00:00"
+    },
+    {
+      "title": "Wildfire Smoke Causes 24100 Annual U S Deaths Study Finds",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.nature.com/subjects/climate-change",
+        "https://science.nasa.gov/climate-change",
+        "https://www.cbsnews.com/climate-change"
+      ],
+      "date": "2026-04-18T04:03:17.053032+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T03:32:01.186047+00:00"
+  "lastUpdated": "2026-04-18T04:03:17.053097+00:00"
 }
