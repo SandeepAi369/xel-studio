@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Adoption Surpasses 90 Percent In Public Cloud Workloads",
-      "urls": [
-        "https://www.youtube.com/watch?v=zcFdvHd9Yek"
-      ],
-      "date": "2026-04-08T23:01:09.124970+00:00"
-    },
-    {
-      "title": "Telemedicine Improves Chronic Disease Outcomes Across European Trials",
-      "urls": [
-        "https://www.mdpi.com/2673-8392/5/4/206"
-      ],
-      "date": "2026-04-08T23:30:55.605505+00:00"
-    },
-    {
       "title": "Anthropic Launches Claude Mythos Preview With Enhanced Reasoning And Safety Features",
       "urls": [
         "https://www.instagram.com/p/DW3_KiZja5p",
@@ -4254,7 +4240,17 @@
         "https://www.wsj.com/economy/global"
       ],
       "date": "2026-04-18T23:01:03.213820+00:00"
+    },
+    {
+      "title": "Alphabet Reaches 4 Trillion Valuation Behind Cloud And Ai Growth",
+      "urls": [
+        "https://sherwood.news/tech/google-joins-apple-microsoft-and-nvidia-with-a-usd3-trillion-plus-valuation",
+        "https://timesofindia.indiatimes.com/technology/tech-news/google-parent-alphabet-joins-4-trillion-club-with-nvidia-apple-and-microsoft-4-key-things-that-helped-company-reach-this-milestone/articleshow/126490168.cms",
+        "https://www.youtube.com/watch?v=AYiY-cmNSjk",
+        "https://finance.yahoo.com/news/big-techs-earnings-will-focus-on-ai-and-iphones-125717589.html"
+      ],
+      "date": "2026-04-18T23:30:56.665088+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T23:01:03.213888+00:00"
+  "lastUpdated": "2026-04-18T23:30:56.665152+00:00"
 }
