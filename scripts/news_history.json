@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CEOs Voice Confidence Amid AI Stock Sell-Off",
-      "urls": [
-        "https://www.youtube.com/watch?v=ia3Qyj73M9A",
-        "https://www.yahoo.com/news/articles/president-trump-names-meta-nvidia-142701317.html"
-      ],
-      "date": "2026-04-08T06:32:04.844357+00:00"
-    },
-    {
       "title": "Digital rights advocates are pushing for stronger safeguards as governments expand surveillance powe",
       "urls": [
         "https://www.diplomacy.edu/blog/how-can-we-balance-security-and-privacy-in-the-digital-world"
@@ -4244,7 +4236,16 @@
         "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
       ],
       "date": "2026-04-18T06:30:52.429330+00:00"
+    },
+    {
+      "title": "ITIF has criticized France's proposed law banning social media use for individuals under 15, arguing",
+      "urls": [
+        "https://itif.org/news-room",
+        "https://sdgnews.com/wto-says-global-trade-is-slowing-as-conflict-and-ai-pull-the-economy-in-opposite-directions",
+        "https://www.youtube.com/watch?v=4k-XZDWUjsA"
+      ],
+      "date": "2026-04-18T07:01:09.752140+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T06:30:52.429399+00:00"
+  "lastUpdated": "2026-04-18T07:01:09.752200+00:00"
 }
