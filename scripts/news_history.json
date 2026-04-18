@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MobiHealthNews provides daily and weekly digital health news updates, focusing on trends in telemedi",
-      "urls": [
-        "https://www.mobihealthnews.com"
-      ],
-      "date": "2026-04-08T02:31:12.933043+00:00"
-    },
-    {
       "title": "Eurozone inflation rises at the fastest pace in over a year, driven by surging energy prices linked ",
       "urls": [
         "https://www.wsj.com/economy/global",
@@ -4239,7 +4232,21 @@
         "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age"
       ],
       "date": "2026-04-18T02:30:55.632689+00:00"
+    },
+    {
+      "title": "WTO Launches Digital Trade Initiative For Developing Economies",
+      "urls": [
+        "https://www.wto.org/english/news_e/archive_e/dtech_arc_e.htm",
+        "https://www.stimson.org/research/trade-tech",
+        "https://www.caidp.org/resources/trade-and-technology-council",
+        "https://www.thecentersquare.com/national/article_65b0534b-62e0-4ceb-b37b-9c6352423aca.html",
+        "https://www.trade.gov/press-release/department-commerce-begins-inaugural-call-proposals-american-ai-exports-program",
+        "https://www.politico.com/news/magazine/2026/04/02/bluetooth-trump-tariffs-technology-trade-00852860",
+        "https://insidetrade.com",
+        "https://www.jdsupra.com/legalnews/how-india-and-the-u-s-are-redefining-9072378"
+      ],
+      "date": "2026-04-18T03:01:16.173927+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T02:30:55.632737+00:00"
+  "lastUpdated": "2026-04-18T03:01:16.173999+00:00"
 }
