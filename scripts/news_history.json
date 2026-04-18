@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cyclone Maila Intensifies to Category 5, Threatens Solomon Islands",
-      "urls": [
-        "https://www.facebook.com/MHMSFiji/posts/tc-vaianu-response-update-nadi-subdivision-08-april-2026our-teams-on-the-ground-/1362884732538703",
-        "https://www.youtube.com/watch?v=2HsZf3DxAQo",
-        "https://insights.made-in-china.com/From-Heat-Domes-to-Flash-Floods-The-Alarming-Science-Behind-America-s-Weird-Weather-Obsession_TGofXSAOsxDt.html",
-        "https://www.facebook.com/100089795433287/posts/as-severe-tropical-cyclone-maila-reaches-a-catastrophic-category-5-intensity-cri/906804392322734"
-      ],
-      "date": "2026-04-08T11:32:05.272207+00:00"
-    },
-    {
-      "title": "Medtronic Deploys AI In Insulin Pumps To Cut Hypoglycemic Events By 50 Percent",
-      "urls": [
-        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
-      ],
-      "date": "2026-04-08T12:01:20.362545+00:00"
-    },
-    {
       "title": "Helion Energy Negotiates First Corporate Fusion Power Deal With OpenAI",
       "urls": [
         "https://techcrunch.com/category/climate"
@@ -4247,7 +4230,14 @@
         "https://www.youtube.com/watch?v=3FFIvEPLAZo"
       ],
       "date": "2026-04-18T11:31:01.110098+00:00"
+    },
+    {
+      "title": "Quantum Researchers Question Qubit Stability Breakthrough After Failed Replications",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
+      ],
+      "date": "2026-04-18T12:02:12.434180+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T11:31:01.110160+00:00"
+  "lastUpdated": "2026-04-18T12:02:12.434237+00:00"
 }
