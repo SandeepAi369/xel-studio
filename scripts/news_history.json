@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York Post Reaches 15 Million Monthly Visitors With Digital Expansion",
-      "urls": [
-        "https://nypost.com"
-      ],
-      "date": "2026-04-08T17:01:29.968326+00:00"
-    },
-    {
       "title": "Tools Boost Productivity For Neurodiverse Workers",
       "urls": [
         "https://forklog.com/en/ai-enhances-productivity-for-individuals-with-adhd-and-autism"
@@ -4246,7 +4239,20 @@
         "https://www.youtube.com/watch?v=JW-L6mtKTlk"
       ],
       "date": "2026-04-18T17:01:07.622366+00:00"
+    },
+    {
+      "title": "Evo 2026 Returns To Las Vegas With Open Format Tournament",
+      "urls": [
+        "https://news.web.baylor.edu/news/story/2026/baylor-rocket-league-esports-team-wins-conference-title-inaugural-season",
+        "https://blast.tv",
+        "https://www.ubisoft.com/en-us/esports/rainbow-six/siege",
+        "https://pro.eslgaming.com/tour/cs",
+        "https://evo.gg",
+        "https://www.instagram.com/p/DXQFgAKD6_Q",
+        "https://provo.edu/provo-high-esports-defends-usa-today-national-rank"
+      ],
+      "date": "2026-04-18T17:30:58.747588+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T17:01:07.622432+00:00"
+  "lastUpdated": "2026-04-18T17:30:58.747648+00:00"
 }
