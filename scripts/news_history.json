@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Wins Gold With 3-2 Overtime Victory Over Canada",
-      "urls": [
-        "https://sports.yahoo.com/articles/reactions-energy-stadium-really-helped-001000058.html",
-        "https://www.bbc.co.uk/sport/football",
-        "https://www.today.com/news/sports",
-        "https://www.cnn.com/sport",
-        "https://www.espn.com/espn/latestnews",
-        "https://www.theguardian.com/uk/sport"
-      ],
-      "date": "2026-04-08T16:32:22.798162+00:00"
-    },
-    {
       "title": "New York Post Reaches 15 Million Monthly Visitors With Digital Expansion",
       "urls": [
         "https://nypost.com"
@@ -4244,7 +4232,21 @@
         "https://www.sportskeeda.com"
       ],
       "date": "2026-04-18T16:30:54.391727+00:00"
+    },
+    {
+      "title": "Meta CEO Mark Zuckerberg, along with Nvidia's Jensen Huang, Oracle's Larry Ellison, and Google cofou",
+      "urls": [
+        "https://www.scmp.com/topics/tech-ceos",
+        "https://www.techbuzz.ai/articles/tech-s-biggest-ceos-join-trump-ai-policy-panel",
+        "https://www.constellationr.com/insights/news/key-takeaways-trumps-meeting-top-tech-ceos",
+        "https://www.yahoo.com/news/articles/tech-ceo-reveals-widespread-concerns-160000581.html",
+        "https://www.thestreet.com/investing/nvidia-ceo-makes-bombshell-call-on-ais-next-big-thing",
+        "https://www.youtube.com/watch?v=4Aq1lid287I",
+        "https://www.economist.com/insider/the-insider/five-men-control-ai-who-should-control-them",
+        "https://www.youtube.com/watch?v=JW-L6mtKTlk"
+      ],
+      "date": "2026-04-18T17:01:07.622366+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T16:30:54.391789+00:00"
+  "lastUpdated": "2026-04-18T17:01:07.622432+00:00"
 }
