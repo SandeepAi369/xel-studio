@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch And TensorFlow Dominate Deep Learning Framework Adoption",
-      "urls": [
-        "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
-        "https://www.marktechpost.com/2025/08/20/deep-learning-framework-showdown-pytorch-vs-tensorflow-in-2025",
-        "https://viso.ai/deep-learning/pytorch-vs-tensorflow",
-        "https://futurense.com/blog/deep-learning-frameworks"
-      ],
-      "date": "2026-04-08T09:32:09.011985+00:00"
-    },
-    {
-      "title": "Meta To Open Source Upcoming Llama AI Models",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models"
-      ],
-      "date": "2026-04-08T10:01:45.590802+00:00"
-    },
-    {
       "title": "United States And Iran Agree To Two-Week Ceasefire",
       "urls": [
         "https://www.cnn.com",
@@ -4252,7 +4235,15 @@
         "https://www.youtube.com/watch?v=aAPpQC-3EyE"
       ],
       "date": "2026-04-18T09:30:59.635968+00:00"
+    },
+    {
+      "title": "NVIDIA has partnered with French AI startup Mistral AI to accelerate the deployment of the new Mistr",
+      "urls": [
+        "https://blogs.nvidia.com/blog/mistral-frontier-open-models",
+        "https://news.ycombinator.com/item?id=47418295"
+      ],
+      "date": "2026-04-18T10:02:14.594855+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T09:30:59.636023+00:00"
+  "lastUpdated": "2026-04-18T10:02:14.594910+00:00"
 }
