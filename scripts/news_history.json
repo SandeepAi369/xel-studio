@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Vertex Powers Enterprise AI With Scalable Cloud Tools",
-      "urls": [
-        "https://www.crn.com/news/ai/2024/the-10-coolest-genai-products-and-ai-tools-of-2024",
-        "https://www.webfx.com/blog/ai/best-generative-ai-tools",
-        "https://www.cio.com/article/3961674/10-most-used-gen-ai-tools-in-the-enterprise.html"
-      ],
-      "date": "2026-04-08T05:30:57.126040+00:00"
-    },
-    {
       "title": "AI tools are enabling employees with disabilities to perform tasks independently, using voice-to-tex",
       "urls": [
         "https://www.forbes.com/sites/nicholaswyman/2025/11/17/how-ai-tools-are-opening-doors-for-employees-with-disabilities"
@@ -4233,7 +4224,15 @@
         "https://www.nytimes.com/paidpost/2024-meta-ai/2024-meta-ai/opensource-ai-innovation.html"
       ],
       "date": "2026-04-18T05:02:11.581064+00:00"
+    },
+    {
+      "title": "NuCaption has launched a new wearable device in partnership with Sunu Band, specifically designed fo",
+      "urls": [
+        "https://www.hearview.ai/blogs/news/breaking-barriers-tools-deaf-people-use-in-their-daily-lives?srsltid=AfmBOoo6N93BQKkp9pfUJC4eMBdT2jskhZssKRmnAvr6KTM431o1D1Qr",
+        "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOor14d_WI0l6uCj-oIY4SIw4501_7TlCZZRTe25_KaVlNUIvMOhy"
+      ],
+      "date": "2026-04-18T05:30:57.968019+00:00"
     }
   ],
-  "lastUpdated": "2026-04-18T05:02:11.581133+00:00"
+  "lastUpdated": "2026-04-18T05:30:57.968085+00:00"
 }
