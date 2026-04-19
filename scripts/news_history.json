@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Campi Flegrei experienced a sudden increase in seismic activity after weeks of minimal tremors, with",
-      "urls": [
-        "https://www.youtube.com/watch?v=MzSNVtT037Y",
-        "https://www.youtube.com/watch?v=X0kqHvLF4_g"
-      ],
-      "date": "2026-04-09T14:05:01.238307+00:00"
-    },
-    {
       "title": "NVIDIA unveiled a suite of open models, data, and tools aimed at accelerating AI development across ",
       "urls": [
         "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai",
@@ -4290,7 +4282,14 @@
         "https://www.reuters.com/sustainability/clean-energy"
       ],
       "date": "2026-04-19T14:01:17.412726+00:00"
+    },
+    {
+      "title": "Mistral AI Launches 3.8B-Parameter Open-Source Speech Model",
+      "urls": [
+        "https://yourstory.com/ai-story/mistral-open-source-speech-ai-model"
+      ],
+      "date": "2026-04-19T14:30:53.738332+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T14:01:17.412781+00:00"
+  "lastUpdated": "2026-04-19T14:30:53.738398+00:00"
 }
