@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CuteCircuit Launches SoundShirt With 30 Micro-Vibrations For Deaf Concertgoers",
-      "urls": [
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoqtKiyU5G1XuYR0yku3fabWzOlcsn58ntBGq0PbYHvKZXUoWmU9",
-        "https://swiftaudiology.com/blog/a-new-focus-on-accessibility-brings-hope-to-the-hearing-impaired"
-      ],
-      "date": "2026-04-09T11:31:03.127693+00:00"
-    },
-    {
       "title": "Democrats Flip Wisconsin And Georgia Seats In Special Elections",
       "urls": [
         "https://www.youtube.com/watch?v=r310nFAzJ3A"
@@ -4271,7 +4263,16 @@
         "https://techcrunch.com/category/artificial-intelligence"
       ],
       "date": "2026-04-19T11:30:53.973069+00:00"
+    },
+    {
+      "title": "Asylum Appeals Backlog Doubles To 140000 In UK",
+      "urls": [
+        "https://news.un.org/en/focus-topic/refugees-and-migrants",
+        "https://www.theguardian.com/world/refugees",
+        "https://www.unhcr.org/global-trends"
+      ],
+      "date": "2026-04-19T12:01:08.551588+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T11:30:53.973132+00:00"
+  "lastUpdated": "2026-04-19T12:01:08.551653+00:00"
 }
