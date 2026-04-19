@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA unveiled a suite of open models, data, and tools aimed at accelerating AI development across ",
-      "urls": [
-        "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai",
-        "https://www.nature.com/articles/d41586-026-00347-9"
-      ],
-      "date": "2026-04-09T14:31:13.536489+00:00"
-    },
-    {
       "title": "Wildlife Trade Threatens Biodiversity As CITES Struggles To Curb Illegal Exchanges",
       "urls": [
         "https://www.nrdc.org/issues/wildlife"
@@ -4289,7 +4281,14 @@
         "https://yourstory.com/ai-story/mistral-open-source-speech-ai-model"
       ],
       "date": "2026-04-19T14:30:53.738332+00:00"
+    },
+    {
+      "title": "Democrats Gain Ground in House Flip Bid",
+      "urls": [
+        "https://www.politico.com"
+      ],
+      "date": "2026-04-19T15:01:04.449748+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T14:30:53.738398+00:00"
+  "lastUpdated": "2026-04-19T15:01:04.449816+00:00"
 }
