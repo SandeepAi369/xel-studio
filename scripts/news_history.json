@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildlife Trade Threatens Biodiversity As CITES Struggles To Curb Illegal Exchanges",
-      "urls": [
-        "https://www.nrdc.org/issues/wildlife"
-      ],
-      "date": "2026-04-09T15:01:54.790986+00:00"
-    },
-    {
       "title": "CoreWeave Lands $21 Billion Deal With Meta for AI Cloud Capacity",
       "urls": [
         "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations",
@@ -4288,7 +4281,15 @@
         "https://www.politico.com"
       ],
       "date": "2026-04-19T15:01:04.449748+00:00"
+    },
+    {
+      "title": "Enterprises Deploy GenAI as Hybrid Cloud Dominates Infrastructure Choices",
+      "urls": [
+        "https://www.a10networks.com/wp-content/uploads/A10-EB-The-State-of-AI-Infrastructure-Report.pdf",
+        "https://www.youtube.com/watch?v=IMAFTM0oPXk"
+      ],
+      "date": "2026-04-19T15:30:51.892344+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T15:01:04.449816+00:00"
+  "lastUpdated": "2026-04-19T15:30:51.892411+00:00"
 }
