@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Newzoo Forecasts Global Esports Market To Reach $1.87 Billion By 2025",
-      "urls": [
-        "https://newzoo.com/resources/trend-reports/newzoo-global-esports-live-streaming-market-report-2022-free-version"
-      ],
-      "date": "2026-04-09T09:31:03.056923+00:00"
-    },
-    {
       "title": "Olympic Medalists Report Bending And Scratching Of Gold Medals",
       "urls": [
         "https://www.youtube.com/shorts/4JT1gOs2vSY"
@@ -4265,7 +4258,16 @@
         "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html"
       ],
       "date": "2026-04-19T09:30:55.591152+00:00"
+    },
+    {
+      "title": "Llama 2 Powers Open Source LLM Adoption Among Developers",
+      "urls": [
+        "https://www.instaclustr.com/education/open-source-ai/top-10-open-source-llms-for-2025",
+        "https://github.com/eugeneyan/open-llms",
+        "https://pricepertoken.com/news/model-releases"
+      ],
+      "date": "2026-04-19T10:01:06.466504+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T09:30:55.591216+00:00"
+  "lastUpdated": "2026-04-19T10:01:06.466574+00:00"
 }
