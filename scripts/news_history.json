@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iea Urges Accelerated Deployment Of Clean Energy Technologies",
-      "urls": [
-        "https://www.iea.org/reports/clean-energy-innovation"
-      ],
-      "date": "2026-04-09T07:31:00.574869+00:00"
-    },
-    {
       "title": "NASA Announces Artemis Program Launch Schedule With Public Live Coverage",
       "urls": [
         "https://www.nasa.gov/events"
@@ -4267,7 +4260,14 @@
         "https://www.youtube.com/watch?v=-0qOzx3URO4"
       ],
       "date": "2026-04-19T07:30:57.672148+00:00"
+    },
+    {
+      "title": "Microsoft And Google Cloud Revenue Surges On AI Demand",
+      "urls": [
+        "https://www.youtube.com/watch?v=X_naLRvTLbM"
+      ],
+      "date": "2026-04-19T08:02:09.358002+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T07:30:57.672213+00:00"
+  "lastUpdated": "2026-04-19T08:02:09.358067+00:00"
 }
