@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Trump administration released a National Policy Framework for Artificial Intelligence outlining ",
-      "urls": [
-        "https://www.jdsupra.com/legalnews/emerging-federal-ai-policy-what-to-know-8882048",
-        "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker",
-        "https://www.congress.gov/crs-product/R48555"
-      ],
-      "date": "2026-04-09T22:02:51.016447+00:00"
-    },
-    {
       "title": "Meta has rebranded its 'Made with AI' label to 'AI info' across its platforms, signaling a shift tow",
       "urls": [
         "https://www.reddit.com/r/socialmedia/comments/1dya2s3/social_media_updates_marketing_news_you_missed"
@@ -4286,7 +4277,14 @@
         "https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos"
       ],
       "date": "2026-04-19T22:01:11.212549+00:00"
+    },
+    {
+      "title": "Eaton Boosts Switchgear Output to Power AI Data Centers",
+      "urls": [
+        "https://www.renewableenergyworld.com"
+      ],
+      "date": "2026-04-19T22:31:52.397056+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T22:01:11.212600+00:00"
+  "lastUpdated": "2026-04-19T22:31:52.397138+00:00"
 }
