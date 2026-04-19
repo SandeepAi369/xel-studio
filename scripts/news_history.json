@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ruth Chepngetich Smashes Women's Marathon Record With 2:09:56 In Chicago",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_United_States_records_in_track_and_field",
-        "https://www.youtube.com/watch?v=dx9qYvLbHIU",
-        "https://www.runnersworld.com/races-places/a20823734/these-are-the-worlds-fastest-marathoners-and-marathon-courses"
-      ],
-      "date": "2026-04-09T06:01:15.149347+00:00"
-    },
-    {
-      "title": "UFC Announces 18 New Champions Including Islam Makhachev And Alexa Grasso",
-      "urls": [
-        "https://www.ufc.com/athletes"
-      ],
-      "date": "2026-04-09T06:31:04.151131+00:00"
-    },
-    {
       "title": "UNHCR Reports One Million Displaced in Lebanon Amid Escalating Conflict",
       "urls": [
         "https://news.un.org/en/focus-topic/refugees-and-migrants",
@@ -4263,7 +4247,15 @@
         "https://www.youtube.com/watch?v=M_wKxIA12oU"
       ],
       "date": "2026-04-19T06:01:07.925369+00:00"
+    },
+    {
+      "title": "ITIF Calls for Innovation-Driven Clean Energy Strategy to Achieve Cost Parity",
+      "urls": [
+        "https://itif.org/issues/clean-energy-innovation",
+        "https://climatechangeresources.org/learn-more/new-technologies"
+      ],
+      "date": "2026-04-19T06:33:06.362233+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T06:01:07.925427+00:00"
+  "lastUpdated": "2026-04-19T06:33:06.362295+00:00"
 }
