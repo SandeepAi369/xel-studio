@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI Infrastructure is struggling to keep pace with rapid adoption, as 79 percent of organizations pla",
-      "urls": [
-        "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2024/10/infrastructure-of-the-future-the-impact-of-ai-and-the-cloud",
-        "https://www.a10networks.com/wp-content/uploads/A10-EB-The-State-of-AI-Infrastructure-Report.pdf",
-        "https://www.youtube.com/watch?v=c3HhHoqbRas"
-      ],
-      "date": "2026-04-09T09:01:18.777238+00:00"
-    },
-    {
       "title": "Newzoo Forecasts Global Esports Market To Reach $1.87 Billion By 2025",
       "urls": [
         "https://newzoo.com/resources/trend-reports/newzoo-global-esports-live-streaming-market-report-2022-free-version"
@@ -4267,7 +4258,14 @@
         "https://www.littler.com/news-analysis/asap/federal-administration-makes-legislative-recommendations-us-ai-policy-leaving"
       ],
       "date": "2026-04-19T09:01:11.981471+00:00"
+    },
+    {
+      "title": "The Royal Society has published a report titled *Disability Technology: how data and digital assisti",
+      "urls": [
+        "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html"
+      ],
+      "date": "2026-04-19T09:30:55.591152+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T09:01:11.981558+00:00"
+  "lastUpdated": "2026-04-19T09:30:55.591216+00:00"
 }
