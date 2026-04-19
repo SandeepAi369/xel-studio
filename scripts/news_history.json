@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York Governor Kathy Hochul Proposes Delaying 2030 Emissions Target",
-      "urls": [
-        "https://www.esgtoday.com/new-york-governor-proposes-pushing-back-climate-targets-that-have-become-costly-and-unattainable"
-      ],
-      "date": "2026-04-09T01:31:16.671224+00:00"
-    },
-    {
-      "title": "SpaceX Starship To Lead NASA Future Deep Space Missions",
-      "urls": [
-        "https://www.youtube.com/watch?v=JTAplHwI56c"
-      ],
-      "date": "2026-04-09T02:01:07.739193+00:00"
-    },
-    {
       "title": "Federica Brignone Wins Olympic Super-G Gold With Flawless Final Run",
       "urls": [
         "https://www.nbcolympics.com/news/federica-brignone-caps-remarkable-comeback-gold-medal-victory-olympic-super-g",
@@ -4260,7 +4246,14 @@
         "https://www.youtube.com/watch?v=Okofvj36Obg"
       ],
       "date": "2026-04-19T01:30:57.439527+00:00"
+    },
+    {
+      "title": "AI in assistive technology is transforming tools for people with disabilities by integrating machine",
+      "urls": [
+        "https://www.digitallearninginstitute.com/blog/revolutionising-accessibility:-the-role-of-ai-in-assistive-technology"
+      ],
+      "date": "2026-04-19T02:02:14.025809+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T01:30:57.439588+00:00"
+  "lastUpdated": "2026-04-19T02:02:14.025871+00:00"
 }
