@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Women's Super League 2 features a tightly contested promotion race with three teams within two point",
-      "urls": [
-        "https://sports.yahoo.com/articles/incredible-league-inside-wsl-2-082204995.html",
-        "https://www.nytimes.com/athletic/top-sports-news",
-        "https://www.facebook.com/LateNightSeth/posts/football-rivalries-are-cute-but-have-you-heard-about-cricket-rivalries/1320211016141461"
-      ],
-      "date": "2026-04-09T21:01:11.403285+00:00"
-    },
-    {
       "title": "Eyejustread Launches AI Tool To Aid Dyslexic Readers",
       "urls": [
         "https://www.youtube.com/watch?v=sLXY7L0woPc",
@@ -4288,7 +4279,14 @@
         "https://apnews.com/video/humanoid-robot-runs-half-marathon-race-in-beijing-faster-than-human-world-record-0b599d613d6d437e9f8b408db5686aa7"
       ],
       "date": "2026-04-19T21:01:08.693903+00:00"
+    },
+    {
+      "title": "OpenAI Faces Scrutiny Over Leaked 120 Billion Parameter Models",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1mg1e80/any_news_about_the_open_source_models_that_openai"
+      ],
+      "date": "2026-04-19T21:30:56.831122+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T21:01:08.693975+00:00"
+  "lastUpdated": "2026-04-19T21:30:56.831192+00:00"
 }
