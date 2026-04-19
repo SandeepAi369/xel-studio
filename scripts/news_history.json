@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Applied Digital Posts $142.3 Million Revenue In Q3",
-      "urls": [
-        "https://seekingalpha.com/market-news/technology"
-      ],
-      "date": "2026-04-09T05:01:12.103314+00:00"
-    },
-    {
       "title": "Battlefy Hosts Over 500000 Tournaments For 20 Million Players",
       "urls": [
         "https://battlefy.com",
@@ -4251,7 +4244,14 @@
         "https://www.wcvb.com/article/baa-boston-5k-april-18-2026/71058499"
       ],
       "date": "2026-04-19T04:32:02.356626+00:00"
+    },
+    {
+      "title": "OpenAI has launched GPT-Rosalind, a new AI model tailored for biology, drug discovery, and translati",
+      "urls": [
+        "https://www.fiercebiotech.com/ai-and-machine-learning"
+      ],
+      "date": "2026-04-19T05:02:19.127484+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T04:32:02.356695+00:00"
+  "lastUpdated": "2026-04-19T05:02:19.127549+00:00"
 }
