@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Researchers Unveil Light-Based Chip For Scalable Quantum Computing",
-      "urls": [
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
-        "https://www.artificialintelligence-news.com",
-        "https://www.youtube.com/watch?v=a18whsKY_rw",
-        "https://www.wsj.com/tech/ai",
-        "https://techcrunch.com/category/artificial-intelligence",
-        "https://news.mit.edu/topic/artificial-intelligence2"
-      ],
-      "date": "2026-04-09T03:31:20.548223+00:00"
-    },
-    {
-      "title": "Chinese Scientists Transmit Quantum Entanglement Over 500 Kilometers",
-      "urls": [
-        "https://www.youtube.com/watch?v=zZ3KjE1204s"
-      ],
-      "date": "2026-04-09T04:01:07.082136+00:00"
-    },
-    {
       "title": "Sports Analytics Transforms Training With Real-Time Biometric Data",
       "urls": [
         "https://www.linkedin.com/pulse/transforming-sports-performance-how-data-technology-aller-mba-cscs-my5uc"
@@ -4257,7 +4238,16 @@
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorQYoANVB2Ol4TWSOlZrhvNmhdzP4MZCktWb0YsHsM7y774agiB"
       ],
       "date": "2026-04-19T03:30:59.325389+00:00"
+    },
+    {
+      "title": "Seedance has triggered a legal and ethical backlash after Hollywood studios accused the AI video too",
+      "urls": [
+        "https://www.youtube.com/watch?v=mxENDuxq8O4",
+        "https://www.bbc.com/news/articles/ckg1dl410q9o",
+        "https://www.bbc.com/news/articles/cjd9nllng22o"
+      ],
+      "date": "2026-04-19T04:01:12.458119+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T03:30:59.325444+00:00"
+  "lastUpdated": "2026-04-19T04:01:12.458190+00:00"
 }
