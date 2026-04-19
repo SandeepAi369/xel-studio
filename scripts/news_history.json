@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Josh Kerr Targets El Guerrouj's 3:48.45 Indoor Mile World Record",
-      "urls": [
-        "https://www.youtube.com/watch?v=Dz-l7kToPV0",
-        "https://www.tiktok.com/@sydneymorningherald/video/7625503958391409938"
-      ],
-      "date": "2026-04-09T08:31:55.855746+00:00"
-    },
-    {
       "title": "AI Infrastructure is struggling to keep pace with rapid adoption, as 79 percent of organizations pla",
       "urls": [
         "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2024/10/infrastructure-of-the-future-the-impact-of-ai-and-the-cloud",
@@ -4268,7 +4260,14 @@
         "https://www.youtube.com/watch?v=peWQd0eGhfk"
       ],
       "date": "2026-04-19T08:31:05.672113+00:00"
+    },
+    {
+      "title": "The Federal Administration has issued legislative recommendations for a national AI policy, urging C",
+      "urls": [
+        "https://www.littler.com/news-analysis/asap/federal-administration-makes-legislative-recommendations-us-ai-policy-leaving"
+      ],
+      "date": "2026-04-19T09:01:11.981471+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T08:31:05.672172+00:00"
+  "lastUpdated": "2026-04-19T09:01:11.981558+00:00"
 }
