@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Announces Live Coverage For Artemis Ii Moon Mission",
-      "urls": [
-        "https://www.investors.com/news/artemis-ii-nasa-mission-lunar-flyby-spacex-launches",
-        "https://www.nasa.gov/missions/artemis/artemis-2/nasa-sets-coverage-for-artemis-ii-moon-mission"
-      ],
-      "date": "2026-04-09T11:01:22.476705+00:00"
-    },
-    {
       "title": "CuteCircuit Launches SoundShirt With 30 Micro-Vibrations For Deaf Concertgoers",
       "urls": [
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoqtKiyU5G1XuYR0yku3fabWzOlcsn58ntBGq0PbYHvKZXUoWmU9",
@@ -4269,7 +4261,17 @@
         "https://www.youtube.com/watch?v=tofBqR5N1RI"
       ],
       "date": "2026-04-19T11:01:03.918073+00:00"
+    },
+    {
+      "title": "Ibm Unveils Analog Ai Chip Cutting Energy Use By 80 Percent",
+      "urls": [
+        "https://www.artificialintelligence-news.com",
+        "https://www.wsj.com/tech/ai",
+        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
+        "https://techcrunch.com/category/artificial-intelligence"
+      ],
+      "date": "2026-04-19T11:30:53.973069+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T11:01:03.918127+00:00"
+  "lastUpdated": "2026-04-19T11:30:53.973132+00:00"
 }
