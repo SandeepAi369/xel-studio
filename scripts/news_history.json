@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "CoreWeave Lands $21 Billion Deal With Meta for AI Cloud Capacity",
-      "urls": [
-        "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations",
-        "https://www.cloudcomputing-news.net",
-        "https://aws.amazon.com/ai/infrastructure",
-        "https://www.coreweave.com",
-        "https://www.reuters.com/business/autos-transportation/companies-pouring-billions-advance-ai-infrastructure-2026-04-09"
-      ],
-      "date": "2026-04-09T15:31:16.825408+00:00"
-    },
-    {
       "title": "United States International Trade Commission has released comprehensive 2025 U.",
       "urls": [
         "https://www.techuk.org/shaping-policy/internation-trade.html",
@@ -4289,7 +4278,14 @@
         "https://www.youtube.com/watch?v=IMAFTM0oPXk"
       ],
       "date": "2026-04-19T15:30:51.892344+00:00"
+    },
+    {
+      "title": "U.S. Adds 80 Foreign Entities To Entity List Over Security Concerns",
+      "urls": [
+        "https://www.bis.gov/news-updates"
+      ],
+      "date": "2026-04-19T16:01:11.451131+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T15:30:51.892411+00:00"
+  "lastUpdated": "2026-04-19T16:01:11.451185+00:00"
 }
