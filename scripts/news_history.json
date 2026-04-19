@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin Triggered $245.7 Million In Crypto Liquidations",
-      "urls": [
-        "https://www.binance.com/en/square/news/web3-news",
-        "https://blockchainreporter.net"
-      ],
-      "date": "2026-04-09T12:31:04.408815+00:00"
-    },
-    {
       "title": "NASA Launches Cygnus XL On SpaceX Falcon 9 For ISS Resupply",
       "urls": [
         "https://www.nasa.gov/blogs/spacestation/2026/04/08/nasas-northrop-grumman-crs-24-mission-targets-april-11"
@@ -4274,7 +4266,20 @@
         "https://www.reddit.com/r/trackandfield/comments/1sohdyr/noah_lyles_clocks_1991s_16w_in_his_200m_season"
       ],
       "date": "2026-04-19T12:30:58.204751+00:00"
+    },
+    {
+      "title": "SpaceX Launches 1000th Starlink Satellite of 2026 on Falcon 9",
+      "urls": [
+        "https://www.youtube.com/watch?v=1gR612-6Isc",
+        "https://spaceflightnow.com",
+        "https://www.spacex.com",
+        "https://en.wikipedia.org/wiki/SpaceX",
+        "https://x.com/SpaceX",
+        "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch",
+        "https://www.nasa.gov/events"
+      ],
+      "date": "2026-04-19T13:01:14.545314+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T12:30:58.204818+00:00"
+  "lastUpdated": "2026-04-19T13:01:14.545390+00:00"
 }
