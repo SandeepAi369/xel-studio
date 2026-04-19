@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Announces Artemis Program Launch Schedule With Public Live Coverage",
-      "urls": [
-        "https://www.nasa.gov/events"
-      ],
-      "date": "2026-04-09T08:02:15.919777+00:00"
-    },
-    {
       "title": "Josh Kerr Targets El Guerrouj's 3:48.45 Indoor Mile World Record",
       "urls": [
         "https://www.youtube.com/watch?v=Dz-l7kToPV0",
@@ -4267,7 +4260,15 @@
         "https://www.youtube.com/watch?v=X_naLRvTLbM"
       ],
       "date": "2026-04-19T08:02:09.358002+00:00"
+    },
+    {
+      "title": "Sydney McLaughlin-Levrone Sets World Record In 400-Meter Hurdles",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_United_States_records_in_track_and_field",
+        "https://www.youtube.com/watch?v=peWQd0eGhfk"
+      ],
+      "date": "2026-04-19T08:31:05.672113+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T08:02:09.358067+00:00"
+  "lastUpdated": "2026-04-19T08:31:05.672172+00:00"
 }
