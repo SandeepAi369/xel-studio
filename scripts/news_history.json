@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Launches New Ad Formats And Enhanced Creator Tools",
-      "urls": [
-        "https://www.sprinklr.com/blog/social-media-updates",
-        "https://www.youtube.com/watch?v=LoBmhEzI27Y"
-      ],
-      "date": "2026-04-09T17:01:15.034113+00:00"
-    },
-    {
       "title": "PyTorch Powers 70% Of Top AI Research Papers In 2026",
       "urls": [
         "https://www.cmarix.com/blog/pytorch-vs-tensorflow"
@@ -4283,7 +4275,14 @@
         "https://www.youtube.com/watch?v=NanosZthZU0"
       ],
       "date": "2026-04-19T17:01:11.350921+00:00"
+    },
+    {
+      "title": "Demis Hassabis Leads Gemini Expansion Across Google Products",
+      "urls": [
+        "https://www.youtube.com/watch?v=uVPdYqiULTo"
+      ],
+      "date": "2026-04-19T17:30:59.800783+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T17:01:11.350977+00:00"
+  "lastUpdated": "2026-04-19T17:30:59.800847+00:00"
 }
