@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches RT-2 And RT-3 Open Source Robotics Models",
-      "urls": [
-        "https://www.youtube.com/watch?v=3Tgyt_ucN_k",
-        "https://www.rtinsights.com/hugging-face-releases-open-source-robots-in-two-models"
-      ],
-      "date": "2026-04-10T18:32:09.992435+00:00"
-    },
-    {
-      "title": "Meta Launches Muse And Spark AI Models For Enhanced Content Creation",
-      "urls": [
-        "https://www.youtube.com/watch?v=20vZc0cOpOw",
-        "https://aimultiple.com/generative-ai-applications"
-      ],
-      "date": "2026-04-10T19:01:11.586450+00:00"
-    },
-    {
       "title": "Apple Google Microsoft Expand Into Healthcare With AI And Cloud Tools",
       "urls": [
         "https://www.youtube.com/shorts/gCVfwBQnHhc",
@@ -4266,7 +4250,15 @@
         "https://www.infoworld.com/article/2261334/why-enterprises-are-turning-from-tensorflow-to-pytorch.html"
       ],
       "date": "2026-04-20T18:30:56.925915+00:00"
+    },
+    {
+      "title": "Systems Outperform Doctors in Detecting Diabetic Retinopathy and Cancers",
+      "urls": [
+        "https://www.who.int/teams/digital-health-and-innovation/harnessing-artificial-intelligence-for-health",
+        "https://www.nejm.org/ai-in-medicine"
+      ],
+      "date": "2026-04-20T19:02:17.911020+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T18:30:56.925989+00:00"
+  "lastUpdated": "2026-04-20T19:02:17.911080+00:00"
 }
