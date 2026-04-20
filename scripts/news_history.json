@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cambridge Analytica Harvested 87 Million Facebook Profiles for Voter Influence",
-      "urls": [
-        "https://www.americanbar.org/advocacy/global-programs/news/2024/importance-digital-privacy-emerging-technology",
-        "https://www.youtube.com/watch?v=vixt-ZT3Ixw"
-      ],
-      "date": "2026-04-09T23:31:01.674645+00:00"
-    },
-    {
       "title": "Anthropic Raises $13 Billion in Series F Funding Round",
       "urls": [
         "https://af.net/realtime/ai-startup-funding-news-highlights-latest-500m-deals",
@@ -4287,7 +4279,15 @@
         "https://www.levelupgaming.io/blog/2023/05/the-impact-of-game-streaming-platforms-on-the-video-game-industry"
       ],
       "date": "2026-04-19T23:30:58.704449+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT 5.3 With Enhanced Agent Capabilities",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model",
+        "https://www.youtube.com/watch?v=ydW6Io2T4ho"
+      ],
+      "date": "2026-04-20T00:01:10.240978+00:00"
     }
   ],
-  "lastUpdated": "2026-04-19T23:30:58.704517+00:00"
+  "lastUpdated": "2026-04-20T00:01:10.241076+00:00"
 }
