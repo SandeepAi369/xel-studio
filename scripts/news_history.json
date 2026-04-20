@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Offshore wind projects face renewed legal battles after the Trump administration suspended five majo",
-      "urls": [
-        "https://www.renewableenergyworld.com/wind-power"
-      ],
-      "date": "2026-04-10T01:30:58.676419+00:00"
-    },
-    {
-      "title": "Conner Mantz Smashes American 15K Record With 42:05 Victory",
-      "urls": [
-        "https://trackandfieldnews.com/records/mens-american-records",
-        "https://worldathletics.org/records/all-time-toplists/road-running/marathon/outdoor/men/senior",
-        "https://trackandfieldnews.com/records/mens-world-records",
-        "https://www.runnersworld.com/news/a70966727/josh-kerr-world-major-marathon",
-        "https://www.instagram.com/reel/DTamuOLGDeH",
-        "https://www.flotrack.org/articles/15361914-every-track-field-record-broken-so-far-in-2026",
-        "https://usatf.org/news/2025/mantz-s-american-record-earns-him-usatf-athlete-of",
-        "https://www.youtube.com/watch?v=sJdiNezVJ4k"
-      ],
-      "date": "2026-04-10T02:01:08.738031+00:00"
-    },
-    {
       "title": "Ibm Simulates Lithium Hydride Electron Interactions With 127 Qubit Processor",
       "urls": [
         "https://www.barrons.com/articles/quantum-computing-ibm-materials-19a9da60"
@@ -4286,7 +4265,17 @@
         "https://news.mongabay.com"
       ],
       "date": "2026-04-20T01:30:55.210926+00:00"
+    },
+    {
+      "title": "PyTorch Powers 63% of AI Models in 2026",
+      "urls": [
+        "https://medium.com/android-alchemy/deep-learning-frameworks-pytorch-vs-tensorflow-in-2025-4dd0f617209d",
+        "https://www.cmarix.com/blog/pytorch-vs-tensorflow",
+        "https://www.nvidia.com/en-us/glossary/pytorch",
+        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
+      ],
+      "date": "2026-04-20T02:01:13.016494+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T01:30:55.210993+00:00"
+  "lastUpdated": "2026-04-20T02:01:13.016553+00:00"
 }
