@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bitcoin remains vulnerable to quantum attacks, with 35% of its supply at risk due to outdated wallet",
-      "urls": [
-        "https://www.coindesk.com",
-        "https://www.forbes.com/digital-assets/news/web3",
-        "https://aws.amazon.com/web3"
-      ],
-      "date": "2026-04-10T14:01:36.676978+00:00"
-    },
-    {
       "title": "PyTorch Foundation Attracts Triple Conference Registrations in 2024",
       "urls": [
         "https://opencv.org/blog/pytorch-vs-tensorflow",
@@ -4283,7 +4274,14 @@
         "https://www.eia.gov/todayinenergy/detail.php?id=67367"
       ],
       "date": "2026-04-20T14:01:12.589222+00:00"
+    },
+    {
+      "title": "NuCaption has launched a new wearable device in partnership with Sunu Band, specifically designed fo",
+      "urls": [
+        "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOopDyPYtEbrfOkW9_SrmIFLYUHC3aMEnA-atP8BqbiO7Uwq-xfHy"
+      ],
+      "date": "2026-04-20T14:32:04.494047+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T14:01:12.589295+00:00"
+  "lastUpdated": "2026-04-20T14:32:04.494118+00:00"
 }
