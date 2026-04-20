@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canary Media Reports U.S. Grid Emissions Fell 4% in 2024",
-      "urls": [
-        "https://www.canarymedia.com"
-      ],
-      "date": "2026-04-10T06:31:18.022057+00:00"
-    },
-    {
       "title": "Alison Sheridan Highlights Voice And Eye Tracking Innovations At CES 2026",
       "urls": [
         "https://www.youtube.com/watch?v=b5DvFC4SaUE",
@@ -4286,7 +4279,14 @@
         "https://www.renewableenergyworld.com/wind-power"
       ],
       "date": "2026-04-20T06:31:02.216419+00:00"
+    },
+    {
+      "title": "Disney Faces Regulatory Action Over Improper YouTube Kids Content Labeling",
+      "urls": [
+        "https://www.bbc.com/news/topics/cewvn6l5dl6t"
+      ],
+      "date": "2026-04-20T07:01:12.020752+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T06:31:02.216479+00:00"
+  "lastUpdated": "2026-04-20T07:01:12.020815+00:00"
 }
