@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ibm Simulates Lithium Hydride Electron Interactions With 127 Qubit Processor",
-      "urls": [
-        "https://www.barrons.com/articles/quantum-computing-ibm-materials-19a9da60"
-      ],
-      "date": "2026-04-10T02:31:06.649667+00:00"
-    },
-    {
-      "title": "U.S. Government Awards TSMC Arizona $39 Billion For Chip Manufacturing Expansion",
-      "urls": [
-        "https://sog.luiss.it/sites/sog.luiss.it/files/stango%20AS%20REV%20The%20geopolitical%20competition%20between%20China%20and%20the%20U.S.%20in%20new%20technologies.pdf",
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOorQ5GQuh4BIx9ZV0kgQbhVmkBN75xmtFEtolcA8F4SiZlYjuDjL",
-        "https://www.youtube.com/watch?v=6AE3zdpQxH8"
-      ],
-      "date": "2026-04-10T03:01:17.006157+00:00"
-    },
-    {
       "title": "Nvidia CEO Jensen Huang Champions U.S. AI Infrastructure Investment",
       "urls": [
         "https://www.youtube.com/watch?v=OT_9HqGQzhw",
@@ -4289,7 +4273,17 @@
         "https://openai.com/index/introducing-gpt-rosalind"
       ],
       "date": "2026-04-20T02:30:58.400490+00:00"
+    },
+    {
+      "title": "U.S. Economy Grows 0.7 Percent In Fourth Quarter 2025",
+      "urls": [
+        "https://www.nytimes.com/topic/subject/recession",
+        "https://www.worldbank.org/en/publication/global-economic-prospects",
+        "https://www.bea.gov",
+        "https://www.imf.org/en/publications/weo"
+      ],
+      "date": "2026-04-20T03:01:17.885545+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T02:30:58.400547+00:00"
+  "lastUpdated": "2026-04-20T03:01:17.885619+00:00"
 }
