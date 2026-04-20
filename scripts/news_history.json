@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches MTIA 400 Chip to Challenge Nvidia and AMD",
-      "urls": [
-        "https://www.youtube.com/watch?v=uSvT8pouEgA",
-        "https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-big-tech-stocks-point-to-strong-open-ai-industry-seeks-to-allay-fears-144220399.html",
-        "https://finance.yahoo.com/video/ai-weekly-mega-earnings-forecasts-113952012.html"
-      ],
-      "date": "2026-04-10T06:01:24.247917+00:00"
-    },
-    {
       "title": "Canary Media Reports U.S. Grid Emissions Fell 4% in 2024",
       "urls": [
         "https://www.canarymedia.com"
@@ -4288,7 +4279,14 @@
         "https://www.llama.com/models/llama-3"
       ],
       "date": "2026-04-20T06:01:11.721460+00:00"
+    },
+    {
+      "title": "Trump Administration Suspends Five East Coast Offshore Wind Projects",
+      "urls": [
+        "https://www.renewableenergyworld.com/wind-power"
+      ],
+      "date": "2026-04-20T06:31:02.216419+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T06:01:11.721528+00:00"
+  "lastUpdated": "2026-04-20T06:31:02.216479+00:00"
 }
