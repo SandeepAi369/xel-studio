@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel Discontinues Clear Linux With No Migration Path",
-      "urls": [
-        "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
-      ],
-      "date": "2026-04-10T23:02:21.709490+00:00"
-    },
-    {
-      "title": "Hokie Wellness Launches Digital Well-being Challenge For Virginia Tech Students",
-      "urls": [
-        "https://news.vt.edu/articles/2024/10/sa-wellness-digital-well-being-challenges.html"
-      ],
-      "date": "2026-04-10T23:30:55.565877+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.4 Thinking For Premium Users",
       "urls": [
         "https://www.thurrott.com/a-i/333418/openai-releases-new-gpt-5-4-flagship-model"
@@ -4269,7 +4255,16 @@
         "https://fritz.ai/best-deep-learning-frameworks"
       ],
       "date": "2026-04-20T23:01:08.797312+00:00"
+    },
+    {
+      "title": "U.S. Jobless Claims Drop To 211000 Amid Labor Market Resilience",
+      "urls": [
+        "https://www.bloomberg.com/economics-v2",
+        "https://www.ft.com/global-economy",
+        "https://apnews.com/hub/economy"
+      ],
+      "date": "2026-04-20T23:30:57.994264+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T23:01:08.797377+00:00"
+  "lastUpdated": "2026-04-20T23:30:57.994328+00:00"
 }
