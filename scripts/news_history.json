@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Llama 3.3 70B Model For Efficient High Performance AI Tasks",
-      "urls": [
-        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
-        "https://sherwood.news/tech/report-some-of-metas-new-ai-models-will-eventually-be-open-source",
-        "https://en.wikipedia.org/wiki/Llama_(language_model)",
-        "https://www.llama.com/models/llama-3"
-      ],
-      "date": "2026-04-10T04:01:29.306519+00:00"
-    },
-    {
-      "title": "U.S. Team Stuns England With 1-0 Victory In 1950 World Cup",
-      "urls": [
-        "https://www.reddit.com/r/AskAnAmerican/comments/7nbm5d/what_were_the_most_memorableiconic_moments_of_us",
-        "https://www.youtube.com/watch?v=20LTuIJ48ss"
-      ],
-      "date": "2026-04-10T04:31:10.459659+00:00"
-    },
-    {
       "title": "Open Source Models Challenge Big Tech With 500000 Projects On GitHub Hugging Face",
       "urls": [
         "https://www.linkedin.com/pulse/open-source-ai-revolution-how-community-models-big-tech-gilmurray-zo4pe",
@@ -4290,7 +4272,15 @@
         "https://www.congress.gov/crs-product/R48555"
       ],
       "date": "2026-04-20T04:01:16.311772+00:00"
+    },
+    {
+      "title": "Google Lyra Delivers Real-Time Captioning In 30 Languages For Classrooms",
+      "urls": [
+        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
+        "https://accessibility.sdsu.edu/news/how-ai-is-transforming-accessibility"
+      ],
+      "date": "2026-04-20T04:32:03.275989+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T04:01:16.311836+00:00"
+  "lastUpdated": "2026-04-20T04:32:03.276050+00:00"
 }
