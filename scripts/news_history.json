@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SoundShirt Converts Live Music Into Vibrations For Deaf Users",
-      "urls": [
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoohw8P0PGcLr8hLyYBHGQ76thoKjqNrXmNlciZMJn8fxjHcmSwZ"
-      ],
-      "date": "2026-04-10T13:32:10.513804+00:00"
-    },
-    {
       "title": "Bitcoin remains vulnerable to quantum attacks, with 35% of its supply at risk due to outdated wallet",
       "urls": [
         "https://www.coindesk.com",
@@ -4280,7 +4273,17 @@
         "https://tulanehullabaloo.com/68827/data/ai-tools-transform-accessibility-for-deaf-deafblind"
       ],
       "date": "2026-04-20T13:31:09.657776+00:00"
+    },
+    {
+      "title": "Renewables Reach 49% Of Global Power Capacity In 2025",
+      "urls": [
+        "https://earth.org/renewables-hit-nearly-half-of-global-power-capacity-in-2025",
+        "https://www.climatecouncil.org.au/11-countries-leading-the-charge-on-renewable-energy",
+        "https://www.rechargenews.com",
+        "https://www.eia.gov/todayinenergy/detail.php?id=67367"
+      ],
+      "date": "2026-04-20T14:01:12.589222+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T13:31:09.657840+00:00"
+  "lastUpdated": "2026-04-20T14:01:12.589295+00:00"
 }
