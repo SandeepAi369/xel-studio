@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Raises $13 Billion in Series F Funding Round",
-      "urls": [
-        "https://af.net/realtime/ai-startup-funding-news-highlights-latest-500m-deals",
-        "https://www.reddit.com/r/artificial/comments/1of0ojp/latest_ai_business_updates_acquisitions_deals",
-        "https://www.youtube.com/watch?v=H-pJo-pSe2w",
-        "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025"
-      ],
-      "date": "2026-04-10T00:01:23.725926+00:00"
-    },
-    {
       "title": "Us Aid Drop Spurs Global Foreign Assistance Decline",
       "urls": [
         "https://www.aljazeera.com/economy"
@@ -4287,7 +4277,15 @@
         "https://www.youtube.com/watch?v=ydW6Io2T4ho"
       ],
       "date": "2026-04-20T00:01:10.240978+00:00"
+    },
+    {
+      "title": "Nucleotide Esports Reaches PMNC North Americas WC Finals",
+      "urls": [
+        "https://esports.gg",
+        "https://www.youtube.com/watch?v=tQZJR92iEtY"
+      ],
+      "date": "2026-04-20T00:30:58.040838+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T00:01:10.241076+00:00"
+  "lastUpdated": "2026-04-20T00:30:58.040921+00:00"
 }
