@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artemis II Crew Splashes Down After Historic Lunar Orbit Mission",
-      "urls": [
-        "https://www.youtube.com/watch?v=zCM-Kwq91cc",
-        "https://www.youtube.com/watch?v=MITcYk0GOBo",
-        "https://www.youtube.com/watch?v=9KssfGHYf_s",
-        "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-comes-home-official-broadcast"
-      ],
-      "date": "2026-04-10T13:03:16.178545+00:00"
-    },
-    {
       "title": "SoundShirt Converts Live Music Into Vibrations For Deaf Users",
       "urls": [
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoohw8P0PGcLr8hLyYBHGQ76thoKjqNrXmNlciZMJn8fxjHcmSwZ"
@@ -4282,7 +4272,15 @@
         "https://www.youtube.com/watch?v=_cyM4FQDc8Y"
       ],
       "date": "2026-04-20T13:01:14.026568+00:00"
+    },
+    {
+      "title": "Swift Audiology Launches Bluetooth Hearing Aid Software For Clearer Audio Streaming",
+      "urls": [
+        "https://swiftaudiology.com/blog/a-new-focus-on-accessibility-brings-hope-to-the-hearing-impaired",
+        "https://tulanehullabaloo.com/68827/data/ai-tools-transform-accessibility-for-deaf-deafblind"
+      ],
+      "date": "2026-04-20T13:31:09.657776+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T13:01:14.026620+00:00"
+  "lastUpdated": "2026-04-20T13:31:09.657840+00:00"
 }
