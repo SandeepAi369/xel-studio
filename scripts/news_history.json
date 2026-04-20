@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cyclone Vaianu Triggers Red Warnings With 120 Km H Winds",
-      "urls": [
-        "https://nationaltoday.com/us/oh/lima/news/2026/04/05/early-april-2026-flooding-and-severe-thunderstorms-batter-midwest",
-        "https://www.youtube.com/watch?v=UeGuUbeiQww",
-        "https://www.youtube.com/watch?v=ix1qNwrnDqY",
-        "https://www.foxla.com/news/socal-storm-rain-snow-timeline-april-9-2026",
-        "https://weather.com/science/weather-explainers/video/weekend-travel-delays-airports-roads-severe-storms-rain-snow"
-      ],
-      "date": "2026-04-10T15:31:18.929286+00:00"
-    },
-    {
       "title": "Iran has publicly threatened to attack the $30 billion Stargate AI data center under development in ",
       "urls": [
         "https://cisac.fsi.stanford.edu/publication/us-and-europe-need-strategy-geopolitical-contest-over-ai",
@@ -4266,7 +4255,16 @@
         "https://newyork.theaisummit.com/latest-news/ai-in-drug-discovery-and-development-accelerating-pharmaceutical-innovation"
       ],
       "date": "2026-04-20T15:03:28.392567+00:00"
+    },
+    {
+      "title": "AMD is advancing its AI hardware competitiveness against Nvidia, leveraging cost efficiency and impr",
+      "urls": [
+        "https://www.reddit.com/r/AMD_Stock/comments/1lghvnk/realistically_how_close_is_amd_to_nvidia_in_ai",
+        "https://www.tomshardware.com/tech-industry/us-export-control-agency-has-lost-nearly-a-fifth-of-its-licensing-staff",
+        "https://finance.yahoo.com/news/meta-announces-4-new-ai-chips-raising-competitive-stakes-with-nvidia-amd-140011384.html"
+      ],
+      "date": "2026-04-20T15:34:15.776324+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T15:03:28.392632+00:00"
+  "lastUpdated": "2026-04-20T15:34:15.776391+00:00"
 }
