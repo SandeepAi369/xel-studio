@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States And China Escalate Trade Tensions With Mutual Tariff Hikes",
-      "urls": [
-        "https://www.itic.org/policy/trade-investment",
-        "https://www.youtube.com/watch?v=n-s1rFnGHRU"
-      ],
-      "date": "2026-04-10T12:02:22.743016+00:00"
-    },
-    {
-      "title": "Two New Tb Vaccines Show Limited Protection In Trials",
-      "urls": [
-        "https://www.youtube.com/watch?v=KdAf6oDD8-c",
-        "https://www.news-medical.net/category/Medical-Research-News.aspx"
-      ],
-      "date": "2026-04-10T12:31:20.901156+00:00"
-    },
-    {
       "title": "Artemis II Crew Splashes Down After Historic Lunar Orbit Mission",
       "urls": [
         "https://www.youtube.com/watch?v=zCM-Kwq91cc",
@@ -4282,7 +4266,14 @@
         "https://www.theguardian.com/world/surveillance"
       ],
       "date": "2026-04-20T12:01:12.687064+00:00"
+    },
+    {
+      "title": "Battlefy has emerged as a leading platform for organizing and discovering esports tournaments global",
+      "urls": [
+        "https://battlefy.com"
+      ],
+      "date": "2026-04-20T12:32:02.892534+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T12:01:12.687131+00:00"
+  "lastUpdated": "2026-04-20T12:32:02.892612+00:00"
 }
