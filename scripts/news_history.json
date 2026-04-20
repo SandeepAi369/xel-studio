@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Google Microsoft Expand Into Healthcare With AI And Cloud Tools",
-      "urls": [
-        "https://www.youtube.com/shorts/gCVfwBQnHhc",
-        "https://www.youtube.com/watch?v=cvl98AlTagg",
-        "https://www.reddit.com/r/accelerate/comments/1sf3xb9/anthropic_launches_project_glasswing_claude"
-      ],
-      "date": "2026-04-10T19:31:00.568823+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-5.4 Mini And Nano For Faster Edge Deployment",
       "urls": [
         "https://medium.com/the-generator/openais-new-frontier-models-mark-a-huge-change-in-how-ai-will-be-built-fea58b9a239d",
@@ -4258,7 +4249,16 @@
         "https://www.nejm.org/ai-in-medicine"
       ],
       "date": "2026-04-20T19:02:17.911020+00:00"
+    },
+    {
+      "title": "Japan Hit By 7.4 Magnitude Offshore Earthquake Triggering Evacuations",
+      "urls": [
+        "https://www.facebook.com/FoxWeather/posts/breaking-news-a-magnitude-74-earthquake-struck-off-the-coast-of-northern-japan-t/988680113672283",
+        "https://www.instagram.com/p/DXWheVxj3lR",
+        "https://volcano.si.edu/gvp_currenteruptions.cfm"
+      ],
+      "date": "2026-04-20T19:31:02.561531+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T19:02:17.911080+00:00"
+  "lastUpdated": "2026-04-20T19:31:02.561591+00:00"
 }
