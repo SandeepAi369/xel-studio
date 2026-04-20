@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ohio School for the Blind Students Gain Independence with Free Sight Savers America Devices",
-      "urls": [
-        "https://abc6onyourside.com/news/local/ohio-school-for-the-blind-students-gain-independence-with-new-assistive-technology-sight-savers-america",
-        "https://www.youtube.com/watch?v=5Lc_jQkpTIA"
-      ],
-      "date": "2026-04-10T05:31:00.611362+00:00"
-    },
-    {
       "title": "Meta Launches MTIA 400 Chip to Challenge Nvidia and AMD",
       "urls": [
         "https://www.youtube.com/watch?v=uSvT8pouEgA",
@@ -4285,7 +4277,18 @@
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoqEzF9IMYS9e_GIpXhigWB8xTodAwFCs50qJEZuri1BMfQciOWF"
       ],
       "date": "2026-04-20T05:30:58.372522+00:00"
+    },
+    {
+      "title": "Meta Launches Llama 3.1 3.2 and 3.3 With New On-Device AI Features",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
+        "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
+        "https://sherwood.news/tech/report-some-of-metas-new-ai-models-will-eventually-be-open-source",
+        "https://www.llama.com/models/llama-3"
+      ],
+      "date": "2026-04-20T06:01:11.721460+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T05:30:58.372643+00:00"
+  "lastUpdated": "2026-04-20T06:01:11.721528+00:00"
 }
