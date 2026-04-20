@@ -4275,7 +4275,21 @@
         "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
       ],
       "date": "2026-04-20T02:01:13.016494+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-Rosalind To Accelerate Drug Discovery",
+      "urls": [
+        "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/openai-targets-pharma-giants-with-purpose-built-ai-model",
+        "https://www.sciencedirect.com/science/article/pii/S266731852500025X",
+        "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-2026-04-14",
+        "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
+        "https://www.nature.com/articles/s44276-026-00221-1",
+        "https://openai.com/index/introducing-gpt-rosalind"
+      ],
+      "date": "2026-04-20T02:30:58.400490+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T02:01:13.016553+00:00"
+  "lastUpdated": "2026-04-20T02:30:58.400547+00:00"
 }
