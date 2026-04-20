@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Replika AI Companions Reduce Anxiety for Neurodivergent Users",
-      "urls": [
-        "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
-      ],
-      "date": "2026-04-10T18:01:42.235537+00:00"
-    },
-    {
       "title": "Hugging Face Launches RT-2 And RT-3 Open Source Robotics Models",
       "urls": [
         "https://www.youtube.com/watch?v=3Tgyt_ucN_k",
@@ -4266,7 +4259,14 @@
         "https://www.nature.com/articles/d41586-026-00309-1"
       ],
       "date": "2026-04-20T18:01:18.022051+00:00"
+    },
+    {
+      "title": "PyTorch Adoption Surges Among Meta Tesla And Uber Engineers",
+      "urls": [
+        "https://www.infoworld.com/article/2261334/why-enterprises-are-turning-from-tensorflow-to-pytorch.html"
+      ],
+      "date": "2026-04-20T18:30:56.925915+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T18:01:18.022128+00:00"
+  "lastUpdated": "2026-04-20T18:30:56.925989+00:00"
 }
