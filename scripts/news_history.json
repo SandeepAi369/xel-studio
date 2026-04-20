@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gartner Forecasts 2.5 Trillion Ai Infrastructure Market By 2026",
-      "urls": [
-        "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/ai-and-cloud-infrastructure-trends",
-        "https://io.net/blog/the-state-of-ai-cloud-infrastructure"
-      ],
-      "date": "2026-04-10T11:31:06.279827+00:00"
-    },
-    {
       "title": "United States And China Escalate Trade Tensions With Mutual Tariff Hikes",
       "urls": [
         "https://www.itic.org/policy/trade-investment",
@@ -4283,7 +4275,14 @@
         "https://www.youtube.com/watch?v=Xn-gtHDsaPY"
       ],
       "date": "2026-04-20T11:31:02.293142+00:00"
+    },
+    {
+      "title": "Congress faces sharp division over the reauthorization of FISA Section 702, which permits warrantles",
+      "urls": [
+        "https://www.theguardian.com/world/surveillance"
+      ],
+      "date": "2026-04-20T12:01:12.687064+00:00"
     }
   ],
-  "lastUpdated": "2026-04-20T11:31:02.293209+00:00"
+  "lastUpdated": "2026-04-20T12:01:12.687131+00:00"
 }
