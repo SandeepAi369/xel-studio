@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sports Technology Market To Surpass 96 Billion By 2033",
-      "urls": [
-        "https://www.linkedin.com/pulse/tech-innovations-sports-performance-analysis-deep-dive-patil-93lbe",
-        "https://finance.yahoo.com/news/sports-technology-market-insights-companies-125000113.html",
-        "https://www.missioncloud.com/blog/future-trends-in-sports-analytics-lessons-from-the-field",
-        "https://wsc-sports.com/blog/industry-insights/why-more-teams-are-switching-to-ai-powered-sports-analytics"
-      ],
-      "date": "2026-04-11T00:31:19.432494+00:00"
-    },
-    {
       "title": "SensAble Launches Haptic Wearable For Blind Navigation",
       "urls": [
         "https://www.besensable.com/post/visually-impaired-products",
@@ -4274,7 +4264,17 @@
         "https://www.wcvb.com/article/130th-boston-marathon-starts-finishes/71071088"
       ],
       "date": "2026-04-21T00:31:12.655777+00:00"
+    },
+    {
+      "title": "NASA And SpaceX Advance Starship Plans For Artemis 3 Moon Landing",
+      "urls": [
+        "https://www.youtube.com/watch?v=OqpFjr8au2E",
+        "https://www.spacex.com/humanspaceflight/moon",
+        "https://www.youtube.com/watch?v=cSHAK19EeLY",
+        "https://www.nasa.gov/news-release/nasa-spacex-launch-new-science-hardware-to-space-station"
+      ],
+      "date": "2026-04-21T01:01:12.102209+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T00:31:12.655838+00:00"
+  "lastUpdated": "2026-04-21T01:01:12.102268+00:00"
 }
