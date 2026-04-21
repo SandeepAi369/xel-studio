@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Physicists at Silicon Quantum Computing Build Nine-Nuclear-Qubit Chip with 99 99 Fidelity",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/02/260216084525.htm",
-        "https://quantumcomputingreport.com/news",
-        "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
-        "https://www.nature.com/articles/d41586-026-01054-1",
-        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
-        "https://www.princeton.edu/news/2025/11/05/princeton-puts-quantum-computing-fast-track-new-qubit",
-        "https://www.livescience.com/technology/computing/scientists-build-most-accurate-quantum-computing-chip-ever-thanks-to-new-silicon-based-computing-architecture"
-      ],
-      "date": "2026-04-11T11:31:17.327004+00:00"
-    },
-    {
       "title": "Health Experts Deploy Stanford AI To Speed Tuberculosis Detection",
       "urls": [
         "https://www.yahoo.com/news/articles/health-experts-deploy-groundbreaking-ai-160000608.html"
@@ -4280,7 +4267,23 @@
         "https://www.visitwilliamsburg.com/sports"
       ],
       "date": "2026-04-21T11:03:25.458032+00:00"
+    },
+    {
+      "title": "Las Vegas Marathon Returns October 26 2025 With Three Race Options",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Marathon",
+        "https://www.runguides.com/nevada/runs",
+        "https://vegasmarathon.com",
+        "https://www.marathonguide.com/marathons/usa",
+        "https://www.cbsnews.com/boston/live-updates/boston-marathon-live-updates-race-results-course-map-forecast",
+        "https://www.usatoday.com/story/sports/olympics/2026/04/20/boston-marathon-tracking-updates-results-highlights-2026/89681602007",
+        "https://worldathletics.org/disciplines/road/marathon",
+        "https://www.britannica.com/sports/marathon-race",
+        "https://findarace.com/us/running/marathons",
+        "https://runningintheusa.com/classic/list/map/marathon/upcoming"
+      ],
+      "date": "2026-04-21T11:33:09.047854+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T11:03:25.458157+00:00"
+  "lastUpdated": "2026-04-21T11:33:09.047909+00:00"
 }
