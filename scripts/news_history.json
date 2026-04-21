@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Treasury Secretary Scott Bessent Convenes Wall Street CEOs Over Anthropic AI Risks",
-      "urls": [
-        "https://www.businessinsider.com/tech-ceos-weigh-in-openai-chief-sam-altman-leadership-2025-10",
-        "https://www.youtube.com/watch?v=zuO-R4gk5DM",
-        "https://timesofindia.indiatimes.com/technology/tech-news/openai-ceo-sam-altman-has-a-warning-for-all-american-technology-companies-says-in-america-right-now-/articleshow/129514187.cms",
-        "https://www.whitehouse.gov/releases/2025/09/president-trump-tech-leaders-unite-american-ai-dominance",
-        "https://www.youtube.com/watch?v=wy_sWrOaqR4",
-        "https://www.youtube.com/watch?v=B2WsfcwfEgs",
-        "https://www.reddit.com/r/BetterOffline/comments/1shufhw/times_tech_report_sam_altman_is_an_historic_con",
-        "https://www.instagram.com/reel/DW65XMSDt7O",
-        "https://www.instagram.com/reel/DWymH2qD_XM"
-      ],
-      "date": "2026-04-11T03:30:54.548667+00:00"
-    },
-    {
       "title": "Blind Children Gain Access To Smart Glasses And AI Navigation Tools",
       "urls": [
         "https://www.counton2.com/news/local-news/blind-and-visually-impaired-children-receive-life-changing-high-tech-vision-aids"
@@ -4281,7 +4266,15 @@
         "https://seekingalpha.com/article/4891668-amd-riding-the-ai-wave-but-returns-may-stall-from-here"
       ],
       "date": "2026-04-21T03:30:53.612232+00:00"
+    },
+    {
+      "title": "Mit Researchers Unveil Ai Model Detecting Atomic Defects With 95 Percent Accuracy",
+      "urls": [
+        "https://www.youtube.com/watch?v=a18whsKY_rw",
+        "https://news.mit.edu/topic/artificial-intelligence2"
+      ],
+      "date": "2026-04-21T04:01:10.569025+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T03:30:53.612326+00:00"
+  "lastUpdated": "2026-04-21T04:01:10.569093+00:00"
 }
