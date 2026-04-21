@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "XRAI Glass Launches Real-Time Subtitle Smart Glasses for Deaf Users",
-      "urls": [
-        "https://reciteme.com/us/news/deaf-accessibility",
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOorTr5MYMwFqyZsV7wHbKeNGouSk8sI5R0Cjnq-uJwj1q4r9SCb_",
-        "https://www.youtube.com/watch?v=I2HZ_9RO3u8"
-      ],
-      "date": "2026-04-11T21:31:00.191799+00:00"
-    },
-    {
-      "title": "Boston Dynamics Atlas Robot Masters Warehouse Tasks With AI",
-      "urls": [
-        "https://spectrum.ieee.org/tag/humanoid-robots"
-      ],
-      "date": "2026-04-11T22:01:11.963414+00:00"
-    },
-    {
       "title": "Hollywood Studios Condemn ByteDance Seedance 2.0 Over Film Replication Fears",
       "urls": [
         "https://www.yahoo.com/entertainment/movies/articles/ai-video-generator-sparks-major-221621313.html",
@@ -4395,7 +4379,18 @@
         "https://blog.google"
       ],
       "date": "2026-04-21T21:30:55.982255+00:00"
+    },
+    {
+      "title": "Sydney Metro West Project Breaks Ground With A$14.8 Billion Investment",
+      "urls": [
+        "https://www.reuters.com/world/middle-east",
+        "https://www.9news.com.au/sydney",
+        "https://www.koat.com/local-news",
+        "https://www.timesofai.com/news/ai",
+        "https://myfox8.com/news/north-carolina/winston-salem"
+      ],
+      "date": "2026-04-21T22:02:20.433277+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T21:30:55.982316+00:00"
+  "lastUpdated": "2026-04-21T22:02:20.433340+00:00"
 }
