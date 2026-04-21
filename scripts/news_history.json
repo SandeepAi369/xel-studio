@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "SensAble Launches Haptic Wearable For Blind Navigation",
-      "urls": [
-        "https://www.besensable.com/post/visually-impaired-products",
-        "https://afb.org/blog/entry/future-accessible-tech"
-      ],
-      "date": "2026-04-11T01:02:14.782044+00:00"
-    },
-    {
       "title": "Sitetracker Launches Scout AI To Accelerate Solar Project Development",
       "urls": [
         "https://www.solarpowerworldonline.com/category/industry-news"
@@ -4274,7 +4266,14 @@
         "https://www.nasa.gov/news-release/nasa-spacex-launch-new-science-hardware-to-space-station"
       ],
       "date": "2026-04-21T01:01:12.102209+00:00"
+    },
+    {
+      "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Accelerate Pancreatic Cancer Detection With AI",
+      "urls": [
+        "https://www.youtube.com/watch?v=cx_CKLb8Yl4"
+      ],
+      "date": "2026-04-21T01:30:58.736746+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T01:01:12.102268+00:00"
+  "lastUpdated": "2026-04-21T01:30:58.736807+00:00"
 }
