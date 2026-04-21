@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Web3 Newswire offers a specialized press release distribution service targeting the cryptocurrency a",
-      "urls": [
-        "https://web3newswire.com?srsltid=AfmBOooOcYl002QM9YPqjObs9X-eBjSelUnuz-66LY52DXRUt8QnIpn6"
-      ],
-      "date": "2026-04-11T05:01:24.292562+00:00"
-    },
-    {
       "title": "Whill Deploys AI Wheelchairs With LiDAR For Urban Navigation",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOor7UnVDCe2k9CjzjZUAIdMao21PrmaPFtTQ1NE-0zl1TqWXgj_P"
@@ -4277,7 +4270,14 @@
         "https://futurense.com/blog/deep-learning-frameworks"
       ],
       "date": "2026-04-21T05:01:03.614503+00:00"
+    },
+    {
+      "title": "Thomas Cantara Wins Third Straight Boston Marathon Para T20 Title",
+      "urls": [
+        "https://www.wmur.com/article/top-new-hampshire-athletes-boston-marathon-42026/71077269"
+      ],
+      "date": "2026-04-21T05:30:55.971278+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T05:01:03.614558+00:00"
+  "lastUpdated": "2026-04-21T05:30:55.971347+00:00"
 }
