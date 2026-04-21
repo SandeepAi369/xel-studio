@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches Open Source Tools To Cut AI Training Costs",
-      "urls": [
-        "https://huggingface.co/collections/viralsuite/best-open-source-ai-models",
-        "https://www.youtube.com/watch?v=UX4yUgvro_k",
-        "https://www.reuters.com/technology/startup-hugging-face-aims-cut-ai-costs-with-open-source-offering-2024-10-23"
-      ],
-      "date": "2026-04-11T23:02:07.453068+00:00"
-    },
-    {
       "title": "Bayer Partners With Cradle To Accelerate Antibody Drug Development Using AI",
       "urls": [
         "https://www.youtube.com/shorts/WV0jK2sOMmI",
@@ -4395,7 +4386,23 @@
         "https://spectrum.ieee.org/first-global-robotics-challenge"
       ],
       "date": "2026-04-21T22:31:01.853121+00:00"
+    },
+    {
+      "title": "Digital mental health tools are gaining traction as scalable solutions to address rising demand for ",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s44155-025-00259-5",
+        "https://www.apa.org/monitor/2025/01/trends-technology-shaping-practice",
+        "https://www.mhanational.org/technology-mental-health-report",
+        "https://www.sciencenewstoday.org/the-impact-of-technology-on-mental-health",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079407",
+        "https://www.npr.org/2025/12/02/nx-s1-5627156/social-media-digital-detox-depression-anxiety",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/hcs2.70018?msockid=1bddce0e6be26e7400dcd94c6aae6fb2",
+        "https://www.integrative-psych.org/resources/the-rise-of-digital-mental-health-interventions-navigating-innovation-in-therapy-and-care",
+        "https://www.techtimes.com/articles/312538/20251106/thriving-digital-age-mental-wellness-strategies-stay-balanced-online-offline.htm",
+        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2025/04/02/ai-initiative-trends-for-2025"
+      ],
+      "date": "2026-04-21T23:03:14.959866+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T22:31:01.853185+00:00"
+  "lastUpdated": "2026-04-21T23:03:14.959930+00:00"
 }
