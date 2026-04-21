@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sitetracker Launches Scout AI To Accelerate Solar Project Development",
-      "urls": [
-        "https://www.solarpowerworldonline.com/category/industry-news"
-      ],
-      "date": "2026-04-11T01:31:15.318636+00:00"
-    },
-    {
       "title": "Scientists Warn Ai Risks Repeat Of Robodebt Failures In Curragh Coalmine Approvals",
       "urls": [
         "https://www.theguardian.com/environment/biodiversity",
@@ -4273,7 +4266,14 @@
         "https://www.youtube.com/watch?v=cx_CKLb8Yl4"
       ],
       "date": "2026-04-21T01:30:58.736746+00:00"
+    },
+    {
+      "title": "NetApp Instaclustr Accelerates Open Source LLM Development for 2026",
+      "urls": [
+        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026"
+      ],
+      "date": "2026-04-21T02:01:09.065083+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T01:30:58.736807+00:00"
+  "lastUpdated": "2026-04-21T02:01:09.065149+00:00"
 }
