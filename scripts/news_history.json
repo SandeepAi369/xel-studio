@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Deploys AI Wheelchairs With LiDAR For Urban Navigation",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOor7UnVDCe2k9CjzjZUAIdMao21PrmaPFtTQ1NE-0zl1TqWXgj_P"
-      ],
-      "date": "2026-04-11T05:30:59.023884+00:00"
-    },
-    {
       "title": "Cerebras Unveils 4 Trillion Transistor Chip Doubling Nvidia Speed",
       "urls": [
         "https://www.gurufocus.com/news/4096190/amd-amd-unveils-new-chip-to-challenge-nvidia-in-ai-hardware-market?mobile=true",
@@ -4277,7 +4270,14 @@
         "https://www.wmur.com/article/top-new-hampshire-athletes-boston-marathon-42026/71077269"
       ],
       "date": "2026-04-21T05:30:55.971278+00:00"
+    },
+    {
+      "title": "Google DeepMind Pursues Agi Breakthroughs Under Demis Hassabis Leadership",
+      "urls": [
+        "https://www.youtube.com/watch?v=zZsTVBXcbow"
+      ],
+      "date": "2026-04-21T06:01:08.558461+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T05:30:55.971347+00:00"
+  "lastUpdated": "2026-04-21T06:01:08.558530+00:00"
 }
