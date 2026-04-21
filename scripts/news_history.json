@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "ClaAUDE MYTHOS Outperforms Humans In Cybersecurity Vulnerability Detection",
-      "urls": [
-        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
-        "https://www.cnet.com/tech/services-and-software/anthropic-project-glasswing-claude-mythos-preview",
-        "https://www.anthropic.com/research",
-        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
-        "https://www.bbc.com/news/articles/c62dlvdq3e3o",
-        "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public",
-        "https://www.youtube.com/watch?v=VCMtJBC0a2A",
-        "https://www.reddit.com/r/TechGawker/comments/1s9rbvp/anthropic_talking_about_ai_safety_while_its_own"
-      ],
-      "date": "2026-04-11T19:30:56.589881+00:00"
-    },
-    {
       "title": "Fungi extinction risk nearly one in three studied species face extinction due to deforestation and c",
       "urls": [
         "https://earth.org/biodiversity"
@@ -4366,7 +4352,23 @@
         "https://www.healthcare.gov"
       ],
       "date": "2026-04-21T19:01:15.080040+00:00"
+    },
+    {
+      "title": "World Health Organization released the Mental Health Atlas 2024, a comprehensive global survey detai",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+        "https://www.who.int/health-topics/mental-health",
+        "https://www.who.int/news/item/16-12-2025-world-leaders-adopt-a-historic-global-declaration-on-noncommunicable-diseases-and-mental-health",
+        "https://www.who.int/india/health-topics/mental-health",
+        "https://www.who.int/publications/i/item/9789240114487",
+        "https://www.who.int/news/item/02-09-2025-who-releases-new-reports-and-estimates-highlighting-urgent-gaps-in-mental-health",
+        "https://www.who.int/news-room/commentaries/detail/mental-health-and-ncds--a-shared-but-differentiated-agenda-for-the-2025-un-high-level-meeting",
+        "https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up",
+        "https://www.who.int/europe/news/item/25-09-2024-teens--screens-and-mental-health",
+        "https://www.who.int/campaigns/world-mental-health-day/2025"
+      ],
+      "date": "2026-04-21T19:30:59.174854+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T19:01:15.080112+00:00"
+  "lastUpdated": "2026-04-21T19:30:59.174923+00:00"
 }
