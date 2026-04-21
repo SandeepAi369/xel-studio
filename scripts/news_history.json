@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Integrates Google Gemini Into Revamped Siri",
-      "urls": [
-        "https://finance.yahoo.com/news/google-apple-enter-multi-ai-162042206.html"
-      ],
-      "date": "2026-04-11T13:01:05.178615+00:00"
-    },
-    {
       "title": "Caney Mountain Crayfish And Barrens Tiger Beetle Face Extinction Risks",
       "urls": [
         "https://www.conservation.org/news",
@@ -4292,7 +4285,19 @@
         "https://www.olympics.com/en/olympic-games/paris-2024/results/athletics"
       ],
       "date": "2026-04-21T12:38:34.119254+00:00"
+    },
+    {
+      "title": "Trump says he does not want to extend the ceasefire with Iran, signaling a potential shift in U.",
+      "urls": [
+        "https://capcity.news",
+        "https://www.newsbreak.com/cheyenne-wy",
+        "https://www.npr.org/sections/news",
+        "https://www.iranintl.com/en/liveblog/202604194357",
+        "https://www.cbsnews.com/boston/local-news",
+        "https://ground.news/interest/germany"
+      ],
+      "date": "2026-04-21T13:02:28.718776+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T12:38:34.119344+00:00"
+  "lastUpdated": "2026-04-21T13:02:28.718838+00:00"
 }
