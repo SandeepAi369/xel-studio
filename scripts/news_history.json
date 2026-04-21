@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Set to Boost Global Trade Value by 40 Percent by 2040",
-      "urls": [
-        "https://www.reuters.com/business/ai-set-transform-global-trade-says-world-trade-organization-report-2025-09-17",
-        "https://www.youtube.com/watch?v=QSptFxie3pk",
-        "https://www.eurofinance.com/news/ais-bright-spot-for-trade-amid-global-tensions",
-        "https://thehill.com/video-clips/5825283-listen-live-trade-court-donald-trump-10-percent-tariffs"
-      ],
-      "date": "2026-04-11T03:01:24.340576+00:00"
-    },
-    {
       "title": "Treasury Secretary Scott Bessent Convenes Wall Street CEOs Over Anthropic AI Risks",
       "urls": [
         "https://www.businessinsider.com/tech-ceos-weigh-in-openai-chief-sam-altman-leadership-2025-10",
@@ -4280,7 +4270,18 @@
         "https://www.belfercenter.org/critical-emerging-tech-index"
       ],
       "date": "2026-04-21T03:01:07.018524+00:00"
+    },
+    {
+      "title": "Nvidia dominates the AI data center GPU market with over 90% share, according to analyst estimates, ",
+      "urls": [
+        "https://www.aol.com/articles/think-amd-broadcom-alphabet-nvidias-082600746.html",
+        "https://www.fool.com/investing/2026/04/17/think-amd-avgo-or-googl-is-nvda-biggest-ai-threat",
+        "https://www.instagram.com/reel/DXIouOcEUk-",
+        "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-google-marvell-reportedly-developing-ai-chips-together-144220995.html",
+        "https://seekingalpha.com/article/4891668-amd-riding-the-ai-wave-but-returns-may-stall-from-here"
+      ],
+      "date": "2026-04-21T03:30:53.612232+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T03:01:07.018591+00:00"
+  "lastUpdated": "2026-04-21T03:30:53.612326+00:00"
 }
