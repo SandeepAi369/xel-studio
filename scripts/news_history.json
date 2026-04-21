@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Weather Service Issues Storm Surge Warning Ahead of Severe System",
-      "urls": [
-        "https://www.youtube.com/watch?v=HnSATqfdlos",
-        "https://www.facebook.com/South.Pacific.Post/posts/a-storm-surge-warning-has-been-issued-for-friday-april-10-2026-residents-are-adv/1393441429466936",
-        "https://www.youtube.com/watch?v=qHX7TM0j4zo",
-        "https://weather.com/storms/severe/video/severe-storms-plains-midwest-hail-tornadoes"
-      ],
-      "date": "2026-04-11T18:01:08.431760+00:00"
-    },
-    {
       "title": "Open Source Software Accelerates AI Innovation With Global Developer Network",
       "urls": [
         "https://www.youtube.com/watch?v=kOthGa4R0VI"
@@ -4353,7 +4343,18 @@
         "https://www.gardengrilllv.com"
       ],
       "date": "2026-04-21T17:33:15.057154+00:00"
+    },
+    {
+      "title": "Apple Community users across the U.",
+      "urls": [
+        "https://discussions.apple.com/welcome",
+        "https://discussions.apple.com/thread/255148892",
+        "https://discussions.apple.com/community/apple-account",
+        "https://discussions.apple.com/thread/255554428",
+        "https://discussions.apple.com/docs/DOC-250008306"
+      ],
+      "date": "2026-04-21T18:01:26.224192+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T17:33:15.057218+00:00"
+  "lastUpdated": "2026-04-21T18:01:26.224255+00:00"
 }
