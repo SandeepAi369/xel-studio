@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Software Accelerates AI Innovation With Global Developer Network",
-      "urls": [
-        "https://www.youtube.com/watch?v=kOthGa4R0VI"
-      ],
-      "date": "2026-04-11T18:30:54.953737+00:00"
-    },
-    {
       "title": "Mit Physicists Unveil Terahertz Microscope To Capture Quantum Electron Motions",
       "urls": [
         "https://www.sciencedaily.com/news/matter_energy/medical_technology",
@@ -4354,7 +4347,18 @@
         "https://discussions.apple.com/docs/DOC-250008306"
       ],
       "date": "2026-04-21T18:01:26.224192+00:00"
+    },
+    {
+      "title": "Linux Org Community Showcases Banana Pi R4 For Home Networking Projects",
+      "urls": [
+        "https://www.linux.org/pages/download",
+        "https://www.linux.org",
+        "https://www.linux.org/forums",
+        "https://www.linux.org/forums/linux-beginner-tutorials.123",
+        "https://www.linux.org/whats-new"
+      ],
+      "date": "2026-04-21T18:33:10.577040+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T18:01:26.224255+00:00"
+  "lastUpdated": "2026-04-21T18:33:10.577103+00:00"
 }
