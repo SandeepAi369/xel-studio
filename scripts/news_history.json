@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mit Physicists Unveil Terahertz Microscope To Capture Quantum Electron Motions",
-      "urls": [
-        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
-      ],
-      "date": "2026-04-11T19:01:03.612436+00:00"
-    },
-    {
       "title": "ClaAUDE MYTHOS Outperforms Humans In Cybersecurity Vulnerability Detection",
       "urls": [
         "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
@@ -4358,7 +4350,23 @@
         "https://www.linux.org/whats-new"
       ],
       "date": "2026-04-21T18:33:10.577040+00:00"
+    },
+    {
+      "title": "Uppsala University Drives Growth in Sweden’s Fourth Largest City",
+      "urls": [
+        "https://www.uppsala.se",
+        "https://sv.wikipedia.org/wiki/Uppsala",
+        "https://destinationuppsala.se",
+        "https://www.uu.se/en",
+        "https://svenskadestinationer.se/uppland/att-gora-i-uppsala",
+        "https://www.tripadvisor.com/Attractions-g189871-Activities-Uppsala_Uppsala_County.html",
+        "https://visitsweden.com/where-to-go/middle-sweden/uppland/uppsala",
+        "https://www.akademiska.se",
+        "https://en.wikipedia.org/wiki/Uppsala",
+        "https://www.healthcare.gov"
+      ],
+      "date": "2026-04-21T19:01:15.080040+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T18:33:10.577103+00:00"
+  "lastUpdated": "2026-04-21T19:01:15.080112+00:00"
 }
