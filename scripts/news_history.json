@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "James Webb Space Telescope Spots Earliest Confirmed Black Hole 13 Billion Light-Years Away",
-      "urls": [
-        "https://www.sciencenews.org/article/2025-scientific-discoveries-record"
-      ],
-      "date": "2026-04-11T08:01:06.093350+00:00"
-    },
-    {
       "title": "Elana Meyers Taylor Wins First Olympic Gold in Women’s Bobsled",
       "urls": [
         "https://www.foxnews.com/sports/american-elana-meyers-taylor-finally-captures-gold-medal-winter-olympics-makes-team-usa-history",
@@ -4260,7 +4253,14 @@
         "https://www.nih.gov/about-nih/impact-nih-research/revolutionizing-science/scientific-breakthroughs"
       ],
       "date": "2026-04-21T07:32:05.369191+00:00"
+    },
+    {
+      "title": "Meta And YouTube Found Negligent In Youth Addiction Lawsuit",
+      "urls": [
+        "https://www.nbcnews.com/tech/social-media"
+      ],
+      "date": "2026-04-21T08:02:15.469973+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T07:32:05.369260+00:00"
+  "lastUpdated": "2026-04-21T08:02:15.470038+00:00"
 }
