@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hollywood Studios Condemn ByteDance Seedance 2.0 Over Film Replication Fears",
-      "urls": [
-        "https://www.yahoo.com/entertainment/movies/articles/ai-video-generator-sparks-major-221621313.html",
-        "https://futurism.com/artificial-intelligence/seedance-ai-video-generator-scaring-hollywood",
-        "https://www.reddit.com/r/aiwars/comments/1r0xn9w/the_videos_created_by_the_new_chinese_video",
-        "https://www.reuters.com/business/media-telecom/bytedances-new-ai-video-model-goes-viral-china-looks-second-deepseek-moment-2026-02-12",
-        "https://www.facebook.com/deadline/posts/seedance-20-the-new-ai-video-model-from-tiktoks-chinese-owner-bytedance-is-going/1263941238939547"
-      ],
-      "date": "2026-04-11T22:30:56.510953+00:00"
-    },
-    {
       "title": "Hugging Face Launches Open Source Tools To Cut AI Training Costs",
       "urls": [
         "https://huggingface.co/collections/viralsuite/best-open-source-ai-models",
@@ -4390,7 +4379,23 @@
         "https://myfox8.com/news/north-carolina/winston-salem"
       ],
       "date": "2026-04-21T22:02:20.433277+00:00"
+    },
+    {
+      "title": "MIT researchers developed a speech-to-reality system that fabricates physical objects using voice co",
+      "urls": [
+        "https://news.mit.edu/topic/robotics",
+        "https://spectrum.ieee.org/topic/robotics",
+        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
+        "https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm",
+        "https://news.mit.edu/topic/robotics?page=1",
+        "https://spectrum.ieee.org/amazon-ai-robotics",
+        "https://spectrum.ieee.org/top-robotics-stories-2024",
+        "https://spectrum.ieee.org/amazon-robotics-and-logistics",
+        "https://spectrum.ieee.org/top-robotics-stories-2025",
+        "https://spectrum.ieee.org/first-global-robotics-challenge"
+      ],
+      "date": "2026-04-21T22:31:01.853121+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T22:02:20.433340+00:00"
+  "lastUpdated": "2026-04-21T22:31:01.853185+00:00"
 }
