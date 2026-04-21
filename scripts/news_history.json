@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch has solidified its position as a leading deep learning framework, favored by researchers for",
-      "urls": [
-        "https://www.cointelligence.com/content/the-most-powerful-open-source-ai-tools-available-now",
-        "https://www.facebook.com/pytorch/posts/pytorch-foundation-is-expanding-its-open-source-ai-stack-with-safetensors-execut/943106055013074",
-        "https://is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2026-171"
-      ],
-      "date": "2026-04-11T15:01:06.607617+00:00"
-    },
-    {
       "title": "White House Signs Executive Order 14365 To Standardize National AI Policy",
       "urls": [
         "https://www.polsinelli.com/publications/politics-of-ai-regulation-federal-government-vs-states"
@@ -4313,7 +4304,23 @@
         "https://visual.ly/community/Infographics/entertainment/lets-solve-monty-hall-problem"
       ],
       "date": "2026-04-21T14:36:34.917404+00:00"
+    },
+    {
+      "title": "JLA FORUMS Launches Baby Gear Marketplace Across Three States",
+      "urls": [
+        "https://www.jlaforums.com/viewtopic.php?t=35411247",
+        "https://www.jlaforums.com/viewtopic.php?t=18728554",
+        "https://www.jlaforums.com/rss.php?f=476&t=1",
+        "https://www.jlaforums.com/viewtopic.php?t=19305529",
+        "https://www.jlaforums.com/viewtopic.php?t=471496445",
+        "https://www.jlaforums.com/viewtopic.php?t=18572168",
+        "https://www.jlaforums.com/viewtopic.php?t=628931560",
+        "https://www.jlaforums.com/rss.php?f=229&t=1",
+        "https://www.jlaforums.com/viewforum.php?f=185",
+        "https://www.jlaforums.com/rss.php?f=463&t=1"
+      ],
+      "date": "2026-04-21T15:04:18.685751+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T14:36:34.917465+00:00"
+  "lastUpdated": "2026-04-21T15:04:18.685819+00:00"
 }
