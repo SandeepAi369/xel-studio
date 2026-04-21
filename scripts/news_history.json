@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Tracks 10000 Data Points Per User Monthly",
-      "urls": [
-        "https://www.youtube.com/watch?v=us69h0Wda8M",
-        "https://mlfa.org/how-government-surveillance-and-big-tech-erase-your-privacy-rights"
-      ],
-      "date": "2026-04-11T16:01:11.310614+00:00"
-    },
-    {
       "title": "Eileen Gu secured three medals at the 2026 Winter Olympics, including one gold and two silvers, soli",
       "urls": [
         "https://www.olympics.com/en/milano-cortina-2026/news/eileen-gu-on-historic-winter-olympics-2026-rising-tide-raises-all-boats"
@@ -4329,7 +4321,23 @@
         "https://geekchamp.com/allow-apps-to-access-your-microphone-windows-11-tutorial"
       ],
       "date": "2026-04-21T15:34:10.916939+00:00"
+    },
+    {
+      "title": "Starlink approval in Pakistan has been delayed due to government concerns over data sovereignty and ",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Geopolitics",
+        "https://www.britannica.com/topic/geopolitics",
+        "https://www.ft.com/geopolitics",
+        "https://www.foreignaffairs.com/topics/geopolitics",
+        "https://www.the-world-now.com/geopolitical-risk",
+        "https://discoveryalert.com.au/strategic-scenario-modeling-geopolitical-investment-risk-2026",
+        "https://www.newsbreak.com/news/4599516191330-ranjan-roy-nvidia-faces-fierce-competition-from-google-and-amazon-the-significance-of-gpus-in-ai-model-training-and-the-geopolitical-risks-of-export-controls-big-technology",
+        "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard",
+        "https://www.moneycontrol.com/world/starlink-licence-in-pakistan-delayed-over-data-security-concerns-and-geopolitical-sensitivities-article-13817455.html",
+        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech"
+      ],
+      "date": "2026-04-21T16:02:27.584598+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T15:34:10.916994+00:00"
+  "lastUpdated": "2026-04-21T16:02:27.584661+00:00"
 }
