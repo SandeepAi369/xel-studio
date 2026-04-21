@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta And IBM Launch AI Alliance To Challenge Proprietary Models",
-      "urls": [
-        "https://www.eetimes.com/open-source-ai-gains-ground-as-rising-costs-push-shift-to-smaller-models",
-        "https://ai.meta.com/opensourceai",
-        "https://stackoverflow.blog/2025/04/07/open-source-ai-are-younger-developers-leading-the-way",
-        "https://cmr.berkeley.edu/2026/01/the-coming-disruption-how-open-source-ai-will-challenge-closed-model-giants"
-      ],
-      "date": "2026-04-11T06:31:15.183053+00:00"
-    },
-    {
-      "title": "U.S. And Iran Hold Direct Talks In Islamabad Amid Ceasefire Push",
-      "urls": [
-        "https://www.aljazeera.com/video/upfront/2026/4/10/can-iran-negotiations-lead-to-peace",
-        "https://www.youtube.com/watch?v=q1sJ875n7b0",
-        "https://www.pbs.org/newshour/world/what-we-know-and-dont-know-about-iran-war-negotiations",
-        "https://www.youtube.com/watch?v=jdYRelgJoF0",
-        "https://www.bbc.com/news/articles/cvgkv9y97n0o"
-      ],
-      "date": "2026-04-11T07:01:08.361356+00:00"
-    },
-    {
       "title": "Accelerates Drug Discovery With Machine Learning Breakthrough",
       "urls": [
         "https://www.drugdiscoverynews.com/weekly-rundown-anthropic-and-lilly-s-deals-prove-ai-is-becoming-biopharma-s-biggest-infrastructure-bet-17118",
@@ -4274,7 +4253,14 @@
         "https://wsc-sports.com/blog/industry-insights/why-more-teams-are-switching-to-ai-powered-sports-analytics"
       ],
       "date": "2026-04-21T06:30:59.668671+00:00"
+    },
+    {
+      "title": "U.S. China and EU Race to Dominate AI and Quantum Technologies",
+      "urls": [
+        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOorufsrKVckJtjom50mpDbekdyayFLMHuu2wr-6-DFrvg2JeLPlB"
+      ],
+      "date": "2026-04-21T07:05:30.516094+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T06:30:59.668780+00:00"
+  "lastUpdated": "2026-04-21T07:05:30.516159+00:00"
 }
