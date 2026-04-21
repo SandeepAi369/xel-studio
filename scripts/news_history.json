@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Midjourney has released an updated generative AI model in 2025 that generates high-resolution images",
-      "urls": [
-        "https://www.neo.space/blog/new-ai-tools",
-        "https://www.youtube.com/watch?v=vU42JgrVo2Y"
-      ],
-      "date": "2026-04-11T20:30:57.982003+00:00"
-    },
-    {
       "title": "Rodtang Dominates Rival, Haggerty Claims Flyweight Muay Thai Title",
       "urls": [
         "https://www.mmafighting.com",
@@ -4373,7 +4365,18 @@
         "https://www.usatoday.com/story/special/contributor-content/2025/09/11/ai-may-diagnose-an-illnessbut-only-trust-can-heal-healthcare/86100090007"
       ],
       "date": "2026-04-21T20:02:09.413801+00:00"
+    },
+    {
+      "title": "iOS 26.",
+      "urls": [
+        "https://discussions.apple.com/thread/253894350",
+        "https://discussions.apple.com/thread/255006655",
+        "https://discussions.apple.com/thread/255487071",
+        "https://discussions.apple.com/thread/255701760",
+        "https://discussions.apple.com/thread/256233746"
+      ],
+      "date": "2026-04-21T20:32:10.717265+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T20:02:09.413871+00:00"
+  "lastUpdated": "2026-04-21T20:32:10.717330+00:00"
 }
