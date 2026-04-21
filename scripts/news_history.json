@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vincent Kibet Runs 26:58 At Lille Urban Trail Series",
-      "urls": [
-        "https://www.youtube.com/watch?v=lDfmjEVzyqI"
-      ],
-      "date": "2026-04-11T04:31:00.360628+00:00"
-    },
-    {
       "title": "Web3 Newswire offers a specialized press release distribution service targeting the cryptocurrency a",
       "urls": [
         "https://web3newswire.com?srsltid=AfmBOooOcYl002QM9YPqjObs9X-eBjSelUnuz-66LY52DXRUt8QnIpn6"
@@ -4274,7 +4267,17 @@
         "https://www.instagram.com/p/DXXm3L8FqOl"
       ],
       "date": "2026-04-21T04:30:54.742199+00:00"
+    },
+    {
+      "title": "PyTorch And TensorFlow Dominate Deep Learning Adoption In 2025",
+      "urls": [
+        "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
+        "https://www.portotheme.com/top-deep-learning-frameworks-in-2025-tensorflow-pytorch-or-something-new",
+        "https://www.reddit.com/r/gpt5/comments/1mvv3ik/deep_learning_frameworks_pytorch_vs_tensorflow_in",
+        "https://futurense.com/blog/deep-learning-frameworks"
+      ],
+      "date": "2026-04-21T05:01:03.614503+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T04:30:54.742265+00:00"
+  "lastUpdated": "2026-04-21T05:01:03.614558+00:00"
 }
