@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cerebras Unveils 4 Trillion Transistor Chip Doubling Nvidia Speed",
-      "urls": [
-        "https://www.gurufocus.com/news/4096190/amd-amd-unveils-new-chip-to-challenge-nvidia-in-ai-hardware-market?mobile=true",
-        "https://www.theglobeandmail.com/investing/markets/stocks/AMD/pressreleases/29249700/new-ai-chip-leaves-nvidia-amd-and-intel-in-the-dust-with-20x-faster-speeds-and-over-4-trillion-transistors",
-        "https://www.youtube.com/watch?v=h2Iz3B4GkWc",
-        "https://finance.yahoo.com/news/nvidia-amd-showcased-newest-ai-154143605.html",
-        "https://www.aol.com/articles/amd-targeting-nvidia-ai-lead-153221218.html",
-        "https://finance.yahoo.com/markets/stocks/articles/nvidia-advanced-micro-devices-sounded-132600579.html",
-        "https://www.thestreet.com/technology/nvidia-move-deals-a-major-blow-to-amd-intel-and-arm",
-        "https://www.youtube.com/watch?v=IfU201u9J08"
-      ],
-      "date": "2026-04-11T06:02:42.951651+00:00"
-    },
-    {
       "title": "Meta And IBM Launch AI Alliance To Challenge Proprietary Models",
       "urls": [
         "https://www.eetimes.com/open-source-ai-gains-ground-as-rising-costs-push-shift-to-smaller-models",
@@ -4277,7 +4263,18 @@
         "https://www.youtube.com/watch?v=zZsTVBXcbow"
       ],
       "date": "2026-04-21T06:01:08.558461+00:00"
+    },
+    {
+      "title": "Sports analytics is undergoing a transformation as AI systems enable teams to process vast amounts o",
+      "urls": [
+        "https://www.missioncloud.com/blog/future-trends-in-sports-analytics-lessons-from-the-field",
+        "https://www.linkedin.com/pulse/tech-innovations-sports-performance-analysis-deep-dive-patil-93lbe",
+        "https://finance.yahoo.com/news/sports-technology-market-insights-companies-125000113.html",
+        "https://techxplore.com/news/2026-02-tech-ai-athlete-business.html",
+        "https://wsc-sports.com/blog/industry-insights/why-more-teams-are-switching-to-ai-powered-sports-analytics"
+      ],
+      "date": "2026-04-21T06:30:59.668671+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T06:01:08.558530+00:00"
+  "lastUpdated": "2026-04-21T06:30:59.668780+00:00"
 }
