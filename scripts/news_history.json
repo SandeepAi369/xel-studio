@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rodtang Dominates Rival, Haggerty Claims Flyweight Muay Thai Title",
-      "urls": [
-        "https://www.mmafighting.com",
-        "https://www.youtube.com/watch?v=OCZq6npp-KI"
-      ],
-      "date": "2026-04-11T21:03:07.291719+00:00"
-    },
-    {
       "title": "XRAI Glass Launches Real-Time Subtitle Smart Glasses for Deaf Users",
       "urls": [
         "https://reciteme.com/us/news/deaf-accessibility",
@@ -4376,7 +4368,18 @@
         "https://discussions.apple.com/thread/256233746"
       ],
       "date": "2026-04-21T20:32:10.717265+00:00"
+    },
+    {
+      "title": "Microsoft Updates Outlook With Enhanced Shared Mailboxes For Team Collaboration",
+      "urls": [
+        "https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd",
+        "https://support.microsoft.com/en-us/office/how-to-sign-in-to-hotmail-c378938b-c0eb-40c1-b99e-338dd9e776a8",
+        "https://support.microsoft.com/en-us/office/open-files-from-the-file-menu-97f087d8-3136-4485-8e86-c5b12a8c4176",
+        "https://support.microsoft.com/en-us/windows/exploring-windows-settings-56bdfb5a-b809-4e65-9c90-4bab76745e19",
+        "https://support.microsoft.com/en-us/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1"
+      ],
+      "date": "2026-04-21T21:05:33.233106+00:00"
     }
   ],
-  "lastUpdated": "2026-04-21T20:32:10.717330+00:00"
+  "lastUpdated": "2026-04-21T21:05:33.233168+00:00"
 }
