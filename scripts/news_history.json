@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tenex AI secured $250 million in Series B funding, marking a significant milestone in its growth as ",
-      "urls": [
-        "https://techfundingnews.com/category/acquisition",
-        "https://news.crunchbase.com/venture/record-setting-global-funding-february-2026-openai-anthropic",
-        "https://vcnewsdaily.com",
-        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield"
-      ],
-      "date": "2026-04-12T14:01:05.590825+00:00"
-    },
-    {
       "title": "Google And Hugging Face Integrate Model Hub With Cloud TPUs",
       "urls": [
         "https://huggingface.co/google"
@@ -4483,7 +4473,14 @@
         "https://www.who.int/es/health-topics/mental-health"
       ],
       "date": "2026-04-22T13:32:21.877933+00:00"
+    },
+    {
+      "title": "Fox News operates as a major American conservative news outlet, delivering coverage across televisio",
+      "urls": [
+        "https://www.foxnews.com?msockid=005a1e54d2d9633c11820917d39e629e"
+      ],
+      "date": "2026-04-22T14:02:19.862498+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T13:32:21.877996+00:00"
+  "lastUpdated": "2026-04-22T14:02:19.862561+00:00"
 }
