@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dexerto Expands With Exclusive Content From Shroud Pokimane And Ninja",
-      "urls": [
-        "https://www.dexerto.com"
-      ],
-      "date": "2026-04-12T11:01:08.462717+00:00"
-    },
-    {
       "title": "Leju Robotics Launches High-Speed Production Line With Dongfang Precision",
       "urls": [
         "https://thehumanoid.ai/newsroom",
@@ -4466,7 +4459,23 @@
         "https://www.zhihu.com/question/269704765"
       ],
       "date": "2026-04-22T10:31:01.150633+00:00"
+    },
+    {
+      "title": "NASA Reports Sea Levels Rising Twice as Fast as 20th Century Average",
+      "urls": [
+        "https://climate.nasa.gov/quizzes/ocean-quiz/3/9",
+        "https://climate.nasa.gov/news/3192/nasa-fema-release-comprehensive-climate-action-guide?_hsenc=p2ANqtz--6-U90YbUZKvKrl4BRyEPE1rXA124X28I035oTSvMeyODJAcgfylG93w0sOD5H5EazEOwA",
+        "https://climate.nasa.gov/vital-signs/global-temperature",
+        "https://climate.nasa.gov/quizzes/quiz-co2/8/9",
+        "https://climate.nasa.gov/quizzes/sea-level-quiz/3/10",
+        "https://climate.nasa.gov/quizzes/clouds-aerosols-quiz/9/10",
+        "https://climate.nasa.gov/earth-now?event=eo_event_181126",
+        "https://climate.nasa.gov/quizzes/carbon-quiz?intent=011",
+        "https://climate.nasa.gov/visual-sitemap/resource/2022",
+        "https://climate.nasa.gov/quizzes/global-temp-quiz/4/9"
+      ],
+      "date": "2026-04-22T11:05:37.068253+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T10:31:01.150702+00:00"
+  "lastUpdated": "2026-04-22T11:05:37.068304+00:00"
 }
