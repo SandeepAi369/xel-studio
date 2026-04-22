@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cyclone Vaianu Slams Maket Peninsula With Destructive Winds And Flooding",
-      "urls": [
-        "https://www.facebook.com/vmgd.gov.vu/posts/latest-weather-update-issue-sunday-12042026-time-0500amfor-more-information-chec/1382007923954264",
-        "https://www.youtube.com/watch?v=UKW0gwHCJVg",
-        "https://www.youtube.com/watch?v=kmkI09LjckA",
-        "https://www.facebook.com/civildefensePH/posts/as-of-800-am-today-12-april-2026-typhoon-with-the-international-name-sinlaku-for/1459691049533995",
-        "https://www.facebook.com/NegoccOperationsCenter/posts/as-of-800-am-today-12-april-2026-typhoon-with-the-international-name-sinlaku-for/122261777096165283",
-        "https://www.bernama.com/en/news.php/world/news.php?id=2543995",
-        "https://watchers.news/2026/02/21/coastal-storm-and-long-duration-atmospheric-river-to-bring-heavy-precipitation-to-pacific-northwest-and-california"
-      ],
-      "date": "2026-04-12T18:01:13.375721+00:00"
-    },
-    {
       "title": "Debian Restructures Data Protection Team and Issues Critical Security Updates",
       "urls": [
         "https://www.linux.com",
@@ -4499,7 +4486,21 @@
         "https://techcrunch.com/2021/06/22/addressing-the-cybersecurity-skills-gap-through-neurodiversity"
       ],
       "date": "2026-04-22T17:32:04.015801+00:00"
+    },
+    {
+      "title": "Mayo Clinic Launches Virtual Trials Using AI To Cut Costs And Speed Therapy Development",
+      "urls": [
+        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
+        "https://newsnetwork.mayoclinic.org/discussion/a-year-of-discovery-10-mayo-clinic-research-breakthroughs-moving-medicine-forward",
+        "https://link.springer.com/subjects/medical-and-health-technologies",
+        "https://hms.harvard.edu/news/harvard-medical-schools-top-science-news-2025",
+        "https://www.bme.jhu.edu/news-events/news/the-research-buzz-new-bme-discoveries",
+        "https://www.nih.gov/news-events/news-releases",
+        "https://med.stanford.edu/news/all-news/2025/12/top-advancements-2025.html",
+        "https://www.scientificamerican.com/article/10-transformational-health-discoveries-of-2025"
+      ],
+      "date": "2026-04-22T18:03:29.946598+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T17:32:04.015870+00:00"
+  "lastUpdated": "2026-04-22T18:03:29.946665+00:00"
 }
