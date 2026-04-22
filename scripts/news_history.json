@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Debian Restructures Data Protection Team and Issues Critical Security Updates",
-      "urls": [
-        "https://www.linux.com",
-        "https://9to5linux.com",
-        "https://itsfoss.com/news",
-        "https://www.linuxfoundation.org/press",
-        "https://open.spotify.com/show/3AZjRagzOkDX55Ftk8meuZ",
-        "https://techcommunity.microsoft.com/category/azure/blog/linuxandopensourceblog",
-        "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff",
-        "https://lwn.net",
-        "https://www.linuxtoday.com",
-        "https://github.blog/open-source"
-      ],
-      "date": "2026-04-12T18:30:54.613178+00:00"
-    },
-    {
       "title": "A I Systems Detect Early Cancer With 94 Percent Accuracy In U S Hospitals",
       "urls": [
         "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
@@ -4500,7 +4484,17 @@
         "https://www.scientificamerican.com/article/10-transformational-health-discoveries-of-2025"
       ],
       "date": "2026-04-22T18:03:29.946598+00:00"
+    },
+    {
+      "title": "Mayo Clinic research highlights a strong link between autism spectrum disorder (ASD) and digestive i",
+      "urls": [
+        "https://newsnetwork.mayoclinic.org/discussion/understanding-autism-the-path-to-diagnosis-awareness-and-support",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937",
+        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-treatments-and-therapies-for-autism",
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/expert-answers/autism-and-digestive-symptoms/faq-20322778"
+      ],
+      "date": "2026-04-22T18:31:00.351086+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T18:03:29.946665+00:00"
+  "lastUpdated": "2026-04-22T18:31:00.351153+00:00"
 }
