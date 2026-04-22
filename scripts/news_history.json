@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports Industry To Generate 1.8 Billion By 2025",
-      "urls": [
-        "https://streamscharts.com/news",
-        "https://theleadersglobe.com/science-technology/esports-news-and-trends-how-competitive-gaming-is-redefining-modern-entertainment"
-      ],
-      "date": "2026-04-12T17:01:09.692056+00:00"
-    },
-    {
       "title": "InnoCaption Launches AI-Powered Real-Time Captioning For Phone Calls",
       "urls": [
         "https://rnid.org.uk/information-and-support/technology-and-products",
@@ -4497,7 +4489,17 @@
         "https://newsroom.intel.com/corporate/intel-announces-key-leadership-appointments"
       ],
       "date": "2026-04-22T16:35:20.852310+00:00"
+    },
+    {
+      "title": "Open Set Recognition is a machine learning framework used in computer vision to identify whether an ",
+      "urls": [
+        "https://www.zhihu.com/question/1936231771294376320",
+        "https://www.zhihu.com/question/652814451",
+        "https://www.zhihu.com/question/635737934",
+        "https://www.zhihu.com/question/532962980"
+      ],
+      "date": "2026-04-22T17:01:24.711525+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T16:35:20.852387+00:00"
+  "lastUpdated": "2026-04-22T17:01:24.711597+00:00"
 }
