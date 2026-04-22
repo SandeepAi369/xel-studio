@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gasoline Prices Surge 21.2 Percent Driving Inflation to 3.3 Percent",
-      "urls": [
-        "https://www.nbcnews.com/business/economy",
-        "https://www.youtube.com/watch?v=mMYaEht5fHY"
-      ],
-      "date": "2026-04-12T21:02:05.874088+00:00"
-    },
-    {
       "title": "Openai Voice Stack Empowers Blind Users With Conversational Ai Interface",
       "urls": [
         "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
@@ -4492,7 +4484,18 @@
         "https://discussions.apple.com/thread/256190777"
       ],
       "date": "2026-04-22T20:35:17.686220+00:00"
+    },
+    {
+      "title": "Extreme's More Than Words Hits Number One on Billboard",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Extreme_(band)",
+        "https://m.youtube.com/watch?v=UrIiLvg58SY",
+        "https://m.imdb.com/name/nm1928195",
+        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=3c9e7dfcd4b8658031f86abfd593643e",
+        "https://en.m.wikipedia.org/wiki/Extreme_discography"
+      ],
+      "date": "2026-04-22T21:02:25.364751+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T20:35:17.686283+00:00"
+  "lastUpdated": "2026-04-22T21:02:25.364840+00:00"
 }
