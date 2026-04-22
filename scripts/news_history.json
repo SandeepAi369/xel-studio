@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Graphyte Secures 10-Year Deal To Store Carbon-Rich Biomass Underground",
-      "urls": [
-        "https://www.esgdive.com",
-        "https://www.nytimes.com/2025/11/04/climate/climate-emissions-united-nations.html"
-      ],
-      "date": "2026-04-12T06:30:52.650208+00:00"
-    },
-    {
       "title": "Biden Administration Confronts Record 2 Million Border Encounters",
       "urls": [
         "https://www.unrefugees.org/emergencies/ukraine",
@@ -4448,7 +4440,23 @@
         "https://quantumconsortium.org/publication/quantum-101-what-is-quantum-physics"
       ],
       "date": "2026-04-22T06:01:14.574218+00:00"
+    },
+    {
+      "title": "Myanmar experienced two powerful earthquakes in March 2025, with the initial 7.",
+      "urls": [
+        "https://www.who.int/health-topics/earthquakes",
+        "https://www.who.int/westernpacific/newsroom/feature-stories/item/on-the-path-to-recovery--three-months-after-the-earthquake-in-vanuatu",
+        "https://www.who.int/publications/i/item/9789290225188",
+        "https://www.who.int/southeastasia/outbreaks-and-emergencies/myanmar-earthquake-response-2025",
+        "https://www.who.int/myanmar/news/feature-stories/detail/healing-in-the-open--stories-of-strength-and-recovery-after-the-earthquake",
+        "https://www.who.int/myanmar/news/feature-stories/detail/lives-rebuilt--personal-stories-from-myanmar-s-earthquake-recovery",
+        "https://www.who.int/nepal/news/detail/07-11-2023-who-responds-to-nepal-earthquake",
+        "https://www.who.int/westernpacific/emergencies/great-east-japan-earthquake",
+        "https://www.who.int/europe/news-room/questions-and-answers/item/public-health-advice-in-the-aftermath-of-an-earthquake",
+        "https://www.who.int/nepal/emergencies/west-nepal-earthquake"
+      ],
+      "date": "2026-04-22T06:31:02.756050+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T06:01:14.574291+00:00"
+  "lastUpdated": "2026-04-22T06:31:02.756119+00:00"
 }
