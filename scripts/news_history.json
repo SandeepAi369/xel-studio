@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Agility Robotics To Build 10000 Digit Robots Annually In Oregon Factory",
-      "urls": [
-        "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
-        "https://roboticsandautomationnews.com",
-        "https://www.nbcnews.com/video/shorts/new-humanoid-robots-replacing-workers-in-factories-261041221991",
-        "https://www.youtube.com/watch?v=CoATRD4S_B4"
-      ],
-      "date": "2026-04-12T04:01:07.030441+00:00"
-    },
-    {
       "title": "Cedars-Sinai Researchers Link Gut Microbe Molecules To Colorectal Cancer Risk",
       "urls": [
         "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
@@ -4431,7 +4421,15 @@
         "https://www.iotworldtoday.com/robotics/humanoid-robots"
       ],
       "date": "2026-04-22T03:32:04.480117+00:00"
+    },
+    {
+      "title": "Amazon Deploys Vulcan Robots To Boost Warehouse Efficiency",
+      "urls": [
+        "https://spectrum.ieee.org/amazon-stowing-robots",
+        "https://spectrum.ieee.org/mits-ai-robotics-lab-director"
+      ],
+      "date": "2026-04-22T04:05:33.053528+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T03:32:04.480180+00:00"
+  "lastUpdated": "2026-04-22T04:05:33.053599+00:00"
 }
