@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sudan Conflict Displaces Over 10 Million People Since 2023",
-      "urls": [
-        "https://www.iom.int/escalation-middle-east-and-beyond-growing-humanitarian-crisis",
-        "https://www.youtube.com/watch?v=oB9ZBV54ZKY",
-        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
-        "https://www.aljazeera.com/tag/refugees"
-      ],
-      "date": "2026-04-12T23:30:55.649356+00:00"
-    },
-    {
       "title": "NVIDIA Launches Rubin Platform With Six New Chips For AI Supercomputing",
       "urls": [
         "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
@@ -4511,7 +4501,22 @@
         "https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained?msockid=355c6ebd709b67cf37d279fe710866b3"
       ],
       "date": "2026-04-22T23:01:13.575968+00:00"
+    },
+    {
+      "title": "Whoop Launches Hearing Protection Feature for 430 Million Deaf Users",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+        "https://www.who.int/health-topics/hearing-loss",
+        "https://www.who.int/news-room/facts-in-pictures/detail/deafness",
+        "https://www.who.int/news-room/questions-and-answers/item/how-to-be-hearing-loss-friendly",
+        "https://www.who.int/europe/news/item/12-04-2023-safeguarding-the-rights-of-deaf-people-in-ukraine",
+        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+        "https://www.who.int/news-room/feature-stories/detail/the-deafblind-community--fighting-not-to-be-forgotten",
+        "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-ear-care",
+        "https://www.who.int/es/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+      ],
+      "date": "2026-04-22T23:33:22.315215+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T23:01:13.576032+00:00"
+  "lastUpdated": "2026-04-22T23:33:22.315300+00:00"
 }
