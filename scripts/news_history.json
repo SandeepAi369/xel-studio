@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coding Tools Accelerate App Development And Transform Developer Workflows",
-      "urls": [
-        "https://www.developer-tech.com/news/ai-coding-tools-are-driving-a-surge-in-new-app-development",
-        "https://www.computerworld.com/article/3975705/from-prompts-to-production-ai-will-soon-write-most-code-reshape-developer-roles.html"
-      ],
-      "date": "2026-04-12T15:30:54.640816+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://tradecouncil.org/category/news/technology-trade-policy",
@@ -4482,7 +4474,15 @@
         "https://www.who.int/europe/health-topics/disability"
       ],
       "date": "2026-04-22T15:02:29.428485+00:00"
+    },
+    {
+      "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Decisions",
+      "urls": [
+        "https://news.mit.edu/2024/mit-researchers-advance-automated-interpretability-ai-models-maia-0723",
+        "https://news.mit.edu/2025/audrey-lorvo-aligning-ai-human-values-0204"
+      ],
+      "date": "2026-04-22T15:36:33.680748+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T15:02:29.428554+00:00"
+  "lastUpdated": "2026-04-22T15:36:33.680811+00:00"
 }
