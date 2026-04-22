@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Olympic Medals Fall Apart During Ceremonies Prompting Investigation",
-      "urls": [
-        "https://www.gpb.org/news/2026/02/13/years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
-      ],
-      "date": "2026-04-12T07:31:02.473512+00:00"
-    },
-    {
-      "title": "Senator Chris Van Hollen Analyzes Trumps Iran Policy Backlash",
-      "urls": [
-        "https://www.youtube.com/watch?v=0l71fKjBZMk"
-      ],
-      "date": "2026-04-12T08:01:13.665060+00:00"
-    },
-    {
       "title": "Jakob Ingebrigtsen Smashes 1500m World Best With 3:29.63 In Lievin",
       "urls": [
         "https://www.olympics.com/en/news/athletics-all-track-and-field-world-records-at-a-glance",
@@ -4464,7 +4450,21 @@
         "https://www.nist.gov/artificial-intelligence"
       ],
       "date": "2026-04-22T07:31:01.596054+00:00"
+    },
+    {
+      "title": "Esports industry is projected to surpass $6.",
+      "urls": [
+        "https://www.esports.net/news",
+        "https://dotesports.com/streaming",
+        "https://esportsadvocate.net",
+        "https://www.talkesport.com/category/news/esports",
+        "https://escorenews.com/en",
+        "https://www.gosugamers.net",
+        "https://www.strafe.com/news",
+        "https://www.bdo.com/insights/industries/gaming-leisure/the-evolution-of-the-esports-market"
+      ],
+      "date": "2026-04-22T08:06:28.408757+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T07:31:01.596111+00:00"
+  "lastUpdated": "2026-04-22T08:06:28.408835+00:00"
 }
