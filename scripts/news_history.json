@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google And Hugging Face Integrate Model Hub With Cloud TPUs",
-      "urls": [
-        "https://huggingface.co/google"
-      ],
-      "date": "2026-04-12T14:31:01.970036+00:00"
-    },
-    {
       "title": "Kīlauea Eruption Ends As USGS Lowers Alert Level",
       "urls": [
         "https://www.instagram.com/reel/DXB5trTjDQ_",
@@ -4480,7 +4473,18 @@
         "https://www.foxnews.com?msockid=005a1e54d2d9633c11820917d39e629e"
       ],
       "date": "2026-04-22T14:02:19.862498+00:00"
+    },
+    {
+      "title": "Phoenix Home Prices Surpass $480,000 Amid Housing Shortage",
+      "urls": [
+        "https://www.abc15.com",
+        "https://www.phoenixnewtimes.com/news",
+        "https://www.12news.com/watch",
+        "https://news-usa.today/fox-10-phoenix-breaking-news-and-local-arizona-stories",
+        "https://www.azfamily.com"
+      ],
+      "date": "2026-04-22T14:33:29.169929+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T14:02:19.862561+00:00"
+  "lastUpdated": "2026-04-22T14:33:29.170013+00:00"
 }
