@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society Urges Inclusion Of Disabled People In Digital Assistive Technology Design",
-      "urls": [
-        "https://royalsociety.org/news/2025/06/disability-technology"
-      ],
-      "date": "2026-04-12T13:30:59.282821+00:00"
-    },
-    {
       "title": "Tenex AI secured $250 million in Series B funding, marking a significant milestone in its growth as ",
       "urls": [
         "https://techfundingnews.com/category/acquisition",
@@ -4482,7 +4475,15 @@
         "https://www.youtube.com/c/CBSNews/live"
       ],
       "date": "2026-04-22T13:04:01.057545+00:00"
+    },
+    {
+      "title": "Who What: Depression Affects 280 Million Globally Says WHO",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+        "https://www.who.int/es/health-topics/mental-health"
+      ],
+      "date": "2026-04-22T13:32:21.877933+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T13:04:01.057618+00:00"
+  "lastUpdated": "2026-04-22T13:32:21.877996+00:00"
 }
