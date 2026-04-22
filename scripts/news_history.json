@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Micron Shares Surge To $420.59 On AI Chip Demand",
-      "urls": [
-        "https://www.youtube.com/watch?v=sGakJSUHD9Y",
-        "https://bloomberg.com/latest/tech-company-earnings",
-        "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-rout-flashing-112815599.html",
-        "https://www.youtube.com/watch?v=3ls3yC6_aME",
-        "https://www.marketwatch.com/investing/stocks/tech-stocks",
-        "https://investingnews.com/top-tech-news",
-        "https://finance.yahoo.com/sectors/technology",
-        "https://finance.yahoo.com/research-hub/screener/growth_technology_stocks"
-      ],
-      "date": "2026-04-12T03:30:52.184748+00:00"
-    },
-    {
       "title": "Agility Robotics To Build 10000 Digit Robots Annually In Oregon Factory",
       "urls": [
         "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
@@ -4430,7 +4416,22 @@
         "https://www.konami.com/efootball/ar/page/2024/versioninfo_v3-60"
       ],
       "date": "2026-04-22T03:01:10.791685+00:00"
+    },
+    {
+      "title": "BMW Deploys Hmnd 01 Alpha Humanoid Robots On Ev Assembly Lines",
+      "urls": [
+        "https://www.therobotreport.com/robotics-news",
+        "https://humanoidroboticstechnology.com/category/news",
+        "https://techcrunch.com/category/robotics",
+        "https://www.foxnews.com/tech/bmw-puts-humanoid-robots-work-building-evs?msockid=0becc08ee3ed65b810e3d7cde230642d",
+        "https://www.autoblog.com/news/bmw-is-putting-humanoid-robots-on-its-factory-floor-to-cut-ev-costs",
+        "https://www.assemblymag.com/articles/99984-pia-automation-launches-humanoid-robotics-unit-to-expand-industrial-automation-capabilities",
+        "https://interestingengineering.com/ai-robotics/robco-humanoid-robot-autonomous-alfie",
+        "https://www.prnewswire.com/news-releases/siemens-and-humanoid-bring-physical-ai-to-the-factory-floor-deploying-humanoids-in-industrial-operations-with-nvidia-302744559.html",
+        "https://www.iotworldtoday.com/robotics/humanoid-robots"
+      ],
+      "date": "2026-04-22T03:32:04.480117+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T03:01:10.791760+00:00"
+  "lastUpdated": "2026-04-22T03:32:04.480180+00:00"
 }
