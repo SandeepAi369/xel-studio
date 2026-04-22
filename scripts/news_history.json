@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qure.",
-      "urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156",
-        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
-        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
-        "https://www.qure.ai/us/newsroom",
-        "https://www.youtube.com/watch?v=5kwyuYJ2xEA",
-        "https://www.ama-assn.org/topics/health-care-ai"
-      ],
-      "date": "2026-04-12T09:32:08.078663+00:00"
-    },
-    {
       "title": "St Jude Researchers Uncover How Retinoic Acid Activates Tumor Suppressing Genes",
       "urls": [
         "https://www.medicaldiscoverynews.com",
@@ -4467,7 +4455,16 @@
         "https://github.com/nousresearch/hermes-agent"
       ],
       "date": "2026-04-22T09:03:26.509982+00:00"
+    },
+    {
+      "title": "Reuters And NBC News Deliver Real Time Global Coverage",
+      "urls": [
+        "https://www.reuters.com/live",
+        "https://www.youtube.com/@NBCNews/live",
+        "https://www.foxnews.com?msockid=02acc1f4c352677c337bd6b7c2dd6632"
+      ],
+      "date": "2026-04-22T09:33:08.938913+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T09:03:26.510069+00:00"
+  "lastUpdated": "2026-04-22T09:33:08.938974+00:00"
 }
