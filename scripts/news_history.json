@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jpmorgan Finds Telehealth Payment Integration Cuts Billing Delays By 40 Percent",
-      "urls": [
-        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
-        "https://www.youtube.com/watch?v=5D665Q3ujuQ",
-        "https://www.worldhealthexpo.com/insights/medical-technology/telemedicine",
-        "https://www.jpmorgan.com/payments/payments-unbound/volume-2/the-new-telehealth-economy",
-        "https://www.aamc.org/news/telehealth-innovations-health-technology",
-        "https://www.ft.com/digital-health",
-        "https://www.statnews.com/topic/health-tech"
-      ],
-      "date": "2026-04-12T02:30:59.079119+00:00"
-    },
-    {
       "title": "Akamai Deploys Edge AI To Optimize Global Cloud Infrastructure",
       "urls": [
         "https://www.akamai.com/blog/cloud/ai-cloud-computing-revolutionizing-landscape"
@@ -4425,7 +4412,16 @@
         "https://news.mit.edu/2026/creating-humble-ai-0324"
       ],
       "date": "2026-04-22T02:01:08.656909+00:00"
+    },
+    {
+      "title": "Fox News Delivers Real-Time Coverage Across Multiple Platforms",
+      "urls": [
+        "https://www.ms.now",
+        "https://www.washingtonpost.com/latest-headlines",
+        "https://www.foxnews.com?msockid=15dceada56b26d870415fd9957716c2d"
+      ],
+      "date": "2026-04-22T02:33:02.694917+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T02:01:08.656980+00:00"
+  "lastUpdated": "2026-04-22T02:33:02.694986+00:00"
 }
