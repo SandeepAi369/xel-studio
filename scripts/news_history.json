@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Olympic Team Wins Multiple Golds at Winter Games",
-      "urls": [
-        "https://www.nytimes.com/athletic/7050927/2026/02/16/elana-meyers-taylor-monobob-gold-medal-winter-olympics",
-        "https://www.kuow.org/stories/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states"
-      ],
-      "date": "2026-04-12T02:01:04.200468+00:00"
-    },
-    {
       "title": "Jpmorgan Finds Telehealth Payment Integration Cuts Billing Delays By 40 Percent",
       "urls": [
         "https://www.businesswire.com/newsroom/industry/health/telemedicine",
@@ -4418,7 +4410,22 @@
         "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health/who-disability-assessment-schedule"
       ],
       "date": "2026-04-22T01:31:00.766428+00:00"
+    },
+    {
+      "title": "MIT researchers developed a framework to create \"humble\" AI systems that recognize and communicate u",
+      "urls": [
+        "https://stackoverflow.com/ai-assist",
+        "https://news.mit.edu/2025/ai-tool-generates-high-quality-images-faster-0321",
+        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
+        "https://news.mit.edu/2023/explained-generative-ai-1109",
+        "https://stackoverflow.com/questions/79717434/how-to-disable-ai-autocomplete-in-vs-code",
+        "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
+        "https://news.mit.edu/2024/mit-researchers-develop-efficiency-training-more-reliable-ai-agents-1122",
+        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219",
+        "https://news.mit.edu/2026/creating-humble-ai-0324"
+      ],
+      "date": "2026-04-22T02:01:08.656909+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T01:31:00.766496+00:00"
+  "lastUpdated": "2026-04-22T02:01:08.656980+00:00"
 }
