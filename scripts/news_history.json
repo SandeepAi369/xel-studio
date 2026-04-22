@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kīlauea Eruption Ends As USGS Lowers Alert Level",
-      "urls": [
-        "https://www.instagram.com/reel/DXB5trTjDQ_",
-        "https://www.usgs.gov/observatories/hvo/news/volcano-watch-caldera-clues-tephra-deposits-kilaueas-past",
-        "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
-      ],
-      "date": "2026-04-12T15:01:04.359221+00:00"
-    },
-    {
       "title": "Coding Tools Accelerate App Development And Transform Developer Workflows",
       "urls": [
         "https://www.developer-tech.com/news/ai-coding-tools-are-driving-a-surge-in-new-app-development",
@@ -4484,7 +4475,14 @@
         "https://www.azfamily.com"
       ],
       "date": "2026-04-22T14:33:29.169929+00:00"
+    },
+    {
+      "title": "World Health Organization defines disability as the interaction between individuals with health cond",
+      "urls": [
+        "https://www.who.int/europe/health-topics/disability"
+      ],
+      "date": "2026-04-22T15:02:29.428485+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T14:33:29.170013+00:00"
+  "lastUpdated": "2026-04-22T15:02:29.428554+00:00"
 }
