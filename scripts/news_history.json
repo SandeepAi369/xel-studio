@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ontario Awards 1.3 Gigawatts Of Solar And Wind Contracts",
-      "urls": [
-        "https://www.reuters.com/business/energy/wind",
-        "https://apnews.com/hub/wind-power",
-        "https://renews.biz",
-        "https://renewablesnow.com"
-      ],
-      "date": "2026-04-12T22:30:53.922255+00:00"
-    },
-    {
       "title": "Open Source AI Models Close In on Proprietary Leaders",
       "urls": [
         "https://medium.com/@kierangilmurray/open-source-ai-revolution-how-community-models-are-disrupting-big-tech-aebd86163430",
@@ -4500,7 +4490,23 @@
         "https://techcrunch.com/category/climate"
       ],
       "date": "2026-04-22T22:01:17.323340+00:00"
+    },
+    {
+      "title": "Refugee is defined as someone outside their home country due to persecution or a well-founded fear o",
+      "urls": [
+        "https://www.unrefugees.org/refugee-facts/what-is-a-refugee",
+        "https://en.wikipedia.org/wiki/Refugee",
+        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
+        "https://www.britannica.com/topic/refugee",
+        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
+        "https://www.worldvision.org/refugees-news-stories/what-is-a-refugee-facts",
+        "https://www.migrationpolicy.org/article/refugees-and-asylees-united-states",
+        "https://ohss.dhs.gov/topics/immigration/refugees",
+        "https://cglj.org/human-rights-law/thematic-research-guides/refugee-law",
+        "https://www.usa.gov/refugee"
+      ],
+      "date": "2026-04-22T22:32:13.643183+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T22:01:17.323408+00:00"
+  "lastUpdated": "2026-04-22T22:32:13.643251+00:00"
 }
