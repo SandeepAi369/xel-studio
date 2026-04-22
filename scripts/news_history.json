@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zealand Pharma Opens Cambridge Hub For AI Drug Discovery",
-      "urls": [
-        "https://pharmaphorum.com/news/ai-drug-discovery-and-development-news-watch",
-        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706",
-        "https://www.weforum.org/stories/2026/01/how-ai-is-reshaping-drug-discovery",
-        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159"
-      ],
-      "date": "2026-04-12T19:30:58.301371+00:00"
-    },
-    {
       "title": "China Deploys Tan Suo San Hao For Arctic Crewed Dives",
       "urls": [
         "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762384",
@@ -4498,7 +4488,16 @@
         "https://phoenix10k.com"
       ],
       "date": "2026-04-22T19:07:05.588816+00:00"
+    },
+    {
+      "title": "Robotics And Ai Institute Triples Spot Robot Speed Using Reinforcement Learning",
+      "urls": [
+        "https://spectrum.ieee.org/ai-institute",
+        "https://spectrum.ieee.org/robots-ces-2026",
+        "https://spectrum.ieee.org/ai-robots"
+      ],
+      "date": "2026-04-22T19:32:07.571884+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T19:07:05.588879+00:00"
+  "lastUpdated": "2026-04-22T19:32:07.571959+00:00"
 }
