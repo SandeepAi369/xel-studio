@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://tradecouncil.org/category/news/technology-trade-policy",
-        "https://itif.org/publications/2025/12/01/defending-american-tech-in-global-markets",
-        "https://actonline.org/2026/03/24/trade-policys-big-impacts-on-small-tech",
-        "https://www.itic.org/news-events/news-releases?policy=federal-advocacy"
-      ],
-      "date": "2026-04-12T16:01:08.714594+00:00"
-    },
-    {
       "title": "Checkmate Gaming Launches High-Payout Cash Matches For Call Of Duty Players",
       "urls": [
         "https://www.checkmategaming.com/tournaments"
@@ -4482,7 +4472,23 @@
         "https://news.mit.edu/2025/audrey-lorvo-aligning-ai-human-values-0204"
       ],
       "date": "2026-04-22T15:36:33.680748+00:00"
+    },
+    {
+      "title": "Anthropic Labs has launched Claude Design, a new tool enabling users to collaborate with the AI assi",
+      "urls": [
+        "https://www.anthropic.com",
+        "https://www.anthropic.com/learn",
+        "https://www.anthropic.com/careers",
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "https://www.anthropic.com/company",
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news/claude-2",
+        "https://www.anthropic.com/glasswing",
+        "https://www.anthropic.com/news/introducing-claude"
+      ],
+      "date": "2026-04-22T16:05:40.616540+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T15:36:33.680811+00:00"
+  "lastUpdated": "2026-04-22T16:05:40.616601+00:00"
 }
