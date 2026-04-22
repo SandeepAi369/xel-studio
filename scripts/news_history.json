@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gloucestershire Residents Shape Google's Creatability AI Tools",
-      "urls": [
-        "https://www.bbc.com/news/articles/cz7pdy3yq3qo",
-        "https://www.forbes.com/sites/billschiffmiller/2025/01/20/accessibility-tech-showcased-at-ces-2025-is-transforming-shared-experiences",
-        "https://govcio.com/resources/article/six-exciting-advancements-in-accessible-technology"
-      ],
-      "date": "2026-04-12T01:01:06.516412+00:00"
-    },
-    {
-      "title": "NOAA Warns 25 Million Of Tornado Threat In Midwest Storm Outbreak",
-      "urls": [
-        "https://www.weatherapi.com",
-        "https://www.youtube.com/watch?v=HbDZH1WoccQ",
-        "https://www.1news.co.nz/2026/04/12/govt-gives-briefing-on-cyclone-vaianu-response-full-video",
-        "https://www.foxweather.com/weather-news/severe-storms-target-heartland-close-out-march-stormy-april-pattern-follows",
-        "https://www.ncei.noaa.gov/access/billions/events",
-        "https://www.youtube.com/watch?v=VThYDwocW-o",
-        "https://www.youtube.com/watch?v=mhSP74sYA6o"
-      ],
-      "date": "2026-04-12T01:30:52.026034+00:00"
-    },
-    {
       "title": "U.S. Olympic Team Wins Multiple Golds at Winter Games",
       "urls": [
         "https://www.nytimes.com/athletic/7050927/2026/02/16/elana-meyers-taylor-monobob-gold-medal-winter-olympics",
@@ -4424,7 +4402,23 @@
         "https://www.nba.com/lakers/broadcast/spectrum-sportsnet-lakers-broadcast-faqs"
       ],
       "date": "2026-04-22T01:01:05.246118+00:00"
+    },
+    {
+      "title": "Global Disability Summit 2025 Unites Leaders to Advance Inclusion for 1.3 Billion",
+      "urls": [
+        "https://www.who.int/health-topics/disability",
+        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
+        "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
+        "https://www.who.int/es/news-room/fact-sheets/detail/disability-and-health",
+        "https://www.who.int/westernpacific/health-topics/disability",
+        "https://www.who.int/teams/noncommunicable-diseases/sensory-functions-disability-and-rehabilitation/world-report-on-disability",
+        "https://www.who.int/news-room/events/detail/2025/04/02/default-calendar/global-disability-summit-2025",
+        "https://www.who.int/news-room/facts-in-pictures/detail/disabilities",
+        "https://www.who.int/publications/m/item/icf-beginner-s-guide-towards-a-common-language-for-functioning-disability-and-health",
+        "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health/who-disability-assessment-schedule"
+      ],
+      "date": "2026-04-22T01:31:00.766428+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T01:01:05.246186+00:00"
+  "lastUpdated": "2026-04-22T01:31:00.766496+00:00"
 }
