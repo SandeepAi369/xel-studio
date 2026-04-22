@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jakob Ingebrigtsen Smashes 1500m World Best With 3:29.63 In Lievin",
-      "urls": [
-        "https://www.olympics.com/en/news/athletics-all-track-and-field-world-records-at-a-glance",
-        "https://www.youtube.com/watch?v=bItXghj3Re8",
-        "https://usatf.org/news",
-        "https://www.flotrack.org"
-      ],
-      "date": "2026-04-12T08:30:58.111566+00:00"
-    },
-    {
-      "title": "Google Gemini 3 DeepThink Solves Olympiad Math With Aletheia Verification",
-      "urls": [
-        "https://www.youtube.com/watch?v=OFb3f3RnxRk",
-        "https://deepmind.google/research",
-        "https://deepmind.google/research/publications",
-        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
-        "https://blog.google/products-and-platforms/products/gemini",
-        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
-        "https://deepmind.google/blog",
-        "https://deepmind.google",
-        "https://gemini.google/overview/deep-research",
-        "https://research.google/blog"
-      ],
-      "date": "2026-04-12T09:01:07.188627+00:00"
-    },
-    {
       "title": "Qure.",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156",
@@ -4477,7 +4451,23 @@
         "https://en.wikipedia.org/wiki/Marathon"
       ],
       "date": "2026-04-22T08:30:56.316703+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Open LLM Leaderboard to Rank 100+ Models",
+      "urls": [
+        "https://www.zhihu.com/question/564621151",
+        "https://www.zhihu.com/org/huggingface",
+        "https://www.zhihu.com/question/371644077",
+        "https://www.zhihu.com/pin/1932186071048890006",
+        "https://www.zhihu.com/question/660053501",
+        "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+        "https://arena.ai",
+        "https://aiflashreport.com",
+        "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
+        "https://github.com/nousresearch/hermes-agent"
+      ],
+      "date": "2026-04-22T09:03:26.509982+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T08:30:56.316763+00:00"
+  "lastUpdated": "2026-04-22T09:03:26.510069+00:00"
 }
