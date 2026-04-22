@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Openai Voice Stack Empowers Blind Users With Conversational Ai Interface",
-      "urls": [
-        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
-        "https://rackham.umich.edu/discover-rackham/full/pioneering-accessibility-early-computing-screen-readers-and-new-tech",
-        "https://pubmed.ncbi.nlm.nih.gov/40614067",
-        "https://toptechtidbits.com/how-voice-first-ai-could-soon-change-everything-for-blv-people",
-        "https://www.govtech.com/computing/digital-inaccessibility-blind-and-low-vision-people-have-powerful-tech-but-still-face-digital-barriers",
-        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired/screen-readers",
-        "https://blog.usablenet.com/a-screen-reader-users-honest-take",
-        "https://www.youtube.com/watch?v=yWrqoOSViDY"
-      ],
-      "date": "2026-04-12T21:30:59.567334+00:00"
-    },
-    {
       "title": "Google Launches Enhanced Gemini 3 Deep Think For Advanced Research And Engineering",
       "urls": [
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think"
@@ -4495,7 +4481,22 @@
         "https://en.m.wikipedia.org/wiki/Extreme_discography"
       ],
       "date": "2026-04-22T21:02:25.364751+00:00"
+    },
+    {
+      "title": "Sight Savers America Equips 30 Houston Children With AI Vision Aids",
+      "urls": [
+        "https://www.counton2.com/news/local-news/blind-and-visually-impaired-children-receive-life-changing-high-tech-vision-aids",
+        "https://www.wlwt.com/article/nonprofit-bridge-digital-vision-students-cincinnati/70696605",
+        "https://top5accessibility.com/blog/innovative-assistive-technologies-for-visually-impaired-students",
+        "https://news.cornell.edu/stories/2026/04/ai-tools-help-vision-impaired-are-good-could-be-better",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11314945",
+        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
+        "https://blogs.vcu.edu/engineering/2026/01/14/vcu-college-of-engineering-receives-4-5-million-of-funding-for-research-supporting-blind-visually-impaired-individuals",
+        "https://www.afb.org/news-publications/publications/jvib/authors/calls-papers/2025-special-issue-technology",
+        "https://www.opt.uh.edu/about/college-news-events/articles/visually-impaired-children-receive-life-changing-vision-aids.cfm"
+      ],
+      "date": "2026-04-22T21:38:52.517724+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T21:02:25.364840+00:00"
+  "lastUpdated": "2026-04-22T21:38:52.517805+00:00"
 }
