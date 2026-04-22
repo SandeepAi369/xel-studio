@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Deploys Tan Suo San Hao For Arctic Crewed Dives",
-      "urls": [
-        "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762384",
-        "https://www.scmp.com/economy/china-economy/article/3330611/chinas-geopolitical-competition-expands-new-frontiers-scientific-milestones",
-        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
-        "https://www.atlanticcouncil.org/content-series/inflection-points/its-time-to-reckon-with-the-geopolitics-of-artificial-intelligence"
-      ],
-      "date": "2026-04-12T20:01:10.841199+00:00"
-    },
-    {
       "title": "Northeastern Researchers Develop Autonomous Wheelchair With Robotic Arm",
       "urls": [
         "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOorNCWsJ27c-q_tizw45rFUMWZvG7FzFEParT_g5uyYDVJVpRs97",
@@ -4497,7 +4487,18 @@
         "https://spectrum.ieee.org/ai-robots"
       ],
       "date": "2026-04-22T19:32:07.571884+00:00"
+    },
+    {
+      "title": "Social Security Administration has expanded its digital service offerings through the my Social Secu",
+      "urls": [
+        "https://www.ssa.gov/myaccount",
+        "https://secure.ssa.gov/RIL/SiView.action",
+        "https://www.ssa.gov/onlineservices",
+        "https://www.ssa.gov/agency/contact",
+        "https://www.ssa.gov"
+      ],
+      "date": "2026-04-22T20:02:16.581847+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T19:32:07.571959+00:00"
+  "lastUpdated": "2026-04-22T20:02:16.581961+00:00"
 }
