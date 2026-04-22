@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Biden Administration Confronts Record 2 Million Border Encounters",
-      "urls": [
-        "https://www.unrefugees.org/emergencies/ukraine",
-        "https://www.iom.int/escalating-conflict-middle-east-growing-humanitarian-crisis",
-        "https://www.pbs.org/newshour/tag/migrant-crisis",
-        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
-        "https://www.unhcr.org/us/global-trends"
-      ],
-      "date": "2026-04-12T07:01:06.540001+00:00"
-    },
-    {
       "title": "Olympic Medals Fall Apart During Ceremonies Prompting Investigation",
       "urls": [
         "https://www.gpb.org/news/2026/02/13/years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
@@ -4456,7 +4445,14 @@
         "https://www.who.int/nepal/emergencies/west-nepal-earthquake"
       ],
       "date": "2026-04-22T06:31:02.756050+00:00"
+    },
+    {
+      "title": "Fox News Delivers Real-Time Coverage With Tucker Carlson Commentary",
+      "urls": [
+        "https://www.foxnews.com?msockid=0c2cdd6030ef60b0374aca23319561ab"
+      ],
+      "date": "2026-04-22T07:07:26.045799+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T06:31:02.756119+00:00"
+  "lastUpdated": "2026-04-22T07:07:26.045871+00:00"
 }
