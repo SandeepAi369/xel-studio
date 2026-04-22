@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Launches AI-Powered Real-Time Captioning For Phone Calls",
-      "urls": [
-        "https://rnid.org.uk/information-and-support/technology-and-products",
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoo6R06QCy9XFDjcrEw9WofrCzjcYgT6XDGdH4Ind24f-XVq-qR7",
-        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
-        "https://www.accesswireless.org/resources-for-consumers/hearing-resources",
-        "https://www.youtube.com/watch?v=TXH_JzxV7xw",
-        "https://www.youtube.com/watch?v=VbGiJHuvOGg",
-        "https://www.hearingtracker.com/news/audio-accessibility-creating-inclusive-listening-experiences-for-everyone"
-      ],
-      "date": "2026-04-12T17:30:55.377357+00:00"
-    },
-    {
       "title": "Cyclone Vaianu Slams Maket Peninsula With Destructive Winds And Flooding",
       "urls": [
         "https://www.facebook.com/vmgd.gov.vu/posts/latest-weather-update-issue-sunday-12042026-time-0500amfor-more-information-chec/1382007923954264",
@@ -4499,7 +4486,20 @@
         "https://www.zhihu.com/question/532962980"
       ],
       "date": "2026-04-22T17:01:24.711525+00:00"
+    },
+    {
+      "title": "Autism Speaks Expands Support Programs For Neurodiverse Individuals",
+      "urls": [
+        "https://mcpress.mayoclinic.org/mental-health/diagnosed-with-autism-as-an-adult-what-to-know",
+        "https://mcpress.mayoclinic.org/parenting/early-signs-of-autism",
+        "https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring",
+        "https://www.deloitte.com/us/en/insights/topics/talent/neurodiversity-in-the-workplace.html",
+        "https://www.autismspeaks.org",
+        "https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage",
+        "https://techcrunch.com/2021/06/22/addressing-the-cybersecurity-skills-gap-through-neurodiversity"
+      ],
+      "date": "2026-04-22T17:32:04.015801+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T17:01:24.711597+00:00"
+  "lastUpdated": "2026-04-22T17:32:04.015870+00:00"
 }
