@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "St Jude Researchers Uncover How Retinoic Acid Activates Tumor Suppressing Genes",
-      "urls": [
-        "https://www.medicaldiscoverynews.com",
-        "https://scitechdaily.com/news/health",
-        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
-        "https://nchstats.com/breakthroughs-in-medical-test-equipment",
-        "https://icahn.mssm.edu/research/breakthroughs",
-        "https://www.stjude.org/media-resources/news-releases/2025-medicine-science-news.html",
-        "https://www.bioworld.com/topics/84-bioworld"
-      ],
-      "date": "2026-04-12T10:01:06.048615+00:00"
-    },
-    {
       "title": "Anthropic Launches Autonomous AI Agents For Enterprise Workflows",
       "urls": [
         "https://www.youtube.com/watch?v=tILZuOvro6I"
@@ -4464,7 +4451,18 @@
         "https://www.foxnews.com?msockid=02acc1f4c352677c337bd6b7c2dd6632"
       ],
       "date": "2026-04-22T09:33:08.938913+00:00"
+    },
+    {
+      "title": "Microsoft Store Outage Disrupts App And Game Access",
+      "urls": [
+        "https://support.microsoft.com/en-us/office/install-or-reinstall-classic-outlook-on-a-windows-pc-5c94902b-31a5-4274-abb0-b07f4661edf5",
+        "https://support.microsoft.com/en-us/windows/open-device-manager-a7f2db46-faaf-24f0-8b7b-9e4a6032fc8c",
+        "https://support.microsoft.com/en-us/office/open-encrypted-and-protected-messages-1157a286-8ecc-4b1e-ac43-2a608fbf3098",
+        "https://support.microsoft.com/en-us/account-billing/microsoft-store-doesn-t-open-126a875d-8b72-def1-0af6-d325276a058b",
+        "https://support.microsoft.com/en-us/office/open-a-project-file-72aa3f26-7626-4e7e-b03c-18f2fe1956d6"
+      ],
+      "date": "2026-04-22T10:01:08.045910+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T09:33:08.938974+00:00"
+  "lastUpdated": "2026-04-22T10:01:08.045985+00:00"
 }
