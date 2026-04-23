@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sakurajima volcano erupted on Saturday, sending a massive plume of thick, dark ash high into the atm",
-      "urls": [
-        "https://www.youtube.com/watch?v=R7oKBl983U0",
-        "https://www.instagram.com/reel/DXEdXhhCULE"
-      ],
-      "date": "2026-04-13T18:05:01.140233+00:00"
-    },
-    {
       "title": "PyTorch excels in research and rapid prototyping due to its dynamic computation graph, making it the",
       "urls": [
         "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
@@ -4593,7 +4585,20 @@
         "https://www.who.int/news/item/25-06-2024-over-3-million-annual-deaths-due-to-alcohol-and-drug-use-majority-among-men"
       ],
       "date": "2026-04-23T18:01:32.500010+00:00"
+    },
+    {
+      "title": "Americans With Disabilities Act Requires Accessible Parking Nationwide",
+      "urls": [
+        "https://www.thefreedictionary.com/accessible",
+        "https://www.dictionary.com/browse/accessible",
+        "https://www.collinsdictionary.com/dictionary/english/accessible",
+        "https://www.vocabulary.com/dictionary/accessible",
+        "https://en.wikipedia.org/wiki/Accessibility",
+        "https://www.wordreference.com/definition/accessible",
+        "https://www.ada.gov"
+      ],
+      "date": "2026-04-23T18:31:05.414832+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T18:01:32.500065+00:00"
+  "lastUpdated": "2026-04-23T18:31:05.414884+00:00"
 }
