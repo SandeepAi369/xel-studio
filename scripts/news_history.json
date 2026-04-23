@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qualcomm announces new data center AI accelerator chips focused on inference, directly challenging N",
-      "urls": [
-        "https://www.cnbc.com/2025/10/27/qualcomm-ai200-ai250-ai-chips-nvidia-amd.html",
-        "https://patentpc.com/blog/the-ai-chip-market-explosion-key-stats-on-nvidia-amd-and-intels-ai-dominance",
-        "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-reveals-roadmap-with-nine-month-cadence-for-new-ai-processor-releases-beating-nvidia-and-amds-yearly-cadence-musk-plans-to-have-the-highest-volume-chips-in-the-world",
-        "https://www.youtube.com/watch?v=MleiSYvWIzY"
-      ],
-      "date": "2026-04-13T19:33:49.227595+00:00"
-    },
-    {
       "title": "{\"articleText\": \"Viktor Orb\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\",
       "urls": [
         "https://www.npr.org/sections/elections",
@@ -4594,7 +4583,15 @@
         "https://www.nature.com/subjects/quantum-physics"
       ],
       "date": "2026-04-23T19:30:59.781436+00:00"
+    },
+    {
+      "title": "Earth Now provides real-time climate data through NASA's Vital Signs of the Planet program, tracking",
+      "urls": [
+        "https://climate.nasa.gov/visual-sitemap/news/2015/in-progress",
+        "https://climate.nasa.gov/earth-now?event=eo_event_190422"
+      ],
+      "date": "2026-04-23T20:04:20.005465+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T19:30:59.781502+00:00"
+  "lastUpdated": "2026-04-23T20:04:20.005538+00:00"
 }
