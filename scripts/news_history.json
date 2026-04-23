@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Launches Real Time Captioning For Phone Calls",
-      "urls": [
-        "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoqT5n8jHX1L7e5wmbTeGKt8SgSK_kl9dRxFT4Ga14FDGrmVKMs6"
-      ],
-      "date": "2026-04-13T09:33:48.456453+00:00"
-    },
-    {
-      "title": "Stable Diffusion And Comfyui Empower Developers With Custom Ai Workflows",
-      "urls": [
-        "https://criticalplayground.org/open-source-ai-models-are-reshaping-creative-workflows"
-      ],
-      "date": "2026-04-13T10:01:15.198577+00:00"
-    },
-    {
       "title": "National Weather Service Miami Issues Flood Watch for Dania Beach",
       "urls": [
         "https://www.facebook.com/cityofdaniabeach/posts/april-8-2026-flood-watch-remains-in-effect-through-today/1381371764032300",
@@ -4571,7 +4557,19 @@
         "https://www.screen.co.jp/ir"
       ],
       "date": "2026-04-23T09:33:14.117816+00:00"
+    },
+    {
+      "title": "Developers Use JSON For Web APIs And Configuration Files",
+      "urls": [
+        "https://www.zhihu.com/question/11381547077",
+        "https://www.zhihu.com/question/600193307",
+        "https://www.zhihu.com/question/553589281",
+        "https://www.zhihu.com/question/26346098",
+        "https://www.zhihu.com/question/315746660",
+        "https://www.zhihu.com/question/594118505"
+      ],
+      "date": "2026-04-23T10:08:36.361206+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T09:33:14.117892+00:00"
+  "lastUpdated": "2026-04-23T10:08:36.361271+00:00"
 }
