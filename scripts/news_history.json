@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dominican Republic faces widespread flooding after heavy rains since April 8 caused casualties and i",
-      "urls": [
-        "https://www.facebook.com/GovJoshGreen/videos/as-we-continue-to-monitor-the-april-severe-weather-event-we-are-expecting-46-inc/2160493144746056",
-        "https://recovery.hawaiicounty.gov/Home/Components/News/News/4477/2706",
-        "https://www.nzherald.co.nz/nz/video-from-across-the-north-island-shows-early-extent-of-cyclone-vaianu-damage/U5RYHEMLCZIEZCS6IE6KEITLLI",
-        "https://mauinow.com/2026/04/11/maui-severe-weather-update-disturbance-renews-threat-of-flooding-through-monday",
-        "https://reliefweb.int/report/dominican-republic/dominican-republic-severe-weather-and-floods-noaa-cpc-indomet-media-echo-daily-flash-10-april-2026",
-        "https://weather.com/forecast/regional/video/heat-warmth-east-central-temperatures-above-average"
-      ],
-      "date": "2026-04-13T06:32:03.840445+00:00"
-    },
-    {
-      "title": "Hungary's National Election Commission Reports 68 Percent Voter Turnout",
-      "urls": [
-        "https://www.youtube.com/watch?v=2WE0b5DeOUc"
-      ],
-      "date": "2026-04-13T07:01:23.456674+00:00"
-    },
-    {
       "title": "Harvard Researchers Build First Continuously Operating Quantum Computer",
       "urls": [
         "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough",
@@ -4566,7 +4547,14 @@
         "https://familypartners.net/exploring-accessible-adventures-top-activities-for-individuals-with-disabilities"
       ],
       "date": "2026-04-23T06:31:03.547485+00:00"
+    },
+    {
+      "title": "USA Today Launches Mobile Videos To Boost Engagement",
+      "urls": [
+        "https://www.usatoday.com"
+      ],
+      "date": "2026-04-23T07:04:23.803521+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T06:31:03.547538+00:00"
+  "lastUpdated": "2026-04-23T07:04:23.803596+00:00"
 }
