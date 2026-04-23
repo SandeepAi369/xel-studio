@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Launches Rubin Platform With Six New Chips For AI Supercomputing",
-      "urls": [
-        "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
-        "https://www.youtube.com/watch?v=rYadLBoh6VA",
-        "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-design-is-pushing-2-5d-packaging-to-its-limits",
-        "https://www.instagram.com/p/DViNkAfliH2"
-      ],
-      "date": "2026-04-13T00:01:10.014515+00:00"
-    },
-    {
       "title": "Sports Teams Adopt AI To Boost Performance And Prevent Injuries",
       "urls": [
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoqki-lk3V8F9LxOGiokKk2YIYXFlbIxZUjPliQfKO6XtRtvgxKv",
@@ -4516,7 +4506,15 @@
         "https://www.who.int/es/news-room/fact-sheets/detail/deafness-and-hearing-loss"
       ],
       "date": "2026-04-22T23:33:22.315215+00:00"
+    },
+    {
+      "title": "Fox 10 Phoenix Delivers Local News Across Arizona Regions",
+      "urls": [
+        "https://www.fox10phoenix.com/news",
+        "https://www.foxnews.com?msockid=09725a0ea85f668201d24d4aa9a36751"
+      ],
+      "date": "2026-04-23T00:01:20.115256+00:00"
     }
   ],
-  "lastUpdated": "2026-04-22T23:33:22.315300+00:00"
+  "lastUpdated": "2026-04-23T00:01:20.115318+00:00"
 }
