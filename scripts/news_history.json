@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pavlof Volcano shows increased seismic activity with a rise in long-period earthquakes starting at 1",
-      "urls": [
-        "https://www.usgs.gov/programs/VHP/volcano-updates",
-        "https://www.aljazeera.com/tag/volcanoes",
-        "https://www.doi.gov/ocl/volcanic-hazards",
-        "https://earthquakes.volcanodiscovery.com",
-        "https://volcanoes.usgs.gov/hans2/volcano/cas"
-      ],
-      "date": "2026-04-13T22:31:03.911882+00:00"
-    },
-    {
-      "title": "HOK Releases Book On Neuroinclusive Workplace Design",
-      "urls": [
-        "https://www.avnetwork.com/news/leveraging-technology-to-empower-neurodivergent-individuals"
-      ],
-      "date": "2026-04-13T23:01:21.267427+00:00"
-    },
-    {
       "title": "Gout Gout Smashes Australian U20 200m Record With 19.67 Run",
       "urls": [
         "https://xs-79.com/sport-news-today-breaking-records-and-unexpected-victories-dominate-headlines-across-major-sports",
@@ -4594,7 +4576,15 @@
         "https://cuetracker.net/tournaments/world-championship/2025/6743"
       ],
       "date": "2026-04-23T22:30:58.793525+00:00"
+    },
+    {
+      "title": "Zhihu Launches Video Integration to Enhance User Engagement",
+      "urls": [
+        "https://www.zhihu.com/question/580758213",
+        "https://www.zhihu.com/question/284715281"
+      ],
+      "date": "2026-04-23T23:04:21.825014+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T22:30:58.793575+00:00"
+  "lastUpdated": "2026-04-23T23:04:21.825076+00:00"
 }
