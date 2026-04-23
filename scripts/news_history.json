@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pharma 4.",
-      "urls": [
-        "https://www.youtube.com/watch?v=9JGqG7866W4"
-      ],
-      "date": "2026-04-13T15:03:33.462018+00:00"
-    },
-    {
       "title": "Nvidia has agreed to acquire AI chip startup Groq's assets for $20 billion in cash, marking its larg",
       "urls": [
         "https://www.entrepreneur.com/business-news/apple-acquires-qai-biggest-deal-since-beats",
@@ -4569,7 +4562,20 @@
         "https://www.zhihu.com/org/xing-hai-tu-14"
       ],
       "date": "2026-04-23T14:40:19.020443+00:00"
+    },
+    {
+      "title": "Amazon launched a new AI-powered tool called Amazon Bio Discovery to accelerate early-stage drug dev",
+      "urls": [
+        "https://www.usnews.com/news/top-news/articles/2026-04-14/amazon-launches-ai-research-tool-to-speed-early-stage-drug-discovery",
+        "https://pubs.acs.org/doi/10.1021/acsomega.5c00549",
+        "https://www.technologynetworks.com/neuroscience/articles/ai-drives-data-driven-exploration-of-novel-drug-targets-410863",
+        "https://link.springer.com/article/10.1007/s44345-025-00037-5",
+        "https://pharmaphorum.com/news/ai-drug-discovery-and-development-news-watch",
+        "https://www.genengnews.com/multimedia/summits/the-state-of-ai-in-drug-discovery-2025",
+        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706"
+      ],
+      "date": "2026-04-23T15:05:42.268644+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T14:40:19.020503+00:00"
+  "lastUpdated": "2026-04-23T15:05:42.268714+00:00"
 }
