@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Replit Launches AI Tool To Build And Monetize iOS Apps From Text Prompts",
-      "urls": [
-        "https://www.pragmaticcoders.com/resources/ai-developer-tools",
-        "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026",
-        "https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them",
-        "https://www.forbes.com/sites/joetoscano1/2026/01/20/developers-use-ai-coding-tools-to-get-started-not-finish-the-job",
-        "https://news.ycombinator.com/item?id=46301886",
-        "https://www.youtube.com/watch?v=GOa3SfkQ0vE"
-      ],
-      "date": "2026-04-13T11:02:19.203630+00:00"
-    },
-    {
       "title": "Workloads To Rise 20 Percent In Enterprises",
       "urls": [
         "https://hbr.org/sponsored/2025/10/tapping-ais-potential-with-powerful-infrastructure-from-cloud-to-edge",
@@ -4579,7 +4567,14 @@
         "https://jumbleanswers.com/colorful-salamander-crossword-clue"
       ],
       "date": "2026-04-23T11:01:17.453004+00:00"
+    },
+    {
+      "title": "Anthropic Raises $30 Billion in Series G Funding Round",
+      "urls": [
+        "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
+      ],
+      "date": "2026-04-23T11:31:00.586595+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T11:01:17.453075+00:00"
+  "lastUpdated": "2026-04-23T11:31:00.586670+00:00"
 }
