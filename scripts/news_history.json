@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic has disclosed the first known AI-orchestrated cyber espionage campaign, in which its Claud",
-      "urls": [
-        "https://www.anthropic.com/news/disrupting-AI-espionage",
-        "https://www.understandingai.org/p/why-anthropic-believes-its-latest",
-        "https://www.youtube.com/watch?v=htBaVVh_k90"
-      ],
-      "date": "2026-04-13T09:03:28.736804+00:00"
-    },
-    {
       "title": "InnoCaption Launches Real Time Captioning For Phone Calls",
       "urls": [
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOoqT5n8jHX1L7e5wmbTeGKt8SgSK_kl9dRxFT4Ga14FDGrmVKMs6"
@@ -4569,7 +4560,18 @@
         "https://public.wmo.int/zh-hans/site/frontline-of-climate-action/state-of-climate"
       ],
       "date": "2026-04-23T09:01:04.310053+00:00"
+    },
+    {
+      "title": "SCREEN Holdings has released updated corporate information detailing its organizational structure an",
+      "urls": [
+        "https://www.screen.co.jp",
+        "https://www.screen.co.jp/about/outline",
+        "https://www.screen.co.jp/products",
+        "https://www.screen.co.jp/about",
+        "https://www.screen.co.jp/ir"
+      ],
+      "date": "2026-04-23T09:33:14.117816+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T09:01:04.310116+00:00"
+  "lastUpdated": "2026-04-23T09:33:14.117892+00:00"
 }
