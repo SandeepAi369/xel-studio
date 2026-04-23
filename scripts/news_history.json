@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "{\"articleText\": \"Viktor Orb\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\",
-      "urls": [
-        "https://www.npr.org/sections/elections",
-        "https://abcnews.com/politics",
-        "https://www.youtube.com/watch?v=5KjLTkU5SS8"
-      ],
-      "date": "2026-04-13T20:04:20.731571+00:00"
-    },
-    {
-      "title": "Meta And Google Face New Youth Safety Rules After Landmark Ruling",
-      "urls": [
-        "https://www.linkedin.com/top-content/marketing/social-media-marketing/new-social-media-platform-feature-updates",
-        "https://socialbee.com/blog/social-media-news",
-        "https://www.socialmediatoday.com",
-        "https://www.youtube.com/shorts/JZadhjkS83E"
-      ],
-      "date": "2026-04-13T20:31:58.525381+00:00"
-    },
-    {
       "title": "Armand Duplantis broke the pole vault world record by clearing 6.",
       "urls": [
         "https://www.youtube.com/watch?v=EvZMNcMfu-A",
@@ -4591,7 +4572,15 @@
         "https://climate.nasa.gov/earth-now?event=eo_event_190422"
       ],
       "date": "2026-04-23T20:04:20.005465+00:00"
+    },
+    {
+      "title": "Scientists Reveal Personal Struggles In New Book By Maria Chen",
+      "urls": [
+        "https://www.sciencenews.org",
+        "https://www.sciencenews.org/sn-magazine/september-2025"
+      ],
+      "date": "2026-04-23T20:32:10.220599+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T20:04:20.005538+00:00"
+  "lastUpdated": "2026-04-23T20:32:10.220667+00:00"
 }
