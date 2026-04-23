@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Llama 4 Maverick With 17 Billion Active Parameters",
-      "urls": [
-        "https://ai.meta.com/open",
-        "https://techcrunch.com/2025/10/06/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model",
-        "https://ai.meta.com/blog/meta-llama-3-1",
-        "https://ai.meta.com/blog/llama-4-multimodal-intelligence",
-        "https://huggingface.co/meta-llama",
-        "https://www.llama.com"
-      ],
-      "date": "2026-04-13T06:01:09.439618+00:00"
-    },
-    {
       "title": "Dominican Republic faces widespread flooding after heavy rains since April 8 caused casualties and i",
       "urls": [
         "https://www.facebook.com/GovJoshGreen/videos/as-we-continue-to-monitor-the-april-severe-weather-event-we-are-expecting-46-inc/2160493144746056",
@@ -4552,7 +4540,22 @@
         "https://www.maryvilleforum.com/news/candidates-issues-set-for-april-election/article_6c5ea6d1-2fd6-4fe1-8f1c-32f19c0b6062.html"
       ],
       "date": "2026-04-23T05:31:03.643666+00:00"
+    },
+    {
+      "title": "Renewable Energy Surpasses 25% Of U.S. Electricity In 2025",
+      "urls": [
+        "https://informationisbeautiful.net/2023/most-beautiful-news-of-the-year-2023",
+        "https://abcnews.com/US/wind-power-continue-grow-despite-trump-administrations-attempts/story?id=131399479",
+        "https://www.bloomberg.com/news/articles/2026-02-27/renewable-energy-generation-hits-annual-record-despite-trump-s-assaults",
+        "https://ir.dteenergy.com/news/press-release-details/2025/DTE-Energy-breaks-ground-on-new-solar-park-to-help-meet-Ford-Motor-Companys-needs-for-100-carbon-free-and-renewable-energy/default.aspx",
+        "https://ember-energy.org/latest-insights/european-electricity-review-2026",
+        "https://www.theguardian.com/australia-news/2025/dec/10/australia-must-increase-energy-grid-capacity-wind-solar-aemo",
+        "https://www.hawaii.edu/news/2025/08/04/hawaii-renewable-energy",
+        "https://www.usatoday.com/story/news/nation/2024/08/25/conservative-energy-network-supports-renewable-energy/74913881007",
+        "https://www.bbc.co.uk/news/articles/cz947djd3d3o"
+      ],
+      "date": "2026-04-23T06:02:17.385089+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T05:31:03.643744+00:00"
+  "lastUpdated": "2026-04-23T06:02:17.385159+00:00"
 }
