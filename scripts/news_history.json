@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia has agreed to acquire AI chip startup Groq's assets for $20 billion in cash, marking its larg",
-      "urls": [
-        "https://www.entrepreneur.com/business-news/apple-acquires-qai-biggest-deal-since-beats",
-        "https://www.businessinsider.com/legal-tech-vc-startups-funding-hits-3-billion-2025-11",
-        "https://www.wsj.com/tech/ai/meta-buys-ai-startup-manus-adding-millions-of-paying-users-f1dc7ef8",
-        "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
-        "https://www.reuters.com/business/musks-spacex-merge-with-xai-combined-valuation-125-trillion-bloomberg-news-2026-02-02",
-        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince",
-        "https://www.linkedin.com/posts/y-combinator_offdeal-has-just-raised-a-12m-series-a-to-activity-7355976651521863680-lyIF"
-      ],
-      "date": "2026-04-13T15:32:08.043566+00:00"
-    },
-    {
       "title": "Team USA shocked cricket fans worldwide with a historic victory over Pakistan in the Cricket World C",
       "urls": [
         "https://www.youtube.com/watch?v=XUPYBPLHk4I",
@@ -4575,7 +4562,14 @@
         "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706"
       ],
       "date": "2026-04-23T15:05:42.268644+00:00"
+    },
+    {
+      "title": "U.S. Treasury Raises 10-Year Bond Yield to 4.3 Percent",
+      "urls": [
+        "https://www.cnbc.com/economy?msockid=21148e0abacd6ae3083c994ebb186bc7"
+      ],
+      "date": "2026-04-23T15:33:02.156623+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T15:05:42.268714+00:00"
+  "lastUpdated": "2026-04-23T15:33:02.156690+00:00"
 }
