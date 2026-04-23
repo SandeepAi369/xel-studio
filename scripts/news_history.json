@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA shocked cricket fans worldwide with a historic victory over Pakistan in the Cricket World C",
-      "urls": [
-        "https://www.youtube.com/watch?v=XUPYBPLHk4I",
-        "https://www.espn.com/olympics/story/_/id/38670676/cricket-flag-football-5-sports-added-2028-olympics",
-        "https://www.statscore.com/news-center/market-research/what-are-the-5-most-popular-sports-in-the-usa",
-        "https://www.facebook.com/seastats/posts/the-worlds-favorite-sports-a-global-ranking-of-passion-and-fansif-you-thought-yo/758202279884959",
-        "https://www.the-sun.com/sport/12587151/ten-most-popular-sports-revealed-hockey-volleyball-football",
-        "https://sportforbusiness.com/the-worlds-most-watched-sports"
-      ],
-      "date": "2026-04-13T16:04:16.039065+00:00"
-    },
-    {
       "title": "Anthony Smith made his post-UFC debut at Gamebred Bareknuckle MMA, defeating Chase Sherman via first",
       "urls": [
         "https://www.mmafighting.com/latest-news",
@@ -4569,7 +4557,23 @@
         "https://www.cnbc.com/economy?msockid=21148e0abacd6ae3083c994ebb186bc7"
       ],
       "date": "2026-04-23T15:33:02.156623+00:00"
+    },
+    {
+      "title": "LocalAI is an open-source project designed to let users run large language models locally on consume",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI",
+        "https://www.reddit.com/r/OpenAI/comments/187fzdb/openai_api_free_alternative_or_does_openai_api",
+        "https://www.reddit.com/r/OpenAI/comments/12saych/openai_refuses_to_take_my_money_three_different",
+        "https://www.reddit.com/r/cscareerquestions/comments/15wf2w9/name_and_shame_openai",
+        "https://www.reddit.com/r/selfhosted/comments/12w4p2f/localai_openai_compatible_api_to_run_llm_models",
+        "https://www.reddit.com/r/OpenAI/comments/xgeo5i/what_do_you_think_about_codex",
+        "https://www.reddit.com/r/OpenAI/comments/vc3aub/openai_is_not_open",
+        "https://www.reddit.com/r/LocalLLaMA/comments/195mi89/cost_comparisons_between_openai_mistral_claude",
+        "https://www.reddit.com/r/OpenAI/comments/1913ggm/anyone_knows_how_to_request_account_email_change",
+        "https://www.reddit.com/r/OpenAI/comments/1cfxd42/how_is_openai_going_to_be_profitable_if_they_have"
+      ],
+      "date": "2026-04-23T16:04:22.363350+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T15:33:02.156690+00:00"
+  "lastUpdated": "2026-04-23T16:04:22.363413+00:00"
 }
