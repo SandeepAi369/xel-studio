@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "CME Group will launch 24/7 trading for crypto derivatives on May 29, expanding access beyond traditi",
-      "urls": [
-        "https://web3newswire.com?srsltid=AfmBOoo0WVadyHJW7aPyV8RBX3QZIVLiztvwJaxO89esqXSpveF77y0M",
-        "https://www.theblock.co/category/web3",
-        "https://www.coindesk.com/tag/web3",
-        "https://blockworks.co/category/web3",
-        "https://www.dlnews.com/articles/web3",
-        "https://www.forbes.com/digital-assets/news"
-      ],
-      "date": "2026-04-13T13:04:02.212345+00:00"
-    },
-    {
-      "title": "Kelly Raines developed AI for smart glasses at ASU's LENS Lab to assist people with vision loss by i",
-      "urls": [
-        "https://floridareading.com/blogs/news/top-assistive-tech-trends-for-the-visually-impaired-in-2025",
-        "https://www.yahoo.com/news/articles/blind-visually-impaired-children-receive-171210450.html",
-        "https://bism.org/news-resources/faq/perspectives/breaking-barriers-the-impact-of-assistive-technology-at-bism",
-        "https://wchstv.com/news/local/technology-conference-showcases-latest-technology-to-help-vision-impaired",
-        "https://www.wtnh.com/news/connecticut/new-haven/quinnipiac-students-working-on-ai-technology-to-help-the-visually-impaired",
-        "https://www.youtube.com/watch?v=W4jew9OJIlU",
-        "https://news.asu.edu/20250220-science-and-technology-student-sees-how-ai-can-assist-people-vision-loss",
-        "https://afb.org/blog"
-      ],
-      "date": "2026-04-13T13:30:55.323838+00:00"
-    },
-    {
       "title": "Open-source vulnerabilities have doubled in the past year as AI-assisted coding accelerates software",
       "urls": [
         "https://www.linuxinsider.com",
@@ -4572,7 +4546,18 @@
         "https://www.weforum.org/stories/2025/12/global-energy-2026-growth-resilience-and-competition"
       ],
       "date": "2026-04-23T13:01:33.111183+00:00"
+    },
+    {
+      "title": "International Olympic Committee has formally approved the creation of the Olympic Esports Games, wit",
+      "urls": [
+        "https://www.espn.com/gaming",
+        "https://www.espn.com/espn/story/_/id/13059210/esports-massive-industry-growing",
+        "https://espndeportes.espn.com/olimpicos/nota/_/id/13942583/asamblea-coi-aprueba-creacion-juegos-olimpicos-esports",
+        "https://www.espn.com/fantasy",
+        "https://www.espn.com/gaming/story/_/id/19860473/why-associated-press-stylebook-went-esports-not-esports"
+      ],
+      "date": "2026-04-23T13:31:10.681465+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T13:01:33.111258+00:00"
+  "lastUpdated": "2026-04-23T13:31:10.681534+00:00"
 }
