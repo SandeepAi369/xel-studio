@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Researchers Build First Continuously Operating Quantum Computer",
-      "urls": [
-        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough",
-        "https://thequantuminsider.com",
-        "https://www.discovermagazine.com/quantum-computing-is-beginning-to-take-shape-here-are-three-recent-breakthroughs-48938",
-        "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
-        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
-        "https://www.youtube.com/watch?v=1oJLrvQtnHs"
-      ],
-      "date": "2026-04-13T07:31:02.378348+00:00"
-    },
-    {
       "title": "Artemis II Crew Endures 40-Minute Blackout Before Pacific Splashdown",
       "urls": [
         "https://www.youtube.com/watch?v=kuB7ui33J4c",
@@ -4554,7 +4542,16 @@
         "https://www.usatoday.com"
       ],
       "date": "2026-04-23T07:04:23.803521+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Three New Open-Source Models Including Mistral 3",
+      "urls": [
+        "https://venturebeat.com/ai/mistral-launches-mistral-3-a-family-of-open-models-designed-to-run-on",
+        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
+        "https://xix.ai/ainews/mistral-small-4-launches-as-europes-versatile-ai-powerhouse.html"
+      ],
+      "date": "2026-04-23T07:32:16.935668+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T07:04:23.803596+00:00"
+  "lastUpdated": "2026-04-23T07:32:16.935743+00:00"
 }
