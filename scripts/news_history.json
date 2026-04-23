@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gout Gout Blazes 19.67 To Shatter Australian U20 200m Record",
-      "urls": [
-        "https://xs-79.com/sport-news-today-shattering-records-and-surprising-wins-top-the-headlines-in-major-sports",
-        "https://www.reddit.com/r/trackandfield/comments/1sj4jet/gout_gouts_1967_200m_at_australian_champs"
-      ],
-      "date": "2026-04-13T04:30:54.591858+00:00"
-    },
-    {
-      "title": "LocalLLaMA Community Reaches 684000 Members Amid Surge In Offline AI Adoption",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
-      ],
-      "date": "2026-04-13T05:01:11.864076+00:00"
-    },
-    {
       "title": "NeuroBridge Launches AI Tool To Bridge Communication Gaps",
       "urls": [
         "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
@@ -4558,7 +4543,23 @@
         "https://twitchy.com/warren-squire/2026/04/01/nancy-pelosi-rigging-election-then-bring-back-kamala-harris-paper-ballot-push-from-2020-n2426683"
       ],
       "date": "2026-04-23T04:30:52.801915+00:00"
+    },
+    {
+      "title": "PyTorch Surpasses TensorFlow in Research Adoption",
+      "urls": [
+        "https://www.prnewswire.com/news-releases/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack-302591184.html",
+        "https://arxiv.org/html/2508.04035v1",
+        "https://www.opensourceforu.com/2025/12/google-and-meta-bet-on-open-source-pytorch-to-break-nvidias-cuda-lock-in",
+        "https://biggo.com/news/202510261933_PyTorch-TensorFlow-Research-Dominance-2025",
+        "https://www.phoronix.com/news/PyTorch-Ray-AI-Compute-Engine",
+        "https://prodcrowd.io/ai-framework-comparison-tensorflow-vs-pytorch-vs-others",
+        "https://github.com/tensorflow/tensorflow",
+        "https://pytorch.org/blog/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
+        "https://nextbigtechnology.com/how-to-build-an-ai-agent-system-for-mobile-apps",
+        "https://news.ycombinator.com/item?id=45118111"
+      ],
+      "date": "2026-04-23T05:01:14.543346+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T04:30:52.802030+00:00"
+  "lastUpdated": "2026-04-23T05:01:14.543414+00:00"
 }
