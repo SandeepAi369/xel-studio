@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artemis II Crew Endures 40-Minute Blackout Before Pacific Splashdown",
-      "urls": [
-        "https://www.youtube.com/watch?v=kuB7ui33J4c",
-        "https://www.youtube.com/watch?v=9xTLEDWNLpM",
-        "https://www.youtube.com/watch?v=pPDUF-QjmWc",
-        "https://www.youtube.com/watch?v=yJomSQoVlS8",
-        "https://www.bbc.com/news/videos/cn431g7v52qo"
-      ],
-      "date": "2026-04-13T08:01:13.387064+00:00"
-    },
-    {
       "title": "Rivers United reclaimed the top spot in the Nigeria Professional Football League (NPFL) after defeat",
       "urls": [
         "https://www.youtube.com/watch?v=qK_pS4o03Fo",
@@ -4551,7 +4540,14 @@
         "https://xix.ai/ainews/mistral-small-4-launches-as-europes-versatile-ai-powerhouse.html"
       ],
       "date": "2026-04-23T07:32:16.935668+00:00"
+    },
+    {
+      "title": "WHO reports over 5% of the global population, equivalent to 430 million people, require rehabilitati",
+      "urls": [
+        "https://www.who.int/fr/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+      ],
+      "date": "2026-04-23T08:03:19.773732+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T07:32:16.935743+00:00"
+  "lastUpdated": "2026-04-23T08:03:19.773802+00:00"
 }
