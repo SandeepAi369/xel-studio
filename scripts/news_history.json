@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepMind has unveiled a new AI system capable of autonomously designing scientific experiments, mark",
-      "urls": [
-        "https://blog.google/technology/ai",
-        "https://www.youtube.com/watch?v=Io_GqmbNBbY"
-      ],
-      "date": "2026-04-13T22:04:20.115337+00:00"
-    },
-    {
       "title": "Pavlof Volcano shows increased seismic activity with a rise in long-period earthquakes starting at 1",
       "urls": [
         "https://www.usgs.gov/programs/VHP/volcano-updates",
@@ -4586,7 +4578,23 @@
         "https://about.fb.com/news/2023/12/meta-ai-updates"
       ],
       "date": "2026-04-23T22:01:04.653706+00:00"
+    },
+    {
+      "title": "Meta To Lay Off 8000 Employees In Major Restructuring",
+      "urls": [
+        "https://economictimes.indiatimes.com/news/international/us/meta-layoffs-confirmed-8000-jobs-slashed-6000-roles-frozen-reason-behind-the-move-timeline-and-severance-details-explained/articleshow/130476777.cms",
+        "https://www.cnbc.com/2026/04/23/meta-will-cut-10percent-of-workforce-as-it-pushes-more-into-ai.html",
+        "https://www.businessinsider.com/meta-plans-layoff-10-of-its-entire-staff-may-2026",
+        "https://www.cbsnews.com/news/meta-layoffs-8000-ai-job-cuts",
+        "https://techcrunch.com/2026/04/23/meta-job-cuts-10-percent-8000-employees",
+        "https://www.flashscore.de/snooker/welt/world-snooker-championship",
+        "https://de.wikipedia.org/wiki/Snookerweltmeisterschaft_2025",
+        "https://www.eurosport.de/snooker/snooker-wm/2025-2026",
+        "https://www.flashscore.com/snooker/world/world-championship-2025",
+        "https://cuetracker.net/tournaments/world-championship/2025/6743"
+      ],
+      "date": "2026-04-23T22:30:58.793525+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T22:01:04.653756+00:00"
+  "lastUpdated": "2026-04-23T22:30:58.793575+00:00"
 }
