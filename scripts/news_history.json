@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Workloads To Rise 20 Percent In Enterprises",
-      "urls": [
-        "https://hbr.org/sponsored/2025/10/tapping-ais-potential-with-powerful-infrastructure-from-cloud-to-edge",
-        "https://deloitte.wsj.com/cfo/ai-workloads-are-surging-is-your-infrastructure-ready-d1ba11e4"
-      ],
-      "date": "2026-04-13T11:32:07.832391+00:00"
-    },
-    {
       "title": "United States announced plans to blockade the Strait of Hormuz following the collapse of peace talks",
       "urls": [
         "https://www.arabnews.com/node/2639632/world",
@@ -4574,7 +4566,16 @@
         "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
       ],
       "date": "2026-04-23T11:31:00.586595+00:00"
+    },
+    {
+      "title": "MIT researchers have developed a generative AI tool that simplifies complex statistical analysis on ",
+      "urls": [
+        "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
+        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
+        "https://news.mit.edu/2026/generative-ai-improves-wireless-vision-system-sees-through-obstructions-0319"
+      ],
+      "date": "2026-04-23T12:01:09.129007+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T11:31:00.586670+00:00"
+  "lastUpdated": "2026-04-23T12:01:09.129104+00:00"
 }
