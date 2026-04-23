@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch excels in research and rapid prototyping due to its dynamic computation graph, making it the",
-      "urls": [
-        "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
-        "https://news.ycombinator.com/item?id=45844142",
-        "https://www.hyperstack.cloud/blog/case-study/pytorch-vs-tensorflow",
-        "https://www.ultralytics.com/blog/exploring-vision-ai-frameworks-tensorflow-pytorch-and-opencv",
-        "https://www.lightly.ai/blog/pytorch-vs-tensorflow",
-        "https://rafay.co/ai-and-cloud-native-blog/pytorch-vs-tensorflow-a-comprehensive-comparison",
-        "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
-        "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
-      ],
-      "date": "2026-04-13T18:34:48.361797+00:00"
-    },
-    {
-      "title": "Healthcare CIOs Struggle to Scale AI Amid EHR Dependence",
-      "urls": [
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
-      ],
-      "date": "2026-04-13T19:02:28.509561+00:00"
-    },
-    {
       "title": "Qualcomm announces new data center AI accelerator chips focused on inference, directly challenging N",
       "urls": [
         "https://www.cnbc.com/2025/10/27/qualcomm-ai200-ai250-ai-chips-nvidia-amd.html",
@@ -4598,7 +4575,18 @@
         "https://www.ada.gov"
       ],
       "date": "2026-04-23T18:31:05.414832+00:00"
+    },
+    {
+      "title": "Wheelchairs are increasingly available through major retail platforms, with Walmart offering lightwe",
+      "urls": [
+        "https://www.amazon.com/Wheelchairs/b?node=4075961",
+        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051",
+        "https://www.1800wheelchair.com",
+        "https://www.homedepot.com/b/Health-And-Wellness-Mobility-Aids-Wheelchairs/N-5yc1vZc8kh",
+        "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs"
+      ],
+      "date": "2026-04-23T19:05:34.311054+00:00"
     }
   ],
-  "lastUpdated": "2026-04-23T18:31:05.414884+00:00"
+  "lastUpdated": "2026-04-23T19:05:34.311117+00:00"
 }
