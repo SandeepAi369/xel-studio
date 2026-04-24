@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Unhcr Reports 6.3 Million Displaced In Horn Of Africa",
-      "urls": [
-        "https://www.unhcr.org/news-and-stories"
-      ],
-      "date": "2026-04-14T16:01:17.436942+00:00"
-    },
-    {
       "title": "NFL is intensifying efforts to expand its global footprint, identifying cricket as an unexpected com",
       "urls": [
         "https://sports.yahoo.com/article/nfls-global-competition-includes-cricket-132830019.html",
@@ -4644,7 +4637,16 @@
         "https://www.science.org/loi/science"
       ],
       "date": "2026-04-24T15:31:04.554657+00:00"
+    },
+    {
+      "title": "Federal Reserve Holds Rates Steady Amid Global Manufacturing Slump",
+      "urls": [
+        "https://www.wsj.com/economy/global?msockid=384292768e6267cd0cf785338fbf6607",
+        "https://www.cnbc.com/world-economy?msockid=384292768e6267cd0cf785338fbf6607",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR2RtY0hNekVnSmxiaWdBUAE"
+      ],
+      "date": "2026-04-24T16:05:36.254793+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T15:31:04.554724+00:00"
+  "lastUpdated": "2026-04-24T16:05:36.254853+00:00"
 }
