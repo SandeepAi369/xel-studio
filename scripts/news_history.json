@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Stock Markets Rise Before Apple Microsoft Alphabet Earnings",
-      "urls": [
-        "https://www.youtube.com/watch?v=N1bnfTPzZN8"
-      ],
-      "date": "2026-04-14T13:07:33.490396+00:00"
-    },
-    {
       "title": "Hearing Assistive Technology (HAT) includes devices and systems designed to improve sound access for",
       "urls": [
         "https://storyspark.com/blogs/sparks/4-new-technologies-improving-quality-of-life-for-deaf-and-hard-of-hearing-populations?srsltid=AfmBOooZuA_i30wFYBslunkPpnvmtU-YBmvAdQ2ey3Fu5A7qVeHqf049",
@@ -4642,7 +4635,15 @@
         "https://www.reuters.com/world/us"
       ],
       "date": "2026-04-24T12:33:15.745236+00:00"
+    },
+    {
+      "title": "PC Gamer Forum Users Report Screen Shutdowns After Graphics Card Upgrades",
+      "urls": [
+        "https://forums.pcgamer.com/threads/your-2025-gaming-resolutions.147105",
+        "https://forums.pcgamer.com/threads/computer-screen-turns-off-while-gaming.141226"
+      ],
+      "date": "2026-04-24T13:09:00.396003+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T12:33:15.745319+00:00"
+  "lastUpdated": "2026-04-24T13:09:00.396067+00:00"
 }
