@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Personal Intelligence For All US Users",
-      "urls": [
-        "https://www.heygotrade.com/en/news/google-ai-expansion-challenges-microsoft-apple",
-        "https://techcrunch.com/2024/09/20/hottest-apple-products-google-microsoft",
-        "https://www.nytimes.com/2026/01/12/technology/apple-google-ai-partnership.html",
-        "https://www.usatoday.com/story/money/2026/04/01/apple-turns-50-microsoft-google/89421094007",
-        "https://uk.pcmag.com/ai/158419/apple-is-years-behind-google-and-microsoft-in-ai-how-soon-will-it-affect-sales",
-        "https://www.youtube.com/watch?v=5R5Z0mGAV9U",
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorYg9EZUeNV2vYyG3NvtOUjizxcDDt6CKf6axRTj1oiSj2nyoLi",
-        "https://seekingalpha.com/article/4876922-big-tech-teams-up-against-alphabet-while-apple-reaps-the-rewards",
-        "https://www.youtube.com/watch?v=NV74iiEFct8"
-      ],
-      "date": "2026-04-14T03:32:05.440624+00:00"
-    },
-    {
       "title": "D-Wave Demonstrates Quantum Supremacy In Magnetic Materials Simulation",
       "urls": [
         "https://www.networkworld.com/article/4088709/top-quantum-breakthroughs-of-2025.html",
@@ -4596,7 +4581,15 @@
         "https://wildlifeinformer.com"
       ],
       "date": "2026-04-24T03:01:11.926756+00:00"
+    },
+    {
+      "title": "Google Releases Open Sans Typeface For Digital Clarity",
+      "urls": [
+        "https://www.zhihu.com/question/28957092",
+        "https://www.zhihu.com/question/21821842"
+      ],
+      "date": "2026-04-24T03:33:05.201546+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T03:01:11.926831+00:00"
+  "lastUpdated": "2026-04-24T03:33:05.201617+00:00"
 }
