@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fireship Showcases Seven Open Source AI Tools",
-      "urls": [
-        "https://www.youtube.com/watch?v=sXVbWkoCVaA"
-      ],
-      "date": "2026-04-14T10:02:26.514432+00:00"
-    },
-    {
       "title": "Earthquake Damages Nevada Infrastructure",
       "urls": [
         "https://www.usnews.com/topics/subjects/natural_disasters",
@@ -4619,7 +4612,23 @@
         "https://play.wargrow.com.br"
       ],
       "date": "2026-04-24T09:33:16.820670+00:00"
+    },
+    {
+      "title": "Colorado lawmakers are amending a proposed age verification bill to exclude open source software fro",
+      "urls": [
+        "https://itsfoss.com/news",
+        "https://linuxiac.com/category/news",
+        "https://linuxlap.com/category/news",
+        "https://www.newinlinux.com",
+        "https://www.dailylinux.com",
+        "https://www.heise.de/en/opensource",
+        "https://www.linuxinsider.com/section/community",
+        "https://lwn.net",
+        "https://9to5linux.com",
+        "https://www.linuxfoundation.org/blog/the-state-of-open-source-software-in-2025"
+      ],
+      "date": "2026-04-24T10:03:16.735678+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T09:33:16.820735+00:00"
+  "lastUpdated": "2026-04-24T10:03:16.735744+00:00"
 }
