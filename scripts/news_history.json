@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NFL is intensifying efforts to expand its global footprint, identifying cricket as an unexpected com",
-      "urls": [
-        "https://sports.yahoo.com/article/nfls-global-competition-includes-cricket-132830019.html",
-        "https://www.nbcsports.com"
-      ],
-      "date": "2026-04-14T16:33:05.042756+00:00"
-    },
-    {
       "title": "Assistive Listening Devices Improve Hearing Access In Public Spaces",
       "urls": [
         "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments"
@@ -4653,7 +4645,18 @@
         "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-what-is-autism"
       ],
       "date": "2026-04-24T16:30:56.264507+00:00"
+    },
+    {
+      "title": "Anthropic Exposes Claude Code CLI Source Code Via Npm Error",
+      "urls": [
+        "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+        "https://www.morphllm.com/best-ai-model-for-coding",
+        "https://aimagazine.com",
+        "https://www.blender.org",
+        "https://www.infoq.com/news/2026/04/claude-code-source-leak"
+      ],
+      "date": "2026-04-24T17:01:15.734639+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T16:30:56.264575+00:00"
+  "lastUpdated": "2026-04-24T17:01:15.734724+00:00"
 }
