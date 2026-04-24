@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earthquake Damages Nevada Infrastructure",
-      "urls": [
-        "https://www.usnews.com/topics/subjects/natural_disasters",
-        "https://www.youtube.com/watch?v=bOf1fIknW4Q"
-      ],
-      "date": "2026-04-14T10:34:19.154150+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://rethinktrade.org/digitaltrade",
@@ -4639,7 +4631,19 @@
         "https://www.espn.com/olympics/story/_/id/48542028/john-korir-wins-2nd-straight-boston-marathon-course-record"
       ],
       "date": "2026-04-24T10:31:07.626346+00:00"
+    },
+    {
+      "title": "Who Reports 1.5 Million New Drug-Resistant TB Cases in 2024",
+      "urls": [
+        "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2025/tb-disease-burden/1-3-drug-resistant-tb",
+        "https://www.who.int/health-topics/medicines",
+        "https://www.who.int/news/item/24-11-2025-who-launches-new-framework-to-tackle-drug-resistance-to-hiv-hepatitis-b-and-c-and-stis",
+        "https://www.who.int/publications/i/item/9789240107243",
+        "https://www.who.int/news/item/29-04-2025-antibiotics-most-responsible-for-drug-resistance-are-overused---who-report",
+        "https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
+      ],
+      "date": "2026-04-24T11:01:09.534328+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T10:31:07.626404+00:00"
+  "lastUpdated": "2026-04-24T11:01:09.534394+00:00"
 }
