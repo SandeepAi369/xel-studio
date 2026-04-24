@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Warns Biodiversity Loss Threatens Climate Resilience",
-      "urls": [
-        "https://earthtimes.org/biodiversity-loss-and-wildlife-conservation?srsltid=AfmBOopPGwtGABBFIJli0gGW3WB2jZiuEJCJ3d3yFHpY4iuMQqtfvnGR",
-        "https://www.worldwildlife.org/news/stories",
-        "https://www.nature.org/en-us",
-        "https://www.un.org/en/climatechange/science/climate-issues/biodiversity"
-      ],
-      "date": "2026-04-14T00:01:20.545157+00:00"
-    },
-    {
-      "title": "Armand \"Mondo\" Duplantis broke the men's pole vault world record by clearing 6.",
-      "urls": [
-        "https://www.instagram.com/reel/DV6cO8OCV-_",
-        "https://www.instagram.com/reel/DWSPldJtpqg",
-        "https://www.instagram.com/reel/DWLuJOvDPB5"
-      ],
-      "date": "2026-04-14T00:30:58.963363+00:00"
-    },
-    {
       "title": "Cobot Wheels introduces a patented wheelchair innovation designed to overcome physical barriers, ena",
       "urls": [
         "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOopmcG0Kqn9arg3nX4dkKTsfHBAc7vr6AAp17zz1c0IUghoxWund",
@@ -4593,7 +4574,18 @@
         "https://news.mit.edu/2025/creating-ai-that-matters-1021"
       ],
       "date": "2026-04-24T00:01:15.420640+00:00"
+    },
+    {
+      "title": "Renewable energy is derived from natural resources that are replenished on a human timescale, such a",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Renewable_energy",
+        "https://www.britannica.com/science/renewable-energy",
+        "https://www.eia.gov/energyexplained/renewable-sources",
+        "https://education.nationalgeographic.org/resource/renewable-energy-explained",
+        "https://extension.psu.edu/what-is-renewable-energy"
+      ],
+      "date": "2026-04-24T00:34:11.616123+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T00:01:15.420707+00:00"
+  "lastUpdated": "2026-04-24T00:34:11.616190+00:00"
 }
