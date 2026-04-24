@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "US And China Race For AI Supremacy",
-      "urls": [
-        "https://ommcomnews.com/science-tech/ai-geopolitics-us-policy-and-tech-giants-converge-on-china-threat",
-        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape"
-      ],
-      "date": "2026-04-14T03:01:07.534454+00:00"
-    },
-    {
       "title": "Google Launches Personal Intelligence For All US Users",
       "urls": [
         "https://www.heygotrade.com/en/news/google-ai-expansion-challenges-microsoft-apple",
@@ -4588,7 +4580,23 @@
         "https://www.zhihu.com/question/655616250"
       ],
       "date": "2026-04-24T02:34:12.054253+00:00"
+    },
+    {
+      "title": "WWF Reports 50 Percent Global Wildlife Decline Since 1970",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Wildlife",
+        "https://wildlife.dgf.nm.gov",
+        "https://www.worldwildlife.org",
+        "https://www.fws.gov",
+        "https://www.nwf.org/Wildlife.aspx",
+        "https://education.nationalgeographic.org/resource/wildlife-around-the-world",
+        "https://wildlife.org",
+        "https://www.imdb.com/title/tt5929754",
+        "https://explore.panda.org/wildlife",
+        "https://wildlifeinformer.com"
+      ],
+      "date": "2026-04-24T03:01:11.926756+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T02:34:12.054318+00:00"
+  "lastUpdated": "2026-04-24T03:01:11.926831+00:00"
 }
