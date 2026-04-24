@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Adoption Rises 18 Percent in 2025",
-      "urls": [
-        "https://www.youtube.com/watch?v=cQ3auCVzfrA"
-      ],
-      "date": "2026-04-14T23:01:08.052606+00:00"
-    },
-    {
       "title": "Grace Bell gave birth to Hugo, the first British baby born following a womb transplant from a deceas",
       "urls": [
         "https://www.pennmedicine.org/news/research-innovation",
@@ -4649,7 +4642,15 @@
         "https://news.njit.edu/njit-and-nyu-researchers-advance-ai-audio-captioning-deaf-and-hard-hearing-nsf-grant"
       ],
       "date": "2026-04-24T22:32:08.803176+00:00"
+    },
+    {
+      "title": "Open Source AI Models Like Llama 3 Gain Enterprise Adoption",
+      "urls": [
+        "https://beaithink.com/open-source-ai-tools-models-and-why-it-matters-in-2025",
+        "https://www.hunton.com/insights/publications/part-1-open-source-ai-models-how-open-are-they-really"
+      ],
+      "date": "2026-04-24T23:02:11.568728+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T22:32:08.803230+00:00"
+  "lastUpdated": "2026-04-24T23:02:11.568801+00:00"
 }
