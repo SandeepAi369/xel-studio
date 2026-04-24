@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistive Listening Devices Improve Hearing Access In Public Spaces",
-      "urls": [
-        "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments"
-      ],
-      "date": "2026-04-14T17:01:18.241102+00:00"
-    },
-    {
       "title": "Texas A&M researchers are studying how generative AI technologies impact blind and visually impaired",
       "urls": [
         "https://afb.org/blindness-and-low-vision/using-technology",
@@ -4656,7 +4649,14 @@
         "https://www.infoq.com/news/2026/04/claude-code-source-leak"
       ],
       "date": "2026-04-24T17:01:15.734639+00:00"
+    },
+    {
+      "title": "Wmo Reports 2025 On Track To Be Hottest Or Third Hottest Year",
+      "urls": [
+        "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop30"
+      ],
+      "date": "2026-04-24T17:30:59.832302+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T17:01:15.734724+00:00"
+  "lastUpdated": "2026-04-24T17:30:59.832372+00:00"
 }
