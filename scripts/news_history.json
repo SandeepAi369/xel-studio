@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "EU regulators are investigating Google over allegations it is manipulating online advertising prices",
-      "urls": [
-        "https://www.nytimes.com/topic/subject/online-privacy-regulation",
-        "https://www.youtube.com/watch?v=TmfP-gHHpKg",
-        "https://www.bbc.com/news/articles/c4gj39zk1k0o",
-        "https://www.reuters.com/legal/data-privacy",
-        "https://www.aclu.org/news/privacy-technology/government-mandated-software",
-        "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture"
-      ],
-      "date": "2026-04-14T02:02:14.896707+00:00"
-    },
-    {
-      "title": "Insilico Medicine developed 28 AI-designed drug candidates using generative AI, marking a major adva",
-      "urls": [
-        "https://intuitionlabs.ai/articles/ai-pharma-biotech-drug-discovery-case-studies",
-        "https://www.sciencedirect.com/science/article/pii/S266732582400205X"
-      ],
-      "date": "2026-04-14T02:31:35.707725+00:00"
-    },
-    {
       "title": "US And China Race For AI Supremacy",
       "urls": [
         "https://ommcomnews.com/science-tech/ai-geopolitics-us-policy-and-tech-giants-converge-on-china-threat",
@@ -4597,7 +4577,18 @@
         "https://www.economist.com/topics/economy"
       ],
       "date": "2026-04-24T02:01:16.228178+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mistral Small 3.1 For Efficient Multimodal Enterprise Applications",
+      "urls": [
+        "https://www.zhihu.com/question/624299709",
+        "https://www.zhihu.com/question/2018300329490412488",
+        "https://www.zhihu.com/question/634137761",
+        "https://www.zhihu.com/question/15346365588",
+        "https://www.zhihu.com/question/655616250"
+      ],
+      "date": "2026-04-24T02:34:12.054253+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T02:01:16.228248+00:00"
+  "lastUpdated": "2026-04-24T02:34:12.054318+00:00"
 }
