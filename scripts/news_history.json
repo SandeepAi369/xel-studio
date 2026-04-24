@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earthquake swarm at the Juan de Fuca Ridge has recorded over 800 seismic events since midnight, mark",
-      "urls": [
-        "https://www.youtube.com/watch?v=te-dkCvi9Xs",
-        "https://www.youtube.com/watch?v=Od06bmOvEl4"
-      ],
-      "date": "2026-04-14T14:04:19.988633+00:00"
-    },
-    {
-      "title": "Israel and Lebanon will hold diplomatic talks in the United States, marking a significant step towar",
-      "urls": [
-        "https://www.youtube.com/watch?v=2YFgX2MW7bg",
-        "https://www.ungeneva.org/en/about/topics/peace-negotiations",
-        "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran",
-        "https://www.foxnews.com/video/6393065796112"
-      ],
-      "date": "2026-04-14T14:32:06.200478+00:00"
-    },
-    {
-      "title": "Digital Wellness Market To Hit $200 Billion By 2030",
-      "urls": [
-        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
-        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health"
-      ],
-      "date": "2026-04-14T15:01:19.979517+00:00"
-    },
-    {
       "title": "Meta Releases LLaMA 4 With 10 Million Token Context Window",
       "urls": [
         "https://www.youtube.com/watch?v=GdX6WdtP2Zc"
@@ -4653,7 +4626,21 @@
         "https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss"
       ],
       "date": "2026-04-24T14:02:14.600925+00:00"
+    },
+    {
+      "title": "Gen Z Dumps Smartphones For Flip Phones To Boost Mental Health",
+      "urls": [
+        "https://psychtimes.com/tech/digital-balance-how-technology-is-shaping-modern-mental-wellness",
+        "https://www.sciencedirect.com/science/article/pii/S2214782925000259",
+        "https://www.msn.com/en-us/news/technology/gen-z-is-ditching-smartphones-for-flip-phonesand-experts-say-it-could-transform-mental-health/ar-AA21yC47",
+        "https://mauinow.com",
+        "https://www.foxnews.com/health?msockid=1f8a7fb4fe436d2b1c5268f1ff446cde",
+        "https://healthcare-digital.com/news/voya-telus-boosting-mental-health-support-in-workplaces",
+        "https://www.bwhealthcareworld.com/article/heyypal-secures-funding-to-expand-on-demand-mental-health-platform-603416",
+        "https://www.morningstar.com/news/pr-newswire/20260423sf42048/healthcare-triangle-inc-launches-ai-driven-digital-self-care-therapy-platform-zoranex-to-address-the-450b-global-mental-health-market"
+      ],
+      "date": "2026-04-24T15:03:24.676294+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T14:02:14.601002+00:00"
+  "lastUpdated": "2026-04-24T15:03:24.676363+00:00"
 }
