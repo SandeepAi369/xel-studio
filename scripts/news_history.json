@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Orsted Posts Loss After Trump Administration Cancels 679 Million In Offshore Wind Funding",
-      "urls": [
-        "https://www.cnbc.com/renewable-energy"
-      ],
-      "date": "2026-04-14T22:30:56.170051+00:00"
-    },
-    {
       "title": "Linux Adoption Rises 18 Percent in 2025",
       "urls": [
         "https://www.youtube.com/watch?v=cQ3auCVzfrA"
@@ -4645,7 +4638,18 @@
         "https://www.downtoearth.org.in/climate-change"
       ],
       "date": "2026-04-24T22:01:14.404909+00:00"
+    },
+    {
+      "title": "InnoCaption Uses AI For Real Time Captioning In Medical And Educational Settings",
+      "urls": [
+        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
+        "https://nagish.com/post/latest-innovations-in-technology-for-deaf",
+        "https://dl.acm.org/doi/10.1145/3706598.3714241",
+        "https://thelinknewspaper.ca/article/ai-innovation-brings-new-opportunities-for-the-deaf-community",
+        "https://news.njit.edu/njit-and-nyu-researchers-advance-ai-audio-captioning-deaf-and-hard-hearing-nsf-grant"
+      ],
+      "date": "2026-04-24T22:32:08.803176+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T22:01:14.405006+00:00"
+  "lastUpdated": "2026-04-24T22:32:08.803230+00:00"
 }
