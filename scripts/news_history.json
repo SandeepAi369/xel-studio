@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Corewell Health has expanded its remote patient monitoring program across all locations, following a",
-      "urls": [
-        "https://www.healthcareitnews.com/topics/telehealth"
-      ],
-      "date": "2026-04-14T07:32:09.867182+00:00"
-    },
-    {
       "title": "Smart wheelchairs are integrating advanced safety and autonomy features, with models now offering bl",
       "urls": [
         "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOopcXYYGVhf2_-foKms5ioLTQO_rlOJTBO3Pj7a2zBMKlkZzsVV-",
@@ -4620,7 +4613,16 @@
         "https://www.newsnow.com/us/Sports/Esports"
       ],
       "date": "2026-04-24T07:31:18.002115+00:00"
+    },
+    {
+      "title": "Apple users are reporting a surge in fraudulent security alert emails designed to mimic official App",
+      "urls": [
+        "https://discussions.apple.com/thread/256192348",
+        "https://discussions.apple.com/thread/255969524",
+        "https://discussions.apple.com/thread/255946401"
+      ],
+      "date": "2026-04-24T08:02:09.662037+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T07:31:18.002182+00:00"
+  "lastUpdated": "2026-04-24T08:02:09.662101+00:00"
 }
