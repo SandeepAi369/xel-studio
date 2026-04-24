@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://rethinktrade.org/digitaltrade",
-        "https://www.nytimes.com/topic/subject/international-trade-and-world-market-trade-disputes"
-      ],
-      "date": "2026-04-14T11:31:02.922692+00:00"
-    },
-    {
       "title": "Syria Conflict Displaces 12 Million After 13 Years",
       "urls": [
         "https://www.unrefugees.org/emergencies"
@@ -4643,7 +4635,14 @@
         "https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
       ],
       "date": "2026-04-24T11:01:09.534328+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Households With Conservative Prime Time Coverage",
+      "urls": [
+        "https://www.foxnews.com?msockid=3b8b9e49a849608921e8890ca9606102"
+      ],
+      "date": "2026-04-24T11:34:06.192285+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T11:01:09.534394+00:00"
+  "lastUpdated": "2026-04-24T11:34:06.192354+00:00"
 }
