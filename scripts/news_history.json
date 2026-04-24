@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deep Sea Mining Threatens 30 Species Of Sharks And Rays",
-      "urls": [
-        "https://www.conservation.cam.ac.uk/aggregator/sources/2",
-        "https://wildlife.org/news",
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity"
-      ],
-      "date": "2026-04-14T18:03:14.503954+00:00"
-    },
-    {
-      "title": "Hugging Face Showcases FLUX.1 And Llama-3.2 Vision Models",
-      "urls": [
-        "https://www.analyticsvidhya.com/blog/2024/12/top-open-source-models-on-hugging-face",
-        "https://huggingface.co/models",
-        "https://www.youtube.com/watch?v=Nb0PxyrafOE",
-        "https://huggingface.co",
-        "https://huggingface.co/blog",
-        "https://huggingface.co/papers/trending",
-        "https://huggingface.co/papers"
-      ],
-      "date": "2026-04-14T18:32:08.456935+00:00"
-    },
-    {
       "title": "Eli Lilly Invests $2.8 Billion in Atomwise AI Drug Discovery Partnership",
       "urls": [
         "https://www.youtube.com/watch?v=NXGa7rjaUPM",
@@ -4654,7 +4632,14 @@
         "https://www.sciencenews.org/article/moss-spores-survive-nine-months-space"
       ],
       "date": "2026-04-24T18:02:16.689513+00:00"
+    },
+    {
+      "title": "Fox News operates as a leading U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=08ee50861fce6d1e2c8447c31e346c34"
+      ],
+      "date": "2026-04-24T18:38:26.005573+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T18:02:16.689590+00:00"
+  "lastUpdated": "2026-04-24T18:38:26.005661+00:00"
 }
