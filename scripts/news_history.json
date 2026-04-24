@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Grace Bell gave birth to Hugo, the first British baby born following a womb transplant from a deceas",
-      "urls": [
-        "https://www.pennmedicine.org/news/research-innovation",
-        "https://www.bbc.com/news/topics/c1038wnxy50t"
-      ],
-      "date": "2026-04-14T23:32:03.224607+00:00"
-    },
-    {
       "title": "National Science Foundation has played a foundational role in advancing quantum computing through de",
       "urls": [
         "https://www.nsf.gov/science-matters/quantum-computing-expanding-whats-possible"
@@ -4650,7 +4642,18 @@
         "https://www.hunton.com/insights/publications/part-1-open-source-ai-models-how-open-are-they-really"
       ],
       "date": "2026-04-24T23:02:11.568728+00:00"
+    },
+    {
+      "title": "popEVE AI Model Speeds Rare Genetic Disease Diagnosis",
+      "urls": [
+        "https://www.nature.com/articles/s44387-026-00076-4",
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://hms.harvard.edu/news/new-artificial-intelligence-model-could-speed-rare-disease-diagnosis",
+        "https://www.techtimes.com/articles/313148/20251204/ai-healthcare-diagnosis-2025-medical-ai-tools-revolutionizing-accuracy.htm",
+        "https://washingtondc.jhu.edu/news/5-ways-ai-is-transforming-health-care-worldwide"
+      ],
+      "date": "2026-04-24T23:32:57.179877+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T23:02:11.568801+00:00"
+  "lastUpdated": "2026-04-24T23:32:57.179940+00:00"
 }
