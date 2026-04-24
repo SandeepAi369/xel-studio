@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases LLaMA 4 With 10 Million Token Context Window",
-      "urls": [
-        "https://www.youtube.com/watch?v=GdX6WdtP2Zc"
-      ],
-      "date": "2026-04-14T15:31:03.072419+00:00"
-    },
-    {
       "title": "Unhcr Reports 6.3 Million Displaced In Horn Of Africa",
       "urls": [
         "https://www.unhcr.org/news-and-stories"
@@ -4640,7 +4633,18 @@
         "https://www.morningstar.com/news/pr-newswire/20260423sf42048/healthcare-triangle-inc-launches-ai-driven-digital-self-care-therapy-platform-zoranex-to-address-the-450b-global-mental-health-market"
       ],
       "date": "2026-04-24T15:03:24.676294+00:00"
+    },
+    {
+      "title": "PUB21 And MYC2 Regulate Citrus Immunity Against Huanglongbing Bacteria",
+      "urls": [
+        "https://www.science.org/content/page/contributing-science-family-journals",
+        "https://www.science.org/content/article/breakthrough-2025",
+        "https://www.science.org/doi/10.1126/science.adq7203",
+        "https://www.science.org/doi/10.1126/science.adp5540",
+        "https://www.science.org/loi/science"
+      ],
+      "date": "2026-04-24T15:31:04.554657+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T15:03:24.676363+00:00"
+  "lastUpdated": "2026-04-24T15:31:04.554724+00:00"
 }
