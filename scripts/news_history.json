@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jane Hedengren broke the NCAA women's 10,000-meter record at the Stanford Invitational with a time o",
-      "urls": [
-        "https://www.youtube.com/watch?v=cqp_HQ0oU4o"
-      ],
-      "date": "2026-04-14T08:32:03.449825+00:00"
-    },
-    {
-      "title": "U.",
-      "urls": [
-        "https://www.youtube.com/watch?v=WPldpsoJtVQ&vl=en",
-        "https://cset.georgetown.edu/publication/acquiring-ai-companies-tracking-u-s-ai-mergers-and-acquisitions"
-      ],
-      "date": "2026-04-14T09:01:13.318042+00:00"
-    },
-    {
       "title": "Atos is advancing the integration of AI and accessibility to transform workplace inclusivity, emphas",
       "urls": [
         "https://atos.net/en/blog/the-future-is-assistive-how-ai-and-accessibility-will-shape-the-next-decade-of-work"
@@ -4627,7 +4612,14 @@
         "https://www.yumpu.com/news/en/issue/185225-tv-satellite-week-magazine-2026-04-14"
       ],
       "date": "2026-04-24T08:31:00.860934+00:00"
+    },
+    {
+      "title": "Fox News operates as a major U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=2f54a4330bb86bec3833b3760a7d6af9"
+      ],
+      "date": "2026-04-24T09:03:19.456859+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T08:31:00.861002+00:00"
+  "lastUpdated": "2026-04-24T09:03:19.456929+00:00"
 }
