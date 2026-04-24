@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas A&M researchers are studying how generative AI technologies impact blind and visually impaired",
-      "urls": [
-        "https://afb.org/blindness-and-low-vision/using-technology",
-        "https://nemo.asee.org/public/conferences/363/papers/45200/view",
-        "https://www.youtube.com/watch?v=ryJyfM1H6eU"
-      ],
-      "date": "2026-04-14T17:33:09.043086+00:00"
-    },
-    {
       "title": "Deep Sea Mining Threatens 30 Species Of Sharks And Rays",
       "urls": [
         "https://www.conservation.cam.ac.uk/aggregator/sources/2",
@@ -4656,7 +4647,14 @@
         "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop30"
       ],
       "date": "2026-04-24T17:30:59.832302+00:00"
+    },
+    {
+      "title": "Moss Spores Survive Nine Months In Space",
+      "urls": [
+        "https://www.sciencenews.org/article/moss-spores-survive-nine-months-space"
+      ],
+      "date": "2026-04-24T18:02:16.689513+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T17:30:59.832372+00:00"
+  "lastUpdated": "2026-04-24T18:02:16.689590+00:00"
 }
