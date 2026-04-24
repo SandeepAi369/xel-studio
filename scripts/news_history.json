@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gaethje Faces Paddy Pimblett For UFC Interim Lightweight Title At UFC 324",
-      "urls": [
-        "https://www.nytimes.com/athletic/mma"
-      ],
-      "date": "2026-04-14T04:32:05.638455+00:00"
-    },
-    {
       "title": "Open source AI models are increasingly tailored for specific enterprise use cases, such as customer ",
       "urls": [
         "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
@@ -4593,7 +4586,22 @@
         "https://6abc.com/post/earth-day-2026-what-can-do-promote-conservation-climate-action/18940733"
       ],
       "date": "2026-04-24T04:05:24.947266+00:00"
+    },
+    {
+      "title": "Pavel Durov Warns Digital Services Act Threatens Telegram Encryption",
+      "urls": [
+        "https://www.reuters.com/legal/data-privacy",
+        "https://iapp.org/news",
+        "https://www.context.news/surveillance",
+        "https://techcrunch.com/category/privacy",
+        "https://greekcitytimes.com/2026/04/09/telegram-eu-dsa-durov-censorship-surveillance",
+        "https://sdgs.un.org/sites/default/files/2024-05/Francis_Navigating+the+Intersection+of+AI,+Surveillance,+and+Privacy.pdf",
+        "https://www.tandfonline.com/doi/full/10.1080/25741292.2022.2086667",
+        "https://news.un.org/en/story/2021/08/1097632",
+        "https://www.aclu.org/issues/privacy-technology"
+      ],
+      "date": "2026-04-24T04:34:14.531648+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T04:05:24.947323+00:00"
+  "lastUpdated": "2026-04-24T04:34:14.531718+00:00"
 }
