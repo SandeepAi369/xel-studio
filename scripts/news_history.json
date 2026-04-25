@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sixty Thousand Trees Planted in UK Estate Restoration Project",
-      "urls": [
-        "https://www.bbc.com/news/topics/c9grgwq2krzt"
-      ],
-      "date": "2026-04-15T22:31:05.128055+00:00"
-    },
-    {
-      "title": "Eli Lilly Expands Anthropic AI Collaboration to Accelerate Drug Discovery",
-      "urls": [
-        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
-        "https://www.youtube.com/watch?v=y69d262a8Dc",
-        "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html",
-        "https://pda.org/pda-letter-portal/home/full-article/the-ai-revolution-in-drug-discovery"
-      ],
-      "date": "2026-04-15T23:01:13.642312+00:00"
-    },
-    {
       "title": "Dr David Sinclair's Therapy Reverses Cellular Aging By 75 Percent In Human Trials",
       "urls": [
         "https://www.youtube.com/watch?v=tvwCWwpY-X8",
@@ -4700,7 +4683,15 @@
         "https://wildlife.utah.gov"
       ],
       "date": "2026-04-25T22:30:56.782864+00:00"
+    },
+    {
+      "title": "Konami Launches eFootball 2122 As Free-To-Play Global Title",
+      "urls": [
+        "https://www.konami.com/efootball/ko/page/overview",
+        "https://www.konami.com/efootball/en/page/mobile_controller"
+      ],
+      "date": "2026-04-25T23:03:11.807779+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T22:30:56.782938+00:00"
+  "lastUpdated": "2026-04-25T23:03:11.807838+00:00"
 }
