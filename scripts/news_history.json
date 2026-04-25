@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Withholds Mythos Preview Over Safety Concerns",
-      "urls": [
-        "https://www.aol.com/news/anthropic-says-ai-model-too-181826986.html",
-        "https://www.youtube.com/watch?v=PLg2EUkIC78",
-        "https://www.youtube.com/watch?v=bUbFFSZQ5w0",
-        "https://www.youtube.com/watch?v=lMaCfQMlXY0"
-      ],
-      "date": "2026-04-15T15:32:11.576197+00:00"
-    },
-    {
-      "title": "Donald Trump Shares Doctored Jesus-Like Image Sparking Religious Backlash",
-      "urls": [
-        "https://www.youtube.com/watch?v=9cVFjWf5Qro"
-      ],
-      "date": "2026-04-15T16:01:13.991647+00:00"
-    },
-    {
       "title": "Usopc Performance Innovation Team Deploys Ai Biometrics For Athlete Optimization",
       "urls": [
         "https://www.usopc.org/technology",
@@ -4695,7 +4678,14 @@
         "https://www.nist.gov/quantum-information-science/quantum-computing-explained"
       ],
       "date": "2026-04-25T15:32:04.550463+00:00"
+    },
+    {
+      "title": "Fox News operates as a major U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=0e0571b8fedb67d4081366feffa36697"
+      ],
+      "date": "2026-04-25T16:03:13.251536+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T15:32:04.550520+00:00"
+  "lastUpdated": "2026-04-25T16:03:13.251608+00:00"
 }
