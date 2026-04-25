@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI political ads are spreading rapidly across U.",
-      "urls": [
-        "https://www.cbsnews.com/politics",
-        "https://www.reuters.com/world/us/elections",
-        "https://www.nytimes.com/section/politics",
-        "https://www.youtube.com/watch?v=mRnwwrgAdq8"
-      ],
-      "date": "2026-04-15T03:01:12.053083+00:00"
-    },
-    {
-      "title": "Jamie Dimon Warns Of Recession Risks In 84-Page Shareholder Letter",
-      "urls": [
-        "https://www.cnbc.com/corporate-leaders",
-        "https://www.youtube.com/watch?v=bta18wTOr_k",
-        "https://www.aol.com/finance/big-tech-ceos-seek-quell-170124906.html",
-        "https://qz.com/nvidia-employees-ai-use-jensen-huang",
-        "https://www.msn.com/en-us/money/other/sr-white-house-officials-met-with-top-tech-ceos-last-week-on-ai-cybersecurity-risks-according-to-sources/vi-AA20Bu4K?uxmode=ruby",
-        "https://www.instagram.com/reel/DW1pcLylPLa"
-      ],
-      "date": "2026-04-15T03:31:03.189325+00:00"
-    },
-    {
       "title": "Google DeepMind Launches Gemini 3 With Deep Think And Flash Lite Features",
       "urls": [
         "https://deepmind.google/models/gemini"
@@ -4668,7 +4646,18 @@
         "https://www.csis.org/programs/wadhwani-ai-center/research-themes/geopolitics-advanced-technology"
       ],
       "date": "2026-04-25T03:01:03.211860+00:00"
+    },
+    {
+      "title": "Digital Spy Launches 76th Ratings Thread Amid 20000 Post Milestone",
+      "urls": [
+        "https://www.ibm.com/think/topics/digital-transformation",
+        "https://forums.digitalspy.com/discussion/2473676/the-ratings-thread-part-76",
+        "https://forums.digitalspy.com/categories/streaming",
+        "https://www.ibm.com/br-pt/think/topics/digital-transformation",
+        "https://forums.digitalspy.com/categories/sport"
+      ],
+      "date": "2026-04-25T03:31:12.296866+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T03:01:03.211943+00:00"
+  "lastUpdated": "2026-04-25T03:31:12.296925+00:00"
 }
