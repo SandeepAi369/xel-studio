@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports World Cup is elevating its Club Championship for 2026, increasing the prize pool and refinin",
-      "urls": [
-        "https://esportsworldcup.com/en/news"
-      ],
-      "date": "2026-04-15T08:30:59.836768+00:00"
-    },
-    {
-      "title": "SpaceX conducted a static fire test on Starship Ship 39 and Booster 19, marking a critical step in i",
-      "urls": [
-        "https://www.youtube.com/watch?v=ePVcsreSKRI",
-        "https://www.spacex.com/launches",
-        "https://www.youtube.com/watch?v=Y1w52_Z_3tQ&vl=en",
-        "https://www.facebook.com/NASASpaceflight/videos/splashdownafter-9-days-1-hour-31-minutes-and-35-seconds-orion-integrity-and-its-/922109577477742",
-        "https://www.spacex.com/updates",
-        "https://www.youtube.com/watch?v=JCZbFl1L6pE"
-      ],
-      "date": "2026-04-15T09:01:10.177126+00:00"
-    },
-    {
       "title": "MIT Engineers Unveil Wristband That Controls Robotic Hand With Muscle Signals",
       "urls": [
         "https://disabilityinsider.com/assistive-technology",
@@ -4681,7 +4662,14 @@
         "https://tglgolf.com"
       ],
       "date": "2026-04-25T08:30:54.907032+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Magistral Small 2509 With 24 Billion Parameters",
+      "urls": [
+        "https://www.zhihu.com/pin/1952369016715846773"
+      ],
+      "date": "2026-04-25T09:01:18.663845+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T08:30:54.907099+00:00"
+  "lastUpdated": "2026-04-25T09:01:18.663902+00:00"
 }
