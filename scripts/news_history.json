@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI climate tech startups are attracting significant venture capital as investors seek solutions to r",
-      "urls": [
-        "https://finance.yahoo.com/news/ai-climate-tech-startups-propping-205249393.html",
-        "https://energyinnovation.org/about/press"
-      ],
-      "date": "2026-04-15T14:03:26.604243+00:00"
-    },
-    {
       "title": "Hugging Face Hosts Over 800,000 Open Source AI Models",
       "urls": [
         "https://neuralbrief.in/news/huggingface-open-source-ai-platform"
@@ -4690,7 +4682,16 @@
         "https://support.google.com/a/users/answer/9282742?hl=en"
       ],
       "date": "2026-04-25T14:01:05.768950+00:00"
+    },
+    {
+      "title": "Harvard Researchers Speed Development Of New Disease Treatments",
+      "urls": [
+        "https://www.medicalnewstoday.com/news",
+        "https://news.harvard.edu/gazette/story/2025/09/speeding-discoveries-from-lab-to-patients",
+        "https://scitechdaily.com/news/health"
+      ],
+      "date": "2026-04-25T14:30:50.767316+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T14:01:05.769038+00:00"
+  "lastUpdated": "2026-04-25T14:30:50.767388+00:00"
 }
