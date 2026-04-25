@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tux Machines Covers GNU Linux Updates And Open Source Games",
-      "urls": [
-        "https://www.youtube.com/watch?v=MI-8siOT-D0",
-        "https://news.tuxmachines.org"
-      ],
-      "date": "2026-04-15T18:35:11.279854+00:00"
-    },
-    {
       "title": "Meta Ray-Ban Smart Glasses Use AI to Assist Visually Impaired Users",
       "urls": [
         "https://news.un.org/en/story/2025/10/1166082",
@@ -4703,7 +4695,14 @@
         "https://humanoidroboticstechnology.com/industry-news/agibot-announces-new-generation-of-embodied-ai-robots-and-models"
       ],
       "date": "2026-04-25T18:31:00.585156+00:00"
+    },
+    {
+      "title": "Fox News Delivers Top-Rated Conservative Programming To 80 Million Households",
+      "urls": [
+        "https://www.foxnews.com?msockid=0d3dbd2ddb1961ff262baa6bdac660f8"
+      ],
+      "date": "2026-04-25T19:01:17.526612+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T18:31:00.585228+00:00"
+  "lastUpdated": "2026-04-25T19:01:17.526678+00:00"
 }
