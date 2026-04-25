@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Engineers Unveil Wristband That Controls Robotic Hand With Muscle Signals",
-      "urls": [
-        "https://disabilityinsider.com/assistive-technology",
-        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
-        "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled",
-        "https://www.youtube.com/watch?v=XG57NfQ85OA",
-        "https://news.mit.edu/topic/assistive-technology"
-      ],
-      "date": "2026-04-15T09:30:59.090493+00:00"
-    },
-    {
       "title": "Ukraine And Russia Resume Geneva Peace Talks In 2026",
       "urls": [
         "https://www.diplomacy.edu/blog/geneva-peace-talks-a-test-of-mediation-diplomacy-in-2026",
@@ -4669,7 +4658,21 @@
         "https://www.zhihu.com/pin/1952369016715846773"
       ],
       "date": "2026-04-25T09:01:18.663845+00:00"
+    },
+    {
+      "title": "Google Cloud Launches Two New TPUs To Challenge Nvidia",
+      "urls": [
+        "https://investorplace.com/hypergrowthinvesting/2026/04/the-rise-of-custom-ai-chips-is-breaking-nvidias-grip",
+        "https://www.newscase.com/the-ai-chip-race-nvidia-and-amd-battle-for-semiconductor-supremacy",
+        "https://www.msn.com/en-us/news/other/nvidia-and-amd-surge-as-ai-chip-rally-accelerates-after-intel-beat/gm-GMC72C6278",
+        "https://www.amd.com/en/newsroom.html",
+        "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer",
+        "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia",
+        "https://www.businessinsider.com/nvidia-stock-price-nvda-alphabet-google-ai-chips-tpu-gpu-2025-11",
+        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html"
+      ],
+      "date": "2026-04-25T09:31:04.930176+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T09:01:18.663902+00:00"
+  "lastUpdated": "2026-04-25T09:31:04.930235+00:00"
 }
