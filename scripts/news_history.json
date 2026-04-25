@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "FaZe Clan has launched a live reality competition show on Twitch, marking a strategic shift beyond t",
-      "urls": [
-        "https://www.adweek.com/category/esports"
-      ],
-      "date": "2026-04-15T13:03:17.388704+00:00"
-    },
-    {
-      "title": "Election Coverage provides comprehensive updates on U.",
-      "urls": [
-        "https://www.cnbc.com/elections"
-      ],
-      "date": "2026-04-15T13:31:05.465822+00:00"
-    },
-    {
       "title": "AI climate tech startups are attracting significant venture capital as investors seek solutions to r",
       "urls": [
         "https://finance.yahoo.com/news/ai-climate-tech-startups-propping-205249393.html",
@@ -4684,7 +4670,16 @@
         "https://www.linux.org/forums/kali-linux.162"
       ],
       "date": "2026-04-25T13:02:12.440727+00:00"
+    },
+    {
+      "title": "U.S. Energy Exports Hit Record $142 Billion in 2023",
+      "urls": [
+        "https://www.andhrajyothy.com/latest-news",
+        "https://www.usatoday.com/news/politics",
+        "https://news24online.com/india/live-updates-breaking-news-today-april-25-modi-india-us-trade-deal-assembly-elections-2026-west-bengal-tamil-nadu-trump-us-iran-war-delhi-ncr-heatwave-raghav-chadha-bjp-aap-kejriwal-latest-news/816347"
+      ],
+      "date": "2026-04-25T13:33:01.097039+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T13:02:12.440777+00:00"
+  "lastUpdated": "2026-04-25T13:33:01.097102+00:00"
 }
