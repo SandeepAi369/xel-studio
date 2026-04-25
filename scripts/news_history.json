@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "BeyondSight has launched a new sensory system developed by a two-student team aiming to enhance mobi",
-      "urls": [
-        "https://ok.vision/how-technology-can-help-students-with-vision-impairments",
-        "https://news.fiu.edu/2024/virtual-guide-dog-new-navigation-for-the-visually-impaired",
-        "https://www.neco.edu/news/braille-as-modern-digital-assistive-technology",
-        "https://lighthouseguild.org/news/low-vision-awareness-whats-the-latest-assistive-tech-available"
-      ],
-      "date": "2026-04-15T17:36:16.681713+00:00"
-    },
-    {
       "title": "Hexicon Sells 32MW Twinhub Wind Project For £1 After CfD Loss",
       "urls": [
         "https://www.powermag.com/category/wind",
@@ -4697,7 +4687,18 @@
         "https://www.quantumfiber.com"
       ],
       "date": "2026-04-25T17:33:11.273118+00:00"
+    },
+    {
+      "title": "PyTorch And Arm Team Up To Boost AI Performance",
+      "urls": [
+        "https://www.freecodecamp.org/news/pytorch-vs-tensorflow-for-deep-learning-projects",
+        "https://spacy.io",
+        "https://github.com/alvinreal/awesome-opensource-ai",
+        "https://newsroom.arm.com/news/pytorch-kleidi-integrations-cloud-to-edge",
+        "https://github.com/alibaba/MNN"
+      ],
+      "date": "2026-04-25T18:03:19.999149+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T17:33:11.273186+00:00"
+  "lastUpdated": "2026-04-25T18:03:19.999212+00:00"
 }
