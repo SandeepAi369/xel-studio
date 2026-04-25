@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Two-Thirds of NASA Missions Using Reusable Falcon 9 Rockets",
-      "urls": [
-        "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-10-launch",
-        "https://www.science.org/content/article/spacex-now-dominates-rocket-flight-bringing-big-benefits-and-risks-nasa",
-        "https://www.youtube.com/watch?v=wjcQZHk7p1o"
-      ],
-      "date": "2026-04-15T20:35:08.727772+00:00"
-    },
-    {
-      "title": "West Ham Secures Vital Wins To Bolster Survival Hopes",
-      "urls": [
-        "https://nation.steveharveyfm.com/free-minds/top-plays-the-most-amazing-moments-in-sports-1764823316",
-        "https://sports.yahoo.com/articles/hope-real-shot-survival-111652990.html",
-        "https://www.facebook.com/groups/312924925565944/posts/2602943616564052"
-      ],
-      "date": "2026-04-15T21:01:18.854708+00:00"
-    },
-    {
       "title": "Ruth Chepngetich Smashes World Record With Sub 2:10 Chicago Marathon Win",
       "urls": [
         "https://trackandfieldnews.com/article/for-the-record-may-2024",
@@ -4709,7 +4691,14 @@
         "https://www.who.int/initiatives/disability-health-equity-initiative"
       ],
       "date": "2026-04-25T20:32:06.793077+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Households Amid Strong Advertiser Demand",
+      "urls": [
+        "https://www.foxnews.com?msockid=037a7d0621856da8017f6a4020d76cdb"
+      ],
+      "date": "2026-04-25T21:02:12.523686+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T20:32:06.793149+00:00"
+  "lastUpdated": "2026-04-25T21:02:12.523760+00:00"
 }
