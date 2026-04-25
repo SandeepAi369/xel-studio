@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Ramps Up Quantum Research to Counter China’s 176-Qubit Breakthrough",
-      "urls": [
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOop_GNZZVzSottjffty-f9o89lZqik0KTSN54gO-RFPcD_i_5-70",
-        "https://www.csis.org/events/insights-us-china-technology-competition",
-        "https://www.youtube.com/watch?v=yA45XWqKcy8",
-        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026",
-        "https://www.uscc.gov/research/vying-quantum-supremacy-us-china-competition-quantum-technologies",
-        "https://kissinger.sais.jhu.edu/programs-and-projects/kissinger-center-papers/how-private-tech-companies-are-reshaping-great-power-competition"
-      ],
-      "date": "2026-04-15T15:01:16.858032+00:00"
-    },
-    {
       "title": "Anthropic Withholds Mythos Preview Over Safety Concerns",
       "urls": [
         "https://www.aol.com/news/anthropic-says-ai-model-too-181826986.html",
@@ -4694,7 +4682,20 @@
         "https://www.zhihu.com/question/384813035"
       ],
       "date": "2026-04-25T15:01:06.616918+00:00"
+    },
+    {
+      "title": "Quantum Fiber Launches 1 000 Mbps Internet in Minnesota Cities",
+      "urls": [
+        "https://www.quantumfiber.com/local/mn",
+        "https://en.m.wikipedia.org/wiki/Quantum",
+        "https://en.m.wikipedia.org/wiki/Quantum_mechanics",
+        "https://www.quantumfiber.com/local/mn/mahtomedi",
+        "https://www.quantumfiber.com/shop",
+        "https://www.quantumworkplace.com",
+        "https://www.nist.gov/quantum-information-science/quantum-computing-explained"
+      ],
+      "date": "2026-04-25T15:32:04.550463+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T15:01:06.616999+00:00"
+  "lastUpdated": "2026-04-25T15:32:04.550520+00:00"
 }
