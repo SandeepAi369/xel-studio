@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas Lags In Offshore Wind Development Despite Gulf Potential",
-      "urls": [
-        "https://insideclimatenews.org/category/clean-energy"
-      ],
-      "date": "2026-04-15T01:30:58.038971+00:00"
-    },
-    {
-      "title": "Mistral released a new open-source text-to-speech model called Voxtral TTS, designed for enterprise ",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models",
-        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
-        "https://mistral.ai/news",
-        "https://finance.yahoo.com/news/mistral-closes-big-ai-rivals-153707603.html",
-        "https://news.ycombinator.com/item?id=44594156"
-      ],
-      "date": "2026-04-15T02:01:08.601415+00:00"
-    },
-    {
       "title": "Genome Research Publishes GenoNet AI Framework For Accurate Genomic Predictions",
       "urls": [
         "https://www.news-medical.net/condition/Artificial-Intelligence"
@@ -4664,7 +4645,14 @@
         "https://www.weforum.org/stories/2026/02/four-risk-trends-shaping-the-planet"
       ],
       "date": "2026-04-25T01:30:57.069348+00:00"
+    },
+    {
+      "title": "Phoronix Benchmarks Reveal AMD Intel CPU Performance Gaps",
+      "urls": [
+        "https://www.phoronix.com/recent-linux-news"
+      ],
+      "date": "2026-04-25T02:02:09.650417+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T01:30:57.069406+00:00"
+  "lastUpdated": "2026-04-25T02:02:09.650505+00:00"
 }
