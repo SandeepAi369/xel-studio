@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rohingya Refugees Relocated to Bhasan Char Island by Bangladesh Government",
-      "urls": [
-        "https://www.thenewhumanitarian.org/migration",
-        "https://www.hrw.org/topic/refugees-and-migrants",
-        "https://concernusa.org/news/largest-refugee-crises"
-      ],
-      "date": "2026-04-15T20:01:15.630290+00:00"
-    },
-    {
       "title": "SpaceX Launches Two-Thirds of NASA Missions Using Reusable Falcon 9 Rockets",
       "urls": [
         "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-10-launch",
@@ -4703,7 +4694,14 @@
         "https://www.theverge.com/news/785193/google-deepmind-gemini-ai-robotics-web-search"
       ],
       "date": "2026-04-25T19:31:55.417468+00:00"
+    },
+    {
+      "title": "HealthCare Gov Launches Open Enrollment For 2024",
+      "urls": [
+        "https://www.healthcare.gov/quick-guide/one-page-guide-to-the-marketplace"
+      ],
+      "date": "2026-04-25T20:03:06.024036+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T19:31:55.417545+00:00"
+  "lastUpdated": "2026-04-25T20:03:06.024105+00:00"
 }
