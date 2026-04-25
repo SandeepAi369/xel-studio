@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usopc Performance Innovation Team Deploys Ai Biometrics For Athlete Optimization",
-      "urls": [
-        "https://www.usopc.org/technology",
-        "https://www.kpcnews.com/news/national/article_007f5fd2-0e7f-571e-9fef-65ba659ff5c0.html"
-      ],
-      "date": "2026-04-15T16:30:59.013006+00:00"
-    },
-    {
-      "title": "Harvard Medical School has developed an AI model called PDGrapher that identifies gene and drug comb",
-      "urls": [
-        "https://www.facebook.com/wxii12news/posts/health-experts-say-ai-is-helping-them-diagnose-diseases-develop-new-drugs-and-de/1389516836535901",
-        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
-        "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells"
-      ],
-      "date": "2026-04-15T17:02:17.483804+00:00"
-    },
-    {
       "title": "BeyondSight has launched a new sensory system developed by a two-student team aiming to enhance mobi",
       "urls": [
         "https://ok.vision/how-technology-can-help-students-with-vision-impairments",
@@ -4696,7 +4679,18 @@
         "https://sports.yahoo.com/articles/2026-nhl-playoff-bracket-live-134500630.html"
       ],
       "date": "2026-04-25T16:30:56.331810+00:00"
+    },
+    {
+      "title": "ATP And WTA Tours Launch Real-Time Scoring For 2026 Seasons",
+      "urls": [
+        "https://www.tennis.com",
+        "https://www.espn.com/tennis/scoreboard",
+        "https://www.atptour.com/en",
+        "https://www.flashscore.com/tennis",
+        "https://www.cbssports.com/tennis"
+      ],
+      "date": "2026-04-25T17:02:30.121782+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T16:30:56.331871+00:00"
+  "lastUpdated": "2026-04-25T17:02:30.121856+00:00"
 }
