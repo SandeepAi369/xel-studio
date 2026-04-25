@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Super Typhoon Sinlaku Hits 150 mph, Threatens Guam and Northern Mariana Islands",
-      "urls": [
-        "https://www.weather.gov/media/mfl/news/SWAW2026/HurcnWeb_2026.pdf",
-        "https://www.fema.gov/disaster/declarations",
-        "https://www.youtube.com/watch?v=SmXgk7beIkE",
-        "https://www.youtube.com/watch?v=LDb0U_j_DiY",
-        "https://weather.com/news/weather/video/super-typhoon-sinlaku-saipan-tinian-guam",
-        "https://www.newsweek.com/heavy-snow-warning-20-inches-snow-hit-travel-impossible-11818727"
-      ],
-      "date": "2026-04-15T00:33:03.275949+00:00"
-    },
-    {
       "title": "Apple Google And Microsoft Unveil Autonomous AI Agents At 2025 Developer Conferences",
       "urls": [
         "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three",
@@ -4661,7 +4649,14 @@
         "https://www.reuters.com/technology/space"
       ],
       "date": "2026-04-25T00:05:23.754021+00:00"
+    },
+    {
+      "title": "SpaceX And Blue Origin Submit Artemis Moon Landing Proposals",
+      "urls": [
+        "https://www.cnbc.com/2025/10/30/spacex-and-blue-origin-both-submitted-plans-to-get-astronauts-back-to-the-moon-sooner.html?msockid=357e16be6ff964d80df101f86e736503"
+      ],
+      "date": "2026-04-25T00:34:09.986330+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T00:05:23.754083+00:00"
+  "lastUpdated": "2026-04-25T00:34:09.986400+00:00"
 }
