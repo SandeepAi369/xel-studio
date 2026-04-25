@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Google And Microsoft Unveil Autonomous AI Agents At 2025 Developer Conferences",
-      "urls": [
-        "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three",
-        "https://www.newsbooktimes.com/ai-news/google-microsoft-and-apple-ai-updates-whats-new-this-year",
-        "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai"
-      ],
-      "date": "2026-04-15T01:02:14.170005+00:00"
-    },
-    {
       "title": "Texas Lags In Offshore Wind Development Despite Gulf Potential",
       "urls": [
         "https://insideclimatenews.org/category/clean-energy"
@@ -4656,7 +4647,14 @@
         "https://www.cnbc.com/2025/10/30/spacex-and-blue-origin-both-submitted-plans-to-get-astronauts-back-to-the-moon-sooner.html?msockid=357e16be6ff964d80df101f86e736503"
       ],
       "date": "2026-04-25T00:34:09.986330+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Reports Record High CO2 Levels And Sea Heat In 2023",
+      "urls": [
+        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2023"
+      ],
+      "date": "2026-04-25T01:04:27.866999+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T00:34:09.986400+00:00"
+  "lastUpdated": "2026-04-25T01:04:27.867084+00:00"
 }
