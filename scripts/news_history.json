@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Ray-Ban Smart Glasses Use AI to Assist Visually Impaired Users",
-      "urls": [
-        "https://news.un.org/en/story/2025/10/1166082",
-        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
-      ],
-      "date": "2026-04-15T19:01:25.179018+00:00"
-    },
-    {
-      "title": "OpenAI claims it could rebuild GPT-4 from scratch with only 5 to 10 engineers, citing efficiency bre",
-      "urls": [
-        "https://caias.mst.edu/ai-news"
-      ],
-      "date": "2026-04-15T19:31:20.651590+00:00"
-    },
-    {
       "title": "Rohingya Refugees Relocated to Bhasan Char Island by Bangladesh Government",
       "urls": [
         "https://www.thenewhumanitarian.org/migration",
@@ -4702,7 +4687,23 @@
         "https://www.foxnews.com?msockid=0d3dbd2ddb1961ff262baa6bdac660f8"
       ],
       "date": "2026-04-25T19:01:17.526612+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Deep Research Agents Powered By Gemini 3.1 Pro",
+      "urls": [
+        "https://www.gadgets360.com/ai/news/google-deepmind-new-team-ai-coding-models-take-on-anthropic-enterprise-race-report-11386776",
+        "https://www.marktechpost.com/2026/04/15/google-deepmind-releases-gemini-robotics-er-1-6-bringing-enhanced-embodied-reasoning-and-instrument-reading-to-physical-ai",
+        "https://the-decoder.com/google-launches-deep-research-and-deep-research-max-agents-to-automate-complex-research",
+        "https://www.technobezz.com/news/google-launches-deep-research-agents-powered-by-gemini-31-pro-for-enterprise-use",
+        "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-expand-partnership-to-scale-agentic-transformation-for-global-enterprises-with-gemini-enterprise",
+        "https://www.crn.com/news/ai/2025/google-gemini-s-10-new-ai-product-launches-programs-and-news",
+        "https://blog.google/innovation-and-ai/products/2025-research-breakthroughs",
+        "https://techcrunch.com/2025/11/13/googles-sima-2-agent-uses-gemini-to-reason-and-act-in-virtual-worlds",
+        "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership",
+        "https://www.theverge.com/news/785193/google-deepmind-gemini-ai-robotics-web-search"
+      ],
+      "date": "2026-04-25T19:31:55.417468+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T19:01:17.526678+00:00"
+  "lastUpdated": "2026-04-25T19:31:55.417545+00:00"
 }
