@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lens Launches MCP Server For AI Coding Assistants And Kubernetes Integration",
-      "urls": [
-        "https://appdevelopermagazine.com/artificial-intelligence",
-        "https://cybernews.com/ai-tools/best-ai-for-software-development",
-        "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know",
-        "https://www.reddit.com/r/webdev/comments/1ihikux/heres_my_oneline_review_of_all_the_ai_programming"
-      ],
-      "date": "2026-04-15T22:01:11.224211+00:00"
-    },
-    {
       "title": "Sixty Thousand Trees Planted in UK Estate Restoration Project",
       "urls": [
         "https://www.bbc.com/news/topics/c9grgwq2krzt"
@@ -4703,7 +4693,14 @@
         "https://www.zhihu.com/question/482692136"
       ],
       "date": "2026-04-25T22:01:09.283904+00:00"
+    },
+    {
+      "title": "Utah Division Of Wildlife Resources Manages 800 Species Across 3.2 Million Acres",
+      "urls": [
+        "https://wildlife.utah.gov"
+      ],
+      "date": "2026-04-25T22:30:56.782864+00:00"
     }
   ],
-  "lastUpdated": "2026-04-25T22:01:09.283969+00:00"
+  "lastUpdated": "2026-04-25T22:30:56.782938+00:00"
 }
