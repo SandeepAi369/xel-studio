@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Science Foundation has played a foundational role in advancing quantum computing through de",
-      "urls": [
-        "https://www.nsf.gov/science-matters/quantum-computing-expanding-whats-possible"
-      ],
-      "date": "2026-04-15T00:02:16.192100+00:00"
-    },
-    {
       "title": "Super Typhoon Sinlaku Hits 150 mph, Threatens Guam and Northern Mariana Islands",
       "urls": [
         "https://www.weather.gov/media/mfl/news/SWAW2026/HurcnWeb_2026.pdf",
@@ -4653,7 +4646,22 @@
         "https://washingtondc.jhu.edu/news/5-ways-ai-is-transforming-health-care-worldwide"
       ],
       "date": "2026-04-24T23:32:57.179877+00:00"
+    },
+    {
+      "title": "NASA Advances Crew-13 Launch With SpaceX Dragon Mission",
+      "urls": [
+        "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission",
+        "https://orbysa.com/news/misc/2025-09-29-recent-advances-in-rocket-technology-highlights-from-spacex-and-nasa",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5tYTNsM0VnSmxiaWdBUAE",
+        "https://arstechnica.com/space/2026/04/rocket-report-starship-v3-test-fired-esas-tentative-step-toward-crew-launch",
+        "https://www.cnbc.com/2025/10/30/spacex-and-blue-origin-both-submitted-plans-to-get-astronauts-back-to-the-moon-sooner.html?msockid=0d532035c48a656032643773c58d64c4",
+        "https://www.space.com/space-exploration",
+        "https://spaceheadlines.com",
+        "https://spaceexplored.com",
+        "https://www.reuters.com/technology/space"
+      ],
+      "date": "2026-04-25T00:05:23.754021+00:00"
     }
   ],
-  "lastUpdated": "2026-04-24T23:32:57.179940+00:00"
+  "lastUpdated": "2026-04-25T00:05:23.754083+00:00"
 }
