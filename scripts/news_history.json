@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artemis II has successfully completed its lunar flyby mission, returning to Earth with a controlled ",
-      "urls": [
-        "https://www.youtube.com/watch?v=jUT4oCpGFYU",
-        "https://www.facebook.com/NASASpaceflight/videos/artemis-ii-returns-re-entry-and-splashdown/2422911808208826"
-      ],
-      "date": "2026-04-16T03:31:00.680278+00:00"
-    },
-    {
-      "title": "Alibaba Launches Top-Ranked AI Video Model",
-      "urls": [
-        "https://www.marketwatch.com/story/alibaba-s-new-ai-video-generation-model-tops-global-ranking-after-debut-52f54c00",
-        "https://www.superhuman.ai/p/new-ai-video-model-takes-over-the-internet",
-        "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
-        "https://www.youtube.com/watch?v=msrbd-d6lWk",
-        "https://www.theinformation.com/newsletters/ai-agenda/startup-helps-users-generate-videos-without-breaking-bank"
-      ],
-      "date": "2026-04-16T04:01:10.714044+00:00"
-    },
-    {
       "title": "Clayton Keller Helps USA Win First Men's Olympic Hockey Gold Since 1980",
       "urls": [
         "https://golf.com/news/clayton-keller-olympics-golf-subpar?srsltid=AfmBOorE2O4KLkJinoXTrFwU8cSkQyqbyaYr7kDzaJuGMtU32zgNKIGB",
@@ -4703,7 +4684,18 @@
         "https://support.microsoft.com/en-us/windows/change-default-apps-in-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d"
       ],
       "date": "2026-04-26T03:30:56.958038+00:00"
+    },
+    {
+      "title": "Afghan Authorities Confirm 25 Dead Amid Flooding Crisis",
+      "urls": [
+        "https://apnews.com/hub/weather",
+        "https://www.washingtonpost.com/weather/extreme-weather",
+        "https://www.foxweather.com/weather-news/year-review-top-weather-events-made-2025-year-remember",
+        "https://www.nbcnews.com/news/weather",
+        "https://www.accuweather.com/en/press/extreme-weather-impacts-cost-more-than-300-billion-in-the-u-s-this-year-significantly-less-than-the-catastrophic-losses-in-2024/1845123"
+      ],
+      "date": "2026-04-26T04:04:19.278167+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T03:30:56.958096+00:00"
+  "lastUpdated": "2026-04-26T04:04:19.278247+00:00"
 }
