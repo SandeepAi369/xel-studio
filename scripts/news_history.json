@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has launched the Mistral 3 family, a suite of fully open-source models under the Apache 2",
-      "urls": [
-        "https://www.facebook.com/financialtimes/posts/mistral-unveils-new-models-in-race-to-gain-edge-in-open-ai/1249912473848794",
-        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai",
-        "https://www.techbuzz.ai/articles/mistral-ai-launches-open-source-speech-model-for-wearables",
-        "https://mistral.ai/news/mistral-3",
-        "https://mistral.ai/news/forge",
-        "https://mistral.ai/en"
-      ],
-      "date": "2026-04-16T10:03:22.444509+00:00"
-    },
-    {
       "title": "California Volcano Observatory Monitors 18 Active Volcanoes Threatening 13 Million Residents",
       "urls": [
         "https://www.usgs.gov/california-volcano-observatory",
@@ -4697,7 +4685,14 @@
         "https://www.foxnews.com?msockid=0fd14fdcd24e67e6376c589bd32766d0"
       ],
       "date": "2026-04-26T10:02:08.819818+00:00"
+    },
+    {
+      "title": "Fox News Delivers Conservative Coverage To Millions Daily",
+      "urls": [
+        "https://www.foxnews.com?msockid=2fc119f88bc8656c3fd10ebf8ab6644f"
+      ],
+      "date": "2026-04-26T10:33:19.397129+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T10:02:08.819910+00:00"
+  "lastUpdated": "2026-04-26T10:33:19.397188+00:00"
 }
