@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen readers enable individuals with visual impairments to access digital content by converting te",
-      "urls": [
-        "https://accessibility.wayne.edu/news/how-screen-readers-work-60460",
-        "https://membership.digicol.org/2025-accessibility-summit-resources/bridging-the-gap-how-screen-readers-allow-equal-access-to-technology-for-those-who-are-blind-or-visually-impaired"
-      ],
-      "date": "2026-04-16T09:33:03.852982+00:00"
-    },
-    {
       "title": "Mistral AI has launched the Mistral 3 family, a suite of fully open-source models under the Apache 2",
       "urls": [
         "https://www.facebook.com/financialtimes/posts/mistral-unveils-new-models-in-race-to-gain-edge-in-open-ai/1249912473848794",
@@ -4698,7 +4690,14 @@
         "https://www.bbc.com/news/articles/cly7w2w224do"
       ],
       "date": "2026-04-26T09:31:01.837510+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Homes, Drives $2.1 Billion Revenue",
+      "urls": [
+        "https://www.foxnews.com?msockid=0fd14fdcd24e67e6376c589bd32766d0"
+      ],
+      "date": "2026-04-26T10:02:08.819818+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T09:31:01.837575+00:00"
+  "lastUpdated": "2026-04-26T10:02:08.819910+00:00"
 }
