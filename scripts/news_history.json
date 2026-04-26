@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple has confirmed its devices have been used in multiple space missions, including aboard NASA's A",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoqRdnHl8_tqbdqygWg_gPwhBC_-4dfqYmp-9sEP_MREd3LIvIr8",
-        "https://www.cnet.com/videos/omt-apple-in-space-iphone-17-pro-max-and-artemis-ii"
-      ],
-      "date": "2026-04-16T13:07:15.001686+00:00"
-    },
-    {
-      "title": "Autism experts highlight technology's role in supporting parents of autistic children, offering tool",
-      "urls": [
-        "https://www.actionnews5.com/video/2026/04/14/expert-shares-how-tech-can-serve-tool-parents-autistic-children"
-      ],
-      "date": "2026-04-16T13:32:45.236021+00:00"
-    },
-    {
       "title": "Trump administration is moving to revoke the EPA's endangerment finding, a scientific determination ",
       "urls": [
         "https://www.reuters.com/business/environment",
@@ -4702,7 +4687,14 @@
         "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-live-10-28-2024/card/alphabet-amazon-apple-buckle-up-for-a-big-week-of-tech-earnings-ziUzBxnR7UOoG4WywDWq?msockid=19b51e7fcbaa68fd1ded0938ca8e69d8"
       ],
       "date": "2026-04-26T13:01:10.298015+00:00"
+    },
+    {
+      "title": "MIT CSAIL Researchers Develop Safe Control System For Soft Robots",
+      "urls": [
+        "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202"
+      ],
+      "date": "2026-04-26T13:34:08.707614+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T13:01:10.298074+00:00"
+  "lastUpdated": "2026-04-26T13:34:08.707693+00:00"
 }
