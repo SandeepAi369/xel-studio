@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "South Korea will pilot blockchain-based deposit tokens for government spending, aiming to modernize ",
-      "urls": [
-        "https://www.newsnow.com/us/Business/Cryptocurrencies/Web3",
-        "https://web3newswire.com?srsltid=AfmBOorkzE_8YMoFNgYIyVl5D7bCEOWCyAKOPz9rgSkm1_Zdu6_wSyDo",
-        "https://www.theblock.co",
-        "https://cryptoslate.com"
-      ],
-      "date": "2026-04-16T17:04:03.701279+00:00"
-    },
-    {
       "title": "Clean energy firms are adapting to reduced federal support by shifting focus to state-level incentiv",
       "urls": [
         "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
@@ -4730,7 +4720,14 @@
         "https://www.who.int/emergencies/situations/Earthquake-Türkiye-Syria"
       ],
       "date": "2026-04-26T17:01:14.672799+00:00"
+    },
+    {
+      "title": "Fox News uses zip code data to deliver localized weather updates to viewers across the United States",
+      "urls": [
+        "https://www.foxnews.com?msockid=0966e317a2c76fc600d0f450a34a6e75"
+      ],
+      "date": "2026-04-26T17:33:11.449362+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T17:01:14.672884+00:00"
+  "lastUpdated": "2026-04-26T17:33:11.449424+00:00"
 }
