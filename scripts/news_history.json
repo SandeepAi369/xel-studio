@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ohchr Releases Report On Ai Surveillance Risks",
-      "urls": [
-        "https://www.ohchr.org/en/privacy-in-the-digital-age",
-        "https://www.reddit.com/r/eutech/comments/1sm1ue6/von_der_leyen_announces_the_eus_new_age"
-      ],
-      "date": "2026-04-16T12:03:18.329831+00:00"
-    },
-    {
       "title": "Apple has confirmed its devices have been used in multiple space missions, including aboard NASA's A",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoqRdnHl8_tqbdqygWg_gPwhBC_-4dfqYmp-9sEP_MREd3LIvIr8",
@@ -4695,7 +4687,14 @@
         "https://www.maryvilleforum.com/news/nodaway-county-official-april-7-election-results/article_1eeeeadf-6bfc-4154-b3d1-64875a602a5b.html"
       ],
       "date": "2026-04-26T12:01:07.678623+00:00"
+    },
+    {
+      "title": "Fox News Attracts 2.5 Million Daily Viewers And Drives 70% Of Fox Corporation’s $2.1 Billion Quarterly Revenue",
+      "urls": [
+        "https://www.foxnews.com?msockid=37a077947689685a048460d37774690d"
+      ],
+      "date": "2026-04-26T12:31:00.751327+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T12:01:07.678705+00:00"
+  "lastUpdated": "2026-04-26T12:31:00.751399+00:00"
 }
