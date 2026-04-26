@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Github Releases Guide For Open Source Llm Integration",
-      "urls": [
-        "https://github.blog/ai-and-ml/llms",
-        "https://zapier.com/blog/best-llm"
-      ],
-      "date": "2026-04-16T02:30:57.420687+00:00"
-    },
-    {
       "title": "Imf Warns Iran Conflict Could Trigger Global Recession",
       "urls": [
         "https://www.youtube.com/watch?v=0w5_KA6Uvxo",
@@ -4693,7 +4685,17 @@
         "https://about.fb.com/news/2025/11/metas-30th-data-center-delivering-ai-supporting-wetlands-restoration"
       ],
       "date": "2026-04-26T02:01:07.198112+00:00"
+    },
+    {
+      "title": "Drug Discovery Market To Surge To 160 Billion By 2032",
+      "urls": [
+        "https://insilico.com/news/3fymrymsu1-nature-reviews-drug-discovery-target-ide",
+        "https://www.thepharmaletter.com/news",
+        "https://pubmed.ncbi.nlm.nih.gov",
+        "https://finance.yahoo.com/sectors/healthcare/articles/ai-drug-discovery-market-reach-140000992.html"
+      ],
+      "date": "2026-04-26T02:30:58.859481+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T02:01:07.198177+00:00"
+  "lastUpdated": "2026-04-26T02:30:58.859551+00:00"
 }
