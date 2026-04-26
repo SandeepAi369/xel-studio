@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clean energy firms are adapting to reduced federal support by shifting focus to state-level incentiv",
-      "urls": [
-        "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
-        "https://climatetechdigital.com/climate-technology",
-        "https://climateinsider.com",
-        "https://www.youtube.com/watch?v=AbSbDbSxAtc"
-      ],
-      "date": "2026-04-16T18:04:50.213123+00:00"
-    },
-    {
       "title": "Verge Genomics Uses AI To Accelerate Neurological Drug Discovery",
       "urls": [
         "https://www.touro.edu/news--events/stories/five-exciting-ways-ai-technology-is-transforming-healthcare.php",
@@ -4734,7 +4724,14 @@
         "https://mexico.internationaltrucks.com/camiones-motores"
       ],
       "date": "2026-04-26T18:03:24.154387+00:00"
+    },
+    {
+      "title": "Olympics.com Streams Paris 2024 With 329 Events And 10,500 Athletes",
+      "urls": [
+        "https://www.olympics.com/en"
+      ],
+      "date": "2026-04-26T18:33:15.106124+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T18:03:24.154459+00:00"
+  "lastUpdated": "2026-04-26T18:33:15.106194+00:00"
 }
