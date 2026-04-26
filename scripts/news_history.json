@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Disability Population exceeds 1 billion people, representing approximately 15% of the world’s",
-      "urls": [
-        "https://educatingalllearners.org/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities",
-        "https://www.perkins.org/resource/4-everyday-innovations-you-probably-didn-t-know-came-from-the-disability-community",
-        "https://www.kent.edu/equalaccess/news/assistive-technology-innovations-driving-equity"
-      ],
-      "date": "2026-04-16T05:31:02.629484+00:00"
-    },
-    {
       "title": "And Cloud Platforms Cut Downtime By 40 Percent",
       "urls": [
         "https://www.reddit.com/r/devops/comments/1ph5bzp/ai_is_going_to_run_cloud_infrastructure_whether",
@@ -4693,7 +4684,14 @@
         "https://www.collinsdictionary.com/us/dictionary/english/incredible"
       ],
       "date": "2026-04-26T05:01:14.577188+00:00"
+    },
+    {
+      "title": "Indiana Department of Natural Resources manages the state's fish and wildlife resources through its ",
+      "urls": [
+        "https://www.in.gov/dnr/fishwild"
+      ],
+      "date": "2026-04-26T05:31:21.891153+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T05:01:14.577251+00:00"
+  "lastUpdated": "2026-04-26T05:31:21.891211+00:00"
 }
