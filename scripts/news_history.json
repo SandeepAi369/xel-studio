@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Volcano Observatory Monitors 18 Active Volcanoes Threatening 13 Million Residents",
-      "urls": [
-        "https://www.usgs.gov/california-volcano-observatory",
-        "https://www.youtube.com/watch?v=7MrJqHZcK4o"
-      ],
-      "date": "2026-04-16T10:34:03.812821+00:00"
-    },
-    {
       "title": "Adoption Could Save U.S. Healthcare $360 Billion Annually",
       "urls": [
         "https://www.pbs.org/newshour/science/ai-in-health-care-could-save-lives-and-money-but-not-yet",
@@ -4692,7 +4684,14 @@
         "https://www.foxnews.com?msockid=2fc119f88bc8656c3fd10ebf8ab6644f"
       ],
       "date": "2026-04-26T10:33:19.397129+00:00"
+    },
+    {
+      "title": "Fox News Generates $2.1 Billion Revenue Amid Rising Viewership",
+      "urls": [
+        "https://www.foxnews.com?msockid=2989692c29ea649339d77e6b2854654e"
+      ],
+      "date": "2026-04-26T11:01:10.528165+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T10:33:19.397188+00:00"
+  "lastUpdated": "2026-04-26T11:01:10.528269+00:00"
 }
