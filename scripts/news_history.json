@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canlaon Volcano Erupts Ash, PHIVOLCS Raises Alert After 5000 Ton Sulfur Dioxide Surge",
-      "urls": [
-        "https://www.volcanodiscovery.com/news.html",
-        "https://www.youtube.com/watch?v=7qGwyPUEKpE",
-        "https://volcano.si.edu/reports_weekly.cfm"
-      ],
-      "date": "2026-04-16T07:31:01.542042+00:00"
-    },
-    {
       "title": "Amazon Web Services leads the global cloud infrastructure market with over $100 billion in 2024 reve",
       "urls": [
         "https://www.youtube.com/watch?v=pLm9huwmY8c",
@@ -4691,7 +4682,15 @@
         "https://www.lindseymedicalsupply.com/mobility/wheelchairs"
       ],
       "date": "2026-04-26T07:04:14.796069+00:00"
+    },
+    {
+      "title": "ABC7 Launches Real-Time News Feed For Southern California",
+      "urls": [
+        "https://abc7.com/news",
+        "https://www.foxnews.com?msockid=3443a8a3724f61ff293fbfe473a56039"
+      ],
+      "date": "2026-04-26T07:34:17.403780+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T07:04:14.796129+00:00"
+  "lastUpdated": "2026-04-26T07:34:17.403842+00:00"
 }
