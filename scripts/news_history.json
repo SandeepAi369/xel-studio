@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ultimate Gaming Championship expands its scholastic esports initiative with the launch of Battle Aca",
-      "urls": [
-        "https://ugc.gg"
-      ],
-      "date": "2026-04-16T08:32:01.160856+00:00"
-    },
-    {
       "title": "Humanoid has unveiled the HMND 01, a modular humanoid robot designed for industrial applications, fe",
       "urls": [
         "https://thehumanoid.ai",
@@ -4700,7 +4693,14 @@
         "https://www.foxnews.com?msockid=228fbf58a77b61d03ad6a81fa6c66079"
       ],
       "date": "2026-04-26T08:30:59.908254+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Households With Prime-Time Programming",
+      "urls": [
+        "https://www.foxnews.com?msockid=1c997bf2597361ab1dcf6cb55836605d"
+      ],
+      "date": "2026-04-26T09:01:09.691357+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T08:30:59.908315+00:00"
+  "lastUpdated": "2026-04-26T09:01:09.691425+00:00"
 }
