@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alysa Liu wins gold in women's figure skating, marking the first time a U.",
-      "urls": [
-        "https://www.nytimes.com/athletic/7058382/2026/02/19/alysa-liu-figure-skating-winter-olympics-gold"
-      ],
-      "date": "2026-04-16T23:08:51.563457+00:00"
-    },
-    {
-      "title": "Google And Northwestern Medicine Launch AI To Detect Lung Cancer Earlier",
-      "urls": [
-        "https://www.usa.edu/blog/how-ai-is-revolutionizing-healthcare"
-      ],
-      "date": "2026-04-16T23:32:05.132333+00:00"
-    },
-    {
       "title": "Team USA dominated the World Athletics Championships, securing a historic sixteen gold medals, the m",
       "urls": [
         "https://www.youtube.com/watch?v=Dg0h9iZ1ZAg",
@@ -4765,7 +4751,14 @@
         "https://www.kcci.com/local-news"
       ],
       "date": "2026-04-26T23:03:16.277891+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Homes And Drives $2.1 Billion In Revenue",
+      "urls": [
+        "https://www.foxnews.com?msockid=0ed0879fb65b6cbc2eb190d8b7046dc1"
+      ],
+      "date": "2026-04-26T23:34:10.298434+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T23:03:16.277943+00:00"
+  "lastUpdated": "2026-04-26T23:34:10.298508+00:00"
 }
