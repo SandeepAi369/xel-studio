@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind CEO Demis Hassabis warns that a global shortage of memory chips is significantly slo",
-      "urls": [
-        "https://www.youtube.com/watch?v=NNkCAL9tk6A"
-      ],
-      "date": "2026-04-16T22:01:11.992844+00:00"
-    },
-    {
       "title": "Alysa Liu wins gold in women's figure skating, marking the first time a U.",
       "urls": [
         "https://www.nytimes.com/athletic/7058382/2026/02/19/alysa-liu-figure-skating-winter-olympics-gold"
@@ -4746,7 +4739,14 @@
         "https://climate.nasa.gov/ask-nasa-climate/2823/chasing-sea-ice-while-playing-tag-with-a-satellite/in-progress"
       ],
       "date": "2026-04-26T21:34:03.611599+00:00"
+    },
+    {
+      "title": "HealthCare.",
+      "urls": [
+        "https://www.healthcare.gov/screener/sep/currently-enrolled"
+      ],
+      "date": "2026-04-26T22:04:15.071268+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T21:34:03.611662+00:00"
+  "lastUpdated": "2026-04-26T22:04:15.071332+00:00"
 }
