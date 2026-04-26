@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Humanoid has unveiled the HMND 01, a modular humanoid robot designed for industrial applications, fe",
-      "urls": [
-        "https://thehumanoid.ai",
-        "https://www.prnewswire.com/news-releases/ai-powered-humanoid-robots-billion-dollar-market-emerging-as-a-high-growth-automation-play-for-global-investors-302666011.html",
-        "https://www.youtube.com/watch?v=I3pupzwiGJQ"
-      ],
-      "date": "2026-04-16T09:02:13.795122+00:00"
-    },
-    {
       "title": "Screen readers enable individuals with visual impairments to access digital content by converting te",
       "urls": [
         "https://accessibility.wayne.edu/news/how-screen-readers-work-60460",
@@ -4700,7 +4691,14 @@
         "https://www.foxnews.com?msockid=1c997bf2597361ab1dcf6cb55836605d"
       ],
       "date": "2026-04-26T09:01:09.691357+00:00"
+    },
+    {
+      "title": "Tcs London Marathon Draws 50000 Runners For 2026 Race",
+      "urls": [
+        "https://www.bbc.com/news/articles/cly7w2w224do"
+      ],
+      "date": "2026-04-26T09:31:01.837510+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T09:01:09.691425+00:00"
+  "lastUpdated": "2026-04-26T09:31:01.837575+00:00"
 }
