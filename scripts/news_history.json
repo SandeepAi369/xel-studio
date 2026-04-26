@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tools Speed Code Generation But Deployment Lags",
-      "urls": [
-        "https://www.youtube.com/watch?v=t9RAov_P-mU",
-        "https://thenewstack.io/this-simple-infrastructure-gap-is-holding-back-ai-productivity"
-      ],
-      "date": "2026-04-16T11:32:03.007408+00:00"
-    },
-    {
       "title": "Ohchr Releases Report On Ai Surveillance Risks",
       "urls": [
         "https://www.ohchr.org/en/privacy-in-the-digital-age",
@@ -4692,7 +4684,18 @@
         "https://www.cruisehive.com/category/cruise-news"
       ],
       "date": "2026-04-26T11:31:02.387365+00:00"
+    },
+    {
+      "title": "Nodaway County Certifies April 7 2026 Municipal Election Results",
+      "urls": [
+        "https://www.democracynow.org",
+        "https://www.foxnews.com/politics?msockid=36f2aaa7f11b6baf28f5bde0f0776a3f",
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREkyZDNBU0FtVnVLQUFQAQ?hl=en-US&ceid=US%3Aen",
+        "https://www.wsj.com/politics/elections?msockid=36f2aaa7f11b6baf28f5bde0f0776a3f",
+        "https://www.maryvilleforum.com/news/nodaway-county-official-april-7-election-results/article_1eeeeadf-6bfc-4154-b3d1-64875a602a5b.html"
+      ],
+      "date": "2026-04-26T12:01:07.678623+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T11:31:02.387437+00:00"
+  "lastUpdated": "2026-04-26T12:01:07.678705+00:00"
 }
