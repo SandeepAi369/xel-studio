@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clayton Keller Helps USA Win First Men's Olympic Hockey Gold Since 1980",
-      "urls": [
-        "https://golf.com/news/clayton-keller-olympics-golf-subpar?srsltid=AfmBOorE2O4KLkJinoXTrFwU8cSkQyqbyaYr7kDzaJuGMtU32zgNKIGB",
-        "https://www.wusf.org/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
-        "https://oaklandside.org/2026/02/19/alysa-liu-winter-olympics-gold-figure-skating",
-        "https://www.cnn.com/2026/02/17/sport/elana-meyers-taylor-gold-medal",
-        "https://www.nhpr.org/2026-02-12/this-years-olympic-medals-are-generating-chatter-for-their-defects-and-price"
-      ],
-      "date": "2026-04-16T04:31:17.619599+00:00"
-    },
-    {
       "title": "Claude Mythos Exposes Open Source AI Security Flaws",
       "urls": [
         "https://www.opensourceforu.com"
@@ -4695,7 +4684,15 @@
         "https://www.accuweather.com/en/press/extreme-weather-impacts-cost-more-than-300-billion-in-the-u-s-this-year-significantly-less-than-the-catastrophic-losses-in-2024/1845123"
       ],
       "date": "2026-04-26T04:04:19.278167+00:00"
+    },
+    {
+      "title": "Nsf Funds Five Quantum Research Centers To Advance Computing",
+      "urls": [
+        "https://www.nsf.gov/science-matters/curious-about-quantum",
+        "https://www.nature.com/subjects/quantum-mechanics"
+      ],
+      "date": "2026-04-26T04:33:01.906117+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T04:04:19.278247+00:00"
+  "lastUpdated": "2026-04-26T04:33:01.906173+00:00"
 }
