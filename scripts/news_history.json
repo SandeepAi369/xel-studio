@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has urged the U.",
-      "urls": [
-        "https://www.artificialintelligence-news.com/news/hugging-face-open-source-focus-ai-action-plan"
-      ],
-      "date": "2026-04-16T14:40:20.538920+00:00"
-    },
-    {
       "title": "U.S. Officials Target Nvidia AMD With New AI Chip Export Rules",
       "urls": [
         "https://www.youtube.com/watch?v=lv7abqWNEJs",
@@ -4708,7 +4701,18 @@
         "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-intel-stock-soars-meta-to-cut-10-of-workforce-microsoft-offerings-buyouts-144220158.html"
       ],
       "date": "2026-04-26T14:31:08.240204+00:00"
+    },
+    {
+      "title": "Who Depicts Global Depression Crisis Affecting 280 Million People",
+      "urls": [
+        "https://www.who.int",
+        "https://www.who.int/news-room/fact-sheets/detail/depression",
+        "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-in-emergencies"
+      ],
+      "date": "2026-04-26T15:01:05.762645+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T14:31:08.240262+00:00"
+  "lastUpdated": "2026-04-26T15:01:05.762714+00:00"
 }
