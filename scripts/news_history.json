@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Verge Genomics Uses AI To Accelerate Neurological Drug Discovery",
-      "urls": [
-        "https://www.touro.edu/news--events/stories/five-exciting-ways-ai-technology-is-transforming-healthcare.php",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7640807"
-      ],
-      "date": "2026-04-16T19:01:13.937329+00:00"
-    },
-    {
-      "title": "Virginia redistricting has attracted nearly $100 million in funding from largely secret donors aimin",
-      "urls": [
-        "https://www.youtube.com/watch?v=ttjm4RXQ3rE",
-        "https://www.washingtonpost.com/politics"
-      ],
-      "date": "2026-04-16T19:33:48.085134+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://www.youtube.com/watch?v=wbvxxl4fHK4",
@@ -4739,7 +4723,15 @@
         "https://coinmarketcap.com/currencies/ethereum"
       ],
       "date": "2026-04-26T19:01:10.712291+00:00"
+    },
+    {
+      "title": "Anthropic Launches Claude Cowork For Autonomous Knowledge Work",
+      "urls": [
+        "https://www.anthropic.com/product/claude-cowork",
+        "https://www.anthropic.com/news/claude-is-a-space-to-think"
+      ],
+      "date": "2026-04-26T19:34:10.612283+00:00"
     }
   ],
-  "lastUpdated": "2026-04-26T19:01:10.712351+00:00"
+  "lastUpdated": "2026-04-26T19:34:10.612348+00:00"
 }
