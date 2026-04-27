@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Southeast Wisconsin faced severe flooding after torrential rains overwhelmed drainage systems, subme",
-      "urls": [
-        "https://www.youtube.com/watch?v=l4wbMVqnpnM",
-        "https://www.youtube.com/watch?v=oq5IGqvW0XY",
-        "https://www.youtube.com/watch?v=ooTbeaNwr0s",
-        "https://www.youtube.com/watch?v=Z-A25Hq4qck",
-        "https://www.instagram.com/reel/DXLgY2bCNP3",
-        "https://weather.com/news/weather/video/milwaukee-drivers-trapped-storms-flood-streets",
-        "https://weather.com/news/trending/video/overnight-tornado-hit-ice-arenas-homes-ann-arbor-michigan"
-      ],
-      "date": "2026-04-17T01:30:55.082491+00:00"
-    },
-    {
       "title": "IBM Survey Reveals 51% Of Open-Source AI Users Achieve Positive ROI",
       "urls": [
         "https://www.ibm.com/think/news/2025-open-ai-trends"
@@ -4770,7 +4757,17 @@
         "https://www.science.org/doi/10.1126/science.adt5199"
       ],
       "date": "2026-04-27T01:30:54.275963+00:00"
+    },
+    {
+      "title": "United Access offers a wide range of wheelchair accessible vehicles, including new, used, and certif",
+      "urls": [
+        "https://dictionary.cambridge.org/dictionary/english/accessible",
+        "https://www.unitedaccess.com/us/en.html",
+        "https://www.collinsdictionary.com/us/dictionary/english/accessible",
+        "https://www.britannica.com/dictionary/accessible"
+      ],
+      "date": "2026-04-27T02:01:09.374264+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T01:30:54.276024+00:00"
+  "lastUpdated": "2026-04-27T02:01:09.374335+00:00"
 }
