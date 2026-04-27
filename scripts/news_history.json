@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Paige Higgins broke the American record in the women's half-marathon race walk with a time of 1:25:5",
-      "urls": [
-        "https://sports.yahoo.com/articles/national-champion-breaks-down-4th-172231470.html"
-      ],
-      "date": "2026-04-17T20:06:16.208663+00:00"
-    },
-    {
-      "title": "Instagram has rolled out a new algorithm update prioritizing original video content under 90 seconds",
-      "urls": [
-        "https://www.instagram.com/p/DVOcgKgjbm0"
-      ],
-      "date": "2026-04-17T20:31:02.083687+00:00"
-    },
-    {
       "title": "Joe Pyfer delivered a dominant performance in the main event of UFC 327, defeating former champion I",
       "urls": [
         "https://www.sportingnews.com/us/mma/news"
@@ -4790,7 +4776,20 @@
         "https://www.foxnews.com/politics"
       ],
       "date": "2026-04-27T20:03:19.691551+00:00"
+    },
+    {
+      "title": "White House Unveils National AI Framework to Unify Federal and State Regulations",
+      "urls": [
+        "https://natlawreview.com/article/artificial-intelligence-legislative-update",
+        "https://www.nadcab.com/blog/ai-regulation-news",
+        "https://www.klgates.com/White-House-Releases-National-AI-Policy-Framework-3-24-2026",
+        "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+        "https://news.harvard.edu/gazette/story/2025/09/how-to-regulate-artificial-intelligence-ai",
+        "https://www.iedconline.org/news/2025/07/30/federal-policy-updates/white-house-unveils-new-ai-action-plan",
+        "https://www.ropesgray.com/en/insights/alerts/2026/03/examining-the-landscape-and-limitations-of-the-federal-push-to-override-state-ai-regulation"
+      ],
+      "date": "2026-04-27T20:32:00.499670+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T20:03:19.691624+00:00"
+  "lastUpdated": "2026-04-27T20:32:00.499733+00:00"
 }
