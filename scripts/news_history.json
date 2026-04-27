@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Joe Pyfer delivered a dominant performance in the main event of UFC 327, defeating former champion I",
-      "urls": [
-        "https://www.sportingnews.com/us/mma/news"
-      ],
-      "date": "2026-04-17T21:02:13.248119+00:00"
-    },
-    {
       "title": "XRAI Inc has launched an updated version of its live-captioning smart glasses, providing real-time s",
       "urls": [
         "https://csd.org/stories/the-importance-of-accessible-technology-in-everyday-life",
@@ -4789,7 +4782,14 @@
         "https://www.ropesgray.com/en/insights/alerts/2026/03/examining-the-landscape-and-limitations-of-the-federal-push-to-override-state-ai-regulation"
       ],
       "date": "2026-04-27T20:32:00.499670+00:00"
+    },
+    {
+      "title": "UNHCR provides international protection and assistance to millions of displaced people worldwide, or",
+      "urls": [
+        "https://www.un.org/en/global-issues/refugees"
+      ],
+      "date": "2026-04-27T21:04:28.951447+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T20:32:00.499733+00:00"
+  "lastUpdated": "2026-04-27T21:04:28.951517+00:00"
 }
