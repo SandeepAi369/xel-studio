@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mikie Sherrill Vacates New Jersey 11th Seat Ahead of Gubernatorial Run",
-      "urls": [
-        "https://www.270towin.com/news",
-        "https://www.youtube.com/watch?v=rmXMQlsuEQU",
-        "https://www.cnn.com/politics"
-      ],
-      "date": "2026-04-17T11:31:03.668003+00:00"
-    },
-    {
       "title": "UK BioBank exposed confidential health records online due to a security oversight, affecting sensiti",
       "urls": [
         "https://www.theguardian.com/world/privacy",
@@ -4774,7 +4765,14 @@
         "https://boardgamegeek.com/wiki/page/Game_Magazines"
       ],
       "date": "2026-04-27T11:01:12.858963+00:00"
+    },
+    {
+      "title": "Fox News reaches a reported 80 million households across the United States, maintaining its position",
+      "urls": [
+        "https://www.foxnews.com?msockid=135e5f628a0f6e4a12d0482a8b3d6fef"
+      ],
+      "date": "2026-04-27T11:34:11.583059+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T11:01:12.859025+00:00"
+  "lastUpdated": "2026-04-27T11:34:11.583133+00:00"
 }
