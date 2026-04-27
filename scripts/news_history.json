@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://www.cbsnews.com/newyork/news/8-miraculous-moments-in-sports-history",
-        "https://www.sportingnews.com/us/tsn/news/sporting-news-140-greatest-sports-moments/34766fecd31d636b303ca1d2",
-        "https://parade.com/1062315/meganoneill/great-moments-in-sports-history",
-        "https://www.espn.com/espn/story/_/id/28454233/the-stories-famous-sports-miracles",
-        "https://www.reddit.com/r/billsimmons/comments/17qpffb/what_is_the_most_significant_sports_moment_from"
-      ],
-      "date": "2026-04-17T16:33:02.462953+00:00"
-    },
-    {
-      "title": "Amazon Web Services leads the global cloud market with over 100 billion dollars in 2024 revenue, mai",
-      "urls": [
-        "https://www.facebook.com/thebeachchannel.tv/videos/tech-monopolies-crushing-startups-apple-google-microsoft-exposed/2172825113253515",
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOopwf6l2bx4poxA937GwJ0R0SWKaWxSUKnv69_iVgdKXDOji6YuX"
-      ],
-      "date": "2026-04-17T17:01:14.017065+00:00"
-    },
-    {
       "title": "Apple Integrates VoiceOver And Keyboard Nav Into Latest iOS Update",
       "urls": [
         "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
@@ -4784,7 +4765,14 @@
         "https://www.wheelchairs.com"
       ],
       "date": "2026-04-27T16:04:29.876973+00:00"
+    },
+    {
+      "title": "Power Automate users are leveraging AI Builder to extract data from PDFs and automate entry into Exc",
+      "urls": [
+        "https://stackoverflow.com/questions/75737916/apply-for-each-loop-to-ai-builder-model"
+      ],
+      "date": "2026-04-27T17:03:18.765074+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T16:04:29.877052+00:00"
+  "lastUpdated": "2026-04-27T17:03:18.765128+00:00"
 }
