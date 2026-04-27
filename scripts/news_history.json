@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Allyson Felix has been inducted into the U.",
-      "urls": [
-        "https://www.wbaltv.com/article/alysa-liu-milan-cortina-gold-medal-win-interview/70434992",
-        "https://www.bayer.com/en/societal-engagement/medals-achievements-bayer-athletes",
-        "https://alaskapublic.org/news/national/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
-        "https://usopm.org/allyson-felix"
-      ],
-      "date": "2026-04-17T08:36:05.321547+00:00"
-    },
-    {
       "title": "Anthropic Launches Transparency Hub For Claude Opus 4.6 And Sonnet 4.6 Safety Evaluations",
       "urls": [
         "https://asksurf.ai/pulse/en/anthropic-uses-claude-to-speed-up-safety-research-with-big-unknowns",
@@ -4780,7 +4770,22 @@
         "https://www.zhihu.com/question/620641385"
       ],
       "date": "2026-04-27T08:31:00.734567+00:00"
+    },
+    {
+      "title": "Mistral AI has launched a new suite of open-source models under the Mistral 3 banner, including Mist",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html?msockid=26182ceb035b64a504e43ba302c6657d",
+        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
+        "https://www.techinasia.com/news/mistral-launches-opensource-ai-models",
+        "https://techcrunch.com/tag/mistral-ai",
+        "https://venturebeat.com/ai/mistral-launches-powerful-devstral-2-coding-model-including-open-source",
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
+        "https://www.theregister.com/2025/12/02/mistral_3",
+        "https://news.lavx.hu/article/mistral-ai-shakes-up-open-source-llm-race-with-high-performance-7b-model-and-embedding-breakthrough"
+      ],
+      "date": "2026-04-27T09:03:19.781989+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T08:31:00.734633+00:00"
+  "lastUpdated": "2026-04-27T09:03:19.782059+00:00"
 }
