@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Extends ESPN Broadcast Deal Through 2029",
-      "urls": [
-        "https://www.sportingnews.com/us/mma/ufc/news",
-        "https://mmajunkie.usatoday.com"
-      ],
-      "date": "2026-04-17T00:30:55.239554+00:00"
-    },
-    {
       "title": "eSight Smart Glasses Empower Low-Vision Students With Real-Time Visual Enhancement",
       "urls": [
         "https://battleforblindness.org/empowering-education-the-best-assistive-technologies-for-visually-impaired-students-in-2024",
@@ -4762,7 +4754,14 @@
         "https://www.bucyrustelegraphforum.com/story/news/local/2025/04/15/road-crew-member-who-died-after-route-581-crash-was-from-york-county/83097153007"
       ],
       "date": "2026-04-27T00:02:27.831831+00:00"
+    },
+    {
+      "title": "Fox News Reaches 80 Million Homes And Generates $1.47 Billion In Quarterly Revenue",
+      "urls": [
+        "https://www.foxnews.com?msockid=33eb93d0fa8f64941eaa8498fb0e65c6"
+      ],
+      "date": "2026-04-27T00:34:15.868848+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T00:02:27.831894+00:00"
+  "lastUpdated": "2026-04-27T00:34:15.868935+00:00"
 }
