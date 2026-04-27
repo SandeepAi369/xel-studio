@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google's Sycamore Chip Achieves Breakthrough In Quantum Stability",
-      "urls": [
-        "https://www.youtube.com/watch?v=AT47Er2qOgc"
-      ],
-      "date": "2026-04-17T19:31:04.994935+00:00"
-    },
-    {
       "title": "Paige Higgins broke the American record in the women's half-marathon race walk with a time of 1:25:5",
       "urls": [
         "https://sports.yahoo.com/articles/national-champion-breaks-down-4th-172231470.html"
@@ -4786,7 +4779,18 @@
         "https://www.arte.tv/fr/videos/cinema"
       ],
       "date": "2026-04-27T19:31:02.536216+00:00"
+    },
+    {
+      "title": "Reuters reports new advancements in AI model efficiency, with researchers developing techniques to r",
+      "urls": [
+        "https://natlawreview.com/article/trump-administration-unveils-new-ai-policy-framework-calling-congress-act",
+        "https://www.reuters.com/technology/artificial-intelligence",
+        "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
+        "https://www.reuters.com/technology",
+        "https://www.foxnews.com/politics"
+      ],
+      "date": "2026-04-27T20:03:19.691551+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T19:31:02.536281+00:00"
+  "lastUpdated": "2026-04-27T20:03:19.691624+00:00"
 }
