@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Caltech Scientists Unveil 6100 Qubit Quantum Processor",
-      "urls": [
-        "https://www.sciencedaily.com/news/computers_math/quantum_computers"
-      ],
-      "date": "2026-04-17T06:02:11.205490+00:00"
-    },
-    {
       "title": "Blue states are reevaluating aggressive emissions reduction plans amid rising electricity costs and ",
       "urls": [
         "https://www.cnbc.com/climate",
@@ -4765,7 +4758,15 @@
         "https://www.timesnownews.com/world/us/us-news/latest-nancy-guthrie-update-today-savannah-guthrie-mom-kidnapping-case-article-154142100"
       ],
       "date": "2026-04-27T05:33:10.633184+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Deep Research And Deep Research Max Agents",
+      "urls": [
+        "https://howaiworks.ai/blog/google-deepmind-deep-research-announcement",
+        "https://venturebeat.com/ai/googles-new-deep-research-and-deep-research-max-agents-can-search-the-web-and-your-private-data"
+      ],
+      "date": "2026-04-27T06:04:30.932296+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T05:33:10.633248+00:00"
+  "lastUpdated": "2026-04-27T06:04:30.932358+00:00"
 }
