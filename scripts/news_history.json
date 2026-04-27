@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM Survey Reveals 51% Of Open-Source AI Users Achieve Positive ROI",
-      "urls": [
-        "https://www.ibm.com/think/news/2025-open-ai-trends"
-      ],
-      "date": "2026-04-17T02:01:09.995432+00:00"
-    },
-    {
-      "title": "Azores Pico Volcano Triggers Yellow Alert After 47 Quakes Detected",
-      "urls": [
-        "https://www.youtube.com/watch?v=NPTGN2_CWWE"
-      ],
-      "date": "2026-04-17T02:31:02.962990+00:00"
-    },
-    {
       "title": "Imf Cuts Global Growth Forecast Amid Iran War Oil Crisis",
       "urls": [
         "https://www.cnbc.com/economy",
@@ -4767,7 +4753,14 @@
         "https://www.britannica.com/dictionary/accessible"
       ],
       "date": "2026-04-27T02:01:09.374264+00:00"
+    },
+    {
+      "title": "MIT CSAIL Unveils CompreSSM To Shrink AI Models During Training",
+      "urls": [
+        "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409"
+      ],
+      "date": "2026-04-27T02:35:15.552407+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T02:01:09.374335+00:00"
+  "lastUpdated": "2026-04-27T02:35:15.552486+00:00"
 }
