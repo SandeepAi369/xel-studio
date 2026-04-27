@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Krakatoa Eruption Killed Over 36000 In 1883",
-      "urls": [
-        "https://www.newsnow.com/us/World/Natural+Disasters",
-        "https://www.youtube.com/watch?v=wsz7hhG3-nk",
-        "https://www.youtube.com/watch?v=REVzUhbxQAE"
-      ],
-      "date": "2026-04-17T18:03:16.199635+00:00"
-    },
-    {
       "title": "Mistral AI is a France-based startup specializing in open source large language models, gaining reco",
       "urls": [
         "https://www.ibm.com/think/topics/mistral-ai",
@@ -4782,7 +4773,18 @@
         "https://www.foxnews.com?msockid=1d362e2950c065382047396151626430"
       ],
       "date": "2026-04-27T18:02:20.656766+00:00"
+    },
+    {
+      "title": "Tech Earnings report shows major companies releasing financial results this week, with investor focu",
+      "urls": [
+        "https://www.marketbeat.com/earnings/live-conference-calls",
+        "https://www.wsj.com/livecoverage/earnings-apple-google-microsoft",
+        "https://finance.yahoo.com/news/big-tech-earnings-just-around-155250460.html",
+        "https://markets.businessinsider.com/earnings-calendar",
+        "https://www.marketwatch.com/investing/stocks/tech-stocks"
+      ],
+      "date": "2026-04-27T18:30:58.533638+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T18:02:20.656834+00:00"
+  "lastUpdated": "2026-04-27T18:30:58.533705+00:00"
 }
