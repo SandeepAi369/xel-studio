@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI is a France-based startup specializing in open source large language models, gaining reco",
-      "urls": [
-        "https://www.ibm.com/think/topics/mistral-ai",
-        "https://mistral.ai/models"
-      ],
-      "date": "2026-04-17T18:32:02.516419+00:00"
-    },
-    {
-      "title": "IBM and NASA have jointly released an open-source AI foundation model called Surya, designed to anal",
-      "urls": [
-        "https://www.prnewswire.com/news-releases/ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology-302534613.html",
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
-      ],
-      "date": "2026-04-17T19:02:22.747982+00:00"
-    },
-    {
       "title": "Google's Sycamore Chip Achieves Breakthrough In Quantum Stability",
       "urls": [
         "https://www.youtube.com/watch?v=AT47Er2qOgc"
@@ -4784,7 +4768,14 @@
         "https://www.marketwatch.com/investing/stocks/tech-stocks"
       ],
       "date": "2026-04-27T18:30:58.533638+00:00"
+    },
+    {
+      "title": "Fox News operates a multi-platform news network delivering updates on U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=1d384118bbad67583db95650bac0661c"
+      ],
+      "date": "2026-04-27T19:05:39.480470+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T18:30:58.533705+00:00"
+  "lastUpdated": "2026-04-27T19:05:39.480526+00:00"
 }
