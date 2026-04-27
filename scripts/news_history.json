@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society has released a report emphasizing the role of inclusively designed digital assistive t",
-      "urls": [
-        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology",
-        "https://petrieflom.law.harvard.edu/2020/02/26/new-technologies-are-empowering-persons-with-disabilities-but-are-they-assistive"
-      ],
-      "date": "2026-04-17T22:31:55.788642+00:00"
-    },
-    {
-      "title": "Researchers Launch 1200 Cell Line Library To Accelerate AI Drug Discovery",
-      "urls": [
-        "https://www.pharmavoice.com/news/ai-disease-target-pharma-drug-rd-illumina/816532"
-      ],
-      "date": "2026-04-17T23:01:07.300186+00:00"
-    },
-    {
       "title": "NuCaption And Sunu Band Launch New Wearables For Deaf-Blind Users",
       "urls": [
         "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOoq3BN29LSTPqQqJdFNVTR30thSBA9vFU3I6_wkAWyeBBLoiUU3A"
@@ -4803,7 +4788,16 @@
         "https://nypost.com/2026/04/27/us-news/trump-admin-live-updates-april-27-28-29-30"
       ],
       "date": "2026-04-27T22:30:59.442171+00:00"
+    },
+    {
+      "title": "Goose is an open-source AI framework launched by Jack Dorsey’s team, designed to streamline the deve",
+      "urls": [
+        "https://www.microsoft.com/en-us",
+        "https://www.business-standard.com/technology/tech-news/jack-dorsey-twitter-block-open-source-ai-goose-deepseek-google-anthropic-125021300589_1.html",
+        "https://www.techrepublic.com/topic/open-source"
+      ],
+      "date": "2026-04-27T23:01:08.775388+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T22:30:59.442230+00:00"
+  "lastUpdated": "2026-04-27T23:01:08.775459+00:00"
 }
