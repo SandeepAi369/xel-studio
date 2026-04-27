@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel And Nvidia Launch Gaudi 3 And H200 Chips",
-      "urls": [
-        "https://www.youtube.com/watch?v=jE3IhyjKQ8s"
-      ],
-      "date": "2026-04-17T04:01:04.191048+00:00"
-    },
-    {
       "title": "Gout Gout Smashes U20 200-Meter Record With 19.67 Run",
       "urls": [
         "https://www.cryo.com/record-breaking-performances-and-shocking-upsets-lead-news-coverage-throughout-international-athletics",
@@ -4754,7 +4747,17 @@
         "https://www.ssa.gov/manage-benefits/make-an-appointment"
       ],
       "date": "2026-04-27T03:36:25.380582+00:00"
+    },
+    {
+      "title": "New Zealand Herald expands digital operations to cover real-time updates on regional and internation",
+      "urls": [
+        "https://news.sky.com",
+        "https://nypost.com",
+        "https://www.newsmax.com",
+        "https://www.nzherald.co.nz"
+      ],
+      "date": "2026-04-27T04:01:15.928831+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T03:36:25.380650+00:00"
+  "lastUpdated": "2026-04-27T04:01:15.928931+00:00"
 }
