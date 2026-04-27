@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic's Mythos AI Autonomously Exploits 17-Year-Old FreeBSD Vulnerability",
-      "urls": [
-        "https://github.com/hannibal046/awesome-llm",
-        "https://www.youtube.com/shorts/0T3xgE_diIw",
-        "https://red.anthropic.com/2026/mythos-preview"
-      ],
-      "date": "2026-04-17T14:32:13.412379+00:00"
-    },
-    {
       "title": "Telemedicine adoption has surged by 300% across rural U.",
       "urls": [
         "https://www.healthcarebusinessreview.com/news/transforming-healthcare-access-through-telemedicine-innovation-nwid-3012.html"
@@ -4774,7 +4765,21 @@
         "https://twinery.org"
       ],
       "date": "2026-04-27T14:06:35.388089+00:00"
+    },
+    {
+      "title": "Microsoft and Hugging Face have expanded their collaboration, giving Azure developers access to over",
+      "urls": [
+        "https://huggingface.co",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "https://devblogs.microsoft.com/foundry/microsoft-and-hugging-face-expand-partnership-to-accelerate-open-source-ai-innovation-on-azure-ai-foundry",
+        "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025",
+        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "https://huggingface.co/models",
+        "https://huggingface.co/spaces/HexQuant/Open-Source-AI-Year-in-Review-2025",
+        "https://github.com/huggingface"
+      ],
+      "date": "2026-04-27T14:36:27.743820+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T14:06:35.388161+00:00"
+  "lastUpdated": "2026-04-27T14:36:27.743889+00:00"
 }
