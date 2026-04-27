@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telemedicine adoption has surged by 300% across rural U.",
-      "urls": [
-        "https://www.healthcarebusinessreview.com/news/transforming-healthcare-access-through-telemedicine-innovation-nwid-3012.html"
-      ],
-      "date": "2026-04-17T15:04:33.953797+00:00"
-    },
-    {
       "title": "WWF Living Planet Report 2024 reveals the average size of wildlife populations has declined by 73% b",
       "urls": [
         "https://livingplanet.panda.org"
@@ -4779,7 +4772,14 @@
         "https://github.com/huggingface"
       ],
       "date": "2026-04-27T14:36:27.743820+00:00"
+    },
+    {
+      "title": "Fox News reaches a daily audience of 2.",
+      "urls": [
+        "https://www.foxnews.com?msockid=1c78e84394086fcd3e14ff0b955e6e11"
+      ],
+      "date": "2026-04-27T15:05:38.491161+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T14:36:27.743889+00:00"
+  "lastUpdated": "2026-04-27T15:05:38.491213+00:00"
 }
