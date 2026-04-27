@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "IMF's Georgieva Warns U.S. Tariff Shifts Reshape Global Trade Flows",
-      "urls": [
-        "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
-        "https://internationaltradetoday.com",
-        "https://www.youtube.com/watch?v=nk3uzZUbu4I"
-      ],
-      "date": "2026-04-17T07:03:13.742781+00:00"
-    },
-    {
       "title": "Mayo Clinic researchers have developed an experimental dual-drug nanotherapy that successfully cross",
       "urls": [
         "https://newsnetwork.mayoclinic.org/research"
@@ -4777,7 +4768,16 @@
         "https://iere.org/what-is-renewable-energy"
       ],
       "date": "2026-04-27T07:01:14.348106+00:00"
+    },
+    {
+      "title": "Geopolitical Monitor provides independent analysis of global political shifts, focusing on how geogr",
+      "urls": [
+        "https://www.csis.org/geopolitics-foreign-policy",
+        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography",
+        "https://www.geopoliticalmonitor.com"
+      ],
+      "date": "2026-04-27T07:32:11.911183+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T07:01:14.348164+00:00"
+  "lastUpdated": "2026-04-27T07:32:11.911253+00:00"
 }
