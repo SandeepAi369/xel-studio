@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Central Wisconsin faces an enhanced risk of severe weather due to a strong cold front moving through",
-      "urls": [
-        "https://disasterresiliencenews.com/2026/04/16/today-in-disaster-resilience-17-april-2026",
-        "https://www.wisconsinrapidstribune.com/story/weather/2026/04/16/april-17-storms-bring-risk-hail-tornadoes-floods-wausau-wisconsin-rapids-stevens-point-marshfield/89641024007",
-        "https://www.youtube.com/watch?v=9jIQRacjVZc",
-        "https://www.kctv5.com/2026/04/17/severe-storms-are-expected-this-afternoon-significant-risk-continues",
-        "https://weather.com/forecast/regional/video/great-lakes-flooding-more-severe-storms-saturday"
-      ],
-      "date": "2026-04-17T14:03:39.958687+00:00"
-    },
-    {
       "title": "Anthropic's Mythos AI Autonomously Exploits 17-Year-Old FreeBSD Vulnerability",
       "urls": [
         "https://github.com/hannibal046/awesome-llm",
@@ -4775,7 +4764,17 @@
         "https://www.screen.co.jp/recruit_info"
       ],
       "date": "2026-04-27T13:32:15.090405+00:00"
+    },
+    {
+      "title": "Twine Launches Open Source Tool For Interactive Storytelling",
+      "urls": [
+        "https://community.chocolatey.org",
+        "https://www.cnx-software.com/news/open-source/page/124",
+        "https://manjaro.org",
+        "https://twinery.org"
+      ],
+      "date": "2026-04-27T14:06:35.388089+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T13:32:15.090475+00:00"
+  "lastUpdated": "2026-04-27T14:06:35.388161+00:00"
 }
