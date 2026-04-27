@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Government Imposes New Export Rules on Nvidia AMD AI Chips",
-      "urls": [
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-preps-sweeping-export-controls-for-nvidia-amd-ai-hardware-worldwide-licensing-system-would-give-trump-admin-broad-authority-to-block-global-sales"
-      ],
-      "date": "2026-04-17T22:01:10.033884+00:00"
-    },
-    {
       "title": "Royal Society has released a report emphasizing the role of inclusively designed digital assistive t",
       "urls": [
         "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology",
@@ -4794,7 +4787,15 @@
         "https://www.facebook.com/profile.php?id=61555719812015"
       ],
       "date": "2026-04-27T21:33:10.566565+00:00"
+    },
+    {
+      "title": "Linux Foundation Reports 88% Of Fortune 500 Use Open Source Software",
+      "urls": [
+        "https://thenewstack.io/open-source",
+        "https://anchorbizit.com/category/linuxnews"
+      ],
+      "date": "2026-04-27T22:01:18.258554+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T21:33:10.566637+00:00"
+  "lastUpdated": "2026-04-27T22:01:18.258609+00:00"
 }
