@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Integrates VoiceOver And Keyboard Nav Into Latest iOS Update",
-      "urls": [
-        "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
-        "https://www.reddit.com/r/AssistiveTechnology"
-      ],
-      "date": "2026-04-17T17:32:19.120078+00:00"
-    },
-    {
       "title": "Krakatoa Eruption Killed Over 36000 In 1883",
       "urls": [
         "https://www.newsnow.com/us/World/Natural+Disasters",
@@ -4783,7 +4775,14 @@
         "https://undsci.berkeley.edu/understanding-science-101/what-is-science"
       ],
       "date": "2026-04-27T17:32:15.033957+00:00"
+    },
+    {
+      "title": "Fox News Delivers Breaking Coverage Across Digital And Cable Platforms",
+      "urls": [
+        "https://www.foxnews.com?msockid=1d362e2950c065382047396151626430"
+      ],
+      "date": "2026-04-27T18:02:20.656766+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T17:32:15.034021+00:00"
+  "lastUpdated": "2026-04-27T18:02:20.656834+00:00"
 }
