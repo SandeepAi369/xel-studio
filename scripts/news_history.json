@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Transparency Hub For Claude Opus 4.6 And Sonnet 4.6 Safety Evaluations",
-      "urls": [
-        "https://asksurf.ai/pulse/en/anthropic-uses-claude-to-speed-up-safety-research-with-big-unknowns",
-        "https://www.anthropic.com/transparency"
-      ],
-      "date": "2026-04-17T09:03:25.633008+00:00"
-    },
-    {
-      "title": "OpenAI Launches GPT-5.2 With Instant Thinking And Pro Tiers",
-      "urls": [
-        "https://www.cnbc.com/2025/12/11/openai-intros-new-ai-model-gpt-5point2-says-better-at-professional-tasks.html",
-        "https://releasebot.io/updates/openai",
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://developers.openai.com/api/docs/models",
-        "https://www.youtube.com/watch?v=ydW6Io2T4ho&vl=en"
-      ],
-      "date": "2026-04-17T09:31:02.486840+00:00"
-    },
-    {
       "title": "PyTorch powers a growing ecosystem of AI development tools and cloud integrations, supporting framew",
       "urls": [
         "https://pytorch.org",
@@ -4785,7 +4766,15 @@
         "https://news.lavx.hu/article/mistral-ai-shakes-up-open-source-llm-race-with-high-performance-7b-model-and-embedding-breakthrough"
       ],
       "date": "2026-04-27T09:03:19.781989+00:00"
+    },
+    {
+      "title": "NewsBreak Delivers Localized Alerts Across 10000 US Communities",
+      "urls": [
+        "https://www.foxnews.com?msockid=2be70ac5c14c60af11241d8dc08e61b2",
+        "https://www.newsbreak.com"
+      ],
+      "date": "2026-04-27T09:35:25.727237+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T09:03:19.782059+00:00"
+  "lastUpdated": "2026-04-27T09:35:25.727309+00:00"
 }
