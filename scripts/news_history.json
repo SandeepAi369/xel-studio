@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch powers a growing ecosystem of AI development tools and cloud integrations, supporting framew",
-      "urls": [
-        "https://pytorch.org",
-        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework"
-      ],
-      "date": "2026-04-17T10:01:26.276478+00:00"
-    },
-    {
       "title": "White House Unveils National AI Framework to Override State Laws",
       "urls": [
         "https://www.anecdotes.ai/learn/ai-regulations-in-2025-us-eu-uk-japan-china-and-more",
@@ -4774,7 +4766,16 @@
         "https://www.newsbreak.com"
       ],
       "date": "2026-04-27T09:35:25.727237+00:00"
+    },
+    {
+      "title": "Stack Overflow Bans ChatGPT And Generative AI Content",
+      "urls": [
+        "https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned",
+        "https://french.kwiziq.com",
+        "https://stackoverflow.com/questions/tagged/artificial-intelligence?tab=Newest"
+      ],
+      "date": "2026-04-27T10:03:24.147151+00:00"
     }
   ],
-  "lastUpdated": "2026-04-27T09:35:25.727309+00:00"
+  "lastUpdated": "2026-04-27T10:03:24.147221+00:00"
 }
