@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vision Nonprofit Equips 500 Low Vision Students With Assistive Technology",
-      "urls": [
-        "https://www.youtube.com/watch?v=B2ddXjJgl2s"
-      ],
-      "date": "2026-04-18T13:30:59.636928+00:00"
-    },
-    {
       "title": "Mauna Loa Erupts For First Time In 38 Years",
       "urls": [
         "https://www.usgs.gov/programs/VHP/news",
@@ -4818,7 +4811,14 @@
         "https://www.aboutamazon.com/news/devices/amazon-accessibility-features"
       ],
       "date": "2026-04-28T13:04:34.450683+00:00"
+    },
+    {
+      "title": "Retail Investors Drive 25% Of Equity Trades In Developed Markets",
+      "urls": [
+        "https://www.weforum.org/publications/global-retail-investor-outlook-2025"
+      ],
+      "date": "2026-04-28T13:35:44.740786+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T13:04:34.450744+00:00"
+  "lastUpdated": "2026-04-28T13:35:44.740866+00:00"
 }
