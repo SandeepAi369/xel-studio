@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Reserve held interest rates steady amid ongoing inflation pressures and a cooling job market",
-      "urls": [
-        "https://www.wsj.com/economy/global"
-      ],
-      "date": "2026-04-18T23:01:03.213820+00:00"
-    },
-    {
       "title": "Alphabet Reaches 4 Trillion Valuation Behind Cloud And Ai Growth",
       "urls": [
         "https://sherwood.news/tech/google-joins-apple-microsoft-and-nvidia-with-a-usd3-trillion-plus-valuation",
@@ -4792,7 +4785,14 @@
         "https://music.youtube.com/channel/UCLNdQ1KGO8L5RlHUVjuOQFQ"
       ],
       "date": "2026-04-28T22:31:07.631957+00:00"
+    },
+    {
+      "title": "Windows Camera App Adds QR Document And Whiteboard Scanning",
+      "urls": [
+        "https://support.microsoft.com/en-us/windows/how-to-use-the-windows-camera-app-ea40b69f-be6a-840e-9c8c-1fd6eea97c22"
+      ],
+      "date": "2026-04-28T23:01:18.630550+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T22:31:07.632016+00:00"
+  "lastUpdated": "2026-04-28T23:01:18.630610+00:00"
 }
