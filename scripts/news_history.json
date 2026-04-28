@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA has partnered with French AI startup Mistral AI to accelerate the deployment of the new Mistr",
-      "urls": [
-        "https://blogs.nvidia.com/blog/mistral-frontier-open-models",
-        "https://news.ycombinator.com/item?id=47418295"
-      ],
-      "date": "2026-04-18T10:02:14.594855+00:00"
-    },
-    {
       "title": "Esports Charts Launches $2.95 Million Viewership Incentive For CS2 Teams",
       "urls": [
         "https://www.reddit.com/r/esports/comments/1d7pik2/introducing_the_future_of_esports_a_multititle",
@@ -4805,7 +4797,18 @@
         "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
       ],
       "date": "2026-04-28T09:36:27.263876+00:00"
+    },
+    {
+      "title": "PyTorch Powers 85% of AI Research Papers in 2026",
+      "urls": [
+        "https://www.pythoncentral.io/tensorflow-pytorch-or-scikit-learn-a-guide-to-python-ai-frameworks",
+        "https://pytorch.org/blog/pytorch-the-open-language-of-ai",
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
+        "https://www.is4.ai/blog/our-blog-1/transformers-ai-library-159934-stars-2026-390"
+      ],
+      "date": "2026-04-28T10:05:32.337125+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T09:36:27.263946+00:00"
+  "lastUpdated": "2026-04-28T10:05:32.337192+00:00"
 }
