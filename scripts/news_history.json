@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports Charts Launches $2.95 Million Viewership Incentive For CS2 Teams",
-      "urls": [
-        "https://www.reddit.com/r/esports/comments/1d7pik2/introducing_the_future_of_esports_a_multititle",
-        "https://escharts.com/news",
-        "https://esportsinsider.com",
-        "https://www.youtube.com/watch?v=XBDlEhT0-6U"
-      ],
-      "date": "2026-04-18T10:32:57.441377+00:00"
-    },
-    {
-      "title": "Google Quantum Ai And Ibm Achieve 99 5 Fidelity In Qubit Breakthrough",
-      "urls": [
-        "https://www.youtube.com/watch?v=t4GRe9q-Q0o"
-      ],
-      "date": "2026-04-18T11:01:08.721620+00:00"
-    },
-    {
       "title": "Apple Unveils 2026 Launch For AI Powered Siri Overhaul",
       "urls": [
         "https://www.crescendo.ai/news/latest-ai-news-and-updates",
@@ -4815,7 +4798,17 @@
         "https://climate.nasa.gov/system/internal_resources/details/original/249_Causes-greenhouse-gas-molecules-cropped-more-55.jpg&lt"
       ],
       "date": "2026-04-28T10:31:00.686685+00:00"
+    },
+    {
+      "title": "Open Source AI Models Empower Developers With Custom Solutions",
+      "urls": [
+        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
+        "https://fortune.com/2025/08/20/gpt-5-is-getting-all-the-buzz-but-the-new-open-models-of-ai-matters-more",
+        "https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development",
+        "https://www.cnbc.com/2025/03/24/china-open-source-deepseek-ai-spurs-innovation-and-adoption.html?msockid=1d960fae65a86ed20b4418e764b36ff0"
+      ],
+      "date": "2026-04-28T11:02:12.753961+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T10:31:00.686750+00:00"
+  "lastUpdated": "2026-04-28T11:02:12.754014+00:00"
 }
