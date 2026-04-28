@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Acquires Manus AI For 2 Billion To Boost AI Agent Capabilities",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
-        "https://techcrunch.com/tag/acquisition",
-        "https://www.youtube.com/watch?v=eAVjqB6aXQ8",
-        "https://news.crunchbase.com/sections/ai",
-        "https://www.ibtimes.com/tech-acquisitions-surge-ai-startup-acquisition-drives-big-company-strategies-3801385",
-        "https://news.crunchbase.com/ma/most-active-startup-acquirers-3-years-crm-openai-snowflake"
-      ],
-      "date": "2026-04-18T06:01:07.355723+00:00"
-    },
-    {
       "title": "Texas ERCOT grid set all-time records for wind, solar, and battery discharge in early March 2025, ma",
       "urls": [
         "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
@@ -4799,7 +4787,14 @@
         "https://www.unicef.org/eca/refugee-and-migrant-crisis-latest-news"
       ],
       "date": "2026-04-28T05:31:02.057730+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Reports 2025 Was Second Hottest Year On Record",
+      "urls": [
+        "https://wmo.int/media/announcement/state-of-global-climate-2025-report"
+      ],
+      "date": "2026-04-28T06:02:26.425780+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T05:31:02.057789+00:00"
+  "lastUpdated": "2026-04-28T06:02:26.425846+00:00"
 }
