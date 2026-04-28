@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ITIF has criticized France's proposed law banning social media use for individuals under 15, arguing",
-      "urls": [
-        "https://itif.org/news-room",
-        "https://sdgnews.com/wto-says-global-trade-is-slowing-as-conflict-and-ai-pull-the-economy-in-opposite-directions",
-        "https://www.youtube.com/watch?v=4k-XZDWUjsA"
-      ],
-      "date": "2026-04-18T07:01:09.752140+00:00"
-    },
-    {
       "title": "UK-Led Trial Develops AI Blood Test Detecting 12 Cancers With 99 Percent Accuracy",
       "urls": [
         "https://interestingengineering.com/health/seven-medical-breakthroughs-in-2025"
@@ -4796,7 +4787,23 @@
         "https://www.bbc.com/news/world"
       ],
       "date": "2026-04-28T06:31:12.986448+00:00"
+    },
+    {
+      "title": "MIT Researchers Quantify Natural Climate Influences on Global Temperatures",
+      "urls": [
+        "https://www.nature.com/subjects/climate-change",
+        "https://www.wri.org/climate-change-news",
+        "https://link.springer.com/subjects/climate-change",
+        "https://news.un.org/en/focus-topic/climate-change",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TmpOMkVnSmxiaWdBUAE?hl=en-US&ceid=US%3Aen&oc=11",
+        "https://www.reuters.com/sustainability/climate-change",
+        "https://news.mit.edu/topic/climate-change",
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.sciencedaily.com/news/earth_climate/environmental_issues",
+        "https://www.usatoday.com/climate-change"
+      ],
+      "date": "2026-04-28T07:01:21.261333+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T06:31:12.986512+00:00"
+  "lastUpdated": "2026-04-28T07:01:21.261397+00:00"
 }
