@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Acquires Manus AI For Over Two Billion Dollars",
-      "urls": [
-        "https://finance.yahoo.com/news/ai-startups-founders-vcs-could-094530075.html",
-        "https://www.youtube.com/watch?v=k4Owleg34Rc",
-        "https://www.youtube.com/watch?v=tkPBkG_1fzk"
-      ],
-      "date": "2026-04-18T09:02:12.131578+00:00"
-    },
-    {
       "title": "Anthropic Withholds Claude Mythos Over Weaponization Risks",
       "urls": [
         "https://www.entrepreneur.com/business-news/anthropic-warns-its-new-ai-too-dangerous",
@@ -4806,7 +4797,17 @@
         "https://stylecaster.com/entertainment/celebrity-news/1234880351/alysa-liu-gold-medal-olympics"
       ],
       "date": "2026-04-28T08:33:12.826483+00:00"
+    },
+    {
+      "title": "World Leaders Adopt UN Declaration On Mental Health And NCDs",
+      "urls": [
+        "https://www.who.int/europe/news-room/fact-sheets/item/mental-health",
+        "https://www.who.int/news/item/11-07-2025-who-launches-new-foundational-helping-skills-training-manual-to-strengthen-mental-health-support",
+        "https://www.who.int/news-room/commentaries/detail/who-blueprint-for-mental-health-policy-and-law-reform",
+        "https://www.who.int/news/item/26-09-2025-world-leaders-show-strong-support-for-political-declaration-on-noncommunicable-diseases-and-mental-health"
+      ],
+      "date": "2026-04-28T09:04:19.236251+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T08:33:12.826547+00:00"
+  "lastUpdated": "2026-04-28T09:04:19.236306+00:00"
 }
