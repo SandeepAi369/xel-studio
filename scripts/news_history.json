@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta CEO Mark Zuckerberg, along with Nvidia's Jensen Huang, Oracle's Larry Ellison, and Google cofou",
-      "urls": [
-        "https://www.scmp.com/topics/tech-ceos",
-        "https://www.techbuzz.ai/articles/tech-s-biggest-ceos-join-trump-ai-policy-panel",
-        "https://www.constellationr.com/insights/news/key-takeaways-trumps-meeting-top-tech-ceos",
-        "https://www.yahoo.com/news/articles/tech-ceo-reveals-widespread-concerns-160000581.html",
-        "https://www.thestreet.com/investing/nvidia-ceo-makes-bombshell-call-on-ais-next-big-thing",
-        "https://www.youtube.com/watch?v=4Aq1lid287I",
-        "https://www.economist.com/insider/the-insider/five-men-control-ai-who-should-control-them",
-        "https://www.youtube.com/watch?v=JW-L6mtKTlk"
-      ],
-      "date": "2026-04-18T17:01:07.622366+00:00"
-    },
-    {
       "title": "Evo 2026 Returns To Las Vegas With Open Format Tournament",
       "urls": [
         "https://news.web.baylor.edu/news/story/2026/baylor-rocket-league-esports-team-wins-conference-title-inaugural-season",
@@ -4817,7 +4803,21 @@
         "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings"
       ],
       "date": "2026-04-28T16:41:06.192786+00:00"
+    },
+    {
+      "title": "NASA's Artemis III mission is progressing toward its lunar landing goal, with the Space Launch Syste",
+      "urls": [
+        "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-heavy-rocket-viasat-3-f3-launch",
+        "https://www.nasa.gov",
+        "https://www.spacex.com/launches",
+        "https://arstechnica.com/space/2026/04/rocket-report-some-canadians-dont-want-a-spaceport-falcon-hits-600-landings",
+        "https://www.msn.com/en-us/technology/space-exploration/spacex-falcon-heavy-rocket-set-for-launch-from-florida/ar-AA21PMjd",
+        "https://www.usatoday.com/story/news/nation/2026/04/27/nasa-spacex-astronauts-space-station-crew-13/89815946007",
+        "https://abcnews.com/Technology/duffy-nasa-move-spacex-artemis-iii-moon-landing/story?id=126734951",
+        "https://spacenews.com"
+      ],
+      "date": "2026-04-28T17:02:51.862937+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T16:41:06.192852+00:00"
+  "lastUpdated": "2026-04-28T17:02:51.863001+00:00"
 }
