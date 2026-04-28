@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital health technologies are expanding access to mental health care, particularly in underserved ",
-      "urls": [
-        "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
-        "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age"
-      ],
-      "date": "2026-04-18T02:30:55.632689+00:00"
-    },
-    {
       "title": "WTO Launches Digital Trade Initiative For Developing Economies",
       "urls": [
         "https://www.wto.org/english/news_e/archive_e/dtech_arc_e.htm",
@@ -4792,7 +4784,15 @@
         "https://mexico.internationaltrucks.com/hubfs/Descargables/2022/09/CT+6.pdf?hsLang=es-mx"
       ],
       "date": "2026-04-28T02:02:18.497234+00:00"
+    },
+    {
+      "title": "Ndtv Delivers Real Time Updates On India And Global Affairs",
+      "urls": [
+        "https://www.foxnews.com?msockid=34c45adf205265fa37624d9621e76438",
+        "https://www.ndtv.com/top-stories"
+      ],
+      "date": "2026-04-28T02:31:02.734669+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T02:02:18.497326+00:00"
+  "lastUpdated": "2026-04-28T02:31:02.734752+00:00"
 }
