@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Develops Next-Gen Model With Extreme Reasoning Performance",
-      "urls": [
-        "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
-      ],
-      "date": "2026-04-18T15:31:58.042812+00:00"
-    },
-    {
       "title": "Congress Debates Section 702 Reform Amid Surveillance Abuses",
       "urls": [
         "https://www.eff.org/issues/privacy",
@@ -4826,7 +4819,14 @@
         "https://www.who.int/news/item/17-05-2024-who-updates-list-of-drug-resistant-bacteria-most-threatening-to-human-health"
       ],
       "date": "2026-04-28T15:08:43.174170+00:00"
+    },
+    {
+      "title": "Google Docs enables users to create and edit documents online through cloud-based technology, suppor",
+      "urls": [
+        "https://www.googleapps.com/docs/about?hl=en"
+      ],
+      "date": "2026-04-28T15:40:05.240387+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T15:08:43.174233+00:00"
+  "lastUpdated": "2026-04-28T15:40:05.240464+00:00"
 }
