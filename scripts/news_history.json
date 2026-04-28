@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Reports 5X ROI From Open Source Adoption",
-      "urls": [
-        "https://nzoss.org.nz/linux-the-open-source-operating-system-for-the-masses",
-        "https://linux.org.au/tag/open-source-community",
-        "https://www.linux-magazine.com/index.php/tags/view/Software/open%20source",
-        "https://www.linux-magazine.com/index.php/tags/view/Software/open+source",
-        "https://www.tecmint.com/best-open-source-forum-software-for-linux",
-        "https://www.linux-magazine.com/index.php/tags/view/Software/open%20source",
-        "https://blenderartists.org/t/a-new-2d-animation-open-source-software-enve-for-linux/1198202",
-        "https://www.linuxtoday.com/blog/10-best-open-source-accounting-software-for-linux-users",
-        "https://www.forbes.com/sites/jasonevangelho/2019/10/15/microsoft-to-linux-community-we-are-an-open-source-company",
-        "https://www.fsdaily.com/EndUser/7_More_Free_and_Open_Source_Finance_Accounting_Software_for_Linux"
-      ],
-      "date": "2026-04-18T02:02:18.469178+00:00"
-    },
-    {
       "title": "Digital health technologies are expanding access to mental health care, particularly in underserved ",
       "urls": [
         "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
@@ -4799,7 +4783,16 @@
         "https://www.foxweather.com/category/disasters"
       ],
       "date": "2026-04-28T01:32:11.157855+00:00"
+    },
+    {
+      "title": "Navistar Launches S13 Powertrain With 500 Horsepower For Class 8 Trucks",
+      "urls": [
+        "https://inventory-api.internationaltrucks.com",
+        "https://mexico.internationaltrucks.com/blog/blog-presentación-motor-s13",
+        "https://mexico.internationaltrucks.com/hubfs/Descargables/2022/09/CT+6.pdf?hsLang=es-mx"
+      ],
+      "date": "2026-04-28T02:02:18.497234+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T01:32:11.157925+00:00"
+  "lastUpdated": "2026-04-28T02:02:18.497326+00:00"
 }
