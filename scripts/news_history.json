@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Reserve Holds Interest Rates Steady Amid Inflation And Job Market Uncertainty",
-      "urls": [
-        "https://www.wsj.com/economy/global?eafs_enabled=false"
-      ],
-      "date": "2026-04-18T14:30:54.704511+00:00"
-    },
-    {
       "title": "Mayo Clinic Team Tests Dual-Drug Nanotherapy Against Glioblastoma In Primates",
       "urls": [
         "https://www.youtube.com/watch?v=pjU6TzxBE58"
@@ -4822,7 +4815,18 @@
         "https://onedeafworld.com/technology-and-the-future-of-deaf-accessibility"
       ],
       "date": "2026-04-28T14:02:29.831183+00:00"
+    },
+    {
+      "title": "Forbes Launches First Accessibility 100 List Highlighting Innovators",
+      "urls": [
+        "https://www.pbs.org/wgbh/nova/article/people-with-disabilities-use-ai-to-improve-their-lives",
+        "https://faast.org",
+        "https://www.abs.gov.au/statistics/health/disability/disability-ageing-and-carers-australia-summary-findings/latest-release",
+        "https://www.straitstimes.com/tech/tech-news/intelligent-traffic-light-that-gives-seniors-people-with-disabilities-more-time-wins-contest",
+        "https://www.forbes.com/lists/accessibility"
+      ],
+      "date": "2026-04-28T14:34:26.386438+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T14:02:29.831253+00:00"
+  "lastUpdated": "2026-04-28T14:34:26.386502+00:00"
 }
