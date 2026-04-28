@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mauna Loa Erupts For First Time In 38 Years",
-      "urls": [
-        "https://www.usgs.gov/programs/VHP/news",
-        "https://www.youtube.com/watch?v=lBzSWiCBT_8"
-      ],
-      "date": "2026-04-18T14:01:13.853098+00:00"
-    },
-    {
       "title": "Federal Reserve Holds Interest Rates Steady Amid Inflation And Job Market Uncertainty",
       "urls": [
         "https://www.wsj.com/economy/global?eafs_enabled=false"
@@ -4818,7 +4810,19 @@
         "https://www.weforum.org/publications/global-retail-investor-outlook-2025"
       ],
       "date": "2026-04-28T13:35:44.740786+00:00"
+    },
+    {
+      "title": "Deaf accessibility technology is advancing with new gadgets designed to improve daily life for deaf ",
+      "urls": [
+        "https://deafvibes.com/ai-and-accessibility-technologies/deaf-accessibility",
+        "https://weboconnect.com/blog/from-barriers-to-bridges-how-assistive-technology-is-changing-communication-for-the-deaf-hard-of-hearing",
+        "https://link.springer.com/article/10.1007/s10209-025-01270-y",
+        "https://www.startasl.com/the-role-of-technology-in-connecting-the-deaf-community",
+        "https://www.forbes.com/sites/alanschwarz/2025/06/16/communication-innovation-sight-sound-and-touch",
+        "https://onedeafworld.com/technology-and-the-future-of-deaf-accessibility"
+      ],
+      "date": "2026-04-28T14:02:29.831183+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T13:35:44.740866+00:00"
+  "lastUpdated": "2026-04-28T14:02:29.831253+00:00"
 }
