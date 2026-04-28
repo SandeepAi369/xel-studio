@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "WebAIM Survey Reveals 72 Percent Of Blind Mobile Users Depend On Apple VoiceOver",
-      "urls": [
-        "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion"
-      ],
-      "date": "2026-04-18T01:01:14.762283+00:00"
-    },
-    {
-      "title": "Imf Cuts Global Growth Forecast To 2.7 Percent",
-      "urls": [
-        "https://www.cnbc.com/world-economy"
-      ],
-      "date": "2026-04-18T01:31:04.073639+00:00"
-    },
-    {
       "title": "Linux Foundation Reports 5X ROI From Open Source Adoption",
       "urls": [
         "https://nzoss.org.nz/linux-the-open-source-operating-system-for-the-masses",
@@ -4806,7 +4792,14 @@
         "https://www.espncricinfo.com/cricket-news"
       ],
       "date": "2026-04-28T00:32:07.930657+00:00"
+    },
+    {
+      "title": "Fox Weather Tracks Hurricane Season With Real-Time Updates",
+      "urls": [
+        "https://www.foxweather.com/category/disasters"
+      ],
+      "date": "2026-04-28T01:32:11.157855+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T00:32:07.930738+00:00"
+  "lastUpdated": "2026-04-28T01:32:11.157925+00:00"
 }
