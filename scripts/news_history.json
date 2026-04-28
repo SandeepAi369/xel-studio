@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Withholds Claude Mythos Over Weaponization Risks",
-      "urls": [
-        "https://www.entrepreneur.com/business-news/anthropic-warns-its-new-ai-too-dangerous",
-        "https://www.cnn.com/2026/02/26/tech/anthropic-ai-safety",
-        "https://www.youtube.com/watch?v=aAPpQC-3EyE"
-      ],
-      "date": "2026-04-18T09:30:59.635968+00:00"
-    },
-    {
       "title": "NVIDIA has partnered with French AI startup Mistral AI to accelerate the deployment of the new Mistr",
       "urls": [
         "https://blogs.nvidia.com/blog/mistral-frontier-open-models",
@@ -4807,7 +4798,14 @@
         "https://www.who.int/news/item/26-09-2025-world-leaders-show-strong-support-for-political-declaration-on-noncommunicable-diseases-and-mental-health"
       ],
       "date": "2026-04-28T09:04:19.236251+00:00"
+    },
+    {
+      "title": "MIT News hosted a major gathering of scientists, business leaders, faculty, and students to assess t",
+      "urls": [
+        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
+      ],
+      "date": "2026-04-28T09:36:27.263876+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T09:04:19.236306+00:00"
+  "lastUpdated": "2026-04-28T09:36:27.263946+00:00"
 }
