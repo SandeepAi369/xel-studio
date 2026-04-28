@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils 2026 Launch For AI Powered Siri Overhaul",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://www.youtube.com/watch?v=3FFIvEPLAZo"
-      ],
-      "date": "2026-04-18T11:31:01.110098+00:00"
-    },
-    {
       "title": "Quantum Researchers Question Qubit Stability Breakthrough After Failed Replications",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
@@ -4808,7 +4800,17 @@
         "https://www.cnbc.com/2025/03/24/china-open-source-deepseek-ai-spurs-innovation-and-adoption.html?msockid=1d960fae65a86ed20b4418e764b36ff0"
       ],
       "date": "2026-04-28T11:02:12.753961+00:00"
+    },
+    {
+      "title": "Google App Integrates Lens And Search Labs For Enhanced Visual Discovery",
+      "urls": [
+        "https://www.google.us/travel",
+        "https://images.google.com",
+        "https://about.google/products",
+        "https://search.google/google-app"
+      ],
+      "date": "2026-04-28T11:33:04.529422+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T11:02:12.754014+00:00"
+  "lastUpdated": "2026-04-28T11:33:04.529491+00:00"
 }
