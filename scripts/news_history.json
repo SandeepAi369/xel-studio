@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Silicon Valley Bank Reports Climate Tech Startups Improve Unit Economics in 2026",
-      "urls": [
-        "https://fas.org/initiative/climate-tech-innovation",
-        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
-        "https://www.gatesnotes.com/work/accelerate-energy-innovation",
-        "https://energyinnovation.org/about/press/page/5",
-        "https://energyinnovation.org",
-        "https://www.iea.org/topics/energy-innovation",
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
-      ],
-      "date": "2026-04-18T18:01:09.187599+00:00"
-    },
-    {
-      "title": "Hugging Face Acquires Pollen Robotics to Expand Open Source AI Robot Access",
-      "urls": [
-        "https://www.wired.com/story/hugging-face-acquires-open-source-robot-startup"
-      ],
-      "date": "2026-04-18T18:30:54.911756+00:00"
-    },
-    {
       "title": "Medtronic Deploys AI In Guardian 4 To Cut False Alerts By 90 Percent",
       "urls": [
         "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
@@ -4811,7 +4791,23 @@
         "https://nod.org/driving-change/technology"
       ],
       "date": "2026-04-28T17:36:20.996146+00:00"
+    },
+    {
+      "title": "Eight Startups Launch Neuroinclusive Hiring Platforms at Workforce x Autism Demo Day",
+      "urls": [
+        "https://autismspectrumnews.org",
+        "https://neurosciencenews.com/neuroscience-topics/autism",
+        "https://apnews.com/article/neurodiversity-alliance-autism-adhd-dyslexia-15bdbb49ce538a60562a2adc7a2d86ae",
+        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html?msockid=221dca336c3669b43327dd7a6ddc6826",
+        "https://ad.lacounty.gov/news/supporting-neurodiversity",
+        "https://www.cvshealth.com/news/health-equity/aetna-expands-mental-health-leadership-with-neurodiversity-support-program.html",
+        "https://theconversation.com/topics/neurodiversity-103349",
+        "https://www.multiplehub.org/news",
+        "https://www.sciencedaily.com/news/mind_brain/autism",
+        "https://www.forbes.com/sites/jenniferpalumbo/2025/08/22/the-future-of-autism-from-barriers-to-breakthroughs"
+      ],
+      "date": "2026-04-28T18:40:44.399692+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T17:36:20.996203+00:00"
+  "lastUpdated": "2026-04-28T18:40:44.399755+00:00"
 }
