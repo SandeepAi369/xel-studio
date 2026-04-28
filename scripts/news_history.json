@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medtronic Deploys AI In Guardian 4 To Cut False Alerts By 90 Percent",
-      "urls": [
-        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
-      ],
-      "date": "2026-04-18T19:01:04.146433+00:00"
-    },
-    {
       "title": "Nvidia Launches AI Factory With AWS Google Cloud Microsoft",
       "urls": [
         "https://www.heygotrade.com/en/news/us-ai-chip-export-rules-tighten-nvidia-amd-stocks-slide",
@@ -4807,7 +4800,14 @@
         "https://www.forbes.com/sites/jenniferpalumbo/2025/08/22/the-future-of-autism-from-barriers-to-breakthroughs"
       ],
       "date": "2026-04-28T18:40:44.399692+00:00"
+    },
+    {
+      "title": "STP files are 3D model formats used in engineering and manufacturing, commonly created by CAD softwa",
+      "urls": [
+        "https://www.zhihu.com/question/319535620"
+      ],
+      "date": "2026-04-28T19:03:58.557000+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T18:40:44.399755+00:00"
+  "lastUpdated": "2026-04-28T19:03:58.557057+00:00"
 }
