@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas ERCOT grid set all-time records for wind, solar, and battery discharge in early March 2025, ma",
-      "urls": [
-        "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records"
-      ],
-      "date": "2026-04-18T06:30:52.429330+00:00"
-    },
-    {
       "title": "ITIF has criticized France's proposed law banning social media use for individuals under 15, arguing",
       "urls": [
         "https://itif.org/news-room",
@@ -4794,7 +4787,16 @@
         "https://wmo.int/media/announcement/state-of-global-climate-2025-report"
       ],
       "date": "2026-04-28T06:02:26.425780+00:00"
+    },
+    {
+      "title": "Cole Tomas Allen Suspected in White House Shooting Incident",
+      "urls": [
+        "https://www.foxnews.com?msockid=0eff5ac2f6636a0824764d8bf7e46b98",
+        "https://www.usatoday.com/story/news/crime/2026/04/27/cole-tomas-allen-suspect-whcd-shooting/89817513007",
+        "https://www.bbc.com/news/world"
+      ],
+      "date": "2026-04-28T06:31:12.986448+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T06:02:26.425846+00:00"
+  "lastUpdated": "2026-04-28T06:31:12.986512+00:00"
 }
