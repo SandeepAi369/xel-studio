@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Team Tests Dual-Drug Nanotherapy Against Glioblastoma In Primates",
-      "urls": [
-        "https://www.youtube.com/watch?v=pjU6TzxBE58"
-      ],
-      "date": "2026-04-18T15:03:11.485736+00:00"
-    },
-    {
       "title": "OpenAI Develops Next-Gen Model With Extreme Reasoning Performance",
       "urls": [
         "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
@@ -4826,7 +4819,14 @@
         "https://www.forbes.com/lists/accessibility"
       ],
       "date": "2026-04-28T14:34:26.386438+00:00"
+    },
+    {
+      "title": "Who Updates Bacterial Threat List With 15 High Risk Families",
+      "urls": [
+        "https://www.who.int/news/item/17-05-2024-who-updates-list-of-drug-resistant-bacteria-most-threatening-to-human-health"
+      ],
+      "date": "2026-04-28T15:08:43.174170+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T14:34:26.386502+00:00"
+  "lastUpdated": "2026-04-28T15:08:43.174233+00:00"
 }
