@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "WTO Launches Digital Trade Initiative For Developing Economies",
-      "urls": [
-        "https://www.wto.org/english/news_e/archive_e/dtech_arc_e.htm",
-        "https://www.stimson.org/research/trade-tech",
-        "https://www.caidp.org/resources/trade-and-technology-council",
-        "https://www.thecentersquare.com/national/article_65b0534b-62e0-4ceb-b37b-9c6352423aca.html",
-        "https://www.trade.gov/press-release/department-commerce-begins-inaugural-call-proposals-american-ai-exports-program",
-        "https://www.politico.com/news/magazine/2026/04/02/bluetooth-trump-tariffs-technology-trade-00852860",
-        "https://insidetrade.com",
-        "https://www.jdsupra.com/legalnews/how-india-and-the-u-s-are-redefining-9072378"
-      ],
-      "date": "2026-04-18T03:01:16.173927+00:00"
-    },
-    {
       "title": "Two supermassive black holes in a galaxy 500 million light-years away are on a collision course, wit",
       "urls": [
         "https://www.livescience.com/news",
@@ -4792,7 +4778,14 @@
         "https://www.ndtv.com/top-stories"
       ],
       "date": "2026-04-28T02:31:02.734669+00:00"
+    },
+    {
+      "title": "Fox News leverages ZIP code data from users to deliver hyper-local weather updates, enhancing its re",
+      "urls": [
+        "https://www.foxnews.com?msockid=1b311274c3d56b550a3b053dc25f6a64"
+      ],
+      "date": "2026-04-28T03:01:20.533035+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T02:31:02.734752+00:00"
+  "lastUpdated": "2026-04-28T03:01:20.533101+00:00"
 }
