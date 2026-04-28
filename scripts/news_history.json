@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Researchers Question Qubit Stability Breakthrough After Failed Replications",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
-      ],
-      "date": "2026-04-18T12:02:12.434180+00:00"
-    },
-    {
       "title": "Alysa Liu Wins Gold With Flawless Free Skate At 2026 Winter Olympics",
       "urls": [
         "https://www.youtube.com/watch?v=CVmCfiFjoVE",
@@ -4810,7 +4803,19 @@
         "https://search.google/google-app"
       ],
       "date": "2026-04-28T11:33:04.529422+00:00"
+    },
+    {
+      "title": "World Meteorological Organization has released updated climate projections indicating a 66% likeliho",
+      "urls": [
+        "https://worldweather.wmo.int/en/home.html",
+        "https://wmo.int/news/media-centre/global-climate-predictions-show-temperatures-expected-remain-or-near-record-levels-coming-5-years",
+        "https://wmo.int/media/news/wmo-issues-new-guidelines-evaluation-of-weather-and-climate-extremes",
+        "https://wmo.int/media/news/climate-change-impacts-grip-globe-2024",
+        "https://wmo.int/media/news/january-2025-sees-record-global-temperatures-despite-la-nina",
+        "https://wmo.int/media/news/report-provides-10-new-insights-climate-science"
+      ],
+      "date": "2026-04-28T12:03:25.789861+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T11:33:04.529491+00:00"
+  "lastUpdated": "2026-04-28T12:03:25.789915+00:00"
 }
