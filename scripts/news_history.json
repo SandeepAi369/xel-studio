@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildfire Smoke Causes 24100 Annual U S Deaths Study Finds",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://www.nature.com/subjects/climate-change",
-        "https://science.nasa.gov/climate-change",
-        "https://www.cbsnews.com/climate-change"
-      ],
-      "date": "2026-04-18T04:03:17.053032+00:00"
-    },
-    {
       "title": "Geopolitical tensions are reshaping global technology competition, with data centers emerging as cri",
       "urls": [
         "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
@@ -4795,7 +4785,18 @@
         "https://www.globaltennisnetwork.com/tennis/city/12913-greenup-kentucky"
       ],
       "date": "2026-04-28T04:01:10.154627+00:00"
+    },
+    {
+      "title": "India Defeats Australia 3-1 In Border-Gavaskar Trophy",
+      "urls": [
+        "https://news.abplive.com/sports",
+        "https://www.bbc.com/sport",
+        "https://www.newsbytesapp.com/news/sports",
+        "https://www.livescore.com/en/news",
+        "https://apnews.com/sports"
+      ],
+      "date": "2026-04-28T04:30:53.827207+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T04:01:10.154682+00:00"
+  "lastUpdated": "2026-04-28T04:30:53.827275+00:00"
 }
