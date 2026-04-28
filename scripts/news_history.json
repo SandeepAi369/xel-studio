@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Minnesota Department Of Human Services Launches Custom Alerting Devices For Deaf And Hard Of Hearing Residents",
-      "urls": [
-        "https://mn.gov/deaf-hard-of-hearing/assistive-technology/index.jsp",
-        "https://www.youtube.com/watch?v=xvGtT3Ench4",
-        "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOooO97puc81NqEuSNG4fQEfXM3RZNbk8CTuO-OWtGrFmPzl7LLkR"
-      ],
-      "date": "2026-04-18T13:03:19.440159+00:00"
-    },
-    {
       "title": "Vision Nonprofit Equips 500 Low Vision Students With Assistive Technology",
       "urls": [
         "https://www.youtube.com/watch?v=B2ddXjJgl2s"
@@ -4817,7 +4808,17 @@
         "https://www.hltv.org/events"
       ],
       "date": "2026-04-28T12:32:09.930529+00:00"
+    },
+    {
+      "title": "Apple Launches AI-Powered Smart Navigation Tool For Visually Impaired Users",
+      "urls": [
+        "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired",
+        "https://www.bemyeyes.com/news/be-my-eyes-foundation-launches-to-ensure-free-access-to-accessibility-technology-for-blind-people-worldwide",
+        "https://www.digital.nsw.gov.au/article/understanding-screen-readers",
+        "https://www.aboutamazon.com/news/devices/amazon-accessibility-features"
+      ],
+      "date": "2026-04-28T13:04:34.450683+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T12:32:09.930593+00:00"
+  "lastUpdated": "2026-04-28T13:04:34.450744+00:00"
 }
