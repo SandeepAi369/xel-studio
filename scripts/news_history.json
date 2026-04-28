@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UK-Led Trial Develops AI Blood Test Detecting 12 Cancers With 99 Percent Accuracy",
-      "urls": [
-        "https://interestingengineering.com/health/seven-medical-breakthroughs-in-2025"
-      ],
-      "date": "2026-04-18T07:30:50.648285+00:00"
-    },
-    {
       "title": "Texas Flash Flooding Triggers Multiple Swift Water Rescues",
       "urls": [
         "https://nypost.com/2026/04/13/us-news/severe-storms-submerge-texas-in-feet-of-water-with-widespread-flash-flooding-reported",
@@ -4803,7 +4796,19 @@
         "https://www.usatoday.com/climate-change"
       ],
       "date": "2026-04-28T07:01:21.261333+00:00"
+    },
+    {
+      "title": "Ama Reports 68 Percent Of Physicians Now Use Ai Tools",
+      "urls": [
+        "https://clinicalai.news",
+        "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
+        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
+        "https://www.forbes.com/sites/sachinjain/2025/10/21/ai-adoption-in-healthcare-is-surging-what-a-new-report-reveals",
+        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
+      ],
+      "date": "2026-04-28T07:34:07.362494+00:00"
     }
   ],
-  "lastUpdated": "2026-04-28T07:01:21.261397+00:00"
+  "lastUpdated": "2026-04-28T07:34:07.362558+00:00"
 }
