@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Develops AI-Powered Smart Wheelchairs For Urban Mobility",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOooBSK8GysxRXP151JLg--NsEWKblVa12zfuzgnaTATkmmcQ-i92",
-        "https://www.intcowheelchair.com/news/how-modern-wheelchair-designs-are-transforming-mobility"
-      ],
-      "date": "2026-04-19T19:01:05.600865+00:00"
-    },
-    {
       "title": "Meta has enhanced integration between Threads and Instagram, allowing users to share Threads posts d",
       "urls": [
         "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-31"
@@ -4837,7 +4829,14 @@
         "https://www.reddit.com/r/OpenAI/comments/16doutn/how_to_get_a_job_at_openai"
       ],
       "date": "2026-04-29T18:31:13.711033+00:00"
+    },
+    {
+      "title": "HealthCare.",
+      "urls": [
+        "https://www.healthcare.gov/get-coverage"
+      ],
+      "date": "2026-04-29T19:05:46.940886+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T18:31:13.711096+00:00"
+  "lastUpdated": "2026-04-29T19:05:46.940956+00:00"
 }
