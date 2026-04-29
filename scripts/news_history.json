@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Demis Hassabis Leads Gemini Expansion Across Google Products",
-      "urls": [
-        "https://www.youtube.com/watch?v=uVPdYqiULTo"
-      ],
-      "date": "2026-04-19T17:30:59.800783+00:00"
-    },
-    {
       "title": "Midwest Storm System Kills One In Wisconsin Lightning Strike",
       "urls": [
         "https://www.reddit.com/r/CrazyFreakingWeather/comments/1sor0ib/april_14_2026_natural_disasters_report_by_allatra",
@@ -4830,7 +4823,19 @@
         "https://www.sciencenewstoday.org/the-role-of-ai-in-drug-discovery-and-development"
       ],
       "date": "2026-04-29T17:01:25.746322+00:00"
+    },
+    {
+      "title": "Nvda Screen Reader Empowers Blind Users Worldwide",
+      "urls": [
+        "https://www.screen.co.jp/spe/en",
+        "https://www.rnib.org.uk/living-with-sight-loss/assistive-aids-and-technology/everyday-tech/using-technology-at-home",
+        "https://www.apple.com/newsroom/2025/05/apple-unveils-powerful-accessibility-features-coming-later-this-year",
+        "https://www.applevis.com",
+        "https://www.theverge.com/23203911/screen-readers-history-blind-henter-curran-teh-nvda",
+        "https://www.freecodecamp.org/news/blind-developer-sighted-team"
+      ],
+      "date": "2026-04-29T17:31:07.656168+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T17:01:25.746385+00:00"
+  "lastUpdated": "2026-04-29T17:31:07.656231+00:00"
 }
