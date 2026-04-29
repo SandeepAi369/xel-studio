@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT 5.4 With Enhanced Reasoning And Code Performance",
-      "urls": [
-        "https://www.youtube.com/watch?v=M_wKxIA12oU"
-      ],
-      "date": "2026-04-19T06:01:07.925369+00:00"
-    },
-    {
       "title": "ITIF Calls for Innovation-Driven Clean Energy Strategy to Achieve Cost Parity",
       "urls": [
         "https://itif.org/issues/clean-energy-innovation",
@@ -4824,7 +4817,14 @@
         "https://about.fb.com/news/2024/09/metas-ai-product-news-connect"
       ],
       "date": "2026-04-29T05:31:04.115641+00:00"
+    },
+    {
+      "title": "The document has been permanently moved to a new location, indicating a standard HTTP 301 redirect u",
+      "urls": [
+        "https://climate.nasa.gov/climate_resources/25/interactive-climate-time-machine/&nbsp"
+      ],
+      "date": "2026-04-29T06:31:21.489831+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T05:31:04.115705+00:00"
+  "lastUpdated": "2026-04-29T06:31:21.489899+00:00"
 }
