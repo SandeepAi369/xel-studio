@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sam Ruthe Runs 3:48.01 Mile To Win 2026 BU Terrier Classic",
-      "urls": [
-        "https://www.youtube.com/watch?v=NKfBR1CalXQ"
-      ],
-      "date": "2026-04-19T16:30:53.735248+00:00"
-    },
-    {
       "title": "Kroger Appoints Chief Data And Ai Officer To Scale Enterprise Artificial Intelligence Strategy",
       "urls": [
         "https://www.ciodive.com/topic/leadership-and-careers",
@@ -4828,7 +4821,19 @@
         "https://www.merriam-webster.com/dictionary/geopolitics"
       ],
       "date": "2026-04-29T16:06:37.804874+00:00"
+    },
+    {
+      "title": "The New York Times operates with over 1,700 journalists across more than 150 countries, producing li",
+      "urls": [
+        "https://www.cbsnews.com",
+        "https://www.cnn.com",
+        "https://abcnews.com",
+        "https://apnews.com",
+        "https://www.nytimes.com",
+        "https://www.nbcnews.com"
+      ],
+      "date": "2026-04-29T16:34:23.177185+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T16:06:37.804955+00:00"
+  "lastUpdated": "2026-04-29T16:34:23.177251+00:00"
 }
