@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft And Google Cloud Revenue Surges On AI Demand",
-      "urls": [
-        "https://www.youtube.com/watch?v=X_naLRvTLbM"
-      ],
-      "date": "2026-04-19T08:02:09.358002+00:00"
-    },
-    {
       "title": "Sydney McLaughlin-Levrone Sets World Record In 400-Meter Hurdles",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_United_States_records_in_track_and_field",
@@ -4823,7 +4816,17 @@
         "https://link.springer.com/subjects/telehealth-innovations-for-healthcare-delivery"
       ],
       "date": "2026-04-29T07:37:31.770908+00:00"
+    },
+    {
+      "title": "Social Security Administration Launches Online Card Application Portal",
+      "urls": [
+        "https://www.ssa.gov/apply",
+        "https://www.ssa.gov/manage-benefits/get-benefit-letter",
+        "https://www.ssa.gov/manage-benefits/update-direct-deposit",
+        "https://www.ssa.gov/blog/en/posts/2026-02-23.html"
+      ],
+      "date": "2026-04-29T08:04:30.887189+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T07:37:31.770973+00:00"
+  "lastUpdated": "2026-04-29T08:04:30.887261+00:00"
 }
