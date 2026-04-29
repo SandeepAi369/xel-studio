@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "WheelMove Launches Clip-On Motor System for Manual Wheelchairs",
-      "urls": [
-        "https://www.mobilityinnovations.com/news",
-        "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs",
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoppN9va_W41vzyRMfd5cgpMlCtUdhVdY2y3lnvpbGJ7_kbMvzjN",
-        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoo_mclJSUlXxswLBAQuekUD8orQ2lzUi-p_D0S3pcIIWSQTZVra",
-        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion",
-        "https://www.youtube.com/watch?v=q7-rXxNIUMA"
-      ],
-      "date": "2026-04-19T01:02:10.253691+00:00"
-    },
-    {
-      "title": "Seismologists Warn Of Imminent 8.0 Quake On San Andreas Fault",
-      "urls": [
-        "https://www.volcanodiscovery.com",
-        "https://www.youtube.com/watch?v=Okofvj36Obg"
-      ],
-      "date": "2026-04-19T01:30:57.439527+00:00"
-    },
-    {
       "title": "AI in assistive technology is transforming tools for people with disabilities by integrating machine",
       "urls": [
         "https://www.digitallearninginstitute.com/blog/revolutionising-accessibility:-the-role-of-ai-in-assistive-technology"
@@ -4810,7 +4790,14 @@
         "https://www.cs.cmu.edu/news/2025/arpah_wheelchair"
       ],
       "date": "2026-04-29T01:01:09.708692+00:00"
+    },
+    {
+      "title": "DRT Enzymes Enable RNA-Guided DNA Defense in Bacteria",
+      "urls": [
+        "https://www.science.org/doi/10.1126/science.aed1656"
+      ],
+      "date": "2026-04-29T01:32:12.054310+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T01:01:09.708755+00:00"
+  "lastUpdated": "2026-04-29T01:32:12.054379+00:00"
 }
