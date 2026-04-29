@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senior White House officials met with leading tech CEOs last week to discuss growing cybersecurity r",
-      "urls": [
-        "https://www.msn.com/en-us/money/other/sr-white-house-officials-met-with-top-tech-ceos-last-week-on-ai-cybersecurity-risks-according-to-sources/vi-AA20Bu4K",
-        "https://www.youtube.com/watch?v=tofBqR5N1RI"
-      ],
-      "date": "2026-04-19T11:01:03.918073+00:00"
-    },
-    {
       "title": "Ibm Unveils Analog Ai Chip Cutting Energy Use By 80 Percent",
       "urls": [
         "https://www.artificialintelligence-news.com",
@@ -4832,7 +4824,14 @@
         "https://www.olympics.com/en/olympic-games/olympic-results"
       ],
       "date": "2026-04-29T10:34:10.919004+00:00"
+    },
+    {
+      "title": "TensorFlow Updates Ecosystem with Enhanced JavaScript Support and On-Device Training",
+      "urls": [
+        "https://blog.tensorflow.org"
+      ],
+      "date": "2026-04-29T11:02:24.435417+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T10:34:10.919071+00:00"
+  "lastUpdated": "2026-04-29T11:02:24.435488+00:00"
 }
