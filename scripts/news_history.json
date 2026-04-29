@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global temperatures have risen by approximately 2 (1.",
-      "urls": [
-        "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts",
-        "https://www.ipcc.ch"
-      ],
-      "date": "2026-04-19T10:30:59.859081+00:00"
-    },
-    {
       "title": "Senior White House officials met with leading tech CEOs last week to discuss growing cybersecurity r",
       "urls": [
         "https://www.msn.com/en-us/money/other/sr-white-house-officials-met-with-top-tech-ceos-last-week-on-ai-cybersecurity-risks-according-to-sources/vi-AA20Bu4K",
@@ -4832,7 +4824,15 @@
         "https://datanorth.ai/news/mistral-3-released"
       ],
       "date": "2026-04-29T10:08:44.943051+00:00"
+    },
+    {
+      "title": "Paris 2024 Tops Medal Table With 38 Golds",
+      "urls": [
+        "https://www.olympics.com/en/olympic-games/paris-2024/medals",
+        "https://www.olympics.com/en/olympic-games/olympic-results"
+      ],
+      "date": "2026-04-29T10:34:10.919004+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T10:08:44.943115+00:00"
+  "lastUpdated": "2026-04-29T10:34:10.919071+00:00"
 }
