@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Seedance has triggered a legal and ethical backlash after Hollywood studios accused the AI video too",
-      "urls": [
-        "https://www.youtube.com/watch?v=mxENDuxq8O4",
-        "https://www.bbc.com/news/articles/ckg1dl410q9o",
-        "https://www.bbc.com/news/articles/cjd9nllng22o"
-      ],
-      "date": "2026-04-19T04:01:12.458119+00:00"
-    },
-    {
       "title": "Conner Mantz shattered the American marathon record at the Chicago Marathon, finishing fourth with a",
       "urls": [
         "https://www.nbcsports.com/olympics/news/chicago-marathon-jacob-kiplimo-conner-mantz-american-record",
@@ -4820,7 +4811,21 @@
         "https://about.fb.com/news/2025/09/accelerating-ai-adoption-across-federal-government"
       ],
       "date": "2026-04-29T03:31:02.018432+00:00"
+    },
+    {
+      "title": "Boehringer Ingelheim Launches London AI Centre To Accelerate Drug Discovery",
+      "urls": [
+        "https://www.drugs.com",
+        "https://www.drugs.com/drug_interactions.html",
+        "https://www.drugs.com/pill_identification.html",
+        "https://www.drugs.com/drug_information.html",
+        "https://www.drugs.com/amlodipine.html",
+        "https://www.cnet.com/tech/services-and-software/openai-gpt-rosalind-model-release",
+        "https://www.linkedin.com/posts/hcpnewsindia_aiinhealthcare-pharmaindustry-drugdiscovery-activity-7452336216676667393-ZNFI",
+        "https://www.prnewswire.com/news-releases/insilico-medicine-announces-global-rd-collaboration-with-lilly-302727884.html"
+      ],
+      "date": "2026-04-29T04:04:32.045670+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T03:31:02.018521+00:00"
+  "lastUpdated": "2026-04-29T04:04:32.045723+00:00"
 }
