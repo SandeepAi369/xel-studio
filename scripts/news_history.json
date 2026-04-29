@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ITIF Calls for Innovation-Driven Clean Energy Strategy to Achieve Cost Parity",
-      "urls": [
-        "https://itif.org/issues/clean-energy-innovation",
-        "https://climatechangeresources.org/learn-more/new-technologies"
-      ],
-      "date": "2026-04-19T06:33:06.362233+00:00"
-    },
-    {
       "title": "Israel and Lebanon have agreed to a 10-day ceasefire beginning at 5 p.",
       "urls": [
         "https://apnews.com/live/iran-war-israel-trump-04-16-2026",
@@ -4824,7 +4816,18 @@
         "https://climate.nasa.gov/climate_resources/25/interactive-climate-time-machine/&nbsp"
       ],
       "date": "2026-04-29T06:31:21.489831+00:00"
+    },
+    {
+      "title": "KRXI2 NBC Reno Delivers Real-Time Winter Storm Alerts",
+      "urls": [
+        "https://mynews4.com",
+        "https://www.foxnews.com/category/sports/mlb",
+        "https://x.com/ShortStopMedia/status/2049207840489837012",
+        "https://www.gamesradar.com",
+        "https://www.reuters.com"
+      ],
+      "date": "2026-04-29T07:01:29.163926+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T06:31:21.489899+00:00"
+  "lastUpdated": "2026-04-29T07:01:29.163992+00:00"
 }
