@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kroger Appoints Chief Data And Ai Officer To Scale Enterprise Artificial Intelligence Strategy",
-      "urls": [
-        "https://www.ciodive.com/topic/leadership-and-careers",
-        "https://www.wral.com/why-this-leading-ai-ceo-is-warning-the-tech-could-cause-mass-unemployment/22029077",
-        "https://www.nytimes.com/2025/08/16/business/ceos-adopt-ai.html",
-        "https://www.youtube.com/watch?v=NanosZthZU0"
-      ],
-      "date": "2026-04-19T17:01:11.350921+00:00"
-    },
-    {
       "title": "Demis Hassabis Leads Gemini Expansion Across Google Products",
       "urls": [
         "https://www.youtube.com/watch?v=uVPdYqiULTo"
@@ -4833,7 +4823,14 @@
         "https://www.nbcnews.com"
       ],
       "date": "2026-04-29T16:34:23.177185+00:00"
+    },
+    {
+      "title": "Pfizer And Roche Cut Drug Development Time By 70 Percent Using Ai",
+      "urls": [
+        "https://www.sciencenewstoday.org/the-role-of-ai-in-drug-discovery-and-development"
+      ],
+      "date": "2026-04-29T17:01:25.746322+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T16:34:23.177251+00:00"
+  "lastUpdated": "2026-04-29T17:01:25.746385+00:00"
 }
