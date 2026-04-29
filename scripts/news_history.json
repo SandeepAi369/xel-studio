@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Midwest Storm System Kills One In Wisconsin Lightning Strike",
-      "urls": [
-        "https://www.reddit.com/r/CrazyFreakingWeather/comments/1sor0ib/april_14_2026_natural_disasters_report_by_allatra",
-        "https://www.youtube.com/watch?v=ezG7oMr-114",
-        "https://www.bostonherald.com/2026/04/16/severe-weather-april-16",
-        "https://www.facebook.com/JohnsWeatherChannelJwc/posts/significant-weather-threat-mapsunday-19-april-2026/988798640497470",
-        "https://www.facebook.com/firstpostin/videos/us-hit-by-extreme-weather-chaos-tornadoes-floods-heatwave-collide-planet-pulse-n/1877939542914651",
-        "https://www.weather.gov/dvn/summary_041726",
-        "https://www.mininggazette.com/news/front-page/2026/04/nessel-avoid-post-storm-scams"
-      ],
-      "date": "2026-04-19T18:01:07.030513+00:00"
-    },
-    {
       "title": "Global Powers Race to Dominate AI and Quantum Technologies",
       "urls": [
         "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOorh7-eMlDREgByq_NYzdyaQZeP1yZ-ljl5FmRrbjLYMY2Gd0JI3"
@@ -4835,7 +4822,17 @@
         "https://www.freecodecamp.org/news/blind-developer-sighted-team"
       ],
       "date": "2026-04-29T17:31:07.656168+00:00"
+    },
+    {
+      "title": "DeepSeek Releases V4 AI Models With Open Source Access",
+      "urls": [
+        "https://open-llm-radar.com",
+        "https://aiflashreport.com/model-releases.html",
+        "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=29e007076dfb6c44379f104d6c386db6",
+        "https://siliconangle.com/2026/04/24/deepseek-open-sources-v4-large-language-model-series"
+      ],
+      "date": "2026-04-29T18:02:22.106800+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T17:31:07.656231+00:00"
+  "lastUpdated": "2026-04-29T18:02:22.106885+00:00"
 }
