@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic's Mythos AI Exploits Decades-Old FreeBSD Flaw",
-      "urls": [
-        "https://www.fastcompany.com/91509072/anthropics-forced-removal-from-the-u-s-government-is-threatening-critical-ai-nuclear-safety-research",
-        "https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos"
-      ],
-      "date": "2026-04-19T22:01:11.212549+00:00"
-    },
-    {
       "title": "Eaton Boosts Switchgear Output to Power AI Data Centers",
       "urls": [
         "https://www.renewableenergyworld.com"
@@ -4853,7 +4845,21 @@
         "https://support.google.com/maps?hl=da"
       ],
       "date": "2026-04-29T21:33:51.037054+00:00"
+    },
+    {
+      "title": "Q1 2026 venture capital investment reached $297 billion globally, marking a 150% year-over-year incr",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
+        "https://aifundingtracker.com",
+        "https://greyjournal.net/news/q1-2026-venture-capital-record-funding",
+        "https://news.crunchbase.com/venture/foundational-ai-startup-funding-doubled-openai-anthropic-xai-q1-2026",
+        "https://pricepertoken.com/news/funding",
+        "https://ai2.work/blog/latest-ai-startup-funding-news-and",
+        "https://inforcapital.com/blog/2026-04-25-the-ai-funding-supercycle-1314-deals-in-april-show-where-real-capital-is-going",
+        "https://aiflashreport.com/topics/ai-startup-news.html"
+      ],
+      "date": "2026-04-29T22:05:53.585141+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T21:33:51.037167+00:00"
+  "lastUpdated": "2026-04-29T22:05:53.585207+00:00"
 }
