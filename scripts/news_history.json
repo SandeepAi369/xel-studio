@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Adds 80 Foreign Entities To Entity List Over Security Concerns",
-      "urls": [
-        "https://www.bis.gov/news-updates"
-      ],
-      "date": "2026-04-19T16:01:11.451131+00:00"
-    },
-    {
       "title": "Sam Ruthe Runs 3:48.01 Mile To Win 2026 BU Terrier Classic",
       "urls": [
         "https://www.youtube.com/watch?v=NKfBR1CalXQ"
@@ -4827,7 +4820,15 @@
         "https://www.pharmtech.com/view/the-year-of-ai-2025-bio-pharma-upskilling-revolution"
       ],
       "date": "2026-04-29T15:32:25.421990+00:00"
+    },
+    {
+      "title": "Geopolitical Futures provides in-depth analysis of global political dynamics, focusing on how geogra",
+      "urls": [
+        "https://geopoliticalfutures.com",
+        "https://www.merriam-webster.com/dictionary/geopolitics"
+      ],
+      "date": "2026-04-29T16:06:37.804874+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T15:32:25.422047+00:00"
+  "lastUpdated": "2026-04-29T16:06:37.804955+00:00"
 }
