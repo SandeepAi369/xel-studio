@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gout Gatar Gout broke the Australian under-20 200-meter record at the Australian Athletics Champions",
-      "urls": [
-        "https://www.guinnessworldrecords.com/news/sports-and-fitness",
-        "https://www.tiktok.com/@channelnewsasia/video/7628559383860956417",
-        "https://www.reddit.com/r/trackandfield/comments/1sohdyr/noah_lyles_clocks_1991s_16w_in_his_200m_season"
-      ],
-      "date": "2026-04-19T12:30:58.204751+00:00"
-    },
-    {
       "title": "SpaceX Launches 1000th Starlink Satellite of 2026 on Falcon 9",
       "urls": [
         "https://www.youtube.com/watch?v=1gR612-6Isc",
@@ -4838,7 +4829,15 @@
         "https://www.wsj.com/tech/ai?msockid=1453616a469961dc1258762047a06027"
       ],
       "date": "2026-04-29T12:03:33.014613+00:00"
+    },
+    {
+      "title": "Google Quantum AI Solves Task 13000 Times Faster Than Supercomputers",
+      "urls": [
+        "https://www.pcworld.com/article/2952091/googles-latest-quantum-breakthrough-is-13000-faster-than-before.html",
+        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough"
+      ],
+      "date": "2026-04-29T12:32:14.083618+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T12:03:33.014675+00:00"
+  "lastUpdated": "2026-04-29T12:32:14.083683+00:00"
 }
