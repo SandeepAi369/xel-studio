@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Enterprises Deploy GenAI as Hybrid Cloud Dominates Infrastructure Choices",
-      "urls": [
-        "https://www.a10networks.com/wp-content/uploads/A10-EB-The-State-of-AI-Infrastructure-Report.pdf",
-        "https://www.youtube.com/watch?v=IMAFTM0oPXk"
-      ],
-      "date": "2026-04-19T15:30:51.892344+00:00"
-    },
-    {
       "title": "U.S. Adds 80 Foreign Entities To Entity List Over Security Concerns",
       "urls": [
         "https://www.bis.gov/news-updates"
@@ -4828,7 +4820,14 @@
         "https://www.agora-strategy.com/en/post/geopolitics-of-ai"
       ],
       "date": "2026-04-29T15:05:34.509597+00:00"
+    },
+    {
+      "title": "Generative AI has transformed drug discovery and workforce training in the biopharmaceutical sector,",
+      "urls": [
+        "https://www.pharmtech.com/view/the-year-of-ai-2025-bio-pharma-upskilling-revolution"
+      ],
+      "date": "2026-04-29T15:32:25.421990+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T15:05:34.509666+00:00"
+  "lastUpdated": "2026-04-29T15:32:25.422047+00:00"
 }
