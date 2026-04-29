@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ibm Unveils Analog Ai Chip Cutting Energy Use By 80 Percent",
-      "urls": [
-        "https://www.artificialintelligence-news.com",
-        "https://www.wsj.com/tech/ai",
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
-        "https://techcrunch.com/category/artificial-intelligence"
-      ],
-      "date": "2026-04-19T11:30:53.973069+00:00"
-    },
-    {
       "title": "Asylum Appeals Backlog Doubles To 140000 In UK",
       "urls": [
         "https://news.un.org/en/focus-topic/refugees-and-migrants",
@@ -4831,7 +4821,21 @@
         "https://blog.tensorflow.org"
       ],
       "date": "2026-04-29T11:02:24.435417+00:00"
+    },
+    {
+      "title": "Social Security Administration is centralizing medical continuing disability reviews to improve accu",
+      "urls": [
+        "https://www.ssa.gov/disability",
+        "https://www.ssa.gov/benefits/disability/qualify.html",
+        "https://www.ssa.gov/disability/determination.htm",
+        "https://www.ssa.gov/disability/step4and5.htm",
+        "https://www.ssa.gov/applyfordisability/index.htm?tl=2",
+        "https://www.ssa.gov/disability/amount",
+        "https://www.ssa.gov/disability/eligibility",
+        "https://www.ssa.gov/news/en/press/releases/2026-03-12.html"
+      ],
+      "date": "2026-04-29T11:32:18.699063+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T11:02:24.435488+00:00"
+  "lastUpdated": "2026-04-29T11:32:18.699131+00:00"
 }
