@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Twitch And YouTube Gaming Streamers Drive Game Popularity",
-      "urls": [
-        "https://www.youtube.com/watch?v=mo1J2lRw38Y",
-        "https://newzoo.com/resources/trend-reports/newzoo-global-esports-live-streaming-market-report-2022-free-version",
-        "https://www.foxnews.com/video/6387947989112",
-        "https://www.levelupgaming.io/blog/2023/05/the-impact-of-game-streaming-platforms-on-the-video-game-industry"
-      ],
-      "date": "2026-04-19T23:30:58.704449+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.3 With Enhanced Agent Capabilities",
       "urls": [
         "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model",
@@ -4863,7 +4853,15 @@
         "https://us.cnn.com"
       ],
       "date": "2026-04-29T23:01:29.356874+00:00"
+    },
+    {
+      "title": "UFC Announces Makhachev Vs Volkanovski Lightweight Title Fight At 311",
+      "urls": [
+        "https://www.ufc.com",
+        "https://www.foxsports.com.au/ufc/latest-news"
+      ],
+      "date": "2026-04-29T23:31:19.485578+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T23:01:29.356949+00:00"
+  "lastUpdated": "2026-04-29T23:31:19.485639+00:00"
 }
