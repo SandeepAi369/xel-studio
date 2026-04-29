@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Faces Scrutiny Over Leaked 120 Billion Parameter Models",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1mg1e80/any_news_about_the_open_source_models_that_openai"
-      ],
-      "date": "2026-04-19T21:30:56.831122+00:00"
-    },
-    {
       "title": "Anthropic's Mythos AI Exploits Decades-Old FreeBSD Flaw",
       "urls": [
         "https://www.fastcompany.com/91509072/anthropics-forced-removal-from-the-u-s-government-is-threatening-critical-ai-nuclear-safety-research",
@@ -4844,7 +4837,23 @@
         "https://news.google.com"
       ],
       "date": "2026-04-29T21:02:19.478095+00:00"
+    },
+    {
+      "title": "Little Caesars expands its delivery operations in Mexico City through partnerships with third-party ",
+      "urls": [
+        "https://mexico.littlecaesars.com/es-mx",
+        "https://little-caesars.sizzlingplatter.com/servicioadomicilio",
+        "https://www.ubereats.com/mx/brand-city/mexico-city-df/little-caesars",
+        "https://littlec.com.mx",
+        "https://www.rappi.com.mx/restaurantes/1930054989-little-caesars",
+        "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+        "https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform%3DAndroid",
+        "https://support.google.com/maps?hl=fr",
+        "https://support.google.com/maps?hl=en",
+        "https://support.google.com/maps?hl=da"
+      ],
+      "date": "2026-04-29T21:33:51.037054+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T21:02:19.478158+00:00"
+  "lastUpdated": "2026-04-29T21:33:51.037167+00:00"
 }
