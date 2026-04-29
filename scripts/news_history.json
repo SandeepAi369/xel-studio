@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democrats Gain Ground in House Flip Bid",
-      "urls": [
-        "https://www.politico.com"
-      ],
-      "date": "2026-04-19T15:01:04.449748+00:00"
-    },
-    {
       "title": "Enterprises Deploy GenAI as Hybrid Cloud Dominates Infrastructure Choices",
       "urls": [
         "https://www.a10networks.com/wp-content/uploads/A10-EB-The-State-of-AI-Infrastructure-Report.pdf",
@@ -4825,7 +4818,17 @@
         "https://www.ldoceonline.com/dictionary/accessible"
       ],
       "date": "2026-04-29T14:33:16.691148+00:00"
+    },
+    {
+      "title": "U.S. And China Lock In Rival AI Strategies",
+      "urls": [
+        "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
+        "https://www.worldpoliticsreview.com/technology-revolution-geopolitical-competition",
+        "https://seekingalpha.com/article/4813495-defining-rivalry-21st-century-ai-new-geopolitical-battlefield",
+        "https://www.agora-strategy.com/en/post/geopolitics-of-ai"
+      ],
+      "date": "2026-04-29T15:05:34.509597+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T14:33:16.691207+00:00"
+  "lastUpdated": "2026-04-29T15:05:34.509666+00:00"
 }
