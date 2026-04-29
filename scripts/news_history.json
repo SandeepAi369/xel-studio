@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Conner Mantz shattered the American marathon record at the Chicago Marathon, finishing fourth with a",
-      "urls": [
-        "https://www.nbcsports.com/olympics/news/chicago-marathon-jacob-kiplimo-conner-mantz-american-record",
-        "https://usatf.org/news/2024/lindwurm-leads-u-s-marathon-finishers-in-12th",
-        "https://www.youtube.com/watch?v=LOuTmW1Ml5A",
-        "https://www.youtube.com/watch?v=dVPfA5ql9_0",
-        "https://www.wcvb.com/article/baa-boston-5k-april-18-2026/71058499"
-      ],
-      "date": "2026-04-19T04:32:02.356626+00:00"
-    },
-    {
       "title": "OpenAI has launched GPT-Rosalind, a new AI model tailored for biology, drug discovery, and translati",
       "urls": [
         "https://www.fiercebiotech.com/ai-and-machine-learning"
@@ -4833,7 +4822,21 @@
         "https://twitchy.com/brettt/2026/04/01/former-city-councilman-sentenced-after-investigation-found-71-voter-names-registered-to-his-address-n2426712"
       ],
       "date": "2026-04-29T04:32:00.247235+00:00"
+    },
+    {
+      "title": "DeepSeek Releases Open-Source V4 Language Model Family",
+      "urls": [
+        "https://letsdatascience.com/news/deepseek-releases-open-source-v4-large-models-f5a3b72c",
+        "https://fazm.ai/blog/open-source-large-language-model-release-april-2026",
+        "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=0cbd6889bc4e62c634ab7fc3bda76340",
+        "https://whatllm.org/blog/new-ai-models-april-2026",
+        "https://af.net/realtime/april-2026-major-ai-model-releases-and-open-source-advancements",
+        "https://arxiv.org/html/2604.07190",
+        "https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows",
+        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html"
+      ],
+      "date": "2026-04-29T05:02:13.325857+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T04:32:00.247314+00:00"
+  "lastUpdated": "2026-04-29T05:02:13.325923+00:00"
 }
