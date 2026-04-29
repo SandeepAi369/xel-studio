@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sydney McLaughlin-Levrone Sets World Record In 400-Meter Hurdles",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_United_States_records_in_track_and_field",
-        "https://www.youtube.com/watch?v=peWQd0eGhfk"
-      ],
-      "date": "2026-04-19T08:31:05.672113+00:00"
-    },
-    {
-      "title": "The Federal Administration has issued legislative recommendations for a national AI policy, urging C",
-      "urls": [
-        "https://www.littler.com/news-analysis/asap/federal-administration-makes-legislative-recommendations-us-ai-policy-leaving"
-      ],
-      "date": "2026-04-19T09:01:11.981471+00:00"
-    },
-    {
       "title": "The Royal Society has published a report titled *Disability Technology: how data and digital assisti",
       "urls": [
         "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html"
@@ -4836,7 +4821,15 @@
         "https://www.nytimes.com/athletic/global-sports"
       ],
       "date": "2026-04-29T08:31:01.467643+00:00"
+    },
+    {
+      "title": "Open-source AI is transforming developer workflows with new tools enabling AI-native development and",
+      "urls": [
+        "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects",
+        "https://www.geeky-gadgets.com/new-open-source-ai-projects-how-collaboration-is-beating-big-tech"
+      ],
+      "date": "2026-04-29T09:08:42.810510+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T08:31:01.467718+00:00"
+  "lastUpdated": "2026-04-29T09:08:42.810577+00:00"
 }
