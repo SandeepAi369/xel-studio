@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches 1000th Starlink Satellite of 2026 on Falcon 9",
-      "urls": [
-        "https://www.youtube.com/watch?v=1gR612-6Isc",
-        "https://spaceflightnow.com",
-        "https://www.spacex.com",
-        "https://en.wikipedia.org/wiki/SpaceX",
-        "https://x.com/SpaceX",
-        "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch",
-        "https://www.nasa.gov/events"
-      ],
-      "date": "2026-04-19T13:01:14.545314+00:00"
-    },
-    {
       "title": "Iran Closes Strait Of Hormuz Halting 17 Million Barrels Daily",
       "urls": [
         "https://www.foxnews.com",
@@ -4837,7 +4824,18 @@
         "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough"
       ],
       "date": "2026-04-29T12:32:14.083618+00:00"
+    },
+    {
+      "title": "eSafety Commissioner provides official guidance on social media age restrictions through its updated",
+      "urls": [
+        "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/faqs",
+        "https://www.nick.com",
+        "https://www.canva.com",
+        "https://chatgpt.com/auth/login",
+        "https://sproutsocial.com/insights/social-media-trends"
+      ],
+      "date": "2026-04-29T13:01:25.558585+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T12:32:14.083683+00:00"
+  "lastUpdated": "2026-04-29T13:01:25.558654+00:00"
 }
