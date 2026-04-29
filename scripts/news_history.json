@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services Tops $100 Billion Revenue in 2024",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorQYoANVB2Ol4TWSOlZrhvNmhdzP4MZCktWb0YsHsM7y774agiB"
-      ],
-      "date": "2026-04-19T03:30:59.325389+00:00"
-    },
-    {
       "title": "Seedance has triggered a legal and ethical backlash after Hollywood studios accused the AI video too",
       "urls": [
         "https://www.youtube.com/watch?v=mxENDuxq8O4",
@@ -4812,7 +4805,22 @@
         "https://www.simplilearn.com/generative-ai-news-article"
       ],
       "date": "2026-04-29T03:02:17.773771+00:00"
+    },
+    {
+      "title": "Meta has released Llama 4, a major upgrade in its open-source AI model series, featuring multimodal ",
+      "urls": [
+        "https://blog.imseankim.com/meta-ai-2025-recap-llama-3-to-4-open-source-leadership",
+        "https://www.attooli.com/news/meta-llama-4-coming-soon",
+        "https://markets.financialcontent.com/worldnow.wgem/article/marketminute-2026-4-8-meta-unleashes-llama-5-zuckerbergs-open-source-gambit-challenges-proprietary-ai-dominance",
+        "https://explore.n1n.ai/blog/meta-llama-4-scout-maverick-production-guide-2026-04-27",
+        "https://ai-coding-flow.com/blog/meta-llama-4-multimodal-open-source-2026",
+        "https://tech.yahoo.com/ai/meta-ai/articles/meta-llama-everything-know-open-171150882.html",
+        "https://techcrunch.com/2025/10/06/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model",
+        "https://www.llama.com",
+        "https://about.fb.com/news/2025/09/accelerating-ai-adoption-across-federal-government"
+      ],
+      "date": "2026-04-29T03:31:02.018432+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T03:02:17.773825+00:00"
+  "lastUpdated": "2026-04-29T03:31:02.018521+00:00"
 }
