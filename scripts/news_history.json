@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Llama 2 Powers Open Source LLM Adoption Among Developers",
-      "urls": [
-        "https://www.instaclustr.com/education/open-source-ai/top-10-open-source-llms-for-2025",
-        "https://github.com/eugeneyan/open-llms",
-        "https://pricepertoken.com/news/model-releases"
-      ],
-      "date": "2026-04-19T10:01:06.466504+00:00"
-    },
-    {
       "title": "Global temperatures have risen by approximately 2 (1.",
       "urls": [
         "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts",
@@ -4829,7 +4820,19 @@
         "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
       ],
       "date": "2026-04-29T09:38:31.272872+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mistral 3 Family With 3B To 14B Parameter Models",
+      "urls": [
+        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
+        "https://azure.microsoft.com/en-us/blog/introducing-mistral-large-3-in-microsoft-foundry-open-capable-and-ready-for-production-workloads?msockid=2150c8b2ce9c60130581dff8cf5561fa",
+        "https://the-decoder.com/paris-based-mistral-releases-large-3-a-major-new-open-source-ai-model",
+        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html?msockid=2150c8b2ce9c60130581dff8cf5561fa",
+        "https://adtools.org/buyers-guide/ai-news-mistral-3-open-source-model-release",
+        "https://datanorth.ai/news/mistral-3-released"
+      ],
+      "date": "2026-04-29T10:08:44.943051+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T09:38:31.272936+00:00"
+  "lastUpdated": "2026-04-29T10:08:44.943115+00:00"
 }
