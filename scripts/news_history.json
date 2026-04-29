@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drift Protocol Loses $280 Million in Smart Contract Exploit",
-      "urls": [
-        "https://www.binance.com/en/square/news/web3-news",
-        "https://web3newswire.com?srsltid=AfmBOopZ_aAWvSIhE1rD0PjZMy8S8_Do1tC3R1XGSHdE9_ev3f9HZP2V",
-        "https://blockchainreporter.net",
-        "https://www.ycombinator.com/companies/industry/crypto-web3"
-      ],
-      "date": "2026-04-19T20:01:06.971017+00:00"
-    },
-    {
       "title": "Amazon Web Services Tops $100 Billion Revenue in 2024",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoqpBFxqzxOsUjPprJUizNRJXSWPbs0IKWUMBYYZOIBYN1vHLQBF"
@@ -4840,7 +4830,14 @@
         "https://www.untourism.int/sustainable-development/climate-action"
       ],
       "date": "2026-04-29T19:31:23.552590+00:00"
+    },
+    {
+      "title": "Hugging Face Stores Models in Default Cache Directory",
+      "urls": [
+        "https://www.zhihu.com/question/482692136/answers/updated"
+      ],
+      "date": "2026-04-29T20:04:25.557979+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T19:31:23.552659+00:00"
+  "lastUpdated": "2026-04-29T20:04:25.558076+00:00"
 }
