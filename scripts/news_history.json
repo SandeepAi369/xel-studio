@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Royal Society has published a report titled *Disability Technology: how data and digital assisti",
-      "urls": [
-        "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html"
-      ],
-      "date": "2026-04-19T09:30:55.591152+00:00"
-    },
-    {
       "title": "Llama 2 Powers Open Source LLM Adoption Among Developers",
       "urls": [
         "https://www.instaclustr.com/education/open-source-ai/top-10-open-source-llms-for-2025",
@@ -4829,7 +4822,14 @@
         "https://www.geeky-gadgets.com/new-open-source-ai-projects-how-collaboration-is-beating-big-tech"
       ],
       "date": "2026-04-29T09:08:42.810510+00:00"
+    },
+    {
+      "title": "IBM And NASA Launch Surya AI To Predict Solar Weather With 92 Percent Accuracy",
+      "urls": [
+        "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
+      ],
+      "date": "2026-04-29T09:38:31.272872+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T09:08:42.810577+00:00"
+  "lastUpdated": "2026-04-29T09:38:31.272936+00:00"
 }
