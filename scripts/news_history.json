@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Asylum Appeals Backlog Doubles To 140000 In UK",
-      "urls": [
-        "https://news.un.org/en/focus-topic/refugees-and-migrants",
-        "https://www.theguardian.com/world/refugees",
-        "https://www.unhcr.org/global-trends"
-      ],
-      "date": "2026-04-19T12:01:08.551588+00:00"
-    },
-    {
       "title": "Gout Gatar Gout broke the Australian under-20 200-meter record at the Australian Athletics Champions",
       "urls": [
         "https://www.guinnessworldrecords.com/news/sports-and-fitness",
@@ -4835,7 +4826,19 @@
         "https://www.ssa.gov/news/en/press/releases/2026-03-12.html"
       ],
       "date": "2026-04-29T11:32:18.699063+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils AlphaFold 3 With 50 Percent Accuracy Boost",
+      "urls": [
+        "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ",
+        "https://techcrunch.com/category/artificial-intelligence",
+        "https://recentai.news",
+        "https://ainews.ai",
+        "https://www.bloomberg.com/latest/the-ai-race",
+        "https://www.wsj.com/tech/ai?msockid=1453616a469961dc1258762047a06027"
+      ],
+      "date": "2026-04-29T12:03:33.014613+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T11:32:18.699131+00:00"
+  "lastUpdated": "2026-04-29T12:03:33.014675+00:00"
 }
