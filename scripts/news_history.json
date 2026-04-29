@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eaton Boosts Switchgear Output to Power AI Data Centers",
-      "urls": [
-        "https://www.renewableenergyworld.com"
-      ],
-      "date": "2026-04-19T22:31:52.397056+00:00"
-    },
-    {
       "title": "Whill Unveils Smart Wheelchair With AI Navigation And Voice Control",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoqbJ_y0Joc4cL-oAoVxOchsC8AsJ7uyOyYJaS_EEdS6pDx0bK36",
@@ -4859,7 +4852,16 @@
         "https://aiflashreport.com/topics/ai-startup-news.html"
       ],
       "date": "2026-04-29T22:05:53.585141+00:00"
+    },
+    {
+      "title": "Yahoo News launched a redesigned platform integrating real-time video updates and photo galleries ac",
+      "urls": [
+        "https://www.foxnews.com?msockid=03544b5f06e96fab1f295c15073c6e70",
+        "https://www.aol.com",
+        "https://www.yahoo.com/news"
+      ],
+      "date": "2026-04-29T22:32:25.426089+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T22:05:53.585207+00:00"
+  "lastUpdated": "2026-04-29T22:32:25.426148+00:00"
 }
