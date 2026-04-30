@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Jobless Claims Drop To 211000 Amid Labor Market Resilience",
-      "urls": [
-        "https://www.bloomberg.com/economics-v2",
-        "https://www.ft.com/global-economy",
-        "https://apnews.com/hub/economy"
-      ],
-      "date": "2026-04-20T23:30:57.994264+00:00"
-    },
-    {
       "title": "Esg Ai Partners With Rho To Advance Climate Governance Tools",
       "urls": [
         "https://esgnews.com"
@@ -4911,7 +4902,14 @@
         "https://www.foxnews.com?msockid=2d80c2dca289680f125dd597a31b69f0"
       ],
       "date": "2026-04-30T23:04:34.824807+00:00"
+    },
+    {
+      "title": "Linux Org Fixes Pop Os Taskbar Icon Bug",
+      "urls": [
+        "https://www.linux.org/threads/showing-applications-on-taskbar.49899"
+      ],
+      "date": "2026-04-30T23:38:52.717690+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T23:04:34.824859+00:00"
+  "lastUpdated": "2026-04-30T23:38:52.717773+00:00"
 }
