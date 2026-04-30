@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kyle gathering 706 people with the first name Kyle assembled in Llano, Texas, to set a new Guinness ",
-      "urls": [
-        "https://www.cbsnews.com/tag/guinness-world-records",
-        "https://www.youtube.com/watch?v=YUuXZwPfchw",
-        "https://www.reddit.com/r/robotics/comments/1sphe3h/honors_humanoid_fully_autonomous_robot_lightning"
-      ],
-      "date": "2026-04-20T07:31:04.028459+00:00"
-    },
-    {
       "title": "Wall Street Awaits Apple Microsoft And Meta Earnings Amid Economic Uncertainty",
       "urls": [
         "https://www.heygotrade.com/en/news/us-stocks-this-week-big-tech-earnings-the-fed-decision",
@@ -4873,7 +4864,20 @@
         "https://d3.harvard.edu/platform-digit/submission/whill-revolutionizing-personal-mobility-with-autonomous-driving-wheelchairs"
       ],
       "date": "2026-04-30T07:07:54.560539+00:00"
+    },
+    {
+      "title": "Amd Secures 60 Billion Deal To Supply Meta With 6 Gigawatts Of Mi450 Gpus",
+      "urls": [
+        "https://economictimes.indiatimes.com/news/international/us/why-nvidia-amd-intel-stocks-crash-today-magnificent-seven-fall-broadly-as-all-open-lower-except-apple-amid-ai-concerns-and-earnings-pressure/articleshow/130583922.cms",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/amd-s-next-generation-ai-chips-set-to-power-2026-data-center-growth",
+        "https://computing.net/news/stocks/nvidia-and-amd-ai-chip-battle-a-deep-dive-into-2025-revenue-and-data-center-performance",
+        "https://www.techi.com/amd-meta-60b-deal-nvidia-ai-monopoly",
+        "https://www.allaboutcircuits.com/news/ai-chip-race-heats-up-with-intel-nvidia-amds-ces-debuts",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+        "https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html"
+      ],
+      "date": "2026-04-30T07:34:24.965885+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T07:07:54.560604+00:00"
+  "lastUpdated": "2026-04-30T07:34:24.965949+00:00"
 }
