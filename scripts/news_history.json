@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nucleotide Esports Reaches PMNC North Americas WC Finals",
-      "urls": [
-        "https://esports.gg",
-        "https://www.youtube.com/watch?v=tQZJR92iEtY"
-      ],
-      "date": "2026-04-20T00:30:58.040838+00:00"
-    },
-    {
       "title": "Apple Prepares To Launch First Foldable Smartphone",
       "urls": [
         "https://www.9news.com.au/technology/trevor-long-first-apple-folding-smartphone-launches-this-year/691a71ff-74f0-4304-9eed-05ee55ee221c"
@@ -4864,7 +4856,15 @@
         "https://www.fifa.com/en/news/articles/halftime-show-confirmed"
       ],
       "date": "2026-04-30T00:02:24.953830+00:00"
+    },
+    {
+      "title": "Who World Health Organization And Unicef Warn Over 2.5 Billion Need Assistive Products",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://news.un.org/en/story/2025/10/1166082"
+      ],
+      "date": "2026-04-30T00:34:11.043514+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T00:02:24.953910+00:00"
+  "lastUpdated": "2026-04-30T00:34:11.043568+00:00"
 }
