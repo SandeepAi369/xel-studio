@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI developers often lack formal training in disability, accessibility, or inclusive design, limiting",
-      "urls": [
-        "https://specialneedsanswers.com/how-ai-is-supporting-assistive-technology-20454",
-        "https://www.science.org/doi/10.1126/science.aea4918"
-      ],
-      "date": "2026-04-20T17:01:13.400884+00:00"
-    },
-    {
       "title": "Whill Unveils AI-Powered Wheelchair With Real-Time Urban Navigation",
       "urls": [
         "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOor64AVfJVJXlkDF0dvBB3GuUIWJj8O0WQI1MHejnT6BKGQX3koI",
@@ -4912,7 +4904,17 @@
         "https://boardgamegeek.com?lang=eng"
       ],
       "date": "2026-04-30T16:38:34.127417+00:00"
+    },
+    {
+      "title": "The War Department launched GenAI.",
+      "urls": [
+        "https://opentools.ai/news",
+        "https://blog.google/innovation-and-ai/products/google-ai-updates-august-2025",
+        "https://www.war.gov/News/Releases/Release/Article/4354916/the-war-department-unleashes-ai-on-new-genaimil-platform",
+        "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more"
+      ],
+      "date": "2026-04-30T17:05:52.626944+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T16:38:34.127480+00:00"
+  "lastUpdated": "2026-04-30T17:05:52.627009+00:00"
 }
