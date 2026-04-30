@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow and PyTorch Dominate Deep Learning Framework Market",
-      "urls": [
-        "https://fritz.ai/best-deep-learning-frameworks"
-      ],
-      "date": "2026-04-20T23:01:08.797312+00:00"
-    },
-    {
       "title": "U.S. Jobless Claims Drop To 211000 Amid Labor Market Resilience",
       "urls": [
         "https://www.bloomberg.com/economics-v2",
@@ -4911,7 +4904,14 @@
         "https://fortnitetracker.com/events"
       ],
       "date": "2026-04-30T22:31:10.551353+00:00"
+    },
+    {
+      "title": "Fox News Delivers Conservative Coverage To Millions Through Hit Shows",
+      "urls": [
+        "https://www.foxnews.com?msockid=2d80c2dca289680f125dd597a31b69f0"
+      ],
+      "date": "2026-04-30T23:04:34.824807+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T22:31:10.551422+00:00"
+  "lastUpdated": "2026-04-30T23:04:34.824859+00:00"
 }
