@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Subrata Bose Highlights AI Revolution in Drug Discovery at London Summit",
-      "urls": [
-        "https://newyork.theaisummit.com/latest-news/ai-in-drug-discovery-and-development-accelerating-pharmaceutical-innovation"
-      ],
-      "date": "2026-04-20T15:03:28.392567+00:00"
-    },
-    {
       "title": "AMD is advancing its AI hardware competitiveness against Nvidia, leveraging cost efficiency and impr",
       "urls": [
         "https://www.reddit.com/r/AMD_Stock/comments/1lghvnk/realistically_how_close_is_amd_to_nvidia_in_ai",
@@ -4904,7 +4897,16 @@
         "https://dataconomy.com/2026/04/23/openais-gpt-5-5-is-now-live"
       ],
       "date": "2026-04-30T14:32:26.897219+00:00"
+    },
+    {
+      "title": "Fda Clears 295 Ai Medical Devices In One Year",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/ai-and-imaging-breakthroughs-reshape-diagnostics-and-treatment/gm-GMBB7EEDDC",
+        "https://medicalxpress.com/news/2026-04-play-ai-cancer.html",
+        "https://intuitionlabs.ai/articles/fda-ai-medical-device-tracker"
+      ],
+      "date": "2026-04-30T15:09:54.094190+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T14:32:26.897287+00:00"
+  "lastUpdated": "2026-04-30T15:09:54.094259+00:00"
 }
