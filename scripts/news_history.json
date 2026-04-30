@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sam Altman says the world has not yet reached its 'humanoid robot moment,' but believes it is immine",
-      "urls": [
-        "https://www.automate.org/industry-insights/sam-altman-humanoid-robots",
-        "https://www.euronews.com/next/2026/04/05/humanoid-robots-inspire-a-new-generation-to-build-machines"
-      ],
-      "date": "2026-04-20T09:02:11.863103+00:00"
-    },
-    {
       "title": "Whill Deploys AI-Powered Smart Wheelchairs in Urban Areas",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopOUGS1FCeSoi1WvoVl4qAOYLOwmsDC3E3Sxcf-Z8e-R-zJRSXz"
@@ -4879,7 +4871,16 @@
         "https://www.target.com/c/mobility-home-health-care/wheelchair/-/N-4yinmZal25lf9fc45"
       ],
       "date": "2026-04-30T08:33:07.717125+00:00"
+    },
+    {
+      "title": "Monarch Quantum Unveils Compact Light Engine for Scalable Quantum Computing",
+      "urls": [
+        "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/pages/video-lectures/part-1",
+        "https://www.merriam-webster.com/dictionary/quantum",
+        "https://monarchquantum.com"
+      ],
+      "date": "2026-04-30T09:06:48.304707+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T08:33:07.717192+00:00"
+  "lastUpdated": "2026-04-30T09:06:48.304771+00:00"
 }
