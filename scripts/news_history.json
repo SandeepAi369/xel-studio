@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wall Street Awaits Apple Microsoft And Meta Earnings Amid Economic Uncertainty",
-      "urls": [
-        "https://www.heygotrade.com/en/news/us-stocks-this-week-big-tech-earnings-the-fed-decision",
-        "https://www.investopedia.com/tech-stocks-are-surging-the-nasdaq-is-at-highs-can-the-ai-trade-keep-rolling-11951633"
-      ],
-      "date": "2026-04-20T08:02:13.433810+00:00"
-    },
-    {
       "title": "Cigi Reports Over 150 Countries Enact Data Control Measures",
       "urls": [
         "https://www.itic.org/news-events/news-releases?policy=trade-investment",
@@ -4877,7 +4869,16 @@
         "https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html"
       ],
       "date": "2026-04-30T07:34:24.965885+00:00"
+    },
+    {
+      "title": "Greenland and West Antarctic ice sheets may have already passed critical tipping points due to curre",
+      "urls": [
+        "https://ysph.yale.edu/yale-center-on-climate-change-and-health/news-and-media",
+        "https://www.npr.org/sections/climate",
+        "https://academic.oup.com/bioscience/article/75/12/1016/8303627"
+      ],
+      "date": "2026-04-30T08:09:04.274249+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T07:34:24.965949+00:00"
+  "lastUpdated": "2026-04-30T08:09:04.274306+00:00"
 }
