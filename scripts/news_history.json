@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Administration Suspends Five East Coast Offshore Wind Projects",
-      "urls": [
-        "https://www.renewableenergyworld.com/wind-power"
-      ],
-      "date": "2026-04-20T06:31:02.216419+00:00"
-    },
-    {
       "title": "Disney Faces Regulatory Action Over Improper YouTube Kids Content Labeling",
       "urls": [
         "https://www.bbc.com/news/topics/cewvn6l5dl6t"
@@ -4866,7 +4859,17 @@
         "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard"
       ],
       "date": "2026-04-30T06:04:46.529720+00:00"
+    },
+    {
+      "title": "Harvard Medical School Researchers Develop AI To Improve Diagnostic Accuracy",
+      "urls": [
+        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
+        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
+        "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
+        "https://www.healthcareitnews.com/topics/artificial-intelligence"
+      ],
+      "date": "2026-04-30T06:31:07.023208+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T06:04:46.529779+00:00"
+  "lastUpdated": "2026-04-30T06:31:07.023278+00:00"
 }
