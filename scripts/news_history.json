@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Confirms No Claude AI Source Code Leak",
-      "urls": [
-        "https://www.runpod.io/blog/open-source-ai-renaissance",
-        "https://www.youtube.com/watch?v=Xn-gtHDsaPY"
-      ],
-      "date": "2026-04-20T11:31:02.293142+00:00"
-    },
-    {
       "title": "Congress faces sharp division over the reauthorization of FISA Section 702, which permits warrantles",
       "urls": [
         "https://www.theguardian.com/world/surveillance"
@@ -4884,7 +4876,23 @@
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=27815a62db6b6b8511134d29da7f6a5f"
       ],
       "date": "2026-04-30T11:03:35.981613+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://planet.news/article/digital-privacy-social-media-regulations-global-wave",
+        "https://www.ohchr.org/en/press-releases/2026/04/un-experts-safeguard-human-freedoms-systematic-digital-interference",
+        "https://privacyperfect.com/global-trends-in-privacy-security-and-ai-regulations-in-2025",
+        "https://ec.europa.eu/commission/presscorner/home/en",
+        "https://www.amnesty.org/en/latest/campaigns/2026/04/eu-simplification-laws",
+        "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal",
+        "https://www.facebook.com/reel/1299584558762799",
+        "https://undercodenews.com/house-approves-3-year-renewal-of-section-702-surveillance-amid-digital-currency-oversight-debate",
+        "https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report",
+        "https://www.infosecurity-magazine.com/news"
+      ],
+      "date": "2026-04-30T11:32:12.699683+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T11:03:35.981682+00:00"
+  "lastUpdated": "2026-04-30T11:32:12.699750+00:00"
 }
