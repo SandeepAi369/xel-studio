@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kilauea Volcano Rattles With 120 Earthquakes In One Week",
-      "urls": [
-        "https://www.youtube.com/watch?v=1unF8MNov1s"
-      ],
-      "date": "2026-04-20T11:01:14.303258+00:00"
-    },
-    {
       "title": "Anthropic Confirms No Claude AI Source Code Leak",
       "urls": [
         "https://www.runpod.io/blog/open-source-ai-renaissance",
@@ -4882,7 +4875,16 @@
         "https://sports.yahoo.com/articles/sabastian-sawe-super-shoe-97-123258217.html"
       ],
       "date": "2026-04-30T10:38:38.878637+00:00"
+    },
+    {
+      "title": "Not A Wheelchair Launches Custom Mobility Devices With Rapid Factory Direct Production",
+      "urls": [
+        "https://notawheelchair.com",
+        "https://www.pridemobility.com/jazzy-power-chairs/models.asp",
+        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=27815a62db6b6b8511134d29da7f6a5f"
+      ],
+      "date": "2026-04-30T11:03:35.981613+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T10:38:38.878700+00:00"
+  "lastUpdated": "2026-04-30T11:03:35.981682+00:00"
 }
