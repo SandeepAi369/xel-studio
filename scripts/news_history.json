@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coca-Cola CEO James Quincey stepped down after citing artificial intelligence as a key factor in lea",
-      "urls": [
-        "https://letsdatascience.com/news/ceos-cite-ai-driving-leadership-transitions-dff9525e",
-        "https://www.investing.com/news/stock-market-news/trump-to-name-zuckerberg-ellison-huang-to-tech-panel-wsj-reports-4580051",
-        "https://www.youtube.com/watch?v=_cyM4FQDc8Y"
-      ],
-      "date": "2026-04-20T13:01:14.026568+00:00"
-    },
-    {
       "title": "Swift Audiology Launches Bluetooth Hearing Aid Software For Clearer Audio Streaming",
       "urls": [
         "https://swiftaudiology.com/blog/a-new-focus-on-accessibility-brings-hope-to-the-hearing-impaired",
@@ -4903,7 +4894,14 @@
         "https://news.bet365.com/en-gb/sitemap"
       ],
       "date": "2026-04-30T12:36:23.966507+00:00"
+    },
+    {
+      "title": "World Health Organization projects that nearly 2.",
+      "urls": [
+        "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
+      ],
+      "date": "2026-04-30T13:10:46.779376+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T12:36:23.966577+00:00"
+  "lastUpdated": "2026-04-30T13:10:46.779450+00:00"
 }
