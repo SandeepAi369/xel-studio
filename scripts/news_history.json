@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT-Rosalind To Accelerate Drug Discovery",
-      "urls": [
-        "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine",
-        "https://www.pymnts.com/artificial-intelligence-2/2026/openai-targets-pharma-giants-with-purpose-built-ai-model",
-        "https://www.sciencedirect.com/science/article/pii/S266731852500025X",
-        "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
-        "https://www.reuters.com/business/healthcare-pharmaceuticals/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-2026-04-14",
-        "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
-        "https://www.nature.com/articles/s44276-026-00221-1",
-        "https://openai.com/index/introducing-gpt-rosalind"
-      ],
-      "date": "2026-04-20T02:30:58.400490+00:00"
-    },
-    {
       "title": "U.S. Economy Grows 0.7 Percent In Fourth Quarter 2025",
       "urls": [
         "https://www.nytimes.com/topic/subject/recession",
@@ -4870,7 +4856,19 @@
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3"
       ],
       "date": "2026-04-30T02:09:48.429273+00:00"
+    },
+    {
+      "title": "Bangladesh reports over 12,000 new dengue cases in a single week, marking the highest weekly surge t",
+      "urls": [
+        "https://7news.com.au/news/world",
+        "https://7news.com.au/entertainment/royal-family",
+        "https://www.hindustantimes.com/latest-news",
+        "https://news24online.com/india/live-updates-breaking-news-today-april-27-modi-india-assembly-elections-2026-west-bengal-tamil-nadu-trump-us-iran-war-delhi-ncr-heatwave-raghav-chadha-bjp-aap-kejriwal-latest-news/818252",
+        "https://news24online.com/india/live-updates-breaking-news-today-april-28-modi-india-assembly-elections-2026-west-bengal-tamil-nadu-trump-us-iran-war-delhi-ncr-heatwave-raghav-chadha-bjp-aap-kejriwal-latest-news/819482",
+        "https://www.cbsnews.com/pittsburgh/local-news"
+      ],
+      "date": "2026-04-30T02:32:08.740446+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T02:09:48.429341+00:00"
+  "lastUpdated": "2026-04-30T02:32:08.740519+00:00"
 }
