@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "AMD is advancing its AI hardware competitiveness against Nvidia, leveraging cost efficiency and impr",
-      "urls": [
-        "https://www.reddit.com/r/AMD_Stock/comments/1lghvnk/realistically_how_close_is_amd_to_nvidia_in_ai",
-        "https://www.tomshardware.com/tech-industry/us-export-control-agency-has-lost-nearly-a-fifth-of-its-licensing-staff",
-        "https://finance.yahoo.com/news/meta-announces-4-new-ai-chips-raising-competitive-stakes-with-nvidia-amd-140011384.html"
-      ],
-      "date": "2026-04-20T15:34:15.776324+00:00"
-    },
-    {
-      "title": "IMF Warns Of Global Recession Amid Weaker Growth Forecasts",
-      "urls": [
-        "https://www.youtube.com/watch?v=LzrvAy9Riug"
-      ],
-      "date": "2026-04-20T16:01:20.917746+00:00"
-    },
-    {
       "title": "UFC Championships have occasionally been awarded under controversial circumstances, often due to une",
       "urls": [
         "https://www.youtube.com/watch?v=9ZrhNVEIoAs"
@@ -4918,7 +4902,17 @@
         "https://www.aviationbusinessme.com/news/japan-airports-test-humanoid-robots-for-labour-gaps"
       ],
       "date": "2026-04-30T15:32:39.268866+00:00"
+    },
+    {
+      "title": "UNHCR Reports 1.6 Million Refugees Returned Home Last Year",
+      "urls": [
+        "https://news.un.org/en/focus-topic/refugees-and-migrants",
+        "https://www.unhcr.org/global-trends",
+        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
+        "https://www.unhcr.org/what-we-do/build-better-futures/climate-change-and-displacement"
+      ],
+      "date": "2026-04-30T16:04:01.089884+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T15:32:39.268915+00:00"
+  "lastUpdated": "2026-04-30T16:04:01.089956+00:00"
 }
