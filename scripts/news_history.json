@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Powers 63% of AI Models in 2026",
-      "urls": [
-        "https://medium.com/android-alchemy/deep-learning-frameworks-pytorch-vs-tensorflow-in-2025-4dd0f617209d",
-        "https://www.cmarix.com/blog/pytorch-vs-tensorflow",
-        "https://www.nvidia.com/en-us/glossary/pytorch",
-        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
-      ],
-      "date": "2026-04-20T02:01:13.016494+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-Rosalind To Accelerate Drug Discovery",
       "urls": [
         "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine",
@@ -4873,7 +4863,14 @@
         "https://www.instagram.com/youtube"
       ],
       "date": "2026-04-30T01:31:02.031354+00:00"
+    },
+    {
+      "title": "Walgreens provides wheelchairs and mobility aids through its medical equipment division, requiring a",
+      "urls": [
+        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3"
+      ],
+      "date": "2026-04-30T02:09:48.429273+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T01:31:02.031412+00:00"
+  "lastUpdated": "2026-04-30T02:09:48.429341+00:00"
 }
