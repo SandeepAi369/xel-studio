@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kimi AI Launches K2.5 Open Source Model Topping LMSYS Arena With 1264 Score",
-      "urls": [
-        "https://www.youtube.com/watch?v=F-ANHe_hr9w"
-      ],
-      "date": "2026-04-20T22:31:00.672046+00:00"
-    },
-    {
       "title": "TensorFlow and PyTorch Dominate Deep Learning Framework Market",
       "urls": [
         "https://fritz.ai/best-deep-learning-frameworks"
@@ -4906,7 +4899,19 @@
         "https://apnews.com/article/spacex-nasa-astronauts-d90068c27fff2ed2438d1776e0632443"
       ],
       "date": "2026-04-30T22:04:36.372605+00:00"
+    },
+    {
+      "title": "Epic Games Launches $15 Million Fortnite Champion Series Globally",
+      "urls": [
+        "https://escharts.com/news/category/tournaments",
+        "https://blast.tv",
+        "https://esportsinsider.com",
+        "https://www.leagueoflegends.com/en-us/news/esports",
+        "https://dotesports.com/counter-strike",
+        "https://fortnitetracker.com/events"
+      ],
+      "date": "2026-04-30T22:31:10.551353+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T22:04:36.372668+00:00"
+  "lastUpdated": "2026-04-30T22:31:10.551422+00:00"
 }
