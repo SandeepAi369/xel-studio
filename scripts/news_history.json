@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Advancing American AI Act Requires Federal Agencies To Disclose All AI Use Cases",
-      "urls": [
-        "https://www.nytimes.com/2026/03/20/us/politics/white-house-unveils-ai-policy-aimed-at-blocking-state-laws.html",
-        "https://www.congress.gov/crs-product/R48555"
-      ],
-      "date": "2026-04-20T04:01:16.311772+00:00"
-    },
-    {
       "title": "Google Lyra Delivers Real-Time Captioning In 30 Languages For Classrooms",
       "urls": [
         "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
@@ -4865,7 +4857,14 @@
         "https://www.ssa.gov/agency/contact/phone.html"
       ],
       "date": "2026-04-30T03:32:22.625000+00:00"
+    },
+    {
+      "title": "World Health Organization has released updated guidelines for the treatment of opioid dependence, em",
+      "urls": [
+        "https://www.who.int/news/item/09-02-2025-who-updates-guidelines-on-opioid-dependence-treatment-and-overdose-prevention"
+      ],
+      "date": "2026-04-30T04:04:19.857868+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T03:32:22.625060+00:00"
+  "lastUpdated": "2026-04-30T04:04:19.857923+00:00"
 }
