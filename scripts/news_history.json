@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Deploys AI-Powered Smart Wheelchairs in Urban Areas",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopOUGS1FCeSoi1WvoVl4qAOYLOwmsDC3E3Sxcf-Z8e-R-zJRSXz"
-      ],
-      "date": "2026-04-20T09:32:01.540702+00:00"
-    },
-    {
-      "title": "Mistral AI provides organizations with tools to build custom AI systems tailored to specific operati",
-      "urls": [
-        "https://mistral.ai"
-      ],
-      "date": "2026-04-20T10:01:13.502790+00:00"
-    },
-    {
       "title": "Wellington And Wairarapa Flooded After 200mm Rain From Cyclone Vaianu",
       "urls": [
         "https://watchers.news/2026/04/20/state-of-emergency-red-heavy-rain-warnings-wellington-wairarapa-new-zealand-april-2026",
@@ -4888,7 +4874,14 @@
         "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
       ],
       "date": "2026-04-30T09:31:05.378434+00:00"
+    },
+    {
+      "title": "DeepSeek has released a preview of its V4 large language model, marking a significant advancement in",
+      "urls": [
+        "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=2284a40eddcd66791551b345dc9867df"
+      ],
+      "date": "2026-04-30T10:07:36.334351+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T09:31:05.378498+00:00"
+  "lastUpdated": "2026-04-30T10:07:36.334418+00:00"
 }
