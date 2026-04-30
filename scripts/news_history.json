@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Economy Grows 0.7 Percent In Fourth Quarter 2025",
-      "urls": [
-        "https://www.nytimes.com/topic/subject/recession",
-        "https://www.worldbank.org/en/publication/global-economic-prospects",
-        "https://www.bea.gov",
-        "https://www.imf.org/en/publications/weo"
-      ],
-      "date": "2026-04-20T03:01:17.885545+00:00"
-    },
-    {
       "title": "Amazon Web Services Generates Over $100 Billion In 2024 Revenue",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoo_Nog0pDWine-otIcwhUR-hAv4VfE5ncGgEnP9GMyfDN8s6ndP"
@@ -4868,7 +4858,14 @@
         "https://www.cbsnews.com/pittsburgh/local-news"
       ],
       "date": "2026-04-30T02:32:08.740446+00:00"
+    },
+    {
+      "title": "Excel Esports Hosts All-Star Battle Featuring Five Major Titles",
+      "urls": [
+        "https://www.espn.com/watch/player/_/id/0192f75d-4cfc-4427-a5c6-c693ce88d9db"
+      ],
+      "date": "2026-04-30T03:02:18.884942+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T02:32:08.740519+00:00"
+  "lastUpdated": "2026-04-30T03:02:18.885015+00:00"
 }
