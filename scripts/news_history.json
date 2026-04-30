@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewables Reach 49% Of Global Power Capacity In 2025",
-      "urls": [
-        "https://earth.org/renewables-hit-nearly-half-of-global-power-capacity-in-2025",
-        "https://www.climatecouncil.org.au/11-countries-leading-the-charge-on-renewable-energy",
-        "https://www.rechargenews.com",
-        "https://www.eia.gov/todayinenergy/detail.php?id=67367"
-      ],
-      "date": "2026-04-20T14:01:12.589222+00:00"
-    },
-    {
-      "title": "NuCaption has launched a new wearable device in partnership with Sunu Band, specifically designed fo",
-      "urls": [
-        "https://nelowvision.com/leveraging-technology-for-deaf-blind-independence?srsltid=AfmBOopDyPYtEbrfOkW9_SrmIFLYUHC3aMEnA-atP8BqbiO7Uwq-xfHy"
-      ],
-      "date": "2026-04-20T14:32:04.494047+00:00"
-    },
-    {
       "title": "Subrata Bose Highlights AI Revolution in Drug Discovery at London Summit",
       "urls": [
         "https://newyork.theaisummit.com/latest-news/ai-in-drug-discovery-and-development-accelerating-pharmaceutical-innovation"
@@ -4905,7 +4888,23 @@
         "https://www.sedco.co/en/news/morocco-hosts-first-gitex-future-health-africa-2026"
       ],
       "date": "2026-04-30T13:33:17.146441+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT 5.5 With Advanced Agentic Capabilities",
+      "urls": [
+        "https://openai.com/research/index/release",
+        "https://www.roborhythms.com/openai-gpt-5-5-launch-april-2026",
+        "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
+        "https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval",
+        "https://www.knightli.com/en/2026/04/24/openai-gpt-5-5-release",
+        "https://releasebot.io/updates/openai/chatgpt",
+        "https://pasqualepillitteri.it/en/news/621/gpt-5-5-spud-openai-next-model",
+        "https://www.nytimes.com/2026/04/23/technology/openai-new-model.html",
+        "https://aitoolly.com/ai-news/article/2026-04-24-openai-launches-gpt-55-a-new-class-of-intelligence-designed-for-agentic-coding-and-complex-task-exec",
+        "https://dataconomy.com/2026/04/23/openais-gpt-5-5-is-now-live"
+      ],
+      "date": "2026-04-30T14:32:26.897219+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T13:33:17.146509+00:00"
+  "lastUpdated": "2026-04-30T14:32:26.897287+00:00"
 }
