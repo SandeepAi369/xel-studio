@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services Generates Over $100 Billion In 2024 Revenue",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoo_Nog0pDWine-otIcwhUR-hAv4VfE5ncGgEnP9GMyfDN8s6ndP"
-      ],
-      "date": "2026-04-20T03:30:55.772130+00:00"
-    },
-    {
       "title": "The Advancing American AI Act Requires Federal Agencies To Disclose All AI Use Cases",
       "urls": [
         "https://www.nytimes.com/2026/03/20/us/politics/white-house-unveils-ai-policy-aimed-at-blocking-state-laws.html",
@@ -4865,7 +4858,14 @@
         "https://www.espn.com/watch/player/_/id/0192f75d-4cfc-4427-a5c6-c693ce88d9db"
       ],
       "date": "2026-04-30T03:02:18.884942+00:00"
+    },
+    {
+      "title": "Social Security Administration Resolves Millions Of Calls Annually",
+      "urls": [
+        "https://www.ssa.gov/agency/contact/phone.html"
+      ],
+      "date": "2026-04-30T03:32:22.625000+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T03:02:18.885015+00:00"
+  "lastUpdated": "2026-04-30T03:32:22.625060+00:00"
 }
