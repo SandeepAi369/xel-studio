@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Lyra Delivers Real-Time Captioning In 30 Languages For Classrooms",
-      "urls": [
-        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
-        "https://accessibility.sdsu.edu/news/how-ai-is-transforming-accessibility"
-      ],
-      "date": "2026-04-20T04:32:03.275989+00:00"
-    },
-    {
-      "title": "Stephen Curry Sets NBA Finals Record With Nine Three-Pointers",
-      "urls": [
-        "https://www.usatoday.com/story/sports/2020/06/03/greatest-near-misses-sports-kevin-dyson-harvey-haddix/3125363001",
-        "https://www.youtube.com/watch?v=o7W7OvETO40"
-      ],
-      "date": "2026-04-20T05:01:13.904932+00:00"
-    },
-    {
       "title": "Whill Unveils AI-Powered Smart Wheelchair With Real-Time Urban Navigation",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoqEzF9IMYS9e_GIpXhigWB8xTodAwFCs50qJEZuri1BMfQciOWF"
@@ -4872,7 +4856,14 @@
         "https://www.foxnews.com?msockid=2a6c9f03f79b6b5230e18848f6ae6a95"
       ],
       "date": "2026-04-30T04:31:36.037249+00:00"
+    },
+    {
+      "title": "Fox News Delivers Conservative Coverage To Millions Through Flagship Programs",
+      "urls": [
+        "https://www.foxnews.com?msockid=25a120116d386ada193f375a6c676ba7"
+      ],
+      "date": "2026-04-30T05:03:21.458881+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T04:31:36.037320+00:00"
+  "lastUpdated": "2026-04-30T05:03:21.458934+00:00"
 }
