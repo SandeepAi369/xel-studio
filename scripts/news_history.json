@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Championships have occasionally been awarded under controversial circumstances, often due to une",
-      "urls": [
-        "https://www.youtube.com/watch?v=9ZrhNVEIoAs"
-      ],
-      "date": "2026-04-20T16:30:59.300672+00:00"
-    },
-    {
       "title": "AI developers often lack formal training in disability, accessibility, or inclusive design, limiting",
       "urls": [
         "https://specialneedsanswers.com/how-ai-is-supporting-assistive-technology-20454",
@@ -4912,7 +4905,14 @@
         "https://www.unhcr.org/what-we-do/build-better-futures/climate-change-and-displacement"
       ],
       "date": "2026-04-30T16:04:01.089884+00:00"
+    },
+    {
+      "title": "BoardGameGeek Launches New Tools For Indie Game Developers",
+      "urls": [
+        "https://boardgamegeek.com?lang=eng"
+      ],
+      "date": "2026-04-30T16:38:34.127417+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T16:04:01.089956+00:00"
+  "lastUpdated": "2026-04-30T16:38:34.127480+00:00"
 }
