@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Biodiversity conservation faces a critical lack of scientific evidence to support many current inter",
-      "urls": [
-        "https://www.ncelenviro.org/issue/biodiversity",
-        "https://www.biologicaldiversity.org",
-        "https://www.nature.com/articles/d41586-026-00309-1"
-      ],
-      "date": "2026-04-20T18:01:18.022051+00:00"
-    },
-    {
-      "title": "PyTorch Adoption Surges Among Meta Tesla And Uber Engineers",
-      "urls": [
-        "https://www.infoworld.com/article/2261334/why-enterprises-are-turning-from-tensorflow-to-pytorch.html"
-      ],
-      "date": "2026-04-20T18:30:56.925915+00:00"
-    },
-    {
       "title": "Systems Outperform Doctors in Detecting Diabetic Retinopathy and Cancers",
       "urls": [
         "https://www.who.int/teams/digital-health-and-innovation/harnessing-artificial-intelligence-for-health",
@@ -4913,7 +4897,18 @@
         "https://worldrelief.org/what-is-a-refugee"
       ],
       "date": "2026-04-30T17:34:32.286307+00:00"
+    },
+    {
+      "title": "Nancy Guthrie disappeared from her Tucson home under suspicious circumstances, prompting a formal in",
+      "urls": [
+        "https://www.timesnownews.com/world/us/us-news/latest-news-on-nancy-guthrie-today-update-kidnapping-case-savannah-guthrie-fbi-article-154176306",
+        "https://www.euronews.com/video/2026/04/25/latest-news-bulletin-april-25th-2026-evening",
+        "https://www.foxnews.com/video/topics/latest-news-video?msockid=14caa1630887660a2a8db62809e96732",
+        "https://www.indiatvnews.com/latest-news",
+        "https://thehindustangazette.com/latest-news"
+      ],
+      "date": "2026-04-30T18:31:23.245718+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T17:34:32.286373+00:00"
+  "lastUpdated": "2026-04-30T18:31:23.245784+00:00"
 }
