@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Systems Outperform Doctors in Detecting Diabetic Retinopathy and Cancers",
-      "urls": [
-        "https://www.who.int/teams/digital-health-and-innovation/harnessing-artificial-intelligence-for-health",
-        "https://www.nejm.org/ai-in-medicine"
-      ],
-      "date": "2026-04-20T19:02:17.911020+00:00"
-    },
-    {
-      "title": "Japan Hit By 7.4 Magnitude Offshore Earthquake Triggering Evacuations",
-      "urls": [
-        "https://www.facebook.com/FoxWeather/posts/breaking-news-a-magnitude-74-earthquake-struck-off-the-coast-of-northern-japan-t/988680113672283",
-        "https://www.instagram.com/p/DXWheVxj3lR",
-        "https://volcano.si.edu/gvp_currenteruptions.cfm"
-      ],
-      "date": "2026-04-20T19:31:02.561531+00:00"
-    },
-    {
-      "title": "Alana Ford Analyzes AI And Cyber Tools Reshaping Indo-Pacific Military Strategy",
-      "urls": [
-        "https://www.youtube.com/watch?v=6AE3zdpQxH8",
-        "https://perthusasia.edu.au/research-and-insights/publications/technopolitik-technology-geostrategic-competition-and-warfare",
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOoo2r-KizP_9ASJefuqDn5ZYWlDraIfD3Dye9yFbJ59Jmoy8SdZ7"
-      ],
-      "date": "2026-04-20T20:01:10.978040+00:00"
-    },
-    {
       "title": "Kelp DAO Blames LayerZero Default Settings for $290 Million Exploit",
       "urls": [
         "https://web3newswire.com?srsltid=AfmBOops267b67F5wTtpHPG7nYi25bk_IAwMcbUBtRX2m6wQqnLfrL7n",
@@ -4908,7 +4882,19 @@
         "https://thehindustangazette.com/latest-news"
       ],
       "date": "2026-04-30T18:31:23.245718+00:00"
+    },
+    {
+      "title": "NVIDIA Launches Nemotron 3 Nano Omni For Unified Multimodal AI Processing",
+      "urls": [
+        "https://fazm.ai/blog/open-source-large-language-model-news-april-2026",
+        "https://glm5.net",
+        "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html?msockid=1471135541866fe93a05041e40306e21",
+        "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
+        "https://mistral.ai/news/mistral-3",
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-nano-omni-powers-multimodal-agent-reasoning-in-a-single-efficient-open-model"
+      ],
+      "date": "2026-04-30T20:07:48.890743+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T18:31:23.245784+00:00"
+  "lastUpdated": "2026-04-30T20:07:48.890838+00:00"
 }
