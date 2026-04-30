@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT 5.3 With Enhanced Agent Capabilities",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model",
-        "https://www.youtube.com/watch?v=ydW6Io2T4ho"
-      ],
-      "date": "2026-04-20T00:01:10.240978+00:00"
-    },
-    {
       "title": "Nucleotide Esports Reaches PMNC North Americas WC Finals",
       "urls": [
         "https://esports.gg",
@@ -4861,7 +4853,18 @@
         "https://www.foxsports.com.au/ufc/latest-news"
       ],
       "date": "2026-04-29T23:31:19.485578+00:00"
+    },
+    {
+      "title": "FIFA Confirms 48 Teams For 2026 Series Global Tournament",
+      "urls": [
+        "https://www.fifa.com/en/news/articles/fifa-series-2026-match-schedule-available",
+        "https://www.fifa.com/en/news/index.html",
+        "https://www.fifa.com/en/news/articles/european-qualifying-results-fixtures-world-cup-26",
+        "https://www.fifa.com/en/news/articles/fifa-series-everything-you-need-to-know",
+        "https://www.fifa.com/en/news/articles/halftime-show-confirmed"
+      ],
+      "date": "2026-04-30T00:02:24.953830+00:00"
     }
   ],
-  "lastUpdated": "2026-04-29T23:31:19.485639+00:00"
+  "lastUpdated": "2026-04-30T00:02:24.953910+00:00"
 }
