@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congress faces sharp division over the reauthorization of FISA Section 702, which permits warrantles",
-      "urls": [
-        "https://www.theguardian.com/world/surveillance"
-      ],
-      "date": "2026-04-20T12:01:12.687064+00:00"
-    },
-    {
       "title": "Battlefy has emerged as a leading platform for organizing and discovering esports tournaments global",
       "urls": [
         "https://battlefy.com"
@@ -4892,7 +4885,17 @@
         "https://www.infosecurity-magazine.com/news"
       ],
       "date": "2026-04-30T11:32:12.699683+00:00"
+    },
+    {
+      "title": "NASA's Oceans Melting Greenland (OMG) mission completed a six-year survey of Greenland's glaciers an",
+      "urls": [
+        "https://climate.nasa.gov/images-of-change?intent=131",
+        "https://climate.nasa.gov/news/3173/from-weather-forecasting-to-climate-change-nasas-airs-builds-a-legacy?platform=hootsuite",
+        "https://climate.nasa.gov/news/3142/nasa-greenland-mission-completes-six-years-of-mapping-unknown-terrain?page=1",
+        "https://climate.nasa.gov/earth-now?linkId=347129176"
+      ],
+      "date": "2026-04-30T12:02:27.001263+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T11:32:12.699750+00:00"
+  "lastUpdated": "2026-04-30T12:02:27.001333+00:00"
 }
