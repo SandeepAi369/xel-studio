@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Llama 3.1 3.2 and 3.3 With New On-Device AI Features",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
-        "https://en.wikipedia.org/wiki/Llama_(language_model)",
-        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
-        "https://sherwood.news/tech/report-some-of-metas-new-ai-models-will-eventually-be-open-source",
-        "https://www.llama.com/models/llama-3"
-      ],
-      "date": "2026-04-20T06:01:11.721460+00:00"
-    },
-    {
       "title": "Trump Administration Suspends Five East Coast Offshore Wind Projects",
       "urls": [
         "https://www.renewableenergyworld.com/wind-power"
@@ -4866,7 +4855,18 @@
         "https://sportssplendor.com/top-10-most-iconic-sports-moments-in-history"
       ],
       "date": "2026-04-30T05:32:12.492575+00:00"
+    },
+    {
+      "title": "Qwen3.",
+      "urls": [
+        "https://www.facebook.com/reel/1670516200947117",
+        "https://huggingface.co/meta-llama",
+        "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+        "https://www.humai.blog/ai-news-trends-april-2026-complete-monthly-digest",
+        "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard"
+      ],
+      "date": "2026-04-30T06:04:46.529720+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T05:32:12.492645+00:00"
+  "lastUpdated": "2026-04-30T06:04:46.529779+00:00"
 }
