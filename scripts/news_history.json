@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Prepares To Launch First Foldable Smartphone",
-      "urls": [
-        "https://www.9news.com.au/technology/trevor-long-first-apple-folding-smartphone-launches-this-year/691a71ff-74f0-4304-9eed-05ee55ee221c"
-      ],
-      "date": "2026-04-20T01:01:14.600545+00:00"
-    },
-    {
       "title": "Virtus Acquires Chemaf After U.S. Pressure On Drc President",
       "urls": [
         "https://www.biologicaldiversity.org/campaigns/victories",
@@ -4864,7 +4857,15 @@
         "https://news.un.org/en/story/2025/10/1166082"
       ],
       "date": "2026-04-30T00:34:11.043514+00:00"
+    },
+    {
+      "title": "Team USA Wins 12 Gold Medals At Winter Olympics",
+      "urls": [
+        "https://www.usopc.org/news/2026/february/22/a-golden-games-team-usa-sets-record-with-12-gold-medals-at-olympic-winter-games-milano-cortina-2026",
+        "https://www.newsweek.com/sports/italian-athlete-taunts-americans-after-olympic-gold-medal-upset-11539165"
+      ],
+      "date": "2026-04-30T01:03:30.825621+00:00"
     }
   ],
-  "lastUpdated": "2026-04-30T00:34:11.043568+00:00"
+  "lastUpdated": "2026-04-30T01:03:30.825693+00:00"
 }
