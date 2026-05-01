@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google has launched new safety features across its platform to enhance user protection during search",
-      "urls": [
-        "https://www.google.com",
-        "https://accounts.google.com",
-        "https://about.google",
-        "https://en.wikipedia.org/wiki/Google",
-        "https://apps.apple.com/us/app/google/id284815942",
-        "https://safety.google",
-        "https://mail.google.com",
-        "https://x.com/Google",
-        "https://myaccount.google.com",
-        "https://blog.google"
-      ],
-      "date": "2026-04-21T21:30:55.982255+00:00"
-    },
-    {
       "title": "Sydney Metro West Project Breaks Ground With A$14.8 Billion Investment",
       "urls": [
         "https://www.reuters.com/world/middle-east",
@@ -4754,7 +4738,21 @@
         "https://finance.yahoo.com/video/adidas-beats-nike-in-london-sabastian-sawe-smashes-sub-2-hour-mark-152423166.html"
       ],
       "date": "2026-05-01T21:07:23.936687+00:00"
+    },
+    {
+      "title": "AI-powered smart glasses now offer real-time subtitles for deaf and hard-of-hearing individuals, ena",
+      "urls": [
+        "https://reciteme.com/us/news/assistive-technology-for-people-with-hearing-impairments",
+        "https://rnid.org.uk/information-and-support/technology-and-products",
+        "https://csd.org/stories/the-importance-of-accessible-technology-in-everyday-life",
+        "https://www.forbes.com/sites/billschiffmiller/2025/02/06/ai-hearing-and-accessibility-a-market-shift-you-cant-ignore",
+        "https://www.facebook.com/deafequalityorg/videos/technology-is-moving-forwardaccess-is-still-catching-upfor-many-deaf-hard-of-hea/990181833960966",
+        "https://www.hearingtracker.com/news/audio-accessibility-creating-inclusive-listening-experiences-for-everyone",
+        "https://www.youtube.com/watch?v=VbGiJHuvOGg",
+        "https://www.youtube.com/watch?v=TXH_JzxV7xw"
+      ],
+      "date": "2026-05-01T21:34:05.687806+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T21:07:23.936744+00:00"
+  "lastUpdated": "2026-05-01T21:34:05.687870+00:00"
 }
