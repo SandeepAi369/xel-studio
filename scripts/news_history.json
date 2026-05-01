@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Pursues Agi Breakthroughs Under Demis Hassabis Leadership",
-      "urls": [
-        "https://www.youtube.com/watch?v=zZsTVBXcbow"
-      ],
-      "date": "2026-04-21T06:01:08.558461+00:00"
-    },
-    {
       "title": "Sports analytics is undergoing a transformation as AI systems enable teams to process vast amounts o",
       "urls": [
         "https://www.missioncloud.com/blog/future-trends-in-sports-analytics-lessons-from-the-field",
@@ -4919,7 +4912,16 @@
         "https://www.businessinsider.com/big-tech-earnings-preview-key-numbers-alphabet-microsoft-amazon-meta-2026-4"
       ],
       "date": "2026-05-01T05:31:16.688713+00:00"
+    },
+    {
+      "title": "Chinese AI Model DeepSeek-R1 Surpasses 10 Billion Global Downloads",
+      "urls": [
+        "https://completeaitraining.com/news/chinas-open-source-ai-models-surpass-10-billion-downloads",
+        "https://build.nvidia.com/deepseek-ai/deepseek-v4-pro/modelcard",
+        "https://www.nature.com/articles/d41586-025-00229-6"
+      ],
+      "date": "2026-05-01T06:01:26.919841+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T05:31:16.688772+00:00"
+  "lastUpdated": "2026-05-01T06:01:26.919901+00:00"
 }
