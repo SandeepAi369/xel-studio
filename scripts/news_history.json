@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Community users across the U.",
-      "urls": [
-        "https://discussions.apple.com/welcome",
-        "https://discussions.apple.com/thread/255148892",
-        "https://discussions.apple.com/community/apple-account",
-        "https://discussions.apple.com/thread/255554428",
-        "https://discussions.apple.com/docs/DOC-250008306"
-      ],
-      "date": "2026-04-21T18:01:26.224192+00:00"
-    },
-    {
       "title": "Linux Org Community Showcases Banana Pi R4 For Home Networking Projects",
       "urls": [
         "https://www.linux.org/pages/download",
@@ -4760,7 +4749,21 @@
         "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths"
       ],
       "date": "2026-05-01T17:35:27.390554+00:00"
+    },
+    {
+      "title": "AI Models are now being developed to operate across devices and support multiple languages, enabling",
+      "urls": [
+        "https://www.digitimes.com/news/a20251211PD208/mistral-ai-startup-software-language.html",
+        "https://yourstory.com/ai-story/mistral-open-source-speech-ai-model",
+        "https://www.ibm.com/think/topics/mistral-ai",
+        "https://www.youtube.com/watch?v=o1tN_F2Lhwo",
+        "https://mistral.ai/en",
+        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week",
+        "https://www.cnet.com/tech/services-and-software/these-new-ai-models-are-built-to-work-anywhere-in-many-languages"
+      ],
+      "date": "2026-05-01T18:32:03.874378+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T17:35:27.390617+00:00"
+  "lastUpdated": "2026-05-01T18:32:03.874445+00:00"
 }
