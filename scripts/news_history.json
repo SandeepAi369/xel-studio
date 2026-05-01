@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Paris 2024 concluded as one of the most competitive Summer Olympics in recent history, featuring 10,",
-      "urls": [
-        "https://www.olympics.com/en/olympic-games",
-        "https://www.olympics.com/en/milano-cortina-2026",
-        "https://www.olympics.com/en/olympic-games/paris-2024/results",
-        "https://www.olympics.com/en/olympic-games/paris-2024",
-        "https://www.olympics.com/en/olympic-games/los-angeles-2028",
-        "https://www.olympics.com/ioc",
-        "https://www.olympics.com/en/sports",
-        "https://www.olympics.com/en/olympic-games/paris-2024/results/athletics"
-      ],
-      "date": "2026-04-21T12:38:34.119254+00:00"
-    },
-    {
-      "title": "Trump says he does not want to extend the ceasefire with Iran, signaling a potential shift in U.",
-      "urls": [
-        "https://capcity.news",
-        "https://www.newsbreak.com/cheyenne-wy",
-        "https://www.npr.org/sections/news",
-        "https://www.iranintl.com/en/liveblog/202604194357",
-        "https://www.cbsnews.com/boston/local-news",
-        "https://ground.news/interest/germany"
-      ],
-      "date": "2026-04-21T13:02:28.718776+00:00"
-    },
-    {
       "title": "Extreme announces their upcoming \"Thicker Than Blood Tour,\" a global concert series launching in Aug",
       "urls": [
         "https://en.wikipedia.org/wiki/Extreme_(band)",
@@ -4843,7 +4817,14 @@
         "https://www.nbcolympics.com/news/olympic-track-and-field-paris-2024-biggest-stories-replays-medal-results-top-athletes-new"
       ],
       "date": "2026-05-01T12:36:26.527776+00:00"
+    },
+    {
+      "title": "MIT Researchers developed a new AI training method that improves how accurately models estimate thei",
+      "urls": [
+        "https://news.mit.edu/topic/artificial-intelligence2"
+      ],
+      "date": "2026-05-01T13:06:45.957351+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T12:36:26.527906+00:00"
+  "lastUpdated": "2026-05-01T13:06:45.957404+00:00"
 }
