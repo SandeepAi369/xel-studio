@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Las Vegas Marathon Returns October 26 2025 With Three Race Options",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Marathon",
-        "https://www.runguides.com/nevada/runs",
-        "https://vegasmarathon.com",
-        "https://www.marathonguide.com/marathons/usa",
-        "https://www.cbsnews.com/boston/live-updates/boston-marathon-live-updates-race-results-course-map-forecast",
-        "https://www.usatoday.com/story/sports/olympics/2026/04/20/boston-marathon-tracking-updates-results-highlights-2026/89681602007",
-        "https://worldathletics.org/disciplines/road/marathon",
-        "https://www.britannica.com/sports/marathon-race",
-        "https://findarace.com/us/running/marathons",
-        "https://runningintheusa.com/classic/list/map/marathon/upcoming"
-      ],
-      "date": "2026-04-21T11:33:09.047854+00:00"
-    },
-    {
       "title": "Jeannie Rice became the first person to win her age group in all seven World Marathon Majors, comple",
       "urls": [
         "https://www.wcvb.com/article/130th-boston-marathon-2026-updates/71054115",
@@ -4853,7 +4837,15 @@
         "https://github.com/QwenLM/Qwen3.6"
       ],
       "date": "2026-05-01T11:07:40.181229+00:00"
+    },
+    {
+      "title": "Telemedicine Adoption Soars With 60 Percent Of U.S. Hospitals Offering Virtual Care Platforms",
+      "urls": [
+        "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0413",
+        "https://www.medboundtimes.com/medicine/top-healthcare-innovations-2025"
+      ],
+      "date": "2026-05-01T11:40:39.200531+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T11:07:40.181294+00:00"
+  "lastUpdated": "2026-05-01T11:40:39.200601+00:00"
 }
