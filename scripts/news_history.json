@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dr CaBot First AI To Publish Diagnosis In New England Journal Of Medicine",
-      "urls": [
-        "https://www.sciencenewstoday.org/how-ai-is-transforming-healthcare-diagnosis-treatment-and-beyond",
-        "https://mayomagazine.mayoclinic.org/2026/04/ai-in-healthcare",
-        "https://imedic.health/en/health/news/ai-medical-diagnosis-advances-2026",
-        "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
-        "https://hms.harvard.edu/news/ai-system-detailed-diagnostic-reasoning-makes-its-case",
-        "https://www.usatoday.com/story/special/contributor-content/2025/09/11/ai-may-diagnose-an-illnessbut-only-trust-can-heal-healthcare/86100090007"
-      ],
-      "date": "2026-04-21T20:02:09.413801+00:00"
-    },
-    {
       "title": "iOS 26.",
       "urls": [
         "https://discussions.apple.com/thread/253894350",
@@ -4750,7 +4738,17 @@
         "https://www.youtube.com/watch?v=QuR4bHN8amc"
       ],
       "date": "2026-05-01T19:38:15.053767+00:00"
+    },
+    {
+      "title": "Iom Scales Aid For 1.2 Million Displaced In Lebanon Crisis",
+      "urls": [
+        "https://www.iom.int/escalation-middle-east-and-beyond-growing-humanitarian-crisis",
+        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
+        "https://www.bbc.com/news/topics/cg41ylwvxmdt",
+        "https://www.youtube.com/watch?v=9VTvWyYM5RQ"
+      ],
+      "date": "2026-05-01T20:07:17.130088+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T19:38:15.053852+00:00"
+  "lastUpdated": "2026-05-01T20:07:17.130181+00:00"
 }
