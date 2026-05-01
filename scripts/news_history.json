@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "iOS 26.",
-      "urls": [
-        "https://discussions.apple.com/thread/253894350",
-        "https://discussions.apple.com/thread/255006655",
-        "https://discussions.apple.com/thread/255487071",
-        "https://discussions.apple.com/thread/255701760",
-        "https://discussions.apple.com/thread/256233746"
-      ],
-      "date": "2026-04-21T20:32:10.717265+00:00"
-    },
-    {
       "title": "Microsoft Updates Outlook With Enhanced Shared Mailboxes For Team Collaboration",
       "urls": [
         "https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd",
@@ -4748,7 +4737,20 @@
         "https://www.youtube.com/watch?v=9VTvWyYM5RQ"
       ],
       "date": "2026-05-01T20:07:17.130088+00:00"
+    },
+    {
+      "title": "Meta has introduced updated transparency rules for third-party ad platforms, requiring clearer discl",
+      "urls": [
+        "https://www.socialmediatoday.com",
+        "https://www.linkedin.com/top-content/marketing/social-media-marketing/new-social-media-platform-feature-updates",
+        "https://socialbee.com/blog/facebook-updates",
+        "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-39",
+        "https://www.instagram.com/p/DVOcgKgjbm0",
+        "https://www.youtube.com/watch?v=tLloTTW0nQw",
+        "https://www.cnbc.com/social-media"
+      ],
+      "date": "2026-05-01T20:38:12.393859+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T20:07:17.130181+00:00"
+  "lastUpdated": "2026-05-01T20:38:12.393920+00:00"
 }
