@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch And TensorFlow Dominate Deep Learning Adoption In 2025",
-      "urls": [
-        "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
-        "https://www.portotheme.com/top-deep-learning-frameworks-in-2025-tensorflow-pytorch-or-something-new",
-        "https://www.reddit.com/r/gpt5/comments/1mvv3ik/deep_learning_frameworks_pytorch_vs_tensorflow_in",
-        "https://futurense.com/blog/deep-learning-frameworks"
-      ],
-      "date": "2026-04-21T05:01:03.614503+00:00"
-    },
-    {
       "title": "Thomas Cantara Wins Third Straight Boston Marathon Para T20 Title",
       "urls": [
         "https://www.wmur.com/article/top-new-hampshire-athletes-boston-marathon-42026/71077269"
@@ -4919,7 +4909,14 @@
         "https://www.guinnessworldrecords.com/news/sports-and-fitness"
       ],
       "date": "2026-05-01T04:31:04.296390+00:00"
+    },
+    {
+      "title": "Open Library Catalogs Over 20 Million Books for Global Access",
+      "urls": [
+        "https://www.zhihu.com/question/605826797"
+      ],
+      "date": "2026-05-01T05:02:26.579967+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T04:31:04.296455+00:00"
+  "lastUpdated": "2026-05-01T05:02:26.580068+00:00"
 }
