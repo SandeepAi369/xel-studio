@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NetApp Instaclustr Accelerates Open Source LLM Development for 2026",
-      "urls": [
-        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026"
-      ],
-      "date": "2026-04-21T02:01:09.065083+00:00"
-    },
-    {
       "title": "HealthSnap Integrates GenAI Into RPM And CCM Platforms",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
@@ -4915,7 +4908,15 @@
         "https://hqickey.com/blogs/news/2026-global-ai-semiconductor-industry-latest-news-roundup-nvidia-samsung-tsmc-and-other-giants-latest-moves-fully-analyzed"
       ],
       "date": "2026-05-01T01:31:07.394055+00:00"
+    },
+    {
+      "title": "GitHub Hosts 100000 New AI Repositories Monthly Driving Agent Innovation",
+      "urls": [
+        "https://techcrunch.com/tag/open-source-ai",
+        "https://github.blog/open-source/maintainers/from-mcp-to-multi-agents-the-top-10-open-source-ai-projects-on-github-right-now-and-why-they-matter"
+      ],
+      "date": "2026-05-01T02:04:27.117153+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T01:31:07.394107+00:00"
+  "lastUpdated": "2026-05-01T02:04:27.117234+00:00"
 }
