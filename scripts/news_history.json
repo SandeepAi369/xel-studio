@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Accelerate Pancreatic Cancer Detection With AI",
-      "urls": [
-        "https://www.youtube.com/watch?v=cx_CKLb8Yl4"
-      ],
-      "date": "2026-04-21T01:30:58.736746+00:00"
-    },
-    {
       "title": "NetApp Instaclustr Accelerates Open Source LLM Development for 2026",
       "urls": [
         "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026"
@@ -4913,7 +4906,16 @@
         "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
       ],
       "date": "2026-05-01T01:05:37.354965+00:00"
+    },
+    {
+      "title": "Nvidia surpassed a $5 trillion market valuation as demand for AI chips surged, driven by strong perf",
+      "urls": [
+        "https://www.benzinga.com/markets/tech/26/04/52050283/nvidia-tops-5-trillion-market-cap-as-ai-boom-lifts-intel-amd-and-chip-stocks-own-it-dont-trade-it-says-jim-cramer",
+        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html?msockid=004ce83303e16a3b3fcbff7f02116b30",
+        "https://hqickey.com/blogs/news/2026-global-ai-semiconductor-industry-latest-news-roundup-nvidia-samsung-tsmc-and-other-giants-latest-moves-fully-analyzed"
+      ],
+      "date": "2026-05-01T01:31:07.394055+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T01:05:37.355027+00:00"
+  "lastUpdated": "2026-05-01T01:31:07.394107+00:00"
 }
