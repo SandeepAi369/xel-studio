@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mit Researchers Unveil Ai Model Detecting Atomic Defects With 95 Percent Accuracy",
-      "urls": [
-        "https://www.youtube.com/watch?v=a18whsKY_rw",
-        "https://news.mit.edu/topic/artificial-intelligence2"
-      ],
-      "date": "2026-04-21T04:01:10.569025+00:00"
-    },
-    {
       "title": "Geoffrey Mutai Sets Boston Marathon Course Record In 2011",
       "urls": [
         "https://www.instagram.com/p/DXXm3L8FqOl"
@@ -4912,7 +4904,18 @@
         "https://www.inchcalculator.com/convert/centimeter-to-foot"
       ],
       "date": "2026-05-01T03:32:01.109370+00:00"
+    },
+    {
+      "title": "Anthropic Releases Limited Claude Mythos Preview With Bug Detection Capabilities",
+      "urls": [
+        "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html?msockid=062651fc0bb26cd3025a46b00a0d6dca",
+        "https://www.theguardian.com/technology/2026/apr/08/anthropic-ai-cybersecurity-software",
+        "https://www.bbc.com/news/articles/crk1py1jgzko",
+        "https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox",
+        "https://www.nbcnews.com/tech/security/anthropic-project-glasswing-mythos-preview-claude-gets-limited-release-rcna267234"
+      ],
+      "date": "2026-05-01T04:04:24.352282+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T03:32:01.109431+00:00"
+  "lastUpdated": "2026-05-01T04:04:24.352358+00:00"
 }
