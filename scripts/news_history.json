@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme announces their upcoming \"Thicker Than Blood Tour,\" a global concert series launching in Aug",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Extreme_(band)",
-        "https://www.extremenetworks.com",
-        "https://www.youtube.com/watch?v=UrIiLvg58SY",
-        "https://extreme-band.com/tour",
-        "https://www.livenation.com/artist/K8vZ9171Caf/extreme-events",
-        "https://bassmagazine.com/extreme-announces-new-album-and-world-tour-with-living-colour",
-        "https://dictionary.cambridge.org/dictionary/english/extreme",
-        "https://www.instagram.com/extreme_band",
-        "https://www.facebook.com/extremeband",
-        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=3c3f96124667605824ec815047e66117"
-      ],
-      "date": "2026-04-21T13:32:06.161534+00:00"
-    },
-    {
       "title": "Google News offers access to a vast aggregation of news content, enabling users to browse thousands ",
       "urls": [
         "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB"
@@ -4824,7 +4808,18 @@
         "https://news.mit.edu/topic/artificial-intelligence2"
       ],
       "date": "2026-05-01T13:06:45.957351+00:00"
+    },
+    {
+      "title": "Mistral AI has released Mistral-Large, a flagship language model with strong performance in multilin",
+      "urls": [
+        "https://www.zhihu.com/question/646034422",
+        "https://www.zhihu.com/question/1979468317455586837",
+        "https://www.zhihu.com/question/14580770188",
+        "https://www.zhihu.com/question/645997182",
+        "https://www.zhihu.com/question/649929393"
+      ],
+      "date": "2026-05-01T13:33:22.703823+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T13:06:45.957404+00:00"
+  "lastUpdated": "2026-05-01T13:33:22.703891+00:00"
 }
