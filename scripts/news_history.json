@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Geoffrey Mutai Sets Boston Marathon Course Record In 2011",
-      "urls": [
-        "https://www.instagram.com/p/DXXm3L8FqOl"
-      ],
-      "date": "2026-04-21T04:30:54.742199+00:00"
-    },
-    {
       "title": "PyTorch And TensorFlow Dominate Deep Learning Adoption In 2025",
       "urls": [
         "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
@@ -4915,7 +4908,18 @@
         "https://www.nbcnews.com/tech/security/anthropic-project-glasswing-mythos-preview-claude-gets-limited-release-rcna267234"
       ],
       "date": "2026-05-01T04:04:24.352282+00:00"
+    },
+    {
+      "title": "Sebastian Sawe Breaks Marathon World Record With 1:59:50 Run In London",
+      "urls": [
+        "https://www.bing.com/news?setlang=en",
+        "https://firefox-startpage.aol.com",
+        "https://www.newsnow.co.uk/h/Sport/Sports+News",
+        "https://www.newsday.com/sports/olympics/kenya-marathon-sebastian-sawe-return-london-record-h62611",
+        "https://www.guinnessworldrecords.com/news/sports-and-fitness"
+      ],
+      "date": "2026-05-01T04:31:04.296390+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T04:04:24.352358+00:00"
+  "lastUpdated": "2026-05-01T04:31:04.296455+00:00"
 }
