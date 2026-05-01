@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sydney Metro West Project Breaks Ground With A$14.8 Billion Investment",
-      "urls": [
-        "https://www.reuters.com/world/middle-east",
-        "https://www.9news.com.au/sydney",
-        "https://www.koat.com/local-news",
-        "https://www.timesofai.com/news/ai",
-        "https://myfox8.com/news/north-carolina/winston-salem"
-      ],
-      "date": "2026-04-21T22:02:20.433277+00:00"
-    },
-    {
       "title": "MIT researchers developed a speech-to-reality system that fabricates physical objects using voice co",
       "urls": [
         "https://news.mit.edu/topic/robotics",
@@ -4752,7 +4741,23 @@
         "https://www.youtube.com/watch?v=TXH_JzxV7xw"
       ],
       "date": "2026-05-01T21:34:05.687806+00:00"
+    },
+    {
+      "title": "ChatGPT Powers Over 400 Generative AI Tools For Creators And Enterprises",
+      "urls": [
+        "https://www.youtube.com/watch?v=dqTpi-FzbmI",
+        "https://www.producthunt.com/products/saas-ai-tools",
+        "https://labs.lamatic.ai/p/genai-tools",
+        "https://www.techdogs.com/td-articles/product-mine/top-generative-ai-tools",
+        "https://aimagazine.com/news/top-10-generative-ai-tools",
+        "https://www.edureka.co/blog/top-generative-ai-tools",
+        "https://bootcamp.cpe.vt.edu/blog/best-generative-ai-tools",
+        "https://ryantronier.com/resources/generative-ai-tools",
+        "https://ai.google/products",
+        "https://www.techradar.com/best/best-ai-tools"
+      ],
+      "date": "2026-05-01T22:06:17.202902+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T21:34:05.687870+00:00"
+  "lastUpdated": "2026-05-01T22:06:17.202966+00:00"
 }
