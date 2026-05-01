@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization released the Mental Health Atlas 2024, a comprehensive global survey detai",
-      "urls": [
-        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
-        "https://www.who.int/health-topics/mental-health",
-        "https://www.who.int/news/item/16-12-2025-world-leaders-adopt-a-historic-global-declaration-on-noncommunicable-diseases-and-mental-health",
-        "https://www.who.int/india/health-topics/mental-health",
-        "https://www.who.int/publications/i/item/9789240114487",
-        "https://www.who.int/news/item/02-09-2025-who-releases-new-reports-and-estimates-highlighting-urgent-gaps-in-mental-health",
-        "https://www.who.int/news-room/commentaries/detail/mental-health-and-ncds--a-shared-but-differentiated-agenda-for-the-2025-un-high-level-meeting",
-        "https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up",
-        "https://www.who.int/europe/news/item/25-09-2024-teens--screens-and-mental-health",
-        "https://www.who.int/campaigns/world-mental-health-day/2025"
-      ],
-      "date": "2026-04-21T19:30:59.174854+00:00"
-    },
-    {
       "title": "Dr CaBot First AI To Publish Diagnosis In New England Journal Of Medicine",
       "urls": [
         "https://www.sciencenewstoday.org/how-ai-is-transforming-healthcare-diagnosis-treatment-and-beyond",
@@ -4752,7 +4736,21 @@
         "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment"
       ],
       "date": "2026-05-01T19:04:37.830458+00:00"
+    },
+    {
+      "title": "OpenAI Raises $10 Billion To Expand AI Model Development",
+      "urls": [
+        "https://www.startuphub.ai/recent-funding-rounds",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield",
+        "https://techcrunch.com/tag/acquisition",
+        "https://www.techtimes.com/articles/315946/20260417/tech-acquisitions-surge-ai-startup-acquisition-drives-big-company-strategies.htm",
+        "https://www.theinformation.com/articles/tech-m-filling-ai-gaps",
+        "https://cset.georgetown.edu/publication/acquiring-ai-companies-tracking-u-s-ai-mergers-and-acquisitions",
+        "https://techfundingnews.com/category/ai",
+        "https://www.youtube.com/watch?v=QuR4bHN8amc"
+      ],
+      "date": "2026-05-01T19:38:15.053767+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T19:04:37.830513+00:00"
+  "lastUpdated": "2026-05-01T19:38:15.053852+00:00"
 }
