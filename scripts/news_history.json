@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boydton Residents Rally for Improved Road Funding",
-      "urls": [
-        "https://www.foxnews.com?msockid=3b763de7bca0653306d32aa5bd3a6493",
-        "https://www.newsbreak.com/boydton-va",
-        "https://www.bbc.com/news",
-        "https://nypost.com/us-news"
-      ],
-      "date": "2026-04-21T23:30:57.862473+00:00"
-    },
-    {
       "title": "India's Women's Cricket Team Wins First ICC World Cup Title",
       "urls": [
         "https://mikefarrellsports.com/news/the-greatest-moments-in-sports-history-a-retrospective",
@@ -4754,7 +4744,21 @@
         "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai"
       ],
       "date": "2026-05-01T23:04:15.805709+00:00"
+    },
+    {
+      "title": "DeepWell Digital Therapeutics is developing video games designed to treat mental health conditions, ",
+      "urls": [
+        "https://annabelleschneider.com/New-Technology-Mental-Health-Wellbeing",
+        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
+        "https://userway.org/blog/technology-and-mental-health",
+        "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1560580/full",
+        "https://news.vt.edu/articles/2024/10/sa-wellness-digital-well-being-challenges.html",
+        "https://vitalsmagazine.dartmouth.edu/articles/can-digital-therapeutics-apps-solve-the-mental-health-crisis",
+        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
+        "https://www.youtube.com/watch?v=Pqk8iHpR5x4"
+      ],
+      "date": "2026-05-01T23:34:05.511930+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T23:04:15.805777+00:00"
+  "lastUpdated": "2026-05-01T23:34:05.511998+00:00"
 }
