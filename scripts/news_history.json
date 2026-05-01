@@ -1,45 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google News offers access to a vast aggregation of news content, enabling users to browse thousands ",
-      "urls": [
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB"
-      ],
-      "date": "2026-04-21T14:01:16.930656+00:00"
-    },
-    {
-      "title": "Bosch Launches Copper-Free Brake Pads To Meet 2025 U.S. Environmental Standards",
-      "urls": [
-        "https://www.get.visual.ly/m/design-portfolio/illustrations",
-        "https://get.visual.ly/m/choropleth-maps",
-        "https://get.visual.ly/m/design-portfolio/a-day-in-the-life-of-a-leasing-admin",
-        "https://get.visual.ly/m/design-portfolio/changing-customer-conversations",
-        "https://visual.ly/m/design-portfolio/journey-canadian-rockies-starts",
-        "https://visual.ly/m/design-portfolio/copper-free-brake-pads",
-        "https://www.get.visual.ly/m/history-of-infographics",
-        "https://get.visual.ly/m/google-analytics-everything-you-need-to-know",
-        "https://visual.ly/community/Infographics/business/owning-bowl-history-multi-part-super-bowl-ad",
-        "https://visual.ly/community/Infographics/entertainment/lets-solve-monty-hall-problem"
-      ],
-      "date": "2026-04-21T14:36:34.917404+00:00"
-    },
-    {
-      "title": "JLA FORUMS Launches Baby Gear Marketplace Across Three States",
-      "urls": [
-        "https://www.jlaforums.com/viewtopic.php?t=35411247",
-        "https://www.jlaforums.com/viewtopic.php?t=18728554",
-        "https://www.jlaforums.com/rss.php?f=476&t=1",
-        "https://www.jlaforums.com/viewtopic.php?t=19305529",
-        "https://www.jlaforums.com/viewtopic.php?t=471496445",
-        "https://www.jlaforums.com/viewtopic.php?t=18572168",
-        "https://www.jlaforums.com/viewtopic.php?t=628931560",
-        "https://www.jlaforums.com/rss.php?f=229&t=1",
-        "https://www.jlaforums.com/viewforum.php?f=185",
-        "https://www.jlaforums.com/rss.php?f=463&t=1"
-      ],
-      "date": "2026-04-21T15:04:18.685751+00:00"
-    },
-    {
       "title": "Windows 11 Adds Granular Microphone Controls For App Privacy",
       "urls": [
         "https://support.microsoft.com/en-us/windows/turn-on-app-permissions-for-your-microphone-in-windows-94991183-f69d-b4cf-4679-c98ca45f577a",
@@ -4819,7 +4780,14 @@
         "https://www.zhihu.com/question/649929393"
       ],
       "date": "2026-05-01T13:33:22.703823+00:00"
+    },
+    {
+      "title": "Linux Foundation Reports 80% Enterprise Adoption in Fortune 500 Infrastructure",
+      "urls": [
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSkwyMHZNR1p3ZW5wd0VnVmxiaTFWVXlnQVAB"
+      ],
+      "date": "2026-05-01T15:06:30.910117+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T13:33:22.703891+00:00"
+  "lastUpdated": "2026-05-01T15:06:30.910182+00:00"
 }
