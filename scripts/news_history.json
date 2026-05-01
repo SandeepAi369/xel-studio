@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT researchers developed a speech-to-reality system that fabricates physical objects using voice co",
-      "urls": [
-        "https://news.mit.edu/topic/robotics",
-        "https://spectrum.ieee.org/topic/robotics",
-        "https://news.mit.edu/2025/mit-researchers-speak-objects-existence-using-ai-robotics-1205",
-        "https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm",
-        "https://news.mit.edu/topic/robotics?page=1",
-        "https://spectrum.ieee.org/amazon-ai-robotics",
-        "https://spectrum.ieee.org/top-robotics-stories-2024",
-        "https://spectrum.ieee.org/amazon-robotics-and-logistics",
-        "https://spectrum.ieee.org/top-robotics-stories-2025",
-        "https://spectrum.ieee.org/first-global-robotics-challenge"
-      ],
-      "date": "2026-04-21T22:31:01.853121+00:00"
-    },
-    {
       "title": "Digital mental health tools are gaining traction as scalable solutions to address rising demand for ",
       "urls": [
         "https://link.springer.com/article/10.1007/s44155-025-00259-5",
@@ -4757,7 +4741,22 @@
         "https://www.techradar.com/best/best-ai-tools"
       ],
       "date": "2026-05-01T22:06:17.202902+00:00"
+    },
+    {
+      "title": "Stanford Researchers Deploy 60-Foot Tool To Boost Utah Geothermal Energy Output",
+      "urls": [
+        "https://insideclimatenews.org/category/clean-energy",
+        "https://evergreeninno.org/explore",
+        "https://climatechangeresources.org/learn-more/new-technologies",
+        "https://sustainability.stanford.edu/news/energy-innovation-power-hungry-world",
+        "https://climatetechdigital.com/climate-technology",
+        "https://www.cnbc.com/clean-tech",
+        "https://www.cleanegroup.org/press-releases",
+        "https://www.reuters.com/sustainability/climate-energy",
+        "https://cleantechnica.com"
+      ],
+      "date": "2026-05-01T22:37:07.745713+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T22:06:17.202966+00:00"
+  "lastUpdated": "2026-05-01T22:37:07.745774+00:00"
 }
