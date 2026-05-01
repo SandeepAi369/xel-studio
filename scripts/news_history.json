@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA And SpaceX Advance Starship Plans For Artemis 3 Moon Landing",
-      "urls": [
-        "https://www.youtube.com/watch?v=OqpFjr8au2E",
-        "https://www.spacex.com/humanspaceflight/moon",
-        "https://www.youtube.com/watch?v=cSHAK19EeLY",
-        "https://www.nasa.gov/news-release/nasa-spacex-launch-new-science-hardware-to-space-station"
-      ],
-      "date": "2026-04-21T01:01:12.102209+00:00"
-    },
-    {
       "title": "Mayo Clinic Deploys NVIDIA Blackwell SuperPOD To Accelerate Pancreatic Cancer Detection With AI",
       "urls": [
         "https://www.youtube.com/watch?v=cx_CKLb8Yl4"
@@ -4908,7 +4898,22 @@
         "https://www.theguardian.com/world/refugees"
       ],
       "date": "2026-05-01T00:34:12.352028+00:00"
+    },
+    {
+      "title": "Wearable Sensors Used By 78 Percent Of U.S. Pro Teams",
+      "urls": [
+        "https://harvardsciencereview.org/2025/09/13/success-stories-predictive-analytics-transforming-sports-performance",
+        "https://www.accio.com/business/sports_analytics_trends",
+        "https://www.sportsbusinessjournal.com/Technology",
+        "https://tech.sportbusiness.com",
+        "https://uktechnews.co.uk/2025/01/21/key-sports-technology-innovations-shaping-2025",
+        "https://www.catapult.com/blog/trends-in-sports",
+        "https://www.sciencedirect.com/science/article/pii/S3050544525000180",
+        "https://www.marketsandmarkets.com/ResearchInsight/US-sports-technology-market.asp",
+        "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
+      ],
+      "date": "2026-05-01T01:05:37.354965+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T00:34:12.352097+00:00"
+  "lastUpdated": "2026-05-01T01:05:37.355027+00:00"
 }
