@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Org Community Showcases Banana Pi R4 For Home Networking Projects",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://www.linux.org",
-        "https://www.linux.org/forums",
-        "https://www.linux.org/forums/linux-beginner-tutorials.123",
-        "https://www.linux.org/whats-new"
-      ],
-      "date": "2026-04-21T18:33:10.577040+00:00"
-    },
-    {
-      "title": "Uppsala University Drives Growth in Sweden’s Fourth Largest City",
-      "urls": [
-        "https://www.uppsala.se",
-        "https://sv.wikipedia.org/wiki/Uppsala",
-        "https://destinationuppsala.se",
-        "https://www.uu.se/en",
-        "https://svenskadestinationer.se/uppland/att-gora-i-uppsala",
-        "https://www.tripadvisor.com/Attractions-g189871-Activities-Uppsala_Uppsala_County.html",
-        "https://visitsweden.com/where-to-go/middle-sweden/uppland/uppsala",
-        "https://www.akademiska.se",
-        "https://en.wikipedia.org/wiki/Uppsala",
-        "https://www.healthcare.gov"
-      ],
-      "date": "2026-04-21T19:01:15.080040+00:00"
-    },
-    {
       "title": "World Health Organization released the Mental Health Atlas 2024, a comprehensive global survey detai",
       "urls": [
         "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
@@ -4763,7 +4736,23 @@
         "https://www.cnet.com/tech/services-and-software/these-new-ai-models-are-built-to-work-anywhere-in-many-languages"
       ],
       "date": "2026-05-01T18:32:03.874378+00:00"
+    },
+    {
+      "title": "Digital mental health tools are transforming access to care through smartphone apps, AI-powered chat",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12185383",
+        "https://www.apa.org/practice/digital-therapeutics-mobile-health",
+        "https://www.wokelo.ai/blog/how-technology-is-making-mental-health-care-accessible",
+        "https://yourhealthmagazine.net/article/mental-health/how-wellness-entrepreneurs-are-using-technology-to-drive-mental-health-awareness",
+        "https://www.smartherapypc.com/post/how-technology-is-revolutionizing-mental-health-care",
+        "https://finance.yahoo.com/news/rapid-expansion-mental-wellness-apps-155800872.html",
+        "https://www.drugtopics.com/view/swipe-right-on-wellness-the-rise-of-digital-therapeutics-in-mental-health",
+        "https://www.youtube.com/watch?v=vKWheY3GsBQ",
+        "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age",
+        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment"
+      ],
+      "date": "2026-05-01T19:04:37.830458+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T18:32:03.874445+00:00"
+  "lastUpdated": "2026-05-01T19:04:37.830513+00:00"
 }
