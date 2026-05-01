@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thomas Cantara Wins Third Straight Boston Marathon Para T20 Title",
-      "urls": [
-        "https://www.wmur.com/article/top-new-hampshire-athletes-boston-marathon-42026/71077269"
-      ],
-      "date": "2026-04-21T05:30:55.971278+00:00"
-    },
-    {
       "title": "Google DeepMind Pursues Agi Breakthroughs Under Demis Hassabis Leadership",
       "urls": [
         "https://www.youtube.com/watch?v=zZsTVBXcbow"
@@ -4916,7 +4909,17 @@
         "https://www.zhihu.com/question/605826797"
       ],
       "date": "2026-05-01T05:02:26.579967+00:00"
+    },
+    {
+      "title": "Alphabet, Microsoft, Amazon, and Meta all reported quarterly earnings that exceeded profit expectati",
+      "urls": [
+        "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
+        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796",
+        "https://www.cnbc.com/earnings",
+        "https://www.businessinsider.com/big-tech-earnings-preview-key-numbers-alphabet-microsoft-amazon-meta-2026-4"
+      ],
+      "date": "2026-05-01T05:31:16.688713+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T05:02:26.580068+00:00"
+  "lastUpdated": "2026-05-01T05:31:16.688772+00:00"
 }
