@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Windows 11 Adds Granular Microphone Controls For App Privacy",
-      "urls": [
-        "https://support.microsoft.com/en-us/windows/turn-on-app-permissions-for-your-microphone-in-windows-94991183-f69d-b4cf-4679-c98ca45f577a",
-        "https://www.elevenforum.com/t/enable-or-disable-apps-access-to-microphone-in-windows-11.17117",
-        "https://community.acer.com/en/kb/articles/19574-how-to-enable-or-disable-microphone-access-in-windows-11",
-        "https://globalmusicvibe.com/guides/enabling-microphone-for-specific-apps",
-        "https://www.easytweaks.com/allow-microphone-access-windows-11",
-        "https://www.mictest.pro/how-to-enable-microphone-for-specific-apps-on-windows-10-and-11",
-        "https://allthings.how/how-to-enable-or-disable-microphone-in-windows-11",
-        "https://windowsforum.com/threads/how-to-enable-microphone-permissions-on-windows-10-and-11-step-by-step-guide.375385",
-        "https://www.digitalcitizen.life/allow-stop-microphone-access-windows",
-        "https://geekchamp.com/allow-apps-to-access-your-microphone-windows-11-tutorial"
-      ],
-      "date": "2026-04-21T15:34:10.916939+00:00"
-    },
-    {
       "title": "Starlink approval in Pakistan has been delayed due to government concerns over data sovereignty and ",
       "urls": [
         "https://en.wikipedia.org/wiki/Geopolitics",
@@ -4796,7 +4780,14 @@
         "https://www.livenation.com/artist/K8vZ9171Caf/extreme-events"
       ],
       "date": "2026-05-01T15:32:10.797547+00:00"
+    },
+    {
+      "title": "Mistral AI has unveiled Mistral Next, a new open-source multimodal AI model designed to compete with",
+      "urls": [
+        "https://www.linkedin.com/pulse/mistral-next-open-source-multimodal-ai-rivals-giants-greybrain-oplsc"
+      ],
+      "date": "2026-05-01T16:01:14.600523+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T15:32:10.797608+00:00"
+  "lastUpdated": "2026-05-01T16:01:14.600585+00:00"
 }
