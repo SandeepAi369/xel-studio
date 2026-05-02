@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "BMW Deploys Hmnd 01 Alpha Humanoid Robots On Ev Assembly Lines",
-      "urls": [
-        "https://www.therobotreport.com/robotics-news",
-        "https://humanoidroboticstechnology.com/category/news",
-        "https://techcrunch.com/category/robotics",
-        "https://www.foxnews.com/tech/bmw-puts-humanoid-robots-work-building-evs?msockid=0becc08ee3ed65b810e3d7cde230642d",
-        "https://www.autoblog.com/news/bmw-is-putting-humanoid-robots-on-its-factory-floor-to-cut-ev-costs",
-        "https://www.assemblymag.com/articles/99984-pia-automation-launches-humanoid-robotics-unit-to-expand-industrial-automation-capabilities",
-        "https://interestingengineering.com/ai-robotics/robco-humanoid-robot-autonomous-alfie",
-        "https://www.prnewswire.com/news-releases/siemens-and-humanoid-bring-physical-ai-to-the-factory-floor-deploying-humanoids-in-industrial-operations-with-nvidia-302744559.html",
-        "https://www.iotworldtoday.com/robotics/humanoid-robots"
-      ],
-      "date": "2026-04-22T03:32:04.480117+00:00"
-    },
-    {
       "title": "Amazon Deploys Vulcan Robots To Boost Warehouse Efficiency",
       "urls": [
         "https://spectrum.ieee.org/amazon-stowing-robots",
@@ -4744,7 +4729,22 @@
         "https://www.scmp.com/news/us/article/3345483/africa-emerges-new-arena-us-china-competition-over-artificial-intelligence"
       ],
       "date": "2026-05-02T03:03:21.943834+00:00"
+    },
+    {
+      "title": "Asger became the first child to trial a new powered exoskeleton, enabling him to walk to school usin",
+      "urls": [
+        "https://www.rehabtool.com/news.html",
+        "https://webable.com",
+        "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
+        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
+        "https://www.reddit.com/r/accessibility/comments/1reup6k/do_any_news_sites_have_an_accessibility_news",
+        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
+        "https://www.bbc.com/news/topics/c8nq32jwjrdt",
+        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology",
+        "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled"
+      ],
+      "date": "2026-05-02T03:36:04.795759+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T03:03:21.943900+00:00"
+  "lastUpdated": "2026-05-02T03:36:04.795827+00:00"
 }
