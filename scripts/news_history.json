@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT researchers developed a framework to create \"humble\" AI systems that recognize and communicate u",
-      "urls": [
-        "https://stackoverflow.com/ai-assist",
-        "https://news.mit.edu/2025/ai-tool-generates-high-quality-images-faster-0321",
-        "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
-        "https://news.mit.edu/2023/explained-generative-ai-1109",
-        "https://stackoverflow.com/questions/79717434/how-to-disable-ai-autocomplete-in-vs-code",
-        "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
-        "https://news.mit.edu/2024/mit-researchers-develop-efficiency-training-more-reliable-ai-agents-1122",
-        "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219",
-        "https://news.mit.edu/2026/creating-humble-ai-0324"
-      ],
-      "date": "2026-04-22T02:01:08.656909+00:00"
-    },
-    {
       "title": "Fox News Delivers Real-Time Coverage Across Multiple Platforms",
       "urls": [
         "https://www.ms.now",
@@ -4751,7 +4736,17 @@
         "https://www.reuters.com/business/environment/one-dead-girl-missing-storm-leonardo-batters-portugal-spain-2026-02-05"
       ],
       "date": "2026-05-02T01:34:05.106316+00:00"
+    },
+    {
+      "title": "Mistral AI Launches New Open Source Speech Model",
+      "urls": [
+        "https://decrypt.co/366275/mistral-ai-open-source-model-agents-internet-not-impressed",
+        "https://www.reddit.com/r/technology/comments/1s47bwy/mistral_releases_a_new_opensource_model_for",
+        "https://en.wikipedia.org/wiki/Mistral_AI",
+        "https://news.ycombinator.com/item?id=44594156"
+      ],
+      "date": "2026-05-02T02:05:11.030514+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T01:34:05.106377+00:00"
+  "lastUpdated": "2026-05-02T02:05:11.030581+00:00"
 }
