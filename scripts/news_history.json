@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization defines disability as the interaction between individuals with health cond",
-      "urls": [
-        "https://www.who.int/europe/health-topics/disability"
-      ],
-      "date": "2026-04-22T15:02:29.428485+00:00"
-    },
-    {
       "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Decisions",
       "urls": [
         "https://news.mit.edu/2024/mit-researchers-advance-automated-interpretability-ai-models-maia-0723",
@@ -4761,7 +4754,21 @@
         "https://www.youtube.com/watch?v=6sDcNKbJwuo"
       ],
       "date": "2026-05-02T14:34:05.316413+00:00"
+    },
+    {
+      "title": "U.S. Poison Centers Report 6532% Surge in Water Bead Ingestions by Toddlers",
+      "urls": [
+        "https://www.medicaldiscoverynews.com",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx",
+        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
+        "https://commonfund.nih.gov/news-media/science-highlights",
+        "https://www.nature.com/articles/d42473-024-00347-1",
+        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
+        "https://www.youtube.com/watch?v=tvwCWwpY-X8",
+        "https://www.bioworld.com/topics/84-bioworld"
+      ],
+      "date": "2026-05-02T15:05:14.323628+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T14:34:05.316476+00:00"
+  "lastUpdated": "2026-05-02T15:05:14.323690+00:00"
 }
