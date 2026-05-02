@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zhīhū is a Chinese online community platform launched in January 2011, focused on high-quality quest",
-      "urls": [
-        "https://www.zhihu.com?lang=zh-Hant",
-        "https://answers.microsoft.com/en-us/msoffice/forum/all/excel-opens-two-files-automatically/516420d0-1776-4ad5-941f-d1adfdad561d",
-        "https://www.zhihu.com/topics",
-        "https://www.zhihu.com/question/594290080",
-        "https://www.zhihu.com/question/269704765"
-      ],
-      "date": "2026-04-22T10:31:01.150633+00:00"
-    },
-    {
       "title": "NASA Reports Sea Levels Rising Twice as Fast as 20th Century Average",
       "urls": [
         "https://climate.nasa.gov/quizzes/ocean-quiz/3/9",
@@ -4748,7 +4737,21 @@
         "https://www.reddit.com/r/MachineLearning/comments/1afryc0/n_mistral_ceo_confirms_leak_of_new_open_source_ai"
       ],
       "date": "2026-05-02T10:04:10.159098+00:00"
+    },
+    {
+      "title": "Wind And Solar Generated 17% Of U.S. Electricity In 2024",
+      "urls": [
+        "https://www.youtube.com/watch?v=spSOp5s_6_A",
+        "https://www.zmescience.com/ecology/renewable-energy-ecology/for-the-first-time-ever-wind-and-solar-produced-more-electricity-than-coal-in-the-us",
+        "https://www.utilitydive.com/news/solar-wind-generation-2025-eia/815666",
+        "https://www.usnews.com/news/us/articles/2025-10-06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says",
+        "https://www.renewableenergyworld.com/wind-power",
+        "https://www.nytimes.com/topic/subject/solar-energy",
+        "https://www.renewableenergyworld.com",
+        "https://renewablesnow.com"
+      ],
+      "date": "2026-05-02T10:38:03.797073+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T10:04:10.159161+00:00"
+  "lastUpdated": "2026-05-02T10:38:03.797125+00:00"
 }
