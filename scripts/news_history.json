@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT CSAIL Unveils MAIA To Decode Neural Network Decisions",
-      "urls": [
-        "https://news.mit.edu/2024/mit-researchers-advance-automated-interpretability-ai-models-maia-0723",
-        "https://news.mit.edu/2025/audrey-lorvo-aligning-ai-human-values-0204"
-      ],
-      "date": "2026-04-22T15:36:33.680748+00:00"
-    },
-    {
-      "title": "Anthropic Labs has launched Claude Design, a new tool enabling users to collaborate with the AI assi",
-      "urls": [
-        "https://www.anthropic.com",
-        "https://www.anthropic.com/learn",
-        "https://www.anthropic.com/careers",
-        "https://www.anthropic.com/news",
-        "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "https://www.anthropic.com/company",
-        "https://www.anthropic.com/research",
-        "https://www.anthropic.com/news/claude-2",
-        "https://www.anthropic.com/glasswing",
-        "https://www.anthropic.com/news/introducing-claude"
-      ],
-      "date": "2026-04-22T16:05:40.616540+00:00"
-    },
-    {
       "title": "Tim Cook will transition to executive chairman of Apple's board of directors, stepping down as CEO a",
       "urls": [
         "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
@@ -4782,7 +4758,19 @@
         "https://thequantuminsider.com"
       ],
       "date": "2026-05-02T15:33:52.724177+00:00"
+    },
+    {
+      "title": "Gudaf Tsegay broke the women's 5,000-meter world record with a time of 14 minutes, 00.",
+      "urls": [
+        "https://www.theguardian.com/sport/world-records",
+        "https://www.thestar.com/sports/a-look-at-some-notable-milestones-achieved-in-world-athletics-over-the-years/article_f5ab1dd0-eafc-5418-ac39-b1195cf7f204.html",
+        "https://www.stuff.co.nz/sport/360971033/marathon-record-breaker-says-he-underwent-strict-testing-regime-smashing-2-hour-barrier",
+        "https://www.instagram.com/reel/DX1YuxdtBFb",
+        "https://www.reddit.com/r/trackandfield/comments/1t1p166/jamaica_set_mixed_4x100m_relay_world_record_with",
+        "https://www.youtube.com/watch?v=9vgLLnw9w10"
+      ],
+      "date": "2026-05-02T16:33:56.647531+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T15:33:52.724255+00:00"
+  "lastUpdated": "2026-05-02T16:33:56.647599+00:00"
 }
