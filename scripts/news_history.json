@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phoenix Marathon features a 26.",
-      "urls": [
-        "https://runningintheusa.com/classic/list/marathon/az",
-        "https://phxmarathon.com",
-        "https://www.marathonguide.com/marathons/usa/az",
-        "https://www.runguides.com/arizona/runs/marathon/all",
-        "https://phoenix10k.com"
-      ],
-      "date": "2026-04-22T19:07:05.588816+00:00"
-    },
-    {
-      "title": "Robotics And Ai Institute Triples Spot Robot Speed Using Reinforcement Learning",
-      "urls": [
-        "https://spectrum.ieee.org/ai-institute",
-        "https://spectrum.ieee.org/robots-ces-2026",
-        "https://spectrum.ieee.org/ai-robots"
-      ],
-      "date": "2026-04-22T19:32:07.571884+00:00"
-    },
-    {
       "title": "Social Security Administration has expanded its digital service offerings through the my Social Secu",
       "urls": [
         "https://www.ssa.gov/myaccount",
@@ -4766,7 +4746,23 @@
         "https://www.fastcompany.com/91534207/ai-in-healthcare-is-no-longer-experimental"
       ],
       "date": "2026-05-02T19:04:12.808196+00:00"
+    },
+    {
+      "title": "Google AI Ultra Subscribers Gain Access To Enhanced Gemini Deep Think Mode",
+      "urls": [
+        "https://deepmind.google/research",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think",
+        "https://blog.google/products-and-platforms/products/gemini",
+        "https://seekingalpha.com/news/4574852-googles-deepmind-launches-more-advanced-gemini-robotics",
+        "https://www.youtube.com/watch?v=zZsTVBXcbow",
+        "https://deepmind.google/blog",
+        "https://deepmind.google",
+        "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
+        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+        "https://gemini.google/overview/deep-research"
+      ],
+      "date": "2026-05-02T19:33:01.477537+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T19:04:12.808252+00:00"
+  "lastUpdated": "2026-05-02T19:33:01.477594+00:00"
 }
