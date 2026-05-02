@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Women's Cricket Team Wins First ICC World Cup Title",
-      "urls": [
-        "https://mikefarrellsports.com/news/the-greatest-moments-in-sports-history-a-retrospective",
-        "https://gulfnews.com/photos/sports-photos/victory-heartbreak-and-history-sports-defining-images-of-2025-1.500394466",
-        "https://www.newsbreak.com/everyday-states-316335350/4597903187418-10-moments-of-triumph-in-american-sports-history",
-        "https://www.olympics.com/en/news",
-        "https://possible11.com/article/10-most-iconic-and-unforgettable-moments-in-sports-history",
-        "https://largest.org/sports/massive-achievements-that-reshaped-the-sporting-landscape",
-        "https://sports.yahoo.com/articles/10-most-important-sports-moments-120007793.html",
-        "https://outlawis.com/the-top-athletic-victories-unforgettable-moments-in-sports-history"
-      ],
-      "date": "2026-04-22T00:04:20.715854+00:00"
-    },
-    {
       "title": "Raiys Launches Digital Platform For Neurodiverse Individuals Facing Diagnosis Delays",
       "urls": [
         "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
@@ -4758,7 +4744,20 @@
         "https://www.youtube.com/watch?v=Pqk8iHpR5x4"
       ],
       "date": "2026-05-01T23:34:05.511930+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT 5.5 With Advanced Reasoning And AWS Integration",
+      "urls": [
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://releasebot.io/updates/openai",
+        "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp",
+        "https://openai.com/news/product-releases",
+        "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://openai.com/index/introducing-gpt-5-5"
+      ],
+      "date": "2026-05-02T00:07:15.636706+00:00"
     }
   ],
-  "lastUpdated": "2026-05-01T23:34:05.511998+00:00"
+  "lastUpdated": "2026-05-02T00:07:15.636789+00:00"
 }
