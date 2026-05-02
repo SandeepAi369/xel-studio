@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "CBS News launches a 24/7 live streaming channel offering real-time coverage of breaking news and top",
-      "urls": [
-        "https://www.youtube.com/c/CBSNews/live"
-      ],
-      "date": "2026-04-22T13:04:01.057545+00:00"
-    },
-    {
-      "title": "Who What: Depression Affects 280 Million Globally Says WHO",
-      "urls": [
-        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
-        "https://www.who.int/es/health-topics/mental-health"
-      ],
-      "date": "2026-04-22T13:32:21.877933+00:00"
-    },
-    {
       "title": "Fox News operates as a major American conservative news outlet, delivering coverage across televisio",
       "urls": [
         "https://www.foxnews.com?msockid=005a1e54d2d9633c11820917d39e629e"
@@ -4763,7 +4748,16 @@
         "https://www.constellationr.com/insights/news/key-takeaways-trumps-meeting-top-tech-ceos"
       ],
       "date": "2026-05-02T13:03:13.647056+00:00"
+    },
+    {
+      "title": "Screen Readers are essential software for blind and visually impaired users, converting on-screen te",
+      "urls": [
+        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
+        "https://www.govtech.com/computing/digital-inaccessibility-blind-and-low-vision-people-have-powerful-tech-but-still-face-digital-barriers",
+        "https://accessibility.wayne.edu/news/how-screen-readers-work-60460"
+      ],
+      "date": "2026-05-02T13:36:03.773094+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T13:03:13.647113+00:00"
+  "lastUpdated": "2026-05-02T13:36:03.773161+00:00"
 }
