@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Los Angeles Lakers face the Houston Rockets in the West First Round of the NBA Playoffs, with the se",
-      "urls": [
-        "https://www.nba.com/lakers/schedule",
-        "https://www.nba.com/schedule/lakers",
-        "https://www.nba.com/lakers",
-        "https://www.nba.com/news/2026-nba-playoffs-series-preview-lakers-rockets",
-        "https://www.nba.com/team/1610612747/schedule",
-        "https://www.nba.com/lakers/team/roster-coaches",
-        "https://www.nba.com/lakers/tickets",
-        "https://www.nba.com/watch/featured",
-        "https://www.nba.com/player/2544/lebron-james",
-        "https://www.nba.com/lakers/broadcast/spectrum-sportsnet-lakers-broadcast-faqs"
-      ],
-      "date": "2026-04-22T01:01:05.246118+00:00"
-    },
-    {
       "title": "Global Disability Summit 2025 Unites Leaders to Advance Inclusion for 1.3 Billion",
       "urls": [
         "https://www.who.int/health-topics/disability",
@@ -4753,7 +4737,21 @@
         "https://www.espn.com/mma"
       ],
       "date": "2026-05-02T00:37:00.786240+00:00"
+    },
+    {
+      "title": "United States Access Board released preliminary findings on AI's impact on people with disabilities,",
+      "urls": [
+        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
+        "https://www.everylearnereverywhere.org/blog/how-ai-in-assistive-technology-supports-students-and-educators-with-disabilities",
+        "https://www.undp.org/uzbekistan/blog/ai-revolution-it-game-changer-disability-inclusion",
+        "https://www.science.org/doi/10.1126/science.aea4918",
+        "https://create.uw.edu/access-boards-preliminary-findings-on-ai-and-people-with-disabilities",
+        "https://www.nycbar.org/reports/the-impact-of-the-use-of-ai-on-people-with-disabilities",
+        "https://acceleratelearning.stanford.edu/story/what-does-ai-mean-for-learners-with-disabilities",
+        "https://www.digitallearninginstitute.com/blog/revolutionising-accessibility:-the-role-of-ai-in-assistive-technology"
+      ],
+      "date": "2026-05-02T01:03:09.127183+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T00:37:00.786322+00:00"
+  "lastUpdated": "2026-05-02T01:03:09.127246+00:00"
 }
