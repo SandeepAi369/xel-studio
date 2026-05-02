@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phoenix Home Prices Surpass $480,000 Amid Housing Shortage",
-      "urls": [
-        "https://www.abc15.com",
-        "https://www.phoenixnewtimes.com/news",
-        "https://www.12news.com/watch",
-        "https://news-usa.today/fox-10-phoenix-breaking-news-and-local-arizona-stories",
-        "https://www.azfamily.com"
-      ],
-      "date": "2026-04-22T14:33:29.169929+00:00"
-    },
-    {
       "title": "World Health Organization defines disability as the interaction between individuals with health cond",
       "urls": [
         "https://www.who.int/europe/health-topics/disability"
@@ -4757,7 +4746,22 @@
         "https://www.windtech-international.com/industry-news/wind-leads-renewable-electricity-growth-in-usa-as-solar-and-batteries-drive-new-capacity"
       ],
       "date": "2026-05-02T14:05:15.875845+00:00"
+    },
+    {
+      "title": "SpaceX launched a Falcon 9 rocket carrying Northrop Grumman's Cygnus XL cargo spacecraft on a resupp",
+      "urls": [
+        "https://www.space.com/space-exploration/international-space-station/northrop-grumman-second-cygnus-xl-cargo-launch-spacex-iss",
+        "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station",
+        "https://www.nasa.gov/mission/nasas-spacex-crew-10",
+        "https://www.spacex.com/updates",
+        "https://www.youtube.com/watch?v=F6t613w-Pow",
+        "https://spacex.com",
+        "https://spaceflightnow.com/launch-schedule",
+        "https://www.youtube.com/watch?v=2lfjcP7ltfQ",
+        "https://www.youtube.com/watch?v=6sDcNKbJwuo"
+      ],
+      "date": "2026-05-02T14:34:05.316413+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T14:05:15.875914+00:00"
+  "lastUpdated": "2026-05-02T14:34:05.316476+00:00"
 }
