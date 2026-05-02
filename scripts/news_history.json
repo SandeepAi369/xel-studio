@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Raiys Launches Digital Platform For Neurodiverse Individuals Facing Diagnosis Delays",
-      "urls": [
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934",
-        "https://www.mayoclinic.org/es/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://www.mayoclinic.org/zh-hans/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://www.mayoclinichealthsystem.org/topics/autism",
-        "https://www.register-herald.com/news/nation_world/simple-ways-to-make-meetings-work-better-for-employees-on-the-autism-spectrum/article_c3310332-2d11-559e-b75a-633684d1fa53.html",
-        "https://www.healthtechdigital.com/raiys-launches-digital-support-solution-as-neurodiversity-waiting-lists-soar",
-        "https://nrinews24x7.com/how-embracing-neurodiversity-is-creating-new-job-opportunities",
-        "https://en.m.wikipedia.org/wiki/Disability",
-        "https://www.royalgazette.com/health/news/article/20260415/us-based-autism-support-group-unites-with-bermuda"
-      ],
-      "date": "2026-04-22T00:31:01.911129+00:00"
-    },
-    {
       "title": "Los Angeles Lakers face the Houston Rockets in the West First Round of the NBA Playoffs, with the se",
       "urls": [
         "https://www.nba.com/lakers/schedule",
@@ -4757,7 +4741,19 @@
         "https://openai.com/index/introducing-gpt-5-5"
       ],
       "date": "2026-05-02T00:07:15.636706+00:00"
+    },
+    {
+      "title": "Ronda Rousey is set to return to MMA for the first time since 2016, facing Gina Carano in a highly a",
+      "urls": [
+        "https://www.nytimes.com/athletic/mma",
+        "https://bleacherreport.com/mma",
+        "https://www.bbc.com/sport/mixed-martial-arts",
+        "https://sports.yahoo.com/mma",
+        "https://www.mmamania.com",
+        "https://www.espn.com/mma"
+      ],
+      "date": "2026-05-02T00:37:00.786240+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T00:07:15.636789+00:00"
+  "lastUpdated": "2026-05-02T00:37:00.786322+00:00"
 }
