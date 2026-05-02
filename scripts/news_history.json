@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Amazon And Microsoft Drive Ai Infrastructure Spending To 318 Billion",
-      "urls": [
-        "https://www.intc.com/news-events/press-releases/detail/1766/intel-and-google-deepen-collaboration-to-advance-ai",
-        "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-caps-historic-year-at-90-billion-in-q4-2025-2029-spending-to-eclipse-1-trillion",
-        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/next-2026",
-        "https://www.techradar.com/pro/ai-is-reshaping-how-infrastructure-is-built-and-scaled-intel-and-google-sign-major-xeon-chip-deal-to-power-the-next-generation-of-ai",
-        "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html?msockid=355c6ebd709b67cf37d279fe710866b3",
-        "https://www.datacenterknowledge.com/cloud/2025-cloud-highlights-ai-outages-and-the-future-of-infrastructure",
-        "https://www.aboutamazon.com/news/aws/aws-re-invent-2025-ai-news-updates",
-        "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
-        "https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained?msockid=355c6ebd709b67cf37d279fe710866b3"
-      ],
-      "date": "2026-04-22T23:01:13.575968+00:00"
-    },
-    {
       "title": "Whoop Launches Hearing Protection Feature for 430 Million Deaf Users",
       "urls": [
         "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
@@ -4765,7 +4750,14 @@
         "https://www.windpowermonthly.com/news"
       ],
       "date": "2026-05-02T22:33:55.681771+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts Over 500000 Machine Learning Models For Global Developers",
+      "urls": [
+        "https://www.nutanix.com/theforecastbynutanix/profile/hugging-face-finds-open-source-ai-and-ml-models-that-meet-business-needs"
+      ],
+      "date": "2026-05-02T23:08:17.398595+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T22:33:55.681826+00:00"
+  "lastUpdated": "2026-05-02T23:08:17.398675+00:00"
 }
