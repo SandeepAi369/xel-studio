@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches Open LLM Leaderboard to Rank 100+ Models",
-      "urls": [
-        "https://www.zhihu.com/question/564621151",
-        "https://www.zhihu.com/org/huggingface",
-        "https://www.zhihu.com/question/371644077",
-        "https://www.zhihu.com/pin/1932186071048890006",
-        "https://www.zhihu.com/question/660053501",
-        "https://github.com/Tencent-Hunyuan/HY-World-2.0",
-        "https://arena.ai",
-        "https://aiflashreport.com",
-        "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
-        "https://github.com/nousresearch/hermes-agent"
-      ],
-      "date": "2026-04-22T09:03:26.509982+00:00"
-    },
-    {
       "title": "Reuters And NBC News Deliver Real Time Global Coverage",
       "urls": [
         "https://www.reuters.com/live",
@@ -4747,7 +4731,22 @@
         "https://www.reddit.com/r/trackandfield/comments/1sw44gf/tigst_assefa_defended_her_london_marathon_title"
       ],
       "date": "2026-05-02T08:32:56.900654+00:00"
+    },
+    {
+      "title": "Giants To Spend 650 Billion On AI Infrastructure By 2026",
+      "urls": [
+        "https://cloud.google.com/ai-infrastructure",
+        "https://www.youtube.com/watch?v=1G5CgdFSA24",
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://itechtrove.net/cloud-infrastructure-trends",
+        "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2024/10/infrastructure-of-the-future-the-impact-of-ai-and-the-cloud",
+        "https://www.cloudcomputing-news.net/news/ai-demand-pushes-companies-to-invest-billions-in-cloud-infrastructure",
+        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
+        "https://www.cio.inc/ai-infrastructure-pressures-push-enterprises-to-cloud-a-30302",
+        "https://www.akamai.com/blog/cloud/ai-cloud-computing-revolutionizing-landscape"
+      ],
+      "date": "2026-05-02T09:04:07.146129+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T08:32:56.900722+00:00"
+  "lastUpdated": "2026-05-02T09:04:07.146195+00:00"
 }
