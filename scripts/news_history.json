@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Reports Sea Levels Rising Twice as Fast as 20th Century Average",
-      "urls": [
-        "https://climate.nasa.gov/quizzes/ocean-quiz/3/9",
-        "https://climate.nasa.gov/news/3192/nasa-fema-release-comprehensive-climate-action-guide?_hsenc=p2ANqtz--6-U90YbUZKvKrl4BRyEPE1rXA124X28I035oTSvMeyODJAcgfylG93w0sOD5H5EazEOwA",
-        "https://climate.nasa.gov/vital-signs/global-temperature",
-        "https://climate.nasa.gov/quizzes/quiz-co2/8/9",
-        "https://climate.nasa.gov/quizzes/sea-level-quiz/3/10",
-        "https://climate.nasa.gov/quizzes/clouds-aerosols-quiz/9/10",
-        "https://climate.nasa.gov/earth-now?event=eo_event_181126",
-        "https://climate.nasa.gov/quizzes/carbon-quiz?intent=011",
-        "https://climate.nasa.gov/visual-sitemap/resource/2022",
-        "https://climate.nasa.gov/quizzes/global-temp-quiz/4/9"
-      ],
-      "date": "2026-04-22T11:05:37.068253+00:00"
-    },
-    {
       "title": "Extreme Releases First New Album In 13 Years",
       "urls": [
         "https://extreme-band.com",
@@ -4751,7 +4735,21 @@
         "https://renewablesnow.com"
       ],
       "date": "2026-05-02T10:38:03.797073+00:00"
+    },
+    {
+      "title": "Telehealth Expansion Excludes Disabled And Low-Income Patients",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719",
+        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
+        "https://telehealth.org/news/category/technology-and-innovation",
+        "https://www.devdiscourse.com/article/technology/3889002-telemedicine-ai-and-mhealth-drive-global-shift-toward-digital-healthcare-systems",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://www.worldhealthexpo.com/insights/medical-technology/telemedicine",
+        "https://www.ces.tech/topics/digital-health",
+        "https://healthsnap.io/top-10-digital-health-trends-in-2024"
+      ],
+      "date": "2026-05-02T11:06:13.460534+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T10:38:03.797125+00:00"
+  "lastUpdated": "2026-05-02T11:06:13.460587+00:00"
 }
