@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Releases First New Album In 13 Years",
-      "urls": [
-        "https://extreme-band.com",
-        "https://www.youtube.com/watch?v=ZDm6EhYadEw",
-        "https://www.imdb.com/name/nm1928195",
-        "https://www.setlist.fm/setlists/extreme-1bd6a10c.html"
-      ],
-      "date": "2026-04-22T11:31:00.801034+00:00"
-    },
-    {
       "title": "Boardgamegeek Launches Math Trade For 2026 Gaming Hoopla Attendees",
       "urls": [
         "https://boardgamegeek.com/wiki/page/Game_Conventions",
@@ -4749,7 +4739,20 @@
         "https://healthsnap.io/top-10-digital-health-trends-in-2024"
       ],
       "date": "2026-05-02T11:06:13.460534+00:00"
+    },
+    {
+      "title": "IBM Unveils Analog AI Chip Cutting Energy Use By 75 Percent",
+      "urls": [
+        "https://www.youtube.com/watch?v=yQbfS2Mr4O8&vl=en",
+        "https://www.wsj.com/tech/ai",
+        "https://www.reddit.com/r/AISEOInsider/comments/1rs1o1v/latest_ai_news_the_biggest_ai_announcements_right",
+        "https://www.artificialintelligence-news.com",
+        "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/recent-breakthroughs-in-ai-technology",
+        "https://today.ucsd.edu/story/nine-breakthroughs-made-possible-by-ai",
+        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence"
+      ],
+      "date": "2026-05-02T11:33:59.276933+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T11:06:13.460587+00:00"
+  "lastUpdated": "2026-05-02T11:33:59.276999+00:00"
 }
