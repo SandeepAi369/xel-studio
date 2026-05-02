@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates as a major American conservative news outlet, delivering coverage across televisio",
-      "urls": [
-        "https://www.foxnews.com?msockid=005a1e54d2d9633c11820917d39e629e"
-      ],
-      "date": "2026-04-22T14:02:19.862498+00:00"
-    },
-    {
       "title": "Phoenix Home Prices Surpass $480,000 Amid Housing Shortage",
       "urls": [
         "https://www.abc15.com",
@@ -4757,7 +4750,14 @@
         "https://accessibility.wayne.edu/news/how-screen-readers-work-60460"
       ],
       "date": "2026-05-02T13:36:03.773094+00:00"
+    },
+    {
+      "title": "Wind Power Leads U.S. Renewables With 18.9% Electricity Generation In 2025",
+      "urls": [
+        "https://www.windtech-international.com/industry-news/wind-leads-renewable-electricity-growth-in-usa-as-solar-and-batteries-drive-new-capacity"
+      ],
+      "date": "2026-05-02T14:05:15.875845+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T13:36:03.773161+00:00"
+  "lastUpdated": "2026-05-02T14:05:15.875914+00:00"
 }
