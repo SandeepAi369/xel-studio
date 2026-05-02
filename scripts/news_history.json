@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Launches Virtual Trials Using AI To Cut Costs And Speed Therapy Development",
-      "urls": [
-        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
-        "https://newsnetwork.mayoclinic.org/discussion/a-year-of-discovery-10-mayo-clinic-research-breakthroughs-moving-medicine-forward",
-        "https://link.springer.com/subjects/medical-and-health-technologies",
-        "https://hms.harvard.edu/news/harvard-medical-schools-top-science-news-2025",
-        "https://www.bme.jhu.edu/news-events/news/the-research-buzz-new-bme-discoveries",
-        "https://www.nih.gov/news-events/news-releases",
-        "https://med.stanford.edu/news/all-news/2025/12/top-advancements-2025.html",
-        "https://www.scientificamerican.com/article/10-transformational-health-discoveries-of-2025"
-      ],
-      "date": "2026-04-22T18:03:29.946598+00:00"
-    },
-    {
-      "title": "Mayo Clinic research highlights a strong link between autism spectrum disorder (ASD) and digestive i",
-      "urls": [
-        "https://newsnetwork.mayoclinic.org/discussion/understanding-autism-the-path-to-diagnosis-awareness-and-support",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/doctors-departments/ddc-20352937",
-        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-treatments-and-therapies-for-autism",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/expert-answers/autism-and-digestive-symptoms/faq-20322778"
-      ],
-      "date": "2026-04-22T18:31:00.351086+00:00"
-    },
-    {
       "title": "Phoenix Marathon features a 26.",
       "urls": [
         "https://runningintheusa.com/classic/list/marathon/az",
@@ -4771,7 +4747,16 @@
         "https://www.un.org/en/climatechange/science/climate-issues/biodiversity"
       ],
       "date": "2026-05-02T18:03:10.785175+00:00"
+    },
+    {
+      "title": "Mistral AI Releases VoiceGen Model With Five Second Speaker Adaptation",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
+        "https://mistral.ai/models",
+        "https://www.techbuzz.ai/articles/mistral-ai-launches-open-source-speech-model-for-wearables"
+      ],
+      "date": "2026-05-02T18:33:58.100623+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T18:03:10.785223+00:00"
+  "lastUpdated": "2026-05-02T18:33:58.100681+00:00"
 }
