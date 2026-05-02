@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters And NBC News Deliver Real Time Global Coverage",
-      "urls": [
-        "https://www.reuters.com/live",
-        "https://www.youtube.com/@NBCNews/live",
-        "https://www.foxnews.com?msockid=02acc1f4c352677c337bd6b7c2dd6632"
-      ],
-      "date": "2026-04-22T09:33:08.938913+00:00"
-    },
-    {
-      "title": "Microsoft Store Outage Disrupts App And Game Access",
-      "urls": [
-        "https://support.microsoft.com/en-us/office/install-or-reinstall-classic-outlook-on-a-windows-pc-5c94902b-31a5-4274-abb0-b07f4661edf5",
-        "https://support.microsoft.com/en-us/windows/open-device-manager-a7f2db46-faaf-24f0-8b7b-9e4a6032fc8c",
-        "https://support.microsoft.com/en-us/office/open-encrypted-and-protected-messages-1157a286-8ecc-4b1e-ac43-2a608fbf3098",
-        "https://support.microsoft.com/en-us/account-billing/microsoft-store-doesn-t-open-126a875d-8b72-def1-0af6-d325276a058b",
-        "https://support.microsoft.com/en-us/office/open-a-project-file-72aa3f26-7626-4e7e-b03c-18f2fe1956d6"
-      ],
-      "date": "2026-04-22T10:01:08.045910+00:00"
-    },
-    {
       "title": "Zhīhū is a Chinese online community platform launched in January 2011, focused on high-quality quest",
       "urls": [
         "https://www.zhihu.com?lang=zh-Hant",
@@ -4761,7 +4741,14 @@
         "https://www.youtube.com/watch?v=000Mp6pTjx0"
       ],
       "date": "2026-05-02T09:32:57.541497+00:00"
+    },
+    {
+      "title": "Mistral AI Confirms Leak Of Upcoming Open Source Model",
+      "urls": [
+        "https://www.reddit.com/r/MachineLearning/comments/1afryc0/n_mistral_ceo_confirms_leak_of_new_open_source_ai"
+      ],
+      "date": "2026-05-02T10:04:10.159098+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T09:32:57.541553+00:00"
+  "lastUpdated": "2026-05-02T10:04:10.159161+00:00"
 }
