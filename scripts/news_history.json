@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has faced significant accessibility challenges after its domain was blocked in certain ",
-      "urls": [
-        "https://www.zhihu.com/question/439384030/answers/updated",
-        "https://www.zhihu.com/question/639318529",
-        "https://www.zhihu.com/pin/1863937065265287168",
-        "https://www.zhihu.com/pin/1910842353897418947",
-        "https://www.zhihu.com/question/439384030",
-        "https://www.zhihu.com/question/599683557/answers/updated",
-        "https://www.zhihu.com/question/4748410864",
-        "https://www.zhihu.com/org/xing-hai-tu-14"
-      ],
-      "date": "2026-04-23T14:40:19.020443+00:00"
-    },
-    {
       "title": "Amazon launched a new AI-powered tool called Amazon Bio Discovery to accelerate early-stage drug dev",
       "urls": [
         "https://www.usnews.com/news/top-news/articles/2026-04-14/amazon-launches-ai-research-tool-to-speed-early-stage-drug-discovery",
@@ -4727,7 +4713,14 @@
         "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
       ],
       "date": "2026-05-03T14:33:59.771155+00:00"
+    },
+    {
+      "title": "Digital health technologies are expanding access to mental health care, particularly for individuals",
+      "urls": [
+        "https://hsph.harvard.edu/advanced-learning-academy/news/digital-technology-for-mental-health-apps-and-beyond"
+      ],
+      "date": "2026-05-03T15:05:12.755392+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T14:33:59.771201+00:00"
+  "lastUpdated": "2026-05-03T15:05:12.755448+00:00"
 }
