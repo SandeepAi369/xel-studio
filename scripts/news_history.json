@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Three New Open-Source Models Including Mistral 3",
-      "urls": [
-        "https://venturebeat.com/ai/mistral-launches-mistral-3-a-family-of-open-models-designed-to-run-on",
-        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
-        "https://xix.ai/ainews/mistral-small-4-launches-as-europes-versatile-ai-powerhouse.html"
-      ],
-      "date": "2026-04-23T07:32:16.935668+00:00"
-    },
-    {
       "title": "WHO reports over 5% of the global population, equivalent to 430 million people, require rehabilitati",
       "urls": [
         "https://www.who.int/fr/news-room/fact-sheets/detail/deafness-and-hearing-loss"
@@ -4723,7 +4714,14 @@
         "https://www.youtube.com/watch?v=e0qTpylNuXA"
       ],
       "date": "2026-05-03T07:08:13.995599+00:00"
+    },
+    {
+      "title": "China Closes Gap on U.S. in Artificial Intelligence Capabilities",
+      "urls": [
+        "https://www.youtube.com/watch?v=sshmxyfno8U"
+      ],
+      "date": "2026-05-03T07:34:01.439116+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T07:08:13.995654+00:00"
+  "lastUpdated": "2026-05-03T07:34:01.439181+00:00"
 }
