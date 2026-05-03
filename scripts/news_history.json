@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chicago Stations Expand Live Streaming With Real Time Reporting",
-      "urls": [
-        "https://www.nbcchicago.com",
-        "https://abc7chicago.com/watch/live",
-        "https://wgntv.com/news/chicago-news"
-      ],
-      "date": "2026-04-23T01:31:02.122324+00:00"
-    },
-    {
       "title": "GitHub Reports 15000 Active AI Repositories in Early 2026",
       "urls": [
         "https://www.zhihu.com/question/2018018398953546368",
@@ -4736,7 +4727,16 @@
         "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people"
       ],
       "date": "2026-05-03T01:04:13.165692+00:00"
+    },
+    {
+      "title": "BloombergNEF Names 12 Climate Tech Startups Leading $2.3 Trillion Energy Transition",
+      "urls": [
+        "https://www.iea.org/reports/clean-energy-innovation",
+        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners",
+        "https://climateinsider.com"
+      ],
+      "date": "2026-05-03T01:32:53.088347+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T01:04:13.165748+00:00"
+  "lastUpdated": "2026-05-03T01:32:53.088416+00:00"
 }
