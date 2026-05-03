@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox 10 Phoenix Delivers Local News Across Arizona Regions",
-      "urls": [
-        "https://www.fox10phoenix.com/news",
-        "https://www.foxnews.com?msockid=09725a0ea85f668201d24d4aa9a36751"
-      ],
-      "date": "2026-04-23T00:01:20.115256+00:00"
-    },
-    {
       "title": "TikTok launched a new AI-driven content moderation system in early 2025, designed to detect and remo",
       "urls": [
         "https://themarketingjuice.com/social-media-platforms-updates-today",
@@ -4749,7 +4741,15 @@
         "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
       ],
       "date": "2026-05-02T23:35:02.385024+00:00"
+    },
+    {
+      "title": "Quantum Computing Researchers Achieve 1.2 Millisecond Qubit Coherence With Dynamic Noise Filtering",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+        "https://www.youtube.com/watch?v=t4GRe9q-Q0o"
+      ],
+      "date": "2026-05-03T00:05:11.660213+00:00"
     }
   ],
-  "lastUpdated": "2026-05-02T23:35:02.385086+00:00"
+  "lastUpdated": "2026-05-03T00:05:11.660287+00:00"
 }
