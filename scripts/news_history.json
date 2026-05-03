@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Reveal Personal Struggles In New Book By Maria Chen",
-      "urls": [
-        "https://www.sciencenews.org",
-        "https://www.sciencenews.org/sn-magazine/september-2025"
-      ],
-      "date": "2026-04-23T20:32:10.220599+00:00"
-    },
-    {
       "title": "Meta Unveils Muse Spark To Power Faster AI Responses",
       "urls": [
         "https://about.fb.com/news",
@@ -4704,7 +4696,14 @@
         "https://www.cnbc.com/economy"
       ],
       "date": "2026-05-03T20:06:17.709100+00:00"
+    },
+    {
+      "title": "Amazon Web Services Surpasses 100 Billion In 2024 Revenue",
+      "urls": [
+        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOora1mlEjUqZea8bDjhScKx6VJ8jQKHbghvBkcManrk-zQKQl0w4"
+      ],
+      "date": "2026-05-03T20:34:02.750019+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T20:06:17.709151+00:00"
+  "lastUpdated": "2026-05-03T20:34:02.750077+00:00"
 }
