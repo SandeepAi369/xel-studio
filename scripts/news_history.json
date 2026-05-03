@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Refugees Seek Asylum Amid Complex U.S. Immigration Process",
-      "urls": [
-        "https://2021-2025.state.gov/refugee-admissions/frequently-asked-questions",
-        "https://www.americanimmigrationcouncil.org/fact-sheet/asylum-united-states"
-      ],
-      "date": "2026-04-23T03:01:12.253515+00:00"
-    },
-    {
       "title": "Calgary And Juneau Fluoride Cuts Lead To 34% Cavity Surge In Young Children",
       "urls": [
         "https://www.sciencenews.org/topic/life",
@@ -4722,7 +4714,18 @@
         "https://telehealthandmedicinetoday.com"
       ],
       "date": "2026-05-03T02:34:00.621529+00:00"
+    },
+    {
+      "title": "{\"articleText\": \"Pakistan is leading a sustained diplomatic effort to facilitate renewed talks betwe",
+      "urls": [
+        "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-pakistan-peace-talks-ultimatum",
+        "https://www.aljazeera.com/news/2026/4/16/no-date-set-for-us-iran-talks-as-pakistan-pushes-to-keep-diplomacy-alive",
+        "https://www.bbc.com/news/live/cly90l3ln30t",
+        "https://www.youtube.com/watch?v=aMKYj4TmFQc",
+        "https://www.youtube.com/watch?v=NE1RZ7I-n6Q"
+      ],
+      "date": "2026-05-03T03:04:15.750523+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T02:34:00.621597+00:00"
+  "lastUpdated": "2026-05-03T03:04:15.750582+00:00"
 }
