@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon launched a new AI-powered tool called Amazon Bio Discovery to accelerate early-stage drug dev",
-      "urls": [
-        "https://www.usnews.com/news/top-news/articles/2026-04-14/amazon-launches-ai-research-tool-to-speed-early-stage-drug-discovery",
-        "https://pubs.acs.org/doi/10.1021/acsomega.5c00549",
-        "https://www.technologynetworks.com/neuroscience/articles/ai-drives-data-driven-exploration-of-novel-drug-targets-410863",
-        "https://link.springer.com/article/10.1007/s44345-025-00037-5",
-        "https://pharmaphorum.com/news/ai-drug-discovery-and-development-news-watch",
-        "https://www.genengnews.com/multimedia/summits/the-state-of-ai-in-drug-discovery-2025",
-        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706"
-      ],
-      "date": "2026-04-23T15:05:42.268644+00:00"
-    },
-    {
       "title": "U.S. Treasury Raises 10-Year Bond Yield to 4.3 Percent",
       "urls": [
         "https://www.cnbc.com/economy?msockid=21148e0abacd6ae3083c994ebb186bc7"
@@ -4720,7 +4707,14 @@
         "https://hsph.harvard.edu/advanced-learning-academy/news/digital-technology-for-mental-health-apps-and-beyond"
       ],
       "date": "2026-05-03T15:05:12.755392+00:00"
+    },
+    {
+      "title": "Mistral unveiled its next-generation open-source AI models named Mistral 3, marking a significant up",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/french-ai-startup-mistral-unveils-mistral-3-open-source-models/ar-AA1RzDcP"
+      ],
+      "date": "2026-05-03T15:32:57.707926+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T15:05:12.755448+00:00"
+  "lastUpdated": "2026-05-03T15:32:57.708008+00:00"
 }
