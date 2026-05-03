@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Calgary And Juneau Fluoride Cuts Lead To 34% Cavity Surge In Young Children",
-      "urls": [
-        "https://www.sciencenews.org/topic/life",
-        "https://www.sciencenews.org/topics",
-        "https://www.sciencenews.org/topic/earth",
-        "https://www.sciencenews.org/about-science-news",
-        "https://www.sciencenews.org/topic/humans",
-        "https://www.sciencenews.org/all-stories",
-        "https://www.sciencenews.org/article/hubble-space-telescope-35th-anniversary",
-        "https://www.sciencenews.org/article/fluoride-drinking-water-dental-health",
-        "https://www.sciencenews.org/article/science-america-trump-administration",
-        "https://www.sciencenews.org/article/fractals-math-science-society-50-years"
-      ],
-      "date": "2026-04-23T03:30:59.316470+00:00"
-    },
-    {
       "title": "{\"articleText\": \"International\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u00",
       "urls": [
         "https://mexico.internationaltrucks.com/camiones-de-carga",
@@ -4725,7 +4709,14 @@
         "https://www.youtube.com/watch?v=NE1RZ7I-n6Q"
       ],
       "date": "2026-05-03T03:04:15.750523+00:00"
+    },
+    {
+      "title": "IBM Launches Open Source Granite 4.1 AI Models For Enterprise Deployment",
+      "urls": [
+        "https://llmnews.ai"
+      ],
+      "date": "2026-05-03T03:35:10.735280+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T03:04:15.750582+00:00"
+  "lastUpdated": "2026-05-03T03:35:10.735330+00:00"
 }
