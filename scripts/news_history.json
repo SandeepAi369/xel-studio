@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zhihu Launches Video Integration to Enhance User Engagement",
-      "urls": [
-        "https://www.zhihu.com/question/580758213",
-        "https://www.zhihu.com/question/284715281"
-      ],
-      "date": "2026-04-23T23:04:21.825014+00:00"
-    },
-    {
       "title": "Google has updated its health information policies across Search, YouTube, and the Play Store to imp",
       "urls": [
         "https://support.google.com/websearch/answer/2364942?hl=en",
@@ -4696,7 +4688,20 @@
         "https://www.nwf.org/Latest-News"
       ],
       "date": "2026-05-03T22:33:57.741998+00:00"
+    },
+    {
+      "title": "Linux Foundation Launches OpenSearch Software Foundation",
+      "urls": [
+        "https://www.linux.com",
+        "https://www.linuxfoundation.org/resources/publications",
+        "https://github.blog/open-source",
+        "https://techcommunity.microsoft.com/category/azure/blog/linuxandopensourceblog",
+        "https://www.linuxtoday.com",
+        "https://opensource.org",
+        "https://www.reddit.com/r/linuxquestions/comments/1rsn7ty/are_there_any_good_linux_news_sources_out_there"
+      ],
+      "date": "2026-05-03T23:05:13.707920+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T22:33:57.742061+00:00"
+  "lastUpdated": "2026-05-03T23:05:13.707993+00:00"
 }
