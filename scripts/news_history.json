@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT researchers have developed a generative AI tool that simplifies complex statistical analysis on ",
-      "urls": [
-        "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
-        "https://news.mit.edu/2025/introducing-mit-generative-ai-impact-consortium-0203",
-        "https://news.mit.edu/2026/generative-ai-improves-wireless-vision-system-sees-through-obstructions-0319"
-      ],
-      "date": "2026-04-23T12:01:09.129007+00:00"
-    },
-    {
       "title": "IMF warns the global economy faces a significant risk of recession if the ongoing conflict involving",
       "urls": [
         "https://unctad.org/news/trade-tensions-and-rising-uncertainty-drag-global-economy-towards-recession",
@@ -4720,7 +4711,15 @@
         "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker"
       ],
       "date": "2026-05-03T11:34:00.845021+00:00"
+    },
+    {
+      "title": "Global Biodiversity Framework Fund has launched to support developing nations in meeting the 30x30 c",
+      "urls": [
+        "https://www.biologicaldiversity.org/campaigns/victories",
+        "https://www.campaignfornature.org/news/category/biodiversity+loss"
+      ],
+      "date": "2026-05-03T12:04:12.745722+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T11:34:00.845084+00:00"
+  "lastUpdated": "2026-05-03T12:04:12.745785+00:00"
 }
