@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "{\"articleText\": \"International\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u007f\\u00",
-      "urls": [
-        "https://mexico.internationaltrucks.com/camiones-de-carga",
-        "https://www.360.internationaltrucks.com",
-        "https://mexico.internationaltrucks.com/camiones-torton",
-        "https://mexico.internationaltrucks.com/hubfs/MV+6x4+Ficha+tecnica+-+2025-1.pdf",
-        "https://mexico.internationaltrucks.com/hubfs/MV+4x2+Ficha+tecnica+-+2025-1.pdf"
-      ],
-      "date": "2026-04-23T04:01:24.735490+00:00"
-    },
-    {
       "title": "Maryville R-II Voters Approve 23 Million Dollar Bond For School Upgrades",
       "urls": [
         "https://www.maryvilleforum.com/news/election_2024/voters-approve-23m-maryville-r-ii-bond/article_a7131410-f162-11ee-ac0e-6b855a7960a7.html",
@@ -4716,7 +4705,20 @@
         "https://llmnews.ai"
       ],
       "date": "2026-05-03T03:35:10.735280+00:00"
+    },
+    {
+      "title": "Meta Launches Llama 4 Scout And Maverick With Multimodal Capabilities",
+      "urls": [
+        "https://ai.meta.com/open",
+        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
+        "https://seekingalpha.com/news/4572778-meta-may-open-source-versions-of-its-upcoming-ai-models-report",
+        "https://ai.meta.com/blog/meta-llama-3-1",
+        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
+      ],
+      "date": "2026-05-03T04:04:05.928786+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T03:35:10.735330+00:00"
+  "lastUpdated": "2026-05-03T04:04:05.928854+00:00"
 }
