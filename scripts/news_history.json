@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "WMO Confirms 2015–2025 Hottest Eleven-Year Period On Record",
-      "urls": [
-        "https://wmo.int/topics/climate",
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025",
-        "https://wmo.int/topics/climate-change",
-        "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-2024-update-cop29",
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024",
-        "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance",
-        "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/wmo-global-annual-decadal-climate-update-2025-2029",
-        "https://wmo.int/resources/publication-series/state-of-global-climate/state-of-global-climate-2022",
-        "https://wmo.int/publication-series/state-of-climate-africa-2024",
-        "https://public.wmo.int/zh-hans/site/frontline-of-climate-action/state-of-climate"
-      ],
-      "date": "2026-04-23T09:01:04.310053+00:00"
-    },
-    {
       "title": "SCREEN Holdings has released updated corporate information detailing its organizational structure an",
       "urls": [
         "https://www.screen.co.jp",
@@ -4728,7 +4712,23 @@
         "https://escharts.com/upcoming-tournaments"
       ],
       "date": "2026-05-03T08:35:57.964666+00:00"
+    },
+    {
+      "title": "CausVid combines a pre-trained diffusion model with autoregressive architecture to generate high-qua",
+      "urls": [
+        "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
+        "https://www.youtube.com/watch?v=msrbd-d6lWk",
+        "https://framia.pro/blog/ai-video-generation-models",
+        "https://www.superhuman.ai/p/new-ai-video-model-takes-over-the-internet",
+        "https://www.reddit.com/r/aiwars/comments/1r0xn9w/the_videos_created_by_the_new_chinese_video",
+        "https://futurism.com/artificial-intelligence/seedance-ai-video-generator-scaring-hollywood",
+        "https://www.theinformation.com/newsletters/ai-agenda/startup-helps-users-generate-videos-without-breaking-bank",
+        "https://www.reuters.com/business/media-telecom/bytedances-new-ai-video-model-goes-viral-china-looks-second-deepseek-moment-2026-02-12",
+        "https://www.youtube.com/watch?v=SY5Wm7fUJFE",
+        "https://www.marketwatch.com/story/what-openai-scrapping-its-sora-video-generator-tells-us-about-ai-2833457a"
+      ],
+      "date": "2026-05-03T09:03:10.227959+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T08:35:57.964746+00:00"
+  "lastUpdated": "2026-05-03T09:03:10.228023+00:00"
 }
