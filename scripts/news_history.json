@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Americans With Disabilities Act Requires Accessible Parking Nationwide",
-      "urls": [
-        "https://www.thefreedictionary.com/accessible",
-        "https://www.dictionary.com/browse/accessible",
-        "https://www.collinsdictionary.com/dictionary/english/accessible",
-        "https://www.vocabulary.com/dictionary/accessible",
-        "https://en.wikipedia.org/wiki/Accessibility",
-        "https://www.wordreference.com/definition/accessible",
-        "https://www.ada.gov"
-      ],
-      "date": "2026-04-23T18:31:05.414832+00:00"
-    },
-    {
       "title": "Wheelchairs are increasingly available through major retail platforms, with Walmart offering lightwe",
       "urls": [
         "https://www.amazon.com/Wheelchairs/b?node=4075961",
@@ -4695,7 +4682,23 @@
         "https://www.foxweather.com/earth-space/video-black-diamond-pool-explodes-plumes-steam-debris-air"
       ],
       "date": "2026-05-03T18:04:10.433719+00:00"
+    },
+    {
+      "title": "Hugging Face has emerged as a central hub for open-source AI development, hosting thousands of pre-t",
+      "urls": [
+        "https://www.krasamo.com/open-source-ai-models",
+        "https://www.datacamp.com/code-along/using-open-source-models-hugging-face",
+        "https://www.datacamp.com/fr/code-along/using-open-source-models-hugging-face",
+        "https://blog-ai.digital/artificial-intelligence/hugging-face-your-gateway-to-the-world-of-ai",
+        "https://datacamp.com/es/code-along/using-open-source-models-hugging-face",
+        "https://datacamp.com/pt/code-along/using-open-source-models-hugging-face",
+        "https://datacamp.com/de/code-along/using-open-source-models-hugging-face",
+        "https://datacamp.com/fr/code-along/using-open-source-models-hugging-face",
+        "https://datacamp.com/code-along/using-open-source-models-hugging-face",
+        "https://www.iweaver.ai/blog/hugging-face-open-source-tools"
+      ],
+      "date": "2026-05-03T18:32:58.710619+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T18:04:10.433784+00:00"
+  "lastUpdated": "2026-05-03T18:32:58.710687+00:00"
 }
