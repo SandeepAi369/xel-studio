@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arizona Expands Accessible Recreation To 40 State Parks",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible",
-        "https://dictionary.cambridge.org/us/dictionary/english/accessible",
-        "https://www.yumaaz.gov/Home/Components/News/News/2407/308",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/accessible",
-        "https://familypartners.net/exploring-accessible-adventures-top-activities-for-individuals-with-disabilities"
-      ],
-      "date": "2026-04-23T06:31:03.547485+00:00"
-    },
-    {
       "title": "USA Today Launches Mobile Videos To Boost Engagement",
       "urls": [
         "https://www.usatoday.com"
@@ -4717,7 +4706,15 @@
         "https://news.ycombinator.com/item?id=46301886"
       ],
       "date": "2026-05-03T06:08:17.705562+00:00"
+    },
+    {
+      "title": "Solar Power Surges 31 Percent Globally in First Half of Year",
+      "urls": [
+        "https://apnews.com/article/climate-renewable-wind-solar-coal-electricity-demand-abf7b587b038bf7580de1baee6576bbc",
+        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
+      ],
+      "date": "2026-05-03T06:36:05.714852+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T06:08:17.705640+00:00"
+  "lastUpdated": "2026-05-03T06:36:05.714913+00:00"
 }
