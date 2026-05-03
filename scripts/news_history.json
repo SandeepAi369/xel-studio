@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Document Ecological Shifts In Grand Canyon Rivers",
-      "urls": [
-        "https://www.science.org",
-        "https://www.science.org/journal/science",
-        "https://www.science.org/toc/science/current",
-        "https://www.science.org/journals",
-        "https://www.science.org/news"
-      ],
-      "date": "2026-04-23T17:02:30.336407+00:00"
-    },
-    {
       "title": "Daily Jumble Puzzle Solutions Updated on JumbleAnswers.com",
       "urls": [
         "https://jumbleanswers.com/quick-joke-crossword-clue",
@@ -4691,7 +4680,18 @@
         "https://finance.yahoo.com/news/sports-technology-market-insights-companies-125000113.html"
       ],
       "date": "2026-05-03T16:33:56.360329+00:00"
+    },
+    {
+      "title": "Apple has entered a strategic partnership with Google to integrate Gemini, Google's large language m",
+      "urls": [
+        "https://www.ghacks.net/category/companies",
+        "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai",
+        "https://adage.com/technology/ai/aa-emerging-tech-news-and-trends-google-microsoft-urban-outfitters",
+        "https://www.youtube.com/watch?v=-G5O72GQ1qE",
+        "https://finance.yahoo.com/sectors/technology/articles/microsoft-meta-google-just-announced-011712139.html"
+      ],
+      "date": "2026-05-03T17:04:10.234995+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T16:33:56.360390+00:00"
+  "lastUpdated": "2026-05-03T17:04:10.235086+00:00"
 }
