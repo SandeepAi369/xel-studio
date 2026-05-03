@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has released ml-intern, an open-source AI agent designed to automate post-training work",
-      "urls": [
-        "https://www.newsbreak.com/news/4605462575245-hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
-        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
-        "https://the-decoder.com/hugging-face-launches-omni-chat-an-ai-router-for-open-source-models"
-      ],
-      "date": "2026-04-23T14:01:29.690717+00:00"
-    },
-    {
       "title": "Hugging Face has faced significant accessibility challenges after its domain was blocked in certain ",
       "urls": [
         "https://www.zhihu.com/question/439384030/answers/updated",
@@ -4713,7 +4704,14 @@
         "https://www.cmu.edu/computing/news/2025/ai-future-accessibility.html"
       ],
       "date": "2026-05-03T13:33:59.434317+00:00"
+    },
+    {
+      "title": "AudioEye Launches New Guidelines for Deaf And Hard-Of-Hearing Accessibility",
+      "urls": [
+        "https://www.audioeye.com/post/digital-accessibility-deaf-hard-of-hearing"
+      ],
+      "date": "2026-05-03T14:07:18.987774+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T13:33:59.434384+00:00"
+  "lastUpdated": "2026-05-03T14:07:18.987843+00:00"
 }
