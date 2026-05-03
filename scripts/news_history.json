@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SCREEN Holdings has released updated corporate information detailing its organizational structure an",
-      "urls": [
-        "https://www.screen.co.jp",
-        "https://www.screen.co.jp/about/outline",
-        "https://www.screen.co.jp/products",
-        "https://www.screen.co.jp/about",
-        "https://www.screen.co.jp/ir"
-      ],
-      "date": "2026-04-23T09:33:14.117816+00:00"
-    },
-    {
       "title": "Developers Use JSON For Web APIs And Configuration Files",
       "urls": [
         "https://www.zhihu.com/question/11381547077",
@@ -4728,7 +4717,14 @@
         "https://www.marketwatch.com/story/what-openai-scrapping-its-sora-video-generator-tells-us-about-ai-2833457a"
       ],
       "date": "2026-05-03T09:03:10.227959+00:00"
+    },
+    {
+      "title": "Whill Launches AI-Powered Smart Wheelchair With Real-Time Navigation",
+      "urls": [
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopc41IQm9eChERkypW1NJiEgHRWTGhsk-CSZeY3WjBTkCINeG3n"
+      ],
+      "date": "2026-05-03T09:33:57.369713+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T09:03:10.228023+00:00"
+  "lastUpdated": "2026-05-03T09:33:57.369780+00:00"
 }
