@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Raises $30 Billion in Series G Funding Round",
-      "urls": [
-        "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
-      ],
-      "date": "2026-04-23T11:31:00.586595+00:00"
-    },
-    {
       "title": "MIT researchers have developed a generative AI tool that simplifies complex statistical analysis on ",
       "urls": [
         "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
@@ -4720,7 +4713,14 @@
         "https://edition.cnn.com/2026/04/22/science/video/ai-medicine-health-doctor-science-treatment-lead-jake-tapper"
       ],
       "date": "2026-05-03T11:05:07.809431+00:00"
+    },
+    {
+      "title": "IAPP maintains a comprehensive tracker of U.",
+      "urls": [
+        "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker"
+      ],
+      "date": "2026-05-03T11:34:00.845021+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T11:05:07.809497+00:00"
+  "lastUpdated": "2026-05-03T11:34:00.845084+00:00"
 }
