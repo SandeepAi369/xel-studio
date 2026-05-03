@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Treasury Raises 10-Year Bond Yield to 4.3 Percent",
-      "urls": [
-        "https://www.cnbc.com/economy?msockid=21148e0abacd6ae3083c994ebb186bc7"
-      ],
-      "date": "2026-04-23T15:33:02.156623+00:00"
-    },
-    {
-      "title": "LocalAI is an open-source project designed to let users run large language models locally on consume",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI",
-        "https://www.reddit.com/r/OpenAI/comments/187fzdb/openai_api_free_alternative_or_does_openai_api",
-        "https://www.reddit.com/r/OpenAI/comments/12saych/openai_refuses_to_take_my_money_three_different",
-        "https://www.reddit.com/r/cscareerquestions/comments/15wf2w9/name_and_shame_openai",
-        "https://www.reddit.com/r/selfhosted/comments/12w4p2f/localai_openai_compatible_api_to_run_llm_models",
-        "https://www.reddit.com/r/OpenAI/comments/xgeo5i/what_do_you_think_about_codex",
-        "https://www.reddit.com/r/OpenAI/comments/vc3aub/openai_is_not_open",
-        "https://www.reddit.com/r/LocalLLaMA/comments/195mi89/cost_comparisons_between_openai_mistral_claude",
-        "https://www.reddit.com/r/OpenAI/comments/1913ggm/anyone_knows_how_to_request_account_email_change",
-        "https://www.reddit.com/r/OpenAI/comments/1cfxd42/how_is_openai_going_to_be_profitable_if_they_have"
-      ],
-      "date": "2026-04-23T16:04:22.363350+00:00"
-    },
-    {
       "title": "NVIDIA has launched a beta version of its new NVIDIA app intended to replace GeForce Experience, con",
       "urls": [
         "https://www.reddit.com/r/nvidia?t=DAY",
@@ -4714,7 +4691,14 @@
         "https://www.msn.com/en-us/technology/artificial-intelligence/french-ai-startup-mistral-unveils-mistral-3-open-source-models/ar-AA1RzDcP"
       ],
       "date": "2026-05-03T15:32:57.707926+00:00"
+    },
+    {
+      "title": "Digital Privacy Rights Project has launched a new initiative to evaluate and rank major technology c",
+      "urls": [
+        "https://www.theguardian.com/sustainable-business/who-protects-digital-privacy-rankings"
+      ],
+      "date": "2026-05-03T16:08:19.906039+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T15:32:57.708008+00:00"
+  "lastUpdated": "2026-05-03T16:08:19.906101+00:00"
 }
