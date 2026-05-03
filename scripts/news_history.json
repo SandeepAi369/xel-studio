@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wheelchairs are increasingly available through major retail platforms, with Walmart offering lightwe",
-      "urls": [
-        "https://www.amazon.com/Wheelchairs/b?node=4075961",
-        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051",
-        "https://www.1800wheelchair.com",
-        "https://www.homedepot.com/b/Health-And-Wellness-Mobility-Aids-Wheelchairs/N-5yc1vZc8kh",
-        "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs"
-      ],
-      "date": "2026-04-23T19:05:34.311054+00:00"
-    },
-    {
-      "title": "Quantum Fiber has launched its fiber internet service in Grand Forks, North Dakota, offering symmetr",
-      "urls": [
-        "https://www.quantumfiber.com/local/nd/grand-forks",
-        "https://www.nature.com/subjects/quantum-physics"
-      ],
-      "date": "2026-04-23T19:30:59.781436+00:00"
-    },
-    {
       "title": "Earth Now provides real-time climate data through NASA's Vital Signs of the Planet program, tracking",
       "urls": [
         "https://climate.nasa.gov/visual-sitemap/news/2015/in-progress",
@@ -4706,7 +4687,16 @@
         "https://www.youtube.com/watch?v=xq-E2WmsW30"
       ],
       "date": "2026-05-03T19:04:09.633913+00:00"
+    },
+    {
+      "title": "AI infrastructure is undergoing a strategic shift as companies reassess compute strategies amid risi",
+      "urls": [
+        "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
+        "https://www.cio.com/article/4151376/scaling-ai-demands-a-new-infrastructure-playbook.html",
+        "https://www.youtube.com/watch?v=6KbrxjaxiYs"
+      ],
+      "date": "2026-05-03T19:39:09.260107+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T19:04:09.633973+00:00"
+  "lastUpdated": "2026-05-03T19:39:09.260173+00:00"
 }
