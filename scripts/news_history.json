@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "WHO reports over 5% of the global population, equivalent to 430 million people, require rehabilitati",
-      "urls": [
-        "https://www.who.int/fr/news-room/fact-sheets/detail/deafness-and-hearing-loss"
-      ],
-      "date": "2026-04-23T08:03:19.773732+00:00"
-    },
-    {
-      "title": "Astronauts Suni Williams and Butch Wilmore Complete Nine-Month ISS Mission",
-      "urls": [
-        "https://www.sciencenews.org/topic/space",
-        "https://www.sciencenews.org/article/astronauts-stuck-space-return-health",
-        "https://www.sciencenews.org/article/space-missions-in-2024-recap",
-        "https://www.sciencenews.org/article/favorite-space-stories-2025",
-        "https://www.sciencenews.org/article/space-exploration-nasa-trump",
-        "https://www.sciencenews.org/article/nasa-artemis-launch-humans-moon",
-        "https://www.sciencenews.org/article/quantum-computer-space-physics",
-        "https://www.sciencenews.org/article/international-space-station-microbial",
-        "https://www.sciencenews.org/article/favorite-top-space-images-of-all-time"
-      ],
-      "date": "2026-04-23T08:35:16.670893+00:00"
-    },
-    {
       "title": "WMO Confirms 2015–2025 Hottest Eleven-Year Period On Record",
       "urls": [
         "https://wmo.int/topics/climate",
@@ -4736,7 +4714,21 @@
         "https://www.harvard.edu/in-focus/breakthroughs-of-2025"
       ],
       "date": "2026-05-03T08:03:08.932421+00:00"
+    },
+    {
+      "title": "Esports Champions Launch Season Two With Street Fighter 6 And Call Of Duty Tournaments",
+      "urls": [
+        "https://www.esportschampionship.gg",
+        "https://ugc.gg",
+        "https://armedforcessports.defense.gov/Sports/Esports/Events/2022-Esports-Championship",
+        "https://www.yahoo.com/news/videos/professional-esports-tournament-competing-1m-143912673.html",
+        "https://www.cnn.com/specials/esports",
+        "https://www.youtube.com/watch?v=GZjmIuQ_5ek",
+        "https://www.youtube.com/watch?v=XeUdNx39fDo",
+        "https://escharts.com/upcoming-tournaments"
+      ],
+      "date": "2026-05-03T08:35:57.964666+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T08:03:08.932486+00:00"
+  "lastUpdated": "2026-05-03T08:35:57.964746+00:00"
 }
