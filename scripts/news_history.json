@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earth Now provides real-time climate data through NASA's Vital Signs of the Planet program, tracking",
-      "urls": [
-        "https://climate.nasa.gov/visual-sitemap/news/2015/in-progress",
-        "https://climate.nasa.gov/earth-now?event=eo_event_190422"
-      ],
-      "date": "2026-04-23T20:04:20.005465+00:00"
-    },
-    {
       "title": "Scientists Reveal Personal Struggles In New Book By Maria Chen",
       "urls": [
         "https://www.sciencenews.org",
@@ -4696,7 +4688,23 @@
         "https://www.youtube.com/watch?v=6KbrxjaxiYs"
       ],
       "date": "2026-05-03T19:39:09.260107+00:00"
+    },
+    {
+      "title": "World Bank reports that global energy prices are projected to surge 24 percent in 2026, driven by on",
+      "urls": [
+        "https://www.wsj.com/economy/global",
+        "https://www.reuters.com/markets/econ-world",
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
+        "https://www.nytimes.com/section/business/economy",
+        "https://www.youtube.com/watch?v=2kHfzyWIKmY",
+        "https://www.youtube.com/watch?v=Xj5pSmvHafo",
+        "https://apnews.com/hub/inflation",
+        "https://www.cnn.com/business/economy",
+        "https://finance.yahoo.com/topic/economic-news",
+        "https://www.cnbc.com/economy"
+      ],
+      "date": "2026-05-03T20:06:17.709100+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T19:39:09.260173+00:00"
+  "lastUpdated": "2026-05-03T20:06:17.709151+00:00"
 }
