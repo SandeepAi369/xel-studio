@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "GitHub Reports 15000 Active AI Repositories in Early 2026",
-      "urls": [
-        "https://www.zhihu.com/question/2018018398953546368",
-        "https://www.zhihu.com/question/1936975185833096194",
-        "https://www.zhihu.com/question/554629898",
-        "https://www.zhihu.com/question/62147169",
-        "https://www.linkedin.com/posts/thinkwik_𝗦𝗵𝗼𝘂𝗹𝗱-𝘄𝗲-𝗯𝘂𝗶𝗹𝗱-𝘄𝗶𝘁𝗵-activity-7451875984833961985-Q-Fs",
-        "https://www.femaleswitch.com/startup-tools/tpost/top-open-source-alternatives-to-mural-ai",
-        "https://www.aibars.net/zh/library/open-source-ai/ranking/last-update",
-        "https://www.datacamp.com/blog/how-to-learn-ai",
-        "https://www.facebook.com/groups/palgeeks/posts/25823721470622866"
-      ],
-      "date": "2026-04-23T02:03:31.930948+00:00"
-    },
-    {
       "title": "Judge Brown Blocks Ohio Fetal Remains Law Enforcement",
       "urls": [
         "https://www.bucyrustelegraphforum.com/news",
@@ -4736,7 +4721,14 @@
         "https://climateinsider.com"
       ],
       "date": "2026-05-03T01:32:53.088347+00:00"
+    },
+    {
+      "title": "Mistral AI launched Mistral Medium 3.",
+      "urls": [
+        "https://tech.yahoo.com/ai/articles/mistral-ai-drops-open-source-213103938.html"
+      ],
+      "date": "2026-05-03T02:04:06.841084+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T01:32:53.088416+00:00"
+  "lastUpdated": "2026-05-03T02:04:06.841151+00:00"
 }
