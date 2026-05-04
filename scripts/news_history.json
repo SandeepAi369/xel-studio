@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates as a major U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=2f54a4330bb86bec3833b3760a7d6af9"
-      ],
-      "date": "2026-04-24T09:03:19.456859+00:00"
-    },
-    {
       "title": "War Players Compete Globally With 2.3 Million Users Tracking Real Time Rankings",
       "urls": [
         "https://play.wargrow.com.br"
@@ -4673,7 +4666,15 @@
         "https://www.cbssports.com/ufc"
       ],
       "date": "2026-05-04T08:35:07.933946+00:00"
+    },
+    {
+      "title": "Alibaba Launches HappyHorse 1.0 AI Model Ranking First Globally",
+      "urls": [
+        "https://www.youtube.com/watch?v=mxENDuxq8O4",
+        "https://www.wsj.com/tech/ai/alibabas-new-ai-video-generation-model-tops-global-ranking-after-debut-801fe3f7"
+      ],
+      "date": "2026-05-04T09:07:20.620380+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T08:35:07.934010+00:00"
+  "lastUpdated": "2026-05-04T09:07:20.620443+00:00"
 }
