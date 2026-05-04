@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters provides comprehensive coverage of U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=071b3180f9ab6e732e4026c5f87c6f62",
-        "https://www.reuters.com/world/us"
-      ],
-      "date": "2026-04-24T12:33:15.745236+00:00"
-    },
-    {
       "title": "PC Gamer Forum Users Report Screen Shutdowns After Graphics Card Upgrades",
       "urls": [
         "https://forums.pcgamer.com/threads/your-2025-gaming-resolutions.147105",
@@ -4651,7 +4643,14 @@
         "https://www.instagram.com/reel/DX1t6BXzGvd?hl=en"
       ],
       "date": "2026-05-04T12:05:24.672833+00:00"
+    },
+    {
+      "title": "Van Buren Township experienced an EF-1 tornado on April 4, 2026, confirmed by National Weather Servi",
+      "urls": [
+        "https://www.weather.gov/dtx/severeweather04042026"
+      ],
+      "date": "2026-05-04T12:38:14.373907+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T12:05:24.672897+00:00"
+  "lastUpdated": "2026-05-04T12:38:14.373986+00:00"
 }
