@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Olympics.com Launches Global Live Streaming Platform For 40+ Sports",
-      "urls": [
-        "https://www.olympics.com/en/live"
-      ],
-      "date": "2026-04-24T06:33:06.332870+00:00"
-    },
-    {
       "title": "California Department Of Fish And Wildlife Protects 800 Native Species",
       "urls": [
         "https://wildlife.ca.gov",
@@ -4683,7 +4676,14 @@
         "https://www.nasa.gov/event-type/launch-schedule"
       ],
       "date": "2026-05-04T06:04:15.313032+00:00"
+    },
+    {
+      "title": "Environmental Protection Agency reversed a decades-old determination that greenhouse gases endanger ",
+      "urls": [
+        "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
+      ],
+      "date": "2026-05-04T06:35:09.311337+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T06:04:15.313108+00:00"
+  "lastUpdated": "2026-05-04T06:35:09.311393+00:00"
 }
