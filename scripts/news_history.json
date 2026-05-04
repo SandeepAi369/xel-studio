@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple users are reporting a surge in fraudulent security alert emails designed to mimic official App",
-      "urls": [
-        "https://discussions.apple.com/thread/256192348",
-        "https://discussions.apple.com/thread/255969524",
-        "https://discussions.apple.com/thread/255946401"
-      ],
-      "date": "2026-04-24T08:02:09.662037+00:00"
-    },
-    {
       "title": "Konami Launches eFootball 2024 With Free-To-Play Model",
       "urls": [
         "https://www.konami.com/efootball/en/page/overview",
@@ -4682,7 +4673,14 @@
         "https://www.youtube.com/watch?v=N6vCYVutMcM"
       ],
       "date": "2026-05-04T07:37:19.314459+00:00"
+    },
+    {
+      "title": "SocialBee releases a comprehensive monthly update tracking social media platform changes, algorithm ",
+      "urls": [
+        "https://socialbee.com/blog/social-media-news"
+      ],
+      "date": "2026-05-04T08:04:12.359223+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T07:37:19.314522+00:00"
+  "lastUpdated": "2026-05-04T08:04:12.359287+00:00"
 }
