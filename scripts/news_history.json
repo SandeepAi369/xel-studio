@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kimi K2 Outperforms ChatGPT And Grok In New AI Benchmarks",
-      "urls": [
-        "https://www.ibm.com/think/news/open-source-models-surpass-closed-models",
-        "https://www.geeky-gadgets.com/deepseek-4-open-source-ai-release",
-        "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-516g",
-        "https://runpod.ghost.io/the-open-source-ai-renaissance-how-community-models-are-shaping-the-future",
-        "https://www.digitalapplied.com/blog/open-source-ai-landscape-april-2026-gemma-qwen-llama",
-        "https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss"
-      ],
-      "date": "2026-04-24T14:02:14.600925+00:00"
-    },
-    {
       "title": "Gen Z Dumps Smartphones For Flip Phones To Boost Mental Health",
       "urls": [
         "https://psychtimes.com/tech/digital-balance-how-technology-is-shaping-modern-mental-wellness",
@@ -4652,7 +4640,16 @@
         "https://www.youtube.com/watch?v=sXVbWkoCVaA"
       ],
       "date": "2026-05-04T13:39:56.762854+00:00"
+    },
+    {
+      "title": "Afghanistan has reported 77 deaths and 137 injuries following severe storms that triggered widesprea",
+      "urls": [
+        "https://weather.com/news/weather/news/2026-04-05-afghanistan-floods-landslides-rain",
+        "https://www.actionnews5.com/2026/04/29/storm-recap-looking-back-severe-weather-across-mid-south-april-27-29-2026",
+        "https://www.facebook.com/242MetService/posts/severe-weather-warning-the-bahamas-department-of-meteorology-has-re-issued-a-sev/1381060074052184"
+      ],
+      "date": "2026-05-04T14:08:27.082165+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T13:39:56.762928+00:00"
+  "lastUpdated": "2026-05-04T14:08:27.082234+00:00"
 }
