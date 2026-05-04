@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bazzite is a Linux-based gaming operating system designed for handheld devices like the Steam Deck, ",
-      "urls": [
-        "https://www.reddit.com/r/linux_gaming/comments/1c2hxnr/anyone_running_bazzite_with_nvidia_gpu"
-      ],
-      "date": "2026-04-24T20:31:00.019407+00:00"
-    },
-    {
       "title": "Colonial Sports Expands Running Shoe Selection for Greater Williamsburg Runners",
       "urls": [
         "https://www.visitwilliamsburg.com/listing/colonial-sports-retail/4795"
@@ -4630,7 +4623,15 @@
         "https://apnews.com/hub/international-trade"
       ],
       "date": "2026-05-04T20:08:19.303906+00:00"
+    },
+    {
+      "title": "PyTorch is gaining rapid adoption in enterprise environments due to its intuitive design and ease of",
+      "urls": [
+        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework",
+        "https://www.infoworld.com/article/2261334/why-enterprises-are-turning-from-tensorflow-to-pytorch.html"
+      ],
+      "date": "2026-05-04T20:35:09.955880+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T20:08:19.303970+00:00"
+  "lastUpdated": "2026-05-04T20:35:09.955947+00:00"
 }
