@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "WWF Reports 50 Percent Global Wildlife Decline Since 1970",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Wildlife",
-        "https://wildlife.dgf.nm.gov",
-        "https://www.worldwildlife.org",
-        "https://www.fws.gov",
-        "https://www.nwf.org/Wildlife.aspx",
-        "https://education.nationalgeographic.org/resource/wildlife-around-the-world",
-        "https://wildlife.org",
-        "https://www.imdb.com/title/tt5929754",
-        "https://explore.panda.org/wildlife",
-        "https://wildlifeinformer.com"
-      ],
-      "date": "2026-04-24T03:01:11.926756+00:00"
-    },
-    {
       "title": "Google Releases Open Sans Typeface For Digital Clarity",
       "urls": [
         "https://www.zhihu.com/question/28957092",
@@ -4701,7 +4685,15 @@
         "https://openai.com/index/introducing-gpt-rosalind"
       ],
       "date": "2026-05-04T02:35:01.569066+00:00"
+    },
+    {
+      "title": "United States officials are considering new export rules for AI chips, requiring foreign nations to ",
+      "urls": [
+        "https://www.ft.com/content/ab4313dc-3b7d-11e9-b72b-2c7f526ca5d0",
+        "https://m.economictimes.com/tech/technology/us-mulls-new-rules-for-ai-chip-exports-including-requiring-us-investments-by-foreign-firms/articleshow/129127663.cms"
+      ],
+      "date": "2026-05-04T03:03:14.389584+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T02:35:01.569135+00:00"
+  "lastUpdated": "2026-05-04T03:03:14.389663+00:00"
 }
