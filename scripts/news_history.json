@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Mistral Small 3.1 For Efficient Multimodal Enterprise Applications",
-      "urls": [
-        "https://www.zhihu.com/question/624299709",
-        "https://www.zhihu.com/question/2018300329490412488",
-        "https://www.zhihu.com/question/634137761",
-        "https://www.zhihu.com/question/15346365588",
-        "https://www.zhihu.com/question/655616250"
-      ],
-      "date": "2026-04-24T02:34:12.054253+00:00"
-    },
-    {
       "title": "WWF Reports 50 Percent Global Wildlife Decline Since 1970",
       "urls": [
         "https://en.wikipedia.org/wiki/Wildlife",
@@ -4697,7 +4686,22 @@
         "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students"
       ],
       "date": "2026-05-04T02:03:09.983569+00:00"
+    },
+    {
+      "title": "Atomwise Uses AtomNet AI To Accelerate Drug Discovery For Pharmaceutical Partners",
+      "urls": [
+        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
+        "https://www.sciencedirect.com/science/article/pii/S1570180826000710",
+        "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
+        "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-2026-04-14",
+        "https://www.wsj.com/health/pharma/the-quest-to-use-ai-to-help-find-new-drugs-a754fdc3",
+        "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development",
+        "https://www.reddit.com/r/bioinformatics/comments/1ow6qmr/curious_what_folks_here_think_about_the_current",
+        "https://openai.com/index/introducing-gpt-rosalind"
+      ],
+      "date": "2026-05-04T02:35:01.569066+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T02:03:09.983660+00:00"
+  "lastUpdated": "2026-05-04T02:35:01.569135+00:00"
 }
