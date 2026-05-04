@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates as a leading U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=08ee50861fce6d1e2c8447c31e346c34"
-      ],
-      "date": "2026-04-24T18:38:26.005573+00:00"
-    },
-    {
       "title": "Panther Robot Launches With World First 8 DoF Bionic Arms",
       "urls": [
         "https://www.roboticstomorrow.com/tag/humanoid",
@@ -4627,7 +4620,17 @@
         "https://techfundingnews.com/category/acquisition"
       ],
       "date": "2026-05-04T18:37:00.499747+00:00"
+    },
+    {
+      "title": "Anthropic CEO Warns AI Could Replace Half Of White Collar Jobs",
+      "urls": [
+        "https://fortune.com/article/why-is-anthropic-ceo-dario-amodei-deeply-uncomfortable-companies-in-charge-ai-regulating-themselves",
+        "https://www.cnbc.com/2026/01/27/dario-amodei-warns-ai-cause-unusually-painful-disruption-jobs.html",
+        "https://www.youtube.com/watch?v=sTnl8O_BuuE",
+        "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming"
+      ],
+      "date": "2026-05-04T19:04:20.785124+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T18:37:00.499820+00:00"
+  "lastUpdated": "2026-05-04T19:04:20.785186+00:00"
 }
