@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "popEVE AI Model Speeds Rare Genetic Disease Diagnosis",
-      "urls": [
-        "https://www.nature.com/articles/s44387-026-00076-4",
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://hms.harvard.edu/news/new-artificial-intelligence-model-could-speed-rare-disease-diagnosis",
-        "https://www.techtimes.com/articles/313148/20251204/ai-healthcare-diagnosis-2025-medical-ai-tools-revolutionizing-accuracy.htm",
-        "https://washingtondc.jhu.edu/news/5-ways-ai-is-transforming-health-care-worldwide"
-      ],
-      "date": "2026-04-24T23:32:57.179877+00:00"
-    },
-    {
       "title": "NASA Advances Crew-13 Launch With SpaceX Dragon Mission",
       "urls": [
         "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission",
@@ -4616,7 +4605,16 @@
         "https://9to5linux.com"
       ],
       "date": "2026-05-04T23:06:17.790652+00:00"
+    },
+    {
+      "title": "Mit Physicists Unveil Terahertz Microscope To Track Quantum Electron Motions",
+      "urls": [
+        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
+        "https://www.latimes.com/doctors-scientists/innovations",
+        "https://www.pennmedicine.org/news/research-innovation"
+      ],
+      "date": "2026-05-04T23:37:12.355472+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T23:06:17.790712+00:00"
+  "lastUpdated": "2026-05-04T23:37:12.355546+00:00"
 }
