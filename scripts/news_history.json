@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Colorado lawmakers are amending a proposed age verification bill to exclude open source software fro",
-      "urls": [
-        "https://itsfoss.com/news",
-        "https://linuxiac.com/category/news",
-        "https://linuxlap.com/category/news",
-        "https://www.newinlinux.com",
-        "https://www.dailylinux.com",
-        "https://www.heise.de/en/opensource",
-        "https://www.linuxinsider.com/section/community",
-        "https://lwn.net",
-        "https://9to5linux.com",
-        "https://www.linuxfoundation.org/blog/the-state-of-open-source-software-in-2025"
-      ],
-      "date": "2026-04-24T10:03:16.735678+00:00"
-    },
-    {
       "title": "John Korir Wins Boston Marathon In Course Record 2:01:52",
       "urls": [
         "https://runningintheusa.com/classic/list/marathon/upcoming/ca",
@@ -4676,7 +4660,14 @@
         "https://www.instagram.com/reel/DVHV-bfikSI"
       ],
       "date": "2026-05-04T09:38:06.369547+00:00"
+    },
+    {
+      "title": "Mistral AI launched the Mistral 3 family, a suite of fully open-source multimodal AI models released",
+      "urls": [
+        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai"
+      ],
+      "date": "2026-05-04T10:04:11.611962+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T09:38:06.369615+00:00"
+  "lastUpdated": "2026-05-04T10:04:11.612057+00:00"
 }
