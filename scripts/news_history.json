@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Releases Open Sans Typeface For Digital Clarity",
-      "urls": [
-        "https://www.zhihu.com/question/28957092",
-        "https://www.zhihu.com/question/21821842"
-      ],
-      "date": "2026-04-24T03:33:05.201546+00:00"
-    },
-    {
       "title": "Milankovitch Cycles Drive Earth's Long Term Climate Shifts",
       "urls": [
         "https://www.climate.nasa.gov/system/internal_resources/details/original/1736_world-of-agreement-2018.jpg",
@@ -4693,7 +4685,16 @@
         "https://m.economictimes.com/tech/technology/us-mulls-new-rules-for-ai-chip-exports-including-requiring-us-investments-by-foreign-firms/articleshow/129127663.cms"
       ],
       "date": "2026-05-04T03:03:14.389584+00:00"
+    },
+    {
+      "title": "Nfl Fans Choose Local Broadcasts Over Streaming Platforms",
+      "urls": [
+        "https://streamscharts.com/news",
+        "https://www.ctam.com/industry-resources/media-behaviors-and-industry-trends/video-streaming-consumer-trends/sports-streaming-gaming",
+        "https://www.bloomberg.com/screentime-video-games-esports"
+      ],
+      "date": "2026-05-04T03:35:00.994768+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T03:03:14.389663+00:00"
+  "lastUpdated": "2026-05-04T03:35:00.994820+00:00"
 }
