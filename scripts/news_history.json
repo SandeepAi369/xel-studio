@@ -1,40 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Reserve Holds Rates Steady Amid Global Manufacturing Slump",
-      "urls": [
-        "https://www.wsj.com/economy/global?msockid=384292768e6267cd0cf785338fbf6607",
-        "https://www.cnbc.com/world-economy?msockid=384292768e6267cd0cf785338fbf6607",
-        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR2RtY0hNekVnSmxiaWdBUAE"
-      ],
-      "date": "2026-04-24T16:05:36.254793+00:00"
-    },
-    {
-      "title": "Autism Spectrum Disorder Affects Communication And Social Skills In Early Childhood",
-      "urls": [
-        "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-what-is-autism"
-      ],
-      "date": "2026-04-24T16:30:56.264507+00:00"
-    },
-    {
-      "title": "Anthropic Exposes Claude Code CLI Source Code Via Npm Error",
-      "urls": [
-        "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
-        "https://www.morphllm.com/best-ai-model-for-coding",
-        "https://aimagazine.com",
-        "https://www.blender.org",
-        "https://www.infoq.com/news/2026/04/claude-code-source-leak"
-      ],
-      "date": "2026-04-24T17:01:15.734639+00:00"
-    },
-    {
-      "title": "Wmo Reports 2025 On Track To Be Hottest Or Third Hottest Year",
-      "urls": [
-        "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop30"
-      ],
-      "date": "2026-04-24T17:30:59.832302+00:00"
-    },
-    {
       "title": "Moss Spores Survive Nine Months In Space",
       "urls": [
         "https://www.sciencenews.org/article/moss-spores-survive-nine-months-space"
@@ -4642,7 +4608,15 @@
         "https://deepmind.google/blog/ai-co-clinician"
       ],
       "date": "2026-05-04T15:35:06.333372+00:00"
+    },
+    {
+      "title": "Google Sycamore Chip Achieves Quantum Supremacy In New Simulation Breakthrough",
+      "urls": [
+        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
+        "https://www.youtube.com/watch?v=AT47Er2qOgc"
+      ],
+      "date": "2026-05-04T17:38:21.549493+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T15:35:06.333426+00:00"
+  "lastUpdated": "2026-05-04T17:38:21.549557+00:00"
 }
