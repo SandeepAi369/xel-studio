@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Uses AI For Real Time Captioning In Medical And Educational Settings",
-      "urls": [
-        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
-        "https://nagish.com/post/latest-innovations-in-technology-for-deaf",
-        "https://dl.acm.org/doi/10.1145/3706598.3714241",
-        "https://thelinknewspaper.ca/article/ai-innovation-brings-new-opportunities-for-the-deaf-community",
-        "https://news.njit.edu/njit-and-nyu-researchers-advance-ai-audio-captioning-deaf-and-hard-hearing-nsf-grant"
-      ],
-      "date": "2026-04-24T22:32:08.803176+00:00"
-    },
-    {
-      "title": "Open Source AI Models Like Llama 3 Gain Enterprise Adoption",
-      "urls": [
-        "https://beaithink.com/open-source-ai-tools-models-and-why-it-matters-in-2025",
-        "https://www.hunton.com/insights/publications/part-1-open-source-ai-models-how-open-are-they-really"
-      ],
-      "date": "2026-04-24T23:02:11.568728+00:00"
-    },
-    {
       "title": "popEVE AI Model Speeds Rare Genetic Disease Diagnosis",
       "urls": [
         "https://www.nature.com/articles/s44387-026-00076-4",
@@ -4626,7 +4607,16 @@
         "https://www.youtube.com/watch?v=c3HhHoqbRas"
       ],
       "date": "2026-05-04T22:04:19.951435+00:00"
+    },
+    {
+      "title": "Cal.",
+      "urls": [
+        "https://itsfoss.com/news",
+        "https://lwn.net",
+        "https://9to5linux.com"
+      ],
+      "date": "2026-05-04T23:06:17.790652+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T22:04:19.951503+00:00"
+  "lastUpdated": "2026-05-04T23:06:17.790712+00:00"
 }
