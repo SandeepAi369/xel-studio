@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Department Of Fish And Wildlife Protects 800 Native Species",
-      "urls": [
-        "https://wildlife.ca.gov",
-        "https://en.m.wikipedia.org/wiki/Wildlife",
-        "https://www.nwf.org",
-        "https://www.usda.gov/sustainability/conservation/wildlife",
-        "https://m.imdb.com/title/tt5929754"
-      ],
-      "date": "2026-04-24T07:02:17.362993+00:00"
-    },
-    {
       "title": "Esports Teams Compete for Over 30 Million in Annual Prize Pools",
       "urls": [
         "https://www.newsnow.com/us/Sports/Esports"
@@ -4683,7 +4672,15 @@
         "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
       ],
       "date": "2026-05-04T06:35:09.311337+00:00"
+    },
+    {
+      "title": "Bureau of Industry and Security has reached a settlement with Applied Materials Inc.",
+      "urls": [
+        "https://www.bis.gov/news-updates",
+        "https://www.citizen.org/news/map-big-tech-expands-global-assault-on-digital-rules-mapping-big-techs-global-deregulatory-demands-for-the-trump-trade-agenda"
+      ],
+      "date": "2026-05-04T07:04:10.879150+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T06:35:09.311393+00:00"
+  "lastUpdated": "2026-05-04T07:04:10.879215+00:00"
 }
