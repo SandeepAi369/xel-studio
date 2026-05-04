@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "PUB21 And MYC2 Regulate Citrus Immunity Against Huanglongbing Bacteria",
-      "urls": [
-        "https://www.science.org/content/page/contributing-science-family-journals",
-        "https://www.science.org/content/article/breakthrough-2025",
-        "https://www.science.org/doi/10.1126/science.adq7203",
-        "https://www.science.org/doi/10.1126/science.adp5540",
-        "https://www.science.org/loi/science"
-      ],
-      "date": "2026-04-24T15:31:04.554657+00:00"
-    },
-    {
       "title": "Federal Reserve Holds Rates Steady Amid Global Manufacturing Slump",
       "urls": [
         "https://www.wsj.com/economy/global?msockid=384292768e6267cd0cf785338fbf6607",
@@ -4642,7 +4631,18 @@
         "https://www.youtube.com/watch?v=CfCq0RFZahM"
       ],
       "date": "2026-05-04T15:09:34.576569+00:00"
+    },
+    {
+      "title": "Google DeepMind has launched the Gemini Deep Research agent, now accessible to developers through it",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
+        "https://www.reddit.com/r/aicuriosity/comments/1pkggj9/google_deepmind_gemini_deep_research_agent_boosts",
+        "https://www.youtube.com/watch?v=f7UhkOMhxss",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research",
+        "https://deepmind.google/blog/ai-co-clinician"
+      ],
+      "date": "2026-05-04T15:35:06.333372+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T15:09:34.576648+00:00"
+  "lastUpdated": "2026-05-04T15:35:06.333426+00:00"
 }
