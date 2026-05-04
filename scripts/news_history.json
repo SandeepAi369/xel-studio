@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable energy is derived from natural resources that are replenished on a human timescale, such a",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Renewable_energy",
-        "https://www.britannica.com/science/renewable-energy",
-        "https://www.eia.gov/energyexplained/renewable-sources",
-        "https://education.nationalgeographic.org/resource/renewable-energy-explained",
-        "https://extension.psu.edu/what-is-renewable-energy"
-      ],
-      "date": "2026-04-24T00:34:11.616123+00:00"
-    },
-    {
-      "title": "Realtime Robotics Slashes Setup Time And Costs For Automation Systems",
-      "urls": [
-        "https://news.mit.edu/2021/new-wave-robotic-automation-0616"
-      ],
-      "date": "2026-04-24T01:01:08.822827+00:00"
-    },
-    {
       "title": "Xrp Surges To 1.45 With 2.64 Billion In Trading Volume",
       "urls": [
         "https://coinmarketcap.com",
@@ -4710,7 +4692,14 @@
         "https://aparc.fsi.stanford.edu/news/digital-health-innovations-pathway-improving-healthcare-underserved-communities"
       ],
       "date": "2026-05-04T00:34:05.271324+00:00"
+    },
+    {
+      "title": "Maryland Accessible Telecommunications Program Distributes Free Captioned Phones to Eligible Residents",
+      "urls": [
+        "https://dila.org/resources/assistive-technology-links"
+      ],
+      "date": "2026-05-04T01:04:10.908392+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T00:34:05.271382+00:00"
+  "lastUpdated": "2026-05-04T01:04:10.908460+00:00"
 }
