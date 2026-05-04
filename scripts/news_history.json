@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mit Ibm Watson Ai Lab Unveils Smaller Efficient Foundation Models And Causal Discovery Breakthrough",
-      "urls": [
-        "https://news.mit.edu/2025/creating-ai-that-matters-1021"
-      ],
-      "date": "2026-04-24T00:01:15.420640+00:00"
-    },
-    {
       "title": "Renewable energy is derived from natural resources that are replenished on a human timescale, such a",
       "urls": [
         "https://en.wikipedia.org/wiki/Renewable_energy",
@@ -4702,7 +4695,15 @@
         "https://www.nbcsports.com/watch/olympics/team-usa-battles-for-mens-4x100-relay-victory-at-world-athletics-relays"
       ],
       "date": "2026-05-03T23:35:03.853681+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils AlphaFold 3 For Accurate Molecular Predictions",
+      "urls": [
+        "https://www.wsj.com/tech/ai?eafs_enabled=false",
+        "https://www.youtube.com/watch?v=yQbfS2Mr4O8"
+      ],
+      "date": "2026-05-04T00:04:15.813352+00:00"
     }
   ],
-  "lastUpdated": "2026-05-03T23:35:03.853742+00:00"
+  "lastUpdated": "2026-05-04T00:04:15.813417+00:00"
 }
