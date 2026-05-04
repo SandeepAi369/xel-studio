@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Konami Launches eFootball 2024 With Free-To-Play Model",
-      "urls": [
-        "https://www.konami.com/efootball/en/page/overview",
-        "https://www.konami.com/efootball/30th/en-us",
-        "https://bluegrasspreps.com/forums/topic/252694-2025-nfhs-football-rules-changes",
-        "https://www.bbc.co.uk/sport",
-        "https://en.m.wikipedia.org/wiki/Baseball",
-        "https://www.sofascore.com",
-        "https://www.canva.com/presentations/templates/sports",
-        "https://www.yumpu.com/news/en/issue/185225-tv-satellite-week-magazine-2026-04-14"
-      ],
-      "date": "2026-04-24T08:31:00.860934+00:00"
-    },
-    {
       "title": "Fox News operates as a major U.",
       "urls": [
         "https://www.foxnews.com?msockid=2f54a4330bb86bec3833b3760a7d6af9"
@@ -4680,7 +4666,14 @@
         "https://socialbee.com/blog/social-media-news"
       ],
       "date": "2026-05-04T08:04:12.359223+00:00"
+    },
+    {
+      "title": "Thiago Alves Knocks Out Sean Brady At UFC Fight Night",
+      "urls": [
+        "https://www.cbssports.com/ufc"
+      ],
+      "date": "2026-05-04T08:35:07.933946+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T08:04:12.359287+00:00"
+  "lastUpdated": "2026-05-04T08:35:07.934010+00:00"
 }
