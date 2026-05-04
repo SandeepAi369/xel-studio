@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Xrp Surges To 1.45 With 2.64 Billion In Trading Volume",
-      "urls": [
-        "https://coinmarketcap.com",
-        "https://coinmarketcap.com/coins",
-        "https://coinmarketcap.com/all/views/all",
-        "https://coinmarketcap.com/charts",
-        "https://coinmarketcap.com/academy/article/what-is-cryptocurrency",
-        "https://coinmarketcap.com/es",
-        "https://coinmarketcap.com/currencies/xrp",
-        "https://coinmarketcap.com/trending-cryptocurrencies",
-        "https://coinmarketcap.com/cryptocurrency-category",
-        "https://coinmarketcap.com/gainers-losers"
-      ],
-      "date": "2026-04-24T01:36:26.463454+00:00"
-    },
-    {
-      "title": "Federal Reserve Holds Rates Steady At 5.25%-5.50% Amid Persistent Inflation",
-      "urls": [
-        "https://www.economist.com/topics/economy"
-      ],
-      "date": "2026-04-24T02:01:16.228178+00:00"
-    },
-    {
       "title": "Mistral AI Launches Mistral Small 3.1 For Efficient Multimodal Enterprise Applications",
       "urls": [
         "https://www.zhihu.com/question/624299709",
@@ -4713,7 +4690,14 @@
         "https://www.nytimes.com/section/climate"
       ],
       "date": "2026-05-04T01:32:59.045108+00:00"
+    },
+    {
+      "title": "Tools Adapt In Real Time To Aid Students With Disabilities",
+      "urls": [
+        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students"
+      ],
+      "date": "2026-05-04T02:03:09.983569+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T01:32:59.045192+00:00"
+  "lastUpdated": "2026-05-04T02:03:09.983660+00:00"
 }
