@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "PC Gamer Forum Users Report Screen Shutdowns After Graphics Card Upgrades",
-      "urls": [
-        "https://forums.pcgamer.com/threads/your-2025-gaming-resolutions.147105",
-        "https://forums.pcgamer.com/threads/computer-screen-turns-off-while-gaming.141226"
-      ],
-      "date": "2026-04-24T13:09:00.396003+00:00"
-    },
-    {
-      "title": "Fox News Dominates Cable Ratings With Prime-Time Conservative Programming",
-      "urls": [
-        "https://www.foxnews.com?msockid=2820dd884aba6d283495cacd4b226c25"
-      ],
-      "date": "2026-04-24T13:36:17.565573+00:00"
-    },
-    {
       "title": "Kimi K2 Outperforms ChatGPT And Grok In New AI Benchmarks",
       "urls": [
         "https://www.ibm.com/think/news/open-source-models-surpass-closed-models",
@@ -4660,7 +4645,14 @@
         "https://www.blockchain.com/press"
       ],
       "date": "2026-05-04T13:05:20.607904+00:00"
+    },
+    {
+      "title": "Open Source AI Projects Gain Momentum With Microsoft Copilot Competition",
+      "urls": [
+        "https://www.youtube.com/watch?v=sXVbWkoCVaA"
+      ],
+      "date": "2026-05-04T13:39:56.762854+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T13:05:20.607985+00:00"
+  "lastUpdated": "2026-05-04T13:39:56.762928+00:00"
 }
