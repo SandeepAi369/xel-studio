@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Magistral Small 2509 With 24 Billion Parameters",
-      "urls": [
-        "https://www.zhihu.com/pin/1952369016715846773"
-      ],
-      "date": "2026-04-25T09:01:18.663845+00:00"
-    },
-    {
       "title": "Google Cloud Launches Two New TPUs To Challenge Nvidia",
       "urls": [
         "https://investorplace.com/hypergrowthinvesting/2026/04/the-rise-of-custom-ai-chips-is-breaking-nvidias-grip",
@@ -4575,7 +4568,14 @@
         "https://thegameawards.com/winners/best-esports-game"
       ],
       "date": "2026-05-05T08:39:25.932220+00:00"
+    },
+    {
+      "title": "Siemens and UK-based robotics firm Humanoid completed a pilot program deploying humanoid robots at t",
+      "urls": [
+        "https://technologymagazine.com/news/automation-the-humanoid-robots-inside-siemens-factory"
+      ],
+      "date": "2026-05-05T09:03:09.600053+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T08:39:25.932277+00:00"
+  "lastUpdated": "2026-05-05T09:03:09.600119+00:00"
 }
