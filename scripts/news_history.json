@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Launches Deep Research Agents Powered By Gemini 3.1 Pro",
-      "urls": [
-        "https://www.gadgets360.com/ai/news/google-deepmind-new-team-ai-coding-models-take-on-anthropic-enterprise-race-report-11386776",
-        "https://www.marktechpost.com/2026/04/15/google-deepmind-releases-gemini-robotics-er-1-6-bringing-enhanced-embodied-reasoning-and-instrument-reading-to-physical-ai",
-        "https://the-decoder.com/google-launches-deep-research-and-deep-research-max-agents-to-automate-complex-research",
-        "https://www.technobezz.com/news/google-launches-deep-research-agents-powered-by-gemini-31-pro-for-enterprise-use",
-        "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-expand-partnership-to-scale-agentic-transformation-for-global-enterprises-with-gemini-enterprise",
-        "https://www.crn.com/news/ai/2025/google-gemini-s-10-new-ai-product-launches-programs-and-news",
-        "https://blog.google/innovation-and-ai/products/2025-research-breakthroughs",
-        "https://techcrunch.com/2025/11/13/googles-sima-2-agent-uses-gemini-to-reason-and-act-in-virtual-worlds",
-        "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership",
-        "https://www.theverge.com/news/785193/google-deepmind-gemini-ai-robotics-web-search"
-      ],
-      "date": "2026-04-25T19:31:55.417468+00:00"
-    },
-    {
-      "title": "HealthCare Gov Launches Open Enrollment For 2024",
-      "urls": [
-        "https://www.healthcare.gov/quick-guide/one-page-guide-to-the-marketplace"
-      ],
-      "date": "2026-04-25T20:03:06.024036+00:00"
-    },
-    {
       "title": "World Health Organization reports over 1.",
       "urls": [
         "https://www.who.int/fr/news-room/fact-sheets/detail/disability-and-health",
@@ -4552,7 +4529,14 @@
         "https://intuitionlabs.ai/articles/accelerating-drug-development-ai-pharma"
       ],
       "date": "2026-05-05T19:06:25.989631+00:00"
+    },
+    {
+      "title": "European Union Imposes Sanctions On Critical Mineral Exports",
+      "urls": [
+        "https://www.youtube.com/watch?v=DxKrcYQC3GI"
+      ],
+      "date": "2026-05-05T20:09:26.700095+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T19:06:25.989701+00:00"
+  "lastUpdated": "2026-05-05T20:09:26.700179+00:00"
 }
