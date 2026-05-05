@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yahoo Sports Launches 24/7 Streaming Hub With Live Shows And Game Highlights",
-      "urls": [
-        "https://sports.yahoo.com/watch"
-      ],
-      "date": "2026-04-25T04:30:52.850053+00:00"
-    },
-    {
       "title": "International Olympic Committee and Saudi Arabia have terminated their 12-year agreement to host the",
       "urls": [
         "https://www.espn.com/olympics/story/_/id/46779070/ioc-saudi-arabia-cancel-12-year-deal-host-esports-olympics",
@@ -4598,7 +4591,18 @@
         "https://www.ycombinator.com/companies/industry/generative-ai"
       ],
       "date": "2026-05-05T04:08:21.930657+00:00"
+    },
+    {
+      "title": "Alysa Liu returned from retirement in 2023 with renewed passion, quickly reclaiming top form and win",
+      "urls": [
+        "https://www.cnn.com/2026/02/19/sport/alysa-liu-gold-medal-olympics",
+        "https://www.gpb.org/news/2026/02/23/us-boosts-gold-medal-tally-at-winter-games-led-by-athletes-handful-of-states",
+        "https://sports.yahoo.com/olympics/article/winter-olympics-2026-alysa-liu-gold-medal-winner-is-the-happiest-olympian-alive-011113453.html",
+        "https://www.cbsnews.com/news/us-olympic-team-gold-medal-record-winter-games",
+        "https://www.youtube.com/watch?v=aprcWGJ0Eos"
+      ],
+      "date": "2026-05-05T04:34:02.956820+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T04:08:21.930723+00:00"
+  "lastUpdated": "2026-05-05T04:34:02.956894+00:00"
 }
