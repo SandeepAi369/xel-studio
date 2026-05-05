@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf Tech Innovations Launch Smart Glasses With Live Captioning",
-      "urls": [
-        "https://www.bsu.edu",
-        "https://deafvibes.com/ai-and-accessibility-technologies/deaf-technology",
-        "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1349668/full",
-        "https://cicadasign.com/empowering-the-deaf-community-in-2025-advancements-in-assistive-technology"
-      ],
-      "date": "2026-04-25T04:01:08.446696+00:00"
-    },
-    {
       "title": "Yahoo Sports Launches 24/7 Streaming Hub With Live Shows And Game Highlights",
       "urls": [
         "https://sports.yahoo.com/watch"
@@ -4601,7 +4591,14 @@
         "https://www.instagram.com/reel/DX7R9IYvKRJ"
       ],
       "date": "2026-05-05T03:35:03.920935+00:00"
+    },
+    {
+      "title": "Y Combinator Funds 232 Generative AI Startups in 2026 Cohort",
+      "urls": [
+        "https://www.ycombinator.com/companies/industry/generative-ai"
+      ],
+      "date": "2026-05-05T04:08:21.930657+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T03:35:03.920991+00:00"
+  "lastUpdated": "2026-05-05T04:08:21.930723+00:00"
 }
