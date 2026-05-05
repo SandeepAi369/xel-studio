@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT-Rosalind To Accelerate Drug Discovery",
-      "urls": [
-        "https://www.nature.com/articles/s41573-026-01412-8",
-        "https://www.biospace.com/press-releases/nature-reviews-drug-discovery-target-identification-and-assessment-in-the-era-of-ai",
-        "https://pharmaphorum.com/news/openai-introduces-gpt-rosalind-its-drug-discovery-ai",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12908618",
-        "https://via.news/healthcare-technology/nvidia-secures-eli-lilly-and-thermo-fisher-for-bionemo-drug-discovery-platform",
-        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10",
-        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281",
-        "https://pharmrev.aspetjournals.org/article/S0031-6997(25)07511-8/fulltext"
-      ],
-      "date": "2026-04-25T06:34:00.152104+00:00"
-    },
-    {
       "title": "Cnn Draws Criticism Over Unnamed January 6 Suspect Report",
       "urls": [
         "https://twitchy.com/samj/2025/12/05/sure-outlet-who-said-j6-pipe-bomb-suspect-is-white-now-claims-sources-say-he-thought-election-was-stolen-n2422485"
@@ -4588,7 +4574,14 @@
         "https://openai.com/index/introducing-gpt-5-4"
       ],
       "date": "2026-05-05T06:09:17.419705+00:00"
+    },
+    {
+      "title": "Department Of Energy Releases Climate Impact Assessment Report",
+      "urls": [
+        "https://www.energy.gov/topics/climate"
+      ],
+      "date": "2026-05-05T06:35:09.007303+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T06:09:17.419771+00:00"
+  "lastUpdated": "2026-05-05T06:35:09.007365+00:00"
 }
