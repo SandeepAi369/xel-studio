@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Researchers Speed Development Of New Disease Treatments",
-      "urls": [
-        "https://www.medicalnewstoday.com/news",
-        "https://news.harvard.edu/gazette/story/2025/09/speeding-discoveries-from-lab-to-patients",
-        "https://scitechdaily.com/news/health"
-      ],
-      "date": "2026-04-25T14:30:50.767316+00:00"
-    },
-    {
       "title": "MDPI has faced growing criticism over the quality and integrity of its academic journals, particular",
       "urls": [
         "https://www.zhihu.com/question/453589364",
@@ -4554,7 +4545,21 @@
         "https://apnews.com/hub/biodiversity"
       ],
       "date": "2026-05-05T14:05:25.587285+00:00"
+    },
+    {
+      "title": "Open-source AI tool developed by researchers outperforms large proprietary language models in conduc",
+      "urls": [
+        "https://ai.meta.com/blog/meta-llama-3",
+        "https://thenewstack.io/llm",
+        "https://blog.n8n.io/open-source-llm",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://github.blog/ai-and-ml/llms",
+        "https://www.nature.com/articles/d41586-026-00347-9",
+        "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+        "https://openrouter.ai/state-of-ai"
+      ],
+      "date": "2026-05-05T14:38:38.984284+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T14:05:25.587349+00:00"
+  "lastUpdated": "2026-05-05T14:38:38.984345+00:00"
 }
