@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phoronix Benchmarks Reveal AMD Intel CPU Performance Gaps",
-      "urls": [
-        "https://www.phoronix.com/recent-linux-news"
-      ],
-      "date": "2026-04-25T02:02:09.650417+00:00"
-    },
-    {
       "title": "Xandra Velzeboer Smashes World Record To Win 500m Gold In Milan",
       "urls": [
         "https://www.foxnews.com?msockid=251c25daeecd6e4f3b17329ceff96f3b",
@@ -4614,7 +4607,14 @@
         "https://www.nbcnews.com/climate-in-crisis"
       ],
       "date": "2026-05-05T01:39:03.855380+00:00"
+    },
+    {
+      "title": "Kimi AI has released the K2.",
+      "urls": [
+        "https://www.youtube.com/watch?v=F-ANHe_hr9w"
+      ],
+      "date": "2026-05-05T02:06:16.916587+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T01:39:03.855448+00:00"
+  "lastUpdated": "2026-05-05T02:06:16.916655+00:00"
 }
