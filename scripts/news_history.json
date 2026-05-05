@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Reports Record High CO2 Levels And Sea Heat In 2023",
-      "urls": [
-        "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2023"
-      ],
-      "date": "2026-04-25T01:04:27.866999+00:00"
-    },
-    {
-      "title": "World Economic Forum Releases Global Gender Gap Report 2025",
-      "urls": [
-        "https://www.weforum.org/publications/global-gender-gap-report-2025",
-        "https://www.weforum.org/publications/global-risks-report-2025",
-        "https://www.weforum.org/publications/global-cybersecurity-outlook-2025",
-        "https://www.weforum.org/stories/2026/02/four-risk-trends-shaping-the-planet"
-      ],
-      "date": "2026-04-25T01:30:57.069348+00:00"
-    },
-    {
       "title": "Phoronix Benchmarks Reveal AMD Intel CPU Performance Gaps",
       "urls": [
         "https://www.phoronix.com/recent-linux-news"
@@ -4618,7 +4601,20 @@
         "https://atos.net/en/blog/the-future-is-assistive-how-ai-and-accessibility-will-shape-the-next-decade-of-work"
       ],
       "date": "2026-05-05T01:04:10.316210+00:00"
+    },
+    {
+      "title": "{\"articleText\": \"El Ni\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f",
+      "urls": [
+        "https://www.cbsnews.com/climate-change",
+        "https://www.cnn.com/climate",
+        "https://www.un.org/en/climatechange/reports",
+        "https://science.nasa.gov/climate-change",
+        "https://www.bbc.com/news/topics/cmj34zmwm1zt",
+        "https://earth.org/climate-change",
+        "https://www.nbcnews.com/climate-in-crisis"
+      ],
+      "date": "2026-05-05T01:39:03.855380+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T01:04:10.316267+00:00"
+  "lastUpdated": "2026-05-05T01:39:03.855448+00:00"
 }
