@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News maintains a widespread media presence with coverage extending to over 80 million households",
-      "urls": [
-        "https://www.foxnews.com?msockid=155d927c44f5634f32a6853a45a46272"
-      ],
-      "date": "2026-04-25T10:30:56.204126+00:00"
-    },
-    {
       "title": "United States Sends JD Vance To Pakistan For Iran Peace Talks",
       "urls": [
         "https://www.abc.net.au/news/2026-04-20/iran-war-live-updates-blockade-hormuz-us-negotiations/106581706",
@@ -4574,7 +4567,21 @@
         "https://huggingface.co/google"
       ],
       "date": "2026-05-05T10:05:25.276069+00:00"
+    },
+    {
+      "title": "Hurricane Preparedness Week is set for May 3-9, 2026, as declared by the National Hurricane Center a",
+      "urls": [
+        "https://www.facebook.com/allatratvenglish/videos/march-5-2026-natural-disasters-summarybutler-county-ohio-usa-overnight-flooding-/1382036673673963",
+        "https://www.news-journalonline.com/story/weather/hurricanes/2026/05/03/hurricane-preparedness-week-risks-storm-surge-flooding-winds-evacuation-zone/89876263007",
+        "https://www.facebook.com/bamwx/posts/heavy-rain-is-expected-over-the-next-week-through-monday-may-4th-2026-across-the/1439794941525475",
+        "https://www.click2houston.com/weather/2026/05/01/flood-and-severe-weather-threat-friday",
+        "https://www.facebook.com/VoxWeather/videos/%EF%B8%8F-extreme-weather-warning-floods-snow%EF%B8%8Fa-powerful-cut-off-low-is-about-to-hit-%EF%B8%8F-1/1317324716963313",
+        "https://www.msema.org/news/governor-reeves-declares-hurricane-preparedness-week-may-3-may-9-2026",
+        "https://www.nytimes.com/2026/05/01/climate/fema-disaster-aid-slowdowns.html",
+        "https://www.aol.com/news/mississippi-governor-declares-2026-hurricane-162901534.html"
+      ],
+      "date": "2026-05-05T10:35:13.321993+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T10:05:25.276129+00:00"
+  "lastUpdated": "2026-05-05T10:35:13.322064+00:00"
 }
