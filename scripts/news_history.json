@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Fiber Launches 1 000 Mbps Internet in Minnesota Cities",
-      "urls": [
-        "https://www.quantumfiber.com/local/mn",
-        "https://en.m.wikipedia.org/wiki/Quantum",
-        "https://en.m.wikipedia.org/wiki/Quantum_mechanics",
-        "https://www.quantumfiber.com/local/mn/mahtomedi",
-        "https://www.quantumfiber.com/shop",
-        "https://www.quantumworkplace.com",
-        "https://www.nist.gov/quantum-information-science/quantum-computing-explained"
-      ],
-      "date": "2026-04-25T15:32:04.550463+00:00"
-    },
-    {
       "title": "Fox News operates as a major U.",
       "urls": [
         "https://www.foxnews.com?msockid=0e0571b8fedb67d4081366feffa36697"
@@ -4561,7 +4548,16 @@
         "https://www.nature.com/articles/d41586-025-00602-5"
       ],
       "date": "2026-05-05T15:06:29.033969+00:00"
+    },
+    {
+      "title": "Meta is shifting its AI strategy by indicating that not all of its future 'superintelligence' models",
+      "urls": [
+        "https://techcrunch.com/2025/07/30/zuckerberg-says-meta-likely-wont-open-source-all-of-its-superintelligence-ai-models",
+        "https://www.theverge.com/tech/907581/more-open-source-ai-models-from-meta-though-not-right-away",
+        "https://www.youtube.com/watch?v=GdX6WdtP2Zc"
+      ],
+      "date": "2026-05-05T15:40:19.460229+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T15:06:29.034035+00:00"
+  "lastUpdated": "2026-05-05T15:40:19.460284+00:00"
 }
