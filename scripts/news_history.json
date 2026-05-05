@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Xandra Velzeboer Smashes World Record To Win 500m Gold In Milan",
-      "urls": [
-        "https://www.foxnews.com?msockid=251c25daeecd6e4f3b17329ceff96f3b",
-        "https://www.worldrecordacademy.org/news",
-        "https://www.youtube.com/watch?v=Ry_lf__RbdI"
-      ],
-      "date": "2026-04-25T02:30:54.835635+00:00"
-    },
-    {
       "title": "United States And China Ramp Up AI Spending To Secure Global Dominance",
       "urls": [
         "https://theword360.com/2025/09/05/technology-innovation-as-a-geopolitical-game-changer",
@@ -4614,7 +4605,16 @@
         "https://www.youtube.com/watch?v=F-ANHe_hr9w"
       ],
       "date": "2026-05-05T02:06:16.916587+00:00"
+    },
+    {
+      "title": "One billion people worldwide live with some form of disability, making accessible technology critica",
+      "urls": [
+        "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities",
+        "https://govcio.com/resources/article/six-exciting-advancements-in-accessible-technology",
+        "https://disabilityrightsflorida.org/blog/entry/assistive_technology_independence_access"
+      ],
+      "date": "2026-05-05T02:34:07.491377+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T02:06:16.916655+00:00"
+  "lastUpdated": "2026-05-05T02:34:07.491431+00:00"
 }
