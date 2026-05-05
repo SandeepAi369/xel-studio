@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Spaces provides a user-friendly GUI for building and deploying web-hosted machine learn",
-      "urls": [
-        "https://www.zhihu.com/tardis/bd/art/692929631",
-        "https://www.zhihu.com/question/10196054241",
-        "https://www.zhihu.com/question/11343287164"
-      ],
-      "date": "2026-04-25T10:01:03.740315+00:00"
-    },
-    {
       "title": "Fox News maintains a widespread media presence with coverage extending to over 80 million households",
       "urls": [
         "https://www.foxnews.com?msockid=155d927c44f5634f32a6853a45a46272"
@@ -4575,7 +4566,15 @@
         "https://www.yahoo.com/news/articles/ai-technology-transforming-daily-life-183750413.html"
       ],
       "date": "2026-05-05T09:37:14.163481+00:00"
+    },
+    {
+      "title": "Hugging Face has launched a new extension that integrates its open-source AI models directly into Gi",
+      "urls": [
+        "https://www.youtube.com/watch?v=3Tgyt_ucN_k",
+        "https://huggingface.co/google"
+      ],
+      "date": "2026-05-05T10:05:25.276069+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T09:37:14.163543+00:00"
+  "lastUpdated": "2026-05-05T10:05:25.276129+00:00"
 }
