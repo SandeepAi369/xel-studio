@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "MDPI has faced growing criticism over the quality and integrity of its academic journals, particular",
-      "urls": [
-        "https://www.zhihu.com/question/453589364",
-        "https://www.zhihu.com/question/610061314",
-        "https://www.zhihu.com/question/400387556",
-        "https://www.zhihu.com/question/384813035"
-      ],
-      "date": "2026-04-25T15:01:06.616918+00:00"
-    },
-    {
       "title": "Quantum Fiber Launches 1 000 Mbps Internet in Minnesota Cities",
       "urls": [
         "https://www.quantumfiber.com/local/mn",
@@ -4559,7 +4549,19 @@
         "https://openrouter.ai/state-of-ai"
       ],
       "date": "2026-05-05T14:38:38.984284+00:00"
+    },
+    {
+      "title": "Insilico Medicine has initiated a Phase I clinical trial for ISM001_055, an anti-fibrotic small mole",
+      "urls": [
+        "https://www.nccu.edu/news/ai-transforms-drug-discovery-nccu-0",
+        "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+        "https://insilico.com/phase1",
+        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10",
+        "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells",
+        "https://www.nature.com/articles/d41586-025-00602-5"
+      ],
+      "date": "2026-05-05T15:06:29.033969+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T14:38:38.984345+00:00"
+  "lastUpdated": "2026-05-05T15:06:29.034035+00:00"
 }
