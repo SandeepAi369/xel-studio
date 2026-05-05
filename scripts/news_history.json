@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Launches Two New TPUs To Challenge Nvidia",
-      "urls": [
-        "https://investorplace.com/hypergrowthinvesting/2026/04/the-rise-of-custom-ai-chips-is-breaking-nvidias-grip",
-        "https://www.newscase.com/the-ai-chip-race-nvidia-and-amd-battle-for-semiconductor-supremacy",
-        "https://www.msn.com/en-us/news/other/nvidia-and-amd-surge-as-ai-chip-rally-accelerates-after-intel-beat/gm-GMC72C6278",
-        "https://www.amd.com/en/newsroom.html",
-        "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer",
-        "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia",
-        "https://www.businessinsider.com/nvidia-stock-price-nvda-alphabet-google-ai-chips-tpu-gpu-2025-11",
-        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html"
-      ],
-      "date": "2026-04-25T09:31:04.930176+00:00"
-    },
-    {
       "title": "Hugging Face Spaces provides a user-friendly GUI for building and deploying web-hosted machine learn",
       "urls": [
         "https://www.zhihu.com/tardis/bd/art/692929631",
@@ -4575,7 +4561,21 @@
         "https://technologymagazine.com/news/automation-the-humanoid-robots-inside-siemens-factory"
       ],
       "date": "2026-05-05T09:03:09.600053+00:00"
+    },
+    {
+      "title": "Kelly Raines is a computer science student at Arizona State University developing AI-powered smart g",
+      "urls": [
+        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
+        "https://bism.org/news-resources/faq/perspectives/breaking-barriers-the-impact-of-assistive-technology-at-bism",
+        "https://vispero.com/resources/assistive-technology-blind-low-vision",
+        "https://www.yahoo.com/news/articles/blind-visually-impaired-children-receive-171210450.html",
+        "https://afb.org/blindness-and-low-vision/using-technology",
+        "https://www.aoa.org/news/clinical-eye-care/diseases-and-conditions/how-technology-has-changed-recommendations-for-visually-impaired-children",
+        "https://news.asu.edu/20250220-science-and-technology-student-sees-how-ai-can-assist-people-vision-loss",
+        "https://www.yahoo.com/news/articles/ai-technology-transforming-daily-life-183750413.html"
+      ],
+      "date": "2026-05-05T09:37:14.163481+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T09:03:09.600119+00:00"
+  "lastUpdated": "2026-05-05T09:37:14.163543+00:00"
 }
