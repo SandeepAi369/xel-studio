@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Florida Resettles Over 5000 Refugees Annually Through DCF Program",
-      "urls": [
-        "https://www.myflfamilies.com/services/public-assistance/refugee-services/refugee-services-overview",
-        "https://education.nationalgeographic.org/resource/refugee"
-      ],
-      "date": "2026-04-25T06:01:03.514921+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-Rosalind To Accelerate Drug Discovery",
       "urls": [
         "https://www.nature.com/articles/s41573-026-01412-8",
@@ -4588,7 +4580,15 @@
         "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
       ],
       "date": "2026-05-05T05:35:03.368943+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT 5.4 With Enhanced Reasoning And Code Accuracy",
+      "urls": [
+        "https://www.youtube.com/watch?v=M_wKxIA12oU",
+        "https://openai.com/index/introducing-gpt-5-4"
+      ],
+      "date": "2026-05-05T06:09:17.419705+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T05:35:03.369004+00:00"
+  "lastUpdated": "2026-05-05T06:09:17.419771+00:00"
 }
