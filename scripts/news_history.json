@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Runway Gen 4.5 Launches With Cinematic Video Quality",
-      "urls": [
-        "https://chatgpt.com",
-        "https://openai.com",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://www.britannica.com/technology/artificial-intelligence",
-        "https://deepai.org/chat/what-is-ai",
-        "https://llm-stats.com/ai-news",
-        "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc",
-        "https://9to5mac.com/2026/04/21/openai-unveiling-chatgpt-images-2-image-generation-model-watch-live-demo-here",
-        "https://runwayml.com/research/introducing-runway-gen-4.5",
-        "https://humanoidroboticstechnology.com/industry-news/agibot-announces-new-generation-of-embodied-ai-robots-and-models"
-      ],
-      "date": "2026-04-25T18:31:00.585156+00:00"
-    },
-    {
       "title": "Fox News Delivers Top-Rated Conservative Programming To 80 Million Households",
       "urls": [
         "https://www.foxnews.com?msockid=0d3dbd2ddb1961ff262baa6bdac660f8"
@@ -4561,7 +4545,14 @@
         "https://www.theguardian.com/world/video/2026/may/04/volcano-erupts-philippines-ash-evacuations-video"
       ],
       "date": "2026-05-05T18:04:19.974739+00:00"
+    },
+    {
+      "title": "Debian has elected Lucas Nussbaum as its new project leader, marking a pivotal shift in governance f",
+      "urls": [
+        "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
+      ],
+      "date": "2026-05-05T18:36:12.679885+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T18:04:19.974792+00:00"
+  "lastUpdated": "2026-05-05T18:36:12.679953+00:00"
 }
