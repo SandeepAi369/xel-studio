@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Top-Rated Conservative Programming To 80 Million Households",
-      "urls": [
-        "https://www.foxnews.com?msockid=0d3dbd2ddb1961ff262baa6bdac660f8"
-      ],
-      "date": "2026-04-25T19:01:17.526612+00:00"
-    },
-    {
       "title": "Google DeepMind Launches Deep Research Agents Powered By Gemini 3.1 Pro",
       "urls": [
         "https://www.gadgets360.com/ai/news/google-deepmind-new-team-ai-coding-models-take-on-anthropic-enterprise-race-report-11386776",
@@ -4552,7 +4545,14 @@
         "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
       ],
       "date": "2026-05-05T18:36:12.679885+00:00"
+    },
+    {
+      "title": "U.S. Pharma Cuts Drug Development Time With AI Systems",
+      "urls": [
+        "https://intuitionlabs.ai/articles/accelerating-drug-development-ai-pharma"
+      ],
+      "date": "2026-05-05T19:06:25.989631+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T18:36:12.679953+00:00"
+  "lastUpdated": "2026-05-05T19:06:25.989701+00:00"
 }
