@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chicago Cubs Hit Historic First Inning Home Run To Beat Dodgers",
-      "urls": [
-        "https://www.thefreedictionary.com/Incredible",
-        "https://en.wikipedia.org/wiki/Incredible",
-        "https://news.sky.com/story/iran-war-latest-trump-blockade-strait-of-hormuz-lebanon-13509565",
-        "https://www.si.com/mlb/cubs/onsi/news/cubs-make-incredible-playoff-history-with-first-inning-home-run-in-game-4-win",
-        "https://www.olympics.com/en/news/nine-of-the-most-memorable-moments-from-the-tokyo-2020-olympic-games",
-        "https://www.thetimes.com",
-        "https://tglgolf.com"
-      ],
-      "date": "2026-04-25T08:30:54.907032+00:00"
-    },
-    {
       "title": "Mistral AI Launches Magistral Small 2509 With 24 Billion Parameters",
       "urls": [
         "https://www.zhihu.com/pin/1952369016715846773"
@@ -4581,7 +4568,14 @@
         "https://www.clubspace.com"
       ],
       "date": "2026-05-05T08:10:29.357751+00:00"
+    },
+    {
+      "title": "The Game Awards announced the winner for Best Esports Game, recognizing top competitive titles in th",
+      "urls": [
+        "https://thegameawards.com/winners/best-esports-game"
+      ],
+      "date": "2026-05-05T08:39:25.932220+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T08:10:29.357814+00:00"
+  "lastUpdated": "2026-05-05T08:39:25.932277+00:00"
 }
