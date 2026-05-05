@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates as a major U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=0e0571b8fedb67d4081366feffa36697"
-      ],
-      "date": "2026-04-25T16:03:13.251536+00:00"
-    },
-    {
       "title": "Rory McIlroy Blows 6 Shot Lead At 2026 Masters",
       "urls": [
         "https://sports.yahoo.com/nfl/article/2026-nfl-mock-draft-8-point-one-212231505.html",
@@ -4557,7 +4550,18 @@
         "https://www.youtube.com/watch?v=GdX6WdtP2Zc"
       ],
       "date": "2026-05-05T15:40:19.460229+00:00"
+    },
+    {
+      "title": "Justin Fulcher argues U.",
+      "urls": [
+        "https://ritzherald.com/justin-fulcher-says-u-s-technology-policy-must-treat-competition-as-a-geopolitical-priority",
+        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOopSaoNkaMHTmfW8wbqK3bjsBr3nMx3dm4n1VD8FN6tdWXRa59gV",
+        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
+        "https://www.ncuscr.org/video/us-china-ai-race",
+        "https://www.bbc.com/news/articles/c145enxln0go"
+      ],
+      "date": "2026-05-05T16:07:32.573619+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T15:40:19.460284+00:00"
+  "lastUpdated": "2026-05-05T16:07:32.573677+00:00"
 }
