@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare Gov Expands HSA Access For 2026 Marketplace Plans",
-      "urls": [
-        "https://www.healthcare.gov/login",
-        "https://www.healthcare.gov/see-plans",
-        "https://www.healthcare.gov/get-answers",
-        "https://www.healthcare.gov/contact-us",
-        "https://www.healthcare.gov/screener/sep/medicaid-loss",
-        "https://www.healthcare.gov/hsa-options",
-        "https://www.healthcare.gov/screener",
-        "https://www.healthcare.gov/lower-costs",
-        "https://www.healthcare.gov/screener/income/next-steps?prev=income"
-      ],
-      "date": "2026-04-25T07:30:54.287726+00:00"
-    },
-    {
       "title": "G2 Esports faces Bilibili Gaming in a decisive matchup that could determine the future standing of t",
       "urls": [
         "https://estnn.com/esports"
@@ -4582,7 +4567,14 @@
         "https://www.youtube.com/watch?v=JIA2EgH7Z-o"
       ],
       "date": "2026-05-05T07:06:23.026204+00:00"
+    },
+    {
+      "title": "Sanford Health Expands Telemedicine to 500000 Virtual Visits Annually",
+      "urls": [
+        "https://www.youtube.com/watch?v=U8IgMO0Ha2s"
+      ],
+      "date": "2026-05-05T07:33:58.419522+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T07:06:23.026271+00:00"
+  "lastUpdated": "2026-05-05T07:33:58.419601+00:00"
 }
