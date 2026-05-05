@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households Amid Strong Advertiser Demand",
-      "urls": [
-        "https://www.foxnews.com?msockid=037a7d0621856da8017f6a4020d76cdb"
-      ],
-      "date": "2026-04-25T21:02:12.523686+00:00"
-    },
-    {
       "title": "Pfizer And AstraZeneca Cut Drug Development Time With AI",
       "urls": [
         "https://pubs.rsc.org/en/content/articlehtml/2025/pm/d4pm00323c",
@@ -4537,7 +4530,20 @@
         "https://www.theblock.co"
       ],
       "date": "2026-05-05T20:39:17.704352+00:00"
+    },
+    {
+      "title": "Ishank Swims 29 Kilometers Across Palk Strait in Record Time",
+      "urls": [
+        "https://ca.sports.yahoo.com/news/setting-world-records-become-annual-110143561.html",
+        "https://www.instagram.com/reel/DXw6RzzASFy",
+        "https://www.instagram.com/reel/DX64H1liWce",
+        "https://www.instagram.com/reel/DX8VuJsgYLz",
+        "https://www.guinnessworldrecords.com",
+        "https://www.nbcsports.com/watch/olympics/botswana-ignites-home-crowd-with-mens-4x400-win-at-world-athletics-relays",
+        "https://www.reddit.com/r/trackandfield/comments/1t2nzb8/thrilling_mens_4x400m_final_at_world_relays_with"
+      ],
+      "date": "2026-05-05T21:04:15.793584+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T20:39:17.704415+00:00"
+  "lastUpdated": "2026-05-05T21:04:15.793647+00:00"
 }
