@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "ATP And WTA Tours Launch Real-Time Scoring For 2026 Seasons",
-      "urls": [
-        "https://www.tennis.com",
-        "https://www.espn.com/tennis/scoreboard",
-        "https://www.atptour.com/en",
-        "https://www.flashscore.com/tennis",
-        "https://www.cbssports.com/tennis"
-      ],
-      "date": "2026-04-25T17:02:30.121782+00:00"
-    },
-    {
       "title": "Quantum Fiber Delivers 1000 Mbps Internet With AT&T Wireless Discounts",
       "urls": [
         "https://www.quantumfiber.com"
@@ -4565,7 +4554,14 @@
         "https://sports.yahoo.com/articles/record-set-oldest-gold-medalist-201421573.html"
       ],
       "date": "2026-05-05T16:35:06.460769+00:00"
+    },
+    {
+      "title": "Gamers spend more time watching gaming-related videos than playing games, averaging 8.",
+      "urls": [
+        "https://www.gamesindustry.biz/topics/streaming"
+      ],
+      "date": "2026-05-05T17:08:36.533530+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T16:35:06.460827+00:00"
+  "lastUpdated": "2026-05-05T17:08:36.533595+00:00"
 }
