@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Updates Snipping Tool with New Keyboard Shortcut",
-      "urls": [
-        "https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/id-id/windows/menggunakan-alat-pemotong-untuk-mengambil-tangkapan-layar-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/de-de/windows/aufnehmen-von-screenshots-mithilfe-des-snipping-tools-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/zh-tw/windows/使用剪取工具擷取螢幕擷取畫面-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/zh-cn/windows/使用截图工具捕获截图-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/ar-sa/windows/استخدم-أداة-القطع-لالتقاط-لقطات-الشاشة-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/zh-hk/windows/使用剪取工具擷取螢幕擷取畫面-00246869-1843-655f-f220-97299b865f6b",
-        "https://support.microsoft.com/en-us/office/copy-the-window-or-screen-contents-98c41969-51e5-45e1-be36-fb9381b32bb7"
-      ],
-      "date": "2026-04-25T23:30:57.569022+00:00"
-    },
-    {
       "title": "Fox News Reaches 80 Million Homes Amid $2.1 Billion Revenue Quarter",
       "urls": [
         "https://www.foxnews.com?msockid=1a5812e0a0a06856218e05a7a14569ee"
@@ -4551,7 +4537,16 @@
         "https://www.cnn.com/science"
       ],
       "date": "2026-05-05T23:04:19.513661+00:00"
+    },
+    {
+      "title": "St Jude Researchers Discover New Cell Death Pathway in Cancer Cells",
+      "urls": [
+        "https://scitechdaily.com/news/health",
+        "https://www.stjude.org/media-resources/news-releases/2025-medicine-science-news.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
+      ],
+      "date": "2026-05-05T23:34:01.563040+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T23:04:19.513748+00:00"
+  "lastUpdated": "2026-05-05T23:34:01.563094+00:00"
 }
