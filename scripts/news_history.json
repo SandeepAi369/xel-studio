@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Advances Crew-13 Launch With SpaceX Dragon Mission",
-      "urls": [
-        "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission",
-        "https://orbysa.com/news/misc/2025-09-29-recent-advances-in-rocket-technology-highlights-from-spacex-and-nasa",
-        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5tYTNsM0VnSmxiaWdBUAE",
-        "https://arstechnica.com/space/2026/04/rocket-report-starship-v3-test-fired-esas-tentative-step-toward-crew-launch",
-        "https://www.cnbc.com/2025/10/30/spacex-and-blue-origin-both-submitted-plans-to-get-astronauts-back-to-the-moon-sooner.html?msockid=0d532035c48a656032643773c58d64c4",
-        "https://www.space.com/space-exploration",
-        "https://spaceheadlines.com",
-        "https://spaceexplored.com",
-        "https://www.reuters.com/technology/space"
-      ],
-      "date": "2026-04-25T00:05:23.754021+00:00"
-    },
-    {
       "title": "SpaceX And Blue Origin Submit Artemis Moon Landing Proposals",
       "urls": [
         "https://www.cnbc.com/2025/10/30/spacex-and-blue-origin-both-submitted-plans-to-get-astronauts-back-to-the-moon-sooner.html?msockid=357e16be6ff964d80df101f86e736503"
@@ -4614,7 +4599,17 @@
         "https://www.pennmedicine.org/news/research-innovation"
       ],
       "date": "2026-05-04T23:37:12.355472+00:00"
+    },
+    {
+      "title": "Google has released Gemma 4, a lightweight yet powerful generative AI model capable of running fully",
+      "urls": [
+        "https://www.eweek.com/news/generative-ai-apps-tools",
+        "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/top-generative-ai-tools",
+        "https://bootcamp.outreach.ou.edu/blog/best-generative-ai-tools",
+        "https://www.instagram.com/p/DX6hRlMjY6f"
+      ],
+      "date": "2026-05-05T00:09:35.300128+00:00"
     }
   ],
-  "lastUpdated": "2026-05-04T23:37:12.355546+00:00"
+  "lastUpdated": "2026-05-05T00:09:35.300196+00:00"
 }
