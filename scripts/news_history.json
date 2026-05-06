@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Conservative Coverage To Millions Daily",
-      "urls": [
-        "https://www.foxnews.com?msockid=2fc119f88bc8656c3fd10ebf8ab6644f"
-      ],
-      "date": "2026-04-26T10:33:19.397129+00:00"
-    },
-    {
       "title": "Fox News Generates $2.1 Billion Revenue Amid Rising Viewership",
       "urls": [
         "https://www.foxnews.com?msockid=2989692c29ea649339d77e6b2854654e"
@@ -4499,7 +4492,14 @@
         "https://mistral.ai/news/forge"
       ],
       "date": "2026-05-06T10:05:22.714567+00:00"
+    },
+    {
+      "title": "Royal Society has published a comprehensive report confirming that Earth's climate is warming due to",
+      "urls": [
+        "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
+      ],
+      "date": "2026-05-06T10:35:07.345167+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T10:05:22.714624+00:00"
+  "lastUpdated": "2026-05-06T10:35:07.345224+00:00"
 }
