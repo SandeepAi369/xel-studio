@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Claude Cowork For Autonomous Knowledge Work",
-      "urls": [
-        "https://www.anthropic.com/product/claude-cowork",
-        "https://www.anthropic.com/news/claude-is-a-space-to-think"
-      ],
-      "date": "2026-04-26T19:34:10.612283+00:00"
-    },
-    {
       "title": "United States Records 14 Billion-Dollar Disasters in 2025 First Half",
       "urls": [
         "https://www.cbsnews.com/tag/disaster",
@@ -4438,7 +4430,16 @@
         "https://isfteh.org/2026/05/05/telehealth-and-medicine-today-digital-health-innovations-to-improve-outcomes"
       ],
       "date": "2026-05-06T19:07:20.486470+00:00"
+    },
+    {
+      "title": "PyTorch dominates AI model training, with 63% of current models built using the framework, reflectin",
+      "urls": [
+        "https://www.udacity.com/blog/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025",
+        "https://www.theknowledgeacademy.com/blog/pytorch-vs-tensorflow",
+        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
+      ],
+      "date": "2026-05-06T19:34:17.860172+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T19:07:20.486540+00:00"
+  "lastUpdated": "2026-05-06T19:34:17.860253+00:00"
 }
