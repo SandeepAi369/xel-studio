@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Breaks Two-Hour Marathon Barrier With 1:59:59 Run",
-      "urls": [
-        "https://marathon.com",
-        "https://www.skysports.com/more-sports/athletics/news/29175/13534235/london-marathon-2026-route-start-times-celebrity-line-up-weather-and-all-you-need-to-know-ahead-of-sundays-race",
-        "https://sports.yahoo.com/articles/london-marathon-2026-preview-elite-223109536.html",
-        "https://www.essentiallysports.com/olympics-news-track-and-field-news-barefoot-us-runner-raises-thirteen-thousand-dollars-in-charity-to-make-boston-marathon-record",
-        "https://santamariatimes.com/ap/sports/sabastian-sawe-breaks-fabled-2-hour-barrier-in-the-marathon-to-shatter-world-record-by/article_9feb1579-43b4-55d6-9586-64f8a39898d4.html",
-        "https://www.record-eagle.com/ap/sports/sabastian-sawe-breaks-fabled-2-hour-barrier-in-the-marathon-to-shatter-world-record-by/article_6a0d7810-11ef-5b21-9f2a-bd3d1f1c3c41.html",
-        "https://run247.com/running-news/marathon-news/london-marathon-2026-date-start-time-how-to-watch-live-leading-elite-contenders",
-        "https://www.wfmz.com/news/ap/ap-sports/sabastian-sawe-breaks-fabled-2-hour-barrier-in-the-marathon-to-shatter-world-record-by/article_cd263320-ecd2-59d3-af93-f31ddeb1624f.html",
-        "https://marathonhandbook.com/mo-farah-returns-to-london-marathon-as-official-starter-for-record-59000-runner-field"
-      ],
-      "date": "2026-04-26T16:33:07.627551+00:00"
-    },
-    {
-      "title": "Who Launched Emergency Response After Myanmar Earthquakes",
-      "urls": [
-        "https://www.who.int/southeastasia/news/detail/01-04-2025-who-response-mmr-eq25",
-        "https://www.who.int/publications/m/item/who-flash-appeal--earthquake-response-in-myanmar",
-        "https://www.who.int/emergencies/situations/Earthquake-Türkiye-Syria"
-      ],
-      "date": "2026-04-26T17:01:14.672799+00:00"
-    },
-    {
       "title": "Fox News uses zip code data to deliver localized weather updates to viewers across the United States",
       "urls": [
         "https://www.foxnews.com?msockid=0966e317a2c76fc600d0f450a34a6e75"
@@ -4454,7 +4430,14 @@
         "https://www.reuters.com/legal/data-privacy"
       ],
       "date": "2026-05-06T16:03:27.337422+00:00"
+    },
+    {
+      "title": "Scientists have discovered a hidden brain 'cleaning' effect triggered by physical movement, a findin",
+      "urls": [
+        "https://www.sciencedaily.com/news/top/science"
+      ],
+      "date": "2026-05-06T17:04:19.554413+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T16:03:27.337484+00:00"
+  "lastUpdated": "2026-05-06T17:04:19.554485+00:00"
 }
