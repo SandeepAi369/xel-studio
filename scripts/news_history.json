@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who Depicts Global Depression Crisis Affecting 280 Million People",
-      "urls": [
-        "https://www.who.int",
-        "https://www.who.int/news-room/fact-sheets/detail/depression",
-        "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
-        "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
-        "https://www.who.int/news-room/fact-sheets/detail/mental-health-in-emergencies"
-      ],
-      "date": "2026-04-26T15:01:05.762645+00:00"
-    },
-    {
       "title": "Bmj Open Users Encounter Upload Error For Missing Files",
       "urls": [
         "https://www.zhihu.com/question/11944342931"
@@ -4457,7 +4446,16 @@
         "https://finance.yahoo.com/news/startup-hugging-face-aims-cut-161915510.html"
       ],
       "date": "2026-05-06T14:36:02.838844+00:00"
+    },
+    {
+      "title": "Mayo Clinic AI Model Detects Pancreatic Cancer 475 Days Early",
+      "urls": [
+        "https://www.mirror.co.uk/news/health/new-cancer-breakthrough-ai-detects-37112125",
+        "https://medicalxpress.com/news/2025-12-breakthroughs-cancer-treatment-quality-ai.html",
+        "https://www.cbsnews.com/minnesota/news/mayo-clinic-uses-ai-to-achieve-breakthrough-in-diagnosing-cancers"
+      ],
+      "date": "2026-05-06T15:04:18.228223+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T14:36:02.838910+00:00"
+  "lastUpdated": "2026-05-06T15:04:18.228292+00:00"
 }
