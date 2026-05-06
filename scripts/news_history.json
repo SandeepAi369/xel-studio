@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Updates Windows Default App Settings",
-      "urls": [
-        "https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-b9582171-fd1f-4284-9846-bdd72bb28426",
-        "https://support.microsoft.com/en-us/windows/change-default-apps-in-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d"
-      ],
-      "date": "2026-04-26T03:30:56.958038+00:00"
-    },
-    {
       "title": "Afghan Authorities Confirm 25 Dead Amid Flooding Crisis",
       "urls": [
         "https://apnews.com/hub/weather",
@@ -4522,7 +4514,17 @@
         "https://www.youtube.com/watch?v=dE918JNaejg"
       ],
       "date": "2026-05-06T03:06:19.137024+00:00"
+    },
+    {
+      "title": "Nasa SpaceX Crew-12 Launches Four Astronauts To Space Station",
+      "urls": [
+        "https://www.youtube.com/watch?v=Vrn5KEfXHW8",
+        "https://www.nasa.gov/missions/station/what-you-need-to-know-about-nasas-spacex-crew-12-mission",
+        "https://www.youtube.com/watch?v=Ky7jWmspXZc",
+        "https://www.youtube.com/watch?v=VMROZCpB6rg"
+      ],
+      "date": "2026-05-06T03:35:03.506659+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T03:06:19.137092+00:00"
+  "lastUpdated": "2026-05-06T03:35:03.506726+00:00"
 }
