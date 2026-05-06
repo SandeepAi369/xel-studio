@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "ABC7 Launches Real-Time News Feed For Southern California",
-      "urls": [
-        "https://abc7.com/news",
-        "https://www.foxnews.com?msockid=3443a8a3724f61ff293fbfe473a56039"
-      ],
-      "date": "2026-04-26T07:34:17.403780+00:00"
-    },
-    {
-      "title": "Microsoft Enables Bluetooth On Windows 10 And 11 Devices",
-      "urls": [
-        "https://jumbleanswers.com/like-some-flaws-crossword-clue",
-        "https://support.microsoft.com/fr-fr/windows/activer-ou-désactiver-le-bluetooth-dans-windows-9e92fddd-4e12-e32b-9132-5e36bdb2f75a",
-        "https://www.justgeek.fr/comment-activer-le-bluetooth-sur-windows-11-109667",
-        "https://htpratique.com/installer-et-activer-bluetooth-sur-votre-pc-guide-complet",
-        "https://lecrabeinfo.net/tutoriels/activer-desactiver-bluetooth-windows-10",
-        "https://www.techcroute.com/comment-activer-le-bluetooth-sur-windows-10-11"
-      ],
-      "date": "2026-04-26T08:02:10.993366+00:00"
-    },
-    {
       "title": "NBC News Delivers Breaking Coverage To Millions Daily",
       "urls": [
         "https://www.nbcnews.com/latest-stories",
@@ -4513,7 +4493,16 @@
         "https://www.youtube.com/watch?v=8MzSRzx3wuU"
       ],
       "date": "2026-05-06T07:06:26.072075+00:00"
+    },
+    {
+      "title": "Web3 Newswire offers press release distribution services targeting the cryptocurrency and blockchain",
+      "urls": [
+        "https://web3newswire.com?srsltid=AfmBOoqwgNbrgkZXSUdCypYjtNVagjxQJpwV3UY7KBvBPNqETfsbL3Pl",
+        "https://www.ycombinator.com/companies/industry/crypto-web3",
+        "https://cryptoslate.com"
+      ],
+      "date": "2026-05-06T08:05:20.220225+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T07:06:26.072139+00:00"
+  "lastUpdated": "2026-05-06T08:05:20.220321+00:00"
 }
