@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Records 14 Billion-Dollar Disasters in 2025 First Half",
-      "urls": [
-        "https://www.cbsnews.com/tag/disaster",
-        "https://abcnews.com/US/wildfires-floods-extreme-heat-biggest-weather-stories-2025/story?id=128556731",
-        "https://www.worldvision.org/disaster-relief-news-stories/12-top-disasters-of-2025",
-        "https://www.nbcnews.com/floods",
-        "https://weather.com/news/weather/news/2025-10-21-billion-dollar-disasters-us-june-2025-report",
-        "https://www.theguardian.com/world/extreme-weather"
-      ],
-      "date": "2026-04-26T20:01:05.170888+00:00"
-    },
-    {
       "title": "HBO Max Launches Multiview Feature For Simultaneous Streaming",
       "urls": [
         "https://www.hbomax.com",
@@ -4439,7 +4427,14 @@
         "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
       ],
       "date": "2026-05-06T19:34:17.860172+00:00"
+    },
+    {
+      "title": "techUK has released a comprehensive update on shifting global trade dynamics, focusing on digital po",
+      "urls": [
+        "https://www.techuk.org/resource/global-tech-and-trade-policy-updatejuly.html"
+      ],
+      "date": "2026-05-06T20:06:35.954830+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T19:34:17.860253+00:00"
+  "lastUpdated": "2026-05-06T20:06:35.954902+00:00"
 }
