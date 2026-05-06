@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Homes And Drives $2.1 Billion In Revenue",
-      "urls": [
-        "https://www.foxnews.com?msockid=0ed0879fb65b6cbc2eb190d8b7046dc1"
-      ],
-      "date": "2026-04-26T23:34:10.298434+00:00"
-    },
-    {
       "title": "Hardee's Franchisee Closes 77 Florida Locations After Bankruptcy Filing",
       "urls": [
         "https://www.bucyrustelegraphforum.com/story/news/2026/04/22/florida-hardees-reopen/89729553007?gnt-cfr=1&gca-cat=p&gca-uir=true&gca-epti=z114423p000250c000250e002200v114423d--86--b--86--&gca-ft=170&gca-ds=sophi",
@@ -4435,7 +4428,16 @@
         "https://www.cbinsights.com/research/open-source-closed-source-ai"
       ],
       "date": "2026-05-06T23:07:24.219415+00:00"
+    },
+    {
+      "title": "Mistral AI has released a new open-source multimodal model, Mistral Next, designed to process text, ",
+      "urls": [
+        "https://llm-stats.com/ai-news",
+        "https://www.nature.com/articles/d41586-025-02495-w",
+        "https://www.simplilearn.com/open-source-llms-article"
+      ],
+      "date": "2026-05-06T23:35:07.896626+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T23:07:24.219472+00:00"
+  "lastUpdated": "2026-05-06T23:35:07.896684+00:00"
 }
