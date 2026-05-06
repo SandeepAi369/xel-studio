@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Launches New Flatbed Trucks For Mexican Urban Logistics",
-      "urls": [
-        "https://mexico.internationaltrucks.com/camiones-motores"
-      ],
-      "date": "2026-04-26T18:03:24.154387+00:00"
-    },
-    {
       "title": "Olympics.com Streams Paris 2024 With 329 Events And 10,500 Athletes",
       "urls": [
         "https://www.olympics.com/en"
@@ -4439,7 +4432,14 @@
         "https://news.mit.edu/topic/assistive-technology"
       ],
       "date": "2026-05-06T17:37:08.076734+00:00"
+    },
+    {
+      "title": "ESA reveals 10 new insights from climate science, highlighting unprecedented global temperature rise",
+      "urls": [
+        "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Revealed_10_new_insights_in_climate_science"
+      ],
+      "date": "2026-05-06T18:05:38.251933+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T17:37:08.076826+00:00"
+  "lastUpdated": "2026-05-06T18:05:38.252010+00:00"
 }
