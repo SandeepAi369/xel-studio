@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Households With Prime-Time Programming",
-      "urls": [
-        "https://www.foxnews.com?msockid=1c997bf2597361ab1dcf6cb55836605d"
-      ],
-      "date": "2026-04-26T09:01:09.691357+00:00"
-    },
-    {
       "title": "Tcs London Marathon Draws 50000 Runners For 2026 Race",
       "urls": [
         "https://www.bbc.com/news/articles/cly7w2w224do"
@@ -4501,7 +4494,19 @@
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoql6Y7Khh2obkTkaZGqAtz7pHTTAZxKSu26terTBN7-yuEoF4yI"
       ],
       "date": "2026-05-06T08:35:06.777345+00:00"
+    },
+    {
+      "title": "Avandra has launched with $17.",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.nature.com/articles/s41598-024-70073-7",
+        "https://www.boa.ac.uk/learning-and-events/artificial-intelligence-ai-in-t-o/ai-in-healthcare-news-and-updates.html",
+        "https://learn.hms.harvard.edu/insights/all-insights/how-emerging-trends-ai-are-shaping-future-health-care-quality-and-safety",
+        "https://www.insideprecisionmedicine.com/topics/translational-research/harnessing-ai-innovation-to-modernize-clinical-trials",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804900"
+      ],
+      "date": "2026-05-06T09:07:25.749376+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T08:35:06.777410+00:00"
+  "lastUpdated": "2026-05-06T09:07:25.749448+00:00"
 }
