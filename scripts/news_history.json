@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Olympics.com Streams Paris 2024 With 329 Events And 10,500 Athletes",
-      "urls": [
-        "https://www.olympics.com/en"
-      ],
-      "date": "2026-04-26T18:33:15.106124+00:00"
-    },
-    {
       "title": "Bitcoin Reaches $66,242 Amid Record $36.75 Billion Trading Surge",
       "urls": [
         "https://coinmarketcap.com/currencies/bitcoin",
@@ -4439,7 +4432,14 @@
         "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Revealed_10_new_insights_in_climate_science"
       ],
       "date": "2026-05-06T18:05:38.251933+00:00"
+    },
+    {
+      "title": "Open source AI is reshaping how developers build and deploy artificial intelligence tools across ind",
+      "urls": [
+        "https://www.linkedin.com/pulse/how-open-source-community-transforming-ai-channel-alyssa-fitzpatrick-i4ake"
+      ],
+      "date": "2026-05-06T18:35:14.379863+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T18:05:38.252010+00:00"
+  "lastUpdated": "2026-05-06T18:35:14.379943+00:00"
 }
