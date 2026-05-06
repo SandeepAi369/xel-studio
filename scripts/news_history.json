@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News uses zip code data to deliver localized weather updates to viewers across the United States",
-      "urls": [
-        "https://www.foxnews.com?msockid=0966e317a2c76fc600d0f450a34a6e75"
-      ],
-      "date": "2026-04-26T17:33:11.449362+00:00"
-    },
-    {
       "title": "International Launches New Flatbed Trucks For Mexican Urban Logistics",
       "urls": [
         "https://mexico.internationaltrucks.com/camiones-motores"
@@ -4437,7 +4430,16 @@
         "https://www.sciencedaily.com/news/top/science"
       ],
       "date": "2026-05-06T17:04:19.554413+00:00"
+    },
+    {
+      "title": "MIT researchers have developed a wristband that allows users to control a robotic hand through their",
+      "urls": [
+        "https://spectrum.ieee.org/tag/assistive-technology",
+        "https://www.reddit.com/r/AssistiveTechnology",
+        "https://news.mit.edu/topic/assistive-technology"
+      ],
+      "date": "2026-05-06T17:37:08.076734+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T17:04:19.554485+00:00"
+  "lastUpdated": "2026-05-06T17:37:08.076826+00:00"
 }
