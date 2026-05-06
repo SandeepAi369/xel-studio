@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Homes Amid $2.1 Billion Revenue Quarter",
-      "urls": [
-        "https://www.foxnews.com?msockid=1a5812e0a0a06856218e05a7a14569ee"
-      ],
-      "date": "2026-04-26T00:04:20.157446+00:00"
-    },
-    {
       "title": "Idaho Marathons Attract Runners With Scenic Certified Races",
       "urls": [
         "https://runningintheusa.com/classic/list/id/upcoming/marathon",
@@ -4546,7 +4539,14 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
       ],
       "date": "2026-05-05T23:34:01.563040+00:00"
+    },
+    {
+      "title": "OpenAI launched GPT-5.",
+      "urls": [
+        "https://www.inc.com/ben-sherry/openai-just-dropped-gpt-5-5-and-says-the-new-model-intuits-what-you-need-before-you-ask/91335260"
+      ],
+      "date": "2026-05-06T00:05:22.643958+00:00"
     }
   ],
-  "lastUpdated": "2026-05-05T23:34:01.563094+00:00"
+  "lastUpdated": "2026-05-06T00:05:22.644047+00:00"
 }
