@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux.org Users Encounter Installation Failures During Software Selection",
-      "urls": [
-        "https://www.linux.org/threads/an-installation-step-failed-software-selection.49003"
-      ],
-      "date": "2026-04-26T01:02:07.309389+00:00"
-    },
-    {
       "title": "Sotagliflozin Reduces Cardiovascular Events By 32 Percent In Diabetes Trial",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine"
@@ -4549,7 +4542,20 @@
         "https://www.prnewswire.com/news-releases/sports-technology-market-to-grow-by-usd-37-85-billion-2024-2028-driven-by-the-rise-in-sports-tech-events-report-highlights-market-evolution-powered-by-ai---technavio-302325745.html"
       ],
       "date": "2026-05-06T00:37:02.466446+00:00"
+    },
+    {
+      "title": "Be My Eyes has partnered with OpenAI to launch an AI-powered version of its app, which helps visuall",
+      "urls": [
+        "https://www.cnn.com/2024/07/08/tech/ai-assistive-technology-disabilities",
+        "https://www.envisioningaccess.org/aipoweringnextgen",
+        "https://makeitfable.com/article/insights-ai-and-accessibility",
+        "https://www.youtube.com/watch?v=X_2qd7UsgkY",
+        "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2024/12/inclusive-ai-for-people-with-disabilities--key-considerations.html",
+        "https://www.weforum.org/stories/2023/11/generative-ai-holds-potential-disabilities",
+        "https://www.cbc.ca/news/canada/new-brunswick/ai-levelling-playing-field-for-disabled-workers-1.7464131"
+      ],
+      "date": "2026-05-06T01:03:11.531434+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T00:37:02.466515+00:00"
+  "lastUpdated": "2026-05-06T01:03:11.531493+00:00"
 }
