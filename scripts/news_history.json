@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Incredible Escape Rooms Opens New Themed Challenges in Glendale",
-      "urls": [
-        "https://incredibleescaperooms.com",
-        "https://www.collinsdictionary.com/us/dictionary/english/incredible"
-      ],
-      "date": "2026-04-26T05:01:14.577188+00:00"
-    },
-    {
       "title": "Indiana Department of Natural Resources manages the state's fish and wildlife resources through its ",
       "urls": [
         "https://www.in.gov/dnr/fishwild"
@@ -4521,7 +4513,14 @@
         "https://techxplore.com/news/2026-02-tech-ai-athlete-business.html"
       ],
       "date": "2026-05-06T04:37:11.006083+00:00"
+    },
+    {
+      "title": "Recursion Pharmaceuticals is leveraging artificial intelligence to accelerate drug discovery, using ",
+      "urls": [
+        "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html"
+      ],
+      "date": "2026-05-06T05:04:15.674275+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T04:37:11.006148+00:00"
+  "lastUpdated": "2026-05-06T05:04:15.674337+00:00"
 }
