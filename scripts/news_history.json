@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "HBO Max Launches Multiview Feature For Simultaneous Streaming",
-      "urls": [
-        "https://www.hbomax.com",
-        "https://x1.play.max.com",
-        "https://www.hbo.com/how-to-watch-hbo-max",
-        "https://www.hbo.com",
-        "https://play.google.com/store/apps/details?id=com.wbd.stream&hl=en-US",
-        "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
-        "https://www.hulu.com/disney-hulu-hbomax-bundle",
-        "https://www.hbomax.com/login",
-        "https://www.hbomax.com/ws/en",
-        "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/best-hbo-max-subscription-streaming-deals-1235858489"
-      ],
-      "date": "2026-04-26T20:30:54.673468+00:00"
-    },
-    {
       "title": "MIT CSAIL Introduces Calibration Technique To Reduce AI Overconfidence",
       "urls": [
         "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422"
@@ -4434,7 +4418,17 @@
         "https://www.techuk.org/resource/global-tech-and-trade-policy-updatejuly.html"
       ],
       "date": "2026-05-06T20:06:35.954830+00:00"
+    },
+    {
+      "title": "NASA's SpaceX Crew-12 spacecraft is now in orbit following a successful launch and booster landing a",
+      "urls": [
+        "https://www.nasa.gov/blogs/spacestation/2026/02/13/crew-12-falcon-9-first-stage-returns",
+        "https://www.youtube.com/watch?v=JBFdvNI1mr4",
+        "https://x.com/SpaceX",
+        "https://www.youtube.com/watch?v=dyo1qhoFOX0"
+      ],
+      "date": "2026-05-06T20:38:01.421671+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T20:06:35.954902+00:00"
+  "lastUpdated": "2026-05-06T20:38:01.421739+00:00"
 }
