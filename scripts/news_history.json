@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT CSAIL Researchers Develop Safe Control System For Soft Robots",
-      "urls": [
-        "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202"
-      ],
-      "date": "2026-04-26T13:34:08.707614+00:00"
-    },
-    {
       "title": "YouTube Opens Monetization Tools To Creators With 1000 Subscribers And 4000 Watch Hours",
       "urls": [
         "https://support.google.com/youtube/answer/3227660?hl=en&co=GENIE.Platform%3DAndroid",
@@ -4471,7 +4464,14 @@
         "https://www.nytimes.com/section/science"
       ],
       "date": "2026-05-06T13:04:20.704747+00:00"
+    },
+    {
+      "title": "CES 2026 unveiled groundbreaking assistive technologies focused on independent mobility, with self-d",
+      "urls": [
+        "https://www.youtube.com/watch?v=b5DvFC4SaUE"
+      ],
+      "date": "2026-05-06T13:37:19.006794+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T13:04:20.704796+00:00"
+  "lastUpdated": "2026-05-06T13:37:19.006862+00:00"
 }
