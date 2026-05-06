@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Marathons Expand In 2026 With New Formats And Higher Caps",
-      "urls": [
-        "https://www.marathonguide.com/marathons/usa/ca",
-        "https://findarace.com/us/running/marathons/california",
-        "https://www.usamarathonlist.com",
-        "https://onlineraceresults.com/search",
-        "https://www.finishers.com/en/activities/road-running/marathon"
-      ],
-      "date": "2026-04-26T06:33:09.098942+00:00"
-    },
-    {
       "title": "Manual Wheelchairs Empower Users With Lightweight Portable Designs",
       "urls": [
         "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=21a394e03158609424ae83a7303c611f",
@@ -4519,7 +4508,14 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "date": "2026-05-06T06:04:09.125001+00:00"
+    },
+    {
+      "title": "Ocean heat content reached a record high in 2025, absorbing more excess energy from climate change t",
+      "urls": [
+        "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance"
+      ],
+      "date": "2026-05-06T06:33:59.679389+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T06:04:09.125085+00:00"
+  "lastUpdated": "2026-05-06T06:33:59.679449+00:00"
 }
