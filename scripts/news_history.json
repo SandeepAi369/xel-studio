@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "KCCI 8 News Exposes Local Corruption Leading to Iowa Policy Reforms",
-      "urls": [
-        "https://www.foxnews.com?msockid=2b3e7d82a5016c652fc16ac5a4616dc7",
-        "https://www.kcci.com/local-news"
-      ],
-      "date": "2026-04-26T23:03:16.277891+00:00"
-    },
-    {
       "title": "Fox News Reaches 80 Million Homes And Drives $2.1 Billion In Revenue",
       "urls": [
         "https://www.foxnews.com?msockid=0ed0879fb65b6cbc2eb190d8b7046dc1"
@@ -4429,7 +4421,21 @@
         "https://www.yahoo.com/news/companies-still-face-pressure-manage-124405085.html"
       ],
       "date": "2026-05-06T22:34:02.491784+00:00"
+    },
+    {
+      "title": "Stack Overflow survey reveals that 71% of developers with less than five years of experience are fam",
+      "urls": [
+        "https://ecommercenews.uk/story/open-source-ai-gains-favour-among-new-developers-globally",
+        "https://www.ibm.com/think/news/2025-open-ai-trends",
+        "https://www.bloomberg.com/news/articles/2025-08-06/how-deepseek-and-open-source-ai-models-are-disrupting-big-tech",
+        "https://www.cio.com/article/4020537/ai-open-source-projects-that-should-be-on-your-radar.html",
+        "https://www.youtube.com/watch?v=goMey2Ir-m0",
+        "https://www.youtube.com/watch?v=R5eH2PS0V3M",
+        "https://www.youtube.com/watch?v=oZ6weVeFNwo",
+        "https://www.cbinsights.com/research/open-source-closed-source-ai"
+      ],
+      "date": "2026-05-06T23:07:24.219415+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T22:34:02.491859+00:00"
+  "lastUpdated": "2026-05-06T23:07:24.219472+00:00"
 }
