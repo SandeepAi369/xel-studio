@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tcs London Marathon Draws 50000 Runners For 2026 Race",
-      "urls": [
-        "https://www.bbc.com/news/articles/cly7w2w224do"
-      ],
-      "date": "2026-04-26T09:31:01.837510+00:00"
-    },
-    {
-      "title": "Fox News Reaches 80 Million Homes, Drives $2.1 Billion Revenue",
-      "urls": [
-        "https://www.foxnews.com?msockid=0fd14fdcd24e67e6376c589bd32766d0"
-      ],
-      "date": "2026-04-26T10:02:08.819818+00:00"
-    },
-    {
       "title": "Fox News Delivers Conservative Coverage To Millions Daily",
       "urls": [
         "https://www.foxnews.com?msockid=2fc119f88bc8656c3fd10ebf8ab6644f"
@@ -4506,7 +4492,14 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804900"
       ],
       "date": "2026-05-06T09:07:25.749376+00:00"
+    },
+    {
+      "title": "Mistral AI has launched Forge, a new platform enabling enterprises to build custom AI models using t",
+      "urls": [
+        "https://mistral.ai/news/forge"
+      ],
+      "date": "2026-05-06T10:05:22.714567+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T09:07:25.749448+00:00"
+  "lastUpdated": "2026-05-06T10:05:22.714624+00:00"
 }
