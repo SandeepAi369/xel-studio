@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sotagliflozin Reduces Cardiovascular Events By 32 Percent In Diabetes Trial",
-      "urls": [
-        "https://www.sciencedaily.com/news/health_medicine"
-      ],
-      "date": "2026-04-26T01:30:55.997153+00:00"
-    },
-    {
-      "title": "Meta Opens 30th Data Center In Wisconsin To Boost AI Computing Power",
-      "urls": [
-        "https://about.fb.com/news/2026/04/meta-account",
-        "https://about.fb.com/news/2025/11/metas-30th-data-center-delivering-ai-supporting-wetlands-restoration"
-      ],
-      "date": "2026-04-26T02:01:07.198112+00:00"
-    },
-    {
-      "title": "Drug Discovery Market To Surge To 160 Billion By 2032",
-      "urls": [
-        "https://insilico.com/news/3fymrymsu1-nature-reviews-drug-discovery-target-ide",
-        "https://www.thepharmaletter.com/news",
-        "https://pubmed.ncbi.nlm.nih.gov",
-        "https://finance.yahoo.com/sectors/healthcare/articles/ai-drug-discovery-market-reach-140000992.html"
-      ],
-      "date": "2026-04-26T02:30:58.859481+00:00"
-    },
-    {
-      "title": "Climate Refugees Surge as 20 Million Flee Disasters Annually",
-      "urls": [
-        "https://www.thenewhumanitarian.org/migration",
-        "https://www.uselessdaily.com/world/climate-refugees-the-urgent-crisis-of-our-time",
-        "https://www.aljazeera.com/news/2026/3/17/irans-neighbours-prepare-for-fallout-as-war-threatens-new-refugee-crisis",
-        "https://www.msn.com/en-us/news/insight/us-plan-to-relocate-afghan-refugees-to-congo-draws-criticism/gm-GML68C5BBB",
-        "https://www.nbcnews.com/politics/immigration/lead-border-negotiator-says-no-immigration-deal-week-key-sticking-poin-rcna132924",
-        "https://news.un.org/en",
-        "https://www.aljazeera.com/news/2026/1/3/colombia-braces-with-alarm-after-maduros-removal-in-venezuela-by-us",
-        "https://refugeeresearch.net/april-23-2026-rrn-research-digest",
-        "https://www.newsnow.com/ca/World/Migration/Migrant+Crisis/Mediterranean+Migration+Crisis"
-      ],
-      "date": "2026-04-26T03:03:24.253742+00:00"
-    },
-    {
       "title": "Microsoft Updates Windows Default App Settings",
       "urls": [
         "https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-b9582171-fd1f-4284-9846-bdd72bb28426",
@@ -4555,7 +4515,14 @@
         "https://www.cbc.ca/news/canada/new-brunswick/ai-levelling-playing-field-for-disabled-workers-1.7464131"
       ],
       "date": "2026-05-06T01:03:11.531434+00:00"
+    },
+    {
+      "title": "Senator Josh Hawley has issued a stark warning about the intensifying artificial intelligence compet",
+      "urls": [
+        "https://www.youtube.com/watch?v=dE918JNaejg"
+      ],
+      "date": "2026-05-06T03:06:19.137024+00:00"
     }
   ],
-  "lastUpdated": "2026-05-06T01:03:11.531493+00:00"
+  "lastUpdated": "2026-05-06T03:06:19.137092+00:00"
 }
