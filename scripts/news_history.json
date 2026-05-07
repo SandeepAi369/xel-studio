@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates a multi-platform news network delivering updates on U.",
-      "urls": [
-        "https://www.foxnews.com?msockid=1d384118bbad67583db95650bac0661c"
-      ],
-      "date": "2026-04-27T19:05:39.480470+00:00"
-    },
-    {
-      "title": "JustWatch expands its streaming intelligence platform to cover over 500,000 films and TV episodes ac",
-      "urls": [
-        "https://www.allocine.fr",
-        "https://mobile.france.tv/films",
-        "https://www.justwatch.com/fr/films",
-        "https://www.imdb.com/fr/calendar",
-        "https://www.arte.tv/fr/videos/cinema"
-      ],
-      "date": "2026-04-27T19:31:02.536216+00:00"
-    },
-    {
       "title": "Reuters reports new advancements in AI model efficiency, with researchers developing techniques to r",
       "urls": [
         "https://natlawreview.com/article/trump-administration-unveils-new-ai-policy-framework-calling-congress-act",
@@ -4326,7 +4308,16 @@
         "https://www.youtube.com/watch?v=J3Ew3GfFXeg"
       ],
       "date": "2026-05-07T19:05:25.127862+00:00"
+    },
+    {
+      "title": "Nvidia announced a non-exclusive licensing agreement with Groq, a startup specializing in custom AI ",
+      "urls": [
+        "https://www.businessinsider.com/biggest-ai-deals-acquisitions-of-the-year-2025-12",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic",
+        "https://techfundingnews.com"
+      ],
+      "date": "2026-05-07T19:33:58.667350+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T19:05:25.127918+00:00"
+  "lastUpdated": "2026-05-07T19:33:58.667421+00:00"
 }
