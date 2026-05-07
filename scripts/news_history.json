@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Power Automate users are leveraging AI Builder to extract data from PDFs and automate entry into Exc",
-      "urls": [
-        "https://stackoverflow.com/questions/75737916/apply-for-each-loop-to-ai-builder-model"
-      ],
-      "date": "2026-04-27T17:03:18.765074+00:00"
-    },
-    {
       "title": "Science is a systematic method of inquiry focused on understanding the physical world through observ",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Science",
@@ -4328,7 +4321,16 @@
         "https://www.youtube.com/watch?v=MRusRPaYsvI"
       ],
       "date": "2026-05-07T16:34:06.636284+00:00"
+    },
+    {
+      "title": "President Donald Trump has appointed top tech executives to a government advisory council on artific",
+      "urls": [
+        "https://aimagazine.com/news/tech-leaders-join-trump-ai-advisory-panel",
+        "https://www.wired.com/story/tech-ceos-using-ai-to-be-everywhere-at-once",
+        "https://www.youtube.com/watch?v=2vDW8ZpynLI"
+      ],
+      "date": "2026-05-07T17:09:28.928214+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T16:34:06.636345+00:00"
+  "lastUpdated": "2026-05-07T17:09:28.928281+00:00"
 }
