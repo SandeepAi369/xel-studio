@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard researchers demonstrated a new quantum system capable of detecting and correcting errors bel",
-      "urls": [
-        "https://news.mit.edu/topic/quantum-computing",
-        "https://link.springer.com/subjects/quantum-computing",
-        "https://www.sciencedaily.com/news/computers_math/quantum_computers",
-        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025",
-        "https://www.nature.com/articles/d41586-026-01054-1",
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFk1YTJRU0FtVnVLQUFQAQ?ceid=US%3Aen&oc=3&hl=en-US",
-        "https://quantumzeitgeist.com",
-        "https://news.harvard.edu/gazette/story/2025/11/a-potential-quantum-leap",
-        "https://blog.google/innovation-and-ai/technology/research/quantum-echoes-willow-verifiable-quantum-advantage",
-        "https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance"
-      ],
-      "date": "2026-04-27T12:31:08.696109+00:00"
-    },
-    {
       "title": "Open-Source AI Models are transforming how developers access and improve artificial intelligence, wi",
       "urls": [
         "https://opensourceainews.com",
@@ -4336,7 +4320,15 @@
         "https://www.youtube.com/watch?v=A11NCDNXg1Y"
       ],
       "date": "2026-05-07T12:06:12.733789+00:00"
+    },
+    {
+      "title": "Ciryl Gane is set to return to the UFC Octagon in a high-profile bout against Alex Pereira at UFC Fr",
+      "urls": [
+        "https://www.yardbarker.com/mma",
+        "https://www.ufc.com/events"
+      ],
+      "date": "2026-05-07T12:34:04.877588+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T12:06:12.733873+00:00"
+  "lastUpdated": "2026-05-07T12:34:04.877660+00:00"
 }
