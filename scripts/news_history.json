@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration Expands My Social Security Online Access",
-      "urls": [
-        "https://www.ssa.gov/myaccount/create.html",
-        "https://www.ssa.gov/manage-benefits/make-an-appointment"
-      ],
-      "date": "2026-04-27T03:36:25.380582+00:00"
-    },
-    {
-      "title": "New Zealand Herald expands digital operations to cover real-time updates on regional and internation",
-      "urls": [
-        "https://news.sky.com",
-        "https://nypost.com",
-        "https://www.newsmax.com",
-        "https://www.nzherald.co.nz"
-      ],
-      "date": "2026-04-27T04:01:15.928831+00:00"
-    },
-    {
       "title": "Anthropic has unveiled a comprehensive AI safety strategy focused on preventing harm while maintaini",
       "urls": [
         "https://www.cbsnews.com/news/anthropic-investigates-mythos-ai-breach",
@@ -4417,7 +4399,20 @@
         "https://www.thenewhumanitarian.org/migration"
       ],
       "date": "2026-05-07T03:04:22.248588+00:00"
+    },
+    {
+      "title": "WTO Expands ePing Platform to Boost Global Trade Compliance",
+      "urls": [
+        "https://www.wto.org/english/news_e/news_e.htm",
+        "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-march-2026",
+        "https://internationaltradetoday.com",
+        "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack",
+        "https://www.youtube.com/watch?v=Hu6Y7B1StRM",
+        "https://www.usitc.gov",
+        "https://www.cnbc.com/2026/05/06/tariff-refunds-earnings-hit-pandora-philips.html"
+      ],
+      "date": "2026-05-07T04:07:13.901884+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T03:04:22.248658+00:00"
+  "lastUpdated": "2026-05-07T04:07:13.901952+00:00"
 }
