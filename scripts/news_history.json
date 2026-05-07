@@ -1,38 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has launched a new suite of open-source models under the Mistral 3 banner, including Mist",
-      "urls": [
-        "https://mistral.ai/news",
-        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html?msockid=26182ceb035b64a504e43ba302c6657d",
-        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
-        "https://www.techinasia.com/news/mistral-launches-opensource-ai-models",
-        "https://techcrunch.com/tag/mistral-ai",
-        "https://venturebeat.com/ai/mistral-launches-powerful-devstral-2-coding-model-including-open-source",
-        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
-        "https://www.theregister.com/2025/12/02/mistral_3",
-        "https://news.lavx.hu/article/mistral-ai-shakes-up-open-source-llm-race-with-high-performance-7b-model-and-embedding-breakthrough"
-      ],
-      "date": "2026-04-27T09:03:19.781989+00:00"
-    },
-    {
-      "title": "NewsBreak Delivers Localized Alerts Across 10000 US Communities",
-      "urls": [
-        "https://www.foxnews.com?msockid=2be70ac5c14c60af11241d8dc08e61b2",
-        "https://www.newsbreak.com"
-      ],
-      "date": "2026-04-27T09:35:25.727237+00:00"
-    },
-    {
-      "title": "Stack Overflow Bans ChatGPT And Generative AI Content",
-      "urls": [
-        "https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned",
-        "https://french.kwiziq.com",
-        "https://stackoverflow.com/questions/tagged/artificial-intelligence?tab=Newest"
-      ],
-      "date": "2026-04-27T10:03:24.147151+00:00"
-    },
-    {
       "title": "Intel has initiated a major leadership overhaul, signaling deep structural changes as it works to re",
       "urls": [
         "https://www.computerworld.com/article/4053605/intel-announces-leadership-overhaul-underscoring-long-road-to-recovery.html",
@@ -4382,7 +4350,15 @@
         "https://www.kpbs.org/news/2026/02/23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states"
       ],
       "date": "2026-05-07T08:37:10.583884+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches ProEval Framework to Predict AI Model Failures",
+      "urls": [
+        "https://letsdatascience.com/news/topic/google",
+        "https://deepmind.google/research/publications"
+      ],
+      "date": "2026-05-07T10:04:18.165091+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T08:37:10.583949+00:00"
+  "lastUpdated": "2026-05-07T10:04:18.165160+00:00"
 }
