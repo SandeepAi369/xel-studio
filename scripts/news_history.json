@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Goose is an open-source AI framework launched by Jack Dorsey’s team, designed to streamline the deve",
-      "urls": [
-        "https://www.microsoft.com/en-us",
-        "https://www.business-standard.com/technology/tech-news/jack-dorsey-twitter-block-open-source-ai-goose-deepseek-google-anthropic-125021300589_1.html",
-        "https://www.techrepublic.com/topic/open-source"
-      ],
-      "date": "2026-04-27T23:01:08.775388+00:00"
-    },
-    {
       "title": "Stanford Harvard Study Shows 68 Percent Surge in Clinical AI Adoption",
       "urls": [
         "https://www.nature.com/articles/s41591-026-04329-2",
@@ -4296,7 +4287,14 @@
         "https://www.youtube.com/watch?v=0o7kpg0jfH8"
       ],
       "date": "2026-05-07T22:35:05.403856+00:00"
+    },
+    {
+      "title": "The Register provides consistent coverage of Linux and open source developments, focusing on enterpr",
+      "urls": [
+        "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff"
+      ],
+      "date": "2026-05-07T23:06:18.921635+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T22:35:05.403917+00:00"
+  "lastUpdated": "2026-05-07T23:06:18.921706+00:00"
 }
