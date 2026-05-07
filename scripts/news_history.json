@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Science is a systematic method of inquiry focused on understanding the physical world through observ",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Science",
-        "https://www.britannica.com/science/science",
-        "https://www.npr.org/sections/science",
-        "https://www.sciencemirror.com/branches-of-science-the-complete-list",
-        "https://undsci.berkeley.edu/understanding-science-101/what-is-science"
-      ],
-      "date": "2026-04-27T17:32:15.033957+00:00"
-    },
-    {
       "title": "Fox News Delivers Breaking Coverage Across Digital And Cable Platforms",
       "urls": [
         "https://www.foxnews.com?msockid=1d362e2950c065382047396151626430"
@@ -4330,7 +4319,15 @@
         "https://www.youtube.com/watch?v=2vDW8ZpynLI"
       ],
       "date": "2026-05-07T17:09:28.928214+00:00"
+    },
+    {
+      "title": "Royal Society has released a report urging tech companies, researchers, and governments to involve d",
+      "urls": [
+        "https://www.perkins.org/5-disabilitytech-companies-prioritizing-accessibility-and-safety-amid-climate-change",
+        "https://royalsociety.org/news/2025/06/disability-technology"
+      ],
+      "date": "2026-05-07T17:36:04.323025+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T17:09:28.928281+00:00"
+  "lastUpdated": "2026-05-07T17:36:04.323096+00:00"
 }
