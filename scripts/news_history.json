@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable energy is defined as power derived from natural sources that are replenished faster than c",
-      "urls": [
-        "https://www.carrboronc.gov/784/8362/Renewable-Energy",
-        "https://www.un.org/en/climatechange/what-is-renewable-energy",
-        "https://ourworldindata.org/renewable-energy",
-        "https://www.merriam-webster.com/dictionary/renewable",
-        "https://iere.org/what-is-renewable-energy"
-      ],
-      "date": "2026-04-27T07:01:14.348106+00:00"
-    },
-    {
       "title": "Geopolitical Monitor provides independent analysis of global political shifts, focusing on how geogr",
       "urls": [
         "https://www.csis.org/geopolitics-foreign-policy",
@@ -4390,7 +4379,16 @@
         "https://www.ctinsider.com/news/article/renewable-energies-overtook-global-electricity-22216837.php"
       ],
       "date": "2026-05-07T06:37:06.573411+00:00"
+    },
+    {
+      "title": "Texas father confronts and subdues an individual attempting to carjack his vehicle in a violent inci",
+      "urls": [
+        "https://www.foxnews.com",
+        "https://www.washingtonpost.com",
+        "https://www.npr.org/sections/news"
+      ],
+      "date": "2026-05-07T07:08:31.600745+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T06:37:06.573495+00:00"
+  "lastUpdated": "2026-05-07T07:08:31.600814+00:00"
 }
