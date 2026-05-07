@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters reports new advancements in AI model efficiency, with researchers developing techniques to r",
-      "urls": [
-        "https://natlawreview.com/article/trump-administration-unveils-new-ai-policy-framework-calling-congress-act",
-        "https://www.reuters.com/technology/artificial-intelligence",
-        "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
-        "https://www.reuters.com/technology",
-        "https://www.foxnews.com/politics"
-      ],
-      "date": "2026-04-27T20:03:19.691551+00:00"
-    },
-    {
       "title": "White House Unveils National AI Framework to Unify Federal and State Regulations",
       "urls": [
         "https://natlawreview.com/article/artificial-intelligence-legislative-update",
@@ -4317,7 +4306,15 @@
         "https://techfundingnews.com"
       ],
       "date": "2026-05-07T19:33:58.667350+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://www.bloomberg.com/economics-v2",
+        "https://www.youtube.com/watch?v=sAjJjjmo0ug&vl=en-US"
+      ],
+      "date": "2026-05-07T20:06:24.059354+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T19:33:58.667421+00:00"
+  "lastUpdated": "2026-05-07T20:06:24.059907+00:00"
 }
