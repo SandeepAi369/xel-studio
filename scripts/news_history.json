@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Reports 88% Of Fortune 500 Use Open Source Software",
-      "urls": [
-        "https://thenewstack.io/open-source",
-        "https://anchorbizit.com/category/linuxnews"
-      ],
-      "date": "2026-04-27T22:01:18.258554+00:00"
-    },
-    {
       "title": "Trump Administration Reviews Security After White House Shooting Incident",
       "urls": [
         "https://www.foxnews.com?msockid=26ea9b15faa96c9121ae8c5dfb116d55",
@@ -4292,7 +4284,19 @@
         "https://www.11alive.com/article/news/local/gold-medalist-elana-meyers-taylor-recognized-for-her-olympic-accomplishments-during-georgia-house-session/85-421c964f-8620-4952-8388-603c7b84ee36"
       ],
       "date": "2026-05-07T21:39:29.002555+00:00"
+    },
+    {
+      "title": "OpenAI president Greg Brockman reported that AI coding tools have shifted from writing 20% of code t",
+      "urls": [
+        "https://www.developer-tech.com/news/ai-coding-tools-80-percent-code-developer-risk",
+        "https://www.aubergine.co/insights/top-ai-coding-design-tools-in-2026",
+        "https://blog.n8n.io/best-ai-for-coding",
+        "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+        "https://www.youtube.com/watch?v=RKbmqSRc0z0",
+        "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know"
+      ],
+      "date": "2026-05-07T22:04:20.793004+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T21:39:29.002615+00:00"
+  "lastUpdated": "2026-05-07T22:04:20.793086+00:00"
 }
