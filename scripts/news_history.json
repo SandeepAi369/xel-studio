@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft and Hugging Face have expanded their collaboration, giving Azure developers access to over",
-      "urls": [
-        "https://huggingface.co",
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-        "https://devblogs.microsoft.com/foundry/microsoft-and-hugging-face-expand-partnership-to-accelerate-open-source-ai-innovation-on-azure-ai-foundry",
-        "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025",
-        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
-        "https://huggingface.co/models",
-        "https://huggingface.co/spaces/HexQuant/Open-Source-AI-Year-in-Review-2025",
-        "https://github.com/huggingface"
-      ],
-      "date": "2026-04-27T14:36:27.743820+00:00"
-    },
-    {
       "title": "Fox News reaches a daily audience of 2.",
       "urls": [
         "https://www.foxnews.com?msockid=1c78e84394086fcd3e14ff0b955e6e11"
@@ -4323,7 +4309,21 @@
         "https://fedscoop.com/new-report-highlights-agency-advantages-of-using-smaller-open-source-ai-models"
       ],
       "date": "2026-05-07T14:35:09.522262+00:00"
+    },
+    {
+      "title": "Big Tech is facing heightened scrutiny as major companies prepare to report earnings, with investors",
+      "urls": [
+        "https://finance.yahoo.com/video/big-tech-powers-the-market-with-strong-earnings-wins-204436892.html",
+        "https://www.aol.com/finance/easy-money-made-big-tech-181508667.html",
+        "https://investingnews.com/top-tech-news",
+        "https://www.reuters.com/business/wall-street-futures-mixed-ahead-big-tech-earnings-fed-meeting-2026-04-29",
+        "https://www.youtube.com/watch?v=UP5txhwn-gU",
+        "https://www.youtube.com/watch?v=jP9nxoYix9c",
+        "https://www.investopedia.com/the-easy-money-has-been-made-in-big-tech-stocks-will-this-week-s-earnings-be-good-enough-for-investors-11960236",
+        "https://finance.yahoo.com/sectors/technology"
+      ],
+      "date": "2026-05-07T15:03:15.076764+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T14:35:09.522328+00:00"
+  "lastUpdated": "2026-05-07T15:03:15.076836+00:00"
 }
