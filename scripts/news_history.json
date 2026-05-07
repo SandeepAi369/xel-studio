@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Access offers a wide range of wheelchair accessible vehicles, including new, used, and certif",
-      "urls": [
-        "https://dictionary.cambridge.org/dictionary/english/accessible",
-        "https://www.unitedaccess.com/us/en.html",
-        "https://www.collinsdictionary.com/us/dictionary/english/accessible",
-        "https://www.britannica.com/dictionary/accessible"
-      ],
-      "date": "2026-04-27T02:01:09.374264+00:00"
-    },
-    {
       "title": "MIT CSAIL Unveils CompreSSM To Shrink AI Models During Training",
       "urls": [
         "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409"
@@ -4424,7 +4414,19 @@
         "https://theconversation.com/topics/biodiversity-486"
       ],
       "date": "2026-05-07T01:40:14.338370+00:00"
+    },
+    {
+      "title": "Sebastian Sawe Smashes 10000 Meters World Record In 26:11.00",
+      "urls": [
+        "https://www.cnn.com/sport",
+        "https://sports.yahoo.com/articles/setting-world-records-become-annual-110143561.html",
+        "https://kids.guinnessworldrecords.com/news/2026/1/record-breaking-news-these-recent-world-records-will-blow-your-mind",
+        "https://www.youtube.com/watch?v=swlctSGrAt0",
+        "https://www.reuters.com/sports",
+        "https://www.youtube.com/watch?v=kSfwtbkmYeI"
+      ],
+      "date": "2026-05-07T02:04:23.481895+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T01:40:14.338437+00:00"
+  "lastUpdated": "2026-05-07T02:04:23.481959+00:00"
 }
