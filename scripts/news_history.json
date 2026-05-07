@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Administration Reviews Security After White House Shooting Incident",
-      "urls": [
-        "https://www.foxnews.com?msockid=26ea9b15faa96c9121ae8c5dfb116d55",
-        "https://nypost.com/2026/04/27/us-news/trump-admin-live-updates-april-27-28-29-30"
-      ],
-      "date": "2026-04-27T22:30:59.442171+00:00"
-    },
-    {
       "title": "Goose is an open-source AI framework launched by Jack Dorsey’s team, designed to streamline the deve",
       "urls": [
         "https://www.microsoft.com/en-us",
@@ -4296,7 +4288,15 @@
         "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know"
       ],
       "date": "2026-05-07T22:04:20.793004+00:00"
+    },
+    {
+      "title": "Ember's Global Electricity Review reveals renewable energy met 100% of new global electricity demand",
+      "urls": [
+        "https://www.cbc.ca/news/science/solar-wind-ember-renewables-electricity-9.7170953",
+        "https://www.youtube.com/watch?v=0o7kpg0jfH8"
+      ],
+      "date": "2026-05-07T22:35:05.403856+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T22:04:20.793086+00:00"
+  "lastUpdated": "2026-05-07T22:35:05.403917+00:00"
 }
