@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SCREEN Holdings manufactures precision equipment for semiconductor and display production, focusing ",
-      "urls": [
-        "https://www.screen.co.jp/recruit_info"
-      ],
-      "date": "2026-04-27T13:32:15.090405+00:00"
-    },
-    {
       "title": "Twine Launches Open Source Tool For Interactive Storytelling",
       "urls": [
         "https://community.chocolatey.org",
@@ -4325,7 +4318,15 @@
         "https://www.youtube.com/watch?v=K43taX76_nQ"
       ],
       "date": "2026-05-07T13:07:23.819205+00:00"
+    },
+    {
+      "title": "Canva has acquired Simtheory and Ortto to strengthen its AI-driven marketing automation capabilities",
+      "urls": [
+        "https://flippa.com/blog/acquisitions/artificial-intelligence-industry-acquisitions",
+        "https://techcrunch.com/tag/mergers-and-acquisitions"
+      ],
+      "date": "2026-05-07T14:04:28.521184+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T13:07:23.819262+00:00"
+  "lastUpdated": "2026-05-07T14:04:28.521252+00:00"
 }
