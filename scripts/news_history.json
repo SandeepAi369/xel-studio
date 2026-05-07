@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Breaking Coverage Across Digital And Cable Platforms",
-      "urls": [
-        "https://www.foxnews.com?msockid=1d362e2950c065382047396151626430"
-      ],
-      "date": "2026-04-27T18:02:20.656766+00:00"
-    },
-    {
-      "title": "Tech Earnings report shows major companies releasing financial results this week, with investor focu",
-      "urls": [
-        "https://www.marketbeat.com/earnings/live-conference-calls",
-        "https://www.wsj.com/livecoverage/earnings-apple-google-microsoft",
-        "https://finance.yahoo.com/news/big-tech-earnings-just-around-155250460.html",
-        "https://markets.businessinsider.com/earnings-calendar",
-        "https://www.marketwatch.com/investing/stocks/tech-stocks"
-      ],
-      "date": "2026-04-27T18:30:58.533638+00:00"
-    },
-    {
       "title": "Fox News operates a multi-platform news network delivering updates on U.",
       "urls": [
         "https://www.foxnews.com?msockid=1d384118bbad67583db95650bac0661c"
@@ -4327,7 +4309,15 @@
         "https://royalsociety.org/news/2025/06/disability-technology"
       ],
       "date": "2026-05-07T17:36:04.323025+00:00"
+    },
+    {
+      "title": "Hugging Face hosts a growing library of open AI models from global developers, including DeepSeek, M",
+      "urls": [
+        "https://huggingface.co",
+        "https://huggingface.co/models"
+      ],
+      "date": "2026-05-07T18:34:08.140299+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T17:36:04.323096+00:00"
+  "lastUpdated": "2026-05-07T18:34:08.140364+00:00"
 }
