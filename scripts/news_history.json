@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Programmable gene integration enables precise insertion of genetic material into human cells, offeri",
-      "urls": [
-        "https://www.science.org/doi/10.1126/science.adn4381",
-        "https://www.science.org/doi/10.1126/science.adq5480",
-        "https://www.science.org/doi/10.1126/science.adt5199"
-      ],
-      "date": "2026-04-27T01:30:54.275963+00:00"
-    },
-    {
       "title": "United Access offers a wide range of wheelchair accessible vehicles, including new, used, and certif",
       "urls": [
         "https://dictionary.cambridge.org/dictionary/english/accessible",
@@ -4426,7 +4417,14 @@
         "https://iste.org/blog/the-new-era-of-accessible-tech"
       ],
       "date": "2026-05-07T01:07:21.022258+00:00"
+    },
+    {
+      "title": "Scientists Launch Podcast On Brazil Australia Climate Research",
+      "urls": [
+        "https://theconversation.com/topics/biodiversity-486"
+      ],
+      "date": "2026-05-07T01:40:14.338370+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T01:07:21.022336+00:00"
+  "lastUpdated": "2026-05-07T01:40:14.338437+00:00"
 }
