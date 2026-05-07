@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Geopolitical Monitor provides independent analysis of global political shifts, focusing on how geogr",
-      "urls": [
-        "https://www.csis.org/geopolitics-foreign-policy",
-        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography",
-        "https://www.geopoliticalmonitor.com"
-      ],
-      "date": "2026-04-27T07:32:11.911183+00:00"
-    },
-    {
       "title": "Danone Recalls Infant Formula Batches Affecting 2026 Financial Outlook",
       "urls": [
         "https://www.danone.com/content/dam/corp/global/danonecom/investors/facts---figures/danonecorporatepresentationmay25.pdf.coredownload.pdf",
@@ -4388,7 +4379,14 @@
         "https://www.npr.org/sections/news"
       ],
       "date": "2026-05-07T07:08:31.600745+00:00"
+    },
+    {
+      "title": "Gloucestershire residents with disabilities are urging tech developers to create more personalized a",
+      "urls": [
+        "https://www.bbc.com/news/articles/cz7pdy3yq3qo"
+      ],
+      "date": "2026-05-07T07:40:17.498068+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T07:08:31.600814+00:00"
+  "lastUpdated": "2026-05-07T07:40:17.498135+00:00"
 }
