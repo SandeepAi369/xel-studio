@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News reaches a daily audience of 2.",
-      "urls": [
-        "https://www.foxnews.com?msockid=1c78e84394086fcd3e14ff0b955e6e11"
-      ],
-      "date": "2026-04-27T15:05:38.491161+00:00"
-    },
-    {
-      "title": "Lebanon Protests Escalate Over Tax Reforms and Wage Cuts",
-      "urls": [
-        "https://www.firstpost.com/world",
-        "https://www.lbcgroup.tv/latest-news/en",
-        "https://www.manoramaonline.com/news/latest-news.html"
-      ],
-      "date": "2026-04-27T15:32:16.191532+00:00"
-    },
-    {
       "title": "Bounder Launches All-Terrain Wheelchair Supporting 600 Pounds",
       "urls": [
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=2345114a12ef6aad383a0602131c6b64",
@@ -4323,7 +4307,15 @@
         "https://finance.yahoo.com/sectors/technology"
       ],
       "date": "2026-05-07T15:03:15.076764+00:00"
+    },
+    {
+      "title": "SpaceX is preparing Booster 19 for launch, the first Version 3 Super Heavy booster, marking a signif",
+      "urls": [
+        "https://www.youtube.com/watch?v=yrqt-Uk7dyA",
+        "https://www.nasa.gov/events"
+      ],
+      "date": "2026-05-07T15:34:08.620362+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T15:03:15.076836+00:00"
+  "lastUpdated": "2026-05-07T15:34:08.620428+00:00"
 }
