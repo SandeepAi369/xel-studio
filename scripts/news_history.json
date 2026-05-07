@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source AI Models are transforming how developers access and improve artificial intelligence, wi",
-      "urls": [
-        "https://opensourceainews.com",
-        "https://blogs.nvidia.com/blog/open-source-ai-week",
-        "https://medium.com/@justjlee/the-rise-of-open-source-ai-models-2024-2025-11354a0e8e23",
-        "https://dev.to",
-        "https://github.com/features/copilot"
-      ],
-      "date": "2026-04-27T13:02:32.465214+00:00"
-    },
-    {
       "title": "SCREEN Holdings manufactures precision equipment for semiconductor and display production, focusing ",
       "urls": [
         "https://www.screen.co.jp/recruit_info"
@@ -4328,7 +4317,15 @@
         "https://www.ufc.com/events"
       ],
       "date": "2026-05-07T12:34:04.877588+00:00"
+    },
+    {
+      "title": "SpaceX launched 24 Starlink satellites into low Earth orbit aboard a Falcon 9 rocket, marking the 24",
+      "urls": [
+        "https://plus.nasa.gov/scheduled-video/nasas-spacex-34th-commercial-resupply-services-launch",
+        "https://www.youtube.com/watch?v=K43taX76_nQ"
+      ],
+      "date": "2026-05-07T13:07:23.819205+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T12:34:04.877660+00:00"
+  "lastUpdated": "2026-05-07T13:07:23.819262+00:00"
 }
