@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel has initiated a major leadership overhaul, signaling deep structural changes as it works to re",
-      "urls": [
-        "https://www.computerworld.com/article/4053605/intel-announces-leadership-overhaul-underscoring-long-road-to-recovery.html",
-        "https://fortune.com/2025/12/08/apple-executive-exodus-2026-new-leadership-team-rising-stars-tim-cook-successor",
-        "https://www.crn.com/news/components-peripherals/2025/13-big-intel-executive-hires-exits-and-other-moves-under-lip-bu-tan",
-        "https://www.digitimes.com/news/a20250909VL202/intel-management-personnel-business.html",
-        "https://www.nokia.com/newsroom/nokia-announces-new-strategy-evolution-of-its-operating-model-new-long-term-financial-target-strategic-kpis-and-changes-to-its-group-leadership-team"
-      ],
-      "date": "2026-04-27T10:33:07.162567+00:00"
-    },
-    {
-      "title": "Nvidia RTX 5070 Ti and AMD RX 9070 XT are the latest GPUs drawing attention from PC builders focused",
-      "urls": [
-        "https://forums.pcgamer.com/threads/info-nvidia-5070ti-vs-amd-rx9070xt-for-gaming-streaming-and-editing-video.149078",
-        "https://boardgamegeek.com/thread/3019789/how-to-build-a-deluxe-gaming-table-for-under-500-d",
-        "https://forums.pcgamer.com/threads/best-budget-gaming-keyboard-under-50-in-2026.149958",
-        "https://boardgamegeek.com/wiki/page/Game_Magazines"
-      ],
-      "date": "2026-04-27T11:01:12.858963+00:00"
-    },
-    {
       "title": "Fox News reaches a reported 80 million households across the United States, maintaining its position",
       "urls": [
         "https://www.foxnews.com?msockid=135e5f628a0f6e4a12d0482a8b3d6fef"
@@ -4358,7 +4337,14 @@
         "https://deepmind.google/research/publications"
       ],
       "date": "2026-05-07T10:04:18.165091+00:00"
+    },
+    {
+      "title": "Amazon Web Services is expanding its support for Web3 development by offering infrastructure tools t",
+      "urls": [
+        "https://aws.amazon.com/web3"
+      ],
+      "date": "2026-05-07T11:07:26.730103+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T10:04:18.165160+00:00"
+  "lastUpdated": "2026-05-07T11:07:26.730163+00:00"
 }
