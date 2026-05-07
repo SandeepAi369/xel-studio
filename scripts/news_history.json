@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nancy Guthrie Case Reclassified as Homicide After New Toxicology Findings",
-      "urls": [
-        "https://www.foxnews.com?msockid=0ebe31d859f46057178b269058cc6197",
-        "https://www.theatlantic.com/latest",
-        "https://www.timesnownews.com/world/us/us-news/latest-nancy-guthrie-update-today-savannah-guthrie-mom-kidnapping-case-article-154142100"
-      ],
-      "date": "2026-04-27T05:33:10.633184+00:00"
-    },
-    {
-      "title": "Google DeepMind Launches Deep Research And Deep Research Max Agents",
-      "urls": [
-        "https://howaiworks.ai/blog/google-deepmind-deep-research-announcement",
-        "https://venturebeat.com/ai/googles-new-deep-research-and-deep-research-max-agents-can-search-the-web-and-your-private-data"
-      ],
-      "date": "2026-04-27T06:04:30.932296+00:00"
-    },
-    {
       "title": "Össur Power Knee Cuts Stumble Rates By 42 Percent",
       "urls": [
         "https://connsensereport.com/2025/08/10/accessible-innovations-in-technology-2025-updates",
@@ -4401,7 +4384,15 @@
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOorGbTUrvVj786_bJnjlCV-BK3PHFckzd4d0fF6Ymx_BPcUu3UDx"
       ],
       "date": "2026-05-07T05:06:34.361410+00:00"
+    },
+    {
+      "title": "Amazon Web Services Boosts AI Infrastructure Spending To Over $200 Billion",
+      "urls": [
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
+        "https://www.cloudcomputing-news.net/news/cloud-demand-shifts-toward-ai-as-enterprise-usage-deepens"
+      ],
+      "date": "2026-05-07T06:08:21.352976+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T05:06:34.361477+00:00"
+  "lastUpdated": "2026-05-07T06:08:21.353036+00:00"
 }
