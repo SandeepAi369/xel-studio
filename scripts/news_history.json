@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Harvard Study Shows 68 Percent Surge in Clinical AI Adoption",
-      "urls": [
-        "https://www.nature.com/articles/s41591-026-04329-2",
-        "https://medicine.stanford.edu/news/stories/2026/01/clinical-ai-has-boomed.html",
-        "https://www.forbes.com/councils/forbestechcouncil/2025/02/28/five-ai-innovations-that-will-redefine-healthcare-in-2025",
-        "https://www.weforum.org/stories/2023/02/health-future-innovation-technology",
-        "https://tateeda.com/blog/healthcare-technology-trends",
-        "https://www.ama-assn.org/topics/health-care-ai",
-        "https://healthtechmagazine.net",
-        "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends"
-      ],
-      "date": "2026-04-27T23:31:03.614603+00:00"
-    },
-    {
       "title": "Lt Tractor Truck Delivers High Performance For Long-Haul Fleets",
       "urls": [
         "https://mexico.internationaltrucks.com/hubfs/Ficha_LT+S13_2025.pdf"
@@ -4294,7 +4280,14 @@
         "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff"
       ],
       "date": "2026-05-07T23:06:18.921635+00:00"
+    },
+    {
+      "title": "SpaceX Starship Flight 13 Aims For Full Reentry Destruction Test",
+      "urls": [
+        "https://www.youtube.com/watch?v=4jEHGE_kaxY"
+      ],
+      "date": "2026-05-07T23:38:08.900943+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T23:06:18.921706+00:00"
+  "lastUpdated": "2026-05-07T23:38:08.901009+00:00"
 }
