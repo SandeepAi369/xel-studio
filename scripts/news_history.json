@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Twine Launches Open Source Tool For Interactive Storytelling",
-      "urls": [
-        "https://community.chocolatey.org",
-        "https://www.cnx-software.com/news/open-source/page/124",
-        "https://manjaro.org",
-        "https://twinery.org"
-      ],
-      "date": "2026-04-27T14:06:35.388089+00:00"
-    },
-    {
       "title": "Microsoft and Hugging Face have expanded their collaboration, giving Azure developers access to over",
       "urls": [
         "https://huggingface.co",
@@ -4326,7 +4316,14 @@
         "https://techcrunch.com/tag/mergers-and-acquisitions"
       ],
       "date": "2026-05-07T14:04:28.521184+00:00"
+    },
+    {
+      "title": "{\"articleText\": \"Federal agencies are increasingly adopting smaller, open-source AI models to improv",
+      "urls": [
+        "https://fedscoop.com/new-report-highlights-agency-advantages-of-using-smaller-open-source-ai-models"
+      ],
+      "date": "2026-05-07T14:35:09.522262+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T14:04:28.521252+00:00"
+  "lastUpdated": "2026-05-07T14:35:09.522328+00:00"
 }
