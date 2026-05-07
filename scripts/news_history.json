@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News reaches a reported 80 million households across the United States, maintaining its position",
-      "urls": [
-        "https://www.foxnews.com?msockid=135e5f628a0f6e4a12d0482a8b3d6fef"
-      ],
-      "date": "2026-04-27T11:34:11.583059+00:00"
-    },
-    {
-      "title": "World News Reports From 150 Countries With Real Time Updates",
-      "urls": [
-        "https://www.ndtv.com/world-news",
-        "https://www.foxnews.com?msockid=1b9a13e6dbb3644c37d504aedae9656e"
-      ],
-      "date": "2026-04-27T12:03:21.037591+00:00"
-    },
-    {
       "title": "Harvard researchers demonstrated a new quantum system capable of detecting and correcting errors bel",
       "urls": [
         "https://news.mit.edu/topic/quantum-computing",
@@ -4344,7 +4329,14 @@
         "https://aws.amazon.com/web3"
       ],
       "date": "2026-05-07T11:07:26.730103+00:00"
+    },
+    {
+      "title": "Economy Shows Resilience Amid Rising Inflation and Steady Consumer Spending",
+      "urls": [
+        "https://www.youtube.com/watch?v=A11NCDNXg1Y"
+      ],
+      "date": "2026-05-07T12:06:12.733789+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T11:07:26.730163+00:00"
+  "lastUpdated": "2026-05-07T12:06:12.733873+00:00"
 }
