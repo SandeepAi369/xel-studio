@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 80 Million Homes And Generates $1.47 Billion In Quarterly Revenue",
-      "urls": [
-        "https://www.foxnews.com?msockid=33eb93d0fa8f64941eaa8498fb0e65c6"
-      ],
-      "date": "2026-04-27T00:34:15.868848+00:00"
-    },
-    {
-      "title": "Researchers Develop AI Wearables That Predict User Needs in Real Time",
-      "urls": [
-        "https://disabilityinsider.com/tech",
-        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
-      ],
-      "date": "2026-04-27T01:02:17.205599+00:00"
-    },
-    {
       "title": "Programmable gene integration enables precise insertion of genetic material into human cells, offeri",
       "urls": [
         "https://www.science.org/doi/10.1126/science.adn4381",
@@ -4434,7 +4419,14 @@
         "https://www.youtube.com/watch?v=te7e9IXtKmk"
       ],
       "date": "2026-05-07T00:07:18.413276+00:00"
+    },
+    {
+      "title": "Dan Phillips directed the Technology Resource Center of Marin County Office of Education and faced c",
+      "urls": [
+        "https://iste.org/blog/the-new-era-of-accessible-tech"
+      ],
+      "date": "2026-05-07T01:07:21.022258+00:00"
     }
   ],
-  "lastUpdated": "2026-05-07T00:07:18.413343+00:00"
+  "lastUpdated": "2026-05-07T01:07:21.022336+00:00"
 }
