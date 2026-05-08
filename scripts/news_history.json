@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Quantify Natural Climate Influences on Global Temperatures",
-      "urls": [
-        "https://www.nature.com/subjects/climate-change",
-        "https://www.wri.org/climate-change-news",
-        "https://link.springer.com/subjects/climate-change",
-        "https://news.un.org/en/focus-topic/climate-change",
-        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TmpOMkVnSmxiaWdBUAE?hl=en-US&ceid=US%3Aen&oc=11",
-        "https://www.reuters.com/sustainability/climate-change",
-        "https://news.mit.edu/topic/climate-change",
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://www.sciencedaily.com/news/earth_climate/environmental_issues",
-        "https://www.usatoday.com/climate-change"
-      ],
-      "date": "2026-04-28T07:01:21.261333+00:00"
-    },
-    {
       "title": "Ama Reports 68 Percent Of Physicians Now Use Ai Tools",
       "urls": [
         "https://clinicalai.news",
@@ -4288,7 +4272,14 @@
         "https://www.reuters.com/business/environment"
       ],
       "date": "2026-05-08T06:35:00.629534+00:00"
+    },
+    {
+      "title": "US Supreme Court is reviewing a pivotal case on whether accessing smartphone location data without a",
+      "urls": [
+        "https://www.theguardian.com/world/privacy"
+      ],
+      "date": "2026-05-08T07:08:27.257446+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T06:35:00.629600+00:00"
+  "lastUpdated": "2026-05-08T07:08:27.257508+00:00"
 }
