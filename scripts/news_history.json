@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT News hosted a major gathering of scientists, business leaders, faculty, and students to assess t",
-      "urls": [
-        "https://news.mit.edu/2025/what-does-future-hold-generative-ai-0919"
-      ],
-      "date": "2026-04-28T09:36:27.263876+00:00"
-    },
-    {
       "title": "PyTorch Powers 85% of AI Research Papers in 2026",
       "urls": [
         "https://www.pythoncentral.io/tensorflow-pytorch-or-scikit-learn-a-guide-to-python-ai-frameworks",
@@ -4269,7 +4262,21 @@
         "https://www.nature.com/articles/d41586-026-01054-1"
       ],
       "date": "2026-05-08T09:07:22.250179+00:00"
+    },
+    {
+      "title": "Users Gain Independence With Standing Wheelchairs",
+      "urls": [
+        "https://freedomdesigns.com/innovations-in-wheelchair-hardware-whats-new-in-mobility-technology",
+        "https://www.homecaremag.com/innovation-in-wheelchair-technology-and-bile-accessibility",
+        "https://www.medigy.com/news/blogs/advancing-mobility-the-cutting-edge-innovations-in-electric-wheelchair-technology",
+        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopYjXxW5M-FgZc072Fpd8gw10hSOzXeD6tnw_Tt9RGoeQPA5TOp",
+        "https://www.weforum.org/stories/2021/03/technology-wheelchairs-reinvention-accessibility",
+        "https://tobicloud.com/how-wheelchair-innovations-are-transforming-nemt-accessibility",
+        "https://news.ucdenver.edu/from-idea-to-invention-how-this-smart-technology-wheelchair-accessory-became-one-of-time-2020s-best-inventions",
+        "https://everythingmedicalonline.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025?srsltid=AfmBOoq0TST2-twuXWAFf9f-QZ_vhE1aUYJQHZjQfjYdANHQT8w0m1U9"
+      ],
+      "date": "2026-05-08T09:39:21.062820+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T09:07:22.250247+00:00"
+  "lastUpdated": "2026-05-08T09:39:21.062885+00:00"
 }
