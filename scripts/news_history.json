@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ama Reports 68 Percent Of Physicians Now Use Ai Tools",
-      "urls": [
-        "https://clinicalai.news",
-        "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
-        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
-        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
-        "https://www.forbes.com/sites/sachinjain/2025/10/21/ai-adoption-in-healthcare-is-surging-what-a-new-report-reveals",
-        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
-      ],
-      "date": "2026-04-28T07:34:07.362494+00:00"
-    },
-    {
       "title": "Usta Expands Tennis Access With 1200 Court Upgrades Across 45 States",
       "urls": [
         "https://www.usta.com/en/home.html",
@@ -4279,7 +4267,15 @@
         "https://www.theguardian.com/world/privacy"
       ],
       "date": "2026-05-08T07:08:27.257446+00:00"
+    },
+    {
+      "title": "Michigan taxpayers affected by severe spring flooding in northern Michigan and the Upper Peninsula m",
+      "urls": [
+        "https://www.cnn.com/weather/live-news/hurricane-debby-storm-08-05-24/index.html.",
+        "https://www.aol.com/articles/extra-tax-breaks-apply-many-110049363.html"
+      ],
+      "date": "2026-05-08T07:34:10.310445+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T07:08:27.257508+00:00"
+  "lastUpdated": "2026-05-08T07:34:10.310511+00:00"
 }
