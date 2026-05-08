@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Navistar Launches S13 Powertrain With 500 Horsepower For Class 8 Trucks",
-      "urls": [
-        "https://inventory-api.internationaltrucks.com",
-        "https://mexico.internationaltrucks.com/blog/blog-presentación-motor-s13",
-        "https://mexico.internationaltrucks.com/hubfs/Descargables/2022/09/CT+6.pdf?hsLang=es-mx"
-      ],
-      "date": "2026-04-28T02:02:18.497234+00:00"
-    },
-    {
       "title": "Ndtv Delivers Real Time Updates On India And Global Affairs",
       "urls": [
         "https://www.foxnews.com?msockid=34c45adf205265fa37624d9621e76438",
@@ -4305,7 +4296,14 @@
         "https://www.youtube.com/watch?v=8JkMV2yJyFU"
       ],
       "date": "2026-05-08T01:35:09.915529+00:00"
+    },
+    {
+      "title": "Percona Launches OpenEverest Community For Vendor Neutral Database Innovation",
+      "urls": [
+        "https://www.linuxinsider.com"
+      ],
+      "date": "2026-05-08T02:06:50.528043+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T01:35:09.915591+00:00"
+  "lastUpdated": "2026-05-08T02:06:50.528107+00:00"
 }
