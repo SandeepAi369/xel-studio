@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes Launches First Accessibility 100 List Highlighting Innovators",
-      "urls": [
-        "https://www.pbs.org/wgbh/nova/article/people-with-disabilities-use-ai-to-improve-their-lives",
-        "https://faast.org",
-        "https://www.abs.gov.au/statistics/health/disability/disability-ageing-and-carers-australia-summary-findings/latest-release",
-        "https://www.straitstimes.com/tech/tech-news/intelligent-traffic-light-that-gives-seniors-people-with-disabilities-more-time-wins-contest",
-        "https://www.forbes.com/lists/accessibility"
-      ],
-      "date": "2026-04-28T14:34:26.386438+00:00"
-    },
-    {
       "title": "Who Updates Bacterial Threat List With 15 High Risk Families",
       "urls": [
         "https://www.who.int/news/item/17-05-2024-who-updates-list-of-drug-resistant-bacteria-most-threatening-to-human-health"
@@ -4270,7 +4259,14 @@
         "https://www.nature.com/subjects/climate-change"
       ],
       "date": "2026-05-08T14:05:31.577567+00:00"
+    },
+    {
+      "title": "PyTorch is a leading open-source machine learning framework widely used in AI research and developme",
+      "urls": [
+        "https://www.nvidia.com/en-us/glossary/pytorch"
+      ],
+      "date": "2026-05-08T14:36:08.145913+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T14:05:31.577632+00:00"
+  "lastUpdated": "2026-05-08T14:36:08.145982+00:00"
 }
