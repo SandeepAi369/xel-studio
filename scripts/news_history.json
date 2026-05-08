@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Windows Camera App Adds QR Document And Whiteboard Scanning",
-      "urls": [
-        "https://support.microsoft.com/en-us/windows/how-to-use-the-windows-camera-app-ea40b69f-be6a-840e-9c8c-1fd6eea97c22"
-      ],
-      "date": "2026-04-28T23:01:18.630550+00:00"
-    },
-    {
       "title": "Incredible is a word used to describe something hard to believe or difficult to comprehend, ranging ",
       "urls": [
         "https://www.vocabulary.com/dictionary/incredible"
@@ -4290,7 +4283,22 @@
         "https://deepseanews.com/tag/natural-disaster"
       ],
       "date": "2026-05-08T22:33:15.104605+00:00"
+    },
+    {
+      "title": "Fda Panel Tightens Oversight On Ai Mental Health Chatbots",
+      "urls": [
+        "https://theryo.ai/blog/thrive-mentally-always-connected-world",
+        "https://www.microsoft.com/en-us/research/project/moments-of-change/groups",
+        "https://www.agg.com/news-insights/publications/paranoid-android-fda-advisory-committee-continues-to-evaluate-ai-mental-health-tools",
+        "https://dheal.berkeley.edu/publications/need-mental-health-technology-revolution-covid-19-pandemic",
+        "https://www.deloitte.com/an/en/Industries/life-sciences-health-care/analysis/the-promise-of-digital-mental-health-in-a-meta-world.html",
+        "https://edc.org/projects/metrowest-digital-wellness-collaborative",
+        "https://www.facebook.com/NYSOMH/posts/the-things-you-see-online-can-affect-your-mood-stress-and-focus-take-care-of-you/1294306289404546",
+        "https://www.icstars.org/humans-and-technology-embracing-the-intersection-for-mental-and-emotional-wellness",
+        "https://www.prnewswire.com/news-releases/new-research-reveals-digital-divide-southern-young-people-face-unique-barriers-to-mental-health-support-online-302576337.html"
+      ],
+      "date": "2026-05-08T23:03:13.603547+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T22:33:15.104668+00:00"
+  "lastUpdated": "2026-05-08T23:03:13.603610+00:00"
 }
