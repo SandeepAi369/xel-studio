@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who Updates Bacterial Threat List With 15 High Risk Families",
-      "urls": [
-        "https://www.who.int/news/item/17-05-2024-who-updates-list-of-drug-resistant-bacteria-most-threatening-to-human-health"
-      ],
-      "date": "2026-04-28T15:08:43.174170+00:00"
-    },
-    {
       "title": "Google Docs enables users to create and edit documents online through cloud-based technology, suppor",
       "urls": [
         "https://www.googleapps.com/docs/about?hl=en"
@@ -4266,7 +4259,21 @@
         "https://www.nvidia.com/en-us/glossary/pytorch"
       ],
       "date": "2026-05-08T14:36:08.145913+00:00"
+    },
+    {
+      "title": "Mrinank Sharma left his role as a senior AI safety researcher at Anthropic, citing growing concerns ",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://thehill.com/policy/technology/5735767-anthropic-researcher-quits-ai-crises-ads",
+        "https://www.youtube.com/watch?v=htBaVVh_k90",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r0ql35/head_of_ai_safety_research_resigns_after",
+        "https://www.anthropic.com/news",
+        "https://www.youtube.com/watch?v=PLg2EUkIC78",
+        "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "https://www.anthropic.com/engineering/april-23-postmortem"
+      ],
+      "date": "2026-05-08T15:35:20.742009+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T14:36:08.145982+00:00"
+  "lastUpdated": "2026-05-08T15:35:20.742067+00:00"
 }
