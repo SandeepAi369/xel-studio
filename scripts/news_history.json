@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ukrainian Refugee Crisis Displaces Over 5.3 Million Since 2022",
-      "urls": [
-        "https://www.refugeesinternational.org/the-latest",
-        "https://www.reuters.com/world/immigration",
-        "https://apnews.com/article/asylum-refugees-sudan-chad-greece-europe-54c6cb76a18a97bec3eac944d8baf9d5",
-        "https://www.aljazeera.com/tag/refugees",
-        "https://concernusa.org/news/largest-refugee-crises",
-        "https://www.unicef.org/eca/refugee-and-migrant-crisis-latest-news"
-      ],
-      "date": "2026-04-28T05:31:02.057730+00:00"
-    },
-    {
       "title": "World Meteorological Organization Reports 2025 Was Second Hottest Year On Record",
       "urls": [
         "https://wmo.int/media/announcement/state-of-global-climate-2025-report"
@@ -4287,7 +4275,15 @@
         "https://thinkcloudly.com/blog/top-open-source-ai-models"
       ],
       "date": "2026-05-08T05:03:13.168336+00:00"
+    },
+    {
+      "title": "Investors have committed $300 billion to AI startups in a surge of funding aimed at accelerating nex",
+      "urls": [
+        "https://aifundingtracker.com/ai-startup-funding-news-today",
+        "https://www.youtube.com/watch?v=WPldpsoJtVQ&vl=en"
+      ],
+      "date": "2026-05-08T05:34:00.942785+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T05:03:13.168406+00:00"
+  "lastUpdated": "2026-05-08T05:34:00.942850+00:00"
 }
