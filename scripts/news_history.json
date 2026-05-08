@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Reports 2025 Was Second Hottest Year On Record",
-      "urls": [
-        "https://wmo.int/media/announcement/state-of-global-climate-2025-report"
-      ],
-      "date": "2026-04-28T06:02:26.425780+00:00"
-    },
-    {
       "title": "Cole Tomas Allen Suspected in White House Shooting Incident",
       "urls": [
         "https://www.foxnews.com?msockid=0eff5ac2f6636a0824764d8bf7e46b98",
@@ -4283,7 +4276,18 @@
         "https://www.youtube.com/watch?v=WPldpsoJtVQ&vl=en"
       ],
       "date": "2026-05-08T05:34:00.942785+00:00"
+    },
+    {
+      "title": "OpenAI Shuts Down Sora Text-To-Video API",
+      "urls": [
+        "https://curiousrefuge.com/blog/3-new-ai-video-generators-ai-film-news",
+        "https://pinggy.io/blog/best_video_generation_ai_models",
+        "https://invideo.io/blog/best-ai-video-generation-models",
+        "https://magichour.ai/blog/the-state-of-ai-in-video-and-image-generation",
+        "https://www.constellationr.com/research/blog/farewell-sora-might-be-good-news-enterprise-ai-video-generation"
+      ],
+      "date": "2026-05-08T06:04:21.130106+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T05:34:00.942850+00:00"
+  "lastUpdated": "2026-05-08T06:04:21.130171+00:00"
 }
