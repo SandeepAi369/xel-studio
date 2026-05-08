@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Incredible is a word used to describe something hard to believe or difficult to comprehend, ranging ",
-      "urls": [
-        "https://www.vocabulary.com/dictionary/incredible"
-      ],
-      "date": "2026-04-28T23:34:10.899339+00:00"
-    },
-    {
       "title": "Linux.",
       "urls": [
         "https://www.linux.org/forums/getting-started.148"
@@ -4298,7 +4291,17 @@
         "https://www.prnewswire.com/news-releases/new-research-reveals-digital-divide-southern-young-people-face-unique-barriers-to-mental-health-support-online-302576337.html"
       ],
       "date": "2026-05-08T23:03:13.603547+00:00"
+    },
+    {
+      "title": "Companies Urge USTR To Avoid Broad Tariffs On Chinese Imports",
+      "urls": [
+        "https://www.politico.com/newsletters/weekly-trade",
+        "https://www.techuk.org/resource/global-tech-and-trade-policy-updates.html",
+        "https://www.bakermckenzie.com/en/insight/publications/2026/03/trade-and-tariff-shifts-reshaping-tech",
+        "https://www.pscouncil.org/a/In_the_News/2026/ITI_s_Oxman_urges_support_for_AI_export_program__restraint_on_tariffs_to_bolster_chip_supply_chain_a.aspx"
+      ],
+      "date": "2026-05-08T23:36:16.126797+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T23:03:13.603610+00:00"
+  "lastUpdated": "2026-05-08T23:36:16.126869+00:00"
 }
