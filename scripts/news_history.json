@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ndtv Delivers Real Time Updates On India And Global Affairs",
-      "urls": [
-        "https://www.foxnews.com?msockid=34c45adf205265fa37624d9621e76438",
-        "https://www.ndtv.com/top-stories"
-      ],
-      "date": "2026-04-28T02:31:02.734669+00:00"
-    },
-    {
       "title": "Fox News leverages ZIP code data from users to deliver hyper-local weather updates, enhancing its re",
       "urls": [
         "https://www.foxnews.com?msockid=1b311274c3d56b550a3b053dc25f6a64"
@@ -4303,7 +4295,14 @@
         "https://www.linuxinsider.com"
       ],
       "date": "2026-05-08T02:06:50.528043+00:00"
+    },
+    {
+      "title": "Google has launched Gemini Deep Think, its first publicly available multi-agent AI system, designed ",
+      "urls": [
+        "https://finance.yahoo.com/news/google-rolls-gemini-deep-think-110000104.html"
+      ],
+      "date": "2026-05-08T02:34:00.917079+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T02:06:50.528107+00:00"
+  "lastUpdated": "2026-05-08T02:34:00.917135+00:00"
 }
