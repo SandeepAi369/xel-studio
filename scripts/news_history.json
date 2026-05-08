@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News leverages ZIP code data from users to deliver hyper-local weather updates, enhancing its re",
-      "urls": [
-        "https://www.foxnews.com?msockid=1b311274c3d56b550a3b053dc25f6a64"
-      ],
-      "date": "2026-04-28T03:01:20.533035+00:00"
-    },
-    {
       "title": "Renewable energy is accelerating global power transitions as solar, wind, and hydro sources now acco",
       "urls": [
         "https://solartechonline.com/blog/what-is-renewable-resource-examples",
@@ -4302,7 +4295,14 @@
         "https://finance.yahoo.com/news/google-rolls-gemini-deep-think-110000104.html"
       ],
       "date": "2026-05-08T02:34:00.917079+00:00"
+    },
+    {
+      "title": "White House Unveils National AI Framework to Standardize Federal Regulations",
+      "urls": [
+        "https://www.klgates.com/White-House-Releases-National-AI-Policy-Framework-3-24-2026"
+      ],
+      "date": "2026-05-08T03:04:14.995390+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T02:34:00.917135+00:00"
+  "lastUpdated": "2026-05-08T03:04:14.995458+00:00"
 }
