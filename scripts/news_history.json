@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google App Integrates Lens And Search Labs For Enhanced Visual Discovery",
-      "urls": [
-        "https://www.google.us/travel",
-        "https://images.google.com",
-        "https://about.google/products",
-        "https://search.google/google-app"
-      ],
-      "date": "2026-04-28T11:33:04.529422+00:00"
-    },
-    {
       "title": "World Meteorological Organization has released updated climate projections indicating a 66% likeliho",
       "urls": [
         "https://worldweather.wmo.int/en/home.html",
@@ -4271,7 +4261,22 @@
         "https://www.nbcbayarea.com/olympics/2026-milan-cortina/alysa-liu-replacement-gold-medal/4032451"
       ],
       "date": "2026-05-08T11:05:26.964274+00:00"
+    },
+    {
+      "title": "Iran has fired drones and missiles toward the UAE and other Gulf states following a joint U.",
+      "urls": [
+        "https://cambridgepeace.org/projects/ukraine/negotiation-news",
+        "https://www.arabnews.com/node/2642748/middle-east",
+        "https://www.aljazeera.com/tag/conflict",
+        "https://www.youtube.com/watch?v=iLZi04dAqo8",
+        "https://www.1news.co.nz/2026/05/07/trump-administration-sows-confusion-as-it-tries-to-reopen-strait-of-hormuz",
+        "https://www.france24.com/en/europe/20260507-friendly-and-constructive-rubio-meets-pope-leo-xiv-in-bid-to-ease-tensions",
+        "https://www.youtube.com/watch?v=xoSFTxlRy1k",
+        "https://www.youtube.com/watch?v=KupjjZnu6zw",
+        "https://www.youtube.com/watch?v=Mj4PoDSj_Zg"
+      ],
+      "date": "2026-05-08T11:37:16.619913+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T11:05:26.964335+00:00"
+  "lastUpdated": "2026-05-08T11:37:16.619979+00:00"
 }
