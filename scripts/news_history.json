@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usta Expands Tennis Access With 1200 Court Upgrades Across 45 States",
-      "urls": [
-        "https://www.usta.com/en/home.html",
-        "https://www.wtatennis.com/tournaments"
-      ],
-      "date": "2026-04-28T08:04:27.765233+00:00"
-    },
-    {
       "title": "Alysa Liu Wins Two Gold Medals At 2026 Winter Olympics",
       "urls": [
         "https://www.olympics.com/en/news/world-gold-day-exploring-athletes-journeys-olympic-victory",
@@ -4285,7 +4277,17 @@
         "https://www.whitehouse.gov/priorities/tech-innovation"
       ],
       "date": "2026-05-08T08:04:19.819590+00:00"
+    },
+    {
+      "title": "Arsenal reached their first Champions League final in 20 years after defeating their opponent in a d",
+      "urls": [
+        "https://sports.yahoo.com/news",
+        "https://www.sportskeeda.com",
+        "https://www.bbc.com/sport",
+        "https://www.bbc.com/sport/football/videos/cz92evpl48yo"
+      ],
+      "date": "2026-05-08T08:33:05.142001+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T08:04:19.819645+00:00"
+  "lastUpdated": "2026-05-08T08:33:05.142085+00:00"
 }
