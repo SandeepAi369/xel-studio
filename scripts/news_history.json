@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Defeats Australia 3-1 In Border-Gavaskar Trophy",
-      "urls": [
-        "https://news.abplive.com/sports",
-        "https://www.bbc.com/sport",
-        "https://www.newsbytesapp.com/news/sports",
-        "https://www.livescore.com/en/news",
-        "https://apnews.com/sports"
-      ],
-      "date": "2026-04-28T04:30:53.827207+00:00"
-    },
-    {
       "title": "Nv Access Releases Nvda Screen Reader For 400000 Users",
       "urls": [
         "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
@@ -4296,7 +4285,18 @@
         "https://www.youtube.com/watch?v=MleiSYvWIzY"
       ],
       "date": "2026-05-08T04:05:25.832955+00:00"
+    },
+    {
+      "title": "FIFA World Cup Final Attracts 1.5 Billion Viewers Worldwide",
+      "urls": [
+        "https://sports.yahoo.com/articles/hearts-driving-seat-incredible-run-155829527.html",
+        "https://www.sportingnews.com/us",
+        "https://www.facebook.com/61572419494042/posts/ever-wondered-what-the-rest-of-the-world-is-playing-while-were-cheering-for-touc/122171685032747316",
+        "https://www.theguardian.com/uk/sport",
+        "https://www.bbc.com/sport/football/videos/cx21jp2egxzo"
+      ],
+      "date": "2026-05-08T04:36:07.020754+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T04:05:25.833013+00:00"
+  "lastUpdated": "2026-05-08T04:36:07.020818+00:00"
 }
