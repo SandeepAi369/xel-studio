@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Docs enables users to create and edit documents online through cloud-based technology, suppor",
-      "urls": [
-        "https://www.googleapps.com/docs/about?hl=en"
-      ],
-      "date": "2026-04-28T15:40:05.240387+00:00"
-    },
-    {
       "title": "FIFA World Cup 2026\nThe tournament will be the first to include 48 teams, expanding from the previou",
       "urls": [
         "https://www.fifa.com/en/tournaments/mens/worldcup ",
@@ -4273,7 +4266,14 @@
         "https://www.anthropic.com/engineering/april-23-postmortem"
       ],
       "date": "2026-05-08T15:35:20.742009+00:00"
+    },
+    {
+      "title": "Google Launches No-Code Agents In Workspace Studio",
+      "urls": [
+        "https://bostoninstituteofanalytics.org/blog/genai-tools-of-the-week-6th-to-12th-dec-5-new-genai-apps-everyone-is-talking-about"
+      ],
+      "date": "2026-05-08T16:07:23.100936+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T15:35:20.742067+00:00"
+  "lastUpdated": "2026-05-08T16:07:23.100992+00:00"
 }
