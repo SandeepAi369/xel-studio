@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox Weather Tracks Hurricane Season With Real-Time Updates",
-      "urls": [
-        "https://www.foxweather.com/category/disasters"
-      ],
-      "date": "2026-04-28T01:32:11.157855+00:00"
-    },
-    {
       "title": "Navistar Launches S13 Powertrain With 500 Horsepower For Class 8 Trucks",
       "urls": [
         "https://inventory-api.internationaltrucks.com",
@@ -4301,7 +4294,18 @@
         "https://arstechnica.com/civis/threads/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants.1509245"
       ],
       "date": "2026-05-08T01:05:21.711266+00:00"
+    },
+    {
+      "title": "Southeastern states face heightened flash flood risks due to a stalled cold front triggering prolong",
+      "urls": [
+        "https://www.npr.org/2024/08/05/nx-s1-5063893/hurricane-debby-florida-georgia-south-carolina",
+        "https://www.newschannel5.com/news/storm-5-alert-first-threat-in-2026-for-severe-weather-on-friday",
+        "https://www.usatoday.com/story/news/weather/2025/08/06/severe-storm-flash-flood-forecast-southeast/85537964007",
+        "https://yaleclimateconnections.org/2026/05/dangerous-heavy-rains-are-getting-more-likely-and-widespread",
+        "https://www.youtube.com/watch?v=8JkMV2yJyFU"
+      ],
+      "date": "2026-05-08T01:35:09.915529+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T01:05:21.711340+00:00"
+  "lastUpdated": "2026-05-08T01:35:09.915591+00:00"
 }
