@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Powers 85% of AI Research Papers in 2026",
-      "urls": [
-        "https://www.pythoncentral.io/tensorflow-pytorch-or-scikit-learn-a-guide-to-python-ai-frameworks",
-        "https://pytorch.org/blog/pytorch-the-open-language-of-ai",
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
-        "https://www.is4.ai/blog/our-blog-1/transformers-ai-library-159934-stars-2026-390"
-      ],
-      "date": "2026-04-28T10:05:32.337125+00:00"
-    },
-    {
-      "title": "NASA Reports Record 421 Ppm Carbon Dioxide In 2025",
-      "urls": [
-        "https://climate.nasa.gov/system/internal_resources/details/original/249_Causes-greenhouse-gas-molecules-cropped-more-55.jpg&lt"
-      ],
-      "date": "2026-04-28T10:31:00.686685+00:00"
-    },
-    {
       "title": "Open Source AI Models Empower Developers With Custom Solutions",
       "urls": [
         "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
@@ -4283,7 +4265,16 @@
         "https://mistral.ai/news"
       ],
       "date": "2026-05-08T10:05:13.288366+00:00"
+    },
+    {
+      "title": "Cascadia Subduction Zone Records 150 Tremors in One Month",
+      "urls": [
+        "https://www.youtube.com/watch?v=aJheOkkXaMA",
+        "https://www.youtube.com/watch?v=3vQfCa2K3aA",
+        "https://www.youtube.com/watch?v=P25PI8FRZJ0"
+      ],
+      "date": "2026-05-08T10:38:17.736438+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T10:05:13.288416+00:00"
+  "lastUpdated": "2026-05-08T10:38:17.736493+00:00"
 }
