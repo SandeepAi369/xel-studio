@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cole Tomas Allen Suspected in White House Shooting Incident",
-      "urls": [
-        "https://www.foxnews.com?msockid=0eff5ac2f6636a0824764d8bf7e46b98",
-        "https://www.usatoday.com/story/news/crime/2026/04/27/cole-tomas-allen-suspect-whcd-shooting/89817513007",
-        "https://www.bbc.com/news/world"
-      ],
-      "date": "2026-04-28T06:31:12.986448+00:00"
-    },
-    {
       "title": "MIT Researchers Quantify Natural Climate Influences on Global Temperatures",
       "urls": [
         "https://www.nature.com/subjects/climate-change",
@@ -4287,7 +4278,17 @@
         "https://www.constellationr.com/research/blog/farewell-sora-might-be-good-news-enterprise-ai-video-generation"
       ],
       "date": "2026-05-08T06:04:21.130106+00:00"
+    },
+    {
+      "title": "Maryland Certifies First Cohort Of Climate Change Professionals",
+      "urls": [
+        "https://www.carbonbrief.org",
+        "https://2021-2025.state.gov/climate-crisis",
+        "https://climateofficers.org/inthenews",
+        "https://www.reuters.com/business/environment"
+      ],
+      "date": "2026-05-08T06:35:00.629534+00:00"
     }
   ],
-  "lastUpdated": "2026-05-08T06:04:21.130171+00:00"
+  "lastUpdated": "2026-05-08T06:35:00.629600+00:00"
 }
