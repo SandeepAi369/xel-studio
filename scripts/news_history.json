@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "The New York Times operates with over 1,700 journalists across more than 150 countries, producing li",
-      "urls": [
-        "https://www.cbsnews.com",
-        "https://www.cnn.com",
-        "https://abcnews.com",
-        "https://apnews.com",
-        "https://www.nytimes.com",
-        "https://www.nbcnews.com"
-      ],
-      "date": "2026-04-29T16:34:23.177185+00:00"
-    },
-    {
-      "title": "Pfizer And Roche Cut Drug Development Time By 70 Percent Using Ai",
-      "urls": [
-        "https://www.sciencenewstoday.org/the-role-of-ai-in-drug-discovery-and-development"
-      ],
-      "date": "2026-04-29T17:01:25.746322+00:00"
-    },
-    {
       "title": "Nvda Screen Reader Empowers Blind Users Worldwide",
       "urls": [
         "https://www.screen.co.jp/spe/en",
@@ -4301,7 +4282,15 @@
         "https://www.youtube.com/watch?v=ah4ZwACPVxE"
       ],
       "date": "2026-05-09T16:33:01.369789+00:00"
+    },
+    {
+      "title": "Mayo Clinic AI Model Triples Early Pancreatic Cancer Detection",
+      "urls": [
+        "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare",
+        "https://www.healthcareitnews.com/news/advanced-ai-holds-promise-high-stakes-healthcare-studies-show"
+      ],
+      "date": "2026-05-09T17:04:15.029918+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T16:33:01.369870+00:00"
+  "lastUpdated": "2026-05-09T17:04:15.029976+00:00"
 }
