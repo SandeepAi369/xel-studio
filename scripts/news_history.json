@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepSeek Releases Open-Source V4 Language Model Family",
-      "urls": [
-        "https://letsdatascience.com/news/deepseek-releases-open-source-v4-large-models-f5a3b72c",
-        "https://fazm.ai/blog/open-source-large-language-model-release-april-2026",
-        "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=0cbd6889bc4e62c634ab7fc3bda76340",
-        "https://whatllm.org/blog/new-ai-models-april-2026",
-        "https://af.net/realtime/april-2026-major-ai-model-releases-and-open-source-advancements",
-        "https://arxiv.org/html/2604.07190",
-        "https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows",
-        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html"
-      ],
-      "date": "2026-04-29T05:02:13.325857+00:00"
-    },
-    {
       "title": "Meta AI Launches Real-Time Photo Sharing Across Facebook Instagram WhatsApp",
       "urls": [
         "https://about.fb.com/news/2025/12/ai-breakthroughs-advanced-ai-glasses-meta-2025-highlights",
@@ -4292,7 +4278,17 @@
         "https://www.nvidia.com/en-us"
       ],
       "date": "2026-05-09T04:34:00.428867+00:00"
+    },
+    {
+      "title": "Carnegie Mellon Students Present AI Athlete Tracking To NFL Executives",
+      "urls": [
+        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOooJJ-j5-SQNsXBXnybZjydr-ZHDF17HymIHr6S_kVhYtIIyIT2_",
+        "https://www.youtube.com/watch?v=lDJZ97JTXvw",
+        "https://www.youtube.com/watch?v=8lNbLUutYgs",
+        "https://natlawreview.com/press-releases/ai-sports-market-2026-transforming-athlete-performance-and-game-analytics"
+      ],
+      "date": "2026-05-09T05:04:11.860737+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T04:34:00.428934+00:00"
+  "lastUpdated": "2026-05-09T05:04:11.860805+00:00"
 }
