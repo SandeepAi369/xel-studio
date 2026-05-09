@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Proposes 60 Percent Tariff On Chinese Imports To Reshape Trade",
-      "urls": [
-        "https://www.newsnow.com/us/US/Politics/Donald+Trump?type=ln",
-        "https://www.newsnow.com/us/US/Politics/Donald+Trump",
-        "https://zeenews.india.com/latest-news",
-        "https://us.cnn.com"
-      ],
-      "date": "2026-04-29T23:01:29.356874+00:00"
-    },
-    {
       "title": "UFC Announces Makhachev Vs Volkanovski Lightweight Title Fight At 311",
       "urls": [
         "https://www.ufc.com",
@@ -4263,7 +4253,17 @@
         "https://energyinnovation.org/about/press/page/2"
       ],
       "date": "2026-05-09T22:34:02.454760+00:00"
+    },
+    {
+      "title": "Climate Scientists Warn 1.5°C Warming Limit Will Be Exceeded Within Three Years",
+      "urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/00139157.2025.2434494",
+        "https://yaleclimateconnections.org/2025/09/climate-change-is-accelerating-scientists-find-in-grim-report",
+        "https://science.nasa.gov/climate-change/effects",
+        "https://science.nasa.gov/climate-change/evidence"
+      ],
+      "date": "2026-05-09T23:04:13.788110+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T22:34:02.454823+00:00"
+  "lastUpdated": "2026-05-09T23:04:13.788170+00:00"
 }
