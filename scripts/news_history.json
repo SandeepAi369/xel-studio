@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepSeek Releases V4 AI Models With Open Source Access",
-      "urls": [
-        "https://open-llm-radar.com",
-        "https://aiflashreport.com/model-releases.html",
-        "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=29e007076dfb6c44379f104d6c386db6",
-        "https://siliconangle.com/2026/04/24/deepseek-open-sources-v4-large-language-model-series"
-      ],
-      "date": "2026-04-29T18:02:22.106800+00:00"
-    },
-    {
       "title": "Openai Recruits Ai Trainers To Refine Language Model Responses",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1brqwun/i_compared_the_different_open_source_whisper",
@@ -4285,7 +4275,15 @@
         "https://www.mdpi.com/2571-5577/9/4/70"
       ],
       "date": "2026-05-09T17:34:01.433675+00:00"
+    },
+    {
+      "title": "Lila Koch Leads Climate Tech Investment Surge",
+      "urls": [
+        "https://techcrunch.com/category/climate",
+        "https://www.theinformation.com/events/climatetech"
+      ],
+      "date": "2026-05-09T18:05:14.886143+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T17:34:01.433736+00:00"
+  "lastUpdated": "2026-05-09T18:05:14.886204+00:00"
 }
