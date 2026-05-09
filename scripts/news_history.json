@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "KRXI2 NBC Reno Delivers Real-Time Winter Storm Alerts",
-      "urls": [
-        "https://mynews4.com",
-        "https://www.foxnews.com/category/sports/mlb",
-        "https://x.com/ShortStopMedia/status/2049207840489837012",
-        "https://www.gamesradar.com",
-        "https://www.reuters.com"
-      ],
-      "date": "2026-04-29T07:01:29.163926+00:00"
-    },
-    {
       "title": "More than 450 telehealth and provider organizations are urging lawmakers to make permanent federal t",
       "urls": [
         "https://telehealth.org/telehealth-news",
@@ -4298,7 +4287,22 @@
         "https://www.theclimatepledge.com"
       ],
       "date": "2026-05-09T06:34:09.098671+00:00"
+    },
+    {
+      "title": "Trump Administration Shifts AI Regulation Stance, Alarming Developers",
+      "urls": [
+        "https://www.reuters.com/world/us/elections",
+        "https://www.nbcnews.com/politics",
+        "https://www.democracynow.org/2026/5/8/trump_elections",
+        "https://www.270towin.com/news",
+        "https://www.politico.com/politics",
+        "https://www.cbsnews.com/politics",
+        "https://www.cnn.com/politics",
+        "https://www.politico.com",
+        "https://www.npr.org/sections/elections"
+      ],
+      "date": "2026-05-09T07:06:18.475097+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T06:34:09.098727+00:00"
+  "lastUpdated": "2026-05-09T07:06:18.475156+00:00"
 }
