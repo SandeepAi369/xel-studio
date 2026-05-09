@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM And NASA Launch Surya AI To Predict Solar Weather With 92 Percent Accuracy",
-      "urls": [
-        "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
-      ],
-      "date": "2026-04-29T09:38:31.272872+00:00"
-    },
-    {
       "title": "Mistral AI Launches Mistral 3 Family With 3B To 14B Parameter Models",
       "urls": [
         "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
@@ -4299,7 +4292,15 @@
         "https://bionicvisionlab.org/research/assistive-technologies-blind"
       ],
       "date": "2026-05-09T09:33:03.799493+00:00"
+    },
+    {
+      "title": "Open Source LLMs Empower Federal Agencies With Custom Secure AI Solutions",
+      "urls": [
+        "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects",
+        "https://www.boozallen.com/insights/ai-research/the-case-for-open-source-generative-ai-in-government.html"
+      ],
+      "date": "2026-05-09T10:04:10.667628+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T09:33:03.799556+00:00"
+  "lastUpdated": "2026-05-09T10:04:10.667688+00:00"
 }
