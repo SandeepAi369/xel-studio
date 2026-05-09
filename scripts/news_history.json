@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Geopolitical Futures provides in-depth analysis of global political dynamics, focusing on how geogra",
-      "urls": [
-        "https://geopoliticalfutures.com",
-        "https://www.merriam-webster.com/dictionary/geopolitics"
-      ],
-      "date": "2026-04-29T16:06:37.804874+00:00"
-    },
-    {
       "title": "The New York Times operates with over 1,700 journalists across more than 150 countries, producing li",
       "urls": [
         "https://www.cbsnews.com",
@@ -4301,7 +4293,15 @@
         "https://insidetrade.com"
       ],
       "date": "2026-05-09T16:04:13.905388+00:00"
+    },
+    {
+      "title": "Sebastian Sawe shattered the marathon world record at the 2026 London Marathon, becoming the first p",
+      "urls": [
+        "https://www.nytimes.com/athletic/7231383/2026/04/26/london-marathon-sabastian-sawe-world-record",
+        "https://www.youtube.com/watch?v=ah4ZwACPVxE"
+      ],
+      "date": "2026-05-09T16:33:01.369789+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T16:04:13.905440+00:00"
+  "lastUpdated": "2026-05-09T16:33:01.369870+00:00"
 }
