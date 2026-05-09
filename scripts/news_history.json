@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvda Screen Reader Empowers Blind Users Worldwide",
-      "urls": [
-        "https://www.screen.co.jp/spe/en",
-        "https://www.rnib.org.uk/living-with-sight-loss/assistive-aids-and-technology/everyday-tech/using-technology-at-home",
-        "https://www.apple.com/newsroom/2025/05/apple-unveils-powerful-accessibility-features-coming-later-this-year",
-        "https://www.applevis.com",
-        "https://www.theverge.com/23203911/screen-readers-history-blind-henter-curran-teh-nvda",
-        "https://www.freecodecamp.org/news/blind-developer-sighted-team"
-      ],
-      "date": "2026-04-29T17:31:07.656168+00:00"
-    },
-    {
       "title": "DeepSeek Releases V4 AI Models With Open Source Access",
       "urls": [
         "https://open-llm-radar.com",
@@ -4290,7 +4278,14 @@
         "https://www.healthcareitnews.com/news/advanced-ai-holds-promise-high-stakes-healthcare-studies-show"
       ],
       "date": "2026-05-09T17:04:15.029918+00:00"
+    },
+    {
+      "title": "WHO Reports 430 Million Affected by Hearing Impairment",
+      "urls": [
+        "https://www.mdpi.com/2571-5577/9/4/70"
+      ],
+      "date": "2026-05-09T17:34:01.433675+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T17:04:15.029976+00:00"
+  "lastUpdated": "2026-05-09T17:34:01.433736+00:00"
 }
