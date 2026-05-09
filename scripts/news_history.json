@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google News aggregates real-time headlines from thousands of publishers worldwide, offering users a ",
-      "urls": [
-        "https://news.google.com"
-      ],
-      "date": "2026-04-29T21:02:19.478095+00:00"
-    },
-    {
       "title": "Little Caesars expands its delivery operations in Mexico City through partnerships with third-party ",
       "urls": [
         "https://mexico.littlecaesars.com/es-mx",
@@ -4273,7 +4266,18 @@
         "https://www.youtube.com/watch?v=utdN_Qj9O6M"
       ],
       "date": "2026-05-09T20:33:58.390151+00:00"
+    },
+    {
+      "title": "Allyson Felix Inducted Into U.S. Olympic Hall of Fame in 2025",
+      "urls": [
+        "https://www.facebook.com/enews/videos/why-alysa-liu-wasnt-allowed-to-keep-olympic-gold-medal-after-it-broke/1660192115145408",
+        "https://www.sportbible.com/athletics/olympic-athletes-share-gold-medals-011890-20260214",
+        "https://www.olympics.com/en/news/elana-meyers-taylor-bobsleigh-mother-winter-olympics",
+        "https://www.nytimes.com/athletic/7058382/2026/02/19/alysa-liu-figure-skating-winter-olympics-gold",
+        "https://usopm.org/allyson-felix"
+      ],
+      "date": "2026-05-09T21:05:17.049046+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T20:33:58.390219+00:00"
+  "lastUpdated": "2026-05-09T21:05:17.049115+00:00"
 }
