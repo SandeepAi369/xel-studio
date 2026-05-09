@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia and OpenAI have entered a strategic partnership through a newly signed memorandum of understa",
-      "urls": [
-        "https://www.nvidia.com/page/home.html",
-        "https://www.nvidia.com/en-us",
-        "https://en.wikipedia.org/wiki/Nvidia",
-        "https://www.nvidia.co.uk/Download/indexsg.aspx?lang=en-us",
-        "https://play.geforcenow.com"
-      ],
-      "date": "2026-04-29T02:02:19.718573+00:00"
-    },
-    {
       "title": "U.S. Renewable Energy Hits 25% Of Power Generation In June",
       "urls": [
         "https://renewablesnow.com/news",
@@ -4307,7 +4296,14 @@
         "https://www.youtube.com/watch?v=iqAqtFFwYSI"
       ],
       "date": "2026-05-09T01:33:52.500734+00:00"
+    },
+    {
+      "title": "xAI Launches Grok 4.3 With 128K Context And Real Time Data Integration",
+      "urls": [
+        "https://llm-stats.com/llm-updates"
+      ],
+      "date": "2026-05-09T02:04:17.800484+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T01:33:52.500790+00:00"
+  "lastUpdated": "2026-05-09T02:04:17.800550+00:00"
 }
