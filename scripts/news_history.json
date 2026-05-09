@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration is centralizing medical continuing disability reviews to improve accu",
-      "urls": [
-        "https://www.ssa.gov/disability",
-        "https://www.ssa.gov/benefits/disability/qualify.html",
-        "https://www.ssa.gov/disability/determination.htm",
-        "https://www.ssa.gov/disability/step4and5.htm",
-        "https://www.ssa.gov/applyfordisability/index.htm?tl=2",
-        "https://www.ssa.gov/disability/amount",
-        "https://www.ssa.gov/disability/eligibility",
-        "https://www.ssa.gov/news/en/press/releases/2026-03-12.html"
-      ],
-      "date": "2026-04-29T11:32:18.699063+00:00"
-    },
-    {
       "title": "Google DeepMind Unveils AlphaFold 3 With 50 Percent Accuracy Boost",
       "urls": [
         "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ",
@@ -4290,7 +4276,14 @@
         "https://www.statnews.com/topic/health-tech"
       ],
       "date": "2026-05-09T11:04:15.643986+00:00"
+    },
+    {
+      "title": "Humanoid robots are advancing rapidly as major tech players and governments push for mass production",
+      "urls": [
+        "https://roboticsandautomationnews.com/2025/05/15/many-more-metal-men-ambitious-goals-for-humanoid-mass-production/90792"
+      ],
+      "date": "2026-05-09T11:34:03.397519+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T11:04:15.644046+00:00"
+  "lastUpdated": "2026-05-09T11:34:03.397601+00:00"
 }
