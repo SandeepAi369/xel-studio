@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Mistral 3 Family With 3B To 14B Parameter Models",
-      "urls": [
-        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
-        "https://azure.microsoft.com/en-us/blog/introducing-mistral-large-3-in-microsoft-foundry-open-capable-and-ready-for-production-workloads?msockid=2150c8b2ce9c60130581dff8cf5561fa",
-        "https://the-decoder.com/paris-based-mistral-releases-large-3-a-major-new-open-source-ai-model",
-        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html?msockid=2150c8b2ce9c60130581dff8cf5561fa",
-        "https://adtools.org/buyers-guide/ai-news-mistral-3-open-source-model-release",
-        "https://datanorth.ai/news/mistral-3-released"
-      ],
-      "date": "2026-04-29T10:08:44.943051+00:00"
-    },
-    {
-      "title": "Paris 2024 Tops Medal Table With 38 Golds",
-      "urls": [
-        "https://www.olympics.com/en/olympic-games/paris-2024/medals",
-        "https://www.olympics.com/en/olympic-games/olympic-results"
-      ],
-      "date": "2026-04-29T10:34:10.919004+00:00"
-    },
-    {
       "title": "TensorFlow Updates Ecosystem with Enhanced JavaScript Support and On-Device Training",
       "urls": [
         "https://blog.tensorflow.org"
@@ -4300,7 +4280,17 @@
         "https://www.boozallen.com/insights/ai-research/the-case-for-open-source-generative-ai-in-government.html"
       ],
       "date": "2026-05-09T10:04:10.667628+00:00"
+    },
+    {
+      "title": "Indonesian volcano erupted suddenly on a remote island, killing three hikers who were caught near th",
+      "urls": [
+        "https://www.nbcnews.com/nightly-news/video/deadly-volcano-eruption-in-indonesia-263025733950",
+        "https://www.nytimes.com/video/world/asia/100000010891393/indonesia-volcano-eruption-deaths.html",
+        "https://www.instagram.com/reel/DYFFPPDEqwc",
+        "https://www.youtube.com/watch?v=3O1xBSg1dhc"
+      ],
+      "date": "2026-05-09T10:34:15.468724+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T10:04:10.667688+00:00"
+  "lastUpdated": "2026-05-09T10:34:15.468779+00:00"
 }
