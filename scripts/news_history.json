@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Little Caesars expands its delivery operations in Mexico City through partnerships with third-party ",
-      "urls": [
-        "https://mexico.littlecaesars.com/es-mx",
-        "https://little-caesars.sizzlingplatter.com/servicioadomicilio",
-        "https://www.ubereats.com/mx/brand-city/mexico-city-df/little-caesars",
-        "https://littlec.com.mx",
-        "https://www.rappi.com.mx/restaurantes/1930054989-little-caesars",
-        "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
-        "https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform%3DAndroid",
-        "https://support.google.com/maps?hl=fr",
-        "https://support.google.com/maps?hl=en",
-        "https://support.google.com/maps?hl=da"
-      ],
-      "date": "2026-04-29T21:33:51.037054+00:00"
-    },
-    {
       "title": "Q1 2026 venture capital investment reached $297 billion globally, marking a 150% year-over-year incr",
       "urls": [
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
@@ -4277,7 +4261,14 @@
         "https://usopm.org/allyson-felix"
       ],
       "date": "2026-05-09T21:05:17.049046+00:00"
+    },
+    {
+      "title": "Samsung Unveils Relumino Vision+ Smart Glasses at CES 2025",
+      "urls": [
+        "https://www.forbes.com/sites/billschiffmiller/2025/01/20/accessibility-tech-showcased-at-ces-2025-is-transforming-shared-experiences"
+      ],
+      "date": "2026-05-09T21:34:58.737366+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T21:05:17.049115+00:00"
+  "lastUpdated": "2026-05-09T21:34:58.737432+00:00"
 }
