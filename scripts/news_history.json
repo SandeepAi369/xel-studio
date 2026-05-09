@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Q1 2026 venture capital investment reached $297 billion globally, marking a 150% year-over-year incr",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
-        "https://aifundingtracker.com",
-        "https://greyjournal.net/news/q1-2026-venture-capital-record-funding",
-        "https://news.crunchbase.com/venture/foundational-ai-startup-funding-doubled-openai-anthropic-xai-q1-2026",
-        "https://pricepertoken.com/news/funding",
-        "https://ai2.work/blog/latest-ai-startup-funding-news-and",
-        "https://inforcapital.com/blog/2026-04-25-the-ai-funding-supercycle-1314-deals-in-april-show-where-real-capital-is-going",
-        "https://aiflashreport.com/topics/ai-startup-news.html"
-      ],
-      "date": "2026-04-29T22:05:53.585141+00:00"
-    },
-    {
-      "title": "Yahoo News launched a redesigned platform integrating real-time video updates and photo galleries ac",
-      "urls": [
-        "https://www.foxnews.com?msockid=03544b5f06e96fab1f295c15073c6e70",
-        "https://www.aol.com",
-        "https://www.yahoo.com/news"
-      ],
-      "date": "2026-04-29T22:32:25.426089+00:00"
-    },
-    {
       "title": "Trump Proposes 60 Percent Tariff On Chinese Imports To Reshape Trade",
       "urls": [
         "https://www.newsnow.com/us/US/Politics/Donald+Trump?type=ln",
@@ -4278,7 +4255,15 @@
         "https://cloud.google.com/use-cases/free-ai-tools"
       ],
       "date": "2026-05-09T22:05:17.272105+00:00"
+    },
+    {
+      "title": "Jessika Trancik Leads Global Team In Clean Energy Modeling Initiative",
+      "urls": [
+        "https://news.mit.edu/2025/making-clean-energy-investments-more-successful-1212",
+        "https://energyinnovation.org/about/press/page/2"
+      ],
+      "date": "2026-05-09T22:34:02.454760+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T22:05:17.272151+00:00"
+  "lastUpdated": "2026-05-09T22:34:02.454823+00:00"
 }
