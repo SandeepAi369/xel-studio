@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "HealthCare.",
-      "urls": [
-        "https://www.healthcare.gov/get-coverage"
-      ],
-      "date": "2026-04-29T19:05:46.940886+00:00"
-    },
-    {
-      "title": "U.",
-      "urls": [
-        "https://www.sustainability-times.com/reports/sustainable-development-goals-2026",
-        "https://crystalballmarkets.com/blog/esg-and-sustainable-investing-trends-2026-the-next-evolution-in-capital-and-climate-finance",
-        "https://www.genevaenvironmentnetwork.org/resources/updates/sustainable-fashion",
-        "https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history",
-        "https://www.untourism.int/sustainable-development/climate-action"
-      ],
-      "date": "2026-04-29T19:31:23.552590+00:00"
-    },
-    {
       "title": "Hugging Face Stores Models in Default Cache Directory",
       "urls": [
         "https://www.zhihu.com/question/482692136/answers/updated"
@@ -4287,7 +4269,15 @@
         "https://www.fcc.gov/consumers/guides/national-deaf-blind-equipment-distribution-program"
       ],
       "date": "2026-05-09T19:04:23.293212+00:00"
+    },
+    {
+      "title": "Developers Build Apps Faster Using GitHub Copilot And Amazon CodeWhisperer",
+      "urls": [
+        "https://www.youtube.com/shorts/ploMdIujftU",
+        "https://www.youtube.com/shorts/SJ_HDL_d2yg"
+      ],
+      "date": "2026-05-09T19:33:02.562096+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T19:04:23.293274+00:00"
+  "lastUpdated": "2026-05-09T19:33:02.562156+00:00"
 }
