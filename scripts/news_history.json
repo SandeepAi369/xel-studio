@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-source AI is transforming developer workflows with new tools enabling AI-native development and",
-      "urls": [
-        "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects",
-        "https://www.geeky-gadgets.com/new-open-source-ai-projects-how-collaboration-is-beating-big-tech"
-      ],
-      "date": "2026-04-29T09:08:42.810510+00:00"
-    },
-    {
       "title": "IBM And NASA Launch Surya AI To Predict Solar Weather With 92 Percent Accuracy",
       "urls": [
         "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology"
@@ -4299,7 +4291,15 @@
         "https://spectrum.ieee.org/topic/robotics/humanoid-robots"
       ],
       "date": "2026-05-09T09:04:14.740221+00:00"
+    },
+    {
+      "title": "Assistive Technologies Market to Reach $13.31 Billion by 2030",
+      "urls": [
+        "https://vocal.media/journal/assistive-technologies-for-visually-impaired-market-to-reach-13-3-b-by-2030",
+        "https://bionicvisionlab.org/research/assistive-technologies-blind"
+      ],
+      "date": "2026-05-09T09:33:03.799493+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T09:04:14.740275+00:00"
+  "lastUpdated": "2026-05-09T09:33:03.799556+00:00"
 }
