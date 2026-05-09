@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Announces Makhachev Vs Volkanovski Lightweight Title Fight At 311",
-      "urls": [
-        "https://www.ufc.com",
-        "https://www.foxsports.com.au/ufc/latest-news"
-      ],
-      "date": "2026-04-29T23:31:19.485578+00:00"
-    },
-    {
       "title": "FIFA Confirms 48 Teams For 2026 Series Global Tournament",
       "urls": [
         "https://www.fifa.com/en/news/articles/fifa-series-2026-match-schedule-available",
@@ -4263,7 +4255,17 @@
         "https://science.nasa.gov/climate-change/evidence"
       ],
       "date": "2026-05-09T23:04:13.788110+00:00"
+    },
+    {
+      "title": "Deaf and hard-of-hearing scientists at the Rochester Institute of Technology (RIT) are advancing in ",
+      "urls": [
+        "https://www.accessibilitychecker.org/blog/deaf-accessibility",
+        "https://asm.org/articles/2024/september/building-accessibility-for-deaf-and-hard-of-hearin",
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1121597/full",
+        "https://www.hearingloss.org/find-help/hearing-assistive-technology"
+      ],
+      "date": "2026-05-09T23:34:07.677036+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T23:04:13.788170+00:00"
+  "lastUpdated": "2026-05-09T23:34:07.677104+00:00"
 }
