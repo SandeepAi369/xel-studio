@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Quantum AI Solves Task 13000 Times Faster Than Supercomputers",
-      "urls": [
-        "https://www.pcworld.com/article/2952091/googles-latest-quantum-breakthrough-is-13000-faster-than-before.html",
-        "https://www.thecrimson.com/article/2025/10/2/quantum-computing-breakthrough"
-      ],
-      "date": "2026-04-29T12:32:14.083618+00:00"
-    },
-    {
       "title": "eSafety Commissioner provides official guidance on social media age restrictions through its updated",
       "urls": [
         "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/faqs",
@@ -4279,7 +4271,14 @@
         "https://www.whitehouse.gov/videos/president-trump-delivers-remarks-may-8-2026"
       ],
       "date": "2026-05-09T12:04:09.274986+00:00"
+    },
+    {
+      "title": "Who Uses Data Analytics To Enhance Player Performance And Fan Engagement",
+      "urls": [
+        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOooHO55EHg6vQeyI0Wv2vZ-Y1Yu3qAHm8wAgQV-UILbwygEG9Vow"
+      ],
+      "date": "2026-05-09T12:34:01.321467+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T12:04:09.275066+00:00"
+  "lastUpdated": "2026-05-09T12:34:01.321522+00:00"
 }
