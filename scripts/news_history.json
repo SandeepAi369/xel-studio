@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boehringer Ingelheim Launches London AI Centre To Accelerate Drug Discovery",
-      "urls": [
-        "https://www.drugs.com",
-        "https://www.drugs.com/drug_interactions.html",
-        "https://www.drugs.com/pill_identification.html",
-        "https://www.drugs.com/drug_information.html",
-        "https://www.drugs.com/amlodipine.html",
-        "https://www.cnet.com/tech/services-and-software/openai-gpt-rosalind-model-release",
-        "https://www.linkedin.com/posts/hcpnewsindia_aiinhealthcare-pharmaindustry-drugdiscovery-activity-7452336216676667393-ZNFI",
-        "https://www.prnewswire.com/news-releases/insilico-medicine-announces-global-rd-collaboration-with-lilly-302727884.html"
-      ],
-      "date": "2026-04-29T04:04:32.045670+00:00"
-    },
-    {
-      "title": "Former City Councilman Benjamin Martinez of Lancaster, California, was sentenced to 18 months in fed",
-      "urls": [
-        "https://twitchy.com/amy-curtis/2024/11/07/watch-bulwark-crew-as-election-unfolds-n2403427",
-        "https://twitchy.com/brettt/2026/04/01/former-city-councilman-sentenced-after-investigation-found-71-voter-names-registered-to-his-address-n2426712"
-      ],
-      "date": "2026-04-29T04:32:00.247235+00:00"
-    },
-    {
       "title": "DeepSeek Releases Open-Source V4 Language Model Family",
       "urls": [
         "https://letsdatascience.com/news/deepseek-releases-open-source-v4-large-models-f5a3b72c",
@@ -4304,7 +4282,17 @@
         "https://sports.yahoo.com/video/cubs-historic-run-signals-confidence-on-the-north-side-163955544.html"
       ],
       "date": "2026-05-09T04:04:15.305502+00:00"
+    },
+    {
+      "title": "Nvidia Investors Pivot To AMD Intel And Micron",
+      "urls": [
+        "https://www.stockjabber.com/news/why-are-nvidia-and-advanced-micro-devices-leading-the-ai-chip-rally",
+        "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
+        "https://finance.yahoo.com/markets/stocks/articles/nvidia-advanced-micro-devices-sounded-132600579.html",
+        "https://www.nvidia.com/en-us"
+      ],
+      "date": "2026-05-09T04:34:00.428867+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T04:04:15.305597+00:00"
+  "lastUpdated": "2026-05-09T04:34:00.428934+00:00"
 }
