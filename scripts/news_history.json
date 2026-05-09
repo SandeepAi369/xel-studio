@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Breaks Two-Hour Marathon Barrier In London",
-      "urls": [
-        "https://www.bbc.com/sport/athletics/articles/cp8jk5gg7ezo",
-        "https://www.nbcsports.com/olympics/news/sabastian-sawe-marathon-world-record-london-two-hours",
-        "https://www.nobleworldrecords.net/newsarticles.html",
-        "https://www.nytimes.com/athletic/global-sports"
-      ],
-      "date": "2026-04-29T08:31:01.467643+00:00"
-    },
-    {
       "title": "Open-source AI is transforming developer workflows with new tools enabling AI-native development and",
       "urls": [
         "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects",
@@ -4293,7 +4283,16 @@
         "https://www.youtube.com/watch?v=Ed8fhwWjEzU"
       ],
       "date": "2026-05-09T08:05:15.924910+00:00"
+    },
+    {
+      "title": "John Korir Smashes Boston Marathon Record With 2:01:52 Victory",
+      "urls": [
+        "https://www.news.com.au/sport/olympics/athletics/marathon-record-broken-as-three-stars-beat-previous-time-with-two-running-in-magic-adidas-trainers/news-story/1f2b8261cd8194e8eba206407d533a5d",
+        "https://www.youtube.com/watch?v=YAtF9A4QVcs",
+        "https://www.youtube.com/watch?v=mrXBVv03NS4"
+      ],
+      "date": "2026-05-09T08:36:10.726379+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T08:05:15.924979+00:00"
+  "lastUpdated": "2026-05-09T08:36:10.726438+00:00"
 }
