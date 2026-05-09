@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Unveils AlphaFold 3 With 50 Percent Accuracy Boost",
-      "urls": [
-        "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ",
-        "https://techcrunch.com/category/artificial-intelligence",
-        "https://recentai.news",
-        "https://ainews.ai",
-        "https://www.bloomberg.com/latest/the-ai-race",
-        "https://www.wsj.com/tech/ai?msockid=1453616a469961dc1258762047a06027"
-      ],
-      "date": "2026-04-29T12:03:33.014613+00:00"
-    },
-    {
       "title": "Google Quantum AI Solves Task 13000 Times Faster Than Supercomputers",
       "urls": [
         "https://www.pcworld.com/article/2952091/googles-latest-quantum-breakthrough-is-13000-faster-than-before.html",
@@ -4283,7 +4271,15 @@
         "https://roboticsandautomationnews.com/2025/05/15/many-more-metal-men-ambitious-goals-for-humanoid-mass-production/90792"
       ],
       "date": "2026-05-09T11:34:03.397519+00:00"
+    },
+    {
+      "title": "ITIF has criticized proposed tech regulations like California's failed BASED Act, which aimed to imp",
+      "urls": [
+        "https://itif.org/news-room",
+        "https://www.whitehouse.gov/videos/president-trump-delivers-remarks-may-8-2026"
+      ],
+      "date": "2026-05-09T12:04:09.274986+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T11:34:03.397601+00:00"
+  "lastUpdated": "2026-05-09T12:04:09.275066+00:00"
 }
