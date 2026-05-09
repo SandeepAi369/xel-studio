@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow Updates Ecosystem with Enhanced JavaScript Support and On-Device Training",
-      "urls": [
-        "https://blog.tensorflow.org"
-      ],
-      "date": "2026-04-29T11:02:24.435417+00:00"
-    },
-    {
       "title": "Social Security Administration is centralizing medical continuing disability reviews to improve accu",
       "urls": [
         "https://www.ssa.gov/disability",
@@ -4290,7 +4283,14 @@
         "https://www.youtube.com/watch?v=3O1xBSg1dhc"
       ],
       "date": "2026-05-09T10:34:15.468724+00:00"
+    },
+    {
+      "title": "Canan Dagdeviren Unveils Ultrasound-Emitting Bra For Daily Breast Monitoring",
+      "urls": [
+        "https://www.statnews.com/topic/health-tech"
+      ],
+      "date": "2026-05-09T11:04:15.643986+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T10:34:15.468779+00:00"
+  "lastUpdated": "2026-05-09T11:04:15.644046+00:00"
 }
