@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Uses ZIP Code Data to Deliver Local Weather Alerts",
-      "urls": [
-        "https://www.foxnews.com?msockid=00b13cf5a00a6fd614a02bbfa1a86e2d"
-      ],
-      "date": "2026-04-29T13:33:17.627427+00:00"
-    },
-    {
       "title": "International Trucks Launches New LT Model With S13 Powertrain For 5.5% Better Fuel Economy",
       "urls": [
         "https://mexico.internationaltrucks.com/blog/tractocamion-con-mas-rendimiento"
@@ -4281,7 +4274,16 @@
         "https://www.instagram.com/reel/DV_2bYujP1G"
       ],
       "date": "2026-05-09T13:06:21.806560+00:00"
+    },
+    {
+      "title": "InnoCaption Delivers Real-Time AI Captions for 50 Million Users",
+      "urls": [
+        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
+        "https://www.msn.com/en-us/news/other/technology-improves-safety-for-deaf-hard-of-hearing/ar-AA1P03Vj",
+        "https://www.youtube.com/watch?v=7Ud-tBQuac8"
+      ],
+      "date": "2026-05-09T13:36:03.602546+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T13:06:21.806622+00:00"
+  "lastUpdated": "2026-05-09T13:36:03.602602+00:00"
 }
