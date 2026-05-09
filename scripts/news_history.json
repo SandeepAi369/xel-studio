@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The document has been permanently moved to a new location, indicating a standard HTTP 301 redirect u",
-      "urls": [
-        "https://climate.nasa.gov/climate_resources/25/interactive-climate-time-machine/&nbsp"
-      ],
-      "date": "2026-04-29T06:31:21.489831+00:00"
-    },
-    {
       "title": "KRXI2 NBC Reno Delivers Real-Time Winter Storm Alerts",
       "urls": [
         "https://mynews4.com",
@@ -4298,7 +4291,14 @@
         "https://www.llama.com"
       ],
       "date": "2026-05-09T06:04:13.230151+00:00"
+    },
+    {
+      "title": "The Climate Pledge is a global initiative co-founded by Amazon and Global Optimism, committing signa",
+      "urls": [
+        "https://www.theclimatepledge.com"
+      ],
+      "date": "2026-05-09T06:34:09.098671+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T06:04:13.230209+00:00"
+  "lastUpdated": "2026-05-09T06:34:09.098727+00:00"
 }
