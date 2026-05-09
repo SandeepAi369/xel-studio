@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Openai Recruits Ai Trainers To Refine Language Model Responses",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1brqwun/i_compared_the_different_open_source_whisper",
-        "https://www.reddit.com/r/AZURE/comments/1ddfvuy/is_azure_openai_just_a_self_hosted_version_of",
-        "https://www.reddit.com/r/WFHJobs/comments/1bvpevo/openai_ai_trainer_recruitment",
-        "https://www.reddit.com/r/OpenAI/comments/1pkckl6/chatgpt_52_negative_coldunpleasant_and_censored",
-        "https://www.reddit.com/r/OpenAI/comments/vm3kfk/any_free_alternatives_to_openai",
-        "https://www.reddit.com/r/OpenAI/comments/16doutn/how_to_get_a_job_at_openai"
-      ],
-      "date": "2026-04-29T18:31:13.711033+00:00"
-    },
-    {
       "title": "HealthCare.",
       "urls": [
         "https://www.healthcare.gov/get-coverage"
@@ -4283,7 +4271,16 @@
         "https://www.theinformation.com/events/climatetech"
       ],
       "date": "2026-05-09T18:05:14.886143+00:00"
+    },
+    {
+      "title": "Z Ai Releases Glm 5 1 Open Source Model Surpassing Top Proprietary Systems",
+      "urls": [
+        "https://github.com/eugeneyan/open-llms",
+        "https://www.youtube.com/shorts/0T3xgE_diIw",
+        "https://modal.com/blog/best-open-source-llms"
+      ],
+      "date": "2026-05-09T18:36:08.020512+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T18:05:14.886204+00:00"
+  "lastUpdated": "2026-05-09T18:36:08.020586+00:00"
 }
