@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Renewable Energy Hits 25% Of Power Generation In June",
-      "urls": [
-        "https://renewablesnow.com/news",
-        "https://www.energyglobal.com",
-        "https://www.newsnow.com/us/Business/Energy/Renewable+Energy",
-        "https://www.reuters.com/business/energy/solar",
-        "https://www.latimes.com/environment/story/2025-09-10/the-us-keeps-breaking-renewable-energy-records",
-        "https://apnews.com/hub/renewable-energy",
-        "https://www.solarpowerworldonline.com/category/industry-news",
-        "https://www.innovationnewsnetwork.com/renewable-energy",
-        "https://www.energyvoice.com/category/renewables-energy-transition/renewables"
-      ],
-      "date": "2026-04-29T02:33:06.184398+00:00"
-    },
-    {
       "title": "Gap Partners With Google To Deploy Generative AI Across Operations",
       "urls": [
         "https://techcrunch.com/tag/generative-ai",
@@ -4303,7 +4288,17 @@
         "https://llm-stats.com/llm-updates"
       ],
       "date": "2026-05-09T02:04:17.800484+00:00"
+    },
+    {
+      "title": "Scientists At University Of California San Diego Discover RAB38 Protein Linked To 67 Percent Higher Alzheimer's Risk",
+      "urls": [
+        "https://www.medtechdive.com",
+        "https://www.medicalnewstoday.com/categories/medical-innovation",
+        "https://nchstats.com/breakthroughs-in-medical-test-equipment",
+        "https://www.sciencedaily.com/news/health_medicine"
+      ],
+      "date": "2026-05-09T02:34:13.983154+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T02:04:17.800550+00:00"
+  "lastUpdated": "2026-05-09T02:34:13.983209+00:00"
 }
