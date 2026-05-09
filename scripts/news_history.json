@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. And China Lock In Rival AI Strategies",
-      "urls": [
-        "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
-        "https://www.worldpoliticsreview.com/technology-revolution-geopolitical-competition",
-        "https://seekingalpha.com/article/4813495-defining-rivalry-21st-century-ai-new-geopolitical-battlefield",
-        "https://www.agora-strategy.com/en/post/geopolitics-of-ai"
-      ],
-      "date": "2026-04-29T15:05:34.509597+00:00"
-    },
-    {
-      "title": "Generative AI has transformed drug discovery and workforce training in the biopharmaceutical sector,",
-      "urls": [
-        "https://www.pharmtech.com/view/the-year-of-ai-2025-bio-pharma-upskilling-revolution"
-      ],
-      "date": "2026-04-29T15:32:25.421990+00:00"
-    },
-    {
       "title": "Geopolitical Futures provides in-depth analysis of global political dynamics, focusing on how geogra",
       "urls": [
         "https://geopoliticalfutures.com",
@@ -4298,7 +4281,16 @@
         "https://www.mobihealthnews.com"
       ],
       "date": "2026-05-09T15:05:17.444718+00:00"
+    },
+    {
+      "title": "Anthropic Launches Project Glasswing to Detect Software Vulnerabilities Using Claude Mythos Preview",
+      "urls": [
+        "https://www.anu.edu.au/news/all-news/anu-partners-with-ai-safety-company-anthropic-to-strengthen-its-ai-research-and-teaching",
+        "https://www.anthropic.com/glasswing",
+        "https://www.anthropic.com/research/labor-market-impacts"
+      ],
+      "date": "2026-05-09T15:35:00.977700+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T15:05:17.444763+00:00"
+  "lastUpdated": "2026-05-09T15:35:00.977894+00:00"
 }
