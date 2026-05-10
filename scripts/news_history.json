@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT 5.5 With Advanced Agentic Capabilities",
-      "urls": [
-        "https://openai.com/research/index/release",
-        "https://www.roborhythms.com/openai-gpt-5-5-launch-april-2026",
-        "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
-        "https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval",
-        "https://www.knightli.com/en/2026/04/24/openai-gpt-5-5-release",
-        "https://releasebot.io/updates/openai/chatgpt",
-        "https://pasqualepillitteri.it/en/news/621/gpt-5-5-spud-openai-next-model",
-        "https://www.nytimes.com/2026/04/23/technology/openai-new-model.html",
-        "https://aitoolly.com/ai-news/article/2026-04-24-openai-launches-gpt-55-a-new-class-of-intelligence-designed-for-agentic-coding-and-complex-task-exec",
-        "https://dataconomy.com/2026/04/23/openais-gpt-5-5-is-now-live"
-      ],
-      "date": "2026-04-30T14:32:26.897219+00:00"
-    },
-    {
       "title": "Fda Clears 295 Ai Medical Devices In One Year",
       "urls": [
         "https://www.msn.com/en-us/news/other/ai-and-imaging-breakthroughs-reshape-diagnostics-and-treatment/gm-GMBB7EEDDC",
@@ -4221,7 +4205,15 @@
         "https://www.biologicaldiversity.org/news"
       ],
       "date": "2026-05-10T14:04:21.233943+00:00"
+    },
+    {
+      "title": "OpenAI Releases 39 Models on Hugging Face Platform",
+      "urls": [
+        "https://huggingface.co/collections/viralsuite/best-open-source-ai-models",
+        "https://huggingface.co/openai"
+      ],
+      "date": "2026-05-10T14:34:06.110546+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T14:04:21.233999+00:00"
+  "lastUpdated": "2026-05-10T14:34:06.110606+00:00"
 }
