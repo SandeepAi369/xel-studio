@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Reports 1.6 Million Refugees Returned Home Last Year",
-      "urls": [
-        "https://news.un.org/en/focus-topic/refugees-and-migrants",
-        "https://www.unhcr.org/global-trends",
-        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
-        "https://www.unhcr.org/what-we-do/build-better-futures/climate-change-and-displacement"
-      ],
-      "date": "2026-04-30T16:04:01.089884+00:00"
-    },
-    {
       "title": "BoardGameGeek Launches New Tools For Indie Game Developers",
       "urls": [
         "https://boardgamegeek.com?lang=eng"
@@ -4209,7 +4199,17 @@
         "https://escharts.com"
       ],
       "date": "2026-05-10T15:33:59.597061+00:00"
+    },
+    {
+      "title": "U.S. And EU Enact Chips Acts To Reshape Global Semiconductor Supply Chains",
+      "urls": [
+        "https://mobile.twitter.com/EYnews/status/1426906525436551176",
+        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOoq5EadcN8Bz6nZht-ERp__xVohdYBhf_Rgzyyfe3wZbcXtPItS2",
+        "https://www.brookings.edu/articles/technology-competition-between-nations-views-from-industry-leaders",
+        "https://www.euronews.com/next/2025/11/21/how-the-global-competition-to-win-the-ai-race-is-going"
+      ],
+      "date": "2026-05-10T16:05:18.747115+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T15:33:59.597121+00:00"
+  "lastUpdated": "2026-05-10T16:05:18.747180+00:00"
 }
