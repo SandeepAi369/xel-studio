@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration Resolves Millions Of Calls Annually",
-      "urls": [
-        "https://www.ssa.gov/agency/contact/phone.html"
-      ],
-      "date": "2026-04-30T03:32:22.625000+00:00"
-    },
-    {
       "title": "World Health Organization has released updated guidelines for the treatment of opioid dependence, em",
       "urls": [
         "https://www.who.int/news/item/09-02-2025-who-updates-guidelines-on-opioid-dependence-treatment-and-overdose-prevention"
@@ -4250,7 +4243,15 @@
         "https://www.washingtonpost.com/politics"
       ],
       "date": "2026-05-10T03:05:14.580419+00:00"
+    },
+    {
+      "title": "Coca-Cola and Walmart CEOs have stepped down, citing the accelerating impact of AI transformation wi",
+      "urls": [
+        "https://www.techbuzz.ai/articles/top-ceos-exit-as-ai-forces-leadership-reckoning",
+        "https://www.facebook.com/TheAdvocate/posts/the-company-confirmed-the-billionaires-departure-as-the-tech-companys-leader-in-/1425545356275962"
+      ],
+      "date": "2026-05-10T03:37:06.015053+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T03:05:14.580484+00:00"
+  "lastUpdated": "2026-05-10T03:37:06.015155+00:00"
 }
