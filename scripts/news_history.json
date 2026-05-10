@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC News Delivers 24/7 Global Coverage From Three Major Hubs",
-      "urls": [
-        "https://www.bbc.com/watch-live-news",
-        "https://www.foxnews.com?msockid=2a6c9f03f79b6b5230e18848f6ae6a95"
-      ],
-      "date": "2026-04-30T04:31:36.037249+00:00"
-    },
-    {
       "title": "Fox News Delivers Conservative Coverage To Millions Through Flagship Programs",
       "urls": [
         "https://www.foxnews.com?msockid=25a120116d386ada193f375a6c676ba7"
@@ -4251,7 +4243,14 @@
         "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
       ],
       "date": "2026-05-10T04:05:08.909450+00:00"
+    },
+    {
+      "title": "Who Uses AI Analytics to Cut Soccer Injuries by 30 Percent",
+      "urls": [
+        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoouhgqvPfdcWkHlymrh_IMe2MHrbOsVBCSuWRLXyI8DpQkO0BVB"
+      ],
+      "date": "2026-05-10T04:34:02.506048+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T04:05:08.909517+00:00"
+  "lastUpdated": "2026-05-10T04:34:02.506139+00:00"
 }
