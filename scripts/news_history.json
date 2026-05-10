@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sabastian Sawe broke the two-hour barrier in the marathon at the London Marathon, completing the 42.",
-      "urls": [
-        "https://www2.bing.com/news",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FuVnJHZ0pWUVNnQVAB?hl=en-US&ceid=US%3Aen",
-        "https://timesofindia.indiatimes.com/sports/international-sports/london-marathon-winners-massive-payday-revealed-as-he-names-first-purchase-after-historic-run/articleshow/130616518.cms",
-        "https://www.mercurynews.com/2026/04/26/sabastian-sawe-london-marathon-record-2-hours",
-        "https://news24online.com/sports/ipl-2026-vaibhav-suryavanshi-creates-history-in-lsg-vs-rr-match-becomes-first-player-in-the-world-to-score-500-ipl-runs-at-strike-rate-of-over-200/813804",
-        "https://www.msn.com/en-us/sports/motorsports/sabastian-sawe-breaks-fabled-two-hour-marathon-barrier-shatters-world-record/ar-AA21LPOn",
-        "https://sports.yahoo.com/articles/sabastian-sawe-super-shoe-97-123258217.html"
-      ],
-      "date": "2026-04-30T10:38:38.878637+00:00"
-    },
-    {
-      "title": "Not A Wheelchair Launches Custom Mobility Devices With Rapid Factory Direct Production",
-      "urls": [
-        "https://notawheelchair.com",
-        "https://www.pridemobility.com/jazzy-power-chairs/models.asp",
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=27815a62db6b6b8511134d29da7f6a5f"
-      ],
-      "date": "2026-04-30T11:03:35.981613+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://planet.news/article/digital-privacy-social-media-regulations-global-wave",
@@ -4247,7 +4225,15 @@
         "https://www.youtube.com/watch?v=w3pZViKzXpQ"
       ],
       "date": "2026-05-10T10:34:03.358971+00:00"
+    },
+    {
+      "title": "Pharmaceutical Companies Deploy AI Scientists to Accelerate Drug Discovery",
+      "urls": [
+        "https://www.wsj.com/health/pharma/the-quest-to-use-ai-to-help-find-new-drugs-a754fdc3?eafs_enabled=false",
+        "https://www.pharmavoice.com/news/ai-pharma-scientist-drug-research-owkin/818113"
+      ],
+      "date": "2026-05-10T11:04:18.410526+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T10:34:03.359044+00:00"
+  "lastUpdated": "2026-05-10T11:04:18.410587+00:00"
 }
