@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization And Unicef Warn Over 2.5 Billion Need Assistive Products",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
-        "https://news.un.org/en/story/2025/10/1166082"
-      ],
-      "date": "2026-04-30T00:34:11.043514+00:00"
-    },
-    {
-      "title": "Team USA Wins 12 Gold Medals At Winter Olympics",
-      "urls": [
-        "https://www.usopc.org/news/2026/february/22/a-golden-games-team-usa-sets-record-with-12-gold-medals-at-olympic-winter-games-milano-cortina-2026",
-        "https://www.newsweek.com/sports/italian-athlete-taunts-americans-after-olympic-gold-medal-upset-11539165"
-      ],
-      "date": "2026-04-30T01:03:30.825621+00:00"
-    },
-    {
       "title": "YouTube Kids Launches Enhanced Parental Controls and Curated Content Filters",
       "urls": [
         "https://www.youtube.com",
@@ -4270,7 +4254,15 @@
         "https://www.instagram.com/reel/DXmdC1xD0pP"
       ],
       "date": "2026-05-10T00:34:05.887011+00:00"
+    },
+    {
+      "title": "Boston Dynamics is advancing humanoid robot deployment in manufacturing, emphasizing the challenge o",
+      "urls": [
+        "https://www.eetimes.com/humanoids-hit-the-factory-floor",
+        "https://www.youtube.com/watch?v=ZEOp3q-QpxI"
+      ],
+      "date": "2026-05-10T01:04:17.084906+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T00:34:05.887133+00:00"
+  "lastUpdated": "2026-05-10T01:04:17.084970+00:00"
 }
