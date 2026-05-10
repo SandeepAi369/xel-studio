@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nancy Guthrie disappeared from her Tucson home under suspicious circumstances, prompting a formal in",
-      "urls": [
-        "https://www.timesnownews.com/world/us/us-news/latest-news-on-nancy-guthrie-today-update-kidnapping-case-savannah-guthrie-fbi-article-154176306",
-        "https://www.euronews.com/video/2026/04/25/latest-news-bulletin-april-25th-2026-evening",
-        "https://www.foxnews.com/video/topics/latest-news-video?msockid=14caa1630887660a2a8db62809e96732",
-        "https://www.indiatvnews.com/latest-news",
-        "https://thehindustangazette.com/latest-news"
-      ],
-      "date": "2026-04-30T18:31:23.245718+00:00"
-    },
-    {
       "title": "NVIDIA Launches Nemotron 3 Nano Omni For Unified Multimodal AI Processing",
       "urls": [
         "https://fazm.ai/blog/open-source-large-language-model-news-april-2026",
@@ -4225,7 +4214,14 @@
         "https://www.youtube.com/watch?v=1FzRYbud_Xc"
       ],
       "date": "2026-05-10T18:04:17.814105+00:00"
+    },
+    {
+      "title": "Nintendo Switch 2 Sells Over 5 Million Units In First Week",
+      "urls": [
+        "https://www.cnbc.com/gaming"
+      ],
+      "date": "2026-05-10T18:33:59.014010+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T18:04:17.814163+00:00"
+  "lastUpdated": "2026-05-10T18:33:59.014064+00:00"
 }
