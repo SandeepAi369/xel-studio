@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Falcon Heavy With ViaSat Internet Satellite",
-      "urls": [
-        "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-33rd-spacex-resupply-mission-to-station",
-        "https://www.spacex.com/news",
-        "https://www.cbsnews.com/news/spacex-launches-viasat-internet-satellite-falcon-heavy-rocket",
-        "https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027",
-        "https://www.floridatoday.com/story/tech/science/space/2026/04/26/spacex-falcon-heavy-rocket-launch-from-florida-monday-kennedy-what-to-know-before-liftoff-ula-atlasv--live/89757815007",
-        "https://www.azcentral.com/story/news/local/arizona/2026/04/28/vandenberg-spacex-rocket-launch-arizona/89820375007",
-        "https://apnews.com/article/spacex-nasa-astronauts-d90068c27fff2ed2438d1776e0632443"
-      ],
-      "date": "2026-04-30T22:04:36.372605+00:00"
-    },
-    {
-      "title": "Epic Games Launches $15 Million Fortnite Champion Series Globally",
-      "urls": [
-        "https://escharts.com/news/category/tournaments",
-        "https://blast.tv",
-        "https://esportsinsider.com",
-        "https://www.leagueoflegends.com/en-us/news/esports",
-        "https://dotesports.com/counter-strike",
-        "https://fortnitetracker.com/events"
-      ],
-      "date": "2026-04-30T22:31:10.551353+00:00"
-    },
-    {
       "title": "Fox News Delivers Conservative Coverage To Millions Through Hit Shows",
       "urls": [
         "https://www.foxnews.com?msockid=2d80c2dca289680f125dd597a31b69f0"
@@ -4234,7 +4209,20 @@
         "https://www.facebook.com/groups/deafandhoh/posts/10161168434482309"
       ],
       "date": "2026-05-10T22:04:19.506606+00:00"
+    },
+    {
+      "title": "Global public spending on energy research and development dropped in 2024 compared to the previous y",
+      "urls": [
+        "https://itif.org/centers/clean-energy-innovation",
+        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
+        "https://www.iea.org/topics/energy-innovation",
+        "https://energyinnovation.org",
+        "https://www.energy.gov/topics/energy-innovation",
+        "https://spectrum.ieee.org/topic/climate-tech",
+        "https://www.canarymedia.com"
+      ],
+      "date": "2026-05-10T22:32:59.493703+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T22:04:19.506666+00:00"
+  "lastUpdated": "2026-05-10T22:32:59.493763+00:00"
 }
