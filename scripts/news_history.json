@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA Confirms 48 Teams For 2026 Series Global Tournament",
-      "urls": [
-        "https://www.fifa.com/en/news/articles/fifa-series-2026-match-schedule-available",
-        "https://www.fifa.com/en/news/index.html",
-        "https://www.fifa.com/en/news/articles/european-qualifying-results-fixtures-world-cup-26",
-        "https://www.fifa.com/en/news/articles/fifa-series-everything-you-need-to-know",
-        "https://www.fifa.com/en/news/articles/halftime-show-confirmed"
-      ],
-      "date": "2026-04-30T00:02:24.953830+00:00"
-    },
-    {
       "title": "Who World Health Organization And Unicef Warn Over 2.5 Billion Need Assistive Products",
       "urls": [
         "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
@@ -4265,7 +4254,14 @@
         "https://www.hearingloss.org/find-help/hearing-assistive-technology"
       ],
       "date": "2026-05-09T23:34:07.677036+00:00"
+    },
+    {
+      "title": "Mistral Large 3 sets a new benchmark for open-source large language models, featuring a Mixture-of-E",
+      "urls": [
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained"
+      ],
+      "date": "2026-05-10T00:03:23.246713+00:00"
     }
   ],
-  "lastUpdated": "2026-05-09T23:34:07.677104+00:00"
+  "lastUpdated": "2026-05-10T00:03:23.246780+00:00"
 }
