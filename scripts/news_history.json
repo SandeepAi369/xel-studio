@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qwen3.",
-      "urls": [
-        "https://www.facebook.com/reel/1670516200947117",
-        "https://huggingface.co/meta-llama",
-        "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
-        "https://www.humai.blog/ai-news-trends-april-2026-complete-monthly-digest",
-        "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard"
-      ],
-      "date": "2026-04-30T06:04:46.529720+00:00"
-    },
-    {
-      "title": "Harvard Medical School Researchers Develop AI To Improve Diagnostic Accuracy",
-      "urls": [
-        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
-        "https://www.bbc.com/future/article/20260309-ai-is-finding-treatments-for-incurable-diseases",
-        "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence"
-      ],
-      "date": "2026-04-30T06:31:07.023208+00:00"
-    },
-    {
       "title": "UK Government Launches Consultation On Electric Wheelchair Laws",
       "urls": [
         "https://www.costco.com/walkers-wheelchairs.html",
@@ -4258,7 +4237,15 @@
         "https://www.canarymedia.com/articles/solar/solar-power-record-2025"
       ],
       "date": "2026-05-10T06:04:15.902447+00:00"
+    },
+    {
+      "title": "Usain Bolt holds the current 100-meter world record with a time of 9.",
+      "urls": [
+        "https://www.washingtonpost.com/sports/2026/04/26/athletics-milestones-marathon-record-two-hours/2f2bf2c0-419a-11f1-b19d-32431046b5b4_story.html",
+        "https://www.youtube.com/watch?v=mM2LvvWi9iQ"
+      ],
+      "date": "2026-05-10T06:33:54.694712+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T06:04:15.902515+00:00"
+  "lastUpdated": "2026-05-10T06:33:54.694772+00:00"
 }
