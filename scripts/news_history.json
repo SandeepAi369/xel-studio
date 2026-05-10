@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://planet.news/article/digital-privacy-social-media-regulations-global-wave",
-        "https://www.ohchr.org/en/press-releases/2026/04/un-experts-safeguard-human-freedoms-systematic-digital-interference",
-        "https://privacyperfect.com/global-trends-in-privacy-security-and-ai-regulations-in-2025",
-        "https://ec.europa.eu/commission/presscorner/home/en",
-        "https://www.amnesty.org/en/latest/campaigns/2026/04/eu-simplification-laws",
-        "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal",
-        "https://www.facebook.com/reel/1299584558762799",
-        "https://undercodenews.com/house-approves-3-year-renewal-of-section-702-surveillance-amid-digital-currency-oversight-debate",
-        "https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report",
-        "https://www.infosecurity-magazine.com/news"
-      ],
-      "date": "2026-04-30T11:32:12.699683+00:00"
-    },
-    {
       "title": "NASA's Oceans Melting Greenland (OMG) mission completed a six-year survey of Greenland's glaciers an",
       "urls": [
         "https://climate.nasa.gov/images-of-change?intent=131",
@@ -4233,7 +4217,15 @@
         "https://www.pharmavoice.com/news/ai-pharma-scientist-drug-research-owkin/818113"
       ],
       "date": "2026-05-10T11:04:18.410526+00:00"
+    },
+    {
+      "title": "Coventry City Promoted To Premier League After 2-1 Playoff Final Victory",
+      "urls": [
+        "https://sports.yahoo.com/articles/hurt-worth-reaction-170737339.html",
+        "https://www.bbc.com/sport/football/videos/c4g57xk140go"
+      ],
+      "date": "2026-05-10T11:34:02.304226+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T11:04:18.410587+00:00"
+  "lastUpdated": "2026-05-10T11:34:02.304285+00:00"
 }
