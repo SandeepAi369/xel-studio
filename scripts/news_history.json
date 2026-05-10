@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Launches Nemotron 3 Nano Omni For Unified Multimodal AI Processing",
-      "urls": [
-        "https://fazm.ai/blog/open-source-large-language-model-news-april-2026",
-        "https://glm5.net",
-        "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html?msockid=1471135541866fe93a05041e40306e21",
-        "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
-        "https://mistral.ai/news/mistral-3",
-        "https://developer.nvidia.com/blog/nvidia-nemotron-3-nano-omni-powers-multimodal-agent-reasoning-in-a-single-efficient-open-model"
-      ],
-      "date": "2026-04-30T20:07:48.890743+00:00"
-    },
-    {
-      "title": "Google Maps now integrates AI-powered accessibility features to guide wheelchair users with precisio",
-      "urls": [
-        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion",
-        "https://www.newamerica.org/insights/ai-tech-inclusion-disabilities-design"
-      ],
-      "date": "2026-04-30T20:36:16.408940+00:00"
-    },
-    {
       "title": "Rohingya Refugees Struggle in Overcrowded Cox’s Bazar Camps",
       "urls": [
         "https://hhi.harvard.edu/news/2025/09/humanitarian-crisis-rohingya-refugees-bangladesh-issues-their-living-and-host",
@@ -4249,7 +4229,14 @@
         "https://www.unhcr.org/us/global-trends"
       ],
       "date": "2026-05-10T20:05:12.384534+00:00"
+    },
+    {
+      "title": "Web3 Newswire Partners With Reuters For Global Crypto Distribution",
+      "urls": [
+        "https://web3newswire.com?srsltid=AfmBOoq-uh7T6XNX0gfUG_1U5xj1_F1CAHxaXdlAlJqzSDoameNfOkUX"
+      ],
+      "date": "2026-05-10T20:37:04.908227+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T20:05:12.384593+00:00"
+  "lastUpdated": "2026-05-10T20:37:04.908302+00:00"
 }
