@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization projects that nearly 2.",
-      "urls": [
-        "https://www.who.int/news/item/02-03-2021-who-1-in-4-people-projected-to-have-hearing-problems-by-2050"
-      ],
-      "date": "2026-04-30T13:10:46.779376+00:00"
-    },
-    {
-      "title": "Morocco will host the first GITEX Future Health Africa 2026 in Casablanca, marking a major expansion",
-      "urls": [
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
-        "https://openloophealth.com/blog/digital-health-trends-news-april-2026",
-        "https://www.healthcareitnews.com",
-        "https://www.techtarget.com/virtualhealthcare",
-        "https://www.newsbreak.com/news/4612454728609-charlie-nahabedian-s-vision-revolutionizing-accessible-healthcare-with-vk-digital-health-s-remote-clinics-and-telemedicine-innovations",
-        "https://www.sedco.co/en/news/morocco-hosts-first-gitex-future-health-africa-2026"
-      ],
-      "date": "2026-04-30T13:33:17.146441+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.5 With Advanced Agentic Capabilities",
       "urls": [
         "https://openai.com/research/index/release",
@@ -4225,7 +4206,15 @@
         "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-40"
       ],
       "date": "2026-05-10T13:05:18.509145+00:00"
+    },
+    {
+      "title": "One In Three Americans Use AI For Health Advice",
+      "urls": [
+        "https://www.youtube.com/shorts/lZJ96HRrAJg",
+        "https://www.forbes.com/health/mind/ai-chatbots-health-advice-risks-lmandp5"
+      ],
+      "date": "2026-05-10T13:34:05.375841+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T13:05:18.509199+00:00"
+  "lastUpdated": "2026-05-10T13:34:05.375904+00:00"
 }
