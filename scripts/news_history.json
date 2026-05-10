@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amd Secures 60 Billion Deal To Supply Meta With 6 Gigawatts Of Mi450 Gpus",
-      "urls": [
-        "https://economictimes.indiatimes.com/news/international/us/why-nvidia-amd-intel-stocks-crash-today-magnificent-seven-fall-broadly-as-all-open-lower-except-apple-amid-ai-concerns-and-earnings-pressure/articleshow/130583922.cms",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/amd-s-next-generation-ai-chips-set-to-power-2026-data-center-growth",
-        "https://computing.net/news/stocks/nvidia-and-amd-ai-chip-battle-a-deep-dive-into-2025-revenue-and-data-center-performance",
-        "https://www.techi.com/amd-meta-60b-deal-nvidia-ai-monopoly",
-        "https://www.allaboutcircuits.com/news/ai-chip-race-heats-up-with-intel-nvidia-amds-ces-debuts",
-        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
-        "https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html"
-      ],
-      "date": "2026-04-30T07:34:24.965885+00:00"
-    },
-    {
       "title": "Greenland and West Antarctic ice sheets may have already passed critical tipping points due to curre",
       "urls": [
         "https://ysph.yale.edu/yale-center-on-climate-change-and-health/news-and-media",
@@ -4250,7 +4237,16 @@
         "https://www.youtube.com/watch?v=pjU6TzxBE58"
       ],
       "date": "2026-05-10T07:34:02.874391+00:00"
+    },
+    {
+      "title": "Alphabet Shares Surge 10% on Google Cloud 28% Revenue Growth",
+      "urls": [
+        "https://seekingalpha.com/news/4584471-ai-boom-lifts-big-tech-earnings-but-wall-street-is-picking-winners-and-losers",
+        "https://www.marketwatch.com/investing/stocks/tech-stocks",
+        "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-show-split-130007908.html"
+      ],
+      "date": "2026-05-10T08:04:29.137049+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T07:34:02.874450+00:00"
+  "lastUpdated": "2026-05-10T08:04:29.137114+00:00"
 }
