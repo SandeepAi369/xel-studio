@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "The War Department launched GenAI.",
-      "urls": [
-        "https://opentools.ai/news",
-        "https://blog.google/innovation-and-ai/products/google-ai-updates-august-2025",
-        "https://www.war.gov/News/Releases/Release/Article/4354916/the-war-department-unleashes-ai-on-new-genaimil-platform",
-        "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more"
-      ],
-      "date": "2026-04-30T17:05:52.626944+00:00"
-    },
-    {
-      "title": "World Relief Aids 5000 Refugees Across 12 Countries",
-      "urls": [
-        "https://worldrelief.org/what-is-a-refugee"
-      ],
-      "date": "2026-04-30T17:34:32.286307+00:00"
-    },
-    {
       "title": "Nancy Guthrie disappeared from her Tucson home under suspicious circumstances, prompting a formal in",
       "urls": [
         "https://www.timesnownews.com/world/us/us-news/latest-news-on-nancy-guthrie-today-update-kidnapping-case-savannah-guthrie-fbi-article-154176306",
@@ -4220,7 +4203,14 @@
         "https://www.youtube.com/watch?v=B-1id8iMZ8Y"
       ],
       "date": "2026-05-10T17:05:16.996735+00:00"
+    },
+    {
+      "title": "JPMorgan Forecasts Nuclear Power Expansion by 2030",
+      "urls": [
+        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news"
+      ],
+      "date": "2026-05-10T17:35:07.675769+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T17:05:16.996789+00:00"
+  "lastUpdated": "2026-05-10T17:35:07.675829+00:00"
 }
