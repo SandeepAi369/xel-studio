@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Walgreens provides wheelchairs and mobility aids through its medical equipment division, requiring a",
-      "urls": [
-        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3"
-      ],
-      "date": "2026-04-30T02:09:48.429273+00:00"
-    },
-    {
-      "title": "Bangladesh reports over 12,000 new dengue cases in a single week, marking the highest weekly surge t",
-      "urls": [
-        "https://7news.com.au/news/world",
-        "https://7news.com.au/entertainment/royal-family",
-        "https://www.hindustantimes.com/latest-news",
-        "https://news24online.com/india/live-updates-breaking-news-today-april-27-modi-india-assembly-elections-2026-west-bengal-tamil-nadu-trump-us-iran-war-delhi-ncr-heatwave-raghav-chadha-bjp-aap-kejriwal-latest-news/818252",
-        "https://news24online.com/india/live-updates-breaking-news-today-april-28-modi-india-assembly-elections-2026-west-bengal-tamil-nadu-trump-us-iran-war-delhi-ncr-heatwave-raghav-chadha-bjp-aap-kejriwal-latest-news/819482",
-        "https://www.cbsnews.com/pittsburgh/local-news"
-      ],
-      "date": "2026-04-30T02:32:08.740446+00:00"
-    },
-    {
       "title": "Excel Esports Hosts All-Star Battle Featuring Five Major Titles",
       "urls": [
         "https://www.espn.com/watch/player/_/id/0192f75d-4cfc-4427-a5c6-c693ce88d9db"
@@ -4261,7 +4242,14 @@
         "https://insightbulletin.co.uk/sports-technology-labs"
       ],
       "date": "2026-05-10T02:04:12.263577+00:00"
+    },
+    {
+      "title": "AI models show potential to reduce missed diagnoses in healthcare, with a new study indicating they ",
+      "urls": [
+        "https://www.sciencenews.org/article/ai-help-doctors-help-diagnoses"
+      ],
+      "date": "2026-05-10T02:33:00.736912+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T02:04:12.263628+00:00"
+  "lastUpdated": "2026-05-10T02:33:00.736974+00:00"
 }
