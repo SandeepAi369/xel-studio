@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization has released updated guidelines for the treatment of opioid dependence, em",
-      "urls": [
-        "https://www.who.int/news/item/09-02-2025-who-updates-guidelines-on-opioid-dependence-treatment-and-overdose-prevention"
-      ],
-      "date": "2026-04-30T04:04:19.857868+00:00"
-    },
-    {
       "title": "BBC News Delivers 24/7 Global Coverage From Three Major Hubs",
       "urls": [
         "https://www.bbc.com/watch-live-news",
@@ -4251,7 +4244,14 @@
         "https://www.facebook.com/TheAdvocate/posts/the-company-confirmed-the-billionaires-departure-as-the-tech-companys-leader-in-/1425545356275962"
       ],
       "date": "2026-05-10T03:37:06.015053+00:00"
+    },
+    {
+      "title": "OpenAI has launched GPT-5.",
+      "urls": [
+        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
+      ],
+      "date": "2026-05-10T04:05:08.909450+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T03:37:06.015155+00:00"
+  "lastUpdated": "2026-05-10T04:05:08.909517+00:00"
 }
