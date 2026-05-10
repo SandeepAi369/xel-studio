@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Monarch Quantum Unveils Compact Light Engine for Scalable Quantum Computing",
-      "urls": [
-        "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/pages/video-lectures/part-1",
-        "https://www.merriam-webster.com/dictionary/quantum",
-        "https://monarchquantum.com"
-      ],
-      "date": "2026-04-30T09:06:48.304707+00:00"
-    },
-    {
-      "title": "Warp Open Sources Client To Boost AI Agent Development",
-      "urls": [
-        "https://alternativeto.net/news/2026/4/warp-goes-open-source-for-easier-agentic-development-and-introduces-broader-model-support",
-        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
-      ],
-      "date": "2026-04-30T09:31:05.378434+00:00"
-    },
-    {
       "title": "DeepSeek has released a preview of its V4 large language model, marking a significant advancement in",
       "urls": [
         "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html?msockid=2284a40eddcd66791551b345dc9867df"
@@ -4247,7 +4230,15 @@
         "https://sports.yahoo.com/soccer"
       ],
       "date": "2026-05-10T09:04:11.317105+00:00"
+    },
+    {
+      "title": "Artificial intelligence is transforming accessibility by enabling new tools that help people with di",
+      "urls": [
+        "https://news.un.org/en/story/2025/10/1166082",
+        "https://premierscience.com/pjai-24-710"
+      ],
+      "date": "2026-05-10T09:35:03.124795+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T09:04:11.317176+00:00"
+  "lastUpdated": "2026-05-10T09:35:03.124847+00:00"
 }
