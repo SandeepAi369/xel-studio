@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Conservative Coverage To Millions Through Flagship Programs",
-      "urls": [
-        "https://www.foxnews.com?msockid=25a120116d386ada193f375a6c676ba7"
-      ],
-      "date": "2026-04-30T05:03:21.458881+00:00"
-    },
-    {
       "title": "U.S. Hockey Team Stuns Soviet Union In 1980 Winter Olympics Upset",
       "urls": [
         "https://parade.com/1062315/meganoneill/great-moments-in-sports-history",
@@ -4250,7 +4243,15 @@
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoouhgqvPfdcWkHlymrh_IMe2MHrbOsVBCSuWRLXyI8DpQkO0BVB"
       ],
       "date": "2026-05-10T04:34:02.506048+00:00"
+    },
+    {
+      "title": "Open Source Communities Accelerate AI Innovation With 65% Surge In Contributions",
+      "urls": [
+        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
+        "https://www.techuk.org/resource/how-ai-is-increasing-its-capabilities-with-open-source-foundation-models.html"
+      ],
+      "date": "2026-05-10T05:04:09.124009+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T04:34:02.506139+00:00"
+  "lastUpdated": "2026-05-10T05:04:09.124062+00:00"
 }
