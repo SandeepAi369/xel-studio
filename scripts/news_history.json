@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Hockey Team Stuns Soviet Union In 1980 Winter Olympics Upset",
-      "urls": [
-        "https://parade.com/1062315/meganoneill/great-moments-in-sports-history",
-        "https://www.sportingnews.com/us/tsn/news/sporting-news-140-greatest-sports-moments/34766fecd31d636b303ca1d2",
-        "https://www.newsbreak.com/trending/top/historic-sports-wins-news",
-        "https://sportssplendor.com/top-10-most-iconic-sports-moments-in-history"
-      ],
-      "date": "2026-04-30T05:32:12.492575+00:00"
-    },
-    {
       "title": "Qwen3.",
       "urls": [
         "https://www.facebook.com/reel/1670516200947117",
@@ -4251,7 +4241,14 @@
         "https://www.techuk.org/resource/how-ai-is-increasing-its-capabilities-with-open-source-foundation-models.html"
       ],
       "date": "2026-05-10T05:04:09.124009+00:00"
+    },
+    {
+      "title": "Neurodiverse Workers Report 25 Percent Higher Job Satisfaction With AI Assistants",
+      "urls": [
+        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html"
+      ],
+      "date": "2026-05-10T05:33:02.887784+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T05:04:09.124062+00:00"
+  "lastUpdated": "2026-05-10T05:33:02.887852+00:00"
 }
