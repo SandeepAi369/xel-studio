@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Kids Launches Enhanced Parental Controls and Curated Content Filters",
-      "urls": [
-        "https://www.youtube.com",
-        "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US",
-        "https://apps.apple.com/us/app/youtube/id544007664",
-        "https://blog.youtube",
-        "https://en.wikipedia.org/wiki/YouTube",
-        "https://www.youtubekids.com",
-        "https://www.youtube.com/google​",
-        "https://support.google.com/youtube?hl=en",
-        "https://www.amazon.com/Google-LLC-YouTube/dp/B07T771SPH",
-        "https://www.instagram.com/youtube"
-      ],
-      "date": "2026-04-30T01:31:02.031354+00:00"
-    },
-    {
       "title": "Walgreens provides wheelchairs and mobility aids through its medical equipment division, requiring a",
       "urls": [
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3"
@@ -4262,7 +4246,14 @@
         "https://www.youtube.com/watch?v=ZEOp3q-QpxI"
       ],
       "date": "2026-05-10T01:04:17.084906+00:00"
+    },
+    {
+      "title": "European Union Announces 2026 Sustainable Energy Award Finalists",
+      "urls": [
+        "https://www.innovationnewsnetwork.com/renewable-energy"
+      ],
+      "date": "2026-05-10T01:32:59.264357+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T01:04:17.084970+00:00"
+  "lastUpdated": "2026-05-10T01:32:59.264447+00:00"
 }
