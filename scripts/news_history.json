@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Org Fixes Pop Os Taskbar Icon Bug",
-      "urls": [
-        "https://www.linux.org/threads/showing-applications-on-taskbar.49899"
-      ],
-      "date": "2026-04-30T23:38:52.717690+00:00"
-    },
-    {
       "title": "Hugging Face launched Trending Papers, a new platform to track academic research trends in artificia",
       "urls": [
         "https://www.zhihu.com/pin/1932380140672911155",
@@ -4230,7 +4223,15 @@
         "https://edition.cnn.com/2026/05/06/science/video/ai-cancer-medical-breakthrough-science-lead-jake-tapper"
       ],
       "date": "2026-05-10T23:38:06.449289+00:00"
+    },
+    {
+      "title": "Aalto University researchers have developed a quantum-inspired algorithm capable of solving complex ",
+      "urls": [
+        "https://scitechdaily.com/quantum-breakthrough-new-algorithm-solves-impossible-materials-in-seconds",
+        "https://www.sciencedaily.com/news/computers_math/quantum_computers"
+      ],
+      "date": "2026-05-11T00:04:31.345519+00:00"
     }
   ],
-  "lastUpdated": "2026-05-10T23:38:06.449369+00:00"
+  "lastUpdated": "2026-05-11T00:04:31.345576+00:00"
 }
