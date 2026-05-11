@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alphabet, Microsoft, Amazon, and Meta all reported quarterly earnings that exceeded profit expectati",
-      "urls": [
-        "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
-        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796",
-        "https://www.cnbc.com/earnings",
-        "https://www.businessinsider.com/big-tech-earnings-preview-key-numbers-alphabet-microsoft-amazon-meta-2026-4"
-      ],
-      "date": "2026-05-01T05:31:16.688713+00:00"
-    },
-    {
       "title": "Chinese AI Model DeepSeek-R1 Surpasses 10 Billion Global Downloads",
       "urls": [
         "https://completeaitraining.com/news/chinas-open-source-ai-models-surpass-10-billion-downloads",
@@ -4209,7 +4199,14 @@
         "https://web3newswire.com?srsltid=AfmBOoq212wuF-0L1ps7YbdkeivMAmK5tvqVhpXa6JFNhabv0gpmI-rD"
       ],
       "date": "2026-05-11T05:06:31.830643+00:00"
+    },
+    {
+      "title": "One Billion People With Disabilities Need Inclusive Technology Now",
+      "urls": [
+        "https://educatingalllearners.org/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities"
+      ],
+      "date": "2026-05-11T05:33:58.723813+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T05:06:31.830715+00:00"
+  "lastUpdated": "2026-05-11T05:33:58.723913+00:00"
 }
