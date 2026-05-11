@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Centimeters Divided by 30.48 Yield Feet in Global Conversions",
-      "urls": [
-        "https://www.thecalculatorsite.com/conversions/common/cm-to-feet-inches.php",
-        "https://www.unitconverters.net/length/cm-to-feet.htm",
-        "https://www.metric-conversions.org/length/centimeters-to-feet.htm",
-        "https://calculat.io/en/length/cm-to-feet",
-        "https://www.inchcalculator.com/convert/centimeter-to-foot"
-      ],
-      "date": "2026-05-01T03:32:01.109370+00:00"
-    },
-    {
       "title": "Anthropic Releases Limited Claude Mythos Preview With Bug Detection Capabilities",
       "urls": [
         "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html?msockid=062651fc0bb26cd3025a46b00a0d6dca",
@@ -4218,7 +4207,17 @@
         "https://www.aljazeera.com/tag/refugees"
       ],
       "date": "2026-05-11T03:05:24.422160+00:00"
+    },
+    {
+      "title": "SpaceX has completed final testing on Starship Booster 19 (B19), marking a critical milestone toward",
+      "urls": [
+        "https://www.youtube.com/watch?v=41_eenR3-N4",
+        "https://www.youtube.com/watch?v=rlt2NI17V8M",
+        "https://www.spacex.com/launches",
+        "https://www.youtube.com/watch?v=grOBjeWEBaM"
+      ],
+      "date": "2026-05-11T03:33:03.443298+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T03:05:24.422220+00:00"
+  "lastUpdated": "2026-05-11T03:33:03.443360+00:00"
 }
