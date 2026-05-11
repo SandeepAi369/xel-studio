@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Breaks Marathon World Record With 1:59:50 Run In London",
-      "urls": [
-        "https://www.bing.com/news?setlang=en",
-        "https://firefox-startpage.aol.com",
-        "https://www.newsnow.co.uk/h/Sport/Sports+News",
-        "https://www.newsday.com/sports/olympics/kenya-marathon-sebastian-sawe-return-london-record-h62611",
-        "https://www.guinnessworldrecords.com/news/sports-and-fitness"
-      ],
-      "date": "2026-05-01T04:31:04.296390+00:00"
-    },
-    {
       "title": "Open Library Catalogs Over 20 Million Books for Global Access",
       "urls": [
         "https://www.zhihu.com/question/605826797"
@@ -4213,7 +4202,14 @@
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
       ],
       "date": "2026-05-11T04:05:28.595550+00:00"
+    },
+    {
+      "title": "Alysa Liu returned from a three-year retirement at age 19 to compete in the 2026 Milan Cortina Olymp",
+      "urls": [
+        "https://www.kcra.com/article/alysa-liu-milan-cortina-gold-medal-win-interview/70434992"
+      ],
+      "date": "2026-05-11T04:34:18.540632+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T04:05:28.595615+00:00"
+  "lastUpdated": "2026-05-11T04:34:18.540708+00:00"
 }
