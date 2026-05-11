@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital mental health tools are transforming access to care through smartphone apps, AI-powered chat",
-      "urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12185383",
-        "https://www.apa.org/practice/digital-therapeutics-mobile-health",
-        "https://www.wokelo.ai/blog/how-technology-is-making-mental-health-care-accessible",
-        "https://yourhealthmagazine.net/article/mental-health/how-wellness-entrepreneurs-are-using-technology-to-drive-mental-health-awareness",
-        "https://www.smartherapypc.com/post/how-technology-is-revolutionizing-mental-health-care",
-        "https://finance.yahoo.com/news/rapid-expansion-mental-wellness-apps-155800872.html",
-        "https://www.drugtopics.com/view/swipe-right-on-wellness-the-rise-of-digital-therapeutics-in-mental-health",
-        "https://www.youtube.com/watch?v=vKWheY3GsBQ",
-        "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age",
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment"
-      ],
-      "date": "2026-05-01T19:04:37.830458+00:00"
-    },
-    {
       "title": "OpenAI Raises $10 Billion To Expand AI Model Development",
       "urls": [
         "https://www.startuphub.ai/recent-funding-rounds",
@@ -4255,7 +4239,14 @@
         "https://www.opensourceforu.com"
       ],
       "date": "2026-05-11T19:04:23.859848+00:00"
+    },
+    {
+      "title": "MIT Researchers Develop New AI Training Method To Improve Uncertainty Calibration",
+      "urls": [
+        "https://news.mit.edu/topic/artificial-intelligence2"
+      ],
+      "date": "2026-05-11T19:36:16.502939+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T19:04:23.859908+00:00"
+  "lastUpdated": "2026-05-11T19:36:16.503007+00:00"
 }
