@@ -1,37 +1,6 @@
 {
   "entries": [
     {
-      "title": "ChatGPT Powers Over 400 Generative AI Tools For Creators And Enterprises",
-      "urls": [
-        "https://www.youtube.com/watch?v=dqTpi-FzbmI",
-        "https://www.producthunt.com/products/saas-ai-tools",
-        "https://labs.lamatic.ai/p/genai-tools",
-        "https://www.techdogs.com/td-articles/product-mine/top-generative-ai-tools",
-        "https://aimagazine.com/news/top-10-generative-ai-tools",
-        "https://www.edureka.co/blog/top-generative-ai-tools",
-        "https://bootcamp.cpe.vt.edu/blog/best-generative-ai-tools",
-        "https://ryantronier.com/resources/generative-ai-tools",
-        "https://ai.google/products",
-        "https://www.techradar.com/best/best-ai-tools"
-      ],
-      "date": "2026-05-01T22:06:17.202902+00:00"
-    },
-    {
-      "title": "Stanford Researchers Deploy 60-Foot Tool To Boost Utah Geothermal Energy Output",
-      "urls": [
-        "https://insideclimatenews.org/category/clean-energy",
-        "https://evergreeninno.org/explore",
-        "https://climatechangeresources.org/learn-more/new-technologies",
-        "https://sustainability.stanford.edu/news/energy-innovation-power-hungry-world",
-        "https://climatetechdigital.com/climate-technology",
-        "https://www.cnbc.com/clean-tech",
-        "https://www.cleanegroup.org/press-releases",
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://cleantechnica.com"
-      ],
-      "date": "2026-05-01T22:37:07.745713+00:00"
-    },
-    {
       "title": "DeepSeek-V4 has emerged as a leading open-source large language model in 2026, designed for high-eff",
       "urls": [
         "https://www.youtube.com/watch?v=x9e4D-t_Dfo",
@@ -4221,7 +4190,15 @@
         "https://www.kolotv.com/2026/05/10/403-quake-rattles-20-miles-north-yerington-according-nevada-seismological-laboratory"
       ],
       "date": "2026-05-11T21:39:31.829308+00:00"
+    },
+    {
+      "title": "Open Source Initiative hosted a panel discussion on the challenges of integrating AI into openly-dev",
+      "urls": [
+        "https://opensource.org/ai/webinars/challenges-welcoming-ai-in-openly-developed-open-source-projects",
+        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
+      ],
+      "date": "2026-05-11T23:04:15.540733+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T21:39:31.829385+00:00"
+  "lastUpdated": "2026-05-11T23:04:15.540811+00:00"
 }
