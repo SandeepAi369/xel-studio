@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chinese LLMs account for 41% of all large language model downloads on Hugging Face, the leading open",
-      "urls": [
-        "https://completeaitraining.com/news/chinese-open-source-llms-account-for-41-of-hugging-face",
-        "https://github.com/QwenLM/Qwen3.6"
-      ],
-      "date": "2026-05-01T11:07:40.181229+00:00"
-    },
-    {
       "title": "Telemedicine Adoption Soars With 60 Percent Of U.S. Hospitals Offering Virtual Care Platforms",
       "urls": [
         "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0413",
@@ -4251,7 +4243,17 @@
         "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
       ],
       "date": "2026-05-11T11:06:30.350788+00:00"
+    },
+    {
+      "title": "Anthropic claims its latest Claude AI models achieved perfect scores on advanced agentic misalignmen",
+      "urls": [
+        "https://www.mexc.co/en-IN/news/1079838",
+        "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+        "https://www.cnet.com/tech/services-and-software/anthropic-project-glasswing-claude-mythos-preview",
+        "https://www.axios.com/2025/05/23/anthropic-ai-deception-risk"
+      ],
+      "date": "2026-05-11T11:40:19.979233+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T11:06:30.350842+00:00"
+  "lastUpdated": "2026-05-11T11:40:19.979295+00:00"
 }
