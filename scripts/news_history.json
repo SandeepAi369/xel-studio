@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wearable Sensors Used By 78 Percent Of U.S. Pro Teams",
-      "urls": [
-        "https://harvardsciencereview.org/2025/09/13/success-stories-predictive-analytics-transforming-sports-performance",
-        "https://www.accio.com/business/sports_analytics_trends",
-        "https://www.sportsbusinessjournal.com/Technology",
-        "https://tech.sportbusiness.com",
-        "https://uktechnews.co.uk/2025/01/21/key-sports-technology-innovations-shaping-2025",
-        "https://www.catapult.com/blog/trends-in-sports",
-        "https://www.sciencedirect.com/science/article/pii/S3050544525000180",
-        "https://www.marketsandmarkets.com/ResearchInsight/US-sports-technology-market.asp",
-        "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
-      ],
-      "date": "2026-05-01T01:05:37.354965+00:00"
-    },
-    {
-      "title": "Nvidia surpassed a $5 trillion market valuation as demand for AI chips surged, driven by strong perf",
-      "urls": [
-        "https://www.benzinga.com/markets/tech/26/04/52050283/nvidia-tops-5-trillion-market-cap-as-ai-boom-lifts-intel-amd-and-chip-stocks-own-it-dont-trade-it-says-jim-cramer",
-        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html?msockid=004ce83303e16a3b3fcbff7f02116b30",
-        "https://hqickey.com/blogs/news/2026-global-ai-semiconductor-industry-latest-news-roundup-nvidia-samsung-tsmc-and-other-giants-latest-moves-fully-analyzed"
-      ],
-      "date": "2026-05-01T01:31:07.394055+00:00"
-    },
-    {
       "title": "GitHub Hosts 100000 New AI Repositories Monthly Driving Agent Innovation",
       "urls": [
         "https://techcrunch.com/tag/open-source-ai",
@@ -4232,7 +4208,17 @@
         "https://www.youtube.com/watch?v=eSZjeHyzp68&vl=en"
       ],
       "date": "2026-05-11T01:03:24.473887+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Generate 20 Percent Of US Electricity",
+      "urls": [
+        "https://grist.org/article/electrifying-news-solar-and-wind-power-has-quintupled-in-a-decade",
+        "https://ga-institute.com/Sustainability-Update/good-news-solar-wind-emerge-in-global-search-for-renewable-energy-sources",
+        "https://www.utilitydive.com/news/wind-solar-hydro-biogas-climate-ameresco/630588",
+        "https://www.nytimes.com/interactive/2025/03/20/climate/clean-energy-solar-wind-sites-space.html"
+      ],
+      "date": "2026-05-11T01:34:01.544648+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T01:03:24.473937+00:00"
+  "lastUpdated": "2026-05-11T01:34:01.544724+00:00"
 }
