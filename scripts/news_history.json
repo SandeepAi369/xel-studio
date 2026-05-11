@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Reports 80% Enterprise Adoption in Fortune 500 Infrastructure",
-      "urls": [
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSkwyMHZNR1p3ZW5wd0VnVmxiaTFWVXlnQVAB"
-      ],
-      "date": "2026-05-01T15:06:30.910117+00:00"
-    },
-    {
       "title": "Extreme Reunites for Tour Celebrating 35th Anniversary of More Than Words",
       "urls": [
         "https://en.wikipedia.org/wiki/Extreme_(band)",
@@ -4262,7 +4255,15 @@
         "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the"
       ],
       "date": "2026-05-11T14:39:29.694592+00:00"
+    },
+    {
+      "title": "Daniel Kraft discusses the integration of AI in clinical workflows, emphasizing its role in predicti",
+      "urls": [
+        "https://www.mobihealthnews.com/tag/healthcare-innovation",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9601636"
+      ],
+      "date": "2026-05-11T15:10:30.247395+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T14:39:29.694649+00:00"
+  "lastUpdated": "2026-05-11T15:10:30.247463+00:00"
 }
