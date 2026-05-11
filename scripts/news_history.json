@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Reunites for Tour Celebrating 35th Anniversary of More Than Words",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Extreme_(band)",
-        "https://www.facebook.com/extremeband",
-        "https://www.livenation.com/artist/K8vZ9171Caf/extreme-events"
-      ],
-      "date": "2026-05-01T15:32:10.797547+00:00"
-    },
-    {
-      "title": "Mistral AI has unveiled Mistral Next, a new open-source multimodal AI model designed to compete with",
-      "urls": [
-        "https://www.linkedin.com/pulse/mistral-next-open-source-multimodal-ai-rivals-giants-greybrain-oplsc"
-      ],
-      "date": "2026-05-01T16:01:14.600523+00:00"
-    },
-    {
       "title": "Google News aggregates headlines from thousands of publishers globally, offering users real-time acc",
       "urls": [
         "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB"
@@ -4263,7 +4247,15 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC9601636"
       ],
       "date": "2026-05-11T15:10:30.247395+00:00"
+    },
+    {
+      "title": "Republicans are gaining a strategic edge in the U.",
+      "urls": [
+        "https://abcnews.com/politics",
+        "https://www.youtube.com/watch?v=4uTpfFfpAa8"
+      ],
+      "date": "2026-05-11T16:05:33.651642+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T15:10:30.247463+00:00"
+  "lastUpdated": "2026-05-11T16:05:33.651704+00:00"
 }
