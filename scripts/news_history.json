@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers developed a new AI training method that improves how accurately models estimate thei",
-      "urls": [
-        "https://news.mit.edu/topic/artificial-intelligence2"
-      ],
-      "date": "2026-05-01T13:06:45.957351+00:00"
-    },
-    {
-      "title": "Mistral AI has released Mistral-Large, a flagship language model with strong performance in multilin",
-      "urls": [
-        "https://www.zhihu.com/question/646034422",
-        "https://www.zhihu.com/question/1979468317455586837",
-        "https://www.zhihu.com/question/14580770188",
-        "https://www.zhihu.com/question/645997182",
-        "https://www.zhihu.com/question/649929393"
-      ],
-      "date": "2026-05-01T13:33:22.703823+00:00"
-    },
-    {
       "title": "Linux Foundation Reports 80% Enterprise Adoption in Fortune 500 Infrastructure",
       "urls": [
         "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSkwyMHZNR1p3ZW5wd0VnVmxiaTFWVXlnQVAB"
@@ -4256,7 +4238,14 @@
         "https://www.youtube.com/watch?v=2tgYdYQvy_4"
       ],
       "date": "2026-05-11T13:04:30.785723+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Deep Research And Deep Research Max Agents",
+      "urls": [
+        "https://www.edtechinnovationhub.com/news/googles-new-ai-agent-will-run-160-searches-while-you-sleep-and-hand-you-the-report-by-morning"
+      ],
+      "date": "2026-05-11T13:35:15.270888+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T13:04:30.785779+00:00"
+  "lastUpdated": "2026-05-11T13:35:15.270961+00:00"
 }
