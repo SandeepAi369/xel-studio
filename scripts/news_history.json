@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI Models are now being developed to operate across devices and support multiple languages, enabling",
-      "urls": [
-        "https://www.digitimes.com/news/a20251211PD208/mistral-ai-startup-software-language.html",
-        "https://yourstory.com/ai-story/mistral-open-source-speech-ai-model",
-        "https://www.ibm.com/think/topics/mistral-ai",
-        "https://www.youtube.com/watch?v=o1tN_F2Lhwo",
-        "https://mistral.ai/en",
-        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1pj8kb6/mistral_ai_drops_3x_as_many_llms_in_a_single_week",
-        "https://www.cnet.com/tech/services-and-software/these-new-ai-models-are-built-to-work-anywhere-in-many-languages"
-      ],
-      "date": "2026-05-01T18:32:03.874378+00:00"
-    },
-    {
       "title": "Digital mental health tools are transforming access to care through smartphone apps, AI-powered chat",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12185383",
@@ -4253,7 +4239,16 @@
         "https://www.reddit.com/r/MachineLearning/comments/1h7185x/n_hugging_face_ceo_has_concerns_about_chinese"
       ],
       "date": "2026-05-11T18:06:32.856303+00:00"
+    },
+    {
+      "title": "WeWALK smart cane provides navigation assistance for visually impaired users by wirelessly connectin",
+      "urls": [
+        "https://wchstv.com/news/local/technology-conference-showcases-latest-technology-to-help-vision-impaired",
+        "https://engineering.nyu.edu/news/pshs-student-invents-device-visually-impaired",
+        "https://lighthouseguild.org/fantastic-new-tech-for-people-with-low-vision-or-blindness"
+      ],
+      "date": "2026-05-11T18:34:20.317934+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T18:06:32.856369+00:00"
+  "lastUpdated": "2026-05-11T18:34:20.317990+00:00"
 }
