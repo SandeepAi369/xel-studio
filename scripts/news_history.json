@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Releases Limited Claude Mythos Preview With Bug Detection Capabilities",
-      "urls": [
-        "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html?msockid=062651fc0bb26cd3025a46b00a0d6dca",
-        "https://www.theguardian.com/technology/2026/apr/08/anthropic-ai-cybersecurity-software",
-        "https://www.bbc.com/news/articles/crk1py1jgzko",
-        "https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox",
-        "https://www.nbcnews.com/tech/security/anthropic-project-glasswing-mythos-preview-claude-gets-limited-release-rcna267234"
-      ],
-      "date": "2026-05-01T04:04:24.352282+00:00"
-    },
-    {
       "title": "Sebastian Sawe Breaks Marathon World Record With 1:59:50 Run In London",
       "urls": [
         "https://www.bing.com/news?setlang=en",
@@ -4217,7 +4206,14 @@
         "https://www.youtube.com/watch?v=grOBjeWEBaM"
       ],
       "date": "2026-05-11T03:33:03.443298+00:00"
+    },
+    {
+      "title": "Xai Raises Two Billion Dollars In Record Funding Round",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+      ],
+      "date": "2026-05-11T04:05:28.595550+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T03:33:03.443360+00:00"
+  "lastUpdated": "2026-05-11T04:05:28.595615+00:00"
 }
