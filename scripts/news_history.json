@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face launched Trending Papers, a new platform to track academic research trends in artificia",
-      "urls": [
-        "https://www.zhihu.com/pin/1932380140672911155",
-        "https://www.zhihu.com/pin/1916852534619926744",
-        "https://www.zhihu.com/question/622573730"
-      ],
-      "date": "2026-05-01T00:05:39.125229+00:00"
-    },
-    {
-      "title": "The Guardian Exposes 40 Percent Rise in EU Border Rejections",
-      "urls": [
-        "https://www.theguardian.com/world/refugees"
-      ],
-      "date": "2026-05-01T00:34:12.352028+00:00"
-    },
-    {
       "title": "Wearable Sensors Used By 78 Percent Of U.S. Pro Teams",
       "urls": [
         "https://harvardsciencereview.org/2025/09/13/success-stories-predictive-analytics-transforming-sports-performance",
@@ -4231,7 +4215,14 @@
         "https://www.sciencedaily.com/news/computers_math/quantum_computers"
       ],
       "date": "2026-05-11T00:04:31.345519+00:00"
+    },
+    {
+      "title": "Premier League Records 25 Humiliating Defeats In 2025 26 Season",
+      "urls": [
+        "https://www.youtube.com/watch?v=ieTYap6ZiRw"
+      ],
+      "date": "2026-05-11T00:36:07.266245+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T00:04:31.345576+00:00"
+  "lastUpdated": "2026-05-11T00:36:07.266309+00:00"
 }
