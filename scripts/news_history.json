@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration offers online access to key services, allowing users to apply for ret",
-      "urls": [
-        "https://secure.ssa.gov/ossnap/public/landingOSsnap"
-      ],
-      "date": "2026-05-01T17:05:38.784614+00:00"
-    },
-    {
       "title": "Autistic Translator is an AI tool designed to help autistic individuals navigate social situations b",
       "urls": [
         "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
@@ -4262,7 +4255,14 @@
         "https://www.youtube.com/watch?v=YTRh3KCylL4"
       ],
       "date": "2026-05-11T17:05:26.058341+00:00"
+    },
+    {
+      "title": "Sunwook Kim Leads Virginia Tech Cobot Project For Autistic Workers",
+      "urls": [
+        "https://news.vt.edu/articles/2025/11/eng-ise-smarter-robots.html"
+      ],
+      "date": "2026-05-11T17:34:24.471656+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T17:05:26.058408+00:00"
+  "lastUpdated": "2026-05-11T17:34:24.471712+00:00"
 }
