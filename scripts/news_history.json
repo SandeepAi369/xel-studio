@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepSeek-V4 has emerged as a leading open-source large language model in 2026, designed for high-eff",
-      "urls": [
-        "https://www.youtube.com/watch?v=x9e4D-t_Dfo",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1pragtf/open_source_llm_tooling_is_getting_eaten_by_big",
-        "https://explodingtopics.com/blog/list-of-llms",
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
-        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026",
-        "https://openai.com/open-models",
-        "https://onyx.app/open-llm-leaderboard",
-        "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai"
-      ],
-      "date": "2026-05-01T23:04:15.805709+00:00"
-    },
-    {
-      "title": "DeepWell Digital Therapeutics is developing video games designed to treat mental health conditions, ",
-      "urls": [
-        "https://annabelleschneider.com/New-Technology-Mental-Health-Wellbeing",
-        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
-        "https://userway.org/blog/technology-and-mental-health",
-        "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1560580/full",
-        "https://news.vt.edu/articles/2024/10/sa-wellness-digital-well-being-challenges.html",
-        "https://vitalsmagazine.dartmouth.edu/articles/can-digital-therapeutics-apps-solve-the-mental-health-crisis",
-        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
-        "https://www.youtube.com/watch?v=Pqk8iHpR5x4"
-      ],
-      "date": "2026-05-01T23:34:05.511930+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.5 With Advanced Reasoning And AWS Integration",
       "urls": [
         "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -4198,7 +4170,15 @@
         "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
       ],
       "date": "2026-05-11T23:04:15.540733+00:00"
+    },
+    {
+      "title": "Big Tech Earnings To Shape Nasdaq's Near-Term Trajectory",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/80-seconds-big-tech-earnings-090007149.html",
+        "https://www.investopedia.com/tech-stocks-are-on-fire-can-they-get-any-hotter-magnificent-seven-earnings-ai-11970657"
+      ],
+      "date": "2026-05-11T23:35:13.629914+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T23:04:15.540811+00:00"
+  "lastUpdated": "2026-05-11T23:35:13.629979+00:00"
 }
