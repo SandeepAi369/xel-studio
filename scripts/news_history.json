@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "GitHub Hosts 100000 New AI Repositories Monthly Driving Agent Innovation",
-      "urls": [
-        "https://techcrunch.com/tag/open-source-ai",
-        "https://github.blog/open-source/maintainers/from-mcp-to-multi-agents-the-top-10-open-source-ai-projects-on-github-right-now-and-why-they-matter"
-      ],
-      "date": "2026-05-01T02:04:27.117153+00:00"
-    },
-    {
       "title": "Hltv Org Ranks Cs Go Major Championships As Top Tournaments",
       "urls": [
         "https://www.hltv.org"
@@ -4231,7 +4223,14 @@
         "https://fritz.ai/best-deep-learning-frameworks"
       ],
       "date": "2026-05-11T02:04:13.634804+00:00"
+    },
+    {
+      "title": "IMF Warns U.S. Tariff Shifts Reshape Global Trade Flows",
+      "urls": [
+        "https://www.youtube.com/watch?v=nk3uzZUbu4I"
+      ],
+      "date": "2026-05-11T02:34:15.836636+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T02:04:13.634869+00:00"
+  "lastUpdated": "2026-05-11T02:34:15.836721+00:00"
 }
