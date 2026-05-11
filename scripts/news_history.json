@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cindy Ngamba Wins Historic Bronze For Refugee Olympic Team",
-      "urls": [
-        "https://www.nation.com.pk/30-Dec-2025/olympic-gold-medallist-arshad-nadeem-honoured-global-breakthrough-athlete-award",
-        "https://swimswam.com/norways-johannes-hosflot-klaebo-joins-phelps-as-only-athletes-with-10-olympic-gold-medals",
-        "https://www.olympics.com/en/athletes/nadia-comaneci",
-        "https://www.asiaone.com/world/tennis-djokovic-hails-olympic-gold-medal-greatest-sporting-achievement",
-        "https://www.olympics.com/en/olympic-games/tokyo-2020",
-        "https://apnews.com/article/olympics-2024-refugee-team-cindy-ngamba-ec1ef2dc1b288597c7a007f6b946db1e",
-        "https://www.nbcolympics.com/news/olympic-track-and-field-paris-2024-biggest-stories-replays-medal-results-top-athletes-new"
-      ],
-      "date": "2026-05-01T12:36:26.527776+00:00"
-    },
-    {
       "title": "MIT Researchers developed a new AI training method that improves how accurately models estimate thei",
       "urls": [
         "https://news.mit.edu/topic/artificial-intelligence2"
@@ -4261,7 +4248,15 @@
         "https://dailybruin.com/2026/02/23/ucla-student-alysa-liu-wins-2-olympic-figure-skating-gold-medals"
       ],
       "date": "2026-05-11T12:36:09.928442+00:00"
+    },
+    {
+      "title": "Google has integrated new AI features directly into the Chrome web browser, enabling real-time page ",
+      "urls": [
+        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorZnwH9kpRx0mr17JotPLVBoSw0RYZTEwFb213RUTVGnOMZGWQV",
+        "https://www.youtube.com/watch?v=2tgYdYQvy_4"
+      ],
+      "date": "2026-05-11T13:04:30.785723+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T12:36:09.928499+00:00"
+  "lastUpdated": "2026-05-11T13:04:30.785779+00:00"
 }
