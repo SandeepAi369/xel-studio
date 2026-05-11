@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autistic Translator is an AI tool designed to help autistic individuals navigate social situations b",
-      "urls": [
-        "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
-        "https://www.youtube.com/watch?v=in2P1x1yFx4",
-        "https://www.eschoolnews.com/innovative-teaching/2025/05/23/empowering-neurodiverse-learners-with-ai-driven-solutions",
-        "https://www.weforum.org/stories/2023/04/how-cognitive-diversity-and-disability-centred-ai-can-improve-social-inclusion",
-        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech",
-        "https://www.nature.com/articles/s41746-024-01355-7",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817661",
-        "https://www.news-medical.net/news/20260120/New-AI-learning-tool-bridges-communication-gaps-between-autistic-and-neurotypical-people.aspx",
-        "https://www.washingtonpost.com/technology/2025/04/27/ai-autism-autistic-translator",
-        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths"
-      ],
-      "date": "2026-05-01T17:35:27.390554+00:00"
-    },
-    {
       "title": "AI Models are now being developed to operate across devices and support multiple languages, enabling",
       "urls": [
         "https://www.digitimes.com/news/a20251211PD208/mistral-ai-startup-software-language.html",
@@ -4262,7 +4246,14 @@
         "https://news.vt.edu/articles/2025/11/eng-ise-smarter-robots.html"
       ],
       "date": "2026-05-11T17:34:24.471656+00:00"
+    },
+    {
+      "title": "Hugging Face CEO has expressed concerns about the rising dominance of Chinese developers in the open",
+      "urls": [
+        "https://www.reddit.com/r/MachineLearning/comments/1h7185x/n_hugging_face_ceo_has_concerns_about_chinese"
+      ],
+      "date": "2026-05-11T18:06:32.856303+00:00"
     }
   ],
-  "lastUpdated": "2026-05-11T17:34:24.471712+00:00"
+  "lastUpdated": "2026-05-11T18:06:32.856369+00:00"
 }
