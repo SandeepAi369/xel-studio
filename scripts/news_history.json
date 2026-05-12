@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://www.csis.org/events/insights-us-china-technology-competition",
-        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
-        "https://www.researchgate.net/publication/391229778_Geopolitics_in_the_digital_age_the_US-China_competition_through_their_narratives_on_digital_technologies",
-        "https://www.youtube.com/watch?v=6AE3zdpQxH8",
-        "https://www.youtube.com/watch?v=RY4EMW6mM4E",
-        "https://www.ussc.edu.au/tech-wars-us-china-technology-competition-and-what-it-means-for-australia",
-        "https://www.politico.com/newsletters/forecast/2026/02/06/the-world-might-be-getting-the-us-china-tech-race-all-wrong-00769231",
-        "https://www.cfr.org/articles/cfr-task-force-outlines-economic-security-plan-lead-global-tech-competition-china",
-        "https://www.scmp.com/news/us/article/3345483/africa-emerges-new-arena-us-china-competition-over-artificial-intelligence"
-      ],
-      "date": "2026-05-02T03:03:21.943834+00:00"
-    },
-    {
       "title": "Asger became the first child to trial a new powered exoskeleton, enabling him to walk to school usin",
       "urls": [
         "https://www.rehabtool.com/news.html",
@@ -4155,7 +4140,16 @@
         "https://pub.towardsai.net/ai-framework-wars-why-pytorch-wins-70-of-research-tensorflow-rules-the-cloud-f89e289490c0"
       ],
       "date": "2026-05-12T02:38:17.045343+00:00"
+    },
+    {
+      "title": "Democracy Docket founder highlights a growing 'gerrymandering arms race' as state legislatures incre",
+      "urls": [
+        "https://www.democracynow.org",
+        "https://www.youtube.com/watch?v=PF1cZrQV1Js",
+        "https://www.youtube.com/watch?v=5j2FhL24rqE"
+      ],
+      "date": "2026-05-12T03:06:23.518568+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T02:38:17.045404+00:00"
+  "lastUpdated": "2026-05-12T03:06:23.518635+00:00"
 }
