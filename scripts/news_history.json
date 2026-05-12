@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York City Officials Address Migrant Crisis Response",
-      "urls": [
-        "https://www.pbs.org/newshour/tag/migrant-crisis"
-      ],
-      "date": "2026-05-02T07:03:15.736171+00:00"
-    },
-    {
-      "title": "UK Biobank Data From 500000 Individuals Listed For Sale",
-      "urls": [
-        "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data",
-        "https://www.nytimes.com/topic/subject/online-privacy-regulation",
-        "https://www.bbc.com/news/topics/cewvn6l5dl6t",
-        "https://www.infosecurity-magazine.com/privacy",
-        "https://www.ohchr.org/en/privacy-in-the-digital-age",
-        "https://www.youtube.com/watch?v=l4bnww9SVak",
-        "https://www.fintechweekly.com/news/eu-chat-control-online-privacy-architecture",
-        "https://www.bbc.com/news/articles/c4gj39zk1k0o",
-        "https://www.youtube.com/watch?v=TcIe-RCOAQk"
-      ],
-      "date": "2026-05-02T07:32:56.094221+00:00"
-    },
-    {
       "title": "Tech CEOs Mark Zuckerberg, Jensen Huang, Larry Ellison, and Sergey Brin have been appointed to Presi",
       "urls": [
         "https://www.scmp.com/topics/tech-ceos",
@@ -4132,7 +4110,20 @@
         "https://www.refugeesinternational.org/the-latest"
       ],
       "date": "2026-05-12T07:03:14.141457+00:00"
+    },
+    {
+      "title": "Virtual reality startups are developing immersive tools to address rising mental health challenges, ",
+      "urls": [
+        "https://annabelleschneider.com/New-Technology-Mental-Health-Wellbeing",
+        "https://www.uclahealth.org/news/article/mental-health-solutions-digital-age",
+        "https://userway.org/blog/technology-and-mental-health",
+        "https://unfoldlabs.com/blogs/digital-wellness-in-2030-predicting-the-future-of-mind-tech-harmony.html",
+        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
+        "https://www.drugtopics.com/view/swipe-right-on-wellness-the-rise-of-digital-therapeutics-in-mental-health",
+        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health"
+      ],
+      "date": "2026-05-12T07:33:12.650666+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T07:03:14.141515+00:00"
+  "lastUpdated": "2026-05-12T07:33:12.650745+00:00"
 }
