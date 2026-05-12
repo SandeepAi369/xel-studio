@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Hosts Over 500000 Machine Learning Models For Global Developers",
-      "urls": [
-        "https://www.nutanix.com/theforecastbynutanix/profile/hugging-face-finds-open-source-ai-and-ml-models-that-meet-business-needs"
-      ],
-      "date": "2026-05-02T23:08:17.398595+00:00"
-    },
-    {
-      "title": "Medtronic Deploys AI In Insulin Pumps To Cut Hypoglycemic Events By 38 Percent",
-      "urls": [
-        "https://www.medtronic.com/en-us/our-company/ai-healthcare-technology.html"
-      ],
-      "date": "2026-05-02T23:35:02.385024+00:00"
-    },
-    {
       "title": "Quantum Computing Researchers Achieve 1.2 Millisecond Qubit Coherence With Dynamic Noise Filtering",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
@@ -4064,7 +4050,18 @@
         "https://m.usps.com/m/TrackConfirmAction_input"
       ],
       "date": "2026-05-12T23:06:28.064868+00:00"
+    },
+    {
+      "title": "Chesterfield healthcare providers are expanding access to primary and specialty services in Macomb C",
+      "urls": [
+        "https://www.healthcare.gov",
+        "https://www.henryford.com/locations/macomb-chesterfield",
+        "https://corewellhealth.org/locations/LOC0000194777/corewell-health-family-medicine-chesterfield",
+        "https://alliancehealthprofessionals.com",
+        "https://totalhealthsystems.com/services/primary-medical-care/chesterfield-mi"
+      ],
+      "date": "2026-05-12T23:36:19.798059+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T23:06:28.064921+00:00"
+  "lastUpdated": "2026-05-12T23:36:19.798119+00:00"
 }
