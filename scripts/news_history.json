@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Giants To Spend 650 Billion On AI Infrastructure By 2026",
-      "urls": [
-        "https://cloud.google.com/ai-infrastructure",
-        "https://www.youtube.com/watch?v=1G5CgdFSA24",
-        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
-        "https://itechtrove.net/cloud-infrastructure-trends",
-        "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2024/10/infrastructure-of-the-future-the-impact-of-ai-and-the-cloud",
-        "https://www.cloudcomputing-news.net/news/ai-demand-pushes-companies-to-invest-billions-in-cloud-infrastructure",
-        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
-        "https://www.cio.inc/ai-infrastructure-pressures-push-enterprises-to-cloud-a-30302",
-        "https://www.akamai.com/blog/cloud/ai-cloud-computing-revolutionizing-landscape"
-      ],
-      "date": "2026-05-02T09:04:07.146129+00:00"
-    },
-    {
       "title": "Strut EV introduces a self-driving mobility chair capable of navigating crowded environments indepen",
       "urls": [
         "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs",
@@ -4128,7 +4113,19 @@
         "https://www.socialmediatoday.com"
       ],
       "date": "2026-05-12T08:35:12.543697+00:00"
+    },
+    {
+      "title": "Anthropic Withholds Latest AI Model Over Safety Concerns",
+      "urls": [
+        "https://www.mexc.co/en-PH/news/1079838",
+        "https://www.bbc.com/news/articles/c62dlvdq3e3o",
+        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
+        "https://www.youtube.com/watch?v=weZ5HQiwabE",
+        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
+        "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public"
+      ],
+      "date": "2026-05-12T09:04:19.196515+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T08:35:12.543765+00:00"
+  "lastUpdated": "2026-05-12T09:04:19.196574+00:00"
 }
