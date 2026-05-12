@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT 5.5 With Advanced Reasoning And AWS Integration",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://releasebot.io/updates/openai",
-        "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp",
-        "https://openai.com/news/product-releases",
-        "https://www.reddit.com/r/OpenAI/comments/1pc0j0d/openai_is_set_to_release_a_new_reasoning_model",
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://openai.com/index/introducing-gpt-5-5"
-      ],
-      "date": "2026-05-02T00:07:15.636706+00:00"
-    },
-    {
-      "title": "Ronda Rousey is set to return to MMA for the first time since 2016, facing Gina Carano in a highly a",
-      "urls": [
-        "https://www.nytimes.com/athletic/mma",
-        "https://bleacherreport.com/mma",
-        "https://www.bbc.com/sport/mixed-martial-arts",
-        "https://sports.yahoo.com/mma",
-        "https://www.mmamania.com",
-        "https://www.espn.com/mma"
-      ],
-      "date": "2026-05-02T00:37:00.786240+00:00"
-    },
-    {
       "title": "United States Access Board released preliminary findings on AI's impact on people with disabilities,",
       "urls": [
         "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
@@ -4190,7 +4165,15 @@
         "https://www.youtube.com/watch?v=_qRH4m6bLLs"
       ],
       "date": "2026-05-12T00:06:23.269629+00:00"
+    },
+    {
+      "title": "Sebastian Sawe Smashes Marathon World Record In 2:01:05",
+      "urls": [
+        "https://www.guinnessworldrecords.com/news/sports-and-fitness",
+        "https://www.news.com.au/sport/olympics/athletics/nike-dealt-new-setback-as-sabastian-sawe-breaks-marathon-world-record-wearing-adidas-trainers/news-story/83c7914112469af2b310df9d926e5a15"
+      ],
+      "date": "2026-05-12T00:37:18.394545+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T00:06:23.269675+00:00"
+  "lastUpdated": "2026-05-12T00:37:18.394605+00:00"
 }
