@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX launched a Falcon 9 rocket carrying Northrop Grumman's Cygnus XL cargo spacecraft on a resupp",
-      "urls": [
-        "https://www.space.com/space-exploration/international-space-station/northrop-grumman-second-cygnus-xl-cargo-launch-spacex-iss",
-        "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station",
-        "https://www.nasa.gov/mission/nasas-spacex-crew-10",
-        "https://www.spacex.com/updates",
-        "https://www.youtube.com/watch?v=F6t613w-Pow",
-        "https://spacex.com",
-        "https://spaceflightnow.com/launch-schedule",
-        "https://www.youtube.com/watch?v=2lfjcP7ltfQ",
-        "https://www.youtube.com/watch?v=6sDcNKbJwuo"
-      ],
-      "date": "2026-05-02T14:34:05.316413+00:00"
-    },
-    {
       "title": "U.S. Poison Centers Report 6532% Surge in Water Bead Ingestions by Toddlers",
       "urls": [
         "https://www.medicaldiscoverynews.com",
@@ -4105,7 +4090,16 @@
         "https://www.instagram.com/reel/DYM-Uq5qoZ7"
       ],
       "date": "2026-05-12T14:06:18.586077+00:00"
+    },
+    {
+      "title": "AI in Autism Care is transforming support systems for individuals with autism spectrum disorder (ASD",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817661",
+        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths",
+        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech"
+      ],
+      "date": "2026-05-12T14:35:24.734304+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T14:06:18.586145+00:00"
+  "lastUpdated": "2026-05-12T14:35:24.734374+00:00"
 }
