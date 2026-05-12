@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Withholds Mythos AI Over Hacking Vulnerabilities",
-      "urls": [
-        "https://letsdatascience.com/news/topic/anthropic",
-        "https://www.bbc.com/news/articles/c62dlvdq3e3o",
-        "https://www.cbc.ca/news/business/anthropic-ai-safety-committments-9.7107355",
-        "https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos",
-        "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into",
-        "https://www.youtube.com/watch?v=weZ5HQiwabE",
-        "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public",
-        "https://www.youtube.com/watch?v=4a3n2Nhz3eY"
-      ],
-      "date": "2026-05-02T06:04:10.250212+00:00"
-    },
-    {
       "title": "Morocco has evacuated over 140,000 people in the northwestern regions of Loukkos, Sidi Kacem, and Ks",
       "urls": [
         "https://www.djournal.com/news/national/morocco-says-evacuated-140-000-people-due-to-severe-weather/article_d643ac38-0098-5a05-a66c-6361c9174dbf.html"
@@ -4126,7 +4112,15 @@
         "https://www.gpstrategies.com/blog/5-ai-tools-to-foster-a-more-inclusive-work-environment-for-neurodiverse-learners"
       ],
       "date": "2026-05-12T05:35:27.144747+00:00"
+    },
+    {
+      "title": "Anthropic CEO Warns AI Safety Risks Amid Internal Whistleblower Concerns",
+      "urls": [
+        "https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+        "https://www.youtube.com/watch?v=aAPpQC-3EyE"
+      ],
+      "date": "2026-05-12T06:04:19.268974+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T05:35:27.144815+00:00"
+  "lastUpdated": "2026-05-12T06:04:19.269045+00:00"
 }
