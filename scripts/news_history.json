@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Morocco has evacuated over 140,000 people in the northwestern regions of Loukkos, Sidi Kacem, and Ks",
-      "urls": [
-        "https://www.djournal.com/news/national/morocco-says-evacuated-140-000-people-due-to-severe-weather/article_d643ac38-0098-5a05-a66c-6361c9174dbf.html"
-      ],
-      "date": "2026-05-02T06:36:02.688899+00:00"
-    },
-    {
       "title": "New York City Officials Address Migrant Crisis Response",
       "urls": [
         "https://www.pbs.org/newshour/tag/migrant-crisis"
@@ -4120,7 +4113,15 @@
         "https://www.youtube.com/watch?v=aAPpQC-3EyE"
       ],
       "date": "2026-05-12T06:04:19.268974+00:00"
+    },
+    {
+      "title": "Biodiversity Crisis is accelerating as climate change disrupts migration, reproduction, and survival",
+      "urls": [
+        "https://www.youtube.com/watch?v=rlt3k_ddMJg",
+        "https://www.natureserve.org/biodiversity"
+      ],
+      "date": "2026-05-12T06:36:07.211581+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T06:04:19.269045+00:00"
+  "lastUpdated": "2026-05-12T06:36:07.211635+00:00"
 }
