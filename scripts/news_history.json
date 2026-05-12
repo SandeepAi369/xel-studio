@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Asger became the first child to trial a new powered exoskeleton, enabling him to walk to school usin",
-      "urls": [
-        "https://www.rehabtool.com/news.html",
-        "https://webable.com",
-        "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
-        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
-        "https://www.reddit.com/r/accessibility/comments/1reup6k/do_any_news_sites_have_an_accessibility_news",
-        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
-        "https://www.bbc.com/news/topics/c8nq32jwjrdt",
-        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology",
-        "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled"
-      ],
-      "date": "2026-05-02T03:36:04.795759+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://feeds.trussed.ai/blog/us-government-ai-policies",
@@ -4149,7 +4134,17 @@
         "https://www.youtube.com/watch?v=5j2FhL24rqE"
       ],
       "date": "2026-05-12T03:06:23.518568+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://www.reddit.com/r/hardware/comments/1mmy9d7/us_government_to_take_cut_of_nvidia_and_amd_ai",
+        "https://www.youtube.com/watch?v=62IA7NbdNZM",
+        "https://www.youtube.com/watch?v=VaU8a_-FKj4",
+        "https://www.youtube.com/watch?v=KblxZkaO_gE"
+      ],
+      "date": "2026-05-12T03:36:14.191884+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T03:06:23.518635+00:00"
+  "lastUpdated": "2026-05-12T03:36:14.191951+00:00"
 }
