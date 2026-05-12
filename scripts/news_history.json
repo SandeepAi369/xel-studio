@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Poison Centers Report 6532% Surge in Water Bead Ingestions by Toddlers",
-      "urls": [
-        "https://www.medicaldiscoverynews.com",
-        "https://www.news-medical.net/category/Medical-Research-News.aspx",
-        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
-        "https://commonfund.nih.gov/news-media/science-highlights",
-        "https://www.nature.com/articles/d42473-024-00347-1",
-        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
-        "https://www.youtube.com/watch?v=tvwCWwpY-X8",
-        "https://www.bioworld.com/topics/84-bioworld"
-      ],
-      "date": "2026-05-02T15:05:14.323628+00:00"
-    },
-    {
-      "title": "Stanford Researchers Develop Room Temperature Quantum Communication Device",
-      "urls": [
-        "https://www.networkworld.com/article/4088709/top-quantum-breakthroughs-of-2025.html",
-        "https://www.youtube.com/watch?v=zZ3KjE1204s",
-        "https://www.discovermagazine.com/quantum-computing-is-beginning-to-take-shape-here-are-three-recent-breakthroughs-48938",
-        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
-        "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
-        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
-        "https://quantumcomputingreport.com/news",
-        "https://thequantuminsider.com"
-      ],
-      "date": "2026-05-02T15:33:52.724177+00:00"
-    },
-    {
       "title": "Gudaf Tsegay broke the women's 5,000-meter world record with a time of 14 minutes, 00.",
       "urls": [
         "https://www.theguardian.com/sport/world-records",
@@ -4106,7 +4078,14 @@
         "https://escharts.com/platforms"
       ],
       "date": "2026-05-12T15:03:25.294983+00:00"
+    },
+    {
+      "title": "AI video models are advancing rapidly, with Sora and Lumalabs leading the latest innovation cycle.",
+      "urls": [
+        "https://www.youtube.com/watch?v=KdGVxg1LVZk"
+      ],
+      "date": "2026-05-12T15:35:09.697558+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T15:03:25.295042+00:00"
+  "lastUpdated": "2026-05-12T15:35:09.697627+00:00"
 }
