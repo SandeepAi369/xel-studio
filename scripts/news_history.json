@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alysa Liu Wins Gold With Quad And Triple Axel At 2026 Olympics",
-      "urls": [
-        "https://www.youtube.com/watch?v=pU1YAb3fIeM",
-        "https://www.instagram.com/reel/DXuL7t2DjU9",
-        "https://www.gbnews.com/sport/winter-olympics/winter-olympics-alysa-liu-gold-2675298381",
-        "https://www.foxnews.com/sports/american-elana-meyers-taylor-finally-captures-gold-medal-winter-olympics-makes-team-usa-history",
-        "https://alaskapublic.org/news/national/2026-02-23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states",
-        "https://www.nbcolympics.com/news/alysa-liu-wins-olympic-gold-2026-milan-cortina-games",
-        "https://www.nytimes.com/athletic/7050927/2026/02/16/elana-meyers-taylor-monobob-gold-medal-winter-olympics",
-        "https://www.youtube.com/watch?v=9R71OeytyrA",
-        "https://www.ncaa.org/news/2026/2/16/2026-olympics-elana-meyers-taylor-wins-6th-olympic-medal-ties-bonnie-blairs-us-winter-medal-mark.aspx"
-      ],
-      "date": "2026-05-02T04:35:08.540834+00:00"
-    },
-    {
       "title": "Hugging Face has released its Spring 2026 report on open-source AI, highlighting increased adoption ",
       "urls": [
         "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
@@ -4149,7 +4134,14 @@
         "https://www.youtube.com/watch?v=dxR9oh1bpaE"
       ],
       "date": "2026-05-12T04:35:03.713010+00:00"
+    },
+    {
+      "title": "XiaomiMiMo released MiMo-V2.",
+      "urls": [
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
+      ],
+      "date": "2026-05-12T05:04:14.828990+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T04:35:03.713086+00:00"
+  "lastUpdated": "2026-05-12T05:04:14.829070+00:00"
 }
