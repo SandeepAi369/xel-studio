@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cyclone Fytia Kills 12 And Displaces 10000 In Madagascar",
-      "urls": [
-        "https://www.weatherapi.com",
-        "https://www.instagram.com/p/DUXtNzuDF6E",
-        "https://watchers.news/2026/02/05/at-least-12-dead-2-000-homes-destroyed-as-tropical-cyclone-fytia-hits-madagascar",
-        "https://www.reddit.com/r/weather/comments/1r021tq/february_5_2026_extreme_weather_events_natural",
-        "https://watchers.news/2026/02/05/tropical-storm-penha-basyang-expected-to-make-multiple-landfalls-over-mindanao-and-visayas-philippines",
-        "https://phys.org/news/2026-02-morocco-evacuated-people-due-severe.html",
-        "https://www.youtube.com/watch?v=u_G5hhcF34A",
-        "https://reliefweb.int/report/world/global-weather-hazards-summary-february-5-2026-february-11-2026",
-        "https://www.facebook.com/civildefensePH/posts/as-of-800-pm-today-05-february-2026-the-tropical-storm-basyang-with-internationa/1402664811903286",
-        "https://www.reuters.com/business/environment/one-dead-girl-missing-storm-leonardo-batters-portugal-spain-2026-02-05"
-      ],
-      "date": "2026-05-02T01:34:05.106316+00:00"
-    },
-    {
-      "title": "Mistral AI Launches New Open Source Speech Model",
-      "urls": [
-        "https://decrypt.co/366275/mistral-ai-open-source-model-agents-internet-not-impressed",
-        "https://www.reddit.com/r/technology/comments/1s47bwy/mistral_releases_a_new_opensource_model_for",
-        "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://news.ycombinator.com/item?id=44594156"
-      ],
-      "date": "2026-05-02T02:05:11.030514+00:00"
-    },
-    {
       "title": "Mental Wellness Apps Use AI To Personalize Therapy Plans",
       "urls": [
         "https://www.innsightful.com/the-future-of-integrated-digital-approaches-in-mental-wellness",
@@ -4170,7 +4144,14 @@
         "https://www.reuters.com/company/the-united-states-international-trade-commission"
       ],
       "date": "2026-05-12T01:04:20.350907+00:00"
+    },
+    {
+      "title": "PyTorch continues to dominate the open-source machine learning landscape, maintaining strong adoptio",
+      "urls": [
+        "https://vmblog.com/archive/2022/07/20/the-comparison-between-pytorch-and-tensorflow-which-framework-is-best-for-your-ai.aspx"
+      ],
+      "date": "2026-05-12T02:05:19.825916+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T01:04:20.350961+00:00"
+  "lastUpdated": "2026-05-12T02:05:19.825983+00:00"
 }
