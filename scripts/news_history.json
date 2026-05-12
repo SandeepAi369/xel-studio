@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google AI Ultra Subscribers Gain Access To Enhanced Gemini Deep Think Mode",
-      "urls": [
-        "https://deepmind.google/research",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think",
-        "https://blog.google/products-and-platforms/products/gemini",
-        "https://seekingalpha.com/news/4574852-googles-deepmind-launches-more-advanced-gemini-robotics",
-        "https://www.youtube.com/watch?v=zZsTVBXcbow",
-        "https://deepmind.google/blog",
-        "https://deepmind.google",
-        "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
-        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
-        "https://gemini.google/overview/deep-research"
-      ],
-      "date": "2026-05-02T19:33:01.477537+00:00"
-    },
-    {
       "title": "United States and Iran failed to reach an agreement during face-to-face peace talks in Islamabad, wi",
       "urls": [
         "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
@@ -4070,7 +4054,17 @@
         "https://www.youtube.com/watch?v=tvwCWwpY-X8"
       ],
       "date": "2026-05-12T19:06:15.026430+00:00"
+    },
+    {
+      "title": "AlphaEvolve is a Gemini-powered coding agent developed by Google DeepMind to design advanced algorit",
+      "urls": [
+        "https://www.instagram.com/p/DYP9-7ygunI",
+        "https://deepmind.google/blog/alphaevolve-impact",
+        "https://ai.google.dev/gemini-api/docs/interactions/deep-research",
+        "https://deepmind.google/blog/ai-pointer"
+      ],
+      "date": "2026-05-12T19:36:11.417571+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T19:06:15.026496+00:00"
+  "lastUpdated": "2026-05-12T19:36:11.417621+00:00"
 }
