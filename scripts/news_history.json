@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Access Board released preliminary findings on AI's impact on people with disabilities,",
-      "urls": [
-        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
-        "https://www.everylearnereverywhere.org/blog/how-ai-in-assistive-technology-supports-students-and-educators-with-disabilities",
-        "https://www.undp.org/uzbekistan/blog/ai-revolution-it-game-changer-disability-inclusion",
-        "https://www.science.org/doi/10.1126/science.aea4918",
-        "https://create.uw.edu/access-boards-preliminary-findings-on-ai-and-people-with-disabilities",
-        "https://www.nycbar.org/reports/the-impact-of-the-use-of-ai-on-people-with-disabilities",
-        "https://acceleratelearning.stanford.edu/story/what-does-ai-mean-for-learners-with-disabilities",
-        "https://www.digitallearninginstitute.com/blog/revolutionising-accessibility:-the-role-of-ai-in-assistive-technology"
-      ],
-      "date": "2026-05-02T01:03:09.127183+00:00"
-    },
-    {
       "title": "Cyclone Fytia Kills 12 And Displaces 10000 In Madagascar",
       "urls": [
         "https://www.weatherapi.com",
@@ -4173,7 +4159,18 @@
         "https://www.news.com.au/sport/olympics/athletics/nike-dealt-new-setback-as-sabastian-sawe-breaks-marathon-world-record-wearing-adidas-trainers/news-story/83c7914112469af2b310df9d926e5a15"
       ],
       "date": "2026-05-12T00:37:18.394545+00:00"
+    },
+    {
+      "title": "Trump Reverses Stance On EU Trade Deal Amid Rising Tariff Tensions",
+      "urls": [
+        "https://www.wto.org/english/news_e/news24_e/publ_21nov24_e.htm",
+        "https://www.theguardian.com/business/internationaltrade",
+        "https://www.nytimes.com/topic/subject/international-trade-and-world-market-trade-disputes",
+        "https://www.weforum.org/stories/2024/10/ai-global-trade-policymaking",
+        "https://www.reuters.com/company/the-united-states-international-trade-commission"
+      ],
+      "date": "2026-05-12T01:04:20.350907+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T00:37:18.394605+00:00"
+  "lastUpdated": "2026-05-12T01:04:20.350961+00:00"
 }
