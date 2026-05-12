@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wind And Solar Generated 17% Of U.S. Electricity In 2024",
-      "urls": [
-        "https://www.youtube.com/watch?v=spSOp5s_6_A",
-        "https://www.zmescience.com/ecology/renewable-energy-ecology/for-the-first-time-ever-wind-and-solar-produced-more-electricity-than-coal-in-the-us",
-        "https://www.utilitydive.com/news/solar-wind-generation-2025-eia/815666",
-        "https://www.usnews.com/news/us/articles/2025-10-06/solar-and-wind-power-has-grown-faster-than-electricity-demand-this-year-report-says",
-        "https://www.renewableenergyworld.com/wind-power",
-        "https://www.nytimes.com/topic/subject/solar-energy",
-        "https://www.renewableenergyworld.com",
-        "https://renewablesnow.com"
-      ],
-      "date": "2026-05-02T10:38:03.797073+00:00"
-    },
-    {
       "title": "Telehealth Expansion Excludes Disabled And Low-Income Patients",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719",
@@ -4124,7 +4110,17 @@
         "https://www.youtube.com/watch?v=5IARbTqqq5M"
       ],
       "date": "2026-05-12T10:35:10.376225+00:00"
+    },
+    {
+      "title": "U.",
+      "urls": [
+        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOopLqI7105whiRDGllQsXksulgQj0D4kce81e1r8XiRlJ7Ga2fwV",
+        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
+        "https://www.youtube.com/watch?v=RY4EMW6mM4E",
+        "https://cisac.fsi.stanford.edu/news/fsi-scholars-examine-ai-biotech-advances-and-geopolitical-competition"
+      ],
+      "date": "2026-05-12T11:05:20.338239+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T10:35:10.376291+00:00"
+  "lastUpdated": "2026-05-12T11:05:20.338326+00:00"
 }
