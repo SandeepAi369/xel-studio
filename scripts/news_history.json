@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Releases VoiceGen Model With Five Second Speaker Adaptation",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://mistral.ai/models",
-        "https://www.techbuzz.ai/articles/mistral-ai-launches-open-source-speech-model-for-wearables"
-      ],
-      "date": "2026-05-02T18:33:58.100623+00:00"
-    },
-    {
-      "title": "AI in healthcare is now being deployed in clinical settings to support radiologists and pathologists",
-      "urls": [
-        "https://www.touro.edu/news--events/stories/five-exciting-ways-ai-technology-is-transforming-healthcare.php",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156",
-        "https://www.youtube.com/watch?v=5kwyuYJ2xEA",
-        "https://www.fastcompany.com/91534207/ai-in-healthcare-is-no-longer-experimental"
-      ],
-      "date": "2026-05-02T19:04:12.808196+00:00"
-    },
-    {
       "title": "Google AI Ultra Subscribers Gain Access To Enhanced Gemini Deep Think Mode",
       "urls": [
         "https://deepmind.google/research",
@@ -4079,7 +4060,17 @@
         "https://www.conservation.org/news"
       ],
       "date": "2026-05-12T18:04:20.533253+00:00"
+    },
+    {
+      "title": "Japan is advancing medical diagnostics through innovations in biomarkers, AI integration, and point-",
+      "urls": [
+        "https://www.nature.com/articles/d42473-024-00347-1",
+        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
+        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
+        "https://www.youtube.com/watch?v=tvwCWwpY-X8"
+      ],
+      "date": "2026-05-12T19:06:15.026430+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T18:04:20.533318+00:00"
+  "lastUpdated": "2026-05-12T19:06:15.026496+00:00"
 }
