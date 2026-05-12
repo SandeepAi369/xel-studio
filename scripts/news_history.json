@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has released its Spring 2026 report on open-source AI, highlighting increased adoption ",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://techjacksolutions.com/ai-brief/hugging-face-announces-open-source-tools-to-simplify-llm-and",
-        "https://huggingface.co/blog",
-        "https://huggingface.co/papers/trending",
-        "https://allthingsopen.org/articles/hugging-face-review-developers-guide",
-        "https://www.facebook.com/groups/aiautomationsforbusiness/posts/1452666462448876",
-        "https://www.youtube.com/watch?v=UX4yUgvro_k",
-        "https://huggingface.co/papers"
-      ],
-      "date": "2026-05-02T05:05:08.860221+00:00"
-    },
-    {
-      "title": "Screen reader users rely heavily on specific technologies, with 72% of blind or low-vision individua",
-      "urls": [
-        "https://www.reddit.com/r/accessibility/comments/1rp0320/ai_accessibility_and_blind_users_a_multibillion",
-        "https://rackham.umich.edu/discover-rackham/full/pioneering-accessibility-early-computing-screen-readers-and-new-tech",
-        "https://www.nextgov.com/ideas/2023/12/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-still-face-barriers-digital-world/392867",
-        "https://www.youtube.com/watch?v=rUG1L0498Js",
-        "https://pubmed.ncbi.nlm.nih.gov/40614067",
-        "https://toptechtidbits.com/how-voice-first-ai-could-soon-change-everything-for-blv-people",
-        "https://www.facebook.com/groups/1006104764242457/posts/1460569845462611",
-        "https://www.youtube.com/watch?v=yWrqoOSViDY",
-        "https://blog.usablenet.com/a-screen-reader-users-honest-take"
-      ],
-      "date": "2026-05-02T05:33:02.613290+00:00"
-    },
-    {
       "title": "Anthropic Withholds Mythos AI Over Hacking Vulnerabilities",
       "urls": [
         "https://letsdatascience.com/news/topic/anthropic",
@@ -4141,7 +4112,21 @@
         "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
       ],
       "date": "2026-05-12T05:04:14.828990+00:00"
+    },
+    {
+      "title": "Autism Support Platforms Improve Care Coordination With Real-Time Data Sharing",
+      "urls": [
+        "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
+        "https://www.youtube.com/watch?v=in2P1x1yFx4",
+        "https://www.forbes.com/councils/forbestechcouncil/2024/04/25/neurodivergence-in-the-21st-century-how-technology-supports-childrens-potential",
+        "https://www.weforum.org/stories/2023/04/how-cognitive-diversity-and-disability-centred-ai-can-improve-social-inclusion",
+        "https://www.nature.com/articles/s41746-024-01355-7",
+        "https://www.news-medical.net/news/20260120/New-AI-learning-tool-bridges-communication-gaps-between-autistic-and-neurotypical-people.aspx",
+        "https://www.vanderbilt.edu/autismandinnovation/neurotech-rising-and-the-autistic-founders-rewriting-the-autism-story-by-aras-sheikhi",
+        "https://www.gpstrategies.com/blog/5-ai-tools-to-foster-a-more-inclusive-work-environment-for-neurodiverse-learners"
+      ],
+      "date": "2026-05-12T05:35:27.144747+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T05:04:14.829070+00:00"
+  "lastUpdated": "2026-05-12T05:35:27.144815+00:00"
 }
