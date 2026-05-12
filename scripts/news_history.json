@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telehealth Expansion Excludes Disabled And Low-Income Patients",
-      "urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719",
-        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
-        "https://telehealth.org/news/category/technology-and-innovation",
-        "https://www.devdiscourse.com/article/technology/3889002-telemedicine-ai-and-mhealth-drive-global-shift-toward-digital-healthcare-systems",
-        "https://www.aamc.org/news/telehealth-innovations-health-technology",
-        "https://www.worldhealthexpo.com/insights/medical-technology/telemedicine",
-        "https://www.ces.tech/topics/digital-health",
-        "https://healthsnap.io/top-10-digital-health-trends-in-2024"
-      ],
-      "date": "2026-05-02T11:06:13.460534+00:00"
-    },
-    {
-      "title": "IBM Unveils Analog AI Chip Cutting Energy Use By 75 Percent",
-      "urls": [
-        "https://www.youtube.com/watch?v=yQbfS2Mr4O8&vl=en",
-        "https://www.wsj.com/tech/ai",
-        "https://www.reddit.com/r/AISEOInsider/comments/1rs1o1v/latest_ai_news_the_biggest_ai_announcements_right",
-        "https://www.artificialintelligence-news.com",
-        "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/recent-breakthroughs-in-ai-technology",
-        "https://today.ucsd.edu/story/nine-breakthroughs-made-possible-by-ai",
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence"
-      ],
-      "date": "2026-05-02T11:33:59.276933+00:00"
-    },
-    {
       "title": "U.S. And China Ramp Up AI Race Through University Programs",
       "urls": [
         "https://iranbri.com/en/us-china-technological-competition-geopolitical-considerations",
@@ -4120,7 +4093,15 @@
         "https://cisac.fsi.stanford.edu/news/fsi-scholars-examine-ai-biotech-advances-and-geopolitical-competition"
       ],
       "date": "2026-05-12T11:05:20.338239+00:00"
+    },
+    {
+      "title": "Anthropic has announced that its latest AI model, Claude Mythos, demonstrated advanced capabilities ",
+      "urls": [
+        "https://www.mexc.com/news/1079838",
+        "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
+      ],
+      "date": "2026-05-12T11:36:11.500588+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T11:05:20.338326+00:00"
+  "lastUpdated": "2026-05-12T11:36:11.500646+00:00"
 }
