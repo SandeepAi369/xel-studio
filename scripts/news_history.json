@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen Readers are essential software for blind and visually impaired users, converting on-screen te",
-      "urls": [
-        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
-        "https://www.govtech.com/computing/digital-inaccessibility-blind-and-low-vision-people-have-powerful-tech-but-still-face-digital-barriers",
-        "https://accessibility.wayne.edu/news/how-screen-readers-work-60460"
-      ],
-      "date": "2026-05-02T13:36:03.773094+00:00"
-    },
-    {
-      "title": "Wind Power Leads U.S. Renewables With 18.9% Electricity Generation In 2025",
-      "urls": [
-        "https://www.windtech-international.com/industry-news/wind-leads-renewable-electricity-growth-in-usa-as-solar-and-batteries-drive-new-capacity"
-      ],
-      "date": "2026-05-02T14:05:15.875845+00:00"
-    },
-    {
       "title": "SpaceX launched a Falcon 9 rocket carrying Northrop Grumman's Cygnus XL cargo spacecraft on a resupp",
       "urls": [
         "https://www.space.com/space-exploration/international-space-station/northrop-grumman-second-cygnus-xl-cargo-launch-spacex-iss",
@@ -4106,7 +4090,22 @@
         "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
       ],
       "date": "2026-05-12T13:33:03.779807+00:00"
+    },
+    {
+      "title": "Eight Tornadoes Strike Central US Including Ef3 In Mineral Wells",
+      "urls": [
+        "https://www.weatherapi.com",
+        "https://www.instagram.com/reel/DYNCOtrqCIW",
+        "https://www.facebook.com/windealan/posts/weather-update-10-to-12-may-2026the-provincial-disaster-management-centre-has-ac/1514799360005004",
+        "https://bernama.com/en/world/news.php?id=2555886",
+        "https://www.instagram.com/p/DYMkEuAFf4E",
+        "https://www.instagram.com/reel/DYMbGmPsUHN",
+        "https://www.theguardian.com/environment/2026/may/01/weather-tracker-tornadoes-and-giant-hail-in-central-us",
+        "https://www.weather.gov/eax/HWO",
+        "https://www.instagram.com/reel/DYM-Uq5qoZ7"
+      ],
+      "date": "2026-05-12T14:06:18.586077+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T13:33:03.779861+00:00"
+  "lastUpdated": "2026-05-12T14:06:18.586145+00:00"
 }
