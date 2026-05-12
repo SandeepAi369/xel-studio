@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "The White House Unveils National AI Policy Framework",
-      "urls": [
-        "https://www.nga.org/updates/in-summary-the-white-house-national-legislative-policy-framework-for-artificial-intelligence",
-        "https://regulatingai.org",
-        "https://www.youtube.com/watch?v=YY3A303bdgg"
-      ],
-      "date": "2026-05-02T22:08:22.958933+00:00"
-    },
-    {
-      "title": "Texas set multiple all-time records for wind, solar, and battery discharge in March 2025, marking a ",
-      "urls": [
-        "https://www.canarymedia.com/articles/clean-energy/renewable-power-wind-solar-spring-records",
-        "https://renews.biz",
-        "https://www.windpowermonthly.com/news"
-      ],
-      "date": "2026-05-02T22:33:55.681771+00:00"
-    },
-    {
       "title": "Hugging Face Hosts Over 500000 Machine Learning Models For Global Developers",
       "urls": [
         "https://www.nutanix.com/theforecastbynutanix/profile/hugging-face-finds-open-source-ai-and-ml-models-that-meet-business-needs"
@@ -4066,7 +4048,23 @@
         "https://www.infoq.com/news/2026/05/mistral-agents-lechat"
       ],
       "date": "2026-05-12T22:05:22.403194+00:00"
+    },
+    {
+      "title": "USPS has expanded its package tracking capabilities, allowing users to monitor deliveries in real ti",
+      "urls": [
+        "https://tools.usps.com/go/TrackConfirmAction!input.action?msockid=3d042f0f31a263762094385830e062fc",
+        "https://www.usps.com?msockid=3d042f0f31a263762094385830e062fc",
+        "https://tools.usps.com/go/TrackAction?msockid=3d042f0f31a263762094385830e062fc",
+        "https://tools.usps.com/go/TrackConfirmAction_input?msockid=3d042f0f31a263762094385830e062fc",
+        "https://stage-www.usps.com/nationalpremieraccounts/trackmailing.htm",
+        "https://tools.usps.com/go/TrackConfirmAction_input?qtc_tLabels1=Enter+tracking+number&msockid=3d042f0f31a263762094385830e062fc",
+        "https://www.usps.com/manage?msockid=3d042f0f31a263762094385830e062fc",
+        "https://tools.usps.com/go/TrackConfirmAction?loc=en_us&msockid=3d042f0f31a263762094385830e062fc",
+        "https://tools.usps.com/go/TrackConfirmAction?locale=en&msockid=3d042f0f31a263762094385830e062fc",
+        "https://m.usps.com/m/TrackConfirmAction_input"
+      ],
+      "date": "2026-05-12T23:06:28.064868+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T22:05:22.403275+00:00"
+  "lastUpdated": "2026-05-12T23:06:28.064921+00:00"
 }
