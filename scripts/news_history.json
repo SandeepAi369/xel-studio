@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM Launches Open Source Granite 4.1 AI Models For Enterprise Deployment",
-      "urls": [
-        "https://llmnews.ai"
-      ],
-      "date": "2026-05-03T03:35:10.735280+00:00"
-    },
-    {
       "title": "Meta Launches Llama 4 Scout And Maverick With Multimodal Capabilities",
       "urls": [
         "https://ai.meta.com/open",
@@ -4051,7 +4044,18 @@
         "https://www.si.com/tennis"
       ],
       "date": "2026-05-13T03:07:39.986133+00:00"
+    },
+    {
+      "title": "Nations Compete for Control of Strategic Sea Lanes and Energy Reserves",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Geopolitics",
+        "https://www.britannica.com/topic/geopolitics",
+        "https://www.economist.com/topics/geopolitics",
+        "https://www.geopoliticalmonitor.com",
+        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography"
+      ],
+      "date": "2026-05-13T03:35:10.933568+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T03:07:39.986211+00:00"
+  "lastUpdated": "2026-05-13T03:35:10.933643+00:00"
 }
