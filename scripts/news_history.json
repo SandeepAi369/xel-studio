@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Researchers Achieve 1.2 Millisecond Qubit Coherence With Dynamic Noise Filtering",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-        "https://www.youtube.com/watch?v=t4GRe9q-Q0o"
-      ],
-      "date": "2026-05-03T00:05:11.660213+00:00"
-    },
-    {
-      "title": "UNHCR has issued an urgent warning that the ongoing conflict involving Iran is severely disrupting g",
-      "urls": [
-        "https://www.youtube.com/watch?v=sTwMD2a8FE4"
-      ],
-      "date": "2026-05-03T00:34:00.936127+00:00"
-    },
-    {
       "title": "Oticon More And Phonak Lumity Enhance Speech Clarity With AI",
       "urls": [
         "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people"
@@ -4061,7 +4046,19 @@
         "https://totalhealthsystems.com/services/primary-medical-care/chesterfield-mi"
       ],
       "date": "2026-05-12T23:36:19.798059+00:00"
+    },
+    {
+      "title": "BBC Reporters Cover Global Crises From 100 Countries",
+      "urls": [
+        "https://www.foxnews.com?msockid=2342344a8bd86d1c181023128a566c47",
+        "https://apnews.com",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
+        "https://www.bbc.com/news",
+        "https://www.usatoday.com",
+        "https://abc7chicago.com/news"
+      ],
+      "date": "2026-05-13T00:34:12.058966+00:00"
     }
   ],
-  "lastUpdated": "2026-05-12T23:36:19.798119+00:00"
+  "lastUpdated": "2026-05-13T00:34:12.059030+00:00"
 }
