@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "CausVid combines a pre-trained diffusion model with autoregressive architecture to generate high-qua",
-      "urls": [
-        "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
-        "https://www.youtube.com/watch?v=msrbd-d6lWk",
-        "https://framia.pro/blog/ai-video-generation-models",
-        "https://www.superhuman.ai/p/new-ai-video-model-takes-over-the-internet",
-        "https://www.reddit.com/r/aiwars/comments/1r0xn9w/the_videos_created_by_the_new_chinese_video",
-        "https://futurism.com/artificial-intelligence/seedance-ai-video-generator-scaring-hollywood",
-        "https://www.theinformation.com/newsletters/ai-agenda/startup-helps-users-generate-videos-without-breaking-bank",
-        "https://www.reuters.com/business/media-telecom/bytedances-new-ai-video-model-goes-viral-china-looks-second-deepseek-moment-2026-02-12",
-        "https://www.youtube.com/watch?v=SY5Wm7fUJFE",
-        "https://www.marketwatch.com/story/what-openai-scrapping-its-sora-video-generator-tells-us-about-ai-2833457a"
-      ],
-      "date": "2026-05-03T09:03:10.227959+00:00"
-    },
-    {
       "title": "Whill Launches AI-Powered Smart Wheelchair With Real-Time Navigation",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopc41IQm9eChERkypW1NJiEgHRWTGhsk-CSZeY3WjBTkCINeG3n"
@@ -4049,7 +4033,14 @@
         "https://www.mentalhealth.org/basics/what-is-mental-health"
       ],
       "date": "2026-05-13T08:36:24.694784+00:00"
+    },
+    {
+      "title": "Fox News has launched a redesigned website and mobile platform to improve user navigation and increa",
+      "urls": [
+        "https://www.foxnews.com?msockid=337b7c98a4f365ed2a526bc0a5c96475"
+      ],
+      "date": "2026-05-13T09:04:21.018931+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T08:36:24.694860+00:00"
+  "lastUpdated": "2026-05-13T09:04:21.018998+00:00"
 }
