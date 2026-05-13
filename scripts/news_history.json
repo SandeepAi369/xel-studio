@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports Champions Launch Season Two With Street Fighter 6 And Call Of Duty Tournaments",
-      "urls": [
-        "https://www.esportschampionship.gg",
-        "https://ugc.gg",
-        "https://armedforcessports.defense.gov/Sports/Esports/Events/2022-Esports-Championship",
-        "https://www.yahoo.com/news/videos/professional-esports-tournament-competing-1m-143912673.html",
-        "https://www.cnn.com/specials/esports",
-        "https://www.youtube.com/watch?v=GZjmIuQ_5ek",
-        "https://www.youtube.com/watch?v=XeUdNx39fDo",
-        "https://escharts.com/upcoming-tournaments"
-      ],
-      "date": "2026-05-03T08:35:57.964666+00:00"
-    },
-    {
       "title": "CausVid combines a pre-trained diffusion model with autoregressive architecture to generate high-qua",
       "urls": [
         "https://news.mit.edu/2025/causevid-hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds-0506",
@@ -4052,7 +4038,18 @@
         "https://seattlered.com/politics/katie-wilson-seattle-mayor-2/4115129"
       ],
       "date": "2026-05-13T08:08:42.139452+00:00"
+    },
+    {
+      "title": "National Institute of Mental Health Launches New Online Resources for Depression and Anxiety",
+      "urls": [
+        "https://my.clevelandclinic.org/health/articles/mental-health",
+        "https://www.merriam-webster.com/dictionary/mental",
+        "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/mental-health/art-20044098",
+        "https://www.nimh.nih.gov/health",
+        "https://www.mentalhealth.org/basics/what-is-mental-health"
+      ],
+      "date": "2026-05-13T08:36:24.694784+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T08:08:42.139528+00:00"
+  "lastUpdated": "2026-05-13T08:36:24.694860+00:00"
 }
