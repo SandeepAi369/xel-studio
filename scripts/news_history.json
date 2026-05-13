@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nikola Jokić Leads Nuggets With 28 Points In Game 4 Win",
-      "urls": [
-        "https://www.tiktok.com/@togethxr/video/7570761070667681054",
-        "https://www.instagram.com/reel/CrrdR-IAZsf",
-        "https://sports.yahoo.com/articles/chelsea-arsenal-scouts-were-present-110000286.html",
-        "https://www.youtube.com/watch?v=7MmIMZ3WrBM",
-        "https://www.bbc.co.uk/sport/football/videos/cy827z5dxl3o",
-        "https://www.nytimes.com/athletic/news",
-        "https://www.youtube.com/watch?v=s6PkV4QO9ak",
-        "https://www.nbcsports.com",
-        "https://www.espn.com/espn/latestnews"
-      ],
-      "date": "2026-05-03T04:33:00.817183+00:00"
-    },
-    {
       "title": "Open-source AI models are rapidly challenging dominant closed systems like ChatGPT and Claude Opus t",
       "urls": [
         "https://www.runpod.io/blog/open-source-ai-renaissance",
@@ -4058,7 +4043,15 @@
         "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions"
       ],
       "date": "2026-05-13T04:06:17.606024+00:00"
+    },
+    {
+      "title": "Human Activities Drive Climate Change With Rising Emissions",
+      "urls": [
+        "https://weather.metoffice.gov.uk/climate/climate-explained/what-is-climate",
+        "https://www.usgs.gov/faqs/why-climate-change-happening-and-what-are-causes"
+      ],
+      "date": "2026-05-13T04:35:12.988930+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T04:06:17.606085+00:00"
+  "lastUpdated": "2026-05-13T04:35:12.989003+00:00"
 }
