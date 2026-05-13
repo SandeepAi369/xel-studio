@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple has entered a strategic partnership with Google to integrate Gemini, Google's large language m",
-      "urls": [
-        "https://www.ghacks.net/category/companies",
-        "https://www.ntegra.com/insights/tech-roundup-how-apple-google-and-microsoft-are-engineering-the-next-phase-of-ai",
-        "https://adage.com/technology/ai/aa-emerging-tech-news-and-trends-google-microsoft-urban-outfitters",
-        "https://www.youtube.com/watch?v=-G5O72GQ1qE",
-        "https://finance.yahoo.com/sectors/technology/articles/microsoft-meta-google-just-announced-011712139.html"
-      ],
-      "date": "2026-05-03T17:04:10.234995+00:00"
-    },
-    {
-      "title": "Jaws NVDA And VoiceOver Empower Millions With Screen Reading Technology",
-      "urls": [
-        "https://membership.digicol.org/2025-accessibility-summit-resources/bridging-the-gap-how-screen-readers-allow-equal-access-to-technology-for-those-who-are-blind-or-visually-impaired"
-      ],
-      "date": "2026-05-03T17:34:01.553196+00:00"
-    },
-    {
       "title": "Mayon Volcano erupted in Albay, Philippines, producing a lava flow collapse-fed pyroclastic density ",
       "urls": [
         "https://www.newsnow.com/us/World/Natural+Disasters",
@@ -4039,7 +4021,20 @@
         "https://www.spacex.com/updates"
       ],
       "date": "2026-05-13T16:36:20.019070+00:00"
+    },
+    {
+      "title": "Google Launches Gemini Advanced With Enhanced AI Capabilities",
+      "urls": [
+        "https://gemini.google.com",
+        "https://deepai.org?lang=en",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://copilot.microsoft.com?msockid=13375bb7076262b13ae54cef06006317",
+        "https://grok.com",
+        "https://www.perplexity.ai",
+        "https://www.meta.ai"
+      ],
+      "date": "2026-05-13T17:38:17.126986+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T16:36:20.019135+00:00"
+  "lastUpdated": "2026-05-13T17:38:17.127053+00:00"
 }
