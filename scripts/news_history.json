@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI launched Mistral Medium 3.",
-      "urls": [
-        "https://tech.yahoo.com/ai/articles/mistral-ai-drops-open-source-213103938.html"
-      ],
-      "date": "2026-05-03T02:04:06.841084+00:00"
-    },
-    {
-      "title": "Telehealth is accelerating the integration of digital payments into healthcare systems, creating sea",
-      "urls": [
-        "https://www.jpmorgan.com/payments/payments-unbound/volume-2/the-new-telehealth-economy",
-        "https://www.nibib.nih.gov/programs/digital-health",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
-        "https://telehealthandmedicinetoday.com"
-      ],
-      "date": "2026-05-03T02:34:00.621529+00:00"
-    },
-    {
       "title": "{\"articleText\": \"Pakistan is leading a sustained diplomatic effort to facilitate renewed talks betwe",
       "urls": [
         "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-pakistan-peace-talks-ultimatum",
@@ -4057,7 +4040,16 @@
         "https://www.usgs.gov/science/science-explorer/climate"
       ],
       "date": "2026-05-13T01:33:56.639174+00:00"
+    },
+    {
+      "title": "Oklahoma City Thunder Defeat Los Angeles Lakers To End LeBron James 23rd Season",
+      "urls": [
+        "https://sports.yahoo.com",
+        "https://www.cbssports.com",
+        "https://www.dailynews.com/sports"
+      ],
+      "date": "2026-05-13T02:36:19.473711+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T01:33:56.639244+00:00"
+  "lastUpdated": "2026-05-13T02:36:19.473774+00:00"
 }
