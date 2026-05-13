@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple is partnering with Google to integrate Gemini AI models into its upcoming Siri overhaul, marki",
-      "urls": [
-        "https://techcrunch.com/2024/09/20/hottest-apple-products-google-microsoft",
-        "https://seekingalpha.com/article/4876922-big-tech-teams-up-against-alphabet-while-apple-reaps-the-rewards",
-        "https://www.usatoday.com/story/money/2026/04/01/apple-turns-50-microsoft-google/89421094007",
-        "https://finance.yahoo.com/news/google-apple-enter-multi-ai-162042206.html",
-        "https://www.pcmag.com/opinions/wwdc-2025-apple-intelligence-is-behind-google-microsoft",
-        "https://www.nytimes.com/2026/01/12/technology/apple-google-ai-partnership.html",
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoq1ZsQTr827U0kYCziyX7z9DvB4m1F7cv5v5o41UvRzUTUPR-yx",
-        "https://www.youtube.com/watch?v=8fKF2JcZFA0",
-        "https://www.youtube.com/watch?v=ER9jWYmxBVg",
-        "https://www.morningstar.com/stocks/3-stocks-buy-before-their-discounts-disappear-again-2"
-      ],
-      "date": "2026-05-03T13:03:13.892727+00:00"
-    },
-    {
-      "title": "Carnegie Mellon University Deploys AI Tools to Enhance Campus Digital Accessibility",
-      "urls": [
-        "https://www.cmu.edu/computing/news/2025/ai-future-accessibility.html"
-      ],
-      "date": "2026-05-03T13:33:59.434317+00:00"
-    },
-    {
       "title": "AudioEye Launches New Guidelines for Deaf And Hard-Of-Hearing Accessibility",
       "urls": [
         "https://www.audioeye.com/post/digital-accessibility-deaf-hard-of-hearing"
@@ -4050,7 +4027,18 @@
         "https://www.iplt20.com"
       ],
       "date": "2026-05-13T12:38:22.472747+00:00"
+    },
+    {
+      "title": "South Korea has marked one year since the imposition of martial law, a move that triggered a constit",
+      "urls": [
+        "https://www.nbcnews.com/politics/2026-election/poll-trump-struggles-immigration-prices-iran-democrats-midterm-edge-rcna261861",
+        "https://thediplomat.com/2025/12/south-koreas-fractured-democracy-one-year-after-martial-law",
+        "https://m.hindustantimes.com/elections",
+        "https://www.usatoday.com/story/news/politics/elections/2024/09/12/trump-prosecution-threats-political-rivals/75060866007",
+        "https://apnews.com/article/trump-biden-democracy-election-2024-f2f824f056ae9f81f4e688fe590f41b4"
+      ],
+      "date": "2026-05-13T14:03:19.580560+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T12:38:22.472814+00:00"
+  "lastUpdated": "2026-05-13T14:03:19.580608+00:00"
 }
