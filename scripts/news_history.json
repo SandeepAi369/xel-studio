@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "AudioEye Launches New Guidelines for Deaf And Hard-Of-Hearing Accessibility",
-      "urls": [
-        "https://www.audioeye.com/post/digital-accessibility-deaf-hard-of-hearing"
-      ],
-      "date": "2026-05-03T14:07:18.987774+00:00"
-    },
-    {
-      "title": "PyTorch Powers 70 Percent of Academic AI Research",
-      "urls": [
-        "https://www.udacity.com/blog/2025/06/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025.html",
-        "https://news.ycombinator.com/item?id=45844142",
-        "https://pytorch.org",
-        "https://www.huawei.com/sg/news/2023/pytorch-an-ever-growing-ai-framework-among-ai-practitioners",
-        "https://www.reddit.com/r/gpt5/comments/1mvv3ik/deep_learning_frameworks_pytorch_vs_tensorflow_in",
-        "https://rafay.co/ai-and-cloud-native-blog/pytorch-vs-tensorflow-a-comprehensive-comparison",
-        "https://www.cmarix.com/blog/pytorch-vs-tensorflow",
-        "https://www.hyperstack.cloud/blog/case-study/pytorch-vs-tensorflow",
-        "https://www.tensorflow.org",
-        "https://www.linkedin.com/posts/mlech26l_the-deep-learning-paradox-why-tensorflow-activity-7354113625214619649-L0N1"
-      ],
-      "date": "2026-05-03T14:33:59.771155+00:00"
-    },
-    {
       "title": "Digital health technologies are expanding access to mental health care, particularly for individuals",
       "urls": [
         "https://hsph.harvard.edu/advanced-learning-academy/news/digital-technology-for-mental-health-apps-and-beyond"
@@ -4038,7 +4015,15 @@
         "https://apnews.com/article/trump-biden-democracy-election-2024-f2f824f056ae9f81f4e688fe590f41b4"
       ],
       "date": "2026-05-13T14:03:19.580560+00:00"
+    },
+    {
+      "title": "Open is a versatile English word with multiple grammatical uses, functioning as an adjective, verb, ",
+      "urls": [
+        "https://www.thefreedictionary.com/open",
+        "https://usdictionary.com/definitions/open"
+      ],
+      "date": "2026-05-13T14:38:33.973122+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T14:03:19.580608+00:00"
+  "lastUpdated": "2026-05-13T14:38:33.973187+00:00"
 }
