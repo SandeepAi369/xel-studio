@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Developers Adopt AI Coding Tools With 90 Percent Usage Reported",
-      "urls": [
-        "https://www.reddit.com/r/ChatGPTCoding/comments/1buve58/anyone_really_followinglearning_the_ai_coding",
-        "https://www.forbes.com/sites/joetoscano1/2026/01/20/developers-use-ai-coding-tools-to-get-started-not-finish-the-job",
-        "https://www.insightpartners.com/ideas/ai-coding-developer-productivity-software-supply-chain",
-        "https://zapier.com/blog/ai-coding-tools",
-        "https://cybernews.com/ai-tools/best-ai-for-software-development",
-        "https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them",
-        "https://www.youtube.com/watch?v=b9EbCb5A408",
-        "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026",
-        "https://www.nytimes.com/2026/04/06/technology/ai-code-overload.html",
-        "https://news.ycombinator.com/item?id=46301886"
-      ],
-      "date": "2026-05-03T06:08:17.705562+00:00"
-    },
-    {
-      "title": "Solar Power Surges 31 Percent Globally in First Half of Year",
-      "urls": [
-        "https://apnews.com/article/climate-renewable-wind-solar-coal-electricity-demand-abf7b587b038bf7580de1baee6576bbc",
-        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
-      ],
-      "date": "2026-05-03T06:36:05.714852+00:00"
-    },
-    {
       "title": "Department Of Commerce Launches American AI Exports Program To Boost Global Sales",
       "urls": [
         "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
@@ -4071,7 +4047,23 @@
         "https://www.cbc.ca/news/science/solar-wind-renewables-coal-electricity-1.7653234"
       ],
       "date": "2026-05-13T06:06:26.312594+00:00"
+    },
+    {
+      "title": "Apple Rolls Out End-To-End Encrypted RCS In iOS 26.5 Update",
+      "urls": [
+        "https://techcrunch.com",
+        "https://www.techradar.com",
+        "https://www.theverge.com/tech",
+        "https://www.wired.com",
+        "https://www.pcmag.com/news",
+        "https://www.reuters.com/technology",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+        "https://get.tech",
+        "https://www.bbc.com/technology/tech-now",
+        "https://arstechnica.com"
+      ],
+      "date": "2026-05-13T06:38:25.307913+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T06:06:26.312653+00:00"
+  "lastUpdated": "2026-05-13T06:38:25.307984+00:00"
 }
