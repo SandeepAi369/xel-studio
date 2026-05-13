@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oticon More And Phonak Lumity Enhance Speech Clarity With AI",
-      "urls": [
-        "https://www.telefonica.com/en/communication-room/blog/artificial-intelligence-transforming-lives-hearing-impaired-hard-hearing-people"
-      ],
-      "date": "2026-05-03T01:04:13.165692+00:00"
-    },
-    {
-      "title": "BloombergNEF Names 12 Climate Tech Startups Leading $2.3 Trillion Energy Transition",
-      "urls": [
-        "https://www.iea.org/reports/clean-energy-innovation",
-        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners",
-        "https://climateinsider.com"
-      ],
-      "date": "2026-05-03T01:32:53.088347+00:00"
-    },
-    {
       "title": "Mistral AI launched Mistral Medium 3.",
       "urls": [
         "https://tech.yahoo.com/ai/articles/mistral-ai-drops-open-source-213103938.html"
@@ -4058,7 +4042,22 @@
         "https://abc7chicago.com/news"
       ],
       "date": "2026-05-13T00:34:12.058966+00:00"
+    },
+    {
+      "title": "Noaa Reports Global Temperatures Rise 1.2 Degrees Since 1900",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Climate",
+        "https://www.climatestotravel.com/climate/united-states/boston",
+        "https://www.britannica.com/science/climate-meteorology",
+        "https://www.noaa.gov/climate",
+        "https://education.nationalgeographic.org/resource/all-about-climate",
+        "https://www.climate.gov/news-features/understanding-climate",
+        "https://wmo.int/topics/climate",
+        "https://scied.ucar.edu/learning-zone/how-climate-works/climate",
+        "https://www.usgs.gov/science/science-explorer/climate"
+      ],
+      "date": "2026-05-13T01:33:56.639174+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T00:34:12.059030+00:00"
+  "lastUpdated": "2026-05-13T01:33:56.639244+00:00"
 }
