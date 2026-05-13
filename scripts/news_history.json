@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Llama 4 Scout And Maverick With Multimodal Capabilities",
-      "urls": [
-        "https://ai.meta.com/open",
-        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
-        "https://seekingalpha.com/news/4572778-meta-may-open-source-versions-of-its-upcoming-ai-models-report",
-        "https://ai.meta.com/blog/meta-llama-3-1",
-        "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
-        "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
-      ],
-      "date": "2026-05-03T04:04:05.928786+00:00"
-    },
-    {
       "title": "Nikola Jokić Leads Nuggets With 28 Points In Game 4 Win",
       "urls": [
         "https://www.tiktok.com/@togethxr/video/7570761070667681054",
@@ -4055,7 +4042,23 @@
         "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography"
       ],
       "date": "2026-05-13T03:35:10.933568+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT 5.5 With Enhanced Reasoning And Multimodal Features",
+      "urls": [
+        "https://openai.com",
+        "https://chatgpt.com",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://www.open-openai.com/app",
+        "https://www.forbes.com/companies/openai",
+        "https://builtin.com/artificial-intelligence/openai-gpt-5-release",
+        "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+        "https://openai.com/index/introducing-gpt-5-3-codex",
+        "https://www.timesofai.com/news/openai-releases-gpt-5-5-spud-ai-model",
+        "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions"
+      ],
+      "date": "2026-05-13T04:06:17.606024+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T03:35:10.933643+00:00"
+  "lastUpdated": "2026-05-13T04:06:17.606085+00:00"
 }
