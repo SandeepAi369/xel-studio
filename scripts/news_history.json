@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic Uses NVIDIA Blackwell SuperPOD to Accelerate Pancreatic Cancer Detection",
-      "urls": [
-        "https://www.youtube.com/watch?v=cx_CKLb8Yl4",
-        "https://www.youtube.com/watch?v=bg6T4_l1N8Y",
-        "https://news.rice.edu/news/2025/how-ai-can-help-detect-disease-and-accelerate-medical-breakthroughs",
-        "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2025/08/new-method-advances-reliability-of-ai-with-applications-in-medical-diagnostics",
-        "https://racmonitor.medlearn.com/ai-quickly-emerging-as-force-for-good-when-diagnosing-matters-most",
-        "https://www.yahoo.com/news/articles/ai-outperformed-doctors-diagnosing-tough-190000561.html",
-        "https://edition.cnn.com/2026/04/22/science/video/ai-medicine-health-doctor-science-treatment-lead-jake-tapper"
-      ],
-      "date": "2026-05-03T11:05:07.809431+00:00"
-    },
-    {
-      "title": "IAPP maintains a comprehensive tracker of U.",
-      "urls": [
-        "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker"
-      ],
-      "date": "2026-05-03T11:34:00.845021+00:00"
-    },
-    {
-      "title": "Global Biodiversity Framework Fund has launched to support developing nations in meeting the 30x30 c",
-      "urls": [
-        "https://www.biologicaldiversity.org/campaigns/victories",
-        "https://www.campaignfornature.org/news/category/biodiversity+loss"
-      ],
-      "date": "2026-05-03T12:04:12.745722+00:00"
-    },
-    {
       "title": "Sophia Wilson scored her first goal as a mother in the 95th minute, securing a go-ahead game-winning",
       "urls": [
         "https://www.bbc.co.uk/sport/football/videos/cd7p3ryyv4eo",
@@ -4057,7 +4029,23 @@
         "https://www.webmd.com/mental-health/default.htm"
       ],
       "date": "2026-05-13T11:04:22.996661+00:00"
+    },
+    {
+      "title": "Digital technology refers to systems that process information using discrete binary values, typicall",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/digital",
+        "https://dictionary.cambridge.org/dictionary/english/digital",
+        "https://en.m.wikipedia.org/wiki/Digital",
+        "https://www.thefreedictionary.com/digital",
+        "https://www.pcmag.com/encyclopedia/term/digital",
+        "https://www.computerhope.com/jargon/d/digital.htm",
+        "https://www.yourdictionary.com/digital",
+        "https://www.dictionary.com/browse/digital",
+        "https://www.britannica.com/dictionary/digital",
+        "https://www.collinsdictionary.com/dictionary/english/digital"
+      ],
+      "date": "2026-05-13T12:10:37.153702+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T11:04:22.996720+00:00"
+  "lastUpdated": "2026-05-13T12:10:37.153760+00:00"
 }
