@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Caltech scientists have identified a breakthrough in quantum computing efficiency, showing neutral-a",
-      "urls": [
-        "https://pasadenanow.com/main/breakthrough-caltech-scientists-discover-quantum-computers-could-need-a-fraction-of-the-hardware-previously-thought"
-      ],
-      "date": "2026-05-03T22:04:13.327314+00:00"
-    },
-    {
       "title": "One Third of U.S. Fish and Wildlife Species Face Imminent Extinction",
       "urls": [
         "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
@@ -4026,7 +4019,22 @@
         "https://www.bemyeyes.com/news/be-my-eyes-foundation-launches-to-ensure-free-access-to-accessibility-technology-for-blind-people-worldwide"
       ],
       "date": "2026-05-13T21:37:18.830207+00:00"
+    },
+    {
+      "title": "Google DeepMind is advancing research in artificial general intelligence (AGI), with CEO Demis Hassa",
+      "urls": [
+        "https://www.nature.com/news",
+        "https://scitechdaily.com/news/biology",
+        "https://www.sciencenews.org",
+        "https://www.science.org/content/article/scienceadviser-all-breakthroughs-2025-what-topped-science-s-list",
+        "https://www.sciencenewstoday.org",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
+        "https://www.sciencedaily.com",
+        "https://www.apa.org/news/science-spotlight/psychological-science",
+        "https://deepmind.google"
+      ],
+      "date": "2026-05-13T22:06:29.952695+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T21:37:18.830273+00:00"
+  "lastUpdated": "2026-05-13T22:06:29.952762+00:00"
 }
