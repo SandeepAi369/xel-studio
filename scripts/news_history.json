@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has emerged as a central hub for open-source AI development, hosting thousands of pre-t",
-      "urls": [
-        "https://www.krasamo.com/open-source-ai-models",
-        "https://www.datacamp.com/code-along/using-open-source-models-hugging-face",
-        "https://www.datacamp.com/fr/code-along/using-open-source-models-hugging-face",
-        "https://blog-ai.digital/artificial-intelligence/hugging-face-your-gateway-to-the-world-of-ai",
-        "https://datacamp.com/es/code-along/using-open-source-models-hugging-face",
-        "https://datacamp.com/pt/code-along/using-open-source-models-hugging-face",
-        "https://datacamp.com/de/code-along/using-open-source-models-hugging-face",
-        "https://datacamp.com/fr/code-along/using-open-source-models-hugging-face",
-        "https://datacamp.com/code-along/using-open-source-models-hugging-face",
-        "https://www.iweaver.ai/blog/hugging-face-open-source-tools"
-      ],
-      "date": "2026-05-03T18:32:58.710619+00:00"
-    },
-    {
       "title": "Digital health technologies are increasingly used to improve access to mental health care, especiall",
       "urls": [
         "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
@@ -4025,7 +4009,21 @@
         "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=0ccfc93bf04767fc2609de63f16a66fb"
       ],
       "date": "2026-05-13T18:04:25.661634+00:00"
+    },
+    {
+      "title": "DeepSeek Launches Open-Source V4 And V4-Large AI Models With 128K-Token Context",
+      "urls": [
+        "https://github.com/QwenLM/Qwen3.6",
+        "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+        "https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows",
+        "https://www.llm-evolution.com",
+        "https://letsdatascience.com/news/deepseek-releases-open-source-v4-large-models-f5a3b72c",
+        "https://www.prnewswire.com/news-releases/zai-releases-glm-4-7-designed-for-real-world-development-environments-cementing-itself-as-chinas-openai-302649821.html",
+        "https://aiflashreport.com/model-releases.html",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "date": "2026-05-13T18:40:35.287082+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T18:04:25.661703+00:00"
+  "lastUpdated": "2026-05-13T18:40:35.287155+00:00"
 }
