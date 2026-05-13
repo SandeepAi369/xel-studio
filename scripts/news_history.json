@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital health technologies are expanding access to mental health care, particularly for individuals",
-      "urls": [
-        "https://hsph.harvard.edu/advanced-learning-academy/news/digital-technology-for-mental-health-apps-and-beyond"
-      ],
-      "date": "2026-05-03T15:05:12.755392+00:00"
-    },
-    {
-      "title": "Mistral unveiled its next-generation open-source AI models named Mistral 3, marking a significant up",
-      "urls": [
-        "https://www.msn.com/en-us/technology/artificial-intelligence/french-ai-startup-mistral-unveils-mistral-3-open-source-models/ar-AA1RzDcP"
-      ],
-      "date": "2026-05-03T15:32:57.707926+00:00"
-    },
-    {
       "title": "Digital Privacy Rights Project has launched a new initiative to evaluate and rank major technology c",
       "urls": [
         "https://www.theguardian.com/sustainable-business/who-protects-digital-privacy-rankings"
@@ -4038,7 +4024,23 @@
         "https://www.geeky-gadgets.com/mistral-3-large-ai-multilingual"
       ],
       "date": "2026-05-13T15:04:21.650591+00:00"
+    },
+    {
+      "title": "Extreme has released six studio albums and two EPs since forming in Boston in 1985, establishing the",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Extreme_(band)",
+        "https://extreme-band.com",
+        "https://music.youtube.com/channel/UCLNdQ1KGO8L5RlHUVjuOQFQ",
+        "https://bassmagazine.com/extreme-announces-new-album-and-world-tour-with-living-colour",
+        "https://dictionary.cambridge.org/dictionary/english/extreme",
+        "https://www.facebook.com/extremeband",
+        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=02da9e1ce7ce63b635a78944e61c62ed",
+        "https://www.instagram.com/extreme_band",
+        "https://www.imdb.com/name/nm1928195",
+        "https://www.iheart.com/artist/extreme-40596"
+      ],
+      "date": "2026-05-13T16:06:34.847666+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T15:04:21.650648+00:00"
+  "lastUpdated": "2026-05-13T16:06:34.847753+00:00"
 }
