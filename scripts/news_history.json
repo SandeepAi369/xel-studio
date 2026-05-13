@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI infrastructure is undergoing a strategic shift as companies reassess compute strategies amid risi",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
-        "https://www.cio.com/article/4151376/scaling-ai-demands-a-new-infrastructure-playbook.html",
-        "https://www.youtube.com/watch?v=6KbrxjaxiYs"
-      ],
-      "date": "2026-05-03T19:39:09.260107+00:00"
-    },
-    {
-      "title": "World Bank reports that global energy prices are projected to surge 24 percent in 2026, driven by on",
-      "urls": [
-        "https://www.wsj.com/economy/global",
-        "https://www.reuters.com/markets/econ-world",
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
-        "https://www.nytimes.com/section/business/economy",
-        "https://www.youtube.com/watch?v=2kHfzyWIKmY",
-        "https://www.youtube.com/watch?v=Xj5pSmvHafo",
-        "https://apnews.com/hub/inflation",
-        "https://www.cnn.com/business/economy",
-        "https://finance.yahoo.com/topic/economic-news",
-        "https://www.cnbc.com/economy"
-      ],
-      "date": "2026-05-03T20:06:17.709100+00:00"
-    },
-    {
       "title": "Amazon Web Services Surpasses 100 Billion In 2024 Revenue",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOora1mlEjUqZea8bDjhScKx6VJ8jQKHbghvBkcManrk-zQKQl0w4"
@@ -4034,7 +4009,14 @@
         "https://www.foxnews.com?msockid=303034925f67608e148523ca5e5961ec"
       ],
       "date": "2026-05-13T19:36:11.918078+00:00"
+    },
+    {
+      "title": "Fox News launched a redesigned website and mobile platform to improve user navigation and increase e",
+      "urls": [
+        "https://www.foxnews.com?msockid=110f1cc081de6fe81b7e0b9880f86e2c"
+      ],
+      "date": "2026-05-13T20:06:22.495280+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T19:36:11.918139+00:00"
+  "lastUpdated": "2026-05-13T20:06:22.495342+00:00"
 }
