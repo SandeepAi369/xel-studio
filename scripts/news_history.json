@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital health technologies are increasingly used to improve access to mental health care, especiall",
-      "urls": [
-        "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
-        "https://www.youtube.com/watch?v=xq-E2WmsW30"
-      ],
-      "date": "2026-05-03T19:04:09.633913+00:00"
-    },
-    {
       "title": "AI infrastructure is undergoing a strategic shift as companies reassess compute strategies amid risi",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
@@ -4023,7 +4015,18 @@
         "https://github.com/vllm-project/vllm"
       ],
       "date": "2026-05-13T18:40:35.287082+00:00"
+    },
+    {
+      "title": "Telemedicine enables patients to access clinical care remotely using digital communication tools, ex",
+      "urls": [
+        "https://www.medicalnewstoday.com/articles/telemedicine",
+        "https://telehealth.hhs.gov/patients/why-use-telehealth",
+        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
+        "https://doxy.me",
+        "https://www.auamed.org/blog/what-is-telemedicine"
+      ],
+      "date": "2026-05-13T19:05:51.207420+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T18:40:35.287155+00:00"
+  "lastUpdated": "2026-05-13T19:05:51.207476+00:00"
 }
