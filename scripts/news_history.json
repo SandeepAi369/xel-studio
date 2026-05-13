@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Launches AI-Powered Smart Wheelchair With Real-Time Navigation",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOopc41IQm9eChERkypW1NJiEgHRWTGhsk-CSZeY3WjBTkCINeG3n"
-      ],
-      "date": "2026-05-03T09:33:57.369713+00:00"
-    },
-    {
-      "title": "Mistral AI Deploys Custom Models For Stellantis And ASML",
-      "urls": [
-        "https://mistral.ai"
-      ],
-      "date": "2026-05-03T10:04:07.642650+00:00"
-    },
-    {
       "title": "Wildlife populations declined by 73% between 1970 and 2018, according to the World Wildlife Fund’s L",
       "urls": [
         "https://www.youtube.com/watch?v=kvz9SW09-q4"
@@ -4040,7 +4026,22 @@
         "https://www.foxnews.com?msockid=337b7c98a4f365ed2a526bc0a5c96475"
       ],
       "date": "2026-05-13T09:04:21.018931+00:00"
+    },
+    {
+      "title": "Hugging frequency is strongly linked to mental health, with a 2025 study of over 3,200 participants ",
+      "urls": [
+        "https://github.com/huggingface",
+        "https://en.m.wikipedia.org/wiki/Hugging_face",
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202512/the-top-scientific-insights-on-hugging-from-2025?msockid=08429ff675df63171d2f88ae74386290",
+        "https://www.healthline.com/health/hugging-benefits",
+        "https://www.techradar.com/pro/what-is-hugging-face-everything-we-know-about-the-ml-platform",
+        "https://www.wikihow.com/Types-of-Hugs",
+        "https://www.verywellmind.com/the-power-of-a-hug-on-your-health-5211361",
+        "https://www.huggingfaceapi.com",
+        "https://www.ibm.com/think/topics/hugging-face"
+      ],
+      "date": "2026-05-13T10:06:18.433337+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T09:04:21.018998+00:00"
+  "lastUpdated": "2026-05-13T10:06:18.433406+00:00"
 }
