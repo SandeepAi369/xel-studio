@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildlife populations declined by 73% between 1970 and 2018, according to the World Wildlife Fund’s L",
-      "urls": [
-        "https://www.youtube.com/watch?v=kvz9SW09-q4"
-      ],
-      "date": "2026-05-03T10:33:58.177186+00:00"
-    },
-    {
       "title": "Mayo Clinic Uses NVIDIA Blackwell SuperPOD to Accelerate Pancreatic Cancer Detection",
       "urls": [
         "https://www.youtube.com/watch?v=cx_CKLb8Yl4",
@@ -4041,7 +4034,22 @@
         "https://www.ibm.com/think/topics/hugging-face"
       ],
       "date": "2026-05-13T10:06:18.433337+00:00"
+    },
+    {
+      "title": "OpenEvidence Delivers Peer Reviewed Clinical Insights To Healthcare Providers",
+      "urls": [
+        "https://www.openevidence.com",
+        "https://www.merriam-webster.com/dictionary/open",
+        "https://open.varsityuniversity.org",
+        "https://dictionary.cambridge.org/dictionary/english/open",
+        "https://secure.opentable.com",
+        "https://finance.yahoo.com/quote/OPEN",
+        "https://openlibrary.org?preview=1",
+        "https://www.man7.org/linux/man-pages/man2/open.2.html",
+        "https://www.vocabulary.com/dictionary/open"
+      ],
+      "date": "2026-05-13T10:40:21.621946+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T10:06:18.433406+00:00"
+  "lastUpdated": "2026-05-13T10:40:21.622011+00:00"
 }
