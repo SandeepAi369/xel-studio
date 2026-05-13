@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "One Third of U.S. Fish and Wildlife Species Face Imminent Extinction",
-      "urls": [
-        "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
-        "https://news.mongabay.com/list/biodiversity",
-        "https://news.mongabay.com/list/wildlife-conservation",
-        "https://www.theguardian.com/environment/conservation",
-        "https://www.wildlifetrusts.org/news",
-        "https://www.nwf.org/Latest-News"
-      ],
-      "date": "2026-05-03T22:33:57.741998+00:00"
-    },
-    {
       "title": "Linux Foundation Launches OpenSearch Software Foundation",
       "urls": [
         "https://www.linux.com",
@@ -4034,7 +4022,21 @@
         "https://deepmind.google"
       ],
       "date": "2026-05-13T22:06:29.952695+00:00"
+    },
+    {
+      "title": "Japan experienced a magnitude 7.",
+      "urls": [
+        "https://www.youtube.com/@DisasterToday",
+        "https://www.volcanodiscovery.com/news.html",
+        "https://www.newsnow.com/us/World/Natural+Disasters",
+        "https://7news.com.au/weather/natural-disasters",
+        "https://earthquaketoday.org",
+        "https://www.reuters.com/world/earthquakes",
+        "https://earthquakesworldwide.com/earthquakes/recent",
+        "https://www.usgs.gov/programs/earthquake-hazards/earthquakes"
+      ],
+      "date": "2026-05-13T22:35:05.864091+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T22:06:29.952762+00:00"
+  "lastUpdated": "2026-05-13T22:35:05.864147+00:00"
 }
