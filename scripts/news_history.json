@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sophia Wilson scored her first goal as a mother in the 95th minute, securing a go-ahead game-winning",
-      "urls": [
-        "https://www.bbc.co.uk/sport/football/videos/cd7p3ryyv4eo",
-        "https://www.bbc.com/sport/football/videos/cn4p90g5w8zo",
-        "https://www.nytimes.com/athletic"
-      ],
-      "date": "2026-05-03T12:33:04.837120+00:00"
-    },
-    {
       "title": "Apple is partnering with Google to integrate Gemini AI models into its upcoming Siri overhaul, marki",
       "urls": [
         "https://techcrunch.com/2024/09/20/hottest-apple-products-google-microsoft",
@@ -4045,7 +4036,21 @@
         "https://www.collinsdictionary.com/dictionary/english/digital"
       ],
       "date": "2026-05-13T12:10:37.153702+00:00"
+    },
+    {
+      "title": "Ipl 2026 Teams Battle For Top Rank In T20 Season",
+      "urls": [
+        "https://news.abplive.com/sports",
+        "https://indianexpress.com/section/sports",
+        "https://www.bbc.com/sport/football/scores-fixtures",
+        "https://www.flashscore.com",
+        "https://m.timesofindia.com/sports",
+        "https://www.indiatoday.in/sports",
+        "https://www.espncricinfo.com/cricket-news",
+        "https://www.iplt20.com"
+      ],
+      "date": "2026-05-13T12:38:22.472747+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T12:10:37.153760+00:00"
+  "lastUpdated": "2026-05-13T12:38:22.472814+00:00"
 }
