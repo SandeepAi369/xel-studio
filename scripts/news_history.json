@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Privacy Rights Project has launched a new initiative to evaluate and rank major technology c",
-      "urls": [
-        "https://www.theguardian.com/sustainable-business/who-protects-digital-privacy-rankings"
-      ],
-      "date": "2026-05-03T16:08:19.906039+00:00"
-    },
-    {
-      "title": "Sports Technology Market is projected to expand from $19.",
-      "urls": [
-        "https://www.youtube.com/watch?v=Ot6xe8hlKtQ",
-        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoqXDSJxFN7imVqo4NVuXrt6r1b8Jkec-7vYWohSanDeaybH5zU-",
-        "https://finance.yahoo.com/news/sports-technology-market-insights-companies-125000113.html"
-      ],
-      "date": "2026-05-03T16:33:56.360329+00:00"
-    },
-    {
       "title": "Apple has entered a strategic partnership with Google to integrate Gemini, Google's large language m",
       "urls": [
         "https://www.ghacks.net/category/companies",
@@ -4040,7 +4024,22 @@
         "https://www.iheart.com/artist/extreme-40596"
       ],
       "date": "2026-05-13T16:06:34.847666+00:00"
+    },
+    {
+      "title": "Google and SpaceX are in talks to launch orbital data centers, aiming to bypass terrestrial power an",
+      "urls": [
+        "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-34th-station-resupply-launch-arrival",
+        "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch",
+        "https://orbysa.com/news/misc/2025-09-29-recent-advances-in-rocket-technology-highlights-from-spacex-and-nasa",
+        "https://spaceheadlines.com",
+        "https://www.reuters.com/technology/space",
+        "https://www.launchtracker.space",
+        "https://interestingengineering.com/space",
+        "https://www.space.com/tag/spacex",
+        "https://www.spacex.com/updates"
+      ],
+      "date": "2026-05-13T16:36:20.019070+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T16:06:34.847753+00:00"
+  "lastUpdated": "2026-05-13T16:36:20.019135+00:00"
 }
