@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "title": "Department Of Commerce Launches American AI Exports Program To Boost Global Sales",
-      "urls": [
-        "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
-        "https://www.itic.org/news-events/news-releases?policy=trade-investment",
-        "https://www.trade.gov/press-releases",
-        "https://www.trade.gov/tech",
-        "https://www.techpolicy.press/how-the-united-states-used-tariff-deals-to-weaken-tech-regulation-around-the-world",
-        "https://rethinktrade.org/digitaltrade",
-        "https://www.csis.org/topics/trade-and-international-business",
-        "https://itif.org/issues/trade",
-        "https://www.youtube.com/watch?v=4k-XZDWUjsA",
-        "https://www.youtube.com/watch?v=e0qTpylNuXA"
-      ],
-      "date": "2026-05-03T07:08:13.995599+00:00"
-    },
-    {
-      "title": "China Closes Gap on U.S. in Artificial Intelligence Capabilities",
-      "urls": [
-        "https://www.youtube.com/watch?v=sshmxyfno8U"
-      ],
-      "date": "2026-05-03T07:34:01.439116+00:00"
-    },
-    {
-      "title": "Africa is splitting apart faster than previously estimated, with the East African Rift system advanc",
-      "urls": [
-        "https://www.sciencealert.com",
-        "https://www.sciencedaily.com",
-        "https://www.cnn.com/specials/science-breakthroughs",
-        "https://www.livescience.com/news",
-        "https://www.nature.com/news",
-        "https://www.sci.news",
-        "https://magazine.northwestern.edu/discovery",
-        "https://www.bbc.com/innovation/science",
-        "https://www.harvard.edu/in-focus/breakthroughs-of-2025"
-      ],
-      "date": "2026-05-03T08:03:08.932421+00:00"
-    },
-    {
       "title": "Esports Champions Launch Season Two With Street Fighter 6 And Call Of Duty Tournaments",
       "urls": [
         "https://www.esportschampionship.gg",
@@ -4074,7 +4036,23 @@
         "https://www.timesofai.com/news/ai"
       ],
       "date": "2026-05-13T07:07:35.445895+00:00"
+    },
+    {
+      "title": "Katie Wilson has been elected mayor of Seattle, defeating incumbent Bruce Harrell by a margin of 0.",
+      "urls": [
+        "https://kingcounty.gov/en/dept/elections",
+        "https://www.sos.wa.gov/elections",
+        "https://ballotpedia.org/Washington_election_calendar",
+        "https://www.nbcnews.com/politics/elections",
+        "https://www.fox13seattle.com/news/election-live-updates-early-results",
+        "https://results.votewa.gov/results/public/washington",
+        "https://www.seattletimes.com/seattle-news/politics/washington-state-election-results-2025",
+        "https://komonews.com/elections/local",
+        "https://en.wikipedia.org/wiki/2025_Seattle_mayoral_election",
+        "https://seattlered.com/politics/katie-wilson-seattle-mayor-2/4115129"
+      ],
+      "date": "2026-05-13T08:08:42.139452+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T07:07:35.445953+00:00"
+  "lastUpdated": "2026-05-13T08:08:42.139528+00:00"
 }
