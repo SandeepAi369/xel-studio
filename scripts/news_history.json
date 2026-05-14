@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Miracle on Ice marked a defining moment in Olympic history when the U.",
-      "urls": [
-        "https://www.sportdecals.com/blog/post/5-unforgettable-moments-in-sports-history?srsltid=AfmBOorcJa7C8sqa4hgSaxbtdbe4p_B3783K3ngVLtB4RSAh8Q-P3-mv"
-      ],
-      "date": "2026-05-04T11:09:15.394417+00:00"
-    },
-    {
       "title": "Iran has submitted a 14-point peace proposal aimed at ending the ongoing conflict with the United St",
       "urls": [
         "https://www.youtube.com/watch?v=ZeawLwS-ssA",
@@ -4109,7 +4102,17 @@
         "https://www.oxfordlearnersdictionaries.com/definition/english/global"
       ],
       "date": "2026-05-14T11:03:16.752108+00:00"
+    },
+    {
+      "title": "Scientists Link Climate Change to Extreme Weather Events",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Climate",
+        "https://scied.ucar.edu/learning-zone/how-climate-works",
+        "https://climate.mit.edu",
+        "https://css.umich.edu/publications/factsheets/climate-change/climate-change-science-and-impacts-factsheet"
+      ],
+      "date": "2026-05-14T11:32:06.786490+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T11:03:16.752171+00:00"
+  "lastUpdated": "2026-05-14T11:32:06.786559+00:00"
 }
