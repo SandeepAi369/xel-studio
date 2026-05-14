@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gray Wolf Dragging Crab Trap Ashore Shows Tool Use",
-      "urls": [
-        "https://www.sciencenews.org/article/2025-scientific-discoveries-record",
-        "https://www.rockefeller.edu/news/38720-intriguing-science-discoveries-of-2025",
-        "https://www.nbcnews.com/science"
-      ],
-      "date": "2026-05-04T18:06:29.476062+00:00"
-    },
-    {
       "title": "Q1 2026 saw global venture funding reach its highest level since Q2 2022, driven primarily by the on",
       "urls": [
         "https://finance.yahoo.com/news/ai-startups-founders-vcs-could-094530075.html",
@@ -4188,7 +4179,20 @@
         "https://spaceflightnow.com/launch-schedule"
       ],
       "date": "2026-05-14T18:01:11.142833+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Transformers V5.8.0 With 128K Context Support",
+      "urls": [
+        "https://huggingface.co/blog",
+        "https://huggingface.co/huggingface",
+        "https://af.net/ar/realtime/latest-ai-innovations-from-hugging-face-github-and-arxiv-may-2026",
+        "https://www.essamamdani.com/blog/top-6-open-source-ai-models-april-2026",
+        "https://www.analyticsvidhya.com/blog/2025/11/top-open-source-models-on-huggingface",
+        "https://sider.ai/blog/ai-tools/is-hugging-face-still-the-best-open-source-ai-platform-an-honest-2025-review",
+        "https://releasebot.io/updates/huggingface"
+      ],
+      "date": "2026-05-14T18:31:01.290489+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T18:01:11.142900+00:00"
+  "lastUpdated": "2026-05-14T18:31:01.290548+00:00"
 }
