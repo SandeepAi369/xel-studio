@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SocialBee releases a comprehensive monthly update tracking social media platform changes, algorithm ",
-      "urls": [
-        "https://socialbee.com/blog/social-media-news"
-      ],
-      "date": "2026-05-04T08:04:12.359223+00:00"
-    },
-    {
       "title": "Thiago Alves Knocks Out Sean Brady At UFC Fight Night",
       "urls": [
         "https://www.cbssports.com/ufc"
@@ -4080,7 +4073,15 @@
         "https://www.forbes.com/sites/zakdoffman/2026/05/12/not-available-for-all-apple-changes-iphone-messaging-next-week"
       ],
       "date": "2026-05-14T08:01:13.842862+00:00"
+    },
+    {
+      "title": "Digital refers to systems that operate using discrete binary signals, typically represented as 0s an",
+      "urls": [
+        "https://www.vocabulary.com/dictionary/digital",
+        "https://en.wiktionary.org/wiki/digital"
+      ],
+      "date": "2026-05-14T08:31:11.831826+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T08:01:13.842963+00:00"
+  "lastUpdated": "2026-05-14T08:31:11.831898+00:00"
 }
