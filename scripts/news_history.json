@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States has received a \"Critically Insufficient\" rating from the Climate Action Tracker due to",
-      "urls": [
-        "https://www.sustainability.gov/archive/biden46/federalsustainabilityplan/emissions.html",
-        "https://climateactiontracker.org/countries/usa",
-        "https://www.un.org/en/climatechange/net-zero-coalition",
-        "https://apnews.com/climate-and-environment",
-        "https://www.cnbc.com/climate",
-        "https://usclimatealliance.org/news-events",
-        "https://www.youtube.com/watch?v=0rtBak_9qe8",
-        "https://www.nytimes.com/section/climate"
-      ],
-      "date": "2026-05-04T01:32:59.045108+00:00"
-    },
-    {
       "title": "Tools Adapt In Real Time To Aid Students With Disabilities",
       "urls": [
         "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students"
@@ -4042,7 +4028,18 @@
         "https://www.intel.com/content/www/us/en/learn/what-is-artificial-intelligence.html"
       ],
       "date": "2026-05-14T01:06:41.108382+00:00"
+    },
+    {
+      "title": "Included Health Appoints New Manager To Lead Behavioral Health Expansion",
+      "urls": [
+        "https://jobs.lever.co/healthcare",
+        "https://jobs.lever.co/synapticure/aa57a67c-acfa-418e-b3c6-2ab84c68e743",
+        "https://jobs.lever.co/skillerszone/8dc4f9d3-3b42-445f-8dfd-071e3a659edc",
+        "https://jobs.lever.co/includedhealth/9eda78ab-c85c-481e-a037-8c051a18cabf",
+        "https://jobs.lever.co/healthcare/0ab4af6b-d5a1-416b-b851-1ca1ad47349d"
+      ],
+      "date": "2026-05-14T01:35:15.092160+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T01:06:41.108446+00:00"
+  "lastUpdated": "2026-05-14T01:35:15.092224+00:00"
 }
