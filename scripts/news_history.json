@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maryland Accessible Telecommunications Program Distributes Free Captioned Phones to Eligible Residents",
-      "urls": [
-        "https://dila.org/resources/assistive-technology-links"
-      ],
-      "date": "2026-05-04T01:04:10.908392+00:00"
-    },
-    {
       "title": "United States has received a \"Critically Insufficient\" rating from the Climate Action Tracker due to",
       "urls": [
         "https://www.sustainability.gov/archive/biden46/federalsustainabilityplan/emissions.html",
@@ -4037,7 +4030,19 @@
         "https://www.coloradospringssports.org"
       ],
       "date": "2026-05-14T00:35:15.458559+00:00"
+    },
+    {
+      "title": "Microsoft Azure Advances Narrow AI With Machine Learning Tools",
+      "urls": [
+        "https://deepai.org/chat/what-is-ai",
+        "https://www.britannica.com/technology/artificial-intelligence",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=2f8f1e0f8c596a6d156c09568d346bce",
+        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai",
+        "https://www.ucf.edu/artificial-intelligence/what-is-artificial-intelligence-ai-and-why-people-should-learn-about-it",
+        "https://www.intel.com/content/www/us/en/learn/what-is-artificial-intelligence.html"
+      ],
+      "date": "2026-05-14T01:06:41.108382+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T00:35:15.458631+00:00"
+  "lastUpdated": "2026-05-14T01:06:41.108446+00:00"
 }
