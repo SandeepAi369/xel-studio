@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cal.",
-      "urls": [
-        "https://itsfoss.com/news",
-        "https://lwn.net",
-        "https://9to5linux.com"
-      ],
-      "date": "2026-05-04T23:06:17.790652+00:00"
-    },
-    {
       "title": "Mit Physicists Unveil Terahertz Microscope To Track Quantum Electron Motions",
       "urls": [
         "https://www.sciencedaily.com/news/matter_energy/medical_technology",
@@ -4219,7 +4210,23 @@
         "https://www.fool.com/investing/2026/05/13/nvidia-could-make-a-big-move-by-may-20-heres-what?msockid=11812248414e6a0d3c74351140e86b31"
       ],
       "date": "2026-05-14T23:01:11.251854+00:00"
+    },
+    {
+      "title": "PyTorch Foundation has integrated Ray, an open-source AI compute engine, to unify critical tools for",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-the-open-language-of-ai",
+        "https://arxiv.org/html/2508.04035v1",
+        "https://www.prnewswire.com/news-releases/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack-302591184.html",
+        "https://www.phoronix.com/news/PyTorch-Ray-AI-Compute-Engine",
+        "https://uplatz.com/blog/premier-open-source-machine-learning-frameworks-tensorflow-pytorch-and-scikit-learn",
+        "https://www.opensourceforu.com/2025/12/google-and-meta-bet-on-open-source-pytorch-to-break-nvidias-cuda-lock-in",
+        "https://biggo.com/news/202510261933_PyTorch-TensorFlow-Research-Dominance-2025",
+        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://github.com/resources/articles/what-is-open-source-ai"
+      ],
+      "date": "2026-05-14T23:33:07.178937+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T23:01:11.251909+00:00"
+  "lastUpdated": "2026-05-14T23:33:07.178995+00:00"
 }
