@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind has launched the Gemini Deep Research agent, now accessible to developers through it",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
-        "https://www.reddit.com/r/aicuriosity/comments/1pkggj9/google_deepmind_gemini_deep_research_agent_boosts",
-        "https://www.youtube.com/watch?v=f7UhkOMhxss",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research",
-        "https://deepmind.google/blog/ai-co-clinician"
-      ],
-      "date": "2026-05-04T15:35:06.333372+00:00"
-    },
-    {
       "title": "Google Sycamore Chip Achieves Quantum Supremacy In New Simulation Breakthrough",
       "urls": [
         "https://www.youtube.com/watch?v=8JRJxsvJdRs",
@@ -4147,7 +4136,18 @@
         "https://www.cbsnews.com/us"
       ],
       "date": "2026-05-14T15:32:34.453043+00:00"
+    },
+    {
+      "title": "Maricopa County Sees 17 Percent Rise in Homelessness Amid Soaring Rents",
+      "urls": [
+        "https://indianexpress.com/international",
+        "https://www.ndtv.com/latest",
+        "https://www.dailystar.co.uk/news/latest-news",
+        "https://www.gistlover.com",
+        "https://www.phoenixnewtimes.com/news"
+      ],
+      "date": "2026-05-14T16:03:53.493023+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T15:32:34.453116+00:00"
+  "lastUpdated": "2026-05-14T16:03:53.493112+00:00"
 }
