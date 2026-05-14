@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Atomwise Uses AtomNet AI To Accelerate Drug Discovery For Pharmaceutical Partners",
-      "urls": [
-        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
-        "https://www.sciencedirect.com/science/article/pii/S1570180826000710",
-        "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
-        "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies",
-        "https://www.reuters.com/business/healthcare-pharmaceuticals/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-2026-04-14",
-        "https://www.wsj.com/health/pharma/the-quest-to-use-ai-to-help-find-new-drugs-a754fdc3",
-        "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development",
-        "https://www.reddit.com/r/bioinformatics/comments/1ow6qmr/curious_what_folks_here_think_about_the_current",
-        "https://openai.com/index/introducing-gpt-rosalind"
-      ],
-      "date": "2026-05-04T02:35:01.569066+00:00"
-    },
-    {
-      "title": "United States officials are considering new export rules for AI chips, requiring foreign nations to ",
-      "urls": [
-        "https://www.ft.com/content/ab4313dc-3b7d-11e9-b72b-2c7f526ca5d0",
-        "https://m.economictimes.com/tech/technology/us-mulls-new-rules-for-ai-chip-exports-including-requiring-us-investments-by-foreign-firms/articleshow/129127663.cms"
-      ],
-      "date": "2026-05-04T03:03:14.389584+00:00"
-    },
-    {
       "title": "Nfl Fans Choose Local Broadcasts Over Streaming Platforms",
       "urls": [
         "https://streamscharts.com/news",
@@ -4054,7 +4031,16 @@
         "https://www.esports.net/news"
       ],
       "date": "2026-05-14T02:32:59.999848+00:00"
+    },
+    {
+      "title": "Digital Systems Process Data Using Binary Code",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Digital",
+        "https://www.techtarget.com/whatis/definition/digital",
+        "https://www.geeksforgeeks.org/general-knowledge/what-is-digital"
+      ],
+      "date": "2026-05-14T03:04:18.715460+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T02:32:59.999913+00:00"
+  "lastUpdated": "2026-05-14T03:04:18.715525+00:00"
 }
