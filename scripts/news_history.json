@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch is gaining rapid adoption in enterprise environments due to its intuitive design and ease of",
-      "urls": [
-        "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework",
-        "https://www.infoworld.com/article/2261334/why-enterprises-are-turning-from-tensorflow-to-pytorch.html"
-      ],
-      "date": "2026-05-04T20:35:09.955880+00:00"
-    },
-    {
       "title": "Kona Storm Threatens Hawaiian Islands With 70 Mph Winds And Flash Flooding",
       "urls": [
         "https://bigislandnow.com/2026/04/05/more-heavy-rain-flooding-thunderstorms-looking-more-and-more-likely-this-week-for-hawaii",
@@ -4204,7 +4196,21 @@
         "https://www.zhihu.com/question/1981700758442362643"
       ],
       "date": "2026-05-14T20:33:08.483044+00:00"
+    },
+    {
+      "title": "IMF Reports Global Economic Resilience Amid Tariff Disruptions",
+      "urls": [
+        "https://www.international.com/products/trucks",
+        "https://www.merriam-webster.com/dictionary/international",
+        "https://dictionary.cambridge.org/dictionary/english/international",
+        "https://www.dictionary.com/browse/international",
+        "https://www.definitions.net/definition/international",
+        "https://www.imf.org/en/blogs/articles/2026/01/19/global-economy-shakes-off-tariff-shock-amid-tech-driven-boom",
+        "https://www.oecd.org/en/about/newsroom.html",
+        "https://www.business-standard.com/world-news"
+      ],
+      "date": "2026-05-14T21:01:13.127461+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T20:33:08.483113+00:00"
+  "lastUpdated": "2026-05-14T21:01:13.127512+00:00"
 }
