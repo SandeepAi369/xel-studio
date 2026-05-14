@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX launched the 6-ton ViaSat-3 F3 satellite aboard a Falcon Heavy rocket, marking a significant ",
-      "urls": [
-        "https://www.nasa.gov/news-release/nasas-spacex-crew-12-launches-to-international-space-station",
-        "https://spaceflightnow.com",
-        "https://www.spacex.com",
-        "https://www.youtube.com/watch?v=zqxXqzpN8E8",
-        "https://www.nasa.gov/event-type/launch-schedule"
-      ],
-      "date": "2026-05-04T06:04:15.313032+00:00"
-    },
-    {
       "title": "Environmental Protection Agency reversed a decades-old determination that greenhouse gases endanger ",
       "urls": [
         "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
@@ -4050,7 +4039,19 @@
         "https://wildlife.org/news"
       ],
       "date": "2026-05-14T05:35:30.411479+00:00"
+    },
+    {
+      "title": "Gartner Predicts 75% of Global Economies Will Have Fragmented AI Regulations by 2030",
+      "urls": [
+        "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=31b093dff8c8661d21e68486f9e76780",
+        "https://www.ibm.com/think/topics/artificial-intelligence",
+        "https://www.illinois.gov/news/release.html",
+        "https://www.gartner.com/en/newsroom/press-releases/2026-02-17-gartner-global-ai-regulations-fuel-billion-dollar-market-for-ai-governance-platforms",
+        "https://www.nist.gov/itl/ai-risk-management-framework"
+      ],
+      "date": "2026-05-14T06:04:20.284720+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T05:35:30.411545+00:00"
+  "lastUpdated": "2026-05-14T06:04:20.284785+00:00"
 }
