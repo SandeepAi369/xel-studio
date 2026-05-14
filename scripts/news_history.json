@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source AI Projects Gain Momentum With Microsoft Copilot Competition",
-      "urls": [
-        "https://www.youtube.com/watch?v=sXVbWkoCVaA"
-      ],
-      "date": "2026-05-04T13:39:56.762854+00:00"
-    },
-    {
       "title": "Afghanistan has reported 77 deaths and 137 injuries following severe storms that triggered widesprea",
       "urls": [
         "https://weather.com/news/weather/news/2026-04-05-afghanistan-floods-landslides-rain",
@@ -4128,7 +4121,17 @@
         "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=13cd83e79cf661270f3194be9d0860cb"
       ],
       "date": "2026-05-14T13:31:22.397223+00:00"
+    },
+    {
+      "title": "EPFL and ETH Zurich are set to release a new open-source large language model (LLM) developed entire",
+      "urls": [
+        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html",
+        "https://open-llm-radar.com",
+        "https://openai.com/index/introducing-gpt-oss",
+        "https://www.opensourceforu.com/2025/12/z-ai-open-sources-glm-4-7-to-make-open-source-llms-production-ready"
+      ],
+      "date": "2026-05-14T14:01:36.647008+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T13:31:22.397283+00:00"
+  "lastUpdated": "2026-05-14T14:01:36.647073+00:00"
 }
