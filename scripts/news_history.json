@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Q1 2026 saw global venture funding reach its highest level since Q2 2022, driven primarily by the on",
-      "urls": [
-        "https://finance.yahoo.com/news/ai-startups-founders-vcs-could-094530075.html",
-        "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026",
-        "https://techfundingnews.com/category/acquisition"
-      ],
-      "date": "2026-05-04T18:37:00.499747+00:00"
-    },
-    {
       "title": "Anthropic CEO Warns AI Could Replace Half Of White Collar Jobs",
       "urls": [
         "https://fortune.com/article/why-is-anthropic-ceo-dario-amodei-deeply-uncomfortable-companies-in-charge-ai-regulating-themselves",
@@ -4192,7 +4183,17 @@
         "https://releasebot.io/updates/huggingface"
       ],
       "date": "2026-05-14T18:31:01.290489+00:00"
+    },
+    {
+      "title": "Jimmy Evert Tennis Center Reopens After $2 Million Renovation",
+      "urls": [
+        "https://www.tennistv.com/live-schedule",
+        "https://www.flashscoreusa.com/tennis",
+        "https://www.parks.fortlauderdale.gov/programs/tennis",
+        "https://www.tennisftlauderdale.com"
+      ],
+      "date": "2026-05-14T19:01:18.731679+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T18:31:01.290548+00:00"
+  "lastUpdated": "2026-05-14T19:01:18.731748+00:00"
 }
