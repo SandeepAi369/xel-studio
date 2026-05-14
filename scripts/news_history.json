@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Van Buren Township experienced an EF-1 tornado on April 4, 2026, confirmed by National Weather Servi",
-      "urls": [
-        "https://www.weather.gov/dtx/severeweather04042026"
-      ],
-      "date": "2026-05-04T12:38:14.373907+00:00"
-    },
-    {
       "title": "Nigeria tops Africa's Web3 ecosystem and ranks 6th globally, according to recent data, signaling a m",
       "urls": [
         "https://www.newsnow.com/us/Business/Cryptocurrencies/Web3",
@@ -4124,7 +4117,20 @@
         "https://news.adobe.com/news/2025/04/adobe-revolutionizes-ai-assisted-creativity-firefly"
       ],
       "date": "2026-05-14T12:35:30.238164+00:00"
+    },
+    {
+      "title": "Google And Apple Partner On Gemini Powered Ai Integration",
+      "urls": [
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJ6ZGpRU0FtVnVLQUFQAQ?hl=en-US&ceid=US%3Aen",
+        "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
+        "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html?msockid=260ef07a1c8960740392e7231dfa61c9",
+        "https://www.apple.com/newsroom",
+        "https://www.techloy.com/2026-tech-events-calendar-every-major-ces-apple-google-samsung-and-ai-conference-to-watch",
+        "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple"
+      ],
+      "date": "2026-05-14T13:02:23.349589+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T12:35:30.238292+00:00"
+  "lastUpdated": "2026-05-14T13:02:23.349653+00:00"
 }
