@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI detection, new drug offer hope in cancer fight YouTube\nPancreatic cancer remains one of the deadl",
-      "urls": [
-        "https://www.youtube.com/watch?v=CfCq0RFZahM"
-      ],
-      "date": "2026-05-04T15:09:34.576569+00:00"
-    },
-    {
       "title": "Google DeepMind has launched the Gemini Deep Research agent, now accessible to developers through it",
       "urls": [
         "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
@@ -4144,7 +4137,17 @@
         "https://deii.net"
       ],
       "date": "2026-05-14T15:06:44.342859+00:00"
+    },
+    {
+      "title": "Fox News Launches Redesigned Website And Mobile App",
+      "urls": [
+        "https://www.foxnews.com?msockid=1207de4ae25e63482104c913e3fa6230",
+        "https://www.nbcnews.com/world",
+        "https://www.cnn.com/world",
+        "https://www.cbsnews.com/us"
+      ],
+      "date": "2026-05-14T15:32:34.453043+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T15:06:44.342915+00:00"
+  "lastUpdated": "2026-05-14T15:32:34.453116+00:00"
 }
