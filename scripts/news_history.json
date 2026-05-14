@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nfl Fans Choose Local Broadcasts Over Streaming Platforms",
-      "urls": [
-        "https://streamscharts.com/news",
-        "https://www.ctam.com/industry-resources/media-behaviors-and-industry-trends/video-streaming-consumer-trends/sports-streaming-gaming",
-        "https://www.bloomberg.com/screentime-video-games-esports"
-      ],
-      "date": "2026-05-04T03:35:00.994768+00:00"
-    },
-    {
-      "title": "Google Launches New Generative AI Model With Advanced Text And Image Creation Capabilities",
-      "urls": [
-        "https://ai.google",
-        "https://cloud.google.com/learn/what-is-artificial-intelligence",
-        "https://search.google/ways-to-search/ai-overviews",
-        "https://www.heinz.cmu.edu/media/2023/July/artificial-intelligence-explained",
-        "https://learning.nd.edu/resource-library/ai-overview-and-definitions",
-        "https://www.ibm.com/think/topics/artificial-intelligence",
-        "https://www.nibib.nih.gov/science-education/science-topics/artificial-intelligence-ai",
-        "https://www.sas.com/en_us/insights/analytics/what-is-artificial-intelligence.html"
-      ],
-      "date": "2026-05-04T04:03:18.095461+00:00"
-    },
-    {
       "title": "Michael Jordan Scores 38 Points In Flu Game To Lead Chicago Bulls",
       "urls": [
         "https://www.sportdecals.com/blog/post/5-unforgettable-moments-in-sports-history?srsltid=AfmBOoqI0EpoT2y9nwYLo7rde4W64DHSNr_x0DMjbMv6_OfzlZvL_zC_",
@@ -4055,7 +4032,17 @@
         "https://gallaudet.edu/accessibility/gallaudet-experts-drive-accessibility-of-speech-tech-for-deaf-voices"
       ],
       "date": "2026-05-14T03:34:01.940438+00:00"
+    },
+    {
+      "title": "Open Source AI Models Surge With 12000 New Releases",
+      "urls": [
+        "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-516g",
+        "https://medium.com/@justjlee/the-rise-of-open-source-ai-models-2024-2025-11354a0e8e23",
+        "https://runpod.ghost.io/the-open-source-ai-renaissance-how-community-models-are-shaping-the-future",
+        "https://www.index.dev/blog/open-source-ai-updates"
+      ],
+      "date": "2026-05-14T04:04:16.315218+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T03:34:01.940502+00:00"
+  "lastUpdated": "2026-05-14T04:04:16.315350+00:00"
 }
