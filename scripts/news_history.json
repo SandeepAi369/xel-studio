@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Sycamore Chip Achieves Quantum Supremacy In New Simulation Breakthrough",
-      "urls": [
-        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
-        "https://www.youtube.com/watch?v=AT47Er2qOgc"
-      ],
-      "date": "2026-05-04T17:38:21.549493+00:00"
-    },
-    {
       "title": "Gray Wolf Dragging Crab Trap Ashore Shows Tool Use",
       "urls": [
         "https://www.sciencenews.org/article/2025-scientific-discoveries-record",
@@ -4187,7 +4179,16 @@
         "https://nypost.com/us-news"
       ],
       "date": "2026-05-14T17:31:05.503195+00:00"
+    },
+    {
+      "title": "SpaceX Accelerates Starship Test Flights For NASA Mars Missions",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/spacex-prepares-to-launch-next-generation-starship-the-tallest-and-most-powerful-rocket-ever-built/ar-AA238ah0",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5tYTNsM0VnSmxiaWdBUAE",
+        "https://spaceflightnow.com/launch-schedule"
+      ],
+      "date": "2026-05-14T18:01:11.142833+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T17:31:05.503259+00:00"
+  "lastUpdated": "2026-05-14T18:01:11.142900+00:00"
 }
