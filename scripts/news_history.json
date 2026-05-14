@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran has submitted a 14-point peace proposal aimed at ending the ongoing conflict with the United St",
-      "urls": [
-        "https://www.youtube.com/watch?v=ZeawLwS-ssA",
-        "https://news.un.org/en/story/2026/04/1167299",
-        "https://www.youtube.com/watch?v=ev-l8QkPqUw",
-        "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response",
-        "https://www.youtube.com/watch?v=SLdFz6lfJ7Q",
-        "https://www.instagram.com/reel/DX1t6BXzGvd?hl=en"
-      ],
-      "date": "2026-05-04T12:05:24.672833+00:00"
-    },
-    {
       "title": "Van Buren Township experienced an EF-1 tornado on April 4, 2026, confirmed by National Weather Servi",
       "urls": [
         "https://www.weather.gov/dtx/severeweather04042026"
@@ -4127,7 +4115,16 @@
         "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon"
       ],
       "date": "2026-05-14T12:01:21.371410+00:00"
+    },
+    {
+      "title": "Adobe Launches Firefly AI Suite For Creators",
+      "urls": [
+        "https://www.iso.org/artificial-intelligence",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=05b6a084685f6f802578b7dd69556e7f",
+        "https://news.adobe.com/news/2025/04/adobe-revolutionizes-ai-assisted-creativity-firefly"
+      ],
+      "date": "2026-05-14T12:35:30.238164+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T12:01:21.371470+00:00"
+  "lastUpdated": "2026-05-14T12:35:30.238292+00:00"
 }
