@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Unveils AlphaFold 3 For Accurate Molecular Predictions",
-      "urls": [
-        "https://www.wsj.com/tech/ai?eafs_enabled=false",
-        "https://www.youtube.com/watch?v=yQbfS2Mr4O8"
-      ],
-      "date": "2026-05-04T00:04:15.813352+00:00"
-    },
-    {
       "title": "Stanford's Asia Health Policy Program has co-authored a new analysis on digital health innovations i",
       "urls": [
         "https://aparc.fsi.stanford.edu/news/digital-health-innovations-pathway-improving-healthcare-underserved-communities"
@@ -4029,7 +4021,21 @@
         "https://www.politico.com/news/2025/07/16/interior-requires-burgum-sign-off-for-solar-wind-projects-00458999"
       ],
       "date": "2026-05-13T23:36:18.143265+00:00"
+    },
+    {
+      "title": "Telehealth 2.0 Cuts Hospitalizations With AI And Wearables",
+      "urls": [
+        "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0179",
+        "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1646802/full",
+        "https://openloophealth.com/blog/recent-digital-health-trends-insight-and-news-november-2025",
+        "https://healthcarereaders.com/insights/telehealth-expansion-and-accessibility-trends",
+        "https://www.modernhealthcare.com/health-tech",
+        "https://telehealth.org/news/category/technology-and-innovation",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://www.techtarget.com/news/health-it"
+      ],
+      "date": "2026-05-14T00:04:22.748161+00:00"
     }
   ],
-  "lastUpdated": "2026-05-13T23:36:18.143340+00:00"
+  "lastUpdated": "2026-05-14T00:04:22.748225+00:00"
 }
