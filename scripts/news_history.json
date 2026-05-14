@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "China has launched a new factory capable of producing 10,000 humanoid robots annually, marking a shi",
-      "urls": [
-        "https://www.robotics247.com/topic/tag/Humanoid",
-        "https://thehumanoid.ai/newsroom",
-        "https://humanoid.press",
-        "https://roboticsandautomationnews.com",
-        "https://www.foxnews.com/tech/humanoid-robots-hit-mass-production-china",
-        "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden",
-        "https://www.youtube.com/watch?v=I3pupzwiGJQ",
-        "https://www.therobotreport.com",
-        "https://www.youtube.com/watch?v=UQZooauU-FQ",
-        "https://www.youtube.com/watch?v=Vq0W85mnYU0"
-      ],
-      "date": "2026-05-04T19:40:36.202573+00:00"
-    },
-    {
       "title": "Trump Imposes 25 Percent Tariff on EU Auto Imports",
       "urls": [
         "https://apnews.com/hub/international-trade"
@@ -4199,7 +4183,19 @@
         "https://www.ncdhhs.gov/divisions/social-services"
       ],
       "date": "2026-05-14T19:32:02.257197+00:00"
+    },
+    {
+      "title": "Adobe Firefly Launches Unified AI Platform With 50 New Creative Tools",
+      "urls": [
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence",
+        "https://techcrunch.com/2024/08/14/meet-black-forest-labs-the-startup-powering-elon-musks-unhinged-ai-image-generator",
+        "https://blog.google/innovation-and-ai/technology/ai",
+        "https://blog.adobe.com/en/publish/2025/04/24/adobe-firefly-next-evolution-creative-ai-is-here",
+        "https://x.ai/news/grok-image-generation-release",
+        "https://techcrunch.com/2024/08/13/xais-grok-can-now-generate-images-on-x"
+      ],
+      "date": "2026-05-14T20:01:15.770757+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T19:32:02.257260+00:00"
+  "lastUpdated": "2026-05-14T20:01:15.770806+00:00"
 }
