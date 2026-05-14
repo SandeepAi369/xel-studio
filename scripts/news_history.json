@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Imposes 25 Percent Tariff on EU Auto Imports",
-      "urls": [
-        "https://apnews.com/hub/international-trade"
-      ],
-      "date": "2026-05-04T20:08:19.303906+00:00"
-    },
-    {
       "title": "PyTorch is gaining rapid adoption in enterprise environments due to its intuitive design and ease of",
       "urls": [
         "https://www.techradar.com/pro/what-is-tensorflow-everything-we-know-about-googles-ai-framework",
@@ -4195,7 +4188,23 @@
         "https://techcrunch.com/2024/08/13/xais-grok-can-now-generate-images-on-x"
       ],
       "date": "2026-05-14T20:01:15.770757+00:00"
+    },
+    {
+      "title": "OpenAI Enhances ChatGPT For Chinese Users With Localized Mandarin Optimization",
+      "urls": [
+        "https://github.com/Robertcell/chatgpt-for-chinese",
+        "https://github.com/lencx/ChatGPT",
+        "https://www.zhihu.com/topic/26691895",
+        "https://www.reddit.com/r/ChatGPT/hot",
+        "https://github.com/topics/chatgpt",
+        "https://www.reddit.com/r/ChatGPT/comments/13yrmuu/chatgpt_getting_very_slow_with_long_conversations",
+        "https://github.com/lencx/ChatGPT/discussions/133",
+        "https://github.com/click33/chatgpt---mirror-station-summary",
+        "https://www.reddit.com/r/ChatGPT/comments/1cy0wb8/chatgpt_down",
+        "https://www.zhihu.com/question/1981700758442362643"
+      ],
+      "date": "2026-05-14T20:33:08.483044+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T20:01:15.770806+00:00"
+  "lastUpdated": "2026-05-14T20:33:08.483113+00:00"
 }
