@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Afghanistan has reported 77 deaths and 137 injuries following severe storms that triggered widesprea",
-      "urls": [
-        "https://weather.com/news/weather/news/2026-04-05-afghanistan-floods-landslides-rain",
-        "https://www.actionnews5.com/2026/04/29/storm-recap-looking-back-severe-weather-across-mid-south-april-27-29-2026",
-        "https://www.facebook.com/242MetService/posts/severe-weather-warning-the-bahamas-department-of-meteorology-has-re-issued-a-sev/1381060074052184"
-      ],
-      "date": "2026-05-04T14:08:27.082165+00:00"
-    },
-    {
       "title": "AI detection, new drug offer hope in cancer fight YouTube\nPancreatic cancer remains one of the deadl",
       "urls": [
         "https://www.youtube.com/watch?v=CfCq0RFZahM"
@@ -4131,7 +4122,22 @@
         "https://www.opensourceforu.com/2025/12/z-ai-open-sources-glm-4-7-to-make-open-source-llms-production-ready"
       ],
       "date": "2026-05-14T14:01:36.647008+00:00"
+    },
+    {
+      "title": "Medi-Cal Expands Coverage to 15 Million Californians Annually",
+      "urls": [
+        "https://mcweb.apps.prd.cammis.medi-cal.ca.gov",
+        "https://www.sihd.org",
+        "https://www.webmd.com",
+        "https://www.medicalnewstoday.com",
+        "https://www.mayoclinic.org/diseases-conditions",
+        "https://my.clevelandclinic.org/health",
+        "https://medlineplus.gov",
+        "https://lonepinechamber.org/relocating/health-services-in-the-lone-pine-area",
+        "https://www.merriam-webster.com/dictionary/medical"
+      ],
+      "date": "2026-05-14T14:31:27.248970+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T14:01:36.647073+00:00"
+  "lastUpdated": "2026-05-14T14:31:27.249029+00:00"
 }
