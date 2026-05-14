@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tools Adapt In Real Time To Aid Students With Disabilities",
-      "urls": [
-        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students"
-      ],
-      "date": "2026-05-04T02:03:09.983569+00:00"
-    },
-    {
       "title": "Atomwise Uses AtomNet AI To Accelerate Drug Discovery For Pharmaceutical Partners",
       "urls": [
         "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
@@ -4039,7 +4032,18 @@
         "https://jobs.lever.co/healthcare/0ab4af6b-d5a1-416b-b851-1ca1ad47349d"
       ],
       "date": "2026-05-14T01:35:15.092160+00:00"
+    },
+    {
+      "title": "Timberwolves Struggle Offensively Against Spurs Defensive Pressure",
+      "urls": [
+        "https://www.nbcnews.com/sports",
+        "https://www.usatoday.com/sports",
+        "https://apnews.com/sports",
+        "https://www.foxsports.com/scores",
+        "https://www.nbcsports.com"
+      ],
+      "date": "2026-05-14T02:04:16.969814+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T01:35:15.092224+00:00"
+  "lastUpdated": "2026-05-14T02:04:16.969884+00:00"
 }
