@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple has unveiled plans for an expanded 2026 product lineup, with 18 new devices reportedly in deve",
-      "urls": [
-        "https://www.youtube.com/watch?v=tIEbxKQDL4s",
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoq6wrPMbmch5n5GqI6UyvScQvWettNuki9HpBHgGe6m6jn4U9gq",
-        "https://www.youtube.com/watch?v=N6vCYVutMcM"
-      ],
-      "date": "2026-05-04T07:37:19.314459+00:00"
-    },
-    {
       "title": "SocialBee releases a comprehensive monthly update tracking social media platform changes, algorithm ",
       "urls": [
         "https://socialbee.com/blog/social-media-news"
@@ -4073,7 +4064,23 @@
         "https://www.reuters.com"
       ],
       "date": "2026-05-14T07:33:59.295589+00:00"
+    },
+    {
+      "title": "Apple Updates Imessage With Richer Media For Android Users",
+      "urls": [
+        "https://www.apple.com",
+        "https://www.icloud.com",
+        "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "https://www.bloomberg.com/latest/apple",
+        "https://www.t-mobile.com/cell-phones/brand/apple?msockid=02bcb65519146cae15b4a10c185c6d47",
+        "https://www.apple.com/store",
+        "https://finance.yahoo.com/quote/AAPL/news",
+        "https://www.simplymac.com/apple-stores/apple-store-locations-in-texas",
+        "https://support.apple.com",
+        "https://www.forbes.com/sites/zakdoffman/2026/05/12/not-available-for-all-apple-changes-iphone-messaging-next-week"
+      ],
+      "date": "2026-05-14T08:01:13.842862+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T07:33:59.295662+00:00"
+  "lastUpdated": "2026-05-14T08:01:13.842963+00:00"
 }
