@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI launched the Mistral 3 family, a suite of fully open-source multimodal AI models released",
-      "urls": [
-        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai"
-      ],
-      "date": "2026-05-04T10:04:11.611962+00:00"
-    },
-    {
       "title": "K\u0012lauea is currently erupting on the Big Island of Hawai\u0012i, with lava flows visible within Halema\u0012um",
       "urls": [
         "https://www.youtube.com/watch?v=_r47eGVIzPM",
@@ -4094,7 +4087,22 @@
         "https://apnews.com/article/nasa-space-telescope-spherex-9ee1c0aebd9ae961151b8783a3c8b612"
       ],
       "date": "2026-05-14T10:02:14.833271+00:00"
+    },
+    {
+      "title": "Nvidia has solidified its position as a leader in artificial intelligence computing through its deve",
+      "urls": [
+        "https://www.nvidia.com/page/home.html",
+        "https://en.wikipedia.org/wiki/Nvidia",
+        "https://www.nvidia.co.uk/Download/indexsg.aspx?lang=en-us",
+        "https://play.geforcenow.com",
+        "https://nvidia.custhelp.com/app/home",
+        "https://www.geforce.com/whats-new/tag/geforce-experience",
+        "https://x.com/nvidia",
+        "https://www.nvidia.com/en-us/geforce/drivers",
+        "https://www.nvidia.com/en-us/software/nvidia-app"
+      ],
+      "date": "2026-05-14T10:31:10.666148+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T10:02:14.833339+00:00"
+  "lastUpdated": "2026-05-14T10:31:10.666208+00:00"
 }
