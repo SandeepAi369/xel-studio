@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Russia's North Caucasus Floods Kill 17 and Destroy 200 Homes",
-      "urls": [
-        "https://www.reddit.com/r/Environmentalism/comments/1sr0y2g/weekly_disasters_and_climate_review_march_30",
-        "https://www.facebook.com/winnyweatherindia/posts/global-weather-events-april-5-to-april-10-20261-%EF%B8%8F-tornado-outbreak-in-kansas-usa/1264991829072036",
-        "https://www.instagram.com/reel/DVHV-bfikSI"
-      ],
-      "date": "2026-05-04T09:38:06.369547+00:00"
-    },
-    {
       "title": "Mistral AI launched the Mistral 3 family, a suite of fully open-source multimodal AI models released",
       "urls": [
         "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai"
@@ -4091,7 +4082,19 @@
         "https://www.space.com/technology/cowboy-space-raises-usd275-million-to-launch-ai-data-centers-on-brand-new-rocket"
       ],
       "date": "2026-05-14T09:32:08.189321+00:00"
+    },
+    {
+      "title": "SpaceX Launches Dragon Cargo Ship To International Space Station",
+      "urls": [
+        "https://www.space.com/space-exploration/launches-spacecraft",
+        "https://spaceflightnow.com",
+        "https://www.usatoday.com/story/news/nation/2025/12/22/spacex-nasa-blue-origin-rocket-launches/87841665007",
+        "https://www.spacelaunchschedule.com",
+        "https://www.nasa.gov/news/recently-published",
+        "https://apnews.com/article/nasa-space-telescope-spherex-9ee1c0aebd9ae961151b8783a3c8b612"
+      ],
+      "date": "2026-05-14T10:02:14.833271+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T09:32:08.189382+00:00"
+  "lastUpdated": "2026-05-14T10:02:14.833339+00:00"
 }
