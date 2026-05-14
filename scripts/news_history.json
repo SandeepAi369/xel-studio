@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Environmental Protection Agency reversed a decades-old determination that greenhouse gases endanger ",
-      "urls": [
-        "https://www.youtube.com/watch?v=JbCa1TaRdTQ"
-      ],
-      "date": "2026-05-04T06:35:09.311337+00:00"
-    },
-    {
-      "title": "Bureau of Industry and Security has reached a settlement with Applied Materials Inc.",
-      "urls": [
-        "https://www.bis.gov/news-updates",
-        "https://www.citizen.org/news/map-big-tech-expands-global-assault-on-digital-rules-mapping-big-techs-global-deregulatory-demands-for-the-trump-trade-agenda"
-      ],
-      "date": "2026-05-04T07:04:10.879150+00:00"
-    },
-    {
       "title": "Apple has unveiled plans for an expanded 2026 product lineup, with 18 new devices reportedly in deve",
       "urls": [
         "https://www.youtube.com/watch?v=tIEbxKQDL4s",
@@ -4065,7 +4050,22 @@
         "https://www.seattletimes.com"
       ],
       "date": "2026-05-14T06:35:06.035438+00:00"
+    },
+    {
+      "title": "Earthquake Swarm Strikes Southern California With 30 Quakes",
+      "urls": [
+        "https://earthquake.usgs.gov/earthquakes/map",
+        "https://earthquaketrack.com/recent",
+        "https://www.quakepulse.com",
+        "https://www.earthquaketracker.org/earthquakes",
+        "https://earthquake.live",
+        "https://www.mappr.co/earthquakes-map",
+        "https://earthquakes.berkeley.edu/seismo.real.time.map.html",
+        "https://www.msn.com/en-us/news/us/earthquake-swarm-shakes-southern-california-southwest-arizona/ar-AA232szn",
+        "https://quakesnearme.com"
+      ],
+      "date": "2026-05-14T07:04:29.241190+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T06:35:06.035518+00:00"
+  "lastUpdated": "2026-05-14T07:04:29.241241+00:00"
 }
