@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Debian has elected Lucas Nussbaum as its new project leader, marking a pivotal shift in governance f",
-      "urls": [
-        "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
-      ],
-      "date": "2026-05-05T18:36:12.679885+00:00"
-    },
-    {
       "title": "U.S. Pharma Cuts Drug Development Time With AI Systems",
       "urls": [
         "https://intuitionlabs.ai/articles/accelerating-drug-development-ai-pharma"
@@ -4306,7 +4299,20 @@
         "https://www.dictionary.com/browse/generative"
       ],
       "date": "2026-05-15T18:32:17.951605+00:00"
+    },
+    {
+      "title": "Agents Set To Transform Healthcare By 2026",
+      "urls": [
+        "https://www.businesswire.com/newsroom/industry/health/health-technology",
+        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
+        "https://mayomagazine.mayoclinic.org/2026/04/ai-in-healthcare",
+        "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
+        "https://www.technologyhq.org/the-10-most-groundbreaking-technology-innovations-of-2026-that-will-change-our-future",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/medical-devices-to-ai-25-years-of-cleveland-clinic-innovations",
+        "https://www.himss.org"
+      ],
+      "date": "2026-05-15T19:02:19.291583+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T18:32:17.951666+00:00"
+  "lastUpdated": "2026-05-15T19:02:19.291651+00:00"
 }
