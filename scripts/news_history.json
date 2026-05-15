@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mit Physicists Unveil Terahertz Microscope To Track Quantum Electron Motions",
-      "urls": [
-        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
-        "https://www.latimes.com/doctors-scientists/innovations",
-        "https://www.pennmedicine.org/news/research-innovation"
-      ],
-      "date": "2026-05-04T23:37:12.355472+00:00"
-    },
-    {
       "title": "Google has released Gemma 4, a lightweight yet powerful generative AI model capable of running fully",
       "urls": [
         "https://www.eweek.com/news/generative-ai-apps-tools",
@@ -4226,7 +4217,19 @@
         "https://github.com/resources/articles/what-is-open-source-ai"
       ],
       "date": "2026-05-14T23:33:07.178937+00:00"
+    },
+    {
+      "title": "Consumer Electronics Show Unveils Groundbreaking Tech Trends",
+      "urls": [
+        "https://fortune.com/section/tech",
+        "https://www.newsnow.com/us/Tech",
+        "https://techstartups.com",
+        "https://beebom.com",
+        "https://www.cnet.com/news",
+        "https://gizmodo.com"
+      ],
+      "date": "2026-05-15T00:02:16.784424+00:00"
     }
   ],
-  "lastUpdated": "2026-05-14T23:33:07.178995+00:00"
+  "lastUpdated": "2026-05-15T00:02:16.784507+00:00"
 }
