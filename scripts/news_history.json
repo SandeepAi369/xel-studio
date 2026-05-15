@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Game Awards announced the winner for Best Esports Game, recognizing top competitive titles in th",
-      "urls": [
-        "https://thegameawards.com/winners/best-esports-game"
-      ],
-      "date": "2026-05-05T08:39:25.932220+00:00"
-    },
-    {
       "title": "Siemens and UK-based robotics firm Humanoid completed a pilot program deploying humanoid robots at t",
       "urls": [
         "https://technologymagazine.com/news/automation-the-humanoid-robots-inside-siemens-factory"
@@ -4254,7 +4247,18 @@
         "https://www.foxnews.com?msockid=15f4fd51bea9606f0cd4ea0bbf00618d"
       ],
       "date": "2026-05-15T08:33:13.445393+00:00"
+    },
+    {
+      "title": "Doubao Launches Seed-2.0 With Enhanced Reasoning And Image Editing",
+      "urls": [
+        "https://www.zhihu.com/question/2013902668985292076",
+        "https://www.zhihu.com/question/2006012406770455579",
+        "https://www.zhihu.com/question/7169833470",
+        "https://www.zhihu.com/question/2019342722851452166",
+        "https://www.zhihu.com/question/617783809"
+      ],
+      "date": "2026-05-15T09:02:27.551214+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T08:33:13.445459+00:00"
+  "lastUpdated": "2026-05-15T09:02:27.551283+00:00"
 }
