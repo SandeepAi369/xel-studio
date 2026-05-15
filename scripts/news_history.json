@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kimi AI has released the K2.",
-      "urls": [
-        "https://www.youtube.com/watch?v=F-ANHe_hr9w"
-      ],
-      "date": "2026-05-05T02:06:16.916587+00:00"
-    },
-    {
       "title": "One billion people worldwide live with some form of disability, making accessible technology critica",
       "urls": [
         "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities",
@@ -4233,7 +4226,19 @@
         "https://www.forbes.com/companies/mistral-ai"
       ],
       "date": "2026-05-15T02:02:16.418856+00:00"
+    },
+    {
+      "title": "Teladoc Expands Virtual Care Access With New MinuteClinic Integration",
+      "urls": [
+        "https://www.fcc.gov/general/telehealth-telemedicine-and-telecare-whats-what",
+        "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/Benefits-of-Telemedicine",
+        "https://www.cvs.com/minuteclinic/virtual-care",
+        "https://www.verywellhealth.com/what-is-telehealth-5115712",
+        "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/telehealth/art-20044878",
+        "https://builtin.com/articles/telemedicine-companies"
+      ],
+      "date": "2026-05-15T02:32:00.207798+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T02:02:16.418922+00:00"
+  "lastUpdated": "2026-05-15T02:32:00.207849+00:00"
 }
