@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft is accelerating its data center spending to strengthen its AI infrastructure, outpacing ri",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoqqJlpKN5mpR_02cvC7Zfc4vgvPVKAiFvMojd0S0nKALD05AmUb",
-        "https://www.youtube.com/watch?v=tR5adb2Ts6c",
-        "https://finance.yahoo.com/news/big-techs-earnings-will-focus-on-ai-and-iphones-125717589.html",
-        "https://twit.tv/shows/this-week-in-tech/episodes/1082",
-        "https://www.youtube.com/watch?v=PLY6DuKxs-4",
-        "https://www.instagram.com/reel/DX7R9IYvKRJ"
-      ],
-      "date": "2026-05-05T03:35:03.920935+00:00"
-    },
-    {
       "title": "Y Combinator Funds 232 Generative AI Startups in 2026 Cohort",
       "urls": [
         "https://www.ycombinator.com/companies/industry/generative-ai"
@@ -4252,7 +4240,17 @@
         "https://link.springer.com/subjects/quantum-computing"
       ],
       "date": "2026-05-15T03:31:10.904213+00:00"
+    },
+    {
+      "title": "Open Doors Allow Garden Views According To Dictionary Definitions",
+      "urls": [
+        "https://en.m.wiktionary.org/wiki/open",
+        "https://www.dictionary.com/browse/open",
+        "https://www.collinsdictionary.com/dictionary/english/open",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/open_1"
+      ],
+      "date": "2026-05-15T04:01:16.535057+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T03:31:10.904273+00:00"
+  "lastUpdated": "2026-05-15T04:01:16.535110+00:00"
 }
