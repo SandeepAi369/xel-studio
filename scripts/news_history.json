@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "One billion people worldwide live with some form of disability, making accessible technology critica",
-      "urls": [
-        "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities",
-        "https://govcio.com/resources/article/six-exciting-advancements-in-accessible-technology",
-        "https://disabilityrightsflorida.org/blog/entry/assistive_technology_independence_access"
-      ],
-      "date": "2026-05-05T02:34:07.491377+00:00"
-    },
-    {
       "title": "Microsoft is accelerating its data center spending to strengthen its AI infrastructure, outpacing ri",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOoqqJlpKN5mpR_02cvC7Zfc4vgvPVKAiFvMojd0S0nKALD05AmUb",
@@ -4238,7 +4229,16 @@
         "https://builtin.com/articles/telemedicine-companies"
       ],
       "date": "2026-05-15T02:32:00.207798+00:00"
+    },
+    {
+      "title": "Quantum science explores the behavior of matter and energy at atomic and subatomic levels, focusing ",
+      "urls": [
+        "https://www.gov.ca.gov/2025/11/07/governor-newsom-announces-quantum-california-strengthening-the-golden-states-leadership-in-next-generation-technology",
+        "https://science.nasa.gov/biological-physical/quantum-leaps",
+        "https://en.wikipedia.org/wiki/Quantum_mechanics"
+      ],
+      "date": "2026-05-15T03:03:14.250130+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T02:32:00.207849+00:00"
+  "lastUpdated": "2026-05-15T03:03:14.250192+00:00"
 }
