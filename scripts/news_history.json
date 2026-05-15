@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Archaeologists Unearth Egyptian Mummy With Homer’s Iliad Inscribed on Wrappings",
-      "urls": [
-        "https://www.cnn.com/science"
-      ],
-      "date": "2026-05-05T23:04:19.513661+00:00"
-    },
-    {
-      "title": "St Jude Researchers Discover New Cell Death Pathway in Cancer Cells",
-      "urls": [
-        "https://scitechdaily.com/news/health",
-        "https://www.stjude.org/media-resources/news-releases/2025-medicine-science-news.html",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401902"
-      ],
-      "date": "2026-05-05T23:34:01.563040+00:00"
-    },
-    {
       "title": "OpenAI launched GPT-5.",
       "urls": [
         "https://www.inc.com/ben-sherry/openai-just-dropped-gpt-5-5-and-says-the-new-model-intuits-what-you-need-before-you-ask/91335260"
@@ -4348,7 +4332,23 @@
         "https://www.definitions.net/definition/Visually"
       ],
       "date": "2026-05-15T23:01:13.494791+00:00"
+    },
+    {
+      "title": "Electric Wheelchairs USA Launches Six New Models With All-Terrain Capability",
+      "urls": [
+        "https://www.amazon.com/Wheelchairs/b?node=4075961",
+        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051",
+        "https://www.homedepot.com/b/Health-And-Wellness-Mobility-Aids-Wheelchairs/N-5yc1vZc8kh",
+        "https://www.1800wheelchair.com",
+        "https://mnmobilitysupply.com",
+        "https://www.target.com/c/mobility-home-health-care/-/N-4yinm",
+        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=15233ba90f2a647928f42cf30ef565e1",
+        "https://www.unitedaccess.com/us/en/inventory.html",
+        "https://www.cvs.com/shop/home-health-care/wheelchairs-accessories/wheelchairs",
+        "https://www.electricwheelchairsusa.com"
+      ],
+      "date": "2026-05-15T23:34:14.823214+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T23:01:13.494892+00:00"
+  "lastUpdated": "2026-05-15T23:34:14.823285+00:00"
 }
