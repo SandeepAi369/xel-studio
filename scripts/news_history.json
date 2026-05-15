@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT 5.4 With Enhanced Reasoning And Code Accuracy",
-      "urls": [
-        "https://www.youtube.com/watch?v=M_wKxIA12oU",
-        "https://openai.com/index/introducing-gpt-5-4"
-      ],
-      "date": "2026-05-05T06:09:17.419705+00:00"
-    },
-    {
       "title": "Department Of Energy Releases Climate Impact Assessment Report",
       "urls": [
         "https://www.energy.gov/topics/climate"
@@ -4261,7 +4253,16 @@
         "https://www.merriam-webster.com/dictionary/mistral"
       ],
       "date": "2026-05-15T06:01:19.447419+00:00"
+    },
+    {
+      "title": "League Of Legends Worlds Attracts 78 Million Viewers",
+      "urls": [
+        "https://lolesports.com",
+        "https://www.vpesports.com",
+        "https://liquipedia.net"
+      ],
+      "date": "2026-05-15T06:34:13.957538+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T06:01:19.447489+00:00"
+  "lastUpdated": "2026-05-15T06:34:13.957624+00:00"
 }
