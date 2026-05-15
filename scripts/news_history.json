@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kelly Raines is a computer science student at Arizona State University developing AI-powered smart g",
-      "urls": [
-        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
-        "https://bism.org/news-resources/faq/perspectives/breaking-barriers-the-impact-of-assistive-technology-at-bism",
-        "https://vispero.com/resources/assistive-technology-blind-low-vision",
-        "https://www.yahoo.com/news/articles/blind-visually-impaired-children-receive-171210450.html",
-        "https://afb.org/blindness-and-low-vision/using-technology",
-        "https://www.aoa.org/news/clinical-eye-care/diseases-and-conditions/how-technology-has-changed-recommendations-for-visually-impaired-children",
-        "https://news.asu.edu/20250220-science-and-technology-student-sees-how-ai-can-assist-people-vision-loss",
-        "https://www.yahoo.com/news/articles/ai-technology-transforming-daily-life-183750413.html"
-      ],
-      "date": "2026-05-05T09:37:14.163481+00:00"
-    },
-    {
-      "title": "Hugging Face has launched a new extension that integrates its open-source AI models directly into Gi",
-      "urls": [
-        "https://www.youtube.com/watch?v=3Tgyt_ucN_k",
-        "https://huggingface.co/google"
-      ],
-      "date": "2026-05-05T10:05:25.276069+00:00"
-    },
-    {
       "title": "Hurricane Preparedness Week is set for May 3-9, 2026, as declared by the National Hurricane Center a",
       "urls": [
         "https://www.facebook.com/allatratvenglish/videos/march-5-2026-natural-disasters-summarybutler-county-ohio-usa-overnight-flooding-/1382036673673963",
@@ -4267,7 +4245,17 @@
         "https://www.tiktok.com/video/7332914293609958662"
       ],
       "date": "2026-05-15T09:32:03.227969+00:00"
+    },
+    {
+      "title": "Oratomic Launches Utility-Scale Quantum Computers With Google Collaboration",
+      "urls": [
+        "https://thequantuminsider.com",
+        "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
+        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
+        "https://www.prnewswire.com/news-releases/oratomic-launches-to-build-utility-scale-quantum-computers-following-breakthrough-research-302729468.html"
+      ],
+      "date": "2026-05-15T10:06:31.057198+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T09:32:03.228039+00:00"
+  "lastUpdated": "2026-05-15T10:06:31.057264+00:00"
 }
