@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Department Of Energy Releases Climate Impact Assessment Report",
-      "urls": [
-        "https://www.energy.gov/topics/climate"
-      ],
-      "date": "2026-05-05T06:35:09.007303+00:00"
-    },
-    {
       "title": "United States And China Race To Dominate Artificial Intelligence Advancements",
       "urls": [
         "https://www.atalayar.com/en/articulo/politics/artificial-intelligence-the-new-frontier-in-geopolitical-competition/20250801100000217131.html",
@@ -4262,7 +4255,20 @@
         "https://liquipedia.net"
       ],
       "date": "2026-05-15T06:34:13.957538+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Warns Global Warming Will Surpass 1.5°C By 2030",
+      "urls": [
+        "https://climate.com",
+        "https://www.accuweather.com/en/us/los-lunas/87031/weather-forecast/334564",
+        "https://www.livescience.com/planet-earth/climate-change",
+        "https://www.britannica.com/science/global-warming",
+        "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts",
+        "https://www.weforum.org/stories/2026/03/world-on-course-breach-15c-before-2030-climate-nature-news",
+        "https://www.usatoday.com/story/news/weather/2026/05/04/climate-change-microplastics-study/89888767007"
+      ],
+      "date": "2026-05-15T07:02:23.198116+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T06:34:13.957624+00:00"
+  "lastUpdated": "2026-05-15T07:02:23.198182+00:00"
 }
