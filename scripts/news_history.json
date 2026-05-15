@@ -4282,7 +4282,18 @@
         "https://www.reuters.com/world/us"
       ],
       "date": "2026-05-15T13:05:29.581230+00:00"
+    },
+    {
+      "title": "Drugs.",
+      "urls": [
+        "https://www.drugs.com",
+        "https://www.cdc.gov/free-mind/about-substances/index.html",
+        "https://nida.nih.gov/research-topics/drugs-a-to-z",
+        "https://en.wikipedia.org/wiki/Drug",
+        "https://www.britannica.com/science/drug-chemical-agent"
+      ],
+      "date": "2026-05-15T13:31:10.791009+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T13:05:29.581295+00:00"
+  "lastUpdated": "2026-05-15T13:31:10.791072+00:00"
 }
