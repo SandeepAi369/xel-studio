@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Pharma Cuts Drug Development Time With AI Systems",
-      "urls": [
-        "https://intuitionlabs.ai/articles/accelerating-drug-development-ai-pharma"
-      ],
-      "date": "2026-05-05T19:06:25.989631+00:00"
-    },
-    {
       "title": "European Union Imposes Sanctions On Critical Mineral Exports",
       "urls": [
         "https://www.youtube.com/watch?v=DxKrcYQC3GI"
@@ -4312,7 +4305,18 @@
         "https://www.himss.org"
       ],
       "date": "2026-05-15T19:02:19.291583+00:00"
+    },
+    {
+      "title": "Anthropic Launches Claude 3 To Advance Safe AI Development",
+      "urls": [
+        "https://www.anthropic.com",
+        "https://en.m.wikipedia.org/wiki/Anthropic",
+        "https://claude.com",
+        "https://www.britannica.com/money/Anthropic-PBC",
+        "https://claude.ai"
+      ],
+      "date": "2026-05-15T19:32:14.937753+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T19:02:19.291651+00:00"
+  "lastUpdated": "2026-05-15T19:32:14.937814+00:00"
 }
