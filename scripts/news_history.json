@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pgl Astana 2026 Announces $1 6 Million Counter Strike Tournament",
-      "urls": [
-        "https://egamersworld.com/events",
-        "https://www.youtube.com/watch?v=UNe3z7wGMX0"
-      ],
-      "date": "2026-05-05T22:06:28.350337+00:00"
-    },
-    {
       "title": "Michigan is experiencing more frequent and severe flooding due to increasingly extreme rainfall even",
       "urls": [
         "https://www.fox10tv.com/2026/05/05/peak-summer-storm-season-has-arrived",
@@ -4337,7 +4329,23 @@
         "https://www.usatf.org/record-views/records"
       ],
       "date": "2026-05-15T22:02:17.305846+00:00"
+    },
+    {
+      "title": "Hurricane Helene Dumps 20 Inches Of Rain On North Carolina",
+      "urls": [
+        "https://www.washingtonpost.com/weather/extreme-weather",
+        "https://www.cbsnews.com/tag/disaster",
+        "https://apnews.com/hub/weather",
+        "https://abcnews.com/US/wildfires-floods-extreme-heat-biggest-weather-stories-2025/story?id=128556731",
+        "https://www.foxweather.com/category/disasters",
+        "https://www.climate.gov/news-features/event-tracker/hurricane-helenes-extreme-rainfall-and-catastrophic-inland-flooding",
+        "https://www.bloomberg.com/latest/extreme-weather",
+        "https://www.worldvision.org/disaster-relief-news-stories/12-top-disasters-of-2025",
+        "https://www.nbcnews.com/news/weather",
+        "https://www.fema.gov/disaster/current"
+      ],
+      "date": "2026-05-15T22:31:59.484142+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T22:02:17.305916+00:00"
+  "lastUpdated": "2026-05-15T22:31:59.484207+00:00"
 }
