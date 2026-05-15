@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-source AI tool developed by researchers outperforms large proprietary language models in conduc",
-      "urls": [
-        "https://ai.meta.com/blog/meta-llama-3",
-        "https://thenewstack.io/llm",
-        "https://blog.n8n.io/open-source-llm",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://github.blog/ai-and-ml/llms",
-        "https://www.nature.com/articles/d41586-026-00347-9",
-        "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
-        "https://openrouter.ai/state-of-ai"
-      ],
-      "date": "2026-05-05T14:38:38.984284+00:00"
-    },
-    {
       "title": "Insilico Medicine has initiated a Phase I clinical trial for ISM001_055, an anti-fibrotic small mole",
       "urls": [
         "https://www.nccu.edu/news/ai-transforms-drug-discovery-nccu-0",
@@ -4290,7 +4276,18 @@
         "https://en.wiktionary.org/wiki/open"
       ],
       "date": "2026-05-15T14:32:06.555706+00:00"
+    },
+    {
+      "title": "Jonathan Haidt Links Unregulated Digital Technology To Youth Mental Health Decline",
+      "urls": [
+        "https://themindsjournal.com/news/digital-mental-health-innovation",
+        "https://hsph.harvard.edu/exec-ed/news/digital-technology-for-mental-health-apps-and-beyond",
+        "https://www.npr.org/2025/12/02/nx-s1-5627156/social-media-digital-detox-depression-anxiety",
+        "https://www.psychreg.org/digital-minds-technology-ai-redefining-mental-health",
+        "https://news.mit.edu/topic/mental-health"
+      ],
+      "date": "2026-05-15T15:02:24.791434+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T14:32:06.555764+00:00"
+  "lastUpdated": "2026-05-15T15:02:24.791502+00:00"
 }
