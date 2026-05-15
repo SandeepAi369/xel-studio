@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Middle East conflict could significantly increase global inflation by disrupting energy, food, and c",
-      "urls": [
-        "https://www.privatebank.bankofamerica.com/articles/washington-update.html",
-        "https://www.cnbc.com/world-economy"
-      ],
-      "date": "2026-05-05T13:37:27.786712+00:00"
-    },
-    {
-      "title": "WWF's Living Planet Report 2024 reveals a 73% average decline in global wildlife populations since 1",
-      "urls": [
-        "https://livingplanet.panda.org",
-        "https://www.bbc.com/news/topics/c9grgwq2krzt",
-        "https://apnews.com/hub/biodiversity"
-      ],
-      "date": "2026-05-05T14:05:25.587285+00:00"
-    },
-    {
       "title": "Open-source AI tool developed by researchers outperforms large proprietary language models in conduc",
       "urls": [
         "https://ai.meta.com/blog/meta-llama-3",
@@ -4293,7 +4276,14 @@
         "https://www.britannica.com/science/drug-chemical-agent"
       ],
       "date": "2026-05-15T13:31:10.791009+00:00"
+    },
+    {
+      "title": "Long Beach experiences fluctuating temperatures throughout the day, with highs reaching 72°F and low",
+      "urls": [
+        "https://www.accuweather.com/en/us/long-beach/39560/hourly-weather-forecast/2159694"
+      ],
+      "date": "2026-05-15T14:05:44.238008+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T13:31:10.791072+00:00"
+  "lastUpdated": "2026-05-15T14:05:44.238076+00:00"
 }
