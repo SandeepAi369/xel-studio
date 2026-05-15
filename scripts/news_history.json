@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google has released Gemma 4, a lightweight yet powerful generative AI model capable of running fully",
-      "urls": [
-        "https://www.eweek.com/news/generative-ai-apps-tools",
-        "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/top-generative-ai-tools",
-        "https://bootcamp.outreach.ou.edu/blog/best-generative-ai-tools",
-        "https://www.instagram.com/p/DX6hRlMjY6f"
-      ],
-      "date": "2026-05-05T00:09:35.300128+00:00"
-    },
-    {
       "title": "Sports Technology Blog highlights emerging tools that analyze athlete movement, biometrics, and game",
       "urls": [
         "https://sportstechnologyblog.com/tag/performance-analysis",
@@ -4229,7 +4219,14 @@
         "https://gizmodo.com"
       ],
       "date": "2026-05-15T00:02:16.784424+00:00"
+    },
+    {
+      "title": "Fox News Launches Redesigned Website And Mobile App With Personalized Feeds",
+      "urls": [
+        "https://www.foxnews.com?msockid=0b095396eac868a7059344cceb77693f"
+      ],
+      "date": "2026-05-15T00:32:06.172724+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T00:02:16.784507+00:00"
+  "lastUpdated": "2026-05-15T00:32:06.172784+00:00"
 }
