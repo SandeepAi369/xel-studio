@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "{\"articleText\": \"El Ni\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f\\u001f",
-      "urls": [
-        "https://www.cbsnews.com/climate-change",
-        "https://www.cnn.com/climate",
-        "https://www.un.org/en/climatechange/reports",
-        "https://science.nasa.gov/climate-change",
-        "https://www.bbc.com/news/topics/cmj34zmwm1zt",
-        "https://earth.org/climate-change",
-        "https://www.nbcnews.com/climate-in-crisis"
-      ],
-      "date": "2026-05-05T01:39:03.855380+00:00"
-    },
-    {
       "title": "Kimi AI has released the K2.",
       "urls": [
         "https://www.youtube.com/watch?v=F-ANHe_hr9w"
@@ -4233,7 +4220,20 @@
         "https://www.dictionary.com/browse/accessible"
       ],
       "date": "2026-05-15T01:32:02.885250+00:00"
+    },
+    {
+      "title": "Mistral AI trained its latest large language model 2.",
+      "urls": [
+        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
+        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html",
+        "https://techcrunch.com/2025/12/09/mistral-ai-surfs-vibe-coding-tailwinds-with-new-coding-models",
+        "https://techcrunch.com/2024/02/27/microsoft-made-a-16-million-investment-in-mistral-ai",
+        "https://techfundingnews.com/mistral-ai-raises-2-billion-valuation-europe-ai-frontrunner",
+        "https://www.datacenterdynamics.com/en/news/mistral-ai-trained-latest-model-25x-faster-using-nvidia-gb200-nvl72-says-coreweave",
+        "https://www.forbes.com/companies/mistral-ai"
+      ],
+      "date": "2026-05-15T02:02:16.418856+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T01:32:02.885315+00:00"
+  "lastUpdated": "2026-05-15T02:02:16.418922+00:00"
 }
