@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Siemens and UK-based robotics firm Humanoid completed a pilot program deploying humanoid robots at t",
-      "urls": [
-        "https://technologymagazine.com/news/automation-the-humanoid-robots-inside-siemens-factory"
-      ],
-      "date": "2026-05-05T09:03:09.600053+00:00"
-    },
-    {
       "title": "Kelly Raines is a computer science student at Arizona State University developing AI-powered smart g",
       "urls": [
         "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
@@ -4258,7 +4251,23 @@
         "https://www.zhihu.com/question/617783809"
       ],
       "date": "2026-05-15T09:02:27.551214+00:00"
+    },
+    {
+      "title": "TikTok faces widespread technical disruptions as multiple user videos fail to load, triggering error",
+      "urls": [
+        "https://www.tiktok.com/video/7371566860241784070",
+        "https://www.tiktok.com/video/7401046417181084944",
+        "https://www.tiktok.com/video/7243438444293246250",
+        "https://www.tiktok.com/video/7611924096531680543",
+        "https://www.tiktok.com/video/7459594409638694186",
+        "https://www.tiktok.com/video/7331086670130957601",
+        "https://www.tiktok.com/video/7253346147761196290",
+        "https://www.tiktok.com/video/7470790578280664338",
+        "https://www.tiktok.com/video/7304021208046095649",
+        "https://www.tiktok.com/video/7332914293609958662"
+      ],
+      "date": "2026-05-15T09:32:03.227969+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T09:02:27.551283+00:00"
+  "lastUpdated": "2026-05-15T09:32:03.228039+00:00"
 }
