@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Union Imposes Sanctions On Critical Mineral Exports",
-      "urls": [
-        "https://www.youtube.com/watch?v=DxKrcYQC3GI"
-      ],
-      "date": "2026-05-05T20:09:26.700095+00:00"
-    },
-    {
       "title": "South Korea's largest crypto exchange Upbit has launched its own Ethereum blockchain in partnership ",
       "urls": [
         "https://web3newswire.com?srsltid=AfmBOoquFdpq8VVOFdXXyz8AOcHR43AeGVqj2jmdnb_K_FI-mPxAgGIK",
@@ -4331,7 +4324,20 @@
         "https://voterready.iowa.gov"
       ],
       "date": "2026-05-15T20:02:16.895325+00:00"
+    },
+    {
+      "title": "Linux Powers All 500 Fastest Supercomputers Worldwide",
+      "urls": [
+        "https://www.linux.org/pages/download",
+        "https://en.wikipedia.org/wiki/Linux",
+        "https://www.linux.com/what-is-linux",
+        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
+        "https://linuxvox.com/blog/what-linux",
+        "https://opensource.com/resources/linux",
+        "https://www.linuxtoday.com"
+      ],
+      "date": "2026-05-15T20:31:06.435852+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T20:02:16.895384+00:00"
+  "lastUpdated": "2026-05-15T20:31:06.435921+00:00"
 }
