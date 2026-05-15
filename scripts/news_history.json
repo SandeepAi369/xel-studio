@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayon Volcano has erupted on Luzon Island in the Philippines, releasing massive ash clouds that blan",
-      "urls": [
-        "https://www.usnews.com/topics/subjects/natural_disasters",
-        "https://www.youtube.com/watch?v=bXyaoj0rGAc",
-        "https://www.youtube.com/watch?v=payLvoYdTo0",
-        "https://www.youtube.com/watch?v=o8WHTO5olk8",
-        "https://www.theguardian.com/world/video/2026/may/04/volcano-erupts-philippines-ash-evacuations-video"
-      ],
-      "date": "2026-05-05T18:04:19.974739+00:00"
-    },
-    {
       "title": "Debian has elected Lucas Nussbaum as its new project leader, marking a pivotal shift in governance f",
       "urls": [
         "https://podcast.thelinuxexp.com/@tlenewspodcast/episodes"
@@ -4301,7 +4290,23 @@
         "https://science.nasa.gov/climate-change/stories"
       ],
       "date": "2026-05-15T18:03:29.119013+00:00"
+    },
+    {
+      "title": "Generative AI Models Create Text And Images Using Deep Learning",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Generative_AI",
+        "https://www.ibm.com/think/topics/generative-ai",
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=0eb037b28f87666400f320e88e38676e",
+        "https://www.merriam-webster.com/dictionary/generative",
+        "https://news.mit.edu/2023/explained-generative-ai-1109",
+        "https://www.microsoft.com/en-us/ai/ai-101/what-is-generative-ai?msockid=0eb037b28f87666400f320e88e38676e",
+        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai",
+        "https://hbr.org/topic/subject/generative-ai",
+        "https://www.usatoday.com/story/tech/2024/10/27/what-is-generative-ai-meaning/75780451007",
+        "https://www.dictionary.com/browse/generative"
+      ],
+      "date": "2026-05-15T18:32:17.951605+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T18:03:29.119081+00:00"
+  "lastUpdated": "2026-05-15T18:32:17.951666+00:00"
 }
