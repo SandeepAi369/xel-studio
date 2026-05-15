@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Insilico Medicine has initiated a Phase I clinical trial for ISM001_055, an anti-fibrotic small mole",
-      "urls": [
-        "https://www.nccu.edu/news/ai-transforms-drug-discovery-nccu-0",
-        "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
-        "https://insilico.com/phase1",
-        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10",
-        "https://hms.harvard.edu/news/new-ai-tool-pinpoints-genes-drug-combos-restore-health-diseased-cells",
-        "https://www.nature.com/articles/d41586-025-00602-5"
-      ],
-      "date": "2026-05-05T15:06:29.033969+00:00"
-    },
-    {
       "title": "Meta is shifting its AI strategy by indicating that not all of its future 'superintelligence' models",
       "urls": [
         "https://techcrunch.com/2025/07/30/zuckerberg-says-meta-likely-wont-open-source-all-of-its-superintelligence-ai-models",
@@ -4287,7 +4275,23 @@
         "https://news.mit.edu/topic/mental-health"
       ],
       "date": "2026-05-15T15:02:24.791434+00:00"
+    },
+    {
+      "title": "Chandler High School Wolves Win 2022 And 2023 Arizona 6A State Championships",
+      "urls": [
+        "https://www.nfl.com",
+        "https://www.bbc.com/sport/football",
+        "https://www.skysports.com/football",
+        "https://www.espn.com/nfl",
+        "https://www.lequipe.fr/Football",
+        "https://www.maxpreps.com/az/chandler/chandler-wolves/football",
+        "https://www.bbc.co.uk/sport/football/premier-league/scores-fixtures",
+        "https://www.livescore.com/en",
+        "https://en.wikipedia.org/wiki/Football",
+        "https://chandlerhighfootball.com"
+      ],
+      "date": "2026-05-15T15:32:14.182786+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T15:02:24.791502+00:00"
+  "lastUpdated": "2026-05-15T15:32:14.182864+00:00"
 }
