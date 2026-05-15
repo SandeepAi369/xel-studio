@@ -4323,7 +4323,16 @@
         "https://www.eenadu.net"
       ],
       "date": "2026-05-15T21:05:34.311993+00:00"
+    },
+    {
+      "title": "KCCI 8 News provides comprehensive local news coverage for Des Moines, focusing on real-time updates",
+      "urls": [
+        "https://www.foxnews.com?msockid=027ef90c0e6e62aa3be9ee560f9063e4",
+        "https://www.bloomberg.com/latest",
+        "https://www.kcci.com/local-news"
+      ],
+      "date": "2026-05-15T21:31:02.202823+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T21:05:34.312053+00:00"
+  "lastUpdated": "2026-05-15T21:31:02.202900+00:00"
 }
