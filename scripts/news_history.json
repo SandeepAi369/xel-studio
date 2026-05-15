@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "WHILL is advancing smart wheelchair technology using AI-powered navigation systems that enable real-",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOooSv_4n2TXmwvUceNz2v_qROmdXtO-Ljy4rHVS6OCFGbjXAxFeO"
-      ],
-      "date": "2026-05-05T17:34:09.525526+00:00"
-    },
-    {
       "title": "Mayon Volcano has erupted on Luzon Island in the Philippines, releasing massive ash clouds that blan",
       "urls": [
         "https://www.usnews.com/topics/subjects/natural_disasters",
@@ -4295,7 +4288,20 @@
         "https://www.solflare.com/ecosystem/jupiter-exchange-the-liquidity-engine-of-solana-defi"
       ],
       "date": "2026-05-15T17:32:43.472034+00:00"
+    },
+    {
+      "title": "UN Warns Arab Region Heating Twice as Fast as Global Average",
+      "urls": [
+        "https://www.wri.org/climate-change-news",
+        "https://link.springer.com/subjects/climate-change",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TmpOMkVnSmxiaWdBUAE?hl=en-US&ceid=US%3Aen&oc=11",
+        "https://www.npr.org/sections/climate",
+        "https://www.reuters.com/sustainability/climate-change",
+        "https://news.un.org/en/focus-topic/climate-change",
+        "https://science.nasa.gov/climate-change/stories"
+      ],
+      "date": "2026-05-15T18:03:29.119013+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T17:32:43.472096+00:00"
+  "lastUpdated": "2026-05-15T18:03:29.119081+00:00"
 }
