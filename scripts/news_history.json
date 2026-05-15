@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepMind has unveiled a new AI system capable of autonomously designing scientific experiments, mark",
-      "urls": [
-        "https://www.theguardian.com/technology/2025/sep/17/google-deepmind-claims-historic-ai-breakthrough-in-problem-solving",
-        "https://deepmind.google/models/gemini",
-        "https://www.youtube.com/watch?v=Io_GqmbNBbY"
-      ],
-      "date": "2026-05-05T11:34:07.139463+00:00"
-    },
-    {
       "title": "EWC Club Championship is a new global esports competition featuring the world's top gaming clubs com",
       "urls": [
         "https://edition.cnn.com/sponsor/edition/esports-world-cup-foundation/competitive-gaming-is-reaching-new-heights"
@@ -4261,7 +4252,19 @@
         "https://business.quora.com"
       ],
       "date": "2026-05-15T11:31:08.454603+00:00"
+    },
+    {
+      "title": "Rush Health has launched a national direct-to-consumer telehealth membership called Rush Connect+, e",
+      "urls": [
+        "https://www.uhc.com/member-resources/telehealth-virtual-care",
+        "https://www.americantelemed.org",
+        "https://www.mckinsey.com/industries/healthcare/our-insights/telehealth-a-quarter-trillion-dollar-post-covid-19-reality",
+        "https://www.startus-insights.com/innovators-guide/top-telemedicine-companies",
+        "https://www.who.int/europe/news/item/10-10-2024-the-rise-of-telehealth-in-the-european-region--insights-from-norway",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2025-07-22-rush-health-launches-national-direct-consumer-telehealth-membership"
+      ],
+      "date": "2026-05-15T12:02:18.541783+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T11:31:08.454658+00:00"
+  "lastUpdated": "2026-05-15T12:02:18.541852+00:00"
 }
