@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Companions Help Autistic Users Build Social Skills",
-      "urls": [
-        "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
-      ],
-      "date": "2026-05-05T05:35:03.368943+00:00"
-    },
-    {
       "title": "OpenAI Releases GPT 5.4 With Enhanced Reasoning And Code Accuracy",
       "urls": [
         "https://www.youtube.com/watch?v=M_wKxIA12oU",
@@ -4259,7 +4252,16 @@
         "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs"
       ],
       "date": "2026-05-15T05:30:59.536410+00:00"
+    },
+    {
+      "title": "Mistral AI has unveiled a new large language model capable of ultra-fast translation, marking a sign",
+      "urls": [
+        "https://mistral.ai",
+        "https://www.wired.com/story/mistral-voxtral-real-time-ai-translation",
+        "https://www.merriam-webster.com/dictionary/mistral"
+      ],
+      "date": "2026-05-15T06:01:19.447419+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T05:30:59.536476+00:00"
+  "lastUpdated": "2026-05-15T06:01:19.447489+00:00"
 }
