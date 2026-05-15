@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sanford Health Expands Telemedicine to 500000 Virtual Visits Annually",
-      "urls": [
-        "https://www.youtube.com/watch?v=U8IgMO0Ha2s"
-      ],
-      "date": "2026-05-05T07:33:58.419522+00:00"
-    },
-    {
-      "title": "James Webb Space Telescope has achieved a breakthrough by directly analyzing the surface of a distan",
-      "urls": [
-        "https://www.reddit.com/r/space",
-        "https://www.space.com",
-        "https://en.wikipedia.org/wiki/Outer_space",
-        "https://www.instagram.com/reel/DXu6hZvkcGU",
-        "https://www.esa.int",
-        "https://www.nhm.ac.uk/discover/what-is-space.html",
-        "https://www.spaceforce.mil",
-        "https://www.clubspace.com"
-      ],
-      "date": "2026-05-05T08:10:29.357751+00:00"
-    },
-    {
       "title": "The Game Awards announced the winner for Best Esports Game, recognizing top competitive titles in th",
       "urls": [
         "https://thegameawards.com/winners/best-esports-game"
@@ -4268,7 +4247,14 @@
         "https://en.wikipedia.org/wiki/International"
       ],
       "date": "2026-05-15T07:31:08.435228+00:00"
+    },
+    {
+      "title": "Fox News Digital Attracts Over 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=15f4fd51bea9606f0cd4ea0bbf00618d"
+      ],
+      "date": "2026-05-15T08:33:13.445393+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T07:31:08.435296+00:00"
+  "lastUpdated": "2026-05-15T08:33:13.445459+00:00"
 }
