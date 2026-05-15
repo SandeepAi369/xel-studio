@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "AMD has released a new version of its open-source software GAIA, short for \"Generative AI Is Awesome",
-      "urls": [
-        "https://lxer.com"
-      ],
-      "date": "2026-05-05T05:05:19.381826+00:00"
-    },
-    {
       "title": "Companions Help Autistic Users Build Social Skills",
       "urls": [
         "https://medium.com/illumination/the-real-news-about-ai-friends-for-autistic-neurodivergent-people-32585dab5e3b"
@@ -4252,7 +4245,21 @@
         "https://www.ms.now"
       ],
       "date": "2026-05-15T05:02:14.128523+00:00"
+    },
+    {
+      "title": "Carnegie Mellon Unveils AI-Powered Wheelchair With 40% Improved Navigation",
+      "urls": [
+        "https://keywaymedical.com/innovations-in-mobility-aids-a-look-at-the-latest-technologies",
+        "https://www.cs.cmu.edu/news/2025/arpah_wheelchair",
+        "https://theshould.com/wheelchair-technology",
+        "https://www.richallmed.com/news",
+        "https://www.nature.com/articles/s41467-025-67126-4",
+        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025",
+        "https://everythingmedicalonline.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025",
+        "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs"
+      ],
+      "date": "2026-05-15T05:30:59.536410+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T05:02:14.128587+00:00"
+  "lastUpdated": "2026-05-15T05:30:59.536476+00:00"
 }
