@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generate:Biomedicines has advanced GB-0895, an anti-TSLP antibody for severe asthma, into Phase III ",
-      "urls": [
-        "https://pharmaphorum.com/news/ai-drug-development-news-round",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510778",
-        "https://www.genengnews.com/topics/artificial-intelligence/pharmas-ai-investment-signals-new-drug-discovery-paradigm",
-        "https://www.youtube.com/watch?v=y69d262a8Dc",
-        "https://www.pharmavoice.com/news/ai-disease-target-pharma-drug-rd-illumina/816532",
-        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03159",
-        "https://www.fiercebiotech.com/ai-and-machine-learning"
-      ],
-      "date": "2026-05-05T11:07:15.174335+00:00"
-    },
-    {
       "title": "DeepMind has unveiled a new AI system capable of autonomously designing scientific experiments, mark",
       "urls": [
         "https://www.theguardian.com/technology/2025/sep/17/google-deepmind-claims-historic-ai-breakthrough-in-problem-solving",
@@ -4263,7 +4250,18 @@
         "https://www.yelp.com/biz/orange-healthcare-and-wellness-centre-orange?msockid=204f2be62081652116043cbc215d6456"
       ],
       "date": "2026-05-15T11:01:23.902708+00:00"
+    },
+    {
+      "title": "Quora Launches Business Tools To Boost Brand Authority",
+      "urls": [
+        "https://www.quora.com",
+        "https://business.quora.com/resources/finding-good-questions-to-answer-on-quora",
+        "https://help.quora.com/hc/en-us/requests/new",
+        "https://careers.quora.com/company",
+        "https://business.quora.com"
+      ],
+      "date": "2026-05-15T11:31:08.454603+00:00"
     }
   ],
-  "lastUpdated": "2026-05-15T11:01:23.902770+00:00"
+  "lastUpdated": "2026-05-15T11:31:08.454658+00:00"
 }
