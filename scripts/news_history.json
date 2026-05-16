@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senator Josh Hawley has issued a stark warning about the intensifying artificial intelligence compet",
-      "urls": [
-        "https://www.youtube.com/watch?v=dE918JNaejg"
-      ],
-      "date": "2026-05-06T03:06:19.137024+00:00"
-    },
-    {
       "title": "Nasa SpaceX Crew-12 Launches Four Astronauts To Space Station",
       "urls": [
         "https://www.youtube.com/watch?v=Vrn5KEfXHW8",
@@ -4397,7 +4390,17 @@
         "https://www.scientificamerican.com/article/hurricanes-wildfires-and-other-disasters-displaced-a-record-46-million"
       ],
       "date": "2026-05-16T03:01:09.664715+00:00"
+    },
+    {
+      "title": "Fox8 Delivers Real-Time Local News to 750000 Households",
+      "urls": [
+        "https://www.etnownews.com/news",
+        "https://www.koat.com/local-news",
+        "https://www.cbsnews.com/boston/local-news",
+        "https://myfox8.com/news/north-carolina/winston-salem"
+      ],
+      "date": "2026-05-16T03:32:12.687686+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T03:01:09.664767+00:00"
+  "lastUpdated": "2026-05-16T03:32:12.687741+00:00"
 }
