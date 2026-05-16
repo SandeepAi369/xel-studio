@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reserv has raised $125 million in a Series C funding round, marking a significant milestone in its g",
-      "urls": [
-        "https://vcnewsdaily.com",
-        "https://news.crunchbase.com/ma/most-active-startup-acquirers-3-years-crm-openai-snowflake",
-        "https://www.youtube.com/watch?v=s8bUdcfWQ00"
-      ],
-      "date": "2026-05-06T22:03:20.713376+00:00"
-    },
-    {
       "title": "Major Corporations Weaken Climate Pledges Amid Regulatory Uncertainty",
       "urls": [
         "https://www.mofo.com/sustainability-resources/sustainability-corporate-responsibility-news",
@@ -4538,7 +4529,15 @@
         "https://www.instagram.com?hl=en"
       ],
       "date": "2026-05-16T22:02:17.369088+00:00"
+    },
+    {
+      "title": "Phoenix Records 106°F Average High During July Heat Wave",
+      "urls": [
+        "https://en.climate-data.org/north-america/united-states-of-america/arizona/phoenix-1468",
+        "https://www.accuweather.com/en/us/phoenix/85003/hourly-weather-forecast/346935"
+      ],
+      "date": "2026-05-16T22:32:06.918017+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T22:02:17.369162+00:00"
+  "lastUpdated": "2026-05-16T22:32:06.918075+00:00"
 }
