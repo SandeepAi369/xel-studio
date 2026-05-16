@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stack Overflow survey reveals that 71% of developers with less than five years of experience are fam",
-      "urls": [
-        "https://ecommercenews.uk/story/open-source-ai-gains-favour-among-new-developers-globally",
-        "https://www.ibm.com/think/news/2025-open-ai-trends",
-        "https://www.bloomberg.com/news/articles/2025-08-06/how-deepseek-and-open-source-ai-models-are-disrupting-big-tech",
-        "https://www.cio.com/article/4020537/ai-open-source-projects-that-should-be-on-your-radar.html",
-        "https://www.youtube.com/watch?v=goMey2Ir-m0",
-        "https://www.youtube.com/watch?v=R5eH2PS0V3M",
-        "https://www.youtube.com/watch?v=oZ6weVeFNwo",
-        "https://www.cbinsights.com/research/open-source-closed-source-ai"
-      ],
-      "date": "2026-05-06T23:07:24.219415+00:00"
-    },
-    {
       "title": "Mistral AI has released a new open-source multimodal model, Mistral Next, designed to process text, ",
       "urls": [
         "https://llm-stats.com/ai-news",
@@ -4534,7 +4520,19 @@
         "https://www.si.com"
       ],
       "date": "2026-05-16T23:01:09.266535+00:00"
+    },
+    {
+      "title": "Chiefs And Eagles Clash In Super Bowl Rematch To Open Nfl Season",
+      "urls": [
+        "https://www.nbcsports.com/nfl",
+        "https://www.mediafire.com",
+        "https://www.cnn.com/videos",
+        "https://www.thetimes.com",
+        "https://www.ksl.com",
+        "https://www.fancode.com"
+      ],
+      "date": "2026-05-16T23:30:58.556170+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T23:01:09.266603+00:00"
+  "lastUpdated": "2026-05-16T23:30:58.556235+00:00"
 }
