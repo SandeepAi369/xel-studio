@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Recursion Pharmaceuticals is leveraging artificial intelligence to accelerate drug discovery, using ",
-      "urls": [
-        "https://finance.yahoo.com/news/forget-ai-stocks-pharma-giant-230000369.html"
-      ],
-      "date": "2026-05-06T05:04:15.674275+00:00"
-    },
-    {
       "title": "Whill Deploys AI Navigation In Smart Wheelchairs For Urban Mobility",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOooFZNhoecoAjkBMMdLkFlaJNj0OjiCl1Oxhza5ACnK1L3JD-PAP"
@@ -4403,7 +4396,16 @@
         "https://www.cbssports.com/nfl"
       ],
       "date": "2026-05-16T05:01:13.493867+00:00"
+    },
+    {
+      "title": "CBS News Adapts Coverage Using Real-Time Streaming Analytics",
+      "urls": [
+        "https://www.youtube.com/CBSNews/live",
+        "https://us.cnn.com",
+        "https://www.cbsnews.com/tag/breaking-news"
+      ],
+      "date": "2026-05-16T05:31:00.639044+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T05:01:13.493922+00:00"
+  "lastUpdated": "2026-05-16T05:31:00.639122+00:00"
 }
