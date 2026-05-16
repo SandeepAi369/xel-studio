@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists have discovered a hidden brain 'cleaning' effect triggered by physical movement, a findin",
-      "urls": [
-        "https://www.sciencedaily.com/news/top/science"
-      ],
-      "date": "2026-05-06T17:04:19.554413+00:00"
-    },
-    {
       "title": "MIT researchers have developed a wristband that allows users to control a robotic hand through their",
       "urls": [
         "https://spectrum.ieee.org/tag/assistive-technology",
@@ -4511,7 +4504,17 @@
         "https://www.nerdwallet.com/investing/learn/cryptocurrency?msockid=3836a547b3346c42169bb21cb22e6d1a"
       ],
       "date": "2026-05-16T17:01:14.431961+00:00"
+    },
+    {
+      "title": "China's new internet law has sparked widespread concern among digital rights groups, following its i",
+      "urls": [
+        "https://click.connect.hhs.gov",
+        "https://www.newsweek.com/china-online-identification-rights-free-speech-government-censorship-control-2099528",
+        "https://www.computerweekly.com/news",
+        "https://gdpr.eu"
+      ],
+      "date": "2026-05-16T17:31:21.879051+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T17:01:14.432031+00:00"
+  "lastUpdated": "2026-05-16T17:31:21.879122+00:00"
 }
