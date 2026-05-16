@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT researchers have developed a wristband that allows users to control a robotic hand through their",
-      "urls": [
-        "https://spectrum.ieee.org/tag/assistive-technology",
-        "https://www.reddit.com/r/AssistiveTechnology",
-        "https://news.mit.edu/topic/assistive-technology"
-      ],
-      "date": "2026-05-06T17:37:08.076734+00:00"
-    },
-    {
       "title": "ESA reveals 10 new insights from climate science, highlighting unprecedented global temperature rise",
       "urls": [
         "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Revealed_10_new_insights_in_climate_science"
@@ -4514,7 +4505,17 @@
         "https://gdpr.eu"
       ],
       "date": "2026-05-16T17:31:21.879051+00:00"
+    },
+    {
+      "title": "Japan Records 6.7-Magnitude Earthquake Off Miyagi Coast",
+      "urls": [
+        "https://www.seismo.berkeley.edu/seismo.real.time.map.html",
+        "https://www.msn.com/en-us/news/world/japan-hit-by-powerful-earthquake-as-warnings-issued-for-five-regions/ar-AA23heaF",
+        "https://allquakes.com/earthquakes/usa.html",
+        "https://www.cisn.org/map"
+      ],
+      "date": "2026-05-16T18:03:31.935498+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T17:31:21.879122+00:00"
+  "lastUpdated": "2026-05-16T18:03:31.935579+00:00"
 }
