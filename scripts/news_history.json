@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ESA reveals 10 new insights from climate science, highlighting unprecedented global temperature rise",
-      "urls": [
-        "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Revealed_10_new_insights_in_climate_science"
-      ],
-      "date": "2026-05-06T18:05:38.251933+00:00"
-    },
-    {
       "title": "Open source AI is reshaping how developers build and deploy artificial intelligence tools across ind",
       "urls": [
         "https://www.linkedin.com/pulse/how-open-source-community-transforming-ai-channel-alyssa-fitzpatrick-i4ake"
@@ -4515,7 +4508,19 @@
         "https://www.cisn.org/map"
       ],
       "date": "2026-05-16T18:03:31.935498+00:00"
+    },
+    {
+      "title": "China Deploys Naval Blockade Near Taiwan To Assert Territorial Claims",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Geopolitics",
+        "https://www.weforum.org/stories/2026/05/blockade-diplomacy-and-other-geopolitical-stories-to-know-this-month",
+        "https://www.csis.org/geopolitics-foreign-policy",
+        "https://www.merriam-webster.com/dictionary/geopolitics",
+        "https://www.geopolitika.it/en/geopolitics-definition-meaning-and-role-of-a-foundational-discipline-in-understanding-global-power",
+        "https://www.foreignaffairs.com/topics/geopolitics"
+      ],
+      "date": "2026-05-16T18:31:24.235324+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T18:03:31.935579+00:00"
+  "lastUpdated": "2026-05-16T18:31:24.235378+00:00"
 }
