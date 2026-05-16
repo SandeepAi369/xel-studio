@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch dominates AI model training, with 63% of current models built using the framework, reflectin",
-      "urls": [
-        "https://www.udacity.com/blog/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025",
-        "https://www.theknowledgeacademy.com/blog/pytorch-vs-tensorflow",
-        "https://www.facebook.com/LifeAtMeta/posts/did-you-know-that-63-of-ai-training-models-today-are-built-on-pytorch-when-meta-/1061418989487685"
-      ],
-      "date": "2026-05-06T19:34:17.860172+00:00"
-    },
-    {
       "title": "techUK has released a comprehensive update on shifting global trade dynamics, focusing on digital po",
       "urls": [
         "https://www.techuk.org/resource/global-tech-and-trade-policy-updatejuly.html"
@@ -4523,7 +4514,23 @@
         "https://www.foxnews.com?msockid=1f0e18fec56e678f1db60fa5c4d866df"
       ],
       "date": "2026-05-16T19:31:27.408475+00:00"
+    },
+    {
+      "title": "Steam Gives Away Horror Game Until May 19",
+      "urls": [
+        "https://www.crazygames.com",
+        "https://www.pcmag.com/news/categories/games",
+        "https://www.ign.com",
+        "https://www.pcgamer.com",
+        "https://www.cnet.com/tech/gaming",
+        "https://gamerant.com/gaming",
+        "https://www.nbcnews.com/tech/video-games",
+        "https://www.newsnow.com/us/Entertainment/Gaming",
+        "https://www.gaming.net",
+        "https://gaming.news"
+      ],
+      "date": "2026-05-16T20:03:31.209546+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T19:31:27.408544+00:00"
+  "lastUpdated": "2026-05-16T20:03:31.209618+00:00"
 }
