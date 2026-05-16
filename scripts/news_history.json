@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maryland has become the first U.",
-      "urls": [
-        "https://www.theguardian.com/world/surveillance",
-        "https://www.aljazeera.com/tag/privacy",
-        "https://www.openrightsgroup.org/category/online-privacy",
-        "https://www.reuters.com/legal/data-privacy"
-      ],
-      "date": "2026-05-06T16:03:27.337422+00:00"
-    },
-    {
       "title": "Scientists have discovered a hidden brain 'cleaning' effect triggered by physical movement, a findin",
       "urls": [
         "https://www.sciencedaily.com/news/top/science"
@@ -4495,7 +4485,23 @@
         "https://www.war.gov"
       ],
       "date": "2026-05-16T16:01:12.725347+00:00"
+    },
+    {
+      "title": "Tesla And Figure Deploy Humanoid Robots In Factory Trials",
+      "urls": [
+        "https://www.designnews.com/automation/humanoid-robots-open-to-a-future-where-ai-and-automation-merge",
+        "https://humanoidroboticstechnology.com/category/news",
+        "https://www.therobotreport.com/robotics-news",
+        "https://robotnewstoday.com",
+        "https://www.humanoidhub.ai/news",
+        "https://www.businesswire.com/news/home/20251107524093/en/Industrial-Robots-Research-Report-2025-Moving-from-Automation-to-Autonomy---Humanoid-Collaborative-AI-Driven-Robotics-Reshape-Manufacturing-as-BMW-Mercedes-Benz-Tesla-Pilot-Factory-Deployments---ResearchAndMarkets.com",
+        "https://www.robotics247.com/topic/tag/Humanoid",
+        "https://news.robot.tv",
+        "https://roboticsandautomationnews.com/2025/09/23/bain-report-humanoid-robots-still-in-pilot-stage-as-industry-prepares-for-waves-of-adoption/94695",
+        "https://www.bain.com/insights/humanoid-robots-from-demos-to-deployment-technology-report-2025"
+      ],
+      "date": "2026-05-16T16:32:02.688683+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T16:01:12.725413+00:00"
+  "lastUpdated": "2026-05-16T16:32:02.688745+00:00"
 }
