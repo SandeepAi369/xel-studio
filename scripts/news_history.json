@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Major Corporations Weaken Climate Pledges Amid Regulatory Uncertainty",
-      "urls": [
-        "https://www.mofo.com/sustainability-resources/sustainability-corporate-responsibility-news",
-        "https://www.youtube.com/watch?v=6-PN3GeAEXo",
-        "https://fsc.org/en/blog/good-climate-news",
-        "https://www.bloomberg.com/features/2025-corporate-climate-broken-promises",
-        "https://www.yahoo.com/news/companies-still-face-pressure-manage-124405085.html"
-      ],
-      "date": "2026-05-06T22:34:02.491784+00:00"
-    },
-    {
       "title": "Stack Overflow survey reveals that 71% of developers with less than five years of experience are fam",
       "urls": [
         "https://ecommercenews.uk/story/open-source-ai-gains-favour-among-new-developers-globally",
@@ -4537,7 +4526,15 @@
         "https://www.accuweather.com/en/us/phoenix/85003/hourly-weather-forecast/346935"
       ],
       "date": "2026-05-16T22:32:06.918017+00:00"
+    },
+    {
+      "title": "Sports Illustrated Releases 48 Unique Covers For 2026 FIFA World Cup Nations",
+      "urls": [
+        "https://www.espn.com/espn/latestnews",
+        "https://www.si.com"
+      ],
+      "date": "2026-05-16T23:01:09.266535+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T22:32:06.918075+00:00"
+  "lastUpdated": "2026-05-16T23:01:09.266603+00:00"
 }
