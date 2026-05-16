@@ -4362,7 +4362,19 @@
         "https://www.accuweather.com/en/us/ashburn/20147/weather-forecast/2160760"
       ],
       "date": "2026-05-16T01:30:53.265692+00:00"
+    },
+    {
+      "title": "National Institute of Mental Health Highlights Autism Spectrum Disorder Variability",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Autism",
+        "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder",
+        "https://www.webmd.com/brain/autism/understanding-autism-basics",
+        "https://my.clevelandclinic.org/health/articles/autism",
+        "https://nationalautismassociation.org/resources/autism-fact-sheet",
+        "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders"
+      ],
+      "date": "2026-05-16T02:01:06.096150+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T01:30:53.265760+00:00"
+  "lastUpdated": "2026-05-16T02:01:06.096207+00:00"
 }
