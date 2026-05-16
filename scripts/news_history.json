@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Launches AI-Powered Smart Wheelchairs With Real-Time Navigation",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOoql6Y7Khh2obkTkaZGqAtz7pHTTAZxKSu26terTBN7-yuEoF4yI"
-      ],
-      "date": "2026-05-06T08:35:06.777345+00:00"
-    },
-    {
       "title": "Avandra has launched with $17.",
       "urls": [
         "https://www.crescendo.ai/news/ai-in-healthcare-news",
@@ -4428,7 +4421,19 @@
         "https://www.ldoceonline.com/dictionary/open"
       ],
       "date": "2026-05-16T08:31:01.696391+00:00"
+    },
+    {
+      "title": "University Of Oxford Launches Ai Tool To Detect Early Heart Failure",
+      "urls": [
+        "https://www.sciencenewstoday.org/how-ai-is-transforming-healthcare-diagnosis-treatment-and-beyond",
+        "https://www.nejm.org/ai-in-medicine",
+        "https://www.nature.com/articles/s44387-026-00076-4",
+        "https://medicine.stanford.edu/news/stories/2026/01/clinical-ai-has-boomed.html",
+        "https://hms.harvard.edu/news/ai-system-detailed-diagnostic-reasoning-makes-its-case",
+        "https://www.linkedin.com/pulse/month-healthcare-ai-may-2026-gary-monk-qnyue"
+      ],
+      "date": "2026-05-16T09:01:07.775282+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T08:31:01.696454+00:00"
+  "lastUpdated": "2026-05-16T09:01:07.775349+00:00"
 }
