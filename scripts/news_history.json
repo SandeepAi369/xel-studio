@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face has launched a new open-source software offering in collaboration with Amazon.",
-      "urls": [
-        "https://huggingface.co/models?other=news",
-        "https://finance.yahoo.com/news/startup-hugging-face-aims-cut-161915510.html"
-      ],
-      "date": "2026-05-06T14:36:02.838844+00:00"
-    },
-    {
       "title": "Mayo Clinic AI Model Detects Pancreatic Cancer 475 Days Early",
       "urls": [
         "https://www.mirror.co.uk/news/health/new-cancer-breakthrough-ai-detects-37112125",
@@ -4483,7 +4475,14 @@
         "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired"
       ],
       "date": "2026-05-16T14:32:06.419942+00:00"
+    },
+    {
+      "title": "Fda Finalizes Guidelines For Safe Medication Disposal",
+      "urls": [
+        "https://www.fda.gov/drugs"
+      ],
+      "date": "2026-05-16T15:01:17.107027+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T14:32:06.420038+00:00"
+  "lastUpdated": "2026-05-16T15:01:17.107091+00:00"
 }
