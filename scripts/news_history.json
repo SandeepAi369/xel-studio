@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telehealth and Medicine Today publishes research on digital health innovations aimed at improving pa",
-      "urls": [
-        "https://isfteh.org/2026/05/05/telehealth-and-medicine-today-digital-health-innovations-to-improve-outcomes"
-      ],
-      "date": "2026-05-06T19:07:20.486470+00:00"
-    },
-    {
       "title": "PyTorch dominates AI model training, with 63% of current models built using the framework, reflectin",
       "urls": [
         "https://www.udacity.com/blog/tensorflow-vs-pytorch-which-framework-should-you-learn-in-2025",
@@ -4523,7 +4516,14 @@
         "https://huggingface.co/blog/hugs"
       ],
       "date": "2026-05-16T19:02:43.684018+00:00"
+    },
+    {
+      "title": "Fox News Delivers Conservative Coverage With The Five Leading Ratings",
+      "urls": [
+        "https://www.foxnews.com?msockid=1f0e18fec56e678f1db60fa5c4d866df"
+      ],
+      "date": "2026-05-16T19:31:27.408475+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T19:02:43.684083+00:00"
+  "lastUpdated": "2026-05-16T19:31:27.408544+00:00"
 }
