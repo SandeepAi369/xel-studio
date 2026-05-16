@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Courts Block Trump Era Renewable Energy Restrictions",
-      "urls": [
-        "https://www.youtube.com/watch?v=Rc3t4sGI4ao",
-        "https://www.utilitydive.com/topic/solar"
-      ],
-      "date": "2026-05-06T14:05:19.113539+00:00"
-    },
-    {
       "title": "Hugging Face has launched a new open-source software offering in collaboration with Amazon.",
       "urls": [
         "https://huggingface.co/models?other=news",
@@ -4484,7 +4476,14 @@
         "https://www.eventbrite.com"
       ],
       "date": "2026-05-16T14:01:14.048929+00:00"
+    },
+    {
+      "title": "OrCam MyEye 4.0 Launches With Enhanced AI For Visually Impaired Users",
+      "urls": [
+        "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired"
+      ],
+      "date": "2026-05-16T14:32:06.419942+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T14:01:14.048989+00:00"
+  "lastUpdated": "2026-05-16T14:32:06.420038+00:00"
 }
