@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI launched GPT-5.",
-      "urls": [
-        "https://www.inc.com/ben-sherry/openai-just-dropped-gpt-5-5-and-says-the-new-model-intuits-what-you-need-before-you-ask/91335260"
-      ],
-      "date": "2026-05-06T00:05:22.643958+00:00"
-    },
-    {
       "title": "Catapult And Stats Perform Drive 37 Billion Sports Tech Growth",
       "urls": [
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOorBWN089UGGQ16Q4SBN1D0RbTWvhsWZGYK9MjtMr_9aCwi_ghqB",
@@ -4360,7 +4353,17 @@
         "https://distrowatch.com"
       ],
       "date": "2026-05-16T00:01:10.347579+00:00"
+    },
+    {
+      "title": "PayPal Appoints Enrique Lores As New Chief Executive Officer",
+      "urls": [
+        "https://www.cnbc.com/technology?msockid=12f3346bad916801283c2330ac9669ce",
+        "https://newsroom.paypal-corp.com/2026-02-03-PayPal-Appoints-Enrique-Lores-as-Chief-Executive-Officer-and-David-W-Dorman-as-Independent-Board-Chair",
+        "https://github.com/annontopicmodel/unsupervised_topic_modeling/blob/master/topics/fr/11/50/50/topics",
+        "https://www.stocktitan.net/news/DJT/trump-media-technology-group-appoints-kevin-mc-gurn-as-interim-chief-budv0tpv535g.html"
+      ],
+      "date": "2026-05-16T00:31:03.996405+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T00:01:10.347639+00:00"
+  "lastUpdated": "2026-05-16T00:31:03.996466+00:00"
 }
