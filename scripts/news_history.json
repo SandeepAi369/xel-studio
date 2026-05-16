@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has launched Forge, a new platform enabling enterprises to build custom AI models using t",
-      "urls": [
-        "https://mistral.ai/news/forge"
-      ],
-      "date": "2026-05-06T10:05:22.714567+00:00"
-    },
-    {
       "title": "Royal Society has published a comprehensive report confirming that Earth's climate is warming due to",
       "urls": [
         "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
@@ -4437,7 +4430,14 @@
         "https://www.newsnow.co.uk/h/Sport/Football/Premier+League/Chelsea"
       ],
       "date": "2026-05-16T10:02:22.274764+00:00"
+    },
+    {
+      "title": "Scientists Advance Knowledge Through Rigorous Scientific Method Applications",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Science"
+      ],
+      "date": "2026-05-16T10:30:58.582251+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T10:02:22.274819+00:00"
+  "lastUpdated": "2026-05-16T10:30:58.582322+00:00"
 }
