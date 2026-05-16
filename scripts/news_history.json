@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "techUK has released a comprehensive update on shifting global trade dynamics, focusing on digital po",
-      "urls": [
-        "https://www.techuk.org/resource/global-tech-and-trade-policy-updatejuly.html"
-      ],
-      "date": "2026-05-06T20:06:35.954830+00:00"
-    },
-    {
       "title": "NASA's SpaceX Crew-12 spacecraft is now in orbit following a successful launch and booster landing a",
       "urls": [
         "https://www.nasa.gov/blogs/spacestation/2026/02/13/crew-12-falcon-9-first-stage-returns",
@@ -4530,7 +4523,18 @@
         "https://gaming.news"
       ],
       "date": "2026-05-16T20:03:31.209546+00:00"
+    },
+    {
+      "title": "BaFin Warns Of Cyber Risks In German Surveillance Systems",
+      "urls": [
+        "https://iapp.org/news",
+        "https://www.reuters.com/legal/data-privacy",
+        "https://www.abacademies.org/articles/the-politics-of-privacy-global-responses-to-data-protection-and-surveillance-laws.pdf",
+        "https://myprivacy.blog/the-battle-for-digital-privacy-how-2025-became-the-year-governments-declared-war-on-encryption",
+        "https://planet.news/article/digital-security-privacy-concerns-2026"
+      ],
+      "date": "2026-05-16T20:31:01.733442+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T20:03:31.209618+00:00"
+  "lastUpdated": "2026-05-16T20:31:01.733506+00:00"
 }
