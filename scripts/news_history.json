@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society has published a comprehensive report confirming that Earth's climate is warming due to",
-      "urls": [
-        "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change"
-      ],
-      "date": "2026-05-06T10:35:07.345167+00:00"
-    },
-    {
       "title": "WHILL is advancing personal mobility with AI-powered smart wheelchairs that enable real-time navigat",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOorSCStLscov612YzT1GB00UhclmYlIruhDjWt6y8MqRVRWZTP9a"
@@ -4437,7 +4430,16 @@
         "https://en.wikipedia.org/wiki/Science"
       ],
       "date": "2026-05-16T10:30:58.582251+00:00"
+    },
+    {
+      "title": "Who What: WHO Reports One In Eight Global Population Lives With Mental Disorder",
+      "urls": [
+        "https://www.nature.com/articles/s41599-025-06441-z",
+        "https://en.m.wikipedia.org/wiki/Mental_health",
+        "https://www.cdc.gov/mental-health/about/index.html"
+      ],
+      "date": "2026-05-16T11:02:09.966101+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T10:30:58.582322+00:00"
+  "lastUpdated": "2026-05-16T11:02:09.966156+00:00"
 }
