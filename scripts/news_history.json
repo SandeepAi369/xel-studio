@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Be My Eyes has partnered with OpenAI to launch an AI-powered version of its app, which helps visuall",
-      "urls": [
-        "https://www.cnn.com/2024/07/08/tech/ai-assistive-technology-disabilities",
-        "https://www.envisioningaccess.org/aipoweringnextgen",
-        "https://makeitfable.com/article/insights-ai-and-accessibility",
-        "https://www.youtube.com/watch?v=X_2qd7UsgkY",
-        "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2024/12/inclusive-ai-for-people-with-disabilities--key-considerations.html",
-        "https://www.weforum.org/stories/2023/11/generative-ai-holds-potential-disabilities",
-        "https://www.cbc.ca/news/canada/new-brunswick/ai-levelling-playing-field-for-disabled-workers-1.7464131"
-      ],
-      "date": "2026-05-06T01:03:11.531434+00:00"
-    },
-    {
       "title": "Senator Josh Hawley has issued a stark warning about the intensifying artificial intelligence compet",
       "urls": [
         "https://www.youtube.com/watch?v=dE918JNaejg"
@@ -4367,7 +4354,15 @@
         "https://www.ada.gov"
       ],
       "date": "2026-05-16T01:01:18.115359+00:00"
+    },
+    {
+      "title": "Ashburn Faces Variable Weather With Temperatures From 48°F To 76°F",
+      "urls": [
+        "https://weather.com/weather/tenday/l/Ashburn+Virginia+20147?canonicalCityId=4b163901251cd5b38f957dbb917b3016",
+        "https://www.accuweather.com/en/us/ashburn/20147/weather-forecast/2160760"
+      ],
+      "date": "2026-05-16T01:30:53.265692+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T01:01:18.115432+00:00"
+  "lastUpdated": "2026-05-16T01:30:53.265760+00:00"
 }
