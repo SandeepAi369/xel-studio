@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open source AI is reshaping how developers build and deploy artificial intelligence tools across ind",
-      "urls": [
-        "https://www.linkedin.com/pulse/how-open-source-community-transforming-ai-channel-alyssa-fitzpatrick-i4ake"
-      ],
-      "date": "2026-05-06T18:35:14.379863+00:00"
-    },
-    {
       "title": "Telehealth and Medicine Today publishes research on digital health innovations aimed at improving pa",
       "urls": [
         "https://isfteh.org/2026/05/05/telehealth-and-medicine-today-digital-health-innovations-to-improve-outcomes"
@@ -4520,7 +4513,17 @@
         "https://www.foreignaffairs.com/topics/geopolitics"
       ],
       "date": "2026-05-16T18:31:24.235324+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Hugs To Simplify Open Source AI Deployment",
+      "urls": [
+        "https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e13-open-source-models-hugging-face/4454335",
+        "https://www.geeksforgeeks.org/nlp/hugging-face-and-open-source-the-impact-on-the-ai-community",
+        "https://huggingface.co/blog/gcp-partnership",
+        "https://huggingface.co/blog/hugs"
+      ],
+      "date": "2026-05-16T19:02:43.684018+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T18:31:24.235378+00:00"
+  "lastUpdated": "2026-05-16T19:02:43.684083+00:00"
 }
