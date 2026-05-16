@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Whill Deploys AI Navigation In Smart Wheelchairs For Urban Mobility",
-      "urls": [
-        "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade?srsltid=AfmBOooFZNhoecoAjkBMMdLkFlaJNj0OjiCl1Oxhza5ACnK1L3JD-PAP"
-      ],
-      "date": "2026-05-06T05:38:03.506916+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.5 With Advanced Tool Integration",
       "urls": [
         "https://developers.openai.com/api/docs/models"
@@ -4405,7 +4398,20 @@
         "https://www.cbsnews.com/tag/breaking-news"
       ],
       "date": "2026-05-16T05:31:00.639044+00:00"
+    },
+    {
+      "title": "University Of Texas Researchers Uncover ATR Enzyme Role In DNA Repair",
+      "urls": [
+        "https://scitechdaily.com/news/health",
+        "https://medicalxpress.com",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx",
+        "https://med.stanford.edu/news/all-news/2025/12/top-advancements-2025.html",
+        "https://www.jandbmedical.com",
+        "https://espositomedical.com",
+        "https://www.independence.health/locations/frick-hospital"
+      ],
+      "date": "2026-05-16T06:01:07.119836+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T05:31:00.639122+00:00"
+  "lastUpdated": "2026-05-16T06:01:07.119902+00:00"
 }
