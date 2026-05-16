@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Avandra has launched with $17.",
-      "urls": [
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://www.nature.com/articles/s41598-024-70073-7",
-        "https://www.boa.ac.uk/learning-and-events/artificial-intelligence-ai-in-t-o/ai-in-healthcare-news-and-updates.html",
-        "https://learn.hms.harvard.edu/insights/all-insights/how-emerging-trends-ai-are-shaping-future-health-care-quality-and-safety",
-        "https://www.insideprecisionmedicine.com/topics/translational-research/harnessing-ai-innovation-to-modernize-clinical-trials",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804900"
-      ],
-      "date": "2026-05-06T09:07:25.749376+00:00"
-    },
-    {
       "title": "Mistral AI has launched Forge, a new platform enabling enterprises to build custom AI models using t",
       "urls": [
         "https://mistral.ai/news/forge"
@@ -4433,7 +4421,15 @@
         "https://www.linkedin.com/pulse/month-healthcare-ai-may-2026-gary-monk-qnyue"
       ],
       "date": "2026-05-16T09:01:07.775282+00:00"
+    },
+    {
+      "title": "Portland Offers 60 Accessible Attractions and 380 Lift Vehicles for Disabled Riders",
+      "urls": [
+        "https://dictionary.cambridge.org/dictionary/english/accessible",
+        "https://www.travelportland.com/plan/accessible-portland"
+      ],
+      "date": "2026-05-16T09:31:03.239097+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T09:01:07.775349+00:00"
+  "lastUpdated": "2026-05-16T09:31:03.239158+00:00"
 }
