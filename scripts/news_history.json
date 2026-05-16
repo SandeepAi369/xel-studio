@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artemis II crew completed a successful mission, splashing down in the Pacific Ocean near San Diego a",
-      "urls": [
-        "https://www.nytimes.com/section/science"
-      ],
-      "date": "2026-05-06T13:04:20.704747+00:00"
-    },
-    {
       "title": "CES 2026 unveiled groundbreaking assistive technologies focused on independent mobility, with self-d",
       "urls": [
         "https://www.youtube.com/watch?v=b5DvFC4SaUE"
@@ -4478,7 +4471,16 @@
         "https://coingape.com"
       ],
       "date": "2026-05-16T13:01:11.414847+00:00"
+    },
+    {
+      "title": "Pride Mobility Launches 15 New Jazzy Electric Wheelchair Models",
+      "urls": [
+        "https://www.pridemobility.com/jazzy-power-chairs/models.asp",
+        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=13635e1f574467d90dde4944564966f3",
+        "https://scootaround.com"
+      ],
+      "date": "2026-05-16T13:31:01.639528+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T13:01:11.414943+00:00"
+  "lastUpdated": "2026-05-16T13:31:01.639597+00:00"
 }
