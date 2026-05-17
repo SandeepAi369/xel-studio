@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://www.bloomberg.com/economics-v2",
-        "https://www.youtube.com/watch?v=sAjJjjmo0ug&vl=en-US"
-      ],
-      "date": "2026-05-07T20:06:24.059354+00:00"
-    },
-    {
       "title": "UFC has announced a new welterweight matchup between rising contender Sean Brady and veteran Gabriel",
       "urls": [
         "https://www.sportingnews.com/us/mma/news"
@@ -4720,7 +4712,16 @@
         "https://fortune.com"
       ],
       "date": "2026-05-17T20:01:16.212642+00:00"
+    },
+    {
+      "title": "Culver City Paratransit Launches Expanded Ride Service For Disabled Residents",
+      "urls": [
+        "https://connsensereport.com/2025/08/10/accessible-innovations-in-technology-2025-updates",
+        "https://en.wiktionary.org/wiki/accessible",
+        "https://www.culvercity.gov/Services/Adult-Senior-Services/Senior-Disabled-Transportation-Services"
+      ],
+      "date": "2026-05-17T20:32:08.079150+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T20:01:16.212714+00:00"
+  "lastUpdated": "2026-05-17T20:32:08.079214+00:00"
 }
