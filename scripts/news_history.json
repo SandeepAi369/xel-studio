@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Launches ProEval Framework to Predict AI Model Failures",
-      "urls": [
-        "https://letsdatascience.com/news/topic/google",
-        "https://deepmind.google/research/publications"
-      ],
-      "date": "2026-05-07T10:04:18.165091+00:00"
-    },
-    {
       "title": "Amazon Web Services is expanding its support for Web3 development by offering infrastructure tools t",
       "urls": [
         "https://aws.amazon.com/web3"
@@ -4626,7 +4618,15 @@
         "https://usabilitygeek.com/10-free-screen-reader-blind-visually-impaired-users"
       ],
       "date": "2026-05-17T10:01:14.602351+00:00"
+    },
+    {
+      "title": "Solar Pv Accounts For 75 Percent Of Global Renewable Capacity Additions",
+      "urls": [
+        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
+        "https://www.energyglobal.com/news"
+      ],
+      "date": "2026-05-17T10:32:03.390115+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T10:01:14.602421+00:00"
+  "lastUpdated": "2026-05-17T10:32:03.390179+00:00"
 }
