@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services is expanding its support for Web3 development by offering infrastructure tools t",
-      "urls": [
-        "https://aws.amazon.com/web3"
-      ],
-      "date": "2026-05-07T11:07:26.730103+00:00"
-    },
-    {
       "title": "Economy Shows Resilience Amid Rising Inflation and Steady Consumer Spending",
       "urls": [
         "https://www.youtube.com/watch?v=A11NCDNXg1Y"
@@ -4637,7 +4630,19 @@
         "https://www.essentiallysports.com/olympics-news-track-and-field-news-national-champion-breaks-down-after-fourth-us-marathon-record-in-four-months"
       ],
       "date": "2026-05-17T11:02:17.013030+00:00"
+    },
+    {
+      "title": "FIFA Expands 2026 World Cup To 48 Teams Across Three Host Nations",
+      "urls": [
+        "https://www.fifa.com",
+        "https://www.si.com/nfl",
+        "https://www.theguardian.com/football+football",
+        "https://sports.yahoo.com/nfl",
+        "https://www.goal.com/en-in/live-scores",
+        "https://www.telegraphindia.com/sports/football"
+      ],
+      "date": "2026-05-17T11:31:03.585144+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T11:02:17.013080+00:00"
+  "lastUpdated": "2026-05-17T11:31:03.585210+00:00"
 }
