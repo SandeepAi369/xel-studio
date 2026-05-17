@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable energy surpassed global electricity demand growth last year, driven by record installation",
-      "urls": [
-        "https://www.ctinsider.com/news/article/renewable-energies-overtook-global-electricity-22216837.php"
-      ],
-      "date": "2026-05-07T06:37:06.573411+00:00"
-    },
-    {
       "title": "Texas father confronts and subdues an individual attempting to carjack his vehicle in a violent inci",
       "urls": [
         "https://www.foxnews.com",
@@ -4600,7 +4593,15 @@
         "https://evansmedicalcenter.com"
       ],
       "date": "2026-05-17T06:31:11.348231+00:00"
+    },
+    {
+      "title": "Mental Health Conditions Impact Millions Seeking Early Treatment",
+      "urls": [
+        "https://www.usa.gov/mental-health",
+        "https://www.mentalhealth.com/library/mental-health-conditions"
+      ],
+      "date": "2026-05-17T07:02:09.440494+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T06:31:11.348294+00:00"
+  "lastUpdated": "2026-05-17T07:02:09.440561+00:00"
 }
