@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia announced a non-exclusive licensing agreement with Groq, a startup specializing in custom AI ",
-      "urls": [
-        "https://www.businessinsider.com/biggest-ai-deals-acquisitions-of-the-year-2025-12",
-        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic",
-        "https://techfundingnews.com"
-      ],
-      "date": "2026-05-07T19:33:58.667350+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://www.bloomberg.com/economics-v2",
@@ -4714,7 +4705,22 @@
         "https://techcrunch.com/2025/05/31/google-quietly-released-an-app-that-lets-you-download-and-run-ai-models-locally"
       ],
       "date": "2026-05-17T19:33:08.576267+00:00"
+    },
+    {
+      "title": "Josh D'Amaro Named CEO of The Walt Disney Company",
+      "urls": [
+        "https://corporate.walmart.com/news/2026/01/16/walmart-announces-leadership-changes",
+        "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes",
+        "https://news.adobe.com/news/2026/03/leadership-update",
+        "https://newsroom.cisco.com/pressreleases",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.businesswire.com/news/home/20251202080982/en/NIKE-Inc.-Announces-Senior-Leadership-Changes-to-Accelerate-Win-Now-Actions",
+        "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Announces-Leadership-Transition/default.aspx",
+        "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
+        "https://fortune.com"
+      ],
+      "date": "2026-05-17T20:01:16.212642+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T19:33:08.576337+00:00"
+  "lastUpdated": "2026-05-17T20:01:16.212714+00:00"
 }
