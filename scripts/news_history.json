@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI tools are increasingly enabling students with disabilities to access education through real-time ",
-      "urls": [
-        "https://accessibility.sdsu.edu/news/how-ai-is-transforming-accessibility",
-        "https://spectrum.ieee.org/assistive-technology"
-      ],
-      "date": "2026-05-07T08:08:31.324670+00:00"
-    },
-    {
       "title": "Mikaela Shiffrin secured her latest gold medal in the women's slalom at the 2026 Winter Olympics, re",
       "urls": [
         "https://www.kpbs.org/news/2026/02/23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states"
@@ -4604,7 +4596,16 @@
         "https://www.olympicair.com/en"
       ],
       "date": "2026-05-17T08:02:16.330645+00:00"
+    },
+    {
+      "title": "NBC News Digital Surpasses 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=08559e912f47649e256189cd2e6c659b",
+        "https://edition.cnn.com",
+        "https://www.nbcnews.com/latest-stories"
+      ],
+      "date": "2026-05-17T08:30:58.586713+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T08:02:16.330708+00:00"
+  "lastUpdated": "2026-05-17T08:30:58.586779+00:00"
 }
