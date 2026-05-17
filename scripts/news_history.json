@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ciryl Gane is set to return to the UFC Octagon in a high-profile bout against Alex Pereira at UFC Fr",
-      "urls": [
-        "https://www.yardbarker.com/mma",
-        "https://www.ufc.com/events"
-      ],
-      "date": "2026-05-07T12:34:04.877588+00:00"
-    },
-    {
       "title": "SpaceX launched 24 Starlink satellites into low Earth orbit aboard a Falcon 9 rocket, marking the 24",
       "urls": [
         "https://plus.nasa.gov/scheduled-video/nasas-spacex-34th-commercial-resupply-services-launch",
@@ -4662,7 +4654,18 @@
         "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions"
       ],
       "date": "2026-05-17T12:30:57.201895+00:00"
+    },
+    {
+      "title": "Substance Use Disorder Treatment Expands With Methadone Therapy And Rehabilitation Programs",
+      "urls": [
+        "https://www.samhsa.gov/substance-use",
+        "https://www.merriam-webster.com/dictionary/drug",
+        "https://www.townsendla.com/blog/what-are-drugs",
+        "https://www.mayoclinic.org/drugs-supplements",
+        "https://www.webmd.com/mental-health/addiction/default.htm"
+      ],
+      "date": "2026-05-17T13:01:11.296345+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T12:30:57.201953+00:00"
+  "lastUpdated": "2026-05-17T13:01:11.296412+00:00"
 }
