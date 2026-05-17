@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mikaela Shiffrin secured her latest gold medal in the women's slalom at the 2026 Winter Olympics, re",
-      "urls": [
-        "https://www.kpbs.org/news/2026/02/23/u-s-boosts-gold-medal-tally-at-winter-games-led-by-athletes-from-handful-of-states"
-      ],
-      "date": "2026-05-07T08:37:10.583884+00:00"
-    },
-    {
       "title": "Google DeepMind Launches ProEval Framework to Predict AI Model Failures",
       "urls": [
         "https://letsdatascience.com/news/topic/google",
@@ -4605,7 +4598,14 @@
         "https://www.nbcnews.com/latest-stories"
       ],
       "date": "2026-05-17T08:30:58.586713+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Visitors With Digital Expansion",
+      "urls": [
+        "https://www.foxnews.com?msockid=1a0ab09e641c6cf1089ea7c265826df9"
+      ],
+      "date": "2026-05-17T09:04:26.646893+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T08:30:58.586779+00:00"
+  "lastUpdated": "2026-05-17T09:04:26.646980+00:00"
 }
