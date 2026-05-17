@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sports Technology Trends are driving a transformation in athletic performance and fan engagement by ",
-      "urls": [
-        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOorGbTUrvVj786_bJnjlCV-BK3PHFckzd4d0fF6Ymx_BPcUu3UDx"
-      ],
-      "date": "2026-05-07T05:06:34.361410+00:00"
-    },
-    {
       "title": "Amazon Web Services Boosts AI Infrastructure Spending To Over $200 Billion",
       "urls": [
         "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
@@ -4580,7 +4573,20 @@
         "https://www.theopen.com/latest"
       ],
       "date": "2026-05-17T05:03:21.802852+00:00"
+    },
+    {
+      "title": "Meta Launches Unified Meta Account for All Its Apps",
+      "urls": [
+        "https://www.meta.com/about",
+        "https://business.facebook.com",
+        "https://en.wikipedia.org/wiki/Meta_Platforms",
+        "https://about.fb.com/news/2026/04/meta-account",
+        "https://finance.yahoo.com/quote/META/latest-news",
+        "https://www.marketwatch.com/investing/stock/meta",
+        "https://investor.atmeta.com/financials/default.aspx"
+      ],
+      "date": "2026-05-17T05:30:54.623428+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T05:03:21.802920+00:00"
+  "lastUpdated": "2026-05-17T05:30:54.623494+00:00"
 }
