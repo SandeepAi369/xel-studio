@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face hosts a growing library of open AI models from global developers, including DeepSeek, M",
-      "urls": [
-        "https://huggingface.co",
-        "https://huggingface.co/models"
-      ],
-      "date": "2026-05-07T18:34:08.140299+00:00"
-    },
-    {
       "title": "AI model performance in diagnosing diseases from medical images now matches or exceeds that of exper",
       "urls": [
         "https://www.news-medical.net/news/20251014/Breakthrough-AI-method-redefines-how-doctors-analyze-medical-images.aspx",
@@ -4708,7 +4700,16 @@
         "https://www.arnoldporter.com/en/perspectives/publications/2025/07/virtual-and-digital-health-digest"
       ],
       "date": "2026-05-17T18:31:02.606535+00:00"
+    },
+    {
+      "title": "Who What World Health Organization Defines Mental Health As State Of Wellbeing",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Mental_health",
+        "https://www.medicalnewstoday.com/articles/154543",
+        "https://www.britannica.com/science/mental-health"
+      ],
+      "date": "2026-05-17T19:02:15.209567+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T18:31:02.606602+00:00"
+  "lastUpdated": "2026-05-17T19:02:15.209640+00:00"
 }
