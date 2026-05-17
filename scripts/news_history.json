@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech is facing heightened scrutiny as major companies prepare to report earnings, with investors",
-      "urls": [
-        "https://finance.yahoo.com/video/big-tech-powers-the-market-with-strong-earnings-wins-204436892.html",
-        "https://www.aol.com/finance/easy-money-made-big-tech-181508667.html",
-        "https://investingnews.com/top-tech-news",
-        "https://www.reuters.com/business/wall-street-futures-mixed-ahead-big-tech-earnings-fed-meeting-2026-04-29",
-        "https://www.youtube.com/watch?v=UP5txhwn-gU",
-        "https://www.youtube.com/watch?v=jP9nxoYix9c",
-        "https://www.investopedia.com/the-easy-money-has-been-made-in-big-tech-stocks-will-this-week-s-earnings-be-good-enough-for-investors-11960236",
-        "https://finance.yahoo.com/sectors/technology"
-      ],
-      "date": "2026-05-07T15:03:15.076764+00:00"
-    },
-    {
       "title": "SpaceX is preparing Booster 19 for launch, the first Version 3 Super Heavy booster, marking a signif",
       "urls": [
         "https://www.youtube.com/watch?v=yrqt-Uk7dyA",
@@ -4682,7 +4668,23 @@
         "https://legalclarity.org/how-to-write-alt-text-for-images-accessibility-standards"
       ],
       "date": "2026-05-17T15:02:19.301205+00:00"
+    },
+    {
+      "title": "Microsoft Stock Rises After Hedge Fund Buys 1.2 Billion Dollars In Shares",
+      "urls": [
+        "https://www.microsoft.com/en-us?msockid=2eae36c2f83b6d42231e219ef9f36cf2",
+        "https://account.microsoft.com/account",
+        "https://www.office.com",
+        "https://en.wikipedia.org/wiki/Microsoft",
+        "https://m365.cloud.microsoft",
+        "https://finance.yahoo.com/quote/MSFT/news",
+        "https://login.microsoftonline.com/static/tenant/templates/MSA/unified.cshtml",
+        "https://www.fool.com/investing/2026/05/15/why-microsoft-stock-is-surging-today?msockid=2eae36c2f83b6d42231e219ef9f36cf2",
+        "https://www.chamberofcommerce.com/business-directory/washington/redmond/miscellaneous/1336525518-microsoft-headquarters",
+        "https://myaccount.microsoft.com"
+      ],
+      "date": "2026-05-17T15:31:00.481879+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T15:02:19.301274+00:00"
+  "lastUpdated": "2026-05-17T15:31:00.481941+00:00"
 }
