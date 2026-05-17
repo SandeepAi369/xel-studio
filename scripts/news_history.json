@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI model performance in diagnosing diseases from medical images now matches or exceeds that of exper",
-      "urls": [
-        "https://www.news-medical.net/news/20251014/Breakthrough-AI-method-redefines-how-doctors-analyze-medical-images.aspx",
-        "https://www.statnews.com/2026/05/05/did-ai-really-beat-doctors-at-diagnosis-health-tech",
-        "https://www.youtube.com/watch?v=J3Ew3GfFXeg"
-      ],
-      "date": "2026-05-07T19:05:25.127862+00:00"
-    },
-    {
       "title": "Nvidia announced a non-exclusive licensing agreement with Groq, a startup specializing in custom AI ",
       "urls": [
         "https://www.businessinsider.com/biggest-ai-deals-acquisitions-of-the-year-2025-12",
@@ -4709,7 +4700,21 @@
         "https://www.britannica.com/science/mental-health"
       ],
       "date": "2026-05-17T19:02:15.209567+00:00"
+    },
+    {
+      "title": "Hugging Face Launches SmolVLA For Low-Cost Robotics",
+      "urls": [
+        "https://huggingface.co",
+        "https://huggingface.co/models",
+        "https://newsroom.ibm.com/2025-08-20-ibm-and-nasa-release-groundbreaking-open-source-ai-model-on-hugging-face-to-predict-solar-weather-and-help-protect-critical-technology",
+        "https://x.com/i/trending/2041193286895845667",
+        "https://techcrunch.com/2025/06/04/hugging-face-says-its-new-robotics-model-is-so-efficient-it-can-run-on-a-macbook",
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "https://www.aibase.com/news/18810",
+        "https://techcrunch.com/2025/05/31/google-quietly-released-an-app-that-lets-you-download-and-run-ai-models-locally"
+      ],
+      "date": "2026-05-17T19:33:08.576267+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T19:02:15.209640+00:00"
+  "lastUpdated": "2026-05-17T19:33:08.576337+00:00"
 }
