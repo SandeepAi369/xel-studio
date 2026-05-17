@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC has announced a new welterweight matchup between rising contender Sean Brady and veteran Gabriel",
-      "urls": [
-        "https://www.sportingnews.com/us/mma/news"
-      ],
-      "date": "2026-05-07T21:05:20.900317+00:00"
-    },
-    {
       "title": "Elana Meyers Taylor Honored At Georgia Capitol For Olympic Achievements",
       "urls": [
         "https://www.11alive.com/article/news/local/gold-medalist-elana-meyers-taylor-recognized-for-her-olympic-accomplishments-during-georgia-house-session/85-421c964f-8620-4952-8388-603c7b84ee36"
@@ -4728,7 +4721,16 @@
         "https://www.reuters.com/sports/soccer"
       ],
       "date": "2026-05-17T21:01:11.098289+00:00"
+    },
+    {
+      "title": "Uber Launches Wheelchair-accessible Rides In 30 Cities",
+      "urls": [
+        "https://mobilitydeck.com/best-wheelchairs",
+        "https://www.lowes.com/pl/wheelchairs-mobility-aids/wheelchair/4294644793-4294701516?msockid=3aab741acccf67fa3d956346cd896695",
+        "https://www.uber.com/us/en/ride/uberwav"
+      ],
+      "date": "2026-05-17T21:31:55.793268+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T21:01:11.098367+00:00"
+  "lastUpdated": "2026-05-17T21:31:55.793345+00:00"
 }
