@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "President Donald Trump has appointed top tech executives to a government advisory council on artific",
-      "urls": [
-        "https://aimagazine.com/news/tech-leaders-join-trump-ai-advisory-panel",
-        "https://www.wired.com/story/tech-ceos-using-ai-to-be-everywhere-at-once",
-        "https://www.youtube.com/watch?v=2vDW8ZpynLI"
-      ],
-      "date": "2026-05-07T17:09:28.928214+00:00"
-    },
-    {
       "title": "Royal Society has released a report urging tech companies, researchers, and governments to involve d",
       "urls": [
         "https://www.perkins.org/5-disabilitytech-companies-prioritizing-accessibility-and-safety-amid-climate-change",
@@ -4687,7 +4678,23 @@
         "https://internationaltradetoday.com"
       ],
       "date": "2026-05-17T17:01:13.810544+00:00"
+    },
+    {
+      "title": "World Health Organization reports that disabling hearing loss, defined as over 35 decibels in the be",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Deafness",
+        "https://nationaldeafcenter.org/resources/deaf-awareness",
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+        "https://www.vddhh.virginia.gov",
+        "https://resources.healthgrades.com/right-care/hearing-loss/deafness",
+        "https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions",
+        "https://www.facebook.com/FXBGDeafEvents",
+        "https://www.vsdb.k12.va.us/page/about-vsdb",
+        "https://deafequality.org",
+        "https://spotswood.org/spotswood-deaf-church"
+      ],
+      "date": "2026-05-17T17:31:00.987947+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T17:01:13.810635+00:00"
+  "lastUpdated": "2026-05-17T17:31:00.988013+00:00"
 }
