@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society has released a report urging tech companies, researchers, and governments to involve d",
-      "urls": [
-        "https://www.perkins.org/5-disabilitytech-companies-prioritizing-accessibility-and-safety-amid-climate-change",
-        "https://royalsociety.org/news/2025/06/disability-technology"
-      ],
-      "date": "2026-05-07T17:36:04.323025+00:00"
-    },
-    {
       "title": "Hugging Face hosts a growing library of open AI models from global developers, including DeepSeek, M",
       "urls": [
         "https://huggingface.co",
@@ -4694,7 +4686,18 @@
         "https://spotswood.org/spotswood-deaf-church"
       ],
       "date": "2026-05-17T17:31:00.987947+00:00"
+    },
+    {
+      "title": "Esports Tournaments Expand With BLAST Tv Live Tracking",
+      "urls": [
+        "https://www.strafe.com/tournaments",
+        "https://www.esports-tracker.com/tournaments",
+        "https://escharts.com/upcoming-tournaments",
+        "https://www.gosugamers.net",
+        "https://blast.tv"
+      ],
+      "date": "2026-05-17T18:03:25.073973+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T17:31:00.988013+00:00"
+  "lastUpdated": "2026-05-17T18:03:25.074022+00:00"
 }
