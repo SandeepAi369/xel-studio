@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ChatGPT leads a new wave of generative AI tools in 2026, setting benchmarks for conversational accur",
-      "urls": [
-        "https://www.sganalytics.com/blog/top-generative-ai-tools",
-        "https://www.huit.harvard.edu/ai/tools",
-        "https://www.youtube.com/watch?v=te7e9IXtKmk"
-      ],
-      "date": "2026-05-07T00:07:18.413276+00:00"
-    },
-    {
       "title": "Dan Phillips directed the Technology Resource Center of Marin County Office of Education and faced c",
       "urls": [
         "https://iste.org/blog/the-new-era-of-accessible-tech"
@@ -4534,7 +4525,14 @@
         "https://www.synthesia.io"
       ],
       "date": "2026-05-17T00:01:06.588967+00:00"
+    },
+    {
+      "title": "Fox News Website Delivers Conservative Coverage To Millions Monthly",
+      "urls": [
+        "https://www.foxnews.com?msockid=16d98b05b31064552e899c59b2bd65f0"
+      ],
+      "date": "2026-05-17T00:30:55.624929+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T00:01:06.589035+00:00"
+  "lastUpdated": "2026-05-17T00:30:55.624995+00:00"
 }
