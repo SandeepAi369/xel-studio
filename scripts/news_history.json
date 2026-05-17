@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Elana Meyers Taylor Honored At Georgia Capitol For Olympic Achievements",
-      "urls": [
-        "https://www.11alive.com/article/news/local/gold-medalist-elana-meyers-taylor-recognized-for-her-olympic-accomplishments-during-georgia-house-session/85-421c964f-8620-4952-8388-603c7b84ee36"
-      ],
-      "date": "2026-05-07T21:39:29.002555+00:00"
-    },
-    {
       "title": "OpenAI president Greg Brockman reported that AI coding tools have shifted from writing 20% of code t",
       "urls": [
         "https://www.developer-tech.com/news/ai-coding-tools-80-percent-code-developer-risk",
@@ -4730,7 +4723,17 @@
         "https://www.uber.com/us/en/ride/uberwav"
       ],
       "date": "2026-05-17T21:31:55.793268+00:00"
+    },
+    {
+      "title": "Bitcoin Leads Cryptocurrency Market With Blockchain Innovation",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Cryptocurrency",
+        "https://www.schwab.com/learn/story/cryptocurrencies-what-are-they?msockid=234b061c91e9695f00931140908268f2",
+        "https://www.cnbc.com/cryptoworld?msockid=234b061c91e9695f00931140908268f2",
+        "https://seekingalpha.com/market-news/cryptocurrency"
+      ],
+      "date": "2026-05-17T22:01:10.549118+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T21:31:55.793345+00:00"
+  "lastUpdated": "2026-05-17T22:01:10.549188+00:00"
 }
