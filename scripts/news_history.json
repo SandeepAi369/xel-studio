@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gloucestershire residents with disabilities are urging tech developers to create more personalized a",
-      "urls": [
-        "https://www.bbc.com/news/articles/cz7pdy3yq3qo"
-      ],
-      "date": "2026-05-07T07:40:17.498068+00:00"
-    },
-    {
       "title": "AI tools are increasingly enabling students with disabilities to access education through real-time ",
       "urls": [
         "https://accessibility.sdsu.edu/news/how-ai-is-transforming-accessibility",
@@ -4600,7 +4593,18 @@
         "https://www.sciencenewstoday.org/what-is-artificial-intelligence-ai-everything-you-need-to-know"
       ],
       "date": "2026-05-17T07:30:57.941378+00:00"
+    },
+    {
+      "title": "Los Angeles City Council Approves 9.5 Million For Olympic Sidewalk Repairs",
+      "urls": [
+        "https://www.nbclosangeles.com/olympics/2028-los-angeles",
+        "https://www.nbcnews.com/Olympics",
+        "https://www.britannica.com/sports/Olympic-Games",
+        "https://www.nbcolympics.com/schedule",
+        "https://www.olympicair.com/en"
+      ],
+      "date": "2026-05-17T08:02:16.330645+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T07:30:57.941449+00:00"
+  "lastUpdated": "2026-05-17T08:02:16.330708+00:00"
 }
