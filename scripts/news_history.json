@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas father confronts and subdues an individual attempting to carjack his vehicle in a violent inci",
-      "urls": [
-        "https://www.foxnews.com",
-        "https://www.washingtonpost.com",
-        "https://www.npr.org/sections/news"
-      ],
-      "date": "2026-05-07T07:08:31.600745+00:00"
-    },
-    {
       "title": "Gloucestershire residents with disabilities are urging tech developers to create more personalized a",
       "urls": [
         "https://www.bbc.com/news/articles/cz7pdy3yq3qo"
@@ -4601,7 +4592,15 @@
         "https://www.mentalhealth.com/library/mental-health-conditions"
       ],
       "date": "2026-05-17T07:02:09.440494+00:00"
+    },
+    {
+      "title": "Microsoft Azure Launches New AI Tools For Vision And Decision-Making",
+      "urls": [
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=21546d7438ec6f8b1af67a2839706ee9",
+        "https://www.sciencenewstoday.org/what-is-artificial-intelligence-ai-everything-you-need-to-know"
+      ],
+      "date": "2026-05-17T07:30:57.941378+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T07:02:09.440561+00:00"
+  "lastUpdated": "2026-05-17T07:30:57.941449+00:00"
 }
