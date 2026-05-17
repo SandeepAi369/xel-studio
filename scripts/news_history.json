@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Blitzy Valued at $1.4 Billion to Transform Healthcare with AI Automation",
-      "urls": [
-        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
-      ],
-      "date": "2026-05-07T02:33:53.959068+00:00"
-    },
-    {
-      "title": "Colombia's Pacific coast has emerged as a critical transit route for migrants returning to South Ame",
-      "urls": [
-        "https://www.thenewhumanitarian.org/migration"
-      ],
-      "date": "2026-05-07T03:04:22.248588+00:00"
-    },
-    {
       "title": "WTO Expands ePing Platform to Boost Global Trade Compliance",
       "urls": [
         "https://www.wto.org/english/news_e/news_e.htm",
@@ -4557,7 +4543,16 @@
         "https://www.worldnaturaldisasters.com"
       ],
       "date": "2026-05-17T02:32:17.733683+00:00"
+    },
+    {
+      "title": "Yale Researchers Link Rising Temperatures to 27% Increase in Heat-Related ER Visits",
+      "urls": [
+        "https://www.unep.org/news-and-stories/story/world-likely-exceed-key-global-warming-target-soon-now-what",
+        "https://phys.org/earth-news",
+        "https://ysph.yale.edu/yale-center-on-climate-change-and-health/news-and-media"
+      ],
+      "date": "2026-05-17T03:05:18.724924+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T02:32:17.733762+00:00"
+  "lastUpdated": "2026-05-17T03:05:18.724991+00:00"
 }
