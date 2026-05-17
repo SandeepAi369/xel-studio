@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Smashes 10000 Meters World Record In 26:11.00",
-      "urls": [
-        "https://www.cnn.com/sport",
-        "https://sports.yahoo.com/articles/setting-world-records-become-annual-110143561.html",
-        "https://kids.guinnessworldrecords.com/news/2026/1/record-breaking-news-these-recent-world-records-will-blow-your-mind",
-        "https://www.youtube.com/watch?v=swlctSGrAt0",
-        "https://www.reuters.com/sports",
-        "https://www.youtube.com/watch?v=kSfwtbkmYeI"
-      ],
-      "date": "2026-05-07T02:04:23.481895+00:00"
-    },
-    {
       "title": "Blitzy Valued at $1.4 Billion to Transform Healthcare with AI Automation",
       "urls": [
         "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
@@ -4560,7 +4548,16 @@
         "https://www.instagram.com/reels"
       ],
       "date": "2026-05-17T02:01:13.363101+00:00"
+    },
+    {
+      "title": "United States Geological Survey operates the Advanced National Seismic System, monitoring over 2 mil",
+      "urls": [
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtbDBLQUFQAQ",
+        "https://earthquaketrack.com",
+        "https://www.worldnaturaldisasters.com"
+      ],
+      "date": "2026-05-17T02:32:17.733683+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T02:01:13.363158+00:00"
+  "lastUpdated": "2026-05-17T02:32:17.733762+00:00"
 }
