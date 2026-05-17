@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has released a new open-source multimodal model, Mistral Next, designed to process text, ",
-      "urls": [
-        "https://llm-stats.com/ai-news",
-        "https://www.nature.com/articles/d41586-025-02495-w",
-        "https://www.simplilearn.com/open-source-llms-article"
-      ],
-      "date": "2026-05-06T23:35:07.896626+00:00"
-    },
-    {
       "title": "ChatGPT leads a new wave of generative AI tools in 2026, setting benchmarks for conversational accur",
       "urls": [
         "https://www.sganalytics.com/blog/top-generative-ai-tools",
@@ -4532,7 +4523,18 @@
         "https://www.fancode.com"
       ],
       "date": "2026-05-16T23:30:58.556170+00:00"
+    },
+    {
+      "title": "GPT-5 Generates Functional Code And UI From Minimal Prompts",
+      "urls": [
+        "https://www.artstation.com",
+        "https://openai.com/gpt-5",
+        "https://ai.meta.com/research/movie-gen",
+        "https://www.figure.ai",
+        "https://www.synthesia.io"
+      ],
+      "date": "2026-05-17T00:01:06.588967+00:00"
     }
   ],
-  "lastUpdated": "2026-05-16T23:30:58.556235+00:00"
+  "lastUpdated": "2026-05-17T00:01:06.589035+00:00"
 }
