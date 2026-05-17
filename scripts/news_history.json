@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services Boosts AI Infrastructure Spending To Over $200 Billion",
-      "urls": [
-        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
-        "https://www.cloudcomputing-news.net/news/cloud-demand-shifts-toward-ai-as-enterprise-usage-deepens"
-      ],
-      "date": "2026-05-07T06:08:21.352976+00:00"
-    },
-    {
       "title": "Renewable energy surpassed global electricity demand growth last year, driven by record installation",
       "urls": [
         "https://www.ctinsider.com/news/article/renewable-energies-overtook-global-electricity-22216837.php"
@@ -4593,7 +4585,22 @@
         "https://scholar.google.com"
       ],
       "date": "2026-05-17T06:01:13.398666+00:00"
+    },
+    {
+      "title": "University of Colorado Hospital Delivers Advanced Care Across 120 Specialties",
+      "urls": [
+        "https://www.uchealth.org/locations/uchealth-university-of-colorado-hospital-uch",
+        "https://www.denverhealth.org",
+        "https://www.cumedicine.us",
+        "https://www.optum.com/en/care/locations/optum-colorado.html",
+        "https://www.healthonecares.com",
+        "https://www.healthfirstcolorado.com/find-doctors",
+        "https://www.healthonephysiciangroup.com/locations/aspen-medical-group",
+        "https://www.mednowclinics.com",
+        "https://evansmedicalcenter.com"
+      ],
+      "date": "2026-05-17T06:31:11.348231+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T06:01:13.398716+00:00"
+  "lastUpdated": "2026-05-17T06:31:11.348294+00:00"
 }
