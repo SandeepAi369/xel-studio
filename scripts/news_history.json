@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canva has acquired Simtheory and Ortto to strengthen its AI-driven marketing automation capabilities",
-      "urls": [
-        "https://flippa.com/blog/acquisitions/artificial-intelligence-industry-acquisitions",
-        "https://techcrunch.com/tag/mergers-and-acquisitions"
-      ],
-      "date": "2026-05-07T14:04:28.521184+00:00"
-    },
-    {
       "title": "{\"articleText\": \"Federal agencies are increasingly adopting smaller, open-source AI models to improv",
       "urls": [
         "https://fedscoop.com/new-report-highlights-agency-advantages-of-using-smaller-open-source-ai-models"
@@ -4681,7 +4673,14 @@
         "https://www.uofmhealth.org/contact-us"
       ],
       "date": "2026-05-17T14:01:07.932254+00:00"
+    },
+    {
+      "title": "Fox News Delivers Real Time Coverage Across Digital And Broadcast Platforms",
+      "urls": [
+        "https://www.foxnews.com"
+      ],
+      "date": "2026-05-17T14:32:10.186004+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T14:01:07.932308+00:00"
+  "lastUpdated": "2026-05-17T14:32:10.186081+00:00"
 }
