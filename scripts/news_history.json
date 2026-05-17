@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "{\"articleText\": \"Federal agencies are increasingly adopting smaller, open-source AI models to improv",
-      "urls": [
-        "https://fedscoop.com/new-report-highlights-agency-advantages-of-using-smaller-open-source-ai-models"
-      ],
-      "date": "2026-05-07T14:35:09.522262+00:00"
-    },
-    {
       "title": "Big Tech is facing heightened scrutiny as major companies prepare to report earnings, with investors",
       "urls": [
         "https://finance.yahoo.com/video/big-tech-powers-the-market-with-strong-earnings-wins-204436892.html",
@@ -4680,7 +4673,16 @@
         "https://www.foxnews.com"
       ],
       "date": "2026-05-17T14:32:10.186004+00:00"
+    },
+    {
+      "title": "Apple Improves VoiceOver Support for 15 Million Low-Vision Users",
+      "urls": [
+        "https://theconversation.com/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-but-still-face-barriers-to-the-digital-world-212600",
+        "https://monsterfairings.com/product-category/fairings/fairings-for-kawasaki-motorcycles/kawasaki-zx-10r-fairings?category=fairings&brand=kawasaki-zx-10r-fairings",
+        "https://legalclarity.org/how-to-write-alt-text-for-images-accessibility-standards"
+      ],
+      "date": "2026-05-17T15:02:19.301205+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T14:32:10.186081+00:00"
+  "lastUpdated": "2026-05-17T15:02:19.301274+00:00"
 }
