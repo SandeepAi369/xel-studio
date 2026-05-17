@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ember's Global Electricity Review reveals renewable energy met 100% of new global electricity demand",
-      "urls": [
-        "https://www.cbc.ca/news/science/solar-wind-ember-renewables-electricity-9.7170953",
-        "https://www.youtube.com/watch?v=0o7kpg0jfH8"
-      ],
-      "date": "2026-05-07T22:35:05.403856+00:00"
-    },
-    {
       "title": "The Register provides consistent coverage of Linux and open source developments, focusing on enterpr",
       "urls": [
         "https://www.reddit.com/r/linux/comments/1e2o23r/any_good_news_sites_for_linuxrelated_stuff"
@@ -4736,7 +4728,22 @@
         "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10"
       ],
       "date": "2026-05-17T22:30:57.411841+00:00"
+    },
+    {
+      "title": "Anthropic Launches Claude Security Public Beta To Detect Code Vulnerabilities",
+      "urls": [
+        "https://www.edtechinnovationhub.com/news/anthropic-changes-claude-safety-training-after-agentic-ai-tests-exposed-blackmail-risk",
+        "https://www.inc.com/chloe-aiello/anthropics-powerful-new-cybersecurity-tool-is-designed-to-find-vulnerabilities-in-your-code-and-patch-them/91338485",
+        "https://www.crn.com/news/security/2026/anthropic-launches-claude-security-5-things-to-know",
+        "https://claude.com/product/overview",
+        "https://en.wikipedia.org/wiki/Anthropic",
+        "https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html",
+        "https://anthropic.skilljar.com",
+        "https://builtin.com/articles/anthropic",
+        "https://www.linkedin.com/company/anthropicresearch"
+      ],
+      "date": "2026-05-17T23:01:17.361540+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T22:30:57.411919+00:00"
+  "lastUpdated": "2026-05-17T23:01:17.361598+00:00"
 }
