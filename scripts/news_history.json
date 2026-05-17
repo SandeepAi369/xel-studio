@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI president Greg Brockman reported that AI coding tools have shifted from writing 20% of code t",
-      "urls": [
-        "https://www.developer-tech.com/news/ai-coding-tools-80-percent-code-developer-risk",
-        "https://www.aubergine.co/insights/top-ai-coding-design-tools-in-2026",
-        "https://blog.n8n.io/best-ai-for-coding",
-        "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
-        "https://www.youtube.com/watch?v=RKbmqSRc0z0",
-        "https://sloanreview.mit.edu/article/ai-coding-tools-for-knowledge-work-what-executives-need-to-know"
-      ],
-      "date": "2026-05-07T22:04:20.793004+00:00"
-    },
-    {
       "title": "Ember's Global Electricity Review reveals renewable energy met 100% of new global electricity demand",
       "urls": [
         "https://www.cbc.ca/news/science/solar-wind-ember-renewables-electricity-9.7170953",
@@ -4733,7 +4721,22 @@
         "https://seekingalpha.com/market-news/cryptocurrency"
       ],
       "date": "2026-05-17T22:01:10.549118+00:00"
+    },
+    {
+      "title": "AI-driven drug discovery is transforming pharmaceutical research by cutting development timelines an",
+      "urls": [
+        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
+        "https://www.aifchem.com/blog-latest-progress-drug-discovery-2026-fda-approvals-ai-trends-molecular-building-blocks",
+        "https://intuitionlabs.ai/articles/ai-drug-discovery-pharma-biotech-startups",
+        "https://www.sciencedirect.com/science/article/pii/S266731852500025X",
+        "https://www.nature.com/articles/s41591-024-03434-4",
+        "https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026",
+        "https://www.biopharmadive.com",
+        "https://www.weforum.org/stories/2026/01/how-ai-is-reshaping-drug-discovery",
+        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10"
+      ],
+      "date": "2026-05-17T22:30:57.411841+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T22:01:10.549188+00:00"
+  "lastUpdated": "2026-05-17T22:30:57.411919+00:00"
 }
