@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Michigan taxpayers affected by severe spring flooding in northern Michigan and the Upper Peninsula m",
-      "urls": [
-        "https://www.cnn.com/weather/live-news/hurricane-debby-storm-08-05-24/index.html.",
-        "https://www.aol.com/articles/extra-tax-breaks-apply-many-110049363.html"
-      ],
-      "date": "2026-05-08T07:34:10.310445+00:00"
-    },
-    {
       "title": "Nvidia CEO Jensen Huang To Unveil Next-Gen AI Breakthroughs At GTC 2026",
       "urls": [
         "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026",
@@ -4792,7 +4784,17 @@
         "https://www.usatoday.com/story/news/politics/elections/2024/10/29/ballot-boxes-fire-oregon-washington/75916577007"
       ],
       "date": "2026-05-18T07:32:17.315758+00:00"
+    },
+    {
+      "title": "Bitcoin Leads Cryptocurrency Market With Blockchain Innovation",
+      "urls": [
+        "https://www.schwab.com/learn/story/cryptocurrencies-what-are-they?msockid=3c8e50e62696666e227747bb27bc6729",
+        "https://www.tradingview.com/markets/cryptocurrencies",
+        "https://www.forbes.com/advisor/investing/cryptocurrency/top-10-cryptocurrencies",
+        "https://www.coinbase.com"
+      ],
+      "date": "2026-05-18T08:01:16.383142+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T07:32:17.315836+00:00"
+  "lastUpdated": "2026-05-18T08:01:16.383213+00:00"
 }
