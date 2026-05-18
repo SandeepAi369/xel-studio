@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://www.youtube.com/watch?v=VjPHCN4SoTo",
-        "https://www.conference-board.org/research/us-forecast"
-      ],
-      "date": "2026-05-08T12:05:18.520526+00:00"
-    },
-    {
       "title": "Sports Technology Market is projected to grow from $19.",
       "urls": [
         "https://www.globenewswire.com/news-release/2025/11/07/3183590/28124/en/sports-technology-market-insights-and-companies-analysis-2025-2033-increasing-demand-for-data-driven-performance-driving-the-industry-to-witness-x5-growth-by-2033.html",
@@ -4807,7 +4799,15 @@
         "https://www.earth.com/news/earths-next-big-volcano-eruption-will-cause-global-chaos-climate-impact"
       ],
       "date": "2026-05-18T12:03:26.912094+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Visitors With Digital Expansion",
+      "urls": [
+        "https://www.foxnews.com?msockid=3e0af770f60e6b86127ae02df7b46af6",
+        "https://www.msn.com?hl=en-us"
+      ],
+      "date": "2026-05-18T12:32:08.979360+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T12:03:26.912162+00:00"
+  "lastUpdated": "2026-05-18T12:32:08.979428+00:00"
 }
