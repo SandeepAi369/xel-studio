@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Smart Home Devices Lock Out Users With Disabilities",
-      "urls": [
-        "https://www.youtube.com/watch?v=O8N93LXX5Hk"
-      ],
-      "date": "2026-05-08T21:33:23.608440+00:00"
-    },
-    {
       "title": "Yutori has released a new report tracking five AI startup funding rounds from May 1, 2026, highlight",
       "urls": [
         "https://scouts.yutori.com/68f22e10-d5fe-4e94-b1c8-9c6218cfdb2c"
@@ -4857,7 +4850,19 @@
         "https://www.nytimes.com/athletic"
       ],
       "date": "2026-05-18T21:32:06.720878+00:00"
+    },
+    {
+      "title": "Windows PCs Now Support Screen Mirroring With Miracast And AirPlay",
+      "urls": [
+        "https://support.microsoft.com/en-us/windows/screen-mirroring-and-projecting-to-your-pc-or-wireless-display-5af9f371-c704-1c7f-8f0d-fa607551d09c",
+        "https://en.m.wikipedia.org/wiki/Screen",
+        "https://www.dictionary.com/browse/screen",
+        "https://dictionary.cambridge.org/dictionary/english/screen",
+        "https://www.thefreedictionary.com/screen",
+        "https://screenmedics.com/screen-products-apex"
+      ],
+      "date": "2026-05-18T22:01:13.758376+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T21:32:06.720952+00:00"
+  "lastUpdated": "2026-05-18T22:01:13.758494+00:00"
 }
