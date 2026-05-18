@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usain Bolt set a world record of 9.",
-      "urls": [
-        "https://www.instagram.com/reel/DWCrKLwEk5S",
-        "https://www.theatlantic.com/magazine/archive/2019/10/most-significant-sports-victory-all-time/596680",
-        "https://www.reddit.com/r/billsimmons/comments/17qpffb/what_is_the_most_significant_sports_moment_from",
-        "https://www.givemesport.com/greatest-sporting-moments-21st-century"
-      ],
-      "date": "2026-05-08T16:35:05.496638+00:00"
-    },
-    {
       "title": "Researchers have developed artificial neurons capable of interacting with real brain cells, marking ",
       "urls": [
         "https://theweek.com/health-and-science/1019386/recent-scientific-breakthroughs"
@@ -4834,7 +4824,15 @@
         "https://pnsn.org/earthquakes/recent"
       ],
       "date": "2026-05-18T16:31:19.057902+00:00"
+    },
+    {
+      "title": "Truth Social Launches As Free Speech Alternative For Conservative Voices",
+      "urls": [
+        "https://truthsocial.com",
+        "https://www.facebook.com/SocialRestaurantandBar"
+      ],
+      "date": "2026-05-18T17:01:16.751600+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T16:31:19.057968+00:00"
+  "lastUpdated": "2026-05-18T17:01:16.751664+00:00"
 }
