@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arsenal reached their first Champions League final in 20 years after defeating their opponent in a d",
-      "urls": [
-        "https://sports.yahoo.com/news",
-        "https://www.sportskeeda.com",
-        "https://www.bbc.com/sport",
-        "https://www.bbc.com/sport/football/videos/cz92evpl48yo"
-      ],
-      "date": "2026-05-08T08:33:05.142001+00:00"
-    },
-    {
       "title": "Quantum computing researchers have achieved a breakthrough by successfully reading data from a Major",
       "urls": [
         "https://www.youtube.com/watch?v=1oJLrvQtnHs",
@@ -4793,7 +4783,22 @@
         "https://www.xbox.com/en-us/play"
       ],
       "date": "2026-05-18T08:31:18.917546+00:00"
+    },
+    {
+      "title": "Robotics combines engineering, computer science, and artificial intelligence to design machines capa",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Robotics",
+        "https://robotsguide.com",
+        "https://www.techtarget.com/whatis/definition/robotics",
+        "https://www.britannica.com/technology/robot-technology",
+        "https://www.mtu.edu/academics/robotics/what",
+        "https://www.coursera.org/articles/what-is-robotics?msockid=3c8ecea5cf1564e33973d9f8ce036515",
+        "https://hai.stanford.edu/ai-definitions/what-are-robotics",
+        "https://builtin.com/robotics",
+        "https://link.springer.com/subjects/robotics"
+      ],
+      "date": "2026-05-18T09:01:26.165297+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T08:31:18.917610+00:00"
+  "lastUpdated": "2026-05-18T09:01:26.165366+00:00"
 }
