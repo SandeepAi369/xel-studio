@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mrinank Sharma left his role as a senior AI safety researcher at Anthropic, citing growing concerns ",
-      "urls": [
-        "https://www.anthropic.com/research",
-        "https://thehill.com/policy/technology/5735767-anthropic-researcher-quits-ai-crises-ads",
-        "https://www.youtube.com/watch?v=htBaVVh_k90",
-        "https://www.reddit.com/r/ClaudeAI/comments/1r0ql35/head_of_ai_safety_research_resigns_after",
-        "https://www.anthropic.com/news",
-        "https://www.youtube.com/watch?v=PLg2EUkIC78",
-        "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-        "https://www.anthropic.com/engineering/april-23-postmortem"
-      ],
-      "date": "2026-05-08T15:35:20.742009+00:00"
-    },
-    {
       "title": "Google Launches No-Code Agents In Workspace Studio",
       "urls": [
         "https://bostoninstituteofanalytics.org/blog/genai-tools-of-the-week-6th-to-12th-dec-5-new-genai-apps-everyone-is-talking-about"
@@ -4839,7 +4825,15 @@
         "https://www.yahoo.com/news/world/article/why-do-olympic-medals-keep-breaking-investigation-underway-at-winter-games-as-4-athletes-report-problems-with-their-prizes-184846465.html"
       ],
       "date": "2026-05-18T15:33:26.685379+00:00"
+    },
+    {
+      "title": "Microsoft And Apple Optimize Screen Readers For Broader Workforce Use",
+      "urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/17483107.2025.2528858",
+        "https://pedalpoint.com/2025/08/you-dont-have-to-be-blind-to-use-a-screen-reader"
+      ],
+      "date": "2026-05-18T16:01:25.354708+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T15:33:26.685445+00:00"
+  "lastUpdated": "2026-05-18T16:01:25.354781+00:00"
 }
