@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia CEO Jensen Huang To Unveil Next-Gen AI Breakthroughs At GTC 2026",
-      "urls": [
-        "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026",
-        "https://www.youtube.com/watch?v=TSEpr_E2cE0",
-        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
-        "https://www.whitehouse.gov/priorities/tech-innovation"
-      ],
-      "date": "2026-05-08T08:04:19.819590+00:00"
-    },
-    {
       "title": "Arsenal reached their first Champions League final in 20 years after defeating their opponent in a d",
       "urls": [
         "https://sports.yahoo.com/news",
@@ -4794,7 +4784,16 @@
         "https://www.coinbase.com"
       ],
       "date": "2026-05-18T08:01:16.383142+00:00"
+    },
+    {
+      "title": "Xbox Cloud Gaming expands access to over 100 console games via web browsers on Xbox.",
+      "urls": [
+        "https://poki.com",
+        "https://www.youtube.com/gaming",
+        "https://www.xbox.com/en-us/play"
+      ],
+      "date": "2026-05-18T08:31:18.917546+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T08:01:16.383213+00:00"
+  "lastUpdated": "2026-05-18T08:31:18.917610+00:00"
 }
