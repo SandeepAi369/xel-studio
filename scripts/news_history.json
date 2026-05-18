@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google has launched Gemini Deep Think, its first publicly available multi-agent AI system, designed ",
-      "urls": [
-        "https://finance.yahoo.com/news/google-rolls-gemini-deep-think-110000104.html"
-      ],
-      "date": "2026-05-08T02:34:00.917079+00:00"
-    },
-    {
-      "title": "White House Unveils National AI Framework to Standardize Federal Regulations",
-      "urls": [
-        "https://www.klgates.com/White-House-Releases-National-AI-Policy-Framework-3-24-2026"
-      ],
-      "date": "2026-05-08T03:04:14.995390+00:00"
-    },
-    {
       "title": "Nvidia and AMD could face sweeping export controls on AI chips under proposed rules by the U.",
       "urls": [
         "https://patentpc.com/blog/the-ai-chip-market-explosion-key-stats-on-nvidia-amd-and-intels-ai-dominance",
@@ -4758,7 +4744,19 @@
         "https://www.crn.com/columns/running-your-business/2025/accessibility-meets-innovation-how-the-ada-shaped-the-tech-industry"
       ],
       "date": "2026-05-18T02:31:01.374627+00:00"
+    },
+    {
+      "title": "Google Brain Team Develops TensorFlow For Efficient AI Training",
+      "urls": [
+        "https://dictionary.cambridge.org/us/dictionary/english/open",
+        "https://www.rankred.com/best-machine-learning-tools",
+        "https://www.tldl.io/blog/ai-news-updates-2026",
+        "https://www.networkworld.com/article/2518640/dell-updates-servers-with-amd-ai-accelerators.html",
+        "https://www.ibm.com/think/topics/machine-learning",
+        "https://lightchain.ai"
+      ],
+      "date": "2026-05-18T03:04:24.841153+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T02:31:01.374689+00:00"
+  "lastUpdated": "2026-05-18T03:04:24.841217+00:00"
 }
