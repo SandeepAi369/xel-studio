@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Southeastern states face heightened flash flood risks due to a stalled cold front triggering prolong",
-      "urls": [
-        "https://www.npr.org/2024/08/05/nx-s1-5063893/hurricane-debby-florida-georgia-south-carolina",
-        "https://www.newschannel5.com/news/storm-5-alert-first-threat-in-2026-for-severe-weather-on-friday",
-        "https://www.usatoday.com/story/news/weather/2025/08/06/severe-storm-flash-flood-forecast-southeast/85537964007",
-        "https://yaleclimateconnections.org/2026/05/dangerous-heavy-rains-are-getting-more-likely-and-widespread",
-        "https://www.youtube.com/watch?v=8JkMV2yJyFU"
-      ],
-      "date": "2026-05-08T01:35:09.915529+00:00"
-    },
-    {
-      "title": "Percona Launches OpenEverest Community For Vendor Neutral Database Innovation",
-      "urls": [
-        "https://www.linuxinsider.com"
-      ],
-      "date": "2026-05-08T02:06:50.528043+00:00"
-    },
-    {
       "title": "Google has launched Gemini Deep Think, its first publicly available multi-agent AI system, designed ",
       "urls": [
         "https://finance.yahoo.com/news/google-rolls-gemini-deep-think-110000104.html"
@@ -4760,7 +4742,14 @@
         "https://www.pew.org/en/research-and-analysis/articles/2026/01/16/new-conservation-opportunities-and-obstacles-in-a-new-year"
       ],
       "date": "2026-05-18T01:32:02.307615+00:00"
+    },
+    {
+      "title": "Google Founded By Brin And Page In 1998 Revolutionizes Search With PageRank Algorithm",
+      "urls": [
+        "https://www.britannica.com/money/Google-Inc"
+      ],
+      "date": "2026-05-18T02:07:29.816901+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T01:32:02.307686+00:00"
+  "lastUpdated": "2026-05-18T02:07:29.816969+00:00"
 }
