@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Starship Flight 13 Aims For Full Reentry Destruction Test",
-      "urls": [
-        "https://www.youtube.com/watch?v=4jEHGE_kaxY"
-      ],
-      "date": "2026-05-07T23:38:08.900943+00:00"
-    },
-    {
       "title": "Arm Unveils Scalable AI Computing Solutions For Cloud And Edge Deployment",
       "urls": [
         "https://www.reddit.com/r/devops/comments/1ph5bzp/ai_is_going_to_run_cloud_infrastructure_whether",
@@ -4745,7 +4738,22 @@
         "https://www.usatoday.com/tech"
       ],
       "date": "2026-05-17T23:32:01.665517+00:00"
+    },
+    {
+      "title": "Phoronix Publishes 300 Benchmarks Annually For Linux Kernel Optimization",
+      "urls": [
+        "https://9to5linux.com",
+        "https://www.phoronix.com/recent-linux-news",
+        "https://lwn.net",
+        "https://www.dailylinux.com",
+        "https://itsfoss.com/news",
+        "https://linuxiac.com/category/news",
+        "https://www.linuxinsider.com/section/community",
+        "https://linuxlap.com/category/news",
+        "https://thenewstack.io/open-source"
+      ],
+      "date": "2026-05-18T00:01:13.161209+00:00"
     }
   ],
-  "lastUpdated": "2026-05-17T23:32:01.665585+00:00"
+  "lastUpdated": "2026-05-18T00:01:13.161291+00:00"
 }
