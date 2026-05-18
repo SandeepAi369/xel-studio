@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arm Unveils Scalable AI Computing Solutions For Cloud And Edge Deployment",
-      "urls": [
-        "https://www.reddit.com/r/devops/comments/1ph5bzp/ai_is_going_to_run_cloud_infrastructure_whether",
-        "https://hbr.org/sponsored/2025/10/tapping-ais-potential-with-powerful-infrastructure-from-cloud-to-edge"
-      ],
-      "date": "2026-05-08T00:06:27.789787+00:00"
-    },
-    {
       "title": "Hurricane season forecasts for 2026 show a consensus leaning toward below-average activity, primaril",
       "urls": [
         "https://www.facebook.com/vmgd.gov.vu/posts/latest-weather-update-issue-friday-08052026-time-0430amfor-more-information-chec/1404333881721668",
@@ -4753,7 +4745,20 @@
         "https://thenewstack.io/open-source"
       ],
       "date": "2026-05-18T00:01:13.161209+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Transformers Library With 320000 Pre-Trained Models",
+      "urls": [
+        "https://www.huggingfacecn.com",
+        "https://zhuanlan.zhihu.com/p/535100411",
+        "https://blog.csdn.net/qq_61829672/article/details/143195653",
+        "https://hugging-face.org.cn/download",
+        "https://baike.baidu.com/item/Hugging+Face/65708376",
+        "https://huggingface-china.com/index.html",
+        "https://hugging-face.cn/learn"
+      ],
+      "date": "2026-05-18T00:34:09.449353+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T00:01:13.161291+00:00"
+  "lastUpdated": "2026-05-18T00:34:09.449416+00:00"
 }
