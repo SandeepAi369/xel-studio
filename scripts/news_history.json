@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fda Panel Tightens Oversight On Ai Mental Health Chatbots",
-      "urls": [
-        "https://theryo.ai/blog/thrive-mentally-always-connected-world",
-        "https://www.microsoft.com/en-us/research/project/moments-of-change/groups",
-        "https://www.agg.com/news-insights/publications/paranoid-android-fda-advisory-committee-continues-to-evaluate-ai-mental-health-tools",
-        "https://dheal.berkeley.edu/publications/need-mental-health-technology-revolution-covid-19-pandemic",
-        "https://www.deloitte.com/an/en/Industries/life-sciences-health-care/analysis/the-promise-of-digital-mental-health-in-a-meta-world.html",
-        "https://edc.org/projects/metrowest-digital-wellness-collaborative",
-        "https://www.facebook.com/NYSOMH/posts/the-things-you-see-online-can-affect-your-mood-stress-and-focus-take-care-of-you/1294306289404546",
-        "https://www.icstars.org/humans-and-technology-embracing-the-intersection-for-mental-and-emotional-wellness",
-        "https://www.prnewswire.com/news-releases/new-research-reveals-digital-divide-southern-young-people-face-unique-barriers-to-mental-health-support-online-302576337.html"
-      ],
-      "date": "2026-05-08T23:03:13.603547+00:00"
-    },
-    {
       "title": "Companies Urge USTR To Avoid Broad Tariffs On Chinese Imports",
       "urls": [
         "https://www.politico.com/newsletters/weekly-trade",
@@ -4859,7 +4844,18 @@
         "https://www.ciodive.com/news/Meta-Llama-2-generative-AI-large-language-model/688449"
       ],
       "date": "2026-05-18T23:01:20.446089+00:00"
+    },
+    {
+      "title": "Hug Experts Recommend Five Second Embrace For Maximum Emotional Benefit",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hug",
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=1267be6a5865651f1ff1a93759f56494",
+        "https://www.marriage.com/advice/relationship/types-of-hugs",
+        "https://www.bonobology.com/types-of-hugs",
+        "https://www.mindbodygreen.com/articles/types-of-hugs"
+      ],
+      "date": "2026-05-18T23:31:05.070578+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T23:01:20.446160+00:00"
+  "lastUpdated": "2026-05-18T23:31:05.070661+00:00"
 }
