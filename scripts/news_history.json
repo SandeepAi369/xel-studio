@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "SensAble is developing haptic wearables that provide real-time environmental feedback to users, allo",
-      "urls": [
-        "https://www.besensable.com/post/visually-impaired-products",
-        "https://www.ketk.com/news/assistive-technology-advances-for-blind",
-        "https://miusa.org/resource/tip-sheets/assistivetechnologyforblind",
-        "https://www.youtube.com/watch?v=W4jew9OJIlU",
-        "https://afb.org/blog/entry/surviving-technology",
-        "https://www.youtube.com/watch?v=BVXLAQdVT0s"
-      ],
-      "date": "2026-05-08T17:40:38.325142+00:00"
-    },
-    {
       "title": "Wind and solar power generated a record 17% of total U.",
       "urls": [
         "https://renewablesnow.com/news/wind-and-solar-generated-a-record-17-percent-of-us-electricity-in-2025-eia-1291800"
@@ -4837,7 +4825,14 @@
         "https://www.cbssports.com/olympics/news/2026-winter-olympics-team-usa-hockey-mikaela-shiffrin-alysa-liu-help-gold-milan-cortina-games"
       ],
       "date": "2026-05-18T17:32:33.894126+00:00"
+    },
+    {
+      "title": "DeepMind's AlphaFold Accelerates Drug Discovery With Binding Site Breakthrough",
+      "urls": [
+        "https://aiworldjournal.com/2026-the-year-ai-reinvents-drug-discovery"
+      ],
+      "date": "2026-05-18T18:01:42.198132+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T17:32:33.894198+00:00"
+  "lastUpdated": "2026-05-18T18:01:42.198203+00:00"
 }
