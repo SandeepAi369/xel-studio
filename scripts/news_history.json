@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches No-Code Agents In Workspace Studio",
-      "urls": [
-        "https://bostoninstituteofanalytics.org/blog/genai-tools-of-the-week-6th-to-12th-dec-5-new-genai-apps-everyone-is-talking-about"
-      ],
-      "date": "2026-05-08T16:07:23.100936+00:00"
-    },
-    {
       "title": "Usain Bolt set a world record of 9.",
       "urls": [
         "https://www.instagram.com/reel/DWCrKLwEk5S",
@@ -4833,7 +4826,15 @@
         "https://pedalpoint.com/2025/08/you-dont-have-to-be-blind-to-use-a-screen-reader"
       ],
       "date": "2026-05-18T16:01:25.354708+00:00"
+    },
+    {
+      "title": "United States Geological Survey operates a nationwide seismic monitoring system that tracks earthqua",
+      "urls": [
+        "https://earthquakeradar.io",
+        "https://pnsn.org/earthquakes/recent"
+      ],
+      "date": "2026-05-18T16:31:19.057902+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T16:01:25.354781+00:00"
+  "lastUpdated": "2026-05-18T16:31:19.057968+00:00"
 }
