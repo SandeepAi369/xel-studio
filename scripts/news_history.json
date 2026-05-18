@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maryland Certifies First Cohort Of Climate Change Professionals",
-      "urls": [
-        "https://www.carbonbrief.org",
-        "https://2021-2025.state.gov/climate-crisis",
-        "https://climateofficers.org/inthenews",
-        "https://www.reuters.com/business/environment"
-      ],
-      "date": "2026-05-08T06:35:00.629534+00:00"
-    },
-    {
       "title": "US Supreme Court is reviewing a pivotal case on whether accessing smartphone location data without a",
       "urls": [
         "https://www.theguardian.com/world/privacy"
@@ -4788,7 +4778,17 @@
         "https://www.globalplayer.com"
       ],
       "date": "2026-05-18T06:33:09.711305+00:00"
+    },
+    {
+      "title": "Anthropic Develops Mythos AI Too Powerful for Public Release",
+      "urls": [
+        "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
+        "https://www.forbes.com/sites/jonmarkman/2026/04/08/what-is-claude-mythos-and-why-anthropic-wont-let-anyone-use-it",
+        "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon",
+        "https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model"
+      ],
+      "date": "2026-05-18T07:01:19.279031+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T06:33:09.711370+00:00"
+  "lastUpdated": "2026-05-18T07:01:19.279090+00:00"
 }
