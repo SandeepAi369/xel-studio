@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wind and solar power generated a record 17% of total U.",
-      "urls": [
-        "https://renewablesnow.com/news/wind-and-solar-generated-a-record-17-percent-of-us-electricity-in-2025-eia-1291800"
-      ],
-      "date": "2026-05-08T18:08:29.971027+00:00"
-    },
-    {
       "title": "Hurricane Ophelia Slams Inverclyde With 80mph Winds",
       "urls": [
         "https://www.facebook.com/61577794426908/posts/%EF%B8%8F-yellow-alert-warning-advisoryissued-on-08052026-at-0730lt-valid-till-08052026-/122169767708926480",
@@ -4832,7 +4825,18 @@
         "https://aiworldjournal.com/2026-the-year-ai-reinvents-drug-discovery"
       ],
       "date": "2026-05-18T18:01:42.198132+00:00"
+    },
+    {
+      "title": "Solar And Wind Power Drive 75 Percent Of New Global Renewable Capacity",
+      "urls": [
+        "https://www.eia.gov/energyexplained/renewable-sources",
+        "https://extension.psu.edu/what-is-renewable-energy",
+        "https://www.chicago.gov/city/en/progs/env/energy_efficiencyandrenewables.html",
+        "https://solartechonline.com/blog/what-is-renewable-resource-examples",
+        "https://ourworldindata.org/renewable-energy"
+      ],
+      "date": "2026-05-18T18:31:12.611681+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T18:01:42.198203+00:00"
+  "lastUpdated": "2026-05-18T18:31:12.611772+00:00"
 }
