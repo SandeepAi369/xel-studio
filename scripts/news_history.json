@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Antarctic Glaciers Release Iron But Fail To Trigger Carbon Absorbing Algae Blooms",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://www.nature.com/subjects/climate-change"
-      ],
-      "date": "2026-05-08T14:05:31.577567+00:00"
-    },
-    {
       "title": "PyTorch is a leading open-source machine learning framework widely used in AI research and developme",
       "urls": [
         "https://www.nvidia.com/en-us/glossary/pytorch"
@@ -4817,7 +4809,17 @@
         "https://findahealthcenter.hrsa.gov"
       ],
       "date": "2026-05-18T14:02:30.386460+00:00"
+    },
+    {
+      "title": "Marta Expands Accessibility Features For 300000 Daily Riders",
+      "urls": [
+        "https://www.britannica.com/dictionary/accessible",
+        "https://www.vocabulary.com/dictionary/accessible",
+        "https://www.itsmarta.com/marta-mobility.aspx",
+        "https://www.braunability.com/us/en/handicap-mobility-van-dealer-locator/dealers/r-r-mobility/ga/conyers.html"
+      ],
+      "date": "2026-05-18T14:32:23.406866+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T14:02:30.386524+00:00"
+  "lastUpdated": "2026-05-18T14:32:23.406965+00:00"
 }
