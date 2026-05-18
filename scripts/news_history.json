@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yutori has released a new report tracking five AI startup funding rounds from May 1, 2026, highlight",
-      "urls": [
-        "https://scouts.yutori.com/68f22e10-d5fe-4e94-b1c8-9c6218cfdb2c"
-      ],
-      "date": "2026-05-08T22:04:32.761458+00:00"
-    },
-    {
       "title": "Ethiopia faces a seismic and volcanic crisis in the Afar, Oromia, and Amhara regions following a ser",
       "urls": [
         "https://www.the-world-now.com/global-disaster-tracker",
@@ -4862,7 +4855,16 @@
         "https://screenmedics.com/screen-products-apex"
       ],
       "date": "2026-05-18T22:01:13.758376+00:00"
+    },
+    {
+      "title": "Wind And Solar Power Now Provide Reliable Electricity In Multiple Regions",
+      "urls": [
+        "https://www.nytimes.com/2026/05/06/climate/irena-renewables-energy-cost.html",
+        "https://apnews.com/article/climate-renewables-clean-energy-china-india-solar-electricity-demand-c412207bc332c5e0f904030ab21389e7",
+        "https://www.energy.gov/cmei/systems/quarterly-solar-industry-update"
+      ],
+      "date": "2026-05-18T22:32:07.606503+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T22:01:13.758494+00:00"
+  "lastUpdated": "2026-05-18T22:32:07.606576+00:00"
 }
