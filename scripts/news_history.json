@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic has scaled back its AI safety commitments, weakening its Responsible Scaling Policy amid g",
-      "urls": [
-        "https://www.anthropic.com/transparency",
-        "https://www.axios.com/2026/02/11/anthropic-claude-safety-chemical-weapons-values",
-        "https://aibusiness.com/generative-ai/anthropic-downgrades-its-ai-safety-policy"
-      ],
-      "date": "2026-05-08T19:34:05.897424+00:00"
-    },
-    {
       "title": "Kay Sargent highlights in her new book that up to 30 percent of autistic individuals may be non-spea",
       "urls": [
         "https://www.avnetwork.com/news/leveraging-technology-to-empower-neurodivergent-individuals",
@@ -4836,7 +4827,19 @@
         "https://www.foxnews.com?msockid=29d2b40dc608637d117ba350c7d462e0"
       ],
       "date": "2026-05-18T19:31:02.804715+00:00"
+    },
+    {
+      "title": "Ampla Health And Peach Tree Health Expand Care In Yuba City",
+      "urls": [
+        "https://www.amplahealth.org/health-centers/yuba-city-medical-xpress-care",
+        "https://www.dhcs.ca.gov/Medi-Cal/Pages/apply.aspx",
+        "https://www.sutterhealth.org/find-doctor/city/Yuba+City",
+        "https://pickpeach.org/location/peach-tree-yuba-city",
+        "https://doctor.webmd.com/providers/specialty/family-medicine/california/yuba-city",
+        "https://myowens.com"
+      ],
+      "date": "2026-05-18T20:03:32.936870+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T19:31:02.804782+00:00"
+  "lastUpdated": "2026-05-18T20:03:32.936937+00:00"
 }
