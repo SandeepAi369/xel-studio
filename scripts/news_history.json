@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has launched Mistral Medium 3.",
-      "urls": [
-        "https://mistral.ai/news"
-      ],
-      "date": "2026-05-08T10:05:13.288366+00:00"
-    },
-    {
       "title": "Cascadia Subduction Zone Records 150 Tremors in One Month",
       "urls": [
         "https://www.youtube.com/watch?v=aJheOkkXaMA",
@@ -4800,7 +4793,20 @@
         "https://sourceforge.net/projects/netron.mirror/files/v9.0.8/Netron-Setup-9.0.8.exe/download"
       ],
       "date": "2026-05-18T10:01:15.291888+00:00"
+    },
+    {
+      "title": "Epa Unveils 31 Deregulatory Actions In Historic Rollback",
+      "urls": [
+        "https://www.weather.gov/wrh/climate",
+        "https://www.merriam-webster.com/dictionary/climate",
+        "https://www.climateimpact.com/news-insights/insights/carbon-footprint-of-ai",
+        "https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history",
+        "https://www.environmentenergyleader.com",
+        "https://sciencebasedtargets.org",
+        "https://www.reuters.com/sustainability/climate-energy/fast-fashion-retailer-shein-reports-transport-emissions-up-137-2024-2025-06-13"
+      ],
+      "date": "2026-05-18T10:31:05.202806+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T10:01:15.291961+00:00"
+  "lastUpdated": "2026-05-18T10:31:05.202875+00:00"
 }
