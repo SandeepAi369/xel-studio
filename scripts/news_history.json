@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA World Cup Final Attracts 1.5 Billion Viewers Worldwide",
-      "urls": [
-        "https://sports.yahoo.com/articles/hearts-driving-seat-incredible-run-155829527.html",
-        "https://www.sportingnews.com/us",
-        "https://www.facebook.com/61572419494042/posts/ever-wondered-what-the-rest-of-the-world-is-playing-while-were-cheering-for-touc/122171685032747316",
-        "https://www.theguardian.com/uk/sport",
-        "https://www.bbc.com/sport/football/videos/cx21jp2egxzo"
-      ],
-      "date": "2026-05-08T04:36:07.020754+00:00"
-    },
-    {
       "title": "Open-source AI models are gaining dominance in 2026 by outperforming proprietary systems like ChatGP",
       "urls": [
         "https://thinkcloudly.com/blog/top-open-source-ai-models"
@@ -4771,7 +4760,19 @@
         "https://egamersworld.com"
       ],
       "date": "2026-05-18T04:31:18.941776+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Free Open Computer Agent For Web Automation",
+      "urls": [
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science",
+        "https://en.m.wikipedia.org/wiki/Hug",
+        "https://huggingface.co/blog/gemma4",
+        "https://www.gadgets360.com/ai/news/hugging-face-free-open-computer-ai-agent-tool-released-features-8353504",
+        "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+        "https://huggingface.co/blog/deepseekv4"
+      ],
+      "date": "2026-05-18T05:01:10.060891+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T04:31:18.941843+00:00"
+  "lastUpdated": "2026-05-18T05:01:10.060999+00:00"
 }
