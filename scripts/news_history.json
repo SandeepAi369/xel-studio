@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Supreme Court is reviewing a pivotal case on whether accessing smartphone location data without a",
-      "urls": [
-        "https://www.theguardian.com/world/privacy"
-      ],
-      "date": "2026-05-08T07:08:27.257446+00:00"
-    },
-    {
       "title": "Michigan taxpayers affected by severe spring flooding in northern Michigan and the Upper Peninsula m",
       "urls": [
         "https://www.cnn.com/weather/live-news/hurricane-debby-storm-08-05-24/index.html.",
@@ -4788,7 +4781,18 @@
         "https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model"
       ],
       "date": "2026-05-18T07:01:19.279031+00:00"
+    },
+    {
+      "title": "Ballot drop boxes in Oregon and Washington were targeted in coordinated fires, with at least five de",
+      "urls": [
+        "https://www.king5.com/article/news/politics/elections/live-updated-results-2025-general-election-races-western-washington/281-bc19aca7-b7a3-4d7b-976f-85a1b6d86cb2",
+        "https://www.nottinghampost.com/all-about/politics",
+        "https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy",
+        "https://www.pbs.org/newshour/politics/fact-checking-trumps-false-claims-about-voter-fraud-and-rigged-elections",
+        "https://www.usatoday.com/story/news/politics/elections/2024/10/29/ballot-boxes-fire-oregon-washington/75916577007"
+      ],
+      "date": "2026-05-18T07:32:17.315758+00:00"
     }
   ],
-  "lastUpdated": "2026-05-18T07:01:19.279090+00:00"
+  "lastUpdated": "2026-05-18T07:32:17.315836+00:00"
 }
