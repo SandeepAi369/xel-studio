@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Allyson Felix Inducted Into U.S. Olympic Hall of Fame in 2025",
-      "urls": [
-        "https://www.facebook.com/enews/videos/why-alysa-liu-wasnt-allowed-to-keep-olympic-gold-medal-after-it-broke/1660192115145408",
-        "https://www.sportbible.com/athletics/olympic-athletes-share-gold-medals-011890-20260214",
-        "https://www.olympics.com/en/news/elana-meyers-taylor-bobsleigh-mother-winter-olympics",
-        "https://www.nytimes.com/athletic/7058382/2026/02/19/alysa-liu-figure-skating-winter-olympics-gold",
-        "https://usopm.org/allyson-felix"
-      ],
-      "date": "2026-05-09T21:05:17.049046+00:00"
-    },
-    {
       "title": "Samsung Unveils Relumino Vision+ Smart Glasses at CES 2025",
       "urls": [
         "https://www.forbes.com/sites/billschiffmiller/2025/01/20/accessibility-tech-showcased-at-ces-2025-is-transforming-shared-experiences"
@@ -4870,7 +4859,14 @@
         "https://www.leagueoflegends.com/en-us/news/esports"
       ],
       "date": "2026-05-19T21:02:19.187965+00:00"
+    },
+    {
+      "title": "Fox News Attracts Over 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=077305ec8476692215fb12b285276870"
+      ],
+      "date": "2026-05-19T21:31:03.781344+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T21:02:19.188041+00:00"
+  "lastUpdated": "2026-05-19T21:31:03.781417+00:00"
 }
