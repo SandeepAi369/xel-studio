@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Launches 20 Free AI Tools For Developers And Enterprises",
-      "urls": [
-        "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
-        "https://zapier.com/blog/generative-ai-tools",
-        "https://www.hashmeta.ai/generative-ai/generative-ai-tools",
-        "https://cloud.google.com/use-cases/free-ai-tools"
-      ],
-      "date": "2026-05-09T22:05:17.272105+00:00"
-    },
-    {
       "title": "Jessika Trancik Leads Global Team In Clean Energy Modeling Initiative",
       "urls": [
         "https://news.mit.edu/2025/making-clean-energy-investments-more-successful-1212",
@@ -4871,7 +4861,14 @@
         "https://ruinsandremnants.com/pompeii-travel-guide"
       ],
       "date": "2026-05-19T22:03:41.213637+00:00"
+    },
+    {
+      "title": "Fox News Attracts 150 Million Monthly Visitors With Expanded Digital Coverage",
+      "urls": [
+        "https://www.foxnews.com?msockid=336d2c394a1e632203f53b674bfc6231"
+      ],
+      "date": "2026-05-19T22:31:06.938736+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T22:03:41.213699+00:00"
+  "lastUpdated": "2026-05-19T22:31:06.938796+00:00"
 }
