@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mayo Clinic AI Model Triples Early Pancreatic Cancer Detection",
-      "urls": [
-        "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare",
-        "https://www.healthcareitnews.com/news/advanced-ai-holds-promise-high-stakes-healthcare-studies-show"
-      ],
-      "date": "2026-05-09T17:04:15.029918+00:00"
-    },
-    {
       "title": "WHO Reports 430 Million Affected by Hearing Impairment",
       "urls": [
         "https://www.mdpi.com/2571-5577/9/4/70"
@@ -4852,7 +4844,20 @@
         "https://www.nationalgeographic.com/science"
       ],
       "date": "2026-05-19T16:34:16.728203+00:00"
+    },
+    {
+      "title": "Trump Appoints Tech Leaders To New AI Advisory Council",
+      "urls": [
+        "https://newsroom.intel.com/corporate/intel-client-computing-and-innovation-leadership-news-may-2026",
+        "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments",
+        "https://www.whitehouse.gov/releases/2025/09/president-trump-tech-leaders-unite-american-ai-dominance",
+        "https://www.politico.com/news/2026/03/25/ellison-zuckerberg-among-tech-leaders-given-new-white-house-advisory-role-00843881",
+        "https://kelsotech.com/investors/news/kelso-ceo-and-director-announcements",
+        "https://about.netflix.com/news/netflix-to-acquire-warner-bros",
+        "https://www.military.com/daily-news"
+      ],
+      "date": "2026-05-19T17:04:23.798858+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T16:34:16.728268+00:00"
+  "lastUpdated": "2026-05-19T17:04:23.798927+00:00"
 }
