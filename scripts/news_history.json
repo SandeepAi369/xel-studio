@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States requested World Trade Organization consultations on President Trump's latest round of ",
-      "urls": [
-        "https://www.itic.org/policy/trade-investment",
-        "https://www.usnews.com/topics/subjects/international-trade",
-        "https://www.brookings.edu/articles/opportunities-and-challenges-for-trade-policy-in-the-digital-economy",
-        "https://www.congress.gov/crs-product/IF12347",
-        "https://insidetrade.com"
-      ],
-      "date": "2026-05-09T16:04:13.905388+00:00"
-    },
-    {
-      "title": "Sebastian Sawe shattered the marathon world record at the 2026 London Marathon, becoming the first p",
-      "urls": [
-        "https://www.nytimes.com/athletic/7231383/2026/04/26/london-marathon-sabastian-sawe-world-record",
-        "https://www.youtube.com/watch?v=ah4ZwACPVxE"
-      ],
-      "date": "2026-05-09T16:33:01.369789+00:00"
-    },
-    {
       "title": "Mayo Clinic AI Model Triples Early Pancreatic Cancer Detection",
       "urls": [
         "https://www.docwirenews.com/post/the-top-6-ai-breakthroughs-in-healthcare",
@@ -4862,7 +4843,16 @@
         "https://www.timesnownews.com/world/us/us-news/latest-news-on-nancy-guthrie-today-elizabeth-smart-savannah-guthrie-mom-article-154285230"
       ],
       "date": "2026-05-19T16:01:24.675521+00:00"
+    },
+    {
+      "title": "Scientists Advance Knowledge Through Rigorous Experimental Research",
+      "urls": [
+        "https://undsci.berkeley.edu/understanding-science-101/what-is-science",
+        "https://www.npr.org/sections/science",
+        "https://www.nationalgeographic.com/science"
+      ],
+      "date": "2026-05-19T16:34:16.728203+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T16:01:24.675591+00:00"
+  "lastUpdated": "2026-05-19T16:34:16.728268+00:00"
 }
