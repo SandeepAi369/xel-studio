@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta is reversing speculation of an open-source retreat by planning to release new AI models under o",
-      "urls": [
-        "https://www.youtube.com/watch?v=LvQWVpC7r04",
-        "https://www.axios.com/2026/04/06/meta-open-source-ai-models",
-        "https://www.llama.com"
-      ],
-      "date": "2026-05-09T06:04:13.230151+00:00"
-    },
-    {
       "title": "The Climate Pledge is a global initiative co-founded by Amazon and Global Optimism, committing signa",
       "urls": [
         "https://www.theclimatepledge.com"
@@ -4843,7 +4834,17 @@
         "https://global.com/about"
       ],
       "date": "2026-05-19T06:02:16.147688+00:00"
+    },
+    {
+      "title": "Hugging Reduces Stress And Lowers Blood Pressure",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/hugging",
+        "https://www.berkeleywellbeing.com/hugs.html",
+        "https://ensorahealth.com/blog/benefits-of-hugging-for-mental-health",
+        "https://www.psychologytoday.com/us/blog/close-communication/202205/4-significant-physical-benefits-of-hugging?msockid=3c602f67f7c161050dcc3839f6ee60d6"
+      ],
+      "date": "2026-05-19T06:32:16.105421+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T06:02:16.147778+00:00"
+  "lastUpdated": "2026-05-19T06:32:16.105482+00:00"
 }
