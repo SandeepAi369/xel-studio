@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Project Glasswing to Detect Software Vulnerabilities Using Claude Mythos Preview",
-      "urls": [
-        "https://www.anu.edu.au/news/all-news/anu-partners-with-ai-safety-company-anthropic-to-strengthen-its-ai-research-and-teaching",
-        "https://www.anthropic.com/glasswing",
-        "https://www.anthropic.com/research/labor-market-impacts"
-      ],
-      "date": "2026-05-09T15:35:00.977700+00:00"
-    },
-    {
       "title": "United States requested World Trade Organization consultations on President Trump's latest round of ",
       "urls": [
         "https://www.itic.org/policy/trade-investment",
@@ -4863,7 +4854,15 @@
         "https://www.oed.com/discover/digital"
       ],
       "date": "2026-05-19T15:31:01.591845+00:00"
+    },
+    {
+      "title": "Elizabeth Smart Honors Nancy Guthrie With Message of Faith and Resilience",
+      "urls": [
+        "https://www.foxnews.com?msockid=284cc8873d5f65f30d61dfd93c2a6406",
+        "https://www.timesnownews.com/world/us/us-news/latest-news-on-nancy-guthrie-today-elizabeth-smart-savannah-guthrie-mom-article-154285230"
+      ],
+      "date": "2026-05-19T16:01:24.675521+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T15:31:01.591914+00:00"
+  "lastUpdated": "2026-05-19T16:01:24.675591+00:00"
 }
