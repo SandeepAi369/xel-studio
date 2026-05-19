@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "S&P 500 reaches a record high, climbing over 10% in April as investors react positively to earnings ",
-      "urls": [
-        "https://sherwood.news/markets/stocks-climb-to-new-record-high-largely-thanks-to-alphabet-earnings",
-        "https://www.theguardian.com/technology/2026/apr/29/earnings-ai-boom-us-stock-markets",
-        "https://finance.yahoo.com/sectors/technology/articles/big-tech-earnings-validate-ai-123100525.html",
-        "https://www.youtube.com/watch?v=Ed8fhwWjEzU"
-      ],
-      "date": "2026-05-09T08:05:15.924910+00:00"
-    },
-    {
       "title": "John Korir Smashes Boston Marathon Record With 2:01:52 Victory",
       "urls": [
         "https://www.news.com.au/sport/olympics/athletics/marathon-record-broken-as-three-stars-beat-previous-time-with-two-running-in-magic-adidas-trainers/news-story/1f2b8261cd8194e8eba206407d533a5d",
@@ -4848,7 +4838,23 @@
         "https://scottsdalescreen.com"
       ],
       "date": "2026-05-19T08:02:26.625833+00:00"
+    },
+    {
+      "title": "Claude Opus 4.",
+      "urls": [
+        "https://x.com/alexalbert__/status/2023820589983801796",
+        "https://x.com/alexalbert__/status/2032522722551689363",
+        "https://x.com/alexalbert__/status/2036227208675729687",
+        "https://x.com/alexalbert__/status/2036510206155432293",
+        "https://x.com/alexalbert__/status/2023817479580221795",
+        "https://x.com/alexalbert__/status/2019477447868313634",
+        "https://x.com/alexalbert__/status/2001760879302553906",
+        "https://x.com/alexalbert__/status/2054613082589298899",
+        "https://x.com/alexalbert__/status/2054268569337389487",
+        "https://x.com/alexalbert__/status/2052899864493830590"
+      ],
+      "date": "2026-05-19T08:32:06.820452+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T08:02:26.625885+00:00"
+  "lastUpdated": "2026-05-19T08:32:06.820522+00:00"
 }
