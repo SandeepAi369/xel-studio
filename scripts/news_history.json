@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canan Dagdeviren Unveils Ultrasound-Emitting Bra For Daily Breast Monitoring",
-      "urls": [
-        "https://www.statnews.com/topic/health-tech"
-      ],
-      "date": "2026-05-09T11:04:15.643986+00:00"
-    },
-    {
       "title": "Humanoid robots are advancing rapidly as major tech players and governments push for mass production",
       "urls": [
         "https://roboticsandautomationnews.com/2025/05/15/many-more-metal-men-ambitious-goals-for-humanoid-mass-production/90792"
@@ -4858,7 +4851,18 @@
         "https://www.health.harvard.edu/healthy-aging-and-longevity/telehealth-the-advantages-and-disadvantages"
       ],
       "date": "2026-05-19T11:01:19.065671+00:00"
+    },
+    {
+      "title": "Miami Heat Hold Sixth Seed With Balanced Attack",
+      "urls": [
+        "https://www.espn.com/nba/standings",
+        "https://www.foxsports.com/nba/miami-heat-team-standings",
+        "https://www.nba.com/standings",
+        "https://www.365scores.com/en-us/basketball/team/miami-heat-1314/standings",
+        "https://nbaplayoffpass.com/team/miami-heat"
+      ],
+      "date": "2026-05-19T11:31:15.923856+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T11:01:19.065744+00:00"
+  "lastUpdated": "2026-05-19T11:31:15.923927+00:00"
 }
