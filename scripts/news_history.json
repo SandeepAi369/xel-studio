@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "King's College Hospital Tests New Collar Device to Reduce Brain Swelling",
-      "urls": [
-        "https://www.bbc.com/news/topics/cx1m7zg0w38t"
-      ],
-      "date": "2026-05-09T07:32:59.322697+00:00"
-    },
-    {
       "title": "S&P 500 reaches a record high, climbing over 10% in April as investors react positively to earnings ",
       "urls": [
         "https://sherwood.news/markets/stocks-climb-to-new-record-high-largely-thanks-to-alphabet-earnings",
@@ -4847,7 +4840,15 @@
         "https://www.tennistv.com"
       ],
       "date": "2026-05-19T07:31:08.579804+00:00"
+    },
+    {
+      "title": "Scottsdale Screen Installs Custom Solar And Bug Screens In Fountain Hills",
+      "urls": [
+        "https://www.screenmobile.com/locations/scottsdale",
+        "https://scottsdalescreen.com"
+      ],
+      "date": "2026-05-19T08:02:26.625833+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T07:31:08.579869+00:00"
+  "lastUpdated": "2026-05-19T08:02:26.625885+00:00"
 }
