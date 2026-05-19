@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jessika Trancik Leads Global Team In Clean Energy Modeling Initiative",
-      "urls": [
-        "https://news.mit.edu/2025/making-clean-energy-investments-more-successful-1212",
-        "https://energyinnovation.org/about/press/page/2"
-      ],
-      "date": "2026-05-09T22:34:02.454760+00:00"
-    },
-    {
       "title": "Climate Scientists Warn 1.5°C Warming Limit Will Be Exceeded Within Three Years",
       "urls": [
         "https://www.tandfonline.com/doi/full/10.1080/00139157.2025.2434494",
@@ -4868,7 +4860,18 @@
         "https://www.foxnews.com?msockid=336d2c394a1e632203f53b674bfc6231"
       ],
       "date": "2026-05-19T22:31:06.938736+00:00"
+    },
+    {
+      "title": "Kimi K2 Thinking Outperforms GPT-4 With 14.8% Higher Accuracy",
+      "urls": [
+        "https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai",
+        "https://github.blog/open-source/maintainers/from-mcp-to-multi-agents-the-top-10-open-source-ai-projects-on-github-right-now-and-why-they-matter",
+        "https://github.com/alvinreal/awesome-opensource-ai",
+        "https://www.geeky-gadgets.com/new-open-source-ai-projects-how-collaboration-is-beating-big-tech",
+        "https://www.ibm.com/think/news/open-source-models-surpass-closed-models"
+      ],
+      "date": "2026-05-19T23:02:19.912903+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T22:31:06.938796+00:00"
+  "lastUpdated": "2026-05-19T23:02:19.912972+00:00"
 }
