@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "John Korir Smashes Boston Marathon Record With 2:01:52 Victory",
-      "urls": [
-        "https://www.news.com.au/sport/olympics/athletics/marathon-record-broken-as-three-stars-beat-previous-time-with-two-running-in-magic-adidas-trainers/news-story/1f2b8261cd8194e8eba206407d533a5d",
-        "https://www.youtube.com/watch?v=YAtF9A4QVcs",
-        "https://www.youtube.com/watch?v=mrXBVv03NS4"
-      ],
-      "date": "2026-05-09T08:36:10.726379+00:00"
-    },
-    {
       "title": "Digit Robots Begin Amazon Warehouse Trials In 2024",
       "urls": [
         "https://spectrum.ieee.org/topic/robotics/humanoid-robots"
@@ -4854,7 +4845,18 @@
         "https://x.com/alexalbert__/status/2052899864493830590"
       ],
       "date": "2026-05-19T08:32:06.820452+00:00"
+    },
+    {
+      "title": "Microsoft Hires Over 12000 Employees Amid AI Expansion Push",
+      "urls": [
+        "https://m.techcrunch.com",
+        "https://thetechportal.com",
+        "https://www.cnbc.com/technology?msockid=1d3190910e8c6ede097d87cf0f496f2f",
+        "https://www.ghacks.net",
+        "https://www.washingtonpost.com/business/technology"
+      ],
+      "date": "2026-05-19T09:03:30.543554+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T08:32:06.820522+00:00"
+  "lastUpdated": "2026-05-19T09:03:30.543615+00:00"
 }
