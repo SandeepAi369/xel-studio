@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Climate Pledge is a global initiative co-founded by Amazon and Global Optimism, committing signa",
-      "urls": [
-        "https://www.theclimatepledge.com"
-      ],
-      "date": "2026-05-09T06:34:09.098671+00:00"
-    },
-    {
       "title": "Trump Administration Shifts AI Regulation Stance, Alarming Developers",
       "urls": [
         "https://www.reuters.com/world/us/elections",
@@ -4844,7 +4837,20 @@
         "https://www.psychologytoday.com/us/blog/close-communication/202205/4-significant-physical-benefits-of-hugging?msockid=3c602f67f7c161050dcc3839f6ee60d6"
       ],
       "date": "2026-05-19T06:32:16.105421+00:00"
+    },
+    {
+      "title": "Saint Francis Tulsa Tough Hosts First Para-Cycling Race",
+      "urls": [
+        "https://tulsaworld.com/sports",
+        "https://www.newson6.com/sports",
+        "https://www.kjrh.com/sports",
+        "https://ktul.com/sports",
+        "https://www.on3.com/sites/inside-tulsa-sports/news",
+        "https://bleacherreport.com",
+        "https://www.citynewstulsa.com/sports"
+      ],
+      "date": "2026-05-19T07:01:31.268242+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T06:32:16.105482+00:00"
+  "lastUpdated": "2026-05-19T07:01:31.268338+00:00"
 }
