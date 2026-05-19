@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Deaf-Blind Equipment Distribution Program provides free technology to low-income individual",
-      "urls": [
-        "https://www.fcc.gov/consumers/guides/national-deaf-blind-equipment-distribution-program"
-      ],
-      "date": "2026-05-09T19:04:23.293212+00:00"
-    },
-    {
       "title": "Developers Build Apps Faster Using GitHub Copilot And Amazon CodeWhisperer",
       "urls": [
         "https://www.youtube.com/shorts/ploMdIujftU",
@@ -4872,7 +4865,14 @@
         "https://www.oracle.com/artificial-intelligence/generative-ai/what-is-generative-ai"
       ],
       "date": "2026-05-19T19:02:28.273423+00:00"
+    },
+    {
+      "title": "NBA All-Star Weekend Draws Record 2.1 Million Fans To Indianapolis",
+      "urls": [
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen"
+      ],
+      "date": "2026-05-19T19:31:02.892503+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T19:02:28.273489+00:00"
+  "lastUpdated": "2026-05-19T19:31:02.892603+00:00"
 }
