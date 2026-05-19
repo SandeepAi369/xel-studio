@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lila Koch Leads Climate Tech Investment Surge",
-      "urls": [
-        "https://techcrunch.com/category/climate",
-        "https://www.theinformation.com/events/climatetech"
-      ],
-      "date": "2026-05-09T18:05:14.886143+00:00"
-    },
-    {
       "title": "Z Ai Releases Glm 5 1 Open Source Model Surpassing Top Proprietary Systems",
       "urls": [
         "https://github.com/eugeneyan/open-llms",
@@ -4869,7 +4861,15 @@
         "https://cacm.acm.org/news/the-humanoid-robots-are-coming-this-time-for-real"
       ],
       "date": "2026-05-19T18:01:22.727244+00:00"
+    },
+    {
+      "title": "World News Reports Escalating Tensions in Middle East Diplomacy",
+      "urls": [
+        "https://www.foxnews.com?msockid=356218c2a4ac64be2ca90f9ca58865dc",
+        "https://www.ndtv.com/world-news"
+      ],
+      "date": "2026-05-19T18:32:20.658418+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T18:01:22.727312+00:00"
+  "lastUpdated": "2026-05-19T18:32:20.658486+00:00"
 }
