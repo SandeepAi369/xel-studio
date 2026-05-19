@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Scientists Warn 1.5°C Warming Limit Will Be Exceeded Within Three Years",
-      "urls": [
-        "https://www.tandfonline.com/doi/full/10.1080/00139157.2025.2434494",
-        "https://yaleclimateconnections.org/2025/09/climate-change-is-accelerating-scientists-find-in-grim-report",
-        "https://science.nasa.gov/climate-change/effects",
-        "https://science.nasa.gov/climate-change/evidence"
-      ],
-      "date": "2026-05-09T23:04:13.788110+00:00"
-    },
-    {
       "title": "Deaf and hard-of-hearing scientists at the Rochester Institute of Technology (RIT) are advancing in ",
       "urls": [
         "https://www.accessibilitychecker.org/blog/deaf-accessibility",
@@ -4871,7 +4861,14 @@
         "https://www.ibm.com/think/news/open-source-models-surpass-closed-models"
       ],
       "date": "2026-05-19T23:02:19.912903+00:00"
+    },
+    {
+      "title": "Digital Technology Powers Global Social Media Platforms",
+      "urls": [
+        "https://dictionary.cambridge.org/us/dictionary/english/digital"
+      ],
+      "date": "2026-05-19T23:31:05.098496+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T23:02:19.912972+00:00"
+  "lastUpdated": "2026-05-19T23:31:05.098561+00:00"
 }
