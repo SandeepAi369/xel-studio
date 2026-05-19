@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Administration Shifts AI Regulation Stance, Alarming Developers",
-      "urls": [
-        "https://www.reuters.com/world/us/elections",
-        "https://www.nbcnews.com/politics",
-        "https://www.democracynow.org/2026/5/8/trump_elections",
-        "https://www.270towin.com/news",
-        "https://www.politico.com/politics",
-        "https://www.cbsnews.com/politics",
-        "https://www.cnn.com/politics",
-        "https://www.politico.com",
-        "https://www.npr.org/sections/elections"
-      ],
-      "date": "2026-05-09T07:06:18.475097+00:00"
-    },
-    {
       "title": "King's College Hospital Tests New Collar Device to Reduce Brain Swelling",
       "urls": [
         "https://www.bbc.com/news/topics/cx1m7zg0w38t"
@@ -4850,7 +4835,19 @@
         "https://www.citynewstulsa.com/sports"
       ],
       "date": "2026-05-19T07:01:31.268242+00:00"
+    },
+    {
+      "title": "Iga Świątek Tops WTA Rankings For Over 100 Weeks",
+      "urls": [
+        "https://www.bbc.co.uk/sport/tennis",
+        "https://www.clubatsonterra.com/tennis",
+        "https://en.m.wikipedia.org/wiki/Tennis",
+        "https://www.wtatennis.com",
+        "https://www.satennis.com",
+        "https://www.tennistv.com"
+      ],
+      "date": "2026-05-19T07:31:08.579804+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T07:01:31.268338+00:00"
+  "lastUpdated": "2026-05-19T07:31:08.579869+00:00"
 }
