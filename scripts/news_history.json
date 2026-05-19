@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Secures Multi-Year Deal to Power AI in Apple iPhones",
-      "urls": [
-        "https://finance.yahoo.com/news/apple-ai-deal-google-means-014819582.html",
-        "https://www.youtube.com/watch?v=u_4SzAA8pV4",
-        "https://www.facebook.com/abc3340/posts/apple-meta-amazon-and-nvidia-are-among-the-companies-listed-on-a-press-release-f/1348785427277559",
-        "https://www.cnet.com/videos/google-io-2026-new-gemini-smart-glasses-and-a-whole-new-laptop-os-heres-what-to-expect",
-        "https://www.youtube.com/watch?v=hE5MH_RoMLQ"
-      ],
-      "date": "2026-05-09T03:35:01.267905+00:00"
-    },
-    {
       "title": "Manchester City Women Win First WSL Title After Arsenal Draw",
       "urls": [
         "https://www.youtube.com/watch?v=aKyl6YnD_Zc",
@@ -4852,7 +4841,16 @@
         "https://www.cnet.com/news-live/mwc-2026-news-updates-product-announcements"
       ],
       "date": "2026-05-19T03:30:54.216891+00:00"
+    },
+    {
+      "title": "Bitcoin Leads Cryptocurrency Revolution With Blockchain Innovation",
+      "urls": [
+        "https://www.schwab.com/learn/story/cryptocurrencies-what-are-they?msockid=2dfe76c77915658e2f876199786f64db",
+        "https://www.binance.com/en/academy/articles/what-is-a-cryptocurrency",
+        "https://www.coindesk.com"
+      ],
+      "date": "2026-05-19T04:01:11.543940+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T03:30:54.216963+00:00"
+  "lastUpdated": "2026-05-19T04:01:11.544008+00:00"
 }
