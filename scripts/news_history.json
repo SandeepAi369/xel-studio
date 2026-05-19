@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Samsung Unveils Relumino Vision+ Smart Glasses at CES 2025",
-      "urls": [
-        "https://www.forbes.com/sites/billschiffmiller/2025/01/20/accessibility-tech-showcased-at-ces-2025-is-transforming-shared-experiences"
-      ],
-      "date": "2026-05-09T21:34:58.737366+00:00"
-    },
-    {
       "title": "Google Cloud Launches 20 Free AI Tools For Developers And Enterprises",
       "urls": [
         "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships",
@@ -4866,7 +4859,19 @@
         "https://www.foxnews.com?msockid=077305ec8476692215fb12b285276870"
       ],
       "date": "2026-05-19T21:31:03.781344+00:00"
+    },
+    {
+      "title": "Archaeologists Unearth Intact Roman Streets In Pompeii Excavation",
+      "urls": [
+        "https://www.geeksforgeeks.org/artificial-intelligence/hugging-face-tutorial",
+        "https://pompeiisites.org/en",
+        "https://en.m.wikipedia.org/wiki/Pompeii",
+        "https://www.britannica.com/place/Pompeii",
+        "https://pompeiitravel.com",
+        "https://ruinsandremnants.com/pompeii-travel-guide"
+      ],
+      "date": "2026-05-19T22:03:41.213637+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T21:31:03.781417+00:00"
+  "lastUpdated": "2026-05-19T22:03:41.213699+00:00"
 }
