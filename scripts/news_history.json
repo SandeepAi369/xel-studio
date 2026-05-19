@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Humanoid robots are advancing rapidly as major tech players and governments push for mass production",
-      "urls": [
-        "https://roboticsandautomationnews.com/2025/05/15/many-more-metal-men-ambitious-goals-for-humanoid-mass-production/90792"
-      ],
-      "date": "2026-05-09T11:34:03.397519+00:00"
-    },
-    {
       "title": "ITIF has criticized proposed tech regulations like California's failed BASED Act, which aimed to imp",
       "urls": [
         "https://itif.org/news-room",
@@ -4862,7 +4855,22 @@
         "https://nbaplayoffpass.com/team/miami-heat"
       ],
       "date": "2026-05-19T11:31:15.923856+00:00"
+    },
+    {
+      "title": "Trump Approval Drops To 27 Percent Amid Inflation Concerns",
+      "urls": [
+        "https://www.foxnews.com/politics?param=34e23ef5&msockid=109d2f3dacfd61de37ea3863ad1360da",
+        "https://apnews.com/politics",
+        "https://www.nbcnews.com/politics",
+        "https://www.reuters.com/world/us/elections",
+        "https://www.politico.com",
+        "https://www.cbsnews.com/politics",
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ4ZERBU0FtcGhLQUFQAQ",
+        "https://thehill.com",
+        "https://www.npr.org/sections/politics"
+      ],
+      "date": "2026-05-19T12:01:14.841822+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T11:31:15.923927+00:00"
+  "lastUpdated": "2026-05-19T12:01:14.841883+00:00"
 }
