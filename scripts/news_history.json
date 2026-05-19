@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Delivers Real-Time AI Captions for 50 Million Users",
-      "urls": [
-        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
-        "https://www.msn.com/en-us/news/other/technology-improves-safety-for-deaf-hard-of-hearing/ar-AA1P03Vj",
-        "https://www.youtube.com/watch?v=7Ud-tBQuac8"
-      ],
-      "date": "2026-05-09T13:36:03.602546+00:00"
-    },
-    {
       "title": "Cherokee, Texas experienced severe flash flooding on April 12, 2026, after an intense, slow-moving s",
       "urls": [
         "https://www.youtube.com/watch?v=lcBznZBiUm0",
@@ -4868,7 +4859,15 @@
         "https://asanify.com/blog/news/ai-drug-discovery-investment-may-14-2026"
       ],
       "date": "2026-05-19T13:31:04.867185+00:00"
+    },
+    {
+      "title": "Google News Aggregates 50000 Sources With Machine Learning Algorithm",
+      "urls": [
+        "https://www.foxnews.com?msockid=1add6e07ed186a5b34727959ec836b7e",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen"
+      ],
+      "date": "2026-05-19T14:01:29.826150+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T13:31:04.867277+00:00"
+  "lastUpdated": "2026-05-19T14:01:29.826248+00:00"
 }
