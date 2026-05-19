@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "xAI Launches Grok 4.3 With 128K Context And Real Time Data Integration",
-      "urls": [
-        "https://llm-stats.com/llm-updates"
-      ],
-      "date": "2026-05-09T02:04:17.800484+00:00"
-    },
-    {
       "title": "Scientists At University Of California San Diego Discover RAB38 Protein Linked To 67 Percent Higher Alzheimer's Risk",
       "urls": [
         "https://www.medtechdive.com",
@@ -4855,7 +4848,15 @@
         "https://myopenbank.com"
       ],
       "date": "2026-05-19T02:03:39.853669+00:00"
+    },
+    {
+      "title": "Fox News Surpasses 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.npr.org/sections/news",
+        "https://www.foxnews.com?msockid=0608291da4a665f8317f3e43a5396447"
+      ],
+      "date": "2026-05-19T02:31:04.284132+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T02:03:39.853727+00:00"
+  "lastUpdated": "2026-05-19T02:31:04.284212+00:00"
 }
