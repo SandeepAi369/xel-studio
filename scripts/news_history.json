@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ameriсan Medіcal Assocіatіon Advocates For Ethіcal AI Integratіon In Health Care",
-      "urls": [
-        "https://jamanetwork.com/journals/jama/fullarticle/2840175",
-        "https://www.ama-assn.org/topics/health-care-ai",
-        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health"
-      ],
-      "date": "2026-05-09T00:04:09.279395+00:00"
-    },
-    {
       "title": "Gable Steveson Makes Pro MMA Debut Against Braden Peterson At LFA 217",
       "urls": [
         "https://www.youtube.com/watch?v=6IX5XgCuFLM",
@@ -4861,7 +4852,22 @@
         "https://support.microsoft.com/en-us/windows/update-audio-drivers-in-windows-484451de-65df-4e8c-bb13-563d4d4ef96d"
       ],
       "date": "2026-05-19T00:01:20.402579+00:00"
+    },
+    {
+      "title": "Shenzhou-18 Taikonauts Delayed After Tiangong Docking Failure",
+      "urls": [
+        "https://www.space.com",
+        "https://www.npr.org/sections/space",
+        "https://www.astronomy.com",
+        "https://www.nhm.ac.uk/discover/what-is-space.html",
+        "https://www.washingtonpost.com/space",
+        "https://www.nytimes.com/section/science/space",
+        "https://apnews.com/hub/space",
+        "https://www.nationalgeographic.com/science/topic/space",
+        "https://education.nationalgeographic.org/resource/resource-library-space"
+      ],
+      "date": "2026-05-19T00:30:58.947189+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T00:01:20.402648+00:00"
+  "lastUpdated": "2026-05-19T00:30:58.947251+00:00"
 }
