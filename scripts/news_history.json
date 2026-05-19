@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clean Energy Surpasses Global Demand Growth in 2025",
-      "urls": [
-        "https://energyinnovation.org/research-resources",
-        "https://www.youtube.com/watch?v=iqAqtFFwYSI"
-      ],
-      "date": "2026-05-09T01:33:52.500734+00:00"
-    },
-    {
       "title": "xAI Launches Grok 4.3 With 128K Context And Real Time Data Integration",
       "urls": [
         "https://llm-stats.com/llm-updates"
@@ -4856,7 +4848,14 @@
         "https://www.weather-us.com/en/virginia-usa/ashburn-climate"
       ],
       "date": "2026-05-19T01:31:09.371743+00:00"
+    },
+    {
+      "title": "Open Bank alerts customers to report unexpected login prompts or unusual account activity immediatel",
+      "urls": [
+        "https://myopenbank.com"
+      ],
+      "date": "2026-05-19T02:03:39.853669+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T01:31:09.371808+00:00"
+  "lastUpdated": "2026-05-19T02:03:39.853727+00:00"
 }
