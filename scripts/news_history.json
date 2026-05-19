@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Investors Pivot To AMD Intel And Micron",
-      "urls": [
-        "https://www.stockjabber.com/news/why-are-nvidia-and-advanced-micro-devices-leading-the-ai-chip-rally",
-        "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
-        "https://finance.yahoo.com/markets/stocks/articles/nvidia-advanced-micro-devices-sounded-132600579.html",
-        "https://www.nvidia.com/en-us"
-      ],
-      "date": "2026-05-09T04:34:00.428867+00:00"
-    },
-    {
       "title": "Carnegie Mellon Students Present AI Athlete Tracking To NFL Executives",
       "urls": [
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOooJJ-j5-SQNsXBXnybZjydr-ZHDF17HymIHr6S_kVhYtIIyIT2_",
@@ -4845,7 +4835,14 @@
         "https://news.un.org/en/story/2025/09/1165873"
       ],
       "date": "2026-05-19T04:33:09.095954+00:00"
+    },
+    {
+      "title": "Linux Mint Ranks Second in February 2026 Distro Popularity",
+      "urls": [
+        "https://linux.how2shout.com/top-10-most-popular-linux-distributions-february-2026"
+      ],
+      "date": "2026-05-19T05:02:09.843230+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T04:33:09.096055+00:00"
+  "lastUpdated": "2026-05-19T05:02:09.843299+00:00"
 }
