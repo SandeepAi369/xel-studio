@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Carnegie Mellon Students Present AI Athlete Tracking To NFL Executives",
-      "urls": [
-        "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOooJJ-j5-SQNsXBXnybZjydr-ZHDF17HymIHr6S_kVhYtIIyIT2_",
-        "https://www.youtube.com/watch?v=lDJZ97JTXvw",
-        "https://www.youtube.com/watch?v=8lNbLUutYgs",
-        "https://natlawreview.com/press-releases/ai-sports-market-2026-transforming-athlete-performance-and-game-analytics"
-      ],
-      "date": "2026-05-09T05:04:11.860737+00:00"
-    },
-    {
       "title": "Pia Torain Loses Coding Skills After Heavy AI Use",
       "urls": [
         "https://thenewstack.io/ai-coding-tools-reckoning",
@@ -4842,7 +4832,19 @@
         "https://linux.how2shout.com/top-10-most-popular-linux-distributions-february-2026"
       ],
       "date": "2026-05-19T05:02:09.843230+00:00"
+    },
+    {
+      "title": "Apple Launches iPhone 17e With A18 Chip And Super Retina XDR Display",
+      "urls": [
+        "https://www.att.com/buy/phones/browse/apple?msockid=021555b1222d6392388942ef23f6621b",
+        "https://www.bestbuy.com/site/brands/apple/pcmcat128500050005.c?id=pcmcat128500050005",
+        "https://finance.yahoo.com/quote/AAPL",
+        "https://www.khou.com/article/news/local/apple-houston-manufacturing-production-jobs/285-64df674a-65cf-4232-b699-47362c77ba0e",
+        "https://www.amazon.com/stores/Apple/page/77D9E1F7-0337-4282-9DB6-B6B8FB2DC98D",
+        "https://www.britannica.com/money/Apple-Inc"
+      ],
+      "date": "2026-05-19T05:31:02.317484+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T05:02:09.843299+00:00"
+  "lastUpdated": "2026-05-19T05:31:02.317546+00:00"
 }
