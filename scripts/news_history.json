@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ITIF has criticized proposed tech regulations like California's failed BASED Act, which aimed to imp",
-      "urls": [
-        "https://itif.org/news-room",
-        "https://www.whitehouse.gov/videos/president-trump-delivers-remarks-may-8-2026"
-      ],
-      "date": "2026-05-09T12:04:09.274986+00:00"
-    },
-    {
       "title": "Who Uses Data Analytics To Enhance Player Performance And Fan Engagement",
       "urls": [
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOooHO55EHg6vQeyI0Wv2vZ-Y1Yu3qAHm8wAgQV-UILbwygEG9Vow"
@@ -4870,7 +4862,16 @@
         "https://www.npr.org/sections/politics"
       ],
       "date": "2026-05-19T12:01:14.841822+00:00"
+    },
+    {
+      "title": "NBA All-Star Weekend Attracts Record 2.1 Million Fans in Indianapolis",
+      "urls": [
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FuVnJHZ0pWUVNnQVAB?hl=en-US&ceid=US%3Aen",
+        "https://www.cnn.com/sport",
+        "https://www.sportingnews.com/us"
+      ],
+      "date": "2026-05-19T12:33:07.727518+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T12:01:14.841883+00:00"
+  "lastUpdated": "2026-05-19T12:33:07.727585+00:00"
 }
