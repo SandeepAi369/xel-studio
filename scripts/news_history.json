@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telemedicine Platforms Expand Access To Remote Patient Care",
-      "urls": [
-        "https://www.digitalhealthnews.com/category/telehealth",
-        "https://www.mobihealthnews.com"
-      ],
-      "date": "2026-05-09T15:05:17.444718+00:00"
-    },
-    {
       "title": "Anthropic Launches Project Glasswing to Detect Software Vulnerabilities Using Claude Mythos Preview",
       "urls": [
         "https://www.anu.edu.au/news/all-news/anu-partners-with-ai-safety-company-anthropic-to-strengthen-its-ai-research-and-teaching",
@@ -4864,7 +4856,14 @@
         "https://chat.mistral.ai/chat"
       ],
       "date": "2026-05-19T15:01:15.946980+00:00"
+    },
+    {
+      "title": "Oxford English Dictionary Updates Digital With 17 New Entries",
+      "urls": [
+        "https://www.oed.com/discover/digital"
+      ],
+      "date": "2026-05-19T15:31:01.591845+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T15:01:15.947041+00:00"
+  "lastUpdated": "2026-05-19T15:31:01.591914+00:00"
 }
