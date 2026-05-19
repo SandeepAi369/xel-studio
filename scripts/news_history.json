@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "WHO Reports 430 Million Affected by Hearing Impairment",
-      "urls": [
-        "https://www.mdpi.com/2571-5577/9/4/70"
-      ],
-      "date": "2026-05-09T17:34:01.433675+00:00"
-    },
-    {
       "title": "Lila Koch Leads Climate Tech Investment Surge",
       "urls": [
         "https://techcrunch.com/category/climate",
@@ -4867,7 +4860,16 @@
         "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-talks-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131145558.cms"
       ],
       "date": "2026-05-19T17:31:03.790217+00:00"
+    },
+    {
+      "title": "Humanoid Deploys Robots With Schaeffler In Global Industrial Deal",
+      "urls": [
+        "https://www.humanoidsdaily.com",
+        "https://roboticsandautomationnews.com",
+        "https://cacm.acm.org/news/the-humanoid-robots-are-coming-this-time-for-real"
+      ],
+      "date": "2026-05-19T18:01:22.727244+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T17:31:03.790278+00:00"
+  "lastUpdated": "2026-05-19T18:01:22.727312+00:00"
 }
