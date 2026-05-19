@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indonesian volcano erupted suddenly on a remote island, killing three hikers who were caught near th",
-      "urls": [
-        "https://www.nbcnews.com/nightly-news/video/deadly-volcano-eruption-in-indonesia-263025733950",
-        "https://www.nytimes.com/video/world/asia/100000010891393/indonesia-volcano-eruption-deaths.html",
-        "https://www.instagram.com/reel/DYFFPPDEqwc",
-        "https://www.youtube.com/watch?v=3O1xBSg1dhc"
-      ],
-      "date": "2026-05-09T10:34:15.468724+00:00"
-    },
-    {
       "title": "Canan Dagdeviren Unveils Ultrasound-Emitting Bra For Daily Breast Monitoring",
       "urls": [
         "https://www.statnews.com/topic/health-tech"
@@ -4861,7 +4851,14 @@
         "https://www.msn.com/en-us/news/technology/apple-is-making-hit-products-and-high-profits-from-imperfect-chips/ar-AA23rcIt"
       ],
       "date": "2026-05-19T10:32:13.159461+00:00"
+    },
+    {
+      "title": "Telehealth Cuts Consultation Delays by 50 Percent Nationwide",
+      "urls": [
+        "https://www.health.harvard.edu/healthy-aging-and-longevity/telehealth-the-advantages-and-disadvantages"
+      ],
+      "date": "2026-05-19T11:01:19.065671+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T10:32:13.159523+00:00"
+  "lastUpdated": "2026-05-19T11:01:19.065744+00:00"
 }
