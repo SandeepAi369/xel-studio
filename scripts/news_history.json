@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Z Ai Releases Glm 5 1 Open Source Model Surpassing Top Proprietary Systems",
-      "urls": [
-        "https://github.com/eugeneyan/open-llms",
-        "https://www.youtube.com/shorts/0T3xgE_diIw",
-        "https://modal.com/blog/best-open-source-llms"
-      ],
-      "date": "2026-05-09T18:36:08.020512+00:00"
-    },
-    {
       "title": "National Deaf-Blind Equipment Distribution Program provides free technology to low-income individual",
       "urls": [
         "https://www.fcc.gov/consumers/guides/national-deaf-blind-equipment-distribution-program"
@@ -4869,7 +4860,19 @@
         "https://www.ndtv.com/world-news"
       ],
       "date": "2026-05-19T18:32:20.658418+00:00"
+    },
+    {
+      "title": "Generative AI Models Create Content Using Deep Learning Algorithms",
+      "urls": [
+        "https://dictionary.cambridge.org/dictionary/english/generative",
+        "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial",
+        "https://www.coursera.org/articles/what-is-generative-ai?msockid=3858f601be976a062f83e15fbf0f6b4b",
+        "https://www.microsoft.com/en-us/ai/ai-101/generative-ai-vs-other-types-of-ai?msockid=3858f601be976a062f83e15fbf0f6b4b",
+        "https://www.thefreedictionary.com/generative",
+        "https://www.oracle.com/artificial-intelligence/generative-ai/what-is-generative-ai"
+      ],
+      "date": "2026-05-19T19:02:28.273423+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T18:32:20.658486+00:00"
+  "lastUpdated": "2026-05-19T19:02:28.273489+00:00"
 }
