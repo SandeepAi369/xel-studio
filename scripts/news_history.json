@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usain Bolt holds the current 100-meter world record with a time of 9.",
-      "urls": [
-        "https://www.washingtonpost.com/sports/2026/04/26/athletics-milestones-marathon-record-two-hours/2f2bf2c0-419a-11f1-b19d-32431046b5b4_story.html",
-        "https://www.youtube.com/watch?v=mM2LvvWi9iQ"
-      ],
-      "date": "2026-05-10T06:33:54.694712+00:00"
-    },
-    {
       "title": "Eu Regulators Target U.S. Tech Giants With New Digital Compliance Rules",
       "urls": [
         "https://itif.org/issues/non-tariff-attacks"
@@ -4908,7 +4900,16 @@
         "https://www.forbes.com/sites/bernardmarr/2025/10/27/the-8-biggest-healthcare-technology-trends-to-watch-in-2026"
       ],
       "date": "2026-05-20T06:31:03.442872+00:00"
+    },
+    {
+      "title": "Esports Industry Set To Surpass 230 Billion By 2025",
+      "urls": [
+        "https://www.esports.net/gaming",
+        "https://dotesports.com/streaming",
+        "https://www.newsnow.co.uk/h/Sport/Esports"
+      ],
+      "date": "2026-05-20T07:01:26.747839+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T06:31:03.442953+00:00"
+  "lastUpdated": "2026-05-20T07:01:26.747901+00:00"
 }
