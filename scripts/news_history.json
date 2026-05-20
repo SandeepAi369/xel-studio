@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta reported a slight decline in daily active users across its platforms, including Facebook, Insta",
-      "urls": [
-        "https://www.youtube.com/watch?v=N2_FF8KzlEY",
-        "https://emplifi.io/resources/social-media-updates",
-        "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-40"
-      ],
-      "date": "2026-05-10T13:05:18.509145+00:00"
-    },
-    {
       "title": "One In Three Americans Use AI For Health Advice",
       "urls": [
         "https://www.youtube.com/shorts/lZJ96HRrAJg",
@@ -4928,7 +4919,14 @@
         "https://www.albanymed.org/location/greenwich-medical-center"
       ],
       "date": "2026-05-20T13:03:28.851742+00:00"
+    },
+    {
+      "title": "Fox News operates one of the most extensive digital news platforms in the United States, publishing ",
+      "urls": [
+        "https://www.foxnews.com?msockid=12e176fd63c8651135e661a262ca64be"
+      ],
+      "date": "2026-05-20T13:32:23.856071+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T13:03:28.851798+00:00"
+  "lastUpdated": "2026-05-20T13:32:23.856142+00:00"
 }
