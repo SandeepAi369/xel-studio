@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PopEVE AI System Evaluates Genetic Variant Severity Across Diverse Populations",
-      "urls": [
-        "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
-        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
-        "https://www.youtube.com/watch?v=pjU6TzxBE58"
-      ],
-      "date": "2026-05-10T07:34:02.874391+00:00"
-    },
-    {
       "title": "Alphabet Shares Surge 10% on Google Cloud 28% Revenue Growth",
       "urls": [
         "https://seekingalpha.com/news/4584471-ai-boom-lifts-big-tech-earnings-but-wall-street-is-picking-winners-and-losers",
@@ -4911,7 +4902,15 @@
         "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2025/08/new-method-advances-reliability-of-ai-with-applications-in-medical-diagnostics"
       ],
       "date": "2026-05-20T07:31:19.786910+00:00"
+    },
+    {
+      "title": "Quantum physics explains how particles like electrons and photons behave at atomic and subatomic lev",
+      "urls": [
+        "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+        "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics"
+      ],
+      "date": "2026-05-20T08:01:18.718214+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T07:31:19.786979+00:00"
+  "lastUpdated": "2026-05-20T08:01:18.718279+00:00"
 }
