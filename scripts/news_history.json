@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf and hard-of-hearing scientists at the Rochester Institute of Technology (RIT) are advancing in ",
-      "urls": [
-        "https://www.accessibilitychecker.org/blog/deaf-accessibility",
-        "https://asm.org/articles/2024/september/building-accessibility-for-deaf-and-hard-of-hearin",
-        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1121597/full",
-        "https://www.hearingloss.org/find-help/hearing-assistive-technology"
-      ],
-      "date": "2026-05-09T23:34:07.677036+00:00"
-    },
-    {
       "title": "Mistral Large 3 sets a new benchmark for open-source large language models, featuring a Mixture-of-E",
       "urls": [
         "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained"
@@ -4868,7 +4858,14 @@
         "https://dictionary.cambridge.org/us/dictionary/english/digital"
       ],
       "date": "2026-05-19T23:31:05.098496+00:00"
+    },
+    {
+      "title": "One In 36 U.S. Children Diagnosed With Autism Spectrum Disorder",
+      "urls": [
+        "https://www.health.harvard.edu/brain-health/what-is-autism-spectrum-disorder"
+      ],
+      "date": "2026-05-20T00:02:17.019773+00:00"
     }
   ],
-  "lastUpdated": "2026-05-19T23:31:05.098561+00:00"
+  "lastUpdated": "2026-05-20T00:02:17.019883+00:00"
 }
