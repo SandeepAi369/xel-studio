@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pharmaceutical Companies Deploy AI Scientists to Accelerate Drug Discovery",
-      "urls": [
-        "https://www.wsj.com/health/pharma/the-quest-to-use-ai-to-help-find-new-drugs-a754fdc3?eafs_enabled=false",
-        "https://www.pharmavoice.com/news/ai-pharma-scientist-drug-research-owkin/818113"
-      ],
-      "date": "2026-05-10T11:04:18.410526+00:00"
-    },
-    {
       "title": "Coventry City Promoted To Premier League After 2-1 Playoff Final Victory",
       "urls": [
         "https://sports.yahoo.com/articles/hurt-worth-reaction-170737339.html",
@@ -4928,7 +4920,14 @@
         "https://www.cnn.com/2024/08/09/sport/pakistan-olympics-javelin-arshad-nadeem-intl-hnk-spt"
       ],
       "date": "2026-05-20T11:03:28.958614+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly From 150 Journalists",
+      "urls": [
+        "https://www.foxnews.com?msockid=05d67ce9b9a068c532116bb6b8356914"
+      ],
+      "date": "2026-05-20T11:31:17.895386+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T11:03:28.958682+00:00"
+  "lastUpdated": "2026-05-20T11:31:17.895456+00:00"
 }
