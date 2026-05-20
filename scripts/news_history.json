@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Xavier Dillard Completes 12,412 Pull-Ups To Break World Record",
-      "urls": [
-        "https://www.reuters.com/sports/athletics",
-        "https://www.youtube.com/watch?v=U0a9P05T2qc",
-        "https://www.instagram.com/reel/DX_RCKIRICU",
-        "https://www.instagram.com/p/DYHMam1gBA9",
-        "https://www.instagram.com/reel/DYAqFO0BipH"
-      ],
-      "date": "2026-05-10T08:36:02.411669+00:00"
-    },
-    {
       "title": "Middlesbrough Reports Southampton To EFL Over Training Session Spying Allegations",
       "urls": [
         "https://www.facebook.com/60minutes/posts/its-unlike-anything-else-youve-ever-seen-its-probably-the-roughest-sport-in-the-/680578497270870",
@@ -4911,7 +4900,23 @@
         "https://github.com/luanteylo/dm_web2026/blob/main/exercise-03/dataset/titles.csv"
       ],
       "date": "2026-05-20T08:31:07.148879+00:00"
+    },
+    {
+      "title": "Adobe Firefly Launches Custom Models And Quick Cut For Brand Consistent Video Editing",
+      "urls": [
+        "https://www.eweek.com/news/adobe-firefly-custom-ai-models-image-video-generation",
+        "https://www.gadgets360.com/ai/news/meta-three-new-ai-models-under-development-image-video-coding-generation-world-model-report-9845658",
+        "https://openai.com/index/introducing-chatgpt-images-2-0",
+        "https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models",
+        "https://www.eecs.mit.edu/hybrid-ai-model-crafts-smooth-high-quality-videos-in-seconds",
+        "https://www.atlascloud.ai/blog/guides/best-ai-video-generation-models-2026",
+        "https://pinggy.io/blog/best_video_generation_ai_models",
+        "https://www.hyperstack.cloud/blog/case-study/best-open-source-video-generation-models",
+        "https://www.nvidia.com/en-us/geforce/news/gfecnt/20261/rtx-ai-garage-ces-2026-open-models-video-generation",
+        "https://www.atlascloud.ai/blog/guides/best-ai-image-generation-models-2026"
+      ],
+      "date": "2026-05-20T09:02:26.253695+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T08:31:07.148942+00:00"
+  "lastUpdated": "2026-05-20T09:02:26.253760+00:00"
 }
