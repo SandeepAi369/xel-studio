@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has become a leading force in the open-weight artificial intelligence movement, releasing",
-      "urls": [
-        "https://www.youtube.com/watch?v=B-1id8iMZ8Y"
-      ],
-      "date": "2026-05-10T17:05:16.996735+00:00"
-    },
-    {
       "title": "JPMorgan Forecasts Nuclear Power Expansion by 2030",
       "urls": [
         "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news"
@@ -4948,7 +4941,18 @@
         "https://www.sportingnews.com/us/nfl"
       ],
       "date": "2026-05-20T17:02:35.848602+00:00"
+    },
+    {
+      "title": "Microsoft Launches Bing Visual Search With Real Time Problem Solving",
+      "urls": [
+        "https://www.microsoft.com/en-us/bing/visual-search",
+        "https://images.google.com",
+        "https://www.reverseimagesearch.org",
+        "https://techlasi.com/savvy/how-to-use-bing-visual-search",
+        "https://www.semrush.com/blog/visual-search"
+      ],
+      "date": "2026-05-20T17:31:41.374616+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T17:02:35.848690+00:00"
+  "lastUpdated": "2026-05-20T17:31:41.374679+00:00"
 }
