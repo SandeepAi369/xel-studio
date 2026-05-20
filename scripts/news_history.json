@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI glasses are transforming communication access for the Deaf community by converting spoken languag",
-      "urls": [
-        "https://news.northeastern.edu/2026/03/19/sign-language-technology-skepticism",
-        "https://www.facebook.com/groups/deafandhoh/posts/10161168434482309"
-      ],
-      "date": "2026-05-10T22:04:19.506606+00:00"
-    },
-    {
       "title": "Global public spending on energy research and development dropped in 2024 compared to the previous y",
       "urls": [
         "https://itif.org/centers/clean-energy-innovation",
@@ -4962,7 +4954,14 @@
         "https://www.msn.com/en-us/money/companies/meta-begins-laying-off-thousands-of-employees-as-it-transforms-around-ai/ar-AA23DUPc"
       ],
       "date": "2026-05-20T22:01:15.526138+00:00"
+    },
+    {
+      "title": "Chattanooga Records Five Earthquakes Near Walden Ridge Fault",
+      "urls": [
+        "https://earthquakesworldwide.com"
+      ],
+      "date": "2026-05-20T22:32:04.175891+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T22:01:15.526207+00:00"
+  "lastUpdated": "2026-05-20T22:32:04.175958+00:00"
 }
