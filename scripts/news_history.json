@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Noaa Projects 13 To 18 Named Storms For 2026 Hurricane Season",
-      "urls": [
-        "https://www.usharbors.com/hurricane-and-extreme-weather-news-resources",
-        "https://www.foxweather.com/weather-news/tracking-hurricane-melissa-jamaica-caribbean-atlantic",
-        "https://www.youtube.com/watch?v=8xbYd4FGVS8",
-        "https://www.weather.gov/mob/events",
-        "https://floodlist.com",
-        "https://www.instagram.com/reel/DQaIdkOkhi5",
-        "https://www.fema.gov/disaster/declarations",
-        "https://www.youtube.com/watch?v=t1fPGvUX_TQ",
-        "https://www.youtube.com/watch?v=1FzRYbud_Xc"
-      ],
-      "date": "2026-05-10T18:04:17.814105+00:00"
-    },
-    {
-      "title": "Nintendo Switch 2 Sells Over 5 Million Units In First Week",
-      "urls": [
-        "https://www.cnbc.com/gaming"
-      ],
-      "date": "2026-05-10T18:33:59.014010+00:00"
-    },
-    {
       "title": "AstraZeneca has set a goal to use AI to cut the time required to select drug targets and design mole",
       "urls": [
         "https://www.fiercebiotech.com/biotech/drug-development-ma-big-pharmas-showcase-measurable-impact-ai"
@@ -4954,7 +4932,17 @@
         "https://www.dictionary.net/dictionary/social"
       ],
       "date": "2026-05-20T18:01:14.130413+00:00"
+    },
+    {
+      "title": "OpenAI Deploys GPT 5.5 Instant As New Default ChatGPT Model",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-5-5",
+        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
+        "https://www.datastudios.org/post/chatgpt-6-what-we-know-so-far-about-openai-s-new-model",
+        "https://pasqualepillitteri.it/en/news/621/gpt-5-5-spud-openai-next-model"
+      ],
+      "date": "2026-05-20T18:34:26.448706+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T18:01:14.130478+00:00"
+  "lastUpdated": "2026-05-20T18:34:26.448776+00:00"
 }
