@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alphabet Shares Surge 10% on Google Cloud 28% Revenue Growth",
-      "urls": [
-        "https://seekingalpha.com/news/4584471-ai-boom-lifts-big-tech-earnings-but-wall-street-is-picking-winners-and-losers",
-        "https://www.marketwatch.com/investing/stocks/tech-stocks",
-        "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-show-split-130007908.html"
-      ],
-      "date": "2026-05-10T08:04:29.137049+00:00"
-    },
-    {
       "title": "Xavier Dillard Completes 12,412 Pull-Ups To Break World Record",
       "urls": [
         "https://www.reuters.com/sports/athletics",
@@ -4910,7 +4901,17 @@
         "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-physics"
       ],
       "date": "2026-05-20T08:01:18.718214+00:00"
+    },
+    {
+      "title": "Sean Strickland Defeats Khamzat Chimaev At UFC 328",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Tennis",
+        "https://www.givemesport.com/khamzat-chimaev-sean-strickland-ufc-328-result-highlights",
+        "https://www.cbssports.com/watch/ufc",
+        "https://github.com/luanteylo/dm_web2026/blob/main/exercise-03/dataset/titles.csv"
+      ],
+      "date": "2026-05-20T08:31:07.148879+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T08:01:18.718279+00:00"
+  "lastUpdated": "2026-05-20T08:31:07.148942+00:00"
 }
