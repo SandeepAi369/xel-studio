@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Communities Accelerate AI Innovation With 65% Surge In Contributions",
-      "urls": [
-        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
-        "https://www.techuk.org/resource/how-ai-is-increasing-its-capabilities-with-open-source-foundation-models.html"
-      ],
-      "date": "2026-05-10T05:04:09.124009+00:00"
-    },
-    {
-      "title": "Neurodiverse Workers Report 25 Percent Higher Job Satisfaction With AI Assistants",
-      "urls": [
-        "https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html"
-      ],
-      "date": "2026-05-10T05:33:02.887784+00:00"
-    },
-    {
       "title": "Solar Power Surges With 50 Countries Now at 10% Adoption",
       "urls": [
         "https://apnews.com/hub/renewable-energy",
@@ -4901,7 +4886,15 @@
         "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system"
       ],
       "date": "2026-05-20T05:01:13.523001+00:00"
+    },
+    {
+      "title": "Mistral AI Ranks No 7 On CNBC Disruptor 50 List",
+      "urls": [
+        "https://www.cnbc.com/2026/05/19/mistral-cnbc-disruptor-50-ranking.html",
+        "https://www.ibm.com/think/topics/mistral-ai"
+      ],
+      "date": "2026-05-20T05:33:17.059161+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T05:01:13.523072+00:00"
+  "lastUpdated": "2026-05-20T05:33:17.059232+00:00"
 }
