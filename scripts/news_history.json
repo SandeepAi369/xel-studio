@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI has launched GPT-5.",
-      "urls": [
-        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
-      ],
-      "date": "2026-05-10T04:05:08.909450+00:00"
-    },
-    {
       "title": "Who Uses AI Analytics to Cut Soccer Injuries by 30 Percent",
       "urls": [
         "https://www.crispidea.com/sports-technology-trends-performance?srsltid=AfmBOoouhgqvPfdcWkHlymrh_IMe2MHrbOsVBCSuWRLXyI8DpQkO0BVB"
@@ -4896,7 +4889,18 @@
         "https://siliconangle.com/2024/07/18/openai-mistral-ai-debut-new-cost-efficient-language-models"
       ],
       "date": "2026-05-20T04:02:20.590646+00:00"
+    },
+    {
+      "title": "Sorenson Communications Joins Forbes Accessibility 200 For AI-Powered Deaf Services",
+      "urls": [
+        "https://www.innocaption.com/recentnews/the-intersection-of-ai-and-hearing-accessibility",
+        "https://dl.acm.org/doi/full/10.1145/3706598.3714241",
+        "https://weboconnect.com/blog/from-barriers-to-bridges-how-assistive-technology-is-changing-communication-for-the-deaf-hard-of-hearing",
+        "https://rid.org",
+        "https://www.hjnews.com/news/state/sorenson-communications-named-to-forbes-accessibility-200/article_03e84dce-80ce-50f1-8bfb-40d927878adb.html"
+      ],
+      "date": "2026-05-20T04:32:07.080332+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T04:02:20.590730+00:00"
+  "lastUpdated": "2026-05-20T04:32:07.080406+00:00"
 }
