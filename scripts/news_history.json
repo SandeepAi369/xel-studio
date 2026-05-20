@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "John Kasich Warns Of Democratic Gains In Ohio Battleground Races",
-      "urls": [
-        "https://www.youtube.com/watch?v=M6eP1ht7ni4",
-        "https://www.washingtonpost.com/politics"
-      ],
-      "date": "2026-05-10T03:05:14.580419+00:00"
-    },
-    {
       "title": "Coca-Cola and Walmart CEOs have stepped down, citing the accelerating impact of AI transformation wi",
       "urls": [
         "https://www.techbuzz.ai/articles/top-ceos-exit-as-ai-forces-leadership-reckoning",
@@ -4891,7 +4883,18 @@
         "https://www.foxnews.com?msockid=09f7d4be4f97693c0c9bc3e14e5368f6"
       ],
       "date": "2026-05-20T03:04:19.675873+00:00"
+    },
+    {
+      "title": "Meta Reassigns 7000 Employees To Accelerate AI Development",
+      "urls": [
+        "https://www.facebook.com/Meta/home",
+        "https://www.nytimes.com/2026/05/18/technology/meta-reassigns-7000-employees-ai.html",
+        "https://www.newsweek.com/meta-layoffs-how-job-cuts-are-being-kept-mysterious-11964180",
+        "https://nypost.com/2026/05/18/business/meta-employees-told-to-work-remotely-wednesday-as-company-prepares-to-slash-10-of-workforce-report",
+        "https://www.meta.com/account"
+      ],
+      "date": "2026-05-20T03:32:01.399677+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T03:04:19.675959+00:00"
+  "lastUpdated": "2026-05-20T03:32:01.399737+00:00"
 }
