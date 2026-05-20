@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Afghan Refugees Face Mass Deportations From Pakistan Amid Border Crisis",
-      "urls": [
-        "https://www.youtube.com/watch?v=n-MkUDPj184",
-        "https://www.nytimes.com/topic/subject/refugees-and-displaced-people",
-        "https://news.un.org/en/focus-topic/refugees-and-migrants",
-        "https://www.unrefugees.org/emergencies/ukraine",
-        "https://wfpusa.org/news/largest-refugee-crises-around-world-effects-hunger",
-        "https://www.unhcr.org/us/global-trends"
-      ],
-      "date": "2026-05-10T20:05:12.384534+00:00"
-    },
-    {
       "title": "Web3 Newswire Partners With Reuters For Global Crypto Distribution",
       "urls": [
         "https://web3newswire.com?srsltid=AfmBOoq-uh7T6XNX0gfUG_1U5xj1_F1CAHxaXdlAlJqzSDoameNfOkUX"
@@ -4959,7 +4947,15 @@
         "https://www.amnesty.org/en/what-we-do/refugees-asylum-seekers-and-migrants"
       ],
       "date": "2026-05-20T20:01:26.678354+00:00"
+    },
+    {
+      "title": "Federal Reserve Holds Rates Steady at 5.25%-5.50%",
+      "urls": [
+        "https://www.cnbc.com/economy?msockid=2e1b0979e5e4657e17351e26e48564c9",
+        "https://www.wsj.com/economy/global?msockid=2e1b0979e5e4657e17351e26e48564c9"
+      ],
+      "date": "2026-05-20T20:31:00.143213+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T20:01:26.678418+00:00"
+  "lastUpdated": "2026-05-20T20:31:00.143279+00:00"
 }
