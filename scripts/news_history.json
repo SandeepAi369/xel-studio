@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Therapeutics Expand Access To Mental Health Care",
-      "urls": [
-        "https://oasis-mw.com/browsing-the-digital-therapeutics-dtx-landscape-for-mental-health"
-      ],
-      "date": "2026-05-10T15:06:18.872500+00:00"
-    },
-    {
       "title": "League Of Legends Championship Draws 100 Million Viewers Worldwide",
       "urls": [
         "https://www.bdo.com/insights/industries/gaming-leisure/the-evolution-of-the-esports-market",
@@ -4933,7 +4926,18 @@
         "https://jobs.lever.co/healthcare/bfb08955-275b-4485-82ee-a0a8455be44f"
       ],
       "date": "2026-05-20T15:02:34.955726+00:00"
+    },
+    {
+      "title": "IBM Unveils New Quantum Processors For 2026 Advantage Goal",
+      "urls": [
+        "https://www.scientificamerican.com/article/quantum-computing-is-reaching-its-make-or-break-moment",
+        "https://news.harvard.edu/gazette/story/2025/11/a-potential-quantum-leap",
+        "https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance",
+        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025",
+        "https://blog.google/innovation-and-ai/technology/research/quantum-echoes-willow-verifiable-quantum-advantage"
+      ],
+      "date": "2026-05-20T15:32:11.667384+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T15:02:34.955812+00:00"
+  "lastUpdated": "2026-05-20T15:32:11.667453+00:00"
 }
