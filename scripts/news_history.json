@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boston Dynamics is advancing humanoid robot deployment in manufacturing, emphasizing the challenge o",
-      "urls": [
-        "https://www.eetimes.com/humanoids-hit-the-factory-floor",
-        "https://www.youtube.com/watch?v=ZEOp3q-QpxI"
-      ],
-      "date": "2026-05-10T01:04:17.084906+00:00"
-    },
-    {
       "title": "European Union Announces 2026 Sustainable Energy Award Finalists",
       "urls": [
         "https://www.innovationnewsnetwork.com/renewable-energy"
@@ -4878,7 +4870,14 @@
         "https://www.methodisthealthsystem.org/location/methodist-family-health-center-south-arlington"
       ],
       "date": "2026-05-20T01:01:13.426941+00:00"
+    },
+    {
+      "title": "Chattanooga Records Five Minor Earthquakes Near Walden Ridge Fault",
+      "urls": [
+        "https://earthquaketrack.com/us-tn-chattanooga/recent"
+      ],
+      "date": "2026-05-20T01:32:09.759123+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T01:01:13.427031+00:00"
+  "lastUpdated": "2026-05-20T01:32:09.759194+00:00"
 }
