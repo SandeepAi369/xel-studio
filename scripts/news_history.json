@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Llama 3.",
-      "urls": [
-        "https://fazm.ai/blog/ai-model-releases-llm-papers-open-source-april-11-13-2026",
-        "https://www.baseten.co/blog/the-best-open-source-large-language-model"
-      ],
-      "date": "2026-05-10T23:04:10.415319+00:00"
-    },
-    {
       "title": "Dr Aadel Chaudhuri Unveils AI Tools Detecting Cancer Four Years Earlier",
       "urls": [
         "https://edition.cnn.com/2026/05/06/science/video/ai-cancer-medical-breakthrough-science-lead-jake-tapper"
@@ -4956,7 +4948,17 @@
         "https://techcrunch.com/2025/09/09/what-is-mistral-ai-everything-to-know-about-the-openai-competitor"
       ],
       "date": "2026-05-20T23:02:22.807750+00:00"
+    },
+    {
+      "title": "New Jersey Expands Disability Benefits To $703 Weekly",
+      "urls": [
+        "https://www.nj.gov/labor/myleavebenefits/worker/tdi",
+        "https://govfacts.org/education-family-social-services/social-services-public-assistance/disability-services/a-guide-to-programs-and-benefits-for-adults-with-disabilities-in-the-u-s",
+        "https://www.dol.gov/agencies/odep/publications/fact-sheets/employment-laws-medical-and-disability-related-leave",
+        "https://en.m.wikipedia.org/wiki/Disability"
+      ],
+      "date": "2026-05-20T23:33:04.584253+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T23:02:22.807819+00:00"
+  "lastUpdated": "2026-05-20T23:33:04.584318+00:00"
 }
