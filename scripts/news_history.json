@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "League Of Legends Championship Draws 100 Million Viewers Worldwide",
-      "urls": [
-        "https://www.bdo.com/insights/industries/gaming-leisure/the-evolution-of-the-esports-market",
-        "https://streamhatchet.com",
-        "https://gameopedia.com/blogs/the-rise-of-esports-how-data-drives-it-and-what-the-future-looks-like",
-        "https://escharts.com"
-      ],
-      "date": "2026-05-10T15:33:59.597061+00:00"
-    },
-    {
       "title": "U.S. And EU Enact Chips Acts To Reshape Global Semiconductor Supply Chains",
       "urls": [
         "https://mobile.twitter.com/EYnews/status/1426906525436551176",
@@ -4937,7 +4927,23 @@
         "https://blog.google/innovation-and-ai/technology/research/quantum-echoes-willow-verifiable-quantum-advantage"
       ],
       "date": "2026-05-20T15:32:11.667384+00:00"
+    },
+    {
+      "title": "Global economy faces slowing growth amid renewed inflationary pressures, according to the latest Wor",
+      "urls": [
+        "https://www.reuters.com/markets/econ-world",
+        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNR2RtY0hNekVnSmxiaWdBUAE",
+        "https://www.cnbc.com/economy?msockid=3bef8698f7c966bb1c6191c7f69f6717",
+        "https://www.wsj.com/economy/global?msockid=3bef8698f7c966bb1c6191c7f69f6717",
+        "https://www.ft.com/global-economy",
+        "https://apnews.com/hub/economy",
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
+        "https://economictimes.indiatimes.com/topic/global-recession",
+        "https://www.newsnow.com/us/Business/World+Economy",
+        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026"
+      ],
+      "date": "2026-05-20T16:01:21.243148+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T15:32:11.667453+00:00"
+  "lastUpdated": "2026-05-20T16:01:21.243210+00:00"
 }
