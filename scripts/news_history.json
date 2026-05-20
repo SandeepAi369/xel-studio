@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Union Announces 2026 Sustainable Energy Award Finalists",
-      "urls": [
-        "https://www.innovationnewsnetwork.com/renewable-energy"
-      ],
-      "date": "2026-05-10T01:32:59.264357+00:00"
-    },
-    {
-      "title": "Sports Technology Labs Launch AI Systems to Enhance Athlete Performance",
-      "urls": [
-        "https://sportstechnologyblog.com/category/sports-technology",
-        "https://insightbulletin.co.uk/sports-technology-labs"
-      ],
-      "date": "2026-05-10T02:04:12.263577+00:00"
-    },
-    {
       "title": "AI models show potential to reduce missed diagnoses in healthcare, with a new study indicating they ",
       "urls": [
         "https://www.sciencenews.org/article/ai-help-doctors-help-diagnoses"
@@ -4877,7 +4862,19 @@
         "https://earthquaketrack.com/us-tn-chattanooga/recent"
       ],
       "date": "2026-05-20T01:32:09.759123+00:00"
+    },
+    {
+      "title": "Refugees Flee Persecution And Conflict Seeking International Safety",
+      "urls": [
+        "https://www.unrefugees.org/refugee-facts/what-is-a-refugee",
+        "https://www.worldvision.org/refugees-news-stories/what-is-a-refugee-facts",
+        "https://worldrelief.org/what-is-a-refugee",
+        "https://www.merriam-webster.com/dictionary/refugee",
+        "https://education.nationalgeographic.org/resource/refugee",
+        "https://ohss.dhs.gov/topics/immigration/refugees"
+      ],
+      "date": "2026-05-20T02:05:35.013155+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T01:32:09.759194+00:00"
+  "lastUpdated": "2026-05-20T02:05:35.013221+00:00"
 }
