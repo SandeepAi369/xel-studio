@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eu Regulators Target U.S. Tech Giants With New Digital Compliance Rules",
-      "urls": [
-        "https://itif.org/issues/non-tariff-attacks"
-      ],
-      "date": "2026-05-10T07:05:13.543608+00:00"
-    },
-    {
       "title": "PopEVE AI System Evaluates Genetic Variant Severity Across Diverse Populations",
       "urls": [
         "https://www.alation.com/blog/ai-healthcare-breakthroughs-2025-innovations",
@@ -4909,7 +4902,16 @@
         "https://www.newsnow.co.uk/h/Sport/Esports"
       ],
       "date": "2026-05-20T07:01:26.747839+00:00"
+    },
+    {
+      "title": "Designed Drug Shrinks Tumors In Rare Lung Cancer Trial",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/ai-is-transforming-healthcare-while-raising-urgent-oversight-challenges/gm-GM5940A467",
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2025/08/new-method-advances-reliability-of-ai-with-applications-in-medical-diagnostics"
+      ],
+      "date": "2026-05-20T07:31:19.786910+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T07:01:26.747901+00:00"
+  "lastUpdated": "2026-05-20T07:31:19.786979+00:00"
 }
