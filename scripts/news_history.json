@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "One In Three Americans Use AI For Health Advice",
-      "urls": [
-        "https://www.youtube.com/shorts/lZJ96HRrAJg",
-        "https://www.forbes.com/health/mind/ai-chatbots-health-advice-risks-lmandp5"
-      ],
-      "date": "2026-05-10T13:34:05.375841+00:00"
-    },
-    {
-      "title": "Trump Administration Allowed 300 African Elephant Trophies In 2025",
-      "urls": [
-        "https://www.biologicaldiversity.org/news"
-      ],
-      "date": "2026-05-10T14:04:21.233943+00:00"
-    },
-    {
       "title": "OpenAI Releases 39 Models on Hugging Face Platform",
       "urls": [
         "https://huggingface.co/collections/viralsuite/best-open-source-ai-models",
@@ -4926,7 +4911,17 @@
         "https://www.foxnews.com?msockid=12e176fd63c8651135e661a262ca64be"
       ],
       "date": "2026-05-20T13:32:23.856071+00:00"
+    },
+    {
+      "title": "Dallas Faces Extreme Weather Risks With 37 Inches Of Annual Rainfall",
+      "urls": [
+        "https://www.weather.gov/fwd/dfwclimo",
+        "https://weatherspark.com/y/8813/Average-Weather-in-Dallas-Texas-United-States-Year-Round",
+        "https://www.climatestotravel.com/climate/united-states/dallas",
+        "https://science.nasa.gov/climate-change/what-is-climate-change"
+      ],
+      "date": "2026-05-20T14:04:48.916050+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T13:32:23.856142+00:00"
+  "lastUpdated": "2026-05-20T14:04:48.916122+00:00"
 }
