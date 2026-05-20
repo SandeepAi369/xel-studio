@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global public spending on energy research and development dropped in 2024 compared to the previous y",
-      "urls": [
-        "https://itif.org/centers/clean-energy-innovation",
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
-        "https://www.iea.org/topics/energy-innovation",
-        "https://energyinnovation.org",
-        "https://www.energy.gov/topics/energy-innovation",
-        "https://spectrum.ieee.org/topic/climate-tech",
-        "https://www.canarymedia.com"
-      ],
-      "date": "2026-05-10T22:32:59.493703+00:00"
-    },
-    {
       "title": "Llama 3.",
       "urls": [
         "https://fazm.ai/blog/ai-model-releases-llm-papers-open-source-april-11-13-2026",
@@ -4961,7 +4948,15 @@
         "https://earthquakesworldwide.com"
       ],
       "date": "2026-05-20T22:32:04.175891+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Open Source Models To Challenge OpenAI",
+      "urls": [
+        "https://www.mistralsoap.com",
+        "https://techcrunch.com/2025/09/09/what-is-mistral-ai-everything-to-know-about-the-openai-competitor"
+      ],
+      "date": "2026-05-20T23:02:22.807750+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T22:32:04.175958+00:00"
+  "lastUpdated": "2026-05-20T23:02:22.807819+00:00"
 }
