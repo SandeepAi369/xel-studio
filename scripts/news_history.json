@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Washington Wizards Win 2026 No 1 Pick For Second Time In Three Years",
-      "urls": [
-        "https://www.espn.com"
-      ],
-      "date": "2026-05-10T21:05:08.667680+00:00"
-    },
-    {
       "title": "Sight Savers America Equips 12 Students With AI Smart Glasses",
       "urls": [
         "https://wach.com/news/local/sc-school-for-the-blind-students-receive-high-tech-vision-aids-blind-vision-impairment-glasses-south-carolina-student-loan-and-vispero-sight-savers-america",
@@ -4957,7 +4950,17 @@
         "https://www.onemedical.com/locations/sf/oakland-grandlake"
       ],
       "date": "2026-05-20T21:03:29.717118+00:00"
+    },
+    {
+      "title": "Huntington Beach Hospital provides acute-care services as a 131-bed nonprofit facility in Orange Cou",
+      "urls": [
+        "https://www.beachphysicians.com",
+        "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach",
+        "https://hbhospital.org",
+        "https://edingermedicalgroup.com"
+      ],
+      "date": "2026-05-20T21:31:13.128454+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T21:03:29.717189+00:00"
+  "lastUpdated": "2026-05-20T21:31:13.128511+00:00"
 }
