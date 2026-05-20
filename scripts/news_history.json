@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coca-Cola and Walmart CEOs have stepped down, citing the accelerating impact of AI transformation wi",
-      "urls": [
-        "https://www.techbuzz.ai/articles/top-ceos-exit-as-ai-forces-leadership-reckoning",
-        "https://www.facebook.com/TheAdvocate/posts/the-company-confirmed-the-billionaires-departure-as-the-tech-companys-leader-in-/1425545356275962"
-      ],
-      "date": "2026-05-10T03:37:06.015053+00:00"
-    },
-    {
       "title": "OpenAI has launched GPT-5.",
       "urls": [
         "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
@@ -4894,7 +4886,17 @@
         "https://www.meta.com/account"
       ],
       "date": "2026-05-20T03:32:01.399677+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-4o Mini For Cost-Efficient Development",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://intuitionlabs.ai/pdfs/mistral-large-3-an-open-source-moe-llm-explained.pdf",
+        "https://finance.yahoo.com/news/mistral-closes-big-ai-rivals-153707603.html",
+        "https://siliconangle.com/2024/07/18/openai-mistral-ai-debut-new-cost-efficient-language-models"
+      ],
+      "date": "2026-05-20T04:02:20.590646+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T03:32:01.399737+00:00"
+  "lastUpdated": "2026-05-20T04:02:20.590730+00:00"
 }
