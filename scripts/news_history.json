@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Large 3 sets a new benchmark for open-source large language models, featuring a Mixture-of-E",
-      "urls": [
-        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained"
-      ],
-      "date": "2026-05-10T00:03:23.246713+00:00"
-    },
-    {
       "title": "Noah Lyles Breaks Michael Johnson 200-Meter Record With 19.31 Run",
       "urls": [
         "https://apnews.com/article/athletics-milestones-marathon-record-two-hours-1be9261e8e6334287261a62fd33c27af",
@@ -4865,7 +4858,21 @@
         "https://www.health.harvard.edu/brain-health/what-is-autism-spectrum-disorder"
       ],
       "date": "2026-05-20T00:02:17.019773+00:00"
+    },
+    {
+      "title": "Nvidia And Eli Lilly Build $1 Billion AI Supercomputer For Drug Discovery",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s44345-025-00037-5",
+        "https://dealforma.com/ai-ml-drug-discovery-and-licensing-rd-ma-ventures-and-ipos-2025-review",
+        "https://www.drugdiscoverynews.com/ai-is-transforming-drug-discovery-16706",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Lilly-Announce-Co-Innovation-AI-Lab-to-Reinvent-Drug-Discovery-in-the-Age-of-AI",
+        "https://cen.acs.org/pharmaceuticals/drug-discovery/ai-companies-introduce-agent-based-research-tools/104/web/2026/05",
+        "https://www.cnbc.com/2025/10/28/eli-lilly-nvidia-supercomputer-ai-factory-drug-discovery.html",
+        "https://www.drugpatentwatch.com/blog/china-leads-in-ai-driven-drug-discovery-patents-signaling-pharmaceutical-innovation-boom",
+        "https://money.usnews.com/investing/articles/ai-drug-discovery-and-manufacturing-stocks-to-buy"
+      ],
+      "date": "2026-05-20T00:33:04.046360+00:00"
     }
   ],
-  "lastUpdated": "2026-05-20T00:02:17.019883+00:00"
+  "lastUpdated": "2026-05-20T00:33:04.046421+00:00"
 }
