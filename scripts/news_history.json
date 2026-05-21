@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IMF Warns U.S. Tariff Shifts Reshape Global Trade Flows",
-      "urls": [
-        "https://www.youtube.com/watch?v=nk3uzZUbu4I"
-      ],
-      "date": "2026-05-11T02:34:15.836636+00:00"
-    },
-    {
       "title": "Mali Refugees Flee Attacks Amid Reports of Executions and Village Burnings",
       "urls": [
         "https://www.aljazeera.com/tag/refugees"
@@ -4946,7 +4939,20 @@
         "https://www.livenation.com/artist/K8vZ9171Caf/extreme-events"
       ],
       "date": "2026-05-21T02:31:03.962027+00:00"
+    },
+    {
+      "title": "UNHCR Warns 1951 Refugee Convention Faces Unprecedented Threats",
+      "urls": [
+        "https://www.unhcr.org/news-and-stories",
+        "https://www.cbsnews.com/tag/refugee",
+        "https://news.un.org/en/focus-topic/refugees-and-migrants",
+        "https://www.unicef.org/eca/refugee-and-migrant-crisis-latest-news",
+        "https://worldrelief.org/news-and-stories",
+        "https://www.theguardian.com/world/refugees",
+        "https://apnews.com/article/asylum-refugees-sudan-chad-greece-europe-54c6cb76a18a97bec3eac944d8baf9d5"
+      ],
+      "date": "2026-05-21T03:04:19.127020+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T02:31:03.962117+00:00"
+  "lastUpdated": "2026-05-21T03:04:19.127086+00:00"
 }
