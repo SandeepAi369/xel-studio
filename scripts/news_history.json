@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Researchers Develop New AI Training Method To Improve Uncertainty Calibration",
-      "urls": [
-        "https://news.mit.edu/topic/artificial-intelligence2"
-      ],
-      "date": "2026-05-11T19:36:16.502939+00:00"
-    },
-    {
       "title": "Iran rejected U.",
       "urls": [
         "https://www.youtube.com/watch?v=H79-zB2kmBk",
@@ -5031,7 +5024,15 @@
         "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=3bd9a58709566b1327f0b2e7083c6a56"
       ],
       "date": "2026-05-21T19:31:10.243475+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts Over 50000 Open Source AI Models",
+      "urls": [
+        "https://www.devflokers.com/blog/open-source-ai-projects-may-2026-roundup",
+        "https://www.forbes.com/councils/forbestechcouncil/2025/11/24/the-impact-of-open-source-ai-on-developers"
+      ],
+      "date": "2026-05-21T20:02:24.793303+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T19:31:10.243539+00:00"
+  "lastUpdated": "2026-05-21T20:02:24.793370+00:00"
 }
