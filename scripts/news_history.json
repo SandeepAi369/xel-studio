@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mozilla has launched the Open Source Rebel Alliance to counter Big Tech's control over AI developmen",
-      "urls": [
-        "https://www.opensourceforu.com"
-      ],
-      "date": "2026-05-11T19:04:23.859848+00:00"
-    },
-    {
       "title": "MIT Researchers Develop New AI Training Method To Improve Uncertainty Calibration",
       "urls": [
         "https://news.mit.edu/topic/artificial-intelligence2"
@@ -5027,7 +5020,18 @@
         "https://en.wikipedia.org/wiki/Jefferson_Health"
       ],
       "date": "2026-05-21T19:01:19.098202+00:00"
+    },
+    {
+      "title": "Alpine Home Medical Expands Wheelchair Access Across Three States",
+      "urls": [
+        "https://intermountainhealthcare.org/services/home-services/wheelchair-shop",
+        "https://classifieds.ksl.com/v2/search/keyword/Wheelchairs",
+        "https://www.alpinehomemedical.com",
+        "https://www.target.com/c/mobility-home-health-care/wheelchair/-/N-4yinmZal25lf9fc45",
+        "https://www.walgreens.com/store/c/wheelchairs/ID=361785-tier3?msockid=3bd9a58709566b1327f0b2e7083c6a56"
+      ],
+      "date": "2026-05-21T19:31:10.243475+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T19:01:19.098273+00:00"
+  "lastUpdated": "2026-05-21T19:31:10.243539+00:00"
 }
