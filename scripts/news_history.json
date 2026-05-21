@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Daniel Kraft discusses the integration of AI in clinical workflows, emphasizing its role in predicti",
-      "urls": [
-        "https://www.mobihealthnews.com/tag/healthcare-innovation",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9601636"
-      ],
-      "date": "2026-05-11T15:10:30.247395+00:00"
-    },
-    {
       "title": "Republicans are gaining a strategic edge in the U.",
       "urls": [
         "https://abcnews.com/politics",
@@ -5000,7 +4992,18 @@
         "https://www.foxnews.com?msockid=2f90cf099b8d60f32131d8699a19613d"
       ],
       "date": "2026-05-21T15:02:36.537983+00:00"
+    },
+    {
+      "title": "Harvard Medical School Launches Ph.D. Track In Artificial Intelligence",
+      "urls": [
+        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
+        "https://www.ama-assn.org/topics/health-care-ai",
+        "https://www.weforum.org/stories/2025/08/ai-transforming-global-health",
+        "https://www.nature.com/articles/s41598-026-49861-w",
+        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare"
+      ],
+      "date": "2026-05-21T15:31:18.172446+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T15:02:36.538050+00:00"
+  "lastUpdated": "2026-05-21T15:31:18.172514+00:00"
 }
