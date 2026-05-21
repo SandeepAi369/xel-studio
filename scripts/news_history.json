@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Initiative hosted a panel discussion on the challenges of integrating AI into openly-dev",
-      "urls": [
-        "https://opensource.org/ai/webinars/challenges-welcoming-ai-in-openly-developed-open-source-projects",
-        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025"
-      ],
-      "date": "2026-05-11T23:04:15.540733+00:00"
-    },
-    {
       "title": "Big Tech Earnings To Shape Nasdaq's Near-Term Trajectory",
       "urls": [
         "https://finance.yahoo.com/markets/stocks/articles/80-seconds-big-tech-earnings-090007149.html",
@@ -5060,7 +5052,16 @@
         "https://www.schwab.com/learn/story/cryptocurrencies-what-are-they"
       ],
       "date": "2026-05-21T23:01:11.879835+00:00"
+    },
+    {
+      "title": "Digital mental health tools are seeing increased adoption across the U.",
+      "urls": [
+        "https://www.sciencenewstoday.org/the-impact-of-technology-on-mental-health",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/hcs2.70018?msockid=3c2053921e82617a04e744f21f0060cc",
+        "https://wellyness.com/the-digital-wellness-trend-transforming-mental-health"
+      ],
+      "date": "2026-05-21T23:31:04.840361+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T23:01:11.879897+00:00"
+  "lastUpdated": "2026-05-21T23:31:04.840429+00:00"
 }
