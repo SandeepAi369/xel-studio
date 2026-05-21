@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Electricity use from AI data centres increased by 50% in 2025, according to an IEA report, raising c",
-      "urls": [
-        "https://sustainabilitymag.com/news/carbon-esg-climate-this-week-in-sustainability",
-        "https://earth.org/policy-and-economics",
-        "https://www.youtube.com/watch?v=DksGuVLbrrs"
-      ],
-      "date": "2026-05-11T14:07:35.767242+00:00"
-    },
-    {
       "title": "PyTorch Surpasses TensorFlow With 78% Adoption In 2026",
       "urls": [
         "https://www.aitude.com/tensorflow-vs-pytorch-in-2026",
@@ -4999,7 +4990,18 @@
         "https://www.bloomberg.com/latest/nvidia"
       ],
       "date": "2026-05-21T14:01:31.944819+00:00"
+    },
+    {
+      "title": "Office of the Deaf and Hard of Hearing provides state-funded programs for Deaf, DeafBlind, Deafdisab",
+      "urls": [
+        "https://www.dshs.wa.gov/altsa/odhh",
+        "https://www.medicalnewstoday.com/articles/249285",
+        "https://www.cpwd.org/blog/more-than-words-a-closer-look-at-the-deaf-community",
+        "https://www.merriam-webster.com/dictionary/deaf",
+        "https://www.britannica.com/science/deaf-history"
+      ],
+      "date": "2026-05-21T14:31:43.382226+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T14:01:31.944888+00:00"
+  "lastUpdated": "2026-05-21T14:31:43.382301+00:00"
 }
