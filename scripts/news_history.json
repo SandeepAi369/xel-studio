@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Surpasses TensorFlow With 78% Adoption In 2026",
-      "urls": [
-        "https://www.aitude.com/tensorflow-vs-pytorch-in-2026",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the"
-      ],
-      "date": "2026-05-11T14:39:29.694592+00:00"
-    },
-    {
       "title": "Daniel Kraft discusses the integration of AI in clinical workflows, emphasizing its role in predicti",
       "urls": [
         "https://www.mobihealthnews.com/tag/healthcare-innovation",
@@ -5001,7 +4993,14 @@
         "https://www.britannica.com/science/deaf-history"
       ],
       "date": "2026-05-21T14:31:43.382226+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly With 150 Journalists",
+      "urls": [
+        "https://www.foxnews.com?msockid=2f90cf099b8d60f32131d8699a19613d"
+      ],
+      "date": "2026-05-21T15:02:36.537983+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T14:31:43.382301+00:00"
+  "lastUpdated": "2026-05-21T15:02:36.538050+00:00"
 }
