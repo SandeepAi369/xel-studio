@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel Shares Hit Record High On AI Demand",
-      "urls": [
-        "https://www.latimes.com/business/story/2026-05-08/can-intels-new-ceo-turn-silicon-valley-charm-into-chip-success",
-        "https://www.facebook.com/forbes/posts/the-ceo-of-an-ai-company-has-said-he-thinks-the-leaders-of-other-tech-companies-/1331890362134284",
-        "https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo",
-        "https://www.youtube.com/watch?v=eSZjeHyzp68&vl=en"
-      ],
-      "date": "2026-05-11T01:03:24.473887+00:00"
-    },
-    {
-      "title": "Solar And Wind Power Generate 20 Percent Of US Electricity",
-      "urls": [
-        "https://grist.org/article/electrifying-news-solar-and-wind-power-has-quintupled-in-a-decade",
-        "https://ga-institute.com/Sustainability-Update/good-news-solar-wind-emerge-in-global-search-for-renewable-energy-sources",
-        "https://www.utilitydive.com/news/wind-solar-hydro-biogas-climate-ameresco/630588",
-        "https://www.nytimes.com/interactive/2025/03/20/climate/clean-energy-solar-wind-sites-space.html"
-      ],
-      "date": "2026-05-11T01:34:01.544648+00:00"
-    },
-    {
       "title": "PyTorch Foundation has solidified its position as the leading force in open-source AI development, r",
       "urls": [
         "https://medium.com/mlearning-ai/tensorflow-vs-pytorch-which-framework-has-the-best-ecosystem-and-community-1d91c9551d30",
@@ -4958,7 +4938,14 @@
         "https://www.foxnews.com?msockid=0ef7e264c05c6ddd36d6f504c1d36ccf"
       ],
       "date": "2026-05-21T01:01:07.246397+00:00"
+    },
+    {
+      "title": "IRCC Aims to Welcome Over 500,000 New Permanent Residents Annually",
+      "urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html"
+      ],
+      "date": "2026-05-21T01:35:33.421885+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T01:01:07.246485+00:00"
+  "lastUpdated": "2026-05-21T01:35:33.421946+00:00"
 }
