@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Magnificent 7 Tech Giants Drive S&P 500 Profit Surge",
-      "urls": [
-        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796",
-        "https://www.youtube.com/watch?v=ndLoUzsi2Rc",
-        "https://www.barrons.com/articles/stock-market-apple-big-tech-ai-earnings-f5231a1a",
-        "https://finance.yahoo.com/research-hub/screener/growth_technology_stocks",
-        "https://www.investors.com/technology"
-      ],
-      "date": "2026-05-11T08:04:22.628575+00:00"
-    },
-    {
       "title": "British Sprinter Chijindu Ujah Stripped Of Olympic Silver Medal",
       "urls": [
         "https://www.bbc.com/sport/athletics",
@@ -4969,7 +4958,14 @@
         "https://www.verizon.com/business/learn/what-is-cloud-computing?msockid=3529f23d922c6c491f09e55d939c6d3a"
       ],
       "date": "2026-05-21T08:03:21.225242+00:00"
+    },
+    {
+      "title": "Best Buy Sells Monitors From 21 To 49 Inches",
+      "urls": [
+        "https://www.bestbuy.com/site/computers-pcs/computer-monitors/abcat0509000.c?id=abcat0509000%2F"
+      ],
+      "date": "2026-05-21T08:32:09.774630+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T08:03:21.225317+00:00"
+  "lastUpdated": "2026-05-21T08:32:09.774706+00:00"
 }
