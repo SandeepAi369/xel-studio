@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Web3 Newswire Distributes Crypto Press Releases Through Reuters And Business Insider",
-      "urls": [
-        "https://web3newswire.com?srsltid=AfmBOoq212wuF-0L1ps7YbdkeivMAmK5tvqVhpXa6JFNhabv0gpmI-rD"
-      ],
-      "date": "2026-05-11T05:06:31.830643+00:00"
-    },
-    {
       "title": "One Billion People With Disabilities Need Inclusive Technology Now",
       "urls": [
         "https://educatingalllearners.org/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities"
@@ -4954,7 +4947,15 @@
         "https://edition.cnn.com/2025/09/09/tech/new-apple-devices-announcement-event"
       ],
       "date": "2026-05-21T05:05:22.656958+00:00"
+    },
+    {
+      "title": "Southampton Records 640mm Rainfall Annually With No Dry Season",
+      "urls": [
+        "https://weatherspark.com/y/41541/Average-Weather-in-Southampton-United-Kingdom-Year-Round",
+        "https://en.climate-data.org/europe/united-kingdom/england/southampton-886360"
+      ],
+      "date": "2026-05-21T05:31:00.772928+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T05:05:22.657026+00:00"
+  "lastUpdated": "2026-05-21T05:31:00.772990+00:00"
 }
