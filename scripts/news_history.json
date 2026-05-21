@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Launches Deep Research And Deep Research Max Agents",
-      "urls": [
-        "https://www.edtechinnovationhub.com/news/googles-new-ai-agent-will-run-160-searches-while-you-sleep-and-hand-you-the-report-by-morning"
-      ],
-      "date": "2026-05-11T13:35:15.270888+00:00"
-    },
-    {
       "title": "Electricity use from AI data centres increased by 50% in 2025, according to an IEA report, raising c",
       "urls": [
         "https://sustainabilitymag.com/news/carbon-esg-climate-this-week-in-sustainability",
@@ -4997,7 +4990,16 @@
         "https://www.nvidia.co.jp/content/global/global.php"
       ],
       "date": "2026-05-21T13:31:12.481410+00:00"
+    },
+    {
+      "title": "NVIDIA Stock Surges 200 Percent Amid AI Demand Boom",
+      "urls": [
+        "https://finance.yahoo.com/quote/NVDA",
+        "https://www.marketwatch.com/investing/stock/nvda",
+        "https://www.bloomberg.com/latest/nvidia"
+      ],
+      "date": "2026-05-21T14:01:31.944819+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T13:31:12.481482+00:00"
+  "lastUpdated": "2026-05-21T14:01:31.944888+00:00"
 }
