@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mali Refugees Flee Attacks Amid Reports of Executions and Village Burnings",
-      "urls": [
-        "https://www.aljazeera.com/tag/refugees"
-      ],
-      "date": "2026-05-11T03:05:24.422160+00:00"
-    },
-    {
       "title": "SpaceX has completed final testing on Starship Booster 19 (B19), marking a critical milestone toward",
       "urls": [
         "https://www.youtube.com/watch?v=41_eenR3-N4",
@@ -4952,7 +4945,16 @@
         "https://apnews.com/article/asylum-refugees-sudan-chad-greece-europe-54c6cb76a18a97bec3eac944d8baf9d5"
       ],
       "date": "2026-05-21T03:04:19.127020+00:00"
+    },
+    {
+      "title": "Google Cuts 12000 Jobs In Cloud And Hardware Restructuring",
+      "urls": [
+        "https://www.cnbc.com/technology?msockid=0cef944c8ab169591e8d832c8be96844",
+        "https://www.bloomberg.com/technology/big-tech",
+        "https://www.theinformation.com/technology"
+      ],
+      "date": "2026-05-21T03:31:58.522212+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T03:04:19.127086+00:00"
+  "lastUpdated": "2026-05-21T03:31:58.522279+00:00"
 }
