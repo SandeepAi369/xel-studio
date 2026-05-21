@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Norway Records Strongest Oslo Region Earthquake in 36 Years",
-      "urls": [
-        "https://www.youtube.com/watch?v=iLcdkWHLEKU",
-        "https://www.youtube.com/watch?v=RHsWTiL_SJM",
-        "https://www.kolotv.com/2026/05/10/403-quake-rattles-20-miles-north-yerington-according-nevada-seismological-laboratory"
-      ],
-      "date": "2026-05-11T21:39:31.829308+00:00"
-    },
-    {
       "title": "Open Source Initiative hosted a panel discussion on the challenges of integrating AI into openly-dev",
       "urls": [
         "https://opensource.org/ai/webinars/challenges-welcoming-ai-in-openly-developed-open-source-projects",
@@ -5030,7 +5021,23 @@
         "https://screenrant.com"
       ],
       "date": "2026-05-21T21:32:03.378156+00:00"
+    },
+    {
+      "title": "Catapult Sports Tracks 200 Data Points Per Second For 78% Of NBA Teams",
+      "urls": [
+        "https://www.linkedin.com/pulse/tech-innovations-sports-performance-analysis-deep-dive-patil-93lbe",
+        "https://harvardsciencereview.org/2025/09/13/success-stories-predictive-analytics-transforming-sports-performance",
+        "https://sportstechgroup.org/news-opinion",
+        "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps",
+        "https://www.statology.org/the-future-of-sports-analytics-emerging-trends-and-technologies",
+        "https://www.consultancy-me.com/news/13430/diverging-paths-how-capital-markets-are-repricing-sports-technology-segments",
+        "https://www.marketsandmarkets.com/ResearchInsight/US-sports-technology-market.asp",
+        "https://www.accio.com/business/sports_analytics_trends",
+        "https://wsc-sports.com/blog/industry-insights/ai-sports-revolution-12-innovations-changing-everything",
+        "https://uktechnews.co.uk/2025/01/21/key-sports-technology-innovations-shaping-2025"
+      ],
+      "date": "2026-05-21T22:01:15.879767+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T21:32:03.378212+00:00"
+  "lastUpdated": "2026-05-21T22:01:15.879840+00:00"
 }
