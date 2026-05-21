@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Experity Health AI Boosts Clinic Revenue By Up To $900 Daily",
-      "urls": [
-        "https://www.worldhealthexpo.com/insights/medical-technology/health-innovation",
-        "https://www.nea.com/blog/generative-ai-in-health-care-medical-innovation",
-        "https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://www.youtube.com/watch?v=Kl5UOCt5wYE"
-      ],
-      "date": "2026-05-11T07:34:01.688764+00:00"
-    },
-    {
       "title": "Magnificent 7 Tech Giants Drive S&P 500 Profit Surge",
       "urls": [
         "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796",
@@ -4966,7 +4955,21 @@
         "https://edition.cnn.com?refresh=1"
       ],
       "date": "2026-05-21T07:33:16.998950+00:00"
+    },
+    {
+      "title": "Google Microsoft Oracle Expand Cloud Services For Businesses",
+      "urls": [
+        "https://cloud.google.com",
+        "https://onedrive.live.com",
+        "https://en.wikipedia.org/wiki/Cloud_computing",
+        "https://www.cloudflare.com/learning/cloud/what-is-the-cloud",
+        "https://www.oracle.com/cloud",
+        "https://www.microsoft.com/en-us?msockid=3529f23d922c6c491f09e55d939c6d3a",
+        "https://www.geeksforgeeks.org/cloud-computing/cloud-computing",
+        "https://www.verizon.com/business/learn/what-is-cloud-computing?msockid=3529f23d922c6c491f09e55d939c6d3a"
+      ],
+      "date": "2026-05-21T08:03:21.225242+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T07:33:16.999028+00:00"
+  "lastUpdated": "2026-05-21T08:03:21.225317+00:00"
 }
