@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rush University System for Health launched Rush Connect+, a direct-to-consumer telehealth membership",
-      "urls": [
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
-      ],
-      "date": "2026-05-11T11:06:30.350788+00:00"
-    },
-    {
       "title": "Anthropic claims its latest Claude AI models achieved perfect scores on advanced agentic misalignmen",
       "urls": [
         "https://www.mexc.co/en-IN/news/1079838",
@@ -4987,7 +4980,17 @@
         "https://inside.fifa.com/en/news/fifa-celebrates-launch-official-match-ball-world-cup-26-trionda?requester=MediaHub&entryId=4NmEoJkBwuj9zmMTHj8PMa"
       ],
       "date": "2026-05-21T11:01:18.485115+00:00"
+    },
+    {
+      "title": "Sage Journals Launches Telemedicine And E Health In 120 Countries",
+      "urls": [
+        "https://journals.sagepub.com/home/TEH",
+        "https://www.telemedicine.com",
+        "https://www.healthline.com/health/telemedicine",
+        "https://www.npr.org/2025/09/16/nx-s1-5500317/telehealth-prescribing-visits-insurance"
+      ],
+      "date": "2026-05-21T11:33:13.909332+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T11:01:18.485186+00:00"
+  "lastUpdated": "2026-05-21T11:33:13.909394+00:00"
 }
