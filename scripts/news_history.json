@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google has integrated new AI features directly into the Chrome web browser, enabling real-time page ",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorZnwH9kpRx0mr17JotPLVBoSw0RYZTEwFb213RUTVGnOMZGWQV",
-        "https://www.youtube.com/watch?v=2tgYdYQvy_4"
-      ],
-      "date": "2026-05-11T13:04:30.785723+00:00"
-    },
-    {
       "title": "Google DeepMind Launches Deep Research And Deep Research Max Agents",
       "urls": [
         "https://www.edtechinnovationhub.com/news/googles-new-ai-agent-will-run-160-searches-while-you-sleep-and-hand-you-the-report-by-morning"
@@ -4995,7 +4987,17 @@
         "https://www.foxnews.com?msockid=39dac78451fb6b640e98d0e450646a6e"
       ],
       "date": "2026-05-21T13:01:25.630420+00:00"
+    },
+    {
+      "title": "NVIDIA Powers 95% Of Global AI Training With RTX GPUs",
+      "urls": [
+        "https://www.nvidia.com",
+        "https://www.nvidia.cn",
+        "https://baike.baidu.com/item/nVidia/325313",
+        "https://www.nvidia.co.jp/content/global/global.php"
+      ],
+      "date": "2026-05-21T13:31:12.481410+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T13:01:25.630488+00:00"
+  "lastUpdated": "2026-05-21T13:31:12.481482+00:00"
 }
