@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "WeWALK smart cane provides navigation assistance for visually impaired users by wirelessly connectin",
-      "urls": [
-        "https://wchstv.com/news/local/technology-conference-showcases-latest-technology-to-help-vision-impaired",
-        "https://engineering.nyu.edu/news/pshs-student-invents-device-visually-impaired",
-        "https://lighthouseguild.org/fantastic-new-tech-for-people-with-low-vision-or-blindness"
-      ],
-      "date": "2026-05-11T18:34:20.317934+00:00"
-    },
-    {
       "title": "Mozilla has launched the Open Source Rebel Alliance to counter Big Tech's control over AI developmen",
       "urls": [
         "https://www.opensourceforu.com"
@@ -5023,7 +5014,20 @@
         "https://en.wikipedia.org/wiki/The_Open_Championship"
       ],
       "date": "2026-05-21T18:33:05.145738+00:00"
+    },
+    {
+      "title": "Einstein Medical Center Philadelphia is a tertiary-care teaching hospital in North Philadelphia, ser",
+      "urls": [
+        "https://www.pennmedicine.org",
+        "https://www.cooperhealth.org",
+        "https://www.med.upenn.edu",
+        "https://www.templehealth.org/locations/temple-university-hospital",
+        "https://providers.einstein.edu/location/einstein-medical-center-philadelphia/loc0000070864",
+        "https://www.hopkinsmedicine.org",
+        "https://en.wikipedia.org/wiki/Jefferson_Health"
+      ],
+      "date": "2026-05-21T19:01:19.098202+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T18:33:05.145817+00:00"
+  "lastUpdated": "2026-05-21T19:01:19.098273+00:00"
 }
