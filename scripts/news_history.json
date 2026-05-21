@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Breezy Johnson Wins Olympic Downhill Before Medal Falls to Ground",
-      "urls": [
-        "https://www.usatoday.com/story/sports/olympics/2026/02/08/breezy-johnson-olympic-downhill-gold-medal-broken/88579007007",
-        "https://dailybruin.com/2026/02/23/ucla-student-alysa-liu-wins-2-olympic-figure-skating-gold-medals"
-      ],
-      "date": "2026-05-11T12:36:09.928442+00:00"
-    },
-    {
       "title": "Google has integrated new AI features directly into the Chrome web browser, enabling real-time page ",
       "urls": [
         "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorZnwH9kpRx0mr17JotPLVBoSw0RYZTEwFb213RUTVGnOMZGWQV",
@@ -4996,7 +4988,14 @@
         "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games"
       ],
       "date": "2026-05-21T12:32:09.243771+00:00"
+    },
+    {
+      "title": "Fox News operates a high-volume digital news model, publishing approximately 1,500 articles per week",
+      "urls": [
+        "https://www.foxnews.com?msockid=39dac78451fb6b640e98d0e450646a6e"
+      ],
+      "date": "2026-05-21T13:01:25.630420+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T12:32:09.243839+00:00"
+  "lastUpdated": "2026-05-21T13:01:25.630488+00:00"
 }
