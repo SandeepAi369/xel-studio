@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face CEO has expressed concerns about the rising dominance of Chinese developers in the open",
-      "urls": [
-        "https://www.reddit.com/r/MachineLearning/comments/1h7185x/n_hugging_face_ceo_has_concerns_about_chinese"
-      ],
-      "date": "2026-05-11T18:06:32.856303+00:00"
-    },
-    {
       "title": "WeWALK smart cane provides navigation assistance for visually impaired users by wirelessly connectin",
       "urls": [
         "https://wchstv.com/news/local/technology-conference-showcases-latest-technology-to-help-vision-impaired",
@@ -5021,7 +5014,16 @@
         "https://www.emsc-csem.org/Earthquake_map"
       ],
       "date": "2026-05-21T18:01:32.195545+00:00"
+    },
+    {
+      "title": "The Open Championship Returns To St Andrews In July",
+      "urls": [
+        "https://www.open.ac.uk",
+        "https://www.olympics.com/en/news/italian-open-2026-results-live-schedule-draw-scores-and-order-of-play-wta-atp-tennis",
+        "https://en.wikipedia.org/wiki/The_Open_Championship"
+      ],
+      "date": "2026-05-21T18:33:05.145738+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T18:01:32.195608+00:00"
+  "lastUpdated": "2026-05-21T18:33:05.145817+00:00"
 }
