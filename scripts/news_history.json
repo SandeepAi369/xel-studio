@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf Awareness Week is an annual initiative promoting inclusion and understanding of deaf individual",
-      "urls": [
-        "https://www.youtube.com/watch?v=HYWQqw0gy9M"
-      ],
-      "date": "2026-05-11T09:37:06.430188+00:00"
-    },
-    {
       "title": "Gout Gout remains one of the most promising young sprinters in international track and field, drawin",
       "urls": [
         "https://www.youtube.com/watch?v=o2MFbmCtUEo"
@@ -4975,7 +4968,16 @@
         "https://vajiramandravi.com/current-affairs/prime-ministers-of-india"
       ],
       "date": "2026-05-21T09:31:06.938561+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mistral Medium 3.5 With 87.2 Percent GLUE Accuracy",
+      "urls": [
+        "https://decrypt.co/366275/mistral-ai-open-source-model-agents-internet-not-impressed",
+        "https://mistral.ai/news/mixtral-of-experts",
+        "https://mistral.ai/news/announcing-mistral-7b"
+      ],
+      "date": "2026-05-21T10:04:40.719952+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T09:31:06.938630+00:00"
+  "lastUpdated": "2026-05-21T10:04:40.720016+00:00"
 }
