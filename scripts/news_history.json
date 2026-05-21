@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX has completed final testing on Starship Booster 19 (B19), marking a critical milestone toward",
-      "urls": [
-        "https://www.youtube.com/watch?v=41_eenR3-N4",
-        "https://www.youtube.com/watch?v=rlt2NI17V8M",
-        "https://www.spacex.com/launches",
-        "https://www.youtube.com/watch?v=grOBjeWEBaM"
-      ],
-      "date": "2026-05-11T03:33:03.443298+00:00"
-    },
-    {
       "title": "Xai Raises Two Billion Dollars In Record Funding Round",
       "urls": [
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
@@ -4954,7 +4944,15 @@
         "https://www.theinformation.com/technology"
       ],
       "date": "2026-05-21T03:31:58.522212+00:00"
+    },
+    {
+      "title": "Geopolitics Monitor Tracks 87 Conflicts With Hourly Updates",
+      "urls": [
+        "https://geopoliticsmonitor.com",
+        "https://dictionary.cambridge.org/dictionary/english/geopolitical"
+      ],
+      "date": "2026-05-21T04:01:13.955412+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T03:31:58.522279+00:00"
+  "lastUpdated": "2026-05-21T04:01:13.955482+00:00"
 }
