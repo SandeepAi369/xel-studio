@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sunwook Kim Leads Virginia Tech Cobot Project For Autistic Workers",
-      "urls": [
-        "https://news.vt.edu/articles/2025/11/eng-ise-smarter-robots.html"
-      ],
-      "date": "2026-05-11T17:34:24.471656+00:00"
-    },
-    {
       "title": "Hugging Face CEO has expressed concerns about the rising dominance of Chinese developers in the open",
       "urls": [
         "https://www.reddit.com/r/MachineLearning/comments/1h7185x/n_hugging_face_ceo_has_concerns_about_chinese"
@@ -5018,7 +5011,17 @@
         "https://greennode.ai/blog/best-open-source-ai-platforms"
       ],
       "date": "2026-05-21T17:31:06.370371+00:00"
+    },
+    {
+      "title": "Southern California Earthquake Data Center Detects Quakes With 400-Sensor Network",
+      "urls": [
+        "https://scedc.caltech.edu/recent",
+        "https://earthquaketrack.com/v/la/recent",
+        "https://ktla.com/california-earthquake-map",
+        "https://www.emsc-csem.org/Earthquake_map"
+      ],
+      "date": "2026-05-21T18:01:32.195545+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T17:31:06.370438+00:00"
+  "lastUpdated": "2026-05-21T18:01:32.195608+00:00"
 }
