@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://www.reddit.com/r/hardware/comments/1mmy9d7/us_government_to_take_cut_of_nvidia_and_amd_ai",
-        "https://www.youtube.com/watch?v=62IA7NbdNZM",
-        "https://www.youtube.com/watch?v=VaU8a_-FKj4",
-        "https://www.youtube.com/watch?v=KblxZkaO_gE"
-      ],
-      "date": "2026-05-12T03:36:14.191884+00:00"
-    },
-    {
       "title": "Medical research drives breakthroughs in disease understanding and treatment, with discovery science",
       "urls": [
         "https://www.news-medical.net/news/20250310/British-scientists-unveil-world-leading-technology-to-speed-up-drug-discovery.aspx",
@@ -5050,7 +5040,18 @@
         "https://support.microsoft.com/en-us/account-billing/change-the-email-address-or-phone-number-for-your-microsoft-account-761a662d-8032-88f4-03f3-c9ba8ba0e00b"
       ],
       "date": "2026-05-22T03:32:05.874144+00:00"
+    },
+    {
+      "title": "U.S. And China Ramp Up AI Investments In Global Tech Race",
+      "urls": [
+        "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
+        "https://europeanbusinessmagazine.com/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
+        "https://hbr.org/2024/11/navigating-the-new-geopolitics-of-tech",
+        "https://www.forbes.com/sites/bernardmarr/2024/09/18/the-geopolitics-of-ai",
+        "https://www.rand.org/topics/geopolitical-strategic-competition.html"
+      ],
+      "date": "2026-05-22T04:01:21.103832+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T03:32:05.874216+00:00"
+  "lastUpdated": "2026-05-22T04:01:21.103894+00:00"
 }
