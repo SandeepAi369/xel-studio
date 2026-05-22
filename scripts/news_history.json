@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Voiceitt Launches AI Speech Recognition For Non-Standard Voices",
-      "urls": [
-        "https://cpresource.org/topic/accessible-design-technology/accessible-innovations-technology-2025-updates",
-        "https://www.rickhansen.com/news-stories/blog/accessible-futures-how-technology-helping-people-disabilities-thrive",
-        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion",
-        "https://www.techuk.org/resource/inclusive-innovation-unlocking-the-potential-of-tech-for-accessibility.html",
-        "https://rutartan.com/news/the-future-of-accessibility-a-new-role-of-ai-powered-technology-for-people-with-disabilities",
-        "https://www.youtube.com/watch?v=_qRH4m6bLLs"
-      ],
-      "date": "2026-05-12T00:06:23.269629+00:00"
-    },
-    {
       "title": "Sebastian Sawe Smashes Marathon World Record In 2:01:05",
       "urls": [
         "https://www.guinnessworldrecords.com/news/sports-and-fitness",
@@ -5060,7 +5048,15 @@
         "https://finance.yahoo.com/quote/META"
       ],
       "date": "2026-05-22T00:01:20.818913+00:00"
+    },
+    {
+      "title": "NBC Bay Area Reports Real Time Weather Alerts for San Francisco San Jose and Oakland",
+      "urls": [
+        "https://www.foxnews.com?msockid=37d797871b886c4427c280e61ab76d19",
+        "https://www.nbcbayarea.com"
+      ],
+      "date": "2026-05-22T00:33:11.470684+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T00:01:20.818975+00:00"
+  "lastUpdated": "2026-05-22T00:33:11.470741+00:00"
 }
