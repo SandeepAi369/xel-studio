@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Biodiversity Crisis is accelerating as climate change disrupts migration, reproduction, and survival",
-      "urls": [
-        "https://www.youtube.com/watch?v=rlt3k_ddMJg",
-        "https://www.natureserve.org/biodiversity"
-      ],
-      "date": "2026-05-12T06:36:07.211581+00:00"
-    },
-    {
-      "title": "Democratic Republic of the Congo refugee numbers have exceeded 1 million for the first time in nearl",
-      "urls": [
-        "https://concernusa.org/news/largest-refugee-crises",
-        "https://en.wikipedia.org/wiki/Refugee_crisis",
-        "https://www.bbc.com/news/topics/cg41ylwvxmdt",
-        "https://www.oxfamamerica.org/explore/issues/humanitarian-response-and-leaders/global-refugee-crisis",
-        "https://www.refugeesinternational.org/the-latest"
-      ],
-      "date": "2026-05-12T07:03:14.141457+00:00"
-    },
-    {
       "title": "Virtual reality startups are developing immersive tools to address rising mental health challenges, ",
       "urls": [
         "https://annabelleschneider.com/New-Technology-Mental-Health-Wellbeing",
@@ -5044,7 +5025,18 @@
         "https://en.wikipedia.org/wiki/Earthquake"
       ],
       "date": "2026-05-22T06:35:25.222653+00:00"
+    },
+    {
+      "title": "The New York Times Deploys 1 700 Journalists Across 150 Countries",
+      "urls": [
+        "https://www.iranintl.com",
+        "https://www.nytimes.com/international",
+        "https://abcnews.com/International",
+        "https://www.un.org/en/observances/list-days-weeks",
+        "https://www.foxnews.com/world?msockid=1c94b7b75e6d6ba9021aa0d65f446ae5"
+      ],
+      "date": "2026-05-22T07:04:15.037505+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T06:35:25.222716+00:00"
+  "lastUpdated": "2026-05-22T07:04:15.037574+00:00"
 }
