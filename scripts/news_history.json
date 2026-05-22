@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Find Tonga Eruption Added 150 Million Tons Of Water Vapor To Stratosphere",
-      "urls": [
-        "https://www.youtube.com/watch?v=lWU8dT0BZEc",
-        "https://www.youtube.com/watch?v=5IARbTqqq5M"
-      ],
-      "date": "2026-05-12T10:35:10.376225+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOopLqI7105whiRDGllQsXksulgQj0D4kce81e1r8XiRlJ7Ga2fwV",
@@ -5027,7 +5019,18 @@
         "https://education.nationalgeographic.org/resource/wildlife-conservation"
       ],
       "date": "2026-05-22T10:31:06.649384+00:00"
+    },
+    {
+      "title": "Anthropic Removes Safety Pledge As Claude Gains Computer Control Features",
+      "urls": [
+        "https://www.anthropic.com/news",
+        "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+        "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html",
+        "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge",
+        "https://www.bbc.com/news/articles/c62dlvdq3e3o"
+      ],
+      "date": "2026-05-22T11:04:21.806965+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T10:31:06.649454+00:00"
+  "lastUpdated": "2026-05-22T11:04:21.807035+00:00"
 }
