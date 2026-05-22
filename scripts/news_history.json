@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic CEO Warns AI Safety Risks Amid Internal Whistleblower Concerns",
-      "urls": [
-        "https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
-        "https://www.youtube.com/watch?v=aAPpQC-3EyE"
-      ],
-      "date": "2026-05-12T06:04:19.268974+00:00"
-    },
-    {
       "title": "Biodiversity Crisis is accelerating as climate change disrupts migration, reproduction, and survival",
       "urls": [
         "https://www.youtube.com/watch?v=rlt3k_ddMJg",
@@ -5043,7 +5035,16 @@
         "https://www.deeplearning.ai"
       ],
       "date": "2026-05-22T06:02:23.891755+00:00"
+    },
+    {
+      "title": "Usgs Tracks 1.3 Million Global Earthquakes Annually With 7000 Sensors",
+      "urls": [
+        "https://earthquake.usgs.gov/earthquakes/map?list=false&map=false&about=true",
+        "https://earthquakemap.live",
+        "https://en.wikipedia.org/wiki/Earthquake"
+      ],
+      "date": "2026-05-22T06:35:25.222653+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T06:02:23.891820+00:00"
+  "lastUpdated": "2026-05-22T06:35:25.222716+00:00"
 }
