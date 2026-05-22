@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "XiaomiMiMo released MiMo-V2.",
-      "urls": [
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
-      ],
-      "date": "2026-05-12T05:04:14.828990+00:00"
-    },
-    {
       "title": "Autism Support Platforms Improve Care Coordination With Real-Time Data Sharing",
       "urls": [
         "https://autismspectrumnews.org/harnessing-technology-to-support-individuals-with-autism-and-their-families",
@@ -5050,7 +5043,14 @@
         "https://blockchain.news/ainews/pytorch-s-explosive-growth-how-the-open-source-ai-framework-is-shaping-machine-learning-in-2025"
       ],
       "date": "2026-05-22T05:01:22.260549+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts 50 Top Open-Source AI Models With 10 Million Monthly Downloads",
+      "urls": [
+        "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025"
+      ],
+      "date": "2026-05-22T05:31:13.491767+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T05:01:22.260605+00:00"
+  "lastUpdated": "2026-05-22T05:31:13.491828+00:00"
 }
