@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "WhatsApp Rolls Out Message History Sharing For New Group Members",
-      "urls": [
-        "https://www.linkedin.com/top-content/marketing/social-media-marketing/new-social-media-platform-feature-updates",
-        "https://www.youtube.com/watch?v=tLloTTW0nQw",
-        "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-31",
-        "https://hibu.com/company/revlocal-news/social-media-updates-you-need-to-know-about",
-        "https://www.instagram.com/p/DVOcgKgjbm0",
-        "https://techcrunch.com/category/social",
-        "https://socialday.live/features/social-media-industry-news-roundup-the-biggest-platform-updates-this-week",
-        "https://blog.gainapp.com/social-media-updates",
-        "https://www.socialmediatoday.com"
-      ],
-      "date": "2026-05-12T08:35:12.543697+00:00"
-    },
-    {
       "title": "Anthropic Withholds Latest AI Model Over Safety Concerns",
       "urls": [
         "https://www.mexc.co/en-PH/news/1079838",
@@ -5033,7 +5018,15 @@
         "https://en.wikipedia.org/wiki/Space"
       ],
       "date": "2026-05-22T08:31:11.394862+00:00"
+    },
+    {
+      "title": "Nvidia On Track To Hit $10 Trillion Valuation",
+      "urls": [
+        "https://www.google.com/finance/beta/quote/NVDA:NASDAQ",
+        "https://www.fool.com/investing/2026/05/10/nvidia-stock-good-news-wall-street-20-trillion?msockid=2c4401538f626eda269516328ef56f33"
+      ],
+      "date": "2026-05-22T09:02:26.351615+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T08:31:11.394931+00:00"
+  "lastUpdated": "2026-05-22T09:02:26.351682+00:00"
 }
