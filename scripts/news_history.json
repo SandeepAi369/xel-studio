@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch continues to dominate the open-source machine learning landscape, maintaining strong adoptio",
-      "urls": [
-        "https://vmblog.com/archive/2022/07/20/the-comparison-between-pytorch-and-tensorflow-which-framework-is-best-for-your-ai.aspx"
-      ],
-      "date": "2026-05-12T02:05:19.825916+00:00"
-    },
-    {
-      "title": "PyTorch Surges to 70% Adoption in AI Research Papers",
-      "urls": [
-        "https://www.simplilearn.com/open-source-ai-frameworks-article",
-        "https://www.cudocompute.com/blog/pytorch-vs-tensorflow-comparative-analysis-of-ai-frameworks",
-        "https://levelup.gitconnected.com/pytorch-vs-tensorflow-the-ai-framework-showdown-32d97902ba6b",
-        "https://medium.com/@lilybrooke610/pytorch-vs-tensorflow-which-framework-delivers-superior-results-for-enterprise-ai-558df4ada1c8",
-        "https://www.youtube.com/watch?v=2UDoj3sB_z0",
-        "https://pub.towardsai.net/ai-framework-wars-why-pytorch-wins-70-of-research-tensorflow-rules-the-cloud-f89e289490c0"
-      ],
-      "date": "2026-05-12T02:38:17.045343+00:00"
-    },
-    {
       "title": "Democracy Docket founder highlights a growing 'gerrymandering arms race' as state legislatures incre",
       "urls": [
         "https://www.democracynow.org",
@@ -5062,7 +5043,14 @@
         "https://www.linuxmint.com"
       ],
       "date": "2026-05-22T02:02:14.491782+00:00"
+    },
+    {
+      "title": "Washington State Holds Closed Primary Election Tuesday",
+      "urls": [
+        "https://www.sos.wa.gov/elections/voters/helpful-information/current-election-information"
+      ],
+      "date": "2026-05-22T03:01:23.316206+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T02:02:14.491833+00:00"
+  "lastUpdated": "2026-05-22T03:01:23.316274+00:00"
 }
