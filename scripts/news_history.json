@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Africa is emerging as a key battleground in the U.",
-      "urls": [
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOooZpj41-Hz1d6DhSyCWITjqTArSLvg2K48ak1oAkDxOheeelwHM",
-        "https://www.youtube.com/watch?v=6AE3zdpQxH8",
-        "https://iranbri.com/en/us-china-technological-competition-geopolitical-considerations",
-        "https://www.csis.org/events/insights-us-china-technology-competition",
-        "https://www.scmp.com/news/us/article/3345483/africa-emerges-new-arena-us-china-competition-over-artificial-intelligence"
-      ],
-      "date": "2026-05-12T20:07:20.499164+00:00"
-    },
-    {
       "title": "Google has expanded its core app functionality to integrate advanced search tools like Lens, AR, and",
       "urls": [
         "https://www.google.com",
@@ -5021,7 +5010,16 @@
         "https://www.yahoo.com/news/us/2"
       ],
       "date": "2026-05-22T20:01:25.632422+00:00"
+    },
+    {
+      "title": "Cayuga Health Expands Ithaca Medical Center With 248 Bed Upgrade",
+      "urls": [
+        "https://cayugahealth.org",
+        "https://health.cornell.edu",
+        "https://health.usnews.com/best-hospitals/area/ny/cayuga-medical-center-6211960"
+      ],
+      "date": "2026-05-22T20:32:06.594462+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T20:01:25.632482+00:00"
+  "lastUpdated": "2026-05-22T20:32:06.594547+00:00"
 }
