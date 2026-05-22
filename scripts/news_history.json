@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Caitlin Clark Returns With Strong Effort in Fever Win",
-      "urls": [
-        "https://www.instagram.com/reel/DX7eVsHym1S",
-        "https://www.foxnews.com/sports",
-        "https://www.sportsmediawatch.com",
-        "https://spectrumnews1.com/ca/la/news/sports"
-      ],
-      "date": "2026-05-12T16:35:08.493030+00:00"
-    },
-    {
       "title": "Quantum Computing Inc.",
       "urls": [
         "https://seekingalpha.com/market-news/technology",
@@ -5021,7 +5011,15 @@
         "https://en.wikipedia.org/wiki/Artificial_(2027_film)"
       ],
       "date": "2026-05-22T16:32:17.499039+00:00"
+    },
+    {
+      "title": "Microsoft Copilot Launches AI Assistant Across Windows And Office",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=22a2c4e9b4fa67d30da5d388b5ee66ce",
+        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=22a2c4e9b4fa67d30da5d388b5ee66ce"
+      ],
+      "date": "2026-05-22T17:01:17.028164+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T16:32:17.499094+00:00"
+  "lastUpdated": "2026-05-22T17:01:17.028233+00:00"
 }
