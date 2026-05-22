@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Earnings To Shape Nasdaq's Near-Term Trajectory",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/80-seconds-big-tech-earnings-090007149.html",
-        "https://www.investopedia.com/tech-stocks-are-on-fire-can-they-get-any-hotter-magnificent-seven-earnings-ai-11970657"
-      ],
-      "date": "2026-05-11T23:35:13.629914+00:00"
-    },
-    {
       "title": "Voiceitt Launches AI Speech Recognition For Non-Standard Voices",
       "urls": [
         "https://cpresource.org/topic/accessible-design-technology/accessible-innovations-technology-2025-updates",
@@ -5061,7 +5053,14 @@
         "https://wellyness.com/the-digital-wellness-trend-transforming-mental-health"
       ],
       "date": "2026-05-21T23:31:04.840361+00:00"
+    },
+    {
+      "title": "Meta Invests 38.7 Billion In AI Amid Revenue And Strategy Scrutiny",
+      "urls": [
+        "https://finance.yahoo.com/quote/META"
+      ],
+      "date": "2026-05-22T00:01:20.818913+00:00"
     }
   ],
-  "lastUpdated": "2026-05-21T23:31:04.840429+00:00"
+  "lastUpdated": "2026-05-22T00:01:20.818975+00:00"
 }
