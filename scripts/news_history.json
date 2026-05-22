@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "LUCI Launches Smart Upgrades For Power Wheelchairs",
-      "urls": [
-        "https://relayresources.org/blog/new-technologies-making-the-world-more-accessible",
-        "https://www.youtube.com/watch?v=sWclu9XtBEk",
-        "https://www.perkins.org/resource/4-everyday-innovations-you-probably-didn-t-know-came-from-the-disability-community",
-        "https://abilitymt.org/blog/assistive-technology-people-disabilities",
-        "https://petrieflom.law.harvard.edu/2020/02/26/new-technologies-are-empowering-persons-with-disabilities-but-are-they-assistive",
-        "https://www.nytimes.com/wirecutter/reviews/best-assistive-smart-home-technology-for-disabled",
-        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility"
-      ],
-      "date": "2026-05-12T09:36:05.248462+00:00"
-    },
-    {
       "title": "Scientists Find Tonga Eruption Added 150 Million Tons Of Water Vapor To Stratosphere",
       "urls": [
         "https://www.youtube.com/watch?v=lWU8dT0BZEc",
@@ -5021,7 +5008,15 @@
         "https://sway.cloud.microsoft"
       ],
       "date": "2026-05-22T09:31:10.741514+00:00"
+    },
+    {
+      "title": "University Of Connecticut Study Reveals Ideal Hug Duration And Pressure For Emotional Bonding",
+      "urls": [
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=2466684227c46ef213577f23263e6fa9",
+        "https://www.momjunction.com/articles/different-types-of-hugs_00673097"
+      ],
+      "date": "2026-05-22T10:02:22.913557+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T09:31:10.741589+00:00"
+  "lastUpdated": "2026-05-22T10:02:22.913626+00:00"
 }
