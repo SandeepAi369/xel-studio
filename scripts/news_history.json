@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democracy Docket founder highlights a growing 'gerrymandering arms race' as state legislatures incre",
-      "urls": [
-        "https://www.democracynow.org",
-        "https://www.youtube.com/watch?v=PF1cZrQV1Js",
-        "https://www.youtube.com/watch?v=5j2FhL24rqE"
-      ],
-      "date": "2026-05-12T03:06:23.518568+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://www.reddit.com/r/hardware/comments/1mmy9d7/us_government_to_take_cut_of_nvidia_and_amd_ai",
@@ -5050,7 +5041,16 @@
         "https://www.sos.wa.gov/elections/voters/helpful-information/current-election-information"
       ],
       "date": "2026-05-22T03:01:23.316206+00:00"
+    },
+    {
+      "title": "Microsoft Details Steps To Install Critical Windows Updates",
+      "urls": [
+        "https://www.nature.com",
+        "https://support.microsoft.com/en-us/windows/install-windows-updates-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a",
+        "https://support.microsoft.com/en-us/account-billing/change-the-email-address-or-phone-number-for-your-microsoft-account-761a662d-8032-88f4-03f3-c9ba8ba0e00b"
+      ],
+      "date": "2026-05-22T03:32:05.874144+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T03:01:23.316274+00:00"
+  "lastUpdated": "2026-05-22T03:32:05.874216+00:00"
 }
