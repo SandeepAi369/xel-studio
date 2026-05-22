@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic has announced that its latest AI model, Claude Mythos, demonstrated advanced capabilities ",
-      "urls": [
-        "https://www.mexc.com/news/1079838",
-        "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
-      ],
-      "date": "2026-05-12T11:36:11.500588+00:00"
-    },
-    {
-      "title": "IMF Warns Strait Closures Could Push Inflation Above 6 Percent",
-      "urls": [
-        "https://www.youtube.com/watch?v=zCAndRR3bZI",
-        "https://www.youtube.com/watch?v=6N9_0TKfO7o",
-        "https://www.youtube.com/watch?v=0w5_KA6Uvxo",
-        "https://thehill.com/policy/3673894-un-warns-of-a-global-recession-as-countries-race-to-lower-inflation"
-      ],
-      "date": "2026-05-12T12:04:10.101550+00:00"
-    },
-    {
       "title": "Elana Meyers Taylor secured her sixth Olympic medal, claiming gold in the women's monobob event at t",
       "urls": [
         "https://www.foxnews.com/sports/american-elana-meyers-taylor-finally-captures-gold-medal-winter-olympics-makes-team-usa-history",
@@ -5027,7 +5009,15 @@
         "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
       ],
       "date": "2026-05-22T11:31:09.963820+00:00"
+    },
+    {
+      "title": "National Institute of Mental Health Highlights Mental Wellness as Key to Overall Health",
+      "urls": [
+        "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "https://dictionary.cambridge.org/dictionary/english/mental"
+      ],
+      "date": "2026-05-22T12:04:28.114573+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T11:31:09.963904+00:00"
+  "lastUpdated": "2026-05-22T12:04:28.114641+00:00"
 }
