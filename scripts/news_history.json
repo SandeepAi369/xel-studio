@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.",
-      "urls": [
-        "https://trendsresearch.org/news/advanced-technology-reshaping-post-2026-geopolitical-order-trends-insight-claims?srsltid=AfmBOopLqI7105whiRDGllQsXksulgQj0D4kce81e1r8XiRlJ7Ga2fwV",
-        "https://www.insightturkey.com/commentaries/digital-geopolitics-and-us-china-competition",
-        "https://www.youtube.com/watch?v=RY4EMW6mM4E",
-        "https://cisac.fsi.stanford.edu/news/fsi-scholars-examine-ai-biotech-advances-and-geopolitical-competition"
-      ],
-      "date": "2026-05-12T11:05:20.338239+00:00"
-    },
-    {
       "title": "Anthropic has announced that its latest AI model, Claude Mythos, demonstrated advanced capabilities ",
       "urls": [
         "https://www.mexc.com/news/1079838",
@@ -5030,7 +5020,14 @@
         "https://www.bbc.com/news/articles/c62dlvdq3e3o"
       ],
       "date": "2026-05-22T11:04:21.806965+00:00"
+    },
+    {
+      "title": "Open Source LLMs Led By Llama And Mistral Achieve 87 Percent Accuracy",
+      "urls": [
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
+      ],
+      "date": "2026-05-22T11:31:09.963820+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T11:04:21.807035+00:00"
+  "lastUpdated": "2026-05-22T11:31:09.963904+00:00"
 }
