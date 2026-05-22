@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "The New York Times operates news bureaus in over 150 countries, maintaining one of the largest inter",
-      "urls": [
-        "https://www.foxnews.com?msockid=18fbfb4a0a6760b5320dec1d0bae6182",
-        "https://www.cnn.com",
-        "https://news.google.com",
-        "https://www.nbcnews.com",
-        "https://abcnews.com",
-        "https://www.yahoo.com/news",
-        "https://www.nytimes.com",
-        "https://www.cbsnews.com",
-        "https://www.aol.com",
-        "https://www.newsweek.com"
-      ],
-      "date": "2026-05-12T21:06:27.556681+00:00"
-    },
-    {
       "title": "Mistral AI has emerged as a leading European artificial intelligence startup, founded in April 2023 ",
       "urls": [
         "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -5010,7 +4994,14 @@
         "https://sites.prh.com/modern-library-top-100"
       ],
       "date": "2026-05-22T21:01:16.656860+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
+      "urls": [
+        "https://www.foxnews.com?msockid=3854550fc727644c3699426ec63065b6"
+      ],
+      "date": "2026-05-22T21:33:17.795104+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T21:01:16.656910+00:00"
+  "lastUpdated": "2026-05-22T21:33:17.795174+00:00"
 }
