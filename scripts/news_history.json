@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Inc.",
-      "urls": [
-        "https://seekingalpha.com/market-news/technology",
-        "https://www.investopedia.com/tech-sector-news-7111384",
-        "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
-        "https://www.fa-mag.com/news/80-seconds-of-big-tech-earnings-will-decide-stock-market-s-fate-86808.html",
-        "https://www.barrons.com/topics/technology"
-      ],
-      "date": "2026-05-12T17:07:20.266617+00:00"
-    },
-    {
       "title": "Envision Glasses provide real-time text recognition and voice-controlled navigation for people who a",
       "urls": [
         "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired",
@@ -5019,7 +5008,18 @@
         "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=22a2c4e9b4fa67d30da5d388b5ee66ce"
       ],
       "date": "2026-05-22T17:01:17.028164+00:00"
+    },
+    {
+      "title": "Marathon Runners Complete 42.195 Kilometers In World Athletics Event",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Marathon",
+        "https://www.bungie.net/7/en/News/Marathon",
+        "https://runningintheusa.com/classic/list/map/marathon/upcoming",
+        "https://www.marathonguide.com/marathons/usa/va",
+        "https://www.marathonthegame.com"
+      ],
+      "date": "2026-05-22T17:32:08.091312+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T17:01:17.028233+00:00"
+  "lastUpdated": "2026-05-22T17:32:08.091374+00:00"
 }
