@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Japan is advancing medical diagnostics through innovations in biomarkers, AI integration, and point-",
-      "urls": [
-        "https://www.nature.com/articles/d42473-024-00347-1",
-        "https://www.cedars-sinai.edu/health-sciences-university/research/news.html",
-        "https://newsnetwork.mayoclinic.org/category/medical-innovation",
-        "https://www.youtube.com/watch?v=tvwCWwpY-X8"
-      ],
-      "date": "2026-05-12T19:06:15.026430+00:00"
-    },
-    {
       "title": "AlphaEvolve is a Gemini-powered coding agent developed by Google DeepMind to design advanced algorit",
       "urls": [
         "https://www.instagram.com/p/DYP9-7ygunI",
@@ -5025,7 +5015,14 @@
         "https://www.latimes.com/california/latest-california-news"
       ],
       "date": "2026-05-22T19:01:25.644345+00:00"
+    },
+    {
+      "title": "The Incredibles Revolutionizes Animation With Superhero Family Saga",
+      "urls": [
+        "https://en.wikipedia.org/wiki/The_Incredibles"
+      ],
+      "date": "2026-05-22T19:32:10.537113+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T19:01:25.644403+00:00"
+  "lastUpdated": "2026-05-22T19:32:10.537178+00:00"
 }
