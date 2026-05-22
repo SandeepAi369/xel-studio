@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Smashes Marathon World Record In 2:01:05",
-      "urls": [
-        "https://www.guinnessworldrecords.com/news/sports-and-fitness",
-        "https://www.news.com.au/sport/olympics/athletics/nike-dealt-new-setback-as-sabastian-sawe-breaks-marathon-world-record-wearing-adidas-trainers/news-story/83c7914112469af2b310df9d926e5a15"
-      ],
-      "date": "2026-05-12T00:37:18.394545+00:00"
-    },
-    {
-      "title": "Trump Reverses Stance On EU Trade Deal Amid Rising Tariff Tensions",
-      "urls": [
-        "https://www.wto.org/english/news_e/news24_e/publ_21nov24_e.htm",
-        "https://www.theguardian.com/business/internationaltrade",
-        "https://www.nytimes.com/topic/subject/international-trade-and-world-market-trade-disputes",
-        "https://www.weforum.org/stories/2024/10/ai-global-trade-policymaking",
-        "https://www.reuters.com/company/the-united-states-international-trade-commission"
-      ],
-      "date": "2026-05-12T01:04:20.350907+00:00"
-    },
-    {
       "title": "PyTorch continues to dominate the open-source machine learning landscape, maintaining strong adoptio",
       "urls": [
         "https://vmblog.com/archive/2022/07/20/the-comparison-between-pytorch-and-tensorflow-which-framework-is-best-for-your-ai.aspx"
@@ -5056,7 +5037,14 @@
         "https://www.nbcbayarea.com"
       ],
       "date": "2026-05-22T00:33:11.470684+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly To Serve 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=299681f1f55c612135099690f478607c"
+      ],
+      "date": "2026-05-22T01:04:23.145881+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T00:33:11.470741+00:00"
+  "lastUpdated": "2026-05-22T01:04:23.145951+00:00"
 }
