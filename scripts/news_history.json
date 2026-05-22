@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services Generates Over $100 Billion In 2024 Revenue",
-      "urls": [
-        "https://www.statista.com/topics/4213/google-apple-facebook-amazon-and-microsoft-gafam?srsltid=AfmBOorjzYbUD3jt-zO8SOW7AALJlKXy5BrmpxVX-_FlaBv-_HDfARmv",
-        "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805",
-        "https://www.youtube.com/watch?v=71jOb3lzymM",
-        "https://twit.tv/shows/windows-weekly/episodes/982",
-        "https://www.instagram.com/p/DYMotvYDXPQ"
-      ],
-      "date": "2026-05-12T13:06:51.558391+00:00"
-    },
-    {
       "title": "Liftware Steady integrates stabilizing technology into assistive eating utensils, helping individual",
       "urls": [
         "https://www.kent.edu/equalaccess/news/assistive-technology-innovations-driving-equity",
@@ -5024,7 +5013,15 @@
         "https://www.npr.org/sections/world"
       ],
       "date": "2026-05-22T13:01:14.257633+00:00"
+    },
+    {
+      "title": "Global Aviation Holdings Operates World Airways and North American Airlines",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Global",
+        "https://www.bbc.com/news/world"
+      ],
+      "date": "2026-05-22T13:31:11.153347+00:00"
     }
   ],
-  "lastUpdated": "2026-05-22T13:01:14.257700+00:00"
+  "lastUpdated": "2026-05-22T13:31:11.153419+00:00"
 }
