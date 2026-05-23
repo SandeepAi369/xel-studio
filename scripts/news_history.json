@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Rolls Out End-To-End Encrypted RCS In iOS 26.5 Update",
-      "urls": [
-        "https://techcrunch.com",
-        "https://www.techradar.com",
-        "https://www.theverge.com/tech",
-        "https://www.wired.com",
-        "https://www.pcmag.com/news",
-        "https://www.reuters.com/technology",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-        "https://get.tech",
-        "https://www.bbc.com/technology/tech-now",
-        "https://arstechnica.com"
-      ],
-      "date": "2026-05-13T06:38:25.307913+00:00"
-    },
-    {
       "title": "BBC Breakfast Anchors React To Sudden Death Of Veteran Crew Member",
       "urls": [
         "https://www.onmanorama.com/news/kerala.html",
@@ -4993,7 +4977,15 @@
         "https://wmo.int/topics/climate"
       ],
       "date": "2026-05-23T06:32:02.032530+00:00"
+    },
+    {
+      "title": "TechSpot Benchmarks Latest CPUs and GPUs in 50 Real-World Tests",
+      "urls": [
+        "https://www.pcmag.com",
+        "https://www.techspot.com"
+      ],
+      "date": "2026-05-23T07:01:10.105106+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T06:32:02.032597+00:00"
+  "lastUpdated": "2026-05-23T07:01:10.105173+00:00"
 }
