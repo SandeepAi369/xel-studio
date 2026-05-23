@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Launches Redesigned Website And Mobile App",
-      "urls": [
-        "https://www.foxnews.com?msockid=3dfc218eaa3d6f49374d36d6abd06ee9"
-      ],
-      "date": "2026-05-13T23:04:20.394430+00:00"
-    },
-    {
       "title": "California Runs On 67% Clean Energy In 2023",
       "urls": [
         "https://money.usnews.com/investing/articles/renewable-energy-stocks-to-consider",
@@ -4977,7 +4970,16 @@
         "https://www.auamed.org/blog/what-is-telemedicine"
       ],
       "date": "2026-05-23T23:01:12.838800+00:00"
+    },
+    {
+      "title": "OpenEvidence Delivers Real-Time Clinical Insights To 30 U.S. Hospitals",
+      "urls": [
+        "https://www.openevidence.com",
+        "https://www.merriam-webster.com/dictionary/open",
+        "https://dictionary.cambridge.org/dictionary/english/open"
+      ],
+      "date": "2026-05-23T23:30:58.290047+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T23:01:12.838865+00:00"
+  "lastUpdated": "2026-05-23T23:30:58.290115+00:00"
 }
