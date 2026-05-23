@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Japan experienced a magnitude 7.",
-      "urls": [
-        "https://www.youtube.com/@DisasterToday",
-        "https://www.volcanodiscovery.com/news.html",
-        "https://www.newsnow.com/us/World/Natural+Disasters",
-        "https://7news.com.au/weather/natural-disasters",
-        "https://earthquaketoday.org",
-        "https://www.reuters.com/world/earthquakes",
-        "https://earthquakesworldwide.com/earthquakes/recent",
-        "https://www.usgs.gov/programs/earthquake-hazards/earthquakes"
-      ],
-      "date": "2026-05-13T22:35:05.864091+00:00"
-    },
-    {
       "title": "Fox News Launches Redesigned Website And Mobile App",
       "urls": [
         "https://www.foxnews.com?msockid=3dfc218eaa3d6f49374d36d6abd06ee9"
@@ -4981,7 +4967,17 @@
         "https://www.dictionary.net/dictionary/visually"
       ],
       "date": "2026-05-23T22:32:00.884881+00:00"
+    },
+    {
+      "title": "Telehealth Expands Access To Care For Rural Patients",
+      "urls": [
+        "https://telehealth.hhs.gov/patients/why-use-telehealth",
+        "https://www.medicalnewstoday.com/articles/telemedicine",
+        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
+        "https://www.auamed.org/blog/what-is-telemedicine"
+      ],
+      "date": "2026-05-23T23:01:12.838800+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T22:32:00.884950+00:00"
+  "lastUpdated": "2026-05-23T23:01:12.838865+00:00"
 }
