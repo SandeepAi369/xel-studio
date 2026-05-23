@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Extreme Announces 2026 Reunion Tour With Original Members",
-      "urls": [
-        "https://www.ticketmaster.com/Extreme-tickets/artist/907103?msockid=0ccfc93bf04767fc2609de63f16a66fb"
-      ],
-      "date": "2026-05-13T18:04:25.661634+00:00"
-    },
-    {
       "title": "DeepSeek Launches Open-Source V4 And V4-Large AI Models With 128K-Token Context",
       "urls": [
         "https://github.com/QwenLM/Qwen3.6",
@@ -4987,7 +4980,17 @@
         "https://www.accuweather.com/en/us/sandston/23150/weather-forecast/341252"
       ],
       "date": "2026-05-23T18:02:14.447671+00:00"
+    },
+    {
+      "title": "DEA Classifies Marijuana As Schedule I Drug Despite State Legalization Efforts",
+      "urls": [
+        "https://www.dea.gov",
+        "https://www.webmd.com/drugs/2/index",
+        "https://www.rxlist.com",
+        "https://medshadow.org/drug-updates-recalls/drug-safety/controlled-drug-classifications-schedule-i-ii-iii-iv-v"
+      ],
+      "date": "2026-05-23T18:31:00.455967+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T18:02:14.447745+00:00"
+  "lastUpdated": "2026-05-23T18:31:00.456033+00:00"
 }
