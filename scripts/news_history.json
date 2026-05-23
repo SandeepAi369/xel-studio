@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC Breakfast Anchors React To Sudden Death Of Veteran Crew Member",
-      "urls": [
-        "https://www.onmanorama.com/news/kerala.html",
-        "https://localaccidentreports.com/recent-accident-alerts-crash-reports-updated-daily",
-        "https://www.mirror.co.uk/tv/tv-news/bbc-breakfast-host-shares-devastating-37103916",
-        "https://www.newsnow.co.uk/h/Sport/Football/La+Liga/Barcelona",
-        "https://www.timesofai.com/news/ai"
-      ],
-      "date": "2026-05-13T07:07:35.445895+00:00"
-    },
-    {
       "title": "Katie Wilson has been elected mayor of Seattle, defeating incumbent Bruce Harrell by a margin of 0.",
       "urls": [
         "https://kingcounty.gov/en/dept/elections",
@@ -4985,7 +4974,19 @@
         "https://www.techspot.com"
       ],
       "date": "2026-05-23T07:01:10.105106+00:00"
+    },
+    {
+      "title": "Palantir Engineers Build Auditing Tools For ICE During Hack Week",
+      "urls": [
+        "https://techcrunch.com",
+        "https://www.techradar.com",
+        "https://www.theverge.com/tech",
+        "https://www.reuters.com/technology",
+        "https://www.wired.com",
+        "https://arstechnica.com"
+      ],
+      "date": "2026-05-23T07:33:07.671312+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T07:01:10.105173+00:00"
+  "lastUpdated": "2026-05-23T07:33:07.671378+00:00"
 }
