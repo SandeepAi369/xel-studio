@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mental Health affects emotional, psychological, and social well-being, influencing how individuals t",
-      "urls": [
-        "https://www.samhsa.gov/mental-health",
-        "https://www.webmd.com/mental-health/default.htm"
-      ],
-      "date": "2026-05-13T11:04:22.996661+00:00"
-    },
-    {
       "title": "Digital technology refers to systems that process information using discrete binary values, typicall",
       "urls": [
         "https://www.merriam-webster.com/dictionary/digital",
@@ -4985,7 +4977,14 @@
         "https://sahumane.org/wild-life"
       ],
       "date": "2026-05-23T11:01:19.525851+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=29908d2527cb62cf051b9a472628636c"
+      ],
+      "date": "2026-05-23T11:32:07.570235+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T11:01:19.525914+00:00"
+  "lastUpdated": "2026-05-23T11:32:07.570295+00:00"
 }
