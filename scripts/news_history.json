@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Katie Wilson has been elected mayor of Seattle, defeating incumbent Bruce Harrell by a margin of 0.",
-      "urls": [
-        "https://kingcounty.gov/en/dept/elections",
-        "https://www.sos.wa.gov/elections",
-        "https://ballotpedia.org/Washington_election_calendar",
-        "https://www.nbcnews.com/politics/elections",
-        "https://www.fox13seattle.com/news/election-live-updates-early-results",
-        "https://results.votewa.gov/results/public/washington",
-        "https://www.seattletimes.com/seattle-news/politics/washington-state-election-results-2025",
-        "https://komonews.com/elections/local",
-        "https://en.wikipedia.org/wiki/2025_Seattle_mayoral_election",
-        "https://seattlered.com/politics/katie-wilson-seattle-mayor-2/4115129"
-      ],
-      "date": "2026-05-13T08:08:42.139452+00:00"
-    },
-    {
       "title": "National Institute of Mental Health Launches New Online Resources for Depression and Anxiety",
       "urls": [
         "https://my.clevelandclinic.org/health/articles/mental-health",
@@ -4995,7 +4979,17 @@
         "https://www.newsbreak.com"
       ],
       "date": "2026-05-23T08:01:21.412672+00:00"
+    },
+    {
+      "title": "Calhoun High School Sandcrabs Compete in Class 3A Division I Football",
+      "urls": [
+        "https://www.maxpreps.com/tx/port-lavaca/calhoun-sandcrabs/football",
+        "https://www.bbc.co.uk/sport/football/scores-fixtures",
+        "https://www.calcoisd.org/250795_2",
+        "https://football.us"
+      ],
+      "date": "2026-05-23T08:34:08.261466+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T08:01:21.412736+00:00"
+  "lastUpdated": "2026-05-23T08:34:08.261546+00:00"
 }
