@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nations Compete for Control of Strategic Sea Lanes and Energy Reserves",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Geopolitics",
-        "https://www.britannica.com/topic/geopolitics",
-        "https://www.economist.com/topics/geopolitics",
-        "https://www.geopoliticalmonitor.com",
-        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography"
-      ],
-      "date": "2026-05-13T03:35:10.933568+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT 5.5 With Enhanced Reasoning And Multimodal Features",
       "urls": [
         "https://openai.com",
@@ -5019,7 +5008,15 @@
         "https://www.foxnews.com?msockid=1457b58c5e65688d36c1a2ee5fa769d4"
       ],
       "date": "2026-05-23T03:31:57.675311+00:00"
+    },
+    {
+      "title": "Sam Altman Returns to OpenAI After Boardroom Revolt",
+      "urls": [
+        "https://www.yelp.com/search?find_desc=Artificial+Turf&find_loc=Sandston%2C+VA&msockid=3508ca85020b69b31061dde703c26834",
+        "https://www.imdb.com/title/tt37171180"
+      ],
+      "date": "2026-05-23T04:01:04.931760+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T03:31:57.675380+00:00"
+  "lastUpdated": "2026-05-23T04:01:04.931828+00:00"
 }
