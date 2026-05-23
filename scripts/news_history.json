@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Noaa Reports Global Temperatures Rise 1.2 Degrees Since 1900",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Climate",
-        "https://www.climatestotravel.com/climate/united-states/boston",
-        "https://www.britannica.com/science/climate-meteorology",
-        "https://www.noaa.gov/climate",
-        "https://education.nationalgeographic.org/resource/all-about-climate",
-        "https://www.climate.gov/news-features/understanding-climate",
-        "https://wmo.int/topics/climate",
-        "https://scied.ucar.edu/learning-zone/how-climate-works/climate",
-        "https://www.usgs.gov/science/science-explorer/climate"
-      ],
-      "date": "2026-05-13T01:33:56.639174+00:00"
-    },
-    {
       "title": "Oklahoma City Thunder Defeat Los Angeles Lakers To End LeBron James 23rd Season",
       "urls": [
         "https://sports.yahoo.com",
@@ -5019,7 +5004,17 @@
         "https://www.ibm.com/think/topics/renewable-energy"
       ],
       "date": "2026-05-23T01:30:55.383368+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts Over 2.2 Million Open-Weight AI Models",
+      "urls": [
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://af.net/realtime/open-source-ai-tools-advance-in-may-2026-hugging-face-langchain-and-developer-innovations",
+        "https://ainews.cool/article/20260321-hugging-face-open-source-spring-2026",
+        "https://www.programming-helper.com/tech/hugging-face-2026-2-million-models-80-percent-downloads-python"
+      ],
+      "date": "2026-05-23T02:02:11.607019+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T01:30:55.383426+00:00"
+  "lastUpdated": "2026-05-23T02:02:11.607089+00:00"
 }
