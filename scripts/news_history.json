@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging frequency is strongly linked to mental health, with a 2025 study of over 3,200 participants ",
-      "urls": [
-        "https://github.com/huggingface",
-        "https://en.m.wikipedia.org/wiki/Hugging_face",
-        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202512/the-top-scientific-insights-on-hugging-from-2025?msockid=08429ff675df63171d2f88ae74386290",
-        "https://www.healthline.com/health/hugging-benefits",
-        "https://www.techradar.com/pro/what-is-hugging-face-everything-we-know-about-the-ml-platform",
-        "https://www.wikihow.com/Types-of-Hugs",
-        "https://www.verywellmind.com/the-power-of-a-hug-on-your-health-5211361",
-        "https://www.huggingfaceapi.com",
-        "https://www.ibm.com/think/topics/hugging-face"
-      ],
-      "date": "2026-05-13T10:06:18.433337+00:00"
-    },
-    {
       "title": "OpenEvidence Delivers Peer Reviewed Clinical Insights To Healthcare Providers",
       "urls": [
         "https://www.openevidence.com",
@@ -4995,7 +4980,15 @@
         "https://www.foxnews.com?msockid=2edf406d0ba168c93f3b570f0a186909"
       ],
       "date": "2026-05-23T10:01:16.214794+00:00"
+    },
+    {
+      "title": "Apple Develops Unreleased Device With Model Number A3577",
+      "urls": [
+        "https://apps.microsoft.com/detail/9pfhdd62mxs1",
+        "https://www.macrumors.com"
+      ],
+      "date": "2026-05-23T10:31:59.679170+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T10:01:16.214874+00:00"
+  "lastUpdated": "2026-05-23T10:31:59.679237+00:00"
 }
