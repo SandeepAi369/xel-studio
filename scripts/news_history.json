@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC Reporters Cover Global Crises From 100 Countries",
-      "urls": [
-        "https://www.foxnews.com?msockid=2342344a8bd86d1c181023128a566c47",
-        "https://apnews.com",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
-        "https://www.bbc.com/news",
-        "https://www.usatoday.com",
-        "https://abc7chicago.com/news"
-      ],
-      "date": "2026-05-13T00:34:12.058966+00:00"
-    },
-    {
       "title": "Noaa Reports Global Temperatures Rise 1.2 Degrees Since 1900",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Climate",
@@ -5015,7 +5003,14 @@
         "https://iere.org/what-is-renewable-energy"
       ],
       "date": "2026-05-23T00:30:58.954385+00:00"
+    },
+    {
+      "title": "Nilesh Patel Leads Gadgets 360 Editorial Strategy",
+      "urls": [
+        "https://www.gadgets360.com"
+      ],
+      "date": "2026-05-23T01:01:06.705571+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T00:30:58.954448+00:00"
+  "lastUpdated": "2026-05-23T01:01:06.705632+00:00"
 }
