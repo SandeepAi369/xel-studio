@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News launched a redesigned website and mobile platform to improve user navigation and increase e",
-      "urls": [
-        "https://www.foxnews.com?msockid=110f1cc081de6fe81b7e0b9880f86e2c"
-      ],
-      "date": "2026-05-13T20:06:22.495280+00:00"
-    },
-    {
       "title": "Quantum Health provides healthcare navigation services designed to streamline benefits usage for emp",
       "urls": [
         "https://en.wikipedia.org/wiki/Quantum",
@@ -4992,7 +4985,14 @@
         "https://copilot.microsoft.com?msockid=0e319190b48960cb145d86f2b5a7613c"
       ],
       "date": "2026-05-23T20:01:05.021780+00:00"
+    },
+    {
+      "title": "Apple To Unveil M4-Powered iPad Pro With OLED Display In 2026",
+      "urls": [
+        "https://www.macworld.com/article/671090/new-apple-products-iphone-ipad-mac-watch.html"
+      ],
+      "date": "2026-05-23T20:31:09.995701+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T20:01:05.021837+00:00"
+  "lastUpdated": "2026-05-23T20:31:09.995772+00:00"
 }
