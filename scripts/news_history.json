@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Be My Eyes Foundation has launched a new initiative to provide free accessibility tools for blind an",
-      "urls": [
-        "https://www.bemyeyes.com/news/be-my-eyes-foundation-launches-to-ensure-free-access-to-accessibility-technology-for-blind-people-worldwide"
-      ],
-      "date": "2026-05-13T21:37:18.830207+00:00"
-    },
-    {
       "title": "Google DeepMind is advancing research in artificial general intelligence (AGI), with CEO Demis Hassa",
       "urls": [
         "https://www.nature.com/news",
@@ -4980,7 +4973,23 @@
         "https://www.sec.gov/files/ctf-input-jean-noel-1-2025-3-20.pdf"
       ],
       "date": "2026-05-23T21:36:13.699088+00:00"
+    },
+    {
+      "title": "Erlanger Health System Expands Services Across Four Hospitals in Southeastern Network",
+      "urls": [
+        "https://www.healthcare.gov",
+        "https://www.erlanger.org",
+        "https://health.hamiltontn.org/en-us/information/healthcenterlocations/homelesshealthcarecenter.aspx",
+        "https://www.parkridgehealth.com",
+        "https://health.usnews.com/best-hospitals/area/chattanooga-tn",
+        "https://www.healthgrades.com",
+        "https://www.covenanthealth.com",
+        "https://www.uhc.com?msockid=3cbdbb2046fe6a1b3d2cac4247736b2c",
+        "https://www.commonspirit.org/find-a-location/commonspirit-memorial-hospital-chattanooga-85",
+        "https://choosechatt.com/services/healthcare"
+      ],
+      "date": "2026-05-23T22:01:16.031106+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T21:36:13.699157+00:00"
+  "lastUpdated": "2026-05-23T22:01:16.031178+00:00"
 }
