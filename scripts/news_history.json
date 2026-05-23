@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Institute of Mental Health Launches New Online Resources for Depression and Anxiety",
-      "urls": [
-        "https://my.clevelandclinic.org/health/articles/mental-health",
-        "https://www.merriam-webster.com/dictionary/mental",
-        "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/mental-health/art-20044098",
-        "https://www.nimh.nih.gov/health",
-        "https://www.mentalhealth.org/basics/what-is-mental-health"
-      ],
-      "date": "2026-05-13T08:36:24.694784+00:00"
-    },
-    {
       "title": "Fox News has launched a redesigned website and mobile platform to improve user navigation and increa",
       "urls": [
         "https://www.foxnews.com?msockid=337b7c98a4f365ed2a526bc0a5c96475"
@@ -4989,7 +4978,17 @@
         "https://football.us"
       ],
       "date": "2026-05-23T08:34:08.261466+00:00"
+    },
+    {
+      "title": "Google Adds Open To Preferred Sources For Italian Users",
+      "urls": [
+        "https://chatgpt.com",
+        "https://openai.com",
+        "https://en.wikipedia.org/wiki/Open_Season_(2006_film)",
+        "https://www.open.online"
+      ],
+      "date": "2026-05-23T09:04:13.210779+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T08:34:08.261546+00:00"
+  "lastUpdated": "2026-05-23T09:04:13.210846+00:00"
 }
