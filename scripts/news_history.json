@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Human Activities Drive Climate Change With Rising Emissions",
-      "urls": [
-        "https://weather.metoffice.gov.uk/climate/climate-explained/what-is-climate",
-        "https://www.usgs.gov/faqs/why-climate-change-happening-and-what-are-causes"
-      ],
-      "date": "2026-05-13T04:35:12.988930+00:00"
-    },
-    {
       "title": "NV Access Enhances NVDA Screen Reader with Artificial Intelligence Features",
       "urls": [
         "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
@@ -5007,7 +4999,14 @@
         "https://www.foxnews.com?msockid=14d8245692f7660f369d333493bf6781"
       ],
       "date": "2026-05-23T04:33:07.495673+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=24b9753d4e9068730f6d625f4f37691a"
+      ],
+      "date": "2026-05-23T05:01:08.602744+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T04:33:07.495740+00:00"
+  "lastUpdated": "2026-05-23T05:01:08.602811+00:00"
 }
