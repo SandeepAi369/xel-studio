@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News has launched a redesigned website and mobile platform to improve user navigation and increa",
-      "urls": [
-        "https://www.foxnews.com?msockid=337b7c98a4f365ed2a526bc0a5c96475"
-      ],
-      "date": "2026-05-13T09:04:21.018931+00:00"
-    },
-    {
       "title": "Hugging frequency is strongly linked to mental health, with a 2025 study of over 3,200 participants ",
       "urls": [
         "https://github.com/huggingface",
@@ -4988,7 +4981,14 @@
         "https://www.open.online"
       ],
       "date": "2026-05-23T09:04:13.210779+00:00"
+    },
+    {
+      "title": "Modern Library Announces 100 Best Nonfiction Works With Adams Leading",
+      "urls": [
+        "https://www.listchallenges.com/modern-librarys-100-best-nonfiction-works/list/2"
+      ],
+      "date": "2026-05-23T09:32:03.504029+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T09:04:13.210846+00:00"
+  "lastUpdated": "2026-05-23T09:32:03.504124+00:00"
 }
