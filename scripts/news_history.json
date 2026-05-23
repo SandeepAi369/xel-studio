@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google and SpaceX are in talks to launch orbital data centers, aiming to bypass terrestrial power an",
-      "urls": [
-        "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-34th-station-resupply-launch-arrival",
-        "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch",
-        "https://orbysa.com/news/misc/2025-09-29-recent-advances-in-rocket-technology-highlights-from-spacex-and-nasa",
-        "https://spaceheadlines.com",
-        "https://www.reuters.com/technology/space",
-        "https://www.launchtracker.space",
-        "https://interestingengineering.com/space",
-        "https://www.space.com/tag/spacex",
-        "https://www.spacex.com/updates"
-      ],
-      "date": "2026-05-13T16:36:20.019070+00:00"
-    },
-    {
       "title": "Google Launches Gemini Advanced With Enhanced AI Capabilities",
       "urls": [
         "https://gemini.google.com",
@@ -4994,7 +4979,14 @@
         "https://www.flashscore.com/tennis/wta-singles"
       ],
       "date": "2026-05-23T16:32:16.831379+00:00"
+    },
+    {
+      "title": "Teladoc Health Delivers Over 10 Million Virtual Care Visits Annually",
+      "urls": [
+        "https://www.teladochealth.com"
+      ],
+      "date": "2026-05-23T17:01:08.609553+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T16:32:16.831442+00:00"
+  "lastUpdated": "2026-05-23T17:01:08.609616+00:00"
 }
