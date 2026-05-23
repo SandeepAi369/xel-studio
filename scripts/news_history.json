@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT 5.5 With Enhanced Reasoning And Multimodal Features",
-      "urls": [
-        "https://openai.com",
-        "https://chatgpt.com",
-        "https://en.wikipedia.org/wiki/OpenAI",
-        "https://www.open-openai.com/app",
-        "https://www.forbes.com/companies/openai",
-        "https://builtin.com/artificial-intelligence/openai-gpt-5-release",
-        "https://openai.com/index/introducing-gpt-5-3-codex-spark",
-        "https://openai.com/index/introducing-gpt-5-3-codex",
-        "https://www.timesofai.com/news/openai-releases-gpt-5-5-spud-ai-model",
-        "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions"
-      ],
-      "date": "2026-05-13T04:06:17.606024+00:00"
-    },
-    {
       "title": "Human Activities Drive Climate Change With Rising Emissions",
       "urls": [
         "https://weather.metoffice.gov.uk/climate/climate-explained/what-is-climate",
@@ -5016,7 +5000,14 @@
         "https://www.imdb.com/title/tt37171180"
       ],
       "date": "2026-05-23T04:01:04.931760+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Users Across Platforms",
+      "urls": [
+        "https://www.foxnews.com?msockid=14d8245692f7660f369d333493bf6781"
+      ],
+      "date": "2026-05-23T04:33:07.495673+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T04:01:04.931828+00:00"
+  "lastUpdated": "2026-05-23T04:33:07.495740+00:00"
 }
