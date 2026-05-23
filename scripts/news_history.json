@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telemedicine enables patients to access clinical care remotely using digital communication tools, ex",
-      "urls": [
-        "https://www.medicalnewstoday.com/articles/telemedicine",
-        "https://telehealth.hhs.gov/patients/why-use-telehealth",
-        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
-        "https://doxy.me",
-        "https://www.auamed.org/blog/what-is-telemedicine"
-      ],
-      "date": "2026-05-13T19:05:51.207420+00:00"
-    },
-    {
       "title": "CBS News Launches 24/7 Streaming Channel For Live Coverage",
       "urls": [
         "https://www.youtube.com/c/CBSNews/live",
@@ -4988,7 +4977,23 @@
         "https://grok.com"
       ],
       "date": "2026-05-23T19:02:08.932836+00:00"
+    },
+    {
+      "title": "Andy Marshall Wins Williamson County Mayoral Primary With 12864 Votes",
+      "urls": [
+        "https://sos.tn.gov/govotetn",
+        "https://williamsonchamber.com/vote",
+        "https://www.msn.com/en-us/news/politics/williamson-county-election-results-whos-ahead-in-all-the-local-races/ar-AA22sDaq",
+        "https://www.nbcnews.com/politics/elections",
+        "https://www.williamsoncounty-tn.gov/2173/Sample-Ballots",
+        "https://ballotpedia.org/Tennessee_election_calendar",
+        "https://www.wkrn.com/news/tennessee-politics/tn-election-results-mayoral-races-may-5-2026",
+        "https://www.vote.org/polling-place-locator",
+        "https://www.wsmv.com/2026/04/16/early-voting-has-begun-primary-election-heres-what-know-davidson-williamson-counties",
+        "https://www.ballotready.org/us/tennessee"
+      ],
+      "date": "2026-05-23T19:30:55.698909+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T19:02:08.932904+00:00"
+  "lastUpdated": "2026-05-23T19:30:55.698976+00:00"
 }
