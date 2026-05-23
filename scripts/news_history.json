@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CBS News Launches 24/7 Streaming Channel For Live Coverage",
-      "urls": [
-        "https://www.youtube.com/c/CBSNews/live",
-        "https://www.foxnews.com?msockid=303034925f67608e148523ca5e5961ec"
-      ],
-      "date": "2026-05-13T19:36:11.918078+00:00"
-    },
-    {
       "title": "Fox News launched a redesigned website and mobile platform to improve user navigation and increase e",
       "urls": [
         "https://www.foxnews.com?msockid=110f1cc081de6fe81b7e0b9880f86e2c"
@@ -4993,7 +4985,14 @@
         "https://www.ballotready.org/us/tennessee"
       ],
       "date": "2026-05-23T19:30:55.698909+00:00"
+    },
+    {
+      "title": "Microsoft Copilot Launches AI Assistant Across Windows And Office Suite",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=0e319190b48960cb145d86f2b5a7613c"
+      ],
+      "date": "2026-05-23T20:01:05.021780+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T19:30:55.698976+00:00"
+  "lastUpdated": "2026-05-23T20:01:05.021837+00:00"
 }
