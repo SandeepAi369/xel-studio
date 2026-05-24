@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medi-Cal Expands Coverage to 15 Million Californians Annually",
-      "urls": [
-        "https://mcweb.apps.prd.cammis.medi-cal.ca.gov",
-        "https://www.sihd.org",
-        "https://www.webmd.com",
-        "https://www.medicalnewstoday.com",
-        "https://www.mayoclinic.org/diseases-conditions",
-        "https://my.clevelandclinic.org/health",
-        "https://medlineplus.gov",
-        "https://lonepinechamber.org/relocating/health-services-in-the-lone-pine-area",
-        "https://www.merriam-webster.com/dictionary/medical"
-      ],
-      "date": "2026-05-14T14:31:27.248970+00:00"
-    },
-    {
       "title": "Digital Engineering is a U.",
       "urls": [
         "https://deii.net"
@@ -4950,7 +4935,14 @@
         "https://bigislandnow.com"
       ],
       "date": "2026-05-24T14:31:06.967855+00:00"
+    },
+    {
+      "title": "Microsoft Launches Copilot Studio for Custom AI Agents",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=3ff4b3bd84356aac0758a4de85576b98"
+      ],
+      "date": "2026-05-24T15:01:13.152838+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T14:31:06.967918+00:00"
+  "lastUpdated": "2026-05-24T15:01:13.152907+00:00"
 }
