@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Dragon Cargo Ship To International Space Station",
-      "urls": [
-        "https://www.space.com/space-exploration/launches-spacecraft",
-        "https://spaceflightnow.com",
-        "https://www.usatoday.com/story/news/nation/2025/12/22/spacex-nasa-blue-origin-rocket-launches/87841665007",
-        "https://www.spacelaunchschedule.com",
-        "https://www.nasa.gov/news/recently-published",
-        "https://apnews.com/article/nasa-space-telescope-spherex-9ee1c0aebd9ae961151b8783a3c8b612"
-      ],
-      "date": "2026-05-14T10:02:14.833271+00:00"
-    },
-    {
       "title": "Nvidia has solidified its position as a leader in artificial intelligence computing through its deve",
       "urls": [
         "https://www.nvidia.com/page/home.html",
@@ -4957,7 +4945,14 @@
         "https://www.healthcaredive.com/topic/telehealth"
       ],
       "date": "2026-05-24T10:01:18.804514+00:00"
+    },
+    {
+      "title": "OpenTable Connects 60000 Restaurants To 50 Million Monthly Bookings",
+      "urls": [
+        "https://secure.opentable.com"
+      ],
+      "date": "2026-05-24T10:31:10.054282+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T10:01:18.804593+00:00"
+  "lastUpdated": "2026-05-24T10:31:10.054345+00:00"
 }
