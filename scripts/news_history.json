@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Adobe Firefly Launches Unified AI Platform With 50 New Creative Tools",
-      "urls": [
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence",
-        "https://techcrunch.com/2024/08/14/meet-black-forest-labs-the-startup-powering-elon-musks-unhinged-ai-image-generator",
-        "https://blog.google/innovation-and-ai/technology/ai",
-        "https://blog.adobe.com/en/publish/2025/04/24/adobe-firefly-next-evolution-creative-ai-is-here",
-        "https://x.ai/news/grok-image-generation-release",
-        "https://techcrunch.com/2024/08/13/xais-grok-can-now-generate-images-on-x"
-      ],
-      "date": "2026-05-14T20:01:15.770757+00:00"
-    },
-    {
       "title": "OpenAI Enhances ChatGPT For Chinese Users With Localized Mandarin Optimization",
       "urls": [
         "https://github.com/Robertcell/chatgpt-for-chinese",
@@ -4918,7 +4906,18 @@
         "https://dictionary.cambridge.org/dictionary/english/extreme"
       ],
       "date": "2026-05-24T20:01:07.229670+00:00"
+    },
+    {
+      "title": "Pokémon Card Market Soars as Logan Paul Drives Million-Dollar Sales",
+      "urls": [
+        "https://gamebastion.com",
+        "https://www.theverge.com/games",
+        "https://gamedaily.com/news",
+        "https://www.cnbc.com/gaming?msockid=064aaaa34a126d543b7ebdc04bd36c3c",
+        "https://www.techspot.com/category/gaming"
+      ],
+      "date": "2026-05-24T20:32:00.661249+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T20:01:07.229741+00:00"
+  "lastUpdated": "2026-05-24T20:32:00.661314+00:00"
 }
