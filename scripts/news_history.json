@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Accelerates Starship Test Flights For NASA Mars Missions",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/spacex-prepares-to-launch-next-generation-starship-the-tallest-and-most-powerful-rocket-ever-built/ar-AA238ah0",
-        "https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5tYTNsM0VnSmxiaWdBUAE",
-        "https://spaceflightnow.com/launch-schedule"
-      ],
-      "date": "2026-05-14T18:01:11.142833+00:00"
-    },
-    {
-      "title": "Hugging Face Launches Transformers V5.8.0 With 128K Context Support",
-      "urls": [
-        "https://huggingface.co/blog",
-        "https://huggingface.co/huggingface",
-        "https://af.net/ar/realtime/latest-ai-innovations-from-hugging-face-github-and-arxiv-may-2026",
-        "https://www.essamamdani.com/blog/top-6-open-source-ai-models-april-2026",
-        "https://www.analyticsvidhya.com/blog/2025/11/top-open-source-models-on-huggingface",
-        "https://sider.ai/blog/ai-tools/is-hugging-face-still-the-best-open-source-ai-platform-an-honest-2025-review",
-        "https://releasebot.io/updates/huggingface"
-      ],
-      "date": "2026-05-14T18:31:01.290489+00:00"
-    },
-    {
       "title": "Jimmy Evert Tennis Center Reopens After $2 Million Renovation",
       "urls": [
         "https://www.tennistv.com/live-schedule",
@@ -4923,7 +4901,18 @@
         "https://www.disabilityresources.org/california-disability-benefits.html"
       ],
       "date": "2026-05-24T18:01:10.587550+00:00"
+    },
+    {
+      "title": "Mistral AI Reaches 14 Billion Valuation With Enterprise Focus",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Mistral_AI",
+        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
+        "https://www.cnbc.com/2026/05/19/mistral-cnbc-disruptor-50-ranking.html?msockid=3ecd44c2f0176d6829ca53a1f1216cd5",
+        "https://www.mistralinc.com",
+        "https://www.linkedin.com/company/mistralai"
+      ],
+      "date": "2026-05-24T18:34:12.343650+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T18:01:10.587612+00:00"
+  "lastUpdated": "2026-05-24T18:34:12.343713+00:00"
 }
