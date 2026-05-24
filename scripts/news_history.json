@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches New AI Model To Enhance Machine Learning Accuracy",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Artificial_intelligence",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=13cd83e79cf661270f3194be9d0860cb"
-      ],
-      "date": "2026-05-14T13:31:22.397223+00:00"
-    },
-    {
       "title": "EPFL and ETH Zurich are set to release a new open-source large language model (LLM) developed entire",
       "urls": [
         "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html",
@@ -4929,7 +4921,23 @@
         "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals"
       ],
       "date": "2026-05-24T13:02:25.577788+00:00"
+    },
+    {
+      "title": "Tokyo Landlords List Over 115000 Apartments on SUUMO and CHINTAI",
+      "urls": [
+        "https://suumo.jp/chintai/tokyo?msockid=317c039e1c566a42159314fd1d6f6b76",
+        "https://www.homes.co.jp/chintai/tokyo?msockid=317c039e1c566a42159314fd1d6f6b76",
+        "https://www.chintai.net/tokyo",
+        "https://www.athome.co.jp/chintai/tokyo/list",
+        "https://www.able.co.jp/tokyo",
+        "https://myhome.nifty.com/rent/ct_mansion/tokyo/search",
+        "https://airdoor.jp/tokyo",
+        "https://realestate.yahoo.co.jp/rent/03/13",
+        "https://www.pitat.com/rent/0/13/top",
+        "https://www.century21.jp/rent/tokyo"
+      ],
+      "date": "2026-05-24T13:32:01.719388+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T13:02:25.577856+00:00"
+  "lastUpdated": "2026-05-24T13:32:01.719462+00:00"
 }
