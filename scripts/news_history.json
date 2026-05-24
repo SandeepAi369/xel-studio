@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Starship Aims For Orbital Flight 12 In Early 2026",
-      "urls": [
-        "https://spacenews.com",
-        "https://www.usatoday.com/story/news/nation/2026/04/14/jeff-bezos-blue-origin-new-glenn-rocket-launch/89517889007",
-        "https://abcnews.com/Technology/nasa-unveils-ambitious-20-billion-moon-base-strategy/story?id=131361493",
-        "https://www.usatoday.com/story/news/nation/2026/01/07/spacex-starship-launch-date/88061735007",
-        "https://voyagertechnologies.com/newsroom",
-        "https://www.space.com/technology/cowboy-space-raises-usd275-million-to-launch-ai-data-centers-on-brand-new-rocket"
-      ],
-      "date": "2026-05-14T09:32:08.189321+00:00"
-    },
-    {
       "title": "SpaceX Launches Dragon Cargo Ship To International Space Station",
       "urls": [
         "https://www.space.com/space-exploration/launches-spacecraft",
@@ -4956,7 +4944,20 @@
         "https://www.foxnews.com?msockid=1517f35a3ae46fd525d4e4393b626e05"
       ],
       "date": "2026-05-24T09:31:59.770676+00:00"
+    },
+    {
+      "title": "Over 450 Health Groups Urge Congress to Make Telehealth Flexibilities Permanent",
+      "urls": [
+        "https://www.digitalhealthnews.com/category/telehealth",
+        "https://www.americantelemed.org/press-releases/groundbreaking-innovations-in-virtual-care-and-digital-health-recognized-during-5th-annual-ata-telehealth-innovators-challenge-at-nexus-2026",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
+        "https://healthmanagement.org/c/enterprise/News/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://www.mdpi.com/2673-8392/5/4/206",
+        "https://www.healthcaredive.com/topic/telehealth"
+      ],
+      "date": "2026-05-24T10:01:18.804514+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T09:31:59.770733+00:00"
+  "lastUpdated": "2026-05-24T10:01:18.804593+00:00"
 }
