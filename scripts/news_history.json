@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who World Health Organization Warns One Billion Lack Assistive Technologies",
-      "urls": [
-        "https://www.assistivetechnologynews.org",
-        "https://theconversation.com/topics/assistive-technology-14281",
-        "https://attoday.co.uk",
-        "https://journals.sagepub.com/home/tad",
-        "https://thinkbeyondthechair.org/the-best-assistive-tech-gadgets-in-2025-enhancing-independence-through-innovation",
-        "https://www.startdisability.com/making-life-easier-disabled/technology-assistive-general-intro",
-        "https://nod.org/driving-change/technology",
-        "https://www.computer.org/publications/tech-news/community-voices/ai-powered-wearables-assistive-technology"
-      ],
-      "date": "2026-05-14T04:34:07.890068+00:00"
-    },
-    {
-      "title": "Mistral AI has launched Mistral Large, a flagship large language model designed to compete with top-",
-      "urls": [
-        "https://techcrunch.com/2024/02/26/mistral-ai-releases-new-model-to-rival-gpt-4-and-its-own-chat-assistant",
-        "https://mistral.ai/news/devstral-2-vibe-cli",
-        "https://www.theverge.com/2024/2/26/24083510/microsoft-mistral-partnership-deal-azure-ai",
-        "https://www.reuters.com/business/frances-mistral-launches-europes-first-ai-reasoning-model-2025-06-10",
-        "https://www.zdnet.com/article/what-to-know-about-mistral-ai-the-company-behind-the-latest-gpt-4-rival"
-      ],
-      "date": "2026-05-14T05:05:29.449910+00:00"
-    },
-    {
       "title": "Wildlife Populations Drop 68% Since 1970 Due To Habitat Loss And Climate Change",
       "urls": [
         "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
@@ -4982,7 +4957,16 @@
         "https://www.target.com/s/computer+screens"
       ],
       "date": "2026-05-24T04:31:06.619200+00:00"
+    },
+    {
+      "title": "BBC News Deploys 250 Correspondents Across 150 Countries",
+      "urls": [
+        "https://www.foxnews.com?msockid=3afb386369ef6c3922e12f0068216d70",
+        "https://www.nytimes.com",
+        "https://www.bbc.com/news"
+      ],
+      "date": "2026-05-24T05:07:28.233918+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T04:31:06.619266+00:00"
+  "lastUpdated": "2026-05-24T05:07:28.233991+00:00"
 }
