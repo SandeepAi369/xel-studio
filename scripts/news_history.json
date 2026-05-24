@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildlife Populations Drop 68% Since 1970 Due To Habitat Loss And Climate Change",
-      "urls": [
-        "https://www.worldwildlife.org/news/stories/conservation-highlights-of-2025",
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://news.mongabay.com/list/wildlife-conservation",
-        "https://www.pbs.org/newshour/tag/wildlife-conservation",
-        "https://www.bbc.com/future/article/20251212-seven-quiet-wins-for-climate-and-nature-in-2025",
-        "https://www.nature.org/en-us/newsroom",
-        "https://www.conservation.cam.ac.uk/aggregator/sources/2",
-        "https://wildlife.org/news"
-      ],
-      "date": "2026-05-14T05:35:30.411479+00:00"
-    },
-    {
-      "title": "Gartner Predicts 75% of Global Economies Will Have Fragmented AI Regulations by 2030",
-      "urls": [
-        "https://cloud.google.com/learn/what-is-artificial-intelligence",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=31b093dff8c8661d21e68486f9e76780",
-        "https://www.ibm.com/think/topics/artificial-intelligence",
-        "https://www.illinois.gov/news/release.html",
-        "https://www.gartner.com/en/newsroom/press-releases/2026-02-17-gartner-global-ai-regulations-fuel-billion-dollar-market-for-ai-governance-platforms",
-        "https://www.nist.gov/itl/ai-risk-management-framework"
-      ],
-      "date": "2026-05-14T06:04:20.284720+00:00"
-    },
-    {
       "title": "Mayo Clinic has developed virtual clinical trials using advanced simulation models to accelerate the",
       "urls": [
         "https://newsnetwork.mayoclinic.org/discussion/a-year-of-discovery-10-mayo-clinic-research-breakthroughs-moving-medicine-forward",
@@ -4973,7 +4947,23 @@
         "https://www.foxnews.com?msockid=39561097243165910fb807f4250864cb"
       ],
       "date": "2026-05-24T05:31:05.875695+00:00"
+    },
+    {
+      "title": "Quantum Fiber Expands 940 Mbps Internet Across Minnesota",
+      "urls": [
+        "https://www.quantumfiber.com/local/mn",
+        "https://en.wikipedia.org/wiki/Quantum",
+        "https://www.britannica.com/science/quantum",
+        "https://www.merriam-webster.com/dictionary/quantum",
+        "https://www.sciencenewstoday.org/what-is-quantum-physics-a-beginners-guide",
+        "https://broadbandnow.com/quantum-fiber",
+        "https://www.quantum.com",
+        "https://quantum-health.com",
+        "https://www.space.com/quantum-physics-things-you-should-know",
+        "https://www.getquantumfiber.com/availability/mn"
+      ],
+      "date": "2026-05-24T06:04:31.376392+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T05:31:05.875750+00:00"
+  "lastUpdated": "2026-05-24T06:04:31.376462+00:00"
 }
