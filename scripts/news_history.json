@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Defined as Worldwide Phenomenon by Major Dictionaries",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/global",
-        "https://dictionary.cambridge.org/dictionary/english/global",
-        "https://www.dictionary.com/browse/global",
-        "https://www.wordreference.com/definition/global",
-        "https://www.thefreedictionary.com/global",
-        "https://www.ldoceonline.com/dictionary/global",
-        "https://www.yourdictionary.com/global",
-        "https://www.collinsdictionary.com/dictionary/english/global",
-        "https://www.britannica.com/dictionary/global",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/global"
-      ],
-      "date": "2026-05-14T11:03:16.752108+00:00"
-    },
-    {
-      "title": "Scientists Link Climate Change to Extreme Weather Events",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Climate",
-        "https://scied.ucar.edu/learning-zone/how-climate-works",
-        "https://climate.mit.edu",
-        "https://css.umich.edu/publications/factsheets/climate-change/climate-change-science-and-impacts-factsheet"
-      ],
-      "date": "2026-05-14T11:32:06.786490+00:00"
-    },
-    {
       "title": "United States has imposed a naval blockade on ships departing Iranian ports, escalating tensions ami",
       "urls": [
         "https://www.the-world-now.com/current-wars",
@@ -4953,7 +4927,14 @@
         "https://www.temple.edu/academics/degree-programs/healthcare-management-certificate-graduate-bu-hcm-grad"
       ],
       "date": "2026-05-24T11:01:14.600045+00:00"
+    },
+    {
+      "title": "OpenAI Prepares Confidential IPO Filing For U.S. Market",
+      "urls": [
+        "https://www.reuters.com/technology/openai"
+      ],
+      "date": "2026-05-24T11:33:08.104919+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T11:01:14.600115+00:00"
+  "lastUpdated": "2026-05-24T11:33:08.104981+00:00"
 }
