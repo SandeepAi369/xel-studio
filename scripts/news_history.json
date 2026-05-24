@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Top Esports Players Earn Millions Through Prize Winnings And Sponsorships",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Esports",
-        "https://esports.gg",
-        "https://www.britannica.com/sports/esports",
-        "https://www.talkesport.com/category/news/esports",
-        "https://estnn.com",
-        "https://www.bellevue.edu/articles/esports-explained-what-they-are-how-they-work-and-why-theyre-considered-a-sport",
-        "https://und.edu/blog/what-are-esports.html"
-      ],
-      "date": "2026-05-14T09:01:24.906427+00:00"
-    },
-    {
       "title": "SpaceX Starship Aims For Orbital Flight 12 In Early 2026",
       "urls": [
         "https://spacenews.com",
@@ -4955,7 +4942,14 @@
         "https://www.spacex.com"
       ],
       "date": "2026-05-24T08:32:09.857547+00:00"
+    },
+    {
+      "title": "Anthropic Launches Project Glasswing With 89% Accurate AI Threat Detection",
+      "urls": [
+        "https://www.youtube.com/@anthropic-ai"
+      ],
+      "date": "2026-05-24T09:05:20.720927+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T08:32:09.857621+00:00"
+  "lastUpdated": "2026-05-24T09:05:20.720995+00:00"
 }
