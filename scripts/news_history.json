@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tiger Woods Misses 2025 PGA Championship After DUI Arrest",
-      "urls": [
-        "https://www.msn.com/en-us/sports",
-        "https://coloradosprings.gov/sports",
-        "https://www.coloradospringssports.org"
-      ],
-      "date": "2026-05-14T00:35:15.458559+00:00"
-    },
-    {
       "title": "Microsoft Azure Advances Narrow AI With Machine Learning Tools",
       "urls": [
         "https://deepai.org/chat/what-is-ai",
@@ -4985,7 +4976,17 @@
         "https://www.wsoctv.com/news/local/updates-north-carolina-primary-election-results/UOO4PTG4N5FGHJLAR56K3EFQZA"
       ],
       "date": "2026-05-24T00:31:01.255278+00:00"
+    },
+    {
+      "title": "Social Security Disability Benefits Require 40 Work Credits For Eligibility",
+      "urls": [
+        "https://edd.ca.gov/Disability",
+        "https://www.disabilityrightsca.org",
+        "https://www.ncoa.org/article/a-guide-to-social-security-disability-insurance-benefits",
+        "https://www.aarp.org/social-security/faq/apply-for-disability-benefits?msockid=20a5b541f0aa6c1018c8a222f13f6d97"
+      ],
+      "date": "2026-05-24T01:02:11.062842+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T00:31:01.255348+00:00"
+  "lastUpdated": "2026-05-24T01:02:11.062938+00:00"
 }
