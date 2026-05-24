@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maricopa County Sees 17 Percent Rise in Homelessness Amid Soaring Rents",
-      "urls": [
-        "https://indianexpress.com/international",
-        "https://www.ndtv.com/latest",
-        "https://www.dailystar.co.uk/news/latest-news",
-        "https://www.gistlover.com",
-        "https://www.phoenixnewtimes.com/news"
-      ],
-      "date": "2026-05-14T16:03:53.493023+00:00"
-    },
-    {
-      "title": "Bitcoin remains the largest cryptocurrency by market capitalization, serving as the benchmark for th",
-      "urls": [
-        "https://coinmarketcap.com",
-        "https://www.investopedia.com/terms/c/cryptocurrency.asp",
-        "https://en.wikipedia.org/wiki/Cryptocurrency",
-        "https://www.britannica.com/money/what-is-cryptocurrency",
-        "https://www.schwab.com/learn/story/cryptocurrencies-what-are-they?msockid=093d5d54932861a837254a0d92a460a7",
-        "https://crypto.com/en/price",
-        "https://www.coingecko.com",
-        "https://www.marketwatch.com/investing/cryptocurrency",
-        "https://coincentral.com/cryptocurrency-prices",
-        "https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency"
-      ],
-      "date": "2026-05-14T16:31:06.990460+00:00"
-    },
-    {
       "title": "Bolton GPs Launch Autism Diagnostic Service to Cut Two Year Wait Times",
       "urls": [
         "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
@@ -4939,7 +4912,17 @@
         "https://m.youtube.com/watch?v=0FBiyFpV__g"
       ],
       "date": "2026-05-24T16:02:14.014557+00:00"
+    },
+    {
+      "title": "Stanford Report Shows Global AI Investment Reaches $150 Billion",
+      "urls": [
+        "https://www.36kr.com/p/3241185918133506",
+        "https://aivertical.chinacloudsites.cn",
+        "https://gemini.google.com?hl=zh",
+        "https://zh.wikipedia.org/wiki/人工智能"
+      ],
+      "date": "2026-05-24T16:36:22.991447+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T16:02:14.014633+00:00"
+  "lastUpdated": "2026-05-24T16:36:22.991520+00:00"
 }
