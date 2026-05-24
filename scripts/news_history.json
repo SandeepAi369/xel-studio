@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Adobe Launches Firefly AI Suite For Creators",
-      "urls": [
-        "https://www.iso.org/artificial-intelligence",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=05b6a084685f6f802578b7dd69556e7f",
-        "https://news.adobe.com/news/2025/04/adobe-revolutionizes-ai-assisted-creativity-firefly"
-      ],
-      "date": "2026-05-14T12:35:30.238164+00:00"
-    },
-    {
-      "title": "Google And Apple Partner On Gemini Powered Ai Integration",
-      "urls": [
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJ6ZGpRU0FtVnVLQUFQAQ?hl=en-US&ceid=US%3Aen",
-        "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&ceid=US%3Aen",
-        "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html?msockid=260ef07a1c8960740392e7231dfa61c9",
-        "https://www.apple.com/newsroom",
-        "https://www.techloy.com/2026-tech-events-calendar-every-major-ces-apple-google-samsung-and-ai-conference-to-watch",
-        "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple"
-      ],
-      "date": "2026-05-14T13:02:23.349589+00:00"
-    },
-    {
       "title": "Google Launches New AI Model To Enhance Machine Learning Accuracy",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Artificial_intelligence",
@@ -4941,7 +4919,17 @@
         "https://apps.microsoft.com/detail/9nt1r1c2hh7j"
       ],
       "date": "2026-05-24T12:35:15.016229+00:00"
+    },
+    {
+      "title": "Sony Sells Over 50 Million PlayStation 5 Units Worldwide",
+      "urls": [
+        "https://www.washingtonpost.com/entertainment/video-games",
+        "https://www.bestbuy.com/site/electronics/video-games/abcat0700000.c?id=abcat0700000",
+        "https://discord.com/servers/gaming",
+        "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals"
+      ],
+      "date": "2026-05-24T13:02:25.577788+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T12:35:15.016306+00:00"
+  "lastUpdated": "2026-05-24T13:02:25.577856+00:00"
 }
