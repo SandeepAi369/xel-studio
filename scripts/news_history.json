@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Njit And Nyu Launch Ai Audio Captioning Project For Deaf Accessibility",
-      "urls": [
-        "https://link.springer.com/article/10.1007/s10209-025-01270-y",
-        "https://nagish.com/post/latest-innovations-in-technology-for-deaf",
-        "https://news.njit.edu/njit-and-nyu-researchers-advance-ai-audio-captioning-deaf-and-hard-hearing-nsf-grant",
-        "https://thelinknewspaper.ca/article/ai-innovation-brings-new-opportunities-for-the-deaf-community",
-        "https://www.startasl.com/the-role-of-technology-in-connecting-the-deaf-community",
-        "https://dl.acm.org/doi/10.1145/3706598.3714241",
-        "https://deafphoenix.org/revolutionizing-accessibility-cutting-edge-tech-for-the-deaf-community",
-        "https://deafvibes.com/ai-and-accessibility-technologies/deaf-accessibility",
-        "https://gallaudet.edu/accessibility/gallaudet-experts-drive-accessibility-of-speech-tech-for-deaf-voices"
-      ],
-      "date": "2026-05-14T03:34:01.940438+00:00"
-    },
-    {
       "title": "Open Source AI Models Surge With 12000 New Releases",
       "urls": [
         "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-516g",
@@ -4984,7 +4969,18 @@
         "https://finance.yahoo.com/quote/OPEN"
       ],
       "date": "2026-05-24T03:31:56.871794+00:00"
+    },
+    {
+      "title": "Google Launches Multimodal Search With Advanced AI Features",
+      "urls": [
+        "https://www.google.com",
+        "https://search.google",
+        "https://about.google",
+        "https://accounts.google.com",
+        "https://www.google.com.ai"
+      ],
+      "date": "2026-05-24T04:01:22.642195+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T03:31:56.871867+00:00"
+  "lastUpdated": "2026-05-24T04:01:22.642263+00:00"
 }
