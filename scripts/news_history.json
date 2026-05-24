@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Prepares For Q1 Earnings Release Amid AI Chip Demand Surge",
-      "urls": [
-        "https://finance.yahoo.com/quote/NVDA/news",
-        "https://www.fool.com/investing/2026/05/13/nvidia-could-make-a-big-move-by-may-20-heres-what?msockid=11812248414e6a0d3c74351140e86b31"
-      ],
-      "date": "2026-05-14T23:01:11.251854+00:00"
-    },
-    {
       "title": "PyTorch Foundation has integrated Ray, an open-source AI compute engine, to unify critical tools for",
       "urls": [
         "https://pytorch.org/blog/pytorch-the-open-language-of-ai",
@@ -4886,7 +4878,21 @@
         "https://www.the-world-now.com/geopolitical-risk"
       ],
       "date": "2026-05-24T22:31:57.669041+00:00"
+    },
+    {
+      "title": "Iran-US tensions have escalated amid conflicting statements on a potential peace deal, with Presiden",
+      "urls": [
+        "https://www.the-world-now.com/current-wars",
+        "https://www.timesnownews.com/world/middle-east/iran-us-war-live-updates-donald-trump-iran-news-israel-strait-of-hormuz-peace-talk-crude-oil-latest-news-liveblog-154382900",
+        "https://www.merriam-webster.com/dictionary/war",
+        "https://www.reuters.com/world/ukraine-russia-war",
+        "https://www.war.gov/News",
+        "https://www.nytimes.com/live/2026/05/23/world/us-iran-war-trump",
+        "https://www.justsecurity.org/139369/us-still-at-war-begin-end",
+        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-uae-oil-price-today-peace-proposal/4246727"
+      ],
+      "date": "2026-05-24T23:01:15.846969+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T22:31:57.669110+00:00"
+  "lastUpdated": "2026-05-24T23:01:15.847054+00:00"
 }
