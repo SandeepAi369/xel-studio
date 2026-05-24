@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jimmy Evert Tennis Center Reopens After $2 Million Renovation",
-      "urls": [
-        "https://www.tennistv.com/live-schedule",
-        "https://www.flashscoreusa.com/tennis",
-        "https://www.parks.fortlauderdale.gov/programs/tennis",
-        "https://www.tennisftlauderdale.com"
-      ],
-      "date": "2026-05-14T19:01:18.731679+00:00"
-    },
-    {
       "title": "Social Security Administration Supports 69 Million Americans Monthly",
       "urls": [
         "https://www.ssa.gov",
@@ -4912,7 +4902,15 @@
         "https://www.linkedin.com/company/mistralai"
       ],
       "date": "2026-05-24T18:34:12.343650+00:00"
+    },
+    {
+      "title": "Google Launches New AI Platform To Accelerate Machine Learning Development",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Artificial_intelligence",
+        "https://www.lindy.ai/blog/ai-platforms"
+      ],
+      "date": "2026-05-24T19:02:07.122670+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T18:34:12.343713+00:00"
+  "lastUpdated": "2026-05-24T19:02:07.122727+00:00"
 }
