@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "EPFL and ETH Zurich are set to release a new open-source large language model (LLM) developed entire",
-      "urls": [
-        "https://techxplore.com/news/2025-07-source-language-multilingual-transparency.html",
-        "https://open-llm-radar.com",
-        "https://openai.com/index/introducing-gpt-oss",
-        "https://www.opensourceforu.com/2025/12/z-ai-open-sources-glm-4-7-to-make-open-source-llms-production-ready"
-      ],
-      "date": "2026-05-14T14:01:36.647008+00:00"
-    },
-    {
       "title": "Medi-Cal Expands Coverage to 15 Million Californians Annually",
       "urls": [
         "https://mcweb.apps.prd.cammis.medi-cal.ca.gov",
@@ -4937,7 +4927,19 @@
         "https://www.century21.jp/rent/tokyo"
       ],
       "date": "2026-05-24T13:32:01.719388+00:00"
+    },
+    {
+      "title": "China Launches Chang E 6 To Mine Moon For Helium 3",
+      "urls": [
+        "https://www.britannica.com/topic/geopolitics",
+        "https://www.economist.com/topics/geopolitics",
+        "https://www.geopoliticalmonitor.com",
+        "https://www.pbs.org/newshour/tag/geopolitics",
+        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography",
+        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
+      ],
+      "date": "2026-05-24T14:04:18.868609+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T13:32:01.719462+00:00"
+  "lastUpdated": "2026-05-24T14:04:18.868665+00:00"
 }
