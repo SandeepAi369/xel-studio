@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Azure Advances Narrow AI With Machine Learning Tools",
-      "urls": [
-        "https://deepai.org/chat/what-is-ai",
-        "https://www.britannica.com/technology/artificial-intelligence",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=2f8f1e0f8c596a6d156c09568d346bce",
-        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai",
-        "https://www.ucf.edu/artificial-intelligence/what-is-artificial-intelligence-ai-and-why-people-should-learn-about-it",
-        "https://www.intel.com/content/www/us/en/learn/what-is-artificial-intelligence.html"
-      ],
-      "date": "2026-05-14T01:06:41.108382+00:00"
-    },
-    {
       "title": "Included Health Appoints New Manager To Lead Behavioral Health Expansion",
       "urls": [
         "https://jobs.lever.co/healthcare",
@@ -4986,7 +4974,18 @@
         "https://www.aarp.org/social-security/faq/apply-for-disability-benefits?msockid=20a5b541f0aa6c1018c8a222f13f6d97"
       ],
       "date": "2026-05-24T01:02:11.062842+00:00"
+    },
+    {
+      "title": "Dfw Wildlife Coalition Unites 600 Species Rescue Efforts Across North Texas",
+      "urls": [
+        "https://www.dfwwildlife.org",
+        "https://en.m.wikipedia.org/wiki/Wildlife",
+        "https://www.texas-wildlife.org",
+        "https://a-z-animals.com/animals/location/americas/north-america/united-states/texas",
+        "https://m.imdb.com/title/tt5929754"
+      ],
+      "date": "2026-05-24T01:30:58.601804+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T01:02:11.062938+00:00"
+  "lastUpdated": "2026-05-24T01:30:58.601862+00:00"
 }
