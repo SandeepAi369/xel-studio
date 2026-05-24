@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bolton GPs Launch Autism Diagnostic Service to Cut Two Year Wait Times",
-      "urls": [
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://en.m.wikipedia.org/wiki/Autism",
-        "https://autism.org/what-is-autism",
-        "https://www.cdc.gov/autism/signs-symptoms/index.html",
-        "https://www.autismspeaks.org/what-autism",
-        "https://www.msn.com/en-in/money/general/neurodiversity-why-it-is-important-for-parents-to-understand-it-and-how-parents-can-identity-neurodiverse-children/ar-AA23aPku",
-        "https://uk.news.yahoo.com/bolton-gps-aim-move-beyond-040000748.html",
-        "https://journals.sagepub.com/doi/10.1177/27546330251337874",
-        "https://www.britannica.com/science/autism-spectrum-disorder",
-        "https://sophiasmissionus.org/new-research-reveals-employment-trends-and-challenges-for-individuals-with-autism"
-      ],
-      "date": "2026-05-14T17:01:28.472564+00:00"
-    },
-    {
       "title": "Fox News Launches Redesigned Website And Mobile App",
       "urls": [
         "https://www.foxnews.com?msockid=345cac2cfb9869e60ac1bb75fa626877",
@@ -4922,7 +4906,16 @@
         "https://zh.wikipedia.org/wiki/人工智能"
       ],
       "date": "2026-05-24T16:36:22.991447+00:00"
+    },
+    {
+      "title": "Hugging Face Hosts 427 Open Source AI Repositories",
+      "urls": [
+        "https://www.wikihow.com/Types-of-Hugs",
+        "https://github.com/huggingface",
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202512/the-top-scientific-insights-on-hugging-from-2025"
+      ],
+      "date": "2026-05-24T17:03:24.500227+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T16:36:22.991520+00:00"
+  "lastUpdated": "2026-05-24T17:03:24.500298+00:00"
 }
