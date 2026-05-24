@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Runs On 67% Clean Energy In 2023",
-      "urls": [
-        "https://money.usnews.com/investing/articles/renewable-energy-stocks-to-consider",
-        "https://www.abc.net.au/news/science/2024-07-16/chinas-renewable-energy-boom-breaks-records/104086640",
-        "https://www.gov.ca.gov/2025/07/14/in-historic-first-california-powered-by-two-thirds-clean-energy-becoming-largest-economy-in-the-world-to-achieve-milestone",
-        "https://w3.windfair.net/wind-energy/news/48883-24-7-renewables-outcompete-fossil-fuels-on-costs",
-        "https://www.politico.com/news/2025/07/16/interior-requires-burgum-sign-off-for-solar-wind-projects-00458999"
-      ],
-      "date": "2026-05-13T23:36:18.143265+00:00"
-    },
-    {
       "title": "Telehealth 2.0 Cuts Hospitalizations With AI And Wearables",
       "urls": [
         "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0179",
@@ -4979,7 +4968,23 @@
         "https://dictionary.cambridge.org/dictionary/english/open"
       ],
       "date": "2026-05-23T23:30:58.290047+00:00"
+    },
+    {
+      "title": "OpenAI Solves 80-Year-Old Erdős Conjecture in Geometry",
+      "urls": [
+        "https://ground.news/article/openai-reportedly-cracks-80-year-old-math-conjecture",
+        "https://ground.news/article/openai-advocates-for-ai-governance-body-globally",
+        "https://ground.news/article/openai-co-founder-and-former-tesla-ai-executive-karpathy-joins-anthropic",
+        "https://ground.news/article/musk-openai-lawyers-begin-closing-arguments-in-landmark-trial-that-could-shape-ais-future",
+        "https://ground.news/article/openai-explores-legal-options-against-apple-bloomberg-news-reports",
+        "https://ground.news/article/jury-rules-against-elon-musk-in-court-battle-against-sam-altman-openai_7394bb",
+        "https://ground.news/article/openai-to-confidentially-file-for-ipo-as-soon-as-friday-report_2d9a48",
+        "https://ground.news/article/openai-president-greg-brockmans-stake-in-openai-is-worth",
+        "https://ground.news/article/openai-falls-short-of-revenue-and-user-targets-as-it-races-toward-ipo-wsj-reports",
+        "https://ground.news/article/openai-refocuses-strategy-scales-back-sora-and-shopping-while-doubling-down-on-superapp-vision"
+      ],
+      "date": "2026-05-24T00:01:08.716491+00:00"
     }
   ],
-  "lastUpdated": "2026-05-23T23:30:58.290115+00:00"
+  "lastUpdated": "2026-05-24T00:01:08.716557+00:00"
 }
