@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hurricane Helene Dumps 20 Inches Of Rain On North Carolina",
-      "urls": [
-        "https://www.washingtonpost.com/weather/extreme-weather",
-        "https://www.cbsnews.com/tag/disaster",
-        "https://apnews.com/hub/weather",
-        "https://abcnews.com/US/wildfires-floods-extreme-heat-biggest-weather-stories-2025/story?id=128556731",
-        "https://www.foxweather.com/category/disasters",
-        "https://www.climate.gov/news-features/event-tracker/hurricane-helenes-extreme-rainfall-and-catastrophic-inland-flooding",
-        "https://www.bloomberg.com/latest/extreme-weather",
-        "https://www.worldvision.org/disaster-relief-news-stories/12-top-disasters-of-2025",
-        "https://www.nbcnews.com/news/weather",
-        "https://www.fema.gov/disaster/current"
-      ],
-      "date": "2026-05-15T22:31:59.484142+00:00"
-    },
-    {
       "title": "Visually Impaired Navigate Cities Using Color Coded Maps",
       "urls": [
         "https://www.merriam-webster.com/dictionary/visually",
@@ -4825,7 +4809,15 @@
         "https://www.ndtv.com/world-news/us-iran-war-live-updates-peace-deal-strait-of-hormuz-trump-israel-oil-prices-11539479"
       ],
       "date": "2026-05-25T22:07:47.602523+00:00"
+    },
+    {
+      "title": "War Radar Launches AI Powered Global Conflict Tracker",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/War",
+        "https://war-radar.com"
+      ],
+      "date": "2026-05-25T22:32:10.232344+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T22:07:47.602584+00:00"
+  "lastUpdated": "2026-05-25T22:32:10.232416+00:00"
 }
