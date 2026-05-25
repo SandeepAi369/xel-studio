@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Visually Impaired Navigate Cities Using Color Coded Maps",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/visually",
-        "https://www.dictionary.com/browse/visually",
-        "https://dictionary.cambridge.org/us/dictionary/english/visually",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/visually",
-        "https://www.thefreedictionary.com/visually",
-        "https://www.wordreference.com/definition/visually",
-        "https://www.oed.com/dictionary/visually_adv",
-        "https://www.wordsmyth.net?ent=visually",
-        "https://www.ldoceonline.com/dictionary/visually",
-        "https://www.definitions.net/definition/Visually"
-      ],
-      "date": "2026-05-15T23:01:13.494791+00:00"
-    },
-    {
       "title": "Electric Wheelchairs USA Launches Six New Models With All-Terrain Capability",
       "urls": [
         "https://www.amazon.com/Wheelchairs/b?node=4075961",
@@ -4829,7 +4813,18 @@
         "https://globaloutlook.worldbank.org"
       ],
       "date": "2026-05-25T23:01:06.368077+00:00"
+    },
+    {
+      "title": "X And Tech Developers Launch Real-Time Audio Video Manipulation Tools",
+      "urls": [
+        "https://x.com",
+        "https://x.com/techcrunch",
+        "https://x.com/tech",
+        "https://x.com/i/communities/1472105760389668865",
+        "https://x.com/TechInsider"
+      ],
+      "date": "2026-05-25T23:31:08.495994+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T23:01:06.368152+00:00"
+  "lastUpdated": "2026-05-25T23:31:08.496072+00:00"
 }
