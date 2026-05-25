@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Long Beach experiences fluctuating temperatures throughout the day, with highs reaching 72°F and low",
-      "urls": [
-        "https://www.accuweather.com/en/us/long-beach/39560/hourly-weather-forecast/2159694"
-      ],
-      "date": "2026-05-15T14:05:44.238008+00:00"
-    },
-    {
       "title": "Open Defined in Wiktionary With Etymological Origins and Grammatical Forms",
       "urls": [
         "https://en.wiktionary.org/wiki/open"
@@ -4876,7 +4869,15 @@
         "https://www.fox5dc.com/news/2-5-magnitude-earthquake-rattles-parts-maryland"
       ],
       "date": "2026-05-25T14:04:33.455128+00:00"
+    },
+    {
+      "title": "CompTIA Launches Linux+ V8 Certification With Enhanced Cloud And Security Focus",
+      "urls": [
+        "https://www.comptia.org/en-us/certifications/linux",
+        "https://www.kernel.org"
+      ],
+      "date": "2026-05-25T14:31:14.102614+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T14:04:33.455199+00:00"
+  "lastUpdated": "2026-05-25T14:31:14.102713+00:00"
 }
