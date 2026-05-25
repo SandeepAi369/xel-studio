@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Agents Set To Transform Healthcare By 2026",
-      "urls": [
-        "https://www.businesswire.com/newsroom/industry/health/health-technology",
-        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
-        "https://mayomagazine.mayoclinic.org/2026/04/ai-in-healthcare",
-        "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
-        "https://www.technologyhq.org/the-10-most-groundbreaking-technology-innovations-of-2026-that-will-change-our-future",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/medical-devices-to-ai-25-years-of-cleveland-clinic-innovations",
-        "https://www.himss.org"
-      ],
-      "date": "2026-05-15T19:02:19.291583+00:00"
-    },
-    {
-      "title": "Anthropic Launches Claude 3 To Advance Safe AI Development",
-      "urls": [
-        "https://www.anthropic.com",
-        "https://en.m.wikipedia.org/wiki/Anthropic",
-        "https://claude.com",
-        "https://www.britannica.com/money/Anthropic-PBC",
-        "https://claude.ai"
-      ],
-      "date": "2026-05-15T19:32:14.937753+00:00"
-    },
-    {
       "title": "Des Moines voters head to the polls in November 2025 for key local races, including mayor, city coun",
       "urls": [
         "https://dmcountyelections.iowa.gov",
@@ -4844,7 +4820,18 @@
         "https://support.microsoft.com/en-us/windows/change-display-brightness-and-color-in-windows-3f67a2f2-5c65-ceca-778b-5858fc007041"
       ],
       "date": "2026-05-25T19:01:12.716430+00:00"
+    },
+    {
+      "title": "Polygon Releases In-Depth Analysis Of Baldur's Gate 3 Gameplay Mechanics",
+      "urls": [
+        "https://gaming.amazon.com",
+        "https://www.reddit.com/r/gaming",
+        "https://play.geforcenow.com",
+        "https://www.gamestop.com?msockid=1734e4dc394c6e7924f7f3b838766f5d",
+        "https://www.polygon.com"
+      ],
+      "date": "2026-05-25T19:35:42.602010+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T19:01:12.716498+00:00"
+  "lastUpdated": "2026-05-25T19:35:42.602074+00:00"
 }
