@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eenadu is one of the largest circulated Telugu-language daily newspapers in India, with its online p",
-      "urls": [
-        "https://www.foxnews.com?msockid=20d986682ce1627f223391322d0b6361",
-        "https://www.eenadu.net"
-      ],
-      "date": "2026-05-15T21:05:34.311993+00:00"
-    },
-    {
       "title": "KCCI 8 News provides comprehensive local news coverage for Des Moines, focusing on real-time updates",
       "urls": [
         "https://www.foxnews.com?msockid=027ef90c0e6e62aa3be9ee560f9063e4",
@@ -4833,7 +4825,23 @@
         "https://www.flotrack.org/articles"
       ],
       "date": "2026-05-25T21:04:25.665671+00:00"
+    },
+    {
+      "title": "Windows 11 Enables Quad App Snap Layouts Across Multiple Monitors",
+      "urls": [
+        "https://learn.microsoft.com/en-us/answers/questions/4376873/(article)-how-to-add-and-use-a-second-monitor-in-w",
+        "https://learn.microsoft.com/en-us/answers/questions/4615840/how-do-i-get-a-split-screen-in-windows-10-so-that",
+        "https://learn.microsoft.com/en-us/answers/questions/4296086/how-to-check-my-screen-size(inch)-from-my-laptop-s",
+        "https://learn.microsoft.com/en-us/answers/questions/5660132/how-do-i-change-the-name-on-the-welcome-screen",
+        "https://learn.microsoft.com/en-us/answers/questions/5617746/how-do-i-split-one-monitor-into-2-displays",
+        "https://learn.microsoft.com/en-us/answers/questions/4204632/screen-has-moved-to-the-right-how-to-re-center-it",
+        "https://learn.microsoft.com/en-us/answers/questions/5785213/the-screen-on-computer-is-too-small-and-i-cant-enl",
+        "https://learn.microsoft.com/en-us/windows-app/display-settings",
+        "https://learn.microsoft.com/en-us/windows/configuration/background",
+        "https://learn.microsoft.com/en-us/answers/questions/5657482/size-of-screen-on-monitor"
+      ],
+      "date": "2026-05-25T21:30:59.755427+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T21:04:25.665737+00:00"
+  "lastUpdated": "2026-05-25T21:30:59.755494+00:00"
 }
