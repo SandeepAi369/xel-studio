@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Tightens Export Controls On Gallium And Germanium",
-      "urls": [
-        "https://www.rushtruckcenters.com/locations/24070000-columbus-oh",
-        "https://dictionary.cambridge.org/us/dictionary/learner-english/international",
-        "https://www.usnews.com/news/world/articles/2026-04-26/how-china-has-expanded-its-economic-toolkit-during-its-trade-truce-with-the-us",
-        "https://www.reuters.com/world/us"
-      ],
-      "date": "2026-05-15T13:05:29.581230+00:00"
-    },
-    {
-      "title": "Drugs.",
-      "urls": [
-        "https://www.drugs.com",
-        "https://www.cdc.gov/free-mind/about-substances/index.html",
-        "https://nida.nih.gov/research-topics/drugs-a-to-z",
-        "https://en.wikipedia.org/wiki/Drug",
-        "https://www.britannica.com/science/drug-chemical-agent"
-      ],
-      "date": "2026-05-15T13:31:10.791009+00:00"
-    },
-    {
       "title": "Long Beach experiences fluctuating temperatures throughout the day, with highs reaching 72°F and low",
       "urls": [
         "https://www.accuweather.com/en/us/long-beach/39560/hourly-weather-forecast/2159694"
@@ -4874,7 +4853,19 @@
         "https://gizmodo.com"
       ],
       "date": "2026-05-25T13:01:22.692118+00:00"
+    },
+    {
+      "title": "Sky News Delivers Real-Time Global Coverage From 30 Countries",
+      "urls": [
+        "https://www.foxnews.com?msockid=0fbc3acda6ee674627d32da9a7a66629",
+        "https://www.ndtv.com/latest",
+        "https://news.abplive.com",
+        "https://m.timesofindia.com/news",
+        "https://m.hindustantimes.com",
+        "https://news.sky.com/world"
+      ],
+      "date": "2026-05-25T13:32:17.739557+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T13:01:22.692190+00:00"
+  "lastUpdated": "2026-05-25T13:32:17.739622+00:00"
 }
