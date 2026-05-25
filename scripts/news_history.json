@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Teladoc Expands Virtual Care Access With New MinuteClinic Integration",
-      "urls": [
-        "https://www.fcc.gov/general/telehealth-telemedicine-and-telecare-whats-what",
-        "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/Benefits-of-Telemedicine",
-        "https://www.cvs.com/minuteclinic/virtual-care",
-        "https://www.verywellhealth.com/what-is-telehealth-5115712",
-        "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/telehealth/art-20044878",
-        "https://builtin.com/articles/telemedicine-companies"
-      ],
-      "date": "2026-05-15T02:32:00.207798+00:00"
-    },
-    {
       "title": "Quantum science explores the behavior of matter and energy at atomic and subatomic levels, focusing ",
       "urls": [
         "https://www.gov.ca.gov/2025/11/07/governor-newsom-announces-quantum-california-strengthening-the-golden-states-leadership-in-next-generation-technology",
@@ -4883,7 +4871,23 @@
         "https://www.wordreference.com/definition/open"
       ],
       "date": "2026-05-25T02:30:56.678035+00:00"
+    },
+    {
+      "title": "California Expands Medi Cal Coverage For Low Income Residents",
+      "urls": [
+        "https://www.webmd.com",
+        "https://www.nm.org",
+        "https://www.uchicagomedicine.org",
+        "https://mcweb.apps.prd.cammis.medi-cal.ca.gov",
+        "https://www.merriam-webster.com/dictionary/medical",
+        "https://www.rush.edu",
+        "https://www.uchicago.edu/medicine",
+        "https://www.mayoclinic.org/diseases-conditions",
+        "https://www.advocatehealth.com/amg",
+        "https://www.achn.net"
+      ],
+      "date": "2026-05-25T03:01:11.596497+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T02:30:56.678098+00:00"
+  "lastUpdated": "2026-05-25T03:01:11.596572+00:00"
 }
