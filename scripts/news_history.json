@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Powers All 500 Fastest Supercomputers Worldwide",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://www.linux.com/what-is-linux",
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://linuxvox.com/blog/what-linux",
-        "https://opensource.com/resources/linux",
-        "https://www.linuxtoday.com"
-      ],
-      "date": "2026-05-15T20:31:06.435852+00:00"
-    },
-    {
       "title": "Eenadu is one of the largest circulated Telugu-language daily newspapers in India, with its online p",
       "urls": [
         "https://www.foxnews.com?msockid=20d986682ce1627f223391322d0b6361",
@@ -4838,7 +4825,15 @@
         "https://corporate.target.com/about/locations/upcoming-stores"
       ],
       "date": "2026-05-25T20:30:56.861572+00:00"
+    },
+    {
+      "title": "Track And Field News Chronicles Shift From Hand Timing To Digital Precision",
+      "urls": [
+        "https://trackandfieldnews.com",
+        "https://www.flotrack.org/articles"
+      ],
+      "date": "2026-05-25T21:04:25.665671+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T20:30:56.861632+00:00"
+  "lastUpdated": "2026-05-25T21:04:25.665737+00:00"
 }
