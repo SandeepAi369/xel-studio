@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Doors Allow Garden Views According To Dictionary Definitions",
-      "urls": [
-        "https://en.m.wiktionary.org/wiki/open",
-        "https://www.dictionary.com/browse/open",
-        "https://www.collinsdictionary.com/dictionary/english/open",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/open_1"
-      ],
-      "date": "2026-05-15T04:01:16.535057+00:00"
-    },
-    {
-      "title": "San Diego Padres Edge Colorado Rockies 1-0 Behind Randy Vasquez Shutout Performance",
-      "urls": [
-        "https://www.sandiegouniontribune.com/sports",
-        "https://timesofsandiego.com/category/sports",
-        "https://www.nbcsandiego.com/news/sports",
-        "https://www.cbs8.com/sports",
-        "https://fox5sandiego.com/sports"
-      ],
-      "date": "2026-05-15T04:31:08.070927+00:00"
-    },
-    {
       "title": "NBC4 Washington Reports On DMV Area Public Affairs And Crime Updates",
       "urls": [
         "https://www.foxnews.com?msockid=11d6ffce115561db1b9ee8941063608a",
@@ -4878,7 +4857,15 @@
         "https://www.bbc.co.uk/news/articles/cz7pdy3yq3qo"
       ],
       "date": "2026-05-25T04:01:14.522689+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly To Engage 150 Million Monthly Visitors",
+      "urls": [
+        "https://nypost.com/us-news",
+        "https://www.foxnews.com?msockid=1768f2c1b3ed6f6b0270e5a5b2956ea5"
+      ],
+      "date": "2026-05-25T04:34:41.908505+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T04:01:14.522761+00:00"
+  "lastUpdated": "2026-05-25T04:34:41.908573+00:00"
 }
