@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fermilab And Mit Lincoln Lab Achieve Quantum Breakthrough With Cryoelectronics",
-      "urls": [
-        "https://news.mit.edu/topic/quantum-computing",
-        "https://quantumcomputingreport.com/news",
-        "https://www.sciencedaily.com/news/matter_energy/quantum_computing",
-        "https://quantumzeitgeist.com",
-        "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers",
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFk1YTJRU0FtVnVLQUFQAQ?ceid=US%3Aen&oc=3&hl=en-US",
-        "https://thequbitreport.com",
-        "https://link.springer.com/subjects/quantum-computing"
-      ],
-      "date": "2026-05-15T03:31:10.904213+00:00"
-    },
-    {
       "title": "Open Doors Allow Garden Views According To Dictionary Definitions",
       "urls": [
         "https://en.m.wiktionary.org/wiki/open",
@@ -4885,7 +4871,14 @@
         "https://get.tech"
       ],
       "date": "2026-05-25T03:30:54.353987+00:00"
+    },
+    {
+      "title": "Artificial intelligence is being leveraged to enhance assistive technologies for people with disabil",
+      "urls": [
+        "https://www.bbc.co.uk/news/articles/cz7pdy3yq3qo"
+      ],
+      "date": "2026-05-25T04:01:14.522689+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T03:30:54.354044+00:00"
+  "lastUpdated": "2026-05-25T04:01:14.522761+00:00"
 }
