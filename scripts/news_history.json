@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oratomic Launches Utility-Scale Quantum Computers With Google Collaboration",
-      "urls": [
-        "https://thequantuminsider.com",
-        "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
-        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
-        "https://www.prnewswire.com/news-releases/oratomic-launches-to-build-utility-scale-quantum-computers-following-breakthrough-research-302729468.html"
-      ],
-      "date": "2026-05-15T10:06:31.057198+00:00"
-    },
-    {
       "title": "Nasa Satellites Track Rising Sea Levels And Ice Loss",
       "urls": [
         "https://science.nasa.gov/climate-change"
@@ -4886,7 +4876,20 @@
         "https://www.earthquaketracker.org/earthquakes"
       ],
       "date": "2026-05-25T10:01:22.598989+00:00"
+    },
+    {
+      "title": "Brazilian Study Links Seven Artificial Sweeteners To Brain Aging",
+      "urls": [
+        "https://vaphysicians.com/innsbrook-primary-care",
+        "https://www.cpcva.com",
+        "https://www.medicalnewstoday.com",
+        "https://en.wikipedia.org/wiki/Medicine",
+        "https://my.clevelandclinic.org/health",
+        "https://www.bonsecours.com/locations/primary-care-family-medicine/richmond/crossridge-pediatrics-and-internal-medicine",
+        "https://medlineplus.gov"
+      ],
+      "date": "2026-05-25T10:32:03.904465+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T10:01:22.599040+00:00"
+  "lastUpdated": "2026-05-25T10:32:03.904534+00:00"
 }
