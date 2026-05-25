@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum science explores the behavior of matter and energy at atomic and subatomic levels, focusing ",
-      "urls": [
-        "https://www.gov.ca.gov/2025/11/07/governor-newsom-announces-quantum-california-strengthening-the-golden-states-leadership-in-next-generation-technology",
-        "https://science.nasa.gov/biological-physical/quantum-leaps",
-        "https://en.wikipedia.org/wiki/Quantum_mechanics"
-      ],
-      "date": "2026-05-15T03:03:14.250130+00:00"
-    },
-    {
       "title": "Fermilab And Mit Lincoln Lab Achieve Quantum Breakthrough With Cryoelectronics",
       "urls": [
         "https://news.mit.edu/topic/quantum-computing",
@@ -4887,7 +4878,14 @@
         "https://www.achn.net"
       ],
       "date": "2026-05-25T03:01:11.596497+00:00"
+    },
+    {
+      "title": ".",
+      "urls": [
+        "https://get.tech"
+      ],
+      "date": "2026-05-25T03:30:54.353987+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T03:01:11.596572+00:00"
+  "lastUpdated": "2026-05-25T03:30:54.354044+00:00"
 }
