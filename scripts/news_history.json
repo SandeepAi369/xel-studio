@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Escondido Opens 84 ADA-Compliant Apartment Units for Rent",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible",
-        "https://dictionary.cambridge.org/us/dictionary/english/accessible",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/accessible",
-        "https://www.collinsdictionary.com/dictionary/english/accessible",
-        "https://www.thefreedictionary.com/accessible",
-        "https://www.wordreference.com/definition/accessible",
-        "https://en.m.wiktionary.org/wiki/accessible",
-        "https://www.definitions.net/definition/accessible",
-        "https://www.forrent.com/find/CA/metro-San+Diego/Escondido/extras-Disability+Access?msockid=11acb503b56361a42290a259b4ea6059",
-        "https://www.dictionary.com/browse/accessible"
-      ],
-      "date": "2026-05-15T01:32:02.885250+00:00"
-    },
-    {
       "title": "Mistral AI trained its latest large language model 2.",
       "urls": [
         "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
@@ -4883,7 +4867,17 @@
         "https://loaids.com/best-wheelchair"
       ],
       "date": "2026-05-25T01:03:20.063173+00:00"
+    },
+    {
+      "title": "Deaf Cal Launches Central Hub for California Community Events",
+      "urls": [
+        "https://sped.lausd.org/apps/pages/deafeducation",
+        "https://deafcal.org",
+        "https://www.dds.ca.gov/services/deaf-hard-of-hearing-and-deafblind-resources",
+        "https://deaf.la/calendar"
+      ],
+      "date": "2026-05-25T01:33:23.737093+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T01:03:20.063236+00:00"
+  "lastUpdated": "2026-05-25T01:33:23.737157+00:00"
 }
