@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Des Moines voters head to the polls in November 2025 for key local races, including mayor, city coun",
-      "urls": [
-        "https://dmcountyelections.iowa.gov",
-        "https://www.polkcountyiowa.gov/county-auditor/election",
-        "https://www.desmoinesregister.com/story/news/politics/elections/2026/05/14/iowa-primary-candidates-questionnaires-democrat-republican-election-2026/89755665007",
-        "https://ballotpedia.org/Iowa_election_calendar",
-        "https://www.kcci.com/article/iowa-voter-guide-what-you-need-to-know-about-city-school-elections/69097722",
-        "https://www.usatoday.com/elections",
-        "https://www.usvotefoundation.org/iowa-election-dates-and-deadlines",
-        "https://www.axios.com/local/des-moines/2025/10/31/des-moines-guide-to-voting-2025",
-        "https://voterready.iowa.gov"
-      ],
-      "date": "2026-05-15T20:02:16.895325+00:00"
-    },
-    {
       "title": "Linux Powers All 500 Fastest Supercomputers Worldwide",
       "urls": [
         "https://www.linux.org/pages/download",
@@ -4831,7 +4816,16 @@
         "https://www.polygon.com"
       ],
       "date": "2026-05-25T19:35:42.602010+00:00"
+    },
+    {
+      "title": "Trump says Iran must finalize a deal to avoid renewed military action, escalating pressure amid stal",
+      "urls": [
+        "https://news.sky.com/story/iran-war-latest-trump-us-israel-ceasefire-deal-strait-of-hormuz-blockade-strikes-oil-lebanon-13509565",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-ceasefire-strait-hormuz-ship-attacked-us-military-buildup",
+        "https://www.nytimes.com/live/2026/05/12/world/iran-war-trump-ceasefire-hormuz"
+      ],
+      "date": "2026-05-25T20:02:25.624827+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T19:35:42.602074+00:00"
+  "lastUpdated": "2026-05-25T20:02:25.624881+00:00"
 }
