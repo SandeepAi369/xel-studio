@@ -4875,7 +4875,18 @@
         "https://www.screenmobile.com"
       ],
       "date": "2026-05-25T09:32:07.414838+00:00"
+    },
+    {
+      "title": "Earthquakes Today provides real-time tracking of seismic activity globally, using data updated every",
+      "urls": [
+        "https://earthquake.usgs.gov/earthquakes/map?extent=-",
+        "https://www.quakepulse.com",
+        "https://earthquaketrack.com/recent",
+        "https://earthquaketoday.org",
+        "https://www.earthquaketracker.org/earthquakes"
+      ],
+      "date": "2026-05-25T10:01:22.598989+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T09:32:07.414905+00:00"
+  "lastUpdated": "2026-05-25T10:01:22.599040+00:00"
 }
