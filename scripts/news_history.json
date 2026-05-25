@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Consumer Electronics Show Unveils Groundbreaking Tech Trends",
-      "urls": [
-        "https://fortune.com/section/tech",
-        "https://www.newsnow.com/us/Tech",
-        "https://techstartups.com",
-        "https://beebom.com",
-        "https://www.cnet.com/news",
-        "https://gizmodo.com"
-      ],
-      "date": "2026-05-15T00:02:16.784424+00:00"
-    },
-    {
-      "title": "Fox News Launches Redesigned Website And Mobile App With Personalized Feeds",
-      "urls": [
-        "https://www.foxnews.com?msockid=0b095396eac868a7059344cceb77693f"
-      ],
-      "date": "2026-05-15T00:32:06.172724+00:00"
-    },
-    {
       "title": "Wordreference Com Defines Open With Military Usage Examples",
       "urls": [
         "https://www.wordreference.com/definition/open"
@@ -4892,7 +4873,15 @@
         "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB"
       ],
       "date": "2026-05-25T00:02:13.009480+00:00"
+    },
+    {
+      "title": "Palmdale Launches Digital Access Program To Bridge Technology Gap",
+      "urls": [
+        "https://www.cityofpalmdaleca.gov/1551/Digital-Access",
+        "https://www.definitions.net/definition/Digital"
+      ],
+      "date": "2026-05-25T00:34:24.018424+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T00:02:13.009578+00:00"
+  "lastUpdated": "2026-05-25T00:34:24.018483+00:00"
 }
