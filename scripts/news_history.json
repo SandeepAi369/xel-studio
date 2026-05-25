@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Foundation has integrated Ray, an open-source AI compute engine, to unify critical tools for",
-      "urls": [
-        "https://pytorch.org/blog/pytorch-the-open-language-of-ai",
-        "https://arxiv.org/html/2508.04035v1",
-        "https://www.prnewswire.com/news-releases/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack-302591184.html",
-        "https://www.phoronix.com/news/PyTorch-Ray-AI-Compute-Engine",
-        "https://uplatz.com/blog/premier-open-source-machine-learning-frameworks-tensorflow-pytorch-and-scikit-learn",
-        "https://www.opensourceforu.com/2025/12/google-and-meta-bet-on-open-source-pytorch-to-break-nvidias-cuda-lock-in",
-        "https://biggo.com/news/202510261933_PyTorch-TensorFlow-Research-Dominance-2025",
-        "https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack",
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://github.com/resources/articles/what-is-open-source-ai"
-      ],
-      "date": "2026-05-14T23:33:07.178937+00:00"
-    },
-    {
       "title": "Consumer Electronics Show Unveils Groundbreaking Tech Trends",
       "urls": [
         "https://fortune.com/section/tech",
@@ -4899,7 +4883,16 @@
         "https://www.foxnews.com?msockid=35e014e5dacc6e8f07f30386db126fdf"
       ],
       "date": "2026-05-24T23:31:20.117820+00:00"
+    },
+    {
+      "title": "Walmart Slashes Prices on Tech for Long Weekend Deals",
+      "urls": [
+        "https://www.pcmag.com/news",
+        "https://timesofindia.indiatimes.com/technology/tech-news",
+        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB"
+      ],
+      "date": "2026-05-25T00:02:13.009480+00:00"
     }
   ],
-  "lastUpdated": "2026-05-24T23:31:20.117885+00:00"
+  "lastUpdated": "2026-05-25T00:02:13.009578+00:00"
 }
