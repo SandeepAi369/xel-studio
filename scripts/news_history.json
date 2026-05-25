@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI has unveiled a new large language model capable of ultra-fast translation, marking a sign",
-      "urls": [
-        "https://mistral.ai",
-        "https://www.wired.com/story/mistral-voxtral-real-time-ai-translation",
-        "https://www.merriam-webster.com/dictionary/mistral"
-      ],
-      "date": "2026-05-15T06:01:19.447419+00:00"
-    },
-    {
       "title": "League Of Legends Worlds Attracts 78 Million Viewers",
       "urls": [
         "https://lolesports.com",
@@ -4866,7 +4857,17 @@
         "https://news.mit.edu/2024/umwelt-enables-interactive-accessible-charts-creation-blind-low-vision-users-0327"
       ],
       "date": "2026-05-25T05:32:12.896577+00:00"
+    },
+    {
+      "title": "International Trucks Launches MV Series For Urban Hauling Needs",
+      "urls": [
+        "https://www.international.com/products/trucks",
+        "https://www.merriam-webster.com/dictionary/international",
+        "https://dictionary.cambridge.org/dictionary/english/international",
+        "https://simple.m.wikipedia.org/wiki/International"
+      ],
+      "date": "2026-05-25T06:07:40.100182+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T05:32:12.896645+00:00"
+  "lastUpdated": "2026-05-25T06:07:40.100250+00:00"
 }
