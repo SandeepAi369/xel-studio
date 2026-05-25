@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Restricts Chip Exports To Slow China's AI Rise",
-      "urls": [
-        "https://theword360.com/2025/09/05/technology-innovation-as-a-geopolitical-game-changer",
-        "https://moderndiplomacy.eu/2025/05/10/us-china-technology-competition-a-new-cold-war-threat-to-global-stability",
-        "https://time.com/7379419/ai-race-us-china",
-        "https://www.worldpoliticsreview.com/technology-revolution-geopolitical-competition",
-        "https://reap.fsi.stanford.edu/news/fsi-scholars-examine-ai-biotech-advances-and-geopolitical-competition",
-        "https://www.oecd.org/en/about/news/press-releases/2025/10/oecd-science-technology-and-innovation-outlook-2025.html",
-        "https://foreignpolicy.com/2025/12/26/profit-geopolitics-technology-ai-model",
-        "https://publicpolicy.cornell.edu/btpi/research-hubs/geopolitics-and-technology",
-        "https://news.az/news/what-is-behind-the-trump-xi-meeting"
-      ],
-      "date": "2026-05-15T12:32:12.808357+00:00"
-    },
-    {
       "title": "China Tightens Export Controls On Gallium And Germanium",
       "urls": [
         "https://www.rushtruckcenters.com/locations/24070000-columbus-oh",
@@ -4882,7 +4867,14 @@
         "https://travelwyoming.com/blog/stories/post/10-places-to-spot-wyoming-wildlife"
       ],
       "date": "2026-05-25T12:32:08.450981+00:00"
+    },
+    {
+      "title": "Gizmodo Investigates Privacy Risks In Ring Nest And TP-Link Devices",
+      "urls": [
+        "https://gizmodo.com"
+      ],
+      "date": "2026-05-25T13:01:22.692118+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T12:32:08.451039+00:00"
+  "lastUpdated": "2026-05-25T13:01:22.692190+00:00"
 }
