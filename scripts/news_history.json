@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "NBC4 Washington Reports On DMV Area Public Affairs And Crime Updates",
-      "urls": [
-        "https://www.foxnews.com?msockid=11d6ffce115561db1b9ee8941063608a",
-        "https://www.nbcwashington.com",
-        "https://www.ms.now"
-      ],
-      "date": "2026-05-15T05:02:14.128523+00:00"
-    },
-    {
-      "title": "Carnegie Mellon Unveils AI-Powered Wheelchair With 40% Improved Navigation",
-      "urls": [
-        "https://keywaymedical.com/innovations-in-mobility-aids-a-look-at-the-latest-technologies",
-        "https://www.cs.cmu.edu/news/2025/arpah_wheelchair",
-        "https://theshould.com/wheelchair-technology",
-        "https://www.richallmed.com/news",
-        "https://www.nature.com/articles/s41467-025-67126-4",
-        "https://allstarwheelchairs.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025",
-        "https://everythingmedicalonline.com/blogs/news/the-latest-trends-in-mobility-aid-technology-for-2025",
-        "https://www.lohmedical.com/en/blog/technological-innovations-wheelchairs"
-      ],
-      "date": "2026-05-15T05:30:59.536410+00:00"
-    },
-    {
       "title": "Mistral AI has unveiled a new large language model capable of ultra-fast translation, marking a sign",
       "urls": [
         "https://mistral.ai",
@@ -4875,7 +4852,21 @@
         "https://www.teachingvisuallyimpaired.com/technology-access.html"
       ],
       "date": "2026-05-25T05:01:07.401088+00:00"
+    },
+    {
+      "title": "Nv Access Launches Updated Nvda Screen Reader For Global Users",
+      "urls": [
+        "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
+        "https://blog.usablenet.com/a-screen-reader-users-honest-take",
+        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
+        "https://ischool.uw.edu/news/2025/03/phone-screen-readers-appear-show-impact-ischool-research",
+        "https://www.nvaccess.org",
+        "https://discoversight.com/how-blind-people-use-internet",
+        "https://www.ophthalmology24.com/screen-readers",
+        "https://news.mit.edu/2024/umwelt-enables-interactive-accessible-charts-creation-blind-low-vision-users-0327"
+      ],
+      "date": "2026-05-25T05:32:12.896577+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T05:01:07.401153+00:00"
+  "lastUpdated": "2026-05-25T05:32:12.896645+00:00"
 }
