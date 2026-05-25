@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Models Create Text And Images Using Deep Learning",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Generative_AI",
-        "https://www.ibm.com/think/topics/generative-ai",
-        "https://www.coursera.org/articles/what-is-generative-ai?msockid=0eb037b28f87666400f320e88e38676e",
-        "https://www.merriam-webster.com/dictionary/generative",
-        "https://news.mit.edu/2023/explained-generative-ai-1109",
-        "https://www.microsoft.com/en-us/ai/ai-101/what-is-generative-ai?msockid=0eb037b28f87666400f320e88e38676e",
-        "https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai",
-        "https://hbr.org/topic/subject/generative-ai",
-        "https://www.usatoday.com/story/tech/2024/10/27/what-is-generative-ai-meaning/75780451007",
-        "https://www.dictionary.com/browse/generative"
-      ],
-      "date": "2026-05-15T18:32:17.951605+00:00"
-    },
-    {
       "title": "Agents Set To Transform Healthcare By 2026",
       "urls": [
         "https://www.businesswire.com/newsroom/industry/health/health-technology",
@@ -4853,7 +4837,14 @@
         "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities"
       ],
       "date": "2026-05-25T18:31:06.238354+00:00"
+    },
+    {
+      "title": "Windows PCs Automatically Adjust Screen Brightness Using Ambient Light Sensors",
+      "urls": [
+        "https://support.microsoft.com/en-us/windows/change-display-brightness-and-color-in-windows-3f67a2f2-5c65-ceca-778b-5858fc007041"
+      ],
+      "date": "2026-05-25T19:01:12.716430+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T18:31:06.238420+00:00"
+  "lastUpdated": "2026-05-25T19:01:12.716498+00:00"
 }
