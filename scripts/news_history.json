@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI trained its latest large language model 2.",
-      "urls": [
-        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
-        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html",
-        "https://techcrunch.com/2025/12/09/mistral-ai-surfs-vibe-coding-tailwinds-with-new-coding-models",
-        "https://techcrunch.com/2024/02/27/microsoft-made-a-16-million-investment-in-mistral-ai",
-        "https://techfundingnews.com/mistral-ai-raises-2-billion-valuation-europe-ai-frontrunner",
-        "https://www.datacenterdynamics.com/en/news/mistral-ai-trained-latest-model-25x-faster-using-nvidia-gb200-nvl72-says-coreweave",
-        "https://www.forbes.com/companies/mistral-ai"
-      ],
-      "date": "2026-05-15T02:02:16.418856+00:00"
-    },
-    {
       "title": "Teladoc Expands Virtual Care Access With New MinuteClinic Integration",
       "urls": [
         "https://www.fcc.gov/general/telehealth-telemedicine-and-telecare-whats-what",
@@ -4877,7 +4864,18 @@
         "https://deaf.la/calendar"
       ],
       "date": "2026-05-25T01:33:23.737093+00:00"
+    },
+    {
+      "title": "Mit Researchers Create Magnetically Controlled Microscopic Soft Robots",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Robotics",
+        "https://www.britannica.com/technology/robotics",
+        "https://technologymagazine.com/top10/top-10-robotics-companies",
+        "https://news.mit.edu/topic/robotics",
+        "https://www.classcentral.com/report/best-robotics-courses"
+      ],
+      "date": "2026-05-25T02:03:23.897425+00:00"
     }
   ],
-  "lastUpdated": "2026-05-25T01:33:23.737157+00:00"
+  "lastUpdated": "2026-05-25T02:03:23.897484+00:00"
 }
