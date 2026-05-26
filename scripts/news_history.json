@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "China's new internet law has sparked widespread concern among digital rights groups, following its i",
-      "urls": [
-        "https://click.connect.hhs.gov",
-        "https://www.newsweek.com/china-online-identification-rights-free-speech-government-censorship-control-2099528",
-        "https://www.computerweekly.com/news",
-        "https://gdpr.eu"
-      ],
-      "date": "2026-05-16T17:31:21.879051+00:00"
-    },
-    {
       "title": "Japan Records 6.7-Magnitude Earthquake Off Miyagi Coast",
       "urls": [
         "https://www.seismo.berkeley.edu/seismo.real.time.map.html",
@@ -4751,7 +4741,18 @@
         "https://buffalonews.com/sports"
       ],
       "date": "2026-05-26T17:04:25.368204+00:00"
+    },
+    {
+      "title": "World War Map Tracks 14 Active Conflicts With Real-Time Data",
+      "urls": [
+        "https://en.wikipedia.org/wiki/War",
+        "https://www.war.gov",
+        "https://www.aljazeera.com/news/liveblog/2026/5/26/iran-war-live-israel-pounds-lebanon-iranian-officials-in-qatar-for-talks",
+        "https://www.timesnownews.com/world/middle-east/us-israel-iran-war-live-updates-ceasefire-ships-blockade-lebanoni-strait-of-hormuz-blockade-iranian-missile-uae-attack-liveblog-154288424",
+        "https://worldwarmap.com"
+      ],
+      "date": "2026-05-26T17:34:07.548005+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T17:04:25.368269+00:00"
+  "lastUpdated": "2026-05-26T17:34:07.548119+00:00"
 }
