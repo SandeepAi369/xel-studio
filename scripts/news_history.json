@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Disability Insurance provides monthly payments to individuals whose medical conditio",
-      "urls": [
-        "https://www.ssa.gov/disability",
-        "https://www.pa.gov/services/dli/apply-for-a-social-security-disability-determination",
-        "https://www.usa.gov/social-security-disability",
-        "https://www.cdc.gov/disability-and-health/about/index.html",
-        "https://www.disabilityrightspa.org",
-        "https://www.disabilitysecrets.com/resources/ssdi/an-overview-social-security-disability-insurance-ssdi.htm",
-        "https://www.metlife.com/insurance/disability-insurance",
-        "https://www.va.gov/disability",
-        "https://disabilityin.org",
-        "https://www.ada.gov"
-      ],
-      "date": "2026-05-16T01:01:18.115359+00:00"
-    },
-    {
       "title": "Ashburn Faces Variable Weather With Temperatures From 48°F To 76°F",
       "urls": [
         "https://weather.com/weather/tenday/l/Ashburn+Virginia+20147?canonicalCityId=4b163901251cd5b38f957dbb917b3016",
@@ -4813,7 +4797,15 @@
         "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps"
       ],
       "date": "2026-05-26T00:31:05.009474+00:00"
+    },
+    {
+      "title": "Social Security Launches Online Disability Application Portal",
+      "urls": [
+        "https://www.ssa.gov/applyfordisability/index.htm",
+        "https://www.usa.gov/disability-services"
+      ],
+      "date": "2026-05-26T01:02:13.590669+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T00:31:05.009534+00:00"
+  "lastUpdated": "2026-05-26T01:02:13.590738+00:00"
 }
