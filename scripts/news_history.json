@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phoenix Records 106°F Average High During July Heat Wave",
-      "urls": [
-        "https://en.climate-data.org/north-america/united-states-of-america/arizona/phoenix-1468",
-        "https://www.accuweather.com/en/us/phoenix/85003/hourly-weather-forecast/346935"
-      ],
-      "date": "2026-05-16T22:32:06.918017+00:00"
-    },
-    {
       "title": "Sports Illustrated Releases 48 Unique Covers For 2026 FIFA World Cup Nations",
       "urls": [
         "https://www.espn.com/espn/latestnews",
@@ -4751,7 +4743,14 @@
         "https://physicsqanda.com/what-is-quantum-physics-in-simple-terms"
       ],
       "date": "2026-05-26T22:04:27.645467+00:00"
+    },
+    {
+      "title": "Farmers Use Climate FieldView To Optimize Crop Yields With Real-Time Data Analytics",
+      "urls": [
+        "https://climate.com"
+      ],
+      "date": "2026-05-26T22:33:16.234109+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T22:04:27.645531+00:00"
+  "lastUpdated": "2026-05-26T22:33:16.234173+00:00"
 }
