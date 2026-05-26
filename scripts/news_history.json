@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Portland Offers 60 Accessible Attractions and 380 Lift Vehicles for Disabled Riders",
-      "urls": [
-        "https://dictionary.cambridge.org/dictionary/english/accessible",
-        "https://www.travelportland.com/plan/accessible-portland"
-      ],
-      "date": "2026-05-16T09:31:03.239097+00:00"
-    },
-    {
       "title": "Chelsea FC Targets Three Major Signings With £200M War Chest",
       "urls": [
         "https://www.foxnews.com?msockid=26c2fcde1b1d69993a1deb851a586829",
@@ -4796,7 +4788,21 @@
         "https://news.google.com"
       ],
       "date": "2026-05-26T09:01:29.135752+00:00"
+    },
+    {
+      "title": "AMD Releases ROCm 7.13.0 With Full GPU Compatibility And Expanded SDK Tools",
+      "urls": [
+        "https://docs.amd.com/r/kEZ40evTxlJeSsg1AKaUiA/mSoL06mV7bJLXsIdYnYMCg",
+        "https://docs.amd.com",
+        "https://docs.amd.com/api/khub/documents/jF3a9B05pGCKcm5dglV0xA/content",
+        "https://docs.amd.com/p/adaptnav-offline",
+        "https://rocm.docs.amd.com/en/7.13.0-preview/compatibility/compatibility-matrix.html",
+        "https://docs.amd.com/r/en-US/ds987-k26-som/SOM240_1-Connector-Pinout",
+        "https://docs.amd.com/r/2024.1-简体中文/ug908-vivado-programming-debugging/使用波形-ILA-触发器和导出功能",
+        "https://rocm.docs.amd.com/projects/install-on-windows/en/latest"
+      ],
+      "date": "2026-05-26T09:32:08.237822+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T09:01:29.135840+00:00"
+  "lastUpdated": "2026-05-26T09:32:08.237892+00:00"
 }
