@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Who What Mental Disorders Impair Daily Function According To Who",
-      "urls": [
-        "https://my.clevelandclinic.org/health/diseases/22295-mental-health-disorders",
-        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
-        "https://www.ouhealth.com/health-services/mental-behavioral-health",
-        "https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968",
-        "https://www.ihs.gov/mentalhealth/what-is-mental-health"
-      ],
-      "date": "2026-05-16T21:30:52.498210+00:00"
-    },
-    {
       "title": "Social Security Launches Online Portal for Benefit Management",
       "urls": [
         "https://www.ssa.gov/myaccount",
@@ -4750,7 +4739,21 @@
         "https://distrowatch.com"
       ],
       "date": "2026-05-26T21:01:15.581210+00:00"
+    },
+    {
+      "title": "Apple Launches New Accessibility Features for iPhone Users",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/accessible",
+        "https://dictionary.cambridge.org/us/dictionary/english/accessible",
+        "https://www.thefreedictionary.com/accessible",
+        "https://www.dictionary.com/browse/accessible",
+        "https://www.dictionary.net/dictionary/accessible",
+        "https://en.wikipedia.org/wiki/Accessibility",
+        "https://twominenglish.com/accessible-to-or-for",
+        "https://www.collinsdictionary.com/dictionary/english/accessible"
+      ],
+      "date": "2026-05-26T21:31:03.214550+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T21:01:15.581265+00:00"
+  "lastUpdated": "2026-05-26T21:31:03.214618+00:00"
 }
