@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chelsea FC Targets Three Major Signings With £200M War Chest",
-      "urls": [
-        "https://www.foxnews.com?msockid=26c2fcde1b1d69993a1deb851a586829",
-        "https://www.newsnow.co.uk/h/Sport/Football/Premier+League/Chelsea"
-      ],
-      "date": "2026-05-16T10:02:22.274764+00:00"
-    },
-    {
       "title": "Scientists Advance Knowledge Through Rigorous Scientific Method Applications",
       "urls": [
         "https://en.wikipedia.org/wiki/Science"
@@ -4802,7 +4794,14 @@
         "https://rocm.docs.amd.com/projects/install-on-windows/en/latest"
       ],
       "date": "2026-05-26T09:32:08.237822+00:00"
+    },
+    {
+      "title": "Hug duration should last between 5 and 10 seconds for optimal emotional impact, according to scienti",
+      "urls": [
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=09b0da502be56f6c3f2ccd352ae06e4f"
+      ],
+      "date": "2026-05-26T10:02:26.883001+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T09:32:08.237892+00:00"
+  "lastUpdated": "2026-05-26T10:02:26.883066+00:00"
 }
