@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Institute of Mental Health Highlights Autism Spectrum Disorder Variability",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Autism",
-        "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder",
-        "https://www.webmd.com/brain/autism/understanding-autism-basics",
-        "https://my.clevelandclinic.org/health/articles/autism",
-        "https://nationalautismassociation.org/resources/autism-fact-sheet",
-        "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders"
-      ],
-      "date": "2026-05-16T02:01:06.096150+00:00"
-    },
-    {
       "title": "ScienceDirect Publishes Over 3.3 Million Open Access Articles",
       "urls": [
         "https://www.science.org",
@@ -4805,7 +4793,15 @@
         "https://quillbot.com/ai-content-detector?msockid=03434f6cce2c672e33eb5809cf696605"
       ],
       "date": "2026-05-26T01:34:11.869278+00:00"
+    },
+    {
+      "title": "Hugs Reduce Cortisol Levels By Up To 30 Percent",
+      "urls": [
+        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=138ac2c7bc0d6c7e0cb9d5a2bd256daf",
+        "https://www.lovepanky.com/men/understanding-women/types-of-hugs-a-woman-gives-what-they-mean"
+      ],
+      "date": "2026-05-26T02:01:26.713092+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T01:34:11.869336+00:00"
+  "lastUpdated": "2026-05-26T02:01:26.713156+00:00"
 }
