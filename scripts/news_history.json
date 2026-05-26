@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sports Illustrated Releases 48 Unique Covers For 2026 FIFA World Cup Nations",
-      "urls": [
-        "https://www.espn.com/espn/latestnews",
-        "https://www.si.com"
-      ],
-      "date": "2026-05-16T23:01:09.266535+00:00"
-    },
-    {
       "title": "Chiefs And Eagles Clash In Super Bowl Rematch To Open Nfl Season",
       "urls": [
         "https://www.nbcsports.com/nfl",
@@ -4750,7 +4742,18 @@
         "https://climate.com"
       ],
       "date": "2026-05-26T22:33:16.234109+00:00"
+    },
+    {
+      "title": "Autism Spectrum Disorder Affects Communication And Social Development In Children",
+      "urls": [
+        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
+        "https://en.wikipedia.org/wiki/Autism",
+        "https://www.cdc.gov/autism/signs-symptoms/index.html",
+        "https://autism.org/what-is-autism",
+        "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder"
+      ],
+      "date": "2026-05-26T23:03:29.259276+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T22:33:16.234173+00:00"
+  "lastUpdated": "2026-05-26T23:03:29.259346+00:00"
 }
