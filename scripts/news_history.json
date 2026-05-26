@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches Hugs To Simplify Open Source AI Deployment",
-      "urls": [
-        "https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e13-open-source-models-hugging-face/4454335",
-        "https://www.geeksforgeeks.org/nlp/hugging-face-and-open-source-the-impact-on-the-ai-community",
-        "https://huggingface.co/blog/gcp-partnership",
-        "https://huggingface.co/blog/hugs"
-      ],
-      "date": "2026-05-16T19:02:43.684018+00:00"
-    },
-    {
-      "title": "Fox News Delivers Conservative Coverage With The Five Leading Ratings",
-      "urls": [
-        "https://www.foxnews.com?msockid=1f0e18fec56e678f1db60fa5c4d866df"
-      ],
-      "date": "2026-05-16T19:31:27.408475+00:00"
-    },
-    {
       "title": "Steam Gives Away Horror Game Until May 19",
       "urls": [
         "https://www.crazygames.com",
@@ -4752,7 +4735,19 @@
         "https://environmentamerica.org/center/resources/the-state-of-renewable-energy-dashboard"
       ],
       "date": "2026-05-26T19:01:24.586190+00:00"
+    },
+    {
+      "title": "Sec Adopts Climate Disclosure Rules For Public Companies",
+      "urls": [
+        "https://www.accuweather.com/en/us/owensboro/42303/hourly-weather-forecast/735",
+        "https://www.sciencedaily.com/news/earth_climate/climate",
+        "https://www.nyc.gov/content/climate/pages",
+        "https://www.sec.gov/newsroom/press-releases/2024-31",
+        "https://sustainabilitymag.com/news/lcaw-climate-debate-low-carbon-economies-net-zero-plans",
+        "https://www.universityofcalifornia.edu/news/university-california-adopts-new-stronger-climate-action-goals"
+      ],
+      "date": "2026-05-26T19:32:12.615696+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T19:01:24.586255+00:00"
+  "lastUpdated": "2026-05-26T19:32:12.615759+00:00"
 }
