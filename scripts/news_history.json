@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OrCam MyEye 4.0 Launches With Enhanced AI For Visually Impaired Users",
-      "urls": [
-        "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired"
-      ],
-      "date": "2026-05-16T14:32:06.419942+00:00"
-    },
-    {
       "title": "Fda Finalizes Guidelines For Safe Medication Disposal",
       "urls": [
         "https://www.fda.gov/drugs"
@@ -4757,7 +4750,20 @@
         "https://www.newsnow.com/us/US/Politics/Donald+Trump"
       ],
       "date": "2026-05-26T14:01:40.597870+00:00"
+    },
+    {
+      "title": "Cdc Highlights Mental Health Impact On Daily Decision Making",
+      "urls": [
+        "https://www.cdc.gov/mental-health/about/index.html",
+        "https://www.samhsa.gov/mental-health",
+        "https://www.nimh.nih.gov/health",
+        "https://www.mentalhealth.com/library/mental-health",
+        "https://www.nbcnews.com/health/mental-health",
+        "https://psychcentral.com",
+        "https://www.everydayhealth.com/mental-health"
+      ],
+      "date": "2026-05-26T14:32:09.421511+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T14:01:40.597931+00:00"
+  "lastUpdated": "2026-05-26T14:32:09.421572+00:00"
 }
