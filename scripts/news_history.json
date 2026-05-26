@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDirect Publishes Over 3.3 Million Open Access Articles",
-      "urls": [
-        "https://www.science.org",
-        "https://en.m.wikipedia.org/wiki/Science",
-        "https://www.britannica.com/science/science",
-        "https://www.scientificamerican.com",
-        "https://www.snexplores.org",
-        "https://www.livescience.com",
-        "https://www.sciencedirect.com"
-      ],
-      "date": "2026-05-16T02:30:55.259827+00:00"
-    },
-    {
       "title": "Disasters Displaced 46 Million People Worldwide in 2024",
       "urls": [
         "https://www.theguardian.com/us-news/article/2024/jun/22/new-mexico-wildfires-floods-disaster",
@@ -4801,7 +4788,14 @@
         "https://www.lovepanky.com/men/understanding-women/types-of-hugs-a-woman-gives-what-they-mean"
       ],
       "date": "2026-05-26T02:01:26.713092+00:00"
+    },
+    {
+      "title": "Fox News Delivers 150 Million Monthly Visitors With 1500 Weekly Articles",
+      "urls": [
+        "https://www.foxnews.com?msockid=2e1e8f78496c610514f5981d48b860e0"
+      ],
+      "date": "2026-05-26T02:31:07.193206+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T02:01:26.713156+00:00"
+  "lastUpdated": "2026-05-26T02:31:07.193263+00:00"
 }
