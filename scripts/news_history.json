@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ashburn Faces Variable Weather With Temperatures From 48°F To 76°F",
-      "urls": [
-        "https://weather.com/weather/tenday/l/Ashburn+Virginia+20147?canonicalCityId=4b163901251cd5b38f957dbb917b3016",
-        "https://www.accuweather.com/en/us/ashburn/20147/weather-forecast/2160760"
-      ],
-      "date": "2026-05-16T01:30:53.265692+00:00"
-    },
-    {
       "title": "National Institute of Mental Health Highlights Autism Spectrum Disorder Variability",
       "urls": [
         "https://en.wikipedia.org/wiki/Autism",
@@ -4805,7 +4797,15 @@
         "https://www.usa.gov/disability-services"
       ],
       "date": "2026-05-26T01:02:13.590669+00:00"
+    },
+    {
+      "title": "QuillBot Launches Free AI Detector For ChatGPT And Gemini Content",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=03434f6cce2c672e33eb5809cf696605",
+        "https://quillbot.com/ai-content-detector?msockid=03434f6cce2c672e33eb5809cf696605"
+      ],
+      "date": "2026-05-26T01:34:11.869278+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T01:02:13.590738+00:00"
+  "lastUpdated": "2026-05-26T01:34:11.869336+00:00"
 }
