@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Unveils Claude Mythos With 92% Accurate Threat Detection",
-      "urls": [
-        "https://www.fool.com/investing/2026/04/08/anthropics-claude-mythos-preview-just-sent-shockwa",
-        "https://finance.yahoo.com/news/live/tech-stocks-today-anthropic-says-pentagon-ban-could-cost-it-billions-meta-announces-new-ai-chips-134456659.html",
-        "https://www.startus-insights.com/innovators-guide/major-tech-companies",
-        "https://seekingalpha.com/symbol/MSFT/news",
-        "https://www.fool.com/investing/2026/05/01/amazon-alphabet-microsoft-meta-and-apple-just-repo"
-      ],
-      "date": "2026-05-16T04:32:04.911727+00:00"
-    },
-    {
-      "title": "NFL And FOX Sports Deliver Weekly Game Coverage To Millions",
-      "urls": [
-        "https://www.foxsports.com/nfl",
-        "https://bleacherreport.com/nfl",
-        "https://www.cbssports.com/nfl"
-      ],
-      "date": "2026-05-16T05:01:13.493867+00:00"
-    },
-    {
       "title": "CBS News Adapts Coverage Using Real-Time Streaming Analytics",
       "urls": [
         "https://www.youtube.com/CBSNews/live",
@@ -4804,7 +4784,18 @@
         "https://global.bing.com/dict/search?q=incredible&FORM=BDVSP6&cc=cn"
       ],
       "date": "2026-05-26T04:31:03.895940+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Vibe Coding Agent For Cloud Development",
+      "urls": [
+        "https://mistral.ai",
+        "https://thenewstack.io/mistral-vibe-cloud-agents",
+        "https://www.aimadetools.com/blog/mistral-ai-complete-model-guide",
+        "https://www.cnbc.com/2026/05/19/mistral-cnbc-disruptor-50-ranking.html?msockid=2ae4b716c9936314266ba073c80b624b",
+        "https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score"
+      ],
+      "date": "2026-05-26T05:02:11.481216+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T04:31:03.896001+00:00"
+  "lastUpdated": "2026-05-26T05:02:11.481293+00:00"
 }
