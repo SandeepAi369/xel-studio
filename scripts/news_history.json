@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PayPal Appoints Enrique Lores As New Chief Executive Officer",
-      "urls": [
-        "https://www.cnbc.com/technology?msockid=12f3346bad916801283c2330ac9669ce",
-        "https://newsroom.paypal-corp.com/2026-02-03-PayPal-Appoints-Enrique-Lores-as-Chief-Executive-Officer-and-David-W-Dorman-as-Independent-Board-Chair",
-        "https://github.com/annontopicmodel/unsupervised_topic_modeling/blob/master/topics/fr/11/50/50/topics",
-        "https://www.stocktitan.net/news/DJT/trump-media-technology-group-appoints-kevin-mc-gurn-as-interim-chief-budv0tpv535g.html"
-      ],
-      "date": "2026-05-16T00:31:03.996405+00:00"
-    },
-    {
       "title": "Social Security Disability Insurance provides monthly payments to individuals whose medical conditio",
       "urls": [
         "https://www.ssa.gov/disability",
@@ -4812,7 +4802,18 @@
         "https://m.me/login"
       ],
       "date": "2026-05-26T00:06:35.967506+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Reachy Mini App Store With 200 Free Community Apps",
+      "urls": [
+        "https://www.healthline.com/health/hugging-benefits",
+        "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
+        "https://www.verywellmind.com/the-power-of-a-hug-on-your-health-5211361",
+        "https://www.livescience.com/archaeology/800-year-old-hugging-skeletons-are-genetically-confirmed-as-polands-only-medieval-same-sex-double-burial",
+        "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps"
+      ],
+      "date": "2026-05-26T00:31:05.009474+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T00:06:35.967563+00:00"
+  "lastUpdated": "2026-05-26T00:31:05.009534+00:00"
 }
