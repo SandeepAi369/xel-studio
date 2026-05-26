@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artificial Analysis Ranks Top AI Models In New Benchmark Study",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/artificial",
-        "https://www.dictionary.com/browse/artificial",
-        "https://dictionary.cambridge.org/dictionary/english/artificial",
-        "https://artificialanalysis.ai",
-        "https://www.nasa.gov/what-is-artificial-intelligence",
-        "https://en.m.wikipedia.org/wiki/Artificiality",
-        "https://www.collinsdictionary.com/dictionary/english/artificial",
-        "https://en.m.wiktionary.org/wiki/artificial",
-        "https://www.oxfordlearnersdictionaries.com/definition/english/artificial"
-      ],
-      "date": "2026-05-16T15:30:55.692407+00:00"
-    },
-    {
       "title": "Us And Iran Envoys Resume Islamabad Talks Amid Fragile Ceasefire",
       "urls": [
         "https://gulfnews.com/world/mena/war-threats-and-reversals-one-month-into-diplomacy-us-iran-truce-hangs-by-a-thread-1.500537165",
@@ -4771,7 +4756,14 @@
         "https://www.dropbox.com/features/cloud-storage"
       ],
       "date": "2026-05-26T15:05:36.156366+00:00"
+    },
+    {
+      "title": "Microsoft Launches Standalone Copilot AI Assistant Across Devices",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=0ee7c2f9da9f60c632b7d59cdbeb610b"
+      ],
+      "date": "2026-05-26T15:34:20.287352+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T15:05:36.156433+00:00"
+  "lastUpdated": "2026-05-26T15:34:20.287413+00:00"
 }
