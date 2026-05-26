@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Launches Online Portal for Benefit Management",
-      "urls": [
-        "https://www.ssa.gov/myaccount",
-        "https://www.socialrestaurant.co",
-        "https://www.socialsouthern.com/menu",
-        "https://www.instagram.com?hl=en"
-      ],
-      "date": "2026-05-16T22:02:17.369088+00:00"
-    },
-    {
       "title": "Phoenix Records 106°F Average High During July Heat Wave",
       "urls": [
         "https://en.climate-data.org/north-america/united-states-of-america/arizona/phoenix-1468",
@@ -4753,7 +4743,15 @@
         "https://www.collinsdictionary.com/dictionary/english/accessible"
       ],
       "date": "2026-05-26T21:31:03.214550+00:00"
+    },
+    {
+      "title": "Quantum Particles Exhibit Wave-Particle Duality in Groundbreaking Experiments",
+      "urls": [
+        "https://www.att.com/quantumfiber?msockid=30b3c98a5c6867d21c76deef5d34662c",
+        "https://physicsqanda.com/what-is-quantum-physics-in-simple-terms"
+      ],
+      "date": "2026-05-26T22:04:27.645467+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T21:31:03.214618+00:00"
+  "lastUpdated": "2026-05-26T22:04:27.645531+00:00"
 }
