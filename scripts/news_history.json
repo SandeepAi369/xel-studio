@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Advance Knowledge Through Rigorous Scientific Method Applications",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Science"
-      ],
-      "date": "2026-05-16T10:30:58.582251+00:00"
-    },
-    {
       "title": "Who What: WHO Reports One In Eight Global Population Lives With Mental Disorder",
       "urls": [
         "https://www.nature.com/articles/s41599-025-06441-z",
@@ -4801,7 +4794,14 @@
         "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=09b0da502be56f6c3f2ccd352ae06e4f"
       ],
       "date": "2026-05-26T10:02:26.883001+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Articles",
+      "urls": [
+        "https://www.foxnews.com?msockid=39b7505bd3a0680b102e473ed21f698b"
+      ],
+      "date": "2026-05-26T10:32:20.767893+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T10:02:26.883066+00:00"
+  "lastUpdated": "2026-05-26T10:32:20.767963+00:00"
 }
