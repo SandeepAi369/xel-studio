@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "University Of Oxford Launches Ai Tool To Detect Early Heart Failure",
-      "urls": [
-        "https://www.sciencenewstoday.org/how-ai-is-transforming-healthcare-diagnosis-treatment-and-beyond",
-        "https://www.nejm.org/ai-in-medicine",
-        "https://www.nature.com/articles/s44387-026-00076-4",
-        "https://medicine.stanford.edu/news/stories/2026/01/clinical-ai-has-boomed.html",
-        "https://hms.harvard.edu/news/ai-system-detailed-diagnostic-reasoning-makes-its-case",
-        "https://www.linkedin.com/pulse/month-healthcare-ai-may-2026-gary-monk-qnyue"
-      ],
-      "date": "2026-05-16T09:01:07.775282+00:00"
-    },
-    {
       "title": "Portland Offers 60 Accessible Attractions and 380 Lift Vehicles for Disabled Riders",
       "urls": [
         "https://dictionary.cambridge.org/dictionary/english/accessible",
@@ -4800,7 +4788,15 @@
         "https://www.youtube.com/playlist?list=PLAaiG9yzES_8cRgnMr8B4fqfRS0t9ZBfw"
       ],
       "date": "2026-05-26T08:31:02.105056+00:00"
+    },
+    {
+      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
+      "urls": [
+        "https://www.foxnews.com?msockid=3241b7340c49664539d0a0510dd9674d",
+        "https://news.google.com"
+      ],
+      "date": "2026-05-26T09:01:29.135752+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T08:31:02.105117+00:00"
+  "lastUpdated": "2026-05-26T09:01:29.135840+00:00"
 }
