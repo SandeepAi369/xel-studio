@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fda Finalizes Guidelines For Safe Medication Disposal",
-      "urls": [
-        "https://www.fda.gov/drugs"
-      ],
-      "date": "2026-05-16T15:01:17.107027+00:00"
-    },
-    {
       "title": "Artificial Analysis Ranks Top AI Models In New Benchmark Study",
       "urls": [
         "https://www.merriam-webster.com/dictionary/artificial",
@@ -4763,7 +4756,22 @@
         "https://www.everydayhealth.com/mental-health"
       ],
       "date": "2026-05-26T14:32:09.421511+00:00"
+    },
+    {
+      "title": "Amazon Web Services Leads Global Cloud Computing Expansion",
+      "urls": [
+        "https://claude.ai",
+        "https://www.icloud.com",
+        "https://cloud.google.com/storage",
+        "https://onedrive.live.com/about/en-us/signin",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=2b565f130801676a3d10487609ed66f9",
+        "https://www.cloudzero.com/blog/what-is-the-cloud",
+        "https://www.merriam-webster.com/dictionary/cloud",
+        "https://www.oracle.com/cloud/what-is-cloud-computing",
+        "https://www.dropbox.com/features/cloud-storage"
+      ],
+      "date": "2026-05-26T15:05:36.156366+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T14:32:09.421572+00:00"
+  "lastUpdated": "2026-05-26T15:05:36.156433+00:00"
 }
