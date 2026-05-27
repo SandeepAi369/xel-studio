@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mental Health Conditions Impact Millions Seeking Early Treatment",
-      "urls": [
-        "https://www.usa.gov/mental-health",
-        "https://www.mentalhealth.com/library/mental-health-conditions"
-      ],
-      "date": "2026-05-17T07:02:09.440494+00:00"
-    },
-    {
-      "title": "Microsoft Azure Launches New AI Tools For Vision And Decision-Making",
-      "urls": [
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence?msockid=21546d7438ec6f8b1af67a2839706ee9",
-        "https://www.sciencenewstoday.org/what-is-artificial-intelligence-ai-everything-you-need-to-know"
-      ],
-      "date": "2026-05-17T07:30:57.941378+00:00"
-    },
-    {
       "title": "Los Angeles City Council Approves 9.5 Million For Olympic Sidewalk Repairs",
       "urls": [
         "https://www.nbclosangeles.com/olympics/2028-los-angeles",
@@ -4705,7 +4689,18 @@
         "https://iplanet.one"
       ],
       "date": "2026-05-27T07:01:22.032786+00:00"
+    },
+    {
+      "title": "Social Security Administration Requires Login Gov Transition For Online Users",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Social_media",
+        "https://www.usa.gov/agencies/social-security-administration",
+        "https://login.gov/help/specific-agencies/ssa",
+        "https://play.google.com/store/apps/category/SOCIAL?hl=en-US",
+        "https://www.rockstargames.com/lanoire/socialclub"
+      ],
+      "date": "2026-05-27T07:33:04.849630+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T07:01:22.032857+00:00"
+  "lastUpdated": "2026-05-27T07:33:04.849727+00:00"
 }
