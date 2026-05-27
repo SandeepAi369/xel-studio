@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Delivers Real Time Coverage Across Digital And Broadcast Platforms",
-      "urls": [
-        "https://www.foxnews.com"
-      ],
-      "date": "2026-05-17T14:32:10.186004+00:00"
-    },
-    {
       "title": "Apple Improves VoiceOver Support for 15 Million Low-Vision Users",
       "urls": [
         "https://theconversation.com/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-but-still-face-barriers-to-the-digital-world-212600",
@@ -4669,7 +4662,14 @@
         "https://www.driveaccord.net/threads/pcv-valve-replacement-necessary.474378"
       ],
       "date": "2026-05-27T14:05:40.113037+00:00"
+    },
+    {
+      "title": "LinuxToday Publishes Community-Driven Tutorials And Security Updates",
+      "urls": [
+        "https://www.linuxtoday.com"
+      ],
+      "date": "2026-05-27T14:32:15.780869+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T14:05:40.113107+00:00"
+  "lastUpdated": "2026-05-27T14:32:15.780932+00:00"
 }
