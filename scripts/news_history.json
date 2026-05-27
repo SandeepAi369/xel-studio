@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Stock Rises After Hedge Fund Buys 1.2 Billion Dollars In Shares",
-      "urls": [
-        "https://www.microsoft.com/en-us?msockid=2eae36c2f83b6d42231e219ef9f36cf2",
-        "https://account.microsoft.com/account",
-        "https://www.office.com",
-        "https://en.wikipedia.org/wiki/Microsoft",
-        "https://m365.cloud.microsoft",
-        "https://finance.yahoo.com/quote/MSFT/news",
-        "https://login.microsoftonline.com/static/tenant/templates/MSA/unified.cshtml",
-        "https://www.fool.com/investing/2026/05/15/why-microsoft-stock-is-surging-today?msockid=2eae36c2f83b6d42231e219ef9f36cf2",
-        "https://www.chamberofcommerce.com/business-directory/washington/redmond/miscellaneous/1336525518-microsoft-headquarters",
-        "https://myaccount.microsoft.com"
-      ],
-      "date": "2026-05-17T15:31:00.481879+00:00"
-    },
-    {
       "title": "United States Invests 1.2 Billion To Boost Rare Earth Refining",
       "urls": [
         "https://www.ft.com/geopolitics",
@@ -4667,7 +4651,20 @@
         "https://copilot.microsoft.com?msockid=2ff3af0446976be22cbeb86247266a9d"
       ],
       "date": "2026-05-27T15:02:30.194988+00:00"
+    },
+    {
+      "title": "Andrew Garfield Portrays Sam Altman in Luca Guadagnino’s Upcoming OpenAI Biopic",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/artificial",
+        "https://dictionary.cambridge.org/dictionary/english/artificial",
+        "https://www.dictionary.com/browse/artificial",
+        "https://en.wikipedia.org/wiki/Artificial_(upcoming_film)",
+        "https://www.michaels.com/shop/floral",
+        "https://www.britannica.com/technology/artificial-intelligence",
+        "https://www.collinsdictionary.com/dictionary/english/artificial"
+      ],
+      "date": "2026-05-27T15:32:07.339072+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T15:02:30.195047+00:00"
+  "lastUpdated": "2026-05-27T15:32:07.339143+00:00"
 }
