@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Scholar Offers Free Access To Millions Of Research Papers",
-      "urls": [
-        "https://scholar.google.com"
-      ],
-      "date": "2026-05-17T06:01:13.398666+00:00"
-    },
-    {
       "title": "University of Colorado Hospital Delivers Advanced Care Across 120 Specialties",
       "urls": [
         "https://www.uchealth.org/locations/uchealth-university-of-colorado-hospital-uch",
@@ -4701,7 +4694,14 @@
         "https://zoneclock.org/converter/est-to-ist"
       ],
       "date": "2026-05-27T05:33:11.607196+00:00"
+    },
+    {
+      "title": "Fox News operates a high-volume content model, publishing approximately 1,500 articles per week acro",
+      "urls": [
+        "https://www.foxnews.com?msockid=32e11989fb0c67fb27ab0eeffa6d66a6"
+      ],
+      "date": "2026-05-27T06:04:34.217826+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T05:33:11.607263+00:00"
+  "lastUpdated": "2026-05-27T06:04:34.217897+00:00"
 }
