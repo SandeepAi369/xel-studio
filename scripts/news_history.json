@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "NBC News Digital Surpasses 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=08559e912f47649e256189cd2e6c659b",
-        "https://edition.cnn.com",
-        "https://www.nbcnews.com/latest-stories"
-      ],
-      "date": "2026-05-17T08:30:58.586713+00:00"
-    },
-    {
       "title": "Fox News Reaches 150 Million Monthly Visitors With Digital Expansion",
       "urls": [
         "https://www.foxnews.com?msockid=1a0ab09e641c6cf1089ea7c265826df9"
@@ -4696,7 +4687,17 @@
         "https://www.nasa.gov"
       ],
       "date": "2026-05-27T08:02:21.830931+00:00"
+    },
+    {
+      "title": "TechStartups reports rising investment in early-stage AI startups focused on vertical-specific appli",
+      "urls": [
+        "https://fortune.com/section/tech",
+        "https://www.cnbc.com/technology?msockid=0396c401345665240a48d36735c06449",
+        "https://techstartups.com",
+        "https://www.wsj.com/tech?msockid=0396c401345665240a48d36735c06449"
+      ],
+      "date": "2026-05-27T08:34:23.987017+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T08:02:21.830998+00:00"
+  "lastUpdated": "2026-05-27T08:34:23.987093+00:00"
 }
