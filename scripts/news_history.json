@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Los Angeles City Council Approves 9.5 Million For Olympic Sidewalk Repairs",
-      "urls": [
-        "https://www.nbclosangeles.com/olympics/2028-los-angeles",
-        "https://www.nbcnews.com/Olympics",
-        "https://www.britannica.com/sports/Olympic-Games",
-        "https://www.nbcolympics.com/schedule",
-        "https://www.olympicair.com/en"
-      ],
-      "date": "2026-05-17T08:02:16.330645+00:00"
-    },
-    {
       "title": "NBC News Digital Surpasses 150 Million Monthly Visitors",
       "urls": [
         "https://www.foxnews.com?msockid=08559e912f47649e256189cd2e6c659b",
@@ -4700,7 +4689,14 @@
         "https://www.rockstargames.com/lanoire/socialclub"
       ],
       "date": "2026-05-27T07:33:04.849630+00:00"
+    },
+    {
+      "title": "NASA has released new high-resolution images of Jupiter's moon Europa, captured by the Juno spacecra",
+      "urls": [
+        "https://www.nasa.gov"
+      ],
+      "date": "2026-05-27T08:02:21.830931+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T07:33:04.849727+00:00"
+  "lastUpdated": "2026-05-27T08:02:21.830998+00:00"
 }
