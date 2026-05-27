@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Monthly Visitors With Digital Expansion",
-      "urls": [
-        "https://www.foxnews.com?msockid=1a0ab09e641c6cf1089ea7c265826df9"
-      ],
-      "date": "2026-05-17T09:04:26.646893+00:00"
-    },
-    {
-      "title": "Nih Researchers Study Social Media Impact On 10 000 Youths",
-      "urls": [
-        "https://newsinhealth.nih.gov/2022/09/healthy-social-media-habits",
-        "https://www.healthline.com/health-news",
-        "https://www.clever.com",
-        "https://www.mhanational.org",
-        "https://www.viacharacter.org"
-      ],
-      "date": "2026-05-17T09:31:00.845504+00:00"
-    },
-    {
       "title": "Screen Readers Empower Visually Impaired Users Daily",
       "urls": [
         "https://www.people.inc",
@@ -4704,7 +4686,17 @@
         "https://www.foxnews.com?msockid=2cd9ccf67cc666ec000bdb907d8b67c9"
       ],
       "date": "2026-05-27T09:02:24.218960+00:00"
+    },
+    {
+      "title": "PCMag has released its 2026 rankings of top-performing monitors based on extensive testing of over 1",
+      "urls": [
+        "https://www.bestbuy.com",
+        "https://www.computerhope.com/jargon/s/screen.htm",
+        "https://www.miragescreensystems.com/dealers/screenmobile-of-nw-pittsburgh-coraopolis-pa",
+        "https://www.pcmag.com/picks/the-best-computer-monitors"
+      ],
+      "date": "2026-05-27T09:31:05.414849+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T09:02:24.219013+00:00"
+  "lastUpdated": "2026-05-27T09:31:05.414909+00:00"
 }
