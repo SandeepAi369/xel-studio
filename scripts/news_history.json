@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "GPT-5 Generates Functional Code And UI From Minimal Prompts",
-      "urls": [
-        "https://www.artstation.com",
-        "https://openai.com/gpt-5",
-        "https://ai.meta.com/research/movie-gen",
-        "https://www.figure.ai",
-        "https://www.synthesia.io"
-      ],
-      "date": "2026-05-17T00:01:06.588967+00:00"
-    },
-    {
       "title": "Fox News Website Delivers Conservative Coverage To Millions Monthly",
       "urls": [
         "https://www.foxnews.com?msockid=16d98b05b31064552e899c59b2bd65f0"
@@ -4751,7 +4740,15 @@
         "https://dictionary.cambridge.org/dictionary/english/social"
       ],
       "date": "2026-05-26T23:34:14.174935+00:00"
+    },
+    {
+      "title": "Fox News operates as a major U.",
+      "urls": [
+        "https://www.foxnews.com?msockid=0601e6561af465c22015f1301b63640a",
+        "https://www.ms.now"
+      ],
+      "date": "2026-05-27T00:02:18.696909+00:00"
     }
   ],
-  "lastUpdated": "2026-05-26T23:34:14.175003+00:00"
+  "lastUpdated": "2026-05-27T00:02:18.696974+00:00"
 }
