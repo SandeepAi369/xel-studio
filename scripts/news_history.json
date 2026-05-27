@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Instagram Reels Attracts Over 2 Billion Monthly Users",
-      "urls": [
-        "https://www.instagram.com",
-        "https://www.instagram.com?hl=ja",
-        "https://www.instagram.com?hl=tr",
-        "https://www.instagram.com?hl=es",
-        "https://www.instagram.com/accounts/emailsignup",
-        "https://www.instagram.com?hl=fr",
-        "https://www.instagram.com?hl=ko",
-        "https://www.instagram.com?hl=ar",
-        "https://www.instagram.com?hl=pt-br",
-        "https://www.instagram.com/reels"
-      ],
-      "date": "2026-05-17T02:01:13.363101+00:00"
-    },
-    {
-      "title": "United States Geological Survey operates the Advanced National Seismic System, monitoring over 2 mil",
-      "urls": [
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtbDBLQUFQAQ",
-        "https://earthquaketrack.com",
-        "https://www.worldnaturaldisasters.com"
-      ],
-      "date": "2026-05-17T02:32:17.733683+00:00"
-    },
-    {
       "title": "Yale Researchers Link Rising Temperatures to 27% Increase in Heat-Related ER Visits",
       "urls": [
         "https://www.unep.org/news-and-stories/story/world-likely-exceed-key-global-warming-target-soon-now-what",
@@ -4729,7 +4704,14 @@
         "https://earthquake.usgs.gov/earthquakes/map"
       ],
       "date": "2026-05-27T01:33:10.432752+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1500 Articles Weekly To Expand Digital Reach",
+      "urls": [
+        "https://www.foxnews.com?msockid=12c418f440ba64d31c040f92411465dd"
+      ],
+      "date": "2026-05-27T02:38:26.096329+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T01:33:10.432821+00:00"
+  "lastUpdated": "2026-05-27T02:38:26.096398+00:00"
 }
