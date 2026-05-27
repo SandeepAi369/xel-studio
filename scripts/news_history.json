@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "University of Colorado Hospital Delivers Advanced Care Across 120 Specialties",
-      "urls": [
-        "https://www.uchealth.org/locations/uchealth-university-of-colorado-hospital-uch",
-        "https://www.denverhealth.org",
-        "https://www.cumedicine.us",
-        "https://www.optum.com/en/care/locations/optum-colorado.html",
-        "https://www.healthonecares.com",
-        "https://www.healthfirstcolorado.com/find-doctors",
-        "https://www.healthonephysiciangroup.com/locations/aspen-medical-group",
-        "https://www.mednowclinics.com",
-        "https://evansmedicalcenter.com"
-      ],
-      "date": "2026-05-17T06:31:11.348231+00:00"
-    },
-    {
       "title": "Mental Health Conditions Impact Millions Seeking Early Treatment",
       "urls": [
         "https://www.usa.gov/mental-health",
@@ -4701,7 +4686,14 @@
         "https://www.foxnews.com?msockid=32e11989fb0c67fb27ab0eeffa6d66a6"
       ],
       "date": "2026-05-27T06:04:34.217826+00:00"
+    },
+    {
+      "title": "Ubuntu And Linux Mint Lead In Beginner Friendly Linux Adoption",
+      "urls": [
+        "https://itsfoss.com/best-linux-beginners"
+      ],
+      "date": "2026-05-27T06:34:28.019999+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T06:04:34.217897+00:00"
+  "lastUpdated": "2026-05-27T06:34:28.020077+00:00"
 }
