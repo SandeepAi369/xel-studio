@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Refugee And Humanitarian Program Sustains 20000 Annual Resettlement Places",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Refugee",
-        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
-        "https://www.britannica.com/topic/refugee",
-        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
-        "https://2021-2025.state.gov/refugee-admissions/frequently-asked-questions",
-        "https://www.politico.eu/article/sudan-war-reaching-syria-style-refugee-tipping-point-un-migration-agency-says",
-        "https://www.refugeecouncil.org.au/2026-27-federal-budget-analysis",
-        "https://immigrationnewscanada.ca/new-canada-immigration-priorities-plan",
-        "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
-        "https://www.oxfamamerica.org"
-      ],
-      "date": "2026-05-17T01:30:58.950408+00:00"
-    },
-    {
       "title": "Instagram Reels Attracts Over 2 Billion Monthly Users",
       "urls": [
         "https://www.instagram.com",
@@ -4738,7 +4722,14 @@
         "https://www.popularmechanics.com/technology/gear/a65985018/how-to-switch-your-pc-to-linux"
       ],
       "date": "2026-05-27T01:04:22.535917+00:00"
+    },
+    {
+      "title": "Usgs Monitors 1.3 Million Quakes Annually With 7000 Sensors",
+      "urls": [
+        "https://earthquake.usgs.gov/earthquakes/map"
+      ],
+      "date": "2026-05-27T01:33:10.432752+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T01:04:22.535985+00:00"
+  "lastUpdated": "2026-05-27T01:33:10.432821+00:00"
 }
