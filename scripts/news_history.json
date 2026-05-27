@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Improves VoiceOver Support for 15 Million Low-Vision Users",
-      "urls": [
-        "https://theconversation.com/digital-inaccessibility-blind-and-low-vision-people-have-powerful-technology-but-still-face-barriers-to-the-digital-world-212600",
-        "https://monsterfairings.com/product-category/fairings/fairings-for-kawasaki-motorcycles/kawasaki-zx-10r-fairings?category=fairings&brand=kawasaki-zx-10r-fairings",
-        "https://legalclarity.org/how-to-write-alt-text-for-images-accessibility-standards"
-      ],
-      "date": "2026-05-17T15:02:19.301205+00:00"
-    },
-    {
       "title": "Microsoft Stock Rises After Hedge Fund Buys 1.2 Billion Dollars In Shares",
       "urls": [
         "https://www.microsoft.com/en-us?msockid=2eae36c2f83b6d42231e219ef9f36cf2",
@@ -4669,7 +4660,14 @@
         "https://www.linuxtoday.com"
       ],
       "date": "2026-05-27T14:32:15.780869+00:00"
+    },
+    {
+      "title": "Microsoft Launches Copilot AI Assistant Across Windows And Office Suite",
+      "urls": [
+        "https://copilot.microsoft.com?msockid=2ff3af0446976be22cbeb86247266a9d"
+      ],
+      "date": "2026-05-27T15:02:30.194988+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T14:32:15.780932+00:00"
+  "lastUpdated": "2026-05-27T15:02:30.195047+00:00"
 }
