@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization reports that disabling hearing loss, defined as over 35 decibels in the be",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Deafness",
-        "https://nationaldeafcenter.org/resources/deaf-awareness",
-        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
-        "https://www.vddhh.virginia.gov",
-        "https://resources.healthgrades.com/right-care/hearing-loss/deafness",
-        "https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions",
-        "https://www.facebook.com/FXBGDeafEvents",
-        "https://www.vsdb.k12.va.us/page/about-vsdb",
-        "https://deafequality.org",
-        "https://spotswood.org/spotswood-deaf-church"
-      ],
-      "date": "2026-05-17T17:31:00.987947+00:00"
-    },
-    {
       "title": "Esports Tournaments Expand With BLAST Tv Live Tracking",
       "urls": [
         "https://www.strafe.com/tournaments",
@@ -4662,7 +4646,15 @@
         "https://www.foxnews.com?msockid=200e26502ae56eea054831362b2a6f2e"
       ],
       "date": "2026-05-27T17:02:23.550870+00:00"
+    },
+    {
+      "title": "The Open Championship is the oldest golf tournament in the world, first played in 1860 at Prestwick ",
+      "urls": [
+        "https://www.theopen.com",
+        "https://www.collinsdictionary.com/us/english-language-learning/open"
+      ],
+      "date": "2026-05-27T17:32:09.642710+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T17:02:23.550946+00:00"
+  "lastUpdated": "2026-05-27T17:32:09.642781+00:00"
 }
