@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Manchester City Beat Liverpool 3-1 to Close Premier League Gap",
-      "urls": [
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB/sections/CAQiRkNCQVNMZ29JTDIwdk1EWnVkR29TQW1WdUdnSlZVeUlPQ0FRYUNnb0lMMjB2TURKMmVEUXFDZ29JRWdaVGIyTmpaWElvQUEqKggAKiYICiIgQ0JBU0Vnb0lMMjB2TURadWRHb1NBbVZ1R2dKVlV5Z0FQAVAB?hl=en-US&ceid=US%3Aen",
-        "https://sportstar.thehindu.com",
-        "https://www.timesnownews.com/sports",
-        "https://www.abc.net.au/news/sport",
-        "https://www.livescore.com/en/news",
-        "https://www.cnbctv18.com/sports"
-      ],
-      "date": "2026-05-17T16:32:01.631231+00:00"
-    },
-    {
-      "title": "Iti Releases Where Trade Meets Tech Policy Paper Amid 2025 Global Trade Tensions",
-      "urls": [
-        "https://unctad.org/system/files/official-document/tdr2025ch2_en.pdf",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-        "https://www.itic.org/news-events/news-releases/new-iti-policy-paper-examines-how-ai-and-international-trade-converge",
-        "https://www.weforum.org/stories/2025/10/trade-policy-pressures-stories-to-know-this-month",
-        "https://www.ft.com/global-trade",
-        "https://www.trade.gov/press-releases",
-        "https://internationaltradetoday.com"
-      ],
-      "date": "2026-05-17T17:01:13.810544+00:00"
-    },
-    {
       "title": "World Health Organization reports that disabling hearing loss, defined as over 35 decibels in the be",
       "urls": [
         "https://en.wikipedia.org/wiki/Deafness",
@@ -4680,7 +4655,14 @@
         "https://disabilityinsider.com/2026/05/20/technology/apple-unveils-new-ai-powered-accessibility-features-and-updates"
       ],
       "date": "2026-05-27T16:31:02.633911+00:00"
+    },
+    {
+      "title": "Fox News Publishes 1,500 Articles Weekly To Engage 150 Million Monthly Visitors",
+      "urls": [
+        "https://www.foxnews.com?msockid=200e26502ae56eea054831362b2a6f2e"
+      ],
+      "date": "2026-05-27T17:02:23.550870+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T16:31:02.633970+00:00"
+  "lastUpdated": "2026-05-27T17:02:23.550946+00:00"
 }
