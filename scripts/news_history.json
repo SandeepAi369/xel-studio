@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yale Researchers Link Rising Temperatures to 27% Increase in Heat-Related ER Visits",
-      "urls": [
-        "https://www.unep.org/news-and-stories/story/world-likely-exceed-key-global-warming-target-soon-now-what",
-        "https://phys.org/earth-news",
-        "https://ysph.yale.edu/yale-center-on-climate-change-and-health/news-and-media"
-      ],
-      "date": "2026-05-17T03:05:18.724924+00:00"
-    },
-    {
-      "title": "Pakistan Sends Minister To Tehran To Mediate U.S.-Iran Talks",
-      "urls": [
-        "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-ceasefire-israel-lebanon-strait-of-hormuz-b2977023.html",
-        "https://www.cbsnews.com/live-updates/iran-war-us-trump-china-xi-summit-ceasefire-peace-talks-stalled",
-        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-hormuz-deal-oil-price-today-peace-proposal-ceasefire/4238131",
-        "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-trump-china-visit-abbas-araghchi-strait-of-hormuz-pakistan-uae-israel-netanyahu-latest-news-101778633883100.html",
-        "https://abcnews.com/International/live-updates/iran-live-updates-tehran-peace-talks-baghaei?id=132837701",
-        "https://www.reuters.com/world/middle-east",
-        "https://www.aljazeera.com/news/2026/4/26/us-iran-conflict-whats-the-latest-as-the-islamabad-talks-stall",
-        "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-us-peace-proposal-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131102954.cms"
-      ],
-      "date": "2026-05-17T03:30:58.575016+00:00"
-    },
-    {
       "title": "Redmod AI Detects Early Pancreatic Cancer In Ct Scans",
       "urls": [
         "https://copilot.microsoft.com",
@@ -4722,7 +4699,18 @@
         "https://en.m.wikipedia.org/wiki/2024_United_States_presidential_election_in_Florida"
       ],
       "date": "2026-05-27T03:02:15.569286+00:00"
+    },
+    {
+      "title": "Social Security Disability Insurance Supports Over 10 Million Americans",
+      "urls": [
+        "https://www.ssa.gov/disability",
+        "https://www.usa.gov/social-security-disability",
+        "https://www.disabilitysecrets.com/resources/ssdi/an-overview-social-security-disability-insurance-ssdi.htm",
+        "https://www.cdc.gov/disability-and-health/about/index.html",
+        "https://www.metlife.com/insurance/disability-insurance"
+      ],
+      "date": "2026-05-27T03:32:03.564628+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T03:02:15.569347+00:00"
+  "lastUpdated": "2026-05-27T03:32:03.564719+00:00"
 }
