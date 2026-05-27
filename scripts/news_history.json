@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Screen Readers Empower Visually Impaired Users Daily",
-      "urls": [
-        "https://www.people.inc",
-        "https://www.bleepingcomputer.com",
-        "https://thewire.in/rights/accessible-futures-unequal-present-how-tech-gap-affects-visually-impaired-people-in-south-asia",
-        "https://usabilitygeek.com/10-free-screen-reader-blind-visually-impaired-users"
-      ],
-      "date": "2026-05-17T10:01:14.602351+00:00"
-    },
-    {
       "title": "Solar Pv Accounts For 75 Percent Of Global Renewable Capacity Additions",
       "urls": [
         "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
@@ -4696,7 +4686,14 @@
         "https://www.pcmag.com/picks/the-best-computer-monitors"
       ],
       "date": "2026-05-27T09:31:05.414849+00:00"
+    },
+    {
+      "title": "NASA Satellites Track Global Climate Change With Precision Instruments",
+      "urls": [
+        "https://science.nasa.gov/climate-change"
+      ],
+      "date": "2026-05-27T10:03:36.104459+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T09:31:05.414909+00:00"
+  "lastUpdated": "2026-05-27T10:03:36.104518+00:00"
 }
