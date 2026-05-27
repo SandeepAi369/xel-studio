@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Solar Pv Accounts For 75 Percent Of Global Renewable Capacity Additions",
-      "urls": [
-        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
-        "https://www.energyglobal.com/news"
-      ],
-      "date": "2026-05-17T10:32:03.390115+00:00"
-    },
-    {
       "title": "Sebastian Sawe Shatters Marathon Record With Sub Two Hour Finish",
       "urls": [
         "https://world-track.org",
@@ -4693,7 +4685,14 @@
         "https://science.nasa.gov/climate-change"
       ],
       "date": "2026-05-27T10:03:36.104459+00:00"
+    },
+    {
+      "title": "Phoenix has seen a 17% year-over-year increase in reported property crimes, according to data releas",
+      "urls": [
+        "https://www.abc15.com/news"
+      ],
+      "date": "2026-05-27T10:33:27.257105+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T10:03:36.104518+00:00"
+  "lastUpdated": "2026-05-27T10:33:27.257188+00:00"
 }
