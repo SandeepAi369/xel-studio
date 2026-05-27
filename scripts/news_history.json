@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Substance Use Disorder Treatment Expands With Methadone Therapy And Rehabilitation Programs",
-      "urls": [
-        "https://www.samhsa.gov/substance-use",
-        "https://www.merriam-webster.com/dictionary/drug",
-        "https://www.townsendla.com/blog/what-are-drugs",
-        "https://www.mayoclinic.org/drugs-supplements",
-        "https://www.webmd.com/mental-health/addiction/default.htm"
-      ],
-      "date": "2026-05-17T13:01:11.296345+00:00"
-    },
-    {
       "title": "Visually Launches A B Testing Tool For Shopify Stores",
       "urls": [
         "https://www.linkedin.com/company/visually-io",
@@ -4669,7 +4658,15 @@
         "https://www.findtherun.com"
       ],
       "date": "2026-05-27T12:31:02.931532+00:00"
+    },
+    {
+      "title": "Ubuntu Leads Linux Adoption Among Beginners in 2025",
+      "urls": [
+        "https://www.techradar.com/best/best-linux-distros",
+        "https://www.tech2geek.net/best-linux-distros-in-2026-beginner-advanced-and-expert-picks"
+      ],
+      "date": "2026-05-27T13:03:42.192387+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T12:31:02.931570+00:00"
+  "lastUpdated": "2026-05-27T13:03:42.192454+00:00"
 }
