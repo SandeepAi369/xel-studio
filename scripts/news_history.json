@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Redmod AI Detects Early Pancreatic Cancer In Ct Scans",
-      "urls": [
-        "https://copilot.microsoft.com",
-        "https://news.gastro.org",
-        "https://blogs.nvidia.com/blog/tag/healthcare-life-sciences",
-        "https://scitechdaily.com/ai-detects-invisible-signs-of-pancreatic-cancer-years-before-diagnosis",
-        "https://greekreporter.com/2026/05/01/ai-detects-pancreatic-cancer-three-years-diagnosis",
-        "https://wellnesspulse.com/health"
-      ],
-      "date": "2026-05-17T04:01:07.930117+00:00"
-    },
-    {
       "title": "South Africa Wins Six Medals At 2025 Special Olympics",
       "urls": [
         "https://www.olympics.com/en/olympic-games",
@@ -4710,7 +4698,14 @@
         "https://www.metlife.com/insurance/disability-insurance"
       ],
       "date": "2026-05-27T03:32:03.564628+00:00"
+    },
+    {
+      "title": "Global is defined as relating to or involving the entire world, according to Merriam-Webster, emphas",
+      "urls": [
+        "https://www.merriam-webster.com/dictionary/global"
+      ],
+      "date": "2026-05-27T04:02:26.109782+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T03:32:03.564719+00:00"
+  "lastUpdated": "2026-05-27T04:02:26.109854+00:00"
 }
