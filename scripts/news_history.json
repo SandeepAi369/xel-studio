@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "South Africa Wins Six Medals At 2025 Special Olympics",
-      "urls": [
-        "https://www.olympics.com/en/olympic-games",
-        "https://en.m.wikipedia.org/wiki/Olympic_Games",
-        "https://tickets.la28.org",
-        "https://www.olympic.edu",
-        "https://www.youtube.com/@Olympics/videos",
-        "https://www.nbcnews.com/sports/olympics/ilia-malinin-olympic-performance-rcna259058",
-        "https://www.nbcolympics.com/news/anna-gasser-meet-athlete",
-        "https://www.nbcolympics.com/news/alysa-liu-meet-athlete",
-        "https://www.joburgetc.com/sports-etc/south-africa-six-medals-2025-special-olympics-world-winter-games",
-        "https://www.nbcolympics.com/news/amber-glenn-meet-athlete"
-      ],
-      "date": "2026-05-17T04:31:01.247506+00:00"
-    },
-    {
       "title": "The Open Returns To St Andrews For 155th Championship In 2027",
       "urls": [
         "https://www.theopen.com",
@@ -4705,7 +4689,18 @@
         "https://www.merriam-webster.com/dictionary/global"
       ],
       "date": "2026-05-27T04:02:26.109782+00:00"
+    },
+    {
+      "title": "Digital Technology Converts Analog Inputs Into Binary Code",
+      "urls": [
+        "https://github.com/hneemann/Digital",
+        "https://www.techtarget.com/whatis/definition/digital",
+        "https://www.geeksforgeeks.org/general-knowledge/what-is-digital",
+        "https://www.digitalspy.com",
+        "https://www.computerhope.com/jargon/d/digital.htm"
+      ],
+      "date": "2026-05-27T04:33:10.985077+00:00"
     }
   ],
-  "lastUpdated": "2026-05-27T04:02:26.109854+00:00"
+  "lastUpdated": "2026-05-27T04:33:10.985154+00:00"
 }
