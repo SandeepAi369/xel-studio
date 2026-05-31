@@ -1296,9 +1296,10 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         raw_prompt = (img_completion.choices[0].message.content or "").strip()
         if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
             raw_prompt = raw_prompt[1:-1]
+        # Remove bold formatting safely
+        raw_prompt = raw_prompt.replace("**", "")
         # Strip any labels the LLM might add
         raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
-        raw_prompt = re.sub(r'^\*\*.*?\*\*\s*', '', raw_prompt).strip()
         raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
         # Append quality boosters
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
