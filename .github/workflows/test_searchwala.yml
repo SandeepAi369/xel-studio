@@ -1,0 +1,59 @@
+name: "🧪 Test SearchWala"
+
+on:
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  test-searchwala:
+    name: Test SearchWala API
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout SearchWala
+        run: |
+          git clone https://github.com/SandeepAi369/SearchWala.git
+          cd SearchWala
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build SearchWala
+        run: |
+          cd SearchWala
+          cargo build --release
+
+      - name: Start SearchWala Server
+        run: |
+          cd SearchWala
+          ./target/release/searchwala &
+          sleep 10
+          curl -f http://localhost:8000/health || (echo "Server failed to start" && exit 1)
+
+      - name: Test Query 1 (Tech)
+        run: |
+          echo "Testing Tech Query..."
+          curl -X POST http://localhost:8000/search \
+            -H "Content-Type: application/json" \
+            -d '{"query": "quantum computing breakthroughs 2026", "max_results": 10, "focus_mode": "lite"}' > result1.json
+          cat result1.json | jq .
+
+      - name: Test Query 2 (Finance)
+        run: |
+          echo "Testing Finance Query..."
+          curl -X POST http://localhost:8000/search \
+            -H "Content-Type: application/json" \
+            -d '{"query": "global economy recession news today", "max_results": 10, "focus_mode": "lite"}' > result2.json
+          cat result2.json | jq .
+
+      - name: Test Query 3 (AI)
+        run: |
+          echo "Testing AI Query..."
+          curl -X POST http://localhost:8000/search \
+            -H "Content-Type: application/json" \
+            -d '{"query": "artificial intelligence trends 2026", "max_results": 10, "focus_mode": "lite"}' > result3.json
+          cat result3.json | jq .
