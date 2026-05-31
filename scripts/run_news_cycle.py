@@ -883,6 +883,27 @@ def generate_news():
         raise RuntimeError("CEREBRAS_API_KEY not set")
     cerebras_client = Cerebras(api_key=cerebras_key)
 
+    # Backup Cerebras client — used as instant failover when primary hits 429
+    cerebras_key_2 = os.environ.get("CEREBRAS_API_KEY_2", "")
+    cerebras_client_2 = Cerebras(api_key=cerebras_key_2) if cerebras_key_2 else None
+
+    def _cerebras_with_fallback(model: str, messages: list, temperature: float, max_tokens: int):
+        """Call Cerebras with automatic key-2 failover on 429 — no sleep."""
+        try:
+            return cerebras_client.chat.completions.create(
+                model=model, messages=messages,
+                temperature=temperature, max_tokens=max_tokens
+            )
+        except Exception as e:
+            is_rate_limit = "429" in str(e) or "queue_exceeded" in str(e) or "too_many_requests" in str(e)
+            if is_rate_limit and cerebras_client_2:
+                print(f"⚡ Primary key rate-limited, switching to backup key instantly...")
+                return cerebras_client_2.chat.completions.create(
+                    model=model, messages=messages,
+                    temperature=temperature, max_tokens=max_tokens
+                )
+            raise
+
     # 1. Pick search query via time-based rotation
     search_query, query_category = pick_search_query()
     print(f"📰 Query [{query_category}]: {search_query}")
@@ -1162,7 +1183,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     # 6. Generate professional headline via LLM (MUST come before image prompt)
     title = ""
     try:
-        title_completion = cerebras_client.chat.completions.create(
+        title_completion = _cerebras_with_fallback(
             model="zai-glm-4.7",
             messages=[
                 {
@@ -1233,53 +1254,52 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         "professional color grading, no text no words no letters no watermarks"
     )
 
+    IMG_SYSTEM = (
+        "You are an elite creative director at a premium news publication. "
+        "Your job: read a news article and craft a unique image prompt that an AI image generator will use.\n\n"
+        "YOUR CREATIVE PROCESS (follow this exactly):\n"
+        "Step 1 — ANALYZE THE TOPIC: What is this article specifically about? "
+        "Identify the core subject (a person? a company? a policy? a product? a scientific discovery? a crisis?).\n"
+        "Step 2 — CHOOSE THE RIGHT VISUAL APPROACH for THIS topic:\n"
+        "  • Company/product news → show the actual product, logo context, or corporate setting\n"
+        "  • Policy/regulation → show lawmakers, courtrooms, documents, government buildings\n"
+        "  • Scientific breakthrough → show the actual research: labs, microscopes, experiments, nature\n"
+        "  • Cybersecurity/hacking → show real-world consequences: worried people, screens with alerts, offices\n"
+        "  • AI/ML research → show researchers at whiteboards, code on screens, university settings\n"
+        "  • Hardware/chips → show actual hardware: close-up chips, manufacturing, clean rooms\n"
+        "  • Public health → show real patients, doctors, hospitals, communities\n"
+        "  • Climate/environment → show landscapes, weather events, wildlife, ecosystems\n"
+        "  • Business/finance → show boardrooms, trading floors, cityscapes, handshakes\n"
+        "  • If the topic doesn't fit any above, imagine you're sending a photographer — where would you send them?\n"
+        "Step 3 — CHOOSE A UNIQUE COLOR PALETTE that matches the article's emotional tone:\n"
+        "  • Hopeful/positive → warm golds, soft greens, morning light\n"
+        "  • Urgent/crisis → stark contrasts, reds, dramatic shadows\n"
+        "  • Corporate/formal → clean whites, steel blues, neutral tones\n"
+        "  • Innovation/discovery → bright whites, clean teals, lab lighting\n"
+        "  • Human interest → warm skin tones, natural daylight, intimate bokeh\n"
+        "  • Each article gets a DIFFERENT palette — never repeat the same colors\n"
+        "Step 4 — CHOOSE PHOTOGRAPHY STYLE based on subject matter:\n"
+        "  • Editorial portrait, photojournalism, macro product shot, aerial landscape, "
+        "documentary candid, scientific visualization, architectural photography, street photography\n\n"
+        "ABSOLUTE BANS (NEVER use these — they make all images look the same):\n"
+        "❌ People sitting at computers or desks (this is the #1 problem — NEVER default to this)\n"
+        "❌ Rows of people working at computer screens in an office\n"
+        "❌ Generic glowing server rooms with blue/purple neon lights\n"
+        "❌ Humanoid robots standing in corridors\n"
+        "❌ Abstract floating holographic interfaces\n"
+        "❌ Dark cyberpunk backgrounds with neon circuits\n"
+        "❌ People in lab coats looking at screens\n"
+        "❌ Generic 'futuristic' 3D renders\n\n"
+        "PREFER INSTEAD: Show the OBJECT of the news (the product, the building, the chip, the landscape, "
+        "the handshake, the document, the chart) rather than generic people at desks.\n\n"
+        "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
+    )
+
     try:
-        img_completion = cerebras_client.chat.completions.create(
+        img_completion = _cerebras_with_fallback(
             model="zai-glm-4.7",
             messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an elite creative director at a premium news publication. "
-                        "Your job: read a news article and craft a unique image prompt that an AI image generator will use.\n\n"
-                        "YOUR CREATIVE PROCESS (follow this exactly):\n"
-                        "Step 1 — ANALYZE THE TOPIC: What is this article specifically about? "
-                        "Identify the core subject (a person? a company? a policy? a product? a scientific discovery? a crisis?).\n"
-                        "Step 2 — CHOOSE THE RIGHT VISUAL APPROACH for THIS topic:\n"
-                        "  • Company/product news → show the actual product, logo context, or corporate setting\n"
-                        "  • Policy/regulation → show lawmakers, courtrooms, documents, government buildings\n"
-                        "  • Scientific breakthrough → show the actual research: labs, microscopes, experiments, nature\n"
-                        "  • Cybersecurity/hacking → show real-world consequences: worried people, screens with alerts, offices\n"
-                        "  • AI/ML research → show researchers at whiteboards, code on screens, university settings\n"
-                        "  • Hardware/chips → show actual hardware: close-up chips, manufacturing, clean rooms\n"
-                        "  • Public health → show real patients, doctors, hospitals, communities\n"
-                        "  • Climate/environment → show landscapes, weather events, wildlife, ecosystems\n"
-                        "  • Business/finance → show boardrooms, trading floors, cityscapes, handshakes\n"
-                        "  • If the topic doesn't fit any above, imagine you're sending a photographer — where would you send them?\n"
-                        "Step 3 — CHOOSE A UNIQUE COLOR PALETTE that matches the article's emotional tone:\n"
-                        "  • Hopeful/positive → warm golds, soft greens, morning light\n"
-                        "  • Urgent/crisis → stark contrasts, reds, dramatic shadows\n"
-                        "  • Corporate/formal → clean whites, steel blues, neutral tones\n"
-                        "  • Innovation/discovery → bright whites, clean teals, lab lighting\n"
-                        "  • Human interest → warm skin tones, natural daylight, intimate bokeh\n"
-                        "  • Each article gets a DIFFERENT palette — never repeat the same colors\n"
-                        "Step 4 — CHOOSE PHOTOGRAPHY STYLE based on subject matter:\n"
-                        "  • Editorial portrait, photojournalism, macro product shot, aerial landscape, "
-                        "documentary candid, scientific visualization, architectural photography, street photography\n\n"
-                        "ABSOLUTE BANS (NEVER use these — they make all images look the same):\n"
-                        "❌ People sitting at computers or desks (this is the #1 problem — NEVER default to this)\n"
-                        "❌ Rows of people working at computer screens in an office\n"
-                        "❌ Generic glowing server rooms with blue/purple neon lights\n"
-                        "❌ Humanoid robots standing in corridors\n"
-                        "❌ Abstract floating holographic interfaces\n"
-                        "❌ Dark cyberpunk backgrounds with neon circuits\n"
-                        "❌ People in lab coats looking at screens\n"
-                        "❌ Generic 'futuristic' 3D renders\n\n"
-                        "PREFER INSTEAD: Show the OBJECT of the news (the product, the building, the chip, the landscape, "
-                        "the handshake, the document, the chart) rather than generic people at desks.\n\n"
-                        "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
-                    ),
-                },
+                {"role": "system", "content": IMG_SYSTEM},
                 {
                     "role": "user",
                     "content": (
@@ -1305,10 +1325,10 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
         print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
     except Exception as e:
-        print(f"⚠️ Image prompt generation failed: {e}")
-        # Fallback: simple title-based prompt
-        image_prompt = f"{title}, editorial news photography, natural lighting, {QUALITY_BOOST}"
-        print(f'🎨 Fallback prompt: "{image_prompt[:120]}..."')
+        print(f"⚠️ Image prompt generation failed (both keys): {e}")
+        # Smart fallback: use topic + category for a relevant prompt — never empty
+        image_prompt = f"{topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
+        print(f'🎨 Smart fallback prompt: "{image_prompt[:120]}..."')
 
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
