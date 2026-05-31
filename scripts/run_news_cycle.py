@@ -766,22 +766,32 @@ def parse_article_response(text: str) -> tuple[str, str]:
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt: str) -> tuple[str, str]:
-    """Call Cerebras API and return (article_text, category)."""
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.4,
-        max_tokens=4096,
-        response_format={"type": "json_object"},
-    )
-    raw = (completion.choices[0].message.content or "").strip()
-    if not raw:
-        raise ValueError("Empty response from Cerebras")
-    return parse_article_response(raw)
+def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt: str,
+                  backup_client: Cerebras = None) -> tuple[str, str]:
+    """Call Cerebras API and return (article_text, category). Tries backup_client on empty/error."""
+    def _try(c):
+        completion = c.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.4,
+            max_tokens=4096,
+            response_format={"type": "json_object"},
+        )
+        raw = (completion.choices[0].message.content or "").strip()
+        if not raw:
+            raise ValueError("Empty response from Cerebras")
+        return parse_article_response(raw)
+
+    try:
+        return _try(client)
+    except Exception as e:
+        if backup_client:
+            print(f"  ⚡ Primary key failed ({str(e)[:60]}), trying backup key...")
+            return _try(backup_client)
+        raise
 
 
 # ─── Cleanup Old News ────────────────────────────────────────
@@ -1137,7 +1147,10 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category = call_cerebras(cerebras_client, model_name, system_prompt, user_prompt)
+            article_text, ai_category = call_cerebras(
+                cerebras_client, model_name, system_prompt, user_prompt,
+                backup_client=cerebras_client_2
+            )
             used_model = model_name
 
             if ai_category:
@@ -1157,7 +1170,10 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
-                    retry_text, retry_cat = call_cerebras(cerebras_client, model_name, system_prompt, retry_prompt)
+                    retry_text, retry_cat = call_cerebras(
+                        cerebras_client, model_name, system_prompt, retry_prompt,
+                        backup_client=cerebras_client_2
+                    )
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
@@ -1321,6 +1337,9 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         # Strip any labels the LLM might add
         raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
         raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
+        # Validate prompt not empty — guard against empty LLM responses
+        if not raw_prompt or len(raw_prompt.split()) < 4:
+            raise ValueError(f"Image prompt too short or empty: '{raw_prompt[:50]}'")
         # Append quality boosters
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
         print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
