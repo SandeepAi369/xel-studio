@@ -1084,7 +1084,7 @@ STRICT FORMATTING RULES:
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
 
-    MODELS = ["qwen-3-235b-a22b-instruct-2507"]
+    MODELS = ["zai-glm-4.7", "gpt-oss-120b"]
     article_text = ""
     used_model = ""
 
@@ -1138,7 +1138,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     title = ""
     try:
         title_completion = cerebras_client.chat.completions.create(
-            model="qwen-3-235b-a22b-instruct-2507",
+            model="zai-glm-4.7",
             messages=[
                 {
                     "role": "system",
@@ -1210,7 +1210,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
     try:
         img_completion = cerebras_client.chat.completions.create(
-            model="qwen-3-235b-a22b-instruct-2507",
+            model="zai-glm-4.7",
             messages=[
                 {
                     "role": "system",
