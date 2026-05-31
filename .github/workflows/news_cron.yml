@@ -36,12 +36,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Start SearchWala
+      - name: Start SearchWala (optional)
         run: |
-          wget https://github.com/SandeepAi369/SearchWala/releases/latest/download/searchwala-linux-amd64 -O searchwala
+          echo "⬇️ Downloading SearchWala binary..."
+          wget --timeout=30 --tries=1 -q \
+            https://github.com/SandeepAi369/SearchWala/releases/latest/download/searchwala-linux-amd64 \
+            -O searchwala || { echo "⚠️ SearchWala download failed, Tavily fallback will be used."; exit 0; }
           chmod +x searchwala
           ./searchwala &
-          sleep 5
+          # Wait up to 10s for port 8000 to be ready
+          for i in $(seq 1 10); do
+            sleep 1
+            if curl -sf http://localhost:8000/health > /dev/null 2>&1 || \
+               curl -sf http://localhost:8000/ > /dev/null 2>&1; then
+              echo "✅ SearchWala is up on port 8000 (${i}s)"
+              exit 0
+            fi
+            echo "  ⏳ Waiting for SearchWala... ${i}/10s"
+          done
+          echo "⚠️ SearchWala did not respond in 10s, Tavily fallback will be used."
+        continue-on-error: true
 
       - name: Run news pipeline
         env:
