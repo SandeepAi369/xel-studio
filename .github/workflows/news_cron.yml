@@ -36,6 +36,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Start SearchWala
+        run: |
+          wget https://github.com/SandeepAi369/SearchWala/releases/latest/download/searchwala-linux-amd64 -O searchwala
+          chmod +x searchwala
+          ./searchwala &
+          sleep 5
+
       - name: Run news pipeline
         env:
           FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
