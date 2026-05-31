@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Southern California Earthquake Data Center Detects Quakes With 400-Sensor Network",
-      "urls": [
-        "https://scedc.caltech.edu/recent",
-        "https://earthquaketrack.com/v/la/recent",
-        "https://ktla.com/california-earthquake-map",
-        "https://www.emsc-csem.org/Earthquake_map"
-      ],
-      "date": "2026-05-21T18:01:32.195545+00:00"
-    },
-    {
       "title": "The Open Championship Returns To St Andrews In July",
       "urls": [
         "https://www.open.ac.uk",
@@ -2730,7 +2720,23 @@
         "https://guides.library.illinois.edu/c.php?g=526852&p=3602299"
       ],
       "date": "2026-05-31T17:31:44.614242+00:00"
+    },
+    {
+      "title": "NOAA says its latest outlook projects a below‑normal Atlantic hurricane season for 2026, suggesting ",
+      "urls": [
+        "https://yaleclimateconnections.org/2026/05/dangerous-heavy-rains-are-getting-more-likely-and-widespread",
+        "https://www.fox13news.com/news/2026-hurricane-season-guide-heres-what-know",
+        "https://www.youtube.com/watch?v=V7QFWAfXLXc",
+        "https://www.youtube.com/watch?v=56vpbuYLFuI",
+        "https://www.youtube.com/watch?v=crYgcT7XO5Y",
+        "https://www.youtube.com/watch?v=5x2WVORsLY4",
+        "https://www.usatoday.com/story/news/weather/2026/05/27/hurricane-season-2026-forecast-early-rapid-intensification/90261172007",
+        "https://www.cbsnews.com/tag/flooding",
+        "https://www.noaa.gov/news-release/noaa-predicts-below-normal-2026-atlantic-hurricane-season",
+        "https://yaleclimateconnections.org/2026/05/the-next-era-of-atlantic-hurricanes-could-be-far-more-destructive"
+      ],
+      "date": "2026-05-31T18:01:44.551840+00:00"
     }
   ],
-  "lastUpdated": "2026-05-31T17:31:44.614301+00:00"
+  "lastUpdated": "2026-05-31T18:01:44.551890+00:00"
 }
