@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Open Championship Returns To St Andrews In July",
-      "urls": [
-        "https://www.open.ac.uk",
-        "https://www.olympics.com/en/news/italian-open-2026-results-live-schedule-draw-scores-and-order-of-play-wta-atp-tennis",
-        "https://en.wikipedia.org/wiki/The_Open_Championship"
-      ],
-      "date": "2026-05-21T18:33:05.145738+00:00"
-    },
-    {
-      "title": "Einstein Medical Center Philadelphia is a tertiary-care teaching hospital in North Philadelphia, ser",
-      "urls": [
-        "https://www.pennmedicine.org",
-        "https://www.cooperhealth.org",
-        "https://www.med.upenn.edu",
-        "https://www.templehealth.org/locations/temple-university-hospital",
-        "https://providers.einstein.edu/location/einstein-medical-center-philadelphia/loc0000070864",
-        "https://www.hopkinsmedicine.org",
-        "https://en.wikipedia.org/wiki/Jefferson_Health"
-      ],
-      "date": "2026-05-21T19:01:19.098202+00:00"
-    },
-    {
       "title": "Alpine Home Medical Expands Wheelchair Access Across Three States",
       "urls": [
         "https://intermountainhealthcare.org/services/home-services/wheelchair-shop",
@@ -2752,7 +2730,23 @@
         "https://www.prnewswire.com/news-releases/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation-302667615.html"
       ],
       "date": "2026-05-31T18:31:52.592514+00:00"
+    },
+    {
+      "title": "Wiley article titled “Artificial Intelligence in Drug Discovery and Development: Transforming Pharma",
+      "urls": [
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281",
+        "https://www.globenewswire.com/news-release/2026/05/08/3290907/28124/en/AI-in-Drug-Discovery-Research-Report-2026-Global-Market-Analysis-Competitive-Landscape-Opportunities-and-Forecasts-2021-2025-2025-2031.html",
+        "https://www.youtube.com/watch?v=-VF2WWNEJ08",
+        "https://www.youtube.com/watch?v=pjU6TzxBE58",
+        "https://www.youtube.com/shorts/KXb44nws_0g",
+        "https://www.youtube.com/watch?v=GX0ukTyXtTc",
+        "https://www.youtube.com/watch?v=BUmOw0vsYL0",
+        "https://www.instagram.com/reel/DS8ey1XD2Bk",
+        "https://corvusglobalevents.com/conference/digi-tech-pharma-ai",
+        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
+      ],
+      "date": "2026-05-31T19:01:52.738485+00:00"
     }
   ],
-  "lastUpdated": "2026-05-31T18:31:52.592557+00:00"
+  "lastUpdated": "2026-05-31T19:01:52.738544+00:00"
 }
