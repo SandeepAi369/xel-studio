@@ -12,7 +12,6 @@ Ported from: app/api/cron/generate-news/route.ts (v17)
 import json
 import os
 import random
-from duckduckgo_search import DDGS
 import re
 import sys
 import time
@@ -408,25 +407,6 @@ def search_tavily(query: str, days_back: int = 3) -> dict:
             print(f"⚠️ Tavily ({label}) failed: {e}{error_details}")
             if i < len(keys) - 1:
                 print("🔄 Switching to fallback Tavily API key...")
-
-    print("⚠️ All Tavily keys exhausted — falling back to DuckDuckGo Search...")
-    try:
-        ddgs = DDGS()
-        results = [r for r in ddgs.text(query + " news", max_results=TAVILY_RESULT_COUNT)]
-        if results:
-            mapped = [
-                {"title": r.get("title", ""), "description": r.get("body", r.get("abstract", "")), "url": r.get("href", "")}
-                for r in results
-            ]
-            context = "\n\n".join(
-                f"[{j+1}] {r['title']}\n{r['description']}" for j, r in enumerate(mapped)
-            )
-            print(f'🔍 DuckDuckGo: {len(mapped)} results for "{query}"')
-            return {"context": context, "results": mapped}
-        else:
-            print("⚠️ DuckDuckGo returned no results.")
-    except Exception as e:
-        print(f"⚠️ DuckDuckGo failed: {e}")
 
     print("❌ All search methods failed.")
     return {"context": "", "results": []}
@@ -923,7 +903,8 @@ def generate_news():
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a focused factual journalist. Output valid JSON: {"articleText": "...", "category": "..."}. '
+        'You are a focused factual journalist. You must strictly base your news summary ONLY on the provided search results. DO NOT hallucinate or add external information not present in the search results. '
+        'Output valid JSON: {"articleText": "...", "category": "..."}. '
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
         'Write about ONE SINGLE story in depth. NEVER mix multiple unrelated topics. '
@@ -1059,7 +1040,7 @@ def generate_news():
         else:
             print("⚠️ All results matched existing titles — keeping originals for LLM to handle")
 
-    user_prompt = f"""Write a news summary from the search results below.{dedup_section}
+    user_prompt = f"""Write a news summary STRICTLY using ONLY the facts from the search results below. Do not include any information that is not in these results.{dedup_section}
 
 Search results:
 {json.dumps(cerebras_data, indent=2)}
@@ -1074,7 +1055,8 @@ STRICT FORMATTING RULES:
 7. No dates, no "breaking news" labels, no system details.
 8. Use SIMPLE, CLEAR language anyone can understand.
 9. DEPTH: Give specific numbers, quotes, names, context, and implications. Each bullet should add NEW information, not repeat what was already said.
-10. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general, sports
+10. NO HALLUCINATION (CRITICAL): You must base all facts, numbers, and quotes purely on the provided search results. If the search results do not contain enough information, summarize what is available without making up details.
+11. YOU MUST decide the category. Pick ONE from: ai-tech, disability, health, world, general, sports
    - ai-tech: AI, technology, open source AI, startups, chips, coding, Anthropic, OpenAI, etc.
    - disability: assistive tech, blind, deaf, wheelchair, accessibility, visually impaired, inclusion
    - health: healthcare, medical, mental health, wellness, disease, treatment
