@@ -1163,7 +1163,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     title = ""
     try:
         title_completion = cerebras_client.chat.completions.create(
-            model="gpt-oss-120b",
+            model="zai-glm-4.7",
             messages=[
                 {
                     "role": "system",
@@ -1235,7 +1235,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
     try:
         img_completion = cerebras_client.chat.completions.create(
-            model="gpt-oss-120b",
+            model="zai-glm-4.7",
             messages=[
                 {
                     "role": "system",
