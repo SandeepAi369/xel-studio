@@ -15,6 +15,7 @@ import random
 import re
 import sys
 import time
+import requests
 import uuid
 from datetime import datetime, timezone
 from urllib.parse import urlparse, urlencode, parse_qs, urlunparse
@@ -354,6 +355,48 @@ def init_cloudinary():
 
 # ─── Tavily Search ───────────────────────────────────────────
 
+
+def search_searchwala(query: str, days_back: int = 3) -> dict:
+    """Search using local SearchWala instance."""
+    try:
+        print(f'🔍 SearchWala: searching "{query}"...')
+        resp = requests.post(
+            "http://localhost:8000/search",
+            json={
+                "query": query,
+                "max_results": TAVILY_RESULT_COUNT,
+                "focus_mode": "lite"
+            },
+            timeout=120,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        results = data.get("search_results", [])
+        if not results:
+            print(f'⚠️ SearchWala returned no results for "{query}"')
+            return {"context": "", "results": []}
+
+        mapped = [
+            {"title": r.get("title", ""), "description": r.get("extracted_text", ""), "url": r.get("url", "")}
+            for r in results
+        ]
+        context = "\n\n".join(
+            f"[{j+1}] {r['title']}\n{r['description']}" for j, r in enumerate(mapped)
+        )
+        print(f'🔍 SearchWala: {len(mapped)} results for "{query}"')
+        return {"context": context, "results": mapped}
+
+    except Exception as e:
+        print(f"⚠️ SearchWala failed: {e}")
+        return {"context": "", "results": []}
+
+def perform_search(query: str, days_back: int = 3) -> dict:
+    res = search_searchwala(query, days_back)
+    if res["results"]:
+        return res
+    print("🔄 Falling back to Tavily...")
+    return search_tavily(query, days_back)
 
 def search_tavily(query: str, days_back: int = 3) -> dict:
     """Search Tavily with dual-key fallback. Returns {context, results}."""
@@ -852,7 +895,7 @@ def generate_news():
     # 3. Load URL history + existing titles for LLM dedup + Run Tavily search
     known_urls = load_history_urls(db)
     existing_titles = load_existing_titles(db)
-    initial_result = search_tavily(search_query, 7)
+    initial_result = perform_search(search_query, 7)
 
     # 4. Filter by URL history
     scraped_data = initial_result["results"]
@@ -871,7 +914,7 @@ def generate_news():
         found_fallback = False
         for fb_query, fb_cat in fallback_queries:
             print(f"⚠️ Primary search weak. Trying [{fb_cat}]: \"{fb_query}\"")
-            fb_result = search_tavily(fb_query, 7)
+            fb_result = perform_search(fb_query, 7)
             fb_fresh, fb_filtered = filter_by_url_history(fb_result["results"], known_urls)
             if fb_fresh and sum(len(f"{r.get('title','')} {r.get('description','')}") for r in fb_fresh) >= 50:
                 scraped_data = fb_fresh
@@ -887,7 +930,7 @@ def generate_news():
         if not found_fallback:
             # Last resort: very broad search
             print("⚠️ All category fallbacks empty. Trying ultra-broad search...")
-            broad_result = search_tavily("latest breaking news today", 7)
+            broad_result = perform_search("latest breaking news today", 7)
             broad_fresh, br_filtered = filter_by_url_history(broad_result["results"], known_urls)
             if broad_fresh:
                 scraped_data = broad_fresh
