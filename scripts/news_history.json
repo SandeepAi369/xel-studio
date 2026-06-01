@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NPR Expands Global Coverage With 35 International Correspondents",
-      "urls": [
-        "https://apnews.com/world-news",
-        "https://www.npr.org/sections/world"
-      ],
-      "date": "2026-05-22T13:01:14.257633+00:00"
-    },
-    {
       "title": "Global Aviation Holdings Operates World Airways and North American Airlines",
       "urls": [
         "https://en.wikipedia.org/wiki/Global",
@@ -3038,7 +3030,14 @@
         "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda%202025%20Annual%20Report.pdf"
       ],
       "date": "2026-06-01T12:55:06.323119+00:00"
+    },
+    {
+      "title": "Blockpass posted a Web3 Reg News article titled “Enhancing Regulation and Advancing Crypto” on its website, accessible via the URL",
+      "urls": [
+        "https://www.blockpass.org/2026/05/31/web-3-reg-news-enhancing-regulation-and-advancing-crypto"
+      ],
+      "date": "2026-06-01T13:04:00.136422+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T12:55:06.323159+00:00"
+  "lastUpdated": "2026-06-01T13:04:00.136482+00:00"
 }
