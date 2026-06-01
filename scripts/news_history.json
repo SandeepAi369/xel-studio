@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Lawmakers Pass Bill For 20 Units Per Acre Near Transit",
-      "urls": [
-        "https://www.latimes.com/california/latest-california-news"
-      ],
-      "date": "2026-05-22T19:01:25.644345+00:00"
-    },
-    {
       "title": "The Incredibles Revolutionizes Animation With Superhero Family Saga",
       "urls": [
         "https://en.wikipedia.org/wiki/The_Incredibles"
@@ -3075,7 +3068,20 @@
         "https://www.upi.com/Top_News/World-News/2026/04/28/korea-Korea-Stock-Index-KOSPI-record-high-6641-US-tech-company-earnings/9841777363821"
       ],
       "date": "2026-06-01T18:33:03.074823+00:00"
+    },
+    {
+      "title": "What AI Model Beats Doctors in Real‑World Diagnosis Test Shows Promise for Patients",
+      "urls": [
+        "https://techlorex.com/ai-in-healthcare-revolutionizing-diagnosis-treatment-and-patient-care",
+        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
+        "https://www.youtube.com/watch?v=oPeJPs_wsFI",
+        "https://www.youtube.com/watch?v=VEk7SrR_xmQ",
+        "https://www.youtube.com/watch?v=M7viub_lZRQ",
+        "https://www.npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis",
+        "https://www.nyas.org/ideas-insights/blog/healthcares-real-ai-breakthrough-may-be-getting-proven-care-to-more-patients"
+      ],
+      "date": "2026-06-01T19:01:50.644128+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T18:33:03.074876+00:00"
+  "lastUpdated": "2026-06-01T19:01:50.644186+00:00"
 }
