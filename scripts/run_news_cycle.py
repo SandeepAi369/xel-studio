@@ -808,40 +808,50 @@ def parse_article_response(text: str) -> tuple[str, str]:
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096, key_labels=None):
-    """Call Cerebras API gracefully failing over across available clients.
+def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096, key_labels=None, fallback_models=None):
+    """Call Cerebras API with multi-key AND multi-model fallback.
+    
+    Tries all clients with the primary model first.
+    If all clients fail AND fallback_models is provided, tries each fallback model across all clients.
     
     Args:
         key_labels: Optional list of human-readable key names matching clients order.
-                    e.g. ['Key-2', 'Key-3', 'Key-1'] for title generation.
+        fallback_models: Optional list of model names to try if primary model fails on all keys.
     """
+    models_to_try = [model] + (fallback_models or [])
+    
     last_error = None
-    for idx, c in enumerate(clients):
-        if not c: continue
-        label = key_labels[idx] if key_labels and idx < len(key_labels) else f"Key-{idx+1}"
-        try:
-            print(f"  ⚡ {task_name}: Attempting with {label}...")
-            completion = c.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
-                ],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                **({"response_format": response_format} if response_format else {})
-            )
-            raw = (completion.choices[0].message.content or "").strip()
-            if not raw:
-                raise ValueError(f"Empty response from Cerebras ({label})")
-            print(f"  ✅ {task_name} succeeded with {label}")
-            return raw
-        except Exception as e:
-            last_error = e
-            print(f"  ⚠️ {label} failed for {task_name}: {str(e)[:100]}")
-            if idx < len(clients) - 1:
-                print(f"  🔄 Retrying {task_name} with next key...")
-    raise ValueError(f"All keys exhausted for {task_name}: {str(last_error)[:100]}")
+    for model_idx, current_model in enumerate(models_to_try):
+        if model_idx > 0:
+            print(f"  🔄 {task_name}: Switching to fallback model '{current_model}'...")
+        
+        for idx, c in enumerate(clients):
+            if not c: continue
+            label = key_labels[idx] if key_labels and idx < len(key_labels) else f"Key-{idx+1}"
+            try:
+                print(f"  ⚡ {task_name}: Attempting {label} + {current_model}...")
+                completion = c.chat.completions.create(
+                    model=current_model,
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    **({"response_format": response_format} if response_format else {})
+                )
+                raw = (completion.choices[0].message.content or "").strip()
+                if not raw:
+                    raise ValueError(f"Empty response ({label} + {current_model})")
+                print(f"  ✅ {task_name} succeeded with {label} + {current_model}")
+                return raw
+            except Exception as e:
+                last_error = e
+                print(f"  ⚠️ {label} + {current_model} failed: {str(e)[:100]}")
+                if idx < len(clients) - 1:
+                    print(f"  🔄 Trying next key...")
+    
+    raise ValueError(f"All keys and models exhausted for {task_name}: {str(last_error)[:100]}")
 
 def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str]:
     raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"}, key_labels=key_labels)
@@ -1287,7 +1297,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
                 task_name="Title Generation",
                 temperature=0.7,
                 max_tokens=60,
-                key_labels=labels_title
+                key_labels=labels_title,
+                fallback_models=["gpt-oss-120b"]
             )
             
             # Clean up the title
@@ -1423,7 +1434,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
                 task_name="Image Prompt Generation",
                 temperature=0.95,
                 max_tokens=80,
-                key_labels=labels_image
+                key_labels=labels_image,
+                fallback_models=["gpt-oss-120b"]
             )
             if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
                 raw_prompt = raw_prompt[1:-1]
