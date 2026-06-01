@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Mistral Large 3 With Open Weights For Enterprise And Research Use",
-      "urls": [
-        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
-        "https://aiflashreport.com/topics/new-ai-model-releases.html",
-        "https://mistral.ai/news/mistral-3",
-        "https://martech360.com/news/unbabel-releases-new-open-source-large-language-model-the-first-llm-fine-tuned-to-predict-translation-quality"
-      ],
-      "date": "2026-05-22T04:35:08.718176+00:00"
-    },
-    {
-      "title": "PyTorch Powers 80% Of Enterprise AI Projects By 2025",
-      "urls": [
-        "https://pytorch.org/announcements",
-        "https://dasroot.net/posts/2026/02/state-of-python-open-source-2026",
-        "https://ainewscycle.com/topics/ai-and-open-source",
-        "https://blockchain.news/ainews/pytorch-s-explosive-growth-how-the-open-source-ai-framework-is-shaping-machine-learning-in-2025"
-      ],
-      "date": "2026-05-22T05:01:22.260549+00:00"
-    },
-    {
       "title": "Hugging Face Hosts 50 Top Open-Source AI Models With 10 Million Monthly Downloads",
       "urls": [
         "https://undercodenews.com/inside-hugging-face-the-50-most-downloaded-open-source-models-of-2025"
@@ -2897,7 +2877,14 @@
         "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
       ],
       "date": "2026-06-01T04:31:34.205378+00:00"
+    },
+    {
+      "title": "UN The United Nations released its latest global economic outlook, stating that its growth projectio",
+      "urls": [
+        "https://apnews.com/article/un-global-economic-forecast-growth-inflation-oil-e79c64aeb599030c308e6c93eaf9b350"
+      ],
+      "date": "2026-06-01T05:01:51.826945+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T04:31:34.205420+00:00"
+  "lastUpdated": "2026-06-01T05:01:51.827000+00:00"
 }
