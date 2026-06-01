@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "University Of Connecticut Study Reveals Ideal Hug Duration And Pressure For Emotional Bonding",
-      "urls": [
-        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=2466684227c46ef213577f23263e6fa9",
-        "https://www.momjunction.com/articles/different-types-of-hugs_00673097"
-      ],
-      "date": "2026-05-22T10:02:22.913557+00:00"
-    },
-    {
       "title": "National Wildlife Federation Protects 6000 At Risk Species Across 45 States",
       "urls": [
         "https://en.wikipedia.org/wiki/Wildlife",
@@ -2952,7 +2944,23 @@
         "https://www.universalhealthproducts.ca/top-mobility-trends-for-2026-whats-new-in-wheelchairs-scooters-and-accessibility-technology"
       ],
       "date": "2026-06-01T09:31:25.750128+00:00"
+    },
+    {
+      "title": "Research Share – Recent analyses on Spheron’s blog and Medium note that PyTorch commands roughly 85 ",
+      "urls": [
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://medium.com/codetodeploy/pytorch-vs-tensorflow-in-modern-ai-what-actually-matters-in-2026-8032d7585f49",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
+        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://uvik.net/blog/pytorch-vs-tensorflow",
+        "https://www.youtube.com/watch?v=pkEUANwkrqk",
+        "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
+      ],
+      "date": "2026-06-01T10:06:31.645310+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T09:31:25.750184+00:00"
+  "lastUpdated": "2026-06-01T10:06:31.645358+00:00"
 }
