@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Washington State Holds Closed Primary Election Tuesday",
-      "urls": [
-        "https://www.sos.wa.gov/elections/voters/helpful-information/current-election-information"
-      ],
-      "date": "2026-05-22T03:01:23.316206+00:00"
-    },
-    {
       "title": "Microsoft Details Steps To Install Critical Windows Updates",
       "urls": [
         "https://www.nature.com",
@@ -2870,7 +2863,22 @@
         "https://www.youtube.com/watch?v=UyLSO2gWOsw"
       ],
       "date": "2026-06-01T02:31:47.637629+00:00"
+    },
+    {
+      "title": "World Economic Forum reports that a recent analysis explores how cybersecurity strategies must adapt",
+      "urls": [
+        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026",
+        "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
+        "https://www.youtube.com/watch?v=dHA1o6HNuMo",
+        "https://www.youtube.com/watch?v=Gkw2vbJCFkQ",
+        "https://www.youtube.com/watch?v=89l-17kZ3OU",
+        "https://www.youtube.com/watch?v=4_HKh1jq7LA",
+        "https://www.youtube.com/watch?v=KqZqusPFf78",
+        "https://www.weforum.org/stories/2026/02/cybersecurity-and-geopolitics-the-challenges-to-build-resilience-in-a-fragmented-world",
+        "https://www.cidob.org/en/publications/world-2026-ten-issues-will-shape-international-agenda"
+      ],
+      "date": "2026-06-01T03:01:52.510502+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T02:31:47.637676+00:00"
+  "lastUpdated": "2026-06-01T03:01:52.510550+00:00"
 }
