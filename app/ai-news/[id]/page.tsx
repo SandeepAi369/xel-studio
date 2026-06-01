@@ -13,6 +13,9 @@ import {
     Copy,
     Share2,
     Heart,
+    ExternalLink,
+    ChevronDown,
+    Globe,
 } from "lucide-react";
 import SmartListenButton from "@/components/SmartListenButton";
 import { prepareTTSText } from "@/lib/tts-text";
@@ -26,7 +29,7 @@ interface NewsItem {
     title: string;
     summary: string;
     image_url: string | null;
-    source_link: string;
+    source_urls: string[];
     source_name: string;
     date: string;
     category: string;
@@ -53,6 +56,16 @@ function getReadingTime(content: string): number {
     return Math.ceil(words / wordsPerMinute);
 }
 
+/** Extract clean domain from URL (e.g. "https://www.reuters.com/tech/ai" → "reuters.com") */
+function getDomain(url: string): string {
+    try {
+        const hostname = new URL(url).hostname;
+        return hostname.replace(/^www\./, '');
+    } catch {
+        return url;
+    }
+}
+
 type ContentBlock =
     | { type: 'bullet'; text: string }
     | { type: 'paragraph'; text: string };
@@ -72,7 +85,6 @@ function formatContent(content: string): ContentBlock[] {
     const blocks: ContentBlock[] = [];
 
     for (const line of lines) {
-        // Detect bullet points: starts with -, •, or * (but not **bold**)
         if (/^[-•*]\s+/.test(line) && !/^\*\*/.test(line)) {
             blocks.push({ type: 'bullet', text: line.replace(/^[-•*]\s+/, '') });
         } else {
@@ -103,11 +115,10 @@ export default function NewsDetailPage() {
     const [loading, setLoading] = useState(true);
     const [liked, setLiked] = useState(false);
     const [copied, setCopied] = useState(false);
+    const [showSources, setShowSources] = useState(false);
 
     useEffect(() => {
         if (!id) return;
-
-        // Always scroll to top when article opens
         window.scrollTo(0, 0);
 
         async function fetchArticle() {
@@ -115,7 +126,12 @@ export default function NewsDetailPage() {
                 const docRef = doc(db, "news", id);
                 const docSnap = await getDoc(docRef);
                 if (docSnap.exists()) {
-                    setArticle({ id: docSnap.id, ...docSnap.data() } as NewsItem);
+                    const data = docSnap.data();
+                    setArticle({
+                        id: docSnap.id,
+                        ...data,
+                        source_urls: data.source_urls || [],
+                    } as NewsItem);
                 }
             } catch (err) {
                 console.error("Error fetching news article:", err);
@@ -127,7 +143,6 @@ export default function NewsDetailPage() {
         fetchArticle();
     }, [id]);
 
-    // Loading state
     if (loading) {
         return (
             <main className="min-h-screen bg-[#0a0a0a]">
@@ -147,7 +162,6 @@ export default function NewsDetailPage() {
         );
     }
 
-    // Not found
     if (!article) {
         return (
             <main className="min-h-screen bg-[#0a0a0a] flex items-center justify-center">
@@ -170,6 +184,7 @@ export default function NewsDetailPage() {
     const readingTime = getReadingTime(article.summary);
     const paragraphs = formatContent(article.summary);
     const catConfig = CATEGORY_DISPLAY[article.category] || CATEGORY_DISPLAY.general;
+    const sourceCount = article.source_urls?.length || 0;
 
     const handleCopy = async () => {
         try {
@@ -178,26 +193,21 @@ export default function NewsDetailPage() {
             );
             setCopied(true);
             setTimeout(() => setCopied(false), 2000);
-        } catch (err) {
-            /* fallback: do nothing */
+        } catch {
+            /* fallback */
         }
     };
 
     const handleShare = async () => {
-        const shareData = {
-            title: article.title,
-            text: article.title,
-            url: window.location.href,
-        };
         try {
             if (navigator.share) {
-                await navigator.share(shareData);
+                await navigator.share({ title: article.title, text: article.title, url: window.location.href });
             } else {
                 await navigator.clipboard.writeText(window.location.href);
                 setCopied(true);
                 setTimeout(() => setCopied(false), 2000);
             }
-        } catch (err) {
+        } catch {
             /* user cancelled */
         }
     };
@@ -207,26 +217,12 @@ export default function NewsDetailPage() {
             {/* Hero Section with Image */}
             <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900">
                 {article.image_url ? (
-                    <img
-                        src={article.image_url}
-                        alt={article.title}
-                        className="w-full h-full object-cover opacity-80"
-                    />
+                    <img src={article.image_url} alt={article.title} className="w-full h-full object-cover opacity-80" />
                 ) : (
                     <div className="w-full h-full bg-gradient-to-br from-purple-900/30 to-zinc-900" />
                 )}
-
-                {/* Gradient overlay */}
-                <div
-                    className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"
-                    style={{ pointerEvents: 'none' }}
-                />
-
-                {/* Back Button */}
-                <Link
-                    href="/ai-news"
-                    className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/60 rounded-full text-white hover:bg-black/80 transition-colors z-10"
-                >
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent" style={{ pointerEvents: 'none' }} />
+                <Link href="/ai-news" className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/60 rounded-full text-white hover:bg-black/80 transition-colors z-10">
                     <ArrowLeft className="w-4 h-4" />
                     <span>Back</span>
                 </Link>
@@ -237,7 +233,6 @@ export default function NewsDetailPage() {
                 <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800/60 overflow-hidden shadow-xl shadow-black/20">
                     {/* Article Header */}
                     <div className="p-5 sm:p-8 md:p-10 border-b border-zinc-800">
-                        {/* Meta Info */}
                         <div className="flex flex-wrap items-center gap-4 mb-6">
                             {article.category && (
                                 <span className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium ${catConfig.bg} ${catConfig.color} rounded-full border ${catConfig.border}`}>
@@ -247,11 +242,7 @@ export default function NewsDetailPage() {
                             )}
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
                                 <Calendar className="w-4 h-4" />
-                                {new Date(article.date).toLocaleDateString('en-US', {
-                                    year: 'numeric',
-                                    month: 'long',
-                                    day: 'numeric',
-                                })}
+                                {new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                             </span>
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
                                 <Clock className="w-4 h-4" />
@@ -262,8 +253,6 @@ export default function NewsDetailPage() {
                                 AI Generated
                             </span>
                         </div>
-
-                        {/* Title + Listen */}
                         <div className="flex items-start gap-4">
                             <h1 className="text-lg md:text-xl font-bold text-white leading-snug flex-1">
                                 {article.title}
@@ -274,14 +263,12 @@ export default function NewsDetailPage() {
                         </div>
                     </div>
 
-                    {/* Article Body — Clean text formatting */}
+                    {/* Article Body */}
                     <div className="px-5 sm:px-8 md:px-10 pb-5 sm:pb-8 md:pb-10 pt-4">
                         <ul className="space-y-2 max-w-none pl-1 list-none">
                             {paragraphs.map((block, index) => {
                                 const text = block.text;
                                 const hasLink = text.includes('http');
-
-                                // Render inner content (handles links + bold)
                                 let innerContent;
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
@@ -289,13 +276,7 @@ export default function NewsDetailPage() {
                                     innerContent = parts.map((part, i) => {
                                         if (part.match(urlRegex)) {
                                             return (
-                                                <a
-                                                    key={i}
-                                                    href={part}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
-                                                >
+                                                <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all">
                                                     {part}
                                                 </a>
                                             );
@@ -305,68 +286,88 @@ export default function NewsDetailPage() {
                                 } else {
                                     innerContent = renderBoldText(text);
                                 }
-
-                                // ALL items get a bullet dot — no exceptions
                                 return (
                                     <li key={index} className="flex gap-3">
                                         <span className="text-green-400 mt-[2px] text-lg leading-[1.8] flex-shrink-0">•</span>
-                                        <p className="text-gray-300 text-[15px] leading-[1.8]">
-                                            {innerContent}
-                                        </p>
+                                        <p className="text-gray-300 text-[15px] leading-[1.8]">{innerContent}</p>
                                     </li>
                                 );
                             })}
                         </ul>
 
-                        {/* Action Buttons — icon-only */}
+                        {/* Action Buttons */}
                         <div className="flex items-center gap-3 mt-8 pt-6 border-t border-zinc-800/60">
-                            <button
-                                onClick={handleCopy}
-                                title={copied ? "Copied!" : "Copy article"}
-                                className={`p-2.5 rounded-xl border transition-all duration-200 ${copied
-                                    ? "bg-green-500/20 border-green-500/40 text-green-400"
-                                    : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
-                                    }`}
-                            >
+                            <button onClick={handleCopy} title={copied ? "Copied!" : "Copy article"}
+                                className={`p-2.5 rounded-xl border transition-all duration-200 ${copied ? "bg-green-500/20 border-green-500/40 text-green-400" : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"}`}>
                                 <Copy className="w-[18px] h-[18px]" />
                             </button>
-                            <button
-                                onClick={handleShare}
-                                title="Share article"
-                                className="p-2.5 rounded-xl border bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50 transition-all duration-200"
-                            >
+                            <button onClick={handleShare} title="Share article"
+                                className="p-2.5 rounded-xl border bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50 transition-all duration-200">
                                 <Share2 className="w-[18px] h-[18px]" />
                             </button>
-                            <button
-                                onClick={() => setLiked(!liked)}
-                                title={liked ? "Unlike" : "Like"}
-                                className={`p-2.5 rounded-xl border transition-all duration-200 ${liked
-                                    ? "bg-red-500/20 border-red-500/40 text-red-400"
-                                    : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
-                                    }`}
-                            >
+                            <button onClick={() => setLiked(!liked)} title={liked ? "Unlike" : "Like"}
+                                className={`p-2.5 rounded-xl border transition-all duration-200 ${liked ? "bg-red-500/20 border-red-500/40 text-red-400" : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"}`}>
                                 <Heart className={`w-[18px] h-[18px] ${liked ? "fill-red-400" : ""}`} />
                             </button>
                         </div>
                     </div>
 
-                    {/* Article Footer — compact */}
+                    {/* Article Footer — Sources */}
                     <div className="px-5 sm:px-8 md:px-10 py-4 border-t border-zinc-800 bg-zinc-900/50">
                         <div className="flex items-center justify-between">
-                            <p className="text-zinc-500 text-xs">
-                                Thank you for reading.
-                            </p>
-                            <Link
-                                href="/ai-news"
-                                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-sm bg-green-500/15 text-green-400 border border-green-500/25 rounded-lg font-medium hover:bg-green-500/25 transition-colors"
-                            >
+                            {sourceCount > 0 ? (
+                                <button
+                                    id="sources-toggle"
+                                    onClick={() => setShowSources(!showSources)}
+                                    className={`inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-xl border transition-all duration-200 ${showSources
+                                        ? "bg-emerald-500/15 border-emerald-500/30 text-emerald-400"
+                                        : "bg-zinc-800/50 border-zinc-700/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
+                                    }`}
+                                >
+                                    <Globe className="w-4 h-4" />
+                                    <span>Sources</span>
+                                    <span className={`inline-flex items-center justify-center min-w-[22px] h-[22px] px-1.5 text-xs font-bold rounded-full ${showSources ? "bg-emerald-500/25 text-emerald-300" : "bg-zinc-700 text-zinc-300"}`}>
+                                        {sourceCount}
+                                    </span>
+                                    <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${showSources ? "rotate-180" : ""}`} />
+                                </button>
+                            ) : (
+                                <p className="text-zinc-500 text-xs">XeL AI News</p>
+                            )}
+                            <Link href="/ai-news" className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-sm bg-green-500/15 text-green-400 border border-green-500/25 rounded-lg font-medium hover:bg-green-500/25 transition-colors">
                                 <ArrowLeft className="w-3.5 h-3.5" />
                                 More News
                             </Link>
                         </div>
+
+                        {/* Expandable Sources List */}
+                        {showSources && sourceCount > 0 && (
+                            <div className="mt-4 pt-4 border-t border-zinc-800/50">
+                                <ul className="space-y-2">
+                                    {article.source_urls.map((url, idx) => (
+                                        <li key={idx}>
+                                            <a
+                                                href={url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="group flex items-center gap-3 px-3.5 py-2.5 rounded-xl bg-zinc-800/30 border border-zinc-800/50 hover:bg-zinc-800/60 hover:border-zinc-700/60 transition-all duration-200"
+                                            >
+                                                <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-zinc-700/50 text-zinc-400 text-xs font-mono flex-shrink-0">
+                                                    {idx + 1}
+                                                </span>
+                                                <span className="text-sm text-zinc-300 group-hover:text-white transition-colors truncate flex-1">
+                                                    {getDomain(url)}
+                                                </span>
+                                                <ExternalLink className="w-3.5 h-3.5 text-zinc-600 group-hover:text-zinc-400 flex-shrink-0 transition-colors" />
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                     </div>
                 </article>
-            </div >
-        </main >
+            </div>
+        </main>
     );
 }

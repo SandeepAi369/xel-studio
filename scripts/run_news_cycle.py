@@ -913,7 +913,7 @@ def cleanup_old_news(db: firestore.Client):
                 data = doc_snap.to_dict()
 
                 # Archive to JSON history (not Firestore)
-                source_urls = data.get("sourceUrls", [])
+                source_urls = data.get("source_urls", [])
                 title = data.get("title", "")
                 if source_urls or title:
                     history["entries"].append({
@@ -1399,7 +1399,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         "title": title,
         "summary": article_text,
         "image_url": image_url,
-        "source_link": None,
+        "source_urls": source_urls,  # ALL source URLs — no limit
         "source_name": "XeL AI News",
         "category": category,
         "date": datetime.now(timezone.utc).isoformat(),
