@@ -24,12 +24,18 @@ import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
 /* ─── Types ────────────────────────────────────────────────── */
+interface SourceItem {
+    url: string;
+    title: string;
+}
+
 interface NewsItem {
     id: string;
     title: string;
     summary: string;
     image_url: string | null;
     source_urls: string[];
+    sources: SourceItem[];
     source_name: string;
     date: string;
     category: string;
@@ -131,6 +137,7 @@ export default function NewsDetailPage() {
                         id: docSnap.id,
                         ...data,
                         source_urls: data.source_urls || [],
+                        sources: data.sources || [],
                     } as NewsItem);
                 }
             } catch (err) {
@@ -184,7 +191,11 @@ export default function NewsDetailPage() {
     const readingTime = getReadingTime(article.summary);
     const paragraphs = formatContent(article.summary);
     const catConfig = CATEGORY_DISPLAY[article.category] || CATEGORY_DISPLAY.general;
-    const sourceCount = article.source_urls?.length || 0;
+    // Use rich sources if available, fall back to plain source_urls
+    const richSources: SourceItem[] = article.sources?.length > 0
+        ? article.sources
+        : (article.source_urls || []).map(url => ({ url, title: '' }));
+    const sourceCount = richSources.length;
 
     const handleCopy = async () => {
         try {
@@ -344,10 +355,10 @@ export default function NewsDetailPage() {
                         {showSources && sourceCount > 0 && (
                             <div className="mt-4 pt-4 border-t border-zinc-800/50">
                                 <ul className="space-y-2">
-                                    {article.source_urls.map((url, idx) => (
+                                    {richSources.map((src, idx) => (
                                         <li key={idx}>
                                             <a
-                                                href={url}
+                                                href={src.url}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="group flex items-center gap-3 px-3.5 py-2.5 rounded-xl bg-zinc-800/30 border border-zinc-800/50 hover:bg-zinc-800/60 hover:border-zinc-700/60 transition-all duration-200"
@@ -355,8 +366,21 @@ export default function NewsDetailPage() {
                                                 <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-zinc-700/50 text-zinc-400 text-xs font-mono flex-shrink-0">
                                                     {idx + 1}
                                                 </span>
-                                                <span className="text-sm text-zinc-300 group-hover:text-white transition-colors truncate flex-1">
-                                                    {getDomain(url)}
+                                                <span className="flex flex-col min-w-0 flex-1">
+                                                    {src.title ? (
+                                                        <>
+                                                            <span className="text-sm text-zinc-200 group-hover:text-white transition-colors truncate leading-snug">
+                                                                {src.title}
+                                                            </span>
+                                                            <span className="text-xs text-zinc-500 truncate mt-0.5">
+                                                                {getDomain(src.url)}
+                                                            </span>
+                                                        </>
+                                                    ) : (
+                                                        <span className="text-sm text-zinc-300 group-hover:text-white transition-colors truncate">
+                                                            {getDomain(src.url)}
+                                                        </span>
+                                                    )}
                                                 </span>
                                                 <ExternalLink className="w-3.5 h-3.5 text-zinc-600 group-hover:text-zinc-400 flex-shrink-0 transition-colors" />
                                             </a>
