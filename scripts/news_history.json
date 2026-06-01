@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Details Steps To Install Critical Windows Updates",
-      "urls": [
-        "https://www.nature.com",
-        "https://support.microsoft.com/en-us/windows/install-windows-updates-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a",
-        "https://support.microsoft.com/en-us/account-billing/change-the-email-address-or-phone-number-for-your-microsoft-account-761a662d-8032-88f4-03f3-c9ba8ba0e00b"
-      ],
-      "date": "2026-05-22T03:32:05.874144+00:00"
-    },
-    {
       "title": "U.S. And China Ramp Up AI Investments In Global Tech Race",
       "urls": [
         "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
@@ -2878,7 +2869,14 @@
         "https://www.cidob.org/en/publications/world-2026-ten-issues-will-shape-international-agenda"
       ],
       "date": "2026-06-01T03:01:52.510502+00:00"
+    },
+    {
+      "title": "QualityLogic posted an Accessibility Industry Update for March 2026 on its website, as indicated by ",
+      "urls": [
+        "https://www.qualitylogic.com/knowledge-center/accessibility-industry-update-march-2026"
+      ],
+      "date": "2026-06-01T03:32:36.573487+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T03:01:52.510550+00:00"
+  "lastUpdated": "2026-06-01T03:32:36.573538+00:00"
 }
