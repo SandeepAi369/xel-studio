@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=3bc272a1a1706c0c072a65c0a0106d9b"
-      ],
-      "date": "2026-05-22T18:32:11.342710+00:00"
-    },
-    {
       "title": "California Lawmakers Pass Bill For 20 Units Per Acre Near Transit",
       "urls": [
         "https://www.latimes.com/california/latest-california-news"
@@ -3069,7 +3062,20 @@
         "https://en.wikipedia.org/wiki/2026_in_climate_change"
       ],
       "date": "2026-06-01T18:02:02.819765+00:00"
+    },
+    {
+      "title": "What AI Boosts Drives Big Tech Earnings While Wall Street Chooses Winners",
+      "urls": [
+        "https://www.fool.com/investing/2026/05/30/micron-amd-asml-stock-1-trillion-club",
+        "https://www.cnbc.com/2026/04/22/tech-is-cheap-ahead-of-a-big-earnings-week-what-it-means-for-the-market.html",
+        "https://www.msn.com/en-us/money/markets/tech-stocks-close-out-best-month-since-start-of-covid-pandemic-in-2020/ar-AA227TGD?ocid=BingNewsVerp",
+        "https://www.moneycontrol.com/news/business/big-tech-earnings-show-split-between-ai-trade-winners-and-losers-13906665.html",
+        "https://www.investopedia.com/what-to-expect-in-markets-this-week-the-may-jobs-report-plus-tech-and-retailer-earnings-11985188",
+        "https://seekingalpha.com/news/4584471-ai-boom-lifts-big-tech-earnings-but-wall-street-is-picking-winners-and-losers",
+        "https://www.upi.com/Top_News/World-News/2026/04/28/korea-Korea-Stock-Index-KOSPI-record-high-6641-US-tech-company-earnings/9841777363821"
+      ],
+      "date": "2026-06-01T18:33:03.074823+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T18:02:02.819825+00:00"
+  "lastUpdated": "2026-06-01T18:33:03.074876+00:00"
 }
