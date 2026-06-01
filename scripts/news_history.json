@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cayuga Health Expands Ithaca Medical Center With 248 Bed Upgrade",
-      "urls": [
-        "https://cayugahealth.org",
-        "https://health.cornell.edu",
-        "https://health.usnews.com/best-hospitals/area/ny/cayuga-medical-center-6211960"
-      ],
-      "date": "2026-05-22T20:32:06.594462+00:00"
-    },
-    {
-      "title": "Robert Graves Chronicles Claudius Overcoming Disability To Rule Rome",
-      "urls": [
-        "https://sites.prh.com/modern-library-top-100"
-      ],
-      "date": "2026-05-22T21:01:16.656860+00:00"
-    },
-    {
       "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
       "urls": [
         "https://www.foxnews.com?msockid=3854550fc727644c3699426ec63065b6"
@@ -3106,7 +3090,16 @@
         "https://www.npr.org/2026/05/23/nx-s1-5832402/spacex-biggest-starship-flight"
       ],
       "date": "2026-06-01T20:31:49.382411+00:00"
+    },
+    {
+      "title": "Esports World Cup Chooses Paris Expo Porte de Versailles for 2026 Tournament",
+      "urls": [
+        "https://liquipedia.net/esports/Esports_World_Cup/2026",
+        "https://esportsinsider.com/2026/01/esports-events-calendar-2026-every-major-tournament",
+        "https://simulationdaily.com/news/esports-world-cup-2026-venue"
+      ],
+      "date": "2026-06-01T21:02:00.557695+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T20:31:49.382464+00:00"
+  "lastUpdated": "2026-06-01T21:02:00.557752+00:00"
 }
