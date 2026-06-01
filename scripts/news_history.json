@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Luca Guadagnino Directs Biographical Comedy Drama Artificial",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Artificial_(2027_film)"
-      ],
-      "date": "2026-05-22T16:32:17.499039+00:00"
-    },
-    {
-      "title": "Microsoft Copilot Launches AI Assistant Across Windows And Office",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=22a2c4e9b4fa67d30da5d388b5ee66ce",
-        "https://www.coursera.org/articles/what-is-artificial-intelligence?msockid=22a2c4e9b4fa67d30da5d388b5ee66ce"
-      ],
-      "date": "2026-05-22T17:01:17.028164+00:00"
-    },
-    {
       "title": "Marathon Runners Complete 42.195 Kilometers In World Athletics Event",
       "urls": [
         "https://en.wikipedia.org/wiki/Marathon",
@@ -3066,7 +3051,23 @@
         "https://www.nbcolympics.com/news/top-10-moments-after-10-days-milan-cortina-winter-olympics"
       ],
       "date": "2026-06-01T16:31:48.306485+00:00"
+    },
+    {
+      "title": "What The Guardian Highlights in Premier League 2025‑26 Player of the Season Review",
+      "urls": [
+        "https://www.espn.com/soccer/scoreboard",
+        "https://sportstar.thehindu.com/football/indian-football",
+        "https://www.espn.com",
+        "https://possible11.com",
+        "https://www.espn.in/football",
+        "https://sports.ndtv.com",
+        "https://en.uptodown.com/android/sports",
+        "https://indianexpress.com/section/sports",
+        "https://www.theguardian.com/football/2026/may/25/premier-league-2025-26-review-players-of-the-season",
+        "https://sportstar.thehindu.com/cricket/ipl/ipl-2026-final-rcb-vs-gt-live-score-royal-challengers-bengaluru-gujarat-titans-updates-may-31/article71044369.ece"
+      ],
+      "date": "2026-06-01T17:02:36.028278+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T16:31:48.306542+00:00"
+  "lastUpdated": "2026-06-01T17:02:36.028340+00:00"
 }
