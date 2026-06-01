@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Mint Leads DistroWatch With 1.2 Million Monthly Page Views",
-      "urls": [
-        "https://www.howtogeek.com/user-friendly-linux-distros-that-arent-mint",
-        "https://linuxlap.com/linux-tips/most-popular-linux-distributions-of-2026",
-        "https://www.linuxmint.com"
-      ],
-      "date": "2026-05-22T02:02:14.491782+00:00"
-    },
-    {
       "title": "Washington State Holds Closed Primary Election Tuesday",
       "urls": [
         "https://www.sos.wa.gov/elections/voters/helpful-information/current-election-information"
@@ -2856,7 +2847,14 @@
         "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
       ],
       "date": "2026-06-01T01:31:45.516055+00:00"
+    },
+    {
+      "title": "American Foundation for the Blind hosts an online resource titled “Using Technology” that focuses on",
+      "urls": [
+        "https://afb.org/blindness-and-low-vision/using-technology"
+      ],
+      "date": "2026-06-01T02:02:31.073855+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T01:31:45.516113+00:00"
+  "lastUpdated": "2026-06-01T02:02:31.073910+00:00"
 }
