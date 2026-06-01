@@ -1264,7 +1264,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    _cool_down(5, 'Title Generation')
+    _cool_down(10, 'Title Generation')
     # 6. Generate professional headline via LLM (MUST come before image prompt)
     title = ""
     
@@ -1287,7 +1287,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         try:
             if title_attempt > 0:
                 print(f"  🔄 Title retry #{title_attempt+1} after extra cool-down...")
-                _cool_down(5, 'Title Generation Retry')
+                _cool_down(10, 'Title Generation Retry')
             
             raw_title = call_cerebras_robust(
                 clients=clients_title,
@@ -1321,24 +1321,31 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         except Exception as e:
             print(f"⚠️ Title generation attempt {title_attempt+1} failed: {e}")
 
-    # Smart fallback title — extract the most meaningful sentence, not meta-text
+    # Smart fallback title — extract meaningful content, clean it into a headline
     if not title:
         print("📰 Building smart fallback title from article content...")
-        fallback = article_text.replace("**", "").replace("- ", "").strip()
-        # Skip lines that look like meta/system text
-        sentences = [s.strip() for s in re.split(r'[.!?\n]', fallback) if s.strip()]
-        # Filter out garbage sentences
-        good_sentences = [
-            s for s in sentences
-            if len(s.split()) >= 8  # at least 8 words
-            and not s.lower().startswith(('search results', 'the query', 'json', '{', 'output', 'return'))
-            and not re.match(r'^\s*\{', s)  # not JSON
+        fallback = article_text.replace("**", "").strip()
+        # Split by bullet points and newlines to get individual statements
+        segments = re.split(r'[\n•\-]', fallback)
+        segments = [s.strip().rstrip('.').strip() for s in segments if s.strip()]
+        # Filter out garbage
+        good_segments = [
+            s for s in segments
+            if 8 <= len(s.split()) <= 30  # reasonable headline length
+            and not s.lower().startswith(('search results', 'the query', 'json', '{', 'output', 'return', 'note:', 'source:'))
+            and not re.match(r'^\s*[\{\[]', s)  # not JSON
+            and not re.match(r'^https?://', s)  # not a URL
         ]
-        if good_sentences:
-            title = good_sentences[0][:120].strip()
-            # Ensure it ends cleanly
-            if not title.endswith('.'):
-                title = title.rsplit(' ', 1)[0] + '.'  # trim last partial word
+        if good_segments:
+            # Take the most informative segment (usually the first meaningful one)
+            raw_fallback = good_segments[0]
+            # Strip any residual markdown/formatting
+            raw_fallback = re.sub(r'[\*\#\_\`]', '', raw_fallback).strip()
+            # Truncate cleanly if too long
+            words = raw_fallback.split()
+            if len(words) > 20:
+                raw_fallback = ' '.join(words[:20])
+            title = raw_fallback
         else:
             # Absolute last resort: use the search topic
             title = f"{topic.title()} — Latest Developments and Key Updates"
@@ -1359,7 +1366,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
             print(f"   Existing:  \"{best_match[:60]}\"")
             print(f"   ⚠️ This article may be a duplicate — but publishing since it passed other checks")
 
-    _cool_down(5, 'Image Prompt Generation')
+    _cool_down(10, 'Image Prompt Generation')
     # 7. Intelligent adaptive image prompt — LLM auto-detects topic, adapts style
     image_prompt = ""
 
@@ -1424,7 +1431,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         try:
             if img_attempt > 0:
                 print(f"  🔄 Image prompt retry #{img_attempt+1} after extra cool-down...")
-                _cool_down(5, 'Image Prompt Retry')
+                _cool_down(10, 'Image Prompt Retry')
             
             raw_prompt = call_cerebras_robust(
                 clients=clients_image,
