@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kenyan And American Defending Champions Win Boston Marathon 2026",
-      "urls": [
-        "https://www.bungie.net/7/en/News/Article/introducing_seasons_marathon",
-        "https://www.cbsnews.com/boston/live-updates/boston-marathon-live-updates-race-results-course-map-forecast",
-        "https://findarace.com/us/running/marathons",
-        "https://store.steampowered.com/app/3065800/Marathon",
-        "https://www.usamarathonlist.com"
-      ],
-      "date": "2026-05-22T23:03:12.629638+00:00"
-    },
-    {
       "title": "Spring Health Expands Nationwide With Personalized Mental Health Plans",
       "urls": [
         "https://boards.greenhouse.io/globalhealthcareexchangeinc/jobs/4497506005",
@@ -3123,7 +3112,14 @@
         "https://www.globalissues.org/news/2026/05/18/43065"
       ],
       "date": "2026-06-01T23:02:03.704696+00:00"
+    },
+    {
+      "title": "Fox Weather Releases 2026 Atlantic Hurricane Season Forecast Guideline for Residents",
+      "urls": [
+        "https://www.foxweather.com/weather-news/2026-hurricane-season-what-to-know-atlantic-pacific"
+      ],
+      "date": "2026-06-01T23:33:07.976094+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T23:02:03.704754+00:00"
+  "lastUpdated": "2026-06-01T23:33:07.976170+00:00"
 }
