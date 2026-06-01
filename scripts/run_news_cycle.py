@@ -780,9 +780,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 # ─── Parse JSON Response ─────────────────────────────────────
 
 
-def parse_article_response(text: str) -> tuple[str, str, str]:
-    """Extract articleText, category, and title from JSON response.
-    Returns (article_text, category, title)."""
+def parse_article_response(text: str) -> tuple[str, str, str, str]:
+    """Extract articleText, category, title, and imagePrompt from JSON response.
+    Returns (article_text, category, title, image_prompt)."""
     clean = text.strip()
     if clean.startswith("```"):
         clean = re.sub(r"^```(?:json)?\s*\n?", "", clean)
@@ -792,6 +792,7 @@ def parse_article_response(text: str) -> tuple[str, str, str]:
         article = parsed.get("articleText", "").strip() if "articleText" in parsed else clean
         category = parsed.get("category", "").strip().lower() if "category" in parsed else ""
         title = parsed.get("title", "").strip() if "title" in parsed else ""
+        img_prompt = parsed.get("imagePrompt", "").strip() if "imagePrompt" in parsed else ""
         # Validate category is one of the allowed values
         valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
         if category not in valid_categories:
@@ -810,10 +811,16 @@ def parse_article_response(text: str) -> tuple[str, str, str]:
                 '', title, flags=re.IGNORECASE
             )
             title = re.sub(r'^[:\s\u2014\u2013-]+', '', title).strip()
-        return (article, category, title)
+        # Clean image prompt
+        if img_prompt:
+            img_prompt = img_prompt.strip('"\'')
+            img_prompt = img_prompt.replace("**", "")
+            img_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
+            img_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
+        return (article, category, title, img_prompt)
     except json.JSONDecodeError:
         pass
-    return (clean, "", "")
+    return (clean, "", "", "")
 
 
 # ─── Cerebras LLM ────────────────────────────────────────────
@@ -864,7 +871,7 @@ def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_pro
     
     raise ValueError(f"All keys and models exhausted for {task_name}: {str(last_error)[:100]}")
 
-def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str, str]:
+def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str, str, str]:
     raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"}, key_labels=key_labels)
     return parse_article_response(raw)
 
@@ -1063,12 +1070,16 @@ def generate_news():
         'Avoid jargon, technical terms, or complex vocabulary. '
         'You must strictly base your news summary ONLY on the provided search results. '
         'DO NOT hallucinate or add external information not present in the search results. '
-        'Output valid JSON: {"articleText": "...", "category": "...", "title": "..."}. '
+        'Output valid JSON: {"articleText": "...", "category": "...", "title": "...", "imagePrompt": "..."}. '
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
         'The title MUST be a unique, professional, specific 10-20 word news headline in Title Case. '
         'Start the title with WHO or WHAT. Use an active verb. NO colons, NO prefixes like Breaking or Update. '
         'Mention specific names, products, numbers, or places in the title. '
+        'The imagePrompt MUST be a vivid 30-50 word visual scene description for an AI image generator. '
+        'Describe a SPECIFIC scene that matches the article topic — NOT generic tech imagery. '
+        'Include: subject, setting, lighting, color palette, camera angle, photography style. '
+        'NEVER describe people at computers, glowing servers, or generic robots. '
         'Write about ONE SINGLE story in depth. NEVER mix multiple unrelated topics. '
         'No other keys, no markdown, no explanation.'
     )
@@ -1226,8 +1237,9 @@ STRICT FORMATTING RULES:
    - general: business, earnings, crypto, entertainment, social media, anything else
    - sports: sports achievements, athletic records, championships, Olympic, tournaments, incredible sports moments
 12. TITLE (CRITICAL): You MUST also generate a unique, professional news headline (10-20 words, Title Case). The title must summarize the ONE story you wrote about. Start with WHO/WHAT + active verb. Be specific with names/numbers/places. NO colons, NO prefixes.
+13. IMAGE PROMPT (CRITICAL): Write a vivid 30-50 word visual scene description for an AI image generator. The scene MUST directly depict the specific topic of your article. Include: specific subject/object, setting/location, lighting mood, color palette, camera angle, and photography style. NEVER use generic tech clichés like glowing servers, people at computers, abstract holograms, or robots. Instead show the REAL OBJECT of the news (the product, the building, the landscape, the document, the handshake, the protest, the lab equipment, the sports arena, the factory floor).
 
-Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six", "title": "Your Unique Professional Headline Here" }}"""
+Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six", "title": "Your Unique Professional Headline Here", "imagePrompt": "A vivid 30-50 word scene description matching the article topic" }}"""
 
     MODELS = ["gpt-oss-120b", "zai-glm-4.7"]
     article_text = ""
@@ -1236,7 +1248,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category, inline_title = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
+            article_text, ai_category, inline_title, inline_image_prompt = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
             used_model = model_name
 
             if ai_category:
@@ -1256,7 +1268,7 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
-                    retry_text, retry_cat, retry_title = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
+                    retry_text, retry_cat, retry_title, retry_img = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
@@ -1265,6 +1277,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
                             ai_category = retry_cat
                         if retry_title:
                             inline_title = retry_title
+                        if retry_img:
+                            inline_image_prompt = retry_img
                         print(f"✅ Retry accepted: {retry_wc} words")
                 except Exception:
                     print("⚠️ Retry failed, keeping first attempt")
@@ -1324,104 +1338,21 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
             print(f"   Existing:  \"{best_match[:60]}\"")
             print(f"   ⚠️ This article may be a duplicate — but publishing since it passed other checks")
 
-    _cool_down(10, 'Image Prompt Generation')
-    # 7. Intelligent adaptive image prompt — LLM auto-detects topic, adapts style
-    image_prompt = ""
-
-    detected_cat = (ai_category or category or "general").lower().strip()
-    print(f"🎨 Category: {detected_cat}")
-
-    # Quality suffix — universal, no style bias
+    # 7. Image prompt — already generated inline with article (no separate API call)
     QUALITY_BOOST = (
         "cinematic composition, high resolution, sharp focus, "
         "professional color grading, no text no words no letters no watermarks"
     )
+    detected_cat = (ai_category or category or "general").lower().strip()
 
-    IMG_SYSTEM = (
-        "You are an elite creative director at a premium news publication. "
-        "Your job: read a news article and craft a unique image prompt that an AI image generator will use.\n\n"
-        "YOUR CREATIVE PROCESS (follow this exactly):\n"
-        "Step 1 — ANALYZE THE TOPIC: What is this article specifically about? "
-        "Identify the core subject (a person? a company? a policy? a product? a scientific discovery? a crisis?).\n"
-        "Step 2 — CHOOSE THE RIGHT VISUAL APPROACH for THIS topic:\n"
-        "  • Company/product news → show the actual product, logo context, or corporate setting\n"
-        "  • Policy/regulation → show lawmakers, courtrooms, documents, government buildings\n"
-        "  • Scientific breakthrough → show the actual research: labs, microscopes, experiments, nature\n"
-        "  • Cybersecurity/hacking → show real-world consequences: worried people, screens with alerts, offices\n"
-        "  • AI/ML research → show researchers at whiteboards, code on screens, university settings\n"
-        "  • Hardware/chips → show actual hardware: close-up chips, manufacturing, clean rooms\n"
-        "  • Public health → show real patients, doctors, hospitals, communities\n"
-        "  • Climate/environment → show landscapes, weather events, wildlife, ecosystems\n"
-        "  • Business/finance → show boardrooms, trading floors, cityscapes, handshakes\n"
-        "  • If the topic doesn't fit any above, imagine you're sending a photographer — where would you send them?\n"
-        "Step 3 — CHOOSE A UNIQUE COLOR PALETTE that matches the article's emotional tone:\n"
-        "  • Hopeful/positive → warm golds, soft greens, morning light\n"
-        "  • Urgent/crisis → stark contrasts, reds, dramatic shadows\n"
-        "  • Corporate/formal → clean whites, steel blues, neutral tones\n"
-        "  • Innovation/discovery → bright whites, clean teals, lab lighting\n"
-        "  • Human interest → warm skin tones, natural daylight, intimate bokeh\n"
-        "  • Each article gets a DIFFERENT palette — never repeat the same colors\n"
-        "Step 4 — CHOOSE PHOTOGRAPHY STYLE based on subject matter:\n"
-        "  • Editorial portrait, photojournalism, macro product shot, aerial landscape, "
-        "documentary candid, scientific visualization, architectural photography, street photography\n\n"
-        "ABSOLUTE BANS (NEVER use these — they make all images look the same):\n"
-        "❌ People sitting at computers or desks (this is the #1 problem — NEVER default to this)\n"
-        "❌ Rows of people working at computer screens in an office\n"
-        "❌ Generic glowing server rooms with blue/purple neon lights\n"
-        "❌ Humanoid robots standing in corridors\n"
-        "❌ Abstract floating holographic interfaces\n"
-        "❌ Dark cyberpunk backgrounds with neon circuits\n"
-        "❌ People in lab coats looking at screens\n"
-        "❌ Generic 'futuristic' 3D renders\n\n"
-        "PREFER INSTEAD: Show the OBJECT of the news (the product, the building, the chip, the landscape, "
-        "the handshake, the document, the chart) rather than generic people at desks.\n\n"
-        "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
-    )
-
-    IMG_USER = (
-        f"Create a unique image prompt for this article:\n\n"
-        f"HEADLINE: {title}\n"
-        f"CATEGORY: {detected_cat}\n"
-        f"ARTICLE: {article_text[:500]}"
-    )
-    
-    for img_attempt in range(2):  # Try twice: once normally, once after extra cooldown
-        try:
-            if img_attempt > 0:
-                print(f"  🔄 Image prompt retry #{img_attempt+1} after extra cool-down...")
-                _cool_down(10, 'Image Prompt Retry')
-            
-            raw_prompt = call_cerebras_robust(
-                clients=clients_image,
-                model="zai-glm-4.7",
-                system_prompt=IMG_SYSTEM,
-                user_prompt=IMG_USER,
-                task_name="Image Prompt Generation",
-                temperature=0.95,
-                max_tokens=80,
-                key_labels=labels_image,
-                fallback_models=["gpt-oss-120b"]
-            )
-            if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
-                raw_prompt = raw_prompt[1:-1]
-            # Remove bold formatting safely
-            raw_prompt = raw_prompt.replace("**", "")
-            # Strip any labels the LLM might add
-            raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
-            raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
-            # Validate prompt not empty — guard against empty LLM responses
-            if not raw_prompt or len(raw_prompt.split()) < 4:
-                raise ValueError(f"Image prompt too short or empty: '{raw_prompt[:50]}'")
-            # Append quality boosters
-            image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
-            print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
-            break  # Success
-        except Exception as e:
-            print(f"⚠️ Image prompt attempt {img_attempt+1} failed: {e}")
-            if img_attempt == 1:  # Final attempt failed
-                # Smart fallback: use title + topic + category for a relevant prompt — never empty
-                image_prompt = f"{title}, {topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
-                print(f'🎨 Smart fallback prompt: "{image_prompt[:120]}..."')
+    if inline_image_prompt and len(inline_image_prompt.split()) >= 8:
+        image_prompt = f"{inline_image_prompt}, {QUALITY_BOOST}"
+        print(f'🎨 Inline Image Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
+    else:
+        # Fallback: build a descriptive prompt from title + topic
+        print("🎨 Inline image prompt missing, building from article content...")
+        image_prompt = f"{title}, {topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
+        print(f'🎨 Fallback prompt: "{image_prompt[:120]}..."')
 
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
