@@ -780,9 +780,9 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 # ─── Parse JSON Response ─────────────────────────────────────
 
 
-def parse_article_response(text: str) -> tuple[str, str]:
-    """Extract articleText and category from JSON response.
-    Returns (article_text, category)."""
+def parse_article_response(text: str) -> tuple[str, str, str]:
+    """Extract articleText, category, and title from JSON response.
+    Returns (article_text, category, title)."""
     clean = text.strip()
     if clean.startswith("```"):
         clean = re.sub(r"^```(?:json)?\s*\n?", "", clean)
@@ -791,6 +791,7 @@ def parse_article_response(text: str) -> tuple[str, str]:
         parsed = json.loads(clean)
         article = parsed.get("articleText", "").strip() if "articleText" in parsed else clean
         category = parsed.get("category", "").strip().lower() if "category" in parsed else ""
+        title = parsed.get("title", "").strip() if "title" in parsed else ""
         # Validate category is one of the allowed values
         valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
         if category not in valid_categories:
@@ -799,10 +800,20 @@ def parse_article_response(text: str) -> tuple[str, str]:
         article = re.sub(r'^\s*\{\s*"articleText"\s*:\s*"', '', article)
         article = re.sub(r'"\s*,\s*"category"\s*:\s*"[^"]*"\s*\}\s*$', '', article)
         article = article.replace('\\n', '\n').replace('\\"', '"')
-        return (article, category)
+        # Clean title
+        if title:
+            title = title.strip('"\'')
+            title = re.sub(
+                r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
+                r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
+                r'Development|Watch)[:\s\u2014\u2013-]+',
+                '', title, flags=re.IGNORECASE
+            )
+            title = re.sub(r'^[:\s\u2014\u2013-]+', '', title).strip()
+        return (article, category, title)
     except json.JSONDecodeError:
         pass
-    return (clean, "")
+    return (clean, "", "")
 
 
 # ─── Cerebras LLM ────────────────────────────────────────────
@@ -853,7 +864,7 @@ def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_pro
     
     raise ValueError(f"All keys and models exhausted for {task_name}: {str(last_error)[:100]}")
 
-def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str]:
+def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str, str]:
     raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"}, key_labels=key_labels)
     return parse_article_response(raw)
 
@@ -1052,9 +1063,12 @@ def generate_news():
         'Avoid jargon, technical terms, or complex vocabulary. '
         'You must strictly base your news summary ONLY on the provided search results. '
         'DO NOT hallucinate or add external information not present in the search results. '
-        'Output valid JSON: {"articleText": "...", "category": "..."}. '
+        'Output valid JSON: {"articleText": "...", "category": "...", "title": "..."}. '
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
+        'The title MUST be a unique, professional, specific 10-20 word news headline in Title Case. '
+        'Start the title with WHO or WHAT. Use an active verb. NO colons, NO prefixes like Breaking or Update. '
+        'Mention specific names, products, numbers, or places in the title. '
         'Write about ONE SINGLE story in depth. NEVER mix multiple unrelated topics. '
         'No other keys, no markdown, no explanation.'
     )
@@ -1211,8 +1225,9 @@ STRICT FORMATTING RULES:
    - world: geopolitics, regulation, policy, climate, environment, international trade
    - general: business, earnings, crypto, entertainment, social media, anything else
    - sports: sports achievements, athletic records, championships, Olympic, tournaments, incredible sports moments
+12. TITLE (CRITICAL): You MUST also generate a unique, professional news headline (10-20 words, Title Case). The title must summarize the ONE story you wrote about. Start with WHO/WHAT + active verb. Be specific with names/numbers/places. NO colons, NO prefixes.
 
-Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six" }}"""
+Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six", "title": "Your Unique Professional Headline Here" }}"""
 
     MODELS = ["gpt-oss-120b", "zai-glm-4.7"]
     article_text = ""
@@ -1221,7 +1236,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
+            article_text, ai_category, inline_title = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
             used_model = model_name
 
             if ai_category:
@@ -1241,13 +1256,15 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
-                    retry_text, retry_cat = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
+                    retry_text, retry_cat, retry_title = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
                         article_text = retry_text
                         if retry_cat:
                             ai_category = retry_cat
+                        if retry_title:
+                            inline_title = retry_title
                         print(f"✅ Retry accepted: {retry_wc} words")
                 except Exception:
                     print("⚠️ Retry failed, keeping first attempt")
@@ -1264,90 +1281,31 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
-    _cool_down(10, 'Title Generation')
-    # 6. Generate professional headline via LLM (MUST come before image prompt)
+    # 6. Title — already generated inline with article (no separate API call needed)
     title = ""
-    
-    # --- Title Generation with retry-after-cooldown ---
-    TITLE_SYS = (
-        "You are a senior news editor at a major international newspaper. "
-        "Write one unique, professional, clear news headline that summarizes the article. "
-        "Output ONLY the headline text — nothing else. No quotes, no labels, no colons, no prefixes. "
-        "The headline must be between 10 and 25 words long."
-    )
-    TITLE_USER = (
-        f"Write ONE unique headline for this article. Must be 10 to 25 words, Title Case. "
-        f"Start with the main subject (WHO or WHAT). Use a strong active verb. "
-        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:', 'Update:'. NO colons anywhere. "
-        f"Be very specific — mention actual names, products, numbers, or places from the article.\n\n"
-        f"Article:\n{article_text[:500]}"
-    )
-    
-    for title_attempt in range(2):  # Try twice: once normally, once after extra cooldown
-        try:
-            if title_attempt > 0:
-                print(f"  🔄 Title retry #{title_attempt+1} after extra cool-down...")
-                _cool_down(10, 'Title Generation Retry')
-            
-            raw_title = call_cerebras_robust(
-                clients=clients_title,
-                model="zai-glm-4.7",
-                system_prompt=TITLE_SYS,
-                user_prompt=TITLE_USER,
-                task_name="Title Generation",
-                temperature=0.7,
-                max_tokens=60,
-                key_labels=labels_title,
-                fallback_models=["gpt-oss-120b"]
-            )
-            
-            # Clean up the title
-            raw_title = raw_title.strip('"\'')
-            raw_title = re.sub(
-                r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
-                r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
-                r'Development|Watch)[:\s—–-]+',
-                '', raw_title, flags=re.IGNORECASE
-            )
-            raw_title = re.sub(r'^[:\s—–-]+', '', raw_title).strip()
-            
-            wc = len(raw_title.split())
-            if raw_title and wc >= 6:
-                title = raw_title
-                print(f"📰 LLM Title ({wc} words): \"{title}\"")
-                break
-            else:
-                print(f"⚠️ Title too short ({wc} words): \"{raw_title[:60]}\"")
-        except Exception as e:
-            print(f"⚠️ Title generation attempt {title_attempt+1} failed: {e}")
-
-    # Smart fallback title — extract meaningful content, clean it into a headline
-    if not title:
-        print("📰 Building smart fallback title from article content...")
+    if inline_title and len(inline_title.split()) >= 6:
+        title = inline_title
+        print(f"📰 Inline Title ({len(title.split())} words): \"{title}\"")
+    else:
+        # Fallback: extract from article content
+        print("📰 Inline title missing, building from article content...")
         fallback = article_text.replace("**", "").strip()
-        # Split by bullet points and newlines to get individual statements
         segments = re.split(r'[\n•\-]', fallback)
         segments = [s.strip().rstrip('.').strip() for s in segments if s.strip()]
-        # Filter out garbage
         good_segments = [
             s for s in segments
-            if 8 <= len(s.split()) <= 30  # reasonable headline length
+            if 8 <= len(s.split()) <= 30
             and not s.lower().startswith(('search results', 'the query', 'json', '{', 'output', 'return', 'note:', 'source:'))
-            and not re.match(r'^\s*[\{\[]', s)  # not JSON
-            and not re.match(r'^https?://', s)  # not a URL
+            and not re.match(r'^\s*[\{\[]', s)
+            and not re.match(r'^https?://', s)
         ]
         if good_segments:
-            # Take the most informative segment (usually the first meaningful one)
-            raw_fallback = good_segments[0]
-            # Strip any residual markdown/formatting
-            raw_fallback = re.sub(r'[\*\#\_\`]', '', raw_fallback).strip()
-            # Truncate cleanly if too long
-            words = raw_fallback.split()
+            raw_fb = re.sub(r'[\*\#\_\`]', '', good_segments[0]).strip()
+            words = raw_fb.split()
             if len(words) > 20:
-                raw_fallback = ' '.join(words[:20])
-            title = raw_fallback
+                raw_fb = ' '.join(words[:20])
+            title = raw_fb
         else:
-            # Absolute last resort: use the search topic
             title = f"{topic.title()} — Latest Developments and Key Updates"
         print(f"📰 Fallback title: \"{title}\"")
 
