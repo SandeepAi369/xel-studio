@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
-      "urls": [
-        "https://www.foxnews.com?msockid=3854550fc727644c3699426ec63065b6"
-      ],
-      "date": "2026-05-22T21:33:17.795104+00:00"
-    },
-    {
       "title": "Firms Deploy Generative AI Amid Ethics Board Transparency Gaps",
       "urls": [
         "https://techcrunch.com/category/artificial-intelligence"
@@ -3112,7 +3105,23 @@
         "https://www.innocaption.com/recentnews/accessible-technology-for-deaf-and-hard-of-hearing"
       ],
       "date": "2026-06-01T21:31:41.056222+00:00"
+    },
+    {
+      "title": "Crescendo AI Highlights Latest Breakthroughs in Artificial Intelligence News for Global Audience",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026",
+        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai",
+        "https://www.reddit.com/r/SaaS/comments/1qvhr5y/15_ai_development_companies_dominating_2026_i",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1poo4of/what_will_2026_bring_in_terms_of_ai_development",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsj1gi/the_frontier_ai_and_their_real_features_2026",
+        "https://www.youtube.com/watch?v=UjwpDEU6wSQ",
+        "https://www.youtube.com/watch?v=SCLHfhu5ZmM&vl=en",
+        "https://www.youtube.com/watch?v=IjHIE2DMUNg",
+        "https://www.youtube.com/watch?v=BRr3pAPsQAk"
+      ],
+      "date": "2026-06-01T22:01:29.241209+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T21:31:41.056269+00:00"
+  "lastUpdated": "2026-06-01T22:01:29.241272+00:00"
 }
