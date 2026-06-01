@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Usgs Tracks 1.3 Million Global Earthquakes Annually With 7000 Sensors",
-      "urls": [
-        "https://earthquake.usgs.gov/earthquakes/map?list=false&map=false&about=true",
-        "https://earthquakemap.live",
-        "https://en.wikipedia.org/wiki/Earthquake"
-      ],
-      "date": "2026-05-22T06:35:25.222653+00:00"
-    },
-    {
       "title": "The New York Times Deploys 1 700 Journalists Across 150 Countries",
       "urls": [
         "https://www.iranintl.com",
@@ -2918,7 +2909,23 @@
         "https://www.volcanoesandearthquakes.com"
       ],
       "date": "2026-06-01T06:31:49.638152+00:00"
+    },
+    {
+      "title": "Times of India delivered daily live updates of the 2026 national election, posting real‑time nationw",
+      "urls": [
+        "https://apnews.com/politics",
+        "https://timesofindia.indiatimes.com/india/election-results-2026-live-updates-india-election-comission-west-bengal-assam-tamil-nadu-kerala-puducherry-assembly-election-result-vote-counting-latest-news/liveblog/130738338.cms",
+        "https://www.youtube.com/watch?v=d7PlwpivCmc",
+        "https://www.bbc.co.uk/iplayer/episode/m002w12q/election-26-part-2",
+        "https://www.youtube.com/watch?v=VMQEfcA32so",
+        "https://www.ctvnews.ca/video/2026/04/14/liberals-gain-majority-government-with-toronto-riding-win",
+        "https://www.aljazeera.com/video/inside-story/2026/4/13/whats-behind-viktor-orbans-defeat",
+        "https://www.youtube.com/watch?v=VZaKpmNwO6w",
+        "https://www.cnbc.com/2026/05/31/oklahoma-minimum-wage-2026-election-vote-economy-inflation.html",
+        "https://www.democracynow.org"
+      ],
+      "date": "2026-06-01T07:01:49.173796+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T06:31:49.638210+00:00"
+  "lastUpdated": "2026-06-01T07:01:49.173854+00:00"
 }
