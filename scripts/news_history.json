@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. And China Ramp Up AI Investments In Global Tech Race",
-      "urls": [
-        "https://www.weforum.org/stories/2025/07/ai-geopolitics-data-centres-technological-rivalry",
-        "https://europeanbusinessmagazine.com/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
-        "https://hbr.org/2024/11/navigating-the-new-geopolitics-of-tech",
-        "https://www.forbes.com/sites/bernardmarr/2024/09/18/the-geopolitics-of-ai",
-        "https://www.rand.org/topics/geopolitical-strategic-competition.html"
-      ],
-      "date": "2026-05-22T04:01:21.103832+00:00"
-    },
-    {
       "title": "Mistral AI Launches Mistral Large 3 With Open Weights For Enterprise And Research Use",
       "urls": [
         "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
@@ -2876,7 +2865,23 @@
         "https://www.qualitylogic.com/knowledge-center/accessibility-industry-update-march-2026"
       ],
       "date": "2026-06-01T03:32:36.573487+00:00"
+    },
+    {
+      "title": "Google Cloud announces a blog post titled “AI infrastructure at Next ’26” hosted on its cloud.",
+      "urls": [
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
+        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
+        "https://www.reddit.com/r/aws/comments/1hicvwf/what_are_your_biggest_challenges_with_cloud",
+        "https://www.reddit.com/r/cloudcomputing/comments/1gzfyfn/how_is_ai_integration_shaping_cloud_computing",
+        "https://www.youtube.com/watch?v=yQRm7iPiZ84",
+        "https://www.youtube.com/watch?v=MVBBcES6y3s",
+        "https://www.youtube.com/watch?v=Hg82T3pvW1A",
+        "https://www.youtube.com/watch?v=1Ov2ntPr_eI"
+      ],
+      "date": "2026-06-01T04:01:50.929712+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T03:32:36.573538+00:00"
+  "lastUpdated": "2026-06-01T04:01:50.929773+00:00"
 }
