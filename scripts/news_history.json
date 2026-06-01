@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Incredibles Revolutionizes Animation With Superhero Family Saga",
-      "urls": [
-        "https://en.wikipedia.org/wiki/The_Incredibles"
-      ],
-      "date": "2026-05-22T19:32:10.537113+00:00"
-    },
-    {
       "title": "BBC News Reaches 420 Million Weekly Across 40 Languages",
       "urls": [
         "https://www.foxnews.com?msockid=3d63c383f97c63362e67d4e2f82a62ed",
@@ -3097,7 +3090,16 @@
         "https://en.unibetter-ic.com/16-top-ai-chip-makers-in-2026"
       ],
       "date": "2026-06-01T19:31:44.410555+00:00"
+    },
+    {
+      "title": "What 2026 Midterm Election Results Reveal About Senate, House and Governor Races",
+      "urls": [
+        "https://apnews.com/projects/elections-2026",
+        "https://www.politico.com/politics",
+        "https://politicalwire.com"
+      ],
+      "date": "2026-06-01T20:01:19.085672+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T19:31:44.410622+00:00"
+  "lastUpdated": "2026-06-01T20:01:19.085732+00:00"
 }
