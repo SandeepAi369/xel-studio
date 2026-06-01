@@ -15,6 +15,7 @@ import random
 import re
 import sys
 import time
+import threading
 import requests
 import uuid
 from datetime import datetime, timezone
@@ -26,6 +27,44 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import requests
 from cerebras.cloud.sdk import Cerebras
+
+
+# ─── Heartbeat Keep-Alive ────────────────────────────────────────
+
+class Heartbeat:
+    """Background heartbeat to keep GitHub Actions alive."""
+    def __init__(self):
+        self._stop = threading.Event()
+        self._thread = None
+        self._task = "idle"
+    
+    def start(self, task: str):
+        self._task = task
+        self._stop.clear()
+        self._thread = threading.Thread(target=self._run, daemon=True)
+        self._thread.start()
+    
+    def update(self, task: str):
+        self._task = task
+    
+    def stop(self):
+        self._stop.set()
+        if self._thread:
+            self._thread.join(timeout=2)
+    
+    def _run(self):
+        tick = 0
+        while not self._stop.wait(5):
+            tick += 1
+            print(f"  💓 [{tick*5}s] {self._task}")
+
+heartbeat = Heartbeat()
+
+def _cool_down(seconds: int, next_task: str):
+    """Cool down between tasks — prints activity to keep Actions alive."""
+    for i in range(seconds):
+        time.sleep(1)
+        print(f"  ⏳ Cool-down {i+1}/{seconds}s — preparing {next_task}...")
 
 # ─── Config ──────────────────────────────────────────────────
 
@@ -360,6 +399,7 @@ def search_searchwala(query: str, days_back: int = 3) -> dict:
     """Search using local SearchWala instance."""
     try:
         print(f'🔍 SearchWala: searching "{query}"...')
+        heartbeat.start(f'SearchWala searching "{query}"...')
         resp = requests.post(
             "http://localhost:8000/search",
             json={
@@ -370,6 +410,7 @@ def search_searchwala(query: str, days_back: int = 3) -> dict:
             timeout=120,
         )
         resp.raise_for_status()
+        heartbeat.stop()
         data = resp.json()
 
         results = data.get("search_results", [])
@@ -388,6 +429,7 @@ def search_searchwala(query: str, days_back: int = 3) -> dict:
         return {"context": context, "results": mapped}
 
     except Exception as e:
+        heartbeat.stop()
         print(f"⚠️ SearchWala failed: {e}")
         return {"context": "", "results": []}
 
@@ -766,32 +808,35 @@ def parse_article_response(text: str) -> tuple[str, str]:
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras(client: Cerebras, model: str, system_prompt: str, user_prompt: str,
-                  backup_client: Cerebras = None) -> tuple[str, str]:
-    """Call Cerebras API and return (article_text, category). Tries backup_client on empty/error."""
-    def _try(c):
-        completion = c.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=0.4,
-            max_tokens=4096,
-            response_format={"type": "json_object"},
-        )
-        raw = (completion.choices[0].message.content or "").strip()
-        if not raw:
-            raise ValueError("Empty response from Cerebras")
-        return parse_article_response(raw)
+def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096):
+    """Call Cerebras API gracefully failing over across available clients."""
+    for idx, c in enumerate(clients):
+        if not c: continue
+        try:
+            print(f"  ⚡ {task_name}: Attempting with Key {idx+1}...")
+            completion = c.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                temperature=temperature,
+                max_tokens=max_tokens,
+                **({"response_format": response_format} if response_format else {})
+            )
+            raw = (completion.choices[0].message.content or "").strip()
+            if not raw:
+                raise ValueError(f"Empty response from Cerebras (Key {idx+1})")
+            return raw
+        except Exception as e:
+            print(f"  ⚠️ Key {idx+1} failed for {task_name}: {str(e)[:100]}")
+            if idx < len(clients) - 1:
+                print(f"  🔄 Retrying {task_name} with next key...")
+    raise ValueError(f"All keys exhausted for {task_name}")
 
-    try:
-        return _try(client)
-    except Exception as e:
-        if backup_client:
-            print(f"  ⚡ Primary key failed ({str(e)[:60]}), trying backup key...")
-            return _try(backup_client)
-        raise
+def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str) -> tuple[str, str]:
+    raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"})
+    return parse_article_response(raw)
 
 
 # ─── Cleanup Old News ────────────────────────────────────────
@@ -888,31 +933,20 @@ def generate_news():
     # NOTE: Cleanup is now a separate daily cron job (news_cleanup.yml)
     # Runs once at 12:15 AM IST — keeps 50 articles, deletes excess
 
-    cerebras_key = os.environ.get("CEREBRAS_API_KEY")
-    if not cerebras_key:
-        raise RuntimeError("CEREBRAS_API_KEY not set")
-    cerebras_client = Cerebras(api_key=cerebras_key)
-
-    # Backup Cerebras client — used as instant failover when primary hits 429
-    cerebras_key_2 = os.environ.get("CEREBRAS_API_KEY_2", "")
-    cerebras_client_2 = Cerebras(api_key=cerebras_key_2) if cerebras_key_2 else None
-
-    def _cerebras_with_fallback(model: str, messages: list, temperature: float, max_tokens: int):
-        """Call Cerebras with automatic key-2 failover on 429 — no sleep."""
-        try:
-            return cerebras_client.chat.completions.create(
-                model=model, messages=messages,
-                temperature=temperature, max_tokens=max_tokens
-            )
-        except Exception as e:
-            is_rate_limit = "429" in str(e) or "queue_exceeded" in str(e) or "too_many_requests" in str(e)
-            if is_rate_limit and cerebras_client_2:
-                print(f"⚡ Primary key rate-limited, switching to backup key instantly...")
-                return cerebras_client_2.chat.completions.create(
-                    model=model, messages=messages,
-                    temperature=temperature, max_tokens=max_tokens
-                )
-            raise
+    c_keys = [
+        os.environ.get("CEREBRAS_API_KEY"),
+        os.environ.get("CEREBRAS_API_KEY_2"),
+        os.environ.get("CEREBRAS_API_KEY_3"),
+    ]
+    if not any(c_keys):
+        raise RuntimeError("No CEREBRAS_API_KEY set")
+    
+    clients = [Cerebras(api_key=k) for k in c_keys if k]
+    
+    # Dedicated client distribution to prevent rate limits
+    clients_article = clients[:]
+    clients_title = clients[1:] + [clients[0]] if len(clients) > 1 else clients[:]
+    clients_image = clients[2:] + clients[:2] if len(clients) > 2 else clients[:]
 
     # 1. Pick search query via time-based rotation
     search_query, query_category = pick_search_query()
@@ -1147,10 +1181,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category = call_cerebras(
-                cerebras_client, model_name, system_prompt, user_prompt,
-                backup_client=cerebras_client_2
-            )
+            article_text, ai_category = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt)
             used_model = model_name
 
             if ai_category:
@@ -1170,10 +1201,7 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
-                    retry_text, retry_cat = call_cerebras(
-                        cerebras_client, model_name, system_prompt, retry_prompt,
-                        backup_client=cerebras_client_2
-                    )
+                    retry_text, retry_cat = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt)
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
@@ -1196,31 +1224,26 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     word_count = len(article_text.split())
     print(f"📝 Article ({used_model}): {word_count} words")
 
+    _cool_down(5, 'Title Generation')
     # 6. Generate professional headline via LLM (MUST come before image prompt)
     title = ""
     try:
-        title_completion = _cerebras_with_fallback(
+        raw_title = call_cerebras_robust(
+            clients=clients_title,
             model="zai-glm-4.7",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "Write one professional news headline. Output ONLY the headline. No quotes, no labels, no colons.",
-                },
-                {
-                    "role": "user",
-                    "content": (
-                        f"Write ONE headline for this article. 8-14 words, Title Case. "
-                        f"Start with WHO/WHAT. Use active verb. "
-                        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
-                        f"Be specific — mention names/products/numbers.\n\n"
-                        f"Article: {article_text[:400]}"
-                    ),
-                },
-            ],
-            temperature=0.4,
-            max_tokens=40,
+            system_prompt="You are an elite news editor. Write one unique, professional news headline. Output ONLY the headline. No quotes, no labels, no colons. Length must be 10 to 25 words.",
+            user_prompt=(
+                f"Write ONE unique headline for this article. 10 to 25 words, Title Case. "
+                f"Start with WHO/WHAT. Use active verbs. "
+                f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
+                f"Be specific — mention names/products/numbers.\n\n"
+                f"Article: {article_text[:400]}"
+            ),
+            task_name="Title Generation",
+            temperature=0.7,
+            max_tokens=50
         )
-        raw_title = (title_completion.choices[0].message.content or "").strip()
+        
         raw_title = raw_title.strip('"\'')
         raw_title = re.sub(
             r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
@@ -1229,9 +1252,11 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
             '', raw_title, flags=re.IGNORECASE
         )
         raw_title = re.sub(r'^[:\s—–-]+', '', raw_title).strip()
-        if raw_title and len(raw_title.split()) >= 4:
+        if raw_title and len(raw_title.split()) >= 6:
             title = raw_title
             print(f"📰 LLM Title: \"{title}\"")
+        else:
+            print(f"⚠️ LLM title too short or empty, falling back.")
     except Exception as e:
         print(f"⚠️ LLM title generation failed: {e}")
 
@@ -1258,6 +1283,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
             print(f"   Existing:  \"{best_match[:60]}\"")
             print(f"   ⚠️ This article may be a duplicate — but publishing since it passed other checks")
 
+    _cool_down(5, 'Image Prompt Generation')
     # 7. Intelligent adaptive image prompt — LLM auto-detects topic, adapts style
     image_prompt = ""
 
@@ -1312,24 +1338,20 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     )
 
     try:
-        img_completion = _cerebras_with_fallback(
+        raw_prompt = call_cerebras_robust(
+            clients=clients_image,
             model="zai-glm-4.7",
-            messages=[
-                {"role": "system", "content": IMG_SYSTEM},
-                {
-                    "role": "user",
-                    "content": (
-                        f"Create a unique image prompt for this article:\n\n"
-                        f"HEADLINE: {title}\n"
-                        f"CATEGORY: {detected_cat}\n"
-                        f"ARTICLE: {article_text[:500]}"
-                    ),
-                },
-            ],
+            system_prompt=IMG_SYSTEM,
+            user_prompt=(
+                f"Create a unique image prompt for this article:\n\n"
+                f"HEADLINE: {title}\n"
+                f"CATEGORY: {detected_cat}\n"
+                f"ARTICLE: {article_text[:500]}"
+            ),
+            task_name="Image Prompt Generation",
             temperature=0.95,
-            max_tokens=80,
+            max_tokens=80
         )
-        raw_prompt = (img_completion.choices[0].message.content or "").strip()
         if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
             raw_prompt = raw_prompt[1:-1]
         # Remove bold formatting safely
@@ -1344,7 +1366,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
         print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
     except Exception as e:
-        print(f"⚠️ Image prompt generation failed (both keys): {e}")
+        print(f"⚠️ Image prompt generation failed (all keys): {e}")
         # Smart fallback: use topic + category for a relevant prompt — never empty
         image_prompt = f"{topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
         print(f'🎨 Smart fallback prompt: "{image_prompt[:120]}..."')
@@ -1474,4 +1496,6 @@ if __name__ == "__main__":
                     pass
                 sys.exit(1)
             print(f"⏳ Waiting {RETRY_WAIT}s before retry... (budget: {int(MAX_RETRY_SECONDS - elapsed_now)}s left)")
+            heartbeat.start(f"Waiting {RETRY_WAIT}s before retry...")
             time.sleep(RETRY_WAIT)
+            heartbeat.stop()
