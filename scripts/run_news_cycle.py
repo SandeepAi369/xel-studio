@@ -808,12 +808,19 @@ def parse_article_response(text: str) -> tuple[str, str]:
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096):
-    """Call Cerebras API gracefully failing over across available clients."""
+def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096, key_labels=None):
+    """Call Cerebras API gracefully failing over across available clients.
+    
+    Args:
+        key_labels: Optional list of human-readable key names matching clients order.
+                    e.g. ['Key-2', 'Key-3', 'Key-1'] for title generation.
+    """
+    last_error = None
     for idx, c in enumerate(clients):
         if not c: continue
+        label = key_labels[idx] if key_labels and idx < len(key_labels) else f"Key-{idx+1}"
         try:
-            print(f"  ⚡ {task_name}: Attempting with Key {idx+1}...")
+            print(f"  ⚡ {task_name}: Attempting with {label}...")
             completion = c.chat.completions.create(
                 model=model,
                 messages=[
@@ -826,16 +833,18 @@ def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_pro
             )
             raw = (completion.choices[0].message.content or "").strip()
             if not raw:
-                raise ValueError(f"Empty response from Cerebras (Key {idx+1})")
+                raise ValueError(f"Empty response from Cerebras ({label})")
+            print(f"  ✅ {task_name} succeeded with {label}")
             return raw
         except Exception as e:
-            print(f"  ⚠️ Key {idx+1} failed for {task_name}: {str(e)[:100]}")
+            last_error = e
+            print(f"  ⚠️ {label} failed for {task_name}: {str(e)[:100]}")
             if idx < len(clients) - 1:
                 print(f"  🔄 Retrying {task_name} with next key...")
-    raise ValueError(f"All keys exhausted for {task_name}")
+    raise ValueError(f"All keys exhausted for {task_name}: {str(last_error)[:100]}")
 
-def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str) -> tuple[str, str]:
-    raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"})
+def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str]:
+    raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"}, key_labels=key_labels)
     return parse_article_response(raw)
 
 
@@ -942,11 +951,28 @@ def generate_news():
         raise RuntimeError("No CEREBRAS_API_KEY set")
     
     clients = [Cerebras(api_key=k) for k in c_keys if k]
+    num_keys = len(clients)
+    print(f"🔑 Loaded {num_keys} Cerebras API key(s)")
     
-    # Dedicated client distribution to prevent rate limits
+    # Dedicated client distribution to prevent rate limits:
+    #   Article  → Key-1 first, then Key-2, then Key-3
+    #   Title    → Key-2 first, then Key-3, then Key-1  (different key so no 429 clash)
+    #   Image    → Key-3 first, then Key-1, then Key-2  (yet another key)
     clients_article = clients[:]
-    clients_title = clients[1:] + [clients[0]] if len(clients) > 1 else clients[:]
-    clients_image = clients[2:] + clients[:2] if len(clients) > 2 else clients[:]
+    labels_article  = [f"Key-{i+1}" for i in range(num_keys)]
+    
+    clients_title   = clients[1:] + clients[:1] if num_keys > 1 else clients[:]
+    labels_title    = [f"Key-{(i+1)%num_keys+1}" for i in range(num_keys)] if num_keys > 1 else [f"Key-{i+1}" for i in range(num_keys)]
+    labels_title    = [f"Key-{((i+1)%num_keys)+1}" for i in range(num_keys)]
+    # Correct labels: if 3 keys, title order is [Key-2, Key-3, Key-1]
+    labels_title    = [f"Key-{((j)%num_keys)+1}" for j in range(1, num_keys+1)]
+    
+    clients_image   = clients[2:] + clients[:2] if num_keys > 2 else clients[:]
+    labels_image    = [f"Key-{((j)%num_keys)+1}" for j in range(2, num_keys+2)]
+    
+    print(f"  📋 Article keys: {labels_article}")
+    print(f"  📋 Title keys:   {labels_title}")
+    print(f"  📋 Image keys:   {labels_image}")
 
     # 1. Pick search query via time-based rotation
     search_query, query_category = pick_search_query()
@@ -1011,7 +1037,11 @@ def generate_news():
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
-        'You are a focused factual journalist. You must strictly base your news summary ONLY on the provided search results. DO NOT hallucinate or add external information not present in the search results. '
+        'You are a professional news reporter and journalist writing for a general audience. '
+        'Use simple, clear, everyday language — like a TV news anchor or newspaper journalist would. '
+        'Avoid jargon, technical terms, or complex vocabulary. '
+        'You must strictly base your news summary ONLY on the provided search results. '
+        'DO NOT hallucinate or add external information not present in the search results. '
         'Output valid JSON: {"articleText": "...", "category": "..."}. '
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
@@ -1181,7 +1211,7 @@ Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six
     for model_name in MODELS:
         try:
             print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt)
+            article_text, ai_category = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
             used_model = model_name
 
             if ai_category:
@@ -1201,7 +1231,7 @@ Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific
 STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
                 try:
-                    retry_text, retry_cat = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt)
+                    retry_text, retry_cat = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
                     retry_wc = len(retry_text.split())
                     print(f"📝 Retry: {retry_wc} words")
                     if retry_wc > word_count:
@@ -1227,45 +1257,80 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     _cool_down(5, 'Title Generation')
     # 6. Generate professional headline via LLM (MUST come before image prompt)
     title = ""
-    try:
-        raw_title = call_cerebras_robust(
-            clients=clients_title,
-            model="zai-glm-4.7",
-            system_prompt="You are an elite news editor. Write one unique, professional news headline. Output ONLY the headline. No quotes, no labels, no colons. Length must be 10 to 25 words.",
-            user_prompt=(
-                f"Write ONE unique headline for this article. 10 to 25 words, Title Case. "
-                f"Start with WHO/WHAT. Use active verbs. "
-                f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:'. NO colons. "
-                f"Be specific — mention names/products/numbers.\n\n"
-                f"Article: {article_text[:400]}"
-            ),
-            task_name="Title Generation",
-            temperature=0.7,
-            max_tokens=50
-        )
-        
-        raw_title = raw_title.strip('"\'')
-        raw_title = re.sub(
-            r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
-            r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
-            r'Development|Watch)[:\s—–-]+',
-            '', raw_title, flags=re.IGNORECASE
-        )
-        raw_title = re.sub(r'^[:\s—–-]+', '', raw_title).strip()
-        if raw_title and len(raw_title.split()) >= 6:
-            title = raw_title
-            print(f"📰 LLM Title: \"{title}\"")
-        else:
-            print(f"⚠️ LLM title too short or empty, falling back.")
-    except Exception as e:
-        print(f"⚠️ LLM title generation failed: {e}")
+    
+    # --- Title Generation with retry-after-cooldown ---
+    TITLE_SYS = (
+        "You are a senior news editor at a major international newspaper. "
+        "Write one unique, professional, clear news headline that summarizes the article. "
+        "Output ONLY the headline text — nothing else. No quotes, no labels, no colons, no prefixes. "
+        "The headline must be between 10 and 25 words long."
+    )
+    TITLE_USER = (
+        f"Write ONE unique headline for this article. Must be 10 to 25 words, Title Case. "
+        f"Start with the main subject (WHO or WHAT). Use a strong active verb. "
+        f"NO prefixes like 'Breaking:', 'AI News:', 'Tech:', 'Update:'. NO colons anywhere. "
+        f"Be very specific — mention actual names, products, numbers, or places from the article.\n\n"
+        f"Article:\n{article_text[:500]}"
+    )
+    
+    for title_attempt in range(2):  # Try twice: once normally, once after extra cooldown
+        try:
+            if title_attempt > 0:
+                print(f"  🔄 Title retry #{title_attempt+1} after extra cool-down...")
+                _cool_down(5, 'Title Generation Retry')
+            
+            raw_title = call_cerebras_robust(
+                clients=clients_title,
+                model="zai-glm-4.7",
+                system_prompt=TITLE_SYS,
+                user_prompt=TITLE_USER,
+                task_name="Title Generation",
+                temperature=0.7,
+                max_tokens=60,
+                key_labels=labels_title
+            )
+            
+            # Clean up the title
+            raw_title = raw_title.strip('"\'')
+            raw_title = re.sub(
+                r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
+                r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
+                r'Development|Watch)[:\s—–-]+',
+                '', raw_title, flags=re.IGNORECASE
+            )
+            raw_title = re.sub(r'^[:\s—–-]+', '', raw_title).strip()
+            
+            wc = len(raw_title.split())
+            if raw_title and wc >= 6:
+                title = raw_title
+                print(f"📰 LLM Title ({wc} words): \"{title}\"")
+                break
+            else:
+                print(f"⚠️ Title too short ({wc} words): \"{raw_title[:60]}\"")
+        except Exception as e:
+            print(f"⚠️ Title generation attempt {title_attempt+1} failed: {e}")
 
-    # Use article first sentence as fallback title
+    # Smart fallback title — extract the most meaningful sentence, not meta-text
     if not title:
+        print("📰 Building smart fallback title from article content...")
         fallback = article_text.replace("**", "").replace("- ", "").strip()
-        sentences = fallback.split(".")
-        title = (sentences[0].strip() + ".") if sentences else "AI Technology News Update"
-        title = title[:100]
+        # Skip lines that look like meta/system text
+        sentences = [s.strip() for s in re.split(r'[.!?\n]', fallback) if s.strip()]
+        # Filter out garbage sentences
+        good_sentences = [
+            s for s in sentences
+            if len(s.split()) >= 8  # at least 8 words
+            and not s.lower().startswith(('search results', 'the query', 'json', '{', 'output', 'return'))
+            and not re.match(r'^\s*\{', s)  # not JSON
+        ]
+        if good_sentences:
+            title = good_sentences[0][:120].strip()
+            # Ensure it ends cleanly
+            if not title.endswith('.'):
+                title = title.rsplit(' ', 1)[0] + '.'  # trim last partial word
+        else:
+            # Absolute last resort: use the search topic
+            title = f"{topic.title()} — Latest Developments and Key Updates"
         print(f"📰 Fallback title: \"{title}\"")
 
     # POST-GENERATION DEDUP: Final safety net — check if generated title is too similar to existing
@@ -1337,39 +1402,49 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         "OUTPUT: 25-40 words. One vivid paragraph describing the scene. No labels, no explanations."
     )
 
-    try:
-        raw_prompt = call_cerebras_robust(
-            clients=clients_image,
-            model="zai-glm-4.7",
-            system_prompt=IMG_SYSTEM,
-            user_prompt=(
-                f"Create a unique image prompt for this article:\n\n"
-                f"HEADLINE: {title}\n"
-                f"CATEGORY: {detected_cat}\n"
-                f"ARTICLE: {article_text[:500]}"
-            ),
-            task_name="Image Prompt Generation",
-            temperature=0.95,
-            max_tokens=80
-        )
-        if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
-            raw_prompt = raw_prompt[1:-1]
-        # Remove bold formatting safely
-        raw_prompt = raw_prompt.replace("**", "")
-        # Strip any labels the LLM might add
-        raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
-        raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
-        # Validate prompt not empty — guard against empty LLM responses
-        if not raw_prompt or len(raw_prompt.split()) < 4:
-            raise ValueError(f"Image prompt too short or empty: '{raw_prompt[:50]}'")
-        # Append quality boosters
-        image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
-        print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
-    except Exception as e:
-        print(f"⚠️ Image prompt generation failed (all keys): {e}")
-        # Smart fallback: use topic + category for a relevant prompt — never empty
-        image_prompt = f"{topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
-        print(f'🎨 Smart fallback prompt: "{image_prompt[:120]}..."')
+    IMG_USER = (
+        f"Create a unique image prompt for this article:\n\n"
+        f"HEADLINE: {title}\n"
+        f"CATEGORY: {detected_cat}\n"
+        f"ARTICLE: {article_text[:500]}"
+    )
+    
+    for img_attempt in range(2):  # Try twice: once normally, once after extra cooldown
+        try:
+            if img_attempt > 0:
+                print(f"  🔄 Image prompt retry #{img_attempt+1} after extra cool-down...")
+                _cool_down(5, 'Image Prompt Retry')
+            
+            raw_prompt = call_cerebras_robust(
+                clients=clients_image,
+                model="zai-glm-4.7",
+                system_prompt=IMG_SYSTEM,
+                user_prompt=IMG_USER,
+                task_name="Image Prompt Generation",
+                temperature=0.95,
+                max_tokens=80,
+                key_labels=labels_image
+            )
+            if raw_prompt.startswith('"') and raw_prompt.endswith('"'):
+                raw_prompt = raw_prompt[1:-1]
+            # Remove bold formatting safely
+            raw_prompt = raw_prompt.replace("**", "")
+            # Strip any labels the LLM might add
+            raw_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
+            raw_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', raw_prompt, flags=re.IGNORECASE).strip()
+            # Validate prompt not empty — guard against empty LLM responses
+            if not raw_prompt or len(raw_prompt.split()) < 4:
+                raise ValueError(f"Image prompt too short or empty: '{raw_prompt[:50]}'")
+            # Append quality boosters
+            image_prompt = f"{raw_prompt}, {QUALITY_BOOST}"
+            print(f'🎨 Prompt ({len(image_prompt.split())} words): "{image_prompt[:150]}..."')
+            break  # Success
+        except Exception as e:
+            print(f"⚠️ Image prompt attempt {img_attempt+1} failed: {e}")
+            if img_attempt == 1:  # Final attempt failed
+                # Smart fallback: use title + topic + category for a relevant prompt — never empty
+                image_prompt = f"{title}, {topic}, {detected_cat} news, editorial photography, {QUALITY_BOOST}"
+                print(f'🎨 Smart fallback prompt: "{image_prompt[:120]}..."')
 
 
     # 8. Use AI-picked category (primary), fallback to keyword detection
