@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1500 Articles Weekly To Serve 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=299681f1f55c612135099690f478607c"
-      ],
-      "date": "2026-05-22T01:04:23.145881+00:00"
-    },
-    {
-      "title": "Noaa Reports Record Greenhouse Gas Levels In 2023",
-      "urls": [
-        "https://en.climate-data.org",
-        "https://www.epa.gov/climate-change",
-        "https://www.climate.gov/climatedashboard"
-      ],
-      "date": "2026-05-22T01:31:02.570495+00:00"
-    },
-    {
       "title": "Linux Mint Leads DistroWatch With 1.2 Million Monthly Page Views",
       "urls": [
         "https://www.howtogeek.com/user-friendly-linux-distros-that-arent-mint",
@@ -2857,7 +2841,22 @@
         "https://hadea.ec.europa.eu/news/world-autism-awareness-day-2026-how-european-research-transforming-neurodevelopmental-care-2026-04-02_en"
       ],
       "date": "2026-06-01T01:01:52.799959+00:00"
+    },
+    {
+      "title": "J.",
+      "urls": [
+        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
+        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution",
+        "https://www.youtube.com/watch?v=St2HRYAMlk8",
+        "https://www.youtube.com/watch?v=wjJG8ga63lQ",
+        "https://www.youtube.com/watch?v=uoUNmt-yOKY",
+        "https://www.facebook.com/dw.environment/videos/the-german-city-of-mannheim-wants-to-become-climate-neutral-with-river-heat-pump/1195984858733639",
+        "https://www.youtube.com/watch?v=PvlyFt9oluQ",
+        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
+        "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
+      ],
+      "date": "2026-06-01T01:31:45.516055+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T01:01:52.800013+00:00"
+  "lastUpdated": "2026-06-01T01:31:45.516113+00:00"
 }
