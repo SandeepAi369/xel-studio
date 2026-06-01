@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andrew Ng Launches DeepLearning AI Programs to Train One Million Learners",
-      "urls": [
-        "https://www.deeplearning.ai"
-      ],
-      "date": "2026-05-22T06:02:23.891755+00:00"
-    },
-    {
       "title": "Usgs Tracks 1.3 Million Global Earthquakes Annually With 7000 Sensors",
       "urls": [
         "https://earthquake.usgs.gov/earthquakes/map?list=false&map=false&about=true",
@@ -2909,7 +2902,23 @@
         "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
       ],
       "date": "2026-06-01T06:01:59.368171+00:00"
+    },
+    {
+      "title": "USGS provides an online volcano‑updates portal that lists current activity for U.",
+      "urls": [
+        "https://www.usgs.gov/programs/VHP/volcano-updates",
+        "https://www.the-world-now.com/global-disaster-tracker",
+        "https://www.youtube.com/watch?v=NPmFXIFcMHk",
+        "https://www.youtube.com/shorts/1fr6WUe5JDA",
+        "https://www.youtube.com/watch?v=4DQLiFuax5U",
+        "https://www.youtube.com/watch?v=HH4f0gbW5OY",
+        "https://www.youtube.com/watch?v=0WObN-nvGrw",
+        "https://www.the-world-now.com/volcano-eruptions-today",
+        "https://www.usgs.gov/volcanoes/kilauea/volcano-updates",
+        "https://www.volcanoesandearthquakes.com"
+      ],
+      "date": "2026-06-01T06:31:49.638152+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T06:01:59.368225+00:00"
+  "lastUpdated": "2026-06-01T06:31:49.638210+00:00"
 }
