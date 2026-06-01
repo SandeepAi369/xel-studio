@@ -1062,6 +1062,11 @@ def generate_news():
         print(f"✅ Primary search OK: {len(scraped_data)} fresh results, {total_text} chars ({filtered_count} filtered)")
 
     source_urls = [r.get("url", "") for r in scraped_data if r.get("url")]
+    # Build rich sources with title + URL for frontend display
+    source_sources = [
+        {"url": r.get("url", ""), "title": (r.get("title", "") or "").strip()}
+        for r in scraped_data if r.get("url")
+    ]
 
     # 5. Cerebras article generation (with LLM dedup)
     system_prompt = (
@@ -1074,7 +1079,13 @@ def generate_news():
         'Valid categories: ai-tech, disability, health, world, general, sports. '
         'Pick the BEST matching category for the article topic. '
         'The title MUST be a unique, professional, specific 10-20 word news headline in Title Case. '
-        'Start the title with WHO or WHAT. Use an active verb. NO colons, NO prefixes like Breaking or Update. '
+        'Use VARIED headline structures — rotate between these styles: '
+        '(a) [Subject] + [Action Verb] + [Object] (e.g. "Google Launches New AI Chip"), '
+        '(b) [Subject] + [Verb] + [Impact/Result] (e.g. "Tesla Sales Surge 40 Percent in Q2"), '
+        '(c) [Number/Stat] + [Context] (e.g. "50 Million Users Join Threads in First Week"). '
+        'NEVER start the title with "What" or "How" or "Why". '
+        'Start with the actual subject name (a person, company, country, or product). '
+        'Use a strong active verb. NO colons, NO prefixes like Breaking or Update. '
         'Mention specific names, products, numbers, or places in the title. '
         'The imagePrompt MUST be a vivid 30-50 word visual scene description for an AI image generator. '
         'Describe a SPECIFIC scene that matches the article topic — NOT generic tech imagery. '
@@ -1236,7 +1247,7 @@ STRICT FORMATTING RULES:
    - world: geopolitics, regulation, policy, climate, environment, international trade
    - general: business, earnings, crypto, entertainment, social media, anything else
    - sports: sports achievements, athletic records, championships, Olympic, tournaments, incredible sports moments
-12. TITLE (CRITICAL): You MUST also generate a unique, professional news headline (10-20 words, Title Case). The title must summarize the ONE story you wrote about. Start with WHO/WHAT + active verb. Be specific with names/numbers/places. NO colons, NO prefixes.
+12. TITLE (CRITICAL): You MUST generate a unique, professional news headline (10-20 words, Title Case). NEVER start with "What", "How", or "Why". Always start with the actual subject name (person, company, country, product). Use a strong active verb. Vary the structure: sometimes [Subject Verbs Object], sometimes [Number/Stat + Context], sometimes [Subject + Verb + Impact]. Be specific with names/numbers/places. NO colons, NO prefixes.
 13. IMAGE PROMPT (CRITICAL): Write a vivid 30-50 word visual scene description for an AI image generator. The scene MUST directly depict the specific topic of your article. Include: specific subject/object, setting/location, lighting mood, color palette, camera angle, and photography style. NEVER use generic tech clichés like glowing servers, people at computers, abstract holograms, or robots. Instead show the REAL OBJECT of the news (the product, the building, the landscape, the document, the handshake, the protest, the lab equipment, the sports arena, the factory floor).
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six", "title": "Your Unique Professional Headline Here", "imagePrompt": "A vivid 30-50 word scene description matching the article topic" }}"""
@@ -1399,7 +1410,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
         "title": title,
         "summary": article_text,
         "image_url": image_url,
-        "source_urls": source_urls,  # ALL source URLs — no limit
+        "source_urls": source_urls,  # plain URLs for dedup/history
+        "sources": source_sources,   # rich sources: [{url, title}] for frontend display
         "source_name": "XeL AI News",
         "category": category,
         "date": datetime.now(timezone.utc).isoformat(),
