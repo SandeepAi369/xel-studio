@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Wildlife Federation Protects 6000 At Risk Species Across 45 States",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Wildlife",
-        "https://www.worldwildlife.org",
-        "https://www.youtube.com/playlist?list=PLmcGRdciicnDJafEC23P8h5IXejbuan3a",
-        "https://www.nwf.org/Wildlife.aspx",
-        "https://education.nationalgeographic.org/resource/wildlife-conservation"
-      ],
-      "date": "2026-05-22T10:31:06.649384+00:00"
-    },
-    {
       "title": "Anthropic Removes Safety Pledge As Claude Gains Computer Control Features",
       "urls": [
         "https://www.anthropic.com/news",
@@ -2960,7 +2949,23 @@
         "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
       ],
       "date": "2026-06-01T10:06:31.645310+00:00"
+    },
+    {
+      "title": "Yale News reports that wildlife is actively observing human presence and adjusting its behavior, ind",
+      "urls": [
+        "https://www.theinvadingsea.com/2026/01/02/conservation-horizon-scan-ai-drought-climate-change-tropical-forests-seaweed-southern-ocean",
+        "https://news.yale.edu/2026/05/21/wildlife-watching-us-too-and-changing-their-behavior-response",
+        "https://www.facebook.com/mdwfp/videos/from-the-early-days-of-uncertainty-to-a-conservation-success-story-mississippis-/1499866985051923",
+        "https://www.instagram.com/reel/DXw5tdQj4UK",
+        "https://www.facebook.com/SamBentley/videos/good-news-to-start-your-2026/3374215706067303",
+        "https://www.instagram.com/reel/DTQeH1iiOTs",
+        "https://www.tiktok.com/@sambentley/video/7593044248375741718",
+        "https://news.mongabay.com/list/biodiversity",
+        "https://www.worldwildlife.org/news/magazine/summer-2026",
+        "https://therevelator.org/conservation-horizon-2026"
+      ],
+      "date": "2026-06-01T10:31:34.167759+00:00"
     }
   ],
-  "lastUpdated": "2026-06-01T10:06:31.645358+00:00"
+  "lastUpdated": "2026-06-01T10:31:34.167830+00:00"
 }
