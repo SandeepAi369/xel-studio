@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Reports Rising Global Climate Extremes",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Climate",
-        "https://www.britannica.com/science/climate-meteorology",
-        "https://www.noaa.gov/climate",
-        "https://www.accuweather.com/en/us/queens/11414/weather-forecast/2623321",
-        "https://education.nationalgeographic.org/resource/all-about-climate",
-        "https://wmo.int/topics/climate"
-      ],
-      "date": "2026-05-23T06:32:02.032530+00:00"
-    },
-    {
-      "title": "TechSpot Benchmarks Latest CPUs and GPUs in 50 Real-World Tests",
-      "urls": [
-        "https://www.pcmag.com",
-        "https://www.techspot.com"
-      ],
-      "date": "2026-05-23T07:01:10.105106+00:00"
-    },
-    {
       "title": "Palantir Engineers Build Auditing Tools For ICE During Hack Week",
       "urls": [
         "https://techcrunch.com",
@@ -3124,7 +3104,18 @@
         "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind"
       ],
       "date": "2026-06-02T06:31:35.482943+00:00"
+    },
+    {
+      "title": "Western Lawmakers Push Bill to Weaken Clean Air Act and Shield Fossil Fuel Companies",
+      "urls": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/eu-energy-and-climate-diplomacy-council-approves-conclusions",
+        "https://www.msn.com/en-ca/news/other/the-2026-climate-inflection-point-breakthrough-technologies-scale-into-real-infrastructure/gm-GMB1C45417?ocid=BingNewsVerp",
+        "https://time.com/article/2026/05/14/new-york-climate-law-rollback",
+        "https://insideclimatenews.org/news/23042026/energy-department-budget-renewable-energy-cuts",
+        "https://insideclimatenews.org/news/30042026/wyoming-texas-lawmakers-weaken-clean-air-act"
+      ],
+      "date": "2026-06-02T07:02:35.205085+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T06:31:35.482994+00:00"
+  "lastUpdated": "2026-06-02T07:02:35.205142+00:00"
 }
