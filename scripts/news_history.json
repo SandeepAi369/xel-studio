@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "DEA Classifies Marijuana As Schedule I Drug Despite State Legalization Efforts",
-      "urls": [
-        "https://www.dea.gov",
-        "https://www.webmd.com/drugs/2/index",
-        "https://www.rxlist.com",
-        "https://medshadow.org/drug-updates-recalls/drug-safety/controlled-drug-classifications-schedule-i-ii-iii-iv-v"
-      ],
-      "date": "2026-05-23T18:31:00.455967+00:00"
-    },
-    {
       "title": "Google Launches Gemini Advanced AI Assistant Across Its Ecosystem",
       "urls": [
         "https://gemini.google.com",
@@ -3133,7 +3123,19 @@
         "https://socialbee.com/blog/social-media-news"
       ],
       "date": "2026-06-02T18:03:48.282265+00:00"
+    },
+    {
+      "title": "Google Unveils Gemini Omni AI Video System Capable of Producing Realistic Camera Footage",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/all-the-gemini-announcements-from-google-io-2026/ar-AA23DJGR?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/google-s-new-gemini-based-ai-video-system-called-omni-is-heading-to-i-o-2026-and-it-generates-footage-indistinguishable-from-real-cameras/ar-AA23qkYr?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/lifestyle/shopping/gemini-omni-is-googles-new-world-model-with-advanced-ai-video-generation-capabilities/ar-AA23Chwx?ocid=BingNewsVerp",
+        "https://thejournal.com/articles/2026/05/27/google-moving-ai-agents-into-mainstream-product-portfolio.aspx",
+        "https://sports.yahoo.com/articles/googles-ai-futures-fund-gives-200057649.html",
+        "https://www.msn.com/en-in/news/other/building-a-fully-conscious-ai-how-are-google-anthropic-and-meta-trying-to-do-it/ar-AA24DyNI?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-02T18:31:35.999718+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T18:03:48.282321+00:00"
+  "lastUpdated": "2026-06-02T18:31:35.999787+00:00"
 }
