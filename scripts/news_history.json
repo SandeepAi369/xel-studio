@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coco Gauff Reaches French Open Semifinals With Win Over Elena Rybakina",
-      "urls": [
-        "https://www.tennis.com",
-        "https://www.atptour.com/en",
-        "https://www.espn.com/tennis/scoreboard",
-        "https://www.diretta.it/tennis",
-        "https://www.flashscore.com/tennis/wta-singles"
-      ],
-      "date": "2026-05-23T16:32:16.831379+00:00"
-    },
-    {
-      "title": "Teladoc Health Delivers Over 10 Million Virtual Care Visits Annually",
-      "urls": [
-        "https://www.teladochealth.com"
-      ],
-      "date": "2026-05-23T17:01:08.609553+00:00"
-    },
-    {
       "title": "Legal Aid Systems Improve Accessibility For Disabled Clients",
       "urls": [
         "https://www.collinsdictionary.com/us/dictionary/english/accessible"
@@ -3136,7 +3118,18 @@
         "https://www.latimes.com/sports/olympics/live/2026-winter-olympics-live-updates-final-day-results-winners-medal-count-schedule-closing-ceremony"
       ],
       "date": "2026-06-02T16:31:39.146334+00:00"
+    },
+    {
+      "title": "Spencer Pratt Surges in Los Angeles Mayoral Race Backed by Trump Support",
+      "urls": [
+        "https://www.foxnews.com/politics/reality-tv-city-hall-trump-backed-spencer-pratt-soars-la-mayor-race-californians-vote",
+        "https://www.theguardian.com/politics/live/2026/jun/01/peter-mandelson-documents-published-keir-starmer-labour-latest-news-updates",
+        "https://www.aljazeera.com/news/liveblog/2026/6/2/iran-war-live-trump-talks-to-hezbollah-israel-as-lebanon-fighting-surges?traffic_source=rss",
+        "https://www.theguardian.com/world/2026/jun/02/ukraine-war-russia-air-raids-strike-kyiv-dnipro-kharkiv",
+        "https://www.bbc.com/news/world"
+      ],
+      "date": "2026-06-02T17:03:57.782715+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T16:31:39.146372+00:00"
+  "lastUpdated": "2026-06-02T17:03:57.782773+00:00"
 }
