@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The New York Times Deploys 400 Journalists Across 160 Countries For Global Coverage",
-      "urls": [
-        "https://www.nytimes.com/international/section/world"
-      ],
-      "date": "2026-05-23T12:01:15.714248+00:00"
-    },
-    {
       "title": "Canadian Association of the Deaf Champions CSL Recognition in Bill C-29",
       "urls": [
         "https://cad-asc.ca"
@@ -3112,7 +3105,16 @@
         "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners"
       ],
       "date": "2026-06-02T11:32:49.717797+00:00"
+    },
+    {
+      "title": "Anthropic Plans U.S. Share Offering as Valuation Nears One Trillion Dollars",
+      "urls": [
+        "https://www.theguardian.com/media/2026/jun/01/60-minutes-scott-pelley-cbs-bari-weiss-cuts",
+        "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.com/news/articles/c5y8nq8ljqwo?at_medium=RSS&at_campaign=rss"
+      ],
+      "date": "2026-06-02T12:04:26.616728+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T11:32:49.717856+00:00"
+  "lastUpdated": "2026-06-02T12:04:26.616783+00:00"
 }
