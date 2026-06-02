@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Copilot Launches AI Assistant Across Windows And Office Suite",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=0e319190b48960cb145d86f2b5a7613c"
-      ],
-      "date": "2026-05-23T20:01:05.021780+00:00"
-    },
-    {
       "title": "Apple To Unveil M4-Powered iPad Pro With OLED Display In 2026",
       "urls": [
         "https://www.macworld.com/article/671090/new-apple-products-iphone-ipad-mac-watch.html"
@@ -3130,7 +3123,14 @@
         "https://intellizence.com/insights/startup-funding/top-startup-funding-deals-of-q1-2026-record-297-billion-raised-with-ai-dominating"
       ],
       "date": "2026-06-02T19:31:49.109389+00:00"
+    },
+    {
+      "title": "Pinggy Releases Guide Highlighting Top Video Generation AI Models for 2026",
+      "urls": [
+        "https://pinggy.io/blog/best_video_generation_ai_models"
+      ],
+      "date": "2026-06-02T20:02:33.300127+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T19:31:49.109460+00:00"
+  "lastUpdated": "2026-06-02T20:02:33.300184+00:00"
 }
