@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Guns International Launches 200000 Gun Marketplace For Verified Sellers",
-      "urls": [
-        "https://simple.wikipedia.org/wiki/International",
-        "https://www.collinsdictionary.com/us/dictionary/english/international",
-        "https://www.gunsinternational.com"
-      ],
-      "date": "2026-05-23T21:03:15.294084+00:00"
-    },
-    {
       "title": "U.S. Department of Defense Updates Digital Artifact Handling Guidelines",
       "urls": [
         "https://www.usda.gov/sites/default/files/documents/en-usda-how-create-e-signature.pdf",
@@ -3143,7 +3134,20 @@
         "https://www.espn.com/espn/latestnews"
       ],
       "date": "2026-06-02T21:01:33.161213+00:00"
+    },
+    {
+      "title": "New York State Justice Center Awards $8.5 Million to Nonprofits for Assistive Technology",
+      "urls": [
+        "https://www.thestar.com.my/news/world/2026/05/02/kenya-launches-huawei-supported-ai-disability-project-to-promote-digital-inclusion",
+        "https://www.aei.org/technology-and-innovation/how-artificial-intelligence-is-reshaping-work-for-americans-with-disabilities",
+        "https://newjersey.news12.com/2026/05/03/abilities-expo-in-edison-brings-resources-technology-and-advocacy-to-the-disability-community/3OcQYbwQuYLZ83oE0SG4eu",
+        "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech",
+        "https://www.wgrz.com/article/news/local/nys-justice-center-awarding-85m-to-non-profit-organizations-that-provide-assistive-technology/71-a41f66af-f999-4522-9f97-1bdeec817f37",
+        "https://www.msn.com/en-xl/africa/nigeria/students-showcase-ai-innovations-at-deepfunding-hackathon/ar-AA243MWl?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/hnewman/2026/05/19/meet-the-accessibility-200-and-their-ai-tools"
+      ],
+      "date": "2026-06-02T21:31:23.385560+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T21:01:33.161260+00:00"
+  "lastUpdated": "2026-06-02T21:31:23.385617+00:00"
 }
