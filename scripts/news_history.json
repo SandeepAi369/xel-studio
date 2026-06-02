@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andy Marshall Wins Williamson County Mayoral Primary With 12864 Votes",
-      "urls": [
-        "https://sos.tn.gov/govotetn",
-        "https://williamsonchamber.com/vote",
-        "https://www.msn.com/en-us/news/politics/williamson-county-election-results-whos-ahead-in-all-the-local-races/ar-AA22sDaq",
-        "https://www.nbcnews.com/politics/elections",
-        "https://www.williamsoncounty-tn.gov/2173/Sample-Ballots",
-        "https://ballotpedia.org/Tennessee_election_calendar",
-        "https://www.wkrn.com/news/tennessee-politics/tn-election-results-mayoral-races-may-5-2026",
-        "https://www.vote.org/polling-place-locator",
-        "https://www.wsmv.com/2026/04/16/early-voting-has-begun-primary-election-heres-what-know-davidson-williamson-counties",
-        "https://www.ballotready.org/us/tennessee"
-      ],
-      "date": "2026-05-23T19:30:55.698909+00:00"
-    },
-    {
       "title": "Microsoft Copilot Launches AI Assistant Across Windows And Office Suite",
       "urls": [
         "https://copilot.microsoft.com?msockid=0e319190b48960cb145d86f2b5a7613c"
@@ -3130,7 +3114,23 @@
         "https://www.upi.com/Top_News/World-News/2026/05/28/state-run-power-company-solar-power-offshore-wind-renewable-energy/8781780012776"
       ],
       "date": "2026-06-02T19:02:30.517711+00:00"
+    },
+    {
+      "title": "YouTube Highlights AI Stock Growth and Investor Strategies for 2026",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
+        "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026",
+        "https://www.instagram.com/reel/DYRWdjjPLV7",
+        "https://www.youtube.com/watch?v=7WczS_uRm1w&vl=en",
+        "https://www.youtube.com/watch?v=TDx5cpXRboU",
+        "https://www.youtube.com/watch?v=5DEhNDP7LTM",
+        "https://www.youtube.com/watch?v=A4RpwCw39I4",
+        "https://www.youtube.com/watch?v=cD-BZT7y5B4",
+        "https://qubit.capital/blog/ai-startup-fundraising-trends",
+        "https://intellizence.com/insights/startup-funding/top-startup-funding-deals-of-q1-2026-record-297-billion-raised-with-ai-dominating"
+      ],
+      "date": "2026-06-02T19:31:49.109389+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T19:02:30.517774+00:00"
+  "lastUpdated": "2026-06-02T19:31:49.109460+00:00"
 }
