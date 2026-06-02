@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cleveland Clinic Highlights Mental Health Impact on Daily Resilience",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/mental",
-        "https://my.clevelandclinic.org/health/articles/mental-health",
-        "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/mental-health/art-20044098"
-      ],
-      "date": "2026-05-23T14:31:09.029604+00:00"
-    },
-    {
       "title": "Poki Launches 1500 Free Instant Play Games Across Devices",
       "urls": [
         "https://poki.com?msockid=10dc827306466c5602b9951107616d5e",
@@ -3119,7 +3110,14 @@
         "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
       ],
       "date": "2026-06-02T14:02:58.808380+00:00"
+    },
+    {
+      "title": "Assistive Technology Tools Enhance Inclusion for Students in K-12 Environments",
+      "urls": [
+        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
+      ],
+      "date": "2026-06-02T14:31:39.053048+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T14:02:58.808428+00:00"
+  "lastUpdated": "2026-06-02T14:31:39.053105+00:00"
 }
