@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=29908d2527cb62cf051b9a472628636c"
-      ],
-      "date": "2026-05-23T11:32:07.570235+00:00"
-    },
-    {
       "title": "The New York Times Deploys 400 Journalists Across 160 Countries For Global Coverage",
       "urls": [
         "https://www.nytimes.com/international/section/world"
@@ -3112,7 +3105,14 @@
         "https://www.wolterskluwer.com/en/expert-insights/2026-healthcare-ai-trends-insights-from-experts"
       ],
       "date": "2026-06-02T11:02:12.637896+00:00"
+    },
+    {
+      "title": "Bloomberg Highlights Twelve Climate Tech Startups Driving $2.3 Trillion Energy Transition",
+      "urls": [
+        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners"
+      ],
+      "date": "2026-06-02T11:32:49.717797+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T11:02:12.637957+00:00"
+  "lastUpdated": "2026-06-02T11:32:49.717856+00:00"
 }
