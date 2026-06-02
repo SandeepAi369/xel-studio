@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "ABC News Launches Redesigned Platform With Personalized Feed And Live Streaming",
-      "urls": [
-        "https://www.foxnews.com?msockid=2dffde49f1a96dab15bcc92bf0806c8f",
-        "https://www.cnn.com",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB",
-        "https://apnews.com",
-        "https://www.nbcnews.com",
-        "https://abcnews.com"
-      ],
-      "date": "2026-05-23T03:02:18.663102+00:00"
-    },
-    {
       "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
       "urls": [
         "https://www.foxnews.com?msockid=1457b58c5e65688d36c1a2ee5fa769d4"
@@ -3112,7 +3100,15 @@
         "https://www.tmcnet.com/usubmit/2026/05/19/10385886.htm"
       ],
       "date": "2026-06-02T03:02:00.991853+00:00"
+    },
+    {
+      "title": "Kyle Samani Declares Web3 Dead, Highlights DeFi and DePIN as Survivors",
+      "urls": [
+        "https://crypto.news/web3-is-dead-kyle-samani-says-only-defi-and-depin-remain",
+        "https://www.coindesk.com"
+      ],
+      "date": "2026-06-02T03:31:37.485675+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T03:02:00.991896+00:00"
+  "lastUpdated": "2026-06-02T03:31:37.485733+00:00"
 }
