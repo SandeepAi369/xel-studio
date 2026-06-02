@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Modern Library Announces 100 Best Nonfiction Works With Adams Leading",
-      "urls": [
-        "https://www.listchallenges.com/modern-librarys-100-best-nonfiction-works/list/2"
-      ],
-      "date": "2026-05-23T09:32:03.504029+00:00"
-    },
-    {
-      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=2edf406d0ba168c93f3b570f0a186909"
-      ],
-      "date": "2026-05-23T10:01:16.214794+00:00"
-    },
-    {
       "title": "Apple Develops Unreleased Device With Model Number A3577",
       "urls": [
         "https://apps.microsoft.com/detail/9pfhdd62mxs1",
@@ -3121,7 +3107,14 @@
         "https://news.mit.edu/topic/assistive-technology"
       ],
       "date": "2026-06-02T09:31:49.973244+00:00"
+    },
+    {
+      "title": "Apple Previews Major Product and Software Announcements at WWDC 2026",
+      "urls": [
+        "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937"
+      ],
+      "date": "2026-06-02T10:02:44.525319+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T09:31:49.973313+00:00"
+  "lastUpdated": "2026-06-02T10:02:44.525374+00:00"
 }
