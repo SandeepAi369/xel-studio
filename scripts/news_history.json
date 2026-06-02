@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Gemini Advanced AI Assistant Across Its Ecosystem",
-      "urls": [
-        "https://gemini.google.com",
-        "https://deepai.org?lang=en",
-        "https://www.perplexity.ai",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://www.meta.ai",
-        "https://grok.com"
-      ],
-      "date": "2026-05-23T19:02:08.932836+00:00"
-    },
-    {
       "title": "Andy Marshall Wins Williamson County Mayoral Primary With 12864 Votes",
       "urls": [
         "https://sos.tn.gov/govotetn",
@@ -3135,7 +3123,14 @@
         "https://www.msn.com/en-in/news/other/building-a-fully-conscious-ai-how-are-google-anthropic-and-meta-trying-to-do-it/ar-AA24DyNI?ocid=BingNewsVerp"
       ],
       "date": "2026-06-02T18:31:35.999718+00:00"
+    },
+    {
+      "title": "Southern Power Invests in Solar and Offshore Wind Projects to Boost Renewable Energy Capacity",
+      "urls": [
+        "https://www.upi.com/Top_News/World-News/2026/05/28/state-run-power-company-solar-power-offshore-wind-renewable-energy/8781780012776"
+      ],
+      "date": "2026-06-02T19:02:30.517711+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T18:31:35.999787+00:00"
+  "lastUpdated": "2026-06-02T19:02:30.517774+00:00"
 }
