@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medi Cal Serves 15 Million Enrollees In San Diego County",
-      "urls": [
-        "https://www.sandiegocounty.gov/content/sdc/hhsa/programs/ssp/medi-cal_program.html",
-        "https://www.providence.org/locations/socal/diamond-bar-primary-care"
-      ],
-      "date": "2026-05-23T02:31:02.051861+00:00"
-    },
-    {
       "title": "ABC News Launches Redesigned Platform With Personalized Feed And Live Streaming",
       "urls": [
         "https://www.foxnews.com?msockid=2dffde49f1a96dab15bcc92bf0806c8f",
@@ -3102,7 +3094,14 @@
         "https://autism.org/autism-in-the-wild"
       ],
       "date": "2026-06-02T02:02:59.173477+00:00"
+    },
+    {
+      "title": "Esports World Cup Announces Paris Venue and Ticket Sales for Twenty‑Five Competitions",
+      "urls": [
+        "https://www.prnewswire.com/news-releases/esports-world-cup-2026-venue-announced-paris-expo-porte-de-versailles-tickets-live-now-for-all-25-competitions-302787514.html"
+      ],
+      "date": "2026-06-02T02:32:20.920418+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T02:02:59.173538+00:00"
+  "lastUpdated": "2026-06-02T02:32:20.920475+00:00"
 }
