@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Calhoun High School Sandcrabs Compete in Class 3A Division I Football",
-      "urls": [
-        "https://www.maxpreps.com/tx/port-lavaca/calhoun-sandcrabs/football",
-        "https://www.bbc.co.uk/sport/football/scores-fixtures",
-        "https://www.calcoisd.org/250795_2",
-        "https://football.us"
-      ],
-      "date": "2026-05-23T08:34:08.261466+00:00"
-    },
-    {
       "title": "Google Adds Open To Preferred Sources For Italian Users",
       "urls": [
         "https://chatgpt.com",
@@ -3116,7 +3106,17 @@
         "https://go.zageno.com/blog/whats-new-in-biotech-2026"
       ],
       "date": "2026-06-02T08:02:08.455578+00:00"
+    },
+    {
+      "title": "Donald Trump Says Iran Talks Continue Despite Threats to Other War Fronts",
+      "urls": [
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-strikes-ceasefire-lebanon-israel",
+        "https://www.theguardian.com/us-news/2026/jun/01/senate-democrats-challenge-trump-slush-fund",
+        "https://www.deccanherald.com",
+        "https://www.usatoday.com"
+      ],
+      "date": "2026-06-02T08:34:12.126380+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T08:02:08.455654+00:00"
+  "lastUpdated": "2026-06-02T08:34:12.126448+00:00"
 }
