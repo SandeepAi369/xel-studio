@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenEvidence Delivers Real-Time Clinical Insights To 30 U.S. Hospitals",
-      "urls": [
-        "https://www.openevidence.com",
-        "https://www.merriam-webster.com/dictionary/open",
-        "https://dictionary.cambridge.org/dictionary/english/open"
-      ],
-      "date": "2026-05-23T23:30:58.290047+00:00"
-    },
-    {
       "title": "OpenAI Solves 80-Year-Old Erdős Conjecture in Geometry",
       "urls": [
         "https://ground.news/article/openai-reportedly-cracks-80-year-old-math-conjecture",
@@ -3135,7 +3126,16 @@
         "https://huggingface.co"
       ],
       "date": "2026-06-02T23:01:25.392981+00:00"
+    },
+    {
+      "title": "Bridges Medical Discovery and Patient Care in Emerging Healthcare Landscape",
+      "urls": [
+        "https://earthtimes.org/ai-medical-discovery-patient-care",
+        "https://www.nvdaily.com/online_features/health_and_wellness/can-ai-answer-health-questions-healthcare-tech-trends-in-2026/article_831dccd6-a4e8-5c36-9608-ea010adfc213.html",
+        "https://www.scmp.com/presented/business/topics/asia-summit-global-health-2026/article/3351982/leaders-shape-future-healthcare-asgh-2026-asias-premier-health-event"
+      ],
+      "date": "2026-06-02T23:31:16.998559+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T23:01:25.393032+00:00"
+  "lastUpdated": "2026-06-02T23:31:16.998631+00:00"
 }
