@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Adds Open To Preferred Sources For Italian Users",
-      "urls": [
-        "https://chatgpt.com",
-        "https://openai.com",
-        "https://en.wikipedia.org/wiki/Open_Season_(2006_film)",
-        "https://www.open.online"
-      ],
-      "date": "2026-05-23T09:04:13.210779+00:00"
-    },
-    {
       "title": "Modern Library Announces 100 Best Nonfiction Works With Adams Leading",
       "urls": [
         "https://www.listchallenges.com/modern-librarys-100-best-nonfiction-works/list/2"
@@ -3124,7 +3114,14 @@
         "https://www.siliconvalley.com/2026/06/01/nvidia-is-taking-on-intel-and-amd-with-ai-chip-for-computers"
       ],
       "date": "2026-06-02T09:01:48.602169+00:00"
+    },
+    {
+      "title": "MIT News Highlights Dedicated Assistive Technology Topic Page for Inclusive Innovation",
+      "urls": [
+        "https://news.mit.edu/topic/assistive-technology"
+      ],
+      "date": "2026-06-02T09:31:49.973244+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T09:01:48.602218+00:00"
+  "lastUpdated": "2026-06-02T09:31:49.973313+00:00"
 }
