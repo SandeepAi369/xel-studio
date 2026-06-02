@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Develops Unreleased Device With Model Number A3577",
-      "urls": [
-        "https://apps.microsoft.com/detail/9pfhdd62mxs1",
-        "https://www.macrumors.com"
-      ],
-      "date": "2026-05-23T10:31:59.679170+00:00"
-    },
-    {
       "title": "Natural Bridge Wildlife Ranch operates a 500-acre drive-thru safari in Texas, featuring over 40 spec",
       "urls": [
         "https://tpwd.texas.gov",
@@ -3114,7 +3106,18 @@
         "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937"
       ],
       "date": "2026-06-02T10:02:44.525319+00:00"
+    },
+    {
+      "title": "John Korir and Sharon Lokedi Win 2026 Boston Marathon as Records Fall",
+      "urls": [
+        "https://www.usnews.com/news/sports/articles/2026-04-27/marathon-record-breaker-says-he-underwent-strict-testing-regime-before-smashing-2-hour-barrier",
+        "https://www.usatoday.com/story/sports/2026/04/20/2026-boston-marathon-live-time-results-tracking-start-winner-coverage--live/89665584007",
+        "https://sports.yahoo.com/articles/won-boston-marathon-2026-meet-180732637.html",
+        "https://www.espn.com/olympics/summer/athletics",
+        "https://www.irishtimes.com/sport/athletics/2026/05/15/sonia-osullivan-the-marathon-world-record-has-given-me-a-new-challenge-to-chase"
+      ],
+      "date": "2026-06-02T10:32:52.918822+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T10:02:44.525374+00:00"
+  "lastUpdated": "2026-06-02T10:32:52.918865+00:00"
 }
