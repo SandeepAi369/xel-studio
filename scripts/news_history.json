@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nilesh Patel Leads Gadgets 360 Editorial Strategy",
-      "urls": [
-        "https://www.gadgets360.com"
-      ],
-      "date": "2026-05-23T01:01:06.705571+00:00"
-    },
-    {
       "title": "New Jersey Allocates $300 Million Annually For Solar And Wind Projects",
       "urls": [
         "https://cleanenergy.nj.gov",
@@ -3102,7 +3095,18 @@
         "https://www.paramountplus.com/sneak-peak/ufc-schedule-2026"
       ],
       "date": "2026-06-02T00:31:47.099740+00:00"
+    },
+    {
+      "title": "California Legislature Passes Age Verification Bill Sparing Linux and Targeting Websites",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/05/18/10384685.htm",
+        "https://www.techtimes.com/articles/317449/20260530/california-age-verification-bill-clears-assembly-linux-spared-websites-added-age-gating-regime.htm",
+        "https://yandex.cloud/en/services/smartcaptcha",
+        "https://system1.com/terms/privacy-policy",
+        "https://system1.com/terms/terms-of-use"
+      ],
+      "date": "2026-06-02T01:01:23.535786+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T00:31:47.099802+00:00"
+  "lastUpdated": "2026-06-02T01:01:23.535844+00:00"
 }
