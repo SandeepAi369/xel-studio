@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Monthly Users Across Platforms",
-      "urls": [
-        "https://www.foxnews.com?msockid=14d8245692f7660f369d333493bf6781"
-      ],
-      "date": "2026-05-23T04:33:07.495673+00:00"
-    },
-    {
-      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=24b9753d4e9068730f6d625f4f37691a"
-      ],
-      "date": "2026-05-23T05:01:08.602744+00:00"
-    },
-    {
       "title": "U.S. Awaits Iran's Response to New Peace Initiative",
       "urls": [
         "https://www.foxnews.com?msockid=3a344df83fb76c6501dc5a9a3e046dae",
@@ -3117,7 +3103,23 @@
         "https://www.techloy.com/2026-tech-events-calendar-every-major-ces-apple-google-samsung-and-ai-conference-to-watch"
       ],
       "date": "2026-06-02T04:32:50.776525+00:00"
+    },
+    {
+      "title": "Iran Suspends Peace Talks After Ceasefire Violation in Lebanon Escalates Tensions",
+      "urls": [
+        "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/jun/01/iran-strikes-us-military-base-kuwait-iranian-air-defences",
+        "https://www.theguardian.com/world/2026/jun/01/macron-french-navy-boarded-russia-linked-oil-tanker-atlantic",
+        "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
+        "https://www.nbcnews.com/health/health-news/new-drugs-unprecedented-results-pancreatic-cancer-doctors-look-uses-rcna346818",
+        "https://www.cbsnews.com/news/trump-anti-weaponization-fund-dropped-republican-revolt",
+        "https://edition.cnn.com",
+        "https://www.thehindu.com",
+        "https://www.ndtv.com",
+        "https://www.youtube.com/watch?v=U4n0iC98H4o"
+      ],
+      "date": "2026-06-02T05:04:08.461287+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T04:32:50.776581+00:00"
+  "lastUpdated": "2026-06-02T05:04:08.461346+00:00"
 }
