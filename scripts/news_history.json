@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Visually Defined By Dictionary Net As Relating To Sight",
-      "urls": [
-        "https://www.dictionary.net/dictionary/visually"
-      ],
-      "date": "2026-05-23T22:32:00.884881+00:00"
-    },
-    {
-      "title": "Telehealth Expands Access To Care For Rural Patients",
-      "urls": [
-        "https://telehealth.hhs.gov/patients/why-use-telehealth",
-        "https://www.medicalnewstoday.com/articles/telemedicine",
-        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
-        "https://www.auamed.org/blog/what-is-telemedicine"
-      ],
-      "date": "2026-05-23T23:01:12.838800+00:00"
-    },
-    {
       "title": "OpenEvidence Delivers Real-Time Clinical Insights To 30 U.S. Hospitals",
       "urls": [
         "https://www.openevidence.com",
@@ -3139,7 +3122,20 @@
         "https://www.usgs.gov/observatories/hvo"
       ],
       "date": "2026-06-02T22:31:13.877912+00:00"
+    },
+    {
+      "title": "Hugging Face Launches ml‑intern Agent to Streamline LLM Post‑Training Workflow",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1q82ae8/start_of_2026_whats_the_best_open_coding_model",
+        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "https://www.techaimag.com/latest-hugging-face-models/hugging-face-models-may-2026-trending-tools",
+        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
+        "https://huggingface.co"
+      ],
+      "date": "2026-06-02T23:01:25.392981+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T22:31:13.877961+00:00"
+  "lastUpdated": "2026-06-02T23:01:25.393032+00:00"
 }
