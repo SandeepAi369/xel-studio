@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Jersey Allocates $300 Million Annually For Solar And Wind Projects",
-      "urls": [
-        "https://cleanenergy.nj.gov",
-        "https://climate.mit.edu/explainers/renewable-energy",
-        "https://www.ibm.com/think/topics/renewable-energy"
-      ],
-      "date": "2026-05-23T01:30:55.383368+00:00"
-    },
-    {
       "title": "Hugging Face Hosts Over 2.2 Million Open-Weight AI Models",
       "urls": [
         "https://huggingface.co/blog/daya-shankar/open-source-llms",
@@ -3106,7 +3097,14 @@
         "https://system1.com/terms/terms-of-use"
       ],
       "date": "2026-06-02T01:01:23.535786+00:00"
+    },
+    {
+      "title": "SpaceX Completes Mostly Successful Starship Flight Advancing Reusable Launch Capabilities",
+      "urls": [
+        "https://www.nytimes.com/2026/05/22/science/spacex-starship-launch-nasa.html"
+      ],
+      "date": "2026-06-02T01:32:47.407305+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T01:01:23.535844+00:00"
+  "lastUpdated": "2026-06-02T01:32:47.407363+00:00"
 }
