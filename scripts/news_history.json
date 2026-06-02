@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Wins Legal Victory Over Elon Musk Lawsuit",
-      "urls": [
-        "https://en.wikipedia.org/wiki/OpenAI",
-        "https://www.open-openai.com/app",
-        "https://www.linkedin.com/company/openai",
-        "https://www.reddit.com/r/OpenAI",
-        "https://www.reuters.com/legal/government/elon-musk-loses-lawsuit-against-openai-2026-05-18"
-      ],
-      "date": "2026-05-23T13:35:10.780171+00:00"
-    },
-    {
-      "title": "Digital Technology Powers Modern Computing Systems Worldwide",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/digital",
-        "https://dictionary.cambridge.org/dictionary/english/digital",
-        "https://www.thefreedictionary.com/digital",
-        "https://www.dictionary.com/browse/digital"
-      ],
-      "date": "2026-05-23T14:01:15.242892+00:00"
-    },
-    {
       "title": "Cleveland Clinic Highlights Mental Health Impact on Daily Resilience",
       "urls": [
         "https://www.merriam-webster.com/dictionary/mental",
@@ -3133,7 +3112,14 @@
         "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
       ],
       "date": "2026-06-02T13:31:51.705103+00:00"
+    },
+    {
+      "title": "Nvidia Unveils New AI Inference Chips at GTC 2026 Targeting $1 Trillion Market",
+      "urls": [
+        "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
+      ],
+      "date": "2026-06-02T14:02:58.808380+00:00"
     }
   ],
-  "lastUpdated": "2026-06-02T13:31:51.705192+00:00"
+  "lastUpdated": "2026-06-02T14:02:58.808428+00:00"
 }
