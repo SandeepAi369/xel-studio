@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches New AI Platform To Accelerate Machine Learning Development",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Artificial_intelligence",
-        "https://www.lindy.ai/blog/ai-platforms"
-      ],
-      "date": "2026-05-24T19:02:07.122670+00:00"
-    },
-    {
-      "title": "Yahoo News Delivers Real-Time Coverage With Live Updates And Multimedia Reports",
-      "urls": [
-        "https://www.foxnews.com?msockid=3476e3e2274a620a31cef48126e96322",
-        "https://www.yahoo.com/news"
-      ],
-      "date": "2026-05-24T19:32:00.504749+00:00"
-    },
-    {
       "title": "Extreme Releases First New Album In Over A Decade",
       "urls": [
         "https://en.wikipedia.org/wiki/Extreme_(band)",
@@ -3121,7 +3105,14 @@
         "https://www.olympics.com/en/news/best-of-winter-olympics-2026-15-defining-moments-milano-cortina"
       ],
       "date": "2026-06-03T19:01:50.352686+00:00"
+    },
+    {
+      "title": "Google Unveils Gemini Updates at I/O 2026 According to Mashable Report",
+      "urls": [
+        "https://mashable.com/tech/all-the-gemini-announcements-google-io-2026"
+      ],
+      "date": "2026-06-03T19:32:09.569195+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T19:01:50.352745+00:00"
+  "lastUpdated": "2026-06-03T19:32:09.569251+00:00"
 }
