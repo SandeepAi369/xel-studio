@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Home Depot And Lowe's Stock Durable Fiberglass Window Screens",
-      "urls": [
-        "https://www.amazon.com/screen/s?k=screen",
-        "https://www.homedepot.com/b/Doors-Windows-Windows-Window-Screens/N-5yc1vZapvr",
-        "https://www.merriam-webster.com/dictionary/screen",
-        "https://reliablescreens.com",
-        "https://www.lowes.com/pl/replacement-screens/screen-mesh/2867482404-2526937447?msockid=125aa76d54366a90150ab00e55096b86",
-        "https://www.target.com/s/computer+screens"
-      ],
-      "date": "2026-05-24T04:31:06.619200+00:00"
-    },
-    {
       "title": "BBC News Deploys 250 Correspondents Across 150 Countries",
       "urls": [
         "https://www.foxnews.com?msockid=3afb386369ef6c3922e12f0068216d70",
@@ -3114,7 +3102,14 @@
         "https://www.tmcnet.com/usubmit/2026/05/21/10387636.htm"
       ],
       "date": "2026-06-03T04:01:46.512682+00:00"
+    },
+    {
+      "title": "Yale Climate Connections Links Climate Change to Supercharged Hurricane Rainfall and Deadly Floods",
+      "urls": [
+        "https://yaleclimateconnections.org/2026/05/climate-change-is-supercharging-hurricane-rainfall-contributing-to-deadly-floods"
+      ],
+      "date": "2026-06-03T04:32:08.229653+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T04:01:46.512737+00:00"
+  "lastUpdated": "2026-06-03T04:32:08.229718+00:00"
 }
