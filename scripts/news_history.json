@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Space Station Streams Live Earth Footage From 408 Kilometers",
-      "urls": [
-        "https://m.youtube.com/watch?v=0FBiyFpV__g"
-      ],
-      "date": "2026-05-24T16:02:14.014557+00:00"
-    },
-    {
       "title": "Stanford Report Shows Global AI Investment Reaches $150 Billion",
       "urls": [
         "https://www.36kr.com/p/3241185918133506",
@@ -3114,7 +3107,16 @@
         "https://www.reddit.com/r/IfBooksCouldKill/comments/1qovl7p/does_america_need_a_deeper_state_to_save_it_a"
       ],
       "date": "2026-06-03T16:01:56.974714+00:00"
+    },
+    {
+      "title": "BD² Launches Data Science Fellowship to Boost Early Career Researchers",
+      "urls": [
+        "https://phys.org/news/2026-05-rediscovering-science-knowledge-hidden.html",
+        "https://markets.businessinsider.com/news/stocks/bd-launches-data-science-fellowship-for-early-career-scientists-1036213120",
+        "https://www.msn.com/en-us/entertainment/general/hollywood-and-science-unite-at-the-2026-breakthrough-prize/ar-AA227Jpq?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-03T16:32:17.195784+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T16:01:56.974774+00:00"
+  "lastUpdated": "2026-06-03T16:32:17.195847+00:00"
 }
