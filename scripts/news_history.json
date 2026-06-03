@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pokémon Card Market Soars as Logan Paul Drives Million-Dollar Sales",
-      "urls": [
-        "https://gamebastion.com",
-        "https://www.theverge.com/games",
-        "https://gamedaily.com/news",
-        "https://www.cnbc.com/gaming?msockid=064aaaa34a126d543b7ebdc04bd36c3c",
-        "https://www.techspot.com/category/gaming"
-      ],
-      "date": "2026-05-24T20:32:00.661249+00:00"
-    },
-    {
-      "title": "Scientists Use 30-Year Wmo Baseline To Track Climate Trends",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Climate",
-        "https://weatherspark.com/y/10405/Average-Weather-in-Minneapolis-Minnesota-United-States-Year-Round"
-      ],
-      "date": "2026-05-24T21:01:15.803505+00:00"
-    },
-    {
       "title": "Fox News Expands Digital Reach With Live Streaming And Breaking Coverage",
       "urls": [
         "https://www.foxnews.com?msockid=2c7cd71d62b562b4308ac07e6364639c"
@@ -3119,7 +3100,23 @@
         "https://www.ces.tech/articles/accessibility-at-ces-2026-from-specialized-solutions-to-core-innovation"
       ],
       "date": "2026-06-03T20:31:37.531536+00:00"
+    },
+    {
+      "title": "Chase Bank Expands Digital Access With Mobile Apps and Online Branch Locator",
+      "urls": [
+        "https://www.chase.com",
+        "https://www.chase.com/digital/online-banking",
+        "https://play.google.com/store/apps/details?id=com.chase.sig.android&hl=en-US",
+        "https://www.jpmorganchase.com",
+        "https://en.wikipedia.org/wiki/Chase_Bank",
+        "https://play.google.com/store/apps/details?id=com.chase.sig.android&hl=en-IN",
+        "https://www.fool.com/money/banks/reviews/chase-bank-review",
+        "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247",
+        "https://www.bankbranchlocator.com/chase-bank",
+        "https://chase-bank.pissedconsumer.com/customer-service.html"
+      ],
+      "date": "2026-06-03T21:01:50.312248+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T20:31:37.531587+00:00"
+  "lastUpdated": "2026-06-03T21:01:50.312305+00:00"
 }
