@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Launches Chang E 6 To Mine Moon For Helium 3",
-      "urls": [
-        "https://www.britannica.com/topic/geopolitics",
-        "https://www.economist.com/topics/geopolitics",
-        "https://www.geopoliticalmonitor.com",
-        "https://www.pbs.org/newshour/tag/geopolitics",
-        "https://legalclarity.org/what-is-geopolitics-the-study-of-power-and-geography",
-        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
-      ],
-      "date": "2026-05-24T14:04:18.868609+00:00"
-    },
-    {
-      "title": "Europeana Unveils 58 Million Artifacts From 38 Countries",
-      "urls": [
-        "https://www.europeana.eu/portal/search",
-        "https://github.com/annontopicmodel/unsupervised_topic_modeling/blob/master/topics/en/15/100/50/topics",
-        "https://www.coindesk.com/markets/2026/01/07/privacy-tokens-may-extend-their-outperformance-into-2026-researchers-and-experts-agree",
-        "https://www.eff.org/issues/privacy",
-        "https://bigislandnow.com"
-      ],
-      "date": "2026-05-24T14:31:06.967855+00:00"
-    },
-    {
       "title": "Microsoft Launches Copilot Studio for Custom AI Agents",
       "urls": [
         "https://copilot.microsoft.com?msockid=3ff4b3bd84356aac0758a4de85576b98"
@@ -3114,7 +3091,18 @@
         "https://www.msn.com/en-us/money/other/americans-doubt-countries-will-do-enough-to-tame-climate-change/ar-AA24iFNX?ocid=BingNewsVerp"
       ],
       "date": "2026-06-03T14:01:52.202926+00:00"
+    },
+    {
+      "title": "American Foundation for the Blind Publishes Report on Assistive Technology for Visually Impaired Students",
+      "urls": [
+        "https://journals.sagepub.com/doi/10.1177/00224669261424860",
+        "https://acb-indiana.org/news/news/2026/school-assistive-technology-report",
+        "https://www.datainsightsmarket.com/reports/assistive-technology-for-visually-impaired-1002871",
+        "https://www.afb.org",
+        "https://www.teachingvisuallyimpaired.com/assistive-technology-skills.html"
+      ],
+      "date": "2026-06-03T14:31:50.327853+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T14:01:52.202982+00:00"
+  "lastUpdated": "2026-06-03T14:31:50.327912+00:00"
 }
