@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News operates a high-volume content strategy, publishing approximately 1,500 articles each week ",
-      "urls": [
-        "https://www.foxnews.com?msockid=35e014e5dacc6e8f07f30386db126fdf"
-      ],
-      "date": "2026-05-24T23:31:20.117820+00:00"
-    },
-    {
       "title": "Walmart Slashes Prices on Tech for Long Weekend Deals",
       "urls": [
         "https://www.pcmag.com/news",
@@ -3118,7 +3111,14 @@
         "https://aitoolly.com/ai-news/article/2026-03-18-state-of-open-source-on-hugging-face-spring-2026-report-released-by-hugging-face-blog"
       ],
       "date": "2026-06-03T23:03:00.444849+00:00"
+    },
+    {
+      "title": "Drug Target Review Predicts AI Will Transform Drug Discovery by 2026",
+      "urls": [
+        "https://www.drugtargetreview.com/article/192962/ai-in-drug-discovery-predictions-for-2026"
+      ],
+      "date": "2026-06-03T23:31:48.817760+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T23:03:00.444910+00:00"
+  "lastUpdated": "2026-06-03T23:31:48.817822+00:00"
 }
