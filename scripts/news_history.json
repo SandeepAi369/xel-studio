@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Project Glasswing With 89% Accurate AI Threat Detection",
-      "urls": [
-        "https://www.youtube.com/@anthropic-ai"
-      ],
-      "date": "2026-05-24T09:05:20.720927+00:00"
-    },
-    {
       "title": "Fox News Publishes 1,500 Articles Weekly To Reach 150 Million Monthly Visitors",
       "urls": [
         "https://www.foxnews.com?msockid=1517f35a3ae46fd525d4e4393b626e05"
@@ -3117,7 +3110,14 @@
         "https://aibusiness.com/verticals/cloud-computing"
       ],
       "date": "2026-06-03T09:01:55.982733+00:00"
+    },
+    {
+      "title": "Dan Marino Foundation Showcases 2026 Assistive Technology Tools Transforming Autism Communication and Learning",
+      "urls": [
+        "https://danmarinofoundation.org/assistive-technology-autism-tools"
+      ],
+      "date": "2026-06-03T09:31:46.419947+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T09:01:55.982791+00:00"
+  "lastUpdated": "2026-06-03T09:31:46.420006+00:00"
 }
