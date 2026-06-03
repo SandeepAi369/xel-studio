@@ -766,14 +766,21 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
 
     # ── Attempt 1: g4f (multi-provider) ──────────────────────
     g4f_bytes = _call_g4f_image(enhanced_prompt)
+
+    # ── Attempt 2: Pipeline-level retry (if first try failed) ──
+    if not g4f_bytes:
+        print(f"  🔄 First image attempt failed — retrying in 5s...")
+        time.sleep(5)
+        g4f_bytes = _call_g4f_image(enhanced_prompt)
+
     if g4f_bytes:
         result = _upload_bytes_to_cloudinary(g4f_bytes, article_id)
         if result:
             print(f"  ✅ IMAGE SUCCESS (g4f → Cloudinary)")
             return result
 
-    # ── Attempt 2: Placeholder ───────────────────────────────
-    print(f"  ⚠️ g4f failed, using placeholder")
+    # ── Fallback: Placeholder ────────────────────────────────
+    print(f"  ⚠️ g4f failed after 2 attempts, using placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
 
@@ -1381,6 +1388,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     # 9. Generate image via g4f + upload to Cloudinary
     #    BULLETPROOF: image failure must NEVER crash the pipeline
     article_id = str(uuid.uuid4())
+    heartbeat.start("generating image...")
     try:
         import signal
         IMAGE_TIMEOUT = 180  # 3 minutes max for entire image step
@@ -1402,6 +1410,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     except Exception as img_err:
         print(f"⚠️ Image generation crashed: {str(img_err)[:200]} — using placeholder")
         image_url = PLACEHOLDER_IMAGE_URL
+    finally:
+        heartbeat.stop()
 
     # 10. Save to Firestore
 
@@ -1452,7 +1462,7 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 # ─── Entry Point ─────────────────────────────────────────────
 
 if __name__ == "__main__":
-    MAX_RETRY_SECONDS = 600  # 10 minutes total budget
+    MAX_RETRY_SECONDS = 840  # 14 minutes total budget (15 min workflow - 1 min buffer)
     RETRY_WAIT = 60          # wait 60 seconds between retries
     start_time = time.time()
     attempt = 0

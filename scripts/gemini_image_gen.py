@@ -25,6 +25,8 @@ import os
 import sys
 import time
 import struct
+import signal
+import threading
 import requests
 from typing import Optional
 
@@ -46,7 +48,7 @@ DOWNLOAD_TIMEOUT = 30              # Max seconds for image download
 DOWNLOAD_RETRIES = 3               # Download retry count
 MIN_IMAGE_SIZE = 2000              # Minimum valid image size in bytes
 BACKOFF_BASE = 2                   # Exponential backoff base (2^attempt seconds)
-GLOBAL_TIME_BUDGET = 480           # 8 minutes total budget (10 min workflow - 2 min buffer)
+GLOBAL_TIME_BUDGET = 150           # 2.5 min budget (fits within 3-min SIGALRM with buffer)
 HEARTBEAT_INTERVAL = 10            # Print heartbeat every N seconds during waits
 
 
@@ -238,17 +240,67 @@ def _download_image(url: str) -> bytes | None:
 def _generate_single(client, model: str, prompt: str) -> bytes | None:
     """
     Single generation attempt: request → download → validate.
+    Background heartbeat thread keeps GitHub Actions alive during
+    the blocking API call. SIGALRM enforces PER_ATTEMPT_TIMEOUT.
     Returns valid image bytes or None.
     """
     t0 = time.time()
 
+    # ── Background heartbeat during the blocking API call ──
+    beat_stop = threading.Event()
+    def _api_heartbeat():
+        tick = 0
+        while not beat_stop.wait(8):
+            tick += 1
+            elapsed = time.time() - t0
+            _heartbeat(f"generating with {model}... {elapsed:.0f}s")
+
+    beat_thread = threading.Thread(target=_api_heartbeat, daemon=True)
+    beat_thread.start()
+
     try:
         _heartbeat(f"requesting {model}...")
-        response = client.images.generate(
-            model=model,
-            prompt=prompt,
-            response_format="url",
-        )
+
+        # ── Enforce per-attempt timeout via SIGALRM ──
+        # Save any existing alarm state so we don't clobber the outer
+        # pipeline-level alarm (the caller handles that separately).
+        timed_out = False
+        prev_alarm_remaining = 0
+        prev_handler = None
+        try:
+            prev_handler = signal.getsignal(signal.SIGALRM)
+            prev_alarm_remaining = signal.alarm(0)  # read & cancel outer alarm
+
+            def _attempt_timeout(signum, frame):
+                raise TimeoutError(f"{model} timed out after {PER_ATTEMPT_TIMEOUT}s")
+
+            signal.signal(signal.SIGALRM, _attempt_timeout)
+            signal.alarm(PER_ATTEMPT_TIMEOUT)
+        except (ValueError, OSError):
+            pass  # signal.alarm not available (non-main thread / Windows)
+
+        try:
+            response = client.images.generate(
+                model=model,
+                prompt=prompt,
+                response_format="url",
+            )
+        finally:
+            # Restore outer alarm
+            try:
+                signal.alarm(0)
+                if prev_handler is not None:
+                    signal.signal(signal.SIGALRM, prev_handler)
+                if prev_alarm_remaining > 0:
+                    # Subtract elapsed time from the outer alarm's remaining budget
+                    elapsed_int = int(time.time() - t0)
+                    restored = max(prev_alarm_remaining - elapsed_int, 5)
+                    signal.alarm(restored)
+            except (ValueError, OSError):
+                pass
+
+        # Stop the heartbeat thread now that the API call is done
+        beat_stop.set()
 
         elapsed = time.time() - t0
         print(f"      ⏱️ Response in {elapsed:.1f}s")
@@ -282,10 +334,16 @@ def _generate_single(client, model: str, prompt: str) -> bytes | None:
               f"({len(image_bytes):,} bytes, {total:.1f}s)")
         return image_bytes
 
+    except TimeoutError as te:
+        elapsed = time.time() - t0
+        print(f"      ⏰ {te} (after {elapsed:.1f}s) — skipping to next model")
+        return None
     except Exception as e:
         elapsed = time.time() - t0
         print(f"      ❌ Error after {elapsed:.1f}s: {str(e)[:150]}")
         return None
+    finally:
+        beat_stop.set()  # Always ensure heartbeat thread stops
 
 
 # ─── Main Engine ─────────────────────────────────────────────
