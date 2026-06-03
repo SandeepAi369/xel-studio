@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran-US tensions have escalated amid conflicting statements on a potential peace deal, with Presiden",
-      "urls": [
-        "https://www.the-world-now.com/current-wars",
-        "https://www.timesnownews.com/world/middle-east/iran-us-war-live-updates-donald-trump-iran-news-israel-strait-of-hormuz-peace-talk-crude-oil-latest-news-liveblog-154382900",
-        "https://www.merriam-webster.com/dictionary/war",
-        "https://www.reuters.com/world/ukraine-russia-war",
-        "https://www.war.gov/News",
-        "https://www.nytimes.com/live/2026/05/23/world/us-iran-war-trump",
-        "https://www.justsecurity.org/139369/us-still-at-war-begin-end",
-        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-uae-oil-price-today-peace-proposal/4246727"
-      ],
-      "date": "2026-05-24T23:01:15.846969+00:00"
-    },
-    {
       "title": "Fox News operates a high-volume content strategy, publishing approximately 1,500 articles each week ",
       "urls": [
         "https://www.foxnews.com?msockid=35e014e5dacc6e8f07f30386db126fdf"
@@ -3125,7 +3111,14 @@
         "https://www.msn.com/en-ae/pets-and-animals/wildlife/17-wild-hare-births-recorded-at-imam-turki-reserve-in-q1-2026/ar-AA23Swmc?ocid=BingNewsVerp"
       ],
       "date": "2026-06-03T22:33:04.002761+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Spring 2026 State of Open Source Report Detailing Community Growth",
+      "urls": [
+        "https://aitoolly.com/ai-news/article/2026-03-18-state-of-open-source-on-hugging-face-spring-2026-report-released-by-hugging-face-blog"
+      ],
+      "date": "2026-06-03T23:03:00.444849+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T22:33:04.002810+00:00"
+  "lastUpdated": "2026-06-03T23:03:00.444910+00:00"
 }
