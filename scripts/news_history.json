@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Mexico experienced multiple minor earthquakes over the past week, with magnitudes ranging from 2",
-      "urls": [
-        "https://earthquaketrack.com/p/united-states/new-mexico/recent"
-      ],
-      "date": "2026-05-24T06:32:03.534296+00:00"
-    },
-    {
-      "title": "Mistral AI Launches 10 Open-Source Models With Mistral Large 3 Ranking Sixth On LMArena",
-      "urls": [
-        "https://venturebeat.com/ai/mistral-launches-mistral-3-a-family-of-open-models-designed-to-run-on",
-        "https://thecurrencyanalytics.com/technology/mistral-ais-new-open-source-model-faces-pricing-backlash-as-chinese-rivals-dominate-benchmarks-255686",
-        "https://blogs.nvidia.com/blog/mistral-frontier-open-models",
-        "https://www.techinasia.com/news/mistral-launches-opensource-ai-models",
-        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
-        "https://www.msn.com/en-us/news/technology/mistral-releases-a-new-open-source-model-for-speech-generation/ar-AA1Zs8Ud",
-        "https://techfundingnews.com/mistral-ai-billion-dollar-funding-european-open-source-ai",
-        "https://techcrunch.com/tag/mistral-ai"
-      ],
-      "date": "2026-05-24T07:01:06.613890+00:00"
-    },
-    {
       "title": "Datavant Acquires DigitalOwl To Boost Oncology Data Analytics",
       "urls": [
         "https://www.linkedin.com/posts/james-taylor-b626271b_cybersecurity-executiveleadership-riskmanagement-activity-7363266654576726016-ZQ1H",
@@ -3124,7 +3103,19 @@
         "https://www.msn.com/en-gb/money/technology/breakthrough-prize-2026-awards-over-18-million-for-discoveries-across-space-physics-and-more/ar-AA21LjDU?ocid=BingNewsVerp"
       ],
       "date": "2026-06-03T06:31:59.443879+00:00"
+    },
+    {
+      "title": "Malaysia Introduces New Refugee Registration System Raising Concerns Among Human Rights Groups",
+      "urls": [
+        "https://www.jurist.org/news/2026/05/un-chief-denounces-returns-of-afghan-asylum-seekers-and-refugees-as-violation-of-international-law",
+        "https://www.hrw.org/news/2026/05/04/malaysia-new-refugee-registration-system-raises-concerns",
+        "https://www.kpbs.org/news/border-immigration/2026/05/15/el-cajons-refugee-community-remains-vibrant-but-vulnerable-in-trump-era",
+        "https://newrepublic.com/article/209603/trump-wars-might-kick-off-next-big-refugee-crisis",
+        "https://www.hrw.org/news/2026/05/11/tunisia-end-abusive-prosecution-of-refugee-aid-workers",
+        "https://www.nature.com/nature-index/topics/l4/media-discourse-on-immigration-and-refugee-narratives"
+      ],
+      "date": "2026-06-03T07:02:10.659103+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T06:31:59.443938+00:00"
+  "lastUpdated": "2026-06-03T07:02:10.659158+00:00"
 }
