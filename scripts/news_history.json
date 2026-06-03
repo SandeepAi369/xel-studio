@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenTable Connects 60000 Restaurants To 50 Million Monthly Bookings",
-      "urls": [
-        "https://secure.opentable.com"
-      ],
-      "date": "2026-05-24T10:31:10.054282+00:00"
-    },
-    {
       "title": "Temple University Launches Healthcare Management Certificate For Graduate Students",
       "urls": [
         "https://www.temple.edu/academics/degree-programs/medicine-md-me-meds-md/admissions",
@@ -3108,7 +3101,17 @@
         "https://venturebeat.com/technology/american-ai-startup-poolside-launches-free-high-performing-open-model-laguna-xs-2-for-local-agentic-coding"
       ],
       "date": "2026-06-03T10:01:51.232266+00:00"
+    },
+    {
+      "title": "ESPNcricinfo Provides Full IPL 2026 Updates And Daily Cricket News",
+      "urls": [
+        "https://sports.yahoo.com/nfl/article/how-to-watch-every-football-game-of-the-2026-nfl-season-015500757.html",
+        "https://www.espncricinfo.com/cricket-news",
+        "https://www.timesofsports.com",
+        "https://worldinsport.com"
+      ],
+      "date": "2026-06-03T10:31:51.665663+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T10:01:51.232319+00:00"
+  "lastUpdated": "2026-06-03T10:31:51.665718+00:00"
 }
