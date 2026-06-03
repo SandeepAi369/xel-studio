@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC News Deploys 250 Correspondents Across 150 Countries",
-      "urls": [
-        "https://www.foxnews.com?msockid=3afb386369ef6c3922e12f0068216d70",
-        "https://www.nytimes.com",
-        "https://www.bbc.com/news"
-      ],
-      "date": "2026-05-24T05:07:28.233918+00:00"
-    },
-    {
-      "title": "Fox News Publishes 1500 Articles Weekly To Reach 150 Million Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=39561097243165910fb807f4250864cb"
-      ],
-      "date": "2026-05-24T05:31:05.875695+00:00"
-    },
-    {
       "title": "Quantum Fiber Expands 940 Mbps Internet Across Minnesota",
       "urls": [
         "https://www.quantumfiber.com/local/mn",
@@ -3120,7 +3104,21 @@
         "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets"
       ],
       "date": "2026-06-03T05:01:43.952502+00:00"
+    },
+    {
+      "title": "Acer Unveils Next‑Gen Intel And AMD Laptops and Streaming Handheld at Computex",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/esports-and-gaming-events-pack-2026-calendar-with-major-wins-and-reveals/gm-GM5F678688?ocid=BingNewsVerp",
+        "https://hothardware.com/news/acer-gaming-computex-2026",
+        "https://www.gainesville.com/press-release/story/110206/gamesquare-recognized-with-the-2026-esta-industry-award-for-esports-innovation",
+        "https://finance.yahoo.com/markets/articles/esports-industry-analysis-report-2026-105300015.html",
+        "https://www.msn.com/en-us/news/other/ani-may-2026-unites-anime-and-gaming-with-global-events/gm-GMCC04C098?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/other/twitch-and-kick-are-winning-the-fortnite-and-roblox-streaming-war-in-2026/gm-GME692118C?ocid=BingNewsVerp",
+        "https://www.manilatimes.net/2026/05/29/tmt-newswire/pr-newswire/amzfast-to-unveil-next-generation-display-portfolio-at-computex-2026/2354350",
+        "https://www.msn.com/en-us/news/other/crunchyroll-launches-ani-may-2026-with-premieres-and-global-events/gm-GM653A4B3F?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-03T05:31:55.316571+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T05:01:43.952555+00:00"
+  "lastUpdated": "2026-06-03T05:31:55.316625+00:00"
 }
