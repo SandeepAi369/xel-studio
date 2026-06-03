@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Fiber Expands 940 Mbps Internet Across Minnesota",
-      "urls": [
-        "https://www.quantumfiber.com/local/mn",
-        "https://en.wikipedia.org/wiki/Quantum",
-        "https://www.britannica.com/science/quantum",
-        "https://www.merriam-webster.com/dictionary/quantum",
-        "https://www.sciencenewstoday.org/what-is-quantum-physics-a-beginners-guide",
-        "https://broadbandnow.com/quantum-fiber",
-        "https://www.quantum.com",
-        "https://quantum-health.com",
-        "https://www.space.com/quantum-physics-things-you-should-know",
-        "https://www.getquantumfiber.com/availability/mn"
-      ],
-      "date": "2026-05-24T06:04:31.376392+00:00"
-    },
-    {
       "title": "New Mexico experienced multiple minor earthquakes over the past week, with magnitudes ranging from 2",
       "urls": [
         "https://earthquaketrack.com/p/united-states/new-mexico/recent"
@@ -3129,7 +3113,18 @@
         "https://www.youtube.com/watch?v=tTrwwQIpcKU"
       ],
       "date": "2026-06-03T06:01:49.934049+00:00"
+    },
+    {
+      "title": "Breakthrough Prize Announces 2026 Laureates and Distributes Over $18 Million for Space and Physics Discoveries",
+      "urls": [
+        "https://www.nature.com/articles/d41586-025-03673-6",
+        "https://breakthroughprize.org/News/98",
+        "https://studyfinds.com/15-predictions-biggest-research-breakthroughs-2026",
+        "https://zentara.blog/2025/12/20/top-10-scientific-breakthroughs-expected-in-2026-based-on-current-research-pipelines",
+        "https://www.msn.com/en-gb/money/technology/breakthrough-prize-2026-awards-over-18-million-for-discoveries-across-space-physics-and-more/ar-AA21LjDU?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-03T06:31:59.443879+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T06:01:49.934101+00:00"
+  "lastUpdated": "2026-06-03T06:31:59.443938+00:00"
 }
