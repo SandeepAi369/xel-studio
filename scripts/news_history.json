@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Defines Refugee Rights Under International Law",
-      "urls": [
-        "https://legalclarity.org/what-is-a-refugee-a-simple-definition-explained",
-        "https://concernusa.org/news/largest-refugee-crises"
-      ],
-      "date": "2026-05-24T02:01:10.046559+00:00"
-    },
-    {
       "title": "Texas Health Resources And Medical City Healthcare Expand Access With 43 Hospitals And Faster Patient Visits",
       "urls": [
         "https://www.txhealthcare.com",
@@ -3127,7 +3119,15 @@
         "https://www.manilatimes.net/2026/05/19/tmt-newswire/globenewswire/venture-for-climatetech-announces-cohort-6-of-high-impact-startups-advancing-climate-innovation/2347086"
       ],
       "date": "2026-06-03T01:31:17.537190+00:00"
+    },
+    {
+      "title": "Microsoft Highlights Hugging Face Trending Papers For Foundry AI Users",
+      "urls": [
+        "https://huggingface.co/papers/trending",
+        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602"
+      ],
+      "date": "2026-06-03T02:01:26.370497+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T01:31:17.537245+00:00"
+  "lastUpdated": "2026-06-03T02:01:26.370551+00:00"
 }
