@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Expands Disability Benefits for 1.2 Million Residents",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Disability",
-        "https://www.disabilityresources.org/california-disability-benefits.html"
-      ],
-      "date": "2026-05-24T18:01:10.587550+00:00"
-    },
-    {
       "title": "Mistral AI Reaches 14 Billion Valuation With Enterprise Focus",
       "urls": [
         "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -3107,7 +3099,19 @@
         "https://www.forbes.com/sites/hansabhargava/2026/05/31/navigating-mental-health-in-the-ai-era-why-guardrails-are-essential"
       ],
       "date": "2026-06-03T17:32:08.861637+00:00"
+    },
+    {
+      "title": "Devflokers Highlights New Open-Source AI Projects in Latest Guide for Developers",
+      "urls": [
+        "https://www.devflokers.com/blog/open-source-ai-projects-may-2026-roundup",
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://codersera.com/blog/open-source-llms-landscape-2026",
+        "https://www.digitalapplied.com/blog/open-source-ai-landscape-april-2026-gemma-qwen-llama",
+        "https://www.clawbench.com/articles/best-open-source-ai-models-2026",
+        "https://www.analyticsinsight.net/artificial-intelligence/best-open-source-projects-that-will-lead-in-2026"
+      ],
+      "date": "2026-06-03T18:01:56.773374+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T17:32:08.861696+00:00"
+  "lastUpdated": "2026-06-03T18:01:56.773429+00:00"
 }
