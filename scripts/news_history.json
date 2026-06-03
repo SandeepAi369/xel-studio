@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1,500 Articles Weekly To Reach 150 Million Monthly Visitors",
-      "urls": [
-        "https://www.foxnews.com?msockid=1517f35a3ae46fd525d4e4393b626e05"
-      ],
-      "date": "2026-05-24T09:31:59.770676+00:00"
-    },
-    {
-      "title": "Over 450 Health Groups Urge Congress to Make Telehealth Flexibilities Permanent",
-      "urls": [
-        "https://www.digitalhealthnews.com/category/telehealth",
-        "https://www.americantelemed.org/press-releases/groundbreaking-innovations-in-virtual-care-and-digital-health-recognized-during-5th-annual-ata-telehealth-innovators-challenge-at-nexus-2026",
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
-        "https://healthmanagement.org/c/enterprise/News/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
-        "https://www.aamc.org/news/telehealth-innovations-health-technology",
-        "https://www.mdpi.com/2673-8392/5/4/206",
-        "https://www.healthcaredive.com/topic/telehealth"
-      ],
-      "date": "2026-05-24T10:01:18.804514+00:00"
-    },
-    {
       "title": "OpenTable Connects 60000 Restaurants To 50 Million Monthly Bookings",
       "urls": [
         "https://secure.opentable.com"
@@ -3117,7 +3097,18 @@
         "https://danmarinofoundation.org/assistive-technology-autism-tools"
       ],
       "date": "2026-06-03T09:31:46.419947+00:00"
+    },
+    {
+      "title": "GLM Releases Open‑Source LLM 5.1, Beats Opus and GPT‑5.4 on SWE‑Bench Pro",
+      "urls": [
+        "https://time.com/article/2026/04/27/time100-companies-ai",
+        "https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4",
+        "https://www.datacenterdynamics.com/en/news/nvidia-launches-open-source-ising-ai-models-to-support-quantum-chip-development",
+        "https://www.forbes.com/sites/jonmarkman/2026/04/28/chinas-deepseek-v4-and-qwen-reshape-the-open-source-ai-race",
+        "https://venturebeat.com/technology/american-ai-startup-poolside-launches-free-high-performing-open-model-laguna-xs-2-for-local-agentic-coding"
+      ],
+      "date": "2026-06-03T10:01:51.232266+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T09:31:46.420006+00:00"
+  "lastUpdated": "2026-06-03T10:01:51.232319+00:00"
 }
