@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sony Sells Over 50 Million PlayStation 5 Units Worldwide",
-      "urls": [
-        "https://www.washingtonpost.com/entertainment/video-games",
-        "https://www.bestbuy.com/site/electronics/video-games/abcat0700000.c?id=abcat0700000",
-        "https://discord.com/servers/gaming",
-        "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals"
-      ],
-      "date": "2026-05-24T13:02:25.577788+00:00"
-    },
-    {
-      "title": "Tokyo Landlords List Over 115000 Apartments on SUUMO and CHINTAI",
-      "urls": [
-        "https://suumo.jp/chintai/tokyo?msockid=317c039e1c566a42159314fd1d6f6b76",
-        "https://www.homes.co.jp/chintai/tokyo?msockid=317c039e1c566a42159314fd1d6f6b76",
-        "https://www.chintai.net/tokyo",
-        "https://www.athome.co.jp/chintai/tokyo/list",
-        "https://www.able.co.jp/tokyo",
-        "https://myhome.nifty.com/rent/ct_mansion/tokyo/search",
-        "https://airdoor.jp/tokyo",
-        "https://realestate.yahoo.co.jp/rent/03/13",
-        "https://www.pitat.com/rent/0/13/top",
-        "https://www.century21.jp/rent/tokyo"
-      ],
-      "date": "2026-05-24T13:32:01.719388+00:00"
-    },
-    {
       "title": "China Launches Chang E 6 To Mine Moon For Helium 3",
       "urls": [
         "https://www.britannica.com/topic/geopolitics",
@@ -3122,7 +3096,14 @@
         "https://www.drugdiscoverynews.com/the-2026-ai-power-shift-17020"
       ],
       "date": "2026-06-03T13:02:20.512985+00:00"
+    },
+    {
+      "title": "Ability Lane Launches Centralized Platform to Accelerate Disability Innovation Nationwide",
+      "urls": [
+        "https://finance.yahoo.com/news/ability-lane-launches-centralized-platform-130000024.html"
+      ],
+      "date": "2026-06-03T13:32:07.459938+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T13:02:20.513046+00:00"
+  "lastUpdated": "2026-06-03T13:32:07.459994+00:00"
 }
