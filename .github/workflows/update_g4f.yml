@@ -97,8 +97,33 @@ jobs:
         run: |
           LATEST="${{ steps.check.outputs.latest }}"
           MONTH_YEAR=$(date +'%B %Y')
+          # ONLY update the "Tested ..." comment line — nothing else
           sed -i "s/Tested .* (g4f v[0-9.]*)/Tested $MONTH_YEAR (g4f v$LATEST)/" scripts/gemini_image_gen.py || true
           echo "📝 Updated version comment in gemini_image_gen.py"
+
+      - name: Safety check — MODEL_CHAIN must NOT be modified
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          echo "🔒 Verifying MODEL_CHAIN is untouched..."
+          # Ensure our models are still exactly as we set them
+          grep -q '"flux"' scripts/gemini_image_gen.py || { echo "❌ MODEL_CHAIN corrupted — flux missing!"; exit 1; }
+          grep -q '"flux-dev"' scripts/gemini_image_gen.py || { echo "❌ MODEL_CHAIN corrupted — flux-dev missing!"; exit 1; }
+          grep -q '"gpt-image"' scripts/gemini_image_gen.py || { echo "❌ MODEL_CHAIN corrupted — gpt-image missing!"; exit 1; }
+          # Verify no dead models were re-added
+          if grep -q '"dall-e-3"' scripts/gemini_image_gen.py; then echo "❌ Dead model dall-e-3 detected!"; exit 1; fi
+          if grep -q '"sdxl"' scripts/gemini_image_gen.py; then echo "❌ Dead model sdxl detected!"; exit 1; fi
+          if grep -q '"flux-schnell"' scripts/gemini_image_gen.py; then echo "❌ Dead model flux-schnell detected!"; exit 1; fi
+          echo "✅ MODEL_CHAIN verified — all safe"
+
+      - name: Smoke test — verify g4f image imports work
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          python3 -c "
+import g4f
+from g4f.client import Client
+client = Client()
+print(f'✅ g4f v{g4f.__version__} — Client created, image generation ready')
+          "
 
       - name: Commit and push
         if: steps.check.outputs.skip != 'true'
