@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Restructures AI Division To Accelerate Generative Technology Integration",
-      "urls": [
-        "https://www.theinformation.com/topics/meta",
-        "https://www.theinformation.com/org-charts/meta?selected_employee=mark-zuckerberg",
-        "https://www.theinformation.com/topics/meta-platforms",
-        "https://www.theinformation.com/titv/pesob",
-        "https://www.theinformation.com",
-        "https://www.theinformation.com/titv/exp4j",
-        "https://www.theinformation.com/features/org-charts",
-        "https://www.theinformation.com/titv",
-        "https://www.theinformation.com/titv/cgrwz",
-        "https://www.theinformation.com/titv/iqpru"
-      ],
-      "date": "2026-05-25T15:31:11.525797+00:00"
-    },
-    {
       "title": "ScienceDaily reports new findings from a University of California study showing that prolonged expos",
       "urls": [
         "https://www.sciencenews.org",
@@ -3099,7 +3083,16 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
       ],
       "date": "2026-06-04T15:05:00.432755+00:00"
+    },
+    {
+      "title": "Meta Confirms It Will Open-Source Next Generation Llama 4 AI Models",
+      "urls": [
+        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
+        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
+      ],
+      "date": "2026-06-04T15:33:07.229684+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T15:05:00.432799+00:00"
+  "lastUpdated": "2026-06-04T15:33:07.229745+00:00"
 }
