@@ -14,7 +14,7 @@ Architecture:
   - Self-healing: if a model fails, it's deprioritized for future calls
   - Heartbeat logging keeps GitHub Actions alive
 
-Tested March 2026 (g4f v7.2.5):
+Tested June 2026 (g4f v7.5.7):
   ✅ flux-dev  → 70KB, rich detail, HuggingFace Gradio (~35s)
   ✅ flux      → 64KB, clean/fast, HuggingFace Gradio (~29s)
   ❌ All others → 503/text-plain/API-key-required

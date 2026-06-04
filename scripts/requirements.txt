@@ -13,26 +13,8 @@ requests>=2.31.0
 # Cerebras Cloud SDK (LLM — GPT-OSS 120B, llama3.1-8b)
 cerebras-cloud-sdk>=1.0.0
 
-# Dependencies for News Pipeline Worker (GitHub Actions)
-# Install with: pip install -r scripts/requirements.txt
-
-# Firebase Admin SDK (Firestore)
-firebase-admin>=6.0.0
-
-# Cloudinary (image upload)
-cloudinary>=1.40.0
-
-# HTTP Requests
-requests>=2.31.0
-
-# Cerebras Cloud SDK (LLM — GPT-OSS 120B, llama3.1-8b)
-cerebras-cloud-sdk>=1.0.0
-
-
-
-
 # g4f (gpt4free) — multi-provider image generation (Flux, DALL-E, SDXL)
-g4f[image]>=7.3.4
+g4f[image]>=7.5.7
 
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0
