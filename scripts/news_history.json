@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Expands Medi Cal Coverage For Low Income Residents",
-      "urls": [
-        "https://www.webmd.com",
-        "https://www.nm.org",
-        "https://www.uchicagomedicine.org",
-        "https://mcweb.apps.prd.cammis.medi-cal.ca.gov",
-        "https://www.merriam-webster.com/dictionary/medical",
-        "https://www.rush.edu",
-        "https://www.uchicago.edu/medicine",
-        "https://www.mayoclinic.org/diseases-conditions",
-        "https://www.advocatehealth.com/amg",
-        "https://www.achn.net"
-      ],
-      "date": "2026-05-25T03:01:11.596497+00:00"
-    },
-    {
       "title": ".",
       "urls": [
         "https://get.tech"
@@ -3120,7 +3104,14 @@
         "https://www.msn.com/en-in/lifestyle/shopping/apple-drops-major-ai-accessibility-features-for-iphone-mac-and-vision-pro-ahead-of-wwdc-2026/ar-AA23Cmhy?ocid=BingNewsVerp"
       ],
       "date": "2026-06-04T02:31:44.071826+00:00"
+    },
+    {
+      "title": "World Economic Forum Highlights Rising Geopolitical and Economic Risks in 2026",
+      "urls": [
+        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
+      ],
+      "date": "2026-06-04T03:01:42.220072+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T02:31:44.071887+00:00"
+  "lastUpdated": "2026-06-04T03:01:42.220127+00:00"
 }
