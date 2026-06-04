@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Declares Harmful Screen Use A Public Health Crisis",
-      "urls": [
-        "https://www.hhs.gov/surgeongeneral/reports-and-publications/screen-use-harms/index.html",
-        "https://www.angi.com/companylist/us/oh/west-chester/screen-repair.htm?msockid=2cbd88fcebea6c6d19e99f98eaad6d05",
-        "https://www.screenmobile.com"
-      ],
-      "date": "2026-05-25T09:32:07.414838+00:00"
-    },
-    {
       "title": "Earthquakes Today provides real-time tracking of seismic activity globally, using data updated every",
       "urls": [
         "https://earthquake.usgs.gov/earthquakes/map?extent=-",
@@ -3096,7 +3087,17 @@
         "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research"
       ],
       "date": "2026-06-04T09:03:15.354002+00:00"
+    },
+    {
+      "title": "Climate Solutions Prize Announces 2026 Top Ten Finalists Ahead of Largest Montreal Festival",
+      "urls": [
+        "https://markets.businessinsider.com/news/stocks/climatedoor-s-climateglobal-2026-to-feature-keynote-by-bc-minister-of-energy-and-climate-solutions-adrian-dix-1036139250",
+        "https://www.eco-business.com/news/electrified-carbon-capture-and-methanol-to-power-technologies-win-the-liveability-challenge-2026",
+        "https://ca.finance.yahoo.com/news/climate-solutions-prize-unveils-2026-200100168.html",
+        "https://www.reuters.com/sustainability/climate-energy/microsoft-may-shelve-2030-clean-energy-target-ai-lifts-power-use-bloomberg-news-2026-05-06"
+      ],
+      "date": "2026-06-04T09:33:09.360969+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T09:03:15.354057+00:00"
+  "lastUpdated": "2026-06-04T09:33:09.361028+00:00"
 }
