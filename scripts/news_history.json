@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Columbia Residents Feel 2.5-Magnitude Earthquake Rumble",
-      "urls": [
-        "https://www.baltimoresun.com/2025/10/27/2-5-magnitude-earthquake-strikes-columbia",
-        "https://foxbaltimore.com/news/local/minor-earthquake-hits-columbia-no-injuries-or-damage-reported",
-        "https://www.wbaltv.com/article/earthquakes-maryland-rare-parts-world-geologist-explains/69182655",
-        "https://www.thebanner.com/community/climate-environment/maryland-earthquake-columbia-geological-survey-SZV5HKL4JNHLPFVJS32NQXMST4",
-        "https://www.fox5dc.com/news/2-5-magnitude-earthquake-rattles-parts-maryland"
-      ],
-      "date": "2026-05-25T14:04:33.455128+00:00"
-    },
-    {
-      "title": "CompTIA Launches Linux+ V8 Certification With Enhanced Cloud And Security Focus",
-      "urls": [
-        "https://www.comptia.org/en-us/certifications/linux",
-        "https://www.kernel.org"
-      ],
-      "date": "2026-05-25T14:31:14.102614+00:00"
-    },
-    {
       "title": "Meta Restructures AI Division To Accelerate Generative Technology Integration",
       "urls": [
         "https://www.theinformation.com/topics/meta",
@@ -3099,7 +3080,16 @@
         "https://www.climatecentral.org/climate-matters/solar-and-wind-2026"
       ],
       "date": "2026-06-04T14:02:12.667873+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils New Open Source Models for 2026 to Accelerate Innovation",
+      "urls": [
+        "https://www.reddit.com/r/MistralAI/comments/1qxpmrw/europe_can_still_be_competitive_in_ai_mistral",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1sy6xoo/something_from_mistral_vibe_tomorrow",
+        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en"
+      ],
+      "date": "2026-06-04T14:31:47.738336+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T14:02:12.667919+00:00"
+  "lastUpdated": "2026-06-04T14:31:47.738387+00:00"
 }
