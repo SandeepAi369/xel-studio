@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf Cal Launches Central Hub for California Community Events",
-      "urls": [
-        "https://sped.lausd.org/apps/pages/deafeducation",
-        "https://deafcal.org",
-        "https://www.dds.ca.gov/services/deaf-hard-of-hearing-and-deafblind-resources",
-        "https://deaf.la/calendar"
-      ],
-      "date": "2026-05-25T01:33:23.737093+00:00"
-    },
-    {
       "title": "Mit Researchers Create Magnetically Controlled Microscopic Soft Robots",
       "urls": [
         "https://en.wikipedia.org/wiki/Robotics",
@@ -3129,7 +3119,14 @@
         "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes"
       ],
       "date": "2026-06-04T01:31:46.247567+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Workflows Platform to Streamline Enterprise AI Orchestration",
+      "urls": [
+        "https://www.infoq.com/news/2026/04/mistral-ai-workflows"
+      ],
+      "date": "2026-06-04T02:01:43.859472+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T01:31:46.247617+00:00"
+  "lastUpdated": "2026-06-04T02:01:43.859528+00:00"
 }
