@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nv Access Launches Updated Nvda Screen Reader For Global Users",
-      "urls": [
-        "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
-        "https://blog.usablenet.com/a-screen-reader-users-honest-take",
-        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
-        "https://ischool.uw.edu/news/2025/03/phone-screen-readers-appear-show-impact-ischool-research",
-        "https://www.nvaccess.org",
-        "https://discoversight.com/how-blind-people-use-internet",
-        "https://www.ophthalmology24.com/screen-readers",
-        "https://news.mit.edu/2024/umwelt-enables-interactive-accessible-charts-creation-blind-low-vision-users-0327"
-      ],
-      "date": "2026-05-25T05:32:12.896577+00:00"
-    },
-    {
       "title": "International Trucks Launches MV Series For Urban Hauling Needs",
       "urls": [
         "https://www.international.com/products/trucks",
@@ -3127,7 +3113,19 @@
         "https://sixsports.in"
       ],
       "date": "2026-06-04T05:31:45.118092+00:00"
+    },
+    {
+      "title": "JetBrains Releases Study On Developer Use Of AI Coding Tools In 2026",
+      "urls": [
+        "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+        "https://www.the-ai-corner.com/p/ai-coding-tools-complete-guide-2026",
+        "https://www.reddit.com/r/BetterOffline/comments/1ppm2c1/ai_wont_replace_developers_in_2026",
+        "https://www.reddit.com/r/AI_Agents/comments/1s9jl30/best_underrated_ai_tools_to_subscribe_to_in_april",
+        "https://www.reddit.com/r/GeminiAI/comments/1qe5a0x/what_are_the_most_useful_ai_tools_in_2026_heres",
+        "https://pecollective.com/blog/best-ai-coding-tools-2026"
+      ],
+      "date": "2026-06-04T06:03:00.721434+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T05:31:45.118144+00:00"
+  "lastUpdated": "2026-06-04T06:03:00.721508+00:00"
 }
