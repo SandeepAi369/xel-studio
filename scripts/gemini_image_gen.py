@@ -32,14 +32,12 @@ from typing import Optional
 
 # ─── Configuration ───────────────────────────────────────────
 
-# Models in priority order (best quality first)
-# Add new working models here as g4f adds support
+# Models in priority order — ONLY verified working models (June 2026)
+# Uses g4f Auto provider for all models — no hardcoded providers
 MODEL_CHAIN = [
-    {"name": "flux-dev",    "label": "FLUX Dev",    "quality": "best",   "avg_time": 35, "retries": 4},
-    {"name": "flux",        "label": "FLUX",        "quality": "good",   "avg_time": 29, "retries": 3},
-    {"name": "flux-schnell","label": "FLUX Schnell","quality": "good",   "avg_time": 20, "retries": 3},
-    {"name": "sdxl",        "label": "SDXL",        "quality": "good",   "avg_time": 25, "retries": 2},
-    {"name": "dall-e-3",    "label": "DALL-E 3",    "quality": "best",   "avg_time": 30, "retries": 2},
+    {"name": "flux",        "label": "FLUX",        "quality": "best",   "avg_time": 25, "retries": 3},
+    {"name": "flux-dev",    "label": "FLUX Dev",    "quality": "best",   "avg_time": 22, "retries": 2},
+    {"name": "gpt-image",   "label": "GPT Image",   "quality": "good",   "avg_time": 20, "retries": 2},
 ]
 
 MAX_RETRIES_PER_MODEL = 3          # Attempts per model before moving to next
@@ -48,7 +46,7 @@ DOWNLOAD_TIMEOUT = 30              # Max seconds for image download
 DOWNLOAD_RETRIES = 3               # Download retry count
 MIN_IMAGE_SIZE = 2000              # Minimum valid image size in bytes
 BACKOFF_BASE = 2                   # Exponential backoff base (2^attempt seconds)
-GLOBAL_TIME_BUDGET = 150           # 2.5 min budget (fits within 3-min SIGALRM with buffer)
+GLOBAL_TIME_BUDGET = 780           # 13 min — use the full 15-min workflow aggressively
 HEARTBEAT_INTERVAL = 10            # Print heartbeat every N seconds during waits
 
 
@@ -262,15 +260,7 @@ def _generate_single(client, model: str, prompt: str) -> bytes | None:
         _heartbeat(f"requesting {model}...")
 
         # ── Enforce per-attempt timeout via SIGALRM ──
-        # Save any existing alarm state so we don't clobber the outer
-        # pipeline-level alarm (the caller handles that separately).
-        timed_out = False
-        prev_alarm_remaining = 0
-        prev_handler = None
         try:
-            prev_handler = signal.getsignal(signal.SIGALRM)
-            prev_alarm_remaining = signal.alarm(0)  # read & cancel outer alarm
-
             def _attempt_timeout(signum, frame):
                 raise TimeoutError(f"{model} timed out after {PER_ATTEMPT_TIMEOUT}s")
 
@@ -286,16 +276,8 @@ def _generate_single(client, model: str, prompt: str) -> bytes | None:
                 response_format="url",
             )
         finally:
-            # Restore outer alarm
             try:
-                signal.alarm(0)
-                if prev_handler is not None:
-                    signal.signal(signal.SIGALRM, prev_handler)
-                if prev_alarm_remaining > 0:
-                    # Subtract elapsed time from the outer alarm's remaining budget
-                    elapsed_int = int(time.time() - t0)
-                    restored = max(prev_alarm_remaining - elapsed_int, 5)
-                    signal.alarm(restored)
+                signal.alarm(0)  # Cancel alarm
             except (ValueError, OSError):
                 pass
 

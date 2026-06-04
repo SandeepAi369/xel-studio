@@ -1387,26 +1387,11 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 
     # 9. Generate image via g4f + upload to Cloudinary
     #    BULLETPROOF: image failure must NEVER crash the pipeline
+    #    NO time limit — let the engine use the full 15-min workflow aggressively
     article_id = str(uuid.uuid4())
     heartbeat.start("generating image...")
     try:
-        import signal
-        IMAGE_TIMEOUT = 180  # 3 minutes max for entire image step
-
-        def _image_timeout_handler(signum, frame):
-            raise TimeoutError("Image generation timed out after 3 minutes")
-
-        # Set alarm (Unix only — works on GitHub Actions Ubuntu)
-        old_handler = signal.signal(signal.SIGALRM, _image_timeout_handler)
-        signal.alarm(IMAGE_TIMEOUT)
-        try:
-            image_url = generate_and_upload_image(image_prompt, article_id)
-        finally:
-            signal.alarm(0)  # Cancel alarm
-            signal.signal(signal.SIGALRM, old_handler)
-    except TimeoutError as te:
-        print(f"⏰ {te} — using placeholder")
-        image_url = PLACEHOLDER_IMAGE_URL
+        image_url = generate_and_upload_image(image_prompt, article_id)
     except Exception as img_err:
         print(f"⚠️ Image generation crashed: {str(img_err)[:200]} — using placeholder")
         image_url = PLACEHOLDER_IMAGE_URL
