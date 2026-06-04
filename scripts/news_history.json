@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artificial intelligence is being leveraged to enhance assistive technologies for people with disabil",
-      "urls": [
-        "https://www.bbc.co.uk/news/articles/cz7pdy3yq3qo"
-      ],
-      "date": "2026-05-25T04:01:14.522689+00:00"
-    },
-    {
       "title": "Fox News Publishes 1500 Articles Weekly To Engage 150 Million Monthly Visitors",
       "urls": [
         "https://nypost.com/us-news",
@@ -3115,7 +3108,16 @@
         "https://sthq.org/2026/01/23/10-sports-tech-innovations-to-watch-from-ces-2026"
       ],
       "date": "2026-06-04T03:32:53.939284+00:00"
+    },
+    {
+      "title": "Vanguard ETF Beats S&P 500 For Fourth Year With Chip Maker Holdings",
+      "urls": [
+        "https://www.benzinga.com/Opinion/26/06/52917504/nvidia-ai-pc-chip-unveiling-spotlights-3-stock-beneficiaries-and-structural-risk-for-intel",
+        "https://www.msn.com/en-us/news/other/amd-s-rapid-growth-narrows-nvidia-s-ai-chip-lead-in-2026/gm-GM4C9B0F39?ocid=BingNewsVerp",
+        "https://www.fool.com/investing/2026/06/02/etf-sp-500-nvidia-broadcom-micron-amd-intel"
+      ],
+      "date": "2026-06-04T04:01:38.053901+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T03:32:53.939341+00:00"
+  "lastUpdated": "2026-06-04T04:01:38.053960+00:00"
 }
