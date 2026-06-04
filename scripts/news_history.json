@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sky News Delivers Real-Time Global Coverage From 30 Countries",
-      "urls": [
-        "https://www.foxnews.com?msockid=0fbc3acda6ee674627d32da9a7a66629",
-        "https://www.ndtv.com/latest",
-        "https://news.abplive.com",
-        "https://m.timesofindia.com/news",
-        "https://m.hindustantimes.com",
-        "https://news.sky.com/world"
-      ],
-      "date": "2026-05-25T13:32:17.739557+00:00"
-    },
-    {
       "title": "Columbia Residents Feel 2.5-Magnitude Earthquake Rumble",
       "urls": [
         "https://www.baltimoresun.com/2025/10/27/2-5-magnitude-earthquake-strikes-columbia",
@@ -3102,7 +3090,16 @@
         "https://releasebot.io/updates/openai"
       ],
       "date": "2026-06-04T13:32:06.906676+00:00"
+    },
+    {
+      "title": "U.S. Solar and Energy Storage Pipeline Surges While Wind Development Declines",
+      "urls": [
+        "https://pv-magazine-usa.com/2026/06/03/the-pipeline-for-new-u-s-solar-and-energy-storage-surges-as-wind-dies-down-report",
+        "https://renewablesnow.com/news",
+        "https://www.climatecentral.org/climate-matters/solar-and-wind-2026"
+      ],
+      "date": "2026-06-04T14:02:12.667873+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T13:32:06.906736+00:00"
+  "lastUpdated": "2026-06-04T14:02:12.667919+00:00"
 }
