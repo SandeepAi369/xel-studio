@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
-      "urls": [
-        "https://www.foxnews.com?msockid=2b9eb5977b6665093de9a2f37ab86445"
-      ],
-      "date": "2026-05-25T17:32:10.782619+00:00"
-    },
-    {
       "title": "U.",
       "urls": [
         "https://wildlife.org",
@@ -3115,7 +3108,21 @@
         "https://news.mongabay.com/list/wildlife-conservation"
       ],
       "date": "2026-06-04T17:31:44.243250+00:00"
+    },
+    {
+      "title": "Scientists Warn 3.5°C Warming Will Trigger Unprecedented 2026 Weather Extremes",
+      "urls": [
+        "https://phys.org/news/2026-05-inland-seas-widespread-midcentury.html",
+        "https://www.msn.com/en-ca/news/insight/scientists-warn-of-3-5-c-warming-as-2026-extremes-intensify/gm-GM2389A33C?ocid=BingNewsVerp",
+        "https://www.nytimes.com/2026/05/28/climate/europe-heat-wave-climate-change.html",
+        "https://apnews.com/article/climate-change-future-worst-case-best-danger-cc7a20fba4f5b42ce33024e1b781e7c9",
+        "https://phys.org/news/2026-05-antarctica-sea-ice-collapse-driven.html",
+        "https://www.msn.com/en-ca/news/other/scientists-warn-of-35-c-warming-and-unprecedented-2026-extremes/gm-GM42C1FC17?ocid=BingNewsVerp",
+        "https://phys.org/news/2026-05-heavier-usable-global.html",
+        "https://phys.org/news/2026-05-climate-scientist-large-errors-global.html"
+      ],
+      "date": "2026-06-04T18:02:01.095943+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T17:31:44.243313+00:00"
+  "lastUpdated": "2026-06-04T18:02:01.095993+00:00"
 }
