@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Walmart Slashes Prices on Tech for Long Weekend Deals",
-      "urls": [
-        "https://www.pcmag.com/news",
-        "https://timesofindia.indiatimes.com/technology/tech-news",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB"
-      ],
-      "date": "2026-05-25T00:02:13.009480+00:00"
-    },
-    {
       "title": "Palmdale Launches Digital Access Program To Bridge Technology Gap",
       "urls": [
         "https://www.cityofpalmdaleca.gov/1551/Digital-Access",
@@ -3118,7 +3109,15 @@
         "https://www.drugtargetreview.com/article/192962/ai-in-drug-discovery-predictions-for-2026"
       ],
       "date": "2026-06-03T23:31:48.817760+00:00"
+    },
+    {
+      "title": "Google Introduces AI Agents to Search Platform at I/O 2026 Event",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/search/search-io-2026",
+        "https://www.igmguru.com/blog/generative-ai-tools"
+      ],
+      "date": "2026-06-04T00:03:04.357083+00:00"
     }
   ],
-  "lastUpdated": "2026-06-03T23:31:48.817822+00:00"
+  "lastUpdated": "2026-06-04T00:03:04.357159+00:00"
 }
