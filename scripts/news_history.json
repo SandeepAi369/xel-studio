@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earthquakes Today provides real-time tracking of seismic activity globally, using data updated every",
-      "urls": [
-        "https://earthquake.usgs.gov/earthquakes/map?extent=-",
-        "https://www.quakepulse.com",
-        "https://earthquaketrack.com/recent",
-        "https://earthquaketoday.org",
-        "https://www.earthquaketracker.org/earthquakes"
-      ],
-      "date": "2026-05-25T10:01:22.598989+00:00"
-    },
-    {
       "title": "Brazilian Study Links Seven Artificial Sweeteners To Brain Aging",
       "urls": [
         "https://vaphysicians.com/innsbrook-primary-care",
@@ -3097,7 +3086,14 @@
         "https://www.reuters.com/sustainability/climate-energy/microsoft-may-shelve-2030-clean-energy-target-ai-lifts-power-use-bloomberg-news-2026-05-06"
       ],
       "date": "2026-06-04T09:33:09.360969+00:00"
+    },
+    {
+      "title": "YouTube Releases Tutorial Guiding Developers To Choose TensorFlow Or PyTorch In 2025",
+      "urls": [
+        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
+      ],
+      "date": "2026-06-04T10:01:50.615267+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T09:33:09.361028+00:00"
+  "lastUpdated": "2026-06-04T10:01:50.615323+00:00"
 }
