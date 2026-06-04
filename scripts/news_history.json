@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1500 Articles Weekly To Engage 150 Million Monthly Visitors",
-      "urls": [
-        "https://nypost.com/us-news",
-        "https://www.foxnews.com?msockid=1768f2c1b3ed6f6b0270e5a5b2956ea5"
-      ],
-      "date": "2026-05-25T04:34:41.908505+00:00"
-    },
-    {
-      "title": "Sight Savers America Delivers 50 Vision Devices to South Carolina School for the Blind",
-      "urls": [
-        "https://wach.com/news/local/sc-school-for-the-blind-students-receive-high-tech-vision-aids-blind-vision-impairment-glasses-south-carolina-student-loan-and-vispero-sight-savers-america",
-        "https://link.springer.com/article/10.1007/s10639-024-13203-y",
-        "https://eyespy.org/news",
-        "https://www.teachingvisuallyimpaired.com/technology-access.html"
-      ],
-      "date": "2026-05-25T05:01:07.401088+00:00"
-    },
-    {
       "title": "Nv Access Launches Updated Nvda Screen Reader For Global Users",
       "urls": [
         "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers",
@@ -3128,7 +3110,15 @@
         "https://www.techtimes.com/articles/316485/20260511/does-digital-detox-really-work-mental-health-productivity-benefits-challenges.htm"
       ],
       "date": "2026-06-04T04:33:04.030004+00:00"
+    },
+    {
+      "title": "Esports Market Surpasses $5 Billion in 2026, Boosting Poland's Central Role",
+      "urls": [
+        "https://www.techtimes.com/articles/316511/20260512/wireless-vs-wired-mouse-competitive-gaming-which-better-2026.htm",
+        "https://www.reuters.com/press-releases/esports-2026-global-market-5b-poland-centre-europe-2026-04-28"
+      ],
+      "date": "2026-06-04T05:02:11.200754+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T04:33:04.030054+00:00"
+  "lastUpdated": "2026-06-04T05:02:11.200810+00:00"
 }
