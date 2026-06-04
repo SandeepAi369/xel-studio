@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cheyenne offers accessible wildlife viewing for families, featuring species like bison, pronghorn, a",
-      "urls": [
-        "https://www.cheyenne.org/blog/post/family-guide-wildlife-cheyenne",
-        "https://wgfd.wyo.gov",
-        "https://www.fws.gov/office/wyoming-ecological-services",
-        "https://wyomingwildlifeadvocates.org/wildlife-guide",
-        "https://travelwyoming.com/blog/stories/post/10-places-to-spot-wyoming-wildlife"
-      ],
-      "date": "2026-05-25T12:32:08.450981+00:00"
-    },
-    {
       "title": "Gizmodo Investigates Privacy Risks In Ring Nest And TP-Link Devices",
       "urls": [
         "https://gizmodo.com"
@@ -3089,7 +3078,15 @@
         "https://www.reuters.com/technology/artificial-intelligence"
       ],
       "date": "2026-06-04T12:03:17.830347+00:00"
+    },
+    {
+      "title": "Medical AI Faces Patient Silence That Could Reshape Digital Diagnosis",
+      "urls": [
+        "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/ai-in-healthcare-2026-the-system-may-be-broken-lets-try-to-fix-it",
+        "https://medicalxpress.com/news/2026-05-patients-clam-medical-ai-gap.html"
+      ],
+      "date": "2026-06-04T12:33:16.052186+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T12:03:17.830421+00:00"
+  "lastUpdated": "2026-06-04T12:33:16.052255+00:00"
 }
