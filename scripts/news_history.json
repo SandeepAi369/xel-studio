@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eurostar Launches New Direct Routes Across Europe",
-      "urls": [
-        "https://www.nsinternational.com/en",
-        "https://www.iranintl.com/live",
-        "https://www.reuters.com"
-      ],
-      "date": "2026-05-25T12:01:24.239694+00:00"
-    },
-    {
       "title": "Cheyenne offers accessible wildlife viewing for families, featuring species like bison, pronghorn, a",
       "urls": [
         "https://www.cheyenne.org/blog/post/family-guide-wildlife-cheyenne",
@@ -3087,7 +3078,18 @@
         "https://unctad.org/news/10-trends-shaping-global-trade-2026"
       ],
       "date": "2026-06-04T11:31:46.631073+00:00"
+    },
+    {
+      "title": "Microsoft and Uber Confront Rising Costs for AI Coding Agents",
+      "urls": [
+        "https://www.msn.com/en-in/news/other/ai-breakthroughs-in-2026-confront-the-reality-of-their-logical-reasoning-limits/gm-GM02CBF90B?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/from-solara-to-scout-5-big-announcements-from-microsoft-build-2026/ar-AA24HQWM?ocid=BingNewsVerp",
+        "https://www.thenews.com.pk/latest/1403757-ai-bubble-warning-signs-microsoft-uber-face-unexpected-coding-agent-cost-surge-in-2026",
+        "https://www.msn.com/en-in/technology/artificial-intelligence/google-i-o-2026-what-to-expect-when-where-and-how-to-watch-livestream/ar-AA23w6IN?ocid=BingNewsVerp",
+        "https://www.reuters.com/technology/artificial-intelligence"
+      ],
+      "date": "2026-06-04T12:03:17.830347+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T11:31:46.631130+00:00"
+  "lastUpdated": "2026-06-04T12:03:17.830421+00:00"
 }
