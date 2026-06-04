@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iranian Negotiators Arrive in Doha for High-Stakes US Talks",
-      "urls": [
-        "https://www.nytimes.com/live/2026/05/25/world/iran-war-trump",
-        "https://www.ndtv.com/world-news/us-iran-war-live-updates-peace-deal-strait-of-hormuz-trump-israel-oil-prices-11539479"
-      ],
-      "date": "2026-05-25T22:07:47.602523+00:00"
-    },
-    {
       "title": "War Radar Launches AI Powered Global Conflict Tracker",
       "urls": [
         "https://en.m.wikipedia.org/wiki/War",
@@ -3115,7 +3107,20 @@
         "https://whatllm.org/blog/new-ai-models-may-2026"
       ],
       "date": "2026-06-04T22:02:12.230641+00:00"
+    },
+    {
+      "title": "MedTalkCentral Reports AI Diagnosis Tool Reaches 94 Percent Accuracy in 2026",
+      "urls": [
+        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm",
+        "https://medicine.stanford.edu/news/stories/2026/01/clinical-ai-has-boomed.html",
+        "https://www.analyticsinsight.net/artificial-intelligence/ai-in-healthcare-2026-miracle-cure-or-healthcare-disaster-what-holds-next",
+        "https://medtalkcentral.com/latest-health-news/ai-in-healthcare/ai-medical-diagnosis-breakthrough-accuracy-2026",
+        "https://ailog.page/ai-in-healthcare-2026-from-diagnostics-to-drug-discovery",
+        "https://www.forbes.com/sites/bernardmarr/2025/10/27/the-8-biggest-healthcare-technology-trends-to-watch-in-2026",
+        "https://www.detroitnews.com/story/opinion/columnists/2026/06/03/can-ai-fix-the-healthcare-prevention-paradox-opinion/90384781007"
+      ],
+      "date": "2026-06-04T22:31:38.552240+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T22:02:12.230688+00:00"
+  "lastUpdated": "2026-06-04T22:31:38.552284+00:00"
 }
