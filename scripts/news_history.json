@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Copilot is an AI-powered digital assistant designed to deliver real-time answers, creative",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=06e8791be5546f9e1bd26e7fe4606e4e"
-      ],
-      "date": "2026-05-25T09:01:21.682100+00:00"
-    },
-    {
       "title": "U.S. Declares Harmful Screen Use A Public Health Crisis",
       "urls": [
         "https://www.hhs.gov/surgeongeneral/reports-and-publications/screen-use-harms/index.html",
@@ -3096,7 +3089,14 @@
         "https://www.reddit.com/r/hurricane/comments/1rbve7c/2026_hurricane_names"
       ],
       "date": "2026-06-04T08:32:59.409183+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Co‑Scientist Multi‑Agent AI Partner to Speed Research",
+      "urls": [
+        "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research"
+      ],
+      "date": "2026-06-04T09:03:15.354002+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T08:32:59.409249+00:00"
+  "lastUpdated": "2026-06-04T09:03:15.354057+00:00"
 }
