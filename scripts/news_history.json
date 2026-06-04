@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily reports new findings from a University of California study showing that prolonged expos",
-      "urls": [
-        "https://www.sciencenews.org",
-        "https://www.sciencedaily.com"
-      ],
-      "date": "2026-05-25T16:05:42.632519+00:00"
-    },
-    {
-      "title": "QuillBot Launches Free AI Detector For ChatGPT And Gemini Content",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=16f8b55a9c8f60ec12eba23e9ddf6194",
-        "https://quillbot.com/ai-content-detector?msockid=16f8b55a9c8f60ec12eba23e9ddf6194"
-      ],
-      "date": "2026-05-25T16:32:13.869704+00:00"
-    },
-    {
       "title": "Who World Health Organization Reports 2.5 Billion Need Assistive Technology",
       "urls": [
         "https://www.disabilityinnovation.com/news/powering-inclusion-ai-and-at-the-findings-of-an-online-expert-roundtable"
@@ -3106,7 +3090,14 @@
         "https://www.msn.com/en-us/news/other/moody-s-warns-125-oil-could-trigger-global-recession/gm-GM0AEB4E2C?ocid=BingNewsVerp"
       ],
       "date": "2026-06-04T16:01:50.128248+00:00"
+    },
+    {
+      "title": "Deloitte Releases 2026 Sports Industry Outlook Highlighting Technology and Media Trends",
+      "urls": [
+        "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html"
+      ],
+      "date": "2026-06-04T16:32:56.615912+00:00"
     }
   ],
-  "lastUpdated": "2026-06-04T16:01:50.128296+00:00"
+  "lastUpdated": "2026-06-04T16:32:56.615970+00:00"
 }
