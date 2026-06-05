@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tucson Mobile Screen Repair Expands Services to Oro Valley Homes",
-      "urls": [
-        "https://www.screenmobile.com/locations/tucson"
-      ],
-      "date": "2026-05-26T06:02:35.103693+00:00"
-    },
-    {
       "title": "Big Tech Earnings Fuel Scrutiny Over Market Rally Sustainability",
       "urls": [
         "https://www.bloomberg.com/latest/tech-company-earnings",
@@ -3099,7 +3092,16 @@
         "https://www.forbes.com/sites/petercohan/2026/05/29/why-anthropics-965-billion-ipo-could-pay-off-massively-for-investors"
       ],
       "date": "2026-06-05T06:01:53.640818+00:00"
+    },
+    {
+      "title": "Excelra Publishes Executive Report on AI and Machine Learning Impact in 2026 Drug Discovery",
+      "urls": [
+        "https://www.linkedin.com/pulse/ai-drug-discovery-market-2026-outlook-accelerating-future-henderson-sadhc",
+        "https://www.smithhanley.com/2026/05/01/breakthrough-drugs-reshaping-the-industry",
+        "https://www.excelra.com/publications/state-of-ai-ml-in-drug-discovery-2026"
+      ],
+      "date": "2026-06-05T06:32:00.264226+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T06:01:53.640872+00:00"
+  "lastUpdated": "2026-06-05T06:32:00.264300+00:00"
 }
