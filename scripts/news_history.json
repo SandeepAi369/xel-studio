@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft has launched Copilot as an AI-powered digital companion designed to deliver real-time assi",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=1510cb283b7066493787dc4d3a2267b2"
-      ],
-      "date": "2026-05-26T04:02:15.225803+00:00"
-    },
-    {
-      "title": "Incredible Describes Both Astonishing Praise And Unbelievable Doubt",
-      "urls": [
-        "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/incredible",
-        "https://www.iciba.com/word?w=incredible",
-        "https://baike.baidu.com/item/incredible/19652377",
-        "https://global.bing.com/dict/search?q=incredible&FORM=BDVSP6&cc=cn"
-      ],
-      "date": "2026-05-26T04:31:03.895940+00:00"
-    },
-    {
       "title": "Mistral AI Launches Vibe Coding Agent For Cloud Development",
       "urls": [
         "https://mistral.ai",
@@ -3099,7 +3082,15 @@
         "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026"
       ],
       "date": "2026-06-05T04:02:07.841626+00:00"
+    },
+    {
+      "title": "TheScore Announces 26 Anticipated Stories For 2026 In First Part",
+      "urls": [
+        "https://www.cnn.com/2026/06/02/sport/marta-kostyuk-french-open-quarterfinal-ukraine",
+        "https://www.thescore.com/nfl/news/3435119/26-stories-were-most-excited-about-for-2026-part-1"
+      ],
+      "date": "2026-06-05T04:31:35.775478+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T04:02:07.841681+00:00"
+  "lastUpdated": "2026-06-05T04:31:35.775534+00:00"
 }
