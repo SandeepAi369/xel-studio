@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Launches Online Disability Application Portal",
-      "urls": [
-        "https://www.ssa.gov/applyfordisability/index.htm",
-        "https://www.usa.gov/disability-services"
-      ],
-      "date": "2026-05-26T01:02:13.590669+00:00"
-    },
-    {
       "title": "QuillBot Launches Free AI Detector For ChatGPT And Gemini Content",
       "urls": [
         "https://copilot.microsoft.com?msockid=03434f6cce2c672e33eb5809cf696605",
@@ -3105,7 +3097,15 @@
         "https://carbon-pulse.com/515690"
       ],
       "date": "2026-06-05T01:02:12.280945+00:00"
+    },
+    {
+      "title": "Trump Calls Vote to Limit Iran War Powers Unpatriotic Amid Ongoing Ceasefire Talks",
+      "urls": [
+        "https://www.msn.com/en-us/news/world/a-question-looms-over-iran-diplomacy-is-trump-being-straight-with-the-american-people/ar-AA24NDjL?ocid=BingNewsVerp",
+        "https://www.msn.com/en-au/news/australia/trump-labels-vote-to-curb-iran-war-powers-unpatriotic-as-middle-east-ceasefire-efforts-continue/ar-AA24PLeh?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-05T01:32:15.303563+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T01:02:12.281004+00:00"
+  "lastUpdated": "2026-06-05T01:32:15.303626+00:00"
 }
