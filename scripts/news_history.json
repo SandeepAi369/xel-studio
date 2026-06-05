@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cdc Highlights Mental Health Impact On Daily Decision Making",
-      "urls": [
-        "https://www.cdc.gov/mental-health/about/index.html",
-        "https://www.samhsa.gov/mental-health",
-        "https://www.nimh.nih.gov/health",
-        "https://www.mentalhealth.com/library/mental-health",
-        "https://www.nbcnews.com/health/mental-health",
-        "https://psychcentral.com",
-        "https://www.everydayhealth.com/mental-health"
-      ],
-      "date": "2026-05-26T14:32:09.421511+00:00"
-    },
-    {
       "title": "Amazon Web Services Leads Global Cloud Computing Expansion",
       "urls": [
         "https://claude.ai",
@@ -3117,7 +3104,14 @@
         "https://www.reuters.com/sustainability/sustainable-finance-reporting/exxon-backed-initiative-carbon-accounting-sparks-fears-bid-slow-climate-action--ecmii-2026-05-13"
       ],
       "date": "2026-06-05T14:01:57.928505+00:00"
+    },
+    {
+      "title": "Climate Central Releases April 2026 Monthly Briefing Highlighting Key Climate Data",
+      "urls": [
+        "https://www.climatecentral.org/climate-briefings/april-2026"
+      ],
+      "date": "2026-06-05T14:32:26.096108+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T14:01:57.928557+00:00"
+  "lastUpdated": "2026-06-05T14:32:26.096161+00:00"
 }
