@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zimbabwe Wins Women's 4x400m Relay At African Championships",
-      "urls": [
-        "https://worldathletics.org",
-        "https://www.watchathletics.com",
-        "https://www.letsrun.com"
-      ],
-      "date": "2026-05-26T03:37:37.727748+00:00"
-    },
-    {
       "title": "Microsoft has launched Copilot as an AI-powered digital companion designed to deliver real-time assi",
       "urls": [
         "https://copilot.microsoft.com?msockid=1510cb283b7066493787dc4d3a2267b2"
@@ -3101,7 +3092,14 @@
         "https://www.cnet.com/news-live/microsoft-build-2026-news-ai-copilot"
       ],
       "date": "2026-06-05T03:31:40.223078+00:00"
+    },
+    {
+      "title": "Google Research Unveils New Era of Discovery at I/O 2026",
+      "urls": [
+        "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026"
+      ],
+      "date": "2026-06-05T04:02:07.841626+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T03:31:40.223123+00:00"
+  "lastUpdated": "2026-06-05T04:02:07.841681+00:00"
 }
