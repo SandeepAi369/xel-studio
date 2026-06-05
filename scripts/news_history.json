@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "World War Map Tracks 14 Active Conflicts With Real-Time Data",
-      "urls": [
-        "https://en.wikipedia.org/wiki/War",
-        "https://www.war.gov",
-        "https://www.aljazeera.com/news/liveblog/2026/5/26/iran-war-live-israel-pounds-lebanon-iranian-officials-in-qatar-for-talks",
-        "https://www.timesnownews.com/world/middle-east/us-israel-iran-war-live-updates-ceasefire-ships-blockade-lebanoni-strait-of-hormuz-blockade-iranian-missile-uae-attack-liveblog-154288424",
-        "https://worldwarmap.com"
-      ],
-      "date": "2026-05-26T17:34:07.548005+00:00"
-    },
-    {
       "title": "TCS New York City Marathon set a new world record for largest marathon in history with 59,226 finish",
       "urls": [
         "https://www.nyrr.org/tcsnycmarathon",
@@ -3117,7 +3106,15 @@
         "https://www.wxyz.com/news/region/detroit/university-of-detroit-mercy-students-design-new-assistive-technology-to-help-people-with-disabilities"
       ],
       "date": "2026-06-05T17:31:34.918617+00:00"
+    },
+    {
+      "title": "Nelly Korda Extends Historic Dominance By Securing Another LPGA Tournament Victory",
+      "urls": [
+        "https://www.si.com/college/arizona/wildcats-best-moments-defined-incredible-season",
+        "https://www.msn.com/en-us/sports/golf/golf-superstar-nelly-korda-extends-historic-dominance-after-another-lpga-victory-is-anyone-able-to-stop-her/ar-AA22wnVh?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-05T18:02:17.142601+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T17:31:34.918675+00:00"
+  "lastUpdated": "2026-06-05T18:02:17.142660+00:00"
 }
