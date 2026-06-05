@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "QuillBot Launches Free AI Detector For ChatGPT And Gemini Content",
-      "urls": [
-        "https://copilot.microsoft.com?msockid=03434f6cce2c672e33eb5809cf696605",
-        "https://quillbot.com/ai-content-detector?msockid=03434f6cce2c672e33eb5809cf696605"
-      ],
-      "date": "2026-05-26T01:34:11.869278+00:00"
-    },
-    {
-      "title": "Hugs Reduce Cortisol Levels By Up To 30 Percent",
-      "urls": [
-        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=138ac2c7bc0d6c7e0cb9d5a2bd256daf",
-        "https://www.lovepanky.com/men/understanding-women/types-of-hugs-a-woman-gives-what-they-mean"
-      ],
-      "date": "2026-05-26T02:01:26.713092+00:00"
-    },
-    {
       "title": "Fox News Delivers 150 Million Monthly Visitors With 1500 Weekly Articles",
       "urls": [
         "https://www.foxnews.com?msockid=2e1e8f78496c610514f5981d48b860e0"
@@ -3105,7 +3089,14 @@
         "https://www.msn.com/en-au/news/australia/trump-labels-vote-to-curb-iran-war-powers-unpatriotic-as-middle-east-ceasefire-efforts-continue/ar-AA24PLeh?ocid=BingNewsVerp"
       ],
       "date": "2026-06-05T01:32:15.303563+00:00"
+    },
+    {
+      "title": "devFlokers Publishes Open-Source AI June 2026 Roundup Highlighting New Models and Papers",
+      "urls": [
+        "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026"
+      ],
+      "date": "2026-06-05T02:02:04.699159+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T01:32:15.303626+00:00"
+  "lastUpdated": "2026-06-05T02:02:04.699216+00:00"
 }
