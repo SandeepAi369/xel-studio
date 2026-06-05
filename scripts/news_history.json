@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autism Spectrum Disorder Affects Communication And Social Development In Children",
-      "urls": [
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
-        "https://en.wikipedia.org/wiki/Autism",
-        "https://www.cdc.gov/autism/signs-symptoms/index.html",
-        "https://autism.org/what-is-autism",
-        "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder"
-      ],
-      "date": "2026-05-26T23:03:29.259276+00:00"
-    },
-    {
       "title": "my Social Security account offers personalized online tools for individuals regardless of benefit st",
       "urls": [
         "https://www.ssa.gov/myaccount",
@@ -3102,7 +3091,15 @@
         "https://huggingface.co/blog"
       ],
       "date": "2026-06-05T23:02:06.727382+00:00"
+    },
+    {
+      "title": "North Carolina State Parks Launch Free Mobility Equipment Rental Program",
+      "urls": [
+        "https://www.jsonline.com/story/travel/airline-news/2026/05/18/maria-town-wheelchair-damage-southwest-airlines/90101738007",
+        "https://www.wunc.org/term/news/2026-05-05/umstead-park-raleigh-free-equipment-rental-program-disabilities"
+      ],
+      "date": "2026-06-05T23:31:57.344577+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T23:02:06.727427+00:00"
+  "lastUpdated": "2026-06-05T23:31:57.344631+00:00"
 }
