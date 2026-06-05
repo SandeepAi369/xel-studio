@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Environment America Launches 50-State Renewable Energy Dashboard",
-      "urls": [
-        "https://environmentamerica.org/center/resources/the-state-of-renewable-energy-dashboard"
-      ],
-      "date": "2026-05-26T19:01:24.586190+00:00"
-    },
-    {
       "title": "Sec Adopts Climate Disclosure Rules For Public Companies",
       "urls": [
         "https://www.accuweather.com/en/us/owensboro/42303/hourly-weather-forecast/735",
@@ -3107,7 +3100,18 @@
         "https://www.techtimes.com/articles/316162/20260427/open-source-vs-proprietary-software-key-differences-pros-cons-which-one-choose.htm"
       ],
       "date": "2026-06-05T18:32:01.273936+00:00"
+    },
+    {
+      "title": "Australia Cuts Power Bills Up To Ten Percent As Renewables And Batteries Expand",
+      "urls": [
+        "https://finance.yahoo.com/sectors/energy/articles/buy-renewable-energy-battery-stocks-155400103.html",
+        "https://oilprice.com/Energy/Energy-General/Morocco-Is-Emerging-as-a-Renewable-Energy-Superpower.html",
+        "https://wtop.com/news/2026/05/7-best-renewable-energy-stocks-to-buy",
+        "https://www.theguardian.com/australia-news/2026/may/26/power-bills-drop-fall-australia-energy-default-market-offer",
+        "https://www.msn.com/en-ae/technology/renewable-energy/ai-model-identifies-china-s-wind-solar-energy-inventory/ar-AA23QNkA?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-05T19:02:11.583455+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T18:32:01.273998+00:00"
+  "lastUpdated": "2026-06-05T19:02:11.583502+00:00"
 }
