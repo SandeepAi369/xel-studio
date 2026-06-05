@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "MarathonGuide Lists 50 Texas Races Through 2026",
-      "urls": [
-        "https://www.marathonguide.com/marathons/usa/tx",
-        "https://en.m.wikipedia.org/wiki/Marathon",
-        "https://www.marathonpetroleum.com"
-      ],
-      "date": "2026-05-26T16:33:20.420342+00:00"
-    },
-    {
       "title": "Misiorowski Throws 57 Pitches At 100+ Mph In Record Performance",
       "urls": [
         "https://zhidao.baidu.com/question/628094369925640092.html",
@@ -3124,7 +3115,14 @@
         "https://aiunpacking.com/guides/open-source-ai-models-2026-llama-mistral-deepseek"
       ],
       "date": "2026-06-05T16:31:42.806791+00:00"
+    },
+    {
+      "title": "The Block Expands Web3 Coverage With Dedicated News Hub For Blockchain Updates",
+      "urls": [
+        "https://www.theblock.co/category/web3"
+      ],
+      "date": "2026-06-05T17:01:51.034853+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T16:31:42.806849+00:00"
+  "lastUpdated": "2026-06-05T17:01:51.034907+00:00"
 }
