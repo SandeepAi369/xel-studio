@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hug duration should last between 5 and 10 seconds for optimal emotional impact, according to scienti",
-      "urls": [
-        "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=09b0da502be56f6c3f2ccd352ae06e4f"
-      ],
-      "date": "2026-05-26T10:02:26.883001+00:00"
-    },
-    {
       "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Articles",
       "urls": [
         "https://www.foxnews.com?msockid=39b7505bd3a0680b102e473ed21f698b"
@@ -3081,7 +3074,14 @@
         "https://www.statesman.com/weather/article/austin-tx-weather-forecast-today-photos-2026-22230701.php"
       ],
       "date": "2026-06-05T09:32:25.809411+00:00"
+    },
+    {
+      "title": "BentoML Publishes Guide Highlighting Top Open‑Source Large Language Models for 2026",
+      "urls": [
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
+      ],
+      "date": "2026-06-05T10:02:29.206429+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T09:32:25.809466+00:00"
+  "lastUpdated": "2026-06-05T10:02:29.206485+00:00"
 }
