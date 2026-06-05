@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Visitors With 1,500 Weekly Articles",
-      "urls": [
-        "https://www.foxnews.com?msockid=3239c54f320d643307c9d22a33d265e4",
-        "https://www.msn.com/news",
-        "https://www.youtube.com/playlist?list=PLAaiG9yzES_8cRgnMr8B4fqfRS0t9ZBfw"
-      ],
-      "date": "2026-05-26T08:31:02.105056+00:00"
-    },
-    {
       "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
       "urls": [
         "https://www.foxnews.com?msockid=3241b7340c49664539d0a0510dd9674d",
@@ -3083,7 +3074,17 @@
         "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html"
       ],
       "date": "2026-06-05T08:01:45.265411+00:00"
+    },
+    {
+      "title": "Oxford Study Finds Warmer AI Models Increase Error Rate by Sixty Percent",
+      "urls": [
+        "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
+        "https://www.marketingprofs.com/opinions/2026/54640/ai-update-may-1-2026-ai-news-and-views-from-the-past-week",
+        "https://indianexpress.com/article/technology/artificial-intelligence/warmer-ai-models-error-rates-oxford-study-10670264",
+        "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch"
+      ],
+      "date": "2026-06-05T08:31:53.481185+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T08:01:45.265474+00:00"
+  "lastUpdated": "2026-06-05T08:31:53.481238+00:00"
 }
