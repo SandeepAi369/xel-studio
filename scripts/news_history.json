@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "AMD Releases ROCm 7.13.0 With Full GPU Compatibility And Expanded SDK Tools",
-      "urls": [
-        "https://docs.amd.com/r/kEZ40evTxlJeSsg1AKaUiA/mSoL06mV7bJLXsIdYnYMCg",
-        "https://docs.amd.com",
-        "https://docs.amd.com/api/khub/documents/jF3a9B05pGCKcm5dglV0xA/content",
-        "https://docs.amd.com/p/adaptnav-offline",
-        "https://rocm.docs.amd.com/en/7.13.0-preview/compatibility/compatibility-matrix.html",
-        "https://docs.amd.com/r/en-US/ds987-k26-som/SOM240_1-Connector-Pinout",
-        "https://docs.amd.com/r/2024.1-简体中文/ug908-vivado-programming-debugging/使用波形-ILA-触发器和导出功能",
-        "https://rocm.docs.amd.com/projects/install-on-windows/en/latest"
-      ],
-      "date": "2026-05-26T09:32:08.237822+00:00"
-    },
-    {
       "title": "Hug duration should last between 5 and 10 seconds for optimal emotional impact, according to scienti",
       "urls": [
         "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202509/6-rules-for-a-perfect-hug-according-to-science?msockid=09b0da502be56f6c3f2ccd352ae06e4f"
@@ -3085,7 +3071,17 @@
         "https://www.youtube.com/watch?v=J0VkYgzAv9E"
       ],
       "date": "2026-06-05T09:01:47.025913+00:00"
+    },
+    {
+      "title": "West Bengal Assembly Dissolved Triggers Call for New State Elections",
+      "urls": [
+        "https://www.timesnownews.com/india/breaking-news-today-live-updates-7-may-2026-india-today-headlines-of-the-day-latest-news-liveblog-154265683",
+        "https://markets.businessinsider.com/news/stocks/what-s-the-real-reason-for-clja-payments-being-still-stalled-breaking-news---veterans-first-for-america-1036133399",
+        "https://www.msn.com/en-us/weather/extreme-weather-events/breaking-news-noaa-released-2026-hurricane-season-forecast/ar-AA23KkzD?ocid=BingNewsVerp",
+        "https://www.statesman.com/weather/article/austin-tx-weather-forecast-today-photos-2026-22230701.php"
+      ],
+      "date": "2026-06-05T09:32:25.809411+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T09:01:47.025971+00:00"
+  "lastUpdated": "2026-06-05T09:32:25.809466+00:00"
 }
