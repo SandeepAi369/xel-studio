@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Earnings Fuel Scrutiny Over Market Rally Sustainability",
-      "urls": [
-        "https://www.bloomberg.com/latest/tech-company-earnings",
-        "https://finance.yahoo.com/topic/earnings",
-        "https://www.cnbc.com?msockid=2c1bc3869ac06bf12f92d4e39bf56a74",
-        "https://seekingalpha.com/market-news/technology",
-        "https://www.investors.com/technology",
-        "https://www.wsj.com/business/earnings?msockid=2c1bc3869ac06bf12f92d4e39bf56a74",
-        "https://www.investopedia.com/here-is-what-we-learned-from-big-tech-earnings-last-week-11841183",
-        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796",
-        "https://www.zacks.com/earnings/earnings-calendar",
-        "https://www.thestreet.com/investing/earnings"
-      ],
-      "date": "2026-05-26T06:32:09.026935+00:00"
-    },
-    {
-      "title": "Bitcoin And Ethereum Lead Volatility In 400-Cryptocurrency Market",
-      "urls": [
-        "https://coinmarketcap.com",
-        "https://en.wikipedia.org/wiki/Cryptocurrency",
-        "https://www.investopedia.com/terms/c/cryptocurrency.asp",
-        "https://www.coingecko.com",
-        "https://crypto.com/en/price"
-      ],
-      "date": "2026-05-26T07:01:14.715677+00:00"
-    },
-    {
       "title": "Mifepristone Access Blocked Nationwide by Federal Appeals Court",
       "urls": [
         "https://ground.news/article/el-salvador-expands-the-use-of-ai-to-bring-complaints-to-justice",
@@ -3101,7 +3074,14 @@
         "https://www.excelra.com/publications/state-of-ai-ml-in-drug-discovery-2026"
       ],
       "date": "2026-06-05T06:32:00.264226+00:00"
+    },
+    {
+      "title": "Mada Launches Innovation Award 2026 to Boost Arabic Assistive Technology Solutions",
+      "urls": [
+        "https://thepeninsulaqatar.com/article/04/06/2026/mada-launches-innovation-award-2026-to-advance-arabic-assistive-technology-solutions"
+      ],
+      "date": "2026-06-05T07:02:05.887944+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T06:32:00.264300+00:00"
+  "lastUpdated": "2026-06-05T07:02:05.888007+00:00"
 }
