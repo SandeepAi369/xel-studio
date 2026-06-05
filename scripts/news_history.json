@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services Leads Global Cloud Computing Expansion",
-      "urls": [
-        "https://claude.ai",
-        "https://www.icloud.com",
-        "https://cloud.google.com/storage",
-        "https://onedrive.live.com/about/en-us/signin",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=2b565f130801676a3d10487609ed66f9",
-        "https://www.cloudzero.com/blog/what-is-the-cloud",
-        "https://www.merriam-webster.com/dictionary/cloud",
-        "https://www.oracle.com/cloud/what-is-cloud-computing",
-        "https://www.dropbox.com/features/cloud-storage"
-      ],
-      "date": "2026-05-26T15:05:36.156366+00:00"
-    },
-    {
       "title": "Microsoft Launches Standalone Copilot AI Assistant Across Devices",
       "urls": [
         "https://copilot.microsoft.com?msockid=0ee7c2f9da9f60c632b7d59cdbeb610b"
@@ -3122,7 +3107,18 @@
         "https://www.oklahoman.com/press-release/story/184640/ultrasight-to-participate-in-mayo-clinic-innovation-summit-focused-on-the-future-of-cardiovascular-care"
       ],
       "date": "2026-06-05T15:01:49.031332+00:00"
+    },
+    {
+      "title": "Xanadu Announces Quantum Computing Breakthrough Accelerating Commercial Viability in 2026",
+      "urls": [
+        "https://finance.yahoo.com/sectors/technology/articles/quantum-computing-research-report-2026-145300579.html",
+        "https://www.msn.com/en-gb/news/other/quantum-computing-reaches-a-commercial-tipping-point-in-2026/gm-GM8416FB6D?ocid=BingNewsVerp",
+        "https://wtop.com/news/2026/05/8-best-quantum-computing-stocks-to-buy-in-2026-4",
+        "https://www.msn.com/en-ca/money/technology/xanadu-makes-quantum-computing-breakthrough/ar-AA23JJRP?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/quantum-vibronics-research-points-to-future-energy-and-computing-technologies/ar-AA24i71j?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-05T15:31:39.501518+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T15:01:49.031385+00:00"
+  "lastUpdated": "2026-06-05T15:31:39.501576+00:00"
 }
