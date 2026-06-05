@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sec Adopts Climate Disclosure Rules For Public Companies",
-      "urls": [
-        "https://www.accuweather.com/en/us/owensboro/42303/hourly-weather-forecast/735",
-        "https://www.sciencedaily.com/news/earth_climate/climate",
-        "https://www.nyc.gov/content/climate/pages",
-        "https://www.sec.gov/newsroom/press-releases/2024-31",
-        "https://sustainabilitymag.com/news/lcaw-climate-debate-low-carbon-economies-net-zero-plans",
-        "https://www.universityofcalifornia.edu/news/university-california-adopts-new-stronger-climate-action-goals"
-      ],
-      "date": "2026-05-26T19:32:12.615696+00:00"
-    },
-    {
       "title": "Confluence Health Expands Moses Lake Campus Services for 20000 Patients",
       "urls": [
         "https://www.confluencehealth.org/locations/moses-lake-campus",
@@ -3111,7 +3099,14 @@
         "https://www.msn.com/en-ae/technology/renewable-energy/ai-model-identifies-china-s-wind-solar-energy-inventory/ar-AA23QNkA?ocid=BingNewsVerp"
       ],
       "date": "2026-06-05T19:02:11.583455+00:00"
+    },
+    {
+      "title": "World News Today Launches Live Updates Platform for Global Events",
+      "urls": [
+        "https://www.livemint.com/news/world/total-world-latest-news-on-june-4-2026-live-updates-11780513624549.html"
+      ],
+      "date": "2026-06-05T19:32:22.592586+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T19:02:11.583502+00:00"
+  "lastUpdated": "2026-06-05T19:32:22.592648+00:00"
 }
