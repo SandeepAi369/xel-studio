@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
-      "urls": [
-        "https://www.foxnews.com?msockid=3241b7340c49664539d0a0510dd9674d",
-        "https://news.google.com"
-      ],
-      "date": "2026-05-26T09:01:29.135752+00:00"
-    },
-    {
       "title": "AMD Releases ROCm 7.13.0 With Full GPU Compatibility And Expanded SDK Tools",
       "urls": [
         "https://docs.amd.com/r/kEZ40evTxlJeSsg1AKaUiA/mSoL06mV7bJLXsIdYnYMCg",
@@ -3084,7 +3076,16 @@
         "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch"
       ],
       "date": "2026-06-05T08:31:53.481185+00:00"
+    },
+    {
+      "title": "Product Hunt Showcases Top AI Generative Media Tools for 2026",
+      "urls": [
+        "https://martech.org/the-latest-ai-powered-martech-news-and-releases",
+        "https://www.producthunt.com/categories/ai-generative-media",
+        "https://www.youtube.com/watch?v=J0VkYgzAv9E"
+      ],
+      "date": "2026-06-05T09:01:47.025913+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T08:31:53.481238+00:00"
+  "lastUpdated": "2026-06-05T09:01:47.025971+00:00"
 }
