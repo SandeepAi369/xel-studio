@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA Announces 104 Matches Across 16 Cities For 2026 World Cup",
-      "urls": [
-        "https://www.fifa.com/en/news",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/all-world-cup-squad-announcements",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-world-cup-2026-hosts-cities-dates-usa-mexico-canada",
-        "https://www.fifa.com/en/world-rankings",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
-      ],
-      "date": "2026-05-26T13:34:23.053579+00:00"
-    },
-    {
-      "title": "Trump Imposes 25% Tariff On Chinese Goods And Reviews NAFTA",
-      "urls": [
-        "https://www.foxnews.com?msockid=037460d297bd64f4177977b796026547",
-        "https://www.newsnow.com/us/US/Politics/Donald+Trump"
-      ],
-      "date": "2026-05-26T14:01:40.597870+00:00"
-    },
-    {
       "title": "Cdc Highlights Mental Health Impact On Daily Decision Making",
       "urls": [
         "https://www.cdc.gov/mental-health/about/index.html",
@@ -3131,7 +3108,16 @@
         "https://www.olympics.com/en/olympic-games/milano-cortina-2026"
       ],
       "date": "2026-06-05T13:32:05.731982+00:00"
+    },
+    {
+      "title": "2026 World Cup Faces Record Carbon Footprint Across Three Nations",
+      "urls": [
+        "https://www.latimes.com/environment/story/2026-05-18/most-polluting-world-cup-ever-la",
+        "https://www.msn.com/en-ca/news/other/2026-marks-the-year-carbon-capture-goes-mainstream/gm-GM69FFC9F8?ocid=BingNewsVerp",
+        "https://www.reuters.com/sustainability/sustainable-finance-reporting/exxon-backed-initiative-carbon-accounting-sparks-fears-bid-slow-climate-action--ecmii-2026-05-13"
+      ],
+      "date": "2026-06-05T14:01:57.928505+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T13:32:05.732036+00:00"
+  "lastUpdated": "2026-06-05T14:01:57.928557+00:00"
 }
