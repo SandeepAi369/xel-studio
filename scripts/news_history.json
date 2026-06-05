@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Vibe Coding Agent For Cloud Development",
-      "urls": [
-        "https://mistral.ai",
-        "https://thenewstack.io/mistral-vibe-cloud-agents",
-        "https://www.aimadetools.com/blog/mistral-ai-complete-model-guide",
-        "https://www.cnbc.com/2026/05/19/mistral-cnbc-disruptor-50-ranking.html?msockid=2ae4b716c9936314266ba073c80b624b",
-        "https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score"
-      ],
-      "date": "2026-05-26T05:02:11.481216+00:00"
-    },
-    {
-      "title": "Scientific American Reports Breakthroughs In Science And Technology",
-      "urls": [
-        "https://www.britannica.com/science/science",
-        "https://www.scientificamerican.com",
-        "https://www.livescience.com",
-        "https://www.sciencenewstoday.org",
-        "https://www.snexplores.org",
-        "https://www.the-scientist.com"
-      ],
-      "date": "2026-05-26T05:30:58.867564+00:00"
-    },
-    {
       "title": "Tucson Mobile Screen Repair Expands Services to Oro Valley Homes",
       "urls": [
         "https://www.screenmobile.com/locations/tucson"
@@ -3104,7 +3081,14 @@
         "https://www.youtube.com/watch?v=I5Suzl43ZMo"
       ],
       "date": "2026-06-05T05:02:07.946149+00:00"
+    },
+    {
+      "title": "ScienceDaily Publishes Global Warming News Hub Covering Climate Research Updates",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming"
+      ],
+      "date": "2026-06-05T05:32:07.494367+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T05:02:07.946210+00:00"
+  "lastUpdated": "2026-06-05T05:32:07.494423+00:00"
 }
