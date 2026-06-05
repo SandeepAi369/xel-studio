@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Farmers Use Climate FieldView To Optimize Crop Yields With Real-Time Data Analytics",
-      "urls": [
-        "https://climate.com"
-      ],
-      "date": "2026-05-26T22:33:16.234109+00:00"
-    },
-    {
       "title": "Autism Spectrum Disorder Affects Communication And Social Development In Children",
       "urls": [
         "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928",
@@ -3101,7 +3094,15 @@
         "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast"
       ],
       "date": "2026-06-05T22:31:47.759565+00:00"
+    },
+    {
+      "title": "\"title\": \"Tech AI Magazine Publishes Top Ten Hugging Face Models for April 2026\",",
+      "urls": [
+        "https://www.techaimag.com/latest-hugging-face-models/top-10-hugging-face-models-in-april-2026",
+        "https://huggingface.co/blog"
+      ],
+      "date": "2026-06-05T23:02:06.727382+00:00"
     }
   ],
-  "lastUpdated": "2026-06-05T22:31:47.759626+00:00"
+  "lastUpdated": "2026-06-05T23:02:06.727427+00:00"
 }
