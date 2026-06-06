@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Open Championship is the oldest golf tournament in the world, first played in 1860 at Prestwick ",
-      "urls": [
-        "https://www.theopen.com",
-        "https://www.collinsdictionary.com/us/english-language-learning/open"
-      ],
-      "date": "2026-05-27T17:32:09.642710+00:00"
-    },
-    {
       "title": "Dropbox launches Dash, an AI‑driven file organizer that automatically categorizes documents, images ",
       "urls": [
         "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-the-cloud?msockid=2a10059240dc63363e2012f841a662f1",
@@ -3076,7 +3068,17 @@
         "https://www.the-independent.com/sport/ufc/ufc-schedule-2026-events-fights-june-b2987052.html"
       ],
       "date": "2026-06-06T17:02:27.598838+00:00"
+    },
+    {
+      "title": "Sabastian Sawe Breaks Marathon World Record Running Under Two Hours",
+      "urls": [
+        "https://www.msn.com/en-us/sports/other/london-marathon-2026-sabastian-sawe-breaks-marathon-world-record-and-becomes-first-man-to-run-a-race-under-two-hours/ar-AA21Kj5G?ocid=BingNewsVerp",
+        "https://sports.yahoo.com/articles/2-runners-qualify-olympic-trials-193403330.html",
+        "https://www.nytimes.com/athletic/7275382/2026/05/13/sabastian-sawe-berlin-marathon-world-record",
+        "https://www.heraldextra.com/sports/2026/may/16/ogden-marathon-alpine-woman-sets-record-orem-man-wins-on-birthday"
+      ],
+      "date": "2026-06-06T17:32:24.768609+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T17:02:27.598893+00:00"
+  "lastUpdated": "2026-06-06T17:32:24.768665+00:00"
 }
