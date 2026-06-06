@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechStartups reports rising investment in early-stage AI startups focused on vertical-specific appli",
-      "urls": [
-        "https://fortune.com/section/tech",
-        "https://www.cnbc.com/technology?msockid=0396c401345665240a48d36735c06449",
-        "https://techstartups.com",
-        "https://www.wsj.com/tech?msockid=0396c401345665240a48d36735c06449"
-      ],
-      "date": "2026-05-27T08:34:23.987017+00:00"
-    },
-    {
-      "title": "Fox News Digital Reaches 150 Million Monthly Visitors With 1500 Weekly Articles",
-      "urls": [
-        "https://www.foxnews.com?msockid=2cd9ccf67cc666ec000bdb907d8b67c9"
-      ],
-      "date": "2026-05-27T09:02:24.218960+00:00"
-    },
-    {
       "title": "PCMag has released its 2026 rankings of top-performing monitors based on extensive testing of over 1",
       "urls": [
         "https://www.bestbuy.com",
@@ -3099,7 +3082,18 @@
         "https://www.reuters.com/sustainability/climate-energy/philippines-singapore-sign-carbon-trading-deal-boost-emission-cuts-climate-2026-05-01"
       ],
       "date": "2026-06-06T08:32:25.298689+00:00"
+    },
+    {
+      "title": "SAP Community Publishes Sapphire 2026 Announcements on Technology Blog for Enterprise Users",
+      "urls": [
+        "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-sapphire-2026-announcements-only/ba-p/14396190",
+        "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+        "https://nvidianews.nvidia.com/news",
+        "https://www.reddit.com/r/accelerate/comments/1tkygbr/nyt_im_the_ceo_of_goldman_sachs_the_ai_job",
+        "https://www.reddit.com/r/ExperiencedDevs/comments/1sb5iqh/what_actually_makes_a_developer_hard_to_replace"
+      ],
+      "date": "2026-06-06T09:02:26.065788+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T08:32:25.298743+00:00"
+  "lastUpdated": "2026-06-06T09:02:26.065841+00:00"
 }
