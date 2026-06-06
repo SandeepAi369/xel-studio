@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Satellites Track Global Climate Change With Precision Instruments",
-      "urls": [
-        "https://science.nasa.gov/climate-change"
-      ],
-      "date": "2026-05-27T10:03:36.104459+00:00"
-    },
-    {
       "title": "Phoenix has seen a 17% year-over-year increase in reported property crimes, according to data releas",
       "urls": [
         "https://www.abc15.com/news"
@@ -3101,7 +3094,14 @@
         "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop"
       ],
       "date": "2026-06-06T10:02:14.408388+00:00"
+    },
+    {
+      "title": "War Impacts Lives and Climate While Military Emissions Remain Uncounted",
+      "urls": [
+        "https://theconversation.com/wars-destroy-lives-and-the-climate-why-arent-we-counting-military-emissions-281129"
+      ],
+      "date": "2026-06-06T10:31:30.199792+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T10:02:14.408436+00:00"
+  "lastUpdated": "2026-06-06T10:31:30.199851+00:00"
 }
