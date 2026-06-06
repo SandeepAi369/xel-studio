@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations adopted the 17 Sustainable Development Goals (SDGs) in 2015 as a universal call to en",
-      "urls": [
-        "https://www.globalcu.org/accounts/online-mobile-banking",
-        "https://globalgoals.org",
-        "https://www.theatlantic.com/international"
-      ],
-      "date": "2026-05-27T11:02:27.364046+00:00"
-    },
-    {
       "title": "Shane Lowry Wins 2019 Open Championship At Royal Portrush",
       "urls": [],
       "date": "2026-05-27T12:30:53.965368+00:00"
@@ -3101,7 +3092,14 @@
         "https://www.wshu.org/news/2026-05-05/social-media-mental-health-research"
       ],
       "date": "2026-06-06T11:02:03.893471+00:00"
+    },
+    {
+      "title": "Quantum Computing Report Launches Dedicated News Portal for Emerging Quantum Research",
+      "urls": [
+        "https://quantumcomputingreport.com/news"
+      ],
+      "date": "2026-06-06T11:31:38.946163+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T11:02:03.893541+00:00"
+  "lastUpdated": "2026-06-06T11:31:38.946213+00:00"
 }
