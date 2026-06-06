@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox News Publishes 1500 Articles Weekly To Expand Digital Reach",
-      "urls": [
-        "https://www.foxnews.com?msockid=12c418f440ba64d31c040f92411465dd"
-      ],
-      "date": "2026-05-27T02:38:26.096329+00:00"
-    },
-    {
       "title": "Miami-Dade Supervisor of Elections manages voting operations for over 1.",
       "urls": [
         "https://www.votemiamidade.gov/elections/home.page",
@@ -3108,7 +3101,15 @@
         "https://www.theguardian.com/football/live/2026/jun/05/world-cup-2026-buildup-transfer-latest-and-lionesses-in-spain-football-news-live"
       ],
       "date": "2026-06-06T02:31:55.782925+00:00"
+    },
+    {
+      "title": "Starburst Announces 2026 AI & Data Visionary Awards Winners at Miami Conference",
+      "urls": [
+        "https://www.finanznachrichten.de/nachrichten-2026-05/68595722-doceree-healthcare-marketing-s-ai-powered-operating-system-earns-frost-sullivan-s-2026-global-technology-innovation-leadership-recognition-008.htm",
+        "https://finance.yahoo.com/sectors/technology/articles/starburst-announces-winners-2026-ai-120000760.html"
+      ],
+      "date": "2026-06-06T03:02:08.236168+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T02:31:55.782975+00:00"
+  "lastUpdated": "2026-06-06T03:02:08.236233+00:00"
 }
