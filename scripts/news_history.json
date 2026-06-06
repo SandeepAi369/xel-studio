@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA has released new high-resolution images of Jupiter's moon Europa, captured by the Juno spacecra",
-      "urls": [
-        "https://www.nasa.gov"
-      ],
-      "date": "2026-05-27T08:02:21.830931+00:00"
-    },
-    {
       "title": "TechStartups reports rising investment in early-stage AI startups focused on vertical-specific appli",
       "urls": [
         "https://fortune.com/section/tech",
@@ -3098,7 +3091,15 @@
         "https://www.theguardian.com/film/2026/jun/01/the-guest-review-the-risks-of-protecting-refugees-in-the-poland-belarus-danger-zone"
       ],
       "date": "2026-06-06T08:01:57.380240+00:00"
+    },
+    {
+      "title": "Philippines and Singapore Sign Carbon Trading Deal to Boost Emission Cuts and Investment",
+      "urls": [
+        "https://www.reuters.com/business/energy/global-carbon-emissions-pricing-raised-record-107-billion-2025-2026-05-20",
+        "https://www.reuters.com/sustainability/climate-energy/philippines-singapore-sign-carbon-trading-deal-boost-emission-cuts-climate-2026-05-01"
+      ],
+      "date": "2026-06-06T08:32:25.298689+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T08:01:57.380293+00:00"
+  "lastUpdated": "2026-06-06T08:32:25.298743+00:00"
 }
