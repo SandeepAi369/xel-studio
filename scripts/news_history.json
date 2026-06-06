@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LinuxToday Publishes Community-Driven Tutorials And Security Updates",
-      "urls": [
-        "https://www.linuxtoday.com"
-      ],
-      "date": "2026-05-27T14:32:15.780869+00:00"
-    },
-    {
       "title": "Microsoft Launches Copilot AI Assistant Across Windows And Office Suite",
       "urls": [
         "https://copilot.microsoft.com?msockid=2ff3af0446976be22cbeb86247266a9d"
@@ -3098,7 +3091,19 @@
         "https://pasqualepillitteri.it/en/news/155/hugging-face-spaces-try-ai-models-free"
       ],
       "date": "2026-06-06T14:31:53.357389+00:00"
+    },
+    {
+      "title": "Renewable Energy Forecast Shows Solar, Wind, Battery Storage Dominating 2026 Market",
+      "urls": [
+        "https://environmentamerica.org/center/updates/new-forecast-solar-wind-and-battery-storage-to-dominate-in-2026",
+        "https://electrek.co/2026/02/26/eia-renewable-energy-capacity-2026",
+        "https://solsetu.com/news/solar-news/renewable-energy-global-scenario-2026",
+        "https://www.npcelectric.com/news/renewable-energy-systems-2026-the-ultimate-guide-to-going-green.html",
+        "https://www.forbes.com/sites/dianneplummer/2026/02/17/top-5-renewable-energy-sources-reshaping-the-global-economy-in-2026",
+        "https://www.renewableenergyconference.org/blog/trends-in-renewable-energy-2026.html"
+      ],
+      "date": "2026-06-06T15:02:17.736777+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T14:31:53.357449+00:00"
+  "lastUpdated": "2026-06-06T15:02:17.736824+00:00"
 }
