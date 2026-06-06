@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phoenix has seen a 17% year-over-year increase in reported property crimes, according to data releas",
-      "urls": [
-        "https://www.abc15.com/news"
-      ],
-      "date": "2026-05-27T10:33:27.257105+00:00"
-    },
-    {
       "title": "United Nations adopted the 17 Sustainable Development Goals (SDGs) in 2015 as a universal call to en",
       "urls": [
         "https://www.globalcu.org/accounts/online-mobile-banking",
@@ -3101,7 +3094,14 @@
         "https://theconversation.com/wars-destroy-lives-and-the-climate-why-arent-we-counting-military-emissions-281129"
       ],
       "date": "2026-06-06T10:31:30.199792+00:00"
+    },
+    {
+      "title": "Social Media Shapes Mental Health Landscape Across User Demographics Amid Complex Influences",
+      "urls": [
+        "https://www.wshu.org/news/2026-05-05/social-media-mental-health-research"
+      ],
+      "date": "2026-06-06T11:02:03.893471+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T10:31:30.199851+00:00"
+  "lastUpdated": "2026-06-06T11:02:03.893541+00:00"
 }
