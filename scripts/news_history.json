@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global is defined as relating to or involving the entire world, according to Merriam-Webster, emphas",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/global"
-      ],
-      "date": "2026-05-27T04:02:26.109782+00:00"
-    },
-    {
       "title": "Digital Technology Converts Analog Inputs Into Binary Code",
       "urls": [
         "https://github.com/hneemann/Digital",
@@ -3108,7 +3101,14 @@
         "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
       ],
       "date": "2026-06-06T04:01:45.820850+00:00"
+    },
+    {
+      "title": "Mongabay Expands Conservation Coverage to Highlight Global Environmental and Climate Challenges",
+      "urls": [
+        "https://news.mongabay.com"
+      ],
+      "date": "2026-06-06T04:31:38.386731+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T04:01:45.820898+00:00"
+  "lastUpdated": "2026-06-06T04:31:38.386783+00:00"
 }
