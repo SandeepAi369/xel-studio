@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ubuntu And Linux Mint Lead In Beginner Friendly Linux Adoption",
-      "urls": [
-        "https://itsfoss.com/best-linux-beginners"
-      ],
-      "date": "2026-05-27T06:34:28.019999+00:00"
-    },
-    {
-      "title": "Apple Launches Devices App for Windows PCs",
-      "urls": [
-        "https://www.apple.com",
-        "https://apps.microsoft.com/detail/9np83lwlpz9k",
-        "https://www.youtube.com/@apple",
-        "https://www.apple.com.cn",
-        "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "https://iplanet.one"
-      ],
-      "date": "2026-05-27T07:01:22.032786+00:00"
-    },
-    {
       "title": "Social Security Administration Requires Login Gov Transition For Online Users",
       "urls": [
         "https://en.wikipedia.org/wiki/Social_media",
@@ -3101,7 +3082,18 @@
         "https://www.iea.org/reports/electricity-2026/supply"
       ],
       "date": "2026-06-06T06:31:51.372258+00:00"
+    },
+    {
+      "title": "Apple Unveils AI Accessibility Features to Boost Assistive Technology for People With Disabilities",
+      "urls": [
+        "https://savyassist.com/ai-assistive-technology-breakthroughs-2026",
+        "https://accessiblecommunity.org/blog/good-news-may-2026",
+        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
+        "https://www.tuaw.com/2026/05/20/apple-reveals-ai-accessibility-features-for-wwdc-2026",
+        "https://nod.org/event/ai-for-accessibility-inclusive-tech-in-action-may-21-2026"
+      ],
+      "date": "2026-06-06T07:02:09.720734+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T06:31:51.372321+00:00"
+  "lastUpdated": "2026-06-06T07:02:09.720793+00:00"
 }
