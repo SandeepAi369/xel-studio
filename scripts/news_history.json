@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Miami-Dade Supervisor of Elections manages voting operations for over 1.",
-      "urls": [
-        "https://www.votemiamidade.gov/elections/home.page",
-        "https://dos.fl.gov/elections",
-        "https://www.miami.gov/My-Government/Elections",
-        "https://www.miamidade.gov/global/elections/home.page?os=dio____",
-        "https://en.m.wikipedia.org/wiki/2024_United_States_presidential_election_in_Florida"
-      ],
-      "date": "2026-05-27T03:02:15.569286+00:00"
-    },
-    {
-      "title": "Social Security Disability Insurance Supports Over 10 Million Americans",
-      "urls": [
-        "https://www.ssa.gov/disability",
-        "https://www.usa.gov/social-security-disability",
-        "https://www.disabilitysecrets.com/resources/ssdi/an-overview-social-security-disability-insurance-ssdi.htm",
-        "https://www.cdc.gov/disability-and-health/about/index.html",
-        "https://www.metlife.com/insurance/disability-insurance"
-      ],
-      "date": "2026-05-27T03:32:03.564628+00:00"
-    },
-    {
       "title": "Global is defined as relating to or involving the entire world, according to Merriam-Webster, emphas",
       "urls": [
         "https://www.merriam-webster.com/dictionary/global"
@@ -3109,7 +3087,15 @@
         "https://finance.yahoo.com/sectors/technology/articles/starburst-announces-winners-2026-ai-120000760.html"
       ],
       "date": "2026-06-06T03:02:08.236168+00:00"
+    },
+    {
+      "title": "\"title\": \"AI Drives Transformative Change in Global Healthcare Sector Across 2026\",",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/healthcare-ai-reaches-a-critical-inflection-point-in-2026/gm-GME210E560?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/jessepines/2026/05/22/did-ai-really-beat-er-doctors-at-diagnosis-heres-what-the-study-showed"
+      ],
+      "date": "2026-06-06T03:32:22.884938+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T03:02:08.236233+00:00"
+  "lastUpdated": "2026-06-06T03:32:22.884991+00:00"
 }
