@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux adoption is rising as users seek stable, secure alternatives to proprietary operating systems,",
-      "urls": [
-        "https://www.popularmechanics.com/technology/gear/a65985018/how-to-switch-your-pc-to-linux"
-      ],
-      "date": "2026-05-27T01:04:22.535917+00:00"
-    },
-    {
-      "title": "Usgs Monitors 1.3 Million Quakes Annually With 7000 Sensors",
-      "urls": [
-        "https://earthquake.usgs.gov/earthquakes/map"
-      ],
-      "date": "2026-05-27T01:33:10.432752+00:00"
-    },
-    {
       "title": "Fox News Publishes 1500 Articles Weekly To Expand Digital Reach",
       "urls": [
         "https://www.foxnews.com?msockid=12c418f440ba64d31c040f92411465dd"
@@ -3105,7 +3091,14 @@
         "https://www.infoq.com/news/2026/05/mistral-agents-lechat"
       ],
       "date": "2026-06-06T01:02:23.389260+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes 2026 Open Model Rankings Showing Chinese Labs Lead",
+      "urls": [
+        "https://blog.imseankim.com/hugging-face-january-2026-open-model-rankings-deepseek-qwen-leaderboard"
+      ],
+      "date": "2026-06-06T02:01:48.845086+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T01:02:23.389318+00:00"
+  "lastUpdated": "2026-06-06T02:01:48.845144+00:00"
 }
