@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shane Lowry Wins 2019 Open Championship At Royal Portrush",
-      "urls": [],
-      "date": "2026-05-27T12:30:53.965368+00:00"
-    },
-    {
-      "title": "California Marathons Surge With 40 Races In 2025 And 2026",
-      "urls": [
-        "https://runningintheusa.com/classic/list/marathon/upcoming/ca",
-        "https://www.marathonguide.com/marathons/usa/ca",
-        "https://findarace.com/us",
-        "https://www.raceplace.com/category/marathon",
-        "https://findmymarathon.com",
-        "https://www.roadracerunner.com/selectsstate?distance=Marathon",
-        "https://www.findtherun.com"
-      ],
-      "date": "2026-05-27T12:31:02.931532+00:00"
-    },
-    {
       "title": "Ubuntu Leads Linux Adoption Among Beginners in 2025",
       "urls": [
         "https://www.techradar.com/best/best-linux-distros",
@@ -3112,7 +3094,14 @@
         "https://bigmarketreport.com/earnings-calendar-2026"
       ],
       "date": "2026-06-06T12:01:47.143652+00:00"
+    },
+    {
+      "title": "ScienceDaily Expands Health & Medicine News Page Offering Daily Updates of Medical Research",
+      "urls": [
+        "https://www.sciencedaily.com/news/health_medicine"
+      ],
+      "date": "2026-06-06T12:33:43.292956+00:00"
     }
   ],
-  "lastUpdated": "2026-06-06T12:01:47.143703+00:00"
+  "lastUpdated": "2026-06-06T12:33:43.293019+00:00"
 }
