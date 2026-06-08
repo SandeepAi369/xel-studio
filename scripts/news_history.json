@@ -3886,7 +3886,18 @@
         "https://aeliusventure.com/blog/ai-in-healthcare-2026-7-breakthroughs-that-are-saving-lives-now"
       ],
       "date": "2026-06-08T14:32:22.793461+00:00"
+    },
+    {
+      "title": "YaCy Provides Tutorials, Download Link, Community Forum, Git Repository, and Bugtracker",
+      "urls": [
+        "https://yacy.net/tutorials",
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-06-08T15:03:43.899122+00:00"
     }
   ],
-  "lastUpdated": "2026-06-08T14:32:22.793517+00:00"
+  "lastUpdated": "2026-06-08T15:03:43.899181+00:00"
 }
