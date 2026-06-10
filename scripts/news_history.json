@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists have identified a rapid increase in global temperature rise, noting that recent measureme",
-      "urls": [
-        "https://www.un.org/en/climatechange/reports",
-        "https://apnews.com/article/climate-change-warming-heat-wave-record-future-53d79525a06f09d9ace45a141dbebb01",
-        "https://www.un.org/en/climatechange",
-        "https://www.sciencedaily.com/releases/2026/02/260217005714.htm",
-        "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
-        "https://www.nytimes.com/2026/05/04/climate/el-nino-global-warming.html"
-      ],
-      "date": "2026-05-31T22:31:38.731837+00:00"
-    },
-    {
       "title": "Mistral AI The quasa.",
       "urls": [
         "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
@@ -4556,7 +4544,14 @@
         "https://medicalxpress.com/news/2026-06-flips-mental-health-paradigm-proactive.html"
       ],
       "date": "2026-06-10T22:03:37.109261+00:00"
+    },
+    {
+      "title": "Atlantis BioScience Publishes 2026 Biotech Outlook Highlighting Ten Breakthrough Trends",
+      "urls": [
+        "https://www.atlantisbioscience.com/blog/2026-biotech-outlook-10-breakthrough-trends-scientists-need-to-watch"
+      ],
+      "date": "2026-06-10T22:31:50.170049+00:00"
     }
   ],
-  "lastUpdated": "2026-06-10T22:03:37.109326+00:00"
+  "lastUpdated": "2026-06-10T22:31:50.170117+00:00"
 }
