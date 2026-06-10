@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft will feature prominently at the Open Source Summit North America 2026, presenting a sessio",
-      "urls": [
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-may-2026",
-        "https://www.youtube.com/watch?v=PT8emqAIl7Y",
-        "https://www.youtube.com/watch?v=x4fxvXoA5hk",
-        "https://www.youtube.com/watch?v=NKPMDddHbSQ",
-        "https://itsfoss.com/news",
-        "https://opensource.org/blog/top-50-open-source-conferences-in-2026",
-        "https://opensource.microsoft.com/blog/2026/05/18/from-open-source-to-agentic-systems-microsoft-at-open-source-summit-north-america-2026",
-        "https://www.prnewswire.com/news-releases/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt-302692878.html",
-        "https://www.prnewswire.com/news-releases/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation-302667615.html"
-      ],
-      "date": "2026-05-31T18:31:52.592514+00:00"
-    },
-    {
       "title": "Wiley article titled “Artificial Intelligence in Drug Discovery and Development: Transforming Pharma",
       "urls": [
         "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281",
@@ -4645,7 +4629,16 @@
         "https://www.apollo.com/institutional/insights-news/insights/expert-briefing/2026/01/2026-prediction-for-clean-energy--clean-tech--climate-tech--sustainability-markets"
       ],
       "date": "2026-06-10T18:03:48.650288+00:00"
+    },
+    {
+      "title": "Autism Research Links Media Stereotypes to Delayed Diagnosis and Highlights Social Change",
+      "urls": [
+        "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags",
+        "https://medicalxpress.com/news/2026-05-stereotypes-autism-tv-linked-delayed.html",
+        "https://medicalxpress.com/news/2026-05-autism-social-differences-emerge-early.html"
+      ],
+      "date": "2026-06-10T18:35:20.401977+00:00"
     }
   ],
-  "lastUpdated": "2026-06-10T18:03:48.650353+00:00"
+  "lastUpdated": "2026-06-10T18:35:20.402048+00:00"
 }
