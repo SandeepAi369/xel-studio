@@ -1,38 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube AI Updates A 25‑minute video titled “Have you heard these exciting AI news?” presents recent",
-      "urls": [
-        "https://llm-stats.com/llm-updates",
-        "https://www.devflokers.com/blog/latest-ai-models-open-source-projects-may-2026",
-        "https://www.reddit.com/r/google_antigravity/comments/1sjjzv8/state_of_ai_agent_coders_april_2026_agents_vs",
-        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in",
-        "https://www.reddit.com/r/PromptEngineering/comments/1rv9odx/the_open_source_ai_situation_in_march_2026_is",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
-        "https://llm-stats.com/ai-news",
-        "https://www.youtube.com/watch?v=n01-OaEiYzA",
-        "https://www.youtube.com/watch?v=ARXS-uk19h8",
-        "https://www.youtube.com/watch?v=-FVl-hbBTOY&vl=en"
-      ],
-      "date": "2026-06-01T08:05:08.444581+00:00"
-    },
-    {
-      "title": "Sporting News reports a detailed MMA schedule for 2026, listing dates, divisions, and locations for ",
-      "urls": [
-        "https://www.independent.co.uk/sport/ufc/ufc-schedule-2026-events-fights-may-b2967875.html",
-        "https://www.sportingnews.com/us/mma/news/mma-schedule-2026-dates-location-ufc-fights/30700a28e4998d7f6020aa21",
-        "https://www.youtube.com/watch?v=q0YusUhFBrI",
-        "https://www.youtube.com/watch?v=2TZtX0lReE8",
-        "https://www.youtube.com/watch?v=AO8KuWwE_Qg",
-        "https://www.youtube.com/watch?v=08Gn82Lv4nI",
-        "https://www.youtube.com/watch?v=a_MfOOI1_uM",
-        "https://www.youtube.com/watch?v=SzJzYmQ100E",
-        "https://en.wikipedia.org/wiki/2026_in_UFC",
-        "https://www.ufc.com"
-      ],
-      "date": "2026-06-01T08:31:44.533398+00:00"
-    },
-    {
       "title": "White House publishes a fact sheet titled “Ensuring a National Policy Framework for Artificial Intel",
       "urls": [
         "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
@@ -4461,7 +4429,17 @@
         "https://businesschief.com/news/what-are-tech-ceos-saying-about-the-future-of-work"
       ],
       "date": "2026-06-11T08:01:53.501409+00:00"
+    },
+    {
+      "title": "2026 World Cup Schedule Released With Group Stage Fixtures and Viewing Details",
+      "urls": [
+        "https://www.espn.co.uk",
+        "https://www.bbc.com/sport/football",
+        "https://www.nbcsports.com/soccer/news/2026-mens-world-cup-preview-the-key-storylines-as-epic-tournament-set-to-begin",
+        "https://sports.yahoo.com/soccer/article/2026-world-cup-schedule-qualified-teams-groups-match-dates-fixtures-how-to-watch-050724214.html"
+      ],
+      "date": "2026-06-11T08:31:44.943035+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T08:01:53.501476+00:00"
+  "lastUpdated": "2026-06-11T08:31:44.943135+00:00"
 }
