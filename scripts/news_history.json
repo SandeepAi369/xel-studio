@@ -1,38 +1,6 @@
 {
   "entries": [
     {
-      "title": "Research Share – Recent analyses on Spheron’s blog and Medium note that PyTorch commands roughly 85 ",
-      "urls": [
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://medium.com/codetodeploy/pytorch-vs-tensorflow-in-modern-ai-what-actually-matters-in-2026-8032d7585f49",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://uvik.net/blog/pytorch-vs-tensorflow",
-        "https://www.youtube.com/watch?v=pkEUANwkrqk",
-        "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
-      ],
-      "date": "2026-06-01T10:06:31.645310+00:00"
-    },
-    {
-      "title": "Yale News reports that wildlife is actively observing human presence and adjusting its behavior, ind",
-      "urls": [
-        "https://www.theinvadingsea.com/2026/01/02/conservation-horizon-scan-ai-drought-climate-change-tropical-forests-seaweed-southern-ocean",
-        "https://news.yale.edu/2026/05/21/wildlife-watching-us-too-and-changing-their-behavior-response",
-        "https://www.facebook.com/mdwfp/videos/from-the-early-days-of-uncertainty-to-a-conservation-success-story-mississippis-/1499866985051923",
-        "https://www.instagram.com/reel/DXw5tdQj4UK",
-        "https://www.facebook.com/SamBentley/videos/good-news-to-start-your-2026/3374215706067303",
-        "https://www.instagram.com/reel/DTQeH1iiOTs",
-        "https://www.tiktok.com/@sambentley/video/7593044248375741718",
-        "https://news.mongabay.com/list/biodiversity",
-        "https://www.worldwildlife.org/news/magazine/summer-2026",
-        "https://therevelator.org/conservation-horizon-2026"
-      ],
-      "date": "2026-06-01T10:31:34.167759+00:00"
-    },
-    {
       "title": "AI governance – The Healthcare IT News article “The overarching importance of AI governance and risk",
       "urls": [
         "https://www.chiefhealthcareexecutive.com/view/ai-in-health-care-26-leaders-offer-predictions-for-2026",
@@ -4435,7 +4403,14 @@
         "https://llm-stats.com/ai-news"
       ],
       "date": "2026-06-11T10:01:54.005142+00:00"
+    },
+    {
+      "title": "Philippines Earthquake Leaves At Least 35 Dead and Triggers Small Tsunami",
+      "urls": [
+        "https://www.cbsnews.com/news/earthquake-southern-philippines-tsunami-warnings"
+      ],
+      "date": "2026-06-11T10:31:50.729913+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T10:01:54.005206+00:00"
+  "lastUpdated": "2026-06-11T10:31:50.729981+00:00"
 }
