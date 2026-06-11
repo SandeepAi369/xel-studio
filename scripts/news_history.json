@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Blockpass posted a Web3 Reg News article titled “Enhancing Regulation and Advancing Crypto” on its website, accessible via the URL",
-      "urls": [
-        "https://www.blockpass.org/2026/05/31/web-3-reg-news-enhancing-regulation-and-advancing-crypto"
-      ],
-      "date": "2026-06-01T13:04:00.136422+00:00"
-    },
-    {
       "title": "What NVIDIA Showcases at GTC 2026 as Leaders Highlight Age of AI",
       "urls": [
         "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026",
@@ -4356,7 +4349,14 @@
         "https://afb.org/blindness-and-low-vision/using-technology"
       ],
       "date": "2026-06-11T13:02:26.183556+00:00"
+    },
+    {
+      "title": "Its FOSS Publishes Latest Linux And Open Source News On Its Website",
+      "urls": [
+        "https://itsfoss.com/news"
+      ],
+      "date": "2026-06-11T13:31:49.030205+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T13:02:26.183625+00:00"
+  "lastUpdated": "2026-06-11T13:31:49.030267+00:00"
 }
