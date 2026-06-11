@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "QualityLogic posted an Accessibility Industry Update for March 2026 on its website, as indicated by ",
-      "urls": [
-        "https://www.qualitylogic.com/knowledge-center/accessibility-industry-update-march-2026"
-      ],
-      "date": "2026-06-01T03:32:36.573487+00:00"
-    },
-    {
       "title": "Google Cloud announces a blog post titled “AI infrastructure at Next ’26” hosted on its cloud.",
       "urls": [
         "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
@@ -4490,7 +4483,17 @@
         "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict"
       ],
       "date": "2026-06-11T03:01:54.968639+00:00"
+    },
+    {
+      "title": "OneTrust Highlights Five Privacy Trends Shaping Global Enforcement in 2026",
+      "urls": [
+        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
+        "https://cdslegal.com/insights/global-data-privacy-laws-the-current-environment-and-what-to-look-for-in-2026",
+        "https://www.youtube.com/watch?v=zF4KBYi-wSM",
+        "https://www.youtube.com/watch?v=Am7t3wowzG0"
+      ],
+      "date": "2026-06-11T03:34:55.559494+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T03:01:54.968707+00:00"
+  "lastUpdated": "2026-06-11T03:34:55.559565+00:00"
 }
