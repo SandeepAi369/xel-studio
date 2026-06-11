@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud announces a blog post titled “AI infrastructure at Next ’26” hosted on its cloud.",
-      "urls": [
-        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
-        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
-        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
-        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
-        "https://www.reddit.com/r/aws/comments/1hicvwf/what_are_your_biggest_challenges_with_cloud",
-        "https://www.reddit.com/r/cloudcomputing/comments/1gzfyfn/how_is_ai_integration_shaping_cloud_computing",
-        "https://www.youtube.com/watch?v=yQRm7iPiZ84",
-        "https://www.youtube.com/watch?v=MVBBcES6y3s",
-        "https://www.youtube.com/watch?v=Hg82T3pvW1A",
-        "https://www.youtube.com/watch?v=1Ov2ntPr_eI"
-      ],
-      "date": "2026-06-01T04:01:50.929712+00:00"
-    },
-    {
       "title": "AI adoption – The SportsPro article titled “Sports industry AI adoption rises to 82% amid tangible f",
       "urls": [
         "https://www.sportspro.com/news/sports-tech-report-ai-sportradar-february-2026",
@@ -4493,7 +4477,14 @@
         "https://www.youtube.com/watch?v=Am7t3wowzG0"
       ],
       "date": "2026-06-11T03:34:55.559494+00:00"
+    },
+    {
+      "title": "Halo Esports Shifts 2026 Season to Third‑Party Events and Invitational Tournament",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/halo-esports-2026-pivots-to-third-party-events-and-invitational/gm-GM921D4A69?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-11T04:01:57.250714+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T03:34:55.559565+00:00"
+  "lastUpdated": "2026-06-11T04:01:57.250777+00:00"
 }
