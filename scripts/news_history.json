@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "What 2026 Midterm Election Results Reveal About Senate, House and Governor Races",
-      "urls": [
-        "https://apnews.com/projects/elections-2026",
-        "https://www.politico.com/politics",
-        "https://politicalwire.com"
-      ],
-      "date": "2026-06-01T20:01:19.085672+00:00"
-    },
-    {
       "title": "What SpaceX Demonstrates With Live Starship Flight 12 Launch From Starbase Pad Two",
       "urls": [
         "https://spaceflightnow.com/launch-schedule",
@@ -4309,7 +4300,14 @@
         "https://worldpowerplants.com/en-us/blog/global-renewable-energy-statistics-2026-wind-solar-and-hydropower-data"
       ],
       "date": "2026-06-11T19:32:09.146934+00:00"
+    },
+    {
+      "title": "UNCTAD Publishes Global Trade Update Highlighting 2026 Market Trends Across Nations",
+      "urls": [
+        "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026"
+      ],
+      "date": "2026-06-11T20:01:50.027402+00:00"
     }
   ],
-  "lastUpdated": "2026-06-11T19:32:09.146988+00:00"
+  "lastUpdated": "2026-06-11T20:01:50.027462+00:00"
 }
