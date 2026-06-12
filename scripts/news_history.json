@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Plans U.S. Share Offering as Valuation Nears One Trillion Dollars",
-      "urls": [
-        "https://www.theguardian.com/media/2026/jun/01/60-minutes-scott-pelley-cbs-bari-weiss-cuts",
-        "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.com/news/articles/c5y8nq8ljqwo?at_medium=RSS&at_campaign=rss"
-      ],
-      "date": "2026-06-02T12:04:26.616728+00:00"
-    },
-    {
-      "title": "Mamata Banerjee Loses Bhabanipur Seat as Suvendu Wins, Modi Addresses Election Outcome",
-      "urls": [
-        "https://www.thehindu.com/news/national/assembly-elections-eci-live-updates-may-3-2026-tamil-nadu-west-bengal-assam-kerala-pondicherry-results/article70934298.ece",
-        "https://www.oneindia.com/india/assembly-election-results-2026-live-vote-counting-begins-across-tamil-nadu-west-bengal-kerala-as-8076799.html",
-        "https://zeenews.india.com/india/live-updates/west-bengal-election-voting-2026-live-updates-phase-2-check-bengal-assembly-election-vote-percentage-exit-poll-results-latest-news-3041896.html",
-        "https://timesofindia.indiatimes.com/india/kerala-election-result-2026-live-updates-assembly-election-ldf-vs-udf-cpi-vote-counting-election-commission-news/liveblog/130741403.cms",
-        "https://www.theguardian.com/commentisfree/2026/may/07/elections-democracy-first-past-the-post-labour-proportional-representation"
-      ],
-      "date": "2026-06-02T12:32:04.313914+00:00"
-    },
-    {
       "title": "Dualmedia Highlights Streaming, Infrastructure, Web3 Transforming Esports Industry in 2026",
       "urls": [
         "https://www.emarketer.com/content/faq-on-esports--what-marketers-need-know-about-competitive-gaming--streaming--gaming-creators",
@@ -4325,7 +4305,14 @@
         "https://www.theguardian.com/environment/2026/jun/10/labour-renewable-energy-projects-halfway-long-delay"
       ],
       "date": "2026-06-12T12:02:36.295724+00:00"
+    },
+    {
+      "title": "Generative AI Tools Evaluated for Blind Users Reveal Usability Gaps",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3733155.3737910"
+      ],
+      "date": "2026-06-12T12:32:09.396108+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T12:02:36.295808+00:00"
+  "lastUpdated": "2026-06-12T12:32:09.396176+00:00"
 }
