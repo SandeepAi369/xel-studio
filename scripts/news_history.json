@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Donald Trump Says Iran Talks Continue Despite Threats to Other War Fronts",
-      "urls": [
-        "https://www.cbsnews.com/live-updates/iran-war-us-trump-strikes-ceasefire-lebanon-israel",
-        "https://www.theguardian.com/us-news/2026/jun/01/senate-democrats-challenge-trump-slush-fund",
-        "https://www.deccanherald.com",
-        "https://www.usatoday.com"
-      ],
-      "date": "2026-06-02T08:34:12.126380+00:00"
-    },
-    {
-      "title": "Nvidia Challenges Intel and AMD With New AI Chip for Personal Computers",
-      "urls": [
-        "https://www.spokesman.com/stories/2026/jun/01/nvidia-is-taking-on-intel-and-amd-with-new-ai-chip",
-        "https://www.siliconvalley.com/2026/06/01/nvidia-is-taking-on-intel-and-amd-with-ai-chip-for-computers"
-      ],
-      "date": "2026-06-02T09:01:48.602169+00:00"
-    },
-    {
       "title": "MIT News Highlights Dedicated Assistive Technology Topic Page for Inclusive Innovation",
       "urls": [
         "https://news.mit.edu/topic/assistive-technology"
@@ -4313,7 +4295,14 @@
         "https://www.youtube.com/watch?v=q0YusUhFBrI"
       ],
       "date": "2026-06-12T08:31:50.837710+00:00"
+    },
+    {
+      "title": "Shakira Opens World Cup With Live Performance Amid Mexico Chaos",
+      "urls": [
+        "https://www.dailymail.com/sport/football/article-15892929/shakira-world-cup-opening-mexico.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+      ],
+      "date": "2026-06-12T09:01:55.600913+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T08:31:50.837764+00:00"
+  "lastUpdated": "2026-06-12T09:01:55.600982+00:00"
 }
