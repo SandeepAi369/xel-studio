@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wolters Kluwer Publishes Expert Insights on 2026 Healthcare AI Trends",
-      "urls": [
-        "https://www.wolterskluwer.com/en/expert-insights/2026-healthcare-ai-trends-insights-from-experts"
-      ],
-      "date": "2026-06-02T11:02:12.637896+00:00"
-    },
-    {
       "title": "Bloomberg Highlights Twelve Climate Tech Startups Driving $2.3 Trillion Energy Transition",
       "urls": [
         "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners"
@@ -4316,7 +4309,21 @@
         "https://www.youtube.com/watch?v=gHRG0usjEnA"
       ],
       "date": "2026-06-12T11:01:59.614162+00:00"
+    },
+    {
+      "title": "Amazon Teams With Anthropic to Supply Up to 5 Gigawatts for AI Operations",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.youtube.com/watch?v=3oTE626FaIw",
+        "https://www.youtube.com/watch?v=-nG-9vlSkho",
+        "https://www.youtube.com/watch?v=5Uh2yRLCisk",
+        "https://www.youtube.com/watch?v=TB-nS4TGfns",
+        "https://www.cnbc.com/video/2026/04/20/amazon-and-anthropic-announce-new-deal-to-provide-up-to-5-gigawatts-of-compute-to-claude-ai-models.html",
+        "https://www.youtube.com/watch?v=qXYuznlCjKE",
+        "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research"
+      ],
+      "date": "2026-06-12T11:31:46.144562+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T11:01:59.614228+00:00"
+  "lastUpdated": "2026-06-12T11:31:46.144627+00:00"
 }
