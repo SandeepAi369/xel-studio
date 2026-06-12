@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEA Highlights Solar PV And Wind Growth In 2026 Global Energy Review",
-      "urls": [
-        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind"
-      ],
-      "date": "2026-06-02T06:31:35.482943+00:00"
-    },
-    {
       "title": "Western Lawmakers Push Bill to Weaken Clean Air Act and Shield Fossil Fuel Companies",
       "urls": [
         "https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/eu-energy-and-climate-diplomacy-council-approves-conclusions",
@@ -4318,7 +4311,14 @@
         "https://www.sciencedaily.com/releases/2026/05/260528082455.htm"
       ],
       "date": "2026-06-12T06:31:30.872214+00:00"
+    },
+    {
+      "title": "Middle East Conflict Disrupts Shipping Routes and Raises Oil Prices, Impacting US Trade Deficit",
+      "urls": [
+        "https://www.weforum.org/stories/2026/03/us-trade-deficit-international-trade-stories-march-2026"
+      ],
+      "date": "2026-06-12T07:02:16.549873+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T06:31:30.872311+00:00"
+  "lastUpdated": "2026-06-12T07:02:16.549974+00:00"
 }
