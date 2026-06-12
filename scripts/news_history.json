@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bloomberg Highlights Twelve Climate Tech Startups Driving $2.3 Trillion Energy Transition",
-      "urls": [
-        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners"
-      ],
-      "date": "2026-06-02T11:32:49.717797+00:00"
-    },
-    {
       "title": "Anthropic Plans U.S. Share Offering as Valuation Nears One Trillion Dollars",
       "urls": [
         "https://www.theguardian.com/media/2026/jun/01/60-minutes-scott-pelley-cbs-bari-weiss-cuts",
@@ -4323,7 +4316,16 @@
         "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research"
       ],
       "date": "2026-06-12T11:31:46.144562+00:00"
+    },
+    {
+      "title": "U.S. Solar Power Generates More Electricity Than Coal for First Time",
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
+        "https://www.rechargenews.com/opinion/as-a-ceo-my-case-for-wind-and-solar-has-never-been-stronger-than-in-2026/2-1-2002204",
+        "https://www.theguardian.com/environment/2026/jun/10/labour-renewable-energy-projects-halfway-long-delay"
+      ],
+      "date": "2026-06-12T12:02:36.295724+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T11:31:46.144627+00:00"
+  "lastUpdated": "2026-06-12T12:02:36.295808+00:00"
 }
