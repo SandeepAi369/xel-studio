@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT News Highlights Dedicated Assistive Technology Topic Page for Inclusive Innovation",
-      "urls": [
-        "https://news.mit.edu/topic/assistive-technology"
-      ],
-      "date": "2026-06-02T09:31:49.973244+00:00"
-    },
-    {
       "title": "Apple Previews Major Product and Software Announcements at WWDC 2026",
       "urls": [
         "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937"
@@ -4314,7 +4307,14 @@
         "https://doubletaponair.com/ces-2026-the-most-exciting-accessibility-innovations-revealed"
       ],
       "date": "2026-06-12T09:31:45.251896+00:00"
+    },
+    {
+      "title": "California Advances Age Verification Bill, Exempts Linux While Expanding Website Requirements",
+      "urls": [
+        "https://www.techtimes.com/articles/317449/20260530/california-age-verification-bill-clears-assembly-linux-spared-websites-added-age-gating-regime.htm"
+      ],
+      "date": "2026-06-12T10:01:57.982267+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T09:31:45.251961+00:00"
+  "lastUpdated": "2026-06-12T10:01:57.982333+00:00"
 }
