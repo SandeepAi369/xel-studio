@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Unveils New AI Inference Chips at GTC 2026 Targeting $1 Trillion Market",
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
-      ],
-      "date": "2026-06-02T14:02:58.808380+00:00"
-    },
-    {
-      "title": "Assistive Technology Tools Enhance Inclusion for Students in K-12 Environments",
-      "urls": [
-        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
-      ],
-      "date": "2026-06-02T14:31:39.053048+00:00"
-    },
-    {
       "title": "ASUS Introduces AI‑Driven Healthcare Solutions at Computex 2026 to Expand Medical Technology Portfolio",
       "urls": [
         "https://press.asus.com/news/press-releases/asus-com-news-ai-driven-healthcare-computex"
@@ -4315,7 +4301,15 @@
         "https://time.com/article/2026/05/14/new-york-climate-law-rollback"
       ],
       "date": "2026-06-12T14:02:10.393314+00:00"
+    },
+    {
+      "title": "Reddit Entry Listed With Title Only No Description Provided In Search Results",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://www.reddit.com/r/MistralAI/comments/1r24g6x/mistral_boss_calls_for_european_unity_in_ai_race"
+      ],
+      "date": "2026-06-12T14:32:02.284201+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T14:02:10.393369+00:00"
+  "lastUpdated": "2026-06-12T14:32:02.284256+00:00"
 }
