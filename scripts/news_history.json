@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kyle Samani Declares Web3 Dead, Highlights DeFi and DePIN as Survivors",
-      "urls": [
-        "https://crypto.news/web3-is-dead-kyle-samani-says-only-defi-and-depin-remain",
-        "https://www.coindesk.com"
-      ],
-      "date": "2026-06-02T03:31:37.485675+00:00"
-    },
-    {
       "title": "Digen AI Publishes 2026 AI Video Generation Guides Highlighting Trends and Challenges",
       "urls": [
         "https://medium.com/@nizamstatistics/10-best-ai-video-generators-for-2026-667a05d662db",
@@ -4302,7 +4294,16 @@
         "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release"
       ],
       "date": "2026-06-12T03:02:09.656293+00:00"
+    },
+    {
+      "title": "Nvidia Highlights AI Advances Shaping Healthcare and Life Sciences in 2026",
+      "urls": [
+        "https://www.nvidia.com/content/dam/en-zz/Solutions/lp/survey-report/healthcare-state-of-ai-report-2026-4559650-web.pdf",
+        "https://www.aanp.org/news-feed/top-five-health-care-trends-for-2026-how-new-technology-is-transforming-patient-care",
+        "https://distance.physiology.med.ufl.edu/about/articles/7-medical-sciences-trends-shaping-healthcare-in-2026"
+      ],
+      "date": "2026-06-12T03:31:44.402488+00:00"
     }
   ],
-  "lastUpdated": "2026-06-12T03:02:09.656368+00:00"
+  "lastUpdated": "2026-06-12T03:31:44.402564+00:00"
 }
