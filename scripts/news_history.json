@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Highlights Hugging Face Trending Papers For Foundry AI Users",
-      "urls": [
-        "https://huggingface.co/papers/trending",
-        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602"
-      ],
-      "date": "2026-06-03T02:01:26.370497+00:00"
-    },
-    {
       "title": "WHILL Publishes Blog Forecasting Personal Mobility Trends for the Next Decade",
       "urls": [
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade"
@@ -4285,7 +4277,15 @@
         "https://insideclimatenews.org/news/30042026/wyoming-texas-lawmakers-weaken-clean-air-act"
       ],
       "date": "2026-06-13T01:31:43.029780+00:00"
+    },
+    {
+      "title": "YouTube Releases Year‑End AI Review Highlighting 2025 Surge and 2026 Trends",
+      "urls": [
+        "https://www.youtube.com/watch?v=ARXS-uk19h8",
+        "https://www.youtube.com/watch?v=-FVl-hbBTOY&vl=en"
+      ],
+      "date": "2026-06-13T02:02:18.451218+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T01:31:43.029850+00:00"
+  "lastUpdated": "2026-06-13T02:02:18.451291+00:00"
 }
