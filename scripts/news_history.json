@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "ESPNcricinfo Provides Full IPL 2026 Updates And Daily Cricket News",
-      "urls": [
-        "https://sports.yahoo.com/nfl/article/how-to-watch-every-football-game-of-the-2026-nfl-season-015500757.html",
-        "https://www.espncricinfo.com/cricket-news",
-        "https://www.timesofsports.com",
-        "https://worldinsport.com"
-      ],
-      "date": "2026-06-03T10:31:51.665663+00:00"
-    },
-    {
       "title": "Instagram Sparks Discussion on Delivering Quality Healthcare to Remote Towns",
       "urls": [
         "https://www.instagram.com/reel/DZDf6dhEQQz"
@@ -4281,7 +4271,17 @@
         "https://www.hearingaid.org.uk/hearing-aid-technology/hearing-aid-technology-2026"
       ],
       "date": "2026-06-13T10:02:22.513110+00:00"
+    },
+    {
+      "title": "Open-Source AI Community Highlights Leading LLMs Across Multiple Platforms in 2026",
+      "urls": [
+        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
+        "https://github.com/QwenLM/Qwen3.6",
+        "https://www.buildfastwithai.com/blogs/collection/open-source-llms",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms"
+      ],
+      "date": "2026-06-13T10:32:04.396991+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T10:02:22.513180+00:00"
+  "lastUpdated": "2026-06-13T10:32:04.397088+00:00"
 }
