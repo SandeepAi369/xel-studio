@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Gemini Updates at I/O 2026 According to Mashable Report",
-      "urls": [
-        "https://mashable.com/tech/all-the-gemini-announcements-google-io-2026"
-      ],
-      "date": "2026-06-03T19:32:09.569195+00:00"
-    },
-    {
-      "title": "2026 Winter Olympics Medal Count Shows Diverse Nations Earning Historic Medals",
-      "urls": [
-        "https://www.nytimes.com/athletic/interactive/2026-winter-olympics-medal-results",
-        "https://en.wikipedia.org/wiki/List_of_2026_Winter_Olympics_medal_winners",
-        "https://www.usatoday.com/story/sports/olympics/2026/02/22/olympic-medal-count-final-2026-who-won/88812691007",
-        "https://bleacherreport.com/articles/25396269-olympic-2026-medal-count-final-tally-winners-day-6-events",
-        "https://athlonsports.com/olympics/2026-olympics-medal-tracker",
-        "https://www.olympics.com/ioc/news/olympic-solidarity-powers-athletes-to-historic-medals-at-milano-cortina-2026"
-      ],
-      "date": "2026-06-03T20:02:10.340047+00:00"
-    },
-    {
       "title": "Accio.com Highlights Smart And Electric Wheelchair Innovations For 2026 Market",
       "urls": [
         "https://www.forbes.com/lists/accessibility",
@@ -4272,7 +4253,23 @@
         "https://news.crunchbase.com/venture/quantum-computing-startup-investment-data-quantinuum-ipo"
       ],
       "date": "2026-06-13T19:31:57.945631+00:00"
+    },
+    {
+      "title": "Linux Distributions for Beginners Gain Popularity Across Multiple Online Guides",
+      "urls": [
+        "https://www.linux.org/pages/download",
+        "https://en.wikipedia.org/wiki/Linux",
+        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
+        "https://www.linux.com/what-is-linux",
+        "https://ubuntu.com/download",
+        "https://www.linuxmint.com",
+        "https://linuxize.com/post/best-linux-distros",
+        "https://www.comptia.org/en-us/certifications/linux",
+        "https://distrowatch.com",
+        "https://itsfoss.com/best-linux-beginners"
+      ],
+      "date": "2026-06-13T20:02:27.725236+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T19:31:57.945693+00:00"
+  "lastUpdated": "2026-06-13T20:02:27.725307+00:00"
 }
