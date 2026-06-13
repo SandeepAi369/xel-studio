@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Business Launches Cloud Computing News Hub for AI Industry Professionals",
-      "urls": [
-        "https://aibusiness.com/verticals/cloud-computing"
-      ],
-      "date": "2026-06-03T09:01:55.982733+00:00"
-    },
-    {
       "title": "Dan Marino Foundation Showcases 2026 Assistive Technology Tools Transforming Autism Communication and Learning",
       "urls": [
         "https://danmarinofoundation.org/assistive-technology-autism-tools"
@@ -4274,7 +4267,20 @@
         "https://www.hltv.org/events"
       ],
       "date": "2026-06-13T08:32:12.129807+00:00"
+    },
+    {
+      "title": "Stanford Demonstrates Twisted Light Quantum Computing Breakthrough Without Extreme Cooling",
+      "urls": [
+        "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers",
+        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "https://www.youtube.com/watch?v=SPUnuEtEpCo",
+        "https://www.youtube.com/watch?v=qcmeaDAaCic",
+        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
+        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
+        "https://www.youtube.com/watch?v=tTrwwQIpcKU"
+      ],
+      "date": "2026-06-13T09:02:12.522865+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T08:32:12.129874+00:00"
+  "lastUpdated": "2026-06-13T09:02:12.522940+00:00"
 }
