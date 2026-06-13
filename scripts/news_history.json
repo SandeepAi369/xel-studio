@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes Highlights Today's Crypto News, NFTs, Blockchain, and Web3 Updates",
-      "urls": [
-        "https://www.forbes.com/digital-assets/news"
-      ],
-      "date": "2026-06-03T08:01:47.657717+00:00"
-    },
-    {
       "title": "Telehealth Platforms Expand With AI Integration And Policy Shifts In 2026",
       "urls": [
         "https://healthcarereaders.com/insights/telehealth-expansion-and-accessibility-trends",
@@ -4272,7 +4265,16 @@
         "https://apnews.com/article/iran-us-ceasefire-hezbollah-israel-12-june-2026-7085e386e1c40ee6cfe634210970143f"
       ],
       "date": "2026-06-13T07:32:19.021593+00:00"
+    },
+    {
+      "title": "Solves Decades‑Old Mathematical Problem, Marking Major Breakthrough in Computational Research",
+      "urls": [
+        "https://phys.org/news/2026-05-ai-major-breakthrough-math-problem.html",
+        "https://www.msn.com/en-us/health/other/opinion-washington-is-dismantling-the-pathway-to-the-next-cancer-breakthrough/ar-AA25cvi1?ocid=BingNewsVerp",
+        "https://www.news-medical.net/news/20260603/ELRIG-unveils-keynote-speakers-for-Drug-Discovery-2026.aspx"
+      ],
+      "date": "2026-06-13T08:02:00.211510+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T07:32:19.021665+00:00"
+  "lastUpdated": "2026-06-13T08:02:00.211577+00:00"
 }
