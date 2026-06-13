@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States and Iran Intensify Attacks as Ceasefire Crumbles and Peace Talks Stall",
-      "urls": [
-        "https://slate.com/news-and-politics/2026/06/trump-iran-war-news-peace-talks-off-what-next.html",
-        "https://www.msn.com/en-us/news/world/us-iran-intensify-attacks-as-ceasefire-frays-peace-talks-stall/ar-AA24GVfy?ocid=BingNewsVerp",
-        "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news",
-        "https://www.foreignaffairs.com/ethiopia/war-ethiopia-isnt-over",
-        "https://www.nytimes.com/live/2026/05/29/world/iran-war-us-trump-deal",
-        "https://www.msn.com/en-in/politics/international-relations/us-iran-news-live-not-reached-a-turning-point-says-tehran-after-pak-army-chief-asim-munir-s-visit/ar-AA23S1XK?ocid=BingNewsVerp",
-        "https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it",
-        "https://www.msn.com/en-xl/asia/pakistan/qatar-backs-pakistan-led-us-iran-peace-talkspublished-on-may-19-2026-704-pm/ar-AA23zGUI?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-03T12:01:57.339939+00:00"
-    },
-    {
       "title": "The Global Angle Lists Nations at War Across the World",
       "urls": [
         "https://peacediplomacy.org/2026/02/24/war-or-deal-with-iran-the-diplomatic-countdown-amid-military-buildup",
@@ -4282,7 +4268,17 @@
         "https://www.news-medical.net/news/20260529/Researchers-develop-open-source-framework-for-health-AI-research.aspx"
       ],
       "date": "2026-06-13T11:31:56.258159+00:00"
+    },
+    {
+      "title": "IMF Releases World Economic Outlook Highlighting War Impact on Global Growth",
+      "urls": [
+        "https://www.worldbank.org/en/publication/global-economic-prospects",
+        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+        "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook",
+        "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026"
+      ],
+      "date": "2026-06-13T12:02:16.371044+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T11:31:56.258228+00:00"
+  "lastUpdated": "2026-06-13T12:02:16.371112+00:00"
 }
