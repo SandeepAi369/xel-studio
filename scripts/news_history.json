@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Journal Forecasts Transformative Role of Artificial Intelligence in Drug Discovery by 2026",
-      "urls": [
-        "https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article",
-        "https://aiworldjournal.com/2026-the-year-ai-reinvents-drug-discovery",
-        "https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026",
-        "https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026",
-        "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials",
-        "https://www.aifchem.com/blog-latest-progress-drug-discovery-2026-fda-approvals-ai-trends-molecular-building-blocks",
-        "https://www.drugdiscoverynews.com/the-2026-ai-power-shift-17020"
-      ],
-      "date": "2026-06-03T13:02:20.512985+00:00"
-    },
-    {
-      "title": "Ability Lane Launches Centralized Platform to Accelerate Disability Innovation Nationwide",
-      "urls": [
-        "https://finance.yahoo.com/news/ability-lane-launches-centralized-platform-130000024.html"
-      ],
-      "date": "2026-06-03T13:32:07.459938+00:00"
-    },
-    {
       "title": "Americans Doubt Global Efforts to Tame Climate Change, Survey Shows Growing Skepticism",
       "urls": [
         "https://developer.dogpile.com",
@@ -4281,7 +4261,21 @@
         "https://markets.businessinsider.com/news/currencies/bybit-named-to-fortune-crypto-100-as-it-accelerates-its-vision-for-the-new-financial-platform-1036245059"
       ],
       "date": "2026-06-13T13:02:17.532575+00:00"
+    },
+    {
+      "title": "Hugging Face Launches ml‑intern Open‑Source Agent to Streamline LLM Post‑Training Workflow",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
+        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "https://huggingface.co/papers/trending",
+        "https://insights.marvin-42.com/articles/hugging-face-says-open-source-ai-is-scaling-fast-and-fragmenting-into-specialized-ecosystems",
+        "https://huggingface.co",
+        "https://www.techaimag.com/latest-hugging-face-models/hugging-face-models-may-2026-trending-tools",
+        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602"
+      ],
+      "date": "2026-06-13T13:32:24.826837+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T13:02:17.532638+00:00"
+  "lastUpdated": "2026-06-13T13:32:24.826917+00:00"
 }
