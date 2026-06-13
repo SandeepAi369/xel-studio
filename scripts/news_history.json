@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Applause Report Shows 78 Percent Of Companies Use AI For Accessibility Testing",
-      "urls": [
-        "https://finance.yahoo.com/news/applause-report-78-organizations-leverage-130700989.html",
-        "https://wnyt.com/third-hour-today/local-college-students-unveil-assistive-tech-at-create-symposium",
-        "https://www.edsurge.com/news/2026-05-19-amid-school-techlash-accessibility-advocates-worry-about-exclusion",
-        "https://www.msn.com/en-us/news/other/gao-cites-training-and-funding-gaps-in-assistive-tech-for-students/gm-GM8EF0F72E?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/making-learning-accessible-with-assistive-tech-for-kids/gm-GM50C8C490?ocid=BingNewsVerp",
-        "https://thejournal.com/articles/2026/05/27/section-504-in-the-digital-era-a-1973-disability-law-isnt-built-for-todays-schools.aspx"
-      ],
-      "date": "2026-06-03T01:01:27.282761+00:00"
-    },
-    {
       "title": "Venture For ClimateTech Announces Sixth Cohort Of High‑Impact Climate Startups",
       "urls": [
         "https://www.reuters.com/sustainability/cop/iran-war-is-supercharging-clean-energy-transition-un-climate-chief-says-2026-04-30",
@@ -4285,7 +4273,20 @@
         "https://www.bbc.com/news/articles/cvgzzndx780o?at_medium=RSS&at_campaign=rss"
       ],
       "date": "2026-06-13T00:31:51.881837+00:00"
+    },
+    {
+      "title": "CDC Reports One In Thirty‑One U.S. Children Are On Autism Spectrum",
+      "urls": [
+        "https://www.youtube.com/watch?v=Ciny5G4jT3k",
+        "https://www.instagram.com/reel/DH9Xs_4iXgm?hl=en",
+        "https://www.cbsnews.com/texas/video/irving-police-search-for-missing-27-year-old-man-with-autism",
+        "https://www.cbsnews.com/newyork/video/east-harlem-school-for-children-with-autism-moving-to-new-space",
+        "https://www.youtube.com/watch?v=ZKBaL9N7b8M",
+        "https://www.facebook.com/WorldNewsTonight/videos/cdc-estimated-1-in-31-children-in-america-has-autism/3080732415434985",
+        "https://autism.org/autism-in-the-wild"
+      ],
+      "date": "2026-06-13T01:01:57.718486+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T00:31:51.881902+00:00"
+  "lastUpdated": "2026-06-13T01:01:57.718554+00:00"
 }
