@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Instagram Sparks Discussion on Delivering Quality Healthcare to Remote Towns",
-      "urls": [
-        "https://www.instagram.com/reel/DZDf6dhEQQz"
-      ],
-      "date": "2026-06-03T11:02:17.228311+00:00"
-    },
-    {
       "title": "Atlascloud.ai Compares Top AI Video Generation Models in Detailed 2026 Guide",
       "urls": [
         "https://medium.com/data-science-collective/the-2026-ai-video-production-playbook-bc683d5b85da",
@@ -4281,7 +4274,16 @@
         "https://huggingface.co/blog/daya-shankar/open-source-llms"
       ],
       "date": "2026-06-13T10:32:04.396991+00:00"
+    },
+    {
+      "title": "Linux News Platforms Expand Coverage With Tutorials, Distributions And Community Updates",
+      "urls": [
+        "https://www.linuxtoday.com",
+        "https://www.ghacks.net/category/linux",
+        "https://news.rs1.es"
+      ],
+      "date": "2026-06-13T11:02:20.007364+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T10:32:04.397088+00:00"
+  "lastUpdated": "2026-06-13T11:02:20.007431+00:00"
 }
