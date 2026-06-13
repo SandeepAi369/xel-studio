@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sabastian Sawe Breaks Two-Hour Marathon Barrier and Sets New World Record",
-      "urls": [
-        "https://www.latimes.com/sports/story/2026-04-26/sabastian-sawe-sets-world-record-breaks-two-hour-marathon-mark",
-        "https://www.msn.com/en-gb/news/newsbirmingham/watch-world-record-breaking-pole-vault-superstar-mondo-duplantis-inspires-birmingham-ticket/ar-AA24hIUP?ocid=BingNewsVerp",
-        "https://www.wkrn.com/sports/tn-sports-hof-2026-achievement-award-recipients"
-      ],
-      "date": "2026-06-03T00:31:14.558313+00:00"
-    },
-    {
       "title": "Applause Report Shows 78 Percent Of Companies Use AI For Accessibility Testing",
       "urls": [
         "https://finance.yahoo.com/news/applause-report-78-organizations-leverage-130700989.html",
@@ -4285,7 +4276,16 @@
         "https://www.youtube.com/watch?v=MVBBcES6y3s"
       ],
       "date": "2026-06-13T00:02:21.498730+00:00"
+    },
+    {
+      "title": "Elon Musk Becomes First Trillionaire As SpaceX Valuation Hits $2.1 Trillion",
+      "urls": [
+        "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
+        "https://www.theguardian.com/football/live/2026/jun/12/canada-v-bosnia-and-herzegovina-world-cup-2026-live",
+        "https://www.bbc.com/news/articles/cvgzzndx780o?at_medium=RSS&at_campaign=rss"
+      ],
+      "date": "2026-06-13T00:31:51.881837+00:00"
     }
   ],
-  "lastUpdated": "2026-06-13T00:02:21.498799+00:00"
+  "lastUpdated": "2026-06-13T00:31:51.881902+00:00"
 }
