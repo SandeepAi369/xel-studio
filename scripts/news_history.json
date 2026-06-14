@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils Five AI‑Focused Announcements at Build 2026 Conference for Developers",
-      "urls": [
-        "https://mashable.com/tech/how-to-watch-microsoft-build-2026",
-        "https://www.techloy.com/5-biggest-announcements-from-microsoft-build-2026-and-what-they-reveal-about-ais-future"
-      ],
-      "date": "2026-06-04T01:03:03.269867+00:00"
-    },
-    {
-      "title": "Industry Cuts Over 150,000 Jobs Amid Ongoing Workforce Reductions",
-      "urls": [
-        "https://newsroom.intel.com/corporate/intel-client-computing-and-innovation-leadership-news-may-2026",
-        "https://news.adobe.com/news/2026/03/leadership-update",
-        "https://enginerds.com/insights/Tech%20Business%20%26%20Industry%20Moves/Leadership%20changes/2026/02/09",
-        "https://tech-insider.org/tech-layoffs-2026-ai-workforce-impact",
-        "https://www.christianandtimbers.com/insights/the-april-2026-c-suite-succession-wave-what-the-months-leadership-changes-reveal",
-        "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes"
-      ],
-      "date": "2026-06-04T01:31:46.247567+00:00"
-    },
-    {
       "title": "Mistral AI Launches Workflows Platform to Streamline Enterprise AI Orchestration",
       "urls": [
         "https://www.infoq.com/news/2026/04/mistral-ai-workflows"
@@ -4276,7 +4256,17 @@
         "https://www.innocaption.com/recentnews/accessible-technology-for-deaf-and-hard-of-hearing"
       ],
       "date": "2026-06-14T01:02:16.623172+00:00"
+    },
+    {
+      "title": "2026 Midterm Election Results Covered By AP News, NBC News, Democracy Now, and NPR",
+      "urls": [
+        "https://apnews.com/projects/elections-2026",
+        "https://www.nbcnews.com/politics/2026-election",
+        "https://www.democracynow.org",
+        "https://www.npr.org/sections/elections"
+      ],
+      "date": "2026-06-14T01:31:54.454365+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T01:02:16.623238+00:00"
+  "lastUpdated": "2026-06-14T01:31:54.454456+00:00"
 }
