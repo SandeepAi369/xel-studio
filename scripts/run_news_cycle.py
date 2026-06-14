@@ -77,6 +77,23 @@ TAVILY_RESULT_COUNT = 10
 IMAGE_WIDTH = 1024
 IMAGE_HEIGHT = 576  # 16:9 cinematic ratio
 
+# ─── Pipeline timing budget (keeps the whole run under the 15-min job wall) ───
+# Measured from process start. Image GENERATION must stop early enough to leave
+# IMAGE_FALLBACK_RESERVE seconds for the verified stock fallback + Cloudinary
+# upload + Firestore write + git push — otherwise the GitHub Actions job hits
+# its 15-min timeout mid-generation and the fallback never runs (the root cause
+# of "silently exits before hitting the stock photo fallback").
+PIPELINE_START = time.time()
+PIPELINE_SOFT_BUDGET = 760        # ~12.7 min of script runtime (headroom under the 15-min wall after setup)
+IMAGE_FALLBACK_RESERVE = 110      # secs reserved AFTER generation for fallback + upload + DB + push
+IMAGE_MIN_GEN_WINDOW = 45         # below this many secs left → skip g4f, go straight to verified fallback
+
+
+def _image_generation_deadline() -> float:
+    """Absolute time.time() by which g4f generation must stop so the verified
+    fallback + upload still complete before the 15-min job wall."""
+    return PIPELINE_START + PIPELINE_SOFT_BUDGET - IMAGE_FALLBACK_RESERVE
+
 # ─── Search Queries (Balanced: ~50% AI/Tech, ~50% Diverse) ───
 #
 # Distribution:
@@ -816,11 +833,12 @@ def _upload_bytes_to_cloudinary(image_bytes: bytes, article_id: str) -> str | No
     return None
 
 
-def _call_g4f_image(prompt: str) -> bytes | None:
-    """Attempt image generation via g4f multi-provider system."""
+def _call_g4f_image(prompt: str, deadline_ts: float | None = None) -> bytes | None:
+    """Attempt image generation via g4f. `deadline_ts` lets the engine use the
+    full remaining window while guaranteeing it returns in time for the fallback."""
     try:
         from gemini_image_gen import generate_image_gemini
-        return generate_image_gemini(prompt)
+        return generate_image_gemini(prompt, deadline_ts=deadline_ts)
     except ImportError:
         print("  ⚠️ g4f image gen not available (g4f not installed?)")
         return None
@@ -855,14 +873,21 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
     enhanced_prompt = clean_prompt
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # ── Attempt 1: g4f (multi-provider) ──────────────────────
-    g4f_bytes = _call_g4f_image(enhanced_prompt)
-
-    # ── Attempt 2: Pipeline-level retry (if first try failed) ──
-    if not g4f_bytes:
-        print(f"  🔄 First image attempt failed — retrying in 5s...")
-        time.sleep(5)
-        g4f_bytes = _call_g4f_image(enhanced_prompt)
+    # ── g4f generation, deadline-coordinated ─────────────────
+    # The engine now retries aggressively (parallel batches, round-robin over
+    # the model chain) until this deadline, instead of bailing after a handful
+    # of quick failures. The deadline reserves IMAGE_FALLBACK_RESERVE seconds so
+    # the verified stock fallback + upload always finish before the job wall.
+    gen_deadline = _image_generation_deadline()
+    gen_window = gen_deadline - time.time()
+    if gen_window < IMAGE_MIN_GEN_WINDOW:
+        print(f"  ⏱️ Only {gen_window:.0f}s left before fallback reserve — "
+              f"skipping g4f, going straight to the verified stock photo")
+        g4f_bytes = None
+    else:
+        print(f"  ⏱️ g4f window: {gen_window:.0f}s "
+              f"(reserving {IMAGE_FALLBACK_RESERVE}s for fallback + upload)")
+        g4f_bytes = _call_g4f_image(enhanced_prompt, deadline_ts=gen_deadline)
 
     if g4f_bytes:
         result = _upload_bytes_to_cloudinary(g4f_bytes, article_id)
@@ -1548,9 +1573,11 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
 # ─── Entry Point ─────────────────────────────────────────────
 
 if __name__ == "__main__":
-    MAX_RETRY_SECONDS = 840  # 14 minutes total budget (15 min workflow - 1 min buffer)
+    # Share one time origin with the image-generation deadline so the whole run
+    # (incl. retries) stays under the 15-min job wall.
+    MAX_RETRY_SECONDS = PIPELINE_SOFT_BUDGET  # keep total runtime under the 15-min job wall
     RETRY_WAIT = 60          # wait 60 seconds between retries
-    start_time = time.time()
+    start_time = PIPELINE_START
     attempt = 0
 
     while True:
