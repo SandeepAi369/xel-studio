@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT-5.5 Model with Instant and Voice Features for Real‑Time Applications",
-      "urls": [
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
-        "https://www.youtube.com/watch?v=RspKXuNi_iE",
-        "https://www.youtube.com/watch?v=vzAII7vUj68",
-        "https://www.youtube.com/watch?v=U0giyi5-374",
-        "https://www.youtube.com/watch?v=oMRCR6KqZac",
-        "https://www.youtube.com/watch?v=uFzfbAPZOhc",
-        "https://fazm.ai/t/openai-new-model-release-may-2026",
-        "https://releasebot.io/updates/openai"
-      ],
-      "date": "2026-06-04T13:32:06.906676+00:00"
-    },
-    {
       "title": "U.S. Solar and Energy Storage Pipeline Surges While Wind Development Declines",
       "urls": [
         "https://pv-magazine-usa.com/2026/06/03/the-pipeline-for-new-u-s-solar-and-energy-storage-surges-as-wind-dies-down-report",
@@ -4281,7 +4265,23 @@
         "https://earthtimes.org/ai-medical-discovery-patient-care"
       ],
       "date": "2026-06-14T13:02:38.313457+00:00"
+    },
+    {
+      "title": "Dualmedia Shows Streaming, Infrastructure and Web3 Transforming Esports Landscape in 2026",
+      "urls": [
+        "https://esportsinsider.com",
+        "https://escharts.com/news/esports-trends-2026-industry-figures-insights",
+        "https://www.youtube.com/watch?v=8oEYl-4iCfc",
+        "https://www.youtube.com/watch?v=Rd5EGTV3hXw",
+        "https://www.youtube.com/watch?v=Yp49i62LrHs",
+        "https://www.youtube.com/watch?v=_MdVhvwTpHI",
+        "https://www.instagram.com/reel/DS-YDBdCV4I",
+        "https://www.youtube.com/watch?v=F6t1xjUEWTI",
+        "https://www.dualmedia.com/streaming-esports-web3-gaming-tech-2026",
+        "https://escharts.com/news/business-strategies-deals-and-transformations-esports-industry-q1-2026"
+      ],
+      "date": "2026-06-14T13:32:19.970320+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T13:02:38.313530+00:00"
+  "lastUpdated": "2026-06-14T13:32:19.970385+00:00"
 }
