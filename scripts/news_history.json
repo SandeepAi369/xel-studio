@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Misrepresents Updated Climate Projections, Ignoring Accelerating Global Warming Trends",
-      "urls": [
-        "https://apnews.com/article/trump-climate-change-fact-check-93087e5b751dc15852a33c734576f375"
-      ],
-      "date": "2026-06-04T23:02:18.399324+00:00"
-    },
-    {
       "title": "FINN Partners Highlights Record‑Setting Performances and New Disciplines at 2026 Olympic Games",
       "urls": [
         "https://planet.news/article/march-2026-sports-achievements-records",
@@ -4271,7 +4264,15 @@
         "https://ai2.work/blog/computex-2026-roundup-nvidia-intel-and-amd-s-ai-showdown"
       ],
       "date": "2026-06-14T23:01:47.162630+00:00"
+    },
+    {
+      "title": "2026 Healthcare Predictions Highlight AI, Blockchain, and Decentralized Innovation Future",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439",
+        "https://www.medscape.com/p11/10-medical-breakthroughs-transforming-clinical-care-2026a1000gr9"
+      ],
+      "date": "2026-06-14T23:31:30.815701+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T23:01:47.162707+00:00"
+  "lastUpdated": "2026-06-14T23:31:30.815776+00:00"
 }
