@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medical AI Faces Patient Silence That Could Reshape Digital Diagnosis",
-      "urls": [
-        "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/ai-in-healthcare-2026-the-system-may-be-broken-lets-try-to-fix-it",
-        "https://medicalxpress.com/news/2026-05-patients-clam-medical-ai-gap.html"
-      ],
-      "date": "2026-06-04T12:33:16.052186+00:00"
-    },
-    {
-      "title": "India Gaming Market Nears $9.2 Billion Milestone With Rapid Growth Before 2030",
-      "urls": [
-        "https://www.financialexpress.com/life/lifestyle-gaming-levels-up-in-india-market-set-to-cross-9-2-billion-before-2030-4251335"
-      ],
-      "date": "2026-06-04T13:02:14.565358+00:00"
-    },
-    {
       "title": "OpenAI Releases GPT-5.5 Model with Instant and Voice Features for Real‑Time Applications",
       "urls": [
         "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
@@ -4289,7 +4274,14 @@
         "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more"
       ],
       "date": "2026-06-14T12:32:12.407266+00:00"
+    },
+    {
+      "title": "Artificial Intelligence Merges Medical Discovery With Patient Care to Accelerate Treatments",
+      "urls": [
+        "https://earthtimes.org/ai-medical-discovery-patient-care"
+      ],
+      "date": "2026-06-14T13:02:38.313457+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T12:32:12.407339+00:00"
+  "lastUpdated": "2026-06-14T13:02:38.313530+00:00"
 }
