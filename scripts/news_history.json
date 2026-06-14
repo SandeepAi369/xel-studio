@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "WLOS Issues 2026 Hurricane Outlook for Western North Carolina, Emphasizing Storm Preparation",
-      "urls": [
-        "https://wlos.com/news/local/2026-hurricane-season-outlook-western-north-carolina-storm-preparation-flood-safety-asheville-weather-data",
-        "https://www.reddit.com/r/preppers/comments/1rl1wh3/atlantic_hurricane_season_lesson_learned_in_2025",
-        "https://www.reddit.com/r/hurricane/comments/1rbve7c/2026_hurricane_names"
-      ],
-      "date": "2026-06-04T08:32:59.409183+00:00"
-    },
-    {
       "title": "Google DeepMind Launches Co‑Scientist Multi‑Agent AI Partner to Speed Research",
       "urls": [
         "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research"
@@ -4276,7 +4267,14 @@
         "https://apnews.com/article/un-global-economic-forecast-growth-inflation-oil-e79c64aeb599030c308e6c93eaf9b350"
       ],
       "date": "2026-06-14T08:32:21.789645+00:00"
+    },
+    {
+      "title": "World Resources Institute Launches Climate Change News Hub Featuring Research‑Backed Reports",
+      "urls": [
+        "https://www.wri.org/climate-change-news"
+      ],
+      "date": "2026-06-14T09:02:23.946150+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T08:32:21.789696+00:00"
+  "lastUpdated": "2026-06-14T09:02:23.946223+00:00"
 }
