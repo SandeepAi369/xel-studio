@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Workflows Platform to Streamline Enterprise AI Orchestration",
-      "urls": [
-        "https://www.infoq.com/news/2026/04/mistral-ai-workflows"
-      ],
-      "date": "2026-06-04T02:01:43.859472+00:00"
-    },
-    {
       "title": "Apple Unveils AI Accessibility Features for iPhone, Mac, and Vision Pro",
       "urls": [
         "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026",
@@ -4266,7 +4259,14 @@
         "https://www.npr.org/sections/elections"
       ],
       "date": "2026-06-14T01:31:54.454365+00:00"
+    },
+    {
+      "title": "California Exempts Linux From Upcoming Age‑Verification Law After Public Backlash",
+      "urls": [
+        "https://www.msn.com/en-us/technology/software/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash/ar-AA241igg?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-14T02:02:15.186553+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T01:31:54.454456+00:00"
+  "lastUpdated": "2026-06-14T02:02:15.186606+00:00"
 }
