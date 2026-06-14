@@ -24,11 +24,22 @@ import io
 import os
 import sys
 import time
-import struct
 import signal
 import threading
 import requests
 from typing import Optional
+
+# Content verification stack (pixel/colour metrics). These are now HARD
+# dependencies — declared in scripts/requirements.txt. If they are somehow
+# missing we fall back to magic-byte+size checks only and warn LOUDLY, because
+# that means an unverified image could reach the frontend.
+try:
+    from PIL import Image as _PILImage
+    import numpy as _np
+    _HAVE_CV = True
+except Exception as _cv_err:  # pragma: no cover
+    _HAVE_CV = False
+    _CV_IMPORT_ERR = str(_cv_err)
 
 # ─── Configuration ───────────────────────────────────────────
 
@@ -48,6 +59,39 @@ MIN_IMAGE_SIZE = 2000              # Minimum valid image size in bytes
 BACKOFF_BASE = 2                   # Exponential backoff base (2^attempt seconds)
 GLOBAL_TIME_BUDGET = 780           # 13 min — use the full 15-min workflow aggressively
 HEARTBEAT_INTERVAL = 10            # Print heartbeat every N seconds during waits
+
+# ─── Content verification thresholds ─────────────────────────
+# Calibrated against real flux output vs. blank/solid baselines (June 2026):
+#   real flux:  contrast≈65  entropy≈5.7  detail≈159  colours≈3580
+#   solid junk: contrast=0   entropy=0    detail=0    colours=1
+# Thresholds sit FAR below real images so legitimate (even minimalist) photos
+# always pass, while blank / solid / corrupt / placeholder images are rejected.
+MIN_LONG_EDGE_PX = 256             # Reject thumbnails smaller than this on the long edge
+BRIGHTNESS_MIN = 10                # Reject near-pure-black (mean luma 0-255)
+BRIGHTNESS_MAX = 246               # Reject near-pure-white
+MIN_CONTRAST_STD = 5.0             # Reject flat / near-uniform images
+MIN_ENTROPY_BITS = 1.5             # Reject images with almost no information
+MIN_DETAIL_VAR = 5.0              # Reject images with no edges/detail (gradient var)
+MIN_UNIQUE_COLORS = 24             # Reject near-solid-colour images (5-bit/channel quantised)
+ANALYSIS_MAX_EDGE = 256            # Downscale long edge to this before computing metrics (speed)
+
+# Average-hash blocklist for known provider error / placeholder images.
+# Add 16-hex-char aHash strings here (or one per line in bad_image_hashes.txt)
+# to instantly reject recurring junk frames from a flaky provider.
+KNOWN_BAD_HASHES: set[str] = set()
+# Perceptual hashes of frames rejected earlier in THIS run (reset per engine call)
+# so a provider that keeps returning the same junk image is abandoned quickly.
+_RUN_REJECTED_HASHES: set[str] = set()
+_BAD_HASH_FILE = os.path.join(os.path.dirname(__file__), "bad_image_hashes.txt")
+try:
+    if os.path.exists(_BAD_HASH_FILE):
+        with open(_BAD_HASH_FILE) as _bf:
+            for _line in _bf:
+                _h = _line.strip().lower()
+                if _h and not _h.startswith("#"):
+                    KNOWN_BAD_HASHES.add(_h)
+except Exception:
+    pass
 
 
 # ─── Image Validation ────────────────────────────────────────
@@ -69,43 +113,71 @@ def _detect_image_format(data: bytes) -> str:
     return "unknown"
 
 
-def _get_image_dimensions(data: bytes, fmt: str) -> tuple[int, int]:
-    """Extract width × height from image bytes."""
-    try:
-        if fmt == "png" and len(data) >= 24:
-            w = struct.unpack(">I", data[16:20])[0]
-            h = struct.unpack(">I", data[20:24])[0]
-            return (w, h)
-        if fmt == "jpeg" and len(data) >= 100:
-            # Quick JPEG dimension scan
-            try:
-                from PIL import Image
-                img = Image.open(io.BytesIO(data))
-                return img.size
-            except ImportError:
-                return (0, 0)  # Can't determine without PIL
-        if fmt == "webp" and len(data) >= 30:
-            # VP8 header
-            if data[12:16] == b"VP8 ":
-                w = struct.unpack("<H", data[26:28])[0] & 0x3FFF
-                h = struct.unpack("<H", data[28:30])[0] & 0x3FFF
-                return (w, h)
-    except Exception:
-        pass
-    return (0, 0)
+def _average_hash(img: "_PILImage.Image") -> str:
+    """8×8 average-hash → 16-char hex string. Used to match known junk frames."""
+    small = img.convert("L").resize((8, 8), _PILImage.BILINEAR)
+    px = _np.asarray(small, dtype=_np.float32)
+    bits = (px > px.mean()).flatten()
+    val = 0
+    for b in bits:
+        val = (val << 1) | int(b)
+    return f"{val:016x}"
+
+
+def _content_metrics(img: "_PILImage.Image") -> dict:
+    """
+    Compute pixel/colour statistics that separate a real image from a blank,
+    solid-colour, or corrupt one. Operates on a downscaled RGB copy for speed.
+    Returns: brightness, contrast, entropy, detail, colors, ahash.
+    """
+    rgb = img.convert("RGB")
+    w, h = rgb.size
+    # Downscale (preserve aspect) so metrics are O(256²) regardless of input size
+    scale = ANALYSIS_MAX_EDGE / max(w, h)
+    if scale < 1.0:
+        rgb = rgb.resize((max(1, int(w * scale)), max(1, int(h * scale))), _PILImage.BILINEAR)
+
+    arr = _np.asarray(rgb, dtype=_np.float32)
+    gray = arr.mean(axis=2)
+
+    brightness = float(gray.mean())
+    contrast = float(gray.std())
+
+    # Unique colours, quantised to 5 bits/channel (matches the calibration table)
+    q = (arr.astype(_np.uint16) >> 3)
+    codes = (q[..., 0].astype(_np.uint32) << 10) | (q[..., 1].astype(_np.uint32) << 5) | q[..., 2].astype(_np.uint32)
+    colors = int(_np.unique(codes).size)
+
+    # Shannon entropy of the luminance histogram (bits)
+    hist, _ = _np.histogram(gray, bins=64, range=(0, 255))
+    p = hist.astype(_np.float64)
+    p = p[p > 0] / p.sum()
+    entropy = float(-(p * _np.log2(p)).sum()) if p.size else 0.0
+
+    # Detail / edge energy — variance of first differences (no-edge ⇒ ~0)
+    detail = float(_np.diff(gray, axis=1).var() + _np.diff(gray, axis=0).var())
+
+    return {
+        "brightness": brightness, "contrast": contrast, "entropy": entropy,
+        "detail": detail, "colors": colors, "ahash": _average_hash(img),
+    }
 
 
 def _validate_image(data: bytes, model_name: str) -> dict:
     """
-    Validate image bytes. Returns dict with:
-      valid: bool, format: str, width: int, height: int, 
-      size: int, issues: list[str]
+    Verify that `data` is a real, non-blank, decodable image — not an error
+    page, a truncated download, or a solid-colour / placeholder frame.
+
+    Returns dict with:
+      valid, format, width, height, size, issues (list), metrics (dict)
+    A False `valid` is the signal the engine uses to REGENERATE.
     """
     result = {
         "valid": False, "format": "unknown",
-        "width": 0, "height": 0, "size": len(data), "issues": [],
+        "width": 0, "height": 0, "size": len(data), "issues": [], "metrics": {},
     }
 
+    # ── Cheap gates first: size, then magic-byte / HTML-error sniff ──
     if len(data) < MIN_IMAGE_SIZE:
         result["issues"].append(f"too small ({len(data)} bytes, min {MIN_IMAGE_SIZE})")
         return result
@@ -114,11 +186,10 @@ def _validate_image(data: bytes, model_name: str) -> dict:
     result["format"] = fmt
 
     if fmt == "unknown":
-        # Check if it's actually text/HTML error
         try:
             text_preview = data[:200].decode("utf-8", errors="replace")
             if "<html" in text_preview.lower() or "error" in text_preview.lower():
-                result["issues"].append(f"received HTML/error page instead of image")
+                result["issues"].append("received HTML/error page instead of image")
                 return result
         except Exception:
             pass
@@ -129,45 +200,57 @@ def _validate_image(data: bytes, model_name: str) -> dict:
         result["issues"].append("SVG format not suitable for news thumbnails")
         return result
 
-    w, h = _get_image_dimensions(data, fmt)
-    result["width"] = w
-    result["height"] = h
-
-    if w > 0 and h > 0 and (w < 100 or h < 100):
-        result["issues"].append(f"dimensions too small ({w}×{h})")
+    # ── Content verification requires PIL+numpy ──
+    if not _HAVE_CV:
+        # Hard deps missing — accept on magic-byte+size only, but warn LOUDLY.
+        print(f"      ⚠️⚠️ CONTENT VERIFICATION DISABLED (Pillow/numpy not installed: "
+              f"{globals().get('_CV_IMPORT_ERR', '?')}). Accepting on format+size only.")
+        result["valid"] = True
         return result
 
-    # Check pixel diversity — reject solid-color / all-black images
-    if fmt in ("png", "jpeg", "webp") and len(data) > 4000:
-        try:
-            from PIL import Image as PILImage
-            img = PILImage.open(io.BytesIO(data))
-            # Sample pixels from 4 corners + center
-            w_img, h_img = img.size
-            if w_img > 10 and h_img > 10:
-                sample_points = [
-                    (5, 5), (w_img - 5, 5), (5, h_img - 5),
-                    (w_img - 5, h_img - 5), (w_img // 2, h_img // 2),
-                    (w_img // 4, h_img // 4), (w_img * 3 // 4, h_img * 3 // 4),
-                ]
-                pixels = [img.getpixel(p) for p in sample_points]
-                # Check if all pixels are nearly identical (solid color)
-                unique_pixels = set()
-                for px in pixels:
-                    if isinstance(px, tuple):
-                        unique_pixels.add(px[:3])  # RGB only
-                    else:
-                        unique_pixels.add((px, px, px))
-                if len(unique_pixels) <= 2:
-                    # Check if it's all-black or all-white
-                    avg_brightness = sum(sum(p) for p in unique_pixels) / (len(unique_pixels) * 3)
-                    if avg_brightness < 15 or avg_brightness > 245:
-                        result["issues"].append(f"solid-color image detected (brightness: {avg_brightness:.0f})")
-                        return result
-        except ImportError:
-            pass  # PIL not available, skip diversity check
-        except Exception:
-            pass  # Don't fail validation on diversity check errors
+    # ── Decode for real — catches truncated/corrupt files that pass magic bytes ──
+    try:
+        img = _PILImage.open(io.BytesIO(data))
+        img.load()
+    except Exception as e:
+        result["issues"].append(f"undecodable image ({type(e).__name__}: {str(e)[:60]})")
+        return result
+
+    w, h = img.size
+    result["width"], result["height"] = w, h
+    if max(w, h) < MIN_LONG_EDGE_PX:
+        result["issues"].append(f"dimensions too small ({w}×{h}, min long edge {MIN_LONG_EDGE_PX})")
+        return result
+
+    # ── Pixel/colour metrics ──
+    try:
+        m = _content_metrics(img)
+    except Exception as e:
+        # Never let a metrics bug reject a real image — accept but note it.
+        result["issues"].append(f"metrics error, accepted on decode ({str(e)[:60]})")
+        result["valid"] = True
+        return result
+    result["metrics"] = m
+
+    # Known-junk perceptual-hash blocklist
+    if m["ahash"] in KNOWN_BAD_HASHES:
+        result["issues"].append(f"matches known placeholder/error image (ahash {m['ahash']})")
+        return result
+
+    # Content gates — any failure ⇒ regenerate
+    if m["brightness"] < BRIGHTNESS_MIN or m["brightness"] > BRIGHTNESS_MAX:
+        result["issues"].append(f"brightness out of range ({m['brightness']:.0f})")
+    if m["contrast"] < MIN_CONTRAST_STD:
+        result["issues"].append(f"flat/near-uniform (contrast {m['contrast']:.1f} < {MIN_CONTRAST_STD})")
+    if m["colors"] < MIN_UNIQUE_COLORS:
+        result["issues"].append(f"near-solid colour ({m['colors']} colours < {MIN_UNIQUE_COLORS})")
+    if m["entropy"] < MIN_ENTROPY_BITS:
+        result["issues"].append(f"no information (entropy {m['entropy']:.2f} < {MIN_ENTROPY_BITS})")
+    if m["detail"] < MIN_DETAIL_VAR:
+        result["issues"].append(f"no detail/edges (detail {m['detail']:.1f} < {MIN_DETAIL_VAR})")
+
+    if result["issues"]:
+        return result
 
     result["valid"] = True
     return result
@@ -303,17 +386,32 @@ def _generate_single(client, model: str, prompt: str) -> bytes | None:
         if not image_bytes:
             return None
 
-        # Validate
+        # Verify content — a False verdict here is what triggers REGENERATE
         validation = _validate_image(image_bytes, model)
+        m = validation.get("metrics") or {}
         if not validation["valid"]:
             issues = ", ".join(validation["issues"])
-            print(f"      ❌ Validation failed: {issues}")
+            print(f"      ❌ Verification failed: {issues}")
+            # Remember the junk frame for this run so we don't re-accept a
+            # near-identical placeholder a provider keeps handing back.
+            if m.get("ahash"):
+                _RUN_REJECTED_HASHES.add(m["ahash"])
+            return None
+
+        # Defence-in-depth: if this exact frame was rejected earlier this run,
+        # treat it as junk even if metrics now wobble above threshold.
+        if m.get("ahash") and m["ahash"] in _RUN_REJECTED_HASHES:
+            print(f"      ❌ Verification failed: repeat of a frame already rejected this run (ahash {m['ahash']})")
             return None
 
         total = time.time() - t0
         dims = f"{validation['width']}×{validation['height']}" if validation["width"] > 0 else "?"
-        print(f"      ✅ Valid {validation['format'].upper()} {dims} "
-              f"({len(image_bytes):,} bytes, {total:.1f}s)")
+        metric_str = ""
+        if m:
+            metric_str = (f" | contrast {m['contrast']:.0f} entropy {m['entropy']:.1f}b "
+                          f"detail {m['detail']:.0f} colours {m['colors']}")
+        print(f"      ✅ Verified {validation['format'].upper()} {dims} "
+              f"({len(image_bytes):,} bytes, {total:.1f}s){metric_str}")
         return image_bytes
 
     except TimeoutError as te:
@@ -352,6 +450,7 @@ def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
     engine_start = time.time()
     total_attempts = 0
     models_tried = []
+    _RUN_REJECTED_HASHES.clear()  # fresh junk-frame memory for this article
 
     print(f"\n  {'━'*55}")
     print(f"  🖼️  IMAGE ENGINE v2.0 (g4f only)")
