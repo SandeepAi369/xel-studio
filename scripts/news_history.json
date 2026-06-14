@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Live Newspaper TV Highlights Biggest Sports Stories of 2026 Across Global Competitions",
-      "urls": [
-        "https://livenewspapertv.com/2026/06/01/the-biggest-sports-stories-of-2026",
-        "https://www.bbc.co.uk/sport",
-        "https://sixsports.in"
-      ],
-      "date": "2026-06-04T05:31:45.118092+00:00"
-    },
-    {
       "title": "JetBrains Releases Study On Developer Use Of AI Coding Tools In 2026",
       "urls": [
         "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
@@ -4263,7 +4254,14 @@
         "https://www.linkedin.com/pulse/7-mental-health-topics-defining-well-being-2026-smriti-garg-qqvmf"
       ],
       "date": "2026-06-14T05:02:21.384644+00:00"
+    },
+    {
+      "title": "Dan Marino Foundation Highlights 2026 Assistive Technology Tools for Autism",
+      "urls": [
+        "https://danmarinofoundation.org/assistive-technology-autism-tools"
+      ],
+      "date": "2026-06-14T05:32:07.850304+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T05:02:21.384717+00:00"
+  "lastUpdated": "2026-06-14T05:32:07.850370+00:00"
 }
