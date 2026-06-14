@@ -847,13 +847,28 @@ def _call_g4f_image(prompt: str, deadline_ts: float | None = None) -> bytes | No
         return None
 
 
+def _call_rest_image(prompt: str, deadline_ts: float | None = None) -> bytes | None:
+    """Official, documented free/credit-tier REST providers (Together AI,
+    Nebius Studio…). Verified, key-pool paced, with failover. Runs AFTER g4f and
+    is INERT (returns None) until a provider key (TOGETHER_API_KEY /
+    NEBIUS_API_KEY) is configured."""
+    try:
+        from rest_image_providers import generate_rest_image
+        return generate_rest_image(prompt, deadline_ts=deadline_ts)
+    except Exception as e:
+        print(f"  ⚠️ REST image tier error: {str(e)[:120]}")
+        return None
+
+
 def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str = "",
                               fallback_category: str = "") -> str:
     """
     Image pipeline (verified at every tier):
-      1. g4f (Flux …) → content-verified → Cloudinary
-      2. Relevant stock photo (Openverse, keyless) → content-verified → Cloudinary
-      3. Gray placeholder → Cloudinary  (absolute last resort)
+      1. g4f (Flux …) → content-verified → Cloudinary           (free, first)
+      2. Official REST providers (Together/Nebius free tiers)   (verified; inert
+         until a key is set) → Cloudinary
+      3. Relevant stock photo (Openverse, keyless) → content-verified → Cloudinary
+      4. Gray placeholder → Cloudinary  (absolute last resort)
 
     `fallback_query` (usually the article title) drives the stock search so the
     fallback image is on-topic rather than a generic gray box.
@@ -895,8 +910,19 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
             print(f"  ✅ IMAGE SUCCESS (g4f verified → Cloudinary)")
             return result
 
+    # ── Tier 2: official REST providers (free/credit tiers) ──
+    # Right after g4f, per the tier design. Inert until a key is configured.
+    # Capped so it can't eat the time reserved for the stock fallback + upload.
+    rest_deadline = min(time.time() + 50, PIPELINE_START + PIPELINE_SOFT_BUDGET - 60)
+    rest_bytes = _call_rest_image(enhanced_prompt, rest_deadline)
+    if rest_bytes:
+        result = _upload_bytes_to_cloudinary(rest_bytes, article_id)
+        if result:
+            print(f"  ✅ IMAGE SUCCESS (REST provider verified → Cloudinary)")
+            return result
+
     # ── Fallback 1: relevant, real stock photo (verified) ────
-    print(f"  ⚠️ g4f produced no verified image — trying on-topic stock photo")
+    print(f"  ⚠️ no verified image from g4f or REST tier — trying on-topic stock photo")
     stock_bytes = _fetch_relevant_stock_image(fallback_query or clean_prompt, fallback_category)
     if stock_bytes:
         result = _upload_bytes_to_cloudinary(stock_bytes, article_id)
