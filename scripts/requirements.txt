@@ -16,5 +16,11 @@ cerebras-cloud-sdk>=1.0.0
 # g4f (gpt4free) — multi-provider image generation (Flux, DALL-E, SDXL)
 g4f[image]>=7.5.7
 
+# Image content verification (pixel/colour metrics) — HARD dependency.
+# Declared explicitly so verification is never silently skipped if the g4f
+# image extra changes what it pulls in.
+pillow>=10.0.0
+numpy>=1.24.0
+
 # Environment Variables (local dev only)
 python-dotenv>=1.0.0

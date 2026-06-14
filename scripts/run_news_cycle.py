@@ -680,6 +680,92 @@ PLACEHOLDER_IMAGE_URL = (
 )
 
 
+def _openverse_search(query: str) -> list[str]:
+    """Return candidate image URLs from Openverse for a query.
+
+    Restricted to CC0 + Public Domain Mark — open-licence images that carry
+    NO attribution requirement, so the fallback needs no on-page credit and no
+    frontend change. (Switch to license=cc0,pdm,by if you later add a caption.)
+    """
+    params = {"q": query, "page_size": 8, "mature": "false", "license": "cc0,pdm"}
+    try:
+        resp = requests.get(
+            "https://api.openverse.org/v1/images/",
+            params=params, timeout=15,
+            headers={"User-Agent": "XeL-Studio-News/1.0"},
+        )
+        if resp.status_code != 200:
+            return []
+        out = []
+        for item in resp.json().get("results", []) or []:
+            url = item.get("url") or item.get("thumbnail")
+            if url:
+                out.append(url)
+        return out
+    except Exception:
+        return []
+
+
+def _fetch_relevant_stock_image(query: str, category: str = "") -> bytes | None:
+    """
+    Last-resort BEFORE the gray placeholder: fetch a real, on-topic photo from
+    Openverse (keyless) and run it through the SAME content verifier the
+    generator uses. A news site should never show a gray box when a real,
+    relevant image is one HTTP call away.
+
+    Openverse matches poorly on long headlines, so we degrade the query:
+    full-ish title → first 2 keywords → category → "technology". Only CC0 /
+    Public Domain images are used, so no attribution is ever required.
+    """
+    try:
+        from gemini_image_gen import _validate_image  # reuse the robust verifier
+    except Exception:
+        _validate_image = None
+
+    clean = re.sub(r"[^\w\s]", " ", query or "")
+    clean = re.sub(r"\s+", " ", clean).strip()
+    words = clean.split()
+
+    # Query-degradation ladder (most → least specific)
+    candidates = []
+    if len(words) >= 3:
+        candidates.append(" ".join(words[:4]))
+    if len(words) >= 2:
+        candidates.append(" ".join(words[:2]))
+    if category:
+        candidates.append(category.strip())
+    candidates.append("technology")
+    # de-dup while preserving order
+    seen = set()
+    candidates = [c for c in candidates if c and not (c.lower() in seen or seen.add(c.lower()))]
+
+    for q in candidates:
+        urls = _openverse_search(q)
+        if not urls:
+            continue
+        print(f"  🔎 Openverse: {len(urls)} CC0/public-domain candidates for '{q}'")
+        for url in urls:
+            try:
+                img = requests.get(
+                    url, timeout=20,
+                    headers={"User-Agent": "Mozilla/5.0 XeL-Studio/2.0"},
+                ).content
+            except Exception:
+                continue
+            if _validate_image is not None:
+                v = _validate_image(img, "openverse")
+                if not v["valid"]:
+                    continue
+                print(f"  ✅ Stock photo verified ({v['width']}×{v['height']}, "
+                      f"{len(img):,} bytes) for '{q}'")
+            elif len(img) < 5000:
+                continue
+            return img
+
+    print(f"  ⚠️ No verifiable Openverse result (tried: {', '.join(candidates)})")
+    return None
+
+
 def _upload_placeholder_to_cloudinary(article_id: str) -> str:
     """Upload a placeholder image to Cloudinary, or return static URL as ultimate fallback."""
     print(f"  🔄 Uploading placeholder to Cloudinary...")
@@ -743,11 +829,16 @@ def _call_g4f_image(prompt: str) -> bytes | None:
         return None
 
 
-def generate_and_upload_image(prompt: str, article_id: str) -> str:
+def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str = "",
+                              fallback_category: str = "") -> str:
     """
-    Image pipeline:
-      1. g4f (Flux, DALL-E 3, SDXL, SD3) → Cloudinary
-      2. Placeholder → Cloudinary
+    Image pipeline (verified at every tier):
+      1. g4f (Flux …) → content-verified → Cloudinary
+      2. Relevant stock photo (Openverse, keyless) → content-verified → Cloudinary
+      3. Gray placeholder → Cloudinary  (absolute last resort)
+
+    `fallback_query` (usually the article title) drives the stock search so the
+    fallback image is on-topic rather than a generic gray box.
     """
 
     print(f"\n{'─'*50}")
@@ -776,11 +867,20 @@ def generate_and_upload_image(prompt: str, article_id: str) -> str:
     if g4f_bytes:
         result = _upload_bytes_to_cloudinary(g4f_bytes, article_id)
         if result:
-            print(f"  ✅ IMAGE SUCCESS (g4f → Cloudinary)")
+            print(f"  ✅ IMAGE SUCCESS (g4f verified → Cloudinary)")
             return result
 
-    # ── Fallback: Placeholder ────────────────────────────────
-    print(f"  ⚠️ g4f failed after 2 attempts, using placeholder")
+    # ── Fallback 1: relevant, real stock photo (verified) ────
+    print(f"  ⚠️ g4f produced no verified image — trying on-topic stock photo")
+    stock_bytes = _fetch_relevant_stock_image(fallback_query or clean_prompt, fallback_category)
+    if stock_bytes:
+        result = _upload_bytes_to_cloudinary(stock_bytes, article_id)
+        if result:
+            print(f"  ✅ IMAGE SUCCESS (stock photo → Cloudinary)")
+            return result
+
+    # ── Fallback 2: Gray placeholder (last resort) ───────────
+    print(f"  ⚠️ Stock fallback unavailable, using gray placeholder")
     return _upload_placeholder_to_cloudinary(article_id)
 
 
@@ -1391,7 +1491,8 @@ STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
     article_id = str(uuid.uuid4())
     heartbeat.start("generating image...")
     try:
-        image_url = generate_and_upload_image(image_prompt, article_id)
+        image_url = generate_and_upload_image(image_prompt, article_id,
+                                              fallback_query=title, fallback_category=category)
     except Exception as img_err:
         print(f"⚠️ Image generation crashed: {str(img_err)[:200]} — using placeholder")
         image_url = PLACEHOLDER_IMAGE_URL
