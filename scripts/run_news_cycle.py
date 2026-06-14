@@ -864,9 +864,9 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
                               fallback_category: str = "") -> str:
     """
     Image pipeline (verified at every tier):
-      1. g4f (Flux …) → content-verified → Cloudinary           (free, first)
-      2. Official REST providers (Together/Nebius free tiers)   (verified; inert
-         until a key is set) → Cloudinary
+      1. Cloudflare Workers AI (PRIMARY) → content-verified → Cloudinary
+         (inert until CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID are set)
+      2. g4f (Flux …) → content-verified → Cloudinary           (free fallback)
       3. Relevant stock photo (Openverse, keyless) → content-verified → Cloudinary
       4. Gray placeholder → Cloudinary  (absolute last resort)
 
@@ -875,7 +875,7 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
     """
 
     print(f"\n{'─'*50}")
-    print("🖼️ IMAGE PIPELINE (g4f → Placeholder)")
+    print("🖼️ IMAGE PIPELINE (Cloudflare → g4f → stock → placeholder)")
     print(f"   Article ID: {article_id}")
     print(f"{'─'*50}")
 
@@ -888,11 +888,21 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
     enhanced_prompt = clean_prompt
     print(f"   Prompt: \"{clean_prompt[:80]}...\"")
 
-    # ── g4f generation, deadline-coordinated ─────────────────
-    # The engine now retries aggressively (parallel batches, round-robin over
-    # the model chain) until this deadline, instead of bailing after a handful
-    # of quick failures. The deadline reserves IMAGE_FALLBACK_RESERVE seconds so
-    # the verified stock fallback + upload always finish before the job wall.
+    # ── Tier 1: Cloudflare Workers AI (PRIMARY) ──────────────
+    # Fast, verified, key-pool paced. Inert (instant None) until
+    # CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID are configured.
+    rest_deadline = min(time.time() + 50, PIPELINE_START + PIPELINE_SOFT_BUDGET - 60)
+    rest_bytes = _call_rest_image(enhanced_prompt, rest_deadline)
+    if rest_bytes:
+        result = _upload_bytes_to_cloudinary(rest_bytes, article_id)
+        if result:
+            print(f"  ✅ IMAGE SUCCESS (Cloudflare verified → Cloudinary)")
+            return result
+
+    # ── Tier 2: g4f generation, deadline-coordinated ─────────
+    # The engine retries aggressively (round-robin over the model chain) until
+    # this deadline. The deadline reserves IMAGE_FALLBACK_RESERVE seconds so the
+    # verified stock fallback + upload always finish before the job wall.
     gen_deadline = _image_generation_deadline()
     gen_window = gen_deadline - time.time()
     if gen_window < IMAGE_MIN_GEN_WINDOW:
@@ -910,19 +920,8 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
             print(f"  ✅ IMAGE SUCCESS (g4f verified → Cloudinary)")
             return result
 
-    # ── Tier 2: official REST providers (free/credit tiers) ──
-    # Right after g4f, per the tier design. Inert until a key is configured.
-    # Capped so it can't eat the time reserved for the stock fallback + upload.
-    rest_deadline = min(time.time() + 50, PIPELINE_START + PIPELINE_SOFT_BUDGET - 60)
-    rest_bytes = _call_rest_image(enhanced_prompt, rest_deadline)
-    if rest_bytes:
-        result = _upload_bytes_to_cloudinary(rest_bytes, article_id)
-        if result:
-            print(f"  ✅ IMAGE SUCCESS (REST provider verified → Cloudinary)")
-            return result
-
     # ── Fallback 1: relevant, real stock photo (verified) ────
-    print(f"  ⚠️ no verified image from g4f or REST tier — trying on-topic stock photo")
+    print(f"  ⚠️ no verified image from Cloudflare or g4f — trying on-topic stock photo")
     stock_bytes = _fetch_relevant_stock_image(fallback_query or clean_prompt, fallback_category)
     if stock_bytes:
         result = _upload_bytes_to_cloudinary(stock_bytes, article_id)

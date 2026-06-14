@@ -45,7 +45,9 @@ RATE_COOLDOWN = float(os.getenv("REST_RATE_COOLDOWN", "30"))
 MAX_ATTEMPTS_PER_PROVIDER = int(os.getenv("REST_MAX_ATTEMPTS", "6"))
 
 
-# ─── Provider payload builders (OpenAI-compatible images/generations) ─────────
+# ─── Provider adapters ───────────────────────────────────────────────────────
+# Cloudflare Workers AI is the PRIMARY tier (its own /accounts/{id}/ai/run shape).
+# Together / Nebius are kept as OpenAI-compatible options (inert without keys).
 
 def _together_payload(prompt: str, seed: int) -> dict:
     return {
@@ -63,16 +65,73 @@ def _nebius_payload(prompt: str, seed: int) -> dict:
     }
 
 
+def _cloudflare_payload(prompt: str, seed: int) -> dict:
+    # Workers AI flux-1-schnell takes prompt + steps (1-8); returns base64 JPEG.
+    return {"prompt": prompt, "steps": int(os.getenv("CLOUDFLARE_STEPS", "6"))}
+
+
+def _cloudflare_url() -> str:
+    acct = os.getenv("CLOUDFLARE_ACCOUNT_ID", "")
+    model = os.getenv("CLOUDFLARE_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
+    return f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}"
+
+
+def _extract_openai(data: dict):
+    """OpenAI-compatible response → bytes (url download or b64_json)."""
+    items = data.get("data") or data.get("images") or []
+    if isinstance(items, dict):
+        items = [items]
+    for it in items:
+        if isinstance(it, str):
+            cand = it
+        elif isinstance(it, dict):
+            cand = it.get("url") or it.get("b64_json") or it.get("image") or it.get("b64")
+        else:
+            cand = None
+        if not cand:
+            continue
+        if isinstance(cand, str) and cand.startswith("http"):
+            try:
+                return requests.get(cand, timeout=DOWNLOAD_TIMEOUT,
+                                    headers={"User-Agent": "XeL-Studio/3.0"}).content
+            except Exception:
+                continue
+        s = cand.split(",", 1)[1] if isinstance(cand, str) and cand.startswith("data:") else cand
+        try:
+            return base64.b64decode(s)
+        except Exception:
+            continue
+    return None
+
+
+def _extract_cloudflare(data: dict):
+    """Workers AI flux response → bytes. Shape: {"result": {"image": "<base64>"}}."""
+    result = data.get("result") if isinstance(data, dict) else None
+    b64 = result.get("image") if isinstance(result, dict) else None
+    if not b64:
+        return None
+    try:
+        return base64.b64decode(b64)
+    except Exception:
+        return None
+
+
 PROVIDERS = {
+    "cloudflare": {
+        "url": _cloudflare_url, "env": "CLOUDFLARE_API_TOKEN",
+        "payload": _cloudflare_payload, "extract": _extract_cloudflare,
+        "requires": ["CLOUDFLARE_ACCOUNT_ID"],
+        "min_interval": float(os.getenv("CLOUDFLARE_MIN_INTERVAL", "1.5")),
+    },
     "together": {
-        "url": "https://api.together.ai/v1/images/generations",
-        "env": "TOGETHER_API_KEY", "payload": _together_payload,
-        "min_interval": float(os.getenv("TOGETHER_MIN_INTERVAL", "6.5")),  # ~9 rpm, safe on free
+        "url": lambda: "https://api.together.ai/v1/images/generations",
+        "env": "TOGETHER_API_KEY", "payload": _together_payload, "extract": _extract_openai,
+        "requires": [], "min_interval": float(os.getenv("TOGETHER_MIN_INTERVAL", "6.5")),
     },
     "nebius": {
-        "url": "https://api.studio.nebius.ai/v1/images/generations",
-        "env": "NEBIUS_API_KEY", "payload": _nebius_payload,
-        "min_interval": float(os.getenv("NEBIUS_MIN_INTERVAL", "2.2")),    # 30 rpm documented
+        "url": lambda: "https://api.studio.nebius.ai/v1/images/generations",
+        "env": "NEBIUS_API_KEY", "payload": _nebius_payload, "extract": _extract_openai,
+        "requires": [], "min_interval": float(os.getenv("NEBIUS_MIN_INTERVAL", "2.2")),
     },
 }
 
@@ -132,37 +191,6 @@ def _pace(provider: str, min_interval: float, deadline_ts):
     return True
 
 
-# ─── Response → bytes ────────────────────────────────────────────────────────
-
-def _extract_bytes(data: dict):
-    """Pull image bytes from an OpenAI-compatible images response (url or
-    b64_json), tolerating minor schema variations."""
-    items = data.get("data") or data.get("images") or []
-    if isinstance(items, dict):
-        items = [items]
-    for it in items:
-        if isinstance(it, str):
-            cand = it
-        elif isinstance(it, dict):
-            cand = it.get("url") or it.get("b64_json") or it.get("image") or it.get("b64")
-        else:
-            cand = None
-        if not cand:
-            continue
-        if isinstance(cand, str) and cand.startswith("http"):
-            try:
-                return requests.get(cand, timeout=DOWNLOAD_TIMEOUT,
-                                    headers={"User-Agent": "XeL-Studio/3.0"}).content
-            except Exception:
-                continue
-        s = cand.split(",", 1)[1] if isinstance(cand, str) and cand.startswith("data:") else cand
-        try:
-            return base64.b64decode(s)
-        except Exception:
-            continue
-    return None
-
-
 def _classify(status: int) -> str:
     if status == 200:
         return "ok"
@@ -195,7 +223,7 @@ def _try_provider(name: str, spec: dict, pool: _KeyPool, prompt: str, deadline_t
         seed = random.randint(1, 2_000_000_000)
         try:
             r = requests.post(
-                spec["url"],
+                spec["url"](),
                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
                 json=spec["payload"](prompt, seed),
                 timeout=REQUEST_TIMEOUT,
@@ -229,7 +257,7 @@ def _try_provider(name: str, spec: dict, pool: _KeyPool, prompt: str, deadline_t
             print(f"  ⚠️ [{name}#{attempt}] non-JSON 200 — backoff")
             time.sleep(SOFT_BACKOFF)
             continue
-        img = _extract_bytes(payload)
+        img = spec["extract"](payload)
         if not img:
             print(f"  ⚠️ [{name}#{attempt}] no image in 200 response — retry")
             continue
@@ -248,17 +276,21 @@ def _try_provider(name: str, spec: dict, pool: _KeyPool, prompt: str, deadline_t
 
 
 def _active_providers():
-    """Ordered list of (name, spec, pool) for providers that have ≥1 key set."""
-    order = [p.strip() for p in os.getenv("REST_IMAGE_PRIORITY", "together,nebius").split(",") if p.strip()]
+    """Ordered list of (name, spec, pool) for providers that are fully configured
+    (have ≥1 key AND any extra `requires` env, e.g. Cloudflare's account id)."""
+    order = [p.strip() for p in os.getenv("REST_IMAGE_PRIORITY", "cloudflare").split(",") if p.strip()]
     out = []
     for name in order:
         spec = PROVIDERS.get(name)
         if not spec:
             continue
-        raw = os.getenv(spec["env"], "")
-        keys = [k for k in raw.split(",") if k.strip()]
-        if keys:
-            out.append((name, spec, _KeyPool(keys)))
+        keys = [k for k in os.getenv(spec["env"], "").split(",") if k.strip()]
+        if not keys:
+            continue
+        if any(not os.getenv(req) for req in spec.get("requires", [])):
+            print(f"  ⚠️ [{name}] key set but missing {spec['requires']} — skipping")
+            continue
+        out.append((name, spec, _KeyPool(keys)))
     return out
 
 
