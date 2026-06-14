@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Europe Launches AI Initiative to Boost Accessibility for Persons With Disabilities",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities"
-      ],
-      "date": "2026-06-04T07:31:37.520864+00:00"
-    },
-    {
       "title": "Focused Tech Giant Faces Investor Scrutiny After Latest Earnings In Market Outlook",
       "urls": [
         "https://www.cnbc.com/video/2026/05/01/heres-which-ai-focused-tech-giant-has-the-most-to-prove-after-the-latest-round-of-earnings.html"
@@ -4263,7 +4256,17 @@
         "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news"
       ],
       "date": "2026-06-14T07:02:13.372775+00:00"
+    },
+    {
+      "title": "Times Highlights AI Breakthroughs Transforming Healthcare Across Diagnosis, Drug Development, and Patient Care",
+      "urls": [
+        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
+        "https://www.youtube.com/watch?v=oPeJPs_wsFI",
+        "https://www.youtube.com/watch?v=VEk7SrR_xmQ",
+        "https://www.youtube.com/watch?v=M7viub_lZRQ"
+      ],
+      "date": "2026-06-14T07:32:14.737308+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T07:02:13.372850+00:00"
+  "lastUpdated": "2026-06-14T07:32:14.737408+00:00"
 }
