@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Massachusetts Tech CEO Earns $280 Million, Tops State Compensation Rankings",
-      "urls": [
-        "https://www.telegram.com/story/news/2026/05/13/highest-paid-tech-ceo-massachusetts-wayfair-niraj-shah-boston-ma/90040988007",
-        "https://www.ajc.com/business/2026/02/homegrown-ai-unicorn-with-a-high-tech-beltline-hq-announces-new-ceo"
-      ],
-      "date": "2026-06-04T17:02:06.753770+00:00"
-    },
-    {
       "title": "Mongabay Launches Wildlife Conservation News Hub to Centralize Environmental Updates",
       "urls": [
         "https://news.mongabay.com/list/wildlife-conservation"
@@ -4285,7 +4277,18 @@
         "https://www.emarketer.com/content/faq-on-esports--what-marketers-need-know-about-competitive-gaming--streaming--gaming-creators"
       ],
       "date": "2026-06-14T17:01:51.093862+00:00"
+    },
+    {
+      "title": "United Nations Europe Launches AI Initiative to Advance Accessibility for Persons With Disabilities",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://www.reddit.com/r/ChatGPT/comments/17sg5mg/as_an_articulate_disabled_person_i_feel_like_ai",
+        "https://www.reddit.com/r/accessibility/comments/1acl4mc/disabilities_and_ai?rdt=41599",
+        "https://www.reddit.com/r/ArtistHate/comments/1glrr0m/thoughts_in_disabled_people_using_ai",
+        "https://www.reddit.com/r/disability/comments/1j7fshj/ai_to_accommodatesupport_disability"
+      ],
+      "date": "2026-06-14T17:31:29.156905+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T17:01:51.093929+00:00"
+  "lastUpdated": "2026-06-14T17:31:29.156967+00:00"
 }
