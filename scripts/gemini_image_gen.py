@@ -24,7 +24,7 @@ import io
 import os
 import sys
 import time
-import signal
+import queue
 import threading
 import requests
 from typing import Optional
@@ -44,21 +44,55 @@ except Exception as _cv_err:  # pragma: no cover
 # ─── Configuration ───────────────────────────────────────────
 
 # Models in priority order — ONLY verified working models (June 2026)
-# Uses g4f Auto provider for all models — no hardcoded providers
+# Uses g4f Auto provider for all models — no hardcoded providers.
+# NOTE on "2× retries": the OLD engine stopped after a fixed ~7 attempts (which
+# is why it died in ~2 min). The retry *limit* is now governed by MAX_ROUNDS
+# (default 40) × these models, bounded by the deadline — i.e. far more than 2×
+# the old attempt budget, while actually using the full time window.
 MODEL_CHAIN = [
-    {"name": "flux",        "label": "FLUX",        "quality": "best",   "avg_time": 25, "retries": 3},
-    {"name": "flux-dev",    "label": "FLUX Dev",    "quality": "best",   "avg_time": 22, "retries": 2},
-    {"name": "gpt-image",   "label": "GPT Image",   "quality": "good",   "avg_time": 20, "retries": 2},
+    {"name": "flux",        "label": "FLUX",      "quality": "best"},
+    {"name": "flux-dev",    "label": "FLUX Dev",  "quality": "best"},
+    {"name": "gpt-image",   "label": "GPT Image", "quality": "good"},
 ]
 
-MAX_RETRIES_PER_MODEL = 3          # Attempts per model before moving to next
-PER_ATTEMPT_TIMEOUT = 60           # Max seconds for a single generation attempt
+PER_ATTEMPT_TIMEOUT = 75           # Max seconds to wait on one generation request
 DOWNLOAD_TIMEOUT = 30              # Max seconds for image download
 DOWNLOAD_RETRIES = 3               # Download retry count
 MIN_IMAGE_SIZE = 2000              # Minimum valid image size in bytes
-BACKOFF_BASE = 2                   # Exponential backoff base (2^attempt seconds)
-GLOBAL_TIME_BUDGET = 780           # 13 min — use the full 15-min workflow aggressively
+GLOBAL_TIME_BUDGET = 780           # Fallback budget when no deadline is passed in
 HEARTBEAT_INTERVAL = 10            # Print heartbeat every N seconds during waits
+
+# ─── Aggression / multi-request config (env-tunable) ─────────
+# The engine cycles the model chain in ROUNDS until the time budget is (almost)
+# gone, firing PARALLEL_REQUESTS request(s) per batch.
+#
+# IMPORTANT (measured June 2026): the free HF-backed providers enforce a
+# per-IP queue of *one* in-flight request ("Queue full for IP … max: 1") and a
+# small ZeroGPU quota. Firing 2+ parallel, or hammering with no pause, COLLIDES
+# and BURNS the quota — making things worse, not better. So we default to 1
+# concurrent request and PACE retries with adaptive backoff. Raise IMAGE_PARALLEL
+# only if you add an authenticated HF token that lifts the per-IP queue limit.
+PARALLEL_REQUESTS = int(os.getenv("IMAGE_PARALLEL", "1"))   # concurrent requests per batch
+MAX_ROUNDS = int(os.getenv("IMAGE_MAX_ROUNDS", "40"))      # hard cap on full-chain cycles
+MIN_ATTEMPT_BUDGET = 35            # don't START a batch with less than this much time left
+SOFT_BACKOFF = 5                   # pause after a transient miss (timeout / empty / verify-fail)
+HARD_BACKOFF = 15                  # longer pause after a quota/auth/queue error, to let it breathe
+# After this many CONSECUTIVE hard provider blocks (quota/api_key/queue/402…),
+# the IP is clearly throttled — stop spinning and hand off to the verified stock
+# fallback rather than burning the rest of the window for nothing.
+MAX_HARD_FAILS = int(os.getenv("IMAGE_MAX_HARD_FAILS", "9"))
+GLOBAL_HEARTBEAT_SECS = 8          # watchdog prints engine status at least this often
+
+# Substrings that mark a "hard" provider block (won't recover by instant retry)
+_HARD_ERROR_MARKERS = (
+    "quota", "api_key", "api key", "queue full", "unauthorized", "forbidden",
+    "401", "402", "403", "payment", "exceeded", "no auth", "rate limit", "429",
+)
+
+
+def _is_hard_error(msg: str) -> bool:
+    m = (msg or "").lower()
+    return any(k in m for k in _HARD_ERROR_MARKERS)
 
 # ─── Content verification thresholds ─────────────────────────
 # Calibrated against real flux output vs. blank/solid baselines (June 2026):
@@ -318,201 +352,237 @@ def _download_image(url: str) -> bytes | None:
     return None
 
 
-def _generate_single(client, model: str, prompt: str) -> bytes | None:
+def _generate_one_threadsafe(client, model: str, prompt: str, wid: int) -> tuple:
     """
-    Single generation attempt: request → download → validate.
-    Background heartbeat thread keeps GitHub Actions alive during
-    the blocking API call. SIGALRM enforces PER_ATTEMPT_TIMEOUT.
-    Returns valid image bytes or None.
+    One generation attempt (request → download → verify), safe to run inside a
+    worker thread. Uses NO signals (SIGALRM only works on the main thread); a
+    hung request is bounded by the per-BATCH deadline instead, and its thread is
+    a daemon so it can never block process exit.
+
+    Returns (bytes | None, kind) where kind ∈
+      "ok"     verified image
+      "hard"   provider block that won't recover by instant retry (quota/auth/queue)
+      "verify" generated but failed content verification (regenerate)
+      "soft"   transient miss (timeout / empty / download fail)
     """
     t0 = time.time()
-
-    # ── Background heartbeat during the blocking API call ──
-    beat_stop = threading.Event()
-    def _api_heartbeat():
-        tick = 0
-        while not beat_stop.wait(8):
-            tick += 1
-            elapsed = time.time() - t0
-            _heartbeat(f"generating with {model}... {elapsed:.0f}s")
-
-    beat_thread = threading.Thread(target=_api_heartbeat, daemon=True)
-    beat_thread.start()
-
     try:
-        _heartbeat(f"requesting {model}...")
-
-        # ── Enforce per-attempt timeout via SIGALRM ──
-        try:
-            def _attempt_timeout(signum, frame):
-                raise TimeoutError(f"{model} timed out after {PER_ATTEMPT_TIMEOUT}s")
-
-            signal.signal(signal.SIGALRM, _attempt_timeout)
-            signal.alarm(PER_ATTEMPT_TIMEOUT)
-        except (ValueError, OSError):
-            pass  # signal.alarm not available (non-main thread / Windows)
-
-        try:
-            response = client.images.generate(
-                model=model,
-                prompt=prompt,
-                response_format="url",
-            )
-        finally:
-            try:
-                signal.alarm(0)  # Cancel alarm
-            except (ValueError, OSError):
-                pass
-
-        # Stop the heartbeat thread now that the API call is done
-        beat_stop.set()
-
-        elapsed = time.time() - t0
-        print(f"      ⏱️ Response in {elapsed:.1f}s")
-
-        if not response or not response.data or len(response.data) == 0:
-            print(f"      ⚠️ Empty response from {model}")
-            return None
-
-        image_url = response.data[0].url
-        if not image_url:
-            print(f"      ⚠️ No URL in response from {model}")
-            return None
-
-        print(f"      📎 Got URL, downloading...")
-
-        # Download
-        image_bytes = _download_image(image_url)
-        if not image_bytes:
-            return None
-
-        # Verify content — a False verdict here is what triggers REGENERATE
-        validation = _validate_image(image_bytes, model)
-        m = validation.get("metrics") or {}
-        if not validation["valid"]:
-            issues = ", ".join(validation["issues"])
-            print(f"      ❌ Verification failed: {issues}")
-            # Remember the junk frame for this run so we don't re-accept a
-            # near-identical placeholder a provider keeps handing back.
-            if m.get("ahash"):
-                _RUN_REJECTED_HASHES.add(m["ahash"])
-            return None
-
-        # Defence-in-depth: if this exact frame was rejected earlier this run,
-        # treat it as junk even if metrics now wobble above threshold.
-        if m.get("ahash") and m["ahash"] in _RUN_REJECTED_HASHES:
-            print(f"      ❌ Verification failed: repeat of a frame already rejected this run (ahash {m['ahash']})")
-            return None
-
-        total = time.time() - t0
-        dims = f"{validation['width']}×{validation['height']}" if validation["width"] > 0 else "?"
-        metric_str = ""
-        if m:
-            metric_str = (f" | contrast {m['contrast']:.0f} entropy {m['entropy']:.1f}b "
-                          f"detail {m['detail']:.0f} colours {m['colors']}")
-        print(f"      ✅ Verified {validation['format'].upper()} {dims} "
-              f"({len(image_bytes):,} bytes, {total:.1f}s){metric_str}")
-        return image_bytes
-
-    except TimeoutError as te:
-        elapsed = time.time() - t0
-        print(f"      ⏰ {te} (after {elapsed:.1f}s) — skipping to next model")
-        return None
+        response = client.images.generate(model=model, prompt=prompt, response_format="url")
     except Exception as e:
-        elapsed = time.time() - t0
-        print(f"      ❌ Error after {elapsed:.1f}s: {str(e)[:150]}")
-        return None
-    finally:
-        beat_stop.set()  # Always ensure heartbeat thread stops
+        msg = str(e)
+        kind = "hard" if _is_hard_error(msg) else "soft"
+        tag = "🚫" if kind == "hard" else "⚠️"
+        print(f"      {tag} [{model}#{wid}] {kind} error after {time.time()-t0:.0f}s: {msg[:120]}")
+        return None, kind
+
+    if not response or not getattr(response, "data", None):
+        print(f"      ⚠️ [{model}#{wid}] empty response ({time.time()-t0:.0f}s)")
+        return None, "soft"
+    url = response.data[0].url
+    if not url:
+        print(f"      ⚠️ [{model}#{wid}] no URL in response")
+        return None, "soft"
+
+    image_bytes = _download_image(url)
+    if not image_bytes:
+        return None, "soft"
+
+    # Verify content — a False verdict here is what drives REGENERATE.
+    v = _validate_image(image_bytes, model)
+    m = v.get("metrics") or {}
+    if not v["valid"]:
+        print(f"      ❌ [{model}#{wid}] verification failed: {', '.join(v['issues'])}")
+        if m.get("ahash"):
+            _RUN_REJECTED_HASHES.add(m["ahash"])  # remember junk frame for this run
+        return None, "verify"
+    if m.get("ahash") and m["ahash"] in _RUN_REJECTED_HASHES:
+        print(f"      ❌ [{model}#{wid}] repeat of a frame already rejected this run")
+        return None, "verify"
+
+    dims = f"{v['width']}×{v['height']}" if v["width"] > 0 else "?"
+    metric_str = ""
+    if m:
+        metric_str = (f" | contrast {m['contrast']:.0f} entropy {m['entropy']:.1f}b "
+                      f"detail {m['detail']:.0f} colours {m['colors']}")
+    print(f"      ✅ [{model}#{wid}] Verified {v['format'].upper()} {dims} "
+          f"({len(image_bytes):,} bytes, {time.time()-t0:.1f}s){metric_str}", flush=True)
+    return image_bytes, "ok"
+
+
+def _generate_batch(client, model: str, prompt: str, n: int, deadline_ts: float) -> tuple:
+    """
+    Fire `n` generation attempt(s) and return the FIRST verified frame.
+    Bounded by PER_ATTEMPT_TIMEOUT *and* the global deadline. Workers are daemon
+    threads delivering results through a queue, so a stuck provider request can
+    never stall the engine or block process exit — we simply stop waiting.
+
+    Returns (bytes | None, batch_kind) where batch_kind is "ok" on success,
+    "hard" if every completed worker hit a hard provider block, else "soft".
+    """
+    budget = deadline_ts - time.time()
+    if budget < MIN_ATTEMPT_BUDGET:
+        return None, "soft"
+    timeout = min(PER_ATTEMPT_TIMEOUT + DOWNLOAD_TIMEOUT, budget)
+
+    result_q: "queue.Queue" = queue.Queue()
+
+    def _worker(worker_id: int):
+        try:
+            result_q.put(_generate_one_threadsafe(client, model, prompt, worker_id))
+        except Exception as e:
+            print(f"      ❌ [{model}#{worker_id}] worker crash: {str(e)[:100]}")
+            result_q.put((None, "soft"))
+
+    for i in range(n):
+        threading.Thread(target=_worker, args=(i + 1,), daemon=True).start()
+
+    hard_stop = time.time() + timeout
+    collected = 0
+    kinds = []
+    while collected < n and time.time() < hard_stop:
+        try:
+            wait_for = max(0.2, min(GLOBAL_HEARTBEAT_SECS, hard_stop - time.time()))
+            img, kind = result_q.get(timeout=wait_for)
+        except queue.Empty:
+            _heartbeat(f"{model} batch in flight... {n - collected} pending, "
+                       f"{hard_stop - time.time():.0f}s left")
+            continue
+        collected += 1
+        kinds.append(kind)
+        if img:
+            return img, "ok"  # first verified frame wins; remaining workers abandoned
+    if collected < n:
+        _heartbeat(f"{model} batch timed out ({n - collected} still pending) — moving on")
+    # A batch counts as "hard" only if something completed and ALL of it was hard.
+    batch_kind = "hard" if (kinds and all(k == "hard" for k in kinds)) else "soft"
+    return None, batch_kind
 
 
 # ─── Main Engine ─────────────────────────────────────────────
 
-def generate_image_gemini(prompt: str, retries: int = 2) -> bytes | None:
+def generate_image_gemini(prompt: str, retries: int = 2,
+                          deadline_ts: "float | None" = None) -> bytes | None:
     """
-    g4f Image Generation Engine v2.0
+    g4f Image Generation Engine v3.0 — aggressive, budget-driven, multi-request.
 
-    Strategy:
-      For each model in MODEL_CHAIN:
-        Try up to MAX_RETRIES_PER_MODEL times
-        With exponential backoff between retries
-        Stop immediately if global time budget exceeded
+    Key properties (fixes "cuts off in 2 min / silently exits before fallback"):
+      • Fires PARALLEL_REQUESTS concurrent generations per batch.
+      • Cycles the whole MODEL_CHAIN in ROUNDS until `deadline_ts` is nearly
+        reached — it NO LONGER stops after a fixed attempt count, so it uses the
+        FULL time window instead of bailing after ~7 quick failures.
+      • A global watchdog heartbeat guarantees continuous "alive" output.
+      • Fully crash-guarded: any error returns None (never raises, never exits
+        the process) so the caller can always reach its verified stock fallback.
 
-    Returns: image bytes or None
+    `deadline_ts` is an absolute time.time() value. When omitted it defaults to
+    now + GLOBAL_TIME_BUDGET (used by the standalone test).
     """
+    engine_start = time.time()
+    if deadline_ts is None:
+        deadline_ts = engine_start + GLOBAL_TIME_BUDGET
+    budget = max(0.0, deadline_ts - engine_start)
+
     try:
         from g4f.client import Client as G4FClient
-    except ImportError:
-        print("  ⚠️ g4f not installed — cannot generate images")
+    except Exception as e:
+        print(f"  ⚠️ g4f unavailable ({str(e)[:80]}) — cannot generate images")
+        return None
+    try:
+        client = G4FClient()
+    except Exception as e:
+        print(f"  ⚠️ g4f client init failed ({str(e)[:80]})")
         return None
 
-    client = G4FClient()
-    engine_start = time.time()
-    total_attempts = 0
-    models_tried = []
     _RUN_REJECTED_HASHES.clear()  # fresh junk-frame memory for this article
 
+    # ── Global watchdog heartbeat (runs for the WHOLE engine lifetime) ──
+    status = {"round": 0, "model": "-", "batches": 0}
+    hb_stop = threading.Event()
+
+    def _watchdog():
+        while not hb_stop.wait(GLOBAL_HEARTBEAT_SECS):
+            el = time.time() - engine_start
+            left = deadline_ts - time.time()
+            print(f"    💓 [{time.strftime('%H:%M:%S')}] engine alive — round {status['round']}, "
+                  f"model {status['model']}, batch #{status['batches']}, "
+                  f"{el:.0f}s used / {left:.0f}s left", flush=True)
+
+    threading.Thread(target=_watchdog, daemon=True).start()
+
     print(f"\n  {'━'*55}")
-    print(f"  🖼️  IMAGE ENGINE v2.0 (g4f only)")
-    print(f"  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    print(f"  🖼️  IMAGE ENGINE v3.0 (g4f, aggressive multi-request)")
     print(f"  📝 Prompt: \"{prompt[:80]}{'...' if len(prompt) > 80 else ''}\"")
-    print(f"  🔧 Models: {len(MODEL_CHAIN)} | Retries/model: {MAX_RETRIES_PER_MODEL} | Budget: {GLOBAL_TIME_BUDGET}s")
-    print(f"  {'━'*55}")
-    _heartbeat("engine started")
+    print(f"  🔧 {len(MODEL_CHAIN)} models | {PARALLEL_REQUESTS}× parallel/batch | "
+          f"≤{MAX_ROUNDS} rounds | budget {budget:.0f}s")
+    print(f"  {'━'*55}", flush=True)
 
-    for model_idx, model_info in enumerate(MODEL_CHAIN):
-        model_name = model_info["name"]
-        model_label = model_info["label"]
-        model_quality = model_info["quality"]
+    try:
+        total_batches = 0
+        hard_streak = 0          # consecutive hard provider blocks across the whole run
+        bail_reason = None
+        for round_no in range(1, MAX_ROUNDS + 1):
+            if deadline_ts - time.time() < MIN_ATTEMPT_BUDGET:
+                bail_reason = f"out of budget ({deadline_ts - time.time():.0f}s left)"
+                break
+            status["round"] = round_no
+            print(f"\n  ╔═ ROUND {round_no}/{MAX_ROUNDS} "
+                  f"({deadline_ts - time.time():.0f}s left) ═══════════════")
 
-        # Check global time budget
-        elapsed_total = time.time() - engine_start
-        remaining = GLOBAL_TIME_BUDGET - elapsed_total
-        if remaining < 30:
-            print(f"\n  ⏰ Time budget nearly exhausted ({elapsed_total:.0f}s used, {remaining:.0f}s left)")
-            break
+            for model_info in MODEL_CHAIN:
+                left = deadline_ts - time.time()
+                if left < MIN_ATTEMPT_BUDGET:
+                    break
+                status["model"] = model_info["label"]
+                total_batches += 1
+                status["batches"] = total_batches
+                print(f"  ║ 🎨 {model_info['label']} batch #{total_batches} "
+                      f"({PARALLEL_REQUESTS}× req, {left:.0f}s left, hard-streak {hard_streak})",
+                      flush=True)
 
-        print(f"\n  ┌─ Model {model_idx + 1}/{len(MODEL_CHAIN)}: {model_label} "
-              f"(quality: {model_quality}) ────────────")
-        models_tried.append(model_name)
+                result, kind = _generate_batch(client, model_info["name"], prompt,
+                                               PARALLEL_REQUESTS, deadline_ts)
+                if result:
+                    total = time.time() - engine_start
+                    print(f"  ╚═ ✅ SUCCESS via {model_info['label']} "
+                          f"(round {round_no}, batch #{total_batches}, "
+                          f"{total:.1f}s, {len(result):,} bytes)")
+                    return result
 
-        model_retries = model_info.get("retries", MAX_RETRIES_PER_MODEL)
+                # Track sustained hard blocks (quota/auth/queue) so we don't spin
+                # the whole window on an IP the providers are refusing to serve.
+                if kind == "hard":
+                    hard_streak += 1
+                else:
+                    hard_streak = 0
+                if hard_streak >= MAX_HARD_FAILS:
+                    bail_reason = (f"providers hard-blocked {hard_streak}× in a row "
+                                   f"(quota/auth/queue) — handing off to fallback")
+                    break
 
-        for attempt in range(1, model_retries + 1):
-            # Check time budget before each attempt
-            elapsed_total = time.time() - engine_start
-            remaining = GLOBAL_TIME_BUDGET - elapsed_total
-            if remaining < 20:
-                print(f"  │  ⏰ Budget low ({remaining:.0f}s), skipping remaining retries")
+                # Adaptive backoff: breathe longer after hard blocks (lets quota
+                # recover and paces us across the full window), short otherwise.
+                back = HARD_BACKOFF if kind == "hard" else SOFT_BACKOFF
+                remaining = deadline_ts - time.time()
+                if remaining > MIN_ATTEMPT_BUDGET:
+                    _wait_with_heartbeat(int(min(back, remaining - 2)),
+                                         f"backoff/{kind} ({model_info['label']})")
+
+            if bail_reason:
                 break
 
-            total_attempts += 1
-            print(f"  │  🎨 Attempt {attempt}/{model_retries} "
-                  f"(total: #{total_attempts}, {elapsed_total:.0f}s elapsed)", flush=True)
+        if bail_reason:
+            print(f"\n  ⏹️  Stopping: {bail_reason}")
+    except Exception as e:
+        print(f"  ❌ Engine error (caught — returning None so caller can fall back): "
+              f"{type(e).__name__}: {str(e)[:150]}")
+    finally:
+        hb_stop.set()
 
-            result = _generate_single(client, model_name, prompt)
-
-            if result:
-                total_time = time.time() - engine_start
-                print(f"  └─ ✅ SUCCESS with {model_label} on attempt {attempt} "
-                      f"({total_time:.1f}s total, {len(result):,} bytes)")
-                return result
-
-            # Exponential backoff between retries (2s, 4s, 8s...)
-            if attempt < model_retries:
-                backoff = min(BACKOFF_BASE ** attempt, 10)  # Cap at 10s
-                print(f"  │  ⏳ Backoff {backoff}s before retry...", flush=True)
-                _wait_with_heartbeat(backoff, f"retry backoff ({model_label})")
-
-        print(f"  └─ ❌ {model_label} exhausted ({model_retries} attempts)")
-
-    # All models exhausted
     total_time = time.time() - engine_start
     print(f"\n  {'━'*55}")
-    print(f"  ❌ ALL MODELS EXHAUSTED")
-    print(f"  📊 Stats: {total_attempts} attempts across {len(models_tried)} models in {total_time:.1f}s")
-    print(f"  📋 Models tried: {', '.join(models_tried)}")
-    print(f"  {'━'*55}")
+    print(f"  ❌ NO VERIFIED IMAGE after {status['batches']} batches in {total_time:.1f}s")
+    print(f"  → caller will fall back to a verified stock photo")
+    print(f"  {'━'*55}", flush=True)
     return None
 
 
