@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNCTAD Publishes Report Identifying Ten Trends Shaping Global Trade in 2026",
-      "urls": [
-        "https://unctad.org/news/10-trends-shaping-global-trade-2026"
-      ],
-      "date": "2026-06-04T11:31:46.631073+00:00"
-    },
-    {
       "title": "Microsoft and Uber Confront Rising Costs for AI Coding Agents",
       "urls": [
         "https://www.msn.com/en-in/news/other/ai-breakthroughs-in-2026-confront-the-reality-of-their-logical-reasoning-limits/gm-GM02CBF90B?ocid=BingNewsVerp",
@@ -4275,7 +4268,15 @@
         "https://english.mathrubhumi.com/sports/football/2026-fifa-world-cup-day-2-top-10-dramatic-moments-ngsj01jk"
       ],
       "date": "2026-06-14T11:02:16.728082+00:00"
+    },
+    {
+      "title": "Anthropic Releases Safer Claude Mythos Model to Public with New Safety Fable",
+      "urls": [
+        "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+        "https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model"
+      ],
+      "date": "2026-06-14T11:32:12.339916+00:00"
     }
   ],
-  "lastUpdated": "2026-06-14T11:02:16.728157+00:00"
+  "lastUpdated": "2026-06-14T11:32:12.339990+00:00"
 }
