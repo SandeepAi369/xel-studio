@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "BentoML Publishes Guide Highlighting Top Open‑Source Large Language Models for 2026",
-      "urls": [
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
-      ],
-      "date": "2026-06-05T10:02:29.206429+00:00"
-    },
-    {
-      "title": "Smarter Land Use Unlocks Biodiversity, Climate and Economic Gains Across 146 Countries",
-      "urls": [
-        "https://www.msn.com/en-us/weather/other/smarter-land-use-could-unlock-biodiversity-climate-and-economic-gains-across-146-countries/ar-AA24RE16?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-05T10:31:31.539553+00:00"
-    },
-    {
       "title": "BuildMVPFast Publishes Ranked List of Ten Text-to-Video AI Generators for Creators",
       "urls": [
         "https://www.buildmvpfast.com/articles/best-llms-2026-guide/video-generation-ai"
@@ -4268,7 +4254,14 @@
         "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en"
       ],
       "date": "2026-06-15T10:01:50.479952+00:00"
+    },
+    {
+      "title": "Enlit World Publishes SET100 List of 100 Energy and Climate Startups Shaping 2026",
+      "urls": [
+        "https://www.enlit.world/library/top-100-energy-and-climate-tech-start-ups-for-2026"
+      ],
+      "date": "2026-06-15T10:31:31.712938+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T10:01:50.480036+00:00"
+  "lastUpdated": "2026-06-15T10:31:31.713000+00:00"
 }
