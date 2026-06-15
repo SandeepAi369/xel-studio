@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Saudi PIF Confirms Ongoing Investment in UFC, WWE and Global Boxing After LIV Golf Exit",
-      "urls": [
-        "https://www.msn.com/en-us/news/other/inside-the-ufc-s-2026-championship-shake-up/gm-GM7E7BBBD3?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/sports/mma_ufc/boxing-ufc-this-weekend-22-may-24-may-2026-every-fight-time-and-channel/ar-AA23NSvq?ocid=BingNewsVerp",
-        "https://www.msn.com/en-in/sports/wrestling/after-liv-golf-withdrawal-saudi-pif-confirms-future-fate-of-ufc-wwe-and-global-boxing-investments/ar-AA22CHd8?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-05T21:02:04.518233+00:00"
-    },
-    {
       "title": "MS School for Blind Supports Visually Impaired Student Wrestler and Musician Development",
       "urls": [
         "https://www.clarionledger.com/story/news/2026/05/15/mississippi-school-for-the-blind-student-competes-in-wrestling-and-music/89701294007",
@@ -4279,7 +4270,17 @@
         "https://www.abc.net.au/news/sport/football"
       ],
       "date": "2026-06-15T21:01:40.646850+00:00"
+    },
+    {
+      "title": "FIFA Expands Global Coverage Through Major Media Outlets For 2026 World Cup",
+      "urls": [
+        "https://www.foxsports.com/soccer/fifa-world-cup/news",
+        "https://www.nbcnews.com/sports/world-cup",
+        "https://www.thescore.com/nfl/news/3435119/26-stories-were-most-excited-about-for-2026-part-1",
+        "https://www.nytimes.com/athletic/football/world-cup"
+      ],
+      "date": "2026-06-15T21:31:45.624113+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T21:01:40.646921+00:00"
+  "lastUpdated": "2026-06-15T21:31:45.624181+00:00"
 }
