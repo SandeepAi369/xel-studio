@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Tech AI Magazine Publishes Top Ten Hugging Face Models for April 2026\",",
-      "urls": [
-        "https://www.techaimag.com/latest-hugging-face-models/top-10-hugging-face-models-in-april-2026",
-        "https://huggingface.co/blog"
-      ],
-      "date": "2026-06-05T23:02:06.727382+00:00"
-    },
-    {
       "title": "North Carolina State Parks Launch Free Mobility Equipment Rental Program",
       "urls": [
         "https://www.jsonline.com/story/travel/airline-news/2026/05/18/maria-town-wheelchair-damage-southwest-airlines/90101738007",
@@ -4273,7 +4265,16 @@
         "https://www.politico.com/news/2026-elections/1"
       ],
       "date": "2026-06-15T23:01:54.736090+00:00"
+    },
+    {
+      "title": "\"articleText\": \"YouTube posted a video titled \\\"List of Open",
+      "urls": [
+        "https://www.youtube.com/watch?v=HNVaYYxmwLU",
+        "https://www.youtube.com/watch?v=R0skNnyiFKU",
+        "https://www.youtube.com/watch?v=I5Suzl43ZMo"
+      ],
+      "date": "2026-06-15T23:31:48.754213+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T23:01:54.736165+00:00"
+  "lastUpdated": "2026-06-15T23:31:48.754286+00:00"
 }
