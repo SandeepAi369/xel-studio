@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple, Google, Microsoft Push Key May 2026 Security Updates Across Devices",
-      "urls": [
-        "https://www.msn.com/en-us/news/other/apple-google-microsoft-push-key-may-2026-security-updates/gm-GM6321B954?ocid=BingNewsVerp",
-        "https://in.mashable.com/tech/109954/did-google-executive-use-an-apple-iphone-17-pro-at-google-io-2026-internet-reacts",
-        "https://www.cnet.com/news-live/microsoft-build-2026-news-ai-copilot"
-      ],
-      "date": "2026-06-05T03:31:40.223078+00:00"
-    },
-    {
       "title": "Google Research Unveils New Era of Discovery at I/O 2026",
       "urls": [
         "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026"
@@ -4284,7 +4275,17 @@
         "https://www.crn.com/news/networking/2026/30-notable-it-executive-moves-february-2026"
       ],
       "date": "2026-06-15T03:31:24.327740+00:00"
+    },
+    {
+      "title": "Meta Announces Open-Source Release of Next-Generation Llama AI Models to Boost Research",
+      "urls": [
+        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
+        "https://www.youtube.com/watch?v=niNV4uziW50",
+        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2133468937070341",
+        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/472483165627318"
+      ],
+      "date": "2026-06-15T04:01:40.904327+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T03:31:24.327815+00:00"
+  "lastUpdated": "2026-06-15T04:01:40.904398+00:00"
 }
