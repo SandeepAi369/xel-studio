@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oxford Study Finds Warmer AI Models Increase Error Rate by Sixty Percent",
-      "urls": [
-        "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
-        "https://www.marketingprofs.com/opinions/2026/54640/ai-update-may-1-2026-ai-news-and-views-from-the-past-week",
-        "https://indianexpress.com/article/technology/artificial-intelligence/warmer-ai-models-error-rates-oxford-study-10670264",
-        "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch"
-      ],
-      "date": "2026-06-05T08:31:53.481185+00:00"
-    },
-    {
-      "title": "Product Hunt Showcases Top AI Generative Media Tools for 2026",
-      "urls": [
-        "https://martech.org/the-latest-ai-powered-martech-news-and-releases",
-        "https://www.producthunt.com/categories/ai-generative-media",
-        "https://www.youtube.com/watch?v=J0VkYgzAv9E"
-      ],
-      "date": "2026-06-05T09:01:47.025913+00:00"
-    },
-    {
       "title": "West Bengal Assembly Dissolved Triggers Call for New State Elections",
       "urls": [
         "https://www.timesnownews.com/india/breaking-news-today-live-updates-7-may-2026-india-today-headlines-of-the-day-latest-news-liveblog-154265683",
@@ -4274,7 +4255,15 @@
         "https://apnews.com"
       ],
       "date": "2026-06-15T08:31:38.801516+00:00"
+    },
+    {
+      "title": "Quantum Computing ETFs Gain Spotlight As Investors Seek 2026 Growth",
+      "urls": [
+        "https://money.usnews.com/investing/articles/best-quantum-computing-etfs-to-buy",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/quantum-computing-etf"
+      ],
+      "date": "2026-06-15T09:02:00.686935+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T08:31:38.801576+00:00"
+  "lastUpdated": "2026-06-15T09:02:00.687020+00:00"
 }
