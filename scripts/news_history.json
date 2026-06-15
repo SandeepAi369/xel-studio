@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNCTAD Releases Global Trade Update Highlighting Shifts in Supply Chains and Emerging Markets",
-      "urls": [
-        "https://unctad.org/system/files/official-document/ditcinf2025d11_en.pdf",
-        "https://www.maritimenews.com/geopolitics-and-global-trade/geopolitics-reshapes-global-trade-2026",
-        "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2025/11/2026-Global-Trade-Report.pdf",
-        "https://thesiliconreview.com/2026/05/china-trade-deal-reshapes-us-economic-relations",
-        "https://www.weforum.org/stories/2026/01/trade-is-changing-and-davos-2026-made-it-clear-here-are-10-insights"
-      ],
-      "date": "2026-06-05T12:31:52.675681+00:00"
-    },
-    {
       "title": "Nasdaq Poised for 30,000 Rise as Chip Sector Fuels Market Momentum",
       "urls": [
         "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html",
@@ -4276,7 +4265,14 @@
         "https://www.tmcnet.com/usubmit/2026/06/11/10398723.htm"
       ],
       "date": "2026-06-15T12:31:40.644845+00:00"
+    },
+    {
+      "title": "Apple, Google, Microsoft Release Key May 2026 Security Updates Across Devices",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/apple-google-microsoft-push-key-may-2026-security-updates/gm-GM6321B954?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-15T13:01:42.126737+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T12:31:40.644916+00:00"
+  "lastUpdated": "2026-06-15T13:01:42.126801+00:00"
 }
