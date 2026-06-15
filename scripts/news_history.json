@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Sets Record with Twelve Gold Medals at 2026 Winter Olympics",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table",
-        "https://hollywoodlife.com/feature/olympic-medal-count-2026-update-5502360",
-        "https://sports.yahoo.com/articles/team-usa-historic-12-gold-125000328.html?fr=sycsrp_catchall",
-        "https://www.olympics.com/en/olympic-games/milano-cortina-2026"
-      ],
-      "date": "2026-06-05T13:32:05.731982+00:00"
-    },
-    {
       "title": "2026 World Cup Faces Record Carbon Footprint Across Three Nations",
       "urls": [
         "https://www.latimes.com/environment/story/2026-05-18/most-polluting-world-cup-ever-la",
@@ -4276,7 +4266,15 @@
         "https://www.forbes.com/sites/scottmontgomery/2026/06/08/lost-generations--how-the-us-abandoned-clean-energy-only-to--find-it-again"
       ],
       "date": "2026-06-15T13:31:48.483851+00:00"
+    },
+    {
+      "title": "China Adds 300 Gigawatts Of Wind And Solar Capacity In 2026",
+      "urls": [
+        "https://www.bastillepost.com/global/article/5930695-china-to-add-300-gw-of-wind-solar-power-capacity-in-2026-report",
+        "https://www.climatecentral.org/climate-matters/solar-and-wind-2026"
+      ],
+      "date": "2026-06-15T14:01:44.988483+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T13:31:48.483916+00:00"
+  "lastUpdated": "2026-06-15T14:01:44.988546+00:00"
 }
