@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Publishes Global Warming News Hub Covering Climate Research Updates",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming"
-      ],
-      "date": "2026-06-05T05:32:07.494367+00:00"
-    },
-    {
       "title": "Anthropic Introduces Claude Security Suite to Strengthen AI Safety Measures",
       "urls": [
         "https://www.crn.com/news/security/2026/anthropic-launches-claude-security-5-things-to-know",
@@ -4281,7 +4274,17 @@
         "https://www.youtube.com/watch?v=yTRyZksGeXc"
       ],
       "date": "2026-06-15T05:31:35.386337+00:00"
+    },
+    {
+      "title": "Pinggy Highlights Top AI Video Generation Models in 2026 as YouTube Reviews 4K Generators",
+      "urls": [
+        "https://pinggy.io/blog/best_video_generation_ai_models",
+        "https://www.reddit.com/r/generativeAI/comments/1pvrk5b/the_8_best_ai_video_platforms_to_start_your",
+        "https://www.youtube.com/watch?v=3DWP5w7yd2I",
+        "https://www.youtube.com/watch?v=uQulSf5Mci0"
+      ],
+      "date": "2026-06-15T06:01:34.614459+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T05:31:35.386401+00:00"
+  "lastUpdated": "2026-06-15T06:01:34.614526+00:00"
 }
