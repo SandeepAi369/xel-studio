@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Research Unveils New Era of Discovery at I/O 2026",
-      "urls": [
-        "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026"
-      ],
-      "date": "2026-06-05T04:02:07.841626+00:00"
-    },
-    {
       "title": "TheScore Announces 26 Anticipated Stories For 2026 In First Part",
       "urls": [
         "https://www.cnn.com/2026/06/02/sport/marta-kostyuk-french-open-quarterfinal-ukraine",
@@ -4285,7 +4278,16 @@
         "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/472483165627318"
       ],
       "date": "2026-06-15T04:01:40.904327+00:00"
+    },
+    {
+      "title": "YouTube Showcases CAD Speedmodeling Competition in 2026 Summer Open Esports Event",
+      "urls": [
+        "https://www.youtube.com/watch?v=5uaubQzz3Ao",
+        "https://www.youtube.com/watch?v=uEtw5nhdk_Q",
+        "https://www.youtube.com/watch?v=UCJQ-RfKm7o"
+      ],
+      "date": "2026-06-15T04:31:21.947686+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T04:01:40.904398+00:00"
+  "lastUpdated": "2026-06-15T04:31:21.947759+00:00"
 }
