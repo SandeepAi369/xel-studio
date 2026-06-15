@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Calls Vote to Limit Iran War Powers Unpatriotic Amid Ongoing Ceasefire Talks",
-      "urls": [
-        "https://www.msn.com/en-us/news/world/a-question-looms-over-iran-diplomacy-is-trump-being-straight-with-the-american-people/ar-AA24NDjL?ocid=BingNewsVerp",
-        "https://www.msn.com/en-au/news/australia/trump-labels-vote-to-curb-iran-war-powers-unpatriotic-as-middle-east-ceasefire-efforts-continue/ar-AA24PLeh?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-05T01:32:15.303563+00:00"
-    },
-    {
       "title": "devFlokers Publishes Open-Source AI June 2026 Roundup Highlighting New Models and Papers",
       "urls": [
         "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026"
@@ -4276,7 +4268,17 @@
         "https://www.youtube.com/watch?v=qtBmmGQO8Qs"
       ],
       "date": "2026-06-15T01:31:41.451633+00:00"
+    },
+    {
+      "title": "OpenAI Launches Privacy Filter Model to Safeguard Enterprise Data Across Platforms",
+      "urls": [
+        "https://www.newsbytesapp.com/news/science/iplanrio-releases-rio-35-open-397b-free-on-hugging-face/tldr",
+        "https://www.msn.com/en-us/news/technology/hugging-face-launches-consumer-robot-app-store/ar-AA22wN7F?ocid=BingNewsVerp",
+        "https://venturebeat.com/data/openai-launches-privacy-filter-an-open-source-on-device-data-sanitization-model-that-removes-personal-information-from-enterprise-datasets",
+        "https://www.infosecurity-magazine.com/news/malicious-hugging-face-repo"
+      ],
+      "date": "2026-06-15T02:01:38.509799+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T01:31:41.451701+00:00"
+  "lastUpdated": "2026-06-15T02:01:38.509873+00:00"
 }
