@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "2026 World Cup Faces Record Carbon Footprint Across Three Nations",
-      "urls": [
-        "https://www.latimes.com/environment/story/2026-05-18/most-polluting-world-cup-ever-la",
-        "https://www.msn.com/en-ca/news/other/2026-marks-the-year-carbon-capture-goes-mainstream/gm-GM69FFC9F8?ocid=BingNewsVerp",
-        "https://www.reuters.com/sustainability/sustainable-finance-reporting/exxon-backed-initiative-carbon-accounting-sparks-fears-bid-slow-climate-action--ecmii-2026-05-13"
-      ],
-      "date": "2026-06-05T14:01:57.928505+00:00"
-    },
-    {
       "title": "Climate Central Releases April 2026 Monthly Briefing Highlighting Key Climate Data",
       "urls": [
         "https://www.climatecentral.org/climate-briefings/april-2026"
@@ -4274,7 +4265,15 @@
         "https://www.climatecentral.org/climate-matters/solar-and-wind-2026"
       ],
       "date": "2026-06-15T14:01:44.988483+00:00"
+    },
+    {
+      "title": "Opinion Article Provides No Details In Search Results, Leaving Content Unclear",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/can-open-source-beat-openai/ar-AA25GtSD?ocid=BingNewsVerp",
+        "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild"
+      ],
+      "date": "2026-06-15T14:31:27.997926+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T14:01:44.988546+00:00"
+  "lastUpdated": "2026-06-15T14:31:27.998003+00:00"
 }
