@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australia Cuts Power Bills Up To Ten Percent As Renewables And Batteries Expand",
-      "urls": [
-        "https://finance.yahoo.com/sectors/energy/articles/buy-renewable-energy-battery-stocks-155400103.html",
-        "https://oilprice.com/Energy/Energy-General/Morocco-Is-Emerging-as-a-Renewable-Energy-Superpower.html",
-        "https://wtop.com/news/2026/05/7-best-renewable-energy-stocks-to-buy",
-        "https://www.theguardian.com/australia-news/2026/may/26/power-bills-drop-fall-australia-energy-default-market-offer",
-        "https://www.msn.com/en-ae/technology/renewable-energy/ai-model-identifies-china-s-wind-solar-energy-inventory/ar-AA23QNkA?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-05T19:02:11.583455+00:00"
-    },
-    {
       "title": "World News Today Launches Live Updates Platform for Global Events",
       "urls": [
         "https://www.livemint.com/news/world/total-world-latest-news-on-june-4-2026-live-updates-11780513624549.html"
@@ -4280,7 +4269,16 @@
         "https://www.youtube.com/watch?v=H5QWOUPhaMc"
       ],
       "date": "2026-06-15T19:01:47.791985+00:00"
+    },
+    {
+      "title": "Google Cloud Publishes 2025 AI Infrastructure Report Highlighting Efficiency and Network Readiness",
+      "urls": [
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://www.youtube.com/watch?v=T7Ftx2xhEt0",
+        "https://www.youtube.com/watch?v=BU8qcsz8Apw"
+      ],
+      "date": "2026-06-15T19:31:36.797245+00:00"
     }
   ],
-  "lastUpdated": "2026-06-15T19:01:47.792064+00:00"
+  "lastUpdated": "2026-06-15T19:31:36.797319+00:00"
 }
