@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Warns Europe of AI Dependence, Defends Military Use, Adds Le Chat Features",
-      "urls": [
-        "https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5",
-        "https://www.devdiscourse.com/article/technology/3924811-mistral-defends-ai-military-use-amidst-european-expansion",
-        "https://www.infoq.com/news/2026/05/mistral-agents-lechat"
-      ],
-      "date": "2026-06-06T01:02:23.389260+00:00"
-    },
-    {
       "title": "Hugging Face Publishes 2026 Open Model Rankings Showing Chinese Labs Lead",
       "urls": [
         "https://blog.imseankim.com/hugging-face-january-2026-open-model-rankings-deepseek-qwen-leaderboard"
@@ -4281,7 +4272,15 @@
         "https://www.unep-wcmc.org/en/news/whats-next-for-biodiversity-conservation-insights-from-the-2026-horizon-scan"
       ],
       "date": "2026-06-16T01:01:42.910876+00:00"
+    },
+    {
+      "title": "Atlantic Hurricane Season Forecast Predicts Fewer Storms Yet Elevated Risk",
+      "urls": [
+        "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast",
+        "https://www.nhc.noaa.gov/data/tcr/index.php?season=2026&basin=atl"
+      ],
+      "date": "2026-06-16T01:31:25.662439+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T01:01:42.910954+00:00"
+  "lastUpdated": "2026-06-16T01:31:25.662506+00:00"
 }
