@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils Seven Major Announcements at Global Build 2026 Conference",
-      "urls": [
-        "https://www.explosion.com/190945/microsoft-build-2026-the-7-biggest-announcements"
-      ],
-      "date": "2026-06-06T18:02:10.587277+00:00"
-    },
-    {
       "title": "Open Source Ai Framework Pytorch Tensorflow News — Latest Developments and Key Updates",
       "urls": [
         "https://www.msn.com/en-in/weather/general/world-environment-day-indianoil-and-iit-roorkee-put-the-spotlight-on-climate-innovation/ar-AA24Uxyc?ocid=BingNewsVerp",
@@ -4281,7 +4274,16 @@
         "https://www.msn.com/en-us/news/world/mount-bulusan-just-logged-442-volcanic-earthquakes-in-10-days-as-pressure-builds-under-the-philippines-restless-cone-phivolcs-warning-a-sudden-eruption-is-still-on-the-table/ar-AA24rUdl?ocid=BingNewsVerp"
       ],
       "date": "2026-06-16T18:01:51.385045+00:00"
+    },
+    {
+      "title": "Reddit Search Returns Empty Listings Without Content, Highlighting Data Gaps",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1pceipb/mistral_just_released_mistral_3_a_full_openweight",
+        "https://www.reddit.com/r/MistralAI/comments/1szwl1r/mistral_medium_35_is_the_only_nonchinese",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1sy6xoo/something_from_mistral_vibe_tomorrow"
+      ],
+      "date": "2026-06-16T18:31:33.253442+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T18:01:51.385106+00:00"
+  "lastUpdated": "2026-06-16T18:31:33.253511+00:00"
 }
