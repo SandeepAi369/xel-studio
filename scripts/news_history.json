@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Media Shapes Mental Health Landscape Across User Demographics Amid Complex Influences",
-      "urls": [
-        "https://www.wshu.org/news/2026-05-05/social-media-mental-health-research"
-      ],
-      "date": "2026-06-06T11:02:03.893471+00:00"
-    },
-    {
       "title": "Quantum Computing Report Launches Dedicated News Portal for Emerging Quantum Research",
       "urls": [
         "https://quantumcomputingreport.com/news"
@@ -4268,7 +4261,18 @@
         "https://www.reuters.com/world/asia-pacific/iran-us-agree-halt-war-reopen-hormuz-sending-oil-prices-tumbling-2026-06-15"
       ],
       "date": "2026-06-16T11:01:48.511675+00:00"
+    },
+    {
+      "title": "Google Gemini AI Agents Reach 750 Million Users Amid Claims of Powerful Capabilities",
+      "urls": [
+        "https://deepmind.google/blog",
+        "https://www.youtube.com/watch?v=VdBa8L1y8Ho",
+        "https://www.youtube.com/watch?v=gRtQnJ_WAxg",
+        "https://www.youtube.com/watch?v=41tvedMfPsY",
+        "https://www.instagram.com/reel/DV_IjKrjhyY"
+      ],
+      "date": "2026-06-16T11:31:29.718862+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T11:01:48.511746+00:00"
+  "lastUpdated": "2026-06-16T11:31:29.718937+00:00"
 }
