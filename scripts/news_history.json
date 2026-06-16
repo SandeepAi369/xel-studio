@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Report Launches Dedicated News Portal for Emerging Quantum Research",
-      "urls": [
-        "https://quantumcomputingreport.com/news"
-      ],
-      "date": "2026-06-06T11:31:38.946163+00:00"
-    },
-    {
-      "title": "Google Posts $62 Billion Revenue as Big Tech Q1 2026 Earnings Unfold",
-      "urls": [
-        "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html",
-        "https://techmarketbriefs.com/earnings",
-        "https://www.bloomberg.com/latest/tech-company-earnings",
-        "https://vestedfinance.com/blog/us-stocks/q1-2026-big-tech-earnings-google-profit-up-81-meta-stock-down-7-here-is-what-happened",
-        "https://fiisual.com/blog/post/2026/us-tech-giants-earnings-update-2026-review-outlook",
-        "https://www.stocknewsplus.com/earnings",
-        "https://bigmarketreport.com/earnings-calendar-2026"
-      ],
-      "date": "2026-06-06T12:01:47.143652+00:00"
-    },
-    {
       "title": "ScienceDaily Expands Health & Medicine News Page Offering Daily Updates of Medical Research",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine"
@@ -4272,7 +4252,16 @@
         "https://www.instagram.com/reel/DV_IjKrjhyY"
       ],
       "date": "2026-06-16T11:31:29.718862+00:00"
+    },
+    {
+      "title": "European Commission Disputes Instagram Data Practices Amid New Privacy Law Wave",
+      "urls": [
+        "https://www.instagram.com/reel/DZXweeYDH_j",
+        "https://www.youtube.com/watch?v=MI7-KsHZPYE",
+        "https://www.youtube.com/shorts/XxcyKBj3AWE"
+      ],
+      "date": "2026-06-16T12:01:52.552309+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T11:31:29.718937+00:00"
+  "lastUpdated": "2026-06-16T12:01:52.552374+00:00"
 }
