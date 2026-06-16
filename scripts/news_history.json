@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Internal Conflict Shapes National AI Regulation Policy Framework",
-      "urls": [
-        "https://www.yahoo.com/news/politics/articles/trump-white-house-ready-regulate-032945515.html",
-        "https://www.yahoo.com/news/politics/articles/trump-executive-order-ai-insidious-215225976.html",
-        "https://thenextweb.com/news/the-white-house-is-at-war-with-itself-over-who-gets-to-regulate-ai",
-        "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf"
-      ],
-      "date": "2026-06-06T06:02:01.898713+00:00"
-    },
-    {
       "title": "Environment America Projects Continued Growth for Wind and Solar Power",
       "urls": [
         "https://environmentamerica.org/maine/center/updates/new-forecasts-wind-and-solar-to-continue-to-grow",
@@ -4286,7 +4275,14 @@
         "https://beyondbarrierssports.com/2026-accessibility-innovations-guide"
       ],
       "date": "2026-06-16T06:01:41.041887+00:00"
+    },
+    {
+      "title": "Philippines Faces Magnitude 7.8 Earthquake and Tsunami Warning for Mindanao",
+      "urls": [
+        "https://ph.usembassy.gov/natural-disaster-alert-magnitude-7-8-earthquake-tsunami-warning-affecting-mindanao"
+      ],
+      "date": "2026-06-16T06:31:35.503263+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T06:01:41.041973+00:00"
+  "lastUpdated": "2026-06-16T06:31:35.503338+00:00"
 }
