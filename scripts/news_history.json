@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Search Returns Three Identical Titles With No Descriptions In Recent Query",
-      "urls": [
-        "https://www.reddit.com/r/climatechange/comments/1qr8x9z/2026_climate_update_global_temperatures_soar_to",
-        "https://www.reddit.com/r/Futurology/comments/1pxlcjb/as_the_year_draws_to_an_end_finish_with_some_good",
-        "https://www.reddit.com/r/climatechange/comments/1pwu9md/i_desperately_need_some_good_news_about_the"
-      ],
-      "date": "2026-06-06T14:03:43.495339+00:00"
-    },
-    {
-      "title": "Hugging Face Spaces Offers Free Access to Thousands of AI Models in 2026 Guide",
-      "urls": [
-        "https://pasqualepillitteri.it/en/news/155/hugging-face-spaces-try-ai-models-free"
-      ],
-      "date": "2026-06-06T14:31:53.357389+00:00"
-    },
-    {
       "title": "Renewable Energy Forecast Shows Solar, Wind, Battery Storage Dominating 2026 Market",
       "urls": [
         "https://environmentamerica.org/center/updates/new-forecast-solar-wind-and-battery-storage-to-dominate-in-2026",
@@ -4271,7 +4255,14 @@
         "https://environmentamerica.org/center/updates/new-forecasts-wind-and-solar-to-continue-to-grow"
       ],
       "date": "2026-06-16T14:01:49.080061+00:00"
+    },
+    {
+      "title": "Big Tech Earnings Drive Record Stock Market Rally as AI Spending Dominates",
+      "urls": [
+        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796"
+      ],
+      "date": "2026-06-16T14:31:53.694798+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T14:01:49.080129+00:00"
+  "lastUpdated": "2026-06-16T14:31:53.694874+00:00"
 }
