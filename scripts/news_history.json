@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasdaq Slides as AI‑Driven Rally Comes to Halt Following Weeks of Gains",
-      "urls": [
-        "https://www.barrons.com/livecoverage/stock-market-news-today-060526",
-        "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-28-2026"
-      ],
-      "date": "2026-06-06T09:32:14.595144+00:00"
-    },
-    {
       "title": "Google Unveils Gemma 4 12B Model Capable of Local Audio and Video Analysis",
       "urls": [
         "https://techcrunch.com/2024/05/31/hugging-face-says-it-detected-unauthorized-access-to-its-ai-model-hosting-platform",
@@ -4272,7 +4264,14 @@
         "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
       ],
       "date": "2026-06-16T09:31:33.503545+00:00"
+    },
+    {
+      "title": "OpenSSF Reports Quarter of Growth, Adds AI Security Resources and Welcomes New Members",
+      "urls": [
+        "https://finance.yahoo.com/sectors/technology/articles/openssf-notes-quarter-growth-members-140000259.html"
+      ],
+      "date": "2026-06-16T10:01:47.515363+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T09:31:33.503632+00:00"
+  "lastUpdated": "2026-06-16T10:01:47.515428+00:00"
 }
