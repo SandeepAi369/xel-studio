@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SAP Community Publishes Sapphire 2026 Announcements on Technology Blog for Enterprise Users",
-      "urls": [
-        "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-sapphire-2026-announcements-only/ba-p/14396190",
-        "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
-        "https://nvidianews.nvidia.com/news",
-        "https://www.reddit.com/r/accelerate/comments/1tkygbr/nyt_im_the_ceo_of_goldman_sachs_the_ai_job",
-        "https://www.reddit.com/r/ExperiencedDevs/comments/1sb5iqh/what_actually_makes_a_developer_hard_to_replace"
-      ],
-      "date": "2026-06-06T09:02:26.065788+00:00"
-    },
-    {
       "title": "Nasdaq Slides as AI‑Driven Rally Comes to Halt Following Weeks of Gains",
       "urls": [
         "https://www.barrons.com/livecoverage/stock-market-news-today-060526",
@@ -4276,7 +4265,14 @@
         "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html"
       ],
       "date": "2026-06-16T09:01:56.430409+00:00"
+    },
+    {
+      "title": "Recite Me Launches Assistive Technology Resource Hub for Blind and Visually Impaired Users",
+      "urls": [
+        "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
+      ],
+      "date": "2026-06-16T09:31:33.503545+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T09:01:56.430480+00:00"
+  "lastUpdated": "2026-06-16T09:31:33.503632+00:00"
 }
