@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Gemini Surpasses 750 Million Users And Powers I/O 2026 Showcase",
-      "urls": [
-        "https://deepmind.google/blog",
-        "https://www.youtube.com/watch?v=VdBa8L1y8Ho",
-        "https://www.youtube.com/watch?v=gRtQnJ_WAxg",
-        "https://www.youtube.com/watch?v=41tvedMfPsY",
-        "https://www.instagram.com/reel/DV_IjKrjhyY",
-        "https://deepmind.google",
-        "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
-      ],
-      "date": "2026-06-06T04:01:45.820850+00:00"
-    },
-    {
       "title": "Mongabay Expands Conservation Coverage to Highlight Global Environmental and Climate Challenges",
       "urls": [
         "https://news.mongabay.com"
@@ -4291,7 +4278,14 @@
         "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026"
       ],
       "date": "2026-06-16T04:01:39.008251+00:00"
+    },
+    {
+      "title": "India Today Expands Sports Portal Offering Live Updates Across Cricket World Cup and IPL",
+      "urls": [
+        "https://www.indiatoday.in/sports"
+      ],
+      "date": "2026-06-16T04:31:26.249851+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T04:01:39.008323+00:00"
+  "lastUpdated": "2026-06-16T04:31:26.249926+00:00"
 }
