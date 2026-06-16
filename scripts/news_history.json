@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Gemma 4 12B Model Capable of Local Audio and Video Analysis",
-      "urls": [
-        "https://techcrunch.com/2024/05/31/hugging-face-says-it-detected-unauthorized-access-to-its-ai-model-hosting-platform",
-        "https://www.forbes.com/councils/forbestechcouncil/2026/05/15/how-open-models-are-transforming-ai-asset-creation",
-        "https://www.ibtimes.com/chinas-open-source-ai-strategy-builds-self-reinforcing-edge-challenging-chatgpts-dominance-3800077",
-        "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop"
-      ],
-      "date": "2026-06-06T10:02:14.408388+00:00"
-    },
-    {
-      "title": "War Impacts Lives and Climate While Military Emissions Remain Uncounted",
-      "urls": [
-        "https://theconversation.com/wars-destroy-lives-and-the-climate-why-arent-we-counting-military-emissions-281129"
-      ],
-      "date": "2026-06-06T10:31:30.199792+00:00"
-    },
-    {
       "title": "Social Media Shapes Mental Health Landscape Across User Demographics Amid Complex Influences",
       "urls": [
         "https://www.wshu.org/news/2026-05-05/social-media-mental-health-research"
@@ -4271,7 +4254,14 @@
         "https://finance.yahoo.com/sectors/technology/articles/openssf-notes-quarter-growth-members-140000259.html"
       ],
       "date": "2026-06-16T10:01:47.515363+00:00"
+    },
+    {
+      "title": "Brain Scan Study Identifies Two Distinct Autism Subtypes With Different Biology",
+      "urls": [
+        "https://medicalxpress.com/news/2026-05-brain-scans-reveal-distinct-autism.html"
+      ],
+      "date": "2026-06-16T10:31:42.976139+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T10:01:47.515428+00:00"
+  "lastUpdated": "2026-06-16T10:31:42.976224+00:00"
 }
