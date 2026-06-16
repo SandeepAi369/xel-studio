@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Weather Service Reports Active Start to 2026 Severe Weather Season",
-      "urls": [
-        "https://www.weather.gov/lot/2026_ActiveSevereStart",
-        "https://planet.news/article/global-weather-disasters-march-2026",
-        "https://www.yahoo.com/news/weather-news/articles/hurricane-season-2026-most-destructive-131231961.html?fr=sycsrp_catchall"
-      ],
-      "date": "2026-06-06T07:32:07.288399+00:00"
-    },
-    {
       "title": "The Guest Review Highlights Risks of Protecting Refugees in Poland-Belarus Danger Zone",
       "urls": [
         "https://www.theguardian.com/film/2026/jun/01/the-guest-review-the-risks-of-protecting-refugees-in-the-poland-belarus-danger-zone"
@@ -4279,7 +4270,14 @@
         "https://www.forbes.com/sites/jenniferpalumbo/2026/05/27/autism-and-why-getting-hired-is-only-the-beginning"
       ],
       "date": "2026-06-16T07:32:00.286674+00:00"
+    },
+    {
+      "title": "The Block Expands Web3 Category With Comprehensive News And Development Updates",
+      "urls": [
+        "https://www.theblock.co/category/web3"
+      ],
+      "date": "2026-06-16T08:01:41.543044+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T07:32:00.286770+00:00"
+  "lastUpdated": "2026-06-16T08:01:41.543119+00:00"
 }
