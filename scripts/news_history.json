@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Expands Health & Medicine News Page Offering Daily Updates of Medical Research",
-      "urls": [
-        "https://www.sciencedaily.com/news/health_medicine"
-      ],
-      "date": "2026-06-06T12:33:43.292956+00:00"
-    },
-    {
       "title": "Trump Announces Largely Negotiated Iran Deal Including Strait of Hormuz Opening",
       "urls": [
         "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-donald-trump-us-iran-peace-talks-live-updates-may-23-2026/article71013439.ece",
@@ -4269,7 +4262,14 @@
         "https://uknow.uky.edu/uk-happenings/uk-future-sport-summit-explores-how-technology-making-sports-smarter"
       ],
       "date": "2026-06-16T12:31:39.994888+00:00"
+    },
+    {
+      "title": "Breakthrough Prize Unites Hollywood and Science in 2026 High‑Profile Ceremony",
+      "urls": [
+        "https://www.hollywoodreporter.com/news/general-news/hollywood-and-science-unite-2026-breakthrough-prize-1236573837"
+      ],
+      "date": "2026-06-16T13:01:39.878057+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T12:31:39.994983+00:00"
+  "lastUpdated": "2026-06-16T13:01:39.878131+00:00"
 }
