@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Maintains Official GitHub Page Offering Open‑Source AI Model Repositories",
-      "urls": [
-        "https://github.com/huggingface"
-      ],
-      "date": "2026-06-07T12:32:09.797049+00:00"
-    },
-    {
       "title": "Intel Unveils 18A Process as Nvidia and AMD Accelerate AI Chip Competition",
       "urls": [
         "https://www.ainvest.com/news/ai-chip-showdown-ces-2026-nvidia-amd-intel-strategic-moves-dominance-2601",
@@ -4288,7 +4281,15 @@
         "https://frontierwisdom.com/openai-2026-toolkit-updates-guide"
       ],
       "date": "2026-06-17T12:31:31.380722+00:00"
+    },
+    {
+      "title": "South Asian Esports Scene Highlights Top Ten Trending Stories Across Pakistan and India",
+      "urls": [
+        "https://www.thetechedvocate.org/the-buzz-around-competitive-gaming-top-10-trending-news-in-pakistan-and-india",
+        "https://sports.yahoo.com/articles/esports-world-cup-move-saudi-131732446.html"
+      ],
+      "date": "2026-06-17T13:01:36.554853+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T12:31:31.380795+00:00"
+  "lastUpdated": "2026-06-17T13:01:36.554931+00:00"
 }
