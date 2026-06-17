@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Conference Board Publishes New US Economic Forecast Guiding Policy and Investment Decisions",
-      "urls": [
-        "https://www.conference-board.org/research/us-forecast"
-      ],
-      "date": "2026-06-07T14:32:10.059409+00:00"
-    },
-    {
       "title": "Industry Report Highlights Top AI Frameworks for Enterprise Machine Learning in 2026",
       "urls": [
         "https://www.analyticsinsight.net/machine-learning/best-ai-frameworks-for-enterprise-machine-learning-models-in-2026"
@@ -4288,7 +4281,16 @@
         "https://health.ai/blog/telehealth-2026-virtual-care-changing-healthcare"
       ],
       "date": "2026-06-17T14:31:39.092555+00:00"
+    },
+    {
+      "title": "Apple Signs $1 Billion Deal With Google To Replace Siri Using Gemini AI",
+      "urls": [
+        "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html",
+        "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+        "https://tech-insider.org/apple-google-gemini-siri-deal-1-billion-2026"
+      ],
+      "date": "2026-06-17T15:01:48.497023+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T14:31:39.092622+00:00"
+  "lastUpdated": "2026-06-17T15:01:48.497100+00:00"
 }
