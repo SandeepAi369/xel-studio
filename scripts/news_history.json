@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Web Services, Microsoft, and Google Compete in Enterprise AI Cloud Market",
-      "urls": [
-        "https://www.youtube.com/watch?v=pZ-9bq6SUVE",
-        "https://www.youtube.com/watch?v=wpWt7ca_m_8",
-        "https://www.youtube.com/shorts/mz3yr1vGbZg",
-        "https://www.youtube.com/watch?v=DX1CtWs1mZ8&vl=ar",
-        "https://www.youtube.com/watch?v=LdYmWbsxHUU"
-      ],
-      "date": "2026-06-07T03:32:00.081077+00:00"
-    },
-    {
       "title": "Live Broadcast Placeholder Appears Without Description in Online Search Results",
       "urls": [
         "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/06/world-cup-live-updates-news-friendlies-june-6--live/90434828007"
@@ -4287,7 +4276,22 @@
         "https://www.nature.com/news"
       ],
       "date": "2026-06-17T03:31:31.491175+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.5 Model Advancing Language Generation and Sets Stage for GPT-6",
+      "urls": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
+        "https://www.youtube.com/watch?v=RspKXuNi_iE",
+        "https://www.youtube.com/watch?v=vzAII7vUj68",
+        "https://www.youtube.com/watch?v=U0giyi5-374",
+        "https://www.youtube.com/watch?v=oMRCR6KqZac",
+        "https://www.youtube.com/watch?v=uFzfbAPZOhc",
+        "https://whatllm.org/blog/new-ai-models-may-2026"
+      ],
+      "date": "2026-06-17T04:01:36.602457+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T03:31:31.491249+00:00"
+  "lastUpdated": "2026-06-17T04:01:36.602524+00:00"
 }
