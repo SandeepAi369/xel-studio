@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PocketWorld Expands Live Disaster Tracker To Provide Real‑Time Global Hazard Maps",
-      "urls": [
-        "https://pocketworld.org/disasters",
-        "https://www.sciencedaily.com/news/earth_climate/natural_disasters",
-        "https://earthquaketoday.net"
-      ],
-      "date": "2026-06-06T23:32:08.794336+00:00"
-    },
-    {
       "title": "Meta Unveils Agentic AI Assistant to Streamline User Tasks Across Platforms",
       "urls": [
         "https://www.msn.com/en-ca/money/topstories/meta-plans-advanced-agentic-ai-assistant-for-users-ft-reports-may-5/ar-AA24Q3Or?ocid=BingNewsVerp",
@@ -4276,7 +4267,14 @@
         "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
       ],
       "date": "2026-06-16T23:31:35.153656+00:00"
+    },
+    {
+      "title": "Image Generation Advances With 4K Output and Real-Time Grounding for Creators",
+      "urls": [
+        "https://northpennnow.com/news/2026/mar/08/2026-ai-image-generation-trends-why-4k-output-and-real-time-grounding-are-changing-everything-for-creators"
+      ],
+      "date": "2026-06-17T00:01:34.478023+00:00"
     }
   ],
-  "lastUpdated": "2026-06-16T23:31:35.153728+00:00"
+  "lastUpdated": "2026-06-17T00:01:34.478098+00:00"
 }
