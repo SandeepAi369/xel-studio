@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qatar Celebrates Historic Gold Medal Surge at 2026 GCC Games in Doha",
-      "urls": [
-        "https://sports.yahoo.com/article/know-team-usa-olympians-ahead-120141389.html",
-        "https://www.gulf-times.com/article/726094/sport/he-sheikh-joaan-celebrates-qatars-historic-gold-rush-at-gcc-games-doha-2026",
-        "https://www.msn.com/en-us/news/news/holmes-county-special-olympics-athlete-brings-home-gold/ar-AA23ncmj?ocid=BingNewsVerp",
-        "https://www.tehrantimes.com/news/526764/Nahid-Kiani-dedicates-gold-medal-to-Iran-people"
-      ],
-      "date": "2026-06-07T09:02:25.338954+00:00"
-    },
-    {
       "title": "PyTorch and TensorFlow Drive AI Convergence Across Industry in 2026",
       "urls": [
         "https://medium.com/@mahrab.khan/the-great-ai-convergence-pytorch-vs-tensorflow-in-2026-62efcbbbe6f8",
@@ -4288,7 +4278,16 @@
         "https://www.usatoday.com/story/news/nation/2025/12/22/spacex-nasa-blue-origin-rocket-launches/87841665007"
       ],
       "date": "2026-06-17T09:01:44.084166+00:00"
+    },
+    {
+      "title": "Drives Quantum Breakthrough As Global Race Accelerates Toward Commercial Use",
+      "urls": [
+        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
+        "https://www.youtube.com/watch?v=IJBeCRHSdgk",
+        "https://www.sciencedaily.com/news/computers_math/quantum_computers"
+      ],
+      "date": "2026-06-17T09:31:43.911087+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T09:01:44.084244+00:00"
+  "lastUpdated": "2026-06-17T09:31:43.911160+00:00"
 }
