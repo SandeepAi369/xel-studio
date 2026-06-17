@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hawaii Experiences Magnitude 6.0 Earthquake As USGS Evaluates Kilauea Volcano",
-      "urls": [
-        "https://nypost.com/2026/05/23/us-news/magnitude-6-earthquake-strikes-hawaiis-big-island"
-      ],
-      "date": "2026-06-07T03:02:01.895504+00:00"
-    },
-    {
       "title": "Amazon Web Services, Microsoft, and Google Compete in Enterprise AI Cloud Market",
       "urls": [
         "https://www.youtube.com/watch?v=pZ-9bq6SUVE",
@@ -4282,7 +4275,19 @@
         "https://www.reddit.com/r/europe/comments/1rocdv8/no_signs_of_middle_east_refugee_surge_but_eu"
       ],
       "date": "2026-06-17T03:01:35.381825+00:00"
+    },
+    {
+      "title": "Russian Warship Fires Warning Shots Near British Couple’s Vessel in International Waters",
+      "urls": [
+        "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
+        "https://www.independent.co.uk/news/world/americas/us-politics/trump-obama-reflecting-pool-washington-green-b2996395.html",
+        "https://www.foxnews.com/world/3-brazilian-men-charged-woman-tossed-bridge-without-safety-rope",
+        "https://www.bbc.com/news/articles/clyrzd5g6k2o?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
+        "https://www.nature.com/news"
+      ],
+      "date": "2026-06-17T03:31:31.491175+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T03:01:35.381902+00:00"
+  "lastUpdated": "2026-06-17T03:31:31.491249+00:00"
 }
