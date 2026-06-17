@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch and TensorFlow Drive AI Convergence Across Industry in 2026",
-      "urls": [
-        "https://medium.com/@mahrab.khan/the-great-ai-convergence-pytorch-vs-tensorflow-in-2026-62efcbbbe6f8",
-        "https://pytorch.org/announcements"
-      ],
-      "date": "2026-06-07T09:31:44.221034+00:00"
-    },
-    {
-      "title": "Smart TV Users Win Court Trial Over Right to Modify Software",
-      "urls": [
-        "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os"
-      ],
-      "date": "2026-06-07T10:01:45.409252+00:00"
-    },
-    {
       "title": "Wall Street Traders Cite Nearly 40 Percent Stagflation Risk for 2026",
       "urls": [
         "https://www.msn.com/en-us/money/markets/an-unwarranted-war-a-global-economic-drag/ar-AA251Sjn?ocid=BingNewsVerp",
@@ -4287,7 +4272,14 @@
         "https://www.sciencedaily.com/news/computers_math/quantum_computers"
       ],
       "date": "2026-06-17T09:31:43.911087+00:00"
+    },
+    {
+      "title": "Microsoft Build 2026 Launches Live Stream for Global Developer Audience",
+      "urls": [
+        "https://mashable.com/tech/how-to-watch-microsoft-build-2026"
+      ],
+      "date": "2026-06-17T10:01:56.250671+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T09:31:43.911160+00:00"
+  "lastUpdated": "2026-06-17T10:01:56.250746+00:00"
 }
