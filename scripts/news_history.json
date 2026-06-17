@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Industry observers noted that the ideathon’s successful conclusion underscores Korea’s growing emphasis on interdisciplinary tech education, suggesting that future research",
-      "urls": [
-        "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/34489685/prediction-polkadot-will-boom-in-2026",
-        "https://finance.yahoo.com/markets/crypto/articles/blockchain-strategic-intelligence-report-2026-103100272.html",
-        "https://markets.businessinsider.com/news/stocks/korea-university-s-2026-ai-blockchain-ideathon-successfully-concludes-sponsored-by-mexc-ventures-1036142279",
-        "https://www.msn.com/en-gb/news/other/blockchain-technology-finally-leaves-the-hype-cycle-behind-in-2026/gm-GMADE0DFF8?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-07T19:02:07.521751+00:00"
-    },
-    {
       "title": "Robotics Stocks Attract Investors Ahead of Second Half 2026 Growth Surge",
       "urls": [
         "https://www.msn.com/en-us/technology/robotics/top-robotics-stocks-worth-investing-in-the-second-half-of-2026/ar-AA24Wao8?ocid=BingNewsVerp",
@@ -4285,7 +4275,15 @@
         "https://lasvegassun.com/news/2026/jun/16/adding-multimedia-pegasus-tech-ventures-and-cyberd"
       ],
       "date": "2026-06-17T19:01:58.602003+00:00"
+    },
+    {
+      "title": "Google Publishes Gemini API Release Notes and Details AI Role in I/O Conference",
+      "urls": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
+      ],
+      "date": "2026-06-17T19:31:41.998113+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T19:01:58.602069+00:00"
+  "lastUpdated": "2026-06-17T19:31:41.998192+00:00"
 }
