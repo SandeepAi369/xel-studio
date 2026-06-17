@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Boston Consulting Group Publishes 2026 Report on AI Agents Transforming Healthcare\",",
-      "urls": [
-        "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
-        "https://www.evlune.com/2026/03/ai-in-healthcare-2026-breakthrough.html",
-        "https://www.wolterskluwer.com/en/expert-insights/2026-future-ready-healthcare"
-      ],
-      "date": "2026-06-07T20:02:12.429873+00:00"
-    },
-    {
       "title": "Securiti Publishes March 2026 Privacy Regulation Roundup Highlighting Global Legislative Shifts",
       "urls": [
         "https://www.mcdermottlaw.com/insights/data-privacy-and-cybersecurity-developments-we-are-watching-in-2026",
@@ -4283,7 +4274,14 @@
         "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html"
       ],
       "date": "2026-06-17T20:02:07.492240+00:00"
+    },
+    {
+      "title": "Stream Hatchet Reports Rising Live Streaming Activity for Mobile Legends Bang Bang in Q1 2026",
+      "urls": [
+        "https://streamhatchet.com/blog/esports-q1-2026-live-streaming-trends-with-mobile-legends-bang-bang"
+      ],
+      "date": "2026-06-17T20:31:34.671480+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T20:02:07.492315+00:00"
+  "lastUpdated": "2026-06-17T20:31:34.671548+00:00"
 }
