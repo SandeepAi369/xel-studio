@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ANDAM Awards Grant Innovation Prize to Alphalyr AI Data Platform",
-      "urls": [
-        "https://www.rediff.com/sports/report/asip-and-sportech-partner-for-indias-sports-industry/20260604.htm",
-        "https://wwd.com/business-news/technology/andam-awards-innovation-prize-alphalyr-ai-data-analytics-1238976748"
-      ],
-      "date": "2026-06-07T12:02:10.574492+00:00"
-    },
-    {
       "title": "Hugging Face Maintains Official GitHub Page Offering Open‑Source AI Model Repositories",
       "urls": [
         "https://github.com/huggingface"
@@ -4283,7 +4275,20 @@
         "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
       ],
       "date": "2026-06-17T12:01:34.403359+00:00"
+    },
+    {
+      "title": "OpenAI Announces GPT-5.6 Release and Expanded Toolkit for Developers in June 2026",
+      "urls": [
+        "https://openai.com/research/index/release",
+        "https://releasebot.io/updates/openai",
+        "https://openai.com/index/introducing-gpt-5-5",
+        "https://www.geeky-gadgets.com/gpt-5-6-june-2026-release",
+        "https://codersera.com/blog/openai-may-2026-updates-roundup",
+        "https://releasebot.io/updates/openai/chatgpt",
+        "https://frontierwisdom.com/openai-2026-toolkit-updates-guide"
+      ],
+      "date": "2026-06-17T12:31:31.380722+00:00"
     }
   ],
-  "lastUpdated": "2026-06-17T12:01:34.403417+00:00"
+  "lastUpdated": "2026-06-17T12:31:31.380795+00:00"
 }
