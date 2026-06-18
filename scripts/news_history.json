@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Role As Leading Source For Latest Research News",
-      "urls": [
-        "https://www.nature.com/nature/articles?type=research-highlight&year=2026",
-        "https://www.sciencedaily.com",
-        "https://poulsbomsc.org/breakthrough-scientific-discoveries-2026"
-      ],
-      "date": "2026-06-08T10:02:24.630452+00:00"
-    },
-    {
       "title": "CES 2026 Showcases 99 Humanoid Robots Highlighting AI and Automation Integration",
       "urls": [
         "https://interestingengineering.com/ai-robotics/9-humanoid-robots-at-ces-2026",
@@ -4265,7 +4256,14 @@
         "https://www.msn.com/en-us/news/other/the-enterprise-ai-pivot-how-openai-anthropic-and-langchain-are-redefining-production-in-may-2026/gm-GMD0E27A85?ocid=BingNewsVerp"
       ],
       "date": "2026-06-18T10:01:42.248817+00:00"
+    },
+    {
+      "title": "Tropical Storm Arthur Brings Flood Threat to Louisiana Coast Affecting Millions",
+      "urls": [
+        "https://www.foxweather.com/live-news/live-updates-louisiana-coast-under-tropical-storm-warning-as-catastrophic-flooding-targets-millions"
+      ],
+      "date": "2026-06-18T10:31:26.503433+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T10:01:42.248889+00:00"
+  "lastUpdated": "2026-06-18T10:31:26.503505+00:00"
 }
