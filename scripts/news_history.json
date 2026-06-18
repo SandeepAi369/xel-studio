@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "BuildFastWithAI.com Launches AI News Hub Highlighting Model Releases and Trends",
-      "urls": [
-        "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends",
-        "https://aipressroom.com/press-releases",
-        "https://clearainews.com/industry-analysis/latest-ai-news-and-developments-2026-2",
-        "https://www.artificialintelligence-news.com"
-      ],
-      "date": "2026-06-08T07:02:30.363664+00:00"
-    },
-    {
       "title": "Google And Meta Models Lose Guardrails After Researchers Strip Safeguards In Minutes",
       "urls": [
         "https://www.techrepublic.com/article/news-meta-acquires-moltbook-bot-only-social-network",
@@ -4268,7 +4258,16 @@
         "https://www.paramountplus.com/sneak-peak/ufc-schedule-2026"
       ],
       "date": "2026-06-18T07:01:39.661337+00:00"
+    },
+    {
+      "title": "YouTube Launches Clinical‑Grade AI Series to Shape Healthcare Experience Worldwide",
+      "urls": [
+        "https://www.youtube.com/watch?v=GJCJCA42bUo",
+        "https://www.youtube.com/watch?v=TNp7odWM2lI",
+        "https://www.youtube.com/watch?v=cI3Oh1ZfeMo"
+      ],
+      "date": "2026-06-18T07:31:34.669477+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T07:01:39.661405+00:00"
+  "lastUpdated": "2026-06-18T07:31:34.669552+00:00"
 }
