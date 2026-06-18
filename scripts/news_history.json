@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qiat Publishes Assistive Technology Resource Guide for Visually Impaired Students",
-      "urls": [
-        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf"
-      ],
-      "date": "2026-06-08T22:31:59.026015+00:00"
-    },
-    {
-      "title": "Linux Foundation Report Shows AI Boosts Tech Hiring Across Europe Amid Skill Gaps",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/08/10395408.htm"
-      ],
-      "date": "2026-06-08T23:01:40.641186+00:00"
-    },
-    {
       "title": "Mistral Acquires Emmi AI To Add Physics‑Based Models To Industrial Portfolio",
       "urls": [
         "https://thenextweb.com/news/mistral-emmi-ai-physics-vienna-industrial",
@@ -4274,7 +4260,14 @@
         "https://www.worldwildlife.org/news/magazine/summer-2026"
       ],
       "date": "2026-06-18T22:31:27.657136+00:00"
+    },
+    {
+      "title": "National Telehealth & Virtual Care Summit Showcases Remote Care Innovations",
+      "urls": [
+        "https://www.wcforum.com/conferences/telemedicine"
+      ],
+      "date": "2026-06-18T23:03:19.955587+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T22:31:27.657222+00:00"
+  "lastUpdated": "2026-06-18T23:03:19.955663+00:00"
 }
