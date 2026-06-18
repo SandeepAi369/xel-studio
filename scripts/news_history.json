@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bybit Secures Second Place in Open Interest Among Major Crypto Exchanges",
-      "urls": [
-        "https://www.thestreet.com/crypto/press-releases/bybit-ranks-no-2-in-open-interest-among-major-crypto-exchanges-leads-cexs-in-oi-to-volume-ratio"
-      ],
-      "date": "2026-06-08T02:32:05.504830+00:00"
-    },
-    {
       "title": "Quantum Computing Advances Drive Commercial Reality and Highlight Top Investment Picks",
       "urls": [
         "https://uk.finance.yahoo.com/news/quantum-computing-research-report-2026-145300579.html",
@@ -4268,7 +4261,18 @@
         "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
       ],
       "date": "2026-06-18T02:31:30.845112+00:00"
+    },
+    {
+      "title": "TechRadar PCMag The Verge and Wired Lead Global Technology News Coverage",
+      "urls": [
+        "https://www.techradar.com",
+        "https://www.pcmag.com/news",
+        "https://www.theverge.com/tech",
+        "https://www.wired.com",
+        "https://techcrunch.com/latest"
+      ],
+      "date": "2026-06-18T03:01:40.877099+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T02:31:30.845198+00:00"
+  "lastUpdated": "2026-06-18T03:01:40.877184+00:00"
 }
