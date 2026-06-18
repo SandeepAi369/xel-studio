@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils Mysterious Gen AI Website Ahead of WWDC 2026 Announcements",
-      "urls": [
-        "https://www.firstpost.com/tech/wwdc-2026-apples-mysterious-new-gen-ai-website-hints-at-major-ai-announcements-14014766.html"
-      ],
-      "date": "2026-06-08T11:02:05.839610+00:00"
-    },
-    {
       "title": "Hawaii Experiences Magnitude 6 Earthquake Causing Home Damage and Volcano Monitoring",
       "urls": [
         "https://www.cnbc.com/2026/05/23/hawaii-earthquake.html",
@@ -4261,7 +4254,18 @@
         "https://www.sciencedaily.com/news/earth_climate/global_warming"
       ],
       "date": "2026-06-18T11:01:45.666234+00:00"
+    },
+    {
+      "title": "PixPix Launches AI Agent to Automate Full E‑Commerce Content Workflow",
+      "urls": [
+        "https://lasvegassun.com/news/2026/jun/17/2026-meitu-multimedia-festival-unveils-8-ai-produc",
+        "https://www.forbes.com/sites/ronschmelzer/2026/05/22/google-ai-video-shift-generation-to-production",
+        "https://www.msn.com/en-xl/africa/ghana/2026-meitu-multimedia-festival-uveils-8-ai-products-declares-your-ai-crew-assembled/ar-AA25TvAZ?ocid=BingNewsVerp",
+        "https://www.jsonline.com/press-release/story/200842/ai-inspo-launches-100-world-cup-inspired-ai-video-templates-for-soccer-fans",
+        "https://www.oklahoman.com/press-release/story/188046/pixpix-launches-an-ai-agent-that-runs-the-entire-e-commerce-content-workflow"
+      ],
+      "date": "2026-06-18T11:31:33.555646+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T11:01:45.666310+00:00"
+  "lastUpdated": "2026-06-18T11:31:33.555717+00:00"
 }
