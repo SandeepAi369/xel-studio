@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Netflix Expands Accessibility Features to Meet Shifting Global Viewing Habits",
-      "urls": [
-        "https://indianexpress.com/article/technology/tech-news-technology/netflix-expands-accessibility-features-as-global-viewing-habits-shift-10703007"
-      ],
-      "date": "2026-06-08T09:31:35.363990+00:00"
-    },
-    {
       "title": "ScienceDaily Highlights Role As Leading Source For Latest Research News",
       "urls": [
         "https://www.nature.com/nature/articles?type=research-highlight&year=2026",
@@ -4264,7 +4257,15 @@
         "https://www.atlascloud.ai/blog/guides/best-ai-video-generation-models-2026"
       ],
       "date": "2026-06-18T09:31:29.249264+00:00"
+    },
+    {
+      "title": "Grok AI Launches Triple‑Size Model Aiming to Lead Coding Assistance Market",
+      "urls": [
+        "https://www.techtimes.com/articles/317328/20260528/grok-ai-new-model-triples-parameter-count-targets-coding-lead-release-expected-mid-june.htm",
+        "https://www.msn.com/en-us/news/other/the-enterprise-ai-pivot-how-openai-anthropic-and-langchain-are-redefining-production-in-may-2026/gm-GMD0E27A85?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-18T10:01:42.248817+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T09:31:29.249337+00:00"
+  "lastUpdated": "2026-06-18T10:01:42.248889+00:00"
 }
