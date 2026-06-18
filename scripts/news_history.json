@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "EY Publishes Top Ten Geopolitical Developments Shaping 2026 Global Landscape",
-      "urls": [
-        "https://www.msn.com/en-xl/news/other/bay-of-bengal-conversation-2026-to-be-held-on-oct-3-5/ar-AA24ZcBC?ocid=BingNewsVerp",
-        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
-      ],
-      "date": "2026-06-08T20:01:46.349083+00:00"
-    },
-    {
       "title": "Team USA Wins Record 11 Gold Medals at 2026 Winter Olympics",
       "urls": [
         "https://www.eonline.com/news/1428811/olympics-2026-team-usa-makes-history-with-11-gold-medals",
@@ -4269,7 +4261,14 @@
         "https://www.sciencedirect.com/science/article/pii/S0001691825013241"
       ],
       "date": "2026-06-18T20:01:44.775796+00:00"
+    },
+    {
+      "title": "Apple Unveils Gen AI Website Ahead of WWDC 2026 Hinting at Major AI Rollout",
+      "urls": [
+        "https://www.firstpost.com/tech/wwdc-2026-apples-mysterious-new-gen-ai-website-hints-at-major-ai-announcements-14014766.html"
+      ],
+      "date": "2026-06-18T20:31:21.508306+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T20:01:44.775872+00:00"
+  "lastUpdated": "2026-06-18T20:31:21.508381+00:00"
 }
