@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "CES 2026 Showcases 99 Humanoid Robots Highlighting AI and Automation Integration",
-      "urls": [
-        "https://interestingengineering.com/ai-robotics/9-humanoid-robots-at-ces-2026",
-        "https://www.technerdo.com/blog/humanoid-robots-market-2026",
-        "https://www.designnews.com/automation/humanoid-robots-open-to-a-future-where-ai-and-automation-merge"
-      ],
-      "date": "2026-06-08T10:32:07.622961+00:00"
-    },
-    {
       "title": "Apple Unveils Mysterious Gen AI Website Ahead of WWDC 2026 Announcements",
       "urls": [
         "https://www.firstpost.com/tech/wwdc-2026-apples-mysterious-new-gen-ai-website-hints-at-major-ai-announcements-14014766.html"
@@ -4263,7 +4254,14 @@
         "https://www.foxweather.com/live-news/live-updates-louisiana-coast-under-tropical-storm-warning-as-catastrophic-flooding-targets-millions"
       ],
       "date": "2026-06-18T10:31:26.503433+00:00"
+    },
+    {
+      "title": "ScienceDaily Launches Global Warming News Hub for Climate Research Updates",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming"
+      ],
+      "date": "2026-06-18T11:01:45.666234+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T10:31:26.503505+00:00"
+  "lastUpdated": "2026-06-18T11:01:45.666310+00:00"
 }
