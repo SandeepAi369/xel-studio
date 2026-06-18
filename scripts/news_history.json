@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google And Meta Models Lose Guardrails After Researchers Strip Safeguards In Minutes",
-      "urls": [
-        "https://www.techrepublic.com/article/news-meta-acquires-moltbook-bot-only-social-network",
-        "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama"
-      ],
-      "date": "2026-06-08T07:32:32.075829+00:00"
-    },
-    {
       "title": "SpaceX Launches 49 Starlink Satellites From Kennedy Space Center, Boosting Global Broadband Coverage",
       "urls": [
         "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
@@ -4267,7 +4259,16 @@
         "https://www.youtube.com/watch?v=cI3Oh1ZfeMo"
       ],
       "date": "2026-06-18T07:31:34.669477+00:00"
+    },
+    {
+      "title": "Space Stocks and ETFs Offer Growth Opportunities for Investors in 2026",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/heres-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp",
+        "https://money.usnews.com/investing/articles/investing-in-space-space-stocks-and-etfs-to-watch",
+        "https://www.msn.com/en-us/technology/space-exploration/bestselling-author-spacex-holds-massive-monopoly-power-in-the-emerging-space-economy/ar-AA25vb6e?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-18T08:01:44.963635+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T07:31:34.669552+00:00"
+  "lastUpdated": "2026-06-18T08:01:44.963711+00:00"
 }
