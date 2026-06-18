@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches 49 Starlink Satellites From Kennedy Space Center, Boosting Global Broadband Coverage",
-      "urls": [
-        "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
-        "https://www.spacex.com/updates",
-        "https://www.space.com/spacex-demo-2-astronaut-launch-what-to-expect.html",
-        "https://www.wsbtv.com/news/spacex-launches-its/PCCN6L7JAE6OFHR2D67NIW6LMY",
-        "https://www.wral.com/video/nasas-spacex-crew-12-mission-launches/22321614",
-        "https://www.youtube.com/watch?v=mt4xXNgSPeg",
-        "https://www.youtube.com/watch?v=JL5ehLQHSCQ",
-        "https://www.nasa.gov/events",
-        "https://www.facebook.com/CBSMornings/videos/spacex-launches-new-starship-rocket-ahead-of-ipo/1932151054145747"
-      ],
-      "date": "2026-06-08T08:02:03.019680+00:00"
-    },
-    {
       "title": "WEMADE Gears Up for Second Global YMIR Cup World Championship Event",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/wemade-gears-up-for-2nd-global-esports-tournament-ymir-cup-world-championship-1036187542",
@@ -4268,7 +4253,14 @@
         "https://www.msn.com/en-us/technology/space-exploration/bestselling-author-spacex-holds-massive-monopoly-power-in-the-emerging-space-economy/ar-AA25vb6e?ocid=BingNewsVerp"
       ],
       "date": "2026-06-18T08:01:44.963635+00:00"
+    },
+    {
+      "title": "United States Increases Gold Medal Count at Winter Games With Strong Performances From Select States",
+      "urls": [
+        "https://www.npr.org/2026/02/23/nx-s1-5720980/us-gold-medals-winter-games-vermont-alaska"
+      ],
+      "date": "2026-06-18T08:31:32.396991+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T08:01:44.963711+00:00"
+  "lastUpdated": "2026-06-18T08:31:32.397063+00:00"
 }
