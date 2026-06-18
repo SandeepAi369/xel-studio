@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "YaCy Provides Tutorials, Download Link, Community Forum, Git Repository, and Bugtracker",
-      "urls": [
-        "https://yacy.net/tutorials",
-        "https://yacy.net",
-        "https://community.searchlab.eu",
-        "https://github.com/yacy/yacy_search_server/commits/master",
-        "https://github.com/yacy/yacy_search_server/issues"
-      ],
-      "date": "2026-06-08T15:03:43.899122+00:00"
-    },
-    {
       "title": "Microsoft Launches New AI Models Reducing Dependence on OpenAI and Cutting Developer Costs",
       "urls": [
         "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
@@ -4274,7 +4263,16 @@
         "https://whatllm.org/blog/new-ai-models-april-2026"
       ],
       "date": "2026-06-18T15:01:46.949761+00:00"
+    },
+    {
+      "title": "YouTube Shows Inside Modern AI Data Centers and Infrastructure Design",
+      "urls": [
+        "https://aibusiness.com/verticals/cloud-computing",
+        "https://www.youtube.com/watch?v=nV3xJ6zXQeg",
+        "https://www.youtube.com/watch?v=gG0T7RxFULg"
+      ],
+      "date": "2026-06-18T15:31:39.979447+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T15:01:46.949827+00:00"
+  "lastUpdated": "2026-06-18T15:31:39.979503+00:00"
 }
