@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Autism Center Highlights Emerging Technologies Empowering Autistic Individuals Worldwide",
-      "urls": [
-        "https://www.autismspeaks.org/advocacy-news/congress-passes-critical-autism-funding-fiscal-year-2026-federal-package",
-        "https://neurosciencenews.com/neuroscience-topics/autism",
-        "https://theconversation.com/topics/neurodiversity-103349",
-        "https://news.microsoft.com/source/features/ai/how-ai-helps-neurodivergent-professionals-showcase-their-strengths",
-        "https://indiaautismcenter.org/blog/latest-tech-in-autism",
-        "https://algeriatech.news/neurodiversity-tech-hiring-inclusion-2026",
-        "https://aane.org"
-      ],
-      "date": "2026-06-08T01:32:07.436800+00:00"
-    },
-    {
       "title": "Meta Releases Free Llama Open Source AI Model to Accelerate WriteSea Integration",
       "urls": [
         "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2806899022830350"
@@ -4271,7 +4258,17 @@
         "https://codersera.com/blog/open-source-llms-landscape-2026"
       ],
       "date": "2026-06-18T01:31:36.478867+00:00"
+    },
+    {
+      "title": "\"title\": \"Samsung Projects Triple Profit Surge as AI Drives Record Earnings\",",
+      "urls": [
+        "https://www.cnbc.com/technology",
+        "https://www.youtube.com/watch?v=ZVXDX140kDw",
+        "https://www.facebook.com/firstpostin/videos/apple-google-microsoft-issue-travel-advisory-for-h-1b-visa-holders/1524052255374677",
+        "https://www.reuters.com/video/watch/idRW509208012026RP1"
+      ],
+      "date": "2026-06-18T02:01:43.260177+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T01:31:36.478934+00:00"
+  "lastUpdated": "2026-06-18T02:01:43.260261+00:00"
 }
