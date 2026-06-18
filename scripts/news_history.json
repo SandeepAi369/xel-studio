@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Launches New AI Models Reducing Dependence on OpenAI and Cutting Developer Costs",
-      "urls": [
-        "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
-      ],
-      "date": "2026-06-08T15:32:07.389688+00:00"
-    },
-    {
-      "title": "CrowdStrike Shares Drop After Earnings Guidance Misses Expectations Despite Strong 2026 Performance",
-      "urls": [
-        "https://www.msn.com/en-us/money/topstocks/why-soundhound-ais-ceo-says-the-company-doesnt-need-to-spend-excessively-on-ai-like-big-tech-giants/ar-AA24z3L2?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/top-stocks/crowdstrike-earnings-guidance-edge-by-views-cybersecurity-firm-plans-stock-split/ar-AA24M1kO?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-08T16:02:11.442892+00:00"
-    },
-    {
       "title": "Issue 1‑0‑0‑0 Highlights Freedom Theme in New Publication Series and Sets Tone",
       "urls": [
         "https://www.citationneeded.news/issue-100",
@@ -4272,7 +4257,16 @@
         "https://www.youtube.com/watch?v=gG0T7RxFULg"
       ],
       "date": "2026-06-18T15:31:39.979447+00:00"
+    },
+    {
+      "title": "Microsoft Launches Public AI Platform With Research Tools and Desktop App Preview",
+      "urls": [
+        "https://www.digitaltrends.com/computing/google-wants-gemini-to-help-build-the-next-big-scientific-breakthrough",
+        "https://www.msn.com/en-au/news/other/biotech-innovations-are-moving-from-breakthrough-science-to-commercial-reality-in-2026/gm-GMF34C57A8?ocid=BingNewsVerp",
+        "https://windowsreport.com/microsoft-discovery-goes-public-with-new-ai-research-tools-and-desktop-app-preview"
+      ],
+      "date": "2026-06-18T16:02:28.248112+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T15:31:39.979503+00:00"
+  "lastUpdated": "2026-06-18T16:02:28.248185+00:00"
 }
