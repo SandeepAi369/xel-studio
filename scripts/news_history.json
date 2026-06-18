@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artificial Intelligence Faces Critical Test to Deliver Inclusive Accessibility Solutions",
-      "urls": [
-        "https://www.forbes.com/sites/keelycatwells/2026/05/03/artificial-intelligence-has-one-chance-to-get-accessibility-right"
-      ],
-      "date": "2026-06-08T21:31:40.460734+00:00"
-    },
-    {
       "title": "Google Tests New Video Generation Model That Converts Text Prompts Into Dynamic Clips",
       "urls": [
         "https://www.msn.com/en-in/money/news/testing-googles-new-video-generation-model-techpulse/vi-AA23HlS1?ocid=BingNewsVerp"
@@ -4267,7 +4260,16 @@
         "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
       ],
       "date": "2026-06-18T21:31:31.601293+00:00"
+    },
+    {
+      "title": "DataNorth AI Publishes Updated Top Ten AI Tools List for 2026",
+      "urls": [
+        "https://datanorth.ai/blog/top-10-ai-tools-for-2026",
+        "https://www.youtube.com/watch?v=Ae9WGeiH4BA",
+        "https://www.youtube.com/watch?v=gYxV6UbQbbU"
+      ],
+      "date": "2026-06-18T22:01:40.555924+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T21:31:31.601366+00:00"
+  "lastUpdated": "2026-06-18T22:01:40.556001+00:00"
 }
