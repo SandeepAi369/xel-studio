@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Free Llama Open Source AI Model to Accelerate WriteSea Integration",
-      "urls": [
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2806899022830350"
-      ],
-      "date": "2026-06-08T02:01:57.560296+00:00"
-    },
-    {
       "title": "Bybit Secures Second Place in Open Interest Among Major Crypto Exchanges",
       "urls": [
         "https://www.thestreet.com/crypto/press-releases/bybit-ranks-no-2-in-open-interest-among-major-crypto-exchanges-leads-cexs-in-oi-to-volume-ratio"
@@ -4268,7 +4261,14 @@
         "https://www.reuters.com/video/watch/idRW509208012026RP1"
       ],
       "date": "2026-06-18T02:01:43.260177+00:00"
+    },
+    {
+      "title": "IBM Commits Over $10 Billion to Accelerate Fault‑Tolerant Quantum Computer Development",
+      "urls": [
+        "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
+      ],
+      "date": "2026-06-18T02:31:30.845112+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T02:01:43.260261+00:00"
+  "lastUpdated": "2026-06-18T02:31:30.845198+00:00"
 }
