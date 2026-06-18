@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Wins Record 11 Gold Medals at 2026 Winter Olympics",
-      "urls": [
-        "https://www.eonline.com/news/1428811/olympics-2026-team-usa-makes-history-with-11-gold-medals",
-        "https://www.espn.com/olympics/winter/2026/medals/_/countryId/79"
-      ],
-      "date": "2026-06-08T20:32:09.173173+00:00"
-    },
-    {
       "title": "MMA And Boxing Showcase Shortest Fights In History Across Two Sports",
       "urls": [
         "https://www.thebiglead.com/the-shortest-fights-in-mma-and-boxing-history",
@@ -4268,7 +4260,15 @@
         "https://www.firstpost.com/tech/wwdc-2026-apples-mysterious-new-gen-ai-website-hints-at-major-ai-announcements-14014766.html"
       ],
       "date": "2026-06-18T20:31:21.508306+00:00"
+    },
+    {
+      "title": "Milano Cortina 2026 Olympics Publish Complete Medalist List Across All Events",
+      "urls": [
+        "https://www.olympics.com/en/milano-cortina-2026/medals/medallists",
+        "https://www.latimes.com/sports/olympics/live/2026-winter-olympics-live-updates-final-day-results-winners-medal-count-schedule-closing-ceremony"
+      ],
+      "date": "2026-06-18T21:01:42.077516+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T20:31:21.508381+00:00"
+  "lastUpdated": "2026-06-18T21:01:42.077585+00:00"
 }
