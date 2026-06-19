@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Times of Blockchain Launches Dedicated Crypto News Hub Covering Global Blockchain Developments",
-      "urls": [
-        "https://www.timesofblockchain.com"
-      ],
-      "date": "2026-06-09T21:01:58.743965+00:00"
-    },
-    {
       "title": "Nature Showcases Latest Climate Change Studies in 2026 Across Scientific Journals",
       "urls": [
         "https://www.nature.com/nclimate/articles?type=article&year=2026",
@@ -4319,7 +4312,15 @@
         "https://www.bbc.com/news/videos/cm2ppx7d0k7o"
       ],
       "date": "2026-06-19T21:01:41.867321+00:00"
+    },
+    {
+      "title": "Qiat Releases Comprehensive Assistive Technology Guide for Visually Impaired Students",
+      "urls": [
+        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1706182/full"
+      ],
+      "date": "2026-06-19T21:31:33.217718+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T21:01:41.867393+00:00"
+  "lastUpdated": "2026-06-19T21:31:33.217787+00:00"
 }
