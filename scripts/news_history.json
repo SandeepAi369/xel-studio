@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sabastian Sawe Shatters Two-Hour Barrier, Setting New World Record in London Marathon",
-      "urls": [
-        "https://www.theguardian.com/sport/2026/apr/26/sabastian-sawe-breaks-two-hour-barrier-london-marathon-world-record"
-      ],
-      "date": "2026-06-09T00:31:39.202770+00:00"
-    },
-    {
       "title": "Vendors Gain Traction as Ten Companies Expand Into Health System Markets",
       "urls": [
         "https://www.beckershospitalreview.com/healthcare-information-technology/ai/10-ai-vendors-gaining-traction-with-health-systems"
@@ -4283,7 +4276,14 @@
         "https://www.bbc.com"
       ],
       "date": "2026-06-19T00:31:31.653515+00:00"
+    },
+    {
+      "title": "American Foundation for the Blind Expands Screen Reader Guide to Aid Blind Users Nationwide",
+      "urls": [
+        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers"
+      ],
+      "date": "2026-06-19T01:01:34.303267+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T00:31:31.653584+00:00"
+  "lastUpdated": "2026-06-19T01:01:34.303339+00:00"
 }
