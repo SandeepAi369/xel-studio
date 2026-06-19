@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT‑Rosalind Model and Expanded Codex Plugin for Life Sciences",
-      "urls": [
-        "https://venturebeat.com/technology/openai-debuts-gpt-rosalind-a-new-limited-access-model-for-life-sciences-and-broader-codex-plugin-on-github",
-        "https://www.msn.com/en-us/news/technology/ai-model-release-tracker-opus-48s-misalignment-rates-similar-to-claude-mythos-preview/ar-AA24lrzd?ocid=BingNewsVerp",
-        "https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html",
-        "https://www.businessinsider.com/anthropic-surpasses-openai-with-965b-valuation-debuts-opus-4-8-2026-5",
-        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/02/chinas-deepseek-prices-new-v4-ai-model-at-97-below-openais-gpt-55",
-        "https://www.msn.com/en-in/money/news/openai-s-sam-altman-says-gpt-55-cyber-to-launch-for-cyber-defenders-with-focus-on-trusted-government-access/ar-AA224dPF?ocid=BingNewsVerp",
-        "https://www.financialexpress.com/life/technology-ai-roundup-april-2026-claude-mythos-gpt-5-5-musk-altman-lawsuit-and-more-4223316",
-        "https://www.geeky-gadgets.com/openai-voice-models-2026"
-      ],
-      "date": "2026-06-09T09:01:50.006280+00:00"
-    },
-    {
       "title": "Cuba 6.1 Magnitude Earthquake Felt in Florida, Prompting Regional Monitoring",
       "urls": [
         "https://spacecoastdaily.com/2026/06/breaking-6-1-magnitude-earthquake-off-cuba-felt-across-brevard-county-florida"
@@ -4302,7 +4288,14 @@
         "https://www.msn.com/en-us/news/technology/nvidia-pitches-space-ready-hardware-for-ai-data-centers-and-satellite-computing/ar-AA1ZJcMF?ocid=BingNewsVerp"
       ],
       "date": "2026-06-19T09:01:33.249018+00:00"
+    },
+    {
+      "title": "Center for Biological Diversity Expands Press Release Archive to Boost Transparency",
+      "urls": [
+        "https://www.biologicaldiversity.org/news/press_releases"
+      ],
+      "date": "2026-06-19T09:31:33.274314+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T09:01:33.249089+00:00"
+  "lastUpdated": "2026-06-19T09:31:33.274368+00:00"
 }
