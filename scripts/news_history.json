@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "LinuxInsider Highlights AI Growth, Funding Strain, and Licensing Battles in Open Source 2026",
-      "urls": [
-        "https://linuxiac.com/category/news",
-        "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html",
-        "https://linuxlap.com/category/news",
-        "https://lwn.net",
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-april-2026"
-      ],
-      "date": "2026-06-09T13:02:04.730029+00:00"
-    },
-    {
       "title": "Hugging Face Launches Reachy Mini App Store With Over 200 Open-Source Apps",
       "urls": [
         "https://www.finanznachrichten.de/nachrichten-2026-06/68717370-treble-treble-technologies-and-hugging-face-address-voice-ai-s-unspoken-dilemma-with-groundbreaking-benchmark-of-asr-models-296.htm",
@@ -4298,7 +4287,20 @@
         "https://www.nytimes.com/2026/05/26/climate/air-travel-emissions.html"
       ],
       "date": "2026-06-19T13:01:57.008973+00:00"
+    },
+    {
+      "title": "White House Issues National AI Policy Framework to Guide Regulation and Innovation",
+      "urls": [
+        "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update",
+        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
+        "https://www.gunder.com/en/news-insights/insights/2026-ai-laws-update-key-regulations-and-practical-guidance",
+        "https://legalclarity.org/federal-ai-policy-executive-orders-laws-and-rules",
+        "https://aicomparison.ai/us-ai-regulation-2026-framework",
+        "https://gdprlocal.com/ai-regulations-around-the-world"
+      ],
+      "date": "2026-06-19T13:31:32.620881+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T13:01:57.009027+00:00"
+  "lastUpdated": "2026-06-19T13:31:32.620955+00:00"
 }
