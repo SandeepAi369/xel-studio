@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rep. Jay Obernolte Calls for Shared State and Federal Role in AI Regulation",
-      "urls": [
-        "https://www.msn.com/en-us/money/other/rep-jay-obernolte-both-states-and-federal-government-will-have-a-role-to-play-in-ai-regulation/ar-AA23OXPp?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-09T11:31:31.504268+00:00"
-    },
-    {
       "title": "Codersera Publishes 2026 Ranking of Best Open-Source LLMs Including Llama 4 and DeepSeek V4",
       "urls": [
         "https://blog.xidao.online/en/posts/2026-open-source-llm-landscape",
@@ -4297,7 +4290,14 @@
         "https://higgsfield.ai/blog/best-ai-video-generators-2026"
       ],
       "date": "2026-06-19T11:31:29.221962+00:00"
+    },
+    {
+      "title": "Trump Answers Iran Queries and Discusses Anti‑Weaponization Fund as Primary Winners Move Toward Midterms",
+      "urls": [
+        "https://www.nbcnews.com/politics/2026-election/live-blog/trump-primary-elections-midterm-ca-nj-sd-iowa-iran-war-live-updates-rcna348166"
+      ],
+      "date": "2026-06-19T12:01:40.649897+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T11:31:29.222030+00:00"
+  "lastUpdated": "2026-06-19T12:01:40.649970+00:00"
 }
