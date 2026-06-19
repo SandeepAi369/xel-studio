@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Companies Drive Earnings Growth as Chip Sector Strengthens in 2026",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-04-28/tech-companies-to-lead-earnings-growth-as-chip-strength-shines"
-      ],
-      "date": "2026-06-09T08:31:56.715890+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT‑Rosalind Model and Expanded Codex Plugin for Life Sciences",
       "urls": [
         "https://venturebeat.com/technology/openai-debuts-gpt-rosalind-a-new-limited-access-model-for-life-sciences-and-broader-codex-plugin-on-github",
@@ -4295,7 +4288,21 @@
         "https://undivided.io/resources/tech-equipment-apps-and-more-for-low-vision-and-blindness-2886"
       ],
       "date": "2026-06-19T08:31:31.354225+00:00"
+    },
+    {
+      "title": "Akamai Gains 20 Percent Stock Surge After Securing $1.8 Billion AI Infrastructure Deal",
+      "urls": [
+        "https://www.geekwire.com/cloud",
+        "https://www.morningstar.com/news/business-wire/20260514608864/sharon-ai-announces-five-year-cloud-computing-infrastructure-agreement",
+        "https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html",
+        "https://www.moneycontrol.com/technology/intel-at-computex-2026-from-new-xeon-6-to-rackscale-ai-infrastructure-everything-intel-announced-article-13938645.html",
+        "https://cryptobriefing.com/oracle-revenue-growth-cloud-ai-demand",
+        "https://www.firstpost.com/tech/intel-unveils-next-generation-ai-infrastructure-and-xeon-6-processors-at-computex-2026-14018077.html",
+        "https://www.msn.com/en-us/money/markets/hive-secures-220m-ai-infrastructure-contract-with-bell-and-cohere/ar-AA25Z7oe?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/nvidia-pitches-space-ready-hardware-for-ai-data-centers-and-satellite-computing/ar-AA1ZJcMF?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-19T09:01:33.249018+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T08:31:31.354291+00:00"
+  "lastUpdated": "2026-06-19T09:01:33.249089+00:00"
 }
