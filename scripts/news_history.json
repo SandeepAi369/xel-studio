@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Showcases New AI Hardware and Strategy at GTC 2026 Conference",
-      "urls": [
-        "https://www.techrepublic.com/article/news-nvidia-gtc-2026-live-updates"
-      ],
-      "date": "2026-06-09T01:31:50.557729+00:00"
-    },
-    {
       "title": "Microsoft Releases Open Source AI Safety Tools to Strengthen Agent Development Practices",
       "urls": [
         "https://campustechnology.com/articles/2026/05/20/microsoft-releases-open-source-ai-safety-tools-for-agent-development.aspx"
@@ -4284,7 +4277,14 @@
         "https://www.analyticsinsight.net/healthcare/top-10-medical-device-trends-in-2026"
       ],
       "date": "2026-06-19T01:31:34.086812+00:00"
+    },
+    {
+      "title": "TechMarketBriefs Publishes Q1 2026 Tech Earnings Calendar to Streamline Investor Planning",
+      "urls": [
+        "https://techmarketbriefs.com/earnings"
+      ],
+      "date": "2026-06-19T02:01:39.326508+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T01:31:34.086880+00:00"
+  "lastUpdated": "2026-06-19T02:01:39.326561+00:00"
 }
