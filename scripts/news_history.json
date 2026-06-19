@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Holds 55 Percent Research Share While TensorFlow Trails on TPU Performance",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
-      ],
-      "date": "2026-06-09T20:02:14.329026+00:00"
-    },
-    {
       "title": "Microsoft, Meta, Amazon and Alphabet Release Quarterly Earnings in Big Tech Earningspalooza",
       "urls": [
         "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805"
@@ -4311,7 +4304,19 @@
         "https://www.msn.com/en-us/health/other/ai-reveals-unexpected-source-of-antibiotic-candidates-in-prion-proteins/ar-AA265OTa?ocid=BingNewsVerp"
       ],
       "date": "2026-06-19T20:01:53.153212+00:00"
+    },
+    {
+      "title": "Trump Calls Out Italian Prime Minister Photo Request, Spat Escalates",
+      "urls": [
+        "https://www.foxnews.com/politics/trump-meloni-spat-grows-over-claim-italian-pm-begged-photo-astonished",
+        "https://www.foxnews.com/politics/obama-centers-opening-ceremony-ridiculed-land-acknowledgment-star-studded-show",
+        "https://www.theguardian.com/politics/2026/jun/19/andy-burnham-wins-makerfield-byelection-paving-way-labour-leadership-challenge",
+        "https://www.foxnews.com/world/pure-hell-moscow-ukrainian-drones-strike-major-refinery-supplying-capitals-fuel-market",
+        "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-deal-strait-of-hormuz-supreme-leader-b2998873.html",
+        "https://www.theguardian.com/football/2026/jun/18/canada-qatar-world-cup-2026-group-b-match-report"
+      ],
+      "date": "2026-06-19T20:31:30.205845+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T20:01:53.153300+00:00"
+  "lastUpdated": "2026-06-19T20:31:30.205916+00:00"
 }
