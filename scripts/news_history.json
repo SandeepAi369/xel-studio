@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "American Hospital Association Highlights Four Digital Health Projects Transforming Care Delivery",
-      "urls": [
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
-      ],
-      "date": "2026-06-09T04:02:14.596936+00:00"
-    },
-    {
       "title": "NV Access Adds News Section to Official Website to Centralize Updates",
       "urls": [
         "https://www.nvaccess.org/news"
@@ -4283,7 +4276,17 @@
         "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks"
       ],
       "date": "2026-06-19T04:01:49.441976+00:00"
+    },
+    {
+      "title": "Messi Scores First World Cup Hat Trick as Argentina Gains Momentum",
+      "urls": [
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-2026-june-16-messi-argentia-live-updates-rcna350195",
+        "https://www.si.com/nba/finals/biggest-winners-and-losers-from-2026-nba-finals",
+        "https://www.foxsports.com/live-blog/soccer/mexico-vs-south-korea-live-updates-score-top-plays-from-group-showdown",
+        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496"
+      ],
+      "date": "2026-06-19T04:31:25.943477+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T04:01:49.442046+00:00"
+  "lastUpdated": "2026-06-19T04:31:25.943574+00:00"
 }
