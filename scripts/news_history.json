@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Traveler Reports Repeated Damage To Mobility Scooter On Airline Flights",
-      "urls": [
-        "https://www.usatoday.com/story/travel/airline-news/2026/05/18/maria-town-wheelchair-damage-southwest-airlines/90101738007"
-      ],
-      "date": "2026-06-09T17:31:38.122412+00:00"
-    },
-    {
       "title": "Hawaii Experiences Magnitude 6.0 Earthquake as Kilauea Volcano Threatens New Eruption",
       "urls": [
         "https://www.foxnews.com/us/magnitude-60-earthquake-rocks-hawaiis-big-island-kilauea-volcano-expected-erupt-days",
@@ -4302,7 +4295,19 @@
         "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress"
       ],
       "date": "2026-06-19T17:31:31.212997+00:00"
+    },
+    {
+      "title": "EY Releases Top Ten Geopolitical Developments Shaping 2026 Global Landscape",
+      "urls": [
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook",
+        "https://www.maritimenews.com/geopolitics-and-global-trade/geopolitics-reshapes-global-trade-2026",
+        "https://europeanbusinessmagazine.com/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
+        "https://www.libertify.com/interactive-library/technology-international-affairs-2026-ai-cybersecurity-geopolitics",
+        "https://trendsgroup.org/insight/political-strategic-and-economic-trajectories-in-2026"
+      ],
+      "date": "2026-06-19T18:01:43.214389+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T17:31:31.213071+00:00"
+  "lastUpdated": "2026-06-19T18:01:43.214454+00:00"
 }
