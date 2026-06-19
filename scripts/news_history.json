@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hexo Labs Releases SIA Open-Source Self-Improving AI to Accelerate Superintelligence",
-      "urls": [
-        "https://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
-        "https://phys.org/news/2026-05-source-ai-workflow.html",
-        "https://www.tmcnet.com/usubmit/2026/05/28/10390550.htm"
-      ],
-      "date": "2026-06-09T05:01:42.771699+00:00"
-    },
-    {
       "title": "UNCTAD Publishes Trade and Development Foresights 2026 Highlighting Global Economic Trends",
       "urls": [
         "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
@@ -4286,7 +4277,18 @@
         "https://inspix.ai/blog/ai-video-generation-2026-trends-to-watch"
       ],
       "date": "2026-06-19T05:01:41.413164+00:00"
+    },
+    {
+      "title": "PocketWorld Launches Live Disaster Tracker to Map Global Natural Events",
+      "urls": [
+        "https://pocketworld.org/disasters",
+        "https://earthquaketoday.net",
+        "https://www.youtube.com/@DisasterToday",
+        "https://www.quakepulse.com",
+        "https://www.worldnaturaldisasters.com/real-time-disasters.html"
+      ],
+      "date": "2026-06-19T05:31:37.067956+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T05:01:41.413220+00:00"
+  "lastUpdated": "2026-06-19T05:31:37.068026+00:00"
 }
