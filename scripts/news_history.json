@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Acquires Emmi AI To Add Physics‑Based Models To Industrial Portfolio",
-      "urls": [
-        "https://thenextweb.com/news/mistral-emmi-ai-physics-vienna-industrial",
-        "https://www.reuters.com/world/china/french-startup-unveils-ai-model-robots-human-like-hand-2026-05-06"
-      ],
-      "date": "2026-06-08T23:31:59.204125+00:00"
-    },
-    {
       "title": "Global Risks Report Highlights Surge in Geopolitical Tensions Amid AI Influence",
       "urls": [
         "https://www.libertify.com/interactive-library/technology-international-affairs-2026-ai-cybersecurity-geopolitics",
@@ -4281,7 +4273,14 @@
         "https://time.com/article/2026/04/15/worlds-top-healthtech-companies-2026-search"
       ],
       "date": "2026-06-18T23:31:27.203669+00:00"
+    },
+    {
+      "title": "Artificial Intelligence Faces Critical Test To Deliver Inclusive Accessibility Solutions",
+      "urls": [
+        "https://www.forbes.com/sites/keelycatwells/2026/05/03/artificial-intelligence-has-one-chance-to-get-accessibility-right"
+      ],
+      "date": "2026-06-19T00:01:46.373603+00:00"
     }
   ],
-  "lastUpdated": "2026-06-18T23:31:27.203720+00:00"
+  "lastUpdated": "2026-06-19T00:01:46.373674+00:00"
 }
