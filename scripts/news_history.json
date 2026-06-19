@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Outsidethecase.org Publishes Digital Privacy & Surveillance Complete Guide for 2026",
-      "urls": [
-        "https://outsidethecase.org/digital-privacy-surveillance-guide"
-      ],
-      "date": "2026-06-09T23:02:08.165832+00:00"
-    },
-    {
       "title": "Anthropic Calls for Global AI Pause as Claude Nears Self‑Improvement Capability",
       "urls": [
         "https://dallasexpress.com/business-markets/anthropic-admitted-claude-is-close-to-self-improvement-heres-what-that-means"
@@ -4313,7 +4306,14 @@
         "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package"
       ],
       "date": "2026-06-19T23:01:32.735006+00:00"
+    },
+    {
+      "title": "VolcanoDiscovery Expands Global Volcano and Earthquake News Coverage Providing Real‑Time Eruption Updates Worldwide",
+      "urls": [
+        "https://www.volcanodiscovery.com/news.html"
+      ],
+      "date": "2026-06-19T23:31:36.736060+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T23:01:32.735070+00:00"
+  "lastUpdated": "2026-06-19T23:31:36.736122+00:00"
 }
