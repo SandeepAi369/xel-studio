@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nature Showcases Latest Climate Change Studies in 2026 Across Scientific Journals",
-      "urls": [
-        "https://www.nature.com/nclimate/articles?type=article&year=2026",
-        "https://link.springer.com/subjects/climate-change",
-        "https://wattsupwiththat.com",
-        "https://news.un.org/en/focus-topic/climate-change",
-        "https://www.npr.org/sections/climate"
-      ],
-      "date": "2026-06-09T21:31:53.222763+00:00"
-    },
-    {
       "title": "Philippines Experiences 5.5 Magnitude Earthquake Amid Ongoing Volcanic Eruptions In Southern Region",
       "urls": [
         "https://www.msn.com/en-us/news/world/a-magnitude-55-earthquake-just-rattl/ar-AA247wUh?ocid=BingNewsVerp"
@@ -4320,7 +4309,14 @@
         "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1706182/full"
       ],
       "date": "2026-06-19T21:31:33.217718+00:00"
+    },
+    {
+      "title": "Riverflow Launches 2.5 Model Claiming World’s Highest AI Image Rating",
+      "urls": [
+        "https://www.usatoday.com/press-release/story/35058/riverflow-launches-2-5-the-worlds-highest-rated-ai-image-model"
+      ],
+      "date": "2026-06-19T22:01:33.857348+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T21:31:33.217787+00:00"
+  "lastUpdated": "2026-06-19T22:01:33.857411+00:00"
 }
