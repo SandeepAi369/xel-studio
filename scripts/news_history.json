@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte Insights Publishes Weekly Global Economic Update Covering Market Trends and Analysis",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
-      ],
-      "date": "2026-06-09T16:06:29.179951+00:00"
-    },
-    {
       "title": "Evans Korir Defends Boston Marathon Title as Linkletter Sets Personal Best",
       "urls": [
         "https://www.cbc.ca/sports/olympics/summer/athletics/boston-marathon-korir-linkletter-roundup-2026-9.7170526",
@@ -4305,7 +4298,15 @@
         "https://www.cnbc.com/2026/06/03/oecd-warns-of-global-slowdown-as-iran-war-stymies-growth-prospects-.html"
       ],
       "date": "2026-06-19T16:01:40.881471+00:00"
+    },
+    {
+      "title": "Top Climate Scientists Accuse Livestock Industry of Using Fuzzy Math to Hide Emissions",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/climate",
+        "https://insideclimatenews.org/news/20052026/global-warming-potential-star-livestock-emissions"
+      ],
+      "date": "2026-06-19T16:31:32.985954+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T16:01:40.881538+00:00"
+  "lastUpdated": "2026-06-19T16:31:32.986027+00:00"
 }
