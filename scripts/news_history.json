@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Renewable Sources Outpace Gas for First Time in April, Report Shows",
-      "urls": [
-        "https://www.rff.org/publications/reports/global-energy-outlook-2026",
-        "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20"
-      ],
-      "date": "2026-06-09T10:31:46.528809+00:00"
-    },
-    {
       "title": "Accessibilities Expo Shows AI Transforming Independent Living for People With Disabilities",
       "urls": [
         "https://accessabilitiesexpo.com/blog-ai-assistive-technology-independent-living-2026",
@@ -4298,7 +4290,15 @@
         "https://www.msn.com/en-in/sports/other/indias-spark-qualifies-for-trackmania-event-at-esports-world-cup/ar-AA263m4j?ocid=BingNewsVerp"
       ],
       "date": "2026-06-19T10:31:39.710661+00:00"
+    },
+    {
+      "title": "CNN Provides Election 2026 Results While US Polling Data Shows Trump Lead",
+      "urls": [
+        "https://www.cnn.com/election/2026",
+        "https://uspollingdata.com"
+      ],
+      "date": "2026-06-19T11:01:46.715448+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T10:31:39.710751+00:00"
+  "lastUpdated": "2026-06-19T11:01:46.715517+00:00"
 }
