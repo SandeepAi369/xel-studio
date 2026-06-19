@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Major Brokerages Forecast S&P 500 and Global GDP Growth for 2026",
-      "urls": [
-        "https://www.reuters.com/business/finance/trend-mainstay-ai-cement-its-place-core-2026-investment-strategies-2026-06-08",
-        "https://seekingalpha.com/article/4906058-global-economic-outlook-may-2026",
-        "https://www.msn.com/en-us/news/insight/2026-recession-odds-plunge-as-2027-risks-rise/gm-GM9CD53D82?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-09T15:32:15.779361+00:00"
-    },
-    {
       "title": "Deloitte Insights Publishes Weekly Global Economic Update Covering Market Trends and Analysis",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
@@ -4303,7 +4294,18 @@
         "https://www.sniro.com/insight/telehealth-trends-in-2026-whats-next-for-virtual-care-platforms"
       ],
       "date": "2026-06-19T15:31:49.667334+00:00"
+    },
+    {
+      "title": "OECD Lowers 2026 Growth Forecast as Iran War Threatens Global Economy",
+      "urls": [
+        "https://www.msn.com/en-us/news/politics/prolonged-energy-disruption-from-iran-war-would-be-severe-blow-to-global-economy-research/ar-AA24MG8l?ocid=BingNewsVerp",
+        "https://www.latimes.com/business/story/2026-06-03/iran-war-energy-shock-could-slam-global-economy-into-recession-oecd-warns",
+        "https://www.reuters.com/business/energy/oecd-says-protracted-war-could-drag-global-growth-push-up-inflation-2026-06-03",
+        "https://www.msn.com/en-za/news/other/oecd-cuts-2026-global-growth-forecast-and-warns-of-recession-risk-if-iran-war-persists/ar-AA24IV7e?ocid=BingNewsVerp",
+        "https://www.cnbc.com/2026/06/03/oecd-warns-of-global-slowdown-as-iran-war-stymies-growth-prospects-.html"
+      ],
+      "date": "2026-06-19T16:01:40.881471+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T15:31:49.667386+00:00"
+  "lastUpdated": "2026-06-19T16:01:40.881538+00:00"
 }
