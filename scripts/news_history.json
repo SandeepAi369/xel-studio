@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Fashion Industry Faces Strange Paradox Challenging Conventional Market Logic",
-      "urls": [
-        "https://www.cnbc.com/2026/05/20/fashion-sustainability-shoppers-circularity-pandora-kering-gucci.html"
-      ],
-      "date": "2026-06-09T19:31:59.787009+00:00"
-    },
-    {
       "title": "PyTorch Holds 55 Percent Research Share While TensorFlow Trails on TPU Performance",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
@@ -4310,7 +4303,15 @@
         "https://www.tmcnet.com/usubmit/2026/06/15/10399677.htm"
       ],
       "date": "2026-06-19T19:31:38.046895+00:00"
+    },
+    {
+      "title": "Axcelead DDP Joins Lilly TuneLab to Accelerate AI Drug Discovery",
+      "urls": [
+        "https://finance.yahoo.com/healthcare/articles/axcelead-ddp-joins-lilly-tunelab-050000296.html",
+        "https://www.msn.com/en-us/health/other/ai-reveals-unexpected-source-of-antibiotic-candidates-in-prion-proteins/ar-AA265OTa?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-19T20:01:53.153212+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T19:31:38.046958+00:00"
+  "lastUpdated": "2026-06-19T20:01:53.153300+00:00"
 }
