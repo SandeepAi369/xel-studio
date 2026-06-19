@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NV Access Adds News Section to Official Website to Centralize Updates",
-      "urls": [
-        "https://www.nvaccess.org/news"
-      ],
-      "date": "2026-06-09T04:31:49.851131+00:00"
-    },
-    {
       "title": "Hexo Labs Releases SIA Open-Source Self-Improving AI to Accelerate Superintelligence",
       "urls": [
         "https://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
@@ -4286,7 +4279,14 @@
         "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-live-updates-rcna350496"
       ],
       "date": "2026-06-19T04:31:25.943477+00:00"
+    },
+    {
+      "title": "Inspix AI Highlights Five AI Video Generation Trends Shaping 2026 Market",
+      "urls": [
+        "https://inspix.ai/blog/ai-video-generation-2026-trends-to-watch"
+      ],
+      "date": "2026-06-19T05:01:41.413164+00:00"
     }
   ],
-  "lastUpdated": "2026-06-19T04:31:25.943574+00:00"
+  "lastUpdated": "2026-06-19T05:01:41.413220+00:00"
 }
