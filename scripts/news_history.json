@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CIO Dive Highlights Top Tech Chief Appointments of 2026 So Far",
-      "urls": [
-        "https://www.ciodive.com/news/tech-chief-appointments-Q1-2026/816322"
-      ],
-      "date": "2026-06-10T14:32:01.540707+00:00"
-    },
-    {
       "title": "Markets Must Hit 14 Percent Earnings Growth Forecast in 2026 According to Jim",
       "urls": [
         "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html",
@@ -4329,7 +4322,17 @@
         "https://www.usgs.gov/observatories/hvo"
       ],
       "date": "2026-06-20T14:31:49.400183+00:00"
+    },
+    {
+      "title": "Forbes Highlights Best Web3 Wallets and Blockchain Learning Resources for 2026",
+      "urls": [
+        "https://www.forbes.com/digital-assets/news",
+        "https://bitcoinfoundation.org/news/blockchain-news/best-crypto-wallets-web3-wallets",
+        "https://www.youtube.com/watch?v=Bny-VCxD4VY",
+        "https://www.youtube.com/watch?v=-Pu67IpxDFU"
+      ],
+      "date": "2026-06-20T15:01:49.944235+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T14:31:49.400275+00:00"
+  "lastUpdated": "2026-06-20T15:01:49.944311+00:00"
 }
