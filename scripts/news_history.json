@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MetaBot Launches METAKPK Full‑Stack Web3 Ecosystem Powered by BotChain Platform",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/metabot-launches-full-stack-web3-ecosystem-powered-by-botchain-metakpk-1036235549"
-      ],
-      "date": "2026-06-10T09:02:22.409203+00:00"
-    },
-    {
       "title": "Deaf Hearing Impaired Technology Accessibility News — Latest Developments and Key Updates",
       "urls": [
         "https://verbit.ai/captioning/assistive-technology-for-deaf-and-hard-of-hearing-students"
@@ -4328,7 +4321,15 @@
         "https://www.heise.de/en/news/Microsoft-Build-2026-AI-development-with-under-and-for-Windows-11315701.html"
       ],
       "date": "2026-06-20T09:01:38.943730+00:00"
+    },
+    {
+      "title": "Mac Password Stealer Disguises As Apple Google Microsoft To Harvest Credentials",
+      "urls": [
+        "https://www.forbes.com/sites/daveywinder/2026/05/18/new-mac-password-stealer-impersonates-apple-google-and-microsoft",
+        "https://www.fastcompany.com/91535369/big-tech-ai-spending-meta-google-amazon-microsoft-apple-capex-ranked"
+      ],
+      "date": "2026-06-20T09:31:38.616189+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T09:01:38.943837+00:00"
+  "lastUpdated": "2026-06-20T09:31:38.616262+00:00"
 }
