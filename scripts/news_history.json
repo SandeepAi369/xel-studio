@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "LPL Highlights TES Vs WE Playoff Series In 30 Minute Video",
-      "urls": [
-        "https://www.youtube.com/watch?v=tb6v5iKXS5M",
-        "https://www.youtube.com/watch?v=r4B5iyySRxk",
-        "https://www.youtube.com/watch?v=tbsWph4faW0"
-      ],
-      "date": "2026-06-10T15:32:19.943805+00:00"
-    },
-    {
       "title": "Ukraine War Updates 2026 Reveal Critical Phase as Peace Talks Stall",
       "urls": [
         "https://davidkeys.com/ukraine-war-updates-2026-latest-developments-battlefield-changes-and-global-impact",
@@ -4334,7 +4325,17 @@
         "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation"
       ],
       "date": "2026-06-20T15:31:27.045570+00:00"
+    },
+    {
+      "title": "Google DeepMind CEO Claims AI Will Net Save Energy Within Ten Years",
+      "urls": [
+        "https://www.msn.com/en-ca/money/topstories/us-scientist-john-jumper-to-leave-google-deepmind-for-anthropic/ar-AA265tAr?ocid=BingNewsVerp",
+        "https://www.aol.com/news/google-deepmind-ceo-says-ai-150531510.html",
+        "https://www.cnbc.com/2026/06/19/john-jumper-to-leave-google-deepmind-for-anthropic.html",
+        "https://www.crn.com/news/ai/2026/openai-hires-google-gemini-ai-guru-sam-altman-touts-new-hire"
+      ],
+      "date": "2026-06-20T16:01:46.082150+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T15:31:27.045643+00:00"
+  "lastUpdated": "2026-06-20T16:01:46.082239+00:00"
 }
