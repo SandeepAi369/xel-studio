@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Launches Airport Attacks Prompting Regional Condemnation and US Diplomatic Push",
-      "urls": [
-        "https://www.cnn.com/2026/06/02/world/live-news/iran-trump-israel-lebanon-war-intl-hnk",
-        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-deal-oil-price-today-strait-of-hormuz-negotiations/4250097"
-      ],
-      "date": "2026-06-10T06:31:46.434317+00:00"
-    },
-    {
       "title": "BNP Paribas Expands Mistral Partnership to Strengthen Rapid AI Defense Capabilities",
       "urls": [
         "https://www.reuters.com/business/finance/bnp-paribas-steps-up-mistral-partnership-bolster-rapid-ai-defences-2026-05-26"
@@ -4322,7 +4314,16 @@
         "https://www.yogonet.com/international/news/2026/02/24/117740-global-sportstech-report-2026-finds-82-of-sports-organizations-deploying-ai"
       ],
       "date": "2026-06-20T06:31:27.740865+00:00"
+    },
+    {
+      "title": "Turks and Caicos Intercepts Overcrowded Haitian Boat Highlights Migration Reality",
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01240-7/fulltext",
+        "https://www.msn.com/en-us/news/other/dangerously-overcrowded-boat-with-240-haitians-intercepted-near-turks-caicos/ar-AA24WjfV?ocid=BingNewsVerp",
+        "https://concernusa.org/news/largest-refugee-crises"
+      ],
+      "date": "2026-06-20T07:01:47.800347+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T06:31:27.740941+00:00"
+  "lastUpdated": "2026-06-20T07:01:47.800409+00:00"
 }
