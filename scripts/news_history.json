@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Launches Air Strikes on Iran in Retaliation for Downed Military Helicopter",
-      "urls": [
-        "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
-        "https://www.theguardian.com/uk-news/2026/jun/09/man-seriously-injured-in-belfast-stabbing-starmer-describes-as-sickening",
-        "https://www.foxnews.com/politics/graham-platners-former-campaign-director-just-hours-before-tuesdays-primary"
-      ],
-      "date": "2026-06-10T08:33:01.688781+00:00"
-    },
-    {
       "title": "MetaBot Launches METAKPK Full‑Stack Web3 Ecosystem Powered by BotChain Platform",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/metabot-launches-full-stack-web3-ecosystem-powered-by-botchain-metakpk-1036235549"
@@ -4329,7 +4320,15 @@
         "https://www.usatoday.com/press-release/story/33727/vindynamics-debuts-its-first-humanoid-robot-at-two-of-the-worlds-leading-technology-events"
       ],
       "date": "2026-06-20T08:31:48.346186+00:00"
+    },
+    {
+      "title": "Microsoft Unveils Intent‑First Development Model at Build 2026, Redefining Programming",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/from-code-first-to-intent-first-microsoft-build-2026-could-be-the-end-of-programming-as-we-know-it/ar-AA24Ci8c?ocid=BingNewsVerp",
+        "https://www.heise.de/en/news/Microsoft-Build-2026-AI-development-with-under-and-for-Windows-11315701.html"
+      ],
+      "date": "2026-06-20T09:01:38.943730+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T08:31:48.346242+00:00"
+  "lastUpdated": "2026-06-20T09:01:38.943837+00:00"
 }
