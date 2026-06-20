@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Reveal Proactive Brain Training Boosts Community Resilience Before Crises",
-      "urls": [
-        "https://medicalxpress.com/news/2026-06-flips-mental-health-paradigm-proactive.html"
-      ],
-      "date": "2026-06-10T22:03:37.109261+00:00"
-    },
-    {
       "title": "Atlantis BioScience Publishes 2026 Biotech Outlook Highlighting Ten Breakthrough Trends",
       "urls": [
         "https://www.atlantisbioscience.com/blog/2026-biotech-outlook-10-breakthrough-trends-scientists-need-to-watch"
@@ -4330,7 +4323,15 @@
         "https://www.youtube.com/watch?v=2Oh3nn_dXfk"
       ],
       "date": "2026-06-20T22:01:46.150761+00:00"
+    },
+    {
+      "title": "Arthur Storm Leaves Flood Damage In New Orleans As South Faces Ongoing Risk",
+      "urls": [
+        "https://www.nola.com/news/hurricane/live-updates-arthur/article_64c490d9-700d-450e-a9fd-cb5f36b17c44.html",
+        "https://www.washingtonpost.com/weather/2026/06/18/arthurs-dangerous-downpours-push-ashore-deep-south"
+      ],
+      "date": "2026-06-20T22:31:47.328225+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T22:01:46.150827+00:00"
+  "lastUpdated": "2026-06-20T22:31:47.328295+00:00"
 }
