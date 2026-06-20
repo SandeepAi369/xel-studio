@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bybit Publishes Proof‑of‑Reserves Showing Over $16.5 Billion in Mainstream Assets",
-      "urls": [
-        "https://www.finanznachrichten.de/nachrichten-2026-06/68717531-bybit-s-latest-proof-of-reserves-shows-more-than-dollar-16-5-billion-in-mainstream-assets-008.htm"
-      ],
-      "date": "2026-06-10T12:02:07.541412+00:00"
-    },
-    {
       "title": "UFC Schedules Freedom 250 Fight at White House Amid Legal Challenge",
       "urls": [
         "https://www.espn.com/mma/schedule/_/league/ufc",
@@ -4328,7 +4321,14 @@
         "https://presenc.ai/research/open-source-llm-landscape-2026"
       ],
       "date": "2026-06-20T12:01:37.984115+00:00"
+    },
+    {
+      "title": "Medical Daily Highlights AI Advances Accelerating Disease Diagnosis In 2026",
+      "urls": [
+        "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
+      ],
+      "date": "2026-06-20T12:31:43.405537+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T12:01:37.984180+00:00"
+  "lastUpdated": "2026-06-20T12:31:43.405614+00:00"
 }
