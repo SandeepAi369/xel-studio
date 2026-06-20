@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pakistan‑Occupied Kashmir Protests Continue As Shutdowns Persist In Bhimbar And Kotli",
-      "urls": [
-        "https://news24online.com/india/breaking-news-live-updates-june-9-pm-modi-trump-h1b-visa-fee-plan-israel-iran-us-war-hormuz-deal-cjp-supreme-court-imd-weather-monsoon-update-delhi-noida-rain-forecast-lpg-petrol-diesel-price/859231"
-      ],
-      "date": "2026-06-10T08:02:43.821924+00:00"
-    },
-    {
       "title": "US Launches Air Strikes on Iran in Retaliation for Downed Military Helicopter",
       "urls": [
         "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
@@ -4324,7 +4317,19 @@
         "https://www.youtube.com/watch?v=jEKu0jjP7LE"
       ],
       "date": "2026-06-20T08:01:52.771831+00:00"
+    },
+    {
+      "title": "$15K Humanoid Robot Kit Launches To Democratize Bipedal Robotics For Education",
+      "urls": [
+        "https://lasvegassun.com/news/2026/jun/19/neura-robotics-showcases-full-stack-robotics-platf",
+        "https://www.manilatimes.net/2026/06/17/tmt-newswire/globenewswire/richtech-robotics-selected-as-featured-exhibitor-in-first-ever-humanoid-pavilion-at-automate-2026/2367422",
+        "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+        "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/inlif-limited-announces-strategic-entry-into-humanoid-robotics-market/2368376",
+        "https://www.eweek.com/news/menlo-research-asimov-diy-humanoid-robot-kit",
+        "https://www.usatoday.com/press-release/story/33727/vindynamics-debuts-its-first-humanoid-robot-at-two-of-the-worlds-leading-technology-events"
+      ],
+      "date": "2026-06-20T08:31:48.346186+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T08:01:52.771893+00:00"
+  "lastUpdated": "2026-06-20T08:31:48.346242+00:00"
 }
