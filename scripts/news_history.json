@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "BNP Paribas Expands Mistral Partnership to Strengthen Rapid AI Defense Capabilities",
-      "urls": [
-        "https://www.reuters.com/business/finance/bnp-paribas-steps-up-mistral-partnership-bolster-rapid-ai-defences-2026-05-26"
-      ],
-      "date": "2026-06-10T07:02:31.976957+00:00"
-    },
-    {
       "title": "NASA Tracks Record‑Breaking Solar Radio Burst Setting New Intensity Benchmark",
       "urls": [
         "https://phys.org/news/2026-05-nasa-missions-track-radio-sun.html"
@@ -4323,7 +4316,15 @@
         "https://concernusa.org/news/largest-refugee-crises"
       ],
       "date": "2026-06-20T07:01:47.800347+00:00"
+    },
+    {
+      "title": "Labor Party Tax Overhaul Raises Concerns For Medical Technology Companies",
+      "urls": [
+        "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy",
+        "https://www.msn.com/en-au/health/other/medical-technology-sector-raises-fresh-concerns-with-labor-s-capital-gains-tax-overhaul/ar-AA24WCw1?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-20T07:31:42.545255+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T07:01:47.800409+00:00"
+  "lastUpdated": "2026-06-20T07:31:42.545329+00:00"
 }
