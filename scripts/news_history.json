@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "CNN, NBC News, New York Times Expand 2026 Election Coverage for Voters",
-      "urls": [
-        "https://edition.cnn.com/election/2026",
-        "https://electionline.org",
-        "https://www.nbcnews.com/politics/2026-primary-elections/national",
-        "https://www.nytimes.com/interactive/polls/congressional-vote-2026.html"
-      ],
-      "date": "2026-06-10T17:31:54.344375+00:00"
-    },
-    {
       "title": "Apollo Global Management Forecasts Growth in Clean Energy Markets for 2026",
       "urls": [
         "https://www.youtube.com/watch?v=B_hx-zAWz3w",
@@ -4344,7 +4334,14 @@
         "https://www.perkins.org/resource/z-assistive-technology-low-vision"
       ],
       "date": "2026-06-20T17:31:35.128361+00:00"
+    },
+    {
+      "title": "Maine Resolves Ranked Choice Primary Process, Clearing Path for Governor Race and Key House Contest",
+      "urls": [
+        "https://www.nbcnews.com/politics/2026-election/maine-resolves-ranked-choice-primaries-setting-governors-race-key-hous-rcna350415"
+      ],
+      "date": "2026-06-20T18:01:52.813546+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T17:31:35.128421+00:00"
+  "lastUpdated": "2026-06-20T18:01:52.813614+00:00"
 }
