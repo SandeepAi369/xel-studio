@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CNBC Details Medal Prize Money for Athletes at 2026 Winter Olympics",
-      "urls": [
-        "https://sports.yahoo.com/articles/team-usa-wins-historic-11th-124412316.html?fr=sycsrp_catchall",
-        "https://www.cnbc.com/2026/02/16/2026-winter-olympics-medal-bonus-payouts-by-country-athletes-milano-cortina.html"
-      ],
-      "date": "2026-06-10T14:02:09.895923+00:00"
-    },
-    {
       "title": "CIO Dive Highlights Top Tech Chief Appointments of 2026 So Far",
       "urls": [
         "https://www.ciodive.com/news/tech-chief-appointments-Q1-2026/816322"
@@ -4330,7 +4322,14 @@
         "https://abcnews.com/US/tropical-storm-arthur-forms-gulf-off-texas-nws/story?id=133964957"
       ],
       "date": "2026-06-20T14:01:51.682734+00:00"
+    },
+    {
+      "title": "U.S. Geological Survey Expands Hawaiian Volcano Observatory Online Resources for Public Safety",
+      "urls": [
+        "https://www.usgs.gov/observatories/hvo"
+      ],
+      "date": "2026-06-20T14:31:49.400183+00:00"
     }
   ],
-  "lastUpdated": "2026-06-20T14:01:51.682795+00:00"
+  "lastUpdated": "2026-06-20T14:31:49.400275+00:00"
 }
