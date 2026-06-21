@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NOAA Predicts Below‑Normal 2026 Atlantic Hurricane Season as Veterans Prepare for Impacts",
-      "urls": [
-        "https://www.msn.com/en-us/weather/topstories/el-ni%C3%B1o-is-coming-heres-how-to-prepare-your-home-for-extreme-weather/ar-AA23yL4k?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/weather/extreme-weather-events/va-issues-warning-to-veterans-as-2026-hurricane-season-hits/ar-AA24PW7u?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/weather/meteorology/noaa-to-release-forecast-for-2026-atlantic-hurricane-season/ar-AA23KBzq?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-11T22:03:21.168182+00:00"
-    },
-    {
-      "title": "U.S. Energy Information Administration Projects 80 Gigawatts New Renewable Capacity for 2026",
-      "urls": [
-        "https://electrek.co/2026/04/27/eia-80-gw-of-new-solar-wind-storage-capacity-coming-in-2026"
-      ],
-      "date": "2026-06-11T22:31:36.812948+00:00"
-    },
-    {
       "title": "Big Tech Giants Boost AI Capital Expenditure to $470 Billion in 2026",
       "urls": [
         "https://valueaddvc.com/blog/big-tech-earnings-q1-2026-apple-microsoft-google-meta-amazon-nvidia-results",
@@ -4318,7 +4302,14 @@
         "https://www.msn.com/en-us/news/politics/trump-signs-ai-order-that-asks-companies-to-give-government-early-access/ar-AA24FGko?ocid=BingNewsVerp"
       ],
       "date": "2026-06-21T22:01:35.739459+00:00"
+    },
+    {
+      "title": "Proton Calls for Moratorium on Face Recognition Surveillance to Protect Privacy",
+      "urls": [
+        "https://proton.me/blog/face-surveillance-moratorium"
+      ],
+      "date": "2026-06-21T22:31:43.142257+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T22:01:35.739525+00:00"
+  "lastUpdated": "2026-06-21T22:31:43.142335+00:00"
 }
