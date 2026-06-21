@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Report Shows Active Open Source Contributions Yield Up To Five Times ROI",
-      "urls": [
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
-        "https://www.youtube.com/watch?v=PT8emqAIl7Y",
-        "https://www.youtube.com/watch?v=x4fxvXoA5hk",
-        "https://www.youtube.com/watch?v=NKPMDddHbSQ",
-        "https://opensource.microsoft.com/blog/2026/05/18/from-open-source-to-agentic-systems-microsoft-at-open-source-summit-north-america-2026",
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-may-2026",
-        "https://www.prnewswire.com/news-releases/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt-302692878.html",
-        "https://www.prnewswire.com/news-releases/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation-302667615.html"
-      ],
-      "date": "2026-06-11T18:31:45.040288+00:00"
-    },
-    {
       "title": "Yale Climate Connections Publishes 2026 Climate Change Status Report Highlighting Global Trends",
       "urls": [
         "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026",
@@ -4326,7 +4312,14 @@
         "https://www.bloomberg.com/news/videos/2026-04-21/mistral-ai-sees-global-demand-for-custom-ai-video"
       ],
       "date": "2026-06-21T18:31:33.354952+00:00"
+    },
+    {
+      "title": "YouTube Releases Counselor's Corner Video Highlighting 2026 Mental Health Trends",
+      "urls": [
+        "https://www.youtube.com/watch?v=a5tf64BRsTo"
+      ],
+      "date": "2026-06-21T19:01:41.556947+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T18:31:33.355021+00:00"
+  "lastUpdated": "2026-06-21T19:01:41.557021+00:00"
 }
