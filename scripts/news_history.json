@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Its FOSS Publishes Latest Linux And Open Source News On Its Website",
-      "urls": [
-        "https://itsfoss.com/news"
-      ],
-      "date": "2026-06-11T13:31:49.030205+00:00"
-    },
-    {
       "title": "tech\", \"title\": \"Impact Analytics Wins Second Consecutive Demand Forecasting Solution of the Year Award\", \"imagePrompt\": \"A sleek crystal trophy",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/impact-analytics-honored-as-2026-demand-forecasting-solution-of-the-year-for-the-second-consecutive-year-by-supplytech-breakthrough-1036241930"
@@ -4321,7 +4314,16 @@
         "https://callingallminds.com/resources/assistive-technology-guide"
       ],
       "date": "2026-06-21T13:31:23.634048+00:00"
+    },
+    {
+      "title": "Mongabay Highlights Global Conservation Updates for Stakeholders Amid Growing Biodiversity Efforts",
+      "urls": [
+        "https://news.mongabay.com",
+        "https://www.bornfreeusa.org/2026/04/07/defiantly-optimistic-the-recent-wildlife-wins-you-almost-missed",
+        "https://www.pew.org/en/research-and-analysis/articles/2026/01/16/new-conservation-opportunities-and-obstacles-in-a-new-year"
+      ],
+      "date": "2026-06-21T14:01:42.129565+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T13:31:23.634127+00:00"
+  "lastUpdated": "2026-06-21T14:01:42.129625+00:00"
 }
