@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Publishes Comprehensive Guide Explaining AI Community Tools for Developers",
-      "urls": [
-        "https://www.metacto.com/blogs/what-is-hugging-face-a-guide-to-the-ai-community-and-its-tools"
-      ],
-      "date": "2026-06-11T14:32:52.122003+00:00"
-    },
-    {
       "title": "Sermo Publishes Top 20 Telemedicine Trends Shaping Healthcare in 2026",
       "urls": [
         "https://www.sermo.com/resources/future-of-telemedicine",
@@ -4329,7 +4322,14 @@
         "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
       ],
       "date": "2026-06-21T14:31:46.565831+00:00"
+    },
+    {
+      "title": "NVIDIA and AMD Lead AI Accelerator Silicon Market Through 2036",
+      "urls": [
+        "https://finance.yahoo.com/sectors/technology/articles/generative-ai-hardware-materials-market-125700312.html"
+      ],
+      "date": "2026-06-21T15:01:51.556796+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T14:31:46.565906+00:00"
+  "lastUpdated": "2026-06-21T15:01:51.556874+00:00"
 }
