@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Highlights Cybersecurity Challenges for Building Resilience in Fragmented World",
-      "urls": [
-        "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
-        "https://www.youtube.com/watch?v=Gkw2vbJCFkQ",
-        "https://www.youtube.com/watch?v=89l-17kZ3OU",
-        "https://www.youtube.com/watch?v=4_HKh1jq7LA",
-        "https://www.youtube.com/watch?v=KqZqusPFf78",
-        "https://www.weforum.org/stories/2026/02/cybersecurity-and-geopolitics-the-challenges-to-build-resilience-in-a-fragmented-world",
-        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026",
-        "https://www.cidob.org/en/publications/world-2026-ten-issues-will-shape-international-agenda"
-      ],
-      "date": "2026-06-11T12:01:54.699044+00:00"
-    },
-    {
       "title": "Great Lakes Gaming Convention Rebrands Second Annual Festival to Regional Gaming Event",
       "urls": [
         "https://www.msn.com/en-us/entertainment/gaming/field-of-frames-gaming-festival-returns-with-new-name/ar-AA257koz?ocid=BingNewsVerp"
@@ -4327,7 +4313,14 @@
         "https://www.foxsports.com/watch/fmc-2sant93zuyzs6ihz"
       ],
       "date": "2026-06-21T12:01:44.949987+00:00"
+    },
+    {
+      "title": "YouTube Guides Developers Choosing Between PyTorch and TensorFlow for 2025",
+      "urls": [
+        "https://www.youtube.com/watch?v=iyHkg7TmHmE&pp=0gcJCdgAo7VqN5tD"
+      ],
+      "date": "2026-06-21T12:31:41.534603+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T12:01:44.950063+00:00"
+  "lastUpdated": "2026-06-21T12:31:41.534669+00:00"
 }
