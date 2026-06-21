@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philippines Earthquake Leaves At Least 35 Dead and Triggers Small Tsunami",
-      "urls": [
-        "https://www.cbsnews.com/news/earthquake-southern-philippines-tsunami-warnings"
-      ],
-      "date": "2026-06-11T10:31:50.729913+00:00"
-    },
-    {
       "title": "YouTube Releases 2026 Healthcare Outlook Video Highlighting Market Opportunities and Trends",
       "urls": [
         "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
@@ -4331,7 +4324,15 @@
         "https://haznos.org/2026/telehealth-trends-2026"
       ],
       "date": "2026-06-21T10:31:35.096779+00:00"
+    },
+    {
+      "title": "Global Wellness Institute Highlights 2026 Mental Wellness Trends as US Digital Market Evolves",
+      "urls": [
+        "https://www.towardshealthcare.com/insights/us-digital-mental-health-market-sizing",
+        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026"
+      ],
+      "date": "2026-06-21T11:01:35.524117+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T10:31:35.096848+00:00"
+  "lastUpdated": "2026-06-21T11:01:35.524191+00:00"
 }
