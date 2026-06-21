@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australia’s Green Wall Street Stalls As Conservation Funding Gaps Persist",
-      "urls": [
-        "https://www.theguardian.com/commentisfree/2026/may/18/australias-green-wall-street-is-failing-to-launch-threatened-species-deserve-better-than-the-nature-repair-market?share=linkedin"
-      ],
-      "date": "2026-06-11T18:02:06.543736+00:00"
-    },
-    {
       "title": "Linux Foundation Report Shows Active Open Source Contributions Yield Up To Five Times ROI",
       "urls": [
         "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
@@ -4323,7 +4316,17 @@
         "https://www.nytimes.com/interactive/polls/congressional-vote-2026.html"
       ],
       "date": "2026-06-21T18:01:46.355301+00:00"
+    },
+    {
+      "title": "Mistral Launches Open Source Speech Generation Model to Boost European AI Capabilities",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
+        "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026",
+        "https://quasa.io/video/mistral-ai-2026-europes-most-powerful-open-ai-platform",
+        "https://www.bloomberg.com/news/videos/2026-04-21/mistral-ai-sees-global-demand-for-custom-ai-video"
+      ],
+      "date": "2026-06-21T18:31:33.354952+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T18:01:46.355364+00:00"
+  "lastUpdated": "2026-06-21T18:31:33.355021+00:00"
 }
