@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yale Climate Connections Publishes 2026 Climate Change Status Report Highlighting Global Trends",
-      "urls": [
-        "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026",
-        "https://en.wikipedia.org/wiki/2026_in_climate_change"
-      ],
-      "date": "2026-06-11T19:02:01.201738+00:00"
-    },
-    {
       "title": "Global Renewable Energy Investments Surge in 2026 as Solar Sector Drives Growth",
       "urls": [
         "https://solsetu.com/news/solar-news/global-renewable-energy-investments-surge-2026",
@@ -4319,7 +4311,17 @@
         "https://www.youtube.com/watch?v=a5tf64BRsTo"
       ],
       "date": "2026-06-21T19:01:41.556947+00:00"
+    },
+    {
+      "title": "AI/R Joins Climate Pledge Commits to Net‑Zero Carbon by 2040",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/ai-r-joins-climate-pledge-142900445.html",
+        "https://www.thestar.com.my/news/nation/2026/06/16/carbon-tax-implementation-still-being-refined-says-arthur",
+        "https://go.microsoft.com/fwlink?LinkId=521839",
+        "https://go.microsoft.com/fwlink?LinkID=246338"
+      ],
+      "date": "2026-06-21T19:31:40.557242+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T19:01:41.557021+00:00"
+  "lastUpdated": "2026-06-21T19:31:40.557316+00:00"
 }
