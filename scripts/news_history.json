@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "2026 World Cup Schedule Released With Group Stage Fixtures and Viewing Details",
-      "urls": [
-        "https://www.espn.co.uk",
-        "https://www.bbc.com/sport/football",
-        "https://www.nbcsports.com/soccer/news/2026-mens-world-cup-preview-the-key-storylines-as-epic-tournament-set-to-begin",
-        "https://sports.yahoo.com/soccer/article/2026-world-cup-schedule-qualified-teams-groups-match-dates-fixtures-how-to-watch-050724214.html"
-      ],
-      "date": "2026-06-11T08:31:44.943035+00:00"
-    },
-    {
       "title": "Meta Faces Lawsuit Over Llama Copyright While Launching Muse Spark AI Model",
       "urls": [
         "https://www.law.com/corpcounsel/2026/05/26/authors-sue-metas-ai-scientists-directly-in-llama-copyright-case",
@@ -4338,7 +4328,14 @@
         "https://www.bbc.com/news/articles/cr7xzg3dmj8o?at_medium=RSS&at_campaign=rss"
       ],
       "date": "2026-06-21T08:31:30.697093+00:00"
+    },
+    {
+      "title": "Google Unveils AI Agents for Search at I/O 2026 Event",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/search/search-io-2026"
+      ],
+      "date": "2026-06-21T09:01:40.145119+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T08:31:30.697165+00:00"
+  "lastUpdated": "2026-06-21T09:01:40.145192+00:00"
 }
