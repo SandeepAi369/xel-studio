@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Disability:IN Highlights Accessibility Roundup As YouTube Showcases CES Innovations For 2026",
-      "urls": [
-        "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup",
-        "https://www.youtube.com/watch?v=VEab65v5DG0"
-      ],
-      "date": "2026-06-11T05:01:47.713719+00:00"
-    },
-    {
       "title": "U.S. Department of Education Proposes New Rule to Boost College Accessibility for Blind Students",
       "urls": [
         "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
@@ -4343,7 +4335,15 @@
         "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo"
       ],
       "date": "2026-06-21T04:33:02.247572+00:00"
+    },
+    {
+      "title": "Kenya Floods Kill Dozens and Devastate Farmland Across Rural Regions",
+      "urls": [
+        "https://www.africanews.com",
+        "https://www.africanews.com/2026/03/23/floods-kill-dozens-devastate-farmland-in-kenya-africanews-today"
+      ],
+      "date": "2026-06-21T05:02:04.698924+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T04:33:02.247647+00:00"
+  "lastUpdated": "2026-06-21T05:02:04.699008+00:00"
 }
