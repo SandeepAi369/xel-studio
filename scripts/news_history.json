@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Business Chief Surveys Tech CEOs On Future Of Work Trends",
-      "urls": [
-        "https://businesschief.com/news/what-are-tech-ceos-saying-about-the-future-of-work"
-      ],
-      "date": "2026-06-11T08:01:53.501409+00:00"
-    },
-    {
       "title": "2026 World Cup Schedule Released With Group Stage Fixtures and Viewing Details",
       "urls": [
         "https://www.espn.co.uk",
@@ -4335,7 +4328,17 @@
         "https://www.arkansasonline.com/news/2026/jun/21/us-needs-a-constitutional-tune-up"
       ],
       "date": "2026-06-21T08:01:50.071547+00:00"
+    },
+    {
+      "title": "Trump Says Reflecting Pool Still Faces Issues After $14 Million Renovation",
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/jun/20/trump-reflecting-pool-renovation-vandalism",
+        "https://www.theguardian.com/world/2026/jun/20/israeli-strikes-southern-lebanon-reports-renewed-ceasefire",
+        "https://www.foxnews.com/world/least-one-tourist-dead-massive-fire-nearly-destroys-caribbean-resort-1690-evacuated",
+        "https://www.bbc.com/news/articles/cr7xzg3dmj8o?at_medium=RSS&at_campaign=rss"
+      ],
+      "date": "2026-06-21T08:31:30.697093+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T08:01:50.071622+00:00"
+  "lastUpdated": "2026-06-21T08:31:30.697165+00:00"
 }
