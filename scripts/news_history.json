@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Announces Llama 4 Model While Stating It Will Remain Proprietary",
-      "urls": [
-        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases",
-        "https://www.youtube.com/watch?v=qVlxH5-6HLc",
-        "https://www.youtube.com/watch?v=0O8Vp1yHn6E"
-      ],
-      "date": "2026-06-11T06:02:02.234678+00:00"
-    },
-    {
       "title": "Nvidia Unveils Latest GPUs and AI Accelerators at Computex 2026",
       "urls": [
         "https://www.pcmag.com/news/computex-2026-live-dont-miss-a-reveal-from-nvidia-microsoft-intel-more"
@@ -4347,7 +4336,14 @@
         "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech"
       ],
       "date": "2026-06-21T06:01:55.161265+00:00"
+    },
+    {
+      "title": "IEA Projects Strong Global Renewable Capacity Growth Driven By Solar PV",
+      "urls": [
+        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
+      ],
+      "date": "2026-06-21T06:31:29.941998+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T06:01:55.161339+00:00"
+  "lastUpdated": "2026-06-21T06:31:29.942086+00:00"
 }
