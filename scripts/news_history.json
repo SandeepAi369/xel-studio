@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas School for the Blind and Visually Impaired Partners With Waymo to Advance Accessible Autonomous Vehicles",
-      "urls": [
-        "https://communityimpact.com/austin/central-austin/transportation/2026/05/20/texas-school-for-the-blind-and-visually-impaired-helps-shape-waymo-accessibility-features",
-        "https://www.berkshireeagle.com/bizbrief/beacon-bank-aria-explorer-service-visually-impaired/article_38bd7b21-e5d4-4726-a77e-9ccf3ca5222c.html",
-        "https://afb.org/blindness-and-low-vision/using-technology"
-      ],
-      "date": "2026-06-11T13:02:26.183556+00:00"
-    },
-    {
       "title": "Its FOSS Publishes Latest Linux And Open Source News On Its Website",
       "urls": [
         "https://itsfoss.com/news"
@@ -4320,7 +4311,17 @@
         "https://variety.com/2026/digital/news/gaming-news-roundup-week-of-may-18-1236755479"
       ],
       "date": "2026-06-21T13:01:45.064770+00:00"
+    },
+    {
+      "title": "Autism Research Shows Early Social Differences Can Evolve Significantly Into Adulthood",
+      "urls": [
+        "https://www.psychologytoday.com/us/blog/living-neurodivergence/202606/why-we-need-neurodiversity-pride",
+        "https://medicalxpress.com/news/2026-05-autism-social-differences-emerge-early.html",
+        "https://medicalxpress.com/news/2026-05-stereotypes-autism-tv-linked-delayed.html",
+        "https://callingallminds.com/resources/assistive-technology-guide"
+      ],
+      "date": "2026-06-21T13:31:23.634048+00:00"
     }
   ],
-  "lastUpdated": "2026-06-21T13:01:45.064836+00:00"
+  "lastUpdated": "2026-06-21T13:31:23.634127+00:00"
 }
