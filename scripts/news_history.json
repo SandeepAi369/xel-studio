@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York State Misses Climate Targets Despite Affordable Clean Energy",
-      "urls": [
-        "https://time.com/article/2026/05/14/new-york-climate-law-rollback"
-      ],
-      "date": "2026-06-12T14:02:10.393314+00:00"
-    },
-    {
       "title": "Reddit Entry Listed With Title Only No Description Provided In Search Results",
       "urls": [
         "https://mistral.ai/news",
@@ -4282,7 +4275,17 @@
         "https://time.com/article/2026/05/23/ecosperity-singapore-climate-action"
       ],
       "date": "2026-06-22T14:01:43.012063+00:00"
+    },
+    {
+      "title": "PyTorch Captures 85% Research Share Over TensorFlow in 2026 Comparison",
+      "urls": [
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
+        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose"
+      ],
+      "date": "2026-06-22T14:31:33.484425+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T14:01:43.012137+00:00"
+  "lastUpdated": "2026-06-22T14:31:33.484498+00:00"
 }
