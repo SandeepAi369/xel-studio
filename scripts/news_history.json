@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic CEO Calls for Binding AI Regulation in New Essay",
-      "urls": [
-        "https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm",
-        "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html",
-        "https://www.msn.com/en-in/money/news/ai-will-soon-become-so-capable-that-i-worry-anthropic-ceo-calls-for-urgent-binding-ai-regulations/ar-AA25ozUu?ocid=BingNewsVerp",
-        "https://www.chicagotribune.com/2026/06/11/opinion-us-ai-regulation-illinois",
-        "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
-      ],
-      "date": "2026-06-12T04:02:18.345111+00:00"
-    },
-    {
       "title": "Sebastian Sawe Breaks Two‑Hour Barrier, Sets New Marathon World Record in London",
       "urls": [
         "https://therunningchannel.com/running-records-2026",
@@ -4306,7 +4295,18 @@
         "https://www.youtube.com/watch?v=n01-OaEiYzA"
       ],
       "date": "2026-06-22T04:01:37.065546+00:00"
+    },
+    {
+      "title": "Two New Medical AIs Match Doctor Accuracy in Diagnosis and Treatment Study",
+      "urls": [
+        "https://medicalxpress.com/news/2026-06-medical-ais-diagnosis-treatment-decisions.html",
+        "https://www.forbes.com/sites/jessepines/2026/05/22/did-ai-really-beat-er-doctors-at-diagnosis-heres-what-the-study-showed",
+        "https://markets.businessinsider.com/news/stocks/halberd-corporation-ships-latest-neurosense-ai-version-advancing-voice-based-behavioral-monitoring-1036259380",
+        "https://medicalxpress.com/news/2026-05-ai-approach-aims-dose-therapy.html",
+        "https://www.eurekalert.org/news-releases/1131090"
+      ],
+      "date": "2026-06-22T04:31:28.304111+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T04:01:37.065622+00:00"
+  "lastUpdated": "2026-06-22T04:31:28.304179+00:00"
 }
