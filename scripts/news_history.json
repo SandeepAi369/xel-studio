@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Knicks Fans Celebrate Game 4 Comeback Win Over Spurs in Citywide Street and Airport Gatherings",
-      "urls": [
-        "https://nypost.com/2026/06/11/sports/nyc-was-electric-after-knicks-historic-nba-finals-comeback-against-the-spurs",
-        "https://www.motogp.com/en/videos/2026/05/17/motogp-highlights-the-key-moments-from-the-2026-catalan-grand-prix/1069068",
-        "https://www.msn.com/en-in/sports/cricket/virat-kohli-reflects-on-rcb-s-historic-ipl-victory-after-18-years/ar-AA23kmzb?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-12T16:32:21.226884+00:00"
-    },
-    {
       "title": "Mexico Opens World Cup 2026 Against South Africa in Group A Showdown",
       "urls": [
         "https://www.foxnews.com/sports/fifa-world-cup-2026-schedule-results",
@@ -4288,7 +4279,14 @@
         "https://www.npr.org/2026/04/28/nx-s1-5803016/marathon-world-record-yomif-kejelcha"
       ],
       "date": "2026-06-22T16:31:39.683743+00:00"
+    },
+    {
+      "title": "SpaceX Launches Starship V3 in First Flight Test Demonstrating New Rocket Power",
+      "urls": [
+        "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight"
+      ],
+      "date": "2026-06-22T17:01:43.846687+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T16:31:39.683821+00:00"
+  "lastUpdated": "2026-06-22T17:01:43.846771+00:00"
 }
