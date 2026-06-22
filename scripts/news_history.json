@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pennsylvania Health Law Project Removes Lifetime Limits on Assistive Technology",
-      "urls": [
-        "https://www.phlp.org/en/news/pa-removes-lifetime-limits-on-assistive-technology-for-people-with-disabilities"
-      ],
-      "date": "2026-06-12T21:32:11.221240+00:00"
-    },
-    {
       "title": "White House Issues Fact Sheet Detailing National Artificial Intelligence Policy Framework",
       "urls": [
         "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
@@ -4276,7 +4269,16 @@
         "https://www.youtube.com/watch?v=e-Rmy6pWzSk"
       ],
       "date": "2026-06-22T21:31:33.355535+00:00"
+    },
+    {
+      "title": "Digen.ai Releases 2026 Innovation Guide Showcasing Latest AI Video Generation Models",
+      "urls": [
+        "https://www.reddit.com/r/automation/comments/1q0xstr/ai_video_generators_worth_trying_in_2026",
+        "https://www.reddit.com/r/AI_Agents/comments/1ruyrte/my_top_4_ai_tools_for_video_creation_in_2026",
+        "https://resource.digen.ai/latest-ai-video-generation-models-2026"
+      ],
+      "date": "2026-06-22T22:01:46.148470+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T21:31:33.355610+00:00"
+  "lastUpdated": "2026-06-22T22:01:46.148533+00:00"
 }
