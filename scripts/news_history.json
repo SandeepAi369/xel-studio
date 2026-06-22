@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Publishes 2026 Spaceflight Updates Highlighting New Missions and Research",
-      "urls": [
-        "https://system1.com/terms/privacy-policy",
-        "https://system1.com/terms/terms-of-use",
-        "https://www.nasa.gov/2026-news-releases",
-        "https://en.wikipedia.org/wiki/2026_in_spaceflight"
-      ],
-      "date": "2026-06-12T02:31:50.709215+00:00"
-    },
-    {
       "title": "Middle East Conflict Drives Global Growth to Lowest Level Since Pandemic",
       "urls": [
         "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release"
@@ -4307,7 +4297,15 @@
         "https://www.healthcareitnews.com/video/how-himss26-attendees-use-ai-every-day"
       ],
       "date": "2026-06-22T02:31:24.740262+00:00"
+    },
+    {
+      "title": "AskTodo.ai Highlights AI Tools for Accessibility and Inclusive Technology Emerging Trends",
+      "urls": [
+        "https://asktodo.ai/blog/ai-accessibility-inclusivity-2026",
+        "https://assistivemedia.org/ai-accessibility-tools"
+      ],
+      "date": "2026-06-22T03:01:47.764721+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T02:31:24.740333+00:00"
+  "lastUpdated": "2026-06-22T03:01:47.764811+00:00"
 }
