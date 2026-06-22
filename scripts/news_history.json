@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "California Advances Age Verification Bill, Exempts Linux While Expanding Website Requirements",
-      "urls": [
-        "https://www.techtimes.com/articles/317449/20260530/california-age-verification-bill-clears-assembly-linux-spared-websites-added-age-gating-regime.htm"
-      ],
-      "date": "2026-06-12T10:01:57.982267+00:00"
-    },
-    {
       "title": "Disability Scoop Highlights Schools' Struggle to Provide Assistive Technology Across K‑12",
       "urls": [
         "https://www.disabilityscoop.com/2026/01/30/schools-face-challenges-providing-assistive-technology/31836"
@@ -4295,7 +4288,14 @@
         "https://www.morningstar.com/news/business-wire/20260510618158/ge-healthcare-next-gen-signa-mr-technology-helps-advance-research-discovery-and-translate-innovation-into-clinical-impact"
       ],
       "date": "2026-06-22T10:01:46.158050+00:00"
+    },
+    {
+      "title": "U.S. Energy Information Administration Projects 80 GW Renewable Capacity Boost in 2026",
+      "urls": [
+        "https://electrek.co/2026/04/27/eia-80-gw-of-new-solar-wind-storage-capacity-coming-in-2026"
+      ],
+      "date": "2026-06-22T10:31:30.863245+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T10:01:46.158127+00:00"
+  "lastUpdated": "2026-06-22T10:31:30.863319+00:00"
 }
