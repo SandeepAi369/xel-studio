@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "University of Maryland Launches Forum Center Amplifying Autistic Voices in Research Innovation",
-      "urls": [
-        "https://aanddtech.com/2026/04/06/autism-acceptance-month-neurodiversity-driving-innovation-engineering",
-        "https://www.psychologs.com/neurodiversity-in-the-workplace-how-adhd-and-autism-can-drive-innovation",
-        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech",
-        "https://autism.umd.edu/2026/06/08/what-should-we-build-together"
-      ],
-      "date": "2026-06-12T18:02:05.800070+00:00"
-    },
-    {
       "title": "UNFCCC, Nature, and ClimateChangeResources.org Publish 2026 Climate Reports for Global Policy Makers",
       "urls": [
         "https://climatechangeresources.org/resources/reports-papers/reports-papers-2026",
@@ -4284,7 +4274,14 @@
         "https://www.nature.com/subjects/biodiversity"
       ],
       "date": "2026-06-22T18:01:48.925591+00:00"
+    },
+    {
+      "title": "Mistral AI Highlights Frontier AI LLMs, Assistants, Agents, Services on News Page",
+      "urls": [
+        "https://mistral.ai/news"
+      ],
+      "date": "2026-06-22T18:31:31.731157+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T18:01:48.925683+00:00"
+  "lastUpdated": "2026-06-22T18:31:31.731222+00:00"
 }
