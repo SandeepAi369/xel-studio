@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boston Marathon Recap Highlights Winners and Record-Breaking Performances in 2026",
-      "urls": [
-        "https://www.espn.com/olympics/summer/athletics",
-        "https://www.usatoday.com/story/sports/2026/04/20/2026-boston-marathon-live-time-results-tracking-start-winner-coverage--live/89665584007"
-      ],
-      "date": "2026-06-12T21:02:23.818356+00:00"
-    },
-    {
       "title": "Pennsylvania Health Law Project Removes Lifetime Limits on Assistive Technology",
       "urls": [
         "https://www.phlp.org/en/news/pa-removes-lifetime-limits-on-assistive-technology-for-people-with-disabilities"
@@ -4274,7 +4266,17 @@
         "https://www.bbc.com/sport/football/world-cup"
       ],
       "date": "2026-06-22T21:01:45.566202+00:00"
+    },
+    {
+      "title": "YouTube Showcases Smart Glasses on Cruise Ships and Autonomous Wheelchairs at CES 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=bbyaqGfWfy8",
+        "https://www.youtube.com/watch?v=k69-ivYwEfE",
+        "https://www.youtube.com/watch?v=frVMBc28LOw",
+        "https://www.youtube.com/watch?v=e-Rmy6pWzSk"
+      ],
+      "date": "2026-06-22T21:31:33.355535+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T21:01:45.566273+00:00"
+  "lastUpdated": "2026-06-22T21:31:33.355610+00:00"
 }
