@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mexico Opens World Cup 2026 Against South Africa in Group A Showdown",
-      "urls": [
-        "https://www.foxnews.com/sports/fifa-world-cup-2026-schedule-results",
-        "https://www.msn.com/en-us/sports/soccer/fifa-world-cup-2026-schedule-guide-where-to-watch-time-streaming-and-more/ar-AA25njeI?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-12T17:02:20.049600+00:00"
-    },
-    {
       "title": "SpaceX Streams Starship Test Flight 12 Launch, Reentry and Landing on YouTube",
       "urls": [
         "https://www.youtube.com/watch?v=f--glzimXZ4",
@@ -4286,7 +4278,16 @@
         "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight"
       ],
       "date": "2026-06-22T17:01:43.846687+00:00"
+    },
+    {
+      "title": "YouTube Highlights Accessibility Innovations at CES 2026 Emphasizing AI Role",
+      "urls": [
+        "https://www.youtube.com/watch?v=b5DvFC4SaUE",
+        "https://www.youtube.com/watch?v=Hqk3C6JadnY",
+        "https://www.youtube.com/watch?v=9sfQEBWwuvs"
+      ],
+      "date": "2026-06-22T17:31:40.789809+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T17:01:43.846771+00:00"
+  "lastUpdated": "2026-06-22T17:31:40.789871+00:00"
 }
