@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Breaks Two‑Hour Barrier, Sets New Marathon World Record in London",
-      "urls": [
-        "https://therunningchannel.com/running-records-2026",
-        "https://www.youtube.com/watch?v=_P0vUQ6BcOM",
-        "https://www.youtube.com/watch?v=e_y6ff_vSXQ",
-        "https://www.youtube.com/watch?v=OTYdDotF5Tk",
-        "https://www.youtube.com/watch?v=MmcNNpbmqek",
-        "https://www.youtube.com/watch?v=DDZFVqRxobg",
-        "https://www.youtube.com/watch?v=PvYGnXOBuwY",
-        "https://www.npr.org/2026/04/28/nx-s1-5803016/marathon-world-record-yomif-kejelcha",
-        "https://www.randalolson.com/2026/04/26/mens-marathon-world-record-1908-2026"
-      ],
-      "date": "2026-06-12T04:32:01.691699+00:00"
-    },
-    {
       "title": "PyTorch Leads AI Research Share While Outpacing TensorFlow in Training Speed",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -4306,7 +4291,14 @@
         "https://www.eurekalert.org/news-releases/1131090"
       ],
       "date": "2026-06-22T04:31:28.304111+00:00"
+    },
+    {
+      "title": "LLM-Stats.com Publishes Updated Leaderboard Showcasing June 2026 AI Model Releases",
+      "urls": [
+        "https://llm-stats.com/ai-news"
+      ],
+      "date": "2026-06-22T05:01:43.069984+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T04:31:28.304179+00:00"
+  "lastUpdated": "2026-06-22T05:01:43.070063+00:00"
 }
