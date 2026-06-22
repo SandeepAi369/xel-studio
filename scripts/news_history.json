@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Middle East Conflict Drives Global Growth to Lowest Level Since Pandemic",
-      "urls": [
-        "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release"
-      ],
-      "date": "2026-06-12T03:02:09.656293+00:00"
-    },
-    {
       "title": "Nvidia Highlights AI Advances Shaping Healthcare and Life Sciences in 2026",
       "urls": [
         "https://www.nvidia.com/content/dam/en-zz/Solutions/lp/survey-report/healthcare-state-of-ai-report-2026-4559650-web.pdf",
@@ -4305,7 +4298,15 @@
         "https://assistivemedia.org/ai-accessibility-tools"
       ],
       "date": "2026-06-22T03:01:47.764721+00:00"
+    },
+    {
+      "title": "Redwerk Publishes 2026 Crypto Conference List as Facebook Teases US Crypto Plans",
+      "urls": [
+        "https://redwerk.com/blog/top-web3-events-crypto-conferences",
+        "https://www.facebook.com/cryptosrus/videos/big-things-coming-for-crypto-in-america-rep-french-hill-says-the-senate-is-geari/1250070840302573"
+      ],
+      "date": "2026-06-22T03:31:35.855047+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T03:01:47.764811+00:00"
+  "lastUpdated": "2026-06-22T03:31:35.855121+00:00"
 }
