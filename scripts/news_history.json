@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "J.P. Morgan Publishes Climate Tech Trends Report Highlighting Investment Growth and Policy Shifts",
-      "urls": [
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
-        "https://www.youtube.com/watch?v=St2HRYAMlk8",
-        "https://www.youtube.com/watch?v=wjJG8ga63lQ",
-        "https://www.youtube.com/watch?v=uoUNmt-yOKY",
-        "https://www.facebook.com/dw.environment/videos/the-german-city-of-mannheim-wants-to-become-climate-neutral-with-river-heat-pump/1195984858733639",
-        "https://www.youtube.com/watch?v=PvlyFt9oluQ",
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
-      ],
-      "date": "2026-06-12T01:31:41.511073+00:00"
-    },
-    {
       "title": "Google Unveils Open Source AI Model That Generates Text Four Times Faster on Consumer GPUs",
       "urls": [
         "https://propakistani.pk/2026/06/11/google-releases-lightning-fast-open-source-ai-model-with-4x-faster-text-generation-runs-on-consumer-gpus",
@@ -4309,7 +4295,17 @@
         "https://www.click2houston.com/weather/2026/06/02/kprc-2s-2026-hurricane-flood-survival-guide"
       ],
       "date": "2026-06-22T01:31:28.706523+00:00"
+    },
+    {
+      "title": "Reddit Listings Provide No Details As Current Search Returns Empty Descriptions",
+      "urls": [
+        "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
+        "https://www.reddit.com/r/AIPulseDaily/comments/1q1a75a/welcome_to_2026_that_medical_ai_story_just_hit",
+        "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually",
+        "https://www.reddit.com/r/mnd/comments/1qiju0b/why_2026_might_be_a_turning_point_in_how_we"
+      ],
+      "date": "2026-06-22T02:01:45.321243+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T01:31:28.706596+00:00"
+  "lastUpdated": "2026-06-22T02:01:45.321312+00:00"
 }
