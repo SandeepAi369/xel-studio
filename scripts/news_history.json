@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Leads AI Research Share While Outpacing TensorFlow in Training Speed",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
-        "https://www.girikon.com/blog/pytorch-vs-tensorflow",
-        "https://www.youtube.com/watch?v=pkEUANwkrqk",
-        "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
-      ],
-      "date": "2026-06-12T05:02:08.466217+00:00"
-    },
-    {
       "title": "YouTube Releases Wheelchair Evolution Video and Ranks Top Smart Models for Consumers",
       "urls": [
         "https://www.youtube.com/watch?v=6vvXxt_vB9I",
@@ -4298,7 +4283,15 @@
         "https://llm-stats.com/ai-news"
       ],
       "date": "2026-06-22T05:01:43.069984+00:00"
+    },
+    {
+      "title": "Tucson School For Blind Opens Downtown, Expanding Access For Visually Impaired Students",
+      "urls": [
+        "https://tucson.com/news/local/education/precollegiate/article_10a31e59-7801-430a-abb8-2fc3aa1adddb.html",
+        "https://afb.org/blindness-and-low-vision/using-technology"
+      ],
+      "date": "2026-06-22T05:31:32.689157+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T05:01:43.070063+00:00"
+  "lastUpdated": "2026-06-22T05:31:32.689224+00:00"
 }
