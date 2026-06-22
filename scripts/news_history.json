@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Issues Fact Sheet Detailing National Artificial Intelligence Policy Framework",
-      "urls": [
-        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
-        "https://www.mindfoundry.ai/blog/ai-regulations-around-the-world",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1qpyuyj/ai_regulation_in_2026_were_getting_a_patchwork_of",
-        "https://www.reddit.com/r/cybersecurity/comments/1pzb1lw/whats_your_take_on_ai_in_cybersecurity_for_2026"
-      ],
-      "date": "2026-06-12T22:01:59.027148+00:00"
-    },
-    {
       "title": "Wind and Solar Surpass Gas in Global Power Generation for First Time",
       "urls": [
         "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
@@ -4278,7 +4268,14 @@
         "https://resource.digen.ai/latest-ai-video-generation-models-2026"
       ],
       "date": "2026-06-22T22:01:46.148470+00:00"
+    },
+    {
+      "title": "MLS Forms AI Partnership To Transform Fan Engagement Across Soccer Community",
+      "urls": [
+        "https://www.forbes.com/sites/nicolekraft/2026/05/26/mls-partnership-shows-how-ai-could-shape-sports-fandom"
+      ],
+      "date": "2026-06-22T22:31:41.197470+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T22:01:46.148533+00:00"
+  "lastUpdated": "2026-06-22T22:31:41.197539+00:00"
 }
