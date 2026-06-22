@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Entry Listed With Title Only No Description Provided In Search Results",
-      "urls": [
-        "https://mistral.ai/news",
-        "https://www.reddit.com/r/MistralAI/comments/1r24g6x/mistral_boss_calls_for_european_unity_in_ai_race"
-      ],
-      "date": "2026-06-12T14:32:02.284201+00:00"
-    },
-    {
-      "title": "ABC News Releases Video Offering Practical Mental Health Tips for Viewers",
-      "urls": [
-        "https://www.reddit.com/r/therapists/comments/1tx6msa/vertical_integration_of_services_and_the_dramatic",
-        "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1u1uy8r/best_wellness_journaling_app_for_people_who",
-        "https://www.reddit.com/r/ExCons/comments/1u17zm8/working_on_a_college_project_for_a_reentry_mental",
-        "https://www.reddit.com/r/IndiaStartups/comments/1txw23c/looking_for_cofounder_to_help_improve_access_to",
-        "https://abcnews.go.com/Health/video/ways-improve-mental-health-2026-128733616",
-        "https://www.youtube.com/watch?v=f1iJ47lgfZU",
-        "https://www.youtube.com/watch?v=UyLSO2gWOsw"
-      ],
-      "date": "2026-06-12T15:02:04.119333+00:00"
-    },
-    {
       "title": "Mexico and South Africa Clash in Fast‑Paced 2026 World Cup Opener",
       "urls": [
         "https://timesofindia.indiatimes.com/sports/international-sports/fifa-world-cup-mexico-vs-south-africa-highlights-fast-goals-furious-tackles-and-historic-moments-define-2026-opener/articleshow/131671015.cms",
@@ -4285,7 +4264,21 @@
         "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose"
       ],
       "date": "2026-06-22T14:31:33.484425+00:00"
+    },
+    {
+      "title": "American Hospital Association Highlights Four Digital Health Projects Transforming Care Delivery in 2026",
+      "urls": [
+        "https://www.sermo.com/resources/future-of-telemedicine",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
+        "https://www.youtube.com/watch?v=DlAUKPhzl9E",
+        "https://www.youtube.com/watch?v=by7aWy4iuqA",
+        "https://abcnews.go.com/GMA/Wellness/video/cutting-edge-medical-advances-2026-128842164",
+        "https://www.healthcareitnews.com/video/ai-advancements-boost-rpm-2026-telehealth-expert-says",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
+        "https://www.himssconference.com/telehealth-in-2026-whats-next-for-virtual-care"
+      ],
+      "date": "2026-06-22T15:02:05.475757+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T14:31:33.484498+00:00"
+  "lastUpdated": "2026-06-22T15:02:05.475828+00:00"
 }
