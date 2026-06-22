@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Teams With Anthropic to Supply Up to 5 Gigawatts for AI Operations",
-      "urls": [
-        "https://www.anthropic.com/research",
-        "https://www.youtube.com/watch?v=3oTE626FaIw",
-        "https://www.youtube.com/watch?v=-nG-9vlSkho",
-        "https://www.youtube.com/watch?v=5Uh2yRLCisk",
-        "https://www.youtube.com/watch?v=TB-nS4TGfns",
-        "https://www.cnbc.com/video/2026/04/20/amazon-and-anthropic-announce-new-deal-to-provide-up-to-5-gigawatts-of-compute-to-claude-ai-models.html",
-        "https://www.youtube.com/watch?v=qXYuznlCjKE",
-        "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research"
-      ],
-      "date": "2026-06-12T11:31:46.144562+00:00"
-    },
-    {
       "title": "U.S. Solar Power Generates More Electricity Than Coal for First Time",
       "urls": [
         "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
@@ -4292,7 +4278,14 @@
         "https://medium.com/rise-inspire/inside-the-chip-wars-nvidia-vs-amd-in-2026-cfff1a348105"
       ],
       "date": "2026-06-22T11:31:33.028821+00:00"
+    },
+    {
+      "title": "United States and Iran Sign Historic Peace Agreement Ending War",
+      "urls": [
+        "https://www.youtube.com/watch?v=f6Rp9-9R9x0"
+      ],
+      "date": "2026-06-22T12:01:42.350895+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T11:31:33.028876+00:00"
+  "lastUpdated": "2026-06-22T12:01:42.350965+00:00"
 }
