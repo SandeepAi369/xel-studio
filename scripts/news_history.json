@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Plans $60 Million UFC Fight for Trump Amid Lawsuit and Coin Promotion",
-      "urls": [
-        "https://www.sportingnews.com/us/mma/news/mma-schedule-2026-dates-location-ufc-fights/30700a28e4998d7f6020aa21",
-        "https://www.lowellsun.com/2026/06/10/trump-ufc-match",
-        "https://abcnews.com/video/133788223",
-        "https://www.democracynow.org/2026/6/10/headlines/trump_family_promotes_commemorative_coins_for_white_house_ufc_fight",
-        "https://en.wikipedia.org/wiki/2026_in_UFC",
-        "https://www.youtube.com/watch?v=q0YusUhFBrI"
-      ],
-      "date": "2026-06-12T08:31:50.837710+00:00"
-    },
-    {
       "title": "Shakira Opens World Cup With Live Performance Amid Mexico Chaos",
       "urls": [
         "https://www.dailymail.com/sport/football/article-15892929/shakira-world-cup-opening-mexico.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
@@ -4295,7 +4283,17 @@
         "https://abc7news.com/live-updates/world-cup-2026-live-updates-san-francisco-bay-area-gears-tournament-ahead-matches-levis-stadium/19284344/entry/19323351"
       ],
       "date": "2026-06-22T08:31:35.197353+00:00"
+    },
+    {
+      "title": "NewsNation and Fox News Amplify 2026 Election Coverage Across Television and Online Platforms",
+      "urls": [
+        "https://www.newsnationnow.com/politics/2026-midterm-elections",
+        "https://www.foxnews.com/elections/2026/primary-results",
+        "https://electionline.org",
+        "https://www.upi.com/Voices/2026/06/17/perspective-when-democracy-loses-trust/7191781702616"
+      ],
+      "date": "2026-06-22T09:01:51.127873+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T08:31:35.197413+00:00"
+  "lastUpdated": "2026-06-22T09:01:51.127948+00:00"
 }
