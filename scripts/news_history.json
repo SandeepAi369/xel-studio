@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "LeRobot Hub Surpasses 58,000 Datasets, Marking Major Growth In Open Source Robotics AI",
-      "urls": [
-        "https://www.techtimes.com/articles/317129/20260525/open-source-robotics-ai-reaches-inflection-point-lerobot-hub-surpasses-58000-datasets-one-year.htm",
-        "https://www.news-medical.net/news/20260529/Researchers-develop-open-source-framework-for-health-AI-research.aspx"
-      ],
-      "date": "2026-06-13T11:31:56.258159+00:00"
-    },
-    {
-      "title": "IMF Releases World Economic Outlook Highlighting War Impact on Global Growth",
-      "urls": [
-        "https://www.worldbank.org/en/publication/global-economic-prospects",
-        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
-        "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook",
-        "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026"
-      ],
-      "date": "2026-06-13T12:02:16.371044+00:00"
-    },
-    {
       "title": "Esports World Cup Announces Official 2026 Tournament Details on Liquipedia",
       "urls": [
         "https://liquipedia.net/esports/Esports_World_Cup/2026"
@@ -4262,7 +4244,20 @@
         "https://fundup.ai/recently-funded-startups"
       ],
       "date": "2026-06-23T11:31:28.692732+00:00"
+    },
+    {
+      "title": "Stanford Demonstrates Twisted Light Quantum Computing Breakthrough Eliminating Need for Extreme Cooling",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
+        "https://www.youtube.com/watch?v=tTrwwQIpcKU",
+        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
+        "https://www.youtube.com/watch?v=1d-pGnc36iE",
+        "https://www.youtube.com/watch?v=SPUnuEtEpCo",
+        "https://www.youtube.com/watch?v=qcmeaDAaCic"
+      ],
+      "date": "2026-06-23T12:03:28.594784+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T11:31:28.692806+00:00"
+  "lastUpdated": "2026-06-23T12:03:28.594857+00:00"
 }
