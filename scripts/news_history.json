@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source AI Community Highlights Leading LLMs Across Multiple Platforms in 2026",
-      "urls": [
-        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
-        "https://github.com/QwenLM/Qwen3.6",
-        "https://www.buildfastwithai.com/blogs/collection/open-source-llms",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms"
-      ],
-      "date": "2026-06-13T10:32:04.396991+00:00"
-    },
-    {
       "title": "Linux News Platforms Expand Coverage With Tutorials, Distributions And Community Updates",
       "urls": [
         "https://www.linuxtoday.com",
@@ -4265,7 +4255,15 @@
         "https://phys.org/news/2026-05-scientists-knowledge-sea.html"
       ],
       "date": "2026-06-23T10:31:27.790632+00:00"
+    },
+    {
+      "title": "Live Entry Lacks Description, Leaving Content and Context Unclear In Search Engine Listing",
+      "urls": [
+        "https://www.livemint.com/news/world/total-world-latest-news-on-june-23-2026-live-updates-11782161025724.html",
+        "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-france-tops-iraq-after-2-plus-hour-delay-for-thunderstorm-heavy-rain-220818741.html"
+      ],
+      "date": "2026-06-23T11:02:09.509027+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T10:31:27.790689+00:00"
+  "lastUpdated": "2026-06-23T11:02:09.509100+00:00"
 }
