@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SportsDesire Releases Top Ten Iconic Sports Moments of 2026 for Fans",
-      "urls": [
-        "https://sportsdesire.com/the-top-10-most-iconic-sports-moments-of-2026"
-      ],
-      "date": "2026-06-13T18:02:03.810912+00:00"
-    },
-    {
       "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026 Projects",
       "urls": [
         "https://uvik.net/blog/pytorch-vs-tensorflow"
@@ -4259,7 +4252,22 @@
         "https://www.reuters.com/sustainability/climate-energy/microsoft-may-shelve-2030-clean-energy-target-ai-lifts-power-use-bloomberg-news-2026-05-06"
       ],
       "date": "2026-06-23T18:01:52.010480+00:00"
+    },
+    {
+      "title": "Hugging Face Launches ml‑intern Open‑Source Agent to Automate LLM Post‑Training Workflow",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "https://fazm.ai/t/hugging-face-or-github-new-ai-projects-april-2026",
+        "https://huggingface.co/papers/trending",
+        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
+        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602",
+        "https://insights.marvin-42.com/articles/hugging-face-says-open-source-ai-is-scaling-fast-and-fragmenting-into-specialized-ecosystems",
+        "https://huggingface.co"
+      ],
+      "date": "2026-06-23T18:31:41.755931+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T18:01:52.010557+00:00"
+  "lastUpdated": "2026-06-23T18:31:41.756005+00:00"
 }
