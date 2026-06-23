@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Confirm Accelerating Global Sea Level Rise Trend Since 1960",
-      "urls": [
-        "https://phys.org/news/2026-05-scientists-knowledge-sea.html"
-      ],
-      "date": "2026-06-13T06:32:09.075605+00:00"
-    },
-    {
       "title": "United States Launches Strikes, Ceasefire Strains In Middle East On June 6",
       "urls": [
         "https://www.cnn.com/2026/06/06/world/live-news/iran-war-trump-israel-lebanon"
@@ -4276,7 +4269,15 @@
         "https://yaleclimateconnections.org/2026/05/dangerous-heavy-rains-are-getting-more-likely-and-widespread"
       ],
       "date": "2026-06-23T06:31:27.591671+00:00"
+    },
+    {
+      "title": "Trump Claims Iran Negotiating on Fumes as White House Seeks Peace Deal",
+      "urls": [
+        "https://www.msn.com/en-us/news/world/a-question-looms-over-iran-diplomacy-is-trump-being-straight-with-the-american-people/ar-AA24NDjL?ocid=BingNewsVerp",
+        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-deal-oil-price-today-strait-of-hormuz-negotiations/4250097"
+      ],
+      "date": "2026-06-23T07:01:47.072703+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T06:31:27.591734+00:00"
+  "lastUpdated": "2026-06-23T07:01:47.072769+00:00"
 }
