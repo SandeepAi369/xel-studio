@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Distributions for Beginners Gain Popularity Across Multiple Online Guides",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://www.linux.com/what-is-linux",
-        "https://ubuntu.com/download",
-        "https://www.linuxmint.com",
-        "https://linuxize.com/post/best-linux-distros",
-        "https://www.comptia.org/en-us/certifications/linux",
-        "https://distrowatch.com",
-        "https://itsfoss.com/best-linux-beginners"
-      ],
-      "date": "2026-06-13T20:02:27.725236+00:00"
-    },
-    {
       "title": "Night Sky News Announces New Type of Exoplanet Discovery That Defies Existing Classification",
       "urls": [
         "https://www.youtube.com/watch?v=H-uwZNP5MUM",
@@ -4268,7 +4252,20 @@
         "https://www.youtube.com/watch?v=JicMOfLxolA"
       ],
       "date": "2026-06-23T20:01:46.732359+00:00"
+    },
+    {
+      "title": "SpaceX Completes Starship Test Flight 12 Demonstrating New Thermal Tiles and Landing Capability",
+      "urls": [
+        "https://www.nasa.gov/2026-news-releases",
+        "https://www.reddit.com/r/spacex/comments/1tg90os/rspacex_starlink_1742_official_launch_discussion",
+        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data",
+        "https://www.youtube.com/watch?v=f--glzimXZ4",
+        "https://www.youtube.com/watch?v=CiWX1nsvqBs",
+        "https://www.youtube.com/watch?v=DSfQJyN7ihc",
+        "https://www.youtube.com/watch?v=OT_ZXZUrUcU"
+      ],
+      "date": "2026-06-23T20:31:37.794301+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T20:01:46.732419+00:00"
+  "lastUpdated": "2026-06-23T20:31:37.794375+00:00"
 }
