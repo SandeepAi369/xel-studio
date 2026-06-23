@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Year‑End AI Review Highlighting 2025 Surge and 2026 Trends",
-      "urls": [
-        "https://www.youtube.com/watch?v=ARXS-uk19h8",
-        "https://www.youtube.com/watch?v=-FVl-hbBTOY&vl=en"
-      ],
-      "date": "2026-06-13T02:02:18.451218+00:00"
-    },
-    {
       "title": "Team USA Sets Record with Twelve Gold Medals at Milan Cortina Olympic Games",
       "urls": [
         "https://www.ncaa.org/news/2026/1/13/2026-olympics-from-campus-to-milano-cortina-the-ncaa-roots-behind-team-usa-womens-hockey.aspx",
@@ -4267,7 +4259,23 @@
         "https://mcvuk.com/business-news/pc/page/57"
       ],
       "date": "2026-06-23T02:01:45.870830+00:00"
+    },
+    {
+      "title": "Space.com Provides Latest Space News While NASA and Wikipedia Offer Official Data and Summaries",
+      "urls": [
+        "https://www.space.com",
+        "https://www.nasa.gov",
+        "https://en.m.wikipedia.org/wiki/Space",
+        "https://www.space.com/news",
+        "https://spacein3d.com/universe-sandbox",
+        "https://science.nasa.gov/universe",
+        "https://www.spacex.com",
+        "https://en.m.wikipedia.org/wiki/SpaceX",
+        "https://starwalk.space/en/news/what-is-space",
+        "https://www.sciencenewstoday.org/astronomy"
+      ],
+      "date": "2026-06-23T02:31:36.438449+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T02:01:45.870913+00:00"
+  "lastUpdated": "2026-06-23T02:31:36.438500+00:00"
 }
