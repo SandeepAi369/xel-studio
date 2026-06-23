@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Launches Strikes, Ceasefire Strains In Middle East On June 6",
-      "urls": [
-        "https://www.cnn.com/2026/06/06/world/live-news/iran-war-trump-israel-lebanon"
-      ],
-      "date": "2026-06-13T07:02:10.599145+00:00"
-    },
-    {
       "title": "Mental Health Digital Wellness Technology News — Latest Developments and Key Updates",
       "urls": [
         "https://ace-usa.org/blog/research/current-events/stalled-negotiations-and-renewed-clashes-in-the-2026-iran-war",
@@ -4277,7 +4270,16 @@
         "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-deal-oil-price-today-strait-of-hormuz-negotiations/4250097"
       ],
       "date": "2026-06-23T07:01:47.072703+00:00"
+    },
+    {
+      "title": "Treble Technologies Launches Benchmark to Test Voice AI Models for Privacy and Refusal Behavior",
+      "urls": [
+        "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
+        "https://www.techrepublic.com/article/news-hugging-face-transformers-rce-flaw",
+        "https://www.finanznachrichten.de/nachrichten-2026-06/68717370-treble-treble-technologies-and-hugging-face-address-voice-ai-s-unspoken-dilemma-with-groundbreaking-benchmark-of-asr-models-296.htm"
+      ],
+      "date": "2026-06-23T07:31:53.709426+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T07:01:47.072769+00:00"
+  "lastUpdated": "2026-06-23T07:31:53.709507+00:00"
 }
