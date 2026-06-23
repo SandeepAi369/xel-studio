@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Demonstrates Twisted Light Quantum Computing Breakthrough Without Extreme Cooling",
-      "urls": [
-        "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers",
-        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
-        "https://www.youtube.com/watch?v=SPUnuEtEpCo",
-        "https://www.youtube.com/watch?v=qcmeaDAaCic",
-        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
-        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
-        "https://www.youtube.com/watch?v=tTrwwQIpcKU"
-      ],
-      "date": "2026-06-13T09:02:12.522865+00:00"
-    },
-    {
       "title": "Google Unveils Gemini Omni AI Video System Capable of Realistic Footage Generation",
       "urls": [
         "https://www.techtimes.com/articles/316872/20260519/all-major-announcements-google-i-o-2026-gemini-ai-search-upgrades-smart-glasses-more.htm",
@@ -4272,7 +4259,17 @@
         "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-03-13"
       ],
       "date": "2026-06-23T09:01:46.884959+00:00"
+    },
+    {
+      "title": "Search Engine Returns Empty Descriptions for Reddit.com Pages In Recent Query",
+      "urls": [
+        "https://www.reddit.com/r/unimelb/comments/a2w8vk/anyone_done_international_trade_policy_econ30001",
+        "https://www.reddit.com/r/unimelb/comments/al62cy/economics_of_the_law_international_trade_policy",
+        "https://www.reddit.com/r/econhw/comments/1go5fow/best_sources_to_learn_about_international_trade",
+        "https://www.reddit.com/r/AskEconomics/comments/pxwlhk/recommendations_for_international_trade_trade"
+      ],
+      "date": "2026-06-23T09:31:41.924930+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T09:01:46.885028+00:00"
+  "lastUpdated": "2026-06-23T09:31:41.925001+00:00"
 }
