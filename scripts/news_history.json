@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Two‑Minute Video Explaining Mobile Screen Readers for Accessibility",
-      "urls": [
-        "https://www.youtube.com/watch?v=nw6-eDJXWzY"
-      ],
-      "date": "2026-06-12T23:32:01.680799+00:00"
-    },
-    {
       "title": "\"title\": \"Google Cloud Showcases New AI Infrastructure at Cloud Next 2026 Event\",",
       "urls": [
         "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
@@ -4276,7 +4269,17 @@
         "https://markets.businessinsider.com/news/stocks/curewise-founder-and-ceo-steve-brown-to-speak-at-aspen-ideas-health-2026-and-launch-ai-powered-precision-oncology-platform-1036264741"
       ],
       "date": "2026-06-22T23:31:25.962324+00:00"
+    },
+    {
+      "title": "Reddit Pages Display Empty Descriptions Across Recent Online Search Results",
+      "urls": [
+        "https://www.reddit.com/r/therapists/comments/1tx6msa/vertical_integration_of_services_and_the_dramatic",
+        "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1u1uy8r/best_wellness_journaling_app_for_people_who",
+        "https://www.reddit.com/r/ExCons/comments/1u17zm8/working_on_a_college_project_for_a_reentry_mental",
+        "https://www.reddit.com/r/IndiaStartups/comments/1txw23c/looking_for_cofounder_to_help_improve_access_to"
+      ],
+      "date": "2026-06-23T00:01:48.483893+00:00"
     }
   ],
-  "lastUpdated": "2026-06-22T23:31:25.962395+00:00"
+  "lastUpdated": "2026-06-23T00:01:48.483974+00:00"
 }
