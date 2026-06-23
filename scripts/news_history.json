@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Google Cloud Showcases New AI Infrastructure at Cloud Next 2026 Event\",",
-      "urls": [
-        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
-        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai",
-        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
-        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
-        "https://www.reddit.com/r/aws/comments/1hicvwf/what_are_your_biggest_challenges_with_cloud",
-        "https://www.reddit.com/r/cloudcomputing/comments/1gzfyfn/how_is_ai_integration_shaping_cloud_computing",
-        "https://www.youtube.com/watch?v=q3h8FIx7eQ8",
-        "https://www.youtube.com/watch?v=amgRu8x2Bb0",
-        "https://www.youtube.com/watch?v=MVBBcES6y3s"
-      ],
-      "date": "2026-06-13T00:02:21.498730+00:00"
-    },
-    {
       "title": "Elon Musk Becomes First Trillionaire As SpaceX Valuation Hits $2.1 Trillion",
       "urls": [
         "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
@@ -4279,7 +4264,16 @@
         "https://www.reddit.com/r/IndiaStartups/comments/1txw23c/looking_for_cofounder_to_help_improve_access_to"
       ],
       "date": "2026-06-23T00:01:48.483893+00:00"
+    },
+    {
+      "title": "UFC Announces 2026 Fight Calendar Covering Dates, Divisions, and Venues",
+      "urls": [
+        "https://www.sportingnews.com/us/mma/news/mma-schedule-2026-dates-location-ufc-fights/30700a28e4998d7f6020aa21",
+        "https://www.youtube.com/watch?v=q0YusUhFBrI",
+        "https://en.wikipedia.org/wiki/2026_in_UFC"
+      ],
+      "date": "2026-06-23T00:31:29.677508+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T00:01:48.483974+00:00"
+  "lastUpdated": "2026-06-23T00:31:29.677591+00:00"
 }
