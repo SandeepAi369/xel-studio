@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux News Platforms Expand Coverage With Tutorials, Distributions And Community Updates",
-      "urls": [
-        "https://www.linuxtoday.com",
-        "https://www.ghacks.net/category/linux",
-        "https://news.rs1.es"
-      ],
-      "date": "2026-06-13T11:02:20.007364+00:00"
-    },
-    {
       "title": "LeRobot Hub Surpasses 58,000 Datasets, Marking Major Growth In Open Source Robotics AI",
       "urls": [
         "https://www.techtimes.com/articles/317129/20260525/open-source-robotics-ai-reaches-inflection-point-lerobot-hub-surpasses-58000-datasets-one-year.htm",
@@ -4263,7 +4254,15 @@
         "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-france-tops-iraq-after-2-plus-hour-delay-for-thunderstorm-heavy-rain-220818741.html"
       ],
       "date": "2026-06-23T11:02:09.509027+00:00"
+    },
+    {
+      "title": "Qubit.Capital Publishes AI Startup Funding Trends Report for 2026 Industry",
+      "urls": [
+        "https://qubit.capital/blog/ai-startup-fundraising-trends",
+        "https://fundup.ai/recently-funded-startups"
+      ],
+      "date": "2026-06-23T11:31:28.692732+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T11:02:09.509100+00:00"
+  "lastUpdated": "2026-06-23T11:31:28.692806+00:00"
 }
