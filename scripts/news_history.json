@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Chief Calls for Renewed Push to Reduce Long‑Term Refugee Displacement",
-      "urls": [
-        "https://developer.dogpile.com",
-        "https://www.unhcr.org/news/press-releases/7-10-refugees-living-long-term-displacement-unhcr-chief-calls-renewed-push",
-        "https://www.hrw.org/news/2026/05/11/tunisia-end-abusive-prosecution-of-refugee-aid-workers",
-        "https://www.reuters.com/world/africa/trump-raises-refugee-ceiling-by-10000-bring-more-white-south-africans-white-2026-05-26",
-        "https://www.kpbs.org/news/border-immigration/2026/05/15/el-cajons-refugee-community-remains-vibrant-but-vulnerable-in-trump-era"
-      ],
-      "date": "2026-06-13T14:32:31.266762+00:00"
-    },
-    {
-      "title": "Instagram Posts Question Feasibility Of Quality Healthcare Reaching Remote Towns",
-      "urls": [
-        "https://www.instagram.com/reel/DZDf6dhEQQz"
-      ],
-      "date": "2026-06-13T15:03:38.087822+00:00"
-    },
-    {
-      "title": "Google AI Studio Enables Anyone to Build Android Apps in Minutes",
-      "urls": [
-        "https://system1.com",
-        "https://system1.com/contact",
-        "https://www.msn.com/en-us/news/technology/google-s-ai-studio-now-lets-anyone-build-android-apps-in-minutes/ar-AA23A3yA?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-13T15:31:54.553033+00:00"
-    },
-    {
       "title": "Kerala Congress Secures 63 Seats, UDF Poised To Form State Government",
       "urls": [
         "https://www.usatoday.com/story/news/politics/elections/2026/06/09/sc-primary-election-2026-live-blog-results/90421322007",
@@ -4269,7 +4242,15 @@
         "https://www.sciencedaily.com"
       ],
       "date": "2026-06-23T14:31:35.600091+00:00"
+    },
+    {
+      "title": "Wavespeed.ai Highlights 2026 AI Video Generation Models and Updates Across Industry",
+      "urls": [
+        "https://wavespeed.ai/blog/posts/ai-video-generation-news-2026",
+        "https://serenitiesai.com/articles/best-ai-video-image-voice-models-2026"
+      ],
+      "date": "2026-06-23T15:33:14.022575+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T14:31:35.600171+00:00"
+  "lastUpdated": "2026-06-23T15:33:14.022642+00:00"
 }
