@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Night Sky News Announces New Type of Exoplanet Discovery That Defies Existing Classification",
-      "urls": [
-        "https://www.youtube.com/watch?v=H-uwZNP5MUM",
-        "https://www.youtube.com/watch?v=TJ1vnacbe5U"
-      ],
-      "date": "2026-06-13T20:32:18.576378+00:00"
-    },
-    {
       "title": "Fox Sports Releases Extended Highlights Of South Korea Vs Czechia World Cup Match",
       "urls": [
         "https://sports.yahoo.com/nfl/article/how-to-watch-every-football-game-of-the-2026-nfl-season-015500757.html",
@@ -4265,7 +4257,16 @@
         "https://www.youtube.com/watch?v=OT_ZXZUrUcU"
       ],
       "date": "2026-06-23T20:31:37.794301+00:00"
+    },
+    {
+      "title": "Science Times Highlights Carbon Capture Advances Driving Global Climate Mitigation Efforts",
+      "urls": [
+        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
+        "https://www.sciencetimes.com/articles/61286/20260209/climate-technology-2026-how-carbon-capture-fighting-environmental-damage.htm",
+        "https://www.forbes.com/sites/mindylubber/2026/01/12/2026-outlook-clean-energy-nature-and-water-drive-global-resilience"
+      ],
+      "date": "2026-06-23T21:01:51.574543+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T20:31:37.794375+00:00"
+  "lastUpdated": "2026-06-23T21:01:51.574619+00:00"
 }
