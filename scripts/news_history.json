@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026 Projects",
-      "urls": [
-        "https://uvik.net/blog/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-06-13T18:32:13.199082+00:00"
-    },
-    {
       "title": "Wood Mackenzie Highlights Five Key Carbon Policies Shaping 2026 Climate Landscape",
       "urls": [
         "https://www.woodmac.com/news/opinion/carbon-management-2026-outlook/carbon-policy",
@@ -4267,7 +4260,19 @@
         "https://huggingface.co"
       ],
       "date": "2026-06-23T18:31:41.755931+00:00"
+    },
+    {
+      "title": "Open-Source AI Community Highlights Leading Models Llama, Mistral, Gemma, DeepSeek for 2026",
+      "urls": [
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
+        "https://dev.to/sonotommy/10-best-open-source-ai-agents-for-2026-2l6p",
+        "https://data-gate.ch/open-source-ai-models-2026-community-innovation",
+        "https://www.kunalganglani.com/blog/open-source-ai-projects-developers-2026",
+        "https://aitoolradar.io/blog/open-source-ai-radar-june-2026"
+      ],
+      "date": "2026-06-23T19:01:54.229505+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T18:31:41.756005+00:00"
+  "lastUpdated": "2026-06-23T19:01:54.229577+00:00"
 }
