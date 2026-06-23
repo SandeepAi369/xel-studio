@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gain Blog Releases May 2026 Social Media Updates Guide for Marketers",
-      "urls": [
-        "https://blog.gainapp.com/social-media-updates"
-      ],
-      "date": "2026-06-13T03:31:50.092926+00:00"
-    },
-    {
       "title": "YouTube Raises Questions About Government Ability To Regulate Artificial Intelligence",
       "urls": [
         "https://www.reddit.com/r/singularity/comments/1rrjcon/bernie_sanders_officially_introduces_legislation",
@@ -4275,7 +4268,15 @@
         "https://www.youtube.com/watch?v=q_EkRKl1464"
       ],
       "date": "2026-06-23T03:31:32.453839+00:00"
+    },
+    {
+      "title": "Meta Launches Open Source AI Platform to Democratize Access for Developers",
+      "urls": [
+        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2806899022830350",
+        "https://ai.meta.com/open"
+      ],
+      "date": "2026-06-23T04:01:37.256230+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T03:31:32.453907+00:00"
+  "lastUpdated": "2026-06-23T04:01:37.256299+00:00"
 }
