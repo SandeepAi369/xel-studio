@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hearing Aid UK Highlights Emerging Hearing Aid Technology for 2026",
-      "urls": [
-        "https://www.hearingaid.org.uk/hearing-aid-technology/hearing-aid-technology-2026"
-      ],
-      "date": "2026-06-13T10:02:22.513110+00:00"
-    },
-    {
       "title": "Open-Source AI Community Highlights Leading LLMs Across Multiple Platforms in 2026",
       "urls": [
         "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
@@ -4265,7 +4258,14 @@
         "https://www.manilatimes.net/2026/06/16/tmt-newswire/globenewswire/creative-medical-technology-holdings-inc-advances-project-phoenix-into-nationwide-ai-driven-virtual-data-collection-phase-for-us-veterans-exposed-to-burn-pits-and-toxic-hazards/2366629"
       ],
       "date": "2026-06-23T10:01:43.695873+00:00"
+    },
+    {
+      "title": "Scientists Confirm Accelerating Sea Level Rise Since 1960, Raising Coastal Risk Concerns",
+      "urls": [
+        "https://phys.org/news/2026-05-scientists-knowledge-sea.html"
+      ],
+      "date": "2026-06-23T10:31:27.790632+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T10:01:43.695943+00:00"
+  "lastUpdated": "2026-06-23T10:31:27.790689+00:00"
 }
