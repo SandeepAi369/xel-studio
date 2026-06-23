@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Startup Funding Slows As Public Markets Remain Stable",
-      "urls": [
-        "https://www.forbes.com/sites/chuckbrooks/2026/06/13/the-quantum-frontier-how-quantum-computing-is-reshaping-our-future",
-        "https://news.crunchbase.com/venture/quantum-computing-startup-investment-data-quantinuum-ipo"
-      ],
-      "date": "2026-06-13T19:31:57.945631+00:00"
-    },
-    {
       "title": "Linux Distributions for Beginners Gain Popularity Across Multiple Online Guides",
       "urls": [
         "https://www.linux.org/pages/download",
@@ -4269,7 +4261,14 @@
         "https://www.youtube.com/watch?v=QLxcgC2MESE"
       ],
       "date": "2026-06-23T19:31:50.008902+00:00"
+    },
+    {
+      "title": "YouTube NewsToday Hosts Rajdeep Sardesai in Extended Editors Roundtable on Trump Trade",
+      "urls": [
+        "https://www.youtube.com/watch?v=JicMOfLxolA"
+      ],
+      "date": "2026-06-23T20:01:46.732359+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T19:31:50.008970+00:00"
+  "lastUpdated": "2026-06-23T20:01:46.732419+00:00"
 }
