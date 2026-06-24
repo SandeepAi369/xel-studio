@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kristian Gkolomeev Breaks World Record at Inaugural Billionaire-Backed Enhanced Games",
-      "urls": [],
-      "date": "2026-06-14T21:31:19.014042+00:00"
-    },
-    {
       "title": "Yandex SmartCaptcha Appears Without Details, Prompting Questions About Its Function",
       "urls": [
         "https://yandex.cloud/en/services/smartcaptcha",
@@ -4211,7 +4206,15 @@
         "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american"
       ],
       "date": "2026-06-24T21:02:02.186164+00:00"
+    },
+    {
+      "title": "Uttarakhand Launches 2026 Science, Technology and Innovation Policy to Drive Research Growth",
+      "urls": [
+        "https://www.hindustantimes.com/genesis/uttarakhand-unveils-science-technology-and-innovation-policy-2026-to-boost-research-led-development-101781089824573.html",
+        "https://www.livemint.com/focus/uttarakhand-launches-science-technology-and-innovation-policy-2026-eyes-research-driven-growth-11781089994144.html"
+      ],
+      "date": "2026-06-24T21:31:28.806256+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T21:02:02.186244+00:00"
+  "lastUpdated": "2026-06-24T21:31:28.806321+00:00"
 }
