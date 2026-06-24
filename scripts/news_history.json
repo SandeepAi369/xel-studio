@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Gemini Agent Platform and Omni AI Video System at I/O Conference",
-      "urls": [
-        "https://www.forbes.com/sites/janakirammsv/2026/05/21/google-io-2026-turned-gemini-into-an-agent-platform",
-        "https://mashable.com/tech/all-the-gemini-announcements-google-io-2026",
-        "https://www.msn.com/en-us/news/technology/google-s-new-gemini-based-ai-video-system-called-omni-is-heading-to-i-o-2026-and-it-generates-footage-indistinguishable-from-real-cameras/ar-AA23qkYr?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-14T22:01:44.993590+00:00"
-    },
-    {
-      "title": "Cape Town ETC Highlights Major Conservation Wins Across Multiple Species This Week",
-      "urls": [
-        "https://www.capetownetc.com/conservation/wildlife-conservation-success-stories-june-2026",
-        "https://news.yale.edu/2026/05/21/wildlife-watching-us-too-and-changing-their-behavior-response",
-        "https://www.facebook.com/mdwfp/videos/from-the-early-days-of-uncertainty-to-a-conservation-success-story-mississippis-/1499866985051923",
-        "https://www.instagram.com/reel/DXw5tdQj4UK"
-      ],
-      "date": "2026-06-14T22:31:18.960304+00:00"
-    },
-    {
       "title": "NVIDIA Leads AI Chip War With Blackwell Launch Amid Intel and AMD Competition",
       "urls": [
         "https://internet-pros.com/blog/ai-chip-wars-custom-silicon-2026",
@@ -4216,7 +4197,15 @@
         "https://www.sportingnews.com/us/nfl"
       ],
       "date": "2026-06-24T22:01:44.342664+00:00"
+    },
+    {
+      "title": "Corp Misrepresents Climate Data, Ignoring 1.37°C Warming Figure In 2025 Report",
+      "urls": [
+        "https://www.theguardian.com/environment/2026/jun/11/climate-crisis-science-emissions-good-news-corp-misrepresentation",
+        "https://www.msn.com/en-us/weather/climate-change/global-warming-hit-1-37-c-in-2025-with-earth-accumulating-heat-at-an-accelerating-rate/ar-AA25kvZf?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-24T22:31:25.601761+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T22:01:44.342730+00:00"
+  "lastUpdated": "2026-06-24T22:31:25.601838+00:00"
 }
