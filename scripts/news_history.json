@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "2026 Midterm Election Results Covered By AP News, NBC News, Democracy Now, and NPR",
-      "urls": [
-        "https://apnews.com/projects/elections-2026",
-        "https://www.nbcnews.com/politics/2026-election",
-        "https://www.democracynow.org",
-        "https://www.npr.org/sections/elections"
-      ],
-      "date": "2026-06-14T01:31:54.454365+00:00"
-    },
-    {
       "title": "California Exempts Linux From Upcoming Age‑Verification Law After Public Backlash",
       "urls": [
         "https://www.msn.com/en-us/technology/software/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash/ar-AA241igg?ocid=BingNewsVerp"
@@ -4247,7 +4237,14 @@
         "https://www.livemint.com/news/world/earthquake-today-magnitude-5-quake-strikes-southern-irans-sargaz-in-hormozgan-province-state-media-says-11780962358621.html"
       ],
       "date": "2026-06-24T01:31:32.819058+00:00"
+    },
+    {
+      "title": "ISC High Performance Opens 2026 Conference Highlighting Post-Moore Computing and Open-Source Challenges",
+      "urls": [
+        "https://www.techtimes.com/articles/318837/20260622/isc-high-performance-2026-opens-post-moore-hpc-faces-open-source-reckoning.htm"
+      ],
+      "date": "2026-06-24T02:01:36.869201+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T01:31:32.819113+00:00"
+  "lastUpdated": "2026-06-24T02:01:36.869273+00:00"
 }
