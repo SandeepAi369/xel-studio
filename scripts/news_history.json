@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Announces Cheaper Gemini Model and DeepMind Talent Push at I/O 2026",
-      "urls": [
-        "https://www.heygotrade.com/en/news/google-io-2026-gemini-deepmind-contextual-ai"
-      ],
-      "date": "2026-06-14T20:31:36.024590+00:00"
-    },
-    {
-      "title": "UFC Highlights Prospects, Champions, Schedule and Striker Rankings in New YouTube Series",
-      "urls": [
-        "https://www.youtube.com/watch?v=2TZtX0lReE8",
-        "https://www.youtube.com/watch?v=AO8KuWwE_Qg",
-        "https://www.youtube.com/watch?v=08Gn82Lv4nI",
-        "https://www.youtube.com/watch?v=a_MfOOI1_uM"
-      ],
-      "date": "2026-06-14T21:01:32.468736+00:00"
-    },
-    {
       "title": "Kristian Gkolomeev Breaks World Record at Inaugural Billionaire-Backed Enhanced Games",
       "urls": [],
       "date": "2026-06-14T21:31:19.014042+00:00"
@@ -4219,7 +4202,16 @@
         "https://www.instagram.com/reel/DS-YDBdCV4I"
       ],
       "date": "2026-06-24T20:31:35.485784+00:00"
+    },
+    {
+      "title": "Mistral Builds $14 Billion AI Empire by Staying Outside American Market",
+      "urls": [
+        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
+        "https://thenextweb.com/news/mistral-ocr-4-document-ai-self-hosted",
+        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american"
+      ],
+      "date": "2026-06-24T21:02:02.186164+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T20:31:35.485850+00:00"
+  "lastUpdated": "2026-06-24T21:02:02.186244+00:00"
 }
