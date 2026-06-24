@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mass General Brigham Publishes 2026 Science and Medicine Predictions to Guide Future Research",
-      "urls": [
-        "https://www.massgeneralbrigham.org/en/about/newsroom/articles/2026-predictions-on-scientific-advancements",
-        "https://www.youtube.com/watch?v=if1U_LLRjRM"
-      ],
-      "date": "2026-06-13T23:32:05.573445+00:00"
-    },
-    {
       "title": "Funding Shatters Records With $300 Billion Investment In Q1 2026",
       "urls": [
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups",
@@ -4256,7 +4248,14 @@
         "https://www.youtube.com/watch?v=eqa_0ydjXjg"
       ],
       "date": "2026-06-23T23:31:40.658622+00:00"
+    },
+    {
+      "title": "Americans Express Pessimism Over AI Impact and Demand Stronger Regulation",
+      "urls": [
+        "https://phys.org/news/2026-05-americans-pessimistic-ai-impact.html"
+      ],
+      "date": "2026-06-24T00:01:38.844685+00:00"
     }
   ],
-  "lastUpdated": "2026-06-23T23:31:40.658689+00:00"
+  "lastUpdated": "2026-06-24T00:01:38.844777+00:00"
 }
