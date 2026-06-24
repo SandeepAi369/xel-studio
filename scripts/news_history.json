@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Korea Beats Czechia in Wild Finish as Mexico Wins Ugly Match on World Cup Opening Day",
-      "urls": [
-        "https://sports.yahoo.com/soccer/live/2026-world-cup-schedule-scores-live-updates-group-stage-mexico-vs-south-africa-south-korea-czechia-150000738.html",
-        "https://www.espn.com/espn/latestnews",
-        "https://www.sofascore.com/news/biggest-comeback-stories-to-watch-in-the-2026-world-cup-2",
-        "https://english.mathrubhumi.com/sports/football/2026-fifa-world-cup-day-2-top-10-dramatic-moments-ngsj01jk"
-      ],
-      "date": "2026-06-14T11:02:16.728082+00:00"
-    },
-    {
       "title": "Anthropic Releases Safer Claude Mythos Model to Public with New Safety Fable",
       "urls": [
         "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
@@ -4249,7 +4239,18 @@
         "https://www.youtube.com/watch?v=OxR6bHDOUvY"
       ],
       "date": "2026-06-24T11:01:38.900510+00:00"
+    },
+    {
+      "title": "Meta and Reliance Industries Launch Rs 855 Crore AI Data Centre Joint Venture in India",
+      "urls": [
+        "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai",
+        "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama",
+        "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant",
+        "https://www.msn.com/en-in/money/news/meta-and-reliance-industries-partner-to-build-ai-data-centre-enterprise-solutions-in-india/ar-AA25eBoD?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/technologyinvesting/mark-zuckerberg-and-meta-face-first-tough-test-after-layoffs/ar-AA252tOS?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-24T11:31:32.755025+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T11:01:38.900584+00:00"
+  "lastUpdated": "2026-06-24T11:31:32.755092+00:00"
 }
