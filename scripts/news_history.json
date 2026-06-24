@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Morgan Stanley Forecasts U.S. Resilience Driving Global Growth in 2026",
-      "urls": [
-        "https://www.morganstanley.com/insights/articles/global-economic-outlook-2026",
-        "https://www.imf.org/en/publications/weo",
-        "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026",
-        "https://www.ey.com/en_us/insights/strategy/global-economic-outlook",
-        "https://rsmus.com/insights/economics/economic-outlook-for-2026.html",
-        "https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf"
-      ],
-      "date": "2026-06-14T12:02:18.233035+00:00"
-    },
-    {
       "title": "Apple Unveils Apple Intelligence and Siri AI in iOS 27 Launch",
       "urls": [
         "https://www.pcmag.com/news/apple-wwdc-2026-every-big-ios-27-siri-ai-announcement-you-missed",
@@ -4249,7 +4237,17 @@
         "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models"
       ],
       "date": "2026-06-24T12:02:04.691131+00:00"
+    },
+    {
+      "title": "FIFA Announces Joint Hosting Format for 2026 World Cup Across Canada Mexico United States",
+      "urls": [
+        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+        "https://www.theguardian.com/us/soccer",
+        "https://sports.ndtv.com",
+        "https://timesofindia.indiatimes.com/sports"
+      ],
+      "date": "2026-06-24T12:31:31.716166+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T12:02:04.691205+00:00"
+  "lastUpdated": "2026-06-24T12:31:31.716234+00:00"
 }
