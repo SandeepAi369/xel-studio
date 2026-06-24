@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Daily Explainer Publishes Mid‑Year Review of 2026 Climate Crisis",
-      "urls": [
-        "https://thedailyexplainer.com/climate-crisis-2026-mid-year-review"
-      ],
-      "date": "2026-06-14T19:01:40.786612+00:00"
-    },
-    {
-      "title": "Reddit Listings Appear Without Details in Search Results Prompting User Uncertainty",
-      "urls": [
-        "https://www.reddit.com/r/csMajors/comments/1hw0c0w/apple_vs_microsoft_swe_internship_2025",
-        "https://www.reddit.com/r/Games/comments/1ht1g3u/the_first_gaming_layoffs_of_2025_have_happened",
-        "https://www.reddit.com/r/singularity/comments/1ho1pqa/tech_google_ceo_pichai_tells_employees_to_gear_up",
-        "https://www.reddit.com/r/macgaming/comments/1hleswt/apples_2025_gaming_strategy"
-      ],
-      "date": "2026-06-14T19:31:30.821233+00:00"
-    },
-    {
       "title": "United States and Iran Near Agreement as Officials Plan Virtual Signing Ceremony",
       "urls": [
         "https://www.cnn.com/2026/06/13/world/live-news/iran-war-trump-israel"
@@ -4212,7 +4195,17 @@
         "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment"
       ],
       "date": "2026-06-24T19:01:37.079890+00:00"
+    },
+    {
+      "title": "HPE Updates Hardware, Private Cloud, and Networking To Support Agentic AI",
+      "urls": [
+        "https://www.forbes.com/sites/maribellopez/2026/06/24/hpe-updates-hardware-private-cloud-and-networking-for--agentic-ai-era",
+        "https://www.forbes.com/sites/moorinsights/2025/04/24/google-cloud-gets-more-serious-about-infrastructure-at-next-2025",
+        "https://siliconangle.com/2026/06/02/ciscos-new-cloud-platform-aimed-securing-ai-infrastructure",
+        "https://www.crn.com/news/data-center/2026/the-25-hottest-infrastructure-and-edge-computing-companies-the-2026-crn-ai-100"
+      ],
+      "date": "2026-06-24T19:31:34.694638+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T19:01:37.079958+00:00"
+  "lastUpdated": "2026-06-24T19:31:34.694702+00:00"
 }
