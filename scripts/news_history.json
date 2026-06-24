@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Dedicated Newsroom Page on Anthropic.com to Share Company Updates",
-      "urls": [
-        "https://www.anthropic.com/news"
-      ],
-      "date": "2026-06-14T04:02:18.121558+00:00"
-    },
-    {
       "title": "Anthropic Raises $65 Billion, Valuation Hits $965 Billion, Surpassing OpenAI",
       "urls": [
         "https://www.forbes.com/sites/sandycarter/2026/06/13/anthropic-fable-government-lockdown-enterprise-ai-risk",
@@ -4252,7 +4245,15 @@
         "https://www.aistechnolabs.com/blog/tensorflow-vs-pytorch-vs-scikit-learn"
       ],
       "date": "2026-06-24T04:01:49.138719+00:00"
+    },
+    {
+      "title": "Lionel Messi Breaks World Cup Goals Record as Argentina Defeats Austria",
+      "urls": [
+        "https://www.nytimes.com/athletic/7376689/2026/06/22/argentina-austria-world-cup-result-analysis",
+        "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/cristiano-ronaldo-ends-60-year-wait-breaks-portugal-world-cup-record-with-historic-double-against-uzbekistan/articleshow/131949771.cms"
+      ],
+      "date": "2026-06-24T04:31:23.400507+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T04:01:49.138794+00:00"
+  "lastUpdated": "2026-06-24T04:31:23.400577+00:00"
 }
