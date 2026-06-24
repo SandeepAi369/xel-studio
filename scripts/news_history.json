@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States and Iran Near Agreement as Officials Plan Virtual Signing Ceremony",
-      "urls": [
-        "https://www.cnn.com/2026/06/13/world/live-news/iran-war-trump-israel"
-      ],
-      "date": "2026-06-14T20:01:37.143457+00:00"
-    },
-    {
       "title": "Google Announces Cheaper Gemini Model and DeepMind Talent Push at I/O 2026",
       "urls": [
         "https://www.heygotrade.com/en/news/google-io-2026-gemini-deepmind-contextual-ai"
@@ -4205,7 +4198,15 @@
         "https://www.crn.com/news/data-center/2026/the-25-hottest-infrastructure-and-edge-computing-companies-the-2026-crn-ai-100"
       ],
       "date": "2026-06-24T19:31:34.694638+00:00"
+    },
+    {
+      "title": "\"title\": \"Global Oil Prices Drop to Pre‑US‑Iran War Levels Amid Market Uncertainty\",",
+      "urls": [
+        "https://www.cnn.com/2026/06/24/world/live-news/iran-war-trump-israel-lebanon",
+        "https://www.cnn.com/2026/06/23/world/live-news/iran-war-trump-lebanon-israel"
+      ],
+      "date": "2026-06-24T20:01:43.744071+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T19:31:34.694702+00:00"
+  "lastUpdated": "2026-06-24T20:01:43.744159+00:00"
 }
