@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dan Marino Foundation Highlights 2026 Assistive Technology Tools for Autism",
-      "urls": [
-        "https://danmarinofoundation.org/assistive-technology-autism-tools"
-      ],
-      "date": "2026-06-14T05:32:07.850304+00:00"
-    },
-    {
       "title": "iMideo Launches AI Video Platform Featuring Over Fifty Tools Amid Growing Demand",
       "urls": [
         "https://www.indystar.com/press-release/story/82505/imideo-launches-ai-video-platform-with-50-tools-as-demand-surges",
@@ -4248,7 +4241,17 @@
         "https://www.youtube.com/watch?v=6vvXxt_vB9I"
       ],
       "date": "2026-06-24T05:31:25.916498+00:00"
+    },
+    {
+      "title": "Anthropic Surpasses OpenAI as Leading AI Model With Claude 5 Integration on iPhone 18",
+      "urls": [
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/research",
+        "https://www.youtube.com/watch?v=3oTE626FaIw",
+        "https://www.youtube.com/watch?v=-nG-9vlSkho"
+      ],
+      "date": "2026-06-24T06:01:36.088964+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T05:31:25.916567+00:00"
+  "lastUpdated": "2026-06-24T06:01:36.089054+00:00"
 }
