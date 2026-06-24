@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yandex SmartCaptcha Appears Without Details, Prompting Questions About Its Function",
-      "urls": [
-        "https://yandex.cloud/en/services/smartcaptcha",
-        "https://www.infospace.com/terms/terms-of-use.html"
-      ],
-      "date": "2026-06-14T21:31:51.552726+00:00"
-    },
-    {
       "title": "Google Unveils Gemini Agent Platform and Omni AI Video System at I/O Conference",
       "urls": [
         "https://www.forbes.com/sites/janakirammsv/2026/05/21/google-io-2026-turned-gemini-into-an-agent-platform",
@@ -4214,7 +4206,17 @@
         "https://www.livemint.com/focus/uttarakhand-launches-science-technology-and-innovation-policy-2026-eyes-research-driven-growth-11781089994144.html"
       ],
       "date": "2026-06-24T21:31:28.806256+00:00"
+    },
+    {
+      "title": "NFL.com Expands Global Reach With New International Site Offering Latest Scores and News",
+      "urls": [
+        "https://www.nfl.com/news",
+        "https://www.nfl.com/international",
+        "https://www.espn.com/nfl",
+        "https://www.sportingnews.com/us/nfl"
+      ],
+      "date": "2026-06-24T22:01:44.342664+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T21:31:28.806321+00:00"
+  "lastUpdated": "2026-06-24T22:01:44.342730+00:00"
 }
