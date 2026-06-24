@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Resources Institute Launches Climate Change News Hub Featuring Research‑Backed Reports",
-      "urls": [
-        "https://www.wri.org/climate-change-news"
-      ],
-      "date": "2026-06-14T09:02:23.946150+00:00"
-    },
-    {
-      "title": "World Economic Forum Highlights Growth, Resilience and Competition in 2026 Global Energy Landscape",
-      "urls": [
-        "https://www.weforum.org/stories/2025/12/global-energy-2026-growth-resilience-and-competition"
-      ],
-      "date": "2026-06-14T09:32:35.349921+00:00"
-    },
-    {
       "title": "IOM Unveils 2026 Plan to Aid 22 Million People Across 32 Countries",
       "urls": [
         "https://www.iom.int/news/iom-unveils-2026-plans-reach-22-million-crisis-across-32-countries",
@@ -4252,7 +4238,15 @@
         "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31"
       ],
       "date": "2026-06-24T09:01:35.173179+00:00"
+    },
+    {
+      "title": "Abilities Expo Showcases Assistive Technology and Advocacy Resources in Edison",
+      "urls": [
+        "https://newjersey.news12.com/2026/05/03/abilities-expo-in-edison-brings-resources-technology-and-advocacy-to-the-disability-community/3OcQYbwQuYLZ83oE0SG4eu",
+        "https://www.youtube.com/watch?v=Ulw-osYVuMk"
+      ],
+      "date": "2026-06-24T09:34:47.908094+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T09:01:35.173247+00:00"
+  "lastUpdated": "2026-06-24T09:34:47.908163+00:00"
 }
