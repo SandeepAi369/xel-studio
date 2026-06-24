@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Raises $65 Billion, Valuation Hits $965 Billion, Surpassing OpenAI",
-      "urls": [
-        "https://www.forbes.com/sites/sandycarter/2026/06/13/anthropic-fable-government-lockdown-enterprise-ai-risk",
-        "https://www.techtimes.com/articles/317066/20260523/anthropic-funding-round-top-30b-900b-valuation-would-surpass-openai-most-valuable-ai-startup.htm",
-        "https://www.intelligentcio.com/north-america/2026/06/12/dxc-and-anthropic-form-global-ai-alliance-to-deploy-claude-across-mission-critical-enterprise-systems",
-        "https://www.msn.com/en-us/news/technology/anthropic-just-vaulted-past-openai-as/ar-AA24qjOU?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/companies/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/ar-AA24i9mO?ocid=BingNewsVerp",
-        "https://money.usnews.com/investing/news/articles/2026-05-12/anthropic-expands-claudes-ai-tools-for-law-firms-lawyers"
-      ],
-      "date": "2026-06-14T04:32:33.405410+00:00"
-    },
-    {
       "title": "Mental Health Technology Accelerates AI and VR Adoption Across Clinics in 2026",
       "urls": [
         "https://www.ourmental.health/mind-body-connection/technology-in-mental-health-what-are-the-key-trends-for-2026",
@@ -4253,7 +4241,16 @@
         "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/cristiano-ronaldo-ends-60-year-wait-breaks-portugal-world-cup-record-with-historic-double-against-uzbekistan/articleshow/131949771.cms"
       ],
       "date": "2026-06-24T04:31:23.400507+00:00"
+    },
+    {
+      "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026",
+      "urls": [
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
+        "https://uvik.net/blog/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-06-24T05:01:37.239532+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T04:31:23.400577+00:00"
+  "lastUpdated": "2026-06-24T05:01:37.239625+00:00"
 }
