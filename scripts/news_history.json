@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Technology Review Highlights Ten AI Priorities Shaping 2026 Landscape",
-      "urls": [
-        "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026",
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsrji4/morgan_stanley_warns_an_ai_breakthrough_is_coming",
-        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai",
-        "https://www.reddit.com/r/SaaS/comments/1qvhr5y/15_ai_development_companies_dominating_2026_i",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1poo4of/what_will_2026_bring_in_terms_of_ai_development",
-        "https://www.youtube.com/watch?v=UjwpDEU6wSQ",
-        "https://www.youtube.com/watch?v=SCLHfhu5ZmM&vl=en",
-        "https://www.youtube.com/watch?v=IjHIE2DMUNg",
-        "https://www.youtube.com/watch?v=BRr3pAPsQAk"
-      ],
-      "date": "2026-06-14T10:32:13.594950+00:00"
-    },
-    {
       "title": "Korea Beats Czechia in Wild Finish as Mexico Wins Ugly Match on World Cup Opening Day",
       "urls": [
         "https://sports.yahoo.com/soccer/live/2026-world-cup-schedule-scores-live-updates-group-stage-mexico-vs-south-africa-south-korea-czechia-150000738.html",
@@ -4258,7 +4242,14 @@
         "https://journals.sagepub.com/home/jvb"
       ],
       "date": "2026-06-24T10:31:34.985829+00:00"
+    },
+    {
+      "title": "YouTube and FDA Favor Innovation Over Regulation in AI Healthcare",
+      "urls": [
+        "https://www.youtube.com/watch?v=OxR6bHDOUvY"
+      ],
+      "date": "2026-06-24T11:01:38.900510+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T10:31:34.985895+00:00"
+  "lastUpdated": "2026-06-24T11:01:38.900584+00:00"
 }
