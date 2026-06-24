@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Conducts Two‑Day Air Strikes on Iranian Missile Sites",
-      "urls": [
-        "https://slate.com/news-and-politics/2026/06/trump-iran-war-news-peace-talks-off-what-next.html",
-        "https://www.msn.com/en-us/news/other/us-tehran-in-talks-to-end-iran-war/ar-AA23TLrV?ocid=BingNewsVerp",
-        "https://www.foreignaffairs.com/ethiopia/war-ethiopia-isnt-over",
-        "https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal",
-        "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news"
-      ],
-      "date": "2026-06-14T07:02:13.372775+00:00"
-    },
-    {
       "title": "Times Highlights AI Breakthroughs Transforming Healthcare Across Diagnosis, Drug Development, and Patient Care",
       "urls": [
         "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
@@ -4257,7 +4246,15 @@
         "https://www.youtube.com/watch?v=85d7ry5nQOQ"
       ],
       "date": "2026-06-24T07:01:44.993561+00:00"
+    },
+    {
+      "title": "YouTube Highlights Six Major Healthcare Changes Including ACA Costs and AI Prior Authorizations",
+      "urls": [
+        "https://www.youtube.com/watch?v=bsfIqUZ0gkY",
+        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone"
+      ],
+      "date": "2026-06-24T07:31:31.764655+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T07:01:44.993623+00:00"
+  "lastUpdated": "2026-06-24T07:31:31.764727+00:00"
 }
