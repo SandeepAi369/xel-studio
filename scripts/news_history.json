@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Unveils Apple Intelligence and Siri AI in iOS 27 Launch",
-      "urls": [
-        "https://www.pcmag.com/news/apple-wwdc-2026-every-big-ios-27-siri-ai-announcement-you-missed",
-        "https://techcrunch.com",
-        "https://www.techloy.com/2026-tech-events-calendar-every-major-ces-apple-google-samsung-and-ai-conference-to-watch",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-        "https://www.whitehouse.gov/releases/2025/09/major-organizations-commit-to-supporting-ai-education",
-        "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more"
-      ],
-      "date": "2026-06-14T12:32:12.407266+00:00"
-    },
-    {
       "title": "Artificial Intelligence Merges Medical Discovery With Patient Care to Accelerate Treatments",
       "urls": [
         "https://earthtimes.org/ai-medical-discovery-patient-care"
@@ -4247,7 +4235,15 @@
         "https://timesofindia.indiatimes.com/sports"
       ],
       "date": "2026-06-24T12:31:31.716166+00:00"
+    },
+    {
+      "title": "Social Media Decline Sparks Debate Over Fragmented Future In 2025 Landscape",
+      "urls": [
+        "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025",
+        "https://arstechnica.com/science/2026/05/rip-social-media-what-comes-next-is-messy"
+      ],
+      "date": "2026-06-24T13:01:44.034501+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T12:31:31.716234+00:00"
+  "lastUpdated": "2026-06-24T13:01:44.034590+00:00"
 }
