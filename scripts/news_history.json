@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Europe Launches AI Initiative to Advance Accessibility for Persons With Disabilities",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
-        "https://www.reddit.com/r/ChatGPT/comments/17sg5mg/as_an_articulate_disabled_person_i_feel_like_ai",
-        "https://www.reddit.com/r/accessibility/comments/1acl4mc/disabilities_and_ai?rdt=41599",
-        "https://www.reddit.com/r/ArtistHate/comments/1glrr0m/thoughts_in_disabled_people_using_ai",
-        "https://www.reddit.com/r/disability/comments/1j7fshj/ai_to_accommodatesupport_disability"
-      ],
-      "date": "2026-06-14T17:31:29.156905+00:00"
-    },
-    {
       "title": "Telehealth Innovations Reveal New Remote Care Strategies for Healthcare Delivery",
       "urls": [
         "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
@@ -4210,7 +4199,15 @@
         "https://www.reuters.com/video/watch/idRW500807012026RP1"
       ],
       "date": "2026-06-24T17:01:51.583587+00:00"
+    },
+    {
+      "title": "FIFA Highlights Geopolitical Tensions Shaping 2026 World Cup Off‑Pitch Dynamics",
+      "urls": [
+        "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict",
+        "https://www.nbcnews.com/world/north-america/fifa-world-cup-2026-geopolitical-tensions-play-pitch-rcna348950"
+      ],
+      "date": "2026-06-24T17:31:52.308423+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T17:01:51.583649+00:00"
+  "lastUpdated": "2026-06-24T17:31:52.308500+00:00"
 }
