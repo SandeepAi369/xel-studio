@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Top Fifteen AI Discoveries In New Video Showcasing Recent Breakthroughs",
-      "urls": [
-        "https://www.youtube.com/watch?v=IOZNdVwMs6g",
-        "https://www.youtube.com/watch?v=SCLHfhu5ZmM",
-        "https://www.sciencedaily.com/news/top/science",
-        "https://huxley.media/en/scientific-forecast-2026-the-year-of-major-experiments"
-      ],
-      "date": "2026-06-15T17:01:47.567200+00:00"
-    },
-    {
       "title": "Eagles Acquire 28‑Year‑Old Veteran Wide Receiver in Shocking Move Ahead Of Season",
       "urls": [
         "https://www.livemint.com/news/world/total-world-latest-news-on-june-15-2026-live-updates-11781474093307.html",
@@ -4231,7 +4221,15 @@
         "https://www.youtube.com/watch?v=lZcxbvIBQv0"
       ],
       "date": "2026-06-25T17:01:38.303024+00:00"
+    },
+    {
+      "title": "Meta Launches Muse Spark AI Model Amid Llama Copyright Lawsuit",
+      "urls": [
+        "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since",
+        "https://www.law.com/corpcounsel/2026/05/26/authors-sue-metas-ai-scientists-directly-in-llama-copyright-case"
+      ],
+      "date": "2026-06-25T17:31:59.551053+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T17:01:38.303096+00:00"
+  "lastUpdated": "2026-06-25T17:31:59.551129+00:00"
 }
