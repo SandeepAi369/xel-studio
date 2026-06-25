@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CRN Publishes February 2026 List of 30 Notable IT Executive Moves",
-      "urls": [
-        "https://www.crn.com/news/networking/2026/30-notable-it-executive-moves-february-2026"
-      ],
-      "date": "2026-06-15T03:31:24.327740+00:00"
-    },
-    {
       "title": "Meta Announces Open-Source Release of Next-Generation Llama AI Models to Boost Research",
       "urls": [
         "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
@@ -4207,7 +4200,17 @@
         "https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf"
       ],
       "date": "2026-06-25T03:01:44.274446+00:00"
+    },
+    {
+      "title": "Credo Technology Gains Analyst Optimism Ahead of Q4 2026 Earnings Release",
+      "urls": [
+        "https://seekingalpha.com/news/4598391-credo-technology-q4-2026-earnings-preview-analyst-sentiment-optimistic",
+        "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805",
+        "https://www.forbes.com/sites/investor-hub/article/stock-market-winners-losers-2026",
+        "https://www.zacks.com/stock/news/2928312/credo-technology-before-q4-earnings-should-investors-buy-the-stock"
+      ],
+      "date": "2026-06-25T03:31:26.940964+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T03:01:44.274510+00:00"
+  "lastUpdated": "2026-06-25T03:31:26.941028+00:00"
 }
