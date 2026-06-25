@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Politico Launches Dedicated 2026 Elections Hub With News, Stories, And Analysis",
-      "urls": [
-        "https://www.politico.com/news/2026-elections/1"
-      ],
-      "date": "2026-06-15T23:01:54.736090+00:00"
-    },
-    {
       "title": "\"articleText\": \"YouTube posted a video titled \\\"List of Open",
       "urls": [
         "https://www.youtube.com/watch?v=HNVaYYxmwLU",
@@ -4231,7 +4224,16 @@
         "https://www.facebook.com/dw.environment/videos/the-german-city-of-mannheim-wants-to-become-climate-neutral-with-river-heat-pump/1195984858733639"
       ],
       "date": "2026-06-25T22:31:38.604173+00:00"
+    },
+    {
+      "title": "Drug Discovery Accelerates FDA Approvals and Clinical Trials in 2026",
+      "urls": [
+        "https://www.linkedin.com/pulse/ai-driven-drug-discovery-breakthroughs-2026-molecule-ai-lunnc",
+        "https://www.aifchem.com/blog-latest-progress-drug-discovery-2026-fda-approvals-ai-trends-molecular-building-blocks",
+        "https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026"
+      ],
+      "date": "2026-06-25T23:01:55.989973+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T22:31:38.604243+00:00"
+  "lastUpdated": "2026-06-25T23:01:55.990039+00:00"
 }
