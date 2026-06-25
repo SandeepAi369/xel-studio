@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Publishes 2025 AI Infrastructure Report Highlighting Efficiency and Network Readiness",
-      "urls": [
-        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
-        "https://www.youtube.com/watch?v=T7Ftx2xhEt0",
-        "https://www.youtube.com/watch?v=BU8qcsz8Apw"
-      ],
-      "date": "2026-06-15T19:31:36.797245+00:00"
-    },
-    {
       "title": "Blockchain Industry Embraces Regulation, AI, and Real‑World Assets to Transform Digital Economy",
       "urls": [
         "https://www.msn.com/en-gb/news/other/blockchain-2026-how-regulation-ai-and-real-world-assets-are-rewriting-the-digital-economy/gm-GM0E1C2E84?ocid=BingNewsVerp"
@@ -4226,7 +4217,17 @@
         "https://www.youtube.com/watch?v=3DWP5w7yd2I"
       ],
       "date": "2026-06-25T19:31:36.711604+00:00"
+    },
+    {
+      "title": "Reddit Search Yields Empty Listings Without Descriptive Content for News Report",
+      "urls": [
+        "https://www.reddit.com/r/moderatepolitics/comments/1tuiy5m/trump_admin_renames_irans_300_billion_reparations",
+        "https://www.reddit.com/r/Israel/comments/1tu982d/youre_fucking_crazy_trump_fumes_at_netanyahu_in",
+        "https://www.reddit.com/r/politics/comments/1ttyj7w/trump_tells_cnbc_i_dont_care_if_iran_negotiations",
+        "https://www.reddit.com/r/oil/comments/1ttosj1/daily_oil_price_opinions_june_01_2026_all_other"
+      ],
+      "date": "2026-06-25T20:01:39.269107+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T19:31:36.711666+00:00"
+  "lastUpdated": "2026-06-25T20:01:39.269189+00:00"
 }
