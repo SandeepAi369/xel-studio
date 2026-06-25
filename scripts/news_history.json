@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "JetBrains Publishes Research Blog Revealing Developers' Preferred AI Coding Tools",
-      "urls": [
-        "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
-        "https://www.reddit.com/r/BetterOffline/comments/1ppm2c1/ai_wont_replace_developers_in_2026",
-        "https://www.reddit.com/r/AI_Agents/comments/1s9jl30/best_underrated_ai_tools_to_subscribe_to_in_april",
-        "https://www.reddit.com/r/GeminiAI/comments/1qe5a0x/what_are_the_most_useful_ai_tools_in_2026_heres"
-      ],
-      "date": "2026-06-15T00:01:37.724064+00:00"
-    },
-    {
       "title": "Kristian Gkolomeev Sets New World Record at Controversial Enhanced Games Final",
       "urls": [
         "https://www.nytimes.com/athletic/7306206/2026/05/25/enhanced-games-kristian-gkolomeev-world-record-swimming",
@@ -4209,7 +4199,19 @@
         "https://lasvegassun.com/news/2026/jun/24/cambia-health-foundation-welcomes-allison-gruber-a"
       ],
       "date": "2026-06-24T23:31:41.134276+00:00"
+    },
+    {
+      "title": "Crescendo AI and MIT Technology Review Highlight Top AI Trends in 2026",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsrji4/morgan_stanley_warns_an_ai_breakthrough_is_coming",
+        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai",
+        "https://www.reddit.com/r/SaaS/comments/1qvhr5y/15_ai_development_companies_dominating_2026_i",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1poo4of/what_will_2026_bring_in_terms_of_ai_development"
+      ],
+      "date": "2026-06-25T00:01:45.982053+00:00"
     }
   ],
-  "lastUpdated": "2026-06-24T23:31:41.134347+00:00"
+  "lastUpdated": "2026-06-25T00:01:45.982127+00:00"
 }
