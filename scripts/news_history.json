@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes Reports Earnings Season Surge As Big Tech Beats Expectations",
-      "urls": [
-        "https://www.forbes.com/sites/bill_stone/2026/05/03/earnings-season-surges-as-big-tech-delivers-and-128-reports-loom",
-        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
-        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html"
-      ],
-      "date": "2026-06-15T15:02:13.201916+00:00"
-    },
-    {
-      "title": "KraneShares Highlights 2026 Shift From Pilot to Platform in Humanoid Robotics",
-      "urls": [
-        "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform",
-        "https://www.therobotreport.com/top-10-robotics-developments-march-2026",
-        "https://www.youtube.com/watch?v=3lMxncj3QA0",
-        "https://www.youtube.com/watch?v=oB_dHd71duU",
-        "https://www.youtube.com/watch?v=t-GeDuS3qWw",
-        "https://www.youtube.com/watch?v=6-s6hJynIDc",
-        "https://www.youtube.com/watch?v=nQagKksceuM"
-      ],
-      "date": "2026-06-15T15:31:36.626279+00:00"
-    },
-    {
       "title": "Reform UK Gains Ground in England as Election Results Show Shift in Voter Support",
       "urls": [
         "https://politicalwire.com",
@@ -4234,7 +4212,14 @@
         "https://www.mirror.co.uk/news/health/ai-cancer-diagnosis-nhs-trusts-37277525"
       ],
       "date": "2026-06-25T15:01:51.834406+00:00"
+    },
+    {
+      "title": "Microsoft Unveils Seven Major Announcements at Build 2026 Developer Conference",
+      "urls": [
+        "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements"
+      ],
+      "date": "2026-06-25T15:31:39.241802+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T15:01:51.834498+00:00"
+  "lastUpdated": "2026-06-25T15:31:39.241875+00:00"
 }
