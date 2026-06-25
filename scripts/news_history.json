@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Announces Open-Source Release of Next-Generation Llama AI Models to Boost Research",
-      "urls": [
-        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
-        "https://www.youtube.com/watch?v=niNV4uziW50",
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2133468937070341",
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/472483165627318"
-      ],
-      "date": "2026-06-15T04:01:40.904327+00:00"
-    },
-    {
       "title": "YouTube Showcases CAD Speedmodeling Competition in 2026 Summer Open Esports Event",
       "urls": [
         "https://www.youtube.com/watch?v=5uaubQzz3Ao",
@@ -4210,7 +4200,18 @@
         "https://www.zacks.com/stock/news/2928312/credo-technology-before-q4-earnings-should-investors-buy-the-stock"
       ],
       "date": "2026-06-25T03:31:26.940964+00:00"
+    },
+    {
+      "title": "GLM Releases Version 5.1 Open Source LLM Outperforming Opus And GPT‑5.4",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/06/24/10405544.htm",
+        "https://www.globaltimes.cn/page/202605/1361310.shtml",
+        "https://propakistani.pk/2026/06/11/google-releases-lightning-fast-open-source-ai-model-with-4x-faster-text-generation-runs-on-consumer-gpus",
+        "https://www.newsbytesapp.com/news/science/iplanrio-releases-rio-35-open-397b-free-on-hugging-face/tldr",
+        "https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4"
+      ],
+      "date": "2026-06-25T04:02:03.696780+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T03:31:26.941028+00:00"
+  "lastUpdated": "2026-06-25T04:02:03.696842+00:00"
 }
