@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches Privacy Filter Model to Safeguard Enterprise Data Across Platforms",
-      "urls": [
-        "https://www.newsbytesapp.com/news/science/iplanrio-releases-rio-35-open-397b-free-on-hugging-face/tldr",
-        "https://www.msn.com/en-us/news/technology/hugging-face-launches-consumer-robot-app-store/ar-AA22wN7F?ocid=BingNewsVerp",
-        "https://venturebeat.com/data/openai-launches-privacy-filter-an-open-source-on-device-data-sanitization-model-that-removes-personal-information-from-enterprise-datasets",
-        "https://www.infosecurity-magazine.com/news/malicious-hugging-face-repo"
-      ],
-      "date": "2026-06-15T02:01:38.509799+00:00"
-    },
-    {
       "title": "Artificial Intelligence Era Prompts Call For Mental Health Guardrails And Policy Action",
       "urls": [
         "https://sports.yahoo.com/articles/5-mental-health-trends-2026-133007754.html",
@@ -4206,7 +4196,15 @@
         "https://www.medicaldaily.com/future-healthcare-tech-10-must-see-ces-2026-innovations-redefining-ai-diagnostics-wearables-474461"
       ],
       "date": "2026-06-25T01:31:45.921770+00:00"
+    },
+    {
+      "title": "YouTube Releases 38‑Minute AI Year in Review Highlighting 2026 Trends",
+      "urls": [
+        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in",
+        "https://www.youtube.com/watch?v=ARXS-uk19h8"
+      ],
+      "date": "2026-06-25T02:01:42.555166+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T01:31:45.921836+00:00"
+  "lastUpdated": "2026-06-25T02:01:42.555251+00:00"
 }
