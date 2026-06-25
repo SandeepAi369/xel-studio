@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Techsy.io Benchmarks Open-Source LLMs, Three Models Surpass GPT‑4 in 2026",
-      "urls": [
-        "https://www.shakudo.io/blog/top-9-large-language-models",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
-        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
-        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2",
-        "https://www.reddit.com/r/CredibleDefense/comments/1q15r80/llmassisted_influence_operations_in_2026_reddit",
-        "https://techsy.io/en/blog/best-open-source-llms-2026"
-      ],
-      "date": "2026-06-15T18:33:15.642320+00:00"
-    },
-    {
       "title": "CES Highlights Digital Health Breakthroughs at 2026 Consumer Electronics Show",
       "urls": [
         "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026",
@@ -4230,7 +4218,14 @@
         "https://www.morganstanley.com/insights/articles/global-economic-outlook-2026"
       ],
       "date": "2026-06-25T18:31:38.132777+00:00"
+    },
+    {
+      "title": "PubMed Central Publishes 2026 Healthcare Predictions Highlighting AI and Blockchain Rise",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
+      ],
+      "date": "2026-06-25T19:01:33.659081+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T18:31:38.132845+00:00"
+  "lastUpdated": "2026-06-25T19:01:33.659149+00:00"
 }
