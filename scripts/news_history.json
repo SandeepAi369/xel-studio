@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CES Highlights Digital Health Breakthroughs at 2026 Consumer Electronics Show",
-      "urls": [
-        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026",
-        "https://www.youtube.com/watch?v=H5QWOUPhaMc"
-      ],
-      "date": "2026-06-15T19:01:47.791985+00:00"
-    },
-    {
       "title": "Google Cloud Publishes 2025 AI Infrastructure Report Highlighting Efficiency and Network Readiness",
       "urls": [
         "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
@@ -4225,7 +4217,16 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
       ],
       "date": "2026-06-25T19:01:33.659081+00:00"
+    },
+    {
+      "title": "Pinggy Publishes Curated List of Top AI Video Generation Models for 2026",
+      "urls": [
+        "https://pinggy.io/blog/best_video_generation_ai_models",
+        "https://www.reddit.com/r/generativeAI/comments/1pvrk5b/the_8_best_ai_video_platforms_to_start_your",
+        "https://www.youtube.com/watch?v=3DWP5w7yd2I"
+      ],
+      "date": "2026-06-25T19:31:36.711604+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T19:01:33.659149+00:00"
+  "lastUpdated": "2026-06-25T19:31:36.711666+00:00"
 }
