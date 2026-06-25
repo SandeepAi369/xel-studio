@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Opinion Article Provides No Details In Search Results, Leaving Content Unclear",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/can-open-source-beat-openai/ar-AA25GtSD?ocid=BingNewsVerp",
-        "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild"
-      ],
-      "date": "2026-06-15T14:31:27.997926+00:00"
-    },
-    {
       "title": "Forbes Reports Earnings Season Surge As Big Tech Beats Expectations",
       "urls": [
         "https://www.forbes.com/sites/bill_stone/2026/05/03/earnings-season-surges-as-big-tech-delivers-and-128-reports-loom",
@@ -4227,7 +4219,15 @@
         "https://www.euronews.com/2026/05/22/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2"
       ],
       "date": "2026-06-25T14:01:46.768127+00:00"
+    },
+    {
+      "title": "CBS News Launches Dedicated Feature Page for 2026 Midterm Elections",
+      "urls": [
+        "https://www.cbsnews.com/feature/2026-midterm-elections",
+        "https://www.democracynow.org/2026/6/24/headlines"
+      ],
+      "date": "2026-06-25T14:31:36.007892+00:00"
     }
   ],
-  "lastUpdated": "2026-06-25T14:01:46.768218+00:00"
+  "lastUpdated": "2026-06-25T14:31:36.007949+00:00"
 }
