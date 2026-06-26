@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Humanoid Robotics Technology Publishes Top Twelve Humanoid Robots List for 2026",
-      "urls": [
-        "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026"
-      ],
-      "date": "2026-06-16T04:01:39.008251+00:00"
-    },
-    {
-      "title": "India Today Expands Sports Portal Offering Live Updates Across Cricket World Cup and IPL",
-      "urls": [
-        "https://www.indiatoday.in/sports"
-      ],
-      "date": "2026-06-16T04:31:26.249851+00:00"
-    },
-    {
       "title": "BentoML Publishes Guide Highlighting Best Open-Source LLMs in 2026 for Developers",
       "urls": [
         "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
@@ -4250,7 +4236,18 @@
         "https://www.reuters.com/business/meta-plans-advanced-agentic-ai-assistant-users-ft-reports-2026-05-05"
       ],
       "date": "2026-06-26T04:01:34.046462+00:00"
+    },
+    {
+      "title": "DreamHack Atlanta 2026 Draws Massive Crowd as Gamers and Fans Flood Event",
+      "urls": [
+        "https://www.youtube.com/watch?v=5uaubQzz3Ao",
+        "https://www.youtube.com/watch?v=uEtw5nhdk_Q",
+        "https://www.youtube.com/watch?v=UCJQ-RfKm7o",
+        "https://www.youtube.com/watch?v=xp7cVzxBbwE",
+        "https://www.youtube.com/watch?v=fkYbnGvVhxo"
+      ],
+      "date": "2026-06-26T04:31:30.612761+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T04:01:34.046542+00:00"
+  "lastUpdated": "2026-06-26T04:31:30.612830+00:00"
 }
