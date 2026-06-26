@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Dragon Undocks Carrying Experiments And Hardware For Earth Return",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/a-spacex-dragon-undocks-from-the-space-station-tomorrow-carrying-experiments-and-hardware-back-to-earth/ar-AA25MLph?ocid=BingNewsVerp",
-        "https://www.usatoday.com/story/news/nation/2026/05/15/spacex-starship-rocket-launch-date/90060491007",
-        "https://www.msn.com/en-us/news/technology/blue-origin-explosion-spacex-ula-launch-doubleheader-top-space-newsletter/ar-AA24yLMR?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-16T17:32:17.179012+00:00"
-    },
-    {
       "title": "Mount Bulusan Records 442 Quakes in Ten Days, Prompting Eruption Warning",
       "urls": [
         "https://www.msn.com/en-us/news/world/mount-bulusan-just-logged-442-volcanic-earthquakes-in-10-days-as-pressure-builds-under-the-philippines-restless-cone-phivolcs-warning-a-sudden-eruption-is-still-on-the-table/ar-AA24rUdl?ocid=BingNewsVerp"
@@ -4279,7 +4270,21 @@
         "https://www.newson6.com/something-good/students-build-sound-scout-system-to-boost-independence-for-visually-impaired-classmate"
       ],
       "date": "2026-06-26T17:31:32.493108+00:00"
+    },
+    {
+      "title": "Scientists warn that summer temperatures could spike as global warming edges toward a 2 °C rise, raising the likelihood of",
+      "urls": [
+        "https://insideclimatenews.org/news/17062026/summer-heat-spike-as-global-warming-surges",
+        "https://www.sciencedaily.com/releases/2026/02/260217005714.htm",
+        "https://www.reuters.com/sustainability/cop/europes-heatwave-virtually-impossible-without-climate-change-scientists-say-2026-06-26",
+        "https://www.nature.com/subjects/climate-change",
+        "https://www.sciencedaily.com/releases/2026/04/260403224502.htm",
+        "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+        "https://science.nasa.gov/climate-change",
+        "https://www.nature.com/nclimate/articles?year=2026"
+      ],
+      "date": "2026-06-26T18:01:41.703851+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T17:31:32.493177+00:00"
+  "lastUpdated": "2026-06-26T18:01:41.703907+00:00"
 }
