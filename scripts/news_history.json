@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Malaysia Implements New Online Safety Rules Affecting Social Media Users",
-      "urls": [
-        "https://www.msn.com/en-my/news/national/malaysia-s-new-online-safety-rules-kick-in-today-what-changes-for-social-media-users/ar-AA24vB2Z?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-16T19:01:52.396554+00:00"
-    },
-    {
-      "title": "Anthropic Shutdown of Mythos Model Triggers Global Race for Sovereign AI",
-      "urls": [
-        "https://www.msn.com/en-us/technology/artificial-intelligence/the-shutdown-of-anthropic-s-mythos-model-sparks-a-global-scramble-for-sovereign-ai/ar-AA25Myeu?ocid=BingNewsVerp",
-        "https://www.techtimes.com/articles/318441/20260615/bitcoin-mining-pivots-ai-compute-aionx-acquires-13-gw-500m-deal.htm"
-      ],
-      "date": "2026-06-16T19:31:29.085743+00:00"
-    },
-    {
       "title": "United States and Iran Sign Deal to End Middle East War",
       "urls": [
         "https://www.msn.com/en-us/news/world/us-and-iran-reach-deal-to-end-the-mideast-war-with-agreement-set-to-be-signed-friday/ar-AA25DF8h?ocid=BingNewsVerp",
@@ -4283,7 +4268,20 @@
         "https://www.crescendo.ai/news/ai-in-healthcare-news"
       ],
       "date": "2026-06-26T19:01:44.453849+00:00"
+    },
+    {
+      "title": "Iraq and Senegal Clash in Toronto as Early Goal Sparks Fan Celebration",
+      "urls": [
+        "https://www.livescore.com/en/football/international/world-cup-2026/fixtures",
+        "https://au.sports.yahoo.com",
+        "https://www.bbc.com/sport/football",
+        "https://www.espn.com/soccer/scoreboard",
+        "https://www.fifa.com",
+        "https://sports.yahoo.com/soccer",
+        "https://www.thestar.com/sports/soccer/world-cup/fifa-world-cup-2026-live-updates/article_37befb9f-f488-4450-b358-00ac99d53a78.html"
+      ],
+      "date": "2026-06-26T19:31:43.316175+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T19:01:44.453909+00:00"
+  "lastUpdated": "2026-06-26T19:31:43.316245+00:00"
 }
