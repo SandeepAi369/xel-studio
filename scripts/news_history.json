@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mount Bulusan Records 442 Quakes in Ten Days, Prompting Eruption Warning",
-      "urls": [
-        "https://www.msn.com/en-us/news/world/mount-bulusan-just-logged-442-volcanic-earthquakes-in-10-days-as-pressure-builds-under-the-philippines-restless-cone-phivolcs-warning-a-sudden-eruption-is-still-on-the-table/ar-AA24rUdl?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-16T18:01:51.385045+00:00"
-    },
-    {
-      "title": "Reddit Search Returns Empty Listings Without Content, Highlighting Data Gaps",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1pceipb/mistral_just_released_mistral_3_a_full_openweight",
-        "https://www.reddit.com/r/MistralAI/comments/1szwl1r/mistral_medium_35_is_the_only_nonchinese",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1sy6xoo/something_from_mistral_vibe_tomorrow"
-      ],
-      "date": "2026-06-16T18:31:33.253442+00:00"
-    },
-    {
       "title": "Malaysia Implements New Online Safety Rules Affecting Social Media Users",
       "urls": [
         "https://www.msn.com/en-my/news/national/malaysia-s-new-online-safety-rules-kick-in-today-what-changes-for-social-media-users/ar-AA24vB2Z?ocid=BingNewsVerp"
@@ -4284,7 +4268,15 @@
         "https://www.nature.com/nclimate/articles?year=2026"
       ],
       "date": "2026-06-26T18:01:41.703851+00:00"
+    },
+    {
+      "title": "YouTube Releases Two Framework Comparison Videos Highlighting TensorFlow and PyTorch",
+      "urls": [
+        "https://www.youtube.com/watch?v=pkEUANwkrqk",
+        "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
+      ],
+      "date": "2026-06-26T18:33:11.265394+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T18:01:41.703907+00:00"
+  "lastUpdated": "2026-06-26T18:33:11.265486+00:00"
 }
