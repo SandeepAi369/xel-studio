@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States and Iran Sign Ceasefire Agreement Amid Ongoing Tensions",
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/iran-us-agree-halt-war-reopen-hormuz-sending-oil-prices-tumbling-2026-06-15"
-      ],
-      "date": "2026-06-16T11:01:48.511675+00:00"
-    },
-    {
-      "title": "Google Gemini AI Agents Reach 750 Million Users Amid Claims of Powerful Capabilities",
-      "urls": [
-        "https://deepmind.google/blog",
-        "https://www.youtube.com/watch?v=VdBa8L1y8Ho",
-        "https://www.youtube.com/watch?v=gRtQnJ_WAxg",
-        "https://www.youtube.com/watch?v=41tvedMfPsY",
-        "https://www.instagram.com/reel/DV_IjKrjhyY"
-      ],
-      "date": "2026-06-16T11:31:29.718862+00:00"
-    },
-    {
       "title": "European Commission Disputes Instagram Data Practices Amid New Privacy Law Wave",
       "urls": [
         "https://www.instagram.com/reel/DZXweeYDH_j",
@@ -4271,7 +4253,19 @@
         "https://www.youtube.com/watch?v=UyLSO2gWOsw"
       ],
       "date": "2026-06-26T11:01:43.741817+00:00"
+    },
+    {
+      "title": "Forbes Publishes 2026 Accessibility List Showcasing Emerging Assistive Innovations Across Industries",
+      "urls": [
+        "https://www.forbes.com/lists/accessibility",
+        "https://www.ablecanada.ca/blog/assistive-technology-guide-2026",
+        "https://beyondbarrierssports.com/2026-accessibility-innovations-guide",
+        "https://www.scopeaust.org.au/news/assistive-technology-trend-2026",
+        "https://www.ces.tech/press-releases/cta-foundation-spotlights-accessibility-leadership-and-innovation-at-ces-2026-marked-by-inaugural-accessibility-stage",
+        "https://disabledbutnotreally.org/awareness/blog/the-future-of-disability-innovation-in-accessibility-and-inclusion"
+      ],
+      "date": "2026-06-26T11:31:34.845460+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T11:01:43.741886+00:00"
+  "lastUpdated": "2026-06-26T11:31:34.845535+00:00"
 }
