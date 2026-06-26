@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Environment America Projects Continued Growth for Wind and Solar Energy",
-      "urls": [
-        "https://environmentamerica.org/center/updates/new-forecasts-wind-and-solar-to-continue-to-grow"
-      ],
-      "date": "2026-06-16T14:01:49.080061+00:00"
-    },
-    {
       "title": "Big Tech Earnings Drive Record Stock Market Rally as AI Spending Dominates",
       "urls": [
         "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796"
@@ -4279,7 +4272,17 @@
         "https://phys.org/news/2026-06-biodiversity-offsetting-pollinator.html"
       ],
       "date": "2026-06-26T14:01:37.715238+00:00"
+    },
+    {
+      "title": "Nvidia Issues $200 Billion Warning for AMD and Intel Stock Investors",
+      "urls": [
+        "https://www.fool.com/investing/2026/05/26/nvidia-has-a-200-billion-warning-for-amd-and-intel",
+        "https://www.cnbc.com/2026/06/18/the-ai-trade-could-shift-back-in-nvidias-favor-heres-why.html",
+        "https://www.msn.com/en-au/money/news/beyond-nvidia-europe-s-best-performing-ai-stocks-of-2026/ar-AA24T9ai?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/companies/the-smartest-500-you-can-put-to-work-in-ai-right-now-isnt-going-into-nvidia/ar-AA24RCs9?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-26T14:31:48.986996+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T14:01:37.715318+00:00"
+  "lastUpdated": "2026-06-26T14:31:48.987084+00:00"
 }
