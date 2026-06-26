@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte Insights Releases US Economic Forecast for First Quarter 2026",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html"
-      ],
-      "date": "2026-06-16T09:01:56.430409+00:00"
-    },
-    {
-      "title": "Recite Me Launches Assistive Technology Resource Hub for Blind and Visually Impaired Users",
-      "urls": [
-        "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
-      ],
-      "date": "2026-06-16T09:31:33.503545+00:00"
-    },
-    {
       "title": "OpenSSF Reports Quarter of Growth, Adds AI Security Resources and Welcomes New Members",
       "urls": [
         "https://finance.yahoo.com/sectors/technology/articles/openssf-notes-quarter-growth-members-140000259.html"
@@ -4265,7 +4251,18 @@
         "https://www.manilatimes.net/2026/06/25/tmt-newswire/globenewswire/soundhound-ai-named-overall-agentic-ai-company-of-the-year-in-2026-ai-breakthrough-awards-program/2373057"
       ],
       "date": "2026-06-26T09:01:40.284477+00:00"
+    },
+    {
+      "title": "United Nations Europe Launches AI Initiative to Advance Disability Inclusion",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://www.reddit.com/r/ChatGPT/comments/17sg5mg/as_an_articulate_disabled_person_i_feel_like_ai",
+        "https://www.reddit.com/r/accessibility/comments/1acl4mc/disabilities_and_ai?rdt=41599",
+        "https://www.reddit.com/r/ArtistHate/comments/1glrr0m/thoughts_in_disabled_people_using_ai",
+        "https://www.reddit.com/r/disability/comments/1j7fshj/ai_to_accommodatesupport_disability"
+      ],
+      "date": "2026-06-26T09:31:36.723367+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T09:01:40.284550+00:00"
+  "lastUpdated": "2026-06-26T09:31:36.723451+00:00"
 }
