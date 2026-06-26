@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philippines Faces Magnitude 7.8 Earthquake and Tsunami Warning for Mindanao",
-      "urls": [
-        "https://ph.usembassy.gov/natural-disaster-alert-magnitude-7-8-earthquake-tsunami-warning-affecting-mindanao"
-      ],
-      "date": "2026-06-16T06:31:35.503263+00:00"
-    },
-    {
       "title": "United States and Iran Sign Peace Deal to End Middle East Conflict",
       "urls": [
         "https://en.wikipedia.org/wiki/Islamabad_Talks",
@@ -4249,7 +4242,16 @@
         "https://www.coingabbar.com/en/blockchain/crypto-news"
       ],
       "date": "2026-06-26T06:01:50.182159+00:00"
+    },
+    {
+      "title": "NASA Places Starliner Flight Under Review, Delaying 2026 Launch Schedule",
+      "urls": [
+        "https://www.usatoday.com/story/news/nation/2026/06/03/boeing-starliner-nasa-under-review/90370478007",
+        "https://www.nytimes.com/2026/06/04/technology/space-nerds-spacex-ipo.html",
+        "https://www.msn.com/en-us/news/news/here-s-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-26T06:31:40.893031+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T06:01:50.182239+00:00"
+  "lastUpdated": "2026-06-26T06:31:40.893108+00:00"
 }
