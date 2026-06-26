@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "McKinsey Publishes Global Economic Outlook 2026 Highlighting Growth Trends and Risks",
-      "urls": [
-        "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/economic-conditions-outlook"
-      ],
-      "date": "2026-06-16T16:31:53.201458+00:00"
-    },
-    {
       "title": "Big Tech Earnings Reveal Smart Spending Earns Market Rewards In Recent Quarter",
       "urls": [
         "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html"
@@ -4278,7 +4271,14 @@
         "https://www.espn.com/mma/schedule/_/league/ufc"
       ],
       "date": "2026-06-26T16:31:30.924069+00:00"
+    },
+    {
+      "title": "National University Publishes Blog Examining Social Media Trends for 2026",
+      "urls": [
+        "https://www.nu.edu/blog/social-media-trends"
+      ],
+      "date": "2026-06-26T17:01:43.323227+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T16:31:30.924164+00:00"
+  "lastUpdated": "2026-06-26T17:01:43.323294+00:00"
 }
