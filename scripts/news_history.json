@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenSSF Reports Quarter of Growth, Adds AI Security Resources and Welcomes New Members",
-      "urls": [
-        "https://finance.yahoo.com/sectors/technology/articles/openssf-notes-quarter-growth-members-140000259.html"
-      ],
-      "date": "2026-06-16T10:01:47.515363+00:00"
-    },
-    {
       "title": "Brain Scan Study Identifies Two Distinct Autism Subtypes With Different Biology",
       "urls": [
         "https://medicalxpress.com/news/2026-05-brain-scans-reveal-distinct-autism.html"
@@ -4269,7 +4262,14 @@
         "https://openinventionnetwork.com/june-2026-insider"
       ],
       "date": "2026-06-26T10:01:32.069661+00:00"
+    },
+    {
+      "title": "ScienceDaily Highlights New Biodiversity News Hub Focused on Species and Ecosystem Research",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/biodiversity"
+      ],
+      "date": "2026-06-26T10:31:42.711296+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T10:01:32.069729+00:00"
+  "lastUpdated": "2026-06-26T10:31:42.711363+00:00"
 }
