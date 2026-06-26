@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistive Technology Expands Independent Living Opportunities for People With Disabilities",
-      "urls": [
-        "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living",
-        "https://wnyt.com/third-hour-today/local-college-students-unveil-assistive-tech-at-create-symposium",
-        "https://www.msn.com/en-us/news/other/gao-cites-training-and-funding-gaps-in-assistive-tech-for-students/gm-GM8EF0F72E?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-16T03:31:52.642798+00:00"
-    },
-    {
       "title": "Humanoid Robotics Technology Publishes Top Twelve Humanoid Robots List for 2026",
       "urls": [
         "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026"
@@ -4250,7 +4241,16 @@
         "https://medium.com/@knubisoft/2025-top-tech-report-ai-nvidia-chips-apple-google-innovations-928ec8c8817e"
       ],
       "date": "2026-06-26T03:31:30.489053+00:00"
+    },
+    {
+      "title": "Meta Announces Agentic AI Assistant to Boost User Autonomy Across Platforms",
+      "urls": [
+        "https://www.techtimes.com/articles/319067/20260625/meta-prediction-market-app-puts-llama-charge-deciding-what-true.htm",
+        "https://www.msn.com/en-us/money/other/after-anthropic-shutdown-china-s-z-ai-closes-frontier-gap-as-it-plans-dual-listing/ar-AA26vhoA?ocid=BingNewsVerp",
+        "https://www.reuters.com/business/meta-plans-advanced-agentic-ai-assistant-users-ft-reports-2026-05-05"
+      ],
+      "date": "2026-06-26T04:01:34.046462+00:00"
     }
   ],
-  "lastUpdated": "2026-06-26T03:31:30.489134+00:00"
+  "lastUpdated": "2026-06-26T04:01:34.046542+00:00"
 }
