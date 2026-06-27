@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Publishes Gemini API Release Notes and Details AI Role in I/O Conference",
-      "urls": [
-        "https://ai.google.dev/gemini-api/docs/changelog",
-        "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
-      ],
-      "date": "2026-06-17T19:31:41.998113+00:00"
-    },
-    {
       "title": "SportsTech Forecasts 2026 Highlight Wearables, AI, and Market Growth Industry",
       "urls": [
         "https://www.sportspro.com/features/technology/sports-tech-predictions-trends-2026-ai-analytics-media-data",
@@ -4273,7 +4265,15 @@
         "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work"
       ],
       "date": "2026-06-27T19:31:25.348262+00:00"
+    },
+    {
+      "title": "United States and Iran Enter Ceasefire Talks on Nuclear Issues",
+      "urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "https://commonslibrary.parliament.uk/research-briefings/cbp-10637"
+      ],
+      "date": "2026-06-27T20:01:27.554279+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T19:31:25.348329+00:00"
+  "lastUpdated": "2026-06-27T20:01:27.554336+00:00"
 }
