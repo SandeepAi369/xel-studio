@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Vibe and Data Center Initiative to Challenge OpenAI",
-      "urls": [
-        "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai",
-        "https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5"
-      ],
-      "date": "2026-06-17T02:01:30.734351+00:00"
-    },
-    {
       "title": "National Hurricane Forecaster Issues Five Urgent Messages Ahead of 2026 Atlantic Season",
       "urls": [
         "https://www.msn.com/en-us/weather/topstories/nations-top-hurricane-forecaster-reveals-5-urgent-messages-for-2026/ar-AA24tSjX?ocid=BingNewsVerp",
@@ -4284,7 +4276,15 @@
         "https://www.sciencedaily.com/releases/2026/06/260601025324.htm"
       ],
       "date": "2026-06-27T01:31:30.312092+00:00"
+    },
+    {
+      "title": "Global Climate Report Highlights 1.39°C Rise and 1.5°C Threshold by 2030",
+      "urls": [
+        "https://www.nytimes.com/2026/06/25/climate/london-climate-week-heat-cancelations.html",
+        "https://phys.org/news/2026-06-human-driven-139c-15c.html"
+      ],
+      "date": "2026-06-27T02:01:54.165909+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T01:31:30.312169+00:00"
+  "lastUpdated": "2026-06-27T02:01:54.165976+00:00"
 }
