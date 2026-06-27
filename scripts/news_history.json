@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "SportsTech Forecasts 2026 Highlight Wearables, AI, and Market Growth Industry",
-      "urls": [
-        "https://www.sportspro.com/features/technology/sports-tech-predictions-trends-2026-ai-analytics-media-data",
-        "https://sthq.org/2026/01/23/10-sports-tech-innovations-to-watch-from-ces-2026",
-        "https://www.newsbeatx.com/sports-technology-2026-wearables-ai-and-performance-insights",
-        "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html"
-      ],
-      "date": "2026-06-17T20:02:07.492240+00:00"
-    },
-    {
-      "title": "Stream Hatchet Reports Rising Live Streaming Activity for Mobile Legends Bang Bang in Q1 2026",
-      "urls": [
-        "https://streamhatchet.com/blog/esports-q1-2026-live-streaming-trends-with-mobile-legends-bang-bang"
-      ],
-      "date": "2026-06-17T20:31:34.671480+00:00"
-    },
-    {
       "title": "FIFA World Cup 2026 Schedule Unveiled Across Host Cities in Live Updates",
       "urls": [
         "https://abc7chicago.com/live-updates/fifa-world-cup-2026-today-what-know-football-games-matches-schedule-live-updates/19277424",
@@ -4273,7 +4256,18 @@
         "https://commonslibrary.parliament.uk/research-briefings/cbp-10637"
       ],
       "date": "2026-06-27T20:01:27.554279+00:00"
+    },
+    {
+      "title": "YaCy Expands Resources with Tutorials, Direct Download, Community Forums, and Open Source Repository",
+      "urls": [
+        "https://yacy.net/tutorials",
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-06-27T20:31:41.568941+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T20:01:27.554336+00:00"
+  "lastUpdated": "2026-06-27T20:31:41.569003+00:00"
 }
