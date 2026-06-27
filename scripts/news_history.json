@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Environment America Forecasts Solar, Wind and Battery Storage Dominating Energy Landscape in 2026",
-      "urls": [
-        "https://environmentamerica.org/center/updates/new-forecast-solar-wind-and-battery-storage-to-dominate-in-2026",
-        "https://pv-magazine-usa.com/2025/10/30/five-trends-that-will-shape-renewable-energy-in-2026"
-      ],
-      "date": "2026-06-17T15:31:34.339585+00:00"
-    },
-    {
       "title": "Esports Insider Releases 2026 Events Calendar Highlighting Major Leagues and Tournaments",
       "urls": [
         "https://esportsinsider.com/2026/01/esports-events-calendar-2026-every-major-tournament",
@@ -4273,7 +4265,14 @@
         "https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected"
       ],
       "date": "2026-06-27T15:31:33.407481+00:00"
+    },
+    {
+      "title": "Mississippi Redistricting Raises Concerns Over Voter Registration Shifts Ahead Of 2026 Elections",
+      "urls": [
+        "https://golfweek.usatoday.com/story/news/politics/2026/06/10/mississippi-redistricting-and-mississippi-voter-registration/90350616007"
+      ],
+      "date": "2026-06-27T16:01:39.812376+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T15:31:33.407551+00:00"
+  "lastUpdated": "2026-06-27T16:01:39.812537+00:00"
 }
