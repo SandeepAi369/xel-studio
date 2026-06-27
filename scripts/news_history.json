@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Announces GPT-5.6 Release and Expanded Toolkit for Developers in June 2026",
-      "urls": [
-        "https://openai.com/research/index/release",
-        "https://releasebot.io/updates/openai",
-        "https://openai.com/index/introducing-gpt-5-5",
-        "https://www.geeky-gadgets.com/gpt-5-6-june-2026-release",
-        "https://codersera.com/blog/openai-may-2026-updates-roundup",
-        "https://releasebot.io/updates/openai/chatgpt",
-        "https://frontierwisdom.com/openai-2026-toolkit-updates-guide"
-      ],
-      "date": "2026-06-17T12:31:31.380722+00:00"
-    },
-    {
       "title": "South Asian Esports Scene Highlights Top Ten Trending Stories Across Pakistan and India",
       "urls": [
         "https://www.thetechedvocate.org/the-buzz-around-competitive-gaming-top-10-trending-news-in-pakistan-and-india",
@@ -4273,7 +4260,15 @@
         "https://socialbee.com/blog/social-media-news"
       ],
       "date": "2026-06-27T12:01:58.665459+00:00"
+    },
+    {
+      "title": "United States Wins Men’s Hockey Gold Over Canada at 2026 Winter Olympics",
+      "urls": [
+        "https://www.msn.com/en-us/sports/other/cuyahoga-county-proclaims-june-14-as-laila-edwards-day-celebrating-cleveland-heights-olympic-hockey-gold-medalist/ar-AA25uUBt?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/sports/nhl/us-wins-mens-hockey-gold-against-canada-at-2026-winter-olympics-closing-ceremony/ar-AA1WRg1P?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-27T12:31:31.829297+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T12:01:58.665548+00:00"
+  "lastUpdated": "2026-06-27T12:31:31.829398+00:00"
 }
