@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Silicon Valley Bank Publishes The Future of Climate Tech Report Highlighting Emerging Trends",
-      "urls": [
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
-      ],
-      "date": "2026-06-17T22:01:47.575161+00:00"
-    },
-    {
-      "title": "IEA Publishes Electricity 2026 Supply Analysis Guiding Global Energy Planning",
-      "urls": [
-        "https://www.iea.org/reports/electricity-2026/supply"
-      ],
-      "date": "2026-06-17T22:31:30.823280+00:00"
-    },
-    {
       "title": "Trump-Backed Candidates Win Key Primary Races Shaping 2026 Election Landscape",
       "urls": [
         "https://www.foxnews.com/live-news/democracy-26-live-primary-election-results-california-georgia-alabama-oklahoma-dc-06-16-2026",
@@ -4282,7 +4268,16 @@
         "https://finance.yahoo.com/technology/ai/articles/deloitte-google-cloud-collaborate-launch-070000931.html"
       ],
       "date": "2026-06-27T22:01:45.996908+00:00"
+    },
+    {
+      "title": "OECD Warns Global Economy Weakens as Energy Shock and Rising Inflation Pressure Growth",
+      "urls": [
+        "https://www.oecd.org/en/about/news/press-releases/2026/06/global-economic-outlook-weakens-amid-energy-shock-and-rising-inflationary-pressures.html",
+        "https://rsmus.com/insights/economics/economic-outlook-for-2026.html",
+        "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/original/GEP-Jun-2026.pdf"
+      ],
+      "date": "2026-06-27T22:31:38.224112+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T22:01:45.996972+00:00"
+  "lastUpdated": "2026-06-27T22:31:38.224176+00:00"
 }
