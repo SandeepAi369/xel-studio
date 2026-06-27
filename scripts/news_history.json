@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pegasus Tech Ventures and CYBERDYNE Launch 10 Billion Yen Fund to Accelerate Physical AI",
-      "urls": [
-        "https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567",
-        "https://finance.yahoo.com/healthcare/articles/accurkardias-ak-avs-aortic-valve-110500812.html",
-        "https://www.benefitnews.com/advisers/opinion/why-mental-health-benefits-fail",
-        "https://lasvegassun.com/news/2026/jun/16/adding-multimedia-pegasus-tech-ventures-and-cyberd"
-      ],
-      "date": "2026-06-17T19:01:58.602003+00:00"
-    },
-    {
       "title": "Google Publishes Gemini API Release Notes and Details AI Role in I/O Conference",
       "urls": [
         "https://ai.google.dev/gemini-api/docs/changelog",
@@ -4276,7 +4266,14 @@
         "https://greentechlead.com/renewable-energy/u-s-renewable-energy-generation-grows-10-in-jan-april-2026-as-solar-wind-and-battery-storage-lead-capacity-boom-53929"
       ],
       "date": "2026-06-27T19:01:48.530308+00:00"
+    },
+    {
+      "title": "JetBrains Surveys Developers to Reveal Most Used AI Coding Tools at Work",
+      "urls": [
+        "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work"
+      ],
+      "date": "2026-06-27T19:31:25.348262+00:00"
     }
   ],
-  "lastUpdated": "2026-06-27T19:01:48.530376+00:00"
+  "lastUpdated": "2026-06-27T19:31:25.348329+00:00"
 }
