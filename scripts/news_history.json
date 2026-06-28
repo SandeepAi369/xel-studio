@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Trump 2026 Video Covering Trade Wars, Tariffs and Immigration",
-      "urls": [
-        "https://www.youtube.com/watch?v=kEq85ywqa4A"
-      ],
-      "date": "2026-06-18T16:33:12.775951+00:00"
-    },
-    {
       "title": "Insider Ranks Seven AI Coding Tools Transforming Software Development",
       "urls": [
         "https://tech-insider.org/ai-coding-tools-2026-transforming-software-development"
@@ -4272,7 +4265,19 @@
         "https://sports.yahoo.com/articles/lionel-messi-already-broken-seven-144807650.html"
       ],
       "date": "2026-06-28T16:31:30.165302+00:00"
+    },
+    {
+      "title": "Global Privacy Laws Push Companies Toward Legal Anonymity in 2026",
+      "urls": [
+        "https://www.washingtonguardian.com/business/global-privacy-laws-in-2026-how-to-maintain-legal-anonymity-and-cybersecurity",
+        "https://www.newstrail.com/the-future-of-privacy-avoiding-government-surveillance-legally-in-2026",
+        "https://cloudsecurityalliance.org/blog/2026/02/04/global-privacy-trends-and-best-practices-for-compliance-in-2026",
+        "https://outsidethecase.org/digital-privacy-surveillance-guide",
+        "https://www.morganlewis.com/pubs/2026/03/cybersecurity-privacy-2026-enforcement-regulatory-trends",
+        "https://iapp.org/news"
+      ],
+      "date": "2026-06-28T17:01:42.008646+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T16:31:30.165383+00:00"
+  "lastUpdated": "2026-06-28T17:01:42.008708+00:00"
 }
