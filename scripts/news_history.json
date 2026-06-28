@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Launches Public AI Platform With Research Tools and Desktop App Preview",
-      "urls": [
-        "https://www.digitaltrends.com/computing/google-wants-gemini-to-help-build-the-next-big-scientific-breakthrough",
-        "https://www.msn.com/en-au/news/other/biotech-innovations-are-moving-from-breakthrough-science-to-commercial-reality-in-2026/gm-GMF34C57A8?ocid=BingNewsVerp",
-        "https://windowsreport.com/microsoft-discovery-goes-public-with-new-ai-research-tools-and-desktop-app-preview"
-      ],
-      "date": "2026-06-18T16:02:28.248112+00:00"
-    },
-    {
       "title": "YouTube Releases Trump 2026 Video Covering Trade Wars, Tariffs and Immigration",
       "urls": [
         "https://www.youtube.com/watch?v=kEq85ywqa4A"
@@ -4273,7 +4264,15 @@
         "https://www.youtube.com/watch?v=t26JjUIsSFk"
       ],
       "date": "2026-06-28T16:01:41.996850+00:00"
+    },
+    {
+      "title": "Lionel Messi Breaks Seven World Cup Records Ahead of South Africa Canada Knockout",
+      "urls": [
+        "https://www.bbc.com/sport/football/live/c8023448dpmt",
+        "https://sports.yahoo.com/articles/lionel-messi-already-broken-seven-144807650.html"
+      ],
+      "date": "2026-06-28T16:31:30.165302+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T16:01:41.996924+00:00"
+  "lastUpdated": "2026-06-28T16:31:30.165383+00:00"
 }
