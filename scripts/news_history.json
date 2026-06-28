@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "El Niño Drives Six Extreme Weather Threats Highlighting Health Risks Across the Americas",
-      "urls": [
-        "https://www.facebook.com/7NewsDC/videos/the-first-named-storm-of-the-2026-atlantic-hurricane-season-has-formed-in-the-gu/1747805499985116",
-        "https://www.youtube.com/watch?v=l8UUNFgI_sE",
-        "https://www.3blmedia.com/news/2026-el-nino-health-risks-six-extreme-weather-threats-facing-americas"
-      ],
-      "date": "2026-06-18T05:31:37.908031+00:00"
-    },
-    {
-      "title": "Google Unveils Gemini Omni Video Generator and Accelerated Gemini 3.5-Flash at I/O 2026",
-      "urls": [
-        "https://www.msn.com/en-us/lifestyle/shopping/google-s-gemini-omni-turns-images-audio-and-text-into-video-and-that-s-just-the-start/ar-AA23A5Mv?ocid=BingNewsVerp",
-        "https://www.livemint.com/technology/tech-news/google-io-2026-live-updates-sundar-pichai-keynote-gemini-ai-android-xr-launches-announcements-highlights-19-may-2026-11779199501541.html"
-      ],
-      "date": "2026-06-18T06:01:32.838895+00:00"
-    },
-    {
       "title": "Tropical Storm Arthur Brings Heavy Rain and Flooding to Texas Gulf Coast",
       "urls": [
         "https://www.nytimes.com/2026/06/16/weather/tropical-storm-arthur-louisiana-texas-gulf.html",
@@ -4280,7 +4263,14 @@
         "https://www.reddit.com/r/AskReddit/comments/b7ssbh/what_are_some_recent_scientific"
       ],
       "date": "2026-06-28T05:31:35.357683+00:00"
+    },
+    {
+      "title": "OpenAI Publishes New Research Release Page to Centralize Latest AI Advances",
+      "urls": [
+        "https://openai.com/research/index/release"
+      ],
+      "date": "2026-06-28T06:01:35.601559+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T05:31:35.357752+00:00"
+  "lastUpdated": "2026-06-28T06:01:35.601619+00:00"
 }
