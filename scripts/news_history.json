@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechRadar PCMag The Verge and Wired Lead Global Technology News Coverage",
-      "urls": [
-        "https://www.techradar.com",
-        "https://www.pcmag.com/news",
-        "https://www.theverge.com/tech",
-        "https://www.wired.com",
-        "https://techcrunch.com/latest"
-      ],
-      "date": "2026-06-18T03:01:40.877099+00:00"
-    },
-    {
-      "title": "FlagOS Hosts Open Computing Global Challenge Award Ceremony at 8th BAAI Conference",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/16/10400472.htm"
-      ],
-      "date": "2026-06-18T03:31:35.575471+00:00"
-    },
-    {
       "title": "Richtech Robotics Showcases AI‑Driven Pallet Jack Robot in First Humanoid Pavilion at Automate 2026",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/richtech-robotics-selected-as-featured-exhibitor-in-first-ever-humanoid-pavilion-at-automate-2026-1036256049",
@@ -4284,7 +4266,17 @@
         "https://unctad.org/publication/global-trade-update-march-2026-reforming-trade-rules-drive-development"
       ],
       "date": "2026-06-28T03:01:36.673173+00:00"
+    },
+    {
+      "title": "US and Iran Sign Initial Agreement Prompting Global Diplomatic Reactions",
+      "urls": [
+        "https://www.usatoday.com/story/news/world/2026/06/14/iran-war-live-updates-us-israel-trump--live/90541178007",
+        "https://www.cnn.com/2026/06/18/world/live-news/iran-war-trump-israel-lebanon",
+        "https://www.msn.com/en-us/news/other/the-most-expensive-u-turn-if-we-ended-up-back-at-the-jcpoa-what-was-the-war-for/ar-AA262V2U?ocid=BingNewsVerp",
+        "https://www.cnn.com/2026/06/03/politics/trump-iran-war-peace-deal-analysis"
+      ],
+      "date": "2026-06-28T03:31:40.456288+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T03:01:36.673240+00:00"
+  "lastUpdated": "2026-06-28T03:31:40.456363+00:00"
 }
