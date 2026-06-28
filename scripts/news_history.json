@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Royal Society Launches Disability Technology Hub to Advance Assistive Solutions",
-      "urls": [
-        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
-      ],
-      "date": "2026-06-18T21:31:31.601293+00:00"
-    },
-    {
-      "title": "DataNorth AI Publishes Updated Top Ten AI Tools List for 2026",
-      "urls": [
-        "https://datanorth.ai/blog/top-10-ai-tools-for-2026",
-        "https://www.youtube.com/watch?v=Ae9WGeiH4BA",
-        "https://www.youtube.com/watch?v=gYxV6UbQbbU"
-      ],
-      "date": "2026-06-18T22:01:40.555924+00:00"
-    },
-    {
       "title": "The Invading Sea Highlights AI and Mirror Molecules as 2026 Conservation Frontiers",
       "urls": [
         "https://news.mongabay.com/list/biodiversity",
@@ -4271,7 +4255,17 @@
         "https://www.cbs58.com/news/braille-games-helps-visually-impaired-students-gain-confidence"
       ],
       "date": "2026-06-28T21:31:25.898418+00:00"
+    },
+    {
+      "title": "Thermo Fisher Scientific Unveils New Manufacturing, Clinical and AI Research Capabilities at BIO International",
+      "urls": [
+        "https://www.hollywoodreporter.com/news/general-news/hollywood-and-science-unite-2026-breakthrough-prize-1236573837",
+        "https://markets.businessinsider.com/news/stocks/lim-meng-hoong-ai-is-entering-a-new-era-of-scientific-infrastructure-insights-from-science-x-ai-summit-2026-1036230553",
+        "https://www.digitaltrends.com/computing/google-wants-gemini-to-help-build-the-next-big-scientific-breakthrough",
+        "https://www.tmcnet.com/usubmit/2026/06/22/10403285.htm"
+      ],
+      "date": "2026-06-28T22:01:52.701059+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T21:31:25.898503+00:00"
+  "lastUpdated": "2026-06-28T22:01:52.701130+00:00"
 }
