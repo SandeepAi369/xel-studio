@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Milano Cortina 2026 Olympics Publish Complete Medalist List Across All Events",
-      "urls": [
-        "https://www.olympics.com/en/milano-cortina-2026/medals/medallists",
-        "https://www.latimes.com/sports/olympics/live/2026-winter-olympics-live-updates-final-day-results-winners-medal-count-schedule-closing-ceremony"
-      ],
-      "date": "2026-06-18T21:01:42.077516+00:00"
-    },
-    {
       "title": "Royal Society Launches Disability Technology Hub to Advance Assistive Solutions",
       "urls": [
         "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology"
@@ -4270,7 +4262,16 @@
         "https://indianexpress.com/section/sports"
       ],
       "date": "2026-06-28T21:01:31.679018+00:00"
+    },
+    {
+      "title": "Braille Games Boosts Confidence for Visually Impaired Students Across Schools",
+      "urls": [
+        "https://www.post-journal.com/news/top-stories/2026/06/graduating-jhs-senior-looks-forward-to-career-helping-visually-impaired",
+        "https://www.clarionledger.com/story/news/2026/05/15/mississippi-school-for-the-blind-student-competes-in-wrestling-and-music/89701294007",
+        "https://www.cbs58.com/news/braille-games-helps-visually-impaired-students-gain-confidence"
+      ],
+      "date": "2026-06-28T21:31:25.898418+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T21:01:31.679085+00:00"
+  "lastUpdated": "2026-06-28T21:31:25.898503+00:00"
 }
