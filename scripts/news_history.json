@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Insider Ranks Seven AI Coding Tools Transforming Software Development",
-      "urls": [
-        "https://tech-insider.org/ai-coding-tools-2026-transforming-software-development"
-      ],
-      "date": "2026-06-18T17:01:56.210821+00:00"
-    },
-    {
       "title": "Eagles Acquire 28-Year-Old Veteran Wide Receiver in Unexpected Trade Deal",
       "urls": [
         "https://www.msn.com/en-us/sports/nfl/eagles-acquire-28-year-old-veteran-wr-in-shocking-move-breaking-news/ar-AA24yZ9K?ocid=BingNewsVerp"
@@ -4277,7 +4270,16 @@
         "https://iapp.org/news"
       ],
       "date": "2026-06-28T17:01:42.008646+00:00"
+    },
+    {
+      "title": "Generative AI Tools Tested For Blind Users Reveal Accessibility Gaps",
+      "urls": [
+        "https://www.youtube.com/watch?v=hcV2dtbORs8",
+        "https://www.youtube.com/watch?v=nw6-eDJXWzY",
+        "https://dl.acm.org/doi/10.1145/3733155.3737910"
+      ],
+      "date": "2026-06-28T17:31:32.350559+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T17:01:42.008708+00:00"
+  "lastUpdated": "2026-06-28T17:31:32.350622+00:00"
 }
