@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Launches Global Warming News Hub for Climate Research Updates",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming"
-      ],
-      "date": "2026-06-18T11:01:45.666234+00:00"
-    },
-    {
       "title": "PixPix Launches AI Agent to Automate Full E‑Commerce Content Workflow",
       "urls": [
         "https://lasvegassun.com/news/2026/jun/17/2026-meitu-multimedia-festival-unveils-8-ai-produc",
@@ -4264,7 +4257,17 @@
         "https://www.iea.org/reports/electricity-2026/supply"
       ],
       "date": "2026-06-28T10:31:28.524561+00:00"
+    },
+    {
+      "title": "Zain Esports Powers MENA’s Largest PUBG MOBILE Championship Across Seven Countries",
+      "urls": [
+        "https://www.msn.com/en-ae/news/featured/zain-esports-powers-mena-s-biggest-pubg-mobile-championship-across-7-countries/ar-AA25zzCC?ocid=BingNewsVerp",
+        "https://technosports.co.in/s8ul-esports-secures-free-fire-max-spot",
+        "https://variety.com/2026/gaming/news/fruit-ninja-vr-global-gaming-league-championship-1236728412",
+        "https://www.msn.com/en-us/entertainment/gaming/2026-esports-world-cup-move-to-france-gaming-news-roundup/ar-AA23JOZ9?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-28T11:01:55.234263+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T10:31:28.524694+00:00"
+  "lastUpdated": "2026-06-28T11:01:55.234328+00:00"
 }
