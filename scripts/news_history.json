@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hawaii Experiences Magnitude 6 Earthquake, USGS Begins Kilauea Volcano Assessment",
-      "urls": [
-        "https://www.cnbc.com/2026/05/23/hawaii-earthquake.html",
-        "https://www.msn.com/en-us/news/other/magnitude-6-0-earthquake-shakes-hawaii-s-big-island-no-tsunami-expected/ar-AA23T8K7?ocid=BingNewsVerp",
-        "https://nypost.com/2026/05/23/us-news/magnitude-6-earthquake-strikes-hawaiis-big-island",
-        "https://www.msn.com/en-us/news/world/mount-bulusan-just-logged-442-volcanic-earthquakes-in-10-days-as-pressure-builds-under-the-restless-philippine-cone-phivolcs-warning-a-sudden-eruption-is-possible/ar-AA24lGst?ocid=BingNewsVerp",
-        "https://www.msn.com/en-ph/news/national/phivolcs-over-440-earthquakes-logged-at-bulusan-volcano/ar-AA23E0Lh?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-18T14:01:41.814854+00:00"
-    },
-    {
       "title": "Reddit Pages Show No Content in Recent Search Results for Upcoming Tech Articles",
       "urls": [
         "https://www.reddit.com/r/esports/comments/1r40yf7/rise_and_fall_for_games_in_2026_list",
@@ -4271,7 +4260,18 @@
         "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
       ],
       "date": "2026-06-28T14:01:33.574385+00:00"
+    },
+    {
+      "title": "Ocean Warming Triggers Global Marine Disruption as Temperatures Exceed 1.5°C Threshold",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/ocean-warming-above-15-c-triggered-year-round-marine-disruption-across-globe-study-shows/ar-AA26DYtO?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/anjalichaudhry/2026/06/25/ai-for-climate-change-3-lessons-from-5-organizations-leading-the-way",
+        "https://phys.org/news/2026-06-global-137c-earth-accumulating.html",
+        "https://www.msn.com/en-gb/news/world/rare-coastal-floods-now-12-times-more-likely-human-driven-climate-change-is-a-major-contributor/ar-AA25sq90?ocid=BingNewsVerp",
+        "https://phys.org/news/2026-06-ancient-carbon-tibetan-permafrost-triggering.html"
+      ],
+      "date": "2026-06-28T14:31:32.507100+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T14:01:33.574480+00:00"
+  "lastUpdated": "2026-06-28T14:31:32.507173+00:00"
 }
