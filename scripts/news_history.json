@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Messi Holds Multiple World Cup Records While Pursuing New Milestones",
-      "urls": [
-        "https://punchng.com/full-list-world-cup-records-messi-holds-still-chasing"
-      ],
-      "date": "2026-06-18T04:31:24.011009+00:00"
-    },
-    {
       "title": "Linux Foundation Launches OCUDU Ecosystem to Accelerate Open‑Source AI Innovation",
       "urls": [
         "https://www.linuxlinks.com/best-free-open-source-software-may-2026-updates",
@@ -4272,7 +4265,14 @@
         "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026"
       ],
       "date": "2026-06-28T04:01:43.681124+00:00"
+    },
+    {
+      "title": "IBM Commits Over $10 Billion to Accelerate Quantum Computing Roadmap Toward Fault‑Tolerant Machines",
+      "urls": [
+        "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
+      ],
+      "date": "2026-06-28T04:31:39.353186+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T04:01:43.681192+00:00"
+  "lastUpdated": "2026-06-28T04:31:39.353275+00:00"
 }
