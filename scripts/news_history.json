@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Pages Show No Content in Recent Search Results for Upcoming Tech Articles",
-      "urls": [
-        "https://www.reddit.com/r/esports/comments/1r40yf7/rise_and_fall_for_games_in_2026_list",
-        "https://www.reddit.com/r/esports/comments/1st6kxi/what_is_the_esports_nations_cup_2026_and_how_is",
-        "https://www.reddit.com/r/esports/comments/1qwdn3o/esports_world_cup_2026_is_doing_a_massive_road_to",
-        "https://www.reddit.com/r/esports/comments/1srp231/top_esports_games_by_peak_viewers_q1_2026"
-      ],
-      "date": "2026-06-18T14:31:41.341108+00:00"
-    },
-    {
-      "title": "Open‑Source AI Community Expands June 2026 With New Models, Agents And Papers",
-      "urls": [
-        "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
-        "https://whatllm.org/blog/new-ai-models-april-2026"
-      ],
-      "date": "2026-06-18T15:01:46.949761+00:00"
-    },
-    {
       "title": "YouTube Shows Inside Modern AI Data Centers and Infrastructure Design",
       "urls": [
         "https://aibusiness.com/verticals/cloud-computing",
@@ -4271,7 +4253,16 @@
         "https://phys.org/news/2026-06-ancient-carbon-tibetan-permafrost-triggering.html"
       ],
       "date": "2026-06-28T14:31:32.507100+00:00"
+    },
+    {
+      "title": "Jade Carey Announces Return to Elite Gymnastics After Olympic Gold",
+      "urls": [
+        "https://sports.yahoo.com/articles/ross-county-athletes-excel-ohio-090712740.html",
+        "https://www.nbcolympics.com/news/all-olympic-champions-figure-skating-2026-milan-cortina-winter-olympic-games",
+        "https://www.forbes.com/sites/carolineprice/2026/04/25/olympic-gold-medalist-jade-carey-announces-elite-gymnastics-comeback"
+      ],
+      "date": "2026-06-28T15:02:04.565997+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T14:31:32.507173+00:00"
+  "lastUpdated": "2026-06-28T15:02:04.566067+00:00"
 }
