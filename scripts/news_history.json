@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Samsung Projects Triple Profit Surge as AI Drives Record Earnings\",",
-      "urls": [
-        "https://www.cnbc.com/technology",
-        "https://www.youtube.com/watch?v=ZVXDX140kDw",
-        "https://www.facebook.com/firstpostin/videos/apple-google-microsoft-issue-travel-advisory-for-h-1b-visa-holders/1524052255374677",
-        "https://www.reuters.com/video/watch/idRW509208012026RP1"
-      ],
-      "date": "2026-06-18T02:01:43.260177+00:00"
-    },
-    {
-      "title": "IBM Commits Over $10 Billion to Accelerate Fault‑Tolerant Quantum Computer Development",
-      "urls": [
-        "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
-      ],
-      "date": "2026-06-18T02:31:30.845112+00:00"
-    },
-    {
       "title": "TechRadar PCMag The Verge and Wired Lead Global Technology News Coverage",
       "urls": [
         "https://www.techradar.com",
@@ -4287,7 +4270,14 @@
         "https://www.youtube.com/watch?v=LN2NbUkuddA"
       ],
       "date": "2026-06-28T02:01:39.861725+00:00"
+    },
+    {
+      "title": "Brunei Leads ASEAN in Per-Capita Carbon Emissions, Raising Climate Concerns",
+      "urls": [
+        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/24/brunei-records-highest-per-capita-carbon-emissions-in-asean-report"
+      ],
+      "date": "2026-06-28T02:33:15.134490+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T02:01:39.861786+00:00"
+  "lastUpdated": "2026-06-28T02:33:15.134572+00:00"
 }
