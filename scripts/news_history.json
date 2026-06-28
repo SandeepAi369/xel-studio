@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source AI Models Expand Options With Llama, Mistral, and DeepSeek in 2026",
-      "urls": [
-        "https://aiunpacking.com/guides/open-source-ai-models-2026-llama-mistral-deepseek",
-        "https://codersera.com/blog/open-source-llms-landscape-2026"
-      ],
-      "date": "2026-06-18T01:31:36.478867+00:00"
-    },
-    {
       "title": "\"title\": \"Samsung Projects Triple Profit Surge as AI Drives Record Earnings\",",
       "urls": [
         "https://www.cnbc.com/technology",
@@ -4288,7 +4280,14 @@
         "https://www.youtube.com/watch?v=jQtdI2VmiwQ"
       ],
       "date": "2026-06-28T01:31:27.075118+00:00"
+    },
+    {
+      "title": "YouTube Video Compares PyTorch, TensorFlow, and Scikit‑Learn Choice for Developers",
+      "urls": [
+        "https://www.youtube.com/watch?v=LN2NbUkuddA"
+      ],
+      "date": "2026-06-28T02:01:39.861725+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T01:31:27.075209+00:00"
+  "lastUpdated": "2026-06-28T02:01:39.861786+00:00"
 }
