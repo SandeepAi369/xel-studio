@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Shows Inside Modern AI Data Centers and Infrastructure Design",
-      "urls": [
-        "https://aibusiness.com/verticals/cloud-computing",
-        "https://www.youtube.com/watch?v=nV3xJ6zXQeg",
-        "https://www.youtube.com/watch?v=gG0T7RxFULg"
-      ],
-      "date": "2026-06-18T15:31:39.979447+00:00"
-    },
-    {
       "title": "Microsoft Launches Public AI Platform With Research Tools and Desktop App Preview",
       "urls": [
         "https://www.digitaltrends.com/computing/google-wants-gemini-to-help-build-the-next-big-scientific-breakthrough",
@@ -4271,7 +4262,18 @@
         "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/ai-chatbots"
       ],
       "date": "2026-06-28T15:31:23.354122+00:00"
+    },
+    {
+      "title": "United Nations Reports 123.2 Million People Displaced Globally Amid Rising Migration Pressures",
+      "urls": [
+        "https://www.unhcr.org/us/global-trends",
+        "https://www.youtube.com/watch?v=IammWgU1YUI",
+        "https://www.youtube.com/watch?v=g8bdckasgxI",
+        "https://www.youtube.com/watch?v=f4Z5kUQ99jU",
+        "https://www.youtube.com/watch?v=t26JjUIsSFk"
+      ],
+      "date": "2026-06-28T16:01:41.996850+00:00"
     }
   ],
-  "lastUpdated": "2026-06-28T15:31:23.354203+00:00"
+  "lastUpdated": "2026-06-28T16:01:41.996924+00:00"
 }
