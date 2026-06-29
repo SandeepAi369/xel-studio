@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechMarketBriefs Publishes Q1 2026 Tech Earnings Calendar to Streamline Investor Planning",
-      "urls": [
-        "https://techmarketbriefs.com/earnings"
-      ],
-      "date": "2026-06-19T02:01:39.326508+00:00"
-    },
-    {
       "title": "Microsoft and Uber Confront Rising Costs of AI Coding Agents",
       "urls": [
         "https://www.msn.com/en-in/technology/artificial-intelligence/from-omni-world-model-to-gemini-3-5-and-smart-audio-glasses-biggest-announcements-from-google-io-2026/ar-AA23CbzN?ocid=BingNewsVerp",
@@ -4260,7 +4253,15 @@
         "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm"
       ],
       "date": "2026-06-29T01:31:38.397663+00:00"
+    },
+    {
+      "title": "Sentient Foundation Commits $42 Million to Accelerate Open Source AGI Development",
+      "urls": [
+        "https://markets.businessinsider.com/news/currencies/sentient-foundation-commits-42-million-to-advance-open-source-agi-1036272541",
+        "https://www.manilatimes.net/2026/06/24/tmt-newswire/globenewswire/sentient-foundation-commits-42-million-to-advance-open-source-agi/2372111"
+      ],
+      "date": "2026-06-29T02:01:41.364135+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T01:31:38.397736+00:00"
+  "lastUpdated": "2026-06-29T02:01:41.364203+00:00"
 }
