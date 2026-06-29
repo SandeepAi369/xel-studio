@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Issues National AI Policy Framework to Guide Regulation and Innovation",
-      "urls": [
-        "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
-        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
-        "https://www.gunder.com/en/news-insights/insights/2026-ai-laws-update-key-regulations-and-practical-guidance",
-        "https://legalclarity.org/federal-ai-policy-executive-orders-laws-and-rules",
-        "https://aicomparison.ai/us-ai-regulation-2026-framework",
-        "https://gdprlocal.com/ai-regulations-around-the-world"
-      ],
-      "date": "2026-06-19T13:31:32.620881+00:00"
-    },
-    {
       "title": "DEWA Launches Projects to Boost Clean Energy Capacity and Advance Climate Action",
       "urls": [
         "https://www.msn.com/en-ae/technology/renewable-energy/dewa-s-projects-drive-clean-energy-innovation-climate-action/ar-AA24TYyP?ocid=BingNewsVerp"
@@ -4286,7 +4273,15 @@
         "https://www.artificialintelligence-news.com/categories/inside-ai/new_governance-regulation-and-policy"
       ],
       "date": "2026-06-29T13:31:30.600629+00:00"
+    },
+    {
+      "title": "Temporary Carbon Removal Could Boost Climate Goals If Applied Correctly",
+      "urls": [
+        "https://phys.org/news/2026-05-temporary-carbon-climate-goals.html",
+        "https://www.bernama.com/en/thoughts/news.php?id=2573341"
+      ],
+      "date": "2026-06-29T14:01:33.800363+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T13:31:30.600701+00:00"
+  "lastUpdated": "2026-06-29T14:01:33.800460+00:00"
 }
