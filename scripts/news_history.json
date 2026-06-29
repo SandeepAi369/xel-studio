@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hearing Tracker Highlights Emerging Hearing Tech at CES 2026 Preview",
-      "urls": [
-        "https://www.hearingtracker.com/news/ces-2026-preview-hearing-tech-and-innovations-to-watch"
-      ],
-      "date": "2026-06-19T10:01:39.429313+00:00"
-    },
-    {
       "title": "Paris Expo Porte de Versailles Hosts 2026 Esports World Cup with 25 Competitions",
       "urls": [
         "https://finance.yahoo.com/markets/articles/esports-world-cup-2026-venue-193900175.html",
@@ -4279,7 +4272,18 @@
         "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
       ],
       "date": "2026-06-29T10:01:31.284535+00:00"
+    },
+    {
+      "title": "Anthropic Announces 2026 AI Safety Research Program Targeting Alignment Challenges",
+      "urls": [
+        "https://ainewshub.io/anthropic-news",
+        "https://multi-ai.ai/en/blog/anthropic-announces-new-safety-research-for-ai-en",
+        "https://claude5.com/news/ai-safety-2026-alignment-research-breakthroughs",
+        "https://claude5.com/news/ai-safety-2026-alignment-progress-and-open-challenges",
+        "https://fortune.com/2026/01/21/anthropic-claude-ai-chatbot-new-rules-safety-consciousness"
+      ],
+      "date": "2026-06-29T10:31:35.563662+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T10:01:31.284601+00:00"
+  "lastUpdated": "2026-06-29T10:31:35.563722+00:00"
 }
