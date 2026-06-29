@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qiat Releases Comprehensive Assistive Technology Guide for Visually Impaired Students",
-      "urls": [
-        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
-        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1706182/full"
-      ],
-      "date": "2026-06-19T21:31:33.217718+00:00"
-    },
-    {
-      "title": "Riverflow Launches 2.5 Model Claiming World’s Highest AI Image Rating",
-      "urls": [
-        "https://www.usatoday.com/press-release/story/35058/riverflow-launches-2-5-the-worlds-highest-rated-ai-image-model"
-      ],
-      "date": "2026-06-19T22:01:33.857348+00:00"
-    },
-    {
       "title": "Chiang Rai Times Wins Best South East Asia News Platform Award From APAC Insider",
       "urls": [
         "https://www.msn.com/en-sg/society-culture-and-history/social-issues/chiang-rai-times-named-best-south-east-asia-news-media-platform-2026-by-apac-insider/ar-AA25RGga?ocid=BingNewsVerp"
@@ -4273,7 +4258,14 @@
         "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
       ],
       "date": "2026-06-29T21:31:31.092201+00:00"
+    },
+    {
+      "title": "\"title\": \"Simons Foundation Announces Quantum Dynamics Breakthrough That Overturns Quantum Supremacy Claim\",",
+      "urls": [
+        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
+      ],
+      "date": "2026-06-29T22:01:38.688076+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T21:31:31.092270+00:00"
+  "lastUpdated": "2026-06-29T22:01:38.688178+00:00"
 }
