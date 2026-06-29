@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Policy Watch Publishes First‑Quarter 2026 U.S. Tech Legislative and Regulatory Update",
-      "urls": [
-        "https://www.globalpolicywatch.com/2026/04/u-s-tech-legislative-regulatory-update-first-quarter-2026",
-        "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress"
-      ],
-      "date": "2026-06-19T17:31:31.212997+00:00"
-    },
-    {
       "title": "EY Releases Top Ten Geopolitical Developments Shaping 2026 Global Landscape",
       "urls": [
         "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook",
@@ -4287,7 +4279,14 @@
         "https://www.otcbc.org/otc-explores-emerging-assistive-technology"
       ],
       "date": "2026-06-29T17:31:22.607173+00:00"
+    },
+    {
+      "title": "ScienceDaily Highlights Latest Global Warming Research Findings From Climate Scientists Worldwide",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming"
+      ],
+      "date": "2026-06-29T18:01:40.292243+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T17:31:22.607236+00:00"
+  "lastUpdated": "2026-06-29T18:01:40.292316+00:00"
 }
