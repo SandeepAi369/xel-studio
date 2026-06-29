@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Atom Computing and Nu Quantum Partner to Unlock Utility-Scale Quantum Computing",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/17/10401412.htm",
-        "https://finance.yahoo.com/technology/articles/quantumcore-achieves-major-breakthrough-quantum-070000135.html",
-        "https://money.usnews.com/investing/articles/best-quantum-computing-stocks-to-buy",
-        "https://www.tmcnet.com/usubmit/2026/06/15/10399677.htm"
-      ],
-      "date": "2026-06-19T19:31:38.046895+00:00"
-    },
-    {
       "title": "Axcelead DDP Joins Lilly TuneLab to Accelerate AI Drug Discovery",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/axcelead-ddp-joins-lilly-tunelab-050000296.html",
@@ -4281,7 +4271,14 @@
         "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html"
       ],
       "date": "2026-06-29T19:31:24.448792+00:00"
+    },
+    {
+      "title": "EY Publishes Top Ten Geopolitical Developments Shaping 2026 Global Landscape",
+      "urls": [
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
+      ],
+      "date": "2026-06-29T20:01:33.679199+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T19:31:24.448863+00:00"
+  "lastUpdated": "2026-06-29T20:01:33.679275+00:00"
 }
