@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chiang Rai Times Wins Best South East Asia News Platform Award From APAC Insider",
-      "urls": [
-        "https://www.msn.com/en-sg/society-culture-and-history/social-issues/chiang-rai-times-named-best-south-east-asia-news-media-platform-2026-by-apac-insider/ar-AA25RGga?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-19T22:31:40.835964+00:00"
-    },
-    {
-      "title": "Open Source Package Vulnerability Threatens Millions of AI Agents Worldwide",
-      "urls": [
-        "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package"
-      ],
-      "date": "2026-06-19T23:01:32.735006+00:00"
-    },
-    {
       "title": "VolcanoDiscovery Expands Global Volcano and Earthquake News Coverage Providing Real‑Time Eruption Updates Worldwide",
       "urls": [
         "https://www.volcanodiscovery.com/news.html"
@@ -4274,7 +4260,19 @@
         "https://www.theguardian.com/commentisfree/2026/may/18/australias-green-wall-street-is-failing-to-launch-threatened-species-deserve-better-than-the-nature-repair-market"
       ],
       "date": "2026-06-29T22:31:17.241124+00:00"
+    },
+    {
+      "title": "Akamai Stock Surges 20 Percent After Earnings Beat and Announces $1.8 Billion AI Deal",
+      "urls": [
+        "https://www.geekwire.com/cloud",
+        "https://www.moneycontrol.com/technology/intel-at-computex-2026-from-new-xeon-6-to-rackscale-ai-infrastructure-everything-intel-announced-article-13938645.html",
+        "https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html",
+        "https://www.tmcnet.com/usubmit/2026/06/26/10406625.htm",
+        "https://www.msn.com/en-in/money/news/nvidia-to-offer-affordable-ai-computing-to-australias-firmus-technologies-under-new-deal/ar-AA26NeEX?ocid=BingNewsVerp",
+        "https://www.morningstar.com/news/business-wire/20260514608864/sharon-ai-announces-five-year-cloud-computing-infrastructure-agreement"
+      ],
+      "date": "2026-06-29T23:01:40.152856+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T22:31:17.241192+00:00"
+  "lastUpdated": "2026-06-29T23:01:40.152927+00:00"
 }
