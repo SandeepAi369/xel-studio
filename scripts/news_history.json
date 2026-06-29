@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "VolcanoDiscovery Expands Global Volcano and Earthquake News Coverage Providing Real‑Time Eruption Updates Worldwide",
-      "urls": [
-        "https://www.volcanodiscovery.com/news.html"
-      ],
-      "date": "2026-06-19T23:31:36.736060+00:00"
-    },
-    {
       "title": "Akamai Boosts Stock 20 Percent With $1.8 Billion AI Infrastructure Deal",
       "urls": [
         "https://www.marketwatch.com/story/rumble-expands-into-cloud-ai-infrastructure-with-northern-data-acquisition-cdc49694",
@@ -4272,7 +4265,14 @@
         "https://www.morningstar.com/news/business-wire/20260514608864/sharon-ai-announces-five-year-cloud-computing-infrastructure-agreement"
       ],
       "date": "2026-06-29T23:01:40.152856+00:00"
+    },
+    {
+      "title": "Canada Crypto Week Returns July 20‑26 Highlighting Web3, Digital Assets and AI",
+      "urls": [
+        "https://markets.businessinsider.com/news/currencies/canada-crypto-week-returns-july-20-26-celebrating-the-future-of-web3-digital-assets-and-ai-1036242150"
+      ],
+      "date": "2026-06-29T23:31:41.474338+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T23:01:40.152927+00:00"
+  "lastUpdated": "2026-06-29T23:31:41.474412+00:00"
 }
