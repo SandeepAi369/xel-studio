@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Axcelead DDP Joins Lilly TuneLab to Accelerate AI Drug Discovery",
-      "urls": [
-        "https://finance.yahoo.com/healthcare/articles/axcelead-ddp-joins-lilly-tunelab-050000296.html",
-        "https://www.msn.com/en-us/health/other/ai-reveals-unexpected-source-of-antibiotic-candidates-in-prion-proteins/ar-AA265OTa?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-19T20:01:53.153212+00:00"
-    },
-    {
       "title": "Trump Calls Out Italian Prime Minister Photo Request, Spat Escalates",
       "urls": [
         "https://www.foxnews.com/politics/trump-meloni-spat-grows-over-claim-italian-pm-begged-photo-astonished",
@@ -4278,7 +4270,17 @@
         "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
       ],
       "date": "2026-06-29T20:01:33.679199+00:00"
+    },
+    {
+      "title": "2026 FIFA World Cup Faces Carbon Footprint Twice Qatar 2022",
+      "urls": [
+        "https://carbon-pulse.com/526186",
+        "https://time.com/article/2026/06/03/carbon-emissions-2026-fifa-world-cup",
+        "https://www.prnewswire.co.uk/news-releases/london-climate-action-week-new-wbcsd-research-finds-businesses-say-sustainability-is-key-to-competitiveness-but-warn-of-costly-disorderly-climate-transition-without-stronger-policy-302809021.html",
+        "https://carbon-pulse.com/524252?category=Voluntary"
+      ],
+      "date": "2026-06-29T20:31:27.546536+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T20:01:33.679275+00:00"
+  "lastUpdated": "2026-06-29T20:31:27.546619+00:00"
 }
