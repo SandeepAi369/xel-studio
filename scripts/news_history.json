@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Publishes Guide on Choosing Between TensorFlow and PyTorch in 2025",
-      "urls": [
-        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
-      ],
-      "date": "2026-06-19T19:03:04.752660+00:00"
-    },
-    {
       "title": "Atom Computing and Nu Quantum Partner to Unlock Utility-Scale Quantum Computing",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/06/17/10401412.htm",
@@ -4280,7 +4273,15 @@
         "https://www.webwire.com/ViewPressRel.asp?aId=356849"
       ],
       "date": "2026-06-29T19:01:28.302543+00:00"
+    },
+    {
+      "title": "Opinion Article Provides No Content, Leaving Readers Without Information In Recent Search",
+      "urls": [
+        "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+        "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html"
+      ],
+      "date": "2026-06-29T19:31:24.448792+00:00"
     }
   ],
-  "lastUpdated": "2026-06-29T19:01:28.302610+00:00"
+  "lastUpdated": "2026-06-29T19:31:24.448863+00:00"
 }
