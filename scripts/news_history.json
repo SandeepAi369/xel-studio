@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alysa Liu Says Gold and Olympic Fame Haven’t Changed Her Focus",
-      "urls": [
-        "https://sports.yahoo.com/articles/special-olympics-athletes-gold-kansas-041011737.html",
-        "https://sports.yahoo.com/articles/gold-olympic-stardom-hasn-t-100752006.html"
-      ],
-      "date": "2026-06-20T23:01:58.653760+00:00"
-    },
-    {
-      "title": "AllSeniors.org Publishes 2026 Guide on Durable Medical Equipment for Senior Mobility",
-      "urls": [
-        "https://allseniors.org/articles/top-durable-medical-equipment-innovations-for-senior-mobility-in-2026",
-        "https://allseniors.org/articles/top-durable-medical-equipment-innovations-for-seniors-in-2026-2027"
-      ],
-      "date": "2026-06-20T23:31:34.099418+00:00"
-    },
-    {
       "title": "Meta Unveils Muse Spark AI Model While Boosting $135 Billion Investment",
       "urls": [
         "https://cointelegraph.com/news/ai-guardrail-removals-raise-questions-over-limits-of-open-source-model-regulation",
@@ -4276,7 +4260,15 @@
         "https://opensource.googleblog.com/2026"
       ],
       "date": "2026-06-30T23:01:26.645010+00:00"
+    },
+    {
+      "title": "Scientists Identify Climate‑Resilient Coral Reefs Offering Hope for Ocean Conservation",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-06-16/scientists-found-the-coral-reefs-that-can-survive-climate-change",
+        "https://www.pewresearch.org/science/2026/05/28/americans-on-what-causes-climate-change-human-activity-or-natural-patterns"
+      ],
+      "date": "2026-06-30T23:31:35.664258+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T23:01:26.645071+00:00"
+  "lastUpdated": "2026-06-30T23:31:35.664334+00:00"
 }
