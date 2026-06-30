@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Projects $1 Trillion AI Inference Chip Revenue as New GTC 2026 Launch Approaches",
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
-      ],
-      "date": "2026-06-20T11:33:03.849956+00:00"
-    },
-    {
-      "title": "Open-Source LLM Landscape Maps Over Fifteen Model Families and Highlights Top Models in 2026",
-      "urls": [
-        "https://blog.xidao.online/en/posts/2026-open-source-llm-landscape",
-        "https://codersera.com/blog/best-open-source-llm-2026-llama-4-qwen-3-5-deepseek-v4-gemma-4-mistral",
-        "https://presenc.ai/research/open-source-llm-landscape-2026"
-      ],
-      "date": "2026-06-20T12:01:37.984115+00:00"
-    },
-    {
       "title": "Medical Daily Highlights AI Advances Accelerating Disease Diagnosis In 2026",
       "urls": [
         "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
@@ -4288,7 +4272,17 @@
         "https://www.csmonitor.com/USA/Politics/2026/0610/artificial-intelligence-regulation-trump-congress"
       ],
       "date": "2026-06-30T11:31:22.622297+00:00"
+    },
+    {
+      "title": "Uber Exhausts 2026 AI Budget in Four Months Using Claude Code",
+      "urls": [
+        "https://www.forbes.com/sites/janakirammsv/2026/05/17/uber-burns-its-2026-ai-budget-in-four-months-on-claude-code",
+        "https://www.heise.de/en/news/Microsoft-Build-2026-AI-development-with-under-and-for-Windows-11315701.html",
+        "https://www.msn.com/en-za/news/other/you-already-speak-the-most-powerful-programming-language/ar-AA26vytc?ocid=BingNewsVerp",
+        "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them"
+      ],
+      "date": "2026-06-30T12:01:47.083141+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T11:31:22.622373+00:00"
+  "lastUpdated": "2026-06-30T12:01:47.083224+00:00"
 }
