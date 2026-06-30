@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global SportsTech Report 2026 Shows 82 Percent of Sports Entities Embrace Technology",
-      "urls": [
-        "https://www.yogonet.com/international/news/2026/02/24/117740-global-sportstech-report-2026-finds-82-of-sports-organizations-deploying-ai"
-      ],
-      "date": "2026-06-20T06:31:27.740865+00:00"
-    },
-    {
       "title": "Turks and Caicos Intercepts Overcrowded Haitian Boat Highlights Migration Reality",
       "urls": [
         "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01240-7/fulltext",
@@ -4280,7 +4273,14 @@
         "https://beyondbarrierssports.com/hidden-accessibility-tech-2026"
       ],
       "date": "2026-06-30T06:01:44.294254+00:00"
+    },
+    {
+      "title": "Tropical Storm Arthur Brings Heavy Rain and Flood Threats to Gulf Coast",
+      "urls": [
+        "https://www.nytimes.com/2026/06/16/weather/tropical-storm-arthur-louisiana-texas-gulf.html"
+      ],
+      "date": "2026-06-30T06:31:29.294971+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T06:01:44.294328+00:00"
+  "lastUpdated": "2026-06-30T06:31:29.295041+00:00"
 }
