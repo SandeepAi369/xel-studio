@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Geological Survey Expands Hawaiian Volcano Observatory Online Resources for Public Safety",
-      "urls": [
-        "https://www.usgs.gov/observatories/hvo"
-      ],
-      "date": "2026-06-20T14:31:49.400183+00:00"
-    },
-    {
       "title": "Forbes Highlights Best Web3 Wallets and Blockchain Learning Resources for 2026",
       "urls": [
         "https://www.forbes.com/digital-assets/news",
@@ -4283,7 +4276,14 @@
         "https://www.youtube.com/watch?v=yOGi4vmtNaY"
       ],
       "date": "2026-06-30T14:31:31.018609+00:00"
+    },
+    {
+      "title": "Google Uses Gemini AI and Other Tools to Build I/O 2026 Event",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
+      ],
+      "date": "2026-06-30T15:01:38.531916+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T14:31:31.018679+00:00"
+  "lastUpdated": "2026-06-30T15:01:38.532001+00:00"
 }
