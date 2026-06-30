@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Perkins School for the Blind Launches A‑to‑Z Assistive Technology Guide for Low Vision",
-      "urls": [
-        "https://www.perkins.org/resource/z-assistive-technology-low-vision"
-      ],
-      "date": "2026-06-20T17:31:35.128361+00:00"
-    },
-    {
       "title": "Maine Resolves Ranked Choice Primary Process, Clearing Path for Governor Race and Key House Contest",
       "urls": [
         "https://www.nbcnews.com/politics/2026-election/maine-resolves-ranked-choice-primaries-setting-governors-race-key-hous-rcna350415"
@@ -4275,7 +4268,16 @@
         "https://www.nature.com/nature-index/topics/l4/accessibility-and-mobility-for-individuals-with-disabilities"
       ],
       "date": "2026-06-30T17:31:21.532426+00:00"
+    },
+    {
+      "title": "UNHCR Reports Decline in Global Displacements While Long‑Term Refugee Crisis Remains",
+      "urls": [
+        "https://www.msn.com/en-us/news/world/unhcr-says-fewer-people-displaced-worldwide-in-2025-but-long-term-refugee-crisis-persists/ar-AA25l9Ca?ocid=BingNewsVerp",
+        "https://www.jurist.org/news/2026/05/un-chief-denounces-returns-of-afghan-asylum-seekers-and-refugees-as-violation-of-international-law",
+        "https://www.scoop.co.nz/stories/PO2606/S00125/nz-needs-new-immigration-framework-for-humanitarian-crises.htm"
+      ],
+      "date": "2026-06-30T18:01:43.514477+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T17:31:21.532503+00:00"
+  "lastUpdated": "2026-06-30T18:01:43.514577+00:00"
 }
