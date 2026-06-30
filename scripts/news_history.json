@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind CEO Claims AI Will Net Save Energy Within Ten Years",
-      "urls": [
-        "https://www.msn.com/en-ca/money/topstories/us-scientist-john-jumper-to-leave-google-deepmind-for-anthropic/ar-AA265tAr?ocid=BingNewsVerp",
-        "https://www.aol.com/news/google-deepmind-ceo-says-ai-150531510.html",
-        "https://www.cnbc.com/2026/06/19/john-jumper-to-leave-google-deepmind-for-anthropic.html",
-        "https://www.crn.com/news/ai/2026/openai-hires-google-gemini-ai-guru-sam-altman-touts-new-hire"
-      ],
-      "date": "2026-06-20T16:01:46.082150+00:00"
-    },
-    {
       "title": "India Boosts Data Centre Capacity to 8.33 GW Amid AI and Cloud Surge",
       "urls": [
         "https://lasvegassun.com/news/2026/jun/17/vultr-selects-hpe-and-nvidia-for-next-generation-a",
@@ -4280,7 +4270,14 @@
         "https://www.tralac.org/documents/news/7227-global-trade-update-january-2026-un-trade-and-development/file.html"
       ],
       "date": "2026-06-30T16:01:35.216640+00:00"
+    },
+    {
+      "title": "NBC News Publishes 2026 Primary Election Calendar Detailing Today's Races",
+      "urls": [
+        "https://www.nbcnews.com/politics/2026-primary-elections/calendar"
+      ],
+      "date": "2026-06-30T16:31:30.997621+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T16:01:35.216706+00:00"
+  "lastUpdated": "2026-06-30T16:31:30.997693+00:00"
 }
