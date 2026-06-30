@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arthur Forms Gulf Storm Bringing Flash Flood Threats to Gulf States",
-      "urls": [
-        "https://abcnews.com/US/tropical-storm-arthur-forms-gulf-off-texas-nws/story?id=133964957"
-      ],
-      "date": "2026-06-20T14:01:51.682734+00:00"
-    },
-    {
       "title": "U.S. Geological Survey Expands Hawaiian Volcano Observatory Online Resources for Public Safety",
       "urls": [
         "https://www.usgs.gov/observatories/hvo"
@@ -4283,7 +4276,14 @@
         "https://people.com/first-tropical-storm-of-2026-hurricane-season-forms-12000950"
       ],
       "date": "2026-06-30T14:01:33.185725+00:00"
+    },
+    {
+      "title": "YouTube Video Guides TensorFlow Vs PyTorch Choice For 2025 Developers",
+      "urls": [
+        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
+      ],
+      "date": "2026-06-30T14:31:31.018609+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T14:01:33.185807+00:00"
+  "lastUpdated": "2026-06-30T14:31:31.018679+00:00"
 }
