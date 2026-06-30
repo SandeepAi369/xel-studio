@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medical Daily Highlights AI Advances Accelerating Disease Diagnosis In 2026",
-      "urls": [
-        "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
-      ],
-      "date": "2026-06-20T12:31:43.405537+00:00"
-    },
-    {
-      "title": "Big Tech Plans Over $1 Trillion Capital Expenditure for 2027 Amid AI Boom",
-      "urls": [
-        "https://www.msn.com/en-us/money/companies/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027/ar-AA226L8z?ocid=BingNewsVerp",
-        "https://www.cnbc.com/2026/05/08/us-tech-stocks-cheap-stellar-earnings-where-next.html",
-        "https://www.bloomberg.com/news/articles/2026-04-28/tech-companies-to-lead-earnings-growth-as-chip-strength-shines",
-        "https://markets.businessinsider.com/news/stocks/as-tech-stocks-and-ai-earnings-drive-market-momentum-moneyflare-unveils-ai-stock-trading-bot-for-faster-signal-based-trading-1036184686",
-        "https://www.bostonherald.com/2026/06/05/stocks-wall-street-big-tech",
-        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06012026-11987627",
-        "https://www.bloomberg.com/news/articles/2026-05-06/nvidia-is-facing-more-competition-and-it-s-spooking-investors",
-        "https://www.investopedia.com/what-to-expect-in-markets-this-week-the-may-jobs-report-plus-tech-and-retailer-earnings-11985188"
-      ],
-      "date": "2026-06-20T13:01:41.171421+00:00"
-    },
-    {
       "title": "Rogervoice Survey Shows 60 Percent of Americans Find Phone Calls Inaccessible to Deaf Users",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/06/18/10402517.htm"
@@ -4289,7 +4268,15 @@
         "https://worldathletics.org/records/by-category/world-records"
       ],
       "date": "2026-06-30T12:31:25.189937+00:00"
+    },
+    {
+      "title": "Google Loses Two Senior AI Engineers to Anthropic in Talent Shift",
+      "urls": [
+        "https://www.latimes.com/business/story/2026-06-29/google-poised-to-lose-two-more-senior-ai-staffers-to-anthropic",
+        "https://deepmind.google"
+      ],
+      "date": "2026-06-30T13:01:43.886579+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T12:31:25.190048+00:00"
+  "lastUpdated": "2026-06-30T13:01:43.886637+00:00"
 }
