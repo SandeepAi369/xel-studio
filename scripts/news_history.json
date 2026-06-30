@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Nature and Zentara Highlight Expected Scientific Breakthroughs for 2026 in",
-      "urls": [
-        "https://www.nature.com/nature/articles?type=research-highlight&year=2026",
-        "https://www.nature.com/articles/d41586-025-03673-6",
-        "https://zentara.blog/2025/12/20/top-10-scientific-breakthroughs-expected-in-2026-based-on-current-research-pipelines"
-      ],
-      "date": "2026-06-20T20:01:49.575658+00:00"
-    },
-    {
       "title": "Jaccob Slavin Joins Elite Group By Winning Olympic Gold and Stanley Cup in Same Season",
       "urls": [
         "https://news.webindia123.com/news/articles/Sports/20260620/4465174.html",
@@ -4271,7 +4262,14 @@
         "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda%202025%20Annual%20Report.pdf"
       ],
       "date": "2026-06-30T20:01:34.272510+00:00"
+    },
+    {
+      "title": "Nvidia Unveils New Inference Chips Targeting $1 Trillion AI Market at GTC 2026",
+      "urls": [
+        "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
+      ],
+      "date": "2026-06-30T20:31:22.790030+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T20:01:34.272582+00:00"
+  "lastUpdated": "2026-06-30T20:31:22.790098+00:00"
 }
