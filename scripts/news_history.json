@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Boosts Data Centre Capacity to 8.33 GW Amid AI and Cloud Surge",
-      "urls": [
-        "https://lasvegassun.com/news/2026/jun/17/vultr-selects-hpe-and-nvidia-for-next-generation-a",
-        "https://www.thehindubusinessline.com/info-tech/indias-data-centre-capacity-pipeline-hits-833-gw-amid-ai-and-cloud-boom/article71125654.ece",
-        "https://www.msn.com/en-us/technology/cloud-computing/hive-secures-220m-ai-infrastructure-contract-with-bell-and-cohere/ar-AA25Z7oe?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-20T16:32:03.178274+00:00"
-    },
-    {
       "title": "Trump Claims Vandals Used Chemicals To Damage Renovated Lincoln Memorial Reflecting Pool",
       "urls": [
         "https://www.foxnews.com/politics/trump-says-vandals-used-chemicals-damage-newly-renovated-reflecting-pool-lincoln-memorial",
@@ -4277,7 +4268,15 @@
         "https://www.nbcnews.com/politics/2026-primary-elections/calendar"
       ],
       "date": "2026-06-30T16:31:30.997621+00:00"
+    },
+    {
+      "title": "Apple, Google, Microsoft Issue Joint Travel Advisory For H‑1B Visa Holders",
+      "urls": [
+        "https://www.youtube.com/watch?v=ZVXDX140kDw",
+        "https://www.facebook.com/firstpostin/videos/apple-google-microsoft-issue-travel-advisory-for-h-1b-visa-holders/1524052255374677"
+      ],
+      "date": "2026-06-30T17:01:36.339039+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T16:31:30.997693+00:00"
+  "lastUpdated": "2026-06-30T17:01:36.339144+00:00"
 }
