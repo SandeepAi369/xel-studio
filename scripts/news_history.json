@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "USA Hockey Secures 2026 Olympic Gold After Dramatic Overtime Victory",
-      "urls": [
-        "https://www.goodnewspaper.net/2026/02/28/historic-triumphs-inspiring-moments-from-the-2026-winter-olympics",
-        "https://globaltrendpress.com/global-sports-highlights-2026-major-records-tournaments-and-breakthrough-moments",
-        "https://sports.yahoo.com/articles/5-defining-moments-usa-2026-120000203.html?fr=sycsrp_catchall",
-        "https://www.msn.com/en-us/sports/fifa_world_cup/fifa-world-cup-2026-what-went-down-at-the-qatar-vs-canada-match/ar-AA262yEy",
-        "https://www.nytimes.com/athletic/7063488/2026/02/22/winter-olympics-best-gold-medal-moments"
-      ],
-      "date": "2026-06-20T19:01:57.866224+00:00"
-    },
-    {
-      "title": "DirectIndustry Highlights Humanoid Robot Debate at Logimat 2026 Amid Automation Uncertainty",
-      "urls": [
-        "https://emag.directindustry.com/2026/04/02/humanoid-robots-hype-or-the-future-of-automation-insights-from-logimat-2026"
-      ],
-      "date": "2026-06-20T19:31:29.075646+00:00"
-    },
-    {
       "title": "\"title\": \"Nature and Zentara Highlight Expected Scientific Breakthroughs for 2026 in",
       "urls": [
         "https://www.nature.com/nature/articles?type=research-highlight&year=2026",
@@ -4275,7 +4257,14 @@
         "https://www.perkins.org/resource/z-assistive-technology-low-vision"
       ],
       "date": "2026-06-30T19:01:37.808195+00:00"
+    },
+    {
+      "title": "Savvycom Highlights TensorFlow and PyTorch as Leading AI Development Frameworks in 2026",
+      "urls": [
+        "https://savvycomsoftware.com/blog/ai-development-framework"
+      ],
+      "date": "2026-06-30T19:31:34.478009+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T19:01:37.808257+00:00"
+  "lastUpdated": "2026-06-30T19:31:34.478082+00:00"
 }
