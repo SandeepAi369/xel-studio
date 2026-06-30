@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "A3 Association Launches Inclusive Technology Program to Boost Accessibility for People With Disabilities",
-      "urls": [
-        "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities"
-      ],
-      "date": "2026-06-20T21:01:42.377986+00:00"
-    },
-    {
       "title": "Mistral Acquires Emmi AI to Add Physics to Industrial Artificial Intelligence",
       "urls": [
         "https://thenextweb.com/news/mistral-emmi-ai-physics-vienna-industrial"
@@ -4276,7 +4269,15 @@
         "https://www.espn.com/espn/latestnews"
       ],
       "date": "2026-06-30T21:01:39.183880+00:00"
+    },
+    {
+      "title": "Visually Impaired Student Wrestler and Musician Thrives at MS School for Blind",
+      "urls": [
+        "https://sports.yahoo.com/articles/visually-impaired-student-wrestler-musician-090203880.html",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/hillsborough-county-teen-creates-ai-powered-cane-for-visually-impaired/ar-AA25IFCu?ocid=BingNewsVerp"
+      ],
+      "date": "2026-06-30T21:31:20.339619+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T21:01:39.183947+00:00"
+  "lastUpdated": "2026-06-30T21:31:20.339709+00:00"
 }
