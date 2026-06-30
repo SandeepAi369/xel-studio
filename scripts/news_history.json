@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Acquires Emmi AI to Add Physics to Industrial Artificial Intelligence",
-      "urls": [
-        "https://thenextweb.com/news/mistral-emmi-ai-physics-vienna-industrial"
-      ],
-      "date": "2026-06-20T21:31:54.402131+00:00"
-    },
-    {
-      "title": "Robozaps Highlights Future Humanoid Robot Trends as YouTube Releases Transformative Video",
-      "urls": [
-        "https://blog.robozaps.com/b/future-of-humanoid-robots",
-        "https://www.youtube.com/watch?v=2Oh3nn_dXfk"
-      ],
-      "date": "2026-06-20T22:01:46.150761+00:00"
-    },
-    {
       "title": "Arthur Storm Leaves Flood Damage In New Orleans As South Faces Ongoing Risk",
       "urls": [
         "https://www.nola.com/news/hurricane/live-updates-arthur/article_64c490d9-700d-450e-a9fd-cb5f36b17c44.html",
@@ -4277,7 +4262,14 @@
         "https://www.msn.com/en-us/technology/artificial-intelligence/hillsborough-county-teen-creates-ai-powered-cane-for-visually-impaired/ar-AA25IFCu?ocid=BingNewsVerp"
       ],
       "date": "2026-06-30T21:31:20.339619+00:00"
+    },
+    {
+      "title": "AbilityNet Highlights Inclusive Tech Themes for 2026 Based on TechShare Pro Insights",
+      "urls": [
+        "https://abilitynet.org.uk/news-blogs/inclusive-tech-themes-watch-2026-lessons-techshare-pro"
+      ],
+      "date": "2026-06-30T22:01:47.348167+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T21:31:20.339709+00:00"
+  "lastUpdated": "2026-06-30T22:01:47.348281+00:00"
 }
