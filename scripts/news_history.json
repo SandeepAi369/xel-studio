@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Northampton Graduate Launches Life‑Changing Assistive Smart Glasses for Visually Impaired",
-      "urls": [
-        "https://www.msn.com/en-gb/money/technology/from-student-project-to-life-changing-innovation-northampton-graduate-develops-smart-glasses-for-the-visually-impaired/ar-AA24PT3Q?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-20T11:01:55.227698+00:00"
-    },
-    {
       "title": "Nvidia Projects $1 Trillion AI Inference Chip Revenue as New GTC 2026 Launch Approaches",
       "urls": [
         "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16"
@@ -4287,7 +4280,15 @@
         "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech"
       ],
       "date": "2026-06-30T11:01:29.374634+00:00"
+    },
+    {
+      "title": "Anthropic Pledges $350 Million to Boost Safe AI Development Amid Regulation Push",
+      "urls": [
+        "https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm",
+        "https://www.csmonitor.com/USA/Politics/2026/0610/artificial-intelligence-regulation-trump-congress"
+      ],
+      "date": "2026-06-30T11:31:22.622297+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T11:01:29.374713+00:00"
+  "lastUpdated": "2026-06-30T11:31:22.622373+00:00"
 }
