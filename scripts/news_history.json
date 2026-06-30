@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Labor Party Tax Overhaul Raises Concerns For Medical Technology Companies",
-      "urls": [
-        "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy",
-        "https://www.msn.com/en-au/health/other/medical-technology-sector-raises-fresh-concerns-with-labor-s-capital-gains-tax-overhaul/ar-AA24WCw1?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-20T07:31:42.545255+00:00"
-    },
-    {
       "title": "USA Partners With UNHCR to Address 117 Million Displaced People",
       "urls": [
         "https://www.youtube.com/watch?v=jEKu0jjP7LE"
@@ -4280,7 +4272,14 @@
         "https://www.thestreet.com/latest-news/orcl-oracle-earnings-call-updates-q4-2026"
       ],
       "date": "2026-06-30T07:01:57.381508+00:00"
+    },
+    {
+      "title": "Climate Scientist Finds Large Errors in Global Pollution Database and Calls for Review",
+      "urls": [
+        "https://phys.org/news/2026-05-climate-scientist-large-errors-global.html"
+      ],
+      "date": "2026-06-30T07:31:46.589892+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T07:01:57.381582+00:00"
+  "lastUpdated": "2026-06-30T07:31:46.589961+00:00"
 }
