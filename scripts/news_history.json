@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arthur Storm Leaves Flood Damage In New Orleans As South Faces Ongoing Risk",
-      "urls": [
-        "https://www.nola.com/news/hurricane/live-updates-arthur/article_64c490d9-700d-450e-a9fd-cb5f36b17c44.html",
-        "https://www.washingtonpost.com/weather/2026/06/18/arthurs-dangerous-downpours-push-ashore-deep-south"
-      ],
-      "date": "2026-06-20T22:31:47.328225+00:00"
-    },
-    {
       "title": "Alysa Liu Says Gold and Olympic Fame Haven’t Changed Her Focus",
       "urls": [
         "https://sports.yahoo.com/articles/special-olympics-athletes-gold-kansas-041011737.html",
@@ -4277,7 +4269,14 @@
         "https://www.thescore.com/nfl/news/3435119/26-stories-were-most-excited-about-for-2026-part-1"
       ],
       "date": "2026-06-30T22:31:30.054751+00:00"
+    },
+    {
+      "title": "Google Launches 2026 Open Source Blog To Share Project Updates And Community Resources",
+      "urls": [
+        "https://opensource.googleblog.com/2026"
+      ],
+      "date": "2026-06-30T23:01:26.645010+00:00"
     }
   ],
-  "lastUpdated": "2026-06-30T22:31:30.054818+00:00"
+  "lastUpdated": "2026-06-30T23:01:26.645071+00:00"
 }
