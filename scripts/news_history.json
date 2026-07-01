@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OneTrust Highlights Five Privacy Trends Driving Global Enforcement in 2026",
-      "urls": [
-        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
-        "https://cdslegal.com/insights/global-data-privacy-laws-the-current-environment-and-what-to-look-for-in-2026",
-        "https://www.youtube.com/watch?v=zF4KBYi-wSM"
-      ],
-      "date": "2026-06-21T10:03:20.675567+00:00"
-    },
-    {
       "title": "Haznos.org Highlights Hybrid Care and Remote Monitoring as 2026 Telehealth Trends",
       "urls": [
         "https://haznos.org/2026/telehealth-trends-2026"
@@ -4280,7 +4271,18 @@
         "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table"
       ],
       "date": "2026-07-01T10:01:39.706676+00:00"
+    },
+    {
+      "title": "Microsoft Launches Azure Linux 4.0 as First General‑Purpose Server Distribution",
+      "urls": [
+        "https://linuxiac.com/category/news",
+        "https://linuxiac.com/category/news/software",
+        "https://lwn.net",
+        "https://lwn.net/daily",
+        "https://www.infoq.com/news/2026/05/azure-linux-4-server"
+      ],
+      "date": "2026-07-01T10:31:29.025806+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T10:01:39.706771+00:00"
+  "lastUpdated": "2026-07-01T10:31:29.025875+00:00"
 }
