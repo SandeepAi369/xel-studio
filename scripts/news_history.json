@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Assistive Technology Expanding Access for People with Sight Loss",
-      "urls": [
-        "https://www.youtube.com/watch?v=BVZSqtjpgiI",
-        "https://www.youtube.com/watch?v=XAJoh1ZMRas",
-        "https://www.youtube.com/watch?v=bbPA5yqQEaE",
-        "https://www.youtube.com/watch?v=-XwFFOEEdg4",
-        "https://www.youtube.com/watch?v=9I87I5J7zuw",
-        "https://www.youtube.com/watch?v=XEBf_uhKBs8"
-      ],
-      "date": "2026-06-21T01:01:45.769415+00:00"
-    },
-    {
       "title": "RFF Releases Global Energy Outlook 2026 Detailing Missed 1.5°C Target",
       "urls": [
         "https://www.rff.org/publications/reports/global-energy-outlook-2026",
@@ -4272,7 +4260,14 @@
         "https://www.renewableenergyconference.org/blog/trends-in-renewable-energy-2026.html"
       ],
       "date": "2026-07-01T01:01:38.552469+00:00"
+    },
+    {
+      "title": "Paramount Plus Releases Full UFC 2026 Streaming Schedule With Event Times",
+      "urls": [
+        "https://www.paramountplus.com/sneak-peak/ufc-schedule-2026"
+      ],
+      "date": "2026-07-01T01:31:29.619315+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T01:01:38.552537+00:00"
+  "lastUpdated": "2026-07-01T01:31:29.619390+00:00"
 }
