@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autism Research Shows Early Social Differences Can Evolve Significantly Into Adulthood",
-      "urls": [
-        "https://www.psychologytoday.com/us/blog/living-neurodivergence/202606/why-we-need-neurodiversity-pride",
-        "https://medicalxpress.com/news/2026-05-autism-social-differences-emerge-early.html",
-        "https://medicalxpress.com/news/2026-05-stereotypes-autism-tv-linked-delayed.html",
-        "https://callingallminds.com/resources/assistive-technology-guide"
-      ],
-      "date": "2026-06-21T13:31:23.634048+00:00"
-    },
-    {
       "title": "Mongabay Highlights Global Conservation Updates for Stakeholders Amid Growing Biodiversity Efforts",
       "urls": [
         "https://news.mongabay.com",
@@ -4275,7 +4265,17 @@
         "https://www.arise.tv/un-panel-warns-ai-advancing-faster-than-scientific-understanding-and-government-regulation"
       ],
       "date": "2026-07-01T13:01:54.365627+00:00"
+    },
+    {
+      "title": "Millions of Disabled Australians Miss Out on Little-Known Savings Tool",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/accessibility-is-more-than-a-design-problem/ar-AA25YjuN?ocid=BingNewsVerp",
+        "https://www.monash.edu/news/articles/new-tech-enabled-independent-living-facility-a-game-changer-for-older-australians-and-people-with-disabilities",
+        "https://www.cnbc.com/2026/05/27/able-accounts-workers-with-disabilities.html",
+        "https://www.healthaffairs.org/content/forefront/times-disaster-fema-should-guarantee-rapid-replacement-assistive-devices-people"
+      ],
+      "date": "2026-07-01T13:31:31.813620+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T13:01:54.365707+00:00"
+  "lastUpdated": "2026-07-01T13:31:31.813697+00:00"
 }
