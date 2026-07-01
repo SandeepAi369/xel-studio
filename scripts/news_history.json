@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sebastian Sawe Breaks Historic Two‑Hour Barrier at London Marathon 2026",
-      "urls": [
-        "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo"
-      ],
-      "date": "2026-06-21T04:33:02.247572+00:00"
-    },
-    {
       "title": "Kenya Floods Kill Dozens and Devastate Farmland Across Rural Regions",
       "urls": [
         "https://www.africanews.com",
@@ -4268,7 +4261,16 @@
         "https://ailog.page/ai-in-healthcare-2026-from-diagnostics-to-drug-discovery"
       ],
       "date": "2026-07-01T04:31:22.072430+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Guide to Top Open‑Source LLMs for Local Use in 2026",
+      "urls": [
+        "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
+        "https://huggingface.co/blog",
+        "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=da414706a714"
+      ],
+      "date": "2026-07-01T05:01:34.219298+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T04:31:22.072497+00:00"
+  "lastUpdated": "2026-07-01T05:01:34.219371+00:00"
 }
