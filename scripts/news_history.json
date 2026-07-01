@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Signs AI Order Requiring Early Company Access for Government Review",
-      "urls": [
-        "https://www.msn.com/en-us/politics/government/national-index-tracks-ai-health-care-regulations-as-policy-patchwork-grows/ar-AA24zLgP?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/politics/trump-signs-ai-order-that-asks-companies-to-give-government-early-access/ar-AA24FGko?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-21T22:01:35.739459+00:00"
-    },
-    {
       "title": "Proton Calls for Moratorium on Face Recognition Surveillance to Protect Privacy",
       "urls": [
         "https://proton.me/blog/face-surveillance-moratorium"
@@ -4273,7 +4265,16 @@
         "https://theaicronicle.com/en/news/research/anthropic-claude-science-pharma-research"
       ],
       "date": "2026-07-01T22:01:34.452604+00:00"
+    },
+    {
+      "title": "IEA Reports Strong Global Renewable Capacity Growth Driven By Solar PV",
+      "urls": [
+        "https://www.rff.org/publications/reports/global-energy-outlook-2026",
+        "https://www.climatecentral.org/climate-matters/solar-and-wind-2026",
+        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
+      ],
+      "date": "2026-07-01T22:31:24.456389+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T22:01:34.452659+00:00"
+  "lastUpdated": "2026-07-01T22:31:24.456480+00:00"
 }
