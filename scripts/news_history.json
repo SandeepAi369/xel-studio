@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "QC Healthcare Launches Holding Company to Accelerate Telehealth and AI‑Driven Services",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/16/10400823.htm",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/telehealth/telehealth-utilization-rises-10-1-report",
-        "https://www.msn.com/en-us/news/other/nursing-informatics-drives-telehealth-innovation-amid-safety-equity-push/gm-GMD8BC3766?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-21T02:31:29.176954+00:00"
-    },
-    {
       "title": "Vance Heads to Talks Amid Renewed Strait of Hormuz Tension",
       "urls": [
         "https://www.nytimes.com/live/2026/06/20/world/iran-trump-israel-lebanon"
@@ -4253,7 +4244,15 @@
         "https://www.livemint.com/news/world/total-world-latest-news-on-july-1-2026-live-updates-11782854943729.html"
       ],
       "date": "2026-07-01T02:02:04.177872+00:00"
+    },
+    {
+      "title": "Opinion Article Provides No Details, Leaving Readers Without Context or Content",
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01240-7/fulltext",
+        "https://concernusa.org/news/largest-refugee-crises"
+      ],
+      "date": "2026-07-01T02:31:46.037730+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T02:02:04.177947+00:00"
+  "lastUpdated": "2026-07-01T02:31:46.037796+00:00"
 }
