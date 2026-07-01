@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Proton Calls for Moratorium on Face Recognition Surveillance to Protect Privacy",
-      "urls": [
-        "https://proton.me/blog/face-surveillance-moratorium"
-      ],
-      "date": "2026-06-21T22:31:43.142257+00:00"
-    },
-    {
       "title": "Big Tech Stocks Gain Investor Interest as AI Revenue Outlook Brightens",
       "urls": [
         "https://finance.yahoo.com/news/big-growth-undemanding-prices-big-203841352.html",
@@ -4274,7 +4267,16 @@
         "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
       ],
       "date": "2026-07-01T22:31:24.456389+00:00"
+    },
+    {
+      "title": "Mistral Unveils Open Source Speech Generation Model to Accelerate AI Development",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1eb4dwm/large_enough_announcing_mistral_large_2",
+        "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026"
+      ],
+      "date": "2026-07-01T23:01:42.153083+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T22:31:24.456480+00:00"
+  "lastUpdated": "2026-07-01T23:01:42.153147+00:00"
 }
