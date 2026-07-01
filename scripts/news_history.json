@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Guides Developers Choosing Between PyTorch and TensorFlow for 2025",
-      "urls": [
-        "https://www.youtube.com/watch?v=iyHkg7TmHmE&pp=0gcJCdgAo7VqN5tD"
-      ],
-      "date": "2026-06-21T12:31:41.534603+00:00"
-    },
-    {
-      "title": "Esports World Cup Moves to France for 2026 Edition Marking Shift From Saudi Arabia",
-      "urls": [
-        "https://variety.com/2026/digital/news/gaming-news-roundup-week-of-may-18-1236755479"
-      ],
-      "date": "2026-06-21T13:01:45.064770+00:00"
-    },
-    {
       "title": "Autism Research Shows Early Social Differences Can Evolve Significantly Into Adulthood",
       "urls": [
         "https://www.psychologytoday.com/us/blog/living-neurodivergence/202606/why-we-need-neurodiversity-pride",
@@ -4282,7 +4268,14 @@
         "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-americans-olympic-gold-same-year"
       ],
       "date": "2026-07-01T12:31:19.487569+00:00"
+    },
+    {
+      "title": "UN Panel Warns AI Development Outpacing Scientific Knowledge And Regulation",
+      "urls": [
+        "https://www.arise.tv/un-panel-warns-ai-advancing-faster-than-scientific-understanding-and-government-regulation"
+      ],
+      "date": "2026-07-01T13:01:54.365627+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T12:31:19.487636+00:00"
+  "lastUpdated": "2026-07-01T13:01:54.365707+00:00"
 }
