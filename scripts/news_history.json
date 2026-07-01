@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA and AMD Lead AI Accelerator Silicon Market Through 2036",
-      "urls": [
-        "https://finance.yahoo.com/sectors/technology/articles/generative-ai-hardware-materials-market-125700312.html"
-      ],
-      "date": "2026-06-21T15:01:51.556796+00:00"
-    },
-    {
       "title": "Voices.earth Highlights Top Ten Climate Catastrophes Threatening 2026 Across Global Regions",
       "urls": [
         "https://voices.earth/insights/top-10-climate-catastrophes-to-watch-in-2026",
@@ -4280,7 +4273,17 @@
         "https://medicalxpress.com/news/2026-06-dementia-cases-ai-tool-diagnosis.html"
       ],
       "date": "2026-07-01T15:01:35.786837+00:00"
+    },
+    {
+      "title": "Meta Advances Open‑Source AI Models With Upcoming Releases Targeting Developer Community",
+      "urls": [
+        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
+        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases"
+      ],
+      "date": "2026-07-01T15:31:29.330034+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T15:01:35.786899+00:00"
+  "lastUpdated": "2026-07-01T15:31:29.330101+00:00"
 }
