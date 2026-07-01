@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Haznos.org Highlights Hybrid Care and Remote Monitoring as 2026 Telehealth Trends",
-      "urls": [
-        "https://haznos.org/2026/telehealth-trends-2026"
-      ],
-      "date": "2026-06-21T10:31:35.096779+00:00"
-    },
-    {
-      "title": "Global Wellness Institute Highlights 2026 Mental Wellness Trends as US Digital Market Evolves",
-      "urls": [
-        "https://www.towardshealthcare.com/insights/us-digital-mental-health-market-sizing",
-        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026"
-      ],
-      "date": "2026-06-21T11:01:35.524117+00:00"
-    },
-    {
       "title": "Meta Launches Llama 4 Model Family, Declares It Proprietary for Commercial Use",
       "urls": [
         "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
@@ -4282,7 +4267,19 @@
         "https://www.infoq.com/news/2026/05/azure-linux-4-server"
       ],
       "date": "2026-07-01T10:31:29.025806+00:00"
+    },
+    {
+      "title": "Davos Neurodiversity Summit Highlights Global Commitment to Inclusive Innovation Across Industries",
+      "urls": [
+        "https://ndconnection.co.uk/blog/autism-research-june-2026",
+        "https://www.nature.com/articles/s44220-026-00613-9",
+        "https://www.neurotherapeuticsjournal.org/article/S1878-7479(26)00027-9/fulltext",
+        "https://indiaautismcenter.org/blog/latest-tech-in-autism",
+        "https://www.newswire.com/view/content/davos-neurodiversity-summit-2026-during-world-economic-forum-drives-22723777",
+        "https://providernewsroom.com/evernorth/supporting-neurodiversity-affirming-care"
+      ],
+      "date": "2026-07-01T11:01:37.284342+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T10:31:29.025875+00:00"
+  "lastUpdated": "2026-07-01T11:01:37.284410+00:00"
 }
