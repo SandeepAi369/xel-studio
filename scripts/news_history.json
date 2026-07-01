@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Stocks Gain Investor Interest as AI Revenue Outlook Brightens",
-      "urls": [
-        "https://finance.yahoo.com/news/big-growth-undemanding-prices-big-203841352.html",
-        "https://www.theguardian.com/technology/2026/apr/29/earnings-ai-boom-us-stock-markets"
-      ],
-      "date": "2026-06-21T23:01:45.185443+00:00"
-    },
-    {
       "title": "CIO Dive Highlights Top Tech Chief Appointments as Channel Insider Reports New CEO Promotions",
       "urls": [
         "https://www.ciodive.com/news/tech-chief-appointments-Q1-2026/816322",
@@ -4276,7 +4268,15 @@
         "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026"
       ],
       "date": "2026-07-01T23:01:42.153083+00:00"
+    },
+    {
+      "title": "Cdslegal Publishes Global Data Privacy Laws Overview Highlighting Future Regulatory Shifts",
+      "urls": [
+        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
+        "https://cdslegal.com/insights/global-data-privacy-laws-the-current-environment-and-what-to-look-for-in-2026"
+      ],
+      "date": "2026-07-01T23:31:35.196611+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T23:01:42.153147+00:00"
+  "lastUpdated": "2026-07-01T23:31:35.196681+00:00"
 }
