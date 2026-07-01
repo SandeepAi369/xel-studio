@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Applause Report Shows 78 Percent Of Companies Use AI For Accessibility Testing",
-      "urls": [
-        "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech"
-      ],
-      "date": "2026-06-21T06:01:55.161265+00:00"
-    },
-    {
-      "title": "IEA Projects Strong Global Renewable Capacity Growth Driven By Solar PV",
-      "urls": [
-        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
-      ],
-      "date": "2026-06-21T06:31:29.941998+00:00"
-    },
-    {
       "title": "Iowa Shooting Leaves Six Dead Before Suspect Takes Own Life",
       "urls": [
         "https://www.msn.com/en-in/health/medical/iowa-mass-shooting-suspect-kills-6-then-shoots-self-after-domestic-related-dispute/ar-AA24BH5P?ocid=BingNewsVerp",
@@ -4270,7 +4256,17 @@
         "https://www.onrec.com/news/ai-in-creative-hiring-why-seedance-20-is-changing-post-production-job-requirements"
       ],
       "date": "2026-07-01T06:01:25.304197+00:00"
+    },
+    {
+      "title": "SpaceX Stock Surges After Record‑Breaking IPO as Lunar Lander Projects Advance",
+      "urls": [
+        "https://money.usnews.com/investing/articles/investing-in-space-space-stocks-and-etfs-to-watch",
+        "https://www.msn.com/en-us/money/companies/spacex-stock-soars-on-first-day-of-trading-following-record-breaking-ipo/ar-AA25u49Z?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/moon-landers-for-artemis-iii-spacex-blue-origin-provide-progress-updates-at-nasa-event/ar-AA25mBA1?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/astrobotic-unveils-griffin-1-nasa-s-moon-base-lander-with-1-377-lb-payload-for-2026/ar-AA25KhdT?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-01T06:31:58.363408+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T06:01:25.304265+00:00"
+  "lastUpdated": "2026-07-01T06:31:58.363479+00:00"
 }
