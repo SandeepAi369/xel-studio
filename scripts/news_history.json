@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Counselor's Corner Video Highlighting 2026 Mental Health Trends",
-      "urls": [
-        "https://www.youtube.com/watch?v=a5tf64BRsTo"
-      ],
-      "date": "2026-06-21T19:01:41.556947+00:00"
-    },
-    {
       "title": "AI/R Joins Climate Pledge Commits to Net‑Zero Carbon by 2040",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/ai-r-joins-climate-pledge-142900445.html",
@@ -4269,7 +4262,14 @@
         "https://www.nbcnews.com/politics/2026-election"
       ],
       "date": "2026-07-01T18:31:39.866586+00:00"
+    },
+    {
+      "title": "Alleva Launches Alleva Intelligence AI Platform Targeting Behavioral Health Market",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/alleva-introduces-alleva-intelligence-expanding-171000039.html"
+      ],
+      "date": "2026-07-01T19:01:45.715943+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T18:31:39.866656+00:00"
+  "lastUpdated": "2026-07-01T19:01:45.716013+00:00"
 }
