@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "CNN, Politico, and New York Times Expand 2026 Election Coverage",
-      "urls": [
-        "https://edition.cnn.com/election/2026",
-        "https://www.politico.com/2026-elections",
-        "https://www.nytimes.com/interactive/polls/congressional-vote-2026.html"
-      ],
-      "date": "2026-06-21T18:01:46.355301+00:00"
-    },
-    {
-      "title": "Mistral Launches Open Source Speech Generation Model to Boost European AI Capabilities",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026",
-        "https://quasa.io/video/mistral-ai-2026-europes-most-powerful-open-ai-platform",
-        "https://www.bloomberg.com/news/videos/2026-04-21/mistral-ai-sees-global-demand-for-custom-ai-video"
-      ],
-      "date": "2026-06-21T18:31:33.354952+00:00"
-    },
-    {
       "title": "YouTube Releases Counselor's Corner Video Highlighting 2026 Mental Health Trends",
       "urls": [
         "https://www.youtube.com/watch?v=a5tf64BRsTo"
@@ -4278,7 +4259,17 @@
         "https://abcnews.com/US/tropical-storm-arthur-forms-gulf-off-texas-nws/story?id=133964957"
       ],
       "date": "2026-07-01T18:01:39.830885+00:00"
+    },
+    {
+      "title": "CNN, NPR And NBC News Provide Live 2026 Election Coverage Across Platforms",
+      "urls": [
+        "https://www.cnn.com/election/2026",
+        "https://www.npr.org/sections/elections",
+        "https://www.nbcnews.com/politics/2026-primary-elections/national",
+        "https://www.nbcnews.com/politics/2026-election"
+      ],
+      "date": "2026-07-01T18:31:39.866586+00:00"
     }
   ],
-  "lastUpdated": "2026-07-01T18:01:39.830949+00:00"
+  "lastUpdated": "2026-07-01T18:31:39.866656+00:00"
 }
