@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "American Hospital Association Highlights Four Digital Health Projects Transforming Care Delivery in 2026",
-      "urls": [
-        "https://www.sermo.com/resources/future-of-telemedicine",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
-        "https://www.youtube.com/watch?v=DlAUKPhzl9E",
-        "https://www.youtube.com/watch?v=by7aWy4iuqA",
-        "https://abcnews.go.com/GMA/Wellness/video/cutting-edge-medical-advances-2026-128842164",
-        "https://www.healthcareitnews.com/video/ai-advancements-boost-rpm-2026-telehealth-expert-says",
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
-        "https://www.himssconference.com/telehealth-in-2026-whats-next-for-virtual-care"
-      ],
-      "date": "2026-06-22T15:02:05.475757+00:00"
-    },
-    {
       "title": "InfoWorld Highlights Six AI Breakthroughs Shaping Technology Landscape in 2026",
       "urls": [
         "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html"
@@ -4286,7 +4272,15 @@
         "https://www.medindia.net/news/can-banning-social-media-for-under-16s-protect-childrens-mental-health-223789-1.htm"
       ],
       "date": "2026-07-02T15:01:41.050326+00:00"
+    },
+    {
+      "title": "Google Cloud Publishes 2025 State of AI Infrastructure Report Highlighting Cloud Trends",
+      "urls": [
+        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+        "https://www.youtube.com/watch?v=Y8GxZkjL1EY"
+      ],
+      "date": "2026-07-02T15:31:31.774444+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T15:01:41.050395+00:00"
+  "lastUpdated": "2026-07-02T15:31:31.774524+00:00"
 }
