@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Listings Provide No Details As Current Search Returns Empty Descriptions",
-      "urls": [
-        "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
-        "https://www.reddit.com/r/AIPulseDaily/comments/1q1a75a/welcome_to_2026_that_medical_ai_story_just_hit",
-        "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually",
-        "https://www.reddit.com/r/mnd/comments/1qiju0b/why_2026_might_be_a_turning_point_in_how_we"
-      ],
-      "date": "2026-06-22T02:01:45.321243+00:00"
-    },
-    {
       "title": "Chief Healthcare Executive Publishes 26 Leader Predictions Shaping AI in Health Care by 2026",
       "urls": [
         "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html",
@@ -4273,7 +4263,14 @@
         "https://www.youtube.com/watch?v=VEab65v5DG0"
       ],
       "date": "2026-07-02T01:31:30.934212+00:00"
+    },
+    {
+      "title": "YouTube Presents CES 2026 Recap Highlighting Autonomy's Future and Emerging Mobility Trends",
+      "urls": [
+        "https://www.youtube.com/watch?v=H_-34gC3j8Y"
+      ],
+      "date": "2026-07-02T02:01:47.277943+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T01:31:30.934325+00:00"
+  "lastUpdated": "2026-07-02T02:01:47.278035+00:00"
 }
