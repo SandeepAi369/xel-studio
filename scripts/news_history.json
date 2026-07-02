@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LLM-Stats.com Publishes Updated Leaderboard Showcasing June 2026 AI Model Releases",
-      "urls": [
-        "https://llm-stats.com/ai-news"
-      ],
-      "date": "2026-06-22T05:01:43.069984+00:00"
-    },
-    {
       "title": "Tucson School For Blind Opens Downtown, Expanding Access For Visually Impaired Students",
       "urls": [
         "https://tucson.com/news/local/education/precollegiate/article_10a31e59-7801-430a-abb8-2fc3aa1adddb.html",
@@ -4262,7 +4255,19 @@
         "https://www.aol.com/finance/firefly-aerospace-vs-rocket-lab-194515754.html"
       ],
       "date": "2026-07-02T04:31:44.095484+00:00"
+    },
+    {
+      "title": "OECD Warns Iran War Could Trigger Global Recession And Pushes Inflation Higher",
+      "urls": [
+        "https://www.latimes.com/business/story/2026-06-03/iran-war-energy-shock-could-slam-global-economy-into-recession-oecd-warns",
+        "https://www.reuters.com/business/energy/oecd-says-protracted-war-could-drag-global-growth-push-up-inflation-2026-06-03",
+        "https://www.cnbc.com/2026/06/03/oecd-warns-of-global-slowdown-as-iran-war-stymies-growth-prospects-.html",
+        "https://www.msn.com/en-my/news/other/oecd-cuts-2026-global-growth-forecast-and-warns-of-recession-risk-if-iran-war-persists/ar-AA24IAMu?ocid=BingNewsVerp",
+        "https://www.msn.com/en-ca/news/canada/bank-of-canada-holds-key-rate-as-macklem-downplays-recession-talk/ar-AA25gCLU?ocid=BingNewsVerp",
+        "https://www.msn.com/en-ca/money/other/canada-s-economy-is-weak-but-not-clearly-in-recession-macklem-says/ar-AA25i8ea?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-02T05:01:43.557964+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T04:31:44.095555+00:00"
+  "lastUpdated": "2026-07-02T05:01:43.558028+00:00"
 }
