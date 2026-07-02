@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Captures 85% Research Share Over TensorFlow in 2026 Comparison",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose"
-      ],
-      "date": "2026-06-22T14:31:33.484425+00:00"
-    },
-    {
       "title": "American Hospital Association Highlights Four Digital Health Projects Transforming Care Delivery in 2026",
       "urls": [
         "https://www.sermo.com/resources/future-of-telemedicine",
@@ -4286,7 +4276,17 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1reemt6/llm_architectures_of_10_openweight_model_releases"
       ],
       "date": "2026-07-02T14:31:28.894351+00:00"
+    },
+    {
+      "title": "Chatbots Enter Mental Health Market Amid Concerns Over Limited Scientific Evidence",
+      "urls": [
+        "https://www.msn.com/en-in/health/health-news/why-mental-wellness-is-becoming-a-global-health-priority-in-today-s-fast-paced-world/ar-AA26SRHU?ocid=BingNewsVerp",
+        "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-could-be-the-next-frontier-of-mental-health-innovation",
+        "https://www.msn.com/en-us/health/general/ai-enters-the-mental-health-chat-with-little-scientific-evidence-behind-it/ar-AA26QgA9?ocid=BingNewsVerp",
+        "https://www.medindia.net/news/can-banning-social-media-for-under-16s-protect-childrens-mental-health-223789-1.htm"
+      ],
+      "date": "2026-07-02T15:01:41.050326+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T14:31:28.894438+00:00"
+  "lastUpdated": "2026-07-02T15:01:41.050395+00:00"
 }
