@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nature Launches Comprehensive Biodiversity Portal Showcasing Latest Research and News",
-      "urls": [
-        "https://www.nature.com/subjects/biodiversity"
-      ],
-      "date": "2026-06-22T18:01:48.925591+00:00"
-    },
-    {
-      "title": "Mistral AI Highlights Frontier AI LLMs, Assistants, Agents, Services on News Page",
-      "urls": [
-        "https://mistral.ai/news"
-      ],
-      "date": "2026-06-22T18:31:31.731157+00:00"
-    },
-    {
       "title": "USA TODAY Highlights Climate Leaders Ahead of Earth Day 2026",
       "urls": [
         "https://www.geekwire.com/2026/report-as-ai-electricity-demands-soar-microsoft-weighs-retreat-from-ambitious-carbon-free-energy-pledge",
@@ -4280,7 +4266,18 @@
         "https://www.msn.com/en-xl/africa/top-stories/epa-fda-drive-new-conservation-agenda/ar-AA26C5qM?ocid=BingNewsVerp"
       ],
       "date": "2026-07-02T18:01:47.585895+00:00"
+    },
+    {
+      "title": "Autism Research Shows Social Differences Evolve From Childhood to Adulthood",
+      "urls": [
+        "https://www.forbes.com/sites/jenniferpalumbo/2026/05/27/autism-and-why-getting-hired-is-only-the-beginning",
+        "https://medicalxpress.com/news/2026-05-brain-scans-reveal-distinct-autism.html",
+        "https://medicalxpress.com/news/2026-05-autism-social-differences-emerge-early.html",
+        "https://www.msn.com/en-in/health/health-news/neurologist-warns-biggest-barrier-for-autistic-indians-isn-t-autism-it-s-social-stigma-myths-that-do-real-harm/ar-AA26FIrG?ocid=BingNewsVerp",
+        "https://www.psychologytoday.com/us/blog/living-neurodivergence/202606/why-we-need-neurodiversity-pride"
+      ],
+      "date": "2026-07-02T18:31:43.133044+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T18:01:47.585994+00:00"
+  "lastUpdated": "2026-07-02T18:31:43.133113+00:00"
 }
