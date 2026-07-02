@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Steel Industry Unveils Revolution That Could Transform Climate And Energy Challenges",
-      "urls": [
-        "https://www.forbes.com/sites/we-dont-have-time/2026/05/28/a-steel-revolution-game-changer-for-the-climate-and-energy-crises",
-        "https://time.com/article/2026/05/23/ecosperity-singapore-climate-action"
-      ],
-      "date": "2026-06-22T14:01:43.012063+00:00"
-    },
-    {
       "title": "PyTorch Captures 85% Research Share Over TensorFlow in 2026 Comparison",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -4285,7 +4277,16 @@
         "https://lasvegassun.com/news/2026/jun/30/sk-and-kkr-launch-koreas-largest-renewable-energy-"
       ],
       "date": "2026-07-02T14:01:38.093770+00:00"
+    },
+    {
+      "title": "DeepSeek Releases Open-Source V4 Large Language Model Series to Accelerate AI Development",
+      "urls": [
+        "https://siliconangle.com/2026/04/24/deepseek-open-sources-v4-large-language-model-series",
+        "https://llm-stats.com/llm-updates",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1reemt6/llm_architectures_of_10_openweight_model_releases"
+      ],
+      "date": "2026-07-02T14:31:28.894351+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T14:01:38.093846+00:00"
+  "lastUpdated": "2026-07-02T14:31:28.894438+00:00"
 }
