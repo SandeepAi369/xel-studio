@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "NewsNation and Fox News Amplify 2026 Election Coverage Across Television and Online Platforms",
-      "urls": [
-        "https://www.newsnationnow.com/politics/2026-midterm-elections",
-        "https://www.foxnews.com/elections/2026/primary-results",
-        "https://electionline.org",
-        "https://www.upi.com/Voices/2026/06/17/perspective-when-democracy-loses-trust/7191781702616"
-      ],
-      "date": "2026-06-22T09:01:51.127873+00:00"
-    },
-    {
       "title": "Apple Introduces New Accessibility Features Powered By Apple Intelligence In 2026 Roadmap",
       "urls": [
         "https://www.forbes.com/sites/keelycatwells/2026/05/19/apples-2026-accessibility-roadmap-and-the-disability-employment-story-behind-it",
@@ -4277,7 +4267,14 @@
         "https://www.moneycontrol.com/technology/google-launches-nano-banana-2-lite-and-gemini-omni-flash-for-faster-ai-image-and-video-creation-article-13963656.html"
       ],
       "date": "2026-07-02T09:01:38.148419+00:00"
+    },
+    {
+      "title": "Disability:IN Releases Digital Accessibility Roundup Offering New Resources for Inclusive Design",
+      "urls": [
+        "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
+      ],
+      "date": "2026-07-02T09:31:22.118097+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T09:01:38.148485+00:00"
+  "lastUpdated": "2026-07-02T09:31:22.118169+00:00"
 }
