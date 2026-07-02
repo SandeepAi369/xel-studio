@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Starship V3 in First Flight Test Demonstrating New Rocket Power",
-      "urls": [
-        "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight"
-      ],
-      "date": "2026-06-22T17:01:43.846687+00:00"
-    },
-    {
       "title": "YouTube Highlights Accessibility Innovations at CES 2026 Emphasizing AI Role",
       "urls": [
         "https://www.youtube.com/watch?v=b5DvFC4SaUE",
@@ -4280,7 +4273,14 @@
         "https://www.cnbc.com/technology"
       ],
       "date": "2026-07-02T17:01:39.176759+00:00"
+    },
+    {
+      "title": "2026 Global Cleantech Innovation Programme Opens Applications for Sustainable Technology Projects",
+      "urls": [
+        "https://www.msn.com/en-za/news/other/applications-open-for-2026-global-cleantech-innovation-programme/ar-AA26B2UM?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-02T17:31:38.817285+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T17:01:39.176825+00:00"
+  "lastUpdated": "2026-07-02T17:31:38.817359+00:00"
 }
