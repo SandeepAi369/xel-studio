@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches ml‑intern Open‑Source Agent to Automate LLM Post‑Training Workflow",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
-        "https://fazm.ai/t/hugging-face-or-github-new-ai-projects-april-2026",
-        "https://huggingface.co/papers/trending",
-        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow",
-        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602",
-        "https://insights.marvin-42.com/articles/hugging-face-says-open-source-ai-is-scaling-fast-and-fragmenting-into-specialized-ecosystems",
-        "https://huggingface.co"
-      ],
-      "date": "2026-06-23T18:31:41.755931+00:00"
-    },
-    {
       "title": "Open-Source AI Community Highlights Leading Models Llama, Mistral, Gemma, DeepSeek for 2026",
       "urls": [
         "https://aieducademy.org/blog/state-of-open-source-ai-2026",
@@ -4290,7 +4275,16 @@
         "https://www.youtube.com/watch?v=6d__WOpZswY"
       ],
       "date": "2026-07-03T18:31:26.716683+00:00"
+    },
+    {
+      "title": "Microsoft Build 2026 Launches Live Stream, Showcasing New Developer Tools and AI Features",
+      "urls": [
+        "https://indianexpress.com/article/technology/tech-news-technology/microsoft-build-2026-kicks-off-today-how-to-watch-and-what-to-expect-10720512",
+        "https://www.ghacks.net/category/companies",
+        "https://www.ndtv.com/video/india-ascends-yearender-2025-microsoft-to-apple-big-tech-woos-india-as-global-hub-in-2025-1039088"
+      ],
+      "date": "2026-07-03T19:01:52.849027+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T18:31:26.716757+00:00"
+  "lastUpdated": "2026-07-03T19:01:52.849098+00:00"
 }
