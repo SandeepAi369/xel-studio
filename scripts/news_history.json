@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Pages Display Empty Descriptions Across Recent Online Search Results",
-      "urls": [
-        "https://www.reddit.com/r/therapists/comments/1tx6msa/vertical_integration_of_services_and_the_dramatic",
-        "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1u1uy8r/best_wellness_journaling_app_for_people_who",
-        "https://www.reddit.com/r/ExCons/comments/1u17zm8/working_on_a_college_project_for_a_reentry_mental",
-        "https://www.reddit.com/r/IndiaStartups/comments/1txw23c/looking_for_cofounder_to_help_improve_access_to"
-      ],
-      "date": "2026-06-23T00:01:48.483893+00:00"
-    },
-    {
       "title": "UFC Announces 2026 Fight Calendar Covering Dates, Divisions, and Venues",
       "urls": [
         "https://www.sportingnews.com/us/mma/news/mma-schedule-2026-dates-location-ufc-fights/30700a28e4998d7f6020aa21",
@@ -4272,7 +4262,14 @@
         "https://news.webindia123.com/news/articles/Business/20260701/4469808.html"
       ],
       "date": "2026-07-02T23:31:32.968000+00:00"
+    },
+    {
+      "title": "Hurricane Season 2026 Begins, Officials Warn Coastal Residents To Prepare",
+      "urls": [
+        "https://www.usatoday.com/story/weather/2026/06/01/hurricane-season-2026-name-of-storms-nc-predictions/90351286007"
+      ],
+      "date": "2026-07-03T00:02:00.355726+00:00"
     }
   ],
-  "lastUpdated": "2026-07-02T23:31:32.968087+00:00"
+  "lastUpdated": "2026-07-03T00:02:00.355806+00:00"
 }
