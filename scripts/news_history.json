@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Claims Iran Negotiating on Fumes as White House Seeks Peace Deal",
-      "urls": [
-        "https://www.msn.com/en-us/news/world/a-question-looms-over-iran-diplomacy-is-trump-being-straight-with-the-american-people/ar-AA24NDjL?ocid=BingNewsVerp",
-        "https://www.financialexpress.com/world-news/iran-us-israel-war-live-updates-trump-deal-oil-price-today-strait-of-hormuz-negotiations/4250097"
-      ],
-      "date": "2026-06-23T07:01:47.072703+00:00"
-    },
-    {
       "title": "Treble Technologies Launches Benchmark to Test Voice AI Models for Privacy and Refusal Behavior",
       "urls": [
         "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
@@ -4273,7 +4265,16 @@
         "https://www.sniro.com/insight/telehealth-trends-in-2026-whats-next-for-virtual-care-platforms"
       ],
       "date": "2026-07-03T07:01:35.537198+00:00"
+    },
+    {
+      "title": "Study Finds Cutting Emissions Saves 33,000 U.S. Lives Yearly More Than Carbon Removal",
+      "urls": [
+        "https://www.msn.com/en-us/weather/topstories/cutting-emissions-more-removing-carbon-less-could-save-33000-us-lives-yearly/ar-AA270W3E?ocid=BingNewsVerp",
+        "https://carbon-pulse.com/527979",
+        "https://www.geekwire.com/2026/report-as-ai-electricity-demands-soar-microsoft-weighs-retreat-from-ambitious-carbon-free-energy-pledge"
+      ],
+      "date": "2026-07-03T07:31:41.340204+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T07:01:35.537297+00:00"
+  "lastUpdated": "2026-07-03T07:31:41.340263+00:00"
 }
