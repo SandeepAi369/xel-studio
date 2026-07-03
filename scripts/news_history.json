@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Considers Shelving 2030 Clean Energy Goal Amid Rising AI Power Use",
-      "urls": [
-        "https://time.com/article/2026/05/14/new-york-climate-law-rollback",
-        "https://www.techtimes.com/articles/316580/20260516/how-technology-helping-fight-climate-change-build-sustainable-future.htm",
-        "https://www.reuters.com/sustainability/cop/iran-war-is-supercharging-clean-energy-transition-un-climate-chief-says-2026-04-30",
-        "https://www.reuters.com/sustainability/climate-energy/big-tech-splits-over-proposed-shake-up-clean-energy-accounting--ecmii-2026-05-26",
-        "https://www.reuters.com/sustainability/climate-energy/microsoft-may-shelve-2030-clean-energy-target-ai-lifts-power-use-bloomberg-news-2026-05-06"
-      ],
-      "date": "2026-06-23T18:01:52.010480+00:00"
-    },
-    {
       "title": "Hugging Face Launches ml‑intern Open‑Source Agent to Automate LLM Post‑Training Workflow",
       "urls": [
         "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
@@ -4291,7 +4280,17 @@
         "https://www.youtube.com/watch?v=NgFX0NsZNuQ"
       ],
       "date": "2026-07-03T18:01:34.451632+00:00"
+    },
+    {
+      "title": "YouTube Announces New #1 Open-Source AI Model, Prompting Interest in 2026",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
+        "https://www.taskade.com/blog/open-source-llms",
+        "https://www.youtube.com/watch?v=AaGaTgeARl0",
+        "https://www.youtube.com/watch?v=6d__WOpZswY"
+      ],
+      "date": "2026-07-03T18:31:26.716683+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T18:01:34.451702+00:00"
+  "lastUpdated": "2026-07-03T18:31:26.716757+00:00"
 }
