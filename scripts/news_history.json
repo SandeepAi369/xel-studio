@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Search Engine Returns Empty Descriptions for Reddit.com Pages In Recent Query",
-      "urls": [
-        "https://www.reddit.com/r/unimelb/comments/a2w8vk/anyone_done_international_trade_policy_econ30001",
-        "https://www.reddit.com/r/unimelb/comments/al62cy/economics_of_the_law_international_trade_policy",
-        "https://www.reddit.com/r/econhw/comments/1go5fow/best_sources_to_learn_about_international_trade",
-        "https://www.reddit.com/r/AskEconomics/comments/pxwlhk/recommendations_for_international_trade_trade"
-      ],
-      "date": "2026-06-23T09:31:41.924930+00:00"
-    },
-    {
-      "title": "Creative Medical Technology Holdings Advances Project PHOENIX Nationwide for Veterans Exposed to Burn Pits",
-      "urls": [
-        "https://www.finanznachrichten.de/nachrichten-2026-06/68828423-black-book-research-spotlights-2026-front-end-access-and-patient-financial-experience-leaders-in-hospital-rcm-200.htm",
-        "https://www.manilatimes.net/2026/06/16/tmt-newswire/globenewswire/creative-medical-technology-holdings-inc-advances-project-phoenix-into-nationwide-ai-driven-virtual-data-collection-phase-for-us-veterans-exposed-to-burn-pits-and-toxic-hazards/2366629"
-      ],
-      "date": "2026-06-23T10:01:43.695873+00:00"
-    },
-    {
       "title": "Scientists Confirm Accelerating Sea Level Rise Since 1960, Raising Coastal Risk Concerns",
       "urls": [
         "https://phys.org/news/2026-05-scientists-knowledge-sea.html"
@@ -4280,7 +4262,14 @@
         "https://www.wyso.org/npr-news/2026-06-29/wheelchair-users-say-private-equity-is-making-repairs-harder"
       ],
       "date": "2026-07-03T09:31:26.727458+00:00"
+    },
+    {
+      "title": "Olympics Presents Comprehensive Track and Field World Records Overview Online",
+      "urls": [
+        "https://www.olympics.com/en/news/athletics-all-track-and-field-world-records-at-a-glance"
+      ],
+      "date": "2026-07-03T10:01:54.069637+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T09:31:26.727527+00:00"
+  "lastUpdated": "2026-07-03T10:01:54.069718+00:00"
 }
