@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Completes Starship Test Flight 12 Demonstrating New Thermal Tiles and Landing Capability",
-      "urls": [
-        "https://www.nasa.gov/2026-news-releases",
-        "https://www.reddit.com/r/spacex/comments/1tg90os/rspacex_starlink_1742_official_launch_discussion",
-        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data",
-        "https://www.youtube.com/watch?v=f--glzimXZ4",
-        "https://www.youtube.com/watch?v=CiWX1nsvqBs",
-        "https://www.youtube.com/watch?v=DSfQJyN7ihc",
-        "https://www.youtube.com/watch?v=OT_ZXZUrUcU"
-      ],
-      "date": "2026-06-23T20:31:37.794301+00:00"
-    },
-    {
       "title": "Science Times Highlights Carbon Capture Advances Driving Global Climate Mitigation Efforts",
       "urls": [
         "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
@@ -4287,7 +4274,14 @@
         "https://www.reddit.com/r/ArtificialInteligence/comments/1rsj1gi/the_frontier_ai_and_their_real_features_2026"
       ],
       "date": "2026-07-03T20:31:33.073575+00:00"
+    },
+    {
+      "title": "Cape Verde Advances to World Cup 2026 Knockout Stage in Historic Run",
+      "urls": [
+        "https://www.outlookindia.com/sports/football/cape-verde-at-fifa-world-cup-2026-inside-blue-sharks-miracle-run"
+      ],
+      "date": "2026-07-03T21:01:30.530769+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T20:31:33.073637+00:00"
+  "lastUpdated": "2026-07-03T21:01:30.530854+00:00"
 }
