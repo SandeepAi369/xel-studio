@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube NewsToday Hosts Rajdeep Sardesai in Extended Editors Roundtable on Trump Trade",
-      "urls": [
-        "https://www.youtube.com/watch?v=JicMOfLxolA"
-      ],
-      "date": "2026-06-23T20:01:46.732359+00:00"
-    },
-    {
       "title": "SpaceX Completes Starship Test Flight 12 Demonstrating New Thermal Tiles and Landing Capability",
       "urls": [
         "https://www.nasa.gov/2026-news-releases",
@@ -4286,7 +4279,15 @@
         "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html"
       ],
       "date": "2026-07-03T20:01:37.477000+00:00"
+    },
+    {
+      "title": "InfoWorld Highlights Six AI Breakthroughs Set to Transform Technology Landscape in 2026",
+      "urls": [
+        "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsj1gi/the_frontier_ai_and_their_real_features_2026"
+      ],
+      "date": "2026-07-03T20:31:33.073575+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T20:01:37.477067+00:00"
+  "lastUpdated": "2026-07-03T20:31:33.073637+00:00"
 }
