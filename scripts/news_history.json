@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Sargaz Experiences Magnitude 5 Earthquake Amid Growing Global Seismic Monitoring Efforts",
-      "urls": [
-        "https://www.tallahassee.com/story/news/2026/06/08/florida-earthquake-tallahassee-database-map/90462292007",
-        "https://www.livemint.com/news/world/earthquake-today-magnitude-5-quake-strikes-southern-irans-sargaz-in-hormozgan-province-state-media-says-11780962358621.html"
-      ],
-      "date": "2026-06-24T01:31:32.819058+00:00"
-    },
-    {
-      "title": "ISC High Performance Opens 2026 Conference Highlighting Post-Moore Computing and Open-Source Challenges",
-      "urls": [
-        "https://www.techtimes.com/articles/318837/20260622/isc-high-performance-2026-opens-post-moore-hpc-faces-open-source-reckoning.htm"
-      ],
-      "date": "2026-06-24T02:01:36.869201+00:00"
-    },
-    {
       "title": "Google Unveils Gemini Updates and Personal AI Agents to Challenge OpenAI and Anthropic",
       "urls": [
         "https://www.msn.com/en-us/news/technology/all-the-gemini-announcements-from-google-io-2026/ar-AA23DJGR?ocid=BingNewsVerp",
@@ -4295,7 +4280,15 @@
         "https://www.bostonherald.com/2026/06/10/climate-change-drives-frequent-coastal-flooding"
       ],
       "date": "2026-07-04T01:31:25.155551+00:00"
+    },
+    {
+      "title": "2026 World Cup Faces Cyber Threats as Organizers Strengthen Digital Defenses",
+      "urls": [
+        "https://www.csis.org/analysis/cyber-threat-2026-world-cup",
+        "https://www.ey.com/en_us/insights/geostrategy/geostrategic-outlook"
+      ],
+      "date": "2026-07-04T02:01:43.618147+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T01:31:25.155622+00:00"
+  "lastUpdated": "2026-07-04T02:01:43.618221+00:00"
 }
