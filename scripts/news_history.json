@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Starfall Reentry Capsule Demo Mission to Test Atmospheric Return",
-      "urls": [
-        "https://spaceflightnow.com/2026/06/23/live-coverage-spacex-to-launch-reentry-capsule-demo-mission-called-starfall"
-      ],
-      "date": "2026-06-24T03:31:33.297585+00:00"
-    },
-    {
       "title": "TensorFlow and PyTorch Lead Enterprise AI Framework Rankings in 2026",
       "urls": [
         "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026",
@@ -4287,7 +4280,17 @@
         "https://techmarketbriefs.com/earnings"
       ],
       "date": "2026-07-04T03:31:20.189099+00:00"
+    },
+    {
+      "title": "Digen.ai Publishes 2026 Innovation Guide Detailing Latest AI Video Generation Models",
+      "urls": [
+        "https://www.reddit.com/r/Freepik_AI/comments/1r6baar/my_deep_dive_into_ai_video_generators_in_2026",
+        "https://www.reddit.com/r/automation/comments/1q0xstr/ai_video_generators_worth_trying_in_2026",
+        "https://www.reddit.com/r/AI_Agents/comments/1ruyrte/my_top_4_ai_tools_for_video_creation_in_2026",
+        "https://resource.digen.ai/latest-ai-video-generation-models-2026"
+      ],
+      "date": "2026-07-04T04:01:34.304826+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T03:31:20.189160+00:00"
+  "lastUpdated": "2026-07-04T04:01:34.304902+00:00"
 }
