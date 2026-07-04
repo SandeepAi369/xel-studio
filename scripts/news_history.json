@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CIO Publishes Seven Deployment Strategies for Large Language Models in New Guide",
-      "urls": [
-        "https://www.cio.com/article/1224909/5-ways-to-deploy-your-own-large-language-model.html"
-      ],
-      "date": "2026-06-24T01:02:01.542555+00:00"
-    },
-    {
       "title": "Iran Sargaz Experiences Magnitude 5 Earthquake Amid Growing Global Seismic Monitoring Efforts",
       "urls": [
         "https://www.tallahassee.com/story/news/2026/06/08/florida-earthquake-tallahassee-database-map/90462292007",
@@ -4293,7 +4286,16 @@
         "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags"
       ],
       "date": "2026-07-04T01:01:33.325118+00:00"
+    },
+    {
+      "title": "2026 Hurricane Guide Offers Family Emergency Plans, Disaster Kits, Home Prep and Evacuation Routes",
+      "urls": [
+        "https://www.msn.com/en-us/public-safety-and-emergencies/natural-disasters/hurricane-guide-2026-family-emergency-plan-disaster-kit-home-prep-evacuation-routes-and-more/ar-AA25pVuM?ocid=BingNewsVerp",
+        "https://www.usatoday.com/story/news/weather/2026/06/17/arthur-first-named-storm-of-season/90574283007",
+        "https://www.bostonherald.com/2026/06/10/climate-change-drives-frequent-coastal-flooding"
+      ],
+      "date": "2026-07-04T01:31:25.155551+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T01:01:33.325194+00:00"
+  "lastUpdated": "2026-07-04T01:31:25.155622+00:00"
 }
