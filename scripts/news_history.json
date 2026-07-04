@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Medical Futurist Releases Video Listing One Hundred Digital Health and AI Companies",
-      "urls": [
-        "https://www.youtube.com/watch?v=eqa_0ydjXjg"
-      ],
-      "date": "2026-06-23T23:31:40.658622+00:00"
-    },
-    {
-      "title": "Americans Express Pessimism Over AI Impact and Demand Stronger Regulation",
-      "urls": [
-        "https://phys.org/news/2026-05-americans-pessimistic-ai-impact.html"
-      ],
-      "date": "2026-06-24T00:01:38.844685+00:00"
-    },
-    {
       "title": "Baja California Secures Third Place on Medal Table at 2026 National Olympics",
       "urls": [
         "https://www.msn.com/en-us/sports/general/baja-california-finishes-3rd-on-medal-table-at-2026-national-olympics/ar-AA25kX7t?ocid=BingNewsVerp"
@@ -4291,7 +4277,16 @@
         "https://uk.finance.yahoo.com/news/wellsync-reports-strong-boomrx-momentum-125000854.html"
       ],
       "date": "2026-07-03T23:31:21.414818+00:00"
+    },
+    {
+      "title": "United States Introduces Licensing Rules That May Restrict Global Access to Frontier AI",
+      "urls": [
+        "https://www.msn.com/en-in/money/news/from-ai-regulation-to-vpns-meitys-krishnan-outlines-digital-policy-priorities-telegram-whatsapp-username-ai-claude-telegram-signal-mythos-fable-5/ar-AA277Rz1?ocid=BingNewsVerp",
+        "https://www.jdsupra.com/legalnews/license-to-model-emerging-us-rules-3645590",
+        "https://www.msn.com/en-us/news/politics/anthropic-ceo-government-should-have-power-to-block-dangerous-ai-deployments/ar-AA25oK7Y?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-04T00:01:41.242803+00:00"
     }
   ],
-  "lastUpdated": "2026-07-03T23:31:21.414910+00:00"
+  "lastUpdated": "2026-07-04T00:01:41.242873+00:00"
 }
