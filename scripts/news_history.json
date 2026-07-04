@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "NFL.com Expands Global Reach With New International Site Offering Latest Scores and News",
-      "urls": [
-        "https://www.nfl.com/news",
-        "https://www.nfl.com/international",
-        "https://www.espn.com/nfl",
-        "https://www.sportingnews.com/us/nfl"
-      ],
-      "date": "2026-06-24T22:01:44.342664+00:00"
-    },
-    {
-      "title": "Corp Misrepresents Climate Data, Ignoring 1.37°C Warming Figure In 2025 Report",
-      "urls": [
-        "https://www.theguardian.com/environment/2026/jun/11/climate-crisis-science-emissions-good-news-corp-misrepresentation",
-        "https://www.msn.com/en-us/weather/climate-change/global-warming-hit-1-37-c-in-2025-with-earth-accumulating-heat-at-an-accelerating-rate/ar-AA25kvZf?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-24T22:31:25.601761+00:00"
-    },
-    {
       "title": "AI Magazine Publishes Top Ten Hugging Face Models List for April 2026",
       "urls": [
         "https://www.techaimag.com/latest-hugging-face-models/top-10-hugging-face-models-in-april-2026"
@@ -4311,7 +4293,14 @@
         "https://www.youtube.com/watch?v=pvMGRSZJ4Jw&vl=en"
       ],
       "date": "2026-07-04T22:01:34.879806+00:00"
+    },
+    {
+      "title": "YouTube Releases 10 Breakthrough Technologies Video Highlighting 2026 Innovations Worldwide",
+      "urls": [
+        "https://www.youtube.com/watch?v=B_hx-zAWz3w"
+      ],
+      "date": "2026-07-04T22:31:26.349843+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T22:01:34.879901+00:00"
+  "lastUpdated": "2026-07-04T22:31:26.349912+00:00"
 }
