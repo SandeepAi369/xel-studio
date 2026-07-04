@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters Says AI Must Boost Productivity To Justify High Valuations",
-      "urls": [
-        "https://www.reuters.com/video/watch/idRW500807012026RP1"
-      ],
-      "date": "2026-06-24T17:01:51.583587+00:00"
-    },
-    {
       "title": "FIFA Highlights Geopolitical Tensions Shaping 2026 World Cup Off‑Pitch Dynamics",
       "urls": [
         "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict",
@@ -4296,7 +4289,15 @@
         "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31"
       ],
       "date": "2026-07-04T17:01:42.198680+00:00"
+    },
+    {
+      "title": "Stocks Projected to Climb in 2026 Amid Analyst Debate Over Market Reset",
+      "urls": [
+        "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html",
+        "https://finance.yahoo.com/video/2026-tech-stock-predictions-market-151157110.html"
+      ],
+      "date": "2026-07-04T17:31:30.428174+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T17:01:42.198740+00:00"
+  "lastUpdated": "2026-07-04T17:31:30.428245+00:00"
 }
