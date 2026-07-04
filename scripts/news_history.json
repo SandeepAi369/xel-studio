@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta and Reliance Industries Launch Rs 855 Crore AI Data Centre Joint Venture in India",
-      "urls": [
-        "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai",
-        "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama",
-        "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant",
-        "https://www.msn.com/en-in/money/news/meta-and-reliance-industries-partner-to-build-ai-data-centre-enterprise-solutions-in-india/ar-AA25eBoD?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/technologyinvesting/mark-zuckerberg-and-meta-face-first-tough-test-after-layoffs/ar-AA252tOS?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-24T11:31:32.755025+00:00"
-    },
-    {
       "title": "DeepSeek Unveils New AI Model Claiming to Close Gap With Frontier Systems",
       "urls": [
         "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models"
@@ -4289,7 +4278,14 @@
         "https://finance.yahoo.com/technology/ai/articles/factset-announces-strategic-partnership-google-113000364.html"
       ],
       "date": "2026-07-04T11:31:21.597046+00:00"
+    },
+    {
+      "title": "TechGuide Highlights Top CPU GPU Pairings For 2026 High‑Performance PCs",
+      "urls": [
+        "https://www.techtimes.com/articles/317800/20260604/best-cpu-gpu-combinations-high-performance-pc-builds-2026-gaming-productivity.htm"
+      ],
+      "date": "2026-07-04T12:01:33.879047+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T11:31:21.597110+00:00"
+  "lastUpdated": "2026-07-04T12:01:33.879121+00:00"
 }
