@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Public Skepticism Grows as Data Shows Climate Change Driving Summer Warming",
-      "urls": [
-        "https://www.forbes.com/sites/maryroeloffs/2026/05/28/most-americans-arent-convinced-humans-are-causing-climate-change-new-data-shows",
-        "https://www.climatecentral.org/climate-matters/summer-package"
-      ],
-      "date": "2026-06-24T15:31:42.528585+00:00"
-    },
-    {
       "title": "Iran Lawmaker Warns Painful Response to Israeli Strikes on Beirut",
       "urls": [
         "https://www.msn.com/en-in/news/world/iran-war-news-live-iran-lawmaker-warns-of-painful-response-to-israeli-strikes-on-beirut/ar-AA250Rsf?ocid=BingNewsVerp",
@@ -4295,7 +4287,16 @@
         "https://thesiliconreview.com/2026/07/latest-ai-news-google-june-2026-gemini"
       ],
       "date": "2026-07-04T15:31:31.873151+00:00"
+    },
+    {
+      "title": "World Economic Forum Highlights AI and Cyber Risks Shaping 2026 Geopolitics",
+      "urls": [
+        "https://www.youtube.com/watch?v=dHA1o6HNuMo",
+        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026",
+        "https://www.weforum.org/stories/2026/02/cybersecurity-and-geopolitics-the-challenges-to-build-resilience-in-a-fragmented-world"
+      ],
+      "date": "2026-07-04T16:01:42.242082+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T15:31:31.873219+00:00"
+  "lastUpdated": "2026-07-04T16:01:42.242145+00:00"
 }
