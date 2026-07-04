@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Six Major Healthcare Changes Including ACA Costs and AI Prior Authorizations",
-      "urls": [
-        "https://www.youtube.com/watch?v=bsfIqUZ0gkY",
-        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone"
-      ],
-      "date": "2026-06-24T07:31:31.764655+00:00"
-    },
-    {
       "title": "YouTube Releases Series of Science Videos Highlighting Discoveries, AI Predictions and 2025 Advances",
       "urls": [
         "https://www.youtube.com/watch?v=H-uwZNP5MUM",
@@ -4285,7 +4277,17 @@
         "https://www.drugtargetreview.com/article/192962/ai-in-drug-discovery-predictions-for-2026"
       ],
       "date": "2026-07-04T07:31:30.337941+00:00"
+    },
+    {
+      "title": "Samsung Forecasts Triple Profit Growth Driven by Artificial Intelligence in 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=q_EkRKl1464",
+        "https://www.reuters.com/video/watch/idRW509208012026RP1",
+        "https://www.computerworld.com/article/4110732/the-5-big-events-that-shaped-microsofts-2025.html",
+        "https://www.techloy.com/2026-tech-events-calendar-every-major-ces-apple-google-samsung-and-ai-conference-to-watch"
+      ],
+      "date": "2026-07-04T08:01:33.230577+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T07:31:30.338007+00:00"
+  "lastUpdated": "2026-07-04T08:01:33.230611+00:00"
 }
