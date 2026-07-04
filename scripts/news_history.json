@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Launches Strikes on Iranian Missile Sites, Prompting Tehran Threat of Retaliation",
-      "urls": [
-        "https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal"
-      ],
-      "date": "2026-06-24T18:31:36.210884+00:00"
-    },
-    {
-      "title": "NIMH Publishes New Web Page Highlighting Technology’s Role In Future Mental Health Treatment",
-      "urls": [
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment"
-      ],
-      "date": "2026-06-24T19:01:37.079890+00:00"
-    },
-    {
       "title": "HPE Updates Hardware, Private Cloud, and Networking To Support Agentic AI",
       "urls": [
         "https://www.forbes.com/sites/maribellopez/2026/06/24/hpe-updates-hardware-private-cloud-and-networking-for--agentic-ai-era",
@@ -4310,7 +4296,17 @@
         "https://www.sportsfirst.net/post/sports-technology-trends-in-2026-insights-from-nishant-shah"
       ],
       "date": "2026-07-04T18:31:35.359054+00:00"
+    },
+    {
+      "title": "Apple And Nvidia Lead 2026 Q1 Earnings Surge Fueled By AI Spending",
+      "urls": [
+        "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html",
+        "https://theaicronicle.com/en/news/companies/big-tech-performance-q1-2026-analysis",
+        "https://valueaddvc.com/big-tech-earnings",
+        "https://www.bloomberg.com/latest/tech-company-earnings"
+      ],
+      "date": "2026-07-04T19:01:39.275156+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T18:31:35.359122+00:00"
+  "lastUpdated": "2026-07-04T19:01:39.275248+00:00"
 }
