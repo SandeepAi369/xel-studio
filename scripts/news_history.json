@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026",
-      "urls": [
-        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
-        "https://uvik.net/blog/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-06-24T05:01:37.239532+00:00"
-    },
-    {
       "title": "WHILL Publishes Future Mobility Blog Highlighting Decade‑Long Trends and Innovations",
       "urls": [
         "https://mobilitymgmt.com/ces-2026-4-assistive-technology-exhibitors-to-watch",
@@ -4282,7 +4273,14 @@
         "https://www.youtube.com/watch?v=FWdFHEK0vhQ"
       ],
       "date": "2026-07-04T04:31:51.043773+00:00"
+    },
+    {
+      "title": "U.S. Heat Wave Proves Climate Change Made Extreme Temperatures Virtually Possible",
+      "urls": [
+        "https://www.nytimes.com/2026/07/03/climate/heat-wave-us-canada-climate-change.html"
+      ],
+      "date": "2026-07-04T05:01:52.584528+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T04:31:51.043868+00:00"
+  "lastUpdated": "2026-07-04T05:01:52.584593+00:00"
 }
