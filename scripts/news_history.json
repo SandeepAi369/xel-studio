@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow and PyTorch Lead Enterprise AI Framework Rankings in 2026",
-      "urls": [
-        "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026",
-        "https://www.analyticsinsight.net/machine-learning/best-ai-frameworks-for-enterprise-machine-learning-models-in-2026",
-        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
-        "https://saturncloud.io/blog/open-source-ai-frameworks-for-ai-engineers-2026",
-        "https://www.aistechnolabs.com/blog/tensorflow-vs-pytorch-vs-scikit-learn"
-      ],
-      "date": "2026-06-24T04:01:49.138719+00:00"
-    },
-    {
-      "title": "Lionel Messi Breaks World Cup Goals Record as Argentina Defeats Austria",
-      "urls": [
-        "https://www.nytimes.com/athletic/7376689/2026/06/22/argentina-austria-world-cup-result-analysis",
-        "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/cristiano-ronaldo-ends-60-year-wait-breaks-portugal-world-cup-record-with-historic-double-against-uzbekistan/articleshow/131949771.cms"
-      ],
-      "date": "2026-06-24T04:31:23.400507+00:00"
-    },
-    {
       "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026",
       "urls": [
         "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
@@ -4290,7 +4271,18 @@
         "https://resource.digen.ai/latest-ai-video-generation-models-2026"
       ],
       "date": "2026-07-04T04:01:34.304826+00:00"
+    },
+    {
+      "title": "UFC Announces Full 2026 Fight Schedule Featuring Major Title Bouts and Anticipated Knockouts",
+      "urls": [
+        "https://www.independent.co.uk/sport/ufc/ufc-schedule-2026-events-fights-june-b2987052.html",
+        "https://www.cbssports.com/ufc/news/ufc-in-2026-major-title-fights-massive-upsets-knockouts",
+        "https://www.youtube.com/watch?v=zssHisjpRh0",
+        "https://www.youtube.com/watch?v=EXkhkKfHaHE",
+        "https://www.youtube.com/watch?v=FWdFHEK0vhQ"
+      ],
+      "date": "2026-07-04T04:31:51.043773+00:00"
     }
   ],
-  "lastUpdated": "2026-07-04T04:01:34.304902+00:00"
+  "lastUpdated": "2026-07-04T04:31:51.043868+00:00"
 }
