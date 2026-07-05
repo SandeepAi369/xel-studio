@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NHS Deploys AI Tool To Accelerate Cancer Diagnosis For Millions",
-      "urls": [
-        "https://www.mirror.co.uk/news/health/ai-cancer-diagnosis-nhs-trusts-37277525"
-      ],
-      "date": "2026-06-25T15:01:51.834406+00:00"
-    },
-    {
       "title": "Microsoft Unveils Seven Major Announcements at Build 2026 Developer Conference",
       "urls": [
         "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements"
@@ -4290,7 +4283,17 @@
         "https://www.youtube.com/watch?v=bxF0Krr4Vck"
       ],
       "date": "2026-07-05T15:01:32.257724+00:00"
+    },
+    {
+      "title": "Meta Launches Next AI Initiative Highlighting Investor Catchpoint Amid Market Scrutiny",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/meta-s-possible-move-into-cloud-computing-may-point-to-a-bursting-ai-infrastructure-bubble/ar-AA275kCW?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/meta-s-next-ai-bet-has-one-major-catch-for-investors/ar-AA27dGFS?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/meta-s-possible-move-into-cloud-computing-may-point-to-a-bursting-ai-infrastructure-bubble/ar-AA275kCW?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/technology/meta-s-cloud-compute-dreams-why-opt-for-us-ai-data-centers-when-saudi-arabia-has-cheap-oil-and-cheaper-power/ar-AA273TgA?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-05T15:31:25.489454+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T15:01:32.257785+00:00"
+  "lastUpdated": "2026-07-05T15:31:25.489522+00:00"
 }
