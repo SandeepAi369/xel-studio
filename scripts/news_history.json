@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils Seven Major Announcements at Build 2026 Developer Conference",
-      "urls": [
-        "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements"
-      ],
-      "date": "2026-06-25T15:31:39.241802+00:00"
-    },
-    {
       "title": "Open Source Community Confronts AI Integration, Funding Strain, and Licensing Disputes in 2026",
       "urls": [
         "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html"
@@ -4293,7 +4286,16 @@
         "https://www.msn.com/en-us/money/technology/meta-s-cloud-compute-dreams-why-opt-for-us-ai-data-centers-when-saudi-arabia-has-cheap-oil-and-cheaper-power/ar-AA273TgA?ocid=BingNewsVerp"
       ],
       "date": "2026-07-05T15:31:25.489454+00:00"
+    },
+    {
+      "title": "Linux Foundation Announces 2026 Global Events Program to Boost Open Source Collaboration",
+      "urls": [
+        "https://itsfoss.com/news",
+        "https://www.linuxfoundation.org/press",
+        "https://www.linuxfoundation.org/press/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation"
+      ],
+      "date": "2026-07-05T16:01:31.216559+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T15:31:25.489522+00:00"
+  "lastUpdated": "2026-07-05T16:01:31.216632+00:00"
 }
