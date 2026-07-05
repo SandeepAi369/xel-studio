@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Messi Sets New World Cup Scoring Record With 17th Goal In Texas",
-      "urls": [
-        "https://www.msn.com/en-us/sports/soccer/messi-turns-39-during-world-cup-see-record-breaking-goal-in-texas/ar-AA26rK1V?ocid=BingNewsVerp",
-        "https://www.reuters.com/sports/soccer/messi-breaks-mens-world-cup-scoring-record-with-17th-goal-2026-06-22"
-      ],
-      "date": "2026-06-25T00:31:35.317296+00:00"
-    },
-    {
       "title": "Esports World Cup 2026 Announces Paris Expo Porte de Versailles As Host Venue",
       "urls": [
         "https://www.msn.com/en-ae/gaming/esports/prince-omar-crowns-winners-of-2026-aqaba-esports-championship/ar-AA23raPf?ocid=BingNewsVerp",
@@ -4308,7 +4300,14 @@
         "https://www.youtube.com/watch?v=AwHnP5zWZOc"
       ],
       "date": "2026-07-05T00:31:26.746195+00:00"
+    },
+    {
+      "title": "Apple Introduces New Accessibility Features Powered by Apple Intelligence for Users",
+      "urls": [
+        "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence"
+      ],
+      "date": "2026-07-05T01:01:27.633838+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T00:31:26.746268+00:00"
+  "lastUpdated": "2026-07-05T01:01:27.633914+00:00"
 }
