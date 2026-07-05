@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Tools Hub Publishes AI Coding Tools Comparison Of Seven Options",
-      "urls": [
-        "https://www.openaitoolshub.org/en/blog/ai-coding-tools-compared-2026",
-        "https://aiunpacking.com/guides/ai-coding-tools-2026-github-copilot-cursor-claude-code",
-        "https://qubittool.com/blog/ai-coding-tools-2026-comparison"
-      ],
-      "date": "2026-06-25T05:01:41.852060+00:00"
-    },
-    {
       "title": "ADA Introduces New Digital Accessibility Rules for Government Websites Nationwide",
       "urls": [
         "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
@@ -4292,7 +4283,23 @@
         "https://techsy.io/en/blog/best-open-source-llms-2026"
       ],
       "date": "2026-07-05T05:01:30.515513+00:00"
+    },
+    {
+      "title": "OpenAI Expands Online Presence With Dedicated GPT‑4 Landing Page for Developers and Researchers",
+      "urls": [
+        "https://openai.com",
+        "https://gemini.google.com",
+        "https://chatgpt.com",
+        "https://deepai.org",
+        "https://ai.google",
+        "https://www.perplexity.ai",
+        "https://copilot.microsoft.com",
+        "https://openai.com/index/gpt-4",
+        "https://duck.ai",
+        "https://en.m.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "date": "2026-07-05T05:31:29.327796+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T05:01:30.515605+00:00"
+  "lastUpdated": "2026-07-05T05:31:29.327864+00:00"
 }
