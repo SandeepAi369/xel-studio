@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "J.P. Morgan Publishes 2026 Climate Tech Industry Trends Report Highlighting Investment Shifts",
-      "urls": [
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution",
-        "https://www.youtube.com/watch?v=St2HRYAMlk8",
-        "https://www.youtube.com/watch?v=wjJG8ga63lQ",
-        "https://www.youtube.com/watch?v=uoUNmt-yOKY",
-        "https://www.facebook.com/dw.environment/videos/the-german-city-of-mannheim-wants-to-become-climate-neutral-with-river-heat-pump/1195984858733639"
-      ],
-      "date": "2026-06-25T22:31:38.604173+00:00"
-    },
-    {
       "title": "Drug Discovery Accelerates FDA Approvals and Clinical Trials in 2026",
       "urls": [
         "https://www.linkedin.com/pulse/ai-driven-drug-discovery-breakthroughs-2026-molecule-ai-lunnc",
@@ -4290,7 +4278,15 @@
         "https://www.open.edu/openlearn"
       ],
       "date": "2026-07-05T22:31:33.961338+00:00"
+    },
+    {
+      "title": "Anthropic Shuts Down Fable Marking Major Shift In Open‑Source AI Landscape",
+      "urls": [
+        "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html",
+        "https://venturebeat.com/technology/openai-facebook-pytorch-google-tensorflow"
+      ],
+      "date": "2026-07-05T23:01:33.644037+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T22:31:33.961424+00:00"
+  "lastUpdated": "2026-07-05T23:01:33.644102+00:00"
 }
