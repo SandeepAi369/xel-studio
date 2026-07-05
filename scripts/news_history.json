@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Embraces PyTorch as Primary Framework for Future Model Development",
-      "urls": [
-        "https://venturebeat.com/technology/openai-facebook-pytorch-google-tensorflow"
-      ],
-      "date": "2026-06-25T10:01:34.988912+00:00"
-    },
-    {
       "title": "National Hurricane Center Issues Five Urgent Messages as 2026 Season Forecast Shows Elevated Storm Risk",
       "urls": [
         "https://www.msn.com/en-us/weather/topstories/tracking-the-tropics-2026-hurricane-season-outlook/ar-AA24Lu0v?ocid=BingNewsVerp",
@@ -4303,7 +4296,17 @@
         "https://mistral.ai/news"
       ],
       "date": "2026-07-05T10:01:34.089449+00:00"
+    },
+    {
+      "title": "Permafrost Release Threatens Global Climate Stability As Deep Carbon Awakens",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/06/260626030448.htm",
+        "https://www.nationofchange.org/2026/07/03/program-on-climate-change-and-then-the-heat-hits",
+        "https://www.scientificamerican.com/article/earths-permafrost-could-soon-release-hidden-deep-carbon-supercharging-warming",
+        "https://phys.org/news/2026-06-reforestation-effects-resources-global.html"
+      ],
+      "date": "2026-07-05T10:31:20.859657+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T10:01:34.089523+00:00"
+  "lastUpdated": "2026-07-05T10:31:20.859728+00:00"
 }
