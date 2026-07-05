@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Euronews Highlights Carbon‑Capturing Bison and Low‑Cost Renewable Energy Solutions for Climate Goals",
-      "urls": [
-        "https://www.capetownetc.com/conservation/wildlife-conservation-success-stories-june-2026",
-        "https://www.euronews.com/2026/05/22/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2"
-      ],
-      "date": "2026-06-25T14:01:46.768127+00:00"
-    },
-    {
       "title": "CBS News Launches Dedicated Feature Page for 2026 Midterm Elections",
       "urls": [
         "https://www.cbsnews.com/feature/2026-midterm-elections",
@@ -4290,7 +4282,15 @@
         "https://sports.yahoo.com/articles/team-usa-wins-historic-11th-124412316.html?fr=sycsrp_catchall"
       ],
       "date": "2026-07-05T14:01:42.782122+00:00"
+    },
+    {
+      "title": "WorldNow Launches Live Global Disaster Tracker for Earthquakes, Fires, and Volcanoes",
+      "urls": [
+        "https://www.the-world-now.com/global-disaster-tracker",
+        "https://www.usgs.gov/programs/VHP/volcano-updates"
+      ],
+      "date": "2026-07-05T14:31:30.663249+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T14:01:42.782198+00:00"
+  "lastUpdated": "2026-07-05T14:31:30.663317+00:00"
 }
