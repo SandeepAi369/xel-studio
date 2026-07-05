@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Venezuela Earthquake Leaves 188 Dead as Rescue Operations Mobilize in Caracas",
-      "urls": [
-        "https://www.cnn.com/2026/06/24/weather/live-news/venezuela-earthquake-puerto-rico-tsunami"
-      ],
-      "date": "2026-06-25T18:01:38.080679+00:00"
-    },
-    {
-      "title": "IMF Releases January 2026 World Economic Outlook Highlighting Global Growth Projections",
-      "urls": [
-        "https://globaloutlook.worldbank.org",
-        "https://www.the-world-now.com/recession-risk",
-        "https://desapublications.un.org/file/22000/download",
-        "https://desapublications.un.org/sites/default/files/publications/2026-01/WESP%202026_Executive%20Summary_English.pdf",
-        "https://go.euromonitor.com/report-extract-2026-global-economic-update-midyear-outlook.html",
-        "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026",
-        "https://www.morganstanley.com/insights/articles/global-economic-outlook-2026"
-      ],
-      "date": "2026-06-25T18:31:38.132777+00:00"
-    },
-    {
       "title": "PubMed Central Publishes 2026 Healthcare Predictions Highlighting AI and Blockchain Rise",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
@@ -4290,7 +4270,14 @@
         "https://www.manxradio.com/news/isle-of-man-news/nest-boxes-make-meaningful-contribution-to-wildlife-conservation-in-ancient-capital"
       ],
       "date": "2026-07-05T18:01:26.079413+00:00"
+    },
+    {
+      "title": "OpenAI Introduces GPT-5.6 Sol, Terra, and Luna in Limited Preview",
+      "urls": [
+        "https://www.macrumors.com/2026/06/26/openai-gpt-5-6-sol"
+      ],
+      "date": "2026-07-05T18:31:45.579444+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T18:01:26.079485+00:00"
+  "lastUpdated": "2026-07-05T18:31:45.579516+00:00"
 }
