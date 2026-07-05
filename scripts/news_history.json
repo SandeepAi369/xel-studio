@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEM Cologne Major Launches Stage Two With New Format and Live Results",
-      "urls": [
-        "https://www.esportsbets.com/news/iem-cologne-major-2026-stage-2-format-teams-results",
-        "https://news.webindia123.com/news/articles/Business/20260620/4464938.html"
-      ],
-      "date": "2026-06-25T08:31:35.596628+00:00"
-    },
-    {
       "title": "Amazon and Anthropic Secure Up to 5 Gigawatts Power for Next‑Gen AI Compute",
       "urls": [
         "https://www.anthropic.com/claude/sonnet",
@@ -4310,7 +4302,18 @@
         "https://timesofindia.indiatimes.com/sports"
       ],
       "date": "2026-07-05T08:31:23.900801+00:00"
+    },
+    {
+      "title": "Anthropic Surpasses OpenAI as Leading AI Model Provider After Claude 5 Success",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news",
+        "https://www.youtube.com/watch?v=3oTE626FaIw",
+        "https://www.youtube.com/watch?v=-nG-9vlSkho",
+        "https://www.anthropic.com"
+      ],
+      "date": "2026-07-05T09:01:37.215202+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T08:31:23.900861+00:00"
+  "lastUpdated": "2026-07-05T09:01:37.215263+00:00"
 }
