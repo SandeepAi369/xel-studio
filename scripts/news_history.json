@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "ADA Introduces New Digital Accessibility Rules for Government Websites Nationwide",
-      "urls": [
-        "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
-        "https://www.youtube.com/watch?v=CfKLbH-SVV4",
-        "https://www.youtube.com/watch?v=ldPtZss1TRc",
-        "https://www.youtube.com/watch?v=4sF1ff4rMkk"
-      ],
-      "date": "2026-06-25T05:31:37.760646+00:00"
-    },
-    {
       "title": "Google Unveils Deep Research Max Autonomous AI Agent Running 160 Overnight Searches",
       "urls": [
         "https://www.heygotrade.com/en/news/google-io-2026-gemini-deepmind-contextual-ai",
@@ -4299,7 +4289,14 @@
         "https://en.m.wikipedia.org/wiki/Artificial_intelligence"
       ],
       "date": "2026-07-05T05:31:29.327796+00:00"
+    },
+    {
+      "title": "Mind Help Publishes Better Mind Report Mapping 2026 Digital Mental Health Landscape",
+      "urls": [
+        "https://mind.help/mh-news/better-mind-report-maps-2026-digital-mental-heal"
+      ],
+      "date": "2026-07-05T06:01:31.203587+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T05:31:29.327864+00:00"
+  "lastUpdated": "2026-07-05T06:01:31.203664+00:00"
 }
