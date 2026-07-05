@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Athletics Updates 2026 Track and Field World Records Across All Events",
-      "urls": [
-        "https://www.flotrack.org/articles/15361914-every-track-field-record-broken-so-far-in-2026",
-        "https://sports.yahoo.com/articles/every-track-field-record-broken-204135006.html?fr=sycsrp_catchall",
-        "https://worldathletics.org",
-        "https://www.watchathletics.com/schedule/cat/latest-results",
-        "https://www.usatf.org",
-        "https://www.olympics.com/ioc/news/athletics-all-track-and-field-world-records-at-a-glance"
-      ],
-      "date": "2026-06-25T09:31:44.498464+00:00"
-    },
-    {
       "title": "OpenAI Embraces PyTorch as Primary Framework for Future Model Development",
       "urls": [
         "https://venturebeat.com/technology/openai-facebook-pytorch-google-tensorflow"
@@ -4308,7 +4296,14 @@
         "https://www.youtube.com/watch?v=CfKLbH-SVV4"
       ],
       "date": "2026-07-05T09:31:20.333776+00:00"
+    },
+    {
+      "title": "Mistral AI Launches News Portal Showcasing Frontier AI LLMs, Assistants, and Services",
+      "urls": [
+        "https://mistral.ai/news"
+      ],
+      "date": "2026-07-05T10:01:34.089449+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T09:31:20.333837+00:00"
+  "lastUpdated": "2026-07-05T10:01:34.089523+00:00"
 }
