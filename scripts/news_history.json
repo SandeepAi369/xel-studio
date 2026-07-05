@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon and Anthropic Secure Up to 5 Gigawatts Power for Next‑Gen AI Compute",
-      "urls": [
-        "https://www.anthropic.com/claude/sonnet",
-        "https://letsdatascience.com/news/topic/anthropic",
-        "https://www.youtube.com/watch?v=5Uh2yRLCisk",
-        "https://www.youtube.com/watch?v=TB-nS4TGfns",
-        "https://www.cnbc.com/video/2026/04/20/amazon-and-anthropic-announce-new-deal-to-provide-up-to-5-gigawatts-of-compute-to-claude-ai-models.html",
-        "https://www.youtube.com/watch?v=qXYuznlCjKE"
-      ],
-      "date": "2026-06-25T09:01:45.553714+00:00"
-    },
-    {
       "title": "World Athletics Updates 2026 Track and Field World Records Across All Events",
       "urls": [
         "https://www.flotrack.org/articles/15361914-every-track-field-record-broken-so-far-in-2026",
@@ -4313,7 +4301,14 @@
         "https://www.anthropic.com"
       ],
       "date": "2026-07-05T09:01:37.215202+00:00"
+    },
+    {
+      "title": "YouTube Highlights New ADA Digital Rules For Government Websites Compliance",
+      "urls": [
+        "https://www.youtube.com/watch?v=CfKLbH-SVV4"
+      ],
+      "date": "2026-07-05T09:31:20.333776+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T09:01:37.215263+00:00"
+  "lastUpdated": "2026-07-05T09:31:20.333837+00:00"
 }
