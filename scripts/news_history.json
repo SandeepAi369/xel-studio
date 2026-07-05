@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Search Yields Empty Listings Without Descriptive Content for News Report",
-      "urls": [
-        "https://www.reddit.com/r/moderatepolitics/comments/1tuiy5m/trump_admin_renames_irans_300_billion_reparations",
-        "https://www.reddit.com/r/Israel/comments/1tu982d/youre_fucking_crazy_trump_fumes_at_netanyahu_in",
-        "https://www.reddit.com/r/politics/comments/1ttyj7w/trump_tells_cnbc_i_dont_care_if_iran_negotiations",
-        "https://www.reddit.com/r/oil/comments/1ttosj1/daily_oil_price_opinions_june_01_2026_all_other"
-      ],
-      "date": "2026-06-25T20:01:39.269107+00:00"
-    },
-    {
       "title": "Big Tech Drives Earnings Surge as 128 Quarterly Reports Approach",
       "urls": [
         "https://www.forbes.com/sites/bill_stone/2026/05/03/earnings-season-surges-as-big-tech-delivers-and-128-reports-loom",
@@ -4290,7 +4280,17 @@
         "https://www.usatoday.com/story/news/politics/elections/2026/06/17/georgia-runoff-election-results/90559740007"
       ],
       "date": "2026-07-05T20:01:26.083772+00:00"
+    },
+    {
+      "title": "TechGaged Publishes Comprehensive 2026 Cryptocurrency Statistics Report Analyzing Market State",
+      "urls": [
+        "https://www.manilatimes.net/2026/06/02/tmt-newswire/globenewswire/techgaged-releases-comprehensive-2026-cryptocurrency-statistics-report-analyzing-the-state-of-the-digital-asset-market/2356595",
+        "https://www.aol.com/finance/best-crypto-investments-2026-5-130010578.html",
+        "https://finance.yahoo.com/markets/crypto/articles/blockchain-strategic-intelligence-report-2026-103100272.html",
+        "https://markets.businessinsider.com/news/stocks/the-one-blockchain-paradigm-the-world-is-watching-in-2026-gxb-s-unrivaled-rise-begins-1036263053"
+      ],
+      "date": "2026-07-05T20:31:19.559589+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T20:01:26.083865+00:00"
+  "lastUpdated": "2026-07-05T20:31:19.559664+00:00"
 }
