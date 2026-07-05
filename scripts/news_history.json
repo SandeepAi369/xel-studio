@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CBS News Launches Dedicated Feature Page for 2026 Midterm Elections",
-      "urls": [
-        "https://www.cbsnews.com/feature/2026-midterm-elections",
-        "https://www.democracynow.org/2026/6/24/headlines"
-      ],
-      "date": "2026-06-25T14:31:36.007892+00:00"
-    },
-    {
       "title": "NHS Deploys AI Tool To Accelerate Cancer Diagnosis For Millions",
       "urls": [
         "https://www.mirror.co.uk/news/health/ai-cancer-diagnosis-nhs-trusts-37277525"
@@ -4290,7 +4282,15 @@
         "https://www.usgs.gov/programs/VHP/volcano-updates"
       ],
       "date": "2026-07-05T14:31:30.663249+00:00"
+    },
+    {
+      "title": "YouTube Highlights AI Revolution Transforming Drug Discovery Market and Investment Landscape",
+      "urls": [
+        "https://www.youtube.com/watch?v=XkMpTc8moys",
+        "https://www.youtube.com/watch?v=bxF0Krr4Vck"
+      ],
+      "date": "2026-07-05T15:01:32.257724+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T14:31:30.663317+00:00"
+  "lastUpdated": "2026-07-05T15:01:32.257785+00:00"
 }
