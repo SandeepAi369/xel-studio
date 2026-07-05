@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drug Discovery Accelerates FDA Approvals and Clinical Trials in 2026",
-      "urls": [
-        "https://www.linkedin.com/pulse/ai-driven-drug-discovery-breakthroughs-2026-molecule-ai-lunnc",
-        "https://www.aifchem.com/blog-latest-progress-drug-discovery-2026-fda-approvals-ai-trends-molecular-building-blocks",
-        "https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026"
-      ],
-      "date": "2026-06-25T23:01:55.989973+00:00"
-    },
-    {
       "title": "Nasdaq and S&P 500 Rise After Trump Iran Deal Signals",
       "urls": [
         "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026",
@@ -4286,7 +4277,17 @@
         "https://venturebeat.com/technology/openai-facebook-pytorch-google-tensorflow"
       ],
       "date": "2026-07-05T23:01:33.644037+00:00"
+    },
+    {
+      "title": "YouTube Highlights AI Skills Needed By Healthcare Professionals In 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=5ReO9hgOYrI",
+        "https://www.youtube.com/watch?v=bsfIqUZ0gkY",
+        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
+      ],
+      "date": "2026-07-05T23:31:26.459101+00:00"
     }
   ],
-  "lastUpdated": "2026-07-05T23:01:33.644102+00:00"
+  "lastUpdated": "2026-07-05T23:31:26.459173+00:00"
 }
