@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights New Biodiversity News Hub Focused on Species and Ecosystem Research",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity"
-      ],
-      "date": "2026-06-26T10:31:42.711296+00:00"
-    },
-    {
       "title": "ABC News Highlights Practical Mental Health Tips for 2026 In New Short Video",
       "urls": [
         "https://abcnews.go.com/Health/video/ways-improve-mental-health-2026-128733616",
@@ -4273,7 +4266,16 @@
         "https://www.un.org/en/climatechange/reports"
       ],
       "date": "2026-07-06T10:31:31.437255+00:00"
+    },
+    {
+      "title": "Reddit Search Returns Only Title Without Description Across Multiple Entries",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
+        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
+        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2"
+      ],
+      "date": "2026-07-06T11:01:34.728748+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T10:31:31.437322+00:00"
+  "lastUpdated": "2026-07-06T11:01:34.728817+00:00"
 }
