@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SoundHound AI Wins Overall Agentic AI Company of the Year at 2026 Awards",
-      "urls": [
-        "https://www.manilatimes.net/2026/06/25/tmt-newswire/globenewswire/soundhound-ai-named-overall-agentic-ai-company-of-the-year-in-2026-ai-breakthrough-awards-program/2373057"
-      ],
-      "date": "2026-06-26T09:01:40.284477+00:00"
-    },
-    {
       "title": "United Nations Europe Launches AI Initiative to Advance Disability Inclusion",
       "urls": [
         "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
@@ -4268,7 +4261,17 @@
         "https://www.cnbc.com/2026/06/19/john-jumper-to-leave-google-deepmind-for-anthropic.html"
       ],
       "date": "2026-07-06T09:01:30.496333+00:00"
+    },
+    {
+      "title": "UNCTAD Releases Global Trade Update Highlighting Top Trends Redefining International Commerce",
+      "urls": [
+        "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
+        "https://www.imd.org/ibyimd/geopolitics/trade-turbulence-in-2026-strategic-priorities-for-global-business",
+        "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2025/11/2026-Global-Trade-Report.pdf",
+        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf"
+      ],
+      "date": "2026-07-06T09:31:25.487985+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T09:01:30.496422+00:00"
+  "lastUpdated": "2026-07-06T09:31:25.488069+00:00"
 }
