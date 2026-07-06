@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Open Models Coding Essentials Video Covering Local LLM Deployment",
-      "urls": [
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
-        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
-        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2",
-        "https://www.youtube.com/watch?v=HNVaYYxmwLU"
-      ],
-      "date": "2026-06-26T05:01:41.281464+00:00"
-    },
-    {
       "title": "Vision Buddy Highlights Emerging Assistive Tech for the Visually Impaired in 2026",
       "urls": [
         "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
@@ -4272,7 +4262,14 @@
         "https://www.shakudo.io/blog/top-9-large-language-models"
       ],
       "date": "2026-07-06T05:01:33.741059+00:00"
+    },
+    {
+      "title": "Uttarakhand Launches Science, Technology and Innovation Policy to Accelerate Research Development",
+      "urls": [
+        "https://www.hindustantimes.com/genesis/uttarakhand-unveils-science-technology-and-innovation-policy-2026-to-boost-research-led-development-101781089824573.html"
+      ],
+      "date": "2026-07-06T05:31:20.009345+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T05:01:33.741133+00:00"
+  "lastUpdated": "2026-07-06T05:31:20.009412+00:00"
 }
