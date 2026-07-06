@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte Insights Publishes Global Economic Outlook 2026 With Detailed US Q1 Forecast",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html",
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
-        "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html"
-      ],
-      "date": "2026-06-26T16:01:47.731471+00:00"
-    },
-    {
       "title": "UFC Announces Full 2026 Fight Schedule On ESPN Platform For Fans And Broadcasters",
       "urls": [
         "https://www.espn.com/mma/schedule/_/league/ufc"
@@ -4255,7 +4246,14 @@
         "https://www.youtube.com/watch?v=qXYuznlCjKE"
       ],
       "date": "2026-07-06T16:01:44.608220+00:00"
+    },
+    {
+      "title": "College World Series Highlights Eight Memorable Moments in Annual Tournament",
+      "urls": [
+        "https://www.ncaa.com/news/baseball/article/2026-06-24/timeline-8-biggest-moments-2026-mens-college-world-series"
+      ],
+      "date": "2026-07-06T16:31:28.773843+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T16:01:44.608290+00:00"
+  "lastUpdated": "2026-07-06T16:31:28.773918+00:00"
 }
