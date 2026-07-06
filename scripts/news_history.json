@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Europe Launches AI Initiative to Advance Disability Inclusion",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
-        "https://www.reddit.com/r/ChatGPT/comments/17sg5mg/as_an_articulate_disabled_person_i_feel_like_ai",
-        "https://www.reddit.com/r/accessibility/comments/1acl4mc/disabilities_and_ai?rdt=41599",
-        "https://www.reddit.com/r/ArtistHate/comments/1glrr0m/thoughts_in_disabled_people_using_ai",
-        "https://www.reddit.com/r/disability/comments/1j7fshj/ai_to_accommodatesupport_disability"
-      ],
-      "date": "2026-06-26T09:31:36.723367+00:00"
-    },
-    {
-      "title": "Open Invention Network Publishes June 2026 Insider Update on Patent Collaboration",
-      "urls": [
-        "https://openinventionnetwork.com/june-2026-insider"
-      ],
-      "date": "2026-06-26T10:01:32.069661+00:00"
-    },
-    {
       "title": "ScienceDaily Highlights New Biodiversity News Hub Focused on Species and Ecosystem Research",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/biodiversity"
@@ -4271,7 +4253,20 @@
         "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf"
       ],
       "date": "2026-07-06T09:31:25.487985+00:00"
+    },
+    {
+      "title": "International Energy Agency Releases 2026 Climate Tech Outlook Highlighting Global Trends",
+      "urls": [
+        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
+        "https://www.spglobal.com/energy/en/news-research/special-reports/energy-transition/horizons-top-cleantech-trends-2026",
+        "https://www.technologyreview.com/2026/01/15/1131348/climate-technologies-2026",
+        "https://netzerocompare.com/articles/emerging-climate-tech-2026-carbon-capture-green-hydrogen-batteries",
+        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
+        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
+        "https://www.iea.org/reports/energy-technology-perspectives-2026"
+      ],
+      "date": "2026-07-06T10:01:40.489655+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T09:31:25.488069+00:00"
+  "lastUpdated": "2026-07-06T10:01:40.489730+00:00"
 }
