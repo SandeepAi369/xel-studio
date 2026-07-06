@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Issues $200 Billion Warning for AMD and Intel Stock Investors",
-      "urls": [
-        "https://www.fool.com/investing/2026/05/26/nvidia-has-a-200-billion-warning-for-amd-and-intel",
-        "https://www.cnbc.com/2026/06/18/the-ai-trade-could-shift-back-in-nvidias-favor-heres-why.html",
-        "https://www.msn.com/en-au/money/news/beyond-nvidia-europe-s-best-performing-ai-stocks-of-2026/ar-AA24T9ai?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/companies/the-smartest-500-you-can-put-to-work-in-ai-right-now-isnt-going-into-nvidia/ar-AA24RCs9?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-26T14:31:48.986996+00:00"
-    },
-    {
       "title": "ZS Impact Institute Reports AI Reshaping Patient Behavior Across Healthcare",
       "urls": [
         "https://hlth.com/insights/news/zs-impact-institute-reports-ai-is-reshaping-patient-behavior-across-healthcare",
@@ -4253,7 +4243,14 @@
         "https://www.reuters.com/sustainability/sustainable-finance-reporting/carbon-markets-have-potential-governments-must-now-provide-certainty--ecmii-2026-06-24"
       ],
       "date": "2026-07-06T14:02:21.622452+00:00"
+    },
+    {
+      "title": "GE HealthCare Unveils Next‑Gen SIGNA MR System to Accelerate Research and Clinical Impact",
+      "urls": [
+        "https://www.morningstar.com/news/business-wire/20260510618158/ge-healthcare-next-gen-signa-mr-technology-helps-advance-research-discovery-and-translate-innovation-into-clinical-impact"
+      ],
+      "date": "2026-07-06T14:31:51.372879+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T14:02:21.622532+00:00"
+  "lastUpdated": "2026-07-06T14:31:51.372953+00:00"
 }
