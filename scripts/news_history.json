@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Climate Change Portal Offers Global Policy Resource for International Cooperation",
-      "urls": [
-        "https://www.un.org/en/climatechange",
-        "https://www.nytimes.com/section/climate"
-      ],
-      "date": "2026-06-26T22:31:33.766315+00:00"
-    },
-    {
-      "title": "Linux Foundation Launches Akrites Initiative to Shield Open Source Software From AI‑Enabled Cyber Threats",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/25/10406369.htm"
-      ],
-      "date": "2026-06-26T23:01:33.382123+00:00"
-    },
-    {
       "title": "Artificial Intelligence Drives Drug Discovery Innovation with 2026 Predictions Across Pharmaceutical Industry",
       "urls": [
         "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281",
@@ -4255,7 +4240,17 @@
         "https://globalnews.ca/video/11941754/italy-raises-mount-etna-alert-level-following-renewed-volcanic-activity"
       ],
       "date": "2026-07-06T22:31:26.417031+00:00"
+    },
+    {
+      "title": "Big Tech Drives Earnings Surge as 128 Reports Loom and AI Adoption Accelerates",
+      "urls": [
+        "https://www.forbes.com/sites/bill_stone/2026/05/03/earnings-season-surges-as-big-tech-delivers-and-128-reports-loom",
+        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
+        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html",
+        "https://www.youtube.com/watch?v=GmBzMgOFm48"
+      ],
+      "date": "2026-07-06T23:01:45.300759+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T22:31:26.417114+00:00"
+  "lastUpdated": "2026-07-06T23:01:45.300829+00:00"
 }
