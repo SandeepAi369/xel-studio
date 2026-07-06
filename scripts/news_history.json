@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medium Publishes Top Tech Report on AI, NVIDIA Chips, Apple and Google Innovations",
-      "urls": [
-        "https://medium.com/@knubisoft/2025-top-tech-report-ai-nvidia-chips-apple-google-innovations-928ec8c8817e"
-      ],
-      "date": "2026-06-26T03:31:30.489053+00:00"
-    },
-    {
       "title": "Meta Announces Agentic AI Assistant to Boost User Autonomy Across Platforms",
       "urls": [
         "https://www.techtimes.com/articles/319067/20260625/meta-prediction-market-app-puts-llama-charge-deciding-what-true.htm",
@@ -4275,7 +4268,17 @@
         "https://www.ign.com/articles/esports-manager-2026-announces-release-date-ign-live-2026"
       ],
       "date": "2026-07-06T03:31:29.961150+00:00"
+    },
+    {
+      "title": "DeepHealth Launches Reporting Pro To Automate Radiology Report Generation Across Hospitals",
+      "urls": [
+        "https://www.usatoday.com/press-release/story/35358/nemovideo-launches-ai-video-editing-agent",
+        "https://www.msn.com/en-xl/africa/ghana/2026-meitu-multimedia-festival-uveils-8-ai-products-declares-your-ai-crew-assembled/ar-AA25TvAZ?ocid=BingNewsVerp",
+        "https://markets.businessinsider.com/news/stocks/deephealth-launches-reporting-pro-bringing-ai-automation-to-radiology-reporting-1036238412",
+        "https://www.thestreet.com/latest-news/adbe-adobe-earnings-call-updates-q2-2026"
+      ],
+      "date": "2026-07-06T04:01:31.245546+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T03:31:29.961218+00:00"
+  "lastUpdated": "2026-07-06T04:01:31.245603+00:00"
 }
