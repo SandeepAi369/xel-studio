@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "DreamHack Atlanta 2026 Draws Massive Crowd as Gamers and Fans Flood Event",
-      "urls": [
-        "https://www.youtube.com/watch?v=5uaubQzz3Ao",
-        "https://www.youtube.com/watch?v=uEtw5nhdk_Q",
-        "https://www.youtube.com/watch?v=UCJQ-RfKm7o",
-        "https://www.youtube.com/watch?v=xp7cVzxBbwE",
-        "https://www.youtube.com/watch?v=fkYbnGvVhxo"
-      ],
-      "date": "2026-06-26T04:31:30.612761+00:00"
-    },
-    {
       "title": "YouTube Releases Open Models Coding Essentials Video Covering Local LLM Deployment",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
@@ -4276,7 +4265,14 @@
         "https://www.forbes.com/sites/dianneplummer/2026/02/17/top-5-renewable-energy-sources-reshaping-the-global-economy-in-2026"
       ],
       "date": "2026-07-06T04:31:26.835037+00:00"
+    },
+    {
+      "title": "Shakudo Blog Lists Nine Leading Large Language Models for Developers",
+      "urls": [
+        "https://www.shakudo.io/blog/top-9-large-language-models"
+      ],
+      "date": "2026-07-06T05:01:33.741059+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T04:31:26.835095+00:00"
+  "lastUpdated": "2026-07-06T05:01:33.741133+00:00"
 }
