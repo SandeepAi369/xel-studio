@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Two Framework Comparison Videos Highlighting TensorFlow and PyTorch",
-      "urls": [
-        "https://www.youtube.com/watch?v=pkEUANwkrqk",
-        "https://www.youtube.com/watch?v=X4VZ9G2VT2w"
-      ],
-      "date": "2026-06-26T18:33:11.265394+00:00"
-    },
-    {
       "title": "Crescendo AI Releases 2026 Healthcare AI Innovations Overview Highlighting Emerging Medical Tools",
       "urls": [
         "https://www.crescendo.ai/news/ai-in-healthcare-news"
@@ -4255,7 +4247,17 @@
         "https://lifecarebiomed.com/wheelchair-wise-top-10-must-know-trends-and-picks-for-smart-mobility-in-2026"
       ],
       "date": "2026-07-06T18:31:37.972579+00:00"
+    },
+    {
+      "title": "Micron and Qualcomm Boost AI Hardware Outlook With Bright Market Forecasts",
+      "urls": [
+        "https://www.youtube.com/watch?v=mWaxeSDJY5Q",
+        "https://www.youtube.com/watch?v=9eBO5Tj26Eo",
+        "https://www.youtube.com/watch?v=AfxYwwWDak0",
+        "https://www.youtube.com/watch?v=M7viub_lZRQ"
+      ],
+      "date": "2026-07-06T19:01:39.849246+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T18:31:37.972654+00:00"
+  "lastUpdated": "2026-07-06T19:01:39.849303+00:00"
 }
