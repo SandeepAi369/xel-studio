@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Announces Full 2026 Fight Schedule On ESPN Platform For Fans And Broadcasters",
-      "urls": [
-        "https://www.espn.com/mma/schedule/_/league/ufc"
-      ],
-      "date": "2026-06-26T16:31:30.924069+00:00"
-    },
-    {
-      "title": "National University Publishes Blog Examining Social Media Trends for 2026",
-      "urls": [
-        "https://www.nu.edu/blog/social-media-trends"
-      ],
-      "date": "2026-06-26T17:01:43.323227+00:00"
-    },
-    {
       "title": "Pediatric Eye Specialists Publish Parent Guide to Advocate for Visually Impaired Children in Texas Schools",
       "urls": [
         "https://www.oklahoman.com/press-release/story/191298/pediatric-eye-specialists-publishes-how-to-advocate-for-your-visually-impaired-child-in-texas-schools-a-parents-guide-to-help-families-navigate-educational-rights-and-resou",
@@ -4253,7 +4239,15 @@
         "https://www.ncaa.com/news/baseball/article/2026-06-24/timeline-8-biggest-moments-2026-mens-college-world-series"
       ],
       "date": "2026-07-06T16:31:28.773843+00:00"
+    },
+    {
+      "title": "Tufts Professor Develops AI‑Powered Assistive Technology to Enhance Accessibility for People With Disabilities",
+      "urls": [
+        "https://wnyt.com/third-hour-today/local-college-students-unveil-assistive-tech-at-create-symposium",
+        "https://www.tuftsdaily.com/article/2026/02/tufts-professor-creating-assistive-technology-through-ai"
+      ],
+      "date": "2026-07-06T17:01:43.668986+00:00"
     }
   ],
-  "lastUpdated": "2026-07-06T16:31:28.773918+00:00"
+  "lastUpdated": "2026-07-06T17:01:43.669056+00:00"
 }
