@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sweden’s Wolverine Conservation Decline Signals New Challenges for Species Protection",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/06/260601025324.htm"
-      ],
-      "date": "2026-06-27T01:31:30.312092+00:00"
-    },
-    {
-      "title": "Global Climate Report Highlights 1.39°C Rise and 1.5°C Threshold by 2030",
-      "urls": [
-        "https://www.nytimes.com/2026/06/25/climate/london-climate-week-heat-cancelations.html",
-        "https://phys.org/news/2026-06-human-driven-139c-15c.html"
-      ],
-      "date": "2026-06-27T02:01:54.165909+00:00"
-    },
-    {
       "title": "Emerging Mental Health Devices Market Forecast Shows AI Integration Driving Growth Through 2035",
       "urls": [
         "https://www.techtimes.com/articles/316485/20260511/does-digital-detox-really-work-mental-health-productivity-benefits-challenges.htm",
@@ -4243,7 +4228,15 @@
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
       ],
       "date": "2026-07-07T01:31:25.940963+00:00"
+    },
+    {
+      "title": "Singapore Treasure Carbon Joins Climate Leaders At APAC Summit In Bangkok",
+      "urls": [
+        "https://www.reuters.com/press-releases/singapore-treasure-carbon-climate-futures-apac-summit-2026-bangkok-2026-06-18",
+        "https://www.reuters.com/business/environment/climate-cost-expanded-world-cup-under-scrutiny-emissions-set-soar-2026-06-09"
+      ],
+      "date": "2026-07-07T02:03:40.147549+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T01:31:25.941038+00:00"
+  "lastUpdated": "2026-07-07T02:03:40.147621+00:00"
 }
