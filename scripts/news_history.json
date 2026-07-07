@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Modulate Introduces AI Music Detection API to Verify Generated Tracks at Scale",
-      "urls": [
-        "https://www.usatoday.com/press-release/story/35467/modulate-launches-ai-music-detection-api-to-help-platforms-verify-ai-generated-music-at-scale",
-        "https://www.msn.com/en-in/money/other/icai-inaugurates-ai-innovation-summit-ais-2026-bringing-global-leaders-together-to-power-the-future-of-finance-and-accounting/ar-AA26EFnG?ocid=BingNewsVerp",
-        "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/36706185/nasdaq-launches-economic-institute-debuts-new-ai-research-series",
-        "https://www.forbes.com/councils/forbesbusinesscouncil/2026/06/23/a-quiet-revolution-ai-humanity-and-the-redistribution-of-capability"
-      ],
-      "date": "2026-06-27T06:01:36.175595+00:00"
-    },
-    {
       "title": "Extreme Weather Flooding Hurricane Disaster News — Latest Developments and Key Updates",
       "urls": [
         "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast"
@@ -4238,7 +4228,14 @@
         "https://www.msn.com/en-us/weather/topstories/first-tropical-storm-of-the-2026-hurricane-season-forms-and-could-bring-life-threatening-flooding-to-southeast/ar-AA25TUhI?ocid=BingNewsVerp"
       ],
       "date": "2026-07-07T05:31:41.789556+00:00"
+    },
+    {
+      "title": "Crescendo AI Launches Dedicated Healthcare AI News Hub Offering Consolidated Updates",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news"
+      ],
+      "date": "2026-07-07T06:01:39.643868+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T05:31:41.789641+00:00"
+  "lastUpdated": "2026-07-07T06:01:39.643975+00:00"
 }
