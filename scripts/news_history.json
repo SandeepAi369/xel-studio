@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Researchers Claim Quantum Computing Progress Accelerates, YouTube Showcases Top Fifteen Breakthroughs",
-      "urls": [
-        "https://www.youtube.com/watch?v=8JRJxsvJdRs",
-        "https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected"
-      ],
-      "date": "2026-06-27T15:31:33.407481+00:00"
-    },
-    {
       "title": "Mississippi Redistricting Raises Concerns Over Voter Registration Shifts Ahead Of 2026 Elections",
       "urls": [
         "https://golfweek.usatoday.com/story/news/politics/2026/06/10/mississippi-redistricting-and-mississippi-voter-registration/90350616007"
@@ -4245,7 +4237,14 @@
         "https://www.youtube.com/watch?v=UyLSO2gWOsw"
       ],
       "date": "2026-07-07T15:01:39.883681+00:00"
+    },
+    {
+      "title": "AI.cc Unifies Over 500 Hugging Face Models Through Single API",
+      "urls": [
+        "https://www.opensourceforu.com/2026/07/ai-cc-integrates-500-hugging-face-open-source-models-via-a-single-unified-api"
+      ],
+      "date": "2026-07-07T15:31:43.106578+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T15:01:39.883753+00:00"
+  "lastUpdated": "2026-07-07T15:31:43.106640+00:00"
 }
