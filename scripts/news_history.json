@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Increases AI Capital Expenditure to $650 Billion Driving Market Shift",
-      "urls": [
-        "https://valueaddvc.com/blog/big-tech-earnings-q1-2026-apple-microsoft-google-meta-amazon-nvidia-results",
-        "https://tech-insider.org/big-tech-650-billion-ai-infrastructure-capex-2026",
-        "https://theaicronicle.com/en/news/economics/apple-nvidia-tech-earnings-analysis-2026",
-        "https://stocknewsplus.com/guides/tech-stocks-analysis"
-      ],
-      "date": "2026-06-27T01:01:45.020497+00:00"
-    },
-    {
       "title": "Sweden’s Wolverine Conservation Decline Signals New Challenges for Species Protection",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/06/260601025324.htm"
@@ -4246,7 +4236,14 @@
         "https://www.youtube.com/watch?v=4sF1ff4rMkk"
       ],
       "date": "2026-07-07T01:01:36.159576+00:00"
+    },
+    {
+      "title": "Deloitte Insights Publishes Weekly Global Economic Update to Track Worldwide Trends",
+      "urls": [
+        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
+      ],
+      "date": "2026-07-07T01:31:25.940963+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T01:01:36.159691+00:00"
+  "lastUpdated": "2026-07-07T01:31:25.941038+00:00"
 }
