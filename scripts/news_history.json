@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OECD Warns Global Economy Weakens as Energy Shock and Rising Inflation Pressure Growth",
-      "urls": [
-        "https://www.oecd.org/en/about/news/press-releases/2026/06/global-economic-outlook-weakens-amid-energy-shock-and-rising-inflationary-pressures.html",
-        "https://rsmus.com/insights/economics/economic-outlook-for-2026.html",
-        "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/original/GEP-Jun-2026.pdf"
-      ],
-      "date": "2026-06-27T22:31:38.224112+00:00"
-    },
-    {
       "title": "South Africa Deportes Nearly Three Thousand Illegal Immigrants in One Week",
       "urls": [
         "https://www.livemint.com/news/world/total-world-latest-news-on-june-14-2026-live-updates-11781388947457.html"
@@ -4253,7 +4244,14 @@
         "https://github.com/yacy/yacy_search_server/issues"
       ],
       "date": "2026-07-07T22:31:32.457035+00:00"
+    },
+    {
+      "title": "NVIDIA Partners With Hugging Face to Expand AI Models for Open Robotics Community",
+      "urls": [
+        "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics"
+      ],
+      "date": "2026-07-07T23:01:38.674946+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T22:31:32.457112+00:00"
+  "lastUpdated": "2026-07-07T23:01:38.675024+00:00"
 }
