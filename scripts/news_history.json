@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte and Google Cloud Launch London AI Studio to Accelerate UK's Agentic AI Shift",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/deloitte-google-cloud-collaborate-launch-070000931.html"
-      ],
-      "date": "2026-06-27T22:01:45.996908+00:00"
-    },
-    {
       "title": "OECD Warns Global Economy Weakens as Energy Shock and Rising Inflation Pressure Growth",
       "urls": [
         "https://www.oecd.org/en/about/news/press-releases/2026/06/global-economic-outlook-weakens-amid-energy-shock-and-rising-inflationary-pressures.html",
@@ -4249,7 +4242,18 @@
         "https://www.youtube.com/watch?v=wCOJMFO61mM"
       ],
       "date": "2026-07-07T22:01:45.253292+00:00"
+    },
+    {
+      "title": "YaCy Expands User Resources With New Tutorials, Download Page, Community Forums, and Git Repository",
+      "urls": [
+        "https://yacy.net/tutorials",
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-07-07T22:31:32.457035+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T22:01:45.253362+00:00"
+  "lastUpdated": "2026-07-07T22:31:32.457112+00:00"
 }
