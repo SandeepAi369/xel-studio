@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "S&P Global Highlights Ten Sustainability Trends Shaping Corporate Strategy In 2026",
-      "urls": [
-        "https://www.nusconsulting.com/energy-news/sustainability-news-march-2026",
-        "https://www.carbonbrief.org",
-        "https://news.un.org/en/story/2026/06/1167785",
-        "https://www.spglobal.com/sustainable1/en/insights/2026-sustainability-trends",
-        "https://www.forbes.com/sites/monicasanders/2026/01/06/a-sustainability-shift-in-2026-what-every-ceo-should-know",
-        "https://www.ft.com/content/33ba41ba-4b57-4fb0-b16f-baa03358fc59"
-      ],
-      "date": "2026-06-27T21:31:42.119291+00:00"
-    },
-    {
       "title": "Deloitte and Google Cloud Launch London AI Studio to Accelerate UK's Agentic AI Shift",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/deloitte-google-cloud-collaborate-launch-070000931.html"
@@ -4249,7 +4237,19 @@
         "https://www.instagram.com/reel/DZ-lr4iOZt0"
       ],
       "date": "2026-07-07T21:31:39.709191+00:00"
+    },
+    {
+      "title": "YouTube Showcases Fifteen New AI Capabilities Emerging in 2026 Across Industries",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsrji4/morgan_stanley_warns_an_ai_breakthrough_is_coming",
+        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai",
+        "https://www.reddit.com/r/SaaS/comments/1qvhr5y/15_ai_development_companies_dominating_2026_i",
+        "https://www.youtube.com/watch?v=IjHIE2DMUNg&vl=en",
+        "https://www.youtube.com/watch?v=wCOJMFO61mM"
+      ],
+      "date": "2026-07-07T22:01:45.253292+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T21:31:39.709255+00:00"
+  "lastUpdated": "2026-07-07T22:01:45.253362+00:00"
 }
