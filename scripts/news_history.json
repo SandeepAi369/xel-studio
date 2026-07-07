@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Expo Lagos Highlights Telemedicine and Digital Health Advances",
-      "urls": [
-        "https://www.msn.com/en-xl/news/other/telemedicine-digital-health-dominate-discussions-at-world-health-expo-lagos/ar-AA252FjT?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-27T15:01:33.482217+00:00"
-    },
-    {
       "title": "Harvard Researchers Claim Quantum Computing Progress Accelerates, YouTube Showcases Top Fifteen Breakthroughs",
       "urls": [
         "https://www.youtube.com/watch?v=8JRJxsvJdRs",
@@ -4243,7 +4236,16 @@
         "https://www.instagram.com/reel/Dac7HkbSrL7"
       ],
       "date": "2026-07-07T14:32:07.422695+00:00"
+    },
+    {
+      "title": "ABC News Releases Short Video Offering Mental Health Tips For 2026",
+      "urls": [
+        "https://abcnews.go.com/Health/video/ways-improve-mental-health-2026-128733616",
+        "https://www.youtube.com/watch?v=f1iJ47lgfZU",
+        "https://www.youtube.com/watch?v=UyLSO2gWOsw"
+      ],
+      "date": "2026-07-07T15:01:39.883681+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T14:32:07.422760+00:00"
+  "lastUpdated": "2026-07-07T15:01:39.883753+00:00"
 }
