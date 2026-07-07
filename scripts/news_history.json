@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mississippi Redistricting Raises Concerns Over Voter Registration Shifts Ahead Of 2026 Elections",
-      "urls": [
-        "https://golfweek.usatoday.com/story/news/politics/2026/06/10/mississippi-redistricting-and-mississippi-voter-registration/90350616007"
-      ],
-      "date": "2026-06-27T16:01:39.812376+00:00"
-    },
-    {
       "title": "2026 World Cup Shatters Goal Record and Draws Record Crowds as Dembele Nets Hat‑Trick",
       "urls": [
         "https://www.sentinelassam.com/sports-news/record-breaking-world-cup-sees-historic-goal-tally-and-record-crowds",
@@ -4244,7 +4237,15 @@
         "https://www.opensourceforu.com/2026/07/ai-cc-integrates-500-hugging-face-open-source-models-via-a-single-unified-api"
       ],
       "date": "2026-07-07T15:31:43.106578+00:00"
+    },
+    {
+      "title": "Linux Foundation Launches Akrites Initiative to Shield Open Source Software From AI Threats",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/06/25/10406369.htm",
+        "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os"
+      ],
+      "date": "2026-07-07T16:01:45.164782+00:00"
     }
   ],
-  "lastUpdated": "2026-07-07T15:31:43.106640+00:00"
+  "lastUpdated": "2026-07-07T16:01:45.164868+00:00"
 }
