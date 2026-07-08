@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Private Cloud Enables AI-First Enterprises to Scale Securely Across Global Data Centers",
-      "urls": [
-        "https://www.forbes.com/councils/forbestechcouncil/2026/05/18/operationalizing-private-cloud-for-the-ai-first-future"
-      ],
-      "date": "2026-06-28T13:31:31.814367+00:00"
-    },
-    {
       "title": "Silicon Valley Bank Releases April 2026 Report Forecasting Climate Tech Investment Trends",
       "urls": [
         "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
@@ -4254,7 +4247,14 @@
         "https://www.youtube.com/watch?v=lZcxbvIBQv0"
       ],
       "date": "2026-07-08T13:01:44.773570+00:00"
+    },
+    {
+      "title": "Applause Report Shows 78 Percent AI Adoption but Ongoing Accessibility Gaps",
+      "urls": [
+        "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech"
+      ],
+      "date": "2026-07-08T13:31:33.259541+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T13:01:44.773637+00:00"
+  "lastUpdated": "2026-07-08T13:31:33.259605+00:00"
 }
