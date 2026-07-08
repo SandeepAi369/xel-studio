@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Brunei Leads ASEAN in Per-Capita Carbon Emissions, Raising Climate Concerns",
-      "urls": [
-        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/24/brunei-records-highest-per-capita-carbon-emissions-in-asean-report"
-      ],
-      "date": "2026-06-28T02:33:15.134490+00:00"
-    },
-    {
-      "title": "UNCTAD Publishes Global Trade Update Emphasizing Reform of Rules to Boost Development",
-      "urls": [
-        "https://unctad.org/publication/global-trade-update-march-2026-reforming-trade-rules-drive-development"
-      ],
-      "date": "2026-06-28T03:01:36.673173+00:00"
-    },
-    {
       "title": "US and Iran Sign Initial Agreement Prompting Global Diplomatic Reactions",
       "urls": [
         "https://www.usatoday.com/story/news/world/2026/06/14/iran-war-live-updates-us-israel-trump--live/90541178007",
@@ -4249,7 +4235,17 @@
         "https://www.bioworld.com/articles/732073-2026-marks-critical-turning-point-for-bci-technology"
       ],
       "date": "2026-07-08T02:31:32.573756+00:00"
+    },
+    {
+      "title": "NVIDIA Showcases Age of AI at GTC Conference with Jensen Huang and Global Tech Leaders",
+      "urls": [
+        "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments",
+        "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026",
+        "https://www.reddit.com/r/accelerate/comments/1tkygbr/nyt_im_the_ceo_of_goldman_sachs_the_ai_job",
+        "https://www.reddit.com/r/ExperiencedDevs/comments/1sb5iqh/what_actually_makes_a_developer_hard_to_replace"
+      ],
+      "date": "2026-07-08T03:01:40.635098+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T02:31:32.573833+00:00"
+  "lastUpdated": "2026-07-08T03:01:40.635167+00:00"
 }
