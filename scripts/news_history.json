@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM Commits Over $10 Billion to Accelerate Quantum Computing Roadmap Toward Fault‑Tolerant Machines",
-      "urls": [
-        "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
-      ],
-      "date": "2026-06-28T04:31:39.353186+00:00"
-    },
-    {
       "title": "Hugging Face Publishes Comprehensive Guide to AI Community and Tools",
       "urls": [
         "https://www.metacto.com/blogs/what-is-hugging-face-a-guide-to-the-ai-community-and-its-tools"
@@ -4253,7 +4246,19 @@
         "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
       ],
       "date": "2026-07-08T04:31:25.855451+00:00"
+    },
+    {
+      "title": "Mistral AI Releases New Open Source Models for 2026, Expanding Developer Toolkit",
+      "urls": [
+        "https://aizolo.com/blog/mistral-ai-models-2026",
+        "https://www.reddit.com/r/MistralAI/comments/1qv1o6n/how_do_you_see_lechat_in_2026_february_compared",
+        "https://www.reddit.com/r/MistralAI/comments/1spsqg6/le_chat_think_failing_the_car_wash_test_in_2026",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r14bqk/i_benchmarked_the_newest_40_ai_models_feb_2026",
+        "https://www.reddit.com/r/MistralAI/comments/1rpgjs5/does_anyone_else_here_notice_a_recent_improvement",
+        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en"
+      ],
+      "date": "2026-07-08T05:01:30.503699+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T04:31:25.855522+00:00"
+  "lastUpdated": "2026-07-08T05:01:30.503759+00:00"
 }
