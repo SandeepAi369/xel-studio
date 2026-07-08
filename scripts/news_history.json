@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drug Discovery Advances 173 Programs Under New FDA Framework In 2026",
-      "urls": [
-        "https://visionlifesciences.com/insights/drug-discovery-ai-news",
-        "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials",
-        "https://axis-intelligence.com/ai-drug-discovery-2026-complete-analysis",
-        "https://aiworldjournal.com/2026-the-year-ai-reinvents-drug-discovery",
-        "https://www.drugdiscoverynews.com/the-2026-ai-power-shift-17020"
-      ],
-      "date": "2026-06-28T09:31:33.641270+00:00"
-    },
-    {
       "title": "Humanoid Robotics Technology Lists Top Twelve Humanoid Robots of 2026",
       "urls": [
         "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026"
@@ -4267,7 +4256,19 @@
         "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living"
       ],
       "date": "2026-07-08T09:31:22.467856+00:00"
+    },
+    {
+      "title": "World Health Organization Releases Fact Sheet on Deafness and Hearing Loss",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s10209-025-01270-y",
+        "https://rylo.com/post/latest-innovations-in-technology-for-deaf",
+        "https://deafvibes.com/ai-and-accessibility-technologies/deaf-technology",
+        "https://deafandhoh.com/category/news",
+        "https://dl.acm.org/doi/10.1145/3706598.3714241",
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+      ],
+      "date": "2026-07-08T10:01:35.218665+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T09:31:22.467911+00:00"
+  "lastUpdated": "2026-07-08T10:01:35.218732+00:00"
 }
