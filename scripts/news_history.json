@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Silicon Valley Bank Releases April 2026 Report Forecasting Climate Tech Investment Trends",
-      "urls": [
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech"
-      ],
-      "date": "2026-06-28T14:01:33.574385+00:00"
-    },
-    {
       "title": "Ocean Warming Triggers Global Marine Disruption as Temperatures Exceed 1.5°C Threshold",
       "urls": [
         "https://www.msn.com/en-us/news/technology/ocean-warming-above-15-c-triggered-year-round-marine-disruption-across-globe-study-shows/ar-AA26DYtO?ocid=BingNewsVerp",
@@ -4254,7 +4247,14 @@
         "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech"
       ],
       "date": "2026-07-08T13:31:33.259541+00:00"
+    },
+    {
+      "title": "Assistive Technology Delivers On-Demand Sight for Blind Users Through New Three-Year Leap",
+      "urls": [
+        "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026"
+      ],
+      "date": "2026-07-08T14:02:05.791076+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T13:31:33.259605+00:00"
+  "lastUpdated": "2026-07-08T14:02:05.791155+00:00"
 }
