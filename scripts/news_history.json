@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jade Carey Announces Return to Elite Gymnastics After Olympic Gold",
-      "urls": [
-        "https://sports.yahoo.com/articles/ross-county-athletes-excel-ohio-090712740.html",
-        "https://www.nbcolympics.com/news/all-olympic-champions-figure-skating-2026-milan-cortina-winter-olympic-games",
-        "https://www.forbes.com/sites/carolineprice/2026/04/25/olympic-gold-medalist-jade-carey-announces-elite-gymnastics-comeback"
-      ],
-      "date": "2026-06-28T15:02:04.565997+00:00"
-    },
-    {
-      "title": "Meta Launches Muse Spark Model as Google Limits Gemini Access, Raising AI Competition Stakes",
-      "urls": [
-        "https://www.euronews.com/next/2026/04/09/meta-enters-ai-race-with-muse-spark-its-major-model-since-spending-spree-heres-what-to-kno",
-        "https://thenextweb.com/news/google-caps-meta-gemini-compute-shortage",
-        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/ai-chatbots"
-      ],
-      "date": "2026-06-28T15:31:23.354122+00:00"
-    },
-    {
       "title": "United Nations Reports 123.2 Million People Displaced Globally Amid Rising Migration Pressures",
       "urls": [
         "https://www.unhcr.org/us/global-trends",
@@ -4257,7 +4239,14 @@
         "https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected"
       ],
       "date": "2026-07-08T15:02:01.175825+00:00"
+    },
+    {
+      "title": "Hedra Highlights Leading AI Image and Video Models of Early 2026",
+      "urls": [
+        "https://www.hedra.com/blog/ai-models-first-half-2026"
+      ],
+      "date": "2026-07-08T15:31:31.702659+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T15:02:01.175888+00:00"
+  "lastUpdated": "2026-07-08T15:31:31.702742+00:00"
 }
