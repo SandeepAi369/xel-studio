@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Publishes New Research Release Page to Centralize Latest AI Advances",
-      "urls": [
-        "https://openai.com/research/index/release"
-      ],
-      "date": "2026-06-28T06:01:35.601559+00:00"
-    },
-    {
       "title": "Apollo Global Management Publishes 2026 Clean Energy And Climate Tech Market Predictions",
       "urls": [
         "https://www.apollo.com/institutional/insights-news/insights/expert-briefing/2026/01/2026-prediction-for-clean-energy--clean-tech--climate-tech--sustainability-markets"
@@ -4260,7 +4253,14 @@
         "https://247wallst.com/investing/2026/06/04/amazons-50-billion-chip-secret-why-it-could-become-nvidias-biggest-ai-rival"
       ],
       "date": "2026-07-08T06:01:34.490815+00:00"
+    },
+    {
+      "title": "Florida Earthquake Database Offers Free Access to Statewide Seismic Map",
+      "urls": [
+        "https://www.floridatoday.com/story/news/2026/06/08/florida-earthquake-free-database/90461606007"
+      ],
+      "date": "2026-07-08T06:31:20.266773+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T06:01:34.490896+00:00"
+  "lastUpdated": "2026-07-08T06:31:20.266831+00:00"
 }
