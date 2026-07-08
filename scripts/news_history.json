@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "US and Iran Sign Initial Agreement Prompting Global Diplomatic Reactions",
-      "urls": [
-        "https://www.usatoday.com/story/news/world/2026/06/14/iran-war-live-updates-us-israel-trump--live/90541178007",
-        "https://www.cnn.com/2026/06/18/world/live-news/iran-war-trump-israel-lebanon",
-        "https://www.msn.com/en-us/news/other/the-most-expensive-u-turn-if-we-ended-up-back-at-the-jcpoa-what-was-the-war-for/ar-AA262V2U?ocid=BingNewsVerp",
-        "https://www.cnn.com/2026/06/03/politics/trump-iran-war-peace-deal-analysis"
-      ],
-      "date": "2026-06-28T03:31:40.456288+00:00"
-    },
-    {
-      "title": "Anthropic Opens Fellows Program Applications for AI Safety Research in May and July",
-      "urls": [
-        "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026"
-      ],
-      "date": "2026-06-28T04:01:43.681124+00:00"
-    },
-    {
       "title": "IBM Commits Over $10 Billion to Accelerate Quantum Computing Roadmap Toward Fault‑Tolerant Machines",
       "urls": [
         "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
@@ -4252,7 +4235,17 @@
         "https://www.soci.org/news/2026/6/ten-scientific-advances-getting-ready-to-change-the-world"
       ],
       "date": "2026-07-08T03:31:34.753122+00:00"
+    },
+    {
+      "title": "Big Tech Earnings Reveal Market Rewards for Large Smart Spending",
+      "urls": [
+        "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1tpr8q4/us_softwaredeveloper_employment_has_continued_to",
+        "https://www.reddit.com/r/technology/comments/1tlghfh/tech_layoffs_have_already_passed_100000_in_2026",
+        "https://www.reddit.com/r/EconomyCharts/comments/1t2lf5c/tech_layoffs_are_skyrocketing_tech_companies"
+      ],
+      "date": "2026-07-08T04:01:51.904150+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T03:31:34.753177+00:00"
+  "lastUpdated": "2026-07-08T04:01:51.904210+00:00"
 }
