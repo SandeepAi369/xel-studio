@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thermo Fisher Scientific Unveils New Manufacturing, Clinical and AI Research Capabilities at BIO International",
-      "urls": [
-        "https://www.hollywoodreporter.com/news/general-news/hollywood-and-science-unite-2026-breakthrough-prize-1236573837",
-        "https://markets.businessinsider.com/news/stocks/lim-meng-hoong-ai-is-entering-a-new-era-of-scientific-infrastructure-insights-from-science-x-ai-summit-2026-1036230553",
-        "https://www.digitaltrends.com/computing/google-wants-gemini-to-help-build-the-next-big-scientific-breakthrough",
-        "https://www.tmcnet.com/usubmit/2026/06/22/10403285.htm"
-      ],
-      "date": "2026-06-28T22:01:52.701059+00:00"
-    },
-    {
       "title": "United States Logs Over Twelve Billion‑Dollar Weather Disasters in 2026",
       "urls": [
         "https://www.msn.com/en-us/weather/extreme-weather-events/the-us-has-already-logged-more-than-a-dozen-billion-dollar-weather-disasters-in-2026/ar-AA25zkeL?ocid=BingNewsVerp"
@@ -4252,7 +4242,14 @@
         "https://markets.businessinsider.com/news/stocks/wemix-solidifies-global-reach-with-listing-on-kraken-1036303745"
       ],
       "date": "2026-07-08T22:01:48.188442+00:00"
+    },
+    {
+      "title": "Europe and United States Experience Record Extreme Heat, Scientists Track Climate Impacts",
+      "urls": [
+        "https://www.bloomberg.com/graphics/2026-extreme-heat-climate-change-data"
+      ],
+      "date": "2026-07-08T22:31:26.428086+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T22:01:48.188510+00:00"
+  "lastUpdated": "2026-07-08T22:31:26.428163+00:00"
 }
