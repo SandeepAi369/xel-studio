@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Search Entries Provide No Details, Blocking Ability to Produce Informative News Story",
-      "urls": [
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1pxnzzd/where_are_the_amazing_ai_breakthroughs_in",
-        "https://www.reddit.com/r/Futurology/comments/1fgon9c/what_are_your_medical_treatmentcure_predictions",
-        "https://www.reddit.com/r/AskReddit/comments/bsufb1/scientists_of_reddit_what_is_the_most_amazing",
-        "https://www.reddit.com/r/AskReddit/comments/b7ssbh/what_are_some_recent_scientific"
-      ],
-      "date": "2026-06-28T05:31:35.357683+00:00"
-    },
-    {
       "title": "OpenAI Publishes New Research Release Page to Centralize Latest AI Advances",
       "urls": [
         "https://openai.com/research/index/release"
@@ -4259,7 +4249,18 @@
         "https://doubletaponair.com/ces-2026-the-most-exciting-accessibility-innovations-revealed"
       ],
       "date": "2026-07-08T05:31:27.351857+00:00"
+    },
+    {
+      "title": "AMD Gains Ground on Nvidia as Amazon Invests $50 Billion in AI Chip Development",
+      "urls": [
+        "https://247wallst.com/investing/2026/07/06/is-this-where-amd-catches-nvidia-goldman-sachs-says-its-gaining-ground",
+        "https://www.aol.com/articles/forget-betting-everything-nvidia-chip-105332000.html",
+        "https://www.msn.com/en-us/money/top-stocks/nvidia-s-bargain-price-already-reflects-lost-market-share-says-goldman/ar-AA27jF2i?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/technology/tech-companies/michael-burry-just-revealed-his-next-big-short-and-it-s-a-bet-against-nvidia-micron-and-amd/ar-AA27qd1i?ocid=BingNewsVerp",
+        "https://247wallst.com/investing/2026/06/04/amazons-50-billion-chip-secret-why-it-could-become-nvidias-biggest-ai-rival"
+      ],
+      "date": "2026-07-08T06:01:34.490815+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T05:31:27.351924+00:00"
+  "lastUpdated": "2026-07-08T06:01:34.490896+00:00"
 }
