@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Reports 123.2 Million People Displaced Globally Amid Rising Migration Pressures",
-      "urls": [
-        "https://www.unhcr.org/us/global-trends",
-        "https://www.youtube.com/watch?v=IammWgU1YUI",
-        "https://www.youtube.com/watch?v=g8bdckasgxI",
-        "https://www.youtube.com/watch?v=f4Z5kUQ99jU",
-        "https://www.youtube.com/watch?v=t26JjUIsSFk"
-      ],
-      "date": "2026-06-28T16:01:41.996850+00:00"
-    },
-    {
       "title": "Lionel Messi Breaks Seven World Cup Records Ahead of South Africa Canada Knockout",
       "urls": [
         "https://www.bbc.com/sport/football/live/c8023448dpmt",
@@ -4246,7 +4235,15 @@
         "https://www.hedra.com/blog/ai-models-first-half-2026"
       ],
       "date": "2026-07-08T15:31:31.702659+00:00"
+    },
+    {
+      "title": "BAAI Conference Showcases Global AI Momentum at 2026 Premier Summit",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/i-argued-with-the-father-of-open-source-for-2-years-now-the-ai-fight-is-the-same-only-bigger/ar-AA279eOb?ocid=BingNewsVerp",
+        "https://www.usatoday.com/press-release/story/34913/unprecedented-global-momentum-2026-baai-conference-the-worlds-premier-ai-summit"
+      ],
+      "date": "2026-07-08T16:01:46.598982+00:00"
     }
   ],
-  "lastUpdated": "2026-07-08T15:31:31.702742+00:00"
+  "lastUpdated": "2026-07-08T16:01:46.599039+00:00"
 }
