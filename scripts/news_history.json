@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wildfire Dark Brown Carbon Drives Strong Global Warming, Study Finds",
-      "urls": [
-        "https://www.nytimes.com/2026/05/28/climate/europe-heat-wave-climate-change.html",
-        "https://phys.org/news/2026-05-wildfire-dark-brown-carbon-strong.html",
-        "https://www.bloomberg.com/news/articles/2026-05-28/global-warming-likely-to-exceed-1-5c-through-2030-wmo-says",
-        "https://www.nature.com/articles/s41558-026-02660-7"
-      ],
-      "date": "2026-06-29T12:01:39.641582+00:00"
-    },
-    {
       "title": "Mexico and South Africa Clash in Dramatic 2026 World Cup Opener",
       "urls": [
         "https://nypost.com/2026/06/12/sports/the-moments-you-mightve-overlooked-from-knicks-nba-finals-game-4",
@@ -4216,7 +4206,14 @@
         "https://www.cnbc.com/2026/06/17/anthropic-ai-regulation-trump.html"
       ],
       "date": "2026-07-09T11:36:41.150510+00:00"
+    },
+    {
+      "title": "Alphabet, Microsoft, Amazon, and Meta Drive Record Stock Rally with AI Spending",
+      "urls": [
+        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796"
+      ],
+      "date": "2026-07-09T12:01:39.699945+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T11:36:41.150587+00:00"
+  "lastUpdated": "2026-07-09T12:01:39.700013+00:00"
 }
