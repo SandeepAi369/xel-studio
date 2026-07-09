@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"National Organization on Disability Showcases AI Tools Enhancing Accessibility in Schools\",",
-      "urls": [
-        "https://nod.org/event/ai-for-accessibility-inclusive-tech-in-action-may-21-2026",
-        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
-      ],
-      "date": "2026-06-29T21:31:31.092201+00:00"
-    },
-    {
       "title": "\"title\": \"Simons Foundation Announces Quantum Dynamics Breakthrough That Overturns Quantum Supremacy Claim\",",
       "urls": [
         "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
@@ -4222,7 +4214,14 @@
         "https://www.otcbc.org/otc-explores-emerging-assistive-technology"
       ],
       "date": "2026-07-09T21:01:43.655624+00:00"
+    },
+    {
+      "title": "SpaceX Conducts Successful Morning Rocket Launch From Florida Launch Site",
+      "urls": [
+        "https://www.floridatoday.com/story/tech/science/space/spacex/2026/07/08/when-next-florida-rocket-launch-how-watch-see-liftoff-spacex/90844925007"
+      ],
+      "date": "2026-07-09T21:32:06.228650+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T21:01:43.655698+00:00"
+  "lastUpdated": "2026-07-09T21:32:06.228724+00:00"
 }
