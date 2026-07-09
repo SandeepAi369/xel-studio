@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Opinion Article Provides No Content, Leaving Readers Without Information In Recent Search",
-      "urls": [
-        "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
-        "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html"
-      ],
-      "date": "2026-06-29T19:31:24.448792+00:00"
-    },
-    {
       "title": "EY Publishes Top Ten Geopolitical Developments Shaping 2026 Global Landscape",
       "urls": [
         "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
@@ -4218,7 +4210,18 @@
         "https://www.iea.org/reports/electricity-2026/supply"
       ],
       "date": "2026-07-09T19:01:39.142717+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.5 Model and Announces Public Release of GPT-5.6",
+      "urls": [
+        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
+        "https://www.youtube.com/watch?v=RspKXuNi_iE",
+        "https://www.youtube.com/watch?v=vzAII7vUj68",
+        "https://www.youtube.com/watch?v=uFzfbAPZOhc",
+        "https://www.nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651"
+      ],
+      "date": "2026-07-09T19:31:38.566181+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T19:01:39.142786+00:00"
+  "lastUpdated": "2026-07-09T19:31:38.566274+00:00"
 }
