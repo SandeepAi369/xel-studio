@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"International.com Expands Online Truck Catalog with Dedicated Commercial Vehicle Pages\",",
-      "urls": [
-        "https://www.international.com/products/trucks",
-        "https://www.international.com",
-        "https://www.merriam-webster.com/dictionary/international",
-        "https://en.wikipedia.org/wiki/International",
-        "https://www.reuters.com",
-        "https://www.npr.org/sections/world",
-        "https://abcnews.com/International"
-      ],
-      "date": "2026-06-29T01:01:45.900356+00:00"
-    },
-    {
       "title": "Science Times Highlights Breakthrough Medical Technologies Shaping 2025‑2026 Future Healthcare Landscape",
       "urls": [
         "https://www.news-medical.net/category/Medical-Research-News.aspx",
@@ -4243,7 +4230,14 @@
         "https://www.msn.com/en-in/news/techandscience/iit-madras-neurodiversity-summit-2026-develop-strategy-for-technology-driven-inclusive-ecosystem/ar-AA27r94S?ocid=BingNewsVerp"
       ],
       "date": "2026-07-09T01:01:38.577409+00:00"
+    },
+    {
+      "title": "NASA Highlights Climate Change Data on New Science Web Page",
+      "urls": [
+        "https://science.nasa.gov/climate-change"
+      ],
+      "date": "2026-07-09T01:31:25.146927+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T01:01:38.577494+00:00"
+  "lastUpdated": "2026-07-09T01:31:25.146984+00:00"
 }
