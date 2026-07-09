@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Open Source Software Community News — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.morningstar.com/news/pr-newswire/20260610ph80463/t-rowe-price-2026-midyear-market-outlook-fragmentation-ai-and-inflation-reshape-financial-markets-amid-heightened-geopolitical-tensions"
-      ],
-      "date": "2026-06-29T14:31:37.324621+00:00"
-    },
-    {
       "title": "Qualcomm Nears $4 Billion Deal to Acquire AI Chip Startup Modular Inc",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/qualcomm-nears-4b-deal-ai-221042270.html"
@@ -4214,7 +4207,15 @@
         "https://www.youtube.com/watch?v=t-GeDuS3qWw"
       ],
       "date": "2026-07-09T14:31:34.630556+00:00"
+    },
+    {
+      "title": "OpenAI Publishes Detailed ChatGPT Release Notes and Research Updates on Official Pages",
+      "urls": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://openai.com/research/index/release"
+      ],
+      "date": "2026-07-09T15:01:47.250455+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T14:31:34.630617+00:00"
+  "lastUpdated": "2026-07-09T15:01:47.250532+00:00"
 }
