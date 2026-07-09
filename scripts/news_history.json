@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qualcomm Nears $4 Billion Deal to Acquire AI Chip Startup Modular Inc",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/qualcomm-nears-4b-deal-ai-221042270.html"
-      ],
-      "date": "2026-06-29T15:01:53.507931+00:00"
-    },
-    {
-      "title": "India Tech Funding Rises 12 Percent To $7.2 Billion In First Half Of 2026",
-      "urls": [
-        "https://www.msn.com/en-us/money/companies/after-nvidia-s-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/ar-AA24nvxZ?ocid=BingNewsVerp",
-        "https://news.crunchbase.com/defense-tech/startup-venture-funding-all-time-record-ai-anduril",
-        "https://www.rediff.com/business/report/india-tech-funding-rises-12-to-72-bn-in-h1-2026-but-deal-count-shrinks/20260626.htm",
-        "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
-      ],
-      "date": "2026-06-29T15:31:19.000220+00:00"
-    },
-    {
       "title": "Limelight Digital Releases 2026 Global Sports Viewership Rankings Highlighting Top Audiences",
       "urls": [
         "https://www.limelightdigital.co.uk/sports-viewership-statistics",
@@ -4215,7 +4198,20 @@
         "https://openai.com/research/index/release"
       ],
       "date": "2026-07-09T15:01:47.250455+00:00"
+    },
+    {
+      "title": "Techie Tweetz Highlights Top Ten AI Tools for Developers in 2026",
+      "urls": [
+        "https://techietweetz.com/top-10-ai-tools-for-developers-in-2026",
+        "https://www.aubergine.co/insights/top-ai-coding-design-tools-in-2026",
+        "https://www.reddit.com/r/webdev/comments/1r36elk/ok_its_2026_what_are_the_ai_gains",
+        "https://www.reddit.com/r/BetterOffline/comments/1ppm2c1/ai_wont_replace_developers_in_2026",
+        "https://www.reddit.com/r/GeminiAI/comments/1qe5a0x/what_are_the_most_useful_ai_tools_in_2026_heres",
+        "https://www.reddit.com/r/programming/comments/1q88doa/ai_maturity_levels_for_software_teams_or",
+        "https://ai-neural.lovable.app/article/ai-coding-tools-best-guide-2026"
+      ],
+      "date": "2026-07-09T15:31:41.466111+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T15:01:47.250532+00:00"
+  "lastUpdated": "2026-07-09T15:31:41.466190+00:00"
 }
