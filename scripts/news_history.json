@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Highlights Official Website Structure Emphasizing Brand Identity and Search Optimization",
-      "urls": [
-        "https://www.ufc.com"
-      ],
-      "date": "2026-06-29T00:01:49.882170+00:00"
-    },
-    {
       "title": "Open-Source AI Faces Climate Promise and Inequality Warning From Experts",
       "urls": [
         "https://www.thetechedvocate.org/discover-how-the-open-source-ai-fellowship-2026-is-transforming-ai-for-everyone",
@@ -4245,7 +4238,15 @@
         "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks"
       ],
       "date": "2026-07-09T00:01:46.064510+00:00"
+    },
+    {
+      "title": "Indian Express Expands Sports Section Covering Cricket Chess Football Hockey And Tennis",
+      "urls": [
+        "https://indianexpress.com/section/sports",
+        "https://www.abc.net.au/news/sport/football"
+      ],
+      "date": "2026-07-09T00:31:32.770378+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T00:01:46.064570+00:00"
+  "lastUpdated": "2026-07-09T00:31:32.770451+00:00"
 }
