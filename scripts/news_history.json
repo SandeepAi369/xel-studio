@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jaccob Slavin Joins Ken Morrow as Only Americans to Win Olympic Gold and NHL Title in Same Year",
-      "urls": [
-        "https://www.msn.com/en-us/sports/other/jaccob-slavin-joins-ken-morrow-as-only-americans-to-win-olympic-gold-nhl-title-in-same-year/ar-AA25EcgL?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-29T09:33:26.325175+00:00"
-    },
-    {
-      "title": "BentoML Publishes Guide Highlighting Top Open-Source Large Language Models for 2026",
-      "urls": [
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
-      ],
-      "date": "2026-06-29T10:01:31.284535+00:00"
-    },
-    {
       "title": "Anthropic Announces 2026 AI Safety Research Program Targeting Alignment Challenges",
       "urls": [
         "https://ainewshub.io/anthropic-news",
@@ -4224,7 +4210,15 @@
         "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities"
       ],
       "date": "2026-07-09T09:31:33.473930+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Spring 2026 Open Source Report and Announces New Multimodal Models",
+      "urls": [
+        "https://aitoolly.com/ai-news/article/2026-03-18-state-of-open-source-on-hugging-face-spring-2026-report-released-by-hugging-face-blog",
+        "https://af.net/realtime/hugging-face-announces-june-2026-updates-featuring-new-multimodal-and-ocr-models"
+      ],
+      "date": "2026-07-09T10:01:44.011485+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T09:31:33.473990+00:00"
+  "lastUpdated": "2026-07-09T10:01:44.011553+00:00"
 }
