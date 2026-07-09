@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Congress.gov Expands AI Regulation Tracker for U.S. and International Policies",
-      "urls": [
-        "https://www.congress.gov/crs_external_products/R/PDF/R48555/R48555.3.pdf",
-        "https://www.aipolicypulse.com",
-        "https://www.globaltechcouncil.org/artificial-intelligence/future-of-ai-regulation-and-government-policies",
-        "https://regulations.ai",
-        "https://www.artificialintelligence-news.com/categories/inside-ai/new_governance-regulation-and-policy"
-      ],
-      "date": "2026-06-29T13:31:30.600629+00:00"
-    },
-    {
       "title": "Temporary Carbon Removal Could Boost Climate Goals If Applied Correctly",
       "urls": [
         "https://phys.org/news/2026-05-temporary-carbon-climate-goals.html",
@@ -4208,7 +4197,14 @@
         "https://carbon-pulse.com/528522"
       ],
       "date": "2026-07-09T13:11:44.557518+00:00"
+    },
+    {
+      "title": "Google Publishes I/O 2026 Blog Summarizing Conference Announcements for Developers",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection"
+      ],
+      "date": "2026-07-09T13:31:52.361772+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T13:11:44.557590+00:00"
+  "lastUpdated": "2026-07-09T13:31:52.361876+00:00"
 }
