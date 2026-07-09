@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Akamai Stock Surges 20 Percent After Earnings Beat and Announces $1.8 Billion AI Deal",
-      "urls": [
-        "https://www.geekwire.com/cloud",
-        "https://www.moneycontrol.com/technology/intel-at-computex-2026-from-new-xeon-6-to-rackscale-ai-infrastructure-everything-intel-announced-article-13938645.html",
-        "https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html",
-        "https://www.tmcnet.com/usubmit/2026/06/26/10406625.htm",
-        "https://www.msn.com/en-in/money/news/nvidia-to-offer-affordable-ai-computing-to-australias-firmus-technologies-under-new-deal/ar-AA26NeEX?ocid=BingNewsVerp",
-        "https://www.morningstar.com/news/business-wire/20260514608864/sharon-ai-announces-five-year-cloud-computing-infrastructure-agreement"
-      ],
-      "date": "2026-06-29T23:01:40.152856+00:00"
-    },
-    {
       "title": "Canada Crypto Week Returns July 20‑26 Highlighting Web3, Digital Assets and AI",
       "urls": [
         "https://markets.businessinsider.com/news/currencies/canada-crypto-week-returns-july-20-26-celebrating-the-future-of-web3-digital-assets-and-ai-1036242150"
@@ -4223,7 +4211,15 @@
         "https://www.volcanodiscovery.com/view_news/318265/World-Earthquake-Report-for-July-2026.html"
       ],
       "date": "2026-07-09T22:31:27.485306+00:00"
+    },
+    {
+      "title": "PyTorch Leads AI Research With 55 Percent Share Outpacing TensorFlow In 2026",
+      "urls": [
+        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks",
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
+      ],
+      "date": "2026-07-09T23:01:41.457345+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T22:31:27.485361+00:00"
+  "lastUpdated": "2026-07-09T23:01:41.457423+00:00"
 }
