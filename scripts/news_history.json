@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Perkins School for the Blind Publishes Comprehensive A to Z Guide of Low Vision Assistive Technology",
-      "urls": [
-        "https://www.perkins.org/resource/z-assistive-technology-low-vision"
-      ],
-      "date": "2026-06-30T19:01:37.808195+00:00"
-    },
-    {
       "title": "Savvycom Highlights TensorFlow and PyTorch as Leading AI Development Frameworks in 2026",
       "urls": [
         "https://savvycomsoftware.com/blog/ai-development-framework"
@@ -4268,7 +4261,16 @@
         "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
       ],
       "date": "2026-07-10T19:01:36.562155+00:00"
+    },
+    {
+      "title": "Reddit Pages Listed Multiple Times Without Descriptions In Search Results",
+      "urls": [
+        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
+        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
+        "https://www.reddit.com/r/technology/comments/1urjxyk/meta_is_reportedly_working_on_smart_glasses_that"
+      ],
+      "date": "2026-07-10T19:31:27.705017+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T19:01:36.562242+00:00"
+  "lastUpdated": "2026-07-10T19:31:27.705078+00:00"
 }
