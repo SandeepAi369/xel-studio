@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oracle Announces $40 Billion Capex Increase, Shares Drop After Earnings Call",
-      "urls": [
-        "https://www.fool.com/investing/2026/05/29/if-youre-only-going-to-buy-1-tech-stock-before-the",
-        "https://www.msn.com/en-us/money/other/these-2-computer-and-technology-stocks-could-beat-earnings-why-they-should-be-on-your-radar/ar-AA26NYIn?ocid=BingNewsVerp",
-        "https://www.thestreet.com/latest-news/orcl-oracle-earnings-call-updates-q4-2026"
-      ],
-      "date": "2026-06-30T07:01:57.381508+00:00"
-    },
-    {
       "title": "Climate Scientist Finds Large Errors in Global Pollution Database and Calls for Review",
       "urls": [
         "https://phys.org/news/2026-05-climate-scientist-large-errors-global.html"
@@ -4239,7 +4230,14 @@
         "https://www.indiatoday.in/world/story/us-iran-war-live-updates-ceasefire-talks-donald-trump-strait-of-hormuz-middle-east-tensions-2942546-2026-07-07"
       ],
       "date": "2026-07-10T07:01:50.435803+00:00"
+    },
+    {
+      "title": "Microsoft, Meta, Amazon, and Alphabet Release Quarterly Earnings in Big Tech Earningspalooza",
+      "urls": [
+        "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805"
+      ],
+      "date": "2026-07-10T07:31:42.537751+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T07:01:50.435878+00:00"
+  "lastUpdated": "2026-07-10T07:31:42.537816+00:00"
 }
