@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Pledges $350 Million to Boost Safe AI Development Amid Regulation Push",
-      "urls": [
-        "https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm",
-        "https://www.csmonitor.com/USA/Politics/2026/0610/artificial-intelligence-regulation-trump-congress"
-      ],
-      "date": "2026-06-30T11:31:22.622297+00:00"
-    },
-    {
       "title": "Uber Exhausts 2026 AI Budget in Four Months Using Claude Code",
       "urls": [
         "https://www.forbes.com/sites/janakirammsv/2026/05/17/uber-burns-its-2026-ai-budget-in-four-months-on-claude-code",
@@ -4238,7 +4230,20 @@
         "https://coursiv.io/blog/chatgpt-5-6"
       ],
       "date": "2026-07-10T11:31:19.624878+00:00"
+    },
+    {
+      "title": "IOM Sets Ambitious 2026 Goal to Assist 22 Million Crisis‑Affected People Across 32 Countries",
+      "urls": [
+        "https://www.iom.int/news/iom-unveils-2026-plans-reach-22-million-crisis-across-32-countries",
+        "https://www.youtube.com/watch?v=CilYWeF3ZGI",
+        "https://www.facebook.com/InfoMigrants/videos/on-february-23-2026-the-council-of-the-european-union-approved-a-list-of-seven-s/973937268507872",
+        "https://www.youtube.com/watch?v=mKSYCG8P-m4",
+        "https://www.youtube.com/watch?v=S6jBYbC_Ol0",
+        "https://www.youtube.com/watch?v=IammWgU1YUI",
+        "https://www.unhcr.org/us/global-trends"
+      ],
+      "date": "2026-07-10T12:01:36.892816+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T11:31:19.624910+00:00"
+  "lastUpdated": "2026-07-10T12:01:36.892883+00:00"
 }
