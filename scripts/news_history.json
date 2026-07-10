@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canada Crypto Week Returns July 20‑26 Highlighting Web3, Digital Assets and AI",
-      "urls": [
-        "https://markets.businessinsider.com/news/currencies/canada-crypto-week-returns-july-20-26-celebrating-the-future-of-web3-digital-assets-and-ai-1036242150"
-      ],
-      "date": "2026-06-29T23:31:41.474338+00:00"
-    },
-    {
       "title": "Nature Climate Change Highlights Emerging Research Across 2026 and Global Impacts",
       "urls": [
         "https://www.nature.com/nclimate/articles?type=article&year=2026",
@@ -4228,7 +4221,19 @@
         "https://thenextweb.com/news/minimax-2-7-trillion-parameter-open-source-model"
       ],
       "date": "2026-07-09T23:31:37.527452+00:00"
+    },
+    {
+      "title": "Google Cloud Showcases New AI Infrastructure at Next 26 Event 2026",
+      "urls": [
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
+        "https://aibusiness.com/verticals/cloud-computing",
+        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
+        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
+        "https://www.reddit.com/r/aws/comments/1hicvwf/what_are_your_biggest_challenges_with_cloud",
+        "https://www.reddit.com/r/cloudcomputing/comments/1gzfyfn/how_is_ai_integration_shaping_cloud_computing"
+      ],
+      "date": "2026-07-10T00:01:36.586234+00:00"
     }
   ],
-  "lastUpdated": "2026-07-09T23:31:37.527539+00:00"
+  "lastUpdated": "2026-07-10T00:01:36.586312+00:00"
 }
