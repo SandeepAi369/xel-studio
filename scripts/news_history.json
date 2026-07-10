@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Video Guides TensorFlow Vs PyTorch Choice For 2025 Developers",
-      "urls": [
-        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
-      ],
-      "date": "2026-06-30T14:31:31.018609+00:00"
-    },
-    {
-      "title": "Google Uses Gemini AI and Other Tools to Build I/O 2026 Event",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai"
-      ],
-      "date": "2026-06-30T15:01:38.531916+00:00"
-    },
-    {
       "title": "Zero1Gaming Launches Public Beta Uniting Live Streaming, Leaderboards, and Esports News",
       "urls": [
         "https://www.usatoday.com/press-release/story/35641/zero1gaming-launches-public-beta-bringing-live-streaming-leaderboards-and-esports-news-into-one-hub",
@@ -4257,7 +4243,18 @@
         "https://www.globaltimes.cn/page/202605/1361310.shtml"
       ],
       "date": "2026-07-10T14:31:26.526588+00:00"
+    },
+    {
+      "title": "PyTorch Dominates 2026 Machine Learning Research, Capturing 38 Percent of Job Listings",
+      "urls": [
+        "https://www.programming-helper.com/tech/pytorch-2026-ml-framework-research-dominance-tensorflow-python",
+        "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
+        "https://saturncloud.io/blog/open-source-ai-frameworks-for-ai-engineers-2026",
+        "https://americanchase.com/pytorch-vs-tensorflow",
+        "https://www.aistechnolabs.com/blog/tensorflow-vs-pytorch-vs-scikit-learn"
+      ],
+      "date": "2026-07-10T15:01:44.513316+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T14:31:26.526658+00:00"
+  "lastUpdated": "2026-07-10T15:01:44.513403+00:00"
 }
