@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "NBC News Publishes 2026 Primary Election Calendar Detailing Today's Races",
-      "urls": [
-        "https://www.nbcnews.com/politics/2026-primary-elections/calendar"
-      ],
-      "date": "2026-06-30T16:31:30.997621+00:00"
-    },
-    {
-      "title": "Apple, Google, Microsoft Issue Joint Travel Advisory For H‑1B Visa Holders",
-      "urls": [
-        "https://www.youtube.com/watch?v=ZVXDX140kDw",
-        "https://www.facebook.com/firstpostin/videos/apple-google-microsoft-issue-travel-advisory-for-h-1b-visa-holders/1524052255374677"
-      ],
-      "date": "2026-06-30T17:01:36.339039+00:00"
-    },
-    {
       "title": "Finding Freedom at 110 Feet in the Air Highlights Aerial Experience",
       "urls": [
         "https://www.nytimes.com/2026/06/07/travel/accessible-tree-climbing-oregon.html",
@@ -4267,7 +4252,18 @@
         "https://www.bbc.com/sport/football/articles/cjrgg07p8dlo"
       ],
       "date": "2026-07-10T16:31:24.650550+00:00"
+    },
+    {
+      "title": "SpaceX Secures $60 Billion Stock Deal to Acquire AI Coding Platform Cursor",
+      "urls": [
+        "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them",
+        "https://www.digitaltrends.com/gaming/ai-and-vibe-coding-are-making-more-games-but-not-necessarily-better-ones",
+        "https://www.oklahoman.com/press-release/story/200247/the-rise-of-ai-website-builders-where-bezier-ai-fits-among-cursor-lovable-bolt-new-v0-replit-and-github-copilot",
+        "https://www.msn.com/en-us/entertainment/general/unreal-engine-embraces-ai-at-state-of-unreal-2026/ar-AA25SLnI?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/companies/spacex-agrees-60-billion-stock-deal-to-acquire-ai-coding-platform-cursor/ar-AA25MeCF?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-10T17:01:47.815009+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T16:31:24.650640+00:00"
+  "lastUpdated": "2026-07-10T17:01:47.815083+00:00"
 }
