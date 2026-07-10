@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"The Indian Express Launches Real‑Time India News Highlights Page for June 15, 2026\",",
-      "urls": [
-        "https://indianexpress.com/article/india/breaking-news-today-latest-news-live-updates-june-15-10740531"
-      ],
-      "date": "2026-06-30T02:02:04.502357+00:00"
-    },
-    {
-      "title": "Insilico Medicine and SK Biopharmaceuticals Launch $2.5 Billion AI Drug Discovery Deal",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/nxera-joins-openfold-ai-research-consortium-alongside-leading-global-pharmaceutical-and-ai-companies-to-accelerate-ai-enabled-drug-discovery-1036237885",
-        "https://www.news-medical.net/news/20260618/Insilico-Medicine-to-showcase-AI-driven-drug-breakthroughs-at-BIO-2026-International-Convention.aspx",
-        "https://www.manilatimes.net/2026/06/22/tmt-newswire/pr-newswire/insilico-medicine-and-sk-biopharmaceuticals-achieved-ai-powered-drug-discovery-collaboration-worth-up-to-25-billion-for-neuroimmune-disorders/2369761",
-        "https://www.tmcnet.com/usubmit/2026/06/18/10402074.htm",
-        "https://www.pharmabiz.com/ArticleDetails.aspx?aid=186784&sid=2"
-      ],
-      "date": "2026-06-30T02:31:19.557528+00:00"
-    },
-    {
       "title": "Wolters Kluwer Highlights AI Transformations Shaping Healthcare Landscape in 2026",
       "urls": [
         "https://www.wolterskluwer.com/en/expert-insights/2026-future-ready-healthcare",
@@ -4229,7 +4211,14 @@
         "https://www.igmguru.com/blog/generative-ai-tools"
       ],
       "date": "2026-07-10T02:01:43.447227+00:00"
+    },
+    {
+      "title": "CES 2026 Highlights Digital Health Breakthroughs Driving Future Patient Care",
+      "urls": [
+        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
+      ],
+      "date": "2026-07-10T02:31:41.652176+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T02:01:43.447311+00:00"
+  "lastUpdated": "2026-07-10T02:31:41.652246+00:00"
 }
