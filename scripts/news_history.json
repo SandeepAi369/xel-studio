@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sabastian Sawe Breaks Marathon Record While Assefa Sets New Women’s Time in London",
-      "urls": [
-        "https://www.msn.com/en-us/sports/athletics/london-marathon-2026-live-updates-and-results/ar-AA21KCzg?ocid=BingNewsVerp"
-      ],
-      "date": "2026-06-30T10:31:39.565255+00:00"
-    },
-    {
-      "title": "Aidoc Gains FDA Breakthrough Designation for AI Radiology Report Drafting Tool",
-      "urls": [
-        "https://www.mobihealthnews.com/news/aidoc-lands-fda-breakthrough-status-ai-drafts-radiology-reports",
-        "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech"
-      ],
-      "date": "2026-06-30T11:01:29.374634+00:00"
-    },
-    {
       "title": "Anthropic Pledges $350 Million to Boost Safe AI Development Amid Regulation Push",
       "urls": [
         "https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm",
@@ -4238,7 +4223,14 @@
         "https://phys.org/news/2026-06-global-137c-earth-accumulating.html"
       ],
       "date": "2026-07-10T10:31:25.594743+00:00"
+    },
+    {
+      "title": "Linuxiac Launches Comprehensive Linux and Open Source Resource Hub for Enthusiasts",
+      "urls": [
+        "https://linuxiac.com"
+      ],
+      "date": "2026-07-10T11:01:39.921244+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T10:31:25.594812+00:00"
+  "lastUpdated": "2026-07-10T11:01:39.921347+00:00"
 }
