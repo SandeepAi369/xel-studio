@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Identify Climate‑Resilient Coral Reefs Offering Hope for Ocean Conservation",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-06-16/scientists-found-the-coral-reefs-that-can-survive-climate-change",
-        "https://www.pewresearch.org/science/2026/05/28/americans-on-what-causes-climate-change-human-activity-or-natural-patterns"
-      ],
-      "date": "2026-06-30T23:31:35.664258+00:00"
-    },
-    {
       "title": "Hugging Face Reports Over Two Million Models and Dominant Top‑Fifty Downloads",
       "urls": [
         "https://presenc.ai/research/huggingface-trending-models-june-2026",
@@ -4268,7 +4260,19 @@
         "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends"
       ],
       "date": "2026-07-10T23:01:39.053972+00:00"
+    },
+    {
+      "title": "TheWorldNow Launches Live Global Disaster Map Offering Real‑Time Conflict and Hazard Updates",
+      "urls": [
+        "https://www.the-world-now.com/live-world-map",
+        "https://www.youtube.com/@DisasterToday",
+        "https://www.worldnaturaldisasters.com/real-time-disasters.html",
+        "https://pocketworld.org/disasters",
+        "https://thedisastertracker.com",
+        "https://www.sciencedaily.com/news/earth_climate/natural_disasters"
+      ],
+      "date": "2026-07-10T23:31:38.361960+00:00"
     }
   ],
-  "lastUpdated": "2026-07-10T23:01:39.054040+00:00"
+  "lastUpdated": "2026-07-10T23:31:38.362023+00:00"
 }
