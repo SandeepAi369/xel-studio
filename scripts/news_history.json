@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Aifundingtracker.com Highlights Top 50 AI Startups Amid Uneven Global Funding",
-      "urls": [
-        "https://aifundingtracker.com/top-50-ai-startups",
-        "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data"
-      ],
-      "date": "2026-07-01T11:31:26.560784+00:00"
-    },
-    {
       "title": "Italy Showcases Nearly €19 Billion MedTech Ecosystem at WHX Miami 2026",
       "urls": [
         "https://www.oklahoman.com/press-release/story/189871/ai-radiation-free-diagnostics-and-digital-health-italy-brings-a-nearly-e19-billion-medtech-ecosystem-to-whx-miami-2026"
@@ -4246,7 +4238,14 @@
         "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm"
       ],
       "date": "2026-07-11T11:01:38.130258+00:00"
+    },
+    {
+      "title": "Google DeepMind Listed As Search Result With Minimal Information Available",
+      "urls": [
+        "https://deepmind.google"
+      ],
+      "date": "2026-07-11T11:31:32.350438+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T11:01:38.130332+00:00"
+  "lastUpdated": "2026-07-11T11:31:32.350514+00:00"
 }
