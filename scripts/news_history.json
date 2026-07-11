@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEA Reports Strong Global Renewable Capacity Growth Driven By Solar PV",
-      "urls": [
-        "https://www.rff.org/publications/reports/global-energy-outlook-2026",
-        "https://www.climatecentral.org/climate-matters/solar-and-wind-2026",
-        "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv"
-      ],
-      "date": "2026-07-01T22:31:24.456389+00:00"
-    },
-    {
       "title": "Mistral Unveils Open Source Speech Generation Model to Accelerate AI Development",
       "urls": [
         "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
@@ -4250,7 +4241,14 @@
         "https://iapp.org/news/a/notes-from-the-asia-pacific-region-india-signals-shift-on-ai-regulation"
       ],
       "date": "2026-07-11T22:01:36.918206+00:00"
+    },
+    {
+      "title": "White House Issues National Artificial Intelligence Policy Framework Guideline to Guide Federal Agencies",
+      "urls": [
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy"
+      ],
+      "date": "2026-07-11T22:31:33.983488+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T22:01:36.918284+00:00"
+  "lastUpdated": "2026-07-11T22:31:33.983554+00:00"
 }
