@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Healthcare Week Launches Global Initiative to Unite Trade, Technology, and Leadership",
-      "urls": [
-        "https://www.zawya.com/en/press-release/events-and-conferences/world-healthcare-week-launches-as-a-connected-global-week-bringing-together-healthcare-trade-technology-and-leadership-gsthguhq"
-      ],
-      "date": "2026-07-01T20:01:42.066594+00:00"
-    },
-    {
       "title": "NASA Launches Roman Space Telescope Early Cutting Schedule By Eight Months",
       "urls": [
         "https://www.msn.com/en-us/news/technology/here-s-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp",
@@ -4249,7 +4242,17 @@
         "https://timesofsandiego.com/education/2026/04/20/students-digital-wellness-school-cellphone-bans"
       ],
       "date": "2026-07-11T19:31:40.606050+00:00"
+    },
+    {
+      "title": "Department of Justice Threatens Criminal Charges Over Voter Roll Release in Maine",
+      "urls": [
+        "https://www.theguardian.com/us-news/live/2026/jul/10/donald-trump-election-commission-republicans-midterms-graham-platner-iran-us-politics-latest-news-updates",
+        "https://apnews.com/hub/democracy",
+        "https://www.politico.com/news/magazine/2026/07/04/america-250-round-up-00981023",
+        "https://www.aclu.org/campaigns-initiatives/election-safeguarding"
+      ],
+      "date": "2026-07-11T20:01:42.147354+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T19:31:40.606113+00:00"
+  "lastUpdated": "2026-07-11T20:01:42.147416+00:00"
 }
