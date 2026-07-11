@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Launches Claude Science Workbench Focused On Workflow Over New Model",
-      "urls": [
-        "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists",
-        "https://www.anthropic.com/news/claude-science-ai-workbench",
-        "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product",
-        "https://news.northeastern.edu/2026/06/30/anthropic-claude-science-launch",
-        "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai"
-      ],
-      "date": "2026-07-01T14:31:51.601269+00:00"
-    },
-    {
-      "title": "\"title\": \"Artelus Wins Roche Drishti HealthTech Challenge Securing Rs 35 Lakh Grant for AI Medical Device",
-      "urls": [
-        "https://www.pharmabiz.com/NewsDetails.aspx?aid=186846&sid=2",
-        "https://medicalxpress.com/news/2026-06-dementia-cases-ai-tool-diagnosis.html"
-      ],
-      "date": "2026-07-01T15:01:35.786837+00:00"
-    },
-    {
       "title": "Meta Advances Open‑Source AI Models With Upcoming Releases Targeting Developer Community",
       "urls": [
         "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
@@ -4256,7 +4237,18 @@
         "https://aimmediahouse.com/ai-lifesciences/2026-is-the-year-ai-drug-discovery-meets-clinical-reality"
       ],
       "date": "2026-07-11T14:31:35.445112+00:00"
+    },
+    {
+      "title": "UFC Releases Comprehensive 2026‑2027 Fight Schedule Across Multiple Platforms for Fans and Promoters",
+      "urls": [
+        "https://fights.guide",
+        "https://www.espn.in/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
+        "https://worldinsport.com",
+        "https://www.ufc.com/news/fighters-2026-half-year-awards",
+        "https://www.sportbusy.com/calendar/mma"
+      ],
+      "date": "2026-07-11T15:01:44.299751+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T14:31:35.445178+00:00"
+  "lastUpdated": "2026-07-11T15:01:44.299830+00:00"
 }
