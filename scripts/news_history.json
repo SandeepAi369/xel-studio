@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medtalkcentral.com Reports AI Diagnosis Accuracy Reaches 94 Percent In 2026",
-      "urls": [
-        "https://www.analyticsinsight.net/artificial-intelligence/ai-in-healthcare-2026-miracle-cure-or-healthcare-disaster-what-holds-next",
-        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
-        "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
-        "https://medtalkcentral.com/latest-health-news/ai-in-healthcare/ai-medical-diagnosis-breakthrough-accuracy-2026",
-        "https://ailog.page/ai-in-healthcare-2026-from-diagnostics-to-drug-discovery"
-      ],
-      "date": "2026-07-01T04:31:22.072430+00:00"
-    },
-    {
       "title": "Hugging Face Publishes Guide to Top Open‑Source LLMs for Local Use in 2026",
       "urls": [
         "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
@@ -4269,7 +4258,16 @@
         "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
       ],
       "date": "2026-07-11T04:01:40.325961+00:00"
+    },
+    {
+      "title": "UFC Announces 2026 Fight Calendar Featuring Dates, Divisions, and Streaming Times",
+      "urls": [
+        "https://www.ufc.com",
+        "https://www.sportingnews.com/us/mma/news/mma-schedule-2026-dates-location-ufc-fights/30700a28e4998d7f6020aa21",
+        "https://www.paramountplus.com/sneak-peak/ufc-schedule-2026"
+      ],
+      "date": "2026-07-11T04:31:27.889508+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T04:01:40.326032+00:00"
+  "lastUpdated": "2026-07-11T04:31:27.889564+00:00"
 }
