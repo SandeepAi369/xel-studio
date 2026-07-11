@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Nano Banana 2 Lite, Fastest and Cheapest AI Image Generator",
-      "urls": [
-        "https://www.msn.com/en-in/news/other/google-launches-nano-banana-2-lite-gemini-omni-flash-ai-models-faster-images-smarter-videos/ar-AA26WETs?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/ronschmelzer/2026/05/22/google-ai-video-shift-generation-to-production",
-        "https://thenextweb.com/news/google-nano-banana-2-lite-omni-flash-image-video",
-        "https://www.onrec.com/news/ai-in-creative-hiring-why-seedance-20-is-changing-post-production-job-requirements"
-      ],
-      "date": "2026-07-01T06:01:25.304197+00:00"
-    },
-    {
       "title": "SpaceX Stock Surges After Record‑Breaking IPO as Lunar Lander Projects Advance",
       "urls": [
         "https://money.usnews.com/investing/articles/investing-in-space-space-stocks-and-etfs-to-watch",
@@ -4266,7 +4256,15 @@
         "https://www.forbes.com/advisor/investing/gold-price"
       ],
       "date": "2026-07-11T05:31:55.522324+00:00"
+    },
+    {
+      "title": "Lionel Messi Turns 39 Scores Record-Breaking Goal in Texas During World Cup",
+      "urls": [
+        "https://sports.yahoo.com/articles/world-cup-breaks-broadcast-record-160000645.html",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/lionel-messi-birthday-texas-world-cup/90673947007"
+      ],
+      "date": "2026-07-11T06:01:49.342616+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T05:31:55.522398+00:00"
+  "lastUpdated": "2026-07-11T06:01:49.342705+00:00"
 }
