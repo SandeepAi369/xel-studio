@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australia Tightens Kids' Social Media Ban and Doubles Penalties for Tech Companies",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/australia-toughens-kids-social-media-ban-doubles-potential-penalties-for-tech-firms/ar-AA26HAYm?ocid=BingNewsVerp",
-        "https://www.nytimes.com/2026/06/04/business/linkedin-social-media-influencers.html"
-      ],
-      "date": "2026-07-01T07:31:38.454713+00:00"
-    },
-    {
       "title": "SpaceX Launches Multiple Falcon 9 Missions Deploying Starlink Satellites And NROL‑179",
       "urls": [
         "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
@@ -4259,7 +4251,15 @@
         "https://markets.businessinsider.com/news/stocks/kbr-names-chief-executive-officer-and-chief-financial-officer-of-its-mission-technology-solutions-spin-off-business-1036275152"
       ],
       "date": "2026-07-11T07:01:48.168117+00:00"
+    },
+    {
+      "title": "Elmira Center Expands Tech Access for People With Disabilities, Boosting Independence",
+      "urls": [
+        "https://www.yahoo.com/news/us/articles/elmira-center-expands-tech-access-090847785.html",
+        "https://www.lex18.com/news/covering-kentucky/in-your-community/new-morehead-center-helps-kentuckians-with-disabilities-access-tools-for-independent-living"
+      ],
+      "date": "2026-07-11T07:31:39.979896+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T07:01:48.168216+00:00"
+  "lastUpdated": "2026-07-11T07:31:39.979993+00:00"
 }
