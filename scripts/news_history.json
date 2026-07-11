@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "2026 World Cup Group Stage Reveals Full Standings Across All Twelve Groups",
-      "urls": [
-        "https://www.foxsports.com/soccer/fifa-world-cup/news",
-        "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
-        "https://www.theguardian.com/football/world-cup-2026",
-        "https://www.nytimes.com/live/2026/us/fifa-world-cup"
-      ],
-      "date": "2026-07-01T00:31:21.580402+00:00"
-    },
-    {
       "title": "Environment America Reports Clean Energy Additions Set to Break Records in 2026",
       "urls": [
         "https://environmentamerica.org/center/updates/clean-energy-additions-to-break-records-in-2026",
@@ -4273,7 +4263,14 @@
         "https://globaloutlook.worldbank.org"
       ],
       "date": "2026-07-11T00:01:53.927136+00:00"
+    },
+    {
+      "title": "UN Agency Launches $1.6 Billion Appeal To Aid Sudan Crisis Refugees",
+      "urls": [
+        "https://news.un.org/en/story/2026/02/1166979"
+      ],
+      "date": "2026-07-11T00:31:37.802722+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T00:01:53.927221+00:00"
+  "lastUpdated": "2026-07-11T00:31:37.802795+00:00"
 }
