@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tropical Storm Arthur Forms Off Texas, Prompting Flash Flood Threats Across Gulf States",
-      "urls": [
-        "https://abcnews.com/US/tropical-storm-arthur-forms-gulf-off-texas-nws/story?id=133964957"
-      ],
-      "date": "2026-07-01T18:01:39.830885+00:00"
-    },
-    {
-      "title": "CNN, NPR And NBC News Provide Live 2026 Election Coverage Across Platforms",
-      "urls": [
-        "https://www.cnn.com/election/2026",
-        "https://www.npr.org/sections/elections",
-        "https://www.nbcnews.com/politics/2026-primary-elections/national",
-        "https://www.nbcnews.com/politics/2026-election"
-      ],
-      "date": "2026-07-01T18:31:39.866586+00:00"
-    },
-    {
       "title": "Alleva Launches Alleva Intelligence AI Platform Targeting Behavioral Health Market",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/alleva-introduces-alleva-intelligence-expanding-171000039.html"
@@ -4252,7 +4235,19 @@
         "https://www.msn.com/en-in/politics/government/renewable-energy-transition-for-a-climate-resilient-india/ar-AA27EZrH?ocid=BingNewsVerp"
       ],
       "date": "2026-07-11T18:01:37.208246+00:00"
+    },
+    {
+      "title": "Meta Launches Muse Spark AI Model and Muse Image Visual Generator in Major Overhaul",
+      "urls": [
+        "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since",
+        "https://thetechportal.com/2026/07/08/meta-launches-new-ai-visual-generation-model-muse-image-for-meta-ai-and-instagram",
+        "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai",
+        "https://www.msn.com/en-us/technology/tech-companies/is-meta-platforms-about-to-follow-in-the-footsteps-of-elon-musk-s-spacex/ar-AA27oecm?ocid=BingNewsVerp",
+        "https://www.yahoo.com/news/politics/articles/meta-last-major-ai-company-121207966.html",
+        "https://www.msn.com/en-us/technology/tech-companies/mark-zuckerberg-cut-thousands-of-jobs-for-ai-now-he-admits-meta-s-agents-are-moving-too-slow/ar-AA27fr1W?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-11T18:31:59.141556+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T18:01:37.208313+00:00"
+  "lastUpdated": "2026-07-11T18:31:59.141656+00:00"
 }
