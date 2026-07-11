@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Launches Azure Linux 4.0 as First General‑Purpose Server Distribution",
-      "urls": [
-        "https://linuxiac.com/category/news",
-        "https://linuxiac.com/category/news/software",
-        "https://lwn.net",
-        "https://lwn.net/daily",
-        "https://www.infoq.com/news/2026/05/azure-linux-4-server"
-      ],
-      "date": "2026-07-01T10:31:29.025806+00:00"
-    },
-    {
       "title": "Davos Neurodiversity Summit Highlights Global Commitment to Inclusive Innovation Across Industries",
       "urls": [
         "https://ndconnection.co.uk/blog/autism-research-june-2026",
@@ -4255,7 +4244,14 @@
         "https://www.youtube.com/watch?v=LDX-j3krr0I"
       ],
       "date": "2026-07-11T10:01:47.703625+00:00"
+    },
+    {
+      "title": "India Adds 26 Gigawatts Solar and 2.9 Gigawatts Wind Power in First Half 2026",
+      "urls": [
+        "https://renewablesnow.com/news/india-adds-26-gw-of-solar-2-9-gw-of-wind-power-in-h1-2026-1297889"
+      ],
+      "date": "2026-07-11T10:31:35.075040+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T10:01:47.703689+00:00"
+  "lastUpdated": "2026-07-11T10:31:35.075132+00:00"
 }
