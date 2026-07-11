@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "QC Healthcare Launches Holding Company to Unite Telehealth, Research, Pharmacy, and AI Services",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/qualifacts-announces-2026-community-impact-through-innovation-award-now-accepting-submissions-1036282665",
-        "https://www.tmcnet.com/usubmit/2026/06/16/10400823.htm",
-        "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy",
-        "https://www.tmcnet.com/usubmit/2026/06/30/10408263.htm"
-      ],
-      "date": "2026-07-01T03:31:41.903020+00:00"
-    },
-    {
-      "title": "Releasebot Publishes OpenAI June 2026 Release Notes as Latest Updates for Developers",
-      "urls": [
-        "https://releasebot.io/updates/openai"
-      ],
-      "date": "2026-07-01T04:01:35.062927+00:00"
-    },
-    {
       "title": "Medtalkcentral.com Reports AI Diagnosis Accuracy Reaches 94 Percent In 2026",
       "urls": [
         "https://www.analyticsinsight.net/artificial-intelligence/ai-in-healthcare-2026-miracle-cure-or-healthcare-disaster-what-holds-next",
@@ -4279,7 +4262,14 @@
         "https://www.morningstar.com/news/marketwatch/20260603105/a-stark-new-warning-about-the-global-economy-inflation-is-headed-higher-and-growth-lower"
       ],
       "date": "2026-07-11T03:31:39.077995+00:00"
+    },
+    {
+      "title": "Simons Foundation Announces Quantum Dynamics Breakthrough Overturning Quantum Supremacy Claim",
+      "urls": [
+        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
+      ],
+      "date": "2026-07-11T04:01:40.325961+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T03:31:39.078058+00:00"
+  "lastUpdated": "2026-07-11T04:01:40.326032+00:00"
 }
