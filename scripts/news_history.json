@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Advances Open‑Source AI Models With Upcoming Releases Targeting Developer Community",
-      "urls": [
-        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
-        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases"
-      ],
-      "date": "2026-07-01T15:31:29.330034+00:00"
-    },
-    {
       "title": "Supreme Court Conservatives Could Significantly Alter the 2026 Election Outcome",
       "urls": [
         "https://www.msn.com/en-us/politics/elections/how-fight-for-black-votes-mirrors-the-us-fight-for-democracy-opinion/ar-AA26XR2R?ocid=BingNewsVerp",
@@ -4248,7 +4238,15 @@
         "https://www.sportbusy.com/calendar/mma"
       ],
       "date": "2026-07-11T15:01:44.299751+00:00"
+    },
+    {
+      "title": "Federal Reserve Releases Weak Economic Report Raising Recession Concerns Nationwide",
+      "urls": [
+        "https://www.msn.com/en-us/money/markets/the-fed-just-quietly-released-surprisingly-bad-economic-news-is-a-recession-already-starting/ar-AA25nZyZ?ocid=BingNewsVerp",
+        "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release"
+      ],
+      "date": "2026-07-11T15:31:45.166642+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T15:01:44.299830+00:00"
+  "lastUpdated": "2026-07-11T15:31:45.166712+00:00"
 }
