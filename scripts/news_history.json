@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Italy Showcases Nearly €19 Billion MedTech Ecosystem at WHX Miami 2026",
-      "urls": [
-        "https://www.oklahoman.com/press-release/story/189871/ai-radiation-free-diagnostics-and-digital-health-italy-brings-a-nearly-e19-billion-medtech-ecosystem-to-whx-miami-2026"
-      ],
-      "date": "2026-07-01T12:01:54.077024+00:00"
-    },
-    {
-      "title": "Jaccob Slavin Joins Elite Group With Gold Medal and Stanley Cup in Same Season",
-      "urls": [
-        "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-americans-olympic-gold-same-year"
-      ],
-      "date": "2026-07-01T12:31:19.487569+00:00"
-    },
-    {
       "title": "UN Panel Warns AI Development Outpacing Scientific Knowledge And Regulation",
       "urls": [
         "https://www.arise.tv/un-panel-warns-ai-advancing-faster-than-scientific-understanding-and-government-regulation"
@@ -4252,7 +4238,14 @@
         "https://concernusa.org/news/largest-refugee-crises"
       ],
       "date": "2026-07-11T12:01:41.797547+00:00"
+    },
+    {
+      "title": "Smithsonian Institution Updates Global Volcano Activity Database With Real‑Time Eruption Listings",
+      "urls": [
+        "https://volcano.si.edu/gvp_currenteruptions.cfm"
+      ],
+      "date": "2026-07-11T12:31:52.618315+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T12:01:41.797612+00:00"
+  "lastUpdated": "2026-07-11T12:31:52.618389+00:00"
 }
