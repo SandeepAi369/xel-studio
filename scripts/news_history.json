@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "2026 Winter Olympics Medal Table Highlights National Rankings Across All Sports",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table"
-      ],
-      "date": "2026-07-01T10:01:39.706676+00:00"
-    },
-    {
       "title": "Microsoft Launches Azure Linux 4.0 as First General‑Purpose Server Distribution",
       "urls": [
         "https://linuxiac.com/category/news",
@@ -4255,7 +4248,14 @@
         "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
       ],
       "date": "2026-07-11T09:31:39.142876+00:00"
+    },
+    {
+      "title": "YouTube Showcases Open‑Source AI Shift From Local PCs To Cloud",
+      "urls": [
+        "https://www.youtube.com/watch?v=LDX-j3krr0I"
+      ],
+      "date": "2026-07-11T10:01:47.703625+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T09:31:39.142958+00:00"
+  "lastUpdated": "2026-07-11T10:01:47.703689+00:00"
 }
