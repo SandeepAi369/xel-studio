@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Multiple Falcon 9 Missions Deploying Starlink Satellites And NROL‑179",
-      "urls": [
-        "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
-        "https://www.reddit.com/r/spacex/comments/1tkndtt/spacex_counting_down_to_our_second_launch_attempt",
-        "https://www.youtube.com/watch?v=IrVeYmLouSU",
-        "https://www.youtube.com/watch?v=3VvCPn4gj5U",
-        "https://www.youtube.com/watch?v=mC_L0wUT_gs",
-        "https://www.youtube.com/watch?v=QoA12hmA3co"
-      ],
-      "date": "2026-07-01T08:01:32.068006+00:00"
-    },
-    {
       "title": "Sabastian Sawe Breaks Historic Two‑Hour Barrier at London Marathon 2026",
       "urls": [
         "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo"
@@ -4259,7 +4247,16 @@
         "https://www.lex18.com/news/covering-kentucky/in-your-community/new-morehead-center-helps-kentuckians-with-disabilities-access-tools-for-independent-living"
       ],
       "date": "2026-07-11T07:31:39.979896+00:00"
+    },
+    {
+      "title": "GameSquare Reports $6.8 Billion Esports Revenue Growth and Live Streaming Trends",
+      "urls": [
+        "https://esportsworldcup.com/en/news",
+        "https://investors.gamesquare.com/news/news-details/2026/GameSquares-Stream-Hatchet-Publishes-Esports-Live-Streaming-Trends-Report/default.aspx",
+        "https://digitalnewsbreak.com/sports/esports-gaming-industry-revenue-2026-report"
+      ],
+      "date": "2026-07-11T08:01:44.167603+00:00"
     }
   ],
-  "lastUpdated": "2026-07-11T07:31:39.979993+00:00"
+  "lastUpdated": "2026-07-11T08:01:44.167672+00:00"
 }
