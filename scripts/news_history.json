@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Claims Quantum Processor Is 1000X Faster Using Majorana Qubit Design",
-      "urls": [
-        "https://www.youtube.com/watch?v=NKq4VTfoAI4",
-        "https://www.youtube.com/watch?v=7NN6XbI3-lo"
-      ],
-      "date": "2026-07-02T04:01:31.722443+00:00"
-    },
-    {
       "title": "Firefly Aerospace and Rocket Lab Compete for Investor Preference in 2026",
       "urls": [
         "https://www.aol.com/finance/firefly-aerospace-vs-rocket-lab-194515754.html"
@@ -4246,7 +4238,16 @@
         "https://finance.yahoo.com/technology/ai/articles/predactiv-launches-mcp-server-platform-100000498.html"
       ],
       "date": "2026-07-12T03:31:44.213313+00:00"
+    },
+    {
+      "title": "YouTube Details AI Infrastructure And Hybrid Cloud Strategy In New Video Series",
+      "urls": [
+        "https://www.youtube.com/watch?v=0sNlaLbZOcY",
+        "https://www.youtube.com/watch?v=OjMlcb1U804",
+        "https://www.youtube.com/watch?v=zFdR-xerGrE"
+      ],
+      "date": "2026-07-12T04:01:47.389596+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T03:31:44.213386+00:00"
+  "lastUpdated": "2026-07-12T04:01:47.389672+00:00"
 }
