@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Venezuela Declares State of Emergency After Largest Twin Earthquakes in Century",
-      "urls": [
-        "https://www.cnn.com/2026/06/24/americas/venezuela-earthquake-latam-intl",
-        "https://www.theguardian.com/world/2026/jun/25/earthquake-venezuela-caracas-tremors-aftershocks"
-      ],
-      "date": "2026-07-02T22:31:21.603463+00:00"
-    },
-    {
       "title": "Mistral Launches Voxtral Open Source Voice AI Model Demonstrated in YouTube Test",
       "urls": [
         "https://www.youtube.com/watch?v=5MSwbORkfPk"
@@ -4241,7 +4233,14 @@
         "https://www.msn.com/en-us/technology/artificial-intelligence/even-tech-giants-face-limits-google-throttles-meta-s-gemini-ai-usage/ar-AA26NMrE?ocid=BingNewsVerp"
       ],
       "date": "2026-07-12T22:01:55.827608+00:00"
+    },
+    {
+      "title": "GitHub Discussion Highlights Top AI Tools Developers Seek in 2026",
+      "urls": [
+        "https://github.com/orgs/community/discussions/187143"
+      ],
+      "date": "2026-07-12T22:31:46.216928+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T22:01:55.827683+00:00"
+  "lastUpdated": "2026-07-12T22:31:46.216992+00:00"
 }
