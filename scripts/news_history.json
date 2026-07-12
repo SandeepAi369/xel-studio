@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Disability:IN Releases Digital Accessibility Roundup Offering New Resources for Inclusive Design",
-      "urls": [
-        "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
-      ],
-      "date": "2026-07-02T09:31:22.118097+00:00"
-    },
-    {
       "title": "Meta Launches Cloud Service to Sell Excess AI Compute Power, Stock Rises 9 Percent",
       "urls": [
         "https://www.cnbc.com/2026/07/01/meta-stock-cloud-ai-compute.html",
@@ -4244,7 +4237,15 @@
         "https://www.tmcnet.com/usubmit/2026/07/08/10411274.htm"
       ],
       "date": "2026-07-12T09:01:46.760571+00:00"
+    },
+    {
+      "title": "InnoCaption Wins AI Breakthrough Award Highlighting Innovation in Real‑Time Captioning Technology",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/innocaption-recognized-artificial-intelligence-innovation-120000127.html",
+        "https://www.msn.com/en-za/technology/tech-companies/applications-open-for-2026-global-cleantech-innovation-programme/ar-AA26B2UM?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-12T09:31:34.849193+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T09:01:46.760627+00:00"
+  "lastUpdated": "2026-07-12T09:31:34.849264+00:00"
 }
