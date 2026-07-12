@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube AI Showcases New Creator Tools and Personalized Recommendations at CES 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=9sfQEBWwuvs"
-      ],
-      "date": "2026-07-02T20:01:48.802499+00:00"
-    },
-    {
       "title": "IREN Appoints New Chief Product Officer and Chief Development Officer to Strengthen Leadership",
       "urls": [
         "https://www.stocktitan.net/news/IREN/iren-appoints-chief-product-officer-and-chief-development-hemtsirwo3vo.html",
@@ -4242,7 +4235,14 @@
         "https://intellectia.ai/blog/ai-chip-stocks-nvidia-amd-analysis-2026"
       ],
       "date": "2026-07-12T19:31:34.596692+00:00"
+    },
+    {
+      "title": "McKinsey & Company Publishes 2026 Geopolitics and Trade Geometry Update",
+      "urls": [
+        "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update"
+      ],
+      "date": "2026-07-12T20:01:53.251186+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T19:31:34.596758+00:00"
+  "lastUpdated": "2026-07-12T20:01:53.251252+00:00"
 }
