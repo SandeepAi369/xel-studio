@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Cloud Publishes 2025 State of AI Infrastructure Report Highlighting Cloud Trends",
-      "urls": [
-        "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
-        "https://www.youtube.com/watch?v=Y8GxZkjL1EY"
-      ],
-      "date": "2026-07-02T15:31:31.774444+00:00"
-    },
-    {
       "title": "United States Secures Iran Peace Deal Ending Years of Conflict",
       "urls": [
         "https://www.youtube.com/watch?v=f6Rp9-9R9x0",
@@ -4237,7 +4229,14 @@
         "https://www.jurist.org/news/2026/05/un-chief-denounces-returns-of-afghan-asylum-seekers-and-refugees-as-violation-of-international-law"
       ],
       "date": "2026-07-12T15:01:58.384826+00:00"
+    },
+    {
+      "title": "Momentum Publishes Visionary Blog on Telemedicine Evolution and Future Through 2026",
+      "urls": [
+        "https://www.themomentum.ai/blog/future-of-telemedicine-2026"
+      ],
+      "date": "2026-07-12T15:31:40.368978+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T15:01:58.384895+00:00"
+  "lastUpdated": "2026-07-12T15:31:40.369030+00:00"
 }
