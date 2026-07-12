@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chatbots Enter Mental Health Market Amid Concerns Over Limited Scientific Evidence",
-      "urls": [
-        "https://www.msn.com/en-in/health/health-news/why-mental-wellness-is-becoming-a-global-health-priority-in-today-s-fast-paced-world/ar-AA26SRHU?ocid=BingNewsVerp",
-        "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-could-be-the-next-frontier-of-mental-health-innovation",
-        "https://www.msn.com/en-us/health/general/ai-enters-the-mental-health-chat-with-little-scientific-evidence-behind-it/ar-AA26QgA9?ocid=BingNewsVerp",
-        "https://www.medindia.net/news/can-banning-social-media-for-under-16s-protect-childrens-mental-health-223789-1.htm"
-      ],
-      "date": "2026-07-02T15:01:41.050326+00:00"
-    },
-    {
       "title": "Google Cloud Publishes 2025 State of AI Infrastructure Report Highlighting Cloud Trends",
       "urls": [
         "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
@@ -4239,7 +4229,15 @@
         "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
       ],
       "date": "2026-07-12T14:31:30.471605+00:00"
+    },
+    {
+      "title": "UNHCR Reports Decrease in Global Displacement While Warning of Ongoing Refugee Crisis",
+      "urls": [
+        "https://www.reuters.com/world/unhcr-says-fewer-people-displaced-worldwide-2025-long-term-refugee-crisis-2026-06-11",
+        "https://www.jurist.org/news/2026/05/un-chief-denounces-returns-of-afghan-asylum-seekers-and-refugees-as-violation-of-international-law"
+      ],
+      "date": "2026-07-12T15:01:58.384826+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T14:31:30.471675+00:00"
+  "lastUpdated": "2026-07-12T15:01:58.384895+00:00"
 }
