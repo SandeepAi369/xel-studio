@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechCrunch, TechRadar, and PCMag Highlight Leading Online Tech News Platforms",
-      "urls": [
-        "https://techcrunch.com",
-        "https://www.techradar.com",
-        "https://www.pcmag.com/news",
-        "https://www.theverge.com/tech",
-        "https://www.wired.com",
-        "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-        "https://arstechnica.com"
-      ],
-      "date": "2026-07-02T21:31:31.657817+00:00"
-    },
-    {
       "title": "Nxcode.io Publishes Comprehensive 2026 Ranking of AI Coding Tools Based on Real-World Performance",
       "urls": [
         "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-complete-ranking"
@@ -4242,7 +4229,19 @@
         "https://www.aol.com/news/special-olympics-athletes-gold-kansas-041011512.html"
       ],
       "date": "2026-07-12T21:01:44.763655+00:00"
+    },
+    {
+      "title": "YouTube Showcases Assistive Technology Advances for the Visually Impaired in 2025 Series",
+      "urls": [
+        "https://www.youtube.com/watch?v=BVZSqtjpgiI",
+        "https://www.youtube.com/watch?v=XAJoh1ZMRas",
+        "https://www.youtube.com/watch?v=bbPA5yqQEaE",
+        "https://www.youtube.com/watch?v=-XwFFOEEdg4",
+        "https://www.youtube.com/watch?v=9I87I5J7zuw",
+        "https://afb.org/news-publications/publications/jvib/authors/calls-papers/2025-special-issue-technology"
+      ],
+      "date": "2026-07-12T21:31:35.151540+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T21:01:44.763729+00:00"
+  "lastUpdated": "2026-07-12T21:31:35.151614+00:00"
 }
