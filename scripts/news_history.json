@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Launches Voxtral Open Source Voice AI Model Demonstrated in YouTube Test",
-      "urls": [
-        "https://www.youtube.com/watch?v=5MSwbORkfPk"
-      ],
-      "date": "2026-07-02T23:01:36.608673+00:00"
-    },
-    {
       "title": "Philips Reports AI Cuts Clinician Time and Boosts Healthcare Impact in 2026 Index",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/philips-future-health-index-2026-ai-is-already-saving-clinicians-time-and-delivering-measurable-impact-in-healthcare-1036234501",
@@ -4240,7 +4233,19 @@
         "https://github.com/orgs/community/discussions/187143"
       ],
       "date": "2026-07-12T22:31:46.216928+00:00"
+    },
+    {
+      "title": "KEYi Tech Leads 2026 Humanoid Robot Market Report Showcasing Industry Leaders and Deployments",
+      "urls": [
+        "https://keyirobot.com/blogs/insights/humanoid-robot-updates-2026-latest-news-breakthroughs-and-industry-trends",
+        "https://blog.robozaps.com/b/humanoid-robot-industry-report-2026",
+        "https://www.technerdo.com/blog/humanoid-robots-market-2026",
+        "https://interestingengineering.com/ai-robotics/9-humanoid-robots-at-ces-2026",
+        "https://www.designnews.com/automation/humanoid-robots-open-to-a-future-where-ai-and-automation-merge",
+        "https://roboticsandautomationnews.com/2026/02/07/the-state-of-humanoid-robotics-from-research-labs-to-real-world-potential/98732"
+      ],
+      "date": "2026-07-12T23:01:45.102719+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T22:31:46.216992+00:00"
+  "lastUpdated": "2026-07-12T23:01:45.102792+00:00"
 }
