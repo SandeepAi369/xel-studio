@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Cloud Service to Sell Excess AI Compute Power, Stock Rises 9 Percent",
-      "urls": [
-        "https://www.cnbc.com/2026/07/01/meta-stock-cloud-ai-compute.html",
-        "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-rally-warsh-ecb-forum/card/meta-s-reported-cloud-push-weighs-on-ai-compute-and-data-center-stocks-nLzSaO49iLgvChVjZeBJ",
-        "https://www.afr.com/technology/meta-is-planning-a-cloud-business-to-sell-ai-computing-power-20260702-p60buk",
-        "https://www.msn.com/en-us/money/companies/softbank-to-set-up-sb-neo-to-offer-ai-compute-services-in-us/ar-AA272IDq?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/technology/meta-is-looking-to-go-the-spacex-way-could-rent-out-ai-infrastructure-meta-stock-sees-biggest-single-day-gains-in-over-5-months/ar-AA26ZNCO?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/other/meta-stock-jumps-on-report-of-ai-cloud-business-expansion-plans/ar-AA270Mgq?ocid=BingNewsVerp",
-        "https://gizmodo.com/meta-goes-the-way-of-xai-considers-renting-computing-power-as-own-model-flails-2000780274"
-      ],
-      "date": "2026-07-02T10:01:59.160704+00:00"
-    },
-    {
       "title": "Hurricane 2026 Releases Expert Guide to Boost South Florida Hurricane Season Preparedness",
       "urls": [
         "https://www.cbsnews.com/miami/news/survive-the-season-hurricane-2026-south-florida-hurricane-preparedness-guide"
@@ -4254,7 +4241,15 @@
         "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples"
       ],
       "date": "2026-07-12T10:01:41.031094+00:00"
+    },
+    {
+      "title": "SEC Repeals Climate Disclosure Rule While Hong Kong Issues Transition Guidance and Vietnam Expands Carbon Market",
+      "urls": [
+        "https://www.bloomberg.com/professional/insights/regulation/june-2026-global-regulatory-brief-green-finance",
+        "https://www.aol.com/articles/public-period-begins-canadas-sustainable-090000000.html"
+      ],
+      "date": "2026-07-12T10:31:29.955524+00:00"
     }
   ],
-  "lastUpdated": "2026-07-12T10:01:41.031158+00:00"
+  "lastUpdated": "2026-07-12T10:31:29.955609+00:00"
 }
