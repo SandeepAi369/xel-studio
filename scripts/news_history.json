@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Researchers Demonstrate Twisted Light Quantum Chip Operating Without Extreme Cooling",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
-        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
-        "https://www.youtube.com/watch?v=tTrwwQIpcKU",
-        "https://www.youtube.com/watch?v=1d-pGnc36iE",
-        "https://www.youtube.com/watch?v=SPUnuEtEpCo",
-        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
-        "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers"
-      ],
-      "date": "2026-07-03T15:31:31.784225+00:00"
-    },
-    {
       "title": "United States Elections Draw Nationwide Attention as Primary Races Heat Up",
       "urls": [
         "https://en.wikipedia.org/wiki/2026_United_States_elections",
@@ -4242,7 +4229,16 @@
         "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-could-be-the-next-frontier-of-mental-health-innovation"
       ],
       "date": "2026-07-13T15:01:47.410380+00:00"
+    },
+    {
+      "title": "European Business Magazine Releases Global Risks Report Highlighting Surge in Geopolitical Tensions",
+      "urls": [
+        "https://setr.stanford.edu/sites/default/files/2026-01/SETR2026_web-260109.pdf",
+        "https://europeanbusinessmagazine.com/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
+        "https://news.stanford.edu/stories/2026/05/fsi-scholars-world-changing-technology-panel"
+      ],
+      "date": "2026-07-13T15:31:44.619895+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T15:01:47.410458+00:00"
+  "lastUpdated": "2026-07-13T15:31:44.619971+00:00"
 }
