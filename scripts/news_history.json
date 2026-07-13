@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Accessibility Importance for All During CES 2026 Technology Showcase",
-      "urls": [
-        "https://www.youtube.com/watch?v=Hqk3C6JadnY"
-      ],
-      "date": "2026-07-03T05:31:30.800412+00:00"
-    },
-    {
       "title": "Google Posts Blog Detailing Latest AI Announcements Across Products And Services",
       "urls": [
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
@@ -4245,7 +4238,15 @@
         "https://www.manilatimes.net/2026/07/07/tmt-newswire/pr-newswire/aureka-releases-opendde-an-open-source-drug-discovery-engine-designed-to-accelerate-ai-driven-therapeutic-discovery/2379415"
       ],
       "date": "2026-07-13T05:01:44.633145+00:00"
+    },
+    {
+      "title": "YouTube Showcases Smart Glasses on Cruise Ships and Autonomous Wheelchairs in New Assistive Tech Series",
+      "urls": [
+        "https://www.youtube.com/watch?v=frVMBc28LOw",
+        "https://www.youtube.com/watch?v=e-Rmy6pWzSk"
+      ],
+      "date": "2026-07-13T05:31:31.323124+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T05:01:44.633218+00:00"
+  "lastUpdated": "2026-07-13T05:31:31.323206+00:00"
 }
