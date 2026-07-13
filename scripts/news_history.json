@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Kennedy School Publishes Reflections on Defending Privacy for Data Privacy Day 2026",
-      "urls": [
-        "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data"
-      ],
-      "date": "2026-07-03T22:01:38.065501+00:00"
-    },
-    {
       "title": "Study Finds Climate Change Increases Likelihood Of Once‑Rare Coastal Floods",
       "urls": [
         "https://www.houstonpublicmedia.org/articles/news/weather/2026/06/15/554550/weather-houston-flood-watch-rain",
@@ -4232,7 +4225,15 @@
         "https://www.youtube.com/watch?v=k69-ivYwEfE"
       ],
       "date": "2026-07-13T21:31:44.277974+00:00"
+    },
+    {
+      "title": "Generative AI Report Highlights Ten Most Impactful 2026 Developments Across Industry and Policy",
+      "urls": [
+        "https://www.crn.com/news/ai/2026/the-10-biggest-generative-ai-news-stories-of-2026-so-far",
+        "https://www.techrepublic.com/article/ai-adoption-trends-enterprise"
+      ],
+      "date": "2026-07-13T22:01:45.074032+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T21:31:44.278037+00:00"
+  "lastUpdated": "2026-07-13T22:01:45.074103+00:00"
 }
