@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Enhanced Games Announces Host City and Dates After Swimming World Record",
-      "urls": [
-        "https://www.enhanced.com/newsroom/enhanced-games-announce-host-city-and-dates-breaks-swimming-world-record",
-        "https://www.nytimes.com/athletic/7306206/2026/05/25/enhanced-games-kristian-gkolomeev-world-record-swimming"
-      ],
-      "date": "2026-07-03T04:31:26.915627+00:00"
-    },
-    {
       "title": "Sentient Secures $42 Million to Launch Open‑Source AGI Platform for Global Researchers",
       "urls": [
         "https://www.forbes.com/sites/boazsobrado/2026/07/01/agi-should-be-open-source-peter-thiel-backed-sentient-bets-42m",
@@ -4246,7 +4238,15 @@
         "https://www.besoccer.com/news"
       ],
       "date": "2026-07-13T04:01:51.166989+00:00"
+    },
+    {
+      "title": "Tropical Storm Arthur Threatens Deep South Flood Zones As It Moves Inland",
+      "urls": [
+        "https://www.local10.com/weather/hurricane/2026/06/17/tropical-storm-arthur-forms-along-the-texas-coast-fuels-flood-threat-across-the-deep-south",
+        "https://www.finanznachrichten.de/nachrichten-2026-06/68886676-iberdrola-selects-iceye-to-strengthen-its-network-in-the-face-of-extreme-weather-008.htm"
+      ],
+      "date": "2026-07-13T04:31:41.903401+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T04:01:51.167065+00:00"
+  "lastUpdated": "2026-07-13T04:31:41.903470+00:00"
 }
