@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Model Removal Sparks Concern Over Ad Hoc AI Regulation Practices",
-      "urls": [
-        "https://www.msn.com/en-us/news/politics/scoop-trump-backs-maha-in-heated-shocking-oval-office-fight-on-pesticides/ar-AA26YaNq?ocid=BingNewsVerp",
-        "https://www.msn.com/en-in/news/world/from-ai-regulation-to-vpns-meity-outlines-digital-policy-priorities/ar-AA277Rz1?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/us/ai-firms-brace-for-pauses-reviews-halt-orders-as-federal-ai-regulation-takes-shape/ar-AA274I8b?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/other/ai-regulation-is-a-mess-and-anthropic-is-caught-in-the-crosshairs/ar-AA26cwg7?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/anthropic-s-fable-model-is-back-but-us-ai-policy-is-still-a-mess/ar-AA275KAy?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/politics/anthropic-model-takedown-fuels-warning-of-ad-hoc-ai-regulation/ar-AA25LTB8?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-03T19:31:27.611287+00:00"
-    },
-    {
       "title": "G7 Leaders Spotlight AI Policy at Global Summit Amid Trump Participation",
       "urls": [
         "https://www.reuters.com/technology",
@@ -4226,7 +4214,20 @@
         "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update"
       ],
       "date": "2026-07-13T19:02:03.774605+00:00"
+    },
+    {
+      "title": "Stanford Researchers Demonstrate Twisted Light Quantum Chip Operating Without Extreme Cooling",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "https://www.youtube.com/watch?v=tTrwwQIpcKU",
+        "https://www.youtube.com/watch?v=1d-pGnc36iE",
+        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
+        "https://www.youtube.com/watch?v=SPUnuEtEpCo",
+        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
+        "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers"
+      ],
+      "date": "2026-07-13T19:31:45.681604+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T19:02:03.774680+00:00"
+  "lastUpdated": "2026-07-13T19:31:45.681673+00:00"
 }
