@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Announces New #1 Open-Source AI Model, Prompting Interest in 2026",
-      "urls": [
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
-        "https://www.taskade.com/blog/open-source-llms",
-        "https://www.youtube.com/watch?v=AaGaTgeARl0",
-        "https://www.youtube.com/watch?v=6d__WOpZswY"
-      ],
-      "date": "2026-07-03T18:31:26.716683+00:00"
-    },
-    {
       "title": "Microsoft Build 2026 Launches Live Stream, Showcasing New Developer Tools and AI Features",
       "urls": [
         "https://indianexpress.com/article/technology/tech-news-technology/microsoft-build-2026-kicks-off-today-how-to-watch-and-what-to-expect-10720512",
@@ -4224,7 +4214,15 @@
         "https://www.msn.com/en-us/weather/topstories/the-6-most-dangerous-us-weather-corridors-according-to-new-2026-climate-data/ar-AA25Yh6s?ocid=BingNewsVerp"
       ],
       "date": "2026-07-13T18:01:48.761643+00:00"
+    },
+    {
+      "title": "LLM Leaderboard Publishes Comprehensive July 2026 AI Model Release Update",
+      "urls": [
+        "https://developer.dogpile.com",
+        "https://llm-stats.com/llm-updates"
+      ],
+      "date": "2026-07-13T18:31:36.811674+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T18:01:48.761720+00:00"
+  "lastUpdated": "2026-07-13T18:31:36.811760+00:00"
 }
