@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Build 2026 Launches Live Stream, Showcasing New Developer Tools and AI Features",
-      "urls": [
-        "https://indianexpress.com/article/technology/tech-news-technology/microsoft-build-2026-kicks-off-today-how-to-watch-and-what-to-expect-10720512",
-        "https://www.ghacks.net/category/companies",
-        "https://www.ndtv.com/video/india-ascends-yearender-2025-microsoft-to-apple-big-tech-woos-india-as-global-hub-in-2025-1039088"
-      ],
-      "date": "2026-07-03T19:01:52.849027+00:00"
-    },
-    {
       "title": "Anthropic Model Removal Sparks Concern Over Ad Hoc AI Regulation Practices",
       "urls": [
         "https://www.msn.com/en-us/news/politics/scoop-trump-backs-maha-in-heated-shocking-oval-office-fight-on-pesticides/ar-AA26YaNq?ocid=BingNewsVerp",
@@ -4222,7 +4213,20 @@
         "https://llm-stats.com/llm-updates"
       ],
       "date": "2026-07-13T18:31:36.811674+00:00"
+    },
+    {
+      "title": "White House Releases National AI Policy Framework Aiming to Guide Future Innovation",
+      "urls": [
+        "https://www.congress.gov/crs_external_products/R/PDF/R48555/R48555.3.pdf",
+        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
+        "https://aicomparison.ai/us-ai-regulation-2026-framework",
+        "https://www.gunder.com/en/news-insights/insights/2026-ai-laws-update-key-regulations-and-practical-guidance",
+        "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+        "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update"
+      ],
+      "date": "2026-07-13T19:02:03.774605+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T18:31:36.811760+00:00"
+  "lastUpdated": "2026-07-13T19:02:03.774680+00:00"
 }
