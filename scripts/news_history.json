@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Spaceflight Now Publishes Comprehensive Launch Schedule for Global Space Missions",
-      "urls": [
-        "https://spaceflightnow.com/launch-schedule"
-      ],
-      "date": "2026-07-03T17:01:33.889026+00:00"
-    },
-    {
       "title": "AI‑Powered Blood Pressure Monitoring Market Projects $4.54 Billion Value By 2030",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/artificial-intelligence-blood-pressure-monitoring-081700613.html",
@@ -4226,7 +4219,16 @@
         "https://advertorial.cryptonews.com/press-releases/global-tech-leaders-unite-to-shape-the-future-of-blockchain-and-web3-innovation"
       ],
       "date": "2026-07-13T16:31:44.117808+00:00"
+    },
+    {
+      "title": "PyTorch Captures 85 Percent AI Research Share as TensorFlow Trails 10 Percent in Training Speed",
+      "urls": [
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
+        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose"
+      ],
+      "date": "2026-07-13T17:01:51.309960+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T16:31:44.117880+00:00"
+  "lastUpdated": "2026-07-13T17:01:51.310035+00:00"
 }
