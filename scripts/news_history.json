@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches ml‑intern Open‑Source AI Agent to Streamline LLM Post‑Training Workflow",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://huggingface.co/papers/trending",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
-        "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow"
-      ],
-      "date": "2026-07-03T23:01:33.335321+00:00"
-    },
-    {
       "title": "WellSync Reports $70 Million Run Rate, Signaling Rapid Growth in Digital Health",
       "urls": [
         "https://www.oklahoman.com/press-release/story/196646/global-health-exhibition-2026-expands-investor-access-for-emerging-healthcare-innovators",
@@ -4226,7 +4215,16 @@
         "https://finance.yahoo.com/sectors/energy/articles/ckr-solar-wins-2026-flaseia-141500791.html"
       ],
       "date": "2026-07-13T22:31:34.561171+00:00"
+    },
+    {
+      "title": "Modulate Secures Top Position for Its Model on Hugging Face Transcription Benchmark",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/the-open-source-ai-boom-may-be-a-mirage-why-affordable-ai-may-be-losing-the-enterprise-battle/ar-AA27KZZg?ocid=BingNewsVerp",
+        "https://www.usatoday.com/press-release/story/37151/modulate-earns-1-spot-on-hugging-faces-transcription-benchmark",
+        "https://venturebeat.com/technology/liquid-ais-smallest-model-yet-lfm2-5-230m-beats-models-4x-its-size-at-data-extraction-can-run-anywhere"
+      ],
+      "date": "2026-07-13T23:01:39.487265+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T22:31:34.561234+00:00"
+  "lastUpdated": "2026-07-13T23:01:39.487331+00:00"
 }
