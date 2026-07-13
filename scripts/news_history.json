@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "G7 Leaders Spotlight AI Policy at Global Summit Amid Trump Participation",
-      "urls": [
-        "https://www.reuters.com/technology",
-        "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
-        "https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html",
-        "https://newsroom.intel.com/corporate/intel-client-computing-and-innovation-leadership-news-may-2026",
-        "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html"
-      ],
-      "date": "2026-07-03T20:01:37.477000+00:00"
-    },
-    {
       "title": "InfoWorld Highlights Six AI Breakthroughs Set to Transform Technology Landscape in 2026",
       "urls": [
         "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html",
@@ -4227,7 +4216,23 @@
         "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers"
       ],
       "date": "2026-07-13T19:31:45.681604+00:00"
+    },
+    {
+      "title": "Insiders Increase Share Purchases Amid Global Selloff and Mixed Earnings Reactions",
+      "urls": [
+        "https://finance.yahoo.com/markets/article/a-record-number-of-tech-stock-insiders-are-buying-their-own-shares-in-2026-133810825.html",
+        "https://www.morningstar.com/stocks/best-tech-stocks-buy",
+        "https://www.youtube.com/watch?v=y6Iy_D_4hpg",
+        "https://www.cnbc.com/2026/07/01/tech-stocks-mag-7-emerging-markets-nvidia-chip-ai.html",
+        "https://www.instagram.com/reel/DZFnT7nROOI?hl=en",
+        "https://www.latimes.com/business/story/2026-06-23/why-tech-stocks-are-getting-hammered-on-wall-street",
+        "https://www.ii.co.uk/investing-with-ii/international-investing/us-earnings-season",
+        "https://www.theguardian.com/technology/2026/apr/29/earnings-ai-boom-us-stock-markets",
+        "https://finance.yahoo.com/sectors/technology",
+        "https://www.youtube.com/watch?v=wV4GhFAemtw"
+      ],
+      "date": "2026-07-13T20:01:51.510096+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T19:31:45.681673+00:00"
+  "lastUpdated": "2026-07-13T20:01:51.510164+00:00"
 }
