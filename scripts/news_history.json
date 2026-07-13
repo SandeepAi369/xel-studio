@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Five-Part Video Series Mapping Major Geopolitical Shifts Expected in 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
-        "https://www.youtube.com/watch?v=89l-17kZ3OU",
-        "https://www.youtube.com/watch?v=4_HKh1jq7LA",
-        "https://www.youtube.com/watch?v=KqZqusPFf78",
-        "https://www.youtube.com/watch?v=Gkw2vbJCFkQ"
-      ],
-      "date": "2026-07-03T12:01:46.227230+00:00"
-    },
-    {
-      "title": "Messi Extends Record‑Breaking Run With New FOX Sports Vertical Video",
-      "urls": [
-        "https://www.foxsports.com/watch-vertical/fmc-ydvsnr3dyntyeh9u"
-      ],
-      "date": "2026-07-03T12:31:26.828867+00:00"
-    },
-    {
       "title": "Tech Ceo Statements Leadership Announcements News — Latest Developments and Key Updates",
       "urls": [
         "https://www.crn.com/news/networking/2026/hpe-ceo-antonio-neri-five-boldest-statements-from-hpe-discover-2026",
@@ -4255,7 +4237,14 @@
         "https://www.youtube.com/shorts/COlNCq0f-eE"
       ],
       "date": "2026-07-13T12:01:43.322585+00:00"
+    },
+    {
+      "title": "The Running Channel Catalogs Every Running World Record Broken In 2026 So Far",
+      "urls": [
+        "https://therunningchannel.com/running-records-2026"
+      ],
+      "date": "2026-07-13T12:31:36.446006+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T12:01:43.322660+00:00"
+  "lastUpdated": "2026-07-13T12:31:36.446084+00:00"
 }
