@@ -4246,7 +4246,15 @@
         "https://www.youtube.com/watch?v=olwoz_sVNbA"
       ],
       "date": "2026-07-13T09:31:35.417290+00:00"
+    },
+    {
+      "title": "MiniMax Announces Plan to Deploy 2.7 Trillion Parameter AI Model",
+      "urls": [
+        "https://www.tennessean.com/press-release/story/202463/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api",
+        "https://www.theinformation.com/briefings/exclusive-chinas-minimax-plans-launch-2-7-trillion-parameter-model"
+      ],
+      "date": "2026-07-13T10:01:41.575147+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T09:31:35.417361+00:00"
+  "lastUpdated": "2026-07-13T10:01:41.575215+00:00"
 }
