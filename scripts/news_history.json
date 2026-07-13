@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Posts Blog Detailing Latest AI Announcements Across Products And Services",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
-        "https://www.youtube.com/watch?v=n01-OaEiYzA"
-      ],
-      "date": "2026-07-03T06:01:39.966472+00:00"
-    },
-    {
       "title": "Climate Scientist Challenges Government Report Claiming Human Warming Is Incorrect",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/06/260625060214.htm"
@@ -4246,7 +4238,18 @@
         "https://www.youtube.com/watch?v=e-Rmy6pWzSk"
       ],
       "date": "2026-07-13T05:31:31.323124+00:00"
+    },
+    {
+      "title": "Qualcomm Nears $4 Billion Acquisition Of AI Chip Startup Modular",
+      "urls": [
+        "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare",
+        "https://www.msn.com/en-us/news/technology/syndio-bets-on-agentic-ai-with-first-acquisition-in-seattle-pay-equity-startup-s-history/ar-AA26shDW?ocid=BingNewsVerp",
+        "https://money.usnews.com/investing/news/articles/2026-06-22/qualcomm-nearing-deal-for-ai-chip-startup-modular-bloomberg-news-reports",
+        "https://finance.yahoo.com/technology/ai/articles/qualcomm-nears-4b-deal-ai-221042270.html",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent"
+      ],
+      "date": "2026-07-13T06:01:52.474176+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T05:31:31.323206+00:00"
+  "lastUpdated": "2026-07-13T06:01:52.474250+00:00"
 }
