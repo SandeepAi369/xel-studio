@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "FIFA World Cup 2026 Schedule Released Across Major Sports Websites",
-      "urls": [
-        "https://bleacherreport.com/world-football",
-        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-        "https://www.bbc.com/sport",
-        "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup"
-      ],
-      "date": "2026-07-03T00:31:31.636636+00:00"
-    },
-    {
       "title": "YouTube Releases In‑Depth Videos on Smart Glasses and Autonomous Wheelchairs for Assistive Travel",
       "urls": [
         "https://www.youtube.com/watch?v=frVMBc28LOw",
@@ -4249,7 +4239,14 @@
         "https://www.medtechdive.com/news/aidoc-wins-breakthrough-nod-for-ai-that-reads-chest-x-rays/823895"
       ],
       "date": "2026-07-13T00:02:09.026561+00:00"
+    },
+    {
+      "title": "MMA Retirement Tracker Lists All Fighters Who Quit the Sport in 2026",
+      "urls": [
+        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/03/30/2026-ufc-mma-retirement-tracker-champions-legends-contenders/89363899007"
+      ],
+      "date": "2026-07-13T00:31:38.238853+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T00:02:09.026615+00:00"
+  "lastUpdated": "2026-07-13T00:31:38.238926+00:00"
 }
