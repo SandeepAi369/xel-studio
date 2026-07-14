@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Workflows Orchestration Engine Powered by Temporal to Manage Millions of Daily AI Tasks",
-      "urls": [
-        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
-        "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions"
-      ],
-      "date": "2026-07-04T23:01:29.454000+00:00"
-    },
-    {
       "title": "Pharmaceutical Companies Accelerate Telemedicine Adoption to Transform Drug Development By 2026",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
@@ -4216,7 +4208,14 @@
         "https://www.msn.com/en-in/news/other/anil-menon-reaches-iss-on-first-mission-aboard-soyuz-ms-29/ar-AA27UKAk?ocid=BingNewsVerp"
       ],
       "date": "2026-07-14T22:31:38.370016+00:00"
+    },
+    {
+      "title": "Open Source Large Language Model Release News — Latest Developments and Key Updates",
+      "urls": [
+        "https://thenextweb.com/news/portugal-open-source-ai-model-amalia"
+      ],
+      "date": "2026-07-14T23:01:38.208393+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T22:31:38.370091+00:00"
+  "lastUpdated": "2026-07-14T23:01:38.208469+00:00"
 }
