@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Heat Wave Proves Climate Change Made Extreme Temperatures Virtually Possible",
-      "urls": [
-        "https://www.nytimes.com/2026/07/03/climate/heat-wave-us-canada-climate-change.html"
-      ],
-      "date": "2026-07-04T05:01:52.584528+00:00"
-    },
-    {
-      "title": "Disability Scoop Highlights Schools Struggling to Provide Assistive Technology for Students",
-      "urls": [
-        "https://www.disabilityscoop.com/2026/01/30/schools-face-challenges-providing-assistive-technology/31836"
-      ],
-      "date": "2026-07-04T05:31:29.166501+00:00"
-    },
-    {
       "title": "Anthropic Restores Claude Fable 5 Access With Paid Model After Shutdown",
       "urls": [
         "https://www.msn.com/en-us/news/technology/anthropic-finally-restores-claude-fable-5-ai-model-access-but-at-a-price/ar-AA2700on?ocid=BingNewsVerp",
@@ -4240,7 +4226,14 @@
         "https://www.ghacks.net/category/companies"
       ],
       "date": "2026-07-14T05:01:44.477218+00:00"
+    },
+    {
+      "title": "Breakthrough Prize Awards Over $18 Million to Top Space and Physics Discoveries",
+      "urls": [
+        "https://www.space.com/technology/the-oscars-of-science-breakthrough-prize-2026-awards-over-usd18-million-for-discoveries-across-space-physics-and-more"
+      ],
+      "date": "2026-07-14T05:31:40.869429+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T05:01:44.477294+00:00"
+  "lastUpdated": "2026-07-14T05:31:40.869494+00:00"
 }
