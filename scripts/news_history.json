@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Introduces Licensing Rules That May Restrict Global Access to Frontier AI",
-      "urls": [
-        "https://www.msn.com/en-in/money/news/from-ai-regulation-to-vpns-meitys-krishnan-outlines-digital-policy-priorities-telegram-whatsapp-username-ai-claude-telegram-signal-mythos-fable-5/ar-AA277Rz1?ocid=BingNewsVerp",
-        "https://www.jdsupra.com/legalnews/license-to-model-emerging-us-rules-3645590",
-        "https://www.msn.com/en-us/news/politics/anthropic-ceo-government-should-have-power-to-block-dangerous-ai-deployments/ar-AA25oK7Y?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-04T00:01:41.242803+00:00"
-    },
-    {
       "title": "Unai Simón Breaks Guinness World Cup Record, Surpassing Walter Zenga’s Goalkeeper Milestone",
       "urls": [
         "https://dailysports.net/news/guinness-record-unai-simon-surpasses-legendary-walter-zengas-world-cup-achievement"
@@ -4225,7 +4216,16 @@
         "https://edition.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news"
       ],
       "date": "2026-07-13T23:31:48.983518+00:00"
+    },
+    {
+      "title": "Oracle Unveils Enterprise AI Infrastructure to Accelerate Business Model Training",
+      "urls": [
+        "https://www.youtube.com/watch?v=XaxplgI6FGw",
+        "https://www.youtube.com/watch?v=qJshjEGfTKE",
+        "https://www.youtube.com/watch?v=Y8GxZkjL1EY"
+      ],
+      "date": "2026-07-14T00:01:46.184863+00:00"
     }
   ],
-  "lastUpdated": "2026-07-13T23:31:48.983604+00:00"
+  "lastUpdated": "2026-07-14T00:01:46.184944+00:00"
 }
