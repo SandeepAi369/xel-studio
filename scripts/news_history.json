@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "FactSet Partners With Google Cloud to Boost Financial Intelligence Using Advanced AI",
-      "urls": [
-        "https://mashable.com/tech/all-the-gemini-announcements-google-io-2026",
-        "https://www.eweek.com/news/google-may-2026-ai-gemini-agentic-era",
-        "https://www.theguardian.com/news/ng-interactive/2026/jun/30/theres-this-deep-mystery-of-what-actually-is-this-thing-the-philosopher-inside-google-deepmind",
-        "https://finance.yahoo.com/technology/ai/articles/factset-announces-strategic-partnership-google-113000364.html"
-      ],
-      "date": "2026-07-04T11:31:21.597046+00:00"
-    },
-    {
       "title": "TechGuide Highlights Top CPU GPU Pairings For 2026 High‑Performance PCs",
       "urls": [
         "https://www.techtimes.com/articles/317800/20260604/best-cpu-gpu-combinations-high-performance-pc-builds-2026-gaming-productivity.htm"
@@ -4224,7 +4214,14 @@
         "https://htxt.co.za/2026/07/acer-renews-partnership-with-acgl-for-african-gaming-championship-2026"
       ],
       "date": "2026-07-14T11:01:51.881210+00:00"
+    },
+    {
+      "title": "Insider Ranks Seven AI Coding Tools Transforming Software Development",
+      "urls": [
+        "https://tech-insider.org/ai-coding-tools-2026-transforming-software-development"
+      ],
+      "date": "2026-07-14T11:31:29.373699+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T11:01:51.881306+00:00"
+  "lastUpdated": "2026-07-14T11:31:29.373775+00:00"
 }
