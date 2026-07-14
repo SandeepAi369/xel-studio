@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases 10 Breakthrough Technologies Video Highlighting 2026 Innovations Worldwide",
-      "urls": [
-        "https://www.youtube.com/watch?v=B_hx-zAWz3w"
-      ],
-      "date": "2026-07-04T22:31:26.349843+00:00"
-    },
-    {
       "title": "Mistral AI Launches Workflows Orchestration Engine Powered by Temporal to Manage Millions of Daily AI Tasks",
       "urls": [
         "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
@@ -4215,7 +4208,15 @@
         "https://blogs.novita.ai/ai-open-source"
       ],
       "date": "2026-07-14T22:01:56.028531+00:00"
+    },
+    {
+      "title": "Florida Launches Late‑Night Rocket, Offering West Palm Beach Residents Visible Nighttime Spectacle",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/late-night-rocket-launch-in-florida-when-to-watch-in-west-palm-beach/ar-AA27LBjl?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/anil-menon-reaches-iss-on-first-mission-aboard-soyuz-ms-29/ar-AA27UKAk?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-14T22:31:38.370016+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T22:01:56.028675+00:00"
+  "lastUpdated": "2026-07-14T22:31:38.370091+00:00"
 }
