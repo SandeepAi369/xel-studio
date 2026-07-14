@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Faros Highlights Top AI Coding Agents for Developers in 2026",
-      "urls": [
-        "https://www.faros.ai/blog/best-ai-coding-agents-2026",
-        "https://www.youtube.com/watch?v=jR1GkYDkFfk",
-        "https://www.youtube.com/watch?v=dKSGK-fPFyU",
-        "https://www.youtube.com/watch?v=pvMGRSZJ4Jw&vl=en"
-      ],
-      "date": "2026-07-04T22:01:34.879806+00:00"
-    },
-    {
       "title": "YouTube Releases 10 Breakthrough Technologies Video Highlighting 2026 Innovations Worldwide",
       "urls": [
         "https://www.youtube.com/watch?v=B_hx-zAWz3w"
@@ -4214,7 +4204,18 @@
         "https://news.un.org/en/focus-topic/climate-change"
       ],
       "date": "2026-07-14T21:31:59.507383+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes 2026 Open-Source LLM Rankings Highlighting Top Coding Models",
+      "urls": [
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://www.buildfastwithai.com/blogs/collection/open-source-llms",
+        "https://learn.ryzlabs.com/llm-development/best-5-open-source-llms-for-community-development-in-2026",
+        "https://hakia.com/tech-insights/open-source-ai-ecosystem",
+        "https://blogs.novita.ai/ai-open-source"
+      ],
+      "date": "2026-07-14T22:01:56.028531+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T21:31:59.507454+00:00"
+  "lastUpdated": "2026-07-14T22:01:56.028675+00:00"
 }
