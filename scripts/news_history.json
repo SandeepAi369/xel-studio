@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Declares Llama 4 Is Not Open Source After Community Speculation",
-      "urls": [
-        "https://www.youtube.com/watch?v=0O8Vp1yHn6E"
-      ],
-      "date": "2026-07-04T10:31:30.958373+00:00"
-    },
-    {
       "title": "Calling All Minds Publishes 2026 Assistive Technology Guide for ADHD, Dyslexia, Autism",
       "urls": [
         "https://callingallminds.com/resources/assistive-technology-guide",
@@ -4231,7 +4224,14 @@
         "https://www.youtube.com/watch?v=AaGaTgeARl0"
       ],
       "date": "2026-07-14T10:01:42.851571+00:00"
+    },
+    {
+      "title": "Conservation International Expands Online News Hub to Amplify Global Environmental Updates",
+      "urls": [
+        "https://www.conservation.org/news"
+      ],
+      "date": "2026-07-14T10:31:42.679541+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T10:01:42.851640+00:00"
+  "lastUpdated": "2026-07-14T10:31:42.679611+00:00"
 }
