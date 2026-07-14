@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Unveils New Chip to Enable AI on Personal Computers",
-      "urls": [
-        "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31"
-      ],
-      "date": "2026-07-04T17:01:42.198680+00:00"
-    },
-    {
       "title": "Stocks Projected to Climb in 2026 Amid Analyst Debate Over Market Reset",
       "urls": [
         "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html",
@@ -4219,7 +4212,18 @@
         "https://www.youtube.com/watch?v=n01-OaEiYzA"
       ],
       "date": "2026-07-14T16:31:44.043584+00:00"
+    },
+    {
+      "title": "Google Expands Gemini AI Ecosystem with Spark Agent and Deep Think Accelerator",
+      "urls": [
+        "https://thesiliconreview.com/2026/07/latest-ai-news-google-june-2026-gemini",
+        "https://www.globaltechcouncil.org/ai/everything-announced-at-google-i-o-2026",
+        "https://ctomagazine.com/google-io-2026-ai-agents-gemini-spark",
+        "https://creati.ai/ai-news/2026-02-12/google-deepmind-gemini-deep-think-scientific-research",
+        "https://www.globaltechcouncil.org/ai/100-things-google-announced-io-2026"
+      ],
+      "date": "2026-07-14T17:01:42.625716+00:00"
     }
   ],
-  "lastUpdated": "2026-07-14T16:31:44.043659+00:00"
+  "lastUpdated": "2026-07-14T17:01:42.625791+00:00"
 }
