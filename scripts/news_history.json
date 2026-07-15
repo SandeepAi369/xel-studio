@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Surpasses OpenAI as Leading AI Model Provider After Claude 5 Success",
-      "urls": [
-        "https://www.anthropic.com/research",
-        "https://www.anthropic.com/news",
-        "https://www.youtube.com/watch?v=3oTE626FaIw",
-        "https://www.youtube.com/watch?v=-nG-9vlSkho",
-        "https://www.anthropic.com"
-      ],
-      "date": "2026-07-05T09:01:37.215202+00:00"
-    },
-    {
       "title": "YouTube Highlights New ADA Digital Rules For Government Websites Compliance",
       "urls": [
         "https://www.youtube.com/watch?v=CfKLbH-SVV4"
@@ -4197,7 +4186,14 @@
         "https://www.theglobeandmail.com/investing/markets/markets-news/Newsfile/2480261/drive-hockey-secures-rd-grant-for-sports-ai-appoints-cxo-and-passes-2025-player-tracking-volume-in-record-time"
       ],
       "date": "2026-07-15T08:31:33.276093+00:00"
+    },
+    {
+      "title": "Zig President Bans AI‑Generated Code, Citing Quality Concerns and Emphasizing Human‑Written Standards",
+      "urls": [
+        "https://www.businessinsider.com/zig-programming-language-ai-rules-2026-5"
+      ],
+      "date": "2026-07-15T09:01:37.377852+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T08:31:33.276169+00:00"
+  "lastUpdated": "2026-07-15T09:01:37.377925+00:00"
 }
