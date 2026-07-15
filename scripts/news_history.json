@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches News Portal Showcasing Frontier AI LLMs, Assistants, and Services",
-      "urls": [
-        "https://mistral.ai/news"
-      ],
-      "date": "2026-07-05T10:01:34.089449+00:00"
-    },
-    {
       "title": "Permafrost Release Threatens Global Climate Stability As Deep Carbon Awakens",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/06/260626030448.htm",
@@ -4196,7 +4189,16 @@
         "https://www.youtube.com/watch?v=-nG-9vlSkho"
       ],
       "date": "2026-07-15T09:31:36.379304+00:00"
+    },
+    {
+      "title": "Linux Foundation Highlights Unstoppable Growth While Legacy Project Faces Funding Crisis",
+      "urls": [
+        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-june-2026",
+        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
+        "https://www.reddit.com/r/linux/comments/1pxx5z9/what_are_your_expectations_for_linux_in_2026"
+      ],
+      "date": "2026-07-15T10:01:48.219703+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T09:31:36.379391+00:00"
+  "lastUpdated": "2026-07-15T10:01:48.219776+00:00"
 }
