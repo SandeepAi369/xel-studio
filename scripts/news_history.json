@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Business Wire Expands Technology News Hub to Streamline Press Release Distribution",
-      "urls": [
-        "https://www.businesswire.com/newsroom/industry/technology",
-        "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders"
-      ],
-      "date": "2026-07-05T13:01:45.702995+00:00"
-    },
-    {
-      "title": "AI.cc Partners With Hugging Face to Offer Over 500 Open‑Source Models to Enterprises",
-      "urls": [
-        "https://www.openpr.com/news/4568137/ai-cc-with-hugging-face-to-bring-500-open-source-models",
-        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/what-is-trending-in-hugging-face-on-microsoft-foundry-feb-2-2026/4490602"
-      ],
-      "date": "2026-07-05T13:31:22.783518+00:00"
-    },
-    {
       "title": "Team USA Sets Record With Eleven Gold Medals at 2026 Winter Olympics",
       "urls": [
         "https://hollywoodlife.com/feature/olympic-medal-count-2026-update-5502360",
@@ -4219,7 +4203,20 @@
         "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html"
       ],
       "date": "2026-07-15T13:01:40.351816+00:00"
+    },
+    {
+      "title": "Telehealth.org Highlights AI‑Driven Virtual Care Advances Across Digital Health Landscape",
+      "urls": [
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
+        "https://www.medboundtimes.com/medicine/telemedicine-trends-2026-healthcare-professionals",
+        "https://telehealth.org/news/search-2026-highlights-ai-telehealth-research-and-connected-care-innovation",
+        "https://www.gminsights.com/blogs/digital-health-market-trends-opportunities-challenges",
+        "https://www.clustox.com/blog/telemedicine-trends",
+        "https://www.mdtalks.com/telehealth-ai-2026-trends",
+        "https://www.linkedin.com/pulse/digital-health-trends-news-june-2026-openloophealth-8xnec"
+      ],
+      "date": "2026-07-15T13:31:45.787141+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T13:01:40.351885+00:00"
+  "lastUpdated": "2026-07-15T13:31:45.787217+00:00"
 }
