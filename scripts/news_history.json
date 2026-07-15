@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "WorldNow Launches Live Global Disaster Tracker for Earthquakes, Fires, and Volcanoes",
-      "urls": [
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://www.usgs.gov/programs/VHP/volcano-updates"
-      ],
-      "date": "2026-07-05T14:31:30.663249+00:00"
-    },
-    {
       "title": "YouTube Highlights AI Revolution Transforming Drug Discovery Market and Investment Landscape",
       "urls": [
         "https://www.youtube.com/watch?v=XkMpTc8moys",
@@ -4216,7 +4208,16 @@
         "https://www.youtube.com/watch?v=56vpbuYLFuI"
       ],
       "date": "2026-07-15T14:01:44.805030+00:00"
+    },
+    {
+      "title": "Reddit Search Returns Empty Results With No Descriptive Content for Query",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://www.reddit.com/r/MistralAI/comments/1qxpmrw/europe_can_still_be_competitive_in_ai_mistral",
+        "https://www.reddit.com/r/MistralAI/comments/1mqw5oy/best_case_scenario_for_mistral_by_august_2026"
+      ],
+      "date": "2026-07-15T14:31:39.964825+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T14:01:44.805091+00:00"
+  "lastUpdated": "2026-07-15T14:31:39.964904+00:00"
 }
