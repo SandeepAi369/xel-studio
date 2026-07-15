@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Launches IPO, Signals New Era for Open‑Source Artificial Intelligence",
-      "urls": [
-        "https://techdailyshot.com/blog/hugging-face-ipo-impact-open-source-ai-2026",
-        "https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026"
-      ],
-      "date": "2026-07-05T19:31:26.552718+00:00"
-    },
-    {
       "title": "Fran Hong Says Democratic Socialist Can Win Wisconsin, Sparking Political Debate",
       "urls": [
         "https://www.msn.com/en-us/news/politics/can-a-democratic-socialist-win-wisconsin-fran-hong-says-yes/ar-AA273Usm?ocid=BingNewsVerp",
@@ -4209,7 +4201,18 @@
         "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health"
       ],
       "date": "2026-07-15T19:03:55.991532+00:00"
+    },
+    {
+      "title": "Congressional Poll Shows Bipartisan Backing for Stricter AI Regulation Amid Anthropic Model Takedown",
+      "urls": [
+        "https://www.msn.com/en-us/news/politics/voters-of-both-parties-want-tighter-ai-regulation-poll-finds/ar-AA26MtXQ?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/other/ai-regulation-is-a-mess-and-anthropic-is-caught-in-the-crosshairs/ar-AA26cwg7?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/politics/anthropic-model-takedown-fuels-warning-of-ad-hoc-ai-regulation/ar-AA25LTB8?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/politics/poll-finds-bipartisan-support-for-tighter-ai-regulation/ar-AA26OJ6H?ocid=BingNewsVerp",
+        "https://www.zeebiz.com/india/news-from-ai-regulation-to-vpns-meity-s-krishnan-outlines-digital-policy-priorities-telegram-whatsapp-username-ai-claude-telegram-signal-mythos-fable-5-398343"
+      ],
+      "date": "2026-07-15T19:31:34.087109+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T19:03:55.991598+00:00"
+  "lastUpdated": "2026-07-15T19:31:34.087165+00:00"
 }
