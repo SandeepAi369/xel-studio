@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Expands Online Presence With Dedicated GPT‑4 Landing Page for Developers and Researchers",
-      "urls": [
-        "https://openai.com",
-        "https://gemini.google.com",
-        "https://chatgpt.com",
-        "https://deepai.org",
-        "https://ai.google",
-        "https://www.perplexity.ai",
-        "https://copilot.microsoft.com",
-        "https://openai.com/index/gpt-4",
-        "https://duck.ai",
-        "https://en.m.wikipedia.org/wiki/Artificial_intelligence"
-      ],
-      "date": "2026-07-05T05:31:29.327796+00:00"
-    },
-    {
       "title": "Mind Help Publishes Better Mind Report Mapping 2026 Digital Mental Health Landscape",
       "urls": [
         "https://mind.help/mh-news/better-mind-report-maps-2026-digital-mental-heal"
@@ -4215,7 +4199,14 @@
         "https://agenticera.fyi/top-5-open-source-ai-models-of-2026"
       ],
       "date": "2026-07-15T05:01:38.566135+00:00"
+    },
+    {
+      "title": "YouTube Showcases New Accessibility Innovations at CES 2026, Expanding Tools for Disabled Users",
+      "urls": [
+        "https://www.youtube.com/watch?v=b5DvFC4SaUE"
+      ],
+      "date": "2026-07-15T05:31:45.416405+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T05:01:38.566214+00:00"
+  "lastUpdated": "2026-07-15T05:31:45.416481+00:00"
 }
