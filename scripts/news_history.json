@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights New ADA Digital Rules For Government Websites Compliance",
-      "urls": [
-        "https://www.youtube.com/watch?v=CfKLbH-SVV4"
-      ],
-      "date": "2026-07-05T09:31:20.333776+00:00"
-    },
-    {
       "title": "Mistral AI Launches News Portal Showcasing Frontier AI LLMs, Assistants, and Services",
       "urls": [
         "https://mistral.ai/news"
@@ -4193,7 +4186,17 @@
         "https://www.businessinsider.com/zig-programming-language-ai-rules-2026-5"
       ],
       "date": "2026-07-15T09:01:37.377852+00:00"
+    },
+    {
+      "title": "Anthropic Dethrones OpenAI as Claude 5 Powers Apple iPhone 18 Integration",
+      "urls": [
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/research",
+        "https://www.youtube.com/watch?v=3oTE626FaIw",
+        "https://www.youtube.com/watch?v=-nG-9vlSkho"
+      ],
+      "date": "2026-07-15T09:31:36.379304+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T09:01:37.377925+00:00"
+  "lastUpdated": "2026-07-15T09:31:36.379391+00:00"
 }
