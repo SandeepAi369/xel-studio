@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Uvik Software Publishes Decision Framework Comparing PyTorch and TensorFlow for 2026",
-      "urls": [
-        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025",
-        "https://uvik.net/blog/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-07-05T02:01:28.774052+00:00"
-    },
-    {
       "title": "DRIVE Hockey Secures Grant, Appoints CXO, and Beats 2025 Tracking Target",
       "urls": [
         "https://www.theglobeandmail.com/investing/markets/markets-news/Newsfile/2480261/drive-hockey-secures-rd-grant-for-sports-ai-appoints-cxo-and-passes-2025-player-tracking-volume-in-record-time"
@@ -4212,7 +4203,15 @@
         "https://www.rff.org/publications/reports/global-energy-outlook-2026"
       ],
       "date": "2026-07-15T01:31:39.916521+00:00"
+    },
+    {
+      "title": "TensorFlow and PyTorch Compete for Developer Preference as 2026 Framework Choices Expand",
+      "urls": [
+        "https://www.hightechnews.fr/tensorflow-pytorch-2026-choix",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-07-15T02:01:44.611534+00:00"
     }
   ],
-  "lastUpdated": "2026-07-15T01:31:39.916588+00:00"
+  "lastUpdated": "2026-07-15T02:01:44.611614+00:00"
 }
