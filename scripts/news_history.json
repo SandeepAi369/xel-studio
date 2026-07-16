@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Publishes New Climate Reports Detailing Global Emissions Trends",
-      "urls": [
-        "https://www.un.org/en/climatechange/reports"
-      ],
-      "date": "2026-07-06T10:31:31.437255+00:00"
-    },
-    {
       "title": "Reddit Search Returns Only Title Without Description Across Multiple Entries",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
@@ -4208,7 +4201,19 @@
         "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
       ],
       "date": "2026-07-16T10:03:34.930076+00:00"
+    },
+    {
+      "title": "Potential Tropical Cyclone One Triggers Flood Watch Across Gulf Coast Regions",
+      "urls": [
+        "https://insideclimatenews.org/news/14072026/todays-climate-extreme-weather-disaster-fatigue",
+        "https://www.wwno.org/local-regional-news/2026-06-18/flooding-tornadoes-from-arthur-an-early-test-for-southeast-louisianas-preparedness",
+        "https://www.palmbeachpost.com/story/weather/hurricane/2026/06/16/tropical-storm-arthur-could-form-along-gulf-coast-first-system-of-2026/90564071007",
+        "https://www.pineisland-eagle.com/news/community-news/2026/07/pine-island-couple-attends-weather-survivors-summit-in-washington-d-c",
+        "https://www.usatoday.com/story/news/weather/2026/06/16/texas-flood-tropical-storm-louisiana-mississippi-world-cup-live--live/90569352007",
+        "https://www.usatoday.com/story/news/weather/2026/06/17/arthur-first-named-storm-of-season/90574283007"
+      ],
+      "date": "2026-07-16T10:31:31.775430+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T10:03:34.930157+00:00"
+  "lastUpdated": "2026-07-16T10:31:31.775522+00:00"
 }
