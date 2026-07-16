@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Soccer Team Secures Historic Victory in World Cup Opener as Houston Fans Celebrate",
-      "urls": [
-        "https://nypost.com/2026/06/12/sports/oj-anunobys-tip-in-joins-the-posts-10-plays-that-best-define-ny-sports",
-        "https://www.houstonpublicmedia.org/articles/news/sports/world-cup/2026/06/12/554479/usa-paraguay-world-cup-houston-rice-university",
-        "https://www.msn.com/en-in/sports/other/brazil-vs-morocco-highlights-fifa-world-cup-2026-team-news-lineups-and-key-moments-from-group-c-match/ar-AA25AdOP?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-06T12:01:51.956734+00:00"
-    },
-    {
-      "title": "USA Today Challenges Google AI for World Cup Breaking News Traffic",
-      "urls": [
-        "https://www.msn.com/en-us/technology/artificial-intelligence/usa-today-vs-google-ai-overviews-a-world-cup-battle-for-breaking-news-traffic/ar-AA25ZvEQ?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-06T12:31:38.615509+00:00"
-    },
-    {
       "title": "HKSTP Leads Largest-Ever Hong Kong Delegation to BIO 2026 Showcasing Health Tech",
       "urls": [
         "https://www.usatoday.com/press-release/story/35448/hkstp-leads-largest-ever-hong-kong-delegation-to-bio-2026-showcasing-life-and-health-tech-strength"
@@ -4219,7 +4203,14 @@
         "https://www.reuters.com/world/americas/boc-expected-hold-rates-through-2026-look-past-temporary-inflation-pressures-2026-06-05"
       ],
       "date": "2026-07-16T12:01:45.310060+00:00"
+    },
+    {
+      "title": "Hearing Aid UK Publishes Overview of 2026 Hearing Aid Technology",
+      "urls": [
+        "https://www.hearingaid.org.uk/hearing-aid-technology/hearing-aid-technology-2026"
+      ],
+      "date": "2026-07-16T12:31:45.078412+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T12:01:45.310128+00:00"
+  "lastUpdated": "2026-07-16T12:31:45.078484+00:00"
 }
