@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Launches New News Releases Portal to Centralize Agency Announcements and Mission Updates",
-      "urls": [
-        "https://www.nasa.gov/2026-news-releases"
-      ],
-      "date": "2026-07-06T00:31:25.949717+00:00"
-    },
-    {
       "title": "Assistive Device Promises Life‑Changing Benefits For People With Disabilities Worldwide",
       "urls": [
         "https://thiis.co.uk/new-assistive-technology-professional-body-launched-to-improve-support-for-disabled-people",
@@ -4212,7 +4205,18 @@
         "https://tooldirectory.ai/blog/state-of-ai-image-and-video-generation-2026"
       ],
       "date": "2026-07-16T00:01:53.115803+00:00"
+    },
+    {
+      "title": "Esports World Cup Showcases Global Gaming Teams in Expanded Tournament Schedule",
+      "urls": [
+        "https://escharts.com/upcoming-tournaments",
+        "https://liquipedia.net/esports/Esports_World_Cup/2026",
+        "https://www.youtube.com/watch?v=AwHnP5zWZOc",
+        "https://egamersworld.com/events",
+        "https://en.wikipedia.org/wiki/2026_Esports_World_Cup"
+      ],
+      "date": "2026-07-16T00:31:36.696375+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T00:01:53.115871+00:00"
+  "lastUpdated": "2026-07-16T00:31:36.696447+00:00"
 }
