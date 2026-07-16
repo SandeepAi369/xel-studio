@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Carbon Markets Offer Growth Potential as Governments Seek Policy Certainty",
-      "urls": [
-        "https://www.youtube.com/watch?v=-R0Ys1vvYi0",
-        "https://www.instagram.com/reel/DTJE_sVCSZn",
-        "https://www.youtube.com/watch?v=9yOfV6Eh464",
-        "https://www.reuters.com/sustainability/sustainable-finance-reporting/carbon-markets-have-potential-governments-must-now-provide-certainty--ecmii-2026-06-24"
-      ],
-      "date": "2026-07-06T14:02:21.622452+00:00"
-    },
-    {
       "title": "GE HealthCare Unveils Next‑Gen SIGNA MR System to Accelerate Research and Clinical Impact",
       "urls": [
         "https://www.morningstar.com/news/business-wire/20260510618158/ge-healthcare-next-gen-signa-mr-technology-helps-advance-research-discovery-and-translate-innovation-into-clinical-impact"
@@ -4220,7 +4210,22 @@
         "https://www.irena.org/Publications/2026/May/24-7-renewables-The-economics-of-firm-solar-and-wind"
       ],
       "date": "2026-07-16T14:01:52.266786+00:00"
+    },
+    {
+      "title": "Open Source AI Gains Momentum as Industry Leaders Highlight Top Models and Projects",
+      "urls": [
+        "https://cloudification.io/cloud-blog/ai-and-open-source-in-2026-opportunities-security-risks-and-the-future-of-open-infrastructure",
+        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026",
+        "https://dev.to/sonotommy/10-best-open-source-ai-agents-for-2026-2l6p",
+        "https://www.nature.com/articles/s41467-026-73866-8",
+        "https://www.forbes.com/sites/ronschmelzer/2026/04/19/open-source-ai-is-moving-from-sideshow-to-strategy",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1re5qdy/is_2026_the_year_local_ai_becomes_the_default_not",
+        "https://community.openai.com/t/openai-is-at-risk-of-losing-developers/1382415",
+        "https://github.com/alvinreal/awesome-opensource-ai",
+        "https://techcommunity.microsoft.com/blog/linuxandopensourceblog/four-open-source-projects-to-explore-at-microsoft-build/4523744"
+      ],
+      "date": "2026-07-16T14:31:44.000902+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T14:01:52.266881+00:00"
+  "lastUpdated": "2026-07-16T14:31:44.000976+00:00"
 }
