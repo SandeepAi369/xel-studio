@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shakudo Blog Lists Nine Leading Large Language Models for Developers",
-      "urls": [
-        "https://www.shakudo.io/blog/top-9-large-language-models"
-      ],
-      "date": "2026-07-06T05:01:33.741059+00:00"
-    },
-    {
       "title": "Uttarakhand Launches Science, Technology and Innovation Policy to Accelerate Research Development",
       "urls": [
         "https://www.hindustantimes.com/genesis/uttarakhand-unveils-science-technology-and-innovation-policy-2026-to-boost-research-led-development-101781089824573.html"
@@ -4211,7 +4204,16 @@
         "https://www.msn.com/en-us/news/technology/nasa-s-newest-space-telescope-reached-its-launch-site-eight-months-early-aiming-for-an-august-liftoff/ar-AA26KTJD?ocid=BingNewsVerp"
       ],
       "date": "2026-07-16T04:31:52.297990+00:00"
+    },
+    {
+      "title": "USGS Releases 2026 Significant Earthquake List Boosting Global Disaster Monitoring",
+      "urls": [
+        "https://www.the-world-now.com/global-disaster-tracker",
+        "https://pocketworld.org/disasters-today",
+        "https://earthquake.usgs.gov/earthquakes/browse/significant.php"
+      ],
+      "date": "2026-07-16T05:02:07.628575+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T04:31:52.298058+00:00"
+  "lastUpdated": "2026-07-16T05:02:07.628641+00:00"
 }
