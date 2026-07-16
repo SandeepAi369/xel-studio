@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Announces Open‑Source Release of Next‑Generation Llama AI Models for Developers",
-      "urls": [
-        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
-        "https://www.youtube.com/watch?v=niNV4uziW50",
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2133468937070341",
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/472483165627318",
-        "https://www.facebook.com/Meta/videos/open-source-ai-available-to-all-not-just-the-few/2806899022830350"
-      ],
-      "date": "2026-07-06T06:01:40.791860+00:00"
-    },
-    {
-      "title": "U.S. Solar Power Surpasses Coal Generation, Marking Historic Shift in National Grid",
-      "urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/killing-wind-solar-subsidies-will-make-us-electricity-more-expensive-2026-07-06",
-        "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
-        "https://www.msn.com/en-us/money/markets/china-resources-new-energy-more-than-doubles-in-debut-after-asias-biggest-ipo-of-2026/ar-AA275tRK?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-06T06:31:24.728196+00:00"
-    },
-    {
       "title": "Iran War Energy Disruption Threatens Global Economy, Researchers Warn Severe Impact",
       "urls": [
         "https://seekingalpha.com/article/4919476-global-macro-outlook-third-quarter-2026",
@@ -4225,7 +4205,15 @@
         "https://www.facebook.com/clarincom/videos/claude-est%C3%A1-cambiando-la-carrera-de-la-inteligencia-artificial-es-realmente-mejo/1029821482820687"
       ],
       "date": "2026-07-16T06:01:39.065487+00:00"
+    },
+    {
+      "title": "WWF And Mongabay Expand Online Conservation News Platforms To Boost Global Awareness",
+      "urls": [
+        "https://wwf.panda.org/wwf_news",
+        "https://news.mongabay.com/list/all"
+      ],
+      "date": "2026-07-16T06:31:33.464575+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T06:01:39.065543+00:00"
+  "lastUpdated": "2026-07-16T06:31:33.464658+00:00"
 }
