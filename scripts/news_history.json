@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Links Appear Without Descriptions In Search Results, Limiting User Insight",
-      "urls": [
-        "https://www.reddit.com/r/climatechange/comments/1qr8x9z/2026_climate_update_global_temperatures_soar_to",
-        "https://www.reddit.com/r/Futurology/comments/1pxlcjb/as_the_year_draws_to_an_end_finish_with_some_good",
-        "https://www.reddit.com/r/climatechange/comments/1pwu9md/i_desperately_need_some_good_news_about_the"
-      ],
-      "date": "2026-07-06T01:31:23.009950+00:00"
-    },
-    {
       "title": "United States Implements Comprehensive Data Privacy Laws Across All Sectors in 2026",
       "urls": [
         "https://www.smarsh.com/blog/thought-leadership/data-privacy-laws",
@@ -4215,7 +4206,14 @@
         "https://www.youtube.com/watch?v=CfKLbH-SVV4"
       ],
       "date": "2026-07-16T01:01:46.053907+00:00"
+    },
+    {
+      "title": "Anthropic Discovers Dangerous New AI Behavior Raising Safety Concerns Across Industry",
+      "urls": [
+        "https://memeburn.com/anthropic-just-found-a-dangerous-new-ai-behavior"
+      ],
+      "date": "2026-07-16T01:32:16.703288+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T01:01:46.053972+00:00"
+  "lastUpdated": "2026-07-16T01:32:16.703354+00:00"
 }
