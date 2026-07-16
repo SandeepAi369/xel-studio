@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Energy Agency Releases 2026 Climate Tech Outlook Highlighting Global Trends",
-      "urls": [
-        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
-        "https://www.spglobal.com/energy/en/news-research/special-reports/energy-transition/horizons-top-cleantech-trends-2026",
-        "https://www.technologyreview.com/2026/01/15/1131348/climate-technologies-2026",
-        "https://netzerocompare.com/articles/emerging-climate-tech-2026-carbon-capture-green-hydrogen-batteries",
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
-        "https://www.iea.org/reports/energy-technology-perspectives-2026"
-      ],
-      "date": "2026-07-06T10:01:40.489655+00:00"
-    },
-    {
       "title": "United Nations Publishes New Climate Reports Detailing Global Emissions Trends",
       "urls": [
         "https://www.un.org/en/climatechange/reports"
@@ -4212,7 +4199,16 @@
         "https://www.youtube.com/watch?v=2AyhU7QAO4E"
       ],
       "date": "2026-07-16T09:31:38.128775+00:00"
+    },
+    {
+      "title": "Alibaba Cloud Earns Leader Status in Omdia Agentic AI Cloud Titans Report",
+      "urls": [
+        "https://www.zawya.com/en/press-release/companies-news/alibaba-cloud-named-a-leader-in-omdia-market-radar-agentic-ai-cloud-titans-in-asia-and-oceania-2026-t8jm8zvs",
+        "https://www.shakudo.io/blog/top-9-large-language-models",
+        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
+      ],
+      "date": "2026-07-16T10:03:34.930076+00:00"
     }
   ],
-  "lastUpdated": "2026-07-16T09:31:38.128845+00:00"
+  "lastUpdated": "2026-07-16T10:03:34.930157+00:00"
 }
