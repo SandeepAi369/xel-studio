@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily and Mongabay Expand Biodiversity Coverage With New Online News Hubs",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://news.mongabay.com"
-      ],
-      "date": "2026-07-07T08:01:37.334821+00:00"
-    },
-    {
       "title": "Drug Discovery Firms Secure IPO Wins Amid Industry Shift",
       "urls": [
         "https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article",
@@ -4261,7 +4253,19 @@
         "https://www.socialpilot.co/blog/social-media-updates"
       ],
       "date": "2026-07-17T08:01:31.384479+00:00"
+    },
+    {
+      "title": "CBS News Maps Show Wildfire Smoke Threatening Air Quality Across Large U.S. Region",
+      "urls": [
+        "https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us",
+        "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/jul/16/trump-tv-address-thursday",
+        "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+        "https://www.foxnews.com/us/san-francisco-bay-search-suspended-3-missing-boaters-vessel-capsizes-5-foot-swells",
+        "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "date": "2026-07-17T08:31:22.588212+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T08:01:31.384547+00:00"
+  "lastUpdated": "2026-07-17T08:31:22.588272+00:00"
 }
