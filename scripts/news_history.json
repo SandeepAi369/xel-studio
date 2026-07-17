@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte Insights Publishes Weekly Global Economic Update to Track Worldwide Trends",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
-      ],
-      "date": "2026-07-07T01:31:25.940963+00:00"
-    },
-    {
       "title": "Singapore Treasure Carbon Joins Climate Leaders At APAC Summit In Bangkok",
       "urls": [
         "https://www.reuters.com/press-releases/singapore-treasure-carbon-climate-futures-apac-summit-2026-bangkok-2026-06-18",
@@ -4251,7 +4244,18 @@
         "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20"
       ],
       "date": "2026-07-17T01:31:21.540389+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT-5.6 to Partners Amid Safety Review and Desktop Pivot",
+      "urls": [
+        "https://www.msn.com/en-in/technology/artificial-intelligence/openai-chatgpt-5-6-new-ai-model-check-expected-release-date-features-sol-terra-luna-more-here-s-gpt-5-6-vs-gpt-5-5/ar-AA26DH4s?ocid=BingNewsVerp",
+        "https://www.nextgov.com/artificial-intelligence/2026/06/openai-releases-new-gpt-56-model-select-partners/414474",
+        "https://decrypt.co/373613/openai-ai-red-team-strengthen-gpt-5-6-prompt-injection-attacks",
+        "https://www.msn.com/en-us/news/technology/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/ar-AA26yWLK?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/anishasircar/2026/07/10/openais-gpt-56-lands-with-work-agents-and-a-desktop-pivot"
+      ],
+      "date": "2026-07-17T02:01:36.770564+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T01:31:21.540464+00:00"
+  "lastUpdated": "2026-07-17T02:01:36.770620+00:00"
 }
