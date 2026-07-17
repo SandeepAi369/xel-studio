@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "IntuitionLabs Maps 2026 Pharma AI Vendor Landscape for Drug Discovery and Clinical Trials",
-      "urls": [
-        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026",
-        "https://www.instagram.com/reel/DaczBTRh9ss",
-        "https://www.instagram.com/reel/Dac7HkbSrL7"
-      ],
-      "date": "2026-07-07T14:32:07.422695+00:00"
-    },
-    {
-      "title": "ABC News Releases Short Video Offering Mental Health Tips For 2026",
-      "urls": [
-        "https://abcnews.go.com/Health/video/ways-improve-mental-health-2026-128733616",
-        "https://www.youtube.com/watch?v=f1iJ47lgfZU",
-        "https://www.youtube.com/watch?v=UyLSO2gWOsw"
-      ],
-      "date": "2026-07-07T15:01:39.883681+00:00"
-    },
-    {
       "title": "AI.cc Unifies Over 500 Hugging Face Models Through Single API",
       "urls": [
         "https://www.opensourceforu.com/2026/07/ai-cc-integrates-500-hugging-face-open-source-models-via-a-single-unified-api"
@@ -4273,7 +4255,15 @@
         "https://www.nbcnews.com/politics/2026-primary-elections/national"
       ],
       "date": "2026-07-17T14:31:35.613840+00:00"
+    },
+    {
+      "title": "Africanews Expands Digital Platform to Deliver Continuous Breaking News Across the Continent",
+      "urls": [
+        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
+        "https://www.africanews.com"
+      ],
+      "date": "2026-07-17T15:02:20.132998+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T14:31:35.613912+00:00"
+  "lastUpdated": "2026-07-17T15:02:20.133075+00:00"
 }
