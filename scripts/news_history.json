@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "GiveMeSport Publishes Ranked List of America’s Most Popular Sports According To Recent Survey",
-      "urls": [
-        "https://www.givemesport.com/most-popular-sports-america"
-      ],
-      "date": "2026-07-07T16:31:30.071285+00:00"
-    },
-    {
       "title": "SpaceX Highlights Stellar Naming Habit With California Drone Ship Example",
       "urls": [
         "https://www.msn.com/en-us/news/technology/inside-spacexs-habit-for-stellar-names-like-this-california-drone-ship/ar-AA274myd?ocid=BingNewsVerp"
@@ -4276,7 +4269,14 @@
         "https://www.nytimes.com/2026/07/15/movies/the-odyssey-review.html"
       ],
       "date": "2026-07-17T16:31:22.219177+00:00"
+    },
+    {
+      "title": "CAS Publishes 2026 Scientific Breakthroughs Report Highlighting Emerging Research Trends",
+      "urls": [
+        "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch"
+      ],
+      "date": "2026-07-17T17:01:33.826068+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T16:31:22.219250+00:00"
+  "lastUpdated": "2026-07-17T17:01:33.826144+00:00"
 }
