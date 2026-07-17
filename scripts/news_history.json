@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mass General Brigham Publishes 2026 Science and Medicine Strategic Forecast",
-      "urls": [
-        "https://www.massgeneralbrigham.org/en/about/newsroom/articles/2026-predictions-on-scientific-advancements"
-      ],
-      "date": "2026-07-07T09:01:46.423793+00:00"
-    },
-    {
-      "title": "Vision Buddy Highlights Emerging Assistive Tech For Visually Impaired Users",
-      "urls": [
-        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
-        "https://afb.org/blindness-and-low-vision/using-technology"
-      ],
-      "date": "2026-07-07T09:31:24.946280+00:00"
-    },
-    {
       "title": "Tallahassee Residents Access Free Earthquake Database and Statewide Graphic Maps",
       "urls": [
         "https://www.tallahassee.com/story/news/2026/06/08/florida-earthquake-tallahassee-database-map/90462292007"
@@ -4265,7 +4250,17 @@
         "https://www.facebook.com/100063605994377/videos/as-artificial-intelligence-advances-at-an-unprecedented-pace-its-transforming-in/854299007767708"
       ],
       "date": "2026-07-17T09:01:39.187239+00:00"
+    },
+    {
+      "title": "SpaceX Launches Starship for Artemis Mission as Starlink 401 and 402 Deploy Satellites",
+      "urls": [
+        "https://www.usatoday.com/story/tech/space/2026/07/13/spacex-starship-13-flight/90898426007",
+        "https://spaceflightnow.com/launch-schedule",
+        "https://www.youtube.com/watch?v=YVukwZsCO9g",
+        "https://www.youtube.com/watch?v=sCCOlAMJwog"
+      ],
+      "date": "2026-07-17T09:31:30.788519+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T09:01:39.187310+00:00"
+  "lastUpdated": "2026-07-17T09:31:30.788593+00:00"
 }
