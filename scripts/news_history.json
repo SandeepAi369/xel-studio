@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boston Marathon Raises Record Charity Funds, Boosting Nationwide Philanthropy In 2026",
-      "urls": [
-        "https://sports.yahoo.com/articles/ncaa-track-field-championships-record-034423704.html",
-        "https://www.runnersworld.com/news/a71424256/boston-marathon-charity-2026",
-        "https://www.lubbockonline.com/story/sports/college/red-raiders/2026/05/31/texas-tech-track-and-field-ncaa-west-regional-malachi-snow-record-110-hurdles/90217523007",
-        "https://www.msn.com/en-za/news/other/comrades-marathon-2026-top-10-men-and-women-finishers/ar-AA25G3Uo?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-07T18:01:36.016734+00:00"
-    },
-    {
       "title": "Absentia Labs Secures FDA Qualification for First AI Digital Liver Model",
       "urls": [
         "https://www.infospace.com/terms/terms-of-use.html",
@@ -4277,7 +4267,16 @@
         "https://www.climatecentral.org/climate-matters/hurricane-season"
       ],
       "date": "2026-07-17T18:01:33.377417+00:00"
+    },
+    {
+      "title": "Reddit Directs Readers to Additional Content Without Providing Summaries In Search Results",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
+        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
+        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2"
+      ],
+      "date": "2026-07-17T18:31:27.843153+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T18:01:33.377486+00:00"
+  "lastUpdated": "2026-07-17T18:31:27.843251+00:00"
 }
