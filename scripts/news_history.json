@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qualcomm Expands Partnership With Hugging Face to Boost Open Edge‑to‑Cloud AI",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/24/10405544.htm",
-        "https://observer.com/list/clement-delangue-hugging-face-ai-power-list-interview-2026",
-        "https://www.techrepublic.com/article/news-hugging-face-transformers-rce-flaw",
-        "https://www.bloomberg.com/news/videos/2026-06-29/delangue-on-anthropic-ai-model-s-dangerous-label-video"
-      ],
-      "date": "2026-07-07T17:31:48.961059+00:00"
-    },
-    {
       "title": "Boston Marathon Raises Record Charity Funds, Boosting Nationwide Philanthropy In 2026",
       "urls": [
         "https://sports.yahoo.com/articles/ncaa-track-field-championships-record-034423704.html",
@@ -4278,7 +4268,16 @@
         "https://www.thestar.com.my/news/nation/2026/06/19/beating-the-odds-to-become-top-scorers"
       ],
       "date": "2026-07-17T17:31:26.979565+00:00"
+    },
+    {
+      "title": "Climate Change Drives Record Rainfall and Deadly Flash Floods Across United States",
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/jul/17/climate-change-rains-flash-floods",
+        "https://www.fema.gov",
+        "https://www.climatecentral.org/climate-matters/hurricane-season"
+      ],
+      "date": "2026-07-17T18:01:33.377417+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T17:31:26.979626+00:00"
+  "lastUpdated": "2026-07-17T18:01:33.377486+00:00"
 }
