@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "USA exits the competition after the loss, with the live coverage noting the team's effort and the reaction of supporters,",
-      "urls": [
-        "https://www.espn.com/soccer/scoreboard",
-        "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
-        "https://www.nbcsports.com/soccer/news/2026-world-cup-schedule-kick-off-times-stadiums-dates-groups-how-to-watch-live-bracket",
-        "https://www.aljazeera.com/sports/2026/7/4/ounahi-fires-morocco-into-world-cup-quarterfinals-with-3-0-win-over-canada",
-        "https://sports.yahoo.com/soccer"
-      ],
-      "date": "2026-07-07T12:01:50.387701+00:00"
-    },
-    {
-      "title": "Female American Rower Completes Record-Breaking Solo Crossing From California To Hawaii",
-      "urls": [
-        "https://edition.cnn.com",
-        "https://www.cnn.com/2026/07/05/us/american-solo-rowing-hawaii",
-        "https://www.youtube.com/watch?v=MybbJn0utbA",
-        "https://www.instagram.com/reel/DYv7ZnEO9Ey",
-        "https://www.youtube.com/watch?v=H8fJrki0ikg",
-        "https://www.youtube.com/watch?v=9iZ5LaI6X9I"
-      ],
-      "date": "2026-07-07T12:31:30.912969+00:00"
-    },
-    {
       "title": "Meta Launches Cloud Service to Sell Surplus AI Compute Amid Chip Stock Decline",
       "urls": [
         "https://www.youtube.com/watch?v=x2SKd4bPL_g",
@@ -4277,7 +4254,16 @@
         "https://www.yahoo.com/news/politics/articles/2026-south-carolina-primary-runoff-090746709.html"
       ],
       "date": "2026-07-17T12:01:34.646957+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6 Model Family to Expand Developer Access and Enable New Agent Integration",
+      "urls": [
+        "https://www.youtube.com/watch?v=VZTmS4B840k",
+        "https://www.youtube.com/watch?v=1f6BeloOdgQ",
+        "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
+      ],
+      "date": "2026-07-17T12:31:32.003842+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T12:01:34.647024+00:00"
+  "lastUpdated": "2026-07-17T12:31:32.003914+00:00"
 }
