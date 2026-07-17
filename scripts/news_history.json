@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Center for Digital and Technological Innovation Launches Instagram Page to Share Innovation Updates",
-      "urls": [
-        "https://www.instagram.com/reel/DZDf6dhEQQz"
-      ],
-      "date": "2026-07-07T20:31:25.031060+00:00"
-    },
-    {
       "title": "CIDOB Publishes Ten‑Issue Forecast Shaping International Global Agenda For 2026",
       "urls": [
         "https://www.cidob.org/en/publications/world-2026-ten-issues-will-shape-international-agenda"
@@ -4267,7 +4260,15 @@
         "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost"
       ],
       "date": "2026-07-17T20:01:41.704419+00:00"
+    },
+    {
+      "title": "HPE CEO Urges Companies to Accelerate AI Adoption Amid Q2 Earnings Discussion",
+      "urls": [
+        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
+        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html"
+      ],
+      "date": "2026-07-17T20:31:27.892885+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T20:01:41.704491+00:00"
+  "lastUpdated": "2026-07-17T20:31:27.892950+00:00"
 }
