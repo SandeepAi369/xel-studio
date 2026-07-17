@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Absentia Labs Secures FDA Qualification for First AI Digital Liver Model",
-      "urls": [
-        "https://www.infospace.com/terms/terms-of-use.html",
-        "https://www.news-medical.net/news/20260703/Insilico-Medicine-highlights-AI-drug-discovery-progress-at-executive-summit.aspx",
-        "https://www.news-medical.net/news/20260702/Insilico-Medicine-partners-with-Takeda-for-AI-driven-drug-discovery.aspx",
-        "https://finance.yahoo.com/healthcare/articles/absentia-labs-digital-liver-model-120600033.html"
-      ],
-      "date": "2026-07-07T18:31:34.435958+00:00"
-    },
-    {
       "title": "LinuxLap Launches Comprehensive Portal Delivering Latest Linux and Open‑Source Updates",
       "urls": [
         "https://linuxlap.com/category/news"
@@ -4276,7 +4266,15 @@
         "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2"
       ],
       "date": "2026-07-17T18:31:27.843153+00:00"
+    },
+    {
+      "title": "Healthcare IT Leaders Deploy AI to Strengthen System Backbone and Forecast Future Uses",
+      "urls": [
+        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
+        "https://www.healthcareitnews.com/projects/how-health-its-leading-innovators-are-using-ai-now-and-where-they-see-it-going"
+      ],
+      "date": "2026-07-17T19:01:31.250485+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T18:31:27.843251+00:00"
+  "lastUpdated": "2026-07-17T19:01:31.250579+00:00"
 }
