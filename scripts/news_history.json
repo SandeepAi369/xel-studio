@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Concern Worldwide Publishes 2026 Refugee Crisis Report Highlighting Record Displacement",
-      "urls": [
-        "https://news.un.org/en/focus-topic/refugees-and-migrants",
-        "https://www.concern.net/news/largest-refugee-crises"
-      ],
-      "date": "2026-07-07T11:01:59.181540+00:00"
-    },
-    {
       "title": "SpaceX Launches Record 51 Falcon 9 Missions in 2026, Boosting Launch Cadence",
       "urls": [
         "https://www.msn.com/en-us/news/technology/heres-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp",
@@ -4276,7 +4268,14 @@
         "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281"
       ],
       "date": "2026-07-17T11:01:38.476617+00:00"
+    },
+    {
+      "title": "White & Case LLP Launches AI Watch United States Regulatory Tracker",
+      "urls": [
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states"
+      ],
+      "date": "2026-07-17T11:31:22.246172+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T11:01:38.476680+00:00"
+  "lastUpdated": "2026-07-17T11:31:22.246243+00:00"
 }
