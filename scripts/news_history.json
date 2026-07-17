@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kenya Launches AI Initiative to Boost Disability Inclusion Across the Nation",
-      "urls": [
-        "https://www.forbes.com/sites/hnewman/2026/05/19/meet-the-accessibility-200-and-their-ai-tools",
-        "https://www.standardmedia.co.ke/tech-innovation/article/2001546358/kenya-bets-on-ai-to-drive-disability-inclusion-in-new-multi-partner-initiative",
-        "https://www.msn.com/en-in/technology/artificial-intelligence/code-to-inclusion-how-inclusive-digital-infrastructure-and-ai-can-transform-disability-inclusion/ar-AA1YXglz?ocid=BingNewsVerp",
-        "https://www.aei.org/technology-and-innovation/how-artificial-intelligence-is-reshaping-work-for-americans-with-disabilities"
-      ],
-      "date": "2026-07-07T04:31:28.311101+00:00"
-    },
-    {
       "title": "Open Source Faces Funding Pressure And Licensing Battles Amid AI Growth",
       "urls": [
         "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html"
@@ -4262,7 +4252,14 @@
         "https://www.instagram.com/reel/DSX84RkAZCL?hl=en"
       ],
       "date": "2026-07-17T04:31:24.646667+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Face Off in New Guide Comparing Features and Use Cases",
+      "urls": [
+        "https://www.instagram.com/reel/DM8THTRucUN?hl=en"
+      ],
+      "date": "2026-07-17T05:01:31.247568+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T04:31:24.646732+00:00"
+  "lastUpdated": "2026-07-17T05:01:31.247643+00:00"
 }
