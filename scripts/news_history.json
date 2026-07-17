@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "YaCy Expands User Resources With New Tutorials, Download Page, Community Forums, and Git Repository",
-      "urls": [
-        "https://yacy.net/tutorials",
-        "https://yacy.net",
-        "https://community.searchlab.eu",
-        "https://github.com/yacy/yacy_search_server/commits/master",
-        "https://github.com/yacy/yacy_search_server/issues"
-      ],
-      "date": "2026-07-07T22:31:32.457035+00:00"
-    },
-    {
-      "title": "NVIDIA Partners With Hugging Face to Expand AI Models for Open Robotics Community",
-      "urls": [
-        "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics"
-      ],
-      "date": "2026-07-07T23:01:38.674946+00:00"
-    },
-    {
       "title": "InnoCaption Highlights Top Five Assistive Technologies Unveiled at CSUN 2026",
       "urls": [
         "https://www.innocaption.com/recentnews/top-5-assistive-technologies-at-csun",
@@ -4287,7 +4269,15 @@
         "https://www.youtube.com/watch?v=1l9k-qz-sl0"
       ],
       "date": "2026-07-17T22:31:30.673252+00:00"
+    },
+    {
+      "title": "Linux Foundation Publishes July 2026 Newsletter Highlighting Community Updates and Upcoming Initiatives",
+      "urls": [
+        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-july-2026",
+        "https://www.youtube.com/watch?v=PT8emqAIl7Y"
+      ],
+      "date": "2026-07-17T23:01:38.803896+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T22:31:30.673332+00:00"
+  "lastUpdated": "2026-07-17T23:01:38.803975+00:00"
 }
