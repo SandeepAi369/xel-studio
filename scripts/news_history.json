@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes Releases Accessibility List Highlighting Emerging Assistive Technologies for People with Disabilities",
-      "urls": [
-        "https://www.forbes.com/lists/accessibility",
-        "https://www.ameridisability.com/ai-and-disability-in-2026-a-comprehensive-guide-for-people-with-disabilities-caregivers-seniors-and-families",
-        "https://www.ablecanada.ca/blog/assistive-technology-guide-2026",
-        "https://www.accessibility.com/blog/accessibility-trends-to-watch-in-2026",
-        "https://www.healthcarebusinesstoday.com/assistive-tech-trends-healthcare-2026",
-        "https://www.scopeaust.org.au/news/assistive-technology-trend-2026",
-        "https://connsensereport.com/2026/05/29/the-state-of-assistive-technology-research-in-2026-whats-real-whats-coming-and-what-parents-should-watch"
-      ],
-      "date": "2026-07-07T07:31:37.990236+00:00"
-    },
-    {
       "title": "ScienceDaily and Mongabay Expand Biodiversity Coverage With New Online News Hubs",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/biodiversity",
@@ -4267,7 +4254,14 @@
         "https://www.youtube.com/watch?v=M7viub_lZRQ"
       ],
       "date": "2026-07-17T07:31:29.128355+00:00"
+    },
+    {
+      "title": "SocialPilot Publishes May 2026 Social Media Update Detailing Platform Changes",
+      "urls": [
+        "https://www.socialpilot.co/blog/social-media-updates"
+      ],
+      "date": "2026-07-17T08:01:31.384479+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T07:31:29.128418+00:00"
+  "lastUpdated": "2026-07-17T08:01:31.384547+00:00"
 }
