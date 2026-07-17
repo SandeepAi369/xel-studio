@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Blind Students Challenge College Accessibility, New Rule Offers Hope In Higher Education",
-      "urls": [
-        "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
-        "https://www.youtube.com/watch?v=ldPtZss1TRc",
-        "https://www.youtube.com/watch?v=4sF1ff4rMkk"
-      ],
-      "date": "2026-07-07T01:01:36.159576+00:00"
-    },
-    {
       "title": "Deloitte Insights Publishes Weekly Global Economic Update to Track Worldwide Trends",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
@@ -4253,7 +4244,14 @@
         "https://www.nature.com/nature-index/topics/l4/assistive-technology-integration-in-special-education"
       ],
       "date": "2026-07-17T01:01:35.627601+00:00"
+    },
+    {
+      "title": "Global Wind and Solar Power Surpasses Gas for First Time",
+      "urls": [
+        "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20"
+      ],
+      "date": "2026-07-17T01:31:21.540389+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T01:01:35.627663+00:00"
+  "lastUpdated": "2026-07-17T01:31:21.540464+00:00"
 }
