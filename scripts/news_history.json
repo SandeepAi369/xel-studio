@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Launches Akrites Initiative to Shield Open Source Software From AI Threats",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/06/25/10406369.htm",
-        "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os"
-      ],
-      "date": "2026-07-07T16:01:45.164782+00:00"
-    },
-    {
       "title": "GiveMeSport Publishes Ranked List of America’s Most Popular Sports According To Recent Survey",
       "urls": [
         "https://www.givemesport.com/most-popular-sports-america"
@@ -4274,7 +4266,17 @@
         "https://www.unrefugees.org/emergencies/ukraine"
       ],
       "date": "2026-07-17T16:01:41.107390+00:00"
+    },
+    {
+      "title": "Donald Trump Accuses China of Election Interference and Raises Midterm Voting Security Concerns",
+      "urls": [
+        "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/politics/live/2026/jul/17/andy-burnham-labour-leader-speech-latest-news-updates",
+        "https://www.nytimes.com/2026/07/15/movies/the-odyssey-review.html"
+      ],
+      "date": "2026-07-17T16:31:22.219177+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T16:01:41.107459+00:00"
+  "lastUpdated": "2026-07-17T16:31:22.219250+00:00"
 }
