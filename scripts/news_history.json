@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Conor McGregor Returns to UFC 329 in Highly Anticipated Rematch with Max Holloway",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2026_in_UFC",
-        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/06/ufc-329-commentary-team-set-joe-rogan-calls-conor-mcgregor-return/90816794007",
-        "https://cagesidepress.com/2026/07/06/ufc-releases-footage-of-conor-mcgregor-breaking-toe-ahead-of-cancelled-chandler-fight",
-        "https://sports.yahoo.com/articles/ufc-329-fight-card-start-110100371.html",
-        "https://www.independent.co.uk/sport/ufc/ufc-schedule-2026-events-fights-july-b3004968.html",
-        "https://www.instagram.com/reel/DaBaQFiB35F"
-      ],
-      "date": "2026-07-07T04:01:40.453581+00:00"
-    },
-    {
       "title": "Kenya Launches AI Initiative to Boost Disability Inclusion Across the Nation",
       "urls": [
         "https://www.forbes.com/sites/hnewman/2026/05/19/meet-the-accessibility-200-and-their-ai-tools",
@@ -4256,7 +4244,15 @@
         "https://www.spacelaunchschedule.com"
       ],
       "date": "2026-07-17T03:31:26.123585+00:00"
+    },
+    {
+      "title": "Times of India Expands Sports Portal Offering Live Scores Across Global Leagues",
+      "urls": [
+        "https://timesofindia.indiatimes.com/sports",
+        "https://www.indiatoday.in/sports"
+      ],
+      "date": "2026-07-17T04:01:48.455228+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T03:31:26.123659+00:00"
+  "lastUpdated": "2026-07-17T04:01:48.455310+00:00"
 }
