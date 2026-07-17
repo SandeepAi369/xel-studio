@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Cloud Service to Sell Surplus AI Compute Amid Chip Stock Decline",
-      "urls": [
-        "https://www.youtube.com/watch?v=x2SKd4bPL_g",
-        "https://www.youtube.com/watch?v=0kXLWMNXCkQ",
-        "https://www.youtube.com/watch?v=W0v74tB4pZE"
-      ],
-      "date": "2026-07-07T13:01:40.741879+00:00"
-    },
-    {
       "title": "Solar Power Reaches New Milestones in United States Amid Coal Policy Push",
       "urls": [
         "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
@@ -4263,7 +4254,16 @@
         "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
       ],
       "date": "2026-07-17T12:31:32.003842+00:00"
+    },
+    {
+      "title": "Linus Torvalds Defends AI Contributions to Linux Amid Community Backlash",
+      "urls": [
+        "https://virtualizationreview.com/articles/2026/07/16/linus-torvalds-says-linux-kernel-is-not-an-anti-ai-project.aspx",
+        "https://www.oklahoman.com/press-release/story/185733/almalinux-os-foundation-chair-to-speak-at-southeast-linux-fest-2026",
+        "https://www.gamingonlinux.com/2026/07/linux-creator-linus-torvalds-puts-foot-down-on-anti-ai-comments"
+      ],
+      "date": "2026-07-17T13:01:49.540848+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T12:31:32.003914+00:00"
+  "lastUpdated": "2026-07-17T13:01:49.540952+00:00"
 }
