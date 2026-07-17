@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI.cc Unifies Over 500 Hugging Face Models Through Single API",
-      "urls": [
-        "https://www.opensourceforu.com/2026/07/ai-cc-integrates-500-hugging-face-open-source-models-via-a-single-unified-api"
-      ],
-      "date": "2026-07-07T15:31:43.106578+00:00"
-    },
-    {
       "title": "Linux Foundation Launches Akrites Initiative to Shield Open Source Software From AI Threats",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/06/25/10406369.htm",
@@ -4273,7 +4266,15 @@
         "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness"
       ],
       "date": "2026-07-17T15:31:36.231472+00:00"
+    },
+    {
+      "title": "USA for UNHCR Mobilizes Resources to Address 117 Million Global Displaced Persons",
+      "urls": [
+        "https://www.youtube.com/watch?v=jEKu0jjP7LE",
+        "https://www.unrefugees.org/emergencies/ukraine"
+      ],
+      "date": "2026-07-17T16:01:41.107390+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T15:31:36.231532+00:00"
+  "lastUpdated": "2026-07-17T16:01:41.107459+00:00"
 }
