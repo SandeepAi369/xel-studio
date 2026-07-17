@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "First Tropical Storm of 2026 Hurricane Season Forms Bringing Life-Threatening Flooding Risks to Southeast",
-      "urls": [
-        "https://www.msn.com/en-us/weather/extreme-weather-events/the-6-most-dangerous-us-weather-corridors-according-to-new-2026-climate-data/ar-AA25Yh6s?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/weather/topstories/first-tropical-storm-of-the-2026-hurricane-season-forms-and-could-bring-life-threatening-flooding-to-southeast/ar-AA25TUhI?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-07T05:31:41.789556+00:00"
-    },
-    {
-      "title": "Crescendo AI Launches Dedicated Healthcare AI News Hub Offering Consolidated Updates",
-      "urls": [
-        "https://www.crescendo.ai/news/ai-in-healthcare-news"
-      ],
-      "date": "2026-07-07T06:01:39.643868+00:00"
-    },
-    {
       "title": "ESPNcricinfo Details Full 2026 Major League Cricket Schedule and Live Score Updates",
       "urls": [
         "https://www.cricinfo.com/series/major-league-cricket-2026-1528556",
@@ -4259,7 +4244,14 @@
         "https://www.providencejournal.com/story/news/good-news/2026/06/04/oscil-helps-rhode-islanders-with-disabilities-live-with-dignity-independence/90030354007"
       ],
       "date": "2026-07-17T05:31:19.505029+00:00"
+    },
+    {
+      "title": "Google Unveils Deep Research Max to Advance Autonomous Research Agents",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research"
+      ],
+      "date": "2026-07-17T06:01:39.944236+00:00"
     }
   ],
-  "lastUpdated": "2026-07-17T05:31:19.505084+00:00"
+  "lastUpdated": "2026-07-17T06:01:39.944301+00:00"
 }
