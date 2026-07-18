@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kerala Congress-Led UDF Secures 102 Seats in 2026 State Election",
-      "urls": [
-        "https://www.yahoo.com/news/politics/articles/whats-georgia-voting-today-see-090642910.html",
-        "https://www.ndtv.com/kerala-news/kerala-election-results-2026-live-updates-vote-counting-today-results-pinarayi-vijayan-vd-satheesan-ldf-udf-bjp-kerala-party-results-kerala-winners-11442291"
-      ],
-      "date": "2026-07-08T20:01:43.976580+00:00"
-    },
-    {
       "title": "Apple Launches AI‑Powered Siri Upgrade As Microsoft Raises Cloud Service Prices",
       "urls": [
         "https://podcasts.apple.com/ug/podcast/microsoft-build-announcements-uk-ruling-on-google-ai/id1559402520?i=1000771088381",
@@ -4328,7 +4320,15 @@
         "https://www.politico.com"
       ],
       "date": "2026-07-18T20:01:29.587005+00:00"
+    },
+    {
+      "title": "Canada Announces Social Media Ban for Users Under Sixteen Following Australian Precedent",
+      "urls": [
+        "https://www.livemint.com/news/world/total-world-latest-news-on-june-9-2026-live-updates-11780946022526.html",
+        "https://www.msn.com/en-us/news/technology/what-the-world-should-learn-from-australia-s-social-media-law/ar-AA28aXcR?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-18T20:31:16.026066+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T20:01:29.587059+00:00"
+  "lastUpdated": "2026-07-18T20:31:16.026118+00:00"
 }
