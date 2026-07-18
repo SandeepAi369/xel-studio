@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "AMD Gains Ground on Nvidia as Amazon Invests $50 Billion in AI Chip Development",
-      "urls": [
-        "https://247wallst.com/investing/2026/07/06/is-this-where-amd-catches-nvidia-goldman-sachs-says-its-gaining-ground",
-        "https://www.aol.com/articles/forget-betting-everything-nvidia-chip-105332000.html",
-        "https://www.msn.com/en-us/money/top-stocks/nvidia-s-bargain-price-already-reflects-lost-market-share-says-goldman/ar-AA27jF2i?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/technology/tech-companies/michael-burry-just-revealed-his-next-big-short-and-it-s-a-bet-against-nvidia-micron-and-amd/ar-AA27qd1i?ocid=BingNewsVerp",
-        "https://247wallst.com/investing/2026/06/04/amazons-50-billion-chip-secret-why-it-could-become-nvidias-biggest-ai-rival"
-      ],
-      "date": "2026-07-08T06:01:34.490815+00:00"
-    },
-    {
-      "title": "Florida Earthquake Database Offers Free Access to Statewide Seismic Map",
-      "urls": [
-        "https://www.floridatoday.com/story/news/2026/06/08/florida-earthquake-free-database/90461606007"
-      ],
-      "date": "2026-07-08T06:31:20.266773+00:00"
-    },
-    {
       "title": "Saudi Arabia Calls for Global Action and Highlights Billions in Refugee Aid",
       "urls": [
         "https://www.msn.com/en-za/news/other/the-other-violence-while-south-africa-watched-the-marches-the-state-built-a-camp/ar-AA27fE6p?ocid=BingNewsVerp",
@@ -4301,7 +4283,14 @@
         "https://www.merlyn.org/blog/truly-open-ai-metas-llama-offers-open-sourced-foundation-models"
       ],
       "date": "2026-07-18T06:01:28.035060+00:00"
+    },
+    {
+      "title": "UN Weather Agency Warns Global Temperatures Will Remain Near Record Levels",
+      "urls": [
+        "https://news.un.org/en/story/2026/05/1167596"
+      ],
+      "date": "2026-07-18T06:31:21.702093+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T06:01:28.035138+00:00"
+  "lastUpdated": "2026-07-18T06:31:21.702154+00:00"
 }
