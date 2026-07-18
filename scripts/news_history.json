@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Web3 Summit 2026 Launches Vision for Digital Freedom in New YouTube Broadcast",
-      "urls": [
-        "https://www.youtube.com/watch?v=lZcxbvIBQv0"
-      ],
-      "date": "2026-07-08T13:01:44.773570+00:00"
-    },
-    {
       "title": "Applause Report Shows 78 Percent AI Adoption but Ongoing Accessibility Gaps",
       "urls": [
         "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech"
@@ -4296,7 +4289,15 @@
         "https://www.theguardian.com/us-news/2026/jun/09/trump-news-at-a-glance-latest-updates-today"
       ],
       "date": "2026-07-18T12:31:31.675437+00:00"
+    },
+    {
+      "title": "Halberd Corporation Launches New NeuroSense AI Version Advancing Voice‑Based Behavioral Monitoring",
+      "urls": [
+        "https://www.mobihealthnews.com/news/aidoc-lands-fda-breakthrough-status-ai-drafts-radiology-reports",
+        "https://markets.businessinsider.com/news/stocks/halberd-corporation-ships-latest-neurosense-ai-version-advancing-voice-based-behavioral-monitoring-1036259380"
+      ],
+      "date": "2026-07-18T13:01:45.801148+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T12:31:31.675532+00:00"
+  "lastUpdated": "2026-07-18T13:01:45.801224+00:00"
 }
