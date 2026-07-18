@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Launches AI‑Powered Siri Upgrade As Microsoft Raises Cloud Service Prices",
-      "urls": [
-        "https://podcasts.apple.com/ug/podcast/microsoft-build-announcements-uk-ruling-on-google-ai/id1559402520?i=1000771088381",
-        "https://www.youtube.com/watch?v=VY7dwsXqpBQ",
-        "https://www.youtube.com/watch?v=V0qxPOIOOuw",
-        "https://www.youtube.com/watch?v=Q6gsS0hULV0"
-      ],
-      "date": "2026-07-08T20:31:27.149001+00:00"
-    },
-    {
       "title": "Sead Kolašinac Makes Goal-Line Save That Secures Bosnia Victory Over Canada",
       "urls": [
         "https://sports.yahoo.com/articles/sead-kola-inacs-incredible-goal-204854674.html",
@@ -4328,7 +4318,17 @@
         "https://www.msn.com/en-us/news/technology/what-the-world-should-learn-from-australia-s-social-media-law/ar-AA28aXcR?ocid=BingNewsVerp"
       ],
       "date": "2026-07-18T20:31:16.026066+00:00"
+    },
+    {
+      "title": "YaCy Expands Open-Source Tools With New Download, Community Forum, Git Repository, and Bugtracker",
+      "urls": [
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-07-18T21:01:30.065498+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T20:31:16.026118+00:00"
+  "lastUpdated": "2026-07-18T21:01:30.065566+00:00"
 }
