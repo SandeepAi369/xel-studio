@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable Energy Solar Wind Power News — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.theguardian.com/environment/2026/jul/07/remember-water-power-in-the-renewables-mix",
-        "https://apnews.com/article/trump-solar-coal-mining-climate-electricity-50250099a4e94384af4aa9f197d62403"
-      ],
-      "date": "2026-07-08T01:31:24.870142+00:00"
-    },
-    {
       "title": "9to5Linux Expands Coverage With Dedicated Sections for News, Reviews, and Tutorials",
       "urls": [
         "https://9to5linux.com"
@@ -4288,7 +4280,15 @@
         "https://www.sciencedaily.com/news/earth_climate/climate"
       ],
       "date": "2026-07-18T01:31:16.483177+00:00"
+    },
+    {
+      "title": "AI.cc Integrates Over 500 Hugging Face Models via Unified API to Streamline Access",
+      "urls": [
+        "https://www.opensourceforu.com/2026/07/ai-cc-integrates-500-hugging-face-open-source-models-via-a-single-unified-api",
+        "https://af.net/realtime/daily-updates-hugging-face-ai-papers-in-july-2026"
+      ],
+      "date": "2026-07-18T02:01:29.453490+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T01:31:16.483245+00:00"
+  "lastUpdated": "2026-07-18T02:01:29.453568+00:00"
 }
