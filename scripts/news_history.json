@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Government Faces Criticism Over AI Policy as Tech Giants Eye Australian Investments",
-      "urls": [
-        "https://www.abc.net.au/news/2026-06-08/federal-government-ai-policy-retreat-data-centres-four-corners/106753596",
-        "https://www.msn.com/en-us/news/other/trump-s-shadow-ai-policy/ar-AA25Xo1O?ocid=BingNewsVerp",
-        "https://www.afr.com/politics/federal/will-albanese-let-the-unions-put-the-brakes-on-ai-20260706-p60cxl",
-        "https://www.msn.com/en-us/news/politics/florida-gop-ramps-up-ai-crackdown-under-desantis/ar-AA24J9f0?ocid=BingNewsVerp",
-        "https://www.theatlantic.com/technology/2026/06/trump-ai-executive-order/687410"
-      ],
-      "date": "2026-07-08T09:01:44.222463+00:00"
-    },
-    {
       "title": "Assistive Technology Expands Independent Living Opportunities for People With Disabilities",
       "urls": [
         "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living"
@@ -4298,7 +4287,14 @@
         "https://www.msn.com/en-us/news/technology/meta-s-possible-move-into-cloud-computing-may-point-to-a-bursting-ai-infrastructure-bubble/ar-AA275kCW?ocid=BingNewsVerp"
       ],
       "date": "2026-07-18T09:01:33.315150+00:00"
+    },
+    {
+      "title": "YouTube Reports Agencies Miss Accessibility ROI Financial Targets in 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=ldPtZss1TRc"
+      ],
+      "date": "2026-07-18T09:31:16.998262+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T09:01:33.315233+00:00"
+  "lastUpdated": "2026-07-18T09:31:16.998332+00:00"
 }
