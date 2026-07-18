@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Harvard Researchers Report Quantum Computing Progress Surpassing Prior Growth Expectations",
-      "urls": [
-        "https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected"
-      ],
-      "date": "2026-07-08T15:02:01.175825+00:00"
-    },
-    {
       "title": "Hedra Highlights Leading AI Image and Video Models of Early 2026",
       "urls": [
         "https://www.hedra.com/blog/ai-models-first-half-2026"
@@ -4311,7 +4304,16 @@
         "https://finance.yahoo.com/healthcare/articles/mission-north-expands-health-practice-110000325.html"
       ],
       "date": "2026-07-18T15:01:41.724649+00:00"
+    },
+    {
+      "title": "Crescendo AI Launches News Portal Highlighting Latest AI Breakthroughs For Industry Professionals",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsrji4/morgan_stanley_warns_an_ai_breakthrough_is_coming",
+        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai"
+      ],
+      "date": "2026-07-18T15:31:15.569997+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T15:01:41.724711+00:00"
+  "lastUpdated": "2026-07-18T15:31:15.570072+00:00"
 }
