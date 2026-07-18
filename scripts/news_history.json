@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Double Tap Highlights Most Exciting Accessibility Innovations Unveiled at CES 2026",
-      "urls": [
-        "https://www.paiseec.com/blogs/news/why-innovative-mobility-solutions-are-changing-assistive-tech-in-2026",
-        "https://doubletaponair.com/ces-2026-the-most-exciting-accessibility-innovations-revealed"
-      ],
-      "date": "2026-07-08T05:31:27.351857+00:00"
-    },
-    {
       "title": "AMD Gains Ground on Nvidia as Amazon Invests $50 Billion in AI Chip Development",
       "urls": [
         "https://247wallst.com/investing/2026/07/06/is-this-where-amd-catches-nvidia-goldman-sachs-says-its-gaining-ground",
@@ -4298,7 +4290,18 @@
         "https://www.aha.org/lettercomment/2026-02-23-aha-response-hhs-rfi-ai-health-care"
       ],
       "date": "2026-07-18T05:31:26.862901+00:00"
+    },
+    {
+      "title": "Meta Releases Llama 3 As Most Capable Open‑Source Model, Plans Space Deployment",
+      "urls": [
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence",
+        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
+        "https://ai.meta.com/blog/meta-llama-3",
+        "https://www.facebook.com/Meta/videos/llama-our-open-source-ai-model-is-going-to-space-on-board-the-international-spac/1737313066860629",
+        "https://www.merlyn.org/blog/truly-open-ai-metas-llama-offers-open-sourced-foundation-models"
+      ],
+      "date": "2026-07-18T06:01:28.035060+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T05:31:26.862976+00:00"
+  "lastUpdated": "2026-07-18T06:01:28.035138+00:00"
 }
