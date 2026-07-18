@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistive Technology Expands Independent Living Opportunities for People With Disabilities",
-      "urls": [
-        "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living"
-      ],
-      "date": "2026-07-08T09:31:22.467856+00:00"
-    },
-    {
-      "title": "World Health Organization Releases Fact Sheet on Deafness and Hearing Loss",
-      "urls": [
-        "https://link.springer.com/article/10.1007/s10209-025-01270-y",
-        "https://rylo.com/post/latest-innovations-in-technology-for-deaf",
-        "https://deafvibes.com/ai-and-accessibility-technologies/deaf-technology",
-        "https://deafandhoh.com/category/news",
-        "https://dl.acm.org/doi/10.1145/3706598.3714241",
-        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
-      ],
-      "date": "2026-07-08T10:01:35.218665+00:00"
-    },
-    {
       "title": "S8UL Esports Secures Apex Legends Spot at Esports World Cup 2026",
       "urls": [
         "https://www.esports.net/news/overwatch-esports-world-cup",
@@ -4294,7 +4275,20 @@
         "https://www.youtube.com/watch?v=ldPtZss1TRc"
       ],
       "date": "2026-07-18T09:31:16.998262+00:00"
+    },
+    {
+      "title": "Arctic Wolf Finds Open‑Source AI Nearly Matches Anthropic Mythos In Exploit Capability",
+      "urls": [
+        "https://247wallst.com/investing/2026/07/12/the-open-source-ai-boom-may-be-a-mirage-why-affordable-ai-may-be-losing-the-enterprise-battle",
+        "https://www.economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap",
+        "https://time.com/article/2026/07/13/open-source-ai-mozilla-rebel-alliance",
+        "https://www.cnbc.com/video/2026/06/25/arctic-wolf-open-source-ai-nearly-as-effective-as-anthropics-mythos.html",
+        "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html",
+        "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+        "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html"
+      ],
+      "date": "2026-07-18T10:01:36.061720+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T09:31:16.998332+00:00"
+  "lastUpdated": "2026-07-18T10:01:36.061792+00:00"
 }
