@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Video Analyzes Mistral 3, DeepSeek-V3.2 and Claude Opus 4.5 AI Models",
-      "urls": [
-        "https://www.instagram.com/reel/DR2woioEwqW",
-        "https://www.youtube.com/watch?v=_lZgapJzFho"
-      ],
-      "date": "2026-07-08T23:02:05.319935+00:00"
-    },
-    {
       "title": "Perfect Corp Launches Global Hackathon and Showcases AI Beauty APIs at Berlin Conference",
       "urls": [],
       "date": "2026-07-09T00:01:31.458068+00:00"
@@ -4332,7 +4324,19 @@
         "https://www.tmcnet.com/usubmit/2026/07/16/10415930.htm"
       ],
       "date": "2026-07-18T23:01:33.668498+00:00"
+    },
+    {
+      "title": "NASA Website Centralizes Official Space Information and Educational Resources for Public Access",
+      "urls": [
+        "https://www.nasa.gov",
+        "https://science.nasa.gov/universe",
+        "https://en.wikipedia.org/wiki/Space",
+        "https://starwalk.space/en/news/what-is-space",
+        "https://spacein3d.com/universe-sandbox",
+        "https://www.space.com/news"
+      ],
+      "date": "2026-07-18T23:31:24.365066+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T23:01:33.668551+00:00"
+  "lastUpdated": "2026-07-18T23:31:24.365146+00:00"
 }
