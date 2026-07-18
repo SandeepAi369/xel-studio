@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SCI Publishes List of Ten Scientific Advances Expected to Change the World",
-      "urls": [
-        "https://www.soci.org/news/2026/6/ten-scientific-advances-getting-ready-to-change-the-world"
-      ],
-      "date": "2026-07-08T03:31:34.753122+00:00"
-    },
-    {
       "title": "Big Tech Earnings Reveal Market Rewards for Large Smart Spending",
       "urls": [
         "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
@@ -4292,7 +4285,15 @@
         "https://finance.yahoo.com/calendar/earnings"
       ],
       "date": "2026-07-18T03:31:19.283608+00:00"
+    },
+    {
+      "title": "Portugal Launches First Open-Source AI Model to Boost European Tech Sovereignty",
+      "urls": [
+        "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026/card/open-source-ai-model-from-china-triggers-selloff-RG0ZHikbay0R7tIlPsGm",
+        "https://www.msn.com/en-us/news/technology/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push/ar-AA26Zrv0?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-18T04:01:32.163247+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T03:31:19.283676+00:00"
+  "lastUpdated": "2026-07-18T04:01:32.163333+00:00"
 }
