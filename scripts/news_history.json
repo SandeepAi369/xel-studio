@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistive Technology Delivers On-Demand Sight for Blind Users Through New Three-Year Leap",
-      "urls": [
-        "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026"
-      ],
-      "date": "2026-07-08T14:02:05.791076+00:00"
-    },
-    {
       "title": "India Projects Rs 95,000 Crore Assistive Tech Market by 2030",
       "urls": [
         "https://www.msn.com/en-in/technology/general/india-has-rs-95-000-cr-addressable-market-for-assistive-tech-by-2030-ncpedp/ar-AA26qQq8?ocid=BingNewsVerp"
@@ -4306,7 +4299,16 @@
         "https://globalnews.ca/video/11941754/italy-raises-mount-etna-alert-level-following-renewed-volcanic-activity"
       ],
       "date": "2026-07-18T14:01:31.450546+00:00"
+    },
+    {
+      "title": "Vercel Launches Eve Open-Source Framework to Accelerate AI Agent Development",
+      "urls": [
+        "https://www.infoq.com/news/2026/06/vercel-eve-agents",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025"
+      ],
+      "date": "2026-07-18T14:31:26.074718+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T14:01:31.450604+00:00"
+  "lastUpdated": "2026-07-18T14:31:26.074785+00:00"
 }
