@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Earnings Reveal Market Rewards for Large Smart Spending",
-      "urls": [
-        "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1tpr8q4/us_softwaredeveloper_employment_has_continued_to",
-        "https://www.reddit.com/r/technology/comments/1tlghfh/tech_layoffs_have_already_passed_100000_in_2026",
-        "https://www.reddit.com/r/EconomyCharts/comments/1t2lf5c/tech_layoffs_are_skyrocketing_tech_companies"
-      ],
-      "date": "2026-07-08T04:01:51.904150+00:00"
-    },
-    {
-      "title": "Sports Analytics Market Projected To Reach $9.64 Billion By 2030",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/07/07/3322951/28124/en/explosive-growth-forecasted-sports-analytics-market-to-reach-9-64-billion-by-2030.html",
-        "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps"
-      ],
-      "date": "2026-07-08T04:31:25.855451+00:00"
-    },
-    {
       "title": "Mistral AI Releases New Open Source Models for 2026, Expanding Developer Toolkit",
       "urls": [
         "https://aizolo.com/blog/mistral-ai-models-2026",
@@ -4293,7 +4275,18 @@
         "https://www.msn.com/en-us/news/technology/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push/ar-AA26Zrv0?ocid=BingNewsVerp"
       ],
       "date": "2026-07-18T04:01:32.163247+00:00"
+    },
+    {
+      "title": "Anthropic Announces New Safety Research Advancing AI Alignment and Enterprise Integration",
+      "urls": [
+        "https://ainewshub.io/anthropic-news",
+        "https://claude5.com/news/ai-safety-2026-alignment-research-breakthroughs",
+        "https://multi-ai.ai/en/blog/anthropic-announces-new-safety-research-for-ai-en",
+        "https://claude.com/solutions/cybersecurity",
+        "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai"
+      ],
+      "date": "2026-07-18T04:31:32.541727+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T04:01:32.163333+00:00"
+  "lastUpdated": "2026-07-18T04:31:32.541799+00:00"
 }
