@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yahoo Finance Examines Big Tech Stocks as Potential Value Plays Amid Growth",
-      "urls": [
-        "https://finance.yahoo.com/news/big-growth-undemanding-prices-big-203841352.html"
-      ],
-      "date": "2026-07-09T17:01:32.833896+00:00"
-    },
-    {
       "title": "YouTube Targets 80 Percent Issue Fix Rate to Lead Accessibility Testing in 2026",
       "urls": [
         "https://www.iamhable.com/en-am/blogs/article/accessible-reading-and-assistive-tech-for-visually-impaired-readers-a-2025-guide",
@@ -4384,7 +4377,14 @@
         "https://www.eonline.com/news/1428811/olympics-2026-team-usa-makes-history-with-11-gold-medals"
       ],
       "date": "2026-07-19T17:01:29.668257+00:00"
+    },
+    {
+      "title": "Disability World Unveils Three-Year Leap Delivering Sight On Demand for Blind Users",
+      "urls": [
+        "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026"
+      ],
+      "date": "2026-07-19T17:31:19.573110+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T17:01:29.668344+00:00"
+  "lastUpdated": "2026-07-19T17:31:19.573175+00:00"
 }
