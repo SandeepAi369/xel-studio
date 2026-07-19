@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Express Expands Sports Section Covering Cricket Chess Football Hockey And Tennis",
-      "urls": [
-        "https://indianexpress.com/section/sports",
-        "https://www.abc.net.au/news/sport/football"
-      ],
-      "date": "2026-07-09T00:31:32.770378+00:00"
-    },
-    {
       "title": "IIT Madras Launches Neurodiversity Summit to Shape Technology‑Driven Inclusive Ecosystem",
       "urls": [
         "https://www.msn.com/en-in/news/techandscience/iit-madras-neurodiversity-summit-2026-develop-strategy-for-technology-driven-inclusive-ecosystem/ar-AA27r94S?ocid=BingNewsVerp"
@@ -4332,7 +4324,14 @@
         "https://www.msn.com/en-us/technology/artificial-intelligence/google-caps-meta-s-use-of-gemini-ai-financial-times-reports/ar-AA26Jbg9?ocid=BingNewsVerp"
       ],
       "date": "2026-07-19T00:01:51.101692+00:00"
+    },
+    {
+      "title": "YouTube Unveils First Open‑Source AI Model in Detailed 30‑Minute Presentation",
+      "urls": [
+        "https://www.youtube.com/watch?v=6d__WOpZswY"
+      ],
+      "date": "2026-07-19T00:31:45.868436+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T00:01:51.101823+00:00"
+  "lastUpdated": "2026-07-19T00:31:45.868498+00:00"
 }
