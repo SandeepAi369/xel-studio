@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PACs Spend $20 Million In New York Democratic Primary To Influence Regulation",
-      "urls": [
-        "https://www.msn.com/en-us/politics/government/what-ai-companies-want-for-the-millions-they-re-spending-on-elections/ar-AA27xDMe?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/politics/ai-pacs-pour-20-million-into-new-york-democratic-primary-in-ai-regulation-battle/ar-AA26kVGW?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/politics/government/fort-worth-zoning-commission-votes-against-city-proposed-zoning-regulations-for-ai-data-centers/ar-AA27w3HY?ocid=BingNewsVerp",
-        "https://www.cnbc.com/2026/06/17/anthropic-ai-regulation-trump.html"
-      ],
-      "date": "2026-07-09T11:36:41.150510+00:00"
-    },
-    {
       "title": "Alphabet, Microsoft, Amazon, and Meta Drive Record Stock Rally with AI Spending",
       "urls": [
         "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796"
@@ -4378,7 +4368,16 @@
         "https://skycrumbs.com/blog/google-deepmind-2026"
       ],
       "date": "2026-07-19T11:31:17.774485+00:00"
+    },
+    {
+      "title": "JPMorgan Reaffirms Inflation Outlook as Headline Prices Ease but Core Pressures Remain High",
+      "urls": [
+        "https://www.thestreet.com/economy/jpmorgan-doubles-down-on-economy-inflation-outlook",
+        "https://www.un.org/en/desa/5-things-you-need-to-know-about-the-global-economy-in-2026",
+        "https://www.msn.com/en-au/money/markets/headline-inflation-eases-but-underlying-inflation-highest-since-2024/ar-AA26nWku?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-19T12:01:32.610608+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T11:31:17.774570+00:00"
+  "lastUpdated": "2026-07-19T12:01:32.610699+00:00"
 }
