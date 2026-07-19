@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Listings Appear Without Descriptions in Recent Search Results on Platform",
-      "urls": [
-        "https://www.reddit.com/r/duneawakening/new",
-        "https://www.reddit.com/r/linux_gaming/comments/1ulbn20/steam_survey_june_2026_shows_linux_dip_to_369",
-        "https://www.reddit.com/r/linux/comments/1unwaya/this_month_in_ladybird_june_2026_ladybird",
-        "https://www.reddit.com/r/linux/comments/1qowqbw/we_are_in_2026_what_are_your_frustrations_with"
-      ],
-      "date": "2026-07-09T18:31:28.198825+00:00"
-    },
-    {
       "title": "IRENA Reports Renewables Now Cheaper Than Fossil Fuels Around The Clock",
       "urls": [
         "https://www.irena.org/News/pressreleases/2026/May/24-7-Renewables-Outcompete-Fossil-Fuels-on-Firm-Costs",
@@ -4387,7 +4377,17 @@
         "https://www.weforum.org/stories/trade-and-investment/trade-is-changing-and-davos-2026-made-it-clear-here-are-10-insights"
       ],
       "date": "2026-07-19T18:31:22.419896+00:00"
+    },
+    {
+      "title": "NIH Highlights Patient‑Focused Trials as 2026 Turning Point for Medical Research",
+      "urls": [
+        "https://www.nih.gov",
+        "https://www.facebook.com/garvaninstitute/posts/what-does-a-medical-science-breakthrough-actually-look-like-come-and-see-for-you/1452839596880429",
+        "https://www.drugdiscoverynews.com/why-2026-could-be-a-turning-point-for-patient-focused-trials-17190",
+        "https://www.nature.com/articles/d42473-024-00347-1"
+      ],
+      "date": "2026-07-19T19:01:29.405489+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T18:31:22.419972+00:00"
+  "lastUpdated": "2026-07-19T19:01:29.405566+00:00"
 }
