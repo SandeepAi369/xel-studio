@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Publishes Detailed ChatGPT Release Notes and Research Updates on Official Pages",
-      "urls": [
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://openai.com/research/index/release"
-      ],
-      "date": "2026-07-09T15:01:47.250455+00:00"
-    },
-    {
       "title": "Techie Tweetz Highlights Top Ten AI Tools for Developers in 2026",
       "urls": [
         "https://techietweetz.com/top-10-ai-tools-for-developers-in-2026",
@@ -4392,7 +4384,17 @@
         "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
       ],
       "date": "2026-07-19T15:01:33.785460+00:00"
+    },
+    {
+      "title": "OpenAI Limits New GPT‑5.5 Model Access After White House Request",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/white-house-asks-openai-to-limit-its-next-model-release/ar-AA26yfWw?ocid=BingNewsVerp",
+        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
+        "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
+        "https://www.msn.com/en-in/news/world/openais-new-ai-was-so-powerful-it-had-to-brief-the-us-government-before-release/ar-AA26EI6l?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-19T15:31:21.103688+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T15:01:33.785521+00:00"
+  "lastUpdated": "2026-07-19T15:31:21.103758+00:00"
 }
