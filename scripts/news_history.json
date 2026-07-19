@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC President Dana White Holds Live Facebook Conference on Upcoming Fight Cards",
-      "urls": [
-        "https://www.youtube.com/watch?v=JNe2XaSmjz4",
-        "https://www.youtube.com/watch?v=mJENGoYSEsc",
-        "https://www.facebook.com/ABCNews/videos/live-ufc-news-conference-ahead-of-white-house-event/1592244045661791"
-      ],
-      "date": "2026-07-09T04:31:35.691946+00:00"
-    },
-    {
       "title": "YouTube Releases Two‑Minute TensorFlow vs PyTorch Showdown Video for Rapid AI Framework Comparison",
       "urls": [
         "https://www.youtube.com/watch?v=pkEUANwkrqk",
@@ -4359,7 +4350,22 @@
         "https://www.tmcnet.com/usubmit/2026/07/10/10412868.htm"
       ],
       "date": "2026-07-19T04:31:16.819611+00:00"
+    },
+    {
+      "title": "NVIDIA Expands Global AI Cloud Ecosystem to Meet Rising Enterprise Demand",
+      "urls": [
+        "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-cloud-computing.html",
+        "https://www.cloudcomputing-news.net",
+        "https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
+        "https://www.reddit.com/r/devops/comments/1ph5bzp/ai_is_going_to_run_cloud_infrastructure_whether",
+        "https://www.coreweave.com",
+        "https://www.oracle.com/ai-infrastructure",
+        "https://cloudian.com/guides/ai-infrastructure/ai-infrastructure-key-components-and-6-factors-driving-success",
+        "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/ai-and-cloud-infrastructure-trends",
+        "https://www.flexential.com/resources/report/2024-state-ai-infrastructure"
+      ],
+      "date": "2026-07-19T05:01:29.952489+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T04:31:16.819679+00:00"
+  "lastUpdated": "2026-07-19T05:01:29.952555+00:00"
 }
