@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Leads AI Research With 55 Percent Share Outpacing TensorFlow In 2026",
-      "urls": [
-        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks",
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
-      ],
-      "date": "2026-07-09T23:01:41.457345+00:00"
-    },
-    {
-      "title": "MiniMax Launches 2.7 Trillion Parameter Model and Announces Open‑Source Release",
-      "urls": [
-        "https://www.msn.com/en-us/money/other/chinas-minimax-plans-to-launch-giant-27-trillion-parameter-model/ar-AA27tVOW?ocid=BingNewsVerp",
-        "https://lasvegassun.com/news/2026/jul/08/robbyant-upgrades-and-open-sources-lingbot-vla-20-",
-        "https://thenextweb.com/news/minimax-2-7-trillion-parameter-open-source-model"
-      ],
-      "date": "2026-07-09T23:31:37.527452+00:00"
-    },
-    {
       "title": "Google Cloud Showcases New AI Infrastructure at Next 26 Event 2026",
       "urls": [
         "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
@@ -4389,7 +4372,14 @@
         "https://valueaddvc.com/big-tech-earnings"
       ],
       "date": "2026-07-19T23:01:33.289400+00:00"
+    },
+    {
+      "title": "FIFA Announces Record‑Breaking Attendance for 2026 World Cup Surpassing All Previous Tournaments",
+      "urls": [
+        "https://www.msn.com/en-us/sports/fifa_world_cup/total-record-breaking-attendance-numbers-revealed-for-2026-world-cup/ar-AA28eJOa?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-19T23:31:42.202277+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T23:01:33.289475+00:00"
+  "lastUpdated": "2026-07-19T23:31:42.202347+00:00"
 }
