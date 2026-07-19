@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Portugal Launches Fast‑Track Zones to Accelerate Wind and Solar Projects",
-      "urls": [
-        "https://www.reuters.com/business/energy/portugal-offer-fast-track-areas-wind-solar-projects-2026-06-17"
-      ],
-      "date": "2026-07-09T14:01:44.678040+00:00"
-    },
-    {
       "title": "KraneShares Highlights Shift From Pilot To Platform In 2026 Humanoid Robotics",
       "urls": [
         "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform",
@@ -4391,7 +4384,14 @@
         "https://www.space.com/news/live/spacex-starship-flight-13-launch-updates-july-17-2026"
       ],
       "date": "2026-07-19T14:01:40.394074+00:00"
+    },
+    {
+      "title": "Meituan Open Sources LongCat‑2.0 Model Trained on Domestic Chips to Boost Chinese AI Ecosystem",
+      "urls": [
+        "https://siliconangle.com/2026/06/30/chinas-meituan-open-sources-massive-longcat-2-0-ai-model-saying-trained-domestic-chips"
+      ],
+      "date": "2026-07-19T14:31:21.359021+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T14:01:40.394152+00:00"
+  "lastUpdated": "2026-07-19T14:31:21.359084+00:00"
 }
