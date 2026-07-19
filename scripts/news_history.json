@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SK Hynix Awaits US Debut As Trump Heads To NATO Summit",
-      "urls": [
-        "https://www.reddit.com/r/cscareerquestions/comments/1r89kdu/expierenced_devs_whats_the_mood_at_your_company",
-        "https://www.youtube.com/watch?v=uETUVck8wyU",
-        "https://www.youtube.com/watch?v=ONnYGsnr-ts",
-        "https://www.cnbc.com/video/2026/03/16/opening-bell-march-16-2026.html",
-        "https://www.youtube.com/watch?v=jw_o0xr8MWU"
-      ],
-      "date": "2026-07-09T03:31:24.038481+00:00"
-    },
-    {
       "title": "Democracy '26 Shows Trump‑Backed Candidates Winning Key Primary Races Across America",
       "urls": [
         "https://www.foxnews.com/live-news/democracy-26-live-primary-election-results-california-georgia-alabama-oklahoma-dc-06-16-2026"
@@ -4363,7 +4352,14 @@
         "https://www.youtube.com/watch?v=Q6gsS0hULV0"
       ],
       "date": "2026-07-19T03:31:22.286344+00:00"
+    },
+    {
+      "title": "OpenAI Unveils GPT-5.6 and ChatGPT Work Tool to Expand AI Capabilities",
+      "urls": [
+        "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
+      ],
+      "date": "2026-07-19T04:01:32.887216+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T03:31:22.286403+00:00"
+  "lastUpdated": "2026-07-19T04:01:32.887294+00:00"
 }
