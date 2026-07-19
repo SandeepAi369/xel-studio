@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Perfect Corp Launches Global Hackathon and Showcases AI Beauty APIs at Berlin Conference",
-      "urls": [],
-      "date": "2026-07-09T00:01:31.458068+00:00"
-    },
-    {
-      "title": "Anthropic Calls for Temporary AI Pause to Spur Global Risk Discussion",
-      "urls": [
-        "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks"
-      ],
-      "date": "2026-07-09T00:01:46.064510+00:00"
-    },
-    {
       "title": "Indian Express Expands Sports Section Covering Cricket Chess Football Hockey And Tennis",
       "urls": [
         "https://indianexpress.com/section/sports",
@@ -4336,7 +4324,15 @@
         "https://www.space.com/news"
       ],
       "date": "2026-07-18T23:31:24.365066+00:00"
+    },
+    {
+      "title": "Meta Sells New AI Model as Google Caps Gemini Access, Shifting Market Dynamics",
+      "urls": [
+        "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/google-caps-meta-s-use-of-gemini-ai-financial-times-reports/ar-AA26Jbg9?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-19T00:01:51.101692+00:00"
     }
   ],
-  "lastUpdated": "2026-07-18T23:31:24.365146+00:00"
+  "lastUpdated": "2026-07-19T00:01:51.101823+00:00"
 }
