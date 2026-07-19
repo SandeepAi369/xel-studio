@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IIT Madras Launches Neurodiversity Summit to Shape Technology‑Driven Inclusive Ecosystem",
-      "urls": [
-        "https://www.msn.com/en-in/news/techandscience/iit-madras-neurodiversity-summit-2026-develop-strategy-for-technology-driven-inclusive-ecosystem/ar-AA27r94S?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-09T01:01:38.577409+00:00"
-    },
-    {
       "title": "NASA Highlights Climate Change Data on New Science Web Page",
       "urls": [
         "https://science.nasa.gov/climate-change"
@@ -4338,7 +4331,16 @@
         "https://relaysd.com/news/transforming-communication-exciting-technologies-for-the-deaf-and-hard-of-hearing"
       ],
       "date": "2026-07-19T01:01:27.658947+00:00"
+    },
+    {
+      "title": "Mongabay, ScienceDaily, and Center for Biological Diversity Expand Online Biodiversity Coverage",
+      "urls": [
+        "https://news.mongabay.com",
+        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
+        "https://www.biologicaldiversity.org/news/press_releases"
+      ],
+      "date": "2026-07-19T01:31:21.788263+00:00"
     }
   ],
-  "lastUpdated": "2026-07-19T01:01:27.659000+00:00"
+  "lastUpdated": "2026-07-19T01:31:21.788331+00:00"
 }
