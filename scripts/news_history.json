@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lionel Messi Sets Historic World Cup All‑Around Record First Time in Six Decades",
-      "urls": [
-        "https://worldsoccertalk.com/world-cup/lionel-messi-becomes-the-first-player-in-60-years-to-reach-astonishing-world-cup-all-around-record",
-        "https://www.youtube.com/watch?v=S1OmnS0ychk",
-        "https://www.usnews.com/news/national-news/articles/2026-07-07/the-wins-the-goals-the-fans-tracking-the-world-cup-records-that-the-u-s-broke",
-        "https://www.bbc.com/news/topics/celyp4y5rwrt"
-      ],
-      "date": "2026-07-10T04:31:46.572448+00:00"
-    },
-    {
       "title": "Towards AI Publishes Complete Hugging Face Transformers Guide for 2026",
       "urls": [
         "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=3318f95d7e83"
@@ -4379,7 +4369,15 @@
         "https://www.youtube.com/watch?v=UNvUPRiV_Dg"
       ],
       "date": "2026-07-20T04:31:26.048541+00:00"
+    },
+    {
+      "title": "Hugging Face Showcases Trending AI Research Papers on New Online Hub",
+      "urls": [
+        "https://huggingface.co/papers/trending",
+        "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face"
+      ],
+      "date": "2026-07-20T05:01:30.356085+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T04:31:26.048617+00:00"
+  "lastUpdated": "2026-07-20T05:01:30.356175+00:00"
 }
