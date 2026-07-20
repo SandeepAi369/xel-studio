@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deloitte Releases 2026 Sports Industry Outlook Forecasting Revenue Growth and Digital Transformation",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html"
-      ],
-      "date": "2026-07-10T20:01:58.138295+00:00"
-    },
-    {
       "title": "WebX 2026 Returns to Tokyo for Two‑Day Web3 Conference Showcasing Japan’s Crypto Growth",
       "urls": [
         "https://beincrypto.com/webx-2026-returns-to-tokyo",
@@ -4367,7 +4360,14 @@
         "https://www.nationalacademies.org"
       ],
       "date": "2026-07-20T20:01:48.511533+00:00"
+    },
+    {
+      "title": "MiniMax Announces Giant 2.7 Trillion Parameter Model to Boost China’s AI Capabilities",
+      "urls": [
+        "https://www.msn.com/en-us/money/other/chinas-minimax-plans-to-launch-giant-27-trillion-parameter-model/ar-AA27tVOW?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-20T20:31:22.621912+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T20:01:48.511635+00:00"
+  "lastUpdated": "2026-07-20T20:31:22.621987+00:00"
 }
