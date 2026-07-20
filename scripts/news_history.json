@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasdaq Slides 4 Percent as Tech Stocks Falter and Bitcoin Drops Below $60,000",
-      "urls": [
-        "https://www.msn.com/en-us/money/topstocks/great-tech-stocks-to-buy-before-q2-earnings-and-hold-ai-chip-maker-tsmc/ar-AA27DlRg?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/other/why-tech-stocks-are-getting-hammered/ar-AA26nU5e?ocid=BingNewsVerp",
-        "https://www.aol.com/articles/1-2-trillion-stock-shock-133805000.html",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/ai-spending-will-keep-driving-the-stock-market-whether-you-like-it-or-not/ar-AA27D5Qd?ocid=BingNewsVerp",
-        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06052026-11991740"
-      ],
-      "date": "2026-07-10T13:01:38.354041+00:00"
-    },
-    {
       "title": "Guinness World Records Unveils Early Preview of Upcoming Record‑Breaking Athletes Across Sports",
       "urls": [
         "https://www.msn.com/en-us/news/offbeat/guinness-world-records-gives-early-look-at-2026-record-breakers/ar-AA1NiV0a",
@@ -4384,7 +4373,14 @@
         "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805"
       ],
       "date": "2026-07-20T13:01:33.641628+00:00"
+    },
+    {
+      "title": "McKinsey Publishes Global Economic Outlook 2026 Forecast for International Markets",
+      "urls": [
+        "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/economic-conditions-outlook"
+      ],
+      "date": "2026-07-20T13:31:34.497005+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T13:01:33.641716+00:00"
+  "lastUpdated": "2026-07-20T13:31:34.497083+00:00"
 }
