@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CES 2026 Highlights Digital Health Breakthroughs Driving Future Patient Care",
-      "urls": [
-        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
-      ],
-      "date": "2026-07-10T02:31:41.652176+00:00"
-    },
-    {
       "title": "Nevada Center For Excellence In Disabilities Highlights Statewide Impact During Disability Awareness Month",
       "urls": [
         "https://www.scu.edu/oae/resources/assistive-tech",
@@ -4379,7 +4372,14 @@
         "https://pharma-journal.com/ai-in-pharma-2026-drug-discovery-deals"
       ],
       "date": "2026-07-20T02:31:17.665504+00:00"
+    },
+    {
+      "title": "New Zealand Calls for New Immigration Framework to Address Humanitarian Crises",
+      "urls": [
+        "https://www.scoop.co.nz/stories/PO2606/S00125/nz-needs-new-immigration-framework-for-humanitarian-crises.htm"
+      ],
+      "date": "2026-07-20T03:01:27.559183+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T02:31:17.665580+00:00"
+  "lastUpdated": "2026-07-20T03:01:27.559251+00:00"
 }
