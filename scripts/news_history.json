@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Businessnews Launches Climate Change Updates 2026 Portal Delivering Global Environmental News",
-      "urls": [
-        "https://businessnews.company/climate-change-updates-2026-global-environmental-news"
-      ],
-      "date": "2026-07-10T14:01:46.890114+00:00"
-    },
-    {
-      "title": "Qualcomm Extends Hugging Face Partnership Aiming to Accelerate AI Chip Development",
-      "urls": [
-        "https://uk.finance.yahoo.com/news/qualcomms-extended-hugging-face-deal-154400307.html",
-        "https://www.technologyreview.com/2026/04/21/1135658/china-open-source-models-ai-artificial-intelligence",
-        "https://www.globaltimes.cn/page/202605/1361310.shtml"
-      ],
-      "date": "2026-07-10T14:31:26.526588+00:00"
-    },
-    {
       "title": "PyTorch Dominates 2026 Machine Learning Research, Capturing 38 Percent of Job Listings",
       "urls": [
         "https://www.programming-helper.com/tech/pytorch-2026-ml-framework-research-dominance-tensorflow-python",
@@ -4373,7 +4357,14 @@
         "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired"
       ],
       "date": "2026-07-20T14:01:45.074074+00:00"
+    },
+    {
+      "title": "CES Showcases Cutting‑Edge Digital Health Innovations Transforming Patient Care At 2026 Exhibition",
+      "urls": [
+        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
+      ],
+      "date": "2026-07-20T14:31:42.151703+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T14:01:45.074152+00:00"
+  "lastUpdated": "2026-07-20T14:31:42.151778+00:00"
 }
