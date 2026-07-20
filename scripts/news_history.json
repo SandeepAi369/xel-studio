@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft, Meta, Amazon, and Alphabet Release Quarterly Earnings in Big Tech Earningspalooza",
-      "urls": [
-        "https://www.investopedia.com/big-tech-earningspalooza-alphabet-amazon-meta-and-microsoft-report-today-amzn-goog-meta-msft-stock-11959805"
-      ],
-      "date": "2026-07-10T07:31:42.537751+00:00"
-    },
-    {
       "title": "Allied Market Research Projects $12.9 Trillion Health Market by 2031 Amid Digital Detox Trend",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/digital-detox-for-reducing-stress-improving-mental-health-guide-released-1036269353",
@@ -4376,7 +4369,14 @@
         "https://www.youtube.com/watch?v=9yOfV6Eh464"
       ],
       "date": "2026-07-20T07:31:28.764318+00:00"
+    },
+    {
+      "title": "Atlantic.Net Publishes Guide to Top Open‑Source AI/ML Frameworks for 2026",
+      "urls": [
+        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks"
+      ],
+      "date": "2026-07-20T08:01:40.902367+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T07:31:28.764386+00:00"
+  "lastUpdated": "2026-07-20T08:01:40.902453+00:00"
 }
