@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Dominates 2026 Machine Learning Research, Capturing 38 Percent of Job Listings",
-      "urls": [
-        "https://www.programming-helper.com/tech/pytorch-2026-ml-framework-research-dominance-tensorflow-python",
-        "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
-        "https://saturncloud.io/blog/open-source-ai-frameworks-for-ai-engineers-2026",
-        "https://americanchase.com/pytorch-vs-tensorflow",
-        "https://www.aistechnolabs.com/blog/tensorflow-vs-pytorch-vs-scikit-learn"
-      ],
-      "date": "2026-07-10T15:01:44.513316+00:00"
-    },
-    {
       "title": "DataNorth AI Releases Top Ten AI Tools List as Gadgets Aim to Replace Phones",
       "urls": [
         "https://www.reddit.com/r/AI_Agents/comments/1u350sn/most_underrated_ai_apps_tools_in_2026_heres_what",
@@ -4364,7 +4353,14 @@
         "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
       ],
       "date": "2026-07-20T14:31:42.151703+00:00"
+    },
+    {
+      "title": "Hugging Face Highlights Its Mission As AI Community Building The Future",
+      "urls": [
+        "https://huggingface.co"
+      ],
+      "date": "2026-07-20T15:02:54.092046+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T14:31:42.151778+00:00"
+  "lastUpdated": "2026-07-20T15:02:54.092124+00:00"
 }
