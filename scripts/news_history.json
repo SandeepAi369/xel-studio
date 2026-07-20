@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "KubeCon Leads Joint China Event Uniting Cloud‑Native and AI Communities",
-      "urls": [
-        "https://www.aol.com/articles/kubecon-cloudnativecon-openinfra-summit-pytorch-211200000.html"
-      ],
-      "date": "2026-07-10T18:31:34.800079+00:00"
-    },
-    {
       "title": "Accelerates Disease Diagnosis Speed in 2026 Healthcare Landscape Across Medical Facilities",
       "urls": [
         "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
@@ -4368,7 +4361,14 @@
         "https://www.reuters.com/world/china/a-new-inexpensive-chinese-ai-model-is-catching-up-with-anthropic-openai-their-2026-07-02"
       ],
       "date": "2026-07-20T18:31:15.658197+00:00"
+    },
+    {
+      "title": "Openloophealth Publishes July 2026 Digital Health Trends Report Highlighting Emerging Technologies",
+      "urls": [
+        "https://openloophealth.com/blog/digital-health-trends-and-news-July-2026"
+      ],
+      "date": "2026-07-20T19:01:33.450958+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T18:31:15.658265+00:00"
+  "lastUpdated": "2026-07-20T19:01:33.451048+00:00"
 }
