@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Warn Summer Heat Spikes as Global Warming Nears 2°C Threshold",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://insideclimatenews.org/news/17062026/summer-heat-spike-as-global-warming-surges",
-        "https://en.wikipedia.org/wiki/2026_in_climate_change"
-      ],
-      "date": "2026-07-10T01:31:26.325284+00:00"
-    },
-    {
       "title": "igmGuru Publishes List of Fifteen Top Generative AI Tools for 2026",
       "urls": [
         "https://www.igmguru.com/blog/generative-ai-tools"
@@ -4376,7 +4367,14 @@
         "https://www.iea.org/reports/electricity-2026/supply"
       ],
       "date": "2026-07-20T01:31:24.422345+00:00"
+    },
+    {
+      "title": "Terms Page Provides No Content, Leaving No Basis for News Reporting",
+      "urls": [
+        "https://www.infospace.com/terms/terms-of-use.html"
+      ],
+      "date": "2026-07-20T02:01:42.083455+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T01:31:24.422416+00:00"
+  "lastUpdated": "2026-07-20T02:01:42.083544+00:00"
 }
