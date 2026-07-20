@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Premier League Final Emerges as Global Spectacle Rivaling NFL and NBA",
-      "urls": [
-        "https://www.foxsports.com/watch/fmc-yuayv1pkb8n7cc4p",
-        "https://www.cnn.com/sport",
-        "https://www.goal.com/en",
-        "https://www.nytimes.com/athletic/7315122/2026/05/29/ipl-final-cricket-india-media-streaming",
-        "https://www.foxsports.com",
-        "https://www.cbssports.com"
-      ],
-      "date": "2026-07-10T12:31:31.861247+00:00"
-    },
-    {
       "title": "Nasdaq Slides 4 Percent as Tech Stocks Falter and Bitcoin Drops Below $60,000",
       "urls": [
         "https://www.msn.com/en-us/money/topstocks/great-tech-stocks-to-buy-before-q2-earnings-and-hold-ai-chip-maker-tsmc/ar-AA27DlRg?ocid=BingNewsVerp",
@@ -4382,7 +4370,14 @@
         "https://www.nu.edu/blog/social-media-trends"
       ],
       "date": "2026-07-20T12:01:52.160648+00:00"
+    },
+    {
+      "title": "Spain Defeats Argentina to Capture FIFA World Cup Title in Dramatic Final",
+      "urls": [
+        "https://www.bbc.co.uk/sport/football/articles/cdx8veqllw7o?at_medium=RSS&at_campaign=rss"
+      ],
+      "date": "2026-07-20T12:33:26.974762+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T12:01:52.160716+00:00"
+  "lastUpdated": "2026-07-20T12:33:26.974876+00:00"
 }
