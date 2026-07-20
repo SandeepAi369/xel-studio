@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linuxiac Launches Comprehensive Linux and Open Source Resource Hub for Enthusiasts",
-      "urls": [
-        "https://linuxiac.com"
-      ],
-      "date": "2026-07-10T11:01:39.921244+00:00"
-    },
-    {
-      "title": "OpenAI Announces ChatGPT 5.6 Release With Sol, Terra, and Luna Model Families",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://coursiv.io/blog/chatgpt-5-6"
-      ],
-      "date": "2026-07-10T11:31:19.624878+00:00"
-    },
-    {
       "title": "IOM Sets Ambitious 2026 Goal to Assist 22 Million Crisis‑Affected People Across 32 Countries",
       "urls": [
         "https://www.iom.int/news/iom-unveils-2026-plans-reach-22-million-crisis-across-32-countries",
@@ -4388,7 +4373,15 @@
         "https://www.devlane.com/blog/best-generative-ai-tools-in-2026-the-complete-guide"
       ],
       "date": "2026-07-20T11:01:37.740743+00:00"
+    },
+    {
+      "title": "Alphabet, Meta, Amazon, and Microsoft Drive Record Market Rally With AI Spending",
+      "urls": [
+        "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
+        "https://www.nbcnews.com/business/markets/big-tech-ai-earnings-alphabet-meta-amazon-microsoft-rcna342796"
+      ],
+      "date": "2026-07-20T11:33:10.820510+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T11:01:37.740810+00:00"
+  "lastUpdated": "2026-07-20T11:33:10.820645+00:00"
 }
