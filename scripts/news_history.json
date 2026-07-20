@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Pages Listed Multiple Times Without Descriptions In Search Results",
-      "urls": [
-        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
-        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
-        "https://www.reddit.com/r/technology/comments/1urjxyk/meta_is_reportedly_working_on_smart_glasses_that"
-      ],
-      "date": "2026-07-10T19:31:27.705017+00:00"
-    },
-    {
       "title": "Deloitte Releases 2026 Sports Industry Outlook Forecasting Revenue Growth and Digital Transformation",
       "urls": [
         "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html"
@@ -4369,7 +4360,14 @@
         "https://www.youtube.com/watch?v=j-ASrjzXcAQ"
       ],
       "date": "2026-07-20T19:31:19.545966+00:00"
+    },
+    {
+      "title": "National Academies of Sciences, Engineering, and Medicine Featured in New Web Page Title",
+      "urls": [
+        "https://www.nationalacademies.org"
+      ],
+      "date": "2026-07-20T20:01:48.511533+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T19:31:19.546033+00:00"
+  "lastUpdated": "2026-07-20T20:01:48.511635+00:00"
 }
