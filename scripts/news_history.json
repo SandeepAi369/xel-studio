@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Times Highlights AI Breakthroughs Transforming Modern Healthcare In Medicine",
-      "urls": [
-        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm"
-      ],
-      "date": "2026-07-11T11:01:38.130258+00:00"
-    },
-    {
       "title": "Google DeepMind Listed As Search Result With Minimal Information Available",
       "urls": [
         "https://deepmind.google"
@@ -4388,7 +4381,14 @@
         "https://www.instagram.com/reel/DZDf6dhEQQz"
       ],
       "date": "2026-07-21T11:01:32.064146+00:00"
+    },
+    {
+      "title": "Google Unveils I/O 2026 Blog Hub Detailing Upcoming AI and Developer Announcements",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection"
+      ],
+      "date": "2026-07-21T11:31:21.158163+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T11:01:32.064257+00:00"
+  "lastUpdated": "2026-07-21T11:31:21.158233+00:00"
 }
