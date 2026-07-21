@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Federal Reserve Releases Weak Economic Report Raising Recession Concerns Nationwide",
-      "urls": [
-        "https://www.msn.com/en-us/money/markets/the-fed-just-quietly-released-surprisingly-bad-economic-news-is-a-recession-already-starting/ar-AA25nZyZ?ocid=BingNewsVerp",
-        "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release"
-      ],
-      "date": "2026-07-11T15:31:45.166642+00:00"
-    },
-    {
-      "title": "United States and Iran Reach Agreement to Reopen Strait of Hormuz",
-      "urls": [
-        "https://www.cfr.org/articles/the-time-is-ripe-for-russia-ukraine-peace-talks-but-putin-could-escalate-conflict",
-        "https://www.cnn.com/2026/06/14/world/live-news/iran-war-trump-israel",
-        "https://golfweek.usatoday.com/story/opinion/2026/06/21/opinion-pakistan-should-maintain-its-neutrality-in-iran-us-conflict/90603299007",
-        "https://www.msn.com/en-in/news/world/iran-war-news-live-iran-lawmaker-warns-of-painful-response-to-israeli-strikes-on-beirut/ar-AA250Rsf?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-11T16:01:35.224356+00:00"
-    },
-    {
       "title": "Cristiano Ronaldo Leads Portugal to Record 5-0 Victory Over Uzbekistan in World Cup",
       "urls": [
         "https://www.msn.com/en-in/sports/cricket/vaibhav-sooryavanshis-ipl-2026-achievements-10-records-he-set-following-the-srh-vs-rr-eliminator-can-you-identify-them/ar-AA24cwZ1?ocid=BingNewsVerp",
@@ -4394,7 +4376,14 @@
         "https://www.youtube.com/@DisasterToday"
       ],
       "date": "2026-07-21T15:31:21.332368+00:00"
+    },
+    {
+      "title": "PyTorch Captures 55 Percent of AI Research Share, Highlighting TensorFlow TPU Gap",
+      "urls": [
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
+      ],
+      "date": "2026-07-21T16:01:36.166639+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T15:31:21.332445+00:00"
+  "lastUpdated": "2026-07-21T16:01:36.166705+00:00"
 }
