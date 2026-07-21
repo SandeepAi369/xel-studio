@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gold Prices Listed for July 10 2026 Without Detailed Figures",
-      "urls": [
-        "https://www.forbes.com/advisor/investing/gold-price"
-      ],
-      "date": "2026-07-11T05:31:55.522324+00:00"
-    },
-    {
       "title": "Lionel Messi Turns 39 Scores Record-Breaking Goal in Texas During World Cup",
       "urls": [
         "https://sports.yahoo.com/articles/world-cup-breaks-broadcast-record-160000645.html",
@@ -4367,7 +4360,14 @@
         "https://www.disabledguy.ca/2026/06/tech-enabled-independence-assistive.html"
       ],
       "date": "2026-07-21T05:31:24.728962+00:00"
+    },
+    {
+      "title": "OpenAI Unveils Three New GPT‑5.6 Models in Limited Preview Beta",
+      "urls": [
+        "https://www.macrumors.com/2026/06/26/openai-gpt-5-6-sol"
+      ],
+      "date": "2026-07-21T06:01:25.931834+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T05:31:24.729022+00:00"
+  "lastUpdated": "2026-07-21T06:01:25.931917+00:00"
 }
