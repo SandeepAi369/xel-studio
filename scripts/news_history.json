@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Listed As Search Result With Minimal Information Available",
-      "urls": [
-        "https://deepmind.google"
-      ],
-      "date": "2026-07-11T11:31:32.350438+00:00"
-    },
-    {
       "title": "Concern USA Highlights Largest Refugee Crises of 2026 in Detailed Report",
       "urls": [
         "https://concernusa.org/news/largest-refugee-crises"
@@ -4388,7 +4381,14 @@
         "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection"
       ],
       "date": "2026-07-21T11:31:21.158163+00:00"
+    },
+    {
+      "title": "World Trade Organization Updates Trade Rules With New Technology Standards and Notification Formats",
+      "urls": [
+        "https://www.wto.org/english/news_e/news26_e/tbt_10jul26_459_e.htm"
+      ],
+      "date": "2026-07-21T12:01:41.026070+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T11:31:21.158233+00:00"
+  "lastUpdated": "2026-07-21T12:01:41.026138+00:00"
 }
