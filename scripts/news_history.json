@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "NEXT For AUTISM Expands Online News Archive to Strengthen Autism Community Resources",
-      "urls": [
-        "https://nextforautism.org/updates/category/news"
-      ],
-      "date": "2026-07-11T01:01:38.985099+00:00"
-    },
-    {
       "title": "Biodiversity Offsetting Boosts Pollinator Conservation Across Agricultural Landscapes, Offering New Hope for Bees",
       "urls": [
         "https://phys.org/news/2026-06-biodiversity-offsetting-pollinator.html",
@@ -4367,7 +4360,14 @@
         "https://vendelux.com/blog/crypto-blockchain-web3-conferences-2026"
       ],
       "date": "2026-07-21T01:01:31.926210+00:00"
+    },
+    {
+      "title": "Reuters Warns Cutting Wind and Solar Subsidies Will Raise U.S. Electricity Costs",
+      "urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/killing-wind-solar-subsidies-will-make-us-electricity-more-expensive-2026-07-06"
+      ],
+      "date": "2026-07-21T01:31:26.216273+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T01:01:31.926279+00:00"
+  "lastUpdated": "2026-07-21T01:31:26.216340+00:00"
 }
