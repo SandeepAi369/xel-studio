@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Releases Comprehensive 2026‑2027 Fight Schedule Across Multiple Platforms for Fans and Promoters",
-      "urls": [
-        "https://fights.guide",
-        "https://www.espn.in/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
-        "https://worldinsport.com",
-        "https://www.ufc.com/news/fighters-2026-half-year-awards",
-        "https://www.sportbusy.com/calendar/mma"
-      ],
-      "date": "2026-07-11T15:01:44.299751+00:00"
-    },
-    {
       "title": "Federal Reserve Releases Weak Economic Report Raising Recession Concerns Nationwide",
       "urls": [
         "https://www.msn.com/en-us/money/markets/the-fed-just-quietly-released-surprisingly-bad-economic-news-is-a-recession-already-starting/ar-AA25nZyZ?ocid=BingNewsVerp",
@@ -4396,7 +4385,16 @@
         "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
       ],
       "date": "2026-07-21T15:01:40.714253+00:00"
+    },
+    {
+      "title": "The World Now Launches Live Global Map Tracking Conflicts and Disasters in Real Time",
+      "urls": [
+        "https://www.the-world-now.com/live-world-map",
+        "https://pocketworld.org/disasters",
+        "https://www.youtube.com/@DisasterToday"
+      ],
+      "date": "2026-07-21T15:31:21.332368+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T15:01:40.714315+00:00"
+  "lastUpdated": "2026-07-21T15:31:21.332445+00:00"
 }
