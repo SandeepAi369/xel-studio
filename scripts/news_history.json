@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "TheWorldNow Launches Live Global Disaster Map Offering Real‑Time Conflict and Hazard Updates",
-      "urls": [
-        "https://www.the-world-now.com/live-world-map",
-        "https://www.youtube.com/@DisasterToday",
-        "https://www.worldnaturaldisasters.com/real-time-disasters.html",
-        "https://pocketworld.org/disasters",
-        "https://thedisastertracker.com",
-        "https://www.sciencedaily.com/news/earth_climate/natural_disasters"
-      ],
-      "date": "2026-07-10T23:31:38.361960+00:00"
-    },
-    {
       "title": "IMF Releases 2026 World Economic Outlook Highlighting Slower Growth and Rising Recession Risks",
       "urls": [
         "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
@@ -4367,7 +4355,15 @@
         "https://www.reddit.com/r/moderatepolitics/comments/1tuiy5m/trump_admin_renames_irans_300_billion_reparations"
       ],
       "date": "2026-07-20T23:31:19.144470+00:00"
+    },
+    {
+      "title": "Google Unveils Gemini 4 Video Highlighting AI Shift and Shares 2026 Predictions",
+      "urls": [
+        "https://www.youtube.com/watch?v=g0UZT5n6Uf8",
+        "https://www.youtube.com/watch?v=z2MUcmJS3aI"
+      ],
+      "date": "2026-07-21T00:01:39.483652+00:00"
     }
   ],
-  "lastUpdated": "2026-07-20T23:31:19.144539+00:00"
+  "lastUpdated": "2026-07-21T00:01:39.483725+00:00"
 }
