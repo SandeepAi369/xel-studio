@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Government Sets Access Rules for Latest American AI Technology",
-      "urls": [
-        "https://www.yahoo.com/news/politics/articles/us-government-will-decide-who-gets-to-use-latest-upgrade-to-chatgpt-174901379.html",
-        "https://iapp.org/news/a/notes-from-the-asia-pacific-region-india-signals-shift-on-ai-regulation"
-      ],
-      "date": "2026-07-11T22:01:36.918206+00:00"
-    },
-    {
       "title": "White House Issues National Artificial Intelligence Policy Framework Guideline to Guide Federal Agencies",
       "urls": [
         "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy"
@@ -4381,7 +4373,17 @@
         "https://www.forbes.com/advisor/investing/gold-price"
       ],
       "date": "2026-07-21T21:31:41.510588+00:00"
+    },
+    {
+      "title": "Techsy.io Ranks GLM‑5.2 as Top Open‑Source LLM in New Benchmark",
+      "urls": [
+        "https://techsy.io/en/blog/best-open-source-llms-2026",
+        "https://fazm.ai/t/latest-open-source-llm-releases-2026",
+        "https://www.youtube.com/watch?v=HNVaYYxmwLU",
+        "https://www.youtube.com/watch?v=R0skNnyiFKU"
+      ],
+      "date": "2026-07-21T22:01:47.466188+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T21:31:41.510678+00:00"
+  "lastUpdated": "2026-07-21T22:01:47.466249+00:00"
 }
