@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Warns Inflation Rise and Growth Slowdown in Global Outlook",
-      "urls": [
-        "https://seekingalpha.com/article/4916026-global-economic-outlook-june-2026",
-        "https://www.morningstar.com/news/marketwatch/20260603105/a-stark-new-warning-about-the-global-economy-inflation-is-headed-higher-and-growth-lower"
-      ],
-      "date": "2026-07-11T03:31:39.077995+00:00"
-    },
-    {
       "title": "Simons Foundation Announces Quantum Dynamics Breakthrough Overturning Quantum Supremacy Claim",
       "urls": [
         "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
@@ -4368,7 +4360,15 @@
         "https://datanorth.ai/blog/top-10-ai-tools-for-2026"
       ],
       "date": "2026-07-21T03:31:32.754748+00:00"
+    },
+    {
+      "title": "Mistral Unveils Magistral and Devstral 2 Models Expanding 2026 AI Portfolio",
+      "urls": [
+        "https://serenitiesai.com/articles/mistral-magistral-devstral-2-review-2026",
+        "https://releasebot.io/updates/mistral"
+      ],
+      "date": "2026-07-21T04:01:32.866099+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T03:31:32.754824+00:00"
+  "lastUpdated": "2026-07-21T04:01:32.866168+00:00"
 }
