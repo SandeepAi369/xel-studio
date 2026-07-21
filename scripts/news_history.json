@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Simons Foundation Announces Quantum Dynamics Breakthrough Overturning Quantum Supremacy Claim",
-      "urls": [
-        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions"
-      ],
-      "date": "2026-07-11T04:01:40.325961+00:00"
-    },
-    {
       "title": "UFC Announces 2026 Fight Calendar Featuring Dates, Divisions, and Streaming Times",
       "urls": [
         "https://www.ufc.com",
@@ -4368,7 +4361,14 @@
         "https://releasebot.io/updates/mistral"
       ],
       "date": "2026-07-21T04:01:32.866099+00:00"
+    },
+    {
+      "title": "West Virginia Athletes Bring Home Gold From Special Olympics USA Games",
+      "urls": [
+        "https://www.msn.com/en-us/news/us/west-virginia-athletes-return-from-special-olympics-usa-games-with-gold-medals/ar-AA26PXNp?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-21T04:31:24.019735+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T04:01:32.866168+00:00"
+  "lastUpdated": "2026-07-21T04:31:24.019802+00:00"
 }
