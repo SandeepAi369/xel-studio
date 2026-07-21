@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Smithsonian Institution Updates Global Volcano Activity Database With Real‑Time Eruption Listings",
-      "urls": [
-        "https://volcano.si.edu/gvp_currenteruptions.cfm"
-      ],
-      "date": "2026-07-11T12:31:52.618315+00:00"
-    },
-    {
       "title": "SpaceX Shares Hit Record Low as 80‑Second Big Tech Earnings Pressure Nasdaq",
       "urls": [
         "https://www.msn.com/en-ph/money/topstocks/80-seconds-of-big-tech-earnings-will-decide-stock-market-s-fate/ar-AA21YHIZ?ocid=BingNewsVerp",
@@ -4397,7 +4390,15 @@
         "https://www.olympics.com/en/milano-cortina-2026/news/eileen-gu-on-historic-winter-olympics-2026-rising-tide-raises-all-boats"
       ],
       "date": "2026-07-21T12:31:32.994346+00:00"
+    },
+    {
+      "title": "SK Hynix Awaits US Debut As Trump Heads To NATO Summit Impacting Markets",
+      "urls": [
+        "https://www.youtube.com/watch?v=uETUVck8wyU",
+        "https://www.youtube.com/watch?v=ONnYGsnr-ts"
+      ],
+      "date": "2026-07-21T13:01:28.927769+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T12:31:32.994418+00:00"
+  "lastUpdated": "2026-07-21T13:01:28.927841+00:00"
 }
