@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Elmira Center Expands Tech Access for People With Disabilities, Boosting Independence",
-      "urls": [
-        "https://www.yahoo.com/news/us/articles/elmira-center-expands-tech-access-090847785.html",
-        "https://www.lex18.com/news/covering-kentucky/in-your-community/new-morehead-center-helps-kentuckians-with-disabilities-access-tools-for-independent-living"
-      ],
-      "date": "2026-07-11T07:31:39.979896+00:00"
-    },
-    {
       "title": "GameSquare Reports $6.8 Billion Esports Revenue Growth and Live Streaming Trends",
       "urls": [
         "https://esportsworldcup.com/en/news",
@@ -4385,7 +4377,14 @@
         "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends"
       ],
       "date": "2026-07-21T07:31:19.592456+00:00"
+    },
+    {
+      "title": "Alphabet, Tesla and Intel Drive Market Outlook Ahead of Big Tech Earnings",
+      "urls": [
+        "https://www.investopedia.com/what-to-expect-in-markets-this-week-alphabet-tesla-and-intel-headline-big-tech-earnings-reports-12020649"
+      ],
+      "date": "2026-07-21T08:01:24.083603+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T07:31:19.592511+00:00"
+  "lastUpdated": "2026-07-21T08:01:24.083678+00:00"
 }
