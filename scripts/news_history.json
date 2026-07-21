@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Startup Investment Reaches Record $510 Billion as AI Boom Drives Funding",
-      "urls": [
-        "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026",
-        "https://www.instagram.com/reel/DZ-uqjtJNro",
-        "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026"
-      ],
-      "date": "2026-07-11T09:01:35.072066+00:00"
-    },
-    {
       "title": "Teaching Visually Impaired Launches Comprehensive Assistive Technology Guide for Blind Students",
       "urls": [
         "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
@@ -4384,7 +4375,16 @@
         "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026"
       ],
       "date": "2026-07-21T09:01:34.264014+00:00"
+    },
+    {
+      "title": "IIT Madras Leads Neurodiversity Summit to Shape Inclusive Technology Strategy",
+      "urls": [
+        "https://www.msn.com/en-in/news/techandscience/iit-madras-neurodiversity-summit-2026-develop-strategy-for-technology-driven-inclusive-ecosystem/ar-AA27r94S?ocid=BingNewsVerp",
+        "https://medicalxpress.com/news/2026-07-neurodevelopmental-spectrum-link-adhd-autism.html",
+        "https://indiaautismcenter.org/blog/latest-tech-in-autism"
+      ],
+      "date": "2026-07-21T09:31:21.563354+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T09:01:34.264084+00:00"
+  "lastUpdated": "2026-07-21T09:31:21.563415+00:00"
 }
