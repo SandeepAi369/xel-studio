@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Refugee Count Declines in 2025 Amid Aid Cuts and Policy Shifts",
-      "urls": [
-        "https://www.chron.com/news/article/refugee-numbers-dropped-in-2025-but-aid-cuts-22310841.php"
-      ],
-      "date": "2026-07-11T08:31:40.591428+00:00"
-    },
-    {
       "title": "Global Startup Investment Reaches Record $510 Billion as AI Boom Drives Funding",
       "urls": [
         "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026",
@@ -4384,7 +4377,14 @@
         "https://www.youtube.com/watch?v=mJENGoYSEsc"
       ],
       "date": "2026-07-21T08:31:23.657127+00:00"
+    },
+    {
+      "title": "MarkTechPost Publishes Comparative Review of Sixteen Generative AI Coding Tools for 2026",
+      "urls": [
+        "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026"
+      ],
+      "date": "2026-07-21T09:01:34.264014+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T08:31:23.657197+00:00"
+  "lastUpdated": "2026-07-21T09:01:34.264084+00:00"
 }
