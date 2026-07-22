@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Minority Quality Forum Calls for AI Policy Prioritizing High Disease Burden Communities",
-      "urls": [
-        "https://www.msn.com/en-in/health/health-news/indias-first-focused-health-ai-conclave-unites-doctors-and-ai-experts/ar-AA27Gogy?ocid=BingNewsVerp",
-        "https://markets.businessinsider.com/news/stocks/national-minority-quality-forum-calls-for-ai-policy-that-prioritizes-communities-with-the-greatest-burden-of-disease-1036312917",
-        "https://markets.businessinsider.com/news/stocks/autonomize-joins-cms-health-technology-ecosystem-initiative-as-a-friend-of-the-ecosystem-1036302898",
-        "https://www.tmcnet.com/usubmit/2026/07/08/10411274.htm"
-      ],
-      "date": "2026-07-12T09:01:46.760571+00:00"
-    },
-    {
       "title": "InnoCaption Wins AI Breakthrough Award Highlighting Innovation in Real‑Time Captioning Technology",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/innocaption-recognized-artificial-intelligence-innovation-120000127.html",
@@ -4420,7 +4410,15 @@
         "https://www.csmonitor.com/Business/2026/0627/quantum-computing-research-cybersecurity"
       ],
       "date": "2026-07-22T09:01:39.707283+00:00"
+    },
+    {
+      "title": "Level Access Highlights AI Assistive Technology Advancements for Accessibility at CES 2026",
+      "urls": [
+        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
+        "https://www.youtube.com/watch?v=VEab65v5DG0"
+      ],
+      "date": "2026-07-22T09:31:21.883757+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T09:01:39.707340+00:00"
+  "lastUpdated": "2026-07-22T09:31:21.883832+00:00"
 }
