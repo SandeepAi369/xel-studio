@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic CEO Calls For Binding AI Regulation In New Essay",
-      "urls": [
-        "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html"
-      ],
-      "date": "2026-07-11T23:31:41.715519+00:00"
-    },
-    {
       "title": "Reddit.com Receives Minimal Coverage in Latest Search Result With No Additional Details Provided",
       "urls": [
         "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
@@ -4398,7 +4391,14 @@
         "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
       ],
       "date": "2026-07-21T23:31:21.915140+00:00"
+    },
+    {
+      "title": "White House Issues Fact Sheet Outlining National Artificial Intelligence Policy Framework",
+      "urls": [
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy"
+      ],
+      "date": "2026-07-22T00:01:39.691597+00:00"
     }
   ],
-  "lastUpdated": "2026-07-21T23:31:21.915195+00:00"
+  "lastUpdated": "2026-07-22T00:01:39.691676+00:00"
 }
