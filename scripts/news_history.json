@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "University Of Houston Launches $77 Million Medical Research Building Project",
-      "urls": [
-        "https://www.yahoo.com/news/science/articles/university-houston-charts-course-77-182056910.html"
-      ],
-      "date": "2026-07-12T07:31:38.184655+00:00"
-    },
-    {
-      "title": "CoinGape Announces Web3 Innovation Awards Winners Highlighting 2026 Decentralized Projects Across Crypto Landscape",
-      "urls": [
-        "https://system1.com/terms/privacy-policy",
-        "https://system1.com/terms/terms-of-use",
-        "https://finance.yahoo.com/markets/crypto/articles/coingape-announces-winners-web3-innovation-063014259.html"
-      ],
-      "date": "2026-07-12T08:01:36.367656+00:00"
-    },
-    {
       "title": "Esports World Cup Sets Record $75 Million Prize Pool In Paris Launch",
       "urls": [
         "https://www.msn.com/en-in/news/world/esports-world-cup-2026-begins-in-paris-with-record-usd-75-million-prize-pool/ar-AA27yrit?ocid=BingNewsVerp"
@@ -4407,7 +4391,19 @@
         "https://markets.businessinsider.com/news/stocks/snapinsta-announces-continued-enhancements-to-browser-based-media-download-platform-1036313435"
       ],
       "date": "2026-07-22T07:31:22.799795+00:00"
+    },
+    {
+      "title": "IMF Releases Updated Global Economic Outlook Amid Growing Uncertainty for Emerging Markets",
+      "urls": [
+        "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+        "https://www.the-world-now.com/recession-risk",
+        "https://desapublications.un.org/sites/default/files/publications/2026-01/WESP%202026_Executive%20Summary_English.pdf",
+        "https://desapublications.un.org/file/22000/download",
+        "https://www.frbsf.org/research-and-insights/publications/fedviews/2026/06/sf-fedviews-june-4-2026",
+        "https://globaloutlook.worldbank.org"
+      ],
+      "date": "2026-07-22T08:01:40.579687+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T07:31:22.799870+00:00"
+  "lastUpdated": "2026-07-22T08:01:40.579802+00:00"
 }
