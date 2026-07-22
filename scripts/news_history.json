@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Vibe Speech Model and Announces Data Center Expansion to Challenge OpenAI",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://thenextweb.com/news/mistral-ceo-open-source-enterprise-warning",
-        "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai"
-      ],
-      "date": "2026-07-12T02:01:44.823593+00:00"
-    },
-    {
       "title": "TherapyGo Expands AI Mental Health Platform to Connect More Users with Licensed Psychologists",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/therapygo-announces-milestone-as-ai-powered-mental-health-platform-expands-access-to-licensed-psychologists-1036280930",
@@ -4402,7 +4393,17 @@
         "https://www.autismspeaks.org/advocacy-news/congress-passes-critical-autism-funding-fiscal-year-2026-federal-package"
       ],
       "date": "2026-07-22T02:01:40.055013+00:00"
+    },
+    {
+      "title": "Nigerian Startup Launches Platform Connecting Young Africans to Mental Health Support",
+      "urls": [
+        "https://www.msn.com/en-xl/africa/top-stories/nigerian-startup-helps-young-africans-find-mental-health-support/ar-AA27E5pO?ocid=BingNewsVerp",
+        "https://www.techtimes.com/articles/316485/20260511/does-digital-detox-really-work-mental-health-productivity-benefits-challenges.htm",
+        "https://www.techtimes.com/articles/316303/20260502/pros-cons-fast-technology-advancement-convenience-productivity-privacy-mental-health.htm",
+        "https://www.techrepublic.com/topic/health"
+      ],
+      "date": "2026-07-22T02:31:19.247014+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T02:01:40.055092+00:00"
+  "lastUpdated": "2026-07-22T02:31:19.247080+00:00"
 }
