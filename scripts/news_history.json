@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Highlights Rising Geopolitical and Economic Risks in 2026",
-      "urls": [
-        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
-        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
-        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
-      ],
-      "date": "2026-07-12T03:01:44.149756+00:00"
-    },
-    {
-      "title": "Predactiv Introduces MCP Server and Platform API to Embed Audience Intelligence in AI Workflows",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/predactiv-launches-mcp-server-platform-100000498.html"
-      ],
-      "date": "2026-07-12T03:31:44.213313+00:00"
-    },
-    {
       "title": "YouTube Details AI Infrastructure And Hybrid Cloud Strategy In New Video Series",
       "urls": [
         "https://www.youtube.com/watch?v=0sNlaLbZOcY",
@@ -4405,7 +4389,17 @@
         "https://www.nbcnews.com/politics"
       ],
       "date": "2026-07-22T03:01:29.082236+00:00"
+    },
+    {
+      "title": "2026 Hurricane Season Begins With Tropical Storm Threatening Southeast Flooding",
+      "urls": [
+        "https://people.com/first-tropical-storm-of-2026-hurricane-season-forms-12000950",
+        "https://b93.net/ixp/341/p/hurricane-season-by-year",
+        "https://www.finanznachrichten.de/nachrichten-2026-06/68790710-direct-relief-2026-el-nino-health-risks-six-extreme-weather-threats-facing-the-americas-200.htm",
+        "https://www.newsherald.com/story/news/local/2026/07/16/2026-hurricane-season-do-you-know-your-evacuation-zone-florida/90932986007"
+      ],
+      "date": "2026-07-22T03:32:45.265790+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T03:01:29.082306+00:00"
+  "lastUpdated": "2026-07-22T03:32:45.265858+00:00"
 }
