@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mongabay Highlights New Biodiversity Conservation News Across Global Ecosystems In 2026",
-      "urls": [
-        "https://www.facebook.com/SamBentley/videos/good-news-to-start-your-2026/3374215706067303",
-        "https://www.instagram.com/reel/DTQeH1iiOTs",
-        "https://www.tiktok.com/@sambentley/video/7593044248375741718",
-        "https://news.mongabay.com/list/biodiversity",
-        "https://news.mongabay.com/list/wildlife",
-        "https://wildlife.org/news"
-      ],
-      "date": "2026-07-12T06:31:29.517249+00:00"
-    },
-    {
       "title": "OneTrust Highlights Five Privacy Enforcement Trends Shaping 2026 Global Landscape",
       "urls": [
         "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026"
@@ -4411,7 +4399,15 @@
         "https://www.clarkhill.com/news-events/news/esg-sustainability-in-2026-twists-turns-and-trends"
       ],
       "date": "2026-07-22T06:31:23.755545+00:00"
+    },
+    {
+      "title": "World Economic Forum Highlights Rising Geopolitical and Economic Risks in 2026 Global Report",
+      "urls": [
+        "https://www.forbes.com/sites/simonchadwick/2026/07/20/money-geopolitics-and-power-dominated-the-world-cup-same-again-in-2030",
+        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
+      ],
+      "date": "2026-07-22T07:01:29.183492+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T06:31:23.755615+00:00"
+  "lastUpdated": "2026-07-22T07:01:29.183597+00:00"
 }
