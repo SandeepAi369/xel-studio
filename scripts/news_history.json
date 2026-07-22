@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "InnoCaption Wins AI Breakthrough Award Highlighting Innovation in Real‑Time Captioning Technology",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/innocaption-recognized-artificial-intelligence-innovation-120000127.html",
-        "https://www.msn.com/en-za/technology/tech-companies/applications-open-for-2026-global-cleantech-innovation-programme/ar-AA26B2UM?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-12T09:31:34.849193+00:00"
-    },
-    {
       "title": "Dell Becomes OpenAI On-Premises Channel for Frontier AI Models Enterprise Deployment",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/qualcomms-extended-hugging-face-deal-154400307.html",
@@ -4418,7 +4410,14 @@
         "https://www.youtube.com/watch?v=VEab65v5DG0"
       ],
       "date": "2026-07-22T09:31:21.883757+00:00"
+    },
+    {
+      "title": "BentoML Publishes Guide Highlighting Top Open-Source Large Language Models for 2026",
+      "urls": [
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models"
+      ],
+      "date": "2026-07-22T10:01:32.990601+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T09:31:21.883832+00:00"
+  "lastUpdated": "2026-07-22T10:01:32.990670+00:00"
 }
