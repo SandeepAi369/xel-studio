@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team Rubicon Forecasts Fewer 2026 Hurricanes Yet Highlights Ongoing Flood Risks",
-      "urls": [
-        "https://abcnews.com/US/tropical-storm-arthur-forms-gulf-off-texas-nws/story?id=133964957",
-        "https://www.weather.gov/news",
-        "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast"
-      ],
-      "date": "2026-07-12T14:01:35.690139+00:00"
-    },
-    {
       "title": "Disability:IN Publishes January 2026 Digital Accessibility Roundup Highlighting Inclusive Practices",
       "urls": [
         "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
@@ -4413,7 +4404,14 @@
         "https://blog.robozaps.com/b/future-of-humanoid-robots"
       ],
       "date": "2026-07-22T14:01:33.866068+00:00"
+    },
+    {
+      "title": "AI.cc Adds Access to Over 500 Hugging Face Open-Source Models via Unified API",
+      "urls": [
+        "https://www.newsherald.com/press-release/story/88390/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api"
+      ],
+      "date": "2026-07-22T14:31:30.459548+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T14:01:33.866162+00:00"
+  "lastUpdated": "2026-07-22T14:31:30.459629+00:00"
 }
