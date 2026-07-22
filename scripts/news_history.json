@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Disability:IN Publishes January 2026 Digital Accessibility Roundup Highlighting Inclusive Practices",
-      "urls": [
-        "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
-      ],
-      "date": "2026-07-12T14:31:30.471605+00:00"
-    },
-    {
       "title": "UNHCR Reports Decrease in Global Displacement While Warning of Ongoing Refugee Crisis",
       "urls": [
         "https://www.reuters.com/world/unhcr-says-fewer-people-displaced-worldwide-2025-long-term-refugee-crisis-2026-06-11",
@@ -4411,7 +4404,14 @@
         "https://www.newsherald.com/press-release/story/88390/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api"
       ],
       "date": "2026-07-22T14:31:30.459548+00:00"
+    },
+    {
+      "title": "Rylo Highlights Emerging Assistive Technologies Transforming Deaf Communication And Inclusion Landscape",
+      "urls": [
+        "https://rylo.com/post/latest-innovations-in-technology-for-deaf"
+      ],
+      "date": "2026-07-22T15:01:34.115855+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T14:31:30.459629+00:00"
+  "lastUpdated": "2026-07-22T15:01:34.115928+00:00"
 }
