@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "McKinsey & Company Publishes 2026 Geopolitics and Trade Geometry Update",
-      "urls": [
-        "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update"
-      ],
-      "date": "2026-07-12T20:01:53.251186+00:00"
-    },
-    {
       "title": "Esports Leaders Honours 2026 Launches First Curated Awards in Cologne",
       "urls": [
         "https://www.techtimes.com/articles/318724/20260619/esports-leaders-honours-2026-first-curated-industry-awards-hit-cologne-tonight.htm"
@@ -4407,7 +4400,18 @@
         "https://www.techuk.org/shaping-policy/internation-trade.html"
       ],
       "date": "2026-07-22T20:01:26.607653+00:00"
+    },
+    {
+      "title": "Scientists Reveal Warming Climate Cuts Milk Quality and Quantity Across Global Dairy Industry",
+      "urls": [
+        "https://www.msn.com/en-us/weather/topstories/was-that-climate-change-scientists-ponder-a-deadly-july-4-weekend/ar-AA27sTky?ocid=BingNewsVerp",
+        "https://phys.org/news/2026-06-climate-quality-quantity.html",
+        "https://foreignpolicy.com/2026/06/30/science-climate-europe-global-warming-heat-wave",
+        "https://www.bloomberg.com/graphics/2026-extreme-heat-climate-change-data",
+        "https://www.motherjones.com/environment/2026/06/climate-models-missing-data-nature-natural-emissions-wetlands-wildfire-permafrost-methane-co2-projections"
+      ],
+      "date": "2026-07-22T20:31:41.617033+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T20:01:26.607710+00:00"
+  "lastUpdated": "2026-07-22T20:31:41.617120+00:00"
 }
