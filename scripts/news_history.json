@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Propose Weather Jiu‑Jitsu to Nudge Hurricanes Off Course Across Gulf Coast",
-      "urls": [
-        "https://www.news-journalonline.com/story/weather/2026/06/18/florida-weather-forecast-heat-advisory-flood-risks-tornado-threat-tropical-storm-arthur/90601847007",
-        "https://www.msn.com/en-ca/weather/extreme-weather-events/scientists-propose-weather-jiu-jitsu-to-nudge-hurricanes-off-course/ar-AA26wqMD?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/weather/extreme-weather-events/gulf-disturbance-along-texas-coast-might-trigger-flood-threat-in-water-logged-houston/ar-AA25Jpuu?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-12T01:31:33.035906+00:00"
-    },
-    {
       "title": "Mistral AI Launches Vibe Speech Model and Announces Data Center Expansion to Challenge OpenAI",
       "urls": [
         "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
@@ -4400,7 +4391,18 @@
         "https://earth.org/climate-change"
       ],
       "date": "2026-07-22T01:31:18.243221+00:00"
+    },
+    {
+      "title": "Forbes Reports AI Elevates Neurodivergent Talent to Top Hiring Priority",
+      "urls": [
+        "https://autismspectrumnews.org",
+        "https://neurodifferent.org/en/blog/what-we-know-about-autism-2026",
+        "https://ndconnection.co.uk/blog/autism-research-january-2026",
+        "https://www.forbes.com/sites/josipamajic/2026/03/26/why-ai-is-making-neurodivergent-talent-the-most-valuable-hire-in-tech",
+        "https://www.autismspeaks.org/advocacy-news/congress-passes-critical-autism-funding-fiscal-year-2026-federal-package"
+      ],
+      "date": "2026-07-22T02:01:40.055013+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T01:31:18.243280+00:00"
+  "lastUpdated": "2026-07-22T02:01:40.055092+00:00"
 }
