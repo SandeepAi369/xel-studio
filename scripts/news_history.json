@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Asia Pacific Highlights Twelve Innovative Robots Including Humanoids and Robot Dogs",
-      "urls": [
-        "https://finance.yahoo.com/sectors/technology/articles/a3-automate-2026-opens-next-140700271.html",
-        "https://www.eweek.com/news/12-apac-humanoid-robots-2026",
-        "https://www.manilatimes.net/2026/07/07/tmt-newswire/pr-newswire/mousers-rise-of-the-robots-program-explores-humanoid-design-considerations/2379636",
-        "https://www.eweek.com/news/agibot-world-challenge-2026-apac-china"
-      ],
-      "date": "2026-07-12T05:01:47.239212+00:00"
-    },
-    {
       "title": "Level Access Highlights AI Assistive Technology Trends Transforming Accessibility in 2026",
       "urls": [
         "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
@@ -4413,7 +4403,14 @@
         "https://www.mexc.com/news/1012754"
       ],
       "date": "2026-07-22T05:01:37.494418+00:00"
+    },
+    {
+      "title": "A3 Association Launches Inclusive Automation Initiative to Boost Accessibility for People With Disabilities",
+      "urls": [
+        "https://www.automate.org/news/designing-inclusive-technologies-how-accessible-innovations-can-transform-the-lives-of-people-with-disabilities"
+      ],
+      "date": "2026-07-22T05:31:22.788834+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T05:01:37.494523+00:00"
+  "lastUpdated": "2026-07-22T05:31:22.788896+00:00"
 }
