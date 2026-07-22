@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit.com Receives Minimal Coverage in Latest Search Result With No Additional Details Provided",
-      "urls": [
-        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models"
-      ],
-      "date": "2026-07-12T00:01:45.740794+00:00"
-    },
-    {
       "title": "UFC And Boxing Weekend Schedule Details Fight Times And Broadcast Channels",
       "urls": [
         "https://www.msn.com/en-us/sports/other/boxing-ufc-this-weekend-26-june-28-june-2026-every-fight-time-and-channel/ar-AA26AtnO?ocid=BingNewsVerp"
@@ -4398,7 +4390,19 @@
         "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy"
       ],
       "date": "2026-07-22T00:01:39.691597+00:00"
+    },
+    {
+      "title": "NBC Sports Announces 2026 World Cup Award Winners Golden Boot, Golden Ball, Best Young Player, and Golden Glove Recipients",
+      "urls": [
+        "https://www.dailymail.com/sport/headlines/index.html",
+        "https://www.foxsports.com",
+        "https://www.nbcsports.com/soccer/news/2026-world-cup-award-winners-golden-boot-golden-ball-best-young-player-golden-glove",
+        "https://www.cbssports.com",
+        "https://www.nytimes.com/athletic",
+        "https://sports.yahoo.com"
+      ],
+      "date": "2026-07-22T00:31:38.019958+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T00:01:39.691676+00:00"
+  "lastUpdated": "2026-07-22T00:31:38.020022+00:00"
 }
