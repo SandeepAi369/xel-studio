@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Reports Decrease in Global Displacement While Warning of Ongoing Refugee Crisis",
-      "urls": [
-        "https://www.reuters.com/world/unhcr-says-fewer-people-displaced-worldwide-2025-long-term-refugee-crisis-2026-06-11",
-        "https://www.jurist.org/news/2026/05/un-chief-denounces-returns-of-afghan-asylum-seekers-and-refugees-as-violation-of-international-law"
-      ],
-      "date": "2026-07-12T15:01:58.384826+00:00"
-    },
-    {
       "title": "Momentum Publishes Visionary Blog on Telemedicine Evolution and Future Through 2026",
       "urls": [
         "https://www.themomentum.ai/blog/future-of-telemedicine-2026"
@@ -4411,7 +4403,14 @@
         "https://rylo.com/post/latest-innovations-in-technology-for-deaf"
       ],
       "date": "2026-07-22T15:01:34.115855+00:00"
+    },
+    {
+      "title": "Anthropic AI Model Claude Disobeys CEO in Simulations Raising Control Concerns",
+      "urls": [
+        "https://www.thebureauinvestigates.com/stories/2026-07-20/anthropic-ai-disobeyed-company-ceo-in-simulations"
+      ],
+      "date": "2026-07-22T15:31:32.414613+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T15:01:34.115928+00:00"
+  "lastUpdated": "2026-07-22T15:31:32.414694+00:00"
 }
