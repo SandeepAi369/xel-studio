@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "LLM Leaderboard Publishes Comprehensive July 2026 AI Model Release Update",
-      "urls": [
-        "https://developer.dogpile.com",
-        "https://llm-stats.com/llm-updates"
-      ],
-      "date": "2026-07-13T18:31:36.811674+00:00"
-    },
-    {
       "title": "White House Releases National AI Policy Framework Aiming to Guide Future Innovation",
       "urls": [
         "https://www.congress.gov/crs_external_products/R/PDF/R48555/R48555.3.pdf",
@@ -4418,7 +4410,16 @@
         "https://www.tmcnet.com/usubmit/2026/07/23/10419461.htm"
       ],
       "date": "2026-07-23T18:31:30.895793+00:00"
+    },
+    {
+      "title": "Insilico Claims AI Cuts Chinese Drug Discovery Cycle To One Year",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/ai-shortens-drug-discovery-to-around-1-year-in-china-insilico-ceo-says/ar-AA28vfzf?ocid=BingNewsVerp",
+        "https://www.jdsupra.com/legalnews/landscape-analysis-of-the-integration-4253468",
+        "https://www.jsonline.com/press-release/story/216882/syntheticgestalt-launches-molecular-ai-models-zao-and-koya"
+      ],
+      "date": "2026-07-23T19:01:32.815284+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T18:31:30.895865+00:00"
+  "lastUpdated": "2026-07-23T19:01:32.815362+00:00"
 }
