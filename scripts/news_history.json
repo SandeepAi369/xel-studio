@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Releases National AI Policy Framework Aiming to Guide Future Innovation",
-      "urls": [
-        "https://www.congress.gov/crs_external_products/R/PDF/R48555/R48555.3.pdf",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
-        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
-        "https://aicomparison.ai/us-ai-regulation-2026-framework",
-        "https://www.gunder.com/en/news-insights/insights/2026-ai-laws-update-key-regulations-and-practical-guidance",
-        "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
-        "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update"
-      ],
-      "date": "2026-07-13T19:02:03.774605+00:00"
-    },
-    {
       "title": "Stanford Researchers Demonstrate Twisted Light Quantum Chip Operating Without Extreme Cooling",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
@@ -4419,7 +4406,16 @@
         "https://www.jsonline.com/press-release/story/216882/syntheticgestalt-launches-molecular-ai-models-zao-and-koya"
       ],
       "date": "2026-07-23T19:01:32.815284+00:00"
+    },
+    {
+      "title": "Anthropic Demonstrates Claude AI Integration on Facebook Amid Rapid Development Warnings",
+      "urls": [
+        "https://www.facebook.com/FuturistJacob/videos/in-an-april-2026-experiment-anthropic-set-claude-powered-agents-loose-on-a-compl/1767285027880649",
+        "https://www.youtube.com/watch?v=Vo2Ne_yY-vI",
+        "https://www.youtube.com/watch?v=VSLEGpCemtE"
+      ],
+      "date": "2026-07-23T19:31:29.633552+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T19:01:32.815362+00:00"
+  "lastUpdated": "2026-07-23T19:31:29.633628+00:00"
 }
