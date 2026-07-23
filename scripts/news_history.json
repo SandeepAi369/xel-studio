@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Report Highlights Ten Most Impactful 2026 Developments Across Industry and Policy",
-      "urls": [
-        "https://www.crn.com/news/ai/2026/the-10-biggest-generative-ai-news-stories-of-2026-so-far",
-        "https://www.techrepublic.com/article/ai-adoption-trends-enterprise"
-      ],
-      "date": "2026-07-13T22:01:45.074032+00:00"
-    },
-    {
       "title": "CKR Solar Secures FlaEIA Award for Tampa Bay Solar and Battery Storage Project",
       "urls": [
         "https://finance.yahoo.com/sectors/energy/articles/ckr-solar-wins-2026-flaseia-141500791.html"
@@ -4404,7 +4396,14 @@
         "https://www.instagram.com/reel/DaT_bmBsgCE"
       ],
       "date": "2026-07-23T22:01:35.514192+00:00"
+    },
+    {
+      "title": "Smithsonian Institution Updates Global Volcanism Program Current Eruptions List Providing Real‑Time Data on Active Volcanoes Worldwide",
+      "urls": [
+        "https://volcano.si.edu/gvp_currenteruptions.cfm"
+      ],
+      "date": "2026-07-23T22:31:21.843872+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T22:01:35.514258+00:00"
+  "lastUpdated": "2026-07-23T22:31:21.843946+00:00"
 }
