@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alphabet Leads Big Tech Capex Race As AI Investment Surges",
-      "urls": [
-        "https://www.fastcompany.com/91535369/big-tech-ai-spending-meta-google-amazon-microsoft-apple-capex-ranked"
-      ],
-      "date": "2026-07-13T11:31:35.553797+00:00"
-    },
-    {
       "title": "YouTube Presents Global Economic Outlook Update With New Growth and Inflation Forecasts",
       "urls": [
         "https://www.youtube.com/watch?v=ZXcB0FlSeVg",
@@ -4406,7 +4399,15 @@
         "https://www.youtube.com/watch?v=NKq4VTfoAI4"
       ],
       "date": "2026-07-23T11:31:19.274305+00:00"
+    },
+    {
+      "title": "Stanford Center Analyzes U.S.-China Competition Impact on Global Political Landscape",
+      "urls": [
+        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook"
+      ],
+      "date": "2026-07-23T12:01:33.310453+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T11:31:19.274384+00:00"
+  "lastUpdated": "2026-07-23T12:01:33.310553+00:00"
 }
