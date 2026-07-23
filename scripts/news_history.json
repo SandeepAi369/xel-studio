@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Captures 85 Percent AI Research Share as TensorFlow Trails 10 Percent in Training Speed",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose"
-      ],
-      "date": "2026-07-13T17:01:51.309960+00:00"
-    },
-    {
       "title": "YouTube Highlights Accessibility Importance at CES 2026, Urging Inclusive Design Adoption",
       "urls": [
         "https://www.youtube.com/watch?v=Hqk3C6JadnY",
@@ -4420,7 +4411,14 @@
         "https://www.accio.com/business/trending-2026-wheelchair"
       ],
       "date": "2026-07-23T17:01:40.176329+00:00"
+    },
+    {
+      "title": "United States Trade Representative Publishes President’s 2026 Trade Policy Agenda",
+      "urls": [
+        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf"
+      ],
+      "date": "2026-07-23T17:31:26.548577+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T17:01:40.176389+00:00"
+  "lastUpdated": "2026-07-23T17:31:26.548645+00:00"
 }
