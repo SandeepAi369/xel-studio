@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Falcon 9 Transporter 17 Carrying 81 Payloads From Vandenberg",
-      "urls": [
-        "https://spaceflightnow.com",
-        "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
-        "https://www.reddit.com/r/spacex/comments/1tkndtt/spacex_counting_down_to_our_second_launch_attempt",
-        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data",
-        "https://www.youtube.com/watch?v=kf6ZM4lFO5Q",
-        "https://www.youtube.com/watch?v=VFGj4aen9OU"
-      ],
-      "date": "2026-07-13T08:31:35.180534+00:00"
-    },
-    {
       "title": "Motorsports Embrace Advanced Technology Transforming Competition and Fan Experience Worldwide",
       "urls": [
         "https://speedwaymedia.com/2026/07/01/innovation-in-the-fast-lane-how-technology-is-transforming-modern-motorsports"
@@ -4407,7 +4395,18 @@
         "https://www.ufc.com"
       ],
       "date": "2026-07-23T08:31:30.211879+00:00"
+    },
+    {
+      "title": "BigBear.ai Expands Generative AI Platform for Department of War Missions",
+      "urls": [
+        "https://lasvegassun.com/news/2026/jul/15/bigbearai-launches-expanded-generative-ai-platform",
+        "https://markets.businessinsider.com/news/stocks/avalon-globocare-expands-ai-product-portfolio-with-planned-launch-of-beacon-an-agentic-generative-engine-optimization-platform-for-small-businesses-1036327790",
+        "https://finance.yahoo.com/technology/ai/articles/amplified-digital-launches-ai-visibility-134000711.html",
+        "https://www.tmcnet.com/usubmit/2026/07/21/10417900.htm",
+        "https://lasvegassun.com/news/2026/jul/08/perfect-corp-showcases-ai-skin-beauty-and-fashion-"
+      ],
+      "date": "2026-07-23T09:01:32.128131+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T08:31:30.211958+00:00"
+  "lastUpdated": "2026-07-23T09:01:32.128201+00:00"
 }
