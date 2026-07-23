@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "SocialBee Highlights Emerging Social Media Trends as YouTube Shares 5 Practical Tips",
-      "urls": [
-        "https://socialbee.com/blog/social-media-news",
-        "https://www.youtube.com/watch?v=RRQqj905tUY",
-        "https://www.youtube.com/watch?v=i403ELE73TU",
-        "https://www.youtube.com/watch?v=bRdxFW20UuE"
-      ],
-      "date": "2026-07-12T23:31:49.792204+00:00"
-    },
-    {
       "title": "Aidoc Secures Breakthrough Designation for Chest X‑Ray AI Enhancing Diagnostic Speed",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/rocket-doctor-ai-subsidiary-treatment-com-secures-year-2-nih-funding-to-advance-ai-powered-family-health-history-tool-1036252763",
@@ -4410,7 +4400,14 @@
         "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
       ],
       "date": "2026-07-22T23:31:21.939089+00:00"
+    },
+    {
+      "title": "Google DeepMind Listed Without Description Highlights Sparse Search Engine Entry",
+      "urls": [
+        "https://deepmind.google"
+      ],
+      "date": "2026-07-23T00:01:35.649505+00:00"
     }
   ],
-  "lastUpdated": "2026-07-22T23:31:21.939138+00:00"
+  "lastUpdated": "2026-07-23T00:01:35.649541+00:00"
 }
