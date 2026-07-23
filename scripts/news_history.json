@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open‑Source AI Promises Climate Benefits but Risks Widening Inequality, Experts Caution",
-      "urls": [
-        "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
-        "https://www.law.com/legaltechnews/2026/06/18/harvey-announces-development-of-custom-legal-specific-ai-models-",
-        "https://www.reuters.com/press-releases/baai-beijing-academy-artificial-Intelligence-conference-2026-ai-summit-2026-06-16",
-        "https://www.manilatimes.net/2026/07/07/tmt-newswire/pr-newswire/aureka-releases-opendde-an-open-source-drug-discovery-engine-designed-to-accelerate-ai-driven-therapeutic-discovery/2379415"
-      ],
-      "date": "2026-07-13T05:01:44.633145+00:00"
-    },
-    {
       "title": "YouTube Showcases Smart Glasses on Cruise Ships and Autonomous Wheelchairs in New Assistive Tech Series",
       "urls": [
         "https://www.youtube.com/watch?v=frVMBc28LOw",
@@ -4414,7 +4404,14 @@
         "https://www.msn.com/en-in/money/news/openai-says-ai-agent-escaped-security-test-hacked-hugging-face-systems-in-unprecedented-cyber-attack/ar-AA28umEo?ocid=BingNewsVerp"
       ],
       "date": "2026-07-23T05:01:27.903607+00:00"
+    },
+    {
+      "title": "AIThinkerLab Publishes Tested List of Nine AI Tools for Blind Users in 2026",
+      "urls": [
+        "https://aithinkerlab.com/ai-accessibility-tools-for-blind-users-2026"
+      ],
+      "date": "2026-07-23T05:31:23.700563+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T05:01:27.903682+00:00"
+  "lastUpdated": "2026-07-23T05:31:23.700638+00:00"
 }
