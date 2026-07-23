@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qualcomm Nears $4 Billion Acquisition Of AI Chip Startup Modular",
-      "urls": [
-        "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare",
-        "https://www.msn.com/en-us/news/technology/syndio-bets-on-agentic-ai-with-first-acquisition-in-seattle-pay-equity-startup-s-history/ar-AA26shDW?ocid=BingNewsVerp",
-        "https://money.usnews.com/investing/news/articles/2026-06-22/qualcomm-nearing-deal-for-ai-chip-startup-modular-bloomberg-news-reports",
-        "https://finance.yahoo.com/technology/ai/articles/qualcomm-nears-4b-deal-ai-221042270.html",
-        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent"
-      ],
-      "date": "2026-07-13T06:01:52.474176+00:00"
-    },
-    {
       "title": "Perkins School for the Blind Launches Comprehensive A‑Z Assistive Technology Guide for Low Vision",
       "urls": [
         "https://www.perkins.org/resource/z-assistive-technology-low-vision"
@@ -4411,7 +4400,16 @@
         "https://www.theenergybrief.org/en/articles/global-clean-energy-progress-mid-2026"
       ],
       "date": "2026-07-23T06:01:29.944669+00:00"
+    },
+    {
+      "title": "United States Solar Power Reaches New Milestones Amid Administration’s Coal Boost",
+      "urls": [
+        "https://www.ap.org/news-highlights/spotlights/2026/solar-power-hits-new-milestones-in-the-us-even-as-trump-boosts-coal-over-clean-energy",
+        "https://www.forbes.com/sites/gloriaharaito/2026/07/08/thai-renewable-energy-producer-profits-from-powering-up-data-centers",
+        "https://www.cnbc.com/2026/07/09/clean-power-comeback-dont-count-out-renewable-energy-and-this-one-stock-in-particular.html"
+      ],
+      "date": "2026-07-23T06:31:15.927640+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T06:01:29.944743+00:00"
+  "lastUpdated": "2026-07-23T06:31:15.927707+00:00"
 }
