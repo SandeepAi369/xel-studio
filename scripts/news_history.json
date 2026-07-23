@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australia Tightens Kids' Social Media Ban and Doubles Penalties for Tech Companies",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/australia-toughens-kids-social-media-ban-doubles-potential-penalties-for-tech-firms/ar-AA26HAYm?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-13T08:01:43.482857+00:00"
-    },
-    {
       "title": "SpaceX Launches Falcon 9 Transporter 17 Carrying 81 Payloads From Vandenberg",
       "urls": [
         "https://spaceflightnow.com",
@@ -4407,7 +4400,14 @@
         "https://www.youtube.com/watch?v=x-FLxZ8Na7k"
       ],
       "date": "2026-07-23T08:01:39.291563+00:00"
+    },
+    {
+      "title": "UFC Announces Official Website ufc.com as Central Hub for Championship Information",
+      "urls": [
+        "https://www.ufc.com"
+      ],
+      "date": "2026-07-23T08:31:30.211879+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T08:01:39.291620+00:00"
+  "lastUpdated": "2026-07-23T08:31:30.211958+00:00"
 }
