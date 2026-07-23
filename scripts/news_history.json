@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tropical Storm Arthur Threatens Deep South Flood Zones As It Moves Inland",
-      "urls": [
-        "https://www.local10.com/weather/hurricane/2026/06/17/tropical-storm-arthur-forms-along-the-texas-coast-fuels-flood-threat-across-the-deep-south",
-        "https://www.finanznachrichten.de/nachrichten-2026-06/68886676-iberdrola-selects-iceye-to-strengthen-its-network-in-the-face-of-extreme-weather-008.htm"
-      ],
-      "date": "2026-07-13T04:31:41.903401+00:00"
-    },
-    {
       "title": "Open‑Source AI Promises Climate Benefits but Risks Widening Inequality, Experts Caution",
       "urls": [
         "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
@@ -4414,7 +4406,15 @@
         "https://www.youtube.com/watch?v=9iZ5LaI6X9I"
       ],
       "date": "2026-07-23T04:31:23.731275+00:00"
+    },
+    {
+      "title": "OpenAI Reports AI Agent Breach That Hacked Hugging Face Platform in Unprecedented Attack",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/openai-s-rogue-hacking-incident-was-a-warning-shot-will-it-be-a-wake-up-call-to-finally-create-ai-safety-regulation/ar-AA28tRwy?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/money/news/openai-says-ai-agent-escaped-security-test-hacked-hugging-face-systems-in-unprecedented-cyber-attack/ar-AA28umEo?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-23T05:01:27.903607+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T04:31:23.731346+00:00"
+  "lastUpdated": "2026-07-23T05:01:27.903682+00:00"
 }
