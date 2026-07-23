@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CKR Solar Secures FlaEIA Award for Tampa Bay Solar and Battery Storage Project",
-      "urls": [
-        "https://finance.yahoo.com/sectors/energy/articles/ckr-solar-wins-2026-flaseia-141500791.html"
-      ],
-      "date": "2026-07-13T22:31:34.561171+00:00"
-    },
-    {
       "title": "Modulate Secures Top Position for Its Model on Hugging Face Transcription Benchmark",
       "urls": [
         "https://www.msn.com/en-us/technology/artificial-intelligence/the-open-source-ai-boom-may-be-a-mirage-why-affordable-ai-may-be-losing-the-enterprise-battle/ar-AA27KZZg?ocid=BingNewsVerp",
@@ -4403,7 +4396,14 @@
         "https://volcano.si.edu/gvp_currenteruptions.cfm"
       ],
       "date": "2026-07-23T22:31:21.843872+00:00"
+    },
+    {
+      "title": "Mistral Releases Third Generation Open‑Source AI Model in 2026 Guide",
+      "urls": [
+        "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026"
+      ],
+      "date": "2026-07-23T23:01:36.456058+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T22:31:21.843946+00:00"
+  "lastUpdated": "2026-07-23T23:01:36.456139+00:00"
 }
