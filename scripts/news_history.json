@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "i-WHEEL Redefines Mobility With AI-Powered Wheelchair Technology, Expanding Independent Movement",
-      "urls": [
-        "https://www.youtube.com/watch?v=9ISe9yLNIuY",
-        "https://www.youtube.com/watch?v=olwoz_sVNbA"
-      ],
-      "date": "2026-07-13T09:31:35.417290+00:00"
-    },
-    {
       "title": "MiniMax Announces Plan to Deploy 2.7 Trillion Parameter AI Model",
       "urls": [
         "https://www.tennessean.com/press-release/story/202463/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api",
@@ -4408,7 +4400,14 @@
         "https://www.perkins.org/paths-to-technology"
       ],
       "date": "2026-07-23T09:31:20.585937+00:00"
+    },
+    {
+      "title": "Linux Foundation Launches Open Health Stack Foundation to Boost Open Source Digital Health Innovation",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/07/09/10412022.htm"
+      ],
+      "date": "2026-07-23T10:01:30.960520+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T09:31:20.585995+00:00"
+  "lastUpdated": "2026-07-23T10:01:30.960597+00:00"
 }
