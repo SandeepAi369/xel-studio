@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "MiniMax Announces Plan to Deploy 2.7 Trillion Parameter AI Model",
-      "urls": [
-        "https://www.tennessean.com/press-release/story/202463/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api",
-        "https://www.theinformation.com/briefings/exclusive-chinas-minimax-plans-launch-2-7-trillion-parameter-model"
-      ],
-      "date": "2026-07-13T10:01:41.575147+00:00"
-    },
-    {
       "title": "Researchers Develop AI Tool To Boost Dementia Diagnosis Accuracy Globally",
       "urls": [
         "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/ai-in-healthcare-2026-the-system-may-be-broken-lets-try-to-fix-it",
@@ -4407,7 +4399,16 @@
         "https://www.tmcnet.com/usubmit/2026/07/09/10412022.htm"
       ],
       "date": "2026-07-23T10:01:30.960520+00:00"
+    },
+    {
+      "title": "CP Daily Newsletter Maintains Daily Release Schedule With Consecutive Editions",
+      "urls": [
+        "https://carbon-pulse.com/533471",
+        "https://www.thetechedvocate.org/earth-overshoot-day-2026-why-july-30-marks-a-critical-turning-point-for-our-planet",
+        "https://carbon-pulse.com/533959"
+      ],
+      "date": "2026-07-23T10:31:29.245033+00:00"
     }
   ],
-  "lastUpdated": "2026-07-23T10:01:30.960597+00:00"
+  "lastUpdated": "2026-07-23T10:31:29.245092+00:00"
 }
