@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Oracle Unveils Enterprise AI Infrastructure to Accelerate Business Model Training",
-      "urls": [
-        "https://www.youtube.com/watch?v=XaxplgI6FGw",
-        "https://www.youtube.com/watch?v=qJshjEGfTKE",
-        "https://www.youtube.com/watch?v=Y8GxZkjL1EY"
-      ],
-      "date": "2026-07-14T00:01:46.184863+00:00"
-    },
-    {
       "title": "Enhanced Games Sets Unofficial World Record In Inaugural Swimming Finale",
       "urls": [
         "https://www.nytimes.com/athletic/7306206/2026/05/25/enhanced-games-kristian-gkolomeev-world-record-swimming",
@@ -4400,7 +4391,17 @@
         "https://www.youtube.com/watch?v=tTrwwQIpcKU"
       ],
       "date": "2026-07-24T00:01:30.894935+00:00"
+    },
+    {
+      "title": "Commure Secures Two Stevie Awards Highlighting Leadership in Healthcare Technology",
+      "urls": [
+        "https://markets.businessinsider.com/news/stocks/commure-wins-two-stevie-awards-for-technology-excellence-including-gold-for-company-of-the-year-in-healthcare-technology-1036356468",
+        "https://medicalxpress.com/news/2026-07-health-leadership-trustworthy-ai-expert.html",
+        "https://www.tennessean.com/press-release/story/209974/monument-systems-joins-cms-health-technology-ecosystem-initiative-advancing-healthcare-operations-and-interoperability",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/hospitals-health-systems-approved-for-hospital-at-home-in-2026"
+      ],
+      "date": "2026-07-24T00:31:26.217292+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T00:01:30.895028+00:00"
+  "lastUpdated": "2026-07-24T00:31:26.217360+00:00"
 }
