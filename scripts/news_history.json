@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "LLM Leaderboard Publishes Comprehensive July 2026 AI Model Release Update",
-      "urls": [
-        "https://llm-stats.com/ai-news"
-      ],
-      "date": "2026-07-14T02:01:42.220955+00:00"
-    },
-    {
       "title": "Nxera Joins OpenFold Consortium To Accelerate AI‑Enabled Drug Discovery Efforts",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/nxera-joins-openfold-ai-research-consortium-alongside-leading-global-pharmaceutical-and-ai-companies-to-accelerate-ai-enabled-drug-discovery-1036237885",
@@ -4406,7 +4399,14 @@
         "https://aistackd.com/posts/best-open-source-ai-models-2026"
       ],
       "date": "2026-07-24T02:01:30.638552+00:00"
+    },
+    {
+      "title": "SpaceX Launches First Geosynchronous Robotic Servicing Mission to Extend Satellite Lifespans",
+      "urls": [
+        "https://spaceflightnow.com/2026/07/21/live-coverage-spacex-to-launch-novel-geosynchronous-robotic-servicing-satellite-on-decade-long-mission"
+      ],
+      "date": "2026-07-24T02:31:18.622737+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T02:01:30.638634+00:00"
+  "lastUpdated": "2026-07-24T02:31:18.622810+00:00"
 }
