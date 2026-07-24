@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Generative AI Accelerates Drug Discovery, Transforming Pharmaceutical Research and Development",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/07/10/3325605/28124/en/Generative-AI-in-Drug-Discovery-Revolutionizing-Pharmaceutical-Research-and-Development.html"
-      ],
-      "date": "2026-07-14T01:01:50.503309+00:00"
-    },
-    {
-      "title": "WHO Links Europe Heatwave to Hundreds of Deaths Amid Rising Temperatures",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/06/260625060214.htm",
-        "https://www.msn.com/en-us/health/other/who-europes-heatwave-linked-to-hundreds-of-deaths/ar-AA26LyYo?ocid=BingNewsVerp",
-        "https://phys.org/news/2026-06-ancient-carbon-tibetan-permafrost-triggering.html"
-      ],
-      "date": "2026-07-14T01:31:28.610060+00:00"
-    },
-    {
       "title": "LLM Leaderboard Publishes Comprehensive July 2026 AI Model Release Update",
       "urls": [
         "https://llm-stats.com/ai-news"
@@ -4406,7 +4390,14 @@
         "https://www.npr.org/2026/06/04/nx-s1-5812850/screens-schools-students-with-disabilities"
       ],
       "date": "2026-07-24T01:01:44.701936+00:00"
+    },
+    {
+      "title": "UNHCR Reports Decrease in Global Displacement Numbers While Long‑Term Refugee Crisis Persists",
+      "urls": [
+        "https://www.reuters.com/world/unhcr-says-fewer-people-displaced-worldwide-2025-long-term-refugee-crisis-2026-06-11"
+      ],
+      "date": "2026-07-24T01:31:38.463219+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T01:01:44.702031+00:00"
+  "lastUpdated": "2026-07-24T01:31:38.463296+00:00"
 }
