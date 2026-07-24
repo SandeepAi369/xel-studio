@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Resources Institute Launches Climate Change News Hub Linking Research Across Platforms",
-      "urls": [
-        "https://www.wri.org/climate-change-news",
-        "https://link.springer.com/subjects/climate-change",
-        "https://www.nature.com/nclimate/articles?type=article&year=2026",
-        "https://news.un.org/en/focus-topic/climate-change"
-      ],
-      "date": "2026-07-14T21:31:59.507383+00:00"
-    },
-    {
       "title": "Hugging Face Publishes 2026 Open-Source LLM Rankings Highlighting Top Coding Models",
       "urls": [
         "https://huggingface.co/blog/daya-shankar/open-source-llms",
@@ -4395,7 +4385,16 @@
         "https://www.disabilityworld.org/articles"
       ],
       "date": "2026-07-24T21:31:23.606957+00:00"
+    },
+    {
+      "title": "Long DeFi Unveils Next‑Generation AI Infrastructure Enabling Millions to Access Computing Power",
+      "urls": [
+        "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/long-defi-announces-its-next-generation-ai-computing-infrastructure-showing-how-ordinary-people-can-leverage-tens-of-millions-of-computing-power/2391196",
+        "https://www.manilatimes.net/2026/07/24/tmt-newswire/pr-newswire/huawei-cloud-launches-agentic-infrastructure-and-codearts-agent-obt-in-thailand-accelerating-enterprise-ai-innovation/2390857",
+        "https://www.aol.com/articles/mitac-computing-advances-agentic-ai-183000000.html"
+      ],
+      "date": "2026-07-24T22:01:30.203249+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T21:31:23.607014+00:00"
+  "lastUpdated": "2026-07-24T22:01:30.203326+00:00"
 }
