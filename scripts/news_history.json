@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Revises Climate Strategy After Emissions Spike Raises Concerns In Corporate Reporting",
-      "urls": [
-        "https://trellis.net/article/microsoft-adjusts-climate-agenda-as-emissions-leap"
-      ],
-      "date": "2026-07-14T18:01:45.293943+00:00"
-    },
-    {
       "title": "Concho AI Launches Concho Platform To Modernize Mission‑Critical Enterprise Applications",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/concho-ai-launches-concho-to-modernize-mission-critical-apps-1036323895"
@@ -4397,7 +4390,16 @@
         "https://www.barrons.com/livecoverage/stock-market-news-today-072326"
       ],
       "date": "2026-07-24T18:01:40.042199+00:00"
+    },
+    {
+      "title": "Open‑Source AI Sparks Debate Over Climate Benefits and Growing Inequality",
+      "urls": [
+        "https://gizmodo.com/the-great-freakout-over-open-source-ai-has-begun-2000787836",
+        "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
+        "https://www.techtimes.com/articles/321270/20260722/china-weighs-locking-ai-model-weights-download-what-you-use-right-now.htm"
+      ],
+      "date": "2026-07-24T18:31:20.020785+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T18:01:40.042269+00:00"
+  "lastUpdated": "2026-07-24T18:31:20.020860+00:00"
 }
