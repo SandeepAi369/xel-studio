@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "StudyFinds Forecasts Ten Major Research Breakthroughs Expected in 2026 Across Science",
-      "urls": [
-        "https://www.nih.gov/news-events/news-releases",
-        "https://www.news-medical.net/category/Medical-Research-News.aspx",
-        "https://studyfinds.com/15-predictions-biggest-research-breakthroughs-2026",
-        "https://www.atlantisbioscience.com/blog/2026-biotech-outlook-10-breakthrough-trends-scientists-need-to-watch",
-        "https://distance.physiology.med.ufl.edu/about/articles/7-medical-sciences-trends-shaping-healthcare-in-2026"
-      ],
-      "date": "2026-07-14T03:01:42.272451+00:00"
-    },
-    {
       "title": "GrowthGear Reports 2026 Social Media Platform Updates Impacting Marketers Across Channels",
       "urls": [
         "https://marketing.growthgear.com.au/social-media/social-media-news-today-platform-updates"
@@ -4404,7 +4393,15 @@
         "https://www.youtube.com/shorts/COlNCq0f-eE"
       ],
       "date": "2026-07-24T03:01:34.869480+00:00"
+    },
+    {
+      "title": "Microsoft Highlights Build Announcements and UK Ruling on Google AI Search in Podcast",
+      "urls": [
+        "https://www.morningstar.com/markets/get-ready-major-big-tech-earnings-releases-april-29",
+        "https://podcasts.apple.com/ug/podcast/microsoft-build-announcements-uk-ruling-on-google-ai/id1559402520?i=1000771088381"
+      ],
+      "date": "2026-07-24T03:31:21.424346+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T03:01:34.869559+00:00"
+  "lastUpdated": "2026-07-24T03:31:21.424420+00:00"
 }
