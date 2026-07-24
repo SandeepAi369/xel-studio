@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Florida Launches Late‑Night Rocket, Offering West Palm Beach Residents Visible Nighttime Spectacle",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/late-night-rocket-launch-in-florida-when-to-watch-in-west-palm-beach/ar-AA27LBjl?ocid=BingNewsVerp",
-        "https://www.msn.com/en-in/news/other/anil-menon-reaches-iss-on-first-mission-aboard-soyuz-ms-29/ar-AA27UKAk?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-14T22:31:38.370016+00:00"
-    },
-    {
-      "title": "Open Source Large Language Model Release News — Latest Developments and Key Updates",
-      "urls": [
-        "https://thenextweb.com/news/portugal-open-source-ai-model-amalia"
-      ],
-      "date": "2026-07-14T23:01:38.208393+00:00"
-    },
-    {
       "title": "Spain Faces Solar Overcapacity as Investors Seek Exit Amid Market Concerns",
       "urls": [
         "https://www.msn.com/en-us/news/technology/eu-pushes-to-triple-energy-storage-as-renewable-power-goes-to-waste/ar-AA27RIMG?ocid=BingNewsVerp",
@@ -4395,7 +4380,14 @@
         "https://www.youtube.com/watch?v=VFGj4aen9OU"
       ],
       "date": "2026-07-24T22:31:33.995781+00:00"
+    },
+    {
+      "title": "Taskade Details Anthropic Claude AI Timeline, Funding Milestones and Upcoming IPO",
+      "urls": [
+        "https://www.taskade.com/blog/anthropic-claude-history"
+      ],
+      "date": "2026-07-24T23:01:40.306891+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T22:31:33.995854+00:00"
+  "lastUpdated": "2026-07-24T23:01:40.306969+00:00"
 }
