@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "gHacks Publishes Comprehensive Big Tech Update Covering Google Apple Microsoft And Meta",
-      "urls": [
-        "https://www.ghacks.net/category/companies"
-      ],
-      "date": "2026-07-14T05:01:44.477218+00:00"
-    },
-    {
       "title": "Breakthrough Prize Awards Over $18 Million to Top Space and Physics Discoveries",
       "urls": [
         "https://www.space.com/technology/the-oscars-of-science-breakthrough-prize-2026-awards-over-usd18-million-for-discoveries-across-space-physics-and-more"
@@ -4396,7 +4389,14 @@
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade"
       ],
       "date": "2026-07-24T05:01:39.370971+00:00"
+    },
+    {
+      "title": "ITCompare Highlights ADHD and Autism Spectrum as Recruitment Superpowers in 2026",
+      "urls": [
+        "https://itcompare.pl/en-us/articles/195/neurodiversity-in-it-2026:-how-adhd-and-the-autism-spectrum-became-technical-recruitment-superpowers"
+      ],
+      "date": "2026-07-24T05:31:30.945449+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T05:01:39.371045+00:00"
+  "lastUpdated": "2026-07-24T05:31:30.945528+00:00"
 }
