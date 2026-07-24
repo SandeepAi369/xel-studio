@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Japan Endures Magnitude 7.2 Quake Raising Fears Of Volcano‑Triggered Tsunami",
-      "urls": [
-        "https://www.msn.com/en-au/news/other/japan-was-hit-by-a-72-quake-today-then-its-deadliest-volcano-disaster-suddenly-feels-too-close-the-sea-came-back-for-them/vi-AA26wJgT?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-14T09:31:36.754189+00:00"
-    },
-    {
-      "title": "Taskade Ranks Nine Open‑Source LLMs for Real‑World Use in July 2026",
-      "urls": [
-        "https://www.taskade.com/blog/open-source-llms",
-        "https://www.youtube.com/watch?v=AaGaTgeARl0"
-      ],
-      "date": "2026-07-14T10:01:42.851571+00:00"
-    },
-    {
       "title": "Conservation International Expands Online News Hub to Amplify Global Environmental Updates",
       "urls": [
         "https://www.conservation.org/news"
@@ -4406,7 +4391,16 @@
         "https://www.youtube.com/watch?v=k69-ivYwEfE"
       ],
       "date": "2026-07-24T09:31:36.391927+00:00"
+    },
+    {
+      "title": "Aljazeera Highlights Global Refugee Trends as UNHCR Releases Updated Data",
+      "urls": [
+        "https://news.un.org/en/focus-topic/refugees-and-migrants",
+        "https://www.aljazeera.com/tag/refugees",
+        "https://www.unhcr.org/global-trends"
+      ],
+      "date": "2026-07-24T10:01:49.665294+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T09:31:36.392005+00:00"
+  "lastUpdated": "2026-07-24T10:01:49.665369+00:00"
 }
