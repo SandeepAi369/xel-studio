@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Publishes 2026 Open-Source LLM Rankings Highlighting Top Coding Models",
-      "urls": [
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://www.buildfastwithai.com/blogs/collection/open-source-llms",
-        "https://learn.ryzlabs.com/llm-development/best-5-open-source-llms-for-community-development-in-2026",
-        "https://hakia.com/tech-insights/open-source-ai-ecosystem",
-        "https://blogs.novita.ai/ai-open-source"
-      ],
-      "date": "2026-07-14T22:01:56.028531+00:00"
-    },
-    {
       "title": "Florida Launches Late‑Night Rocket, Offering West Palm Beach Residents Visible Nighttime Spectacle",
       "urls": [
         "https://www.msn.com/en-us/news/technology/late-night-rocket-launch-in-florida-when-to-watch-in-west-palm-beach/ar-AA27LBjl?ocid=BingNewsVerp",
@@ -4394,7 +4383,19 @@
         "https://www.aol.com/articles/mitac-computing-advances-agentic-ai-183000000.html"
       ],
       "date": "2026-07-24T22:01:30.203249+00:00"
+    },
+    {
+      "title": "SpaceX Prepares Starship Flight 13 While Falcon 9 Transporter 17 Deploys 81 Satellites",
+      "urls": [
+        "https://www.usatoday.com/story/tech/space/2026/07/23/spacex-starship-launch-flight-13/91005883007",
+        "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
+        "https://www.reddit.com/r/spacex/comments/1tkndtt/spacex_counting_down_to_our_second_launch_attempt",
+        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data",
+        "https://www.youtube.com/watch?v=kf6ZM4lFO5Q",
+        "https://www.youtube.com/watch?v=VFGj4aen9OU"
+      ],
+      "date": "2026-07-24T22:31:33.995781+00:00"
     }
   ],
-  "lastUpdated": "2026-07-24T22:01:30.203326+00:00"
+  "lastUpdated": "2026-07-24T22:31:33.995854+00:00"
 }
