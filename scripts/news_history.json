@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philips Highlights Emerging Healthcare AI Trends Shaping 2026 Industry Landscape",
-      "urls": [
-        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html"
-      ],
-      "date": "2026-07-15T15:01:49.770490+00:00"
-    },
-    {
       "title": "Insilico Medicine Partners With Bora Pharmaceuticals to Advance AI‑Driven Drug Development",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/07/15/10414911.htm",
@@ -4372,7 +4365,16 @@
         "https://www.timesnownews.com/world/middle-east/iran-us-war-live-updates-president-trump-pezeshkian-netanyahu-peace-deal-military-bases-attacks-israel-iran-news-liveblog-154805177"
       ],
       "date": "2026-07-25T15:01:30.557102+00:00"
+    },
+    {
+      "title": "Saudi Arabia Calls for Global Action on Refugee Crises, Highlights Billions in Aid",
+      "urls": [
+        "https://www.hrw.org/news/2026/07/13/bangladesh-landslides-deadly-for-rohingya-refugees",
+        "https://www.unhcr.org/news/press-releases/ai-can-help-protect-forcibly-displaced-unhcr-highlights-responsible-innovation",
+        "https://saudigazette.com.sa/article/662388/saudi-arabia/saudi-arabia-renews-call-for-global-action-on-refugee-crises-highlights-billions-in-humanitarian-support"
+      ],
+      "date": "2026-07-25T15:31:35.197438+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T15:01:30.557180+00:00"
+  "lastUpdated": "2026-07-25T15:31:35.197515+00:00"
 }
