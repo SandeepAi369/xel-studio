@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ember Reports Renewable Power Overtakes Gas In Global Electricity Generation For First Time",
-      "urls": [
-        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
-        "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
-        "https://electrek.co/2026/04/27/eia-80-gw-of-new-solar-wind-storage-capacity-coming-in-2026",
-        "https://ember-energy.org/latest-updates/for-the-first-time-wind-and-solar-generated-more-electricity-than-gas-worldwide-in-april-2026",
-        "https://www.rff.org/publications/reports/global-energy-outlook-2026"
-      ],
-      "date": "2026-07-15T01:31:39.916521+00:00"
-    },
-    {
       "title": "TensorFlow and PyTorch Compete for Developer Preference as 2026 Framework Choices Expand",
       "urls": [
         "https://www.hightechnews.fr/tensorflow-pytorch-2026-choix",
@@ -4391,7 +4380,15 @@
         "https://www.bornfreeusa.org/2026/04/07/defiantly-optimistic-the-recent-wildlife-wins-you-almost-missed"
       ],
       "date": "2026-07-25T01:31:32.796233+00:00"
+    },
+    {
+      "title": "Chinese Open-Source AI Model Sparks Market Selloff Across Tech Stocks",
+      "urls": [
+        "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026/card/RG0ZHikbay0R7tIlPsGm",
+        "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01"
+      ],
+      "date": "2026-07-25T02:01:24.439453+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T01:31:32.796326+00:00"
+  "lastUpdated": "2026-07-25T02:01:24.439534+00:00"
 }
