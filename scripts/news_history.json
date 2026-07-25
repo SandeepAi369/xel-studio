@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "IOM Releases 2026 World Migration Report Highlighting Rising Displacement Trends",
-      "urls": [
-        "https://www.thenewhumanitarian.org/migration",
-        "https://www.unhcr.org/publications/global-appeal-2026",
-        "https://news.un.org/en/story/2026/06/1167693",
-        "https://worldmigrationreport.iom.int/world-migration-report-2026-key-findings"
-      ],
-      "date": "2026-07-15T21:31:36.345164+00:00"
-    },
-    {
       "title": "Meta Releases Llama 4 Model Amid Open Source Confusion in AI Landscape",
       "urls": [
         "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
@@ -4364,7 +4354,15 @@
         "https://www.youtube.com/watch?v=olwoz_sVNbA"
       ],
       "date": "2026-07-25T21:31:28.092985+00:00"
+    },
+    {
+      "title": "YouTube Releases AI-Selected Top Five News Headlines Video on July Twenty-First",
+      "urls": [
+        "https://www.reddit.com/r/GeminiAI/comments/1qe5a0x/what_are_the_most_useful_ai_tools_in_2026_heres",
+        "https://www.youtube.com/watch?v=lY9HAntz2tM"
+      ],
+      "date": "2026-07-25T22:01:37.507268+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T21:31:28.093051+00:00"
+  "lastUpdated": "2026-07-25T22:01:37.507343+00:00"
 }
