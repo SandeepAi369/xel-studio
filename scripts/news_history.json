@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Dethrones OpenAI as Claude 5 Powers Apple iPhone 18 Integration",
-      "urls": [
-        "https://www.anthropic.com/news",
-        "https://www.anthropic.com/research",
-        "https://www.youtube.com/watch?v=3oTE626FaIw",
-        "https://www.youtube.com/watch?v=-nG-9vlSkho"
-      ],
-      "date": "2026-07-15T09:31:36.379304+00:00"
-    },
-    {
-      "title": "Linux Foundation Highlights Unstoppable Growth While Legacy Project Faces Funding Crisis",
-      "urls": [
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-june-2026",
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
-        "https://www.reddit.com/r/linux/comments/1pxx5z9/what_are_your_expectations_for_linux_in_2026"
-      ],
-      "date": "2026-07-15T10:01:48.219703+00:00"
-    },
-    {
       "title": "Silicon Valley Bank Releases April 2026 Climate Tech Report Detailing Investment Trends",
       "urls": [
         "https://energyinnovation.org",
@@ -4383,7 +4364,18 @@
         "https://www.msn.com/en-in/lifestyle/shopping/jyoti-ai-vision-glasses-ai-powered-assistive-technologies-launched-to-aid-visually-impaired/ar-AA27BkVf?ocid=BingNewsVerp"
       ],
       "date": "2026-07-25T09:31:12.644570+00:00"
+    },
+    {
+      "title": "Hugging Face Turns To Chinese Open‑Source AI Model After Autonomous Cyber Attack",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://www.taskade.com/blog/open-source-llms",
+        "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense",
+        "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026"
+      ],
+      "date": "2026-07-25T10:01:54.872250+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T09:31:12.644637+00:00"
+  "lastUpdated": "2026-07-25T10:01:54.872325+00:00"
 }
