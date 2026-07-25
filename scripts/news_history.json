@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Search Returns Empty Results With No Descriptive Content for Query",
-      "urls": [
-        "https://mistral.ai/news",
-        "https://www.reddit.com/r/MistralAI/comments/1qxpmrw/europe_can_still_be_competitive_in_ai_mistral",
-        "https://www.reddit.com/r/MistralAI/comments/1mqw5oy/best_case_scenario_for_mistral_by_august_2026"
-      ],
-      "date": "2026-07-15T14:31:39.964825+00:00"
-    },
-    {
       "title": "Philips Highlights Emerging Healthcare AI Trends Shaping 2026 Industry Landscape",
       "urls": [
         "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html"
@@ -4373,7 +4364,15 @@
         "https://www.youtube.com/watch?v=jLNSGyWfrlg"
       ],
       "date": "2026-07-25T14:31:18.235334+00:00"
+    },
+    {
+      "title": "United States Navy Targets Vessel Breaching Iranian Port Blockade Amid Rising Tensions",
+      "urls": [
+        "https://www.msn.com/en-in/war-and-conflicts/military-organizations/us-iran-war-news-live-us-military-targets-another-vessel-trying-to-breach-its-blockade-of-iranian-ports/ar-AA28DBFY?ocid=BingNewsVerp",
+        "https://www.timesnownews.com/world/middle-east/iran-us-war-live-updates-president-trump-pezeshkian-netanyahu-peace-deal-military-bases-attacks-israel-iran-news-liveblog-154805177"
+      ],
+      "date": "2026-07-25T15:01:30.557102+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T14:31:18.235400+00:00"
+  "lastUpdated": "2026-07-25T15:01:30.557180+00:00"
 }
