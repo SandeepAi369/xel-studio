@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "QC Healthcare Launches Holding Company to Consolidate Telehealth, AI and Pharmacy Services",
-      "urls": [
-        "https://www.morningstar.com/news/pr-newswire/20260616cl84233/qc-healthcare-launches-as-a-healthcare-innovation-holding-company-focused-on-telehealth-clinical-research-pharmacy-services-artificial-intelligence-healthcare-analytics-and-population-health",
-        "https://www.msn.com/en-in/money/general/et-most-innovative-ai-product-awards-2026-why-healthcare-has-become-the-ultimate-test-for-ai-innovation/ar-AA2695Fe?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/health/diseases-and-conditions/online-menopause-treatment-16-telehealth-companies-offering-in-2026/ar-BB1nXImF?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-15T02:31:33.198659+00:00"
-    },
-    {
-      "title": "Costa Rica Pays Landowners to Restore Forests, Bioacoustics Confirm Biodiversity Gains",
-      "urls": [
-        "https://phys.org/news/2026-06-costa-rica-paid-landowners-forests.html"
-      ],
-      "date": "2026-07-15T03:01:49.972555+00:00"
-    },
-    {
       "title": "MacRumors Provides Apple News and Rumors Platform for Enthusiasts Online",
       "urls": [
         "https://www.macrumors.com"
@@ -4387,7 +4371,14 @@
         "https://distance.physiology.med.ufl.edu/about/articles/7-medical-sciences-trends-shaping-healthcare-in-2026"
       ],
       "date": "2026-07-25T02:31:20.101436+00:00"
+    },
+    {
+      "title": "OpenAI Unveils GPT-5.6 Model Family Expanding Generative AI Capabilities for Developers",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/openai-launches-its-new-family-of-models-with-gpt-56/ar-AA27ACxy?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-25T03:01:51.337814+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T02:31:20.101516+00:00"
+  "lastUpdated": "2026-07-25T03:01:51.337905+00:00"
 }
