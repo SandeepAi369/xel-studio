@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta, Apple, Tesla, and Microsoft Highlight AI Spending In 2026 Earnings",
-      "urls": [
-        "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html"
-      ],
-      "date": "2026-07-15T13:01:40.351816+00:00"
-    },
-    {
       "title": "Telehealth.org Highlights AI‑Driven Virtual Care Advances Across Digital Health Landscape",
       "urls": [
         "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
@@ -4377,7 +4370,14 @@
         "https://markets.businessinsider.com/news/stocks/coingape-announces-the-winners-of-the-web3-innovation-awards-1036315068"
       ],
       "date": "2026-07-25T13:01:29.316713+00:00"
+    },
+    {
+      "title": "Europe Heatwave Shatters National Temperature Records Across the Continent This Week",
+      "urls": [
+        "https://www.cnn.com/2026/06/24/weather/live-news/europe-heatwave-temperatures-news"
+      ],
+      "date": "2026-07-25T13:31:37.477709+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T13:01:29.316860+00:00"
+  "lastUpdated": "2026-07-25T13:31:37.477792+00:00"
 }
