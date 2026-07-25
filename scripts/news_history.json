@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MacRumors Provides Apple News and Rumors Platform for Enthusiasts Online",
-      "urls": [
-        "https://www.macrumors.com"
-      ],
-      "date": "2026-07-15T03:31:30.087174+00:00"
-    },
-    {
       "title": "Hugging Face Launches ml‑intern to Automate LLM Post‑Training Workflow for Researchers and Engineers",
       "urls": [
         "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
@@ -4386,7 +4379,15 @@
         "https://www.manilatimes.net/2026/06/17/tmt-newswire/pr-newswire/chiang-rai-times-awarded-best-south-east-asia-news-media-platform-2026/2367117"
       ],
       "date": "2026-07-25T03:31:24.001607+00:00"
+    },
+    {
+      "title": "Hedra Highlights Leading AI Image and Video Models Defining First Half of 2026",
+      "urls": [
+        "https://www.hedra.com/blog/ai-models-first-half-2026",
+        "https://www.reddit.com/r/AIToolsAndTips/comments/1usfjwx/best_ai_image_generator_tools_in_2026_heres_whats"
+      ],
+      "date": "2026-07-25T04:01:41.819824+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T03:31:24.001665+00:00"
+  "lastUpdated": "2026-07-25T04:01:41.819902+00:00"
 }
