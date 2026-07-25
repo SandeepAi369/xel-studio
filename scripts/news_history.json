@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Showcases New Accessibility Innovations at CES 2026, Expanding Tools for Disabled Users",
-      "urls": [
-        "https://www.youtube.com/watch?v=b5DvFC4SaUE"
-      ],
-      "date": "2026-07-15T05:31:45.416405+00:00"
-    },
-    {
       "title": "Mistral AI Unveils Mistral 3 Open‑Source Family Expanding Model Options",
       "urls": [
         "https://aiunpacking.com/guides/open-source-ai-models-2026-llama-mistral-deepseek",
@@ -4380,7 +4373,15 @@
         "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
       ],
       "date": "2026-07-25T05:31:24.167421+00:00"
+    },
+    {
+      "title": "LaunchAIJam Lists Fresh AI Tools While MarTech Curates Latest Marketing Technology Releases",
+      "urls": [
+        "https://launchaijam.com/new-ai-tools",
+        "https://martech.org/the-latest-ai-powered-martech-news-and-releases"
+      ],
+      "date": "2026-07-25T06:01:36.204185+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T05:31:24.167493+00:00"
+  "lastUpdated": "2026-07-25T06:01:36.204255+00:00"
 }
