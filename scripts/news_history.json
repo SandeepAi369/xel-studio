@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Surveillance Undermines Activist Mental Health Across Global Movements In Recent Study",
-      "urls": [
-        "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health"
-      ],
-      "date": "2026-07-15T19:03:55.991532+00:00"
-    },
-    {
       "title": "Congressional Poll Shows Bipartisan Backing for Stricter AI Regulation Amid Anthropic Model Takedown",
       "urls": [
         "https://www.msn.com/en-us/news/politics/voters-of-both-parties-want-tighter-ai-regulation-poll-finds/ar-AA26MtXQ?ocid=BingNewsVerp",
@@ -4373,7 +4366,17 @@
         "https://aifundingtracker.com/top-50-ai-startups"
       ],
       "date": "2026-07-25T19:01:48.050088+00:00"
+    },
+    {
+      "title": "AMD Commits $5 Billion To Anthropic Partnership To Boost AI Chip Performance",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/07/24/10419969.htm",
+        "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release",
+        "https://www.reuters.com/legal/transactional/anthropic-v-openai-behind-bitter-battle-future-ai-2026-06-11",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/amd-bets-5-billion-on-anthropic-to-fix-the-one-thing-holding-back-its-ai-chips/ar-AA28x9iE?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-25T19:31:17.555088+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T19:01:48.050166+00:00"
+  "lastUpdated": "2026-07-25T19:31:17.555221+00:00"
 }
