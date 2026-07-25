@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Net Zero Coalition Advances Global Climate Action Goals",
-      "urls": [
-        "https://www.un.org/en/climatechange/net-zero-coalition",
-        "https://www.changeclimate.org/blog/the-case-for-climate-action-in-2026",
-        "https://unu.edu/ehs/article/5-things-watch-climate-and-environment-2026",
-        "https://greenly.earth/en-us/blog/ecology-news/climate-change-in-2022-where-do-we-stand",
-        "https://www.climateaction.org/news",
-        "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026",
-        "https://www.wri.org/insights/stories-to-watch-climate-economy-2026"
-      ],
-      "date": "2026-07-15T12:31:38.279923+00:00"
-    },
-    {
       "title": "Meta, Apple, Tesla, and Microsoft Highlight AI Spending In 2026 Earnings",
       "urls": [
         "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html"
@@ -4382,7 +4369,15 @@
         "https://www.bbc.com/news/videos/cm2ppx7d0k7o"
       ],
       "date": "2026-07-25T12:31:13.519924+00:00"
+    },
+    {
+      "title": "CoinGape Announces Winners of Web3 Innovation Awards Recognizing Emerging Crypto Projects",
+      "urls": [
+        "https://www.ndtv.com/topic/cryptocurrency-india",
+        "https://markets.businessinsider.com/news/stocks/coingape-announces-the-winners-of-the-web3-innovation-awards-1036315068"
+      ],
+      "date": "2026-07-25T13:01:29.316713+00:00"
     }
   ],
-  "lastUpdated": "2026-07-25T12:31:13.520000+00:00"
+  "lastUpdated": "2026-07-25T13:01:29.316860+00:00"
 }
