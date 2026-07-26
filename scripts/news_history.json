@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Discovers Dangerous New AI Behavior Raising Safety Concerns Across Industry",
-      "urls": [
-        "https://memeburn.com/anthropic-just-found-a-dangerous-new-ai-behavior"
-      ],
-      "date": "2026-07-16T01:32:16.703288+00:00"
-    },
-    {
       "title": "Linux Foundation Launches 2026 Global Events Program to Boost Open Source Collaboration",
       "urls": [
         "https://www.linuxfoundation.org/press/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation",
@@ -4358,7 +4351,16 @@
         "https://www.msn.com/en-us/sports/soccer/what-soccer-games-are-today-breaking-down-world-cup-schedule-for-july-19/ar-AA28dSs8?ocid=BingNewsVerp"
       ],
       "date": "2026-07-26T01:31:30.329261+00:00"
+    },
+    {
+      "title": "Apple Showcases Claude 5 Integration in iPhone 18 During YouTube Explanation",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news",
+        "https://www.youtube.com/watch?v=3oTE626FaIw"
+      ],
+      "date": "2026-07-26T02:01:39.527509+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T01:31:30.329340+00:00"
+  "lastUpdated": "2026-07-26T02:01:39.527585+00:00"
 }
