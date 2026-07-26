@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source AI Gains Momentum as Industry Leaders Highlight Top Models and Projects",
-      "urls": [
-        "https://cloudification.io/cloud-blog/ai-and-open-source-in-2026-opportunities-security-risks-and-the-future-of-open-infrastructure",
-        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026",
-        "https://dev.to/sonotommy/10-best-open-source-ai-agents-for-2026-2l6p",
-        "https://www.nature.com/articles/s41467-026-73866-8",
-        "https://www.forbes.com/sites/ronschmelzer/2026/04/19/open-source-ai-is-moving-from-sideshow-to-strategy",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1re5qdy/is_2026_the_year_local_ai_becomes_the_default_not",
-        "https://community.openai.com/t/openai-is-at-risk-of-losing-developers/1382415",
-        "https://github.com/alvinreal/awesome-opensource-ai",
-        "https://techcommunity.microsoft.com/blog/linuxandopensourceblog/four-open-source-projects-to-explore-at-microsoft-build/4523744"
-      ],
-      "date": "2026-07-16T14:31:44.000902+00:00"
-    },
-    {
       "title": "Zero1Gaming Launches Public Beta Platform Integrating Streaming Leaderboards and News",
       "urls": [
         "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS%20Newswire/3184596/gamesquare-s-stream-hatchet-publishes-esports-live-streaming-trends-report",
@@ -4349,7 +4334,18 @@
         "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling"
       ],
       "date": "2026-07-26T14:31:13.018486+00:00"
+    },
+    {
+      "title": "State of Open Source AI Report Highlights Leading Models and Community Growth",
+      "urls": [
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://data-gate.ch/open-source-ai-models-2026-community-innovation",
+        "https://stateofopensource.ai/state-of-open-source-ai-2026.pdf",
+        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
+        "https://www.devflokers.com/blog/open-source-ai-projects-may-2026-roundup"
+      ],
+      "date": "2026-07-26T15:01:48.478719+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T14:31:13.018554+00:00"
+  "lastUpdated": "2026-07-26T15:01:48.478795+00:00"
 }
