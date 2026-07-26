@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Neurodiversity Inclusion Efforts Face Three Red Flags Highlighted In New Workplace Reports",
-      "urls": [
-        "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags",
-        "https://www.forbes.com/sites/jenniferpalumbo/2026/05/27/autism-and-why-getting-hired-is-only-the-beginning"
-      ],
-      "date": "2026-07-16T13:33:49.558413+00:00"
-    },
-    {
       "title": "IRENA Publishes Economic Analysis of Firm Solar and Wind for Continuous Power",
       "urls": [
         "https://www.irena.org/Publications/2026/May/24-7-renewables-The-economics-of-firm-solar-and-wind"
@@ -4347,7 +4339,14 @@
         "https://medicalxpress.com/news/2026-06-medical-ais-diagnosis-treatment-decisions.html"
       ],
       "date": "2026-07-26T13:31:26.633703+00:00"
+    },
+    {
+      "title": "Malaysia Leverages IGEM 2026 and KLSS 2026 to Accelerate Green Growth",
+      "urls": [
+        "https://www.malaysiakini.com/climateaction/778924"
+      ],
+      "date": "2026-07-26T14:01:32.909313+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T13:31:26.633773+00:00"
+  "lastUpdated": "2026-07-26T14:01:32.909383+00:00"
 }
