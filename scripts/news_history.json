@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Announces Preview of 2026 Learning Topics in New Video",
-      "urls": [
-        "https://www.youtube.com/watch?v=J0VkYgzAv9E"
-      ],
-      "date": "2026-07-16T04:01:45.388451+00:00"
-    },
-    {
-      "title": "NASA Positions New Space Telescope at Launch Site Eight Months Early for August Liftoff",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/nasa-s-newest-space-telescope-reached-its-launch-site-eight-months-early-aiming-for-an-august-liftoff/ar-AA26KTJD?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-16T04:31:52.297990+00:00"
-    },
-    {
       "title": "USGS Releases 2026 Significant Earthquake List Boosting Global Disaster Monitoring",
       "urls": [
         "https://www.the-world-now.com/global-disaster-tracker",
@@ -4351,7 +4337,15 @@
         "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026"
       ],
       "date": "2026-07-26T04:01:28.296831+00:00"
+    },
+    {
+      "title": "Nvidia Faces Investor Doubts as OpenAI Releases Independent AI Chip and China Sales Stall",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/nvidia-once-pledged-up-to-100b-to-openai-now-openai-has-built-a-chip-designed-to-need-less-of-nvidia-s-hardware-should-investors-worry/ar-AA27CXNP?ocid=BingNewsVerp",
+        "https://www.newsday.com/business/ai-chips-nvidia-huawei-china-j14839"
+      ],
+      "date": "2026-07-26T04:32:41.871613+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T04:01:28.296910+00:00"
+  "lastUpdated": "2026-07-26T04:32:41.871726+00:00"
 }
