@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Pediatric Eye Specialists Release Guide Empowering Parents of Visually Impaired Children in Texas Schools",
-      "urls": [
-        "https://www.usatoday.com/press-release/story/35238/pediatric-eye-specialists-publishes-how-to-advocate-for-your-visually-impaired-child-in-texas-schools-a-parents-guide-to-help-families-navigate-educational-rights-and-resou"
-      ],
-      "date": "2026-07-16T22:31:53.776996+00:00"
-    },
-    {
       "title": "United States Reaches Deal With Iran to End Middle East War",
       "urls": [
         "https://peacediplomacy.org/2026/02/24/war-or-deal-with-iran-the-diplomatic-countdown-amid-military-buildup",
@@ -4329,7 +4322,16 @@
         "https://www.youtube.com/watch?v=NgFX0NsZNuQ"
       ],
       "date": "2026-07-26T22:31:29.492631+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes 2026 Guide Highlighting Top Open‑Source LLMs for Local Deployment",
+      "urls": [
+        "https://huggingface.co/blog",
+        "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=f0373f29396e",
+        "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally"
+      ],
+      "date": "2026-07-26T23:01:28.730476+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T22:31:29.492695+00:00"
+  "lastUpdated": "2026-07-26T23:01:28.730555+00:00"
 }
