@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IRENA Publishes Economic Analysis of Firm Solar and Wind for Continuous Power",
-      "urls": [
-        "https://www.irena.org/Publications/2026/May/24-7-renewables-The-economics-of-firm-solar-and-wind"
-      ],
-      "date": "2026-07-16T14:01:52.266786+00:00"
-    },
-    {
       "title": "Open Source AI Gains Momentum as Industry Leaders Highlight Top Models and Projects",
       "urls": [
         "https://cloudification.io/cloud-blog/ai-and-open-source-in-2026-opportunities-security-risks-and-the-future-of-open-infrastructure",
@@ -4346,7 +4339,17 @@
         "https://www.malaysiakini.com/climateaction/778924"
       ],
       "date": "2026-07-26T14:01:32.909313+00:00"
+    },
+    {
+      "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
+      "urls": [
+        "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
+        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+        "https://www.chron.com/news/article/what-is-open-source-ai-a-software-engineering-22357084.php",
+        "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling"
+      ],
+      "date": "2026-07-26T14:31:13.018486+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T14:01:32.909383+00:00"
+  "lastUpdated": "2026-07-26T14:31:13.018554+00:00"
 }
