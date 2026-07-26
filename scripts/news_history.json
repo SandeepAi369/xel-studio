@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stocks Project Continued Growth as Analysts Review Q1 2026 Earnings Calendar",
-      "urls": [
-        "https://techmarketbriefs.com/earnings",
-        "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html",
-        "https://finance.yahoo.com/video/2026-tech-stock-predictions-market-151157110.html"
-      ],
-      "date": "2026-07-16T13:01:46.446919+00:00"
-    },
-    {
       "title": "Neurodiversity Inclusion Efforts Face Three Red Flags Highlighted In New Workplace Reports",
       "urls": [
         "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags",
@@ -4349,7 +4340,14 @@
         "https://www.geekwire.com/2026/microsofts-carbon-emissions-climb-25-as-tech-giants-grapple-with-ais-energy-toll"
       ],
       "date": "2026-07-26T13:01:33.636999+00:00"
+    },
+    {
+      "title": "Researchers Validate Two Medical AIs Matching Doctor Performance In Diagnostic and Treatment Decision Tasks",
+      "urls": [
+        "https://medicalxpress.com/news/2026-06-medical-ais-diagnosis-treatment-decisions.html"
+      ],
+      "date": "2026-07-26T13:31:26.633703+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T13:01:33.637068+00:00"
+  "lastUpdated": "2026-07-26T13:31:26.633773+00:00"
 }
