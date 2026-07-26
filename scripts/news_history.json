@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "USGS Releases 2026 Significant Earthquake List Boosting Global Disaster Monitoring",
-      "urls": [
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://pocketworld.org/disasters-today",
-        "https://earthquake.usgs.gov/earthquakes/browse/significant.php"
-      ],
-      "date": "2026-07-16T05:02:07.628575+00:00"
-    },
-    {
       "title": "Michael 'Venom' Page Returns to UFC Paris in High‑Profile Welterweight Clash",
       "urls": [
         "https://sports.yahoo.com/articles/britains-page-fight-ruziboev-ufc-094539820.html",
@@ -4353,7 +4344,15 @@
         "https://www.conservation.org/news"
       ],
       "date": "2026-07-26T05:01:46.006154+00:00"
+    },
+    {
+      "title": "Digital Surveillance Undermines Activist Mental Health, Prompting Urgent Privacy Calls",
+      "urls": [
+        "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health",
+        "https://www.newstrail.com/the-future-of-privacy-avoiding-government-surveillance-legally-in-2026"
+      ],
+      "date": "2026-07-26T05:31:22.437361+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T05:01:46.006216+00:00"
+  "lastUpdated": "2026-07-26T05:31:22.437447+00:00"
 }
