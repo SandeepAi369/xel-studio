@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zero1Gaming Launches Public Beta Platform Integrating Streaming Leaderboards and News",
-      "urls": [
-        "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS%20Newswire/3184596/gamesquare-s-stream-hatchet-publishes-esports-live-streaming-trends-report",
-        "https://www.finanznachrichten.de/nachrichten-2026-07/69046976-gamesquare-holdings-inc-stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup-200.htm",
-        "https://www.usatoday.com/press-release/story/35641/zero1gaming-launches-public-beta-bringing-live-streaming-leaderboards-and-esports-news-into-one-hub"
-      ],
-      "date": "2026-07-16T15:02:11.001664+00:00"
-    },
-    {
       "title": "Meta Announces Open‑Source Release of Next‑Generation AI Models to Expand Developer Access",
       "urls": [
         "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
@@ -4345,7 +4336,14 @@
         "https://www.devflokers.com/blog/open-source-ai-projects-may-2026-roundup"
       ],
       "date": "2026-07-26T15:01:48.478719+00:00"
+    },
+    {
+      "title": "Nvidia Launches New AI Chip To Challenge Intel And AMD In Computer Market",
+      "urls": [
+        "https://www.spokesman.com/stories/2026/jun/01/nvidia-is-taking-on-intel-and-amd-with-new-ai-chip"
+      ],
+      "date": "2026-07-26T15:31:14.174761+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T15:01:48.478795+00:00"
+  "lastUpdated": "2026-07-26T15:31:14.174832+00:00"
 }
