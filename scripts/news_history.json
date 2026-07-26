@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Smart T Cells and Clinical Trials Shaping Medicine in 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=hPJfwO39Yvw",
-        "https://www.facebook.com/aacr.org/videos/experts-forecast-for-2026-is-about-smart-t-cells-next-gen-vaccines-ai-driven-com/887703310307216",
-        "https://www.youtube.com/watch?v=ywrxwZ6LDCw"
-      ],
-      "date": "2026-07-16T19:01:37.542503+00:00"
-    },
-    {
       "title": "Stanford HAI Publishes 2026 AI Index Report Detailing Global Artificial Intelligence Trends",
       "urls": [
         "https://blog.google/products-and-platforms/products/search/search-io-2026",
@@ -4345,7 +4336,16 @@
         "https://ai.meta.com/blog/future-of-ai-built-with-llama"
       ],
       "date": "2026-07-26T19:01:29.531985+00:00"
+    },
+    {
+      "title": "Meta Expands AI Cloud Capacity With 7GW Infrastructure to Challenge AWS and Azure",
+      "urls": [
+        "https://www.msn.com/en-us/money/markets/warren-buffetts-successor-greg-abel-tripled-berkshires-stake-in-this-megacap-ai-stock-hint-not-apple/ar-AA28HVsB?ocid=BingNewsVerp",
+        "https://www.msn.com/en-xl/news/other/meta-challenges-aws-azure-in-ai-cloud-push/ar-AA271oID?ocid=BingNewsVerp",
+        "https://www.msn.com/en-xl/technology/cloud-computing/meta-builds-7gw-computing-infrastructure-this-year/ar-AA27BtDB?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-26T19:31:13.392087+00:00"
     }
   ],
-  "lastUpdated": "2026-07-26T19:01:29.532055+00:00"
+  "lastUpdated": "2026-07-26T19:31:13.392163+00:00"
 }
