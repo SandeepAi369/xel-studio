@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Change Drives Record Rainfall and Deadly Flash Floods Across United States",
-      "urls": [
-        "https://www.theguardian.com/us-news/2026/jul/17/climate-change-rains-flash-floods",
-        "https://www.fema.gov",
-        "https://www.climatecentral.org/climate-matters/hurricane-season"
-      ],
-      "date": "2026-07-17T18:01:33.377417+00:00"
-    },
-    {
       "title": "Reddit Directs Readers to Additional Content Without Providing Summaries In Search Results",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
@@ -4260,7 +4251,16 @@
         "https://www.msn.com/en-in/news/India/india-has-rs-95000-cr-addressable-market-for-assistive-tech-by-2030-ncpedp/ar-AA26qQq8?ocid=BingNewsVerp"
       ],
       "date": "2026-07-27T17:32:35.091522+00:00"
+    },
+    {
+      "title": "Germany Unveils Strongest Non‑Chinese Open‑Source AI Model Challenging US Tech Landscape",
+      "urls": [
+        "https://propakistani.pk/2026/07/17/germany-takes-on-us-with-strongest-non-chinese-open-source-ai-model",
+        "https://www.thestar.com.my/tech/tech-news/2026/07/20/chinese-ai-model-takes-us-tech-industry-by-surprise-with-abilities-rivalling-claude-and-chatgpt",
+        "https://lasvegassun.com/news/2026/jul/17/chinese-ai-model-takes-us-tech-industry-by-surpris"
+      ],
+      "date": "2026-07-27T18:01:46.238170+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T17:32:35.091581+00:00"
+  "lastUpdated": "2026-07-27T18:01:46.238237+00:00"
 }
