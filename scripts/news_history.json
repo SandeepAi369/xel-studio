@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Deep Research Max to Advance Autonomous Research Agents",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research"
-      ],
-      "date": "2026-07-17T06:01:39.944236+00:00"
-    },
-    {
-      "title": "Microsoft Reverses Clean Energy Plan, Sparking Conflict With Virginia Climate Goals",
-      "urls": [
-        "https://www.msn.com/en-in/news/other/how-renewable-energy-can-drive-india-s-industrial-growth-and-energy-security/ar-AA27Wiw8?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/current-climate/2026/06/08/data-center-silver-lining-theyre-powering-clean-energy-growth",
-        "https://insideclimatenews.org/news/15062026/microsoft-backpedals-on-climate-promises",
-        "https://www.manilatimes.net/2026/07/15/tmt-newswire/pr-newswire/sungrow-shines-at-solar-storage-live-vietnam-2026-with-localized-pv-and-storage-solutions/2384688"
-      ],
-      "date": "2026-07-17T06:31:22.216091+00:00"
-    },
-    {
       "title": "Atlantic Council Details Eight Ways AI Will Reshape Global Politics in 2026",
       "urls": [
         "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
@@ -4308,7 +4291,15 @@
         "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes"
       ],
       "date": "2026-07-27T06:01:32.698545+00:00"
+    },
+    {
+      "title": "China Plans Over 50 Percent Increase In Wind And Solar Generation Within Five Years",
+      "urls": [
+        "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20",
+        "https://www.reuters.com/business/energy/china-boost-wind-solar-generation-by-more-than-50-five-years-2026-07-23"
+      ],
+      "date": "2026-07-27T06:31:28.347025+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T06:01:32.698616+00:00"
+  "lastUpdated": "2026-07-27T06:31:28.347094+00:00"
 }
