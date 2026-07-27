@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Atlantic Council Details Eight Ways AI Will Reshape Global Politics in 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
-        "https://www.youtube.com/watch?v=dHA1o6HNuMo",
-        "https://www.youtube.com/watch?v=89l-17kZ3OU",
-        "https://www.youtube.com/watch?v=4_HKh1jq7LA",
-        "https://www.youtube.com/watch?v=KqZqusPFf78",
-        "https://www.youtube.com/watch?v=Gkw2vbJCFkQ",
-        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026"
-      ],
-      "date": "2026-07-17T07:01:38.473328+00:00"
-    },
-    {
       "title": "Crescendo AI Highlights 2026 Healthcare Innovations, AI Predictions and Digital Health Breakthroughs",
       "urls": [
         "https://www.crescendo.ai/news/ai-in-healthcare-news",
@@ -4299,7 +4286,14 @@
         "https://www.reuters.com/business/energy/china-boost-wind-solar-generation-by-more-than-50-five-years-2026-07-23"
       ],
       "date": "2026-07-27T06:31:28.347025+00:00"
+    },
+    {
+      "title": "Concern USA Highlights Largest Refugee Crises of 2026 in Context",
+      "urls": [
+        "https://concernusa.org/news/largest-refugee-crises"
+      ],
+      "date": "2026-07-27T07:02:46.317798+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T06:31:28.347094+00:00"
+  "lastUpdated": "2026-07-27T07:02:46.317860+00:00"
 }
