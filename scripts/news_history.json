@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Z.ai Unveils GLM‑5.2 Model That Beats GPT‑5.5 While Cutting Costs Sixfold\",",
-      "urls": [
-        "https://www.aberdeennews.com/press-release/story/199733/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api",
-        "https://www.msn.com/en-us/news/technology/ant-group-open-sources-agent-security-tool-days-after-agentic-ransomware-hit/ar-AA27UsZv?ocid=BingNewsVerp",
-        "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost"
-      ],
-      "date": "2026-07-17T20:01:41.704419+00:00"
-    },
-    {
-      "title": "HPE CEO Urges Companies to Accelerate AI Adoption Amid Q2 Earnings Discussion",
-      "urls": [
-        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
-        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html"
-      ],
-      "date": "2026-07-17T20:31:27.892885+00:00"
-    },
-    {
       "title": "ESPN Highlights Top 25 Sports Moments of 2025-26 Season Across Global Competitions",
       "urls": [
         "https://www.motogp.com/en/videos/2026/06/18/iconic-moments-memorable-moments-from-historic-brno/1073574",
@@ -4277,7 +4260,14 @@
         "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-netanyahu-announces-idf-withdrawal-from-two-areas-following-us-lebanon-breakthrough/ar-AA26EQgE?ocid=BingNewsVerp"
       ],
       "date": "2026-07-27T20:01:34.510633+00:00"
+    },
+    {
+      "title": "SocialPilot Publishes May 2026 Social Media Update Highlighting Platform Changes",
+      "urls": [
+        "https://www.socialpilot.co/blog/social-media-updates"
+      ],
+      "date": "2026-07-27T20:31:27.947600+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T20:01:34.510695+00:00"
+  "lastUpdated": "2026-07-27T20:31:27.947668+00:00"
 }
