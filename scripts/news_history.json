@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Africanews Expands Digital Platform to Deliver Continuous Breaking News Across the Continent",
-      "urls": [
-        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
-        "https://www.africanews.com"
-      ],
-      "date": "2026-07-17T15:02:20.132998+00:00"
-    },
-    {
       "title": "Anthropic Unveils Claude Update Claiming Tenfold AI Usefulness and Terminal Tab Removal",
       "urls": [
         "https://www.youtube.com/watch?v=5Uh2yRLCisk",
@@ -4270,7 +4262,16 @@
         "https://www.uniindia.com/~/brics-health-ministers-back-tb-research-disease-surveillance-mental-health-cooperation/States/news/3919466.html"
       ],
       "date": "2026-07-27T15:01:41.468467+00:00"
+    },
+    {
+      "title": "Facebook Reports AI Moving Closer to Data Generation Sites in 2026",
+      "urls": [
+        "https://www.facebook.com/100063605994377/videos/as-artificial-intelligence-advances-at-an-unprecedented-pace-its-transforming-in/854299007767708",
+        "https://www.youtube.com/watch?v=a18whsKY_rw",
+        "https://www.youtube.com/watch?v=PBN0YYRtAtA"
+      ],
+      "date": "2026-07-27T15:31:23.643723+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T15:01:41.468572+00:00"
+  "lastUpdated": "2026-07-27T15:31:23.643794+00:00"
 }
