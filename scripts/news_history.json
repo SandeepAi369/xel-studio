@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Unveils Claude Update Claiming Tenfold AI Usefulness and Terminal Tab Removal",
-      "urls": [
-        "https://www.youtube.com/watch?v=5Uh2yRLCisk",
-        "https://www.youtube.com/watch?v=TB-nS4TGfns",
-        "https://letsdatascience.com/news/topic/anthropic",
-        "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness"
-      ],
-      "date": "2026-07-17T15:31:36.231472+00:00"
-    },
-    {
-      "title": "USA for UNHCR Mobilizes Resources to Address 117 Million Global Displaced Persons",
-      "urls": [
-        "https://www.youtube.com/watch?v=jEKu0jjP7LE",
-        "https://www.unrefugees.org/emergencies/ukraine"
-      ],
-      "date": "2026-07-17T16:01:41.107390+00:00"
-    },
-    {
       "title": "Donald Trump Accuses China of Election Interference and Raises Midterm Voting Security Concerns",
       "urls": [
         "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
@@ -4271,7 +4253,15 @@
         "https://www.youtube.com/watch?v=PBN0YYRtAtA"
       ],
       "date": "2026-07-27T15:31:23.643723+00:00"
+    },
+    {
+      "title": "Linus Torvalds Defends AI‑Generated Code Contributions Amid Community Debate in Linux Kernel",
+      "urls": [
+        "https://virtualizationreview.com/articles/2026/07/16/linus-torvalds-says-linux-kernel-is-not-an-anti-ai-project.aspx",
+        "https://www.gamingonlinux.com/2026/07/linux-creator-linus-torvalds-puts-foot-down-on-anti-ai-comments"
+      ],
+      "date": "2026-07-27T16:01:44.539167+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T15:31:23.643794+00:00"
+  "lastUpdated": "2026-07-27T16:01:44.539248+00:00"
 }
