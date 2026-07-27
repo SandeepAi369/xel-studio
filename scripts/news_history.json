@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OSCIL Expands RI Accessibility For People With Disabilities Across Multiple Platforms",
-      "urls": [
-        "https://www.providencejournal.com/story/news/good-news/2026/06/04/oscil-helps-rhode-islanders-with-disabilities-live-with-dignity-independence/90030354007"
-      ],
-      "date": "2026-07-17T05:31:19.505029+00:00"
-    },
-    {
       "title": "Google Unveils Deep Research Max to Advance Autonomous Research Agents",
       "urls": [
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research"
@@ -4306,7 +4299,16 @@
         "https://www.youtube.com/watch?v=CfKLbH-SVV4"
       ],
       "date": "2026-07-27T05:31:14.539765+00:00"
+    },
+    {
+      "title": "Microsoft Restructures Experiences and Devices Division to Accelerate Integrated Product Development",
+      "urls": [
+        "https://singjupost.com/nvidia-gtc-taipei-2026-keynote-w-ceo-jensen-huang-transcript",
+        "https://www.intc.com/news-events",
+        "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes"
+      ],
+      "date": "2026-07-27T06:01:32.698545+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T05:31:14.539843+00:00"
+  "lastUpdated": "2026-07-27T06:01:32.698616+00:00"
 }
