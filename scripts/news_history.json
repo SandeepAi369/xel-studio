@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Healthcare IT Leaders Deploy AI to Strengthen System Backbone and Forecast Future Uses",
-      "urls": [
-        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
-        "https://www.healthcareitnews.com/projects/how-health-its-leading-innovators-are-using-ai-now-and-where-they-see-it-going"
-      ],
-      "date": "2026-07-17T19:01:31.250485+00:00"
-    },
-    {
       "title": "Quantum Computing Stocks Gain Spotlight As New IPO Touted As Top Investment",
       "urls": [
         "https://money.usnews.com/investing/articles/best-quantum-computing-stocks-to-buy",
@@ -4264,7 +4256,14 @@
         "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
       ],
       "date": "2026-07-27T18:31:27.994766+00:00"
+    },
+    {
+      "title": "Black Book Research Highlights 2026 Hospital Front-End Access and Patient Financial Experience Leaders",
+      "urls": [
+        "https://www.finanznachrichten.de/nachrichten-2026-06/68828423-black-book-research-spotlights-2026-front-end-access-and-patient-financial-experience-leaders-in-hospital-rcm-200.htm"
+      ],
+      "date": "2026-07-27T19:01:38.040798+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T18:31:27.994845+00:00"
+  "lastUpdated": "2026-07-27T19:01:38.040871+00:00"
 }
