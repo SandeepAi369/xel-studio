@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "InfoWorld Highlights Six AI Breakthroughs Shaping Technology Landscape in 2026",
-      "urls": [
-        "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1poo4of/what_will_2026_bring_in_terms_of_ai_development",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsj1gi/the_frontier_ai_and_their_real_features_2026",
-        "https://www.facebook.com/100063605994377/videos/as-artificial-intelligence-advances-at-an-unprecedented-pace-its-transforming-in/854299007767708"
-      ],
-      "date": "2026-07-17T09:01:39.187239+00:00"
-    },
-    {
       "title": "SpaceX Launches Starship for Artemis Mission as Starlink 401 and 402 Deploy Satellites",
       "urls": [
         "https://www.usatoday.com/story/tech/space/2026/07/13/spacex-starship-13-flight/90898426007",
@@ -4289,7 +4279,15 @@
         "https://www.sportsfirst.net/post/sports-technology-trends-in-2026-insights-from-nishant-shah"
       ],
       "date": "2026-07-27T08:31:35.752379+00:00"
+    },
+    {
+      "title": "FDA Expands Review Pipeline With Growing Generative AI Medical Devices",
+      "urls": [
+        "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech",
+        "https://www.morningstar.com/news/marketwatch/2026062812/your-health-insurer-shouldnt-decide-your-treatment-plan-thats-what-your-doctor-and-ai-should-be-doing"
+      ],
+      "date": "2026-07-27T09:01:45.237713+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T08:31:35.752461+00:00"
+  "lastUpdated": "2026-07-27T09:01:45.237790+00:00"
 }
