@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT-5.6 Model Family to Expand Developer Access and Enable New Agent Integration",
-      "urls": [
-        "https://www.youtube.com/watch?v=VZTmS4B840k",
-        "https://www.youtube.com/watch?v=1f6BeloOdgQ",
-        "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
-      ],
-      "date": "2026-07-17T12:31:32.003842+00:00"
-    },
-    {
       "title": "Linus Torvalds Defends AI Contributions to Linux Amid Community Backlash",
       "urls": [
         "https://virtualizationreview.com/articles/2026/07/16/linus-torvalds-says-linux-kernel-is-not-an-anti-ai-project.aspx",
@@ -4282,7 +4273,14 @@
         "https://www.youtube.com/watch?v=cySzwkCW7wM"
       ],
       "date": "2026-07-27T12:01:41.732987+00:00"
+    },
+    {
+      "title": "White & Case Launches AI Watch Tracker for United States Regulatory Landscape",
+      "urls": [
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states"
+      ],
+      "date": "2026-07-27T12:31:48.222140+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T12:01:41.733059+00:00"
+  "lastUpdated": "2026-07-27T12:31:48.222203+00:00"
 }
