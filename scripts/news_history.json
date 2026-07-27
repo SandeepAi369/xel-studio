@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Publishes July 2026 Newsletter Highlighting Community Updates and Upcoming Initiatives",
-      "urls": [
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-july-2026",
-        "https://www.youtube.com/watch?v=PT8emqAIl7Y"
-      ],
-      "date": "2026-07-17T23:01:38.803896+00:00"
-    },
-    {
-      "title": "IntuitionLabs Publishes 2026 Pharma AI Vendor Landscape Highlighting Drug Discovery and Trial Innovations",
-      "urls": [
-        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
-      ],
-      "date": "2026-07-17T23:31:23.155361+00:00"
-    },
-    {
       "title": "Vivideo Highlights Top AI Video Generators in 2026 Innovation Report",
       "urls": [
         "https://vivideo.ai/blog/state-of-ai-video-creation-2026",
@@ -4252,7 +4237,17 @@
         "https://www.cnn.com/election/2026"
       ],
       "date": "2026-07-27T23:01:28.714088+00:00"
+    },
+    {
+      "title": "Novartis Accelerates Drug Discovery Timelines Using Artificial Intelligence Tools In Early Research",
+      "urls": [
+        "https://finance.yahoo.com/video/ai-is-helping-speed-up-the-timelines-of-drug-discovery-novartis-ceo-says-200201965.html",
+        "https://www.broadinstitute.org/videos/machine-learning-drug-discovery-symposium-2025-models-medicines-keynote-delivering-promise",
+        "https://visionlifesciences.com/insights/drug-discovery-ai-news",
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281"
+      ],
+      "date": "2026-07-27T23:31:23.978536+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T23:01:28.714153+00:00"
+  "lastUpdated": "2026-07-27T23:31:23.978606+00:00"
 }
