@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Directs Readers to Additional Content Without Providing Summaries In Search Results",
-      "urls": [
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
-        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
-        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2"
-      ],
-      "date": "2026-07-17T18:31:27.843153+00:00"
-    },
-    {
       "title": "Healthcare IT Leaders Deploy AI to Strengthen System Backbone and Forecast Future Uses",
       "urls": [
         "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
@@ -4260,7 +4251,20 @@
         "https://lasvegassun.com/news/2026/jul/17/chinese-ai-model-takes-us-tech-industry-by-surpris"
       ],
       "date": "2026-07-27T18:01:46.238170+00:00"
+    },
+    {
+      "title": "Telehealth.org Highlights AI-Driven Digital Health Growth Across United States in 2026",
+      "urls": [
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
+        "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026",
+        "https://www.gminsights.com/blogs/digital-health-market-trends-opportunities-challenges",
+        "https://telehealth.org/news/category/technology-and-innovation",
+        "https://www.mdtalks.com/telehealth-ai-2026-trends",
+        "https://www.practiceehr.com/blog/telemedicine-trends-in-2026-remote-care-tech-and-patient-outcomes",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
+      ],
+      "date": "2026-07-27T18:31:27.994766+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T18:01:46.238237+00:00"
+  "lastUpdated": "2026-07-27T18:31:27.994845+00:00"
 }
