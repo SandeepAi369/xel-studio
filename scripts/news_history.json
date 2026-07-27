@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Stocks Gain Spotlight As New IPO Touted As Top Investment",
-      "urls": [
-        "https://money.usnews.com/investing/articles/best-quantum-computing-stocks-to-buy",
-        "https://www.msn.com/en-us/money/topstocks/this-quantum-computing-stock-recently-went-public-and-it-could-be-the-buy-of-the-year/ar-AA26UCJ7?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-17T19:31:33.668420+00:00"
-    },
-    {
       "title": "\"title\": \"Z.ai Unveils GLM‑5.2 Model That Beats GPT‑5.5 While Cutting Costs Sixfold\",",
       "urls": [
         "https://www.aberdeennews.com/press-release/story/199733/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api",
@@ -4263,7 +4255,20 @@
         "https://www.finanznachrichten.de/nachrichten-2026-06/68828423-black-book-research-spotlights-2026-front-end-access-and-patient-financial-experience-leaders-in-hospital-rcm-200.htm"
       ],
       "date": "2026-07-27T19:01:38.040798+00:00"
+    },
+    {
+      "title": "PyTorch Dominates AI Research Share While TensorFlow Trails in 2026 Performance Gap",
+      "urls": [
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
+        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://uvik.net/blog/pytorch-vs-tensorflow",
+        "https://www.youtube.com/watch?v=iyHkg7TmHmE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
+      ],
+      "date": "2026-07-27T19:31:44.857616+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T19:01:38.040871+00:00"
+  "lastUpdated": "2026-07-27T19:31:44.857689+00:00"
 }
