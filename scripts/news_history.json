@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "White & Case LLP Launches AI Watch United States Regulatory Tracker",
-      "urls": [
-        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states"
-      ],
-      "date": "2026-07-17T11:31:22.246172+00:00"
-    },
-    {
-      "title": "Republican Candidates Who Denied 2020 Election Results Enter Governor Races",
-      "urls": [
-        "https://www.nytimes.com/2026/07/17/us/politics/trump-elections-politics.html",
-        "https://edition.cnn.com/2026/07/15/politics/trump-speech-elections-clayton-ossoff",
-        "https://ftw.usatoday.com/story/news/politics/elections/2026/06/23/2026-south-carolina-primary-runoff-elections-live-updates/90640207007",
-        "https://www.msn.com/en-us/news/politics/the-republicans-who-rejected-2020-election-result-running-for-governor/ar-AA251PBU?ocid=BingNewsVerp",
-        "https://www.upi.com/Top_News/World-News/2026/07/01/olympic-park-young-election-protesters/3301782952957",
-        "https://www.yahoo.com/news/politics/articles/live-coverage-2026-colorado-primary-170432742.html",
-        "https://www.yahoo.com/news/politics/articles/2026-south-carolina-primary-runoff-090746709.html"
-      ],
-      "date": "2026-07-17T12:01:34.646957+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-5.6 Model Family to Expand Developer Access and Enable New Agent Integration",
       "urls": [
         "https://www.youtube.com/watch?v=VZTmS4B840k",
@@ -4288,7 +4268,21 @@
         "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
       ],
       "date": "2026-07-27T11:31:22.072156+00:00"
+    },
+    {
+      "title": "YouTube Publishes Series Detailing EU AI Act Compliance and Upcoming Regulatory Changes",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1qpyuyj/ai_regulation_in_2026_were_getting_a_patchwork_of",
+        "https://www.reddit.com/r/cybersecurity/comments/1pzb1lw/whats_your_take_on_ai_in_cybersecurity_for_2026",
+        "https://www.reddit.com/r/singularity/comments/1rrjcon/bernie_sanders_officially_introduces_legislation",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qpb8pm/ai_regulation_in_2026_were_getting_a_patchwork_of",
+        "https://www.youtube.com/watch?v=GELAXU9XReI",
+        "https://www.youtube.com/watch?v=hvlTWt30CEw",
+        "https://www.youtube.com/watch?v=s0asrB3U3nw",
+        "https://www.youtube.com/watch?v=cySzwkCW7wM"
+      ],
+      "date": "2026-07-27T12:01:41.732987+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T11:31:22.072201+00:00"
+  "lastUpdated": "2026-07-27T12:01:41.733059+00:00"
 }
