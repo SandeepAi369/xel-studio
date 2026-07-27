@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Space Technology Spacex Nasa Launch News — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.nasa.gov/events",
-        "https://www.spacex.com/launches",
-        "https://www.facebook.com/NASASpaceflight/videos/spacex-has-launched-the-starfall-demo-mission-today-june-23rd-2026-at-653am-edt-/27300414869625049",
-        "https://www.space.com",
-        "https://en.wikipedia.org/wiki/2026_in_spaceflight",
-        "https://www.spacex.com/updates",
-        "https://www.facebook.com/NASA/videos/liftoff-the-artemis-ii-mission-launches-from-nasas-kennedy-space-center-at-635-p/803371852819094",
-        "https://www.nasa.gov/mission/artemis-iii",
-        "https://www.spacelaunchschedule.com"
-      ],
-      "date": "2026-07-17T03:31:26.123585+00:00"
-    },
-    {
       "title": "Times of India Expands Sports Portal Offering Live Scores Across Global Leagues",
       "urls": [
         "https://timesofindia.indiatimes.com/sports",
@@ -4313,7 +4298,18 @@
         "https://www.reuters.com/technology"
       ],
       "date": "2026-07-27T03:31:14.171397+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils First Robot Model Navigating With Single Camera",
+      "urls": [
+        "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control",
+        "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
+        "https://www.mercurynews.com/2026/07/08/mistral-ai-releases-robotics-model-to-support-physical-ai-push",
+        "https://www.eweek.com/news/mistral-ai-robostral-navigate-robotics-model",
+        "https://siliconangle.com/2026/06/12/mistral-reportedly-seeking-3-5b-funding-round-amid-physics-ai-push"
+      ],
+      "date": "2026-07-27T04:01:43.386268+00:00"
     }
   ],
-  "lastUpdated": "2026-07-27T03:31:14.171475+00:00"
+  "lastUpdated": "2026-07-27T04:01:43.386354+00:00"
 }
