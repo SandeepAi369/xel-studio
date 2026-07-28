@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mission North Expands Health Practice With AI, Reporting 33 Percent Revenue Growth",
-      "urls": [
-        "https://www.forbes.com/councils/forbestechcouncil/2026/07/15/why-healthcare-innovation-is-only-as-useful-as-deployment",
-        "https://www.msn.com/en-in/technology/artificial-intelligence/et-most-innovative-ai-product-awards-2026-why-healthcare-has-become-the-ultimate-test-for-ai-innovation/ar-AA2695Fe?ocid=BingNewsVerp",
-        "https://www.chinadaily.com.cn/a/202607/18/WS6a5aec73a310986e2b465fb9.html",
-        "https://finance.yahoo.com/healthcare/articles/mission-north-expands-health-practice-110000325.html"
-      ],
-      "date": "2026-07-18T15:01:41.724649+00:00"
-    },
-    {
-      "title": "Crescendo AI Launches News Portal Highlighting Latest AI Breakthroughs For Industry Professionals",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rsrji4/morgan_stanley_warns_an_ai_breakthrough_is_coming",
-        "https://www.reddit.com/r/singularity/comments/1rr0q2l/what_are_your_predictions_for_this_year_in_ai"
-      ],
-      "date": "2026-07-18T15:31:15.569997+00:00"
-    },
-    {
       "title": "UNCTAD Releases Global Trade Update Emphasizing Rule Reforms to Boost Development",
       "urls": [
         "https://unctad.org/publication/global-trade-update-march-2026-reforming-trade-rules-drive-development",
@@ -4232,7 +4213,17 @@
         "https://www.mobihealthnews.com/news/aidoc-lands-fda-breakthrough-status-ai-drafts-radiology-reports"
       ],
       "date": "2026-07-28T15:01:41.282839+00:00"
+    },
+    {
+      "title": "John Jumper Leaves Google for Anthropic in 2026’s Largest AI Talent Acquisition",
+      "urls": [
+        "https://economictimes.indiatimes.com/magazines/panache/google-doubles-down-on-indias-ai-ambitions-with-enterprise-ai-safety-tools-and-education-push-at-i/o-connect-2026/articleshow/132386529.cms",
+        "https://www.thehindubusinessline.com/info-tech/google-announces-ai-education-safety-and-enterprise-initiatives-at-io-connect-india-2026/article71221732.ece",
+        "https://memeburn.com/nobel-prize-winner-john-jumper-just-left-google-for-anthropic-in-2026s-biggest-ai-hire",
+        "https://money.usnews.com/investing/news/articles/2026-06-22/google-deepmind-signs-ai-research-deal-with-film-studio-a24"
+      ],
+      "date": "2026-07-28T15:31:31.807558+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T15:01:41.282905+00:00"
+  "lastUpdated": "2026-07-28T15:31:31.807633+00:00"
 }
