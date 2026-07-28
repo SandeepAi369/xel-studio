@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "SoundHound AI Wins Top Agentic AI Award, Boosting Market Credibility",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/soundhound-ai-named-overall-agentic-ai-company-of-the-year-in-2026-ai-breakthrough-awards-program-1036276173",
-        "https://www.rutlandherald.com/news/business/edge-impulse-wins-mlops-innovation-award-in-2026-artificial-intelligence-breakthrough-awards-program/article_e7f7acdf-29ab-5b10-9531-354a82e10cb2.html",
-        "https://www.msn.com/en-in/technology/artificial-intelligence/reliance-agm-2026-from-ai-data-centers-to-jio-ai-apps-top-announcements/ar-AA263QOk?ocid=BingNewsVerp",
-        "https://www.crowdfundinsider.com/2026/06/285900-private-equity-increasingly-focused-on-artificial-intelligence-ai-as-transformative-breakthrough-report-claims"
-      ],
-      "date": "2026-07-18T19:31:31.197526+00:00"
-    },
-    {
-      "title": "Politico Expands Political Coverage to Include In-Depth Policy Analysis and News Updates",
-      "urls": [
-        "https://www.politico.com"
-      ],
-      "date": "2026-07-18T20:01:29.587005+00:00"
-    },
-    {
       "title": "Canada Announces Social Media Ban for Users Under Sixteen Following Australian Precedent",
       "urls": [
         "https://www.livemint.com/news/world/total-world-latest-news-on-june-9-2026-live-updates-11780946022526.html",
@@ -4220,7 +4203,18 @@
         "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags"
       ],
       "date": "2026-07-28T19:31:23.010061+00:00"
+    },
+    {
+      "title": "Z.ai Launches ZCode to Challenge Leading AI Coding Assistants in Competitive Market",
+      "urls": [
+        "https://www.nytimes.com/2026/07/01/business/dealbook/together-ai-funding.html",
+        "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+        "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet",
+        "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html",
+        "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
+      ],
+      "date": "2026-07-28T20:01:55.249988+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T19:31:23.010477+00:00"
+  "lastUpdated": "2026-07-28T20:01:55.250054+00:00"
 }
