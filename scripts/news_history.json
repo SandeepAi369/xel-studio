@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Weather Agency Warns Global Temperatures Will Remain Near Record Levels",
-      "urls": [
-        "https://news.un.org/en/story/2026/05/1167596"
-      ],
-      "date": "2026-07-18T06:31:21.702093+00:00"
-    },
-    {
       "title": "OECD Warns Global Economic Outlook Weakens Amid Energy Shock and Rising Inflation",
       "urls": [
         "https://www.youtube.com/watch?v=HvL0gM3t4Jo",
@@ -4242,7 +4235,14 @@
         "https://trellis.net/article/microsoft-adjusts-climate-agenda-as-emissions-leap"
       ],
       "date": "2026-07-28T06:01:43.586721+00:00"
+    },
+    {
+      "title": "The World Now Provides Live Volcano Alerts for Hawaii and Iceland in 2026",
+      "urls": [
+        "https://www.the-world-now.com/volcano-eruptions-today"
+      ],
+      "date": "2026-07-28T06:31:50.110101+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T06:01:43.586814+00:00"
+  "lastUpdated": "2026-07-28T06:31:50.110174+00:00"
 }
