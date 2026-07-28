@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vercel Launches Eve Open-Source Framework to Accelerate AI Agent Development",
-      "urls": [
-        "https://www.infoq.com/news/2026/06/vercel-eve-agents",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025"
-      ],
-      "date": "2026-07-18T14:31:26.074718+00:00"
-    },
-    {
       "title": "Mission North Expands Health Practice With AI, Reporting 33 Percent Revenue Growth",
       "urls": [
         "https://www.forbes.com/councils/forbestechcouncil/2026/07/15/why-healthcare-innovation-is-only-as-useful-as-deployment",
@@ -4223,7 +4214,16 @@
         "https://turingpost.substack.com/p/fod142-what-is-agentic-rl-and-why"
       ],
       "date": "2026-07-28T14:02:01.807826+00:00"
+    },
+    {
+      "title": "YouTube Releases Two Linux‑Focused Videos Highlighting No‑Code Tools and User Tips",
+      "urls": [
+        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-july-2026",
+        "https://www.youtube.com/watch?v=RN-WD3CmMP0",
+        "https://www.youtube.com/watch?v=PT8emqAIl7Y"
+      ],
+      "date": "2026-07-28T14:31:27.568487+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T14:02:01.807896+00:00"
+  "lastUpdated": "2026-07-28T14:31:27.568560+00:00"
 }
