@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canada Announces Social Media Ban for Users Under Sixteen Following Australian Precedent",
-      "urls": [
-        "https://www.livemint.com/news/world/total-world-latest-news-on-june-9-2026-live-updates-11780946022526.html",
-        "https://www.msn.com/en-us/news/technology/what-the-world-should-learn-from-australia-s-social-media-law/ar-AA28aXcR?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-18T20:31:16.026066+00:00"
-    },
-    {
       "title": "YaCy Expands Open-Source Tools With New Download, Community Forum, Git Repository, and Bugtracker",
       "urls": [
         "https://yacy.net",
@@ -4214,7 +4206,15 @@
         "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
       ],
       "date": "2026-07-28T20:01:55.249988+00:00"
+    },
+    {
+      "title": "CAS and SCI Reveal Ten Emerging Scientific Breakthroughs Set to Transform 2026",
+      "urls": [
+        "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch",
+        "https://www.soci.org/news/2026/6/ten-scientific-advances-getting-ready-to-change-the-world"
+      ],
+      "date": "2026-07-28T20:31:27.954300+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T20:01:55.250054+00:00"
+  "lastUpdated": "2026-07-28T20:31:27.954372+00:00"
 }
