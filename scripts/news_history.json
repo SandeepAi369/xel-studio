@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mount Etna Alert Raised Amid Global Seismic Surge and Iceland Magma Update",
-      "urls": [
-        "https://www.facebook.com/Abovethenormnews/videos/-global-seismic-activity-picks-up-overnight-july-2-2026-early-morning-updatea-bu/1738343157306912",
-        "https://www.youtube.com/watch?v=L0FURDUJCTo",
-        "https://globalnews.ca/video/11941754/italy-raises-mount-etna-alert-level-following-renewed-volcanic-activity"
-      ],
-      "date": "2026-07-18T14:01:31.450546+00:00"
-    },
-    {
       "title": "Vercel Launches Eve Open-Source Framework to Accelerate AI Agent Development",
       "urls": [
         "https://www.infoq.com/news/2026/06/vercel-eve-agents",
@@ -4222,7 +4213,17 @@
         "https://calstate9.com/esports-coverage-trends-2026"
       ],
       "date": "2026-07-28T13:31:31.704771+00:00"
+    },
+    {
+      "title": "Andreessen Horowitz Highlights American Leadership and Emerging Agent Stack in Open Source AI",
+      "urls": [
+        "https://a16z.com/asserting-american-leadership-in-open-source-ai",
+        "https://turingpost.substack.com/p/fod131-the-state-of-open-source-ai",
+        "https://turingpost.substack.com/p/fod136-the-agent-stack-is-becoming",
+        "https://turingpost.substack.com/p/fod142-what-is-agentic-rl-and-why"
+      ],
+      "date": "2026-07-28T14:02:01.807826+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T13:31:31.704847+00:00"
+  "lastUpdated": "2026-07-28T14:02:01.807896+00:00"
 }
