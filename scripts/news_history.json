@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Future Science and Medicine Predictions for 2026 in Review",
-      "urls": [
-        "https://www.sciencedaily.com/news/health_medicine",
-        "https://www.massgeneralbrigham.org/en/about/newsroom/articles/2026-predictions-on-scientific-advancements"
-      ],
-      "date": "2026-07-18T02:31:27.756395+00:00"
-    },
-    {
       "title": "Reform UK Gains Massive Support in England as Election Night Unfolds",
       "urls": [
         "https://apnews.com/politics",
@@ -4251,7 +4243,14 @@
         "https://www.nextgov.com/artificial-intelligence/2026/07/over-30-companies-form-open-source-ai-alliance/415028"
       ],
       "date": "2026-07-28T02:01:35.319198+00:00"
+    },
+    {
+      "title": "Politico Expands 2026 Election Hub With Continuous News, Top Stories, and Expert Analysis",
+      "urls": [
+        "https://www.politico.com/news/2026-elections/1"
+      ],
+      "date": "2026-07-28T02:31:32.996699+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T02:01:35.319312+00:00"
+  "lastUpdated": "2026-07-28T02:31:32.996766+00:00"
 }
