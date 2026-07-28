@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Myanmar Coast Tragedy Leaves Over 500 Refugees Missing After Two Boats Disappear",
-      "urls": [
-        "https://www.msn.com/en-us/news/world/more-than-500-missing-after-two-refugee-boats-vanish-off-myanmar-coast-un-agencies-say/ar-AA281H3o?ocid=BingNewsVerp",
-        "https://www.msn.com/en-za/news/other/the-other-violence-while-south-africa-watched-the-marches-the-state-built-a-camp/ar-AA27fE6p?ocid=BingNewsVerp",
-        "https://www.upi.com/Top_News/World-News/2026/07/01/latam-venezuela-humanitarioan-crisis/4331782917627",
-        "https://www.wbur.org/cognoscenti/2026/07/17/refugee-immigration-tps-sasha-chanoff",
-        "https://www.hrw.org/news/2026/07/02/libya-anti-migrant-rhetoric-fuels-abuses",
-        "https://www.syracuse.com/living/2026/06/one-stitch-one-refugee-artrage-exhibition-showcases-global-refugee-crisis-through-art.html"
-      ],
-      "date": "2026-07-18T22:31:41.529243+00:00"
-    },
-    {
-      "title": "Flexera Appoints Mike Jerich as CEO to Accelerate AI‑Driven Growth Strategy",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/07/16/10415930.htm"
-      ],
-      "date": "2026-07-18T23:01:33.668498+00:00"
-    },
-    {
       "title": "NASA Website Centralizes Official Space Information and Educational Resources for Public Access",
       "urls": [
         "https://www.nasa.gov",
@@ -4230,7 +4211,18 @@
         "https://www.complex.com/bets/a/thomas-golianopoulos/best-sports-moments-2026-midyear"
       ],
       "date": "2026-07-28T22:31:32.842131+00:00"
+    },
+    {
+      "title": "YaCy Expands Open-Source Search Engine Reach With New Tutorials, Download Portal, and Community Tools",
+      "urls": [
+        "https://yacy.net/tutorials",
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-07-28T23:01:41.842184+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T22:31:32.842200+00:00"
+  "lastUpdated": "2026-07-28T23:01:41.842259+00:00"
 }
