@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "YaCy Expands Open-Source Tools With New Download, Community Forum, Git Repository, and Bugtracker",
-      "urls": [
-        "https://yacy.net",
-        "https://community.searchlab.eu",
-        "https://github.com/yacy/yacy_search_server/commits/master",
-        "https://github.com/yacy/yacy_search_server/issues"
-      ],
-      "date": "2026-07-18T21:01:30.065498+00:00"
-    },
-    {
-      "title": "Wilkes-Barre City Hires Visually Impaired Students for Summer Employment Program",
-      "urls": [
-        "https://www.citizensvoice.com/2026/06/23/visually-impaired-students-to-be-wilkes-barre-city-summer-employees"
-      ],
-      "date": "2026-07-18T21:31:15.225312+00:00"
-    },
-    {
       "title": "Conor McGregor Faces Multi‑Year Suspension Impacting UFC 329 Viewership Projections",
       "urls": [
         "https://www.youtube.com/watch?v=i7vN7hJ8kOw",
@@ -4224,7 +4207,15 @@
         "https://www.uniindia.com/~/nodwin-gaming-krafton-india-esports-uncover-next-generation-of-esports-talent/Sports/news/3925042.html"
       ],
       "date": "2026-07-28T21:01:28.661266+00:00"
+    },
+    {
+      "title": "Tesla Builds Wheelchair‑Accessible Robotaxi To Expand Inclusive Autonomous Ride‑Hailing Service",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/tesla-is-building-a-wheelchair-accessible-robotaxi/ar-AA27UJJX?ocid=BingNewsVerp",
+        "https://mobilitymgmt.com/ces-2026-4-assistive-technology-exhibitors-to-watch"
+      ],
+      "date": "2026-07-28T21:31:27.164092+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T21:01:28.661353+00:00"
+  "lastUpdated": "2026-07-28T21:31:27.164170+00:00"
 }
