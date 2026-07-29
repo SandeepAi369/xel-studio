@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Relaysd Highlights Four Exciting Technologies for Deaf and Hard‑of‑Hearing Users",
-      "urls": [
-        "https://relaysd.com/news/transforming-communication-exciting-technologies-for-the-deaf-and-hard-of-hearing"
-      ],
-      "date": "2026-07-19T01:01:27.658947+00:00"
-    },
-    {
       "title": "Mongabay, ScienceDaily, and Center for Biological Diversity Expand Online Biodiversity Coverage",
       "urls": [
         "https://news.mongabay.com",
@@ -4217,7 +4210,17 @@
         "https://www.sportscapemagazine.com/blog/sports-tech-companies"
       ],
       "date": "2026-07-29T00:33:16.844172+00:00"
+    },
+    {
+      "title": "SpaceX Launches Massive Starship Rocket on 13th Test Flight Marking First Post‑IPO Attempt",
+      "urls": [
+        "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
+        "https://www.nbcnews.com/video/spacex-launches-starship-megarocket-for-13th-test-flight-267254341542",
+        "https://www.youtube.com/watch?v=Ew0Xu1RT8oc",
+        "https://www.youtube.com/watch?v=cF65AyjvOKo"
+      ],
+      "date": "2026-07-29T01:01:52.022144+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T00:33:16.844236+00:00"
+  "lastUpdated": "2026-07-29T01:01:52.022219+00:00"
 }
