@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Limits New GPT‑5.5 Model Access After White House Request",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/white-house-asks-openai-to-limit-its-next-model-release/ar-AA26yfWw?ocid=BingNewsVerp",
-        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
-        "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
-        "https://www.msn.com/en-in/news/world/openais-new-ai-was-so-powerful-it-had-to-brief-the-us-government-before-release/ar-AA26EI6l?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-19T15:31:21.103688+00:00"
-    },
-    {
       "title": "Rhode Island, Kentucky, and Indiana Enact New Privacy Laws Impacting Online Data",
       "urls": [
         "https://www.youtube.com/shorts/XxcyKBj3AWE",
@@ -4175,7 +4165,14 @@
         "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/timelycare-sets-new-standard-for-student-safety-with-urac-artificial-intelligence-in-healthcare-accreditation/2394200"
       ],
       "date": "2026-07-29T15:02:01.663006+00:00"
+    },
+    {
+      "title": "YouTube NewsToday Hosts Rajdeep Sardesai for Trump Trade Roundtable Discussion",
+      "urls": [
+        "https://www.youtube.com/watch?v=JicMOfLxolA"
+      ],
+      "date": "2026-07-29T15:31:45.986839+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T15:02:01.663077+00:00"
+  "lastUpdated": "2026-07-29T15:31:45.986930+00:00"
 }
