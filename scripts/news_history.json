@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Technology Review Highlights Three Breakthrough Climate Technologies Transforming Energy in 2026",
-      "urls": [
-        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
-        "https://www.spglobal.com/energy/en/news-research/special-reports/energy-transition/horizons-top-cleantech-trends-2026",
-        "https://www.technologyreview.com/2026/01/15/1131348/climate-technologies-2026",
-        "https://www.spglobal.com/content/dam/spglobal/ci/en/images/news-research/special-reports/cleantech-trends-2026/Horizons%20Top%20Trends%202026.pdf",
-        "https://www.startus-insights.com/innovators-guide/climate-tech-report-key-insights",
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
-      ],
-      "date": "2026-07-19T15:01:33.785460+00:00"
-    },
-    {
       "title": "OpenAI Limits New GPT‑5.5 Model Access After White House Request",
       "urls": [
         "https://www.msn.com/en-us/news/technology/white-house-asks-openai-to-limit-its-next-model-release/ar-AA26yfWw?ocid=BingNewsVerp",
@@ -4176,7 +4164,18 @@
         "https://finance.yahoo.com/healthcare/articles/acentra-health-names-srini-surendranath-133300629.html"
       ],
       "date": "2026-07-29T14:32:58.016892+00:00"
+    },
+    {
+      "title": "Healthcare Technology Innovation Ai Medical News — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.usnews.com/news/live-events/articles/2026-07-15/snapshots-of-health-innovation-from-the-edison-awards",
+        "https://markets.businessinsider.com/news/stocks/driving-healthcare-innovation-rxnt-continues-growth-in-2026-with-50-industry-awards-1036332323",
+        "https://finance.yahoo.com/technology/ai/articles/nasco-appoints-dilip-sarangdevot-senior-151500138.html",
+        "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/wellspan-health-completes-comprehensive-migration-of-technology-portfolio-to-aws-setting-foundation-for-future-innovations/2389414",
+        "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/timelycare-sets-new-standard-for-student-safety-with-urac-artificial-intelligence-in-healthcare-accreditation/2394200"
+      ],
+      "date": "2026-07-29T15:02:01.663006+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T14:32:58.016963+00:00"
+  "lastUpdated": "2026-07-29T15:02:01.663077+00:00"
 }
