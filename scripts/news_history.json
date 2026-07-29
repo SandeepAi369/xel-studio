@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas Hill Country Implements New Flood Mitigation Measures After Historic 1-in-1,000-Year Event",
-      "urls": [
-        "https://www.youtube.com/shorts/6Z-JCQoMmLo",
-        "https://www.youtube.com/watch?v=7Qf0KuKd_G0",
-        "https://www.youtube.com/watch?v=Z5Q0jI6exZ4",
-        "https://www.instagram.com/reel/DavO2wfxIHk"
-      ],
-      "date": "2026-07-19T18:01:28.361515+00:00"
-    },
-    {
       "title": "UNCTAD Highlights Ten Trends Reshaping Global Trade Landscape in 2026",
       "urls": [
         "https://unctad.org/news/10-trends-shaping-global-trade-2026",
@@ -4173,7 +4163,16 @@
         "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
       ],
       "date": "2026-07-29T17:31:21.215096+00:00"
+    },
+    {
+      "title": "OpenAI Clarifies Research Bot Exploited Hugging Face Models Amid Safety Concerns",
+      "urls": [
+        "https://www.msn.com/en-us/technology/artificial-intelligence/zuckerberg-warns-chinese-ai-ban-would-backfire-cites-openai-hack-of-hugging-face/ar-AA28ZpVT?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/other/openai-says-bot-that-exploited-hugging-face-was-meant-for-research/ar-AA28ZPBy?ocid=BingNewsVerp",
+        "https://thenextweb.com/news/hugging-face-nonconsensual-deepfakes-ai-forensics-report"
+      ],
+      "date": "2026-07-29T18:02:20.038317+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T17:31:21.215170+00:00"
+  "lastUpdated": "2026-07-29T18:02:20.038384+00:00"
 }
