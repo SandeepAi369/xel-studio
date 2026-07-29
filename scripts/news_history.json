@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "JPMorgan Reaffirms Inflation Outlook as Headline Prices Ease but Core Pressures Remain High",
-      "urls": [
-        "https://www.thestreet.com/economy/jpmorgan-doubles-down-on-economy-inflation-outlook",
-        "https://www.un.org/en/desa/5-things-you-need-to-know-about-the-global-economy-in-2026",
-        "https://www.msn.com/en-au/money/markets/headline-inflation-eases-but-underlying-inflation-highest-since-2024/ar-AA26nWku?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-19T12:01:32.610608+00:00"
-    },
-    {
       "title": "2026 World Cup Boosts Soccer Popularity Across United States as Millions Tune In to Live Broadcast",
       "urls": [
         "https://sports.yahoo.com/soccer/article/the-2026-world-cup-could-supercharge-soccer-in-the-us--or-slow-its-rise-222412463.html",
@@ -4180,7 +4171,14 @@
         "https://www.msn.com/en-us/news/other/openai-secures-us-regulatory-green-light-for-gpt-5-6-rollout-axios-report-says/ar-AA27sBiH?ocid=BingNewsVerp"
       ],
       "date": "2026-07-29T11:31:20.706602+00:00"
+    },
+    {
+      "title": "NVIDIA Showcases Age of AI at GTC 2026 Highlighting New Hardware and Partnerships",
+      "urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026"
+      ],
+      "date": "2026-07-29T12:01:36.381597+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T11:31:20.706720+00:00"
+  "lastUpdated": "2026-07-29T12:01:36.381672+00:00"
 }
