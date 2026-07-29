@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Launches Major AI Update for Siri Amid Price Increases With Microsoft",
-      "urls": [
-        "https://www.youtube.com/watch?v=VY7dwsXqpBQ",
-        "https://www.youtube.com/watch?v=V0qxPOIOOuw",
-        "https://www.youtube.com/watch?v=Q6gsS0hULV0"
-      ],
-      "date": "2026-07-19T03:31:22.286344+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT-5.6 and ChatGPT Work Tool to Expand AI Capabilities",
       "urls": [
         "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
@@ -4208,7 +4199,15 @@
         "https://unctad.org/publication/global-trade-update-march-2026-reforming-trade-rules-drive-development"
       ],
       "date": "2026-07-29T03:31:21.502372+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes 2026 Open Source AI Trends Report Highlighting Tool Growth",
+      "urls": [
+        "https://aibreakingwire.com/news/open-source-ai-in-2026-hugging-face-reveals-top-trends",
+        "https://app.aibradaa.com/blog/open-source-ai-tools-may-2026"
+      ],
+      "date": "2026-07-29T04:01:32.487403+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T03:31:21.502447+00:00"
+  "lastUpdated": "2026-07-29T04:01:32.487475+00:00"
 }
