@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Cuts Growth Outlook as Global Economy Slows in 2026",
-      "urls": [
-        "https://www.facebook.com/nytimes/posts/breaking-news-the-global-economy-is-set-to-slow-sharply-in-2026-after-the-war-wi/1423671982948594",
-        "https://www.jpmorgan.com/insights/global-research/economy/global-inflation-forecast",
-        "https://www.youtube.com/watch?v=zHr_OvMtf_k",
-        "https://www.reuters.com/business/imf-cuts-growth-outlook-warns-potential-global-recession-if-iran-war-worsens-2026-04-14",
-        "https://www.piie.com/blogs/realtime-economics/2026/global-economy-slow-2026-and-outlook-clouded-war-other-uncertainties"
-      ],
-      "date": "2026-07-19T07:01:30.927180+00:00"
-    },
-    {
       "title": "Medscape Highlights Ten Medical Breakthroughs Transforming Clinical Care Across Global Health",
       "urls": [
         "https://www.medscape.com/p11/10-medical-breakthroughs-transforming-clinical-care-2026a1000gr9"
@@ -4200,7 +4189,16 @@
         "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html"
       ],
       "date": "2026-07-29T06:31:42.616267+00:00"
+    },
+    {
+      "title": "United States and Iran Conclude First Round of Talks Amid Hormuz Tensions",
+      "urls": [
+        "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon?eafs_enabled=false",
+        "https://www.cnn.com/2026/06/20/china/china-iran-us-peace-deal-analysis-intl-hnk",
+        "https://www.cnn.com/2026/07/02/world/live-news/iran-war-us-talks"
+      ],
+      "date": "2026-07-29T07:01:39.155140+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T06:31:42.616330+00:00"
+  "lastUpdated": "2026-07-29T07:01:39.155228+00:00"
 }
