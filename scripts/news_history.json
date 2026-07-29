@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Website Centralizes Official Space Information and Educational Resources for Public Access",
-      "urls": [
-        "https://www.nasa.gov",
-        "https://science.nasa.gov/universe",
-        "https://en.wikipedia.org/wiki/Space",
-        "https://starwalk.space/en/news/what-is-space",
-        "https://spacein3d.com/universe-sandbox",
-        "https://www.space.com/news"
-      ],
-      "date": "2026-07-18T23:31:24.365066+00:00"
-    },
-    {
-      "title": "Meta Sells New AI Model as Google Caps Gemini Access, Shifting Market Dynamics",
-      "urls": [
-        "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/google-caps-meta-s-use-of-gemini-ai-financial-times-reports/ar-AA26Jbg9?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-19T00:01:51.101692+00:00"
-    },
-    {
       "title": "YouTube Unveils First Open‑Source AI Model in Detailed 30‑Minute Presentation",
       "urls": [
         "https://www.youtube.com/watch?v=6d__WOpZswY"
@@ -4229,7 +4209,14 @@
         "https://www.democracynow.org/topics/2026_election"
       ],
       "date": "2026-07-28T23:31:21.565740+00:00"
+    },
+    {
+      "title": "Amazon Apple Meta Microsoft Earnings And Fed Rate Decision Shape Market Outlook",
+      "urls": [
+        "https://www.investopedia.com/what-to-expect-in-markets-this-week-amazon-apple-meta-microsoft-earnings-fed-interest-rate-decision-12025525"
+      ],
+      "date": "2026-07-29T00:02:01.858758+00:00"
     }
   ],
-  "lastUpdated": "2026-07-28T23:31:21.565818+00:00"
+  "lastUpdated": "2026-07-29T00:02:01.858839+00:00"
 }
