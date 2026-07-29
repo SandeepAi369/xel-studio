@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Unveils First Open‑Source AI Model in Detailed 30‑Minute Presentation",
-      "urls": [
-        "https://www.youtube.com/watch?v=6d__WOpZswY"
-      ],
-      "date": "2026-07-19T00:31:45.868436+00:00"
-    },
-    {
       "title": "Relaysd Highlights Four Exciting Technologies for Deaf and Hard‑of‑Hearing Users",
       "urls": [
         "https://relaysd.com/news/transforming-communication-exciting-technologies-for-the-deaf-and-hard-of-hearing"
@@ -4216,7 +4209,15 @@
         "https://www.investopedia.com/what-to-expect-in-markets-this-week-amazon-apple-meta-microsoft-earnings-fed-interest-rate-decision-12025525"
       ],
       "date": "2026-07-29T00:02:01.858758+00:00"
+    },
+    {
+      "title": "MobiDev Highlights Seven Sports Tech Innovations Set For 2026 Adoption",
+      "urls": [
+        "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps",
+        "https://www.sportscapemagazine.com/blog/sports-tech-companies"
+      ],
+      "date": "2026-07-29T00:33:16.844172+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T00:02:01.858839+00:00"
+  "lastUpdated": "2026-07-29T00:33:16.844236+00:00"
 }
