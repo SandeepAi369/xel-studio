@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medscape Highlights Ten Medical Breakthroughs Transforming Clinical Care Across Global Health",
-      "urls": [
-        "https://www.medscape.com/p11/10-medical-breakthroughs-transforming-clinical-care-2026a1000gr9"
-      ],
-      "date": "2026-07-19T07:31:15.130555+00:00"
-    },
-    {
       "title": "Web3 Pioneers Ignite Manila Tech Ecosystem With 2026 Blockchain Impact",
       "urls": [
         "https://invezz.com/news/2026/07/08/varun-datta-bitcoins-return-isnt-the-story-the-infrastructure-behind-web3-is",
@@ -4198,7 +4191,15 @@
         "https://www.cnn.com/2026/07/02/world/live-news/iran-war-us-talks"
       ],
       "date": "2026-07-29T07:01:39.155140+00:00"
+    },
+    {
+      "title": "PocketWorld Launches Live Disaster Tracker Providing Real‑Time Earthquake, Storm and Volcano Alerts",
+      "urls": [
+        "https://pocketworld.org/disasters-today",
+        "https://www.volcanodiscovery.com/news.html"
+      ],
+      "date": "2026-07-29T07:31:27.952166+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T07:01:39.155228+00:00"
+  "lastUpdated": "2026-07-29T07:31:27.952241+00:00"
 }
