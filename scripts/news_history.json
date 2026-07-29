@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "J.P. Morgan Releases 2026 Climate Tech Report Highlighting Startup Trends",
-      "urls": [
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
-        "https://www.youtube.com/watch?v=XMm9sI99Z74",
-        "https://www.youtube.com/watch?v=UtHuNfDB9J0",
-        "https://www.youtube.com/watch?v=hHPgaca9Ra8"
-      ],
-      "date": "2026-07-19T06:31:19.298477+00:00"
-    },
-    {
       "title": "International Monetary Fund Cuts Growth Outlook as Global Economy Slows in 2026",
       "urls": [
         "https://www.facebook.com/nytimes/posts/breaking-news-the-global-economy-is-set-to-slow-sharply-in-2026-after-the-war-wi/1423671982948594",
@@ -4201,7 +4190,17 @@
         "https://wtop.com/news/2026/07/8-best-quantum-computing-stocks-to-buy-in-2026"
       ],
       "date": "2026-07-29T06:01:31.909204+00:00"
+    },
+    {
+      "title": "YouTube Launches AI Skills Series for Healthcare Professionals Highlighting Six Key Changes",
+      "urls": [
+        "https://www.youtube.com/watch?v=5ReO9hgOYrI",
+        "https://www.youtube.com/watch?v=bsfIqUZ0gkY",
+        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
+        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html"
+      ],
+      "date": "2026-07-29T06:31:42.616267+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T06:01:31.909287+00:00"
+  "lastUpdated": "2026-07-29T06:31:42.616330+00:00"
 }
