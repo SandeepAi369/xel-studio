@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wikipedia Compiles Global Earthquake Catalog for 2026 Annual Seismic Review",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_earthquakes_in_2026"
-      ],
-      "date": "2026-07-19T22:31:24.530485+00:00"
-    },
-    {
       "title": "Apple Leads 2026 Big‑Tech Earnings Season With Market‑Moving Results Across Industry",
       "urls": [
         "https://valueaddvc.com/big-tech-earnings"
@@ -4163,7 +4156,15 @@
         "https://timesofsandiego.com/state-region/2026/07/09/recoverca-program-aid-residents-flooding"
       ],
       "date": "2026-07-29T22:01:45.227559+00:00"
+    },
+    {
+      "title": "OpenAI AI Systems Expand From Diagnosis to Wellness in Healthcare Sector",
+      "urls": [
+        "https://news.gatech.edu/news/2026/07/29/diagnosis-wellness-ais-healthcare-revolution",
+        "https://www.medscape.com/viewarticle/can-ai-match-physicians-judgment-not-just-diagnosis-2026a1000jzi"
+      ],
+      "date": "2026-07-29T22:31:31.089452+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T22:01:45.227627+00:00"
+  "lastUpdated": "2026-07-29T22:31:31.089519+00:00"
 }
