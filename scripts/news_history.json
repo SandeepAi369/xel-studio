@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Health Care Trends Shape 2026 Landscape With New Technology Driving Diagnosis and Patient Care",
-      "urls": [
-        "https://www.aanp.org/news-feed/top-five-health-care-trends-for-2026-how-new-technology-is-transforming-patient-care"
-      ],
-      "date": "2026-07-19T11:01:27.278316+00:00"
-    },
-    {
       "title": "Google DeepMind Unveils New Gemini AI Models Driving Global Adoption",
       "urls": [
         "https://deepmind.google/blog",
@@ -4185,7 +4178,14 @@
         "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news"
       ],
       "date": "2026-07-29T10:31:38.662195+00:00"
+    },
+    {
+      "title": "IntuitionLabs Publishes 2026 Pharma AI Vendor Landscape Report Mapping Drug Discovery Tools",
+      "urls": [
+        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
+      ],
+      "date": "2026-07-29T11:01:32.870960+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T10:31:38.662260+00:00"
+  "lastUpdated": "2026-07-29T11:01:32.871034+00:00"
 }
