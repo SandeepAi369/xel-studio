@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mongabay, ScienceDaily, and Center for Biological Diversity Expand Online Biodiversity Coverage",
-      "urls": [
-        "https://news.mongabay.com",
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://www.biologicaldiversity.org/news/press_releases"
-      ],
-      "date": "2026-07-19T01:31:21.788263+00:00"
-    },
-    {
       "title": "Pacific Ring of Fire Experiences Surge In Earthquakes And Volcanic Activity",
       "urls": [
         "https://www.youtube.com/watch?v=C5FNFq17L_k",
@@ -4220,7 +4211,15 @@
         "https://www.youtube.com/watch?v=cF65AyjvOKo"
       ],
       "date": "2026-07-29T01:01:52.022144+00:00"
+    },
+    {
+      "title": "Global Seismic Activity Rises as Reykjanes Magma Shift Signals Potential Volcanic Threat",
+      "urls": [
+        "https://www.facebook.com/Abovethenormnews/videos/-global-seismic-activity-picks-up-overnight-july-2-2026-early-morning-updatea-bu/1738343157306912",
+        "https://www.youtube.com/watch?v=L0FURDUJCTo"
+      ],
+      "date": "2026-07-29T01:31:34.742662+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T01:01:52.022219+00:00"
+  "lastUpdated": "2026-07-29T01:31:34.742747+00:00"
 }
