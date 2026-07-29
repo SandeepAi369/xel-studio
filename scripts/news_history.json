@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Humanoid Robot Hype Drives Surge in Investor Capital and Shifts Industrial Robot Landscape",
-      "urls": [
-        "https://www.manufacturingdive.com/news/humanoid-hype-surging-investor-capital-state-of-industrial-robots/824040"
-      ],
-      "date": "2026-07-19T06:01:28.440085+00:00"
-    },
-    {
       "title": "J.P. Morgan Releases 2026 Climate Tech Report Highlighting Startup Trends",
       "urls": [
         "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
@@ -4198,7 +4191,17 @@
         "https://news.crunchbase.com/web3-startups-investors"
       ],
       "date": "2026-07-29T05:31:37.737056+00:00"
+    },
+    {
+      "title": "Info-Tech Research Group Finds Quantum Annealers Deliver Value While Gate‑Based Systems Lag",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/quantum-annealers-deliver-value-today-192700548.html",
+        "https://markets.businessinsider.com/news/stocks/qtrex-launches-quantum-interconnect-research-program-with-commercialization-rights-to-project-generated-ip-1036366682",
+        "https://www.msn.com/en-us/money/topstocks/this-quantum-computing-stock-recently-went-public-and-it-could-be-the-buy-of-the-year/ar-AA26UCJ7?ocid=BingNewsVerp",
+        "https://wtop.com/news/2026/07/8-best-quantum-computing-stocks-to-buy-in-2026"
+      ],
+      "date": "2026-07-29T06:01:31.909204+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T05:31:37.737117+00:00"
+  "lastUpdated": "2026-07-29T06:01:31.909287+00:00"
 }
