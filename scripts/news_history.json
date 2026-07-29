@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Unveils New Gemini AI Models Driving Global Adoption",
-      "urls": [
-        "https://deepmind.google/blog",
-        "https://www.instagram.com/reel/DV_IjKrjhyY",
-        "https://www.youtube.com/watch?v=VdBa8L1y8Ho",
-        "https://www.youtube.com/watch?v=gRtQnJ_WAxg",
-        "https://www.youtube.com/watch?v=41tvedMfPsY",
-        "https://skycrumbs.com/blog/google-deepmind-2026"
-      ],
-      "date": "2026-07-19T11:31:17.774485+00:00"
-    },
-    {
       "title": "JPMorgan Reaffirms Inflation Outlook as Headline Prices Ease but Core Pressures Remain High",
       "urls": [
         "https://www.thestreet.com/economy/jpmorgan-doubles-down-on-economy-inflation-outlook",
@@ -4185,7 +4173,14 @@
         "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
       ],
       "date": "2026-07-29T11:01:32.870960+00:00"
+    },
+    {
+      "title": "OpenAI Gains U.S. Regulatory Approval for GPT‑5.6 Model Rollout Expanding Access to Developers",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/openai-secures-us-regulatory-green-light-for-gpt-5-6-rollout-axios-report-says/ar-AA27sBiH?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-29T11:31:20.706602+00:00"
     }
   ],
-  "lastUpdated": "2026-07-29T11:01:32.871034+00:00"
+  "lastUpdated": "2026-07-29T11:31:20.706720+00:00"
 }
