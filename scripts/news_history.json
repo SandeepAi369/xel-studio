@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dow Surges 600 Points to Record as Tech Stocks Slip",
-      "urls": [
-        "https://www.cnbc.com/2026/07/14/stock-market-today-live-updates.html",
-        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-24-2026",
-        "https://www.msn.com/en-us/money/markets/markets-news-july-2-2024-dow-jumps-600-points-to-record-while-tech-stock-sell-off-sends-nasdaq-lower-major-indexes-post-gains-for-the-week/ar-AA273xfd?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-20T03:31:18.948091+00:00"
-    },
-    {
       "title": "Robotics Industry Shows Steady Growth From 2000 to 2026 in New Data Report",
       "urls": [
         "https://seekingalpha.com/article/4919450-robotics-then-now-2000-2026-by-numbers"
@@ -4175,7 +4166,14 @@
         "https://www.ibtimes.com/openai-has-released-its-latest-series-ai-models-ceo-sam-altman-says-that-they-increase-efficiency-3805128"
       ],
       "date": "2026-07-30T03:01:53.078889+00:00"
+    },
+    {
+      "title": "Tech Ceo Statements Leadership Announcements News — Latest Developments and Key Updates",
+      "urls": [
+        "https://siliconangle.com/2026/06/30/chinas-meituan-open-sources-massive-longcat-2-0-ai-model-saying-trained-domestic-chips"
+      ],
+      "date": "2026-07-30T03:31:30.264040+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T03:01:53.078957+00:00"
+  "lastUpdated": "2026-07-30T03:31:30.264107+00:00"
 }
