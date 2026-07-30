@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Academies of Sciences, Engineering, and Medicine Featured in New Web Page Title",
-      "urls": [
-        "https://www.nationalacademies.org"
-      ],
-      "date": "2026-07-20T20:01:48.511533+00:00"
-    },
-    {
-      "title": "MiniMax Announces Giant 2.7 Trillion Parameter Model to Boost China’s AI Capabilities",
-      "urls": [
-        "https://www.msn.com/en-us/money/other/chinas-minimax-plans-to-launch-giant-27-trillion-parameter-model/ar-AA27tVOW?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-20T20:31:22.621912+00:00"
-    },
-    {
       "title": "Rhode Island Secures Five Gold Medals at 2026 Special Olympics USA Games",
       "urls": [
         "https://www.msn.com/en-us/sports/general/special-olympics-athletes-from-the-lowcountry-return-home-with-medals/ar-AA28hQ3W?ocid=BingNewsVerp",
@@ -4195,7 +4181,15 @@
         "https://www.msn.com/en-us/news/other/more-than-500-missing-after-two-refugee-boats-vanish-off-myanmar-coast-un-agencies-say/ar-AA281H3o?ocid=BingNewsVerp"
       ],
       "date": "2026-07-30T20:01:31.971234+00:00"
+    },
+    {
+      "title": "Zero1Gaming Launches Public Beta Platform Uniting Live Streaming, Leaderboards, and Esports News",
+      "urls": [
+        "https://www.manilatimes.net/2026/06/25/tmt-newswire/plentisoft/zero1gaming-launches-public-beta-bringing-live-streaming-leaderboards-and-esports-news-into-one-hub/2373072",
+        "https://www.manilatimes.net/2026/07/03/tmt-newswire/globenewswire/ktc-introduces-h27e6-a-27-inch-wqhd-300hz-monitor-built-for-esports-streaming-creation-and-productivity/2377899"
+      ],
+      "date": "2026-07-30T20:32:06.793119+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T20:01:31.971316+00:00"
+  "lastUpdated": "2026-07-30T20:32:06.793194+00:00"
 }
