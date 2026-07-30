@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Robotics Industry Shows Steady Growth From 2000 to 2026 in New Data Report",
-      "urls": [
-        "https://seekingalpha.com/article/4919450-robotics-then-now-2000-2026-by-numbers"
-      ],
-      "date": "2026-07-20T04:01:32.124299+00:00"
-    },
-    {
-      "title": "Google Cloud Unveils AI Infrastructure Platform at Next 26 Event",
-      "urls": [
-        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
-        "https://aibusiness.com/verticals/cloud-computing",
-        "https://www.reddit.com/r/devops/comments/1ocgcm3/anyone_experimenting_with_with_ai_for_cloudinfra",
-        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
-        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
-        "https://www.youtube.com/watch?v=uEKJFPEqx9s",
-        "https://www.youtube.com/watch?v=MVBBcES6y3s&vl=en",
-        "https://www.youtube.com/watch?v=UNvUPRiV_Dg"
-      ],
-      "date": "2026-07-20T04:31:26.048541+00:00"
-    },
-    {
       "title": "Hugging Face Showcases Trending AI Research Papers on New Online Hub",
       "urls": [
         "https://huggingface.co/papers/trending",
@@ -4182,7 +4161,17 @@
         "https://www.finanznachrichten.de/nachrichten-2026-07/69157834-arizton-advisory-intelligence-europe-hyperscale-data-center-market-to-reach-usd-139-90-billion-by-2031-cloud-ai-and-infrastructure-investments-c-008.htm"
       ],
       "date": "2026-07-30T04:01:28.234522+00:00"
+    },
+    {
+      "title": "DatainsightsMarket Releases Comprehensive Assistive Technology Overview For Visually Impaired Users",
+      "urls": [
+        "https://journals.sagepub.com/doi/10.1177/00224669261424860",
+        "https://link.springer.com/article/10.1007/s44217-026-01173-x",
+        "https://www.datainsightsmarket.com/reports/assistive-technologies-devices-for-visual-impairment-1360592",
+        "https://www.datainsightsmarket.com/reports/assistive-technology-for-visually-impaired-1002871"
+      ],
+      "date": "2026-07-30T04:31:32.777498+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T04:01:28.234585+00:00"
+  "lastUpdated": "2026-07-30T04:31:32.777575+00:00"
 }
