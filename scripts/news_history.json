@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Zealand Calls for New Immigration Framework to Address Humanitarian Crises",
-      "urls": [
-        "https://www.scoop.co.nz/stories/PO2606/S00125/nz-needs-new-immigration-framework-for-humanitarian-crises.htm"
-      ],
-      "date": "2026-07-20T03:01:27.559183+00:00"
-    },
-    {
       "title": "Dow Surges 600 Points to Record as Tech Stocks Slip",
       "urls": [
         "https://www.cnbc.com/2026/07/14/stock-market-today-live-updates.html",
@@ -4173,7 +4166,16 @@
         "https://www.msn.com/en-us/money/markets/us-stock-futures-slip-as-iran-targets-american-forces-ahead-of-big-tech-earnings-skhy-sndk-be-sofi-in-focus/ar-AA28UO5v?ocid=BingNewsVerp"
       ],
       "date": "2026-07-30T02:31:35.876679+00:00"
+    },
+    {
+      "title": "5.5 Instant, announcing it as the new default model for ChatGPT, replacing the earlier default version across the platform. The",
+      "urls": [
+        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
+        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+        "https://www.ibtimes.com/openai-has-released-its-latest-series-ai-models-ceo-sam-altman-says-that-they-increase-efficiency-3805128"
+      ],
+      "date": "2026-07-30T03:01:53.078889+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T02:31:35.876748+00:00"
+  "lastUpdated": "2026-07-30T03:01:53.078957+00:00"
 }
