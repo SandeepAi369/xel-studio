@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "VolcanoDiscovery Publishes July 2026 World Earthquake Report Detailing Global Seismic Activity",
-      "urls": [
-        "https://www.volcanodiscovery.com/view_news/318265/World-Earthquake-Report-for-July-2026.html",
-        "https://www.volcanodiscovery.com/view_news/303981/World-Earthquake-Report-for-June-2026.html"
-      ],
-      "date": "2026-07-20T22:31:20.415695+00:00"
-    },
-    {
       "title": "DigitalNewsBreak Highlights Seven Revolutionary Science Discoveries Set To Transform 2026",
       "urls": [
         "https://www.sciencedaily.com",
@@ -4187,7 +4179,14 @@
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
       ],
       "date": "2026-07-30T22:06:28.368760+00:00"
+    },
+    {
+      "title": "United Nations Advances AI Tools to Boost Inclusion for Persons With Disabilities",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities"
+      ],
+      "date": "2026-07-30T22:31:34.177977+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T22:06:28.368834+00:00"
+  "lastUpdated": "2026-07-30T22:31:34.178046+00:00"
 }
