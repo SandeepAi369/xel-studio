@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yale Researchers Propose Copyleft Licensing to Shape Future of Generative AI",
-      "urls": [
-        "https://news.yale.edu/2026/06/15/yale-researchers-propose-copyleft-rules-generative-ai"
-      ],
-      "date": "2026-07-20T00:01:50.192688+00:00"
-    },
-    {
       "title": "ECOWAS Delivers Assistive Devices to Nigeria Boosting Regional Disability Inclusion",
       "urls": [
         "https://thenationonlineng.net/ecowas-hands-nigeria-assistive-devices-push-for-disability-inclusion",
@@ -4173,7 +4166,16 @@
         "https://www.tmcnet.com/usubmit/2026/07/29/10422149.htm"
       ],
       "date": "2026-07-30T00:01:42.532750+00:00"
+    },
+    {
+      "title": "DOGE Deploys AI to Shape Housing Policy Amid Government Secrecy",
+      "urls": [
+        "https://www.wired.com/story/doge-deployed-ai-housing-policy",
+        "https://www.gulftoday.ae/opinion/2026/07/28/ai-has-no-future-without-credible-regulation-for-sure",
+        "https://www.msn.com/en-us/news/technology/openai-s-rogue-hacking-incident-was-a-warning-shot-will-it-be-a-wake-up-call-to-finally-create-ai-safety-regulation/ar-AA28tRwy?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-30T00:31:31.294063+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T00:01:42.532834+00:00"
+  "lastUpdated": "2026-07-30T00:31:31.294124+00:00"
 }
