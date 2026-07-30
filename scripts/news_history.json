@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Showcases Trending AI Research Papers on New Online Hub",
-      "urls": [
-        "https://huggingface.co/papers/trending",
-        "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face"
-      ],
-      "date": "2026-07-20T05:01:30.356085+00:00"
-    },
-    {
       "title": "Disability Inclusion Advances Through AI‑Powered Assistive Technology and Expanded Skilling Programs",
       "urls": [
         "https://www.bwhealthcareworld.com/article/disability-inclusion-gains-momentum-with-skilling-assistive-tech-and-ai-push-592204",
@@ -4171,7 +4163,14 @@
         "https://www.datainsightsmarket.com/reports/assistive-technology-for-visually-impaired-1002871"
       ],
       "date": "2026-07-30T04:31:32.777498+00:00"
+    },
+    {
+      "title": "Mental Health Report Highlights Five Trends Aiming to Close Access Gap by 2026",
+      "urls": [
+        "https://www.msn.com/en-us/society-culture-and-history/social-issues/5-mental-health-trends-for-2026-closing-the-gap-to-access-and-care/ar-AA22rcQI?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-30T05:01:42.320640+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T04:31:32.777575+00:00"
+  "lastUpdated": "2026-07-30T05:01:42.320701+00:00"
 }
