@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "McKinsey Publishes Global Economic Outlook 2026 Forecast for International Markets",
-      "urls": [
-        "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/economic-conditions-outlook"
-      ],
-      "date": "2026-07-20T13:31:34.497005+00:00"
-    },
-    {
-      "title": "Vision Buddy Unveils 2026 Assistive Tech Roadmap for the Visually Impaired",
-      "urls": [
-        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired"
-      ],
-      "date": "2026-07-20T14:01:45.074074+00:00"
-    },
-    {
       "title": "CES Showcases Cutting‑Edge Digital Health Innovations Transforming Patient Care At 2026 Exhibition",
       "urls": [
         "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
@@ -4177,7 +4163,23 @@
         "https://www.youtube.com/watch?v=ZKBaL9N7b8M"
       ],
       "date": "2026-07-30T13:31:28.980047+00:00"
+    },
+    {
+      "title": "Scientists Detect Accelerating Global Warming and Warn of 2°C Summer Heat Spike",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.un.org/en/climatechange/reports",
+        "https://www.nature.com/subjects/climate-change",
+        "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+        "https://www.nature.com/nclimate/articles?year=2026",
+        "https://en.wikipedia.org/wiki/2026_in_climate_change",
+        "https://news.un.org/en/story/2026/05/1167596",
+        "https://insideclimatenews.org/news/17062026/summer-heat-spike-as-global-warming-surges",
+        "https://www.sciencedaily.com/news/earth_climate/climate",
+        "https://www.sciencedaily.com/releases/2026/06/260625060214.htm"
+      ],
+      "date": "2026-07-30T14:01:47.743454+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T13:31:28.980112+00:00"
+  "lastUpdated": "2026-07-30T14:01:47.743517+00:00"
 }
