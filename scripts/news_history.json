@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Warn Summer Heat Spikes Push Global Warming Toward 2°C Threshold",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://insideclimatenews.org/news/17062026/summer-heat-spike-as-global-warming-surges",
-        "https://en.wikipedia.org/wiki/2026_in_climate_change"
-      ],
-      "date": "2026-07-20T06:31:24.539492+00:00"
-    },
-    {
       "title": "United Nations Commits To Overhaul Digital Platforms For Deaf Accessibility",
       "urls": [
         "https://link.springer.com/article/10.1007/s10209-025-01270-y",
@@ -4183,7 +4174,14 @@
         "https://trellis.net/article/timeline-key-climate-nature-methodologies"
       ],
       "date": "2026-07-30T06:31:24.254186+00:00"
+    },
+    {
+      "title": "Milken Institute Details 2026 Asia Summit Emphasizing Smart Leadership for AI‑Driven Future",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/milken-institute-unveils-details-2026-055900616.html"
+      ],
+      "date": "2026-07-30T07:01:39.312079+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T06:31:24.254249+00:00"
+  "lastUpdated": "2026-07-30T07:01:39.312176+00:00"
 }
