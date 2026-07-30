@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "KTC Introduces H27E6 Monitor With WQHD Resolution And 300Hz Refresh For Gaming And Creation",
-      "urls": [
-        "https://www.manilatimes.net/2026/06/25/tmt-newswire/plentisoft/zero1gaming-launches-public-beta-bringing-live-streaming-leaderboards-and-esports-news-into-one-hub/2373072",
-        "https://www.manilatimes.net/2026/07/03/tmt-newswire/globenewswire/ktc-introduces-h27e6-a-27-inch-wqhd-300hz-monitor-built-for-esports-streaming-creation-and-productivity/2377899"
-      ],
-      "date": "2026-07-20T17:01:31.542615+00:00"
-    },
-    {
       "title": "Esports Industry Shifts Toward Sustainable Revenue Models and AI‑Driven Viewer Experiences",
       "urls": [
         "https://esportsinsider.com/2026/01/esports-industry-2026-predictions",
@@ -4180,7 +4172,17 @@
         "https://globalviewsworld.com/world-news-2026-are-you-prepared-for-complexity"
       ],
       "date": "2026-07-30T16:31:40.591519+00:00"
+    },
+    {
+      "title": "Atlantic.Net Highlights Ten Open-Source AI/ML Frameworks Driving Innovation in 2026",
+      "urls": [
+        "https://www.crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
+        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025"
+      ],
+      "date": "2026-07-30T17:01:37.239347+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T16:31:40.591592+00:00"
+  "lastUpdated": "2026-07-30T17:01:37.239419+00:00"
 }
