@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rhode Island Secures Five Gold Medals at 2026 Special Olympics USA Games",
-      "urls": [
-        "https://www.msn.com/en-us/sports/general/special-olympics-athletes-from-the-lowcountry-return-home-with-medals/ar-AA28hQ3W?ocid=BingNewsVerp",
-        "https://www.newstribune.com/news/2026/jul/02/special-olympics-athlete-brings-home-gold",
-        "https://www.msn.com/en-us/sports/athletics/team-arkansas-athletes-shine-early-at-2026-special-olympics-usa-games/ar-AA26dULU?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/sports/other/west-virginia-athletes-return-from-special-olympics-usa-games-with-gold-medals/ar-AA26K3qa?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/sports/other/rhode-island-wins-5-gold-medals-at-the-2026-special-olympics-usa-games/ar-AA26SfiT?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-20T21:01:30.583306+00:00"
-    },
-    {
       "title": "2026 World Cup Sets New Attendance Record Across Host Nations",
       "urls": [
         "https://www.msn.com/en-us/sports/soccer/total-record-breaking-attendance-numbers-revealed-for-2026-world-cup/ar-AA28eJOa?ocid=BingNewsVerp"
@@ -4189,7 +4178,14 @@
         "https://www.manilatimes.net/2026/07/03/tmt-newswire/globenewswire/ktc-introduces-h27e6-a-27-inch-wqhd-300hz-monitor-built-for-esports-streaming-creation-and-productivity/2377899"
       ],
       "date": "2026-07-30T20:32:06.793119+00:00"
+    },
+    {
+      "title": "OpenAI Faces Hugging Face Debacle Highlighting Need For Open AI Models",
+      "urls": [
+        "https://www.theregister.com/ai-and-ml/2026/07/27/openais-hugging-face-debacle-makes-a-great-case-for-open-models/5278498"
+      ],
+      "date": "2026-07-30T21:01:38.674823+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T20:32:06.793194+00:00"
+  "lastUpdated": "2026-07-30T21:01:38.674891+00:00"
 }
