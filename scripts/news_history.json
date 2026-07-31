@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Live Listing Lacks Details, Prompting Calls for Further Information From Publishers",
-      "urls": [
-        "https://www.livemint.com/news/world/total-world-latest-news-on-july-21-2026-live-updates-11784601053114.html"
-      ],
-      "date": "2026-07-21T18:01:41.477267+00:00"
-    },
-    {
       "title": "Richmond Summer Program Expands Tech and Cybersecurity Opportunities for Visually Impaired Students",
       "urls": [
         "https://www.wtvr.com/news/local-news/richmond/summer-program-visual-impaired-students-june-25-2026",
@@ -4189,7 +4182,16 @@
         "https://www.igmguru.com/blog/generative-ai-tools"
       ],
       "date": "2026-07-31T18:01:37.621283+00:00"
+    },
+    {
+      "title": "Hurricane Season Raises Flood Risks and Highlights Insurance Coverage Gaps",
+      "urls": [
+        "https://www.msn.com/en-us/weather/extreme-weather-events/the-most-weather-challenging-states-in-america-in-2026-ranked/ar-AA2832r6?ocid=BingNewsVerp",
+        "https://theconversation.com/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue-287147",
+        "https://www.msn.com/en-us/weather/extreme-weather-events/hurricane-season-raises-flood-risks-exposes-insurance-limits/ar-AA27SsJn?ocid=BingNewsVerp"
+      ],
+      "date": "2026-07-31T18:31:24.670356+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T18:01:37.621356+00:00"
+  "lastUpdated": "2026-07-31T18:31:24.670430+00:00"
 }
