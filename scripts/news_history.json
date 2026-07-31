@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Fight at White House Faces Lawsuit Over Security and Political Use",
-      "urls": [
-        "https://www.sportbusy.com/calendar/2026/july",
-        "https://www.youtube.com/watch?v=JNe2XaSmjz4",
-        "https://www.youtube.com/watch?v=mJENGoYSEsc"
-      ],
-      "date": "2026-07-21T08:31:23.657127+00:00"
-    },
-    {
       "title": "MarkTechPost Publishes Comparative Review of Sixteen Generative AI Coding Tools for 2026",
       "urls": [
         "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026"
@@ -4185,7 +4176,14 @@
         "https://www.nature.com/news"
       ],
       "date": "2026-07-31T08:01:25.414847+00:00"
+    },
+    {
+      "title": "YouTube Posts Full Recap of Team USA Gold Medal Wins From Milan Cortina Winter Olympics",
+      "urls": [
+        "https://www.youtube.com/watch?v=1SwWhSRNQ70"
+      ],
+      "date": "2026-07-31T08:32:45.773525+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T08:01:25.414921+00:00"
+  "lastUpdated": "2026-07-31T08:32:45.773583+00:00"
 }
