@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Washington Guardian Highlights Global Privacy Laws Shaping 2026 Anonymity Standards",
-      "urls": [
-        "https://www.washingtonguardian.com/business/global-privacy-laws-in-2026-how-to-maintain-legal-anonymity-and-cybersecurity",
-        "https://cloudsecurityalliance.org/blog/2026/02/04/global-privacy-trends-and-best-practices-for-compliance-in-2026"
-      ],
-      "date": "2026-07-21T23:01:28.546900+00:00"
-    },
-    {
       "title": "Accelerates Disease Diagnosis, Cutting Wait Times In 2026 Healthcare",
       "urls": [
         "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144"
@@ -4170,7 +4162,14 @@
         "https://science.nasa.gov/climate-change"
       ],
       "date": "2026-07-31T22:31:25.137177+00:00"
+    },
+    {
+      "title": "China Boosts Renewable Power Share Above 40 Percent in First Half of 2026",
+      "urls": [
+        "https://technode.com/2026/07/30/chinas-renewable-energy-generation-surpasses-40-of-total-power-output-for-first-time-in-h1-2026"
+      ],
+      "date": "2026-07-31T23:02:53.048160+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T22:31:25.137238+00:00"
+  "lastUpdated": "2026-07-31T23:02:53.048236+00:00"
 }
