@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters Warns Cutting Wind and Solar Subsidies Will Raise U.S. Electricity Costs",
-      "urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/killing-wind-solar-subsidies-will-make-us-electricity-more-expensive-2026-07-06"
-      ],
-      "date": "2026-07-21T01:31:26.216273+00:00"
-    },
-    {
       "title": "Qualcomm Expands Partnership With Hugging Face to Accelerate Open AI Across Devices and Cloud",
       "urls": [
         "https://www.msn.com/en-us/news/technology/openai-is-scared-of-open-weight-models-should-the-us-be/ar-AA28jnPs?ocid=BingNewsVerp",
@@ -4172,7 +4165,20 @@
         "https://www.paiseec.com/blogs/news/why-innovative-mobility-solutions-are-changing-assistive-tech-in-2026"
       ],
       "date": "2026-07-31T01:01:56.062023+00:00"
+    },
+    {
+      "title": "NASA Releases 2026 Space Launch Schedule Highlighting Moon Trip and New SpaceX Megarocket",
+      "urls": [
+        "https://www.nasa.gov/2026-news-releases",
+        "https://spacenexus.us/guide/space-launch-schedule-2026",
+        "https://spaceflightnow.com/2026",
+        "https://www.spacelaunchschedule.com/2026-launch-schedule",
+        "https://www.usatoday.com/story/news/nation/2025/12/22/spacex-nasa-blue-origin-rocket-launches/87841665007",
+        "https://science.nasa.gov/2026",
+        "https://spaceflightnow.com"
+      ],
+      "date": "2026-07-31T01:31:30.838151+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T01:01:56.062115+00:00"
+  "lastUpdated": "2026-07-31T01:31:30.838216+00:00"
 }
