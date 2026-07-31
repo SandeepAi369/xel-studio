@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils I/O 2026 Blog Hub Detailing Upcoming AI and Developer Announcements",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection"
-      ],
-      "date": "2026-07-21T11:31:21.158163+00:00"
-    },
-    {
       "title": "World Trade Organization Updates Trade Rules With New Technology Standards and Notification Formats",
       "urls": [
         "https://www.wto.org/english/news_e/news26_e/tbt_10jul26_459_e.htm"
@@ -4183,7 +4176,16 @@
         "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html"
       ],
       "date": "2026-07-31T11:01:44.771807+00:00"
+    },
+    {
+      "title": "Reddit Listings Appear Without Details in Recent Search Results Published Online",
+      "urls": [
+        "https://www.reddit.com/r/csMajors/comments/1hw0c0w/apple_vs_microsoft_swe_internship_2025",
+        "https://www.reddit.com/r/Games/comments/1ht1g3u/the_first_gaming_layoffs_of_2025_have_happened",
+        "https://www.reddit.com/r/singularity/comments/1ho1pqa/tech_google_ceo_pichai_tells_employees_to_gear_up"
+      ],
+      "date": "2026-07-31T11:31:21.621189+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T11:01:44.771878+00:00"
+  "lastUpdated": "2026-07-31T11:31:21.621286+00:00"
 }
