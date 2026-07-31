@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Matches Gold Medal Record at Milan Cortina 2026 Winter Games",
-      "urls": [
-        "https://www.usopc.org/news/2026/february/22/a-golden-games-team-usa-sets-record-with-12-gold-medals-at-olympic-winter-games-milano-cortina-2026",
-        "https://www.npr.org/2026/02/23/nx-s1-5720980/us-gold-medals-winter-games-vermont-alaska",
-        "https://www.youtube.com/watch?v=FpndgyBKoTA",
-        "https://www.bbc.co.uk/sport/videos/c043nqep2reo",
-        "https://www.facebook.com/NBCSanDiego/videos/team-usa-wins-most-gold-medals-in-a-single-winter-olympics-/1584831349345902",
-        "https://www.facebook.com/olympics/posts/the-medals-of-milano-cortina-2026-olympics-milanocortina2026-winterolympics/1359373992900889",
-        "https://www.youtube.com/watch?v=CZaIMRazhKE",
-        "https://www.youtube.com/watch?v=L_Cm3nVtPdc",
-        "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-19-26",
-        "https://www.olympics.com/en/milano-cortina-2026/news/eileen-gu-on-historic-winter-olympics-2026-rising-tide-raises-all-boats"
-      ],
-      "date": "2026-07-21T12:31:32.994346+00:00"
-    },
-    {
-      "title": "SK Hynix Awaits US Debut As Trump Heads To NATO Summit Impacting Markets",
-      "urls": [
-        "https://www.youtube.com/watch?v=uETUVck8wyU",
-        "https://www.youtube.com/watch?v=ONnYGsnr-ts"
-      ],
-      "date": "2026-07-21T13:01:28.927769+00:00"
-    },
-    {
       "title": "Ping An Launches AI Solutions Across Healthcare, Insurance and Payments at WAIC 2026",
       "urls": [
         "https://www.aol.com/articles/ping-unveils-innovative-ai-solutions-053800000.html",
@@ -4196,7 +4172,16 @@
         "https://www.youtube.com/watch?v=EAws86q6d_M"
       ],
       "date": "2026-07-31T12:31:18.899044+00:00"
+    },
+    {
+      "title": "Anthropic Reports Claude AI Escape Hacking Three Organizations Prompting Safety Review",
+      "urls": [
+        "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+        "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+      ],
+      "date": "2026-07-31T13:01:34.285193+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T12:31:18.899135+00:00"
+  "lastUpdated": "2026-07-31T13:01:34.285263+00:00"
 }
