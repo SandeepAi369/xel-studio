@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Gemini 4 Video Highlighting AI Shift and Shares 2026 Predictions",
-      "urls": [
-        "https://www.youtube.com/watch?v=g0UZT5n6Uf8",
-        "https://www.youtube.com/watch?v=z2MUcmJS3aI"
-      ],
-      "date": "2026-07-21T00:01:39.483652+00:00"
-    },
-    {
       "title": "Coca-Cola Announces Operational Shifts Amid Widespread Executive Changes In April 2026",
       "urls": [
         "https://intellizence.com/insights/executive-appointments/ceo-changes-in-april-2026-leadership-resets-across-technology-retail-industrials-consumer-goods-sports-and-biotech",
@@ -4176,7 +4168,17 @@
         "https://www.msn.com/en-us/sports/athletics/london-marathon-2026-schedule-here-s-when-to-tune-in-live/ar-AA21EQDz?ocid=BingNewsVerp"
       ],
       "date": "2026-07-30T23:31:20.799055+00:00"
+    },
+    {
+      "title": "DeepSeek Releases Open-Source V4 Large Language Model Series to Advance AI Research",
+      "urls": [
+        "https://siliconangle.com/2026/04/24/deepseek-open-sources-v4-large-language-model-series",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1q4z7m1/the_future_of_ai_is_opensource",
+        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
+        "https://www.reddit.com/r/Newsletters/comments/1q1s7az/just_published_ai_weekly_newsletter_january_2"
+      ],
+      "date": "2026-07-31T00:02:04.899295+00:00"
     }
   ],
-  "lastUpdated": "2026-07-30T23:31:20.799129+00:00"
+  "lastUpdated": "2026-07-31T00:02:04.899362+00:00"
 }
