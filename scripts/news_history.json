@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "The World Now Launches Live Global Map Tracking Conflicts and Disasters in Real Time",
-      "urls": [
-        "https://www.the-world-now.com/live-world-map",
-        "https://pocketworld.org/disasters",
-        "https://www.youtube.com/@DisasterToday"
-      ],
-      "date": "2026-07-21T15:31:21.332368+00:00"
-    },
-    {
       "title": "PyTorch Captures 55 Percent of AI Research Share, Highlighting TensorFlow TPU Gap",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026-2"
@@ -4178,7 +4169,16 @@
         "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
       ],
       "date": "2026-07-31T15:01:41.087673+00:00"
+    },
+    {
+      "title": "Anthropic Urges States to Accelerate AI Regulation Amid Growing Technology Risks",
+      "urls": [
+        "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster",
+        "https://www.reuters.com/legal/government/anthropic-donate-20-million-us-political-group-that-supports-ai-regulation-2026-07-22",
+        "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model"
+      ],
+      "date": "2026-07-31T15:31:36.399043+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T15:01:41.087733+00:00"
+  "lastUpdated": "2026-07-31T15:31:36.399121+00:00"
 }
