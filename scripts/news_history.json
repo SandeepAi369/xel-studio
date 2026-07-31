@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Pushes Immediate Iran Peace Deal Amid Rising Tensions",
-      "urls": [
-        "https://www.nytimes.com/2026/07/17/world/middleeast/iran-us-war-peace-talks-strategies.html",
-        "https://www.aljazeera.com/news/2026/7/10/us-iran-war-will-peace-talks-ever-resume-and-when",
-        "https://www.britannica.com/event/2026-Iran-war",
-        "https://press.un.org/en/2026/sc16405.doc.htm",
-        "https://www.yahoo.com/news/politics/articles/war-diplomacy-shape-negotiations-next-122159181.html",
-        "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by",
-        "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz",
-        "https://www.diplomacy.edu/blog/geneva-peace-talks-a-test-of-mediation-diplomacy-in-2026",
-        "https://moderndiplomacy.eu/2026/07/16/russia-sees-no-immediate-return-to-ukraine-peace-talks"
-      ],
-      "date": "2026-07-21T07:01:50.059488+00:00"
-    },
-    {
-      "title": "Healthcare Industry Highlights Eight Transformative Technology Trends for 2026 Global Outlook",
-      "urls": [
-        "https://www.forbes.com/sites/bernardmarr/2025/10/27/the-8-biggest-healthcare-technology-trends-to-watch-in-2026",
-        "https://www.youtube.com/watch?v=QSE4FcT4z_g",
-        "https://stemcellthailand.org/top-medical-breakthroughs",
-        "https://scitechdaily.com/news/health",
-        "https://www.youtube.com/watch?v=ZS9Rh_1sJjw",
-        "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends"
-      ],
-      "date": "2026-07-21T07:31:19.592456+00:00"
-    },
-    {
       "title": "Alphabet, Tesla and Intel Drive Market Outlook Ahead of Big Tech Earnings",
       "urls": [
         "https://www.investopedia.com/what-to-expect-in-markets-this-week-alphabet-tesla-and-intel-headline-big-tech-earnings-reports-12020649"
@@ -4195,7 +4168,18 @@
         "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026"
       ],
       "date": "2026-07-31T07:01:40.241451+00:00"
+    },
+    {
+      "title": "Bora Secures $2.5 Billion Deal to Shift Generative AI From Drug Discovery to Factories",
+      "urls": [
+        "https://www.news-medical.net/news/20260730/Insilico-unveils-standardized-evaluation-framework-to-validate-AI-driven-drug-discovery-models.aspx",
+        "https://uk.finance.yahoo.com/news/generative-ai-drug-discovery-revolutionizing-145500962.html",
+        "https://finance.yahoo.com/healthcare/articles/insilico-medicine-launches-industrys-first-130000486.html",
+        "https://www.msn.com/en-us/health/other/generative-ai-moves-from-drug-discovery-to-drug-factories-in-25b-bora-deal/ar-AA27YZx2?ocid=BingNewsVerp",
+        "https://finance.yahoo.com/technology/ai/articles/ono-pharmaceutical-partners-phylo-embed-160000621.html"
+      ],
+      "date": "2026-07-31T07:31:21.838752+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T07:01:40.241506+00:00"
+  "lastUpdated": "2026-07-31T07:31:21.838821+00:00"
 }
