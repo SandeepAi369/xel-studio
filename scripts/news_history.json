@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ReciteMe Launches Comprehensive Online Hub for Blind and Visually Impaired Assistive Technology",
-      "urls": [
-        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
-        "https://reciteme.com/us/news/assistive-technology-for-the-blind-and-visually-impaired"
-      ],
-      "date": "2026-07-21T15:01:40.714253+00:00"
-    },
-    {
       "title": "The World Now Launches Live Global Map Tracking Conflicts and Disasters in Real Time",
       "urls": [
         "https://www.the-world-now.com/live-world-map",
@@ -4178,7 +4170,15 @@
         "https://www.britannica.com/event/2026-Iran-war"
       ],
       "date": "2026-07-31T14:31:30.268446+00:00"
+    },
+    {
+      "title": "YouTube Highlights Eleven Clinical Trials Set To Influence Medicine In 2026",
+      "urls": [
+        "https://www.youtube.com/watch?v=ywrxwZ6LDCw",
+        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
+      ],
+      "date": "2026-07-31T15:01:41.087673+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T14:31:30.268518+00:00"
+  "lastUpdated": "2026-07-31T15:01:41.087733+00:00"
 }
