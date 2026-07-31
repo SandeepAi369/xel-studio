@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Qualcomm Expands Partnership With Hugging Face to Accelerate Open AI Across Devices and Cloud",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/openai-is-scared-of-open-weight-models-should-the-us-be/ar-AA28jnPs?ocid=BingNewsVerp",
-        "https://www.businesswire.com/news/home/20260624641281/en/Qualcomm-and-Hugging-Face-Expand-Relationship-to-Advance-Open-Developer-Driven-AI-from-Device-to-Cloud",
-        "https://www.technologyreview.com/2026/04/21/1135658/china-open-source-models-ai-artificial-intelligence"
-      ],
-      "date": "2026-07-21T02:01:43.249597+00:00"
-    },
-    {
       "title": "Communication Service for the Deaf Appoints Karen Peltz Strauss to Strengthen Board Leadership",
       "urls": [
         "https://www.aol.com/articles/communication-deaf-appoints-karen-peltz-193900000.html"
@@ -4186,7 +4177,16 @@
         "https://www.unrefugees.org/emergencies/ukraine"
       ],
       "date": "2026-07-31T02:01:40.137539+00:00"
+    },
+    {
+      "title": "Bloomberg Reports China AI Breakthrough Deepens YouTube Chip Revenue Decline",
+      "urls": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "https://www.youtube.com/watch?v=WmaqPvouOiQ",
+        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence"
+      ],
+      "date": "2026-07-31T02:31:30.388225+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T02:01:40.137603+00:00"
+  "lastUpdated": "2026-07-31T02:31:30.388303+00:00"
 }
