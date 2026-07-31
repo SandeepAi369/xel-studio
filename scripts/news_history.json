@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democracy Now! Listed In Search Results With Minimal Context and Reddit Placeholders",
-      "urls": [
-        "https://www.democracynow.org",
-        "https://www.reddit.com/r/changemyview/comments/1qt5t42/cmv_the_fact_that_the_two_most_recent_recent",
-        "https://www.reddit.com/r/AskConservatives/comments/1qsrod8/what_do_you_think_tonights_special_election_means",
-        "https://www.reddit.com/r/Thailand/comments/1qqkxip/the_peoples_party_is_currently_leading_the_2026",
-        "https://www.reddit.com/r/IfBooksCouldKill/comments/1qovl7p/does_america_need_a_deeper_state_to_save_it_a"
-      ],
-      "date": "2026-07-21T03:01:34.090365+00:00"
-    },
-    {
       "title": "DataNorth AI Releases Updated Top Ten AI Tools List for 2026 Q2",
       "urls": [
         "https://www.reddit.com/r/AI_Agents/comments/1u350sn/most_underrated_ai_apps_tools_in_2026_heres_what",
@@ -4190,7 +4179,14 @@
         "https://www.270towin.com/news"
       ],
       "date": "2026-07-31T03:01:33.996424+00:00"
+    },
+    {
+      "title": "SportifyHQ Explores Global Sports Landscape and Emerging Trends for 2026",
+      "urls": [
+        "https://sportifyhq.com/articles/future-of-global-sports-2026"
+      ],
+      "date": "2026-07-31T03:31:20.503702+00:00"
     }
   ],
-  "lastUpdated": "2026-07-31T03:01:33.996489+00:00"
+  "lastUpdated": "2026-07-31T03:31:20.503771+00:00"
 }
