@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mongabay Highlights Conservation News While Social Platforms Share Good Stories",
-      "urls": [
-        "https://news.mongabay.com/list/biodiversity",
-        "https://www.facebook.com/SamBentley/videos/good-news-to-start-your-2026/3374215706067303",
-        "https://www.instagram.com/reel/DTQeH1iiOTs",
-        "https://www.tiktok.com/@sambentley/video/7593044248375741718"
-      ],
-      "date": "2026-07-22T13:01:34.794312+00:00"
-    },
-    {
       "title": "CDC Reports Estimated One in 31 Children in America Have Autism",
       "urls": [
         "https://www.facebook.com/WorldNewsTonight/videos/cdc-estimated-1-in-31-children-in-america-has-autism/3080732415434985"
@@ -4157,7 +4147,18 @@
         "https://www.youtube.com/watch?v=_P0vUQ6BcOM"
       ],
       "date": "2026-08-01T12:31:53.346541+00:00"
+    },
+    {
+      "title": "WebX Brings Global Blockchain Leaders Together at Tokyo Conference",
+      "urls": [
+        "https://redwerk.com/blog/top-web3-events-crypto-conferences",
+        "https://events.coinpedia.org/webx-2026-tokyo-8539",
+        "https://vendelux.com/blog/crypto-blockchain-web3-conferences-2026",
+        "https://events.coinpedia.org",
+        "https://www.paulsimroth.at/blog/blockchain-trends-2026"
+      ],
+      "date": "2026-08-01T13:01:46.683262+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T12:31:53.346613+00:00"
+  "lastUpdated": "2026-08-01T13:01:46.683342+00:00"
 }
