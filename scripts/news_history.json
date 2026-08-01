@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT-5.5 Model Advancing Language Capabilities Ahead of GPT-6",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
-        "https://www.youtube.com/watch?v=RspKXuNi_iE",
-        "https://www.youtube.com/watch?v=vzAII7vUj68"
-      ],
-      "date": "2026-07-22T22:01:39.944280+00:00"
-    },
-    {
       "title": "Trump Arrives In Ankara As NATO Unveils New Defence Projects Ahead Of Summit",
       "urls": [
         "https://www.msn.com/en-in/news/other/world-news-today-live-updates-on-july-8-2026-trump-lands-in-ankara-as-nato-unveils-new-defence-projects-to-win-him-over-ahead-of-summit/ar-AA27qpMN?ocid=BingNewsVerp"
@@ -4175,7 +4164,14 @@
         "https://www.tiktok.com/@mattfarmerai/video/7657846945322388756"
       ],
       "date": "2026-08-01T22:01:30.113839+00:00"
+    },
+    {
+      "title": "IEA Publishes Global Electricity Supply Analysis for 2026 Energy Outlook",
+      "urls": [
+        "https://www.iea.org/reports/electricity-2026/supply"
+      ],
+      "date": "2026-08-01T22:31:30.013102+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T22:01:30.113915+00:00"
+  "lastUpdated": "2026-08-01T22:31:30.013179+00:00"
 }
