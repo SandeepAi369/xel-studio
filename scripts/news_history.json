@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "AI.cc Adds Access to Over 500 Hugging Face Open-Source Models via Unified API",
-      "urls": [
-        "https://www.newsherald.com/press-release/story/88390/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api"
-      ],
-      "date": "2026-07-22T14:31:30.459548+00:00"
-    },
-    {
       "title": "Rylo Highlights Emerging Assistive Technologies Transforming Deaf Communication And Inclusion Landscape",
       "urls": [
         "https://rylo.com/post/latest-innovations-in-technology-for-deaf"
@@ -4158,7 +4151,15 @@
         "https://www.aichatdaily.com/tools/hugging-face"
       ],
       "date": "2026-08-01T14:01:43.574509+00:00"
+    },
+    {
+      "title": "Predactiv Launches MCP Server and Platform API to Integrate Audience Intelligence with AI Workflows",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/predactiv-launches-mcp-server-platform-100000498.html",
+        "https://www.ciol.com/generative-ai/ai-appreciation-day-2026-industry-looking-beyond-celebration-12168561"
+      ],
+      "date": "2026-08-01T14:31:36.937084+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T14:01:43.574566+00:00"
+  "lastUpdated": "2026-08-01T14:31:36.937149+00:00"
 }
