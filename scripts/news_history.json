@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "S&P Global Releases Top Ten Sustainability Trends Shaping 2026 Markets",
-      "urls": [
-        "https://www.spglobal.com/sustainable1/en/insights/2026-sustainability-trends",
-        "https://www.climateaction.org/news/latest",
-        "https://www.clarkhill.com/news-events/news/esg-sustainability-in-2026-twists-turns-and-trends"
-      ],
-      "date": "2026-07-22T06:31:23.755545+00:00"
-    },
-    {
-      "title": "World Economic Forum Highlights Rising Geopolitical and Economic Risks in 2026 Global Report",
-      "urls": [
-        "https://www.forbes.com/sites/simonchadwick/2026/07/20/money-geopolitics-and-power-dominated-the-world-cup-same-again-in-2030",
-        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
-      ],
-      "date": "2026-07-22T07:01:29.183492+00:00"
-    },
-    {
       "title": "SnapInsta Expands Browser Media Downloader With New Feature Enhancements for User Experience",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/snapinsta-announces-continued-enhancements-to-browser-based-media-download-platform-1036313435"
@@ -4177,7 +4160,14 @@
         "https://www.jurist.org/news/2026/03/un-climate-chief-promotes-renewable-energy-amidst-oil-price-crisis"
       ],
       "date": "2026-08-01T06:31:23.462191+00:00"
+    },
+    {
+      "title": "World Trade Organization TBT Committee Adopts New Notification Formats for Emerging Technology Standards",
+      "urls": [
+        "https://www.wto.org/english/news_e/news26_e/tbt_10jul26_459_e.htm"
+      ],
+      "date": "2026-08-01T07:01:35.492254+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T06:31:23.462245+00:00"
+  "lastUpdated": "2026-08-01T07:01:35.492333+00:00"
 }
