@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Edge Impulse Wins MLOps Innovation Award Highlighting AI Operations Leadership",
-      "urls": [
-        "https://www.eagletribune.com/region/edge-impulse-wins-mlops-innovation-award-in-2026-artificial-intelligence-breakthrough-awards-program/article_4b80142a-e4e0-5a00-b570-8b56dfa464a2.html",
-        "https://www.aol.com/articles/vdura-named-ai-data-management-141500000.html"
-      ],
-      "date": "2026-07-22T11:31:31.558918+00:00"
-    },
-    {
       "title": "Deloitte Publishes Weekly Global Economic Update Highlighting Current Market Trends",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
@@ -4173,7 +4165,14 @@
         "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial"
       ],
       "date": "2026-08-01T11:31:21.914183+00:00"
+    },
+    {
+      "title": "World Economic Forum Highlights Growing Geopolitical and Economic Risks in New Competition Era",
+      "urls": [
+        "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
+      ],
+      "date": "2026-08-01T12:01:31.619600+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T11:31:21.914261+00:00"
+  "lastUpdated": "2026-08-01T12:01:31.619672+00:00"
 }
