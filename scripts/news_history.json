@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lionel Messi Breaks World Cup Scoring Record With Seventeenth Goal",
-      "urls": [
-        "https://www.deccanherald.com/sports/football/fifa-world-cup-2026-lionel-messi-sets-record-with-17th-goal-newsalert-4048732"
-      ],
-      "date": "2026-07-22T21:31:48.986986+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-5.5 Model Advancing Language Capabilities Ahead of GPT-6",
       "urls": [
         "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -4174,7 +4167,15 @@
         "https://www.youtube.com/watch?v=4sF1ff4rMkk"
       ],
       "date": "2026-08-01T21:31:20.613925+00:00"
+    },
+    {
+      "title": "Instagram And TikTok Highlight AI Video Generators Advancing 4K Content Creation",
+      "urls": [
+        "https://www.instagram.com/reel/DaSPv_bKpRD",
+        "https://www.tiktok.com/@mattfarmerai/video/7657846945322388756"
+      ],
+      "date": "2026-08-01T22:01:30.113839+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T21:31:20.613981+00:00"
+  "lastUpdated": "2026-08-01T22:01:30.113915+00:00"
 }
