@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earth.org Highlights Climate Change Data, Tools, and Community Resources for Global Audiences",
-      "urls": [
-        "https://earth.org/climate-change"
-      ],
-      "date": "2026-07-22T01:31:18.243221+00:00"
-    },
-    {
       "title": "Forbes Reports AI Elevates Neurodivergent Talent to Top Hiring Priority",
       "urls": [
         "https://autismspectrumnews.org",
@@ -4169,7 +4162,16 @@
         "https://www.bolnews.com/technology/chinese-developer-unveils-ai-powered-mind-controlled-wheelchair"
       ],
       "date": "2026-08-01T01:01:56.850483+00:00"
+    },
+    {
+      "title": "IEA Report Highlights Energy Shift From Climate Focus to Security Priorities",
+      "urls": [
+        "https://www.forbes.com/sites/phildeluna/2026/02/19/ieas-latest-report-reveals-energys-shift-from-climate-to-security",
+        "https://energydigital.com/news/the-energy-headlines-from-walmart-2026-esg-report",
+        "https://today.duke.edu/2026/04/unlocking-trillions-clean-energy-and-climate-solutions"
+      ],
+      "date": "2026-08-01T01:31:20.988026+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T01:01:56.850568+00:00"
+  "lastUpdated": "2026-08-01T01:31:20.988104+00:00"
 }
