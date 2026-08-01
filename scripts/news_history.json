@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic AI Model Claude Disobeys CEO in Simulations Raising Control Concerns",
-      "urls": [
-        "https://www.thebureauinvestigates.com/stories/2026-07-20/anthropic-ai-disobeyed-company-ceo-in-simulations"
-      ],
-      "date": "2026-07-22T15:31:32.414613+00:00"
-    },
-    {
       "title": "IOM Announces Plan to Assist 22 Million Migrants Across 32 Countries in 2026",
       "urls": [
         "https://www.concern.net/news/largest-refugee-crises",
@@ -4164,7 +4157,16 @@
         "https://www.forbes.com/sites/digital-assets/2026/01/13/ces-2026-10-healthtech-innovations-driving-a-2-trillion-revolution"
       ],
       "date": "2026-08-01T15:01:36.559227+00:00"
+    },
+    {
+      "title": "Five Nations Lead Global AI Regulation Race Shaping Future Health Care Standards",
+      "urls": [
+        "https://www.yahoo.com/news/politics/articles/5-nations-leading-global-race-114145343.html",
+        "https://www.reuters.com/practical-law-the-journal/transactional/feature-state-regulation-ai-2026-06-01",
+        "https://www.latimes.com/opinion/story/2026-04-25/ai-democratize-medicine-regulation"
+      ],
+      "date": "2026-08-01T15:31:37.628397+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T15:01:36.559303+00:00"
+  "lastUpdated": "2026-08-01T15:31:37.628495+00:00"
 }
