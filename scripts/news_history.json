@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nigerian Startup Launches Platform Connecting Young Africans to Mental Health Support",
-      "urls": [
-        "https://www.msn.com/en-xl/africa/top-stories/nigerian-startup-helps-young-africans-find-mental-health-support/ar-AA27E5pO?ocid=BingNewsVerp",
-        "https://www.techtimes.com/articles/316485/20260511/does-digital-detox-really-work-mental-health-productivity-benefits-challenges.htm",
-        "https://www.techtimes.com/articles/316303/20260502/pros-cons-fast-technology-advancement-convenience-productivity-privacy-mental-health.htm",
-        "https://www.techrepublic.com/topic/health"
-      ],
-      "date": "2026-07-22T02:31:19.247014+00:00"
-    },
-    {
       "title": "Democracy Docket Listed as Home Page on Democracydocket.com Providing Access to Democratic Content",
       "urls": [
         "https://www.qwantjunior.com",
@@ -4168,7 +4158,20 @@
         "https://www.msn.com/en-us/news/technology/linus-torvalds-puts-his-foot-down-tells-anti-ai-programmers-to-fork-it/ar-AA284SEU?ocid=BingNewsVerp"
       ],
       "date": "2026-08-01T02:02:03.538381+00:00"
+    },
+    {
+      "title": "Open Source Community Faces AI Integration, Funding Pressure, and Licensing Battles in 2026",
+      "urls": [
+        "https://linuxiac.com/category/news",
+        "https://linuxiac.com/category/news/software",
+        "https://itsfoss.com/news",
+        "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html",
+        "https://www.sourcetrail.com/software/linux-in-2026-from-ai-debates-to-kernel-security-and-distro-updates",
+        "https://fosspost.org",
+        "https://linuxlap.com/category/news"
+      ],
+      "date": "2026-08-01T02:31:28.971262+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T02:02:03.538458+00:00"
+  "lastUpdated": "2026-08-01T02:31:28.971342+00:00"
 }
