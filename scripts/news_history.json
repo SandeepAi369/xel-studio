@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "CDC Reports Estimated One in 31 Children in America Have Autism",
-      "urls": [
-        "https://www.facebook.com/WorldNewsTonight/videos/cdc-estimated-1-in-31-children-in-america-has-autism/3080732415434985"
-      ],
-      "date": "2026-07-22T13:31:26.175365+00:00"
-    },
-    {
-      "title": "Automate 2026 Showcases Surge in Humanoid Robot Development Across Industry Leaders",
-      "urls": [
-        "https://www.automate.org/robotics/industry-insights/everyone-was-talking-about-humanoids-and-physical-at-automate-2026",
-        "https://blog.robozaps.com/b/future-of-humanoid-robots"
-      ],
-      "date": "2026-07-22T14:01:33.866068+00:00"
-    },
-    {
       "title": "AI.cc Adds Access to Over 500 Hugging Face Open-Source Models via Unified API",
       "urls": [
         "https://www.newsherald.com/press-release/story/88390/ai-cc-now-supports-500-hugging-face-open-source-models-via-unified-api"
@@ -4166,7 +4151,14 @@
         "https://relaysd.com/news/transforming-communication-exciting-technologies-for-the-deaf-and-hard-of-hearing"
       ],
       "date": "2026-08-01T13:31:19.959403+00:00"
+    },
+    {
+      "title": "Hugging Face Review Positions Platform as Default Home for Open‑Source AI in 2026",
+      "urls": [
+        "https://www.aichatdaily.com/tools/hugging-face"
+      ],
+      "date": "2026-08-01T14:01:43.574509+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T13:31:19.959469+00:00"
+  "lastUpdated": "2026-08-01T14:01:43.574566+00:00"
 }
