@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports World Cup 2026 Launches in Paris With Record $75 Million Prize Pool",
-      "urls": [
-        "https://www.msn.com/en-in/news/world/esports-world-cup-2026-begins-in-paris-with-record-usd-75-million-prize-pool/ar-AA27yrit?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-22T10:31:43.673812+00:00"
-    },
-    {
-      "title": "TherapyGo Expands AI Mental Health Platform Access to More Licensed Psychologists",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/therapygo-announces-milestone-as-ai-powered-mental-health-platform-expands-access-to-licensed-psychologists-1036280930"
-      ],
-      "date": "2026-07-22T11:01:32.751531+00:00"
-    },
-    {
       "title": "Edge Impulse Wins MLOps Innovation Award Highlighting AI Operations Leadership",
       "urls": [
         "https://www.eagletribune.com/region/edge-impulse-wins-mlops-innovation-award-in-2026-artificial-intelligence-breakthrough-awards-program/article_4b80142a-e4e0-5a00-b570-8b56dfa464a2.html",
@@ -4171,7 +4157,15 @@
         "https://www.euronews.com/my-europe/2026/07/31/italy-suspends-schengen-with-spain-over-ceuta-migrant-crisis-shuts-air-and-sea-borders"
       ],
       "date": "2026-08-01T10:31:31.965205+00:00"
+    },
+    {
+      "title": "Anthropic Deploys Claude Models to Real-World Systems, Uncovers Encryption Weaknesses",
+      "urls": [
+        "https://www.axios.com/2026/07/30/anthropic-mythos-security-testing",
+        "https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html"
+      ],
+      "date": "2026-08-01T11:01:39.991361+00:00"
     }
   ],
-  "lastUpdated": "2026-08-01T10:31:31.965271+00:00"
+  "lastUpdated": "2026-08-01T11:01:39.991455+00:00"
 }
