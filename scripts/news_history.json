@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Emerging CES 2026 Tech Trends in Six‑Minute Video",
-      "urls": [
-        "https://www.youtube.com/watch?v=bbyaqGfWfy8"
-      ],
-      "date": "2026-07-23T21:31:25.729909+00:00"
-    },
-    {
       "title": "North American Startup Funding Shatters Records as AI Drives Investment Surge",
       "urls": [
         "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026",
@@ -4172,7 +4165,15 @@
         "https://environmentamerica.org/center/updates/new-forecast-solar-wind-and-battery-storage-to-dominate-in-2026"
       ],
       "date": "2026-08-02T21:01:42.850402+00:00"
+    },
+    {
+      "title": "Toolchase.com Highlights Major AI Launches and Pricing Shifts as Orangebot.ai Tops Product Hunt",
+      "urls": [
+        "https://toolchase.com/blog/ai-tools-news-2026",
+        "https://orangebot.ai/product-hunt-today"
+      ],
+      "date": "2026-08-02T21:31:26.055455+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T21:01:42.850483+00:00"
+  "lastUpdated": "2026-08-02T21:31:26.055533+00:00"
 }
