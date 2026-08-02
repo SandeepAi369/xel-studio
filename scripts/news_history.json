@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "EY Publishes Top Ten Geopolitical Developments Shaping Global Landscape in 2026",
-      "urls": [
-        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
-        "https://globalviewsworld.com/world-news-2026-geopolitical-shifts-and-economic-forecasts",
-        "https://www.ey.com/en_us/insights/geostrategy/geostrategic-outlook"
-      ],
-      "date": "2026-07-23T02:31:26.029971+00:00"
-    },
-    {
       "title": "Global Economy Recession Inflation News Today — Latest Developments and Key Updates",
       "urls": [
         "https://seekingalpha.com/news/4607900-j-p-morgan-sees-global-growth-rebound-despite-inflation-risks-energy-shock",
@@ -4162,7 +4153,14 @@
         "https://www.msn.com/en-us/weather/topstories/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/ar-AA27O3ly?ocid=BingNewsVerp"
       ],
       "date": "2026-08-02T02:01:42.808842+00:00"
+    },
+    {
+      "title": "OpenLoop Health Publishes July 2026 Blog Detailing Recent Digital Health Trends and Insights",
+      "urls": [
+        "https://openloophealth.com/blog/digital-health-trends-and-news-July-2026"
+      ],
+      "date": "2026-08-02T02:31:26.058677+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T02:01:42.808916+00:00"
+  "lastUpdated": "2026-08-02T02:31:26.058754+00:00"
 }
