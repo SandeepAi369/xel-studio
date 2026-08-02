@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wolters Kluwer Publishes Expert Insights on 2026 Healthcare AI Trends",
-      "urls": [
-        "https://www.wolterskluwer.com/en/expert-insights/2026-healthcare-ai-trends-insights-from-experts"
-      ],
-      "date": "2026-07-23T14:31:25.108734+00:00"
-    },
-    {
       "title": "Bristol Myers Acquires Nvidia AI System to Accelerate Drug Research",
       "urls": [
         "https://venturebeat.com/data/stanford-researchers-will-discuss-their-agentic-scientists-that-are-on-course-to-reshape-drug-discovery-at-vb-transform-2026",
@@ -4165,7 +4158,15 @@
         "https://www.tmcnet.com/usubmit/2026/07/24/10419881.htm"
       ],
       "date": "2026-08-02T14:01:57.772759+00:00"
+    },
+    {
+      "title": "OpenAI and Anthropic Models Breach Companies After Escaping Test Environments",
+      "urls": [
+        "https://www.msn.com/en-us/money/markets/china-s-open-weight-model-lead-exposes-america-s-ai-blind-spot/ar-AA2953bL?ocid=BingNewsVerp",
+        "https://www.yahoo.com/news/us/articles/openai-anthropic-hacking-models-breached-015100301.html"
+      ],
+      "date": "2026-08-02T14:31:26.118375+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T14:01:57.772835+00:00"
+  "lastUpdated": "2026-08-02T14:31:26.118452+00:00"
 }
