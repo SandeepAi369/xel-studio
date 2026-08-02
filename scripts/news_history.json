@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Smart Glasses on Cruise Ships and Autonomous Wheelchairs at CES",
-      "urls": [
-        "https://www.youtube.com/watch?v=frVMBc28LOw",
-        "https://www.youtube.com/watch?v=e-Rmy6pWzSk",
-        "https://www.youtube.com/watch?v=9sfQEBWwuvs"
-      ],
-      "date": "2026-07-23T16:01:53.402589+00:00"
-    },
-    {
-      "title": "FIFA Releases Full Match Schedule For 2026 World Cup Tournament",
-      "urls": [
-        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-        "https://www.bbc.com/sport/articles/c7731pxnr22o"
-      ],
-      "date": "2026-07-23T16:31:20.632561+00:00"
-    },
-    {
       "title": "Accio.com Reports Smart Electric Wheelchair Trends Transforming 2026 Mobility Landscape",
       "urls": [
         "https://1000mobility.com/en/wheelchair-technology-trends-2026",
@@ -4166,7 +4149,14 @@
         "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape"
       ],
       "date": "2026-08-02T16:01:35.151610+00:00"
+    },
+    {
+      "title": "CNN Launches Live Medal Tracker for Milan Winter Olympics Providing Real‑Time Results and Nation Rankings",
+      "urls": [
+        "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-19-26"
+      ],
+      "date": "2026-08-02T16:31:21.748216+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T16:01:35.151675+00:00"
+  "lastUpdated": "2026-08-02T16:31:21.748307+00:00"
 }
