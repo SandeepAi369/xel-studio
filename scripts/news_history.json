@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Showcases New Assistive Devices Replacing Traditional White Sticks for Blind Users",
-      "urls": [
-        "https://www.youtube.com/watch?v=BVZSqtjpgiI",
-        "https://www.youtube.com/watch?v=XAJoh1ZMRas",
-        "https://www.youtube.com/watch?v=bbPA5yqQEaE"
-      ],
-      "date": "2026-07-23T02:01:34.872191+00:00"
-    },
-    {
       "title": "EY Publishes Top Ten Geopolitical Developments Shaping Global Landscape in 2026",
       "urls": [
         "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
@@ -4164,7 +4155,14 @@
         "https://www.youtube.com/watch?v=Div92qqOj7Q"
       ],
       "date": "2026-08-02T01:31:23.301507+00:00"
+    },
+    {
+      "title": "United States Communities Face Disaster Fatigue as Repeated Storms Extend Recovery Cycles",
+      "urls": [
+        "https://www.msn.com/en-us/weather/topstories/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/ar-AA27O3ly?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-02T02:01:42.808842+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T01:31:23.301575+00:00"
+  "lastUpdated": "2026-08-02T02:01:42.808916+00:00"
 }
