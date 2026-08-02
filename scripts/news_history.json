@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Simons Foundation Announces Quantum Dynamics Breakthrough That Challenges Quantum Supremacy Claim",
-      "urls": [
-        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions",
-        "https://www.youtube.com/watch?v=nJvNLFo_HSo",
-        "https://www.youtube.com/watch?v=WoMitMc895A",
-        "https://www.youtube.com/watch?v=NKq4VTfoAI4"
-      ],
-      "date": "2026-07-23T11:31:19.274305+00:00"
-    },
-    {
       "title": "Stanford Center Analyzes U.S.-China Competition Impact on Global Political Landscape",
       "urls": [
         "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
@@ -4168,7 +4158,18 @@
         "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy"
       ],
       "date": "2026-08-02T11:01:41.825411+00:00"
+    },
+    {
+      "title": "AZIO AI Secures AT&T Fiber Deal to Power First 500MW AI Data Campus",
+      "urls": [
+        "https://www.msn.com/en-us/money/general/why-now-is-finally-the-time-to-buy-the-big-three-cloud-computing-stocks-before-it-s-too-late/ar-AA29eoVi?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/topstocks/3-top-cloud-computing-stocks-worth-buying-before-august/ar-AA28RnUD?ocid=BingNewsVerp",
+        "https://www.intelligentcio.com/eu/2026/07/30/digital-maturity-index-2026-europe-advances-in-ai-cloud-and-cybersecurity-but-infrastructure-gaps-remain",
+        "https://www.msn.com/en-xl/news/other/meta-enters-ai-cloud-infrastructure-competes-with-aws-and-azure/ar-AA271oID?ocid=BingNewsVerp",
+        "https://www.usatoday.com/press-release/story/38884/azio-ai-executes-master-services-agreement-with-att-to-provide-fiber-interconnectivity-on-its-first-500mw-ai-data-campus"
+      ],
+      "date": "2026-08-02T11:31:22.802704+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T11:01:41.825478+00:00"
+  "lastUpdated": "2026-08-02T11:31:22.802799+00:00"
 }
