@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "AIThinkerLab Publishes Tested List of Nine AI Tools for Blind Users in 2026",
-      "urls": [
-        "https://aithinkerlab.com/ai-accessibility-tools-for-blind-users-2026"
-      ],
-      "date": "2026-07-23T05:31:23.700563+00:00"
-    },
-    {
-      "title": "Sustainable Innovation Council Releases Early‑Year Climate Tech Startup Report Highlighting Capital Shifts",
-      "urls": [
-        "https://sustainableinnovationcouncil.org/news/climate-tech-capital-2026",
-        "https://www.theenergybrief.org/en/articles/global-clean-energy-progress-mid-2026"
-      ],
-      "date": "2026-07-23T06:01:29.944669+00:00"
-    },
-    {
       "title": "United States Solar Power Reaches New Milestones Amid Administration’s Coal Boost",
       "urls": [
         "https://www.ap.org/news-highlights/spotlights/2026/solar-power-hits-new-milestones-in-the-us-even-as-trump-boosts-coal-over-clean-energy",
@@ -4174,7 +4159,16 @@
         "https://disabilityin.org/articles-and-updates/january-2026-digital-accessibility-roundup"
       ],
       "date": "2026-08-02T05:31:20.337339+00:00"
+    },
+    {
+      "title": "Meta Introduces AI Image Model Inside Instagram Chatbot to Boost In‑App Creativity",
+      "urls": [
+        "https://www.msn.com/en-us/news/other/meta-s-new-image-and-video-ai-tools-let-you-turn-instagram-into-your-creative-mood-board/ar-AA27FtAz?ocid=BingNewsVerp",
+        "https://www.bloomberg.com/news/articles/2026-07-07/meta-debuts-new-ai-image-generation-model-inside-chatbot-instagram",
+        "https://www.usatoday.com/press-release/story/37015/seedream-5-0-pro-launches-bytedance-unveils-professional-multimodal-ai-image-model-with-advanced-layer-editing-multilingual-precision-and-production-ready-control"
+      ],
+      "date": "2026-08-02T06:01:33.681066+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T05:31:20.337402+00:00"
+  "lastUpdated": "2026-08-02T06:01:33.681137+00:00"
 }
