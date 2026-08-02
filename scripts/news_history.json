@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CES 2026 Showcases Emerging Mental Health Technology Aiming to Transform Well-Being",
-      "urls": [
-        "https://www.thetechedvocate.org/how-ces-2026-mental-health-technology-will-revolutionize-well-being"
-      ],
-      "date": "2026-07-23T11:01:28.616481+00:00"
-    },
-    {
       "title": "Simons Foundation Announces Quantum Dynamics Breakthrough That Challenges Quantum Supremacy Claim",
       "urls": [
         "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions",
@@ -4167,7 +4160,15 @@
         "https://indiaautismcenter.org/blog/latest-tech-in-autism"
       ],
       "date": "2026-08-02T10:31:42.123015+00:00"
+    },
+    {
+      "title": "Google Partners With Health Systems to Advance Evidence‑Based AI in Clinical Care",
+      "urls": [
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-07-28-google-health-systems-collaborate-evidence-based-ai",
+        "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy"
+      ],
+      "date": "2026-08-02T11:01:41.825411+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T10:31:42.123084+00:00"
+  "lastUpdated": "2026-08-02T11:01:41.825478+00:00"
 }
