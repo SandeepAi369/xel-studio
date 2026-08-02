@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "CP Daily Newsletter Maintains Daily Release Schedule With Consecutive Editions",
-      "urls": [
-        "https://carbon-pulse.com/533471",
-        "https://www.thetechedvocate.org/earth-overshoot-day-2026-why-july-30-marks-a-critical-turning-point-for-our-planet",
-        "https://carbon-pulse.com/533959"
-      ],
-      "date": "2026-07-23T10:31:29.245033+00:00"
-    },
-    {
       "title": "CES 2026 Showcases Emerging Mental Health Technology Aiming to Transform Well-Being",
       "urls": [
         "https://www.thetechedvocate.org/how-ces-2026-mental-health-technology-will-revolutionize-well-being"
@@ -4168,7 +4159,15 @@
         "https://af.net/realtime/daily-updates-hugging-face-ai-papers-in-july-2026"
       ],
       "date": "2026-08-02T10:01:38.385158+00:00"
+    },
+    {
+      "title": "India Autism Center Highlights Emerging Assistive Technologies for 2026 Amid Rising Autism Rates",
+      "urls": [
+        "https://www.facebook.com/WorldNewsTonight/videos/cdc-estimated-1-in-31-children-in-america-has-autism/3080732415434985",
+        "https://indiaautismcenter.org/blog/latest-tech-in-autism"
+      ],
+      "date": "2026-08-02T10:31:42.123015+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T10:01:38.385237+00:00"
+  "lastUpdated": "2026-08-02T10:31:42.123084+00:00"
 }
