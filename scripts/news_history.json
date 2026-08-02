@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Expands Assistive Technology for Visually Impaired Users Through ATIA 2025 Showcase",
-      "urls": [
-        "https://www.youtube.com/watch?v=-XwFFOEEdg4",
-        "https://www.youtube.com/watch?v=9I87I5J7zuw",
-        "https://www.perkins.org/paths-to-technology"
-      ],
-      "date": "2026-07-23T09:31:20.585937+00:00"
-    },
-    {
-      "title": "Linux Foundation Launches Open Health Stack Foundation to Boost Open Source Digital Health Innovation",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/07/09/10412022.htm"
-      ],
-      "date": "2026-07-23T10:01:30.960520+00:00"
-    },
-    {
       "title": "CP Daily Newsletter Maintains Daily Release Schedule With Consecutive Editions",
       "urls": [
         "https://carbon-pulse.com/533471",
@@ -4177,7 +4161,14 @@
         "https://www.youtube.com/watch?v=bbPA5yqQEaE"
       ],
       "date": "2026-08-02T09:31:17.371441+00:00"
+    },
+    {
+      "title": "Hugging Face Shares New AI Research Papers in Daily Update",
+      "urls": [
+        "https://af.net/realtime/daily-updates-hugging-face-ai-papers-in-july-2026"
+      ],
+      "date": "2026-08-02T10:01:38.385158+00:00"
     }
   ],
-  "lastUpdated": "2026-08-02T09:31:17.371527+00:00"
+  "lastUpdated": "2026-08-02T10:01:38.385237+00:00"
 }
