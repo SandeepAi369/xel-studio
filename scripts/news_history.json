@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Releases Comprehensive World Economic Outlook Update in January 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=ZXcB0FlSeVg",
-        "https://www.youtube.com/watch?v=1KTRSF9BQZI",
-        "https://www.youtube.com/shorts/COlNCq0f-eE"
-      ],
-      "date": "2026-07-24T03:01:34.869480+00:00"
-    },
-    {
-      "title": "Microsoft Highlights Build Announcements and UK Ruling on Google AI Search in Podcast",
-      "urls": [
-        "https://www.morningstar.com/markets/get-ready-major-big-tech-earnings-releases-april-29",
-        "https://podcasts.apple.com/ug/podcast/microsoft-build-announcements-uk-ruling-on-google-ai/id1559402520?i=1000771088381"
-      ],
-      "date": "2026-07-24T03:31:21.424346+00:00"
-    },
-    {
       "title": "Stanford Demonstrates Twisted Light Quantum Computing Breakthrough Without Extreme Cooling",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
@@ -4192,7 +4175,14 @@
         "https://www.firstpost.com/opinion/from-the-migration-crisis-in-ceuta-comes-a-warning-for-india-14035116.html"
       ],
       "date": "2026-08-03T03:01:33.725667+00:00"
+    },
+    {
+      "title": "Disability Advocates Rally in Boston Demanding Faster Wheelchair Repairs and Policy Change",
+      "urls": [
+        "https://www.wgbh.org/news/local/2026-07-14/disability-advocates-rally-in-boston-for-faster-wheelchair-repairs"
+      ],
+      "date": "2026-08-03T03:31:39.362667+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T03:01:33.725739+00:00"
+  "lastUpdated": "2026-08-03T03:31:39.362741+00:00"
 }
