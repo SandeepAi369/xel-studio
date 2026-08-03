@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Reports Decrease in Global Displacement Numbers While Long‑Term Refugee Crisis Persists",
-      "urls": [
-        "https://www.reuters.com/world/unhcr-says-fewer-people-displaced-worldwide-2025-long-term-refugee-crisis-2026-06-11"
-      ],
-      "date": "2026-07-24T01:31:38.463219+00:00"
-    },
-    {
-      "title": "LLM Leaderboard Highlights Surge in Open Source Model Releases for 2026",
-      "urls": [
-        "https://llm-stats.com/llm-updates",
-        "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends",
-        "https://aistackd.com/posts/best-open-source-ai-models-2026"
-      ],
-      "date": "2026-07-24T02:01:30.638552+00:00"
-    },
-    {
       "title": "SpaceX Launches First Geosynchronous Robotic Servicing Mission to Extend Satellite Lifespans",
       "urls": [
         "https://spaceflightnow.com/2026/07/21/live-coverage-spacex-to-launch-novel-geosynchronous-robotic-servicing-satellite-on-decade-long-mission"
@@ -4180,7 +4164,17 @@
         "https://www.youtube.com/watch?v=9yOfV6Eh464"
       ],
       "date": "2026-08-03T01:31:23.079639+00:00"
+    },
+    {
+      "title": "\"title\": \"Analytics Insight Lists Ten Medical Device Innovations Shaping 2026 Healthcare\",",
+      "urls": [
+        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm",
+        "https://www.aanp.org/news-feed/top-five-health-care-trends-for-2026-how-new-technology-is-transforming-patient-care",
+        "https://www.analyticsinsight.net/healthcare/top-10-medical-device-trends-in-2026",
+        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
+      ],
+      "date": "2026-08-03T02:01:40.901412+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T01:31:23.079706+00:00"
+  "lastUpdated": "2026-08-03T02:01:40.901482+00:00"
 }
