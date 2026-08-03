@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open‑Source AI Sparks Debate Over Climate Benefits and Growing Inequality",
-      "urls": [
-        "https://gizmodo.com/the-great-freakout-over-open-source-ai-has-begun-2000787836",
-        "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
-        "https://www.techtimes.com/articles/321270/20260722/china-weighs-locking-ai-model-weights-download-what-you-use-right-now.htm"
-      ],
-      "date": "2026-07-24T18:31:20.020785+00:00"
-    },
-    {
       "title": "Esports Industry Projects $6.8 Billion Revenue in 2026 Growth Report",
       "urls": [
         "https://digitalnewsbreak.com/sports/esports-gaming-industry-revenue-2026-report"
@@ -4180,7 +4171,15 @@
         "https://www.outlookindia.com/sports/others/commonwealth-games-2026-new-world-records-glasgow"
       ],
       "date": "2026-08-03T18:01:40.240321+00:00"
+    },
+    {
+      "title": "Chinese Open‑Source AI Model Sparks Market Selloff Across Technology Stocks",
+      "urls": [
+        "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026/card/open-source-ai-model-from-china-triggers-selloff-RG0ZHikbay0R7tIlPsGm",
+        "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models"
+      ],
+      "date": "2026-08-03T18:31:39.946233+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T18:01:40.240402+00:00"
+  "lastUpdated": "2026-08-03T18:31:39.946296+00:00"
 }
