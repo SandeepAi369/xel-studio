@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "ITCompare Highlights ADHD and Autism Spectrum as Recruitment Superpowers in 2026",
-      "urls": [
-        "https://itcompare.pl/en-us/articles/195/neurodiversity-in-it-2026:-how-adhd-and-the-autism-spectrum-became-technical-recruitment-superpowers"
-      ],
-      "date": "2026-07-24T05:31:30.945449+00:00"
-    },
-    {
-      "title": "Lemon.io Reports Software Developer Rates Rise Despite AI Coding Tools Boom",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/07/23/10419739.htm",
-        "https://markets.businessinsider.com/news/stocks/software-developer-rates-rising-despite-ai-coding-tools-boom-lemon-io-data-shows-1036275771",
-        "https://www.business-standard.com/technology/tech-news/vibe-coding-explained-what-ai-made-apps-mean-for-developers-and-app-stores-126072100662_1.html",
-        "https://www.crn.com/news/ai/2026/amd-advancing-ai-2026-top-news-on-ai-chips-cpus-robotics"
-      ],
-      "date": "2026-07-24T06:01:26.963747+00:00"
-    },
-    {
       "title": "Australia and Nepal Strengthen Conservation Partnership With New Leadership Appointment",
       "urls": [
         "https://www.manilatimes.net/2026/07/09/tmt-newswire/pr-newswire/australia-nepal-conservation-partnership-strengthened-through-new-leadership-appointment/2381372"
@@ -4192,7 +4175,16 @@
         "https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026"
       ],
       "date": "2026-08-03T05:31:27.789859+00:00"
+    },
+    {
+      "title": "Veracode Reports AI‑Generated Code Security Stagnates at 56 Percent Pass Rate",
+      "urls": [
+        "https://www.usatoday.com/press-release/story/38888/ai-is-writing-more-code-than-humans-whos-testing-it-for-security-flaws",
+        "https://lasvegassun.com/news/2026/jul/28/llms-are-getting-smarter-but-not-safer-veracode-20",
+        "https://www.tmcnet.com/usubmit/2026/07/31/10423445.htm"
+      ],
+      "date": "2026-08-03T06:01:32.044642+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T05:31:27.789928+00:00"
+  "lastUpdated": "2026-08-03T06:01:32.044692+00:00"
 }
