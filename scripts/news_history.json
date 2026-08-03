@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Crunchbase Reports Record $510 Billion Startup Funding as AI Boom Fuels Growth",
-      "urls": [
-        "https://aifundingtracker.com/ai-startup-funding-news-today",
-        "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026"
-      ],
-      "date": "2026-07-24T12:01:41.837045+00:00"
-    },
-    {
       "title": "Sabastian Sawe And Assefa Break Marathon World Records At London 2026",
       "urls": [
         "https://www.msn.com/en-us/sports/other/2026-chicago-marathon-elite-lineup-one-of-the-deepest-fields-in-race-history/ar-AA28xo4D?ocid=BingNewsVerp",
@@ -4179,7 +4171,14 @@
         "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
       ],
       "date": "2026-08-03T11:31:32.152668+00:00"
+    },
+    {
+      "title": "Insider Reports Nine Open Source AI Models Launched Within Twelve Days",
+      "urls": [
+        "https://tech-insider.org/au/open-source-ai-model-wave-2026"
+      ],
+      "date": "2026-08-03T12:01:45.020327+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T11:31:32.152736+00:00"
+  "lastUpdated": "2026-08-03T12:01:45.020400+00:00"
 }
