@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Wellness Institute Highlights Emerging Mental Wellness Trends for 2026",
-      "urls": [
-        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026"
-      ],
-      "date": "2026-07-24T15:01:45.722858+00:00"
-    },
-    {
-      "title": "YouTube China Launches Humanoid Robot Surge in 2026 to Transform Content Creation and Viewer Interaction",
-      "urls": [
-        "https://www.youtube.com/watch?v=oB_dHd71duU"
-      ],
-      "date": "2026-07-24T15:31:24.464164+00:00"
-    },
-    {
       "title": "U.S.-Iran Conflict Shifts From Overnight Airstrikes to Formal Peace Talks",
       "urls": [
         "https://www.theguardian.com/world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices",
@@ -4185,7 +4171,15 @@
         "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec"
       ],
       "date": "2026-08-03T15:01:45.176110+00:00"
+    },
+    {
+      "title": "Humanoid Robotics Announces Semi‑Humanoid Robot Expansion and Plans First Pure‑Play Robot IPO",
+      "urls": [
+        "https://www.electronicsforu.com/news/semi-humanoid-robot-expands-service-automation",
+        "https://247wallst.com/investing/2026/06/24/humanoid-robotics-ceo-the-first-pure-play-robot-company-is-about-to-go-public"
+      ],
+      "date": "2026-08-03T15:31:43.356769+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T15:01:45.176174+00:00"
+  "lastUpdated": "2026-08-03T15:31:43.356842+00:00"
 }
