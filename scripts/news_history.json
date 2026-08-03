@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OneTrust Highlights Five Global Privacy Trends Shaping Enforcement in 2026",
-      "urls": [
-        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
-        "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data",
-        "https://securiti.ai/privacy-roundup/june-2026"
-      ],
-      "date": "2026-07-24T20:01:35.511915+00:00"
-    },
-    {
       "title": "ECOWAS Donates 670 Assistive Devices to Children with Disabilities Across West Africa",
       "urls": [
         "https://www.msn.com/en-xl/africa/nigeria/ecowas-donates-670-assistive-devices-to-children-with-disabilities/ar-AA27aB77?ocid=BingNewsVerp"
@@ -4187,7 +4178,17 @@
         "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html"
       ],
       "date": "2026-08-03T19:31:29.940009+00:00"
+    },
+    {
+      "title": "North American Startup Funding Hits Record Levels as AI Drives Investment Surge",
+      "urls": [
+        "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026",
+        "https://www.instagram.com/reel/DaXQ65aDm2u",
+        "https://www.instagram.com/reel/DaT_bmBsgCE",
+        "https://aifundingtracker.com/ai-startup-funding-news-today"
+      ],
+      "date": "2026-08-03T20:01:43.584006+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T19:31:29.940090+00:00"
+  "lastUpdated": "2026-08-03T20:01:43.584063+00:00"
 }
