@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Disability World Expands Online Article Library to Strengthen Global Accessibility Community",
-      "urls": [
-        "https://www.disabilityworld.org/articles"
-      ],
-      "date": "2026-07-24T21:31:23.606957+00:00"
-    },
-    {
       "title": "Long DeFi Unveils Next‑Generation AI Infrastructure Enabling Millions to Access Computing Power",
       "urls": [
         "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/long-defi-announces-its-next-generation-ai-computing-infrastructure-showing-how-ordinary-people-can-leverage-tens-of-millions-of-computing-power/2391196",
@@ -4193,7 +4186,15 @@
         "https://www.youtube.com/watch?v=UCJQ-RfKm7o"
       ],
       "date": "2026-08-03T21:01:46.630827+00:00"
+    },
+    {
+      "title": "Opinion Entry Lacks Content, Leaving Readers Without Article Details or Context",
+      "urls": [
+        "https://www.msn.com/en-us/news/news/most-americans-want-ai-regulation-will-congress-listen-opinion/ar-AA29eJci?ocid=BingNewsVerp",
+        "https://thehill.com/policy/technology/5919784-ai-regulation-anthropic-ceo"
+      ],
+      "date": "2026-08-03T21:31:40.325712+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T21:01:46.630922+00:00"
+  "lastUpdated": "2026-08-03T21:31:40.325780+00:00"
 }
