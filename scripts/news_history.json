@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Prepares Starship Flight 13 While Falcon 9 Transporter 17 Deploys 81 Satellites",
-      "urls": [
-        "https://www.usatoday.com/story/tech/space/2026/07/23/spacex-starship-launch-flight-13/91005883007",
-        "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
-        "https://www.reddit.com/r/spacex/comments/1tkndtt/spacex_counting_down_to_our_second_launch_attempt",
-        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data",
-        "https://www.youtube.com/watch?v=kf6ZM4lFO5Q",
-        "https://www.youtube.com/watch?v=VFGj4aen9OU"
-      ],
-      "date": "2026-07-24T22:31:33.995781+00:00"
-    },
-    {
-      "title": "Taskade Details Anthropic Claude AI Timeline, Funding Milestones and Upcoming IPO",
-      "urls": [
-        "https://www.taskade.com/blog/anthropic-claude-history"
-      ],
-      "date": "2026-07-24T23:01:40.306891+00:00"
-    },
-    {
       "title": "Forrester Forecast Shows Technology Sovereignty Advancing Slowly Amid Rising Global Tensions",
       "urls": [
         "https://www.intelligentcio.com/north-america/2026/07/21/forrester-global-sovereignty-forecast-despite-rising-geopolitical-tensions-technology-sovereignty-will-advance-slowly-through-2030"
@@ -4205,7 +4186,15 @@
         "https://www.democracynow.org/2026/7/14/elections_ari_berman"
       ],
       "date": "2026-08-03T22:31:30.723675+00:00"
+    },
+    {
+      "title": "OpenSearchCon Showcases Five Years of Innovation Powering Enterprise Search, Observability and Analytics",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/07/23/10419461.htm",
+        "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates"
+      ],
+      "date": "2026-08-03T23:01:45.310154+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T22:31:30.723730+00:00"
+  "lastUpdated": "2026-08-03T23:01:45.310230+00:00"
 }
