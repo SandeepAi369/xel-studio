@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stanford Demonstrates Twisted Light Quantum Computing Breakthrough Without Extreme Cooling",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
-        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
-        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs"
-      ],
-      "date": "2026-07-24T04:01:37.455925+00:00"
-    },
-    {
       "title": "LLM‑Stats.com Publishes Comprehensive July 2026 AI Model Release Overview for Industry",
       "urls": [
         "https://llm-stats.com/ai-news"
@@ -4182,7 +4173,14 @@
         "https://www.wgbh.org/news/local/2026-07-14/disability-advocates-rally-in-boston-for-faster-wheelchair-repairs"
       ],
       "date": "2026-08-03T03:31:39.362667+00:00"
+    },
+    {
+      "title": "Scientists Detect Accelerating Global Warming Trend Raising Climate Action Urgency",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/08/260801093239.htm"
+      ],
+      "date": "2026-08-03T04:01:40.874330+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T03:31:39.362741+00:00"
+  "lastUpdated": "2026-08-03T04:01:40.874399+00:00"
 }
