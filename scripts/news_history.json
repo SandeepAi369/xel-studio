@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dow Jones Slides After Oil Hits $100 Per Barrel, Triggering Market Selloff",
-      "urls": [
-        "https://system1.com",
-        "https://system1.com/contact",
-        "https://www.barrons.com/livecoverage/stock-market-news-today-072326"
-      ],
-      "date": "2026-07-24T18:01:40.042199+00:00"
-    },
-    {
       "title": "Open‑Source AI Sparks Debate Over Climate Benefits and Growing Inequality",
       "urls": [
         "https://gizmodo.com/the-great-freakout-over-open-source-ai-has-begun-2000787836",
@@ -4182,7 +4173,14 @@
         "https://www.youtube.com/watch?v=hcV2dtbORs8"
       ],
       "date": "2026-08-03T17:31:35.169642+00:00"
+    },
+    {
+      "title": "Commonwealth Games 2026 Shatters Multiple Historic World Records in Glasgow",
+      "urls": [
+        "https://www.outlookindia.com/sports/others/commonwealth-games-2026-new-world-records-glasgow"
+      ],
+      "date": "2026-08-03T18:01:40.240321+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T17:31:35.169704+00:00"
+  "lastUpdated": "2026-08-03T18:01:40.240402+00:00"
 }
