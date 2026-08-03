@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Detox Shapes Mental Health Strategies as Screen Time Declines in 2026",
-      "urls": [
-        "https://thestoryjournal.com/health/digital-detox-2026"
-      ],
-      "date": "2026-07-24T11:02:21.256055+00:00"
-    },
-    {
-      "title": "Trends Setter Highlights Top AI Breakthroughs and YouTube Reveals New Capabilities in 2026",
-      "urls": [
-        "https://aitrendssetter.com/biggest-ai-news-and-breakthroughs-of-2026-so-far",
-        "https://www.youtube.com/watch?v=UjwpDEU6wSQ",
-        "https://www.youtube.com/watch?v=IjHIE2DMUNg"
-      ],
-      "date": "2026-07-24T11:31:16.671331+00:00"
-    },
-    {
       "title": "Crunchbase Reports Record $510 Billion Startup Funding as AI Boom Fuels Growth",
       "urls": [
         "https://aifundingtracker.com/ai-startup-funding-news-today",
@@ -4179,7 +4163,23 @@
         "https://futureagi.com/blog/open-source-llm-releases"
       ],
       "date": "2026-08-03T11:01:53.806691+00:00"
+    },
+    {
+      "title": "Stanford Demonstrates Twisted Light Quantum Chip Operating Without Extreme Cooling",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions",
+        "https://www.youtube.com/watch?v=nJvNLFo_HSo",
+        "https://www.youtube.com/watch?v=WoMitMc895A",
+        "https://www.youtube.com/watch?v=NKq4VTfoAI4",
+        "https://www.youtube.com/watch?v=1d-pGnc36iE",
+        "https://www.youtube.com/watch?v=tTrwwQIpcKU",
+        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
+        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
+        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm"
+      ],
+      "date": "2026-08-03T11:31:32.152668+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T11:01:53.806767+00:00"
+  "lastUpdated": "2026-08-03T11:31:32.152736+00:00"
 }
