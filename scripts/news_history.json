@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Long DeFi Unveils Next‑Generation AI Infrastructure Enabling Millions to Access Computing Power",
-      "urls": [
-        "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/long-defi-announces-its-next-generation-ai-computing-infrastructure-showing-how-ordinary-people-can-leverage-tens-of-millions-of-computing-power/2391196",
-        "https://www.manilatimes.net/2026/07/24/tmt-newswire/pr-newswire/huawei-cloud-launches-agentic-infrastructure-and-codearts-agent-obt-in-thailand-accelerating-enterprise-ai-innovation/2390857",
-        "https://www.aol.com/articles/mitac-computing-advances-agentic-ai-183000000.html"
-      ],
-      "date": "2026-07-24T22:01:30.203249+00:00"
-    },
-    {
       "title": "SpaceX Prepares Starship Flight 13 While Falcon 9 Transporter 17 Deploys 81 Satellites",
       "urls": [
         "https://www.usatoday.com/story/tech/space/2026/07/23/spacex-starship-launch-flight-13/91005883007",
@@ -4194,7 +4185,18 @@
         "https://thehill.com/policy/technology/5919784-ai-regulation-anthropic-ceo"
       ],
       "date": "2026-08-03T21:31:40.325712+00:00"
+    },
+    {
+      "title": "Google Unveils Gemini 4 and New AI Features at I/O 2026",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
+        "https://www.youtube.com/watch?v=n01-OaEiYzA",
+        "https://www.youtube.com/watch?v=g0UZT5n6Uf8",
+        "https://www.youtube.com/watch?v=z2MUcmJS3aI",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection"
+      ],
+      "date": "2026-08-03T22:01:43.771329+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T21:31:40.325780+00:00"
+  "lastUpdated": "2026-08-03T22:01:43.771418+00:00"
 }
