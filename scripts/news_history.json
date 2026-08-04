@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "University of Florida Highlights Seven Medical Science Trends Shaping 2026 Healthcare",
-      "urls": [
-        "https://distance.physiology.med.ufl.edu/about/articles/7-medical-sciences-trends-shaping-healthcare-in-2026"
-      ],
-      "date": "2026-07-25T02:31:20.101436+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT-5.6 Model Family Expanding Generative AI Capabilities for Developers",
       "urls": [
         "https://www.msn.com/en-us/news/technology/openai-launches-its-new-family-of-models-with-gpt-56/ar-AA27ACxy?ocid=BingNewsVerp"
@@ -4203,7 +4196,17 @@
         "https://system1.com/contact"
       ],
       "date": "2026-08-04T02:01:36.869343+00:00"
+    },
+    {
+      "title": "World Resources Institute Publishes Climate Change Research Updates for Global Stakeholders",
+      "urls": [
+        "https://www.wri.org/climate-change-news",
+        "https://www.sciencedaily.com/news/earth_climate",
+        "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026",
+        "https://link.springer.com/subjects/climate-change"
+      ],
+      "date": "2026-08-04T02:31:33.691436+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T02:01:36.869422+00:00"
+  "lastUpdated": "2026-08-04T02:31:33.691505+00:00"
 }
