@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Showcases Local AI Capability to Run Unlimited Models on Personal Computers",
-      "urls": [
-        "https://www.youtube.com/watch?v=AaGaTgeARl0"
-      ],
-      "date": "2026-07-25T18:31:23.333761+00:00"
-    },
-    {
       "title": "Aifundingtracker.com Releases July 2026 List of Top Fifty AI Funded Startups",
       "urls": [
         "https://aifundingtracker.com/top-50-ai-startups"
@@ -4209,7 +4202,14 @@
         "https://releasebot.io/updates/openai"
       ],
       "date": "2026-08-04T18:01:42.399771+00:00"
+    },
+    {
+      "title": "Intel Joins OCUDU Ecosystem Foundation as Premier Member to Boost Open Source RAN Collaboration",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/08/04/10424969.htm"
+      ],
+      "date": "2026-08-04T18:31:38.606100+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T18:01:42.399848+00:00"
+  "lastUpdated": "2026-08-04T18:31:38.606176+00:00"
 }
