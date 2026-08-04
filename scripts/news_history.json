@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fox Sports Highlights Incredible Saves In 2026 FIFA World Cup",
-      "urls": [
-        "https://www.outlookindia.com/sports",
-        "https://www.espn.com/soccer/scoreboard",
-        "https://www.foxsports.com/watch-vertical/fmc-z6go4o2puwkyfolu"
-      ],
-      "date": "2026-07-25T16:31:22.238835+00:00"
-    },
-    {
       "title": "gHacks Publishes Big Tech Updates Covering Google Apple Microsoft and Meta",
       "urls": [
         "https://www.ghacks.net/category/companies"
@@ -4206,7 +4197,15 @@
         "https://www.youtube.com/watch?v=EuTBZ-ePxT4"
       ],
       "date": "2026-08-04T16:03:08.956730+00:00"
+    },
+    {
+      "title": "YouTube Shows Technology Transforming Sports On and Off the Field",
+      "urls": [
+        "https://www.youtube.com/watch?v=mITItMrmNmI",
+        "https://www.11alive.com/video/tech/technology-transforms-sports-on-and-off-the-field/85-8702ecee-d6cd-437c-b52d-e80653f770c7"
+      ],
+      "date": "2026-08-04T16:31:30.349606+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T16:03:08.956806+00:00"
+  "lastUpdated": "2026-08-04T16:31:30.349684+00:00"
 }
