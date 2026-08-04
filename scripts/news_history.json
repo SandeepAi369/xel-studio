@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Homeowners Rank States By Natural Disaster Fear According To New Survey",
-      "urls": [
-        "https://www.msn.com/en-us/weather/extreme-weather-events/the-us-states-where-homeowners-fear-natural-disasters-the-most-ranked/ar-AA278pF6?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-25T06:31:20.552606+00:00"
-    },
-    {
       "title": "Apple Unveils 2026 Accessibility Roadmap Emphasizing Disability Employment Across All Devices and Hiring Practices",
       "urls": [
         "https://www.forbes.com/sites/keelycatwells/2026/05/19/apples-2026-accessibility-roadmap-and-the-disability-employment-story-behind-it"
@@ -4211,7 +4204,15 @@
         "https://www.youtube.com/watch?v=IrNekpJn2x8"
       ],
       "date": "2026-08-04T06:01:37.983218+00:00"
+    },
+    {
+      "title": "Apollo Global Management Publishes 2026 Clean Energy and Climate Tech Market Predictions",
+      "urls": [
+        "https://www.apollo.com/institutional/insights-news/insights/expert-briefing/2026/01/2026-prediction-for-clean-energy--clean-tech--climate-tech--sustainability-markets",
+        "https://trellis.net/article/climate-tech-startups-to-watch-2026-application"
+      ],
+      "date": "2026-08-04T06:31:23.408503+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T06:01:37.983294+00:00"
+  "lastUpdated": "2026-08-04T06:31:23.408565+00:00"
 }
