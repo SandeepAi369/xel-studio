@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "gHacks Publishes Big Tech Updates Covering Google Apple Microsoft and Meta",
-      "urls": [
-        "https://www.ghacks.net/category/companies"
-      ],
-      "date": "2026-07-25T17:01:24.389317+00:00"
-    },
-    {
       "title": "YouTube Showcases New Accessibility Innovations at CES 2026 During Live Demonstration",
       "urls": [
         "https://www.youtube.com/watch?v=b5DvFC4SaUE"
@@ -4205,7 +4198,15 @@
         "https://www.11alive.com/video/tech/technology-transforms-sports-on-and-off-the-field/85-8702ecee-d6cd-437c-b52d-e80653f770c7"
       ],
       "date": "2026-08-04T16:31:30.349606+00:00"
+    },
+    {
+      "title": "Quantum Labs Leverages AI and Laser Beams to Achieve Major Computing Breakthrough",
+      "urls": [
+        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
+        "https://phys.org/news/2024-11-laser-quantum-breakthrough.html?loadCommentsForm=1"
+      ],
+      "date": "2026-08-04T17:02:14.204872+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T16:31:30.349684+00:00"
+  "lastUpdated": "2026-08-04T17:02:14.204948+00:00"
 }
