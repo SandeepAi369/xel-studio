@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Europe Heatwave Shatters National Temperature Records Across the Continent This Week",
-      "urls": [
-        "https://www.cnn.com/2026/06/24/weather/live-news/europe-heatwave-temperatures-news"
-      ],
-      "date": "2026-07-25T13:31:37.477709+00:00"
-    },
-    {
-      "title": "Team Rubicon Forecasts Fewer 2026 Hurricanes Yet High Overall Risk",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Weather_of_2026",
-        "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast"
-      ],
-      "date": "2026-07-25T14:01:45.742479+00:00"
-    },
-    {
       "title": "Linux Foundation Publishes June 2026 Newsletter Highlighting Open Source and AI Video Links",
       "urls": [
         "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-june-2026",
@@ -4216,7 +4201,14 @@
         "https://www.africanews.com/2026/06/23/kenya-blind-tailor-breaking-boundaries"
       ],
       "date": "2026-08-04T13:31:36.337543+00:00"
+    },
+    {
+      "title": "Delhi Revises SIR Schedule, Extends Enumeration Deadline to August 17",
+      "urls": [
+        "https://indianexpress.com/article/india/india-news-live-updates-4-august-2026-two-firefighters-killed-in-noida-chip-factory-blaze-prashant-kishor-wins-bankipur-bypoll-in-a-shock-to-bjp-supreme-court-orders-neet-protest-firs-dropped-10816858"
+      ],
+      "date": "2026-08-04T14:01:50.044335+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T13:31:36.337611+00:00"
+  "lastUpdated": "2026-08-04T14:01:50.044415+00:00"
 }
