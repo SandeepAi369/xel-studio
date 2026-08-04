@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Unveils GPT-5.6 Model Family Expanding Generative AI Capabilities for Developers",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/openai-launches-its-new-family-of-models-with-gpt-56/ar-AA27ACxy?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-25T03:01:51.337814+00:00"
-    },
-    {
-      "title": "Chiang Rai Times Wins Best South East Asia News Media Platform 2026 Award",
-      "urls": [
-        "https://www.thetechedvocate.org/10-game-changing-threads-updates-for-2026-you-need-to-know",
-        "https://www.manilatimes.net/2026/06/17/tmt-newswire/pr-newswire/chiang-rai-times-awarded-best-south-east-asia-news-media-platform-2026/2367117"
-      ],
-      "date": "2026-07-25T03:31:24.001607+00:00"
-    },
-    {
       "title": "Hedra Highlights Leading AI Image and Video Models Defining First Half of 2026",
       "urls": [
         "https://www.hedra.com/blog/ai-models-first-half-2026",
@@ -4214,7 +4199,14 @@
         "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data"
       ],
       "date": "2026-08-04T03:01:35.617402+00:00"
+    },
+    {
+      "title": "Esports.net Expands Daily Coverage to Deliver Real‑Time Competitive Gaming Updates",
+      "urls": [
+        "https://www.esports.net/news"
+      ],
+      "date": "2026-08-04T03:31:27.035949+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T03:01:35.617475+00:00"
+  "lastUpdated": "2026-08-04T03:31:27.036010+00:00"
 }
