@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Unveil AI That Detects Pancreatic Cancer Years Before Traditional Diagnosis",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/07/21/10417897.htm",
-        "https://www.newspressnow.com/news/national_news/business/messagepoint-marcieassure-named-ai-based-healthcare-solution-of-the-year-in-2026-ai-breakthrough-awards/article_5a89eea6-0db4-55b8-9067-7d1b98e22290.html",
-        "https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567",
-        "https://www.forbes.com/sites/demetrigiannikopoulos/2026/07/17/what-lindsey-grahams-death-reminds-us-about-healthcare-ai",
-        "https://timesofindia.indiatimes.com/science/scientists-develop-ai-that-detects-pancreatic-cancer-years-before-diagnosis-in-a-major-breakthrough/articleshow/132109719.cms"
-      ],
-      "date": "2026-07-25T18:01:29.232285+00:00"
-    },
-    {
       "title": "YouTube Showcases Local AI Capability to Run Unlimited Models on Personal Computers",
       "urls": [
         "https://www.youtube.com/watch?v=AaGaTgeARl0"
@@ -4208,7 +4197,19 @@
         "https://themors.com/esports-and-streaming-growth-in-2026-whats-fueling-the-next-surge"
       ],
       "date": "2026-08-04T17:31:44.937765+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT-5.6 Model and Previews GPT-6 Features in Latest Update",
+      "urls": [
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://www.youtube.com/watch?v=4zoHd8OrYBI",
+        "https://www.youtube.com/watch?v=DbciOS1UJNM",
+        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
+        "https://www.youtube.com/watch?v=RspKXuNi_iE",
+        "https://releasebot.io/updates/openai"
+      ],
+      "date": "2026-08-04T18:01:42.399771+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T17:31:44.937842+00:00"
+  "lastUpdated": "2026-08-04T18:01:42.399848+00:00"
 }
