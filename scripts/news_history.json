@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Expands Esports Reach With Live DreamHack Atlanta Showcase and Rivals Developer Stream",
-      "urls": [
-        "https://www.youtube.com/watch?v=xp7cVzxBbwE",
-        "https://www.youtube.com/watch?v=fkYbnGvVhxo"
-      ],
-      "date": "2026-07-25T00:31:24.298912+00:00"
-    },
-    {
       "title": "Folarin Balogun Returns to U.S. Lineup as Belgium Red Card Appeal Is Dismissed",
       "urls": [
         "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-folarin-balogun-available-for-us-monday-night-as-belgiums-red-card-suspension-appeal-is-dismissed-171012323.html",
@@ -4198,7 +4190,14 @@
         "https://www.axios.com/2026/04/06/meta-open-source-ai-models"
       ],
       "date": "2026-08-04T00:01:43.616949+00:00"
+    },
+    {
+      "title": "Indian Premier League Final Elevates Cricket to Global Stage Competing With NFL and NBA",
+      "urls": [
+        "https://www.nytimes.com/athletic/7315122/2026/05/29/ipl-final-cricket-india-media-streaming"
+      ],
+      "date": "2026-08-04T00:31:28.570187+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T00:01:43.617008+00:00"
+  "lastUpdated": "2026-08-04T00:31:28.570262+00:00"
 }
