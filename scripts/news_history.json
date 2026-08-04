@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "EdTech Magazine Highlights AI Assistive Technology Boosting Inclusion in K‑12 Schools",
-      "urls": [
-        "https://www.youtube.com/watch?v=Hqk3C6JadnY",
-        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon"
-      ],
-      "date": "2026-07-25T05:31:24.167421+00:00"
-    },
-    {
-      "title": "LaunchAIJam Lists Fresh AI Tools While MarTech Curates Latest Marketing Technology Releases",
-      "urls": [
-        "https://launchaijam.com/new-ai-tools",
-        "https://martech.org/the-latest-ai-powered-martech-news-and-releases"
-      ],
-      "date": "2026-07-25T06:01:36.204185+00:00"
-    },
-    {
       "title": "United States Homeowners Rank States By Natural Disaster Fear According To New Survey",
       "urls": [
         "https://www.msn.com/en-us/weather/extreme-weather-events/the-us-states-where-homeowners-fear-natural-disasters-the-most-ranked/ar-AA278pF6?ocid=BingNewsVerp"
@@ -4214,7 +4198,20 @@
         "https://www.youtube.com/watch?v=k69-ivYwEfE"
       ],
       "date": "2026-08-04T05:31:20.840537+00:00"
+    },
+    {
+      "title": "Checkmarx Highlights Top Twelve AI Developer Tools Shaping 2026 Software Security",
+      "urls": [
+        "https://checkmarx.com/learn/ai-security/top-12-ai-developer-tools-in-2026-for-security-coding-and-quality",
+        "https://www.cortex.io/post/the-engineering-leaders-guide-to-ai-tools-for-developers-in-2026",
+        "https://www.reddit.com/r/webdev/comments/1r36elk/ok_its_2026_what_are_the_ai_gains",
+        "https://www.reddit.com/r/BetterOffline/comments/1ppm2c1/ai_wont_replace_developers_in_2026",
+        "https://www.reddit.com/r/GithubCopilot/comments/1nhju40/what_is_the_best_ai_engine_for_programming_in",
+        "https://ai-neural.lovable.app/article/ai-coding-tools-best-guide-2026",
+        "https://www.youtube.com/watch?v=IrNekpJn2x8"
+      ],
+      "date": "2026-08-04T06:01:37.983218+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T05:31:20.840613+00:00"
+  "lastUpdated": "2026-08-04T06:01:37.983294+00:00"
 }
