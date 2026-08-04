@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Aifundingtracker.com Releases July 2026 List of Top Fifty AI Funded Startups",
-      "urls": [
-        "https://aifundingtracker.com/top-50-ai-startups"
-      ],
-      "date": "2026-07-25T19:01:48.050088+00:00"
-    },
-    {
       "title": "AMD Commits $5 Billion To Anthropic Partnership To Boost AI Chip Performance",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/07/24/10419969.htm",
@@ -4209,7 +4202,18 @@
         "https://www.tmcnet.com/usubmit/2026/08/04/10424969.htm"
       ],
       "date": "2026-08-04T18:31:38.606100+00:00"
+    },
+    {
+      "title": "Taipei Connects AI Healthcare Ecosystem With Japan’s Kansai Region Showcasing Fifteen Companies",
+      "urls": [
+        "https://www.msn.com/en-in/health/health-news/et-health-conclave-2026-healthcare-leaders-reimagine-the-future-of-medicine-through-innovation-prevention-and-technology/ar-AA29n8qG?ocid=BingNewsVerp",
+        "https://www.cambridgenetwork.co.uk/news/cambridge-forum-announces-finalists-pitch-my-idea-ai-and-health",
+        "https://www.tmcnet.com/usubmit/2026/08/04/10424506.htm",
+        "https://markets.businessinsider.com/news/stocks/technology-is-transforming-rural-healthcare-and-putting-patients-at-the-center-1036406714",
+        "https://www.freep.com/press-release/story/225107/guidehealth-earns-urac-accreditation-for-artificial-intelligence-in-healthcare"
+      ],
+      "date": "2026-08-04T19:01:57.649635+00:00"
     }
   ],
-  "lastUpdated": "2026-08-04T18:31:38.606176+00:00"
+  "lastUpdated": "2026-08-04T19:01:57.649707+00:00"
 }
