@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Riverbed Wins AIOps Platform of the Year in 2026 AI Breakthrough Awards",
-      "urls": [
-        "https://www.businesswire.com/news/home/20260625516312/en/Riverbed-Wins-AIOps-Platform-of-the-Year-in-2026-Artificial-Intelligence-Breakthrough-Awards-Program",
-        "https://www.enidnews.com/region/edge-impulse-wins-mlops-innovation-award-in-2026-artificial-intelligence-breakthrough-awards-program/article_c1c53f5a-5440-5180-8174-c1afac1e67a7.html",
-        "https://www.morningstar.com/news/pr-newswire/20260625cg92379/analytics8-wins-data-management-innovation-award-in-2026-artificial-intelligence-breakthrough-awards-program"
-      ],
-      "date": "2026-07-25T00:01:43.609011+00:00"
-    },
-    {
       "title": "YouTube Expands Esports Reach With Live DreamHack Atlanta Showcase and Rivals Developer Stream",
       "urls": [
         "https://www.youtube.com/watch?v=xp7cVzxBbwE",
@@ -4195,7 +4186,19 @@
         "https://www.moneycontrol.com/world/us-to-intensify-push-for-russia-ukraine-peace-talks-rubio-says-cites-need-to-narrow-red-lines-article-13990985.html"
       ],
       "date": "2026-08-03T23:31:24.692619+00:00"
+    },
+    {
+      "title": "Meta Announces Open‑Source Release Of Next‑Generation AI Models For Developers",
+      "urls": [
+        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1v7smm5/meta_has_confirmed_that_it_will_release_an_open",
+        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
+        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
+        "https://www.axios.com/2026/04/06/meta-open-source-ai-models"
+      ],
+      "date": "2026-08-04T00:01:43.616949+00:00"
     }
   ],
-  "lastUpdated": "2026-08-03T23:31:24.692686+00:00"
+  "lastUpdated": "2026-08-04T00:01:43.617008+00:00"
 }
