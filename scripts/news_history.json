@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mongabay and Conservation International Expand Wildlife Conservation Reporting Amid Global Biodiversity Crisis",
-      "urls": [
-        "https://news.mongabay.com/list/wildlife",
-        "https://www.conservation.org/news"
-      ],
-      "date": "2026-07-26T05:01:46.006154+00:00"
-    },
-    {
-      "title": "Digital Surveillance Undermines Activist Mental Health, Prompting Urgent Privacy Calls",
-      "urls": [
-        "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health",
-        "https://www.newstrail.com/the-future-of-privacy-avoiding-government-surveillance-legally-in-2026"
-      ],
-      "date": "2026-07-26T05:31:22.437361+00:00"
-    },
-    {
       "title": "Chinese Humanoid Robots Dominate RoboCup 2026 Demonstrating Advanced AI Capabilities",
       "urls": [
         "https://blog.robozaps.com/b/best-humanoid-robots",
@@ -4234,7 +4218,14 @@
         "https://www.reddit.com/r/QuantumComputing/comments/1it9u72/a_new_microsoft_chip_could_lead_to_more_stable"
       ],
       "date": "2026-08-05T05:01:32.891323+00:00"
+    },
+    {
+      "title": "OTC Services Explores Emerging Assistive Technology to Enhance Accessibility for Users",
+      "urls": [
+        "https://www.otcbc.org/otc-explores-emerging-assistive-technology"
+      ],
+      "date": "2026-08-05T05:31:27.822515+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T05:01:32.891408+00:00"
+  "lastUpdated": "2026-08-05T05:31:27.822593+00:00"
 }
