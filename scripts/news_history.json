@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
-      "urls": [
-        "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
-        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-        "https://www.chron.com/news/article/what-is-open-source-ai-a-software-engineering-22357084.php",
-        "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling"
-      ],
-      "date": "2026-07-26T14:31:13.018486+00:00"
-    },
-    {
       "title": "State of Open Source AI Report Highlights Leading Models and Community Growth",
       "urls": [
         "https://aieducademy.org/blog/state-of-open-source-ai-2026",
@@ -4247,7 +4237,16 @@
         "https://www.esgdive.com/news/california-carbon-pricing-program-generated-362b-for-climate-initiatives-carb/826163"
       ],
       "date": "2026-08-05T14:01:38.625832+00:00"
+    },
+    {
+      "title": "Airborne Plastic Increases Climate Warming, Study Shows Global Impact Through Sunlight Absorption",
+      "urls": [
+        "https://today.duke.edu/2026/07/airborne-plastic-has-climate-warming-effect",
+        "https://www.msn.com/en-ca/weather/topstories/donald-trump-blames-canada-for-wildfire-smoke-but-global-warming-is-loading-the-wildfire-dice/ar-AA28Sqj0?ocid=BingNewsVerp",
+        "https://www.sciencedaily.com/releases/2026/07/260713000809.htm"
+      ],
+      "date": "2026-08-05T14:33:01.154702+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T14:01:38.625931+00:00"
+  "lastUpdated": "2026-08-05T14:33:01.154792+00:00"
 }
