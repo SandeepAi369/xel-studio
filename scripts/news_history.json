@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Launches New AI Chip To Challenge Intel And AMD In Computer Market",
-      "urls": [
-        "https://www.spokesman.com/stories/2026/jun/01/nvidia-is-taking-on-intel-and-amd-with-new-ai-chip"
-      ],
-      "date": "2026-07-26T15:31:14.174761+00:00"
-    },
-    {
       "title": "2026 Esports World Cup Gains Wikipedia Spotlight Ahead Of International Tournament",
       "urls": [
         "https://en.wikipedia.org/wiki/2026_Esports_World_Cup"
@@ -4243,7 +4236,16 @@
         "https://www.motherjones.com/politics/2026/04/iran-war-gas-diesel-prices-opportunity-clean-energy-climate-affordability-democrats-political-messaging"
       ],
       "date": "2026-08-05T15:02:17.843378+00:00"
+    },
+    {
+      "title": "ChatGPT Leads Congressional AI Spending While Lawmakers Consider New Regulations",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/red-tape-will-kill-the-next-ai-startup-and-big-tech-couldn-t-be-happier/ar-AA29nu1X?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/markets/chatgpt-dominates-early-ai-spending-in-congress-as-lawmakers-weigh-regulation/ar-AA29iKsA?ocid=BingNewsVerp",
+        "https://www.msn.com/en-au/news/australia/china-cracks-down-on-ai-companions-forcing-millions-to-break-up-with-virtual-partners/ar-AA28deHG?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-05T15:31:32.910115+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T15:02:17.843453+00:00"
+  "lastUpdated": "2026-08-05T15:31:32.910190+00:00"
 }
