@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Expands AI Cloud Capacity With 7GW Infrastructure to Challenge AWS and Azure",
-      "urls": [
-        "https://www.msn.com/en-us/money/markets/warren-buffetts-successor-greg-abel-tripled-berkshires-stake-in-this-megacap-ai-stock-hint-not-apple/ar-AA28HVsB?ocid=BingNewsVerp",
-        "https://www.msn.com/en-xl/news/other/meta-challenges-aws-azure-in-ai-cloud-push/ar-AA271oID?ocid=BingNewsVerp",
-        "https://www.msn.com/en-xl/technology/cloud-computing/meta-builds-7gw-computing-infrastructure-this-year/ar-AA27BtDB?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-26T19:31:13.392087+00:00"
-    },
-    {
       "title": "Judge Blocks Trump's Unreasonable Subpoena in Ongoing 2020 Election Litigation",
       "urls": [
         "https://www.msn.com/en-us/news/politics/judge-blocks-trumps-unreasonable-subpoena-in-2020-election-saga/ar-AA27tZz4?ocid=BingNewsVerp"
@@ -4241,7 +4232,15 @@
         "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually"
       ],
       "date": "2026-08-05T19:01:51.948428+00:00"
+    },
+    {
+      "title": "Anthropic Releases Global AI Models After Safety Concerns Over Claude Mythos",
+      "urls": [
+        "https://www.forbes.com/sites/jonmarkman/2026/04/08/what-is-claude-mythos-and-why-anthropic-wont-let-anyone-use-it",
+        "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release"
+      ],
+      "date": "2026-08-05T19:31:20.062357+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T19:01:51.948506+00:00"
+  "lastUpdated": "2026-08-05T19:31:20.062431+00:00"
 }
