@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Faces Investor Doubts as OpenAI Releases Independent AI Chip and China Sales Stall",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/nvidia-once-pledged-up-to-100b-to-openai-now-openai-has-built-a-chip-designed-to-need-less-of-nvidia-s-hardware-should-investors-worry/ar-AA27CXNP?ocid=BingNewsVerp",
-        "https://www.newsday.com/business/ai-chips-nvidia-huawei-china-j14839"
-      ],
-      "date": "2026-07-26T04:32:41.871613+00:00"
-    },
-    {
       "title": "Mongabay and Conservation International Expand Wildlife Conservation Reporting Amid Global Biodiversity Crisis",
       "urls": [
         "https://news.mongabay.com/list/wildlife",
@@ -4232,7 +4224,17 @@
         "https://www.eweek.com/news/ai-coding-tools-research"
       ],
       "date": "2026-08-05T04:31:54.582416+00:00"
+    },
+    {
+      "title": "Reddit Pages Provide No Details in Recent Search Results for Media Review",
+      "urls": [
+        "https://www.reddit.com/r/QuantumComputing/comments/1s6z9md/went_to_rsac2026_expecting_ai_hype_left_actually",
+        "https://www.reddit.com/r/Business_Ideas/comments/1q27ugz/is_quantum_computing_the_trend_no_one_is_seeing",
+        "https://www.reddit.com/r/Physics/comments/1jggcau/is_quantum_computing_feasible_if_so_how_far_along",
+        "https://www.reddit.com/r/QuantumComputing/comments/1it9u72/a_new_microsoft_chip_could_lead_to_more_stable"
+      ],
+      "date": "2026-08-05T05:01:32.891323+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T04:31:54.582477+00:00"
+  "lastUpdated": "2026-08-05T05:01:32.891408+00:00"
 }
