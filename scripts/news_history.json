@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Open‑Sources Next‑Generation AI Models to Accelerate Llama Ecosystem Growth",
-      "urls": [
-        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
-        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
-        "https://ai.meta.com/blog/future-of-ai-built-with-llama"
-      ],
-      "date": "2026-07-26T19:01:29.531985+00:00"
-    },
-    {
       "title": "Meta Expands AI Cloud Capacity With 7GW Infrastructure to Challenge AWS and Azure",
       "urls": [
         "https://www.msn.com/en-us/money/markets/warren-buffetts-successor-greg-abel-tripled-berkshires-stake-in-this-megacap-ai-stock-hint-not-apple/ar-AA28HVsB?ocid=BingNewsVerp",
@@ -4241,7 +4232,16 @@
         "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
       ],
       "date": "2026-08-05T18:31:41.327284+00:00"
+    },
+    {
+      "title": "Reddit Search Results Reveal No Content Across Three Listings In Database",
+      "urls": [
+        "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
+        "https://www.reddit.com/r/AIPulseDaily/comments/1q1a75a/welcome_to_2026_that_medical_ai_story_just_hit",
+        "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually"
+      ],
+      "date": "2026-08-05T19:01:51.948428+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T18:31:41.327362+00:00"
+  "lastUpdated": "2026-08-05T19:01:51.948506+00:00"
 }
