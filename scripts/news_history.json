@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mount Etna Erupts Spectacular Display as Global Trackers Provide Real-Time Volcano Monitoring",
-      "urls": [
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://www.usgs.gov/programs/VHP/volcano-updates",
-        "https://www.facebook.com/theweathernetworkCAN/videos/italys-mount-etna-is-putting-on-a-spectacular-display-with-glowing-lava-lighting/37956229250642827",
-        "https://www.youtube.com/watch?v=NgFX0NsZNuQ"
-      ],
-      "date": "2026-07-26T22:31:29.492631+00:00"
-    },
-    {
       "title": "Hugging Face Publishes 2026 Guide Highlighting Top Open‑Source LLMs for Local Deployment",
       "urls": [
         "https://huggingface.co/blog",
@@ -4251,7 +4241,14 @@
         "https://finance.yahoo.com/healthcare/articles/daesang-publishes-2026-sustainability-report-120000318.html"
       ],
       "date": "2026-08-05T22:01:53.747210+00:00"
+    },
+    {
+      "title": "Clark Hill Publishes 2026 ESG Sustainability Report Highlighting Emerging Trends",
+      "urls": [
+        "https://www.clarkhill.com/news-events/news/esg-sustainability-in-2026-twists-turns-and-trends"
+      ],
+      "date": "2026-08-05T22:31:29.741938+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T22:01:53.747262+00:00"
+  "lastUpdated": "2026-08-05T22:31:29.742003+00:00"
 }
