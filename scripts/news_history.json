@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tralac Publishes Global Trade Update Highlighting Emerging 2026 Market Trends",
-      "urls": [
-        "https://www.tralac.org/documents/news/7227-global-trade-update-january-2026-un-trade-and-development/file.html"
-      ],
-      "date": "2026-07-26T07:01:33.478857+00:00"
-    },
-    {
       "title": "Axis Intelligence Reports 173 AI Drug Discovery Programs Driving Market Growth",
       "urls": [
         "https://axis-intelligence.com/ai-drug-discovery-2026-complete-analysis"
@@ -4225,7 +4218,17 @@
         "https://www.reddit.com/r/preppers/comments/1rl1wh3/atlantic_hurricane_season_lesson_learned_in_2025"
       ],
       "date": "2026-08-05T06:31:27.123733+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes State of Open Source Report Highlighting Top LLM Models and Licensing Trends",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms",
+        "https://huggingface.co",
+        "https://huggingface.co/papers/trending"
+      ],
+      "date": "2026-08-05T07:01:43.268058+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T06:31:27.123803+00:00"
+  "lastUpdated": "2026-08-05T07:01:43.268141+00:00"
 }
