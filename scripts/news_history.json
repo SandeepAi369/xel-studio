@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chief Healthcare Executive Publishes AI Predictions From 26 Leaders for 2026",
-      "urls": [
-        "https://www.chiefhealthcareexecutive.com/view/ai-in-health-care-26-leaders-offer-predictions-for-2026",
-        "https://www.youtube.com/watch?v=mWaxeSDJY5Q",
-        "https://www.youtube.com/watch?v=9eBO5Tj26Eo",
-        "https://www.youtube.com/watch?v=AfxYwwWDak0"
-      ],
-      "date": "2026-07-26T23:31:17.364439+00:00"
-    },
-    {
       "title": "U.S. Government Announces $5 Billion Federal Funding for Artificial Intelligence Projects",
       "urls": [
         "https://www.al.com/news/2026/07/5-billion-in-federal-research-funding-announced-for-artificial-intelligence-projects.html"
@@ -4248,7 +4238,15 @@
         "https://247wallst.com/investing/2026/08/05/elon-musk-predicts-money-wont-matter-in-2036-is-this-his-worst-prediction-yet-or-prophetic"
       ],
       "date": "2026-08-05T23:03:04.867627+00:00"
+    },
+    {
+      "title": "Generative AI Accelerates Drug Discovery, Transforming Pharmaceutical Research and Development",
+      "urls": [
+        "https://endpoints.news/topic-hub/ai-drug-discovery-news-analysis-and-interviews",
+        "https://www.globenewswire.com/news-release/2026/07/10/3325605/28124/en/generative-ai-in-drug-discovery-revolutionizing-pharmaceutical-research-and-development.html"
+      ],
+      "date": "2026-08-05T23:31:20.618083+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T23:03:04.867719+00:00"
+  "lastUpdated": "2026-08-05T23:31:20.618144+00:00"
 }
