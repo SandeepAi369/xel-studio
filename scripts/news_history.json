@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Pages Listed Without Details in Recent Search Results Compilation",
-      "urls": [
-        "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
-        "https://www.reddit.com/r/AIPulseDaily/comments/1q1a75a/welcome_to_2026_that_medical_ai_story_just_hit",
-        "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually",
-        "https://www.reddit.com/r/mnd/comments/1qiju0b/why_2026_might_be_a_turning_point_in_how_we"
-      ],
-      "date": "2026-07-26T09:31:19.264060+00:00"
-    },
-    {
       "title": "IBM and Red Hat Deploy Lightwell to Shield Open‑Source Code From AI Threats",
       "urls": [
         "https://www.msn.com/en-us/news/technology/ibm-and-red-hat-launch-lightwell-to-defend-open-source-code-from-ai-attacks/ar-AA27x9qo?ocid=BingNewsVerp"
@@ -4232,7 +4222,19 @@
         "https://axis-intelligence.com/ai-drug-discovery-2026-complete-analysis"
       ],
       "date": "2026-08-05T09:01:37.206303+00:00"
+    },
+    {
+      "title": "IMF Revises Global Inflation to 4.7% Amid Slowing Growth in 2026 Outlook",
+      "urls": [
+        "https://www.the-world-now.com/recession-risk",
+        "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
+        "https://globaloutlook.worldbank.org",
+        "https://wallstreettimes.com/imf-july-2026-world-economic-outlook-inflation-growth-forecast",
+        "https://desapublications.un.org/sites/default/files/publications/2026-01/WESP%202026_Executive%20Summary_English.pdf",
+        "https://financing.desa.un.org/sites/default/files/2026-01/IMF%20World%20Economic%20outlook%20update%202026JAN.pdf"
+      ],
+      "date": "2026-08-05T09:31:34.147802+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T09:01:37.206374+00:00"
+  "lastUpdated": "2026-08-05T09:31:34.147877+00:00"
 }
