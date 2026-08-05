@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Unveils New AI Changes in April 2026 Update Video",
-      "urls": [
-        "https://www.youtube.com/watch?v=uFzfbAPZOhc",
-        "https://openai.com/research/index/release"
-      ],
-      "date": "2026-07-26T09:01:27.675762+00:00"
-    },
-    {
       "title": "Reddit Pages Listed Without Details in Recent Search Results Compilation",
       "urls": [
         "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
@@ -4233,7 +4225,14 @@
         "https://www.advantage.tech/apple-google-microsoft-state-techs-big-three"
       ],
       "date": "2026-08-05T08:31:32.619645+00:00"
+    },
+    {
+      "title": "Axis Intelligence Details 173 AI Drug Discovery Programs, FDA Framework and Market Outlook",
+      "urls": [
+        "https://axis-intelligence.com/ai-drug-discovery-2026-complete-analysis"
+      ],
+      "date": "2026-08-05T09:01:37.206303+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T08:31:32.619742+00:00"
+  "lastUpdated": "2026-08-05T09:01:37.206374+00:00"
 }
