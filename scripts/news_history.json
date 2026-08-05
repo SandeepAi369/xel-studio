@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "State of Open Source AI Report Highlights Leading Models and Community Growth",
-      "urls": [
-        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
-        "https://data-gate.ch/open-source-ai-models-2026-community-innovation",
-        "https://stateofopensource.ai/state-of-open-source-ai-2026.pdf",
-        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
-        "https://www.devflokers.com/blog/open-source-ai-projects-may-2026-roundup"
-      ],
-      "date": "2026-07-26T15:01:48.478719+00:00"
-    },
-    {
       "title": "Nvidia Launches New AI Chip To Challenge Intel And AMD In Computer Market",
       "urls": [
         "https://www.spokesman.com/stories/2026/jun/01/nvidia-is-taking-on-intel-and-amd-with-new-ai-chip"
@@ -4246,7 +4235,15 @@
         "https://www.sciencedaily.com/releases/2026/07/260713000809.htm"
       ],
       "date": "2026-08-05T14:33:01.154702+00:00"
+    },
+    {
+      "title": "Climate Tech Startups Drive $2.3 Trillion Energy Transition Across Global Markets",
+      "urls": [
+        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners",
+        "https://www.motherjones.com/politics/2026/04/iran-war-gas-diesel-prices-opportunity-clean-energy-climate-affordability-democrats-political-messaging"
+      ],
+      "date": "2026-08-05T15:02:17.843378+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T14:33:01.154792+00:00"
+  "lastUpdated": "2026-08-05T15:02:17.843453+00:00"
 }
