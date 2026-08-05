@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Showcases Claude 5 Integration in iPhone 18 During YouTube Explanation",
-      "urls": [
-        "https://www.anthropic.com/research",
-        "https://www.anthropic.com/news",
-        "https://www.youtube.com/watch?v=3oTE626FaIw"
-      ],
-      "date": "2026-07-26T02:01:39.527509+00:00"
-    },
-    {
       "title": "DRIVE Hockey Secures R&D Grant, Appoints New CXO, and Surpasses 2025 Player Tracking Goal",
       "urls": [
         "https://www.theglobeandmail.com/investing/markets/markets-news/Newsfile/2480261/drive-hockey-secures-rd-grant-for-sports-ai-appoints-cxo-and-passes-2025-player-tracking-volume-in-record-time"
@@ -4221,7 +4212,15 @@
         "https://www.msn.com/en-us/news/technology/videochat3-beats-gpt-5-on-video-grounding-open-source-full-training-stack-released/ar-AA28eYJJ?ocid=BingNewsVerp"
       ],
       "date": "2026-08-05T02:01:35.909207+00:00"
+    },
+    {
+      "title": "HTBF Seeks Andhra University Partnership to Expand Scholarship Outreach Program",
+      "urls": [
+        "https://www.thehindu.com/news/national/andhra-pradesh/htbf-seeks-andhra-university-support-for-scholarship-outreach/article71301590.ece",
+        "https://www.msn.com/en-in/technology/tech-companies/jyoti-ai-vision-glasses-ai-powered-assistive-technologies-launched-to-aid-visually-impaired/ar-AA27BkVf?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-05T02:31:38.312891+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T02:01:35.909277+00:00"
+  "lastUpdated": "2026-08-05T02:31:38.312966+00:00"
 }
