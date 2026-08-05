@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Malaysia Leverages IGEM 2026 and KLSS 2026 to Accelerate Green Growth",
-      "urls": [
-        "https://www.malaysiakini.com/climateaction/778924"
-      ],
-      "date": "2026-07-26T14:01:32.909313+00:00"
-    },
-    {
       "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
       "urls": [
         "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
@@ -4245,7 +4238,16 @@
         "https://www.disabilityworld.org/articles"
       ],
       "date": "2026-08-05T13:31:31.924514+00:00"
+    },
+    {
+      "title": "California Generates $36.2 Billion From Carbon Pricing to Fund Climate Initiatives",
+      "urls": [
+        "https://id-times.com/news/daily-news-04-08-2026",
+        "https://www.niskanencenter.org/where-u-s-carbon-policy-is-being-decided-in-2026",
+        "https://www.esgdive.com/news/california-carbon-pricing-program-generated-362b-for-climate-initiatives-carb/826163"
+      ],
+      "date": "2026-08-05T14:01:38.625832+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T13:31:31.924587+00:00"
+  "lastUpdated": "2026-08-05T14:01:38.625931+00:00"
 }
