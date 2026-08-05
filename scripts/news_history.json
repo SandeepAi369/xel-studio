@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Reports 25 Percent Carbon Emission Increase Amid Rising AI Energy Demands",
-      "urls": [
-        "https://www.geekwire.com/2026/microsofts-carbon-emissions-climb-25-as-tech-giants-grapple-with-ais-energy-toll"
-      ],
-      "date": "2026-07-26T13:01:33.636999+00:00"
-    },
-    {
       "title": "Researchers Validate Two Medical AIs Matching Doctor Performance In Diagnostic and Treatment Decision Tasks",
       "urls": [
         "https://medicalxpress.com/news/2026-06-medical-ais-diagnosis-treatment-decisions.html"
@@ -4243,7 +4236,16 @@
         "https://www.outlookindia.com/sports"
       ],
       "date": "2026-08-05T12:32:38.148032+00:00"
+    },
+    {
+      "title": "MEXC Highlights Hong Kong Web3 Conferences Driving Global Blockchain Event Surge in 2026",
+      "urls": [
+        "https://pony.studio/design-for-growth/top-crypto-blockchain-and-web3-events-2026",
+        "https://hipther.com/latest-news/2026/07/13/115004/blocks-headlines-today-in-blockchain-july-13-2026-bitmine-ethereum-adi-chain-bydfi-china-and-kenya",
+        "https://www.mexc.com/news/1012754"
+      ],
+      "date": "2026-08-05T13:01:43.126736+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T12:32:38.148099+00:00"
+  "lastUpdated": "2026-08-05T13:01:43.126805+00:00"
 }
