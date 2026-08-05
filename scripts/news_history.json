@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "BloombergNEF Announces Twelve Climate Innovators as Winners of 2026 Pioneers Award",
-      "urls": [
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
-        "https://techvorta.com/climate-change-technology-solutions-2026",
-        "https://about.bnef.com/insights/clean-energy/bloombergnef-announces-12-climate-innovators-as-winners-of-its-2026-pioneers-award"
-      ],
-      "date": "2026-07-26T18:31:31.931530+00:00"
-    },
-    {
       "title": "Meta Open‑Sources Next‑Generation AI Models to Accelerate Llama Ecosystem Growth",
       "urls": [
         "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
@@ -4241,7 +4232,16 @@
         "https://www.pharmaceutical-technology.com/news/phylo-chugai-ai-platform-drug-discovery"
       ],
       "date": "2026-08-05T18:02:00.188938+00:00"
+    },
+    {
+      "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
+      "urls": [
+        "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
+        "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
+        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+      ],
+      "date": "2026-08-05T18:31:41.327284+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T18:02:00.189013+00:00"
+  "lastUpdated": "2026-08-05T18:31:41.327362+00:00"
 }
