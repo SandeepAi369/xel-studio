@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Validate Two Medical AIs Matching Doctor Performance In Diagnostic and Treatment Decision Tasks",
-      "urls": [
-        "https://medicalxpress.com/news/2026-06-medical-ais-diagnosis-treatment-decisions.html"
-      ],
-      "date": "2026-07-26T13:31:26.633703+00:00"
-    },
-    {
       "title": "Malaysia Leverages IGEM 2026 and KLSS 2026 to Accelerate Green Growth",
       "urls": [
         "https://www.malaysiakini.com/climateaction/778924"
@@ -4245,7 +4238,14 @@
         "https://www.mexc.com/news/1012754"
       ],
       "date": "2026-08-05T13:01:43.126736+00:00"
+    },
+    {
+      "title": "Disability World Expands Online Article Library for Global Accessibility Community",
+      "urls": [
+        "https://www.disabilityworld.org/articles"
+      ],
+      "date": "2026-08-05T13:31:31.924514+00:00"
     }
   ],
-  "lastUpdated": "2026-08-05T13:01:43.126805+00:00"
+  "lastUpdated": "2026-08-05T13:31:31.924587+00:00"
 }
