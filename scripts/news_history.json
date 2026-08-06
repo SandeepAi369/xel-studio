@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "FDA Expands Review Pipeline With Growing Generative AI Medical Devices",
-      "urls": [
-        "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech",
-        "https://www.morningstar.com/news/marketwatch/2026062812/your-health-insurer-shouldnt-decide-your-treatment-plan-thats-what-your-doctor-and-ai-should-be-doing"
-      ],
-      "date": "2026-07-27T09:01:45.237713+00:00"
-    },
-    {
-      "title": "New Zealand Invests $3.5 Million to Accelerate Smart Wheelchair Development",
-      "urls": [
-        "https://www.devdiscourse.com/article/science-environment/3949233-nz-invests-35-million-in-advanced-wheelchair-research",
-        "https://www.msn.com/en-us/health/disability/two-new-wheelchairs-reveal-what-smart-really-means-today/ar-AA27GZZl?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-27T09:31:21.494108+00:00"
-    },
-    {
       "title": "Backline Highlights Record Growth in Seventh Mental Health Awareness Campaign for Musicians",
       "urls": [
         "https://breakingandentering.net/2026/07/26/backline-mental-health-awareness-month-2026"
@@ -4263,7 +4247,14 @@
         "https://www.msn.com/en-us/news/technology/deepminds-hassabis-steps-down-adding-to-worries-over-googles-ai-push/ar-AA29twZ5?ocid=BingNewsVerp"
       ],
       "date": "2026-08-06T09:01:31.737683+00:00"
+    },
+    {
+      "title": "Neurodiversity Gains Momentum as ADHD and Autism Become IT Recruitment Superpowers",
+      "urls": [
+        "https://itcompare.pl/en-us/articles/195/neurodiversity-in-it-2026:-how-adhd-and-the-autism-spectrum-became-technical-recruitment-superpowers"
+      ],
+      "date": "2026-08-06T09:31:38.731361+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T09:01:31.737755+00:00"
+  "lastUpdated": "2026-08-06T09:31:38.731457+00:00"
 }
