@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shakudo Publishes Ranked List of Top Nine Large Language Models for AI Community",
-      "urls": [
-        "https://www.shakudo.io/blog/top-9-large-language-models",
-        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
-      ],
-      "date": "2026-07-27T11:31:22.072156+00:00"
-    },
-    {
       "title": "YouTube Publishes Series Detailing EU AI Act Compliance and Upcoming Regulatory Changes",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1qpyuyj/ai_regulation_in_2026_were_getting_a_patchwork_of",
@@ -4255,7 +4247,15 @@
         "https://www.forbes.com/sites/johnbremen/2026/06/29/tracking-2026-midyear-trends-geopolitical-ai-inflation-people-risk"
       ],
       "date": "2026-08-06T11:01:59.317327+00:00"
+    },
+    {
+      "title": "Facebook Highlights Rapid Shift to Hybrid AI Infrastructure as Enterprises Exit Cloud",
+      "urls": [
+        "https://www.facebook.com/ubuntulinux/videos/ai-infrastructure-is-moving-fast-from-hybrid-cloud-and-sovereign-ai-to-agentic-a/1975326869840552",
+        "https://www.youtube.com/watch?v=HS_Jj5GR1rU"
+      ],
+      "date": "2026-08-06T11:31:30.088100+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T11:01:59.317402+00:00"
+  "lastUpdated": "2026-08-06T11:31:30.088162+00:00"
 }
