@@ -1,93 +1,6 @@
 {
   "entries": [
     {
-      "title": "Germany Unveils Strongest Non‑Chinese Open‑Source AI Model Challenging US Tech Landscape",
-      "urls": [
-        "https://propakistani.pk/2026/07/17/germany-takes-on-us-with-strongest-non-chinese-open-source-ai-model",
-        "https://www.thestar.com.my/tech/tech-news/2026/07/20/chinese-ai-model-takes-us-tech-industry-by-surprise-with-abilities-rivalling-claude-and-chatgpt",
-        "https://lasvegassun.com/news/2026/jul/17/chinese-ai-model-takes-us-tech-industry-by-surpris"
-      ],
-      "date": "2026-07-27T18:01:46.238170+00:00"
-    },
-    {
-      "title": "Telehealth.org Highlights AI-Driven Digital Health Growth Across United States in 2026",
-      "urls": [
-        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
-        "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026",
-        "https://www.gminsights.com/blogs/digital-health-market-trends-opportunities-challenges",
-        "https://telehealth.org/news/category/technology-and-innovation",
-        "https://www.mdtalks.com/telehealth-ai-2026-trends",
-        "https://www.practiceehr.com/blog/telemedicine-trends-in-2026-remote-care-tech-and-patient-outcomes",
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
-      ],
-      "date": "2026-07-27T18:31:27.994766+00:00"
-    },
-    {
-      "title": "Black Book Research Highlights 2026 Hospital Front-End Access and Patient Financial Experience Leaders",
-      "urls": [
-        "https://www.finanznachrichten.de/nachrichten-2026-06/68828423-black-book-research-spotlights-2026-front-end-access-and-patient-financial-experience-leaders-in-hospital-rcm-200.htm"
-      ],
-      "date": "2026-07-27T19:01:38.040798+00:00"
-    },
-    {
-      "title": "PyTorch Dominates AI Research Share While TensorFlow Trails in 2026 Performance Gap",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://uvik.net/blog/pytorch-vs-tensorflow",
-        "https://www.youtube.com/watch?v=iyHkg7TmHmE&pp=0gcJCdgAo7VqN5tD",
-        "https://www.youtube.com/watch?v=yOGi4vmtNaY"
-      ],
-      "date": "2026-07-27T19:31:44.857616+00:00"
-    },
-    {
-      "title": "United States Iran Ceasefire Falters as Fresh Strikes Escalate Middle East Conflict",
-      "urls": [
-        "https://www.cnn.com/2026/07/09/world/live-news/iran-war-trump",
-        "https://www.cnn.com/2026/07/01/world/live-news/iran-war-trump",
-        "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-netanyahu-announces-idf-withdrawal-from-two-areas-following-us-lebanon-breakthrough/ar-AA26EQgE?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-27T20:01:34.510633+00:00"
-    },
-    {
-      "title": "SocialPilot Publishes May 2026 Social Media Update Highlighting Platform Changes",
-      "urls": [
-        "https://www.socialpilot.co/blog/social-media-updates"
-      ],
-      "date": "2026-07-27T20:31:27.947600+00:00"
-    },
-    {
-      "title": "Dentulu Health Expands Telehealth Services While Advocates Seek Permanent Medicare Telehealth Legislation",
-      "urls": [
-        "https://homehealthcarenews.com/2026/07/home-based-care-advocates-push-for-permanent-medicare-telehealth-legislation",
-        "https://www.oklahoman.com/press-release/story/206555/dentulu-becomes-dentulu-health-expanding-telehealth-through-medical-dental-integration-whole-body-health-and-wellness"
-      ],
-      "date": "2026-07-27T21:01:49.014995+00:00"
-    },
-    {
-      "title": "YouTube Releases Short Video Showcasing Assistive Devices for People With Sight Loss",
-      "urls": [
-        "https://www.youtube.com/watch?v=XEBf_uhKBs8"
-      ],
-      "date": "2026-07-27T21:31:28.370685+00:00"
-    },
-    {
-      "title": "YouTube Releases Weekly AI News Summary Episode 215 Providing Concise Four Minute Industry Update",
-      "urls": [
-        "https://www.youtube.com/watch?v=cJoecAxCrHU"
-      ],
-      "date": "2026-07-27T22:01:44.960580+00:00"
-    },
-    {
-      "title": "The Guardian Reports Climate Change Boosts Rainfall Raising Flash Flood Death Risk",
-      "urls": [
-        "https://www.theguardian.com/us-news/2026/jul/17/climate-change-rains-flash-floods"
-      ],
-      "date": "2026-07-27T22:31:32.608899+00:00"
-    },
-    {
       "title": "CNN Launches Election 2026 Hub Providing Results, News, and Analysis",
       "urls": [
         "https://www.cnn.com/election/2026"
@@ -4240,7 +4153,15 @@
         "https://nod.org/event/ai-for-accessibility-inclusive-tech-in-action-may-21-2026"
       ],
       "date": "2026-08-06T17:35:33.629087+00:00"
+    },
+    {
+      "title": "Red Hat Launches Asago Community to Automate AI Safety and Governance from Policy to Production",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/08/06/10426816.htm",
+        "https://www.intelligentcio.com/north-america/2026/08/04/red-hat-launches-asago-community-to-automate-ai-safety-and-governance-from-policy-to-production"
+      ],
+      "date": "2026-08-06T23:00:52.446587+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T17:35:33.629156+00:00"
+  "lastUpdated": "2026-08-06T23:00:52.446678+00:00"
 }
