@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Plans Over 50 Percent Increase In Wind And Solar Generation Within Five Years",
-      "urls": [
-        "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20",
-        "https://www.reuters.com/business/energy/china-boost-wind-solar-generation-by-more-than-50-five-years-2026-07-23"
-      ],
-      "date": "2026-07-27T06:31:28.347025+00:00"
-    },
-    {
       "title": "Concern USA Highlights Largest Refugee Crises of 2026 in Context",
       "urls": [
         "https://concernusa.org/news/largest-refugee-crises"
@@ -4251,7 +4243,18 @@
         "https://finance.yahoo.com/technology/ai/articles/perfect-corp-showcases-ai-skin-110000312.html"
       ],
       "date": "2026-08-06T06:01:42.829015+00:00"
+    },
+    {
+      "title": "International Energy Agency Highlights Solar and Wind Growth in 2026 Global Energy Review",
+      "urls": [
+        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
+        "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
+        "https://electrek.co/2026/04/27/eia-80-gw-of-new-solar-wind-storage-capacity-coming-in-2026",
+        "https://ember-energy.org/latest-updates/for-the-first-time-wind-and-solar-generated-more-electricity-than-gas-worldwide-in-april-2026",
+        "https://www.rff.org/publications/reports/global-energy-outlook-2026"
+      ],
+      "date": "2026-08-06T06:31:40.210138+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T06:01:42.829075+00:00"
+  "lastUpdated": "2026-08-06T06:31:40.210200+00:00"
 }
