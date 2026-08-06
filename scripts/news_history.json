@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Novartis Accelerates Drug Discovery Timelines Using Artificial Intelligence Tools In Early Research",
-      "urls": [
-        "https://finance.yahoo.com/video/ai-is-helping-speed-up-the-timelines-of-drug-discovery-novartis-ceo-says-200201965.html",
-        "https://www.broadinstitute.org/videos/machine-learning-drug-discovery-symposium-2025-models-medicines-keynote-delivering-promise",
-        "https://visionlifesciences.com/insights/drug-discovery-ai-news",
-        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281"
-      ],
-      "date": "2026-07-27T23:31:23.978536+00:00"
-    },
-    {
       "title": "Wikipedia, Britannica, NASA, and NOAA Expand Public Access to Climate Knowledge",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Climate",
@@ -4162,7 +4152,19 @@
         "https://www.youtube.com/watch?v=lY9HAntz2tM"
       ],
       "date": "2026-08-06T23:14:50.430623+00:00"
+    },
+    {
+      "title": "Open Source AI Community Releases 2026 Model Tracker and Leaderboard",
+      "urls": [
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://data-gate.ch/open-source-ai-models-2026-community-innovation",
+        "https://artificial-intelligence-wiki.com/ai-research/ai-news-and-trends/ai-open-source-news",
+        "https://lmmarketcap.com/open-source-ai-models",
+        "https://thebriefscript.com/open-source-ai-models-2026",
+        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
+      ],
+      "date": "2026-08-06T23:32:20.713286+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T23:14:50.430695+00:00"
+  "lastUpdated": "2026-08-06T23:32:20.713356+00:00"
 }
