@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Unveils First Robot Model Navigating With Single Camera",
-      "urls": [
-        "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control",
-        "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
-        "https://www.mercurynews.com/2026/07/08/mistral-ai-releases-robotics-model-to-support-physical-ai-push",
-        "https://www.eweek.com/news/mistral-ai-robostral-navigate-robotics-model",
-        "https://siliconangle.com/2026/06/12/mistral-reportedly-seeking-3-5b-funding-round-amid-physics-ai-push"
-      ],
-      "date": "2026-07-27T04:01:43.386268+00:00"
-    },
-    {
       "title": "Investment Analysts Highlight Top Renewable Energy and Battery Stocks Amid AI Power Surge",
       "urls": [
         "https://www.forbes.com/sites/indrabatilahiri/2026/07/26/the-hidden-wildlife-challenge-of-the-renewable-energy-boom",
@@ -4250,7 +4239,16 @@
         "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html"
       ],
       "date": "2026-08-06T03:31:27.214877+00:00"
+    },
+    {
+      "title": "Meta Llama 4 Open‑Source Release Spurs AI Ecosystem Shift Toward Community Models",
+      "urls": [
+        "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
+        "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
+        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems"
+      ],
+      "date": "2026-08-06T04:01:56.130975+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T03:31:27.214972+00:00"
+  "lastUpdated": "2026-08-06T04:01:56.131051+00:00"
 }
