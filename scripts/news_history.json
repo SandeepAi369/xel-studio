@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Micron Reports Q3 2026 Earnings in Live Recap Highlighting Outlook",
-      "urls": [
-        "https://www.thestreet.com/latest-news/micron-mu-q3-2026-earnings-call-updates"
-      ],
-      "date": "2026-07-27T03:01:35.592109+00:00"
-    },
-    {
       "title": "Reuters Expands Technology News Portal to Offer Daily Updates Across Digital Landscape",
       "urls": [
         "https://www.reuters.com/technology"
@@ -4246,7 +4239,18 @@
         "https://www.youtube.com/watch?v=AfxYwwWDak0"
       ],
       "date": "2026-08-06T02:31:22.555408+00:00"
+    },
+    {
+      "title": "Arizona Primary Election Sparks Early Attacks in 2026 Governor Race",
+      "urls": [
+        "https://chargerswire.usatoday.com/story/news/politics/elections/2026/07/21/arizona-primary-election-2026-news-updates--live/90939019007",
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-missouri-us-house-3-primary.html",
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-us-house-7-primary.html",
+        "https://www.usatoday.com/story/news/2026/07/22/2026-midterms-polls-congress-house-senate-control/91007193007",
+        "https://dailypost.ng/2026/08/02/2027-apc-has-damaged-nigerias-democracy-ndc"
+      ],
+      "date": "2026-08-06T03:01:40.521367+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T02:31:22.555481+00:00"
+  "lastUpdated": "2026-08-06T03:01:40.521462+00:00"
 }
