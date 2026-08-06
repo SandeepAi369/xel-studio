@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Emerging Sports Tech Trends And Smart Capital Investments In 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=PmxyLYXRghw",
-        "https://www.youtube.com/watch?v=YL5yS1Bge3k",
-        "https://www.youtube.com/watch?v=X5y3Uq0jalM",
-        "https://www.sportsfirst.net/post/sports-technology-trends-in-2026-insights-from-nishant-shah"
-      ],
-      "date": "2026-07-27T08:31:35.752379+00:00"
-    },
-    {
       "title": "FDA Expands Review Pipeline With Growing Generative AI Medical Devices",
       "urls": [
         "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech",
@@ -4264,7 +4254,16 @@
         "https://www.nbcnews.com/sports/soccer/2026-world-cup-photos-rcna588080"
       ],
       "date": "2026-08-06T08:31:30.019875+00:00"
+    },
+    {
+      "title": "Google DeepMind Chief Demis Hassabis Steps Aside Triggering Share Price Drop",
+      "urls": [
+        "https://www.independent.co.uk/tech/google-ai-team-gemini-model-deepmind-b3028456.html",
+        "https://finance.yahoo.com/technology/ai/articles/google-deepmind-shakeup-reveals-compute-015234744.html",
+        "https://www.msn.com/en-us/news/technology/deepminds-hassabis-steps-down-adding-to-worries-over-googles-ai-push/ar-AA29twZ5?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-06T09:01:31.737683+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T08:31:30.019937+00:00"
+  "lastUpdated": "2026-08-06T09:01:31.737755+00:00"
 }
