@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reuters Expands Technology News Portal to Offer Daily Updates Across Digital Landscape",
-      "urls": [
-        "https://www.reuters.com/technology"
-      ],
-      "date": "2026-07-27T03:31:14.171397+00:00"
-    },
-    {
       "title": "Mistral AI Unveils First Robot Model Navigating With Single Camera",
       "urls": [
         "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control",
@@ -4250,7 +4243,14 @@
         "https://dailypost.ng/2026/08/02/2027-apc-has-damaged-nigerias-democracy-ndc"
       ],
       "date": "2026-08-06T03:01:40.521367+00:00"
+    },
+    {
+      "title": "Hugging Face CEO Says China Leads AI Race With Open Model Dominance",
+      "urls": [
+        "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html"
+      ],
+      "date": "2026-08-06T03:31:27.214877+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T03:01:40.521462+00:00"
+  "lastUpdated": "2026-08-06T03:31:27.214972+00:00"
 }
