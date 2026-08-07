@@ -80,10 +80,10 @@ export default async function ArticlesPage({
                             {filteredArticles.map((article) => (
                                 <article
                                     key={article.id}
-                                    className="article-card bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 h-full flex flex-col"
+                                    className="article-card relative bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 h-full flex flex-col group"
                                 >
-                                    {/* Image Container with raw href */}
-                                    <a href={`/articles/${article.id}`} className="block h-52 w-full overflow-hidden bg-zinc-800 relative">
+                                    {/* Image Container with Link */}
+                                    <Link href={`/articles/${article.id}`} className="block h-52 w-full overflow-hidden bg-zinc-800 relative">
                                         {article.image ? (
                                             <img
                                                 src={article.image}
@@ -106,7 +106,7 @@ export default async function ArticlesPage({
                                                 {article.category}
                                             </span>
                                         )}
-                                    </a>
+                                    </Link>
 
                                     {/* Content */}
                                     <div className="p-5 flex flex-col flex-1">
@@ -118,20 +118,20 @@ export default async function ArticlesPage({
                                         </div>
 
                                         <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
-                                            <a href={`/articles/${article.id}`} className="hover:text-green-400 transition-colors">
+                                            <Link href={`/articles/${article.id}`} className="hover:text-green-400 transition-colors before:absolute before:inset-0 before:z-10">
                                                 {article.title}
-                                            </a>
+                                            </Link>
                                         </h2>
 
                                         <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
                                             {stripMarkdown(article.content).substring(0, 150)}...
                                         </p>
 
-                                        <div className="mt-auto">
-                                            <a href={`/articles/${article.id}`} className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
+                                        <div className="mt-auto relative z-20">
+                                            <Link href={`/articles/${article.id}`} className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
                                                 <span>Read more</span>
                                                 <ChevronRight className="w-4 h-4" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </article>
