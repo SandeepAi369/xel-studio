@@ -94,8 +94,39 @@ export default async function ArticlePage({
     const readingTime = getReadingTime(article.content);
     const paragraphs = formatContent(article.content);
 
+    const canonicalUrl = `https://xel-studio.vercel.app/articles/${article.id}`;
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article.title,
+        "author": {
+            "@type": "Person",
+            "name": "Sandeep"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "XeL Studio",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://xel-studio.vercel.app/favicon.ico"
+            }
+        },
+        "datePublished": article.date || article.created_at || new Date().toISOString(),
+        "dateModified": article.date || article.created_at || new Date().toISOString(),
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": canonicalUrl
+        },
+        "url": canonicalUrl,
+        "image": article.image ? [article.image] : []
+    };
+
     return (
         <main className="min-h-screen bg-[#0a0a0a]">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             {/* Hero Section with Image */}
             <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900" aria-hidden="true">
                 {article.image ? (
@@ -238,5 +269,8 @@ export async function generateMetadata({
     return {
         title: article.title,
         description: article.content.substring(0, 160),
+        alternates: {
+            canonical: `https://xel-studio.vercel.app/articles/${article.id}`
+        }
     };
 }
