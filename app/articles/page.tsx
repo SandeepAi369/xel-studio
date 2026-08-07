@@ -6,6 +6,18 @@ import { getArticles } from '@/lib/supabase-db';
 
 export const dynamic = 'force-dynamic';
 
+// Robust date formatter
+function formatArticleDate(dateStr: string | undefined | null, createdAt?: string | undefined | null): string {
+    const raw = dateStr || createdAt;
+    if (!raw) return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    
+    const d = new Date(raw);
+    if (isNaN(d.getTime())) {
+        return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
 export default async function ArticlesPage({
     searchParams
 }: {
@@ -62,17 +74,16 @@ export default async function ArticlesPage({
                         </div>
                     )}
 
-                    {/* Article Grid — NO framer motion animations at all to prevent scroll fights */}
+                    {/* Article Grid — Semantic HTML for Crawlers */}
                     {filteredArticles.length > 0 && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {filteredArticles.map((article) => (
-                                <Link
+                                <article
                                     key={article.id}
-                                    href={`/articles/${article.id}`}
-                                    className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
+                                    className="article-card bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 h-full flex flex-col"
                                 >
-                                    {/* Image Container */}
-                                    <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
+                                    {/* Image Container with raw href */}
+                                    <a href={`/articles/${article.id}`} className="block h-52 w-full overflow-hidden bg-zinc-800 relative">
                                         {article.image ? (
                                             <img
                                                 src={article.image}
@@ -95,35 +106,35 @@ export default async function ArticlesPage({
                                                 {article.category}
                                             </span>
                                         )}
-                                    </div>
+                                    </a>
 
                                     {/* Content */}
-                                    <div className="p-5">
+                                    <div className="p-5 flex flex-col flex-1">
                                         <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                             <Calendar className="w-3.5 h-3.5" />
-                                            <time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-US', {
-                                                year: 'numeric',
-                                                month: 'short',
-                                                day: 'numeric'
-                                            })}</time>
+                                            <time dateTime={article.date || article.created_at || new Date().toISOString()}>
+                                                {formatArticleDate(article.date, article.created_at)}
+                                            </time>
                                         </div>
 
                                         <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
-                                            {article.title}
+                                            <a href={`/articles/${article.id}`} className="hover:text-green-400 transition-colors">
+                                                {article.title}
+                                            </a>
                                         </h2>
 
-                                        <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+                                        <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
                                             {stripMarkdown(article.content).substring(0, 150)}...
                                         </p>
 
-                                        <div className="flex items-center justify-between mt-4">
-                                            <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
+                                        <div className="mt-auto">
+                                            <a href={`/articles/${article.id}`} className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
                                                 <span>Read more</span>
                                                 <ChevronRight className="w-4 h-4" />
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
-                                </Link>
+                                </article>
                             ))}
                         </div>
                     )}
