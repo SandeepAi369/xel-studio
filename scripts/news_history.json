@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Euronews Highlights Carbon‑Capturing Bison and Bill‑Slashing Renewable Energy Projects Boosting Sustainability",
-      "urls": [
-        "https://www.euronews.com/2026/05/22/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
-        "https://news.mongabay.com/list/all"
-      ],
-      "date": "2026-07-28T12:02:00.065210+00:00"
-    },
-    {
-      "title": "Lionel Messi Sets New World Cup Record in Argentina Quarter‑Final Victory Over Switzerland",
-      "urls": [
-        "https://sports.yahoo.com/articles/lionel-messi-breaks-yet-another-052316160.html"
-      ],
-      "date": "2026-07-28T12:31:20.196481+00:00"
-    },
-    {
       "title": "Meta Launches Cloud Service To Sell Surplus AI Compute Capacity",
       "urls": [
         "https://techstartups.com/2026/07/22/top-tech-news-today-july-22-2026-apple-anthropic-google-nvidia",
@@ -4174,7 +4159,14 @@
         "https://siliconangle.com/2026/08/05/mistral-introduces-shieldstral-provide-lightweight-policy-aware-moderation-ai-models"
       ],
       "date": "2026-08-07T12:01:42.495074+00:00"
+    },
+    {
+      "title": "Josh Kerr Shatters 27-Year-Old Mile World Record in Historic Run",
+      "urls": [
+        "https://www.npr.org/2026/07/18/nx-s1-5899057/josh-kerr-mile-world-record-time"
+      ],
+      "date": "2026-08-07T12:31:28.372615+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T12:01:42.495144+00:00"
+  "lastUpdated": "2026-08-07T12:31:28.372694+00:00"
 }
