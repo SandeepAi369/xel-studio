@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Begins Mass Production of In‑House AI Chips, Boosting AI Hardware Independence",
-      "urls": [
-        "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
-        "https://www.asiae.co.kr/en/article/2026071009110915403",
-        "https://money.usnews.com/investing/news/articles/2026-07-09/meta-debuts-muse-spark-1-1-with-preview-open-to-developers",
-        "https://www.msn.com/en-in/money/news/meta-unveils-muse-media-generation-models-and-signals-shift-to-proprietary-ai/ar-AA27rtbg?ocid=BingNewsVerp",
-        "https://finance.yahoo.com/technology/ai/articles/meta-stock-gains-15-week-184506967.html",
-        "https://hothardware.com/news/nvidia-ceo-jensen-huang-x-debut-push-open-weight-ai-models",
-        "https://www.msn.com/en-us/news/technology/meta-was-running-on-googles-ai-until-google-said-no/ar-AA26PjeQ?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/technology/tech-companies/is-meta-platforms-about-to-follow-in-the-footsteps-of-elon-musk-s-spacex/ar-AA27oecm?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-28T22:01:44.266173+00:00"
-    },
-    {
       "title": "Spain Secures Second FIFA World Cup Title With 1-0 Victory Over Argentina",
       "urls": [
         "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-final-2026-argentina-spain-messi-yamal-live-updates-rcna587754",
@@ -4173,7 +4159,15 @@
         "https://www.espn.com/espn/latestnews"
       ],
       "date": "2026-08-07T21:31:32.557908+00:00"
+    },
+    {
+      "title": "The Brief Script Highlights AI Video Models Set to Transform 2026 Content Creation",
+      "urls": [
+        "https://thebriefscript.com/ai-video-generation-news",
+        "https://resource.digen.ai/ai-video-models-2026-dominate-content-creation"
+      ],
+      "date": "2026-08-07T22:01:46.731235+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T21:31:32.557983+00:00"
+  "lastUpdated": "2026-08-07T22:01:46.731297+00:00"
 }
