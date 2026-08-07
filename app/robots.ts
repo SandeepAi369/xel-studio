@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
         rules: [
             {
                 userAgent: '*',
-                allow: '/',
+                allow: ['/', '/api/rss'],
                 disallow: ['/xel-admin', '/dashboard', '/api/'],
             },
         ],
