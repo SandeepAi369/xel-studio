@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Unveil AI Tool Detecting Pancreatic Cancer Years Before Diagnosis",
-      "urls": [
-        "https://lasvegassun.com/news/2026/jul/21/tema-launches-healthcare-ai-etf-hlth",
-        "https://www.msn.com/en-in/health/general/scientists-develop-ai-that-detects-pancreatic-cancer-years-before-diagnosis-in-a-major-breakthrough/ar-AA26XZZi?ocid=BingNewsVerp",
-        "https://www.mobihealthnews.com/news/aidoc-lands-fda-breakthrough-status-ai-drafts-radiology-reports"
-      ],
-      "date": "2026-07-28T15:01:41.282839+00:00"
-    },
-    {
       "title": "John Jumper Leaves Google for Anthropic in 2026’s Largest AI Talent Acquisition",
       "urls": [
         "https://economictimes.indiatimes.com/magazines/panache/google-doubles-down-on-indias-ai-ambitions-with-enterprise-ai-safety-tools-and-education-push-at-i/o-connect-2026/articleshow/132386529.cms",
@@ -4163,7 +4154,16 @@
         "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally"
       ],
       "date": "2026-08-07T14:31:30.123719+00:00"
+    },
+    {
+      "title": "Silicon Valley Bank Publishes Future of Climate Tech Report Highlighting Emerging Solutions",
+      "urls": [
+        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
+        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-08-03/weekly",
+        "https://techvorta.com/climate-change-technology-solutions-2026"
+      ],
+      "date": "2026-08-07T15:01:59.448085+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T14:31:30.123783+00:00"
+  "lastUpdated": "2026-08-07T15:01:59.448154+00:00"
 }
