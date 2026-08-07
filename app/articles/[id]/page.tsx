@@ -49,6 +49,18 @@ function formatContent(content: string): string[] {
         .filter(p => p.length > 0);
 }
 
+// Robust date formatter for long format
+function formatArticleDateLong(dateStr: string | undefined | null, createdAt?: string | undefined | null): string {
+    const raw = dateStr || createdAt;
+    if (!raw) return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    
+    const d = new Date(raw);
+    if (isNaN(d.getTime())) {
+        return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
 export default async function ArticlePage({
     params
 }: {
@@ -104,12 +116,8 @@ export default async function ArticlePage({
                             )}
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
                                 <Calendar className="w-4 h-4" aria-hidden="true" />
-                                <time dateTime={article.date}>
-                                    {new Date(article.date).toLocaleDateString('en-US', {
-                                        year: 'numeric',
-                                        month: 'long',
-                                        day: 'numeric'
-                                    })}
+                                <time dateTime={article.date || article.created_at || new Date().toISOString()}>
+                                    {formatArticleDateLong(article.date, article.created_at)}
                                 </time>
                             </span>
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
