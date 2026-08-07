@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI President Greg Brockman Details Plan to Merge Chat With Agents",
-      "urls": [
-        "https://www.youtube.com/watch?v=VZTmS4B840k",
-        "https://www.youtube.com/watch?v=1f6BeloOdgQ"
-      ],
-      "date": "2026-07-28T11:31:23.130243+00:00"
-    },
-    {
       "title": "Euronews Highlights Carbon‑Capturing Bison and Bill‑Slashing Renewable Energy Projects Boosting Sustainability",
       "urls": [
         "https://www.euronews.com/2026/05/22/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
@@ -4166,7 +4158,15 @@
         "https://markets.businessinsider.com/news/stocks/canadiansme-and-enabled-talent-launch-enable-accessibility-canada-inc-1036364316"
       ],
       "date": "2026-08-07T11:02:51.226957+00:00"
+    },
+    {
+      "title": "Open‑Source AI Explained By Software Engineering Researcher Clarifies Community Benefits",
+      "urls": [
+        "https://theconversation.com/what-is-open-source-ai-a-software-engineering-researcher-explains-236668",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the"
+      ],
+      "date": "2026-08-07T11:31:33.415860+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T11:02:51.227019+00:00"
+  "lastUpdated": "2026-08-07T11:31:33.415932+00:00"
 }
