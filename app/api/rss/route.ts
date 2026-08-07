@@ -1,7 +1,10 @@
 /**
  * /api/rss — RSS 2.0 Feed (AI News + Articles)
  * Combines automated AI news from Firestore and original articles from Supabase
- * into a single sorted RSS feed for Google Publisher Center.
+ * into a single sorted RSS feed for Google Publisher Center and AI crawlers.
+ * 
+ * Includes FULL article content via content:encoded so bots can read
+ * the entire article directly from the feed without navigating.
  */
 
 import { NextResponse } from 'next/server';
@@ -25,10 +28,22 @@ function escapeXml(str: string): string {
         .replace(/'/g, '&apos;');
 }
 
+/** Convert plain text content to simple HTML paragraphs for content:encoded */
+function textToHtml(text: string): string {
+    return text
+        .replace(/[#*`>\[\]()!]/g, '')  // strip markdown artifacts
+        .split(/\n{2,}/)
+        .map(p => p.trim())
+        .filter(p => p.length > 0)
+        .map(p => `<p>${p}</p>`)
+        .join('\n');
+}
+
 interface FeedItem {
     title: string;
     link: string;
     description: string;
+    fullContent: string;
     pubDate: string;
     category: string;
     imageUrl?: string;
@@ -47,10 +62,12 @@ export async function GET() {
 
         newsSnap.docs.forEach((doc) => {
             const d = doc.data();
+            const summary = d.summary || '';
             items.push({
                 title: d.title || 'Untitled',
                 link: `${SITE_URL}/ai-news/${doc.id}`,
-                description: d.summary || '',
+                description: summary,
+                fullContent: summary,
                 pubDate: d.date ? new Date(d.date).toUTCString() : new Date().toUTCString(),
                 category: d.category || 'ai-tech',
                 imageUrl: d.image_url || undefined,
@@ -69,20 +86,24 @@ export async function GET() {
             const supabase = createClient(url, key);
             const { data } = await supabase
                 .from('articles')
-                .select('id, title, content, date, category, image')
-                .order('date', { ascending: false })
+                .select('id, title, content, date, category, image, created_at')
+                .order('created_at', { ascending: false })
                 .limit(50);
 
             if (data) {
                 data.forEach((a) => {
-                    const summary = a.content
-                        ? a.content.replace(/[#*`>\-\[\]()!]/g, '').substring(0, 300).trim()
-                        : '';
+                    const rawContent = a.content || '';
+                    const snippet = rawContent.replace(/[#*`>\-\[\]()!]/g, '').substring(0, 300).trim();
                     items.push({
                         title: a.title || 'Untitled',
                         link: `${SITE_URL}/articles/${a.id}`,
-                        description: summary,
-                        pubDate: a.date ? new Date(a.date).toUTCString() : new Date().toUTCString(),
+                        description: snippet,
+                        fullContent: rawContent,
+                        pubDate: a.date
+                            ? new Date(a.date).toUTCString()
+                            : a.created_at
+                                ? new Date(a.created_at).toUTCString()
+                                : new Date().toUTCString(),
                         category: a.category || 'article',
                         imageUrl: a.image || undefined,
                     });
@@ -96,13 +117,14 @@ export async function GET() {
     // ── 3. Sort by most recent date ─────────────────────────────
     items.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
 
-    // ── 4. Build RSS 2.0 XML ────────────────────────────────────
+    // ── 4. Build RSS 2.0 XML with content:encoded ───────────────
     const rssItems = items
         .map(
             (item) => `    <item>
       <title>${escapeXml(item.title)}</title>
       <link>${item.link}</link>
       <description>${escapeXml(item.description)}</description>
+      <content:encoded><![CDATA[${textToHtml(item.fullContent)}]]></content:encoded>
       <pubDate>${item.pubDate}</pubDate>
       <category>${escapeXml(item.category)}</category>
       <guid isPermaLink="true">${item.link}</guid>${item.imageUrl
@@ -114,7 +136,7 @@ export async function GET() {
         .join('\n');
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>${escapeXml(FEED_TITLE)}</title>
     <link>${SITE_URL}</link>
@@ -138,3 +160,4 @@ ${rssItems}
         },
     });
 }
+
