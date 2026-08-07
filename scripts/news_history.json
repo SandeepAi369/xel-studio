@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wikipedia, Britannica, NASA, and NOAA Expand Public Access to Climate Knowledge",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Climate",
-        "https://climate.com",
-        "https://www.britannica.com/science/climate-meteorology",
-        "https://openclimatemap.org",
-        "https://www.climate.us",
-        "https://science.nasa.gov/climate-change/what-is-climate-change",
-        "https://en.m.wikipedia.org/wiki/Climate_change",
-        "https://wmo.int/themes/climate",
-        "https://www.noaa.gov/climate",
-        "https://scienceinsights.org/what-is-climate-definition-causes-and-types"
-      ],
-      "date": "2026-07-28T00:01:41.189623+00:00"
-    },
-    {
       "title": "Ethiopia Proposes Regional Plan to Address Sudan‑Driven Refugee Crisis Across East Africa",
       "urls": [
         "https://www.theguardian.com/global-development/2026/jul/21/ethiopian-plan-sudanese-refugees-migration-crisis-education-work",
@@ -4164,7 +4148,15 @@
         "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in"
       ],
       "date": "2026-08-06T23:32:20.713286+00:00"
+    },
+    {
+      "title": "Global Renewable Power Surpasses Gas for First Time in April, Marking Historic Shift",
+      "urls": [
+        "https://www.reuters.com/business/energy/global-wind-solar-power-outpace-gas-first-time-april-report-shows-2026-05-20",
+        "https://www.reuters.com/business/energy/china-boost-wind-solar-generation-by-more-than-50-five-years-2026-07-23"
+      ],
+      "date": "2026-08-07T00:01:45.052235+00:00"
     }
   ],
-  "lastUpdated": "2026-08-06T23:32:20.713356+00:00"
+  "lastUpdated": "2026-08-07T00:01:45.052309+00:00"
 }
