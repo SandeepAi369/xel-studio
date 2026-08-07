@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'AI Tech News | XeL Studio',
+    title: 'AI Tech News — XeL Studio',
     description:
-        'Latest AI and technology news, auto-generated using Cerebras GPT and Tavily AI search. Categories: AI & Tech, Open Source, Disability & Accessibility, Climate, World Affairs, Health.',
+        'Latest AI and technology news. Categories: AI & Tech, Open Source, Disability & Accessibility, Climate, World Affairs, Health.',
     openGraph: {
         title: 'AI Tech News | XeL Studio',
         description:
-            'Automated AI-powered news feed updated multiple times daily. Covering AI breakthroughs, open source, accessibility tech, climate, and world affairs.',
+            'Latest AI and technology news. Updated daily.',
         type: 'website',
         url: 'https://xel-studio.vercel.app/ai-news',
         siteName: 'XeL Studio',

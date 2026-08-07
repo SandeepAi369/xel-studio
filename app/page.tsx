@@ -80,7 +80,7 @@ function JsonLd() {
               position: 1,
               name: 'AI Tech News',
               description:
-                'Automated AI and tech news powered by Cerebras GPT and Tavily search. Updated multiple times daily.',
+                'Automated AI and tech news. Updated multiple times daily.',
               url: 'https://xel-studio.vercel.app/ai-news',
             },
             {
@@ -88,7 +88,7 @@ function JsonLd() {
               position: 2,
               name: 'Chat with AI',
               description:
-                'Interactive AI chat powered by Google Gemini 2.5 Flash and 3 Flash models with streaming responses.',
+                'Interactive AI chat assistant with streaming responses.',
               url: 'https://xel-studio.vercel.app/chat',
             },
             {
