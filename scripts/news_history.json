@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tesla Builds Wheelchair‑Accessible Robotaxi To Expand Inclusive Autonomous Ride‑Hailing Service",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/tesla-is-building-a-wheelchair-accessible-robotaxi/ar-AA27UJJX?ocid=BingNewsVerp",
-        "https://mobilitymgmt.com/ces-2026-4-assistive-technology-exhibitors-to-watch"
-      ],
-      "date": "2026-07-28T21:31:27.164092+00:00"
-    },
-    {
       "title": "Meta Begins Mass Production of In‑House AI Chips, Boosting AI Hardware Independence",
       "urls": [
         "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
@@ -4174,7 +4166,14 @@
         "https://www.cnbc.com/2026/07/11/why-viral-maxxing-trends-concern-some-mental-health-experts.html"
       ],
       "date": "2026-08-07T21:01:49.294292+00:00"
+    },
+    {
+      "title": "ESPN Launches Updated Latest Sports News Portal With Real‑Time Scores",
+      "urls": [
+        "https://www.espn.com/espn/latestnews"
+      ],
+      "date": "2026-08-07T21:31:32.557908+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T21:01:49.294347+00:00"
+  "lastUpdated": "2026-08-07T21:31:32.557983+00:00"
 }
