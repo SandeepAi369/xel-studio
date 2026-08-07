@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Politico Expands 2026 Election Hub With Continuous News, Top Stories, and Expert Analysis",
-      "urls": [
-        "https://www.politico.com/news/2026-elections/1"
-      ],
-      "date": "2026-07-28T02:31:32.996699+00:00"
-    },
-    {
       "title": "YouTube Releases Series Analyzing Geopolitical Risks and Travel Trends for 2026",
       "urls": [
         "https://www.youtube.com/watch?v=jwLhZ2vBkcc",
@@ -4160,7 +4153,18 @@
         "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026"
       ],
       "date": "2026-08-07T02:01:40.801905+00:00"
+    },
+    {
+      "title": "Global Biodiversity Shows Mixed Trends as Clean Energy Gains Momentum in 2026",
+      "urls": [
+        "https://sustainabletimes.org/environmental-news-2026",
+        "https://www.tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
+        "https://news.mongabay.com/2026",
+        "https://www.unep-wcmc.org/en/news/whats-next-for-biodiversity-conservation-insights-from-the-2026-horizon-scan",
+        "https://www.tandfonline.com/doi/pdf/10.1080/14888386.2026.2663853"
+      ],
+      "date": "2026-08-07T02:36:29.705336+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T02:01:40.801978+00:00"
+  "lastUpdated": "2026-08-07T02:36:29.705413+00:00"
 }
