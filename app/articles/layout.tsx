@@ -24,21 +24,6 @@ export default function ArticlesLayout({
 }) {
     return (
         <>
-            <div className="sr-only">
-                <h1>Articles — XeL Studio</h1>
-                <p>
-                    Research articles covering artificial intelligence, machine learning, large language model architecture,
-                    and technical analysis. Written by Sandeep and published on XeL Studio.
-                    Every article supports text-to-speech listening powered by Microsoft Edge TTS with the en-US-AvaNeural voice.
-                    Articles are stored in Supabase and managed through the admin panel.
-                </p>
-                <nav aria-label="Articles navigation">
-                    <a href="/articles">All Articles</a>
-                    <a href="/ai-news">AI News</a>
-                    <a href="/chat">AI Chat</a>
-                    <a href="/">Home</a>
-                </nav>
-            </div>
             {children}
         </>
     );
