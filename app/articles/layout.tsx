@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Articles | XeL Studio',
     description:
-        'Research articles on AI, machine learning, LLM architecture, and technical analysis. Each article features text-to-speech listening powered by Microsoft Edge TTS.',
+        'Research articles on AI, machine learning, LLM architecture, and technical analysis. Each article features text-to-speech listening.',
     openGraph: {
         title: 'Articles | XeL Studio',
         description:

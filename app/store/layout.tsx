@@ -23,14 +23,7 @@ export default function StoreLayout({
 }) {
     return (
         <>
-            <div className="sr-only">
-                <h1>Digital Store — XeL Studio</h1>
-                <p>
-                    Premium APKs, bots, and developer tools available for direct download.
-                    Features seamless ghost download technology with animated progress tracking.
-                    All downloads are managed through the XeL Studio admin panel and stored in Supabase.
-                </p>
-            </div>
+
             {children}
         </>
     );
