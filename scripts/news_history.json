@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "CRN Publishes Thirty Notable IT Executive Moves for February 2026",
-      "urls": [
-        "https://www.crn.com/news/networking/2026/30-notable-it-executive-moves-february-2026"
-      ],
-      "date": "2026-07-28T10:01:49.939054+00:00"
-    },
-    {
-      "title": "Volcano Watch Delivers In‑Depth Analysis of Hawaii’s Deep Earthquakes and Their Potential Impact on Volcanic Activity",
-      "urls": [
-        "https://www.westhawaiitoday.com/2026/07/11/hawaii-news/volcano-update/volcano-watch-a-deep-dive-into-hawaiis-deep-earthquakes"
-      ],
-      "date": "2026-07-28T10:31:23.470307+00:00"
-    },
-    {
       "title": "Jennifer Coffindaffer Reveals Major Break in Ongoing Federal Case, Prompting Investigation Review",
       "urls": [
         "https://www.msn.com/en-in/entertainment/news/nancy-guthrie-breaking-news-today-former-fbi-agent-jennifer-coffindaffer-shares-major-break-about-the-case-heres-what-we-know/ar-AA26GXhG?ocid=BingNewsVerp"
@@ -4172,7 +4158,15 @@
         "https://visionlifesciences.com/insights/drug-discovery-ai-news"
       ],
       "date": "2026-08-07T10:01:49.916747+00:00"
+    },
+    {
+      "title": "United States Confronts Triple Extreme Summer Weather Threats Amid Climate Change Concerns",
+      "urls": [
+        "https://www.reuters.com/business/environment/smoke-fire-floods-us-faces-triple-extreme-summer-weather-threats-2026-07-17",
+        "https://theconversation.com/how-do-scientists-know-if-climate-change-made-a-heat-wave-extreme-storm-or-wildfire-worse-288232"
+      ],
+      "date": "2026-08-07T10:31:26.908790+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T10:01:49.916824+00:00"
+  "lastUpdated": "2026-08-07T10:31:26.908869+00:00"
 }
