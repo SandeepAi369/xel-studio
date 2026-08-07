@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "YaCy Expands Open-Source Search Engine Reach With New Tutorials, Download Portal, and Community Tools",
-      "urls": [
-        "https://yacy.net/tutorials",
-        "https://yacy.net",
-        "https://community.searchlab.eu",
-        "https://github.com/yacy/yacy_search_server/commits/master",
-        "https://github.com/yacy/yacy_search_server/issues"
-      ],
-      "date": "2026-07-28T23:01:41.842184+00:00"
-    },
-    {
-      "title": "Democracy Now! Launches Comprehensive Dedicated 2026 Election Coverage Portal Online",
-      "urls": [
-        "https://www.democracynow.org/topics/2026_election"
-      ],
-      "date": "2026-07-28T23:31:21.565740+00:00"
-    },
-    {
       "title": "Amazon Apple Meta Microsoft Earnings And Fed Rate Decision Shape Market Outlook",
       "urls": [
         "https://www.investopedia.com/what-to-expect-in-markets-this-week-amazon-apple-meta-microsoft-earnings-fed-interest-rate-decision-12025525"
@@ -4173,7 +4155,16 @@
         "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
       ],
       "date": "2026-08-07T23:01:38.536218+00:00"
+    },
+    {
+      "title": "Cardio-Metabolic Healthcare Summit Concludes In Bangkok Highlighting Precision Medicine And AI Diagnostics",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/08/06/10426905.htm",
+        "https://www.usatoday.com/press-release/story/39393/cardio-metabolic-healthcare-summit-2026-concludes-in-bangkok-highlighting-innovations-in-precision-medicine-and-ai-diagnostics",
+        "https://www.tmcnet.com/usubmit/2026/08/07/10427297.htm"
+      ],
+      "date": "2026-08-07T23:31:40.366201+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T23:01:38.536283+00:00"
+  "lastUpdated": "2026-08-07T23:31:40.366274+00:00"
 }
