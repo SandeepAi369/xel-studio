@@ -65,64 +65,59 @@ export default async function ArticlePage({
     const paragraphs = formatContent(article.content);
 
     return (
-        <main className="min-h-screen bg-[#0a0a0a]" role="main" aria-label={article.title}>
-            {/* Hero Section with Image - No complex overlays */}
-            <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900">
+        <main className="min-h-screen bg-[#0a0a0a]">
+            {/* Hero Section with Image */}
+            <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900" aria-hidden="true">
                 {article.image ? (
                     <img
                         src={article.image}
-                        alt={article.title}
+                        alt=""
                         className="w-full h-full object-cover opacity-80"
                     />
                 ) : (
                     <div className="w-full h-full bg-gradient-to-br from-green-900/30 to-zinc-900" />
                 )}
-
-                {/* Simple gradient overlay - pointer-events: none */}
                 <div
                     className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"
                     style={{ pointerEvents: 'none' }}
                 />
-
-                {/* Back Button - Always clickable */}
                 <Link
                     href="/articles"
                     className="absolute top-6 left-6 flex items-center gap-2 px-4 py-2 bg-black/60 rounded-full text-white hover:bg-black/80 transition-colors z-10"
+                    aria-label="Back to Articles"
                 >
                     <ArrowLeft className="w-4 h-4" />
                     <span>Back</span>
                 </Link>
-
             </div>
 
             {/* Article Content */}
             <div className="max-w-5xl mx-auto px-3 sm:px-6 -mt-20 relative z-10 pb-16">
                 <article className="bg-zinc-900/95 rounded-2xl border border-zinc-800/60 overflow-hidden shadow-xl shadow-black/20">
-                    {/* Article Header */}
-                    <div className="p-5 sm:p-8 md:p-10 border-b border-zinc-800">
-                        {/* Meta Info */}
+                    <header className="p-5 sm:p-8 md:p-10 border-b border-zinc-800">
                         <div className="flex flex-wrap items-center gap-4 mb-6">
                             {article.category && (
                                 <span className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium bg-green-500/20 text-green-400 rounded-full border border-green-500/30">
-                                    <Tag className="w-3.5 h-3.5" />
+                                    <Tag className="w-3.5 h-3.5" aria-hidden="true" />
                                     {article.category}
                                 </span>
                             )}
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
-                                <Calendar className="w-4 h-4" />
-                                {new Date(article.date).toLocaleDateString('en-US', {
-                                    year: 'numeric',
-                                    month: 'long',
-                                    day: 'numeric'
-                                })}
+                                <Calendar className="w-4 h-4" aria-hidden="true" />
+                                <time dateTime={article.date}>
+                                    {new Date(article.date).toLocaleDateString('en-US', {
+                                        year: 'numeric',
+                                        month: 'long',
+                                        day: 'numeric'
+                                    })}
+                                </time>
                             </span>
                             <span className="flex items-center gap-1.5 text-zinc-500 text-sm">
-                                <Clock className="w-4 h-4" />
-                                {readingTime} min read
+                                <Clock className="w-4 h-4" aria-hidden="true" />
+                                <span>{readingTime} min read</span>
                             </span>
                         </div>
 
-                        {/* Title + Listen */}
                         <div className="flex items-start gap-4">
                             <h1 className="text-2xl md:text-3xl font-bold text-white leading-snug flex-1">
                                 {article.title}
@@ -131,32 +126,22 @@ export default async function ArticlePage({
                                 <SmartListenButton text={prepareTTSText(article.title, article.content)} iconOnly className="w-11 h-11" />
                             </div>
                         </div>
+                    </header>
 
-
-                    </div>
-
-                    {/* Article Body - Clean text formatting */}
                     <div className="p-5 sm:p-8 md:p-10">
                         <div className="space-y-4 max-w-none">
                             {paragraphs.map((paragraph, index) => {
                                 const isNumberedItem = /^\d+\./.test(paragraph);
                                 const hasLink = paragraph.includes('http');
 
-                                // Numbered list items
                                 if (isNumberedItem) {
                                     return (
-                                        <div
-                                            key={index}
-                                            className="pl-6 border-l-2 border-green-500/30 py-2"
-                                        >
-                                            <p className="text-gray-300 text-[15px] leading-[1.8]">
-                                                {paragraph}
-                                            </p>
-                                        </div>
+                                        <p key={index} className="pl-6 border-l-2 border-green-500/30 py-2 text-gray-300 text-[15px] leading-[1.8]">
+                                            {paragraph}
+                                        </p>
                                     );
                                 }
 
-                                // Paragraphs with links
                                 if (hasLink) {
                                     const urlRegex = /(https?:\/\/[^\s]+)/g;
                                     const parts = paragraph.split(urlRegex);
@@ -177,18 +162,14 @@ export default async function ArticlePage({
                                                         </a>
                                                     );
                                                 }
-                                                return part;
+                                                return <span key={i}>{part}</span>;
                                             })}
                                         </p>
                                     );
                                 }
 
-                                // Regular paragraphs
                                 return (
-                                    <p
-                                        key={index}
-                                        className="text-gray-300 text-[15px] leading-[1.8]"
-                                    >
+                                    <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
                                         {paragraph}
                                     </p>
                                 );
@@ -196,8 +177,7 @@ export default async function ArticlePage({
                         </div>
                     </div>
 
-                    {/* Article Footer */}
-                    <div className="p-8 md:p-10 border-t border-zinc-800 bg-zinc-900/50">
+                    <footer className="p-8 md:p-10 border-t border-zinc-800 bg-zinc-900/50">
                         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                             <p className="text-zinc-500 text-sm">
                                 Thank you for reading this article.
@@ -210,7 +190,7 @@ export default async function ArticlePage({
                                 More Articles
                             </Link>
                         </div>
-                    </div>
+                    </footer>
                 </article>
             </div>
         </main>

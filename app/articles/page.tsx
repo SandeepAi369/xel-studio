@@ -1,42 +1,22 @@
-'use client';
-
-import { useState, useEffect } from 'react';
 import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
-import { SkeletonGrid } from '@/components/SkeletonCard';
-import { fetchWithCache } from '@/lib/DataCache';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { stripMarkdown } from '@/lib/tts-text';
 import PageTransition from '@/components/PageTransition';
+import { getArticles } from '@/lib/supabase-db';
 
-interface Article {
-    id: string;
-    title: string;
-    image: string;
-    content: string;
-    date: string;
-    category?: string;
-}
+export const dynamic = 'force-dynamic';
 
-export default function ArticlesPage() {
-    const router = useRouter();
-    const [articles, setArticles] = useState<Article[]>([]);
-    const [loading, setLoading] = useState(true);
-    const [searchQuery, setSearchQuery] = useState('');
+export default async function ArticlesPage({
+    searchParams
+}: {
+    searchParams: Promise<{ q?: string }>
+}) {
+    const resolvedParams = await searchParams;
+    const searchQuery = resolvedParams.q || '';
 
-    useEffect(() => {
-        fetchWithCache<Article[]>(
-            '/api/content?type=articles',
-            (data: Record<string, unknown>) => (data.items as Article[]) || []
-        )
-            .then(items => {
-                setArticles(items);
-                setLoading(false);
-            })
-            .catch(() => setLoading(false));
-    }, []);
+    const allArticles = await getArticles();
 
-    const filteredArticles = articles.filter(article =>
+    const filteredArticles = allArticles.filter(article =>
         article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.category?.toLowerCase().includes(searchQuery.toLowerCase())
@@ -61,25 +41,20 @@ export default function ArticlesPage() {
                 <div className="max-w-6xl mx-auto px-4">
                     {/* Search Bar */}
                     <div className="mb-8">
-                        <div className="relative max-w-md mx-auto">
+                        <form action="/articles" method="GET" className="relative max-w-md mx-auto">
                             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
                             <input
                                 type="text"
+                                name="q"
+                                defaultValue={searchQuery}
                                 placeholder="Search articles..."
-                                value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
                                 className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
                             />
-                        </div>
+                        </form>
                     </div>
 
-                    {/* Loading State */}
-                    {loading && (
-                        <SkeletonGrid count={6} variant="article" columns={2} />
-                    )}
-
                     {/* Empty State */}
-                    {!loading && articles.length === 0 && (
+                    {allArticles.length === 0 && (
                         <div className="text-center py-16">
                             <FileText className="w-16 h-16 mx-auto mb-6 text-zinc-600" />
                             <p className="text-zinc-500 text-lg mb-2">No articles published yet</p>
@@ -88,7 +63,7 @@ export default function ArticlesPage() {
                     )}
 
                     {/* Article Grid — NO framer motion animations at all to prevent scroll fights */}
-                    {!loading && filteredArticles.length > 0 && (
+                    {filteredArticles.length > 0 && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {filteredArticles.map((article) => (
                                 <Link
@@ -126,11 +101,11 @@ export default function ArticlesPage() {
                                     <div className="p-5">
                                         <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                             <Calendar className="w-3.5 h-3.5" />
-                                            <span>{new Date(article.date).toLocaleDateString('en-US', {
+                                            <time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-US', {
                                                 year: 'numeric',
                                                 month: 'short',
                                                 day: 'numeric'
-                                            })}</span>
+                                            })}</time>
                                         </div>
 
                                         <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
@@ -154,7 +129,7 @@ export default function ArticlesPage() {
                     )}
 
                     {/* No Search Results */}
-                    {!loading && articles.length > 0 && filteredArticles.length === 0 && (
+                    {allArticles.length > 0 && filteredArticles.length === 0 && (
                         <div className="text-center py-16">
                             <Search className="w-12 h-12 mx-auto mb-4 text-zinc-600" />
                             <p className="text-zinc-500">No articles match your search</p>
@@ -163,13 +138,13 @@ export default function ArticlesPage() {
 
                     {/* Back Link */}
                     <div className="mt-12 text-center">
-                        <button
-                            onClick={() => router.back()}
+                        <Link
+                            href="/"
                             className="inline-flex items-center gap-2 px-6 py-3 text-zinc-400 hover:text-white transition-colors"
                         >
                             <ArrowLeft className="w-4 h-4" />
                             Back to Home
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </main>
