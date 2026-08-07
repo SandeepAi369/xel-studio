@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "CAS and SCI Reveal Ten Emerging Scientific Breakthroughs Set to Transform 2026",
-      "urls": [
-        "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch",
-        "https://www.soci.org/news/2026/6/ten-scientific-advances-getting-ready-to-change-the-world"
-      ],
-      "date": "2026-07-28T20:31:27.954300+00:00"
-    },
-    {
       "title": "EWC 2026 Concludes With $2 Million Counter‑Strike 2 Championship Final",
       "urls": [
         "https://www.msn.com/en-us/gaming/esports/ewc-2026-to-conclude-with-2m-cs2-championship/ar-AA28Tfok?ocid=BingNewsVerp",
@@ -4171,7 +4163,19 @@
         "https://www.finanznachrichten.de/nachrichten-2026-06/68828423-black-book-research-spotlights-2026-front-end-access-and-patient-financial-experience-leaders-in-hospital-rcm-200.htm"
       ],
       "date": "2026-08-07T20:01:59.588474+00:00"
+    },
+    {
+      "title": "US AI Leaders Adopt Chinese Open-Weight Models Amid Growing Security Scrutiny",
+      "urls": [
+        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/us-ai-leaders-turn-to-chinese-open-weight-models-challenging-closed-source-safety-claims",
+        "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/07/20/ai-tech-brief-open-source-debate",
+        "https://www.manilatimes.net/2026/07/30/tmt-newswire/globenewswire/memetoro-publishes-first-open-source-commit-beginning-public-development-of-its-ai-powered-memecoin-platform/2395202",
+        "https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html",
+        "https://www.msn.com/en-us/money/other/has-the-ai-race-shifted-from-us-vs-china-to-open-vs-closed/ar-AA29qdH7?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/amd-s-lisa-su-defends-open-source-ai-following-hugging-face-security-breach-caused-by-openai-agent/ar-AA28yEWT?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-07T20:31:49.986162+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T20:01:59.588538+00:00"
+  "lastUpdated": "2026-08-07T20:31:49.986237+00:00"
 }
