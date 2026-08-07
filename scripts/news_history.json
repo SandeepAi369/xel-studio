@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "John Jumper Leaves Google for Anthropic in 2026’s Largest AI Talent Acquisition",
-      "urls": [
-        "https://economictimes.indiatimes.com/magazines/panache/google-doubles-down-on-indias-ai-ambitions-with-enterprise-ai-safety-tools-and-education-push-at-i/o-connect-2026/articleshow/132386529.cms",
-        "https://www.thehindubusinessline.com/info-tech/google-announces-ai-education-safety-and-enterprise-initiatives-at-io-connect-india-2026/article71221732.ece",
-        "https://memeburn.com/nobel-prize-winner-john-jumper-just-left-google-for-anthropic-in-2026s-biggest-ai-hire",
-        "https://money.usnews.com/investing/news/articles/2026-06-22/google-deepmind-signs-ai-research-deal-with-film-studio-a24"
-      ],
-      "date": "2026-07-28T15:31:31.807558+00:00"
-    },
-    {
       "title": "Atlantic Council Outlines Eight Ways AI Will Shape Geopolitics by 2026",
       "urls": [
         "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026"
@@ -4163,7 +4153,16 @@
         "https://techvorta.com/climate-change-technology-solutions-2026"
       ],
       "date": "2026-08-07T15:01:59.448085+00:00"
+    },
+    {
+      "title": "Hugging Face CEO Calls for Stronger Safeguards After AI Model Breach",
+      "urls": [
+        "https://www.yahoo.com/news/politics/articles/hugging-face-ceo-cl-ment-131943499.html",
+        "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks",
+        "https://www.mcall.com/2026/07/22/openai-ai-models-hack-hugging-face-cyber-incident"
+      ],
+      "date": "2026-08-07T15:31:45.893309+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T15:01:59.448154+00:00"
+  "lastUpdated": "2026-08-07T15:31:45.893384+00:00"
 }
