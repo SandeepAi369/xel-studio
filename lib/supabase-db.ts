@@ -9,6 +9,7 @@
  */
 
 import { getSupabaseAdmin } from './supabase';
+import { pingIndexNow } from './indexnow';
 
 // ─── Type Definitions ────────────────────────────────────────
 // Re-export compatible types (camelCase for app, snake_case mapped to DB)
@@ -146,6 +147,10 @@ export async function addArticle(article: Omit<Article, 'id' | 'created_at'>): P
         console.error('Error adding article:', error);
         throw new Error(`Failed to add article: ${error.message}`);
     }
+    
+    // Trigger IndexNow ping in the background without awaiting
+    pingIndexNow(`/articles/${newArticle.id}`).catch(console.error);
+    
     return data as Article;
 }
 
@@ -166,6 +171,10 @@ export async function updateArticle(id: string, updates: Partial<Article>): Prom
         console.error('Error updating article:', error);
         return null;
     }
+    
+    // Trigger IndexNow ping in the background without awaiting
+    pingIndexNow(`/articles/${id}`).catch(console.error);
+    
     return data as Article;
 }
 
