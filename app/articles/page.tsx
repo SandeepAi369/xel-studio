@@ -74,16 +74,17 @@ export default async function ArticlesPage({
                         </div>
                     )}
 
-                    {/* Article Grid — Semantic HTML for Crawlers */}
+                    {/* Article Grid */}
                     {filteredArticles.length > 0 && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {filteredArticles.map((article) => (
-                                <article
+                                <Link
                                     key={article.id}
-                                    className="article-card relative bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 h-full flex flex-col group"
+                                    href={`/articles/${article.id}`}
+                                    className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
                                 >
-                                    {/* Image Container with Link */}
-                                    <Link href={`/articles/${article.id}`} className="block h-52 w-full overflow-hidden bg-zinc-800 relative">
+                                    {/* Image Container */}
+                                    <div className="h-52 w-full overflow-hidden bg-zinc-800 relative">
                                         {article.image ? (
                                             <img
                                                 src={article.image}
@@ -106,10 +107,10 @@ export default async function ArticlesPage({
                                                 {article.category}
                                             </span>
                                         )}
-                                    </Link>
+                                    </div>
 
                                     {/* Content */}
-                                    <div className="p-5 flex flex-col flex-1">
+                                    <div className="p-5">
                                         <div className="flex items-center gap-1.5 text-zinc-500 text-sm mb-3">
                                             <Calendar className="w-3.5 h-3.5" />
                                             <time dateTime={article.date || article.created_at || new Date().toISOString()}>
@@ -118,23 +119,21 @@ export default async function ArticlesPage({
                                         </div>
 
                                         <h2 className="text-lg font-semibold text-white line-clamp-2 mb-3">
-                                            <Link href={`/articles/${article.id}`} className="hover:text-green-400 transition-colors before:absolute before:inset-0 before:z-10">
-                                                {article.title}
-                                            </Link>
+                                            {article.title}
                                         </h2>
 
-                                        <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
+                                        <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
                                             {stripMarkdown(article.content).substring(0, 150)}...
                                         </p>
 
-                                        <div className="mt-auto relative z-20">
-                                            <Link href={`/articles/${article.id}`} className="inline-flex items-center gap-1 text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
+                                        <div className="flex items-center justify-between mt-4">
+                                            <div className="flex items-center gap-1 text-green-400 text-sm font-medium">
                                                 <span>Read more</span>
                                                 <ChevronRight className="w-4 h-4" />
-                                            </Link>
+                                            </div>
                                         </div>
                                     </div>
-                                </article>
+                                </Link>
                             ))}
                         </div>
                     )}
