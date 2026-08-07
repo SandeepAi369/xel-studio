@@ -101,7 +101,8 @@ export default async function ArticlePage({
         "headline": article.title,
         "author": {
             "@type": "Person",
-            "name": "Sandeep"
+            "name": "Sandeep",
+            "url": "https://github.com/SandeepAi369"
         },
         "publisher": {
             "@type": "Organization",
