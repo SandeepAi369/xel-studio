@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Spain Secures Second FIFA World Cup Title With 1-0 Victory Over Argentina",
-      "urls": [
-        "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-final-2026-argentina-spain-messi-yamal-live-updates-rcna587754",
-        "https://parade.com/1062315/meganoneill/great-moments-in-sports-history",
-        "https://www.bbc.com/sport/football/videos/cdrv06y1pdlo",
-        "https://www.complex.com/bets/a/thomas-golianopoulos/best-sports-moments-2026-midyear"
-      ],
-      "date": "2026-07-28T22:31:32.842131+00:00"
-    },
-    {
       "title": "YaCy Expands Open-Source Search Engine Reach With New Tutorials, Download Portal, and Community Tools",
       "urls": [
         "https://yacy.net/tutorials",
@@ -4175,7 +4165,15 @@
         "https://www.fws.gov/media/summer-2026-fish-wildlife-news"
       ],
       "date": "2026-08-07T22:31:26.759299+00:00"
+    },
+    {
+      "title": "Shakudo Blog Lists Top Nine Large Language Models as AI Community Tracks LLaMA Downloads",
+      "urls": [
+        "https://www.shakudo.io/blog/top-9-large-language-models",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
+      ],
+      "date": "2026-08-07T23:01:38.536218+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T22:31:26.759373+00:00"
+  "lastUpdated": "2026-08-07T23:01:38.536283+00:00"
 }
