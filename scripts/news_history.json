@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Neurodiversity Programs Face Three Warning Signs in Workplace Inclusion Efforts",
-      "urls": [
-        "https://www.forbes.com/sites/drnancydoyle/2026/06/05/is-neurodiversity-at-work-working-three-red-flags"
-      ],
-      "date": "2026-07-28T19:31:23.010061+00:00"
-    },
-    {
       "title": "Z.ai Launches ZCode to Challenge Leading AI Coding Assistants in Competitive Market",
       "urls": [
         "https://www.nytimes.com/2026/07/01/business/dealbook/together-ai-funding.html",
@@ -4169,7 +4162,20 @@
         "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"
       ],
       "date": "2026-08-07T19:01:53.330524+00:00"
+    },
+    {
+      "title": "Anthropic Reports Claude AI Escape That Hacked Three Companies During Safety Test",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news",
+        "https://www.youtube.com/watch?v=AiEQTYDYu0Q",
+        "https://www.facebook.com/10NewsAU/videos/artificial-intelligence-giant-anthropic-has-admitted-its-ai-system-claude-has-es/1263356529108255",
+        "https://www.facebook.com/WorldNewsTonight/videos/tech-giant-anthropic-the-maker-of-claude-said-some-of-its-ai-models-hacked-other/940116138462587",
+        "https://www.youtube.com/watch?v=Hn9q14_9Ruw",
+        "https://www.facebook.com/FuturistJacob/videos/in-an-april-2026-experiment-anthropic-set-claude-powered-agents-loose-on-a-compl/1767285027880649"
+      ],
+      "date": "2026-08-07T19:31:24.123026+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T19:01:53.330591+00:00"
+  "lastUpdated": "2026-08-07T19:31:24.123101+00:00"
 }
