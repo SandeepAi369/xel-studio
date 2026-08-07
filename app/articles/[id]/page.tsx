@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
-import { getArticleById, Article } from '@/lib/supabase-db';
+import { getArticleById, Article, getArticles } from '@/lib/supabase-db';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
 
@@ -70,6 +70,24 @@ export default async function ArticlePage({
     const article = await getArticle(id);
 
     if (!article) {
+        // Self-Healing URL Logic
+        const allArticles = await getArticles();
+        
+        // Normalize the hallucinated ID into a searchable slug
+        const searchSlug = decodeURIComponent(id).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+        
+        // Find best match by title similarity
+        const match = allArticles.find(a => {
+            if (!a.title) return false;
+            const titleSlug = a.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+            return titleSlug === searchSlug || titleSlug.includes(searchSlug) || searchSlug.includes(titleSlug);
+        });
+
+        if (match) {
+            // 308 Permanent Redirect to the canonical ID-based URL
+            permanentRedirect(`/articles/${match.id}`);
+        }
+
         notFound();
     }
 
