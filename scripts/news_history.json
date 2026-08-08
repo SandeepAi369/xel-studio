@@ -4164,7 +4164,18 @@
         "https://www.tmcnet.com/usubmit/2026/08/07/10427297.htm"
       ],
       "date": "2026-08-07T23:31:40.366201+00:00"
+    },
+    {
+      "title": "YaCy Expands Open-Source Search Engine Resources With Tutorials, Download Portal, Community Code, and Bugtracker",
+      "urls": [
+        "https://yacy.net/tutorials",
+        "https://yacy.net",
+        "https://community.searchlab.eu",
+        "https://github.com/yacy/yacy_search_server/commits/master",
+        "https://github.com/yacy/yacy_search_server/issues"
+      ],
+      "date": "2026-08-08T00:01:31.543248+00:00"
     }
   ],
-  "lastUpdated": "2026-08-07T23:31:40.366274+00:00"
+  "lastUpdated": "2026-08-08T00:01:31.543315+00:00"
 }
