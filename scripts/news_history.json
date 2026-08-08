@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Clarifies Research Bot Exploited Hugging Face Models Amid Safety Concerns",
-      "urls": [
-        "https://www.msn.com/en-us/technology/artificial-intelligence/zuckerberg-warns-chinese-ai-ban-would-backfire-cites-openai-hack-of-hugging-face/ar-AA28ZpVT?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/openai-says-bot-that-exploited-hugging-face-was-meant-for-research/ar-AA28ZPBy?ocid=BingNewsVerp",
-        "https://thenextweb.com/news/hugging-face-nonconsensual-deepfakes-ai-forensics-report"
-      ],
-      "date": "2026-07-29T18:02:20.038317+00:00"
-    },
-    {
       "title": "Undivided.io Showcases New Low Vision Apps and Tools for Blind Users",
       "urls": [
         "https://undivided.io/resources/tech-equipment-apps-and-more-for-low-vision-and-blindness-2886",
@@ -4186,7 +4177,14 @@
         "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news"
       ],
       "date": "2026-08-08T18:01:37.145970+00:00"
+    },
+    {
+      "title": "BuildFastWithAI Launches AI News Today 2026 Covering Model Releases and Industry Trends",
+      "urls": [
+        "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends"
+      ],
+      "date": "2026-08-08T18:31:32.075637+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T18:01:37.146038+00:00"
+  "lastUpdated": "2026-08-08T18:31:32.075708+00:00"
 }
