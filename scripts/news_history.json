@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Picard Medical and SynCardia Unveil Next‑Generation Emperor Total Artificial Heart at IEEE EMBC",
-      "urls": [
-        "https://www.usnews.com/news/live-events/healthcare-of-tomorrow-2026-presents-tech-enabled-innovation-in-uncertain-times",
-        "https://www.forbes.com/councils/forbescoachescouncil/2026/05/18/ai-and-healthcare-when-technological-innovation-becomes-hope",
-        "https://markets.businessinsider.com/news/stocks/picard-medical-syncardia-to-present-next-generation-emperor-total-artificial-heart-technology-at-ieee-embc-2026-1036369065",
-        "https://finance.yahoo.com/healthcare/articles/acentra-health-names-srini-surendranath-133300629.html"
-      ],
-      "date": "2026-07-29T14:32:58.016892+00:00"
-    },
-    {
       "title": "Healthcare Technology Innovation Ai Medical News — Latest Developments and Key Updates",
       "urls": [
         "https://www.usnews.com/news/live-events/articles/2026-07-15/snapshots-of-health-innovation-from-the-edison-awards",
@@ -4179,7 +4169,14 @@
         "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play"
       ],
       "date": "2026-08-08T14:31:21.569513+00:00"
+    },
+    {
+      "title": "IntuitionLabs Publishes 2026 Pharma AI Vendor Landscape Guiding Drug Discovery and Trials",
+      "urls": [
+        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
+      ],
+      "date": "2026-08-08T15:01:35.334928+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T14:31:21.569579+00:00"
+  "lastUpdated": "2026-08-08T15:01:35.334999+00:00"
 }
