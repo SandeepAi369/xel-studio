@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Team USA Secures Record Twelve Gold Medals at 2026 Winter Olympics",
-      "urls": [
-        "https://people.com/team-usa-wins-11th-gold-medal-2026-olympics-breaking-winter-games-record-11911343",
-        "https://www.thebiglead.com/team-usas-historic-12-gold-medals-in-the-2026-winter-olympics-v",
-        "https://www.olympics.com/ioc/news/olympic-solidarity-powers-athletes-to-historic-medals-at-milano-cortina-2026",
-        "https://www.si.com/olympics",
-        "https://www.nbcolympics.com/news/alysa-liu-wins-olympic-gold-2026-milan-cortina-games"
-      ],
-      "date": "2026-07-29T14:01:52.401511+00:00"
-    },
-    {
       "title": "Picard Medical and SynCardia Unveil Next‑Generation Emperor Total Artificial Heart at IEEE EMBC",
       "urls": [
         "https://www.usnews.com/news/live-events/healthcare-of-tomorrow-2026-presents-tech-enabled-innovation-in-uncertain-times",
@@ -4183,7 +4172,14 @@
         "https://finance.yahoo.com/media-advertising/articles/jaguar-parade-concludes-miami-exhibition-151400788.html"
       ],
       "date": "2026-08-08T14:01:28.488967+00:00"
+    },
+    {
+      "title": "Mistral Launches OCR 4 To Transform Enterprise Document Extraction Capabilities",
+      "urls": [
+        "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play"
+      ],
+      "date": "2026-08-08T14:31:21.569513+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T14:01:28.489090+00:00"
+  "lastUpdated": "2026-08-08T14:31:21.569579+00:00"
 }
