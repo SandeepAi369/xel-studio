@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasdaq Slides as Tech Giants Drag Market Down While Micron Memory Rally Fails to Offset",
-      "urls": [
-        "https://www.thestreet.com/latest-news/bloom-energy-be-q2-2026-earnings-call-updates",
-        "https://www.msn.com/en-us/money/top-stocks/stock-market-today-nasdaq-slips-as-micron-earnings-revive-memory-rally-apple-stock-slumps-treasury-yields-fall-on-may-inflation-report/ar-AA26wcUM?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-29T08:01:51.301935+00:00"
-    },
-    {
-      "title": "FIFA Highlights Joint Canada Mexico United States Hosting Plan For 2026 World Cup",
-      "urls": [
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-        "https://www.si.com/college/duke/blue-devils-football-2026-top-30-players-countdown-4"
-      ],
-      "date": "2026-07-29T08:31:23.509824+00:00"
-    },
-    {
       "title": "Meta Debuts Muse Image Model Partnering With Superintelligence Labs To Expand AI Generation",
       "urls": [
         "https://pinggy.io/blog/best_video_generation_ai_models",
@@ -4170,7 +4154,15 @@
         "https://www.youtube.com/watch?v=W0v74tB4pZE"
       ],
       "date": "2026-08-08T08:01:32.102035+00:00"
+    },
+    {
+      "title": "CoinDesk and The Block Expand Crypto News Options for Investors",
+      "urls": [
+        "https://www.coindesk.com",
+        "https://www.theblock.co"
+      ],
+      "date": "2026-08-08T08:31:42.770910+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T08:01:32.102097+00:00"
+  "lastUpdated": "2026-08-08T08:31:42.770973+00:00"
 }
