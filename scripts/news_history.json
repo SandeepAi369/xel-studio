@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Launches AI Skills Series for Healthcare Professionals Highlighting Six Key Changes",
-      "urls": [
-        "https://www.youtube.com/watch?v=5ReO9hgOYrI",
-        "https://www.youtube.com/watch?v=bsfIqUZ0gkY",
-        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
-        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html"
-      ],
-      "date": "2026-07-29T06:31:42.616267+00:00"
-    },
-    {
       "title": "United States and Iran Conclude First Round of Talks Amid Hormuz Tensions",
       "urls": [
         "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon?eafs_enabled=false",
@@ -4175,7 +4165,14 @@
         "https://en.wikipedia.org/wiki/Weather_of_2026"
       ],
       "date": "2026-08-08T06:31:27.419292+00:00"
+    },
+    {
+      "title": "Iran Stalls Peace Talks Over $24 Billion Frozen Assets, Raising Tensions",
+      "urls": [
+        "https://www.msn.com/en-in/news/other/us-israel-iran-war-latest-news-iran-us-peace-talks-stall-over-24-billion-in-frozen-assets-tehran-warns-of-escalation-strait-of-hormuz-tensions/ar-AA24X0pm?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-08T07:01:33.346679+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T06:31:27.419348+00:00"
+  "lastUpdated": "2026-08-08T07:01:33.346752+00:00"
 }
