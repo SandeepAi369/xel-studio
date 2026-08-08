@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Showcases Age of AI at GTC 2026 Highlighting New Hardware and Partnerships",
-      "urls": [
-        "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026"
-      ],
-      "date": "2026-07-29T12:01:36.381597+00:00"
-    },
-    {
-      "title": "Pretoria Athlete Sets New Comrades Marathon Record in Second Attempt",
-      "urls": [
-        "https://www.citizen.co.za/rekord/sports-news/local-sports/2026/06/15/remarkable-pretoria-athlete-breaks-record-in-only-his-second-comrades-marathon"
-      ],
-      "date": "2026-07-29T12:31:33.585315+00:00"
-    },
-    {
       "title": "Flexera Appoints Mike Jerich as CEO to Drive AI‑Driven Growth Strategy",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/waterpure-international-announces-executive-leadership-transition-to-support-commercialization-and-strategic-growth-1036351163",
@@ -4173,7 +4159,16 @@
         "https://www.usatoday.com/story/news/politics/2026/07/09/trump-election-assistance-commission-members/90870485007"
       ],
       "date": "2026-08-08T12:01:33.911318+00:00"
+    },
+    {
+      "title": "GitLab Research Shows AI Coding Boosts Speed but Leaves Software Delivery Unchanged",
+      "urls": [
+        "https://www.ibtimes.sg/ai-coding-agents-are-becoming-autonomous-yet-developers-treat-them-like-autocomplete-era-tools-90588",
+        "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes",
+        "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance"
+      ],
+      "date": "2026-08-08T12:31:38.856812+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T12:01:33.911384+00:00"
+  "lastUpdated": "2026-08-08T12:31:38.856906+00:00"
 }
