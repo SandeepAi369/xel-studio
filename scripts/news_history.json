@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "J.P. Morgan Releases 2026 Climate Tech Industry Trends Report Highlighting Emerging Sustainable Sectors",
-      "urls": [
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://www.youtube.com/watch?v=XMm9sI99Z74",
-        "https://www.youtube.com/watch?v=UtHuNfDB9J0",
-        "https://www.youtube.com/watch?v=hHPgaca9Ra8",
-        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news"
-      ],
-      "date": "2026-07-29T10:31:38.662195+00:00"
-    },
-    {
       "title": "IntuitionLabs Publishes 2026 Pharma AI Vendor Landscape Report Mapping Drug Discovery Tools",
       "urls": [
         "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026"
@@ -4169,7 +4158,18 @@
         "https://www.stamfordadvocate.com/news/article/what-is-open-source-ai-a-software-engineering-22357084.php"
       ],
       "date": "2026-08-08T10:31:29.013803+00:00"
+    },
+    {
+      "title": "Sermo Publishes Telemedicine Report Detailing Twenty Emerging Trends for 2026",
+      "urls": [
+        "https://www.sermo.com/resources/future-of-telemedicine",
+        "https://www.reddit.com/r/Futurology/comments/12e1w3l/heres_how_ai_and_digital_health_are_shaping_the",
+        "https://www.reddit.com/r/Futurology/comments/13sqgke/how_do_you_think_ai_will_revolutionize_healthcare",
+        "https://www.reddit.com/r/digitalhealth/comments/q3aumd/digital_health_future_of_healthcare",
+        "https://www.reddit.com/r/cryonics_europe/comments/s20fb4/how_ai_is_changing_the_healthcare_system"
+      ],
+      "date": "2026-08-08T11:01:28.308541+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T10:31:29.013895+00:00"
+  "lastUpdated": "2026-08-08T11:01:28.308629+00:00"
 }
