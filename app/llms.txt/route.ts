@@ -8,6 +8,7 @@
 
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
+import { advancedAIOHeaderValue, advancedAIOResponse } from '@/lib/feature-flags';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -15,6 +16,12 @@ export const revalidate = 0;
 const SITE_URL = 'https://xel-studio.vercel.app';
 
 export async function GET() {
+    // ── Kill-switch (Phase 1) ──────────────────────────────────
+    // When ENABLE_ADVANCED_AIO="false" we return a clean 404 instead
+    // of the dynamic index so the baseline is preserved.
+    const blocked = advancedAIOResponse();
+    if (blocked) return blocked;
+
     let articlesSection = '';
 
     try {
@@ -73,6 +80,7 @@ ${articlesSection || 'No articles published yet.'}
         headers: {
             'Content-Type': 'text/plain; charset=utf-8',
             'Cache-Control': 'public, s-maxage=600, stale-while-revalidate=300',
+            'X-AIO-Feature': advancedAIOHeaderValue(),
         },
     });
 }
