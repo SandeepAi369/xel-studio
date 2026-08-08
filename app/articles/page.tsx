@@ -36,12 +36,20 @@ export default async function ArticlesPage({
 
     return (
         <PageTransition>
-            <main className="min-h-screen bg-[#0a0a0a] pb-16">
+            <main
+                id="main-content"
+                tabIndex={-1}
+                className="min-h-screen bg-[#0a0a0a] pb-16"
+                aria-labelledby="articles-heading"
+            >
                 {/* Header */}
                 <header className="pt-16 pb-8 px-4 text-center">
                     <div>
                         <BookOpen className="w-16 h-16 mx-auto mb-6 text-green-400" />
-                        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+                        <h1
+                            id="articles-heading"
+                            className="text-4xl md:text-5xl font-bold mb-4 text-white"
+                        >
                             Articles
                         </h1>
                         <p className="text-zinc-400 text-lg max-w-md mx-auto">

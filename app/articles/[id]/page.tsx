@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Tag, Clock } from 'lucide-react';
 import { getArticleById, Article, getArticles } from '@/lib/supabase-db';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
+import { markdownToSafeHtml } from '@/lib/markdown-server';
 
 // ISR: cache for 60s then revalidate — instant loads after first visit
 export const dynamicParams = true;
@@ -24,29 +25,8 @@ function getReadingTime(content: string): number {
     return Math.ceil(words / wordsPerMinute);
 }
 
-function formatContent(content: string): string[] {
-    // Clean up common issues from direct user input
-    let cleaned = content
-        .replace(/\r\n/g, '\n')           // normalize line endings
-        .replace(/\t/g, ' ')               // tabs to spaces
-        .replace(/ {3,}/g, '  ')           // collapse excessive spaces
-        .replace(/([.!?])\1{2,}/g, '$1')   // fix repeated punctuation (... stays, .... becomes .)
-        .replace(/\*{3,}/g, '')            // remove decorative asterisks
-        .replace(/#{1,6}\s*/g, '')         // strip markdown headers
-        .replace(/^[-=]{3,}$/gm, '')       // strip horizontal rules
-        .trim();
-
-    // Split on double newlines first, then single newlines for paragraphs
-    return cleaned
-        .split(/\n{2,}/)
-        .flatMap(block => {
-            // If a block is very long (>500 chars) and has single newlines, split those too
-            if (block.length > 500 && block.includes('\n')) {
-                return block.split(/\n/).map(p => p.trim()).filter(p => p.length > 0);
-            }
-            return [block.trim()];
-        })
-        .filter(p => p.length > 0);
+function getWordCount(content: string): number {
+    return content.trim().split(/\s+/).filter(Boolean).length;
 }
 
 // Robust date formatter for long format
@@ -92,42 +72,70 @@ export default async function ArticlePage({
     }
 
     const readingTime = getReadingTime(article.content);
-    const paragraphs = formatContent(article.content);
+    const wordCount = getWordCount(article.content);
+    const articleHtml = markdownToSafeHtml(article.content);
 
     const canonicalUrl = `https://xel-studio.vercel.app/articles/${article.id}`;
+    const dateIso = article.date || article.created_at || new Date().toISOString();
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": article.title,
-        "author": {
-            "@type": "Person",
-            "name": "Sandeep",
-            "url": "https://github.com/SandeepAi369"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "XeL Studio",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://xel-studio.vercel.app/favicon.ico"
-            }
-        },
-        "datePublished": article.date || article.created_at || new Date().toISOString(),
-        "dateModified": article.date || article.created_at || new Date().toISOString(),
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": canonicalUrl
-        },
-        "url": canonicalUrl,
-        "image": article.image ? [article.image] : []
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "name": "XeL Studio",
+                "url": "https://xel-studio.vercel.app",
+                "inLanguage": "en",
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://xel-studio.vercel.app" },
+                    { "@type": "ListItem", "position": 2, "name": "Articles", "item": "https://xel-studio.vercel.app/articles" },
+                    { "@type": "ListItem", "position": 3, "name": article.title, "item": canonicalUrl },
+                ],
+            },
+            {
+                "@type": "Article",
+                "headline": article.title,
+                "author": { "@type": "Person", "name": "Sandeep", "url": "https://github.com/SandeepAi369" },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "XeL Studio",
+                    "logo": { "@type": "ImageObject", "url": "https://xel-studio.vercel.app/favicon.ico" },
+                },
+                "datePublished": dateIso,
+                "dateModified": dateIso,
+                "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl },
+                "url": canonicalUrl,
+                "image": article.image ? [article.image] : [],
+                "keywords": article.category || undefined,
+                "wordCount": wordCount,
+                "timeRequired": `PT${readingTime}M`,
+                "inLanguage": "en",
+                "isAccessibleForFree": true,
+            },
+        ],
     };
 
     return (
-        <main className="min-h-screen bg-[#0a0a0a]">
+        <main
+            id="main-content"
+            tabIndex={-1}
+            className="min-h-screen bg-[#0a0a0a]"
+            aria-labelledby="article-title"
+        >
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
+            {/* Breadcrumb nav (a11y + microdata) */}
+            <nav aria-label="Breadcrumb" className="sr-only">
+                <ol>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li aria-current="page">{article.title}</li>
+                </ol>
+            </nav>
             {/* Hero Section with Image */}
             <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden bg-zinc-900" aria-hidden="true">
                 {article.image ? (
@@ -177,62 +185,30 @@ export default async function ArticlePage({
                         </div>
 
                         <div className="flex items-start gap-4">
-                            <h1 className="text-2xl md:text-3xl font-bold text-white leading-snug flex-1">
+                            <h1
+                                id="article-title"
+                                className="text-2xl md:text-3xl font-bold text-white leading-snug flex-1"
+                            >
                                 {article.title}
                             </h1>
                             <div className="flex-shrink-0 mt-1">
-                                <SmartListenButton text={prepareTTSText(article.title, article.content)} iconOnly className="w-11 h-11" />
+                                <SmartListenButton
+                                    text={prepareTTSText(article.title, article.content)}
+                                    iconOnly
+                                    className="w-11 h-11"
+                                />
                             </div>
                         </div>
                     </header>
 
                     <div className="p-5 sm:p-8 md:p-10">
-                        <div className="space-y-4 max-w-none">
-                            {paragraphs.map((paragraph, index) => {
-                                const isNumberedItem = /^\d+\./.test(paragraph);
-                                const hasLink = paragraph.includes('http');
-
-                                if (isNumberedItem) {
-                                    return (
-                                        <p key={index} className="pl-6 border-l-2 border-green-500/30 py-2 text-gray-300 text-[15px] leading-[1.8]">
-                                            {paragraph}
-                                        </p>
-                                    );
-                                }
-
-                                if (hasLink) {
-                                    const urlRegex = /(https?:\/\/[^\s]+)/g;
-                                    const parts = paragraph.split(urlRegex);
-
-                                    return (
-                                        <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
-                                            {parts.map((part, i) => {
-                                                if (part.match(urlRegex)) {
-                                                    return (
-                                                        <a
-                                                            key={i}
-                                                            href={part}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="text-green-400 underline underline-offset-4 hover:text-green-300 break-all"
-                                                        >
-                                                            {part}
-                                                        </a>
-                                                    );
-                                                }
-                                                return <span key={i}>{part}</span>;
-                                            })}
-                                        </p>
-                                    );
-                                }
-
-                                return (
-                                    <p key={index} className="text-gray-300 text-[15px] leading-[1.8]">
-                                        {paragraph}
-                                    </p>
-                                );
-                            })}
-                        </div>
+                        {/* Markdown-rendered HTML preserves headings, lists,
+                            quotes, and code blocks so screen readers get a
+                            real document outline (Phase 3 a11y win). */}
+                        <div
+                            className="prose prose-invert max-w-none text-gray-300 text-[15px] leading-[1.8] [&_a]:text-green-400 [&_a]:underline [&_a]:underline-offset-4 [&_a:hover]:text-green-300 [&_h2]:text-white [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:mt-6 [&_h2]:mb-3 [&_h3]:text-white [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:mt-4 [&_h3]:mb-2 [&_blockquote]:border-l-2 [&_blockquote]:border-green-500/30 [&_blockquote]:pl-4 [&_blockquote]:italic [&_code]:bg-zinc-800 [&_code]:px-1 [&_code]:rounded [&_pre]:bg-zinc-800 [&_pre]:p-3 [&_pre]:rounded-lg [&_pre]:overflow-x-auto [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-1 [&_.numbered-item]:pl-6 [&_.numbered-item]:border-l-2 [&_.numbered-item]:border-green-500/30 [&_.numbered-item]:py-2"
+                            dangerouslySetInnerHTML={{ __html: articleHtml }}
+                        />
                     </div>
 
                     <footer className="p-8 md:p-10 border-t border-zinc-800 bg-zinc-900/50">
