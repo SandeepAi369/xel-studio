@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Robotics Industry Gains Clarity From Leading Encyclopedias And Technical Guides",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Robotics",
-        "https://robotsguide.com",
-        "https://www.britannica.com/technology/robotics",
-        "https://www.electronicsforu.com/tech-zone/tech-of-robotics/robotics-types-applications"
-      ],
-      "date": "2026-07-29T21:31:27.705963+00:00"
-    },
-    {
       "title": "\"title\": \"RecoverCA Launches Aid Program for Flood Victims to Support Community Recovery\",",
       "urls": [
         "https://www.msn.com/en-us/weather/topstories/when-disaster-recovery-becomes-a-way-of-life-community-disaster-fatigue-is-on-the-rise-with-more-frequent-floods/ar-AA27O3ly?ocid=BingNewsVerp",
@@ -4195,7 +4185,16 @@
         "https://www.instagram.com/reel/DTJE_sVCSZn"
       ],
       "date": "2026-08-08T21:31:21.483995+00:00"
+    },
+    {
+      "title": "OpenAI Merges Chat And Agents To Create Unified AI Platform",
+      "urls": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://www.youtube.com/watch?v=VZTmS4B840k",
+        "https://www.youtube.com/watch?v=1f6BeloOdgQ"
+      ],
+      "date": "2026-08-08T22:01:36.391365+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T21:31:21.484056+00:00"
+  "lastUpdated": "2026-08-08T22:01:36.391435+00:00"
 }
