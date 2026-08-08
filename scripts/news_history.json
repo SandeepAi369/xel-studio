@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Amazon Apple Meta Microsoft Earnings And Fed Rate Decision Shape Market Outlook",
-      "urls": [
-        "https://www.investopedia.com/what-to-expect-in-markets-this-week-amazon-apple-meta-microsoft-earnings-fed-interest-rate-decision-12025525"
-      ],
-      "date": "2026-07-29T00:02:01.858758+00:00"
-    },
-    {
       "title": "MobiDev Highlights Seven Sports Tech Innovations Set For 2026 Adoption",
       "urls": [
         "https://mobidev.biz/blog/sports-technology-trends-innovations-to-adopt-in-sports-apps",
@@ -4175,7 +4168,15 @@
         "https://github.com/yacy/yacy_search_server/issues"
       ],
       "date": "2026-08-08T00:01:31.543248+00:00"
+    },
+    {
+      "title": "Ethan Shuley Sets New Deseret News Half Marathon Record in Utah",
+      "urls": [
+        "https://www.msn.com/en-us/sports/other/he-ran-one-race-for-byu-now-ethan-shuley-has-set-a-new-deseret-news-half-marathon-record/ar-AA28D5j0?ocid=BingNewsVerp",
+        "https://www.bbc.co.uk/sport/athletics/videos/cvg3ge9rdxgo"
+      ],
+      "date": "2026-08-08T00:31:32.866790+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T00:01:31.543315+00:00"
+  "lastUpdated": "2026-08-08T00:31:32.866854+00:00"
 }
