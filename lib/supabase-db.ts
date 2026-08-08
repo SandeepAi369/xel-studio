@@ -10,6 +10,7 @@
 
 import { getSupabaseAdmin } from './supabase';
 import { pingIndexNow } from './indexnow';
+import { revalidateAIOFeeds } from './revalidate-feeds';
 
 // ─── Type Definitions ────────────────────────────────────────
 // Re-export compatible types (camelCase for app, snake_case mapped to DB)
@@ -150,7 +151,9 @@ export async function addArticle(article: Omit<Article, 'id' | 'created_at'>): P
     
     // Trigger IndexNow ping in the background without awaiting
     pingIndexNow(`/articles/${newArticle.id}`).catch(console.error);
-    
+    // Invalidate every AIO feed so they reflect the new article immediately.
+    revalidateAIOFeeds(newArticle.id);
+
     return data as Article;
 }
 
@@ -174,7 +177,9 @@ export async function updateArticle(id: string, updates: Partial<Article>): Prom
     
     // Trigger IndexNow ping in the background without awaiting
     pingIndexNow(`/articles/${id}`).catch(console.error);
-    
+    // Invalidate every AIO feed so updates propagate immediately.
+    revalidateAIOFeeds(id);
+
     return data as Article;
 }
 
@@ -189,6 +194,8 @@ export async function deleteArticle(id: string): Promise<boolean> {
         console.error('Error deleting article:', error);
         return false;
     }
+    // Invalidate every AIO feed so deletions are reflected immediately.
+    revalidateAIOFeeds(id);
     return true;
 }
 
