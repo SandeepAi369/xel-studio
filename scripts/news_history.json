@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"RecoverCA Launches Aid Program for Flood Victims to Support Community Recovery\",",
-      "urls": [
-        "https://www.msn.com/en-us/weather/topstories/when-disaster-recovery-becomes-a-way-of-life-community-disaster-fatigue-is-on-the-rise-with-more-frequent-floods/ar-AA27O3ly?ocid=BingNewsVerp",
-        "https://wwf.panda.org/wwf_news",
-        "https://timesofsandiego.com/state-region/2026/07/09/recoverca-program-aid-residents-flooding"
-      ],
-      "date": "2026-07-29T22:01:45.227559+00:00"
-    },
-    {
       "title": "OpenAI AI Systems Expand From Diagnosis to Wellness in Healthcare Sector",
       "urls": [
         "https://news.gatech.edu/news/2026/07/29/diagnosis-wellness-ais-healthcare-revolution",
@@ -4194,7 +4185,14 @@
         "https://www.youtube.com/watch?v=1f6BeloOdgQ"
       ],
       "date": "2026-08-08T22:01:36.391365+00:00"
+    },
+    {
+      "title": "BloombergNEF Announces Twelve Climate Innovators Winning 2026 Pioneers Award for Global Decarbonization",
+      "urls": [
+        "https://about.bnef.com/insights/clean-energy/bloombergnef-announces-12-climate-innovators-as-winners-of-its-2026-pioneers-award"
+      ],
+      "date": "2026-08-08T22:31:23.482506+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T22:01:36.391435+00:00"
+  "lastUpdated": "2026-08-08T22:31:23.482582+00:00"
 }
