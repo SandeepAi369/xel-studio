@@ -65,8 +65,19 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://xel-studio.vercel.app",
     types: {
-      "application/rss+xml": "https://xel-studio.vercel.app/api/rss",
+      "application/rss+xml": [
+        { url: "https://xel-studio.vercel.app/api/rss", title: "XeL Studio RSS Feed" },
+      ],
+      "text/plain": [
+        { url: "https://xel-studio.vercel.app/articles.txt", title: "Articles index (plain text)" },
+        { url: "https://xel-studio.vercel.app/llms-full.txt", title: "Full article contents for LLMs" },
+      ],
     },
+  },
+  other: {
+    // In-band verification of our IndexNow key so any LLM/crawler
+    // can confirm ownership without making a separate request.
+    "indexnow-key": "d942c55b41224d45a963b655513ab0a9",
   },
 };
 
