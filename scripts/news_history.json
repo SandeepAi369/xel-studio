@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States and Iran Conclude First Round of Talks Amid Hormuz Tensions",
-      "urls": [
-        "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon?eafs_enabled=false",
-        "https://www.cnn.com/2026/06/20/china/china-iran-us-peace-deal-analysis-intl-hnk",
-        "https://www.cnn.com/2026/07/02/world/live-news/iran-war-us-talks"
-      ],
-      "date": "2026-07-29T07:01:39.155140+00:00"
-    },
-    {
-      "title": "PocketWorld Launches Live Disaster Tracker Providing Real‑Time Earthquake, Storm and Volcano Alerts",
-      "urls": [
-        "https://pocketworld.org/disasters-today",
-        "https://www.volcanodiscovery.com/news.html"
-      ],
-      "date": "2026-07-29T07:31:27.952166+00:00"
-    },
-    {
       "title": "Nasdaq Slides as Tech Giants Drag Market Down While Micron Memory Rally Fails to Offset",
       "urls": [
         "https://www.thestreet.com/latest-news/bloom-energy-be-q2-2026-earnings-call-updates",
@@ -4172,7 +4155,15 @@
         "https://www.msn.com/en-in/news/other/us-israel-iran-war-latest-news-iran-us-peace-talks-stall-over-24-billion-in-frozen-assets-tehran-warns-of-escalation-strait-of-hormuz-tensions/ar-AA24X0pm?ocid=BingNewsVerp"
       ],
       "date": "2026-08-08T07:01:33.346679+00:00"
+    },
+    {
+      "title": "Smizzy Launches AI‑Powered Merch Store to Compete Directly With Amazon",
+      "urls": [
+        "https://www.usatoday.com/press-release/story/39363/smizzy-launches-ai-generation-t-shirt-merch-store-to-challenge-amazon",
+        "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded"
+      ],
+      "date": "2026-08-08T07:31:29.252315+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T07:01:33.346752+00:00"
+  "lastUpdated": "2026-08-08T07:31:29.252378+00:00"
 }
