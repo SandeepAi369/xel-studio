@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ICL Group Publishes Climate Tech Trends 2026 Report Emphasizing Shift From Hype to Execution",
-      "urls": [
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
-      ],
-      "date": "2026-07-29T17:31:21.215096+00:00"
-    },
-    {
       "title": "OpenAI Clarifies Research Bot Exploited Hugging Face Models Amid Safety Concerns",
       "urls": [
         "https://www.msn.com/en-us/technology/artificial-intelligence/zuckerberg-warns-chinese-ai-ban-would-backfire-cites-openai-hack-of-hugging-face/ar-AA28ZpVT?ocid=BingNewsVerp",
@@ -4169,7 +4162,19 @@
         "https://www.socialpilot.co/blog/social-media-updates"
       ],
       "date": "2026-08-08T17:01:39.533991+00:00"
+    },
+    {
+      "title": "EY Highlights Ten Key Geopolitical Developments Shaping Global Risk Landscape in 2026",
+      "urls": [
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook",
+        "https://globalviewsworld.com/global-news-navigating-2026-s-hot-topics",
+        "https://globalviewsworld.com/world-news-2026-geopolitical-shifts-and-economic-forecasts",
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
+        "https://www.libertify.com/interactive-library/technology-international-affairs-2026-ai-cybersecurity-geopolitics",
+        "https://europeanbusinessmagazine.com/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
+      ],
+      "date": "2026-08-08T17:31:27.513583+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T17:01:39.534083+00:00"
+  "lastUpdated": "2026-08-08T17:31:27.513644+00:00"
 }
