@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Flexera Appoints Mike Jerich as CEO to Drive AI‑Driven Growth Strategy",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/waterpure-international-announces-executive-leadership-transition-to-support-commercialization-and-strategic-growth-1036351163",
-        "https://www.tmcnet.com/usubmit/2026/07/16/10415930.htm"
-      ],
-      "date": "2026-07-29T13:01:42.281754+00:00"
-    },
-    {
       "title": "NewGame.news Explores Streaming and Gaming Trends Shaping 2026 Digital Landscape",
       "urls": [
         "https://newgame.news/streaming-and-gaming-in-2026-adapting-to-a-new-digital-lands",
@@ -4179,7 +4171,19 @@
         "https://www.techrepublic.com/article/news-spacex-starship-faa-launch-clearance-2026"
       ],
       "date": "2026-08-08T13:01:33.858979+00:00"
+    },
+    {
+      "title": "Bloomberg, Fox News, CNN, and AP News Cover 2026 US Election",
+      "urls": [
+        "https://www.bloomberg.com/latest/us-2026-election",
+        "https://www.foxnews.com/elections/2026/primary-results",
+        "https://edition.cnn.com/election/2026",
+        "https://apnews.com/projects/elections-2026",
+        "https://www.wsj.com/news/types/election-2026",
+        "https://uspollingdata.com"
+      ],
+      "date": "2026-08-08T13:31:27.879859+00:00"
     }
   ],
-  "lastUpdated": "2026-08-08T13:01:33.859041+00:00"
+  "lastUpdated": "2026-08-08T13:31:27.879926+00:00"
 }
