@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Zero1Gaming Launches Public Beta Platform Uniting Live Streaming, Leaderboards, and Esports News",
-      "urls": [
-        "https://www.manilatimes.net/2026/06/25/tmt-newswire/plentisoft/zero1gaming-launches-public-beta-bringing-live-streaming-leaderboards-and-esports-news-into-one-hub/2373072",
-        "https://www.manilatimes.net/2026/07/03/tmt-newswire/globenewswire/ktc-introduces-h27e6-a-27-inch-wqhd-300hz-monitor-built-for-esports-streaming-creation-and-productivity/2377899"
-      ],
-      "date": "2026-07-30T20:32:06.793119+00:00"
-    },
-    {
-      "title": "OpenAI Faces Hugging Face Debacle Highlighting Need For Open AI Models",
-      "urls": [
-        "https://www.theregister.com/ai-and-ml/2026/07/27/openais-hugging-face-debacle-makes-a-great-case-for-open-models/5278498"
-      ],
-      "date": "2026-07-30T21:01:38.674823+00:00"
-    },
-    {
       "title": "Anthropic Showcases Claude Model in New YouTube Feature Highlighting AI Capabilities",
       "urls": [
         "https://www.youtube.com/watch?v=IwKuv4LrCVk",
@@ -4157,7 +4142,16 @@
         "https://www.youtube.com/watch?v=8p1xuROT4n4"
       ],
       "date": "2026-08-09T20:31:36.077044+00:00"
+    },
+    {
+      "title": "Iranian Official Meets Mediators in Pakistan to Revive Stalled US‑Iran Peace Talks",
+      "urls": [
+        "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-iranian-official-meets-mediators-in-pakistan-in-effort-to-salvage-peace-talks-between-iran-and-us/ar-AA28nui7?ocid=BingNewsVerp",
+        "https://www.cnn.com/2026/07/26/world/live-news/iran-war-trump",
+        "https://www.cnbc.com/2026/06/03/us-iran-war-escalates-peace-talks-stalemate-.html"
+      ],
+      "date": "2026-08-09T21:01:47.966820+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T20:31:36.077113+00:00"
+  "lastUpdated": "2026-08-09T21:01:47.966908+00:00"
 }
