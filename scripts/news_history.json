@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Search Engine Returns Empty Result Highlighting Data Gap For User Query",
-      "urls": [
-        "https://www.infospace.com/terms/terms-of-use.html"
-      ],
-      "date": "2026-07-30T18:01:58.667894+00:00"
-    },
-    {
       "title": "Mistral AI Unveils New Open Source Models for 2026 to Accelerate Innovation",
       "urls": [
         "https://www.reddit.com/r/MistralAI/comments/1qxpmrw/europe_can_still_be_competitive_in_ai_mistral",
@@ -4161,7 +4154,16 @@
         "https://www.youtube.com/watch?v=7Qf0KuKd_G0"
       ],
       "date": "2026-08-09T18:01:37.044544+00:00"
+    },
+    {
+      "title": "US AI Leaders Adopt Chinese Open-Weight Models, Challenging Closed-Source Safety Claims",
+      "urls": [
+        "https://www.crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
+        "https://www.msn.com/en-xl/technology/artificial-intelligence/us-ai-leaders-turn-to-chinese-open-weight-models-challenging-closed-source-safety-claims/ar-AA29oUPB?ocid=BingNewsVerp",
+        "https://siliconangle.com/2026/07/24/nvidia-tech-giants-caution-open-source-ai-ban-open-letter"
+      ],
+      "date": "2026-08-09T18:31:24.430956+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T18:01:37.044652+00:00"
+  "lastUpdated": "2026-08-09T18:31:24.431029+00:00"
 }
