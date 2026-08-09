@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Wikipedia Adds Comprehensive 2026 Earthquake List for Global Seismic Tracking",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_earthquakes_in_2026"
-      ],
-      "date": "2026-07-30T01:31:24.134072+00:00"
-    },
-    {
       "title": "NVIDIA Teams With Hugging Face to Deliver New Models for Open Robotics Community",
       "urls": [
         "https://www.buildfastwithai.com/blogs/best-open-source-ai-models-2026",
@@ -4191,7 +4184,15 @@
         "https://yaleclimateconnections.org/2026/08/15-new-books-for-five-new-takes-on-climate-change"
       ],
       "date": "2026-08-09T01:31:24.100112+00:00"
+    },
+    {
+      "title": "Mistral AI Releases Open‑Weight Model to Bridge Frontier Gap in AI Performance",
+      "urls": [
+        "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
+        "https://www.mercurynews.com/2026/07/08/mistral-ai-releases-robotics-model-to-support-physical-ai-push"
+      ],
+      "date": "2026-08-09T02:01:34.315765+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T01:31:24.100180+00:00"
+  "lastUpdated": "2026-08-09T02:01:34.315843+00:00"
 }
