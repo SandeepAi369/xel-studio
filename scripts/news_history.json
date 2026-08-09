@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Unveils #1 Open‑Source AI Model to Expand Developer Access",
-      "urls": [
-        "https://www.youtube.com/watch?v=6d__WOpZswY"
-      ],
-      "date": "2026-07-30T15:31:28.952419+00:00"
-    },
-    {
       "title": "Stream Hatchet Secures Data Provider Role for 2026 Esports World Cup",
       "urls": [
         "https://finance.yahoo.com/media-advertising/articles/stream-hatchet-named-data-provider-120000910.html",
@@ -4159,7 +4152,15 @@
         "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-08-07"
       ],
       "date": "2026-08-09T15:31:17.584792+00:00"
+    },
+    {
+      "title": "World Trade and Tech Day Explores Policies to Harness AI for Inclusive Global Trade",
+      "urls": [
+        "https://www.msn.com/en-ae/news/other/world-trade-and-tech-day-to-explore-policies-to-make-ai-work-for-inclusive-trade/ar-AA29oZBf?ocid=BingNewsVerp",
+        "https://www.youtube.com/watch?v=JicMOfLxolA"
+      ],
+      "date": "2026-08-09T16:01:34.614379+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T15:31:17.584843+00:00"
+  "lastUpdated": "2026-08-09T16:01:34.614442+00:00"
 }
