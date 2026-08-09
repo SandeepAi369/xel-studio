@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "ABC News Highlights Cutting‑Edge Medical Advances Expected by 2026 for Patients",
-      "urls": [
-        "https://abcnews.go.com/GMA/Wellness/video/cutting-edge-medical-advances-2026-128842164"
-      ],
-      "date": "2026-07-30T07:31:31.320857+00:00"
-    },
-    {
       "title": "\"title\": \"Video News Bulletin Launches Morning Broadcast Highlighting Latest Updates On July 30 2026\",",
       "urls": [
         "https://www.euronews.com/video/2026/07/30/latest-news-bulletin-july-30th-2026-morning",
@@ -4185,7 +4178,14 @@
         "https://www.facebook.com/aacr.org/videos/experts-forecast-for-2026-is-about-smart-t-cells-next-gen-vaccines-ai-driven-com/887703310307216"
       ],
       "date": "2026-08-09T07:31:24.111964+00:00"
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang Leads Age of AI Showcase at GTC 2026",
+      "urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026"
+      ],
+      "date": "2026-08-09T08:01:35.271019+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T07:31:24.112030+00:00"
+  "lastUpdated": "2026-08-09T08:01:35.271088+00:00"
 }
