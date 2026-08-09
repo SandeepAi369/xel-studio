@@ -63,6 +63,36 @@ async function triggerGitHubSync() {
     }
 }
 
+// Trigger syndication pipeline for a SINGLE newly published article
+// Dispatches syndicate.yml with the article_id so it processes only that article.
+// Only called on 'add' (not update/delete) to prevent duplicate publishing.
+async function triggerArticleSyndication(articleId: string) {
+    try {
+        const token = (process.env as any).GITHUB_PAT;
+        if (!token) return;
+        const response = await fetch('https://api.github.com/repos/SandeepAi369/deepAI-Articles/dispatches', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                event_type: 'syndicate-article',
+                client_payload: { article_id: articleId },
+            })
+        });
+        if (!response.ok) {
+            console.error('Failed to trigger article syndication:', await response.text());
+        } else {
+            console.log(`Successfully triggered syndication for article: ${articleId}`);
+        }
+    } catch (e) {
+        console.error('Error triggering article syndication:', e);
+    }
+}
+
 export async function OPTIONS() {
     return new NextResponse(null, { status: 200, headers: corsHeaders });
 }
@@ -141,8 +171,9 @@ export async function POST(request: NextRequest) {
 
                 revalidateAllPages();
                 if (contentType === 'article') {
-                    // Fire-and-forget ping signal to GitHub Actions
+                    // Fire-and-forget: sync .md files + syndicate to platforms
                     triggerGitHubSync().catch(console.error);
+                    triggerArticleSyndication(result.id).catch(console.error);
                 }
 
                 return NextResponse.json({
