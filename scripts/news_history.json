@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "5.5 Instant, announcing it as the new default model for ChatGPT, replacing the earlier default version across the platform. The",
-      "urls": [
-        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
-        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-        "https://www.ibtimes.com/openai-has-released-its-latest-series-ai-models-ceo-sam-altman-says-that-they-increase-efficiency-3805128"
-      ],
-      "date": "2026-07-30T03:01:53.078889+00:00"
-    },
-    {
       "title": "Tech Ceo Statements Leadership Announcements News — Latest Developments and Key Updates",
       "urls": [
         "https://siliconangle.com/2026/06/30/chinas-meituan-open-sources-massive-longcat-2-0-ai-model-saying-trained-domestic-chips"
@@ -4189,7 +4180,14 @@
         "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026"
       ],
       "date": "2026-08-09T03:01:42.049792+00:00"
+    },
+    {
+      "title": "Esports.gg Launches Central Hub for News, Guides, Community Forums, and Real‑Time Scores",
+      "urls": [
+        "https://esports.gg"
+      ],
+      "date": "2026-08-09T03:31:21.879001+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T03:01:42.049863+00:00"
+  "lastUpdated": "2026-08-09T03:31:21.879078+00:00"
 }
