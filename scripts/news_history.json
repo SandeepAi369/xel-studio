@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Gemini Launches Bracket Creation Campaign Across Blog and Instagram Platforms",
-      "urls": [
-        "https://deepmind.google/blog",
-        "https://www.instagram.com/reel/DV_IjKrjhyY"
-      ],
-      "date": "2026-07-30T09:01:37.498700+00:00"
-    },
-    {
-      "title": "Sunshine Communities Opens Tech House Showcasing Accessible Devices for Disability Community",
-      "urls": [
-        "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living",
-        "https://www.yahoo.com/news/us/articles/sunshine-communities-open-tech-house-211446407.html",
-        "https://wnyt.com/third-hour-today/local-college-students-unveil-assistive-tech-at-create-symposium",
-        "https://www.wtol.com/article/news/local/sunshine-communities-tech-house-showcases-accessible-technology-for-people-with-disabilities/512-833371c2-243f-441f-9adf-ab7ca62f19a9",
-        "https://newjersey.news12.com/2026/05/03/abilities-expo-in-edison-brings-resources-technology-and-advocacy-to-the-disability-community/3OcQYbwQuYLZ83oE0SG4eu"
-      ],
-      "date": "2026-07-30T09:31:28.052039+00:00"
-    },
-    {
       "title": "Amazon Exposes Broad North Korean Hacking Campaign Targeting Open-Source Software",
       "urls": [
         "https://www.defenseone.com/threats/2026/07/amazon-uncovers-broad-north-korean-hacking-campaign-against-open-source-software/415110",
@@ -4192,7 +4173,14 @@
         "https://www.msn.com/en-us/news/world/anthropic-backs-canadian-ai-research-with-10m-in-claude-credits/ar-AA27VkQs?ocid=BingNewsVerp"
       ],
       "date": "2026-08-09T09:01:27.702074+00:00"
+    },
+    {
+      "title": "Live Title Appears Without Description Highlighting Data Gaps In Reporting",
+      "urls": [
+        "https://www.livemint.com/news/world/total-world-latest-news-on-august-9-2026-live-updates-11786238576545.html"
+      ],
+      "date": "2026-08-09T09:31:40.303667+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T09:01:27.702202+00:00"
+  "lastUpdated": "2026-08-09T09:31:40.303725+00:00"
 }
