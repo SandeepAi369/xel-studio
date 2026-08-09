@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Showcases Claude Model in New YouTube Feature Highlighting AI Capabilities",
-      "urls": [
-        "https://www.youtube.com/watch?v=IwKuv4LrCVk",
-        "https://www.facebook.com/clarincom/videos/claude-est%C3%A1-cambiando-la-carrera-de-la-inteligencia-artificial-es-realmente-mejo/1029821482820687",
-        "https://letsdatascience.com/news/topic/anthropic"
-      ],
-      "date": "2026-07-30T21:31:29.409595+00:00"
-    },
-    {
       "title": "Crescendo AI Secures New Venture Capital Funding in 2026 Startup Investment Round",
       "urls": [
         "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
@@ -4151,7 +4142,19 @@
         "https://www.cnbc.com/2026/06/03/us-iran-war-escalates-peace-talks-stalemate-.html"
       ],
       "date": "2026-08-09T21:01:47.966820+00:00"
+    },
+    {
+      "title": "Elmira Center Expands Assistive Technology Access Boosting Independence for Local Residents",
+      "urls": [
+        "https://www.texarkanagazette.com/news/2026/may/28/assistive-technology-allows-independent-living",
+        "https://wnyt.com/third-hour-today/local-college-students-unveil-assistive-tech-at-create-symposium",
+        "https://newjersey.news12.com/2026/05/03/abilities-expo-in-edison-brings-resources-technology-and-advocacy-to-the-disability-community/3OcQYbwQuYLZ83oE0SG4eu",
+        "https://www.aol.com/articles/elmira-center-expands-tech-access-090847000.html",
+        "https://www.nature.com/nature-index/topics/l4/assistive-technologies-for-individuals-with-developmental-disabilities",
+        "https://www.nature.com/nature-index/topics/l4/assistive-technology-integration-in-special-education"
+      ],
+      "date": "2026-08-09T21:31:30.954202+00:00"
     }
   ],
-  "lastUpdated": "2026-08-09T21:01:47.966908+00:00"
+  "lastUpdated": "2026-08-09T21:31:30.954273+00:00"
 }
