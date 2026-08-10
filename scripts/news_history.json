@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Eleven Clinical Trials Set To Influence Medicine In 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=ywrxwZ6LDCw",
-        "https://www.ces.tech/videos/digital-health-breakthroughs-at-ces-2026"
-      ],
-      "date": "2026-07-31T15:01:41.087673+00:00"
-    },
-    {
       "title": "Anthropic Urges States to Accelerate AI Regulation Amid Growing Technology Risks",
       "urls": [
         "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster",
@@ -4139,7 +4131,14 @@
         "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html"
       ],
       "date": "2026-08-10T14:31:54.403980+00:00"
+    },
+    {
+      "title": "Undivided.io Launches Comprehensive Low Vision and Blindness Assistive Technology Resource",
+      "urls": [
+        "https://undivided.io/resources/tech-equipment-apps-and-more-for-low-vision-and-blindness-2886"
+      ],
+      "date": "2026-08-10T15:01:52.487435+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T14:31:54.404062+00:00"
+  "lastUpdated": "2026-08-10T15:01:52.487515+00:00"
 }
