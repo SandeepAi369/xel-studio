@@ -16,11 +16,45 @@ export const dynamic = 'force-dynamic';
  * Instead of:                Browser → Vercel → Cloudinary (bottlenecked by Vercel)
  */
 
-cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET,
-});
+/**
+ * Parse CLOUDINARY_URL (format: cloudinary://API_KEY:API_SECRET@CLOUD_NAME)
+ * Falls back to individual env vars. This ensures the upload works whether
+ * Vercel has CLOUDINARY_URL (like the News pipeline) or individual vars.
+ */
+function getCloudinaryConfig(): { cloudName: string; apiKey: string; apiSecret: string } | null {
+    // Try individual env vars first
+    let cloudName = process.env.CLOUDINARY_CLOUD_NAME;
+    let apiKey = process.env.CLOUDINARY_API_KEY;
+    let apiSecret = process.env.CLOUDINARY_API_SECRET;
+
+    // Fallback: parse CLOUDINARY_URL if individual vars are missing
+    if ((!cloudName || !apiKey || !apiSecret) && process.env.CLOUDINARY_URL) {
+        try {
+            // Format: cloudinary://API_KEY:API_SECRET@CLOUD_NAME
+            const url = process.env.CLOUDINARY_URL;
+            const match = url.match(/cloudinary:\/\/([^:]+):([^@]+)@(.+)/);
+            if (match) {
+                apiKey = apiKey || match[1];
+                apiSecret = apiSecret || match[2];
+                cloudName = cloudName || match[3];
+            }
+        } catch (e) {
+            console.error('Failed to parse CLOUDINARY_URL:', e);
+        }
+    }
+
+    if (!cloudName || !apiKey || !apiSecret) return null;
+    return { cloudName, apiKey, apiSecret };
+}
+
+const config = getCloudinaryConfig();
+if (config) {
+    cloudinary.config({
+        cloud_name: config.cloudName,
+        api_key: config.apiKey,
+        api_secret: config.apiSecret,
+    });
+}
 
 const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
@@ -43,24 +77,26 @@ export async function POST(req: NextRequest) {
             );
         }
 
-        // 2. Validate Cloudinary config
-        const cloudName = process.env.CLOUDINARY_CLOUD_NAME;
-        const apiKey = process.env.CLOUDINARY_API_KEY;
-        const apiSecret = process.env.CLOUDINARY_API_SECRET;
-
-        if (!cloudName || !apiKey || !apiSecret) {
+        // 2. Validate Cloudinary config (supports both CLOUDINARY_URL and individual env vars)
+        const creds = getCloudinaryConfig();
+        if (!creds) {
             return NextResponse.json(
-                { error: 'Cloudinary not configured' },
+                { error: 'Cloudinary not configured. Set CLOUDINARY_URL or individual CLOUDINARY_CLOUD_NAME/API_KEY/API_SECRET.' },
                 { status: 500, headers: corsHeaders }
             );
         }
 
+        const { cloudName, apiKey, apiSecret } = creds;
+
         // 3. Generate signed upload params
+        //    NOTE: Only include params that Cloudinary uses for signature verification.
+        //    'transformation' is applied via 'eager' (post-upload) to avoid signature mismatches.
         const timestamp = Math.round(Date.now() / 1000);
-        const params = {
+        const eager = 'w_1200,c_limit,q_auto:good,f_auto';
+        const params: Record<string, string | number> = {
             timestamp,
             folder: 'xel-studio/articles',
-            transformation: 'w_1200,c_limit,q_auto:good,f_auto',
+            eager,
             unique_filename: 'true',
             overwrite: 'false',
         };
@@ -74,7 +110,7 @@ export async function POST(req: NextRequest) {
             cloudName,
             apiKey,
             folder: params.folder,
-            transformation: params.transformation,
+            eager,
         }, { headers: corsHeaders });
 
     } catch (error) {
