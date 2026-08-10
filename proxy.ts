@@ -60,28 +60,7 @@ async function fetchArticleById(supabaseUrl: string, supabaseKey: string, id: st
         // Defensive: only allow safe characters in the id param
         if (!/^[A-Za-z0-9_-]+$/.test(id)) return null;
         const res = await fetch(
-            `${supabaseUrl}/rest/v1/articles?id=eq.${id}&select=id,title,content,category,date,created_at,slug&limit=1`,
-            {
-                headers: {
-                    'apikey': supabaseKey,
-                    'Authorization': `Bearer ${supabaseKey}`,
-                },
-                next: { revalidate: 60 },
-            }
-        );
-        if (!res.ok) return null;
-        const data = (await res.json()) as SupabaseArticle[];
-        return data && data.length > 0 ? data[0] : null;
-    } catch {
-        return null;
-    }
-}
-
-async function fetchArticleBySlug(supabaseUrl: string, supabaseKey: string, slug: string): Promise<SupabaseArticle | null> {
-    try {
-        if (!/^[a-z0-9-]+$/i.test(slug)) return null;
-        const res = await fetch(
-            `${supabaseUrl}/rest/v1/articles?slug=eq.${encodeURIComponent(slug)}&select=id,title,content,category,date,created_at,slug&limit=1`,
+            `${supabaseUrl}/rest/v1/articles?id=eq.${id}&select=id,title,content,category,date,created_at&limit=1`,
             {
                 headers: {
                     'apikey': supabaseKey,
@@ -100,9 +79,11 @@ async function fetchArticleBySlug(supabaseUrl: string, supabaseKey: string, slug
 
 async function fetchArticleByTitleSlug(supabaseUrl: string, supabaseKey: string, titleSlug: string): Promise<SupabaseArticle | null> {
     // Fuzzy fallback: convert title to a lowercase-kebab slug and exact-match.
+    // NOTE: `slug` column was not added to the Supabase schema; the
+    //       title-derived slug is sufficient and avoids 4xx errors.
     try {
         const res = await fetch(
-            `${supabaseUrl}/rest/v1/articles?select=id,title,content,category,date,created_at,slug&order=created_at.desc&limit=200`,
+            `${supabaseUrl}/rest/v1/articles?select=id,title,content,category,date,created_at&order=created_at.desc&limit=200`,
             {
                 headers: {
                     'apikey': supabaseKey,
@@ -114,9 +95,6 @@ async function fetchArticleByTitleSlug(supabaseUrl: string, supabaseKey: string,
         if (!res.ok) return null;
         const rows = (await res.json()) as SupabaseArticle[];
         const target = titleSlug.toLowerCase();
-        // First try the column `slug`, then fall back to title-derived slug.
-        const exact = rows.find((r) => (r.slug || '').toLowerCase() === target);
-        if (exact) return exact;
         const fromTitle = rows.find((r) =>
             (r.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') === target
         );
@@ -205,13 +183,21 @@ export async function proxy(request: NextRequest) {
             const supabaseKey =
                 process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
             if (supabaseUrl && supabaseKey) {
-                const direct = await fetchArticleBySlug(supabaseUrl, supabaseKey, candidate);
-                if (direct) {
-                    return NextResponse.redirect(new URL(`/articles/${direct.id}`, request.url), 308);
-                }
-                const fuzzy = await fetchArticleByTitleSlug(supabaseUrl, supabaseKey, candidate);
-                if (fuzzy) {
-                    return NextResponse.redirect(new URL(`/articles/${fuzzy.id}`, request.url), 308);
+                // ── Guard against 308 self-loops ────────────────────
+                // If the candidate is already a canonical article ID,
+                // pass through (no rewrite). This prevents an infinite
+                // redirect when the slug column happens to match the
+                // generated-id string.
+                const asId = await fetchArticleById(supabaseUrl, supabaseKey, candidate);
+                if (asId) {
+                    // already canonical → fall through to LAYER A / page
+                } else {
+                    // The slug column does not exist in the schema; rely on
+                    // title-derived fuzzy matching only.
+                    const fuzzy = await fetchArticleByTitleSlug(supabaseUrl, supabaseKey, candidate);
+                    if (fuzzy && fuzzy.id !== candidate) {
+                        return NextResponse.redirect(new URL(`/articles/${fuzzy.id}`, request.url), 308);
+                    }
                 }
             }
         }

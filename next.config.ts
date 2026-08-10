@@ -85,8 +85,8 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Disable caching for all API routes - ensures instant updates
-        source: '/api/:path*',
+        // Disable caching for all API routes (except stream_audio, which needs CDN caching)
+        source: '/api/(?!stream_audio).*',
         headers: [
           {
             key: 'Cache-Control',
