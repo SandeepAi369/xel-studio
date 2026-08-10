@@ -132,7 +132,7 @@ function ImageUploader({
                     continue;
                 }
 
-                const { signature, timestamp, cloudName, apiKey, folder, transformation } = await signRes.json();
+                const { signature, timestamp, cloudName, apiKey, folder, eager } = await signRes.json();
 
                 // Step 2: Upload DIRECTLY to Cloudinary (browser → Cloudinary, Vercel is out)
                 setProgress(10);
@@ -142,7 +142,7 @@ function ImageUploader({
                 formData.append('timestamp', String(timestamp));
                 formData.append('signature', signature);
                 formData.append('folder', folder);
-                formData.append('transformation', transformation);
+                formData.append('eager', eager);
                 formData.append('unique_filename', 'true');
                 formData.append('overwrite', 'false');
 

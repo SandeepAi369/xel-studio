@@ -14,11 +14,20 @@ const corsHeaders = {
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
 
-// Configure Cloudinary from environment variables
+// Configure Cloudinary from environment variables (supports CLOUDINARY_URL fallback)
+function parseCloudinaryUrl(): { cloud_name?: string; api_key?: string; api_secret?: string } {
+    const url = process.env.CLOUDINARY_URL;
+    if (!url) return {};
+    const match = url.match(/cloudinary:\/\/([^:]+):([^@]+)@(.+)/);
+    if (!match) return {};
+    return { api_key: match[1], api_secret: match[2], cloud_name: match[3] };
+}
+
+const fallback = parseCloudinaryUrl();
 cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET,
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME || fallback.cloud_name,
+    api_key: process.env.CLOUDINARY_API_KEY || fallback.api_key,
+    api_secret: process.env.CLOUDINARY_API_SECRET || fallback.api_secret,
 });
 
 export async function OPTIONS() {
