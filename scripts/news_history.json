@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Urges Immediate Implementation of Iran-Israel Peace Deal to Prevent Renewed Conflict",
-      "urls": [
-        "https://press.un.org/en/2026/sc16405.doc.htm",
-        "https://www.britannica.com/event/2026-Iran-war"
-      ],
-      "date": "2026-07-31T14:31:30.268446+00:00"
-    },
-    {
       "title": "YouTube Highlights Eleven Clinical Trials Set To Influence Medicine In 2026",
       "urls": [
         "https://www.youtube.com/watch?v=ywrxwZ6LDCw",
@@ -4138,7 +4130,16 @@
         "https://www.youtube.com/watch?v=56vpbuYLFuI"
       ],
       "date": "2026-08-10T14:01:51.841865+00:00"
+    },
+    {
+      "title": "Apple Leads 2026 Big Tech Earnings Surge With Strong AI Investment",
+      "urls": [
+        "https://valueaddvc.com/big-tech-earnings",
+        "https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more",
+        "https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html"
+      ],
+      "date": "2026-08-10T14:31:54.403980+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T14:01:51.841940+00:00"
+  "lastUpdated": "2026-08-10T14:31:54.404062+00:00"
 }
