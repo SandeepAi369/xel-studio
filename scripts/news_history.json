@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "MedBound Times Highlights 2026 Telemedicine Trends and Emerging Practices for Healthcare Professionals",
-      "urls": [
-        "https://www.medboundtimes.com/medicine/telemedicine-trends-2026-healthcare-professionals",
-        "https://telehealth.org/telehealth-news"
-      ],
-      "date": "2026-07-31T22:01:40.462663+00:00"
-    },
-    {
-      "title": "NASA Expands Climate Change Portal to Centralize Global Environmental Data",
-      "urls": [
-        "https://science.nasa.gov/climate-change"
-      ],
-      "date": "2026-07-31T22:31:25.137177+00:00"
-    },
-    {
       "title": "China Boosts Renewable Power Share Above 40 Percent in First Half of 2026",
       "urls": [
         "https://technode.com/2026/07/30/chinas-renewable-energy-generation-surpasses-40-of-total-power-output-for-first-time-in-h1-2026"
@@ -4156,7 +4141,18 @@
         "https://www.bloomberg.com/news/articles/2026-07-30/google-unveils-gemini-ai-for-robots-struggling-with-dexterity"
       ],
       "date": "2026-08-10T22:01:38.642381+00:00"
+    },
+    {
+      "title": "Scientists Detect Accelerating Global Warming, Warn of Immediate Climate Risks",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.nature.com/nclimate/articles?year=2026",
+        "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+        "https://www.nature.com/subjects/climate-change",
+        "https://gizmodo.com/global-warming-has-kicked-into-overdrive-scientists-warn-2000794378"
+      ],
+      "date": "2026-08-10T22:31:27.064221+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T22:01:38.642449+00:00"
+  "lastUpdated": "2026-08-10T22:31:27.064281+00:00"
 }
