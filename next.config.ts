@@ -85,8 +85,8 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Disable caching for all API routes (except stream_audio, which needs CDN caching)
-        source: '/api/(?!stream_audio).*',
+        // Disable caching for all API routes - ensures instant updates
+        source: '/api/:path*',
         headers: [
           {
             key: 'Cache-Control',
@@ -99,6 +99,16 @@ const nextConfig: NextConfig = {
           {
             key: 'Expires',
             value: '0',
+          },
+        ],
+      },
+      {
+        // Re-enable caching specifically for the streaming TTS route so audio plays smoothly
+        source: '/api/stream_audio',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, s-maxage=86400',
           },
         ],
       },
