@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "disABLEd Guy Highlights Emerging Assistive Tech Driving Independence for Users with Mobility Challenges",
-      "urls": [
-        "https://www.disabledguy.ca/2026/06/tech-enabled-independence-assistive.html"
-      ],
-      "date": "2026-07-31T09:31:22.395395+00:00"
-    },
-    {
       "title": "Mistral AI Launches New Open‑Source Model Generation to Accelerate Developer Access",
       "urls": [
         "https://aizolo.com/blog/mistral-ai-models-2026",
@@ -4142,7 +4135,14 @@
         "https://www.techtimes.com/articles/319136/20260626/ai-drug-discovery-reaches-clinical-proof-bio-2026-china-beat-biosecure-act-science.htm"
       ],
       "date": "2026-08-10T09:02:03.095662+00:00"
+    },
+    {
+      "title": "Git Repository Listed Without Description Highlights Data Gaps In News Index",
+      "urls": [
+        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search"
+      ],
+      "date": "2026-08-10T09:31:41.728272+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T09:02:03.095733+00:00"
+  "lastUpdated": "2026-08-10T09:31:41.728355+00:00"
 }
