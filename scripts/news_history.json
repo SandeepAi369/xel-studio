@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Listings Appear Without Details in Recent Search Results Published Online",
-      "urls": [
-        "https://www.reddit.com/r/csMajors/comments/1hw0c0w/apple_vs_microsoft_swe_internship_2025",
-        "https://www.reddit.com/r/Games/comments/1ht1g3u/the_first_gaming_layoffs_of_2025_have_happened",
-        "https://www.reddit.com/r/singularity/comments/1ho1pqa/tech_google_ceo_pichai_tells_employees_to_gear_up"
-      ],
-      "date": "2026-07-31T11:31:21.621189+00:00"
-    },
-    {
       "title": "AP News Launches Democracy Hub While Politico Expands 2026 Elections Portal",
       "urls": [
         "https://apnews.com/hub/democracy",
@@ -4137,7 +4128,15 @@
         "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html"
       ],
       "date": "2026-08-10T11:01:47.090042+00:00"
+    },
+    {
+      "title": "Meta Launches Muse Image Generative Tool to Transform Visual Content Creation",
+      "urls": [
+        "https://www.reuters.com/technology/meta-expands-generative-ai-tools-with-muse-image-rollout-2026-07-07",
+        "https://www.manilatimes.net/2026/07/15/tmt-newswire/globenewswire/avalon-globocare-expands-ai-product-portfolio-with-planned-launch-of-beacon-an-agentic-generative-engine-optimization-platform-for-small-businesses/2385137"
+      ],
+      "date": "2026-08-10T11:31:34.559402+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T11:01:47.090118+00:00"
+  "lastUpdated": "2026-08-10T11:31:34.559478+00:00"
 }
