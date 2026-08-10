@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches New Open‑Source Model Generation to Accelerate Developer Access",
-      "urls": [
-        "https://aizolo.com/blog/mistral-ai-models-2026",
-        "https://www.instagram.com/reel/DR2woioEwqW",
-        "https://www.youtube.com/watch?v=_lZgapJzFho"
-      ],
-      "date": "2026-07-31T10:01:31.399069+00:00"
-    },
-    {
       "title": "Brazilian Wildlife Conservation Effort Showcased Through Jaguar Parade Exhibition In Miami",
       "urls": [
         "https://phys.org/news/2026-07-biodiversity-europe-laws-wildlife-individuals.html",
@@ -4142,7 +4133,15 @@
         "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search"
       ],
       "date": "2026-08-10T09:31:41.728272+00:00"
+    },
+    {
+      "title": "Amazon Uncovers Widespread North Korean Hacking Campaign Targeting Open‑Source Software",
+      "urls": [
+        "https://adtmag.com/articles/2026/07/27/linux-foundation-launches-akrites-to-coordinate-open-source-vulnerability-fixes.aspx",
+        "https://www.defenseone.com/threats/2026/07/amazon-uncovers-broad-north-korean-hacking-campaign-against-open-source-software/415110"
+      ],
+      "date": "2026-08-10T10:01:33.912888+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T09:31:41.728355+00:00"
+  "lastUpdated": "2026-08-10T10:01:33.912966+00:00"
 }
