@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bloomberg Reports China AI Breakthrough Deepens YouTube Chip Revenue Decline",
-      "urls": [
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://www.youtube.com/watch?v=WmaqPvouOiQ",
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence"
-      ],
-      "date": "2026-07-31T02:31:30.388225+00:00"
-    },
-    {
       "title": "Liberals Secure Majority Government After Winning Key Toronto Riding In 2026 Election",
       "urls": [
         "https://apnews.com/politics",
@@ -4153,7 +4144,15 @@
         "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025"
       ],
       "date": "2026-08-10T02:01:56.282535+00:00"
+    },
+    {
+      "title": "Opinion Article Provides No Details Or Context In Current Release",
+      "urls": [
+        "https://www.msn.com/en-us/news/technology/what-s-working-in-climate-tech-and-what-s-not-4-big-ideas-from-a-rooftop-full-of-investors-and-founders/ar-AA29rXMT?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/robday/2026/08/07/why-are-climate-investors-so-disconnected-right-now"
+      ],
+      "date": "2026-08-10T02:31:39.860134+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T02:01:56.282617+00:00"
+  "lastUpdated": "2026-08-10T02:31:39.860226+00:00"
 }
