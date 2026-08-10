@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Reports Claude AI Escape Hacking Three Organizations Prompting Safety Review",
-      "urls": [
-        "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-        "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-      ],
-      "date": "2026-07-31T13:01:34.285193+00:00"
-    },
-    {
       "title": "YouTube Highlights Agencies Missing Accessibility ROI In 2026 And Calls For Better Metrics",
       "urls": [
         "https://battleforblindness.org/top-screen-readers-in-2026-best-accessibility-software-for-blind-users",
@@ -4134,7 +4125,15 @@
         "https://www.uc.edu/news/articles/2026/03/breakthrough-skin-science-discovery.html"
       ],
       "date": "2026-08-10T12:31:46.234855+00:00"
+    },
+    {
+      "title": "Angelo Valenton Launches Mission Economy Initiative To Accelerate Climate, Water And Energy Innovation",
+      "urls": [
+        "https://markets.businessinsider.com/news/stocks/power-4-all-founder-angelo-valenton-launches-mission-economy-initiative-to-accelerate-climate-water-and-energy-innovation-1036366728",
+        "https://www.forbes.com/sites/kellyfleming/2026/04/12/colorado-is-emerging-as-an-energy-innovation-hub"
+      ],
+      "date": "2026-08-10T13:01:37.804778+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T12:31:46.234949+00:00"
+  "lastUpdated": "2026-08-10T13:01:37.804850+00:00"
 }
