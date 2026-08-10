@@ -76,7 +76,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "img-src 'self' data: blob: https: http:",
               "font-src 'self' data: https://fonts.gstatic.com",
-              "connect-src 'self' https://*.supabase.co https://*.googleapis.com https://*.firebaseio.com https://api.indexnow.org",
+              "connect-src 'self' https://*.supabase.co https://*.googleapis.com https://*.firebaseio.com https://api.indexnow.org https://api.cloudinary.com",
               "frame-ancestors 'none'",
               "base-uri 'self'",
               "form-action 'self'",
