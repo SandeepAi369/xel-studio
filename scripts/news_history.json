@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "USA for UNHCR Highlights 117 Million Displaced Amid Ongoing Global Refugee Crisis",
-      "urls": [
-        "https://www.youtube.com/watch?v=jEKu0jjP7LE",
-        "https://www.unrefugees.org/emergencies/ukraine"
-      ],
-      "date": "2026-07-31T02:01:40.137539+00:00"
-    },
-    {
       "title": "Bloomberg Reports China AI Breakthrough Deepens YouTube Chip Revenue Decline",
       "urls": [
         "https://www.crescendo.ai/news/latest-ai-news-and-updates",
@@ -4151,7 +4143,17 @@
         "https://www.dimins.com/blog/2026/01/06/2026-healthcare-technology-trends"
       ],
       "date": "2026-08-10T01:31:33.795911+00:00"
+    },
+    {
+      "title": "Atlantic.Net and AI & Tech Brief Highlight Top Open‑Source AI/ML Frameworks for 2026",
+      "urls": [
+        "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/07/13/ai-tech-brief-exclusive-an-open-source-framework",
+        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1hu9mkt/tensorflow_or_pytorch_which_to_choose_in_2025"
+      ],
+      "date": "2026-08-10T02:01:56.282535+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T01:31:33.796005+00:00"
+  "lastUpdated": "2026-08-10T02:01:56.282617+00:00"
 }
