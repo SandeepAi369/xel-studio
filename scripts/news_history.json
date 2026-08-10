@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Urges States to Accelerate AI Regulation Amid Growing Technology Risks",
-      "urls": [
-        "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster",
-        "https://www.reuters.com/legal/government/anthropic-donate-20-million-us-political-group-that-supports-ai-regulation-2026-07-22",
-        "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model"
-      ],
-      "date": "2026-07-31T15:31:36.399043+00:00"
-    },
-    {
       "title": "IIT Madras Launches Neurodiversity Summit to Build Technology‑Driven Inclusive Ecosystem",
       "urls": [
         "https://www.forbes.com/councils/forbesbusinesscouncil/2026/07/28/a-neurodiversity-diagnosis-is-only-the-beginning-how-leaders-can-offer-better-support-in-adulthood",
@@ -4138,7 +4129,15 @@
         "https://undivided.io/resources/tech-equipment-apps-and-more-for-low-vision-and-blindness-2886"
       ],
       "date": "2026-08-10T15:01:52.487435+00:00"
+    },
+    {
+      "title": "Devlane Publishes Complete Guide to Best Generative AI Tools for 2026",
+      "urls": [
+        "https://openai.com/news/product-releases",
+        "https://www.devlane.com/blog/best-generative-ai-tools-in-2026-the-complete-guide"
+      ],
+      "date": "2026-08-10T15:31:36.534092+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T15:01:52.487515+00:00"
+  "lastUpdated": "2026-08-10T15:31:36.534155+00:00"
 }
