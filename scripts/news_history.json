@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hurricane Season Raises Flood Risks and Highlights Insurance Coverage Gaps",
-      "urls": [
-        "https://www.msn.com/en-us/weather/extreme-weather-events/the-most-weather-challenging-states-in-america-in-2026-ranked/ar-AA2832r6?ocid=BingNewsVerp",
-        "https://theconversation.com/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue-287147",
-        "https://www.msn.com/en-us/weather/extreme-weather-events/hurricane-season-raises-flood-risks-exposes-insurance-limits/ar-AA27SsJn?ocid=BingNewsVerp"
-      ],
-      "date": "2026-07-31T18:31:24.670356+00:00"
-    },
-    {
       "title": "Lionel Messi Drives Record Google Searches After Argentina’s Comeback World Cup Victory",
       "urls": [
         "https://www.msn.com/en-us/sports/fifa_world_cup/google-saw-record-breaking-number-of-searches-after-messi-and-argentinas-comeback-world-cup-win/ar-AA27xX2b?ocid=BingNewsVerp",
@@ -4131,7 +4122,14 @@
         "https://www.reuters.com/business/energy/portugal-offer-fast-track-areas-wind-solar-projects-2026-06-17"
       ],
       "date": "2026-08-10T18:01:43.640764+00:00"
+    },
+    {
+      "title": "United States Backs Open‑Source AI With Strong Security at China Summit",
+      "urls": [
+        "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+      ],
+      "date": "2026-08-10T18:31:44.274922+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T18:01:43.640831+00:00"
+  "lastUpdated": "2026-08-10T18:31:44.275019+00:00"
 }
