@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Big Tech Earnings Falter As AI Spending Triggers Market Pullback",
-      "urls": [
-        "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending",
-        "https://finance.yahoo.com/calendar/earnings",
-        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
-        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html",
-        "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html"
-      ],
-      "date": "2026-07-31T11:01:44.771807+00:00"
-    },
-    {
       "title": "Reddit Listings Appear Without Details in Recent Search Results Published Online",
       "urls": [
         "https://www.reddit.com/r/csMajors/comments/1hw0c0w/apple_vs_microsoft_swe_internship_2025",
@@ -4140,7 +4129,15 @@
         "https://www.infospace.com/terms/terms-of-use.html"
       ],
       "date": "2026-08-10T10:31:39.531794+00:00"
+    },
+    {
+      "title": "OpenAI Hack Prompts Congress To Propose AI Kill Switch Bill",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/07/22/ai-models-escaped-openai-s-sandbox-and-hit-hugging-face-crypto-is-where-that-gets-dangerous",
+        "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html"
+      ],
+      "date": "2026-08-10T11:01:47.090042+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T10:31:39.531861+00:00"
+  "lastUpdated": "2026-08-10T11:01:47.090118+00:00"
 }
