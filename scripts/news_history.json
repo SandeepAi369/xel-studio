@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Posts Full Recap of Team USA Gold Medal Wins From Milan Cortina Winter Olympics",
-      "urls": [
-        "https://www.youtube.com/watch?v=1SwWhSRNQ70"
-      ],
-      "date": "2026-07-31T08:32:45.773525+00:00"
-    },
-    {
-      "title": "OpenAI Launches Dedicated Product Releases Hub to Centralize AI Tool Announcements",
-      "urls": [
-        "https://openai.com/news/product-releases"
-      ],
-      "date": "2026-07-31T09:01:35.748339+00:00"
-    },
-    {
       "title": "disABLEd Guy Highlights Emerging Assistive Tech Driving Independence for Users with Mobility Challenges",
       "urls": [
         "https://www.disabledguy.ca/2026/06/tech-enabled-independence-assistive.html"
@@ -4146,7 +4132,17 @@
         "https://www.msn.com/en-in/sports/other/cwg-2026-bronze-shows-india-can-win-at-olympics-says-para-coach/ar-AA28CMjj?ocid=BingNewsVerp"
       ],
       "date": "2026-08-10T08:31:22.946561+00:00"
+    },
+    {
+      "title": "Ono Pharmaceutical Partners With Phylo to Embed Agentic AI Across All Discovery Scientists",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/ono-pharmaceutical-partners-phylo-embed-160000621.html",
+        "https://medcitynews.com/2026/06/ai-can-accelerate-discovery-development-still-decides-what-advances",
+        "https://www.techtimes.com/articles/320594/20260715/generative-ai-moves-drug-discovery-drug-factories-25b-bora-deal.htm",
+        "https://www.techtimes.com/articles/319136/20260626/ai-drug-discovery-reaches-clinical-proof-bio-2026-china-beat-biosecure-act-science.htm"
+      ],
+      "date": "2026-08-10T09:02:03.095662+00:00"
     }
   ],
-  "lastUpdated": "2026-08-10T08:31:22.946646+00:00"
+  "lastUpdated": "2026-08-10T09:02:03.095733+00:00"
 }
