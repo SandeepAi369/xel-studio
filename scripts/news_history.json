@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Climate Chief Calls For Renewable Energy Shift Amid Oil Price Crisis",
-      "urls": [
-        "https://www.jurist.org/news/2026/03/un-climate-chief-promotes-renewable-energy-amidst-oil-price-crisis"
-      ],
-      "date": "2026-08-01T06:31:23.462191+00:00"
-    },
-    {
       "title": "World Trade Organization TBT Committee Adopts New Notification Formats for Emerging Technology Standards",
       "urls": [
         "https://www.wto.org/english/news_e/news26_e/tbt_10jul26_459_e.htm"
@@ -4151,7 +4144,15 @@
         "https://go.microsoft.com/fwlink?LinkID=246338"
       ],
       "date": "2026-08-11T06:01:37.521315+00:00"
+    },
+    {
+      "title": "United Nations Climate Reports Complement NASA Data to Boost Global Climate Monitoring",
+      "urls": [
+        "https://www.un.org/en/climatechange/reports",
+        "https://science.nasa.gov/climate-change"
+      ],
+      "date": "2026-08-11T06:31:26.158940+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T06:01:37.521382+00:00"
+  "lastUpdated": "2026-08-11T06:31:26.159016+00:00"
 }
