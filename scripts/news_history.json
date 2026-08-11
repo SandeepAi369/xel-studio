@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tesla Develops Wheelchair‑Accessible Robotaxi To Expand Inclusive Ride‑Sharing Market Options",
-      "urls": [
-        "https://www.msn.com/en-us/technology/general/tesla-is-building-a-wheelchair-accessible-robotaxi/ar-AA27UJJX?ocid=BingNewsVerp",
-        "https://www.bolnews.com/technology/chinese-developer-unveils-ai-powered-mind-controlled-wheelchair"
-      ],
-      "date": "2026-08-01T01:01:56.850483+00:00"
-    },
-    {
-      "title": "IEA Report Highlights Energy Shift From Climate Focus to Security Priorities",
-      "urls": [
-        "https://www.forbes.com/sites/phildeluna/2026/02/19/ieas-latest-report-reveals-energys-shift-from-climate-to-security",
-        "https://energydigital.com/news/the-energy-headlines-from-walmart-2026-esg-report",
-        "https://today.duke.edu/2026/04/unlocking-trillions-clean-energy-and-climate-solutions"
-      ],
-      "date": "2026-08-01T01:31:20.988026+00:00"
-    },
-    {
       "title": "Linus Torvalds Tells Anti‑AI Developers to Fork Linux Kernel or Walk Away",
       "urls": [
         "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away",
@@ -4169,7 +4152,14 @@
         "https://www.disabledguy.ca/2026/06/tech-enabled-independence-assistive.html"
       ],
       "date": "2026-08-11T01:01:43.422035+00:00"
+    },
+    {
+      "title": "World Athletics Launches Centralized News Portal to Streamline Global Track and Field Updates",
+      "urls": [
+        "https://worldathletics.org/news"
+      ],
+      "date": "2026-08-11T01:31:29.924423+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T01:01:43.422108+00:00"
+  "lastUpdated": "2026-08-11T01:31:29.924530+00:00"
 }
