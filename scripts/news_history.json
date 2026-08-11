@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Builds $14 Billion AI Empire by Rejecting American Partnerships",
-      "urls": [
-        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
-        "https://www.siliconvalley.com/2026/07/08/mistral-ai-releases-robotics-model-to-support-physical-ai-push"
-      ],
-      "date": "2026-08-01T18:31:29.055722+00:00"
-    },
-    {
-      "title": "UNHCR Highlights Global Refugee Protection Efforts Amid Ongoing Crises and International Coordination",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Refugee",
-        "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
-        "https://www.unhcr.org/uk/what-refugee",
-        "https://www.uscis.gov/humanitarian/refugees-and-asylum/refugees",
-        "https://www.britannica.com/topic/refugee",
-        "https://www.uscis.gov/humanitarian/refugees-asylum",
-        "https://www.un.org/en/global-issues/refugees"
-      ],
-      "date": "2026-08-01T19:01:36.924593+00:00"
-    },
-    {
       "title": "Impact Summit Highlights Day Three Agenda and Participant Insights",
       "urls": [
         "https://www.msn.com/en-in/news/news/ai-impact-summit-2026-day-3-agenda-events-key-participants-insights-into-ndtv-ai-summit/ar-AA1WyklZ?ocid=BingNewsVerp"
@@ -4188,7 +4167,17 @@
         "https://www.thundercompute.com/blog/best-open-source-llms"
       ],
       "date": "2026-08-11T18:31:28.472908+00:00"
+    },
+    {
+      "title": "NeuralCloud Secures ISO 13485:2016 Certification, Boosting AI Healthcare Credibility Globally",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/08/11/10428666.htm",
+        "https://www.usatoday.com/press-release/story/39695/ai-ml-innovations-subsidiary-neuralcloud-achieves-iso-134852016-mdsap-certification",
+        "https://finance.yahoo.com/technology/ai/articles/soaak-technologies-featured-athletech-news-120700745.html",
+        "https://markets.businessinsider.com/news/stocks/metabio-advances-global-preventive-healthcare-with-integrated-ai-powered-bioresonance-ecosystem-1036436447"
+      ],
+      "date": "2026-08-11T19:01:55.180501+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T18:31:28.472972+00:00"
+  "lastUpdated": "2026-08-11T19:01:55.180578+00:00"
 }
