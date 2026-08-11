@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Issues National Artificial Intelligence Policy Framework Guideline for Federal Agencies",
-      "urls": [
-        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
-        "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial"
-      ],
-      "date": "2026-08-01T11:31:21.914183+00:00"
-    },
-    {
       "title": "World Economic Forum Highlights Growing Geopolitical and Economic Risks in New Competition Era",
       "urls": [
         "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition"
@@ -4159,7 +4151,20 @@
         "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281"
       ],
       "date": "2026-08-11T11:01:46.910550+00:00"
+    },
+    {
+      "title": "Google Cloud Highlights AI Infrastructure Plans for Next ’26 Conference",
+      "urls": [
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
+        "https://www.reddit.com/r/Cloud/comments/1ach888/how_is_ai_is_reshaping_the_job_market_in_cloud",
+        "https://www.reddit.com/r/devops/comments/1ocgcm3/anyone_experimenting_with_with_ai_for_cloudinfra",
+        "https://www.reddit.com/r/Cloud/comments/1i3am6t/which_cloud_provider_is_better_for_ai_and_machine",
+        "https://www.reddit.com/r/aws/comments/1hicvwf/what_are_your_biggest_challenges_with_cloud",
+        "https://www.youtube.com/watch?v=uEKJFPEqx9s",
+        "https://www.youtube.com/watch?v=MVBBcES6y3s&vl=en"
+      ],
+      "date": "2026-08-11T11:31:36.998306+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T11:01:46.910628+00:00"
+  "lastUpdated": "2026-08-11T11:31:36.998383+00:00"
 }
