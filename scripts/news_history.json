@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linus Torvalds Tells Anti‑AI Developers to Fork Linux Kernel or Walk Away",
-      "urls": [
-        "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away",
-        "https://www.msn.com/en-us/news/technology/linus-torvalds-puts-his-foot-down-tells-anti-ai-programmers-to-fork-it/ar-AA284SEU?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-01T02:02:03.538381+00:00"
-    },
-    {
       "title": "Open Source Community Faces AI Integration, Funding Pressure, and Licensing Battles in 2026",
       "urls": [
         "https://linuxiac.com/category/news",
@@ -4169,7 +4161,18 @@
         "https://www.youtube.com/watch?v=EAws86q6d_M"
       ],
       "date": "2026-08-11T02:01:39.352940+00:00"
+    },
+    {
+      "title": "Big Tech Earnings Clash With Market Revolt Over Rising AI Spending",
+      "urls": [
+        "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending",
+        "https://finance.yahoo.com/video/nobody-wants-left-behind-ai-193657066.html",
+        "https://www.cnbc.com/video/2026/06/02/tuesday-june-2-2026-cramer-says-investors-should-take-some-profits-in-this-ai-tech-giant.html",
+        "https://finance.yahoo.com/video/tech-stocks-continue-climb-2026-201904479.html",
+        "https://www.forbes.com/sites/bill_stone/2026/08/01/big-tech-faces-capex-vigilantes-as-earnings-surge"
+      ],
+      "date": "2026-08-11T02:31:28.302420+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T02:01:39.353002+00:00"
+  "lastUpdated": "2026-08-11T02:31:28.302497+00:00"
 }
