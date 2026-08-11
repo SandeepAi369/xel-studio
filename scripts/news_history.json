@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "WebX Brings Global Blockchain Leaders Together at Tokyo Conference",
-      "urls": [
-        "https://redwerk.com/blog/top-web3-events-crypto-conferences",
-        "https://events.coinpedia.org/webx-2026-tokyo-8539",
-        "https://vendelux.com/blog/crypto-blockchain-web3-conferences-2026",
-        "https://events.coinpedia.org",
-        "https://www.paulsimroth.at/blog/blockchain-trends-2026"
-      ],
-      "date": "2026-08-01T13:01:46.683262+00:00"
-    },
-    {
-      "title": "YouTube Showcases Four New Deaf‑Friendly Technologies for Users at CES 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=VEab65v5DG0",
-        "https://relaysd.com/news/transforming-communication-exciting-technologies-for-the-deaf-and-hard-of-hearing"
-      ],
-      "date": "2026-08-01T13:31:19.959403+00:00"
-    },
-    {
       "title": "Hugging Face Review Positions Platform as Default Home for Open‑Source AI in 2026",
       "urls": [
         "https://www.aichatdaily.com/tools/hugging-face"
@@ -4179,7 +4160,16 @@
         "https://www.youtube.com/watch?v=SXjsF2i1Pyk"
       ],
       "date": "2026-08-11T13:01:43.950192+00:00"
+    },
+    {
+      "title": "Tesla Develops Wheelchair‑Accessible Robotaxi to Expand Autonomous Transport Options for People",
+      "urls": [
+        "https://www.forbes.com/sites/keelycatwells/2026/08/10/why-more-young-people-are-using-mobility-aids-and-why-thats-good-news-for-employers",
+        "https://www.msn.com/en-us/technology/general/tesla-is-building-a-wheelchair-accessible-robotaxi/ar-AA27UJJX?ocid=BingNewsVerp",
+        "https://www.bolnews.com/technology/chinese-developer-unveils-ai-powered-mind-controlled-wheelchair"
+      ],
+      "date": "2026-08-11T13:31:29.319185+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T13:01:43.950261+00:00"
+  "lastUpdated": "2026-08-11T13:31:29.319264+00:00"
 }
