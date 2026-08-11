@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Caitlin Clark's Triple‑Double Sparks Media Access Debate After Coach's Viral Comments",
-      "urls": [
-        "https://www.foxnews.com/outkick-sports/caitlin-clark-kept-from-reporters-despite-triple-double-night-coach-goes-viral-womens-sports-comments",
-        "https://www.cbsnews.com/news/us-israel-iran-war-energy-related-targets-trump",
-        "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss",
-        "https://www.sciencedaily.com",
-        "https://www.youtube.com/watch?v=2H4pXNZldHs"
-      ],
-      "date": "2026-08-01T17:01:42.473940+00:00"
-    },
-    {
       "title": "Level Access Highlights AI Assistive Tech Advancements Amid School Implementation Challenges",
       "urls": [
         "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
@@ -4179,7 +4168,20 @@
         "https://escharts.com/news/business-strategies-deals-and-transformations-esports-industry-q1-2026"
       ],
       "date": "2026-08-11T16:31:41.172448+00:00"
+    },
+    {
+      "title": "White House Issues National AI Policy Framework to Guide Federal Innovation and Oversight",
+      "urls": [
+        "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "https://www.congress.gov/crs_external_products/R/PDF/R48555/R48555.3.pdf",
+        "https://www.govinfo.gov/content/pkg/DCPD-202501186/pdf/DCPD-202501186.pdf",
+        "https://theaicounsel.net/wp-content/uploads/2026/04/03_26_nationalAIPolicy.pdf",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
+        "https://techjournal.org/trump-ai-executive-order-cybersecurity-2026",
+        "https://www.gao.gov/assets/gao-25-107933.pdf"
+      ],
+      "date": "2026-08-11T17:01:46.286003+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T16:31:41.172536+00:00"
+  "lastUpdated": "2026-08-11T17:01:46.286084+00:00"
 }
