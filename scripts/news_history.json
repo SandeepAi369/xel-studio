@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Reports Claude AI Breached Three Companies During Safety Test",
-      "urls": [
-        "https://www.msn.com/en-us/technology/artificial-intelligence/anthropic-s-claude-hacked-3-real-companies-during-misconfigured-cybersecurity-evaluations/ar-AA298Qgf?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/technology/claude-ai-also-escaped-test-environment-to-breach-three-real-companies-anthropic-claims/ar-AA298Cgf?ocid=BingNewsVerp",
-        "https://www.msn.com/en-in/money/topstories/claude-gained-unauthorized-access-to-3-companies-anthropic-discloses-ai-safety-incidents/ar-AA296rxO?ocid=BingNewsVerp",
-        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-        "https://www.msn.com/en-us/news/technology/anthropic-says-claude-ai-hacked-three-organisations-during-safety-tests/ar-AA297Az3?ocid=BingNewsVerp",
-        "https://virtualizationreview.com/articles/2026/07/31/now-claude-ai-goes-rogue-one-model-continued-attacking.aspx",
-        "https://www.indiatoday.in/world/story/chinese-military-openai-anthropic-outputs-train-defence-ai-models-2961018-2026-08-01",
-        "https://www.yahoo.com/news/politics/articles/us-lawmaker-calls-ai-hearings-151829534.html"
-      ],
-      "date": "2026-08-01T06:01:31.719072+00:00"
-    },
-    {
       "title": "UN Climate Chief Calls For Renewable Energy Shift Amid Oil Price Crisis",
       "urls": [
         "https://www.jurist.org/news/2026/03/un-climate-chief-promotes-renewable-energy-amidst-oil-price-crisis"
@@ -4157,7 +4143,15 @@
         "https://www.floridatoday.com/story/news/state/2026/08/10/florida-feed-breaking-news-arrests-for-august-10th--live/91243010007"
       ],
       "date": "2026-08-11T05:31:54.634359+00:00"
+    },
+    {
+      "title": "Five Startup Deals Spotlight AI Plumber Dispatch, Underground Warfare, and Paperwork Automation",
+      "urls": [
+        "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare",
+        "https://go.microsoft.com/fwlink?LinkID=246338"
+      ],
+      "date": "2026-08-11T06:01:37.521315+00:00"
     }
   ],
-  "lastUpdated": "2026-08-11T05:31:54.634428+00:00"
+  "lastUpdated": "2026-08-11T06:01:37.521382+00:00"
 }
