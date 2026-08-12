@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Renewable Energy Dominates Global Power Mix as Solar, Wind, and Storage Surge in 2026",
-      "urls": [
-        "https://www.greenfueljournal.com/post/renewable-energy-trends-in-2026-key-drivers-growth-forecasts-strategic-outlook",
-        "https://www.pragmamarketresearch.com/blog/renewable-energy-market-trends-opportunities-outlook-2026-",
-        "https://www.npcelectric.com/news/renewable-energy-systems-2026-the-ultimate-guide-to-going-green.html",
-        "https://www.theenergybrief.org/en/articles/global-clean-energy-progress-mid-2026",
-        "https://www.forbes.com/sites/dianneplummer/2026/02/17/top-5-renewable-energy-sources-reshaping-the-global-economy-in-2026",
-        "https://environmentamerica.org/center/updates/new-forecast-solar-wind-and-battery-storage-to-dominate-in-2026"
-      ],
-      "date": "2026-08-02T21:01:42.850402+00:00"
-    },
-    {
-      "title": "Toolchase.com Highlights Major AI Launches and Pricing Shifts as Orangebot.ai Tops Product Hunt",
-      "urls": [
-        "https://toolchase.com/blog/ai-tools-news-2026",
-        "https://orangebot.ai/product-hunt-today"
-      ],
-      "date": "2026-08-02T21:31:26.055455+00:00"
-    },
-    {
       "title": "Google Cloud Publishes Monthly AI Infrastructure Update Highlighting Recent Service Enhancements",
       "urls": [
         "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month"
@@ -4202,7 +4182,16 @@
         "https://www.facebook.com/FOX9.IanLeonard/posts/breaking-news-ava-won-the-gold-medal-today-in-the-all-around-gymnastics-competit/1533741534786512"
       ],
       "date": "2026-08-12T21:01:27.480833+00:00"
+    },
+    {
+      "title": "White House Issues AI Policy Framework as Baker Botts Highlights Regulatory Shifts",
+      "urls": [
+        "https://developer.dogpile.com",
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
+        "https://www.bakerbotts.com/thought-leadership/publications/2026/january/us-ai-law-update"
+      ],
+      "date": "2026-08-12T21:31:29.885487+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T21:01:27.480903+00:00"
+  "lastUpdated": "2026-08-12T21:31:29.885550+00:00"
 }
