@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Enacts Three New Privacy Laws Covering AI, End‑of‑Life Rights, and Cat Welfare",
-      "urls": [
-        "https://www.youtube.com/watch?v=85d7ry5nQOQ",
-        "https://www.facebook.com/officialonetrust/videos/-3-new-us-privacy-laws-just-went-live-is-your-program-readyin-this-video-lara-eg/1404681107956412",
-        "https://www.smarsh.com/blog/thought-leadership/data-privacy-laws"
-      ],
-      "date": "2026-08-02T09:01:38.867542+00:00"
-    },
-    {
-      "title": "TEBO Resource Guide Highlights Assistive Tech Options for Visually Impaired Students",
-      "urls": [
-        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
-        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
-        "https://www.youtube.com/watch?v=BVZSqtjpgiI",
-        "https://www.youtube.com/watch?v=XAJoh1ZMRas",
-        "https://www.youtube.com/watch?v=bbPA5yqQEaE"
-      ],
-      "date": "2026-08-02T09:31:17.371441+00:00"
-    },
-    {
       "title": "Hugging Face Shares New AI Research Papers in Daily Update",
       "urls": [
         "https://af.net/realtime/daily-updates-hugging-face-ai-papers-in-july-2026"
@@ -4181,7 +4161,17 @@
         "https://iviewlearning.com/blog/the-future-of-ai-in-assistive-technology-2026-updated"
       ],
       "date": "2026-08-12T09:01:38.165464+00:00"
+    },
+    {
+      "title": "Anthropic CEO Calls for Binding AI Regulation Amid Fragmented Policy Landscape",
+      "urls": [
+        "https://www.wired.com/story/doge-deployed-ai-housing-policy",
+        "https://www.jdsupra.com/legalnews/emea-data-privacy-digital-regulation-ai-2161319",
+        "https://www.cnn.com/2026/06/21/tech/anthropic-ai-regulation",
+        "https://www.yahoo.com/news/politics/articles/anthropic-ceo-calls-binding-ai-195654061.html"
+      ],
+      "date": "2026-08-12T09:31:25.050352+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T09:01:38.165528+00:00"
+  "lastUpdated": "2026-08-12T09:31:25.050423+00:00"
 }
