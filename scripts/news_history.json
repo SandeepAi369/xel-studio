@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Partners With Health Systems to Advance Evidence‑Based AI in Clinical Care",
-      "urls": [
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-07-28-google-health-systems-collaborate-evidence-based-ai",
-        "https://money.usnews.com/investing/articles/ai-in-health-care-best-stocks-to-buy"
-      ],
-      "date": "2026-08-02T11:01:41.825411+00:00"
-    },
-    {
       "title": "AZIO AI Secures AT&T Fiber Deal to Power First 500MW AI Data Campus",
       "urls": [
         "https://www.msn.com/en-us/money/general/why-now-is-finally-the-time-to-buy-the-big-three-cloud-computing-stocks-before-it-s-too-late/ar-AA29eoVi?ocid=BingNewsVerp",
@@ -4178,7 +4170,16 @@
         "https://www.msn.com/en-xl/politics/government/jonathan-s-sacrifices-saved-nigeria-s-democracy-lp-national-chair/ar-AA29SFL8?ocid=BingNewsVerp"
       ],
       "date": "2026-08-12T10:31:47.685466+00:00"
+    },
+    {
+      "title": "Gregory Kurtzer Launches OpenWALDO Collaborative Open Source AI Community Platform",
+      "urls": [
+        "https://markets.businessinsider.com/news/stocks/rocky-linux-founder-gregory-kurtzer-builds-openwaldo-as-a-true-collaborative-open-source-community-for-ai-1036441799",
+        "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away",
+        "https://www.businessinsider.com/linux-creator-linus-torvalds-ai-holdouts-fork-off-2026-7"
+      ],
+      "date": "2026-08-12T11:01:55.260936+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T10:31:47.685556+00:00"
+  "lastUpdated": "2026-08-12T11:01:55.261032+00:00"
 }
