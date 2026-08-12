@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "UoH Distributes One Hundred Smart Vision Glasses to Visually Impaired Beneficiaries",
-      "urls": [
-        "https://www.latimes.com/socal/daily-pilot/news/story/2026-07-18/orange-county-visually-impaired-students-ride-path-toward-independence",
-        "https://www.uniindia.com/uoh-distributes-100-smart-vision-glasses-to-visually-impaired-beneficiaries-under-csr-initiative/south/news/3925438.html"
-      ],
-      "date": "2026-08-02T17:31:22.305750+00:00"
-    },
-    {
       "title": "Alphabet Beats Expectations While Tesla Misses Profit As AI Spending Rises",
       "urls": [
         "https://www.investopedia.com/big-tech-earnings-live-q2-2026-googl-tsla-ibm-txn-now-12024335",
@@ -4183,7 +4175,16 @@
         "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments"
       ],
       "date": "2026-08-12T17:01:39.535469+00:00"
+    },
+    {
+      "title": "Meta and Nvidia Signal Strong Commitment in Open-Weight AI Race Led by Chinese Labs",
+      "urls": [
+        "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html",
+        "https://markets.businessinsider.com/news/stocks/memetoro-ships-end-to-end-ai-memecoin-pipeline-as-open-source-development-advances-1036448500",
+        "https://uk.finance.yahoo.com/news/tachyum-open-sources-prodigy-isa-160400643.html"
+      ],
+      "date": "2026-08-12T17:31:31.882537+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T17:01:39.535543+00:00"
+  "lastUpdated": "2026-08-12T17:31:31.882616+00:00"
 }
