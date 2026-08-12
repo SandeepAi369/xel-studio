@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Communities Face Disaster Fatigue as Repeated Storms Extend Recovery Cycles",
-      "urls": [
-        "https://www.msn.com/en-us/weather/topstories/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/ar-AA27O3ly?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-02T02:01:42.808842+00:00"
-    },
-    {
-      "title": "OpenLoop Health Publishes July 2026 Blog Detailing Recent Digital Health Trends and Insights",
-      "urls": [
-        "https://openloophealth.com/blog/digital-health-trends-and-news-July-2026"
-      ],
-      "date": "2026-08-02T02:31:26.058677+00:00"
-    },
-    {
       "title": "Apple Launches Major AI Update as Microsoft Faces Backlash Over Pricing",
       "urls": [
         "https://www.youtube.com/watch?v=VY7dwsXqpBQ",
@@ -4182,7 +4168,21 @@
         "https://www.pbs.org/newshour/science/whats-the-difference-between-closed-open%E2%80%91source-and-open-weight-ai-a-researcher-explains"
       ],
       "date": "2026-08-12T02:01:34.781258+00:00"
+    },
+    {
+      "title": "Scientists Develop AI That Detects Pancreatic Cancer Years Before Traditional Diagnosis",
+      "urls": [
+        "https://news.gatech.edu/news/2026/07/29/diagnosis-wellness-ais-healthcare-revolution",
+        "https://www.msn.com/en-in/technology/artificial-intelligence/scientists-develop-ai-that-detects-pancreatic-cancer-years-before-diagnosis-in-a-major-breakthrough/ar-AA26XZZi?ocid=BingNewsVerp",
+        "https://www.mobihealthnews.com/news/aidoc-lands-fda-breakthrough-status-ai-drafts-radiology-reports",
+        "https://finance.yahoo.com/healthcare/articles/tema-launches-healthcare-ai-etf-160000322.html",
+        "https://www.forbes.com/sites/jessepines/2026/07/26/a-lawsuit-says-chatgpt-nearly-someone-heres-the-data-on-ai-diagnosis",
+        "https://www.morningstar.com/news/marketwatch/2026062812/your-health-insurer-shouldnt-decide-your-treatment-plan-thats-what-your-doctor-and-ai-should-be-doing",
+        "https://finance.yahoo.com/healthcare/articles/hair-loss-awareness-month-2026-160800934.html",
+        "https://www.forbes.com/sites/jessepines/2026/05/22/did-ai-really-beat-er-doctors-at-diagnosis-heres-what-the-study-showed"
+      ],
+      "date": "2026-08-12T02:31:30.394233+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T02:01:34.781330+00:00"
+  "lastUpdated": "2026-08-12T02:31:30.394308+00:00"
 }
