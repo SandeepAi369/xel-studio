@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Center for Digital and Technological Innovation Launches Instagram Presence to Promote Innovation",
-      "urls": [
-        "https://www.instagram.com/reel/DZDf6dhEQQz"
-      ],
-      "date": "2026-08-02T15:02:41.104618+00:00"
-    },
-    {
-      "title": "Anthropic Releases Cybersecurity Evaluation Highlighting Claude AI Vulnerabilities and Calls for Industry Safeguards",
-      "urls": [
-        "https://thecyberexpress.com/anthropic-cybersecurity-evaluation-claude-ai"
-      ],
-      "date": "2026-08-02T15:31:27.255862+00:00"
-    },
-    {
       "title": "U.S. Competition With China Reshapes Global Political Landscape According To New Stanford Opinion Analysis",
       "urls": [
         "https://www.chinadaily.com.cn/a/202607/28/WS6a68021ea310986e2b4679d5.html",
@@ -4185,7 +4171,17 @@
         "https://livingunlimited.ca/the-wheelchair-is-getting-smarter-a-2026-mobility-innovation-guide"
       ],
       "date": "2026-08-12T15:01:51.237118+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Single‑Camera Robot Model in Expanded Microsoft Partnership",
+      "urls": [
+        "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control",
+        "https://www.eweek.com/news/mistral-ai-robostral-navigate-robotics-model",
+        "https://www.heise.de/en/news/Robostral-Navigate-Mistral-releases-single-camera-AI-for-robots-11359759.html",
+        "https://www.reuters.com/commentary/breakingviews/open-source-ai-is-imperfect-hedge-against-us-clout-2026-07-29"
+      ],
+      "date": "2026-08-12T15:31:34.202302+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T15:01:51.237174+00:00"
+  "lastUpdated": "2026-08-12T15:31:34.202399+00:00"
 }
