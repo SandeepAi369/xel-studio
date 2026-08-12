@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CNN Launches Live Medal Tracker for Milan Winter Olympics Providing Real‑Time Results and Nation Rankings",
-      "urls": [
-        "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-19-26"
-      ],
-      "date": "2026-08-02T16:31:21.748216+00:00"
-    },
-    {
       "title": "Nvidia Introduces New PC AI Chip to Enable On‑Device Intelligence",
       "urls": [
         "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31",
@@ -4186,7 +4179,15 @@
         "https://www.youtube.com/watch?v=85d7ry5nQOQ"
       ],
       "date": "2026-08-12T16:01:42.362041+00:00"
+    },
+    {
+      "title": "Excelra Publishes State of AI ML Report Highlighting 2026 Drug Discovery Advances",
+      "urls": [
+        "https://www.excelra.com/publications/state-of-ai-ml-in-drug-discovery-2026",
+        "https://biotech-intelligence.com/ai-driven-drug-discovery-clinical-development-machine-learning-reshaping-pharma-rd-2026"
+      ],
+      "date": "2026-08-12T16:31:43.166828+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T16:01:42.362115+00:00"
+  "lastUpdated": "2026-08-12T16:31:43.166901+00:00"
 }
