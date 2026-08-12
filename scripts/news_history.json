@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Launches Open Source Speech Generation Model Expanding Voice AI Capabilities",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://www.reddit.com/r/MistralAI/comments/1r24g6x/mistral_boss_calls_for_european_unity_in_ai_race"
-      ],
-      "date": "2026-08-02T13:31:22.110651+00:00"
-    },
-    {
       "title": "Absentia Labs Secures FDA Qualification for First AI Digital Liver Model",
       "urls": [
         "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS%20Newswire/3161170/absentia-labs-digital-liver-model-becomes-first-ai-drug-development-tool-accepted-into-fda-qualification-program",
@@ -4181,7 +4173,14 @@
         "https://thesportstak.com"
       ],
       "date": "2026-08-12T13:01:48.616698+00:00"
+    },
+    {
+      "title": "Battle for Blindness Publishes 2026 Top Screen Readers Guide for Blind Users",
+      "urls": [
+        "https://battleforblindness.org/top-screen-readers-in-2026-best-accessibility-software-for-blind-users"
+      ],
+      "date": "2026-08-12T13:31:30.671345+00:00"
     }
   ],
-  "lastUpdated": "2026-08-12T13:01:48.616770+00:00"
+  "lastUpdated": "2026-08-12T13:31:30.671413+00:00"
 }
