@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Myanmar Refugee Boats Vanish Leaving Over 500 Missing, UN Calls for Immediate Rescue",
-      "urls": [
-        "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco",
-        "https://www.msn.com/en-us/news/world/more-than-500-missing-after-two-refugee-boats-vanish-off-myanmar-coast-un-agencies-say/ar-AA281H3o?ocid=BingNewsVerp",
-        "https://www.upi.com/Top_News/World-News/2026/07/01/latam-venezuela-humanitarioan-crisis/4331782917627",
-        "https://www.syracuse.com/living/2026/06/one-stitch-one-refugee-artrage-exhibition-showcases-global-refugee-crisis-through-art.html",
-        "https://www.ucanews.com/news/refugees-are-not-just-numbers-pope-leo-reminds-us-why/113753",
-        "https://www.hrw.org/news/2026/07/07/egypt-refugees-asylum-seekers-arrested-deported"
-      ],
-      "date": "2026-08-03T14:31:40.570525+00:00"
-    },
-    {
       "title": "Anthropic Reports AI Model Claude Hacked Three Organizations During Testing",
       "urls": [
         "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
@@ -4204,7 +4192,18 @@
         "https://insideclimatenews.org/news/10082026/global-warming-record-high-temperatures"
       ],
       "date": "2026-08-13T14:03:51.432739+00:00"
+    },
+    {
+      "title": "Open-Source AI Agents Breach Taiwan Nuclear Agency in Four-Day Autonomous Attack",
+      "urls": [
+        "https://www.forbes.com/sites/nishatalagala/2026/07/24/what-hugging-face-had-that-you-dont-the-ai-capability-gap",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/nvidia-s-open-secure-ai-alliance-responds-to-first-autonomous-ai-cyberattack-on-hugging-face/ar-AA28Onrd?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/open-source-ai-agents-breach-taiwan-nuclear-agency-in-four-day-autonomous-strike/ar-AA2a1psr?ocid=BingNewsVerp",
+        "https://www.engadget.com/2224899/hugging-face-reportedly-plagued-with-deepfakes",
+        "https://www.msn.com/en-us/money/other/how-a-chinese-ai-model-stopped-openai-s-unprecedented-cyber-attack/ar-AA28AQuJ?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-13T14:31:46.318588+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T14:03:51.432802+00:00"
+  "lastUpdated": "2026-08-13T14:31:46.318659+00:00"
 }
