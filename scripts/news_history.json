@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Canada Crypto Week Returns July 20‑26 Highlighting Web3, Digital Assets and AI",
-      "urls": [
-        "https://news.bitcoin.com/canada-crypto-week-returns-july-20-26-celebrating-the-future-of-web3-digital-assets-and-ai"
-      ],
-      "date": "2026-08-03T09:32:08.156068+00:00"
-    },
-    {
-      "title": "LLM Stats Launches Updated Leaderboard Showcasing Top AI Model Performances",
-      "urls": [
-        "https://llm-stats.com/llm-updates",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1q82ae8/start_of_2026_whats_the_best_open_coding_model",
-        "https://llm-stats.com/ai-news",
-        "https://aistackd.com/posts/best-open-source-ai-models-2026"
-      ],
-      "date": "2026-08-03T10:01:36.429376+00:00"
-    },
-    {
       "title": "DOST, SM Prime, and ARISE Renew Partnership for SUSTEX 2026 Sustainability Expo",
       "urls": [
         "https://www.manilatimes.net/2026/08/03/tmt-newswire/dost-sm-prime-arise-partner-anew-for-sustex-2026/2396768",
@@ -4204,7 +4187,16 @@
         "https://www.youtube.com/watch?v=ymyz6RVpEXA"
       ],
       "date": "2026-08-13T09:31:42.387751+00:00"
+    },
+    {
+      "title": "2026 US Midterm Elections Draw Extensive Coverage From Reuters, NBC News, and POLITICO",
+      "urls": [
+        "https://www.reuters.com/world/us/elections",
+        "https://www.nbcnews.com/politics/2026-primary-elections/national",
+        "https://www.politico.com/news/2026-elections/1"
+      ],
+      "date": "2026-08-13T10:01:39.579879+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T09:31:42.387810+00:00"
+  "lastUpdated": "2026-08-13T10:01:39.579953+00:00"
 }
