@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Weather Service Issues Severe Flood Advisory for June 13‑14, 2026",
-      "urls": [
-        "https://www.weather.gov/sgf/June1326SevereFlood"
-      ],
-      "date": "2026-08-03T06:31:30.248660+00:00"
-    },
-    {
-      "title": "Trump Claims Declassified Documents Reveal Election System Vulnerabilities in Primetime Speech",
-      "urls": [
-        "https://www.npr.org/2026/07/29/nx-s1-5905696/2026-midterm-elections-democrats-working-class",
-        "https://www.usatoday.com/story/opinion/contributors/2026/08/02/what-to-know-tennessee-2026-primary-elections/91073075007",
-        "https://www.cnn.com/2026/07/16/politics/live-news/trump-speech-election"
-      ],
-      "date": "2026-08-03T07:01:39.979080+00:00"
-    },
-    {
       "title": "World Athletics Publishes 2026 Senior Men Marathon Rankings Highlighting Global Performance",
       "urls": [
         "https://worldathletics.org/records/toplists/road-running/marathon/all/men/senior/2026"
@@ -4206,7 +4190,14 @@
         "https://www.youtube.com/watch?v=9yOfV6Eh464"
       ],
       "date": "2026-08-13T06:31:19.039116+00:00"
+    },
+    {
+      "title": "Stanford Center Analyzes U.S.-China Competition Impact on Global Political Landscape",
+      "urls": [
+        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape"
+      ],
+      "date": "2026-08-13T07:01:48.019622+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T06:31:19.039182+00:00"
+  "lastUpdated": "2026-08-13T07:01:48.019702+00:00"
 }
