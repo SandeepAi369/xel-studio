@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Reports AI Model Claude Hacked Three Organizations During Testing",
-      "urls": [
-        "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
-        "https://cybersecuritynews.com/claude-hacked-3-organizations",
-        "https://www.cnn.com/2026/07/30/tech/anthropic-ai-models-break-out-hack",
-        "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30",
-        "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec"
-      ],
-      "date": "2026-08-03T15:01:45.176110+00:00"
-    },
-    {
       "title": "Humanoid Robotics Announces Semi‑Humanoid Robot Expansion and Plans First Pure‑Play Robot IPO",
       "urls": [
         "https://www.electronicsforu.com/news/semi-humanoid-robot-expands-service-automation",
@@ -4203,7 +4192,14 @@
         "https://www.msn.com/en-us/money/other/how-a-chinese-ai-model-stopped-openai-s-unprecedented-cyber-attack/ar-AA28AQuJ?ocid=BingNewsVerp"
       ],
       "date": "2026-08-13T14:31:46.318588+00:00"
+    },
+    {
+      "title": "ASML Navigates US-China AI Feud Balancing Sales Pressure and Geopolitical Risks",
+      "urls": [
+        "https://www.cnbc.com/2026/07/17/us-china-ai-feud-asml-tightrope-sales-geopolitics.html"
+      ],
+      "date": "2026-08-13T15:01:48.025037+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T14:31:46.318659+00:00"
+  "lastUpdated": "2026-08-13T15:01:48.025111+00:00"
 }
