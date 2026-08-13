@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Commonwealth Games 2026 Shatters Multiple Historic World Records in Glasgow",
-      "urls": [
-        "https://www.outlookindia.com/sports/others/commonwealth-games-2026-new-world-records-glasgow"
-      ],
-      "date": "2026-08-03T18:01:40.240321+00:00"
-    },
-    {
       "title": "Chinese Open‑Source AI Model Sparks Market Selloff Across Technology Stocks",
       "urls": [
         "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026/card/open-source-ai-model-from-china-triggers-selloff-RG0ZHikbay0R7tIlPsGm",
@@ -4211,7 +4204,14 @@
         "https://www.facebook.com/norwegianrefugeecouncil/videos/by-the-end-of-2024-some-123-million-people-around-the-world-were-displaced-from-/805790891837054"
       ],
       "date": "2026-08-13T18:01:37.802613+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Latest Updates and Releases on DenebrixAI Platform",
+      "urls": [
+        "https://denebrixai.com/blog/hugging-face-news"
+      ],
+      "date": "2026-08-13T18:31:36.278141+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T18:01:37.802684+00:00"
+  "lastUpdated": "2026-08-13T18:31:36.278216+00:00"
 }
