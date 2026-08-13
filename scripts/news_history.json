@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "\"title\": \"Analytics Insight Lists Ten Medical Device Innovations Shaping 2026 Healthcare\",",
-      "urls": [
-        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm",
-        "https://www.aanp.org/news-feed/top-five-health-care-trends-for-2026-how-new-technology-is-transforming-patient-care",
-        "https://www.analyticsinsight.net/healthcare/top-10-medical-device-trends-in-2026",
-        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time"
-      ],
-      "date": "2026-08-03T02:01:40.901412+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT-4 Model Offering Advanced Language Capabilities for Developers and Enterprises",
       "urls": [
         "https://openai.com",
@@ -4196,7 +4186,17 @@
         "https://www.tiktok.com/@sambentley/video/7593044248375741718"
       ],
       "date": "2026-08-13T01:31:27.210528+00:00"
+    },
+    {
+      "title": "SpaceX Launches Massive Starship Rocket in First Test Flight Since IPO",
+      "urls": [
+        "https://www.youtube.com/watch?v=OLi0lfrkN3Q",
+        "https://www.youtube.com/watch?v=nnR6iLlm4Hc",
+        "https://spacenexus.us/guide/space-launch-schedule-2026",
+        "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html"
+      ],
+      "date": "2026-08-13T02:02:14.827787+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T01:31:27.210604+00:00"
+  "lastUpdated": "2026-08-13T02:02:14.827855+00:00"
 }
