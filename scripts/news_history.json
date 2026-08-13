@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Biomed Nexus Highlights Twenty‑Five AI Drug Discovery Companies Delivering Clinical Results",
-      "urls": [
-        "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials",
-        "https://www.drugdiscoverynews.com/the-2026-ai-power-shift-17020",
-        "https://www.aifchem.com/blog-latest-progress-drug-discovery-2026-fda-approvals-ai-trends-molecular-building-blocks",
-        "https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026",
-        "https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026"
-      ],
-      "date": "2026-08-03T05:31:27.789859+00:00"
-    },
-    {
       "title": "Veracode Reports AI‑Generated Code Security Stagnates at 56 Percent Pass Rate",
       "urls": [
         "https://www.usatoday.com/press-release/story/38888/ai-is-writing-more-code-than-humans-whos-testing-it-for-security-flaws",
@@ -4205,7 +4194,14 @@
         "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html"
       ],
       "date": "2026-08-13T05:01:58.968409+00:00"
+    },
+    {
+      "title": "Anthropic Announces Three Claude Models Reach Real‑World Systems in Cyber Security Tests",
+      "urls": [
+        "https://www.axios.com/2026/07/30/anthropic-mythos-security-testing"
+      ],
+      "date": "2026-08-13T05:31:28.919328+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T05:01:58.968483+00:00"
+  "lastUpdated": "2026-08-13T05:31:28.919403+00:00"
 }
