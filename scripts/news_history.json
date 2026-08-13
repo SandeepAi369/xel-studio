@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stream Hatchet Secures Role as Data Provider for 2026 Esports World Cup",
-      "urls": [
-        "https://www.newswire.com/news/stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup"
-      ],
-      "date": "2026-08-03T20:31:34.378572+00:00"
-    },
-    {
       "title": "CAD Speedmodeling Tournament Showcases Rapid Design Skills In 2026 Summer Open",
       "urls": [
         "https://esportsworldcup.com",
@@ -4211,7 +4204,14 @@
         "https://www.nature.com/news"
       ],
       "date": "2026-08-13T20:31:31.564732+00:00"
+    },
+    {
+      "title": "Gregory Kurtzer Launches OpenWALDO to Foster Collaborative Open Source AI Community",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/rocky-linux-founder-gregory-kurtzer-160000330.html"
+      ],
+      "date": "2026-08-13T21:01:44.194064+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T20:31:31.564809+00:00"
+  "lastUpdated": "2026-08-13T21:01:44.194142+00:00"
 }
