@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Humanoid Robotics Announces Semi‑Humanoid Robot Expansion and Plans First Pure‑Play Robot IPO",
-      "urls": [
-        "https://www.electronicsforu.com/news/semi-humanoid-robot-expands-service-automation",
-        "https://247wallst.com/investing/2026/06/24/humanoid-robotics-ceo-the-first-pure-play-robot-company-is-about-to-go-public"
-      ],
-      "date": "2026-08-03T15:31:43.356769+00:00"
-    },
-    {
       "title": "Wolters Kluwer Outlines 2025 Privacy Lessons and Strategies for 2026 Compliance",
       "urls": [
         "https://www.wolterskluwer.com/en/expert-insights/privacy-in-transition-what-2025-taught-us-and-how-to-prepare-for-2026"
@@ -4208,7 +4200,16 @@
         "https://www.youtube.com/watch?v=mAppyiMf-Yc"
       ],
       "date": "2026-08-13T15:31:36.687308+00:00"
+    },
+    {
+      "title": "Insider Reports Nine Open‑Source AI Models Launched Within Twelve Days",
+      "urls": [
+        "https://llm-stats.com/llm-updates",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1q82ae8/start_of_2026_whats_the_best_open_coding_model",
+        "https://tech-insider.org/au/open-source-ai-model-wave-2026"
+      ],
+      "date": "2026-08-13T16:01:44.722088+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T15:31:36.687377+00:00"
+  "lastUpdated": "2026-08-13T16:01:44.722149+00:00"
 }
