@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Achieves Top Accessibility Tester Status, Fixes Eighty Percent of Issues",
-      "urls": [
-        "https://www.youtube.com/watch?v=hcV2dtbORs8"
-      ],
-      "date": "2026-08-03T17:31:35.169642+00:00"
-    },
-    {
       "title": "Commonwealth Games 2026 Shatters Multiple Historic World Records in Glasgow",
       "urls": [
         "https://www.outlookindia.com/sports/others/commonwealth-games-2026-new-world-records-glasgow"
@@ -4210,7 +4203,15 @@
         "https://indiaautismcenter.org/blog/latest-tech-in-autism"
       ],
       "date": "2026-08-13T17:31:31.717080+00:00"
+    },
+    {
+      "title": "YouTube Highlights Border Crisis as Facebook Cites 123 Million Affected People",
+      "urls": [
+        "https://www.youtube.com/watch?v=t26JjUIsSFk",
+        "https://www.facebook.com/norwegianrefugeecouncil/videos/by-the-end-of-2024-some-123-million-people-around-the-world-were-displaced-from-/805790891837054"
+      ],
+      "date": "2026-08-13T18:01:37.802613+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T17:31:31.717160+00:00"
+  "lastUpdated": "2026-08-13T18:01:37.802684+00:00"
 }
