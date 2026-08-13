@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Veracode Reports AI‑Generated Code Security Stagnates at 56 Percent Pass Rate",
-      "urls": [
-        "https://www.usatoday.com/press-release/story/38888/ai-is-writing-more-code-than-humans-whos-testing-it-for-security-flaws",
-        "https://lasvegassun.com/news/2026/jul/28/llms-are-getting-smarter-but-not-safer-veracode-20",
-        "https://www.tmcnet.com/usubmit/2026/07/31/10423445.htm"
-      ],
-      "date": "2026-08-03T06:01:32.044642+00:00"
-    },
-    {
       "title": "National Weather Service Issues Severe Flood Advisory for June 13‑14, 2026",
       "urls": [
         "https://www.weather.gov/sgf/June1326SevereFlood"
@@ -4201,7 +4192,14 @@
         "https://www.axios.com/2026/07/30/anthropic-mythos-security-testing"
       ],
       "date": "2026-08-13T05:31:28.919328+00:00"
+    },
+    {
+      "title": "UNHCR Publishes Global Trends Overview on Refugee Movements and Needs",
+      "urls": [
+        "https://www.unhcr.org/global-trends"
+      ],
+      "date": "2026-08-13T06:01:45.508048+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T05:31:28.919403+00:00"
+  "lastUpdated": "2026-08-13T06:01:45.508116+00:00"
 }
