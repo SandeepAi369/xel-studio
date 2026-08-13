@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "FutureAGI Publishes Comprehensive July 2026 Open-Source LLM Release Tracker for Researchers",
-      "urls": [
-        "https://futureagi.com/blog/open-source-llm-releases"
-      ],
-      "date": "2026-08-03T11:01:53.806691+00:00"
-    },
-    {
       "title": "Stanford Demonstrates Twisted Light Quantum Chip Operating Without Extreme Cooling",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
@@ -4210,7 +4203,18 @@
         "https://www.forbes.com/sites/timkeary/2026/07/28/nvidia-alliance-backs-open-source-ai-after-hugging-face-breach"
       ],
       "date": "2026-08-13T11:01:49.854732+00:00"
+    },
+    {
+      "title": "Nvidia Unveils New Chips Prompting AI Stock Decline and Deal Uncertainty",
+      "urls": [
+        "https://www.youtube.com/watch?v=9798KEYcTm4",
+        "https://www.youtube.com/watch?v=XOA9q131W3w",
+        "https://www.youtube.com/watch?v=8B_Gese-bdI",
+        "https://www.youtube.com/watch?v=pKsEFQgpe-o",
+        "https://www.instagram.com/reel/DXr3CxqjV9f"
+      ],
+      "date": "2026-08-13T11:31:26.137281+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T11:01:49.854800+00:00"
+  "lastUpdated": "2026-08-13T11:31:26.137355+00:00"
 }
