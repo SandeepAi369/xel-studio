@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apps Publishes July Mega-Update Detailing Major Breakthroughs And Launches",
-      "urls": [
-        "https://www.globaltechcouncil.org/ai/100-things-google-announced-io-2026",
-        "https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches",
-        "https://aiflashreport.com/model-releases.html",
-        "https://launchaijam.com/new-ai-tools",
-        "https://www.aicritique.org/us/2026/07/02/ai-developments-in-june-2026-major-releases-products-research-and-policy",
-        "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements"
-      ],
-      "date": "2026-08-04T23:31:32.691539+00:00"
-    },
-    {
       "title": "U.S. Lawmakers Show Bipartisan Backing for Stricter AI Regulation Amid Growing Concerns",
       "urls": [
         "https://www.msn.com/en-us/news/politics/poll-finds-bipartisan-support-for-tighter-ai-regulation/ar-AA26OJ6H?ocid=BingNewsVerp",
@@ -4219,7 +4207,14 @@
         "https://www.forbes.com/sites/timkeary/2026/07/23/openais-hugging-face-breach-shows-frontier-ai-guardrails-are-failing"
       ],
       "date": "2026-08-14T23:01:36.422433+00:00"
+    },
+    {
+      "title": "Medical Technology Health Research Discovery News — Latest Developments and Key Updates",
+      "urls": [
+        "https://distance.physiology.med.ufl.edu/about/articles/7-medical-sciences-trends-shaping-healthcare-in-2026"
+      ],
+      "date": "2026-08-14T23:31:34.906698+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T23:01:36.422500+00:00"
+  "lastUpdated": "2026-08-14T23:31:34.906761+00:00"
 }
