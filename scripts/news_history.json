@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Esports.net Expands Daily Coverage to Deliver Real‑Time Competitive Gaming Updates",
-      "urls": [
-        "https://www.esports.net/news"
-      ],
-      "date": "2026-08-04T03:31:27.035949+00:00"
-    },
-    {
       "title": "Mistral 3 Launches Open‑Source Guide Detailing Model Architecture And Community Access",
       "urls": [
         "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026"
@@ -4184,7 +4177,23 @@
         "https://www.unrefugees.org/emergencies/ukraine"
       ],
       "date": "2026-08-14T03:01:44.400513+00:00"
+    },
+    {
+      "title": "Stanford Demonstrates Twisted Light Quantum Chip Operating Without Extreme Cooling",
+      "urls": [
+        "https://gilkut.net/quantum-computing/quantum-news/latest-breakthroughs-in-quantum-computing",
+        "https://quantumzeitgeist.com/category/quantum-research-news",
+        "https://quantumzeitgeist.com",
+        "https://www.sciencedaily.com/news/matter_energy/quantum_computing",
+        "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
+        "https://link.springer.com/subjects/quantum-computing",
+        "https://news.mit.edu/topic/quantum-computing",
+        "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions",
+        "https://www.youtube.com/watch?v=nJvNLFo_HSo"
+      ],
+      "date": "2026-08-14T03:31:29.040449+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T03:01:44.400590+00:00"
+  "lastUpdated": "2026-08-14T03:31:29.040515+00:00"
 }
