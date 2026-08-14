@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "European Union Unveils New Migration Policy Aiming to Coordinate Asylum Efforts Across Member States",
-      "urls": [
-        "https://www.concern.net/news/largest-refugee-crises",
-        "https://www.unhcr.org/us/global-trends",
-        "https://www.youtube.com/watch?v=CilYWeF3ZGI",
-        "https://www.facebook.com/InfoMigrants/videos/on-february-23-2026-the-council-of-the-european-union-approved-a-list-of-seven-s/973937268507872",
-        "https://www.youtube.com/watch?v=mKSYCG8P-m4"
-      ],
-      "date": "2026-08-04T01:01:41.333585+00:00"
-    },
-    {
       "title": "DeepMind Unveils Gemini 3 Model to Accelerate Scientific Research and Boost Data Analysis",
       "urls": [
         "https://skycrumbs.com/blog/google-deepmind-2026",
@@ -4200,7 +4189,14 @@
         "https://www.youtube.com/watch?v=bbyaqGfWfy8"
       ],
       "date": "2026-08-14T01:01:40.471423+00:00"
+    },
+    {
+      "title": "Science Times Highlights Breakthrough Medical Technologies Transforming Patient Care Worldwide",
+      "urls": [
+        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm"
+      ],
+      "date": "2026-08-14T01:31:23.311895+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T01:01:40.471484+00:00"
+  "lastUpdated": "2026-08-14T01:31:23.311980+00:00"
 }
