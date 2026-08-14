@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "IOM Unveils Plan To Aid 22 Million Crisis‑Affected People Across 32 Countries",
-      "urls": [
-        "https://www.youtube.com/watch?v=S6jBYbC_Ol0",
-        "https://www.youtube.com/watch?v=IammWgU1YUI",
-        "https://www.iom.int/news/iom-unveils-2026-plans-reach-22-million-crisis-across-32-countries"
-      ],
-      "date": "2026-08-04T12:01:36.927170+00:00"
-    },
-    {
       "title": "YouTube Releases Efootball 2026 Update Preview Video Prompting Fan Discussion",
       "urls": [
         "https://www.youtube.com/watch?v=Rht5ye3Vw-A"
@@ -4193,7 +4184,14 @@
         "https://www.reuters.com/legal/government/anthropic-donate-20-million-us-political-group-that-supports-ai-regulation-2026-07-22"
       ],
       "date": "2026-08-14T11:31:28.544912+00:00"
+    },
+    {
+      "title": "World Cup Expansion Raises Climate Cost as Emissions Set To Soar",
+      "urls": [
+        "https://www.reuters.com/business/environment/climate-cost-expanded-world-cup-under-scrutiny-emissions-set-soar-2026-06-09"
+      ],
+      "date": "2026-08-14T12:01:43.738691+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T11:31:28.544973+00:00"
+  "lastUpdated": "2026-08-14T12:01:43.738763+00:00"
 }
