@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Checkmarx Highlights Top Twelve AI Developer Tools Shaping 2026 Software Security",
-      "urls": [
-        "https://checkmarx.com/learn/ai-security/top-12-ai-developer-tools-in-2026-for-security-coding-and-quality",
-        "https://www.cortex.io/post/the-engineering-leaders-guide-to-ai-tools-for-developers-in-2026",
-        "https://www.reddit.com/r/webdev/comments/1r36elk/ok_its_2026_what_are_the_ai_gains",
-        "https://www.reddit.com/r/BetterOffline/comments/1ppm2c1/ai_wont_replace_developers_in_2026",
-        "https://www.reddit.com/r/GithubCopilot/comments/1nhju40/what_is_the_best_ai_engine_for_programming_in",
-        "https://ai-neural.lovable.app/article/ai-coding-tools-best-guide-2026",
-        "https://www.youtube.com/watch?v=IrNekpJn2x8"
-      ],
-      "date": "2026-08-04T06:01:37.983218+00:00"
-    },
-    {
       "title": "Apollo Global Management Publishes 2026 Clean Energy and Climate Tech Market Predictions",
       "urls": [
         "https://www.apollo.com/institutional/insights-news/insights/expert-briefing/2026/01/2026-prediction-for-clean-energy--clean-tech--climate-tech--sustainability-markets",
@@ -4203,7 +4190,14 @@
         "https://www.citizensvoice.com/2026/06/23/visually-impaired-students-to-be-wilkes-barre-city-summer-employees"
       ],
       "date": "2026-08-14T05:31:23.039539+00:00"
+    },
+    {
+      "title": "Google Cloud Unveils Latest AI Infrastructure Enhancements in Monthly Blog Update",
+      "urls": [
+        "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month"
+      ],
+      "date": "2026-08-14T06:01:46.677151+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T05:31:23.039625+00:00"
+  "lastUpdated": "2026-08-14T06:01:46.677231+00:00"
 }
