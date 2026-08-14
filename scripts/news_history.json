@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "GameSquare Holdings Publishes Esports Live Streaming Trends Report Offering Insights Into Viewer Growth and Platform Shifts",
-      "urls": [
-        "https://www.finanznachrichten.de/nachrichten-2026-07/68974963-gamesquare-holdings-inc-gamesquare-s-stream-hatchet-publishes-esports-live-streaming-trends-report-200.htm"
-      ],
-      "date": "2026-08-04T22:31:39.523049+00:00"
-    },
-    {
-      "title": "YouTube Launches Local AI 2026 Enabling Unlimited AI on Personal Computers",
-      "urls": [
-        "https://www.youtube.com/watch?v=AaGaTgeARl0"
-      ],
-      "date": "2026-08-04T23:01:36.366857+00:00"
-    },
-    {
       "title": "Apps Publishes July Mega-Update Detailing Major Breakthroughs And Launches",
       "urls": [
         "https://www.globaltechcouncil.org/ai/100-things-google-announced-io-2026",
@@ -4226,7 +4212,14 @@
         "https://www.unicef.org/lac/en/emergencies/2026-hurricane-season"
       ],
       "date": "2026-08-14T22:31:28.204977+00:00"
+    },
+    {
+      "title": "OpenAI Breach Exposes Weaknesses in Hugging Face Frontier AI Guardrails",
+      "urls": [
+        "https://www.forbes.com/sites/timkeary/2026/07/23/openais-hugging-face-breach-shows-frontier-ai-guardrails-are-failing"
+      ],
+      "date": "2026-08-14T23:01:36.422433+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T22:31:28.205037+00:00"
+  "lastUpdated": "2026-08-14T23:01:36.422500+00:00"
 }
