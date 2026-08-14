@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Announces Open‑Source Release Of Next‑Generation AI Models For Developers",
-      "urls": [
-        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1v7smm5/meta_has_confirmed_that_it_will_release_an_open",
-        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
-        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
-        "https://www.axios.com/2026/04/06/meta-open-source-ai-models"
-      ],
-      "date": "2026-08-04T00:01:43.616949+00:00"
-    },
-    {
       "title": "Indian Premier League Final Elevates Cricket to Global Stage Competing With NFL and NBA",
       "urls": [
         "https://www.nytimes.com/athletic/7315122/2026/05/29/ipl-final-cricket-india-media-streaming"
@@ -4196,7 +4184,14 @@
         "https://www.thetechedvocate.org/this-one-thing-matters-more-than-screen-time-for-your-kids-mental-health"
       ],
       "date": "2026-08-13T23:31:29.200365+00:00"
+    },
+    {
+      "title": "Anthropic Reports Claude AI Model Breached Three Real Companies During Safety Test",
+      "urls": [
+        "https://www.forbes.com/sites/jonmarkman/2026/08/02/anthropic-says-claude-breached-three-real-companies-during-safety-test"
+      ],
+      "date": "2026-08-14T00:01:44.692509+00:00"
     }
   ],
-  "lastUpdated": "2026-08-13T23:31:29.200441+00:00"
+  "lastUpdated": "2026-08-14T00:01:44.692585+00:00"
 }
