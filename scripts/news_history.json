@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT-5.6 Model and Previews GPT-6 Features in Latest Update",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://www.youtube.com/watch?v=4zoHd8OrYBI",
-        "https://www.youtube.com/watch?v=DbciOS1UJNM",
-        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
-        "https://www.youtube.com/watch?v=RspKXuNi_iE",
-        "https://releasebot.io/updates/openai"
-      ],
-      "date": "2026-08-04T18:01:42.399771+00:00"
-    },
-    {
-      "title": "Intel Joins OCUDU Ecosystem Foundation as Premier Member to Boost Open Source RAN Collaboration",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/08/04/10424969.htm"
-      ],
-      "date": "2026-08-04T18:31:38.606100+00:00"
-    },
-    {
       "title": "Taipei Connects AI Healthcare Ecosystem With Japan’s Kansai Region Showcasing Fifteen Companies",
       "urls": [
         "https://www.msn.com/en-in/health/health-news/et-health-conclave-2026-healthcare-leaders-reimagine-the-future-of-medicine-through-innovation-prevention-and-technology/ar-AA29n8qG?ocid=BingNewsVerp",
@@ -4221,7 +4202,15 @@
         "https://www.msn.com/en-in/news/other/parliament-panel-suggests-broadening-of-renewable-energy-strategy-beyond-overwhelming-focus-on-solar-power/ar-AA29Z9KX?ocid=BingNewsVerp"
       ],
       "date": "2026-08-14T18:01:38.090858+00:00"
+    },
+    {
+      "title": "United States Report Lists Top Ten States Facing Extreme Weather",
+      "urls": [
+        "https://www.seattlepi.com/news/when-disaster-recovery-becomes-a-way-of-life-a22342933",
+        "https://www.msn.com/en-us/weather/topstories/top-10-states-facing-extreme-weather-and-significant-natural-disasters/vi-AA28S9E9?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-14T18:32:03.195594+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T18:01:38.090931+00:00"
+  "lastUpdated": "2026-08-14T18:32:03.195654+00:00"
 }
