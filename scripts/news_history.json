@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Labs Leverages AI and Laser Beams to Achieve Major Computing Breakthrough",
-      "urls": [
-        "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
-        "https://phys.org/news/2024-11-laser-quantum-breakthrough.html?loadCommentsForm=1"
-      ],
-      "date": "2026-08-04T17:02:14.204872+00:00"
-    },
-    {
       "title": "Gaming News 2026 Highlights Major Esports Announcements and Industry Shifts",
       "urls": [
         "https://factdraft.com/gaming-news-2026-top-announcements-and-industry-shifts",
@@ -4218,7 +4210,15 @@
         "https://www.sciencedaily.com"
       ],
       "date": "2026-08-14T17:01:41.049076+00:00"
+    },
+    {
+      "title": "University of Pittsburgh Showcases Wheelchair With Integrated Robotic Arm Advancing Assistive Mobility",
+      "urls": [
+        "https://www.wgbh.org/news/local/2026-07-14/disability-advocates-rally-in-boston-for-faster-wheelchair-repairs",
+        "https://www.msn.com/en-us/news/technology/innovative-wheelchair-technology-pitt-showcases-wheelchair-with-robotic-arm/vi-AA28Eyei?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-14T17:31:27.217722+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T17:01:41.049147+00:00"
+  "lastUpdated": "2026-08-14T17:31:27.217787+00:00"
 }
