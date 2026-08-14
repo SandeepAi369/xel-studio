@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenLoop Health Publishes June 2026 Digital Health Trends Blog Highlighting Emerging Technologies",
-      "urls": [
-        "https://openloophealth.com/blog/digital-health-trends-news-June-2026"
-      ],
-      "date": "2026-08-04T21:31:28.397344+00:00"
-    },
-    {
       "title": "2026 Winter Olympics Medal Table Shows Nations Ranked by Gold Medal Totals",
       "urls": [
         "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table"
@@ -4215,7 +4208,14 @@
         "https://www.forbes.com/sites/lanceeliot/2026/08/12/us-mental-health-pledge-ai"
       ],
       "date": "2026-08-14T21:02:15.088437+00:00"
+    },
+    {
+      "title": "NBC News Launches Dedicated Online Portal for 2026 Midterm Elections",
+      "urls": [
+        "https://www.nbcnews.com/politics/2026-election"
+      ],
+      "date": "2026-08-14T21:31:30.910974+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T21:02:15.088509+00:00"
+  "lastUpdated": "2026-08-14T21:31:30.911038+00:00"
 }
