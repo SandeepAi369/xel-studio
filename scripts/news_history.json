@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Premier League Final Elevates Cricket to Global Stage Competing With NFL and NBA",
-      "urls": [
-        "https://www.nytimes.com/athletic/7315122/2026/05/29/ipl-final-cricket-india-media-streaming"
-      ],
-      "date": "2026-08-04T00:31:28.570187+00:00"
-    },
-    {
       "title": "European Union Unveils New Migration Policy Aiming to Coordinate Asylum Efforts Across Member States",
       "urls": [
         "https://www.concern.net/news/largest-refugee-crises",
@@ -4191,7 +4184,15 @@
         "https://www.forbes.com/sites/jonmarkman/2026/08/02/anthropic-says-claude-breached-three-real-companies-during-safety-test"
       ],
       "date": "2026-08-14T00:01:44.692509+00:00"
+    },
+    {
+      "title": "U.S. News Outlines Recession 2026 Warning Signs and Preparation Strategies",
+      "urls": [
+        "https://money.usnews.com/investing/articles/recession-2026-what-to-watch-how-to-prepare",
+        "https://www.reuters.com/markets/econ-world"
+      ],
+      "date": "2026-08-14T00:31:47.715491+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T00:01:44.692585+00:00"
+  "lastUpdated": "2026-08-14T00:31:47.715573+00:00"
 }
