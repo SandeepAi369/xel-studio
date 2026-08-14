@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Resources Institute Publishes Climate Change Research Updates for Global Stakeholders",
-      "urls": [
-        "https://www.wri.org/climate-change-news",
-        "https://www.sciencedaily.com/news/earth_climate",
-        "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026",
-        "https://link.springer.com/subjects/climate-change"
-      ],
-      "date": "2026-08-04T02:31:33.691436+00:00"
-    },
-    {
-      "title": "OneTrust and Harvard Kennedy School Highlight Global Privacy Enforcement Trends for 2026",
-      "urls": [
-        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
-        "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/defending-privacy-digital-age-reflections-data"
-      ],
-      "date": "2026-08-04T03:01:35.617402+00:00"
-    },
-    {
       "title": "Esports.net Expands Daily Coverage to Deliver Real‑Time Competitive Gaming Updates",
       "urls": [
         "https://www.esports.net/news"
@@ -4194,7 +4176,15 @@
         "https://www.msn.com/en-us/health/wellness/faith-purpose-and-healthier-digital-habits-linked-to-better-mental-health/ar-AA29XJlq?ocid=BingNewsVerp"
       ],
       "date": "2026-08-14T02:31:28.079629+00:00"
+    },
+    {
+      "title": "Concern Worldwide Highlights Top Refugee Crises in 2026 Amid Ongoing Global Displacement",
+      "urls": [
+        "https://www.concern.net/news/largest-refugee-crises",
+        "https://www.unrefugees.org/emergencies/ukraine"
+      ],
+      "date": "2026-08-14T03:01:44.400513+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T02:31:28.079675+00:00"
+  "lastUpdated": "2026-08-14T03:01:44.400590+00:00"
 }
