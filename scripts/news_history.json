@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Shows Technology Transforming Sports On and Off the Field",
-      "urls": [
-        "https://www.youtube.com/watch?v=mITItMrmNmI",
-        "https://www.11alive.com/video/tech/technology-transforms-sports-on-and-off-the-field/85-8702ecee-d6cd-437c-b52d-e80653f770c7"
-      ],
-      "date": "2026-08-04T16:31:30.349606+00:00"
-    },
-    {
       "title": "Quantum Labs Leverages AI and Laser Beams to Achieve Major Computing Breakthrough",
       "urls": [
         "https://time.com/article/2026/04/07/ai-quantum-computing-advance",
@@ -4213,7 +4205,20 @@
         "https://www.espn.com/mma/schedule/_/league/ufc"
       ],
       "date": "2026-08-14T16:31:29.560283+00:00"
+    },
+    {
+      "title": "Trump Orders Pentagon to Redesign Aircraft Carrier Using Steam Catapults",
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/aug/13/trump-aircraft-carriers-steam-catapults",
+        "https://www.theguardian.com/politics/live/2026/aug/14/clacton-byelection-nigel-farage-count-binface-reform-uk-finances-donations-investigation-latest-news-updates",
+        "https://www.foxnews.com/politics/white-house-exposes-transshipment-scam-costing-us-26b-points-finger-china",
+        "https://www.foxnews.com/politics/wwii-memorial-vandalism-suspect-now-custody-charged-two-felonies-pirro-announces",
+        "https://www.dailymail.com/news/article-16050251/Karoline-Leavitt-Trump-truth-AI.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+        "https://www.sciencedaily.com"
+      ],
+      "date": "2026-08-14T17:01:41.049076+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T16:31:29.560354+00:00"
+  "lastUpdated": "2026-08-14T17:01:41.049147+00:00"
 }
