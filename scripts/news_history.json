@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Channel Rescue Saves Over 170 Migrants After Boat Fire Sparks Emergency Response",
-      "urls": [
-        "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
-        "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis",
-        "https://www.foxnews.com/travel/nationwide-power-failure-hits-caribbean-island-american-citizens-warned-prepare"
-      ],
-      "date": "2026-08-04T20:31:33.552987+00:00"
-    },
-    {
-      "title": "International Monetary Fund, OECD, and World Bank Warn of Global Economic Weakening Amid Energy Shock",
-      "urls": [
-        "https://www.imf.org/en/publications/weo",
-        "https://www.oecd.org/en/about/news/press-releases/2026/06/global-economic-outlook-weakens-amid-energy-shock-and-rising-inflationary-pressures.html",
-        "https://www.worldbank.org/en/publication/global-economic-prospects"
-      ],
-      "date": "2026-08-04T21:01:33.624183+00:00"
-    },
-    {
       "title": "OpenLoop Health Publishes June 2026 Digital Health Trends Blog Highlighting Emerging Technologies",
       "urls": [
         "https://openloophealth.com/blog/digital-health-trends-news-June-2026"
@@ -4226,7 +4208,14 @@
         "https://www.youtube.com/watch?v=0EV1QCaeuGo"
       ],
       "date": "2026-08-14T20:31:27.935683+00:00"
+    },
+    {
+      "title": "HHS Integrates AI Into National Mental Health Care Pledge to Advance Best Practices",
+      "urls": [
+        "https://www.forbes.com/sites/lanceeliot/2026/08/12/us-mental-health-pledge-ai"
+      ],
+      "date": "2026-08-14T21:02:15.088437+00:00"
     }
   ],
-  "lastUpdated": "2026-08-14T20:31:27.935747+00:00"
+  "lastUpdated": "2026-08-14T21:02:15.088509+00:00"
 }
