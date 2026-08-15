@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Phylo Teams With Chugai to Deploy AI Platform Accelerating Drug Discovery",
-      "urls": [
-        "https://www.pharmaceutical-technology.com/news/phylo-chugai-ai-platform-drug-discovery"
-      ],
-      "date": "2026-08-05T18:02:00.188938+00:00"
-    },
-    {
       "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
       "urls": [
         "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
@@ -4213,7 +4206,15 @@
         "https://www.forbes.com/sites/anjalichaudhry/2026/06/25/ai-for-climate-change-3-lessons-from-5-organizations-leading-the-way"
       ],
       "date": "2026-08-15T18:01:32.547626+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Spring 2026 Open‑Source Report Highlighting Top LLM Models",
+      "urls": [
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llms"
+      ],
+      "date": "2026-08-15T18:31:25.429329+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T18:01:32.547696+00:00"
+  "lastUpdated": "2026-08-15T18:31:25.429406+00:00"
 }
