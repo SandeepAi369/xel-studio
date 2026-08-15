@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Lawmakers Show Bipartisan Backing for Stricter AI Regulation Amid Growing Concerns",
-      "urls": [
-        "https://www.msn.com/en-us/news/politics/poll-finds-bipartisan-support-for-tighter-ai-regulation/ar-AA26OJ6H?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/red-tape-will-kill-the-next-ai-startup-and-big-tech-couldn-t-be-happier/ar-AA29nu1X?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/opinion/most-americans-want-ai-regulation-will-congress-listen-opinion/ar-AA29eJci?ocid=BingNewsVerp",
-        "https://www.msn.com/en-xl/technology/artificial-intelligence/trump-administration-presses-ai-accelerator-and-brake-simultaneously/ar-AA28f6XP?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-05T00:01:46.327471+00:00"
-    },
-    {
-      "title": "Gold Coast Marathon Features 52‑Year‑Old Runner Pursuing Historic Sub‑2:30 Finish",
-      "urls": [
-        "https://www.youtube.com/watch?v=jDI_JBEuwnI",
-        "https://www.youtube.com/watch?v=aI6xRB60szs"
-      ],
-      "date": "2026-08-05T00:31:35.453782+00:00"
-    },
-    {
       "title": "YouTube Showcases Cutting‑Edge Accessibility Innovations at CES 2026 Driving Inclusive Media",
       "urls": [
         "https://www.youtube.com/watch?v=b5DvFC4SaUE"
@@ -4226,7 +4208,16 @@
         "https://releasebot.io/updates/openai"
       ],
       "date": "2026-08-15T00:01:36.599664+00:00"
+    },
+    {
+      "title": "Sabastian Sawe Breaks Marathon World Record at London Marathon, Redefining Elite Running Standards",
+      "urls": [
+        "https://www.flotrack.org/articles/15834939-sabastian-sawe-assefa-set-world-records-london-marathon-2026-results",
+        "https://www.youtube.com/watch?v=dE35h8nOWsg",
+        "https://upbeatrun.com/marathon-statistics"
+      ],
+      "date": "2026-08-15T00:31:38.173289+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T00:01:36.599730+00:00"
+  "lastUpdated": "2026-08-15T00:31:38.173352+00:00"
 }
