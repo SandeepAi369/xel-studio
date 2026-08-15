@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Times of India Expands Live Sports Coverage Across Cricket, Football, and Major US Leagues",
-      "urls": [
-        "https://timesofindia.indiatimes.com/sports",
-        "https://www.outlookindia.com/sports"
-      ],
-      "date": "2026-08-05T12:32:38.148032+00:00"
-    },
-    {
       "title": "MEXC Highlights Hong Kong Web3 Conferences Driving Global Blockchain Event Surge in 2026",
       "urls": [
         "https://pony.studio/design-for-growth/top-crypto-blockchain-and-web3-events-2026",
@@ -4199,7 +4191,16 @@
         "https://www.wto.org/english/res_e/booksp_e/gtos0326_e.pdf"
       ],
       "date": "2026-08-15T12:31:53.366419+00:00"
+    },
+    {
+      "title": "Reddit Search Results Lack Details, Preventing Current News Article Development",
+      "urls": [
+        "https://www.reddit.com/r/spacex/comments/1taiuvf/rspacex_flight_12_official_launch_discussion",
+        "https://www.reddit.com/r/spacex/comments/1tkndtt/spacex_counting_down_to_our_second_launch_attempt",
+        "https://www.reddit.com/r/SpaceXMasterrace/comments/1td27iv/spacex_and_google_are_in_talks_to_launch_data"
+      ],
+      "date": "2026-08-15T13:01:32.179463+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T12:31:53.366472+00:00"
+  "lastUpdated": "2026-08-15T13:01:32.179538+00:00"
 }
