@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ChatGPT Leads Congressional AI Spending While Lawmakers Consider New Regulations",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/red-tape-will-kill-the-next-ai-startup-and-big-tech-couldn-t-be-happier/ar-AA29nu1X?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/markets/chatgpt-dominates-early-ai-spending-in-congress-as-lawmakers-weigh-regulation/ar-AA29iKsA?ocid=BingNewsVerp",
-        "https://www.msn.com/en-au/news/australia/china-cracks-down-on-ai-companions-forcing-millions-to-break-up-with-virtual-partners/ar-AA28deHG?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-05T15:31:32.910115+00:00"
-    },
-    {
       "title": "Malaysia Faces Pressure to Share Climate Refugee Responsibility Amid Growing Global Crisis",
       "urls": [
         "https://www.hrw.org/news/2026/08/04/malaysia-forcibly-returning-myanmar-refugees-risks-lives",
@@ -4209,7 +4200,14 @@
         "https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission"
       ],
       "date": "2026-08-15T15:31:26.009103+00:00"
+    },
+    {
+      "title": "World Trade Organization Launches Tech Day to Shape Inclusive AI Trade Policies",
+      "urls": [
+        "https://www.wto.org/english/news_e/news26_e/dtech_03aug26_471_e.htm"
+      ],
+      "date": "2026-08-15T16:01:38.799157+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T15:31:26.009176+00:00"
+  "lastUpdated": "2026-08-15T16:01:38.799232+00:00"
 }
