@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reddit Search Results Reveal No Content Across Three Listings In Database",
-      "urls": [
-        "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
-        "https://www.reddit.com/r/AIPulseDaily/comments/1q1a75a/welcome_to_2026_that_medical_ai_story_just_hit",
-        "https://www.reddit.com/r/Productivitycafe/comments/1qldweg/what_major_scientific_breakthrough_is_actually"
-      ],
-      "date": "2026-08-05T19:01:51.948428+00:00"
-    },
-    {
-      "title": "Anthropic Releases Global AI Models After Safety Concerns Over Claude Mythos",
-      "urls": [
-        "https://www.forbes.com/sites/jonmarkman/2026/04/08/what-is-claude-mythos-and-why-anthropic-wont-let-anyone-use-it",
-        "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release"
-      ],
-      "date": "2026-08-05T19:31:20.062357+00:00"
-    },
-    {
       "title": "Stream Hatchet Becomes Official Data Provider for 2026 Esports World Cup",
       "urls": [
         "https://www.usatoday.com/press-release/story/37435/stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup"
@@ -4214,7 +4197,18 @@
         "https://www.usatoday.com/press-release/story/40010/military-health-it-enters-its-post-ehr-era-as-ai-readiness-and-battlefield-care-drive-the-next-federal-technology-wave"
       ],
       "date": "2026-08-15T19:01:34.437191+00:00"
+    },
+    {
+      "title": "ByteDance Introduces Dreamina Seedance 2.0 AI Video Model for CapCut Users",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut",
+        "https://markets.businessinsider.com/news/stocks/pippit-launches-seedance-2-5-with-30-second-4k-ai-video-generation-and-advanced-creative-controls-1036435942",
+        "https://www.tmcnet.com/usubmit/2026/08/13/10430335.htm",
+        "https://www.tmcnet.com/usubmit/2026/08/14/10430582.htm",
+        "https://www.bloomberg.com/news/articles/2026-07-07/meta-debuts-new-ai-image-generation-model-inside-chatbot-instagram"
+      ],
+      "date": "2026-08-15T19:41:19.979376+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T19:01:34.437264+00:00"
+  "lastUpdated": "2026-08-15T19:41:19.979465+00:00"
 }
