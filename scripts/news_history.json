@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Malaysia Faces Pressure to Share Climate Refugee Responsibility Amid Growing Global Crisis",
-      "urls": [
-        "https://www.hrw.org/news/2026/08/04/malaysia-forcibly-returning-myanmar-refugees-risks-lives",
-        "https://www.msn.com/en-my/news/other/malaysia-should-not-shoulder-refugee-burden-alone-says-expert/ar-AA29kXQi?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/world/the-rising-tide-of-climate-refugees-a-crisis-without-borders/vi-AA26J5AS?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-05T16:01:40.057638+00:00"
-    },
-    {
       "title": "Wikipedia Launches 2026 UFC Overview Page Detailing Upcoming Fight Calendar",
       "urls": [
         "https://en.wikipedia.org/wiki/2026_in_UFC"
@@ -4207,7 +4198,14 @@
         "https://www.wto.org/english/news_e/news26_e/dtech_03aug26_471_e.htm"
       ],
       "date": "2026-08-15T16:01:38.799157+00:00"
+    },
+    {
+      "title": "Colombia Earthquake Leaves Over 200 Dead as Rescuers Struggle to Reach Epicenter",
+      "urls": [
+        "https://www.cnn.com/2026/08/11/world/live-news/colombia-earthquake-latest"
+      ],
+      "date": "2026-08-15T16:31:30.410051+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T16:01:38.799232+00:00"
+  "lastUpdated": "2026-08-15T16:31:30.410130+00:00"
 }
