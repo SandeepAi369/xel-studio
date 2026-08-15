@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Trade Organization Launches Global Trade and Tech Day to Advance Inclusive AI Trade",
-      "urls": [
-        "https://www.wto.org/spanish/news_s/news26_s/dtech_03aug26_471_s.htm",
-        "https://www.techuk.org/shaping-policy/internation-trade.html",
-        "https://www.youtube.com/watch?v=ZXcB0FlSeVg",
-        "https://www.youtube.com/watch?v=1KTRSF9BQZI",
-        "https://www.youtube.com/shorts/COlNCq0f-eE",
-        "https://www.wto.org/english/res_e/booksp_e/gtos0326_e.pdf",
-        "https://www.wto.org/english/news_e/news26_e/dtech_03aug26_471_e.htm",
-        "https://www.tralac.org/documents/news/7227-global-trade-update-january-2026-un-trade-and-development/file.html"
-      ],
-      "date": "2026-08-05T12:01:44.831639+00:00"
-    },
-    {
       "title": "Times of India Expands Live Sports Coverage Across Cricket, Football, and Major US Leagues",
       "urls": [
         "https://timesofindia.indiatimes.com/sports",
@@ -4195,7 +4181,15 @@
         "https://www.naijanews.com/2026/08/12/pdp-governorship-candidate-steps-down-backs-adeleke"
       ],
       "date": "2026-08-15T11:31:38.608003+00:00"
+    },
+    {
+      "title": "Healthcare IT News Highlights AI Strengthening Healthcare Backbone Through Data Integration and Clinical Support",
+      "urls": [
+        "https://www.healthcareitnews.com/video/emea/how-ai-can-strengthen-healthcares-backbone",
+        "https://sidebench.com/ai-healthcare-future-holds"
+      ],
+      "date": "2026-08-15T12:01:47.216660+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T11:31:38.608079+00:00"
+  "lastUpdated": "2026-08-15T12:01:47.216730+00:00"
 }
