@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Elephant Robotics Showcases Open Robotics Platforms And Embodied AI At IROS 2026",
-      "urls": [
-        "https://www.oklahoman.com/press-release/story/209854/elephant-robotics-brings-open-robotics-platforms-and-embodied-ai-innovations-to-iros-2026",
-        "https://www.techtimes.com/articles/318805/20260621/automate-2026-opens-monday-nvidia-pavilion-marks-humanoid-robot-shift-production.htm",
-        "https://247wallst.com/investing/2026/08/05/elon-musk-predicts-money-wont-matter-in-2036-is-this-his-worst-prediction-yet-or-prophetic"
-      ],
-      "date": "2026-08-05T23:03:04.867627+00:00"
-    },
-    {
-      "title": "Generative AI Accelerates Drug Discovery, Transforming Pharmaceutical Research and Development",
-      "urls": [
-        "https://endpoints.news/topic-hub/ai-drug-discovery-news-analysis-and-interviews",
-        "https://www.globenewswire.com/news-release/2026/07/10/3325605/28124/en/generative-ai-in-drug-discovery-revolutionizing-pharmaceutical-research-and-development.html"
-      ],
-      "date": "2026-08-05T23:31:20.618083+00:00"
-    },
-    {
       "title": "Aubergine Solutions Highlights Leading AI Coding Tools Transforming Developer Workflows",
       "urls": [
         "https://www.aubergine.co/insights/top-ai-coding-design-tools-in-2026",
@@ -4218,7 +4201,16 @@
         "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01"
       ],
       "date": "2026-08-15T23:01:35.543432+00:00"
+    },
+    {
+      "title": "YouTube Introduces Draft AI Regulation Policy to Shape Platform Governance",
+      "urls": [
+        "https://www.youtube.com/watch?v=mjZevbgaFp4",
+        "https://www.youtube.com/watch?v=Ix0nWWQYrMs",
+        "https://www.youtube.com/watch?v=UtC6fsz9UZc"
+      ],
+      "date": "2026-08-15T23:31:38.870630+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T23:01:35.543516+00:00"
+  "lastUpdated": "2026-08-15T23:31:38.870697+00:00"
 }
