@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Airborne Plastic Increases Climate Warming, Study Shows Global Impact Through Sunlight Absorption",
-      "urls": [
-        "https://today.duke.edu/2026/07/airborne-plastic-has-climate-warming-effect",
-        "https://www.msn.com/en-ca/weather/topstories/donald-trump-blames-canada-for-wildfire-smoke-but-global-warming-is-loading-the-wildfire-dice/ar-AA28Sqj0?ocid=BingNewsVerp",
-        "https://www.sciencedaily.com/releases/2026/07/260713000809.htm"
-      ],
-      "date": "2026-08-05T14:33:01.154702+00:00"
-    },
-    {
       "title": "Climate Tech Startups Drive $2.3 Trillion Energy Transition Across Global Markets",
       "urls": [
         "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners",
@@ -4206,7 +4197,15 @@
         "https://techstartups.com/2026/07/22/top-tech-news-today-july-22-2026-apple-anthropic-google-nvidia"
       ],
       "date": "2026-08-15T14:31:34.330672+00:00"
+    },
+    {
+      "title": "Novo Nordisk and AWS Launch AI Drug Discovery Hub to Accelerate Medicine Development",
+      "urls": [
+        "https://finance.yahoo.com/healthcare/articles/ai-drug-discovery-market-report-144500957.html",
+        "https://www.mobihealthnews.com/news/novo-nordisk-aws-launch-ai-drug-discovery-hub"
+      ],
+      "date": "2026-08-15T15:01:51.358197+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T14:31:34.330787+00:00"
+  "lastUpdated": "2026-08-15T15:01:51.358281+00:00"
 }
