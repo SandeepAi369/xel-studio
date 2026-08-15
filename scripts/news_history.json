@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thinking Machines Launches Inkling Multimodal Model Emphasizing Low Cost and Censorship Resistance",
-      "urls": [
-        "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
-        "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
-        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
-      ],
-      "date": "2026-08-05T18:31:41.327284+00:00"
-    },
-    {
       "title": "Reddit Search Results Reveal No Content Across Three Listings In Database",
       "urls": [
         "https://www.reddit.com/r/technology/comments/1qwnscm/2026_biotech_outlook_10_breakthrough_trends",
@@ -4214,7 +4205,16 @@
         "https://huggingface.co/blog/daya-shankar/open-source-llms"
       ],
       "date": "2026-08-15T18:31:25.429329+00:00"
+    },
+    {
+      "title": "PolyU Launches AI Virtual Patient Simulation System to Advance Precision Cancer Care",
+      "urls": [
+        "https://www.msn.com/en-in/health/health-news/et-health-conclave-2026-healthcare-leaders-reimagine-the-future-of-medicine-through-innovation-prevention-and-technology/ar-AA29n8qG?ocid=BingNewsVerp",
+        "https://www.news-medical.net/news/20260814/PolyU-develops-AI-Virtual-Patient-Simulation-System-for-precision-cancer-care.aspx",
+        "https://www.usatoday.com/press-release/story/40010/military-health-it-enters-its-post-ehr-era-as-ai-readiness-and-battlefield-care-drive-the-next-federal-technology-wave"
+      ],
+      "date": "2026-08-15T19:01:34.437191+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T18:31:25.429406+00:00"
+  "lastUpdated": "2026-08-15T19:01:34.437264+00:00"
 }
