@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Vows AI As Engine For Shared Prosperity Amid Growing Technology Divide",
-      "urls": [
-        "https://www.msn.com/en-us/news/technology/has-the-ai-race-shifted-from-us-vs-china-to-open-vs-closed/ar-AA29qdH7?ocid=BingNewsVerp",
-        "https://www.tmcnet.com/usubmit/2026/07/17/10416483.htm"
-      ],
-      "date": "2026-08-05T06:01:40.648024+00:00"
-    },
-    {
-      "title": "Team Rubicon Issues 2026 Hurricane Forecast Highlighting Fewer Storms but Elevated Risks",
-      "urls": [
-        "https://teamrubiconusa.org/news-and-stories/2026-hurricane-season-forecast",
-        "https://www.reddit.com/r/HurricaneFestival/comments/1n87b2n/lineup_2026?tl=de",
-        "https://www.reddit.com/r/downloadfestival/comments/1n86kud/hurricane_2026_first_announcement",
-        "https://www.reddit.com/r/southsidefestival/comments/1lhzl6r/acts_2026",
-        "https://www.reddit.com/r/preppers/comments/1rl1wh3/atlantic_hurricane_season_lesson_learned_in_2025"
-      ],
-      "date": "2026-08-05T06:31:27.123733+00:00"
-    },
-    {
       "title": "Hugging Face Publishes State of Open Source Report Highlighting Top LLM Models and Licensing Trends",
       "urls": [
         "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
@@ -4215,7 +4196,14 @@
         "https://aifundingtracker.com/ai-startup-funding-news-today"
       ],
       "date": "2026-08-15T06:01:33.822449+00:00"
+    },
+    {
+      "title": "Nvidia Forms Industry Alliance to Strengthen Open AI Security After Hugging Face Hack",
+      "urls": [
+        "https://www.msn.com/en-ca/money/topstories/nvidia-forms-industry-alliance-for-open-ai-security-after-hugging-face-hack/ar-AA28Ostw?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-15T06:31:44.211095+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T06:01:33.822511+00:00"
+  "lastUpdated": "2026-08-15T06:31:44.211163+00:00"
 }
