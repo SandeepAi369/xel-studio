@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Publishes State of Open Source Report Highlighting Top LLM Models and Licensing Trends",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://huggingface.co",
-        "https://huggingface.co/papers/trending"
-      ],
-      "date": "2026-08-05T07:01:43.268058+00:00"
-    },
-    {
       "title": "Telemedicine Advances Reshape Pharmaceutical Industry Through Digital Health Integration Future",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784"
@@ -4203,7 +4193,14 @@
         "https://www.msn.com/en-ca/money/topstories/nvidia-forms-industry-alliance-for-open-ai-security-after-hugging-face-hack/ar-AA28Ostw?ocid=BingNewsVerp"
       ],
       "date": "2026-08-15T06:31:44.211095+00:00"
+    },
+    {
+      "title": "Apollo Global Management Publishes 2026 Clean Energy Market Predictions for Investors",
+      "urls": [
+        "https://www.apollo.com/institutional/insights-news/insights/expert-briefing/2026/01/2026-prediction-for-clean-energy--clean-tech--climate-tech--sustainability-markets"
+      ],
+      "date": "2026-08-15T07:01:49.122606+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T06:31:44.211163+00:00"
+  "lastUpdated": "2026-08-15T07:01:49.122668+00:00"
 }
