@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Tech Startups Drive $2.3 Trillion Energy Transition Across Global Markets",
-      "urls": [
-        "https://www.bloomberg.com/features/2026-green-tech-startups-bnef-pioneer-award-winners",
-        "https://www.motherjones.com/politics/2026/04/iran-war-gas-diesel-prices-opportunity-clean-energy-climate-affordability-democrats-political-messaging"
-      ],
-      "date": "2026-08-05T15:02:17.843378+00:00"
-    },
-    {
       "title": "ChatGPT Leads Congressional AI Spending While Lawmakers Consider New Regulations",
       "urls": [
         "https://www.msn.com/en-us/news/technology/red-tape-will-kill-the-next-ai-startup-and-big-tech-couldn-t-be-happier/ar-AA29nu1X?ocid=BingNewsVerp",
@@ -4205,7 +4197,19 @@
         "https://www.mobihealthnews.com/news/novo-nordisk-aws-launch-ai-drug-discovery-hub"
       ],
       "date": "2026-08-15T15:01:51.358197+00:00"
+    },
+    {
+      "title": "Google Commits $40 Million to Genesis Mission Advancing Scientific Discovery",
+      "urls": [
+        "https://www.youtube.com/watch?v=n01-OaEiYzA",
+        "https://www.youtube.com/watch?v=g0UZT5n6Uf8",
+        "https://www.youtube.com/watch?v=z2MUcmJS3aI",
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+        "https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission"
+      ],
+      "date": "2026-08-15T15:31:26.009103+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T15:01:51.358281+00:00"
+  "lastUpdated": "2026-08-15T15:31:26.009176+00:00"
 }
