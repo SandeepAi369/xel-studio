@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Highlights Surge In Global Trade Activity Amid 2026 Policy Interventions",
-      "urls": [
-        "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2025/11/2026-Global-Trade-Report.pdf",
-        "https://www.maritimenews.com/geopolitics-and-global-trade/geopolitics-reshapes-global-trade-2026",
-        "https://unctad.org/system/files/official-document/ditcinf2025d11_en.pdf",
-        "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know",
-        "https://www.mckinsey.com/~/media/mckinsey/mckinsey%20global%20institute/our%20research/geopolitics%20and%20the%20geometry%20of%20global%20trade%202026%20update/geopolitics-and-the-geometry-of-global-trade-2026-update.pdf",
-        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf"
-      ],
-      "date": "2026-08-06T15:31:39.060991+00:00"
-    },
-    {
       "title": "EdTech Magazine Highlights AI Assistive Tools Boosting Inclusion in K‑12 Classrooms",
       "urls": [
         "https://www.youtube.com/watch?v=Hqk3C6JadnY",
@@ -4224,7 +4212,16 @@
         "https://humanoid.press"
       ],
       "date": "2026-08-16T15:31:28.970897+00:00"
+    },
+    {
+      "title": "Northampton Graduate Turns Student Project Into Smart Glasses for Visually Impaired",
+      "urls": [
+        "https://www.thehindu.com/news/national/andhra-pradesh/htbf-seeks-andhra-university-support-for-scholarship-outreach/article71301590.ece",
+        "https://www.msn.com/en-in/technology/tech-companies/jyoti-ai-vision-glasses-ai-powered-assistive-technologies-launched-to-aid-visually-impaired/ar-AA27BkVf?ocid=BingNewsVerp",
+        "https://www.msn.com/en-gb/health/other/from-student-project-to-life-changing-innovation-northampton-graduate-develops-smart-glasses-for-the-visually-impaired/ar-AA24V2QP?ocid=BingNewsVerp"
+      ],
+      "date": "2026-08-16T16:01:43.475230+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T15:31:28.970975+00:00"
+  "lastUpdated": "2026-08-16T16:01:43.475291+00:00"
 }
