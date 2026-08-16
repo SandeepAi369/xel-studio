@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "IMF Releases Mid‑Year Global Economic Outlook Highlighting Growth Uncertainty and Inflation Trends",
-      "urls": [
-        "https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf",
-        "https://statisticsoftheworld.com/world-economy",
-        "https://go.euromonitor.com/report-extract-2026-global-economic-update-midyear-outlook.html"
-      ],
-      "date": "2026-08-06T02:01:38.447878+00:00"
-    },
-    {
       "title": "Chief Healthcare Executive Highlights 26 Leaders' AI Predictions for 2026 Health Care",
       "urls": [
         "https://www.chiefhealthcareexecutive.com/view/ai-in-health-care-26-leaders-offer-predictions-for-2026",
@@ -4211,7 +4202,14 @@
         "https://adtools.org/buyers-guide/ai-news-mistral-3-open-source-model-release"
       ],
       "date": "2026-08-16T01:31:35.517179+00:00"
+    },
+    {
+      "title": "Stream Hatchet Becomes Official Data Provider for 2026 Esports World Cup",
+      "urls": [
+        "https://finance.yahoo.com/media-advertising/articles/stream-hatchet-named-data-provider-120000910.html"
+      ],
+      "date": "2026-08-16T02:01:59.035546+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T01:31:35.517250+00:00"
+  "lastUpdated": "2026-08-16T02:01:59.035586+00:00"
 }
