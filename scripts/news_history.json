@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "CSA Highlights Global Privacy Trends for 2026 Compliance and Enforcement",
-      "urls": [
-        "https://fpf.org/blog/2026-a-year-at-the-crossroads-for-global-data-protection-and-privacy",
-        "https://outsidethecase.org/digital-privacy-surveillance-guide",
-        "https://www.morganlewis.com/pubs/2026/03/cybersecurity-privacy-2026-enforcement-regulatory-trends",
-        "https://www.massnews.com/avoiding-government-surveillance-and-protecting-global-privacy-in-2026",
-        "https://cloudsecurityalliance.org/blog/2026/02/04/global-privacy-trends-and-best-practices-for-compliance-in-2026",
-        "https://www.newstrail.com/global-surveillance-and-privacy-loss-how-to-stay-secure-in-2026"
-      ],
-      "date": "2026-08-06T10:01:32.893720+00:00"
-    },
-    {
       "title": "Scientists Warn Global Warming Intensifies Summer Heat Ahead of El Nino Surge",
       "urls": [
         "https://apnews.com/article/warming-heat-climate-change-summer-el-nino-ffd31dd358a894667c63f4c0a21cd677"
@@ -4207,7 +4195,15 @@
         "https://www.11alive.com/video/tech/technology-transforms-sports-on-and-off-the-field/85-8702ecee-d6cd-437c-b52d-e80653f770c7"
       ],
       "date": "2026-08-16T09:31:42.077957+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Summer 2026 Open Models Report Highlighting Industry Trends",
+      "urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html"
+      ],
+      "date": "2026-08-16T10:02:57.656356+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T09:31:42.078030+00:00"
+  "lastUpdated": "2026-08-16T10:02:57.656420+00:00"
 }
