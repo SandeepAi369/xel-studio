@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Techie Tweetz Publishes Top Ten AI Development Tools for 2026",
-      "urls": [
-        "https://techietweetz.com/top-10-ai-tools-for-developers-in-2026",
-        "https://www.youtube.com/watch?v=lY9HAntz2tM"
-      ],
-      "date": "2026-08-06T23:14:50.430623+00:00"
-    },
-    {
       "title": "Open Source AI Community Releases 2026 Model Tracker and Leaderboard",
       "urls": [
         "https://aieducademy.org/blog/state-of-open-source-ai-2026",
@@ -4330,7 +4322,16 @@
         "https://www.tmcnet.com/usubmit/2026/08/11/10428822.htm"
       ],
       "date": "2026-08-16T23:01:32.088333+00:00"
+    },
+    {
+      "title": "Meta Expands Open-Source Llama Ecosystem to Challenge Closed AI Models",
+      "urls": [
+        "https://ai.meta.com/Open",
+        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
+        "https://loope.one/airobot/2026/01/10/metas-open-source-ai-strategy-2026-how-the-llama-ecosystem-is-reshaping-industry-dynamics-and-challenging-closed-ai-models"
+      ],
+      "date": "2026-08-16T23:31:35.300699+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T23:01:32.088391+00:00"
+  "lastUpdated": "2026-08-16T23:31:35.300772+00:00"
 }
