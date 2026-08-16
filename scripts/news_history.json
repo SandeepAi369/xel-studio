@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Red Hat Launches Asago Community to Automate AI Safety and Governance from Policy to Production",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/08/06/10426816.htm",
-        "https://www.intelligentcio.com/north-america/2026/08/04/red-hat-launches-asago-community-to-automate-ai-safety-and-governance-from-policy-to-production"
-      ],
-      "date": "2026-08-06T23:00:52.446587+00:00"
-    },
-    {
       "title": "Techie Tweetz Publishes Top Ten AI Development Tools for 2026",
       "urls": [
         "https://techietweetz.com/top-10-ai-tools-for-developers-in-2026",
@@ -4331,7 +4323,14 @@
         "https://www.theguardian.com/us-news/2026/jul/29/flash-floods-storms-us-weather"
       ],
       "date": "2026-08-16T22:31:24.177252+00:00"
+    },
+    {
+      "title": "Gregory Kurtzer Launches OpenWALDO Open Source AI Community to Foster Collaborative Development",
+      "urls": [
+        "https://www.tmcnet.com/usubmit/2026/08/11/10428822.htm"
+      ],
+      "date": "2026-08-16T23:01:32.088333+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T22:31:24.177304+00:00"
+  "lastUpdated": "2026-08-16T23:01:32.088391+00:00"
 }
