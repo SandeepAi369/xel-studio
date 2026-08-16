@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Aubergine Solutions Highlights Leading AI Coding Tools Transforming Developer Workflows",
-      "urls": [
-        "https://www.aubergine.co/insights/top-ai-coding-design-tools-in-2026",
-        "https://www.buildfastwithai.com/blogs/7-ai-tools-changed-developer-workflow-augustt-2026"
-      ],
-      "date": "2026-08-06T00:01:42.310780+00:00"
-    },
-    {
       "title": "Dana White Holds Live UFC News Conference on Facebook to Address Upcoming Fight Plans",
       "urls": [
         "https://www.facebook.com/ABCNews/videos/live-ufc-news-conference-ahead-of-white-house-event/1592244045661791"
@@ -4210,7 +4202,15 @@
         "https://www.youtube.com/watch?v=UtC6fsz9UZc"
       ],
       "date": "2026-08-15T23:31:38.870630+00:00"
+    },
+    {
+      "title": "Anthropic Tests Claude 6 Agents In Simulated Turf War To Assess Safety",
+      "urls": [
+        "https://www.youtube.com/watch?v=uPSgq2ZjxNM",
+        "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/anthropic-s-claude-agents-engage-in-simulated-turf-war"
+      ],
+      "date": "2026-08-16T00:01:46.576783+00:00"
     }
   ],
-  "lastUpdated": "2026-08-15T23:31:38.870697+00:00"
+  "lastUpdated": "2026-08-16T00:01:46.576844+00:00"
 }
