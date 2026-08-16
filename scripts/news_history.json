@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face CEO Says China Leads AI Race With Open Model Dominance",
-      "urls": [
-        "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html"
-      ],
-      "date": "2026-08-06T03:31:27.214877+00:00"
-    },
-    {
       "title": "Meta Llama 4 Open‑Source Release Spurs AI Ecosystem Shift Toward Community Models",
       "urls": [
         "https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026",
@@ -4216,7 +4209,14 @@
         "https://www.investopedia.com/market-update-after-a-big-jump-is-another-spacex-stock-milestone-in-view-spcx-12058899"
       ],
       "date": "2026-08-16T03:31:26.107424+00:00"
+    },
+    {
+      "title": "Nvidia And AMD Face Investor Scrutiny Over AI Chip Stock Outlook",
+      "urls": [
+        "https://intellectia.ai/blog/ai-chip-stocks-investment-july-2026"
+      ],
+      "date": "2026-08-16T04:01:35.842917+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T03:31:26.107486+00:00"
+  "lastUpdated": "2026-08-16T04:01:35.842971+00:00"
 }
