@@ -4311,7 +4311,19 @@
         "https://www.usatoday.com/press-release/story/37435/stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup"
       ],
       "date": "2026-08-16T21:31:31.924469+00:00"
+    },
+    {
+      "title": "Linuxiac Expands Linux News Coverage Across Multiple Open Source Platforms",
+      "urls": [
+        "https://linuxiac.com/category/news",
+        "https://itsfoss.com/news",
+        "https://linuxiac.com/category/news/software",
+        "https://fosspost.org",
+        "https://www.sourcetrail.com/software/linux-in-2026-from-ai-debates-to-kernel-security-and-distro-updates",
+        "https://lwn.net/daily"
+      ],
+      "date": "2026-08-16T22:01:38.659658+00:00"
     }
   ],
-  "lastUpdated": "2026-08-16T21:31:31.924521+00:00"
+  "lastUpdated": "2026-08-16T22:01:38.659720+00:00"
 }
