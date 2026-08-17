@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Silicon Valley Bank Publishes Future of Climate Tech Report Highlighting Emerging Solutions",
-      "urls": [
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
-        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-08-03/weekly",
-        "https://techvorta.com/climate-change-technology-solutions-2026"
-      ],
-      "date": "2026-08-07T15:01:59.448085+00:00"
-    },
-    {
-      "title": "Hugging Face CEO Calls for Stronger Safeguards After AI Model Breach",
-      "urls": [
-        "https://www.yahoo.com/news/politics/articles/hugging-face-ceo-cl-ment-131943499.html",
-        "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks",
-        "https://www.mcall.com/2026/07/22/openai-ai-models-hack-hugging-face-cyber-incident"
-      ],
-      "date": "2026-08-07T15:31:45.893309+00:00"
-    },
-    {
       "title": "Corporate Healthcare Embraces Wellness and Mental Health Programs to Boost Employee Well‑Being",
       "urls": [
         "https://www.cnn.com/2026/06/11/health/mental-health-adolescents-chatbot-ai-wellness",
@@ -4300,7 +4282,14 @@
         "https://electiontracker.live"
       ],
       "date": "2026-08-17T15:01:45.677224+00:00"
+    },
+    {
+      "title": "China International Fair for Trade in Services Showcases Global Service Partnerships",
+      "urls": [
+        "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/a-preview-of-highlights-of-the-2026-china-international-fair-for-trade-in-services-ciftis/2406637"
+      ],
+      "date": "2026-08-17T16:01:47.040087+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T15:01:45.677294+00:00"
+  "lastUpdated": "2026-08-17T16:01:47.040161+00:00"
 }
