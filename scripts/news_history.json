@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shakudo Blog Lists Top Nine Large Language Models as AI Community Tracks LLaMA Downloads",
-      "urls": [
-        "https://www.shakudo.io/blog/top-9-large-language-models",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1mxsmjz/a_timeline_i_made_of_the_most_downloaded"
-      ],
-      "date": "2026-08-07T23:01:38.536218+00:00"
-    },
-    {
       "title": "Cardio-Metabolic Healthcare Summit Concludes In Bangkok Highlighting Precision Medicine And AI Diagnostics",
       "urls": [
         "https://www.tmcnet.com/usubmit/2026/08/06/10426905.htm",
@@ -4241,7 +4233,14 @@
         "https://www.yahoo.com/news/science/articles/spacex-starship-scrub-nasa-administrators-113124054.html"
       ],
       "date": "2026-08-17T22:31:46.892338+00:00"
+    },
+    {
+      "title": "Dana White Holds Live UFC News Conference on Facebook for Upcoming Event Updates",
+      "urls": [
+        "https://www.facebook.com/ABCNews/videos/live-ufc-news-conference-ahead-of-white-house-event/1592244045661791"
+      ],
+      "date": "2026-08-17T23:01:50.855896+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T22:31:46.892416+00:00"
+  "lastUpdated": "2026-08-17T23:01:50.856003+00:00"
 }
