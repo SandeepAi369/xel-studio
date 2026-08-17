@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CanadianSME And Enabled Talent Launch Enable Accessibility Canada Inc To Advance Inclusion",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/canadiansme-and-enabled-talent-launch-enable-accessibility-canada-inc-1036364316"
-      ],
-      "date": "2026-08-07T11:02:51.226957+00:00"
-    },
-    {
       "title": "Open‑Source AI Explained By Software Engineering Researcher Clarifies Community Benefits",
       "urls": [
         "https://theconversation.com/what-is-open-source-ai-a-software-engineering-researcher-explains-236668",
@@ -4305,7 +4298,15 @@
         "https://endpoints.news/topic-hub/ai-drug-discovery-news-analysis-and-interviews"
       ],
       "date": "2026-08-17T11:02:01.982183+00:00"
+    },
+    {
+      "title": "Meta Accelerates AI Infrastructure Shift From Hybrid Cloud Toward On‑Premise Solutions",
+      "urls": [
+        "https://www.facebook.com/ubuntulinux/videos/ai-infrastructure-is-moving-fast-from-hybrid-cloud-and-sovereign-ai-to-agentic-a/1975326869840552",
+        "https://www.youtube.com/watch?v=HS_Jj5GR1rU"
+      ],
+      "date": "2026-08-17T11:31:29.677665+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T11:02:01.982245+00:00"
+  "lastUpdated": "2026-08-17T11:31:29.677731+00:00"
 }
