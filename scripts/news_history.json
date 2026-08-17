@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Surpasses TensorFlow with 85 Percent Research Share and 10 Percent Speed Edge",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026"
-      ],
-      "date": "2026-08-07T05:01:30.713640+00:00"
-    },
-    {
       "title": "D-Wave Unveils Quantum Error Correction Breakthrough Accelerating Fault‑Tolerant Computing Roadmap Towards Practical Gate‑Model Systems",
       "urls": [
         "https://lasvegassun.com/news/2026/aug/05/d-wave-demonstrates-major-hardware-breakthrough-fo",
@@ -4296,7 +4289,15 @@
         "https://enetpulse.com/biggest-sport-events-2026"
       ],
       "date": "2026-08-17T04:31:29.749280+00:00"
+    },
+    {
+      "title": "U.S.-Iran Conflict Timeline Shows Shift From Airstrikes To Peace Talks",
+      "urls": [
+        "https://time.com/article/2026/06/22/how-did-we-get-here-a-timeline-of-the-u-s--iran-war",
+        "https://www.detroitnews.com/story/news/world/2026/08/05/myanmar-civil-war-nears-rare-opening-talks-diplomacy-gains-ground/91181363007"
+      ],
+      "date": "2026-08-17T05:02:11.208970+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T04:31:29.749354+00:00"
+  "lastUpdated": "2026-08-17T05:02:11.209040+00:00"
 }
