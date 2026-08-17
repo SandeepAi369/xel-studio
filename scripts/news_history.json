@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "The World Now Launches Live Global Disaster Tracker Integrating USGS Volcano Updates",
-      "urls": [
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://www.usgs.gov/programs/VHP/volcano-updates"
-      ],
-      "date": "2026-08-07T06:31:35.361452+00:00"
-    },
-    {
       "title": "IMF Projects Slower Global Economic Output for 2026 Amid Ongoing Challenges",
       "urls": [
         "https://www.nytimes.com/2026/07/08/business/economy/imf-world-economy-inflation.html"
@@ -4304,7 +4296,14 @@
         "https://en.antaranews.com/news/425115/jambi-marks-global-tiger-day-with-conservation-call"
       ],
       "date": "2026-08-17T06:31:22.794356+00:00"
+    },
+    {
+      "title": "World Economic Forum Releases Monthly Must‑Read Trade Stories Highlighting Policy Surge",
+      "urls": [
+        "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know"
+      ],
+      "date": "2026-08-17T07:01:37.021911+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T06:31:22.794433+00:00"
+  "lastUpdated": "2026-08-17T07:01:37.021984+00:00"
 }
