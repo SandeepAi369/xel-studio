@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "D-Wave Unveils Quantum Error Correction Breakthrough Accelerating Fault‑Tolerant Computing Roadmap Towards Practical Gate‑Model Systems",
-      "urls": [
-        "https://lasvegassun.com/news/2026/aug/05/d-wave-demonstrates-major-hardware-breakthrough-fo",
-        "https://finance.yahoo.com/technology/ai/articles/qarakal-quantum-cuts-qubit-requirements-110000627.html"
-      ],
-      "date": "2026-08-07T05:31:38.348928+00:00"
-    },
-    {
       "title": "Low‑Level Clouds Amplify Global Warming, Study Shows Increased Climate Risk",
       "urls": [
         "https://www.theguardian.com/world/2026/aug/04/tuesday-briefing-inside-the-rights-heated-climate-denial-debate",
@@ -4306,7 +4298,14 @@
         "https://whill.inc/us/future-of-personal-mobility-trends-and-innovations-shaping-the-next-decade"
       ],
       "date": "2026-08-17T05:31:25.837828+00:00"
+    },
+    {
+      "title": "Nvidia Unveils New PC Chips to Strengthen Control Over Entire AI Stack",
+      "urls": [
+        "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html"
+      ],
+      "date": "2026-08-17T06:01:47.738648+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T05:31:25.837895+00:00"
+  "lastUpdated": "2026-08-17T06:01:47.738727+00:00"
 }
