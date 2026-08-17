@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "SportifyHQ Highlights 2026 Sports Trends Shaping Fan Experiences Across Worldwide",
-      "urls": [
-        "https://sportifyhq.com/articles/biggest-sports-trends-every-fan-should-know",
-        "https://www.cnn.com/sport",
-        "https://www.youtube.com/watch?v=3fRg62CewAI",
-        "https://enetpulse.com/biggest-sport-events-2026"
-      ],
-      "date": "2026-08-07T00:31:28.299643+00:00"
-    },
-    {
       "title": "YouTube Releases Video on Mobile Screen Readers to Boost Blind User Independence",
       "urls": [
         "https://www.youtube.com/watch?v=nw6-eDJXWzY",
@@ -4318,7 +4308,14 @@
         "https://resource.digen.ai/ai-video-generation-models-2026-future-explained"
       ],
       "date": "2026-08-17T00:01:57.871211+00:00"
+    },
+    {
+      "title": "Fox Sports Celebrates Memorable World Cup Moments Featuring Messi, Bellingham, Balogun",
+      "urls": [
+        "https://www.foxsports.com/stories/soccer/world-cup-usa-memories-spain-messi-bellingham-balogun"
+      ],
+      "date": "2026-08-17T00:31:34.008149+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T00:01:57.871269+00:00"
+  "lastUpdated": "2026-08-17T00:31:34.008255+00:00"
 }
