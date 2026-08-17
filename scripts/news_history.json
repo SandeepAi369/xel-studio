@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Confronts Triple Extreme Summer Weather Threats Amid Climate Change Concerns",
-      "urls": [
-        "https://www.reuters.com/business/environment/smoke-fire-floods-us-faces-triple-extreme-summer-weather-threats-2026-07-17",
-        "https://theconversation.com/how-do-scientists-know-if-climate-change-made-a-heat-wave-extreme-storm-or-wildfire-worse-288232"
-      ],
-      "date": "2026-08-07T10:31:26.908790+00:00"
-    },
-    {
       "title": "CanadianSME And Enabled Talent Launch Enable Accessibility Canada Inc To Advance Inclusion",
       "urls": [
         "https://markets.businessinsider.com/news/stocks/canadiansme-and-enabled-talent-launch-enable-accessibility-canada-inc-1036364316"
@@ -4296,7 +4288,14 @@
         "https://itcompare.pl/en-us/articles/195/neurodiversity-in-it-2026:-how-adhd-and-the-autism-spectrum-became-technical-recruitment-superpowers"
       ],
       "date": "2026-08-17T10:01:52.502734+00:00"
+    },
+    {
+      "title": "U.S. Geological Survey Expands Volcano Updates to Enhance Public Monitoring",
+      "urls": [
+        "https://www.usgs.gov/programs/VHP/volcano-updates"
+      ],
+      "date": "2026-08-17T10:31:46.691718+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T10:01:52.502814+00:00"
+  "lastUpdated": "2026-08-17T10:31:46.691802+00:00"
 }
