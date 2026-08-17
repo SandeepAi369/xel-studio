@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "IMF Projects Slower Global Economic Output for 2026 Amid Ongoing Challenges",
-      "urls": [
-        "https://www.nytimes.com/2026/07/08/business/economy/imf-world-economy-inflation.html"
-      ],
-      "date": "2026-08-07T07:01:41.123876+00:00"
-    },
-    {
-      "title": "YouTube Highlights AI Transforming Healthcare with Digital Health Breakthroughs and Future Predictions at CES 2026",
-      "urls": [
-        "https://www.youtube.com/watch?v=oPeJPs_wsFI",
-        "https://www.youtube.com/watch?v=VEk7SrR_xmQ",
-        "https://www.youtube.com/watch?v=M7viub_lZRQ",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439"
-      ],
-      "date": "2026-08-07T07:31:19.409556+00:00"
-    },
-    {
       "title": "Google Reshuffles AI Leadership as DeepMind Chief Moves to New Role",
       "urls": [
         "https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05",
@@ -4303,7 +4286,17 @@
         "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know"
       ],
       "date": "2026-08-17T07:01:37.021911+00:00"
+    },
+    {
+      "title": "Crescendo AI Highlights Surge Of Artificial Intelligence Innovations Transforming Healthcare",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.youtube.com/watch?v=mWaxeSDJY5Q",
+        "https://www.youtube.com/watch?v=9eBO5Tj26Eo",
+        "https://www.youtube.com/watch?v=AfxYwwWDak0"
+      ],
+      "date": "2026-08-17T07:31:31.989910+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T07:01:37.021984+00:00"
+  "lastUpdated": "2026-08-17T07:31:31.989976+00:00"
 }
