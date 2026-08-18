@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cardio-Metabolic Healthcare Summit Concludes In Bangkok Highlighting Precision Medicine And AI Diagnostics",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/08/06/10426905.htm",
-        "https://www.usatoday.com/press-release/story/39393/cardio-metabolic-healthcare-summit-2026-concludes-in-bangkok-highlighting-innovations-in-precision-medicine-and-ai-diagnostics",
-        "https://www.tmcnet.com/usubmit/2026/08/07/10427297.htm"
-      ],
-      "date": "2026-08-07T23:31:40.366201+00:00"
-    },
-    {
-      "title": "YaCy Expands Open-Source Search Engine Resources With Tutorials, Download Portal, Community Code, and Bugtracker",
-      "urls": [
-        "https://yacy.net/tutorials",
-        "https://yacy.net",
-        "https://community.searchlab.eu",
-        "https://github.com/yacy/yacy_search_server/commits/master",
-        "https://github.com/yacy/yacy_search_server/issues"
-      ],
-      "date": "2026-08-08T00:01:31.543248+00:00"
-    },
-    {
       "title": "Ethan Shuley Sets New Deseret News Half Marathon Record in Utah",
       "urls": [
         "https://www.msn.com/en-us/sports/other/he-ran-one-race-for-byu-now-ethan-shuley-has-set-a-new-deseret-news-half-marathon-record/ar-AA28D5j0?ocid=BingNewsVerp",
@@ -4250,7 +4230,18 @@
         "https://www.forbes.com/councils/forbestechcouncil/2026/08/07/insurer-mandated-gateway-ai-bots-deepening-the-mental-health-divide"
       ],
       "date": "2026-08-17T23:31:20.545159+00:00"
+    },
+    {
+      "title": "Anthropic Unveils 2026 Strategy Detailing AI System Plans and Public Transparency Commitments",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news",
+        "https://www.reddit.com/r/AISEOInsider/comments/1rwg1hl/anthropic_ai_2026_strategy_reveals_the_future_of",
+        "https://www.youtube.com/watch?v=VSLEGpCemtE",
+        "https://www.facebook.com/10NewsAU/videos/artificial-intelligence-giant-anthropic-has-admitted-its-ai-system-claude-has-es/1263356529108255"
+      ],
+      "date": "2026-08-18T00:01:39.692578+00:00"
     }
   ],
-  "lastUpdated": "2026-08-17T23:31:20.545254+00:00"
+  "lastUpdated": "2026-08-18T00:01:39.692639+00:00"
 }
