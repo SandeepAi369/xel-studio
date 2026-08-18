@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Shift From Local PCs to Azure in Open‑Source AI Development",
-      "urls": [
-        "https://www.youtube.com/watch?v=LDX-j3krr0I"
-      ],
-      "date": "2026-08-08T02:01:36.794881+00:00"
-    },
-    {
       "title": "Future Floods Threaten to Arrive in Clusters, Prompting New Risk Management Strategies",
       "urls": [
         "https://yaleclimateconnections.org/2026/08/the-floods-of-the-future-wont-come-one-at-a-time"
@@ -4242,7 +4235,15 @@
         "https://www.msn.com/en-us/news/technology/heres-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp"
       ],
       "date": "2026-08-18T01:31:39.320257+00:00"
+    },
+    {
+      "title": "PyTorch Leads AI Research While TensorFlow Trails by Ten Percent Training Speed Gap",
+      "urls": [
+        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026"
+      ],
+      "date": "2026-08-18T02:01:44.219764+00:00"
     }
   ],
-  "lastUpdated": "2026-08-18T01:31:39.320337+00:00"
+  "lastUpdated": "2026-08-18T02:01:44.219837+00:00"
 }
