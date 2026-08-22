@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gregory Kurtzer Launches OpenWALDO Collaborative Open Source AI Community Platform",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/rocky-linux-founder-gregory-kurtzer-builds-openwaldo-as-a-true-collaborative-open-source-community-for-ai-1036441799",
-        "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away",
-        "https://www.businessinsider.com/linux-creator-linus-torvalds-ai-holdouts-fork-off-2026-7"
-      ],
-      "date": "2026-08-12T11:01:55.260936+00:00"
-    },
-    {
       "title": "Hugging Face Switches to Chinese Open‑Source AI Model After Autonomous Cyber Attack",
       "urls": [
         "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense"
@@ -3058,7 +3049,82 @@
         "https://yabs.yandex.ru/count/WgeejI_zOoVX2LcL0kKK06FcaIcSK9yynHD7WG9NqPF2vxb102GSZvQEZ8w-0d4bdC09c1EeuXFW9h0di2UWJK2RWDOR9g0t0OLisIBWXJwVovqzs-_SUSEThz_nUiCTBZJFSQVpwRIZHTQVwX2IaOqZ96lIqTAHqP4FLGDhqSyHaZNfvsZfoEYe194HqZL4aRM4Z2Bga0aIH4P1IDOa6qP8G4yxOCgc1hjFOrqAfV93bWKCauvWq75S5X0k-nrxb-pP7HHN4mB6dWeKOrCLqzOBZ80n3ZkxDKT2AsDj18oLY9YDVGZx3rxlWMlYIOshj1-CR0DyiUZngU_ShcKCqN3YTsuxSrpgb4vjg7tdjzIketd-nFEdBSMdjpINsYnmi0-OLNb93A8tTc-ySKOikWJ8E9zlc6oydckpUoU06y01RE3gC66IPCFMrn7kSnh4JS2TJAjXRmBkP5eDsmuqQ6csFeFMPyZ6A0uUwc9pHUAgC6YzK-alq45u31Cki5cl6DcPYk1TsLhOMjX10u42ChEbmswkW2cOznYnZz4zZ9a250mv0umOFuFvdf2nuO80GF0X2qpN2cL6oS6ERfjwdjlaUcvpzx_H4-41_k4lvWBRm7g_rmRM-xc-XvRvxr_C1VxQ9M2FnfzT0lPeP9gPMMQPkVJwAKs-URkkwpfjjd0kSu92DpRfiQyZtEUyULdsPIz4srVcnn9uy4wRteVdlo6K6JcYM6RaoDPh9tZTFzd2D6I8boz33ezii21aW237WG6WEEPAfL8PmWuSMtlfG_ah26jMJLB9OI0Q_BLskV3OQa8FsM1F5SWURApkS69ogr8eMKGe832W50bKmGax-p75svoxja29hT4O3_KwDb-vsHqHUkhqTAX3lX0AwKmUDliCimkYEYOqcUCE~2"
       ],
       "date": "2026-08-22T10:32:25.903809+00:00"
+    },
+    {
+      "title": "U.S. Announces Generic Drug Tariffs, Prompting Alarm Among Indian Pharma Leaders",
+      "urls": [
+        "https://www.thehindu.com/business/Industry/indias-q1-pharma-exports-up-68-to-81bn-us-remains-largest-export-destination/article71341940.ece",
+        "https://pharmexcil.com/news_article",
+        "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
+        "https://www.investindia.gov.in/sector/pharmaceuticals",
+        "https://www.whalesbook.com/news/English/healthcarebiotech/Indian-Pharma-Diverges-CDMOs-Surge-US-Export-Risks-Mount/6a84242f041a92921605fd85",
+        "https://medicaldialogues.in/news/industry/pharma/indian-pharma-needs-to-go-beyond-generics-to-unlock-usd-130-billion-market-potential-experts-177387",
+        "https://www.fintechbiznews.com/govtregulators-ministers-secretaries/indias-pharma-exports-to-reach-us-50-bn-by-30",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7284150",
+        "https://www.techsciresearch.com/blog/how-india-became-the-biggest-exporter-of-generic-drugs/1320.html",
+        "https://www.eximpedia.app/blog/pharmaceutical-export-from-india",
+        "https://livealthbiopharma.com/blogs/pharmaceutical-exporters-in-india",
+        "https://www.hdfcfund.com/learn/deep-dives/tuesday-talking-point/new-drivers-export-growth-indian-pharma",
+        "https://www.eximpedia.app/blog/medicine-export-from-india",
+        "https://www.bain.com/insights/healing-the-world-a-roadmap-for-making-india-a-global-pharma-exports-hub",
+        "https://cen.acs.org/policy/trade/Indian-drugmakers-worry-tariffs/103/web/2025/08",
+        "https://www.seair.co.in/blog/medicine-export-from-india.aspx",
+        "https://www.newindianexpress.com/states/telangana/2026/Apr/05/indias-pharma-exports-hit-usd-2829-billion-growth-driven-by-generics-and-global-demand",
+        "https://www.cureton.in/list-of-medicines-exported-from-india",
+        "https://www.indianpharmapost.com/news/indias-pharma-exports-rise-68-to-usd-81-billion-in-q1-fy27-21351",
+        "https://www.ibef.org/industry/pharmaceutical-india",
+        "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
+        "https://www.msn.com/en-in/money/general/trump-s-generic-drug-tariff-bomb-why-it-s-not-good-news-for-india-s-pharma-giants/ar-AA28pXpX?ocid=BingNewsVerp",
+        "https://www.fortuneindia.com/india/india-likely-to-have-concerns-over-trumps-proposed-pharma-tariffs-says-marco-rubio/149710",
+        "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+        "https://thediplomat.com/2026/06/tariff-proof-but-not-china-proof-the-geopolitics-of-indias-pharma-power",
+        "https://www.ajmc.com/view/trump-announces-timeline-for-100-generic-drug-tariffs-beginning-in-2028-200-in-2029",
+        "https://time.com/article/2026/07/23/trump-generic-drug-tariff-prices-availability-impact",
+        "https://www.msn.com/en-in/money/general/trump-announces-steep-tariffs-on-generic-drug-imports-from-2028-india-pharma-exports-may-take-a-hit/ar-AA28qFgJ?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/health/health-news/us-bid-of-steep-tariff-on-generic-medicines-could-impact-india-gtri/ar-AA28ucZf?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/health/other/0-100-then-200-how-trump-s-new-generic-drug-tariff-plan-could-hit-india/ar-AA28qneC?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/India/donald-trump-s-200-tariffs-on-pharma-why-india-s-generic-medicines-could-still-remain-competitive/ar-AA28qOiP?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/India/trump-plans-to-slap-100-tariff-on-generic-drugs-from-2028-indian-firms-to-be-impacted/ar-AA28pG92?ocid=BingNewsVerp",
+        "https://www.pharmabiz.com/NewsDetails.aspx?aid=187878&sid=2",
+        "https://www.msn.com/en-in/money/general/india-s-pharmaceutical-exports-rise-6-8-in-q1-fy27-on-global-demand/ar-AA29WZRI?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/money/general/how-new-us-tariffs-on-generic-medicines-could-impact-india-s-pharma-industry/ar-AA28rZS5?ocid=BingNewsVerp",
+        "https://playwithstock.com/pharma-sector-analysis-india-us-tariff-2026",
+        "https://www.businesstoday.in/world/story/trump-announces-import-tariff-up-to-200-on-generic-drugs-after-2026-window-indias-9-7bn-exports-at-risk-544350-2026-07-22",
+        "https://pharmaceuticals.einnews.com/news/generic-drugs/india",
+        "https://govtschemes.org/trump-generic-medicines-tariff-2026-india-impact",
+        "https://www.hindustantimes.com/india-news/0-100-200-how-trump-latest-generic-medicines-tariffs-could-affect-india-pharmacy-of-the-world-drugs-101784693684789.html",
+        "https://www.hindustantimes.com/india-news/0-for-two-years-100-for-one-200-after-us-latest-tariff-move-over-generic-medicines-101784684085891.html",
+        "https://india-briefing.com/news/indias-critical-drug-exports-growth-2026-44509.html",
+        "https://indiamedicine.org?p=3562",
+        "https://www.newindianexpress.com/business/2025/Jul/23/indias-pharma-exports-rise-93-to-305-billion-in-fy25-complex-generics-and-global-expansion-drive-growth",
+        "https://economictimes.indiatimes.com/topic/pharmaceutical-industry",
+        "https://www.republicworld.com/world-news/trump-says-generic-drugs-to-face-no-us-tariffs-for-2-years-then-100-and-200-tariffs-later-2026-07-22-133048",
+        "https://www.ipa-india.org/wp-content/uploads/2025/02/Roadmap_for_Making_India_a_Global_Pharma_Exports_Hub.pdf",
+        "https://www.businesstoday.in/industry/pharma/story/indian-drug-exports-get-a-tariff-free-pass-in-the-us-470518-2025-04-03",
+        "https://economictimes.indiatimes.com/headlines.cms",
+        "https://indianexpress.com/article/explained/explained-economics/trump-generic-drug-tariffs-indian-pharma-us-impact-10798676",
+        "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/03/the-indian-pharma-sector-q3fy26.pdf",
+        "https://www.thehindubusinessline.com/economy/india-pharma-sector-shifts-from-generics-to-high-value-innovation-and-biologics/article71142055.ece",
+        "https://economictimes.indiatimes.com/topic/pharmaceutical-industry-news",
+        "https://www.fortuneindia.com/business-news/trump-unveils-phased-tariff-plan-for-generic-drugs-pharma-exporters-from-india-face-long-term-us-manufacturing-push/149491",
+        "https://www.ndtv.com/world-news/0-per-cent-100-per-cent-200-per-cent-trumps-new-generic-drug-tariff-plan-may-impact-india-11803770",
+        "https://www.outlookbusiness.com/economy-and-policy/how-donald-trump-pharmaceutical-generic-drugs-tariff-plan-can-impact-indian-medicine-manufacturing-and-exports",
+        "https://inductusglobal.com/wp-content/uploads/2025/08/Indias-Pharma-Export-Ecosystem-A-Report-by-Inductus-Global-1.pdf",
+        "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2025/07/the-indian-pharma-sector-q4fy25.pdf",
+        "https://pharma.economictimes.indiatimes.com/news/policy-and-regulations/india-us-trade-deal-generic-drugmakers-to-get-negotiated-outcome-in-section-232-probe/128033554",
+        "https://www.thehindubusinessline.com/economy/us-tariffs-on-pharmaceuticals-will-have-no-impact-on-indian-generics-drug-exporters-experts/article70096584.ece",
+        "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-generic-drug-tariffs-200-percent-india-pharmaceutical-exports-us-medicine-market-api-dependence-gtri-report/articleshow/132553749.cms",
+        "https://www.business-standard.com",
+        "https://www.pharmacy.biz/news/india-pharma-exports-generics-biosimilars-innovation",
+        "https://indianexpress.com/article/world/trump-tariffs-generic-medicine-imports-india-pharma-10797664",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026321831401.pdf",
+        "https://www.business-standard.com/economy/news/trump-s-200-tariff-plan-on-generic-drugs-what-it-means-for-india-126072200254_1.html",
+        "https://pharmalead.in/top-10-pharma-export-companies-in-india-2026",
+        "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2025/12/the-indian-pharma-sector-q2fy26.pdf",
+        "https://vajiramandravi.com/current-affairs/us-tariffs-on-india"
+      ],
+      "date": "2026-08-22T11:02:05.116263+00:00"
     }
   ],
-  "lastUpdated": "2026-08-22T10:32:25.903866+00:00"
+  "lastUpdated": "2026-08-22T11:02:05.116327+00:00"
 }
