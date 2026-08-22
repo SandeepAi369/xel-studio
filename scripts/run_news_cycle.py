@@ -1076,6 +1076,22 @@ LLM_PROVIDERS = [
         "supports_json_mode": False,
     },
     {
+        "name": "Groq/gpt-oss-120b (Key-3)",
+        "base_url": "https://api.groq.com/openai/v1",
+        "model": "openai/gpt-oss-120b",
+        "key_env": "GROQ_API_KEY_3",
+        "max_tokens": 4096,
+        "supports_json_mode": False,
+    },
+    {
+        "name": "Groq/gpt-oss-20b (Key-3)",
+        "base_url": "https://api.groq.com/openai/v1",
+        "model": "openai/gpt-oss-20b",
+        "key_env": "GROQ_API_KEY_3",
+        "max_tokens": 4096,
+        "supports_json_mode": False,
+    },
+    {
         "name": "Cerebras/llama3.1-8b",
         "base_url": "https://api.cerebras.ai/v1",
         "model": "llama3.1-8b",
@@ -1301,6 +1317,7 @@ def generate_news():
     # Validate that at least one LLM API key is available
     groq_key = os.environ.get("GROQ_API_KEY")
     groq_key_2 = os.environ.get("GROQ_API_KEY_2")
+    groq_key_3 = os.environ.get("GROQ_API_KEY_3")
     c_keys = [
         os.environ.get("CEREBRAS_API_KEY"),
         os.environ.get("CEREBRAS_API_KEY_2"),
@@ -1308,11 +1325,11 @@ def generate_news():
     ]
     has_cerebras = any(c_keys)
 
-    if not groq_key and not groq_key_2 and not has_cerebras:
+    if not groq_key and not groq_key_2 and not groq_key_3 and not has_cerebras:
         raise RuntimeError("No LLM API keys set (need GROQ_API_KEY or CEREBRAS_API_KEY)")
 
     available_providers = []
-    groq_count = sum(1 for k in [groq_key, groq_key_2] if k)
+    groq_count = sum(1 for k in [groq_key, groq_key_2, groq_key_3] if k)
     if groq_count:
         available_providers.append(f"Groq ({groq_count} keys: gpt-oss-120b, gpt-oss-20b)")
     if has_cerebras:
