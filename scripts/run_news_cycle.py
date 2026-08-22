@@ -1109,13 +1109,14 @@ TRANSIENT_HTTP_CODES = {429, 500, 502, 503}
 
 def call_llm_robust(system_prompt: str, user_prompt: str, task_name: str,
                     temperature: float = 0.4) -> str:
-    """Call LLM with multi-provider fallback chain.
+    """Call LLM with multi-provider instant rotation.
 
-    Provider chain: Groq gpt-oss-120b â Groq gpt-oss-20b â Cerebras (3 keys).
-    Smart error handling:
-      - 429 (Rate Limit): sleep 10s, retry same provider once
-      - 500/502/503 (Server): sleep 5s, retry same provider once
-      - 401/402/404 (Fatal): immediately break, switch to next provider
+    Provider chain: Groq gpt-oss-120b \u2192 gpt-oss-20b (Key-1) \u2192
+                    Groq gpt-oss-120b \u2192 gpt-oss-20b (Key-2) \u2192
+                    Cerebras llama3.1-8b (Key 1-3).
+
+    INSTANT ROTATION: Any error = immediately try next provider. Zero waiting.
+    The outer 60s retry loop handles cooldowns naturally.
     """
     last_error = None
 
@@ -1125,88 +1126,73 @@ def call_llm_robust(system_prompt: str, user_prompt: str, task_name: str,
             continue
 
         provider_name = provider["name"]
-        max_retries = 2  # 1 original + 1 retry for transient errors
+        try:
+            print(f"  \u26a1 {task_name}: {provider_name}...")
 
-        for attempt in range(max_retries):
-            try:
-                print(f"  â¡ {task_name}: {provider_name} (attempt {attempt + 1})...")
+            payload = {
+                "model": provider["model"],
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "temperature": temperature,
+                "max_tokens": provider["max_tokens"],
+            }
+            if provider["supports_json_mode"]:
+                payload["response_format"] = {"type": "json_object"}
 
-                payload = {
-                    "model": provider["model"],
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": user_prompt},
-                    ],
-                    "temperature": temperature,
-                    "max_tokens": provider["max_tokens"],
-                }
-                if provider["supports_json_mode"]:
-                    payload["response_format"] = {"type": "json_object"}
+            resp = requests.post(
+                f"{provider['base_url']}/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+                timeout=90,
+            )
 
-                resp = requests.post(
-                    f"{provider['base_url']}/chat/completions",
-                    headers={
-                        "Authorization": f"Bearer {api_key}",
-                        "Content-Type": "application/json",
-                    },
-                    json=payload,
-                    timeout=90,
-                )
+            # Any non-200 = instant rotation to next provider
+            if resp.status_code != 200:
+                error_msg = resp.text[:150]
+                print(f"  \u274c {provider_name}: HTTP {resp.status_code} \u2014 {error_msg}")
+                print(f"  \U0001f504 Instant switch to next provider...")
+                last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
+                continue  # next provider immediately
 
-                # ââ Smart error handling ââ
-                if resp.status_code in FATAL_HTTP_CODES:
-                    error_msg = resp.text[:200]
-                    print(f"  â {provider_name}: FATAL {resp.status_code} â {error_msg}")
-                    print(f"  ð Skipping {provider_name}, switching to next provider...")
-                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
-                    break  # break inner retry loop, go to next provider
+            # \u2500\u2500 Parse response \u2500\u2500
+            data = resp.json()
+            content = (data.get("choices", [{}])[0]
+                       .get("message", {})
+                       .get("content", "")
+                       .strip())
 
-                if resp.status_code in TRANSIENT_HTTP_CODES:
-                    wait = 10 if resp.status_code == 429 else 5
-                    print(f"  â ï¸ {provider_name}: {resp.status_code} â sleeping {wait}s...")
-                    time.sleep(wait)
-                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
-                    continue  # retry same provider
+            usage = data.get("usage", {})
+            reasoning = usage.get("completion_tokens_details", {}).get("reasoning_tokens", 0)
+            finish = data.get("choices", [{}])[0].get("finish_reason", "?")
 
-                if resp.status_code != 200:
-                    print(f"  â ï¸ {provider_name}: unexpected HTTP {resp.status_code}")
-                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
-                    break  # unknown error, try next provider
+            print(f"  \U0001f4ca Tokens: prompt={usage.get('prompt_tokens', 0)} "
+                  f"completion={usage.get('completion_tokens', 0)} "
+                  f"reasoning={reasoning} finish={finish}")
 
-                # ââ Parse response ââ
-                data = resp.json()
-                content = (data.get("choices", [{}])[0]
-                           .get("message", {})
-                           .get("content", "")
-                           .strip())
+            # Strip <think>...</think> blocks (reasoning models)
+            content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
 
-                usage = data.get("usage", {})
-                reasoning = usage.get("completion_tokens_details", {}).get("reasoning_tokens", 0)
-                finish = data.get("choices", [{}])[0].get("finish_reason", "?")
+            if not content:
+                print(f"  \u26a0\ufe0f {provider_name}: empty response \u2014 instant switch...")
+                last_error = ValueError(f"{provider_name}: empty response")
+                continue  # next provider immediately
 
-                print(f"  ð Tokens: prompt={usage.get('prompt_tokens', 0)} "
-                      f"completion={usage.get('completion_tokens', 0)} "
-                      f"reasoning={reasoning} finish={finish}")
+            print(f"  \u2705 {task_name} succeeded with {provider_name}")
+            return content
 
-                # Strip <think>...</think> blocks (qwen/reasoning models)
-                content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
-
-                if not content:
-                    print(f"  â ï¸ {provider_name}: empty response (reasoning used all tokens)")
-                    last_error = ValueError(f"{provider_name}: empty response")
-                    break  # try next provider
-
-                print(f"  â {task_name} succeeded with {provider_name}")
-                return content
-
-            except requests.exceptions.Timeout:
-                print(f"  â ï¸ {provider_name}: request timed out")
-                last_error = RuntimeError(f"{provider_name}: timeout")
-                break  # try next provider
-            except Exception as e:
-                print(f"  â ï¸ {provider_name}: {str(e)[:150]}")
-                last_error = e
-                break  # try next provider
+        except requests.exceptions.Timeout:
+            print(f"  \u26a0\ufe0f {provider_name}: timeout \u2014 instant switch...")
+            last_error = RuntimeError(f"{provider_name}: timeout")
+            continue  # next provider immediately
+        except Exception as e:
+            print(f"  \u26a0\ufe0f {provider_name}: {str(e)[:150]} \u2014 instant switch...")
+            last_error = e
+            continue  # next provider immediately
 
     raise ValueError(f"All providers exhausted for {task_name}: {str(last_error)[:150]}")
 
