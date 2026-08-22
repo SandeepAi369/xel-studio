@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Freenome Receives FDA Breakthrough Designation for SimpleScreen Lung Cancer Test",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/fda-grants-breakthrough-device-designation-to-freenome-s-blood-based-simplescreen-lung-cancer-screening-test-1036447533",
-        "https://www.forbes.com/sites/jessepines/2026/07/24/here-are-3-ai-companies-betting-they-can-replace-doctors"
-      ],
-      "date": "2026-08-12T19:01:46.254926+00:00"
-    },
-    {
       "title": "LTE S2 Surpasses Sora With Open‑Source AI Video Generation Efficiency",
       "urls": [
         "https://www.youtube.com/watch?v=Ih-SoOrvl4Q",
@@ -3867,7 +3859,18 @@
         "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai"
       ],
       "date": "2026-08-22T18:31:43.394681+00:00"
+    },
+    {
+      "title": "Boston University Partners With India To Advance Disease, Climate, And Sanitation Efforts",
+      "urls": [
+        "https://www.bu.edu/sph/news/articles/2026/sph-in-india-partnering-for-progress-on-disease-climate-and-sanitation",
+        "https://www.who.int/publications/i/item/9789292800178",
+        "https://iihmrdelhi.edu.in/blog/public-health-challenges-india-must-tackle-before-2030",
+        "https://etedge-insights.com/industry/healthcare/why-preventive-healthcare-must-become-indias-next-public-health-movement",
+        "https://www.nejm.org/doi/full/10.1056/NEJMra2607216"
+      ],
+      "date": "2026-08-22T19:02:04.663290+00:00"
     }
   ],
-  "lastUpdated": "2026-08-22T18:31:43.394744+00:00"
+  "lastUpdated": "2026-08-22T19:02:04.663347+00:00"
 }
