@@ -26,7 +26,11 @@ import cloudinary.uploader
 import firebase_admin
 from firebase_admin import credentials, firestore
 import requests
-from cerebras.cloud.sdk import Cerebras
+try:
+    from cerebras.cloud.sdk import Cerebras as CerebrasSDK
+    HAS_CEREBRAS_SDK = True
+except ImportError:
+    HAS_CEREBRAS_SDK = False
 
 
 # ─── Heartbeat Keep-Alive ────────────────────────────────────────
@@ -120,6 +124,14 @@ QUERY_BUCKETS = {
         "AI coding programming developer tools news",
         "AI image video generation model news",
         "cloud computing AI infrastructure updates",
+        # India Tech
+        "Indian startup ecosystem funding unicorn news",
+        "UPI digital India fintech payments technology news",
+        "ISRO space missions India satellite launch news",
+        "MeitY government technology policy India digital",
+        "India semiconductor chip manufacturing plant news",
+        "Infosys TCS Wipro Indian IT industry news",
+        "India AI research IIT technology innovation news",
     ],
 
     # ── Open Source AI ──
@@ -130,6 +142,9 @@ QUERY_BUCKETS = {
         "open source large language model release news",
         "Linux open source software community news",
         "open source AI framework PyTorch TensorFlow news",
+        # India Open Source
+        "India open source software community BharatGPT news",
+        "Indian developers open source AI contributions news",
     ],
 
     # ── Disability & Accessibility ──
@@ -142,6 +157,9 @@ QUERY_BUCKETS = {
         "deaf hearing impaired technology accessibility news",
         "wheelchair disability mobility technology innovation news",
         "autism neurodiversity technology support news",
+        # India Disability
+        "India disability rights accessibility government policy news",
+        "India assistive technology Divyang empowerment news",
     ],
 
     # ── Health ──
@@ -152,6 +170,11 @@ QUERY_BUCKETS = {
         "medical technology health research discovery news",
         "telemedicine digital health innovation news",
         "drug discovery AI pharmaceutical research news",
+        # India Health
+        "India healthcare Ayushman Bharat digital health mission news",
+        "AIIMS Indian medical research breakthrough news",
+        "India pharmaceutical generic drugs export news",
+        "India public health WHO disease prevention news",
     ],
 
     # ── Climate & Natural Disasters ──
@@ -163,6 +186,11 @@ QUERY_BUCKETS = {
         "renewable energy solar wind power news",
         "climate policy carbon emissions sustainability news",
         "wildlife conservation biodiversity environmental news",
+        # India Climate
+        "India renewable energy solar power transition news",
+        "Indian monsoon climate impact weather forecast news",
+        "India electric vehicle EV adoption policy news",
+        "India air pollution Delhi smog environment news",
     ],
 
     # ── World Affairs ──
@@ -174,6 +202,13 @@ QUERY_BUCKETS = {
         "war conflict peace diplomatic negotiations news",
         "election democracy political news today",
         "refugee migration humanitarian crisis news",
+        # India World
+        "Indian government policy budget announcements news",
+        "Supreme Court India latest rulings judgments news",
+        "RBI Reserve Bank India economy monetary policy news",
+        "India infrastructure development smart city project news",
+        "India foreign affairs diplomatic relations G20 news",
+        "India defence military DRDO technology news",
     ],
 
     # ── General / Business / Science ──
@@ -198,6 +233,13 @@ QUERY_BUCKETS = {
         "sports technology innovation performance analytics news",
         "marathon running athletics track field record news",
         "esports competitive gaming tournament championship news",
+        # India Sports
+        "India cricket BCCI team selection match news",
+        "Indian Premier League IPL cricket updates news",
+        "Indian Olympic athletes preparation training news",
+        "ISL Indian Super League football results news",
+        "India hockey badminton wrestling athletes news",
+        "Indian women sports achievements recognition news",
     ],
 }
 
@@ -219,26 +261,42 @@ ROTATION_ORDER = [
 ]
 
 
+DYNAMIC_SUFFIXES = [
+    "latest updates", "breaking developments", "news today",
+    "fresh announcements", "this week", "recent highlights",
+    "new developments", "key updates", "top stories",
+]
+
+
+def _add_dynamic_suffix(query: str) -> str:
+    """Append a dynamic suffix with month/year to make query unique and fresh."""
+    now = datetime.now(timezone.utc)
+    month_year = now.strftime("%B %Y")  # e.g. "August 2026"
+    suffix = random.choice(DYNAMIC_SUFFIXES)
+    return f"{query} {suffix} {month_year}"
+
+
 def pick_search_query() -> tuple[str, str]:
     """Pick a search query based on time-of-day rotation.
-    Returns (query, category_key)."""
+    Returns (query_with_dynamic_suffix, category_key)."""
     from datetime import datetime, timezone
     now = datetime.now(timezone.utc)
     # Slot index: each 30-min slot gets a category
     slot = (now.hour * 2 + (1 if now.minute >= 30 else 0)) % len(ROTATION_ORDER)
     category_key = ROTATION_ORDER[slot]
     queries = QUERY_BUCKETS[category_key]
-    query = random.choice(queries)
+    base_query = random.choice(queries)
+    query = _add_dynamic_suffix(base_query)
     return query, category_key
 
 
 def pick_fallback_queries(exclude_category: str) -> list[tuple[str, str]]:
-    """Pick queries from OTHER categories for fallback."""
+    """Pick queries from OTHER categories for fallback, with dynamic suffixes."""
     fallbacks = []
     other_keys = [k for k in QUERY_BUCKETS if k != exclude_category]
     random.shuffle(other_keys)
     for key in other_keys[:3]:  # Try 3 different categories
-        q = random.choice(QUERY_BUCKETS[key])
+        q = _add_dynamic_suffix(random.choice(QUERY_BUCKETS[key]))
         fallbacks.append((q, key))
     return fallbacks
 
@@ -983,53 +1041,163 @@ def parse_article_response(text: str) -> tuple[str, str, str, str]:
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
-def call_cerebras_robust(clients: list, model: str, system_prompt: str, user_prompt: str, task_name: str, response_format=None, temperature=0.4, max_tokens=4096, key_labels=None, fallback_models=None):
-    """Call Cerebras API with multi-key AND multi-model fallback.
-    
-    Tries all clients with the primary model first.
-    If all clients fail AND fallback_models is provided, tries each fallback model across all clients.
-    
-    Args:
-        key_labels: Optional list of human-readable key names matching clients order.
-        fallback_models: Optional list of model names to try if primary model fails on all keys.
+# Provider definitions â tried in order. Each entry is one attempt.
+LLM_PROVIDERS = [
+    {
+        "name": "Groq/gpt-oss-120b",
+        "base_url": "https://api.groq.com/openai/v1",
+        "model": "openai/gpt-oss-120b",
+        "key_env": "GROQ_API_KEY",
+        "max_tokens": 4096,
+        "supports_json_mode": False,  # reasoning model, JSON mode broken on Groq
+    },
+    {
+        "name": "Groq/gpt-oss-20b",
+        "base_url": "https://api.groq.com/openai/v1",
+        "model": "openai/gpt-oss-20b",
+        "key_env": "GROQ_API_KEY",
+        "max_tokens": 4096,
+        "supports_json_mode": False,
+    },
+    {
+        "name": "Cerebras/llama3.1-8b",
+        "base_url": "https://api.cerebras.ai/v1",
+        "model": "llama3.1-8b",
+        "key_env": "CEREBRAS_API_KEY",
+        "max_tokens": 4096,
+        "supports_json_mode": True,
+    },
+    {
+        "name": "Cerebras/llama3.1-8b (Key-2)",
+        "base_url": "https://api.cerebras.ai/v1",
+        "model": "llama3.1-8b",
+        "key_env": "CEREBRAS_API_KEY_2",
+        "max_tokens": 4096,
+        "supports_json_mode": True,
+    },
+    {
+        "name": "Cerebras/llama3.1-8b (Key-3)",
+        "base_url": "https://api.cerebras.ai/v1",
+        "model": "llama3.1-8b",
+        "key_env": "CEREBRAS_API_KEY_3",
+        "max_tokens": 4096,
+        "supports_json_mode": True,
+    },
+]
+
+# Fatal HTTP codes â DO NOT retry, immediately switch provider
+FATAL_HTTP_CODES = {401, 402, 403, 404}
+# Transient HTTP codes â sleep briefly and retry same provider
+TRANSIENT_HTTP_CODES = {429, 500, 502, 503}
+
+
+def call_llm_robust(system_prompt: str, user_prompt: str, task_name: str,
+                    temperature: float = 0.4) -> str:
+    """Call LLM with multi-provider fallback chain.
+
+    Provider chain: Groq gpt-oss-120b â Groq gpt-oss-20b â Cerebras (3 keys).
+    Smart error handling:
+      - 429 (Rate Limit): sleep 10s, retry same provider once
+      - 500/502/503 (Server): sleep 5s, retry same provider once
+      - 401/402/404 (Fatal): immediately break, switch to next provider
     """
-    models_to_try = [model] + (fallback_models or [])
-    
     last_error = None
-    for model_idx, current_model in enumerate(models_to_try):
-        if model_idx > 0:
-            print(f"  🔄 {task_name}: Switching to fallback model '{current_model}'...")
-        
-        for idx, c in enumerate(clients):
-            if not c: continue
-            label = key_labels[idx] if key_labels and idx < len(key_labels) else f"Key-{idx+1}"
+
+    for provider in LLM_PROVIDERS:
+        api_key = os.environ.get(provider["key_env"])
+        if not api_key:
+            continue
+
+        provider_name = provider["name"]
+        max_retries = 2  # 1 original + 1 retry for transient errors
+
+        for attempt in range(max_retries):
             try:
-                print(f"  ⚡ {task_name}: Attempting {label} + {current_model}...")
-                completion = c.chat.completions.create(
-                    model=current_model,
-                    messages=[
+                print(f"  â¡ {task_name}: {provider_name} (attempt {attempt + 1})...")
+
+                payload = {
+                    "model": provider["model"],
+                    "messages": [
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt},
                     ],
-                    temperature=temperature,
-                    max_tokens=max_tokens,
-                    **({"response_format": response_format} if response_format else {})
-                )
-                raw = (completion.choices[0].message.content or "").strip()
-                if not raw:
-                    raise ValueError(f"Empty response ({label} + {current_model})")
-                print(f"  ✅ {task_name} succeeded with {label} + {current_model}")
-                return raw
-            except Exception as e:
-                last_error = e
-                print(f"  ⚠️ {label} + {current_model} failed: {str(e)[:100]}")
-                if idx < len(clients) - 1:
-                    print(f"  🔄 Trying next key...")
-    
-    raise ValueError(f"All keys and models exhausted for {task_name}: {str(last_error)[:100]}")
+                    "temperature": temperature,
+                    "max_tokens": provider["max_tokens"],
+                }
+                if provider["supports_json_mode"]:
+                    payload["response_format"] = {"type": "json_object"}
 
-def call_cerebras_article(clients: list, model: str, system_prompt: str, user_prompt: str, key_labels=None) -> tuple[str, str, str, str]:
-    raw = call_cerebras_robust(clients, model, system_prompt, user_prompt, "Article Generation", response_format={"type": "json_object"}, key_labels=key_labels)
+                resp = requests.post(
+                    f"{provider['base_url']}/chat/completions",
+                    headers={
+                        "Authorization": f"Bearer {api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json=payload,
+                    timeout=90,
+                )
+
+                # ââ Smart error handling ââ
+                if resp.status_code in FATAL_HTTP_CODES:
+                    error_msg = resp.text[:200]
+                    print(f"  â {provider_name}: FATAL {resp.status_code} â {error_msg}")
+                    print(f"  ð Skipping {provider_name}, switching to next provider...")
+                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
+                    break  # break inner retry loop, go to next provider
+
+                if resp.status_code in TRANSIENT_HTTP_CODES:
+                    wait = 10 if resp.status_code == 429 else 5
+                    print(f"  â ï¸ {provider_name}: {resp.status_code} â sleeping {wait}s...")
+                    time.sleep(wait)
+                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
+                    continue  # retry same provider
+
+                if resp.status_code != 200:
+                    print(f"  â ï¸ {provider_name}: unexpected HTTP {resp.status_code}")
+                    last_error = RuntimeError(f"{provider_name}: HTTP {resp.status_code}")
+                    break  # unknown error, try next provider
+
+                # ââ Parse response ââ
+                data = resp.json()
+                content = (data.get("choices", [{}])[0]
+                           .get("message", {})
+                           .get("content", "")
+                           .strip())
+
+                usage = data.get("usage", {})
+                reasoning = usage.get("completion_tokens_details", {}).get("reasoning_tokens", 0)
+                finish = data.get("choices", [{}])[0].get("finish_reason", "?")
+
+                print(f"  ð Tokens: prompt={usage.get('prompt_tokens', 0)} "
+                      f"completion={usage.get('completion_tokens', 0)} "
+                      f"reasoning={reasoning} finish={finish}")
+
+                # Strip <think>...</think> blocks (qwen/reasoning models)
+                content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
+
+                if not content:
+                    print(f"  â ï¸ {provider_name}: empty response (reasoning used all tokens)")
+                    last_error = ValueError(f"{provider_name}: empty response")
+                    break  # try next provider
+
+                print(f"  â {task_name} succeeded with {provider_name}")
+                return content
+
+            except requests.exceptions.Timeout:
+                print(f"  â ï¸ {provider_name}: request timed out")
+                last_error = RuntimeError(f"{provider_name}: timeout")
+                break  # try next provider
+            except Exception as e:
+                print(f"  â ï¸ {provider_name}: {str(e)[:150]}")
+                last_error = e
+                break  # try next provider
+
+    raise ValueError(f"All providers exhausted for {task_name}: {str(last_error)[:150]}")
+
+
+def call_llm_article(system_prompt: str, user_prompt: str) -> tuple[str, str, str, str]:
+    """Call LLM for article generation and parse the JSON response."""
+    raw = call_llm_robust(system_prompt, user_prompt, "Article Generation")
     return parse_article_response(raw)
 
 
@@ -1127,38 +1295,25 @@ def generate_news():
     # NOTE: Cleanup is now a separate daily cron job (news_cleanup.yml)
     # Runs once at 12:15 AM IST — keeps 50 articles, deletes excess
 
+
+    # Validate that at least one LLM API key is available
+    groq_key = os.environ.get("GROQ_API_KEY")
     c_keys = [
         os.environ.get("CEREBRAS_API_KEY"),
         os.environ.get("CEREBRAS_API_KEY_2"),
         os.environ.get("CEREBRAS_API_KEY_3"),
     ]
-    if not any(c_keys):
-        raise RuntimeError("No CEREBRAS_API_KEY set")
-    
-    clients = [Cerebras(api_key=k) for k in c_keys if k]
-    num_keys = len(clients)
-    print(f"🔑 Loaded {num_keys} Cerebras API key(s)")
-    
-    # Dedicated client distribution to prevent rate limits:
-    #   Article  → Key-1 first, then Key-2, then Key-3
-    #   Title    → Key-2 first, then Key-3, then Key-1  (different key so no 429 clash)
-    #   Image    → Key-3 first, then Key-1, then Key-2  (yet another key)
-    clients_article = clients[:]
-    labels_article  = [f"Key-{i+1}" for i in range(num_keys)]
-    
-    clients_title   = clients[1:] + clients[:1] if num_keys > 1 else clients[:]
-    labels_title    = [f"Key-{(i+1)%num_keys+1}" for i in range(num_keys)] if num_keys > 1 else [f"Key-{i+1}" for i in range(num_keys)]
-    labels_title    = [f"Key-{((i+1)%num_keys)+1}" for i in range(num_keys)]
-    # Correct labels: if 3 keys, title order is [Key-2, Key-3, Key-1]
-    labels_title    = [f"Key-{((j)%num_keys)+1}" for j in range(1, num_keys+1)]
-    
-    clients_image   = clients[2:] + clients[:2] if num_keys > 2 else clients[:]
-    labels_image    = [f"Key-{((j)%num_keys)+1}" for j in range(2, num_keys+2)]
-    
-    print(f"  📋 Article keys: {labels_article}")
-    print(f"  📋 Title keys:   {labels_title}")
-    print(f"  📋 Image keys:   {labels_image}")
+    has_cerebras = any(c_keys)
 
+    if not groq_key and not has_cerebras:
+        raise RuntimeError("No LLM API keys set (need GROQ_API_KEY or CEREBRAS_API_KEY)")
+
+    available_providers = []
+    if groq_key:
+        available_providers.append("Groq (gpt-oss-120b, gpt-oss-20b)")
+    if has_cerebras:
+        available_providers.append(f"Cerebras ({sum(1 for k in c_keys if k)} keys)")
+    print(f"ð LLM providers: {' â '.join(available_providers)}")
     # 1. Pick search query via time-based rotation
     search_query, query_category = pick_search_query()
     print(f"📰 Query [{query_category}]: {search_query}")
@@ -1409,59 +1564,53 @@ STRICT FORMATTING RULES:
 
 Return JSON: {{ "articleText": "your bullet points", "category": "one-of-the-six", "title": "Your Unique Professional Headline Here", "imagePrompt": "A vivid 30-50 word scene description matching the article topic" }}"""
 
-    MODELS = ["gpt-oss-120b", "zai-glm-4.7"]
+    # 5a. Call LLM via multi-provider chain (Groq primary â Cerebras fallback)
     article_text = ""
-    used_model = ""
 
-    for model_name in MODELS:
-        try:
-            print(f"🔄 Trying Cerebras model: {model_name}")
-            article_text, ai_category, inline_title, inline_image_prompt = call_cerebras_article(clients_article, model_name, system_prompt, user_prompt, key_labels=labels_article)
-            used_model = model_name
+    try:
+        article_text, ai_category, inline_title, inline_image_prompt = call_llm_article(system_prompt, user_prompt)
 
-            if ai_category:
-                print(f"🤖 AI picked category: {ai_category}")
+        if ai_category:
+            print(f"ð¤ AI picked category: {ai_category}")
 
-            word_count = len(article_text.split())
-            print(f"📝 First attempt: {word_count} words")
+        word_count = len(article_text.split())
+        print(f"ð First attempt: {word_count} words")
 
-            # Auto-retry if too short
-            if word_count < 120:
-                print(f"⚠️ Too short ({word_count} words), retrying...")
-                retry_prompt = f"""{user_prompt}
+        # Auto-retry if too short
+        if word_count < 120:
+            print(f"â ï¸ Too short ({word_count} words), retrying...")
+            retry_prompt = f"""{user_prompt}
 
 CRITICAL CORRECTION: Your previous attempt was ONLY {word_count} words. UNACCEPTABLE.
-You MUST write between 130 to 170 words using 3-4 bullet points. Each bullet MUST be separated by a newline (`\n`).
+You MUST write between 130 to 170 words using 3-4 bullet points. Each bullet MUST be separated by a newline.
 Each bullet MUST start with **Bold Keyword**. ADD more factual details, specific numbers, names, and context.
-STAY on the SAME SINGLE topic — do NOT add unrelated stories to fill space."""
+STAY on the SAME SINGLE topic â do NOT add unrelated stories to fill space."""
 
-                try:
-                    retry_text, retry_cat, retry_title, retry_img = call_cerebras_article(clients_article, model_name, system_prompt, retry_prompt, key_labels=labels_article)
-                    retry_wc = len(retry_text.split())
-                    print(f"📝 Retry: {retry_wc} words")
-                    if retry_wc > word_count:
-                        article_text = retry_text
-                        if retry_cat:
-                            ai_category = retry_cat
-                        if retry_title:
-                            inline_title = retry_title
-                        if retry_img:
-                            inline_image_prompt = retry_img
-                        print(f"✅ Retry accepted: {retry_wc} words")
-                except Exception:
-                    print("⚠️ Retry failed, keeping first attempt")
+            try:
+                retry_text, retry_cat, retry_title, retry_img = call_llm_article(system_prompt, retry_prompt)
+                retry_wc = len(retry_text.split())
+                print(f"ð Retry: {retry_wc} words")
+                if retry_wc > word_count:
+                    article_text = retry_text
+                    if retry_cat:
+                        ai_category = retry_cat
+                    if retry_title:
+                        inline_title = retry_title
+                    if retry_img:
+                        inline_image_prompt = retry_img
+                    print(f"â Retry accepted: {retry_wc} words")
+            except Exception:
+                print("â ï¸ Retry failed, keeping first attempt")
 
-            print(f"✅ Success with: {model_name}")
-            break
-        except Exception as e:
-            print(f"⚠️ {model_name} failed: {str(e)[:200]}")
-            article_text = ""
+        print(f"â Article generation succeeded")
+    except Exception as e:
+        raise RuntimeError(f"All LLM providers failed for article generation: {e}")
 
     if not article_text:
-        raise RuntimeError("All Cerebras models failed for article generation")
+        raise RuntimeError("All LLM providers failed for article generation")
 
     word_count = len(article_text.split())
-    print(f"📝 Article ({used_model}): {word_count} words")
+    print(f"ð Article: {word_count} words")
 
     # 6. Title — already generated inline with article (no separate API call needed)
     title = ""
