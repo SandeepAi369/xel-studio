@@ -9,6 +9,7 @@ Pipeline: Dynamic Query → Tavily Search → URL Dedup →
 Ported from: app/api/cron/generate-news/route.ts (v17)
 """
 
+import html
 import json
 import os
 import random
@@ -31,6 +32,11 @@ try:
     HAS_CEREBRAS_SDK = True
 except ImportError:
     HAS_CEREBRAS_SDK = False
+try:
+    from rapidfuzz import fuzz as rfuzz
+    HAS_RAPIDFUZZ = True
+except ImportError:
+    HAS_RAPIDFUZZ = False
 
 
 # ─── Heartbeat Keep-Alive ────────────────────────────────────────
@@ -1038,6 +1044,91 @@ def parse_article_response(text: str) -> tuple[str, str, str, str]:
     return (clean, "", "", "")
 
 
+
+
+# ─── Pre-Processing: Noise Removal & Compression ─────────────
+
+
+def _clean_snippet(text: str) -> str:
+    """Remove noise from search result text: HTML entities, breadcrumbs, URLs, boilerplate."""
+    if not text:
+        return ""
+    text = html.unescape(text)
+    text = re.sub(r'https?://\S+|www\.\S+', '', text)
+    text = re.sub(r'\w+\.com\s*[\u203a>].*', '', text)
+    text = re.sub(r'(?i)(read more|click here|learn more|subscribe now|sign up|cookie)', '', text)
+    text = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
+def _truncate_description(text: str, max_chars: int = 120) -> str:
+    """Truncate description to max_chars, breaking at word boundary."""
+    if len(text) <= max_chars:
+        return text
+    truncated = text[:max_chars].rsplit(" ", 1)[0]
+    return truncated + "..." if truncated else text[:max_chars]
+
+
+def _cross_dedup_sentences(results: list[dict]) -> list[dict]:
+    """Remove duplicate sentences across multiple search result descriptions."""
+    seen_hashes = set()
+    for r in results:
+        desc = r.get("description", "")
+        if not desc:
+            continue
+        sentences = re.split(r'(?<=[.!?])\s+', desc)
+        unique = []
+        for s in sentences:
+            norm = re.sub(r'\W+', '', s.lower())
+            if len(norm) < 10:
+                unique.append(s)
+                continue
+            h = hash(norm)
+            if h not in seen_hashes:
+                seen_hashes.add(h)
+                unique.append(s)
+        r["description"] = " ".join(unique)
+    return results
+
+
+def _build_llm_context(results: list[dict], max_items: int = 25) -> str:
+    """Build compact numbered-list context for the LLM prompt.
+
+    Cleans, truncates, deduplicates sentences, and formats as:
+      1. Title | Description
+      2. Title | Description
+
+    This saves ~37% tokens vs json.dumps(indent=2).
+    """
+    cleaned = []
+    for r in results:
+        title = _clean_snippet(r.get("title", "")).strip()
+        desc = _clean_snippet(r.get("description", "")).strip()
+        if not title and not desc:
+            continue
+        cleaned.append({"title": title, "description": desc})
+
+    sliced = cleaned[:max_items]
+    print(f"\U0001f4e6 LLM context: {len(sliced)} of {len(cleaned)} results (top {max_items} selected)")
+
+    sliced = _cross_dedup_sentences(sliced)
+
+    for item in sliced:
+        item["description"] = _truncate_description(item["description"], 120)
+
+    out_lines = []
+    for i, item in enumerate(sliced, 1):
+        title = item["title"]
+        desc = item["description"]
+        if desc:
+            out_lines.append(f"{i}. {title} | {desc}")
+        else:
+            out_lines.append(f"{i}. {title}")
+
+    return "\n".join(out_lines)
+
+
 # ─── Cerebras LLM ────────────────────────────────────────────
 
 
@@ -1048,7 +1139,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-120b",
         "key_env": "GROQ_API_KEY",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,  # reasoning model, JSON mode broken on Groq
     },
     {
@@ -1056,7 +1147,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-20b",
         "key_env": "GROQ_API_KEY",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,
     },
     {
@@ -1064,7 +1155,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-120b",
         "key_env": "GROQ_API_KEY_2",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,
     },
     {
@@ -1072,7 +1163,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-20b",
         "key_env": "GROQ_API_KEY_2",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,
     },
     {
@@ -1080,7 +1171,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-120b",
         "key_env": "GROQ_API_KEY_3",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,
     },
     {
@@ -1088,7 +1179,7 @@ LLM_PROVIDERS = [
         "base_url": "https://api.groq.com/openai/v1",
         "model": "openai/gpt-oss-20b",
         "key_env": "GROQ_API_KEY_3",
-        "max_tokens": 4096,
+        "max_tokens": 3000,
         "supports_json_mode": False,
     },
     {
@@ -1428,7 +1519,9 @@ def generate_news():
         'No other keys, no markdown, no explanation.'
     )
 
-    cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
+    # Build LLM context: clean, dedupe sentences, slice top 25, compress
+    # NOTE: ALL source_urls (50-60+) are kept for the website display
+    llm_context = _build_llm_context(scraped_data, max_items=25)
 
     # Build dedup context — show LLM what already exists so it doesn't repeat
     dedup_section = ""
@@ -1523,8 +1616,15 @@ def generate_news():
         else:
             entity_overlap = 0.0
 
-        # Combined score: weighted average (entities matter most)
-        score = (word_overlap * 0.3) + (bigram_overlap * 0.3) + (entity_overlap * 0.4)
+        # Layer 5: RapidFuzz token_set_ratio (catches word reordering)
+        fuzz_score = 0.0
+        if HAS_RAPIDFUZZ:
+            fuzz_score = rfuzz.token_set_ratio(title_a, title_b) / 100.0
+
+        # Combined score: weighted average with RapidFuzz boost
+        base_score = (word_overlap * 0.25) + (bigram_overlap * 0.25) + (entity_overlap * 0.3) + (fuzz_score * 0.2)
+        # If RapidFuzz alone strongly matches (>0.85), trust it
+        score = max(base_score, fuzz_score * 0.9)
         return score
 
     if existing_titles and scraped_data:
@@ -1552,7 +1652,7 @@ def generate_news():
                 print(f"   Matched: \"{matched_title[:60]}\"")
         if filtered_scraped:
             scraped_data = filtered_scraped
-            cerebras_data = [{"title": r["title"], "description": r["description"]} for r in scraped_data]
+            llm_context = _build_llm_context(scraped_data, max_items=25)
             print(f"📋 After enhanced dedup: {len(scraped_data)} unique results remain")
         else:
             print("⚠️ All results matched existing titles — keeping originals for LLM to handle")
@@ -1560,7 +1660,7 @@ def generate_news():
     user_prompt = f"""Write a news summary STRICTLY using ONLY the facts from the search results below. Do not include any information that is not in these results.{dedup_section}
 
 Search results:
-{json.dumps(cerebras_data, indent=2)}
+{llm_context}
 
 STRICT FORMATTING RULES:
 1. Word Count: strictly between 130 to 170 words. This is CRITICAL.
