@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Detect Sharp Acceleration in Global Warming as Planet Overheats and Oceans Degrade",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/08/260801093239.htm",
-        "https://insideclimatenews.org/news/10082026/global-warming-record-high-temperatures"
-      ],
-      "date": "2026-08-13T14:03:51.432739+00:00"
-    },
-    {
       "title": "Open-Source AI Agents Breach Taiwan Nuclear Agency in Four-Day Autonomous Attack",
       "urls": [
         "https://www.forbes.com/sites/nishatalagala/2026/07/24/what-hugging-face-had-that-you-dont-the-ai-capability-gap",
@@ -5562,7 +5554,27 @@
         "https://delhipollution.in/delhi-air-pollution-causes-and-effects"
       ],
       "date": "2026-08-23T14:01:43.098644+00:00"
+    },
+    {
+      "title": "Linux Foundation Publishes New Open Source Report Highlighting Community Contributions",
+      "urls": [
+        "https://9to5linux.com/9to5linux-weekly-roundup-august-2nd-2026",
+        "https://www.linuxnews.net",
+        "https://www.prnewswire.com/news-releases/open-source-summit--embedded-linux-conference-europe-2026-schedule-champions-open-source-innovation-and-marks-35-years-of-linux-302843979.html",
+        "https://daily.dev/posts/linux-foundation-newsletter-august-2026-cxdogib0l",
+        "https://linuxlap.com/category/news",
+        "https://www.bleepingcomputer.com/news/linux",
+        "https://linuxsecurity.com/news",
+        "https://therealistjuggernaut.com/2025/08/08/linux-state-of-the-union-august-2025",
+        "https://www.linux.org",
+        "https://linuxiac.com/category/news/weekly-wrap-up",
+        "https://kernelnewbies.org/LinuxChanges",
+        "https://www.suse.com/news",
+        "https://www.linuxfoundation.org/resources/publications",
+        "https://www.bleepingcomputer.com/tag/linux"
+      ],
+      "date": "2026-08-23T14:31:29.577459+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T14:01:43.098741+00:00"
+  "lastUpdated": "2026-08-23T14:31:29.577525+00:00"
 }
