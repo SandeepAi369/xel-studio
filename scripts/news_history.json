@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "UNHCR Publishes Global Trends Overview on Refugee Movements and Needs",
-      "urls": [
-        "https://www.unhcr.org/global-trends"
-      ],
-      "date": "2026-08-13T06:01:45.508048+00:00"
-    },
-    {
-      "title": "YouTube Releases 2026 Climate Change Outlook Video to Inform Global Audience",
-      "urls": [
-        "https://www.youtube.com/watch?v=9yOfV6Eh464"
-      ],
-      "date": "2026-08-13T06:31:19.039116+00:00"
-    },
-    {
       "title": "Stanford Center Analyzes U.S.-China Competition Impact on Global Political Landscape",
       "urls": [
         "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape"
@@ -4867,7 +4853,66 @@
         "https://www.designveloper.com/blog/ai-tools-for-developers"
       ],
       "date": "2026-08-23T06:01:45.147373+00:00"
+    },
+    {
+      "title": "Delhi Government Unveils 2026 EV Policy With Full Tax Waiver and Massive Charging Plan",
+      "urls": [
+        "https://economictimes.indiatimes.com/topic/ev-adoption-policy-changes-announced-today/news",
+        "https://evtech.news/policy/delhi-ev-policy-2026-notified-100-road-tax-waiver-for-evs-30-lakh-indias-capital-bans-new-ice-2w3wsub-35t-registrations-from-20272028-offers-70b-incentives-and-plans-30000-charging-points-by-2030.html",
+        "https://diyguru.org/india-ev-policy-2030-roadmap",
+        "https://www.oemupdate.com/news/india-accelerates-ev-adoption-with-67657-chargers-and-manufacturing-initiatives",
+        "https://www.ibef.org/industry/electric-vehicle",
+        "https://evindia.online/news",
+        "https://evtech.news/news/india-accelerates-ev-adoption-in-2026-government-psu-led-policies-power-the-next-phase-of-electric-mobility-revolution.html",
+        "https://www.psa.gov.in/mission/electric-vehicles/36",
+        "https://emobilityplus.com/2026/07/07/delhi-ev-policy-2026-industry-leaders-welcome-ambitious-clean-mobility-push-and-%E2%82%B915000-crore-investment-plan",
+        "https://government.economictimes.indiatimes.com/news/policy/indias-comprehensive-electric-vehicle-policy-a-roadmap-for-clean-mobility/132682177",
+        "https://www.indianewsnetwork.com/en/delhi-government-unveils-ambitious-electric-vehicle-policy-2026-20260412",
+        "https://blog.lukmaanias.com/2026/08/18/indias-electric-vehicle-ev-ecosystem",
+        "https://e-amrit.niti.gov.in/national-level-policy",
+        "https://elecbits.in/blog/ev-adoption-in-india",
+        "https://economictimes.indiatimes.com/industry/renewables/india-ev-growth-challenges-2026-electric-vehicle-market-india-price-policy-issues-ev-adoption-slowdown-analysis-mahindra-tata-motors/articleshow/130298867.cms?from=mdr",
+        "https://www.wri.org/outcomes/india-significantly-scales-electric-vehicle-adoption",
+        "https://economictimes.indiatimes.com/industry/renewables/own-a-petrol-or-diesel-car-delhi-govt-may-soon-pay-you-rs-50000-to-convert-it-into-an-ev/articleshow/126350093.cms?from=mdr",
+        "https://auto.economictimes.indiatimes.com/amp/news/industry/india-needs-to-be-aggressive-in-its-ev-adoption-targets-pmo-advisor-tarun-kapoor/132132139",
+        "https://nickelinstitute.org/en/blog/2025/october/the-current-state-of-india-s-ev-sector",
+        "https://www.ispp.org.in/indias-ev-policy-puzzle-incentivising-adoption-or-building-a-sustainable-ecosystem",
+        "https://www.msn.com/en-us/money/other/india-electric-three-wheelers-cross-65-as-july-ev-record-tops-327-000-units/ar-AA29CzNy?ocid=BingNewsVerp",
+        "https://apnews.com/article/ev-delhi-india-climate-renewable-pollution-046240018d61185c470353df2fe9d8ae",
+        "https://sancharexpress.com/article/latest-electric-vehicle-ev-policy-2026-pm-e-drive-updates-subsidies",
+        "https://www.hindustantimes.com/india-news/new-ev-policy-will-help-long-term-car-owners-delhi-cm-rekha-gupta-101783214967037.html",
+        "https://www.ndtv.com/india-news/delhi-ev-policy-2026-cleared-no-hybrid-benefits-ev-only-push-gets-bigger-11703789",
+        "https://www.evselect.in/ev-news",
+        "https://www.indiatvnews.com/business/news/pm-e-drive-scheme-extended-till-2028-ev-subsidy-cut-for-electric-two-wheelers-2026-08-11-1051060",
+        "https://greentax.in/blog/ev-subsidy-state-wise-2026",
+        "https://visionias.in/current-affairs/news-today/2026-08-06/economy/rise-of-indias-electric-vehicle-ecosystem",
+        "https://www.nitiforstates.gov.in/public-assets/workshop_assets/res2__workshop_on_e-mobility_niti_v2.pdf",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jul/doc2024716350301.pdf",
+        "https://economictimes.indiatimes.com/industry/renewables/india-ev-growth-challenges-2026-electric-vehicle-market-india-price-policy-issues-ev-adoption-slowdown-analysis-mahindra-tata-motors/articleshow/130298867.cms",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2133258",
+        "https://www.investindia.gov.in/team-india-blogs/inside-indias-ev-manufacturing-ecosystem-key-investment-trends-government-policies",
+        "https://www.carwale.com/new/electric-cars",
+        "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-s-shift-to-electric-vehicles",
+        "https://ecozaar.in/blog/ev-subsidy-india",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2152240",
+        "https://evindia.online/blog/indias-ev-market-mid-2025-key-trends-in-sales-new-launches-policy-shifts",
+        "https://economictimes.indiatimes.com/industry/renewables/india-ev-market-hits-2-3-million-sales-in-2025-policy-support-festive-demand-drive-adoption/articleshow/126462454.cms",
+        "https://www.investindia.gov.in/team-india-blogs/indias-ev-economy-future-automotive-transportation",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2014858",
+        "https://www.hindustantimes.com/india-news/indias-flagship-ev-policy-everything-you-need-to-know-about-it-101749018114260.html",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2070937",
+        "https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx/scripts/BS_ViewBulletin.aspx?Id=23584",
+        "https://evreporter.com",
+        "https://indianexpress.com/article/cities/delhi/draft-electric-vehicle-policy-2026-year-wise-incentives-to-buy-electric-autos-two-wheelers-also-for-women-transgenders-10577351",
+        "https://www.ibef.org/blogs/sustainable-mobility-the-role-of-government-initiatives-in-shaping-india-s-electric-vehicle-landscape",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025826620401.pdf",
+        "https://pib.gov.in/PressNoteDetails.aspx?NoteId=155094&ModuleId=3",
+        "https://www.niir.org/blog/india-ev-market",
+        "https://www.niti.gov.in/sites/default/files/2025-08/India-Electric-Mobility-Index-2024-Report.pdf",
+        "https://cleanmobilityshift.com/policy-regulation/plugging-into-a-green-future-indias-electric-vehicle-boom-powers-ahead-in-2024"
+      ],
+      "date": "2026-08-23T06:31:38.855243+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T06:01:45.147442+00:00"
+  "lastUpdated": "2026-08-23T06:31:38.855295+00:00"
 }
