@@ -32,6 +32,22 @@ interface NewsItem {
 
 type FilterTab = "all" | "ai-tech" | "disability" | "health" | "world" | "general" | "sports";
 
+/** Strip JSON artifacts and formatting from summary for card previews */
+function cleanSummaryPreview(summary: string, maxLen: number = 200): string {
+  return summary
+    .replace(/^\s*\{\s*"articleText"\s*:\s*"?/i, '')
+    .replace(/"?\s*,\s*"(?:category|title|imagePrompt)"\s*:.*$/s, '')
+    .replace(/\s*\}\s*$/, '')
+    .replace(/\\n/g, ' ')
+    .replace(/\\"/g, '"')
+    .replace(/\*\*/g, '')
+    .replace(/^[-•*]\s+/gm, '')
+    .replace(/^\d+[.)]\s+/gm, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .substring(0, maxLen) + '...';
+}
+
 /* ─── Category Config ─────────────────────────────────────── */
 const CATEGORIES: {
   key: FilterTab;
@@ -456,7 +472,7 @@ export default function AINewsPage() {
                         {item.title}
                       </h2>
                       <p className="text-sm text-zinc-400 leading-relaxed line-clamp-3 mb-3">
-                        {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 200)}...
+                        {cleanSummaryPreview(item.summary, 200)}
                       </p>
                     </div>
                     <div className="flex items-center gap-3 text-xs text-zinc-500">
@@ -576,7 +592,7 @@ export default function AINewsPage() {
                     {item.title}
                   </h2>
                   <p className="text-sm line-clamp-4 text-zinc-300 leading-relaxed mb-4 max-w-2xl">
-                    {item.summary.replace(/\*\*/g, "").replace(/^[-•*]\s+/gm, "").substring(0, 180)}...
+                    {cleanSummaryPreview(item.summary, 180)}
                   </p>
                   <span className="inline-flex items-center gap-1 text-green-400 text-sm font-semibold" aria-label="Read full article">
                     Read more
