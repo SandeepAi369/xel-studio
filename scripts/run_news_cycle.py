@@ -1001,49 +1001,148 @@ def generate_and_upload_image(prompt: str, article_id: str, fallback_query: str 
 # ─── Parse JSON Response ─────────────────────────────────────
 
 
+def _strip_json_artifacts(text: str) -> str:
+    """Remove ALL possible JSON formatting artifacts from article text."""
+    if not text:
+        return ""
+    # Remove JSON wrapper: {"articleText": "..."}
+    text = re.sub(r'^\s*\{\s*"articleText"\s*:\s*"?', '', text)
+    # Remove any trailing JSON keys and closing brace
+    text = re.sub(r'"?\s*,\s*"(?:category|title|imagePrompt)"\s*:.*$', '', text, flags=re.DOTALL)
+    text = re.sub(r'\s*\}\s*$', '', text)
+    # Remove stray JSON artifacts
+    text = text.replace('\\n', '\n').replace('\\\"', '"')
+    text = re.sub(r'^\s*"', '', text)           # leading quote
+    text = re.sub(r'"\s*$', '', text)           # trailing quote
+    text = re.sub(r'^\s*\[\s*', '', text)      # leading bracket
+    text = re.sub(r'\s*\]\s*$', '', text)      # trailing bracket
+    return text.strip()
+
+
+def _sanitize_article_text(text: str) -> str:
+    """Ensure article text is in proper bullet point format.
+
+    Handles these LLM output patterns:
+    1. Already has bullets: '- **Bold** text' -> keep
+    2. Bold-start without bullet: '**Bold** text' -> add '- '
+    3. Numbered items: '1. **Bold** text' -> convert to '- '
+    4. Plain text lines -> add '- ' prefix if substantial
+    """
+    if not text:
+        return ""
+
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    formatted = []
+
+    for line in lines:
+        if len(line) < 5:
+            continue
+        # Already a bullet
+        if re.match(r'^[-\u2022\u25cf\u25aa\u2023]\s+', line):
+            formatted.append(line)
+        # Numbered list: 1. text, 2) text
+        elif re.match(r'^\d+[.)\s]+', line):
+            cleaned = re.sub(r'^\d+[.)\s]+', '', line).strip()
+            if cleaned:
+                formatted.append(f"- {cleaned}")
+        # Bold-start without bullet marker
+        elif line.startswith('**'):
+            formatted.append(f"- {line}")
+        # Plain text with substance
+        elif len(line.split()) >= 8:
+            formatted.append(f"- {line}")
+        else:
+            formatted.append(line)
+
+    return '\n'.join(formatted)
+
+
 def parse_article_response(text: str) -> tuple[str, str, str, str]:
     """Extract articleText, category, title, and imagePrompt from JSON response.
-    Returns (article_text, category, title, image_prompt)."""
+    Returns (article_text, category, title, image_prompt).
+
+    Uses 3-strategy parsing: direct JSON -> embedded JSON search -> regex extraction.
+    """
     clean = text.strip()
+    # Strip markdown code fences
     if clean.startswith("```"):
         clean = re.sub(r"^```(?:json)?\s*\n?", "", clean)
         clean = re.sub(r"\n?```\s*$", "", clean)
+
+    article = ""
+    category = ""
+    title = ""
+    img_prompt = ""
+    valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
+
+    # Strategy 1: Direct JSON parse
+    parsed = None
     try:
         parsed = json.loads(clean)
-        article = parsed.get("articleText", "").strip() if "articleText" in parsed else clean
-        category = parsed.get("category", "").strip().lower() if "category" in parsed else ""
-        title = parsed.get("title", "").strip() if "title" in parsed else ""
-        img_prompt = parsed.get("imagePrompt", "").strip() if "imagePrompt" in parsed else ""
-        # Validate category is one of the allowed values
-        valid_categories = {"ai-tech", "disability", "health", "world", "general", "sports"}
-        if category not in valid_categories:
-            category = ""
-        # Strip any remaining JSON artifacts from article text
-        article = re.sub(r'^\s*\{\s*"articleText"\s*:\s*"', '', article)
-        article = re.sub(r'"\s*,\s*"category"\s*:\s*"[^"]*"\s*\}\s*$', '', article)
-        article = article.replace('\\n', '\n').replace('\\"', '"')
-        # Clean title
-        if title:
-            title = title.strip('"\'')
-            title = re.sub(
-                r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
-                r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
-                r'Development|Watch)[:\s\u2014\u2013-]+',
-                '', title, flags=re.IGNORECASE
-            )
-            title = re.sub(r'^[:\s\u2014\u2013-]+', '', title).strip()
-        # Clean image prompt
-        if img_prompt:
-            img_prompt = img_prompt.strip('"\'')
-            img_prompt = img_prompt.replace("**", "")
-            img_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
-            img_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
-        return (article, category, title, img_prompt)
     except json.JSONDecodeError:
-        pass
-    return (clean, "", "", "")
+        # Strategy 2: Find embedded JSON object in the text
+        json_match = re.search(r'\{[^{}]*"articleText"[^{}]*\}', clean, re.DOTALL)
+        if json_match:
+            try:
+                parsed = json.loads(json_match.group())
+            except json.JSONDecodeError:
+                pass
 
+    if parsed and isinstance(parsed, dict):
+        article = parsed.get("articleText", "").strip()
+        category = parsed.get("category", "").strip().lower()
+        title = parsed.get("title", "").strip()
+        img_prompt = parsed.get("imagePrompt", "").strip()
+    else:
+        # Strategy 3: Regex extraction from malformed text
+        art_match = re.search(r'"articleText"\s*:\s*"((?:[^"\\\\]|\\\\.)*)"', clean)
+        if art_match:
+            article = art_match.group(1)
+        else:
+            article = clean
 
+        cat_match = re.search(r'"category"\s*:\s*"([^"]*)"', clean)
+        if cat_match:
+            category = cat_match.group(1).strip().lower()
+
+        title_match = re.search(r'"title"\s*:\s*"((?:[^"\\\\]|\\\\.)*)"', clean)
+        if title_match:
+            title = title_match.group(1).strip()
+
+        img_match = re.search(r'"imagePrompt"\s*:\s*"((?:[^"\\\\]|\\\\.)*)"', clean)
+        if img_match:
+            img_prompt = img_match.group(1).strip()
+
+    # Validate category
+    if category not in valid_categories:
+        category = ""
+
+    # Deep-clean article text: strip ALL JSON artifacts
+    article = _strip_json_artifacts(article)
+    # Ensure proper bullet format
+    article = _sanitize_article_text(article)
+
+    # Clean title
+    if title:
+        title = _strip_json_artifacts(title)
+        title = title.strip('"\'')
+        title = re.sub(
+            r'^(Breaking\s*News|Breaking|BREAKING|Update|Report|News|Spotlight|Alert|'
+            r'Headline|Tech|AI|Analysis|Exclusive|Latest|Just\s*In|Flash|Urgent|'
+            r'Development|Watch)[:\s\u2014\u2013-]+',
+            '', title, flags=re.IGNORECASE
+        )
+        title = re.sub(r'^[:\s\u2014\u2013-]+', '', title).strip()
+
+    # Clean image prompt
+    if img_prompt:
+        img_prompt = _strip_json_artifacts(img_prompt)
+        img_prompt = img_prompt.strip('"\'')
+        img_prompt = img_prompt.replace("**", "")
+        img_prompt = re.sub(r'^(Optimized\s+)?Cinematic\s+Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
+        img_prompt = re.sub(r'^(Image\s+)?Prompt:\s*', '', img_prompt, flags=re.IGNORECASE).strip()
+
+    return (article, category, title, img_prompt)
 
 
 # ─── Pre-Processing: Noise Removal & Compression ─────────────

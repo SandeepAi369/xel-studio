@@ -70,7 +70,14 @@ type ContentBlock =
     | { type: 'paragraph'; text: string };
 
 function formatContent(content: string): ContentBlock[] {
-    const cleaned = content
+    // Step 1: Strip any JSON artifacts that leaked through
+    let cleaned = content
+        .replace(/^\s*\{\s*"articleText"\s*:\s*"?/i, '')    // leading {"articleText":"
+        .replace(/"?\s*,\s*"(?:category|title|imagePrompt)"\s*:.*$/s, '')  // trailing keys
+        .replace(/\s*\}\s*$/, '')                           // trailing }
+        .replace(/^\s*"/, '').replace(/"\s*$/, '')          // stray quotes
+        .replace(/^\s*\[\s*/, '').replace(/\s*\]\s*$/, '')  // brackets
+        .replace(/\\n/g, '\n').replace(/\\"/g, '"')         // escaped chars
         .replace(/\r\n/g, '\n')
         .replace(/\t/g, ' ')
         .replace(/ {3,}/g, '  ')
@@ -84,8 +91,18 @@ function formatContent(content: string): ContentBlock[] {
     const blocks: ContentBlock[] = [];
 
     for (const line of lines) {
-        if (/^[-•*]\s+/.test(line) && !/^\*\*/.test(line)) {
-            blocks.push({ type: 'bullet', text: line.replace(/^[-•*]\s+/, '') });
+        // Bullet with marker: - text, • text, * text (but not **bold**)
+        if (/^[-•]\s+/.test(line)) {
+            blocks.push({ type: 'bullet', text: line.replace(/^[-•]\s+/, '') });
+        // Star bullet that's NOT bold: * text (not **text**)
+        } else if (/^\*\s+/.test(line) && !/^\*\*/.test(line)) {
+            blocks.push({ type: 'bullet', text: line.replace(/^\*\s+/, '') });
+        // Bold-start line: **Keyword** text — treat as bullet
+        } else if (/^\*\*[^*]+\*\*/.test(line)) {
+            blocks.push({ type: 'bullet', text: line });
+        // Numbered list: 1. text, 2) text — treat as bullet
+        } else if (/^\d+[.)]\s+/.test(line)) {
+            blocks.push({ type: 'bullet', text: line.replace(/^\d+[.)]\s+/, '') });
         } else {
             blocks.push({ type: 'paragraph', text: line });
         }
