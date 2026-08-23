@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Tightens Control Over DeepMind as Gemini Lags Behind OpenAI and Anthropic",
-      "urls": [
-        "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12",
-        "https://www.moneycontrol.com/news/business/why-google-is-tightening-its-grip-on-deepmind-as-gemini-falls-behind-rivals-14003930.html",
-        "https://www.msn.com/en-in/news/other/google-ai-shake-up-explained-gemini-struggling-to-keep-up-with-openai-and-anthropic/ar-AA29Z7kQ?ocid=BingNewsVerp",
-        "https://www.engadget.com/2225849/google-shuts-down-alphafold",
-        "https://www.reuters.com/commentary/breakingviews/london-ai-scene-can-thrive-despite-deepmind-reset-2026-08-10",
-        "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html"
-      ],
-      "date": "2026-08-13T05:01:58.968409+00:00"
-    },
-    {
-      "title": "Anthropic Announces Three Claude Models Reach Real‑World Systems in Cyber Security Tests",
-      "urls": [
-        "https://www.axios.com/2026/07/30/anthropic-mythos-security-testing"
-      ],
-      "date": "2026-08-13T05:31:28.919328+00:00"
-    },
-    {
       "title": "UNHCR Publishes Global Trends Overview on Refugee Movements and Needs",
       "urls": [
         "https://www.unhcr.org/global-trends"
@@ -4797,7 +4778,37 @@
         "https://linuxiac.com/2025-linux-and-open-source-moments-that-shaped-the-year"
       ],
       "date": "2026-08-23T05:01:51.147212+00:00"
+    },
+    {
+      "title": "India Calls for National Assistive Technology Policy to Unify Disabled Services",
+      "urls": [
+        "https://www.youtube.com/watch?v=S47P4ZvpL2Q",
+        "https://www.youtube.com/watch?v=T92Zoq0HJAY",
+        "https://www.facebook.com/cnbctv18india/videos/assistive-tech-startups/1215182572654748",
+        "https://www.youtube.com/watch?v=APg22Lnqbdo",
+        "https://www.youtube.com/watch?v=FbkQW4j9VgE",
+        "https://dst.gov.in/assistive-tools-technologies-and-techniques-make-healthcare-facilities-inclusive-and-accessible",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2221850&reg=3&lang=1",
+        "https://newzvia.com/budget-2026-news/india-2026-budget-divyangjan-skill-aid-schemes",
+        "https://timesofindia.indiatimes.com/business/india-business/helping-hand-for-those-who-need-it-most/articleshow/127851620.cms",
+        "https://www.thehindubusinessline.com/info-tech/revolutionizing-accessibility-the-rise-of-assistive-technology-in-india-and-beyond/article69096202.ece",
+        "https://ddindia.co.in/2026/02/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27",
+        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment-2.pdf",
+        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment.pdf",
+        "https://www.21kschool.com/in/blog/inclusive-education-in-india",
+        "https://mpsc.gov.in",
+        "https://news.un.org/en/story/2022/05/1118212",
+        "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682(23)00073-2/fulltext",
+        "https://www.freepressjournal.in/uttar-pradesh/inclusive-education-push-up-announces-aid-for-over-24000-divyang-students-under-yogi-govt",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10391423",
+        "https://www.newindianexpress.com/india/2026/Jun/24/india-needs-national-assistive-technology-policy-say-experts",
+        "https://www.healthcarebusinesstoday.com/assistive-technology-trends",
+        "https://www.mphasis.com/content/dam/mphasis-com/global/en/news/news_articles/coverage-report-india-has-rs-95000-cr-addressable-market-for-assistive-tech-by-2030-ncpedp.pdf",
+        "https://www.newsbytesapp.com/news/india/union-budget-2026-divyangjan-kaushal-yojana-to-make-skills-industry-relevant/tldr",
+        "https://spmrf.org/case-of-assistive-technology-ecosystem-in-india"
+      ],
+      "date": "2026-08-23T05:33:14.140733+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T05:01:51.147278+00:00"
+  "lastUpdated": "2026-08-23T05:33:14.140793+00:00"
 }
