@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT-5.6-Cyber, First Offense‑Grade Hacking Model Targeting Cybersecurity Testing",
-      "urls": [
-        "https://www.forbes.com/sites/jonmarkman/2026/08/11/openai-ships-gpt-56-cyber-its-first-offense-grade-hacking-model"
-      ],
-      "date": "2026-08-13T21:31:43.103375+00:00"
-    },
-    {
-      "title": "Google DeepMind Appoints Koray Kavukcuoglu to Lead Frontier AI Initiative",
-      "urls": [
-        "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html"
-      ],
-      "date": "2026-08-13T22:01:41.820266+00:00"
-    },
-    {
       "title": "Russia Bans Diesel Exports After Ukrainian Refinery Attacks, Citing Domestic Fuel Security",
       "urls": [
         "https://www.livemint.com/news/world/total-world-latest-news-on-july-8-2026-live-updates-11783459013025.html",
@@ -6112,7 +6098,82 @@
         "https://www.nvaccess.org/news"
       ],
       "date": "2026-08-23T21:31:38.814715+00:00"
+    },
+    {
+      "title": "Anthropic Reports AI Access Breach at Three Companies, Raises Safety Concerns",
+      "urls": [
+        "https://www.hokanews.com/2026/08/anthropic-upgrades-claude-ai-safety.html",
+        "https://www.youtube.com/watch?v=A9nnvw2wqmE",
+        "https://www.youtube.com/watch?v=pOUXfpVoO34",
+        "https://www.youtube.com/watch?v=IwKuv4LrCVk",
+        "https://www.facebook.com/clarincom/videos/claude-est%C3%A1-cambiando-la-carrera-de-la-inteligencia-artificial-es-realmente-mejo/1029821482820687",
+        "https://www.youtube.com/watch?v=3oTE626FaIw",
+        "https://www.claudeainews.com/news",
+        "https://www.businessinsider.com/anthropic-ai-agents-risk-report-safety-mythos-claude-2026",
+        "https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode",
+        "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+        "https://www.benzinga.com/markets/private-markets/26/08/61225656/anthropic-raises-ai-risk-concerns-as-claude-models-show-early-signs-of-rd-acceleration",
+        "https://letsdatascience.com/news/topic/anthropic",
+        "https://aiweekly.co/ai-news-today/anthropic-news",
+        "https://www.bbc.com/news/articles/cz7dl7w8y7po",
+        "https://releasebot.io/updates/anthropic",
+        "https://releasebot.io/updates/anthropic/claude",
+        "https://claudelog.com/claude-news",
+        "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+        "https://x.com/AnthropicAI",
+        "https://www.claudeainews.com",
+        "https://thehill.com/policy/technology/6001184-claude-models-anthropic-security-breach",
+        "https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html",
+        "https://www.anthropic.com/transparency",
+        "https://www.forbes.com/sites/lanceeliot/2026/08/13/explaining-anthropics-new-watermarking-of-claude-ai-generated-outputs-and-what-it-signifies-for-society",
+        "https://www.cbsnews.com/news/anthropic-claude-gained-unauthorized-access-to-real-world-systems",
+        "https://theconversation.com/why-the-us-government-shut-down-anthropics-latest-claude-ai-model-285223",
+        "https://www.msn.com/en-us/news/other/anthropic-the-ai-safety-and-research-company-behind-claude-warns-that-humans-could-lose-control-over-ai-systems/ar-AA24VZHC?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/ai-safety-tests-are-flawed-anthropic-finds-claude-detects-when-it-s-being-evaluated/ar-AA297FXn?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/anthropic-and-openai-models-tried-to-trick-humans-into-poisoning-code-during-safety-testing/ar-AA29q3tD?ocid=BingNewsVerp",
+        "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30",
+        "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
+        "https://www.marketingprofs.com/opinions/2026/55472/ai-update-august-7-2026-ai-news-and-views-from-the-past-week",
+        "https://www.msn.com/en-us/news/other/anthropic-release-claude-opus-5-its-safest-model-yet/ar-AA28DXag?ocid=BingNewsVerp",
+        "https://www.nature.com/articles/d41586-026-02503-7",
+        "https://www.msn.com/en-in/technology/artificial-intelligence/ai-safety-tests-are-flawed-anthropic-finds-claude-detects-when-it-s-being-evaluated/ar-AA297FXn?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/technology/anthropic-admits-claude-hacked-real-companies-during-ai-safety-tests-too/ar-AA298kUL?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/technology/artificial-intelligence/claude-gained-unauthorized-access-to-3-companies-anthropic-discloses-ai-safety-incidents/ar-AA296rxO?ocid=BingNewsVerp",
+        "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
+        "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
+        "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product",
+        "https://yabs.yandex.ru/count/WfWejI_zOoVX2LcF0bKK02EbZ2cSK9yynHD7WG9NqPF2vxb102GSZvQEZ8w-0d4bdC09c1EeuXFW9h0di2UWJK2RWDOR9g0t0T6WV17mGf_FvSwUxNVklE7Er-zulU4E5vhdkDFvTDhH8kjFTGZ9o0QIDUbewSZeo8UgWRNevmZ9clHpj7HaT5I2o0Zf6gB8Ma964NN810aYeo0aQv8D8oIWfnqmPLE3EjeiXwTKDfEWw758X477SLb0kEntx5soPtTGN4q867igK8nDLKnRBp02nZZixDOS2QsCjH4mLY9YDcPYZ8VYQUh2Te0l5Zq-THwrfL1y6hsdpYVkX3wbJsVKQTTG9tv3etcEFvzGQIwrMU1W_PQDHs1MYmMuvSPRHC80vXFD-Np3PEFrN9lT1m9k00UmWQl3X4cI3LjVHxZFQH0t0NSohOQz0mrQcgtFeFKPiZ6AWuUws5oHk2eCMkzK-Wjq41x3X0ji7SPtOhiP29ElXQs57RGL8jdCbWwxkGAcODvZn3v6zp1c2b0mv0mmOlmCvdk2S8C8IOZD933T3ciJ2hW08_Hjwdbka-kvpTt_Ha-41_Y7lvWBR0Fh_LuRME_d-XvQvhz_CHVuQvU0FHf_TWdOev5fldbZbfbBhv_Iv9ktwxgkqsQFzzXrf1kRzDZN4Uvpthmi-x8NekqhysC9F7YdJU_3yzyGoemSKImpScJhjHEyxfziOHeonCkN8OT7DbWGCa2Guy00K1npfLAf346Aw6ilgvGVoKaKBaS994GR_AzskV3OQa8FsM1F2SWUhhpit8PHPXgXf2-UuA2hULiY2GZfxAyPRpJ5TPEeNmixltRz0Ygxs7nMpUxHwAbJN4CjtOLmQcVoiErdcDtarJ6nn7nV~2",
+        "https://the-agent-report.com/2026/08/ai-agent-safety-crisis-summer-2026-anthropic-openai-breaches",
+        "https://aitoolsrecap.com/News/claude",
+        "https://claudenews.online/en",
+        "https://www.webpronews.com/anthropics-agents-turn-on-each-other-inside-the-risk-report-that-has-ai-labs-rethinking-deployment",
+        "https://justainews.com/category/companies/anthropic",
+        "https://neuralcoretech.com/ai-agent-governance-august-2026",
+        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+        "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+        "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+        "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
+        "https://claude5.com/news/ai-safety-2026-alignment-progress-and-open-challenges",
+        "https://www.getpanto.ai/blog/anthropic-ai-statistics",
+        "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research",
+        "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+        "https://openai.com/index/openai-anthropic-safety-evaluation",
+        "https://www.buildfastwithai.com/blogs/anthropic-claude-nla-interpretability-2026",
+        "https://www.anthropic.com/transparency/model-report",
+        "https://www.anthropic.com/engineering/april-23-postmortem",
+        "https://claude.com",
+        "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "https://www.deepresearchglobal.com/p/anthropic-company-analysis-outlook-report",
+        "https://www.artificialintelligence-news.com/news/anthropic-details-ai-safety-strategy",
+        "https://www.anthropic.com/news/claude-opus-4-6",
+        "https://spectrum.ieee.org/state-of-ai-index-2026",
+        "https://www.crn.com/news/security/2026/anthropic-launches-claude-security-5-things-to-know",
+        "https://www.cbsnews.com/news/anthropic-chinese-cyberattack-artificial-intelligence",
+        "https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa",
+        "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks"
+      ],
+      "date": "2026-08-23T22:01:47.157829+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T21:31:38.814784+00:00"
+  "lastUpdated": "2026-08-23T22:01:47.157909+00:00"
 }
