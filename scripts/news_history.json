@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Iran Conflict Escalates as Ceasefire Violation Sparks Diplomatic Countdown in 2026",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2026_Iran_war",
-        "https://peacediplomacy.org/2026/02/24/war-or-deal-with-iran-the-diplomatic-countdown-amid-military-buildup",
-        "https://www.britannica.com/event/2026-Iran-war",
-        "https://www.academicjobs.com/global-news/international-conflicts-and-diplomacy-updates-2026-key-flashpoints-and-pathways-forward-1070",
-        "https://iranwarlive.com/diplomacy",
-        "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
-        "https://pledge4peace.org/articles/Israel-Iran-Conflict",
-        "https://thediplomat.com"
-      ],
-      "date": "2026-08-13T10:31:36.720347+00:00"
-    },
-    {
-      "title": "OpenAI Hack Sparks New Fight Over Open-Source AI Security and Industry Response",
-      "urls": [
-        "https://www.msn.com/en-us/news/other/the-openai-hack-is-fueling-a-new-fight-over-open-source-ai/ar-AA28XStY?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/timkeary/2026/07/28/nvidia-alliance-backs-open-source-ai-after-hugging-face-breach"
-      ],
-      "date": "2026-08-13T11:01:49.854732+00:00"
-    },
-    {
       "title": "Nvidia Unveils New Chips Prompting AI Stock Decline and Deal Uncertainty",
       "urls": [
         "https://www.youtube.com/watch?v=9798KEYcTm4",
@@ -5286,7 +5264,63 @@
         "https://diyguru.org/guide/india-ev-policies-2025"
       ],
       "date": "2026-08-23T10:31:35.979186+00:00"
+    },
+    {
+      "title": "Telehealth Expands Rural Care Access Through New Digital Health Initiatives",
+      "urls": [
+        "https://www.sermo.com/resources/future-of-telemedicine",
+        "https://abcnews.go.com/GMA/Wellness/video/cutting-edge-medical-advances-2026-128842164",
+        "https://www.healthcareitnews.com/video/ai-advancements-boost-rpm-2026-telehealth-expert-says",
+        "https://www.youtube.com/watch?v=DlAUKPhzl9E",
+        "https://www.youtube.com/watch?v=by7aWy4iuqA",
+        "https://www.healthitanswers.net/virtual-healthcare-august-2026",
+        "https://www.globalmed.com/telemedicine-news/all-telemedicine-news",
+        "https://www.kelp.nyc/briefing/digital-health/2026-07-27",
+        "https://www.businesswire.com/newsroom/industry/health/telemedicine",
+        "https://www.modernhealthcare.com/health-tech",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11988385",
+        "https://www.modernhealthcare.com/health-tech/mh-telehealth-ai-reimbursement-digital-health-2026",
+        "https://www.practiceehr.com/blog/telemedicine-trends-in-2026-remote-care-tech-and-patient-outcomes",
+        "https://www.himssconference.com/blog/telehealth-in-2026-whats-next-for-virtual-care",
+        "https://healthcarereaders.com/insights/telehealth-expansion-and-accessibility-trends",
+        "https://journals.lww.com/iphr/fulltext/2026/01000/telemedicine_and_digital_health__the_future_for.4.aspx",
+        "https://www.wcforum.com/conferences/telemedicine",
+        "https://netrc.org/news.php",
+        "https://www.ruralhealthinfo.org/topics/telehealth-health-it",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11298029",
+        "https://www.kelp.nyc/briefing/digital-health/2026-07-20",
+        "https://health.economictimes.indiatimes.com/tag/digital+health",
+        "https://openloophealth.com/blog/digital-health-trends-and-news-august-2026",
+        "https://telehealth.org/telehealth-news",
+        "https://www.healthcareitnews.com/topics/telehealth",
+        "https://www.gminsights.com/blogs/digital-health-market-trends-opportunities-challenges",
+        "https://www.mdtalks.com/telehealth-ai-2026-trends",
+        "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026",
+        "https://www.digitalhealthnews.com",
+        "https://www.digitalhealthnews.com/category/telehealth",
+        "https://www.mobihealthnews.com",
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
+        "https://openloophealth.com/blog/recent-digital-health-trends-insight-and-news-august-2025",
+        "https://www.healos.ai/blog/top-8-telemedicine-trends-and-technologies-shaping-healthcare-in-2025",
+        "https://www.jonesday.com/en/insights/2026/08/vital-signs-digital-health-law-update--springsummer-2026--(26)",
+        "https://www.modernhealthcare.com",
+        "https://www.healthcareitnews.com",
+        "https://healthmanagement.org/c/intervention/News/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
+        "https://practiceguides.chambers.com/practice-guides/digital-healthcare-2025/japan/trends-and-developments",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10993086",
+        "https://www.americantelemed.org/resource",
+        "https://link.springer.com/article/10.1186/s43162-025-00451-8",
+        "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682(24)00130-6/fulltext",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals",
+        "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/pdf/telemedicine.pdf",
+        "https://www.researchgate.net/publication/373604146_Telemedicine_in_the_United_Kingdom_From_a_patchwork_of_services_and_regulations_to_a_connected_health_and_e-health_revolution",
+        "https://www.sciencedirect.com/science/article/pii/S294995342400016X",
+        "https://www.simplilearn.com/top-technology-trends-and-jobs-article",
+        "https://www.medicare.gov/coverage/telehealth"
+      ],
+      "date": "2026-08-23T11:02:00.180219+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T10:31:35.979236+00:00"
+  "lastUpdated": "2026-08-23T11:02:00.180283+00:00"
 }
