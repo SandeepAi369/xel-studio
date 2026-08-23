@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Publishes Latest Updates and Releases on DenebrixAI Platform",
-      "urls": [
-        "https://denebrixai.com/blog/hugging-face-news"
-      ],
-      "date": "2026-08-13T18:31:36.278141+00:00"
-    },
-    {
       "title": "Times Highlights AI Breakthroughs Driving Modern Medicine Transformation In Healthcare",
       "urls": [
         "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
@@ -5810,7 +5803,48 @@
         "https://www.msn.com/en-us/weather/topstories/global-warming-is-reshaping-extreme-precipitation-events-across-northern-hemisphere/ar-AA1P80J4"
       ],
       "date": "2026-08-23T18:01:50.281893+00:00"
+    },
+    {
+      "title": "Microsoft Announces Next Chapter of OpenAI Partnership Expanding AI Integration",
+      "urls": [
+        "https://llm-stats.com/llm-updates",
+        "https://buttondown.com/agent-k/archive/llm-daily-august-11-2026",
+        "https://releasebot.io/updates/openai/openai-models",
+        "https://www.promptzone.com/ai-model-releases",
+        "https://www.reuters.com/world/asia-pacific/nvidia-microsoft-other-tech-giants-back-open-source-ai-models-2026-07-24",
+        "https://aitoolsrecap.com/Blog/upcoming-ai-models-2026-release-tracker",
+        "https://aitoolly.com/ai-news/article/2026-08-12-nvidia-collaborates-with-open-source-communities-to-advance-local-ai-models-and-intelligent-agent-de",
+        "https://thebriefscript.com/open-source-ai-models-2026",
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://openai.com/newsroom",
+        "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-516g",
+        "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
+        "https://huggingface.co/blog",
+        "https://opentools.ai/news",
+        "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership",
+        "https://techcommunity.microsoft.com/blog/marketplace-blog/new-in-microsoft-marketplace-april-2-2026/4499194",
+        "https://community.openai.com/c/announcements/6",
+        "https://www.buildfastwithai.com/blogs/best-open-source-ai-models-2026",
+        "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+        "https://www.index.dev/blog/open-source-ai-updates",
+        "https://openai.com/news/research",
+        "https://officechai.com/ai/top-open-source-ai-models",
+        "https://cloud.google.com/use-cases/open-source-ai",
+        "https://openai.com/research/index/release",
+        "https://openai.com/research",
+        "https://www.oracle.com/news/announcement/blog/oracle-ai-infrastructure-in-2026-and-our-commitment-to-local-communities-2026-01-26",
+        "https://planet.mozilla.org/thunderbird",
+        "https://mahara.org/view/view.php?id=36871",
+        "https://planet.opensuse.org/en",
+        "https://journal.fi/finjol/issue/download/11930/3606",
+        "https://techrights.org/o/2018/09/13/sailfish-os-nurmonjoki",
+        "https://techrights.org/o/2021/08/18/krita-5-0-beta",
+        "https://techrights.org/o/2018/05/03/gcc-8-1-released",
+        "https://techrights.org/o/2017/02/08/links-822017-linuxquestions-members-choice-award-winners-opensuse-site-cracked",
+        "https://techrights.org/o/2019/09/22/kmymoney-5-0-7"
+      ],
+      "date": "2026-08-23T18:31:55.398820+00:00"
     }
   ],
-  "lastUpdated": "2026-08-23T18:01:50.282012+00:00"
+  "lastUpdated": "2026-08-23T18:31:55.398896+00:00"
 }
