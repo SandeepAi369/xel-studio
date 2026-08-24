@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "HHS Integrates AI Into National Mental Health Care Pledge to Advance Best Practices",
-      "urls": [
-        "https://www.forbes.com/sites/lanceeliot/2026/08/12/us-mental-health-pledge-ai"
-      ],
-      "date": "2026-08-14T21:02:15.088437+00:00"
-    },
-    {
-      "title": "NBC News Launches Dedicated Online Portal for 2026 Midterm Elections",
-      "urls": [
-        "https://www.nbcnews.com/politics/2026-election"
-      ],
-      "date": "2026-08-14T21:31:30.910974+00:00"
-    },
-    {
       "title": "YouTube Guides Developers Choosing Between TensorFlow and PyTorch in 2025",
       "urls": [
         "https://www.youtube.com/watch?v=yOGi4vmtNaY"
@@ -7576,7 +7562,28 @@
         "https://www.runblogrun.com/2017/12/clayton-murphys-roller-coaster-year-part-two-calamity-then-restoration.html"
       ],
       "date": "2026-08-24T21:01:57.011824+00:00"
+    },
+    {
+      "title": "American Foundation for the Blind Issues Policy Guidance to Boost Education for Visually Impaired Students",
+      "urls": [
+        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
+        "https://afb.org/research-and-initiatives/education/education-initiatives-afb/educating-blind-and-visually-impaired",
+        "https://www.blind.msstate.edu/news/newsletters/2026/summer-2026-quarterly-connections-news-nrtc",
+        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
+        "https://www.tandfonline.com/doi/full/10.1080/10400435.2026.2636752",
+        "https://verbit.ai/blog/ai-technology/accessibility-assistive-technology-for-visually-impaired-students",
+        "https://www.facebook.com/balanceforblindadults/posts/the-astellas-low-vision-speaker-series-2026-is-hereopen-to-professionals-communi/1395453772612884",
+        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
+        "https://miusa.org/resource/tip-sheets/assistivetechnologyforblind",
+        "https://journals.sagepub.com/doi/10.1177/00224669261424860",
+        "https://www.afb.org/news-publications/publications/jvib/authors/calls-papers/2025-special-issue-technology",
+        "https://www.afb.org",
+        "https://top5accessibility.com/blog/innovative-assistive-technologies-for-visually-impaired-students",
+        "https://www.copaa.org/blogpost/895540/502878/Improving-Access-to-Assistive-Technology-for-Students-with-Disabilities",
+        "https://www.perkins.org/resource/z-assistive-technology-low-vision"
+      ],
+      "date": "2026-08-24T21:33:08.609539+00:00"
     }
   ],
-  "lastUpdated": "2026-08-24T21:01:57.011878+00:00"
+  "lastUpdated": "2026-08-24T21:33:08.609613+00:00"
 }
