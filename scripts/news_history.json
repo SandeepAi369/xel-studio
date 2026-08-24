@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Open-Weight AI Model Capable of Running Agents on Laptop",
-      "urls": [
-        "https://www.nytimes.com/2026/08/10/technology/meta-ai-open-source.html",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/meta-s-new-open-weight-model-can-run-ai-agents-on-your-laptop/ar-AA29NDuq?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-14T09:01:35.197569+00:00"
-    },
-    {
       "title": "YouTube Highlights Fifteen New AI and Quantum Computing Breakthroughs of 2026",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1poo4of/what_will_2026_bring_in_terms_of_ai_development",
@@ -6903,7 +6895,83 @@
         "https://www.nbcolympics.com/news/results-all-olympic-sports"
       ],
       "date": "2026-08-24T08:32:03.877911+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils Whole‑Body Robot Control Model to Advance Autonomous Machines",
+      "urls": [
+        "https://deepmind.google/research/publications",
+        "https://www.instagram.com/reel/DV_IjKrjhyY",
+        "https://deepmind.google",
+        "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+        "https://www.reuters.com/business/google-unveils-gemini-37-flash-ai-model-coding-agent-workflows-2026-08-13",
+        "https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind",
+        "https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud",
+        "https://deepmind.google/research",
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+        "https://time.com/6343450/gemini-google-deepmind-ai",
+        "https://deepmind.google/models",
+        "https://spyglass.org/google-deepmind-hassabis-dean-gemini",
+        "https://www.youtube.com/watch?v=YTTNRa8u-Gs",
+        "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart",
+        "https://www.facebook.com/OmniCrane/posts/-ai-weekly-2026-aug-1016-recapfrom-gemini-reaching-a-major-adoption-milestone-to/1023924363743929",
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html",
+        "https://aiweekly.co/ai-news-today/google-ai-news",
+        "https://en.wikipedia.org/wiki/Google_DeepMind",
+        "https://en.wikipedia.org/wiki/Subsidiary",
+        "https://mashable.com/tech/all-the-gemini-announcements-google-io-2026",
+        "https://www.msn.com/en-us/money/companies/inside-google-deepminds-reshuffle-after-ceo-demis-hassabis-steps-aside/ar-AA29xIzc?ocid=BingNewsVerp",
+        "https://www.bloomberg.com/news/articles/2026-07-30/google-unveils-gemini-ai-for-robots-struggling-with-dexterity",
+        "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+        "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html",
+        "https://www.digitaltrends.com/phones/google-gemini-everything-you-need-to-know",
+        "https://www.geeky-gadgets.com/google-deepmind-gemini-4-expected",
+        "https://www.arkansasonline.com/news/2026/aug/06/google-overhauls-ai-leadership-as-deepmind-chief",
+        "https://www.msn.com/en-in/news/other/google-ai-shake-up-explained-gemini-struggling-to-keep-up-with-openai-and-anthropic/ar-AA29Zm3h?ocid=BingNewsVerp",
+        "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product",
+        "https://www.androidheadlines.com/2026/07/google-deepmind-gemini-robotics-2-humanoid-ai-launch.html",
+        "https://www.techrepublic.com/article/news-google-biggest-announcements-2026",
+        "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+        "https://www.nwaonline.com/news/2026/aug/06/google-overhauls-ai-leadership-as-deepmind-chief",
+        "https://www.forbes.com/sites/richardnieva/2026/08/06/google-deepmind-london-mountain-view",
+        "https://www.msn.com/en-us/news/technology/googles-sergey-brin-has-reportedly-urged-ai-talent-to-go-all-in-on-gemini-models-to-tackle-rivals/ar-AA29XtDP?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/other/google-just-put-1-executive-in-charge-of-gemini-after-8-prominent-researchers-left-in-2-months/ar-AA29BU9p?ocid=BingNewsVerp",
+        "https://lifearchitect.ai/gemini",
+        "https://smarterarticles.co.uk/page/6",
+        "https://jack-clark.net/page/5",
+        "https://jack-clark.net/page/3",
+        "https://alobbs.com/post/2026-07-30",
+        "https://alobbs.com/post/2026-08-05",
+        "https://alobbs.com/post/2026-08-13",
+        "https://alobbs.com/post/2026-08-06",
+        "https://papers.academic-conferences.org/index.php/icair/issue/download/56/111",
+        "https://papers.academic-conferences.org/index.php/icair/issue/download/41/45",
+        "https://simonwillison.net/2025/Dec/31/the-year-in-llms",
+        "https://appdevelopermagazine.com/search/challenge",
+        "https://lifearchitect.substack.com/p/the-memo-19sep2025",
+        "https://lifearchitect.substack.com/p/the-memo-3oct2025",
+        "https://rip.so/anniversaries.html",
+        "https://eshumarneedi.com/page/9",
+        "https://markmcneilly.substack.com/p/the-new-news-in-ai-3626-edition",
+        "https://markmcneilly.substack.com/p/the-new-news-in-ai-61226-edition",
+        "https://www.drfutureshow.com/links",
+        "https://thepatterning.com/2026/01/12/ai-already-took-your-job",
+        "https://noise.getoto.net/author/joao-tome",
+        "https://techpodcasts.com/geek-news-central-podcast-2",
+        "https://www.sc.edu/study/colleges_schools/cic/internal/for-faculty/ai_news/index.php",
+        "https://codeactsineducation.wordpress.com",
+        "https://www.adalovelaceinstitute.org/report/under-the-radar",
+        "https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the",
+        "https://stefanbauschard.substack.com/p/chapter-i-when-ai-surges-beyond-expectations",
+        "https://stefanbauschard.substack.com/p/schooling-at-the-edge-of-superintelligence",
+        "https://mainlp.github.io/events",
+        "https://aitoolly.com/ai-news/article/2026-08-14-google-deepmind-introduces-gemini-37-flash-the-latest-evolution-in-the-gemini-model-family",
+        "https://www.studioglobal.ai/discover/answers/what-major-ai-developments-did-google-announce-6a7e4b8310551e202b129598",
+        "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025"
+      ],
+      "date": "2026-08-24T09:05:44.268729+00:00"
     }
   ],
-  "lastUpdated": "2026-08-24T08:32:03.877989+00:00"
+  "lastUpdated": "2026-08-24T09:05:44.268788+00:00"
 }
