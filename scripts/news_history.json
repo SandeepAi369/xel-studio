@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Publishes Spring 2026 Open‑Source Report Highlighting Top LLM Models",
-      "urls": [
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms"
-      ],
-      "date": "2026-08-15T18:31:25.429329+00:00"
-    },
-    {
       "title": "PolyU Launches AI Virtual Patient Simulation System to Advance Precision Cancer Care",
       "urls": [
         "https://www.msn.com/en-in/health/health-news/et-health-conclave-2026-healthcare-leaders-reimagine-the-future-of-medicine-through-innovation-prevention-and-technology/ar-AA29n8qG?ocid=BingNewsVerp",
@@ -7448,7 +7440,31 @@
         "https://www.cnbctv18.com/india/environment/delhi-air-pollution-hits-severe-respiratory-illnesses-surge-30-residents-lose-trust-in-govt-data-19753134.htm"
       ],
       "date": "2026-08-25T18:01:46.387910+00:00"
+    },
+    {
+      "title": "Mozilla CTO Calls for Internet‑Style Open AI Model Amid Rising Hacking Concerns",
+      "urls": [
+        "https://siliconangle.com/2026/08/11/openwaldo-launches-build-collaborative-community-open-source-ai",
+        "https://www.msn.com/en-us/news/technology/open-vs-closed-the-debate-shaping-the-future-of-ai/ar-AA29vN0j?ocid=BingNewsVerp",
+        "https://www.defenseone.com/business/2026/08/attackers-are-targeting-open-source-ai-just-big-tech-embracing-it/415165",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/openai-says-it-slowed-astra-model-development-over-security-concerns/ar-AA29Dn6Z?ocid=BingNewsVerp",
+        "https://thehill.com/policy/technology/6003142-nvidia-launches-secure-ai-alliance",
+        "https://www.forbes.com/sites/timkeary/2026/07/28/nvidia-alliance-backs-open-source-ai-after-hugging-face-breach",
+        "https://www.msn.com/en-us/news/technology/mozilla-s-cto-thinks-ai-should-be-built-like-the-internet/ar-AA2a1qKY?ocid=BingNewsVerp",
+        "https://www.nytimes.com/2026/08/10/technology/meta-ai-open-source.html",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://local-ai-zone.github.io/blog/july-2026-ai-model-roundup.html",
+        "https://champaignmagazine.com/2026/08/23/ai-by-ai-weekly-top-5-august-17-23-2026",
+        "https://releasebot.io/updates/openai",
+        "https://rsdoiel.github.io/antenna/libraries.html",
+        "https://simonw.substack.com/p/can-coding-agents-relicense-open",
+        "https://alobbs.com/post/2026-08-17",
+        "https://alobbs.com/post/2026-08-23",
+        "https://alobbs.com/post/2026-08-18",
+        "https://alobbs.com/post/2026-08-03"
+      ],
+      "date": "2026-08-25T18:31:46.135661+00:00"
     }
   ],
-  "lastUpdated": "2026-08-25T18:01:46.387996+00:00"
+  "lastUpdated": "2026-08-25T18:31:46.135725+00:00"
 }
