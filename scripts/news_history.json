@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "China Releases Kimi K3, Largest Open‑Source AI Model Challenging U.S. Leaders",
-      "urls": [
-        "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
-        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-        "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
-        "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01"
-      ],
-      "date": "2026-08-15T23:01:35.543432+00:00"
-    },
-    {
       "title": "YouTube Introduces Draft AI Regulation Policy to Shape Platform Governance",
       "urls": [
         "https://www.youtube.com/watch?v=mjZevbgaFp4",
@@ -7705,7 +7695,17 @@
         "https://www.youtube.com/watch?v=AnKJfRyj6t0"
       ],
       "date": "2026-08-25T22:31:56.976867+00:00"
+    },
+    {
+      "title": "Nvidia Launches Open-Source AI Security Alliance to Boost Model Protection Across Industry",
+      "urls": [
+        "https://www.msn.com/en-us/technology/tech-companies/nvidia-launches-new-open-source-ai-security-alliance/ar-AA28MVJJ?ocid=BingNewsVerp",
+        "https://www.nextgov.com/artificial-intelligence/2026/07/anthropic-calls-threading-needle-open-source-ai/415057",
+        "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/ai-memecoin-news-memetoro-introduces-launch-manifest-architecture-for-fair-memecoin-launches/2404269",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1q2xi2g/state_of_ai_jan_2026_the_start_of_the_agentic_era"
+      ],
+      "date": "2026-08-25T23:02:00.498338+00:00"
     }
   ],
-  "lastUpdated": "2026-08-25T22:31:56.976935+00:00"
+  "lastUpdated": "2026-08-25T23:02:00.498396+00:00"
 }
