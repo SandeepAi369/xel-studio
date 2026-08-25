@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Introduces Draft AI Regulation Policy to Shape Platform Governance",
-      "urls": [
-        "https://www.youtube.com/watch?v=mjZevbgaFp4",
-        "https://www.youtube.com/watch?v=Ix0nWWQYrMs",
-        "https://www.youtube.com/watch?v=UtC6fsz9UZc"
-      ],
-      "date": "2026-08-15T23:31:38.870630+00:00"
-    },
-    {
       "title": "Anthropic Tests Claude 6 Agents In Simulated Turf War To Assess Safety",
       "urls": [
         "https://www.youtube.com/watch?v=uPSgq2ZjxNM",
@@ -7705,7 +7696,25 @@
         "https://www.reddit.com/r/ArtificialInteligence/comments/1q2xi2g/state_of_ai_jan_2026_the_start_of_the_agentic_era"
       ],
       "date": "2026-08-25T23:02:00.498338+00:00"
+    },
+    {
+      "title": "Telemedicine Expands Access to Care With Remote Consultations Across United States",
+      "urls": [
+        "https://www.iotsmartscales.com/Industry-Knowledge/Digital-Health-News--Virtual-Care-Matures-As-Ai-driven-Diagnostics-Reshape-Reimbursement-And-Regulatory-Landscapes-5487.html",
+        "https://digitalhealthwire.com",
+        "https://www.medicalnewstoday.com/articles/telemedicine",
+        "https://www.telemedicine.com",
+        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
+        "https://telehealth.hhs.gov/patients/why-use-telehealth",
+        "https://www.teladochealth.com",
+        "https://www.auamed.org/blog/what-is-telemedicine",
+        "https://en.wikipedia.org/wiki/Telehealth",
+        "https://www.news-medical.net/health/What-is-Telemedicine.aspx",
+        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
+        "https://www.healthline.com/health/telemedicine"
+      ],
+      "date": "2026-08-25T23:31:42.940121+00:00"
     }
   ],
-  "lastUpdated": "2026-08-25T23:02:00.498396+00:00"
+  "lastUpdated": "2026-08-25T23:31:42.940182+00:00"
 }
