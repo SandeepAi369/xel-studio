@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linuxiac Expands Linux News Coverage Across Multiple Open Source Platforms",
-      "urls": [
-        "https://linuxiac.com/category/news",
-        "https://itsfoss.com/news",
-        "https://linuxiac.com/category/news/software",
-        "https://fosspost.org",
-        "https://www.sourcetrail.com/software/linux-in-2026-from-ai-debates-to-kernel-security-and-distro-updates",
-        "https://lwn.net/daily"
-      ],
-      "date": "2026-08-16T22:01:38.659658+00:00"
-    },
-    {
       "title": "Texas Declares Disaster After Tropical Storm Bertha Causes Floods Killing Three",
       "urls": [
         "https://natureweatherhub.com/texas-floods-2026",
@@ -8891,7 +8879,39 @@
         "https://html.onlineviewer.net"
       ],
       "date": "2026-08-26T21:31:34.027814+00:00"
+    },
+    {
+      "title": "Meta Unveils Llama 4 Open-Source Model Amid Zuckerberg’s Call for AI Decentralization",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1v7smm5/meta_has_confirmed_that_it_will_release_an_open",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1se65ul/meta_to_open_source_versions_of_its_next_ai_models",
+        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
+        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence",
+        "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "https://ai.meta.com/blog/meta-llama-3",
+        "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
+        "https://www.msn.com/en-us/money/other/meta-pushes-to-release-new-llama-model-before-2026-report/ar-AA1Lr5pG",
+        "https://siliconangle.com/2026/04/06/report-meta-developing-open-source-versions-upcoming-ai-models",
+        "https://www.llama.com",
+        "https://en.wikipedia.org/wiki/Meta_AI",
+        "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html",
+        "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since",
+        "https://indianexpress.com/article/technology/artificial-intelligence/meta-muse-glimmer-what-it-means-open-vs-closed-ai-10826571",
+        "https://www.businessinsider.com/meta-superintelligence-lab-llama-4-new-model-launch-year-end-2025-8",
+        "https://www.msn.com/en-us/technology/hardware-and-devices/meta-s-open-source-muse-glimmer-model-can-run-on-a-single-computer/ar-AA29Oo4q?ocid=BingNewsVerp",
+        "https://www.smh.com.au/technology/meta-releases-new-ai-model-as-zuckerberg-writes-6500-word-essay-on-the-future-20260811-p60n4e.html",
+        "https://www.reuters.com/technology/metas-ai-model-hacked-another-company-during-testing-information-reports-2026-08-05",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/meta-launches-new-ai-in-push-for-best-open-source-model-to-beat-china/ar-AA29LvfC?ocid=BingNewsVerp",
+        "https://www.fool.com/investing/2026/08/06/meta-platforms-free-cash-flow-plunge-ai-spending",
+        "https://www.msn.com/en-in/news/other/meta-launches-open-weight-muse-glimmer-mark-zuckerberg-says-he-wants-superintelligence-for-all/ar-AA29LAs3?ocid=BingNewsVerp",
+        "https://www.thestar.com.my/tech/tech-news/2026/08/12/five-takeaways-from-zuckerbergs-6500-word-manifesto-on-ai",
+        "https://www.msn.com/en-in/news/other/zuckerberg-calls-for-ai-decentralisation-takes-swipe-at-openai-anthropic-balance-of-power-at-stake-5-takeaways/ar-AA29RpZF?ocid=BingNewsVerp",
+        "https://www.freep.com/story/business/2026/08/10/meta-ceo-zuckerberg-ai-manifesto-future/91249807007",
+        "https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html"
+      ],
+      "date": "2026-08-26T22:01:44.662316+00:00"
     }
   ],
-  "lastUpdated": "2026-08-26T21:31:34.027879+00:00"
+  "lastUpdated": "2026-08-26T22:01:44.662378+00:00"
 }
