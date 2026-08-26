@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gregory Kurtzer Launches OpenWALDO Open Source AI Community to Foster Collaborative Development",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/08/11/10428822.htm"
-      ],
-      "date": "2026-08-16T23:01:32.088333+00:00"
-    },
-    {
       "title": "Meta Expands Open-Source Llama Ecosystem to Challenge Closed AI Models",
       "urls": [
         "https://ai.meta.com/Open",
@@ -8916,7 +8909,20 @@
         "https://www.forbes.com/sites/current-climate/2026/08/17/ev-battery-sales-help-q2-cleantech-investment-rebound"
       ],
       "date": "2026-08-26T22:31:32.235915+00:00"
+    },
+    {
+      "title": "Simon Willison Releases LLM With Reasoning Traces, OpenAI Responses, and Enhanced Logging",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
+        "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+        "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms",
+        "https://aibriefing.dev",
+        "https://www.ai-insight.org/reports/global-models-2026",
+        "https://techcrunch.com/2025/12/22/chatgpt-everything-to-know-about-the-ai-chatbot"
+      ],
+      "date": "2026-08-26T23:01:41.855343+00:00"
     }
   ],
-  "lastUpdated": "2026-08-26T22:31:32.235987+00:00"
+  "lastUpdated": "2026-08-26T23:01:41.855396+00:00"
 }
