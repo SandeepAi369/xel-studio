@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Announces Next Chapter of AI Momentum in CEO Blog Post",
-      "urls": [
-        "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum"
-      ],
-      "date": "2026-08-16T09:01:32.749315+00:00"
-    },
-    {
       "title": "YouTube Shows How Technology Transforms Sports On and Off the Field",
       "urls": [
         "https://www.youtube.com/watch?v=mITItMrmNmI",
@@ -8311,7 +8304,33 @@
         "https://www.bcci.tv/news/article/indian-women-s-cricket-team-shortlisted-for-prestigious-laureus-world-team-of-the-year-award"
       ],
       "date": "2026-08-26T08:31:51.137494+00:00"
+    },
+    {
+      "title": "Big Tech Targets $715 Billion AI Infrastructure Spend in 2026 Amid Cloud Competition",
+      "urls": [
+        "https://www.ad-hoc-news.de/boerse/news/corporate-news/alphabet-stock-advances-as-ai-spending-drives-rare-negative-cash-flow/69991567",
+        "https://www.intelligentcio.com/latam/2026/08/24/claro-empresas-expands-sovereign-ai-and-cloud-services-in-brazil-with-oracle-alloy",
+        "https://www.msn.com/en-sg/technology/tech-companies/superx-delivers-31-million-dollars-in-ai-servers-to-japan/ar-AA2axw1F?ocid=BingNewsVerp",
+        "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
+        "https://www.informationweek.com/it-infrastructure/7-cloud-computing-trends-for-leaders-to-watch-in-2026",
+        "https://aws.amazon.com/new",
+        "https://xtechtools.com/learn/aws-vs-azure-vs-gcp",
+        "https://publicdata.online/articles/cloud-computing-market-2026.html",
+        "https://cloud.google.com/blog/products/ai-machine-learning",
+        "https://neuralcoretech.com/ai-compute-infrastructure-trends-2026",
+        "https://pureai.com/articles/2026/03/20/at-gtc-2026-nvidia-aws-and-google-cloud-shift-focus-from-chips-to-ai-infrastructure.aspx",
+        "https://www.factualminds.com/blog/aws-service-announcements-june-2026",
+        "https://www.quantumrun.com/consulting/cloud-computing-industry-statistics",
+        "https://blockonomi.com/big-tech-plans-715-billion-ai-infrastructure-spend-in-2026",
+        "https://theaiinsider.tech/2026/07/02/meta-moves-to-monetise-its-ai-infrastructure-with-plans-for-a-cloud-computing-business",
+        "https://kloudping.com/cloud-computing-trends-july-2026",
+        "https://cgranier.com/reports/AI_Infrastructure_Report_2026.pdf",
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ai-business-trends-report-2026",
+        "https://www.simplilearn.com/trends-in-cloud-computing-article",
+        "https://www.analyticsinsight.net/data-centres/cloud-and-data-centers-in-2026-whats-changing-and-why-it-matters"
+      ],
+      "date": "2026-08-26T09:02:14.259932+00:00"
     }
   ],
-  "lastUpdated": "2026-08-26T08:31:51.137551+00:00"
+  "lastUpdated": "2026-08-26T09:02:14.259994+00:00"
 }
