@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Postpones Starship Launch as NASA Administrator Donation Tops Space Newsletter",
-      "urls": [
-        "https://www.yahoo.com/news/science/articles/spacex-starship-scrub-nasa-administrators-113124054.html"
-      ],
-      "date": "2026-08-17T22:31:46.892338+00:00"
-    },
-    {
       "title": "Dana White Holds Live UFC News Conference on Facebook for Upcoming Event Updates",
       "urls": [
         "https://www.facebook.com/ABCNews/videos/live-ufc-news-conference-ahead-of-white-house-event/1592244045661791"
@@ -10104,7 +10097,15 @@
         "https://www.nytimes.com/2025/06/26/climate/climate-heat-intensity.html"
       ],
       "date": "2026-08-27T22:31:44.623915+00:00"
+    },
+    {
+      "title": "CompTIA Releases Linux+ Certification V8 to Validate Modern Linux Skills",
+      "urls": [
+        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
+        "https://www.comptia.org/en-us/certifications/linux"
+      ],
+      "date": "2026-08-27T23:01:37.503134+00:00"
     }
   ],
-  "lastUpdated": "2026-08-27T22:31:44.623968+00:00"
+  "lastUpdated": "2026-08-27T23:01:37.503182+00:00"
 }
