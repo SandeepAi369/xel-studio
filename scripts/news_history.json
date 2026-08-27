@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chicago Marathon Announces Deepest Elite Field In Race History For 2026",
-      "urls": [
-        "https://www.espn.com/athletics/story/_/id/49415702/commonwealth-games-2026-today-day-schedule-top-athletes-full-guide-glasgow-event",
-        "https://www.nbcchicago.com/news/sports/chicago-marathon/2026-chicago-marathon-elite-lineup-one-of-the-deepest-fields-in-race-history/3965200",
-        "https://en.wikipedia.org/wiki/Marathon_world_record_progression"
-      ],
-      "date": "2026-08-17T21:31:35.245659+00:00"
-    },
-    {
       "title": "ExxonMobil Unveils AI Breakthrough to Transform Guyana Oil Exploration Ahead of Caribbean Energy Week",
       "urls": [
         "https://phys.org/news/2026-08-generative-ai-mathematics.html",
@@ -10036,7 +10027,32 @@
         "https://news.abplive.com/sports"
       ],
       "date": "2026-08-27T21:01:44.910156+00:00"
+    },
+    {
+      "title": "ScreenScreen Launches Open-Source Screen Reader Tool for Enhanced Accessibility Across Linux",
+      "urls": [
+        "https://ozewai.org/blog/ozewai-news/weekly-reading-list-17-august-2026",
+        "https://afb.org/news-publications/press-room/afb-news",
+        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
+        "https://www.pcmag.com/series/accessibility-technology",
+        "https://www.wired.com/story/web-accessibility-blind-users-dominos",
+        "https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/mobile-apps",
+        "https://www.thetechedvocate.org/how-to-enable-screen-reader",
+        "https://www.amazon.com/screen/s?k=screen",
+        "https://support.microsoft.com/en-US/Windows/Hardware/Display-Graphics/change-your-screen-resolution-and-layout-in-windows",
+        "https://www.merriam-webster.com/dictionary/screen",
+        "https://www.homedepot.com/b/Doors-Windows-Windows-Window-Screens/N-5yc1vZapvr",
+        "https://www.bestbuy.com/site/computers-pcs/computer-monitors/abcat0509000.c?id=abcat0509000%2F",
+        "https://www.amazon.com/screens/b?node=517832",
+        "https://screenrec.com/screen-recorder",
+        "https://classroomscreen.com",
+        "https://en.wikipedia.org/wiki/Screen",
+        "https://www.bestbuy.com",
+        "https://www.bestbuy.com/site/computers-pcs/computer-monitors/abcat0509000.c?id=abcat0509000",
+        "https://www.gnu.org/software/screen"
+      ],
+      "date": "2026-08-27T21:31:44.526497+00:00"
     }
   ],
-  "lastUpdated": "2026-08-27T21:01:44.910204+00:00"
+  "lastUpdated": "2026-08-27T21:31:44.526562+00:00"
 }
