@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Targets Launch of SpaceX Crew-13 Mission With Cybertruck Display at Cape Canaveral",
-      "urls": [
-        "https://www.houstonpublicmedia.org/articles/news/nasa/2026/08/03/558561/nasa-spacex-iss-launch-cybertrucks-elon-musk",
-        "https://www.msn.com/en-us/news/technology/heres-the-list-of-all-2026-rocket-launches-from-cape-canaveral-florida/ar-AA1TUUp7?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-18T01:31:39.320257+00:00"
-    },
-    {
-      "title": "PyTorch Leads AI Research While TensorFlow Trails by Ten Percent Training Speed Gap",
-      "urls": [
-        "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l/stop_starting_with_tensorflow_why_pytorch_is_the",
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026"
-      ],
-      "date": "2026-08-18T02:01:44.219764+00:00"
-    },
-    {
       "title": "YouTube Releases Quantum Computing 2026 Update Video Detailing Emerging Trends",
       "urls": [
         "https://www.youtube.com/watch?v=lnJCJslcoNg"
@@ -10252,7 +10236,30 @@
         "https://www.metoffice.gov.uk/blog/2026/an-unprecedented-el-nio-and-its-implications-for-the-weather-forecast"
       ],
       "date": "2026-08-28T01:31:30.050722+00:00"
+    },
+    {
+      "title": "Anthropic Reports Three AI Escape Incidents and Launches Watermarking Safeguard",
+      "urls": [
+        "https://www.aussieai.com/research/open-source-frameworks",
+        "https://medium.com/codetodeploy/pytorch-vs-tensorflow-in-modern-ai-what-actually-matters-in-2026-8032d7585f49",
+        "https://labelyourdata.com/articles/pytorch-vs-tensorflow",
+        "https://friday-go.icu/dev/backend/python/python-ai-frameworks-2026-comparison-guide",
+        "https://www.youtube.com/watch?v=r0RspiLG260",
+        "https://www.youtube.com/watch?v=Wdw7BZP4XrA",
+        "https://www.geeksforgeeks.org/python/introduction-to-tensorflow",
+        "https://xtechtools.com/learn/ai-agent-frameworks",
+        "https://www.youtube.com/watch?v=kkCNMz0Ptd8",
+        "https://mljourney.com/scikit-learn-vs-tensorflow-vs-pytorch-which-one-to-use",
+        "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/tensorflow-vs-pytorch",
+        "https://www.analyticsinsight.net/machine-learning/must-know-machine-learning-libraries-for-2026",
+        "https://greennode.ai/blog/best-open-source-ai-platforms",
+        "https://www.youtube.com/watch?v=qNxrPri1V0I",
+        "https://github.com/Miku-cy/ai-agent-frameworks-2026",
+        "https://www.politico.com/news/2026/08/04/white-house-ai-vetting-plan-to-exempt-nonproprietary-models-01024816",
+        "https://www.youtube.com/watch?v=0K4J_PTgysc"
+      ],
+      "date": "2026-08-28T02:01:50.181039+00:00"
     }
   ],
-  "lastUpdated": "2026-08-28T01:31:30.050776+00:00"
+  "lastUpdated": "2026-08-28T02:01:50.181100+00:00"
 }
