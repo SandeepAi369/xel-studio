@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Publishes New Open Source Report Highlighting Community Contributions",
-      "urls": [
-        "https://9to5linux.com/9to5linux-weekly-roundup-august-2nd-2026",
-        "https://www.linuxnews.net",
-        "https://www.prnewswire.com/news-releases/open-source-summit--embedded-linux-conference-europe-2026-schedule-champions-open-source-innovation-and-marks-35-years-of-linux-302843979.html",
-        "https://daily.dev/posts/linux-foundation-newsletter-august-2026-cxdogib0l",
-        "https://linuxlap.com/category/news",
-        "https://www.bleepingcomputer.com/news/linux",
-        "https://linuxsecurity.com/news",
-        "https://therealistjuggernaut.com/2025/08/08/linux-state-of-the-union-august-2025",
-        "https://www.linux.org",
-        "https://linuxiac.com/category/news/weekly-wrap-up",
-        "https://kernelnewbies.org/LinuxChanges",
-        "https://www.suse.com/news",
-        "https://www.linuxfoundation.org/resources/publications",
-        "https://www.bleepingcomputer.com/tag/linux"
-      ],
-      "date": "2026-08-23T14:31:29.577459+00:00"
-    },
-    {
       "title": "Ayushman Bharat Digital Mission Reaches 90 Crore ABHA Accounts, Expanding India's Health Network",
       "urls": [
         "https://www.msn.com/en-in/health/general/ayushman-bharat-health-account-abha-how-to-create-your-digital-health-id-and-why-it-is-useful/ar-AA28YtZE?ocid=BingNewsVerp",
@@ -13475,7 +13455,21 @@
         "https://scied.ucar.edu/learning-zone/climate-change-impacts/predictions-future-global-climate"
       ],
       "date": "2026-09-02T14:02:05.706337+00:00"
+    },
+    {
+      "title": "Indian Startup Partners With Google Cloud To Launch Scalable Cloud Platform for Enterprises",
+      "urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-chatgpt-ads-in-india/articleshow/133557730.cms",
+        "https://economictimes.indiatimes.com/ai/ai-insights/openai-launches-chatgpt-ads-in-india-over-50-brands-to-go-live-this-week/articleshow/133557302.cms?from=mdr",
+        "https://entrepreneur.economictimes.indiatimes.com/news/openai-launches-chatgpt-ads-in-india-with-over-50-brands-set-to-go-live/133556102",
+        "https://www.socialsamosa.com/industry-updates/openai-launches-chatgpt-ads-in-india-partners-with-wpp-and-omnicom-12442094",
+        "https://enterpriseai.economictimes.indiatimes.com/news/industry/openai-to-roll-out-chatgpt-ads-in-india-from-september-4/133561599",
+        "https://economictimes.indiatimes.com/topic/bharatgpt/news",
+        "https://trak.in/stories/this-indian-startup-partners-with-google-cloud-to-launch-bharatgpt-indias-own-llm-based-generative-ai-platform-1-2-billion-users-served",
+        "https://opensourceindia.org"
+      ],
+      "date": "2026-09-02T14:31:38.846854+00:00"
     }
   ],
-  "lastUpdated": "2026-09-02T14:02:05.706421+00:00"
+  "lastUpdated": "2026-09-02T14:31:38.846938+00:00"
 }
