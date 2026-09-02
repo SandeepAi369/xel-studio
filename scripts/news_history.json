@@ -13963,7 +13963,28 @@
         "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-15-26"
       ],
       "date": "2026-09-02T04:31:48.380680+00:00"
+    },
+    {
+      "title": "IntuitionLabs publishes an explanatory article that details how Mistral 3’s MoE design splits workload across expert modules, reducing compute cost",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://www.reddit.com/r/MistralAI/comments/1sy9kd2/who_else_is_excited",
+        "https://www.reddit.com/r/singularity/comments/1b0iv91/mistral_large_au_large_released",
+        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+        "https://en.wikipedia.org/wiki/Mistral_AI",
+        "https://docs.mistral.ai/resources/changelogs",
+        "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
+        "https://mistral.ai/news/mistral-3",
+        "https://www.voiceflow.com/blog/mistral-ai",
+        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
+        "https://blogs.nvidia.com/blog/mistral-frontier-open-models",
+        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai",
+        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models",
+        "https://mistral.ai"
+      ],
+      "date": "2026-09-02T05:01:48.980936+00:00"
     }
   ],
-  "lastUpdated": "2026-09-02T04:31:48.380761+00:00"
+  "lastUpdated": "2026-09-02T05:01:48.981007+00:00"
 }
