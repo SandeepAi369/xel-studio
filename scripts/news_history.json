@@ -1,59 +1,6 @@
 {
   "entries": [
     {
-      "title": "Colombia Experiences Major Earthquake Prompting U.S. Embassy Alerts and International Monitoring",
-      "urls": [
-        "https://www.reuters.com/business/environment/magnitude-69-earthquake-strikes-off-coast-indonesia-emsc-says-2026-08-14",
-        "https://en.wikipedia.org/wiki/2026_Colombia_earthquake",
-        "https://www.volcanodiscovery.com/earthquake/news/326733/World-Earthquake-Report-for-Monday-17-August-2026.html",
-        "https://co.usembassy.gov/natural-disaster-alert-colombia-earthquake-update-1-august-11-2026",
-        "https://co.usembassy.gov/natural-disaster-alert-colombia-earthquake-update-2-august-12-2026",
-        "https://volcanoes.einnews.com",
-        "https://disasterglobe.com",
-        "https://worldnaturaldisasters.com",
-        "https://en.wikipedia.org/wiki/2026_Flores_earthquake",
-        "https://www.forbes.com/sites/chloedemrovsky/2026/07/20/lessons-after-venezuela-scaling-earthquake-safety-innovation",
-        "https://www.volcanosatlas.com/latest-eruptions",
-        "https://www.volcanodiscovery.com/earthquake-monitor.html",
-        "https://www.newsnow.co.uk/h/World+News/Natural+Disasters/Earthquakes",
-        "https://www.the-world-now.com/live-world-map",
-        "https://www.usgs.gov",
-        "https://www.sciencedaily.com/news/earth_climate/geology",
-        "https://economictimes.indiatimes.com/news/earthquake-today",
-        "https://reliefweb.int/disasters",
-        "https://volcanoearth.wordpress.com/2025/08/10/9-august-2025"
-      ],
-      "date": "2026-08-24T18:01:48.488069+00:00"
-    },
-    {
-      "title": "Tux Machines Highlights Open Source Software Leftovers Amid Community Preservation Calls",
-      "urls": [
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-34-2026-august-17-23",
-        "https://news.tuxmachines.org/n/2026/08/23/Free_Libre_and_Open_Source_Software_Leftovers.shtml",
-        "https://seand.xyz/blog/2026/07/01/open-source-engineering-leadership-update-july-2026",
-        "https://opensource.com/tags/news",
-        "https://www.linuxfoundation.org/blog/tag/newsletter",
-        "https://en.wikipedia.org/wiki/LWN.net",
-        "https://en.wikipedia.org/wiki/Online_newspaper",
-        "https://techonlinuxstuff.wordpress.com/2026/08/23/this-week-in-open-source-august-23-2026-news-updates-you-missed",
-        "https://9to5linux.com/9to5linux-weekly-roundup-august-23rd-2026",
-        "https://www.linuxfoundation.org/blog",
-        "https://linuxcommunity.io",
-        "https://ubuntu.com/community",
-        "https://www.gentoo.org/news",
-        "https://www.linuxjournal.com/news",
-        "https://sourceforge.net",
-        "https://opensource.googleblog.com",
-        "https://blog.linuxmint.com",
-        "https://opensource.googleblog.com/2026/01/this-week-in-open-source-12.html",
-        "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
-        "https://opensource.org/blog",
-        "https://www.linuxfoundation.org/press",
-        "https://en.wikipedia.org/wiki/Fedora_Linux"
-      ],
-      "date": "2026-08-24T18:31:50.543275+00:00"
-    },
-    {
       "title": "AIIMS Opens NORCET 11 Registration With August Deadline and Fee Refund for Reserved Candidates",
       "urls": [
         "https://en.caasindia.in",
@@ -13040,7 +12987,45 @@
         "https://www.theguardian.com/environment/wildlife/2026/jan/05/all"
       ],
       "date": "2026-09-03T18:01:44.620718+00:00"
+    },
+    {
+      "title": "Nvidia Leads Open Secure AI Alliance to Boost Safety of Open‑Source Models",
+      "urls": [
+        "https://buttondown.com/agent-k/archive/llm-daily-september-02-2026",
+        "https://buttondown.com/agent-k/archive/llm-daily-september-01-2026",
+        "https://www.digitalapplied.com/blog/ai-model-releases-september-2026-tracker",
+        "https://1023jack.com/news/how-open-ai-models-are-evolving-by-summer-2026",
+        "https://thehill.com/policy/technology/5991875-nvidia-launches-open-secure-ai-alliance",
+        "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
+        "https://www.geeky-gadgets.com/deepseek-harness-overview",
+        "https://siliconangle.com/2026/07/27/tech-industry-leaders-join-form-open-secure-ai-alliance-promote-safety-security",
+        "https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html",
+        "https://theconversation.com/china-is-shaping-the-future-of-open-source-technology-including-ai-288061",
+        "https://thebriefscript.com/open-source-ai-models-2026",
+        "https://www.devflokers.com/blog/daily-ai-tech-updates-july-september-2026",
+        "https://data-gate.ch/open-source-ai-models-2026-community-innovation",
+        "https://opensource.org/blog/category/news",
+        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
+        "https://spectrum.ieee.org/state-of-ai-index-2026",
+        "https://deepmind.google/blog",
+        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
+        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai",
+        "https://devblogs.microsoft.com",
+        "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-516g",
+        "https://opensource.com",
+        "https://openai.com/research",
+        "https://www.buildfastwithai.com/blogs/best-open-source-ai-models-2026",
+        "https://www.technologyreview.com/2026/04/21/1135658/china-open-source-models-ai-artificial-intelligence",
+        "https://cloud.google.com/use-cases/open-source-ai",
+        "https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai",
+        "https://www.weforum.org/stories/2025/02/open-source-ai-innovation-deepseek",
+        "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+        "https://blogs.nvidia.com/blog/2026-ces-special-presentation",
+        "https://hai.stanford.edu",
+        "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai"
+      ],
+      "date": "2026-09-03T18:32:02.289181+00:00"
     }
   ],
-  "lastUpdated": "2026-09-03T18:01:44.620818+00:00"
+  "lastUpdated": "2026-09-03T18:32:02.289271+00:00"
 }
