@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clockwise Software Highlights Leading AI Frameworks for 2026 Applications and Reliability",
-      "urls": [
-        "https://marutitech.com/top-8-deep-learning-frameworks",
-        "https://clockwise.software/blog/artificial-intelligence-framework",
-        "https://aiweekly.co/ai-news-today/open-source-ai-news",
-        "https://learnprompting.org/blog/open-source-ai-frameworks",
-        "https://savvycomsoftware.com/blog/ai-development-framework",
-        "https://arxiv.org/abs/2508.04035",
-        "https://www.geeksforgeeks.org/blogs/top-open-source-ai-libraries",
-        "https://northflank.com/blog/tensorflow-alternatives",
-        "https://www.zoomhoot.com/2025/08/20/2025-deep-learning-framework-comparison-pytorch-vs-tensorflow-insights",
-        "https://www.simplilearn.com/open-source-ai-frameworks-article"
-      ],
-      "date": "2026-08-24T02:01:53.126710+00:00"
-    },
-    {
       "title": "Freenome Receives FDA Breakthrough Device Designation for SimpleScreen Lung Cancer Test",
       "urls": [
         "https://www.sobonix.com/blog/explore-the-latest-breakthroughs-in-health-ai-that-could-change-medicine-forever",
@@ -13174,7 +13158,27 @@
         "https://www.engadget.com/2220436/openai-admits-models-hacked-hugging-face-on-their-own"
       ],
       "date": "2026-09-03T02:01:48.978180+00:00"
+    },
+    {
+      "title": "World Health Organization Highlights Nipah Virus Risk in India and Urges Strengthened Surveillance",
+      "urls": [
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON593",
+        "https://timesofindia.indiatimes.com/india/low-risk-travel-curbs-not-needed-who-assesses-nipah-virus-cases-in-india/articleshow/127793717.cms",
+        "https://www.bu.edu/sph/news/articles/2026/sph-in-india-partnering-for-progress-on-disease-climate-and-sanitation",
+        "https://www.cdc.gov/global-health/countries/india.html",
+        "https://gkbooks.in/disease-in-news-science-tech-one-liners",
+        "https://theprint.in/category/health",
+        "https://data.who.int/dashboards/covid19/cases",
+        "https://www.who.int/emergencies/disease-outbreak-news",
+        "https://cdn.who.int/media/docs/default-source/wr-india/india-annual-report--2024.pdf?sfvrsn=aceb146_3",
+        "https://www.who.int/india/publications",
+        "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(22)00008-1/fulltext",
+        "https://news.docthub.com",
+        "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen",
+        "https://data.who.int/countries/356"
+      ],
+      "date": "2026-09-03T02:31:43.305908+00:00"
     }
   ],
-  "lastUpdated": "2026-09-03T02:01:48.978240+00:00"
+  "lastUpdated": "2026-09-03T02:31:43.305987+00:00"
 }
