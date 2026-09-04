@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mozilla CTO Calls for Internet‑Style Open AI Model Amid Rising Hacking Concerns",
-      "urls": [
-        "https://siliconangle.com/2026/08/11/openwaldo-launches-build-collaborative-community-open-source-ai",
-        "https://www.msn.com/en-us/news/technology/open-vs-closed-the-debate-shaping-the-future-of-ai/ar-AA29vN0j?ocid=BingNewsVerp",
-        "https://www.defenseone.com/business/2026/08/attackers-are-targeting-open-source-ai-just-big-tech-embracing-it/415165",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/openai-says-it-slowed-astra-model-development-over-security-concerns/ar-AA29Dn6Z?ocid=BingNewsVerp",
-        "https://thehill.com/policy/technology/6003142-nvidia-launches-secure-ai-alliance",
-        "https://www.forbes.com/sites/timkeary/2026/07/28/nvidia-alliance-backs-open-source-ai-after-hugging-face-breach",
-        "https://www.msn.com/en-us/news/technology/mozilla-s-cto-thinks-ai-should-be-built-like-the-internet/ar-AA2a1qKY?ocid=BingNewsVerp",
-        "https://www.nytimes.com/2026/08/10/technology/meta-ai-open-source.html",
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://local-ai-zone.github.io/blog/july-2026-ai-model-roundup.html",
-        "https://champaignmagazine.com/2026/08/23/ai-by-ai-weekly-top-5-august-17-23-2026",
-        "https://releasebot.io/updates/openai",
-        "https://rsdoiel.github.io/antenna/libraries.html",
-        "https://simonw.substack.com/p/can-coding-agents-relicense-open",
-        "https://alobbs.com/post/2026-08-17",
-        "https://alobbs.com/post/2026-08-23",
-        "https://alobbs.com/post/2026-08-18",
-        "https://alobbs.com/post/2026-08-03"
-      ],
-      "date": "2026-08-25T18:31:46.135661+00:00"
-    },
-    {
       "title": "India Pharma Exports Rise 6.8 Percent in Q1 FY27 Amid Growing Global Demand",
       "urls": [
         "https://www.whalesbook.com/news/English/healthcarebiotech/US-Phased-Tariffs-on-Generic-Drugs-What-It-Means-for-Indian-Pharma/6a8bb49584d2dd5c12e2251d",
@@ -14267,7 +14243,22 @@
         "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
       ],
       "date": "2026-09-04T18:01:52.270944+00:00"
+    },
+    {
+      "title": "CoRover and Google Cloud Launch BharatGPT, India’s First Generative AI Conversational Bot",
+      "urls": [
+        "https://www.thehindu.com/sci-tech/technology/over-134-crore-spent-on-proprietary-software-at-premier-institutes-says-open-source-collective/article71428079.ece",
+        "https://firstindia.co.in/news/press-releases/corover-and-google-cloud-partner-to-bring-bharatgpt-a-pioneering-generative-ai-powered-conversational-bot-for-india",
+        "https://www.data.gov.in",
+        "https://opensource.googleblog.com",
+        "https://government.economictimes.indiatimes.com/news/technology/indias-first-indigenous-genai-bharatgpt-unveiled/106899694",
+        "https://nptel.ac.in",
+        "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
+        "https://www.youtube.com/shorts/fXHUBEMJJdk",
+        "https://analyticsindiamag.com/ai-trends/18-most-downloaded-open-source-indian-ai-models"
+      ],
+      "date": "2026-09-04T18:32:04.164530+00:00"
     }
   ],
-  "lastUpdated": "2026-09-04T18:01:52.271140+00:00"
+  "lastUpdated": "2026-09-04T18:32:04.164607+00:00"
 }
