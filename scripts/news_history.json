@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "AT&T Publishes 2024 Accessibility Review Highlighting Major Inclusion Milestones Across Products",
-      "urls": [
-        "https://www.utmb.edu/accessibility/training/news",
-        "https://doit.uw.edu/disability-in-the-news",
-        "https://www.ameridisability.com/spotlight",
-        "https://www.disabilityscoop.com/2026/01/30/schools-face-challenges-providing-assistive-technology/31836",
-        "https://www.disabilitydebrief.org/library/news-jul2026",
-        "https://webable.com",
-        "https://www.npr.org/2026/06/04/nx-s1-5812850/screens-schools-students-with-disabilities",
-        "https://toptechtidbits.com/newsletter-08-20-2026",
-        "https://www.assistivetechnews.com",
-        "https://www.rehabtool.com/news.html",
-        "https://about.att.com/sites/accessibility/stories/2024-accessibility-highlights.html",
-        "https://techcrunch.com/tag/accessibility"
-      ],
-      "date": "2026-08-26T09:31:41.684539+00:00"
-    },
-    {
       "title": "Kerr Shatters World Mile Record With 3:42.66 Finish In London",
       "urls": [
         "https://dukespace.lib.duke.edu/server/api/core/bitstreams/d472171b-001c-479e-8ff1-21190a364a78/content",
@@ -14108,7 +14090,73 @@
         "https://www.atia.org"
       ],
       "date": "2026-09-05T09:31:38.821326+00:00"
+    },
+    {
+      "title": "PyTorch Foundation Releases Open‑Source AI Update Amid Growing Framework Competition",
+      "urls": [
+        "https://pytorch.org/blog/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1ta6mqt/the_2026_pytorch_vs_tensorflow_debate_which_one",
+        "https://www.reddit.com/r/deeplearning/comments/1lk06rf/which_deep_learning_framework_should_i_choose",
+        "https://www.reddit.com/r/learnmachinelearning/comments/1qclstb/tensorflow_isnt_dead_its_just_becoming_the_cobol",
+        "https://www.opodab.com/2026/08/open-source-ai-frameworks-2026.html",
+        "https://www.atlantic.net/gpu-server-hosting/top-open-source-ai-ml-frameworks",
+        "https://en.wikipedia.org/wiki/PyTorch",
+        "https://www.esparkinfo.com/blog/deep-learning-frameworks",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://www.sofrik.com/5-powerful-ways-of-pytorch-and-tensorflow-in-2026",
+        "https://uvik.net/blog/pytorch-vs-tensorflow",
+        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
+        "https://dev.to/tech_croc_f32fbb6ea8ed4/the-great-ai-convergence-pytorch-vs-tensorflow-in-2026-845",
+        "https://nerdleveltech.com/the-best-opensource-ai-tools-in-2025-power-freedom-and-practicality",
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
+        "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026",
+        "https://huyenchip.com/2024/03/14/ai-oss.html",
+        "https://kernelplanet.org",
+        "https://www.gla.ac.uk/schools/computing/research/researchsections/systems-section/events",
+        "https://www.sitepoint.com/open-source-trends",
+        "https://jack-clark.net/page/40",
+        "https://jack-clark.net/page/22",
+        "https://openssf.org/author/craig",
+        "https://news.tuxmachines.org/n/2025/09/16/Ubuntu_Weekly_Newsletter_and_Canonical_Make_It_Easier_to_Instal.shtml",
+        "https://papers.academic-conferences.org/index.php/icair/issue/download/41/45",
+        "https://papers.academic-conferences.org/index.php/icair/issue/download/56/111",
+        "https://rssdss.design.blog/blog-feed/page/2",
+        "https://www.scaruffi.com/svhistory/sil25.html",
+        "https://euvolution.com/open-source-convergence/category/open-source-software/page/18",
+        "https://euvolution.com/open-source-convergence/page/1459",
+        "https://news.risky.biz/risky-bulletin-linux-kernel-discloses-442-cves-as-ai-bugpocalypse-settles-in",
+        "https://buttondown.com/ainews/archive/ainews-pixtral-12b-mistral-beats-llama-to",
+        "https://buttondown.com/ainews/archive/ainews-replit-agent-how-did-everybody-beat-devin",
+        "https://buttondown.com/ainews/archive/ainews-promptable-prosody-sota-asr-and-semantic",
+        "https://www.tib-op.org/ojs/index.php/bis/issue/download/2/4",
+        "https://radar.inria.fr/report/2025/mnemosyne/index.html",
+        "https://www.comsis.org/pdf.php?id=1901",
+        "https://www.merchantstore.com/gen-programming.html",
+        "https://www.youtube.com/watch?v=iyHkg7TmHmE",
+        "https://pytorch.org/announcements",
+        "https://heytensor.com/research/ml-framework-comparison-2026.html",
+        "https://best-ai.news/ai-products/pytorch",
+        "https://medium.com/@mahrab.khan/the-great-ai-convergence-pytorch-vs-tensorflow-in-2026-62efcbbbe6f8",
+        "https://www.techtarget.com/searchEnterpriseAI/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning",
+        "https://www.prnewswire.com/news-releases/kubecon--cloudnativecon-openinfra-summit-and-pytorch-conference-unite-in-china-to-scale-ai-302804908.html",
+        "https://www.freecodecamp.org/news/pytorch-vs-tensorflow-for-deep-learning-projects",
+        "https://alitech.io/blog/comparative-analysis-of-open-source-ai-frameworks",
+        "https://pytorch.org/blog/2024-year-in-review",
+        "https://is4.ai/blog/our-blog-1/tensorflow-vs-pytorch-comparison-2025-81",
+        "https://pytorch.org/blog/pytorch-foundation-in-2025-a-year-in-review",
+        "https://onthenode.com/list/ai-frameworks-in-2025-tensorflow-vs-pytorch",
+        "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+        "https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras",
+        "https://uplatz.com/blog/premier-open-source-machine-learning-frameworks-tensorflow-pytorch-and-scikit-learn",
+        "https://blogs.nvidia.com/blog/open-source-ai-week",
+        "https://northflank.com/blog/tensorflow-alternatives",
+        "https://www.nvidia.com/en-us/events/open-source-ai-week",
+        "https://learnprompting.org/blog/open-source-ai-frameworks",
+        "https://newsroom.arm.com/news/pytorch-kleidi-integrations-cloud-to-edge",
+        "https://qubittool.com/blog/ai-agent-framework-comparison-2026"
+      ],
+      "date": "2026-09-05T10:01:53.814383+00:00"
     }
   ],
-  "lastUpdated": "2026-09-05T09:31:38.821453+00:00"
+  "lastUpdated": "2026-09-05T10:01:53.814537+00:00"
 }
