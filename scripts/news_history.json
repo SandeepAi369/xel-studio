@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Simon Willison Releases LLM With Reasoning Traces, OpenAI Responses, and Enhanced Logging",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
-        "https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models",
-        "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
-        "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms",
-        "https://aibriefing.dev",
-        "https://www.ai-insight.org/reports/global-models-2026",
-        "https://techcrunch.com/2025/12/22/chatgpt-everything-to-know-about-the-ai-chatbot"
-      ],
-      "date": "2026-08-26T23:01:41.855343+00:00"
-    },
-    {
       "title": "India’s Pharmaceutical Exports Grow 6.8 Percent in Q1 FY27 Amid Rising Global Demand",
       "urls": [
         "https://www.facebook.com/BusinessToday/videos/pharma-enters-2026-with-mixed-signals-jefferies-expects-a-weak-h1cy26-for-export/1582777619575976",
@@ -14344,7 +14331,23 @@
         "https://travel.gc.ca/destinations/united-states"
       ],
       "date": "2026-09-05T22:31:41.722449+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Open Model Survey Highlighting Community Growth and New Tools",
+      "urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://learncsdesigns.medium.com/day-6-open-source-ai-ecosystem-in-2026-64bf78c77bb9",
+        "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=dda72d570db2",
+        "https://www.cnbc.com/2026/09/03/whats-behind-nvidia-buying-hugging-face-look-to-microsoft.html",
+        "https://af.net/realtime/hugging-face-expands-open-source-ai-infrastructure-with-vllm-release-and-langchain-integration",
+        "https://github.com/fabledruns/awesome-huggingface-models",
+        "https://huggingface.co/docs",
+        "https://huggingface.co/spaces",
+        "https://af.net/realtime/open-source-ai-tools-advance-in-may-2026-hugging-face-langchain-and-developer-innovations",
+        "https://app.aibradaa.com/blog/open-source-ai-tools-may-2026"
+      ],
+      "date": "2026-09-05T23:02:12.407661+00:00"
     }
   ],
-  "lastUpdated": "2026-09-05T22:31:41.722532+00:00"
+  "lastUpdated": "2026-09-05T23:02:12.407819+00:00"
 }
