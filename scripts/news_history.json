@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Open AI Models to Revive Strategy and Expand Developer Access",
-      "urls": [
-        "https://benchlm.ai/model-updates/releases/august-2026",
-        "https://buttondown.com/agent-k/archive/llm-daily-august-10-2026",
-        "https://www.technn.com/topics/large-language-models",
-        "https://benchlm.ai/model-updates",
-        "https://emergent.sh/news/meta-open-models-2026-officially-launched-e5ce2",
-        "https://www.demandsphere.com/research/demandsphere-radar/ai-frontier-model-tracker/releases"
-      ],
-      "date": "2026-08-26T02:01:51.845177+00:00"
-    },
-    {
       "title": "Yahoo Finance Reports Telemedicine Market to Reach $180 Billion in 2026",
       "urls": [
         "https://www.aamc.org/news/telehealth-innovations-health-technology",
@@ -14134,7 +14122,68 @@
         "https://medium.com/@aleksej.gudkov/mistral-ai-models-examples-unlocking-the-potential-of-open-source-llms-c1919ea10af5"
       ],
       "date": "2026-09-05T02:01:40.762664+00:00"
+    },
+    {
+      "title": "Anthropic Reports Claude AI Model Hacked at Three Companies During Safety Tests",
+      "urls": [
+        "https://www.morningstar.com/news/business-wire/20260510618158/ge-healthcare-next-gen-signa-mr-technology-helps-advance-research-discovery-and-translate-innovation-into-clinical-impact",
+        "https://www.newsy-today.com/closing-the-gap-between-discovery-and-care-september-2026",
+        "https://scitechdaily.com/news/health",
+        "https://www.youtube.com/watch?v=72Uj2RI_hq8",
+        "https://healthcaretoday.com/article/closing-the-gap-between-discovery-and-care-september-2026",
+        "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx",
+        "https://www.bioworld.com/topics/85-bioworld-medtech",
+        "https://www.sciencedaily.com/news/health_medicine/medical_devices",
+        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
+        "https://www.medscape.com",
+        "https://www.dhcs.ca.gov/medi-cal",
+        "https://www.dhcs.ca.gov/medi-cal/benefits",
+        "https://www.coveredca.com/health/medi-cal",
+        "https://www.pihhealth.org/find-a-location/locations-profile/family-medicine-cerritos",
+        "https://www.marginalia-search.com/r/7/1355837624811617/dbhz20gkhj?hash=lcn5bDNv2Gfy0A4rpevANIaOTDdHTBJPsvPKO5VNw0Q",
+        "https://www.marginalia-search.com/r/7/694579091210522/dbhz20gkhj?hash=DawI2mCsOJLWrFeNGMrpxjbMTXGTn1b4n7t-rpEM-34",
+        "https://www.marginalia-search.com/r/7/694579091210501/dbhz20gkhj?hash=x35H8--2GuT6EAIg12ZlIuMsHRwK3PWfzi-9chtIgNI",
+        "https://www.marginalia-search.com/r/7/694579091210388/dbhz20gkhj?hash=hyxvE0YmliMtVOyNFWmpWYphZc7sf0EZYWc6UWaDZEE",
+        "https://www.marginalia-search.com/r/7/694579091210385/dbhz20gkhj?hash=dx5VaBJrCTFGhcbMc2HemIP3QsVy5-WDctyq5Qd4APg",
+        "https://www.marginalia-search.com/r/7/694579091210389/dbhz20gkhj?hash=wc8SCkppy0vomhdF2oSHcuN62nTRoFhBN4ZtjPAK1nI",
+        "https://www.marginalia-search.com/r/7/69177226310340/dbhz20gkhj?hash=MP5gwH7GNgawOGIY7k7mkjHQI6q7p94ZAUv0J-JzyFw",
+        "https://www.marginalia-search.com/r/7/8034810075459/dbhz20gkhj?hash=_Sr-cjqVAp93yOwSOg51sZ2yY6zYzI-Q-dkkZ5HAP-Y",
+        "https://www.marginalia-search.com/r/7/8034810075466/dbhz20gkhj?hash=qnIt0iN5VxV-R-ZkMF72mz-2MgZUt1KTIFqlpvj0Yo8",
+        "https://www.marginalia-search.com/r/9/2267811720296/dbhz20gkhj?hash=KI_CKrrcdEjOo-BoHVaosv6ZYbNq54gqZ4Bo-9cr7Nk",
+        "https://www.marginalia-search.com/r/9/2267813550849/dbhz20gkhj?hash=D3vcq2hqfFBNl6lKdiJrHVb7t5qylXBAT7fiEsr_qFU",
+        "https://www.marginalia-search.com/r/7/868400444211207/dbhz20gkhj?hash=oPyfnHkGVaD203LN5ihyFwYOwpVqhRB5AT-8LtSYmxU",
+        "https://www.marginalia-search.com/r/11/397109320745147/dbhz20gkhj?hash=fJUfRshWPl0Itz6cINJrBGTQGZsCuvseIb_V64u0ZXM",
+        "https://www.marginalia-search.com/r/11/397109320745250/dbhz20gkhj?hash=GEQiVA-KgI0NIE8W04PoV77BwCvayTTUY0zuK8I7VH4",
+        "https://www.marginalia-search.com/r/7/19074083979268/dbhz20gkhj?hash=CoDiSaShV5KvTqalR5bt0RSDfViybjB7nc0BR6Pgba4",
+        "https://www.marginalia-search.com/r/7/192917717124751/dbhz20gkhj?hash=C0TfdNV0XnhNHvk75ulPEjrcIvH0AVhGij60ezJFcdk",
+        "https://www.marginalia-search.com/r/7/192917717125062/dbhz20gkhj?hash=PHLXOYwredS31BTVVn5rUv74qWTPeNeVQ26PjmBLXPY",
+        "https://www.marginalia-search.com/r/7/192917717125232/dbhz20gkhj?hash=BBW6vJ-DSngGS7FUwG1PDFwvm-Z-9m52LxiodiojWEE",
+        "https://www.marginalia-search.com/r/7/192917717125239/dbhz20gkhj?hash=Zm9-ffl888IboGrXy5Un65aeAG-z4FVWuekxnQQZMwE",
+        "https://www.marginalia-search.com/r/7/192917717125078/dbhz20gkhj?hash=YmeCQvH4PIpwA3ArUvPMQQVBh1WSdsXiIoQ1CgVQe8w",
+        "https://www.marginalia-search.com/r/7/3127407283844/dbhz20gkhj?hash=85f3Vu67xUVMHMZ9pttXfwWjqbPiaWNsN5jgNJf3BMo",
+        "https://www.marginalia-search.com/r/7/446301460234322/dbhz20gkhj?hash=_FeAbpIf3Xq9JTgev679P0C837q0jRtJy32n4fRxd0I",
+        "https://www.marginalia-search.com/r/7/446301460234294/dbhz20gkhj?hash=bk9P3fcOmfc14qxmSXRRuZhJaRisKS0Cx3-B1_s9zkc",
+        "https://www.marginalia-search.com/r/7/446301460234397/dbhz20gkhj?hash=aaakZroIPj2nbw8CH45k9aOMbu_qK0lDfhk1P-m2zbU",
+        "https://www.marginalia-search.com/r/7/446301460234278/dbhz20gkhj?hash=rUtIiy3tZKrbbcvsFfCoHHkwECPADeM3HyN-omOM1OM",
+        "https://www.marginalia-search.com/r/7/446301460234284/dbhz20gkhj?hash=0YbYE0afk3rBiiJ9raI3g3yzVE2pAS4jvklIN9i-WNM",
+        "https://www.marginalia-search.com/r/7/3378058887318/dbhz20gkhj?hash=CaStBrmyi1Qi2iff57jivn_XWeniUxO4kNQhFBW1gKY",
+        "https://www.marginalia-search.com/r/7/18782029558579322/dbhz20gkhj?hash=2lY9xM-7w30fQtDDEjp1UtU0lKUjlTqKzbN8t0T2sWI",
+        "https://www.marginalia-search.com/r/7/27605079674597353/dbhz20gkhj?hash=EJajW-BHluN2itnc_lHYnN5oVgMysnPi-cPsXjSWFNk",
+        "https://www.marginalia-search.com/r/7/27605079674594880/dbhz20gkhj?hash=tpVvdIoZOLALU4aV5SrCZLHLkkQIzsQCZ0iOsrsZy3Y",
+        "https://www.marginalia-search.com/r/7/116735868928003/dbhz20gkhj?hash=E8FCduEWCSKx48LkgwOoj7hsdPjWtt5z1TE7j1l7Bvs",
+        "https://www.marginalia-search.com/r/11/28972749800079528/dbhz20gkhj?hash=9NztedUD42u3-woxzGPpHveToHNADOdNjrcMTevNO5o",
+        "https://www.marginalia-search.com/r/11/28972749800079540/dbhz20gkhj?hash=j2sZ_zYb-yD70RW4UzPF6kJxdURfKmJzPFp6tLbssdA",
+        "https://www.marginalia-search.com/r/11/28972749800079535/dbhz20gkhj?hash=Xh0q8h0_CWXqILVzW4B8SFIijKjcX9u1-wN7WiNBB8E",
+        "https://www.marginalia-search.com/r/11/28972749800079527/dbhz20gkhj?hash=QLttSDL_4Y3j__E15QRuDTuPare5QOQDcw87o2FqG5w",
+        "https://www.marginalia-search.com/r/11/28972749800079435/dbhz20gkhj?hash=qvjwBQvWyE2kjZ5EIvtHFZvtb-rFjtncpi5YHUFHaLA",
+        "https://www.marginalia-search.com/r/7/3361952760602/dbhz20gkhj?hash=6r_ZBva6XUoZ_8eUowk0lPtxAvWtzXml0Y8F990ERRk",
+        "https://www.marginalia-search.com/r/7/61414341349759/dbhz20gkhj?hash=1ZDahVs8czFjHawaqw50ZNOLOgZmrzq35lfloWXtlzc",
+        "https://www.marginalia-search.com/r/7/61414341351097/dbhz20gkhj?hash=gbS6NYdyfsg8NSlwD98ORnj58ALWq_rSObbQWgChSGI",
+        "https://www.marginalia-search.com/r/7/61414341351535/dbhz20gkhj?hash=xbfb-gmTpzDCpGvs5Pg7fkArcXB8S2AWGynN3GVoxLM"
+      ],
+      "date": "2026-09-05T02:31:43.295499+00:00"
     }
   ],
-  "lastUpdated": "2026-09-05T02:01:40.762768+00:00"
+  "lastUpdated": "2026-09-05T02:31:43.295574+00:00"
 }
