@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telemedicine Expands Access to Care With Remote Consultations Across United States",
-      "urls": [
-        "https://www.iotsmartscales.com/Industry-Knowledge/Digital-Health-News--Virtual-Care-Matures-As-Ai-driven-Diagnostics-Reshape-Reimbursement-And-Regulatory-Landscapes-5487.html",
-        "https://digitalhealthwire.com",
-        "https://www.medicalnewstoday.com/articles/telemedicine",
-        "https://www.telemedicine.com",
-        "https://www.goodrx.com/healthcare-access/telehealth/what-is-telemedicine",
-        "https://telehealth.hhs.gov/patients/why-use-telehealth",
-        "https://www.teladochealth.com",
-        "https://www.auamed.org/blog/what-is-telemedicine",
-        "https://en.wikipedia.org/wiki/Telehealth",
-        "https://www.news-medical.net/health/What-is-Telemedicine.aspx",
-        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
-        "https://www.healthline.com/health/telemedicine"
-      ],
-      "date": "2026-08-25T23:31:42.940121+00:00"
-    },
-    {
       "title": "Google Cloud Gains Market Share as AWS Declines in Q2 2026 Amid Growing Enterprise Adoption",
       "urls": [
         "https://virtualizationreview.com/articles/2026/03/20/nvidia-aws-and-google-cloud-spotlight-ai-infrastructure-push-at-gtc-2026.aspx",
@@ -14240,7 +14222,46 @@
         "https://zollege.in/university/184767-all-india-institute-of-medical-sciences-aiims-new-delhi/news"
       ],
       "date": "2026-09-04T23:31:33.951896+00:00"
+    },
+    {
+      "title": "Nvidia Secures SpaceX AI Contract Boosting Shares as AMD Declines",
+      "urls": [
+        "https://finance.yahoo.com/technology/articles/3-semiconductor-stocks-buy-heading-110101367.html",
+        "https://www.siliconvalley.com/2026/06/01/nvidia-is-taking-on-intel-and-amd-with-ai-chip-for-computers",
+        "https://www.cnn.com/markets/stocks/AMD",
+        "https://www.forbes.com/sites/investor-hub/article/semiconductor-stocks-to-buy-and-ignore",
+        "https://finance.biggo.com/news/219fd0f3-8b2e-4e21-8949-e9ecac257de3",
+        "https://www.myaihardware.com/news",
+        "https://www.digitimes.com/news/a20260903VL227/ai-agent-eda-design-hardware-software-nvidia.html",
+        "https://intellectia.ai/blog/ai-chip-stocks-investment-july-2026",
+        "https://intellectia.ai/blog/ai-semiconductor-stocks-july-2026",
+        "https://www.msn.com/en-us/money/topstocks/nvidia-has-500-billion-in-ai-chip-bookings-covering-2025-and-2026-a-backlog-investors-can-track-for-future-revenue/ar-AA29fm4b?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/money/topstocks/nvidia-dominates-ai-chips-but-bofa-sees-amd-closing-in/ar-AA29yRKY?ocid=BingNewsVerp",
+        "https://finance.yahoo.com/technology/ai/articles/nvidia-just-won-major-spacex-171119544.html",
+        "https://www.forbes.com/sites/jonmarkman/2026/06/02/nvidia-vera-cpu-is-a-biggerthreat-to-intel--amd-than-investors-think",
+        "https://www.msn.com/en-us/money/general/nvidia-receives-top-pick-as-bmo-initiates-coverage-on-array-of-semiconductor-stocks/ar-AA2aEUQE?ocid=BingNewsVerp",
+        "https://intellectia.ai/blog/ai-semiconductor-boom-2026",
+        "https://kantenna.com/topic/ces-2026-nvidia-amd-intel-next-gen-ai-chips",
+        "https://computing.net/news/stocks/nvidia-vs-amd-breaking-down-the-2026-ai-chip-battle-by-the-numbers",
+        "https://abhs.in/blog/ai-chip-supply-chain-2026",
+        "https://finance.yahoo.com/news/nvidias-85-gpu-market-share-210500376.html?fr=sycsrp_catchall",
+        "https://aimultiple.com/ai-chip-makers",
+        "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html?fr=sycsrp_catchall",
+        "https://tech-insider.org/arm-agi-cpu-data-center-chip-2026",
+        "https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02",
+        "https://techstartups.com/2026/08/03/top-tech-news-today-august-3-2026-alibaba-amazon-amd-apple-microsoft-nvidia-more",
+        "https://tech-insider.org/broadcom-ai-chip-revenue-2026",
+        "https://techstartups.com/2026/08/07/top-tech-news-today-august-7-2026-amd-cloudflare-google-meta-nvidia-spacex-suno-tesla-more",
+        "https://www.benzinga.com/markets/tech/26/02/50443291/whats-going-on-with-nvidia-amd-and-other-chip-stocks-on-friday-2",
+        "https://www.marketbeat.com/articles/beyond-nvidia-5-semiconductor-stocks-set-to-dominate-2026",
+        "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+        "https://due.com/ai-chipmakers-ramping-up-for-a-bigger-year-in-2026",
+        "https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more",
+        "https://www.cnbc.com/2025/11/21/nvidia-gpus-google-tpus-aws-trainium-comparing-the-top-ai-chips.html",
+        "https://www.datacenterknowledge.com/data-center-chips/amd-fires-back-at-nvidia-with-helios-ai-system-epyc-cpus"
+      ],
+      "date": "2026-09-05T00:01:54.014388+00:00"
     }
   ],
-  "lastUpdated": "2026-09-04T23:31:33.951992+00:00"
+  "lastUpdated": "2026-09-05T00:01:54.014478+00:00"
 }
