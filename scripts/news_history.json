@@ -1,52 +1,6 @@
 {
   "entries": [
     {
-      "title": "NordVPN Introduces Automatic GUI Installer for Linux, Simplifying User Setup",
-      "urls": [
-        "https://itsfoss.com/news",
-        "https://techrights.org/n/2026/08/08/Over_at_Tux_Machines.shtml",
-        "https://fossforce.com/2026/08/oss-forces-top-five-articles-for-the-week-ending-august-21-2026",
-        "https://linuxiac.com/category/news",
-        "https://news.tuxmachines.org/n/2026/08/24/9to5Linux_Weekly_Roundup_August_23rd_2026.shtml",
-        "https://www.msn.com/en-gb/technology/software/nordvpn-gives-linux-users-a-major-upgrade-with-automatic-gui-app-installation/ar-AA29CT0b?ocid=BingNewsVerp",
-        "https://www.linux.org/pages/download",
-        "https://en.m.wikipedia.org/wiki/Linux",
-        "https://www.linuxmint.com/download.php",
-        "https://www.linux.com/what-is-linux",
-        "https://en.m.wikipedia.org/wiki/List_of_Linux_distributions",
-        "https://www.linuxmint.com",
-        "https://ubuntu.com/download",
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system",
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://ubuntu.com/download/desktop",
-        "https://appdevelopermagazine.com/search/open-source",
-        "https://appdevelopermagazine.com/search/linux-foundation",
-        "https://appdevelopermagazine.com/search/linux",
-        "https://appdevelopermagazine.com/develop-on-the-mainframe-like-any-other-cloud-platform-with-zowe",
-        "https://fsfe.org/events/events.it.html",
-        "https://planet.mozilla.org/releng",
-        "https://daniel.haxx.se/blog/page/138",
-        "https://sdtimes.com/os/navigating-unexpected-license-changes-in-open-source-software",
-        "https://sdtimes.com/security/techniques-to-secure-open-source-software",
-        "https://linuxgazette.net/117/TWDT.html",
-        "https://openssf.org/2024/05",
-        "https://openssf.org/author/openssf/page/9",
-        "https://openssf.org/2020/10",
-        "https://linuxcommunity.io/t/linux-weekly-news-key-stories-ahead-of-this-week/8395",
-        "https://calagator.org/events/tag/linux",
-        "https://en.wikipedia.org/wiki/Larry_Ellison",
-        "https://en.wikipedia.org/wiki/Firefox_version_history",
-        "https://planet.jabber.org",
-        "https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/open-source-evangelism-before-it-was-cool-with-sarah-novotny",
-        "https://princessleia.com/journal",
-        "https://www.erisian.com.au/wordpress/page/20",
-        "https://cryptovillage.org/talks",
-        "https://www.freebsd.org/press"
-      ],
-      "date": "2026-08-27T14:32:09.193797+00:00"
-    },
-    {
       "title": "Digital Mental Health Series Highlights Ethical Issues, Early Psychosis Support, Virtual Therapies, and Broader Impact",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/u-mental-health-treatment-market-095500402.html",
@@ -14462,7 +14416,37 @@
         "https://winbuzzer.com/ai/models/large-language-models"
       ],
       "date": "2026-09-06T14:31:40.766944+00:00"
+    },
+    {
+      "title": "Telemedicine Trends 2026 Drive Pharmaceutical Innovation and Expand Virtual Care Access",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
+        "https://www.stout.com/en/insights/industry-update/2026-outlook-telemedicine-industry",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://www.arnoldporter.com/en/perspectives/publications/2025/10/virtual-and-digital-health-digest",
+        "https://healthmanagement.org/pdf/print-issue/2831/08122026",
+        "https://healthmanagement.org/pdf/print-issue/2832/08122026",
+        "https://legislature.maine.gov/doc/7282",
+        "https://legislature.maine.gov/doc/9332",
+        "https://www.mobihealthnews.com/news/depth-recent-digital-health-moves-payers-health-insurers",
+        "https://docs.house.gov/billsthisweek/20201207/CRPT-116hrpt617.pdf",
+        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol8_No3_print.pdf",
+        "https://www.path.org/our-impact/path-events/path-india-insights",
+        "https://www.medboundtimes.com/medicine/telemedicine-trends-2026-healthcare-professionals",
+        "https://ushealthinsights.com/article/telehealth-in-healthcare",
+        "https://www.who.int/publications/i/item/9789240059184",
+        "https://openloophealth.com/blog/digital-health-trends-news-June-2026",
+        "https://www.ama-assn.org/practice-management/digital-health/how-telehealth-drives-care-improvement-and-saves-money",
+        "https://healthmanagement.org/c/intervention/News/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
+        "https://telecareaware.com",
+        "https://www.jonesday.com/en/insights/2026/08/vital-signs-digital-health-law-update--springsummer-2026--(26)",
+        "https://healthmanagement.org/c/enterprise/News/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
+        "https://www.americantelemed.org",
+        "https://imjhealth.org/blog/pharmaceutical-manufacturing-2025-2026-key-research-trends-digital-innovation-future-opportunities",
+        "https://telehealth.org/news/bipartisan-push-in-119th-congress-signals-continued-expansion-of-telehealth-access"
+      ],
+      "date": "2026-09-06T15:01:53.000636+00:00"
     }
   ],
-  "lastUpdated": "2026-09-06T14:31:40.767032+00:00"
+  "lastUpdated": "2026-09-06T15:01:53.000770+00:00"
 }
