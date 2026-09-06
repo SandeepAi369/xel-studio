@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Targets Up to ₹6 Trillion Investment to Build Domestic Semiconductor Industry",
-      "urls": [
-        "https://mumbaitribune.in/2026/08/26/from-electronics-manufacturing-to-semiconductor-powerhouse-indias-chip-ecosystem-takes-shape",
-        "https://competitiveness.in/as-semicon-2026-arrives-where-does-indias-chip-ambition-really-stand",
-        "https://www.eenewseurope.com/en/semicon-india-2026-targets-full-chip-value-chain",
-        "https://www.asml.com/en/news/press-releases/2026/tata-electronics-and-asml-announce-strategic-partnership",
-        "https://www.niti.gov.in/sites/default/files/2026-05/Future-of-India-Semiconductor-Industry.pdf",
-        "https://www.business-standard.com/companies/news/tata-electronics-to-launch-india-s-first-chip-fab-using-older-technology-126071700161_1.html",
-        "https://tradebrains.in/money/1-6-trillion-semiconductor-investments-here-are-indias-most-ambitious-semiconductor-projects-of-2025",
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/india-boosts-semiconductor-ai-for-digital-infrastructure-growth/133310717"
-      ],
-      "date": "2026-08-27T15:31:55.579993+00:00"
-    },
-    {
       "title": "Trade Rules Reform is presented as a lever for inclusive growth, with UNCTAD noting that streamlined customs procedures can accelerate",
       "urls": [
         "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know",
@@ -14445,7 +14431,24 @@
         "https://timesofindia.indiatimes.com/science/list-of-isros-space-missions-from-aryabhata-to-chandrayaan/articleshow/112741477.cms"
       ],
       "date": "2026-09-06T15:31:38.441046+00:00"
+    },
+    {
+      "title": "OECD Releases Interim Economic Outlook Forecasting Slower Global Growth Through 2026",
+      "urls": [
+        "https://www.rabobank.com/knowledge/q011509552-global-outlook-2026-new-rules-different-economy",
+        "https://www.jpmorgan.com/insights/global-research/economy/global-inflation-forecast",
+        "https://www.wsj.com/economy/global",
+        "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2025-september-update",
+        "https://news.un.org/en/story/2025/04/1162306",
+        "https://www.bloomberg.com/markets",
+        "https://www.foxbusiness.com/economy",
+        "https://www.bbc.com/business",
+        "https://www.ft.com/markets",
+        "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2025_67b10c01-en/full-report.html",
+        "https://www.bbc.com/news/business/economy"
+      ],
+      "date": "2026-09-06T16:01:52.034647+00:00"
     }
   ],
-  "lastUpdated": "2026-09-06T15:31:38.441125+00:00"
+  "lastUpdated": "2026-09-06T16:01:52.034790+00:00"
 }
