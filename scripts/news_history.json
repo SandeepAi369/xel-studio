@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "The deal will finance new advanced packaging lines, upgrade existing facilities, and introduce high‑density chip‑stacking techniques that improve performance and",
-      "urls": [
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/india-champions-open-source-ai-amid-global-tech-restrictions/132111261",
-        "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-new-ai-tools-education-programs-for-indias-developers-and-startups-at-i/o-connect-india-2026/articleshow/132384447.cms",
-        "https://www.ndtvprofit.com/technology/india-poised-to-lead-global-ai-deployment-with-scale-trust-and-digital-infrastructure-microsoft-executive-11549421",
-        "https://www.opensourceforu.com/2025/10/github-names-india-the-top-global-hub-for-open-source-developers-in-2025",
-        "https://analyticsindiamag.com/ai-startups/indian-ai-startups-are-obsessed-with-open-source-small-models",
-        "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/empowering-indian-developers-the-openxai-revolution-in-decentralized-ai/123405084",
-        "https://blog.mozilla.org/en/mozilla/mozilla-state-of-open-source-ai-report",
-        "https://analyticsindiamag.com/ai-news-updates/microsoft-github-now-boasts-17-million-indian-developers",
-        "https://blog.google/intl/en-in/company-news/eight-indian-startups-building-boldly-with-ai",
-        "https://analyticsindiamag.com/deep-tech/creativity-indian-open-source-flourish-blooming-innovations",
-        "https://www.digitalfutureslab.in/publications/advancing-open-source-ai-in-india-recommendations-for-governments-and-technology-developers",
-        "https://www.nasscom.in/ai/pdf/Advancing_Open_Source_AI_in_India_Recommendations_for_Govt_and_Tech_Developers.pdf",
-        "https://opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
-        "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/indias-path-to-ai-autonomy",
-        "https://github.blog/news-insights/research/the-state-of-open-source-and-ai",
-        "https://indianexpress.com/article/technology/tech-news-technology/openai-expands-footprint-in-india-with-data-centres-ai-training-10540452",
-        "https://www.economist.com/leaders/2025/09/18/india-could-be-a-different-kind-of-ai-superpower"
-      ],
-      "date": "2026-08-27T05:01:57.808085+00:00"
-    },
-    {
       "title": "Forbes Publishes Accessibility 100 Methodology to Rank Top Innovators Worldwide",
       "urls": [
         "https://www.morningstar.com/news/business-wire/20260513788434/applause-report-78-of-organizations-leverage-ai-for-accessibility-testing-but-apps-still-stumble-with-assistive-tech",
@@ -14391,7 +14368,46 @@
         "https://blog.mean.ceo/large-language-model-news-april-2026"
       ],
       "date": "2026-09-06T05:01:49.886315+00:00"
+    },
+    {
+      "title": "India Launches Divyang Sahara Yojana To Fund Assistive Devices For Disabled Citizens",
+      "urls": [
+        "https://indianmasterminds.com/news/government/union-budget-2026-alimco-scale-production-assistive-devices-ai-rd-181926",
+        "https://dst.gov.in/assistive-tools-technologies-and-techniques-make-healthcare-facilities-inclusive-and-accessible",
+        "https://www.devdiscourse.com/article/law-order/3832361-divyang-sahara-yojana-to-boost-assistive-tech-access-and-inclusion",
+        "https://www.govtschemes.in/divyang-sahara-yojana",
+        "https://dishamunch.com/empowering-divyangjan-in-2026-the-tech-driven-shift",
+        "https://govtschemesindia.com/divyang-sahara-yojana-benefits-eligibility-and-details",
+        "https://www.voiceofsap.org/india-union-budget-2026-2027-push-toward-disability-inclusion-empowerment-and-economic-participation",
+        "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2088877",
+        "https://www.narendramodi.in/prime-minister-reiterates-commitment-to-ensuring-dignity-access-and-opportunity-for-divyangs-on-the-international-day-of-persons-with-disabilities-600200",
+        "https://timesofindia.indiatimes.com/business/india-business/helping-hand-for-those-who-need-it-most/articleshow/127851620.cms",
+        "https://organiser.org/2026/04/14/348557/bharat/empowering-the-divyangjan-bharats-historic-march-towards-inclusive-education-and-national-self-reliance",
+        "https://www.theweek.in/news/health/2025/05/29/from-ai-powered-smartglasses-to-prosthetics-major-tech-products-for-divyangjan-ai-for-empowering-pwds-summit-2025-bengaluru.html",
+        "https://www.outlookmoney.com/retirement/senior-living/budget-2026-highlights-focus-on-divyangjan-and-senior-care-through-skills-assistive-devices-health-infrastructure",
+        "https://indianexpress.com/article/mumbai/maharashtra-digital-portal-divyang-schemes-10559408",
+        "https://www.bwhealthcareworld.com/article/disability-inclusion-gains-momentum-with-skilling-assistive-tech-and-ai-push-592204",
+        "https://www.newindianexpress.com/india/2026/Jun/24/india-needs-national-assistive-technology-policy-say-experts",
+        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment-2.pdf",
+        "https://www.ndtv.com/india-news/union-budget-2026-live-centres-focus-on-divyangjan-artificial-limbs-production-10924223",
+        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment.pdf",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023427188101.pdf",
+        "https://scroll.in/article/1090772/indias-budget-for-people-with-disabilities-is-generous-but-remains-underutilised",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=1959959",
+        "https://presidentofindia.nic.in/press_releases/president-india-presents-national-awards-empowerment-persons-disabilities-year-2025",
+        "https://www.amrita.edu/news/amrita-showcases-assistive-technologies-at-first-ai-for-empowering-persons-with-disabilities-conference",
+        "https://divyangempowermentassociation.in",
+        "https://zeenews.india.com",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2088877",
+        "https://depwd.gov.in/en/divyang-achievers",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2221850&reg=3&lang=1",
+        "https://www.eyeway.org.in?q=new-schemes-provide-livelihood-and-assistive-devices-persons-disabilities",
+        "https://ddindia.co.in/2026/02/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27",
+        "https://socialjustice.gov.in",
+        "https://www.youtube.com/watch?v=jYRTlvFkNOc"
+      ],
+      "date": "2026-09-06T05:31:47.348856+00:00"
     }
   ],
-  "lastUpdated": "2026-09-06T05:01:49.886426+00:00"
+  "lastUpdated": "2026-09-06T05:31:47.348940+00:00"
 }
