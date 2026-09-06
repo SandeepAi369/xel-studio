@@ -1,39 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Admits AI Models Escaped Control, Triggering Hugging Face Breach",
-      "urls": [
-        "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "https://huggingface.co/papers/trending",
-        "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense",
-        "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
-        "https://en.wikipedia.org/wiki/Hugging_Face",
-        "https://www.msn.com/en-us/money/markets/nvidia-agrees-to-buy-hugging-face-for-129-billion-report-says/ar-AA2b1uYh?ocid=BingNewsVerp",
-        "https://money.usnews.com/investing/news/articles/2026-08-26/nvidia-in-talks-to-acquire-hugging-face-in-13-billion-deal-business-insider-reports",
-        "https://www.msn.com/en-in/news/other/nvidia-reportedly-bets-129b-on-hugging-face-as-ceo-jensen-huang-shares-regret-over-ai-investments-in-openai-anthropic/ar-AA2b2P4c?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/technologyinvesting/hugging-face-hack-marks-start-of-dangerous-ai-cyber-era-and-many-firms-dont-even-know-it/ar-AA29ELnQ?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/openai-s-models-went-rogue-investigating-them-required-more-ai/ar-AA2b3OGP?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/maryroeloffs/2026/07/22/did-chinas-ai-save-hugging-face-from-disaster-after-open-ai-hack",
-        "https://af.net/realtime/hugging-face-announces-june-2026-updates-featuring-new-multimodal-and-ocr-models",
-        "https://af.net/cn/realtime/daily-updates-hugging-face-ai-papers-in-july-2026",
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://essamamdani.com/blog/top-6-open-source-ai-models-april-2026",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21",
-        "https://www.programming-helper.com/tech/hugging-face-2026-2-million-models-80-percent-downloads-python",
-        "https://af.net/realtime/daily-updates-hugging-face-ai-papers-in-july-2026",
-        "https://blog.imseankim.com/hugging-face-community-models-october-2025-open-source-highlights",
-        "https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face",
-        "https://huggingface.co/papers",
-        "https://www.explainx.ai/blog/hugging-face-autonomous-ai-agent-breach-july-2026",
-        "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
-        "https://www.naturalnews.com/2026-08-04-hugging-face-ceo-china-leads-ai-race.html",
-        "https://presenc.ai/research/huggingface-trending-models-june-2026",
-        "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident"
-      ],
-      "date": "2026-08-27T18:32:01.279702+00:00"
-    },
-    {
       "title": "Food and Drug Administration Issues New Regulatory Guidance Across Drug Approval and Safety Monitoring",
       "urls": [
         "https://www.pr.com/news-by-category/134",
@@ -14476,7 +14443,46 @@
         "https://finance.yahoo.com/technology/ai/articles/nvidia-raises-bet-open-source-040100311.html"
       ],
       "date": "2026-09-06T18:31:43.266172+00:00"
+    },
+    {
+      "title": "World Bank Group Publishes Health and Climate Change Brief Emphasizing Integrated Action",
+      "urls": [
+        "https://m.rediff.com/tags/public%20health%20india",
+        "https://thenewsstrike.com/fortis-healthcare-and-takeda-india-launch-mission-dengue-free-india-to-strengthen-community-awareness-and-prevention",
+        "https://www.who.int/news-room",
+        "https://pib.gov.in",
+        "https://www.ndtv.com",
+        "https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates",
+        "https://www.mygov.in/covid-19",
+        "https://newsonair.gov.in",
+        "https://wwwnc.cdc.gov/travel",
+        "https://www.thelancet.com/gbd",
+        "https://phed.cg.nic.in",
+        "https://www.fph.org.uk/training-careers/jobs-board",
+        "https://travelhealthpro.org.uk/outbreaks",
+        "https://www.cdc.gov/ebola/outbreaks/index.html",
+        "https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm",
+        "https://www.cdc.gov/measles/data-research/index.html",
+        "https://www.healthline.com",
+        "https://pharmarecruiter.in",
+        "https://www.who.int/westernpacific/wpro-emergencies/surveillance/dengue",
+        "https://www.worldbank.org/en/brief/2025/11/12/health-and-climate-change",
+        "https://tender.telangana.gov.in/login.html",
+        "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/10-essential-public-health-services.html",
+        "https://www.allaboutvision.com/resources/news/vision-eye-health-awareness-calendar",
+        "https://www.cdc.gov/mmwr/index.html",
+        "https://www.who.int/health-topics/vaccines-and-immunization",
+        "https://dph.sc.gov",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1829363",
+        "https://isidcongress.org",
+        "https://ihip.mohfw.gov.in/npcchh",
+        "https://www.thelancet.com",
+        "https://www.cdc.gov/nchs/index.html",
+        "https://www.who.int/health-topics/suicide",
+        "https://www.dailymail.com/home/index.html"
+      ],
+      "date": "2026-09-06T19:01:57.666314+00:00"
     }
   ],
-  "lastUpdated": "2026-09-06T18:31:43.266253+00:00"
+  "lastUpdated": "2026-09-06T19:01:57.666450+00:00"
 }
