@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boris Johnson Victory Sparks Concerns Over UK Disabled Rights and Welfare Reforms",
-      "urls": [
-        "https://www.w3.org/community/groups/past",
-        "https://budget.canada.ca/fes-eea/2023/report-rapport/FES-EEA-2023-en.pdf",
-        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol6_No3_print.pdf",
-        "https://www.disabled-world.com/editorials/political/boris-johnson.php",
-        "https://www.disabled-world.com/editorials/welfare-reform-hate.php",
-        "https://www.transport.govt.nz/assets/Uploads/March2023BriefingstotheMinisterofTransport-1.pdf",
-        "https://belfastfleadh.com/2026/whats-on",
-        "https://www.iosrjournals.org/iosr-jhss/papers/Vol.30-Issue5/Ser-5/C3005052232.pdf"
-      ],
-      "date": "2026-08-28T09:31:44.294802+00:00"
-    },
-    {
-      "title": "Mistral AI Commits to Building One Gigawatt European Compute Network by 2030",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1sy6xoo/something_from_mistral_vibe_tomorrow",
-        "https://www.reddit.com/r/MistralAI/comments/1s7o84e/mistral_secures_first_debt_raise_of_830m_to_power",
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
-        "https://www.reuters.com/business/mistral-launches-first-robotics-model-physical-ai-push-2026-07-08",
-        "https://mistral.ai/news/regional-inference-open-models-new-compute",
-        "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
-        "https://www.msn.com/en-us/money/other/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/ar-AA28CHIi?ocid=BingNewsVerp"
-      ],
-      "date": "2026-08-28T10:01:54.190692+00:00"
-    },
-    {
       "title": "Clean Air Task Force Highlights Mid‑Year Global Climate Tech Gains",
       "urls": [
         "https://about.bnef.com/insights/clean-energy/bloombergnef-announces-12-climate-innovators-as-winners-of-its-2026-pioneers-award",
@@ -14468,7 +14441,59 @@
         "https://blogs.microsoft.com/blog/2025/03/18/microsoft-ability-summit-2025-accessibility-in-the-ai-era"
       ],
       "date": "2026-09-07T09:31:37.293970+00:00"
+    },
+    {
+      "title": "Meta and Nvidia Plant Firm Flag in Open‑Weight AI Race Dominated by Chinese Labs",
+      "urls": [
+        "https://ifm.ai/k2/press-release",
+        "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+        "https://siliconangle.com/2026/08/05/cloudflare-launches-cloudflare-os-open-source-ai-agentic-workspace-enterprise",
+        "https://www.geeky-gadgets.com/trending-open-source-ai-projects",
+        "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html",
+        "https://www.marginalia-search.com/r/7/379863416439813/fabqtcwzhz?hash=YYNAdfGZrRFdgwm72lP4_Q6hPyDqFH2Y3G-VAt7hECE",
+        "https://www.marginalia-search.com/r/10/1403469885757128/fabqtcwzhz?hash=bLFw4cA9eBHSm39GxuU1xsrrh3Xuz19_qarJmK55IAA",
+        "https://www.marginalia-search.com/r/10/1403469885757131/fabqtcwzhz?hash=obc_4LMy8tdIQqNEJIXYxBsoVZOlSaK0dRRRa7JpzKM",
+        "https://www.marginalia-search.com/r/10/1403469885757159/fabqtcwzhz?hash=DaRhZOrTLdKLKChIFyNTryUv4WszTrN-LI85tw30-yo",
+        "https://www.marginalia-search.com/r/10/1403469885757161/fabqtcwzhz?hash=kZ1kJjqYEF4kS1AX_sBuaVay-0cQcElL6FJwnL4rysU",
+        "https://www.marginalia-search.com/r/10/1403469885757147/fabqtcwzhz?hash=mRvkmhlBZYrlTIxwFfITgDeDbAEcizDN399uPZtw720",
+        "https://www.marginalia-search.com/r/7/2490477052239/fabqtcwzhz?hash=SrUUdpkPta_Eok9nM_LwcOOZMN94DtxNtdbcesikFdE",
+        "https://www.marginalia-search.com/r/7/2490477052383/fabqtcwzhz?hash=XHyI_oG9yGS0JZw6WqgovjtfyR6HP1j7SdaordKzc9o",
+        "https://www.marginalia-search.com/r/7/2490477052799/fabqtcwzhz?hash=QviBASLOpVM6cKyEEbuUrWYj-XkhiUmwhGoEh9YF82I",
+        "https://www.marginalia-search.com/r/7/2490477052537/fabqtcwzhz?hash=pYbdZt9Hd6AYqbpDHRMGQ4Jf3rFSC6R4lAgRMbaY3W4",
+        "https://www.marginalia-search.com/r/7/2490477052382/fabqtcwzhz?hash=FUSNF5FXuhwmZ2AynjuIxqNLUsHDhytpWTMwChwoAvo",
+        "https://www.marginalia-search.com/r/11/30291112962818217/fabqtcwzhz?hash=UY4k4n1-5Cuoj7hW91QXIgIon6rs1aIS6XmWM9uzClk",
+        "https://www.marginalia-search.com/r/7/989266259738624/fabqtcwzhz?hash=Jc3RMsU9nlmG5B437ygpLrxhbL2I2ZiTyG0ddsx61Zg",
+        "https://www.marginalia-search.com/r/11/397109320745178/fabqtcwzhz?hash=SD1mGSi5TplqSwXxuveRG5v4piicyp2vCcArw6ppyoo",
+        "https://www.marginalia-search.com/r/11/397109320745147/fabqtcwzhz?hash=ffbFfLUirmIee-99MfbcK40yo-9YVMolPC4HIyZxfIk",
+        "https://www.marginalia-search.com/r/7/3361952760408/fabqtcwzhz?hash=BK1oZPllLvnvYY4I0EbZ8r0z2PGOuyjti4sYplXY114",
+        "https://www.marginalia-search.com/r/7/3361952760509/fabqtcwzhz?hash=v7uhxBI9ZDMWMSg3UYComHKhighDLIlleEWbBz3EtRE",
+        "https://www.marginalia-search.com/r/7/3361952760926/fabqtcwzhz?hash=70TlES7e43gSd5sJk-S8rOrKd4vUtofyJJHqNJEM_to",
+        "https://www.marginalia-search.com/r/7/3361952760587/fabqtcwzhz?hash=tfqjcln-VRzCXXmHpTRWrlIFT-BcyvVTpeYzbTHZN6g",
+        "https://www.marginalia-search.com/r/7/3361952760376/fabqtcwzhz?hash=3fzyvVn_mnn1IKMOQ0bWJpuIzjOMzJmshQdV6KG2zxg",
+        "https://www.marginalia-search.com/r/11/611980025004940/fabqtcwzhz?hash=A1yeeHJwMXTtkqeAtU_0792qRspz_7WLCM5-mG0PRds",
+        "https://www.marginalia-search.com/r/7/23009683309409/fabqtcwzhz?hash=K6f2WNbaLr28g1AT4tWifniYJleoxffIvEAeIkMcXjQ",
+        "https://www.marginalia-search.com/r/11/599701988573184/fabqtcwzhz?hash=Uvphal4HYZsLWcCgBWnc51Wd4iMBe3unZ97f-szfU1Y",
+        "https://www.marginalia-search.com/r/7/81452846809099/fabqtcwzhz?hash=HhpBO9hHzKppM_zVetUqTYg-Q1UAuoiGM4OB_E6-6cw",
+        "https://www.marginalia-search.com/r/7/19074083979268/fabqtcwzhz?hash=Uyx1MA3Nk-j3TXmPtITFNEvsslcxncvIUzyFB9uy688",
+        "https://www.marginalia-search.com/r/7/19074083979747/fabqtcwzhz?hash=iZmM8ltrh80wAeqf4XROdaEt4keS3ZPnWL4uS7fqvnI",
+        "https://www.marginalia-search.com/r/11/23200754525274299/fabqtcwzhz?hash=VSgxfRvhwOuEwx5c0YUfc9vXmkY3f6eLTAc8dbne11E",
+        "https://www.marginalia-search.com/r/11/23200754525274286/fabqtcwzhz?hash=ju8NvXqUVYhmJiphGwFXpk4NMy-hEqnj2G64SDeiq0w",
+        "https://www.marginalia-search.com/r/7/434438894781067/fabqtcwzhz?hash=YZlsZeHM_MnDf5A5pucyJ2Dll5bFk2Tf5Tz9zkaSL1U",
+        "https://www.marginalia-search.com/r/7/69177226310340/fabqtcwzhz?hash=xcAC_rbgN8-Sl-1iWs_FhvebvagpoG5mjgT2SfQQvys",
+        "https://www.marginalia-search.com/r/7/69177226306683/fabqtcwzhz?hash=bPZui-EjyEC1rV7W3g6wkuzO3in8VZZmZtHRbZi1JLo",
+        "https://www.marginalia-search.com/r/9/2267815687353/fabqtcwzhz?hash=kAn2F-FcbcvtJefpA6Q-ShuQUzi0U75fS1B8XRDbsxg",
+        "https://www.marginalia-search.com/r/9/2267811839598/fabqtcwzhz?hash=txpNSmYs15wJNLVPF-oyjxnwOBb69WAwRLoWQOxN_mc",
+        "https://www.marginalia-search.com/r/7/15180293472259/fabqtcwzhz?hash=P3A30hQDx_QW0PwcUoWbx1XvvsTp_gX--7tPmT28Yro",
+        "https://www.marginalia-search.com/r/7/15180293472591/fabqtcwzhz?hash=GsQ9leW_Q7zsce8WkqpAfSDhfZRpJOgOfPCFQLf9njk",
+        "https://www.marginalia-search.com/r/7/110727008354429/fabqtcwzhz?hash=SJt-GFeRz6yoQo_q0cqZVDh5ACPtZJTFy919QZ0MKN4",
+        "https://www.marginalia-search.com/r/11/29531853408960513/fabqtcwzhz?hash=QDGy5anT2AQjrjA9GIiX_HyhhDW88qNcYTpRBaY7bxI",
+        "https://www.marginalia-search.com/r/10/3279408748235/fabqtcwzhz?hash=-KY52Y4pII4OnoeCmZCXvmePLQ8NI2Xq5e7zjnecAkI",
+        "https://www.marginalia-search.com/r/7/285428292780985/fabqtcwzhz?hash=cWyxzwx5lOgfwfQVq-xG5n21RpYmhJWlz9I9-Hudkm4",
+        "https://www.marginalia-search.com/r/7/3378058887318/fabqtcwzhz?hash=3v8PCs9xKiCuyxrWePV6vNjGW9FhtiBqBn8R4-Xow-Q",
+        "https://openai.com/index/gpt-4-research"
+      ],
+      "date": "2026-09-07T10:01:59.598409+00:00"
     }
   ],
-  "lastUpdated": "2026-09-07T09:31:37.294039+00:00"
+  "lastUpdated": "2026-09-07T10:01:59.598491+00:00"
 }
