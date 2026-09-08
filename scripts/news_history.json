@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Unveils Muse Glimmer Model Capable of Running on Consumer Laptops",
-      "urls": [
-        "https://campustechnology.com/articles/2026/08/26/meta-releases-muse-glimmer-an-open-weight-ai-model-designed-to-run-on-consumer-hardware.aspx",
-        "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
-        "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-        "https://www.upi.com/Top_News/US/2026/08/10/meta-open-source-ai-model-muse-spark/7701786369775",
-        "https://www.msn.com/en-us/money/general/mark-zuckerberg-is-buying-meta-a-seat-at-the-ai-table-does-he-know-what-to-do-with-it/ar-AA2b7r9F?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/jonmarkman/2026/08/11/meta-unveils-muse-glimmer-a-30b-parameter-ai-model-that-runs-locally",
-        "https://www.cnet.com/tech/services-and-software/meta-ai-glimmer-open-weights-news-2026",
-        "https://seekingalpha.com/article/4935179-metas-open-source-crusade-is-also-a-fight-for-control",
-        "https://siliconangle.com/2026/08/10/meta-releases-open-source-muse-glimmer-model-30b-parameters",
-        "https://nypost.com/2026/08/10/us-news/meta-launches-new-ai-in-push-for-best-open-source-model-to-beat-china",
-        "https://www.msn.com/en-us/news/other/meta-launches-new-ai-model-as-zuckerberg-champions-open-weight-push/ar-AA29L2K4?ocid=BingNewsVerp",
-        "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai",
-        "https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer",
-        "https://www.msn.com/en-us/money/technologyinvesting/meta-to-open-source-its-most-powerful-ai-model-as-it-takes-swipe-at-openai-anthropic/ar-AA29LbHF?ocid=BingNewsVerp",
-        "https://www.usatoday.com/story/tech/news/2026/08/10/meta-muse-glimmer-ai-model/91238721007",
-        "https://www.foxbusiness.com/technology/zuckerberg-meta-superintelligence-open-source-ai",
-        "https://www.bostonherald.com/2026/08/10/zuckerberg-manifesto-open-source-ai-meta",
-        "https://www.pbs.org/newshour/show/what-metas-new-open-source-ai-model-means-for-the-future-of-artificial-intelligence",
-        "https://www.bloomberg.com/news/articles/2024-07-23/meta-s-zuckerberg-aims-to-rival-openai-google-with-new-llama-ai-model",
-        "https://www.eweek.com/news/meta-new-avocado-model",
-        "https://serenitiesai.com/articles/llama-4-behemoth-maverick-scout-review-2026",
-        "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-mark-zuckerberg-dual-track-open-closed-2026-06-05"
-      ],
-      "date": "2026-08-29T22:01:42.531105+00:00"
-    },
-    {
       "title": "Indiana Requests Federal Disaster Aid as Midwest Flooding Intensifies Following Recent River Overflow",
       "urls": [
         "https://www.yahoo.com/news/weather-news/articles/from-flash-flooding-to-wildfire-danger-extreme-weather-targets-us-004925453.html",
@@ -15032,7 +15004,50 @@
         "https://rehab.jmir.org/2026/1/e79073"
       ],
       "date": "2026-09-08T21:41:36.916217+00:00"
+    },
+    {
+      "title": "IBM and University of Chicago Achieve Quantum Computing Breakthrough Advancing Toward 200‑Qubit Goal",
+      "urls": [
+        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
+        "https://www.reddit.com/r/QuantumComputing/comments/1vy5ir0/are_llms_solving_or_helping_solve_any_open",
+        "https://www.reddit.com/r/antiai/comments/1vy8r6b/after_the_ai_fad_dies_what_do_you_think_will_be",
+        "https://www.reddit.com/r/Futurology/comments/1vy95yn/what_scientific_discovery_do_you_think_will_make",
+        "https://www.reddit.com/r/accelerate/comments/1vxt6s4/llms_have_gotten_so_advanced_that_not_even_a_ucla",
+        "https://www.youtube.com/watch?v=lnJCJslcoNg",
+        "https://www.youtube.com/watch?v=1d-pGnc36iE",
+        "https://www.youtube.com/watch?v=TJtUYtWU89Q",
+        "https://www.youtube.com/watch?v=nJvNLFo_HSo",
+        "https://www.youtube.com/watch?v=NKq4VTfoAI4",
+        "https://quantumzeitgeist.com",
+        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+        "https://blog.mean.ceo/quantum-computing-news-september-2026",
+        "https://quantumzeitgeist.com/category/quantum-research-news",
+        "https://zylos.ai/research/2026-02-02-quantum-computing",
+        "https://www.geeky-gadgets.com/quantum-computing-2026-update",
+        "https://www.forbes.com/sites/chuckbrooks/2026/06/13/the-quantum-frontier-how-quantum-computing-is-reshaping-our-future",
+        "https://www.digitaljournal.com/article/new-quantum-simulation-breakthrough-could-accelerate-fault-tolerant-computing",
+        "https://www.msn.com/en-us/technology/quantum-computing/ibm-and-university-of-chicago-achieve-breakthrough-in-quantum-computing/ar-AA29sI7d?ocid=BingNewsVerp",
+        "https://www.aol.com/articles/aix-global-innovations-announces-ftqc-091100000.html",
+        "https://finance.yahoo.com/markets/article/trump-signs-executive-orders-to-drive-development-of-commercially-relevant-quantum-computer-by-2028-205201485.html",
+        "https://www.forbes.com/sites/moorinsights/2026/08/25/how-has-the-us-versus-china-quantum-rivalry-changed-since-2019",
+        "https://www.aol.com/articles/d-wave-demonstrates-major-hardware-150500000.html",
+        "https://www.csmonitor.com/Business/2026/0627/quantum-computing-research-cybersecurity",
+        "https://yabs.yandex.ru/count/WgSejI_zOoVX2LcP0iqK0FEba2cSK9yynHD7WG9NqPF2vxb102GSBnY2S2D3cnB9kiZHqf7HqLSWheGJE05p0bLy0jm4zWJs1BG9Q1FGUiC4z6OJhDGR0juIpY2qqETpkRDd-vqxRxZpzJjURxZ3XUOvxdG-dNQqoFfJ7K8oie5aJJfQEZ8wyg5gO2twEKAo9lqSBHqP7PKWCaAwXYYobf1HH1qoGOB8A0Z9ccJ320deQGTCsTpWJBx0y4_fJQZ8QKBNOD1nN1OGBliTUvVisHqKLnC2nfuA56DJ5TFM2uo0CGuxkpL7GYjZRGICbOYOZPbmCW6KIIfgZWDytTCxXzxHg3E7FgNvr9xcKRkEIf_Ig3IQvxXpckTIcmKEreyL7b5pz8ud4M-yFvm0aYUfy_c6oNDjTky4S0DuPWDNXmcJ91kslevmdzCWRW9sYTHgs3lGeANP-WnQdo4RepXug8lD5Ochmg3rJgM_G0VXCKoumBRZPQwnpsxFovk5hOKTD1aIBpDREkpc2fY2UOyH-nZTmvWfGC6GCy28yJEOBmHJfW9bh2PKm7Ht8BKuKN6aUslgUMwJwxdDtVz6JuG7-8U_c0ji0-lzNXjOx-Vw7bhcltyn5_Xhbu0z6dzs2TYZaMcUyCSiCvTUFwN9Ds_NTLsdpHNAMXGJwKOcFVPrXFkSDo_Blko5QFlA_5W23zvfq_lm_3U4CYD7iFoMrdLTiSp84IoldU1r_sGBqv0XNhuCEJoomOAG0O8S1mQ0ufWhbKfb2FlJcxtKKlu9D811zgK0h0a16_olThdms6f23p4Cd8JNdp-6JSv5mmgC9Y4CIeQB2Ku9bRVGPO1Gp_xRyMQ_rk-0oZHVGxBDI7iwDkCKPZUmzDIftL1_VI74sfayJ5OsXja6Alu7~2",
+        "https://news.mit.edu/topic/quantum-computing",
+        "https://www.sciencedaily.com/news/matter_energy/quantum_computing",
+        "https://link.springer.com/subjects/quantum-computing",
+        "https://gilkut.net/quantum-computing/quantum-news/latest-breakthroughs-in-quantum-computing",
+        "https://www.spinquanta.com/news-detail/quantum-computing-advances",
+        "https://news.stanford.edu/stories/2025/12/quantum-communication-room-temperature-breakthrough-research",
+        "https://www.analyticsinsight.net/ampstories/tech-news/biggest-quantum-computing-breakthroughs-of-2025",
+        "https://www.permutations.app/research/quantum-computing-2026.html",
+        "https://quantumsecuritydefence.com/quantum-news/quantum-computing-progress-2026-ibm-google",
+        "https://www.sciencedaily.com/releases/2025/09/250912195122.htm",
+        "https://thequantuminsider.com/2025/12/30/tqis-expert-predictions-on-quantum-technology-in-2026",
+        "https://ts2.tech/en/quantum-computing-trends-2025-major-breakthroughs-key-players-and-global-insights"
+      ],
+      "date": "2026-09-08T22:11:44.964129+00:00"
     }
   ],
-  "lastUpdated": "2026-09-08T21:41:36.916305+00:00"
+  "lastUpdated": "2026-09-08T22:11:44.964213+00:00"
 }
