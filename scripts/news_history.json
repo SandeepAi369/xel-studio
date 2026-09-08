@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Boosts Assistive Technology Funding Amid Rs 95,000 Crore Market Potential",
-      "urls": [
-        "https://indiatechnologynews.in",
-        "https://www.govjobs.net.in/Budget-2026-Pushes-Assistive-Technology-and-Skills-for-Divyangjan-Empowerment-3020",
-        "https://impact.indiaai.gov.in/registration",
-        "https://www.india.com/news/india/divyang-development-narendra-modi-hands-out-assistance-devices-to-specially-abled-in-vadodara-1609010",
-        "https://economictimes.indiatimes.com/news/india/indias-assistive-technology-market-to-reach-rs-95000-crore-by-2030-experts-call-for-national-policy/articleshow/131969013.cms",
-        "https://government.economictimes.indiatimes.com/news/governance/transforming-disability-welfare-in-maharashtra-the-role-of-technology-and-inclusivity/129765496"
-      ],
-      "date": "2026-08-29T09:31:35.859738+00:00"
-    },
-    {
       "title": "Azumo appears in Instaclustr's top 7 open source LLMs for 2026, indicating strong community adoption",
       "urls": [
         "https://azumo.com/artificial-intelligence/ai-insights/top-10-llms-0625",
@@ -14708,7 +14696,63 @@
         "https://www.digitalindia.gov.in/category/press-release"
       ],
       "date": "2026-09-08T09:12:02.454549+00:00"
+    },
+    {
+      "title": "Harvard HPOD Highlights Rapid Growth of DisabilityTech in Academic Research",
+      "urls": [
+        "https://hpod.law.harvard.edu/news/disabilitytech-on-the-rise",
+        "https://www.disabledperson.com/blog/posts/the-future-of-accessible-technology-emerging-trends-and-innovations",
+        "https://accessibe.com/blog/knowledgebase/10-life-changing-technologies-for-people-with-disabilities",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474161",
+        "https://www.marginalia-search.com/r/11/28972749800079383/g4b4m2ehpv?hash=QIGkxw8RRtd10vxf4Rvht7Ayr4I7WjvBYqBhBOnbTcw",
+        "https://www.marginalia-search.com/r/11/28972749800079491/g4b4m2ehpv?hash=oGSRLPI_9GhLOP8Blsetvnf6k7yK_6-vUgEF3R0xxTM",
+        "https://www.marginalia-search.com/r/11/28972749800079479/g4b4m2ehpv?hash=ERN20ib23N-zLY4UU1BrSd5pfMIElJJ6aEyXeb4OaJo",
+        "https://www.marginalia-search.com/r/11/28972749800079394/g4b4m2ehpv?hash=i25B-ZedsaShZ94EUiHdwMl7oheVOaXwOBh6Mkekn3o",
+        "https://www.marginalia-search.com/r/11/28972749800079489/g4b4m2ehpv?hash=G5imL5R8KOXehpb6dDpQ-TJ2V2D3Cnq4Z_cjHX83CcU",
+        "https://www.marginalia-search.com/r/11/1779992555945985/g4b4m2ehpv?hash=G4F0RG7dtMheDJnTCFzeoRqm4Tsiho7VI0wlonTIjqw",
+        "https://www.marginalia-search.com/r/7/192917717124441/g4b4m2ehpv?hash=pdYs3OhW6sXhGzjYzjm1t22PDtp_OTcksnnpZVg5PBI",
+        "https://www.marginalia-search.com/r/7/281556983747211/g4b4m2ehpv?hash=NVzcC4ioaImBFtW5Y3l8evLHTq55RN_2MkKPc2sESBQ",
+        "https://www.marginalia-search.com/r/7/281556983745996/g4b4m2ehpv?hash=V2gFUneN82uXT0cnVcfVNQpBtpfg5hZVPBjo8N8tchQ",
+        "https://www.marginalia-search.com/r/7/95599462450589/g4b4m2ehpv?hash=GJe1aOZM3mgTDtu6qsjXQWHOL6kImQ74sZZ68IuZPmY",
+        "https://www.marginalia-search.com/r/11/397109320745178/g4b4m2ehpv?hash=uDgtvre7DskCZKTc2QkXsI2YoTR4GgUaaznTRpFC8F0",
+        "https://www.marginalia-search.com/r/7/7285606712848/g4b4m2ehpv?hash=cJz6dhPpb1i1GwVSS3S0umDajBhZbbzebUjkue9KG08",
+        "https://www.marginalia-search.com/r/11/40459160541724710/g4b4m2ehpv?hash=yjNejAM8Fsi1j5k7iwuOlvBf-mfNeawk6pqm4HFhZnE",
+        "https://www.marginalia-search.com/r/7/2273715422453/g4b4m2ehpv?hash=ZMzeXLwEBUZMA8aNTZShuXhAtEO2M4V7UhMjOTdSeRk",
+        "https://www.marginalia-search.com/r/7/73985777729706/g4b4m2ehpv?hash=Xkr-OkBd7Ks_DbAgcsQcBUxaNK_MSBVxnYFtFMgFRUo",
+        "https://www.marginalia-search.com/r/7/73985777729720/g4b4m2ehpv?hash=KiOUn0VDrdihEgCaiBpY_SikgO1DSHCHfUIOXAHYohw",
+        "https://www.marginalia-search.com/r/7/73985777730611/g4b4m2ehpv?hash=7nSBbZF3lk6bOjDp-4BR_2IFEn6XnYIJOAOyusWWR7w",
+        "https://www.marginalia-search.com/r/7/73985777730612/g4b4m2ehpv?hash=fkFwN-jy7yRlpHB5wFNb897VGEC20GQ_aqpuWnX75Xs",
+        "https://www.marginalia-search.com/r/7/1053435352842242/g4b4m2ehpv?hash=Bss_HtzmzLbYd2ZoQVkUeXFnAbLINkZ7SOvhMtKuShk",
+        "https://www.marginalia-search.com/r/7/43304410415909/g4b4m2ehpv?hash=4RCsUfaljR99uyDFfBBHbukoPy_bTn9SCEE1rX2saVo",
+        "https://www.marginalia-search.com/r/7/19535457419492/g4b4m2ehpv?hash=XS8RnAcw1m6YPDcRkPnk4tkLWM19ohL_FT4ZD_rNO5o",
+        "https://www.marginalia-search.com/r/7/17420924224081/g4b4m2ehpv?hash=h2F8sDwcqY5K6WEauCtRMgg77GnQTIotqRM2Cmfzl1U",
+        "https://www.marginalia-search.com/r/7/110903706006659/g4b4m2ehpv?hash=Lf1ybemHbhTtAfiuv_1tM6vUGF_HJJZkH3GG8AfLsU0",
+        "https://www.marginalia-search.com/r/7/225105544218080/g4b4m2ehpv?hash=0-8cLL48W5O8yD6wVqFckqmfrEe1T1rBnzFR_Jm3tVU",
+        "https://www.marginalia-search.com/r/7/162417812176936/g4b4m2ehpv?hash=X-Oca67HA8bNvgO9gfvXJJETILR05IJgIPZ8k86h2ss",
+        "https://www.marginalia-search.com/r/11/1034155848634688/g4b4m2ehpv?hash=2JKR2v-uP3Ml_k9bpRp1kuy59uW-hByKLwz6kLWrS8Q",
+        "https://www.marginalia-search.com/r/7/9715081813645/g4b4m2ehpv?hash=3hzzEudbJ8ghnkA1sfE_71kK9l7IG5DNl2mQo0TSMSg",
+        "https://www.marginalia-search.com/r/7/518186797634568/g4b4m2ehpv?hash=ZKd7nxmlC9xAskb3C-DgbVGJgUOvQf2SmnfKv55SNZo",
+        "https://www.marginalia-search.com/r/7/518186797634271/g4b4m2ehpv?hash=zcbC2IBJ9X3qp9jnaNV76ucBtAbN7098iedVNr6KZeA",
+        "https://www.marginalia-search.com/r/7/518186797634575/g4b4m2ehpv?hash=5hukGjmpLxSAsRbJn4ezlpO338VDVX5gyIBoAzP8otE",
+        "https://www.marginalia-search.com/r/7/20011863251350/g4b4m2ehpv?hash=Jhitho5CxKmAv6Z0DqopSV0dTc6qnsIDLfJ4M8BpN_E",
+        "https://www.marginalia-search.com/r/7/102436312186889/g4b4m2ehpv?hash=S7O-rTfzzS3VroZiGbNhtlTBmzIBS1iZyaT_4TmIhRY",
+        "https://www.marginalia-search.com/r/11/257130028335340/g4b4m2ehpv?hash=xeeDxASSnXUHUj9D39CcUZBP4M9baKZH6kK4l1PP59Q",
+        "https://www.marginalia-search.com/r/11/257130028335330/g4b4m2ehpv?hash=VPqoGr6MHqeJHBAXRr4kUTgRm1w5DkowvC4PBrp2bqA",
+        "https://www.marginalia-search.com/r/11/257130028335331/g4b4m2ehpv?hash=E6A9-K9iPplUa4HYNewu4Uy_9STTnX6LAwgVp4ZiSAs",
+        "https://www.marginalia-search.com/r/11/257130028335278/g4b4m2ehpv?hash=aEb41VCdhfBHlTagmgDBHV7Q9XONWBN8tJ_5j4EVuI0",
+        "https://www.marginalia-search.com/r/11/257130028335334/g4b4m2ehpv?hash=NEe_uEIAhWw4Wqd8NeOR4Kf5JANs_cohwc39zVVU-7A",
+        "https://www.marginalia-search.com/r/7/142454468641022/g4b4m2ehpv?hash=DDY2Pjid04kJeqck3A6Y3MNzxdOtgHVfS5U8B5prXt8",
+        "https://www.marginalia-search.com/r/7/142454468641024/g4b4m2ehpv?hash=Zb-CwI43Rfc7Mi8V1Mut6J_7PAt4V6cVFbz0QLPDjZU",
+        "https://www.marginalia-search.com/r/7/3144840418164970/g4b4m2ehpv?hash=Nwkvr4X5aBRtFmKSQ3BBEG7oTi418L1Am6MD1_TYPqM",
+        "https://www.webability.io/blog/ces-2025-and-beyond-a-commitment-to-accessible-technology",
+        "https://know-the-ada.com/the-future-of-accessible-technology-whats-next",
+        "https://www.nytimes.com/2020/07/14/style/assistive-technology.html",
+        "https://accessibe.com/blog/10-life-changing-technologies-for-people-with-disabilities",
+        "https://www.healthtechzone.com/topics/healthcare/articles/2022/11/30/454184-new-technological-innovations-that-improving-care-the-disabled.htm",
+        "https://www.perkins.org/5-innovations-in-accessibility-and-assistive-technology"
+      ],
+      "date": "2026-09-08T09:31:52.090482+00:00"
     }
   ],
-  "lastUpdated": "2026-09-08T09:12:02.454625+00:00"
+  "lastUpdated": "2026-09-08T09:31:52.090556+00:00"
 }
