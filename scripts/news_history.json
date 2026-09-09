@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "NeuroTech Labs Demonstrates Brain‑Computer Interface Boosting Communication for Disabled Children",
-      "urls": [
-        "https://www.youtube.com/watch?v=mlqH-n9V1S0",
-        "https://www.youtube.com/watch?v=O8N93LXX5Hk",
-        "https://www.abilities.com/products/assistive-technology",
-        "https://www.yahoo.com/news/innovations-assistive-technology-people-disabilities-120408690.html",
-        "https://www.disabilitynewsservice.com/all-news-stories",
-        "https://www.startdisability.com/making-life-easier-disabled/technology-assistive-general-intro",
-        "https://accessinformationnews.com/newsletter-08-03-2026",
-        "https://www.usnews.com/topics/subjects/disability",
-        "https://hbr.org/2023/08/designing-generative-ai-to-work-for-people-with-disabilities",
-        "https://www.perkins.org/resource/4-everyday-innovations-you-probably-didn-t-know-came-from-the-disability-community",
-        "https://www.voices.com/blog/accessible-technology"
-      ],
-      "date": "2026-08-30T05:31:55.410297+00:00"
-    },
-    {
       "title": "Energy Vault Breaks Ground on Texas AI Campus to Deploy Modular Data Centers",
       "urls": [
         "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-august-2026",
@@ -14948,7 +14931,24 @@
         "https://autismsociety.org/blog"
       ],
       "date": "2026-09-09T05:31:44.386365+00:00"
+    },
+    {
+      "title": "Google Expands Gemini AI Suite With 3.8 Flash, New Models and Robotics 2.0",
+      "urls": [
+        "https://www.wired.com/story/google-gemini-can-control-humanoid-robots",
+        "https://www.edtechinnovationhub.com/news/googles-new-ai-agent-will-run-160-searches-while-you-sleep-and-hand-you-the-report-by-morning",
+        "https://cloud.google.com/blog/topics/public-sector/how-google-public-sector-and-google-deepmind-can-power-the-genesis-mission-and-a-new-era-of-scientific-discovery",
+        "https://tech.yahoo.com/ai/gemini/articles/google-deepmind-ships-gemini-3-183917730.html",
+        "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html",
+        "https://memeburn.com/chatgpt-vs-gemini",
+        "https://www.msn.com/en-au/technology/tech-companies/how-stalled-models-missed-deadlines-and-staff-burnout-led-to-the-unraveling-of-google-s-deepmind/ar-AA29L4YQ?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/technology/tech-companies/how-stalled-models-missed-deadlines-and-staff-burnout-led-to-the-unraveling-of-google-s-deepmind/ar-AA29L4YQ?ocid=BingNewsVerp",
+        "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+        "https://www.businessinsider.com/google-ai-leadership-demis-hassabis-steps-down-deepmind-ceo-2026-8",
+        "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety"
+      ],
+      "date": "2026-09-09T06:01:55.199062+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T05:31:44.386446+00:00"
+  "lastUpdated": "2026-09-09T06:01:55.199180+00:00"
 }
