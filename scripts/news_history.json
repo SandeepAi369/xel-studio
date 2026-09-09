@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Monsoon Delayed by El Niño, Climate Change, Experts Warn",
-      "urls": [
-        "https://economictimes.indiatimes.com/news/india/el-nino-climate-change-india-monsoon-impact-weather-explained/articleshow/132305378.cms",
-        "https://sundayguardianlive.com/world/el-nino-weather-forecast-2026-noaa-warns-of-major-weather-changes-heat-rain-drought-risks-worldwide-as-very-strong-el-nino-looms-check-areas-highly-at-risk-263106",
-        "https://wmo.int/media/news/record-breaking-heat-and-extreme-weather-continue",
-        "https://www.downtoearth.org.in/climate-change/monsoon-advances-but-july-rainfall-to-be-below-normal-with-high-day-and-nighttime-temperatures"
-      ],
-      "date": "2026-08-30T22:31:32.758187+00:00"
-    },
-    {
       "title": "Mistral AI Unveils 10 Open‑Source Models, Backed by $830M Investment and 13,800 GPUs",
       "urls": [
         "https://news.ycombinator.com/item?id=38571117",
@@ -15157,7 +15147,25 @@
         "https://technode.global/prnasia/msi-showcases-liquid-cooled-ai-infrastructure-nvidia-mgx-nvidia-dgx-station-and-dc-mhs-platforms-at-computex-2026"
       ],
       "date": "2026-09-09T22:02:18.110275+00:00"
+    },
+    {
+      "title": "NOAA Issues Elevated 2026 Atlantic Hurricane Outlook Prompting Coastal Preparedness",
+      "urls": [
+        "https://www.latimes.com/california/story/2026-09-06/la-hit-by-rare-september-rain-coastal-flooding-from-hurricane-marie",
+        "https://www.youtube.com/watch?v=IhSay6vi84g",
+        "https://www.facebook.com/RachelWeather/videos/noaa-updates-2026-atlantic-hurricane-season-outlook-predicts-fewer-storms-thanks/1056000223806525",
+        "https://www.youtube.com/watch?v=yCDgYl_QWkU",
+        "https://www.youtube.com/watch?v=Ilg2NUHek5Q",
+        "https://www.youtube.com/watch?v=v0_bLKs5ZSM",
+        "https://www.cfact.org/2026/09/09/hurricane-update-september-2026",
+        "https://www.floridadisaster.org/weather",
+        "https://www.theguardian.com/world/extreme-weather",
+        "https://www.youtube.com/watch?v=Sc6O2FZ6i18",
+        "https://en.wikipedia.org/wiki/Weather_of_2026",
+        "https://yaleclimateconnections.org/2026/08/the-floods-of-the-future-wont-come-one-at-a-time"
+      ],
+      "date": "2026-09-09T22:31:52.401805+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T22:02:18.110351+00:00"
+  "lastUpdated": "2026-09-09T22:31:52.402008+00:00"
 }
