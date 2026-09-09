@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches Two Open‑Source Reasoning Models to Expand Accessible AI Tools",
-      "urls": [
-        "https://www.evertune.ai/resources/ai-model-tracker",
-        "https://www.techtarget.com/ai/tip/Does-AI-generated-code-violate-open-source-licenses",
-        "https://www.analyticsinsight.net/artificial-intelligence/best-open-source-projects-that-will-lead-in-2026",
-        "https://community.openai.com/c/open-models/41",
-        "https://aimodels.org/ai-communities",
-        "https://www.analyticsinsight.net/ampstories/artificial-intelligence/best-open-source-ai-models-in-2026",
-        "https://techcrunch.com/2025/08/05/openai-launches-two-open-ai-reasoning-models",
-        "https://community.openai.com"
-      ],
-      "date": "2026-08-30T05:01:58.310153+00:00"
-    },
-    {
       "title": "NeuroTech Labs Demonstrates Brain‑Computer Interface Boosting Communication for Disabled Children",
       "urls": [
         "https://www.youtube.com/watch?v=mlqH-n9V1S0",
@@ -14937,7 +14923,22 @@
         "https://en.wikipedia.org/wiki/Streaming_media"
       ],
       "date": "2026-09-09T04:33:26.420287+00:00"
+    },
+    {
+      "title": "Mistral AI Secures $1.5 Billion Funding, Valued at $24 Billion After Samsung Investment",
+      "urls": [
+        "https://shawnkanungo.com/blog/what-is-mistral-3-ai-open-source-models-guide-2026",
+        "https://aibusiness.com/foundation-models/nvidia-mistral-open-models",
+        "https://www.msn.com/en-us/money/markets/mistral-bags-24-billion-valuation-as-samsung-leads-funding-for-europes-ai-champion/ar-AA2bLyyd?ocid=BingNewsVerp",
+        "https://theairankings.com/mistral",
+        "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise",
+        "https://mistral.ai/news/mistral-large-2407",
+        "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+        "https://ts2.tech/en/mistral-ais-meteoric-rise-inside-the-14b-open-source-gambit-challenging-openai",
+        "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm"
+      ],
+      "date": "2026-09-09T05:01:58.728872+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T04:33:26.420385+00:00"
+  "lastUpdated": "2026-09-09T05:01:58.728954+00:00"
 }
