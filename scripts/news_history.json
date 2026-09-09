@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Surpasses United States With Over 57.5 Million GitHub Users, Fueling Global Tech Growth",
-      "urls": [
-        "https://www.business-standard.com/industry/news/github-india-57-million-developers-2030-ai-growth-125102801381_1.html",
-        "https://ssojet.com/news/india-surpasses-us-as-top-open-source-contributor-amid-ai-growth",
-        "https://www.newsbytesapp.com/news/science/india-becomes-github-s-fastest-growing-developer-community-globally/story",
-        "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote",
-        "https://www.moneycontrol.com/artificial-intelligence/with-21-9-million-developers-india-becomes-github-s-fastest-growing-community-and-largest-open-source-hub-globally-article-13637824.html",
-        "https://github.com/trending",
-        "https://economictimes.indiatimes.com/magazines/panache/ai-at-the-core-google-i/o-connect-india-2025-backs-developers-driving-the-nations-tech-ambitions/articleshow/122861466.cms",
-        "https://indiaai.gov.in/article/eight-interesting-open-source-indian-projects-that-can-support-ai-research",
-        "https://github.com/jeswinsimon/awesome-made-by-indians"
-      ],
-      "date": "2026-08-30T10:02:05.959511+00:00"
-    },
-    {
       "title": "The timing coincides with the return of the Venture For ClimateTech",
       "urls": [
         "https://forclimatetech.org/newsletter-july-2026",
@@ -14944,7 +14929,36 @@
         "https://link.springer.com/chapter/10.1007/978-3-031-07670-1_11"
       ],
       "date": "2026-09-09T09:41:35.149337+00:00"
+    },
+    {
+      "title": "SGLang Joins PyTorch Ecosystem, Enhancing Efficient LLM Deployment for Developers",
+      "urls": [
+        "https://siliconangle.com/2026/09/08/open-source-ai-developer-mistral-closes-e3b-funding-round",
+        "https://techrights.org/datacentre_bibliography.shtml",
+        "https://crfm.stanford.edu/fmti/paper.pdf",
+        "https://www.jipitec.eu/jipitec/article/download/418/421/2168",
+        "https://papers.academic-conferences.org/index.php/eckm/issue/download/50/76",
+        "https://vixra.org/ai",
+        "https://pytorch.org/blog/sglang-joins-pytorch",
+        "https://pytorch.org/blog/introducing-the-pytorch-ecosystem-working-group-and-project-spotlights",
+        "https://ludditus.com/2025/02/06/ai-from-llms-to-deep-enslavement",
+        "https://ludditus.com/2025/02/21/fuhrers-grok-3-is-promising%E2%80%95and-expensive",
+        "https://rssdsaisection.substack.com/p/november-newsletter-b33",
+        "https://www.cuspera.com/products/microsoft-stream-x-17431/news",
+        "https://www.cuspera.com/categories/customer-data-platform/news",
+        "https://munkschool.utoronto.ca/media/9102/download",
+        "https://thinking.is.ed.ac.uk/wir",
+        "https://radar.inria.fr/report/2025/marianne/index.html",
+        "https://radar.inria.fr/report/2025/cedar/index.html",
+        "https://radar.inria.fr/report/2025/camus/index.html",
+        "https://resourceful-workshop.github.io/resourceful-2026/W55.pdf",
+        "https://community.openai.com/t/ai-pulse-edition-5-latest-ai-news-updates-for-the-developer-community/997659",
+        "https://www.teleclick.ca/page/30",
+        "https://markmcneilly.substack.com/p/the-new-news-in-ai-11626-edition",
+        "https://aventure.vc/news/2026-09-08-open-source-ai-developer-mistral-closes-3b-funding-round"
+      ],
+      "date": "2026-09-09T10:02:33.317965+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T09:41:35.149424+00:00"
+  "lastUpdated": "2026-09-09T10:02:33.318055+00:00"
 }
