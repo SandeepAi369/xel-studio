@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Cuts GPT‑5.6 Luna Price by 80% Amid Rising Competition",
-      "urls": [
-        "https://www.youtube.com/watch?v=uFzfbAPZOhc",
-        "https://finance.yahoo.com/technology/ai/articles/markets-confident-openai-releases-next-191526916.html",
-        "https://finance.yahoo.com/technology/ai/articles/openai-just-cut-gpt-5-013753910.html",
-        "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm",
-        "https://www.msn.com/en-in/news/other/why-is-openai-slowing-down-the-release-of-its-new-astra-ai-model/ar-AA29FgaP?ocid=BingNewsVerp",
-        "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
-        "https://www.techtimes.com/articles/322710/20260802/openais-astra-solves-ten-decade-old-math-problems-machine-checkable-lean-proofs.htm",
-        "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-        "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html"
-      ],
-      "date": "2026-08-30T22:01:55.112195+00:00"
-    },
-    {
       "title": "India's Monsoon Delayed by El Niño, Climate Change, Experts Warn",
       "urls": [
         "https://economictimes.indiatimes.com/news/india/el-nino-climate-change-india-monsoon-impact-weather-explained/articleshow/132305378.cms",
@@ -15127,7 +15112,52 @@
         "https://www.technologyreview.com/2023/06/28/1074350/future-is-disabled"
       ],
       "date": "2026-09-09T21:31:55.872602+00:00"
+    },
+    {
+      "title": "Linkhome Launches AI Computing Subsidiary and Evaluates European Project Involving Up to 144 Units",
+      "urls": [
+        "https://www.reddit.com/r/AINewsMinute/comments/1upmxgw/big_tech_is_spending_725b_on_ai_in_2026_while_the",
+        "https://www.reddit.com/r/ValueInvesting/comments/1uvu8bi/the_next_phase_of_the_ai_bull_run",
+        "https://www.reddit.com/r/technology/comments/1uv50kq/ai_servers_will_consume_more_power_than_all",
+        "https://www.reddit.com/r/singularity/comments/1ua1ifj/semianalysis_stop_saying_half_of_2026_us",
+        "https://cloud.google.com/blog/products/compute/google-cloud-ai-infrastructure-at-nvidia-gtc-2026",
+        "https://www.techtarget.com/ai/tip/Planning-AI-infrastructure-upgrades-Four-steps-for-success",
+        "https://www.manilatimes.net/2026/09/09/tmt-newswire/pr-newswire/superx-announces-an-update-on-the-progress-of-share-repurchases-program-to-demonstrate-confidence-in-long-term-growth-value/2421556",
+        "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates",
+        "https://www.theglobeandmail.com/investing/markets/stocks/SUPX/pressreleases/4445055/superx-ai-boosts-buybacks-as-apac-ai-server-orders-surge",
+        "https://www.manilatimes.net/2026/09/02/tmt-newswire/globenewswire/linkhome-establishes-ai-computing-subsidiary-linkhome-technologies-and-begins-preliminary-evaluation-of-a-proposed-european-ai-computing-project-that-could-involve-up-to-144-nvidia-gb300-gpus/2416974",
+        "https://virtualizationreview.com/articles/2026/08/28/agentic-ai-pushes-enterprise-infrastructure-toward-an-upgrade-cycle-google-report-says.aspx",
+        "https://www.manilatimes.net/2026/09/01/tmt-newswire/globenewswire/bitdeer-ai-announces-sell-out-of-its-95mw-a102-malaysia-data-center-with-total-expected-ai-cloud-revenue-of-over-800-million/2415451",
+        "https://justainews.com/category/technologies/cloud-computing",
+        "https://www.spheron.network/blog/ai-infrastructure-companies-2026",
+        "https://www.computeforecast.com/news/ai-infrastructure-capex-2026-forecast-trendforce-830-billion",
+        "https://axis-intelligence.com/cloud-computing-statistics",
+        "https://azure.microsoft.com/en-us/blog",
+        "https://pureai.com/articles/2026/03/20/at-gtc-2026-nvidia-aws-and-google-cloud-shift-focus-from-chips-to-ai-infrastructure.aspx",
+        "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+        "https://tech-insider.org/aws-vs-azure-vs-google-cloud-2026",
+        "https://azure.microsoft.com/en-us/blog/new-infrastructure-for-the-era-of-ai-emerging-technology-and-trends-in-2024",
+        "https://theaiinsider.tech/2026/07/02/meta-moves-to-monetise-its-ai-infrastructure-with-plans-for-a-cloud-computing-business",
+        "https://www.ofzenandcomputing.com/20-google-ai-products",
+        "https://www.datacenterknowledge.com/cloud/2025-cloud-highlights-ai-outages-and-the-future-of-infrastructure",
+        "https://cloud.google.com/blog/products/compute/state-of-ai-infrastructure-report-overview",
+        "https://www.datacenterdynamics.com/en",
+        "https://www.gartner.com/en/newsroom/press-releases/2025-09-24-ai-enabling-cloud-services-are-the-future-of-cloud",
+        "https://www.forrester.com/blogs/predictions-2026-cloud-outages-private-ai-on-private-clouds-and-the-rise-of-the-neoclouds",
+        "https://cloud.google.com/blog/products/ai-machine-learning/q2-2025-ai-hypercomputer-updates",
+        "https://www.buildmvpfast.com/blog/hyperscaler-ai-capex-spending-cloud-infrastructure-2026",
+        "https://aws.amazon.com/cn/blogs/china/top-announcements-of-the-whats-next-with-aws-2026",
+        "https://www.nielit.gov.in",
+        "https://raybyte.cn/news/2026-06-03-2026-ai",
+        "https://analyticsindiamag.com/ai-news/meta-plans-ai-cloud-business-to-challenge-aws-azure-google-cloud-report",
+        "https://www.alibabacloud.com/en?_p_lc=1",
+        "https://learn.microsoft.com/en-us/training",
+        "https://techstartups.com/2026/06/09/china-unveils-295-billion-plan-to-build-a-nationwide-ai-data-center-network-and-reduce-reliance-on-u-s-chips",
+        "https://www.factualminds.com/blog/aws-service-announcements-june-2026",
+        "https://technode.global/prnasia/msi-showcases-liquid-cooled-ai-infrastructure-nvidia-mgx-nvidia-dgx-station-and-dc-mhs-platforms-at-computex-2026"
+      ],
+      "date": "2026-09-09T22:02:18.110275+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T21:31:55.872698+00:00"
+  "lastUpdated": "2026-09-09T22:02:18.110351+00:00"
 }
