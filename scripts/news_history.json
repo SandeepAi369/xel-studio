@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Office of Chief Commissioner for Persons with Disabilities Issues Harmonized Accessibility Guidelines",
-      "urls": [
-        "https://ccpd.nic.in/harmonized-guidelines-for-standards-of-accessibility",
-        "https://idronline.org/article/rights/a-primer-on-indias-disability-law"
-      ],
-      "date": "2026-08-30T21:31:32.850041+00:00"
-    },
-    {
       "title": "OpenAI Cuts GPT‑5.6 Luna Price by 80% Amid Rising Competition",
       "urls": [
         "https://www.youtube.com/watch?v=uFzfbAPZOhc",
@@ -15115,7 +15107,27 @@
         "https://caledonianrecord-vt.newsmemory.com"
       ],
       "date": "2026-09-09T21:01:58.815347+00:00"
+    },
+    {
+      "title": "Global Accessibility Resources Highlight Inclusive Technology Advancements for People with Disabilities",
+      "urls": [
+        "https://www.disabilityinnovation.com/news?page=11",
+        "https://accessibleweb.com/web-accessibility-news/ai-assistive-technology-disability-design",
+        "https://globalaccessibilitynews.com",
+        "https://www.techuk.org/resource/empowering-inclusion-creating-accessible-technology-for-people-with-disabilities.html",
+        "https://www.disabled-world.com/news",
+        "https://www.startdisability.com/making-life-easier-disabled/technology-assistive-general-intro",
+        "https://know-the-ada.com/technological-innovations-in-accessibility-from-around-the-globe",
+        "https://www.mdpi.com/journal/disabilities/special_issues/Technology_Disabilities",
+        "https://www.trcil.org/enhancing-accessibility-the-latest-innovations-for-people-with-disabilities-in-the-usa.html",
+        "https://changingpaces.com/the-latest-research-and-innovations-in-disability-inclusion-and-accessibility",
+        "https://www.weforum.org/stories/2021/06/people-with-disabilities-developing-technology",
+        "https://nod.org/driving-change/technology",
+        "https://news.un.org/en/story/2021/03/1088032",
+        "https://www.technologyreview.com/2023/06/28/1074350/future-is-disabled"
+      ],
+      "date": "2026-09-09T21:31:55.872602+00:00"
     }
   ],
-  "lastUpdated": "2026-09-09T21:01:58.815470+00:00"
+  "lastUpdated": "2026-09-09T21:31:55.872698+00:00"
 }
