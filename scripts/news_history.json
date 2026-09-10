@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I don’t have enough information to write a news summary",
-      "urls": [
-        "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3",
-        "https://www.axios.com/2026/08/06/ai-singularity-intelligence-explosion"
-      ],
-      "date": "2026-08-31T09:02:03.057276+00:00"
-    },
-    {
       "title": "The Linux community relies on these outlets for up",
       "urls": [
         "https://linuxiac.com/linuxiac-weekly-wrap-up-week-35-2026-august-24-30",
@@ -15250,7 +15242,17 @@
         "https://techstartups.com/2026/07/21/top-tech-news-today-july-21-2026-anthropic-blackrock-tesla"
       ],
       "date": "2026-09-10T09:01:50.413080+00:00"
+    },
+    {
+      "title": "World Health Organization Expands Assistive Product List to Boost Global Inclusion",
+      "urls": [
+        "https://www.techtarget.com/ai/definition/What-is-assistive-technology-adaptive-technology",
+        "https://blackdoctor.com/10-assistive-technologies-make-life-with-disability-easier",
+        "https://www.who.int/teams/health-product-policy-and-standards/assistive-and-medical-technology/assistive-technology/promoting-access",
+        "https://www.unicef.org/reports/global-report-assistive-technology"
+      ],
+      "date": "2026-09-10T09:31:40.503491+00:00"
     }
   ],
-  "lastUpdated": "2026-09-10T09:01:50.413232+00:00"
+  "lastUpdated": "2026-09-10T09:31:40.503605+00:00"
 }
