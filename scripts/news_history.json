@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM Connects First Modular Cryogenic System Advancing Fault‑Tolerant Quantum Computing",
-      "urls": [
-        "https://www.facebook.com/WorldGovSummit/videos/at-the-world-governments-summit-ibm-ceo-arvind-krishna-revealed-that-quantum-com/1710263903475595",
-        "https://www.youtube.com/watch?v=MxMbCLD3TJY",
-        "https://www.youtube.com/watch?v=Be-ZT_6YfT0",
-        "https://www.tmcnet.com/usubmit/2026/08/19/10432330.htm",
-        "https://www.nasdaq.com/press-release/xanadu-breakthrough-lowers-cost-quantum-applications-2026-05-21",
-        "https://www.pymnts.com/technology/2026/what-ibms-quantum-breakthrough-means-for-the-100-million-cfo",
-        "https://www.indystar.com/story/news/local/fsu-news/2026/07/27/florida-state-wins-federal-grants-for-ai-quantum-computing-research/91034502007",
-        "https://www.tmcnet.com/usubmit/2026/08/19/10432379.htm",
-        "https://siliconangle.com/2026/07/23/ibm-acquires-quantum-computing-research-lab-hrl",
-        "https://www.techtarget.com/it-infrastructure/news/366619479/Microsoft-unveils-quantum-chip-Majorana-1-for-future-advances",
-        "https://quantumnews.in/article/quantum-computing/quantum-computing-weekly-round-up-week-ending-august-2026-1",
-        "https://newsroom.ibm.com/press-releases-research-and-innovation",
-        "https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance",
-        "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
-        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025",
-        "https://www.sciencedaily.com/releases/2025/08/250825015645.htm",
-        "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
-        "https://www.ibm.com/quantum/blog",
-        "https://energy-solutions.co/articles/sub/fusion-energy-breakthroughs-2026"
-      ],
-      "date": "2026-08-31T06:01:53.147149+00:00"
-    },
-    {
       "title": "Climate Tech Funding Surges 55 Percent To $26 Billion Driven By Data Center Demand",
       "urls": [
         "https://climateactapp.substack.com/p/your-weekly-dose-of-climate-hope-f8e",
@@ -15243,7 +15218,44 @@
         "https://hfw.assam.gov.in"
       ],
       "date": "2026-09-10T05:33:36.847297+00:00"
+    },
+    {
+      "title": "OpenAI Unveils Jalapeño AI Chip Threatening Nvidia Margins in Custom Silicon Push",
+      "urls": [
+        "https://247wallst.com/investing/2026/09/03/nvidia-is-paying-14-billion-for-a-company-that-gives-its-best-work-away-for-free",
+        "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+        "https://seekingalpha.com/news/4636330-ai-chip-stocks-fall-ahead-of-nvidia-earnings",
+        "https://www.tomshardware.com/news/archive",
+        "https://www.artificialintelligence-news.com/categories/inside-ai/new_ai-hardware-chips",
+        "https://www.reuters.com/business/chip-stocks-hit-rocky-patch-whats-next-2026-07-13",
+        "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html",
+        "https://techrights.org/o/2021/12/03/gnu-poke-1-4-a",
+        "https://techrights.org/n/2024/01/24/Links_24_01_2024_Natural_Disasters_and_COVID_19_Rebounds.shtml",
+        "https://www.techpowerup.com/news-tags/TSMC",
+        "https://www.techpowerup.com/news-tags/2023",
+        "https://www.techpowerup.com/news-tags/next%20generation",
+        "https://www.futuretimeline.net/forum/viewtopic.php?start=120&t=2247",
+        "https://www.futuretimeline.net/forum/viewtopic.php?start=220&t=2247",
+        "https://www.futuretimeline.net/forum/viewtopic.php?start=20&t=2247",
+        "https://deadstack.net/tag/tsmc",
+        "https://michaelparekh.substack.com/p/ai-getting-ready-for-another-ai-powered",
+        "https://tickeron.com/trading-investing-101",
+        "https://amdatalakehouse.substack.com/p/ai-weekly-mcp-goes-stateless-amd",
+        "https://www.cnbcfix.com/fast-money-review-cnbc.html",
+        "https://www.cnbcfix.com/fast-money-archive-july-2024.html",
+        "https://www.livetradingnews.com/earnings-the-economic-calendar-and-trading-strategies-september-8-to-12-2026",
+        "https://www.livetradingnews.com/economic-calendar-and-trading-strategy-this-week-august-17-to-21-2026",
+        "https://www.livetradingnews.com/this-week-in-ai-stocks-the-dollar750-billion-capex-wave-and-where-the-real-bottl",
+        "https://ai.mee.nu/archive/2026/1",
+        "https://epoch.ai/data/ai-chip-sales-documentation/methodology",
+        "https://www.atari800xl.eu/docs/kb/LIFE-ATARI-Vol-A-Book-03-History-of-Video-Game-Consoles.pdf",
+        "https://nunosempere.com/blog/2023/12/06/long-list-ai-questions",
+        "https://www.annielytics.com/tools/ai-timeline/company/nvidia",
+        "https://www.annielytics.com/tools/ai-timeline/company/apple",
+        "https://yabs.yandex.ru/count/WguejI_zOoVX2LcZ0WKL04FcaIcSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDTbJD8U0juGn22tq-bpjxjj-vyuOxNx_ZzOOxN6YUuqxdqsb7IrI5aAn5LA0GHTQVwX2IaGqaQzBHqf7HaGzL0slHpn6IDUddQEd8wAW4aH7IDKIHjOIC8kgG2H94Ha58rYGRHaX0JpjWoYO7DqC6Q293gVH5rlI0Ai2WuxWi85psE_OksRCxAAuc18mz5IZ6fYgchHSO0MCSTdPhZeHMnje862iHCHipuSIfXpC2d0K3VB7eyQcX-BEc3jM8Ig5Ew1EQtxZpQJjng1sjRJkNIl7drEbyEgUvr5w1W_M3HPPe2GDBuUAwyMu9cVHwb3kVRvXil9vhitidW1l00MpWwZ1XacJ3rjSHxdCQn4t0Bf5Q3Ni76hGqMvz1wpDaOnG73tMnkI9nLHYqtgdq5-WWF8O95zW2aBW5KFUILSrPs5hOGPTbcsQsTDZD5J05ynuZzZ6wXp5JW88XPu0HusSmtmWi6Fz147mHc6u0b0JkpGb8vffwdjlaUcvpzx_H4-41_k4lvWBRm7g_rmRM-xc-XvRvxr_C1VxQ9M2FnfzT0lPeP9gRVCmoS-drKvfyytPTrtNQJ04FaYk5RcpIOrz7kCzvyxBiorw8jg_CZoNmu9qslG_FVqCeCt94iSp8aIsldU1r_sGBqv0XNhuCEJoomOAG0O8S1mQ0ufWhbKfb260FpDdBCENtaW5Jazm3fGWS_CfRvNhLevyk0CR3C0Wpk91u6JKCSq58X9BZTW8oGVD6T2FOsBD_ThpRX-kWBGlEXTUgSG44AJPRizchJNhg0yiG2xXGg-fC7hNy3BDtQAtnuXmU2000~2"
+      ],
+      "date": "2026-09-10T06:01:59.440459+00:00"
     }
   ],
-  "lastUpdated": "2026-09-10T05:33:36.847377+00:00"
+  "lastUpdated": "2026-09-10T06:01:59.440559+00:00"
 }
