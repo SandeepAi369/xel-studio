@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Linux community relies on these outlets for up",
-      "urls": [
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-35-2026-august-24-30",
-        "https://9to5linux.com/9to5linux-weekly-roundup-august-30th-2026"
-      ],
-      "date": "2026-08-31T09:31:47.986008+00:00"
-    },
-    {
-      "title": "India Government Opens 45,000 GPUs Nationwide to Accelerate AI Development",
-      "urls": [
-        "https://news24online.com/india/indias-ai-push-govt-to-host-open-source-models-on-indian-servers-subsidize-compute-power-for-startups/457731",
-        "https://www.msn.com/en-in/technology/artificial-intelligence/indiaai-update-2026-government-opens-45-000-gpus-for-ai-development-startups-and-researchers-to-benefit/ar-AA2a9XjV?ocid=BingNewsVerp",
-        "https://www.thehindubusinessline.com/news/india-charts-independent-ai-path-backs-open-source-models-amid-us-restrictions/article71166535.ece",
-        "https://github.blog/news-insights/company-news/2024-github-accelerator-meet-the-11-projects-shaping-open-source-ai",
-        "https://vertu.com/lifestyle/16-open-source-projects-transforming-ai-and-machine-learning-in-2026",
-        "https://dev.to/kanhaiya2909/open-source-ai-models-global-boom-new-contributions-and-latest-updates-ack",
-        "https://timesofindia.indiatimes.com/business/india-business/india-to-become-largest-software-developer-by-2027-ai-fueling-economic-boom-github-ceo/articleshow/112958278.cms",
-        "https://aidevdayindia.org/blogs/ai-developer-toolkit-guide-for-India/ai-developer-toolkit-guide-for-India.html",
-        "https://indianexpress.com/about/artificial-intelligence"
-      ],
-      "date": "2026-08-31T10:02:07.573904+00:00"
-    },
-    {
       "title": "Businesses Adopt Carbon Tracking Methods to Measure Emissions and Meet Climate Goals",
       "urls": [
         "https://www.un.org/sustainabledevelopment/climate-change",
@@ -15252,7 +15229,30 @@
         "https://www.unicef.org/reports/global-report-assistive-technology"
       ],
       "date": "2026-09-10T09:31:40.503491+00:00"
+    },
+    {
+      "title": "Intel Joins Edge AI and Vision Alliance to Boost On‑Device Vision Solutions",
+      "urls": [
+        "https://www.edge-ai-vision.com/companies/intel",
+        "https://www.edge-ai-vision.com/companies/arm",
+        "https://www.informatica.si/index.php/informatica/issue/download/314/334",
+        "https://radar.inria.fr/report/2025/premedical/index.html",
+        "https://radar.inria.fr/report/2023/magnet/index.html",
+        "https://radar.inria.fr/report/2022/zenith/index.html",
+        "https://radar.inria.fr/report/2025/emeraude/index.html",
+        "https://radar.inria.fr/report/2024/premedical/index.html",
+        "https://opendatascience.com/2019-major-updates-to-the-most-popular-data-science-frameworks",
+        "https://www.sthu.org/teaching/lecturenotes/AlgorithmsInIndustry-ss2026.pdf",
+        "https://dionhinchcliffe.com",
+        "https://planetbanatt.net/links.html",
+        "https://cns.ucsd.edu/current-cns-news",
+        "https://www.cs.wisc.edu/notes-for-weekly-monthly-good-news",
+        "https://anale.spiruharet.ro/economics/issue/download/176/262",
+        "https://niplav.site/texts_list.html",
+        "https://www.openlogic.com/blog/tensorflow-vs-pytorch"
+      ],
+      "date": "2026-09-10T10:02:32.512374+00:00"
     }
   ],
-  "lastUpdated": "2026-09-10T09:31:40.503605+00:00"
+  "lastUpdated": "2026-09-10T10:02:32.512536+00:00"
 }
