@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Tech Leaders Adopt Chinese Open‑Weight AI Models, Questioning Closed‑Source Safety Claims",
-      "urls": [
-        "https://www.tmcnet.com/usubmit/2026/08/27/10436736.htm",
-        "https://www.msn.com/en-us/money/smallbusiness/zuckerberg-lays-out-vision-to-put-superintelligent-ai-in-everyones-hands/ar-AA29L5tk?ocid=BingNewsVerp",
-        "https://www.msn.com/en-xl/news/other/us-ai-leaders-turn-to-chinese-open-weight-models-challenging-closed-source-safety-claims/ar-AA29oUPB?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/ashishbhatia/2026/08/19/openai-paused-ai-training-for-two-weeks-heres-what-that-means",
-        "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
-        "https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html",
-        "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet",
-        "https://www.npr.org/2026/07/23/g-s1-135085/openai-hacking-ai-models",
-        "https://www.aicerts.ai/news/open-source-ai-2025-how-community-models-are-democratizing-innovation",
-        "https://aimagazine.com",
-        "https://fortune.com/2025/08/20/gpt-5-is-getting-all-the-buzz-but-the-new-open-models-of-ai-matters-more",
-        "https://af.net/realtime/open-source-ai-projects-updates-for-april-2026-mid-month-tracker",
-        "https://nvidianews.nvidia.com/news/ai-agents",
-        "https://af.net/realtime/ai-flash-report-daily-ai-news-roundup-for-july-5-2026",
-        "https://blogs.nvidia.com/blog/state-of-ai-report-2026"
-      ],
-      "date": "2026-08-31T18:31:56.180978+00:00"
-    },
-    {
       "title": "Digital Healthcare Industry Trends Reveal Rapid Growth and Emerging Regulatory Challenges",
       "urls": [
         "https://telehealthresourcecenter.org/news/august-2026-newsletter",
@@ -15251,7 +15230,48 @@
         "https://www.carmatec.com/blog/keras-vs-tensorflow-vs-pytorch-key-differences"
       ],
       "date": "2026-09-10T18:31:54.198243+00:00"
+    },
+    {
+      "title": "Drug Discovery Ai Pharmaceutical Research News New Developments September 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.msn.com/en-xl/money/general/as-china-embraces-ai-only-24-of-us-pharma-execs-bet-on-it-for-drug-making/ar-AA2bRbVC?ocid=BingNewsVerp",
+        "https://finance.yahoo.com/healthcare/articles/owkin-license-k-pro-ai-120000387.html",
+        "https://nz.finance.yahoo.com/news/analysis-chinas-drug-discovery-outsourcing-144200388.html",
+        "https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths",
+        "https://medicalxpress.com/news/2026-08-students-ai-isnt-drug-discovery.html",
+        "https://www.msn.com/en-xl/money/other/as-china-embraces-ai-only-24-of-us-pharmaceutical-execs-bet-on-it-for-innovation/ar-AA2bRbVC?ocid=BingNewsVerp",
+        "https://www.investors.com/news/technology/biotech-stocks-artificial-intelligence-ai-drug-development",
+        "https://www.jdsupra.com/legalnews/landscape-analysis-of-the-integration-4253468",
+        "https://www.tmcnet.com/usubmit/2026/09/07/10440975.htm",
+        "https://www.msn.com/en-us/money/other/generative-ai-moves-from-drug-discovery-to-drug-factories-in-2-5b-bora-deal/ar-AA27YZx2?ocid=BingNewsVerp",
+        "https://www.openpr.com/news/4627804/ai-in-drug-discovery-and-development-market-to-reach-usd-48-04",
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1927954/full",
+        "https://www.worldpharmatoday.com/archived-issues/print-issue-september-2026",
+        "https://www.mdpi.com/2673-2688/7/1/26",
+        "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials",
+        "https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026",
+        "https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026",
+        "https://visionlifesciences.com/insights/drug-discovery-ai-news",
+        "https://phys.org/news/2026-09-ai-powered-biomedical-discoveries.html",
+        "https://www.sciencedaily.com/news/health_medicine/pharmaceuticals",
+        "https://www.wsj.com/health/pharma/the-quest-to-use-ai-to-help-find-new-drugs-a754fdc3",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Lilly-Announce-Co-Innovation-AI-Lab-to-Reinvent-Drug-Discovery-in-the-Age-of-AI/default.aspx",
+        "https://www.discoveryontarget.com",
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-launches-tunelab-platform-give-biotechnology-companies",
+        "https://www.sciencedaily.com/news/health_medicine/pharmacology",
+        "https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals",
+        "https://www.pharmtech.com",
+        "https://www.nature.com/articles/d42473-024-00250-9",
+        "https://www.drugdiscoverynews.com/the-2026-ai-power-shift-17020",
+        "https://www.sciencedirect.com/science/article/pii/S0031699725075118",
+        "https://intuitionlabs.ai/articles/ai-tools-pharma-scientists-2026",
+        "https://www.euronews.com/health/2026/04/14/novo-nordisk-joins-forces-with-openai-to-fast-track-drug-research",
+        "https://www.thepharmaletter.com",
+        "https://o-mega.ai/articles/ai-for-scientific-discovery-the-2026-guide",
+        "https://www.pda.org/pda-letter-portal/home/full-article/the-ai-revolution-in-drug-discovery"
+      ],
+      "date": "2026-09-10T19:02:13.386874+00:00"
     }
   ],
-  "lastUpdated": "2026-09-10T18:31:54.198348+00:00"
+  "lastUpdated": "2026-09-10T19:02:13.386974+00:00"
 }
