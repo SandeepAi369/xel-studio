@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "FOSS United Highlights India's Role in Shaping Open Source and AI Future",
-      "urls": [
-        "https://fossunited.org/c/indiafoss/2025/cfp/12fuqc0uqo",
-        "https://www.aibmag.com/ai-start-ups-innovation-and-venture-trends/trending-ai-startups-for-august-2026",
-        "https://www.fromdev.com/2025/04/12-best-open-source-ai-projects-transforming-technology-in-2025.html",
-        "https://www.kaggle.com/datasets"
-      ],
-      "date": "2026-08-31T02:01:56.149873+00:00"
-    },
-    {
       "title": "Science News Highlights Recent Medical Breakthroughs Offering Patients New Treatment Options",
       "urls": [
         "https://yabs.yandex.ru/count/WguejI_zOoVX2LcV0WKL07DcaYcSK9yynHD7WG9NqPF2vxb102GSZvQEZ8w-0d4bdC09c1EeuXFW9h0di2UWJK2RWDOR9g0t0PdqEIBWBU4CGWjzFfSxUxRVkVE6Er-_u_M6ErnedkDEvzDfHukiFzKX92CRIDQaewKZeoCVgWRMefyZ96lIpz7IaT5H2I8Zf6k88ci96KNK8HCaY8o2aAn9DeoGW9vsm9JD3IZOTdKWHAdyKBZ11vN7eEEuB21SzZlsBjcpEoYk9WICFHKengOgfgqN605Z77PsQuw4LiRQ21Wh4J4R-n3s7xpU0zU44-Wu2bLgmG1VB7fyQcZqMSiOek7CetSqXzxGU_fqsbBS-QnjwFI6uhWKlt4xpwNs2XpiJDb74gqxSsBMZHUeX2hciPJp-OR9nkkvDhjt0hW17C06hWuJ9aasR7qTuJwdGTm4Z0lKQjYRW5wjLiEs0mrQcgtFeFKPiZ6AWuUws5oHk2eCMkzK-Wjq41x3X0ji98Z1fBYyT4mwMjXQs45lJGtEREcmcojW2kOzHknZT0zZfW05Gyu08yRFOBugSeZENCGV2c6w9EnP3OOKEICrzJotoVNSvkv_eoV20_p3Nym5je7rVgyDhFTpVGyjyz-_c0lyjKl07eq_kmJiqSWqJ-Z1B3ENNZ-boJTlrtLTfyqKwXAvfkZ69ZtsTOJxd3SloxxiXMZxolnO0W_UQTFxyFmtX38ZHnJBZ1pPyje9NlTFjZ0D6UBbov338nii21aWo75W02YEkLAfL8Q0HGN9NWPHVaKhEhfd6mfA21lyltQvyDXgGWyn39o4rvz0XatkHSDAZ2OX54g62mfE2PstqAM0KC_-syKxvo_YZMmx2NceVMJpmPhTHTHJfoCCTTyB8KDdyd04ds5sTskDrnhBIW00~2",
@@ -15214,7 +15204,18 @@
         "https://www.thehindubusinessline.com/economy/agri-business/south-asian-climate-outlook-forum-corroborates-imd-outlook-of-above-normal-monsoon-for-india-this-year/article69508173.ece"
       ],
       "date": "2026-09-10T01:32:28.517170+00:00"
+    },
+    {
+      "title": "NVIDIA Announces Acquisition of Hugging Face to Expand AI Model Ecosystem",
+      "urls": [
+        "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense",
+        "https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
+        "https://www.forbes.com/sites/jonmarkman/2026/09/09/nvidias-hugging-face-deal-buys-control-of-where-ai-agents-get-built",
+        "https://blog.imseankim.com/hugging-face-community-models-october-2025-open-source-highlights",
+        "https://www.edge-ai-vision.com/2026/09/nvidia-to-acquire-hugging-face"
+      ],
+      "date": "2026-09-10T02:02:06.888074+00:00"
     }
   ],
-  "lastUpdated": "2026-09-10T01:32:28.517290+00:00"
+  "lastUpdated": "2026-09-10T02:02:06.888138+00:00"
 }
