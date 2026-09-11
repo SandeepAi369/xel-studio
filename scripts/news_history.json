@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source AI Threatens Closed-Model Giants, New Review Finds Disruption Across Industry",
-      "urls": [
-        "https://pricepertoken.com/news/model-releases",
-        "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai",
-        "https://aiflashreport.com/model-releases.html",
-        "https://github.com/alvinreal/awesome-opensource-ai",
-        "https://www.swfte.com/blog/open-source-ai-models-frontier-2026",
-        "https://llm-stats.com/ai-news",
-        "https://www.sciencedirect.com/science/article/pii/S0740624X26000304",
-        "https://cmr.berkeley.edu/2026/01/the-coming-disruption-how-open-source-ai-will-challenge-closed-model-giants"
-      ],
-      "date": "2026-09-01T10:02:01.721758+00:00"
-    },
-    {
       "title": "Oil prices slipped lower, with crude futures falling about 2 percent, easing cost pressures on manufacturers worldwide and prompting investors",
       "urls": [
         "https://news.mongabay.com",
@@ -15520,7 +15506,40 @@
         "https://huggingface.co/models?search=uncensored"
       ],
       "date": "2026-09-11T10:01:54.253581+00:00"
+    },
+    {
+      "title": "World Economic Forum Highlights Five Renewable Innovations to Accelerate Clean Energy Transition",
+      "urls": [
+        "https://www.msn.com/en-xl/africa/top-stories/uganda-launches-shs37m-climate-innovation-challenge-for-young-innovators/ar-AA2bRAWV?ocid=BingNewsVerp",
+        "https://www.washingtonpost.com/opinions/2026/07/28/how-green-energy-will-survive-trump-fight-climate-change",
+        "https://www.politico.com/news/2026/07/13/hochul-climate-change-clean-energy-goals-00994234",
+        "https://techvorta.com/climate-change-technology-solutions-2026",
+        "https://www.cleanenergyeconomymn.org/newsletters/september-2026",
+        "https://carboncredits.com/top-4-clean-tech-companies-to-watch-in-2026",
+        "https://techcrunch.com/2025/12/30/12-investors-dish-on-what-2026-will-bring-for-climate-tech",
+        "https://sdgnews.com/four-clean-tech-companies-2026",
+        "https://yabs.yandex.ru/count/Wh0ejI_zOoVX2LcY0XKL0AFcaYcSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDghnR4F2MS0QXXJwVovqzs-_SUSEThz_nUiCTBZJFSQVpwRIZHTQVwX2IaGqaQzBHqf7HaGzL0slHpn6IDUddQEd8wAW4aH7IDKIHjOIC8kgG2H94Ha58rYGRHaX0JpjWoYO7Jnze0-nGAZzywGWWGHS67STb0U6otx5toPxTGN4r8M3igK0nDbKnRRt021ZZiBDRSoIqCjP6m5Y9YDdOXx3_uFKUk2QSdC2nT8T2FC0NYnwV6iVjMiOG3LoQuz2ezEd4RQbjtxYTttNK6RrlgLGQVJxjQIwrL-1WDqmnuvfzY-HjkV6c6UMGNc3aVBvXil5whitkdG1k00UmWQl3X4cI3LjVHxZFQH0t0Rj4QZNi7MZGqcnz1gtFa8rH73pKnUQAn5LXq7gdqb-WW_0O9bnWyw361iSb29ruYuMjXHrqsPkGcIqTTdC5JC6ynuXzZEvXp1IWOCWPOCJu6Smt0Y-GZoJEXo-OheSFz9OaOPcnrDJpt2RNSvkx_usU20_m3tyn5zW6rlkzDh3Up_KzjCn__s8kyDSk0Niq_kmIi4SZqpppX5bcBhr-IfDltgxhkawRPveamNBHZKrwxEi8zpblNfPzsGlHzfNviGGUlDEcz-7vRmXbHevu-IsjwxfYcP4ZNbuxmUl-oHQc8KEyV1boU6I31I4313aE3035CLSgbSeGmiPBzX9C-VFuP1H9ysMa6_pAM-5wrQEVBW36mp08GxXG0cHu7LvqUM6KNuLGqe9ESA3Dl2rL18HmzhSKRzJYrWAbhqQ10keLRBvoipiYzDJfwL13zjeGqfayOrORmspOBVy3~2",
+        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
+        "https://www.reuters.com/sustainability/clean-energy",
+        "https://www.analyticsinsight.net/tech-news/best-climate-tech-innovations-transforming2026",
+        "https://www.innovationnewsnetwork.com/category/energy-news",
+        "https://www.weforum.org/stories/2023/09/renewable-energy-innovations-climate-emergency",
+        "https://www.forbes.com/sites/energyinnovation/2025/09/21/climate-tech-atlas-could-unlock-net-zero-breakthroughs",
+        "https://www.sciencedaily.com/news/earth_climate/sustainability",
+        "https://www.weforum.org/stories/energy-transition/the-top-5-energy-technology-trends-of-2025",
+        "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/news-research/special-reports/top-cleantech-trends-for-2025.pdf",
+        "https://marksmendaily.com/environment/7-breakthroughs-transforming-climate-tech-innovation",
+        "https://www.insights.onegiantleap.com/blogs/clean-energy-tech-in-2025-a-year-of-global-breakthroughs",
+        "https://ratedpower.com/blog/solar-power-technology",
+        "https://www.spglobal.com/energy/en/news-research/special-reports/energy-transition/top-cleantech-trends-for-2025",
+        "https://www.weforum.org/stories/energy-transition/4-key-trends-to-watch-in-clean-energy-technology-in-2025",
+        "https://www.bbvacib.com/insights/news/the-future-of-cleantech-trends-and-investment-opportunities",
+        "https://www.iea.org/reports/energy-technology-perspectives-2020",
+        "https://www.sciencedirect.com/science/article/pii/S2590123024013768",
+        "https://www.weforum.org/stories/forum-institutional/renewable-energy-innovations-climate-emergency"
+      ],
+      "date": "2026-09-11T10:31:48.454557+00:00"
     }
   ],
-  "lastUpdated": "2026-09-11T10:01:54.253717+00:00"
+  "lastUpdated": "2026-09-11T10:31:48.454641+00:00"
 }
