@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Leads GitHub Open Source Surge, Boosting Global Developer Influence",
-      "urls": [
-        "https://www.forkable.io/p/india-leads-githubs-open-source-surge",
-        "https://pdpspectra.com/blog/india-vernacular-llms-bharatgpt-sarvam-krutrim"
-      ],
-      "date": "2026-09-02T18:31:49.645171+00:00"
-    },
-    {
       "title": "FCC Defines Telemedicine, Telehealth and Telecare While Highlighting Growth and Policy Challenges",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11298029",
@@ -15126,7 +15118,39 @@
         "https://www.linux.org/forums"
       ],
       "date": "2026-09-12T18:31:40.607920+00:00"
+    },
+    {
+      "title": "Congress Passes Spending Bill to Safeguard Telehealth Amid 2025 Medicare Policy Cliff",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12578068",
+        "https://open.hpi.de/news",
+        "https://vator.tv/2022-09-26-digital-health-news-funding-roundup-in-the-prior-week-september-26-2022",
+        "https://vator.tv/2023-01-09-digital-health-news-funding-round-up-in-the-prior-week-january-9-2023",
+        "https://www.govinfo.gov/content/pkg/BILLS-116s1790enr/pdf/BILLS-116s1790enr.pdf",
+        "https://www.govinfo.gov/content/pkg/PLAW-115publ334/pdf/PLAW-115publ334.pdf",
+        "https://health.ucdavis.edu/cht/newsroom/in-the-news.html",
+        "https://connectwithcare.org/alliance-news/page/26",
+        "https://www.mobihealthnews.com/news/depth-q3-2014-digital-health-state-industry",
+        "https://www.mobihealthnews.com/news/depth-pharma-steps-digital-health-efforts",
+        "https://www.mobihealthnews.com/news/depth-state-industry-digital-health-q1-2014",
+        "https://www.mobihealthnews.com/news/medical-delivery-drones-nhs-nikes-workout-app-comes-apple-and-more-digital-health-briefs",
+        "https://legislature.maine.gov/doc/11071",
+        "https://legislature.maine.gov/doc/4675",
+        "https://legislature.maine.gov/doc/10365",
+        "https://thoughtbot.com/blog/how-to-turn-2020-learnings-into-2021-product-strategy-online-event",
+        "https://thelogic.co/news/league-eyes-global-expansion-fuelled-by-digital-health-partnerships-forged-in-the-pandemic",
+        "https://telehealth.org/news",
+        "https://link.springer.com/subjects/telehealth-innovations-for-healthcare-delivery",
+        "https://telehealthawareness.org",
+        "https://telehealth.org/news/september-2025-telehealth-cliff-how-four-bills-could-shape-virtual-care",
+        "https://telehealthresourcecenter.org/resources/the-telehealth-policy-cliff-preparing-for-october-1-2025",
+        "https://www.americantelemed.org/press-releases/the-sprint-to-september-30-ata-action-submits-comprehensive-comments-in-response-to-draft-cy2026-medicare-physician-fee-schedule-rule",
+        "https://www.americantelemed.org/press-releases/no-shutdown-for-telehealth-as-congress-passes-spending-bill-to-keep-the-government-open-including-critical-telehealth-extensions-ata-action-celebrates-vote",
+        "https://www.ama-assn.org/system/files/issue-brief-telehealth-policy-expanded-access-to-virtual-care.pdf",
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-july-2026"
+      ],
+      "date": "2026-09-12T19:01:59.286353+00:00"
     }
   ],
-  "lastUpdated": "2026-09-12T18:31:40.607998+00:00"
+  "lastUpdated": "2026-09-12T19:01:59.286457+00:00"
 }
