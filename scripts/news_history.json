@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Rumors €3 Billion Funding Round Valuing Startup at €20 Billion",
-      "urls": [
-        "https://www.reddit.com/r/LLM/comments/1uzz0u9/why_do_people_say_llm_token_prices_have_dropped",
-        "https://www.reddit.com/r/MistralAI/comments/1uzrfdx/another_urgent_request_to_get_python_in_work_mode",
-        "https://builtin.com/articles/mistral-ai",
-        "https://aizolo.com/blog/mistral-ai-models-2026",
-        "https://www.eweek.com/news/mistral-3-launch",
-        "https://meyka.com/blog/mistral-launches-new-open-source-speech-generation-model",
-        "https://mistral.ai/models",
-        "https://serenitiesai.com/articles/mistral-magistral-devstral-2-review-2026",
-        "https://artificialintelligenceherald.com/news/mistral-ai-open-source-challenger-2026",
-        "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation",
-        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html",
-        "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
-        "https://mistral.ai/fr/news",
-        "https://itechify.com/2026/07/07/what-is-mistral-ai-openai-competitor",
-        "https://techcrunch.com/tag/mistral-ai",
-        "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models",
-        "https://techcrunch.com/2023/09/27/mistral-ai-makes-its-first-large-language-model-free-for-everyone",
-        "https://mistral.ai/news/about-mistral-ai",
-        "https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai",
-        "https://devstarsj.github.io/ai-tools/2026-04-11-Mistral-AI-Complete-Guide-2026",
-        "https://techcrunch.com/2025/09/03/mistral-the-french-ai-giant-is-reportedly-on-the-cusp-of-securing-a-14-billion-valuation"
-      ],
-      "date": "2026-09-02T10:01:58.460212+00:00"
-    },
-    {
       "title": "UN Warns Global Warming Will Surpass 1.5°C Soon, Urging Immediate Climate Action",
       "urls": [
         "https://www.nature.com/articles/d41586-026-02753-5",
@@ -15147,7 +15120,24 @@
         "https://partnersforsight.org/digital-inclusion-toolkit-for-students-with-vision-loss"
       ],
       "date": "2026-09-12T09:31:32.014552+00:00"
+    },
+    {
+      "title": "Simon Willison Announces Release of llm 0.35 Model Targeting Open‑Source Developers",
+      "urls": [
+        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in",
+        "https://pricepertoken.com/news/model-releases",
+        "https://simonwillison.net/2026/Sep/7/llm",
+        "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01",
+        "https://blog.mean.ceo/large-language-model-news-september-2026",
+        "https://buttondown.com/agent-k/archive/llm-daily-september-06-2026",
+        "https://azumo.com/artificial-intelligence/ai-insights/top-10-llms-0625",
+        "https://en.wikipedia.org/wiki/List_of_large_language_models",
+        "https://www.msn.com/en-ca/news/other/chinas-tencent-releases-new-open-source-ai-model-for-coding-research-tasks/ar-AA2b6sWJ?ocid=BingNewsVerp",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://www.scriptbyai.com/ai-model-release-calendar"
+      ],
+      "date": "2026-09-12T10:02:05.596408+00:00"
     }
   ],
-  "lastUpdated": "2026-09-12T09:31:32.014677+00:00"
+  "lastUpdated": "2026-09-12T10:02:05.596485+00:00"
 }
