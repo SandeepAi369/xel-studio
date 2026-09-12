@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hand Talk Launches New Devices to Translate Speech Into Sign Language",
-      "urls": [
-        "https://www.facebook.com/NAD1880/posts/textnational-association-of-the-deafcommunity-forumsevent-line-upaccessibility-f/1374682088035990",
-        "https://rogervoice.com/blog/news/press-release/60-of-americans-say-phone-calls-are-not-accessible-to-the-deaf-and-hard-of-hearing-2026-national-survey",
-        "https://www.handtalk.me/en/blog/deaf-accessibility-technology",
-        "https://deafequality.org/category/advocacy"
-      ],
-      "date": "2026-09-02T05:31:32.818238+00:00"
-    },
-    {
       "title": "AI Developers are expected to gain faster experimentation cycles, as Meta’s accompanying documentation and toolkits aim to simplify local deployment,",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1n2xc58/meta_is_racing_the_clock_to_launch_its_newest",
@@ -15145,7 +15135,23 @@
         "https://huggingface-paper-explorer.vercel.app"
       ],
       "date": "2026-09-12T05:02:12.098695+00:00"
+    },
+    {
+      "title": "Level Access Highlights AI Assistive Technology Trends Shaping Accessibility in 2026",
+      "urls": [
+        "https://news.hearingtracker.com/news/ddeb3516-d234-4394-8c15-2641d5a7ec90",
+        "https://www.hearingloss.org/find-help/captioning",
+        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
+        "https://nad.org/latest-news",
+        "https://www.forbes.com/lists/accessibility",
+        "https://nationaldeafcenter.org/topics/assistive-technology",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12101339",
+        "https://www.medel.com/press-room/press-list",
+        "https://www.betterhearing.org/newsroom/industry-news",
+        "https://www.applause.com/state-of-digital-quality-2026/accessibility-report"
+      ],
+      "date": "2026-09-12T05:31:48.984374+00:00"
     }
   ],
-  "lastUpdated": "2026-09-12T05:02:12.098761+00:00"
+  "lastUpdated": "2026-09-12T05:31:48.984456+00:00"
 }
