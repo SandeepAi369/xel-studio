@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "India’s Accessibility Promise Faces Implementation Gap Amid Ongoing Policy Challenges",
-      "urls": [
-        "https://ccpd.nic.in",
-        "https://depwd.gov.in/en/acts",
-        "https://www.theindiaforum.in/forum/indias-accessibility-promise-and-its-implementation-gap",
-        "https://www.digitala11y.com/indias-digital-accessibility-laws-and-overview",
-        "https://indianexpress.com/article/explained/explained-law/india-disability-law-accessible-government-buildings-pwd-9195391",
-        "https://www.careerindia.com/features/disability-rights-india-progress-challenges-011-044257.html",
-        "https://mib.gov.in/sites/default/files/2026-02/finalized-accessibility-guidelines-for-ott-platforms_0.pdf",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/redesigning-india-for-inclusion-of-pwds",
-        "https://www.deque.com/blog/how-the-rights-of-persons-with-disabilities-act-rpwd-impacts-digital-accessibility-in-india",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/building-a-barrier-free-india-for-divyangjan",
-        "https://en.wikipedia.org/wiki/India",
-        "https://www.britannica.com/place/India",
-        "https://www.india.gov.in",
-        "https://simple.wikipedia.org/wiki/India",
-        "https://www.britannica.com/facts/India",
-        "https://www.mapsofindia.com/india"
-      ],
-      "date": "2026-09-02T21:31:38.364319+00:00"
-    },
-    {
       "title": "TCS, Infosys, Wipro Face Downgrades as Indian IT Sector Slides Amid IBM Outlook",
       "urls": [
         "https://www.moneycontrol.com/news/trends/tcs-infosys-face-fresh-challenge-as-global-ai-enters-india-s-tech-industry-13910644.html",
@@ -15120,7 +15098,21 @@
         "https://www.therunningweek.com/post/sydney-marathon-2026-elite-field-course-record-under-serious-threat"
       ],
       "date": "2026-09-12T21:03:46.336937+00:00"
+    },
+    {
+      "title": "India Issues Harmonized Accessibility Guidelines to Standardize Disability Inclusion Nationwide",
+      "urls": [
+        "https://ccpd.nic.in/harmonized-guidelines-for-standards-of-accessibility",
+        "https://isoclive.substack.com/p/india-pwd",
+        "https://www.panxworld.com/blogs/posts/supreme_court_rpwd_digital_accessibility_india_2026.html",
+        "https://www.dhyeyaias.com/current-affairs/daily-current-affairs/revised-accessibility-guidelines-india-disability-rights-inclusion",
+        "https://www.pivotalaccessibility.com/2025/12/sebi-clarifies-digital-accessibility-compliance-requirements-for-2026",
+        "https://timesofindia.indiatimes.com/blogs/the-inclusion-platform/a-decade-of-disability-inclusion-from-policy-promise-to-lived-reality",
+        "https://www.inclusive-education-initiative.org/blog/examining-disability-inclusion-indias-new-national-education-policy",
+        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
+      ],
+      "date": "2026-09-12T21:31:46.688588+00:00"
     }
   ],
-  "lastUpdated": "2026-09-12T21:03:46.337069+00:00"
+  "lastUpdated": "2026-09-12T21:31:46.688664+00:00"
 }
