@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Startup Partners With Google Cloud To Launch Scalable Cloud Platform for Enterprises",
-      "urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-chatgpt-ads-in-india/articleshow/133557730.cms",
-        "https://economictimes.indiatimes.com/ai/ai-insights/openai-launches-chatgpt-ads-in-india-over-50-brands-to-go-live-this-week/articleshow/133557302.cms?from=mdr",
-        "https://entrepreneur.economictimes.indiatimes.com/news/openai-launches-chatgpt-ads-in-india-with-over-50-brands-set-to-go-live/133556102",
-        "https://www.socialsamosa.com/industry-updates/openai-launches-chatgpt-ads-in-india-partners-with-wpp-and-omnicom-12442094",
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/openai-to-roll-out-chatgpt-ads-in-india-from-september-4/133561599",
-        "https://economictimes.indiatimes.com/topic/bharatgpt/news",
-        "https://trak.in/stories/this-indian-startup-partners-with-google-cloud-to-launch-bharatgpt-indias-own-llm-based-generative-ai-platform-1-2-billion-users-served",
-        "https://opensourceindia.org"
-      ],
-      "date": "2026-09-02T14:31:38.846854+00:00"
-    },
-    {
       "title": "World Health Organization Calls for Unified Action as India Faces Ongoing Health Challenges",
       "urls": [
         "https://www.who.int/countries/ind",
@@ -15112,7 +15098,24 @@
         "https://zeenews.india.com/india/historic-el-nino-developing-noaa-monsoon-impact-forecast-2026-3066531.html"
       ],
       "date": "2026-09-12T14:02:15.091053+00:00"
+    },
+    {
+      "title": "BharatGPT Launches Soon With NASSCOM Backing, Boosting India's Open Source AI Landscape",
+      "urls": [
+        "https://www.opensourceindia.in",
+        "https://www.opensourceforu.com/2023/04/india-adopts-open-source-software-to-strengthen-the-tech-sector-despite-job-losses",
+        "https://indianexpress.com/about/open-source-software",
+        "https://timesofindia.indiatimes.com/india/openai-rolls-out-chatgpt-ads-in-india-over-50-brands-on-board/articleshow/133578142.cms",
+        "https://analyticsindiamag.com/news/open-source-software",
+        "https://analyticsindiamag.com/ai-features/everything-you-need-to-know-about-bharatgpt",
+        "https://tfir.io/indias-open-source-revolution-how-17-million-developers-are-reshaping-global-tech-collaboration",
+        "https://analyticsindiamag.com/ai-features/everything-you-need-to-know-about-bharatgpt",
+        "https://indianopensourcecommunity.in",
+        "https://www.equitypandit.com/indias-own-chatgpt-bharatgpt-to-launch-soon",
+        "https://analyticsindiamag.com/ai-features/exclusive-how-nasscom-is-enabling-bharatgpt-adoption-in-india"
+      ],
+      "date": "2026-09-12T14:31:42.644149+00:00"
     }
   ],
-  "lastUpdated": "2026-09-12T14:02:15.091192+00:00"
+  "lastUpdated": "2026-09-12T14:31:42.644224+00:00"
 }
