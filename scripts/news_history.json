@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Highlights Weekly Open‑Source Model Releases As Open AI Ecosystem Expands",
-      "urls": [
-        "https://blog.mean.ceo/open-source-ai-news-september-2026",
-        "https://www.promptzone.com/ai-model-releases",
-        "https://felloai.com/best-ai-models",
-        "https://huggingface.co/blog/huggingface-hub-release-ci",
-        "https://huggingface.co/blog/Svngoku/ai-models-week-july-09-2026",
-        "https://www.engadget.com/2224899/hugging-face-reportedly-plagued-with-deepfakes",
-        "https://artificialintelligenceherald.com/ai-news-today",
-        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
-        "https://www.techradar.com/pro/what-is-hugging-face-everything-we-know-about-the-ml-platform",
-        "https://openai.com/newsroom",
-        "https://huggingface.co/blog/community"
-      ],
-      "date": "2026-09-03T05:02:06.407514+00:00"
-    },
-    {
       "title": "Hearing Loss Association of America Expands Assistive Listening Device Guide for Users",
       "urls": [
         "https://www.innocaption.com/recentnews/ai-helps-deaf-hard-of-hearing-community",
@@ -14942,7 +14925,19 @@
         "https://en.wikipedia.org/wiki/Open_source"
       ],
       "date": "2026-09-13T05:01:50.759826+00:00"
+    },
+    {
+      "title": "Straits Research Forecasts Smart Wheelchair Innovations Driving Accessibility Growth Through Advanced Sensors and AI Integration",
+      "urls": [
+        "https://1000mobility.com/es/wheelchair-innovation-news-2026",
+        "https://straitsresearch.com/article/key-advancements-in-smart-wheelchairs",
+        "https://healthindustrytrends.com/revolutionizing-mobility-breakthrough-innovations-in-electric-wheelchair-technology",
+        "https://www.weforum.org/stories/equity-diversity-and-inclusion/technology-wheelchairs-reinvention-accessibility",
+        "https://toyotamobility.com",
+        "https://www.homecaremag.com/march-2021/wheelchair-technology-racing-forward"
+      ],
+      "date": "2026-09-13T05:31:38.965321+00:00"
     }
   ],
-  "lastUpdated": "2026-09-13T05:01:50.759901+00:00"
+  "lastUpdated": "2026-09-13T05:31:38.965401+00:00"
 }
