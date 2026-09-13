@@ -1,78 +1,6 @@
 {
   "entries": [
     {
-      "title": "Medical AI Shifts Focus From Treatment to Prevention, Boosting Early Disease Detection",
-      "urls": [
-        "https://medicalxpress.com/news/2026-07-ai-framework-enables-efficient-collaboration.html",
-        "https://www.frontiersin.org/news/2026/09/01/frontiers-in-science-medical-ai-move-from-treatment-to-prevention",
-        "https://www.healthcareitnews.com/video/overarching-importance-ai-governance-and-risk",
-        "https://www.healthcareitnews.com/video/how-himss26-attendees-use-ai-every-day",
-        "https://www.youtube.com/watch?v=gne08iSXzz8&pp=0gcJCU0KAYcqIYzv",
-        "https://medicalxpress.com/news/2026-08-ai-routes-earlier-diagnosis-treatment.html",
-        "https://www.medicaldaily.com/ai-healthcare-how-machine-learning-transforming-faster-disease-diagnosis-2026-475144",
-        "https://www.sobonix.com/blog/explore-the-latest-breakthroughs-in-health-ai-that-could-change-medicine-forever",
-        "https://www.chiefhealthcareexecutive.com/view/ai-in-health-care-26-leaders-offer-predictions-for-2026",
-        "https://www.techtimes.com/articles/316451/20260509/biggest-ai-breakthroughs-healthcare-that-are-transforming-modern-medicine.htm",
-        "https://www.arise-ai.org/report",
-        "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
-        "https://www.offcall.com/learn/articles/the-future-of-medical-ai-what-s-coming-in-2026-and-beyond",
-        "https://health.economictimes.indiatimes.com/tag/ai+in+healthcare",
-        "https://www.bvp.com/atlas/state-of-health-ai-2026",
-        "https://medtalkcentral.com/latest-health-news/ai-in-healthcare/ai-medical-diagnosis-breakthrough-accuracy-2026",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://zestlab.io/en/trends/ai-medical-diagnostics-2026",
-        "https://www.nih.gov/news-events/news-releases",
-        "https://www.foreseemed.com/artificial-intelligence-in-healthcare",
-        "https://interestingengineering.com/health/seven-medical-breakthroughs-in-2025",
-        "https://medicine.stanford.edu/news/stories/2026/01/clinical-ai-has-boomed.html",
-        "https://newsnetwork.mayoclinic.org/discussion/a-year-of-discovery-10-mayo-clinic-research-breakthroughs-moving-medicine-forward",
-        "https://www.sciencedaily.com/news/health_medicine/medical_imaging",
-        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html",
-        "https://www.weforum.org/stories/2024/09/ai-diagnostics-health-outcomes",
-        "https://today.ucsd.edu/story/nine-breakthroughs-made-possible-by-ai",
-        "https://www.news-medical.net/news/20251015/New-AI-system-connects-hidden-clues-in-medical-records-to-transform-diagnosis.aspx",
-        "https://www.humai.blog/ai-news-trends-march-2026-complete-monthly-digest",
-        "https://www.nvidia.com/content/dam/en-zz/Solutions/lp/survey-report/healthcare-state-of-ai-report-2026-4559650-web.pdf",
-        "https://dashtechinc.com/blog/7-breakthroughs-shaping-the-future-of-ai-in-healthcare-for-2026",
-        "https://www.cnn.com/2025/03/27/health/artificial-intelligence-diagnosis-technology-wellness",
-        "https://www.web3aiblog.com/blog/ai-in-healthcare-diagnosis-treatment-2026"
-      ],
-      "date": "2026-09-03T11:02:11.227849+00:00"
-    },
-    {
-      "title": "OpenAI Unveils GPT-5.6 Suite and First Offense‑Grade Cyber Model in Limited Preview",
-      "urls": [
-        "https://www.youtube.com/watch?v=pM0buEUHQ3c",
-        "https://www.youtube.com/watch?v=3QxiTfTSU8Q",
-        "https://releasebot.io/updates/openai/chatgpt",
-        "https://openai.com/research/index/release",
-        "https://openai.com/news/product-releases",
-        "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
-        "https://www.scriptbyai.com/timeline-of-chatgpt",
-        "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
-        "https://aireleasetracker.com",
-        "https://reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01",
-        "https://llmgateway.io/timeline",
-        "https://www.gptmap.org/en/posts/release-notes-2026-h2",
-        "https://releasebot.io/updates/openai/openai-models",
-        "https://www.eweek.com/news/openai-laid-out-2026-roadmap-neuron",
-        "https://www.macrumors.com/2026/06/26/openai-gpt-5-6-sol",
-        "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations",
-        "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
-        "https://www.msn.com/en-us/news/technology/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-56-sol-work-at-14x-the-speed/ar-AA2a2DZf?ocid=BingNewsVerp",
-        "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
-        "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
-        "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
-        "https://9to5mac.com/2026/08/06/gpt-5-turning-one-as-openai-shares-new-agent-plugins-standard",
-        "https://www.forbes.com/sites/jonmarkman/2026/08/11/openai-ships-gpt-56-cyber-its-first-offense-grade-hacking-model",
-        "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
-        "https://mashable.com/tech/openai-astra-model-details-release-date",
-        "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model",
-        "https://www.geeky-gadgets.com/fable-5-1-testing-gpt-astra"
-      ],
-      "date": "2026-09-03T11:31:39.115183+00:00"
-    },
-    {
       "title": "UN Refugee Agency Reports First Decline in Global Refugee Numbers in a Decade",
       "urls": [
         "https://www.aljazeera.com/features/2026/7/30/can-the-uns-refugee-convention",
@@ -14731,7 +14659,31 @@
         "https://ehealth.eletsonline.com/2024/10/aiims-bathinda-makes-breakthrough-in-stem-cell-therapy-research-for-heart-ailments"
       ],
       "date": "2026-09-13T11:02:08.764035+00:00"
+    },
+    {
+      "title": "India Launches Rs 1.27 Lakh Crore Semicon 2.0 Program to Boost Domestic Chip Production",
+      "urls": [
+        "https://businessupturn.com/business/india-expects-2-3-more-semiconductor-plants-to-go-live-by-end-2026-as-modi-plans-sept-16-roundtable-with-global-chip-ceos-2",
+        "https://www.moneycontrol.com/news/business/india-to-build-5-8-more-semiconductor-plants-in-7-8-years-pm-modi-says-14006158.html/amp",
+        "https://fidus.one/india-semiconductor-mission/projects",
+        "https://currentaffairs.adda247.com/semiconductor-plants-in-india-2026-complete-list-locations-and-manufacturing-details",
+        "https://www.aljazeera.com/economy/2025/12/18/can-india-catch-up-with-the-us-taiwan-and-china-in-the-global-chip-race",
+        "https://tradebrains.in/money/1-6-trillion-semiconductor-investments-here-are-indias-most-ambitious-semiconductor-projects-of-2025",
+        "https://ddindia.co.in/2026/07/cabinet-approves-rs-1-27-lakh-crore-semicon-2-0-to-strengthen-indias-semiconductor-ecosystem",
+        "https://yourstory.com/2026/07/india-semiconductor-mission-37-years-interrupted",
+        "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-semicon-india-2025-in-new-delhi",
+        "https://timesofindia.indiatimes.com/business/india-business/semicon-india-2025-pm-modi-receives-first-made-in-india-chip-industry-leaders-hail-nations-growing-role-in-global-semiconductor-ecosystem/articleshow/123649581.cms",
+        "https://www.indiatvnews.com/technology/news/semicon-2-0-gets-cabinet-approval-india-expands-push-for-semiconductor-manufacturing-design-and-r-d-2026-07-15-1048323",
+        "https://www.indiasemi.org",
+        "https://www.hindustantimes.com/india-news/cabinet-approves-fifth-semiconductor-unit-in-india-101725290494316.html",
+        "https://economictimes.indiatimes.com/topic/semiconductor-chip-shortage",
+        "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-two-more-semiconductor-manufacturing-units-with-cumulative-investment-of-more-than-rs-3900-crore",
+        "https://government.economictimes.indiatimes.com/news/technology/indias-semiconductor-revolution-three-new-plants-in-six-months/132205508",
+        "https://www.hindustantimes.com/business/semicon-india-2025-india-to-start-commercial-chip-production-this-year-itself-pm-modi-says-101756806481875.html",
+        "https://ddnews.gov.in/en/4-chip-manufacturing-units-3-supercomputers-in-2024-strengthen-indias-global-tech-position"
+      ],
+      "date": "2026-09-13T11:31:47.677635+00:00"
     }
   ],
-  "lastUpdated": "2026-09-13T11:02:08.764114+00:00"
+  "lastUpdated": "2026-09-13T11:31:47.677718+00:00"
 }
