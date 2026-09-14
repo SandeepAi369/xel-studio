@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Culture Portal Launches Online Hub Showcasing Heritage Collections for Public Access",
-      "urls": [
-        "https://indianculture.gov.in"
-      ],
-      "date": "2026-09-04T05:01:46.180106+00:00"
-    },
-    {
       "title": "India Introduces Two New Budget Schemes to Empower Divyangjan Through Technology and Skills",
       "urls": [
         "https://ddnews.gov.in/en/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27",
@@ -14534,7 +14527,22 @@
         "https://www.hellomagazine.in/lifestyle/story/after-team-india-win-at-womens-cricket-world-cup-2025-from-jemimah-rodrigues-to-vinesh-phogat-indian-sportswomen-are-breaking-barriers-and-making-history-1182854-2025-11-05"
       ],
       "date": "2026-09-14T04:31:49.213746+00:00"
+    },
+    {
+      "title": "India's 17 Million Developers on GitHub Drive AI and Open Source Growth",
+      "urls": [
+        "https://www.businesstoday.in/technology/news/story/indias-developer-boom-17-million-strong-on-github-ai-and-open-source-drive-growth-452139-2024-10-31",
+        "https://aiweekly.co/ai-news-today",
+        "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
+        "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1",
+        "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit",
+        "https://dev.to/laetitiaperraut/india-open-source-development-harnessing-collaborative-innovation-for-global-impact-8en",
+        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai",
+        "https://www.kaggle.com/datasets"
+      ],
+      "date": "2026-09-14T05:01:55.934214+00:00"
     }
   ],
-  "lastUpdated": "2026-09-14T04:31:49.213869+00:00"
+  "lastUpdated": "2026-09-14T05:01:55.934289+00:00"
 }
