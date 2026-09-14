@@ -1,43 +1,6 @@
 {
   "entries": [
     {
-      "title": "CoRover and Google Cloud Launch BharatGPT, India’s First Generative AI Conversational Bot",
-      "urls": [
-        "https://www.thehindu.com/sci-tech/technology/over-134-crore-spent-on-proprietary-software-at-premier-institutes-says-open-source-collective/article71428079.ece",
-        "https://firstindia.co.in/news/press-releases/corover-and-google-cloud-partner-to-bring-bharatgpt-a-pioneering-generative-ai-powered-conversational-bot-for-india",
-        "https://www.data.gov.in",
-        "https://opensource.googleblog.com",
-        "https://government.economictimes.indiatimes.com/news/technology/indias-first-indigenous-genai-bharatgpt-unveiled/106899694",
-        "https://nptel.ac.in",
-        "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
-        "https://www.youtube.com/shorts/fXHUBEMJJdk",
-        "https://analyticsindiamag.com/ai-trends/18-most-downloaded-open-source-indian-ai-models"
-      ],
-      "date": "2026-09-04T18:32:04.164530+00:00"
-    },
-    {
-      "title": "Fair Health Reports Telehealth Utilization Rises 10.1 Percent Driven by Mental Health Visits",
-      "urls": [
-        "https://www.youtube.com/watch?v=M7viub_lZRQ",
-        "https://www.youtube.com/watch?v=Gt8w5F5mPKU",
-        "https://healthcare-digital.com",
-        "https://www.medtechdive.com/topic/digital-health",
-        "https://firstup.io/blog/healthcare-technology-trends",
-        "https://www.fiercehealthcare.com/telehealth/telehealth-utilization-101-nationally-between-q4-2025-and-q1-2026-fair-health-tracker",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/cnos-most-want-telehealth-virtual-nurses-report",
-        "https://www.aljazeera.com/news/2026/7/28/how-telehealth-is-helping-close-the-healthcare-gap-in-rural-zimbabwe",
-        "https://www.credihealth.com/blog/telemedicine-trends-future-healthcare-2026",
-        "https://innovations.bmj.com",
-        "https://www.aha.org/fact-sheets/2025-02-07-fact-sheet-telehealth",
-        "https://www.oecd.org/en/topics/digital-health.html",
-        "https://www.nature.com/articles/s41746-025-01876-9",
-        "https://swayam.gov.in",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11989057",
-        "https://practiceguides.chambers.com/practice-guides/digital-healthcare-2025/japan/trends-and-developments"
-      ],
-      "date": "2026-09-04T19:01:57.585960+00:00"
-    },
-    {
       "title": "Google Announces Willow Quantum Processor as Landmark Breakthrough in Computing",
       "urls": [
         "https://www.hpcwire.com/off-the-wire/argonne-new-approach-brings-scientists-one-step-closer-to-practical-quantum-computing",
@@ -14518,7 +14481,39 @@
         "https://opensource.com"
       ],
       "date": "2026-09-14T18:31:32.119660+00:00"
+    },
+    {
+      "title": "Health Tech Trends Redefine Care With Seven Emerging Innovations in 2026",
+      "urls": [
+        "https://abcnews.go.com/GMA/Wellness/video/cutting-edge-medical-advances-2026-128842164",
+        "https://www.youtube.com/watch?v=ySEKMX4IWig",
+        "https://www.nih.gov/news-events/news-releases",
+        "https://www.prnewswire.com/news-releases/health-latest-news/clinical-trials-medical-discoveries-list?page=3&pagesize=25",
+        "https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic_in_the_United_Kingdom_%28July-December_2020%29",
+        "https://www.med.upenn.edu/evpdeancommunications",
+        "https://peoplesworldwar.com/genetic-editing-of-food-is-well-underway",
+        "https://ecp.ep.liu.se/index.php/shi/issue/download/58/56",
+        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol13_No1_print.pdf",
+        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol10_No2_print.pdf",
+        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol13_No2_print.pdf",
+        "https://researchportal.northumbria.ac.uk/ws/portalfiles/portal/177396016/ChristineEnglishThesisUNN",
+        "https://researchportal.northumbria.ac.uk/ws/portalfiles/portal/177398088/IouliaSidera-SideriThesisUNN",
+        "https://www.linncountyor.gov/media/57551",
+        "https://www.linncountyor.gov/media/57511",
+        "https://www.tkn.tu-berlin.de/news/index-all.shtml",
+        "https://www.youtube.com/watch?v=ZS9Rh_1sJjw",
+        "https://www.youtube.com/watch?v=ZS9Rh_1sJjw",
+        "https://www.zoho.com/healthcare/digest/top-7-health-tech-trends-redefining-healthcare-in-2026.html",
+        "https://www.grandviewresearch.com/industry/medical-devices",
+        "https://www.fraunhofer.de/en/research/articles-2026/science-year-2026-medicine-of-the-future.html",
+        "https://www.eurekalert.org/news-releases/1143624",
+        "https://www.startus-insights.com/innovators-guide/medical-device-trends",
+        "https://medicalnewsbulletin.com",
+        "https://yabs.yandex.ru/count/WgOejI_zOoVX2LcX0iKK03DbZYcSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDldPC8U0juGn22tq-bpjxjj-vyuOxNx_ZzOOxN6YUuqxdqsb7Ywm_rI4a8nj8rgIZfIEZ8n-g1jQYdoCaQzBFqTAHqL498YEaQuWYQmaPHTGX4oI8Z8AGh4asZ920ddR0b4qEQbo81CIWL3RnPd2GG2067STb0U6otx5toPxTGN4r8M3igK0nDbKnRRt021ZZiBDRSoIqCjP6m5Y9YDcOYK0KZcGDPD4Ou4ighQb3DPpu4uexywZJpg5GEt_MqkaqX-BFAVwqyMakjIN0mIxDheH1LXa4ctBZbI160ajnICxd6oORh-VQxDu9u0Pm01kuEaoO9DcmzNM4-vm6SRC9LbUhOUz0WvPcwpDeVOPiZEBWeIusLoIk2eFMEvN-0Xs4np3X0fi2aplIchfSgI9bOMjX1rtcP3kpfSDkhe0fcFSOiO_HFOoP0XGCEGEC63-3-KfGj-968BU91zDLG1B4aOa5bAIQUfxRv7fkS_U_qHFX0VxXB-O2sy1wlzS6rlkvleUM-UzVp0N-sYLWZyQVNGBsQ6IQCz0noyobrqzfyitRTLtNQJFpxCWjqurDUkph2FSvRrwMVTaBqVQL-R447hpJflVX-My8PKQEA9OPEPBbjHEyxfziOHeonCkN8OT7DbWGCa2Guy00K1npfLAf386BOifUVYa_5pajM6XNAB037lpAMzrwrQEVBW36mp08GxXG0MHu_LrqMM6KNu5Gqa9ES41RL9GQWaqu-rl06ystFbaORBOM_Rmo40hOhh6v5J8xFzHJruw6-D-56d5dyYZXds7s-5PQJhGMAm40~2",
+        "https://news.mit.edu/topic/health"
+      ],
+      "date": "2026-09-14T19:02:16.070970+00:00"
     }
   ],
-  "lastUpdated": "2026-09-14T18:31:32.119771+00:00"
+  "lastUpdated": "2026-09-14T19:02:16.071042+00:00"
 }
