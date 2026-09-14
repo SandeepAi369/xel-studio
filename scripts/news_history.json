@@ -1,39 +1,6 @@
 {
   "entries": [
     {
-      "title": "HHS Extends Telemedicine Flexibilities to Keep Remote Prescribing for Controlled Substances",
-      "urls": [
-        "https://ramaonhealthcare.com/virtual-healthcare-september-2026",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11988385",
-        "https://www.practiceehr.com/blog/telemedicine-trends-in-2026-remote-care-tech-and-patient-outcomes",
-        "https://healthcarereaders.com/insights/telehealth-expansion-and-accessibility-trends",
-        "https://journals.lww.com/iphr/fulltext/2026/01000/telemedicine_and_digital_health__the_future_for.4.aspx",
-        "https://www.ruralhealthinfo.org/topics/telehealth-health-it",
-        "https://telehealth.org/telehealth-news",
-        "https://www.gminsights.com/blogs/digital-health-market-trends-opportunities-challenges",
-        "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026",
-        "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/pdf/telemedicine.pdf",
-        "https://www.digitalhealthnews.com/category/telehealth",
-        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
-        "https://www.hhs.gov/press-room/dea-telemedicine-extension-2026.html",
-        "https://www.americantelemed.org/policy",
-        "https://www.medicare.gov/coverage/telehealth",
-        "https://p4i.net/digital-health-and-telemedicine-in-india",
-        "https://www.healthcareitnews.com",
-        "https://www.americantelemed.org/resource",
-        "https://link.springer.com/article/10.1186/s44398-025-00015-4",
-        "https://www.dea.gov/press-releases/2025/01/16/dea-announces-three-new-telemedicine-rules-continue-open-access",
-        "https://www.modernhealthcare.com",
-        "https://www.researchgate.net/publication/370742869_The_Role_of_Telemedicine_in_Improving_Healthcare_Outcome_A_Review",
-        "https://www.sciencedirect.com/science/article/pii/S2950550X25000226",
-        "https://www.who.int/news/item/09-09-2024-who-and-itu-publish-new-guidance-to-make-telehealth-services-accessible",
-        "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682(24)00130-6/fulltext",
-        "https://www.researchgate.net",
-        "https://www.sciencedirect.com/science/article/pii/S294995342400016X"
-      ],
-      "date": "2026-09-03T23:32:14.407195+00:00"
-    },
-    {
       "title": "Apple Unveils Next‑Generation Apple Intelligence Platform Featuring Revamped Siri AI",
       "urls": [
         "https://www.crn.com/news/security/2026/20-cool-new-ai-and-security-products-at-black-hat-2026",
@@ -14614,7 +14581,51 @@
         "https://www.frontiersin.org/research-topics/73016/digital-technologies-for-mental-health-monitoring-and-intervention"
       ],
       "date": "2026-09-13T23:31:36.681788+00:00"
+    },
+    {
+      "title": "Anthropic Blocks Five Claude AI Bioweapon Prompts, Highlights Safety Controls",
+      "urls": [
+        "https://www.businesstoday.in/technology/artificial-intelligence/story/claude-ai-was-used-in-five-cases-linked-to-potential-bioweapons-research-anthropic-says-554776-2026-09-11",
+        "https://www.techtimes.com/articles/327308/20260911/anthropic-threat-report-ai-models-near-bioweapons-threshold-drone-kill-software-emerges.htm",
+        "https://www.techtimes.com/articles/327297/20260911/anthropic-admits-claude-rationalized-past-evidence-keep-hacking-july-explanation-was-wrong.htm",
+        "https://www.axios.com/2026/09/12/anthropic-ai-threat-report-russia-iran-china",
+        "https://explainx.ai/blog/anthropic-threat-intelligence-report-september-2026",
+        "https://hothardware.com/news/anthropic-threat-report-exposes-attempts-to-build-biological-weapons-with-claude",
+        "https://www.yahoo.com/news/us/articles/anthropic-reveals-houthi-rebels-used-124634529.html",
+        "https://www.yahoo.com/news/politics/articles/anthropic-says-claude-ai-blocked-183905553.html",
+        "https://www.hindustantimes.com/technology/weekly-ai-cybersecurity-update-microsoft-google-fix-over-1000-bugs-anthropic-blocks-bio-weapons-supporting-ai-101789112988312.html",
+        "https://www.yahoo.com/news/us/articles/ai-could-kill-humans-next-132808921.html",
+        "https://www.euronews.com/next/2026/09/11/anthropic-says-it-stopped-ai-misuse-for-cyberattacks-propaganda-and-bioweapons",
+        "https://www.yahoo.com/news/us/articles/anthropic-blocks-malicious-ai-could-024635384.html?fr=sycsrp_catchall",
+        "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+        "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge",
+        "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+        "https://www.bbc.com/news/articles/crk1py1jgzko",
+        "https://shattered.io/anthropic-4th-claude-cyber-breach-2026",
+        "https://en.wikipedia.org/wiki/Claude_(AI)",
+        "https://www.taskade.com/blog/anthropic-claude-history",
+        "https://fortune.com/2025/11/14/anthropic-disrupted-first-documented-large-scale-ai-cyberattack-claude-agentic",
+        "https://www.abc.net.au/news/2026-07-31/anthropic-claude-ai-model-hacks-external-systems-during-test/106980640",
+        "https://mashable.com/tech/anthropic-ai-threatens-bioweapons-as-call-for-regulation-mounts",
+        "https://theairankings.com/anthropic",
+        "https://www.infotech.com/research/ai-transformation-brief-august-2026",
+        "https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more",
+        "https://apnews.com/article/anthropic-artificial-intelligence-ai-938c99158e5953601cf3322f1cec12af",
+        "https://www.bloomberg.com/anthropic",
+        "https://aitoolsrecap.com/Blog/AINewsSeptember2026.aspx",
+        "https://www.techtimes.com/articles/317066/20260523/anthropic-funding-round-top-30b-900b-valuation-would-surpass-openai-most-valuable-ai-startup.htm",
+        "https://techcrunch.com/tag/anthropic",
+        "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities",
+        "https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383",
+        "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon",
+        "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o",
+        "https://www.explainx.ai/blog/anthropic-threat-intelligence-report-september-2026",
+        "https://www.unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas",
+        "https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software",
+        "https://aicybr.com/blog/anthropic-threat-intelligence-report-september-2026"
+      ],
+      "date": "2026-09-14T00:01:57.507359+00:00"
     }
   ],
-  "lastUpdated": "2026-09-13T23:31:36.681864+00:00"
+  "lastUpdated": "2026-09-14T00:01:57.507437+00:00"
 }
