@@ -1,62 +1,6 @@
 {
   "entries": [
     {
-      "title": "Insilico Introduces Evaluation Framework to Standardize AI Drug Discovery Models",
-      "urls": [
-        "https://www.ddw-online.com/this-week-in-drug-discovery-31-august-4-september-2026-43749-202609",
-        "https://www.facebook.com/cytiva/posts/everyone-wants-to-talk-about-ai-discovering-the-next-drugfair-enoughbut-discover/1361496346148969",
-        "https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery",
-        "https://aimmediahouse.com/ai-lifesciences/2026-is-the-year-ai-drug-discovery-meets-clinical-reality",
-        "https://www.companieshistory.com/artificial-intelligence-in-drug-discovery-market",
-        "https://www.facebook.com/forbes/posts/chai-discovery-is-working-with-major-drugmakers-to-use-its-latest-antibody-ai-mo/1402826355040684",
-        "https://finance.yahoo.com/healthcare/articles/4-ai-powered-drug-discovery-135600557.html",
-        "https://www.news-medical.net/news/20260730/Insilico-unveils-standardized-evaluation-framework-to-validate-AI-driven-drug-discovery-models.aspx",
-        "https://www.mobihealthnews.com/news/novo-nordisk-h1-partner-ai-drug-discovery-clinical-trials",
-        "https://finance.yahoo.com/healthcare/articles/takeda-ai-drug-discovery-deal-021210632.html",
-        "https://www.forbes.com/sites/amyfeldman/2026/06/04/why-pfizer-and-eli-lilly-are-betting-on-this-13-billion-ai-drug-discovery-startup",
-        "https://www.marginalia-search.com/r/1/9562744691112/dwk1q3ai7k?hash=DBAsoBRhbG2mXPn55KqNHpyhoLtQHCUj7W0u3FLvyos",
-        "https://www.marginalia-search.com/r/1/9562744691109/dwk1q3ai7k?hash=th4QSte0gR5y3tO1K34Rrimieztpo_9MalBt8ZFARTc",
-        "https://www.marginalia-search.com/r/5/22798827260029/dwk1q3ai7k?hash=xq6n0tcGd18YvsTJJt1d-FrOmosrsd1So7ttpu4GGoA",
-        "https://www.marginalia-search.com/r/4/11383072626859/dwk1q3ai7k?hash=kFfNSpsBhHxPag0oZZGJ3_qbu-WzD4w4fBB90kKP2b0",
-        "https://www.marginalia-search.com/r/4/107339755557003/dwk1q3ai7k?hash=2T5jOyfvhawv2fZza2M7r7gVt_BkJvau1IeeL3Sinbc",
-        "https://www.marginalia-search.com/r/4/107339755555553/dwk1q3ai7k?hash=6gwQUFuXYjDi4Ejxygg67Ka85WTICprUxH9DNUECvww",
-        "https://www.marginalia-search.com/r/3/2686837590501/dwk1q3ai7k?hash=6IALAF1Emp_9KHkGeBuBXSaebvHga_mTJ8TEF3tOfSQ",
-        "https://www.marginalia-search.com/r/4/84832986081142/dwk1q3ai7k?hash=BTh6sCYzhn9BKsQQQy-y19rgjVMuyO8t5c0ifBoFCvI",
-        "https://www.marginalia-search.com/r/3/54586421985411162/dwk1q3ai7k?hash=TmWlHnsTf2IhKL5YSq-wHi4tdFaset6pPJX4bl3ggxI",
-        "https://www.marginalia-search.com/r/3/54586421985411151/dwk1q3ai7k?hash=zLrVKe2wYcEqbZxxmddZSPOgw9j0r6D3-55T7UBjrEw",
-        "https://www.marginalia-search.com/r/3/54586421985411085/dwk1q3ai7k?hash=XLAuMpRsSY_zPDpw_-ZZ-MgwgOCnd2z6PEni4Q2Gl3c",
-        "https://www.marginalia-search.com/r/3/54586421985411129/dwk1q3ai7k?hash=7JHE7wNWvtjGCg4KcL0HjTHAxXL78Nz-ZWXphlyrQqA",
-        "https://www.marginalia-search.com/r/4/110940548759558/dwk1q3ai7k?hash=lV6CovkbrW6_cd8po7qi9W6mmvY5c_yUs6Q1KTuK1Lc",
-        "https://www.marginalia-search.com/r/3/33625231853085/dwk1q3ai7k?hash=o5QkMnbAuKqlyXjYeyZSQe_rO5VByAKzpU5bvvjDwUc",
-        "https://www.marginalia-search.com/r/6/879898407206913/dwk1q3ai7k?hash=7NntJbXtLh91cn93gtK5kxnHs9Uf_X3pqGaFs4F1ZbQ",
-        "https://www.marginalia-search.com/r/6/5788206632555/dwk1q3ai7k?hash=RUednPlxkVuRR3pi3AactOafjGmIAR_KC4-vhI_73O4",
-        "https://www.marginalia-search.com/r/1/12459767240131/dwk1q3ai7k?hash=BXIgeTNuyFXcjelbolBDZePG_Na2GaK6tOYSBgpBHTo",
-        "https://www.marginalia-search.com/r/6/1040188532851097/dwk1q3ai7k?hash=4ovlIxC3eHdprLSTHB_bHQEdFuyDRu7fvQcxRfnE-MU",
-        "https://www.marginalia-search.com/r/7/18782029558579322/dwk1q3ai7k?hash=Z9ZJBBXz01KGn8gX-hm6ZFs78akhdRE_zUloQfBFuqQ",
-        "https://www.marginalia-search.com/r/7/273887245895159/dwk1q3ai7k?hash=d4MGu-J3gSXIMC2EpQbsOF5ps0I6dTh4fLIzq_x0OuM",
-        "https://www.marginalia-search.com/r/7/273887245894222/dwk1q3ai7k?hash=pY7P3-ZEFaG25STxK3XZKxzh-rvhz8YmZ6eybq11H64",
-        "https://www.marginalia-search.com/r/1/3184919594514/dwk1q3ai7k?hash=SWtJXVG2Ri2qVBXheO3CB_SYg36Asl87sBf8VknAQck",
-        "https://www.marginalia-search.com/r/1/3184919591370/dwk1q3ai7k?hash=_1x7xh5BHRBc9BCn-C-1lQetxGqIP9LbFCpenIweN6E",
-        "https://www.marginalia-search.com/r/5/471750550755365/dwk1q3ai7k?hash=zT35C-qinhDrpEzgQ0D60N6V7Qhqd5tMd9E075APzZs",
-        "https://www.marginalia-search.com/r/5/8495251769524735/dwk1q3ai7k?hash=aRGl6A3P14ygPXL1XYmBv75e1qusPRrksgRk52YiaQ4",
-        "https://www.marginalia-search.com/r/6/549166530953216/dwk1q3ai7k?hash=GFhRhHYqj9tff_1XVNo-Z6SwLtNZTwg1q_YDx073cJ8",
-        "https://www.marginalia-search.com/r/6/243484581692070/dwk1q3ai7k?hash=z7xgLjDZllbp7Xa3yCINqBTfE2F8a--EdEkhPPzSy3I",
-        "https://www.marginalia-search.com/r/4/86043428653654/dwk1q3ai7k?hash=W7ZIwPV3sL-T1jPxFJ-LP07e5jA24Jjt6kHnBGePVx8",
-        "https://www.marginalia-search.com/r/6/54811740063401067/dwk1q3ai7k?hash=TJrKnp8zhkZWKPW5TIEqIuxb5Yu2dKlGZkMRSnkWePE",
-        "https://www.marginalia-search.com/r/5/2274654959896/dwk1q3ai7k?hash=xHzC5q63b7YVJgBH2tQ0uPZRD0SpqCdCdD3-y50tvjU",
-        "https://www.marginalia-search.com/r/5/2274654956373/dwk1q3ai7k?hash=ISMezZkYO1T4eIAGbsvrQERzDH8LLS49BsISKVa4qSw",
-        "https://www.marginalia-search.com/r/7/1355837624811617/dwk1q3ai7k?hash=XLc2w8dEnTyalwtImGIdUoiNh1VKFJa0ZQUKoFEOC8U",
-        "https://www.marginalia-search.com/r/6/438210144502086/dwk1q3ai7k?hash=RcpNXUQpX0CYUcndLxIg9CyCbZqMzgdRm6rpAr9GAMQ",
-        "https://www.marginalia-search.com/r/6/438210144502050/dwk1q3ai7k?hash=NtElRrS6jt7HIqXB9rbQreEmf3LCftooHdZX2CbgTA4",
-        "https://www.marginalia-search.com/r/6/438210144501823/dwk1q3ai7k?hash=ab7nj7n6qla79Eojkao5O2hWP16YLAEqAsSsxp36qQo",
-        "https://www.marginalia-search.com/r/6/438210144502127/dwk1q3ai7k?hash=X_HHK3zkU-XVwHISvM_h9AsOxp-gT7gvlZzbMFvGjP0",
-        "https://clinicalmetric.com/insights/ai-drug-discovery-human-trials-2026",
-        "https://www.drugdiscoverynews.com/tag/artificial-intelligence",
-        "https://www.usatoday.com/story/money/money-management/healthcare/2026/09/04/ai-new-medicines-faster/91565550007"
-      ],
-      "date": "2026-09-05T19:01:52.105757+00:00"
-    },
-    {
       "title": "SHRMiner Leverages Cloud AI Infrastructure to Power Bitcoin Mining at Scale",
       "urls": [
         "https://www.manilatimes.net/2026/09/01/tmt-newswire/pr-newswire/humain-collaborates-with-compal-to-drive-cloud-to-edge-ai-expansion-showcasing-partnership-at-leap-2026/2416356",
@@ -14242,7 +14186,28 @@
         "https://aitoolsrecap.com/Blog/upcoming-ai-models-2026-release-tracker"
       ],
       "date": "2026-09-15T18:31:45.138438+00:00"
+    },
+    {
+      "title": "FDA CDRH Publishes New Medical Device Guidance and Safety Updates",
+      "urls": [
+        "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+        "https://www.newsy-today.com/closing-the-gap-between-discovery-and-care-september-2026",
+        "https://healthcaretoday.com/article/closing-the-gap-between-discovery-and-care-september-2026",
+        "https://www.sciencedaily.com/news/health_medicine/medical_devices",
+        "https://www.bioworld.com/topics/85-bioworld-medtech",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx",
+        "https://scitechdaily.com/news/health",
+        "https://www.webpronews.com/september-2025-scientific-breakthroughs-ai-chips-quantum-tech-and-regenerative-medicine",
+        "https://www.pr.com/news-by-category/103",
+        "https://www.sciencedaily.com/news/matter_energy/batteries",
+        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm",
+        "https://www.livetradingnews.com/the-hottest-biotechs-of-2026",
+        "https://www.statnews.com/2025/12/31/2025-new-medicines-disease-breakthroughs-medical-advances",
+        "https://www.philips.com/a-w/about/news-and-insights.html",
+        "https://med.stanford.edu/news/all-news/2025/12/top-advancements-2025.html"
+      ],
+      "date": "2026-09-15T19:02:11.142369+00:00"
     }
   ],
-  "lastUpdated": "2026-09-15T18:31:45.138512+00:00"
+  "lastUpdated": "2026-09-15T19:02:11.142459+00:00"
 }
