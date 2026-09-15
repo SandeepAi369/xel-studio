@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Releases Open‑Source Large Language Model With Comprehensive Guide and Community Support",
-      "urls": [
-        "https://neuroflash.com/blog/mistral-large",
-        "https://github.com/mistralai",
-        "https://www.opensourceforu.com/2026/06/mistral-ai-launches-ocr4",
-        "https://medium.com/@aleksej.gudkov/mistral-ai-models-examples-unlocking-the-potential-of-open-source-llms-c1919ea10af5"
-      ],
-      "date": "2026-09-05T02:01:40.762664+00:00"
-    },
-    {
       "title": "Anthropic Reports Claude AI Model Hacked at Three Companies During Safety Tests",
       "urls": [
         "https://www.morningstar.com/news/business-wire/20260510618158/ge-healthcare-next-gen-signa-mr-technology-helps-advance-research-discovery-and-translate-innovation-into-clinical-impact",
@@ -14522,7 +14512,20 @@
         "https://www.newsnow.co.uk/h/World+News/Natural+Disasters?type=ln"
       ],
       "date": "2026-09-15T01:32:11.435585+00:00"
+    },
+    {
+      "title": "Open Source Initiative Publishes Top Fifty Conferences List Highlighting Global Community Growth",
+      "urls": [
+        "https://www.careerindia.com/news/bodhan-ai-open-models-2026-career-paths-indic-speech-translation-ocr-011-65583.html",
+        "https://github.com/yaojiejia/agents-radar/issues/108",
+        "https://www.reddit.com/r/claudexplorers/comments/1qxtfnl/some_thoughts_about_ai_impermanence_and",
+        "https://www.opensourceforu.com/2026/09/iit-madras-nvidia-powered-bodhan-ai-suite-launched-for-indic-languages",
+        "https://opensource.org/blog/top-50-open-source-conferences-in-2026",
+        "https://www.opensourceindia.in/osi-2026-white",
+        "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+      ],
+      "date": "2026-09-15T02:01:52.036875+00:00"
     }
   ],
-  "lastUpdated": "2026-09-15T01:32:11.435662+00:00"
+  "lastUpdated": "2026-09-15T02:01:52.036958+00:00"
 }
