@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Highlights Eleven New Technologies Unveiled at CES 2026 Media Days",
-      "urls": [
-        "https://www.youtube.com/watch?v=b5DvFC4SaUE",
-        "https://www.youtube.com/watch?v=k69-ivYwEfE",
-        "https://www.ameridisability.com",
-        "https://www.braunability.com/us/en/about-us/news-events.html",
-        "https://www.reddit.com/r/specialed/comments/1ql9ayv/latest_innovations_in_assistive_tech",
-        "https://nod.org/event/technology",
-        "https://nod.org/news",
-        "https://www.atia.org"
-      ],
-      "date": "2026-09-05T09:31:38.821326+00:00"
-    },
-    {
       "title": "PyTorch Foundation Releases Open‑Source AI Update Amid Growing Framework Competition",
       "urls": [
         "https://pytorch.org/blog/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects",
@@ -14446,7 +14432,18 @@
         "https://www.browserstack.com/guide/screen-reader-apps"
       ],
       "date": "2026-09-15T09:31:35.543258+00:00"
+    },
+    {
+      "title": "NVIDIA posted a new entry on its regularly updated official blog, announcing recent work in artificial intelligence and inviting developers",
+      "urls": [
+        "https://www.reddit.com/r/PromptEngineering/comments/1rv9odx/the_open_source_ai_situation_in_march_2026_is",
+        "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai",
+        "https://releasebot.io/updates/openai",
+        "https://www.swfte.com/blog/open-source-ai-models-frontier-2026",
+        "https://ai.meta.com/opensourceai"
+      ],
+      "date": "2026-09-15T10:01:48.017793+00:00"
     }
   ],
-  "lastUpdated": "2026-09-15T09:31:35.543327+00:00"
+  "lastUpdated": "2026-09-15T10:01:48.017885+00:00"
 }
