@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Launches Nemotron 3 Open‑Source Model Family to Expand Developer Access",
-      "urls": [
-        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-        "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
-        "https://buttondown.com/agent-k/archive/llm-daily-september-05-2026",
-        "https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows",
-        "https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models",
-        "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models",
-        "https://skycrumbs.com/blog/ai-open-source-august-2026",
-        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs",
-        "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview",
-        "https://winbuzzer.com/ai/models/large-language-models"
-      ],
-      "date": "2026-09-06T14:31:40.766944+00:00"
-    },
-    {
       "title": "Telemedicine Trends 2026 Drive Pharmaceutical Innovation and Expand Virtual Care Access",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12880784",
@@ -13839,7 +13823,27 @@
         "https://phys.org/news/2026-08-biodiversity-agriculture-forestry-high-options.html"
       ],
       "date": "2026-09-16T14:01:57.422232+00:00"
+    },
+    {
+      "title": "Hugging Face Publishes Summer 2026 Open Model Report Highlighting Qwen Dominance",
+      "urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "https://huggingface.co",
+        "https://www.linkedin.com/posts/ztm-academy_state-of-open-source-on-hugging-face-spring-activity-7450224689789988864-8_yn",
+        "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=dda72d570db2",
+        "https://github.com/12britz/awesome-free-models",
+        "https://www.tun.com/home/hugging-faces-2026-open-model-report-qwen-leads-hype-vs-reality",
+        "https://releases.sh/hugging-face",
+        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+        "https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026",
+        "https://time.com/article/2026/07/28/open-source-ai-hugging-face-openai",
+        "https://deepbrief.co/ai-industry/hugging-face-spring-2026-report",
+        "https://releasebot.io/updates/huggingface",
+        "https://best-ai.org/ai-news/nvidia-acquires-hugging-face-for-1293-billion-solidifying-open-source-ai-commitment-8qelz5"
+      ],
+      "date": "2026-09-16T14:31:59.865399+00:00"
     }
   ],
-  "lastUpdated": "2026-09-16T14:01:57.422306+00:00"
+  "lastUpdated": "2026-09-16T14:31:59.865475+00:00"
 }
