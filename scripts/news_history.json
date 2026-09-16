@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "CDC Reports Rising Autism Diagnoses Among American Children, Highlighting Growing Public Health Concern",
-      "urls": [
-        "https://apnews.com/hub/autism",
-        "https://abcnews.go.com/GMA/Wellness/video/cdc-shows-rise-autism-diagnoses-american-children-120856560",
-        "https://abcnews.go.com/Health/video/real-reason-rising-autism-rates-118695868",
-        "https://neurodiversityemploymentnetwork.org/august-2026-newsletter",
-        "https://www.usnews.com/topics/subjects/autism",
-        "https://www.yahoo.com/news/us/articles/labor-day-2026-autism-job-134338703.html"
-      ],
-      "date": "2026-09-06T13:31:50.170081+00:00"
-    },
-    {
-      "title": "USDA Natural Resources Conservation Service Highlights Conservation Wins Demonstrating Nature’s Resilience",
-      "urls": [
-        "https://www.nrcs.usda.gov/news",
-        "https://earth.org/how-recent-conservation-wins-proved-nature-can-bounce-back"
-      ],
-      "date": "2026-09-06T14:01:49.695900+00:00"
-    },
-    {
       "title": "NVIDIA Launches Nemotron 3 Open‑Source Model Family to Expand Developer Access",
       "urls": [
         "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
@@ -13851,7 +13831,15 @@
         "https://www.outreach1.org/2025/05/04/innovations-in-smart-wheelchairs"
       ],
       "date": "2026-09-16T13:31:32.781077+00:00"
+    },
+    {
+      "title": "NatureServe Highlights Limited Options for Biodiversity Conservation in Agriculture and Forestry",
+      "urls": [
+        "https://www.natureserve.org/news-releases",
+        "https://phys.org/news/2026-08-biodiversity-agriculture-forestry-high-options.html"
+      ],
+      "date": "2026-09-16T14:01:57.422232+00:00"
     }
   ],
-  "lastUpdated": "2026-09-16T13:31:32.781176+00:00"
+  "lastUpdated": "2026-09-16T14:01:57.422306+00:00"
 }
