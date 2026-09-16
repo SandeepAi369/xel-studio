@@ -1,70 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Reaches 27 Million GitHub Developers, Secures Second Place in Global Open‑Source AI Rankings",
-      "urls": [
-        "https://www.opensourceforu.com/2026/09/agentic-ai-is-shifting-developers-from-being-coders-to-problem-solvers-and-orchestrators-of-intelligent-agents",
-        "https://www.thehindubusinessline.com/info-tech/india-moves-beyond-ai-adoption-to-open-source-contribution-red-hat/article71429186.ece",
-        "https://opensource.googleblog.com/2026",
-        "https://daily.dev/highlights/vibes",
-        "https://m.economictimes.com/tech/artificial-intelligence/openai-goes-all-out-to-charm-indian-coders/amp_articleshow/131250830.cms",
-        "https://www.developer-tech.com",
-        "https://www.prnewswire.com/news-releases/linux-foundation-research-finds-open-source-is-key-to-driving-indias-ai-market-302688143.html",
-        "https://techrights.org/o/2023/05/06/proton-8-0-2",
-        "https://techrights.org/o/2023/04/06/pipewire-0-3-68",
-        "https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations",
-        "https://linuxfoundation.eu/newsroom/linux-foundation-europe-newsletter-february-2026",
-        "https://linuxfoundation.eu/newsroom/linux-foundation-europe-newsletter-may-2024-0-0",
-        "https://rip.so/anniversaries.html",
-        "https://alobbs.com/post/2026-08-03",
-        "https://alobbs.com/post/2026-08-13",
-        "https://central.wordcamp.org/news",
-        "https://planet.documentfoundation.org",
-        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol11_No3_print.pdf",
-        "https://zanshin.github.io/readingList",
-        "https://davidegerosa.com/news",
-        "https://www.newkerala.com/news/a/indias-developer-community-surges-27-million-github-515.htm",
-        "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-new-ai-tools-education-programs-for-indias-developers-and-startups-at-i/o-connect-india-2026/articleshow/132384447.cms",
-        "https://www.timesnownews.com/technology-science/ai-summit-2026-live-updates-pm-modi-meets-sundar-pichai-sam-altman-mukesh-ambani-and-global-tech-leaders-liveblog-153644795",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-unveils-major-ai-initiatives-for-india-localising-gemini-and-boosting-developer-ecosystem/articleshow/122862493.cms",
-        "https://stackoverflow.blog/2025/04/07/open-source-ai-are-younger-developers-leading-the-way",
-        "https://www.opensourceforu.com/2025/10/github-names-india-the-top-global-hub-for-open-source-developers-in-2025",
-        "https://www.nasscom.in/ai/pdf/Advancing_Open_Source_AI_in_India_Recommendations_for_Govt_and_Tech_Developers.pdf",
-        "https://www.digitalfutureslab.in/publications/advancing-open-source-ai-in-india-recommendations-for-governments-and-technology-developers",
-        "https://techcrunch.com/2024/06/30/here-are-indias-biggest-ai-startups-based-on-how-much-money-theyve-raised",
-        "https://www.upgrad.com/blog/open-source-machine-learning-projects"
-      ],
-      "date": "2026-09-06T23:02:08.144102+00:00"
-    },
-    {
-      "title": "American Telemedicine Association Highlights Eight Key Trends Shaping Virtual Care",
-      "urls": [
-        "https://www.companionlink.com/blog/2026/09/implementing-innovations-in-medicine-patient-data-protection-in-the-digital-age",
-        "https://www.galengrowth.com/digital-health-2026-predictions-hype-to-hardwiring",
-        "https://www.usnews.com/news/health-news/articles/2026-03-02/telemedicine-visits-cost-five-times-less-than-in-clinic-care",
-        "https://www.techtimes.com/articles/315830/20260415/5-healthcare-technology-trends-set-redefine-future-medicine.htm",
-        "https://www.clustox.com/blog/telemedicine-trends",
-        "https://healthxmagazine.com/health-tech-trends-2026-telemedicine-wearables-ai-diagnostics",
-        "https://tateeda.com/blog/future-of-telemedicine",
-        "https://www.startus-insights.com/innovators-guide/emerging-digital-health-trends",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10048333",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10723719",
-        "https://www.jonesday.com/en/insights/2026/02/newsletter-vital-signs-digital-health-law-update--winter-2026",
-        "https://www.americantelemed.org/press-releases/groundbreaking-innovations-in-virtual-care-and-digital-health-recognized-during-5th-annual-ata-telehealth-innovators-challenge-at-nexus-2026",
-        "https://www.digitalhealthnews.com/category/digital-health-technology",
-        "https://practiceguides.chambers.com/practice-guides/digital-healthcare-2026/usa/trends-and-developments/O26169",
-        "https://rockhealth.com/insights/healthcare-innovation-at-the-turn-of-2026-mapping-whats-now-and-whats-next-in-digital-health",
-        "https://www.intechopen.com/chapters/1222152",
-        "https://www.sciencedirect.com/science/article/pii/S2667102622000791",
-        "https://www.newsweek.com/digital-health-care-forum-live-updates-leaders-talk-industrys-ai-future-2128508",
-        "https://catalyst.nejm.org/doi/full/10.1056/CAT.25.0179",
-        "https://healthmanagement.org/pdf/article/the-future-of-telehealth-trends-shaping-virtual-healthcare-in-2025",
-        "https://emerline.com/blog/the-telehealth-trends",
-        "https://telehealthandmedicinetoday.com"
-      ],
-      "date": "2026-09-06T23:31:41.314679+00:00"
-    },
-    {
       "title": "Meta Releases Muse Glimmer Model Capable of Running on a Single Computer",
       "urls": [
         "https://www.cnbc.com/2026/08/17/alibaba-meta-qwen-open-weight-ai-laptop-models.html",
@@ -13730,7 +13666,18 @@
         "https://www.theverge.com"
       ],
       "date": "2026-09-16T23:01:43.370135+00:00"
+    },
+    {
+      "title": "Raises New Cybersecurity Threats for Healthcare as Hospitals Expand Machine Learning Use",
+      "urls": [
+        "https://www.healthitanswers.net/ai-in-healthcare-news-and-updates-091626",
+        "https://histalk2.com/2026/09/16/healthcare-ai-news-9-16-26",
+        "https://ramaonhealthcare.com/ai-in-healthcare-news-and-updates-12",
+        "https://finance.yahoo.com/healthcare/articles/jardogshealth-earns-2026-frost-sullivan-122100856.html",
+        "https://www.forbes.com/sites/chuckbrooks/2026/06/09/ai-cybersecurity-risks-healthcare"
+      ],
+      "date": "2026-09-16T23:32:06.508685+00:00"
     }
   ],
-  "lastUpdated": "2026-09-16T23:01:43.370239+00:00"
+  "lastUpdated": "2026-09-16T23:32:06.508749+00:00"
 }
