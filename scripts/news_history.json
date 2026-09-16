@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Completes Record Back-to-Back Falcon 9 Launches for Globalstar and U.S. Space Force",
-      "urls": [
-        "https://spaceflightnow.com",
-        "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys",
-        "https://spacelaunchnow.app",
-        "https://www.desertsun.com/story/news/local/2026/08/07/watch-live-spacex-rocket-launch-california/91194150007",
-        "https://spaceflightnow.com/2026/08/21/live-coverage-spacex-to-launch-100th-orbital-mission-of-2026",
-        "https://www.msn.com/en-us/news/technology/spacex-fires-up-starship-ahead-of-megarocket-s-1st-orbital-flight-video/ar-AA2aEZpj?ocid=BingNewsVerp",
-        "https://spaceflightnow.com/2026/08/15/live-coverage-spacex-to-launch-satellite-replenishment-mission-for-globalstar-from-cape-canaveral",
-        "https://apnews.com/video/spacex-delays-flight-to-replace-nasas-stranded-astronauts-after-launch-pad-problem-130211c3be134d83a9bc4bb810585707",
-        "https://www.orlandosentinel.com/2026/08/11/spacex-targets-morning-launch-with-busy-august-on-tap-including-falcon-heavy-mission-for-nasa"
-      ],
-      "date": "2026-09-06T03:33:25.716195+00:00"
-    },
-    {
       "title": "Black Forest Labs Unveils FLUX 3 AI Model Capable of Image and 20‑Second Video Generation",
       "urls": [
         "https://www.reddit.com/r/DigitalMarketing/comments/1te600k/best_beginnerfriendly_ai_video_generators_for",
@@ -14081,7 +14066,35 @@
         "https://opentools.ai/news/ai-spring-2025-major-updates-across-google-openai-microsoft-and-more/OpenAI"
       ],
       "date": "2026-09-16T03:31:46.911197+00:00"
+    },
+    {
+      "title": "Google Gains Cloud AI Market Share as AWS Declines in Gartner 2026 Rankings",
+      "urls": [
+        "https://www.crn.com/news/ai/2026/aws-google-oracle-microsoft-top-gartner-s-cloud-ai-infrastructure-list-for-2026",
+        "https://www.crn.com/news/cloud/2026/cloud-market-share-q2-2026-google-gains-share-as-aws-falls",
+        "https://www.cnn.com/2026/07/17/tech/meta-anthropic-ai-cloud-computing",
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+        "https://www.facebook.com/visualcapitalist/videos/ai-is-moving-fast-but-the-infrastructure-powering-it-faces-growing-challenges-in/1994499197883118",
+        "https://www.youtube.com/watch?v=FMLgeQBNzSk",
+        "https://www.youtube.com/watch?v=cjUZUD0aW_s",
+        "https://www.youtube.com/watch?v=Upk9AwHFIpw",
+        "https://virtualizationreview.com/articles/2026/03/20/nvidia-aws-and-google-cloud-spotlight-ai-infrastructure-push-at-gtc-2026.aspx",
+        "https://www.cloudcomputing-news.net",
+        "https://www.wiz.io/reports/state-of-ai-in-the-cloud-2026",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
+        "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month",
+        "https://aibusiness.com/verticals/cloud-computing",
+        "https://www.civo.com/blog/state-of-cloud-in-2026",
+        "https://aimagazine.com/events/cloud-amp-ai-infrastructure-asia-2026",
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/next-2026",
+        "https://www.linkedin.com/pulse/ai-sovereign-cloud-2026-what-analysts-say-comes-next-cbvyf",
+        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
+        "https://www.linkedin.com/pulse/how-ai-transforming-cloud-computing-2026-whats-next-umesh-singh-hqujc",
+        "https://www.linkedin.com/pulse/cloud-2026-rise-ai-driven-sovereign-hyperconnected-dmt4f"
+      ],
+      "date": "2026-09-16T04:01:42.229951+00:00"
     }
   ],
-  "lastUpdated": "2026-09-16T03:31:46.911335+00:00"
+  "lastUpdated": "2026-09-16T04:01:42.230044+00:00"
 }
