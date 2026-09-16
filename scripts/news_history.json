@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I can’t create the requested summary because the provided search results contain no factual information to base",
-      "urls": [
-        "https://denebrixai.com/blog/hugging-face-news",
-        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-        "https://petapixel.com/2026/09/03/nvidia-goes-all-in-on-open-ai-models-buys-hugging-face-for-12-93-billion",
-        "https://fortune.com/2026/09/03/hugging-face-goes-from-a-scrappy-startup-named-after-an-emoji-to-13-billion-nvidia-acquisition",
-        "https://www.crunchbase.com/organization/hugging-face/company_overview/overview_timeline",
-        "https://finance.yahoo.com/technology/ai/articles/nvidia-raises-bet-open-source-040100311.html"
-      ],
-      "date": "2026-09-06T18:31:43.266172+00:00"
-    },
-    {
       "title": "World Bank Group Publishes Health and Climate Change Brief Emphasizing Integrated Action",
       "urls": [
         "https://m.rediff.com/tags/public%20health%20india",
@@ -13792,7 +13780,17 @@
         "https://slashdot.org"
       ],
       "date": "2026-09-16T18:31:41.730897+00:00"
+    },
+    {
+      "title": "Sidebench.com Leads Search Results While LinkedIn, AI Indigo, and NYTimes Follow",
+      "urls": [
+        "https://sidebench.com/ai-healthcare-future-holds",
+        "https://www.linkedin.com/pulse/top-5-news-digital-health-healthcare-ai-week-bertalan-mesk%C3%B3-md-phd-0yd9f",
+        "https://aiindigo.com/blog/ai-healthcare-2026",
+        "https://www.nytimes.com/2026/09/14/health/ai-doctors-medicare-fda.html"
+      ],
+      "date": "2026-09-16T19:01:49.818504+00:00"
     }
   ],
-  "lastUpdated": "2026-09-16T18:31:41.730959+00:00"
+  "lastUpdated": "2026-09-16T19:01:49.818592+00:00"
 }
