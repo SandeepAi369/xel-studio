@@ -13668,7 +13668,20 @@
         "https://pib.gov.in/PressNoteDetails.aspx?id=155063&NoteId=155063&ModuleId=3"
       ],
       "date": "2026-09-17T14:02:15.580378+00:00"
+    },
+    {
+      "title": "DistroWatch, Rocky Linux and openSUSE News Expand Linux Community Coverage Across Releases and Updates",
+      "urls": [
+        "https://openssf.org/author/craig",
+        "https://ebb.org/bkuhn/blog",
+        "https://fsfe.org/news/newsletter.en.html",
+        "https://www.lxer.com",
+        "https://www.distrowatch.org",
+        "https://rockylinux.org",
+        "https://news.opensuse.org"
+      ],
+      "date": "2026-09-17T14:31:42.335370+00:00"
     }
   ],
-  "lastUpdated": "2026-09-17T14:02:15.580460+00:00"
+  "lastUpdated": "2026-09-17T14:31:42.335441+00:00"
 }
