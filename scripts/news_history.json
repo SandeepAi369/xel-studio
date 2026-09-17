@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Shreya Johri Warns Humans Must Lead AI Use in Medicine Amid 2026 Breakthroughs",
-      "urls": [
-        "https://blog.mean.ceo/latest-ai-breakthroughs-news-september-2026",
-        "https://www.democracynow.org/2026/9/3/ai_in_medicine",
-        "https://mavric.umd.edu/news",
-        "https://jssidoi.org/jesi/uploads/issues/Entrepreneurship_and_Sustainability_Issues_Vol5_No4_print.pdf",
-        "https://smarterarticles.co.uk/page/9",
-        "https://www.vinniefalco.com/p/cloud-llm-market"
-      ],
-      "date": "2026-09-07T15:02:26.846835+00:00"
-    },
-    {
       "title": "Google DeepMind Reshuffles Leadership as Gemini Robotics 2 Launches New Humanoid Capabilities",
       "urls": [
         "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
@@ -13672,7 +13660,31 @@
         "https://www.business-standard.com/about/what-is-aiims"
       ],
       "date": "2026-09-17T15:02:07.654855+00:00"
+    },
+    {
+      "title": "Anthropic Blocks Bioweapon AI Requests After Series of Claude Security Breaches",
+      "urls": [
+        "https://evrimagaci.org/gpt/anthropic-faces-security-setbacks-after-claude-ai-incidents-544956",
+        "https://www.reddit.com/r/accelerate/comments/1u4li5z/for_all_their_tall_talk_about_ai_safety_and",
+        "https://www.reddit.com/r/technology/comments/1regb62/anthropic_ditches_its_core_safety_promise_in_the",
+        "https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky",
+        "https://blog.mean.ceo/anthropic-claude-news-september-2026",
+        "https://www.foxnews.com/live-news/artificial-intelligence-safety-mark-zuckerberg-09-16-26",
+        "https://www.foxnews.com/politics/dem-senator-presses-openai-anthropic-answers-ai-hacking-probe",
+        "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
+        "https://apnews.com/article/artificial-intelligence-threats-humanity-anthropic-openai-98316b0d64de17191f33c0fbf1d37858",
+        "https://www.bbc.com/news/articles/cx2zrrpkx20o",
+        "https://www.business-standard.com/world-news/anthropic-blocked-claude-ai-misuse-biological-weapons-research-threat-126091100168_1.html",
+        "https://www.npr.org/2026/09/14/nx-s1-5968079/ai-industry-leaders-call-for-development-to-slow-down-after-recent-safety-concerns",
+        "https://siliconangle.com/2026/08/14/anthropic-details-unreleased-model-2-new-alignment-concerns-latest-ai-risk-report",
+        "https://blockonomi.com/anthropic-thwarts-dangerous-misuse-of-claude-ai-in-bioweapons-and-cyber-threats",
+        "https://www.pcmag.com/news/anthropic-found-a-fourth-hacking-incident-its-ai-checks-initially-missed",
+        "https://news.harvard.edu/gazette/story/2026/08/when-ai-goes-rogue",
+        "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+        "https://d3security.com/blog/anthropic-threat-report-september-2026-soc-takeaways"
+      ],
+      "date": "2026-09-17T15:31:52.782229+00:00"
     }
   ],
-  "lastUpdated": "2026-09-17T15:02:07.654906+00:00"
+  "lastUpdated": "2026-09-17T15:31:52.782309+00:00"
 }
