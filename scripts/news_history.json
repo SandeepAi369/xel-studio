@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "title": "eTropic Journal Publishes Special Issue on Tropical Imaginaries and Climate Change",
-      "urls": [
-        "https://www.indiatoday.in/topic/air-pollution",
-        "https://journals.jcu.edu.au/index.php/etropic/issue/download/203/17",
-        "https://www.akdart.com/wind.html",
-        "https://papers.academic-conferences.org/index.php/ictr/issue/download/5/6",
-        "https://junksciencearchive.com/jan05.html",
-        "https://lamont.columbia.edu/news/upcoming-scientific-fieldwork-2014-and-beyond",
-        "https://tradingqna.com/t/weekly-trading-diary-3rd-to-7th-october-2022/137184",
-        "https://desapublications.un.org/file/20954/download",
-        "https://www.banktrack.org/download/annual_report_2020_2021/hdfcbankintegratedannualreport202021.pdf",
-        "https://satmeteo.com/news/india-monsoon-2026-weather-late-kerala-onset-90-rainfall-forecast-and-el-nino-shadow-over-the-season-6717778c41904f219bd64d03bf02d125",
-        "https://news.abplive.com/news/india/imd-cuts-monsoon-forecast-2026-to-90-average-warns-el-nio-may-trigger-heatwaves-rainfall-deficit-1846885",
-        "https://www.businesstoday.in/india/story/weakest-monsoon-since-2009-india-stares-at-15-rainfall-deficit-as-el-nino-strengthens-551108-2026-08-25",
-        "https://www.ndtv.com/india-news/indias-august-monsoon-decoding-the-impact-of-shifting-troughs-and-el-nino-11871420",
-        "https://zeenews.india.com/india/super-el-nino-2026-climate-change-india-monsoon-deficit-imd-kharif-rice-sowing-crisis-3061256.html"
-      ],
-      "date": "2026-09-08T22:41:33.434201+00:00"
-    },
-    {
-      "title": "Nvidia Completes $12.93 Billion Purchase of Hugging Face to Expand AI Software Stack",
-      "urls": [
-        "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03",
-        "https://www.spokesman.com/stories/2026/sep/03/nvidia-bets-13-billion-on-open-ai-models-with-hugg",
-        "https://siliconangle.com/2026/09/04/nvidia-bags-hugging-face-ai-models-play-leapfrog-and-crowdstrike-doubles-down-on-ai",
-        "https://observer.com/2026/09/nvidia-hugging-face-acquisition-ai-development",
-        "https://finance.yahoo.com/technology/ai/articles/nvidia-acquires-hugging-face-12-190537416.html",
-        "https://finance.yahoo.com/technology/ai/articles/nvidia-12-93b-hugging-face-075456869.html",
-        "https://quasa.io/video/hugging-face-review-open-models-datasets-ai-apps",
-        "https://voxbooster.com/blog/open-source-ai-statistics-2026",
-        "https://toolhalla.ai/tool/hugging-face",
-        "https://www.datacamp.com/blog/openai-huggingface-attack",
-        "https://completeaitraining.com/news/hugging-face-standardizes-ai-model-sharing-with-open-source",
-        "https://www.aixploria.com/en/ai-radar/nvidia-hugging-face-12-9-billion-open-source-ai",
-        "https://www.toolify.ai/category/open-source-ai-models",
-        "https://aitoolly.com/ai-news/article/2026-03-18-state-of-open-source-on-hugging-face-spring-2026-report-released-by-hugging-face-blog"
-      ],
-      "date": "2026-09-08T23:01:42.559039+00:00"
-    },
-    {
       "title": "AIIMS Issues New Admission Notification Detailing Eligibility and Application Process",
       "urls": [
         "https://www.msn.com/en-in/news/india/aiims-cre-2026-notification-shortly-aiims-edu-check-eligibility-selection-process-and-application-details/ar-AA24ShUb?ocid=BingNewsVerp",
@@ -13473,7 +13433,23 @@
         "https://ojs.victoria.ac.nz/pq/issue/download/717/PQ16-4"
       ],
       "date": "2026-09-18T22:31:54.094905+00:00"
+    },
+    {
+      "title": "PyTorch Surpasses TensorFlow as Leading Open Source AI Framework, Industry Analysts Say",
+      "urls": [
+        "https://learnprompting.org/blog/open-source-ai-frameworks",
+        "https://www.aussieai.com/research/open-source-frameworks",
+        "https://pytorch.org/blog/2024-year-in-review",
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
+        "https://opensourceainews.com",
+        "https://www.freecodecamp.org/news/pytorch-vs-tensorflow-for-deep-learning-projects",
+        "https://github.com/tensorflow/tensorflow",
+        "https://www.tensorflow.org",
+        "https://futurumgroup.com/insights/pytorch-grows-up-open-source-ai-tooling-targets-enterprise-production",
+        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance"
+      ],
+      "date": "2026-09-18T23:02:02.767368+00:00"
     }
   ],
-  "lastUpdated": "2026-09-18T22:31:54.095019+00:00"
+  "lastUpdated": "2026-09-18T23:02:02.767514+00:00"
 }
