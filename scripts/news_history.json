@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Transmitter Highlights Recent Autism Research Findings In Neuroscience Community",
-      "urls": [
-        "https://www.thetransmitter.org/autism",
-        "https://www.spectrumastrolabe.org",
-        "https://iacc.hhs.gov/news/science",
-        "https://autismsociety.org/blog"
-      ],
-      "date": "2026-09-09T05:31:44.386365+00:00"
-    },
-    {
-      "title": "Google Expands Gemini AI Suite With 3.8 Flash, New Models and Robotics 2.0",
-      "urls": [
-        "https://www.wired.com/story/google-gemini-can-control-humanoid-robots",
-        "https://www.edtechinnovationhub.com/news/googles-new-ai-agent-will-run-160-searches-while-you-sleep-and-hand-you-the-report-by-morning",
-        "https://cloud.google.com/blog/topics/public-sector/how-google-public-sector-and-google-deepmind-can-power-the-genesis-mission-and-a-new-era-of-scientific-discovery",
-        "https://tech.yahoo.com/ai/gemini/articles/google-deepmind-ships-gemini-3-183917730.html",
-        "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html",
-        "https://memeburn.com/chatgpt-vs-gemini",
-        "https://www.msn.com/en-au/technology/tech-companies/how-stalled-models-missed-deadlines-and-staff-burnout-led-to-the-unraveling-of-google-s-deepmind/ar-AA29L4YQ?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/technology/tech-companies/how-stalled-models-missed-deadlines-and-staff-burnout-led-to-the-unraveling-of-google-s-deepmind/ar-AA29L4YQ?ocid=BingNewsVerp",
-        "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
-        "https://www.businessinsider.com/google-ai-leadership-demis-hassabis-steps-down-deepmind-ceo-2026-8",
-        "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety"
-      ],
-      "date": "2026-09-09T06:01:55.199062+00:00"
-    },
-    {
       "title": "India Issues Red Monsoon Alerts As Heavy Rain Threatens Floods Across Nation",
       "urls": [
         "https://www.indiatoday.in/science/story/monsoon-east-northeast-india-rain-thunderstorms-forecast-september-2989842-2026-09-09",
@@ -13417,7 +13390,48 @@
         "https://www.foxnews.com/politics/fox-news-power-rankings-whats-economy"
       ],
       "date": "2026-09-19T05:31:40.578412+00:00"
+    },
+    {
+      "title": "Google DeepMind Pursues Transferable AI Brain to Operate Multiple Robot Bodies",
+      "urls": [
+        "https://www.youtube.com/watch?v=n01-OaEiYzA",
+        "https://www.youtube.com/watch?v=g0UZT5n6Uf8",
+        "https://www.youtube.com/watch?v=z2MUcmJS3aI",
+        "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
+        "https://deepmind.google/research",
+        "https://gemini.google/latest-news",
+        "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+        "https://www.businesstoday.in/technology/artificial-intelligence/story/google-gemini-ai-hacked-three-real-companies-during-cyber-security-tests-556592-2026-09-19",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
+        "https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind",
+        "https://www.mindstudio.ai/blog/google-losing-ai-race-analysis",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/google-s-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/ar-AA2buYQV?ocid=BingNewsVerp",
+        "https://note.com/dialogs_develop/n/nc2325f03a7bc?hl=en",
+        "https://www.msn.com/en-in/news/other/google-almost-ready-to-launch-new-gemini-ai-model-may-beat-anthropic-and-openai-in-coding-this-time/ar-AA2bozyz?ocid=BingNewsVerp",
+        "https://www.scientificamerican.com/article/google-deepmind-wants-gemini-to-power-many-different-robots",
+        "https://www.msn.com/en-us/news/other/google-deepmind-ran-history-s-first-ai-benchmark-evaluation-where-neither-side-could-cheat/ar-AA2b8fDl?ocid=BingNewsVerp",
+        "https://www.androidauthority.com/google-gemini-3-8-flash-vibe-coding-3705946",
+        "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12",
+        "https://siliconangle.com/2026/07/30/google-deepmind-debuts-gemini-robotics-2-model-series-humanoid-robots",
+        "https://www.williamrinehart.com/ai-research",
+        "https://minifeed.net/blogs/q4sMnYgx",
+        "https://minifeed.net/blogs/5PWJP3Qr",
+        "https://markmcneilly.substack.com/p/the-new-news-in-ai-52926-edition",
+        "https://www.iloveseo.net/search-as-agent-manager-what-pichais-interview-really-means-for-seo-commerce-and-the-open-web",
+        "https://www.taskade.com/blog/perplexity-ai-history",
+        "https://techtrenches.dev/p/when-announcements-replace-innovation",
+        "https://www.therundown.ai/p/ilyas-ssi-skyrockets-to-32b",
+        "https://www.greaterwrong.com/posts/TpSFoqoG2M5MAAesg/ai-2027-what-superintelligence-looks-like-1",
+        "https://www.greaterwrong.com/posts/9bbu9nebdSfXa8cKa/ai-123-moratorium-moratorium",
+        "https://cleverhack.com/the-great-frontier-ai-lab-product-war-is-just-beginning",
+        "https://shattered.io/google-deepmind-self-improving-ai-1-year-2026",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+        "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes",
+        "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "https://techstartups.com/2026/09/03/top-tech-news-today-september-3-2026-google-hugging-face-meta-moonshot-ai-nvidia-more"
+      ],
+      "date": "2026-09-19T06:01:57.734752+00:00"
     }
   ],
-  "lastUpdated": "2026-09-19T05:31:40.578491+00:00"
+  "lastUpdated": "2026-09-19T06:01:57.734829+00:00"
 }
