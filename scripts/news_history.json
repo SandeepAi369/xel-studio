@@ -1,50 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT‑6 Astra Claiming Step Toward Artificial General Intelligence",
-      "urls": [
-        "https://felloai.com/all-we-know-about-chatgpt-6",
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://www.youtube.com/watch?v=4zoHd8OrYBI",
-        "https://www.youtube.com/watch?v=DbciOS1UJNM",
-        "https://www.youtube.com/watch?v=f1ddAoX3h2Y",
-        "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety",
-        "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-        "https://reconn-ai.com/llm-changelog.php",
-        "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
-        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt",
-        "https://www.unite.ai/openai-releases-gpt-6-astra-its-first-model-rated-critical-for-cyber",
-        "https://www.msn.com/en-us/news/other/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety-concerns/ar-AA2bwZld?ocid=BingNewsVerp",
-        "https://www.cointribune.com/en/gpt-6-astra-openai-raises-the-agi-question-as-evmbench-measures-exploit-capability",
-        "https://www.unite.ai/sam-altman-apologizes-as-gpt-6-astra-staged-launch-denies-paid-access",
-        "https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks",
-        "https://www.msn.com/en-us/news/technology/openai-pauses-astra-after-tests-reveal-autonomous-zero-day-exploit-of-hardened-systems/ar-AA29F7WJ?ocid=BingNewsVerp",
-        "https://thehill.com/policy/technology/5942770-openai-staggers-gpt-56",
-        "https://mashable.com/tech/openai-gpt-6-astra-launch-pricing-safety-benchmarks",
-        "https://www.msn.com/en-us/news/other/openai-releases-gpt-6-astra-and-declares-the-arrival-of-the-agi-era/ar-AA2bwiyw?ocid=BingNewsVerp",
-        "https://decrypt.co/377341/openai-releases-gpt-6-astra-agi",
-        "https://www.msn.com/en-us/news/other/congress-moves-to-criminalize-agi-on-same-day-openai-declared-its-arrival/ar-AA2byS7m?ocid=BingNewsVerp",
-        "https://en.wikipedia.org/wiki/GPT-6_Astra",
-        "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here",
-        "https://thenewstack.io/openai-gpt6-astra-benchmarks",
-        "https://developers.openai.com/api/docs/changelog",
-        "https://www.reuters.com/legal/litigation/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety-2026-09-03",
-        "https://aitoolsrecap.com/Blog/openai-news-2026",
-        "https://www.aboutamazon.com/news/aws/bedrock-openai-models",
-        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-        "https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940",
-        "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-        "https://openai.com/index/safety-overview-gpt-6-astra",
-        "https://beginnersinai.org/whats-new-chatgpt-2026",
-        "https://renovateqr.com/blog/ai-models-april-2026",
-        "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html",
-        "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-        "https://skycrumbs.com/blog/ai-models-july-2026",
-        "https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026"
-      ],
-      "date": "2026-09-09T04:02:01.898117+00:00"
-    },
-    {
       "title": "Sports News Sites Yield No Specific Event Details, Prompting Direct Site Visits",
       "urls": [
         "https://worldinsport.com",
@@ -13451,7 +13407,16 @@
         "https://www.cimplifi.com/resources/the-updated-state-of-ai-regulations-for-2025"
       ],
       "date": "2026-09-19T04:01:50.702393+00:00"
+    },
+    {
+      "title": "FightNews tracks UFC announcements for 2026, publishing regular fight card details, venue information, and occasional analysis, allowing fans to follow",
+      "urls": [
+        "https://www.yardbarker.com/mma/articles/boxing_ufc_this_weekend_18_september20_september_2026_every_fight_time_and_channel/s1_17349_44318473",
+        "https://fightnews.com",
+        "https://en.wikipedia.org/wiki/2026_in_UFC"
+      ],
+      "date": "2026-09-19T04:31:33.212834+00:00"
     }
   ],
-  "lastUpdated": "2026-09-19T04:01:50.702486+00:00"
+  "lastUpdated": "2026-09-19T04:31:33.212919+00:00"
 }
