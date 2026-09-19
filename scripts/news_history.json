@@ -1,86 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Muse Spark 1.2 Open‑Source Model to Run on Single Computer",
-      "urls": [
-        "https://www.msn.com/en-us/money/other/meta-pushes-to-release-new-llama-model-before-2026-report/ar-AA1Lr5pG",
-        "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source",
-        "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
-        "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-        "https://www.forbes.com/sites/jonmarkman/2026/08/11/meta-unveils-muse-glimmer-a-30b-parameter-ai-model-that-runs-locally",
-        "https://seekingalpha.com/article/4935179-metas-open-source-crusade-is-also-a-fight-for-control",
-        "https://www.upi.com/Top_News/US/2026/08/10/meta-open-source-ai-model-muse-spark/7701786369775",
-        "https://www.bostonherald.com/2026/08/10/zuckerberg-manifesto-open-source-ai-meta",
-        "https://nypost.com/2026/08/10/us-news/meta-launches-new-ai-in-push-for-best-open-source-model-to-beat-china",
-        "https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer",
-        "https://www.foxbusiness.com/technology/zuckerberg-meta-superintelligence-open-source-ai",
-        "https://www.forbes.com/sites/luisromero/2026/08/11/metas-muse-glimmer-courts-users-as-big-tech-and-governments-shape-ai",
-        "https://www.usatoday.com/story/tech/news/2026/08/10/meta-muse-glimmer-ai-model/91238721007",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/meta-launches-muse-glimmer-an-open-weight-model-that-can-run-on-a-laptop/ar-AA29LuuX?ocid=BingNewsVerp",
-        "https://letsdatascience.com/news/topic/meta-ai",
-        "https://www.bitsminds.com/news/meta-llama-5-open-source-600b-2026",
-        "https://www.washingtonpost.com/technology/2024/07/23/meta-new-ai-llama-open",
-        "https://www.bloomberg.com/news/articles/2024-07-23/meta-s-zuckerberg-aims-to-rival-openai-google-with-new-llama-ai-model",
-        "https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666",
-        "https://ai.meta.com/Open",
-        "https://developer.meta.com/ai/llama-ai-innovation",
-        "https://ai.meta.com/resources/models-and-libraries",
-        "https://www.businessinsider.com/meta-superintelligence-lab-llama-4-new-model-launch-year-end-2025-8",
-        "https://www.euronews.com/next/2026/04/09/meta-enters-ai-race-with-muse-spark-its-major-model-since-spending-spree-heres-what-to-kno",
-        "https://about.fb.com/news/2025/03/celebrating-1-billion-downloads-llama",
-        "https://llm-stats.com/ai-trends",
-        "https://finance.yahoo.com/news/meta-debuts-llama-3-model-163104210.html?fr=sycsrp_catchall",
-        "https://www.shakudo.io/blog/top-9-large-language-models"
-      ],
-      "date": "2026-09-09T11:31:43.923066+00:00"
-    },
-    {
-      "title": "G20 Innovation Ministerial Issues Consensus Statement Guiding Global AI and Innovation Policy",
-      "urls": [
-        "https://www.commerce.gov/news/press-releases/2026/09/g20-innovation-ministerial-concludes-consensus-statement",
-        "https://www.wto.org/english/news_e/news26_e/news26_e.htm",
-        "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know",
-        "https://unctad.org/news/high-tech-goods-power-global-trade-amid-uncertainty",
-        "https://advocacy.calchamber.com/2026/09/08/trade-update-september-8-2026",
-        "https://www.commerce.gov/news/blog/2026/09/g20-innovation-ministerial",
-        "https://apnews.com/hub/tariffs",
-        "https://apnews.com/hub/international-trade",
-        "https://practiceguides.chambers.com/practice-guides/international-trade-2026/usa/trends-and-developments",
-        "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update",
-        "https://advocacy.calchamber.com/2026/09/01/trade-update-september-1-2026",
-        "https://www.maritimenews.com/geopolitics-and-global-trade/geopolitics-reshapes-global-trade-2026",
-        "https://customsandinternationaltradelaw.com",
-        "https://www.reuters.com/business/tariffs",
-        "https://economictimes.indiatimes.com/news/economy/foreign-trade",
-        "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
-        "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026",
-        "https://unctad.org/news/10-trends-shaping-global-trade-2026",
-        "https://www.cfr.org/articles/trade-trends-watch-2026",
-        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf",
-        "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-takes-action-on-certain-advanced-computing-chips-to-protect-americas-economic-and-national-security",
-        "https://www.cnbc.com/2026/09/02/g20-innovation-ministerial-live-updates.html",
-        "https://en.wikipedia.org/wiki/China-United_States_relations",
-        "https://en.wikipedia.org/wiki/China-United_States_trade_war",
-        "https://en.wikipedia.org/wiki/Timeline_of_the_2025-2026_United_States_trade_war_with_Canada",
-        "https://en.wikipedia.org/wiki/Chrystia_Freeland",
-        "https://en.wikipedia.org/wiki/Presidency_of_Javier_Milei",
-        "https://trackingpeoplesdaily.substack.com/p/xis-50-billion-pledge-for-10-partnership",
-        "https://obr.uk/docs/dlm_uploads/CCS0222366764-001_OBR-EFO-March-2022_Web-Accessible-2.pdf",
-        "https://obr.uk/docs/EFO_March-2020_Accessible-1.pdf",
-        "https://obr.uk/docs/dlm_uploads/July_2017_Fiscal_risks.pdf",
-        "https://www.thrall.org/govsites.htm",
-        "https://www.sources.com/SSR/SSRAuthorIndex.htm",
-        "https://www.oxfam.org.au/pdf/Resisting-the-Rule-of-the-Rich-2026.pdf",
-        "https://rsdoiel.github.io/antenna/science_and_technology.html",
-        "https://sinopsis.cz/en/rolland-bri-influence-operations",
-        "https://www.cogitatiopress.com/politicsandgovernance/issue/download/146/128",
-        "https://www.cogitatiopress.com/politicsandgovernance/issue/download/155/131",
-        "https://journals.library.columbia.edu/index.php/lawandarts/article/download/11774/5965/30284",
-        "https://techpolicyinstitute.org/publications/miscellaneous/rsvp-today-for-innovation-priorities-for-the-new-administration"
-      ],
-      "date": "2026-09-09T12:02:07.763092+00:00"
-    },
-    {
       "title": "World Bowl 45 Generates Vibrant Fan Discussion Across NationStates Forum",
       "urls": [
         "https://www.dailymail.com/sport/othersports/article-16116085/amputee-james-melton-high-school-touchdown.html",
@@ -13388,7 +13308,32 @@
         "https://www.facebook.com/mguruswamy/posts/it-slowdown-tcs-shed-26k-jobs-in-fy26-only-infosys-and-wipro-show-significant-ad/10232954759200116"
       ],
       "date": "2026-09-19T11:31:43.378863+00:00"
+    },
+    {
+      "title": "Power Bill Shifts from Utility to Geopolitical Story, Raising Strategic Energy Concerns",
+      "urls": [
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
+        "https://moderndiplomacy.eu/2026/09/19/ai-power-nuclear-geopolitics-grid-capacity-chip-export-controls",
+        "https://www.youtube.com/watch?v=FcyIzbBnPUY",
+        "https://www.youtube.com/watch?v=UtCCmvDBSto",
+        "https://moderndiplomacy.eu/2026/09/15/ai-is-too-big-to-slow-in-a-geopolitical-race",
+        "https://www.controlrisks.com/our-thinking/geopolitical-calendar",
+        "https://www.franksworld.com/2026/09/18/autonomous-ai-transforming-geopolitics-and-global-competition",
+        "https://www.archyde.com/global-news-roundup-insights-from-the-monitor-international-team",
+        "https://www.ey.com/en_it/insights/geostrategy/geostrategic-outlook",
+        "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook",
+        "https://www.geopoliticalmonitor.com",
+        "https://www.weforum.org/stories/2026/02/cybersecurity-and-geopolitics-the-challenges-to-build-resilience-in-a-fragmented-world",
+        "https://www.ft.com/geopolitics",
+        "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026",
+        "https://www.facebook.com/thegfcc/posts/in-a-world-shaped-by-geopolitical-tensions-technological-disruptions-and-the-rac/1486748853494611",
+        "https://www.ey.com/en_th/insights/geostrategy/geostrategic-outlook",
+        "https://www.weforum.org/stories/geo-economics-and-politics/iran-us-war-and-other-geopolitical-stories-to-know-this-month",
+        "https://hottopics.ht/insights/top-stories-to-watch-for-2026",
+        "https://www.gzeromedia.com/amp/the-biggest-geopolitical-risks-of-2026-revealed-2674862588"
+      ],
+      "date": "2026-09-19T12:02:07.841700+00:00"
     }
   ],
-  "lastUpdated": "2026-09-19T11:31:43.378918+00:00"
+  "lastUpdated": "2026-09-19T12:02:07.841792+00:00"
 }
