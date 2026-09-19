@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Energy Sector Surpasses Coal as Renewable Power Leads Historic Shift",
-      "urls": [
-        "https://emobilityplus.com/2026/09/09/world-ev-day-2026-indias-electric-mobility-transition-enters-a-new-phase",
-        "https://evstory.in",
-        "https://www.newkerala.com/news/a/delhi-ev-policy-boost-mass-adoption-cut-import-371.htm",
-        "https://startupsuccessstories.in/world-ev-day-2026-what-indias-ev-entrepreneurs-are-saying",
-        "https://www.livemint.com/auto-news/electric-vehicles-india-ev-penetration-fame-scheme-charging-infrastructure-hybrid-green-mobility-11772385306966.html",
-        "https://www.firstpost.com/business/brics-india-ev-policy-brics-2026-14043905.html",
-        "https://auto.economictimes.indiatimes.com/news/industry/beyond-incentives-policy-certainty-holds-the-key-to-indias-ev-transition/133871133",
-        "https://www.energetica-india.net/news/world-ev-day-2026-indias-ev-surge-raises-the-next-big-question---can-infrastructure-keep-pace",
-        "https://economictimes.indiatimes.com/industry/renewables/delhi-govt-notifies-ev-policy-offers-tax-exemption-for-electric-cars-priced-up-to-rs-30-lakh/articleshow/132108891.cms",
-        "https://www.bwdisrupt.com/article/ev-day-2026-how-startups-are-poised-to-cash-in-on-india-s-accelerating-ev-transition-622774",
-        "https://www.nrdc.org/bio/sameer-kwatra/lessons-indias-transition-electric-vehicles",
-        "https://www.marketsandmarkets.com/Market-Reports/electric-vehicle-market-209371461.html",
-        "https://www.carwale.com/tata-cars/punch-ev",
-        "https://www.wri.org/insights/countries-adopting-electric-vehicles-fastest",
-        "https://newslemon.com/best-electric-cars-india-2026-top-10-evs-prices-range-subsidies",
-        "https://www.ndtv.com/auto",
-        "https://electriccarsreport.com/2025/12/2025-in-review-here-are-the-most-important-ev-news-for-each-month"
-      ],
-      "date": "2026-09-09T14:01:52.250993+00:00"
-    },
-    {
-      "title": "Analytics Vidhya Highlights Top Ten Open‑Source AI Libraries Driving 2026 Development",
-      "urls": [
-        "https://www.ultralytics.com/blog/exploring-vision-ai-frameworks-tensorflow-pytorch-and-opencv",
-        "https://pytorch.org/blog",
-        "https://discoverinai.com/ai-frameworks-tensorflow-vs-pytorch-in-2026",
-        "https://opencv.org/pytorch-vs-tensorflow",
-        "https://www.techradar.com/best/best-ai-tools",
-        "https://arxiv.org/abs/2508.04035",
-        "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote",
-        "https://www.analyticsvidhya.com/blog/2024/12/open-source-ai-libraries",
-        "https://store.outrightcrm.com/blog/open-source-ai-libraries"
-      ],
-      "date": "2026-09-09T14:31:46.259483+00:00"
-    },
-    {
       "title": "OpenAI Launches Canvas to Reduce Claude Artifacts Amid Open‑Source AI Surge",
       "urls": [
         "https://www.youtube.com/watch?v=hPJfwO39Yvw",
@@ -13338,7 +13300,17 @@
         "https://spectrum.ieee.org/firms-bet-climate-tech"
       ],
       "date": "2026-09-19T14:01:47.953598+00:00"
+    },
+    {
+      "title": "Open‑Source AI Community Gains Momentum at KubeCon, OpenInfra Summit, and Linux Foundation’s AI Week",
+      "urls": [
+        "https://www.prnewswire.com/news-releases/kubecon--cloudnativecon-openinfra-summit-and-pytorch-conference-unite-in-china-to-scale-ai-302804908.html",
+        "https://blogs.nvidia.com/blog/open-source-ai-week",
+        "https://events.linuxfoundation.org/open-source-ai-week",
+        "https://www.geeksforgeeks.org/blogs/top-open-source-ai-libraries"
+      ],
+      "date": "2026-09-19T14:32:16.496573+00:00"
     }
   ],
-  "lastUpdated": "2026-09-19T14:01:47.953717+00:00"
+  "lastUpdated": "2026-09-19T14:32:16.496655+00:00"
 }
