@@ -1,50 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assistive Technology Expands Options for Visually Impaired Learners Through AI and New Devices",
-      "urls": [
-        "https://www.teachingvisuallyimpaired.com/technology-access.html",
-        "https://www.sciencedirect.com/science/article/pii/S2590291126003451",
-        "https://www.sciencedirect.com/science/article/pii/S1560429226000090",
-        "https://www.lowvisionsupply.com/blogs/resources/assistive-technology-funding-guide",
-        "https://www.afb.org/blindness-and-low-vision/using-technology",
-        "https://battleforblindness.org/empowering-education-the-best-assistive-technologies-for-visually-impaired-students-in-2024",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10638521",
-        "https://floridareading.com/blogs/news/top-assistive-tech-trends-for-the-visually-impaired-in-2025",
-        "https://www.letsenvision.com/blog/top-5-assistive-technology-devices-for-people-who-are-blind-or-have-low-vision-2023",
-        "https://www.youtube.com/watch?v=nGpym6ozVdI",
-        "https://special-education-journey.com/what-is-assistive-technology-in-special-education",
-        "https://www.specialneeds.com/articles/education/accommodations/the-complete-assistive-technology-guide-for-school-from-pencil-grips-to-aac-devices",
-        "https://www.researchgate.net/publication/382397849_Visually_Assisting_the_Visually_Impaired_People_Through_AI-Assisted_Mobility",
-        "https://arxiv.org/abs/2503.15494",
-        "https://vispero.com/resources/assistive-technology-blind-low-vision",
-        "https://www.tandfonline.com/journals/uaty20",
-        "https://www.youtube.com/watch?v=VRwP3I6tkyw",
-        "https://arxiv.org/pdf/2505.14298",
-        "https://ktla.com/news/latest-assistive-tech-thats-changing-lives",
-        "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired",
-        "https://lighthouseguild.org/news/high-tech-for-low-vision-how-technology-is-changing-the-world-for-people-with-vision-loss",
-        "https://www.perkins.org/resource/5-free-accessible-news-apps-low-vision",
-        "https://arxiv.org/abs/2505.14298",
-        "https://dl.acm.org/doi/10.1145/3411764.3445755",
-        "https://www.sciencedirect.com/science/article/pii/S2666188825006069",
-        "https://link.springer.com/article/10.1007/s10791-024-09460-7",
-        "https://battleforblindness.org/the-future-of-accessibility-emerging-assistive-technology-trends-for-the-visually-impaired",
-        "https://aztap.org",
-        "https://dl.acm.org/doi/abs/10.1145/3733155.3734895",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11314945",
-        "https://journals.sagepub.com/doi/10.1177/00224669261424860",
-        "https://www.healio.com/news/optometry/20241226/assistive-technology-boosts-independence-in-2024",
-        "https://www.ijcaonline.org/archives/volume186/number67/filipova-2025-ijca-924481.pdf",
-        "https://ieeexplore.ieee.org/document/11012288",
-        "https://top5accessibility.com/blog/innovative-assistive-technologies-for-visually-impaired-students",
-        "https://unsdg.un.org/latest/stories/assistive-technology-can-revolutionize-development-learning-and-participation-it%E2%80%99s",
-        "https://www.blindambition.co.uk/10-cutting-edge-technologies-enhancing-accessibility-for-the-visually-impaired",
-        "https://link.springer.com/chapter/10.1007/978-3-031-07670-1_11"
-      ],
-      "date": "2026-09-09T09:41:35.149337+00:00"
-    },
-    {
       "title": "SGLang Joins PyTorch Ecosystem, Enhancing Efficient LLM Deployment for Developers",
       "urls": [
         "https://siliconangle.com/2026/09/08/open-source-ai-developer-mistral-closes-e3b-funding-round",
@@ -13428,7 +13384,15 @@
         "https://www.mlive.com/news/2026/09/a-simple-observation-in-an-indiana-bathroom-led-to-an-invention-that-could-change-lives.html"
       ],
       "date": "2026-09-19T09:31:28.555174+00:00"
+    },
+    {
+      "title": "PyTorch Hosts Landmark Europe 2026 Conference Showcasing Open Source AI Advances",
+      "urls": [
+        "https://github.com/kouweizhu/agents-radar/issues/102",
+        "https://pytorch.org/blog/pytorch-conference-europe-2026-a-landmark-moment-for-open-source-ai-in-paris"
+      ],
+      "date": "2026-09-19T10:01:48.956890+00:00"
     }
   ],
-  "lastUpdated": "2026-09-19T09:31:28.555302+00:00"
+  "lastUpdated": "2026-09-19T10:01:48.957066+00:00"
 }
