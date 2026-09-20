@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Expands Assistive Product List to Boost Global Inclusion",
-      "urls": [
-        "https://www.techtarget.com/ai/definition/What-is-assistive-technology-adaptive-technology",
-        "https://blackdoctor.com/10-assistive-technologies-make-life-with-disability-easier",
-        "https://www.who.int/teams/health-product-policy-and-standards/assistive-and-medical-technology/assistive-technology/promoting-access",
-        "https://www.unicef.org/reports/global-report-assistive-technology"
-      ],
-      "date": "2026-09-10T09:31:40.503491+00:00"
-    },
-    {
       "title": "Intel Joins Edge AI and Vision Alliance to Boost On‑Device Vision Solutions",
       "urls": [
         "https://www.edge-ai-vision.com/companies/intel",
@@ -13304,7 +13294,40 @@
         "https://finance.yahoo.com/technology/ai/articles/dell-innovatefest-2026-champions-inclusive-114100644.html"
       ],
       "date": "2026-09-20T09:31:31.395973+00:00"
+    },
+    {
+      "title": "Amazon Enhances Deep Learning Book With New Programming Frameworks In Latest Science Release",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-at-gtc",
+        "https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations",
+        "https://rssdss.design.blog/blog-feed/page/2",
+        "https://osselc21.sched.com/list/descriptions/area/Yes",
+        "https://euvolution.com/open-source-convergence/category/open-source-software/page/18",
+        "https://news.ycombinator.com/item?id=45093192",
+        "https://www.informatica.si/index.php/informatica/issue/download/323/339",
+        "https://radar.inria.fr/report/2025/magnet/index.html",
+        "https://www.amazon.science/deep-learning-book-adds-pytorch-tensorflow",
+        "https://ostechnix.com/linux-document-processing-pipeline",
+        "https://www.techpowerup.com/news-tags/ROCm",
+        "https://www.merchantstore.com/gen-programming.html",
+        "https://www.blockchain-council.org/ai/how-does-ai-work",
+        "https://cvcompiler.com/artificial-intelligence-specialist-resume-examples",
+        "https://cvcompiler.com/google-software-engineer-resume-examples",
+        "https://www.openevidence.com",
+        "https://www.open.ac.uk",
+        "https://dictionary.cambridge.org/dictionary/english/open",
+        "https://www.open.online",
+        "https://openlibrary.org",
+        "https://finance.yahoo.com/quote/OPEN?fr=sycsrp_catchall",
+        "https://www.merriam-webster.com/dictionary/open",
+        "https://en.wikipedia.org/wiki/Open",
+        "https://www.theopen.com/leaderboard",
+        "https://www.usopen.org/index.html",
+        "https://openai.com/about",
+        "https://www.theopen.com/royal-birkdale-154th-open"
+      ],
+      "date": "2026-09-20T10:01:54.701009+00:00"
     }
   ],
-  "lastUpdated": "2026-09-20T09:31:31.396036+00:00"
+  "lastUpdated": "2026-09-20T10:01:54.701134+00:00"
 }
