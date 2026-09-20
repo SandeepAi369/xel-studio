@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Issues New Health Guidance in Latest News Release",
-      "urls": [
-        "https://www.newkerala.com/news/a/health-ministry-concludes-2-day-national-review-meeting-disease-575.htm",
-        "https://www.who.int/news-room/releases/1",
-        "https://www.paho.org/en/news/news-releases"
-      ],
-      "date": "2026-09-10T15:02:11.633999+00:00"
-    },
-    {
       "title": "HIVE's BUZZ HPC Appoints Mark Volk as Senior Vice President Driving $1 Million Daily Revenue Growth",
       "urls": [
         "https://www.datacenterdynamics.com/en/news",
@@ -13295,7 +13286,36 @@
         "https://www.morningstar.com/news/marketwatch/20260522133/canada-and-india-now-have-generic-wegovy-heres-why-the-us-doesnt"
       ],
       "date": "2026-09-20T15:01:46.248337+00:00"
+    },
+    {
+      "title": "Anthropic Discloses Fourth AI Hacking Incident, Highlighting Vulnerabilities and Security Gaps",
+      "urls": [
+        "https://www.latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies",
+        "https://www.youtube.com/watch?v=IwKuv4LrCVk",
+        "https://www.facebook.com/clarincom/videos/claude-est%C3%A1-cambiando-la-carrera-de-la-inteligencia-artificial-es-realmente-mejo/1029821482820687",
+        "https://www.usnews.com/news/business/articles/2026-09-17/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself",
+        "https://www.technology.org/2026/09/18/anthropic-claude-leads-26-percent-ai-research",
+        "https://www.washingtontimes.com/news/2026/sep/17/anthropic-says-claude-helping-build-next-version",
+        "https://www.nbcnews.com/tech/tech-news/anthropic-says-model-claude-helping-build-next-version-rcna598494",
+        "https://abc13.com/post/anthropic-ai-news-company-says-model-claude-is-helping-build-version/19846588",
+        "https://reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17",
+        "https://www.forbes.com/sites/siladityaray/2026/09/18/security-researchers-hacked-into-openai-using-anthropics-claude",
+        "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/09/18/anthropic-says-model-claude-helping",
+        "https://www.newsy-today.com/claude-sees-large-share-of-anthropic-research",
+        "https://vinnews.com/2026/09/18/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself",
+        "https://apnews.com/article/anthropic-claude-ai-model-self-improvement-4d3a7430f57cbc7c39e1c5f2b7d7e132",
+        "https://www.unite.ai/anthropic-says-claude-leads-26-of-its-ai-research-and-development",
+        "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+        "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17",
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://blog.buildfastwithai.com/ai-news-today-september-11-2026-16-biggest-stories",
+        "https://aidiscoveries.io/breaking-claude-released-fable-5-1-everything-you-need-to-know-about-the-latest-frontier-ai-model",
+        "https://fortune.com/2026/01/21/anthropic-claude-ai-chatbot-new-rules-safety-consciousness",
+        "https://www.aljazeera.com/news/2026/9/10/anthropic-discloses-fourth-ai-breach-as-researcher-quits-over-safety",
+        "https://www.zdnet.com/article/ai-security-threats-2026-overview"
+      ],
+      "date": "2026-09-20T15:31:43.440954+00:00"
     }
   ],
-  "lastUpdated": "2026-09-20T15:01:46.248458+00:00"
+  "lastUpdated": "2026-09-20T15:31:43.441057+00:00"
 }
