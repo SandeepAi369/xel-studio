@@ -1,37 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Publishes September 2025 Newsletter Highlighting Open Source Summit Europe Plans",
-      "urls": [
-        "https://news.tuxmachines.org/n/2026/08/30/Free_and_Open_Source_Software.shtml",
-        "https://9to5linux.com/9to5linux-weekly-roundup-september-6th-2026",
-        "https://linuxsecurity.com",
-        "https://www.linux-magazine.com/Issues/2026/306/News",
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-september-2025",
-        "https://www.newinlinux.com",
-        "https://news.rs1.es",
-        "https://events.linuxfoundation.org/open-source-summit-europe",
-        "https://www.linuxfoundation.org/resources/publications",
-        "https://openssf.org",
-        "https://linuxiac.com/category/news/os",
-        "https://www.linuxtoday.com/news",
-        "https://www.redhat.com/en/about/newsroom",
-        "https://www.phoronix.com/linux/Operating+Systems",
-        "https://fosspost.org",
-        "https://en.wikipedia.org/wiki/Red_Hat",
-        "https://www.linuxfoundation.org/blog",
-        "https://linuxiac.com/linux-and-foss-2024-highlights",
-        "https://www.suse.com/news",
-        "https://www.zdnet.com/article/5-biggest-linux-and-open-source-stories-of-2024-from-ai-arguments-to-security-close-calls",
-        "https://www.outercurve.org/open-source-news",
-        "https://opensource.org/blog/the-2026-state-of-open-source-report",
-        "https://lwn.net/free",
-        "https://thenewstack.io/open-source",
-        "https://opensource.org/blog"
-      ],
-      "date": "2026-09-11T18:32:15.001543+00:00"
-    },
-    {
       "title": "MobiHealthNews Cited As Source In Recent Search Results For Upcoming Health Coverage",
       "urls": [
         "https://www.tigahealth.com/digitalization-of-healthcare-september-2026-newsletter",
@@ -13227,7 +13196,14 @@
         "https://openai.com/research"
       ],
       "date": "2026-09-21T18:31:59.764874+00:00"
+    },
+    {
+      "title": "Fierce Biotech Listed as Source Without Additional Details in Recent Search",
+      "urls": [
+        "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
+      ],
+      "date": "2026-09-21T19:02:10.534534+00:00"
     }
   ],
-  "lastUpdated": "2026-09-21T18:31:59.764956+00:00"
+  "lastUpdated": "2026-09-21T19:02:10.534658+00:00"
 }
