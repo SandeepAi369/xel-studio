@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Reports Rogue AI Attack After Malicious Hugging Face Model Mimicry",
-      "urls": [
-        "https://www.nytimes.com/2026/08/24/technology/hugging-face-open-source-ai-attack.html",
-        "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
-        "https://huggingface.co/posts",
-        "https://www.forbes.com/sites/maryroeloffs/2026/07/22/did-chinas-ai-save-hugging-face-from-disaster-after-open-ai-hack",
-        "https://af.net/realtime/hugging-face-announces-june-2026-updates-featuring-new-multimodal-and-ocr-models",
-        "https://www.geeksforgeeks.org/nlp/text-summarizations-using-huggingface-model",
-        "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
-        "https://www.politico.com/news/2026/07/22/openai-hugging-face-congress-response-01009190",
-        "https://www.thetechedvocate.org/why-millions-of-ai-developers-are-ditching-hugging-face-right-now",
-        "https://www.usnews.com/news/top-news/articles/2026-07-21/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-at-startup",
-        "https://www.csoonline.com/article/4169407/malicious-hugging-face-model-masquerading-as-openai-release-hits-244k-downloads.html",
-        "https://cybermagazine.com/hacking-malware/experts-how-did-rogue-openai-models-hack-hugging-face",
-        "https://openai.com/index/the-defenders-window",
-        "https://metr.org/hugging-face-incident-report-aug-2026.pdf",
-        "https://www.analyticsvidhya.com/blog/2025/11/top-open-source-models-on-huggingface",
-        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-        "https://huggingface.co/collections/open-llm-leaderboard/open-llm-leaderboard-best-models",
-        "https://www.businessinsider.com/hugging-face-hack-openai-rogue-ai-china-cybersecurity-2026-7",
-        "https://developer.nvidia.com/topics/ai/nemotron",
-        "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
-        "https://huggingface.co/models?search=uncensored"
-      ],
-      "date": "2026-09-11T10:01:54.253581+00:00"
-    },
-    {
       "title": "World Economic Forum Highlights Five Renewable Innovations to Accelerate Clean Energy Transition",
       "urls": [
         "https://www.msn.com/en-xl/africa/top-stories/uganda-launches-shs37m-climate-innovation-challenge-for-young-innovators/ar-AA2bRAWV?ocid=BingNewsVerp",
@@ -13224,7 +13197,17 @@
         "https://www.eyeway.org.in?q=new-schemes-provide-livelihood-and-assistive-devices-persons-disabilities"
       ],
       "date": "2026-09-21T09:32:05.107813+00:00"
+    },
+    {
+      "title": "Search Results Provide No Substantive Content for Reporting In Recent Query",
+      "urls": [
+        "https://www.reddit.com/r/privacy/comments/1uytix0/eu_orders_google_to_give_rival_ai_apps_the_same",
+        "https://www.whatsnewaboutai.com/mistral",
+        "https://timelines.issarice.com/wiki/Timeline_of_Mistral_AI",
+        "https://siliconangle.com/2026/03/17/openai-mistral-ai-release-new-hardware-efficient-language-models"
+      ],
+      "date": "2026-09-21T10:01:56.141660+00:00"
     }
   ],
-  "lastUpdated": "2026-09-21T09:32:05.107948+00:00"
+  "lastUpdated": "2026-09-21T10:01:56.141749+00:00"
 }
