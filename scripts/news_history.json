@@ -1,41 +1,6 @@
 {
   "entries": [
     {
-      "title": "Simon Willison Announces Release of llm 0.35 Model Targeting Open‑Source Developers",
-      "urls": [
-        "https://www.reddit.com/r/LLMDevs/comments/1s5w0v0/why_open_source_models_are_gaining_ground_in",
-        "https://pricepertoken.com/news/model-releases",
-        "https://simonwillison.net/2026/Sep/7/llm",
-        "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01",
-        "https://blog.mean.ceo/large-language-model-news-september-2026",
-        "https://buttondown.com/agent-k/archive/llm-daily-september-06-2026",
-        "https://azumo.com/artificial-intelligence/ai-insights/top-10-llms-0625",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://www.msn.com/en-ca/news/other/chinas-tencent-releases-new-open-source-ai-model-for-coding-research-tasks/ar-AA2b6sWJ?ocid=BingNewsVerp",
-        "https://en.wikipedia.org/wiki/OpenAI",
-        "https://www.scriptbyai.com/ai-model-release-calendar"
-      ],
-      "date": "2026-09-12T10:02:05.596408+00:00"
-    },
-    {
-      "title": "Silicon Valley Bank Publishes Future of Climate Tech 2026 Report Highlighting Emerging Trends",
-      "urls": [
-        "https://www.canarymedia.com/articles/clean-energy",
-        "https://www.canarymedia.com",
-        "https://newmarketpitch.com/blogs/news/climate-tech-funding-news",
-        "https://www.spglobal.com/energy/en/news-research/special-reports/energy-transition/horizons-top-cleantech-trends-2026",
-        "https://www.iea.org/reports/clean-energy-innovation",
-        "https://www.sciencedaily.com/news/matter_energy/wind_energy",
-        "https://www.weforum.org/press/2025/10/10-transformative-innovations-for-climate-action-and-planetary-health",
-        "https://www.cleantechalliance.org",
-        "https://www.svb.com/trends-insights/reports/future-of-climate-tech",
-        "https://www.forbes.com/sites/mindylubber/2025/01/06/3-forces-that-will-keep-driving-clean-energy-innovation-in-2025",
-        "https://ehicleantech.com/blogs/climate-connect-navigating-clean-technology-and-the-energy-transition/top-5-trends-in-climate-technology-for-2025",
-        "https://iea.blob.core.windows.net/assets/d24ccc77-ef68-491c-848d-b9c0ec0c484b/TheStateofEnergyInnovation2026.pdf"
-      ],
-      "date": "2026-09-12T10:31:27.075433+00:00"
-    },
-    {
       "title": "Nature Shows Artificial Intelligence Transforming Diagnosis, Boosting Early Detection and Reducing Invasive Tests",
       "urls": [
         "https://signalsinbox.com/blogs/news/medtech-latest-ai-medical-breakthroughs",
@@ -13200,7 +13165,21 @@
         "https://www.interconnects.ai/p/inside-a-chinese-frontier-lab-inclusion"
       ],
       "date": "2026-09-22T10:02:03.758941+00:00"
+    },
+    {
+      "title": "Eco Wave Power CEO Inna Braverman Joins Climate Week NYC Panels on Ocean AI and Sustainability",
+      "urls": [
+        "https://finance.yahoo.com/energy/articles/eco-wave-power-ceo-inna-123000042.html",
+        "https://www.msn.com/en-xl/africa/top-stories/uganda-launches-shs37m-climate-innovation-challenge-for-young-innovators/ar-AA2bRAWV?ocid=BingNewsVerp",
+        "https://www.jpmorgan.com/insights/sustainability/carbon-transition/energy-innovation-and-sustainability-news",
+        "https://www.reuters.com/sustainability/clean-energy",
+        "https://techcrunch.com/category/climate",
+        "https://www.bloomberg.com/green",
+        "https://www.washingtontimes.com/news/2026/sep/21/climate-week-talks-balancing-hope-clean-energy-uncertainty-artificial",
+        "https://www.cnbc.com/clean-tech"
+      ],
+      "date": "2026-09-22T10:31:43.823408+00:00"
     }
   ],
-  "lastUpdated": "2026-09-22T10:02:03.759020+00:00"
+  "lastUpdated": "2026-09-22T10:31:43.823505+00:00"
 }
