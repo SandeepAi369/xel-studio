@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alibaba Reports 75 Percent Profit Drop After Massive AI Infrastructure Investment",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/09/11/3360352/0/en/the-900-billion-data-center-boom-is-just-getting-started.html",
-        "https://www.reuters.com/business/retail-consumer/alibaba-beats-quarterly-revenue-estimates-2026-08-20",
-        "https://www.fool.com/investing/2026/08/23/should-buy-oracle-stock-september-answer-surprise",
-        "https://www.aboutamazon.com/amazon-aws-news",
-        "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026",
-        "https://techstartups.com/2026/09/09/top-tech-news-today-september-9-2026-google-meta-openai-xiaomi-more",
-        "https://press.asus.com/news/press-releases/asus-ai-infrastructure-cloud-to-edge-2026",
-        "https://www.googlecloudpresscorner.com"
-      ],
-      "date": "2026-09-12T06:02:00.766081+00:00"
-    },
-    {
       "title": "Microsoft Faces Protest Over Carbon Goals and AI Impact at Climate Conference",
       "urls": [
         "https://carbon-pulse.com/549000",
@@ -13187,7 +13173,26 @@
         "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12741"
       ],
       "date": "2026-09-22T05:32:00.022680+00:00"
+    },
+    {
+      "title": "Indian Startup Funding Surpasses $412 Million Amid 23 Percent Drop, Weekly Spike Hits $180 Million",
+      "urls": [
+        "https://beststartup.in/india-startup-funding-september-2026-week-one",
+        "https://inc42.com/buzz/from-ultrahuman-to-comet-indian-startups-raised-over-177-mn-this-week",
+        "https://inc42.com/buzz/from-emergent-to-juspay-indian-startups-raised-303-mn-this-week",
+        "https://www.forbesindia.com/photogallery/upfront/news-by-numbers/indias-tech-startups-in-deep-freeze/2990110/1",
+        "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-1-september-2026",
+        "https://indianstartupnews.com/funding/indian-startups-raised-over-412-million-from-september-7-to-september-12-2026-pixxel-tops-the-list-12528949",
+        "https://beststartup.in/category/funding",
+        "https://www.crossventura.com/blogs/india-startup-ecosystem-2025-funding-unicorns-trends",
+        "https://techstory.in/weekly-startup-funding-news-indian-startups-raised-159-mn-this-week",
+        "https://www.financialexpress.com/business/start-ups/indias-tech-startups-see-23-funding-drop-still-rank-3rdnbspworldwide/3990169",
+        "https://economictimes.indiatimes.com/tech/startups",
+        "https://zeenews.india.com/economy/indian-startup-ecosystem-raises-over-180-million-this-week-2885447.html",
+        "https://economictimes.indiatimes.com/topic/Indian-Startups-Funding/ampnews"
+      ],
+      "date": "2026-09-22T06:02:19.423208+00:00"
     }
   ],
-  "lastUpdated": "2026-09-22T05:32:00.022761+00:00"
+  "lastUpdated": "2026-09-22T06:02:19.423279+00:00"
 }
