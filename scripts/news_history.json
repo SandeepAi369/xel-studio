@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mordor Intelligence Projects Billion‑Dollar Growth for AI Coding Tools Through 2031",
-      "urls": [],
-      "date": "2026-09-13T09:33:12.247558+00:00"
-    },
-    {
-      "title": "Indian Government Announces New Schemes to Provide Assistive Devices and Livelihood Support",
-      "urls": [
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/building-a-barrier-free-india-for-divyangjan",
-        "https://www.prokerala.com/news/articles/a1810546.html",
-        "https://www.thehindu.com/business/budget/new-schemes-to-provide-livelihood-and-assistive-devices-for-persons-with-disabilities/article70578865.ece",
-        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022123140101.pdf",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/redesigning-india-for-inclusion-of-pwds",
-        "https://www.constructionworld.in/policy-updates-and-economic-news/niti-aayog-hosts-workshop-on-assistive-tech-ecosystem-in-pune/71815"
-      ],
-      "date": "2026-09-13T09:34:07.523598+00:00"
-    },
-    {
       "title": "TensorFlow – LinkedIn Pulse published “AI Development Frameworks in 2025: TensorFlow, PyTorch …,” highlighting TensorFlow",
       "urls": [
         "https://daily.dev/posts/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects-pytorch-nzlqvwtdu",
@@ -13441,7 +13424,26 @@
         "https://www.healio.com/news/optometry/20241226/assistive-technology-boosts-independence-in-2024"
       ],
       "date": "2026-09-23T09:31:45.025826+00:00"
+    },
+    {
+      "title": "Nvidia Acquires Hugging Face for $13 Billion to Strengthen Open‑Source AI Platform",
+      "urls": [
+        "https://www.techaimag.com/top-10-hugging-face-models/trending-hugging-face-models-for-september-2026",
+        "https://huggingface.co/models",
+        "https://money.usnews.com/investing/news/articles/2026-09-03/nvidia-to-buy-hugging-face-for-nearly-13-billion-in-big-bet-on-open-ai-models",
+        "https://nypost.com/2026/09/03/business/nvidia-buying-ai-startup-hugging-face-for-whopping-13b",
+        "https://www.fool.com/investing/2026/09/03/nvidias-1293-billion-hugging-face-deal-expands-jensen-huangs-ai-platform-beyond-chips",
+        "https://www.msn.com/en-us/news/other/how-nvidia-s-hugging-face-deal-would-reshape-the-open-ai-ecosystem/ar-AA2b9zyR?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/other/nvidia-has-reportedly-agreed-to-buy-ai-model-hosting-platform-hugging-face-for-13-billion/ar-AA2b2BaZ?ocid=BingNewsVerp",
+        "https://apnews.com/article/nvidia-hugging-face-ai-d96d50e037a2ade479dcdf81cdf2afcf",
+        "https://www.msn.com/en-us/news/other/here-s-what-nvidia-s-13-billion-hugging-face-deal-means-for-the-world-of-ai/ar-AA2buvFn?ocid=BingNewsVerp",
+        "https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html",
+        "https://thehill.com/policy/technology/6068386-nvidia-acquires-hugging-face",
+        "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks",
+        "https://www.forbes.com/sites/martineparis/2026/08/31/openai-hugging-face-attack-70000-ai-agent-messages-sacrifice-yes"
+      ],
+      "date": "2026-09-23T10:02:00.080462+00:00"
     }
   ],
-  "lastUpdated": "2026-09-23T09:31:45.025912+00:00"
+  "lastUpdated": "2026-09-23T10:02:00.080542+00:00"
 }
