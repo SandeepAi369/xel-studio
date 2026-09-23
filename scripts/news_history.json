@@ -1,55 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Renewable Electricity Share Rises to One‑Sixth in New England and 22 Percent Nationally",
-      "urls": [
-        "https://www.energy.gov/cmei/systems/listings/solar-news",
-        "https://www.canarymedia.com/articles/clean-energy/big-stories-2026-renewables-power-grid",
-        "https://www.energy.gov/eere/wind/listings/wind-news",
-        "https://environmentamerica.org/updates/new-forecasts-wind-and-solar-to-continue-to-grow",
-        "https://environmentamerica.org/maine/center/updates/wind-and-solar-produce-22-of-nations-electricity-in-first-half-of-2026",
-        "https://illuminem.com/category/renewables",
-        "https://apnews.com/hub/wind-power",
-        "https://finance.yahoo.com/energy/articles/top-renewable-energy-battery-stocks-152600246.html",
-        "https://insideclimatenews.org/news/15082026/nextera-energy-renewable",
-        "https://www.cnbc.com/2026/07/09/clean-power-comeback-dont-count-out-renewable-energy-and-this-one-stock-in-particular.html",
-        "https://www.concordmonitor.com/2026/09/10/new-england-renewable-electricity-share",
-        "https://insideclimatenews.org/news/12062026/china-coal-power-generation-grows",
-        "https://www.upi.com/Top_News/World-News/2026/08/10/latam-cuba-solar-power-china/9031786385971",
-        "https://insideclimatenews.org/news/13082026/inside-clean-energy-new-us-power-plants",
-        "https://www.msn.com/en-us/weather/topstories/renewables-overtake-coal-for-the-first-time-in-global-power-generation/vi-AA1OuiRM?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/australian-farmers-who-spent-1-million-in-drought-now-call-wind-and-solar-income-life-changing/ar-AA2bwKJs?ocid=BingNewsVerp",
-        "https://www.solarpowerworldonline.com",
-        "https://www.weforum.org/stories/all/global-energy-2026-growth-resilience-and-competition",
-        "https://www.forbes.com/sites/dianneplummer/2026/02/17/top-5-renewable-energy-sources-reshaping-the-global-economy-in-2026",
-        "https://www.weforum.org/stories/energy-transition/the-top-energy-stories-of-2025",
-        "https://www.weforum.org/stories/2025/06/clean-energy-transition-progress-top-stories",
-        "https://www.reuters.com/business/energy/wind",
-        "https://energydigital.com",
-        "https://www.weforum.org/stories/2025/05/solar-power-to-surpass-nuclear-and-more-top-energy-stories"
-      ],
-      "date": "2026-09-13T22:31:53.482326+00:00"
-    },
-    {
-      "title": "Nvidia Invests $13 Billion In Hugging Face To Expand Open‑Source AI Ecosystem",
-      "urls": [
-        "https://blog.mean.ceo/open-source-ai-news-september-2026",
-        "https://dataconomy.com/2026/09/08/nvidia-hugging-face-acquisition-12-9-billion",
-        "https://huggingface.co/blog",
-        "https://www.msn.com/en-us/money/general/nvidia-s-13-billion-hugging-face-deal-expands-open-source-ai/ar-AA2byVs4?ocid=BingNewsVerp",
-        "https://sg.finance.yahoo.com/news/nvidias-hugging-face-deal-buys-153538742.html",
-        "https://dailyai.report",
-        "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
-        "https://www.promptzone.com/ai-model-releases",
-        "https://www.reuters.com/technology/startup-hugging-face-aims-cut-ai-costs-with-open-source-offering-2024-10-23",
-        "https://time.com/article/2026/07/24/openai-hugging-face-attack",
-        "https://www.buildfastwithai.com/blogs/best-open-source-ai-models-2026",
-        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
-        "https://presenc.ai/research/huggingface-trending-models-june-2026"
-      ],
-      "date": "2026-09-13T23:01:42.289246+00:00"
-    },
-    {
       "title": "Digital Mental Health Tools Expand With New Research, Media Guides and Innovation Reports",
       "urls": [
         "https://startupsavant.com/startups-to-watch/mental-health",
@@ -13385,7 +13336,33 @@
         "https://news.un.org/en/story/2024/10/1156071"
       ],
       "date": "2026-09-23T22:31:26.691612+00:00"
+    },
+    {
+      "title": "Q.ANT Gives Away Software for Light‑Powered AI Chips to Attract Developer Community",
+      "urls": [
+        "https://www.investing.com/news/transcripts/qualcomm-at-snapdragon-summit-2026-day-1-pushing-ai-onto-devices-93CH-4914083",
+        "https://thenextweb.com/news/clement-delangue-un-security-council-open-source-ai",
+        "https://thenewstack.io/q-ant-open-sources-cuda",
+        "https://note.com/sugerpowder/n/n3050c20bf3d3?hl=en",
+        "https://www.msn.com/en-in/news/other/nvidia-to-acquire-hugging-face-for-129-billion-in-major-open-source-ai-expansion-deal/ar-AA2buQ0p?ocid=BingNewsVerp",
+        "https://www.forbes.com/sites/jonmarkman/2026/09/09/nvidias-hugging-face-deal-buys-control-of-where-ai-agents-get-built",
+        "https://www.forbes.com/sites/nishatalagala/2026/09/18/the-700-agent-swarm-what-openai-and-hugging-face-taught-business-leaders",
+        "https://www.edge-ai-vision.com/2026/09/nvidia-to-acquire-hugging-face",
+        "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident",
+        "https://huggingface.co/papers",
+        "https://huggingface-paper-explorer.vercel.app",
+        "https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity",
+        "https://www.analyticsvidhya.com/blog/2025/11/top-open-source-models-on-huggingface",
+        "https://af.net/realtime/hugging-face-announces-june-2026-updates-featuring-new-multimodal-and-ocr-models",
+        "https://metr.org/hugging-face-incident-report-aug-2026.pdf",
+        "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html",
+        "https://huggingface.co/models?sort=trending",
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "https://blog.imseankim.com/hugging-face-community-models-october-2025-open-source-highlights",
+        "https://mlsystemsreview.com/huggingface-ecosystem-2026"
+      ],
+      "date": "2026-09-23T23:01:47.909595+00:00"
     }
   ],
-  "lastUpdated": "2026-09-23T22:31:26.691659+00:00"
+  "lastUpdated": "2026-09-23T23:01:47.909647+00:00"
 }
