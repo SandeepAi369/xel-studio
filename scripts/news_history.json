@@ -1,39 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's 17 Million Developers on GitHub Drive AI and Open Source Growth",
-      "urls": [
-        "https://www.businesstoday.in/technology/news/story/indias-developer-boom-17-million-strong-on-github-ai-and-open-source-drive-growth-452139-2024-10-31",
-        "https://aiweekly.co/ai-news-today",
-        "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
-        "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1",
-        "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-        "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit",
-        "https://dev.to/laetitiaperraut/india-open-source-development-harnessing-collaborative-innovation-for-global-impact-8en",
-        "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/open-source-in-the-age-of-ai",
-        "https://www.kaggle.com/datasets"
-      ],
-      "date": "2026-09-14T05:01:55.934214+00:00"
-    },
-    {
-      "title": "Funding for the research came from a national health agency, allocating $2.5 million to support prototype development, user testing across",
-      "urls": [
-        "https://yabs.yandex.ru/count/Wh0ejI_zOoVX2Lcf0XKL05CcaYcSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDl7Xm4V2MS0QXXJwVovqzs-_SUSEThz_nUiCTBZJFSQVpwRIZHTQVwX2IaGqaQzBHqf7HaGzL0slHpn6IDUddQEd8wAW4aH7IDKIHjOIC8kgG2H94Ha58rYGRHaX0JpjWoYO78TIDuFPL-WR0B7JSa63GSLmM42xx7NkNxDaT55SJ0iQU2XHZKnNJrWkCW34EExirHq8hOsq4Z9M8c8rz2FiFNk-1Qo9m0mUTxsqnm1UB7fzw6isXzWt5xwSzlPqu59VUK6ZjZ3vnwUtCypjwJtEflG87Uq5OapOyAbnsYDruOyXsK1HeEPzlc6oydckp-q303U00Dd1rc319ic7hwmZtEGtYPXEihbR3tco2rTLgs7QWGKkpzHcqFaCsHd7mK1URAn9NXK7hdKf_WGx2OvXmWOq0nIzRMYWk8MGMjXPsq3kIffaj7NPp1Kp1lCU8VOpkOSmKe6386M34-1dCLu8UNmGEu1e0mtG9QFBefypx8slgUMwJwxdDtVz6JuG7-8U_c0ji0-lzNXjOx-Vw7bhcltyn5_Xhbu0z6dzs2TYZaMcMeS8iCvTUFwN9Ds_NTLsdpJ5PTEZ0enkRzDZN4Uvpthmi-x8NekqhysC9F7YdJU_3yzyGoemSKImpScJBQoTutJ_PmZHaY9SlGmwFRB0WP80Wnu41e3ZcIgLI6G8P5DTUTfM_0WS_EvfWV0KW7FpAM_rwrQEVBW36mp08GxXG2MHu_LvqMMAKNw5Gqa9GSA3fl2qr1OHmzhS0xwYB4M-fRKyW3tKCcuz3inlLUkhqxjX2VI6EsfayMViPPizuhV5GVUuB~2",
-        "https://verbit.ai/blog/accessibility-hub/web-accessibility-for-people-with-hearing-loss-a-comprehensive-guide",
-        "https://www.britishdeafnews.co.uk/in-the-news",
-        "https://inclusiveasl.com/accessibility/top-digital-accessibility-trends-to-watch-in-2026",
-        "https://www.microassist.com/digital-access/news",
-        "https://deafandhoh.com/category/news",
-        "https://about.att.com/sites/accessibility/stories/2024-accessibility-highlights.html",
-        "https://www.sciencedaily.com/news/health_medicine/hearing_loss",
-        "https://www.wired.com/tag/accessibility",
-        "https://link.springer.com/chapter/10.1007/978-3-031-62849-8_1",
-        "https://www.lumar.io/blog/a11y-industry-news/digital-accessibility-news-february-2025",
-        "https://www.mdpi.com/1424-8220/23/6/2968"
-      ],
-      "date": "2026-09-14T05:31:51.295990+00:00"
-    },
-    {
       "title": "Meta Switches From Open‑Source Llama to Proprietary Muse Spark Model",
       "urls": [
         "https://yabs.yandex.ru/count/WgqejI_zOoVX2Lcf0lqK05DcaIcSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDlBZc4F2MS0QXXJwVovqzs-_SUSEThz_nUiCTBZJFSQVpwRIZHTQVwX2IaGqaQzBHqf7HaGzL0slHpn6IDUddQEd8wAW4aH7IDKIHjOIC8kgG2H94Ha58rYGRHaX0JpjWoYO7D1AeaQ6BqfiGewfWqXXq79S5XCj-nzubUtO7nTM4WB6d0iNOLCMqzG8ZO8p3pcxDaT3AM1i1OoKYPcCc0b4uaZMGHME0BnOzFhNJ-PJcTlJ6e_WDnPzJPpvzuiywV-AsRJ-dKMZqdkPIUmKEbaRIQkj3B8HBaXil1DcaS8yEv_CDautNSsrsxmHm0pY03LmT9aoIRDZwEi9zJeEusGIhgzMmDvjWTRKQjXreqD9iVGQjpv2DKHmyrCNcYiHLOT1wfz9Ve8Fm62PSOCEbTBqgBAWmEGjR2pjexWuiCriwxEOAc89vZn7x6Dt3c2b0mP0pm8ZnCvYl15PkLp6Q2J6OBgw1Xi2HgOTSKyzpcrpFRUx-DteYFC0__CLSO1jOx_VQm7e_r_VGCl_zYxd0Nxi4xD7uiql07erCSymGPfcvzFefJRvvkwxhEcsMsV94BujkRD9ZNqUuptdpikpBNeYshyoF9V3WdJQz3yz_GoWpSWJBRsbTrnNBZ1p1yje9NlTFjZ0D6UBbov338nii21aWo75W02YEkLAfL8P0ncFENdQLl-VE0lmqP1W27FpAM_rwrQEVBW36mp08GxXG2MHu_LvqMMAKNw5Gqa9GSA3fl2qr1OHmzhU0DvhdEXF4Y7FuhuAV1_GWc-CaPWVuUkh4_v2zkT3XqPayJ0SsXja6Alu7~2",
@@ -13308,7 +13275,17 @@
         "https://blog.buildfastwithai.com/ai-news-today-june-2-2026"
       ],
       "date": "2026-09-24T05:01:41.640853+00:00"
+    },
+    {
+      "title": "Minnesota Department of Education Publishes Comprehensive Assistive Technology Guide for Blind Students",
+      "urls": [
+        "https://education.mn.gov/mdeprod/groups/educ/documents/structure/cm9k/mdk3/~edisp/prod097501.pdf",
+        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
+        "https://www.blind.msstate.edu/news/newsletters/2026/summer-2026-quarterly-connections-news-nrtc",
+        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products"
+      ],
+      "date": "2026-09-24T05:32:27.022388+00:00"
     }
   ],
-  "lastUpdated": "2026-09-24T05:01:41.640911+00:00"
+  "lastUpdated": "2026-09-24T05:32:27.022468+00:00"
 }
