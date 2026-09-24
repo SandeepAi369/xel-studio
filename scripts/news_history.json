@@ -1,52 +1,6 @@
 {
   "entries": [
     {
-      "title": "BharatGPT Launches Nationwide Generative AI Service Backed by Reliance to Boost Indian Language Tech",
-      "urls": [
-        "https://bharatgpt.ai",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-chatgpt-ads-in-india/articleshow/133557730.cms",
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/openai-to-roll-out-chatgpt-ads-in-india-from-september-4/133561599",
-        "https://www.opensourceindia.in/track-schedule",
-        "https://analyticsindiamag.com/it-services/bharatgpt-aims-to-become-meta-of-indic-llms",
-        "https://www.linkedin.com/posts/responsible-ai-institute_indian-ai-startup-makes-european-breakthrough-activity-7353804480699682818-ZKgM",
-        "https://dev.events/AS/IN/oss",
-        "https://shweta1127.github.io/blogs/oss-india-2026.html",
-        "https://www.theiotacademy.co/blog/bharatgpt",
-        "https://entrepreneur.economictimes.indiatimes.com/news/openai-launches-chatgpt-ads-in-india-with-over-50-brands-set-to-go-live/133556102",
-        "https://www.opensourceforu.com/2026/04/india-hits-27m-on-github-leads-global-open-source-surge",
-        "https://osd.opensourceweekend.org",
-        "https://aitechnews.in/bharatgpt-and-hanooman-ai",
-        "https://www.callmissed.com/blog/india-s-public-ai-stack-bharatgpt-sarvam-krutrim-unveiling-the-nation-s-ai-ambit",
-        "https://economictimes.indiatimes.com/topic/bharatgpt",
-        "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence",
-        "https://corover.ai/products/bharatgpt",
-        "https://openai.com/index/openai-for-india",
-        "https://dev.to/go_learnsap_5ab6ad5074d7/indian-alternatives-to-chatgpt-the-best-sovereign-ai-models-built-in-bharat-2026-39hg",
-        "https://github.com/Anvesh-21/BharatGPT",
-        "https://analyticsindiamag.com/ai-trends/18-most-downloaded-open-source-indian-ai-models",
-        "https://www.opensourceindia.in/updates",
-        "https://www.youtube.com/watch?v=D0-OSsh2ofA",
-        "https://indianexpress.com/article/explained/explained-sci-tech/bharatgpt-creator-explains-india-ai-prospects-10536549",
-        "https://opensource.org/blog/category/news",
-        "https://timesofindia.indiatimes.com/india/coroverai-unveils-bharatgpt-indias-first-indigenous-generative-ai-llm/articleshow/106888408.cms",
-        "https://analyticsindiamag.com/ai-features/bharatgpt-neysa-lay-out-indias-strong-push-for-ai-independence",
-        "https://www.opensourceindia.in/programme",
-        "https://government.economictimes.indiatimes.com/news/technology/indias-first-indigenous-genai-bharatgpt-unveiled/106899694",
-        "https://www.thebharatbiz.com/news-detail/bharatgpt-indias-indigenous-ai-engine-set-to-transform-the-nation",
-        "https://theaitoolsbox.com/blog/bharatgpt-2026"
-      ],
-      "date": "2026-09-14T23:02:05.972384+00:00"
-    },
-    {
-      "title": "MIT Showcases New Wearable Sensor That Tracks Glucose and Heart Rhythm",
-      "urls": [
-        "https://news.mit.edu/topic/medical-devices",
-        "https://www.npr.org/sections/science",
-        "https://jamanetwork.com/channels/medical-news"
-      ],
-      "date": "2026-09-14T23:31:32.175226+00:00"
-    },
-    {
       "title": "India Expands Semiconductor Strategy Beyond Fabs With Rs 128,000 Crore Semicon 2.0 Plan",
       "urls": [
         "https://finance.yahoo.com/technology/articles/india-approves-19-7-billion-183353106.html",
@@ -13143,7 +13097,21 @@
         "https://lwn.net/Articles/1003479"
       ],
       "date": "2026-09-24T23:01:54.213213+00:00"
+    },
+    {
+      "title": "Maharashtra Surpasses 74 Million ABHA Accounts, Boosting Digital Health Coverage",
+      "urls": [
+        "https://www.thehawk.in/news/economy-and-business/india-strengthening-public-health-systems-through-ayushman-bharat-digital-health-push-health-secretary",
+        "https://english.dainikjagranmpcg.com/top-stories/india-highlights-ayushman-bharat-digital-health-and-sickle-cell-mission/article-32925",
+        "https://archive.is/0D7yu",
+        "https://www.msn.com/en-in/news/other/ayushman-bharat-globally-number-one-in-hospital-admissions-bjp/ar-AA2cNRJ5?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/india-highlights-progress-on-universal-health-coverage-hepatitis-elimination-and-sickle-cell-care-at-unga81/ar-AA2cUGQO?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/punya-salila-srivastava-discusses-indias-public-health-initiatives-at-harvard-th-chan-school/ar-AA2cOhMC?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/health/mindandbody/maharashtra-hits-milestone-with-over-74-million-abha-health-accounts/ar-AA2bpVvM?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/health/general/record-savings-on-medical-expenses-under-ayushman-bharat-pm-modi/ar-AA2cO63E?ocid=BingNewsVerp"
+      ],
+      "date": "2026-09-24T23:33:24.383231+00:00"
     }
   ],
-  "lastUpdated": "2026-09-24T23:01:54.213300+00:00"
+  "lastUpdated": "2026-09-24T23:33:24.383329+00:00"
 }
