@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux News Landscape Shows Six Dedicated Outlets Expanding Community Coverage",
-      "urls": [
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-37-2026-september-7-13",
-        "https://9to5linux.com/9to5linux-weekly-roundup-september-13th-2026",
-        "https://news.tuxmachines.org/n/2026/09/13/GNU_Linux_Leftovers.shtml",
-        "https://news.tuxmachines.org/n/2026/09/13/9to5Linux_Weekly_Roundup_September_13th_2026.shtml",
-        "https://www.linuxjournal.com/news",
-        "https://www.thelinuxreport.com",
-        "https://mjtsai.com/blog/2024/04"
-      ],
-      "date": "2026-09-14T02:02:10.507051+00:00"
-    },
-    {
       "title": "World Economic Forum Highlights AI Boost to Diagnostics and Early Detection",
       "urls": [
         "https://www.healthcareitnews.com/video/overarching-importance-ai-governance-and-risk",
@@ -13336,7 +13323,32 @@
         "https://www.ifaw.org/press-releases/280-global-scientists-unite-urgent-need-wildlife-protection-climate"
       ],
       "date": "2026-09-24T01:32:03.636296+00:00"
+    },
+    {
+      "title": "Qualcomm Acquires PickNik to Accelerate Open Robotics and Physical AI Capabilities",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1q2xi2g/state_of_ai_jan_2026_the_start_of_the_agentic_era",
+        "https://blog.mean.ceo/open-source-ai-news-september-2026",
+        "https://swadeshisync.com/ai-news-till-3rd-september-2026",
+        "https://artificialintelligenceherald.com/ai-news-today",
+        "https://www.facebook.com/TecMint/posts/april-2026-has-been-the-biggest-month-for-open-source-ai-models-everseven-major-/1415119907312260",
+        "https://pricepertoken.com/news",
+        "https://www.marketscreener.com/news/qualcomm-incorporated-to-acquire-picknik-to-advance-the-future-of-open-robotics-and-physical-ai-ce785ad9dc8bf522",
+        "https://www.marketscreener.com/news/anthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say-ce785adade88f620",
+        "https://www.marketscreener.com/news/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ce785bd8dd80f32d",
+        "https://www.newsday.com/business/nvidia-hugging-face-ai-e84002",
+        "https://www.thundercompute.com/blog/best-open-source-llms",
+        "https://www.digitalapplied.com/blog/most-downloaded-open-ai-models-hugging-face-september-2026",
+        "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "https://techcrunch.com/category/artificial-intelligence",
+        "https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025",
+        "https://www.promptzone.com/ai-model-releases",
+        "https://github.com/trending",
+        "https://hakia.com/tech-insights/open-source-ai-ecosystem",
+        "https://deepmind.google/blog"
+      ],
+      "date": "2026-09-24T02:02:15.086527+00:00"
     }
   ],
-  "lastUpdated": "2026-09-24T01:32:03.636374+00:00"
+  "lastUpdated": "2026-09-24T02:02:15.086629+00:00"
 }
