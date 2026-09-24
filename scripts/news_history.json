@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Columbia University Hosts 'Future of Climate Tech' Event to Explore Innovation, Careers, and Connections",
-      "urls": [
-        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-09-01/monthly",
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://www.energypolicy.columbia.edu/events/the-future-of-climate-tech-innovation-careers-and-connections",
-        "https://www.cleanthesky.com"
-      ],
-      "date": "2026-09-14T22:31:39.284667+00:00"
-    },
-    {
       "title": "BharatGPT Launches Nationwide Generative AI Service Backed by Reliance to Boost Indian Language Tech",
       "urls": [
         "https://bharatgpt.ai",
@@ -13121,7 +13111,39 @@
         "https://www.usgs.gov/tools/latest-earthquakes"
       ],
       "date": "2026-09-24T22:31:37.207499+00:00"
+    },
+    {
+      "title": "OpenSSF Welcomes New Members to Strengthen Open Source Software Security",
+      "urls": [
+        "https://github.com/yaojiejia/agents-radar/issues/185",
+        "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html",
+        "https://llmgateway.io/timeline",
+        "https://www.digitalapplied.com/blog/open-source-ai-model-what-is-actually-released",
+        "https://aireleasetracker.com",
+        "https://www.scriptbyai.com/ai-model-release-calendar",
+        "https://aiagentstore.ai/ai-agent-news/this-week",
+        "https://www.msn.com/en-us/news/other/latest-updates-as-ai-experts-warn-of-imminent-catastrophe/ar-AA2cbvbH?ocid=BingNewsVerp",
+        "https://note.com/ashineko_houston/n/n0a3cc07249d8?hl=en",
+        "https://www.planetpython.org",
+        "https://alobbs.com/post/2026-08-02",
+        "https://alobbs.com/post/2026-08-27",
+        "https://alobbs.com/post/2026-09-16",
+        "https://mariushosting.com/self-hosted-nas-news-september-2026",
+        "https://openssf.org/author/openssf",
+        "https://openssf.org/press-release/2023/09/18/openssf-welcomes-new-members-in-support-of-securing-open-source-software",
+        "https://openssf.org/author/openssf/page/11",
+        "https://appdevelopermagazine.com/search/and",
+        "https://appdevelopermagazine.com/search/ai-development",
+        "https://appdevelopermagazine.com/search/microsoft-visual-studio",
+        "https://www.zinio.com/publications/apc/33473/issues/706679/articles",
+        "https://news.opensuse.org/2026/06/26/when-code-stays-clear-turst-collapses-anyway",
+        "https://nextcloud.com/blog/nextcloud-hub26-summer",
+        "https://www.vixra.org/ai",
+        "https://www.shopware.com/en/news",
+        "https://lwn.net/Articles/1003479"
+      ],
+      "date": "2026-09-24T23:01:54.213213+00:00"
     }
   ],
-  "lastUpdated": "2026-09-24T22:31:37.207570+00:00"
+  "lastUpdated": "2026-09-24T23:01:54.213300+00:00"
 }
