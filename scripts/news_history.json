@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Windows 11 Unveils Enhanced Screen Reader Features to Boost Accessibility for Visually Impaired Users",
-      "urls": [
-        "https://www.pcmag.com/series/accessibility-technology",
-        "https://en.wikipedia.org/wiki/Screen_reader",
-        "https://doubletaponair.com",
-        "https://www.skynettechnologies.com/blog/top-screen-reader-tools-online",
-        "https://www.techassistantforblind.com/blog/list-of-top-10-screen-readers-available-for-windows-mac-linux-and-more",
-        "https://www.afb.org/blindness-and-low-vision/using-technology/cell-phones-tablets-mobile/touchscreen-smartphone",
-        "https://windowsreport.com/screen-reading-software",
-        "https://www.microsoft.com/en-us/windows/learning-center/best-windows-11-features-for-visually-impaired",
-        "https://www.afb.org/aw/22/12/17801",
-        "https://coolblindtech.com",
-        "https://www.browserstack.com/guide/screen-reader-apps"
-      ],
-      "date": "2026-09-15T09:31:35.543258+00:00"
-    },
-    {
       "title": "NVIDIA posted a new entry on its regularly updated official blog, announcing recent work in artificial intelligence and inviting developers",
       "urls": [
         "https://www.reddit.com/r/PromptEngineering/comments/1rv9odx/the_open_source_ai_situation_in_march_2026_is",
@@ -13054,7 +13037,19 @@
         "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability"
       ],
       "date": "2026-09-25T09:31:29.862374+00:00"
+    },
+    {
+      "title": "OpenCV Publishes 2025 Comparative Guide Pitting PyTorch Against TensorFlow for Developers",
+      "urls": [
+        "https://discoverinai.com/ai-frameworks-tensorflow-vs-pytorch-in-2026",
+        "https://opencv.org/pytorch-vs-tensorflow",
+        "https://arxiv.org/abs/2508.04035",
+        "https://blog.tensorflow.org/2022/10/building-the-future-of-tensorflow.html",
+        "https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026",
+        "https://dl.acm.org/doi/10.1145/3705303"
+      ],
+      "date": "2026-09-25T10:01:45.861059+00:00"
     }
   ],
-  "lastUpdated": "2026-09-25T09:31:29.862431+00:00"
+  "lastUpdated": "2026-09-25T10:01:45.861136+00:00"
 }
