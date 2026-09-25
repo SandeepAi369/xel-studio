@@ -1,102 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Telehealth Usage Rises 10 Percent as Mental Health Visits Lead Growth",
-      "urls": [
-        "https://www.youtube.com/watch?v=M7viub_lZRQ",
-        "https://www.youtube.com/watch?v=Gt8w5F5mPKU",
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery",
-        "https://journals.lww.com/iphr/fulltext/2026/01000/telemedicine_and_digital_health__the_future_for.4.aspx",
-        "https://www.fiercehealthcare.com/digital-health",
-        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-09-15-expanding-access-behavioral-healthcare-telehealth",
-        "https://www.techtarget.com/virtualhealthcare/news/366645472/Study-Hospitals-telehealth-scale-indicates-digital-readiness-for-AI",
-        "https://www.fiercehealthcare.com/telehealth/telehealth-utilization-101-nationally-between-q4-2025-and-q1-2026-fair-health-tracker",
-        "https://medicalxpress.com/news/2026-05-telemedicine-grew-boosting-medical-analysis.html",
-        "https://www.mobihealthnews.com/news/mental-health-leads-telehealth-diagnoses-across-age-groups-and-regions",
-        "https://www.morningstar.com/news/pr-newswire/20260616cl84233/qc-healthcare-launches-as-a-healthcare-innovation-holding-company-focused-on-telehealth-clinical-research-pharmacy-services-artificial-intelligence-healthcare-analytics-and-population-health",
-        "https://finance.yahoo.com/news/australia-telehealth-market-trends-forecasts-125300844.html",
-        "https://finance.yahoo.com/sectors/healthcare/articles/telehealth-market-reach-us-1-140100256.html",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/dea-sends-final-telehealth-prescribing-rule-to-white-house-for-review",
-        "https://www.aljazeera.com/news/2026/7/28/how-telehealth-is-helping-close-the-healthcare-gap-in-rural-zimbabwe",
-        "https://www.digitalhealthnews.com/category/telehealth",
-        "https://www.ama-assn.org/practice-management/digital-health/house-bill-would-make-telehealth-changes-permanent",
-        "https://healthcarereaders.com/insights/telehealth-expansion-and-accessibility-trends",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/272-telehealth-companies-to-know-2026",
-        "https://www.forbes.com/sites/brucejapsen/2026/02/03/congress-extends-medicare-telehealth-coverage-for-two-years",
-        "https://www.news-medical.net/condition/Telemedicine",
-        "https://www.mdpi.com/2673-8392/5/4/206",
-        "https://www.foley.com/insights/publications/2025/09/medicare-telehealth-flexibilities-countdown-to-september-30-2025",
-        "https://health.ai/blog/telehealth-2026-virtual-care-changing-healthcare",
-        "https://curogram.com/blog/best-practices/healthcare-technology/healthcare-technology-trends-2026",
-        "https://www.startus-insights.com/innovators-guide/healthcare-industry-trends",
-        "https://telehealth.org/news/may-2025-telehealth-research-roundup-advancing-telemedicine-access-and-implementation"
-      ],
-      "date": "2026-09-15T15:02:20.342741+00:00"
-    },
-    {
-      "title": "China Boosts Humanoid Robot Shipments 300 Percent to 30,000 Units in 2026",
-      "urls": [
-        "https://humanoid.press",
-        "https://www.humanoid.press/humanoid-daily",
-        "https://www.youtube.com/watch?v=6-s6hJynIDc",
-        "https://www.youtube.com/watch?v=nQagKksceuM",
-        "https://www.automate.org/robotics/industry-insights/everyone-was-talking-about-humanoids-and-physical-at-automate-2026",
-        "https://www.globenewswire.com/news-release/2026/09/15/3361805/28124/en/global-humanoid-robots-market-poised-for-expansion-through-2036-as-ai-advances-unlock-opportunities-across-manufacturing-healthcare-and-services.html",
-        "https://blog.robozaps.com/category/news",
-        "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026",
-        "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07",
-        "https://humanoidroboticstechnology.com/category/news",
-        "https://www.facebook.com/bloombergbusiness/videos/humanoid-robots-are-moving-from-silicon-valley-novelty-to-viable-business-modelp/1293662156233993",
-        "https://setr.stanford.edu/sites/default/files/2026-01/SETR2026_08-Robotics_web-260109.pdf",
-        "https://www.forbes.com/sites/johnkoetsier/2026/08/20/humanoid-robot-shipments-up-300-up-to-30000-so-far-in-2026",
-        "https://www.cnbc.com/2026/08/20/unitree-humanoid-robots-chatgpt-moment.html",
-        "https://www.scmp.com/topics/robotics-industry-trends",
-        "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
-        "https://www.msn.com/en-us/news/technology/humanoid-robots-ai-breakthroughs-see-the-latest-innovations-in-action/vi-AA29dE6v?ocid=BingNewsVerp",
-        "https://www.cbsnews.com/news/tau-robotics-humanoid-ai-cleaning-robots-san-francisco",
-        "https://apnews.com/article/china-robot-conference-951ebd3cddaccf5afcedc68174ba626a",
-        "https://mashable.com/tech/world-humanoid-robot-games-2026-running-fall-accident",
-        "https://seekingalpha.com/news/4635625-fast-track-to-the-future-chinas-humanoid-robot-games-goes-mainstream",
-        "https://www.reuters.com/world/asia-pacific/china-robot-makers-flock-beijing-show-seek-path-mass-adoption-2026-08-19",
-        "https://www.msn.com/en-us/news/world/how-long-before-china-is-ready-to-deploy-humanoid-robot-soldiers/ar-AA2aP7Vy?ocid=BingNewsVerp",
-        "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
-        "https://www.nytimes.com/athletic/7546678/2026/09/01/humanoid-robot-games-athletics",
-        "https://www.msn.com/en-us/sports/general/robots-running-into-walls-go-viral-ahead-of-2026-world-humanoid-robot-games/ar-AA2aGqLD?ocid=BingNewsVerp",
-        "https://www.msn.com/en-ca/technology/artificial-intelligence/humanoid-robots-ai-breakthroughs-see-the-latest-innovations-in-action/vi-AA29e2Us?ocid=BingNewsVerp",
-        "https://www.humanoid.press",
-        "https://www.therobotreport.com/robotics-news",
-        "https://theresarobotforthat.com/blog/humanoid-robot-companies-2026-complete-guide",
-        "https://keyirobot.com/blogs/insights/humanoid-robot-updates-2026-latest-news-breakthroughs-and-industry-trends",
-        "https://www.idc.com/resource-center/blog/humanoid-robotics-commercialization-2026",
-        "https://robobrief.tech/blog/humanoid-robots-2026",
-        "https://roboticsandautomationnews.com/2026/02/07/the-state-of-humanoid-robotics-from-research-labs-to-real-world-potential/98732",
-        "https://interestingengineering.com/ai-robotics/9-humanoid-robots-at-ces-2026",
-        "https://www.therobotreport.com/top-10-robotics-developments-march-2026",
-        "https://blog.robozaps.com/b/best-humanoid-robots",
-        "https://roboticsandautomationnews.com/2025/09/08/robotics-survey-highlights-autonomy-digital-twins-humanoids-and-ethics-as-key-2025-trends/94279",
-        "https://www.robotwale.com/news/icra-2026-highlights",
-        "https://robotnewstoday.com",
-        "https://www.analyticsinsight.net/robotics/top-humanoid-robot-companies-to-watch-in-2026",
-        "https://robot24.com",
-        "https://publicdata.online/articles/2026-04-17-humanoid-robot-2026.html",
-        "https://www.humanoidrobots.com",
-        "https://spectrum.ieee.org/topic/robotics/humanoid-robots",
-        "https://www.aparobot.com/articles/humanoid-and-quadruped-robots-in-2025-the-year-robotics-moved-toward-reality",
-        "https://qviro.com/blog/january-2026-humanoid-robot-launches",
-        "https://aifundingtracker.com/top-humanoid-robotics-startups-funded",
-        "https://www.robotics247.com/topic/tag/Humanoid",
-        "https://www.therobotreport.com/top-10-robotics-developments-of-september-2025",
-        "https://www.humanoidhub.ai/news",
-        "https://www.bain.com/insights/humanoid-robots-from-demos-to-deployment-technology-report-2025",
-        "https://roboticsandautomationnews.com/2025/09/23/bain-report-humanoid-robots-still-in-pilot-stage-as-industry-prepares-for-waves-of-adoption/94695",
-        "https://www.businessinsider.com/category/robotics",
-        "https://www.technerdo.com/blog/humanoid-robots-market-2026",
-        "https://www.forbes.com/sites/bernardmarr/2026/06/19/humanoid-robots-18-companies-racing-to-build-the-next-big-thing-in-ai",
-        "https://home.barclays/news/press-releases/20260/01/barclays-research-finds-humanoid-robotics-on-track-to-become-a--"
-      ],
-      "date": "2026-09-15T15:31:43.985313+00:00"
-    },
-    {
       "title": "India Showcases Growing Diplomatic Influence at G20 and BRICS Summits",
       "urls": [
         "https://www.nationalheraldindia.com/opinion/as-brics-2026-begins-india-braces-for-a-diplomatic-minefield",
@@ -13027,7 +12931,19 @@
         "https://histalk2.com/2026/09/23/healthcare-ai-news-9-23-26"
       ],
       "date": "2026-09-25T15:02:06.689054+00:00"
+    },
+    {
+      "title": "Microsoft Google And Anthropic Strengthen AI Security With Massive Bug Fixes And Bio‑Weapon Block",
+      "urls": [
+        "https://www.yahoo.com/news/us/articles/anthropic-reveals-houthi-rebels-used-124634529.html",
+        "https://www.msn.com/en-in/news/other/weekly-ai-cybersecurity-update-microsoft-google-fix-over-1000-bugs-anthropic-blocks-bio-weapons-supporting-ai/ar-AA2c1k3h?ocid=BingNewsVerp",
+        "https://alobbs.com/post/2026-03-02",
+        "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+        "https://minifeed.net/blogs/mlgi96If",
+        "https://www.rappler.com/technology/anthropic-threat-intelligence-report-september-2026"
+      ],
+      "date": "2026-09-25T15:31:55.506693+00:00"
     }
   ],
-  "lastUpdated": "2026-09-25T15:02:06.689156+00:00"
+  "lastUpdated": "2026-09-25T15:31:55.506781+00:00"
 }
