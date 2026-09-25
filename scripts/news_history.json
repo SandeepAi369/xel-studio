@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Unspokenasl Emerges as Sole Entry in Recent Search Results",
-      "urls": [
-        "https://www.youtube.com/watch?v=0wTwTk3RbVM",
-        "https://www.unspokenasl.com/aslblogs/the-evolution-of-assistive-technology-for-deaf-people-how-technology-is-improving-quality-of-life"
-      ],
-      "date": "2026-09-15T17:33:06.518945+00:00"
-    },
-    {
-      "title": "Delhi Air Quality Index Shows Stabilization as Fire Count Collapses and Smog Levels Remain Low",
-      "urls": [
-        "https://www.ndtv.com/topic/air-pollution",
-        "https://www.aqi.in/dashboard/india/delhi",
-        "https://www.indiatoday.in/diu/story/delhi-air-pollution-punjab-crop-fires-fell-93-but-autumn-aqi-stayed-high-2994263-2026-09-14",
-        "https://timesofindia.indiatimes.com/topic/delhi-air-pollution",
-        "https://www.bbc.com/news/articles/c1wj43vqdlpo"
-      ],
-      "date": "2026-09-15T18:01:49.758680+00:00"
-    },
-    {
       "title": "Nvidia Announces $12.9 Billion Acquisition of Hugging Face to Expand AI Model Repository",
       "urls": [
         "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
@@ -13019,7 +13000,29 @@
         "https://www.themobilityresource.com/wheelchair-vans/state/virginia"
       ],
       "date": "2026-09-25T17:31:57.000309+00:00"
+    },
+    {
+      "title": "India Faces Driest Monsoon Since 2009 As El Niño Drives Below‑Normal Rainfall",
+      "urls": [
+        "https://www.msn.com/en-in/weather/general/chennai-weather-forecast-cloudy-skies-and-light-rain-expected-through-september-26/ar-AA2cHdAP?ocid=BingNewsVerp",
+        "https://www.hindustantimes.com/india-news/indias-monsoon-weakens-imd-predicts-below-normal-rain-for-next-two-weeks-weather-update-rain-101787443422832.html",
+        "https://www.msn.com/en-ae/weather/meteorology/el-ni%C3%B1o-puts-india-on-track-for-its-driest-monsoon-since-2009/ar-AA2ct8df?ocid=BingNewsVerp",
+        "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+        "https://mausam.imd.gov.in/responsive/monsooninformation.php",
+        "https://internal.imd.gov.in/pages/press_release_mausam.php",
+        "https://www.easeweather.com/asia/india/september",
+        "https://www.aljazeera.com/news/2026/6/23/india-prepares-contingency-plans-due-to-weak-monsoon-season",
+        "https://mausam.imd.gov.in/responsive/seasonal_forecast.php",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2266479&reg=3&lang=1",
+        "https://mausam.imd.gov.in/responsive/monsooninformation_withdrawal.php",
+        "https://www.downtoearth.org.in/climate-change/monsoon-2026-has-arrived-but-indias-rain-season-begins-under-el-ni%C3%B1o-shadow",
+        "https://www.reuters.com/business/environment/india-expected-have-below-average-monsoon-rains-2026-weather-office-says-2026-05-29",
+        "https://www.skymetweather.com/content/monsoon-update/monsoon-2026-september-forecast-india-strong-deficit-signal-as-withdrawal-begins-south-india-will-get-limited-relief",
+        "https://indianexpress.com/article/explained/explained-climate/india-extreme-rainfall-risk-monsoon-2026-forecast-10656567",
+        "https://www.indiawaterportal.org/climate-change/climate/indias-monsoon-forecast-2026-highlights-need-for-smarter-agriculture-and-water-planning"
+      ],
+      "date": "2026-09-25T18:01:51.423946+00:00"
     }
   ],
-  "lastUpdated": "2026-09-25T17:31:57.000375+00:00"
+  "lastUpdated": "2026-09-25T18:01:51.424052+00:00"
 }
