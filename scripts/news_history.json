@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Community Explores Future Trends In 2026 Through Multiple Expert Videos",
-      "urls": [
-        "https://www.youtube.com/watch?v=YninmoBDTRU",
-        "https://www.youtube.com/watch?v=jLNSGyWfrlg",
-        "https://www.youtube.com/watch?v=RN-WD3CmMP0",
-        "https://www.youtube.com/watch?v=PT8emqAIl7Y",
-        "https://www.youtube.com/watch?v=x4fxvXoA5hk",
-        "https://www.youtube.com/watch?v=NKPMDddHbSQ",
-        "https://linuxiac.com",
-        "https://lxer.com",
-        "https://lwn.net",
-        "https://www.ghacks.net/category/linux",
-        "https://www.linuxinsider.com",
-        "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html",
-        "https://itsfoss.com",
-        "https://www.phoronix.com",
-        "https://linuxlap.com/category/news",
-        "https://www.linux.com",
-        "https://techonlinuxstuff.wordpress.com/2026/09/14/this-week-in-open-source-september-13-2026-news-updates-you-missed",
-        "https://techonlinuxstuff.wordpress.com/2026/08/23/this-week-in-open-source-august-23-2026-news-updates-you-missed",
-        "https://distrowatch.com/weekly.php?issue=current",
-        "https://www.linux.org",
-        "https://slashdot.org"
-      ],
-      "date": "2026-09-16T18:31:41.730897+00:00"
-    },
-    {
       "title": "Sidebench.com Leads Search Results While LinkedIn, AI Indigo, and NYTimes Follow",
       "urls": [
         "https://sidebench.com/ai-healthcare-future-holds",
@@ -13021,7 +12994,16 @@
         "https://alpexsolar.com/resources/blog/future-of-solar-energy-india-2026"
       ],
       "date": "2026-09-26T18:02:06.812195+00:00"
+    },
+    {
+      "title": "Tux Machines Publishes Two Consecutive Articles on Free Software and Open Standards",
+      "urls": [
+        "https://news.tuxmachines.org/n/2026/09/22/Free_and_Open_Source_Software.shtml",
+        "https://news.tuxmachines.org/n/2026/09/21/Free_Libre_and_Open_Source_Software_and_Standards.shtml",
+        "https://www.linuxfoundation.org/press"
+      ],
+      "date": "2026-09-26T18:31:51.838884+00:00"
     }
   ],
-  "lastUpdated": "2026-09-26T18:02:06.812272+00:00"
+  "lastUpdated": "2026-09-26T18:31:51.839021+00:00"
 }
