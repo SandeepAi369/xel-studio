@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Releases Comprehensive Model Overview, Supporting Cloud to Edge Deployments",
-      "urls": [
-        "https://docs.mistral.ai/models",
-        "https://mistral.ai/models"
-      ],
-      "date": "2026-09-16T05:01:50.476838+00:00"
-    },
-    {
       "title": "Autism Speaks issued a news release emphasizing that the CDC figure has remained steady over recent monitoring periods and urging",
       "urls": [
         "https://jadefarrington.substack.com/p/neurodiversity-newsletter-september-b22",
@@ -13027,7 +13019,32 @@
         "https://www.aiworldtoday.net/p/the-ai-sporting-edge-top-10-ai-innovations"
       ],
       "date": "2026-09-26T04:32:03.457421+00:00"
+    },
+    {
+      "title": "Nvidia Invests $13 Billion in Hugging Face Deal to Shape Open AI Model Market",
+      "urls": [
+        "https://github.com/kouweizhu/agents-radar/issues/210",
+        "https://github.com/stevenko2002/agents-radar/issues/1336",
+        "https://github.com/xavier9802/agents-radar/issues/626",
+        "https://github.com/stevenko2002/agents-radar/issues/1388",
+        "https://github.com/kakapez/agents-radar/issues/1592",
+        "https://github.com/THTHDGCS/agents-radar/issues/1006",
+        "https://opentools.ai/news/tags/hugging-face",
+        "https://huggingface.co/blog",
+        "https://www.spokesman.com/stories/2026/sep/03/nvidia-bets-13-billion-on-open-ai-models-with-hugg",
+        "https://github.com/yaojiejia/agents-radar/issues/201",
+        "https://fortune.com/2026/07/22/openai-models-accidentally-compromised-hugging-face",
+        "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+        "https://www.msn.com/en-ca/news/other/nvidia-bets-13-billion-on-open-ai-models-with-hugging-face-deal/ar-AA2bwgjT?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/technology/artificial-intelligence/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidia-s-eye/ar-AA2b0oiU?ocid=BingNewsVerp",
+        "https://www.businessinsider.com/hugging-face-nvidia-deal-reshape-ai-landscape-2026-8",
+        "https://www.techrepublic.com/article/news-nvidia-hugging-face-12-9-b-deal",
+        "https://www.msn.com/en-us/news/other/the-openai-hugging-face-hack-was-just-the-beginning-experts-say/ar-AA2bXioj?ocid=BingNewsVerp",
+        "https://www.nextplatform.com/ai/2026/09/03/nvidia-expands-its-open-source-ai-presence-with-129-billion-hugging-face-buy/5294352",
+        "https://tearsheet.co/10-q/nvidia-bought-hugging-face-what-happens-to-banks-when-ai-models-become-open"
+      ],
+      "date": "2026-09-26T05:02:09.097012+00:00"
     }
   ],
-  "lastUpdated": "2026-09-26T04:32:03.457510+00:00"
+  "lastUpdated": "2026-09-26T05:02:09.097084+00:00"
 }
