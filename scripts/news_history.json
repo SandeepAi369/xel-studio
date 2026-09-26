@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "NatureServe Highlights Limited Options for Biodiversity Conservation in Agriculture and Forestry",
-      "urls": [
-        "https://www.natureserve.org/news-releases",
-        "https://phys.org/news/2026-08-biodiversity-agriculture-forestry-high-options.html"
-      ],
-      "date": "2026-09-16T14:01:57.422232+00:00"
-    },
-    {
       "title": "Hugging Face Publishes Summer 2026 Open Model Report Highlighting Qwen Dominance",
       "urls": [
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
@@ -13106,7 +13098,16 @@
         "https://www.iitk.ac.in/see/news"
       ],
       "date": "2026-09-26T14:01:47.937761+00:00"
+    },
+    {
+      "title": "Greennode AI Highlights Top Open-Source Platforms for 2026 in Comprehensive Blog Review",
+      "urls": [
+        "https://greennode.ai/blog/best-open-source-ai-platforms",
+        "https://www.spheron.network/blog/cuda-news-today-nvidia-toolkit-amd-rocm-ai-frameworks-2026",
+        "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026"
+      ],
+      "date": "2026-09-26T14:31:35.813464+00:00"
     }
   ],
-  "lastUpdated": "2026-09-26T14:01:47.937867+00:00"
+  "lastUpdated": "2026-09-26T14:31:35.813562+00:00"
 }
