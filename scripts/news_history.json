@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Investopedia Listed As Sole Search Result With No Additional Details Provided",
-      "urls": [
-        "https://www.investopedia.com/tech-earnings-live-stocks-msft-meta-tsla-aapl-ibm-01292026-11895205"
-      ],
-      "date": "2026-09-17T13:01:52.162116+00:00"
-    },
-    {
       "title": "PubMed Central Editorial Highlights Emerging Technologies for Autism Diagnosis and Therapy",
       "urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10646608",
@@ -12936,7 +12929,15 @@
         "https://www.thescore.com/nfl/news/3435119/26-stories-were-most-excited-about-for-2026-part-1"
       ],
       "date": "2026-09-27T12:31:41.964356+00:00"
+    },
+    {
+      "title": "All India Institutes of Medical Sciences Expand Training Capacity to Strengthen National Healthcare",
+      "urls": [
+        "https://en.wikipedia.org/wiki/All_India_Institutes_of_Medical_Sciences",
+        "https://theindianpractitioner.com/aiims-institutions-unite-to-form-pan-india-research-consortium"
+      ],
+      "date": "2026-09-27T13:02:09.554216+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T12:31:41.964434+00:00"
+  "lastUpdated": "2026-09-27T13:02:09.554300+00:00"
 }
