@@ -1,39 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Development Programme Highlights AI As Game Changer For Disability Inclusion",
-      "urls": [
-        "https://www.youtube.com/watch?v=Hqk3C6JadnY",
-        "https://nextgenday.com/153",
-        "https://news.un.org/en/story/2025/10/1166082",
-        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
-        "https://www.undp.org/uzbekistan/blog/ai-revolution-it-game-changer-disability-inclusion",
-        "https://www.disabilitydebrief.org/library/topic-digitalai",
-        "https://link.springer.com/content/pdf/10.1007/978-981-96-6069-8.pdf",
-        "https://cehd.gmu.edu/features/2026/02/26/how-artificial-intelligence-is-enhancing-assistive-technology-to-help-students",
-        "https://www.bbc.com/news/articles/cz7pdy3yq3qo",
-        "https://www.linkedin.com/pulse/five-accessibility-trends-watch-2026-sheri-byrne-haber-disabled--pvrke",
-        "https://rbj.net/2026/09/03/arc-ontario-ai-vr-employment-people-disabilities",
-        "https://www.eweek.com/news/ai-robotic-arm-new-zealand-apac",
-        "https://www.msn.com/en-gb/technology/artificial-intelligence/ai-regulation-and-disability-discrimination/ar-AA29fhPB?ocid=BingNewsVerp",
-        "https://www.amestrib.com/story/news/technology/2026/07/29/how-ama-ai-helps-autistic-children-navigate-school-and-daily-life-ames-ieda-grant-100k/91023115007",
-        "https://copilot.microsoft.com",
-        "https://www.meta.ai",
-        "https://deepai.org/chat"
-      ],
-      "date": "2026-09-17T09:31:36.226631+00:00"
-    },
-    {
-      "title": "Google Highlights Open Source Initiative Amid Growing Developer Community Interest",
-      "urls": [
-        "https://opensource.googleblog.com/2026",
-        "https://www.linuxjournal.com/content/looking-ahead-what-2026-holds-linux-ecosystem",
-        "https://www.linux-magazine.com/Online/News",
-        "https://en.wikipedia.org/wiki/Online_newspaper"
-      ],
-      "date": "2026-09-17T10:01:43.142080+00:00"
-    },
-    {
       "title": "Lake Energy Secures $80 Million to Accelerate U.S. Renewable Power Expansion",
       "urls": [
         "https://finance.yahoo.com/energy/articles/lake-energy-reaches-key-growth-034000122.html",
@@ -12941,7 +12908,28 @@
         "https://projects.research-and-innovation.ec.europa.eu/en/horizon-magazine/smart-tech-gives-new-spin-classic-wheelchair"
       ],
       "date": "2026-09-27T09:31:31.140609+00:00"
+    },
+    {
+      "title": "Spheron – In a 2026 blog entry, Spheron compared PyTorch and TensorFlow, evaluating factors such as ease of use, community",
+      "urls": [
+        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
+        "https://www.sofrik.com/5-powerful-ways-of-pytorch-and-tensorflow-in-2026",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://alitech.io/blog/comparative-analysis-of-open-source-ai-frameworks",
+        "https://pytorch.org/announcements",
+        "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china",
+        "https://heytensor.com/research/ml-framework-comparison-2026.html",
+        "https://www.techtarget.com/searchEnterpriseAI/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning",
+        "https://pytorch.org/blog/pytorch-foundation-in-2025-a-year-in-review",
+        "https://northflank.com/blog/tensorflow-alternatives",
+        "https://newsroom.arm.com/news/pytorch-kleidi-integrations-cloud-to-edge",
+        "https://www.analyticsinsight.net/machine-learning/best-ai-frameworks-for-enterprise-machine-learning-models-in-2026",
+        "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+        "https://ai.meta.com/tools/pytorch",
+        "https://apxml.com/posts/is-tensorflow-still-relevant"
+      ],
+      "date": "2026-09-27T10:01:49.665251+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T09:31:31.140710+00:00"
+  "lastUpdated": "2026-09-27T10:01:49.665329+00:00"
 }
