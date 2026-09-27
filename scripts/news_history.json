@@ -1,66 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lake Energy Secures $80 Million to Accelerate U.S. Renewable Power Expansion",
-      "urls": [
-        "https://finance.yahoo.com/energy/articles/lake-energy-reaches-key-growth-034000122.html",
-        "https://finance.yahoo.com/energy/articles/lake-energy-secures-80-million-101200993.html",
-        "https://renewablesnow.com/news/brazil-adds-1-9-gw-of-renewables-capacity-in-august-2026-1301203",
-        "https://www.thebusinessdesk.com/yorkshire/news/2160281-561m-renewable-energy-portfolio-acquisition-completed",
-        "https://www.usatoday.com/press-release/story/43158/krd-renewables-marks-15-years-amid-rapid-growth-in-polands-energy-storage-market",
-        "https://www.msn.com/en-us/money/general/renewable-energy-battery-stocks-to-buy-amid-global-warming-woes/ar-AA2c2cg6?ocid=BingNewsVerp",
-        "https://www.washingtonpost.com/business/2026/09/16/renewable-energy-wind-egypt-nigeria-katsina-china/e1da4828-b18d-11f1-92c2-5c918f4a6127_story.html",
-        "https://www.tennessean.com/press-release/story/232953/juwi-inc-announces-commercial-operation-of-145-mw-axial-basin-solar-project",
-        "https://www.msn.com/en-ae/news/other/masdar-taaleri-energia-inaugurate-154mw-%C4%8Dibuk-2-wind-project-in-serbia/ar-AA2ccHfG?ocid=BingNewsVerp",
-        "https://uk.finance.yahoo.com/news/energy-transition-today-alternative-energy-113713565.html",
-        "https://freepress.org/article/solar-news-week-september-13-2026",
-        "https://www.canarymedia.com/newsletters/todays-headlines-a-renewables-record-on-the-horizon-vineyard-wind-starts-selling-power-and-more",
-        "https://windenergy.einnews.com",
-        "https://www.eia.gov/todayinenergy/index.php?tg=+solar",
-        "https://renewablesnow.com/news/wind",
-        "https://solartoday.mydigitalpublication.com/publication?i=866475&article_id=5170026&view=articleBrowser",
-        "https://www.newsnow.co.uk/h/Industry+Sectors/Energy+and+Utilities/Renewable+Energy",
-        "https://www.akdart.com/re.html",
-        "https://iac.gatech.edu/publications/pubFile/1444",
-        "https://landartgenerator.org/blagi/archives/77565",
-        "https://ens.dk/media/5412/download",
-        "https://watttime.org/news-and-insights/comms_category/insights",
-        "https://watttime.org/news-and-insights/solution_matches/impact-accounting",
-        "https://watttime.org/news-and-insights/solution_matches/emissionality",
-        "https://economics.mit.edu/sites/default/files/2022-09/The%20Future%20of%20Energy%20Storage%20An%20Interdisciplinary%20MIT%20Study.pdf",
-        "https://www.morningstaronline.co.uk/article/chinas-energy-transition-world-historical-breakthrough",
-        "https://www.democracynow.org/2025/9/10/bill_mckibben",
-        "https://nuclear.foe.org.au/author/jim-green",
-        "https://californianewswire.com/calif-gov-schwarzenegger-celebrates-first-of-its-kind-renewable-energy-facility-groundbreaking",
-        "https://www.zippia.com/advice/renewable-energy-job-creation-statistics",
-        "https://cleanpowerdaily.com",
-        "https://renewablesnow.com/news/solar",
-        "https://www.usnews.com/topics/subjects/renewable_energy",
-        "https://renewablewatch.in",
-        "https://www.greenfueljournal.com/post/renewable-energy-trends-in-2026-key-drivers-growth-forecasts-strategic-outlook"
-      ],
-      "date": "2026-09-17T10:32:08.441379+00:00"
-    },
-    {
-      "title": "World Health Organization Releases Comprehensive Fact Sheet on Global Mental Disorders",
-      "urls": [
-        "https://www.openpr.com/news/4633289/digital-mental-health-market-outlook-signals-expansion",
-        "https://intellivon.com/blogs/mental-health-app-trends",
-        "https://www.heightswellnessretreat.com/blog/categories/wellness/wellness-reimagined-2026-trends-that-will-redefi",
-        "https://www.iciba.com/word?w=mental",
-        "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/mental",
-        "https://baike.baidu.com/item/mental/2255730",
-        "https://en.wikipedia.org/wiki/Mental_health",
-        "https://www.merriam-webster.com/dictionary/mental",
-        "https://dictionary.cambridge.org/dictionary/english/mental",
-        "https://www.cdc.gov/mental-health/about/index.html",
-        "https://en.wikipedia.org/wiki/Mental_disorder",
-        "https://www.collinsdictionary.com/zh/dictionary/english/mental",
-        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders"
-      ],
-      "date": "2026-09-17T11:01:58.793348+00:00"
-    },
-    {
       "title": "ISRO Launches GSLV‑F17 Rocket Carrying EOS‑05 Satellite to Expand Earth Observation Capabilities",
       "urls": [
         "https://www.dw.com/en/india-news-isro-launches-first-imaging-satellite-into-orbit/live-78897037",
@@ -12968,7 +12908,23 @@
         "https://10insightsclimate.science"
       ],
       "date": "2026-09-27T10:31:42.841441+00:00"
+    },
+    {
+      "title": "India Advances Public Health Through Ayushman Bharat Digital Integration Program",
+      "urls": [
+        "https://health.medicaldialogues.in/latest-news/india-strengthening-public-health-systems-through-ayushman-bharat-digital-health-push-health-secretary-180026",
+        "https://www.etvbharat.com/en/health/ayushman-bharat-centre-unveils-digital-tools-for-smarter-claims-and-secure-health-data-enn26092505601",
+        "https://businessnewsthisweek.com/health/india-expands-public-healthcare-network-as-digital-health-gains-ground",
+        "https://www.indiatribune.com/public/india-strengthening-public-health-systems-through-ayushman-bharat-digital-health-push-health-secretary",
+        "https://indianmasterminds.com/news/arogya-manthan-2026-ab-pm-jay-abdm-236915",
+        "https://healthandfamily.in/india-marks-milestones-in-universal-care-as-arogya-manthan-2026-spotlights-digital-health-and-senior-coverage",
+        "https://www.digitalhealthnews.com/five-years-of-abdm-what-india-s-digital-health-mission-has-actually-built",
+        "https://www.mohfw.gov.in?q=en%2Fpressrelease-147",
+        "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2059537",
+        "https://vohnetwork.com/voh-exclusives/editorials/inside-indias-ayushman-bharat-digital-mission-the-backbone-of-a-connected-healthcare-future"
+      ],
+      "date": "2026-09-27T11:02:05.077059+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T10:31:42.841565+00:00"
+  "lastUpdated": "2026-09-27T11:02:05.077163+00:00"
 }
