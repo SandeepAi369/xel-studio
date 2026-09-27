@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "title": "WordPress Faces High Severity Vulnerabilities as Fake OAuth IDs Bypass Sign‑In Logs",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1r14bqk/i_benchmarked_the_newest_40_ai_models_feb_2026",
-        "https://www.reddit.com/r/LLM/comments/1pi8g9w/best_open_models_in_december_2025",
-        "https://www.llm-releases.com",
-        "https://www.infoq.com/llms/news",
-        "https://llm-explorer.com/static/llm-news",
-        "https://www.llmrumors.com/news",
-        "https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows",
-        "https://www.barchart.com/story/news/36784474/zai-opensources-glm47-a-new-generation-large-language-model-built-for-real-development-workflows",
-        "https://www.promptquorum.com/local-llms/local-llm-model-updates-2026",
-        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-        "https://en.wikipedia.org/wiki/Microsoft_Copilot",
-        "https://markmcneilly.substack.com/p/the-new-news-in-ai-12725edition",
-        "https://markmcneilly.substack.com/p/the-new-news-in-ai-72125-edition",
-        "https://mooz.github.io",
-        "https://imperialcollegelondon.github.io/rs-community-newsletters/2025/2025-11.html",
-        "https://suzymchale.neocities.org/journal/journal2023",
-        "https://simonw.substack.com/p/two-new-showboat-tools-chartroom",
-        "https://zanshin.github.io/readingList",
-        "https://colineberhardt.github.io",
-        "https://alobbs.com/post/2026-08-10",
-        "https://alobbs.com/post/2026-08-20",
-        "https://alobbs.com/post/2026-09-14",
-        "https://alobbs.com/post/2026-08-11",
-        "https://www.helpnetsecurity.com/2026/07/19/week-in-review-oauth-client-ids-spoofed-sonicwall-sma-appliances-targeted-in-zero-day-attacks",
-        "https://www.bythom.com/newsviews/drop-into-fall.html",
-        "https://lifearchitect.substack.com/p/the-memo-5jul2024",
-        "https://lifearchitect.substack.com/p/the-memo-12apr2025",
-        "https://www.qbittorrent.org/news",
-        "https://nextcloud.com/blog/nextcloud-office-powered-by-euro-office-collabora-thinkfree-office",
-        "https://nextcloud.com/blog/nextcloud-hub-european-microsoft-365-google-workspace-alternative",
-        "https://stgiga.github.io/UnifontEX",
-        "https://unixbhaskar.wordpress.com/page/22"
-      ],
-      "date": "2026-09-17T05:02:24.216249+00:00"
-    },
-    {
       "title": "Maumee Tech House Expands Hands‑On Access to Assistive Devices for People With Disabilities",
       "urls": [
         "https://www.13abc.com/2026/07/20/maumee-nonprofit-tech-house-gives-people-with-disabilities-hands-on-access-assistive-equipment",
@@ -12888,7 +12850,33 @@
         "https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai"
       ],
       "date": "2026-09-27T05:02:09.067888+00:00"
+    },
+    {
+      "title": "ACM Survey Highlights Recent Innovations and Challenges in Visual Assistive Technologies",
+      "urls": [
+        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
+        "https://www.sciencedirect.com/science/article/pii/S2590137022001583",
+        "https://dl.acm.org/doi/10.1145/3733155.3734895",
+        "https://www.teachingvisuallyimpaired.com/vi-assistive-technology.html",
+        "https://afb.org/blindness-and-low-vision/using-technology",
+        "https://www.perkins.org/paths-to-technology",
+        "https://www.webability.io/blog/assistive-technology-for-blind-and-visually-impaired",
+        "https://www.qiat.org/docs/resourcebank/TEBO_VI_Resource_Guide.pdf",
+        "https://www.msn.com/en-us/money/general/new-school-for-visually-impaired-students-opening-in-tucson/ar-AA24X6wK?ocid=BingNewsVerp",
+        "https://www.sciencedirect.com/science/article/pii/S0925231224010555",
+        "https://lowvisionaids.org/blog/new-technology-for-visually-impaired",
+        "https://www.tandfonline.com/doi/pdf/10.1080/10400435.2025.2485854",
+        "https://arxiv.org/abs/2505.14298",
+        "https://unsdg.un.org/latest/stories/assistive-technology-can-revolutionize-development-learning-and-participation-it%E2%80%99s",
+        "https://connsensereport.com/2025/03/16/the-envision-ultimate-guide-to-the-best-assistive-technology-for-people-who-are-blind-or-have-low-vision-in-2025",
+        "https://newswatchtv.com/2025/05/14/tech-assistive-technology-trends-2025",
+        "https://www.ijcaonline.org/archives/volume186/number67/filipova-2025-ijca-924481.pdf",
+        "https://nelowvision.com/wp-content/uploads/2025/07/How-to-Use-Assistive-Technology-in-the-Classroom-for-Enhanced-Student-Learning.pdf",
+        "https://arxiv.org/pdf/2503.15494",
+        "https://www.devdiscourse.com/article/technology/3500751-new-assistive-tech-merges-ai-and-mobility-to-empower-visually-impaired-users"
+      ],
+      "date": "2026-09-27T05:31:33.708554+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T05:02:09.067954+00:00"
+  "lastUpdated": "2026-09-27T05:31:33.708628+00:00"
 }
