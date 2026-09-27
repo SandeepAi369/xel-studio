@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Accelerates EV Adoption With State Subsidies And Production Incentives",
-      "urls": [
-        "https://thetechjournal.in/why-india-government-is-promoting-ev-vehicles-in-2026",
-        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294688&reg=48&lang=1",
-        "https://www.msn.com/en-in/money/general/india-s-power-electronics-industry-is-booming-driven-by-advancements-in-electric-vehicles-and-renewable-energy-technologies/ar-AA2aEEai?ocid=BingNewsVerp",
-        "https://www.business-standard.com/topic/electric-vehicles-in-india",
-        "https://auto.economictimes.indiatimes.com/news/industry/indias-ev-market-enters-scale-up-phase-but-key-challenges-remain/133955157",
-        "https://ecozaar.in/blog/ev-subsidy-india",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-s-shift-to-electric-vehicles",
-        "https://diyguru.org/guide/india-ev-policies-2025",
-        "https://www.insightsonindia.com/2025/08/06/unlocking-a-200-billion-opportunity-electric-vehicles-in-india-report",
-        "https://www.fortuneindia.com/business-news/indias-ev-moment-why-the-country-is-closer-than-ever-to-mass-electric-vehicle-adoption/125961",
-        "https://www.investindia.gov.in/sector/electric-mobility",
-        "https://www.imarcgroup.com/insight/government-policies-powering-india-electric-car-revolution"
-      ],
-      "date": "2026-09-17T18:01:46.545648+00:00"
-    },
-    {
       "title": "Mistral AI Releases First Open-Source Large Language Model Free on Azure",
       "urls": [
         "https://docs.mistral.ai/getting-started/changelog",
@@ -12968,7 +12950,16 @@
         "https://www.nature.com/nclimate/articles?type=research-briefing"
       ],
       "date": "2026-09-27T18:01:39.539984+00:00"
+    },
+    {
+      "title": "Mistral AI Launches OCR 4 With 170 Languages as Microsoft Funds European Expansion",
+      "urls": [
+        "https://tech-insider.org/mistral-ocr-4-launch-2026",
+        "https://thenextweb.com/news/microsoft-fund-mistral-european-ai-expansion",
+        "https://adtools.org/buyers-guide/ai-news-mistral-large-3-model-release"
+      ],
+      "date": "2026-09-27T18:31:33.526144+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T18:01:39.540055+00:00"
+  "lastUpdated": "2026-09-27T18:31:33.526257+00:00"
 }
