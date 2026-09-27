@@ -12876,7 +12876,19 @@
         "https://www.theguardian.com/sport/world-records"
       ],
       "date": "2026-09-27T04:32:25.748843+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils Open-Weights Speaking Model, Google Cloud Adds Mistral Large 24.11 and Codestral 25",
+      "urls": [
+        "https://www.reddit.com/r/LLM/comments/1uzz0u9/why_do_people_say_llm_token_prices_have_dropped",
+        "https://www.reddit.com/r/MistralAI/comments/1uzrfdx/another_urgent_request_to_get_python_in_work_mode",
+        "https://docs.mistral.ai/models",
+        "https://siliconangle.com/2026/03/26/mistral-releases-open-weights-speaking-ai-model-voxtral-tts",
+        "https://precisionaiacademy.com/blog/open-source-ai-models-guide-2026",
+        "https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai"
+      ],
+      "date": "2026-09-27T05:02:09.067888+00:00"
     }
   ],
-  "lastUpdated": "2026-09-27T04:32:25.748918+00:00"
+  "lastUpdated": "2026-09-27T05:02:09.067954+00:00"
 }
