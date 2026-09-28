@@ -1,50 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Surpasses TensorFlow as Leading Open Source AI Framework, Industry Analysts Say",
-      "urls": [
-        "https://learnprompting.org/blog/open-source-ai-frameworks",
-        "https://www.aussieai.com/research/open-source-frameworks",
-        "https://pytorch.org/blog/2024-year-in-review",
-        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
-        "https://opensourceainews.com",
-        "https://www.freecodecamp.org/news/pytorch-vs-tensorflow-for-deep-learning-projects",
-        "https://github.com/tensorflow/tensorflow",
-        "https://www.tensorflow.org",
-        "https://futurumgroup.com/insights/pytorch-grows-up-open-source-ai-tooling-targets-enterprise-production",
-        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance"
-      ],
-      "date": "2026-09-18T23:02:02.767368+00:00"
-    },
-    {
-      "title": "National Institute of Mental Health Highlights Digital Tools Transforming Future Treatment",
-      "urls": [
-        "https://www.towardshealthcare.com/insights/us-digital-mental-health-market-sizing",
-        "https://www.reddit.com/r/therapists/comments/1tx6msa/vertical_integration_of_services_and_the_dramatic",
-        "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1u1uy8r/best_wellness_journaling_app_for_people_who",
-        "https://www.reddit.com/r/ExCons/comments/1u17zm8/working_on_a_college_project_for_a_reentry_mental",
-        "https://www.youtube.com/watch?v=a5tf64BRsTo",
-        "https://abcnews.go.com/Health/video/ways-improve-mental-health-2026-128733616",
-        "https://www.youtube.com/watch?v=f1iJ47lgfZU",
-        "https://www.youtube.com/watch?v=UyLSO2gWOsw",
-        "https://www.youtube.com/watch?v=u9ORNATh0wc",
-        "https://www.healthline.com/health-news",
-        "https://thestoryjournal.com/health/digital-detox-2026",
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
-        "https://www.bettermind.com/blog/2026-status",
-        "https://www.thewmhi.com/mental-health/recent-news-on-mental-health",
-        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026",
-        "https://therawellness.us/wellness-technology-trends-2026-regulation",
-        "https://www.covingtondigitalhealth.com/2026/01/5-developments-digital-health-innovators-should-watch-in-2026",
-        "https://www.researchandmarkets.com/report/digital-mental-health",
-        "https://institute.bankofamerica.com/transformation/wellness-series-part-3.html",
-        "https://www.businesswire.com/newsroom/industry/health/mental-health",
-        "https://bisresearch.com/insights/emerging-mental-health-devices-and-platforms-the-future-of-digital-mental-healthcare",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079407"
-      ],
-      "date": "2026-09-18T23:31:37.196447+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT‑6 Astra Model Claiming World’s Most Aligned AI System",
       "urls": [
         "https://www.unite.ai/openai-releases-chatgpt-images-2-5-with-sketch-and-two-new-api-models",
@@ -12777,7 +12733,48 @@
         "https://www.msn.com/en-in/money/general/mistral-s-3-billion-open-ai-bet-why-samsung-asml-are-backing-it-and-what-s-next-for-french-startup/ar-AA2bPbat?ocid=BingNewsVerp"
       ],
       "date": "2026-09-28T23:01:43.193013+00:00"
+    },
+    {
+      "title": "Aiims Indian Medical Research Breakthrough News Top Stories September 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.msn.com/en-in/news/India/neet-ug-counselling-2026-eyeing-aiims-delhi-heres-where-indias-top-medical-colleges-rank/ar-AA28DPvS?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/money/general/aiims-bhubaneswar-ranks-among-top-10-medical-colleges-in-india/ar-AA27k5QW?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/money/general/india-today-best-colleges-survey-2026-hindu-college-srcc-aiims-emerge-on-top/vi-AA26GWdQ?ocid=BingNewsVerp",
+        "https://www.youtube.com/watch?v=JwexvDl4mFc",
+        "https://www.youtube.com/watch?v=9ejFqej2_E8",
+        "https://www.youtube.com/watch?v=5klZ4m31gD0",
+        "https://www.youtube.com/watch?v=hAHcpz5-Mbg",
+        "https://www.youtube.com/watch?v=hmAck4AUGkU",
+        "https://www.youtube.com/watch?v=rj0JwXL_OwA",
+        "https://www.hindustantimes.com/topic/aiims/news",
+        "https://medicaldialogues.in/topics/all-india-institute-of-medical-sciences",
+        "https://news.webindia123.com/news/Articles/India/20260915/4498969.html",
+        "https://www.ndtv.com/topic/aiims",
+        "https://www.business-standard.com/about/what-is-aiims",
+        "https://www.nationalheraldindia.com/topic/aiims",
+        "https://www.ndtv.com/topic/all-india-institute-of-medical-sciences",
+        "https://indianexpress.com/article/opinion/columns/aiims-director-writes-making-ai-that-cares-for-indian-patients-10601419",
+        "https://en.wikipedia.org/wiki/All_India_Institute_of_Medical_Sciences,_New_Delhi",
+        "https://www.newsminimalist.com/articles/aiims-bilaspur-workshop-adds-patient-voices-to-health-research-7e3aee05",
+        "https://news.webindia123.com/news/articles/India/20260925/4503448.html",
+        "https://www.siliconindia.com/news/aiims-becomes-the-pulse-of-india-s-healthcare-revolution-on-world-health-day-2026-nwid-53989.html",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2058569",
+        "https://indianexpress.com/article/education/aiims-delhi-wins-gold-for-overall-performance-at-2025-dhr-icmr-health-research-summit-10365996",
+        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
+        "https://indianmasterminds.com/news/aiims-delhi-global-ranking-2026-183732",
+        "https://zeenews.india.com/india/aiims-positioned-6th-in-world-hospital-rankings-2026-3015907.html",
+        "https://www.hindustantimes.com/topic/aiims",
+        "https://www.careerindia.com/topic/aiims",
+        "https://www.tribuneindia.com/news/delhi/aiims-honoured-with-top-rank-for-overall-performance-at-summit",
+        "https://indianexpress.com/article/explained/explained-health/looking-at-2025-health-breakthroughs-of-hope-and-promise-9746167",
+        "https://indianexpress.com/about/delhi-aiims",
+        "https://www.archynewsy.com/breaking-medical-research-key-findings-from-nejms-may-2026-issue-vol-394-no-19",
+        "https://mhealth.medicaldialogues.in/article/latest-news/aiims-new-delhi-receives-top-national-honour-for-institutional-excellence-at-dhricmr-health-research-summit-2025-158676",
+        "https://ianslive.in/aiims-research-day-fosters-discussion-on-innovation-ai-and-national-health-priorities--20260130174802"
+      ],
+      "date": "2026-09-28T23:33:24.326232+00:00"
     }
   ],
-  "lastUpdated": "2026-09-28T23:01:43.193106+00:00"
+  "lastUpdated": "2026-09-28T23:33:24.326343+00:00"
 }
