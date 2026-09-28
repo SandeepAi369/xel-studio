@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Recent Volcanic Eruption Amid Global Natural Disaster Coverage",
-      "urls": [
-        "https://www.reuters.com/world/earthquakes",
-        "https://www.sciencedaily.com/news/earth_climate/earthquakes",
-        "https://www.volcanodiscovery.com/news.html",
-        "https://www.atlas-mag.net/en/articles/natural-disasters",
-        "https://apnews.com/hub/earthquakes"
-      ],
-      "date": "2026-09-18T01:31:36.735261+00:00"
-    },
-    {
       "title": "Mean CEO's Blog Highlights New Startup AI Model Release in April 2026",
       "urls": [
         "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
@@ -12898,7 +12887,15 @@
         "https://teachers.institute/disability-intro/assistive-technology-for-blind-visually-impaired"
       ],
       "date": "2026-09-28T01:02:12.752751+00:00"
+    },
+    {
+      "title": "CBS News and Nature Listings Lack Details Preventing News Summary Creation",
+      "urls": [
+        "https://www.cbsnews.com/climate-change",
+        "https://www.nature.com/nclimate"
+      ],
+      "date": "2026-09-28T01:32:10.902347+00:00"
     }
   ],
-  "lastUpdated": "2026-09-28T01:02:12.752867+00:00"
+  "lastUpdated": "2026-09-28T01:32:10.902423+00:00"
 }
