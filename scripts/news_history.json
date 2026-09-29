@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux Foundation Unveils Digital Sovereignty Initiative in Latest Open Source Standards Release",
-      "urls": [
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-september-2026",
-        "https://www.reddit.com/r/linuxquestions/comments/1tsibn3/what_distro_are_you_all_on_for_2026_and_why",
-        "https://www.reddit.com/r/linux/comments/1pxx5z9/what_are_your_expectations_for_linux_in_2026",
-        "https://daily.dev/posts/linux-foundation-newsletter-september-2026-qabawck4e",
-        "https://opensource.org/blog/linuxs-35th-anniversary-and-the-open-frontier",
-        "https://itsfoss.com/news",
-        "https://linuxiac.com/category/news",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-36-2026-august-31-september-6",
-        "https://news.tuxmachines.org/n/2026/09/18/Free_Libre_and_Open_Source_Software_Standards_and_Digital_Sover.shtml"
-      ],
-      "date": "2026-09-19T18:31:37.882977+00:00"
-    },
-    {
       "title": "Ayushman Bharat Digital Mission Links Over 90 Crore Health IDs Advancing Paperless Care",
       "urls": [
         "https://www.thestatesman.com/india/indias-digital-health-mission-crosses-93-95-crore-abha-registrations-health-ministry-1503615212.html",
@@ -12883,7 +12868,23 @@
         "https://www.reuters.com/sustainability/climate-energy/india-tightens-anti-pollution-curbs-capital-delhi-air-quality-dips-2025-11-11"
       ],
       "date": "2026-09-29T18:02:00.240948+00:00"
+    },
+    {
+      "title": "NVIDIA Acquires Hugging Face to Accelerate Open Model Development Across Industry",
+      "urls": [
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
+        "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+        "https://benchlm.ai/model-updates",
+        "https://llm-stats.com",
+        "https://llm-stats.com/benchmarks",
+        "https://llm-stats.com/models/compare",
+        "https://blockchain.news/ainews/nvidia-acquires-hugging-face-boosts-open-models",
+        "https://openssf.org/author/craig",
+        "https://nextcloud.com/blog/nextcloud-hub-european-microsoft-365-google-workspace-alternative",
+        "https://colineberhardt.github.io"
+      ],
+      "date": "2026-09-29T18:31:41.058806+00:00"
     }
   ],
-  "lastUpdated": "2026-09-29T18:02:00.241091+00:00"
+  "lastUpdated": "2026-09-29T18:31:41.058944+00:00"
 }
