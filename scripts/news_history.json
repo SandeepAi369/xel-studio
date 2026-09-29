@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Hosts Landmark Europe 2026 Conference Showcasing Open Source AI Advances",
-      "urls": [
-        "https://github.com/kouweizhu/agents-radar/issues/102",
-        "https://pytorch.org/blog/pytorch-conference-europe-2026-a-landmark-moment-for-open-source-ai-in-paris"
-      ],
-      "date": "2026-09-19T10:01:48.956890+00:00"
-    },
-    {
       "title": "Delhi Government Halts Construction to Combat Record Air Pollution Levels",
       "urls": [
         "https://www.indiatoday.in/topic/delhi-pollution",
@@ -12847,7 +12839,18 @@
         "https://www.drishtiias.com/daily-updates/daily-news-analysis/indias-roadmap-for-empowering-divyangjans"
       ],
       "date": "2026-09-29T09:31:37.555934+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils Next‑Generation Flagship LLM, Mistral Large 2, Announced by IBM",
+      "urls": [
+        "https://www.aipricingmaster.com/blog/Guide-to-Open-Source-AI-Models-in-2026",
+        "https://mistral.ai/models",
+        "https://www.ibm.com/new/announcements/mistral-ais-next-generation-flagship-llm-mistral-large-2-is-now-available-in-ibm-watsonx",
+        "https://blog.csdn.net/SmartTony/article/details/157384610",
+        "https://mistral.ai/about"
+      ],
+      "date": "2026-09-29T10:02:01.601778+00:00"
     }
   ],
-  "lastUpdated": "2026-09-29T09:31:37.556025+00:00"
+  "lastUpdated": "2026-09-29T10:02:01.601863+00:00"
 }
