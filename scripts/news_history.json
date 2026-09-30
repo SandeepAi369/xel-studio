@@ -1,41 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Muse Glimmer Open‑Source 30B Model to Challenge OpenAI",
-      "urls": [
-        "https://www.reddit.com/r/opencodeCLI/comments/1urub9l/meta_just_released_spark_11_heres_the_api_pricing",
-        "https://www.reddit.com/r/GenAI4all/comments/1uriom3/meta_employees_consumed_737_trillion_ai_tokens_in",
-        "https://ai.meta.com/blog/llamacon-llama-news",
-        "https://ai.meta.com/blog/meta-llama-3",
-        "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
-        "https://www.geekwire.com/contributor-content/open-source-ai-industry-growing-up-or-the-end-of-the-open-model-era",
-        "https://skycrumbs.com/blog/ai-model-updates-september-2026",
-        "https://letsdatascience.com/news/topic/meta-ai",
-        "https://tech-insider.org/best-open-source-llm-2026",
-        "https://digitaldigest.com/llama-4-meta-open-source-ai-models-future",
-        "https://www.washingtonpost.com/technology/2024/07/23/meta-new-ai-llama-open",
-        "https://ai.meta.com/resources/models-and-libraries",
-        "https://aitoolsrecap.com/blog/ai-model-releases-may-2026-what-to-expect",
-        "https://tech-insider.org/llama-cpp-tutorial-2026",
-        "https://the-agent-report.com/2026/06/meta-muse-spark-llama-abandoned",
-        "https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility"
-      ],
-      "date": "2026-09-20T04:02:06.577529+00:00"
-    },
-    {
-      "title": "Hindustan Times And The Independent Provide No Details In Recent Search Listings",
-      "urls": [
-        "https://www.sportingnews.com/in/cricket/news/who-won-ipl-2026-list-indian-premier-league-winners-runners/c72cd80b310493e99b2306e0",
-        "https://www.ndtv.com/topic/indian-premier-league",
-        "https://www.newsnow.com/us/World/Asia/India/Sport/Cricket/IPL",
-        "https://indianexpress.com/about/ipl",
-        "https://timesofindia.indiatimes.com/topic/in-ipl/news",
-        "https://www.hindustantimes.com/topic/ipl",
-        "https://www.the-independent.com/topic/ipl"
-      ],
-      "date": "2026-09-20T04:31:31.455727+00:00"
-    },
-    {
       "title": "Cyber Security News Lists Twenty Top Linux Administration Tools for 2026",
       "urls": [
         "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
@@ -12919,7 +12884,16 @@
         "https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026"
       ],
       "date": "2026-09-30T04:01:54.967723+00:00"
+    },
+    {
+      "title": "Indian Super League Announces 2026-27 Season Start Date, Schedule and New Competition Format",
+      "urls": [
+        "https://www.sportingnews.com/in/football/news/when-mohun-bagan-begin-isl-indian-super-league-2026-27-schedule-format/64222c4d0a7e02459ffcf044",
+        "https://www.msn.com/en-in/news/other/indian-super-league-2026-27-season-set-to-kick-off-with-exciting-changes/ar-AA2bBWS8?ocid=BingNewsVerp",
+        "https://www.msn.com/en-us/news/other/isl-2026-27-season-to-begin-on-october-10/ar-AA2bBYF8?ocid=BingNewsVerp"
+      ],
+      "date": "2026-09-30T04:32:01.506852+00:00"
     }
   ],
-  "lastUpdated": "2026-09-30T04:01:54.967824+00:00"
+  "lastUpdated": "2026-09-30T04:32:01.506934+00:00"
 }
