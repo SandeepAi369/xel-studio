@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cyber Security News Lists Twenty Top Linux Administration Tools for 2026",
-      "urls": [
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
-        "https://news.tuxmachines.org/n/2025/09/26/Free_Libre_and_Open_Source_Software_Education_and_Data.shtml",
-        "https://news.tuxmachines.org/n/2025/09/19/Red_Hat_and_CentOS_Leftovers_Lots_of_Buzzwords_as_Usual.shtml",
-        "https://news.tuxmachines.org/n/2025/10/03/Security_Leftovers.shtml",
-        "https://news.tuxmachines.org/n/2026/07/15/Interoperability_and_Standards_General_Court_of_the_European_Un.shtml",
-        "https://planet.freedesktop.org",
-        "https://seagl.org/news",
-        "https://planet.gnu.org",
-        "https://daniel.haxx.se/blog/page/4",
-        "https://fsfe.org/events/events.en.html",
-        "https://linuxiac.com/2025-linux-and-open-source-moments-that-shaped-the-year",
-        "https://9to5linux.com",
-        "https://cybersecuritynews.com/linux-admin-tools",
-        "https://www.reddit.com/r/programming",
-        "https://www.ofzenandcomputing.com/free-open-source-linux-alternatives-to-windows-or-macos",
-        "https://www.phoronix.com/recent-linux-news",
-        "https://www.debian.org/News/2026/20260807",
-        "https://kde.org",
-        "https://www.opensourceforu.com",
-        "https://linuxlap.com/news/key-trends-shaping-linux-in-2026",
-        "https://www.bitdefender.com",
-        "https://softwarelab.org/blog/what-is-linux",
-        "https://www.linux.org/register"
-      ],
-      "date": "2026-09-20T05:01:45.319610+00:00"
-    },
-    {
       "title": "India Delays Decade‑Long Disability Policy Overhaul Amid National Legislative Stalemate",
       "urls": [
         "https://pressnewsagency.org/decade-on-disability-policy-rejig-in-limbo",
@@ -12893,7 +12864,58 @@
         "https://www.msn.com/en-us/news/other/isl-2026-27-season-to-begin-on-october-10/ar-AA2bBYF8?ocid=BingNewsVerp"
       ],
       "date": "2026-09-30T04:32:01.506852+00:00"
+    },
+    {
+      "title": "AlmaLinux OS Foundation Chair Announces Keynote at Atlas Digital Summit Highlighting Enterprise Linux Growth",
+      "urls": [
+        "https://www.desmoinesregister.com/press-release/story/129120/almalinux-os-foundation-chair-to-speak-at-atlas-digital-summit",
+        "https://www.linuxtoday.com/blog/9to5linux-weekly-roundup-september-20th-2026",
+        "https://linuxiac.com",
+        "https://www.reddit.com/r/linux_gaming/comments/1ulbn20/steam_survey_june_2026_shows_linux_dip_to_369",
+        "https://www.reddit.com/r/linux/comments/1qowqbw/we_are_in_2026_what_are_your_frustrations_with",
+        "https://www.reddit.com/r/linuxquestions/comments/1tsibn3/what_distro_are_you_all_on_for_2026_and_why",
+        "https://www.youtube.com/watch?v=PT8emqAIl7Y",
+        "https://www.youtube.com/watch?v=x4fxvXoA5hk",
+        "https://www.youtube.com/watch?v=NKPMDddHbSQ",
+        "https://itsfoss.com/news",
+        "https://www.linuxinsider.com",
+        "https://linuxiac.com/category/news",
+        "https://www.linuxtoday.com/blog/linuxiac-weekly-wrap-up-week-38-2026-september-14-20",
+        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-september-2026",
+        "https://www.linux-magazine.com/Online/News",
+        "https://lwn.net",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-39-2026-september-21-27",
+        "https://opensource.org/blog/linuxs-35th-anniversary-and-the-open-frontier",
+        "https://lxer.com",
+        "https://news.tuxmachines.org/n/2026/09/20/Advocacy_of_GNU_Linux_and_Software_Freedom_is_Always_a_Fight.shtml",
+        "https://news.tuxmachines.org/n/2026/09/18/Free_Libre_and_Open_Source_Software_Standards_and_Digital_Sover.shtml",
+        "https://www.ghacks.net/category/linux",
+        "https://opensource.googleblog.com/2026",
+        "https://www.linuxfoundation.org/blog/tag/open-source",
+        "https://9to5linux.com/9to5linux-weekly-roundup-september-27th-2026",
+        "https://www.linuxjournal.com",
+        "https://en.wikipedia.org/wiki/Linux",
+        "https://distrowatch.com",
+        "https://opensource.googleblog.com/2026/07/this-week-in-open-source-for-july-16-2026.html",
+        "https://www.redhat.com/en/about/newsroom",
+        "https://www.linuxfoundation.org/resources/publications",
+        "https://www.techradar.com/best/best-linux-apps",
+        "https://events.linuxfoundation.org/open-source-summit-europe",
+        "https://fedoramagazine.org",
+        "https://itsfoss.com",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-36-2026-august-31-september-6",
+        "https://www.redhat.com/en",
+        "https://www.lxer.com",
+        "https://9to5linux.com/category/news",
+        "https://linuxlap.com/category/news",
+        "https://www.bleepingcomputer.com/news/linux",
+        "https://en.wikipedia.org/wiki/Ubuntu",
+        "https://opensource.googleblog.com",
+        "https://fossforce.com",
+        "https://ubuntu.com/blog"
+      ],
+      "date": "2026-09-30T05:02:02.489722+00:00"
     }
   ],
-  "lastUpdated": "2026-09-30T04:32:01.506934+00:00"
+  "lastUpdated": "2026-09-30T05:02:02.489769+00:00"
 }
