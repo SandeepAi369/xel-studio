@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source LLM Landscape Maps Over Fifteen Model Families Amid 2026 AI Surge",
-      "urls": [
-        "https://llm-stats.com/ai-news",
-        "https://www.reddit.com/r/programming/comments/1q3igl6/is_the_world_ready_for_another_programming",
-        "https://medium.com/@arnabsom/the-state-of-large-language-models-latest-updates-trends-2025-2026-5384e3b1e994",
-        "https://www.hpcwire.com/aiwire/2025/11/25/llm-roundup-a-wave-of-new-releases-winds-down-the-year",
-        "https://skycrumbs.com/blog/ai-models-july-2026",
-        "https://af.net/realtime/ai-model-release-timeline-2025-2026-key-llm-launches-and-updates",
-        "https://af.net/realtime/the-state-of-large-language-models-june-2026",
-        "https://www.aicritique.org/us/2026/06/01/ai-developments-in-may-2026",
-        "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs",
-        "https://presenc.ai/research/open-source-llm-landscape-2026",
-        "https://www.alphamatch.ai/blog/open-source-llm-comparison-blog-2026",
-        "https://tokencalculator.com/ai-news",
-        "https://www.devflokers.com/blog/ai-news-june-2026-models-research-developments",
-        "https://techcrunch.com/2025/03/31/openai-plans-to-release-a-new-open-language-model-in-the-coming-months",
-        "https://af.net/realtime/april-2026-major-ai-model-releases-and-open-source-advancements",
-        "https://af.net/realtime/ai-models-released-in-may-2026-complete-roundup",
-        "https://www.devflokers.com/blog/latest-ai-models-open-source-projects-may-2026",
-        "https://llmnews.gerryyang.com",
-        "https://nhlocal.github.io/AiTimeline",
-        "https://whatllm.org/blog/new-ai-models-april-2026",
-        "https://openai.com/research"
-      ],
-      "date": "2026-09-21T18:31:59.764874+00:00"
-    },
-    {
       "title": "Fierce Biotech Listed as Source Without Additional Details in Recent Search",
       "urls": [
         "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
@@ -13138,7 +13111,18 @@
         "https://onyx.app/insights/best-open-source-llms-2026"
       ],
       "date": "2026-10-01T18:31:52.295985+00:00"
+    },
+    {
+      "title": "Telemedicine Growth Fails To Increase Visits Or Spending Analysis Shows",
+      "urls": [
+        "https://www.tigahealth.com/digitalization-of-healthcare-october-2026-newsletter",
+        "https://esmed.org/MRA/mra/article/view/7831",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-03-10-5-key-telehealth-insights",
+        "https://hlth.com/insights/news/digital-health-innovation-in-2025-six-areas-shaping-momentum-heading-into-2026-2025-12-10",
+        "https://medicalxpress.com/news/2026-05-telemedicine-grew-boosting-medical-analysis.html"
+      ],
+      "date": "2026-10-01T19:02:04.125945+00:00"
     }
   ],
-  "lastUpdated": "2026-10-01T18:31:52.296056+00:00"
+  "lastUpdated": "2026-10-01T19:02:04.126060+00:00"
 }
