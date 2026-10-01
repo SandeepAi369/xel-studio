@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Confronts Driest Monsoon Since 2009 as El Niño Triggers 15% Rainfall Deficit",
-      "urls": [
-        "https://iaspoint.com/indias-2026-monsoon-forecast-and-climate-variability",
-        "https://openthemagazine.com/india/india-likely-to-see-below-normal-monsoon-in-2026-imd-forecast-explained",
-        "https://www.reuters.com/business/environment/india-faces-weakest-monsoon-nearly-two-decades-el-nino-strengthens-2026-08-24",
-        "https://news24online.com/india/el-nino-2026-india-heads-for-driest-monsoon-since-2009-as-15-rainfall-deficit-raises-crop-food-inflation-fears/927931",
-        "https://www.financialexpress.com/india-news/el-nino-is-nearing-record-strength-can-indian-ocean-blunt-its-impact-on-india/4332687",
-        "https://economictimes.indiatimes.com/news/kerala-weather",
-        "https://scripps.ucsd.edu/news/how-does-el-nino-impact-weather"
-      ],
-      "date": "2026-09-21T01:31:40.405270+00:00"
-    },
-    {
       "title": "Nvidia Acquires Hugging Face for $13 Billion to Keep Platform Open Source",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/hugging-face-nvidias-latest-acquisition-031700084.html",
@@ -13097,7 +13084,34 @@
         "https://renewablewatch.in/category/news"
       ],
       "date": "2026-10-01T01:31:35.278787+00:00"
+    },
+    {
+      "title": "Linux Foundation Unveils 2026 Global Events Program to Boost Open Source Collaboration",
+      "urls": [
+        "https://www.linux.org/forums/linux-news.206",
+        "https://www.phoronix.com",
+        "https://www.fosslinux.com/category/news",
+        "https://opensource.com/tags/news",
+        "https://www.prnewswire.com/news-releases/open-source-summit--embedded-linux-conference-europe-2026-schedule-champions-open-source-innovation-and-marks-35-years-of-linux-302843979.html",
+        "https://www.linuxinsider.com/story/open-source-in-2026-faces-a-defining-moment-177630.html",
+        "https://www.linux.com",
+        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
+        "https://github.blog/open-source",
+        "https://www.linuxnews.net",
+        "https://www.newinlinux.com",
+        "https://9to5linux.com",
+        "https://opensource.org",
+        "https://www.linuxtoday.com/news",
+        "https://lwn.net/daily",
+        "https://www.phoronix.com/news",
+        "https://fosspost.org",
+        "https://www.linux-magazine.com",
+        "https://kde.org",
+        "https://www.prnewswire.com/news-releases/linux-foundation-reveals-2026-global-events-program-advancing-open-source-ai-and-enabling-community-based-innovation-302667615.html",
+        "https://www.techradar.com/news/best-alternative-operating-systems"
+      ],
+      "date": "2026-10-01T02:01:39.206979+00:00"
     }
   ],
-  "lastUpdated": "2026-10-01T01:31:35.278852+00:00"
+  "lastUpdated": "2026-10-01T02:01:39.207059+00:00"
 }
