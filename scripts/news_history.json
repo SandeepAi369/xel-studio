@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Putin Commends Modi's Personal Focus on Strengthening India-Russia Relations",
-      "urls": [
-        "https://www.msn.com/en-in/news/other/putin-lauds-pm-modi-s-personal-attention-to-india-russia-relations/ar-AA2bhdI1?ocid=BingNewsVerp",
-        "https://economictimes.indiatimes.com/news/newsblogs/g20-summit-2023-live-news-delhi-traffic-restrictions-xi-jinping-pm-narendra-modi-latest-updates-09-september-2023/liveblog/msid-103522450,curpg-2.cms",
-        "https://www.diplomacy.edu/blog/the-new-delhi-g20-summit-reflections-from-india",
-        "https://www.awazthevoice.in/world-news/holding-head-high-india-continues-to-emerge-as-global-power-46005.html",
-        "https://www.indiandefensenews.in",
-        "https://frontline.thehindu.com/world-affairs/india-new-global-order-trump-iran-south-asia/article71093404.ece"
-      ],
-      "date": "2026-09-21T07:02:15.025528+00:00"
-    },
-    {
       "title": "Content Focus: While the video’s transcript is not publicly available, the title suggests a discussion of upcoming platform updates, policy",
       "urls": [
         "https://www.youtube.com/watch?v=ip2Dhd1Lw2M",
@@ -13072,7 +13060,20 @@
         "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/mar/doc202431317101.pdf"
       ],
       "date": "2026-10-01T06:31:57.453056+00:00"
+    },
+    {
+      "title": "International Monetary Fund Warns Global Growth Slows as War Risks Intensify",
+      "urls": [
+        "https://www.conference-board.org/research/us-forecast",
+        "https://rsmus.com/insights/economics/economic-outlook-for-2026.html",
+        "https://www.jpmorgan.com/insights/global-research/economy/global-inflation-forecast",
+        "https://www.ey.com/en_us/insights/strategy/global-economic-outlook",
+        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+        "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html",
+        "https://www.nytimes.com/2026/07/08/business/economy/imf-world-economy-inflation.html"
+      ],
+      "date": "2026-10-01T07:02:16.571962+00:00"
     }
   ],
-  "lastUpdated": "2026-10-01T06:31:57.453129+00:00"
+  "lastUpdated": "2026-10-01T07:02:16.572075+00:00"
 }
