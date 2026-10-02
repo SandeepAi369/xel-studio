@@ -1,42 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Economic Forum Highlights Seven AI-Driven Transformations in Global Healthcare",
-      "urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860439",
-        "https://www.youtube.com/watch?v=5ReO9hgOYrI",
-        "https://www.healthcarefinancenews.com/video/hot-2026-healthcare-topics-ai-interoperability-public-policy",
-        "https://www.youtube.com/watch?v=7xCB2Dp1Ex8",
-        "https://www.today.com/video/top-health-trends-of-2026-glp-1-expansion-ai-wearables-more-255399493982",
-        "https://finance.yahoo.com/healthcare/articles/frost-sullivan-published-2026-blue-102300875.html",
-        "https://www.accesshealthcarestaffing.com/blogs/whats-next-for-healthcare-in-2026-ai-telemedicine-precision-medicine",
-        "https://sullivancotter.com/resources/how-ai-will-shape-the-future-of-health-care-in-2026",
-        "https://www.nyas.org/shaping-science/events/the-new-wave-of-ai-in-healthcare-2026",
-        "https://www.wolterskluwer.com/en/expert-insights/2026-healthcare-ai-trends-insights-from-experts",
-        "https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493",
-        "https://www.marketscreener.com/news/asset-partnership-coordinated-by-diamyd-medical-concludes-five-year-innovation-program-with-final-ce785ad8d881f32c",
-        "https://www.healthcareitnews.com/news/physical-ai-healthcares-next-transformational-technology",
-        "https://www.zawya.com/en/press-release/events-conferences/qatar-to-host-global-health-leaders-at-wish-2026-under-theme-the-new-health-span-479035",
-        "https://www.wolterskluwer.com/en/expert-insights/2026-future-ready-healthcare",
-        "https://www.icthealth.org/news",
-        "https://www.healthcareittoday.com",
-        "https://news.mit.edu/topic/artificial-intelligence2",
-        "https://tateeda.com/blog/healthcare-technology-trends",
-        "https://www.jonesday.com/en/insights/2026/02/newsletter-vital-signs-digital-health-law-update--winter-2026",
-        "https://www.ama-assn.org/topics/health-care-ai",
-        "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends",
-        "https://www.weforum.org/stories/health-and-healthcare-systems/ai-transforming-global-health",
-        "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
-        "https://www.jonesday.com/en/insights/2026/08/vital-signs-digital-health-law-update--springsummer-2026--(26)",
-        "https://www.analyticsinsight.net/artificial-intelligence/ai-in-healthcare-2026-what-are-the-key-trends-driving-intelligent-practices",
-        "https://www.forbes.com/sites/johnwerner/2026/02/09/innovations-in-healthcare-with-ai-its-time",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/10-big-themes-for-ai-in-healthcare-heading-into-2026",
-        "https://rockhealth.com/insights/healthcare-innovation-at-the-turn-of-2026-mapping-whats-now-and-whats-next-in-digital-health",
-        "https://distilinfo.com/provider"
-      ],
-      "date": "2026-09-22T15:02:06.837339+00:00"
-    },
-    {
       "title": "Google Cloud Unveils Seven Major Announcements at Next 2026 Conference",
       "urls": [
         "https://www.vdura.com/ai-infrastructure-events-calendar",
@@ -13423,7 +13387,54 @@
         "https://mcml.ai/news/page/42"
       ],
       "date": "2026-10-02T15:02:06.349390+00:00"
+    },
+    {
+      "title": "Google announced the Gemini 4 flagship AI model, releasing it after several months of delays and framing it as the",
+      "urls": [
+        "https://www.unrot.co/ai-news/2026/10/1",
+        "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+        "https://www.latestly.com/technology/gemini-4-launching-soon-confirms-google-check-details-7618791.html",
+        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+        "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes",
+        "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+        "https://gemini.google/latest-news",
+        "https://time.com/6343450/gemini-google-deepmind-ai",
+        "https://www.msn.com/en-ae/money/news/google-announces-gemini-4-flagship-ai-model-after-months-of-delays/ar-AA2dln9u?ocid=BingNewsVerp",
+        "https://9to5google.com/2026/10/01/gemini-4-argon-must-reverse-googles-ai-inertia",
+        "https://www.moneycontrol.com/news/business/why-google-is-tightening-its-grip-on-deepmind-as-gemini-falls-behind-rivals-14003930.html",
+        "https://www.geeky-gadgets.com/gemini-4-delay-fable-5",
+        "https://www.techrepublic.com/article/news-google-deepmind-gemini-tests-apac-singapore",
+        "https://www.msn.com/en-us/news/other/google-deepmind-launches-institute-to-widen-the-agi-debate/ar-AA2cslK4?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/google-co-founder-sergey-brin-has-a-message-for-deepmind-staff-after-demis-hassabis-exits-as-ceo-catch-up-to-the/ar-AA2a0Wry?ocid=BingNewsVerp",
+        "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12",
+        "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
+        "https://www.wsj.com/tech/ai/google-moves-ai-responsibility-team-out-of-deepmind-lab-in-latest-shake-up-ed01e40c",
+        "https://www.thelantern.com/2026/09/google-is-coming-to-campus-and-its-bringing-deepmind-ai-with-it",
+        "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+        "https://www.latimes.com/business/story/2026-10-01/googles-latest-launch-puts-its-ai-ambitions-to-test",
+        "https://emergent.sh/news/google-gemini-4-release-date",
+        "https://www.digitalapplied.com/blog/google-io-2026-complete-ai-announcement-guide",
+        "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024",
+        "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
+        "https://blog.google",
+        "https://www.techtimes.com/articles/316872/20260519/all-major-announcements-google-i-o-2026-gemini-ai-search-upgrades-smart-glasses-more.htm",
+        "https://imfounder.com/science-tech/ai/ai-updates-august-2026-openai-astra-deepmind",
+        "https://www.techrepublic.com/article/news-google-biggest-announcements-2026",
+        "https://beginnersinai.org/whats-new-gemini-2026",
+        "https://skycrumbs.com/blog/google-deepmind-2026",
+        "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026",
+        "https://apnews.com/article/google-io-gemini-developers-conference-a984e6756032dc4af260f8fa27e8f4a9",
+        "https://tech-insider.org/openai-anthropic-google-ai-safety-talks-2026",
+        "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025",
+        "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence",
+        "https://skycrumbs.com/blog/google-deepmind-august-2026",
+        "https://www.globaltechcouncil.org/ai/everything-announced-at-google-i-o-2026",
+        "https://dentro.de/ai/news"
+      ],
+      "date": "2026-10-02T15:31:35.581680+00:00"
     }
   ],
-  "lastUpdated": "2026-10-02T15:02:06.349459+00:00"
+  "lastUpdated": "2026-10-02T15:31:35.581757+00:00"
 }
