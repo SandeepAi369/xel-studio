@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australian Telehealth Standards Revise Practice for Doctors Nationwide",
-      "urls": [
-        "https://www.webwire.com/ViewPressRel.asp?aId=360731",
-        "https://sg.finance.yahoo.com/news/worlds-top-healthtech-companies-2026-134555193.html",
-        "https://www.ibj.com/articles/2026-innovation-issue-once-a-niche-telehealth-now-routine-care-option",
-        "https://www.medscape.com/viewarticle/new-telehealth-standards-upshot-australian-doctors-2026a1000819",
-        "https://healthcare-digital.com",
-        "https://www.digitalhealthnews.com/category/global-digital-health-news",
-        "https://www.medtechdive.com/topic/digital-health",
-        "https://firstup.io/blog/healthcare-technology-trends"
-      ],
-      "date": "2026-09-23T11:02:22.200197+00:00"
-    },
-    {
       "title": "Google DeepMind Launches WeatherNext 3 AI Model to Fill Renewable Grid Forecast Gap",
       "urls": [
         "https://letsdatascience.com/news/topic/google",
@@ -12954,7 +12940,16 @@
         "https://medlineplus.gov"
       ],
       "date": "2026-10-03T11:01:29.416635+00:00"
+    },
+    {
+      "title": "Generative AI Gains Attention As Industry Explores Creative Applications Across Various Sectors",
+      "urls": [
+        "https://aimagazine.com/news/who-is-google-deepminds-new-ai-chief-koray-kavukcuoglu",
+        "https://en.wikipedia.org/wiki/Generative_AI",
+        "https://ai.google"
+      ],
+      "date": "2026-10-03T11:31:24.157993+00:00"
     }
   ],
-  "lastUpdated": "2026-10-03T11:01:29.416704+00:00"
+  "lastUpdated": "2026-10-03T11:31:24.158082+00:00"
 }
