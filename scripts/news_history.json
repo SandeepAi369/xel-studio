@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Faces Weakest Monsoon in 17 Years as Rainfall Deficit Hits 15 Percent",
-      "urls": [
-        "https://apac.dtn.com/international/the-2026-indian-southwest-monsoon-onset-is-expected-in-the-next-two-weeks-but-indian-businesses-could-experience-a-drier-than-normal-monsoon",
-        "https://www.reuters.com/business/environment/india-forecasts-sub-par-monsoon-2026-after-two-years-above-average-rains-2026-04-13",
-        "https://mausam.imd.gov.in/thiruvananthapuram/mcdata/extendedfx.pdf",
-        "https://climateimpactcompany.com/india-summer-2026-outlook-wet-iod-runs-some-interference-on-dry-el-nino-climate-at-times-during-the-india-monsoon-season-2",
-        "https://www.ptcnews.tv/nation/india-monsoon-2026-rainfall-deficit-el-nino-food-inflation-4429584",
-        "https://indianexpress.com/article/cities/pune/pune-rainfall-deficit-august-september-monsoon-forecast-10859001",
-        "https://www.businesstoday.in/india/story/weakest-monsoon-since-2009-india-stares-at-15-rainfall-deficit-as-el-nino-strengthens-551108-2026-08-25",
-        "https://www.ndtv.com/india-news/indias-august-monsoon-decoding-the-impact-of-shifting-troughs-and-el-nino-11871420",
-        "https://www.msn.com/en-in/news/other/monsoon-revival-in-first-week-of-september-new-rain-system-building-up/ar-AA2bf71W?ocid=BingNewsVerp",
-        "https://www.financialexpress.com/policy/economy/monsoon-tracker-rain-to-pick-pace-el-nino-impact-worsen-rainfall-deficit-imd-alert-kharif-crop-agriculture-northeast-flood-drought-maharashtra/4279027",
-        "https://www.msn.com/en-in/news/other/india-heads-for-driest-monsoon-in-17-years-as-el-nino-curbs-rainfall/ar-AA2ctWDN?ocid=BingNewsVerp"
-      ],
-      "date": "2026-09-23T01:31:27.979453+00:00"
-    },
-    {
       "title": "China Accelerates Open‑Source AI Push With Ten Strategic Priorities for Global Impact",
       "urls": [
         "https://llm-stats.com/llm-updates",
@@ -13363,7 +13346,18 @@
         "https://en.wikipedia.org/wiki/Greenhouse_gas_emissions_by_the_United_States"
       ],
       "date": "2026-10-03T01:31:21.205233+00:00"
+    },
+    {
+      "title": "LLM Updates Reveal Surge in New AI Model Releases Across Major Providers",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
+        "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/levenshulme-live-massive-crime-scene-34466003",
+        "https://lmmarketcap.com/llm-updates",
+        "https://en.wikipedia.org/wiki/OpenAI"
+      ],
+      "date": "2026-10-03T02:01:33.904463+00:00"
     }
   ],
-  "lastUpdated": "2026-10-03T01:31:21.205275+00:00"
+  "lastUpdated": "2026-10-03T02:01:33.904535+00:00"
 }
