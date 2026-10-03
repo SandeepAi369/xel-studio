@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Colombia Earthquake Triggers U.S. Natural Disaster Alert Amid UN Warning of Relief Disruptions",
-      "urls": [
-        "https://www.local10.com/news/world/2026/08/12/earthquake-in-colombia-us-issues-natural-disaster-alert-during-rush-to-rescue-survivors",
-        "https://www.youtube.com/shorts/1fr6WUe5JDA",
-        "https://www.reuters.com/video/watch/idRW454211082026RP1"
-      ],
-      "date": "2026-09-23T18:01:50.067032+00:00"
-    },
-    {
       "title": "PyTorch Dominates AI Research and Job Market with 38 Percent Hiring Preference",
       "urls": [
         "https://daily.dev/posts/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects-pytorch-nzlqvwtdu",
@@ -12712,7 +12703,17 @@
         "https://en.wikipedia.org/wiki/Monarch_butterfly"
       ],
       "date": "2026-10-03T18:01:37.793033+00:00"
+    },
+    {
+      "title": "Arch Linux Releases October 2026 ISO Featuring Updated Linux Kernel 7.2.7 and Systemd 262",
+      "urls": [
+        "https://linuxiac.com/arch-linux-october-2026-iso-is-out-with-linux-kernel-7-2-7-systemd-262",
+        "https://www.linux.org/pages/download",
+        "https://en.wikipedia.org/wiki/Qt_%28software%29",
+        "https://de.wikipedia.org/wiki/Linux"
+      ],
+      "date": "2026-10-03T18:31:20.314297+00:00"
     }
   ],
-  "lastUpdated": "2026-10-03T18:01:37.793122+00:00"
+  "lastUpdated": "2026-10-03T18:31:20.314440+00:00"
 }
