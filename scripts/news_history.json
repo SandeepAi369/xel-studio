@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases New Open Language Models Amid Surge in Open‑Source LLM Rankings",
-      "urls": [
-        "https://azumo.com/artificial-intelligence/ai-insights/top-10-llms-0625",
-        "https://blog.mean.ceo/large-language-model-news-september-2026",
-        "https://aiflashreport.com/model-releases.html",
-        "https://awesomeagents.ai/guides/state-of-open-source-llms-2026",
-        "https://simonwillison.net/2025/Dec/31/the-year-in-llms",
-        "https://arfc.github.io/research/publications",
-        "https://benchlm.ai/model-updates/releases/september-2026",
-        "https://www.axios.com/2025/08/05/openai-releases-open-models-gpt",
-        "https://www.theedadvocate.org/unprecedented-open-source-ai-models-are-outpacing-proprietary-giants-llm-news-july-2026",
-        "https://spectrum.ieee.org/state-of-ai-index-2026",
-        "https://explodingtopics.com/blog/list-of-llms"
-      ],
-      "date": "2026-09-23T05:02:10.072710+00:00"
-    },
-    {
       "title": "Disabled World Expands Global Reach With Centralized Disability News and Resources Hub",
       "urls": [
         "https://www.disabled-world.com"
@@ -13218,7 +13201,15 @@
         "https://www.premierleague.com/en/matches/premier-league"
       ],
       "date": "2026-10-03T05:01:32.508038+00:00"
+    },
+    {
+      "title": "Forbes Publishes 2026 Accessibility List Highlighting Global Innovation in Inclusive Design",
+      "urls": [
+        "https://www.forbes.com/lists/accessibility",
+        "https://www.gov.uk/government/news/call-for-bold-new-ideas-to-support-disabled-people-and-those-with-health-conditions-into-work"
+      ],
+      "date": "2026-10-03T05:31:26.626959+00:00"
     }
   ],
-  "lastUpdated": "2026-10-03T05:01:32.508122+00:00"
+  "lastUpdated": "2026-10-03T05:31:26.627044+00:00"
 }
