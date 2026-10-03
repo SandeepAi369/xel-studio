@@ -12562,7 +12562,17 @@
         "https://en.wikipedia.org/wiki/Climate"
       ],
       "date": "2026-10-03T22:31:29.747674+00:00"
+    },
+    {
+      "title": "Jeff Dean Highlights Tensor Processing Unit Advances Driving Google Cloud AI Performance",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "https://en.wikipedia.org/wiki/Jeff_Dean",
+        "https://realpython.com/pytorch-vs-tensorflow",
+        "https://acecloud.ai/blog/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-10-03T23:01:34.614269+00:00"
     }
   ],
-  "lastUpdated": "2026-10-03T22:31:29.747740+00:00"
+  "lastUpdated": "2026-10-03T23:01:34.614363+00:00"
 }
