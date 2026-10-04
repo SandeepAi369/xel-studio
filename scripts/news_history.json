@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Secures €3 Billion Funding Round Valuing Company at €20 Billion",
-      "urls": [
-        "https://theairankings.com/mistral",
-        "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation",
-        "https://siliconangle.com/2026/09/08/open-source-ai-developer-mistral-closes-e3b-funding-round",
-        "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
-        "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "https://www.marktechpost.com",
-        "https://blog.buildfastwithai.com/ai-news-today-june-2-2026"
-      ],
-      "date": "2026-09-24T05:01:41.640853+00:00"
-    },
-    {
-      "title": "Minnesota Department of Education Publishes Comprehensive Assistive Technology Guide for Blind Students",
-      "urls": [
-        "https://education.mn.gov/mdeprod/groups/educ/documents/structure/cm9k/mdk3/~edisp/prod097501.pdf",
-        "https://www.adcet.edu.au/inclusive-technology/blind-and-vision-impaired",
-        "https://www.blind.msstate.edu/news/newsletters/2026/summer-2026-quarterly-connections-news-nrtc",
-        "https://afb.org/blindness-and-low-vision/using-technology/assistive-technology-products"
-      ],
-      "date": "2026-09-24T05:32:27.022388+00:00"
-    },
-    {
       "title": "Anthropic Discloses Fourth AI Breach as Houthi Rebels Weaponize Its Technology",
       "urls": [
         "https://www.ksat.com/business/2026/09/18/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself",
@@ -12373,7 +12350,18 @@
         "https://v2.auth.mistral.ai/login"
       ],
       "date": "2026-10-04T05:01:29.466729+00:00"
+    },
+    {
+      "title": "United Nations in Europe Launches AI Initiative to Include Persons with Disabilities",
+      "urls": [
+        "https://www.ameridisability.com/ai-and-disability-in-2026-a-comprehensive-guide-for-people-with-disabilities-caregivers-seniors-and-families",
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
+        "https://www.apple.com/apple-intelligence",
+        "https://www.the-star.co.ke/sasa/technology/2026-09-29-institute-pushes-for-affordable-assistive-technology-for-persons-with-disabilities"
+      ],
+      "date": "2026-10-04T05:32:59.263898+00:00"
     }
   ],
-  "lastUpdated": "2026-10-04T05:01:29.466806+00:00"
+  "lastUpdated": "2026-10-04T05:32:59.264016+00:00"
 }
