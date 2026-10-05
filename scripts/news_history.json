@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face announces sale of Microduck, a $399 open source duck‑shaped robot featuring a playful design, aimed at developers and",
-      "urls": [
-        "https://github.com/datnguyenquy94/news-radar/issues/572",
-        "https://github.com/Chestnuts-Sisyphus/gittok/issues/1504",
-        "https://github.com/yaojiejia/agents-radar/issues/182",
-        "https://github.com/yaojiejia/agents-radar/issues/189",
-        "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck",
-        "https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do"
-      ],
-      "date": "2026-09-25T02:01:57.732489+00:00"
-    },
-    {
-      "title": "Sources Provide No Details on Unspecified Story, Leaving Report Incomplete",
-      "urls": [
-        "https://news.webindia123.com/news/Articles/India/20260918/4500255.html",
-        "https://www.malaysiasun.com/news/279325215/india-reaffirms-commitment-to-eliminate-hepatitis-b-c-as-public-health-threats-by-2030",
-        "https://www.freepressjournal.in/mumbai/maharashtra-cabinet-approves-4250-crore-pragati-project-to-transform-public-healthcare-add-1600-beds",
-        "https://thenewsmill.com/2026/09/india-commits-to-eliminating-hepatitis-b-and-c-as-public-health-threats-by-2030",
-        "https://www.newindianexpress.com/india/2026/Sep/23/india-reaffirms-commitment-to-eliminate-hepatitis-b-c-as-public-health-threats-by-2030-2",
-        "https://www.business-standard.com/health/india-steps-up-efforts-to-eliminate-hepatitis-as-public-health-risk-by-2030-126092300139_1.html"
-      ],
-      "date": "2026-09-25T02:31:41.785790+00:00"
-    },
-    {
       "title": "International Trade Technology Policy News New Developments September 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm",
@@ -11743,7 +11719,17 @@
         "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence"
       ],
       "date": "2026-10-05T02:01:34.388597+00:00"
+    },
+    {
+      "title": "Rock Health Reports $7.4 Billion Funding Surge for Digital Health Startups in First Half",
+      "urls": [
+        "https://hitconsultant.net/2026/07/13/rock-health-h1-2026-digital-health-funding-report",
+        "https://www.kuechenfibel.de/faq/warum-fuhle-ich-mich-komisch-nach-der-einnahme-von-vitamin-d",
+        "https://en.m.wikipedia.org/wiki/Mental_health",
+        "https://www.cdc.gov/mental-health/about/index.html"
+      ],
+      "date": "2026-10-05T02:31:57.411652+00:00"
     }
   ],
-  "lastUpdated": "2026-10-05T02:01:34.388670+00:00"
+  "lastUpdated": "2026-10-05T02:31:57.411713+00:00"
 }
