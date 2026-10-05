@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenCV Publishes 2025 Comparative Guide Pitting PyTorch Against TensorFlow for Developers",
-      "urls": [
-        "https://discoverinai.com/ai-frameworks-tensorflow-vs-pytorch-in-2026",
-        "https://opencv.org/pytorch-vs-tensorflow",
-        "https://arxiv.org/abs/2508.04035",
-        "https://blog.tensorflow.org/2022/10/building-the-future-of-tensorflow.html",
-        "https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026",
-        "https://dl.acm.org/doi/10.1145/3705303"
-      ],
-      "date": "2026-09-25T10:01:45.861059+00:00"
-    },
-    {
       "title": "Vineyard Wind 1 Issues Supplement to Draft Environmental Impact Statement Advancing Offshore Project",
       "urls": [
         "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-09-01/monthly",
@@ -11521,7 +11509,16 @@
         "https://www.thehansindia.com/news/cities/visakhapatnam/special-support-programme-for-divyang-entrepreneurs-soon-1128912"
       ],
       "date": "2026-10-05T09:31:36.068304+00:00"
+    },
+    {
+      "title": "9to5Linux Publishes Weekly Linux Roundup Highlighting Key Open‑Source Updates for Community",
+      "urls": [
+        "https://9to5linux.com/9to5linux-weekly-roundup-october-4th-2026",
+        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-40-2026-september-28-october-4"
+      ],
+      "date": "2026-10-05T10:01:54.245495+00:00"
     }
   ],
-  "lastUpdated": "2026-10-05T09:31:36.068391+00:00"
+  "lastUpdated": "2026-10-05T10:01:54.245562+00:00"
 }
