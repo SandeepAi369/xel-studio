@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "SocialBee Publishes Comprehensive Report Highlighting Emerging Social Media Trends For Marketers",
-      "urls": [
-        "https://socialbee.com/blog/x-updates-news",
-        "https://www.forbes.com/advisor/business/social-media-statistics"
-      ],
-      "date": "2026-09-25T03:32:12.373244+00:00"
-    },
-    {
       "title": "India Prepares Agentic Payments on UPI to Enable AI‑Driven Transactions",
       "urls": [
         "https://www.msn.com/en-in/money/general/pm-modi-hails-india-s-fintech-journey-says-upi-transformed-digital-payments/ar-AA2bOeuZ?ocid=BingNewsVerp",
@@ -11725,7 +11717,20 @@
         "https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs"
       ],
       "date": "2026-10-05T03:31:44.132328+00:00"
+    },
+    {
+      "title": "Anthropic Begins Development of Next‑Generation Claude Successor Model to Advance Conversational AI Capabilities",
+      "urls": [
+        "https://www.latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies",
+        "https://en.m.wikipedia.org/wiki/Anthropic",
+        "https://claude.com",
+        "https://claude.com/product/overview",
+        "https://academy.claude.com",
+        "https://anthropic.skilljar.com",
+        "https://platform.claude.com"
+      ],
+      "date": "2026-10-05T04:01:38.207476+00:00"
     }
   ],
-  "lastUpdated": "2026-10-05T03:31:44.132404+00:00"
+  "lastUpdated": "2026-10-05T04:01:38.207551+00:00"
 }
