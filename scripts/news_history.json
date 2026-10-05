@@ -1,40 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Secures €3 Billion Funding Led by Samsung, Unveils Open‑Weight Mistral 3 Model",
-      "urls": [
-        "https://www.msn.com/en-in/news/other/mistral-s-3-billion-open-ai-bet-why-samsung-asml-are-backing-it-and-what-s-next-for-french-startup/ar-AA2bPbat?ocid=BingNewsVerp",
-        "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
-        "https://www.msn.com/en-in/technology/artificial-intelligence/mistral-s-3-billion-open-ai-bet-why-samsung-asml-are-backing-it-and-what-s-next-for-french-startup/ar-AA2bPbat?ocid=BingNewsVerp",
-        "https://releasebot.io/updates/mistral",
-        "https://www.reddit.com/r/technology/comments/1tfj3yc/mistral_ais_ceo_says_europe_has_2_years_to_stop",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1t14yhr/your_local_llm_predictions_and_hopes_for_may_2026",
-        "https://www.reddit.com/r/MistralAI/comments/1s7o84e/mistral_secures_first_debt_raise_of_830m_to_power",
-        "https://mistral.ai/news",
-        "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://docs.mistral.ai/resources/changelogs",
-        "https://mistral.ai/news/mistral-3",
-        "https://aizolo.com/blog/mistral-ai-models-2026",
-        "https://mistral.ai/news/about-mistral-ai",
-        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
-        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
-        "https://www.reddit.com/r/aicuriosity/comments/1pcb3rx/mistral_3_release_new_opensource_multimodal_ai",
-        "https://mistral.ai",
-        "https://en.wikipedia.org/wiki/Privately_held_company",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://adtools.org/buyers-guide/ai-news-mistral-3-open-source-model-release",
-        "https://serenitiesai.com/articles/mistral-magistral-devstral-2-review-2026",
-        "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
-        "https://www.cnbc.com/2025/12/02/mistral-unveils-new-ai-models-in-bid-to-compete-with-openai-google.html",
-        "https://tech-insider.org/llama-4-vs-qwen-vs-mistral-2026",
-        "https://builtin.com/articles/mistral-ai",
-        "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
-        "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise",
-        "https://www.ibm.com/think/topics/mistral-ai"
-      ],
-      "date": "2026-09-25T23:01:52.655788+00:00"
-    },
-    {
       "title": "Mistral AI Secures €3 Billion Funding Led by Samsung and Launches Open‑Weight Mistral 3 Model",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/telemedicine-digital-health-market-2026-093200195.html",
@@ -11058,7 +11024,16 @@
         "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon"
       ],
       "date": "2026-10-05T23:01:40.529833+00:00"
+    },
+    {
+      "title": "Apollo Hospitals Expands Telemedicine Services to Reach Rural Patients Across India",
+      "urls": [
+        "https://www.medicalnewstoday.com/articles/telemedicine",
+        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
+        "https://en.wikipedia.org/wiki/Apollo_Hospitals"
+      ],
+      "date": "2026-10-05T23:31:34.017025+00:00"
     }
   ],
-  "lastUpdated": "2026-10-05T23:01:40.529918+00:00"
+  "lastUpdated": "2026-10-05T23:31:34.017105+00:00"
 }
