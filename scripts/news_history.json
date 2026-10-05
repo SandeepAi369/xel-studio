@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Google And Anthropic Strengthen AI Security With Massive Bug Fixes And Bio‑Weapon Block",
-      "urls": [
-        "https://www.yahoo.com/news/us/articles/anthropic-reveals-houthi-rebels-used-124634529.html",
-        "https://www.msn.com/en-in/news/other/weekly-ai-cybersecurity-update-microsoft-google-fix-over-1000-bugs-anthropic-blocks-bio-weapons-supporting-ai/ar-AA2c1k3h?ocid=BingNewsVerp",
-        "https://alobbs.com/post/2026-03-02",
-        "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-        "https://minifeed.net/blogs/mlgi96If",
-        "https://www.rappler.com/technology/anthropic-threat-intelligence-report-september-2026"
-      ],
-      "date": "2026-09-25T15:31:55.506693+00:00"
-    },
-    {
       "title": "Wilson Sonsini Publishes European Digital Regulatory Preview Anticipating 2026 Policy Shifts",
       "urls": [
         "https://www.ketch.com/blog/posts/us-privacy-laws-2026",
@@ -11340,7 +11328,20 @@
         "https://www.thunderbird-mail.de/forum/thread/33545-kein-senden-von-mails-%C3%BCber-aol-m%C3%B6glich-gel%C3%B6st"
       ],
       "date": "2026-10-05T15:31:50.098137+00:00"
+    },
+    {
+      "title": "California Gubernatorial Election Draws Nationwide Attention as Voters Track Midterm Trends",
+      "urls": [
+        "https://www.foxnews.com/elections/2026/primary-results",
+        "https://www.nytimes.com/interactive/polls/latest-polls.html",
+        "https://www.npr.org/sections/elections",
+        "https://www.nbcnews.com/politics/2026-election",
+        "https://www.270towin.com/news",
+        "https://en.wikipedia.org/wiki/2026_California_gubernatorial_election",
+        "https://www.bloomberg.com/latest/us-2026-election"
+      ],
+      "date": "2026-10-05T16:01:51.615402+00:00"
     }
   ],
-  "lastUpdated": "2026-10-05T15:31:50.098175+00:00"
+  "lastUpdated": "2026-10-05T16:01:51.615475+00:00"
 }
