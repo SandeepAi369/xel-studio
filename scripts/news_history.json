@@ -1,75 +1,6 @@
 {
   "entries": [
     {
-      "title": "Citizens for Justice and Peace Publishes Supreme Court Judgment Brief to Guide Activists",
-      "urls": [
-        "https://morungexpress.com/govts-commitment-to-inclusivity-and-self-reliance-fostering-disability-rights-in-india",
-        "https://www.panxworld.com/blogs/posts/supreme_court_rpwd_digital_accessibility_india_2026.html",
-        "https://cjp.org.in/from-policy-to-practice-recent-supreme-court-judgments-on-disability-rights-lapses"
-      ],
-      "date": "2026-09-26T05:31:55.885768+00:00"
-    },
-    {
-      "title": "Avisirah Technologies Raises Rs75 Crore to Build AI Data Centre in Navi Mumbai",
-      "urls": [
-        "https://www.cloudcomputing-news.net",
-        "https://www.facebook.com/visualcapitalist/videos/ai-is-moving-fast-but-the-infrastructure-powering-it-faces-growing-challenges-in/1994499197883118",
-        "https://www.youtube.com/watch?v=FMLgeQBNzSk",
-        "https://www.youtube.com/watch?v=cjUZUD0aW_s",
-        "https://www.youtube.com/watch?v=Upk9AwHFIpw",
-        "https://www.civo.com/blog/state-of-cloud-in-2026",
-        "https://www.wiz.io/reports/state-of-ai-in-the-cloud-2026",
-        "https://docs.oracle.com/en-us/iaas/releasenotes",
-        "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
-        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
-        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26",
-        "https://www.forbes.com/sites/rscottraynovich/2026/01/22/how-ai-will-shape-cloud-services--infrastructure-in-2026",
-        "https://aimagazine.com/events/cloud-amp-ai-infrastructure-asia-2026",
-        "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-august-2026",
-        "https://aibusiness.com/verticals/cloud-computing",
-        "https://www.linkedin.com/pulse/cloud-2026-rise-ai-driven-sovereign-hyperconnected-dmt4f",
-        "https://blockchain.news/ainews/alibaba-cloud-unveils-ai-chip-accelerates-data-centers",
-        "https://www.theglobeandmail.com/investing/markets/stocks/DOCN/pressreleases/4564785/digitalocean-secures-major-ai-infrastructure-financing-facility",
-        "https://www.marketscreener.com/news/quanome-advances-its-ai-cloud-business-xdt-with-us-18-8-million-infrastructure-purchase-agreement-ce785ad9df8bf721",
-        "https://www.analyticsinsight.net/stocks/amazon-share-price-today-stock-price-market-data-updates",
-        "https://note.com/nopotechinolife/n/n8ef3c7f8e5b3?hl=en",
-        "https://blockchain.news/news/google-deepmind-secure-ai-memory",
-        "https://www.msn.com/en-us/money/general/coreweave-stock-upgraded-on-favorable-ai-cloud-pricing-power/ar-AA2cTSIM?ocid=BingNewsVerp",
-        "https://www.theglobeandmail.com/investing/markets/stocks/SUPX/pressreleases/4445055/superx-ai-boosts-buybacks-as-apac-ai-server-orders-surge",
-        "https://www.marketscreener.com/news/alset-ai-provides-shareholder-update-announces-updated-investor-presentation-and-appoints-mitchell-ce785adada89f525",
-        "https://press.asus.com/blog/asus-ai-tech-2026-seoul-ai-factory-infrastructure",
-        "https://www.crn.com/news/cloud/2026/cloud-market-share-q2-2026-google-gains-share-as-aws-falls",
-        "https://blockchain.news/ainews/nscale-ipo-accelerates-ai-cloud-growth",
-        "https://www.msn.com/en-in/technology/cloud-computing/credo-targets-growing-ai-bandwidth-demands-with-1-6t-optical-solutions-to-showcase-new-modules-at-ecoc-2026/ar-AA2cvzfF?ocid=BingNewsVerp",
-        "https://www.livemint.com/focus/avisirah-technologies-raises-rs-75-crore-from-syndicate-finance-for-navi-mumbai-ai-data-centre-11789124465886.html",
-        "https://www.crn.com/news/cloud/2026/aws-vs-microsoft-vs-google-cloud-earnings-q2-2026-face-off",
-        "https://www.techtarget.com/ai/tip/Planning-AI-infrastructure-upgrades-Four-steps-for-success",
-        "https://www.designrush.com/agency/it-services/trends/cloud-computing-conferences",
-        "https://nextcloud.com/blog/meet-nextcloud-and-connect-at-cloudfest-2022-the-worlds-top-cloud-computing-event",
-        "https://en.wikipedia.org/wiki/IBM_Cloud",
-        "https://en.wikipedia.org/wiki/Amazon_Web_Services",
-        "https://en.wikipedia.org/wiki/Workday%2C_Inc.",
-        "https://www.euvolution.com/prometheism-transhumanism-posthumanism/news/cloud-computing/page/20",
-        "https://www.euvolution.com/futurist-transhuman-news-blog/category/cloud-computing/page/30",
-        "https://cyberpanel.net/blog/digitalocean-vs-aws",
-        "https://cyberpanel.net/blog/mainframe-computing-vs-cloud-computing",
-        "https://cyberpanel.net/blog/cloud-instances",
-        "https://www.china-briefing.com/news/chinas-cloud-computing-developments-and-opportunities",
-        "https://www.cloudzero.com/blog/cloud-computing-statistics",
-        "https://radar.inria.fr/report/2025/resist/index.html",
-        "https://radar.inria.fr/report/2025/olas/index.html",
-        "https://radar.inria.fr/report/2025/convecs/index.html",
-        "https://radar.inria.fr/report/2025/tribe/index.html",
-        "https://radar.inria.fr/report/2025/stack/index.html",
-        "https://www.cloudways.com/blog/python-cloud-computing-tools",
-        "https://growthlist.co/finland-startups",
-        "https://www.eweek.com/cloud/predictions-2020-what-s-going-to-happen-in-cloud-computing",
-        "https://planet.kernel.org",
-        "https://www.aclweb.org/aclwiki/Employment_opportunities%2C_postdoctoral_positions%2C_summer_jobs"
-      ],
-      "date": "2026-09-26T06:02:02.232046+00:00"
-    },
-    {
       "title": "Factories using the hydrogen can lower electricity bills and cut carbon emissions, supporting India’s goal to increase renewable energy share",
       "urls": [
         "https://www.powermag.com/power-digest-september-2026",
@@ -10833,7 +10764,19 @@
         "https://www.india.gov.in/explore-india"
       ],
       "date": "2026-10-06T05:31:39.341950+00:00"
+    },
+    {
+      "title": "National Common Mobility Card Advances Unified Transport Payments Across India",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Prayagraj",
+        "https://en.wikipedia.org/wiki/National_Common_Mobility_Card",
+        "https://en.wikipedia.org/wiki/List_of_megaprojects_in_India",
+        "https://projectsinindia.ai/news/top-10-infrastructure-trends-india-2026",
+        "https://www.bbc.com/news/world/asia/india",
+        "https://en.wikipedia.org/wiki/Dehradun"
+      ],
+      "date": "2026-10-06T06:02:49.999768+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T05:31:39.342047+00:00"
+  "lastUpdated": "2026-10-06T06:02:49.999809+00:00"
 }
