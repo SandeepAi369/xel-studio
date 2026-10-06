@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Greennode AI Highlights Top Open-Source Platforms for 2026 in Comprehensive Blog Review",
-      "urls": [
-        "https://greennode.ai/blog/best-open-source-ai-platforms",
-        "https://www.spheron.network/blog/cuda-news-today-nvidia-toolkit-amd-rocm-ai-frameworks-2026",
-        "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026"
-      ],
-      "date": "2026-09-26T14:31:35.813464+00:00"
-    },
-    {
       "title": "U.S. Congress Proposes AI Kill Switch Act to Prevent Uncontrolled Agent Failures",
       "urls": [
         "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/summa-healths-general-catalyst-deal-5-updates",
@@ -10592,7 +10583,16 @@
         "https://www.google.com/finance/quote/NFLX:NASDAQ"
       ],
       "date": "2026-10-06T14:02:00.502386+00:00"
+    },
+    {
+      "title": "India Surpasses 27 Million GitHub Developers, Rises to Second in Global Open‑Source AI Rankings",
+      "urls": [
+        "https://www.newkerala.com/news/a/indias-developer-community-surges-27-million-github-515.htm",
+        "https://enterpriseai.economictimes.indiatimes.com/news/industry/india-champions-open-source-ai-amid-global-tech-restrictions/132111261",
+        "https://www.indianmotorcycle.de"
+      ],
+      "date": "2026-10-06T14:31:41.608930+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T14:02:00.502426+00:00"
+  "lastUpdated": "2026-10-06T14:31:41.609009+00:00"
 }
