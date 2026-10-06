@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Deploy Mechanical Vibrations to Replace Magnetic Memory in Quantum Computing",
-      "urls": [
-        "https://phys.org/news/2026-07-mechanical-vibrations-magnetic-memory-quantum.html",
-        "https://www.techi.com/ionq-stock-nvidia-quantum-deal-rally-fades",
-        "https://drbobsutor.substack.com/p/daily-quantum-update-for-thursday-a36",
-        "https://247wallst.com/investing/2026/09/24/ionq-rises-4-as-post-breakthrough-buying-continues-d-wave-quantum-gains-3-rigetti-adds-2",
-        "https://www.facebook.com/ABCNewsLive/videos/google-unveils-a-major-breakthrough-in-quantum-computing-a-leap-that-could-one-d/661461646789926",
-        "https://blog.mean.ceo/quantum-computing-news-september-2026",
-        "https://www.sciencedaily.com/news/computers_math/computer_science"
-      ],
-      "date": "2026-09-26T19:31:33.751623+00:00"
-    },
-    {
       "title": "Novartis Accelerates Drug Discovery Using AI Platforms to Shorten Development Timelines",
       "urls": [
         "https://www.itic.org/news-events/news-releases",
@@ -10479,7 +10466,16 @@
         "https://travel.state.gov/en/passports/apply.html"
       ],
       "date": "2026-10-06T19:02:02.949320+00:00"
+    },
+    {
+      "title": "Google DeepMind Launches Centralized News Hub Detailing AI Research and Announcements",
+      "urls": [
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement",
+        "https://deepmind.google/blog",
+        "https://www.techbuzz.ai/articles/google-unveils-major-ai-updates-across-deepmind-gemini"
+      ],
+      "date": "2026-10-06T19:31:38.747958+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T19:02:02.949400+00:00"
+  "lastUpdated": "2026-10-06T19:31:38.748105+00:00"
 }
