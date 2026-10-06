@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Almgren Sets European Record to Capture World Half Marathon Title",
-      "urls": [
-        "https://marathonjournal.com",
-        "https://sports.yahoo.com/articles/2026-bmw-berlin-marathon-tigst-202600860.html",
-        "https://run247.com/running-news",
-        "https://en.wikipedia.org/wiki/Track_%26_Field_News",
-        "https://en.wikipedia.org/wiki/Sports_magazine",
-        "https://trackandfieldnews.com/article/for-the-record-september-2026",
-        "https://worldathletics.org/competitions/world-athletics-road-running-championships/copenhagen26/news/report/road-running-copenhagen-26-men-half-marathon",
-        "https://www.nyrr.org/media-center/press-release",
-        "https://www.usatf.org/resources/statistics/records",
-        "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
-        "https://www.baa.org",
-        "https://www.directathletics.com",
-        "https://trackandfieldnews.com/records/womens-world-records",
-        "https://www.runblogrun.com",
-        "https://world-track.org/category/statistics/world-records",
-        "https://www.usatf.org/news/2026/usatf-announces-expanded-women%E2%80%99s-team-for-world-ro",
-        "https://trackandfieldnews.com/mens-world-rankings-by-event",
-        "https://www.bbc.com/sport/athletics/articles/c5yjn5m23l1o"
-      ],
-      "date": "2026-09-26T08:32:04.601498+00:00"
-    },
-    {
       "title": "Renoworks Launches Renoworks.ai Platform to Offer Ready‑To‑Use AI Services for Businesses",
       "urls": [
         "https://www.marketscreener.com/news/renoworks-launches-renoworks-ai-ce785adedc8afe27",
@@ -10738,7 +10714,18 @@
         "https://www.outlookindia.com/sports/cricket/india-b-team-asian-games-2026-japan-facilities-bcci-report"
       ],
       "date": "2026-10-06T08:31:38.587314+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-4 Model With Expanded ChatGPT Free Plan for Users",
+      "urls": [
+        "https://openai.com/index/gpt-4",
+        "https://chatgpt.com",
+        "https://platform.openai.com/onboarding?app=chat&callbackHost=chatgpt.com",
+        "https://chatgpt.com/plans/free",
+        "https://de.wikipedia.org/wiki/OpenAI"
+      ],
+      "date": "2026-10-06T09:01:34.845659+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T08:31:38.587397+00:00"
+  "lastUpdated": "2026-10-06T09:01:34.845731+00:00"
 }
