@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open‑Source LLM Landscape Expands With Nine Models Launched In Twelve Days",
-      "urls": [
-        "https://releasebot.io/updates/openai",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://simonwillison.net/2026/Sep/22/llm",
-        "https://tech-insider.org/au/open-source-ai-model-wave-2026",
-        "https://www.digitalapplied.com/blog/ai-model-releases-september-2026-tracker",
-        "https://www.computerworld.com/article/4015023/openai-latest-news-and-insights.html",
-        "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview",
-        "https://codersera.com/blog/open-source-llms-landscape-2026",
-        "https://openai.com/news/product-releases",
-        "https://blog.buildfastwithai.com/open-source-llms",
-        "https://github.com/QwenLM/Qwen3.8",
-        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs",
-        "https://aitoolsrecap.com/Blog/upcoming-ai-models-2026-release-tracker"
-      ],
-      "date": "2026-09-26T02:01:59.376334+00:00"
-    },
-    {
       "title": "Epic Unveils Five AI Features at 2026 User Group Meeting",
       "urls": [
         "https://www.healthcareittoday.com/2026/09/20/bonus-features-september-20-2026-new-executives-at-cotiviti-notable-and-zelis-plus-27-more-stories",
@@ -10968,7 +10949,17 @@
         "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american"
       ],
       "date": "2026-10-06T02:01:28.937699+00:00"
+    },
+    {
+      "title": "West Bengal Expands Ayushman Bharat PM-JAY Coverage to Over 50,000 Families",
+      "urls": [
+        "https://www.ndtv.com/india-news/as-pm-modi-nears-25-years-in-office-a-look-at-his-schemes-swachh-bharat-abhiyan-digital-india-ayushman-bharat-pradhan-mantri-jan-dhan-yojana-12048295",
+        "https://en.wikipedia.org/wiki/Timeline_of_the_Narendra_Modi_premiership",
+        "https://health.economictimes.indiatimes.com/news/policy/over-50000-people-receive-healthcare-benefits-under-ayushman-bharat-pm-jay-in-bengal-cm-suvendu-adhikari/134279684",
+        "https://en.wikipedia.org/wiki/Narendra_Modi"
+      ],
+      "date": "2026-10-06T02:31:38.365182+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T02:01:28.937736+00:00"
+  "lastUpdated": "2026-10-06T02:31:38.365258+00:00"
 }
