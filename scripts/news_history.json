@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Shifts Renewable Focus From Solar to Batteries and Transmission Infrastructure",
-      "urls": [
-        "https://www.msn.com/en-us/news/other/india-s-navitas-solar-to-invest-over-1-billion-in-clean-energy-expansion/ar-AA2cSqMJ?ocid=BingNewsVerp",
-        "https://www.livemint.com/topic/renewable-power",
-        "https://www.saurenergy.com/solar-energy-news/saurenergy-explains-indias-solar-ipo-report-card-why-the-market-loves-solar-but-not-every-solar-stock-12563172",
-        "https://www.pressmonitor.co.in/en/8-essential-renewable-energy-stories-indian-professionals-20260916",
-        "https://solarquarter.com/2026/04/09/top-stories-of-the-day-top-stories-of-the-day-india-ranks-3rd-in-re-capacity-om-power-transmission-ipo-opens-and-more",
-        "https://www.businesstoday.in/industry/infra/story/solar-may-remain-king-but-indias-next-renewable-boom-could-be-in-batteries-and-transmission-552033-2026-08-29",
-        "https://www.energetica-india.net/news/renewable-energy/solar-pv",
-        "https://alpexsolar.com/resources/blog/future-of-solar-energy-india-2026"
-      ],
-      "date": "2026-09-26T18:02:06.812195+00:00"
-    },
-    {
       "title": "Tux Machines Publishes Two Consecutive Articles on Free Software and Open Standards",
       "urls": [
         "https://news.tuxmachines.org/n/2026/09/22/Free_and_Open_Source_Software.shtml",
@@ -10515,7 +10501,19 @@
         "https://en.wikipedia.org/wiki/Energy_transition"
       ],
       "date": "2026-10-06T18:01:49.491748+00:00"
+    },
+    {
+      "title": "Microsoft Expands Linux Learning Resources on Official Learn Platform for Developers and IT Professionals",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+        "https://en.wikipedia.org/wiki/Linux_Mint",
+        "https://www.linux.org",
+        "https://learn.microsoft.com/en-us/linux",
+        "https://opensource.googleblog.com/2026/10",
+        "https://en.wikipedia.org/wiki/Blender_%28software%29"
+      ],
+      "date": "2026-10-06T18:31:41.162996+00:00"
     }
   ],
-  "lastUpdated": "2026-10-06T18:01:49.491838+00:00"
+  "lastUpdated": "2026-10-06T18:31:41.163071+00:00"
 }
