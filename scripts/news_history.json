@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic OpenAI Unveil Three New AI Models In September 2026",
-      "urls": [
-        "https://www.marketscreener.com/news/renoworks-launches-renoworks-ai-ce785adedc8df72c",
-        "https://www.rutlandherald.com/news/business/venn-launches-blue-border-for-ai-governance-security/article_a47f29af-d6c5-5aac-80a0-e4118ae2c354.html",
-        "https://www.tmcnet.com/usubmit/2026/09/17/10447971.htm",
-        "https://www.finanznachrichten.de/nachrichten-2026-09/69569550-fujitsu-ltd-sony-bank-and-fujitsu-apply-generative-ai-to-core-banking-system-development-011.htm",
-        "https://aibusiness.com/generative-ai",
-        "https://alobbs.com/post/2026-04-28",
-        "https://hidekazu-konishi.com/entry/aws_history_and_timeline_amazon_connect.html",
-        "https://sourceforge.net/software/content-management/new-zealand",
-        "https://sourceforge.net/software/content-management/europe",
-        "https://sourceforge.net/software/content-management/for-nonprofit",
-        "https://smarterarticles.co.uk/page/6",
-        "https://flsenate.gov/Committees/DownloadMeetingDocument/8077",
-        "https://www.techpowerup.com/news-tags/Lovelace",
-        "https://www.techpowerup.com/news-tags/Alliance",
-        "https://www.techpowerup.com/news-tags/RTX%204080",
-        "https://democraticmedia.org/newsroom",
-        "https://thursdai.news/releases/2026-09",
-        "https://www.codemicros.com/2026/09/biggest-ai-news-september-2026.html",
-        "https://www.producthunt.com",
-        "https://blog.google/products-and-platforms/products/search/search-io-2026"
-      ],
-      "date": "2026-09-27T19:31:36.798513+00:00"
-    },
-    {
       "title": "IMF Publishes World Economic Outlook Highlighting Resilient Growth and Sticky Inflation",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
@@ -9712,7 +9686,19 @@
         "https://www.aninews.in/news/national/general-news/ayushman-bharat-digital-mission-strengthening-indias-national-digital-health-ecosystem-jp-nadda20260519215441"
       ],
       "date": "2026-10-07T19:01:46.306516+00:00"
+    },
+    {
+      "title": "India's UPI Drives Nationwide Digital Payment Adoption, Boosting Financial Inclusion",
+      "urls": [
+        "https://www.ciol.com/news/india-expands-upi-from-payments-to-a-broader-fintech-stack-12521539",
+        "https://government.economictimes.indiatimes.com/news/digital-india/upi-at-10-indias-digital-payments-revolution-faces-its-next-testscale-security-sustainability/133554153",
+        "https://paytm.com/blog/news",
+        "https://businesstoday.in/latest/corporate/story/indias-fintech-story-has-been-amazing-a-big-champion-of-this-is-upi-pm-modi-554083-2026-09-08",
+        "https://en.wikipedia.org/wiki/QR_code_payment",
+        "https://www.upi.com"
+      ],
+      "date": "2026-10-07T19:32:19.299000+00:00"
     }
   ],
-  "lastUpdated": "2026-10-07T19:01:46.306593+00:00"
+  "lastUpdated": "2026-10-07T19:32:19.299040+00:00"
 }
