@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Spheron – In a 2026 blog entry, Spheron compared PyTorch and TensorFlow, evaluating factors such as ease of use, community",
-      "urls": [
-        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
-        "https://www.sofrik.com/5-powerful-ways-of-pytorch-and-tensorflow-in-2026",
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://alitech.io/blog/comparative-analysis-of-open-source-ai-frameworks",
-        "https://pytorch.org/announcements",
-        "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china",
-        "https://heytensor.com/research/ml-framework-comparison-2026.html",
-        "https://www.techtarget.com/searchEnterpriseAI/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning",
-        "https://pytorch.org/blog/pytorch-foundation-in-2025-a-year-in-review",
-        "https://northflank.com/blog/tensorflow-alternatives",
-        "https://newsroom.arm.com/news/pytorch-kleidi-integrations-cloud-to-edge",
-        "https://www.analyticsinsight.net/machine-learning/best-ai-frameworks-for-enterprise-machine-learning-models-in-2026",
-        "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
-        "https://ai.meta.com/tools/pytorch",
-        "https://apxml.com/posts/is-tensorflow-still-relevant"
-      ],
-      "date": "2026-09-27T10:01:49.665251+00:00"
-    },
-    {
       "title": "United Nations Report Warns Global Temperatures Near Record Levels Without Immediate Emissions Cuts",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/global_warming",
@@ -10033,7 +10012,16 @@
         "https://www.moneycontrol.com/india/stockpricequote/automobile-truckslcvs/tatamotors/TML02"
       ],
       "date": "2026-10-07T10:01:42.461205+00:00"
+    },
+    {
+      "title": "India Accelerates Renewable Energy and Battery Storage Plans Amid Growing Demand",
+      "urls": [
+        "https://renewablewatch.in",
+        "https://powerpeakdigest.com/power-sector-news-roundup-for-october-6-2026",
+        "https://energydigital.com/news/inside-indias-renewable-energy-battery-storage-ambitions"
+      ],
+      "date": "2026-10-07T10:31:39.608048+00:00"
     }
   ],
-  "lastUpdated": "2026-10-07T10:01:42.461298+00:00"
+  "lastUpdated": "2026-10-07T10:31:39.608118+00:00"
 }
