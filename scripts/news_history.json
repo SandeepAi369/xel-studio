@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "title": "United Nations Explores AI Potential to Create Fairer Future for Persons With Disabilities",
-      "urls": [
-        "https://www.youtube.com/watch?v=S47P4ZvpL2Q",
-        "https://www.youtube.com/watch?v=T92Zoq0HJAY",
-        "https://www.facebook.com/cnbctv18india/videos/assistive-tech-startups/1215182572654748",
-        "https://www.youtube.com/watch?v=APg22Lnqbdo",
-        "https://www.youtube.com/watch?v=FbkQW4j9VgE",
-        "https://www.dailyprabhat.com/special-honour-and-awareness-programme-celebrating-divyangjans-talents-organised-under-seva-sankalp-abhiyan",
-        "https://spmrf.org/case-of-assistive-technology-ecosystem-in-india",
-        "https://www.devdiscourse.com/article/law-order/3832361-divyang-sahara-yojana-to-boost-assistive-tech-access-and-inclusion",
-        "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2088877",
-        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment-2.pdf",
-        "https://drreddysfoundation.org/the-landscape-of-assistive-technology-in-india-for-persons-with-disabilities",
-        "https://www.ndtv.com/india-news/union-budget-2026-live-centres-focus-on-divyangjan-artificial-limbs-production-10924223",
-        "https://www.phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment.pdf",
-        "https://vajiramandravi.com/current-affairs/divyangjan-kaushal-yojana",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10391423",
-        "https://news.un.org/en/story/2025/10/1166082",
-        "https://depwd.gov.in/en/accessible-india-campaign",
-        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022123140101.pdf",
-        "https://phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment25.pdf",
-        "https://www.downtoearth.org.in/health/not-much-relief-for-differently-abled-people-in-union-budget-2026-27",
-        "https://pib.gov.in/PressReleasePage.aspx?PRID=2221850",
-        "https://depwd.gov.in/en/adip"
-      ],
-      "date": "2026-09-28T05:31:54.986038+00:00"
-    },
-    {
       "title": "Nvidia Signs $1.5 Billion Deal to Expand U.S. AI Chip Packaging",
       "urls": [
         "https://www.crn.com/news/components-peripherals/2026/ces-2026-8-big-chip-announcements-by-intel-nvidia-amd-and-qualcomm",
@@ -9401,7 +9373,19 @@
         "https://eyespy.org/news"
       ],
       "date": "2026-10-08T05:31:23.541790+00:00"
+    },
+    {
+      "title": "Anthropic Expands Claude Access to U.S. Cybersecurity Firms Amid Safety and Traceability Push",
+      "urls": [
+        "https://www.anthropic.com/news",
+        "https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science-biology/688878",
+        "https://www.bloomberg.com/news/articles/2026-10-06/anthropic-expands-access-to-latest-ai-models-for-cyber-firms",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China",
+        "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+        "https://latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies"
+      ],
+      "date": "2026-10-08T06:01:36.767956+00:00"
     }
   ],
-  "lastUpdated": "2026-10-08T05:31:23.541860+00:00"
+  "lastUpdated": "2026-10-08T06:01:36.768049+00:00"
 }
