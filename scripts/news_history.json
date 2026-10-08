@@ -1,76 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Signs $1.5 Billion Deal to Expand U.S. AI Chip Packaging",
-      "urls": [
-        "https://www.crn.com/news/components-peripherals/2026/ces-2026-8-big-chip-announcements-by-intel-nvidia-amd-and-qualcomm",
-        "https://www.spokesman.com/stories/2026/sep/21/amd-set-to-top-1-trillion-in-market-value-as-chip-",
-        "https://www.facebook.com/bloombergbusiness/videos/nvidia-is-entering-the-pc-market-with-a-new-superchip-with-windows-running-on-th/27252280751122773",
-        "https://www.reuters.com/business/amd-expected-launch-next-generation-ai-infrastructure-challenge-nvidia-2026-07-23",
-        "https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia",
-        "https://hothardware.com/news/amd-joins-elite-1-trillion-club-wall-street-bets-big-ai",
-        "https://www.sphericalinsights.com/blogs/amd-joins-the-1-trillion-club-what-its-ai-chip-surge-says-about-the-next-semiconductor-race",
-        "https://www.fool.com/investing/2026/09/10/3-ai-chip-stocks-to-buy-in-september",
-        "https://finance.yahoo.com/news/nvidia-amd-brace-surging-ai-133206876.html",
-        "https://finance.yahoo.com/markets/article/amd-stock-soars-to-new-record-as-semiconductors-bounce-chart-of-the-day-161627271.html",
-        "https://finance.yahoo.com/technology/articles/3-semiconductor-stocks-buy-heading-110101367.html",
-        "https://finance.yahoo.com/technology/ai/articles/amd-chips-away-nvidias-ai-175000360.html",
-        "https://www.benzinga.com/markets/tech/26/09/61845505/huawei-takes-aim-at-nvidia-amd-with-over-10-new-ai-chipsets-but-can-the-chinese-tech-giant-close-the-gap",
-        "https://reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21",
-        "https://intellectia.ai/blog/ai-semiconductor-stocks-july-2026",
-        "https://dailycaller.com/2026/09/21/amd-cracks-1-trillion-as-ai-frenzy-sends-chip-stocks-soaring",
-        "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html",
-        "https://finance.yahoo.com/technology/ai/articles/asia-chip-stocks-slide-openai-034907224.html",
-        "https://www.fool.com/investing/2026/08/31/not-nvidia-not-amd-micron-could-be-septembers-bigg",
-        "https://www.techrepublic.com/article/news-nvidia-amkor-us-ai-chip-packaging-deal",
-        "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
-        "https://www.msn.com/en-us/money/general/amd-vs-intel-which-artificial-intelligence-ai-chip-stock-has-more-room-to-run/ar-AA2cTDGN?ocid=BingNewsVerp",
-        "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-amd-semiconductor-173500352.html",
-        "https://www.fool.com/investing/2026/08/30/not-nvidia-not-amd-this-semiconductor-giant-will",
-        "https://finance.yahoo.com/technology/ai/articles/amd-behind-ai-chip-shift-144057045.html",
-        "https://www.businessinsider.com/openai-amd-chips-deal-nvidia-ai-2025-10",
-        "https://www.msn.com/en-us/technology/tech-companies/the-overlooked-chip-stock-poised-to-outperform-nvidia-amd-and-broadcom-in-the-ai-semiconductor-boom/ar-AA2bTRis?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/not-nvidia-not-amd-this-semiconductor-giant-will-be-the-ultimate-winner-of-the-artificial-intelligence-ai-hardware-race/ar-AA2bedrV?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/news/other/amd-joins-1-trillion-club-as-chipmakers-rally-on-ai-driven-demand/ar-AA2cGFW4?ocid=BingNewsVerp",
-        "https://www.thestreet.com/investing/nvidia-costs-face-new-tariff-risks",
-        "https://247wallst.com/investing/2026/09/04/intel-climbs-4-as-chip-stocks-shrug-off-rising-rate-hike-odds-nvidia-and-amd-move-higher",
-        "https://www.fastcompany.com/91551586/chip-stocks-today-arm-rises-intel-falls-nvidia-ai-superchip-windows-pcs",
-        "https://www.businessinsider.com/nvidia-stock-price-nvda-alphabet-google-ai-chips-tpu-gpu-2025-11",
-        "https://www.fool.com/investing/2026/09/03/nvidia-just-delivered-a-massive-warning-to-amd-and-intel-stock-investors",
-        "https://www.fool.com/investing/2026/09/03/better-ai-infrastructure-stock-nvidia-vs-amd",
-        "https://247wallst.com/investing/2026/09/01/semiconductor-stocks-slide-as-global-bond-selloff-lifts-yields-intel-drops-3-nvidia-and-amd-slip",
-        "https://www.forbes.com/sites/jonmarkman/2026/06/02/nvidia-vera-cpu-is-a-biggerthreat-to-intel--amd-than-investors-think",
-        "https://techrights.org/n/2024/01/24/Links_24_01_2024_Natural_Disasters_and_COVID_19_Rebounds.shtml",
-        "https://www.futuretimeline.net/forum/viewtopic.php?start=320&t=2247",
-        "https://www.scaruffi.com/svhistory/sil22.html",
-        "https://deadstack.net/tag/investment",
-        "https://deadstack.net/tag/tsmc",
-        "https://deadstack.net/tag/memory",
-        "https://deadstack.net/tag/pricing",
-        "https://ai.mee.nu/archive/2026/1",
-        "https://www.techpowerup.com/news-tags/supply%20and%20demand",
-        "https://www.techpowerup.com/news-tags/16%3A9",
-        "https://nunosempere.com/blog/2023/12/06/long-list-ai-questions",
-        "https://amdatalakehouse.substack.com/p/ai-weekly-mcp-goes-stateless-amd",
-        "https://www.cnbcfix.com/fast-money-review-cnbc.html",
-        "https://www.cnbcfix.com/fast-money-archive-july-2024.html",
-        "https://hardware.slashdot.org/story/25/09/04/2152214/intel-outspends-rivals-in-rd-28-more-than-nvidia-156-more-than-amd",
-        "https://hardware.slashdot.org/story/26/01/04/0515201/the-us-effort-to-break-chinas-rare-earth-monopoly",
-        "https://www.livetradingnews.com/ai-and-quantum-update",
-        "https://www.livetradingnews.com/economic-calendar-and-trading-strategy-this-week-august-17-to-21-2026",
-        "https://alobbs.com/post/2026-09-13",
-        "https://jack-clark.net/page/40",
-        "https://americanaffairsjournal.org/2024/11/the-evolution-of-chinas-semiconductor-industry-under-u-s-export-controls",
-        "https://www.fintechweekly.com/magazine/articles/us-china-chip-controls-nvidia-h200-conditional-export-policy",
-        "https://dailynewsfromaolf.substack.com/p/the-openai-bubble",
-        "https://logs.sylnt.us/%23rss-bot/2026-09-01.html",
-        "https://logs.sylnt.us/%23rss-bot/2026-02-09.html",
-        "https://logs.sylnt.us/%23rss-bot/2025-10-30.html",
-        "https://logs.sylnt.us/%23rss-bot/2025-08-01.html"
-      ],
-      "date": "2026-09-28T06:01:57.896301+00:00"
-    },
-    {
       "title": "India Cuts Monsoon Forecast to 90 Percent of Normal Amid Intensifying El Niño",
       "urls": [
         "https://www.msn.com/en-in/news/India/southwest-monsoon-retreats-from-parts-of-northwest-india-earliest-withdrawal-from-delhi-since-2002/ar-AA2cOqBm?ocid=BingNewsVerp",
@@ -9385,7 +9315,18 @@
         "https://latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies"
       ],
       "date": "2026-10-08T06:01:36.767956+00:00"
+    },
+    {
+      "title": "India Faces Rising Rice Prices as Monsoon Deficit and El Niño Threaten Food Supply",
+      "urls": [
+        "https://www.thehindu.com/news/national/why-is-the-price-of-rice-rising-across-the-country-explained/article71555312.ece",
+        "https://www.nextias.com/ca/current-affairs/01-10-2026/southwest-monsoon-2026",
+        "https://www.skymetweather.com/content/la-nina/el-nino-strikes-indian-monsoon-triggers-drought-after-a-decade",
+        "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
+        "https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event"
+      ],
+      "date": "2026-10-08T06:31:30.026053+00:00"
     }
   ],
-  "lastUpdated": "2026-10-08T06:01:36.768049+00:00"
+  "lastUpdated": "2026-10-08T06:31:30.026124+00:00"
 }
