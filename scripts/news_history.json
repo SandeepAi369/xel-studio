@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "The New News in AI Publishes Fresh Edition Highlighting Emerging Artificial Intelligence Trends",
-      "urls": [
-        "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai",
-        "https://markmcneilly.substack.com/p/the-new-news-in-ai-12725edition",
-        "https://markmcneilly.substack.com/p/the-new-news-in-ai-32425-edition",
-        "https://alobbs.com/post/2026-09-21",
-        "https://alobbs.com/post/2026-08-10",
-        "https://alobbs.com/post/2026-08-11",
-        "https://suzymchale.neocities.org/journal/journal2023",
-        "https://jonlennartaasenden.wordpress.com/news/page/5",
-        "https://bsdly.blogspot.com/2021",
-        "https://owasp.github.io/news",
-        "https://ai.meta.com/blog/meta-llama-3-1"
-      ],
-      "date": "2026-09-29T23:02:06.093834+00:00"
-    },
-    {
       "title": "Ayushman Bharat Digital Mission Surpasses 90 Crore Health ID Registrations, Building Largest Ecosystem",
       "urls": [
         "https://www.chennaionline.com/news/indias-digital-health-ecosystem-supports-scalable-healthcare",
@@ -8104,7 +8087,18 @@
         "https://secondtalent.com/resources/deep-learning-frameworks-open-source-community"
       ],
       "date": "2026-10-09T23:01:52.285886+00:00"
+    },
+    {
+      "title": "Drug Wikipedia Page Provides Comprehensive Overview of Pharmaceutical Term",
+      "urls": [
+        "https://insilico.com/news/pr84b6b87c28897f2c680e-pharma-ai-2026-fall-update-preview-agentic-ai-takes-the-wheel-of-pharmaceutical-intelligence",
+        "https://medicalxpress.com/news/2026-08-students-ai-isnt-drug-discovery.html",
+        "https://newmarketpitch.com/blogs/news/ai-drug-discovery-funding-news",
+        "https://www.techtimes.com/articles/327885/20260923/five-pharma-rivals-ran-federated-drug-discovery-ai-20000-secret-structures-it-won.htm",
+        "https://en.wikipedia.org/wiki/Drug"
+      ],
+      "date": "2026-10-09T23:31:31.650717+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T23:01:52.285989+00:00"
+  "lastUpdated": "2026-10-09T23:31:31.650811+00:00"
 }
