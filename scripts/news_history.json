@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Acquires Hugging Face to Accelerate Open Model Development Across Industry",
-      "urls": [
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1rh7auj/with_opensource_models_now_within_single_digits",
-        "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
-        "https://benchlm.ai/model-updates",
-        "https://llm-stats.com",
-        "https://llm-stats.com/benchmarks",
-        "https://llm-stats.com/models/compare",
-        "https://blockchain.news/ainews/nvidia-acquires-hugging-face-boosts-open-models",
-        "https://openssf.org/author/craig",
-        "https://nextcloud.com/blog/nextcloud-hub-european-microsoft-365-google-workspace-alternative",
-        "https://colineberhardt.github.io"
-      ],
-      "date": "2026-09-29T18:31:41.058806+00:00"
-    },
-    {
       "title": "ISRO plans to incorporate AIIMS expertise in areas such as bone density loss, radiation exposure, and",
       "urls": [
         "https://www.indiatoday.in/health/story/breast-cancer-aiims-mammography-ai-clinical-use-india-2997697-2026-09-18",
@@ -8200,7 +8184,19 @@
         "https://www.healthline.com/health/asthma/allergic-asthma"
       ],
       "date": "2026-10-09T18:31:36.137185+00:00"
+    },
+    {
+      "title": "TATEEDA Releases Top 20 Healthcare Technology Trends Shaping 2026 Industry",
+      "urls": [
+        "https://tateeda.com/blog/healthcare-technology-trends",
+        "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends",
+        "https://www.healthcare.gov",
+        "https://www.expresshealthcare.in/news/gdhs-2026-to-focus-on-ai-implementation-across-healthcare/455304",
+        "https://www.healthcare.gov/login",
+        "https://www.forbes.com/topics/ai-in-healthcare"
+      ],
+      "date": "2026-10-09T19:01:36.638900+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T18:31:36.137238+00:00"
+  "lastUpdated": "2026-10-09T19:01:36.638989+00:00"
 }
