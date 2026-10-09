@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Senate Committee Launches Investigation Into OpenAI and Hugging Face Hack",
-      "urls": [
-        "https://github.com/845421145-lang/agents-radar/issues/216",
-        "https://github.com/yaojiejia/agents-radar/issues/210",
-        "https://www.reddit.com/r/ArtificialInteligence/comments/1wkzd9w/what_is_actually_going_on_with_all_the_recent_ai",
-        "https://www.reddit.com/r/Thedaily/comments/1wg22a5/the_ai_researcher_whose_rebellion_is_changing",
-        "https://restofworld.org/2026/china-open-source-ai-hugging-face-modelscope-moark",
-        "https://www.foxbusiness.com/markets/nvidia-launches-security-platform-keep-ai-agents-from-going-rogue",
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://huggingface.co/blog/state-of-open-models-summer-2026",
-        "https://opentools.ai/news/tags/huggingface",
-        "https://www.linkedin.com/posts/ztm-academy_state-of-open-source-on-hugging-face-spring-activity-7450224689789988864-8_yn",
-        "https://techbullion.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems",
-        "https://huggingface.co",
-        "https://ca.finance.yahoo.com/news/nvidia-launches-ai-security-tools-100210077.html",
-        "https://www.forbes.com/sites/zacharyfolk/2026/09/10/openais-hugging-face-hack-faces-senate-investigation",
-        "https://www.yahoo.com/news/politics/articles/top-ai-researchers-warn-intelligence-145710147.html",
-        "https://www.msn.com/en-us/money/topstories/openai-scraps-rollout-of-new-model-over-safety-concerns/ar-AA2d9yxl?ocid=BingNewsVerp"
-      ],
-      "date": "2026-09-29T14:31:42.610315+00:00"
-    },
-    {
       "title": "Health IT Answers Expands Virtual Healthcare Resources for Clinicians and Administrators",
       "urls": [
         "https://www.healthitanswers.net/virtual-healthcare-july-2026",
@@ -8420,7 +8398,20 @@
         "https://www.reuters.com/technology/artificial-intelligence"
       ],
       "date": "2026-10-09T14:31:30.102686+00:00"
+    },
+    {
+      "title": "Pharma.AI Showcases Agentic AI Steering Future of Drug Discovery Platforms",
+      "urls": [
+        "https://sciencedirect.com/science/article/pii/S2352304226003740",
+        "https://sciencedirect.com/science/article/pii/S0031699725075118",
+        "https://www.nature.com/articles/s41573-026-01496-2",
+        "https://www.windowscentral.com/how-connect-and-set-multiple-monitors-windows-10",
+        "https://streetscan.co.uk/postcode/ha1-1sj",
+        "https://www.thetechedvocate.org/ai-drug-discoverys-first-major-test-this-startups-results-just-blew-the-lid-off-biotech-ethics",
+        "https://www.eurekalert.org/news-releases/1145336"
+      ],
+      "date": "2026-10-09T15:02:05.410483+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T14:31:30.102760+00:00"
+  "lastUpdated": "2026-10-09T15:02:05.410569+00:00"
 }
