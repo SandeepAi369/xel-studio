@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechCrunch published the story on September 1, citing the memo’s language “huge launch next week” and quoting the internal note",
-      "urls": [
-        "https://www.gaming.net/openbet-names-nikos-konstakis-ceo-in-leadership-transition",
-        "https://finance.yahoo.com/technology/ai/articles/bond-ceo-host-investor-webinar-122700497.html",
-        "https://www.businesswire.com/newsroom/industry/technology",
-        "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments",
-        "https://www.washingtontechnology.com/companies/2026/09/tech-growth-and-operations-leadership-moves-across-market/416223?oref=wt-homepage-river",
-        "https://www.styletech.net/post/top-news-in-tech-september-2026",
-        "https://www.artiverse.ca/september-2026s-biggest-tech-moves-span-ai-gaming-and-devices",
-        "https://www.facebook.com/TheBaruchGroup/posts/has-ai-ended-thought-leadershipby-john-winsormarch-9-2026summary-as-generative-a/1461279265787795",
-        "https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo",
-        "https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-names-karandeep-anand-to-newly-created-role-of-chief-technology-officer",
-        "https://corporate.lululemon.com/newsroom/press-releases/2026/04-22-2026-210620063",
-        "https://venturebeat.com",
-        "https://www.hyundai.com/worldwide/en/newsroom",
-        "https://investor.textron.com/news-releases/default.aspx",
-        "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
-        "https://intellizence.com/category/insights/executive-appointments",
-        "https://websummit.com"
-      ],
-      "date": "2026-09-29T03:33:54.431048+00:00"
-    },
-    {
       "title": "OpenAI Delays GPT-6 Astra Launch Over Safety Concerns and Zero-Day Exploits",
       "urls": [
         "https://www.youtube.com/watch?v=uFzfbAPZOhc",
@@ -8728,7 +8705,19 @@
         "https://en.wikipedia.org/wiki/Blockchain"
       ],
       "date": "2026-10-09T03:31:36.246215+00:00"
+    },
+    {
+      "title": "Nvidia Unveils Superchip Bringing AI Power to Consumer Laptops in 2026",
+      "urls": [
+        "https://www.fool.com/investing/2026/10/06/growth-stocks-powering-every-chip-nvidia-amd",
+        "https://fool.com/investing/2026/10/07/forget-nvidia-amd-under-radar-chip-stock-on",
+        "https://www.politico.com/news/2026/09/29/nvidia-amd-trump-chips-china-ai-01096445",
+        "https://www.bbc.com/news/articles/crmp9mppvzro",
+        "https://tech-insider.org/ca/nvidia-rtx-spark-ai-pc-launch-lenovo-acer-2026",
+        "https://www.theguardian.com/technology/2026/jun/01/nvidia-launches-chip-ai-laptops-pc-rtx-spark-microsoft-windows"
+      ],
+      "date": "2026-10-09T04:01:32.485498+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T03:31:36.246290+00:00"
+  "lastUpdated": "2026-10-09T04:01:32.485554+00:00"
 }
