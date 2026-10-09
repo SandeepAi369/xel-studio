@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Probe Global Warming Acceleration Amid Rising Natural Disasters Worldwide",
-      "urls": [
-        "https://climateandeconomy.com/2026/09/29/29th-september-2026-todays-round-up-of-climate-news",
-        "https://www.reuters.com/sustainability/climate-change",
-        "https://link.springer.com/subjects/climate-change",
-        "https://climateandeconomy.com/2026/09/03/3rd-september-2026-todays-round-up-of-climate-news",
-        "https://www.nature.com/nclimate/articles?type=article&year=2026",
-        "https://www.nytimes.com/2025/06/26/climate/climate-heat-intensity.html",
-        "https://www.usnews.com/news/world/articles/2025-11-08/as-cop30-gathers-whats-the-latest-in-climate-science",
-        "https://www.cnn.com/2026/03/06/climate/climate-warming-faster-scientists-2030-mystery",
-        "https://www.greenpeace.org/international/story/85518/natural-disasters-2026-heat-fires-oil-gas-climate-renewables"
-      ],
-      "date": "2026-09-29T22:31:40.343928+00:00"
-    },
-    {
       "title": "The New News in AI Publishes Fresh Edition Highlighting Emerging Artificial Intelligence Trends",
       "urls": [
         "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai",
@@ -8099,7 +8084,18 @@
         "https://dictionary.cambridge.org/dictionary/english/generative"
       ],
       "date": "2026-10-09T22:02:14.020638+00:00"
+    },
+    {
+      "title": "Global Biodiversity Decline Persists While Recovery Pockets Emerge, Experts Call for Coordinated Action",
+      "urls": [
+        "https://phys.org/news/2026-10-world-seize-window-nature-wildlife.html",
+        "https://english.alarabiya.net/News/saudi-arabia/2026/10/06/saudi-solar-park-becomes-breeding-ground-for-threatened-wildlife-in-conservation-first",
+        "https://sciencedaily.com/news/earth_climate/ecology",
+        "https://tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
+        "https://www.deccanherald.com/environment/amid-73-decline-in-wildlife-population-scientists-reveal-grounds-for-hope-4174812"
+      ],
+      "date": "2026-10-09T22:31:50.285192+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T22:02:14.020693+00:00"
+  "lastUpdated": "2026-10-09T22:31:50.285278+00:00"
 }
