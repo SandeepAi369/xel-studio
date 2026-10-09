@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Texas School for the Blind Launches New Online News Portal for Students and Families",
-      "urls": [
-        "https://www.tsbvi.edu/about/announcements/news/electrifying-news-welcome-back-3",
-        "https://www.isbe.net/Documents/Assistive-Technology-Students-Visually-Impaired.pdf",
-        "https://www.iesbvi.org/news"
-      ],
-      "date": "2026-09-29T05:31:33.256746+00:00"
-    },
-    {
       "title": "Google Gemini Delay Highlights Cautious Approach to AI Model Rollout",
       "urls": [
         "https://www.youtube.com/watch?v=OHsUy9WNysQ",
@@ -8668,7 +8659,17 @@
         "https://www.democracynow.org/2026/10/8/headlines"
       ],
       "date": "2026-10-09T05:31:31.361043+00:00"
+    },
+    {
+      "title": "Forbes published a piece one week ago detailing recent progress in AI video generation. The",
+      "urls": [
+        "https://forbes.com/sites/ronschmelzer/2026/09/30/ai-video-is-getting-good-enough-to-make-the-model-invisible",
+        "https://en.wikipedia.org/wiki/Kimi_%28AI%29",
+        "https://note.com/alive_shark4897/n/nfc077830d6a6?hl=en",
+        "https://gemini.google.com"
+      ],
+      "date": "2026-10-09T06:01:51.530213+00:00"
     }
   ],
-  "lastUpdated": "2026-10-09T05:31:31.361100+00:00"
+  "lastUpdated": "2026-10-09T06:01:51.530277+00:00"
 }
