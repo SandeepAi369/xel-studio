@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Government of India Issues New Press Release Detailing Digital Communication Strategy",
-      "urls": [
-        "https://internal.imd.gov.in/press_release/20260415_pr_4893.pdf",
-        "https://www.msn.com/en-in/weather/meteorology/will-india-have-a-rainy-september-weather-agency-says-monsoon-may-end-on-a-dry-note/ar-AA2bj5VQ?ocid=BingNewsVerp"
-      ],
-      "date": "2026-09-30T14:01:47.097732+00:00"
-    },
-    {
       "title": "Buildez AI Expands Model Portfolio With September 2026 Launches Amid Growing Industry Activity",
       "urls": [
         "https://zapier.com/blog/best-llm",
@@ -7489,7 +7481,15 @@
         "https://www.dw.com/en/disrupted-monsoons-force-india-to-face-climate-threat/a-78324753"
       ],
       "date": "2026-10-10T14:01:34.656235+00:00"
+    },
+    {
+      "title": "India's Developer Boom Fuels Global AI Growth and Reduces Product Development Time",
+      "urls": [
+        "https://indianexpress.com/article/technology/tech-news-technology/indian-developers-impact-the-whole-world-ai-has-reduced-entry-barrier-githubs-vp-for-apac-10335202",
+        "https://www.businesstoday.in/technology/news/story/indias-developer-boom-17-million-strong-on-github-ai-and-open-source-drive-growth-452139-2024-10-31"
+      ],
+      "date": "2026-10-10T14:31:22.860078+00:00"
     }
   ],
-  "lastUpdated": "2026-10-10T14:01:34.656305+00:00"
+  "lastUpdated": "2026-10-10T14:31:22.860146+00:00"
 }
