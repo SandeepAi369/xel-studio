@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Acquires Hugging Face for $12.9 Billion to Strengthen Open‑Source AI Platform",
-      "urls": [
-        "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai",
-        "https://www.msn.com/en-us/news/other/nvidia-acquires-hugging-face-in-push-for-open-source-technology/ar-AA2buQMA?ocid=BingNewsVerp",
-        "https://www.forbes.com/sites/geruiwang/2026/09/01/why-nvidias-hugging-face-acquisition-signals-ais-full-ecosystem-play",
-        "https://www.msn.com/en-us/money/markets/nvidia-agrees-to-buy-hugging-face-for-129-billion-report-says/ar-AA2b1uYh?ocid=BingNewsVerp",
-        "https://www.nbcnews.com/tech/tech-news/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-rcna595868",
-        "https://petapixel.com/2026/09/03/nvidia-goes-all-in-on-open-ai-models-buys-hugging-face-for-12-93-billion",
-        "https://www.usnews.com/news/best-states/california/articles/2026-09-03/nvidia-buying-artificial-intelligence-platform-hugging-face-for-13-billion",
-        "https://www.msn.com/en-us/news/other/nvidia-s-hugging-face-purchase-confirmed-at-13-billion/ar-AA2bxlDX?ocid=BingNewsVerp",
-        "https://www.alleywatch.com/2026/09/nvidia-acquisition-hugging-face-price-open-source-ai-models",
-        "https://www.msn.com/en-us/money/general/nvidia-to-buy-hugging-face-for-12-9-billion-gaining-more-exposure-to-open-model-ai/ar-AA2buFt5?ocid=BingNewsVerp",
-        "https://gizmodo.com/nvidia-ceo-says-hugging-face-will-remain-an-open-platform-for-the-entire-ai-ecosystem-2000806742"
-      ],
-      "date": "2026-10-01T08:31:49.528444+00:00"
-    },
-    {
       "title": "Future Tools Highlights Growing Landscape of AI News Platforms Across Marketing, Video, and Cloud Sectors",
       "urls": [
         "https://martech.org/the-latest-ai-powered-martech-news-and-releases",
@@ -6784,7 +6767,14 @@
         "https://timesofindia.indiatimes.com/sports/more-sports/others/rising-together-india-unveils-vision-for-2036-olympics-bid-first-ioc-presentation-set-for-november/articleshow/134764649.cms"
       ],
       "date": "2026-10-11T08:31:37.284551+00:00"
+    },
+    {
+      "title": "BuildMVPFast Publishes September 2026 Ranking of Top Ten Text‑to‑Video AI Generators",
+      "urls": [
+        "https://www.buildmvpfast.com/articles/best-llms-2026-guide/video-generation-ai"
+      ],
+      "date": "2026-10-11T09:01:30.270891+00:00"
     }
   ],
-  "lastUpdated": "2026-10-11T08:31:37.284637+00:00"
+  "lastUpdated": "2026-10-11T09:01:30.270952+00:00"
 }
