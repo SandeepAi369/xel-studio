@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "title": "DeepSeek Advances Open-Source AI Landscape Amid Growing Platform Ecosystem and Sustainable Initiatives",
-      "urls": [
-        "https://llm-stats.com/ai-news",
-        "https://github.com/yaojiejia/agents-radar/issues/224",
-        "https://github.com/datnguyenquy94/news-radar/issues/647",
-        "https://github.com/ghub1821239/agents-radar/issues/478",
-        "https://github.com/datnguyenquy94/news-radar/issues/648",
-        "https://www.informationdifference.com/the-irresistible-rise-of-open-source-ai-models",
-        "https://aiworld.eu/story/the-new-engines-of-open-source-ai",
-        "https://www.reuters.com/world/asia-pacific/nvidia-microsoft-other-tech-giants-back-open-source-ai-models-2026-07-24",
-        "https://github.com/alvinreal/awesome-opensource-ai",
-        "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-        "https://www.fastcompany.com/91594272/what-is-the-difference-between-proprietary-open-weight-open-source-ai-llm-openai-anthropic-llama-deepseek",
-        "https://vertu.com/ai-tools/top-10-open-source-models-revolutionizing-ai-in-2026",
-        "https://www.weforum.org/stories/emerging-technologies/open-source-ai-innovation-deepseek",
-        "https://www.kaggle.com/datasets",
-        "https://www.nature.com/articles/s41467-026-73866-8",
-        "https://www.opencurious.com/open-source-ai-models",
-        "https://www.digitalocean.com/resources/articles/open-source-ai-platforms",
-        "https://www.analyticsinsight.net/artificial-intelligence/best-open-source-projects-that-will-lead-in-2026",
-        "https://www.voxfor.com/what-is-new-in-ai-the-latest-news-from-october-2025",
-        "https://news.microsoft.com/source/topics/ai",
-        "https://www.analyticsinsight.net/ampstories/artificial-intelligence/best-open-source-ai-models-in-2026",
-        "https://opensourceainews.com",
-        "https://www.secondtalent.com/news/ai"
-      ],
-      "date": "2026-10-01T23:01:52.211951+00:00"
-    },
-    {
       "title": "ASCO Highlights AI Tools Shaping Future Oncology Care at Breakthrough Session",
       "urls": [
         "https://www.thenewstribune.com/news/nation-world/national/article317241365.html",
@@ -6229,7 +6200,19 @@
         "https://www.sofrik.com/5-powerful-ways-of-pytorch-and-tensorflow-in-2026"
       ],
       "date": "2026-10-11T23:01:40.090947+00:00"
+    },
+    {
+      "title": "Government Endorses NHS Doctor's Recommendations to Improve Patient Care Across the National Health Service",
+      "urls": [
+        "https://www.gov.uk/government/news/government-backs-recommendations-of-nhs-doctors-led-ai-commission",
+        "https://www.healthitanswers.net/ai-in-healthcare-news-and-updates-091626",
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://innowise.com/blog/healthcare-trends-2026",
+        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html",
+        "https://pharmaphorum.com/news/pharmaphorum-renews-strategic-media-partnership-frontiers-health-2026"
+      ],
+      "date": "2026-10-11T23:31:28.142112+00:00"
     }
   ],
-  "lastUpdated": "2026-10-11T23:01:40.090989+00:00"
+  "lastUpdated": "2026-10-11T23:31:28.142203+00:00"
 }
