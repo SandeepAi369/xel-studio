@@ -1,78 +1,6 @@
 {
   "entries": [
     {
-      "title": "Causaly Secures $60 Million Funding to Expand AI Drug Discovery Platform",
-      "urls": [
-        "https://www.drugdiscoverynews.com/ai-in-drug-discovery-from-target-identification-to-clinical-translation-17335",
-        "https://www.coherentmarketinsights.com/market-insight/drug-discovery-market-1631",
-        "https://www.coherentmarketinsights.com/market-insight/outsourced-drug-discovery-market-2847",
-        "https://www.coherentmarketinsights.com/market-insight/artificial-intelligence-in-drug-discovery-market-6125",
-        "https://www.coherentmarketinsights.com/industry-reports/de-identified-health-data-market",
-        "https://www.akdart.com/cv.html",
-        "https://www.akdart.com/cv5.html",
-        "https://www.akdart.com/dt3.html",
-        "https://www.biopharmatrend.com/m/company/owkin",
-        "https://uk.finance.yahoo.com/news/stellora-ai-advances-quantum-flow-134200280.html",
-        "https://newsmaven.io/the-first-drug-designed-by-an-ai-is-about-to-enter-the-final-phase-of-testing",
-        "https://www.alzdiscovery.org/news-room/announcements",
-        "https://cybermagazine.com/events/webinar-announcement-accelerating-drug-discovery-with-genai",
-        "https://techfundingnews.com/causaly-snaps-60m-for-its-ai-platform-for-drug-discovery-and-biomedical-research",
-        "https://journals.hh-publisher.com/index.php/pmmb/issue/download/17/5",
-        "https://smarterarticles.co.uk/page/9",
-        "https://smarterarticles.co.uk/page/2",
-        "https://www.rapamycin.news/t/how-are-companies-reversing-ageing-alex-colville-age1/14357",
-        "https://www.dundee.ac.uk/feature",
-        "https://pete843.substack.com/p/a-covid-timeline",
-        "https://pete843.substack.com/p/the-road-to-operation-covid",
-        "https://www.msn.com/en-us/money/other/can-recursion-pharmaceuticals-strategic-deals-fuel-long-term-growth/ar-AA2cUC6q?ocid=BingNewsVerp",
-        "https://healthcarediscovery.ai/ai-designed-drugs-human-trials-2026-status-report",
-        "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
-        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Lilly-Announce-Co-Innovation-AI-Lab-to-Reinvent-Drug-Discovery-in-the-Age-of-AI/default.aspx",
-        "https://www.zacks.com/stock/news/2975676/4-ai-powered-drug-discovery-stocks-to-watch-as-ai-reshapes-pharma",
-        "https://intuitionlabs.ai/articles/ai-tools-pharma-scientists-2026"
-      ],
-      "date": "2026-10-01T07:31:29.761204+00:00"
-    },
-    {
-      "title": "Anthropic Files IPO Prospectus Warning AI May Pose Existential Risk to Humanity",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/09/29/3370722/0/en/inaugural-cxo-summit-set-to-bring-500-senior-leaders-to-london.html",
-        "https://www.reddit.com/r/accelerate/comments/1tkygbr/nyt_im_the_ceo_of_goldman_sachs_the_ai_job",
-        "https://www.reddit.com/r/ExperiencedDevs/comments/1sb5iqh/what_actually_makes_a_developer_hard_to_replace",
-        "https://finance.yahoo.com/technology/ai/articles/ineo-present-otc-markets-ai-110000289.html",
-        "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
-        "https://time.com/collection/executives-of-the-year-tech-data/2026",
-        "https://reuters.com/world/us/trump-releases-ai-accord-with-tech-executives-2026-09-29",
-        "https://www.ft.com/technology",
-        "https://www.odgers.com/en-us/insights/2026-leadership-trends-in-the-technology-sector",
-        "https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare",
-        "https://www.linkedin.com/posts/technologymag_leadership-artificialintelligence-technologynews-activity-7472611499614769152-JsAh",
-        "https://www.ceoupdate.com",
-        "https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence",
-        "https://www.crn.com/news/security/2026/crowdstrike-fal-con-2026-biggest-statements-from-nvidia-ceo-huang-intel-ceo-tan-and-openai-president-brockman",
-        "https://finance.yahoo.com/technology/articles/rockwell-automation-announces-executive-leadership-120000564.html?fr=sycsrp_catchall",
-        "https://tracksuccession.com",
-        "https://www.investing.com/news/company-news/rockwell-automation-announces-leadership-changes-effective-oct-1-93CH-4915240",
-        "https://www.boardroomalpha.com/executive-moves",
-        "https://businesschief.com/news/top-five-leadership-stories-17-october-2025",
-        "https://newsroom.cisco.com/c/r/newsroom/en/us/index.html",
-        "https://www.boardroomalpha.com/research/executive-moves-update-october-17-2025",
-        "https://businesschief.com/news/this-weeks-top-five-leadership-stories-10-october-2025",
-        "https://www.whitehouse.gov/news",
-        "https://blogs.microsoft.com",
-        "https://www.crn.com/news/channel-news/2026/the-25-most-influential-executives-of-2026",
-        "https://www.fastcompany.com/91427781/tech-media-layoffs-tracker-october-2025-list-includes-rivian-meta-paycom-nbc-news-charter-the-wall-street-journal-job-cuts-this-fall",
-        "https://techstartups.com/2025/10/03/top-startup-and-tech-funding-news-roundup-week-ending-october-3-2025",
-        "https://www.crn.com/news/channel-news/2025/the-25-most-influential-executives-of-2025",
-        "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
-        "https://investor.apple.com/investor-relations/default.aspx",
-        "https://theaitrack.com/ai-news-october-2025-in-depth-and-concise-duplicate",
-        "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
-        "https://fortune.com/article/fortune-500-power-moves-june-21-27"
-      ],
-      "date": "2026-10-01T08:03:16.254294+00:00"
-    },
-    {
       "title": "Nvidia Acquires Hugging Face for $12.9 Billion to Strengthen Open‑Source AI Platform",
       "urls": [
         "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai",
@@ -6832,7 +6760,17 @@
         "https://www.visitlondon.com"
       ],
       "date": "2026-10-11T07:31:26.872163+00:00"
+    },
+    {
+      "title": "Apple Inc. Traces Evolution From Garage Startup To Global Technology Powerhouse",
+      "urls": [
+        "https://www.geeky-gadgets.com/apple-october-2026-event-expectations",
+        "https://www.macrumors.com/2026/09/22/apple-event-october-2026-what-to-expect",
+        "https://en.wikipedia.org/wiki/History_of_Apple_Inc.",
+        "https://en.wikipedia.org/wiki/Google_Cloud_Platform"
+      ],
+      "date": "2026-10-11T08:03:31.051990+00:00"
     }
   ],
-  "lastUpdated": "2026-10-11T07:31:26.872245+00:00"
+  "lastUpdated": "2026-10-11T08:03:31.052075+00:00"
 }
