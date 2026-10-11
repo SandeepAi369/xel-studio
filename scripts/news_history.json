@@ -1,70 +1,6 @@
 {
   "entries": [
     {
-      "title": "Broadcom Positions Itself to Lead AI Chip Market Over Nvidia and AMD",
-      "urls": [
-        "https://www.msn.com/en-us/money/general/not-nvidia-not-amd-this-semiconductor-giant-will-be-the-ultimate-winner-of-the-artificial-intelligence-ai-hardware-race/ar-AA2bedrV?ocid=BingNewsVerp",
-        "https://www.fool.com/investing/2026/08/30/broadcom-or-amd-heres-why-the-market-is-pricing",
-        "https://finance.yahoo.com/markets/stocks/articles/not-nvidia-not-amd-micron-194300577.html",
-        "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
-        "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
-        "https://247wallst.com/investing/2026/09/07/amd-is-behind-the-ai-chip-shift-nobody-is-talking-about",
-        "https://www.fool.com/investing/2026/08/30/nvidia-just-delivered-bad-news-for-amd-and-intel",
-        "https://www.fool.com/investing/2026/08/26/amd-vs-marvell-which-better-ai-chip-stock-own",
-        "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-broadcom-trillion-dollar-172700367.html",
-        "https://finance.yahoo.com/technology/ai/articles/broadcom-rides-ai-semiconductor-growth-180300132.html",
-        "https://www.fool.com/investing/2026/09/06/did-nvidia-just-say-checkmate-to-amd-and-intel",
-        "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-        "https://www.forbes.com/sites/jonmarkman/2026/08/31/nvidias-35-billion-mediatek-deal-is-a-tollbooth-for-custom-ai-chips",
-        "https://www.techtimes.com/articles/326130/20260901/nvidia-moves-ai-chip-memory-controller-hbm-stack-nvhbm-memory-frees-25-more-compute.htm",
-        "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
-        "https://intellectia.ai/blog/ai-chip-stocks-investment-2026",
-        "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21",
-        "https://sqmagazine.co.uk/ai-chip-statistics",
-        "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31",
-        "https://www.youtube.com/watch?v=IMk36XVDF8s",
-        "https://siliconanalysts.com/analysis/amd-vs-nvidia-ai-gpu-market-share-2026",
-        "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
-        "https://intellectia.ai/blog/ai-chip-stocks-investment-july-2026",
-        "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/latest-news-in-ai-chips-ais-impact-on-semiconductor-transfor",
-        "https://aiweekly.co/ai-news-today/nvidia-ai-news",
-        "https://www.reuters.com/business/nvidia-rises-after-signaling-longer-ai-spending-runway-2026-08-27",
-        "https://yabs.yandex.ru/count/WhqejI_zOoVX2LcX0dqL06DdbYcSK9yynHD7WG9NqPF2vxb102GS7TYfyjZomyweYnmj7HaTVGNYIZY14p0dKCKdm4rWJs1FG9k0DW6jDqn0RpQ1F0A8WBU4CmWjzFbSxkpPVkVE6-vy_OxN6-vmeNcEEvrFfnqjilvKXv2CR21PauwMZeoEVAWQM8j-Zf2iIJz7IqT6HoM8Z92k8Ogi9MGKKOTCa20o2aAo9jamGW9wsW5JDZkO6y19JO3Ics3Z0UKeng3Zg2o0V2xXV2wWoRA0SDdlsBjap-wWk9eGCFPKe1YRgfYsNc04Z77OsQqv4bePQoDWh4J4RCn44nqu3ojd3WRuOj7ZK-TvBME8XjJfj9ss3NtUqDmvpQ7F6efFx-cDv_dJpfrJgIq13jORZXkTZ9jyq1svyJu1WDMYYTJvVCFakJQx3mJS09xPmDLXmYJ9Xgsl8zpdD8YRJOmWQZNipIP64BKQjXreqD9iVGQjpv2DKHmyrCNcYiHLOT1wfz9Ve8Fm62PSOCiVhtXv4MIa0xImjR235g95R6PBXzrS0LCmxp5Y7wDx63C5A1Xo1XWnVWRphI0GQsMwnGGRJ3UlqiP5ZWClmAQUvpQvdjlS_M_qH7Y0V_YBkS0siDxljO7rVgxleMN--nTpWRzs2TYZyMUNW3qQcMODTSmoS-drKvfyytPTrtNQ74DNoEH7DpBfiQyZtEUyULdsPIz4srVcnn9uy4wRteVdlo6K6Jc2vRUqhkkAPKQEO7dj1A_x9rkOXWpnycN8uP4D5eGC4EGuC00KnrofL2f3e0C3j9TVoc-NfuMYncFK004Q_BTskV3OQa8FDmoSXDSVG8PDtaN3Aemc8H1AXii9JWcPjt25WA2V_PdnlXIt3aEiBcWvKQlFCco6WsO_hVNKkxeXu_f2nzgPF0nMDeRPmoh-1m00~2",
-        "https://yabs.yandex.ru/count/WhqejI_zOoVX2Lci0dqL02DdbIcSK9yynHD7WG9NqPF2vxb102GSaJ8eWAE2706ukiZHqf7HqLSWheGJE05p0bLy0jm4zWJs1BG9Q1FGUiC4z6OJo2DD4F2MS0QXXJwVovqzs-_SUSEThz_nUiCTBZJFSQVpwRIZHTQVwX2IaGqaQzBHqf7HaGzL0slHpn6IDUddQEd8wAW4aH7IDKIHjOIC8kgG2H94Ha58rYGRHaX0JpjWocO7SmCSDYbGAfakkkIqMnXq79K5aCybdCy5D5aM42xx7NkNxDaT55SJ0iQU2XHZKnNJrWkCW34EExirHq8hOsq4Z9M8c8sPUBB1QsMm28W1llAybZ548-gStjBfyuPARoV-T49pvrtVkUrysj0yVzgvSogr9S31UiDnevDnam-w8pTUA2DUk8NGEPzlc6oydckpUoU06y01RE3gC66IPCFMrn7kSnh4pIP64BKQzcOJ8uXQ3TiED6XfjZw3rcV8nYWE7kfYSqNYgZ1elLFfBz11U0mJBh3bZrUyl0WoqW5Qs5hOGQzbXTrS0LCmxp5Y7wDx63C5A1Xo1XWnVWRphI2mIGEGDgOBc6vUfOsB70TUW4qzpsroFRUv-z_eYV00__0NSu5jOBtVQmFh_LpVGylyzo_c0d_j4h17uyyk0NiqCiqX-9XbvjBhfpJvvkswhkkqEKO8eNbBDpRfiQyZtEUyULdsPIz4srVcnn9uy4wRteVdlo6K6JdYvRUqhkkAPKQEU7dj1A_x9rkOXWpnycN8uP4D5eGC4EGuC00KnrofL2f3e0DhOY_Fb1_iZIqFY4t6CntymdQvyDXgGWyt39o4ryz0XatqHSDMZ2QX5Kg68mfEYPwtSB60e9_zcV6-z5nd3uRSjKMV_WR2URYHOND-DFjfhQTkr0t9nEnUg2axaqTXuiOmUzZG_m00~2",
-        "https://nvidianews.nvidia.com/online-press-kit/gtc-2026-news",
-        "https://best-ai.news/ai-hardware-releases-2026",
-        "https://www.magen-ai.com/news-1/ai-chips-2026-nvidia-amd-intel-google-tpu-and-aws-trainium-compared",
-        "https://hakia.com/tech-insights/ai-chip-wars",
-        "https://singularitymoments.com/ai-hardware-2026",
-        "https://tech-insider.org/amd-advancing-ai-2026",
-        "https://www.singularitymoments.com/nvidia-blackwell-ai-2026",
-        "https://tech-insider.org/broadcom-ai-revenue-custom-chips-2026",
-        "https://www.ainvest.com/news/ai-chip-showdown-ces-2026-nvidia-amd-intel-strategic-moves-dominance-2601",
-        "https://www.techpowerup.com/review/future-hardware-releases",
-        "https://newsroom.amd.com/news/amd-expands-ai-leadership-across-client-graphics",
-        "https://www.reuters.com/business/nvidia-results-are-ai-markets-biggest-test-amid-competitive-worries-2026-02-24",
-        "https://skycrumbs.com/blog/ai-hardware-august-2026",
-        "https://semiconductorsinsight.com/semiconductor-news-today",
-        "https://www.allaboutcircuits.com/news/ai-chip-race-heats-up-with-intel-nvidia-amds-ces-debuts",
-        "https://tickeron.com/trading-investing-101/the-2026-semiconductor-race-report-13-trillion-already-spent-on-ai-chips--here-are-the-8-stocks-still-ahead-of-the-curve",
-        "https://www.wired.com/story/intel-amd-qualcomm-nvidia-new-cpus-and-gpus-ces-2025",
-        "https://tech-insider.org/memory-chip-shortage-2026-ai-consumer-electronics",
-        "https://www.originbrief.app/en/reports/semiconductor-chip-industry/2026-08-17/weekly",
-        "https://www.cnbc.com/2026/01/16/openai-chip-deal-with-cerebras-adds-to-roster-of-nvidia-amd-broadcom.html",
-        "https://www.tomshardware.com/tech-industry/semiconductors/nvidias-20-billion-groq-deal-produces-its-first-chip",
-        "https://tech-insider.org/nvidia-h200-chip-sales-china-2026",
-        "https://blog.imseankim.com/ai-chip-landscape-october-2025-nvidia-amd-intel-custom-silicon",
-        "https://www.tomshardware.com/tech-industry/inside-meta-amd-deal",
-        "https://www.tomshardware.com/pc-components/toms-hardware-innovation-awards-2026-progress-amid-turmoil",
-        "https://techcrunch.com/2026/01/09/ces-2026-everything-revealed-from-nvidias-debuts-to-amds-new-chips-to-razers-ai-oddities",
-        "https://semiengineering.com/chip-industry-week-in-review-153",
-        "https://af.net/realtime/semiconductor-stocks-july-2026-navigating-the-ai-chip-supercycle-with-nvidia-and-amd",
-        "https://tech-insider.org/super-micro-nvidia-chip-smuggling-china-2026",
-        "https://dailysynapse.com/news/nvidia-amd-broadcom-artificial-intelligence-chip-growth-2026"
-      ],
-      "date": "2026-10-01T00:03:05.713163+00:00"
-    },
-    {
       "title": "India Loses Five Key Sports from Commonwealth Games 2026, Reducing Medal Prospects",
       "urls": [
         "https://indianexpress.com/article/sports/asian-games-2026-india-day-13-live-wrestling-cricket-archery-boxing-hockey-medal-tally-10901375",
@@ -7156,7 +7092,17 @@
         "https://reolink.com/product/rlk8-811b4-a"
       ],
       "date": "2026-10-11T00:01:43.830074+00:00"
+    },
+    {
+      "title": "India Secures Triple Gold Sweep at Asian Games Across Hockey, Cricket and Wrestling",
+      "urls": [
+        "https://timesofindia.indiatimes.com/sports/asian-games-2026/indias-golden-saturday-at-asian-games-hockey-cricket-wrestling-golf-and-archery-deliver-golds/articleshow/134659840.cms",
+        "https://sports.ndtv.com/asian-games-2026/india-vs-japan-mens-hockey-live-score-asian-games-2026-live-updates-aichi-nagoya-japan-gold-medal-race-harmanpreet-singh-12100618",
+        "https://timesofindia.indiatimes.com/sports/asian-games-2026/from-hockey-and-cricket-gold-to-mirabai-chanus-weightlifting-silver-full-list-of-indias-85-medal-winners-at-asian-games/articleshow/134660082.cms",
+        "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-2026-indias-biggest-hits-and-flops-from-historic-golf-gold-to-tennis-medal-drought/articleshow/134669287.cms"
+      ],
+      "date": "2026-10-11T00:31:51.117996+00:00"
     }
   ],
-  "lastUpdated": "2026-10-11T00:01:43.830140+00:00"
+  "lastUpdated": "2026-10-11T00:31:51.118054+00:00"
 }
