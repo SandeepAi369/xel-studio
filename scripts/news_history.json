@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Warns Global Growth Slows as War Risks Intensify",
-      "urls": [
-        "https://www.conference-board.org/research/us-forecast",
-        "https://rsmus.com/insights/economics/economic-outlook-for-2026.html",
-        "https://www.jpmorgan.com/insights/global-research/economy/global-inflation-forecast",
-        "https://www.ey.com/en_us/insights/strategy/global-economic-outlook",
-        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
-        "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html",
-        "https://www.nytimes.com/2026/07/08/business/economy/imf-world-economy-inflation.html"
-      ],
-      "date": "2026-10-01T07:02:16.571962+00:00"
-    },
-    {
       "title": "Causaly Secures $60 Million Funding to Expand AI Drug Discovery Platform",
       "urls": [
         "https://www.drugdiscoverynews.com/ai-in-drug-discovery-from-target-identification-to-clinical-translation-17335",
@@ -6835,7 +6822,17 @@
         "https://en.wikipedia.org/wiki/Foreign_policy_of_the_Modi_government"
       ],
       "date": "2026-10-11T07:01:39.392599+00:00"
+    },
+    {
+      "title": "Drug Discovery Ai Pharmaceutical Research News Top Stories October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://uk.finance.yahoo.com/news/ai-drug-discovery-market-insights-134200114.html",
+        "https://www.who.int/es/health-topics/coronavirus",
+        "https://www.pharmtech.com/view/pharma-ai-in-2026-discovery-solved-execution-still-manual",
+        "https://www.visitlondon.com"
+      ],
+      "date": "2026-10-11T07:31:26.872163+00:00"
     }
   ],
-  "lastUpdated": "2026-10-11T07:01:39.392645+00:00"
+  "lastUpdated": "2026-10-11T07:31:26.872245+00:00"
 }
