@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Samsung Galaxy Z Fold8 Ultra Powers Live Esports Tournaments Amid Control Shift",
-      "urls": [
-        "https://news.lenovo.com/pressroom/press-releases/powers-esports-world-cup-2026-founding-partner",
-        "https://www.msn.com/en-us/gaming/general/galaxy-z-fold8-ultra-becomes-live-esports-hardware-as-samsung-loses-control-of-results/ar-AA2b8mhQ?ocid=BingNewsVerp",
-        "https://www.fpshub.com/1112391/nrg-esports-teams-players-rosters-history-2026-update",
-        "https://esportsworldcup.com",
-        "https://odience.io/the-ultimate-esports-calendar-for-2026",
-        "https://www.esports.net/wiki/guides/esports-events-calendar",
-        "https://www.esports.net/ewc",
-        "https://esportsworldcup.com/en/news",
-        "https://www.globalesports.org/gegla26",
-        "https://en.wikipedia.org/wiki/Esports_World_Cup",
-        "https://esportsworldcup.com/en",
-        "https://en.wikipedia.org/wiki/Riyadh"
-      ],
-      "date": "2026-10-02T04:31:42.184241+00:00"
-    },
-    {
       "title": "OpenAI Expands Footprint in India with New Data Centers to Accelerate Local AI Development",
       "urls": [
         "https://www.prnewswire.com/news-releases/linux-foundation-research-finds-open-source-is-key-to-driving-indias-ai-market-302688143.html",
@@ -5940,7 +5922,16 @@
         "https://www.anthropic.com/research/investigating-unintended-model-actions"
       ],
       "date": "2026-10-12T04:03:26.951645+00:00"
+    },
+    {
+      "title": "Indian Super League Publishes Full 2026‑27 Schedule and Live Streaming Guide for Fans",
+      "urls": [
+        "https://sportstar.thehindu.com/football/indian-football/inter-kashi-vs-kerala-blasters-ikfc-kbfc-live-score-updates-hightlights-goals-latest-isl-2026/article71571211.ece",
+        "https://indianexpress.com/article/sports/football/isl-2026-27-live-streaming-indian-super-league-matches-10914137",
+        "https://www.indiansuperleague.com/schedule-fixtures"
+      ],
+      "date": "2026-10-12T04:36:19.636625+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T04:03:26.951708+00:00"
+  "lastUpdated": "2026-10-12T04:36:19.636695+00:00"
 }
