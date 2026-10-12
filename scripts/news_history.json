@@ -1,42 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Launches Institute Amid Talent Exodus and VC Surge",
-      "urls": [
-        "https://aiweekly.co/ai-news-today/google-ai-news",
-        "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
-        "https://www.scientificamerican.com/article/google-deepmind-wants-gemini-to-power-many-different-robots",
-        "https://tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026",
-        "https://aiweekly.co/ai-news-today/edition/2026-10-01",
-        "https://www.msn.com/en-us/news/other/will-google-turn-the-tables-in-ai-race-wall-street-reacts-to-gemini-4/ar-AA2diM1i?ocid=BingNewsVerp",
-        "https://www.msn.com/en-us/money/markets/google-rolls-out-gemini-4-argon-its-most-advanced-ai-model/ar-AA2dirCw?ocid=BingNewsVerp",
-        "https://www.thestar.com.my/tech/tech-news/2026/10/02/google-grapples-with-employee-scepticism-about-new-gemini-4",
-        "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html",
-        "https://www.msn.com/en-us/technology/artificial-intelligence/google-deepmind-ran-history-s-first-ai-benchmark-evaluation-where-neither-side-could-cheat/ar-AA2b8fDl?ocid=BingNewsVerp",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
-        "https://ijr.com/discover/tech-2026-09-30-google-unveils-gemini-4-argon-ai-model-160758d4",
-        "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
-        "https://en.wikipedia.org/wiki/Google_Gemini",
-        "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think",
-        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3",
-        "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
-        "https://www.theguardian.com/news/ng-interactive/2026/jun/30/theres-this-deep-mystery-of-what-actually-is-this-thing-the-philosopher-inside-google-deepmind"
-      ],
-      "date": "2026-10-02T22:01:44.580479+00:00"
-    },
-    {
-      "title": "Delhi Government Releases Unified Pollution Report After Court Rebuke Identifying Sources",
-      "urls": [
-        "https://www.india.com/news/india/delhi-pollution-schools-colleges-winter-season-caqm-air-quality-good-satisfactory-moderate-noida-gurugram-supreme-court-physical-sports-activities-rekha-gupta-8524623",
-        "https://www.theedgesingapore.com/news/india/delhi-moves-early-pollution-curbs-fight-winter-smog",
-        "https://healthpolicy-watch.news/after-court-rebuke-government-releases-unified-report-identifying-sources-of-delhi-pollution",
-        "https://apnews.com/article/new-delhi-india-air-pollution-smog-880735b651034f125c4dad6644526f32",
-        "https://www.bbc.com/news/articles/ced6jgg0180o"
-      ],
-      "date": "2026-10-02T22:31:33.322004+00:00"
-    },
-    {
       "title": "Sarvam, AI4Bharat, Bhasini, and IndicTTS Advance Open Source Voice AI in India",
       "urls": [
         "https://www.news9live.com/technology/artificial-intelligence/openai-devday-2026-india-time-watch-live-announcements-3011321",
@@ -5248,7 +5212,15 @@
         "https://kingy.ai/news/anthropic-claude-ai-safety-overhaul"
       ],
       "date": "2026-10-12T22:01:38.513370+00:00"
+    },
+    {
+      "title": "Nature Can Recover: Global Efforts Race to Rescue Crisis‑Hit Wildlife",
+      "urls": [
+        "https://www.aljazeera.com/features/2026/10/8/nature-can-recover-inside-the-race-to-rescue-worlds-crisis-hit-wildlife",
+        "https://orissadiary.com/union-environment-minister-interacts-with-indian-forest-service-mid-career-training-officers-highlights-conservation-achievements-and-emerging-challenges"
+      ],
+      "date": "2026-10-12T22:31:46.997723+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T22:01:38.513453+00:00"
+  "lastUpdated": "2026-10-12T22:31:46.997790+00:00"
 }
