@@ -1,50 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Discloses Six Model Incidents After Hugging Face Hack Highlights Zero‑Day Vulnerabilities",
-      "urls": [
-        "https://techxplore.com/news/2026-10-timeline-ai-safety.html",
-        "https://www.reddit.com/r/Anthropic/comments/1wfm28h/why_are_dario_altman_telling_us_that_we_should",
-        "https://www.reddit.com/r/slatestarcodex/comments/1w74y1i/discovery_of_a_new_openai_agent_message_board",
-        "https://www.usaii.org/ai-insights/hugging-face-explained-models-tools-and-open-source-ai-in-2026",
-        "https://aiweekly.co/ai-news-today/hugging-face-ai-news",
-        "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "https://github.com/12britz/awesome-free-models",
-        "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense",
-        "https://builtin.com/articles/what-is-hugging-face",
-        "https://pub.towardsai.net/hugging-face-transformers-complete-guide-2026-cdb452c055da?gi=dda72d570db2",
-        "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://huggingface.co/blog/daya-shankar/open-source-llms",
-        "https://www.forbes.com/sites/zacharyfolk/2026/09/03/nvidia-is-acquiring-hugging-face-for-almost-13-billion",
-        "https://www.forbes.com/sites/johnwerner/2026/09/03/nvidia-to-acquire-hugging-face",
-        "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition",
-        "https://www.cnbc.com/2026/08/26/open-ai-hugging-face-hack.html",
-        "https://releases.sh/hugging-face",
-        "https://orangebot.ai/top-ai-models-this-week",
-        "https://www.tun.com/home/hugging-faces-2026-open-model-report-qwen-leads-hype-vs-reality",
-        "https://huggingface.blog",
-        "https://www.cbsnews.com/news/openai-hugging-face-hack-ai-risks",
-        "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
-        "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
-        "https://www.reuters.com/technology/startup-hugging-face-aims-cut-ai-costs-with-open-source-offering-2024-10-23",
-        "https://www.programming-helper.com/tech/hugging-face-2026-2-million-models-80-percent-downloads-python",
-        "https://observer.com/2026/09/nvidia-hugging-face-acquisition-ai-development",
-        "https://shattered.io/openai-models-sandbox-escape-zero-day-2026",
-        "https://www.fastcompany.com/91597304/nvidias-hugging-face-deal-could-reshape-the-open-ai-ecosystem",
-        "https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html",
-        "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-        "https://www.analyticsvidhya.com/blog/2024/12/top-open-source-models-on-hugging-face",
-        "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
-        "https://cyberresilience.com/blog/openai-hugging-face-ai-agent-attack",
-        "https://releasebot.io/updates/huggingface",
-        "https://openai.com/hugging-face-incident-and-misalignment",
-        "https://www.reuters.com/technology/artificial-intelligence/fallout-openai-hugging-face-hack-2026-07-29",
-        "https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026"
-      ],
-      "date": "2026-10-02T10:02:17.666639+00:00"
-    },
-    {
       "title": "NOAA Predicts Below‑Normal 2026 Atlantic Hurricane Season Amid Strong El Niño Conditions",
       "urls": [
         "https://www.theguardian.com/world/extreme-weather",
@@ -5793,7 +5749,20 @@
         "https://openai.com"
       ],
       "date": "2026-10-12T10:01:53.830855+00:00"
+    },
+    {
+      "title": "Delhi Implements New Anti‑Pollution Rules Ahead of 2026 Smog Season",
+      "urls": [
+        "https://indiatoday.in/science/story/delhi-ncr-pollution-winter-strategy-aqi-smog-noida-gurgaon-ghaziabad-pm25-pollutants-grap-3008824-2026-10-05",
+        "https://india.com/news/india/delhi-pollution-update-alert-for-residents-as-city-sees-worst-october-start-since-2020-check-aqi-numbers-8533065",
+        "https://moneycontrol.com/science/delhi-pollution-2026-new-anti-pollution-rules-begin-before-winter-smog-will-they-actually-work-article-14044562.html",
+        "https://latestly.com/india/news/delhi-latest-news-today-on-october-1st-2026-work-from-home-for-smog-barapullah-phase-iii-opens-new-pollution-rules-7627857.html",
+        "https://indiatoday.in/science/story/delhi-october-pollution-aqi-weather-local-emissions-caqm-ncr-stubble-burning-monsoon-3009609-2026-10-05",
+        "https://latestly.com/india/news/delhi-latest-news-today-on-october-2nd-2026-pollution-measures-barapullah-congestion-protests-7629317.html",
+        "https://www.cnn.com/2025/11/23/india/india-delhi-smog-protests-challenges-intl-hnk-dst"
+      ],
+      "date": "2026-10-12T10:31:27.059475+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T10:01:53.830949+00:00"
+  "lastUpdated": "2026-10-12T10:31:27.059544+00:00"
 }
