@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Eye Institute Highlights Five New Technologies Advancing Vision Impairment Assistance",
-      "urls": [
-        "https://www.nei.nih.gov/research-and-training/research-news/five-innovations-harness-new-technologies-people-visual-impairment-blindness",
-        "https://doubletaponair.com/apples-new-accessibility-features-what-blind-and-low-vision-users-can-expect",
-        "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1719746/full",
-        "https://yabs.yandex.ru/count/WgmejI_zOoVX2Lca0lKK0CFbZocSK9yynHD7WG9NqPF2vxb102GSwo97IqT6Hr-1k19Eu0JC2LJn2N0Js1FO4z0ce4r0wmqJq9jDlcWX8-0juGn22tq-bpjxjj-vyuOxNx_ZzOOxN6YUuqxdqsb7Ywm_rI4a8nj8rgIZfIEZ8n-g1jQYdoCaQzBFqTAHqL498YEaQuWYQmaPHTGX4oI8Z8AGh4asZ920ddR0bCqEnZQH1wvIsUpAc_DYWq77KLa0-Lp2-Ln0asK1uRBViNV9djr1SJKXOEofG34sLJ5jlS086EEmirjp9BGoraR0M8c8sPY99tlFkUXhSe0lfrrJXsf8fxRKwOn2dz3eC_h4fNSkhUzd_eGwdrBylgVEgTIM00VxmTuO3_37Dj78ZPU02qmITepp-OR9nkkvDhiF1Dm03c03LuS9aoGRjhwES9_J86usCOAerR1te45Bi_KPj3v3DiOh3XxgOdD5ugemQBrJwI_GGNWC4owmtS0AHc7XGLafjB2ri8DUomgxkGAcODvZn3v6zp1c2b0mv0mmOlmCvck12Z-Vyujc5qptnfzn0GHCReLDFSzjSZstkVlVw8dm0F_m5tE1RM2ztsi3w_rStqFB_FSlvW9_xHAmH-FFBW5xD3BDoq1ccRdq-YbDldcxhkiwRMO2QR8IHpSswR6l8zpdl7bPzcKlHDjNviSIUF1Eczw7vxyXb1avebXcvCYMrqxmkd-oXMd842zVXXmUsM11o011ZWC3G77CbKgbCWIx6sHxAQRy6emVYPRig3S17_pAM-bwrQEVBW36sp08GxXG16HuNLvqkM6KNurGqW9FSA3Ll2sT10J_x9yVxvfl7R7OMcujkdfb4WhOJ6DpMp8x6t3D_QEX2qAl5x9XdSb3RfzXTdFL6cy9dD80~2",
-        "https://disabilitynewsdigest.substack.com/p/nobody-asked-for-a-crab-chair",
-        "https://bcuhb.nhs.wales/about-us/committees-and-advisory-groups/archived-committees/partnerships-people-and-population-health-committee/agenda-bundle-ppphc-81122-v20"
-      ],
-      "date": "2026-10-02T09:31:41.567704+00:00"
-    },
-    {
       "title": "OpenAI Discloses Six Model Incidents After Hugging Face Hack Highlights Zero‑Day Vulnerabilities",
       "urls": [
         "https://techxplore.com/news/2026-10-timeline-ai-safety.html",
@@ -5795,7 +5783,17 @@
         "https://www.icc-cricket.com/tournaments/cricketworldcup/qualifier-standings"
       ],
       "date": "2026-10-12T09:31:26.229188+00:00"
+    },
+    {
+      "title": "China’s Open‑Source AI Surge Threatens United States Lead, Advisory Panel Warns",
+      "urls": [
+        "https://www.business-standard.com/technology/tech-news/nvidia-s-12-9-billion-hugging-face-bet-is-about-more-than-ai-models-126090400883_1.html",
+        "https://llm-stats.com/ai-news",
+        "https://telecom.economictimes.indiatimes.com/news/internet/chinas-open-source-ai-ascendancy-poses-challenge-to-us-leadership/129766019",
+        "https://openai.com"
+      ],
+      "date": "2026-10-12T10:01:53.830855+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T09:31:26.229255+00:00"
+  "lastUpdated": "2026-10-12T10:01:53.830949+00:00"
 }
