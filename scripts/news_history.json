@@ -1,41 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Expands Footprint in India with New Data Centers to Accelerate Local AI Development",
-      "urls": [
-        "https://www.prnewswire.com/news-releases/linux-foundation-research-finds-open-source-is-key-to-driving-indias-ai-market-302688143.html",
-        "https://fossunited.org/c/indiafoss/2025/cfp/12fuqc0uqo",
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/github-india-developer-base-hits-27-million-amid-ai-driven-coding-surge/130222912",
-        "https://hacktoberfest.com",
-        "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote",
-        "https://analyticsindiamag.com",
-        "https://github.blog/news-insights/octoverse",
-        "https://analyticsindiamag.com/ai-startups/indian-ai-startups-are-obsessed-with-open-source-small-models",
-        "https://github.blog/news-insights/research/the-state-of-open-source-and-ai",
-        "https://stackoverflow.blog/2025/04/07/open-source-ai-are-younger-developers-leading-the-way",
-        "https://dev.to/laetitiaperraut/india-open-source-development-harnessing-collaborative-innovation-for-global-impact-8en",
-        "https://indianexpress.com/article/technology/tech-news-technology/openai-expands-footprint-in-india-with-data-centres-ai-training-10540452",
-        "https://www.digitalfutureslab.in/publications/advancing-open-source-ai-in-india-recommendations-for-governments-and-technology-developers",
-        "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026",
-        "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/indias-path-to-ai-autonomy"
-      ],
-      "date": "2026-10-02T05:01:50.804695+00:00"
-    },
-    {
-      "title": "Divyangjan Awards Highlight India’s Push for Inclusive Public Spaces and Accessibility Standards",
-      "urls": [
-        "https://www.india.com/news/india/gujarats-digilocker-integration-of-divyang-bus-pass-earns-national-recognition-8496194",
-        "https://csrtimes.org/divyangjan-awards-india",
-        "https://phdcci.in/wp-content/uploads/2026/04/BROCHURE-Conference-on-AI-Powered-Assistive-Technology-for-Divyangjan-Empowerment-a.pdf",
-        "https://in.linkedin.com/company/empower-assisitive-technology-conference",
-        "https://depwd.gov.in/en/annual-report",
-        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023427188101.pdf",
-        "https://www.amrita.edu/news/amrita-showcases-assistive-technologies-at-first-ai-for-empowering-persons-with-disabilities-conference",
-        "https://depwd.gov.in/en/on-the-international-day-of-persons-with-disabilities-2024-union-minister-dr-virendra-kumar-launches-16-groundbreaking-initiatives-to-empower-divyangjans-across-india"
-      ],
-      "date": "2026-10-02T05:31:30.079213+00:00"
-    },
-    {
       "title": "Stability AI Secures $76 Million Funding To Expand Stable Diffusion Capabilities",
       "urls": [
         "https://www.prnewswire.com/news-releases/mixvio-ai-launches-unified-creative-workspace-across-26-ai-generation-routes-302896090.html",
@@ -5940,7 +5905,15 @@
         "https://www.timeanddate.com/sun/uk"
       ],
       "date": "2026-10-12T05:01:45.412759+00:00"
+    },
+    {
+      "title": "ChatGPT Releases Comprehensive Guide for Blind and Visually Impaired Users",
+      "urls": [
+        "https://political.org/2026/04/06/federal-rule-mandates-digital-accessibility-for-blind-and-disabled-students-in-higher-education",
+        "https://inclusiveinfohub.com/chatgpt-without-eyes-the-complete-2026-guide-for-blind-and-visually-impaired-students"
+      ],
+      "date": "2026-10-12T05:31:35.825263+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T05:01:45.412832+00:00"
+  "lastUpdated": "2026-10-12T05:31:35.825332+00:00"
 }
