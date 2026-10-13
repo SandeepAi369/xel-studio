@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Turkey Expands Climate Adaptation Plan With Renewable Energy and Water Conservation Projects",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Climate_change",
-        "https://www.scmp.com/topics/collections/climate-change-sustainability",
-        "https://en.wikipedia.org/wiki/Climate_change_in_Turkey",
-        "https://en.wikipedia.org/wiki/Greenhouse_gas_emissions_by_the_United_States"
-      ],
-      "date": "2026-10-03T01:31:21.205233+00:00"
-    },
-    {
       "title": "LLM Updates Reveal Surge in New AI Model Releases Across Major Providers",
       "urls": [
         "https://en.wikipedia.org/wiki/Large_language_model",
@@ -5126,7 +5116,18 @@
         "https://www.jiotv.com/live-channel/sansad-tv-hd/520/suprabhat/261002520017"
       ],
       "date": "2026-10-13T01:02:17.006746+00:00"
+    },
+    {
+      "title": "Climate Team Selects 10 Companies to Drive 2026 Climate Tech Execution",
+      "urls": [
+        "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose",
+        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution",
+        "https://www.iea.org/reports/the-state-of-energy-innovation-2026",
+        "https://en.wikipedia.org/wiki/Clean_technology",
+        "https://en.wikipedia.org/wiki/International_Energy_Agency"
+      ],
+      "date": "2026-10-13T01:31:50.742628+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T01:02:17.006808+00:00"
+  "lastUpdated": "2026-10-13T01:31:50.742698+00:00"
 }
