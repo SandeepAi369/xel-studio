@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jeff Dean Highlights Tensor Processing Unit Advances Driving Google Cloud AI Performance",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "https://en.wikipedia.org/wiki/Jeff_Dean",
-        "https://realpython.com/pytorch-vs-tensorflow",
-        "https://acecloud.ai/blog/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-10-03T23:01:34.614269+00:00"
-    },
-    {
       "title": "Kozhikode Considered for New AIIMS Campus as Health Minister Announces Review",
       "urls": [
         "https://thehindu.com/news/national/kerala/aiims-for-keralam-kozhikode-under-active-consideration-says-satheesan/article71540835.ece",
@@ -5109,7 +5099,17 @@
         "https://essig-fabrik.de"
       ],
       "date": "2026-10-13T22:31:32.569147+00:00"
+    },
+    {
+      "title": "China Customs Blocks Imports Labeled Made In R.O.C, Prompting Trade Adjustments",
+      "urls": [
+        "https://time.com/article/2026/07/28/open-source-ai-hugging-face-openai",
+        "https://www.zhihu.com/question/57183466",
+        "https://zhidao.baidu.com/question/13998301.html",
+        "https://www.foxbusiness.com/technology/bessent-says-us-needs-more-open-source-ai-models-compete-china"
+      ],
+      "date": "2026-10-13T23:01:44.014951+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T22:31:32.569223+00:00"
+  "lastUpdated": "2026-10-13T23:01:44.015044+00:00"
 }
