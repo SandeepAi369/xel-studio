@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI, Anthropic, and Google Unveil New AI Models and Features Driving Market Competition",
-      "urls": [
-        "https://www.microcenter.com/site/mc-news/article/this-week-in-ai-oct-2-2026.aspx",
-        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks",
-        "https://techrights.org/n/2024/01/30/Links_30_01_2024_Many_More_Layoffs_Microsoft_the_Most_Tech_Layo.shtml",
-        "https://en.wikipedia.org/wiki/Google_Docs",
-        "https://promptybox.com/blog/whats-coming-in-tech-october-2026"
-      ],
-      "date": "2026-10-03T08:01:38.946665+00:00"
-    },
-    {
       "title": "Mohun Bagan Super Giant Appears In Search Results Without Additional Details",
       "urls": [
         "https://www.olympics.com/en/news/indian-super-league-isl-2026-27-football-schedule-fixtures-match-list",
@@ -5124,7 +5113,16 @@
         "https://economictimes.indiatimes.com/topic/indian-pharma-exports"
       ],
       "date": "2026-10-13T07:32:32.526341+00:00"
+    },
+    {
+      "title": "Nobel Prize Physics Award Faces Growing Controversy Over Selection Transparency",
+      "urls": [
+        "https://sciencenews.org/sn-magazine/magazine-october-2026",
+        "https://www.yelp.com/search?find_desc=Pizza+Delivery&find_loc=Boydton%2C+VA+23917&msockid=21cbf9d124256ad606f0ee20252d6b65",
+        "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics_controversies"
+      ],
+      "date": "2026-10-13T08:02:10.975790+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T07:32:32.526403+00:00"
+  "lastUpdated": "2026-10-13T08:02:10.975862+00:00"
 }
