@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kawada Robotics Showcases Fillie Humanoid Robot at IMTS 2026 Demonstrating Advanced Automation",
-      "urls": [
-        "https://www.manufacturingdive.com/news/imts-2026-highlights-ai-automation-robotics-milling-chicago/831941",
-        "https://www.youtube.com/watch?v=GjokTDha_vs&vl=en",
-        "https://blog.robozaps.com/b/best-humanoid-robots",
-        "https://spectrum.ieee.org/robotics-experts-tesla-bot-optimus/dennis-hong",
-        "https://www.agilityrobotics.com",
-        "https://www.linkedin.com/posts/paolopirjanian_10-billion-robots-i-agree-with-aaron-prather-activity-7323738153993797652-ideC",
-        "https://www.facebook.com/Hyundaiworldwide/videos/stretch-proved-itspot-scaled-itatlas-is-already-charting-its-path-forward-discov/1116165607664963",
-        "https://www.facebook.com/Themech.mind/videos/china-has-introduced-a-new-humanoid-robot-capable-of-running-at-speeds-up-to-10-/814818244215175"
-      ],
-      "date": "2026-10-03T22:01:48.928878+00:00"
-    },
-    {
-      "title": "Watts Up With That? Publishes Weekly Climate and Energy News Roundup Number 708",
-      "urls": [
-        "https://wattsupwiththat.com/2026/09/28/weekly-climate-and-energy-news-roundup-708",
-        "https://en.wikipedia.org/wiki/Climate"
-      ],
-      "date": "2026-10-03T22:31:29.747674+00:00"
-    },
-    {
       "title": "Jeff Dean Highlights Tensor Processing Unit Advances Driving Google Cloud AI Performance",
       "urls": [
         "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
@@ -5121,7 +5099,17 @@
         "https://thenextweb.com/news/mistral-acquires-pimento-ai-advertising"
       ],
       "date": "2026-10-13T22:01:42.151935+00:00"
+    },
+    {
+      "title": "The article questions whether just three years of continuous exposure to Delhi’s polluted air can cause irreparable lung damage, and",
+      "urls": [
+        "https://timesofindia.indiatimes.com/weather/new-delhi-aqi-level-air-quality-index-today/3291",
+        "https://news18.com/lifestyle/health-and-fitness/delhis-aqi-hits-157-as-smog-returns-can-just-3-years-of-air-pollution-do-irreparable-damage-to-your-lungs-ws-l-10380036.html",
+        "https://www.livemint.com/news/delhi-steps-up-winter-air-pollution-action-with-time-bound-measures-across-key-sectors-11790595253291.html",
+        "https://essig-fabrik.de"
+      ],
+      "date": "2026-10-13T22:31:32.569147+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T22:01:42.152002+00:00"
+  "lastUpdated": "2026-10-13T22:31:32.569223+00:00"
 }
