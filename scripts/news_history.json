@@ -1,84 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Declares Trachoma Eliminated as Public Health Problem in India",
-      "urls": [
-        "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/top-medical-advice-to-follow-in-2026-for-better-health/photostory/126213306.cms",
-        "https://www.who.int/news-room/releases/1",
-        "https://health.economictimes.indiatimes.com/news",
-        "https://www.who.int/europe/home?v=welcome",
-        "https://www.who.int/india/Campaigns",
-        "https://hsph.harvard.edu/news",
-        "https://www.who.int/news-room/headlines",
-        "https://www.who.int/en/news-room/releases",
-        "https://www.who.int/india/in-focus",
-        "https://www.who.int/india/health-topics",
-        "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(22)00008-1/fulltext",
-        "https://www.who.int/news/item/08-10-2024-elimination-of-trachoma-as-a-public-health-problem-in-india",
-        "https://www.mohfw.gov.in?q=en%2Fpress-release",
-        "https://reliefweb.int/report/india/disease-outbreak-news-zika-virus-disease-india-29-january-2025",
-        "https://www.ndtv.com/health/preventive-health-will-matter-most-in-2026-what-doctors-learned-from-2025-and-how-to-move-forward-9848490",
-        "https://iapindia.org",
-        "https://frontline.thehindu.com/the-nation/public-health",
-        "https://ncdc.mohfw.gov.in"
-      ],
-      "date": "2026-10-02T23:31:33.989610+00:00"
-    },
-    {
-      "title": "Simons Foundation Reports Quantum Dynamics Breakthrough That Overturns Prior Quantum Supremacy Claim",
-      "urls": [
-        "https://www.reddit.com/r/Business_Ideas/comments/1q27ugz/is_quantum_computing_the_trend_no_one_is_seeing",
-        "https://www.reddit.com/r/technology/comments/1thtbuy/ionq_plans_256qubit_quantum_computer_launch_by",
-        "https://www.reddit.com/r/fusion/comments/1u9zw39/decadelong_project_to_ease_understanding_of",
-        "https://www.bqpsim.com/blogs/quantum-computing-breakthroughs",
-        "https://www.youtube.com/watch?v=nJvNLFo_HSo",
-        "https://www.youtube.com/watch?v=WoMitMc895A",
-        "https://www.facebook.com/WorldGovSummit/videos/at-the-world-governments-summit-ibm-ceo-arvind-krishna-revealed-that-quantum-com/1710263903475595",
-        "https://www.youtube.com/watch?v=NKq4VTfoAI4",
-        "https://quantumzeitgeist.com",
-        "https://www.sciencedaily.com/news/matter_energy/quantum_computing",
-        "https://www.scientificamerican.com/article/quantum-computing-is-reaching-its-make-or-break-moment",
-        "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-        "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-        "https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy-opens-new-research-directions",
-        "https://physicsfundamentals.info/quantum-computing-breakthroughs-2026",
-        "https://scottlocklin.wordpress.com/2019/01/15/quantum-computing-as-a-field-is-obvious-bullshit",
-        "https://web.mit.edu/lns/news/index.html",
-        "https://quantum.technology/news/index.html",
-        "https://xrds.acm.org/news-archive-2015.cfm",
-        "https://euvolution.com/open-source-convergence/category/quantum-computing/page/18",
-        "https://euvolution.com/open-source-convergence/page/344",
-        "https://news.berkeley.edu/2025/12/15/nobel-wins-psychedelic-lilies-and-a-mission-to-mars-uc-berkeleys-top-stories-of-2025",
-        "https://math.dartmouth.edu/news-resources/news",
-        "https://papers.academic-conferences.org/index.php/eckm/issue/download/9/13",
-        "https://www.fulcrum.org/downloads/zs25xc89s",
-        "https://writings.stephenwolfram.com/2023/08/remembering-the-improbable-life-of-ed-fredkin-1934-2023-and-his-world-of-ideas-and-stories",
-        "https://quantumzeitgeist.com/lisa-su",
-        "https://community.connection.com/feed-connection",
-        "https://www.noagendashow.net/listen/1614/shownotes",
-        "https://www.noagendashow.net/listen/1429/shownotes",
-        "https://www.noagendashow.net/listen/1612/shownotes",
-        "https://www.noagendashow.net/listen/1649/shownotes",
-        "https://minifeed.net/blogs/Fw7nhc",
-        "https://freesnowden.is/revelations",
-        "https://www.mikegrost.com/best100.htm",
-        "https://finance.yahoo.com/technology/ai/articles/ionq-earns-four-best-paper-130000331.html",
-        "https://medicalxpress.com/news/2026-07-quantum-machine-framework-neoantigen-immune.html",
-        "https://phys.org/news/2026-07-physicists-room-temperature-quantum-material.html",
-        "https://www.forbes.com/sites/chuckbrooks/2026/08/28/quantum-progress-from-the-lab-to-the-real-world",
-        "https://www.buffalo.edu/ubnow/stories/2026/07/marino-neutral-atom-quantum-computing.html",
-        "https://finance.yahoo.com/technology/ai/articles/d-wave-demonstrates-major-hardware-150500935.html",
-        "https://finance.yahoo.com/technology/ai/articles/skywater-launches-quantum-solutions-offering-123000356.html",
-        "https://cointelegraph.com/news/strategy-consortium-15m-quantum-proof-bitcoin",
-        "https://www.pymnts.com/technology/2026/what-ibms-quantum-breakthrough-means-for-the-100-million-cfo",
-        "https://www.insidedeeptech.com/the-latest-quantum-computing-breakthroughs-of-2026-explained",
-        "https://news.fnal.gov/2026/09/doe-releases-national-quantum-computing-roadmap-following-field-wide-effort-led-by-scac-subcommittee",
-        "https://www.sciencedaily.com/releases/2026/09/260924020403.htm",
-        "https://quantumwire.com/news"
-      ],
-      "date": "2026-10-03T00:02:04.203524+00:00"
-    },
-    {
       "title": "European Union Aviation Safety Agency Proposes Amendment to Aviation Safety Regulations",
       "urls": [
         "https://www.mid-day.com/amp/sports/cricket/article/sports-news-today-virat-kohli-record-neeru-dhanda-historic-win-team-india-sri-lanka-clash-23652495",
@@ -5232,7 +5154,21 @@
         "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health"
       ],
       "date": "2026-10-12T23:31:22.073430+00:00"
+    },
+    {
+      "title": "Meta Unveils Llama 4 Flagship AI Model to Expand Open Source Capabilities",
+      "urls": [
+        "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
+        "https://aiagentskit.com/blog/meta-llama-4",
+        "https://axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
+        "https://ai.meta.com/Open",
+        "https://straitstimes.com/world/united-states/meta-says-its-new-ai-models-on-par-with-openai-anthropic",
+        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
+        "https://businessinsider.com/meta-launches-muse-wonder-series-to-rival-anthropic-openai-models-2026-10",
+        "https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models"
+      ],
+      "date": "2026-10-13T00:02:05.119623+00:00"
     }
   ],
-  "lastUpdated": "2026-10-12T23:31:22.073464+00:00"
+  "lastUpdated": "2026-10-13T00:02:05.119720+00:00"
 }
