@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Gemini 4 to Challenge OpenAI’s Leading Language Model",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-        "https://www.axios.com/2026/09/30/google-gemini-4",
-        "https://about.google",
-        "https://about.google/company-info"
-      ],
-      "date": "2026-10-03T15:31:51.158292+00:00"
-    },
-    {
       "title": "IMF Warns Iran War Could Trigger Global Recession and Market Crash",
       "urls": [
         "https://theguardian.com/business/ng-interactive/2026/sep/20/stock-market-crash-government-bond-yields",
@@ -5116,7 +5106,20 @@
         "https://timesofindia.indiatimes.com/science/scientists-develop-ai-that-detects-pancreatic-cancer-years-before-diagnosis-in-a-major-breakthrough/articleshow/132109719.cms"
       ],
       "date": "2026-10-13T15:02:30.259919+00:00"
+    },
+    {
+      "title": "India Accelerates AI Transformation, AEC Chief Announces Tech Revolution to Drive Economic Growth",
+      "urls": [
+        "https://thequantuminsider.com/2026/10/03/ibm-academic-collaborations-iit-bombay-iisc-agentic-ai-quantum",
+        "https://www.indianweb2.com/2026/10/iit-hyderabad-and-s-global-launch-ai.html",
+        "https://etnownews.com/technology/how-indian-companies-are-putting-ai-to-work-in-2026-from-smart-factories-and-fraud-detection-to-ai-agents-article-156328266",
+        "https://impact.indiaai.gov.in",
+        "https://en.wikipedia.org/wiki/BITS_Pilani",
+        "https://business-standard.com/amp/technology/artificial-intelligence/india-entering-tech-transformation-era-with-ai-advances-aec-chief-126101000543_1.html",
+        "https://telanganatoday.com/tag/iit-hyderabad-2"
+      ],
+      "date": "2026-10-13T15:32:04.849768+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T15:02:30.259995+00:00"
+  "lastUpdated": "2026-10-13T15:32:04.849847+00:00"
 }
