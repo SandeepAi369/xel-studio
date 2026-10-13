@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "LLM Updates Reveal Surge in New AI Model Releases Across Major Providers",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Large_language_model",
-        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
-        "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/levenshulme-live-massive-crime-scene-34466003",
-        "https://lmmarketcap.com/llm-updates",
-        "https://en.wikipedia.org/wiki/OpenAI"
-      ],
-      "date": "2026-10-03T02:01:33.904463+00:00"
-    },
-    {
       "title": "Artificial Intelligence Advances Healthcare Delivery While Raising Equity Concerns In Gynaecology and Beyond",
       "urls": [
         "https://www.listmyai.com/blog/ai-healthcare-breakthroughs-2026",
@@ -5127,7 +5116,14 @@
         "https://en.wikipedia.org/wiki/International_Energy_Agency"
       ],
       "date": "2026-10-13T01:31:50.742628+00:00"
+    },
+    {
+      "title": "Hilton London Paddington Offers Accommodation for Guests in London, United Kingdom",
+      "urls": [
+        "https://www.hilton.com/en/hotels/lonpdhi-hilton-london-paddington?msockid=37a0488770586cd739755f7671156d3c"
+      ],
+      "date": "2026-10-13T02:01:41.079701+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T01:31:50.742698+00:00"
+  "lastUpdated": "2026-10-13T02:01:41.079775+00:00"
 }
