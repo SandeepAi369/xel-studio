@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Grok Chatbot Expands Capabilities With Open‑Source Development and Contextual Conversation Features",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Grok_%28chatbot%29",
-        "https://www.openevidence.com",
-        "https://www.explainx.ai/news",
-        "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
-      ],
-      "date": "2026-10-03T14:31:21.295834+00:00"
-    },
-    {
       "title": "Advances Drive Life‑Saving Breakthroughs Across Global Healthcare Systems Today",
       "urls": [
         "https://www.techbuzzai.com/article/ai-healthcare-breakthroughs-2026"
@@ -5116,7 +5106,15 @@
         "https://www.mlb.com/standings"
       ],
       "date": "2026-10-13T14:02:10.155750+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Compete for Dominance as Developers Choose Framework",
+      "urls": [
+        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance",
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026"
+      ],
+      "date": "2026-10-13T14:31:39.939963+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T14:02:10.155831+00:00"
+  "lastUpdated": "2026-10-13T14:31:39.940039+00:00"
 }
