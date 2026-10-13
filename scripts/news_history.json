@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Merriam-Webster Expands Hate Synonym List to 121 Words for Writers and Educators",
-      "urls": [
-        "https://www.merriam-webster.com/thesaurus/hate!",
-        "https://en.wikipedia.org/wiki/Accessibility",
-        "https://en.wikipedia.org/wiki/Disability",
-        "https://www.merriam-webster.com/thesaurus/hates",
-        "https://synonymsgalaxy.com/hate-synonyms"
-      ],
-      "date": "2026-10-03T21:31:27.471290+00:00"
-    },
-    {
       "title": "Kawada Robotics Showcases Fillie Humanoid Robot at IMTS 2026 Demonstrating Advanced Automation",
       "urls": [
         "https://www.manufacturingdive.com/news/imts-2026-highlights-ai-automation-robotics-milling-chicago/831941",
@@ -5112,7 +5101,14 @@
         "https://www.olympics.com/en/news/josh-kerr-world-record-mile-london-diamond-league-2026"
       ],
       "date": "2026-10-13T21:02:13.620147+00:00"
+    },
+    {
+      "title": "ModHub Adds Additional Game Settings to Expand Farming Simulator Customization Options",
+      "urls": [
+        "https://www.farming-simulator.com/mod.php?mod_id=203370"
+      ],
+      "date": "2026-10-13T21:33:21.939506+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T21:02:13.620209+00:00"
+  "lastUpdated": "2026-10-13T21:33:21.939588+00:00"
 }
