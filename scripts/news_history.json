@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "The Robot Report Highlights Ten Key Robotics Developments, Including Humanoid and Industrial Advances",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Robotics",
-        "https://www.therobotreport.com/robotics-news",
-        "https://en.wikipedia.org/wiki/Robot",
-        "https://www.therobotreport.com/top-10-robotics-developments-march-2026",
-        "https://roboticsandautomationnews.com/2026/02/07/the-state-of-humanoid-robotics-from-research-labs-to-real-world-potential/98732",
-        "https://airoboticdaily.com/ai-robotic-products/humanoid-robot-ai-innovations-2026",
-        "https://www.humanoid.press",
-        "https://en.wikipedia.org/wiki/Humanoid_robot",
-        "https://www.forbes.com/sites/johnkoetsier/2026/10/02/humanoid-robots-are-leaving-safety-cages-proving-actual-safety-is-harder",
-        "https://en.wikipedia.org/wiki/Optimus_%28robot%29"
-      ],
-      "date": "2026-10-03T19:31:30.496270+00:00"
-    },
-    {
       "title": "World Economic Outlook Spring Briefing Highlights Global Growth Forecasts and Risks",
       "urls": [
         "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026",
@@ -5108,7 +5092,20 @@
         "https://www.antwort.net/a/tutorial/hisense-vidaa-smart-tv-so-installierst-du-jede-app-anleitung.html"
       ],
       "date": "2026-10-13T19:01:43.075550+00:00"
+    },
+    {
+      "title": "India Expands Semiconductor Manufacturing with 12 New Chip Sites and PM Modi's Confidence",
+      "urls": [
+        "https://government.economictimes.indiatimes.com/news/technology/semicon-india-2026-draws-global-chipmakers-as-india-expands-semiconductor-ecosystem/134364769",
+        "https://indianexpress.com/article/business/narendra-modi-semicon-india-2026-delhi-chip-bases-10881893",
+        "https://www.imarcengineering.com/news/semiconductor-manufacturing-in-india-expansion",
+        "https://techtimes.com/articles/322695/20260802/indias-12-chip-sites-show-assembly-works-semicon-20-bets-materials-machines.htm",
+        "https://en.wikipedia.org/wiki/Semiconductor_device_fabrication",
+        "https://economictimes.indiatimes.com/topic/india-semiconductor",
+        "https://www.fortuneindia.com/business-news/indias-135-billion-chip-bet-pm-modi-signals-bigger-semiconductor-push-at-semicon-2026/159673"
+      ],
+      "date": "2026-10-13T19:31:34.851748+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T19:01:43.075636+00:00"
+  "lastUpdated": "2026-10-13T19:31:34.851810+00:00"
 }
