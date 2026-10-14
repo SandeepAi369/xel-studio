@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reserve Bank of India Expands Online Report Access Through Updated Official Website",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
-        "https://www.rbi.org.in",
-        "https://indiancurrency.rbi.org.in",
-        "https://www.jagranjosh.com/general-knowledge/rbi-mpc-meeting-october-2026-will-repo-rate-be-increased-key-changes-expected-how-will-it-impact-consumers-different-sectors-1820012713-1",
-        "https://m.rbi.org.in/commonman/english/Scripts/Home.aspx",
-        "https://m.rbi.org.in/Scripts/BS_ViewPublicationReport.aspx"
-      ],
-      "date": "2026-10-04T12:01:42.908645+00:00"
-    },
-    {
       "title": "Yuzvendra Chahal announced his retirement from First‑Class cricket, ending his participation in the longer domestic format, as reported by the",
       "urls": [
         "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/ipl-retentions-unhappy-abhishek-sharma-wants-to-leave-srh-but-where-will-he-go/articleshow/134638490.cms",
@@ -5091,7 +5079,21 @@
         "https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Hugging_Face"
       ],
       "date": "2026-10-14T11:31:34.990728+00:00"
+    },
+    {
+      "title": "RBI Raises Repo Rate to 5.5 Percent, Signals Stronger Growth Outlook",
+      "urls": [
+        "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+        "https://timesofindia.indiatimes.com/business/india-business/rbi-mpc-meeting-october-2026-live-updates-governor-sanjay-malhotra-repo-rate-cut-fd-rate-monetary-policy-committee-emi-west-asia-crisis-rbi-news-today/liveblog/134753997.cms",
+        "https://indianexpress.com/article/india/rbi-monetary-policy-meeting-october-2026-live-governor-sanjay-malhotra-repo-rate-policy-stance-10908895",
+        "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026",
+        "https://www.moneycontrol.com/news/business/markets/rbi-policy-highlights-october-2026-repo-rate-decision-today-inflation-growth-forecasts-and-policy-stance-in-focus-14046325.html",
+        "https://www.cnbctv18.com/economy/rbi-mpc-meeting-live-updates-monetary-policy-october-2026-announcements-repo-rate-decision-inflation-growth-outlook-rbi-governor-sanjay-malhotra-liveblog-20006172.htm",
+        "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+        "https://economictimes.indiatimes.com/news/economy/finance/indias-ultra-short-term-borrowing-costs-spike-premium-over-policy-rate-hits-4-year-high/articleshow/134938755.cms"
+      ],
+      "date": "2026-10-14T12:01:49.138229+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T11:31:34.990796+00:00"
+  "lastUpdated": "2026-10-14T12:01:49.138366+00:00"
 }
