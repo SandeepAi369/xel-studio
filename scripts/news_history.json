@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "NVIDIA Moves to Acquire Hugging Face in Multi‑Billion Dollar Deal Expanding AI Reach",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-        "https://huggingface.co/huggingface",
-        "https://en.m.wikipedia.org/wiki/Hugging_face",
-        "https://en.wikipedia.org/wiki/Qwen",
-        "https://en.wikipedia.org/wiki/Hugging_Face",
-        "https://www.heise.de/news/KI-Plattform-Hugging-Face-prueft-milliardenschweren-Verkauf-11423337.html",
-        "https://github.com/huggingface",
-        "https://www.ibm.com/think/topics/hugging-face"
-      ],
-      "date": "2026-10-04T02:01:45.756866+00:00"
-    },
-    {
       "title": "Five Pharma Rivals Use Federated AI to Unlock 20,000 Secret Drug Structures",
       "urls": [
         "https://techtimes.com/articles/327885/20260923/five-pharma-rivals-ran-federated-drug-discovery-ai-20000-secret-structures-it-won.htm",
@@ -5106,7 +5092,16 @@
         "https://www.tripadvisor.com/Attractions-g60763-Activities-New_York_City_New_York.html"
       ],
       "date": "2026-10-14T01:31:49.662744+00:00"
+    },
+    {
+      "title": "Des Moines and Bristol Sunrise Times Reveal Seasonal Light Shifts Across Two Continents",
+      "urls": [
+        "https://www.timeanddate.com/sun/usa/des-moines",
+        "https://www.timeanddate.com/sun/uk/bristol",
+        "https://www.opensourceindia.in/osi-2026-white"
+      ],
+      "date": "2026-10-14T02:01:57.405254+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T01:31:49.662805+00:00"
+  "lastUpdated": "2026-10-14T02:01:57.405327+00:00"
 }
