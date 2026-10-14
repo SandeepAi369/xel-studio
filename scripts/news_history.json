@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Yahoo Finance Launches Updated Company Earnings Calendar for Investors",
-      "urls": [
-        "https://foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
-        "https://en.wikipedia.org/wiki/Tech_Mahindra",
-        "https://finance.yahoo.com/calendar/earnings?fr=sycsrp_catchall",
-        "https://www.gartenjournal.net/schlitzahorn",
-        "https://www.techradar.com",
-        "https://investingcalendar.com/sector/technology/earnings/this-week"
-      ],
-      "date": "2026-10-04T20:31:23.680260+00:00"
-    },
-    {
       "title": "Bichu Devi Celebrates Gold Medal Win, Declares Nation Will Stay Awake Tonight",
       "urls": [
         "https://www.olympics.com/en/olympic-games/milano-cortina-2026/medallists",
@@ -5082,7 +5070,15 @@
         "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3"
       ],
       "date": "2026-10-14T20:01:46.872296+00:00"
+    },
+    {
+      "title": "Nvidia Earnings Surge Boosts Nasdaq, Fuelling Expectations for October Market Move",
+      "urls": [
+        "https://www.foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
+        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08272026-12069234"
+      ],
+      "date": "2026-10-14T20:31:29.244408+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T20:01:46.872402+00:00"
+  "lastUpdated": "2026-10-14T20:31:29.244484+00:00"
 }
