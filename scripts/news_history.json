@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PM E-DRIVE Scheme Offers Subsidies and Incentives to Accelerate Electric Vehicle Adoption",
-      "urls": [
-        "https://www.ndtv.com/auto/world-ev-day-2026-5-electric-vehicles-that-amplified-adoption-in-india-12023213",
-        "https://en.wikipedia.org/wiki/Hyundai_Motor_Company",
-        "https://electricvehicletalks.com/pm-e-drive-scheme-india-guide",
-        "https://www.evradar.in/government-ev-policy-india"
-      ],
-      "date": "2026-10-04T22:31:34.955130+00:00"
-    },
-    {
       "title": "Hugging Face Open Source Ai Tools Models News This Week October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident",
@@ -5085,7 +5075,16 @@
         "https://www.reuters.com/business/energy/india-wastes-4-solar-power-amid-power-shortages-july-august-report-shows-2026-10-12"
       ],
       "date": "2026-10-14T22:31:32.655781+00:00"
+    },
+    {
+      "title": "OpenEvidence is referenced as a supporting platform that aggregates verification data",
+      "urls": [
+        "https://www.thundercompute.com/blog/best-open-source-llms",
+        "https://benchlm.ai/model-updates/releases/october-2026",
+        "https://www.openevidence.com"
+      ],
+      "date": "2026-10-14T23:01:54.547259+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T22:31:32.655842+00:00"
+  "lastUpdated": "2026-10-14T23:01:54.547326+00:00"
 }
