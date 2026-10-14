@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral CEO Claims U.S. AI Safety Debate Conceals Competitors’ Negligence",
-      "urls": [
-        "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html"
-      ],
-      "date": "2026-10-04T14:31:45.351528+00:00"
-    },
-    {
       "title": "Ayushman Bharat Digital Mission Faces Implementation Hurdles Eight Years After Launch",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_schemes_of_the_government_of_India",
@@ -5085,7 +5078,16 @@
         "https://www.worldwildlife.org/publications/2026-living-planet-report"
       ],
       "date": "2026-10-14T14:01:54.735214+00:00"
+    },
+    {
+      "title": "Mistral Vibe Rebrands from Le Chat, Expanding AI Chat and Coding Capabilities for Developers",
+      "urls": [
+        "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html",
+        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+        "https://mistral.ai/products/vibe"
+      ],
+      "date": "2026-10-14T14:31:53.846290+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T14:01:54.735288+00:00"
+  "lastUpdated": "2026-10-14T14:31:53.846359+00:00"
 }
