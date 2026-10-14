@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Mistral Vibe Chat and Coding Agent Rebranded From Le Chat",
-      "urls": [
-        "https://mistral.ai/products/vibe",
-        "https://en.wikipedia.org/wiki/AI_boom",
-        "https://v2.auth.mistral.ai/login"
-      ],
-      "date": "2026-10-04T05:01:29.466729+00:00"
-    },
-    {
       "title": "United Nations in Europe Launches AI Initiative to Include Persons with Disabilities",
       "urls": [
         "https://www.ameridisability.com/ai-and-disability-in-2026-a-comprehensive-guide-for-people-with-disabilities-caregivers-seniors-and-families",
@@ -5096,7 +5087,18 @@
         "https://en.wikipedia.org/wiki/Chicago_Marathon"
       ],
       "date": "2026-10-14T04:31:59.357363+00:00"
+    },
+    {
+      "title": "Mistral Launches Le Chonk Model With 1.05 Trillion Parameters to Boost Open AI Competition",
+      "urls": [
+        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
+        "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai",
+        "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe",
+        "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents",
+        "https://shattered.io/ai-open-source-bet-86-percent-beam-mistral-2026"
+      ],
+      "date": "2026-10-14T05:02:07.204246+00:00"
     }
   ],
-  "lastUpdated": "2026-10-14T04:31:59.357421+00:00"
+  "lastUpdated": "2026-10-14T05:02:07.204315+00:00"
 }
