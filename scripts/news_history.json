@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kozhikode Considered for New AIIMS Campus as Health Minister Announces Review",
-      "urls": [
-        "https://thehindu.com/news/national/kerala/aiims-for-keralam-kozhikode-under-active-consideration-says-satheesan/article71540835.ece",
-        "https://www.wral.com/news/local/clayton-coach-collins-charges-dropped-sept-2026"
-      ],
-      "date": "2026-10-03T23:31:51.832555+00:00"
-    },
-    {
       "title": "AMD Commits $8.2 Billion to Partner With AI Pioneer for Virtual World Chip Development",
       "urls": [
         "https://en.wikipedia.org/wiki/AMD",
@@ -5120,7 +5112,22 @@
         "https://stockanalysis.com/stocks/amzn"
       ],
       "date": "2026-10-13T23:31:26.361390+00:00"
+    },
+    {
+      "title": "Google Launches Gemini 4 Argon Model With Limited Access Over Safety Concerns",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+        "https://en.wikipedia.org/wiki/Google",
+        "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
+        "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
+        "https://en.wikipedia.org/wiki/Google_DeepMind",
+        "https://mail.google.com/mail/u/0",
+        "https://about.google",
+        "https://ai.google"
+      ],
+      "date": "2026-10-14T00:02:25.553491+00:00"
     }
   ],
-  "lastUpdated": "2026-10-13T23:31:26.361439+00:00"
+  "lastUpdated": "2026-10-14T00:02:25.553566+00:00"
 }
