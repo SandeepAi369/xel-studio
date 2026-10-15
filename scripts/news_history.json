@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Change Declared Present as Live Broadcast Urges Immediate Action",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/09/260912220029.htm",
-        "https://news.un.org/en/story/2026/09/1168372",
-        "https://eikaiwa.dmm.com/uknow/questions/17689"
-      ],
-      "date": "2026-10-05T22:31:26.901780+00:00"
-    },
-    {
       "title": "India Surpasses Global Peers as GitHub Developer Base Hits 27 Million",
       "urls": [
         "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
@@ -5118,7 +5109,18 @@
         "https://indianexpress.com/about/iit"
       ],
       "date": "2026-10-15T22:04:10.591243+00:00"
+    },
+    {
+      "title": "Delhi EV Policy Spurs Concerns Over ICE Vehicle Surge in Neighboring States",
+      "urls": [
+        "https://diyguru.org/india-ev-policy-2030-roadmap",
+        "https://www.mobec.io/blog/india-ev-policy-2026-mobec",
+        "https://www.evselect.in/ev-news",
+        "https://auto.economictimes.indiatimes.com/news/industry/delhi-ev-policy-concerns-over-strict-mandates-could-affect-ice-vehicle-sales/130205212",
+        "https://www.evradar.in/government-ev-policy-india"
+      ],
+      "date": "2026-10-15T22:31:31.355110+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T22:04:10.591305+00:00"
+  "lastUpdated": "2026-10-15T22:31:31.355179+00:00"
 }
