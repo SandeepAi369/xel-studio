@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Gemini 4 Argon as Its Most Advanced AI Model",
-      "urls": [
-        "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html"
-      ],
-      "date": "2026-10-05T11:31:34.820223+00:00"
-    },
-    {
-      "title": "FDA Publishes Osteoarthritis Drug Development Guidance Through Arthritis Foundation Resource",
-      "urls": [
-        "https://www.indiabudget.gov.in",
-        "https://www.business-standard.com/budget",
-        "https://www.n-tv.de",
-        "https://www.arthritis.org/science/impact/drugs-for-oa",
-        "https://www.thehindu.com/news/national/west-bengal/west-bengal-state-budget-live-swapan-dasgupta-present-bengals-first-bjp-budget-june-22-2026/article71131719.ece"
-      ],
-      "date": "2026-10-05T12:01:38.562302+00:00"
-    },
-    {
       "title": "Multi‑Sport Athletes Showcase Versatility Across Olympic and Professional Arenas In New Comprehensive List",
       "urls": [
         "https://www.indiatoday.in/sports/asian-games/story/asian-games-2026-live-updates-october-2-events-archery-hockey-wrestling-medals-3007773-2026-10-02",
@@ -5106,7 +5088,17 @@
         "https://www.livemint.com/companies/news/amd-invests-10-billion-in-taiwan-to-build-ai-chips-and-challenge-nvidias-dominance-11779349264379.html"
       ],
       "date": "2026-10-15T11:31:32.777902+00:00"
+    },
+    {
+      "title": "Law360 Details Emerging AI Regulation Framework Targeting Privacy and Cybersecurity",
+      "urls": [
+        "https://www.digitalspy.com",
+        "https://en.wikipedia.org/wiki/Privacy",
+        "https://www.law360.com/cybersecurity-privacy",
+        "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+      ],
+      "date": "2026-10-15T12:02:16.694938+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T11:31:32.778023+00:00"
+  "lastUpdated": "2026-10-15T12:02:16.694996+00:00"
 }
