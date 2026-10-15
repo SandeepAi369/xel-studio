@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Announces SpaceX Crew-13 Reaches Orbit Carrying Century‑Old Heirloom On Historic Flight",
-      "urls": [
-        "https://nasa.gov/blogs/spacestation/2026/10/01/nasas-spacex-crew-13-reaches-orbit-news-conference-at-1245-p-m-edt",
-        "https://abcnews.com/US/nasas-spacex-crew-13-astronaut-bringing-100-year/story?id=136906539",
-        "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations",
-        "https://www.nasaspaceflight.com/news/spacex",
-        "https://www.nasa.gov/blogs/commercialcrew/2026/10/03/nasa-spacex-set-no-earlier-than-oct-7-for-crew-12-departure"
-      ],
-      "date": "2026-10-05T13:01:47.759829+00:00"
-    },
-    {
       "title": "AIIMS Distributes AI‑Enabled Glasses to Forty Visually Impaired Individuals Across India",
       "urls": [
         "https://frontiersin.org/journals/education/articles/10.3389/feduc.2026.1706182/full",
@@ -5099,7 +5088,14 @@
         "https://www.nytimes.com/athletic/7612589/2026/09/20/agnes-ngetich-world-road-running-championships-2026"
       ],
       "date": "2026-10-15T12:31:45.272847+00:00"
+    },
+    {
+      "title": "Anthropic, Apple, ASML, and Google Shape Top Tech Headlines in October 2026",
+      "urls": [
+        "https://techstartups.com/2026/10/14/top-tech-news-today-october-14-2026-apple-asml-google-openai-microsoft-nvidia-more"
+      ],
+      "date": "2026-10-15T13:02:13.844136+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T12:31:45.272912+00:00"
+  "lastUpdated": "2026-10-15T13:02:13.844230+00:00"
 }
