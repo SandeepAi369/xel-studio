@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Toyota Unveils Expanded Lineup of Cars, Trucks, SUVs and Hybrid Models",
-      "urls": [
-        "https://www.jagranjosh.com/general-knowledge/nobel-prize-award-2026-in-physiology-medicine-winners-1820012789-1",
-        "https://en.wikipedia.org/wiki/Mayo_Clinic",
-        "https://timesofindia.indiatimes.com/education/news/the-rankings-2026-here-are-top-us-universities-for-medical-and-health/articleshow/127162170.cms",
-        "https://www.toyota.com",
-        "https://en.wikipedia.org/wiki/MaRS_Discovery_District"
-      ],
-      "date": "2026-10-05T19:02:13.382862+00:00"
-    },
-    {
       "title": "Sydney Marathon 2026 Sets Multiple Records Across the Course in Record-Breaking Race",
       "urls": [
         "https://www.guinnessworldrecords.com/news/2026/8/discover-all-the-records-broken-at-the-sydney-marathon-2026",
@@ -5102,7 +5091,16 @@
         "https://www.webmd.com"
       ],
       "date": "2026-10-15T19:01:37.779520+00:00"
+    },
+    {
+      "title": "Google DeepMind Builds New Robotics Lab in Cambridge to Advance Physical AI Research",
+      "urls": [
+        "https://cryptobriefing.com/google-deepmind-no-ai-research-acceleration",
+        "https://www.theverge.com/ai-artificial-intelligence/1011807/google-deepmind-is-building-a-new-robotics-lab-in-cambridge",
+        "https://www.google.com"
+      ],
+      "date": "2026-10-15T19:31:40.596956+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T19:01:37.779588+00:00"
+  "lastUpdated": "2026-10-15T19:31:40.597047+00:00"
 }
