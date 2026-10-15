@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Industry Impact includes shifts in project timelines, staffing models, and release schedules",
-      "urls": [
-        "https://assam.gov.in/about-us/405",
-        "https://www.f0rmless.com/stats/2026-10",
-        "https://www.morningstar.com/news/accesswire/1188898msn/stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup",
-        "https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs"
-      ],
-      "date": "2026-10-05T03:31:44.132328+00:00"
-    },
-    {
       "title": "Anthropic Begins Development of Next‑Generation Claude Successor Model to Advance Conversational AI Capabilities",
       "urls": [
         "https://www.latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies",
@@ -5074,7 +5064,18 @@
         "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742"
       ],
       "date": "2026-10-15T03:01:51.002274+00:00"
+    },
+    {
+      "title": "SpaceX Launches Dragon Cargo Capsule Delivering 6,300 Pounds to International Space Station",
+      "urls": [
+        "https://www.space.com/tag/spacex",
+        "https://www.nasa.gov/blogs/spacestation/2026/10/13/spacex-dragon-counts-down-to-launch-for-station-resupply-mission",
+        "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station",
+        "https://www.nasa.gov/live",
+        "https://www.spacex.com/launches"
+      ],
+      "date": "2026-10-15T03:32:13.319554+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T03:01:51.002345+00:00"
+  "lastUpdated": "2026-10-15T03:32:13.319622+00:00"
 }
