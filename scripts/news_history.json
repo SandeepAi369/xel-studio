@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "New South Wales Renewable Energy Rollout Saves Nearly $1 Billion Under Budget",
-      "urls": [
-        "https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind",
-        "https://modoenergy.com/research/en/october-2026-germany-solar-wind-forecast-update-lower-power-demand-corrects-buildout-and-capture-prices",
-        "https://www.japan-experience.com/plan-your-trip/to-know/before-you-travel/electrical-outlets-in-japan-everything-you-need-to-know-for-your-trip",
-        "https://www.abc.net.au/news/2026-09-16/nsw-renewable-energy-zone-delays-2030-energy-targets/107100712",
-        "https://solarpricelist.com/blog/solar-energy-news-october-2026-industry-updates",
-        "https://en.wikipedia.org/wiki/Renewable_energy_in_India",
-        "https://en.wikipedia.org/wiki/Renewable_energy_in_China"
-      ],
-      "date": "2026-10-05T01:31:32.420452+00:00"
-    },
-    {
-      "title": "Home Page Listing Reveals No Content, Highlighting Need for Detailed Source Material",
-      "urls": [
-        "https://www.promptzone.com/ai-model-releases",
-        "https://www.microsoft.com/en-us/investor/default?msockid=1e558362922f6acd0993948b934e6b5d",
-        "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence"
-      ],
-      "date": "2026-10-05T02:01:34.388597+00:00"
-    },
-    {
       "title": "Rock Health Reports $7.4 Billion Funding Surge for Digital Health Startups in First Half",
       "urls": [
         "https://hitconsultant.net/2026/07/13/rock-health-h1-2026-digital-health-funding-report",
@@ -5086,7 +5064,17 @@
         "https://mnre.gov.in/en/monthly-updates"
       ],
       "date": "2026-10-15T01:31:24.897398+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Face Head‑to‑Head Choice for 2026 Deep Learning Projects",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "https://www.hyperstack.cloud/blog/guides/pytorch-vs-tensorflow",
+        "https://realpython.com/pytorch-vs-tensorflow",
+        "https://sharpskill.dev/en/blog/data-science/pytorch-vs-tensorflow-2026"
+      ],
+      "date": "2026-10-15T02:01:59.649070+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T01:31:24.897468+00:00"
+  "lastUpdated": "2026-10-15T02:01:59.649140+00:00"
 }
