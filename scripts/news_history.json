@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Fusion Companies Catalog Highlights Expanding Private Investment and Government Support",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Joe_Romm",
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://en.wikipedia.org/wiki/List_of_nuclear_fusion_companies"
-      ],
-      "date": "2026-10-05T14:01:47.513543+00:00"
-    },
-    {
       "title": "Open Source Ai Framework Pytorch Tensorflow News Fresh Announcements October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
@@ -5108,7 +5099,14 @@
         "https://en.wikipedia.org/wiki/Department_for_Science%2C_Innovation_and_Technology"
       ],
       "date": "2026-10-15T14:01:44.436593+00:00"
+    },
+    {
+      "title": "Mistral Unveils Open Source Speech Generation Model for Broad Developer Use",
+      "urls": [
+        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation"
+      ],
+      "date": "2026-10-15T14:31:46.505317+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T14:01:44.436669+00:00"
+  "lastUpdated": "2026-10-15T14:31:46.505388+00:00"
 }
