@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apollo Hospitals Expands Telemedicine Services to Reach Rural Patients Across India",
-      "urls": [
-        "https://www.medicalnewstoday.com/articles/telemedicine",
-        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
-        "https://en.wikipedia.org/wiki/Apollo_Hospitals"
-      ],
-      "date": "2026-10-05T23:31:34.017025+00:00"
-    },
-    {
-      "title": "Impact of the accelerated program is expected to generate new revenue streams, create high‑skill jobs, and encourage private sector partnerships",
-      "urls": [
-        "https://timesofindia.indiatimes.com/science/isro-plans-seven-major-space-missions-by-march-2026-to-boost-indias-space-growth-and-explore-new-heights/articleshow/125052254.cms",
-        "https://www.indiatoday.in/science/story/isro-pslv-c62-payloads-anvesha-eos-n1-aayulsat-moi1-orbital-temple-launch-2026-2847919-2026-01-07",
-        "https://indianexpress.com/about/isro-satellite-launch"
-      ],
-      "date": "2026-10-06T00:01:58.528498+00:00"
-    },
-    {
       "title": "NBA Playoffs 2026 Set to Showcase Elite Basketball Competition Across America",
       "urls": [
         "https://sports.yahoo.com/soccer/article/lionel-messis-heroics-cape-verdes-run-viral-ducks-and-other-top-moments-from-the-2026-world-cup-143512363.html",
@@ -5124,7 +5106,20 @@
         "https://en.wikipedia.org/wiki/Climate"
       ],
       "date": "2026-10-15T23:31:32.629501+00:00"
+    },
+    {
+      "title": "OpenAI Partners With Hugging Face to Fix Security Breach After Lawsuit",
+      "urls": [
+        "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
+        "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+        "https://en.wikipedia.org/wiki/Hugging_Face",
+        "https://www.soapcentral.com/shows/instadocs-ai-gone-wild-shows-hugging-face-hack-exposed-ai-s-biggest-security-problem",
+        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+        "https://huggingface.co/models"
+      ],
+      "date": "2026-10-16T00:02:35.641504+00:00"
     }
   ],
-  "lastUpdated": "2026-10-15T23:31:32.629583+00:00"
+  "lastUpdated": "2026-10-16T00:02:35.641570+00:00"
 }
