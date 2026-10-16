@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Economy Shows Mixed Growth as Salary Gains Meet Persistent Inflation",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
-        "https://www.forbes.com/sites/johnbremen/2026/07/31/whats-going-on-with-salary-increases-and-inflation-in-2026",
-        "https://rickmcelderry.com/global-economy-report-october-2026",
-        "https://www.the-world-now.com/recession-risk"
-      ],
-      "date": "2026-10-06T16:03:28.368860+00:00"
-    },
-    {
       "title": "Pushpa Rana Thanks Himachal CM Sukhu After State Announces Rs 1 Crore Prize For Gold Medallists",
       "urls": [
         "https://www.business-standard.com/sports/asian-games/asiad-2026-number-of-women-s-sports-gold-rises-despite-18-drop-in-medals-126100500485_1.html",
@@ -5112,7 +5102,18 @@
         "https://www.nps.gov/olym/index.htm"
       ],
       "date": "2026-10-16T16:01:49.776016+00:00"
+    },
+    {
+      "title": "Sean Brady Predicts Buckley Victory Over Malott at UFC Edmonton",
+      "urls": [
+        "https://www.mmafighting.com",
+        "https://www.mmanews.com",
+        "https://www.youtube.com/@UFC",
+        "https://www.sportskeeda.com/mma/news-he-get-tired-sean-brady-issues-bold-prediction-joaquin-buckley-vs-mike-malott-bout-ufc-edmonton",
+        "https://en.wikipedia.org/wiki/Sport_in_England"
+      ],
+      "date": "2026-10-16T16:31:34.108280+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T16:01:49.776077+00:00"
+  "lastUpdated": "2026-10-16T16:31:34.108357+00:00"
 }
