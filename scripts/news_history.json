@@ -1,32 +1,6 @@
 {
   "entries": [
     {
-      "title": "Andretti Global Expands Global Auto Racing Presence",
-      "urls": [
-        "https://andrettiglobal.com",
-        "https://en.wikipedia.org/wiki/Hybrid_electric_vehicle",
-        "https://en.wikipedia.org/wiki/The_Settlers",
-        "https://en.m.wikipedia.org/wiki/India",
-        "https://en.wikipedia.org/wiki/Andretti_Global",
-        "https://ddindia.co.in/2026/10/pm-e-drive-accelerates-indias-electric-mobility-push-with-26-59-lakh-ev-sales-₹11900-crore-outlay",
-        "https://auto.economictimes.indiatimes.com/news/commercial-vehicle/indias-commercial-ev-story-from-early-adoption-to-scale/133949263"
-      ],
-      "date": "2026-10-06T01:32:54.541962+00:00"
-    },
-    {
-      "title": "Mistral AI Launches Open‑Source Mistral Large 3 Mixture‑of‑Experts Language Model",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://mistral.ai",
-        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained",
-        "https://multi-ai.ai/en/blog/mistral-ai-releases-new-open-source-models-for-en",
-        "https://console.mistral.ai/home",
-        "https://demo.mistralcdn.net",
-        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american"
-      ],
-      "date": "2026-10-06T02:01:28.937699+00:00"
-    },
-    {
       "title": "West Bengal Expands Ayushman Bharat PM-JAY Coverage to Over 50,000 Families",
       "urls": [
         "https://www.ndtv.com/india-news/as-pm-modi-nears-25-years-in-office-a-look-at-his-schemes-swachh-bharat-abhiyan-digital-india-ayushman-bharat-pradhan-mantri-jan-dhan-yojana-12048295",
@@ -5128,7 +5102,17 @@
         "https://gocrimson.com/sports/football"
       ],
       "date": "2026-10-16T01:31:33.798927+00:00"
+    },
+    {
+      "title": "LLM Release Tracker Launches Comprehensive Database of New Language Models",
+      "urls": [
+        "https://www.llm-releases.com",
+        "https://note.com/2wd/n/n64a5a47bfcbe?hl=en",
+        "https://llm-stats.com/llm-updates",
+        "https://aireleasetracker.com/latest"
+      ],
+      "date": "2026-10-16T02:01:39.140857+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T01:31:33.798992+00:00"
+  "lastUpdated": "2026-10-16T02:01:39.140931+00:00"
 }
