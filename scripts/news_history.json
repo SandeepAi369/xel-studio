@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India National Portal Adds Diversity, Equity, Inclusion Resource Hub for Citizens",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Diversity%2C_equity%2C_and_inclusion",
-        "https://www.india.gov.in/explore-india"
-      ],
-      "date": "2026-10-06T05:31:39.341950+00:00"
-    },
-    {
       "title": "National Common Mobility Card Advances Unified Transport Payments Across India",
       "urls": [
         "https://en.wikipedia.org/wiki/Prayagraj",
@@ -5109,7 +5101,17 @@
         "https://en.wikipedia.org/wiki/OpenBSD"
       ],
       "date": "2026-10-16T05:02:14.010234+00:00"
+    },
+    {
+      "title": "Deaf Audiences Face Accessibility Gaps in Theater and Cinema, Calls for Inclusive Design Grow",
+      "urls": [
+        "https://hearinghealthmatters.org/hearing-news-watch/2026/hti-award-winners-2026",
+        "https://phys.org/news/2026-08-deaf-audiences-afterthought-theater-cinema.html",
+        "https://en.wikipedia.org/wiki/Hearing_loss",
+        "https://www.workindia.in/jobs-in-hyderabad"
+      ],
+      "date": "2026-10-16T05:31:56.130344+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T05:02:14.010307+00:00"
+  "lastUpdated": "2026-10-16T05:31:56.130421+00:00"
 }
