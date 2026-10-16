@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Boosts Renewable Power Capacity With Over 60 GW New Additions",
-      "urls": [
-        "https://energy.economictimes.indiatimes.com/news/renewable/india-on-track-to-add-over-60-gw-renewable-capacity-in-2026-renews-sumant-sinha/134499857",
-        "https://www.pv-tech.org/india-hits-288gw-renewables-capacity-with-56-solar",
-        "https://finance.yahoo.com/quote/TSLA",
-        "https://energy.economictimes.indiatimes.com/tag/international+solar+alliance",
-        "https://www.marketwatch.com/investing/stock/tsla",
-        "https://en.wikipedia.org/wiki/Energy_transition"
-      ],
-      "date": "2026-10-06T18:01:49.491748+00:00"
-    },
-    {
       "title": "Microsoft Expands Linux Learning Resources on Official Learn Platform for Developers and IT Professionals",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
@@ -5110,7 +5098,18 @@
         "https://en.wikipedia.org/wiki/Small_modular_reactor"
       ],
       "date": "2026-10-16T18:01:43.967671+00:00"
+    },
+    {
+      "title": "Dow Edges Higher as Tech Sell‑Off Shifts, Boosting Investor Confidence",
+      "urls": [
+        "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026",
+        "https://www.morningstar.com/funds/XNAS/BIPIX/quote",
+        "https://en.wikipedia.org/wiki/Tech_Mahindra",
+        "https://www.earningstoday.com/earnings-calendar/monthly/2026-10",
+        "https://www.cnbc.com/2026/10/13/huge-profits-at-tech-and-energy-companies-are-masking-this-key-trend.html"
+      ],
+      "date": "2026-10-16T18:31:39.215137+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T18:01:43.967732+00:00"
+  "lastUpdated": "2026-10-16T18:31:39.215214+00:00"
 }
