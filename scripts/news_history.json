@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Netflix Shares Track Real‑Time Prices On Yahoo And Google Finance Platforms",
-      "urls": [
-        "https://www.euronews.com/2026/10/06/climate-damage-already-locked-in-but-these-10-insights-show-our-future-is-still-being-deci",
-        "https://finance.yahoo.com/quote/NFLX",
-        "https://climate.esa.int/en/news-events/2026-climate-science-headlines-outlined-in-new-report",
-        "https://www.google.com/finance/quote/NFLX:NASDAQ"
-      ],
-      "date": "2026-10-06T14:02:00.502386+00:00"
-    },
-    {
-      "title": "India Surpasses 27 Million GitHub Developers, Rises to Second in Global Open‑Source AI Rankings",
-      "urls": [
-        "https://www.newkerala.com/news/a/indias-developer-community-surges-27-million-github-515.htm",
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/india-champions-open-source-ai-amid-global-tech-restrictions/132111261",
-        "https://www.indianmotorcycle.de"
-      ],
-      "date": "2026-10-06T14:31:41.608930+00:00"
-    },
-    {
       "title": "India Pharmaceutical Generic Drugs Export News Fresh Announcements October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://corporatefinanceinstitute.com/resources/financial-modeling/working-capital-formula",
@@ -5109,7 +5090,15 @@
         "https://en.wikipedia.org/wiki/Hurricane_Helene"
       ],
       "date": "2026-10-16T14:01:43.364966+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Face 2026 Adoption Shift in Deep Learning Frameworks",
+      "urls": [
+        "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
+        "https://www.bohrium.com/en/blog/tutorials/pytorch-vs-tensorflow"
+      ],
+      "date": "2026-10-16T14:32:06.504174+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T14:01:43.365055+00:00"
+  "lastUpdated": "2026-10-16T14:32:06.504259+00:00"
 }
