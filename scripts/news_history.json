@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cervavac Receives WHO Prequalification, Boosting Global HPV Vaccine Access for Low‑Income Countries",
-      "urls": [
-        "https://cdc.gov/global-health/impact/featured-stories-india.html",
-        "https://www.who.int/india",
-        "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
-        "https://www.dawaadost.com/hi/blog/ashwagandha-safed-musli-shatavari-kaunch-beej",
-        "https://news.abplive.com/news/india/india-hpv-cancer-vaccine-cervavac-gets-who-prequalification-1869985",
-        "https://en.wikipedia.org/wiki/Occupational_safety_and_health",
-        "https://www.britannica.com/place/India"
-      ],
-      "date": "2026-10-06T23:31:23.370595+00:00"
-    },
-    {
       "title": "OpenAI Publishes Model Release Notes to Guide Developers on Latest Model Updates",
       "urls": [
         "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -5102,7 +5089,18 @@
         "https://www.experts-exchange.com/articles/22419/How-to-install-the-Patch-1-update-for-PaperPort-14-5.html"
       ],
       "date": "2026-10-16T23:03:03.228284+00:00"
+    },
+    {
+      "title": "Indian Pharma Companies Shift Focus Beyond US Amid Tariff Threat and Iran Conflict",
+      "urls": [
+        "https://www.pharmamanufacturing.com/quality-risk/supply-chain/article/55411019/indian-pharma-companies-look-for-options-beyond-us-amid-tariff-threat-globaldata",
+        "https://www.apple.com/apple-news",
+        "https://www.macrumors.com",
+        "https://www.dw.com/en/iran-war-squeezes-indias-pharma-supply-chain/a-76980858",
+        "https://www.indialaw.in/blog/regulatory/us-pharma-tariffs-2026-exporters"
+      ],
+      "date": "2026-10-16T23:31:39.559096+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T23:03:03.228338+00:00"
+  "lastUpdated": "2026-10-16T23:31:39.559152+00:00"
 }
