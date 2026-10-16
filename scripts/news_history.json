@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Roblox Launches Satchel Open-Source Modern Backpack System for Community Developers",
-      "urls": [
-        "https://opensourceindia.in/agenda",
-        "https://devforum.roblox.com/t/circularradial-progress/454443",
-        "https://www.opensourceindia.in",
-        "https://devforum.roblox.com/t/satchel-open-source-modern-backpack-system/2451549",
-        "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
-        "https://devforum.roblox.com/c/bug-reports/10"
-      ],
-      "date": "2026-10-06T23:02:12.438482+00:00"
-    },
-    {
       "title": "Cervavac Receives WHO Prequalification, Boosting Global HPV Vaccine Access for Low‑Income Countries",
       "urls": [
         "https://cdc.gov/global-health/impact/featured-stories-india.html",
@@ -5102,7 +5090,19 @@
         "https://en.wikipedia.org/wiki/Energy_transition"
       ],
       "date": "2026-10-16T22:31:49.157611+00:00"
+    },
+    {
+      "title": "India Deploys Open Source AI Strategy to Challenge Western Technology Dominance",
+      "urls": [
+        "https://www.moneycontrol.com/artificial-intelligence/github-s-india-developer-base-surges-to-27-million-as-ai-agents-reshape-coding-article-13886172.html",
+        "https://www.thehindubusinessline.com/info-tech/india-moves-beyond-ai-adoption-to-open-source-contribution-red-hat/article71429186.ece",
+        "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
+        "https://www.business-standard.com/industry/news/github-india-57-million-developers-2030-ai-growth-125102801381_1.html",
+        "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon",
+        "https://www.experts-exchange.com/articles/22419/How-to-install-the-Patch-1-update-for-PaperPort-14-5.html"
+      ],
+      "date": "2026-10-16T23:03:03.228284+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T22:31:49.157678+00:00"
+  "lastUpdated": "2026-10-16T23:03:03.228338+00:00"
 }
