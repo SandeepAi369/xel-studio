@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Expands Linux Learning Resources on Official Learn Platform for Developers and IT Professionals",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
-        "https://en.wikipedia.org/wiki/Linux_Mint",
-        "https://www.linux.org",
-        "https://learn.microsoft.com/en-us/linux",
-        "https://opensource.googleblog.com/2026/10",
-        "https://en.wikipedia.org/wiki/Blender_%28software%29"
-      ],
-      "date": "2026-10-06T18:31:41.162996+00:00"
-    },
-    {
       "title": "Sermo Releases 20 Telemedicine Trends Forecasting 2026 Healthcare Landscape for Providers",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/telemedicine-digital-health-market-2026-093200195.html",
@@ -5109,7 +5097,16 @@
         "https://www.cnbc.com/2026/10/13/huge-profits-at-tech-and-energy-companies-are-masking-this-key-trend.html"
       ],
       "date": "2026-10-16T18:31:39.215137+00:00"
+    },
+    {
+      "title": "Innovation Transforms Diagnosis and Drug Discovery Across Healthcare Industry",
+      "urls": [
+        "https://lqventures.com/ai-in-healthcare-trends-strategic-roundup-oct-2026",
+        "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
+        "https://healthcare.msu.edu"
+      ],
+      "date": "2026-10-16T19:01:45.838058+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T18:31:39.215214+00:00"
+  "lastUpdated": "2026-10-16T19:01:45.838133+00:00"
 }
