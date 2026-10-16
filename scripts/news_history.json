@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "BCCI Reviews Ajit Agarkar’s Role as Chief Selector Amid Leadership Talks",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
-        "https://www.outlookindia.com/sports/cricket/bcci-selection-committee-india-vs-new-zealand-series-ajit-agarkar",
-        "https://www.cricketnews.com/en/cricket/news/india-squad-west-indies-odi-series-2026-full-team-list-ind-vs-wi-series/e679b207071ad688e3458077",
-        "https://www.latestly.com/sports/cricket/bcci-to-decide-ajit-agarkars-future-as-chief-selector-confirms-vp-rajeev-shukla-7610016.html",
-        "https://www.india.com"
-      ],
-      "date": "2026-10-06T04:32:47.629315+00:00"
-    },
-    {
-      "title": "India's Open Source AI Surge Outpaces Patent Filings, Driving Collaborative Innovation",
-      "urls": [
-        "https://carnegieendowment.org/india/research/2026/05/outlooks-on-open-source-innovation-at-the-india-ai-impact-summit-2026",
-        "https://www.opensourceforu.com/2026/04/indias-open-source-ai-boom-outpaces-patents-says-stanford",
-        "https://www.reddit.com/r/lifehacks/comments/2mmtxj/how_to_download_youtube_videos_for_free_without",
-        "https://www.explainx.ai/blog/india-sovereign-ai-status-indiaai-mission-2026"
-      ],
-      "date": "2026-10-06T05:01:32.529298+00:00"
-    },
-    {
       "title": "India National Portal Adds Diversity, Equity, Inclusion Resource Hub for Citizens",
       "urls": [
         "https://en.wikipedia.org/wiki/Diversity%2C_equity%2C_and_inclusion",
@@ -5119,7 +5098,18 @@
         "https://en.wikipedia.org/wiki/2012_Summer_Olympics_medal_table"
       ],
       "date": "2026-10-16T04:31:56.680423+00:00"
+    },
+    {
+      "title": "Linuxiac Weekly Wrap-Up Highlights OpenBSD Updates in Week 40 Overview",
+      "urls": [
+        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-40-2026-september-28-october-4",
+        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-15.html",
+        "https://itsfoss.com/news",
+        "https://en.wikipedia.org/wiki/OpenBSD"
+      ],
+      "date": "2026-10-16T05:02:14.010234+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T04:31:56.680514+00:00"
+  "lastUpdated": "2026-10-16T05:02:14.010307+00:00"
 }
