@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dow Opens Higher as Tech Stocks Gain Investor Favor in October",
-      "urls": [
-        "https://qz.com/dow-sp500-nasdaq-october-gains-ai-stocks-100126",
-        "https://www.investing.com/earnings-calendar",
-        "https://www.wealthiertoday.com/news/top-5-technology-stocks-that-could-be-a-strong-bet-in-october-2026"
-      ],
-      "date": "2026-10-06T03:31:32.182060+00:00"
-    },
-    {
-      "title": "India Launches 2026 Startup Funding Guide With State Grants and Accelerators",
-      "urls": [
-        "https://beststartup.in/startup-india-funding-2026-regional-guide",
-        "https://en.wikipedia.org/wiki/Venture_capital"
-      ],
-      "date": "2026-10-06T04:01:44.655103+00:00"
-    },
-    {
       "title": "BCCI Reviews Ajit Agarkar’s Role as Chief Selector Amid Leadership Talks",
       "urls": [
         "https://en.wikipedia.org/wiki/Rajasthan_Royals",
@@ -5116,7 +5099,14 @@
         "https://www.theapplepost.com/2026/10/14/73275/apple-isnt-done-yet-heres-what-else-is-expected-this-october"
       ],
       "date": "2026-10-16T03:31:30.006306+00:00"
+    },
+    {
+      "title": "Stocks Plunge Amid Funding Worries Triggering Global Tech Market Rout",
+      "urls": [
+        "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
+      ],
+      "date": "2026-10-16T04:02:20.232199+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T03:31:30.006378+00:00"
+  "lastUpdated": "2026-10-16T04:02:20.232270+00:00"
 }
