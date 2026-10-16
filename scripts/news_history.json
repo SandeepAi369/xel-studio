@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "West Bengal Expands Ayushman Bharat PM-JAY Coverage to Over 50,000 Families",
-      "urls": [
-        "https://www.ndtv.com/india-news/as-pm-modi-nears-25-years-in-office-a-look-at-his-schemes-swachh-bharat-abhiyan-digital-india-ayushman-bharat-pradhan-mantri-jan-dhan-yojana-12048295",
-        "https://en.wikipedia.org/wiki/Timeline_of_the_Narendra_Modi_premiership",
-        "https://health.economictimes.indiatimes.com/news/policy/over-50000-people-receive-healthcare-benefits-under-ayushman-bharat-pm-jay-in-bengal-cm-suvendu-adhikari/134279684",
-        "https://en.wikipedia.org/wiki/Narendra_Modi"
-      ],
-      "date": "2026-10-06T02:31:38.365182+00:00"
-    },
-    {
       "title": "Ukrainian and Venezuelan Refugee Crises Drive Global Displacement Surge in 2026",
       "urls": [
         "https://www.icmc.net/2026/04/14/understanding-global-displacement-in-2026-the-crisis-behind-the-headlines",
@@ -5112,7 +5102,16 @@
         "https://aireleasetracker.com/latest"
       ],
       "date": "2026-10-16T02:01:39.140857+00:00"
+    },
+    {
+      "title": "Ayushman Bharat Expands Digital Health Reach Through NHA and Healthcare Federation Collaboration",
+      "urls": [
+        "https://ddindia.co.in/2026/09/ayushman-bharat-transforming-indias-healthcare-landscape-through-inclusion-access-and-innovation",
+        "https://organiser.org/2026/02/25/341713/bharat/how-ai-and-ayushman-bharat-digital-mission-are-powering-an-ai-driven-healthcare-revolution-in-india",
+        "https://www.india.com/news/nha-to-collaborate-with-healthcare-federation-for-better-implementation-of-ayushman-bharat-3577535"
+      ],
+      "date": "2026-10-16T02:31:59.596328+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T02:01:39.140931+00:00"
+  "lastUpdated": "2026-10-16T02:31:59.596384+00:00"
 }
