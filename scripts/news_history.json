@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India and Pakistan Floods Cost $5.6 Billion, Ranking Among Top Ten 2025 Climate Disasters",
-      "urls": [
-        "https://www.washingtonpost.com/weather/2026/10/01/heavy-rain-texas-brings-continued-threat-flooding",
-        "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding",
-        "https://www.accuweather.com/en/hurricane/gulf-tropical-trouble-could-unleash-significant-flooding-in-southeastern-us/1941938",
-        "https://pragativadi.com/odisha-cyclone-alert-october-2026-low-pressure-threat-after-floods",
-        "https://www.livemint.com/news/world/india-and-pakistan-floods-cost-5-6bn-rank-cyclones-climate-change-disasters-2025-landslides-rainfall-hurricane-melissa-11766761242429.html",
-        "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Helene_in_North_Carolina"
-      ],
-      "date": "2026-10-06T10:31:34.192074+00:00"
-    },
-    {
       "title": "Newsweek Announces AI Impact Health Awards Winners Highlighting Emerging Medical Innovations",
       "urls": [
         "https://www.newsweek.com/newsweeks-ai-impact-health-awards-2026-winners-12473649",
@@ -5105,7 +5093,19 @@
         "https://acecloud.ai/blog/pytorch-vs-tensorflow"
       ],
       "date": "2026-10-16T10:02:14.665672+00:00"
+    },
+    {
+      "title": "Hurricane Isaias Leaves Four Dead and Widespread Flood Damage Across Gulf Coast and California",
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+        "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+        "https://www.bbc.com/news/articles/c3vgx4450v2lo",
+        "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-gulf-coast",
+        "https://www.aljazeera.com/gallery/2026/10/12/hurricane-isaias-leaves-trail-of-destruction-across-the-us-gulf-coast",
+        "https://en.wikipedia.org/wiki/Hurricane_Isaias_%282026%29"
+      ],
+      "date": "2026-10-16T10:31:36.081078+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T10:02:14.665741+00:00"
+  "lastUpdated": "2026-10-16T10:31:36.081147+00:00"
 }
