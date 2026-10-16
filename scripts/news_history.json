@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Launches Centralized News Hub Detailing AI Research and Announcements",
-      "urls": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement",
-        "https://deepmind.google/blog",
-        "https://www.techbuzz.ai/articles/google-unveils-major-ai-updates-across-deepmind-gemini"
-      ],
-      "date": "2026-10-06T19:31:38.747958+00:00"
-    },
-    {
       "title": "Brazil Praises India as Key Trading Partner at G20 Milwaukee Amid Global Imbalance Standoff",
       "urls": [
         "https://www.nationpress.com/international/brazil-hails-india-as-key-trading-partner-at-g20",
@@ -5105,7 +5096,17 @@
         "https://zhidao.baidu.com/question/584519997.html"
       ],
       "date": "2026-10-16T19:31:37.166151+00:00"
+    },
+    {
+      "title": "United States Economy Faces Recession Risk As GLOBLE Report Highlights Slowdown",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Recession",
+        "https://globle-game.com",
+        "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
+        "https://www.deloitte.com/global/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
+      ],
+      "date": "2026-10-16T20:01:36.847531+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T19:31:37.166211+00:00"
+  "lastUpdated": "2026-10-16T20:01:36.847587+00:00"
 }
