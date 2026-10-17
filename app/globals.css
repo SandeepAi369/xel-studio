@@ -337,63 +337,33 @@ img {
   background: transparent;
   padding: 0;
 }
-/* ===== AESTHETIC INTRO LOADER (components/IntroLoader.tsx) =====
-   Covers the already-rendered page for 2 s, then fades out — CSS only, so
-   it also works without JavaScript and never hides content from the DOM. */
-.xel-intro {
+/* ===== TOP PROGRESS BAR (components/TopLoader.tsx) =====
+   Thin glowing line at the top edge; shown only on link-click navigation. */
+.xel-topbar {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
   z-index: 9999;
-  display: grid;
-  place-items: center;
-  align-content: center;
-  gap: 28px;
-  background: radial-gradient(ellipse at center, #07140f 0%, #0a0a0a 65%);
-  animation: xel-intro-out 0.45s ease-in 2s forwards;
-  cursor: progress;
+  pointer-events: none;
+  transition: opacity 0.25s ease 0.2s;
 }
-.xel-intro--done { animation: xel-intro-out 0.2s ease-in forwards; }
-.xel-intro__core { position: relative; width: 96px; height: 96px; display: grid; place-items: center; }
-.xel-intro__ring {
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  border-top-color: #00ffaa;
-  border-right-color: rgba(0, 255, 170, 0.35);
-  box-shadow: 0 0 24px rgba(0, 255, 170, 0.35), inset 0 0 18px rgba(0, 255, 170, 0.15);
-  animation: xel-intro-spin 1.1s linear infinite;
-}
-.xel-intro__ring--2 {
-  inset: 14px;
-  border-top-color: #00d4ff;
-  border-right-color: rgba(0, 212, 255, 0.3);
-  animation-duration: 1.6s;
-  animation-direction: reverse;
-}
-.xel-intro__mark::before { content: "X"; }
-.xel-intro__mark {
-  font-family: var(--font-geist-mono), ui-monospace, monospace;
-  font-size: 30px;
-  font-weight: 700;
-  color: #00ffaa;
-  text-shadow: 0 0 12px rgba(0, 255, 170, 0.9), 0 0 32px rgba(0, 255, 170, 0.5);
-  animation: xel-intro-pulse 1s ease-in-out infinite alternate;
-}
-.xel-intro__bar { width: 160px; height: 2px; background: rgba(255, 255, 255, 0.08); border-radius: 2px; overflow: hidden; }
-.xel-intro__bar > span {
-  display: block;
+.xel-topbar[data-phase="finishing"] { opacity: 0; }
+.xel-topbar__fill {
+  position: relative;
   height: 100%;
-  width: 100%;
-  transform-origin: left;
   background: linear-gradient(90deg, #00ffaa, #00d4ff);
-  box-shadow: 0 0 10px #00ffaa;
-  animation: xel-intro-fill 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  box-shadow: 0 0 8px rgba(0, 255, 170, 0.8), 0 0 2px rgba(0, 212, 255, 0.9);
+  transition: width 1s cubic-bezier(0.1, 0.6, 0.2, 1);
 }
-@keyframes xel-intro-out { to { opacity: 0; visibility: hidden; pointer-events: none; } }
-@keyframes xel-intro-spin { to { transform: rotate(360deg); } }
-@keyframes xel-intro-pulse { from { opacity: 0.65; } to { opacity: 1; } }
-@keyframes xel-intro-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@media (prefers-reduced-motion: reduce) {
-  .xel-intro { display: none !important; }
+.xel-topbar[data-phase="finishing"] .xel-topbar__fill { transition: width 0.2s ease-out; }
+.xel-topbar__fill::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 80px;
+  height: 6px;
+  background: radial-gradient(ellipse at right, rgba(0, 255, 170, 0.55), transparent 70%);
 }
