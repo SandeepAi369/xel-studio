@@ -8,11 +8,7 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // TypeScript: React 19 types have stricter Iterator requirements
-  // Code is correct - skip type check during build (tsc --noEmit still works for dev)
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Type errors fail the build (the codebase is type-clean; CI checks too).
 
   // Image optimization — Cloudinary CDN + WebP/AVIF auto-serve
   images: {
