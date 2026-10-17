@@ -15,7 +15,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/articles.txt',
                     '/d942c55b41224d45a963b655513ab0a9.txt',
                 ],
-                disallow: ['/xel-admin', '/dashboard', '/api/'],
+                // /ai-news: aggregated news, not for crawling or AI training.
+                disallow: ['/xel-admin', '/dashboard', '/api/', '/ai-news'],
             },
         ],
         sitemap: 'https://xel-studio.vercel.app/sitemap.xml',

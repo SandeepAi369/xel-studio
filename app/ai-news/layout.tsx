@@ -14,9 +14,15 @@ export const metadata: Metadata = {
     },
     alternates: {
         canonical: 'https://xel-studio.vercel.app/ai-news',
-        types: {
-            'application/rss+xml': 'https://xel-studio.vercel.app/api/rss',
-        },
+    },
+    // News is aggregated content: keep it out of search engines and AI
+    // indexes. (Also enforced by the X-Robots-Tag header, robots.txt and
+    // the bot block in proxy.ts.)
+    robots: {
+        index: false,
+        follow: false,
+        nocache: true,
+        googleBot: { index: false, follow: false, noimageindex: true, 'max-snippet': 0, 'max-image-preview': 'none' },
     },
 };
 
