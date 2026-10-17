@@ -9,7 +9,7 @@
  */
 
 import { getSupabaseAdmin } from './supabase';
-import { pingIndexNow } from './indexnow';
+import { scheduleDiscoveryPings } from './discovery-pings';
 import { revalidateAIOFeeds } from './revalidate-feeds';
 
 // ─── Type Definitions ────────────────────────────────────────
@@ -149,10 +149,10 @@ export async function addArticle(article: Omit<Article, 'id' | 'created_at'>): P
         throw new Error(`Failed to add article: ${error.message}`);
     }
     
-    // Trigger IndexNow ping in the background without awaiting
-    pingIndexNow(`/articles/${newArticle.id}`).catch(console.error);
     // Invalidate every AIO feed so they reflect the new article immediately.
     revalidateAIOFeeds(newArticle.id);
+    // IndexNow + WebSub, run via after() so Vercel doesn't drop them.
+    scheduleDiscoveryPings(newArticle.id);
 
     return data as Article;
 }
@@ -175,10 +175,9 @@ export async function updateArticle(id: string, updates: Partial<Article>): Prom
         return null;
     }
     
-    // Trigger IndexNow ping in the background without awaiting
-    pingIndexNow(`/articles/${id}`).catch(console.error);
     // Invalidate every AIO feed so updates propagate immediately.
     revalidateAIOFeeds(id);
+    scheduleDiscoveryPings(id);
 
     return data as Article;
 }
@@ -196,6 +195,8 @@ export async function deleteArticle(id: string): Promise<boolean> {
     }
     // Invalidate every AIO feed so deletions are reflected immediately.
     revalidateAIOFeeds(id);
+    // Pinging the removed URL lets search engines drop it sooner.
+    scheduleDiscoveryPings(id);
     return true;
 }
 
