@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Healthcare uses AI for diagnostic imaging, predictive patient monitoring, and personalized treatment plans, improving accuracy and speeding decision",
-      "urls": [
-        "https://newsweek.com/newsweeks-ai-impact-health-awards-2026-winners-12473649",
-        "https://www.tmhcc.com/en/news-and-articles/thought-leadership/pi-understanding-the-fundamentals-of-pi-for-technology-industry-clients",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://www.merriam-webster.com/dictionary/repurposed",
-        "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence",
-        "https://dictionary.cambridge.org/dictionary/english/repurposed",
-        "https://www.tmhcc.com/en/news-and-articles/company-news/tokio-marine-hcc-international-acquires-direct-commercial-limited-a-leading-uk-commercial-motor-mga",
-        "https://spidits.com/weekly"
-      ],
-      "date": "2026-10-07T02:31:47.893290+00:00"
-    },
-    {
       "title": "Senior Trump Officials Convene at Camp David to Discuss Iran War",
       "urls": [
         "https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment",
@@ -5097,7 +5083,16 @@
         "https://geekhub.in/blog/openai-fully-open-sources-codex-harness-what-it-means-for-indian-developers-20260823"
       ],
       "date": "2026-10-17T02:03:19.992535+00:00"
+    },
+    {
+      "title": "Digital Wellness Program Reduces Anxiety and Depression in Adults with Chronic Conditions",
+      "urls": [
+        "https://medicalxpress.com/news/2026-08-digital-wellness-eases-anxiety-depression.html",
+        "https://en.wikipedia.org/wiki/Digital_detox",
+        "https://www.grandviewresearch.com/blog/future-mental-health-care-innovations-emerging-trends"
+      ],
+      "date": "2026-10-17T02:31:58.160707+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T02:03:19.992606+00:00"
+  "lastUpdated": "2026-10-17T02:31:58.160777+00:00"
 }
