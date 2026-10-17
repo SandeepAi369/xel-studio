@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Publishes 2026 AI Statistics Report Showcasing Muse and Llama User Growth",
-      "urls": [
-        "https://www.theverge.com/2024/7/23/24204055/meta-ai-llama-3-1-open-source-assistant-openai-chatgpt",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://www.techbuzz.ai/articles/meta-s-llama-4-guide-open-ai-model-powers-next-gen-apps",
-        "https://www.gradually.ai/en/meta-ai-statistics"
-      ],
-      "date": "2026-10-07T04:02:10.745752+00:00"
-    },
-    {
-      "title": "Bhuvneshwar Kumar Returns to India T20I Squad as Bishnoi Omitted for New Zealand Tour",
-      "urls": [
-        "https://thesportstak.com/cricket/story/bhuvneshwar-swings-back-t20i-squad-long-hiatus-selectors-drop-bishnoi-new-zealand-tour-arste-3345504-2026-10-07"
-      ],
-      "date": "2026-10-07T04:31:37.969246+00:00"
-    },
-    {
       "title": "OpenSSF Expands Membership and Launches New Global Policy Resources at Community Day Europe",
       "urls": [
         "https://www.linuxfoundation.org/press/openssf-shares-expanded-membership-and-new-global-policy-resources-during-community-day-europe",
@@ -5110,7 +5093,17 @@
         "https://en.wikipedia.org/wiki/PayPal"
       ],
       "date": "2026-10-17T04:01:43.237930+00:00"
+    },
+    {
+      "title": "Premier League Tables Update After Matchday Seven Shows Shifting Positions",
+      "urls": [
+        "https://www.kicker.de/premier-league-2-division-1/tabelle",
+        "https://www.kicker.de/premier-league/tabelle",
+        "https://en.wikipedia.org/wiki/List_of_people_from_Chennai",
+        "https://en.wikipedia.org/wiki/India_national_football_team"
+      ],
+      "date": "2026-10-17T04:33:29.394805+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T04:01:43.237994+00:00"
+  "lastUpdated": "2026-10-17T04:33:29.394861+00:00"
 }
