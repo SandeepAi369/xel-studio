@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tamil Nadu Floods Displace Thousands as Officials Warn of Upcoming Heatwaves",
-      "urls": [
-        "https://www.nytimes.com/2026/09/15/climate/extreme-weather-survivors.html",
-        "https://en.wikipedia.org/wiki/Hurricane_Sandy",
-        "https://www.reuters.com/world/floods",
-        "https://www.theweek.in/news/india/2026/09/23/tamil-nadu-floods-from-october-december-extreme-heatwaves-2027-cm-vijay.html"
-      ],
-      "date": "2026-10-07T01:31:36.538480+00:00"
-    },
-    {
       "title": "OpenCode Launches New Open Source AI Coding Agent Enhancing Developer Productivity",
       "urls": [
         "https://finance.yahoo.com/quote/OPEN",
@@ -5095,7 +5085,19 @@
         "https://theeducationecho.com/special-education-2026-shift-to-inclusion-and-ai"
       ],
       "date": "2026-10-17T01:01:43.482531+00:00"
+    },
+    {
+      "title": "India Experiences Record Low Monsoon Rainfall as Super El Nino Raises Extreme Weather Risks",
+      "urls": [
+        "https://www.newindianexpress.com/india/2026/Oct/15/southwest-monsoon-withdraws-from-india-as-northeast-monsoon-sets-in-over-south",
+        "https://www.newindianexpress.com/india/2026/Oct/12/imd-predicts-northeast-monsoon-onset-in-2-3-days",
+        "https://www.livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
+        "https://en.m.wikipedia.org/wiki/India",
+        "https://kanaknews.com/videos/society/%E0%AC%86%E0%AC%B8%E0%AC%9B-%E0%AC%AA%E0%AC%B0%E0%AC%B3%E0%AD%9F-%E0%AC%AD%E0%AC%B3-%E0%AC%AA%E0%AC%97-special-report-on-super-el-nino-alert-180-scientists-warn-of-extreme-weather-12557587",
+        "https://www.business-standard.com/topic/indian-monsoon"
+      ],
+      "date": "2026-10-17T01:33:14.830610+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T01:01:43.482593+00:00"
+  "lastUpdated": "2026-10-17T01:33:14.830662+00:00"
 }
