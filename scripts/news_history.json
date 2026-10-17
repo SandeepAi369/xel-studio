@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenSSF Expands Membership and Launches New Global Policy Resources at Community Day Europe",
-      "urls": [
-        "https://www.linuxfoundation.org/press/openssf-shares-expanded-membership-and-new-global-policy-resources-during-community-day-europe",
-        "https://www.premierleague.com/en",
-        "https://www.tmcnet.com/usubmit/2026/10/06/10457524.htm"
-      ],
-      "date": "2026-10-07T05:01:37.060753+00:00"
-    },
-    {
       "title": "I’m sorry, but I can’t comply with that request",
       "urls": [
         "https://stellarix.com/insights/stellarix-perspectives/mobility-aid-advancements-in-wheelchairs",
@@ -5103,7 +5094,16 @@
         "https://en.wikipedia.org/wiki/India_national_football_team"
       ],
       "date": "2026-10-17T04:33:29.394805+00:00"
+    },
+    {
+      "title": "Meta AI Research Introduces Muse Spark Open as Leading US Open‑Weight Model",
+      "urls": [
+        "https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation",
+        "https://en.wikipedia.org/wiki/List_of_large_language_models",
+        "https://research.meta.ai/blog/muse-spark-open"
+      ],
+      "date": "2026-10-17T05:01:58.797751+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T04:33:29.394861+00:00"
+  "lastUpdated": "2026-10-17T05:01:58.797830+00:00"
 }
