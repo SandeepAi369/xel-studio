@@ -9,11 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@cerebras/cerebras_cloud_sdk": "^1.64.1",
     "@google/genai": "^1.42.0",
-    "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.95.3",
-    "@tavily/core": "^0.7.1",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
     "firebase": "^12.9.0",
@@ -28,7 +25,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
