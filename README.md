@@ -7,12 +7,12 @@
 A cutting-edge, full-stack platform built with **Next.js 16** and **React 19**, featuring an automated AI news pipeline, real-time chat, text-to-speech, security tools, and a comprehensive admin panel — all wrapped in a stunning cyberpunk-inspired dark interface.
 
 [![Live](https://img.shields.io/badge/🌐_Live-xel--studio.vercel.app-00ffaa?style=for-the-badge)](https://xel-studio.vercel.app)
-[![Next.js](https://img.shields.io/badge/Next.js-16.1.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Next.js](https://img.shields.io/badge/Next.js-16.4.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 [![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 
-**v2.5**
+**v3.8.0**
 
 </div>
 
@@ -308,7 +308,7 @@ xel-studio/
 │   └── deploy.yml                # Manual Vercel deployment
 ├── vercel.json                   # Vercel config (Python runtime, crons)
 ├── next.config.ts                # Next.js config (image domains, etc.)
-├── package.json                  # Dependencies (v2.5.0)
+├── package.json                  # Dependencies (v3.8.0)
 ├── tsconfig.json                 # TypeScript configuration
 └── env.d.ts                      # TypeScript environment declarations
 ```
@@ -586,6 +586,6 @@ This project is open source under the [MIT License](LICENSE).
 
 **Built with ❤️ by [Sandeep](https://github.com/SandeepAi369)**
 
-⚡ XeL Studio v2.5
+⚡ XeL Studio v3.8.0
 
 </div>
