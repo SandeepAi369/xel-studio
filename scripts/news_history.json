@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Publishes Model Release Notes to Guide Developers on Latest Model Updates",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://en.wikipedia.org/wiki/GPT-6",
-        "https://openai.com/index/chatgpt"
-      ],
-      "date": "2026-10-07T00:02:13.479566+00:00"
-    },
-    {
       "title": "Cristiano Ronaldo Featured Among Top Athletes in Recent Search Results",
       "urls": [
         "https://en.wikipedia.org/wiki/Luke_Littler",
@@ -5100,7 +5091,17 @@
         "https://www.indialaw.in/blog/regulatory/us-pharma-tariffs-2026-exporters"
       ],
       "date": "2026-10-16T23:31:39.559096+00:00"
+    },
+    {
+      "title": "Meta Launches Open AI Model While Retaining Proprietary Technology for Developers",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-15/meta-releases-open-ai-model-while-keeping-its-best-tech-closed",
+        "https://en.wikipedia.org/wiki/Mistral_AI",
+        "https://www.seattletimes.com/business/meta-releases-open-ai-model-while-keeping-its-best-tech-closed",
+        "https://www.channelstv.com/2026/10/15/meta-launches-new-open-ai-model-to-rival-chinese-competition"
+      ],
+      "date": "2026-10-17T00:03:18.761620+00:00"
     }
   ],
-  "lastUpdated": "2026-10-16T23:31:39.559152+00:00"
+  "lastUpdated": "2026-10-17T00:03:18.761692+00:00"
 }
