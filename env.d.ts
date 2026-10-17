@@ -1,11 +1,11 @@
 declare namespace NodeJS {
     interface ProcessEnv {
-        // Admin auth
+        // Admin auth (admin link: /xel-admin#token=<ADMIN_TOKEN>, then password)
         ADMIN_TOKEN?: string;
-        ADMIN_PASSWORD?: string;
+        ADMIN_PASSWORD?: string;          // bcrypt hash recommended ($2…); plaintext still accepted
         SESSION_SECRET?: string;
 
-        // Firebase
+        // Firebase (client)
         NEXT_PUBLIC_FIREBASE_API_KEY?: string;
         NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN?: string;
         NEXT_PUBLIC_FIREBASE_PROJECT_ID?: string;
@@ -14,35 +14,36 @@ declare namespace NodeJS {
         NEXT_PUBLIC_FIREBASE_APP_ID?: string;
         NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID?: string;
 
+        // Firebase Admin (server) — either the JSON blob or the three fields
+        FIREBASE_SERVICE_ACCOUNT?: string;
+        FIREBASE_PROJECT_ID?: string;
+        FIREBASE_CLIENT_EMAIL?: string;
+        FIREBASE_PRIVATE_KEY?: string;
+
         // Supabase
         NEXT_PUBLIC_SUPABASE_URL?: string;
+        NEXT_PUBLIC_SUPABASE_ANON_KEY?: string;
         SUPABASE_SERVICE_ROLE_KEY?: string;
 
-        // Cerebras
-        CEREBRAS_API_KEY?: string;
+        // GitHub (dispatches deepAI-Articles sync + syndication workflows)
+        GITHUB_PAT?: string;
 
-        // Groq (chat fallback)
-        GROQ_API_KEY?: string;
-
-        // GitHub
-        GITHUB_TOKEN?: string;
-        GITHUB_REPO?: string;
-
-        // Cloudinary
+        // Cloudinary (admin uploads) — CLOUDINARY_URL or the three fields
+        CLOUDINARY_URL?: string;
         CLOUDINARY_CLOUD_NAME?: string;
         CLOUDINARY_API_KEY?: string;
         CLOUDINARY_API_SECRET?: string;
 
-        // Gemini (image generation)
+        // Gemini (chat)
         GEMINI_API_KEY?: string;
         GEMINI_CHAT_API_KEY?: string;
 
-        // Cron
+        // Cron + on-demand revalidation
         CRON_SECRET?: string;
+        REVALIDATION_SECRET?: string;
 
-        // Tavily
-        TAVILY_API_KEY?: string;
-        TAVILY_API_KEY_2?: string;
+        // Feature flags
+        ENABLE_ADVANCED_AIO?: string;     // "false" disables llms.txt / .md mirrors / slug aliases
 
         // Vercel system
         VERCEL_URL?: string;

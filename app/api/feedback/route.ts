@@ -1,43 +1,65 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { validateSession } from '@/lib/auth';
 import { getSupabaseAdmin } from '@/lib/supabase';
+import '@/lib/firebase-admin'; // initializes the Firebase Admin app (side effect)
+import { getAuth } from 'firebase-admin/auth';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
+const MAX_CONTENT_CHARS = 5_000;
+const MAX_NAME_CHARS = 100;
+
 // ─── POST: Submit feedback (from Firebase-authed users) ───────
+// The user's identity comes from their verified Firebase ID token, never
+// from the request body (which anyone could fake).
 export async function POST(request: NextRequest) {
     try {
-        const body = await request.json();
-        const { content, user_name, user_email, user_id } = body;
+        const idToken = request.headers.get('authorization')?.replace(/^Bearer /, '');
+        if (!idToken) {
+            return NextResponse.json({ error: 'Please sign in to send feedback.' }, { status: 401 });
+        }
+        let uid: string, email: string;
+        try {
+            const decoded = await getAuth().verifyIdToken(idToken);
+            uid = decoded.uid;
+            email = decoded.email || '';
+        } catch {
+            return NextResponse.json({ error: 'Your sign-in expired. Please sign in again.' }, { status: 401 });
+        }
 
-        // Basic validation
-        if (!content?.trim() || !user_name?.trim() || !user_email?.trim() || !user_id?.trim()) {
+        const body = await request.json();
+        const content = typeof body.content === 'string' ? body.content.trim() : '';
+        const userName = typeof body.user_name === 'string' ? body.user_name.trim() : '';
+
+        if (!content || !userName) {
+            return NextResponse.json({ error: 'Name and message are required.' }, { status: 400 });
+        }
+        if (content.length > MAX_CONTENT_CHARS || userName.length > MAX_NAME_CHARS) {
             return NextResponse.json(
-                { error: 'All fields are required: content, user_name, user_email, user_id' },
-                { status: 400 }
+                { error: `Message must be under ${MAX_CONTENT_CHARS} characters and name under ${MAX_NAME_CHARS}.` },
+                { status: 413 }
             );
         }
 
         const supabaseAdmin = getSupabaseAdmin();
         const { error } = await supabaseAdmin.from('feedbacks').insert({
-            content: content.trim(),
-            user_name: user_name.trim(),
-            user_email: user_email.trim(),
-            user_id: user_id.trim(),
+            content,
+            user_name: userName,
+            user_email: email,
+            user_id: uid,
         });
 
         if (error) {
             console.error('Supabase insert error:', error);
-            return NextResponse.json({ error: error.message }, { status: 500 });
+            return NextResponse.json({ error: 'Could not save feedback. Please try again.' }, { status: 500 });
         }
 
         return NextResponse.json({ success: true });
 
     } catch (err: unknown) {
-        const message = err instanceof Error ? err.message : 'Internal server error';
-        console.error('Feedback POST error:', message);
-        return NextResponse.json({ error: message }, { status: 500 });
+        console.error('Feedback POST error:', err);
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
     }
 }
 
@@ -60,7 +82,7 @@ export async function GET(request: NextRequest) {
 
         if (error) {
             console.error('Supabase fetch error:', error);
-            return NextResponse.json({ error: error.message }, { status: 500 });
+            return NextResponse.json({ error: 'Could not load feedback.' }, { status: 500 });
         }
 
         return NextResponse.json({ feedbacks: data || [] });
@@ -94,7 +116,7 @@ export async function DELETE(request: NextRequest) {
 
         if (error) {
             console.error('Supabase delete error:', error);
-            return NextResponse.json({ error: error.message }, { status: 500 });
+            return NextResponse.json({ error: 'Could not delete feedback.' }, { status: 500 });
         }
 
         return NextResponse.json({ success: true });

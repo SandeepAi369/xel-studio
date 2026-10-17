@@ -100,3 +100,7 @@ yarn-error.log*
 scripts/.gemini_session/
 scripts/test_output.png
 gemini_test_output.png
+
+# Legacy local data dump (contained admin IPs) — never commit
+data/data.json
+data/*.tmp
