@@ -16,19 +16,10 @@ import {
 } from "lucide-react";
 
 import { db } from "@/lib/firebase";
+import { resolveCategory, type NewsItem } from "@/lib/news";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
 /* ─── Types ────────────────────────────────────────────────── */
-export interface NewsItem {
-  id: string;
-  title: string;
-  summary: string;
-  image_url: string | null;
-  source_link: string;
-  source_name: string;
-  date: string;
-  category: string;
-}
 
 type FilterTab = "all" | "ai-tech" | "disability" | "health" | "world" | "general" | "sports";
 
@@ -109,32 +100,12 @@ const CATEGORIES: {
 
 const CATEGORY_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.key, c]));
 
-// Map backend categories → frontend filter tabs
-export function resolveCategory(cat: string): string {
-  const map: Record<string, string> = {
-    "ai": "ai-tech",
-    "tech": "ai-tech",
-    "ai-tech": "ai-tech",
-    "science": "ai-tech",
-    "disability": "disability",
-    "accessibility": "disability",
-    "health": "health",
-    "world": "world",
-    "climate": "world",
-    "general": "general",
-    "business": "general",
-    "entertainment": "general",
-    "sports": "sports",
-    "sport": "sports",
-    "athletics": "sports",
-    "achievement": "sports",
-  };
-  return map[cat] || "general";
-}
 
 /* ─── Main Feed ────────────────────────────────────────────── */
 // initialNews is rendered on the server (cached at the edge), so the feed
 // paints immediately; the Firestore listener below then keeps it live.
+export type { NewsItem };
+
 export default function NewsFeed({ initialNews = [] }: { initialNews?: NewsItem[] }) {
   const [news, setNews] = useState<NewsItem[]>(initialNews);
   const [loading, setLoading] = useState(initialNews.length === 0);
