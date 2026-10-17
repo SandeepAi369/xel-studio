@@ -104,6 +104,20 @@ const nextConfig: NextConfig = {
         ],
       },
       {
+        // News is aggregated content: no indexing, snippets, caching or
+        // image indexing by search engines / AI crawlers that reach it.
+        source: '/ai-news/:path*',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive, nosnippet, noimageindex' },
+        ],
+      },
+      {
+        source: '/ai-news',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive, nosnippet, noimageindex' },
+        ],
+      },
+      {
         // Disable caching for all API routes - ensures instant updates
         source: '/api/:path*',
         headers: [

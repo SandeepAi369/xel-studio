@@ -154,8 +154,51 @@ function extensionResponse(article: SupabaseArticle, ext: string): Response {
     );
 }
 
+// ── AI News bot block ────────────────────────────────────────
+// News is aggregated content: AI crawlers, scrapers and search-engine bots
+// get 403 on /ai-news (on top of robots.txt + noindex). Link-preview bots
+// (WhatsApp, Telegram, Slack, Discord, X, Facebook, LinkedIn…) are allowed so
+// shared links still show a preview; they don't index content.
+const NEWS_BLOCKED_UA = new RegExp([
+    // AI crawlers / assistants
+    'GPTBot', 'ChatGPT-User', 'OAI-SearchBot', 'ClaudeBot', 'Claude-User', 'Claude-SearchBot', 'anthropic-ai',
+    'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'GoogleOther', 'Google-CloudVertexBot', 'CCBot',
+    'Bytespider', 'Amazonbot', 'Applebot', 'meta-externalagent', 'meta-externalfetcher', 'FacebookBot',
+    'cohere-ai', 'cohere-training-data-crawler', 'Diffbot', 'YouBot', 'ImagesiftBot', 'Omgilibot', 'Timpibot',
+    'AI2Bot', 'Ai2Bot-Dolma', 'PanguBot', 'Kangaroo Bot', 'Scrapy', 'img2dataset', 'DuckAssistBot', 'MistralAI-User',
+    // Search engines and SEO crawlers
+    'Googlebot', 'bingbot', 'BingPreview', 'YandexBot', 'Baiduspider', 'DuckDuckBot', 'Slurp', 'Sogou',
+    'Exabot', 'SeznamBot', 'NaverBot', 'Yeti', 'PetalBot', 'AhrefsBot', 'SemrushBot', 'MJ12bot', 'DotBot',
+    'DataForSeoBot', 'BLEXBot', 'serpstatbot',
+    // Generic HTTP clients / headless scrapers
+    'python-requests', 'python-urllib', 'aiohttp', 'httpx', 'curl/', 'Wget', 'Go-http-client', 'node-fetch',
+    'axios', 'okhttp', 'Java/', 'libwww-perl', 'HeadlessChrome', 'PhantomJS', 'Puppeteer', 'Playwright',
+].map((s) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')).join('|'), 'i');
+const PREVIEW_UA = /facebookexternalhit|Twitterbot|WhatsApp|TelegramBot|Slackbot|Discordbot|LinkedInBot|SkypeUriPreview|redditbot|Pinterestbot/i;
+
+function isBlockedNewsAgent(ua: string | null): boolean {
+    if (!ua) return true; // no User-Agent at all = script
+    if (PREVIEW_UA.test(ua)) return false;
+    return NEWS_BLOCKED_UA.test(ua);
+}
+
 export async function proxy(request: NextRequest) {
     const url = request.nextUrl;
+
+    if (url.pathname === '/ai-news' || url.pathname.startsWith('/ai-news/')) {
+        if (isBlockedNewsAgent(request.headers.get('user-agent'))) {
+            return new NextResponse('Forbidden: AI News is not available to automated agents.', {
+                status: 403,
+                headers: {
+                    'Content-Type': 'text/plain; charset=utf-8',
+                    'X-Robots-Tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex',
+                    'Cache-Control': 'private, no-store',
+                    'Vary': 'User-Agent',
+                },
+            });
+        }
+        return NextResponse.next();
+    }
 
     // ── Scope guard ───────────────────────────────────────────
     if (!url.pathname.startsWith('/articles/')) return NextResponse.next();
@@ -323,5 +366,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-    matcher: '/articles/:path*',
+    matcher: ['/articles/:path*', '/ai-news', '/ai-news/:path*'],
 };
