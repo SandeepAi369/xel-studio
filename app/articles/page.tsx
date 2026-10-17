@@ -1,10 +1,16 @@
-import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText, Search } from 'lucide-react';
+import { BookOpen, ArrowLeft, Calendar, ChevronRight, FileText } from 'lucide-react';
 import Link from 'next/link';
 import { stripMarkdown } from '@/lib/tts-text';
 import PageTransition from '@/components/PageTransition';
 import { getArticles } from '@/lib/supabase-db';
+import ArticleSearch from '@/components/ArticleSearch';
+import { markdownToPlainText } from '@/lib/article-feed';
 
-export const dynamic = 'force-dynamic';
+// Static ISR: served from the edge cache, rebuilt on every article write
+// (revalidatePath('/articles')) and at most every 5 minutes otherwise.
+// Search runs client-side over the server-rendered cards (ArticleSearch),
+// so the page no longer has to render on every request.
+export const revalidate = 300;
 
 // Robust date formatter
 function formatArticleDate(dateStr: string | undefined | null, createdAt?: string | undefined | null): string {
@@ -18,21 +24,8 @@ function formatArticleDate(dateStr: string | undefined | null, createdAt?: strin
     return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
-export default async function ArticlesPage({
-    searchParams
-}: {
-    searchParams: Promise<{ q?: string }>
-}) {
-    const resolvedParams = await searchParams;
-    const searchQuery = resolvedParams.q || '';
-
+export default async function ArticlesPage() {
     const allArticles = await getArticles();
-
-    const filteredArticles = allArticles.filter(article =>
-        article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.category?.toLowerCase().includes(searchQuery.toLowerCase())
-    );
 
     return (
         <PageTransition>
@@ -59,19 +52,7 @@ export default async function ArticlesPage({
                 </header>
 
                 <div className="max-w-6xl mx-auto px-4">
-                    {/* Search Bar */}
-                    <div className="mb-8">
-                        <form action="/articles" method="GET" className="relative max-w-md mx-auto">
-                            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-                            <input
-                                type="text"
-                                name="q"
-                                defaultValue={searchQuery}
-                                placeholder="Search articles..."
-                                className="w-full pl-12 pr-4 py-3 bg-zinc-900/50 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-green-500/50 transition-colors"
-                            />
-                        </form>
-                    </div>
+                    <ArticleSearch />
 
                     {/* Empty State */}
                     {allArticles.length === 0 && (
@@ -83,12 +64,13 @@ export default async function ArticlesPage({
                     )}
 
                     {/* Article Grid */}
-                    {filteredArticles.length > 0 && (
+                    {allArticles.length > 0 && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {filteredArticles.map((article) => (
+                            {allArticles.map((article) => (
                                 <Link
                                     key={article.id}
                                     href={`/articles/${article.id}`}
+                                    data-search={`${article.title} ${article.category || ''} ${markdownToPlainText(article.content).slice(0, 1500)}`.toLowerCase()}
                                     className="article-card block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/50 hover:bg-zinc-900/80 transition-all duration-200 cursor-pointer h-full"
                                 >
                                     {/* Image Container */}
@@ -143,14 +125,6 @@ export default async function ArticlesPage({
                                     </div>
                                 </Link>
                             ))}
-                        </div>
-                    )}
-
-                    {/* No Search Results */}
-                    {allArticles.length > 0 && filteredArticles.length === 0 && (
-                        <div className="text-center py-16">
-                            <Search className="w-12 h-12 mx-auto mb-4 text-zinc-600" />
-                            <p className="text-zinc-500">No articles match your search</p>
                         </div>
                     )}
 

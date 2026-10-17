@@ -12,6 +12,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { advancedAIOHeaderValue, advancedAIOResponse } from '@/lib/feature-flags';
+import { markdownToSafeHtml } from '@/lib/markdown-server';
+import { markdownToPlainText, excerpt } from '@/lib/article-feed';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -68,10 +70,10 @@ export async function GET(
         id: `${SITE_URL}/articles/${article.id}`,
         url: `${SITE_URL}/articles/${article.id}`,
         title: article.title,
-        content_html: article.content,
-        // Provide plain-text mirror so consumers can render without HTML.
-        content_text: article.content.replace(/[#*`>\[\]()!\-]/g, ''),
-        summary: article.content.substring(0, 280),
+        // Rendered HTML (was raw Markdown), plus a plain-text mirror.
+        content_html: markdownToSafeHtml(article.content),
+        content_text: markdownToPlainText(article.content),
+        summary: excerpt(markdownToPlainText(article.content), 280),
         date_published: dateIso,
         date_modified: dateIso,
         authors: [{ name: 'Sandeep', url: 'https://github.com/SandeepAi369' }],

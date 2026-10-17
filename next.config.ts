@@ -17,11 +17,14 @@ const nextConfig: NextConfig = {
   // Image optimization — Cloudinary CDN + WebP/AVIF auto-serve
   images: {
     formats: ['image/webp', 'image/avif'],
+    // Only our own image hosts. '**' let anyone use /_next/image as a free
+    // image proxy on our quota. (next/image isn't used yet; this is the allowlist
+    // for when it is.)
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
+      { protocol: 'https', hostname: 'res.cloudinary.com' },
+      { protocol: 'https', hostname: '*.supabase.co' },
+      { protocol: 'https', hostname: 'firebasestorage.googleapis.com' },
+      { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
     ],
   },
 

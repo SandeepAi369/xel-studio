@@ -75,9 +75,23 @@ Every feature is designed for **accessibility first** — screen reader support,
 
 - Rich article reading experience with markdown support
 - **Text-to-Speech** — listen to any article with one click
-- Incremental Static Regeneration (ISR) with 60-second revalidation
-- Skeleton loading states for seamless transitions
+- Static pages (ISR) served from the edge, rebuilt on every publish
+- Fully server-rendered HTML with schema.org `BlogPosting` data, readable by AI agents without JavaScript
 - Supabase-backed article storage with admin CRUD
+
+#### Discovery & syndication (outbound only)
+
+| Surface | URL |
+|:--|:--|
+| Articles RSS 2.0 (full HTML, WebSub hub) | `/articles/feed.xml` |
+| Articles Atom 1.0 | `/articles/atom.xml` |
+| Markdown copy of any article | `/articles/<id>.md`, or the article URL with `Accept: text/markdown` |
+| LLM index | `/llms.txt` (full text: `/llms-full.txt`) |
+| Sitemap | `/sitemap.xml` |
+
+On publish, the site pings **IndexNow** and the **WebSub** hub (via `after()`) and triggers the
+[`deepAI-Articles`](https://github.com/SandeepAi369/deepAI-Articles) workflows: a feed-driven syndication
+job (ledger-based, 6-hourly backstop) and a daily AI-readability check from GitHub's datacenter IPs.
 
 ### 🛡️ Shield — Security Tools
 
@@ -110,8 +124,8 @@ Every feature is designed for **accessibility first** — screen reader support,
 ### 🔐 Authentication & Security
 
 - Google Sign-In via Firebase Authentication
-- Protected admin panel with token-based access and bcrypt password hashing
-- Session management with signed tokens (30-minute TTL)
+- Admin panel requires the admin URL token **and** a password session for every change
+- Constant-time credential checks; signed session tokens (2-hour TTL)
 - Login attempt tracking and security logging
 
 ### 💬 User Feedback
@@ -343,7 +357,8 @@ npm start
 
 ## 🔑 Environment Variables
 
-Create a `.env.local` file with the following variables:
+The complete, current list of names lives in [`.env.local.example`](.env.local.example) (and `env.d.ts`). Copy it to `.env.local`.
+The sections below describe the main groups:
 
 ### Firebase (Client + Server)
 
@@ -407,6 +422,9 @@ REVALIDATION_SECRET=            # ISR revalidation secret
 1. Connect your GitHub repository to [Vercel](https://vercel.com)
 2. Add all environment variables
 3. Deploy — auto-deploys on every push to `main`
+
+`vercel.json` has an `ignoreCommand` that skips builds when a push only changes
+`scripts/news_history.json` (the news bot's dedupe file, which the site never reads).
 
 The `vercel.json` handles Python runtime for TTS and scheduled cron jobs:
 
@@ -517,9 +535,9 @@ The full-featured admin panel at `/xel-admin` manages all content across the pla
 
 ### Access
 
-1. Navigate to `/xel-admin`
+1. Open `/xel-admin#token=<ADMIN_TOKEN>` (the `#` part never reaches the server; legacy `?token=` also works and is stripped from the address bar)
 2. Enter `ADMIN_PASSWORD` to authenticate
-3. Session lasts 30 minutes (auto-expiry)
+3. Session lasts 2 hours; if it expires mid-edit you return to login with the form kept
 
 ---
 
