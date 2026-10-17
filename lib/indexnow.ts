@@ -33,7 +33,6 @@ export async function pingIndexNow(urlPath: string) {
                 `${SITE_URL}/llms.txt`,          // llms.txt index
                 `${SITE_URL}/llms-full.txt`,     // full-content llms.txt
                 `${SITE_URL}/articles.txt`,      // plain-text article index
-                `${SITE_URL}/api/rss`,           // RSS 2.0 feed (mixed)
                 `${SITE_URL}/articles/feed.xml`, // articles-only RSS
                 `${SITE_URL}/articles/atom.xml`, // articles-only Atom
                 `${SITE_URL}/sitemap.xml`,       // sitemap (also changes)

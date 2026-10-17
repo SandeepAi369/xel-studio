@@ -15,6 +15,7 @@ export default function QuickActions() {
             >
                 <Link
                     href="/ai-news"
+                    rel="nofollow"
                     className="flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-semibold
                                border border-blue-500/50 text-white
                                hover:border-blue-400/70 hover:text-white
