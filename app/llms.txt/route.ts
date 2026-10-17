@@ -1,13 +1,14 @@
 /**
  * /llms.txt — Machine-readable content index for LLMs
  * 
- * Dynamically generates a structured text file listing all articles
- * and their full content so AI models can ingest them directly.
+ * llmstxt.org-style index: a short site summary plus one Markdown link
+ * per article. Full article text is served by /llms-full.txt.
  * Any new article published to Supabase is automatically included.
  */
 
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabaseAdmin } from '@/lib/supabase';
+import { excerpt, markdownToPlainText } from '@/lib/article-feed';
 import { advancedAIOHeaderValue, advancedAIOResponse } from '@/lib/feature-flags';
 
 export const dynamic = 'force-dynamic';
@@ -22,45 +23,33 @@ export async function GET() {
     const blocked = advancedAIOResponse();
     if (blocked) return blocked;
 
+    // Index format per https://llmstxt.org — one link per article to its
+    // clean Markdown copy. Full text lives in /llms-full.txt.
     let articlesSection = '';
 
     try {
-        const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-        const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+        const { data } = await getSupabaseAdmin()
+            .from('articles')
+            .select('id, title, content, created_at')
+            .order('created_at', { ascending: false });
 
-        if (url && key) {
-            const supabase = createClient(url, key);
-            const { data } = await supabase
-                .from('articles')
-                .select('id, title, content, date, category, created_at')
-                .order('created_at', { ascending: false });
-
-            if (data && data.length > 0) {
-                articlesSection = data
-                    .map((a, i) => {
-                        const cleanContent = (a.content || '')
-                            .replace(/[#*`>\[\]()!]/g, '')
-                            .trim();
-                        const dateStr = a.date || a.created_at || 'Unknown';
-                        return `## Article ${i + 1}: ${a.title || 'Untitled'}
-- URL: ${SITE_URL}/articles/${a.id}
-- Category: ${a.category || 'General'}
-- Published: ${dateStr}
-
-${cleanContent}`;
-                    })
-                    .join('\n\n---\n\n');
-            }
+        if (data && data.length > 0) {
+            articlesSection = data
+                .map((a) => {
+                    const summary = excerpt(markdownToPlainText(a.content || ''), 160);
+                    return `- [${(a.title || 'Untitled').replace(/[\[\]]/g, '')}](${SITE_URL}/articles/${a.id}.md): ${summary}`;
+                })
+                .join('\n');
         }
     } catch (e) {
         console.warn('llms.txt: failed to fetch articles:', e);
     }
 
     const output = `# XeL Studio
-> AI Research, Cyber Security, and Technology Platform
 
-## About
-XeL Studio is a platform for AI research articles, automated AI tech news, cyber security tools, and AI-powered applications.
+> Original articles on AI research, LLMs, agents, and cyber security by Sandeep, plus automated AI tech news.
+
+Every article is available as clean Markdown by appending \`.md\` to its URL (also \`.txt\` and \`.json\`), or by requesting the article URL with \`Accept: text/markdown\`. Article pages are fully server-rendered HTML with schema.org BlogPosting data.
 
 ## Site Structure
 - Home: ${SITE_URL}
@@ -71,9 +60,16 @@ XeL Studio is a platform for AI research articles, automated AI tech news, cyber
 - App Store: ${SITE_URL}/store
 - RSS Feed: ${SITE_URL}/api/rss
 
-## All Articles
+## Articles
 
 ${articlesSection || 'No articles published yet.'}
+
+## Feeds
+- [Articles RSS](${SITE_URL}/articles/feed.xml): RSS 2.0 with full article HTML
+- [Articles Atom](${SITE_URL}/articles/atom.xml): Atom 1.0 with full article HTML
+
+## Optional
+- [Full text of all articles](${SITE_URL}/llms-full.txt): every article's complete text in one file
 `;
 
     return new NextResponse(output, {
