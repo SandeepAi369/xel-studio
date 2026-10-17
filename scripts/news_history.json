@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's UPI Drives Nationwide Digital Payment Adoption, Boosting Financial Inclusion",
-      "urls": [
-        "https://www.ciol.com/news/india-expands-upi-from-payments-to-a-broader-fintech-stack-12521539",
-        "https://government.economictimes.indiatimes.com/news/digital-india/upi-at-10-indias-digital-payments-revolution-faces-its-next-testscale-security-sustainability/133554153",
-        "https://paytm.com/blog/news",
-        "https://businesstoday.in/latest/corporate/story/indias-fintech-story-has-been-amazing-a-big-champion-of-this-is-upi-pm-modi-554083-2026-09-08",
-        "https://en.wikipedia.org/wiki/QR_code_payment",
-        "https://www.upi.com"
-      ],
-      "date": "2026-10-07T19:32:19.299000+00:00"
-    },
-    {
-      "title": "India Expands Smart City Initiatives Amid National Infrastructure Development Push",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_smart_cities",
-        "https://economictimes.indiatimes.com/topic/smart-cities",
-        "https://economictimes.indiatimes.com/topic/infrastructure-development-in-india",
-        "https://en.wikipedia.org/wiki/2026_Surrey_municipal_election",
-        "https://en.wikipedia.org/wiki/Urban_rail_transit_in_India"
-      ],
-      "date": "2026-10-07T20:01:39.249296+00:00"
-    },
-    {
       "title": "Facebook Listed as Sole Entry in Recent Search Results Prompting Calls for More Information",
       "urls": [
         "https://en.wikipedia.org/wiki/Facebook",
@@ -5097,7 +5074,20 @@
         "https://www.latestly.com/agency-news/business-news-strat360pl-report-charts-indias-path-to-a-deeper-electronics-semiconductor-industry-7645768.html"
       ],
       "date": "2026-10-17T19:31:20.957210+00:00"
+    },
+    {
+      "title": "National Common Mobility Card Expands City Bus Service Across 241 Routes and 2,265 Stops",
+      "urls": [
+        "https://www.worldbank.org/en/news/press-release/2026/10/06/india-development-update-oct-2026",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_India",
+        "https://economictimes.indiatimes.com/topic/indias-infrastructure-projects/news",
+        "https://www.latestly.com/india/news/hyderabad-latest-news-today-on-october-8th-2026-traffic-diversions-bioagri-2026-crime-investigations-7636693.html",
+        "https://en.wikipedia.org/wiki/National_Common_Mobility_Card",
+        "https://realty.economictimes.indiatimes.com/news/industry/infrastructure-must-precede-real-estate-development-in-indian-cities-credai/134643889",
+        "https://m.timesofindia.com/topic/smart-city/news"
+      ],
+      "date": "2026-10-17T20:01:43.542428+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T19:31:20.957251+00:00"
+  "lastUpdated": "2026-10-17T20:01:43.542498+00:00"
 }
