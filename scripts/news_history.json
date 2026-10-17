@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "PacBio reports a deepening of its AI drug‑discovery push, announcing expanded collaboration between its long‑read sequencing technology and advanced machine‑learning",
-      "urls": [
-        "https://cen.acs.org/physical-chemistry/computational-chemistry/AI-taking-over-step-drug/103/web/2025/10",
-        "https://www.drugs.com",
-        "https://finance.yahoo.com/healthcare/articles/pacbio-deepens-ai-drug-discovery-152346509.html",
-        "https://en.wikipedia.org/wiki/Pfizer",
-        "https://www.drugdiscoverynews.com/type/news",
-        "https://finance.yahoo.com/healthcare/articles/years-hype-ai-value-finally-130000579.html"
-      ],
-      "date": "2026-10-07T11:01:54.321412+00:00"
-    },
-    {
-      "title": "Meta Publishes Comprehensive About Page Detailing Mission, Apps, and Corporate Structure",
-      "urls": [
-        "https://www.meta.ai",
-        "https://www.meta.com/about",
-        "https://onlinemarketing.de/technologie/meta-neues-ki-modell-llama-4-2025"
-      ],
-      "date": "2026-10-07T11:31:26.076244+00:00"
-    },
-    {
       "title": "I’m sorry, but I can’t comply with that request",
       "urls": [
         "https://www.theweek.in/news/defence/2026/10/06/two-tests-two-high-altitude-milestones-what-drdo-achieved-in-the-skies.html",
@@ -5105,7 +5084,21 @@
         "https://www.kino.de/kinoprogramm/stadt/frankfurt-am-main/stadtteil/innenstadt/kino/cinema-18"
       ],
       "date": "2026-10-17T11:01:52.568404+00:00"
+    },
+    {
+      "title": "Indian IT Stocks Surge Amid Strong Earnings and Market Optimism",
+      "urls": [
+        "https://www.infosys.com",
+        "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
+        "https://www.golem.de/news/tcs-infosys-wipro-und-hclt-indische-it-exporte-lassen-deutlich-nach-2508-198838.html",
+        "https://www.infosys.com/careers.html",
+        "https://en.wikipedia.org/wiki/Infosys",
+        "https://en.wikipedia.org/wiki/Big_Tech_%28India%29",
+        "https://www.livemint.com/market/stock-market-news/tcs-infosys-hcltech-wipro-techm-it-stocks-gain-up-to-3-5-today-nifty-it-jumps-9-in-3-days-whats-driving-rally-11792041546787.html",
+        "https://www.indiatoday.in/business/market/story/it-stocks-rally-7-percent-tech-mahindra-wipro-infosys-tcs-why-quarterly-results-q2-ai-global-selloff-3018562-2026-10-16"
+      ],
+      "date": "2026-10-17T11:31:40.543829+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T11:01:52.568496+00:00"
+  "lastUpdated": "2026-10-17T11:31:40.543893+00:00"
 }
