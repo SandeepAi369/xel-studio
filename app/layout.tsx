@@ -4,7 +4,6 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 import TopLoader from "@/components/TopLoader";
 import { Suspense } from "react";
-import IntroLoader from "@/components/IntroLoader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -107,8 +106,6 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <TopLoader />
         </Suspense>
-        {/* Aesthetic 2 s intro overlay (visual only; content is already rendered) */}
-        <IntroLoader />
         <Providers>
           {children}
         </Providers>

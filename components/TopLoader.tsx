@@ -1,105 +1,91 @@
 'use client';
 
-import { useEffect, useState, useCallback, useRef } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 /**
- * YouTube-style top loading bar.
- * Shows a thin animated progress bar at the very top of the viewport
- * during route transitions — replaces the old round spinner pattern.
+ * YouTube-style top progress bar — a thin glowing line at the top edge.
+ *
+ * - Starts ONLY when the user actively clicks an internal link to another
+ *   page. Never on the initial page load, and never on browser back/forward
+ *   (those don't produce link clicks).
+ * - Visible for at least MIN_MS (1 s), then completes and fades out. Purely
+ *   visual: navigation and content are never delayed.
+ * - Ignores new-tab/modified clicks, external/hash/mailto/download links and
+ *   same-page links; a safety timeout clears it if a click never navigates.
  */
+const MIN_MS = 1000;
+const SAFETY_MS = 8000;
+
+type Phase = 'idle' | 'running' | 'finishing';
+
 export default function TopLoader() {
     const pathname = usePathname();
-    const searchParams = useSearchParams();
-    const [progress, setProgress] = useState(0);
-    const [visible, setVisible] = useState(false);
-    const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
-    const prevPathRef = useRef(pathname);
+    const [phase, setPhase] = useState<Phase>('idle');
+    const [width, setWidth] = useState(0);
+    const startedAt = useRef(0);
+    const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
+    const prevPath = useRef(pathname);
 
-    const startLoading = useCallback(() => {
-        setVisible(true);
-        setProgress(0);
+    const clearTimers = () => {
+        timers.current.forEach(clearTimeout);
+        timers.current = [];
+    };
 
-        // Simulate progress — fast initially, then slows down
-        let p = 0;
-        timerRef.current = setInterval(() => {
-            p += Math.random() * 15;
-            if (p > 90) p = 90; // never reach 100 until route completes
-            setProgress(p);
-        }, 150);
-    }, []);
+    const finish = () => {
+        clearTimers();
+        const wait = Math.max(0, MIN_MS - (Date.now() - startedAt.current));
+        timers.current.push(setTimeout(() => {
+            setPhase('finishing');
+            setWidth(100);
+            timers.current.push(setTimeout(() => { setPhase('idle'); setWidth(0); }, 450));
+        }, wait));
+    };
 
-    const completeLoading = useCallback(() => {
-        if (timerRef.current) {
-            clearInterval(timerRef.current);
-            timerRef.current = null;
-        }
-        setProgress(100);
-        setTimeout(() => {
-            setVisible(false);
-            setProgress(0);
-        }, 300);
-    }, []);
-
-    // Start loading on navigation
+    // Start on active link clicks only
     useEffect(() => {
-        // Intercept link clicks to start the bar immediately
-        const handleClick = (e: MouseEvent) => {
-            const target = e.target as HTMLElement;
-            const anchor = target.closest('a');
-            if (!anchor) return;
-
+        const onClick = (e: MouseEvent) => {
+            // Note: don't check e.defaultPrevented — Next.js <Link> prevents the
+            // default on every client navigation it handles.
+            if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+            const anchor = (e.target as HTMLElement | null)?.closest('a');
+            if (!anchor || anchor.hasAttribute('download')) return;
+            if (anchor.target && anchor.target !== '_self') return;
             const href = anchor.getAttribute('href');
-            if (!href) return;
+            if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+            let url: URL;
+            try { url = new URL(href, window.location.href); } catch { return; }
+            if (url.origin !== window.location.origin) return;
+            if (url.pathname === window.location.pathname) return;
 
-            // Skip external links, hash links, and same-page links
-            if (
-                href.startsWith('http') ||
-                href.startsWith('#') ||
-                href.startsWith('mailto:') ||
-                anchor.target === '_blank'
-            ) return;
-
-            // Only start if navigating to a different page
-            if (href !== pathname) {
-                startLoading();
-            }
+            clearTimers();
+            startedAt.current = Date.now();
+            setPhase('running');
+            setWidth(0);
+            // Next frame: grow toward 85% over MIN_MS (CSS transition)
+            requestAnimationFrame(() => requestAnimationFrame(() => setWidth(85)));
+            timers.current.push(setTimeout(finish, SAFETY_MS));
         };
-
-        document.addEventListener('click', handleClick);
-        return () => document.removeEventListener('click', handleClick);
-    }, [pathname, startLoading]);
-
-    // Complete loading when route changes
-    useEffect(() => {
-        if (pathname !== prevPathRef.current) {
-            completeLoading();
-            prevPathRef.current = pathname;
-        }
-    }, [pathname, searchParams, completeLoading]);
-
-    // Cleanup
-    useEffect(() => {
-        return () => {
-            if (timerRef.current) clearInterval(timerRef.current);
-        };
+        document.addEventListener('click', onClick);
+        return () => document.removeEventListener('click', onClick);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    if (!visible) return null;
+    // Route changed: complete the bar (only if a click started it)
+    useEffect(() => {
+        if (pathname === prevPath.current) return;
+        prevPath.current = pathname;
+        if (phase === 'running') finish();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [pathname]);
+
+    useEffect(() => clearTimers, []);
+
+    if (phase === 'idle') return null;
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-[9999] h-[3px] bg-transparent pointer-events-none">
-            <div
-                className="h-full bg-gradient-to-r from-emerald-500 via-cyan-400 to-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.7)] transition-all duration-200 ease-out"
-                style={{ width: `${progress}%` }}
-            />
-            {/* Glow pulse at the tip */}
-            {progress > 0 && progress < 100 && (
-                <div
-                    className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-emerald-400/50 to-transparent animate-pulse"
-                    style={{ right: `${100 - progress}%` }}
-                />
-            )}
+        <div className="xel-topbar" aria-hidden="true" data-phase={phase}>
+            <div className="xel-topbar__fill" style={{ width: `${width}%` }} />
         </div>
     );
 }
