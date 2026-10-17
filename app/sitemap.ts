@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { adminDb } from '@/lib/firebase-admin';
 import { createClient } from '@supabase/supabase-js';
+import { articleDate } from '@/lib/article-feed';
 
 const BASE_URL = 'https://xel-studio.vercel.app';
 
@@ -45,14 +46,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             const supabase = createClient(supabaseUrl, supabaseKey);
             const { data } = await supabase
                 .from('articles')
-                .select('id, date')
-                .order('date', { ascending: false })
-                .limit(100);
+                .select('id, date, created_at')
+                .order('created_at', { ascending: false });
 
             if (data) {
+                // No row cap: every article is listed. lastModified uses the
+                // article's own date (never "now", which made every crawl look fresh).
                 articlePages = data.map(article => ({
                     url: `${BASE_URL}/articles/${article.id}`,
-                    lastModified: article.date ? new Date(article.date) : new Date(),
+                    lastModified: articleDate(article),
                     changeFrequency: 'monthly' as const,
                     priority: 0.7,
                 }));

@@ -8,6 +8,8 @@ export default function robots(): MetadataRoute.Robots {
                 allow: [
                     '/',
                     '/api/rss',
+                    '/articles/feed.xml',
+                    '/articles/atom.xml',
                     '/llms.txt',
                     '/llms-full.txt',
                     '/articles.txt',

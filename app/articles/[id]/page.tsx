@@ -5,19 +5,23 @@ import { getArticleById, Article, getArticles } from '@/lib/supabase-db';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
 import { markdownToSafeHtml } from '@/lib/markdown-server';
+import { markdownToPlainText, excerpt, articleDate } from '@/lib/article-feed';
+import { cache } from 'react';
+import type { Metadata } from 'next';
 
 // ISR: cache for 60s then revalidate — instant loads after first visit
 export const dynamicParams = true;
 export const revalidate = 60;
 
-async function getArticle(id: string): Promise<Article | null> {
+// cache() dedupes the fetch between generateMetadata and the page render
+const getArticle = cache(async (id: string): Promise<Article | null> => {
     try {
         return await getArticleById(id);
     } catch (error) {
         console.error('Error reading article:', error);
         return null;
     }
-}
+});
 
 function getReadingTime(content: string): number {
     const wordsPerMinute = 200;
@@ -235,7 +239,7 @@ export async function generateMetadata({
     params
 }: {
     params: Promise<{ id: string }>
-}) {
+}): Promise<Metadata> {
     const { id } = await params;
     const article = await getArticle(id);
 
@@ -243,11 +247,38 @@ export async function generateMetadata({
         return { title: 'Article Not Found' };
     }
 
+    const url = `https://xel-studio.vercel.app/articles/${article.id}`;
+    const description = excerpt(markdownToPlainText(article.content), 160);
+    const images = article.image ? [{ url: article.image, alt: article.title }] : undefined;
+
+    // Per-article share card. Without this, every article inherited the
+    // /articles listing card ("Articles | XeL Studio", url /articles).
     return {
         title: article.title,
-        description: article.content.substring(0, 160),
+        description,
         alternates: {
-            canonical: `https://xel-studio.vercel.app/articles/${article.id}`
-        }
+            canonical: url,
+            types: {
+                'application/rss+xml': [{ url: 'https://xel-studio.vercel.app/articles/feed.xml', title: 'XeL Studio Articles (RSS)' }],
+                'application/atom+xml': [{ url: 'https://xel-studio.vercel.app/articles/atom.xml', title: 'XeL Studio Articles (Atom)' }],
+            },
+        },
+        openGraph: {
+            type: 'article',
+            url,
+            siteName: 'XeL Studio',
+            title: article.title,
+            description,
+            publishedTime: articleDate(article).toISOString(),
+            authors: ['Sandeep'],
+            section: article.category || undefined,
+            images,
+        },
+        twitter: {
+            card: article.image ? 'summary_large_image' : 'summary',
+            title: article.title,
+            description,
+            images: article.image ? [article.image] : undefined,
+        },
     };
 }
