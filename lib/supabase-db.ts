@@ -136,6 +136,9 @@ export async function addArticle(article: Omit<Article, 'id' | 'created_at'>): P
     const newArticle = {
         id: generateId(),
         ...article,
+        // The admin form doesn't send a date; stamp the publish time so lists,
+        // feeds and the sitemap never show "Invalid Date".
+        date: article.date || new Date().toISOString(),
     };
 
     const { data, error } = await supabase

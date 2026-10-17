@@ -59,14 +59,14 @@ export default function FeedbackForm() {
 
         try {
             const sendFeedback = async () => {
+                // The server identifies the user from this verified ID token.
+                const idToken = await user.getIdToken();
                 const res = await fetch('/api/feedback', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${idToken}` },
                     body: JSON.stringify({
                         content: message.trim(),
                         user_name: name.trim(),
-                        user_email: user.email,
-                        user_id: user.uid,
                     }),
                 });
                 return res;
