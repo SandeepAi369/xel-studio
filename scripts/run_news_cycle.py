@@ -494,15 +494,14 @@ def search_searchwala(query: str, days_back: int = 3) -> dict:
         heartbeat.stop()
         data = resp.json()
 
-        results = data.get("search_results", [])
-        if not results:
+        # search_results has url/title/snippet only; page text is in `results`.
+        # (Reading extracted_text from search_results gave empty descriptions.)
+        from searchwala_map import map_searchwala_results
+        mapped = map_searchwala_results(data, limit=TAVILY_RESULT_COUNT)
+        if not mapped:
             print(f'⚠️ SearchWala returned no results for "{query}"')
             return {"context": "", "results": []}
 
-        mapped = [
-            {"title": r.get("title", ""), "description": r.get("extracted_text", ""), "url": r.get("url", "")}
-            for r in results
-        ]
         context = "\n\n".join(
             f"[{j+1}] {r['title']}\n{r['description']}" for j, r in enumerate(mapped)
         )
