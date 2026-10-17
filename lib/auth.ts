@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import { createHmac, randomBytes } from 'crypto';
+import { createHash, createHmac, randomBytes, timingSafeEqual } from 'crypto';
 
 // Admin credentials — read from environment variables
 // Set these in Vercel (xel-studio) and in .env.local for local dev
@@ -9,7 +9,8 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 // Session config
 // Stateless signed tokens - works across ALL Vercel serverless instances
 const SESSION_SECRET = process.env.SESSION_SECRET || '';
-const SESSION_TIMEOUT = 30 * 60 * 1000; // 30 minutes (extended for reliability)
+// Sessions now gate every data operation, so allow time to write a long article.
+const SESSION_TIMEOUT = 2 * 60 * 60 * 1000; // 2 hours
 
 function getSessionSecret(): string {
     if (!SESSION_SECRET) {
@@ -83,9 +84,25 @@ export function clearLoginAttempts(ip: string): void {
     loginAttempts.delete(ip);
 }
 
-// Validate access token
-export function validateAccessToken(token: string | null): boolean {
-    return token === ADMIN_TOKEN;
+// Constant-time string comparison. Hashing first gives equal-length
+// buffers, so neither content nor length leaks through timing.
+function safeEqual(a: string, b: string): boolean {
+    const ha = createHash('sha256').update(a).digest();
+    const hb = createHash('sha256').update(b).digest();
+    return timingSafeEqual(ha, hb);
+}
+
+// Validate access token. Fails closed when ADMIN_TOKEN is unset or the
+// supplied token is empty (previously '' === '' let anyone in).
+export function validateAccessToken(token: string | null | undefined): boolean {
+    if (!ADMIN_TOKEN || !token) return false;
+    return safeEqual(token, ADMIN_TOKEN);
+}
+
+// Data operations need BOTH the admin URL token and a signed session from
+// the password login. Previously the static token alone granted full access.
+export function validateAdminRequest(token: string | null | undefined, sessionToken: string | null | undefined): boolean {
+    return validateAccessToken(token) && validateSession(sessionToken, '');
 }
 
 // Validate password - bcrypt when hashed, plaintext fallback
@@ -96,7 +113,7 @@ export async function validatePassword(password: string): Promise<boolean> {
         return bcrypt.compare(password, ADMIN_PASSWORD);
     }
     // Fallback: plaintext comparison (for backward compatibility)
-    return password === ADMIN_PASSWORD;
+    return safeEqual(password, ADMIN_PASSWORD);
 }
 
 // =====================================================================
@@ -118,7 +135,7 @@ export function createSession(_ip: string): string {
 
 // Validate session - verifies signature and checks timeout
 // Stateless: works on ANY serverless instance without shared memory
-export function validateSession(token: string, _ip: string): boolean {
+export function validateSession(token: string | null | undefined, _ip: string): boolean {
     try {
         if (!token || typeof token !== 'string') return false;
 
@@ -132,7 +149,7 @@ export function validateSession(token: string, _ip: string): boolean {
         const expectedSig = createHmac('sha256', getSessionSecret())
             .update(payloadB64)
             .digest('base64url');
-        if (sig !== expectedSig) return false;
+        if (!safeEqual(sig, expectedSig)) return false;
 
         // Verify not expired
         const payload = JSON.parse(Buffer.from(payloadB64, 'base64url').toString());

@@ -44,7 +44,8 @@ export async function POST(request: NextRequest) {
 // ─── GET: Fetch all feedbacks (admin only) ────────────────────
 export async function GET(request: NextRequest) {
     try {
-        const sessionToken = request.nextUrl.searchParams.get('session');
+        // Session comes in a header, never the query string (keeps it out of logs)
+        const sessionToken = request.headers.get('x-admin-session');
         const ip = request.headers.get('x-forwarded-for')?.split(',')[0] || 'unknown';
 
         if (!validateSession(sessionToken, ip)) {
