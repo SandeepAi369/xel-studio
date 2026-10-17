@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenCode Launches New Open Source AI Coding Agent Enhancing Developer Productivity",
-      "urls": [
-        "https://finance.yahoo.com/quote/OPEN",
-        "https://opencode.ai"
-      ],
-      "date": "2026-10-07T02:01:44.995631+00:00"
-    },
-    {
       "title": "Healthcare uses AI for diagnostic imaging, predictive patient monitoring, and personalized treatment plans, improving accuracy and speeding decision",
       "urls": [
         "https://newsweek.com/newsweeks-ai-impact-health-awards-2026-winners-12473649",
@@ -5097,7 +5089,15 @@
         "https://www.business-standard.com/topic/indian-monsoon"
       ],
       "date": "2026-10-17T01:33:14.830610+00:00"
+    },
+    {
+      "title": "OpenAI Open‑Sources Codex Harness to Accelerate Indian AI Development and Innovation",
+      "urls": [
+        "https://carnegieendowment.org/india/research/2026/05/outlooks-on-open-source-innovation-at-the-india-ai-impact-summit-2026",
+        "https://geekhub.in/blog/openai-fully-open-sources-codex-harness-what-it-means-for-indian-developers-20260823"
+      ],
+      "date": "2026-10-17T02:03:19.992535+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T01:33:14.830662+00:00"
+  "lastUpdated": "2026-10-17T02:03:19.992606+00:00"
 }
