@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse, after } from 'next/server';
-import { validateAccessToken } from '@/lib/auth';
+import { validateAccessToken, validateSession } from '@/lib/auth';
 import { revalidatePath } from 'next/cache';
 import {
     getArticles, addArticle, updateArticle, deleteArticle,
@@ -105,9 +105,6 @@ export async function POST(request: NextRequest) {
         const body = await request.json();
         const { action, token, sessionToken, csrfToken, contentType, data, itemId, password } = body;
 
-        // Use whichever token field the client sent
-        const authToken = token || sessionToken;
-
         // ─── LOGIN ──────────────────────────────────────────
         if (action === 'login') {
             const { validatePassword, createSession, clearLoginAttempts, isLockedOut, recordFailedAttempt } = await import('@/lib/auth');
@@ -145,9 +142,13 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ success: true }, { headers: corsHeaders });
         }
 
-        // Validate token for all data operations
-        if (!validateAccessToken(authToken)) {
+        // Data operations require the admin token AND a signed session from
+        // the password login (the static token alone is no longer enough).
+        if (!validateAccessToken(token)) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401, headers: corsHeaders });
+        }
+        if (!validateSession(sessionToken, '')) {
+            return NextResponse.json({ error: 'Session expired' }, { status: 401, headers: corsHeaders });
         }
 
         // ─── CREATE ──────────────────────────────────────────
@@ -319,9 +320,10 @@ export async function POST(request: NextRequest) {
     }
 }
 
-// Validate token endpoint
+// Validate token endpoint. Token comes in the Authorization header, never
+// the query string, so it doesn't end up in logs or browser history.
 export async function GET(request: NextRequest) {
-    const token = request.nextUrl.searchParams.get('token');
+    const token = request.headers.get('authorization')?.replace(/^Bearer /, '') || null;
 
     if (!validateAccessToken(token)) {
         return NextResponse.json({ valid: false }, { headers: corsHeaders });

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { v2 as cloudinary } from 'cloudinary';
-import { validateAccessToken } from '@/lib/auth';
+import { validateAccessToken, validateSession } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
@@ -57,9 +57,9 @@ if (config) {
 }
 
 const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': process.env.NEXT_PUBLIC_SITE_URL || 'https://xel-studio.vercel.app',
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Admin-Session',
 };
 
 export async function OPTIONS() {
@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
     try {
         // 1. Auth check — admin only
         const token = req.headers.get('authorization')?.replace('Bearer ', '');
-        if (!validateAccessToken(token ?? null)) {
+        if (!validateAccessToken(token) || !validateSession(req.headers.get('x-admin-session'), '')) {
             return NextResponse.json(
                 { error: 'Unauthorized' },
                 { status: 401, headers: corsHeaders }

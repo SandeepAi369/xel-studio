@@ -77,11 +77,13 @@ type Tab = 'articles' | 'apks' | 'aiLabs' | 'security' | 'logs' | 'feedbacks';
 // ─── Image Upload Component (Direct-to-Cloudinary) ─────────────
 function ImageUploader({
     token,
+    sessionToken,
     currentUrl,
     onUploaded,
     label = 'Image',
 }: {
     token: string;
+    sessionToken: string;
     currentUrl: string;
     onUploaded: (url: string) => void;
     label?: string;
@@ -122,7 +124,7 @@ function ImageUploader({
                 setProgress(5);
                 const signRes = await fetch('/api/upload/sign', {
                     method: 'POST',
-                    headers: { 'Authorization': `Bearer ${token}` },
+                    headers: { 'Authorization': `Bearer ${token}`, 'X-Admin-Session': sessionToken },
                 });
 
                 if (!signRes.ok) {
@@ -275,7 +277,21 @@ function ImageUploader({
 function AdminPanel() {
     const searchParams = useSearchParams();
     const router = useRouter();
-    const token = searchParams.get('token');
+    const [token, setToken] = useState<string | null>(null);
+    const [tokenChecked, setTokenChecked] = useState(false);
+
+    // Admin URL token: /xel-admin#token=… (the fragment is never sent to the
+    // server or logged). Legacy ?token=… still works. Either way it is removed
+    // from the address bar and history right away.
+    useEffect(() => {
+        const fromHash = new URLSearchParams(window.location.hash.slice(1)).get('token');
+        const found = fromHash || searchParams.get('token');
+        if (found) {
+            window.history.replaceState(null, '', window.location.pathname);
+        }
+        setToken(found);
+        setTokenChecked(true);
+    }, [searchParams]);
 
     const [isValidToken, setIsValidToken] = useState<boolean | null>(null);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -300,12 +316,13 @@ function AdminPanel() {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
+        if (!tokenChecked) return;
         if (!token) {
             router.push('/');
             return;
         }
 
-        fetch(`/api/admin?token=${token}`)
+        fetch('/api/admin', { headers: { 'Authorization': `Bearer ${token}` } })
             .then(res => res.json())
             .then(data => {
                 if (!data.valid) {
@@ -315,7 +332,7 @@ function AdminPanel() {
                 }
             })
             .catch(() => router.push('/'));
-    }, [token, router]);
+    }, [token, tokenChecked, router]);
 
     // Allow horizontal scrolling on admin panel (mobile swipe)
     useEffect(() => {
@@ -339,7 +356,7 @@ function AdminPanel() {
             const res = await fetch('/api/admin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ action: 'getData', token })
+                body: JSON.stringify({ action: 'getData', token, sessionToken })
             });
             const data = await res.json();
             if (data.error) {
@@ -414,6 +431,7 @@ function AdminPanel() {
         const payload = JSON.stringify({
             action: 'add',
             token,
+            sessionToken,
             csrfToken,
             contentType: getContentType(),
             data: formData
@@ -431,6 +449,15 @@ function AdminPanel() {
                 headers: { 'Content-Type': 'application/json' },
                 body: payload
             });
+
+            if (res.status === 401) {
+                // Session expired: back to login. Form contents stay in state,
+                // so the draft can be saved again right after logging in.
+                setIsLoggedIn(false);
+                setError('Session expired. Please login again — your unsaved form is kept.');
+                setLoading(false);
+                return;
+            }
 
             if (!res.ok) {
                 const text = await res.text();
@@ -462,6 +489,7 @@ function AdminPanel() {
         const payload = JSON.stringify({
             action: 'update',
             token,
+            sessionToken,
             csrfToken,
             contentType: getContentType(),
             itemId: editingItem.id,
@@ -480,6 +508,15 @@ function AdminPanel() {
                 headers: { 'Content-Type': 'application/json' },
                 body: payload
             });
+
+            if (res.status === 401) {
+                // Session expired: back to login. Form contents stay in state,
+                // so the draft can be saved again right after logging in.
+                setIsLoggedIn(false);
+                setError('Session expired. Please login again — your unsaved form is kept.');
+                setLoading(false);
+                return;
+            }
 
             if (!res.ok) {
                 const text = await res.text();
@@ -513,6 +550,7 @@ function AdminPanel() {
                 body: JSON.stringify({
                     action: 'delete',
                     token,
+                    sessionToken,
                     csrfToken,
                     contentType: getContentType(),
                     itemId: id
@@ -533,7 +571,7 @@ function AdminPanel() {
     const loadFeedbacks = async () => {
         setFeedbackLoading(true);
         try {
-            const res = await fetch(`/api/feedback?session=${sessionToken}`);
+            const res = await fetch('/api/feedback', { headers: { 'X-Admin-Session': sessionToken } });
             const data = await res.json();
             if (data.error) {
                 if (data.error === 'Unauthorized') {
@@ -743,6 +781,7 @@ function AdminPanel() {
                                             {/* Cloudinary Image Upload */}
                                             <ImageUploader
                                                 token={token || ''}
+                                                sessionToken={sessionToken}
                                                 currentUrl={formData.image || ''}
                                                 onUploaded={(url) => setFormData({ ...formData, image: url })}
                                                 label="Article Image"
@@ -774,6 +813,7 @@ function AdminPanel() {
                                             {/* Cloudinary Image Upload for AI Lab icon */}
                                             <ImageUploader
                                                 token={token || ''}
+                                                sessionToken={sessionToken}
                                                 currentUrl={formData.icon || ''}
                                                 onUploaded={(url) => setFormData({ ...formData, icon: url })}
                                                 label="Lab Icon / Image"
