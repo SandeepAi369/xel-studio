@@ -5,6 +5,7 @@ import FeedbackForm from '@/components/FeedbackForm';
 import LoginButton from '@/components/LoginButton';
 import { Github } from 'lucide-react';
 import type { Metadata } from 'next';
+import { APP_VERSION } from '@/lib/version';
 
 export const metadata: Metadata = {
   title: 'XeL Studio | AI Research & Cyber Security Platform',
@@ -182,7 +183,7 @@ export default function Home() {
             <span className="text-sm">GitHub</span>
           </a>
           <p className="mt-3 text-sm text-zinc-400 font-medium tracking-widest">
-            v2.5
+            {APP_VERSION}
           </p>
         </footer>
       </main>
