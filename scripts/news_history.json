@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I can’t comply with that request",
-      "urls": [
-        "https://stellarix.com/insights/stellarix-perspectives/mobility-aid-advancements-in-wheelchairs",
-        "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
-        "https://en.wikipedia.org/wiki/Dubai",
-        "https://en.wikipedia.org/wiki/Wheelchair",
-        "https://www.visitdubai.com",
-        "https://www.walmart.com/browse/health/wheelchairs/976760_1005860_3226051"
-      ],
-      "date": "2026-10-07T05:31:54.201299+00:00"
-    },
-    {
       "title": "India Sets Ambitious Timeline for Three Gaganyaan Missions by March 2026",
       "urls": [
         "https://www.dw.com/en/india-isro-2027-gaganyaan-launch-preparation/a-75105655"
@@ -5112,7 +5100,17 @@
         "https://en.wikipedia.org/wiki/Personal_transporter_regulation_by_country"
       ],
       "date": "2026-10-17T05:31:42.687247+00:00"
+    },
+    {
+      "title": "Google Unveils Gemini 4 Argon as Its Most Advanced AI Model to Date",
+      "urls": [
+        "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+        "https://deepmind.google/blog",
+        "https://finance.yahoo.com/technology/ai/articles/google-gemini-4-enters-post-122454510.html"
+      ],
+      "date": "2026-10-17T06:01:42.755826+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T05:31:42.687305+00:00"
+  "lastUpdated": "2026-10-17T06:01:42.755898+00:00"
 }
