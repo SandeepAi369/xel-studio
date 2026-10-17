@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
     ShieldCheck, BookOpen, Brain, ShoppingBag,
@@ -275,7 +275,6 @@ function ImageUploader({
 
 // ─── Main Admin Panel ──────────────────────────────────────────
 function AdminPanel() {
-    const searchParams = useSearchParams();
     const router = useRouter();
     const [token, setToken] = useState<string | null>(null);
     const [tokenChecked, setTokenChecked] = useState(false);
@@ -283,15 +282,19 @@ function AdminPanel() {
     // Admin URL token: /xel-admin#token=… (the fragment is never sent to the
     // server or logged). Legacy ?token=… still works. Either way it is removed
     // from the address bar and history right away.
+    // Read exactly ONCE on mount, straight from window.location. Depending on
+    // useSearchParams re-ran this after replaceState stripped the token, which
+    // then saw no token and redirected to "/".
     useEffect(() => {
         const fromHash = new URLSearchParams(window.location.hash.slice(1)).get('token');
-        const found = fromHash || searchParams.get('token');
+        const fromQuery = new URLSearchParams(window.location.search).get('token');
+        const found = fromHash || fromQuery;
         if (found) {
             window.history.replaceState(null, '', window.location.pathname);
         }
         setToken(found);
         setTokenChecked(true);
-    }, [searchParams]);
+    }, []);
 
     const [isValidToken, setIsValidToken] = useState<boolean | null>(null);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
