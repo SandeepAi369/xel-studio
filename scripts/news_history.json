@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Envision Energy Accelerates Global Wind Power Expansion to Meet 2026 Climate Targets",
-      "urls": [
-        "https://technologyreview.com/2026/10/06/1145226/2026-climate-tech-companies-to-watch-envision-energy-wind-power-global-ambitions",
-        "https://www.energyglobal.com",
-        "https://www.theguardian.com/environment/renewableenergy",
-        "https://renewablesnow.com/projects/capacity",
-        "https://www.financialcontent.com/article/bizwire-2026-10-7-cargill-expands-renewable-electricity-portfolio-in-the-central-united-states"
-      ],
-      "date": "2026-10-07T14:02:03.811713+00:00"
-    },
-    {
-      "title": "India Accelerates AI Growth, Attracting Global Investors and Expanding Research Infrastructure",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_India",
-        "https://www.eventbrite.com/e/open-source-india-7-8-october-2026-tickets-1993648772145?msockid=22476a17c59b696b03577dfcc4d068f5"
-      ],
-      "date": "2026-10-07T14:31:35.660914+00:00"
-    },
-    {
       "title": "Medical AI Shifts Focus From Treatment to Prevention Across Healthcare Landscape",
       "urls": [
         "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
@@ -5099,7 +5080,17 @@
         "https://www.fastcompany.com/91612652/sustainability-energy-next-big-things-in-tech-2026"
       ],
       "date": "2026-10-17T14:01:52.058040+00:00"
+    },
+    {
+      "title": "Nvidia Acquires Hugging Face for $12.9 Billion Expanding Open‑Source AI Reach",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+        "https://huggingface.co/huggingface",
+        "https://github.com/huggingface",
+        "https://de.euronews.com/2026/09/03/nvidia-kauft-open-source-ki-plattform-hugging-face-fur-129-milliarden-dollar"
+      ],
+      "date": "2026-10-17T14:31:41.606924+00:00"
     }
   ],
-  "lastUpdated": "2026-10-17T14:01:52.058095+00:00"
+  "lastUpdated": "2026-10-17T14:31:41.606998+00:00"
 }
