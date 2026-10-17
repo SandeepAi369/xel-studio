@@ -271,7 +271,7 @@ export async function proxy(request: NextRequest) {
         const id = pathParts[1];
         const intent = pathParts[2].toLowerCase();
 
-        if (intent === 'next' || intent === 'previous') {
+        if ((intent === 'next' || intent === 'previous') && /^[A-Za-z0-9_-]{1,64}$/.test(id)) {
             try {
                 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
                 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -292,7 +292,9 @@ export async function proxy(request: NextRequest) {
                             const operator = intent === 'next' ? 'gt' : 'lt';
                             const order = intent === 'next' ? 'asc' : 'desc';
 
-                            const adjRes = await fetch(`${supabaseUrl}/rest/v1/articles?select=id&created_at=${operator}.${createdAt}&order=created_at.${order}&limit=1`, {
+                            // created_at contains "+00:00"; unencoded, "+" became a space,
+                            // the filter failed and next/previous fell back to the same article.
+                            const adjRes = await fetch(`${supabaseUrl}/rest/v1/articles?select=id&created_at=${operator}.${encodeURIComponent(createdAt)}&order=created_at.${order}&limit=1`, {
                                 headers: {
                                     'apikey': supabaseKey,
                                     'Authorization': `Bearer ${supabaseKey}`,
