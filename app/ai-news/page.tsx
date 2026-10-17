@@ -1,5 +1,6 @@
 import { adminDb } from "@/lib/firebase-admin";
-import NewsFeed, { type NewsItem, resolveCategory } from "@/components/NewsFeed";
+import NewsFeed from "@/components/NewsFeed";
+import { resolveCategory, type NewsItem } from "@/lib/news";
 
 // Edge-cached (ISR): the first paint comes from the CDN with the current
 // news already in the HTML; NewsFeed's Firestore listener then keeps it live.
