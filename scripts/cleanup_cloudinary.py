@@ -79,6 +79,7 @@ def summary(lines: list[str]) -> None:
 
 def abort(reason: str) -> None:
     log(f"🛑 ABORT (nothing changed): {reason}")
+    log(f"::error title=Cloudinary cleanup aborted::{reason} (nothing changed)")
     summary([f"## 🧹 Cloudinary cleanup — aborted", "", f"🛑 {reason}", "", "Nothing was tagged or deleted."])
     sys.exit(1)
 
@@ -229,6 +230,10 @@ def main() -> None:
         log(f"🗑️ Deleted {deleted} quarantined orphan(s)")
 
     log(f"✅ Done. live={len(ids)} images={len(news_assets)} orphans={len(orphans)} "
+        f"tagged={tagged} released={len(released)} eligible_delete={len(deletable)} deleted={deleted}")
+    # Annotation: readable via the GitHub API (check-run annotations)
+    log(f"::notice title=Cloudinary cleanup ({MODE})::live_news={len(ids)} news_images={len(news_assets)} "
+        f"orphans={len(orphans)} orphan_mb={orphan_bytes / 1e6:.1f} already_quarantined={len(already)} "
         f"tagged={tagged} released={len(released)} eligible_delete={len(deletable)} deleted={deleted}")
     sample = "\n".join(f"- `{a['public_id']}` ({a['created_at'][:10]})" for a in orphans[:10]) or "- none"
     summary([
