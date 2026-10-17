@@ -58,8 +58,10 @@ QUARANTINE_DAYS = 7
 RECENT_DAYS = 1            # news TTL is 24 h: recent images should almost all be live
 MIN_LIVE_NEWS = 5
 MAX_ORPHAN_RATIO = 0.5     # of recent images
-MAX_TAG_PER_RUN = int(os.environ.get("MAX_TAG_PER_RUN", "3000"))
-MAX_DELETE_PER_RUN = int(os.environ.get("MAX_DELETE_PER_RUN", "1000"))
+# Tagging is reversible and doesn't affect delivery, so its cap only guards
+# against runaway runs; deletion is the irreversible step and stays tighter.
+MAX_TAG_PER_RUN = int(os.environ.get("MAX_TAG_PER_RUN", "20000"))
+MAX_DELETE_PER_RUN = int(os.environ.get("MAX_DELETE_PER_RUN", "2000"))
 
 MODE = os.environ.get("MODE", "dry-run").strip().lower()
 NOW = datetime.now(timezone.utc)
