@@ -29,12 +29,22 @@ import { isAdvancedAIOLoaded } from '@/lib/feature-flags';
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const SLUG_RE = /^[a-z0-9][a-z0-9-]{2,80}$/i;
 const EXT_RE = /^\/articles\/([^/]+)\.(md|txt|json)$/i;
+// Canonical article ids look like `<13-digit ms timestamp>-<random>`.
+const ARTICLE_ID_RE = /^\d{13}-[a-z0-9]+$/;
+
+/** True when the client asks for Markdown and not HTML (AI agents, CLI fetchers). */
+function prefersMarkdown(accept: string | null): boolean {
+    if (!accept) return false;
+    const a = accept.toLowerCase();
+    return a.includes('text/markdown') && !a.includes('text/html');
+}
 
 /** Minimal markdown serialiser — produces a single # heading + body. */
-function toMarkdown(article: { title: string; content: string; category?: string; date?: string; created_at?: string }): string {
+function toMarkdown(article: { id: string; title: string; content: string; category?: string; date?: string; created_at?: string }): string {
     const date = article.date || article.created_at || '';
     const cat = article.category ? `> Category: ${article.category}\n` : '';
-    return `# ${article.title}\n\n${cat}> Published: ${date}\n\n${article.content}\n`;
+    const source = `> Source: https://xel-studio.vercel.app/articles/${article.id}\n> Author: Sandeep\n`;
+    return `# ${article.title}\n\n${source}${cat}> Published: ${date}\n\n${article.content}\n`;
 }
 
 function stripMarkdown(text: string): string {
@@ -170,6 +180,23 @@ export async function proxy(request: NextRequest) {
         }
     }
 
+    // ── LAYER B2: content negotiation on the canonical URL ────
+    // `Accept: text/markdown` on /articles/<id> returns the Markdown copy.
+    if (aioEnabled && pathParts.length === 2 && ARTICLE_ID_RE.test(pathParts[1])
+        && prefersMarkdown(request.headers.get('accept'))) {
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+        const supabaseKey =
+            process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+        if (supabaseUrl && supabaseKey) {
+            const article = await fetchArticleById(supabaseUrl, supabaseKey, pathParts[1]);
+            if (article) {
+                const res = extensionResponse(article, 'md');
+                res.headers.set('Vary', 'Accept');
+                return res;
+            }
+        }
+    }
+
     // ── LAYER C: slug alias (only when 2 path parts, not latest/oldest, not UUID) ──
     if (aioEnabled && pathParts.length === 2 && pathParts[0] === 'articles') {
         const candidate = pathParts[1];
@@ -177,7 +204,9 @@ export async function proxy(request: NextRequest) {
         // Don't shadow semantic routes or UUID-based canonical URLs.
         const isSemantic = intent === 'latest' || intent === 'oldest';
         const isUuid = UUID_RE.test(candidate);
-        const looksLikeSlug = SLUG_RE.test(candidate) && !isUuid;
+        // Real article ids skip the lookup entirely (saves a DB round trip per view).
+        const isArticleId = ARTICLE_ID_RE.test(candidate);
+        const looksLikeSlug = SLUG_RE.test(candidate) && !isUuid && !isArticleId;
         if (!isSemantic && looksLikeSlug) {
             const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
             const supabaseKey =
