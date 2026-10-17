@@ -26,8 +26,16 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://xel-studio.vercel.app',
+    // Articles-only feeds first: Bridgy Fed and feed readers discover feeds
+    // from the home page. The existing /api/rss entry is unchanged.
     types: {
-      'application/rss+xml': 'https://xel-studio.vercel.app/api/rss',
+      'application/rss+xml': [
+        { url: 'https://xel-studio.vercel.app/articles/feed.xml', title: 'XeL Studio Articles (RSS)' },
+        { url: 'https://xel-studio.vercel.app/api/rss', title: 'XeL Studio RSS Feed' },
+      ],
+      'application/atom+xml': [
+        { url: 'https://xel-studio.vercel.app/articles/atom.xml', title: 'XeL Studio Articles (Atom)' },
+      ],
     },
   },
 };
