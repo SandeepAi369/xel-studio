@@ -118,12 +118,7 @@ jobs:
       - name: Smoke test — verify g4f image imports work
         if: steps.check.outputs.skip != 'true'
         run: |
-          python3 -c "
-import g4f
-from g4f.client import Client
-client = Client()
-print(f'✅ g4f v{g4f.__version__} — Client created, image generation ready')
-          "
+          python3 -c "import g4f; from g4f.client import Client; Client(); print(f'✅ g4f v{g4f.__version__} — Client created, image generation ready')"
 
       - name: Commit and push
         if: steps.check.outputs.skip != 'true'

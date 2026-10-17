@@ -15,7 +15,15 @@ import NewsActionButtons from "@/components/NewsActionButtons";
 import { prepareTTSText } from "@/lib/tts-text";
 import { adminDb } from "@/lib/firebase-admin";
 
-export const dynamic = 'force-dynamic';
+// Edge-cached (ISR): each story is rendered once, then served from the CDN.
+// Pages are generated on first request (no build-time list) and refreshed
+// every 5 minutes, so expired stories disappear within that window.
+export const revalidate = 300;
+export const dynamicParams = true;
+
+export async function generateStaticParams(): Promise<{ id: string }[]> {
+    return [];
+}
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface SourceItem {

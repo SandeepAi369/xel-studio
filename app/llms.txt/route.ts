@@ -47,18 +47,16 @@ export async function GET() {
 
     const output = `# XeL Studio
 
-> Original articles on AI research, LLMs, agents, and cyber security by Sandeep, plus automated AI tech news.
+> Original articles on AI research, LLMs, agents, and cyber security by Sandeep.
 
 Every article is available as clean Markdown by appending \`.md\` to its URL (also \`.txt\` and \`.json\`), or by requesting the article URL with \`Accept: text/markdown\`. Article pages are fully server-rendered HTML with schema.org BlogPosting data.
 
 ## Site Structure
 - Home: ${SITE_URL}
 - Articles: ${SITE_URL}/articles
-- AI Tech News: ${SITE_URL}/ai-news
 - AI Chat: ${SITE_URL}/ai
 - Security Tools: ${SITE_URL}/shield
 - App Store: ${SITE_URL}/store
-- RSS Feed: ${SITE_URL}/api/rss
 
 ## Articles
 

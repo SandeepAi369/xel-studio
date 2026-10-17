@@ -8,11 +8,7 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // TypeScript: React 19 types have stricter Iterator requirements
-  // Code is correct - skip type check during build (tsc --noEmit still works for dev)
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Type errors fail the build (the codebase is type-clean; CI checks too).
 
   // Image optimization — Cloudinary CDN + WebP/AVIF auto-serve
   images: {
@@ -101,6 +97,20 @@ const nextConfig: NextConfig = {
               "form-action 'self'",
             ].join('; '),
           },
+        ],
+      },
+      {
+        // News is aggregated content: no indexing, snippets, caching or
+        // image indexing by search engines / AI crawlers that reach it.
+        source: '/ai-news/:path*',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive, nosnippet, noimageindex' },
+        ],
+      },
+      {
+        source: '/ai-news',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive, nosnippet, noimageindex' },
         ],
       },
       {

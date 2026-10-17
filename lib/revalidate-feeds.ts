@@ -21,7 +21,6 @@ const FEED_PATHS = [
     '/llms-full.txt',
     '/articles.txt',
     // RSS / JSON
-    '/api/rss',
     '/articles/feed.xml',
     '/articles/atom.xml',
 ] as const;

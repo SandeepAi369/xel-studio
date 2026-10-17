@@ -1,0 +1,46 @@
+name: "🧹 Cloudinary News Image Cleanup"
+
+# Removes AI News images whose news item no longer exists, in two safe
+# phases (tag = quarantine, delete after 7 days if still orphaned).
+# See scripts/cleanup_cloudinary.py for every safety rule.
+#
+# Mode: manual runs pick it below; scheduled runs use the repository
+# variable CLOUDINARY_CLEANUP_MODE (dry-run until it is set to "full").
+
+on:
+  schedule:
+    - cron: "40 23 * * *"   # daily, after the 21:05/23:05 UTC news-expiry cron
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run = report only · quarantine = tag only · full = tag + delete after 7 days"
+        type: choice
+        options: [dry-run, quarantine, full]
+        default: dry-run
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudinary-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install (runner only)
+        run: pip install --quiet "firebase-admin>=6,<8" "cloudinary>=1.40,<2"
+      - name: Run cleanup
+        env:
+          MODE: ${{ github.event.inputs.mode || vars.CLOUDINARY_CLEANUP_MODE || 'dry-run' }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: python scripts/cleanup_cloudinary.py

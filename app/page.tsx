@@ -27,11 +27,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://xel-studio.vercel.app',
     // Articles-only feeds first: Bridgy Fed and feed readers discover feeds
-    // from the home page. The existing /api/rss entry is unchanged.
+    // from the home page. (/api/rss now redirects to the articles feed.)
     types: {
       'application/rss+xml': [
         { url: 'https://xel-studio.vercel.app/articles/feed.xml', title: 'XeL Studio Articles (RSS)' },
-        { url: 'https://xel-studio.vercel.app/api/rss', title: 'XeL Studio RSS Feed' },
       ],
       'application/atom+xml': [
         { url: 'https://xel-studio.vercel.app/articles/atom.xml', title: 'XeL Studio Articles (Atom)' },
@@ -86,14 +85,6 @@ function JsonLd() {
             {
               '@type': 'SiteNavigationElement',
               position: 1,
-              name: 'AI Tech News',
-              description:
-                'Automated AI and tech news. Updated multiple times daily.',
-              url: 'https://xel-studio.vercel.app/ai-news',
-            },
-            {
-              '@type': 'SiteNavigationElement',
-              position: 2,
               name: 'Chat with AI',
               description:
                 'Interactive AI chat assistant with streaming responses.',
@@ -101,7 +92,7 @@ function JsonLd() {
             },
             {
               '@type': 'SiteNavigationElement',
-              position: 3,
+              position: 2,
               name: 'Articles',
               description:
                 'Deep dives into AI research, LLM architecture, and technical analysis.',
@@ -109,7 +100,7 @@ function JsonLd() {
             },
             {
               '@type': 'SiteNavigationElement',
-              position: 4,
+              position: 3,
               name: 'AI Labs',
               description:
                 'Research and experimental AI models, custom automation systems.',
@@ -117,7 +108,7 @@ function JsonLd() {
             },
             {
               '@type': 'SiteNavigationElement',
-              position: 5,
+              position: 4,
               name: 'Store',
               description:
                 'Premium APKs, bots, and tools with direct downloads.',
@@ -125,7 +116,7 @@ function JsonLd() {
             },
             {
               '@type': 'SiteNavigationElement',
-              position: 6,
+              position: 5,
               name: 'Security',
               description:
                 'Cyber defense tools, Kali scripts, and security protocols.',

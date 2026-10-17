@@ -1,9 +1,7 @@
 name: CI — Typecheck
 
 # Type-checks the app on GitHub's runners (nothing runs on your machine).
-# Skips the bot's news-history commits. app/ai-news is excluded from the
-# pass/fail decision on purpose: the News section is maintained separately
-# and has a known typing issue we don't touch.
+# Skips the bot's news-history commits.
 
 on:
   push:
@@ -33,12 +31,4 @@ jobs:
       - name: Install (from lockfile)
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: TypeScript
-        run: |
-          npx tsc --noEmit -p tsconfig.json > tsc.log 2>&1 || true
-          grep 'error TS' tsc.log | grep -v '^app/ai-news/' > tsc-errors.log || true
-          if [ -s tsc-errors.log ]; then
-            echo "::error::TypeScript errors outside app/ai-news:"
-            cat tsc-errors.log
-            exit 1
-          fi
-          echo "No TypeScript errors (app/ai-news excluded: $(grep -c '^app/ai-news/' tsc.log || true) known)."
+        run: npx tsc --noEmit -p tsconfig.json
