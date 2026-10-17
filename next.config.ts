@@ -37,6 +37,21 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  // Bridgy Fed: lets the bridged fediverse/Bluesky account use this domain
+  // as its handle. Query strings (?resource=…) are forwarded automatically.
+  redirects: async () => [
+    {
+      source: '/.well-known/host-meta',
+      destination: 'https://fed.brid.gy/.well-known/host-meta',
+      permanent: false,
+    },
+    {
+      source: '/.well-known/webfinger',
+      destination: 'https://fed.brid.gy/.well-known/webfinger',
+      permanent: false,
+    },
+  ],
+
   // Security headers (replacing deprecated middleware)
   headers: async () => {
     return [

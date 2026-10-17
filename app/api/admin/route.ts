@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse, after } from 'next/server';
 import { validateAccessToken } from '@/lib/auth';
 import { revalidatePath } from 'next/cache';
 import {
@@ -69,7 +69,10 @@ async function triggerGitHubSync() {
 async function triggerArticleSyndication(articleId: string) {
     try {
         const token = (process.env as any).GITHUB_PAT;
-        if (!token) return;
+        if (!token) {
+            console.warn('GITHUB_PAT not found. Article syndication workflow was not triggered.');
+            return;
+        }
         const response = await fetch('https://api.github.com/repos/SandeepAi369/deepAI-Articles/dispatches', {
             method: 'POST',
             headers: {
@@ -171,9 +174,10 @@ export async function POST(request: NextRequest) {
 
                 revalidateAllPages();
                 if (contentType === 'article') {
-                    // Fire-and-forget: sync .md files + syndicate to platforms
-                    triggerGitHubSync().catch(console.error);
-                    triggerArticleSyndication(result.id).catch(console.error);
+                    // Runs after the response via after() so Vercel doesn't drop it:
+                    // sync .md files + start the feed-driven syndication workflow
+                    const articleId = result.id;
+                    after(() => Promise.all([triggerGitHubSync(), triggerArticleSyndication(articleId)]));
                 }
 
                 return NextResponse.json({
@@ -219,8 +223,8 @@ export async function POST(request: NextRequest) {
 
                 revalidateAllPages();
                 if (contentType === 'article') {
-                    // Fire-and-forget ping signal to GitHub Actions
-                    triggerGitHubSync().catch(console.error);
+                    // Signal GitHub Actions after the response (after() keeps it alive)
+                    after(triggerGitHubSync);
                 }
 
                 return NextResponse.json({
@@ -266,8 +270,8 @@ export async function POST(request: NextRequest) {
 
                 revalidateAllPages();
                 if (contentType === 'article') {
-                    // Fire-and-forget ping signal to GitHub Actions
-                    triggerGitHubSync().catch(console.error);
+                    // Signal GitHub Actions after the response (after() keeps it alive)
+                    after(triggerGitHubSync);
                 }
 
                 return NextResponse.json({ success: true, storage: 'supabase' }, { headers: corsHeaders });

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Articles | XeL Studio',
+    // Root layout template appends " | XeL Studio"
+    title: 'Articles',
     description:
         'Research articles on AI, machine learning, LLM architecture, and technical analysis. Each article features text-to-speech listening.',
     openGraph: {
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     },
     alternates: {
         canonical: 'https://xel-studio.vercel.app/articles',
+        types: {
+            'application/rss+xml': [{ url: 'https://xel-studio.vercel.app/articles/feed.xml', title: 'XeL Studio Articles (RSS)' }],
+            'application/atom+xml': [{ url: 'https://xel-studio.vercel.app/articles/atom.xml', title: 'XeL Studio Articles (Atom)' }],
+        },
     },
 };
 
