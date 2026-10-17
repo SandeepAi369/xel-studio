@@ -15,7 +15,9 @@ async function getInitialNews(): Promise<NewsItem[]> {
       return {
         id: doc.id,
         title: d.title ?? "",
-        summary: d.summary ?? "",
+        // Cards show a ~200-char preview; 600 raw chars leaves room for the
+        // preview cleaner. The live listener later swaps in full documents.
+        summary: (d.summary ?? "").slice(0, 600),
         image_url: d.image_url ?? null,
         source_link: d.source_link ?? "",
         source_name: d.source_name ?? "",
