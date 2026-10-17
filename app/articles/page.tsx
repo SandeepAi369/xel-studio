@@ -5,6 +5,7 @@ import PageTransition from '@/components/PageTransition';
 import { getArticles } from '@/lib/supabase-db';
 import ArticleSearch from '@/components/ArticleSearch';
 import { markdownToPlainText } from '@/lib/article-feed';
+import { APP_VERSION } from '@/lib/version';
 
 // Static ISR: served from the edge cache, rebuilt on every article write
 // (revalidatePath('/articles')) and at most every 5 minutes otherwise.
@@ -137,6 +138,7 @@ export default async function ArticlesPage() {
                             <ArrowLeft className="w-4 h-4" />
                             Back to Home
                         </Link>
+                        <p className="mt-4 text-xs text-zinc-500 tracking-widest">XeL Studio {APP_VERSION}</p>
                     </div>
                 </div>
             </main>

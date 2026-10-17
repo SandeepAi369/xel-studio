@@ -1,4 +1,5 @@
 import { Mail, Github } from 'lucide-react';
+import { APP_VERSION } from '@/lib/version';
 
 export default function Footer() {
     return (
@@ -14,7 +15,7 @@ export default function Footer() {
                         © 2025 XeL Studio. Built by{' '}
                         <span className="text-emerald-400 font-medium">Sandeep</span>.
                     </p>
-                    <span className="text-xs text-zinc-600">v2.5</span>
+                    <span className="text-xs text-zinc-600">{APP_VERSION}</span>
                 </div>
 
                 <div className="flex items-center gap-4">
