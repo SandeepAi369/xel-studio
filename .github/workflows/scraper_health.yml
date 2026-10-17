@@ -1,0 +1,38 @@
+name: "🔎 Scraper Health Check"
+
+# Starts SearchWala exactly like news_cron.yml (latest release binary) and
+# checks what the news pipeline actually receives. Read-only: no secrets,
+# no Firestore, no commits. Runs daily and on demand.
+
+on:
+  schedule:
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - name: Start SearchWala (same as news pipeline)
+        run: |
+          wget --timeout=30 --tries=2 -q \
+            https://github.com/SandeepAi369/SearchWala/releases/latest/download/searchwala-linux-amd64 \
+            -O searchwala
+          chmod +x searchwala
+          ./searchwala &
+          for i in $(seq 1 30); do
+            sleep 1
+            if curl -sf http://localhost:8000/health > /dev/null; then echo "SearchWala up after ${i}s"; exit 0; fi
+          done
+          echo "::error title=SearchWala did not start::no /health response in 30s"
+          exit 1
+      - name: Check search quality
+        run: python scripts/scraper_health.py
