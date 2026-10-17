@@ -22,6 +22,8 @@ const FEED_PATHS = [
     '/articles.txt',
     // RSS / JSON
     '/api/rss',
+    '/articles/feed.xml',
+    '/articles/atom.xml',
 ] as const;
 
 export function revalidateAIOFeeds(articleId?: string): void {
