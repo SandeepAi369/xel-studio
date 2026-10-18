@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sky News Expands Real‑Time UK Headlines Feed Boosting Public Awareness",
-      "urls": [
-        "https://aigrants.in/topics/open-source-ai-models-for-indian-developers",
-        "https://news.sky.com",
-        "https://news.sky.com/uk"
-      ],
-      "date": "2026-10-08T05:01:38.245328+00:00"
-    },
-    {
       "title": "TT Luxury Cat Towers Launches Premium Cat Scratching Towers for Discerning Pet Owners",
       "urls": [
         "https://www.luxurycattowers.co.uk",
@@ -5083,7 +5074,15 @@
         "https://www.skysports.com/football"
       ],
       "date": "2026-10-18T04:31:51.860852+00:00"
+    },
+    {
+      "title": "OpenAI Doubles ChatGPT Adoption in India With New Hindi Voice Feature",
+      "urls": [
+        "https://thehindubusinessline.com/info-tech/chatgpt-usage-doubles-in-india-over-past-year-openai-expands-hindi-voice-capabilities/article71589092.ece",
+        "https://corover.ai/blogs/google-deepmind-invests-in-corover-ai-creator-of-indias-first-large-language-model-bharatgpt"
+      ],
+      "date": "2026-10-18T05:01:53.429011+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T04:31:51.860906+00:00"
+  "lastUpdated": "2026-10-18T05:01:53.429066+00:00"
 }
