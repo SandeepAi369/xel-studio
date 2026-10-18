@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Corporate Training Programs Raise Skills While Accessibility Support Declines Across Industries",
-      "urls": [
-        "https://thinktanksmonitor.org/asia/skilling-up-accessibility-down-the-contradiction-at-the-heart-of-budget-2026s-disability-agenda",
-        "https://www.legalitysimplified.com/centre-proposes-new-rules-for-assistive-technology"
-      ],
-      "date": "2026-10-08T21:31:49.081790+00:00"
-    },
-    {
       "title": "Assisted Coding Guides Skill Development With Python and Generative Tools",
       "urls": [
         "https://www.forbes.com/sites/technology/article/what-is-ai-coding-and-how-to-code-with-ai",
@@ -5094,7 +5086,16 @@
         "https://en.wikipedia.org/wiki/BBC_Two"
       ],
       "date": "2026-10-18T21:31:34.237917+00:00"
+    },
+    {
+      "title": "BairesDev Survey Shows AI Coding Adoption Surges to 42 Percent Among Developers",
+      "urls": [
+        "https://venturebeat.com/data/the-share-of-developers-using-ai-to-write-half-or-more-code-jumped-from-12-to-42-yoy-in-latest-bairesdev-survey",
+        "https://dotprotools.com/blog/new-ai-tools-october-2026",
+        "https://www.forbes.com/sites/quickerbettertech/2026/10/04/tech-news-this-week-muse-takes-on-small-business-and-mcdonalds-leans-into-ai"
+      ],
+      "date": "2026-10-18T22:01:37.247063+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T21:31:34.237997+00:00"
+  "lastUpdated": "2026-10-18T22:01:37.247155+00:00"
 }
