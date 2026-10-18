@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I can’t comply with that request",
-      "urls": [
-        "https://blog.desdelinux.net/en/Linuxverse-news-October-2026",
-        "https://en.wikipedia.org/wiki/Education",
-        "https://en.wikipedia.org/wiki/Arch_Linux",
-        "https://www.windows-guru.de/bluetooth-aktivieren-windows",
-        "https://www.education.com"
-      ],
-      "date": "2026-10-08T18:31:42.986673+00:00"
-    },
-    {
-      "title": "Ayushman Bharat Digital Mission Surpasses 93.95 Crore Health Accounts, Expanding Nationwide Coverage",
-      "urls": [
-        "https://www.etvbharat.com/en/health/ayushman-bharat-centre-unveils-digital-tools-for-smarter-claims-and-secure-health-data-enn26092505601",
-        "https://www.thehindubusinessline.com/news/ayushman-bharat-digital-mission-crosses-9395-crore-health-accounts-centre/article71206193.ece",
-        "https://nicobartimes.com/local-news/pbgkr-organises-awareness-cum-eye-screening-camp-on-world-sight-day-at-bathubasti",
-        "https://www.ndtv.com/india"
-      ],
-      "date": "2026-10-08T19:01:49.126287+00:00"
-    },
-    {
       "title": "U.S. Government Suspends PERM Visa Program for Major Indian IT Firms",
       "urls": [
         "https://www.moneycontrol.com/world/us-suspends-perm-for-infosys-tcs-wipro-and-others-what-it-means-for-indians-already-on-h-1b-and-waiting-for-green-cards-article-14048013.html",
@@ -5091,7 +5070,19 @@
         "https://arxiv.org/abs/2508.04035"
       ],
       "date": "2026-10-18T18:31:26.966339+00:00"
+    },
+    {
+      "title": "Scientists Identify Natural Compound That May Shield Brain From Damage",
+      "urls": [
+        "https://sciencedaily.com/news/top/health",
+        "https://www.sciencedaily.com/news/health_medicine/medical_imaging",
+        "https://www.news-medical.net/category/Device-Technology-News.aspx",
+        "https://en.wikipedia.org/wiki/Mayo_Clinic",
+        "https://benefitscal.com/Help/program/medical/HCPDE?lang=en",
+        "https://www.news-medical.net/category/Medical-Research-News.aspx"
+      ],
+      "date": "2026-10-18T19:01:51.446478+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T18:31:26.966401+00:00"
+  "lastUpdated": "2026-10-18T19:01:51.446550+00:00"
 }
