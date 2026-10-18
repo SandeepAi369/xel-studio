@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Assisted Coding Guides Skill Development With Python and Generative Tools",
-      "urls": [
-        "https://www.forbes.com/sites/technology/article/what-is-ai-coding-and-how-to-code-with-ai",
-        "https://en.wikipedia.org/wiki/15.ai",
-        "https://www.techrepublic.com/article/news-microsoft-project-zenith-windows-developer-pcs",
-        "https://en.wikipedia.org/wiki/Python_%28programming_language%29"
-      ],
-      "date": "2026-10-08T22:02:02.652298+00:00"
-    },
-    {
       "title": "India Identifies Energy Storage As Critical Next Step for Renewable Expansion",
       "urls": [
         "https://solarquarter.com/2026/02/16/world-energy-day-2026-highlights-indias-solar-led-renewable-energy-transformation",
@@ -5095,7 +5085,14 @@
         "https://www.forbes.com/sites/quickerbettertech/2026/10/04/tech-news-this-week-muse-takes-on-small-business-and-mcdonalds-leans-into-ai"
       ],
       "date": "2026-10-18T22:01:37.247063+00:00"
+    },
+    {
+      "title": "MIT Technology Review Highlights Ten Climate Tech Companies Driving Emissions Reduction",
+      "urls": [
+        "https://bostonlifesciencestimes.com/2026/10/mit-technology-review-names-10-climate-tech-companies-to-watch-in-2026"
+      ],
+      "date": "2026-10-18T22:31:25.463513+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T22:01:37.247155+00:00"
+  "lastUpdated": "2026-10-18T22:31:25.463578+00:00"
 }
