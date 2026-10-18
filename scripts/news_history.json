@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "TT Luxury Cat Towers Launches Premium Cat Scratching Towers for Discerning Pet Owners",
-      "urls": [
-        "https://www.luxurycattowers.co.uk",
-        "https://eyespy.org/news"
-      ],
-      "date": "2026-10-08T05:31:23.541790+00:00"
-    },
-    {
       "title": "Anthropic Expands Claude Access to U.S. Cybersecurity Firms Amid Safety and Traceability Push",
       "urls": [
         "https://www.anthropic.com/news",
@@ -5082,7 +5074,17 @@
         "https://corover.ai/blogs/google-deepmind-invests-in-corover-ai-creator-of-indias-first-large-language-model-bharatgpt"
       ],
       "date": "2026-10-18T05:01:53.429011+00:00"
+    },
+    {
+      "title": "Autism Neurodiversity Technology Support News New Developments October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://autismsociety.org/capitol-connection-october-15-2026",
+        "https://en.wikipedia.org/wiki/History_of_autism",
+        "https://en.wikipedia.org/wiki/Societal_and_cultural_aspects_of_autism",
+        "https://www.abc.net.au/news/2026-08-15/act-disability-autism-neurodiversity-minister-cautiously-welcome/107040226"
+      ],
+      "date": "2026-10-18T05:31:25.743164+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T05:01:53.429066+00:00"
+  "lastUpdated": "2026-10-18T05:31:25.743265+00:00"
 }
