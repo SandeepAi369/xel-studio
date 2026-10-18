@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Expands Claude Access to U.S. Cybersecurity Firms Amid Safety and Traceability Push",
-      "urls": [
-        "https://www.anthropic.com/news",
-        "https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science-biology/688878",
-        "https://www.bloomberg.com/news/articles/2026-10-06/anthropic-expands-access-to-latest-ai-models-for-cyber-firms",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China",
-        "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-        "https://latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies"
-      ],
-      "date": "2026-10-08T06:01:36.767956+00:00"
-    },
-    {
       "title": "India Faces Rising Rice Prices as Monsoon Deficit and El Niño Threaten Food Supply",
       "urls": [
         "https://www.thehindu.com/news/national/why-is-the-price-of-rice-rising-across-the-country-explained/article71555312.ece",
@@ -5084,7 +5072,21 @@
         "https://www.abc.net.au/news/2026-08-15/act-disability-autism-neurodiversity-minister-cautiously-welcome/107040226"
       ],
       "date": "2026-10-18T05:31:25.743164+00:00"
+    },
+    {
+      "title": "Google Unveils Willow Quantum Chip Reducing Errors Raising Bitcoin Security Concerns",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing",
+        "https://coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+        "https://www.sciencedaily.com/news/computers_math/quantum_computers",
+        "https://finance.yahoo.com/technology/ai/articles/ionq-ionq-presented-nine-research-051533931.html",
+        "https://www.dailyrecord.co.uk/all-about/motherwell",
+        "https://en.wikipedia.org/wiki/Quantum_computing",
+        "https://www.fool.com/coverage/stock-market-today/2026/09/23/stock-market-today-sept-23-ionq-surges-on-quantum-breakthrough-and-nvidia-partnership",
+        "https://www.glasgowlive.co.uk/all-about/motherwell"
+      ],
+      "date": "2026-10-18T06:02:04.537193+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T05:31:25.743265+00:00"
+  "lastUpdated": "2026-10-18T06:02:04.537264+00:00"
 }
