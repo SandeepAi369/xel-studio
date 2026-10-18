@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Machine Learning Advances Core AI Capabilities Driving Innovation Across Industries",
-      "urls": [
-        "https://www.toptal.com/developers/deep-learning/pytorch-vs-tensorflow",
-        "https://heytensor.com/research/ml-framework-comparison-2026.html",
-        "https://en.wikipedia.org/wiki/Machine_learning"
-      ],
-      "date": "2026-10-08T23:01:48.774720+00:00"
-    },
-    {
       "title": "Google Drive Help Publishes Vietnamese Guide on Managing Storage Across Drive Gmail and Photos",
       "urls": [
         "https://support.google.com/drive/answer/6374270?hl=vi",
@@ -5088,7 +5079,14 @@
         "https://opensourcealliance.org/popular-open-source-ai-frameworks-2026"
       ],
       "date": "2026-10-18T23:01:44.060739+00:00"
+    },
+    {
+      "title": "India Advances Digital Health Network While Targeting Last Mile Expansion",
+      "urls": [
+        "https://expresshealthcare.in/news/india-has-built-the-healthcare-network-now-it-must-build-the-last-mile/455592"
+      ],
+      "date": "2026-10-18T23:31:48.075693+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T23:01:44.060810+00:00"
+  "lastUpdated": "2026-10-18T23:31:48.075761+00:00"
 }
