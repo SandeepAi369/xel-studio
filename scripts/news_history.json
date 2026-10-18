@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "AmeriDisability Publishes Comprehensive AI and Disability Guide for Caregivers and Seniors",
-      "urls": [
-        "https://ameridisability.com/ai-and-disability-in-2026-a-comprehensive-guide-for-people-with-disabilities-caregivers-seniors-and-families",
-        "https://news.mit.edu/topic/assistive-technology",
-        "https://en.wikipedia.org/wiki/Indian_Institutes_of_Technology"
-      ],
-      "date": "2026-10-08T01:01:47.011856+00:00"
-    },
-    {
-      "title": "Global Seismic Network Highlights Recent Earthquake Activity Across Multiple Regions",
-      "urls": [
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://www.newsnow.com/us/World/Natural+Disasters/Earthquakes",
-        "https://en.wikipedia.org/wiki/Earthquake",
-        "https://www.volcanodiscovery.com/earthquakes-volcanoes/news/368685/Volcano-earthquake-report-2026-10-01.html"
-      ],
-      "date": "2026-10-08T01:31:21.747909+00:00"
-    },
-    {
       "title": "PyTorch and TensorFlow Compete in 2026 AI Framework Survey Revealing Developer Preferences",
       "urls": [
         "https://www.spheron.network/blog/pytorch-vs-tensorflow",
@@ -5084,7 +5065,17 @@
         "https://theconversation.com/topics/neurodiversity-103349"
       ],
       "date": "2026-10-18T01:01:41.575589+00:00"
+    },
+    {
+      "title": "Trump Faces Criticism Over Disaster Aid Delays After Hurricane Isaias",
+      "urls": [
+        "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast",
+        "https://wlrn.org/environment/2026-10-14/how-trumps-disaster-aid-delays-and-fema-cuts-could-galvanize-the-movable-middle-in-the-2026-elections",
+        "https://www.theguardian.com/us-news/2026/sep/25/hurricane-nolo-hawaii",
+        "https://www.self.com/story/8-strength-exercises"
+      ],
+      "date": "2026-10-18T01:33:08.642085+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T01:01:41.575663+00:00"
+  "lastUpdated": "2026-10-18T01:33:08.642125+00:00"
 }
