@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Identifies Energy Storage As Critical Next Step for Renewable Expansion",
-      "urls": [
-        "https://solarquarter.com/2026/02/16/world-energy-day-2026-highlights-indias-solar-led-renewable-energy-transformation",
-        "https://www.tripadvisor.de/Hotels-g187276-Baden_Wurttemberg-Hotels.html",
-        "https://economictimes.indiatimes.com/topic/renewable-energy-sector-india/news",
-        "https://www.downtoearth.org.in/energy/transition-20-indias-next-energy-challenge-is-storage",
-        "https://en.wikipedia.org/wiki/Solar_power_in_India"
-      ],
-      "date": "2026-10-08T22:31:31.598541+00:00"
-    },
-    {
       "title": "Machine Learning Advances Core AI Capabilities Driving Innovation Across Industries",
       "urls": [
         "https://www.toptal.com/developers/deep-learning/pytorch-vs-tensorflow",
@@ -5092,7 +5081,14 @@
         "https://bostonlifesciencestimes.com/2026/10/mit-technology-review-names-10-climate-tech-companies-to-watch-in-2026"
       ],
       "date": "2026-10-18T22:31:25.463513+00:00"
+    },
+    {
+      "title": "Open Source AI Frameworks Lead 2026 Development with TensorFlow, PyTorch, Keras",
+      "urls": [
+        "https://opensourcealliance.org/popular-open-source-ai-frameworks-2026"
+      ],
+      "date": "2026-10-18T23:01:44.060739+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T22:31:25.463578+00:00"
+  "lastUpdated": "2026-10-18T23:01:44.060810+00:00"
 }
