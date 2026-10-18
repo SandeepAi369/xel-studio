@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Government Suspends PERM Visa Program for Major Indian IT Firms",
-      "urls": [
-        "https://www.moneycontrol.com/world/us-suspends-perm-for-infosys-tcs-wipro-and-others-what-it-means-for-indians-already-on-h-1b-and-waiting-for-green-cards-article-14048013.html",
-        "https://www.newindianexpress.com/business/2026/Oct/08/cognizant-infosys-tcs-wipro-and-hcl-among-it-firms-suspended-from-us-green-card-programme",
-        "https://businesstoday.in/markets/stocks/story/tcs-infosys-hcl-tech-wipro-techm-will-it-emerge-as-dark-horse-what-analysts-say-fresh-targets-560156-2026-10-07",
-        "https://indianexpress.com/article/explained/explained-global/us-perm-suspension-indian-it-firms-green-card-workers-explained-10913011",
-        "https://en.wikipedia.org/wiki/Information_technology_in_India",
-        "https://businesstoday.in/technology/story/setback-for-it-giants-us-suspends-infosys-tata-wipro-hcl-cognizant-as-vance-targets-h-1b-abuse-560529-2026-10-08",
-        "https://livemint.com/news/us-work-visa-indian-it-firms-tcs-infosys-wipro-11791475886441.html",
-        "https://www.hindustantimes.com/world-news/us-news/infosys-wipro-among-8-it-firms-suspended-from-green-card-programme-full-list-101791473678449.html"
-      ],
-      "date": "2026-10-08T19:31:31.001300+00:00"
-    },
-    {
       "title": "European Union Advances Digital Privacy Laws with Urgent 2026 Regulation Shift",
       "urls": [
         "https://parliamentnews.co.uk/digital-privacy-regulation-2026",
@@ -5082,7 +5068,14 @@
         "https://www.news-medical.net/category/Medical-Research-News.aspx"
       ],
       "date": "2026-10-18T19:01:51.446478+00:00"
+    },
+    {
+      "title": "Adobe Launches Firefly Video to Generate High‑Quality Clips From Text Prompts",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Text-to-video_model"
+      ],
+      "date": "2026-10-18T19:31:31.731570+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T19:01:51.446550+00:00"
+  "lastUpdated": "2026-10-18T19:31:31.731634+00:00"
 }
