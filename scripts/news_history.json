@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nasdaq Launches Centralized Earnings Reports Portal to Streamline Investor Access",
-      "urls": [
-        "https://www.nasdaq.com/market-activity/earnings",
-        "https://www.interactivecrypto.com/intel-stock-falls-2-63-even-as-tech-sector-rises-ahead-of-earnings",
-        "https://investingcalendar.com/sector/technology/earnings"
-      ],
-      "date": "2026-10-08T17:01:45.743251+00:00"
-    },
-    {
       "title": "Deaf Equality Report Highlights Gaps and Calls for Action on Hearing Loss Support",
       "urls": [
         "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
@@ -5092,7 +5083,18 @@
         "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches"
       ],
       "date": "2026-10-18T17:01:44.137955+00:00"
+    },
+    {
+      "title": "Accessible Technology Innovations Disabled People News Top Stories October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.disabilitynewsservice.com/all-news-stories",
+        "https://www.disabled-world.com/news",
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+        "https://www.disabilitynewsservice.com",
+        "https://en.wikipedia.org/wiki/TikTok"
+      ],
+      "date": "2026-10-18T17:31:46.960923+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T17:01:44.138017+00:00"
+  "lastUpdated": "2026-10-18T17:31:46.960981+00:00"
 }
