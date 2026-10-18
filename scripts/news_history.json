@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Dario Amodei Listed Without Context Highlights Gaps In Public Information",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Dario_Amodei",
-        "https://www.businesstoday.in/technology/artificial-intelligence/story/anthropic-resumes-claude-testing-after-real-world-hacks-adds-stronger-ai-safety-safeguards-552554-2026-09-01",
-        "https://letsdatascience.com/news/topic/anthropic"
-      ],
-      "date": "2026-10-08T11:31:30.621762+00:00"
-    },
-    {
       "title": "DRDO Pune Develops Indigenous STANAG‑6 Armour Panels for Next Generation Vehicles",
       "urls": [
         "https://indianmasterminds.com/news/drdo-indigenous-defence-electronics-innovation-directed-energy-weapons-2025-155604",
@@ -5087,7 +5078,20 @@
         "https://devtoolsreview.com/best-for/best-ai-coding-tools-2026"
       ],
       "date": "2026-10-18T11:31:22.031324+00:00"
+    },
+    {
+      "title": "UN Data Shows Sharp Rise in Migrant Deaths Amid Weather, War and Policy Changes",
+      "urls": [
+        "https://news.un.org/en/story/2026/08/1168127",
+        "https://news.un.org/en/story/2026/02/1166979",
+        "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+        "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/as-humanitarian-system-buckles-world-refugee-migration-council-calls-for-a-new-approach-to-prolonged-refugee-crises/2437391",
+        "https://en.wikipedia.org/wiki/Venezuelan_refugee_crisis",
+        "https://refugeeresearch.net/october-1-2026-rrn-research-digest",
+        "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+      ],
+      "date": "2026-10-18T12:01:46.349437+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T11:31:22.031378+00:00"
+  "lastUpdated": "2026-10-18T12:01:46.349498+00:00"
 }
