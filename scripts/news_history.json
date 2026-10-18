@@ -5081,7 +5081,17 @@
         "https://www.ndtv.com/india-news/indias-2026-monsoon-journey-a-decades-lowest-rainfall-drought-concerns-and-a-strengthening-el-nino-12128155"
       ],
       "date": "2026-10-18T18:02:01.145277+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Comparison Survey Highlights Strengths and Future Challenges",
+      "urls": [
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://arxiv.org/html/2508.04035v1",
+        "https://www.digitalocean.com/community/tutorials/pytorch-vs-tensorflow",
+        "https://arxiv.org/abs/2508.04035"
+      ],
+      "date": "2026-10-18T18:31:26.966339+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T18:02:01.145343+00:00"
+  "lastUpdated": "2026-10-18T18:31:26.966401+00:00"
 }
