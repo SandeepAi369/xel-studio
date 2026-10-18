@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "WWF Reports 73% Decline in Wildlife, Urges Global Food Production Shift",
-      "urls": [
-        "https://www.discoverwildlife.com/environment/living-planet-report-2026",
-        "https://www.theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
-        "https://www.tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
-        "https://en.wikipedia.org/wiki/Conservation_biology",
-        "https://www.audi.in/en",
-        "https://thekashmirimages.com/2026/10/03/wildlife-week-2026-begins-at-skuast-k",
-        "https://wwf.panda.org/wwf_news"
-      ],
-      "date": "2026-10-08T10:31:43.119806+00:00"
-    },
-    {
       "title": "NHS England Expands Online Medicine Portal to Boost Public Health Information Access",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Medicine",
@@ -5077,7 +5064,18 @@
         "https://codersera.com/blog/open-source-llms-landscape-2026"
       ],
       "date": "2026-10-18T10:02:05.947898+00:00"
+    },
+    {
+      "title": "Bioengineer.org Releases AI‑Generated Analysis on Justice, Finance, and Institutional Failures in Low‑Carbon Transitions",
+      "urls": [
+        "https://bioengineer.org/why-low-carbon-transitions-fail-without-justice-institutions-and-finance",
+        "https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biag125/8836482",
+        "https://environbuzz.com/global-environmental-news-roundup-october-1-8-2026",
+        "https://www.premierleague.com/en",
+        "https://www.bloomberg.com/professional/insights/regulation/september-2026-global-regulatory-brief-esg-ratings-sustainability-reporting-and-eu-ets"
+      ],
+      "date": "2026-10-18T10:32:08.075645+00:00"
     }
   ],
-  "lastUpdated": "2026-10-18T10:02:05.947966+00:00"
+  "lastUpdated": "2026-10-18T10:32:08.075696+00:00"
 }
