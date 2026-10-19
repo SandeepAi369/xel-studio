@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Outpaces TensorFlow With 85 Percent Research Share Gap in 2026",
-      "urls": [
-        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
-        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
-        "https://secondtalent.com/resources/deep-learning-frameworks-open-source-community"
-      ],
-      "date": "2026-10-09T23:01:52.285886+00:00"
-    },
-    {
       "title": "Drug Wikipedia Page Provides Comprehensive Overview of Pharmaceutical Term",
       "urls": [
         "https://insilico.com/news/pr84b6b87c28897f2c680e-pharma-ai-2026-fall-update-preview-agentic-ai-takes-the-wheel-of-pharmaceutical-intelligence",
@@ -5082,7 +5073,21 @@
         "https://en.wikipedia.org/wiki/Red_Hat"
       ],
       "date": "2026-10-19T23:01:42.915509+00:00"
+    },
+    {
+      "title": "World Health Organization Launches National Nursing Policy Workshop to Elevate Care Standards in India",
+      "urls": [
+        "https://www.who.int/india",
+        "https://www.who.int/india/news-room",
+        "https://www.who.int/countries/ind",
+        "https://www.outlookindia.com/topic/public-health",
+        "https://www.who.int/news-room/headlines",
+        "https://www.publichealthchronicle.in",
+        "https://www.who.int/india/news-room/1",
+        "https://frontline.thehindu.com/the-nation/public-health"
+      ],
+      "date": "2026-10-19T23:31:30.512665+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T23:01:42.915595+00:00"
+  "lastUpdated": "2026-10-19T23:31:30.512760+00:00"
 }
