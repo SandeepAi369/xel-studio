@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Pursues Open‑Source Homegrown AI Amid Growing Access Restrictions Strategy",
-      "urls": [
-        "https://la-communaute.sfr.fr/t5/sfr-mail/ajouter-compte-mail-aol-et-gmail-ne-fonctionne-pas/td-p/2232494",
-        "https://indiaaipulse.com/en/news/india-backs-open-source-homegrown-ai-strategy",
-        "https://economictimes.indiatimes.com/tech/technology/india-eyes-open-source-homegrown-ai-amid-access-curbs-on-frontier-models/articleshow/132094233.cms",
-        "https://bunkr.cr/a/H0Q76JMv"
-      ],
-      "date": "2026-10-09T10:01:41.109355+00:00"
-    },
-    {
       "title": "AI Workloads require large amounts of electricity for model training and inference,",
       "urls": [
         "https://climatechangenews.com/2026/10/01/whats-on-the-climate-calendar-for-october-2026",
@@ -5057,7 +5047,16 @@
         "https://gadgetsfocus.com/october-2026-ai-models-tools-release-tracker-mistral-large-4-beam-gemini-agent"
       ],
       "date": "2026-10-19T09:31:52.418982+00:00"
+    },
+    {
+      "title": "ScienceSoft Report Shows Healthcare AI Adoption Outpacing Proof of Value",
+      "urls": [
+        "https://openloophealth.com/blog/digital-health-trends-and-news-october-2026",
+        "https://www.newsweek.com/newsweeks-ai-impact-health-awards-2026-winners-12473649",
+        "https://finance.yahoo.com/healthcare/articles/sciencesoft-report-finds-healthcare-ai-190200892.html"
+      ],
+      "date": "2026-10-19T10:02:09.559979+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T09:31:52.419078+00:00"
+  "lastUpdated": "2026-10-19T10:02:09.560070+00:00"
 }
