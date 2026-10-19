@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "TATEEDA Releases Top 20 Healthcare Technology Trends Shaping 2026 Industry",
-      "urls": [
-        "https://tateeda.com/blog/healthcare-technology-trends",
-        "https://www.amnhealthcare.com/blog/physician/perm/8-medical-technology-trends",
-        "https://www.healthcare.gov",
-        "https://www.expresshealthcare.in/news/gdhs-2026-to-focus-on-ai-implementation-across-healthcare/455304",
-        "https://www.healthcare.gov/login",
-        "https://www.forbes.com/topics/ai-in-healthcare"
-      ],
-      "date": "2026-10-09T19:01:36.638900+00:00"
-    },
-    {
       "title": "Qviro Blog Highlights Upcoming Humanoid Robot Launches Planned for 2026 Across Industry",
       "urls": [
         "https://spectrum.ieee.org/topic/robotics",
@@ -5066,7 +5054,15 @@
         "https://en.wikipedia.org/wiki/Qwen"
       ],
       "date": "2026-10-19T18:31:49.461177+00:00"
+    },
+    {
+      "title": "India Pays Hospitals for Accreditation Yet Majority Decline Participation Under AB-PMJAY",
+      "urls": [
+        "https://bioengineer.org/india-pays-hospitals-to-get-accredited-but-most-are-not-buying-it",
+        "https://www.thesun.co.uk"
+      ],
+      "date": "2026-10-19T19:01:46.475250+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T18:31:49.461275+00:00"
+  "lastUpdated": "2026-10-19T19:01:46.475304+00:00"
 }
