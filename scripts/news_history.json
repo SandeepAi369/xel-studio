@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes published a piece one week ago detailing recent progress in AI video generation. The",
-      "urls": [
-        "https://forbes.com/sites/ronschmelzer/2026/09/30/ai-video-is-getting-good-enough-to-make-the-model-invisible",
-        "https://en.wikipedia.org/wiki/Kimi_%28AI%29",
-        "https://note.com/alive_shark4897/n/nfc077830d6a6?hl=en",
-        "https://gemini.google.com"
-      ],
-      "date": "2026-10-09T06:01:51.530213+00:00"
-    },
-    {
       "title": "Isaias Strengthens Into Category Two Hurricane As Gulf Coast Prepares",
       "urls": [
         "https://www.bbc.com/weather/articles/cw146l6pnvx0o",
@@ -5060,7 +5050,18 @@
         "https://en.wikipedia.org/wiki/Deafness"
       ],
       "date": "2026-10-19T05:31:55.987126+00:00"
+    },
+    {
+      "title": "India's UPI Goes Live in Eleven Countries as New Fees Target Large Merchants",
+      "urls": [
+        "https://www.news18.com/india/upi-live-in-11-countries-why-pm-modi-is-pushing-for-global-payment-system-linkages-10317075.html",
+        "https://www.upi.com",
+        "https://www.business-standard.com/finance/news/upi-fee-why-government-is-putting-a-price-on-big-merchant-payments-126091600484_1.html",
+        "https://www.bhaskarenglish.in/national/news/upi-payment-rules-change-october-2026-merchant-discount-rate-india-139046628.html",
+        "https://www.hindustantimes.com/nri/new-upi-levy-from-october-15-what-nris-should-know-about-merchant-payments-transfers-and-more-101790149591634.html"
+      ],
+      "date": "2026-10-19T06:01:55.397831+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T05:31:55.987189+00:00"
+  "lastUpdated": "2026-10-19T06:01:55.397906+00:00"
 }
