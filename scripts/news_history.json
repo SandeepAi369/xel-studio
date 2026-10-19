@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "NIH Highlights Efforts to Bridge Research Discoveries and Patient Care in October Publications",
-      "urls": [
-        "https://healthcaretoday.com/article/closing-the-gap-between-discovery-and-care-october-2026",
-        "https://newsinhealth.nih.gov/2026/10",
-        "https://en.wikipedia.org/wiki/Medicine",
-        "https://medi-cal.dhcs.ca.gov"
-      ],
-      "date": "2026-10-09T02:31:27.842289+00:00"
-    },
-    {
-      "title": "US and Iran Reach Critical Juncture Over Deadlocked Nuclear Talks",
-      "urls": [
-        "https://www.thenationalnews.com/news/mena/2026/10/08/attempt-to-break-us-iran-diplomatic-deadlock-up-against-growing-appetite-for-major-war",
-        "https://www.cnbc.com/2026/10/05/ukraine-war-russia-kyiv-putin-zelenskyy-trump.html",
-        "https://www.securitycouncilreport.org/monthly-forecast/2026-10/the-middle-east-including-the-palestinian-question-26.php",
-        "https://iranwarlive.com/diplomacy",
-        "https://www.news18.com/world/us-israel-iran-war-news-live-updates-donald-trump-iran-netnyahu-peace-deal-agreement-strait-of-hormuz-reopening-oil-prices-latest-news-liveblog-ws-l-10159734.html"
-      ],
-      "date": "2026-10-09T03:01:39.195384+00:00"
-    },
-    {
       "title": "Blockchain.com Expands News Coverage to Include Global Cryptocurrency Market Trends",
       "urls": [
         "https://www.kucoin.com/news/flash/october-2026-web3-events-regulatory-updates-token-unlocks-and-ai-developments",
@@ -5083,7 +5062,16 @@
         "https://www.aol.com"
       ],
       "date": "2026-10-19T02:31:27.524836+00:00"
+    },
+    {
+      "title": "RBI Considers Full Rate Hike Amid Global Economic Turbulence and 20‑Year Loan Stability",
+      "urls": [
+        "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-soon-date-announcement-time-members-monetary-policy-review-expectations-11790931729661.html",
+        "https://bbc.com/news/articles/c5j9kngz3j1go",
+        "https://orfonline.org/expert-speak/can-a-hawkish-rbi-glide-against-global-whirlwinds"
+      ],
+      "date": "2026-10-19T03:01:48.015450+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T02:31:27.524903+00:00"
+  "lastUpdated": "2026-10-19T03:01:48.015526+00:00"
 }
