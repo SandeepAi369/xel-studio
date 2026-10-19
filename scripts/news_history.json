@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Ten Emerging Breakthroughs Poised to Transform Global Research",
-      "urls": [
-        "https://www.sciencedaily.com/breaking",
-        "https://www.sciencedaily.com/news",
-        "https://www.sciencedaily.com/news/top/science",
-        "https://www.soci.org/news/2026/6/ten-scientific-advances-getting-ready-to-change-the-world",
-        "https://www.tvo.de",
-        "https://www.tvo.de/kategorie/nachrichten"
-      ],
-      "date": "2026-10-09T09:01:48.846916+00:00"
-    },
-    {
-      "title": "Human Rights in China Article Details Ongoing Civil Liberties Concerns",
-      "urls": [
-        "https://www.legalitysimplified.com/ministry-of-social-justice-issues-draft-rights-of-persons-with-disabilities-amendment-rules-2026-to-mandate-ict-accessibility-standards",
-        "https://en.wikipedia.org/wiki/Human_rights_in_China",
-        "https://en.m.wikipedia.org/wiki/History_of_India",
-        "https://en.wikipedia.org/wiki/Project_2025"
-      ],
-      "date": "2026-10-09T09:31:38.878193+00:00"
-    },
-    {
       "title": "India Pursues Open‑Source Homegrown AI Amid Growing Access Restrictions Strategy",
       "urls": [
         "https://la-communaute.sfr.fr/t5/sfr-mail/ajouter-compte-mail-aol-et-gmail-ne-fonctionne-pas/td-p/2232494",
@@ -5070,7 +5048,16 @@
         "https://the420.in/ibm-meity-startup-hub-deep-tech-ai-quantum-india"
       ],
       "date": "2026-10-19T09:01:47.117960+00:00"
+    },
+    {
+      "title": "6, its 2026 large language model, on September 3, marking the latest milestone in the company’s generative‑AI roadmap and continuing",
+      "urls": [
+        "https://en.wikipedia.org/wiki/GPT-6",
+        "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap",
+        "https://gadgetsfocus.com/october-2026-ai-models-tools-release-tracker-mistral-large-4-beam-gemini-agent"
+      ],
+      "date": "2026-10-19T09:31:52.418982+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T09:01:47.118043+00:00"
+  "lastUpdated": "2026-10-19T09:31:52.419078+00:00"
 }
