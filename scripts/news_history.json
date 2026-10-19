@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Biodiversity Decline Persists While Recovery Pockets Emerge, Experts Call for Coordinated Action",
-      "urls": [
-        "https://phys.org/news/2026-10-world-seize-window-nature-wildlife.html",
-        "https://english.alarabiya.net/News/saudi-arabia/2026/10/06/saudi-solar-park-becomes-breeding-ground-for-threatened-wildlife-in-conservation-first",
-        "https://sciencedaily.com/news/earth_climate/ecology",
-        "https://tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
-        "https://www.deccanherald.com/environment/amid-73-decline-in-wildlife-population-scientists-reveal-grounds-for-hope-4174812"
-      ],
-      "date": "2026-10-09T22:31:50.285192+00:00"
-    },
-    {
       "title": "PyTorch Outpaces TensorFlow With 85 Percent Research Share Gap in 2026",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -5081,7 +5070,19 @@
         "https://en.wikipedia.org/wiki/Government_incentives_for_plug-in_electric_vehicles"
       ],
       "date": "2026-10-19T22:31:27.757063+00:00"
+    },
+    {
+      "title": "Americans Voice Concern Over Rapid AI Development as Companies Boost Spending",
+      "urls": [
+        "https://techstartups.com/2026/10/09/top-ai-news-stories-this-week-october-5-9-2026",
+        "https://en.wikipedia.org/wiki/2026",
+        "https://www.ciol.com/news/github-27-million-developers-india-open-source-ai-growth-11720405",
+        "https://en.wikipedia.org/wiki/GitHub",
+        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/github-india-developer-base-hits-27-million-amid-ai-driven-coding-surge/130222912",
+        "https://en.wikipedia.org/wiki/Red_Hat"
+      ],
+      "date": "2026-10-19T23:01:42.915509+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T22:31:27.757144+00:00"
+  "lastUpdated": "2026-10-19T23:01:42.915595+00:00"
 }
