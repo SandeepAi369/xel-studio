@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils New Surface Devices and Windows Features at 2026 Event",
-      "urls": [
-        "https://www.pcmag.com/news/microsoft-surface-windows-event-2026-live-announcements-and-analysis",
-        "https://imfounder.com/science-tech/tech-news-october-2026-shocking-stories",
-        "https://www.explainx.ai/blog/apple-wwdc-2026-complete-recap-all-announcements"
-      ],
-      "date": "2026-10-09T20:31:51.538575+00:00"
-    },
-    {
       "title": "Berlin Marathon Sets New Fastest Times As Global Running Records Shatter In 2026",
       "urls": [
         "https://therunningchannel.com/running-records-2026",
@@ -5083,7 +5074,17 @@
         "https://en.wikipedia.org/wiki/Live_streaming"
       ],
       "date": "2026-10-19T20:31:34.011654+00:00"
+    },
+    {
+      "title": "Patriots and Lions Face Off in Munich as The Elephant and The Warning Headline Halftime Show",
+      "urls": [
+        "https://khelnow.com",
+        "https://www.nfl.com",
+        "https://www.sports-now.com",
+        "https://www.espn.com/nfl"
+      ],
+      "date": "2026-10-19T21:01:38.432330+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T20:31:34.011764+00:00"
+  "lastUpdated": "2026-10-19T21:01:38.432389+00:00"
 }
