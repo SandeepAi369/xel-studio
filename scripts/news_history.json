@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "ZDNET Highlights Seven Open‑Source Apps Worth Paying for in 2026",
-      "urls": [
-        "https://www.zdnet.com/tech/7-open-source-apps-worth-paying-for-in-2026",
-        "https://piunikaweb.com/2026/10/05/kagi-orion-browser-windows-linux-open-source"
-      ],
-      "date": "2026-10-09T02:02:12.776508+00:00"
-    },
-    {
       "title": "NIH Highlights Efforts to Bridge Research Discoveries and Patient Care in October Publications",
       "urls": [
         "https://healthcaretoday.com/article/closing-the-gap-between-discovery-and-care-october-2026",
@@ -5083,7 +5075,15 @@
         "https://all.accor.com/hotel/0430/index.en.shtml"
       ],
       "date": "2026-10-19T02:01:39.606949+00:00"
+    },
+    {
+      "title": "United States Tariffs Raise Generic Drug Prices, India Pharma CEO Warns of Supply Risks",
+      "urls": [
+        "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
+        "https://www.aol.com"
+      ],
+      "date": "2026-10-19T02:31:27.524836+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T02:01:39.606998+00:00"
+  "lastUpdated": "2026-10-19T02:31:27.524903+00:00"
 }
