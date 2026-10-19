@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Merriam-Webster Defines Accessible Term Emphasizing Inclusion and Usability Standards Across Design",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible"
-      ],
-      "date": "2026-10-09T21:31:49.292882+00:00"
-    },
-    {
       "title": "Google Launches AI Reports in Search Console for Global Users",
       "urls": [
         "https://promptzone.com/ai-model-releases",
@@ -5080,7 +5073,15 @@
         "https://en.wikipedia.org/wiki/History_of_India"
       ],
       "date": "2026-10-19T21:31:33.126224+00:00"
+    },
+    {
+      "title": "Indiaai Launches Central Portal Showcasing National Artificial Intelligence Initiatives Across Sectors",
+      "urls": [
+        "https://indiaai.gov.in",
+        "https://orissadiary.com/stpi-tech-conclave-highlights-ais-potential-in-healthcare-assistive-technologies"
+      ],
+      "date": "2026-10-19T22:02:09.163608+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T21:31:33.126297+00:00"
+  "lastUpdated": "2026-10-19T22:02:09.163683+00:00"
 }
