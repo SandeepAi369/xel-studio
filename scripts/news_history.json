@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Unveils 2026 Electric Vehicle Policy Targeting Car Adoption and Emission Reduction",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Plug-in_electric_vehicle",
-        "https://www.evblogs.in/downloads/india-ev-report-2026.pdf",
-        "https://www.business-standard.com/topic/electric-vehicles",
-        "https://www.cardekho.com/news/general/delhi-ev-policy-2026-announced-whats-in-it-for-cars-36249.htm",
-        "https://en.wikipedia.org/wiki/Electric_vehicle"
-      ],
-      "date": "2026-10-09T18:03:32.300933+00:00"
-    },
-    {
-      "title": "Allergic Asthma Triggers Symptoms, Tests and Management Options Detailed in New Guide",
-      "urls": [
-        "https://www.healthline.com/health/asthma/allergic-asthma"
-      ],
-      "date": "2026-10-09T18:31:36.137185+00:00"
-    },
-    {
       "title": "TATEEDA Releases Top 20 Healthcare Technology Trends Shaping 2026 Industry",
       "urls": [
         "https://tateeda.com/blog/healthcare-technology-trends",
@@ -5075,7 +5057,16 @@
         "https://en.wikipedia.org/wiki/Electric_car_use_by_country"
       ],
       "date": "2026-10-19T18:01:44.233186+00:00"
+    },
+    {
+      "title": "Hugging Face Shifts to Infrastructure, Expands Open‑Source Model Hub for Global Developers",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/heck-hugging-face-why-did-124000277.html",
+        "https://www.ibm.com/think/topics/hugging-face",
+        "https://en.wikipedia.org/wiki/Qwen"
+      ],
+      "date": "2026-10-19T18:31:49.461177+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T18:01:44.233252+00:00"
+  "lastUpdated": "2026-10-19T18:31:49.461275+00:00"
 }
