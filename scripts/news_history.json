@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Unveils 1.05 Trillion Parameter Open‑Source Model Le Chonk to Accelerate AI Research",
-      "urls": [
-        "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap",
-        "https://digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
-        "https://tech-insider.org/mistral-large-4-le-chonk-1-05t-parameters-2026",
-        "https://scriptbyai.com/ai-model-release-calendar",
-        "https://essamamdani.com/blog/open-source-ai-tooling-briefing-october-2026",
-        "https://www.wikipedia.de",
-        "https://en.wikipedia.org/wiki/ChatGPT",
-        "https://www.londonstockexchange.com/stock/SMWH/wh-smith-plc/company-page"
-      ],
-      "date": "2026-10-09T05:01:48.825417+00:00"
-    },
-    {
-      "title": "Serbia Holds 2026 Parliamentary Election Amid Growing Regional Scrutiny and International Attention",
-      "urls": [
-        "https://www.democracynow.org/2026/10/5/headlines",
-        "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
-        "https://organiser.org/2026/10/08/385365/bharat/democracy-or-mobocracy-can-street-pressure-influence-constitutional-institutions-and-judicial-outcomes-in-india",
-        "https://www.democracynow.org/2026/10/1/headlines",
-        "https://www.democracynow.org/2026/10/8/headlines"
-      ],
-      "date": "2026-10-09T05:31:31.361043+00:00"
-    },
-    {
       "title": "Forbes published a piece one week ago detailing recent progress in AI video generation. The",
       "urls": [
         "https://forbes.com/sites/ronschmelzer/2026/09/30/ai-video-is-getting-good-enough-to-make-the-model-invisible",
@@ -5078,7 +5053,14 @@
         "https://builtin.com/articles/what-is-hugging-face"
       ],
       "date": "2026-10-19T05:01:33.090825+00:00"
+    },
+    {
+      "title": "Deafness Wikipedia Entry Expands Global Knowledge Base for Hearing Community",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Deafness"
+      ],
+      "date": "2026-10-19T05:31:55.987126+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T05:01:33.090859+00:00"
+  "lastUpdated": "2026-10-19T05:31:55.987189+00:00"
 }
