@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Meteorological Organization Warns El Niño Amplification Will Heighten Global Extreme Weather Risk",
-      "urls": [
-        "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/el-nino-can-india-prevent-climate-warning-from-becoming-crisis-10912921",
-        "https://mausam.imd.gov.in/responsive/seasonal_forecast.php",
-        "https://www.hindustantimes.com/india-news/el-ni-o-to-amplify-in-coming-months-likelihood-of-extreme-weather-events-wmo-101783060546416.html",
-        "https://en.wikipedia.org/wiki/2026_Nepal%E2%80%93Tibet_floods",
-        "https://en.wikipedia.org/wiki/Climate_of_Africa",
-        "https://www.dw.com/en/disrupted-monsoons-force-india-to-face-climate-threat/a-78324753"
-      ],
-      "date": "2026-10-10T14:01:34.656235+00:00"
-    },
-    {
       "title": "India's Developer Boom Fuels Global AI Growth and Reduces Product Development Time",
       "urls": [
         "https://indianexpress.com/article/technology/tech-news-technology/indian-developers-impact-the-whole-world-ai-has-reduced-entry-barrier-githubs-vp-for-apac-10335202",
@@ -5092,7 +5080,16 @@
         "https://www.legalitysimplified.com/centre-proposes-new-rules-for-assistive-technology"
       ],
       "date": "2026-10-20T13:31:29.096852+00:00"
+    },
+    {
+      "title": "India Records Fourth-Lowest Monsoon Rainfall Since 2001 Amid Strong El Niño",
+      "urls": [
+        "https://livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
+        "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
+        "https://www.thebridgechronicle.com/news/nation/india-fourth-lowest-monsoon-rainfall-2026-october-forecast-agn97"
+      ],
+      "date": "2026-10-20T14:01:52.810500+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T13:31:29.096962+00:00"
+  "lastUpdated": "2026-10-20T14:01:52.810565+00:00"
 }
