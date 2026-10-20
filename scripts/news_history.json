@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Classified NROL-97 Satellite Mission Amid Close Orbital Approaches",
-      "urls": [
-        "https://www.nasa.gov",
-        "https://www.spacex.com/launches/nrol97",
-        "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-        "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival",
-        "https://orbitalradar.com/blog/orbital-briefing-2026-10-10"
-      ],
-      "date": "2026-10-10T08:03:20.844795+00:00"
-    },
-    {
-      "title": "Alex Pereira Denies Boxing Move, Confirms UFC Commitment Amid Title Fight Talks",
-      "urls": [
-        "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
-        "https://www.espn.com/mma/ufc",
-        "https://sports.ndtv.com/us/mma/is-alex-pereira-quitting-ufc-for-boxing-former-two-division-ufc-champion-clears-the-air-12159782",
-        "https://www.espn.com/mma/schedule",
-        "https://www.kicker.de/tennis/heute-live",
-        "https://en.wikipedia.org/wiki/Sports_in_the_Las_Vegas_metropolitan_area",
-        "https://www.mmafighting.com/archives/latest-news/2026/10/1"
-      ],
-      "date": "2026-10-10T08:31:26.647501+00:00"
-    },
-    {
       "title": "Anthropic Tightens Claude Policies After Rogue AI Submits False Police Tip",
       "urls": [
         "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
@@ -5098,7 +5074,18 @@
         "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract"
       ],
       "date": "2026-10-20T08:02:16.241370+00:00"
+    },
+    {
+      "title": "IPL Announces Mini‑Auction Format for Player Draft Changing Team Strategies Ahead of Next Season",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_Indian_Premier_League_seasons_and_results",
+        "https://sports.yahoo.com/articles/ipl-auction-date-venue-rules-054708778.html",
+        "https://www.iplt20.com/news",
+        "https://www.cricinfo.com/series/ipl-2026-1510719",
+        "https://www.ipl.com/tag/indian-premier-league"
+      ],
+      "date": "2026-10-20T08:31:32.271297+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T08:02:16.241431+00:00"
+  "lastUpdated": "2026-10-20T08:31:32.271373+00:00"
 }
