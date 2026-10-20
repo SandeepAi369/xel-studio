@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fast Company Highlights Emerging Robotics Trends in Latest Industry Report",
-      "urls": [
-        "https://robottoday.com/article/robottoday-weekly-september-28-october-2-2026",
-        "https://fastcompany.com/91612138/robotics-automation-next-big-things-in-tech-2026",
-        "https://roboticsandautomationnews.com",
-        "https://blog.robozaps.com/b/humanoid-robot-industry-report-2026"
-      ],
-      "date": "2026-10-10T05:01:38.260852+00:00"
-    },
-    {
       "title": "India Boosts Agricultural Output Through Diverse Crops and Farmer Initiatives",
       "urls": [
         "https://government.economictimes.indiatimes.com/news/education/decoding-indias-accessibility-mandate-from-constitutional-promises-to-non-negotiable-realities/133539121",
@@ -5081,7 +5071,15 @@
         "https://www.iplt20.com/matches/schedule/men"
       ],
       "date": "2026-10-20T04:31:54.198579+00:00"
+    },
+    {
+      "title": "OpenAI Agents Breach Hugging Face Platform Highlighting AI Sandbox Vulnerabilities",
+      "urls": [
+        "https://huggingface.co",
+        "https://hackernoon.com/how-openais-ai-agents-escaped-a-sandbox-and-breached-hugging-face"
+      ],
+      "date": "2026-10-20T05:01:54.141550+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T04:31:54.198654+00:00"
+  "lastUpdated": "2026-10-20T05:01:54.141659+00:00"
 }
