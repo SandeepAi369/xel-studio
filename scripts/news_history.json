@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "AIIMS Releases NORCET 11 CBT-2 Result 2026, Merit List Available for Nursing Officer Applicants",
-      "urls": [
-        "https://timesofindia.indiatimes.com/education/news/aiims-norcet-11-cbt-2-result-2026-out-check-nursing-officer-result-and-merit-pdf-here/articleshow/134849345.cms",
-        "https://indianexpress.com/article/opinion/columns/aiims-director-writes-making-ai-that-cares-for-indian-patients-10601419",
-        "https://the-sb-news.vercel.app/article/aiims-medical-research-discovery-review-13-aug-2026-msrqlcyr",
-        "https://en.wikipedia.org/wiki/All_India_Institutes_of_Medical_Sciences",
-        "https://indianexpress.com/about/aiims",
-        "https://aiims.edu/index.php?option=com_content&view=article&id=777&Itemid=975&lang=en",
-        "https://timesofindia.indiatimes.com/topic/all-india-institutes-of-medical-sciences"
-      ],
-      "date": "2026-10-10T07:31:31.273738+00:00"
-    },
-    {
       "title": "SpaceX Launches Classified NROL-97 Satellite Mission Amid Close Orbital Approaches",
       "urls": [
         "https://www.nasa.gov",
@@ -5092,7 +5079,17 @@
         "https://scitechdaily.com/news/technology"
       ],
       "date": "2026-10-20T07:01:58.692113+00:00"
+    },
+    {
+      "title": "India Faces Shifting Food Crisis Fueling Diabetes and Heart Disease",
+      "urls": [
+        "https://theweek.in/news/health/2026/10/19/indias-food-crisis-is-changing-how-everyday-eating-habits-are-fueling-diabetes-and-heart-disease.html",
+        "https://en.wikipedia.org/wiki/COVID-19",
+        "https://www.newindianexpress.com/lifestyle/health/2026/Jun/04/indias-disease-burden-shifts-from-infectious-diseases-to-lifestyle-disorders-nfhs-6",
+        "https://en.wikipedia.org/wiki/World_Health_Organization"
+      ],
+      "date": "2026-10-20T07:31:44.577424+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T07:01:58.692175+00:00"
+  "lastUpdated": "2026-10-20T07:31:44.577532+00:00"
 }
