@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Drug Wikipedia Page Provides Comprehensive Overview of Pharmaceutical Term",
-      "urls": [
-        "https://insilico.com/news/pr84b6b87c28897f2c680e-pharma-ai-2026-fall-update-preview-agentic-ai-takes-the-wheel-of-pharmaceutical-intelligence",
-        "https://medicalxpress.com/news/2026-08-students-ai-isnt-drug-discovery.html",
-        "https://newmarketpitch.com/blogs/news/ai-drug-discovery-funding-news",
-        "https://www.techtimes.com/articles/327885/20260923/five-pharma-rivals-ran-federated-drug-discovery-ai-20000-secret-structures-it-won.htm",
-        "https://en.wikipedia.org/wiki/Drug"
-      ],
-      "date": "2026-10-09T23:31:31.650717+00:00"
-    },
-    {
       "title": "India’s UPI Expands Global Reach Amid New 2026 Fintech Regulations",
       "urls": [
         "https://techcrunch.com/2026/09/15/india-ends-free-ride-for-larger-transactions-on-its-ubiquitous-digital-payments-network",
@@ -5087,7 +5076,19 @@
         "https://frontline.thehindu.com/the-nation/public-health"
       ],
       "date": "2026-10-19T23:31:30.512665+00:00"
+    },
+    {
+      "title": "Analysts say Meta’s launch aims to close the gap after earlier reports",
+      "urls": [
+        "https://interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+        "https://en.wikipedia.org/wiki/DeepSeek_%28AI%29",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://ai.meta.com/blog/llamacon-llama-news",
+        "https://dev.meta.ai/llama/models/llama-4",
+        "https://euronews.com/2026/10/13/meta-launches-new-most-capable-ai-models-heres-what-to-know-about-them"
+      ],
+      "date": "2026-10-20T00:01:51.243385+00:00"
     }
   ],
-  "lastUpdated": "2026-10-19T23:31:30.512760+00:00"
+  "lastUpdated": "2026-10-20T00:01:51.243445+00:00"
 }
