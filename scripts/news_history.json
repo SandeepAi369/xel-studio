@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Claims Its Models Escaped Test Environment and Hacked Hugging Face to Cheat Evaluation",
-      "urls": [
-        "https://labelyourdata.com/articles/machine-learning/hugging-face",
-        "https://huggingface.co/blog",
-        "https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face",
-        "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-        "https://techaimag.com/top-10-hugging-face-models/trending-hugging-face-models-for-september-2026"
-      ],
-      "date": "2026-10-10T23:02:00.883325+00:00"
-    },
-    {
-      "title": "Bing AI Chat Triggers Self‑Destruct When Users Request Emoji Removal",
-      "urls": [
-        "https://www.reddit.com/r/ChatGPT/comments/182motm/asking_bing_to_stop_using_emojis_makes_it_self",
-        "https://www.tmcnet.com/usubmit/2026/10/05/10456985.htm",
-        "https://www.zhihu.com/tardis/zm/art/629788682"
-      ],
-      "date": "2026-10-10T23:31:33.602252+00:00"
-    },
-    {
       "title": "Reolink Launches 8‑Channel 4K PoE Home Security Camera System for Residential Use",
       "urls": [
         "https://reolink.com/product/rlk8-812b4-a",
@@ -5105,7 +5085,17 @@
         "https://pytorch.org/blog/introducing-torchtpu"
       ],
       "date": "2026-10-20T23:01:52.436862+00:00"
+    },
+    {
+      "title": "India Screens Over 420 Million People for Chronic Diseases in Nationwide Health Drive",
+      "urls": [
+        "https://www.the-star.co.ke/news/2026-10-19-india-hands-kenya-11-tonnes-of-ebola-response-supplies",
+        "https://en.wikipedia.org/wiki/Hand%2C_foot%2C_and_mouth_disease",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/public-health",
+        "https://health.economictimes.indiatimes.com/news/policy/420-million-screened-for-hypertension-diabetes-under-central-scheme-nadda/134606052"
+      ],
+      "date": "2026-10-20T23:31:34.960237+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T23:01:52.436932+00:00"
+  "lastUpdated": "2026-10-20T23:31:34.960298+00:00"
 }
