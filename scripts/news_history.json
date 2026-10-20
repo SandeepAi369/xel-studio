@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chinese AI Models Outpace Western Counterparts in Image and Video Creation Preference",
-      "urls": [
-        "https://www.desmoinesregister.com/press-release/story/136639/people-choose-chinese-ai-models-for-image-and-video-creation-more-than-western-models-new-data-shows",
-        "https://www.tmcnet.com/usubmit/2026/10/07/10459242.htm"
-      ],
-      "date": "2026-10-10T06:01:49.543172+00:00"
-    },
-    {
       "title": "United States Distributed Gate Thyristor Market Projects Growth Amid Smart Grid Expansion",
       "urls": [
         "https://finance.yahoo.com/energy/articles/united-states-distributed-gate-thyristor-083700669.html",
@@ -5091,7 +5083,21 @@
         "https://www.northjersey.com/press-release/story/254363/rank-ai-search-launches-free-ai-visibility-scanner"
       ],
       "date": "2026-10-20T06:01:48.479920+00:00"
+    },
+    {
+      "title": "India’s EV Sector Growth Traced by Adamas Intelligence Through Vahan Data",
+      "urls": [
+        "https://www.ibef.org/industry/electric-vehicle",
+        "https://www.wri.org/outcomes/india-significantly-scales-electric-vehicle-adoption",
+        "https://www.niti.gov.in/sites/default/files/2025-08/Electric-Vehicles-WEB-LOW-Report.pdf",
+        "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-s-shift-to-electric-vehicles",
+        "https://nickelinstitute.org/en/blog/2025/october/the-current-state-of-india-s-ev-sector",
+        "https://www.impriindia.com/insights/indias-updated-ev-policy-2024",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc202685944701.pdf",
+        "https://evindia.online/news"
+      ],
+      "date": "2026-10-20T06:31:29.337524+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T06:01:48.480004+00:00"
+  "lastUpdated": "2026-10-20T06:31:29.337585+00:00"
 }
