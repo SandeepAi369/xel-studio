@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "SciTechDaily provides daily science, space and technology news for 2026, delivering updates on research developments, mission launches, and technological innovations",
-      "urls": [
-        "https://scitechdaily.com",
-        "https://www.smithsonianmag.com/science-nature/the-ten-most-significant-science-stories-of-2025-from-medical-breakthroughs-to-an-interstellar-visitor-180987905"
-      ],
-      "date": "2026-10-10T17:01:37.867168+00:00"
-    },
-    {
       "title": "AIIMS Delhi Signs MoU with IRPGIMSR to Boost Medical Training Collaboration",
       "urls": [
         "https://impressivetimes.com/latest/aiims-delhi-irpgimsr-mou-medical-training-patient-care",
@@ -5087,7 +5079,16 @@
         "https://en.wikipedia.org/wiki/OpTic_Gaming"
       ],
       "date": "2026-10-20T16:32:01.861731+00:00"
+    },
+    {
+      "title": "Technology Earnings Calendar Highlights Week of Oct 19‑25 2026 Tech Company Reports",
+      "urls": [
+        "https://investingcalendar.com/sector/technology/earnings/this-week",
+        "https://en.wikipedia.org/wiki/Shopify",
+        "https://investingcalendar.com/sector/technology/earnings"
+      ],
+      "date": "2026-10-20T17:01:56.770332+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T16:32:01.861816+00:00"
+  "lastUpdated": "2026-10-20T17:01:56.770410+00:00"
 }
