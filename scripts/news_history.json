@@ -5098,7 +5098,14 @@
         "https://www.indiatoday.in/diu/story/india-spring-burning-exceeded-autumn-stubble-fires-2025-2991724-2026-09-10"
       ],
       "date": "2026-10-20T22:31:29.096116+00:00"
+    },
+    {
+      "title": "TorchTPU Launches PyTorch-Optimized Accelerator to Reduce Production Bottlenecks in AI Workloads",
+      "urls": [
+        "https://pytorch.org/blog/introducing-torchtpu"
+      ],
+      "date": "2026-10-20T23:01:52.436862+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T22:31:29.096177+00:00"
+  "lastUpdated": "2026-10-20T23:01:52.436932+00:00"
 }
