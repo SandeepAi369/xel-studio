@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Manhattan Highlights – It details flagship sites such as the central",
-      "urls": [
-        "https://en.wikipedia.org/wiki/New_York_City",
-        "https://www.businessinsider.de",
-        "https://en.wikipedia.org/wiki/New_York_(state)",
-        "https://www.tripadvisor.com/Attractions-g28953-Activities-zft12438-New_York.html"
-      ],
-      "date": "2026-10-10T03:01:39.360281+00:00"
-    },
-    {
       "title": "ScienceDaily Publishes Breaking News Story on September 2 2026 Highlighting Scientific Update",
       "urls": [
         "https://sciencedaily.com/breaking",
@@ -5077,7 +5067,18 @@
         "https://en.wikipedia.org/wiki/Diseases_of_poverty"
       ],
       "date": "2026-10-20T02:31:30.309348+00:00"
+    },
+    {
+      "title": "World Refugee & Migration Council Calls for New Approach to Prolonged Refugee Crises",
+      "urls": [
+        "https://news.un.org/en/story/2026/10/1168575",
+        "https://www.thenewhumanitarian.org/migration",
+        "https://www.tripadvisor.in/Restaurants-g304554-c8-Mumbai_Maharashtra.html",
+        "https://www.streetinsider.com/Globe+Newswire/As+humanitarian+system+buckles%2C+World+Refugee+%26amp%3B+Migration+Council+calls+for+a+new+approach+to+prolonged+refugee+crises/27133652.html",
+        "https://www.siyachts.com/100-lighthouses-united-states"
+      ],
+      "date": "2026-10-20T03:03:32.517600+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T02:31:30.309413+00:00"
+  "lastUpdated": "2026-10-20T03:03:32.517684+00:00"
 }
