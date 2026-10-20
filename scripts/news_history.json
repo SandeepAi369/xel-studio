@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "CP Daily Newsletter Publishes Two Editions Highlighting Ongoing Economic and Climate Updates",
-      "urls": [
-        "https://www.wri.org/climate-change-news",
-        "https://carbon-pulse.com/558543",
-        "https://www.reuters.com/sustainability/cop",
-        "https://en.wikipedia.org/wiki/2026_in_climate_change",
-        "https://tribuna.com/de/league/epl/table",
-        "https://carbon-pulse.com/557595"
-      ],
-      "date": "2026-10-10T01:31:32.178566+00:00"
-    },
-    {
       "title": "Hugging Face Expands Community Platform to Accelerate Future AI Development",
       "urls": [
         "https://huggingface.co",
@@ -5076,7 +5064,15 @@
         "https://stephenandrewstepaniuk.info/accessible-technology-and-the-future"
       ],
       "date": "2026-10-20T01:02:04.345288+00:00"
+    },
+    {
+      "title": "Delhi Launches Pollution Hotspot Mapping and Road Work Deadline to Combat Smog",
+      "urls": [
+        "https://timesofindia.indiatimes.com/india/delhi-pollution-crackdown-hotspots-to-be-mapped-pending-road-works-get-oct-31-deadline/articleshow/134365428.cms",
+        "https://en.wikipedia.org/wiki/Air_pollution"
+      ],
+      "date": "2026-10-20T01:31:37.375369+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T01:02:04.345370+00:00"
+  "lastUpdated": "2026-10-20T01:31:37.375504+00:00"
 }
