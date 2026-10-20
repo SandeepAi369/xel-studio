@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Developer Boom Fuels Global AI Growth and Reduces Product Development Time",
-      "urls": [
-        "https://indianexpress.com/article/technology/tech-news-technology/indian-developers-impact-the-whole-world-ai-has-reduced-entry-barrier-githubs-vp-for-apac-10335202",
-        "https://www.businesstoday.in/technology/news/story/indias-developer-boom-17-million-strong-on-github-ai-and-open-source-drive-growth-452139-2024-10-31"
-      ],
-      "date": "2026-10-10T14:31:22.860078+00:00"
-    },
-    {
       "title": "India Reinforces Goal to Eradicate Hepatitis B and C Across Nation",
       "urls": [
         "https://en.wikipedia.org/wiki/COVID-19_pandemic",
@@ -5089,7 +5081,14 @@
         "https://www.thebridgechronicle.com/news/nation/india-fourth-lowest-monsoon-rainfall-2026-october-forecast-agn97"
       ],
       "date": "2026-10-20T14:01:52.810500+00:00"
+    },
+    {
+      "title": "CoRover Introduces BharatGPT DeskAI Appliance to Empower Offline AI for Indian D2C Brands",
+      "urls": [
+        "https://inc42.com/buzz/corover-launches-offline-ai-device-bharatgpt-deskai-appliance"
+      ],
+      "date": "2026-10-20T14:31:29.972112+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T14:01:52.810565+00:00"
+  "lastUpdated": "2026-10-20T14:31:29.972220+00:00"
 }
