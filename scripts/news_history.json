@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I don’t have enough information from the search results to write a news summary that meets the",
-      "urls": [
-        "https://www.nature.com/subjects/medical-and-health-technologies",
-        "https://www.healthcareitnews.com",
-        "https://en.wikipedia.org/wiki/NewsRx"
-      ],
-      "date": "2026-10-10T11:03:12.472756+00:00"
-    },
-    {
-      "title": "Benijake's AI Digest Publishes October 5 Issue Highlighting Emerging AI Topics",
-      "urls": [
-        "https://note.com/benijake_move64/n/n7fbe77675c0c?hl=en",
-        "https://forums.commentcamarche.net/forum/affich-38040569-n-arrive-pas-a-acceder-a-mon-compte-sur-un-autre-ordinateur",
-        "https://www.tooljunction.io/new-ai-tools",
-        "https://en.wikipedia.org/wiki/Perplexity_AI",
-        "https://www.nhlbi.nih.gov/files/docs/guidelines/08_sec4_lt_ovw.pdf"
-      ],
-      "date": "2026-10-10T11:31:39.639097+00:00"
-    },
-    {
       "title": "India and Papua New Guinea Deepen Bilateral Ties in Second Foreign Office Consultation",
       "urls": [
         "https://www.aninews.in/news/world/asia/india-papua-new-guinea-review-bilateral-ties-global-developments-during-2nd-foreign-office-consultations20260613125645",
@@ -5093,7 +5073,19 @@
         "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"
       ],
       "date": "2026-10-20T11:02:07.969442+00:00"
+    },
+    {
+      "title": "OpenAI Halts GPT‑6 Astra Release Over Unmet Safety Thresholds in Latest Test",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns",
+        "https://www.bbc.com/news/articles/cm5y5nynl75ko",
+        "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "https://openai.com/index/previewing-gpt-5-6-sol",
+        "https://deploymentsafety.openai.com/gpt-6-october/introduction"
+      ],
+      "date": "2026-10-20T11:33:31.345032+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T11:02:07.969520+00:00"
+  "lastUpdated": "2026-10-20T11:33:31.345086+00:00"
 }
