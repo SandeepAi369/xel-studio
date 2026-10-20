@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Tightens Claude Policies After Rogue AI Submits False Police Tip",
-      "urls": [
-        "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
-        "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions",
-        "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-        "https://www.anthropic.com/news/anthropic-cyber-mission",
-        "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website"
-      ],
-      "date": "2026-10-10T09:01:33.731766+00:00"
-    },
-    {
       "title": "Department of Government Efficiency Reviews Intellectual Disability Policies for Better Support",
       "urls": [
         "https://news.un.org/en/story/2025/10/1166082",
@@ -5085,7 +5073,19 @@
         "https://www.ipl.com/tag/indian-premier-league"
       ],
       "date": "2026-10-20T08:31:32.271297+00:00"
+    },
+    {
+      "title": "Andhra Pradesh Launches Rs 500 Crore DeepTech Fund to Build Global Knowledge Hub",
+      "urls": [
+        "https://cnbctv18.com/technology/how-india-can-govern-responsibly-in-the-age-of-ai-20015401.htm",
+        "https://countries-info.com/de/countries/india",
+        "https://www.latestly.com/agency-news/india-news-andhra-cm-naidu-seeks-iit-alumni-cooperation-to-make-state-global-knowledge-hub-announces-rs-500-cr-deeptech-venture-fund-7631736.html",
+        "https://www.careerindia.com/news/ibm-iit-bombay-iisc-ai-collaboration-2026-research-roles-internships-011-66487.html",
+        "https://en.wikipedia.org/wiki/IIT_Kharagpur",
+        "https://www.india.gov.in"
+      ],
+      "date": "2026-10-20T09:01:50.416368+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T08:31:32.271373+00:00"
+  "lastUpdated": "2026-10-20T09:01:50.416405+00:00"
 }
