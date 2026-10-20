@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Publishes Breaking News Story on September 2 2026 Highlighting Scientific Update",
-      "urls": [
-        "https://sciencedaily.com/breaking",
-        "https://www.sciencedaily.com",
-        "https://www.science.org/journal/science"
-      ],
-      "date": "2026-10-10T03:31:35.748027+00:00"
-    },
-    {
-      "title": "Fintechs Target Credit Market After Dominating India’s Digital Payments Sector",
-      "urls": [
-        "https://bbc.com/news/articles/ckpd0y9gdp5lo",
-        "https://www.cnbc.com/2026/09/11/fintechs-upi-india-is-credit-economy-gff.html",
-        "https://www.bbc.co.uk/news/articles/c8xnwqe00v1o",
-        "https://www.upi.com/Top_News",
-        "https://www.indiatoday.in/business/story/upi-tap-and-pay-myupi-rbi-unveils-nfc-payments-ai-support-fintech-fest-2992371-2026-09-11",
-        "https://en.wikipedia.org/wiki/Yape_%28payment%29"
-      ],
-      "date": "2026-10-10T04:01:48.602164+00:00"
-    },
-    {
       "title": "BCCI Sets Agenda for IPL 2027 Impact Player Rule Decision",
       "urls": [
         "https://outlookindia.com/sports/cricket/ipl-2027-bcci-meeting-impact-player-rule-review-report-indian-premier-league-report",
@@ -5087,7 +5066,17 @@
         "https://www.arthritis.org/science/funding-opportunities"
       ],
       "date": "2026-10-20T03:31:24.519949+00:00"
+    },
+    {
+      "title": "IonQ Opens Quantum Innovation Centre in Cambridge and Showcases Nine Papers at IEEE Quantum Week",
+      "urls": [
+        "https://quantumzeitgeist.com/quantum-zeitgeist-weekly-digest-october-17-2026",
+        "https://thequbitreport.com/the-qubit-report/2026/10/12/the-qubit-report-october-12-2026",
+        "https://uk.finance.yahoo.com/news/ionq-ionq-presented-nine-research-051533931.html",
+        "https://en.wikipedia.org/wiki/Quantum"
+      ],
+      "date": "2026-10-20T04:01:55.851216+00:00"
     }
   ],
-  "lastUpdated": "2026-10-20T03:31:24.519994+00:00"
+  "lastUpdated": "2026-10-20T04:01:55.851287+00:00"
 }
