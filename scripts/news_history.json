@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Reports 25 Percent Carbon Emissions Rise Amid Growing AI Energy Demand",
-      "urls": [
-        "https://www.bbc.co.uk/news",
-        "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-        "https://en.wikipedia.org/wiki/Carbon_emission_trading",
-        "https://en.wikipedia.org/wiki/List_of_locations_and_entities_by_greenhouse_gas_emissions",
-        "https://www.geekwire.com/2026/microsofts-carbon-emissions-climb-25-as-tech-giants-grapple-with-ais-energy-toll"
-      ],
-      "date": "2026-10-11T10:31:19.816338+00:00"
-    },
-    {
       "title": "Aiims Indian Medical Research Breakthrough News Recent Highlights October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.indiatoday.in/health/story/breast-cancer-aiims-mammography-ai-clinical-use-india-2997697-2026-09-18",
@@ -5107,7 +5096,19 @@
         "https://en.wikipedia.org/wiki/AI_boom"
       ],
       "date": "2026-10-21T10:02:08.345111+00:00"
+    },
+    {
+      "title": "Hurricane Isaias Strikes Florida Panhandle Causing Widespread Power Outages And Flooding",
+      "urls": [
+        "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates",
+        "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-makes-landfall",
+        "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images?msockid=279cacc51074696f1c6fbb3c1117685c",
+        "https://www.extremenetworks.com/es",
+        "https://www.bloomberg.com/news/articles/2026-10-11/dual-tropical-storms-hit-both-us-coasts-with-floods-and-outages",
+        "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)"
+      ],
+      "date": "2026-10-21T10:31:33.955685+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T10:02:08.345208+00:00"
+  "lastUpdated": "2026-10-21T10:31:33.955749+00:00"
 }
