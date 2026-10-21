@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Large Language Model Release News New Developments October 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.sportschau.de/live-und-ergebnisse/fussball/england-premier-league/spiele-und-ergebnisse",
-        "https://www.britannica.com/science/human-muscle-system",
-        "https://www.sportschau.de/live-und-ergebnisse/fussball/england-premier-league/ergebnisse"
-      ],
-      "date": "2026-10-11T14:31:26.849394+00:00"
-    },
-    {
       "title": "Z.ai Launches Official Playground to Accelerate High‑Performance GLM Model Testing",
       "urls": [
         "https://www.producthunt.com/products/z-ai",
@@ -5108,7 +5099,19 @@
         "https://wmo.int/themes/climate"
       ],
       "date": "2026-10-21T14:01:54.398828+00:00"
+    },
+    {
+      "title": "Linuxiac Releases Weekly Wrap‑Up Highlighting Key Open‑Source News For Week 42",
+      "urls": [
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-42-2026-october-12-18",
+        "https://opensource.googleblog.com/2026/10",
+        "https://en.wikipedia.org/wiki/Qt_%28software%29",
+        "https://en.wikipedia.org/wiki/Linux_kernel_version_history",
+        "https://en.wikipedia.org/wiki/Fedora_Linux",
+        "https://en.wikipedia.org/wiki/Wine_%28software%29"
+      ],
+      "date": "2026-10-21T14:31:40.934828+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T14:01:54.398920+00:00"
+  "lastUpdated": "2026-10-21T14:31:40.934901+00:00"
 }
