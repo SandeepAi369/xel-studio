@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Government Endorses NHS Doctor's Recommendations to Improve Patient Care Across the National Health Service",
-      "urls": [
-        "https://www.gov.uk/government/news/government-backs-recommendations-of-nhs-doctors-led-ai-commission",
-        "https://www.healthitanswers.net/ai-in-healthcare-news-and-updates-091626",
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://innowise.com/blog/healthcare-trends-2026",
-        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html",
-        "https://pharmaphorum.com/news/pharmaphorum-renews-strategic-media-partnership-frontiers-health-2026"
-      ],
-      "date": "2026-10-11T23:31:28.142112+00:00"
-    },
-    {
       "title": "Agibot Leads Global Humanoid Robot Shipments in First Half of 2026",
       "urls": [
         "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463"
@@ -5094,7 +5082,14 @@
         "https://apnews.com/article/ai-hacking-hugging-face-openai-anthropic-452281863a49b18220057e71d4715cf4"
       ],
       "date": "2026-10-21T23:01:44.117871+00:00"
+    },
+    {
+      "title": "Artificial Intelligence Detects Hidden Self‑Harm Cases, Boosting Mental Health Care",
+      "urls": [
+        "https://www.ndtv.com/health/mental-health/can-ai-save-lives-by-reading-what-doctors-miss-a-new-mental-health-breakthrough-explaining-hidden-medical-data-11611115"
+      ],
+      "date": "2026-10-21T23:31:30.240043+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T23:01:44.117944+00:00"
+  "lastUpdated": "2026-10-21T23:31:30.240114+00:00"
 }
