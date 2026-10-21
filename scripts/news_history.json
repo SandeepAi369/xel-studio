@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "AMD MI400 Series Launches $7.2 Billion AI GPU Challenging Nvidia’s Market Lead",
-      "urls": [
-        "https://hakia.com/tech-insights/ai-chip-wars",
-        "https://en.wikipedia.org/wiki/Jensen_Huang",
-        "https://tech-insider.org/amd-mi400-series-ai-gpu-data-center-2026",
-        "https://fool.com/investing/2026/10/06/growth-stocks-powering-every-chip-nvidia-amd"
-      ],
-      "date": "2026-10-11T15:31:21.150290+00:00"
-    },
-    {
       "title": "Supreme Court Orders Review of Delhi Barricades, Demands Response on Police Excesses",
       "urls": [
         "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
@@ -5111,7 +5101,19 @@
         "https://www.neue-rechtschreibung.de/guten-morgen-schreibweise"
       ],
       "date": "2026-10-21T15:01:50.231249+00:00"
+    },
+    {
+      "title": "ISRO Launches EOS‑05 Geostationary Imaging Satellite to Boost Continuous Earth Observation",
+      "urls": [
+        "https://business-standard.com/india-news/isro-launches-india-s-first-imaging-satellite-in-geostationary-orbit-126090400054_1.html",
+        "https://www.ndtv.com/india-news/isro-satellite-detects-clearest-sign-yet-of-mother-of-all-el-nio-events-12033353",
+        "https://www.isro.gov.in/Careers.html",
+        "https://en.wikipedia.org/wiki/ISRO",
+        "https://tippsling.de/bluetooth-einstellungen-einfach-umschalten-in-windows-11-10",
+        "https://www.news18.com/tech/isro-eos-05-launch-with-gslv-f17-rocket-a-big-success-why-indias-new-eye-in-the-sky-satellite-is-so-important-10309800.html"
+      ],
+      "date": "2026-10-21T15:31:32.255075+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T15:01:50.231287+00:00"
+  "lastUpdated": "2026-10-21T15:31:32.255128+00:00"
 }
