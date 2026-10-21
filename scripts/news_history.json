@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Z.ai Launches Official Playground to Accelerate High‑Performance GLM Model Testing",
-      "urls": [
-        "https://www.producthunt.com/products/z-ai",
-        "https://www.producthunt.com/products/spira-ai"
-      ],
-      "date": "2026-10-11T15:01:48.996428+00:00"
-    },
-    {
       "title": "AMD MI400 Series Launches $7.2 Billion AI GPU Challenging Nvidia’s Market Lead",
       "urls": [
         "https://hakia.com/tech-insights/ai-chip-wars",
@@ -5111,7 +5103,15 @@
         "https://en.wikipedia.org/wiki/Wine_%28software%29"
       ],
       "date": "2026-10-21T14:31:40.934828+00:00"
+    },
+    {
+      "title": "Medical Image Analysis Software Market Forecasts $6.42B Growth by 2031",
+      "urls": [
+        "https://www.globenewswire.com/news-release/2026/10/21/3385266/28124/en/medical-image-analysis-software-market-global-forecast-to-2031-ai-enabled-and-cloud-native-platforms-power-8-1-cagr-toward-usd-6-42-billion.html",
+        "https://www.neue-rechtschreibung.de/guten-morgen-schreibweise"
+      ],
+      "date": "2026-10-21T15:01:50.231249+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T14:31:40.934901+00:00"
+  "lastUpdated": "2026-10-21T15:01:50.231287+00:00"
 }
