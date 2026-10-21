@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Saturday Night Live Releases Complete List of Commercial Parodies Spanning Decades",
-      "urls": [
-        "https://www.insidethegames.biz/articles/india-presents-vision-for-the-2036-olympics",
-        "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
-        "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_commercial_parodies",
-        "https://www.thehindu.com/sport/rising-together-is-indias-vision-for-2036-olympic-bid-presentation-before-ioc-next-month/article71555264.ece",
-        "https://www.india.com/sports/others/india-pitches-rising-together-as-core-idea-for-2036-olympics-bid-plans-first-presentation-to-ioc-this-month-8533815",
-        "https://www.rediff.com/sports/report/indias-2036-olympic-bid-ioa-ceo-reveals-vision-for-sporting-superpower-status/20261007.htm",
-        "https://economictimes.indiatimes.com/topic/india-olympics-preparation/news",
-        "https://en.wikipedia.org/wiki/2024_Summer_Olympics"
-      ],
-      "date": "2026-10-11T22:31:35.407760+00:00"
-    },
-    {
-      "title": "PyTorch and TensorFlow Drive Open Source AI Advances With New Capabilities",
-      "urls": [
-        "https://pytorch.org/blog/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects",
-        "https://www.sofrik.com/5-powerful-ways-of-pytorch-and-tensorflow-in-2026"
-      ],
-      "date": "2026-10-11T23:01:40.090947+00:00"
-    },
-    {
       "title": "Government Endorses NHS Doctor's Recommendations to Improve Patient Care Across the National Health Service",
       "urls": [
         "https://www.gov.uk/government/news/government-backs-recommendations-of-nhs-doctors-led-ai-commission",
@@ -5109,7 +5087,14 @@
         "https://en.wikipedia.org/wiki/Mayon"
       ],
       "date": "2026-10-21T22:31:29.351067+00:00"
+    },
+    {
+      "title": "Hugging Face Timeline Charts AI Safety Milestones Since Major Attack",
+      "urls": [
+        "https://apnews.com/article/ai-hacking-hugging-face-openai-anthropic-452281863a49b18220057e71d4715cf4"
+      ],
+      "date": "2026-10-21T23:01:44.117871+00:00"
     }
   ],
-  "lastUpdated": "2026-10-21T22:31:29.351132+00:00"
+  "lastUpdated": "2026-10-21T23:01:44.117944+00:00"
 }
