@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "China’s Open‑Source AI Surge Threatens United States Lead, Advisory Panel Warns",
-      "urls": [
-        "https://www.business-standard.com/technology/tech-news/nvidia-s-12-9-billion-hugging-face-bet-is-about-more-than-ai-models-126090400883_1.html",
-        "https://llm-stats.com/ai-news",
-        "https://telecom.economictimes.indiatimes.com/news/internet/chinas-open-source-ai-ascendancy-poses-challenge-to-us-leadership/129766019",
-        "https://openai.com"
-      ],
-      "date": "2026-10-12T10:01:53.830855+00:00"
-    },
-    {
-      "title": "Delhi Implements New Anti‑Pollution Rules Ahead of 2026 Smog Season",
-      "urls": [
-        "https://indiatoday.in/science/story/delhi-ncr-pollution-winter-strategy-aqi-smog-noida-gurgaon-ghaziabad-pm25-pollutants-grap-3008824-2026-10-05",
-        "https://india.com/news/india/delhi-pollution-update-alert-for-residents-as-city-sees-worst-october-start-since-2020-check-aqi-numbers-8533065",
-        "https://moneycontrol.com/science/delhi-pollution-2026-new-anti-pollution-rules-begin-before-winter-smog-will-they-actually-work-article-14044562.html",
-        "https://latestly.com/india/news/delhi-latest-news-today-on-october-1st-2026-work-from-home-for-smog-barapullah-phase-iii-opens-new-pollution-rules-7627857.html",
-        "https://indiatoday.in/science/story/delhi-october-pollution-aqi-weather-local-emissions-caqm-ncr-stubble-burning-monsoon-3009609-2026-10-05",
-        "https://latestly.com/india/news/delhi-latest-news-today-on-october-2nd-2026-pollution-measures-barapullah-congestion-protests-7629317.html",
-        "https://www.cnn.com/2025/11/23/india/india-delhi-smog-protests-challenges-intl-hnk-dst"
-      ],
-      "date": "2026-10-12T10:31:27.059475+00:00"
-    },
-    {
       "title": "Aiims Indian Medical Research Breakthrough News This Week October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://medicaldialogues.in/news/health/doctors/22-icmr-scientists-feature-in-stanford-worlds-top-2-scientists-list-2026-181031",
@@ -5101,7 +5078,18 @@
         "https://techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
       ],
       "date": "2026-10-22T10:01:53.698560+00:00"
+    },
+    {
+      "title": "Delhi Records First Poor Air Quality of 2026 as Early Winter Smog Settles Over City",
+      "urls": [
+        "https://businesstoday.in/india/story/delhi-aqi-today-national-capital-records-first-poor-air-quality-of-2026-as-smog-blankets-its-skies-562675-2026-10-21",
+        "https://en.wikipedia.org/wiki/Air_pollution_in_India",
+        "https://www.indiatoday.in/topic/delhi-ncr-pollution",
+        "https://www.downtoearth.org.in/air/delhis-new-pollution-rules-what-changes-from-october-and-november",
+        "https://www.indiatoday.in/topic/air-pollution"
+      ],
+      "date": "2026-10-22T10:31:34.309655+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T10:01:53.698625+00:00"
+  "lastUpdated": "2026-10-22T10:31:34.309742+00:00"
 }
