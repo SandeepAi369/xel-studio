@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tottenham Hotspur Profile Added To Transfermarkt Shows Squad Value And Transfer Data",
-      "urls": [
-        "https://medium.com/@anushanarthu/choosing-your-battle-tensorflow-vs-pytorch-vs-scikit-learn-b46462b1d3bc",
-        "https://www.transfermarkt.de/tottenham-hotspur/startseite/verein/148"
-      ],
-      "date": "2026-10-12T03:31:38.784851+00:00"
-    },
-    {
       "title": "Anthropic Halts Live Internet Access for Internal AI Tests Amid Consciousness Claims",
       "urls": [
         "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
@@ -5096,7 +5088,19 @@
         "https://www.upi.com/Voices/2026/10/16/social-media-bans-young-people-mental-health/8261792159040"
       ],
       "date": "2026-10-22T03:31:24.648282+00:00"
+    },
+    {
+      "title": "Anthropic Expands Claude Platform With New Webinars, Courses and User Experience Resources",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Anthropic",
+        "https://platform.claude.com",
+        "https://anthropic.skilljar.com",
+        "https://www.zacks.com/featured-articles/761/anthropic-ipo",
+        "https://www.youtube.com/@anthropic-ai",
+        "https://claude.com"
+      ],
+      "date": "2026-10-22T04:01:54.125864+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T03:31:24.648345+00:00"
+  "lastUpdated": "2026-10-22T04:01:54.125965+00:00"
 }
