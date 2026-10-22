@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Autistic Rights Movement Gains Momentum as Advocacy Calls for Policy Reform",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Autistic_rights_movement",
-        "https://www.autism.org.uk/advice-and-guidance/what-is-autism",
-        "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Rathausstra%C3%9Fe+15%2C+10178+Berlin",
-        "https://en.wikipedia.org/wiki/Autism",
-        "https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/symptoms-causes/syc-20352928"
-      ],
-      "date": "2026-10-12T14:31:49.959994+00:00"
-    },
-    {
-      "title": "NASA Launches Comprehensive Planet Overview to Boost Public Space Knowledge",
-      "urls": [
-        "https://www.mskcc.org/news/msk-research-highlights-october-9-2026",
-        "https://en.wikipedia.org/wiki/UNT_Health_Fort_Worth",
-        "https://solarsystem.nasa.gov/planets"
-      ],
-      "date": "2026-10-12T15:01:43.855897+00:00"
-    },
-    {
       "title": "U.S. Congress Targets AI Regulation Framework Within a Month Emphasizing Safety and Deepfake Controls",
       "urls": [
         "https://careerindia.com/news/ai-regulation-india-2026-new-government-rules-job-market-impact-and-essential-career-skills-for-professionals-011-66831.html",
@@ -5096,7 +5076,14 @@
         "https://newsroom.ibm.com/2026-10-20-llm-d-1-0-advances-open,-cost-efficient-ai-inference-for-production-scale"
       ],
       "date": "2026-10-22T14:31:41.891277+00:00"
+    },
+    {
+      "title": "NIH Highlights Thymus Importance in Immune Health and Disease Prevention",
+      "urls": [
+        "https://newsinhealth.nih.gov/2026/10"
+      ],
+      "date": "2026-10-22T15:01:52.738077+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T14:31:41.891347+00:00"
+  "lastUpdated": "2026-10-22T15:01:52.738151+00:00"
 }
