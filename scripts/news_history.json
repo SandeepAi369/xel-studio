@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I can’t find a suitable news story to write about from the information provided",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Digital",
-        "https://www.reuters.com/legal/data-privacy",
-        "https://www.sitemaps.org"
-      ],
-      "date": "2026-10-12T03:02:07.695750+00:00"
-    },
-    {
       "title": "Tottenham Hotspur Profile Added To Transfermarkt Shows Squad Value And Transfer Data",
       "urls": [
         "https://medium.com/@anushanarthu/choosing-your-battle-tensorflow-vs-pytorch-vs-scikit-learn-b46462b1d3bc",
@@ -5095,7 +5086,17 @@
         "https://www.thehindu.com/business/rbi-monetary-policy-meeting-decision-on-repo-rate-live-updates-october-7-2026/article71554262.ece"
       ],
       "date": "2026-10-22T03:02:05.322079+00:00"
+    },
+    {
+      "title": "Research Finds Social Media Bans Fail To Reduce Harmful Content",
+      "urls": [
+        "https://www.finnpartners.com/news-insights/boom-scroll-october-2026-social-media-updates",
+        "https://orthotropy.com/en/insights/social-media-platform-updates-2026-10",
+        "https://en.wikipedia.org/wiki/Instagram",
+        "https://www.upi.com/Voices/2026/10/16/social-media-bans-young-people-mental-health/8261792159040"
+      ],
+      "date": "2026-10-22T03:31:24.648282+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T03:02:05.322140+00:00"
+  "lastUpdated": "2026-10-22T03:31:24.648345+00:00"
 }
