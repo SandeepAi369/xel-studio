@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Crew‑13 Mission to International Space Station Amid World Space Week",
-      "urls": [
-        "https://www.space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026",
-        "https://en.tempo.co/read/2121134/world-space-week-2026-highlights-a-new-era-of-rocket-launches",
-        "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station",
-        "https://www.usatoday.com/story/tech/space/2026/10/07/world-space-week-2026-rocket-launches/92132137007",
-        "https://astronomy.com/whats-launching-this-week/south-korea-spacex-and-china-ready-for-launch-this-week"
-      ],
-      "date": "2026-10-12T12:32:05.909942+00:00"
-    },
-    {
       "title": "Fortune 500 Companies See Executive Power Shifts in Latest Weekly Report",
       "urls": [
         "https://fortune.com/2026/10/09/fortune-500-power-moves-which-executives-gained-and-lost-power-october-3-9",
@@ -5094,7 +5083,14 @@
         "https://en.wikipedia.org/wiki/Danone"
       ],
       "date": "2026-10-22T12:03:04.774443+00:00"
+    },
+    {
+      "title": "India Secures Hockey Comeback, Veteran Shooter Finale and Sailing Double at Asian Games Day Twelve",
+      "urls": [
+        "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-october-1"
+      ],
+      "date": "2026-10-22T12:32:24.414175+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T12:03:04.774507+00:00"
+  "lastUpdated": "2026-10-22T12:32:24.414250+00:00"
 }
