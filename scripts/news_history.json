@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nature Can Recover: Global Efforts Race to Rescue Crisis‑Hit Wildlife",
-      "urls": [
-        "https://www.aljazeera.com/features/2026/10/8/nature-can-recover-inside-the-race-to-rescue-worlds-crisis-hit-wildlife",
-        "https://orissadiary.com/union-environment-minister-interacts-with-indian-forest-service-mid-career-training-officers-highlights-conservation-achievements-and-emerging-challenges"
-      ],
-      "date": "2026-10-12T22:31:46.997723+00:00"
-    },
-    {
       "title": "Linuxiac Publishes Weekly Wrap‑Up Covering Open Source News for Week 41, 2026",
       "urls": [
         "https://en.wikipedia.org/wiki/Linux",
@@ -5091,7 +5083,16 @@
         "https://en.wikipedia.org/wiki/Bolivia"
       ],
       "date": "2026-10-22T22:31:37.926223+00:00"
+    },
+    {
+      "title": "Arch Linux Article Flagged for Excessive Primary Sources Prompting Editorial Review",
+      "urls": [
+        "https://linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
+        "https://en.wikipedia.org/wiki/Arch_Linux",
+        "https://www.marketscreener.com/news/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ce785bd8dd80f32d"
+      ],
+      "date": "2026-10-22T23:01:50.426327+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T22:31:37.926279+00:00"
+  "lastUpdated": "2026-10-22T23:01:50.426394+00:00"
 }
