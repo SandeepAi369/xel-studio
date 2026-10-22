@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linuxiac Publishes Weekly Wrap‑Up Covering Open Source News for Week 41, 2026",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-41-2026-october-5-11",
-        "https://linuxiac.com/category/news"
-      ],
-      "date": "2026-10-12T23:02:01.582403+00:00"
-    },
-    {
-      "title": "Digital Surveillance Undermines Activist Mental Health, Experts Warn of Growing Crisis",
-      "urls": [
-        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026",
-        "https://growtherapy.com/blog/mental-health-trends",
-        "https://en.wikipedia.org/wiki/Global_mental_health",
-        "https://en.wikipedia.org/wiki/Screen_time",
-        "https://globalvoices.org/2026/06/23/digital-surveillance-is-breaking-activist-mental-health"
-      ],
-      "date": "2026-10-12T23:31:22.073430+00:00"
-    },
-    {
       "title": "Meta Unveils Llama 4 Flagship AI Model to Expand Open Source Capabilities",
       "urls": [
         "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
@@ -5092,7 +5072,18 @@
         "https://www.marketscreener.com/news/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ce785bd8dd80f32d"
       ],
       "date": "2026-10-22T23:01:50.426327+00:00"
+    },
+    {
+      "title": "Stan Publishes Simple Guide Enabling Windows 10 and 11 Users to Toggle Bluetooth Quickly",
+      "urls": [
+        "https://sciencedaily.com/news/health_medicine/medical_topics",
+        "https://note.com/reha_job/n/n6b1ff4f397f3?hl=en",
+        "https://www.wikihow.com/Toggle-Bluetooth-Settings-Easily-Windows",
+        "https://medi-cal.dhcs.ca.gov",
+        "https://en.wikipedia.org/wiki/NewsRx"
+      ],
+      "date": "2026-10-22T23:31:30.690453+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T23:01:50.426394+00:00"
+  "lastUpdated": "2026-10-22T23:31:30.690516+00:00"
 }
