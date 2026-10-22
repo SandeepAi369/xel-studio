@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Congress Targets AI Regulation Framework Within a Month Emphasizing Safety and Deepfake Controls",
-      "urls": [
-        "https://careerindia.com/news/ai-regulation-india-2026-new-government-rules-job-market-impact-and-essential-career-skills-for-professionals-011-66831.html",
-        "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
-        "https://www.transparencycoalition.ai/news/ai-legislative-update-october2-2026",
-        "https://ai-law-tracker.com/this-week",
-        "https://www.business-standard.com/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
-        "https://www.ailawsbystate.com/state/US",
-        "https://www.newindianexpress.com/india/2026/Oct/08/ai-regulation-framework-in-a-month-safety-and-deepfakes-key-focus-ashwini-vaishnaw",
-        "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States"
-      ],
-      "date": "2026-10-12T15:31:32.678137+00:00"
-    },
-    {
       "title": "Democracy Forward Unveils New Platform to Boost Voter Participation Across India",
       "urls": [
         "https://www.foxnews.com/elections",
@@ -5083,7 +5069,17 @@
         "https://newsinhealth.nih.gov/2026/10"
       ],
       "date": "2026-10-22T15:01:52.738077+00:00"
+    },
+    {
+      "title": "Meta Launches Superintelligence Labs Platform Featuring New LLM and Muse Media Generators",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs",
+        "https://www.meta.ai",
+        "https://en.wikipedia.org/wiki/Meta_smart_glasses",
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai"
+      ],
+      "date": "2026-10-22T15:31:43.185782+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T15:01:52.738151+00:00"
+  "lastUpdated": "2026-10-22T15:31:43.185837+00:00"
 }
