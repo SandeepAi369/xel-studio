@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tesco Expands Online Grocery Service With Integrated Clubcard Rewards and Recipe Guides",
-      "urls": [
-        "https://www.sciencedaily.com/news/matter_energy/medical_technology",
-        "https://en.wikipedia.org/wiki/Thorburn_Brailsford_Robertson",
-        "https://www.tesco.com",
-        "https://www.dhcs.ca.gov/medi-cal",
-        "https://www.nih.gov/news-events/news-releases"
-      ],
-      "date": "2026-10-12T19:01:54.518980+00:00"
-    },
-    {
       "title": "California Governor Proposes AI Kill Switch as Voters Push for Stronger Regulation",
       "urls": [
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security",
@@ -5084,7 +5073,19 @@
         "https://abdm.gov.in/press-releases"
       ],
       "date": "2026-10-22T19:01:50.628609+00:00"
+    },
+    {
+      "title": "Government approval covers 12 semiconductor projects worth ₹1.64 lakh crore, a supply‑chain diversification strategy designed to reduce",
+      "urls": [
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2026-indias-chip-story-has-moved-from-files-to-factories-says-pm-modi/articleshow/134303425.cms",
+        "https://indianexpress.com/article/explained/semicon-india-2026-pm-modi-semiconductor-chip-push-10881503",
+        "https://finance.yahoo.com/technology/articles/applied-materials-commits-5-billion-014025894.html",
+        "https://en.wikipedia.org/wiki/Electronics_and_semiconductor_manufacturing_industry_in_India",
+        "https://en.wikipedia.org/wiki/Semiconductor_industry_in_China",
+        "https://www.nationpress.com/business/indias-12-semiconductor-projects-indian-rupee164-lakh-crore-bet"
+      ],
+      "date": "2026-10-22T19:31:38.630117+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T19:01:50.628664+00:00"
+  "lastUpdated": "2026-10-22T19:31:38.630193+00:00"
 }
