@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Forbes Covers D.C. Climate Week 2026, Highlighting Climate Policy and Clean Energy Innovation",
-      "urls": [
-        "https://www.forbes.com/sites/annabroughel/2026/04/21/dc-climate-week-2026-climate-policy-meets-clean-energy-innovation",
-        "https://www.forbes.com/sites/vaishalinigamsinha/2026/10/06/climate-ai-and-people-shaping-the-next-phase-of-sustainable-action",
-        "https://www.screener.in/company/TMCV/consolidated",
-        "https://www.google.com/maps/search?hl=de",
-        "https://techcrunch.com/category/climate"
-      ],
-      "date": "2026-10-12T14:01:48.761077+00:00"
-    },
-    {
       "title": "Autistic Rights Movement Gains Momentum as Advocacy Calls for Policy Reform",
       "urls": [
         "https://en.wikipedia.org/wiki/Autistic_rights_movement",
@@ -5099,7 +5088,15 @@
         "https://www.thestar.com.my/tech/tech-news/2026/09/08/disaster-defence-how-countries-deploy-ai-to-better-predict-extreme-weather-events-and-save-lives"
       ],
       "date": "2026-10-22T14:01:47.651097+00:00"
+    },
+    {
+      "title": "llm-d 1.0 Delivers Three‑Fold Throughput and Open‑Source AI Inference for Production Workloads",
+      "urls": [
+        "https://digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
+        "https://newsroom.ibm.com/2026-10-20-llm-d-1-0-advances-open,-cost-efficient-ai-inference-for-production-scale"
+      ],
+      "date": "2026-10-22T14:31:41.891277+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T14:01:47.651171+00:00"
+  "lastUpdated": "2026-10-22T14:31:41.891347+00:00"
 }
