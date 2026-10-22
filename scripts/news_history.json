@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "ICC Announces Updated Men's Cricket World Cup 2025 Point Table Highlights Leading Contenders",
-      "urls": [
-        "https://medicalxpress.com/news/2026-09-adhd-autism-common-young-people.html",
-        "https://cricheroes.com/tournament/1492203/icc-mens-cricket-world-cup-2025-(odi)/point-table",
-        "https://www.icc-cricket.com/tournaments/cricketworldcup/qualifier-standings"
-      ],
-      "date": "2026-10-12T09:31:26.229188+00:00"
-    },
-    {
       "title": "China’s Open‑Source AI Surge Threatens United States Lead, Advisory Panel Warns",
       "urls": [
         "https://www.business-standard.com/technology/tech-news/nvidia-s-12-9-billion-hugging-face-bet-is-about-more-than-ai-models-126090400883_1.html",
@@ -5093,7 +5084,16 @@
         "https://llm-stats.com/leaderboards/best-ai-for-video-creation"
       ],
       "date": "2026-10-22T09:02:08.372197+00:00"
+    },
+    {
+      "title": "DEPwD Hosts National Bengaluru Conference to Advance AI Disability Inclusion",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
+        "https://www.ndtv.com/feature/assistive-to-agentic-how-ai-is-expected-to-shape-2026-10196933",
+        "https://yourstory.com/socialstory/2025/05/national-conference-to-focus-on-ai-for-disability-inclusion"
+      ],
+      "date": "2026-10-22T09:31:33.646754+00:00"
     }
   ],
-  "lastUpdated": "2026-10-22T09:02:08.372246+00:00"
+  "lastUpdated": "2026-10-22T09:31:33.646821+00:00"
 }
