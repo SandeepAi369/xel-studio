@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Team Selects 10 Companies to Drive 2026 Climate Tech Execution",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose",
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution",
-        "https://www.iea.org/reports/the-state-of-energy-innovation-2026",
-        "https://en.wikipedia.org/wiki/Clean_technology",
-        "https://en.wikipedia.org/wiki/International_Energy_Agency"
-      ],
-      "date": "2026-10-13T01:31:50.742628+00:00"
-    },
-    {
-      "title": "Hilton London Paddington Offers Accommodation for Guests in London, United Kingdom",
-      "urls": [
-        "https://www.hilton.com/en/hotels/lonpdhi-hilton-london-paddington?msockid=37a0488770586cd739755f7671156d3c"
-      ],
-      "date": "2026-10-13T02:01:41.079701+00:00"
-    },
-    {
       "title": "India Pharma Exports Reach $31 Billion Amid US Tariff Threat",
       "urls": [
         "https://ibef.org/news/pharma-exports-surpass-us-31-billion-in-fy26-despite-global-headwinds",
@@ -5098,7 +5080,18 @@
         "https://internal.imd.gov.in/pages/press_release_mausam.php"
       ],
       "date": "2026-10-23T01:31:33.824871+00:00"
+    },
+    {
+      "title": "Linux Moves Toward Dropping x32 ABI After Years of Limited Use",
+      "urls": [
+        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
+        "https://linuxiac.com/category/news",
+        "https://www.linuxjournal.com",
+        "https://www.linux.org/pages/download",
+        "https://en.wikipedia.org/wiki/Adoption_of_free_and_open-source_software_by_public_institutions"
+      ],
+      "date": "2026-10-23T02:01:52.258023+00:00"
     }
   ],
-  "lastUpdated": "2026-10-23T01:31:33.824940+00:00"
+  "lastUpdated": "2026-10-23T02:01:52.258086+00:00"
 }
