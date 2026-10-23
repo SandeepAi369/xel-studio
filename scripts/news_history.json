@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "IOA Schedules December 5 Executive Council Elections Amid Push for 2036 Olympic Bid",
-      "urls": [
-        "https://www.sportscapemagazine.com/blog/ioa-executive-council-elections-india-bid-olympics-2036"
-      ],
-      "date": "2026-10-13T00:31:57.448462+00:00"
-    },
-    {
       "title": "ScienceDaily Highlights Autism Research Advances and Neurodiversity Business Report Findings",
       "urls": [
         "https://www.sciencedaily.com/news/mind_brain/autism",
@@ -5095,7 +5088,16 @@
         "https://www.esports.net/news"
       ],
       "date": "2026-10-23T00:31:38.581793+00:00"
+    },
+    {
+      "title": "Indian Experts Call for Accessibility‑First AI to Drive Inclusive Assistive Technology Growth",
+      "urls": [
+        "https://www.thehindu.com/sci-tech/health/how-ai-has-revolutionised-the-world-of-assistive-devices-to-aid-persons-with-disabilities/article70157987.ece",
+        "https://www.businessworld.in/article/experts-urge-accessibility-first-ai-to-power-inclusive-indian-growth-608807",
+        "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
+      ],
+      "date": "2026-10-23T01:01:53.676818+00:00"
     }
   ],
-  "lastUpdated": "2026-10-23T00:31:38.581848+00:00"
+  "lastUpdated": "2026-10-23T01:01:53.676886+00:00"
 }
