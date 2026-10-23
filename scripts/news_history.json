@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "MLB Publishes 2026 Regular Season Standings Highlighting Early Playoff Contenders",
-      "urls": [
-        "https://renewablesnow.com/news/solar",
-        "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
-        "https://renewablesnow.com/news/shoreham-port-selects-urbanchain-as-new-renewable-energy-partner-1302905",
-        "https://www.mlb.com/standings"
-      ],
-      "date": "2026-10-13T14:02:10.155750+00:00"
-    },
-    {
-      "title": "PyTorch and TensorFlow Compete for Dominance as Developers Choose Framework",
-      "urls": [
-        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance",
-        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026"
-      ],
-      "date": "2026-10-13T14:31:39.939963+00:00"
-    },
-    {
       "title": "Ai Healthcare Diagnosis Treatment Breakthrough News This Week October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine",
@@ -5082,7 +5064,17 @@
         "https://www.business-standard.com/topic/energy-transition-committee"
       ],
       "date": "2026-10-23T14:01:50.614217+00:00"
+    },
+    {
+      "title": "United States Faces AI Arms Race as Silicon Valley Ties Deepen With China",
+      "urls": [
+        "https://economictimes.indiatimes.com/topic/bharatgpt",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_arms_race",
+        "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
+        "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence"
+      ],
+      "date": "2026-10-23T14:31:42.289776+00:00"
     }
   ],
-  "lastUpdated": "2026-10-23T14:01:50.614290+00:00"
+  "lastUpdated": "2026-10-23T14:31:42.289872+00:00"
 }
