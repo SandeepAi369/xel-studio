@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Autism Research Advances and Neurodiversity Business Report Findings",
-      "urls": [
-        "https://www.sciencedaily.com/news/mind_brain/autism",
-        "https://www.jiotv.com/live-channel/sansad-tv/522/suprabhat/261009522017",
-        "https://www.forbes.com/sites/drnancydoyle/2026/07/29/neurodiversity-in-business-report-2026-six-key-takeaways",
-        "https://www.jiotv.com/live-channel/sansad-tv-hd/520/suprabhat/261002520017"
-      ],
-      "date": "2026-10-13T01:02:17.006746+00:00"
-    },
-    {
       "title": "Climate Team Selects 10 Companies to Drive 2026 Climate Tech Execution",
       "urls": [
         "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose",
@@ -5097,7 +5087,18 @@
         "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
       ],
       "date": "2026-10-23T01:01:53.676818+00:00"
+    },
+    {
+      "title": "India Faces Delayed Monsoon 2026 as El Niño Threatens Crops and Food Prices",
+      "urls": [
+        "https://timesofindia.indiatimes.com/science/a-super-el-nio-is-brewing-what-it-could-mean-for-indias-winter-and-summer-of-2027/articleshow/134919221.cms",
+        "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+        "https://www.indiawaterportal.org/climate-change/climate/indias-monsoon-forecast-2026-highlights-need-for-smarter-agriculture-and-water-planning",
+        "https://www.theunitedindian.com/news/godzilla-el-nino-2026-india-impact-noaa-83-percent",
+        "https://internal.imd.gov.in/pages/press_release_mausam.php"
+      ],
+      "date": "2026-10-23T01:31:33.824871+00:00"
     }
   ],
-  "lastUpdated": "2026-10-23T01:01:53.676886+00:00"
+  "lastUpdated": "2026-10-23T01:31:33.824940+00:00"
 }
