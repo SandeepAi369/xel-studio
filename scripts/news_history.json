@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Recent Volcano Activity Amid Global Natural Disaster Week",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/volcanoes",
-        "https://www.orbisweather.com/global-natural-disasters-this-week",
-        "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
-        "https://earthquakemap.live",
-        "https://instagram.en.softonic.com",
-        "https://www.thunderbird-mail.de/forum/thread/83680-authentifizierungsfehler-beim-verbinden-mit-dem-server-imap-gmail-com"
-      ],
-      "date": "2026-10-14T10:31:35.888064+00:00"
-    },
-    {
       "title": "Aiims Indian Medical Research Breakthrough News This Week October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://indiatoday.in/health/story/breast-cancer-aiims-mammography-ai-clinical-use-india-2997697-2026-09-18",
@@ -5087,7 +5075,14 @@
         "https://www.zdnet.com/article/linux-and-open-source-2026-predictions"
       ],
       "date": "2026-10-24T10:01:48.937014+00:00"
+    },
+    {
+      "title": "United Nations Releases Comprehensive Climate Report Highlighting Health Risks and Environmental Impacts",
+      "urls": [
+        "https://www.un.org/en/climatechange/reports"
+      ],
+      "date": "2026-10-24T10:31:40.840840+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T10:01:48.937083+00:00"
+  "lastUpdated": "2026-10-24T10:31:40.840904+00:00"
 }
