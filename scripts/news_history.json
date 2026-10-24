@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computer Simulates Matter Populating from Vacuum, Advancing Quantum Field Theory",
-      "urls": [
-        "https://www.sciencedaily.com/news/matter_energy/quantum_computing",
-        "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
-        "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-        "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
-        "https://quantumcomputingreport.com/news",
-        "https://en.wikipedia.org/wiki/Timeline_of_quantum_computing_and_communication",
-        "https://www.quantum.com"
-      ],
-      "date": "2026-10-14T22:01:46.771339+00:00"
-    },
-    {
       "title": "scale solar farms was not transmitted to consumers",
       "urls": [
         "https://renewablewatch.in/category/news/projects",
@@ -5066,7 +5053,15 @@
         "https://www.abc.net.au/news/2026-09-11/qantas-backflip-to-replace-broken-wheelchair/107111812"
       ],
       "date": "2026-10-24T21:31:52.078321+00:00"
+    },
+    {
+      "title": "India aims to solidify its autonomous navigation capability with NVS‑03, reducing reliance on",
+      "urls": [
+        "https://indianexpress.com/article/explained/explained-sci-tech/navic-nvs-03-launch-isro-navigation-gps-system-10934129",
+        "https://www.news9live.com/science/isro-nvs-03-launch-october-navic-navigation-restoration-3009646"
+      ],
+      "date": "2026-10-24T22:01:48.115719+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T21:31:52.078381+00:00"
+  "lastUpdated": "2026-10-24T22:01:48.115801+00:00"
 }
