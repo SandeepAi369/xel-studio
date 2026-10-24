@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Earnings Compass Releases October 2026 Calendar Listing 28 Companies Reporting Earnings",
-      "urls": [
-        "https://www.computing.co.uk/news-analysis/2026/big-tech-delivers-strong-earnings-but-ai-spending-fears-remain",
-        "https://en.wikipedia.org/wiki/Palantir",
-        "https://earningscompass.app/earnings/2026/october",
-        "https://en.wikipedia.org/wiki/HTC"
-      ],
-      "date": "2026-10-14T17:02:01.258595+00:00"
-    },
-    {
       "title": "National Association of the Deaf Publishes New Advocacy Updates for Deaf Community",
       "urls": [
         "https://verbit.ai/blog/accessibility-hub/web-accessibility-for-people-with-hearing-loss-a-comprehensive-guide",
@@ -5076,7 +5066,18 @@
         "https://www.theverge.com/tech"
       ],
       "date": "2026-10-24T17:01:40.731543+00:00"
+    },
+    {
+      "title": "Space Camp Expands Inclusive Program for Visually Impaired Students Across Global Communities",
+      "urls": [
+        "https://whnt.com/news/huntsville/space-camp-visually-impaired-students-huntsville",
+        "https://en.wikipedia.org/wiki/Accessibility",
+        "https://political.org/2026/04/06/federal-rule-mandates-digital-accessibility-for-blind-and-disabled-students-in-higher-education",
+        "https://www.nature.com/subjects/assistive-navigation-technologies-for-visually-impaired-users",
+        "https://www.wishtv.com/news/education/blind-students-code-microbit"
+      ],
+      "date": "2026-10-24T17:31:29.048508+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T17:01:40.731601+00:00"
+  "lastUpdated": "2026-10-24T17:31:29.048572+00:00"
 }
