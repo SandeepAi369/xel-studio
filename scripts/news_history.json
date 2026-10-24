@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Wildlife Fund Reports 73 Percent Global Species Decline While India Shows Conservation Gains",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://sustainabletimes.org/environmental-news-2026",
-        "https://www.unep.org/news-and-stories/news/spotlight-nature-and-biodiversity",
-        "https://www.downtoearth.org.in/wildlife-biodiversity/global-wildlife-populations-decline-by-73-but-india-records-conservation-gains-wwf-report",
-        "https://newsable.asianetnews.com/india/bhubaneswar-wildlife-week-2026-focuses-on-habitat-connectivity-articleshow-fl2rmtm",
-        "https://en.wikipedia.org/wiki/Conservation_International",
-        "https://www.worldwildlife.org/publications/2026-living-planet-report"
-      ],
-      "date": "2026-10-14T14:01:54.735214+00:00"
-    },
-    {
       "title": "Mistral Vibe Rebrands from Le Chat, Expanding AI Chat and Coding Capabilities for Developers",
       "urls": [
         "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html",
@@ -5086,7 +5073,18 @@
         "https://finance.yahoo.com/energy/articles/pick-best-renewable-energy-stocks-020752873.html"
       ],
       "date": "2026-10-24T14:01:39.429421+00:00"
+    },
+    {
+      "title": "OpenAI announced the purchase of a health‑care AI startup in a brief statement, noting that the deal value was not",
+      "urls": [
+        "https://emergent.sh/news/week-s-top-5-ai-stories-october-2026-roundup",
+        "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://af.net/realtime/october-2026-open-source-ai-tooling-briefing-highlights-key-updates",
+        "https://en.wikipedia.org/wiki/Generative_AI"
+      ],
+      "date": "2026-10-24T14:31:43.184243+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T14:01:39.429495+00:00"
+  "lastUpdated": "2026-10-24T14:31:43.184297+00:00"
 }
