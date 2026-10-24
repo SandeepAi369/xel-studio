@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Des Moines and Bristol Sunrise Times Reveal Seasonal Light Shifts Across Two Continents",
-      "urls": [
-        "https://www.timeanddate.com/sun/usa/des-moines",
-        "https://www.timeanddate.com/sun/uk/bristol",
-        "https://www.opensourceindia.in/osi-2026-white"
-      ],
-      "date": "2026-10-14T02:01:57.405254+00:00"
-    },
-    {
       "title": "FDA Approves Limited AI‑Driven Drug Candidates, Highlights 2026 Challenges",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/therapiai-showcases-agentic-ai-platform-042600762.html",
@@ -5084,7 +5075,17 @@
         "https://de.wikipedia.org/wiki/Mistral_AI"
       ],
       "date": "2026-10-24T02:01:46.995883+00:00"
+    },
+    {
+      "title": "Digital Health Funding Report Shows Record $4 Billion AI Investment Boosting Mental Health Services",
+      "urls": [
+        "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026",
+        "https://research2guidance.com/ai-in-mental-health-2026-clinical-infrastructure-wins-the-funding-race-and-wellness-apps-are-priced-out",
+        "https://www.forbes.com/sites/hollyeve/2026/07/24/navi-digital-wellness-app-co-designed-by-teens-launches-in-new-mexico",
+        "https://www.yahoo.com"
+      ],
+      "date": "2026-10-24T02:31:31.489236+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T02:01:46.995951+00:00"
+  "lastUpdated": "2026-10-24T02:31:31.489314+00:00"
 }
