@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York City Attractions List Highlights 80 Epic Sites and Top 15 Must‑See Experiences",
-      "urls": [
-        "https://www.timeout.com/newyork/attractions/new-york-attractions",
-        "https://www.domain-b.com/markets/stock-markets-world/big-tech-earnings-ai-market-focus-2026",
-        "https://www.tripadvisor.com/Attractions-g60763-Activities-New_York_City_New_York.html"
-      ],
-      "date": "2026-10-14T01:31:49.662744+00:00"
-    },
-    {
       "title": "Des Moines and Bristol Sunrise Times Reveal Seasonal Light Shifts Across Two Continents",
       "urls": [
         "https://www.timeanddate.com/sun/usa/des-moines",
@@ -5083,7 +5074,17 @@
         "https://news.supwil.com/en/news/energy-climate/2026-10-21"
       ],
       "date": "2026-10-24T01:31:25.487077+00:00"
+    },
+    {
+      "title": "Mistral Ai Open Source Language Model News Recent Highlights October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+        "https://mistral.ai",
+        "https://de.wikipedia.org/wiki/Mistral_AI"
+      ],
+      "date": "2026-10-24T02:01:46.995883+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T01:31:25.487139+00:00"
+  "lastUpdated": "2026-10-24T02:01:46.995951+00:00"
 }
