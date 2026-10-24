@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Rolls Out Gemini 4 Argon AI Model To All Paying Cloud Users",
-      "urls": [
-        "https://www.businessinsider.com/google-gemini-4-argon-ai-model-public-release-cost-2026-10",
-        "https://mashable.com/tech/google-launches-gemini-4-argon",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon"
-      ],
-      "date": "2026-10-14T04:02:14.667760+00:00"
-    },
-    {
       "title": "Jacob Kiplimo Sets Third‑Fastest Marathon Time in History, Ranking Behind Only Two Runners",
       "urls": [
         "https://www.runnersworld.com/news/a74055320/chicago-marathon-results-2026",
@@ -5085,7 +5076,16 @@
         "https://en.wikipedia.org/wiki/Internet_in_India"
       ],
       "date": "2026-10-24T04:01:57.275539+00:00"
+    },
+    {
+      "title": "Get Cricket ID Expands Influence in Real-Time Cricket Data Collection",
+      "urls": [
+        "https://sports.ndtv.com/cricket/ipl-2027-auction-date-and-venue-bcci-gives-first-official-update-12087798",
+        "https://www.globenewswire.com/news-release/2026/10/23/3387594/0/en/the-growing-role-of-get-cricket-id-platform-in-real-time-cricket-data.html",
+        "https://timesofindia.indiatimes.com/sports/cricket/ipl"
+      ],
+      "date": "2026-10-24T04:31:48.630212+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T04:01:57.275589+00:00"
+  "lastUpdated": "2026-10-24T04:31:48.630295+00:00"
 }
