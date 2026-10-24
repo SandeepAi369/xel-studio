@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "scale solar farms was not transmitted to consumers",
-      "urls": [
-        "https://renewablewatch.in/category/news/projects",
-        "https://news.webindia123.com/news/articles/Business/20260922/4501781.html",
-        "https://www.reuters.com/business/energy/india-wastes-4-solar-power-amid-power-shortages-july-august-report-shows-2026-10-12"
-      ],
-      "date": "2026-10-14T22:31:32.655781+00:00"
-    },
-    {
       "title": "OpenEvidence is referenced as a supporting platform that aggregates verification data",
       "urls": [
         "https://www.thundercompute.com/blog/best-open-source-llms",
@@ -5071,7 +5062,15 @@
         "https://www.iea.org/reports/the-state-of-energy-innovation-2026"
       ],
       "date": "2026-10-24T22:31:26.964960+00:00"
+    },
+    {
+      "title": "Void Linux Expands Rolling Release Model to Accelerate Package Updates",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Void_Linux",
+        "https://www.premierleague.com/en/clubs/3/arsenal/matches"
+      ],
+      "date": "2026-10-24T23:01:41.250130+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T22:31:26.965030+00:00"
+  "lastUpdated": "2026-10-24T23:01:41.250210+00:00"
 }
