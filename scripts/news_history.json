@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Vibe Rebrands from Le Chat, Expanding AI Chat and Coding Capabilities for Developers",
-      "urls": [
-        "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html",
-        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-        "https://mistral.ai/products/vibe"
-      ],
-      "date": "2026-10-14T14:31:53.846290+00:00"
-    },
-    {
       "title": "India Health Ministry Highlights Tele MANAS Call Surge Ahead of World Mental Health Day",
       "urls": [
         "https://www.theweek.in/news/health/2026/10/08/the-unaddressed-mental-health-emergency-facing-lgbtqia-talent-in-technology.html",
@@ -5084,7 +5075,16 @@
         "https://en.wikipedia.org/wiki/Generative_AI"
       ],
       "date": "2026-10-24T14:31:43.184243+00:00"
+    },
+    {
+      "title": "India Rejects Data Exclusivity in Trade Talks, Boosts Generic Drug Access",
+      "urls": [
+        "https://news18.com/explainers/big-pharma-wants-data-exclusivity-india-says-no-in-trade-talks-heres-what-this-means-for-your-medicine-bill-ws-bl-10394444.html",
+        "https://www.channelnewsasia.com/asia/india-pharmaceutical-sector-impact-proposed-trump-tariffs-generic-drugs-6276041",
+        "https://ibef.org/news/pharma-exports-surpass-us-31-billion-in-fy26-despite-global-headwinds"
+      ],
+      "date": "2026-10-24T15:01:41.545390+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T14:31:43.184297+00:00"
+  "lastUpdated": "2026-10-24T15:01:41.545450+00:00"
 }
