@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenEvidence is referenced as a supporting platform that aggregates verification data",
-      "urls": [
-        "https://www.thundercompute.com/blog/best-open-source-llms",
-        "https://benchlm.ai/model-updates/releases/october-2026",
-        "https://www.openevidence.com"
-      ],
-      "date": "2026-10-14T23:01:54.547259+00:00"
-    },
-    {
       "title": "All India Institute of Medical Sciences Launches CAPFIMS Program to Expand Medical Training",
       "urls": [
         "https://aiims.edu/index.php/en/component/content/article?id=692",
@@ -5070,7 +5061,15 @@
         "https://www.premierleague.com/en/clubs/3/arsenal/matches"
       ],
       "date": "2026-10-24T23:01:41.250130+00:00"
+    },
+    {
+      "title": "India Releases Detailed Physical Map Showcasing Cities, Rivers, National Parks, and Neighboring Countries",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Prostitution_in_India",
+        "https://www.worldatlas.com/maps/india"
+      ],
+      "date": "2026-10-24T23:31:30.228355+00:00"
     }
   ],
-  "lastUpdated": "2026-10-24T23:01:41.250210+00:00"
+  "lastUpdated": "2026-10-24T23:31:30.228425+00:00"
 }
