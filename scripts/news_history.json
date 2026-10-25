@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Career Education programs now incorporate sustainability modules, covering renewable energy, green construction, and environmental policy, to meet the growing demand",
-      "urls": [
-        "https://www.theguardian.com/us-news/2026/feb/15/us-students-energy-climate-crisis",
-        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-10-12/weekly"
-      ],
-      "date": "2026-10-15T18:01:54.754536+00:00"
-    },
-    {
       "title": "Open Source Large Language Model Release News This Week October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
@@ -5051,7 +5043,18 @@
         "https://nationaldeafcenter.org/news"
       ],
       "date": "2026-10-25T17:31:36.259366+00:00"
+    },
+    {
+      "title": "Nature Portfolio Study Reveals Distributional Gaps in European Climate Policies",
+      "urls": [
+        "https://www.nature.com/subjects/climate-change-mitigation",
+        "https://en.wikipedia.org/wiki/Climate_change",
+        "https://www.thiergalerie.de/shops/deutsche-rentenversicherung",
+        "https://phys.org/news/2026-09-emissions-decade-europe-worse.html",
+        "https://en.wikipedia.org/wiki/Climate_of_New_York_City"
+      ],
+      "date": "2026-10-25T18:01:55.217895+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T17:31:36.259466+00:00"
+  "lastUpdated": "2026-10-25T18:01:55.217968+00:00"
 }
