@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Law360 Details Emerging AI Regulation Framework Targeting Privacy and Cybersecurity",
-      "urls": [
-        "https://www.digitalspy.com",
-        "https://en.wikipedia.org/wiki/Privacy",
-        "https://www.law360.com/cybersecurity-privacy",
-        "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
-      ],
-      "date": "2026-10-15T12:02:16.694938+00:00"
-    },
-    {
-      "title": "Agnes Ngetich Sets New Women‑Only Half Marathon World Record In Historic Race",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Marathon",
-        "https://flotrack.org/articles/16215978-2026-chicago-marathon-elite-entries-here-is-whos-running",
-        "https://en.wikipedia.org/wiki/List_of_Indian_records_in_athletics",
-        "https://runsra.org/california-international-marathon",
-        "https://www.nytimes.com/athletic/7612589/2026/09/20/agnes-ngetich-world-road-running-championships-2026"
-      ],
-      "date": "2026-10-15T12:31:45.272847+00:00"
-    },
-    {
       "title": "Anthropic, Apple, ASML, and Google Shape Top Tech Headlines in October 2026",
       "urls": [
         "https://techstartups.com/2026/10/14/top-tech-news-today-october-14-2026-apple-asml-google-openai-microsoft-nvidia-more"
@@ -5057,7 +5036,20 @@
         "https://dictionary.cambridge.org/dictionary/english/digital"
       ],
       "date": "2026-10-25T12:01:43.547684+00:00"
+    },
+    {
+      "title": "Huang Bo Dai Publishes Study on Computer Simulation in Sports Performance",
+      "urls": [
+        "https://sportytechs.com",
+        "https://www.sportsnet.ca",
+        "https://en.wikipedia.org/wiki/Google_Cloud_Platform",
+        "https://www.nature.com/subjects/sport-technology",
+        "https://www.nature.com/subjects/sport-analytics",
+        "https://en.wikipedia.org/wiki/Carnegie_Mellon_University",
+        "https://www.tsn.ca"
+      ],
+      "date": "2026-10-25T12:31:56.593975+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T12:01:43.547745+00:00"
+  "lastUpdated": "2026-10-25T12:31:56.594045+00:00"
 }
