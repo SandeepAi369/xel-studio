@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Unveils Open Source Speech Generation Model for Broad Developer Use",
-      "urls": [
-        "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation"
-      ],
-      "date": "2026-10-15T14:31:46.505317+00:00"
-    },
-    {
-      "title": "Ayushman Bharat Links 100 Crore Health Records to ABHA Accounts, Boosting Digital Care",
-      "urls": [
-        "https://indiatribune.com/public/ayushman-bharat-milestone-100-crore-health-records-linked-with-abha-accounts",
-        "https://vajiramandravi.com/upsc-exam/ayushman-bharat-digital-mission",
-        "https://dashboard.abdm.gov.in/abdm",
-        "https://organiser.org/2026/07/13/369540/bharat/from-abha-to-ai-how-ayushman-bharat-digital-mission-is-building-one-of-the-worlds-largest-digital-health-ecosystems",
-        "https://nha.gov.in",
-        "https://en.wikipedia.org/wiki/Ayushman_Bharat_Yojana",
-        "https://en.wikipedia.org/wiki/Healthcare_in_India",
-        "https://www.digitalhealthnews.com/category/nha-news"
-      ],
-      "date": "2026-10-15T15:01:44.482852+00:00"
-    },
-    {
       "title": "Micron Invests $2.75 Billion To Open Chip Assembly Plant As India Expands Packaging",
       "urls": [
         "https://outlookbusiness.com/spotlight/pr-wire/strat360pl-report-charts-indias-path-to-a-deeper-electronics-semiconductor-industry",
@@ -5059,7 +5038,19 @@
         "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
       ],
       "date": "2026-10-25T14:31:27.892946+00:00"
+    },
+    {
+      "title": "Scientists Replicate Quantum Wing Mechanism in Long‑Distance Migrating Flies Revealing New Insights Into Insect Flight",
+      "urls": [
+        "https://sciencedaily.com/news/top/science",
+        "https://www.nature.com/subjects/medical-research/nature",
+        "https://en.wikipedia.org/wiki/Grand_National",
+        "https://www.sciencedaily.com/news/top/health",
+        "https://en.wikipedia.org/wiki/Federal_University_of_Technology_Akure",
+        "https://www.grandnational.org.uk/grand-national-start-times.php"
+      ],
+      "date": "2026-10-25T15:01:50.015924+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T14:31:27.892999+00:00"
+  "lastUpdated": "2026-10-25T15:01:50.016006+00:00"
 }
