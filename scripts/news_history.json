@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lisa Su Featured As Sole Search Result Highlighting Information Gap",
-      "urls": [
-        "https://nvidianews.nvidia.com/news/latest",
-        "https://nvidianews.nvidia.com",
-        "https://en.wikipedia.org/wiki/Lisa_Su"
-      ],
-      "date": "2026-10-15T09:02:01.362414+00:00"
-    },
-    {
       "title": "Outreach1.org Charts Evolution Of Screen Readers, Boosting Digital Access For Blind Users",
       "urls": [
         "https://www.webyes.com/blogs/screen-reader-accessibility",
@@ -5050,7 +5041,17 @@
         "https://www.ufc.com/events"
       ],
       "date": "2026-10-25T08:31:56.494257+00:00"
+    },
+    {
+      "title": "Generative Ai Tools Products Launches Today New Developments October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+        "https://www.boersenverlag.de/login",
+        "https://www.merriam-webster.com/dictionary/generative",
+        "https://www.broadcastnow.co.uk/production-and-post/digital-domain-launches-ddai-to-merge-cgi-with-generative-ai/5217293.article"
+      ],
+      "date": "2026-10-25T09:03:32.680458+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T08:31:56.494334+00:00"
+  "lastUpdated": "2026-10-25T09:03:32.680528+00:00"
 }
