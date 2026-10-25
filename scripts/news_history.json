@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Introduces Custom AI Chip Reducing Dependence on Nvidia GPUs",
-      "urls": [
-        "https://theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-        "https://www.nvidia.com/en-us",
-        "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-amd-ai-chip-143500881.html",
-        "https://www.nvidia.com/en-gb",
-        "https://247wallst.com/investing/2026/10/12/amd-vs-nvidia-if-you-can-only-own-one-to-finish-2026-its-this-one"
-      ],
-      "date": "2026-10-15T06:01:49.475839+00:00"
-    },
-    {
       "title": "Hurricane Isaias Strikes Gulf Coast Causing Flooding, Deaths and Prompting Federal Aid",
       "urls": [
         "https://apnews.com/hub/weather",
@@ -5049,7 +5038,19 @@
         "https://en.wikipedia.org/wiki/World_Autism_Awareness_Day"
       ],
       "date": "2026-10-25T05:32:12.000474+00:00"
+    },
+    {
+      "title": "BP’s contract portfolio grows as the three new Indonesia deals add to its global upstream agreements, illustrating a continued focus",
+      "urls": [
+        "https://inc42.com/features/indian-unicorn-tracker-funding-investors-revenue-and-more",
+        "https://inc42.com/reports/indian-tech-startup-funding-report-q1-2026",
+        "https://locations.pizzahut.com/tx/san-antonio",
+        "https://en.wikipedia.org/wiki/BP",
+        "https://eqmint.com/indian-startup-funding-tracker-2026",
+        "https://inc42.com/features/indian-startup-funding-slips-9-to-5-2-bn-in-h1-2026"
+      ],
+      "date": "2026-10-25T06:02:01.107920+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T05:32:12.000549+00:00"
+  "lastUpdated": "2026-10-25T06:02:01.107992+00:00"
 }
