@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Semiconductors & AI Chips Weekly Briefing Highlights Emerging Industry Trends and Market Shifts",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Nvidia",
-        "https://courthousenews.com/microsoft-bets-on-homegrown-ai-chip-to-challenge-nvidia",
-        "https://fool.com/investing/2026/09/28/this-could-be-nvidia-s-biggest-challenger-in-the-ai-chip-market-hint-it-s-not-amd",
-        "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-10-02",
-        "https://www.livemint.com/companies/news/amd-invests-10-billion-in-taiwan-to-build-ai-chips-and-challenge-nvidias-dominance-11779349264379.html"
-      ],
-      "date": "2026-10-15T11:31:32.777902+00:00"
-    },
-    {
       "title": "Law360 Details Emerging AI Regulation Framework Targeting Privacy and Cybersecurity",
       "urls": [
         "https://www.digitalspy.com",
@@ -5057,7 +5046,18 @@
         "https://onlinesbi.sbi.bank.in"
       ],
       "date": "2026-10-25T11:31:25.529633+00:00"
+    },
+    {
+      "title": "European Union Enacts Digital Services Act to Standardize Online Platform Rules",
+      "urls": [
+        "https://www.corporatecrimereporter.com/corporate-crime-reporter-interviews-1987-to-2013",
+        "https://en.wikipedia.org/wiki/Digital_Services_Act",
+        "https://www.merriam-webster.com/dictionary/digital",
+        "https://en.wikipedia.org/wiki/Privacy_law",
+        "https://dictionary.cambridge.org/dictionary/english/digital"
+      ],
+      "date": "2026-10-25T12:01:43.547684+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T11:31:25.529691+00:00"
+  "lastUpdated": "2026-10-25T12:01:43.547745+00:00"
 }
