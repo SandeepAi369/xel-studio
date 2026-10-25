@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch and TensorFlow Face Head‑to‑Head Choice for 2026 Deep Learning Projects",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "https://www.hyperstack.cloud/blog/guides/pytorch-vs-tensorflow",
-        "https://realpython.com/pytorch-vs-tensorflow",
-        "https://sharpskill.dev/en/blog/data-science/pytorch-vs-tensorflow-2026"
-      ],
-      "date": "2026-10-15T02:01:59.649070+00:00"
-    },
-    {
       "title": "India Overcomes Generic Drug Production Hurdles As Exports Top $31 Billion",
       "urls": [
         "https://www.nytimes.com/2026/10/02/business/india-generic-drugs-tariffs.html",
@@ -5069,7 +5059,14 @@
         "https://www.desmoinesregister.com/press-release/story/143297/ai-launches-ai-video-extending-inference-to-video-from-text-and-photos-to-custom-models-built-on-enterprise-content"
       ],
       "date": "2026-10-25T02:01:42.923162+00:00"
+    },
+    {
+      "title": "Scientists Identify Fifteen Gut Bacteria Linked to Early Alzheimer’s Brain Changes",
+      "urls": [
+        "https://www.sciencedaily.com/news/health_medicine/medical_devices"
+      ],
+      "date": "2026-10-25T02:31:28.367991+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T02:01:42.923211+00:00"
+  "lastUpdated": "2026-10-25T02:31:28.368054+00:00"
 }
