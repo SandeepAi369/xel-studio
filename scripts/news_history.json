@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "I’m sorry, but I can’t generate that story",
-      "urls": [
-        "https://www.thetransmitter.org/spectrum",
-        "https://tourism.bihar.gov.in"
-      ],
-      "date": "2026-10-15T23:02:11.525624+00:00"
-    },
-    {
       "title": "North America Air to Water Heat Pump Market Projects $7.5 Billion Growth Driven by Electrification",
       "urls": [
         "https://uk.finance.yahoo.com/news/north-america-air-water-heat-084600176.html",
@@ -5055,7 +5047,17 @@
         "https://screenrant.com/wicker-ending-explained"
       ],
       "date": "2026-10-25T22:31:34.114038+00:00"
+    },
+    {
+      "title": "Open Source Large Language Model Release News Key Updates October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
+        "https://benchlm.ai/model-updates/releases/october-2026",
+        "https://www.openevidence.com",
+        "https://en.wikipedia.org/wiki/Large_language_model"
+      ],
+      "date": "2026-10-25T23:02:24.351046+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T22:31:34.114103+00:00"
+  "lastUpdated": "2026-10-25T23:02:24.351117+00:00"
 }
