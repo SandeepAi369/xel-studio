@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Expands Global Reach Through Comprehensive Online Coverage And Rankings",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship",
-        "https://www.mmafighting.com/latest-news",
-        "https://www.cbssports.com/ufc",
-        "https://ringside24.com/de/news/mma"
-      ],
-      "date": "2026-10-15T21:01:45.769526+00:00"
-    },
-    {
       "title": "Assistive Technology Highlights London Transport Accessibility Features for Disabled Riders",
       "urls": [
         "https://toptechtidbits.com/newsletter-10-15-2026",
@@ -5067,7 +5057,16 @@
         "https://www.espn.com/espn/story/_/id/50077692/india-asian-games-live-updates-scores-news-results-commentary-schedule-timings-october-2-2026-aichi-nagoya"
       ],
       "date": "2026-10-25T21:01:38.688634+00:00"
+    },
+    {
+      "title": "EyeSpy.org Highlights Barriers to Technology Integration for Visually Impaired Students",
+      "urls": [
+        "https://www.thehindu.com/news/cities/Vijayawada/visually-impaired-students-of-loyola-college-trained-in-assistive-technology/article71612580.ece",
+        "https://eyespy.org/news",
+        "https://www.sciencedirect.com/science/article/pii/S2590291126003451"
+      ],
+      "date": "2026-10-25T21:31:38.064520+00:00"
     }
   ],
-  "lastUpdated": "2026-10-25T21:01:38.688688+00:00"
+  "lastUpdated": "2026-10-25T21:31:38.064598+00:00"
 }
