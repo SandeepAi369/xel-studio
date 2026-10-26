@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linuxiac Weekly Wrap-Up Highlights OpenBSD Updates in Week 40 Overview",
-      "urls": [
-        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-40-2026-september-28-october-4",
-        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-15.html",
-        "https://itsfoss.com/news",
-        "https://en.wikipedia.org/wiki/OpenBSD"
-      ],
-      "date": "2026-10-16T05:02:14.010234+00:00"
-    },
-    {
       "title": "Deaf Audiences Face Accessibility Gaps in Theater and Cinema, Calls for Inclusive Design Grow",
       "urls": [
         "https://hearinghealthmatters.org/hearing-news-watch/2026/hti-award-winners-2026",
@@ -5056,7 +5045,16 @@
         "https://www.zhihu.com/question/57427156"
       ],
       "date": "2026-10-26T05:01:54.244991+00:00"
+    },
+    {
+      "title": "Dubai Airport Deploys Autonomous Wheelchairs to Accelerate Travel for Passengers with Mobility Needs",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Wheelchair",
+        "https://thenationalnews.com/news/uae/2026/10/19/dubai-airport-self-driving-wheelchair",
+        "https://www.gewobag.de/bauen-in-berlin/bauprojekte/neues-gartenfeld-1-bauabschnitt"
+      ],
+      "date": "2026-10-26T05:31:34.634775+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T05:01:54.245058+00:00"
+  "lastUpdated": "2026-10-26T05:31:34.634837+00:00"
 }
