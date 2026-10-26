@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Deploys Open Source AI Strategy to Challenge Western Technology Dominance",
-      "urls": [
-        "https://www.moneycontrol.com/artificial-intelligence/github-s-india-developer-base-surges-to-27-million-as-ai-agents-reshape-coding-article-13886172.html",
-        "https://www.thehindubusinessline.com/info-tech/india-moves-beyond-ai-adoption-to-open-source-contribution-red-hat/article71429186.ece",
-        "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
-        "https://www.business-standard.com/industry/news/github-india-57-million-developers-2030-ai-growth-125102801381_1.html",
-        "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon",
-        "https://www.experts-exchange.com/articles/22419/How-to-install-the-Patch-1-update-for-PaperPort-14-5.html"
-      ],
-      "date": "2026-10-16T23:03:03.228284+00:00"
-    },
-    {
       "title": "Indian Pharma Companies Shift Focus Beyond US Amid Tariff Threat and Iran Conflict",
       "urls": [
         "https://www.pharmamanufacturing.com/quality-risk/supply-chain/article/55411019/indian-pharma-companies-look-for-options-beyond-us-amid-tariff-threat-globaldata",
@@ -5030,7 +5018,17 @@
         "https://en.wikipedia.org/wiki/TensorFlow"
       ],
       "date": "2026-10-26T23:01:52.594744+00:00"
+    },
+    {
+      "title": "Telemedicine Market Report Shows Up to $120 Savings Per Visit and Highlights Major Industry Players",
+      "urls": [
+        "https://www.mondaq.com/unitedstates/healthcare/1855280/virtual-digital-health-digest",
+        "https://www.lucknowsupergiants.in",
+        "https://www.americantelemed.org",
+        "https://finance.yahoo.com/healthcare/articles/telemedicine-market-report-now-available-085000800.html"
+      ],
+      "date": "2026-10-26T23:31:31.876901+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T23:01:52.594814+00:00"
+  "lastUpdated": "2026-10-26T23:31:31.876967+00:00"
 }
