@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "LLM Release Tracker Launches Comprehensive Database of New Language Models",
-      "urls": [
-        "https://www.llm-releases.com",
-        "https://note.com/2wd/n/n64a5a47bfcbe?hl=en",
-        "https://llm-stats.com/llm-updates",
-        "https://aireleasetracker.com/latest"
-      ],
-      "date": "2026-10-16T02:01:39.140857+00:00"
-    },
-    {
       "title": "Ayushman Bharat Expands Digital Health Reach Through NHA and Healthcare Federation Collaboration",
       "urls": [
         "https://ddindia.co.in/2026/09/ayushman-bharat-transforming-indias-healthcare-landscape-through-inclusion-access-and-innovation",
@@ -5056,7 +5046,15 @@
         "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-1st-2026-work-from-home-for-smog-barapullah-phase-iii-opens-new-pollution-rules-7627857.html"
       ],
       "date": "2026-10-26T01:31:44.653846+00:00"
+    },
+    {
+      "title": "Linus Torvalds Sees Share Value Spike to $20 Million Amid Market Interest",
+      "urls": [
+        "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026",
+        "https://en.wikipedia.org/wiki/Linus_Torvalds"
+      ],
+      "date": "2026-10-26T02:01:42.292165+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T01:31:44.653917+00:00"
+  "lastUpdated": "2026-10-26T02:01:42.292222+00:00"
 }
