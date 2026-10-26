@@ -14,7 +14,7 @@ requests>=2.31.0
 cerebras-cloud-sdk>=1.0.0
 
 # g4f (gpt4free) — multi-provider image generation (Flux, DALL-E, SDXL)
-g4f[image]>=8.8.3
+g4f[image]>=8.8.6
 
 # Image content verification (pixel/colour metrics) — HARD dependency.
 # Declared explicitly so verification is never silently skipped if the g4f
