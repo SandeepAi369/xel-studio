@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Economy Faces Recession Risk As GLOBLE Report Highlights Slowdown",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Recession",
-        "https://globle-game.com",
-        "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
-        "https://www.deloitte.com/global/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
-      ],
-      "date": "2026-10-16T20:01:36.847531+00:00"
-    },
-    {
       "title": "Isaias Becomes First 2026 Atlantic Hurricane Before Turning Deadly Post‑Tropical Storm",
       "urls": [
         "https://www.cnn.com/2026/10/09/weather/live-news/hurricane-isaias-gulf-storm",
@@ -5019,7 +5009,20 @@
         "https://en.wikipedia.org/wiki/Artificial_intelligence_controversies"
       ],
       "date": "2026-10-26T19:31:49.818202+00:00"
+    },
+    {
+      "title": "Reserve Bank of India Raises Repo Rate to 5.5 Percent, Boosts Growth Forecast to 7.1 Percent",
+      "urls": [
+        "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+        "https://timesofindia.indiatimes.com/business/india-business/rbi-mpc-meeting-october-2026-live-updates-governor-sanjay-malhotra-repo-rate-cut-fd-rate-monetary-policy-committee-emi-west-asia-crisis-rbi-news-today/liveblog/134753997.cms",
+        "https://indianexpress.com/article/india/rbi-monetary-policy-meeting-october-2026-live-governor-sanjay-malhotra-repo-rate-policy-stance-10908895",
+        "https://www.rbi.org.in",
+        "https://www.moneycontrol.com/news/business/markets/rbi-policy-highlights-october-2026-repo-rate-decision-today-inflation-growth-forecasts-and-policy-stance-in-focus-14046325.html",
+        "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+        "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
+      ],
+      "date": "2026-10-26T20:01:50.855115+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T19:31:49.818263+00:00"
+  "lastUpdated": "2026-10-26T20:01:50.855182+00:00"
 }
