@@ -5018,7 +5018,19 @@
         "https://en.wikipedia.org/wiki/Climate_change_policy_of_the_United_States"
       ],
       "date": "2026-10-26T22:32:02.886491+00:00"
+    },
+    {
+      "title": "Google and Meta Release TorchTPU, Open‑Source PyTorch Backend, Challenging Nvidia's AI Hardware Dominance",
+      "urls": [
+        "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
+        "https://shattered.io/torchtpu-open-source-google-meta-native-pytorch-tpus-2026",
+        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "https://siliconangle.com/2026/10/20/google-unveils-torchtpu-in-a-push-to-break-nvidias-stranglehold-on-ai-compute",
+        "https://pytorch.org/blog/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects",
+        "https://en.wikipedia.org/wiki/TensorFlow"
+      ],
+      "date": "2026-10-26T23:01:52.594744+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T22:32:02.886568+00:00"
+  "lastUpdated": "2026-10-26T23:01:52.594814+00:00"
 }
