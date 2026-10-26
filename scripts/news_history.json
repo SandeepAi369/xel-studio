@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Cricket Team Prepares for Men’s T20 World Cup With Updated Schedule and Squad",
-      "urls": [
-        "https://sports.ndtv.com/cricket/teams/6-india-teamprofile/news",
-        "https://www.espn.com/cricket/team/_/id/6/india",
-        "https://en.wikipedia.org/wiki/2026_Men%27s_T20_World_Cup",
-        "https://www.news18.com/cricket/india-vs-new-zealand-odi-series-squad-announcement-live-updates-liveblog-10382875.html",
-        "https://executesg.com/resources/blog/esg-software-pricing-germany",
-        "https://www.bcci.tv/news",
-        "https://sports.yahoo.com/articles/india-september-october-cricket-madness-110001837.html",
-        "https://www.bcci.tv/latest-news"
-      ],
-      "date": "2026-10-16T08:31:37.667387+00:00"
-    },
-    {
       "title": "Explainx.ai Releases Complete 2026 Guide Comparing Sora, Runway, and Kling AI Video Tools",
       "urls": [
         "https://pinggy.io/blog/best_video_generation_ai_models",
@@ -5038,7 +5024,15 @@
         "https://www.ssa.gov"
       ],
       "date": "2026-10-26T08:01:54.634162+00:00"
+    },
+    {
+      "title": "India Awaits First Greco Roman Medal as Asian Games Matches Deliver Late Goals",
+      "urls": [
+        "https://www.thehindu.com/sport/asian-games-2026-live-updates-on-september-30-2026/article71530982.ece",
+        "https://www.hindustantimes.com/sports/others/no-badminton-no-wrestling-no-hockey-why-india-s-top-commonwealth-medal-sports-won-t-feature-at-cwg-2026-101784696328942.html"
+      ],
+      "date": "2026-10-26T08:31:39.344413+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T08:01:54.634232+00:00"
+  "lastUpdated": "2026-10-26T08:31:39.344483+00:00"
 }
