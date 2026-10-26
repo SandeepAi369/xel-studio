@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch and TensorFlow Face 2026 Adoption Shift in Deep Learning Frameworks",
-      "urls": [
-        "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax",
-        "https://www.bohrium.com/en/blog/tutorials/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-10-16T14:32:06.504174+00:00"
-    },
-    {
       "title": "Ayushman Bharat Study Examines Impact of Public Health Insurance on Care Utilization",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_schemes_of_the_government_of_India",
@@ -5030,7 +5022,16 @@
         "https://timesofindia.indiatimes.com/world/south-asia/2012-kathmandu-earthquake-2026-flash-floods-why-nepal-is-so-susceptible-to-natural-disasters/articleshow/133545762.cms"
       ],
       "date": "2026-10-26T14:02:25.126274+00:00"
+    },
+    {
+      "title": "Kali Linux launches version 2026.3, the newest edition of its ethical hacking distribution, now downloadable as a 3.2 GB ISO",
+      "urls": [
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-43-2026-october-19-25",
+        "https://9to5linux.com/kali-linux-2026-3-released-with-linux-7-1-kde-plasma-6-7-and-new-tools",
+        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html"
+      ],
+      "date": "2026-10-26T14:33:45.251663+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T14:02:25.126332+00:00"
+  "lastUpdated": "2026-10-26T14:33:45.251730+00:00"
 }
