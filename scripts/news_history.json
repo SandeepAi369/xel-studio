@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "YouTube Introduces New Features in Latest Platform Update for Creators and Viewers",
-      "urls": [
-        "https://blog.gainapp.com/social-media-updates",
-        "https://socialbee.com/blog/youtube-updates-news-features",
-        "https://www.eurochange.co.uk/travel-money/buy-mauritian-rupees",
-        "https://collegedunia.com/study-abroad/robotics/master-universities",
-        "https://www.no1currency.com/currencies/buy-mauritian-rupee"
-      ],
-      "date": "2026-10-16T08:01:41.463103+00:00"
-    },
-    {
       "title": "India Cricket Team Prepares for Men’s T20 World Cup With Updated Schedule and Squad",
       "urls": [
         "https://sports.ndtv.com/cricket/teams/6-india-teamprofile/news",
@@ -5042,7 +5031,14 @@
         "https://www.drugcom.de"
       ],
       "date": "2026-10-26T07:31:35.906636+00:00"
+    },
+    {
+      "title": "Social Security Administration Launches Electronic Submission Service to Streamline Claims",
+      "urls": [
+        "https://www.ssa.gov"
+      ],
+      "date": "2026-10-26T08:01:54.634162+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T07:31:35.906738+00:00"
+  "lastUpdated": "2026-10-26T08:01:54.634232+00:00"
 }
