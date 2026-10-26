@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Life Science News, Kaiser Permanente, and UChicago Medicine Expand Digital Health Information Access",
-      "urls": [
-        "https://www.news-medical.net/life-sciences/news",
-        "https://forum.tt-news.de/forumdisplay.php?f=49",
-        "https://en.wikipedia.org/wiki/Kaiser_Permanente",
-        "https://www.uchicagomedicine.org"
-      ],
-      "date": "2026-10-16T11:01:43.753696+00:00"
-    },
-    {
       "title": "Ai Image Video Generation Model News Breaking Developments October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://af.net/realtime/ai-video-model-release-tracker-2026-key-updates-and-their-significance",
@@ -5037,7 +5027,16 @@
         "https://www.nytimes.com/2026/09/23/climate/nvidia-ai-climate-change-sustainability-data-centers.html"
       ],
       "date": "2026-10-26T10:32:01.309574+00:00"
+    },
+    {
+      "title": "India's Pharma Export Report Highlights Promotion Initiatives and Upcoming Chintan Shivir",
+      "urls": [
+        "https://vajiramandravi.com/current-affairs/us-tariffs-on-india",
+        "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
+        "https://playwithstock.com/pharma-sector-analysis-india-us-tariff-2026"
+      ],
+      "date": "2026-10-26T11:02:12.583788+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T10:32:01.309639+00:00"
+  "lastUpdated": "2026-10-26T11:02:12.583859+00:00"
 }
