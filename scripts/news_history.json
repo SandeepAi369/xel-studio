@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Partners With Hugging Face to Fix Security Breach After Lawsuit",
-      "urls": [
-        "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
-        "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
-        "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "https://en.wikipedia.org/wiki/Hugging_Face",
-        "https://www.soapcentral.com/shows/instadocs-ai-gone-wild-shows-hugging-face-hack-exposed-ai-s-biggest-security-problem",
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://huggingface.co/models"
-      ],
-      "date": "2026-10-16T00:02:35.641504+00:00"
-    },
-    {
-      "title": "Otto the Orange Launches New Animated Series Capturing Children's Imagination",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Otto_the_Orange",
-        "https://www.sports-now.com/football",
-        "https://www.bbc.com/sport/football"
-      ],
-      "date": "2026-10-16T00:31:55.555124+00:00"
-    },
-    {
       "title": "NHS Sets Two‑Year Minimum Wait For ADHD And Autism Assessments",
       "urls": [
         "https://theguardian.com/society/2026/sep/24/nhs-integrated-care-boards-england-two-year-waiting-times-adhd-autism-assessments",
@@ -5071,7 +5049,16 @@
         "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct"
       ],
       "date": "2026-10-26T00:02:31.357795+00:00"
+    },
+    {
+      "title": "Sixth Indian Open U23 Athletics Competition Breaks Four Meet Records on Final Day",
+      "urls": [
+        "https://indianexpress.com/about/world-record",
+        "https://currentaffairspulse.com/current-affairs/october-2026/sports",
+        "https://www.nationpress.com/sports/four-records-fall-at-u23-athletics-2026-finale"
+      ],
+      "date": "2026-10-26T00:31:57.347253+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T00:02:31.357868+00:00"
+  "lastUpdated": "2026-10-26T00:31:57.347321+00:00"
 }
