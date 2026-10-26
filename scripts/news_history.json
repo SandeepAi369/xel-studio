@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Donald Trump Faces Scrutiny Over False Statements Across Second Term",
-      "urls": [
-        "https://markets.businessinsider.com/index/dow_jones",
-        "https://en.wikipedia.org/wiki/False_or_misleading_statements_by_Donald_Trump_%28second_term%29",
-        "https://www.investing.com/indices/us-30",
-        "https://en.wikipedia.org/wiki/Small_modular_reactor"
-      ],
-      "date": "2026-10-16T18:01:43.967671+00:00"
-    },
-    {
       "title": "Dow Edges Higher as Tech Sell‑Off Shifts, Boosting Investor Confidence",
       "urls": [
         "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026",
@@ -5025,7 +5015,18 @@
         "https://mobilitydeck.com/best-wheelchairs"
       ],
       "date": "2026-10-26T17:31:37.826250+00:00"
+    },
+    {
+      "title": "Extreme Weather Flooding Hurricane Disaster News This Week October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners",
+        "https://www.tallahassee.com/story/news/hurricane/2026/10/06/florida-hurricane-forecast-sees-possible-92l-isaias-impacts/92118992007",
+        "https://en.wikipedia.org/wiki/Hurricane_Isaias_%282026%29",
+        "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast",
+        "https://www.hindustantimes.com/ht-insight/climate-change/we-must-stay-prepared-for-extreme-heat-and-flooding-101753271093352.html"
+      ],
+      "date": "2026-10-26T18:02:11.481391+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T17:31:37.826325+00:00"
+  "lastUpdated": "2026-10-26T18:02:11.481469+00:00"
 }
