@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Poised to Reveal Multiple New Products in October 2026",
-      "urls": [
-        "https://www.theapplepost.com/2026/10/14/73275/apple-isnt-done-yet-heres-what-else-is-expected-this-october"
-      ],
-      "date": "2026-10-16T03:31:30.006306+00:00"
-    },
-    {
       "title": "Stocks Plunge Amid Funding Worries Triggering Global Tech Market Rout",
       "urls": [
         "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
@@ -5051,7 +5044,15 @@
         "https://www.roblox.com/Login"
       ],
       "date": "2026-10-26T03:01:59.678767+00:00"
+    },
+    {
+      "title": "ManpowerGroup Appoints Becky Frankiewicz as CEO to Lead Global Workforce Solutions Firm",
+      "urls": [
+        "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+        "https://fortune.com/2026/10/23/fortune-500-power-moves-october-10-23"
+      ],
+      "date": "2026-10-26T03:31:35.984886+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T03:01:59.678865+00:00"
+  "lastUpdated": "2026-10-26T03:31:35.984961+00:00"
 }
