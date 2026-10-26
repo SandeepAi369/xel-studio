@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Stocks Plunge Amid Funding Worries Triggering Global Tech Market Rout",
-      "urls": [
-        "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
-      ],
-      "date": "2026-10-16T04:02:20.232199+00:00"
-    },
-    {
       "title": "India Secures Six Gold Medals on Asian Games Day 13, Boosting Olympic Qualification",
       "urls": [
         "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-october-3",
@@ -5052,7 +5045,15 @@
         "https://fortune.com/2026/10/23/fortune-500-power-moves-october-10-23"
       ],
       "date": "2026-10-26T03:31:35.984886+00:00"
+    },
+    {
+      "title": "Perplexity AI Faces Lawsuit from Reddit Over Alleged Wrongdoing in New York Federal Court",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Meta_AI",
+        "https://en.wikipedia.org/wiki/Perplexity_AI"
+      ],
+      "date": "2026-10-26T04:02:31.718256+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T03:31:35.984961+00:00"
+  "lastUpdated": "2026-10-26T04:02:31.718334+00:00"
 }
