@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Windows Users Disable Middle Mouse Button Activation Of Cortana Search",
-      "urls": [
-        "https://www.businesstoday.in/technology/news/story/apple-wwdc-2026-dates-announced-major-ai-announcements-and-upgrades-teased-521959-2026-03-24",
-        "https://www.tenforums.com/general-support/35869-stop-middle-mouse-button-opening-cortana-search.html"
-      ],
-      "date": "2026-10-17T08:01:35.748641+00:00"
-    },
-    {
       "title": "Indian Super League Introduces Club‑Led Model Amid Competitive Season Shifts",
       "urls": [
         "https://sports.ndtv.com/indian-super-league",
@@ -5034,7 +5026,19 @@
         "https://finance.yahoo.com/healthcare/articles/global-dna-sequencing-drug-discovery-143600006.html"
       ],
       "date": "2026-10-27T07:32:17.308856+00:00"
+    },
+    {
+      "title": "SpaceX Targets Full Starship Recovery in Upcoming Launch, Marking Major Reusability Milestone",
+      "urls": [
+        "https://timesofindia.indiatimes.com/technology/tech-news/as-elon-musks-spacex-and-jeff-bezos-blue-origin-get-ready-to-build-a-moon-base-nasa-administrator-jared-isaacman-gives-an-important-update-on-artemis-iv-says-this-agency-knows-very-well-/articleshow/135186984.cms",
+        "https://www.nasa.gov/2026-news-releases",
+        "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready",
+        "https://www.sciencedaily.com/news/space_time/space_exploration",
+        "https://independent.co.uk/bulletin/news/spacex-starship-launch-elon-musk-b3073654.html",
+        "https://www.nasa.gov/blogs/spacestation/2026/10/01/liftoff-nasas-spacex-crew-13-begins-journey-to-international-space-station"
+      ],
+      "date": "2026-10-27T08:01:52.933306+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T07:32:17.308904+00:00"
+  "lastUpdated": "2026-10-27T08:01:52.933369+00:00"
 }
