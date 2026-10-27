@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "GPT-6 and Haiku 5.5 Lead Wave of 26 Generative AI Releases, Adding Five New Tools This Week",
-      "urls": [
-        "https://www.marketingprofs.com/opinions/2026/56056/ai-update-october-02-2026-ai-news-and-views-from-the-past-week",
-        "https://thepromptbuddy.com/insights/top-ai-launches-october-2026-models-personal-agents",
-        "https://hellogrowth.ai/en/blog/ai-news-october-2026",
-        "https://martech.org/the-latest-ai-powered-martech-news-and-releases",
-        "https://note.com/yu_risk/n/n1d7d260008c3?hl=en",
-        "https://openaimaster.com/new-ai-tools-october-2026"
-      ],
-      "date": "2026-10-17T09:01:50.921111+00:00"
-    },
-    {
       "title": "AOL.de Expands Free Email, News, Weather, Finance and Sport Services for German Users",
       "urls": [
         "https://www.aol.de",
@@ -5038,7 +5026,15 @@
         "https://tarifgut.de/updates/galaxy-s23"
       ],
       "date": "2026-10-27T08:31:33.531456+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils Atlas Mapping Every Possible DNA Letter Change in Human Genome",
+      "urls": [
+        "https://research.google",
+        "https://deepmind.google/blog"
+      ],
+      "date": "2026-10-27T09:02:10.014026+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T08:31:33.531519+00:00"
+  "lastUpdated": "2026-10-27T09:02:10.014084+00:00"
 }
