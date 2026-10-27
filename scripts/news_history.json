@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Experiences Record Low Monsoon Rainfall as Super El Nino Raises Extreme Weather Risks",
-      "urls": [
-        "https://www.newindianexpress.com/india/2026/Oct/15/southwest-monsoon-withdraws-from-india-as-northeast-monsoon-sets-in-over-south",
-        "https://www.newindianexpress.com/india/2026/Oct/12/imd-predicts-northeast-monsoon-onset-in-2-3-days",
-        "https://www.livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
-        "https://en.m.wikipedia.org/wiki/India",
-        "https://kanaknews.com/videos/society/%E0%AC%86%E0%AC%B8%E0%AC%9B-%E0%AC%AA%E0%AC%B0%E0%AC%B3%E0%AD%9F-%E0%AC%AD%E0%AC%B3-%E0%AC%AA%E0%AC%97-special-report-on-super-el-nino-alert-180-scientists-warn-of-extreme-weather-12557587",
-        "https://www.business-standard.com/topic/indian-monsoon"
-      ],
-      "date": "2026-10-17T01:33:14.830610+00:00"
-    },
-    {
       "title": "OpenAI Open‑Sources Codex Harness to Accelerate Indian AI Development and Innovation",
       "urls": [
         "https://carnegieendowment.org/india/research/2026/05/outlooks-on-open-source-innovation-at-the-india-ai-impact-summit-2026",
@@ -5034,7 +5022,17 @@
         "https://finance.yahoo.com/energy/articles/aduro-clean-technologies-engage-industry-120000992.html"
       ],
       "date": "2026-10-27T01:31:40.195261+00:00"
+    },
+    {
+      "title": "GitHub Reports 27 Million Indian Developers Fueling AI‑First Growth Platform",
+      "urls": [
+        "https://about.fb.com/news/2026/02/new-research-shows-open-source-is-accelerating-indias-ai-market-growth-and-social-impact",
+        "https://www.business-standard.com/industry/news/github-india-57-million-developers-2030-ai-growth-125102801381_1.html",
+        "https://www.moneycontrol.com/artificial-intelligence/github-s-india-developer-base-surges-to-27-million-as-ai-agents-reshape-coding-article-13886172.html",
+        "https://reporank.co/blog/india-github-developer-growth-fastest-community-2026"
+      ],
+      "date": "2026-10-27T02:01:46.216675+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T01:31:40.195318+00:00"
+  "lastUpdated": "2026-10-27T02:01:46.216746+00:00"
 }
