@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Targets Missing Middle With New Affordable Health Insurance Product",
-      "urls": [
-        "https://www.thehindubusinessline.com/portfolio/personal-finance/missing-middle-should-catch-up-with-medical-inflation/article71593222.ece",
-        "https://www.thehindu.com/news/national/record-savings-on-medical-expenses-under-ayushman-bharat-pm-modi/article71498639.ece",
-        "https://en.wikipedia.org/wiki/Universal_health_care_by_country"
-      ],
-      "date": "2026-10-17T19:01:58.801845+00:00"
-    },
-    {
       "title": "India Accelerates Semiconductor Production With Three New Plants and Tata ASML Partnership",
       "urls": [
         "https://financialexpress.com/business/industry/semicon-india-2026-three-semiconductor-plants-running-more-coming-by-year-end-inside-200-billion-chip-opportunity-ahead/4321706",
@@ -5060,7 +5051,18 @@
         "https://www.indianmotorcycle.com/en-ca"
       ],
       "date": "2026-10-27T18:31:33.183350+00:00"
+    },
+    {
+      "title": "The Week Highlights Double Mental Health Risk for LGBTQIA+ Tech Talent",
+      "urls": [
+        "https://www.theweek.in/news/health/2026/10/08/the-unaddressed-mental-health-emergency-facing-lgbtqia-talent-in-technology.html",
+        "https://abcnews4.com/news/local/college-of-charleston-hosts-unplug-week-promoting-digital-wellness-with-tech-free-classes-education-reconnect-your-attention-please-documentary-global-day-of-unplugging",
+        "https://medicalxpress.com/news/2026-08-digital-wellness-eases-anxiety-depression.html",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+        "https://www.apa.org/research-practice/emerging-evidence-practitioners/youth-mental-health-digital-tools"
+      ],
+      "date": "2026-10-27T19:02:09.238203+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T18:31:33.183452+00:00"
+  "lastUpdated": "2026-10-27T19:02:09.238278+00:00"
 }
