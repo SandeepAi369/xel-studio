@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian IT Stocks Surge Amid Strong Earnings and Market Optimism",
-      "urls": [
-        "https://www.infosys.com",
-        "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-        "https://www.golem.de/news/tcs-infosys-wipro-und-hclt-indische-it-exporte-lassen-deutlich-nach-2508-198838.html",
-        "https://www.infosys.com/careers.html",
-        "https://en.wikipedia.org/wiki/Infosys",
-        "https://en.wikipedia.org/wiki/Big_Tech_%28India%29",
-        "https://www.livemint.com/market/stock-market-news/tcs-infosys-hcltech-wipro-techm-it-stocks-gain-up-to-3-5-today-nifty-it-jumps-9-in-3-days-whats-driving-rally-11792041546787.html",
-        "https://www.indiatoday.in/business/market/story/it-stocks-rally-7-percent-tech-mahindra-wipro-infosys-tcs-why-quarterly-results-q2-ai-global-selloff-3018562-2026-10-16"
-      ],
-      "date": "2026-10-17T11:31:40.543829+00:00"
-    },
-    {
       "title": "Major MMA News Platforms Provide Comprehensive Coverage of UFC, PFL, and Boxing Events",
       "urls": [
         "https://bloodyelbow.com",
@@ -5038,7 +5024,17 @@
         "https://www.aiimsraipur.edu.in"
       ],
       "date": "2026-10-27T11:03:39.963241+00:00"
+    },
+    {
+      "title": "Artificial Unveils Official Teaser Featuring Andrew Garfield and Yura Borisov",
+      "urls": [
+        "https://hellogrowth.ai/en/blog/ai-news-october-2026",
+        "https://malpass.co/top-ai-stories-2026-10-01",
+        "https://m.youtube.com/watch?v=_Wv9oLUe740",
+        "https://aidailypost.com/archives/2026/10"
+      ],
+      "date": "2026-10-27T11:32:59.083864+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T11:03:39.963297+00:00"
+  "lastUpdated": "2026-10-27T11:32:59.083936+00:00"
 }
