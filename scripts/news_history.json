@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sustainability Outlook Highlights Six Emerging Global Energy Trends for 2026",
-      "urls": [
-        "https://www.fastcompany.com/91612652/sustainability-energy-next-big-things-in-tech-2026"
-      ],
-      "date": "2026-10-17T14:01:52.058040+00:00"
-    },
-    {
-      "title": "Nvidia Acquires Hugging Face for $12.9 Billion Expanding Open‑Source AI Reach",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-        "https://huggingface.co/huggingface",
-        "https://github.com/huggingface",
-        "https://de.euronews.com/2026/09/03/nvidia-kauft-open-source-ki-plattform-hugging-face-fur-129-milliarden-dollar"
-      ],
-      "date": "2026-10-17T14:31:41.606924+00:00"
-    },
-    {
       "title": "AIIMS Publishes NORCET Merit List for Latest Medical Entrance Exam Cycle",
       "urls": [
         "https://www.jagranjosh.com/articles/aiims-norcet-11-result-2026-out-at-aiimsexams-ac-in-check-download-link-and-more-details-1800016702-1"
@@ -5058,7 +5041,15 @@
         "https://www.cnn.com/2026/10/08/weather/live-news/hurricane-isaias-gulf-storm"
       ],
       "date": "2026-10-27T14:01:45.936636+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Compete for Developers' Preference in 2026 Framework Choices",
+      "urls": [
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
+        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance"
+      ],
+      "date": "2026-10-27T14:32:19.325537+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T14:01:45.936688+00:00"
+  "lastUpdated": "2026-10-27T14:32:19.325606+00:00"
 }
