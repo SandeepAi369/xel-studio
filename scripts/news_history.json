@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Electronic Frontier Foundation Highlights Internet Privacy Resources Amid Growing Data Concerns",
-      "urls": [
-        "https://www.eff.org/issues/privacy",
-        "https://www.digitalgujarat.gov.in",
-        "https://en.wikipedia.org/wiki/Digital_privacy",
-        "https://en.wikipedia.org/wiki/Internet_privacy",
-        "https://www.infosecurity-magazine.com/privacy"
-      ],
-      "date": "2026-10-17T07:01:51.938503+00:00"
-    },
-    {
       "title": "Ayushman Bharat Faces Sustainability Questions After Transforming Nationwide Indian Healthcare",
       "urls": [
         "https://www.digitalindia.gov.in/initiative/ayushman-bharat-digital-mission",
@@ -5033,7 +5022,18 @@
         "https://electricvehicletalks.com/pm-e-drive-scheme-india-guide"
       ],
       "date": "2026-10-27T06:33:31.620458+00:00"
+    },
+    {
+      "title": "Putin Resumes Trilateral Talks to Build Post‑War Security System for Russia and Ukraine",
+      "urls": [
+        "https://www.jpost.com/middle-east/iran-news/2026-10-23/live-updates-912640",
+        "https://timesofindia.indiatimes.com/world/middle-east/iran-war-live-updates-us-israel-iran-war-donald-trump-strait-of-hormuz-ceasefire-talks-pakistan-qatar-middle-east-news/liveblog/135079627.cms",
+        "https://shrewdnia.com",
+        "https://www.nps.gov/mora/index.htm",
+        "https://www.bostonglobe.com/2026/10/21/nation/russia-ukraine-war"
+      ],
+      "date": "2026-10-27T07:02:09.166300+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T06:33:31.620524+00:00"
+  "lastUpdated": "2026-10-27T07:02:09.166372+00:00"
 }
