@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta AI Research Introduces Muse Spark Open as Leading US Open‑Weight Model",
-      "urls": [
-        "https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://research.meta.ai/blog/muse-spark-open"
-      ],
-      "date": "2026-10-17T05:01:58.797751+00:00"
-    },
-    {
-      "title": "Wheelchair Regulations Vary Widely Across Countries and Impact Accessibility Standards for Users",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Timeline_of_disability_rights_in_the_United_States",
-        "https://en.m.wikipedia.org/wiki/Wheelchair",
-        "https://en.wikipedia.org/wiki/Personal_transporter_regulation_by_country"
-      ],
-      "date": "2026-10-17T05:31:42.687247+00:00"
-    },
-    {
       "title": "Google Unveils Gemini 4 Argon as Its Most Advanced AI Model to Date",
       "urls": [
         "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
@@ -5028,7 +5010,21 @@
         "https://itsfoss.com/news"
       ],
       "date": "2026-10-27T05:01:49.288860+00:00"
+    },
+    {
+      "title": "FIX 2026 Innovation Awards Select Nine Winners Across Robotics AI And Mobility",
+      "urls": [
+        "https://www.ubergizmo.com/2026/10/fix-2026-innovation-awards-9-best-innovation-technology-winners-in-robotics-ai-and-mobility",
+        "https://spectrum.ieee.org/smart-wheelchair-robooter-strutt-ev1",
+        "https://www.zaha-hadid-design.com/collections/shop",
+        "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
+        "https://en.wikipedia.org/wiki/London_Underground",
+        "https://newmobility.com/category/technology-products/wheelchairs-technology-products",
+        "https://www.zaha-hadid-design.com",
+        "https://skyryedesign.com/architecture/zaha-hadids-architectural-legacy-how-futuristic-forms-transformed-the-worlds-cities"
+      ],
+      "date": "2026-10-27T05:31:44.290325+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T05:01:49.288932+00:00"
+  "lastUpdated": "2026-10-27T05:31:44.290393+00:00"
 }
