@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "AOL.de Expands Free Email, News, Weather, Finance and Sport Services for German Users",
-      "urls": [
-        "https://www.aol.de",
-        "https://ddnews.gov.in/en/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27"
-      ],
-      "date": "2026-10-17T09:31:41.794920+00:00"
-    },
-    {
       "title": "PyTorch vs TensorFlow Performance Comparison Offers Developers Clear Benchmarks for Generative AI Workloads",
       "urls": [
         "https://www.genaimlinstitute.com/blog/pytorch-vs-tensorflow-performance-comparison",
@@ -5034,7 +5026,14 @@
         "https://deepmind.google/blog"
       ],
       "date": "2026-10-27T09:02:10.014026+00:00"
+    },
+    {
+      "title": "Indiana School for the Blind and Visually Impaired Expands Coding Access With Tactile Curriculum",
+      "urls": [
+        "https://www.ibj.com/articles/students-at-indiana-school-for-the-blind-and-visually-impaired-make-coding-more-accessible"
+      ],
+      "date": "2026-10-27T09:31:51.901973+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T09:02:10.014084+00:00"
+  "lastUpdated": "2026-10-27T09:31:51.902041+00:00"
 }
