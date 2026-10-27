@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Visually Impaired Students Showcase Assistive Technologies to Boost Independence and Learning",
-      "urls": [
-        "https://thehansindia.com/news/cities/vijayawada/visually-impaired-students-showcase-assistive-technologies-1130790",
-        "https://chalkbeat.org/indiana/2026/09/21/school-for-blind-students-help-expand-coding-to-visually-impaired",
-        "https://www.wbrz.com/videos/louisiana-school-for-the-visually-impaired-event-shows-how-students-navigate-daily-life",
-        "https://visionempowertrust.org/vision-empower-at-empower-2026-advancing-accessible-learning-and-assistive-technology",
-        "https://www.marketbeat.com/stocks/NYSE/JPM/insider-trades",
-        "https://acb-indiana.org/news/news/2026/school-assistive-technology-report"
-      ],
-      "date": "2026-10-17T21:31:23.555311+00:00"
-    },
-    {
       "title": "Tehran Expects U.S. Reply to Ceasefire Offer Rejected by Former President Trump",
       "urls": [],
       "date": "2026-10-17T22:01:39.901878+00:00"
@@ -5064,7 +5052,20 @@
         "https://www.boerse.de/aktien/Tesla-Aktie/US88160R1014"
       ],
       "date": "2026-10-27T21:02:06.006872+00:00"
+    },
+    {
+      "title": "India Launches New Livelihood and Assistive Schemes for Persons With Disabilities",
+      "urls": [
+        "https://www.thehindu.com/business/budget/new-schemes-to-provide-livelihood-and-assistive-devices-for-persons-with-disabilities/article70578865.ece",
+        "https://www.gktoday.in/budget-2026-push-for-divyangjan-empowerment",
+        "https://www.pmindia.gov.in/en/news_updates/pm-reiterates-commitment-to-ensuring-dignity-access-and-opportunity-for-divyangs-on-the-international-day-of-persons-with-disabilities",
+        "https://theprint.in/opinion/disability-welfare-system-in-india-assistive-devices/3058584",
+        "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-rb-leipzig-ole-werner-trennung-100.html",
+        "https://www.nationpress.com/national/maharashtra-cabinet-acts-on-divyang-dept",
+        "https://www.sport.de/news/ne16888012/rb-leipzig-ole-werner-bricht-schweigen-nach-rauswurf"
+      ],
+      "date": "2026-10-27T21:33:24.610042+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T21:02:06.006944+00:00"
+  "lastUpdated": "2026-10-27T21:33:24.610110+00:00"
 }
