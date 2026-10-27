@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Major MMA News Platforms Provide Comprehensive Coverage of UFC, PFL, and Boxing Events",
-      "urls": [
-        "https://bloodyelbow.com",
-        "https://bleacherreport.com/mma",
-        "https://www.bbc.com/sport/mixed-martial-arts",
-        "https://www.mmamania.com",
-        "https://www.sherdog.com"
-      ],
-      "date": "2026-10-17T12:31:38.401218+00:00"
-    },
-    {
       "title": "Zero1Gaming Launches Public Beta Uniting Live Streaming, Leaderboards, and Esports News",
       "urls": [
         "https://sportskeeda.com/us/streamers/news-esports-awards-2026-streamer-year-nominees-revealed",
@@ -5048,7 +5037,21 @@
         "https://www.zeit.de/thema/krim"
       ],
       "date": "2026-10-27T12:02:20.049921+00:00"
+    },
+    {
+      "title": "Amputee Skier Wins Three Gold Medals at Milan Cortina Olympics",
+      "urls": [
+        "https://www.thehindu.com/sport/asian-games-2026-live-updates-on-october-2-2026/article71535569.ece",
+        "https://bbc.com/sport/olympics/articles/ck0546l2j4ppo",
+        "https://www.foxnews.com/category/sports/olympics",
+        "https://nbcnews.com/sports/olympics/live-blog/2026-winter-olympics-live-updates-rcna256602",
+        "https://en.wikipedia.org/wiki/2020_Summer_Olympics_medal_table",
+        "https://www.espn.com/olympics/winter/2026/medals/_/view/overall/sort/gold",
+        "https://sports.yahoo.com/articles/know-dakar-2026-youth-olympics-104917904.html",
+        "https://skiracing.com/lucas-pinheiro-braathen-olympic-gold-motivation"
+      ],
+      "date": "2026-10-27T12:31:41.816389+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T12:02:20.049971+00:00"
+  "lastUpdated": "2026-10-27T12:31:41.816500+00:00"
 }
