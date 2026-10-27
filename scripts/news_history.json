@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Unveils Gemini 4 Argon as Its Most Advanced AI Model to Date",
-      "urls": [
-        "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
-        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
-        "https://deepmind.google/blog",
-        "https://finance.yahoo.com/technology/ai/articles/google-gemini-4-enters-post-122454510.html"
-      ],
-      "date": "2026-10-17T06:01:42.755826+00:00"
-    },
-    {
       "title": "World Meteorological Organization Warns of Record-Building Super El Niño Impact",
       "urls": [
         "https://newindianexpress.com/india/2026/Oct/15/southwest-monsoon-withdraws-from-india-as-northeast-monsoon-sets-in-over-south",
@@ -5024,7 +5014,21 @@
         "https://skyryedesign.com/architecture/zaha-hadids-architectural-legacy-how-futuristic-forms-transformed-the-worlds-cities"
       ],
       "date": "2026-10-27T05:31:44.290325+00:00"
+    },
+    {
+      "title": "Bedrock Robotics Secures Six Hundred Million Dollars to Expand Autonomous Construction Equipment",
+      "urls": [
+        "https://www.therobotreport.com/robotics-news",
+        "https://robottoday.com/article/robottoday-weekly-september-28-october-2-2026",
+        "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026",
+        "https://forbes.com/sites/bernardmarr/2026/10/19/humanoid-robots-in-2027-what-theyll-do-and-what-could-go-wrong",
+        "https://fastcompany.com/91612138/robotics-automation-next-big-things-in-tech-2026",
+        "https://blog.robozaps.com/b/best-humanoid-robots",
+        "https://humanoidroboticstechnology.com/articles/top-12-humanoid-robots-of-2026",
+        "https://en.wikipedia.org/wiki/Robotics"
+      ],
+      "date": "2026-10-27T06:01:47.297395+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T05:31:44.290393+00:00"
+  "lastUpdated": "2026-10-27T06:01:47.297459+00:00"
 }
