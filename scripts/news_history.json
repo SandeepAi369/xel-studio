@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Premier League Tables Update After Matchday Seven Shows Shifting Positions",
-      "urls": [
-        "https://www.kicker.de/premier-league-2-division-1/tabelle",
-        "https://www.kicker.de/premier-league/tabelle",
-        "https://en.wikipedia.org/wiki/List_of_people_from_Chennai",
-        "https://en.wikipedia.org/wiki/India_national_football_team"
-      ],
-      "date": "2026-10-17T04:33:29.394805+00:00"
-    },
-    {
       "title": "Meta AI Research Introduces Muse Spark Open as Leading US Open‑Weight Model",
       "urls": [
         "https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation",
@@ -5030,7 +5020,15 @@
         "https://en.wikipedia.org/wiki/Fake_news"
       ],
       "date": "2026-10-27T04:32:07.317892+00:00"
+    },
+    {
+      "title": "SparkyLinux Releases 2026.03 Update Featuring New Kernel and Forky Foundation",
+      "urls": [
+        "https://www.notebookcheck.net/SparkyLinux-2026-03-comes-with-a-new-kernel-and-multiple-package-updates.1251230.0.html",
+        "https://itsfoss.com/news"
+      ],
+      "date": "2026-10-27T05:01:49.288860+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T04:32:07.317954+00:00"
+  "lastUpdated": "2026-10-27T05:01:49.288932+00:00"
 }
