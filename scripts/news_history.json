@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cris Cyborg Highlights Brazilian MMA's Enduring Influence in UFC 2026 Strategy",
-      "urls": [
-        "https://www.ufc.com/trending/all",
-        "https://mmasucka.com/opinion/cris-cyborgs-statement-about-brazilian-mma-rings-true-across-the-ufc-in-2026",
-        "https://www.mmafighting.com/ufc"
-      ],
-      "date": "2026-10-17T21:01:48.019314+00:00"
-    },
-    {
       "title": "Visually Impaired Students Showcase Assistive Technologies to Boost Independence and Learning",
       "urls": [
         "https://thehansindia.com/news/cities/vijayawada/visually-impaired-students-showcase-assistive-technologies-1130790",
@@ -5065,7 +5056,15 @@
         "https://www.coindesk.com/latest-crypto-news"
       ],
       "date": "2026-10-27T20:31:45.138050+00:00"
+    },
+    {
+      "title": "Tesla Secures AA Stock Rating Amid Strong Electric Vehicle and Energy Business",
+      "urls": [
+        "https://www.finanzen.net/aktien/tesla-aktie",
+        "https://www.boerse.de/aktien/Tesla-Aktie/US88160R1014"
+      ],
+      "date": "2026-10-27T21:02:06.006872+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T20:31:45.138137+00:00"
+  "lastUpdated": "2026-10-27T21:02:06.006944+00:00"
 }
