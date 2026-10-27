@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Pharma Companies Shift Focus Beyond US Amid Tariff Threat and Iran Conflict",
-      "urls": [
-        "https://www.pharmamanufacturing.com/quality-risk/supply-chain/article/55411019/indian-pharma-companies-look-for-options-beyond-us-amid-tariff-threat-globaldata",
-        "https://www.apple.com/apple-news",
-        "https://www.macrumors.com",
-        "https://www.dw.com/en/iran-war-squeezes-indias-pharma-supply-chain/a-76980858",
-        "https://www.indialaw.in/blog/regulatory/us-pharma-tariffs-2026-exporters"
-      ],
-      "date": "2026-10-16T23:31:39.559096+00:00"
-    },
-    {
       "title": "Meta Launches Open AI Model While Retaining Proprietary Technology for Developers",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-10-15/meta-releases-open-ai-model-while-keeping-its-best-tech-closed",
@@ -5028,7 +5017,17 @@
         "https://finance.yahoo.com/healthcare/articles/telemedicine-market-report-now-available-085000800.html"
       ],
       "date": "2026-10-26T23:31:31.876901+00:00"
+    },
+    {
+      "title": "OpenAI Unveils GPT‑6.1 Sol and Restores Terra Model at DevDay 2026",
+      "urls": [
+        "https://openai.com/index/devday-2026-recap",
+        "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model",
+        "https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Hugging_Face",
+        "https://openai.com/index/gpt-6-astra"
+      ],
+      "date": "2026-10-27T00:02:32.276813+00:00"
     }
   ],
-  "lastUpdated": "2026-10-26T23:31:31.876967+00:00"
+  "lastUpdated": "2026-10-27T00:02:32.276898+00:00"
 }
