@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "BBC Two Adds Audio Description Feature Via Red Button Enhancing Viewer Accessibility",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Cultural_impact_of_Coldplay",
-        "https://en.m.wikipedia.org/wiki/Deafness",
-        "https://en.wikipedia.org/wiki/List_of_films_with_post-credits_scenes_%282020s%29",
-        "https://hearinghealthmatters.org/category/hearing-news-watch",
-        "https://www.merriam-webster.com/dictionary/deaf",
-        "https://en.wikipedia.org/wiki/BBC_Two"
-      ],
-      "date": "2026-10-18T21:31:34.237917+00:00"
-    },
-    {
-      "title": "BairesDev Survey Shows AI Coding Adoption Surges to 42 Percent Among Developers",
-      "urls": [
-        "https://venturebeat.com/data/the-share-of-developers-using-ai-to-write-half-or-more-code-jumped-from-12-to-42-yoy-in-latest-bairesdev-survey",
-        "https://dotprotools.com/blog/new-ai-tools-october-2026",
-        "https://www.forbes.com/sites/quickerbettertech/2026/10/04/tech-news-this-week-muse-takes-on-small-business-and-mcdonalds-leans-into-ai"
-      ],
-      "date": "2026-10-18T22:01:37.247063+00:00"
-    },
-    {
       "title": "MIT Technology Review Highlights Ten Climate Tech Companies Driving Emissions Reduction",
       "urls": [
         "https://bostonlifesciencestimes.com/2026/10/mit-technology-review-names-10-climate-tech-companies-to-watch-in-2026"
@@ -5060,7 +5039,20 @@
         "https://www.abc.net.au/news/2026-09-07/deaf-hearing-impaired-auslan-services-changes/107084016"
       ],
       "date": "2026-10-28T21:31:32.820312+00:00"
+    },
+    {
+      "title": "AMD Challenges Nvidia With $300 Billion Valuation Boost in AI Inference Market",
+      "urls": [
+        "https://techstartups.com/2026/10/26/tech-news-today-october-26-2026-nvidia-metas-95b-ai-funding-plan-spacexs-40b-chip-deal-and-anthropic-security-breach",
+        "https://en.wikipedia.org/wiki/AMD",
+        "https://fool.com/coverage/better-buy/2026/10/28/advanced-micro-devices-vs-dell-technologies-which-technology-stock-is-a-better-buy-in-2026",
+        "https://benzinga.com/markets/prediction-markets/26/10/62355815/amd-nvidia-ai-inference-software-gains",
+        "https://aimultiple.com/ai-chip-makers",
+        "https://finance.yahoo.com/markets/stocks/articles/amd-vs-nvidia-only-own-164553523.html",
+        "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-10-02"
+      ],
+      "date": "2026-10-28T22:03:43.809619+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T21:31:32.820360+00:00"
+  "lastUpdated": "2026-10-28T22:03:43.809687+00:00"
 }
