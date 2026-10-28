@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel Pushes AI Chip Future on Unfinished 14A Process Amid Tesla Interest",
-      "urls": [
-        "https://dentro.de/ai/news",
-        "https://www.digitaltrends.com/computing/best-ai-tools",
-        "https://support.google.com/docs/answer/12315692?hl=en-GB",
-        "https://www.canva.com/de_de/help/download-or-purchase"
-      ],
-      "date": "2026-10-18T00:03:15.372260+00:00"
-    },
-    {
       "title": "Bengaluru FC Secures 2-0 Victory Over Chennaiyin FC in ISL 2026-27 Match",
       "urls": [
         "https://www.outlookindia.com/sports/football/bengaluru-fc-vs-chennaiyin-fc-live-score-isl-2026-27-updates-bfc-vs-cfc-indian-super-league-highlights",
@@ -5069,7 +5059,16 @@
         "https://aifundingtracker.com"
       ],
       "date": "2026-10-28T00:02:14.718967+00:00"
+    },
+    {
+      "title": "Star Sports Network Secures Rights to Broadcast Nepal Premier League 2026 in India",
+      "urls": [
+        "https://www.cricbuzz.com/live-cricket-scores/155376/rcb-vs-gt-qualifier-1-indian-premier-league-2026",
+        "https://livemint.com/sports/cricket-news/nepal-premier-league-live-streaming-in-india-which-tv-channels-will-telecast-npl-2026-games-date-time-full-schedule-11793031519451.html",
+        "https://business-standard.com/amp/sports/business/ipl-2027-auction-december-16-goa-retention-deadline-november-15-126102601223_1.html"
+      ],
+      "date": "2026-10-28T00:31:42.500258+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T00:02:14.719040+00:00"
+  "lastUpdated": "2026-10-28T00:31:42.500353+00:00"
 }
