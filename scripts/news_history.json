@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Warns Global Growth Slows Amid War‑Driven Inflation Pressures",
-      "urls": [
-        "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
-        "https://caselaw.findlaw.com/court/la-court-of-appeal/117393130.html",
-        "https://www.fifthcircuit.org/searchdocket.aspx",
-        "https://www.reuters.com/markets/econ-world",
-        "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry"
-      ],
-      "date": "2026-10-18T07:01:54.867928+00:00"
-    },
-    {
-      "title": "Telehealth Expands Access and Boosts Patient Satisfaction Across Rural Communities",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Telehealth",
-        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
-        "https://finance.yahoo.com/healthcare/articles/telemedicine-digital-health-market-2026-093200195.html",
-        "https://www.medicalnewstoday.com/articles/telemedicine",
-        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
-        "https://telehealth.org/telehealth-news"
-      ],
-      "date": "2026-10-18T07:31:24.589215+00:00"
-    },
-    {
       "title": "One Mind Awards $1.5 Million to Rising Star Mental Health Researchers",
       "urls": [
         "https://www.brightsurf.com/archive/2026/october",
@@ -5063,7 +5040,17 @@
         "https://www.thehindubusinessline.com/money-and-banking/rbi-monetary-policy-committee-mpc-meeting-octobe-7-2026-highlights-updates/article71551632.ece"
       ],
       "date": "2026-10-28T07:01:46.869178+00:00"
+    },
+    {
+      "title": "NHS Deploys AI System To Accelerate Cancer Diagnoses For Millions",
+      "urls": [
+        "https://www.healthcareitnews.com/topics/artificial-intelligence",
+        "https://www.mirror.co.uk/news/health/ai-cancer-diagnosis-nhs-trusts-37277525",
+        "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease",
+        "https://en.wikipedia.org/wiki/Expert_system"
+      ],
+      "date": "2026-10-28T07:31:32.409010+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T07:01:46.869227+00:00"
+  "lastUpdated": "2026-10-28T07:31:32.409071+00:00"
 }
