@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Launches Commercial Semiconductor Production at Semicon India 2026 Boosting Domestic Chip Ecosystem",
-      "urls": [
-        "https://www.livemint.com/technology/semicon-india-2026-day-2-live-updates-india-shifts-focus-from-semiconductor-policy-to-commercial-production-11789709711171.html",
-        "https://thehindu.com/news/national/indias-semiconductor-push-targets-chips-for-cars-tvs-power-infra-vaishnaw/article71488287.ece",
-        "https://economictimes.indiatimes.com/tech/technology/four-semiconductor-plants-in-india-to-begin-commercial-production-in-2026/articleshow/126305259.cms",
-        "https://entrepreneur.economictimes.indiatimes.com/news/long-reads/semicon-india-2026-indias-chip-bet-shifts-to-startup-capital/134334897"
-      ],
-      "date": "2026-10-18T04:01:36.758966+00:00"
-    },
-    {
       "title": "Cricket has a long history of play in Philadelphia, and the city’s sports listings identify it",
       "urls": [
         "https://en.wikipedia.org/wiki/Sports_in_Philadelphia",
@@ -5058,7 +5048,18 @@
         "https://spaceflightnow.com/2026/10"
       ],
       "date": "2026-10-28T03:31:49.179083+00:00"
+    },
+    {
+      "title": "IBM partners with India's Ministry of Electronics and Information Technology to support deep",
+      "urls": [
+        "https://the420.in/india-cyber-tech-brief-23-october-2026-emudhra-sim-box-ai-security",
+        "https://www.hindustantimes.com/technology/ibm-partners-with-meity-to-boost-india-s-deep-tech-startups-md-outlines-vision-for-digital-swaraj-101791882003982.html",
+        "https://orfonline.org/expert-speak/to-regulate-or-not-to-regulate-india-s-ai-dilemma",
+        "https://www.digitalindia.gov.in?post_type=press_release",
+        "https://www.meity.gov.in"
+      ],
+      "date": "2026-10-28T04:02:09.481581+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T03:31:49.179156+00:00"
+  "lastUpdated": "2026-10-28T04:02:09.481641+00:00"
 }
