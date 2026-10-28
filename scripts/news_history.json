@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cricket has a long history of play in Philadelphia, and the city’s sports listings identify it",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Sports_in_Philadelphia",
-        "https://sports.yahoo.com/news",
-        "https://forum.tt-news.de/forumdisplay.php?f=47",
-        "https://sports.yahoo.com/news?fr=sycsrp_catchall",
-        "https://www.newsx.com/sports",
-        "https://forum.tt-news.de",
-        "https://en.wikipedia.org/wiki/Prominent_women%27s_sports_leagues_in_the_United_States_and_Canada",
-        "https://www.skysports.com/football"
-      ],
-      "date": "2026-10-18T04:31:51.860852+00:00"
-    },
-    {
       "title": "OpenAI Doubles ChatGPT Adoption in India With New Hindi Voice Feature",
       "urls": [
         "https://thehindubusinessline.com/info-tech/chatgpt-usage-doubles-in-india-over-past-year-openai-expands-hindi-voice-capabilities/article71589092.ece",
@@ -5068,7 +5054,16 @@
         "https://www.indianmotorcycle.com/en-us/motorcycles"
       ],
       "date": "2026-10-28T04:31:34.269437+00:00"
+    },
+    {
+      "title": "Windows 10 Adds Simple Brightness Controls for Users to Reduce Eye Strain and Save Battery",
+      "urls": [
+        "https://akselera.tech/en/insights/deep-dive/open-source-ai-models",
+        "https://www.wikihow.com/Adjust-Screen-Brightness-in-Windows-10",
+        "https://www.transfermarkt.de/premier-ligk/gesamtspielplan/wettbewerb/GB1"
+      ],
+      "date": "2026-10-28T05:01:46.854616+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T04:31:34.269505+00:00"
+  "lastUpdated": "2026-10-28T05:01:46.854685+00:00"
 }
