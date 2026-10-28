@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Robot Conference 2026 Showcases Humanoid Robots and Embodied AI to Drive Industrial Productivity",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Artificial_human_companion",
-        "https://seekingalpha.com/article/4944864-ai-robotics-in-2026-16-recent-developments-for-investors",
-        "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements",
-        "https://airoboticdaily.com/ai-robotic-products/world-robot-conference-2026",
-        "https://roboticsreports.com/what-is-new-with-research-robotics-in-october-2026-latest-company-releases-and-research-papers-and-key-takeaways"
-      ],
-      "date": "2026-10-18T09:01:54.550729+00:00"
-    },
-    {
-      "title": "Smart Meter Offers Three Reading Options to Empower Household Energy Management",
-      "urls": [
-        "https://www.theguardian.com/artanddesign/2026/sep/21/deaf-city-hub-cultural-centre",
-        "https://www.abc.net.au/news/2026-09-07/deaf-hearing-impaired-auslan-services-changes/107084016",
-        "https://rnid.org.uk/category/technology-and-assistive-devices",
-        "https://nationaldeafcenter.org/resources/deaf-awareness",
-        "https://www.metrify.de/smart-meter/auslesen"
-      ],
-      "date": "2026-10-18T09:31:26.862061+00:00"
-    },
-    {
       "title": "Open-Source LLM Landscape Shifts as Release Timeline and Top Models Highlight Growing Fragmentation",
       "urls": [
         "https://llmgateway.io/timeline",
@@ -5066,7 +5044,16 @@
         "https://indianexpress.com/article/explained/explained-global/us-perm-suspension-indian-it-firms-green-card-workers-explained-10913011"
       ],
       "date": "2026-10-28T09:01:53.421965+00:00"
+    },
+    {
+      "title": "Visually Launches AI‑Powered A/B Testing Platform Integrating Claude and ChatGPT via MCP",
+      "urls": [
+        "https://www.visually.io",
+        "https://help.visually.io/getting-started-with-visually.io",
+        "https://www.merriam-webster.com/dictionary/visually"
+      ],
+      "date": "2026-10-28T09:31:38.021292+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T09:01:53.422012+00:00"
+  "lastUpdated": "2026-10-28T09:31:38.021359+00:00"
 }
