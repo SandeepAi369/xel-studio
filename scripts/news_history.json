@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Doubles ChatGPT Adoption in India With New Hindi Voice Feature",
-      "urls": [
-        "https://thehindubusinessline.com/info-tech/chatgpt-usage-doubles-in-india-over-past-year-openai-expands-hindi-voice-capabilities/article71589092.ece",
-        "https://corover.ai/blogs/google-deepmind-invests-in-corover-ai-creator-of-indias-first-large-language-model-bharatgpt"
-      ],
-      "date": "2026-10-18T05:01:53.429011+00:00"
-    },
-    {
-      "title": "Autism Neurodiversity Technology Support News New Developments October 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://autismsociety.org/capitol-connection-october-15-2026",
-        "https://en.wikipedia.org/wiki/History_of_autism",
-        "https://en.wikipedia.org/wiki/Societal_and_cultural_aspects_of_autism",
-        "https://www.abc.net.au/news/2026-08-15/act-disability-autism-neurodiversity-minister-cautiously-welcome/107040226"
-      ],
-      "date": "2026-10-18T05:31:25.743164+00:00"
-    },
-    {
       "title": "Google Unveils Willow Quantum Chip Reducing Errors Raising Bitcoin Security Concerns",
       "urls": [
         "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing",
@@ -5063,7 +5045,20 @@
         "https://www.transfermarkt.de/premier-ligk/gesamtspielplan/wettbewerb/GB1"
       ],
       "date": "2026-10-28T05:01:46.854616+00:00"
+    },
+    {
+      "title": "World Health Organization Issues Updated Disability Inclusion Report Guiding Global Policy Reform",
+      "urls": [
+        "https://royalsociety.org/news/2025/06/disability-technology",
+        "https://basketball.realgm.com/nba/teams/San-Antonio-Spurs/26/staff-members",
+        "https://www.computerweekly.com/news/366643997/DfE-proposes-changes-to-student-funding-for-assistive-technology",
+        "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
+        "https://www.thestar.com.my/news/world/2026/09/18/news-analysis-assistive-technology-advances-in-europe-but-access-barriers-persist",
+        "https://www.nba.com/spurs/news/spursannouncecoachingstaffadditionsandpromotions",
+        "https://www.microassist.com/digital-access/news"
+      ],
+      "date": "2026-10-28T05:31:31.044701+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T05:01:46.854685+00:00"
+  "lastUpdated": "2026-10-28T05:31:31.044762+00:00"
 }
