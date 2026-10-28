@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Brittany Cyriacks is a recognized clinical informatics leader who will",
-      "urls": [
-        "https://www.bbc.com/news/topics/cx1m7zg0w38t",
-        "https://en.wikipedia.org/wiki/Health_care",
-        "https://www.healthcareitnews.com/topics/artificial-intelligence"
-      ],
-      "date": "2026-10-17T23:31:49.415701+00:00"
-    },
-    {
       "title": "Intel Pushes AI Chip Future on Unfinished 14A Process Amid Tesla Interest",
       "urls": [
         "https://dentro.de/ai/news",
@@ -5070,7 +5061,15 @@
         "https://www.healthcareitnews.com/topics/telehealth"
       ],
       "date": "2026-10-27T23:31:36.544081+00:00"
+    },
+    {
+      "title": "Funding Surge Pushes Total Investment Past $40 Billion as Top Deals Reach $5 Billion",
+      "urls": [
+        "https://aifunding.me/roundups/october-2026",
+        "https://aifundingtracker.com"
+      ],
+      "date": "2026-10-28T00:02:14.718967+00:00"
     }
   ],
-  "lastUpdated": "2026-10-27T23:31:36.544175+00:00"
+  "lastUpdated": "2026-10-28T00:02:14.719040+00:00"
 }
