@@ -24,11 +24,12 @@ export const metadata: Metadata = {
     template: "%s | XeL Studio",
   },
   description:
-    "XeL Studio is an AI research and cyber security platform by Sandeep. Explore automated AI news, research articles, AI chat (Gemini), security tools, text-to-speech, and more.",
+    "XeL Studio by Sandeep: in-depth AI research articles on LLMs, Gemini, ChatGPT, Claude and AI agents, with text-to-speech listening, plus AI chat, AI labs and cyber security tools.",
   keywords: [
-    "AI Research", "Cyber Security", "AI News", "LLM", "Machine Learning",
-    "Security Tools", "AI Chat", "Gemini AI", "Research Articles",
-    "Text-to-Speech", "Artificial Intelligence", "XeL Studio",
+    "AI Research", "AI articles", "AI blog", "LLM", "Large Language Models",
+    "Gemini", "ChatGPT", "Claude", "AI agents", "Machine Learning",
+    "Artificial Intelligence", "Research Articles", "Cyber Security",
+    "Security Tools", "AI Chat", "Text-to-Speech", "Sandeep", "XeL Studio",
   ],
   authors: [{ name: "Sandeep", url: "https://github.com/SandeepAi369" }],
   creator: "Sandeep",

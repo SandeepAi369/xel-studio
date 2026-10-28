@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Store | XeL Studio',
+    // Root layout template appends " | XeL Studio"
+    title: 'Store',
     description:
         'Digital store featuring premium APKs, bots, and developer tools. Direct downloads with progress tracking and ghost download technology.',
     openGraph: {

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'AI Labs | XeL Studio',
+    // Root layout template appends " | XeL Studio"
+    title: 'AI Labs',
     description:
         'Research and experimental AI models, custom automation systems, and AI projects by Sandeep. Projects categorized as Active, Experimental, or Archived.',
     openGraph: {
