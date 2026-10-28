@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Security Tools | XeL Studio',
+    // Root layout template appends " | XeL Studio"
+    title: 'Security Tools',
     description:
         'Curated cyber security tools and resources. Categories: Encryption, Forensics, Penetration Testing, Authentication. Part of the Shield security section.',
     openGraph: {

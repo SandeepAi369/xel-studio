@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'AI Chat | XeL Studio',
+    // Root layout template appends " | XeL Studio"
+    title: 'AI Chat',
     description:
         'Chat with an AI assistant powered by Google Gemini 2.5 Flash and 3 Flash. Real-time streaming responses with markdown rendering, code highlighting, and persistent chat history.',
     openGraph: {

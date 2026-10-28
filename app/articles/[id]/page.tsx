@@ -6,7 +6,7 @@ import { getSupabaseAdmin } from '@/lib/supabase';
 import SmartListenButton from '@/components/SmartListenButton';
 import { prepareTTSText } from '@/lib/tts-text';
 import { markdownToSafeHtml } from '@/lib/markdown-server';
-import { markdownToPlainText, excerpt, articleDate } from '@/lib/article-feed';
+import { markdownToPlainText, excerpt, articleDate, articleKeywords } from '@/lib/article-feed';
 import { cache } from 'react';
 import type { Metadata } from 'next';
 
@@ -133,7 +133,7 @@ export default async function ArticlePage({
                 "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl },
                 "url": canonicalUrl,
                 "image": article.image ? [article.image] : [],
-                "keywords": article.category || undefined,
+                "keywords": articleKeywords(article).join(', '),
                 "wordCount": wordCount,
                 "timeRequired": `PT${readingTime}M`,
                 "inLanguage": "en",
@@ -296,6 +296,8 @@ export async function generateMetadata({
     return {
         title: article.title,
         description,
+        keywords: articleKeywords(article),
+        authors: [{ name: 'Sandeep', url: 'https://github.com/SandeepAi369' }],
         alternates: {
             canonical: url,
             types: {

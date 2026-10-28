@@ -59,6 +59,26 @@ export function excerpt(text: string, max: number): string {
     return `${(lastSpace > max * 0.6 ? cut.slice(0, lastSpace) : cut).trim()}…`;
 }
 
+// Topics an article is tagged with when its title or opening mentions them.
+const TOPIC_KEYWORDS = [
+    'Gemini', 'ChatGPT', 'GPT', 'OpenAI', 'Claude', 'Anthropic', 'Llama', 'Meta AI',
+    'DeepSeek', 'Qwen', 'Mistral', 'Grok', 'Copilot', 'Perplexity', 'Hugging Face',
+    'LLM', 'AI agents', 'AI coding', 'prompt engineering', 'RAG', 'fine-tuning',
+    'reasoning models', 'open source', 'machine learning', 'deep learning',
+    'neural network', 'transformer', 'cyber security', 'privacy', 'Android',
+    'Linux', 'Python', 'automation', 'benchmark',
+];
+
+/** Per-article search keywords: category, matched topics, then site terms. */
+export function articleKeywords(a: { title: string; content: string; category?: string | null }): string[] {
+    const text = `${a.title} ${markdownToPlainText(a.content).slice(0, 3000)}`;
+    const topics = TOPIC_KEYWORDS.filter((k) =>
+        new RegExp(`(^|[^A-Za-z0-9])${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^A-Za-z0-9]|$)`, 'i').test(text)
+    );
+    const all = [a.category, ...topics, 'AI', 'artificial intelligence', 'AI research articles', 'Sandeep', 'XeL Studio'];
+    return [...new Set(all.filter((k): k is string => !!k && k.trim() !== ''))];
+}
+
 export function articleDate(a: { date?: string | null; created_at?: string | null }): Date {
     for (const raw of [a.date, a.created_at]) {
         if (!raw) continue;
