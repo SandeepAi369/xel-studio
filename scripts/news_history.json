@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open-Source LLM Landscape Shifts as Release Timeline and Top Models Highlight Growing Fragmentation",
-      "urls": [
-        "https://llmgateway.io/timeline",
-        "https://www.shakudo.io/blog/top-9-large-language-models",
-        "https://codersera.com/blog/open-source-llms-landscape-2026"
-      ],
-      "date": "2026-10-18T10:02:05.947898+00:00"
-    },
-    {
       "title": "Bioengineer.org Releases AI‑Generated Analysis on Justice, Finance, and Institutional Failures in Low‑Carbon Transitions",
       "urls": [
         "https://bioengineer.org/why-low-carbon-transitions-fail-without-justice-institutions-and-finance",
@@ -5053,7 +5044,15 @@
         "https://www.merriam-webster.com/dictionary/visually"
       ],
       "date": "2026-10-28T09:31:38.021292+00:00"
+    },
+    {
+      "title": "Mistral Launches Le Chonk Model Claiming Best Open‑Weight AI Outside China",
+      "urls": [
+        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
+        "https://www.cnn.com/2026/10/07/business/mistral-ai-open-weight"
+      ],
+      "date": "2026-10-28T10:02:14.797095+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T09:31:38.021359+00:00"
+  "lastUpdated": "2026-10-28T10:02:14.797166+00:00"
 }
