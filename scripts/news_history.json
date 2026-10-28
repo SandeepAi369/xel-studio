@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Technology Review Highlights Ten Climate Tech Companies Driving Emissions Reduction",
-      "urls": [
-        "https://bostonlifesciencestimes.com/2026/10/mit-technology-review-names-10-climate-tech-companies-to-watch-in-2026"
-      ],
-      "date": "2026-10-18T22:31:25.463513+00:00"
-    },
-    {
       "title": "Open Source AI Frameworks Lead 2026 Development with TensorFlow, PyTorch, Keras",
       "urls": [
         "https://opensourcealliance.org/popular-open-source-ai-frameworks-2026"
@@ -5052,7 +5045,17 @@
         "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-10-02"
       ],
       "date": "2026-10-28T22:03:43.809619+00:00"
+    },
+    {
+      "title": "COP30 Highlights New Climate Baseline Study Updating Global Temperature Projections",
+      "urls": [
+        "https://www.sciencealert.com/global-warming-has-nearly-doubled-in-speed-since-2010-major-report-finds",
+        "https://health.economictimes.indiatimes.com/news/industry/as-cop30-gathers-whats-the-latest-in-climate-science/125202445",
+        "https://economictimes.indiatimes.com/news/environment/global-warming",
+        "https://en.wikipedia.org/wiki/Climate_change_adaptation"
+      ],
+      "date": "2026-10-28T22:31:36.107280+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T22:03:43.809687+00:00"
+  "lastUpdated": "2026-10-28T22:31:36.107361+00:00"
 }
