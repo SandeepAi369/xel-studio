@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch and TensorFlow Comparison Survey Highlights Strengths and Future Challenges",
-      "urls": [
-        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
-        "https://arxiv.org/html/2508.04035v1",
-        "https://www.digitalocean.com/community/tutorials/pytorch-vs-tensorflow",
-        "https://arxiv.org/abs/2508.04035"
-      ],
-      "date": "2026-10-18T18:31:26.966339+00:00"
-    },
-    {
       "title": "Scientists Identify Natural Compound That May Shield Brain From Damage",
       "urls": [
         "https://sciencedaily.com/news/top/health",
@@ -5051,7 +5041,15 @@
         "https://thediplomat.com/2026/10/indias-energy-transition-is-complicated-but-progressing"
       ],
       "date": "2026-10-28T18:02:02.715968+00:00"
+    },
+    {
+      "title": "Mistral AI Expands Open Source LLM Reach Across Global Developer Community",
+      "urls": [
+        "https://www.ibm.com/think/topics/mistral-ai",
+        "https://en.wikipedia.org/wiki/List_of_large_language_models"
+      ],
+      "date": "2026-10-28T18:31:44.413826+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T18:02:02.716040+00:00"
+  "lastUpdated": "2026-10-28T18:31:44.413893+00:00"
 }
