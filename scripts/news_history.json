@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source AI Frameworks Lead 2026 Development with TensorFlow, PyTorch, Keras",
-      "urls": [
-        "https://opensourcealliance.org/popular-open-source-ai-frameworks-2026"
-      ],
-      "date": "2026-10-18T23:01:44.060739+00:00"
-    },
-    {
       "title": "India Advances Digital Health Network While Targeting Last Mile Expansion",
       "urls": [
         "https://expresshealthcare.in/news/india-has-built-the-healthcare-network-now-it-must-build-the-last-mile/455592"
@@ -5055,7 +5048,17 @@
         "https://en.wikipedia.org/wiki/Climate_change_adaptation"
       ],
       "date": "2026-10-28T22:31:36.107280+00:00"
+    },
+    {
+      "title": "CoRover.ai Deploys Full‑Stack BharatGPT Platform to Accelerate Indic Language AI Solutions",
+      "urls": [
+        "https://bharatgpt.ai",
+        "https://analyticsindiamag.com/it-services/bharatgpt-aims-to-become-meta-of-indic-llms",
+        "https://dev.to/go_learnsap_5ab6ad5074d7/indian-alternatives-to-chatgpt-the-best-sovereign-ai-models-built-in-bharat-2026-39hg",
+        "https://www.opensourceforu.com"
+      ],
+      "date": "2026-10-28T23:01:47.221451+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T22:31:36.107361+00:00"
+  "lastUpdated": "2026-10-28T23:01:47.221517+00:00"
 }
