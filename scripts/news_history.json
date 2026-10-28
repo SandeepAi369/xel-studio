@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sudan’s Humanitarian Crisis Deepens As Millions Remain Displaced Amid Fourth Year Conflict",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Refugee",
-        "https://www.thenationalnews.com/news/mena/2026/10/18/sudans-humanitarian-crisis-deepens-as-millions-face-displacement-and-aid-funding-shortages",
-        "https://en.wikipedia.org/wiki/Refugee_crisis",
-        "https://news.un.org/en/story/2026/09/1168364",
-        "https://www.concern.net/news/largest-refugee-crises",
-        "https://www.icmc.net/2026/04/14/understanding-global-displacement-in-2026-the-crisis-behind-the-headlines",
-        "https://www.cfr.org/articles/what-extent-sudans-humanitarian-crisis",
-        "https://www.versicherungscheck24.de/rechtsschutzversicherung/europa",
-        "https://press.un.org/en/refugees"
-      ],
-      "date": "2026-10-18T20:01:39.243809+00:00"
-    },
-    {
       "title": "CRISPR Reverses Chemotherapy Damage in Promising New Gene Editing Study",
       "urls": [
         "https://en.wikipedia.org/wiki/Science",
@@ -5053,7 +5038,16 @@
         "https://www.sciencedaily.com/news/matter_energy/quantum_computing"
       ],
       "date": "2026-10-28T19:31:35.985621+00:00"
+    },
+    {
+      "title": "UN Data Shows Migrant Deaths Surge Sharply Across Global 2026",
+      "urls": [
+        "https://news.un.org/en/story/2026/08/1168127",
+        "https://refugeeresearch.net/october-1-2026-rrn-research-digest",
+        "https://news.un.org/en/focus-topic/refugees-and-migrants"
+      ],
+      "date": "2026-10-28T20:01:43.202201+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T19:31:35.985698+00:00"
+  "lastUpdated": "2026-10-28T20:01:43.202277+00:00"
 }
