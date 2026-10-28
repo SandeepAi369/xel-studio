@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Audi India Expands Luxury Lineup With New Sedans SUVs and Electric Models",
-      "urls": [
-        "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19",
-        "https://www.audi.in/en",
-        "https://www.premierleague.com/en/tables/premier-league",
-        "https://www.carwale.com/audi-cars"
-      ],
-      "date": "2026-10-18T14:31:24.801125+00:00"
-    },
-    {
       "title": "Newsweek Honors AI Innovations Transforming Health Care Delivery in 2026 Awards",
       "urls": [
         "https://newsweek.com/newsweeks-ai-impact-health-awards-2026-winners-12473649",
@@ -5050,7 +5040,16 @@
         "https://blog.youtube"
       ],
       "date": "2026-10-28T14:02:30.212119+00:00"
+    },
+    {
+      "title": "Mumbai Indians Showcase Record Five IPL Titles and Two CLT20 Wins on Updated Official Site",
+      "urls": [
+        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-23.html",
+        "https://www.mumbaiindians.com",
+        "https://ijr.com/discover/there-s-a-new-development-blowing-up-america-s-ai-debate-58e528f8"
+      ],
+      "date": "2026-10-28T14:31:43.101531+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T14:02:30.212192+00:00"
+  "lastUpdated": "2026-10-28T14:31:43.101594+00:00"
 }
