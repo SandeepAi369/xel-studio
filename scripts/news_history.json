@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "CRISPR Reverses Chemotherapy Damage in Promising New Gene Editing Study",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Science",
-        "https://en.wikipedia.org/wiki/2025_in_science",
-        "https://www.premierleague.com",
-        "https://www.nature.com/nature/articles?type=research-highlight&year=2026"
-      ],
-      "date": "2026-10-18T20:31:30.749052+00:00"
-    },
-    {
       "title": "Neeraj Chopra Wins Asian Games Javelin Gold, Boosting India's Medal Count",
       "urls": [
         "https://apps.microsoft.com/detail/9nrx63209r7b?hl=en-US&gl=US",
@@ -5047,7 +5037,21 @@
         "https://news.un.org/en/focus-topic/refugees-and-migrants"
       ],
       "date": "2026-10-28T20:01:43.202201+00:00"
+    },
+    {
+      "title": "Crew‑12 NASA and SpaceX’s Crew‑12 mission completed an eight‑month expedition aboard the International Space Station, fulfilling its",
+      "urls": [
+        "https://www.nasaspaceflight.com",
+        "https://sciencedaily.com/releases/2026/10/261016070628.htm",
+        "https://www.sciencedaily.com/releases/2026/10/261016070635.htm",
+        "https://en.wikipedia.org/wiki/SpaceX_launch_vehicles",
+        "https://www.premierleague.com/en/tables/premier-league",
+        "https://spaceflightnow.com/2026/10/01/live-coverage-nasa-spacex-to-launch-next-crewed-mission-to-the-international-space-station",
+        "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station",
+        "https://www.bbc.co.uk/sport/football/premier-league/table"
+      ],
+      "date": "2026-10-28T20:32:11.079077+00:00"
     }
   ],
-  "lastUpdated": "2026-10-28T20:01:43.202277+00:00"
+  "lastUpdated": "2026-10-28T20:32:11.079156+00:00"
 }
