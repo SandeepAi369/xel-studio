@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source Large Language Model Release News Latest Updates October 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026",
-        "https://www.thunderbird-mail.de/lexicon/entry/131-e-mail-konto-pop3-einrichten",
-        "https://all.accor.com/hotel/0430/index.en.shtml"
-      ],
-      "date": "2026-10-19T02:01:39.606949+00:00"
-    },
-    {
       "title": "United States Tariffs Raise Generic Drug Prices, India Pharma CEO Warns of Supply Risks",
       "urls": [
         "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
@@ -5065,7 +5055,17 @@
         "https://www.sciencedaily.com/news/earth_climate/ecology"
       ],
       "date": "2026-10-29T01:31:36.339751+00:00"
+    },
+    {
+      "title": "Meta Releases Muse Spark Open Weights Enabling Researchers to Build Advanced Multimodal AI Applications",
+      "urls": [
+        "https://llm-stats.com/llm-updates",
+        "https://aitoolsrecap.com/Blog/upcoming-ai-models-2026-release-tracker",
+        "https://www.macstories.net/news/meta-releases-muse-spark-open-an-over-800-billion-parameter-model-that-can-run-locally-on-multiple-m5-ultra-mac-studios",
+        "https://www.llm-releases.com"
+      ],
+      "date": "2026-10-29T02:02:13.992263+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T01:31:36.339823+00:00"
+  "lastUpdated": "2026-10-29T02:02:13.992327+00:00"
 }
