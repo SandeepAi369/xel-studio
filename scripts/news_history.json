@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Adds Systemwide Accessibility Reader and Reading Mode to VisionOS",
-      "urls": [
-        "https://sciencedaily.com/news/space_time/space_exploration"
-      ],
-      "date": "2026-10-19T03:31:29.916935+00:00"
-    },
-    {
       "title": "Skyroot Aerospace Launches Vikram-1 Rocket as India’s First Private Unicorn Space Company",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
@@ -5071,7 +5064,19 @@
         "https://indianexpress.com/about/supreme-court"
       ],
       "date": "2026-10-29T03:02:07.552691+00:00"
+    },
+    {
+      "title": "Nature Study Shows Stone and Water Guided Early Desert Settlements",
+      "urls": [
+        "https://sciencedaily.com/news/plants_animals/microbiology",
+        "https://en.wikipedia.org/wiki/2025_in_science",
+        "https://en.wikipedia.org/wiki/Science",
+        "https://www.sciencedirect.com",
+        "https://en.wikipedia.org/wiki/2019_in_science",
+        "https://www.nature.com"
+      ],
+      "date": "2026-10-29T03:31:39.350423+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T03:02:07.552788+00:00"
+  "lastUpdated": "2026-10-29T03:31:39.350498+00:00"
 }
