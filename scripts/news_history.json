@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Launches National Nursing Policy Workshop to Elevate Care Standards in India",
-      "urls": [
-        "https://www.who.int/india",
-        "https://www.who.int/india/news-room",
-        "https://www.who.int/countries/ind",
-        "https://www.outlookindia.com/topic/public-health",
-        "https://www.who.int/news-room/headlines",
-        "https://www.publichealthchronicle.in",
-        "https://www.who.int/india/news-room/1",
-        "https://frontline.thehindu.com/the-nation/public-health"
-      ],
-      "date": "2026-10-19T23:31:30.512665+00:00"
-    },
-    {
       "title": "Analysts say Meta’s launch aims to close the gap after earlier reports",
       "urls": [
         "https://interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -5051,7 +5037,14 @@
         "https://www.zeebiz.com/companies/news-tech-mahindra-partners-coroverai-to-expand-bharatgpt-sovereign-ai-globally-402730"
       ],
       "date": "2026-10-29T23:02:11.657445+00:00"
+    },
+    {
+      "title": "System Detects Early Pancreatic Cancer Signs Years Before Traditional Diagnosis",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
+      ],
+      "date": "2026-10-29T23:31:46.719711+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T23:02:11.657512+00:00"
+  "lastUpdated": "2026-10-29T23:31:46.719766+00:00"
 }
