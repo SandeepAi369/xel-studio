@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Shifts to Infrastructure, Expands Open‑Source Model Hub for Global Developers",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/heck-hugging-face-why-did-124000277.html",
-        "https://www.ibm.com/think/topics/hugging-face",
-        "https://en.wikipedia.org/wiki/Qwen"
-      ],
-      "date": "2026-10-19T18:31:49.461177+00:00"
-    },
-    {
       "title": "India Pays Hospitals for Accreditation Yet Majority Decline Participation Under AB-PMJAY",
       "urls": [
         "https://bioengineer.org/india-pays-hospitals-to-get-accredited-but-most-are-not-buying-it",
@@ -5053,7 +5044,15 @@
         "https://www.reuters.com/business/environment/india-expected-have-below-average-monsoon-rains-2026-weather-office-says-2026-05-29"
       ],
       "date": "2026-10-29T18:01:45.992094+00:00"
+    },
+    {
+      "title": "Wikipedia – This 2026 edition integrates the ICD‑10 classification system, displaying the official diagnostic code alongside the article title, providing",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together",
+        "https://de.m.wikipedia.org/wiki/COVID-19"
+      ],
+      "date": "2026-10-29T18:31:54.120193+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T18:01:45.992160+00:00"
+  "lastUpdated": "2026-10-29T18:31:54.120264+00:00"
 }
