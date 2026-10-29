@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Department of Energy Unveils AI Infrastructure Plan to Accelerate National Supercomputing",
-      "urls": [
-        "https://riorundown.substack.com/p/ai-news-oct-17-2026-ai-infrastructure",
-        "https://www.datacenterdynamics.com/en",
-        "https://en.wikipedia.org/wiki/15.ai",
-        "https://note.com/rinrinlw/n/nee1fd7a9a125?hl=en",
-        "https://www.cloudflare.com/learning/cloud/what-is-the-cloud"
-      ],
-      "date": "2026-10-19T11:31:29.432287+00:00"
-    },
-    {
       "title": "Booking.com Highlights Ten Affordable London Hotels Starting At £52 For Budget Travelers",
       "urls": [
         "https://www.booking.com/city/gb/london.en-gb.html?msockid=0fbe2bade944606d162f3c5ae8e76191"
@@ -5054,7 +5043,16 @@
         "https://nutravyntra.com/2026/10/05/digital-health-news-today"
       ],
       "date": "2026-10-29T11:02:13.906352+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT‑6.1 Sol Model and $500 Enterprise Plan for Large‑Scale AI Deployments",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI",
+        "https://www.microcenter.com/site/mc-news/article/this-week-in-ai-oct-2-2026.aspx",
+        "https://shattered.io/what-changed-in-october-2026-two-new-model-families-one-week-apart"
+      ],
+      "date": "2026-10-29T11:32:02.048675+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T11:02:13.906429+00:00"
+  "lastUpdated": "2026-10-29T11:32:02.048760+00:00"
 }
