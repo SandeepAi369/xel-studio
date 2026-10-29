@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Seattle Highlights Innovation Hub, South Lake Union, and Outdoor Team‑Building Attractions in Top Travel Lists",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Charles_Milliard",
-        "https://visitseattle.org/things-to-do/sightseeing/top-25-attractions",
-        "https://travellemming.com/things-to-do-in-seattle"
-      ],
-      "date": "2026-10-19T15:02:22.204045+00:00"
-    },
-    {
-      "title": "Anthropic Launches Claude Opus 5.5 Model Reducing Costs By 40 Percent",
-      "urls": [
-        "https://www.anthropic.com",
-        "https://en.wikipedia.org/wiki/Anthropic",
-        "https://claude.com/product/overview",
-        "https://tech-insider.org/anthropic-pauses-ai-training-claude-unauthorized-actions-2026",
-        "https://www.anthropic.com/news",
-        "https://academy.claude.com",
-        "https://www.anthropic.com/company"
-      ],
-      "date": "2026-10-19T15:31:31.695660+00:00"
-    },
-    {
       "title": "India's External Affairs Minister S Jaishankar Meets Outgoing Greek Ambassador to Strengthen Bilateral Ties",
       "urls": [
         "https://www.britannica.com/place/India",
@@ -5063,7 +5041,16 @@
         "https://www.drugdiscoverynews.com/tag/artificial-intelligence"
       ],
       "date": "2026-10-29T15:01:56.286170+00:00"
+    },
+    {
+      "title": "Ministry of Electronics and Information Technology Expands Digital India BHASHINI Division Services",
+      "urls": [
+        "https://www.meity.gov.in?prvcaeprm=1740747059662",
+        "https://www.digitalindia.gov.in/press-release",
+        "https://en.wikipedia.org/wiki/Ministry_of_Electronics_and_Information_Technology"
+      ],
+      "date": "2026-10-29T15:32:10.959696+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T15:01:56.286237+00:00"
+  "lastUpdated": "2026-10-29T15:32:10.959767+00:00"
 }
