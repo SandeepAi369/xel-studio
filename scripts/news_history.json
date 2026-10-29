@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Tariffs Raise Generic Drug Prices, India Pharma CEO Warns of Supply Risks",
-      "urls": [
-        "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-        "https://www.aol.com"
-      ],
-      "date": "2026-10-19T02:31:27.524836+00:00"
-    },
-    {
       "title": "RBI Considers Full Rate Hike Amid Global Economic Turbulence and 20‑Year Loan Stability",
       "urls": [
         "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-soon-date-announcement-time-members-monetary-policy-review-expectations-11790931729661.html",
@@ -5065,7 +5057,18 @@
         "https://www.llm-releases.com"
       ],
       "date": "2026-10-29T02:02:13.992263+00:00"
+    },
+    {
+      "title": "Kerala Launches Calendar‑Based Strategy to Strengthen Infectious Disease Prevention Across State",
+      "urls": [
+        "https://thehindu.com/news/national/kerala/keralam-to-adopt-calendar-based-infectious-disease-prevention-strategy/article71616038.ece",
+        "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+        "https://en.wikipedia.org/wiki/Microsoft_Bing",
+        "https://en.wikipedia.org/wiki/Public_Sector_Undertakings_in_India",
+        "https://theprint.in/ani-press-releases/nature-conference-india-2026-at-mahe-manipal-puts-infectious-disease-threats-under-the-scientific-spotlight/3073952"
+      ],
+      "date": "2026-10-29T02:31:33.169756+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T02:02:13.992327+00:00"
+  "lastUpdated": "2026-10-29T02:31:33.169828+00:00"
 }
