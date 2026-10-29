@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Americans Voice Concern Over Rapid AI Development as Companies Boost Spending",
-      "urls": [
-        "https://techstartups.com/2026/10/09/top-ai-news-stories-this-week-october-5-9-2026",
-        "https://en.wikipedia.org/wiki/2026",
-        "https://www.ciol.com/news/github-27-million-developers-india-open-source-ai-growth-11720405",
-        "https://en.wikipedia.org/wiki/GitHub",
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/github-india-developer-base-hits-27-million-amid-ai-driven-coding-surge/130222912",
-        "https://en.wikipedia.org/wiki/Red_Hat"
-      ],
-      "date": "2026-10-19T23:01:42.915509+00:00"
-    },
-    {
       "title": "World Health Organization Launches National Nursing Policy Workshop to Elevate Care Standards in India",
       "urls": [
         "https://www.who.int/india",
@@ -5055,7 +5043,15 @@
         "https://en.wikipedia.org/wiki/Department_for_Science%2C_Innovation_and_Technology"
       ],
       "date": "2026-10-29T22:31:38.533779+00:00"
+    },
+    {
+      "title": "India Celebrates Festival Commemorating Good Over Evil with Nationwide Rituals",
+      "urls": [
+        "https://www.bbc.com/news/world/asia/india",
+        "https://www.zeebiz.com/companies/news-tech-mahindra-partners-coroverai-to-expand-bharatgpt-sovereign-ai-globally-402730"
+      ],
+      "date": "2026-10-29T23:02:11.657445+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T22:31:38.533846+00:00"
+  "lastUpdated": "2026-10-29T23:02:11.657512+00:00"
 }
