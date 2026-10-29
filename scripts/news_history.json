@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Expands Open-Source Platform as AI Giants Deploy Models",
-      "urls": [
-        "https://builtin.com/articles/what-is-hugging-face"
-      ],
-      "date": "2026-10-19T05:01:33.090825+00:00"
-    },
-    {
       "title": "Deafness Wikipedia Entry Expands Global Knowledge Base for Hearing Community",
       "urls": [
         "https://en.wikipedia.org/wiki/Deafness"
@@ -5065,7 +5058,16 @@
         "https://gulfnews.com/sport/mumbai-indians-lead-ipl-valuations-at-21-billion-rcb-worth-more-than-shah-rukh-khans-kkr-1.500727776"
       ],
       "date": "2026-10-29T04:31:44.964266+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Compete for AI Framework Dominance in 2026",
+      "urls": [
+        "https://opensourcealliance.org/popular-open-source-ai-frameworks-2026",
+        "https://www.spheron.network/blog/pytorch-vs-tensorflow",
+        "https://www.accuweather.com/en/in/national/current-weather-maps"
+      ],
+      "date": "2026-10-29T05:01:44.983610+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T04:31:44.964339+00:00"
+  "lastUpdated": "2026-10-29T05:01:44.983786+00:00"
 }
