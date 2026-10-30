@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Halts GPT‑6 Astra Release Over Unmet Safety Thresholds in Latest Test",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns",
-        "https://www.bbc.com/news/articles/cm5y5nynl75ko",
-        "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "https://openai.com/index/previewing-gpt-5-6-sol",
-        "https://deploymentsafety.openai.com/gpt-6-october/introduction"
-      ],
-      "date": "2026-10-20T11:33:31.345032+00:00"
-    },
-    {
-      "title": "Marco Rubio Visits Mumbai to Meet India’s Foreign Minister and Attend US@250 Celebration",
-      "urls": [
-        "https://www.cfr.org/articles/what-expect-indias-g20-summit",
-        "https://economictimes.indiatimes.com/topic/india-foreign-affairs/news",
-        "https://abclive.in/2026/10/18/india-diplomacy-review-11-17-october-2026",
-        "https://www.rediff.com/news/report/jaishankar-to-host-rubio-in-mumbai-on-oct-20-for-key-india-us-talks/20261016.htm",
-        "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-19-october-2026-cjp-leaders-custody-latur-assault-video-kolkata-chorebagan-durga-puja-stampede-10927454"
-      ],
-      "date": "2026-10-20T12:01:42.770576+00:00"
-    },
-    {
       "title": "RCB Clinches IPL 2026 Title With 6‑Run Victory Over Gujarat Titans",
       "urls": [
         "https://m.hindustantimes.com/cricket/ipl",
@@ -5068,7 +5045,23 @@
         "https://businesstoday.in/amp/markets/stocks/story/tcs-infosys-wipro-shares-jump-nifty-it-rises-2-what-analysts-say-560604-2026-10-09"
       ],
       "date": "2026-10-30T11:31:50.840530+00:00"
+    },
+    {
+      "title": "Aleksandar Vučić Concedes Defeat, Ending Decades of Rule in Serbia",
+      "urls": [
+        "https://www.npr.org/sections/elections",
+        "https://www.democracynow.org",
+        "https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us",
+        "https://www.democracynow.org/topics/2026_election",
+        "https://www.washingtonpost.com/politics",
+        "https://www.foxnews.com/elections",
+        "https://www.democracynow.org/2026/10/26/headlines",
+        "https://www.cnn.com/election/2026",
+        "https://www.npr.org/sections/politics",
+        "https://www.cnbc.com/elections"
+      ],
+      "date": "2026-10-30T12:02:17.368870+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T11:31:50.840595+00:00"
+  "lastUpdated": "2026-10-30T12:02:17.368936+00:00"
 }
