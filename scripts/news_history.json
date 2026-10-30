@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jonathan Hassell Calls for Assistive Tech and AI to Expand Recruitment Access",
-      "urls": [
-        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
-        "https://www.onrec.com/news/opinion-insights/how-assistive-technologies-and-ai-are-transforming-workplace-accessibility",
-        "https://en.wikipedia.org/wiki/Target_Corporation",
-        "https://stephenandrewstepaniuk.info/accessible-technology-and-the-future"
-      ],
-      "date": "2026-10-20T01:02:04.345288+00:00"
-    },
-    {
-      "title": "Delhi Launches Pollution Hotspot Mapping and Road Work Deadline to Combat Smog",
-      "urls": [
-        "https://timesofindia.indiatimes.com/india/delhi-pollution-crackdown-hotspots-to-be-mapped-pending-road-works-get-oct-31-deadline/articleshow/134365428.cms",
-        "https://en.wikipedia.org/wiki/Air_pollution"
-      ],
-      "date": "2026-10-20T01:31:37.375369+00:00"
-    },
-    {
       "title": "PyTorch Dominates Deep Learning Research as TensorFlow Lags in 2026 Framework War",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -5051,7 +5033,18 @@
         "https://www.business-standard.com/finance/personal-finance/govt-raises-disability-pension-to-rs-375-removes-age-limit-who-qualifies-126101600702_1.html"
       ],
       "date": "2026-10-30T01:01:48.779886+00:00"
+    },
+    {
+      "title": "IPCC Says Crossing 1.5°C Unavoidable as Global Warming Threatens Climate Goals",
+      "urls": [
+        "https://carbonbrief.org/debriefed-23-october-2026-crossing-1-5c-unavoidable-ipcc-talks-disappointment-nature-cop-explained",
+        "https://news.un.org/en/story/2026/10/1168634",
+        "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+        "https://www.boite.com.au/event-details/sonidos-del-alma-spanish-language-choir",
+        "https://hellobanaras.com/hi/place/sankat-mochan-hanuman-temple--2065a730-884a-4ce3-a022-c6bda3480fe9"
+      ],
+      "date": "2026-10-30T01:31:41.301476+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T01:01:48.779950+00:00"
+  "lastUpdated": "2026-10-30T01:31:41.301550+00:00"
 }
