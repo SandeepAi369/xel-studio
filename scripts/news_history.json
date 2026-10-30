@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "CoRover Introduces BharatGPT DeskAI Appliance to Empower Offline AI for Indian D2C Brands",
-      "urls": [
-        "https://inc42.com/buzz/corover-launches-offline-ai-device-bharatgpt-deskai-appliance"
-      ],
-      "date": "2026-10-20T14:31:29.972112+00:00"
-    },
-    {
       "title": "Arogya Manthan 2026 Launches Next Phase of India's Digital Health Strategy",
       "urls": [
         "https://www.etvbharat.com/en/health/ayushman-bharat-centre-unveils-digital-tools-for-smarter-claims-and-secure-health-data-enn26092505601",
@@ -5053,7 +5046,15 @@
         "https://www.freepressjournal.in/india/australia-climate-minister-chris-bowen-takes-e-rickshaw-ride-in-delhi-highlights-indias-clean-energy-transition"
       ],
       "date": "2026-10-30T14:02:02.903231+00:00"
+    },
+    {
+      "title": "Microsoft Expands Azure With Optimized Linux Offerings for Enterprise Customers",
+      "urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-linux/azure-linux-overview",
+        "https://www.microsoft.com/en-us/windows-server/blog/2015/05/06/microsoft-loves-linux?msockid=25fb317229fb66cb30bb297028396780"
+      ],
+      "date": "2026-10-30T14:31:37.213113+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T14:02:02.903308+00:00"
+  "lastUpdated": "2026-10-30T14:31:37.213183+00:00"
 }
