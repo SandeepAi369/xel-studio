@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "TorchTPU Launches PyTorch-Optimized Accelerator to Reduce Production Bottlenecks in AI Workloads",
-      "urls": [
-        "https://pytorch.org/blog/introducing-torchtpu"
-      ],
-      "date": "2026-10-20T23:01:52.436862+00:00"
-    },
-    {
       "title": "India Screens Over 420 Million People for Chronic Diseases in Nationwide Health Drive",
       "urls": [
         "https://www.the-star.co.ke/news/2026-10-19-india-hands-kenya-11-tonnes-of-ebola-response-supplies",
@@ -5058,7 +5051,18 @@
         "https://volcanoes.einnews.com"
       ],
       "date": "2026-10-30T22:31:45.323994+00:00"
+    },
+    {
+      "title": "Indian Developers Open Source Ai Contributions News Breaking Developments October 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.worldbank.org/en/news/press-release/2026/10/06/india-development-update-oct-2026",
+        "https://carnegieendowment.org/india/research/2026/05/outlooks-on-open-source-innovation-at-the-india-ai-impact-summit-2026",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://www.ciol.com/news/github-27-million-developers-india-open-source-ai-growth-11720405",
+        "https://www.india.gov.in"
+      ],
+      "date": "2026-10-30T23:03:34.611943+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T22:31:45.324063+00:00"
+  "lastUpdated": "2026-10-30T23:03:34.612010+00:00"
 }
