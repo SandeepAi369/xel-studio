@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Showcases New AI Tools at DevDay 2026, Altman Emphasizes Safety and Enterprise Reach",
-      "urls": [
-        "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
-        "https://chatgpt.com",
-        "https://openai.com/index/chatgpt",
-        "https://chatgpt.com/overview",
-        "https://en.wikipedia.org/wiki/ChatGPT"
-      ],
-      "date": "2026-10-20T19:31:29.575515+00:00"
-    },
-    {
       "title": "Rubio and Jaishankar Hold Talks in Mumbai to Finalize U.S.-India Trade Deal",
       "urls": [
         "https://www.thehindu.com/news/top-news-of-the-day-on-october-20-2026/article71604628.ece",
@@ -5065,7 +5053,17 @@
         "https://www.thetechedvocate.org/best-of-the-best-mental-health-apps-platforms-2026"
       ],
       "date": "2026-10-30T19:02:04.138380+00:00"
+    },
+    {
+      "title": "India Invests Billions To Reduce China Dependence In Smartphone Manufacturing",
+      "urls": [
+        "https://spaceplace.nasa.gov/blue-sky/en",
+        "https://techcrunch.com/2026/07/15/india-bets-billions-on-breaking-chinas-grip-on-smartphone-manufacturing",
+        "https://en.wikipedia.org/wiki/Semiconductor_device_fabrication",
+        "https://spaceplace.nasa.gov/search/air"
+      ],
+      "date": "2026-10-30T19:31:47.428804+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T19:02:04.138448+00:00"
+  "lastUpdated": "2026-10-30T19:31:47.428881+00:00"
 }
