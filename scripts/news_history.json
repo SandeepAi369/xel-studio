@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Faces Shifting Food Crisis Fueling Diabetes and Heart Disease",
-      "urls": [
-        "https://theweek.in/news/health/2026/10/19/indias-food-crisis-is-changing-how-everyday-eating-habits-are-fueling-diabetes-and-heart-disease.html",
-        "https://en.wikipedia.org/wiki/COVID-19",
-        "https://www.newindianexpress.com/lifestyle/health/2026/Jun/04/indias-disease-burden-shifts-from-infectious-diseases-to-lifestyle-disorders-nfhs-6",
-        "https://en.wikipedia.org/wiki/World_Health_Organization"
-      ],
-      "date": "2026-10-20T07:31:44.577424+00:00"
-    },
-    {
       "title": "NASA Launches CubeSat to Showcase Higher Specific Impulse Density Than Hydrazine Propellant",
       "urls": [
         "https://sciencedaily.com/releases/2026/10/261016070635.htm",
@@ -5050,7 +5040,16 @@
         "https://en.wikipedia.org/wiki/Foreign_trade_of_India"
       ],
       "date": "2026-10-30T07:31:34.780082+00:00"
+    },
+    {
+      "title": "Apple Unveils Three Home Devices and Previews Over Seven New Products for October",
+      "urls": [
+        "https://www.macrumors.com/2026/10/13/apple-october-upcoming-products",
+        "https://9to5mac.com/2026/10/06/apple-will-launch-7-new-products-in-october-heres-whats-coming",
+        "https://verakworld.com/daily-tech-news-latest-updates-in-ai-smartphones-and-global-technology-15-oct-2026"
+      ],
+      "date": "2026-10-30T08:01:52.773203+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T07:31:34.780165+00:00"
+  "lastUpdated": "2026-10-30T08:01:52.773265+00:00"
 }
