@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Analysts say Meta’s launch aims to close the gap after earlier reports",
-      "urls": [
-        "https://interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-        "https://en.wikipedia.org/wiki/DeepSeek_%28AI%29",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "https://ai.meta.com/blog/llamacon-llama-news",
-        "https://dev.meta.ai/llama/models/llama-4",
-        "https://euronews.com/2026/10/13/meta-launches-new-most-capable-ai-models-heres-what-to-know-about-them"
-      ],
-      "date": "2026-10-20T00:01:51.243385+00:00"
-    },
-    {
       "title": "Sports Ministry Increases Event Aid to Rs 50 Crore and Plans New Olympic Training Centres",
       "urls": [
         "https://olympic.ind.in",
@@ -5044,7 +5032,20 @@
         "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
       ],
       "date": "2026-10-29T23:31:46.719711+00:00"
+    },
+    {
+      "title": "IBM Expands Academic Partnerships with IIT Bombay and IISc to Boost Indian AI Research",
+      "urls": [
+        "https://www.bbc.com/news/articles/ckvgyml6pdm9o",
+        "https://cio.economictimes.indiatimes.com/news/digital-sovereignty/talent-compute-and-rd-key-to-indias-ai-ambitions/135201228",
+        "https://timesofindia.indiatimes.com/technology/aiq/indias-daily-ai-use-expected-to-double-by-2030-report/amp_articleshow/135210082.cms",
+        "https://en.wikipedia.org/wiki/IIT_Mandi",
+        "https://in.newsroom.ibm.com/2026-10-01-IBM-expands-academic-collaborations-with-IIT-Bombay-and-IISc",
+        "https://thequantuminsider.com/2026/10/03/ibm-academic-collaborations-iit-bombay-iisc-agentic-ai-quantum",
+        "https://en.wikipedia.org/wiki/List_of_IIT_Kanpur_people"
+      ],
+      "date": "2026-10-30T00:02:13.106994+00:00"
     }
   ],
-  "lastUpdated": "2026-10-29T23:31:46.719766+00:00"
+  "lastUpdated": "2026-10-30T00:02:13.107052+00:00"
 }
