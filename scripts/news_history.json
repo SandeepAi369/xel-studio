@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Records Fourth-Lowest Monsoon Rainfall Since 2001 Amid Strong El Niño",
-      "urls": [
-        "https://livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
-        "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
-        "https://www.thebridgechronicle.com/news/nation/india-fourth-lowest-monsoon-rainfall-2026-october-forecast-agn97"
-      ],
-      "date": "2026-10-20T14:01:52.810500+00:00"
-    },
-    {
       "title": "CoRover Introduces BharatGPT DeskAI Appliance to Empower Offline AI for Indian D2C Brands",
       "urls": [
         "https://inc42.com/buzz/corover-launches-offline-ai-device-bharatgpt-deskai-appliance"
@@ -5054,7 +5045,15 @@
         "https://cloud.google.com/learn/what-is-artificial-intelligence"
       ],
       "date": "2026-10-30T13:31:36.825613+00:00"
+    },
+    {
+      "title": "Australia Climate Minister Chris Bowen Highlights India's Clean Energy Shift During Delhi E‑Rickshaw Ride",
+      "urls": [
+        "https://www.wwlp.com/news/local-news/franklin-county/greenfield-community-college-wins-clean-energy-leadership-award",
+        "https://www.freepressjournal.in/india/australia-climate-minister-chris-bowen-takes-e-rickshaw-ride-in-delhi-highlights-indias-clean-energy-transition"
+      ],
+      "date": "2026-10-30T14:02:02.903231+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T13:31:36.825690+00:00"
+  "lastUpdated": "2026-10-30T14:02:02.903308+00:00"
 }
