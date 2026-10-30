@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Records Hazardous Smog Levels as Economic Growth Fuels Pollution Crisis",
-      "urls": [
-        "https://karmactive.com/delhi-211-clean-air-days-2026-aqi",
-        "https://www.nytimes.com/2025/11/30/world/asia/india-delhi-pollution.html",
-        "https://indianexpress.com/about/delhi-air-pollution",
-        "https://en.wikipedia.org/wiki/Delhi"
-      ],
-      "date": "2026-10-20T18:03:26.681633+00:00"
-    },
-    {
-      "title": "Microsoft Stock Holds Steady While Investors Pull Back From AI‑Focused Shares",
-      "urls": [
-        "https://nutrola.app/en/blog/make-me-a-6-week-beach-body-meal-plan",
-        "https://stockanalysis.com/stocks/msft"
-      ],
-      "date": "2026-10-20T18:31:30.133578+00:00"
-    },
-    {
       "title": "New Markets aim to sustain overall export growth, as shifting a portion of sales away from the United States could",
       "urls": [
         "https://www.manufacturingtodayindia.com/india-pharma-new-export-markets",
@@ -5069,7 +5051,21 @@
         "https://unfccc.int/news/un-climate-change-reports-show-paris-agreement-supporting-whole-of-economy-approaches-but-progress"
       ],
       "date": "2026-10-30T18:02:04.162321+00:00"
+    },
+    {
+      "title": "Nvidia Pursues $12.9 Billion Hugging Face Acquisition Amid DOJ Competition Review",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hugging_Face",
+        "https://github.com/huggingface",
+        "https://refreshmiami.com/news/at-miami-ai-summit-hugging-face-ceo-clem-delangue-predicts-every-company-will-necome-an-ai-builder",
+        "https://huggingface.co/models",
+        "https://huggingface.co/models",
+        "https://cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+        "https://metr.org/hugging-face-incident-report-aug-2026.pdf",
+        "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor"
+      ],
+      "date": "2026-10-30T18:31:32.601561+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T18:02:04.162390+00:00"
+  "lastUpdated": "2026-10-30T18:31:32.601619+00:00"
 }
