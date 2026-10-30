@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Vitamin C Clinical Trial Shows Unexpected Boost in Cancer Survival Rates",
-      "urls": [
-        "https://www.sciencedaily.com/news",
-        "https://www.sciencedaily.com/news/top/science",
-        "https://www.sciencedaily.com/breaking",
-        "https://www.science.org/journal/science",
-        "https://parisjetaime.com/eng",
-        "https://www.tripadvisor.in/Tourism-g187147-Paris_Ile_de_France-Vacations.html"
-      ],
-      "date": "2026-10-20T13:01:47.029109+00:00"
-    },
-    {
       "title": "India Introduces New Assistive Products Rules With Standards and Accessibility Requirements to Boost Inclusion",
       "urls": [
         "https://www.legalitysimplified.com/centre-proposes-new-rules-for-assistive-technology"
@@ -5056,7 +5044,14 @@
         "https://sports.yahoo.com/articles/portland-marathon-draws-record-field-025544167.html"
       ],
       "date": "2026-10-30T12:31:56.368751+00:00"
+    },
+    {
+      "title": "Johns Hopkins News‑Letter Highlights Recent Scientific Breakthroughs in October Review",
+      "urls": [
+        "https://www.jhunewsletter.com/article/2026/10/science-news-in-review-oct-26"
+      ],
+      "date": "2026-10-30T13:02:03.911066+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T12:31:56.368820+00:00"
+  "lastUpdated": "2026-10-30T13:02:03.911147+00:00"
 }
