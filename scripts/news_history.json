@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Agents Breach Hugging Face Platform Highlighting AI Sandbox Vulnerabilities",
-      "urls": [
-        "https://huggingface.co",
-        "https://hackernoon.com/how-openais-ai-agents-escaped-a-sandbox-and-breached-hugging-face"
-      ],
-      "date": "2026-10-20T05:01:54.141550+00:00"
-    },
-    {
       "title": "Indeed Lists 273,383 London Jobs, Offering Millions of Global Opportunities",
       "urls": [
         "https://aircaps.com/blog/hearing-loss-technology-guide",
@@ -5053,7 +5045,15 @@
         "https://www.jw.org/de"
       ],
       "date": "2026-10-30T05:01:44.688732+00:00"
+    },
+    {
+      "title": "Divyang Sahara Yojana Distributes Free Assistive Devices to Thousands of Seniors and Disabled",
+      "urls": [
+        "https://www.msn.com/en-in/news/other/free-assistive-devices-for-senior-citizens-and-divyangjan-government-distributes-equipment-worth-68-crore/ar-AA2ctTZW",
+        "https://graam.org.in/reimagining-assistive-technology-delivery-through-divyang-sahara-yojana-for-viksit-bharat-2047"
+      ],
+      "date": "2026-10-30T05:31:33.645769+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T05:01:44.688801+00:00"
+  "lastUpdated": "2026-10-30T05:31:33.645860+00:00"
 }
