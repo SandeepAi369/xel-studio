@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Shares Rise Amid Mixed Signals Before Upcoming Quarterly Earnings",
-      "urls": [
-        "https://www.marketbeat.com/stocks/NASDAQ/MSFT/news",
-        "https://rylo.com/post/latest-innovations-in-technology-for-deaf"
-      ],
-      "date": "2026-10-20T09:31:30.948101+00:00"
-    },
-    {
       "title": "Amazon Launches TorchNeuron To Run PyTorch On Trainium Chips, Challenging Nvidia",
       "urls": [
         "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
@@ -5037,7 +5029,21 @@
         "https://timesofindia.indiatimes.com/technology/tech-news/micron-tata-infineon-outline-next-steps-in-chip-expansion/articleshow/134323210.cms"
       ],
       "date": "2026-10-30T09:02:19.983664+00:00"
+    },
+    {
+      "title": "NV Access Releases NVDA 2026.3 with Expanded Braille Support and New Speech Engines",
+      "urls": [
+        "https://www.nvaccess.org/news",
+        "https://www.disabilityworld.org/articles/screen-reader-roadmap-2026",
+        "https://www.accessibility.org.au/nvda-releases-new-update-with-screen-reader-improvements",
+        "https://en.wikipedia.org/wiki/TalkBack",
+        "https://en.wikipedia.org/wiki/IOS_15",
+        "https://ood.ohio.gov/accessible-ohio/accessible-ohio-blog/screen-reader-advancements-2026",
+        "https://en.wikipedia.org/wiki/Amazon_Kindle_devices",
+        "https://www.nvaccess.org/post/nvda-2026-3"
+      ],
+      "date": "2026-10-30T09:31:35.410984+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T09:02:19.983740+00:00"
+  "lastUpdated": "2026-10-30T09:31:35.411084+00:00"
 }
