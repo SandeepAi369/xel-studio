@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Markets aim to sustain overall export growth, as shifting a portion of sales away from the United States could",
-      "urls": [
-        "https://www.manufacturingtodayindia.com/india-pharma-new-export-markets",
-        "https://en.wikipedia.org/wiki/Generic_drug",
-        "https://en.wikipedia.org/wiki/Teva_Pharmaceuticals",
-        "https://economictimes.indiatimes.com/topic/generic-pharmaceuticals-exports"
-      ],
-      "date": "2026-10-20T19:01:45.758651+00:00"
-    },
-    {
       "title": "OpenAI Showcases New AI Tools at DevDay 2026, Altman Emphasizes Safety and Enterprise Reach",
       "urls": [
         "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -5065,7 +5055,17 @@
         "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor"
       ],
       "date": "2026-10-30T18:31:32.601561+00:00"
+    },
+    {
+      "title": "Mental Health Trends 2026 Highlight Surge in Therapy Chatbots and Top Apps",
+      "urls": [
+        "https://www.risingtrends.co/trends/mental-health-trends-2026",
+        "https://www.thetechedvocate.org/navigating-the-evolving-landscape-of-mental-health-key-developments-and-trends-in-2026",
+        "https://dictionary.cambridge.org/dictionary/english/mental",
+        "https://www.thetechedvocate.org/best-of-the-best-mental-health-apps-platforms-2026"
+      ],
+      "date": "2026-10-30T19:02:04.138380+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T18:31:32.601619+00:00"
+  "lastUpdated": "2026-10-30T19:02:04.138448+00:00"
 }
