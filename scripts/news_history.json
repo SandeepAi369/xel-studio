@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "IonQ Opens Quantum Innovation Centre in Cambridge and Showcases Nine Papers at IEEE Quantum Week",
-      "urls": [
-        "https://quantumzeitgeist.com/quantum-zeitgeist-weekly-digest-october-17-2026",
-        "https://thequbitreport.com/the-qubit-report/2026/10/12/the-qubit-report-october-12-2026",
-        "https://uk.finance.yahoo.com/news/ionq-ionq-presented-nine-research-051533931.html",
-        "https://en.wikipedia.org/wiki/Quantum"
-      ],
-      "date": "2026-10-20T04:01:55.851216+00:00"
-    },
-    {
       "title": "Delhi Capitals Add Sri Lankan Legend Mahela Jayawardene Ahead of IPL 2027",
       "urls": [
         "https://en.wikipedia.org/wiki/Indian_Premier_League",
@@ -5047,7 +5037,15 @@
         "https://www.exchange4media.com/digital-news/online-gaming-rules-2026-applauded-for-clarity-but-industry-flags-gaps-in-oversight-154065.html"
       ],
       "date": "2026-10-30T03:31:43.998314+00:00"
+    },
+    {
+      "title": "Google DeepMind Advances Gemini 4 Carbon Model to Boost Cyber Defense Capabilities",
+      "urls": [
+        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+        "https://www.startuphub.ai/ai-news/ai-research/2026/google-s-gemini-4-carbon-pushes-cyber-defense-first"
+      ],
+      "date": "2026-10-30T04:02:21.897060+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T03:31:43.998390+00:00"
+  "lastUpdated": "2026-10-30T04:02:21.897141+00:00"
 }
