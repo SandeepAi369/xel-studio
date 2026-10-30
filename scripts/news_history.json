@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Capitals Add Sri Lankan Legend Mahela Jayawardene Ahead of IPL 2027",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Indian_Premier_League",
-        "https://en.wikipedia.org/wiki/2025_Indian_Premier_League",
-        "https://sports.yahoo.com/articles/ipl-2027-mini-auction-date-140339477.html",
-        "https://business-standard.com/amp/cricket/ipl/when-will-ipl-2027-players-auction-take-place-here-s-the-latest-update-126101900276_1.html",
-        "https://timesofindia.indiatimes.com/sports/cricket/news/delhi-capitals-big-ipl-2027-shake-up-continues-sri-lanka-legend-joins-sourav-gangulys-team/articleshow/135007365.cms",
-        "https://www.hindustantimes.com/cricket/ipl",
-        "https://www.cricbuzz.com/cricket-series/ipl-2026/auction/players/12087",
-        "https://www.cricinfo.com/series/ipl-2026-1510719/match-schedule-fixtures-and-results",
-        "https://www.cricbuzz.com/cricket-match/live-scores",
-        "https://www.iplt20.com/matches/schedule/men"
-      ],
-      "date": "2026-10-20T04:31:54.198579+00:00"
-    },
-    {
       "title": "OpenAI Agents Breach Hugging Face Platform Highlighting AI Sandbox Vulnerabilities",
       "urls": [
         "https://huggingface.co",
@@ -5045,7 +5029,19 @@
         "https://www.startuphub.ai/ai-news/ai-research/2026/google-s-gemini-4-carbon-pushes-cyber-defense-first"
       ],
       "date": "2026-10-30T04:02:21.897060+00:00"
+    },
+    {
+      "title": "Skye Blakely Wins All‑Around World Title After Olympic Heartbreaks in Gymnastics",
+      "urls": [
+        "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-22-26",
+        "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
+        "https://www.olympics.com/ioc/olympic-highlights",
+        "https://www.nytimes.com/athletic/7718144/2026/10/23/skye-blakely-all-around-world-gymnastics-championships-us-gold",
+        "https://en.wikipedia.org/wiki/Doping_at_the_Olympic_Games",
+        "https://en.wikipedia.org/wiki/2012_Summer_Olympics_medal_table"
+      ],
+      "date": "2026-10-30T04:32:23.227409+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T04:02:21.897141+00:00"
+  "lastUpdated": "2026-10-30T04:32:23.227466+00:00"
 }
