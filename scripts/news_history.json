@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Introduces New Assistive Products Rules With Standards and Accessibility Requirements to Boost Inclusion",
-      "urls": [
-        "https://www.legalitysimplified.com/centre-proposes-new-rules-for-assistive-technology"
-      ],
-      "date": "2026-10-20T13:31:29.096852+00:00"
-    },
-    {
       "title": "India Records Fourth-Lowest Monsoon Rainfall Since 2001 Amid Strong El Niño",
       "urls": [
         "https://livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
@@ -5051,7 +5044,17 @@
         "https://www.jhunewsletter.com/article/2026/10/science-news-in-review-oct-26"
       ],
       "date": "2026-10-30T13:02:03.911066+00:00"
+    },
+    {
+      "title": "American Foundation for the Blind Publishes Innovation for Access Report on AI Assistive Tools",
+      "urls": [
+        "https://www.afb.org/research-and-initiatives/ai-series/innovation-access",
+        "https://en.wikipedia.org/wiki/Intellectual_disability",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education",
+        "https://cloud.google.com/learn/what-is-artificial-intelligence"
+      ],
+      "date": "2026-10-30T13:31:36.825613+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T13:02:03.911147+00:00"
+  "lastUpdated": "2026-10-30T13:31:36.825690+00:00"
 }
