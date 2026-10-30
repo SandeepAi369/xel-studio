@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEA Releases Climate Pledge Review Highlighting Global Emissions Gap Based On New NDCs",
-      "urls": [
-        "https://www.iea.org/reports/state-of-energy-policy-2026/climate-pledges",
-        "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
-        "https://en.wikipedia.org/wiki/Climate_change_in_New_Zealand"
-      ],
-      "date": "2026-10-20T10:31:32.815652+00:00"
-    },
-    {
-      "title": "Doctor Uses AI Chatbot for Rare Cancer Diagnosis and Invests in Emerging Health Startup",
-      "urls": [
-        "https://www.businessinsider.com/ai-healthcare-cancer-startup-doctor-wife-diagnosis-treatment-invested-2026-9",
-        "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"
-      ],
-      "date": "2026-10-20T11:02:07.969442+00:00"
-    },
-    {
       "title": "OpenAI Halts GPT‑6 Astra Release Over Unmet Safety Thresholds in Latest Test",
       "urls": [
         "https://openai.com/index/introducing-gpt-6-sol-and-luna",
@@ -5057,7 +5039,23 @@
         "https://www.mercomindia.com"
       ],
       "date": "2026-10-30T10:31:32.535188+00:00"
+    },
+    {
+      "title": "Darbhanga AIIMS construction tender issued for Rs 1,549.25 crore, targeting a 1,200",
+      "urls": [
+        "https://hindustantimes.com/cities/delhi-news/delhi-aiims-part-of-study-on-autoimmune-diseases-101793298577952.html",
+        "https://www.timesnownews.com/india/aiims-expansion-cheaper-medicines-anupriya-patel-outlines-govts-push-at-india-health-summit-article-156420754",
+        "https://patnapress.com/darbhanga-aiims-construction-tender-rs-1549-crore",
+        "https://openthemagazine.com/india/national-remedy",
+        "https://timesofindia.indiatimes.com/city/delhi/aiims-five-other-centres-to-study-why-autoimmune-diseases-run-in-families/articleshow/135325834.cms",
+        "https://news.abplive.com/health/childhood-cancer-survival-in-india-could-improve-over-next-five-years-says-aiims-delhi-professor-1873033/amp",
+        "https://timesofindia.indiatimes.com/city/ahmedabad/iit-gandhinagar-aiims-create-tool-to-flag-post-stroke-speech-disorders/articleshow/135278053.cms",
+        "https://thehindu.com/news/national/kerala/aiims-for-keralam-kozhikode-under-active-consideration-says-satheesan/article71540835.ece",
+        "https://en.wikipedia.org/wiki/Atal_Bihari_Vajpayee",
+        "https://aiims.edu/index.php?option=com_content&view=article&id=777&Itemid=975&lang=en"
+      ],
+      "date": "2026-10-30T11:02:50.119354+00:00"
     }
   ],
-  "lastUpdated": "2026-10-30T10:31:32.535268+00:00"
+  "lastUpdated": "2026-10-30T11:02:50.119410+00:00"
 }
