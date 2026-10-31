@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linuxiac Releases Weekly Wrap‑Up Highlighting Key Open‑Source News For Week 42",
-      "urls": [
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-42-2026-october-12-18",
-        "https://opensource.googleblog.com/2026/10",
-        "https://en.wikipedia.org/wiki/Qt_%28software%29",
-        "https://en.wikipedia.org/wiki/Linux_kernel_version_history",
-        "https://en.wikipedia.org/wiki/Fedora_Linux",
-        "https://en.wikipedia.org/wiki/Wine_%28software%29"
-      ],
-      "date": "2026-10-21T14:31:40.934828+00:00"
-    },
-    {
-      "title": "Medical Image Analysis Software Market Forecasts $6.42B Growth by 2031",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/10/21/3385266/28124/en/medical-image-analysis-software-market-global-forecast-to-2031-ai-enabled-and-cloud-native-platforms-power-8-1-cagr-toward-usd-6-42-billion.html",
-        "https://www.neue-rechtschreibung.de/guten-morgen-schreibweise"
-      ],
-      "date": "2026-10-21T15:01:50.231249+00:00"
-    },
-    {
       "title": "ISRO Launches EOS‑05 Geostationary Imaging Satellite to Boost Continuous Earth Observation",
       "urls": [
         "https://business-standard.com/india-news/isro-launches-india-s-first-imaging-satellite-in-geostationary-orbit-126090400054_1.html",
@@ -5052,7 +5032,19 @@
         "https://www.techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
       ],
       "date": "2026-10-31T14:31:31.596322+00:00"
+    },
+    {
+      "title": "India's Pharma Exports Surge 4.9% to $16.13 Billion in First Half of Fiscal 2027",
+      "urls": [
+        "https://www.epw.in/journal/2026/44/commentary/indias-pharmaceutical-industry.html",
+        "https://chemindigest.com/indias-pharma-exports-grow-4-9-percent-to-16-14-billion-in-h1-fy27",
+        "https://en.wikipedia.org/wiki/India%E2%80%93United_States_relations",
+        "https://manufacturing.economictimes.indiatimes.com/news/life-sciences/indias-pharma-exports-rise-4-9-to-16-14-bn-in-h1-shipments-to-europe-up-nearly-10-pharmexcil/135358028",
+        "https://en.wikipedia.org/wiki/China%E2%80%93United_States_relations",
+        "https://knnindia.co.in/news/newsdetails/sectors/pharma-exports-to-europe-asean-and-latin-america-drive-indias-49-growth-to-usd-1613-bn-in-h1-fy27-pharmexcil"
+      ],
+      "date": "2026-10-31T15:02:03.719605+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T14:31:31.596358+00:00"
+  "lastUpdated": "2026-10-31T15:02:03.719664+00:00"
 }
