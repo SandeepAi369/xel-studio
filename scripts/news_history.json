@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Expands AI Design Suite to Cut Chip Development Time by Up to 30 Percent",
-      "urls": [
-        "https://fool.com/investing/2026/10/07/forget-nvidia-amd-under-radar-chip-stock-on",
-        "https://thisweekinnvidia.substack.com/p/insight-on-nvidia-15-october-2026",
-        "https://hakia.com/tech-insights/ai-chip-wars",
-        "https://fool.com/investing/2026/10/06/growth-stocks-powering-every-chip-nvidia-amd",
-        "https://en.wikipedia.org/wiki/Jensen_Huang"
-      ],
-      "date": "2026-10-21T19:31:34.839139+00:00"
-    },
-    {
       "title": "Houthi Rebels Attack Saudi Arabian Airports, Killing Twelve Civilians In Latest Escalation",
       "urls": [
         "https://www.europesays.com/3320407",
@@ -5039,7 +5028,19 @@
         "https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health"
       ],
       "date": "2026-10-31T19:01:41.820996+00:00"
+    },
+    {
+      "title": "OpenAI Launches GPT‑6 Sol and Replaces It With GPT‑6.1 Sol Within a Week",
+      "urls": [
+        "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://chatgpt.com",
+        "https://openai.com/index/chatgpt",
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://platform.openai.com/onboarding"
+      ],
+      "date": "2026-10-31T19:31:35.976688+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T19:01:41.821065+00:00"
+  "lastUpdated": "2026-10-31T19:31:35.976769+00:00"
 }
