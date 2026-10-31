@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Feedback Study Shows Potential 30 Percent Increase In Global Warming",
-      "urls": [
-        "https://www.theguardian.com/environment/2026/sep/10/climate-feedback-loops-global-warming-study",
-        "https://www.britannica.com/science/climate-meteorology",
-        "https://english.mathrubhumi.com/technology/science/world-environment-day-2026-how-climate-change-is-changing-daily-life-in-india-ytk8a126",
-        "https://timesofindia.indiatimes.com/science/global-warming-vs-climate-change-know-what-is-the-real-difference-causes-and-steps-for-controlling/articleshow/121858935.cms",
-        "https://wmo.int/themes/climate"
-      ],
-      "date": "2026-10-21T14:01:54.398828+00:00"
-    },
-    {
       "title": "Linuxiac Releases Weekly Wrap‑Up Highlighting Key Open‑Source News For Week 42",
       "urls": [
         "https://linuxiac.com/linuxiac-weekly-wrap-up-week-42-2026-october-12-18",
@@ -5047,7 +5036,16 @@
         "https://finance.yahoo.com/quote/BIPIX"
       ],
       "date": "2026-10-31T13:31:58.925294+00:00"
+    },
+    {
+      "title": "German Farmers Drive Biodiversity Efforts Yet Face Limited Conservation Options",
+      "urls": [
+        "https://phys.org/news/2026-08-biodiversity-agriculture-forestry-high-options.html",
+        "https://www.aol.de?r=www.aol.com",
+        "https://www.ipsnews.net/2026/08/nairobi-biodiversity-talks-set-the-stage-for-key-cop17-decisions"
+      ],
+      "date": "2026-10-31T14:02:08.429859+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T13:31:58.925347+00:00"
+  "lastUpdated": "2026-10-31T14:02:08.429932+00:00"
 }
