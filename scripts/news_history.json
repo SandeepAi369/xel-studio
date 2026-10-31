@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Muhammad Mokaev Accuses UFC of Running Smear Campaigns Against Released Fighters",
-      "urls": [
-        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/15/ufc-veterans-fighting-combat-sports-oct-15-17/92255494007",
-        "https://www.yardbarker.com/mma/articles/ufc_333_two_title_fights_that_could_reshape_two_divisions/s1_17702_44453119",
-        "https://www.espn.com/mma/schedule",
-        "https://www.yardbarker.com/mma/articles/muhammad_mokaev_alleges_ufc_uses_smear_campaigns_against_released_athletes/s1_17615_44453850",
-        "https://www.espn.com/mma/ufc"
-      ],
-      "date": "2026-10-21T08:34:05.744773+00:00"
-    },
-    {
       "title": "Google Unveils Gemini 4 Argon AI Model With Coding and Security Enhancements",
       "urls": [
         "https://www.google.com.ai/webhp?gl=ai&hl=en-GB&gws_rd=cr&pws=0",
@@ -5064,7 +5053,17 @@
         "https://mail.yahoo.com"
       ],
       "date": "2026-10-31T08:31:39.119308+00:00"
+    },
+    {
+      "title": "OpenAI Halts GPT‑6 Astra Rollout Citing Safety and Alignment Concerns",
+      "urls": [
+        "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html",
+        "https://www.bbc.com/news/articles/cm5y5nynl75ko",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://openai.com/research/index/release"
+      ],
+      "date": "2026-10-31T09:01:41.465164+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T08:31:39.119368+00:00"
+  "lastUpdated": "2026-10-31T09:01:41.465222+00:00"
 }
