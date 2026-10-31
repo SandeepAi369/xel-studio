@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reserve Bank of India Raises Repo Rate to 5.50 Percent Amid Ongoing Inflation Fight",
-      "urls": [
-        "https://www.rbi.org.in/Home.aspx/Webservice/Webservice/Scripts/home.aspx",
-        "https://economictimes.indiatimes.com/news/economy/indicators/rbi-mpc-meeting-october-2026-repo-rate-decision-inflation-gdp-growth-outlook-key-takeaways/articleshow/134755892.cms",
-        "https://m.rbi.org.in/Scripts/BS_ViewPublicationReport.aspx",
-        "https://m.rbi.org.in/commonman/english/Scripts/Home.aspx"
-      ],
-      "date": "2026-10-21T07:01:44.760722+00:00"
-    },
-    {
-      "title": "South Africa Expands COVID‑19 Response to Rural Farm Communities to Boost Testing and Vaccination",
-      "urls": [
-        "https://sciencedaily.com/news/health_medicine/medical_imaging",
-        "https://primeilmedicalgroup.com",
-        "https://imdchicago.org",
-        "https://www.afro.who.int/health-topics/coronavirus-covid-19/south-africa-bolsters-covid-19-response"
-      ],
-      "date": "2026-10-21T07:31:43.878982+00:00"
-    },
-    {
       "title": "Apple Archives Site As Media Lists Recall WWDC 2015 Venue",
       "urls": [
         "https://en.wikipedia.org/wiki/Apple_Inc.",
@@ -5064,7 +5044,16 @@
         "https://en.wikipedia.org/wiki/Recession"
       ],
       "date": "2026-10-31T07:01:43.946620+00:00"
+    },
+    {
+      "title": "Coronavirus is identified on the WHO site as a disease caused by a novel coronavirus virus, with the Spanish description",
+      "urls": [
+        "https://www.americantelemed.org/news",
+        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
+        "https://www.who.int/es/health-topics/coronavirus"
+      ],
+      "date": "2026-10-31T07:32:03.780873+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T07:01:43.946685+00:00"
+  "lastUpdated": "2026-10-31T07:32:03.780950+00:00"
 }
