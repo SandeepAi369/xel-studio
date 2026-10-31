@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi EV Policy Launches Incentives for Pure Electric Vehicles, Excludes Hybrids",
-      "urls": [
-        "https://www.evinfrastructurenews.com/ev-networks/india-ev-transition-infrastructure-financing-policy-support",
-        "https://www.moneycontrol.com/automobile/delhi-ev-policy-2026-comes-into-force-evs-get-incentives-hybrids-miss-out-as-national-capital-bets-big-on-pure-electric-models-article-13963253.html"
-      ],
-      "date": "2026-10-21T13:01:43.876619+00:00"
-    },
-    {
       "title": "Torchit Launches Jyoti AI Glasses to Empower Blind Users with Real‑Time Text Reading",
       "urls": [
         "https://www.thestatehousefile.com/politics/indiana-students-help-make-coding-more-accessible-for-people-who-are-blind-and-visually-impaired/article_fa7ac7d0-b45d-4dcf-960f-3a66682ab086.html",
@@ -5048,7 +5040,17 @@
         "https://link.springer.com/subjects/sport-analytics"
       ],
       "date": "2026-10-31T12:32:05.552157+00:00"
+    },
+    {
+      "title": "SpaceX Launches Starfall Capsule on Bandwagon‑5 Mission Carrying Thirty‑One Payloads",
+      "urls": [
+        "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station",
+        "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch",
+        "https://runtimewire.com/article/spacex-lunar-lander-launch-services-withdrawal",
+        "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission"
+      ],
+      "date": "2026-10-31T13:01:54.305883+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T12:32:05.552247+00:00"
+  "lastUpdated": "2026-10-31T13:01:54.305932+00:00"
 }
