@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face CEO Calls Netflix OpenAI Hack Documentary Inaccurate and Highlights Real Incident Details",
-      "urls": [
-        "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
-        "https://presenc.ai/research/huggingface-trending-models-june-2026",
-        "https://huggingface.co/blog",
-        "https://cypro.co.uk/insights/openai-huggingface-incident"
-      ],
-      "date": "2026-10-21T18:31:29.534852+00:00"
-    },
-    {
       "title": "India Targets Rare‑Disease Drugs as New Pharma Frontier Amid U.S. Tariff Shifts",
       "urls": [
         "https://thehindu.com/sci-tech/science/rare-disease-drugs-could-become-indias-next-pharma-frontier/article71518560.ece",
@@ -5044,7 +5034,15 @@
         "https://thatsmyev.com/news/avas-mandatory-electric-cars-india-october-2026-rule"
       ],
       "date": "2026-10-31T18:03:38.304958+00:00"
+    },
+    {
+      "title": "India AI Summit Sets Affordable AI Roadmap and Boosts Economic Growth",
+      "urls": [
+        "https://www.livemint.com/news/india/indiaai-summit-2026-declaration-from-affordable-ai-to-sovereignty-cooperation-more-key-highlights-11771677475180.html",
+        "https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026-delhi-summit-ai-impact-summit-bharat-mandapam-summit-narendra-modi-delhi-expo-ai-expo-101771203756704.html"
+      ],
+      "date": "2026-10-31T18:31:46.575399+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T18:03:38.305018+00:00"
+  "lastUpdated": "2026-10-31T18:31:46.575444+00:00"
 }
