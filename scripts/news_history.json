@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hurricane Isaias Strikes Florida Panhandle Causing Widespread Power Outages And Flooding",
-      "urls": [
-        "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates",
-        "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-makes-landfall",
-        "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images?msockid=279cacc51074696f1c6fbb3c1117685c",
-        "https://www.extremenetworks.com/es",
-        "https://www.bloomberg.com/news/articles/2026-10-11/dual-tropical-storms-hit-both-us-coasts-with-floods-and-outages",
-        "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)"
-      ],
-      "date": "2026-10-21T10:31:33.955685+00:00"
-    },
-    {
       "title": "Hackensack Meridian Commits $200 Million to Upgrade Hunterdon Healthcare Facilities",
       "urls": [
         "https://www.forbes.com/sites/bernardmarr/2025/10/27/the-8-biggest-healthcare-technology-trends-to-watch-in-2026",
@@ -5053,7 +5041,17 @@
         "https://blog.buildfastwithai.com/ai-industry-news-trends"
       ],
       "date": "2026-10-31T10:03:41.376617+00:00"
+    },
+    {
+      "title": "Mexico announces a tentative $12.5 billion investment to develop new solar and wind facilities, signaling a major push toward renewable",
+      "urls": [
+        "https://grist.org/food-and-agriculture/solar-panels-farms-trump-reap-rural-energy-for-america-program-changes",
+        "https://www.nytimes.com/2026/10/26/opinion/how-trump-unwittingly-boosted-green-energy.html",
+        "https://www.riotimesonline.com/mexico-solar-and-wind-plan-cfe-vote-2026",
+        "https://en.wikipedia.org/wiki/Crescent_Dunes_Solar_Energy_Project"
+      ],
+      "date": "2026-10-31T10:31:34.533834+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T10:03:41.376689+00:00"
+  "lastUpdated": "2026-10-31T10:31:34.533922+00:00"
 }
