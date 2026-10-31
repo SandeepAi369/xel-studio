@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Timeline Charts AI Safety Milestones Since Major Attack",
-      "urls": [
-        "https://apnews.com/article/ai-hacking-hugging-face-openai-anthropic-452281863a49b18220057e71d4715cf4"
-      ],
-      "date": "2026-10-21T23:01:44.117871+00:00"
-    },
-    {
       "title": "Artificial Intelligence Detects Hidden Self‑Harm Cases, Boosting Mental Health Care",
       "urls": [
         "https://www.ndtv.com/health/mental-health/can-ai-save-lives-by-reading-what-doctors-miss-a-new-mental-health-breakthrough-explaining-hidden-medical-data-11611115"
@@ -5039,7 +5032,14 @@
         "https://en.wikipedia.org/wiki/Effects_of_climate_change"
       ],
       "date": "2026-10-31T22:31:29.785707+00:00"
+    },
+    {
+      "title": "India Launches Open‑Source Bhashini Platform To Challenge Western AI Dominance",
+      "urls": [
+        "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon"
+      ],
+      "date": "2026-10-31T23:02:04.646856+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T22:31:29.785779+00:00"
+  "lastUpdated": "2026-10-31T23:02:04.646933+00:00"
 }
