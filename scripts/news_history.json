@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mumbai Indians Seek New Head Coach as Rahul Dravid Leads Candidate List",
-      "urls": [
-        "https://www.news18.com/cricket/ipl",
-        "https://thesportstak.com/amp/cricket/story/new-zealand-rcb-pacer-jacob-duffy-plays-down-vaibhav-sooryavanshi-challenge-arste-3554575-2026-10-20",
-        "https://business-standard.com/amp/cricket/ipl/ipl-2027-who-could-become-the-next-head-coach-of-mumbai-indians-126101900433_1.html",
-        "https://www.business-standard.com/cricket/ipl",
-        "https://www.economist.com/business/2026/07/30/private-equity-is-coming-for-the-indian-premier-league",
-        "https://www.livemint.com/sports/cricket-news/ipl-2027-pitru-paksha-slows-down-indian-premier-league-trade-deals-ahead-of-mini-auction-says-report-11791992062404.html",
-        "https://indianexpress.com/about/indian-premier-league"
-      ],
-      "date": "2026-10-21T04:31:56.759856+00:00"
-    },
-    {
-      "title": "Google DeepMind Releases Gemma Family of Large Language Models for Developers and Researchers",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Gemma_%28language_model%29",
-        "https://de.restaurantguru.com/Aichach"
-      ],
-      "date": "2026-10-21T05:01:34.705687+00:00"
-    },
-    {
       "title": "Brain‑Controlled Wheelchair Advances Offer New Independence for Quadriplegia and ALS Patients",
       "urls": [
         "https://stellarix.com/insights/stellarix-perspectives/mobility-aid-advancements-in-wheelchairs",
@@ -5065,7 +5044,18 @@
         "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/the-time-is-now-at-eden-park-how-glenn-phillips-turned-a-john-cena-moment-into-team-indias-nightmare/articleshow/135373273.cms"
       ],
       "date": "2026-10-31T04:31:52.288648+00:00"
+    },
+    {
+      "title": "PyTorch Dominates 2026 AI Research While TensorFlow Holds Production Edge",
+      "urls": [
+        "https://tech-insider.org/pytorch-vs-tensorflow-2026",
+        "https://pytorch.org/blog/pytorch-conference-china-2026-advancing-the-open-source-ai-stack",
+        "https://www.bohrium.com/en/blog/tutorials/pytorch-vs-tensorflow",
+        "https://www.toptal.com/developers/deep-learning/pytorch-vs-tensorflow",
+        "https://neurohive.io/en/guides/tensorflow-vs-pytorch"
+      ],
+      "date": "2026-10-31T05:02:00.334125+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T04:31:52.288717+00:00"
+  "lastUpdated": "2026-10-31T05:02:00.334219+00:00"
 }
