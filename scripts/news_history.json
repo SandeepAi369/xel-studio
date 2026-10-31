@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Archives Site As Media Lists Recall WWDC 2015 Venue",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
-        "https://en.wikipedia.org/wiki/List_of_Apple_Inc._media_events"
-      ],
-      "date": "2026-10-21T08:02:26.295999+00:00"
-    },
-    {
       "title": "Muhammad Mokaev Accuses UFC of Running Smear Campaigns Against Released Fighters",
       "urls": [
         "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/15/ufc-veterans-fighting-combat-sports-oct-15-17/92255494007",
@@ -5061,7 +5052,19 @@
         "https://about.fb.com/news"
       ],
       "date": "2026-10-31T08:01:52.532229+00:00"
+    },
+    {
+      "title": "New York Yankees Secure Historic Three‑Peat, First Team to Win Three Straight World Series in Over 25 Years",
+      "urls": [
+        "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
+        "https://apnews.com/article/new-york-yankees-serena-williams-ben-roethlisberger-muhammad-ali-baseball-868bf77d0b73c9f0d47fb271d8e48c53",
+        "https://uk.yahoo.com",
+        "https://en.wikipedia.org/wiki/List_of_sports_figures_considered_the_greatest",
+        "https://www.complex.com/bets/a/thomas-golianopoulos/best-sports-moments-2026-midyear",
+        "https://mail.yahoo.com"
+      ],
+      "date": "2026-10-31T08:31:39.119308+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T08:01:52.532327+00:00"
+  "lastUpdated": "2026-10-31T08:31:39.119368+00:00"
 }
