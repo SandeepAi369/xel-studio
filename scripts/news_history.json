@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "White House Introduces 2026 AI Regulation Framework Targeting High‑Risk Systems",
-      "urls": [
-        "https://insideglobaltech.com/2026/10/19/u-s-tech-legislative-regulatory-update-third-quarter-2026",
-        "https://aicomparison.ai/us-ai-regulation-2026-framework",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright",
-        "https://astraea.law/insights/federal-ai-regulation-landscape"
-      ],
-      "date": "2026-10-21T06:01:51.272429+00:00"
-    },
-    {
-      "title": "Volcano Near 2 Million Residents Shows Unusual Seismic Activity In Suburban Region",
-      "urls": [
-        "https://cnbc.com/2026/09/08/natural-disasters-month-review-earthquake-volcano-flood.html",
-        "https://sciencedaily.com/news/earth_climate/geology",
-        "https://reliefweb.int/disasters",
-        "https://en.wikipedia.org/wiki/Sidoarjo_mud_flow",
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://economictimes.indiatimes.com/news/earthquake-today",
-        "https://www.reuters.com/world/earthquakes",
-        "https://earthquaketrackers.com/earthquakes/today"
-      ],
-      "date": "2026-10-21T06:31:55.401812+00:00"
-    },
-    {
       "title": "Reserve Bank of India Raises Repo Rate to 5.50 Percent Amid Ongoing Inflation Fight",
       "urls": [
         "https://www.rbi.org.in/Home.aspx/Webservice/Webservice/Scripts/home.aspx",
@@ -5066,7 +5042,18 @@
         "https://gemini.google.com"
       ],
       "date": "2026-10-31T06:01:44.277711+00:00"
+    },
+    {
+      "title": "IUCN Issues New Guidance to Anchor Global Conservation in Ecological Integrity",
+      "urls": [
+        "https://tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
+        "https://www.cadillacnews.com/ap/cop17-jiangsu-showcases-biodiversity-conservation-in-action/article_7ef49ad1-0f39-5b98-8bb7-e5f737d5a3eb.html",
+        "https://www.lequipe.fr/Football/Actualites/Les-salaires-2026-en-espagne-lamine-yamal-hors-du-top-5/1664247",
+        "https://en.wikipedia.org/wiki/Conservation_International",
+        "https://iucn.org/press-release/202610/new-iucn-guidance-calls-ecological-integrity-guide-global-biodiversity-and"
+      ],
+      "date": "2026-10-31T06:32:02.783783+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T06:01:44.277776+00:00"
+  "lastUpdated": "2026-10-31T06:32:02.783846+00:00"
 }
