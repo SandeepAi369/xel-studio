@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coding Tools Guide Highlights Pricing, Free Trials and Seven Beginner Mistakes for 2026",
-      "urls": [
-        "https://infoq.com/news/2026/10/openai-devday-2026",
-        "https://www.the-ai-corner.com/p/ai-coding-tools-complete-guide-2026",
-        "https://www.moneycontrol.com/technology/18-ai-tools-in-2026-that-are-becoming-the-new-normal-across-coding-design-writing-research-and-more-article-13867402.html",
-        "https://timesofindia.indiatimes.com/technology/tech-news/era-of-humans-writing-code-is-over-warns-nodejs-creator-ryan-dahl-amid-rapid-rise-of-ai-coding-tools/articleshow/127107198.cms",
-        "https://en.wikipedia.org/wiki/Figma",
-        "https://www.analyticsinsight.net/openai/openai-devday-2026-the-biggest-ai-announcements-explained",
-        "https://en.wikipedia.org/wiki/Google_Maps",
-        "https://toolradar.com/blog/best-ai-tools-for-coding-2026",
-        "https://www.ibm.com/think/topics/artificial-intelligence"
-      ],
-      "date": "2026-10-21T11:31:40.552486+00:00"
-    },
-    {
       "title": "DRDO Highlights Seven Indigenous Technologies to Strengthen India’s Defense Capabilities",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_Indian_military_missiles",
@@ -5053,7 +5038,19 @@
         "https://www.icthealth.org/news"
       ],
       "date": "2026-10-31T11:03:30.497045+00:00"
+    },
+    {
+      "title": "Mistral Launches Large 4 Open‑Source Trillion‑Parameter Model to Boost Sovereign AI",
+      "urls": [
+        "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense",
+        "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model",
+        "https://www.cnet.com/tech/services-and-software/mistral-new-le-chonk-ai-model-open-source-available",
+        "https://www.euronews.com/2026/10/29/mistral-releases-latest-ai-model-for-download-giving-companies-more-control-over-their-cyb",
+        "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap",
+        "https://dev.to/hiroki-ii-ai/ai-daily-digest-october-30-2026-mistral-opens-a-trillion-parameters-cloud-giants-report-openai-1gk7"
+      ],
+      "date": "2026-10-31T11:32:12.053035+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T11:03:30.497129+00:00"
+  "lastUpdated": "2026-10-31T11:32:12.053125+00:00"
 }
