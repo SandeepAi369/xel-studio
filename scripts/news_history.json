@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Boom: Researchers Vinn and Cherney Publish Insightful Analysis on Rapid AI Expansion",
-      "urls": [
-        "https://en.wikipedia.org/wiki/AI_boom"
-      ],
-      "date": "2026-10-21T10:02:08.345111+00:00"
-    },
-    {
       "title": "Hurricane Isaias Strikes Florida Panhandle Causing Widespread Power Outages And Flooding",
       "urls": [
         "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates",
@@ -5053,7 +5046,14 @@
         "https://www.jj-mobility.com/en/news"
       ],
       "date": "2026-10-31T09:31:43.793678+00:00"
+    },
+    {
+      "title": "BackCollection Publishes AI News Today 2026 Highlighting Latest Model Releases and Trends",
+      "urls": [
+        "https://blog.buildfastwithai.com/ai-industry-news-trends"
+      ],
+      "date": "2026-10-31T10:03:41.376617+00:00"
     }
   ],
-  "lastUpdated": "2026-10-31T09:31:43.793758+00:00"
+  "lastUpdated": "2026-10-31T10:03:41.376689+00:00"
 }
