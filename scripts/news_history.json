@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "llm-d 1.0 Delivers Three‑Fold Throughput and Open‑Source AI Inference for Production Workloads",
-      "urls": [
-        "https://digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
-        "https://newsroom.ibm.com/2026-10-20-llm-d-1-0-advances-open,-cost-efficient-ai-inference-for-production-scale"
-      ],
-      "date": "2026-10-22T14:31:41.891277+00:00"
-    },
-    {
-      "title": "NIH Highlights Thymus Importance in Immune Health and Disease Prevention",
-      "urls": [
-        "https://newsinhealth.nih.gov/2026/10"
-      ],
-      "date": "2026-10-22T15:01:52.738077+00:00"
-    },
-    {
       "title": "Meta Launches Superintelligence Labs Platform Featuring New LLM and Muse Media Generators",
       "urls": [
         "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs",
@@ -5087,7 +5072,20 @@
         "https://www.forbes.com/sites/ashoka/2026/10/08/ai-is-the-new-censor--surveillance-and-the-case-for-open-models"
       ],
       "date": "2026-11-01T14:31:36.354923+00:00"
+    },
+    {
+      "title": "American Psychological Association Says AI Wellness Apps Cannot Alone Solve Mental Health Crisis",
+      "urls": [
+        "https://thewmhi.com/news/recent-news-on-mental-health",
+        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
+        "https://www.hindustantimes.com/ht-insight/public-health/the-digital-revolution-in-mental-wellness-101696916402746.html",
+        "https://www.sidley.com/en/insights/newsupdates/2025/11/us-fda-and-cms-actions-on-generative-ai-enabled-mental-health-devices-yield-insights-across-ai",
+        "https://www.hindustantimes.com/technology/mental-wellness-tech-reviewing-the-most-effective-ai-companions-of-2025-101751371814485.html",
+        "https://brainwavepost.com/article/digital-mental-health-technologies-standards-2026",
+        "https://en.wikipedia.org/wiki/The_Anxious_Generation"
+      ],
+      "date": "2026-11-01T15:01:58.101631+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T14:31:36.355003+00:00"
+  "lastUpdated": "2026-11-01T15:01:58.101701+00:00"
 }
