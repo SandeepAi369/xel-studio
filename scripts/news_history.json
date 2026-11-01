@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Expands Claude Platform With New Webinars, Courses and User Experience Resources",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Anthropic",
-        "https://platform.claude.com",
-        "https://anthropic.skilljar.com",
-        "https://www.zacks.com/featured-articles/761/anthropic-ipo",
-        "https://www.youtube.com/@anthropic-ai",
-        "https://claude.com"
-      ],
-      "date": "2026-10-22T04:01:54.125864+00:00"
-    },
-    {
       "title": "India Advances to Hockey Semi‑Finals as Veteran Sailor Wins Double at Asian Games",
       "urls": [
         "https://olympics.com/en/news/asian-games-2026-india-schedule-today-october-1-thursday",
@@ -5065,7 +5053,16 @@
         "https://www.travelportland.com/culture/waterfalls-near-portland"
       ],
       "date": "2026-11-01T03:31:43.831168+00:00"
+    },
+    {
+      "title": "ChatGPT Expands Everyday Use By Enabling Learning, Writing, And Task Automation",
+      "urls": [
+        "https://en.wikipedia.org/wiki/GPT-6",
+        "https://platform.openai.com",
+        "https://chatgpt.com/overview"
+      ],
+      "date": "2026-11-01T04:02:43.585266+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T03:31:43.831242+00:00"
+  "lastUpdated": "2026-11-01T04:02:43.585329+00:00"
 }
