@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sundhnúkur Volcano Continues Eruptions as GPS Data Shows Ongoing Activity",
-      "urls": [
-        "https://earthquake.usgs.gov/earthquakes/map",
-        "https://en.wikipedia.org/wiki/2023%E2%80%932025_Sundhn%C3%BAkur_eruptions"
-      ],
-      "date": "2026-10-22T18:01:47.350558+00:00"
-    },
-    {
       "title": "Open-Source LLMs Qwen, GLM, DeepSeek, and Llama Compared in 2026 Benchmark Review",
       "urls": [
         "https://geotoolbox.ai/blog/best-open-source-llms",
@@ -5091,7 +5083,16 @@
         "https://www.the-world-now.com/global-disaster-tracker"
       ],
       "date": "2026-11-01T18:01:40.681694+00:00"
+    },
+    {
+      "title": "Online Calculator Launches Free Tool for Instant Everyday Math Solutions",
+      "urls": [
+        "https://analyticsindiamag.com/ai-news-updates/corover-launches-bharatgpt-mini-534-mn-parameter-model-in-14-indic-languages-1",
+        "https://theaitoolsbox.com/blog/bharatgpt-2026",
+        "https://www.calculator.io/basic-calculator"
+      ],
+      "date": "2026-11-01T18:31:32.540172+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T18:01:40.681747+00:00"
+  "lastUpdated": "2026-11-01T18:31:32.540233+00:00"
 }
