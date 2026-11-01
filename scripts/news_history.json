@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arch Linux Article Flagged for Excessive Primary Sources Prompting Editorial Review",
-      "urls": [
-        "https://linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
-        "https://en.wikipedia.org/wiki/Arch_Linux",
-        "https://www.marketscreener.com/news/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ce785bd8dd80f32d"
-      ],
-      "date": "2026-10-22T23:01:50.426327+00:00"
-    },
-    {
       "title": "Stan Publishes Simple Guide Enabling Windows 10 and 11 Users to Toggle Bluetooth Quickly",
       "urls": [
         "https://sciencedaily.com/news/health_medicine/medical_topics",
@@ -5088,7 +5079,15 @@
         "https://www.theguardian.com/environment/2026/mar/16/conservation-trump-cuts-natural-world-usaid-funding-biodiversity-aoe"
       ],
       "date": "2026-11-01T22:31:48.499510+00:00"
+    },
+    {
+      "title": "Mistral AI Unveils Large 2 Model, Boosting AI‑Native Industry Capabilities",
+      "urls": [
+        "https://mistral.ai/news",
+        "https://mistral.ai/products/vibe"
+      ],
+      "date": "2026-11-01T23:03:25.193371+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T22:31:48.499585+00:00"
+  "lastUpdated": "2026-11-01T23:03:25.193439+00:00"
 }
