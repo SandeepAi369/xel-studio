@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "US State Department Orders Departure of Selected Diplomatic Personnel and Families",
-      "urls": [
-        "https://www.sciencedaily.com/news/earth_climate/natural_disasters",
-        "https://www.reuters.com/world/middle-east/us-preparing-issue-ordered-departure-some-personnel-gulf-embassies-us-officials-2026-10-21",
-        "https://www.britannica.com/biography/Jacinda-Ardern",
-        "https://en.wikipedia.org/wiki/Jacinda_Ardern",
-        "https://worldnaturaldisasters.com"
-      ],
-      "date": "2026-10-22T01:31:26.862501+00:00"
-    },
-    {
       "title": "Reliance Launches BharatGPT and Hanooman AI to Reduce Indian Developers' Dependence on Foreign Models",
       "urls": [
         "https://economictimes.indiatimes.com/topic/bharatgpt/news",
@@ -5056,7 +5045,18 @@
         "https://en.wikipedia.org/wiki/TikTok"
       ],
       "date": "2026-11-01T01:01:46.597354+00:00"
+    },
+    {
+      "title": "India Advances Integrated Clean Energy Strategy to Boost Renewable Capacity and Reduce Fossil Dependence",
+      "urls": [
+        "https://energy.economictimes.indiatimes.com/news/renewable/indias-clean-energy-leadership-moving-beyond-megawatts/135401893",
+        "https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways",
+        "https://www.drishtiias.com/daily-updates/daily-news-editorials/indias-transition-to-a-clean-energy-future",
+        "https://www.reuters.com/business/india-approves-186-trillion-rupees-renewable-energy-programme-2026-09-30",
+        "https://oilprice.com/Latest-Energy-News/World-News/Data-Centers-Drive-Surge-in-Indias-Renewable-Power-Demand.html"
+      ],
+      "date": "2026-11-01T01:31:40.390948+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T01:01:46.597434+00:00"
+  "lastUpdated": "2026-11-01T01:31:40.391017+00:00"
 }
