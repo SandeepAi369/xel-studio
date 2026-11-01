@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Launches Superintelligence Labs Platform Featuring New LLM and Muse Media Generators",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs",
-        "https://www.meta.ai",
-        "https://en.wikipedia.org/wiki/Meta_smart_glasses",
-        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai"
-      ],
-      "date": "2026-10-22T15:31:43.185782+00:00"
-    },
-    {
       "title": "India and United States Deepen Energy and Mineral Cooperation Amid G20 Tensions",
       "urls": [
         "https://www.business-standard.com/india-news/india-for-us-push-to-tackle-global-imbalances-as-china-blocks-g20-consensus-126090201597_1.html",
@@ -5093,7 +5083,19 @@
         "https://openai.com/index/previewing-gpt-5-6-sol"
       ],
       "date": "2026-11-01T15:31:38.634946+00:00"
+    },
+    {
+      "title": "PBS News Provides Live ASL Interpretation for 2026 Election Night Coverage",
+      "urls": [
+        "https://www.pbs.org/newshour/politics/watch-live-election-night-2026-pbs-news-special-coverage",
+        "https://www.nbcnews.com/politics/2026-elections/midterms",
+        "https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back",
+        "https://www.270towin.com/news",
+        "https://greeleyco.gov/city-clerk/elections",
+        "https://www.olmstedcounty.gov/residents/elections-and-voting"
+      ],
+      "date": "2026-11-01T16:01:39.977179+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T15:31:38.634979+00:00"
+  "lastUpdated": "2026-11-01T16:01:39.977246+00:00"
 }
