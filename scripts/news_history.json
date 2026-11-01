@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "DEPwD Hosts National Bengaluru Conference to Advance AI Disability Inclusion",
-      "urls": [
-        "https://www.sciencedirect.com/science/article/pii/S0001691825013241",
-        "https://www.ndtv.com/feature/assistive-to-agentic-how-ai-is-expected-to-shape-2026-10196933",
-        "https://yourstory.com/socialstory/2025/05/national-conference-to-focus-on-ai-for-disability-inclusion"
-      ],
-      "date": "2026-10-22T09:31:33.646754+00:00"
-    },
-    {
-      "title": "Google Open‑Sources TorchTPU to Simplify PyTorch Use on Tensor Processing Units",
-      "urls": [
-        "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
-        "https://techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
-      ],
-      "date": "2026-10-22T10:01:53.698560+00:00"
-    },
-    {
       "title": "Delhi Records First Poor Air Quality of 2026 as Early Winter Smog Settles Over City",
       "urls": [
         "https://businesstoday.in/india/story/delhi-aqi-today-national-capital-records-first-poor-air-quality-of-2026-as-smog-blankets-its-skies-562675-2026-10-21",
@@ -5077,7 +5060,19 @@
         "https://www.merriam-webster.com/dictionary/deaf"
       ],
       "date": "2026-11-01T09:31:29.292565+00:00"
+    },
+    {
+      "title": "Microsoft Unveils Homegrown AI Models, Always‑On Agent and Project Solara at Build 2026",
+      "urls": [
+        "https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1",
+        "https://aieducademy.org/blog/state-of-open-source-ai-2026",
+        "https://www.digit.in/news/general/microsoft-build-2026-new-homegrown-ai-models-always-on-agent-project-solara-and-other-key-announcements.html",
+        "https://en.wikipedia.org/wiki/Cloudflare",
+        "https://www.marketbeat.com/stocks/NASDAQ/MSFT/news",
+        "https://stockanalysis.com/stocks/msft"
+      ],
+      "date": "2026-11-01T10:04:37.938236+00:00"
     }
   ],
-  "lastUpdated": "2026-11-01T09:31:29.292623+00:00"
+  "lastUpdated": "2026-11-01T10:04:37.938304+00:00"
 }
