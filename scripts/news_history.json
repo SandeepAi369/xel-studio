@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Announces GPT‑6 API Platform As Next Step After GPT‑4 Release",
-      "urls": [
-        "https://openai.com",
-        "https://openai.com/index/gpt-4"
-      ],
-      "date": "2026-10-23T11:31:33.975315+00:00"
-    },
-    {
       "title": "EU Tightens AI Act Rules and Enforces Record GDPR Fine on Google",
       "urls": [
         "https://natlawreview.com/article/privacy-filter-briefing-privacy-law-and-policy-october-2026",
@@ -5110,7 +5102,18 @@
         "https://ai.meta.com/blog/meta-llama-3-1"
       ],
       "date": "2026-11-02T11:31:33.846666+00:00"
+    },
+    {
+      "title": "Foreign Affairs Portal Expands Access to Government Officials' Latest News and Media",
+      "urls": [
+        "https://www.thehindu.com/news/national/external-affairs-minister-jaishankar-g20-foreign-ministers-meet-in-atlanta/article71643686.ece",
+        "https://www.rediff.com/news/commentary/2026/oct/31/military-solutions-not-working-give-diplomacy-a-chance-jaishankar-at-g20/6aa567d0d0dca97a9fccaf34598f4126",
+        "https://www.indiandefensenews.in/2026/11/jaishankar-urges-diplomatic-pathways.html",
+        "https://www.indiandiplomacy.org/2026/10/31/jaishankar-calls-for-diplomacy-over-military-solutions-at-g20-foreign-ministers-meeting",
+        "https://economictimes.indiatimes.com/topic/foreign-affairs"
+      ],
+      "date": "2026-11-02T12:01:48.140217+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T11:31:33.846722+00:00"
+  "lastUpdated": "2026-11-02T12:01:48.140273+00:00"
 }
