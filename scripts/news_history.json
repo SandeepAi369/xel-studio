@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Norway Secures 2-1 Victory Over Wales In UEFA Nations League",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/incredible",
-        "https://www.kicker.de/wales-gegen-norwegen-2026-uefa-nations-league-5193302/ticker",
-        "https://www.upi.com/News_Photos/collections/Sports",
-        "https://en.wikipedia.org/wiki/2026_NBA_Finals",
-        "https://en.wikipedia.org/wiki/2026_in_British_television",
-        "https://markets.businessinsider.com/futures/dow-futures",
-        "https://www.kicker.de/wales-gegen-norwegen-2026-uefa-nations-league-5193302/spielinfo",
-        "https://sportsnotablemoments.com",
-        "https://markets.businessinsider.com/index/components/dow_jones"
-      ],
-      "date": "2026-10-23T04:31:43.042264+00:00"
-    },
-    {
-      "title": "Apple Shares Climb Near Record Highs After Surge in Early Consumer Demand",
-      "urls": [
-        "https://www.who.int/publications/i/item/home-care-for-patients-with-suspected-novel-coronavirus-(ncov)-infection-presenting-with-mild-symptoms-and-management-of-contacts",
-        "https://finance.yahoo.com/quote/AAPL",
-        "https://www.business-standard.com/technology/tech-news/ai-makes-finding-open-source-flaws-easier-so-why-fixing-them-remains-hard-126101900661_1.html",
-        "https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963"
-      ],
-      "date": "2026-10-23T05:01:38.704822+00:00"
-    },
-    {
       "title": "WebMD and BetterMe Offer Practical Posture Tips to Reduce Back Pain",
       "urls": [
         "https://www.healthline.com/health/posture-exercises",
@@ -5104,7 +5079,18 @@
         "https://www.forbes.com/sites/johnarcher/2026/09/21/lg-display-launches-first-oled-screen-targeted-at-esports"
       ],
       "date": "2026-11-02T04:31:36.202235+00:00"
+    },
+    {
+      "title": "Impact includes faster hypothesis testing for scientists, broader public access to DNA information, and a potential shift toward open‑source bio‑informatics",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Hugging_face",
+        "https://huggingface.co/blog",
+        "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
+        "https://huggingface.co/papers",
+        "https://builtin.com/articles/what-is-hugging-face"
+      ],
+      "date": "2026-11-02T05:02:18.266582+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T04:31:36.202310+00:00"
+  "lastUpdated": "2026-11-02T05:02:18.266654+00:00"
 }
