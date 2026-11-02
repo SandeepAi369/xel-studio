@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Women’s Hockey Team Secures Gold on Asian Games Day Fourteen, Boosting Nation’s Medal Tally",
-      "urls": [
-        "https://indianexpress.com/article/sports/asian-games-2026-india-day-14-live-hockey-archery-wrestling-boxing-medal-tally-10903070",
-        "https://www.espn.com/espn/story/_/id/50085253/india-asian-games-live-updates-scores-news-results-commentary-schedule-timings-october-3-2026-aichi-nagoya",
-        "https://www.indiatoday.in/sports/asian-games/story/asian-games-2026-live-updates-october-2-events-archery-hockey-wrestling-medals-3007773-2026-10-02",
-        "https://sports.yahoo.com/articles/asian-games-2026-india-schedule-195505949.html",
-        "https://www.outlookindia.com/sports/others/asian-games-2026-watch-all-gold-medals-india-neeru-dhanda-cricket-kabaddi",
-        "https://www.indiatimes.com/news/sports/dont-send-indian-team-to-glasgow-athletes-in-shock-as-cwg-2026-drops-hockey-shooting-and-wrestling/articleshow/122662310.html"
-      ],
-      "date": "2026-10-23T08:31:55.165037+00:00"
-    },
-    {
       "title": "Meta Releases Llama 3.1 405B Model Matching GPT-4 Performance as Open-Source AI",
       "urls": [
         "https://aiagentskit.com/blog/meta-llama-4",
@@ -5106,7 +5094,19 @@
         "https://www.olympics.com/ioc/news/olympic-solidarity-powers-athletes-to-historic-medals-at-milano-cortina-2026"
       ],
       "date": "2026-11-02T08:31:45.935251+00:00"
+    },
+    {
+      "title": "Crunchbase News Highlights Ten $100 Million Plus Funding Rounds Led by Physical AI",
+      "urls": [
+        "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild",
+        "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data",
+        "https://pricepertoken.com/news/funding",
+        "https://www.wortins.com/funding",
+        "https://aifunding.me/deals",
+        "https://note.com/lush_alpaca9775/n/nb142294561d6?hl=en"
+      ],
+      "date": "2026-11-02T09:02:02.069284+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T08:31:45.935329+00:00"
+  "lastUpdated": "2026-11-02T09:02:02.069353+00:00"
 }
