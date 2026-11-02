@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Experts anticipate that the AI‑assisted workflow could shorten screening time and improve early‑stage cancer identification, but they",
-      "urls": [
-        "https://www.indiatoday.in/health/story/breast-cancer-aiims-mammography-ai-clinical-use-india-2997697-2026-09-18",
-        "https://testbook.com/question-answer/the-indian-state-that-holds-the-distinction-of-bei--698b31bd4dd0dd7c8b8a9200"
-      ],
-      "date": "2026-10-23T11:01:47.107312+00:00"
-    },
-    {
       "title": "OpenAI Announces GPT‑6 API Platform As Next Step After GPT‑4 Release",
       "urls": [
         "https://openai.com",
@@ -5107,7 +5099,18 @@
         "https://www.drugs.com/drug_information.html"
       ],
       "date": "2026-11-02T11:01:45.798430+00:00"
+    },
+    {
+      "title": "Meta AI Launches Llama 3.1 as Its Most Capable Language Model Yet",
+      "urls": [
+        "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
+        "https://www.meta.ai",
+        "https://axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
+        "https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3",
+        "https://ai.meta.com/blog/meta-llama-3-1"
+      ],
+      "date": "2026-11-02T11:31:33.846666+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T11:01:45.798490+00:00"
+  "lastUpdated": "2026-11-02T11:31:33.846722+00:00"
 }
