@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Releases Llama 3.1 405B Model Matching GPT-4 Performance as Open-Source AI",
-      "urls": [
-        "https://aiagentskit.com/blog/meta-llama-4",
-        "https://winfuture.de/news,144123.html",
-        "https://ai.meta.com/resources/models-and-libraries",
-        "https://ai.meta.com/blog"
-      ],
-      "date": "2026-10-23T09:03:47.250741+00:00"
-    },
-    {
-      "title": "India Calls for National Assistive Technology Policy to Unite Fragmented Services",
-      "urls": [
-        "https://www.newindianexpress.com/india/2026/Jun/24/india-needs-national-assistive-technology-policy-say-experts",
-        "https://www.aninews.in/news/national/general-news/empowering-india-enabling-lives-58000-divyangjan-amp-senior-citizens-benefit-from-nationwide-samajik-adhikarita-camps20260917205905"
-      ],
-      "date": "2026-10-23T09:31:34.919062+00:00"
-    },
-    {
       "title": "Stone Unit Conversion Shows 16 Stones Equal Approximately 102 Kilograms",
       "urls": [
         "https://www.calculateme.com/weight/stone/to-kilograms/16",
@@ -5106,7 +5088,16 @@
         "https://note.com/lush_alpaca9775/n/nb142294561d6?hl=en"
       ],
       "date": "2026-11-02T09:02:02.069284+00:00"
+    },
+    {
+      "title": "Autism Management Study Reviews Clinical Approaches and Guidelines for Practitioners in 2006 Publication",
+      "urls": [
+        "https://autism.org/what-is-autism",
+        "https://indiaautismcenter.org/blog/latest-tech-in-autism",
+        "https://en.wikipedia.org/wiki/Management_of_autism"
+      ],
+      "date": "2026-11-02T09:31:41.055913+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T09:02:02.069353+00:00"
+  "lastUpdated": "2026-11-02T09:31:41.055983+00:00"
 }
