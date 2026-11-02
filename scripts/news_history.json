@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta CEO Mark Zuckerberg Testifies on Social Media Impact on Vulnerable Users",
-      "urls": [
-        "https://www.livemint.com/news/mark-zuckerberg-testimony-live-updates-trial-court-social-media-addiction-trial-latest-news-2026-11771428256386.html"
-      ],
-      "date": "2026-10-23T03:31:34.500318+00:00"
-    },
-    {
       "title": "Meta Llama Expands Open Language Model Reach With Multi‑Language Support and Security Benchmarks",
       "urls": [
         "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
@@ -5086,7 +5079,18 @@
         "https://www.youtube.com/watch?v=rYEDA3JcQqw"
       ],
       "date": "2026-11-02T03:02:32.510254+00:00"
+    },
+    {
+      "title": "Apple Unveils M6‑Powered MacBook Pro and iMac Ahead of Holiday Season",
+      "urls": [
+        "https://www.macworld.com/article/671090/new-apple-products-iphone-ipad-mac-watch.html",
+        "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
+        "https://edn.com/amazon-apple-and-microsoft-new-mobile-computing-platforms-take-off",
+        "https://aibriefs.news/ai-news-today",
+        "https://www.apple.com/newsroom"
+      ],
+      "date": "2026-11-02T03:31:42.908824+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T03:02:32.510330+00:00"
+  "lastUpdated": "2026-11-02T03:31:42.908957+00:00"
 }
