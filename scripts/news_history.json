@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Atom Computing Unveils 1180‑Qubit Quantum Processor Ahead of 2026 Delivery Deadline",
-      "urls": [
-        "https://quantumzeitgeist.com",
-        "https://en.wikipedia.org/wiki/List_of_quantum_processors",
-        "https://www.edencode.ai/research_archive/archive/2026-10.html"
-      ],
-      "date": "2026-10-23T22:02:04.975640+00:00"
-    },
-    {
       "title": "Delhi Air Quality Hits Poor Category, Authorities Enforce GRAP‑1 Curbs to Reduce Smog",
       "urls": [
         "https://nytimes.com/2026/10/21/world/asia/delhi-air-quality.html",
@@ -5120,7 +5111,20 @@
         "https://presenc.ai/research/ai-policy-regulation-tracker-2026"
       ],
       "date": "2026-11-02T22:02:00.646572+00:00"
+    },
+    {
+      "title": "Scientists Confirm Global Warming Accelerates Faster Than Ever Recorded in New Study",
+      "urls": [
+        "https://www.sciencedaily.com/releases/2026/10/261027231200.htm",
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://sciencedaily.com/news/earth_climate",
+        "https://www.nature.com/subjects/climate-change",
+        "https://techtimes.com/articles/329109/20261016/warming-rate-doubled-since-2010-seven-climate-records-broken-2026-state-climate-report.htm",
+        "https://science.nasa.gov/climate-change",
+        "https://en.wikipedia.org/wiki/Climate"
+      ],
+      "date": "2026-11-02T22:31:32.036587+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T22:02:00.646655+00:00"
+  "lastUpdated": "2026-11-02T22:31:32.036655+00:00"
 }
