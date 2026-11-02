@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Faces AI Arms Race as Silicon Valley Ties Deepen With China",
-      "urls": [
-        "https://economictimes.indiatimes.com/topic/bharatgpt",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_arms_race",
-        "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
-        "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence"
-      ],
-      "date": "2026-10-23T14:31:42.289776+00:00"
-    },
-    {
       "title": "Nature Reviews Drug Discovery Highlights AI Fueling $21.2 Billion Pharma Cloud Market Growth",
       "urls": [
         "https://www.nature.com/articles/s41573-026-01496-2",
@@ -5099,7 +5089,20 @@
         "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo"
       ],
       "date": "2026-11-02T14:02:04.892542+00:00"
+    },
+    {
+      "title": "FreeRDP Launches Version 3.33 Adding WebAssembly Support and Experimental UDP",
+      "urls": [
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-43-2026-october-26-november-1",
+        "https://9to5linux.com/9to5linux-weekly-roundup-november-1st-2026",
+        "https://linuxiac.com/category/news",
+        "https://revistaforum.com.br/politica/efeito-nossa-senhora-lula-flavio-btg-nexus",
+        "https://revistaforum.com.br/politica/mercadao-lula-no-primeiro-turno",
+        "https://www.linuxinsider.com",
+        "https://en.wikipedia.org/wiki/Qt_%28software%29"
+      ],
+      "date": "2026-11-02T14:32:40.983930+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T14:02:04.892644+00:00"
+  "lastUpdated": "2026-11-02T14:32:40.984007+00:00"
 }
