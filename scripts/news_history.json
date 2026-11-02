@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Indian Experts Call for Accessibility‑First AI to Drive Inclusive Assistive Technology Growth",
-      "urls": [
-        "https://www.thehindu.com/sci-tech/health/how-ai-has-revolutionised-the-world-of-assistive-devices-to-aid-persons-with-disabilities/article70157987.ece",
-        "https://www.businessworld.in/article/experts-urge-accessibility-first-ai-to-power-inclusive-indian-growth-608807",
-        "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
-      ],
-      "date": "2026-10-23T01:01:53.676818+00:00"
-    },
-    {
       "title": "India Faces Delayed Monsoon 2026 as El Niño Threatens Crops and Food Prices",
       "urls": [
         "https://timesofindia.indiatimes.com/science/a-super-el-nio-is-brewing-what-it-could-mean-for-indias-winter-and-summer-of-2027/articleshow/134919221.cms",
@@ -5098,7 +5089,18 @@
         "https://www.merriam-webster.com/dictionary/screen"
       ],
       "date": "2026-11-02T01:01:47.005817+00:00"
+    },
+    {
+      "title": "India's Rising Fuel Costs Drive Electric Vehicle Adoption Amid Infrastructure Challenges",
+      "urls": [
+        "https://bbc.com/news/articles/cx21181yq4no",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc202685944701.pdf",
+        "https://en.wikipedia.org/wiki/Electric_vehicle",
+        "https://www.india.gov.in/explore-india",
+        "https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_China"
+      ],
+      "date": "2026-11-02T01:31:32.607276+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T01:01:47.005875+00:00"
+  "lastUpdated": "2026-11-02T01:31:32.607339+00:00"
 }
