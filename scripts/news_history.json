@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reserve Bank of India Infuses ₹2.5 Trillion Liquidity Amid Hints of Policy Course Correction",
-      "urls": [
-        "https://livemint.com/opinion/online-views/rbis-mpc-minutes-do-they-hint-at-a-course-correction-11792674521208.html",
-        "https://bloomberg.com/news/articles/2026-10-23/india-s-rbi-governor-open-to-rate-use-to-curb-financial-risks",
-        "https://business-standard.com/amp/economy/news/rbi-s-2-5-trillion-liquidity-infusion-sends-mixed-signals-sbi-research-126102300929_1.html"
-      ],
-      "date": "2026-10-23T16:01:50.535605+00:00"
-    },
-    {
       "title": "Royal Challengers Bengaluru Face Gujarat Titans in TATA IPL 2026 Final",
       "urls": [
         "https://iplt20.com",
@@ -5102,7 +5093,19 @@
         "https://valueaddvc.com/blog/india-startup-ecosystem-2026-funding-trends-top-investors-and-breakout-companies"
       ],
       "date": "2026-11-02T15:31:39.651725+00:00"
+    },
+    {
+      "title": "Supreme Court Clears Path to Reopen Tax Probe Into Ex‑CJI’s Sons Over 2010 Deal",
+      "urls": [
+        "https://www.sci.gov.in",
+        "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "https://www.hindustantimes.com/india-news/supreme-court-allows-bursting-of-green-crackers-for-limited-period-2-days-around-diwali-complete-ban-starting-november-9-101793612349279.html",
+        "https://www.hindustantimes.com/india-news/supreme-court-flags-dangers-in-rape-case-settlements-101793601356312.html",
+        "https://www.hindustantimes.com/india-news/supreme-court-revives-tax-probe-against-ex-cji-s-sons-over-10-property-deal-101793476530322-amp.html",
+        "https://www.advocatekhoj.com/library/judgments/announcement.php"
+      ],
+      "date": "2026-11-02T16:01:53.537433+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T15:31:39.651793+00:00"
+  "lastUpdated": "2026-11-02T16:01:53.537503+00:00"
 }
