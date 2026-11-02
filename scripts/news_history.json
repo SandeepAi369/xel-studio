@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "WebMD and BetterMe Offer Practical Posture Tips to Reduce Back Pain",
-      "urls": [
-        "https://www.healthline.com/health/posture-exercises",
-        "https://www.webmd.com/osteoporosis/ss/slideshow-posture-tips",
-        "https://betterme.world/articles/posture-correcting-exercises"
-      ],
-      "date": "2026-10-23T05:31:45.564305+00:00"
-    },
-    {
-      "title": "ISRO Relaunches Delayed Navigation Satellite to Restore Regional Positioning Services",
-      "urls": [
-        "https://indianexpress.com/article/india/isro-nvs-03-launch-date-navigation-satellite-10931999",
-        "https://www.news18.com/photogallery/science/world-space-week-2026-8-milestone-isro-missions-that-made-india-a-space-power-ws-l-10372124.html",
-        "https://en.wikipedia.org/wiki/List_of_spaceflight_launches_in_October%E2%80%93December_2026",
-        "https://www.businesstoday.in/india/story/isro-places-eos-05-into-orbit-why-indias-first-geo-orbit-imaging-satellite-matters-553294-2026-09-04"
-      ],
-      "date": "2026-10-23T06:01:37.042509+00:00"
-    },
-    {
       "title": "Honey Bees Exhibit Bullying Behavior Toward Other Bees, Study Finds",
       "urls": [
         "https://www.sciencedaily.com/news/earth_climate/global_warming",
@@ -5098,7 +5079,16 @@
         "https://www.accessibility.com/blog/accessibility-trends-to-watch-in-2026"
       ],
       "date": "2026-11-02T05:31:34.030765+00:00"
+    },
+    {
+      "title": "Google Gemini Unveils Gemini 4 Carbon and Genie 4, Accelerating AI Software Creation",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "https://gemini.google/latest-news",
+        "https://chromeunboxed.com/googles-gemini-4-carbon-and-genie-4-just-changed-how-ai-builds-software-and-worlds"
+      ],
+      "date": "2026-11-02T06:01:57.367990+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T05:31:34.030832+00:00"
+  "lastUpdated": "2026-11-02T06:01:57.368064+00:00"
 }
