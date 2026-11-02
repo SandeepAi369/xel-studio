@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Faces Delayed Monsoon 2026 as El Niño Threatens Crops and Food Prices",
-      "urls": [
-        "https://timesofindia.indiatimes.com/science/a-super-el-nio-is-brewing-what-it-could-mean-for-indias-winter-and-summer-of-2027/articleshow/134919221.cms",
-        "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
-        "https://www.indiawaterportal.org/climate-change/climate/indias-monsoon-forecast-2026-highlights-need-for-smarter-agriculture-and-water-planning",
-        "https://www.theunitedindian.com/news/godzilla-el-nino-2026-india-impact-noaa-83-percent",
-        "https://internal.imd.gov.in/pages/press_release_mausam.php"
-      ],
-      "date": "2026-10-23T01:31:33.824871+00:00"
-    },
-    {
-      "title": "Linux Moves Toward Dropping x32 ABI After Years of Limited Use",
-      "urls": [
-        "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
-        "https://linuxiac.com/category/news",
-        "https://www.linuxjournal.com",
-        "https://www.linux.org/pages/download",
-        "https://en.wikipedia.org/wiki/Adoption_of_free_and_open-source_software_by_public_institutions"
-      ],
-      "date": "2026-10-23T02:01:52.258023+00:00"
-    },
-    {
       "title": "IIT Delhi Scholar Dies After Unconscious Incident, Police Register Abetment of Suicide Case",
       "urls": [
         "https://en.wikipedia.org/wiki/All_India_Institutes_of_Medical_Sciences",
@@ -5100,7 +5078,16 @@
         "https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_China"
       ],
       "date": "2026-11-02T01:31:32.607276+00:00"
+    },
+    {
+      "title": "Google Open‑Sources TorchTPU to Enable One‑Line PyTorch Migration to TPUs",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Python_%28programming_language%29",
+        "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
+        "https://techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
+      ],
+      "date": "2026-11-02T02:01:54.390685+00:00"
     }
   ],
-  "lastUpdated": "2026-11-02T01:31:32.607339+00:00"
+  "lastUpdated": "2026-11-02T02:01:54.390758+00:00"
 }
