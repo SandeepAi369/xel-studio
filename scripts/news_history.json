@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechCrunch published a climate news article titled “ferry that almost flies,” spotlighting a prototype vessel that merges traditional marine travel",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list",
-        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-10-19/weekly",
-        "https://www.bangkokpost.com/thailand/pr/3299885/the-global-economic-forum-annual-meeting-bangkok-legacy-week-10th-to-14th-october-2026",
-        "https://en.wikipedia.org/wiki/Energy_policy_of_the_United_States",
-        "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries",
-        "https://techcrunch.com/category/climate"
-      ],
-      "date": "2026-10-24T18:02:12.110805+00:00"
-    },
-    {
       "title": "India Advances Open‑Source AI Initiative to Boost Collaborative Innovation Across Industries",
       "urls": [
         "https://munderdiffl.in/blog/indian-open-source-ai-projects-vs-big-tech",
@@ -5101,7 +5089,19 @@
         "https://buildwithaccess.com/blog/ai-screen-reader-technology-future"
       ],
       "date": "2026-11-03T17:31:49.838152+00:00"
+    },
+    {
+      "title": "Scientists Confirm Accelerating Global Warming as Greenhouse Gases Reach Historic 2025 Levels",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate",
+        "https://earth.org/climate-change",
+        "https://www.wired.com/story/super-el-nino-climate-change-connections",
+        "https://www.wri.org/climate-change-news",
+        "https://www.findglocal.com/DE/Berlin/1715339648575708/Vonder-Club-House",
+        "https://en.wikipedia.org/wiki/Climate_change_denial"
+      ],
+      "date": "2026-11-03T18:02:19.133048+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T17:31:49.838231+00:00"
+  "lastUpdated": "2026-11-03T18:02:19.133122+00:00"
 }
