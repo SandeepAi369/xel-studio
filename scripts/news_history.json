@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Rejects Data Exclusivity in Trade Talks, Boosts Generic Drug Access",
-      "urls": [
-        "https://news18.com/explainers/big-pharma-wants-data-exclusivity-india-says-no-in-trade-talks-heres-what-this-means-for-your-medicine-bill-ws-bl-10394444.html",
-        "https://www.channelnewsasia.com/asia/india-pharmaceutical-sector-impact-proposed-trump-tariffs-generic-drugs-6276041",
-        "https://ibef.org/news/pharma-exports-surpass-us-31-billion-in-fy26-despite-global-headwinds"
-      ],
-      "date": "2026-10-24T15:01:41.545390+00:00"
-    },
-    {
       "title": "Lawmakers Push to Cut China Off from AI Chip Supply, Nvidia and AMD Seek Executive Action",
       "urls": [
         "https://www.politico.com/news/2026/09/29/nvidia-amd-trump-chips-china-ai-01096445",
@@ -5095,7 +5086,17 @@
         "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face"
       ],
       "date": "2026-11-03T14:31:58.872192+00:00"
+    },
+    {
+      "title": "Doctor Invests in AI Startup After Using Chatbot for Rare Cancer Diagnosis",
+      "urls": [
+        "https://euronews.com/2026/10/13/can-ai-help-healthcare-move-from-treatment-to-prevention",
+        "https://listmyai.com/blog/ai-healthcare-breakthroughs-2026-2026-08-04",
+        "https://www.businessinsider.com/ai-healthcare-cancer-startup-doctor-wife-diagnosis-treatment-invested-2026-9",
+        "https://www.forbes.com/topics/ai-in-healthcare"
+      ],
+      "date": "2026-11-03T15:02:10.578128+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T14:31:58.872258+00:00"
+  "lastUpdated": "2026-11-03T15:02:10.578203+00:00"
 }
