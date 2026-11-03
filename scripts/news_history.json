@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Maumee Tech House Opens Assistive Equipment Center Boosting Accessibility for Local Residents",
-      "urls": [
-        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
-        "https://www.assistivetechnologynews.org",
-        "https://www.specialneeds.com/articles/research/assistive-tech/the-state-of-assistive-technology-research-in-2026-whats-real-whats-coming-and-what-parents-should-watch",
-        "https://www.bbc.co.uk/news/world-41742378",
-        "https://www.13abc.com/2026/07/20/maumee-nonprofit-tech-house-gives-people-with-disabilities-hands-on-access-assistive-equipment"
-      ],
-      "date": "2026-10-24T05:31:45.045316+00:00"
-    },
-    {
-      "title": "Google Unveils Gemini 4 Argon Model While Limiting Access Over Safety Concerns",
-      "urls": [
-        "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
-        "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
-        "https://shattered.io/google-deepmind-self-improving-ai-1-year-2026",
-        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
-        "https://en.wikipedia.org/wiki/Google_AI",
-        "https://about.google",
-        "https://en.wikipedia.org/wiki/Google_DeepMind"
-      ],
-      "date": "2026-10-24T06:02:00.797971+00:00"
-    },
-    {
       "title": "UN Climate Summit 2026 Sets Stage for COP31 Climate Deal Acceleration",
       "urls": [
         "https://www.un.org/en/climatechange/climate-summit-2026",
@@ -5112,7 +5087,20 @@
         "https://www.thehindu.com/sci-tech/health/how-ai-has-revolutionised-the-world-of-assistive-devices-to-aid-persons-with-disabilities/article70157987.ece"
       ],
       "date": "2026-11-03T05:31:40.223900+00:00"
+    },
+    {
+      "title": "SWI Group Accelerates Global AI Infrastructure Build After Strong First Half Results",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+        "https://thehansindia.com/tech/upcoming-ai-updates-in-november-2026-major-developments-to-watch-1137527",
+        "https://edtechinnovationhub.com/news/google-cloud-and-nvidia-unveil-vera-rubin-ai-systems-and-new-sovereign-cloud-tools",
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+        "https://neuralcoretech.com/ai-cloud-infrastructure-race-2026",
+        "https://www.prnewswire.com/news-releases/swi-group-reports-strong-h1-2026-results-as-it-accelerates-transformation-into-a-global-ai-infrastructure-and-compute-platform-302894100.html",
+        "https://cio.economictimes.indiatimes.com/news/cloud-computing/cloud-ai-and-digital-twins-transforming-defence-infrastructure/134955731"
+      ],
+      "date": "2026-11-03T06:02:22.059322+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T05:31:40.223964+00:00"
+  "lastUpdated": "2026-11-03T06:02:22.059431+00:00"
 }
