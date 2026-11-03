@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Space Camp Expands Inclusive Program for Visually Impaired Students Across Global Communities",
-      "urls": [
-        "https://whnt.com/news/huntsville/space-camp-visually-impaired-students-huntsville",
-        "https://en.wikipedia.org/wiki/Accessibility",
-        "https://political.org/2026/04/06/federal-rule-mandates-digital-accessibility-for-blind-and-disabled-students-in-higher-education",
-        "https://www.nature.com/subjects/assistive-navigation-technologies-for-visually-impaired-users",
-        "https://www.wishtv.com/news/education/blind-students-code-microbit"
-      ],
-      "date": "2026-10-24T17:31:29.048508+00:00"
-    },
-    {
       "title": "TechCrunch published a climate news article titled “ferry that almost flies,” spotlighting a prototype vessel that merges traditional marine travel",
       "urls": [
         "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list",
@@ -5103,7 +5092,16 @@
         "https://www.tomsguide.com/wellness/workouts/the-secret-to-a-strong-core-3-trainer-approved-moves-to-unlock-your-abs-without-ever-lying-on-the-floor"
       ],
       "date": "2026-11-03T17:02:02.986798+00:00"
+    },
+    {
+      "title": "WebAIM Survey Reveals User Demographics as AI Screen Readers Evolve for Accessibility",
+      "urls": [
+        "https://battleforblindness.org/top-screen-readers-in-2026-best-accessibility-software-for-blind-users",
+        "https://webaim.org/projects/screenreadersurvey11",
+        "https://buildwithaccess.com/blog/ai-screen-reader-technology-future"
+      ],
+      "date": "2026-11-03T17:31:49.838152+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T17:02:02.986866+00:00"
+  "lastUpdated": "2026-11-03T17:31:49.838231+00:00"
 }
