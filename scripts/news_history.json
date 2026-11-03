@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Ai Open Source Language Model News Recent Highlights October 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
-        "https://mistral.ai",
-        "https://de.wikipedia.org/wiki/Mistral_AI"
-      ],
-      "date": "2026-10-24T02:01:46.995883+00:00"
-    },
-    {
       "title": "Digital Health Funding Report Shows Record $4 Billion AI Investment Boosting Mental Health Services",
       "urls": [
         "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026",
@@ -5095,7 +5085,17 @@
         "https://www.bloomberg.com/professional/insights/regulation/july-2026-global-regulatory-brief-sfdr-reform-climate-disclosures-and-carbon-reporting"
       ],
       "date": "2026-11-03T01:31:33.111578+00:00"
+    },
+    {
+      "title": "Model Context Protocol Enables Seamless AI Integration While Kimi K3 Leads Open‑Source Coding Models",
+      "urls": [
+        "https://apps.microsoft.com/detail/9nrx63209r7b?hl=en-US&gl=US",
+        "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+        "https://www.thundercompute.com/blog/best-open-source-llms",
+        "https://openai.com/index/openai-api"
+      ],
+      "date": "2026-11-03T02:03:30.854331+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T01:31:33.111643+00:00"
+  "lastUpdated": "2026-11-03T02:03:30.854434+00:00"
 }
