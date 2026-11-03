@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "ZDNET Highlights Seven Open‑Source Apps That Users Will Pay For in 2026",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://www.zdnet.com/tech/7-open-source-apps-worth-paying-for-in-2026",
-        "https://www.prnewswire.com/news-releases/open-source-summit--embedded-linux-conference-europe-2026-schedule-champions-open-source-innovation-and-marks-35-years-of-linux-302843979.html",
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions"
-      ],
-      "date": "2026-10-24T10:01:48.937014+00:00"
-    },
-    {
       "title": "United Nations Releases Comprehensive Climate Report Highlighting Health Risks and Environmental Impacts",
       "urls": [
         "https://www.un.org/en/climatechange/reports"
@@ -5106,7 +5096,20 @@
         "https://v2.auth.mistral.ai/login"
       ],
       "date": "2026-11-03T10:01:48.346497+00:00"
+    },
+    {
+      "title": "Uganda Launches Race to Rescue Crisis‑Hit Wildlife as Mountain Gorillas Show Early Recovery",
+      "urls": [
+        "https://www.aljazeera.com/features/2026/10/8/nature-can-recover-inside-the-race-to-rescue-worlds-crisis-hit-wildlife",
+        "https://www.premierleague.com/en",
+        "https://en.wikipedia.org/wiki/Flamingo_Revolution",
+        "https://www.worldwildlife.org/news/all-news-and-stories",
+        "https://www.premierleague.com/en/matches/premier-league",
+        "https://en.wikipedia.org/wiki/Monarch_butterfly",
+        "https://en.wikipedia.org/wiki/National_Zoological_Park_%28United_States%29"
+      ],
+      "date": "2026-11-03T10:31:34.512831+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T10:01:48.346570+00:00"
+  "lastUpdated": "2026-11-03T10:31:34.512915+00:00"
 }
