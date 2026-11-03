@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "CDC India Office Highlights Role in Tracking Health Threats Impacting Global Trade",
-      "urls": [
-        "https://en.wikipedia.org/wiki/India",
-        "https://www.cdc.gov/global-health/impact/featured-stories-india.html",
-        "https://www.ndtv.com/health/ai-in-healthcare-india-restructures-public-health-delivery-for-2026-10998180",
-        "https://forum.octopus.energy/login",
-        "https://www.who.int/india/news"
-      ],
-      "date": "2026-10-24T05:01:48.461187+00:00"
-    },
-    {
       "title": "Maumee Tech House Opens Assistive Equipment Center Boosting Accessibility for Local Residents",
       "urls": [
         "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
@@ -5101,7 +5090,18 @@
         "https://www.espn.com"
       ],
       "date": "2026-11-03T04:32:00.348493+00:00"
+    },
+    {
+      "title": "Linux Kernel Integrates AI Monitoring as Microsoft Defender Expands to Linux",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+        "https://www.phoronix.com/news/October-2026-Highlights",
+        "https://www.linuxnews.net",
+        "https://en.wikipedia.org/wiki/Linux_Mint",
+        "https://en.wikipedia.org/wiki/Blender_%28software%29"
+      ],
+      "date": "2026-11-03T05:01:49.980131+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T04:32:00.348567+00:00"
+  "lastUpdated": "2026-11-03T05:01:49.980198+00:00"
 }
