@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "AIIMS Deploys AI Glasses To Enable 53 Visually Impaired Patients To Navigate Using Sound",
-      "urls": [
-        "https://visionbuddy.com/whats-next-in-assistive-tech-for-the-visually-impaired",
-        "https://en.wikipedia.org/wiki/Abacus",
-        "https://en.wikipedia.org/wiki/Perkins_School_for_the_Blind",
-        "https://wolverineswire.usatoday.com/story/news/local/acadiana/2026/10/16/blind-veteran-from-louisiana-finishes-army-ten-miler-with-ai-help/92250319007",
-        "https://timesofindia.indiatimes.com/city/delhi/ai-glasses-to-help-visually-impaired-see-through-sound/articleshow/128474205.cms",
-        "https://rolltidewire.usatoday.com/story/news/local/acadiana/2026/10/16/blind-veteran-from-louisiana-finishes-army-ten-miler-with-ai-help/92250319007"
-      ],
-      "date": "2026-10-24T09:31:46.458698+00:00"
-    },
-    {
       "title": "ZDNET Highlights Seven Open‑Source Apps That Users Will Pay For in 2026",
       "urls": [
         "https://en.wikipedia.org/wiki/Linux",
@@ -5108,7 +5096,17 @@
         "https://allseniors.org/articles/top-durable-medical-equipment-innovations-for-senior-mobility-in-2026"
       ],
       "date": "2026-11-03T09:31:45.541923+00:00"
+    },
+    {
+      "title": "Mistral Releases Trillion‑Parameter Open Source Model to Boost Cybersecurity Capabilities",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+        "https://mistral.ai",
+        "https://shattered.io/open-weight-ai-models-side-by-side-the-spec-sheet",
+        "https://v2.auth.mistral.ai/login"
+      ],
+      "date": "2026-11-03T10:01:48.346497+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T09:31:45.541993+00:00"
+  "lastUpdated": "2026-11-03T10:01:48.346570+00:00"
 }
