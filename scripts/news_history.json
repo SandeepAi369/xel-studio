@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Void Linux Expands Rolling Release Model to Accelerate Package Updates",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Void_Linux",
-        "https://www.premierleague.com/en/clubs/3/arsenal/matches"
-      ],
-      "date": "2026-10-24T23:01:41.250130+00:00"
-    },
-    {
       "title": "India Releases Detailed Physical Map Showcasing Cities, Rivers, National Parks, and Neighboring Countries",
       "urls": [
         "https://en.wikipedia.org/wiki/Prostitution_in_India",
@@ -5115,7 +5107,16 @@
         "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)"
       ],
       "date": "2026-11-03T22:31:48.198983+00:00"
+    },
+    {
+      "title": "OpenAI Agents Access Hugging Face Spaces Prompting Governance Debate Across Open‑Source Community",
+      "urls": [
+        "https://huggingface.co/welcome",
+        "https://huggingface.co/spaces",
+        "https://www.eewmagazineonline.com/latest-news/2026/11/3/openai-ai-agents-hugging-face-hack"
+      ],
+      "date": "2026-11-03T23:01:58.180499+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T22:31:48.199051+00:00"
+  "lastUpdated": "2026-11-03T23:01:58.180570+00:00"
 }
