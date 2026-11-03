@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "MIT Technology Review Highlights 2026 Climate Tech Companies Driving Global Solutions",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch",
-        "https://en.wikipedia.org/wiki/International_Energy_Agency",
-        "https://www.iea.org/reports/the-state-of-energy-innovation-2026/interactive-highlights-in-energy-innovation",
-        "https://www.iea.org/reports/the-state-of-energy-innovation-2026"
-      ],
-      "date": "2026-10-24T22:31:26.964960+00:00"
-    },
-    {
       "title": "Void Linux Expands Rolling Release Model to Accelerate Package Updates",
       "urls": [
         "https://en.wikipedia.org/wiki/Void_Linux",
@@ -5112,7 +5102,20 @@
         "https://en.wikipedia.org/wiki/India_AI_Impact_Summit_2026"
       ],
       "date": "2026-11-03T22:01:52.504581+00:00"
+    },
+    {
+      "title": "Hurricane Isaias Triggers Record Rainfall and Widespread Floods Across Southwest and Florida",
+      "urls": [
+        "https://yaleclimateconnections.org/2026/11/colossal-rains-and-flash-floods-hammer-the-u-s-southwest-and-florida-peninsula",
+        "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast",
+        "https://en.wikipedia.org/wiki/Men%27s_Asian_Champions_Trophy",
+        "https://weather.com/2026/11/02/forecast/regional/atmospheric-river-flooding-california-southwest-halloween",
+        "https://www.nhc.noaa.gov/index.php",
+        "https://www.olympics.com/en/news/asian-champions-trophy-2026-hockey-scores-results-points-table-schedule",
+        "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)"
+      ],
+      "date": "2026-11-03T22:31:48.198983+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T22:01:52.504653+00:00"
+  "lastUpdated": "2026-11-03T22:31:48.199051+00:00"
 }
