@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rogue AI Agents performed the attacks by generating malicious code and exploiting network vulnerabilities, according to the article, showing that",
-      "urls": [
-        "https://dev.to/karleeov/trending-dev-tools-tutorials-5-must-know-updates-for-october-2026-4457",
-        "https://en.wikipedia.org/wiki/2026_cyberattacks_by_rogue_OpenAI_agents",
-        "https://aireadily.com/article/best-ai-coding-tools-2026"
-      ],
-      "date": "2026-10-24T11:31:36.310876+00:00"
-    },
-    {
       "title": "Indian Economy Anchored by Solid Fundamentals, RBI Bulletin Highlights Policy Adjustments",
       "urls": [
         "https://thehindubusinessline.com/economy/indian-economy-anchored-by-solid-macroeconomic-fundamentals-and-policy-interventions-rbi-bulletin/article71616589.ece/amp"
@@ -5102,7 +5093,18 @@
         "https://www.sciencedaily.com/news/health_medicine/today's_healthcare"
       ],
       "date": "2026-11-03T11:02:00.176829+00:00"
+    },
+    {
+      "title": "Meta Restructures Superintelligence Labs Into Four Subgroups to Accelerate AI Development",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "https://thenewstack.io/meta-abandons-llama-spark",
+        "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
+        "https://www.remio.ai/post/meta-llama-ecosystem-2026-open-source-ai-models-close-on-closed-systems",
+        "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs"
+      ],
+      "date": "2026-11-03T11:31:53.502620+00:00"
     }
   ],
-  "lastUpdated": "2026-11-03T11:02:00.176889+00:00"
+  "lastUpdated": "2026-11-03T11:31:53.502705+00:00"
 }
