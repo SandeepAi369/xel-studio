@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Trump Imposes Up To 200 Percent Tariff on Indian Generic Drugs",
-      "urls": [
-        "https://www.nytimes.com/2026/10/02/business/india-generic-drugs-tariffs.html",
-        "https://www.hindustantimes.com/india-news/0-100-200-how-trump-latest-generic-medicines-tariffs-could-affect-india-pharmacy-of-the-world-drugs-101784693684789.html",
-        "https://www.pharmanow.live/knowledge-hub/market-trends/top-11-generic-pharma-exporters-in-india-fueling-global-healthcare",
-        "https://www.businesstoday.in/world/story/trump-announces-import-tariff-up-to-200-on-generic-drugs-after-2026-window-indias-9-7bn-exports-at-risk-544350-2026-07-22",
-        "https://en.wikipedia.org/wiki/Economy_of_India"
-      ],
-      "date": "2026-10-25T07:31:37.075686+00:00"
-    },
-    {
       "title": "AtlantisChain Surpasses 1.2 Billion Blocks in 446 Days, Claiming Fastest Global Growth",
       "urls": [
         "https://investingnews.com/cryptocurrency-market-recap",
@@ -5140,7 +5129,18 @@
         "https://www.politico.com/2026-elections"
       ],
       "date": "2026-11-04T07:01:50.080081+00:00"
+    },
+    {
+      "title": "New AI Model Accelerates Rare Disease Diagnosis, Cutting Weeks to Days",
+      "urls": [
+        "https://www.healthcareitnews.com",
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/digital-health/12-ai-digital-health-tools-among-times-best-inventions-of-2026",
+        "https://www.usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
+        "https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493"
+      ],
+      "date": "2026-11-04T07:31:45.798119+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T07:01:50.080136+00:00"
+  "lastUpdated": "2026-11-04T07:31:45.798187+00:00"
 }
