@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Shares Surge As Big Tech Earnings Boost Market Momentum",
-      "urls": [
-        "https://investopedia.com/stock-market-today-dow-jones-s-and-p-500-10212026-12185746",
-        "https://www.foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
-        "https://cnbc.com/2026/10/06/how-the-rest-of-the-stock-market-may-outpace-tech-giants-this-earnings-season.html",
-        "https://admiralmarkets.com/analytics/traders-blog/us100-big-tech-earnings-week",
-        "https://investingnews.com/top-tech-news",
-        "https://en.wikipedia.org/wiki/HTC",
-        "https://www.tradestation.com/insights/2026/10/21/big-tech-earnings-october-2026"
-      ],
-      "date": "2026-10-25T03:31:46.149201+00:00"
-    },
-    {
       "title": "Flapping Airplanes follows closely, securing a significant round that helped it share the top spot for the week, demonstrating continued",
       "urls": [
         "https://techstartups.com/2026/10/21/startup-funding-news-today-october-21-2026-asi-baba-pigment-eka-robotics-otter-ai-more",
@@ -5131,7 +5118,18 @@
         "https://www.feri.de/en/newsroom/economics-update-november-2025-weaker-global-growth-momentum-no-slump-"
       ],
       "date": "2026-11-04T03:02:19.169006+00:00"
+    },
+    {
+      "title": "Apple Shares Slip After Slower Earnings Growth Triggers Market Pullback",
+      "urls": [
+        "https://www.earningswhispers.com",
+        "https://seekingalpha.com/article/4961068-wall-street-lunch-big-tech-earnings-take-center-stage",
+        "https://finance.yahoo.com/markets/stocks/articles/intc-amzn-googl-stocks-rise-035913446.html",
+        "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026"
+      ],
+      "date": "2026-11-04T03:31:53.646077+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T03:02:19.169081+00:00"
+  "lastUpdated": "2026-11-04T03:31:53.646144+00:00"
 }
