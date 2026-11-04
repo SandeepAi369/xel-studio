@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Poki Expands Free Online Game Library With New Multiplayer Options",
-      "urls": [
-        "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback",
-        "https://government.economictimes.indiatimes.com/news/digital-india/upi-at-10-indias-digital-payments-revolution-faces-its-next-testscale-security-sustainability/133554153",
-        "https://poki.com",
-        "https://onlinesbi.sbi.bank.in"
-      ],
-      "date": "2026-10-25T11:31:25.529633+00:00"
-    },
-    {
       "title": "European Union Enacts Digital Services Act to Standardize Online Platform Rules",
       "urls": [
         "https://www.corporatecrimereporter.com/corporate-crime-reporter-interviews-1987-to-2013",
@@ -5140,7 +5130,19 @@
         "https://www.investindia.gov.in/sector/pharmaceuticals"
       ],
       "date": "2026-11-04T11:01:55.224800+00:00"
+    },
+    {
+      "title": "Microsoft Details Simple Steps to Pair Any Bluetooth Device on Windows PCs",
+      "urls": [
+        "https://support.microsoft.com/es-es/windows/hardware/bluetooth/pair-a-bluetooth-device-in-windows",
+        "https://www.techiestimes.com/cloud-computing-news",
+        "https://support.microsoft.com/ko-kr/windows/hardware/bluetooth/fix-bluetooth-problems-in-windows",
+        "https://www.computerweekly.com/news/366636636/Middle-East-tech-trends-2026-AI-cyber-security-and-sovereign-infrastructure-take-centre-stage",
+        "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud",
+        "https://www.cloudtechdaily.com/en/articles/cloud-computing-trends-2026-enterprise-ai-multicloud"
+      ],
+      "date": "2026-11-04T11:32:06.421966+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T11:01:55.224873+00:00"
+  "lastUpdated": "2026-11-04T11:32:06.422025+00:00"
 }
