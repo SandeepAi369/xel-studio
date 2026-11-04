@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "PM Modi Highlights Climate Inequality Calls For Fair Emissions Standards",
-      "urls": [
-        "https://www.livemint.com/news/india/pm-modi-flags-climate-inequality-says-developed-nations-carbon-emissions-6-times-more-top-quotes-11789803659346.html",
-        "https://brandequity.economictimes.indiatimes.com/news/marketing/october-2026-india-inc-s-first-compliance-season-for-carbon/132617350"
-      ],
-      "date": "2026-10-25T14:01:51.506330+00:00"
-    },
-    {
       "title": "9to5Linux Highlights Linux Kernel 7.3 Release and COSMIC 1.11 Update",
       "urls": [
         "https://9to5linux.com/9to5linux-weekly-roundup-october-25th-2026",
@@ -5139,7 +5131,17 @@
         "https://www.petertheil.com/167867"
       ],
       "date": "2026-11-04T13:31:46.587638+00:00"
+    },
+    {
+      "title": "USGS Earthquake Portal Expands Data Access With Comprehensive Recent and Historic Seismic Listings",
+      "urls": [
+        "https://earthquaketrackers.com/earthquakes/today",
+        "https://en.wikipedia.org/wiki/List_of_tsunamis",
+        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtVnVLQUFQAQ",
+        "https://www.usgs.gov/programs/earthquake-hazards/earthquakes"
+      ],
+      "date": "2026-11-04T14:02:10.719007+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T13:31:46.587701+00:00"
+  "lastUpdated": "2026-11-04T14:02:10.719095+00:00"
 }
