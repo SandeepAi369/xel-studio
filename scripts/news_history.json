@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Identify Fifteen Gut Bacteria Linked to Early Alzheimer’s Brain Changes",
-      "urls": [
-        "https://www.sciencedaily.com/news/health_medicine/medical_devices"
-      ],
-      "date": "2026-10-25T02:31:28.367991+00:00"
-    },
-    {
       "title": "India Condemns Pakistan's Exploitation of United Nations, Calls for Citizen-Centric Policies",
       "urls": [
         "https://scconline.com/blog/post/2026/10/20/weekly-legal-developments-india-12-18-october-2026",
@@ -5127,7 +5120,20 @@
         "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters"
       ],
       "date": "2026-11-04T02:02:00.590327+00:00"
+    },
+    {
+      "title": "India's Generic Drug Exports confront a newly announced U.S. tariff proposal that may impose additional duties on a broad spectrum",
+      "urls": [
+        "https://epw.in/journal/2026/44/commentary/indias-pharmaceutical-industry.html",
+        "https://harsonexim.com/blog/pharmaceutical-exports-from-india-2026",
+        "https://en.wikipedia.org/wiki/Pharmaceutical_industry_in_India",
+        "https://thewire.in/trade/indias-generic-drug-exports-now-face-new-us-tariff-threat",
+        "https://www.bbc.com/news/articles/cx2g4411en3o",
+        "https://en.wikipedia.org/wiki/Teva_Pharmaceuticals",
+        "https://www.indialaw.in/blog/regulatory/us-pharma-tariffs-2026-exporters"
+      ],
+      "date": "2026-11-04T02:32:13.776728+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T02:02:00.590404+00:00"
+  "lastUpdated": "2026-11-04T02:32:13.776806+00:00"
 }
