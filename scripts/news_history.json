@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Maintains Market Visibility as Investors Track Stock on Yahoo Finance and TradingView",
-      "urls": [
-        "https://sg.finance.yahoo.com/quote/AAPL",
-        "https://maps.google.co.in/mapfiles/home3.html",
-        "https://www.tradingview.com/symbols/NASDAQ-AAPL"
-      ],
-      "date": "2026-10-25T13:31:33.183192+00:00"
-    },
-    {
       "title": "PM Modi Highlights Climate Inequality Calls For Fair Emissions Standards",
       "urls": [
         "https://www.livemint.com/news/india/pm-modi-flags-climate-inequality-says-developed-nations-carbon-emissions-6-times-more-top-quotes-11789803659346.html",
@@ -5138,7 +5129,17 @@
         "https://en.wikipedia.org/wiki/Social_media_as_a_news_source"
       ],
       "date": "2026-11-04T13:01:53.001223+00:00"
+    },
+    {
+      "title": "NHS Faces Staff Exodus to Private Clinics Threatening Autism and ADHD Services",
+      "urls": [
+        "https://theguardian.com/society/2026/oct/09/nhs-exodus-adhd-autism-services-staff-private-clinics",
+        "https://www.autism.org.uk/what-we-do/news/our-response-to-the-expert-academic-panel-on-neurodiversity-report",
+        "https://en.wikipedia.org/wiki/2024_New_Year_Honours",
+        "https://www.petertheil.com/167867"
+      ],
+      "date": "2026-11-04T13:31:46.587638+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T13:01:53.001310+00:00"
+  "lastUpdated": "2026-11-04T13:31:46.587701+00:00"
 }
