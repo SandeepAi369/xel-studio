@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "9to5Linux Highlights Linux Kernel 7.3 Release and COSMIC 1.11 Update",
-      "urls": [
-        "https://9to5linux.com/9to5linux-weekly-roundup-october-25th-2026",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-41-2026-october-5-11",
-        "https://en.wikipedia.org/wiki/Linux_adoption",
-        "https://opensource.org/blog",
-        "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
-      ],
-      "date": "2026-10-25T14:31:27.892946+00:00"
-    },
-    {
       "title": "Scientists Replicate Quantum Wing Mechanism in Long‑Distance Migrating Flies Revealing New Insights Into Insect Flight",
       "urls": [
         "https://sciencedaily.com/news/top/science",
@@ -5141,7 +5130,15 @@
         "https://www.usgs.gov/programs/earthquake-hazards/earthquakes"
       ],
       "date": "2026-11-04T14:02:10.719007+00:00"
+    },
+    {
+      "title": "TensorFlow and PyTorch Survey Highlights Convergence and Model Conversion Options",
+      "urls": [
+        "https://arxiv.org/html/2508.04035v1",
+        "https://discoverinai.com/ai-frameworks-tensorflow-vs-pytorch-in-2026"
+      ],
+      "date": "2026-11-04T14:31:49.960302+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T14:02:10.719095+00:00"
+  "lastUpdated": "2026-11-04T14:31:49.960375+00:00"
 }
