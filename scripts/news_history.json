@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "MedicalNewsToday Debunks Twelve Common Irritable Bowel Syndrome Myths In Detailed Feature",
-      "urls": [
-        "https://www.nih.gov/news-events/news-releases",
-        "https://en.wikipedia.org/wiki/Thorburn_Brailsford_Robertson",
-        "https://www.todaysmedicaldevelopments.com/magazine/october-2026",
-        "https://www.medicalnewstoday.com"
-      ],
-      "date": "2026-10-25T11:01:37.798787+00:00"
-    },
-    {
       "title": "Poki Expands Free Online Game Library With New Multiplayer Options",
       "urls": [
         "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback",
@@ -5135,7 +5125,22 @@
         "https://en.wikipedia.org/wiki/Mayon"
       ],
       "date": "2026-11-04T10:32:09.019881+00:00"
+    },
+    {
+      "title": "India Faces New U.S. Tariff Threat on Generic Drug Exports",
+      "urls": [
+        "https://www.nytimes.com/2026/10/02/business/india-generic-drugs-tariffs.html",
+        "https://gccpl.com/blog/indias-pharma-exports-challenges-opportunities-2026",
+        "https://inductusglobal.com/indias-pharmaceutical-export-expansion-in-2026-new-markets-and-product-categories",
+        "https://pharma.economictimes.indiatimes.com/news/policy-and-regulations/india-us-trade-deal-generic-drugmakers-to-get-negotiated-outcome-in-section-232-probe/128033554",
+        "https://financialexpress.com/business/news-tariff-risks-reshape-indian-pharmas-global-playbook-4365027",
+        "https://www.ibef.org/industry/pharmaceutical-india",
+        "https://m.thewire.in/article/trade/indias-generic-drug-exports-now-face-new-us-tariff-threat",
+        "https://www.imarcgroup.com/india-generic-drugs-market",
+        "https://www.investindia.gov.in/sector/pharmaceuticals"
+      ],
+      "date": "2026-11-04T11:01:55.224800+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T10:32:09.019950+00:00"
+  "lastUpdated": "2026-11-04T11:01:55.224873+00:00"
 }
