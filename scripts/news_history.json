@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kling AI Unveils Kling 4.0 Professional Video Model to Elevate Enterprise Content Creation",
-      "urls": [
-        "https://markets.businessinsider.com/news/stocks/kling-ai-officially-launches-next-generation-kling-4-0-raising-the-bar-for-professional-grade-video-models-1036635704",
-        "https://www.kombitz.com/2026/10/10/ai-image-video-model-news-roundup-october-10-2026",
-        "https://www.desmoinesregister.com/press-release/story/143297/ai-launches-ai-video-extending-inference-to-video-from-text-and-photos-to-custom-models-built-on-enterprise-content"
-      ],
-      "date": "2026-10-25T02:01:42.923162+00:00"
-    },
-    {
       "title": "Scientists Identify Fifteen Gut Bacteria Linked to Early Alzheimer’s Brain Changes",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine/medical_devices"
@@ -5128,7 +5119,15 @@
         "https://economictimes.indiatimes.com/topic/solar-energy-transition-in-india"
       ],
       "date": "2026-11-04T01:31:50.722819+00:00"
+    },
+    {
+      "title": "Bradley Kühn Highlights Conflict Between Open Source Funding and Copyleft Opposition",
+      "urls": [
+        "https://ebb.org/bkuhn/blog",
+        "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters"
+      ],
+      "date": "2026-11-04T02:02:00.590327+00:00"
     }
   ],
-  "lastUpdated": "2026-11-04T01:31:50.722883+00:00"
+  "lastUpdated": "2026-11-04T02:02:00.590404+00:00"
 }
