@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Advances Disability Rights With Draft RPwD Amendment Rules Targeting Enforceable Access",
-      "urls": [
-        "https://www.policycircle.org/opinion/disability-rights-law-india",
-        "https://www.thehindubusinessline.com/economy/policy/cabinet-expands-disability-pension-coverage-to-27-lakh-raises-monthly-assistance/article71583756.ece",
-        "https://en.wikipedia.org/wiki/List_of_disability_rights_activists",
-        "https://www.legalitysimplified.com/ministry-of-social-justice-issues-draft-rights-of-persons-with-disabilities-amendment-rules-2026-to-mandate-ict-accessibility-standards",
-        "https://www.indialaw.in/blog/regulatory/rpwd-amendment-rules-2026"
-      ],
-      "date": "2026-10-26T09:31:40.425923+00:00"
-    },
-    {
       "title": "Mistral AI Launches Le Chonk Model With 1.05 Trillion Parameters",
       "urls": [
         "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe",
@@ -5190,7 +5179,17 @@
         "https://devforum.roblox.com/t/topbarplus-v350-construct-topbar-icons-with-ease-customise-them-with-themes-dropdowns-captions-labels-and-more/1017485"
       ],
       "date": "2026-11-05T09:31:37.373389+00:00"
+    },
+    {
+      "title": "9to5Linux Highlights Kali Linux 2026.3, Firefox 159, and KDE Updates in Weekly Roundup",
+      "urls": [
+        "https://9to5linux.com",
+        "https://lwn.net",
+        "https://fossforce.com",
+        "https://opensource.googleblog.com/2026"
+      ],
+      "date": "2026-11-05T10:01:53.944478+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T09:31:37.373447+00:00"
+  "lastUpdated": "2026-11-05T10:01:53.944558+00:00"
 }
