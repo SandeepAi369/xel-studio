@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kali Linux launches version 2026.3, the newest edition of its ethical hacking distribution, now downloadable as a 3.2 GB ISO",
-      "urls": [
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-43-2026-october-19-25",
-        "https://9to5linux.com/kali-linux-2026-3-released-with-linux-7-1-kde-plasma-6-7-and-new-tools",
-        "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html"
-      ],
-      "date": "2026-10-26T14:33:45.251663+00:00"
-    },
-    {
-      "title": "Scientists Unveil AI Tool Detecting Pancreatic Cancer Years Before Diagnosis",
-      "urls": [
-        "https://veroscribe.com/blog/healthcare-ai-news-september-2026",
-        "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
-        "https://timesofindia.indiatimes.com/science/scientists-develop-ai-that-detects-pancreatic-cancer-years-before-diagnosis-in-a-major-breakthrough/articleshow/132109719.cms"
-      ],
-      "date": "2026-10-26T15:02:01.463684+00:00"
-    },
-    {
       "title": "Meta Launches First AI Agents as Google Unveils Top‑Tier Model Prompting EU Regulatory Action",
       "urls": [
         "https://www.vogue.com/story/technology/the-vogue-business-ai-tracker",
@@ -5197,7 +5179,18 @@
         "https://techrepublic.com/article/news-mistral-large-4-ai-cybersecurity-open-weights"
       ],
       "date": "2026-11-05T14:32:09.350480+00:00"
+    },
+    {
+      "title": "Scientists Identify Mysterious “Lonely” Brain Waves Linked to Memory Function",
+      "urls": [
+        "https://www.sciencedaily.com/news/top/health",
+        "https://sciencedaily.com/news/health_medicine/medical_topics",
+        "https://sciencedaily.com/news/health_medicine/medical_imaging",
+        "https://distance.physiology.med.ufl.edu/about/articles/general/7-medical-sciences-trends-shaping-healthcare-in-2026",
+        "https://www.webmd.com"
+      ],
+      "date": "2026-11-05T15:03:22.628001+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T14:32:09.350567+00:00"
+  "lastUpdated": "2026-11-05T15:03:22.628065+00:00"
 }
