@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nepal Faces Record-Setting Flash Floods Triggered by Glacial Lake Outburst",
-      "urls": [
-        "https://www.cnbc.com/2026/09/08/natural-disasters-month-review-earthquake-volcano-flood.html",
-        "https://en.wikipedia.org/wiki/List_of_earthquakes_in_2026",
-        "https://en.wikipedia.org/wiki/Natural_disasters_in_Japan",
-        "https://timesofindia.indiatimes.com/world/south-asia/2012-kathmandu-earthquake-2026-flash-floods-why-nepal-is-so-susceptible-to-natural-disasters/articleshow/133545762.cms"
-      ],
-      "date": "2026-10-26T14:02:25.126274+00:00"
-    },
-    {
       "title": "Kali Linux launches version 2026.3, the newest edition of its ethical hacking distribution, now downloadable as a 3.2 GB ISO",
       "urls": [
         "https://linuxiac.com/linuxiac-weekly-wrap-up-week-43-2026-october-19-25",
@@ -5196,7 +5186,18 @@
         "https://en.wikipedia.org/wiki/Wind_power_in_the_United_States"
       ],
       "date": "2026-11-05T14:02:17.972338+00:00"
+    },
+    {
+      "title": "Mistral AI Launches 1 Trillion Parameter Model to Boost Cybersecurity Defenses",
+      "urls": [
+        "https://mistral.ai/news/mistral-3",
+        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+        "https://builtin.com/articles/mistral-ai",
+        "https://docs.mistral.ai/models",
+        "https://techrepublic.com/article/news-mistral-large-4-ai-cybersecurity-open-weights"
+      ],
+      "date": "2026-11-05T14:32:09.350480+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T14:02:17.972399+00:00"
+  "lastUpdated": "2026-11-05T14:32:09.350567+00:00"
 }
