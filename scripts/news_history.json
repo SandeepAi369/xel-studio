@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Arizona Tornado – In central Arizona, a possible tornado touched down, uprooting trees that fell onto homes and creating visible",
-      "urls": [
-        "https://www.theguardian.com/us-news/2026/oct/23/severe-flooding-west-triggers-rescues-evacuations",
-        "https://en.wikipedia.org/wiki/Extreme_weather",
-        "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images",
-        "https://apnews.com/article/extreme-weather-tornado-hail-arizona-2fe815b7570812ad0f2cb4278379e185"
-      ],
-      "date": "2026-10-26T06:31:32.025688+00:00"
-    },
-    {
       "title": "International Monetary Fund Warns Global Economy Near Resilience Threshold Amid Slowing Recovery",
       "urls": [
         "https://www.worldbank.org/en/publication/global-economic-prospects",
@@ -5171,7 +5161,15 @@
         "https://about.google"
       ],
       "date": "2026-11-05T06:02:23.455575+00:00"
+    },
+    {
+      "title": "United Nations Releases Policy Brief on Enabling Sustainable Lifestyles Amid Climate Emergency",
+      "urls": [
+        "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-3-november-2026",
+        "https://www.un.org/en/climatechange/reports"
+      ],
+      "date": "2026-11-05T06:31:37.802936+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T06:02:23.455643+00:00"
+  "lastUpdated": "2026-11-05T06:31:37.803033+00:00"
 }
