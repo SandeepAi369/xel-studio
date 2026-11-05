@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Warns Global Economy Near Resilience Threshold Amid Slowing Recovery",
-      "urls": [
-        "https://www.worldbank.org/en/publication/global-economic-prospects",
-        "https://maseconomics.com/imf-world-economic-outlook-october-2026",
-        "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
-        "https://www.delhicapitals.in/players"
-      ],
-      "date": "2026-10-26T07:02:04.961890+00:00"
-    },
-    {
-      "title": "Isomorphic Labs Secures $2.1 Billion to Accelerate AI‑Powered Drug Discovery",
-      "urls": [
-        "https://stanforddaily.com/2026/10/14/ai-powered-biotech-could-shave-years-off-of-drug-discovery",
-        "https://www.marketscreener.com/news/ai-drug-discovery-forecasts-vary-widely-as-sector-shifts-to-deployment-ce785ddad88aff24",
-        "https://news.sap.com/korea/2022/08/%EC%B0%A8%EC%84%B8%EB%8C%80-erp%EA%B0%80-%EA%B0%96%EC%B6%B0%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%9A%94%EC%86%8C",
-        "https://bunkr.cr/a/T0izelzC",
-        "https://yourstory.com/ai-story/isomorphic-labs-ai-drug-discovery-series-b-2026",
-        "https://www.drugcom.de"
-      ],
-      "date": "2026-10-26T07:31:35.906636+00:00"
-    },
-    {
       "title": "Social Security Administration Launches Electronic Submission Service to Streamline Claims",
       "urls": [
         "https://www.ssa.gov"
@@ -5182,7 +5160,16 @@
         "https://www.unhcr.org/news/briefing-notes/refugees-yemen-trapped-between-conflict-displacement-and-dangerous-journeys"
       ],
       "date": "2026-11-05T07:01:51.540731+00:00"
+    },
+    {
+      "title": "India Revamps Drug Patent Rules to Accelerate Generic Medicines and Curb Evergreening",
+      "urls": [
+        "https://www.hindustantimes.com/india-news/0-for-two-years-100-for-one-200-after-us-latest-tariff-move-over-generic-medicines-101784684085891.html",
+        "https://en.wikipedia.org/wiki/Economy_of_India",
+        "https://www.livemint.com/companies/news/india-drugs-patents-rules-overhaul-evergreening-generics-11792122825531.html"
+      ],
+      "date": "2026-11-05T07:31:42.583097+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T07:01:51.540790+00:00"
+  "lastUpdated": "2026-11-05T07:31:42.583159+00:00"
 }
