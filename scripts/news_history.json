@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Egypt Details Diplomatic Ties and Lithuania Relations in New Foreign Affairs Report",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Foreign_relations_of_Egypt"
-      ],
-      "date": "2026-10-26T12:02:11.693047+00:00"
-    },
-    {
       "title": "Suvarna Raj Wins Gold at Asian Para Games, Boosting India's Para Sports Profile",
       "urls": [
         "https://engage4more.com/blog/indian-women-in-sports",
@@ -5182,7 +5175,16 @@
         "https://fortuneindia.com/markets/it-stocks-defy-market-correction-tcs-infosys-techm-hcltech-wipro-rally-up-to-23-in-a-month/166229"
       ],
       "date": "2026-11-05T11:31:47.378186+00:00"
+    },
+    {
+      "title": "RBI Raises Repo Rate to 5.5%, First Increase in Nearly Four Years",
+      "urls": [
+        "https://www.thehindu.com/business/rbi-monetary-policy-meeting-decision-on-repo-rate-live-updates-october-7-2026/article71554262.ece",
+        "https://theweek.in/news/biz-tech/2026/10/07/india-monetary-policy-update-rbi-oct.html",
+        "https://bloomberg.com/news/live-blog/2026-10-07/reserve-bank-of-india-rate-decision"
+      ],
+      "date": "2026-11-05T12:02:15.861256+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T11:31:47.378275+00:00"
+  "lastUpdated": "2026-11-05T12:02:15.861327+00:00"
 }
