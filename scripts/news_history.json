@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Album Cover of 'Wish You Were Here' Sparks Debate Over Fire‑Infused Businessmen Imagery",
-      "urls": [
-        "https://www.zhihu.com/question/57427156"
-      ],
-      "date": "2026-10-26T05:01:54.244991+00:00"
-    },
-    {
       "title": "Dubai Airport Deploys Autonomous Wheelchairs to Accelerate Travel for Passengers with Mobility Needs",
       "urls": [
         "https://en.wikipedia.org/wiki/Wheelchair",
@@ -5165,7 +5158,17 @@
         "https://worldathletics.org/news/discipline/marathon"
       ],
       "date": "2026-11-05T04:33:42.194017+00:00"
+    },
+    {
+      "title": "Tencent Launches Hy4 Open-Source AI Model to Challenge Global Leaders",
+      "urls": [
+        "https://www.prnewswire.com/apac/news-releases/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models-302929177.html",
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://thehype.news/calendar/releases",
+        "https://en.wikipedia.org/wiki/Grok_%28chatbot%29"
+      ],
+      "date": "2026-11-05T05:02:11.483502+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T04:33:42.194117+00:00"
+  "lastUpdated": "2026-11-05T05:02:11.483569+00:00"
 }
