@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linus Torvalds Sees Share Value Spike to $20 Million Amid Market Interest",
-      "urls": [
-        "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026",
-        "https://en.wikipedia.org/wiki/Linus_Torvalds"
-      ],
-      "date": "2026-10-26T02:01:42.292165+00:00"
-    },
-    {
       "title": "UK Government Endorses NHS AI Commission Blueprint to Accelerate Clinical Artificial Intelligence",
       "urls": [
         "https://www.thunderbird-mail.de/forum/thread/83680-authentifizierungsfehler-beim-verbinden-mit-dem-server-imap-gmail-com",
@@ -5151,7 +5143,15 @@
         "https://www.nytimes.com/section/climate"
       ],
       "date": "2026-11-05T01:31:48.992175+00:00"
+    },
+    {
+      "title": "Mistral Unveils New AI Model Claiming Parity With Leading Open‑Source Systems",
+      "urls": [
+        "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+        "https://en.wikipedia.org/wiki/AI_boom"
+      ],
+      "date": "2026-11-05T02:02:17.902263+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T01:31:48.992247+00:00"
+  "lastUpdated": "2026-11-05T02:02:17.902328+00:00"
 }
