@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Demonstrate Tiny Magnetic Vortices to Boost Brain‑Like Computing Efficiency",
-      "urls": [
-        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence",
-        "https://nexaaipro.com/blog/latest-ai-news-october-2026",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_controversies"
-      ],
-      "date": "2026-10-26T19:31:49.818202+00:00"
-    },
-    {
       "title": "Reserve Bank of India Raises Repo Rate to 5.5 Percent, Boosts Growth Forecast to 7.1 Percent",
       "urls": [
         "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
@@ -5187,7 +5178,16 @@
         "https://en.wikipedia.org/wiki/Youth_mental_health_crisis"
       ],
       "date": "2026-11-05T19:02:18.296294+00:00"
+    },
+    {
+      "title": "OpenAI Releases GPT‑4 as Most Advanced Language Model, Building on GPT‑2 Foundations",
+      "urls": [
+        "https://en.wikipedia.org/wiki/GPT-2",
+        "https://platform.openai.com/onboarding?app=chat",
+        "https://openai.com/index/gpt-4"
+      ],
+      "date": "2026-11-05T19:32:13.103140+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T19:02:18.296367+00:00"
+  "lastUpdated": "2026-11-05T19:32:13.103220+00:00"
 }
