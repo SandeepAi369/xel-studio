@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telemedicine Market Report Shows Up to $120 Savings Per Visit and Highlights Major Industry Players",
-      "urls": [
-        "https://www.mondaq.com/unitedstates/healthcare/1855280/virtual-digital-health-digest",
-        "https://www.lucknowsupergiants.in",
-        "https://www.americantelemed.org",
-        "https://finance.yahoo.com/healthcare/articles/telemedicine-market-report-now-available-085000800.html"
-      ],
-      "date": "2026-10-26T23:31:31.876901+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT‑6.1 Sol and Restores Terra Model at DevDay 2026",
       "urls": [
         "https://openai.com/index/devday-2026-recap",
@@ -5183,7 +5173,21 @@
         "https://kanerika.com/blogs/recent-developments-in-ai"
       ],
       "date": "2026-11-05T23:02:01.105666+00:00"
+    },
+    {
+      "title": "NIMH Highlights Technology Opportunities and Challenges for Mental Health Care in Low‑Income Nations",
+      "urls": [
+        "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/03/5-challenges-student-well-being-digital-age",
+        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
+        "https://wellcome.org/insights/articles/how-technology-can-help-shape-future-mental-health-treatment",
+        "https://www.nature.com/articles/s41599-025-06441-z",
+        "https://news.mit.edu/topic/mental-health",
+        "https://hypnothera.ai/ai-mental-wellness-statistics-2026.html",
+        "https://research2guidance.com/ai-in-mental-health-2026-clinical-infrastructure-wins-the-funding-race-and-wellness-apps-are-priced-out",
+        "https://www.scoop.co.nz/stories/AK2609/S00397/mental-health-awareness-week-2026-tackles-rising-loneliness-across-aotearoa.htm"
+      ],
+      "date": "2026-11-05T23:31:39.460782+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T23:02:01.105730+00:00"
+  "lastUpdated": "2026-11-05T23:31:39.460847+00:00"
 }
