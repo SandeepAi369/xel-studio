@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Le Chonk Model With 1.05 Trillion Parameters",
-      "urls": [
-        "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe",
-        "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html",
-        "https://builtin.com/articles/mistral-ai",
-        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-        "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents"
-      ],
-      "date": "2026-10-26T10:01:57.983875+00:00"
-    },
-    {
       "title": "Global Regulatory Brief Highlights New ESG Ratings and Climate Supervision Standards",
       "urls": [
         "https://www.bloomberg.com/professional/insights/regulation/august-2026-global-regulatory-brief-esg-ratings-climate-risk-and-sustainability-disclosures",
@@ -5189,7 +5178,15 @@
         "https://opensource.googleblog.com/2026"
       ],
       "date": "2026-11-05T10:01:53.944478+00:00"
+    },
+    {
+      "title": "Nature Climate Change Publishes October 2026 Issue Featuring Editorial, Correspondence, and Viewpoint Articles",
+      "urls": [
+        "https://www.nature.com/nclimate",
+        "https://climate.esa.int/en/news-events/2026-climate-science-headlines-outlined-in-new-report"
+      ],
+      "date": "2026-11-05T10:31:56.041124+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T10:01:53.944558+00:00"
+  "lastUpdated": "2026-11-05T10:31:56.041207+00:00"
 }
