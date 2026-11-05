@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Social Security Administration Launches Electronic Submission Service to Streamline Claims",
-      "urls": [
-        "https://www.ssa.gov"
-      ],
-      "date": "2026-10-26T08:01:54.634162+00:00"
-    },
-    {
       "title": "India Awaits First Greco Roman Medal as Asian Games Matches Deliver Late Goals",
       "urls": [
         "https://www.thehindu.com/sport/asian-games-2026-live-updates-on-september-30-2026/article71530982.ece",
@@ -5169,7 +5162,20 @@
         "https://www.livemint.com/companies/news/india-drugs-patents-rules-overhaul-evergreening-generics-11792122825531.html"
       ],
       "date": "2026-11-05T07:31:42.583097+00:00"
+    },
+    {
+      "title": "Apple Unveils New MacBook Pro, HomeView Hub, and Apple TV 4K for November Release",
+      "urls": [
+        "https://www.macrumors.com/2026/11/02/apple-isnt-done-with-2026-heres-whats-still-coming",
+        "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "https://www.macworld.com/article/3273463/apples-probably-done-announcing-new-hardware-but-november-is-still-pretty-jammed.html",
+        "https://en.wikipedia.org/wiki/Safari_%28web_browser%29",
+        "https://en.wikipedia.org/wiki/Big_Tech",
+        "https://en.wikipedia.org/wiki/Google_Chrome",
+        "https://www.apple.com/newsroom/archive"
+      ],
+      "date": "2026-11-05T08:01:55.332858+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T07:31:42.583159+00:00"
+  "lastUpdated": "2026-11-05T08:01:55.332929+00:00"
 }
