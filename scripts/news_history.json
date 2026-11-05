@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Change report says Earth was pushed to its limits in 2026 as certain vital signs reached record extremes, highlighting",
-      "urls": [
-        "https://www.cbsnews.com/news/climate-change-earth-limits-2026-research",
-        "https://time.com/article/2026/10/14/climate-change-accelerating-study",
-        "https://eos.org/research-and-developments/2026-state-of-the-climate-report-shows-a-planet-reaching-its-limits",
-        "https://www.sciencedaily.com/releases/2026/08/260801093239.htm",
-        "https://www.thecalculatorsite.com/conversions/common/cm-to-feet-inches.php",
-        "https://en.wikipedia.org/wiki/Climate_change_policy_of_the_United_States"
-      ],
-      "date": "2026-10-26T22:32:02.886491+00:00"
-    },
-    {
-      "title": "Google and Meta Release TorchTPU, Open‑Source PyTorch Backend, Challenging Nvidia's AI Hardware Dominance",
-      "urls": [
-        "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
-        "https://shattered.io/torchtpu-open-source-google-meta-native-pytorch-tpus-2026",
-        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "https://siliconangle.com/2026/10/20/google-unveils-torchtpu-in-a-push-to-break-nvidias-stranglehold-on-ai-compute",
-        "https://pytorch.org/blog/driving-the-future-of-open-source-ai-an-update-from-pytorch-foundation-projects",
-        "https://en.wikipedia.org/wiki/TensorFlow"
-      ],
-      "date": "2026-10-26T23:01:52.594744+00:00"
-    },
-    {
       "title": "Telemedicine Market Report Shows Up to $120 Savings Per Visit and Highlights Major Industry Players",
       "urls": [
         "https://www.mondaq.com/unitedstates/healthcare/1855280/virtual-digital-health-digest",
@@ -5200,7 +5176,14 @@
         "https://www.bloomberg.com/news/features/2026-02-13/india-s-toxic-air-pollution-spurs-public-anger-in-new-delhi"
       ],
       "date": "2026-11-05T22:31:47.788853+00:00"
+    },
+    {
+      "title": "Tiered AI Models Expand Options as Open-Weight Releases Accelerate Research Under EU AI Act",
+      "urls": [
+        "https://kanerika.com/blogs/recent-developments-in-ai"
+      ],
+      "date": "2026-11-05T23:02:01.105666+00:00"
     }
   ],
-  "lastUpdated": "2026-11-05T22:31:47.788904+00:00"
+  "lastUpdated": "2026-11-05T23:02:01.105730+00:00"
 }
