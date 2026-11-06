@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "AIIMS Bibinagar and Guwahati Appoint New Executive Directors Amid Nationwide Recruitment Drive",
-      "urls": [
-        "https://aiims.edu",
-        "https://www.aiimsguwahati.ac.in?lang=english",
-        "https://aiimsrewari.edu.in",
-        "https://aiimsbibinagar.edu.in",
-        "https://capfims.aiims.edu",
-        "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
-        "https://ors.gov.in/orsportal",
-        "https://www.aiimsraipur.edu.in"
-      ],
-      "date": "2026-10-27T11:03:39.963241+00:00"
-    },
-    {
       "title": "Artificial Unveils Official Teaser Featuring Andrew Garfield and Yura Borisov",
       "urls": [
         "https://hellogrowth.ai/en/blog/ai-news-october-2026",
@@ -5208,7 +5194,18 @@
         "https://en.wikipedia.org/wiki/Science_and_technology_in_Israel"
       ],
       "date": "2026-11-06T11:01:59.426778+00:00"
+    },
+    {
+      "title": "RIKEN Scientists Overcome Hidden Obstacle to Boost Quantum Computer Performance",
+      "urls": [
+        "https://quantumzeitgeist.com",
+        "https://quantumcomputingreport.com/news",
+        "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
+        "https://thequantuminsider.com",
+        "https://news.mit.edu/topic/quantum-computing"
+      ],
+      "date": "2026-11-06T11:31:37.778308+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T11:01:59.426837+00:00"
+  "lastUpdated": "2026-11-06T11:31:37.778379+00:00"
 }
