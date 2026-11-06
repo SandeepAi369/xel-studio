@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Highlights Ten Mega Infrastructure Projects to Drive Jobs and Global Investment",
-      "urls": [
-        "https://www.constructionworld.in/policy-updates-and-economic-news/top-10-mega-infrastructure-projects-in-india--2026-/92182",
-        "https://economictimes.indiatimes.com/topic/smart-cities",
-        "https://en.wikipedia.org/wiki/Reliance_Infrastructure",
-        "https://smartcity.eletsonline.com/digital-transformation-of-urban-water-utilities-in-india",
-        "https://www.livemint.com/industry/indias-infrastructure-challenge-shifts-from-raising-capital-to-making-projects-investable-says-deloitte-11791203958309.html",
-        "https://economictimes.indiatimes.com/topic/smart-city-projects",
-        "https://en.wikipedia.org/wiki/Great_Nicobar_Island_Development_Project"
-      ],
-      "date": "2026-10-27T03:01:50.537458+00:00"
-    },
-    {
       "title": "Apple Rolls Out Major Software Platform Updates Adding New AI Features and Age Restrictions",
       "urls": [
         "https://apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
@@ -5192,7 +5179,18 @@
         "https://www.who.int/news-room"
       ],
       "date": "2026-11-06T02:31:58.365451+00:00"
+    },
+    {
+      "title": "U.S.-China Competition Shapes Global Power Balance Through Technology and Trade Rivalry",
+      "urls": [
+        "https://www.geopoliticalmonitor.com",
+        "https://www.ft.com/geopolitics",
+        "https://cddrl.fsi.stanford.edu/news/how-us-competition-china-shaping-global-political-landscape",
+        "https://www.newsnow.com/us/World/Geopolitics",
+        "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge"
+      ],
+      "date": "2026-11-06T03:01:58.299217+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T02:31:58.365524+00:00"
+  "lastUpdated": "2026-11-06T03:01:58.299279+00:00"
 }
