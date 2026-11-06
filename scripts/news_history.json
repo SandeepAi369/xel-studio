@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "SparkyLinux Releases 2026.03 Update Featuring New Kernel and Forky Foundation",
-      "urls": [
-        "https://www.notebookcheck.net/SparkyLinux-2026-03-comes-with-a-new-kernel-and-multiple-package-updates.1251230.0.html",
-        "https://itsfoss.com/news"
-      ],
-      "date": "2026-10-27T05:01:49.288860+00:00"
-    },
-    {
       "title": "FIX 2026 Innovation Awards Select Nine Winners Across Robotics AI And Mobility",
       "urls": [
         "https://www.ubergizmo.com/2026/10/fix-2026-innovation-awards-9-best-innovation-technology-winners-in-robotics-ai-and-mobility",
@@ -5194,7 +5186,14 @@
         "https://www.nbcolympics.com/videos/topic/gold-medal-moments"
       ],
       "date": "2026-11-06T04:33:38.671430+00:00"
+    },
+    {
+      "title": "Implications include faster integration of advanced reasoning into custom software, increased competition for closed‑source offerings, and a broader push toward",
+      "urls": [
+        "https://releasebot.io/updates/mistral"
+      ],
+      "date": "2026-11-06T05:02:01.187636+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T04:33:38.671503+00:00"
+  "lastUpdated": "2026-11-06T05:02:01.187705+00:00"
 }
