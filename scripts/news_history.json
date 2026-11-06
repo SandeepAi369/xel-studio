@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Eye‑Controlled Wheelchairs: The article describes eye‑controlled power wheelchairs that allow users to steer using eye movements, eliminating the need for",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Algorithmic_bias",
-        "https://finance.yahoo.com/quote/MSFT",
-        "https://ailearningguides.com/ai-accessibility-assistive-technology-2026",
-        "https://en.wikipedia.org/wiki/Elon_Musk",
-        "https://reports.weforum.org/docs/WEF_New_Frontiers_of_Disability_2026.pdf",
-        "https://sg.finance.yahoo.com/quote/MSFT"
-      ],
-      "date": "2026-10-27T01:02:09.941522+00:00"
-    },
-    {
       "title": "RMI Highlights Ten Energy Transition Trends Shaping 2026 Renewable Power Landscape",
       "urls": [
         "https://rmi.org/resources/the-energy-transition-in-2026-10-trends-to-watch",
@@ -5200,7 +5188,19 @@
         "https://en.wikipedia.org/wiki/Conscription"
       ],
       "date": "2026-11-06T01:01:53.787383+00:00"
+    },
+    {
+      "title": "Delhi Government Bans Petrol Rickshaws and Scooters to Slash Toxic Fumes",
+      "urls": [
+        "https://www.livemint.com/news/india/shocked-by-the-sudden-delhi-haze-smog-and-whatnot-this-is-the-reason-11793681560023.html",
+        "https://www.nytimes.com/interactive/2026/11/01/world/asia/india-pollution-vehicles.html",
+        "https://www.theguardian.com/world/2026/jun/30/delhi-gamechanger-ban-petrol-vehicles-tackle-air-pollution-electric-cars",
+        "https://en.wikipedia.org/wiki/Nestl%C3%A9",
+        "https://www.thehindu.com/news/cities/Delhi/delhi-winter-action-plan-explained-wfh-construction-curbs-dust-control/article71526683.ece",
+        "https://indianexpress.com/about/delhi-air-pollution"
+      ],
+      "date": "2026-11-06T01:31:35.543170+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T01:01:53.787441+00:00"
+  "lastUpdated": "2026-11-06T01:31:35.543241+00:00"
 }
