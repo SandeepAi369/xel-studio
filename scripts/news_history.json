@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Accelerates Chip Packaging with Five New Plants Under $13.5 Billion Mission",
-      "urls": [
-        "https://government.economictimes.indiatimes.com/news/technology/semicon-india-2026-draws-global-chipmakers-as-india-expands-semiconductor-ecosystem/134364769",
-        "https://www.eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape",
-        "https://businesstoday.in/technology/news/story/semicon-india-2026-pm-modi-highlights-13-5-billion-semiconductor-mission-12-chip-projects-approved-556095-2026-09-17",
-        "https://digitimes.com/news/a20261016VL205/fab-packaging-launch-hardware-technology.html",
-        "https://thehindu.com/news/national/semicon-india-2026-indias-semiconductor-ecosystem-expanding-opening-new-opportunities-says-modi/article71475696.ece"
-      ],
-      "date": "2026-10-27T15:31:37.720952+00:00"
-    },
-    {
       "title": "Indian Government Policy Budget Announcements News Fresh Announcements October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://thehindubusinessline.com/economy/budget/india-budget-2026-live-updates-fm-nirmala-sitharaman-union-budget-key-announcements-news-live-01-feb-2026/article70573855.ece",
@@ -5188,7 +5177,21 @@
         "https://www.expresspharma.in/category/latest-updates"
       ],
       "date": "2026-11-06T15:02:26.573832+00:00"
+    },
+    {
+      "title": "Fintechs Shift From Payments to Credit as UPI Expands Internationally",
+      "urls": [
+        "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback",
+        "https://www.cnbc.com/2026/09/11/fintechs-upi-india-is-credit-economy-gff.html",
+        "https://bfsi.economictimes.indiatimes.com/news/fintech/top-10-indian-fintech-trends-to-watch-in-2026-ai-upi-globalization-and-cross-border-payments/126242404",
+        "https://business.cornell.edu/news/2024/12/20/indias-unified-payments-interface-has-revolutionized-its-digital-payments-market",
+        "https://www.analyticsinsight.net/apps/top-upi-apps-dominating-digital-payments-in-india-in-2026",
+        "https://www.pwc.in/assets/pdfs/indian-payments-handbook-2025-2030.pdf",
+        "https://www.bcg.com/publications/2025/india-upi-the-global-benchmark-for-digital-payments",
+        "https://www.insightsonindia.com/2026/04/13/indias-payment-revolution"
+      ],
+      "date": "2026-11-06T15:31:50.322248+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T15:02:26.573889+00:00"
+  "lastUpdated": "2026-11-06T15:31:50.322320+00:00"
 }
