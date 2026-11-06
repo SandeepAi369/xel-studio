@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Unveils GPT‑6.1 Sol and Restores Terra Model at DevDay 2026",
-      "urls": [
-        "https://openai.com/index/devday-2026-recap",
-        "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model",
-        "https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Hugging_Face",
-        "https://openai.com/index/gpt-6-astra"
-      ],
-      "date": "2026-10-27T00:02:32.276813+00:00"
-    },
-    {
-      "title": "Games 2026 serve as a major continental competition that precedes the LA28 Olympics, and the hockey gold contributes to the",
-      "urls": [
-        "https://www.timesnownews.com/sports/83-indian-debutants-historic-medals-indias-new-stars-at-asian-games-2026-article-156264577",
-        "https://www.espn.com/espn/story/_/id/50126174/sindhu-leads-indians-badminton-action-arctic-open-india-vs-russia-womens-football-indian-sports-live-october-8",
-        "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
-        "https://www.jobsearchking.com/2026/10/sports-current-affairs-october.html",
-        "https://en.wikipedia.org/wiki/World_Boxing",
-        "https://www.india.com/sports/others/asian-games-2026-indias-full-schedule-on-october-3-india-vs-pakistan-cricket-final-hockey-gold-medal-clash-8532259",
-        "https://en.wikipedia.org/wiki/Boycott_of_Russia_and_Belarus"
-      ],
-      "date": "2026-10-27T00:31:44.142260+00:00"
-    },
-    {
       "title": "Eye‑Controlled Wheelchairs: The article describes eye‑controlled power wheelchairs that allow users to steer using eye movements, eliminating the need for",
       "urls": [
         "https://en.wikipedia.org/wiki/Algorithmic_bias",
@@ -5200,7 +5177,16 @@
         "https://betterstack.com/community/comparisons/ai-coding-tools"
       ],
       "date": "2026-11-06T00:02:31.608565+00:00"
+    },
+    {
+      "title": "Bootcamp Users Report Screen Brightness Failure After Nvidia Driver Update",
+      "urls": [
+        "https://discussions.apple.com/thread/8283306",
+        "https://www.olympics.com/en",
+        "https://www.olympics.com/en/news"
+      ],
+      "date": "2026-11-06T00:31:46.624379+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T00:02:31.608623+00:00"
+  "lastUpdated": "2026-11-06T00:31:46.624450+00:00"
 }
