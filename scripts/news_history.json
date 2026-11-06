@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch and TensorFlow Compete for Developers' Preference in 2026 Framework Choices",
-      "urls": [
-        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
-        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance"
-      ],
-      "date": "2026-10-27T14:32:19.325537+00:00"
-    },
-    {
-      "title": "India Pharmaceutical Generic Drugs Export News Top Stories October 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://www.thebureauinvestigates.com/stories/2025-04-16/indias-drugs-industry-global-medicine-market",
-        "https://livealthbiopharma.com/blogs/pharmaceutical-exporters-in-india",
-        "https://uk.finance.yahoo.com/news/india-generic-drug-manufacturing-market-083200712.html",
-        "https://www.bbc.co.uk/news/articles/cx2g4411en3o"
-      ],
-      "date": "2026-10-27T15:02:26.465788+00:00"
-    },
-    {
       "title": "India Accelerates Chip Packaging with Five New Plants Under $13.5 Billion Mission",
       "urls": [
         "https://government.economictimes.indiatimes.com/news/technology/semicon-india-2026-draws-global-chipmakers-as-india-expands-semiconductor-ecosystem/134364769",
@@ -5198,7 +5180,15 @@
         "https://www.livemint.com/ai/mistrals-3-billion-open-ai-bet-why-samsung-asml-are-backing-it-and-what-s-next-for-french-startup-11788872862928.html"
       ],
       "date": "2026-11-06T14:31:54.092936+00:00"
+    },
+    {
+      "title": "India’s Pharmaceutical Exports Reach $31.12 Billion, Marking 2.16% Growth in FY26",
+      "urls": [
+        "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
+        "https://www.expresspharma.in/category/latest-updates"
+      ],
+      "date": "2026-11-06T15:02:26.573832+00:00"
     }
   ],
-  "lastUpdated": "2026-11-06T14:31:54.093000+00:00"
+  "lastUpdated": "2026-11-06T15:02:26.573889+00:00"
 }
