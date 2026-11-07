@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Records Worst Monsoon Rain Deficit Since 2015 Amid Intensifying El Nino",
-      "urls": [
-        "https://www.thehindu.com/news/national/cyclone-andhra-pradesh-odisha-live-updates-october-25-2026/article71622459.ece",
-        "https://www.indiatoday.in/science/story/india-weather-october-december-rainfall-forecast-2026-el-nino-3006733-2026-09-30",
-        "https://indianexpress.com/article/explained/explained-climate/super-el-nino-2026-impact-india-world-weather-monsoon-food-security-10934992",
-        "https://indiatoday.in/science/story/el-nino-2026-india-rainfall-temperature-forecast-climate-change-noaa-imd-pacific-ocean-3024065-2026-10-24",
-        "https://www.business-standard.com/industry/agriculture/2026-monsoon-ends-with-nearly-13-rain-deficit-worst-since-2015-imd-126093001389_1.html",
-        "https://wellfitinsider.com/workout-tips/best-pilates-exercises",
-        "https://zeenews.india.com/india/historic-el-nino-developing-noaa-monsoon-impact-forecast-2026-3066531.html"
-      ],
-      "date": "2026-10-28T06:31:52.452968+00:00"
-    },
-    {
       "title": "National Payments Corporation of India Expands Digital Payment Network to Strengthen Financial Inclusion",
       "urls": [
         "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
@@ -5184,7 +5171,16 @@
         "https://huggingface.co/meta-llama"
       ],
       "date": "2026-11-07T06:05:07.090176+00:00"
+    },
+    {
+      "title": "India Monsoon Intensifies as ISRO Satellite Shows Five Weather Systems Amid Record El Niño",
+      "urls": [
+        "https://newindianexpress.com/india/2026/Oct/31/imd-predicts-warmer-and-drier-november-across-india-weaker-north-east-monsoon",
+        "https://www.moneycontrol.com/science/india-monsoon-2026-isro-satellite-released-new-images-of-how-5-weather-systems-are-powering-rain-in-india-article-13980671.html",
+        "https://en.wikipedia.org/wiki/Weather_of_2026"
+      ],
+      "date": "2026-11-07T06:31:56.838002+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T06:05:07.090252+00:00"
+  "lastUpdated": "2026-11-07T06:31:56.838075+00:00"
 }
