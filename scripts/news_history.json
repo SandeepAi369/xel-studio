@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Volkswagen Holds Dual Share Classes on DAX as Porsche Controls Majority of Common Stock",
-      "urls": [
-        "https://about.bnef.com/insights/clean-energy/india-transition-factbook-2026",
-        "https://theshillongtimes.com/2026/10/28/pm-modi-to-kick-off-bharat-renewable-energy-summit-expo-2026-on-nov-2",
-        "https://www.finanzen.net/aktien/volkswagen-aktie",
-        "https://ground.news/article/india-overtakes-japan-to-become-the-worlds-fourth-largest-economy-with-418-trillion-gdp-government-says",
-        "https://en.wikipedia.org/wiki/Renewable_energy_in_India",
-        "https://ground.news/article/indian-embassy-presses-venezuela-for-probe-after-family-alleges-missing-organs-in-deceased-seafarers-body",
-        "https://thediplomat.com/2026/10/indias-energy-transition-is-complicated-but-progressing"
-      ],
-      "date": "2026-10-28T18:02:02.715968+00:00"
-    },
-    {
       "title": "Mistral AI Expands Open Source LLM Reach Across Global Developer Community",
       "urls": [
         "https://www.ibm.com/think/topics/mistral-ai",
@@ -5189,7 +5176,16 @@
         "https://www.nature.com/articles/d41586-026-03355-x"
       ],
       "date": "2026-11-07T18:01:51.247020+00:00"
+    },
+    {
+      "title": "Linux.org Highlights Twenty‑Four Popular Distributions for Users Seeking Flexible Operating Systems",
+      "urls": [
+        "https://www.linux.org/pages/download",
+        "https://en.wikipedia.org/wiki/Linus_Torvalds",
+        "https://de.wikipedia.org/wiki/Linux"
+      ],
+      "date": "2026-11-07T18:31:38.067678+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T18:01:51.247083+00:00"
+  "lastUpdated": "2026-11-07T18:31:38.067750+00:00"
 }
