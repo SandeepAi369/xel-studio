@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ambio Secures €5.1 Million Seed Funding to Advance Recycled Material Repair Technology",
-      "urls": [
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://spectrum.ieee.org/topic/climate-tech",
-        "https://techfundingnews.com/category/climate-tech",
-        "https://www.bloomberg.com/green",
-        "https://www.sciencedaily.com/news/earth_climate/renewable_energy",
-        "https://www.icl-group.com/blog/climate-tech-trends-2026-from-hype-to-execution"
-      ],
-      "date": "2026-10-28T01:31:43.803736+00:00"
-    },
-    {
-      "title": "OpenAI Faces Criticism After Red‑Team Finds Monitoring Gaps in Hugging Face Attack",
-      "urls": [
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
-        "https://www.cnet.com/science/hugging-face-announces-ai-model-to-chat-with-dna",
-        "https://en.wikipedia.org/wiki/DeepSeek",
-        "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200"
-      ],
-      "date": "2026-10-28T02:01:48.443692+00:00"
-    },
-    {
       "title": "Indian Medical Association Objects to Sunny Deol Film Teaser Over Medical Portrayal",
       "urls": [
         "https://rediff.com/news/commentary/2026/oct/23/why-ima-aiims-is-upset-over-sunny-deol-films-teaser/8b3940da1e72411ffca8cbbfff743761",
@@ -5200,7 +5176,19 @@
         "https://en.wikipedia.org/wiki/Renewable_energy_in_Australia"
       ],
       "date": "2026-11-07T01:31:32.396251+00:00"
+    },
+    {
+      "title": "PyTorch Maintains Lead Over TensorFlow in Research While Industry Weighs Production Trade‑offs",
+      "urls": [
+        "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance",
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
+        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
+        "https://en.wikipedia.org/wiki/PyTorch",
+        "https://uvik.net/blog/pytorch-vs-tensorflow",
+        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit"
+      ],
+      "date": "2026-11-07T02:01:51.055232+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T01:31:32.396310+00:00"
+  "lastUpdated": "2026-11-07T02:01:51.055306+00:00"
 }
