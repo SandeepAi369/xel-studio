@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Expands Open Source LLM Reach Across Global Developer Community",
-      "urls": [
-        "https://www.ibm.com/think/topics/mistral-ai",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models"
-      ],
-      "date": "2026-10-28T18:31:44.413826+00:00"
-    },
-    {
       "title": "Merriam-Webster Expands Hate Entry With 121 Synonyms to Aid Writers",
       "urls": [
         "https://www.merriam-webster.com/thesaurus/hate!",
@@ -5185,7 +5177,18 @@
         "https://de.wikipedia.org/wiki/Linux"
       ],
       "date": "2026-11-07T18:31:38.067678+00:00"
+    },
+    {
+      "title": "Innovation Transforms Healthcare From Diagnosis to Drug Discovery Across All Stages",
+      "urls": [
+        "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
+        "https://www.healthcare.gov",
+        "https://www.scvh.org/home",
+        "https://en.wikipedia.org/wiki/Jeff_Bezos",
+        "https://en.wikipedia.org/wiki/Nvidia"
+      ],
+      "date": "2026-11-07T19:01:49.958909+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T18:31:38.067750+00:00"
+  "lastUpdated": "2026-11-07T19:01:49.958954+00:00"
 }
