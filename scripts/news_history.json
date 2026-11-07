@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Crew‑12 NASA and SpaceX’s Crew‑12 mission completed an eight‑month expedition aboard the International Space Station, fulfilling its",
-      "urls": [
-        "https://www.nasaspaceflight.com",
-        "https://sciencedaily.com/releases/2026/10/261016070628.htm",
-        "https://www.sciencedaily.com/releases/2026/10/261016070635.htm",
-        "https://en.wikipedia.org/wiki/SpaceX_launch_vehicles",
-        "https://www.premierleague.com/en/tables/premier-league",
-        "https://spaceflightnow.com/2026/10/01/live-coverage-nasa-spacex-to-launch-next-crewed-mission-to-the-international-space-station",
-        "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station",
-        "https://www.bbc.co.uk/sport/football/premier-league/table"
-      ],
-      "date": "2026-10-28T20:32:11.079077+00:00"
-    },
-    {
       "title": "Harmanpreet Kaur Caps Captaincy With Gold Medal And Five Historic T20 Achievements",
       "urls": [
         "https://sports.yahoo.com/articles/captaincy-ends-harmanpreet-kaur-top-123500455.html",
@@ -5179,7 +5165,18 @@
         "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon"
       ],
       "date": "2026-11-07T20:02:08.161420+00:00"
+    },
+    {
+      "title": "Meta Ends Support for Quest 2 and Quest Pro, Shifts to Newer Headsets",
+      "urls": [
+        "https://blog.gainapp.com/social-media-updates",
+        "https://www.socialmediatoday.com",
+        "https://www.socialpilot.co/blog/social-media-updates",
+        "https://www.heyorca.com/blog/facebook-social-news",
+        "https://socialbee.com/blog/instagram-updates-news-features"
+      ],
+      "date": "2026-11-07T20:32:13.195668+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T20:02:08.161485+00:00"
+  "lastUpdated": "2026-11-07T20:32:13.195736+00:00"
 }
