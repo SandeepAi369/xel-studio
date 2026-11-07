@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Fukushima Stress‑Induced Deaths Surpass Direct Casualties From 2011 Disaster Nationwide",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
-        "https://earthquakemap.live",
-        "https://www.tagesschau.de/thema/frankreich",
-        "https://blog.youtube"
-      ],
-      "date": "2026-10-28T14:02:30.212119+00:00"
-    },
-    {
       "title": "Mumbai Indians Showcase Record Five IPL Titles and Two CLT20 Wins on Updated Official Site",
       "urls": [
         "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-23.html",
@@ -5185,7 +5175,16 @@
         "https://www.hindustantimes.com/opinion/renewable-energy-success-that-should-inspire-the-world-101793558931456.html"
       ],
       "date": "2026-11-07T14:01:47.567412+00:00"
+    },
+    {
+      "title": "TensorFlow Launches LiteRT Amid Declining Research Paper Share to PyTorch",
+      "urls": [
+        "https://en.wikipedia.org/wiki/TensorFlow",
+        "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
+        "https://www.techtarget.com/ai/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning"
+      ],
+      "date": "2026-11-07T14:31:38.654372+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T14:01:47.567494+00:00"
+  "lastUpdated": "2026-11-07T14:31:38.654440+00:00"
 }
