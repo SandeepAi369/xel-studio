@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "China’s DeepSeek Leads 2026 AI Unicorn Boom, Attracting Record Venture Capital",
-      "urls": [
-        "https://www.investmentnews.com/equities/ai-unicorn-startups-attract-record-venture-capital-in-2026/268122",
-        "https://www.newindianexpress.com/business/2026/Sep/24/india-tech-funding-rises-7-to-103-billion-in-9m-2026-despite-fewer-deals"
-      ],
-      "date": "2026-10-28T06:01:54.630688+00:00"
-    },
-    {
       "title": "India Records Worst Monsoon Rain Deficit Since 2015 Amid Intensifying El Nino",
       "urls": [
         "https://www.thehindu.com/news/national/cyclone-andhra-pradesh-odisha-live-updates-october-25-2026/article71622459.ece",
@@ -5181,7 +5173,18 @@
         "https://www.communitycare.co.uk/content/news/neurodiversity-belongs-in-social-work-a-campaign-celebrating-the-professions-diverse-minds"
       ],
       "date": "2026-11-07T05:31:32.263662+00:00"
+    },
+    {
+      "title": "Meta Introduces Llama 3 as Most Capable Open Source Language Model",
+      "urls": [
+        "https://ai.meta.com/blog/future-of-ai-built-with-llama",
+        "https://ai.meta.com/Open",
+        "https://en.m.wikipedia.org/wiki/Llama_(language_model)",
+        "https://ai.meta.com/blog/meta-llama-3",
+        "https://huggingface.co/meta-llama"
+      ],
+      "date": "2026-11-07T06:05:07.090176+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T05:31:32.263725+00:00"
+  "lastUpdated": "2026-11-07T06:05:07.090252+00:00"
 }
