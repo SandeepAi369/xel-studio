@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Windows 10 Adds Simple Brightness Controls for Users to Reduce Eye Strain and Save Battery",
-      "urls": [
-        "https://akselera.tech/en/insights/deep-dive/open-source-ai-models",
-        "https://www.wikihow.com/Adjust-Screen-Brightness-in-Windows-10",
-        "https://www.transfermarkt.de/premier-ligk/gesamtspielplan/wettbewerb/GB1"
-      ],
-      "date": "2026-10-28T05:01:46.854616+00:00"
-    },
-    {
       "title": "World Health Organization Issues Updated Disability Inclusion Report Guiding Global Policy Reform",
       "urls": [
         "https://royalsociety.org/news/2025/06/disability-technology",
@@ -5188,7 +5179,15 @@
         "https://www.wikihow.com/Lock-a-Computer"
       ],
       "date": "2026-11-07T04:31:47.520028+00:00"
+    },
+    {
+      "title": "Linux.org Launches LXC Tutorial Series to Guide Developers Toward Lightweight Virtualization",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Open-source_software_development",
+        "https://www.linux.org"
+      ],
+      "date": "2026-11-07T05:02:25.825830+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T04:31:47.520087+00:00"
+  "lastUpdated": "2026-11-07T05:02:25.825899+00:00"
 }
