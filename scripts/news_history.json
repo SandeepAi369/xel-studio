@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "AtlantisChain Surpasses One Billion Blocks in Record Time, Claiming Fastest and Most Secure Network",
-      "urls": [
-        "https://finance.yahoo.com/quote/QQQ",
-        "https://markets.financialcontent.com/prnews/article/247pressrelease-2026-9-5-web3-breaking-news-atlantischain-rapidly-surpassed-1200000000-blocks-within-446-days-of-operation-and-firmly-holds-the-worlds-1-fastest-position-in-block-height-block-time-finality-and-tps"
-      ],
-      "date": "2026-10-28T08:02:31.347624+00:00"
-    },
-    {
-      "title": "UFC Pound-For-Pound Rankings Shift as Volkanovski and Yan Vie for Top Spot",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship",
-        "https://sports.yahoo.com/mma/article/mma-pound-for-pound-rankings-oct-2026-alex-volkanovski-petr-yan-battle-for-supremacy-after-ufc-333-235207625.html",
-        "https://www.ufc.com/trending/all",
-        "https://yardbarker.com/mma/articles/ufc_announces_dallas_fight_night_to_open_2027/s1_17349_44481641",
-        "https://www.tennis.com",
-        "https://boxingnews.com/news",
-        "https://en.wikipedia.org/wiki/Sportswashing",
-        "https://www.mmafighting.com/archives/latest-news/2026/10/1"
-      ],
-      "date": "2026-10-28T08:31:34.974585+00:00"
-    },
-    {
       "title": "US Green Card Freeze Hits Indian IT Giants, Prompting $70 Million Loss for TCS",
       "urls": [
         "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
@@ -5193,7 +5171,20 @@
         "https://www.techradar.com"
       ],
       "date": "2026-11-07T08:02:12.466452+00:00"
+    },
+    {
+      "title": "BCCI Extends 2027 IPL Retention Deadline to November 17, 2026",
+      "urls": [
+        "https://sports.yahoo.com/articles/ipl-retention-deadline-date-time-161218468.html",
+        "https://iplt20.com",
+        "https://hindustantimes.com/cricket/ipls-impact-player-rule-set-to-continue-for-another-season-101793811429147.html",
+        "https://www.cricbuzz.com/cricket-series/9249/indian-premier-league-2027/news",
+        "https://www.cricbuzz.com/cricket-news",
+        "https://www.news18.com/cricket/ipl",
+        "https://www.cricbuzz.com/live-cricket-scorecard/155409/rcb-vs-gt-final-indian-premier-league-2026"
+      ],
+      "date": "2026-11-07T08:35:13.129305+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T08:02:12.466524+00:00"
+  "lastUpdated": "2026-11-07T08:35:13.129360+00:00"
 }
