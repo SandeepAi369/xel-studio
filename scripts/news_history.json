@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Visually Launches AI‑Powered A/B Testing Platform Integrating Claude and ChatGPT via MCP",
-      "urls": [
-        "https://www.visually.io",
-        "https://help.visually.io/getting-started-with-visually.io",
-        "https://www.merriam-webster.com/dictionary/visually"
-      ],
-      "date": "2026-10-28T09:31:38.021292+00:00"
-    },
-    {
-      "title": "Mistral Launches Le Chonk Model Claiming Best Open‑Weight AI Outside China",
-      "urls": [
-        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
-        "https://www.cnn.com/2026/10/07/business/mistral-ai-open-weight"
-      ],
-      "date": "2026-10-28T10:02:14.797095+00:00"
-    },
-    {
       "title": "ScienceDaily Reports Simple Touch Revives Dying Corals Within Seven Weeks",
       "urls": [
         "https://sciencedaily.com/news/earth_climate/ecology",
@@ -5190,7 +5173,15 @@
         "https://www.drishtiias.com/daily-updates/daily-news-analysis/strengthening-accessibility-measures-in-india"
       ],
       "date": "2026-11-07T09:31:35.249024+00:00"
+    },
+    {
+      "title": "BharatGPT-2 Launches Sovereign AI Model Backed by Rs 10,372 Crore Mission",
+      "urls": [
+        "https://economictimes.indiatimes.com/topic/bharatgpt/news",
+        "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence"
+      ],
+      "date": "2026-11-07T10:02:47.034695+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T09:31:35.249111+00:00"
+  "lastUpdated": "2026-11-07T10:02:47.034764+00:00"
 }
