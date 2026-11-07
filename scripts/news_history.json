@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "US Green Card Freeze Hits Indian IT Giants, Prompting $70 Million Loss for TCS",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-        "https://www.newindianexpress.com/business/2026/Oct/08/cognizant-infosys-tcs-wipro-and-hcl-among-it-firms-suspended-from-us-green-card-programme",
-        "https://economictimes.indiatimes.com/topic/infosys--tcs--wipro",
-        "https://en.wikipedia.org/wiki/Big_Tech_%28India%29",
-        "https://www.jagranjosh.com/general-knowledge/us-h1b-visa-row-which-indian-it-companies-professionals-will-be-hit-hardest-by-green-card-freeze-check-alternative-options-1820012908-1",
-        "https://www.moneycontrol.com/news/business/information-technology/tcs-infosys-hcltech-wipro-techm-add-13-918-employees-in-q2-14059994.html",
-        "https://indianexpress.com/article/explained/explained-global/us-perm-suspension-indian-it-firms-green-card-workers-explained-10913011"
-      ],
-      "date": "2026-10-28T09:01:53.421965+00:00"
-    },
-    {
       "title": "Visually Launches AI‑Powered A/B Testing Platform Integrating Claude and ChatGPT via MCP",
       "urls": [
         "https://www.visually.io",
@@ -5194,7 +5181,16 @@
         "https://www.crn.com/news/ai/2026/workday-launches-ai-agent-deluge-acquires-agentic-identity-startup"
       ],
       "date": "2026-11-07T09:01:47.907561+00:00"
+    },
+    {
+      "title": "India Advances Accessible India Campaign to Expand Sign Language Resources",
+      "urls": [
+        "https://depwd.gov.in/en/accessible-india-campaign",
+        "https://www.disabled-world.com/news/asia/india",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/strengthening-accessibility-measures-in-india"
+      ],
+      "date": "2026-11-07T09:31:35.249024+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T09:01:47.907595+00:00"
+  "lastUpdated": "2026-11-07T09:31:35.249111+00:00"
 }
