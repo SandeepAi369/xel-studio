@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "IMF Raises 2026 Global Growth Forecast as Bond Yields Hit Highest Since 2002",
-      "urls": [
-        "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
-        "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
-        "https://www.imf.org/en/publications/weo",
-        "https://www.oecd.org/en/about/news/press-releases/2026/06/global-economic-outlook-weakens-amid-energy-shock-and-rising-inflationary-pressures.html",
-        "https://www.morganstanley.com/insights/articles/global-economic-outlook-2026"
-      ],
-      "date": "2026-10-28T03:01:50.179937+00:00"
-    },
-    {
       "title": "NASA Faces Competition From Blue Origin for Artemis Lunar Lander Contract",
       "urls": [
         "https://www.manager-magazin.de/unternehmen/industrie/spacex-nasa-auftrag-koennte-an-jeff-bezos-verloren-gehen-a-0762bf9b-f0f4-44ee-ae40-ee6095d48ea0",
@@ -5189,7 +5178,15 @@
         "https://impressivemagazine.com/mental-health-trends-2026"
       ],
       "date": "2026-11-07T02:32:06.366050+00:00"
+    },
+    {
+      "title": "This Month in Geopolitics Highlights Key Events and Trends for November 2026",
+      "urls": [
+        "https://www.dbresearch.de/PROD/IE-PROD/PROD0000000000656925/This_Month_in_Geopolitics%3A_November_2026.pdf",
+        "https://www.economist.com/topics/geopolitics"
+      ],
+      "date": "2026-11-07T03:03:30.893983+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T02:32:06.366110+00:00"
+  "lastUpdated": "2026-11-07T03:03:30.894052+00:00"
 }
