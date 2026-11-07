@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "National Payments Corporation of India Expands Digital Payment Network to Strengthen Financial Inclusion",
-      "urls": [
-        "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
-        "https://www.thehindubusinessline.com/money-and-banking/rbi-monetary-policy-committee-mpc-meeting-octobe-7-2026-highlights-updates/article71551632.ece"
-      ],
-      "date": "2026-10-28T07:01:46.869178+00:00"
-    },
-    {
       "title": "NHS Deploys AI System To Accelerate Cancer Diagnoses For Millions",
       "urls": [
         "https://www.healthcareitnews.com/topics/artificial-intelligence",
@@ -5180,7 +5172,19 @@
         "https://en.wikipedia.org/wiki/Weather_of_2026"
       ],
       "date": "2026-11-07T06:31:56.838002+00:00"
+    },
+    {
+      "title": "Democrats Secure Landslide Victory, Gain Full Control of Congress in November Election",
+      "urls": [
+        "https://usatoday.com/story/news/politics/elections/2026/11/04/midterm-election-results-updates--live/92387104007",
+        "https://foxnews.com/live-news/2026-midterm-elections-news-analysis-races-11-3-2026",
+        "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+        "https://www.kcci.com/article/iowa-election-guide-sample-ballots-2026-general-election-nov-3/74083749",
+        "https://rpsc.rajasthan.gov.in/viewcommon?Slice=QP",
+        "https://apnews.com/projects/elections-2026"
+      ],
+      "date": "2026-11-07T07:02:01.065112+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T06:31:56.838075+00:00"
+  "lastUpdated": "2026-11-07T07:02:01.065181+00:00"
 }
