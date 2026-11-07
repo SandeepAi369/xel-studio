@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "CoRover.ai Deploys Full‑Stack BharatGPT Platform to Accelerate Indic Language AI Solutions",
-      "urls": [
-        "https://bharatgpt.ai",
-        "https://analyticsindiamag.com/it-services/bharatgpt-aims-to-become-meta-of-indic-llms",
-        "https://dev.to/go_learnsap_5ab6ad5074d7/indian-alternatives-to-chatgpt-the-best-sovereign-ai-models-built-in-bharat-2026-39hg",
-        "https://www.opensourceforu.com"
-      ],
-      "date": "2026-10-28T23:01:47.221451+00:00"
-    },
-    {
       "title": "India Hockey Team Secures 5-1 Asian Games Final Victory to Boost Medal Tally",
       "urls": [
         "https://olympics.com/en/news/asian-games-2026-medal-tally-india-winners-table-list",
@@ -5178,7 +5168,15 @@
         "https://www.straitstimes.com/asia/south-asia/toxic-air-pollution-surges-in-indian-capital"
       ],
       "date": "2026-11-07T22:31:41.694663+00:00"
+    },
+    {
+      "title": "New Models Today Lists Multiple AI Releases With Pricing Details",
+      "urls": [
+        "https://llmgateway.io/timeline",
+        "https://pricepertoken.com/news/model-releases"
+      ],
+      "date": "2026-11-07T23:01:52.837653+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T22:31:41.694725+00:00"
+  "lastUpdated": "2026-11-07T23:01:52.837733+00:00"
 }
