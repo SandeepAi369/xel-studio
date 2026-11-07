@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "JPMorgan Chase & Co. Tracks Stock Price Amid Market Comparisons",
-      "urls": [
-        "https://finance.yahoo.com/quote/JPM",
-        "https://finance.yahoo.com/markets/articles/esports-industry-analysis-report-2026-105300015.html",
-        "https://www.newswire.com/view/content/stream-hatchet-named-a-data-provider-for-the-2026-esports-world-cup",
-        "https://stockanalysis.com/stocks/jpm",
-        "https://en.wikipedia.org/wiki/Video_games_in_the_United_States"
-      ],
-      "date": "2026-10-28T13:02:02.693400+00:00"
-    },
-    {
       "title": "Hotukdeals Launches Up to 30 Percent Fragrance Discount With Extra 15 Percent Code",
       "urls": [
         "https://www.hotukdeals.com",
@@ -5174,7 +5163,16 @@
         "https://timesofindia.indiatimes.com/women/voices-of-power/from-mirabai-chanu-to-harjinder-kaur-10-women-who-are-making-india-proud-at-the-commonwealth-games-2026/photostory/132701137.cms"
       ],
       "date": "2026-11-07T12:31:34.153325+00:00"
+    },
+    {
+      "title": "Elon Musk Fires Top Twitter Executives Including CEO Parag After Acquisition",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Elon_Musk",
+        "https://www.espncricinfo.com/photo/india-head-coach-anil-kumble-has-a-chat-with-hardik-pandya-1104311",
+        "https://www.siyachts.com/100-lighthouses-united-states"
+      ],
+      "date": "2026-11-07T13:03:45.793137+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T12:31:34.153407+00:00"
+  "lastUpdated": "2026-11-07T13:03:45.793207+00:00"
 }
