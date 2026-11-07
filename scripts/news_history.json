@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Hockey Team Secures 5-1 Asian Games Final Victory to Boost Medal Tally",
-      "urls": [
-        "https://olympics.com/en/news/asian-games-2026-medal-tally-india-winners-table-list",
-        "https://sports.ndtv.com/hockey/krishan-pathak-returns-as-hockey-india-names-mens-squad-for-asian-champions-trophy-12178623",
-        "https://sports.ndtv.com/asian-games-2026/india-vs-malaysia-mens-hockey-final-live-score-asian-games-2026-live-updates-aichi-nagoya-japan-gold-medal-match-12133429",
-        "https://www.hockeyindia.org/news"
-      ],
-      "date": "2026-10-28T23:31:39.246332+00:00"
-    },
-    {
       "title": "India's Semiconductor Plants Reach Three Operational Sites, Expanding $200 Billion Chip Opportunity",
       "urls": [
         "https://jagranjosh.com/general-knowledge/indias-8-semiconductor-plants-where-are-they-coming-up-and-what-will-they-manufacture-1820011433-1",
@@ -5176,7 +5166,16 @@
         "https://pricepertoken.com/news/model-releases"
       ],
       "date": "2026-11-07T23:01:52.837653+00:00"
+    },
+    {
+      "title": "Media Reports had popularized the term “tomato flu” after observing a red rash on children that resembled tomatoes, which sparked",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMra2607216",
+        "https://en.wikipedia.org/wiki/Public_health",
+        "https://en.wikipedia.org/wiki/Hand%2C_foot%2C_and_mouth_disease"
+      ],
+      "date": "2026-11-07T23:31:47.469733+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T23:01:52.837733+00:00"
+  "lastUpdated": "2026-11-07T23:31:47.469799+00:00"
 }
