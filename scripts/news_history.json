@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "NHS Deploys AI System To Accelerate Cancer Diagnoses For Millions",
-      "urls": [
-        "https://www.healthcareitnews.com/topics/artificial-intelligence",
-        "https://www.mirror.co.uk/news/health/ai-cancer-diagnosis-nhs-trusts-37277525",
-        "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease",
-        "https://en.wikipedia.org/wiki/Expert_system"
-      ],
-      "date": "2026-10-28T07:31:32.409010+00:00"
-    },
-    {
       "title": "AtlantisChain Surpasses One Billion Blocks in Record Time, Claiming Fastest and Most Secure Network",
       "urls": [
         "https://finance.yahoo.com/quote/QQQ",
@@ -5184,7 +5174,18 @@
         "https://apnews.com/projects/elections-2026"
       ],
       "date": "2026-11-07T07:02:01.065112+00:00"
+    },
+    {
+      "title": "AIIMS Faces Doctor Exodus as 135 Postgraduate Physicians Quit Nationwide",
+      "urls": [
+        "https://freejobalert.com/articles/aiims-new-delhi-recruitment-2026-project-research-scientist-3078575",
+        "https://aiimspatna.edu.in",
+        "https://himbumail.com/business/health-and-education/135-pg-doctors-quit-aiims-institutions-across-india,-jp-nadda",
+        "https://timesofindia.indiatimes.com/city/delhi/indias-first-homegrown-stroke-device-shows-strong-results-in-aiims-led-trial/articleshow/125953702.cms",
+        "https://en.wikipedia.org/wiki/Sushant_Singh_Rajput"
+      ],
+      "date": "2026-11-07T07:31:38.350378+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T07:02:01.065181+00:00"
+  "lastUpdated": "2026-11-07T07:31:38.350437+00:00"
 }
