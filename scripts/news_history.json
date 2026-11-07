@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Reports Simple Touch Revives Dying Corals Within Seven Weeks",
-      "urls": [
-        "https://sciencedaily.com/news/earth_climate/ecology",
-        "https://www.asla.org/news-insights/dirt/climate-biodiversity-news-october-2026",
-        "https://en.wikipedia.org/wiki/World_Wildlife_Fund",
-        "https://phys.org/news/2026-07-biodiversity-europe-laws-wildlife-individuals.html",
-        "https://www.euronews.com/2026/10/08/from-tigers-to-turtles-the-conservation-success-stories-that-prove-theres-still-hope-for-w",
-        "https://www.nwf.org/Wildlife.aspx",
-        "https://www.sciencedaily.com/news/earth_climate/biodiversity",
-        "https://en.wikipedia.org/wiki/Endangered_Species_Act_of_1973",
-        "https://en.wikipedia.org/wiki/Nature_conservation"
-      ],
-      "date": "2026-10-28T10:31:35.697954+00:00"
-    },
-    {
       "title": "Innovation Transforms Healthcare From Diagnosis to Drug Discovery Across All Stages",
       "urls": [
         "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
@@ -5181,7 +5166,19 @@
         "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence"
       ],
       "date": "2026-11-07T10:02:47.034695+00:00"
+    },
+    {
+      "title": "Pentagon Grants $250 Million Loan To Battery Startup RadianX For U.S. Factory",
+      "urls": [
+        "https://www.reuters.com/sustainability/climate-energy",
+        "https://www.sciencedaily.com/news/earth_climate/renewable_energy",
+        "https://techcrunch.com/category/climate",
+        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
+        "https://interestingengineering.com/energy",
+        "https://spectrum.ieee.org/topic/climate-tech"
+      ],
+      "date": "2026-11-07T10:31:43.829177+00:00"
     }
   ],
-  "lastUpdated": "2026-11-07T10:02:47.034764+00:00"
+  "lastUpdated": "2026-11-07T10:31:43.829247+00:00"
 }
