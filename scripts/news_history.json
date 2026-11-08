@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Faker Wins National Cheongnyong Medal and Razer Player of the Year Award in 2025",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Esports",
-        "https://en.wikipedia.org/wiki/Faker_%28gamer%29"
-      ],
-      "date": "2026-10-29T08:02:06.312185+00:00"
-    },
-    {
       "title": "Giriraj Singh Praises India's Women Athletes for Raising Nation's Flag on Global Podiums",
       "urls": [
         "https://ndtvprofit.com/india/from-records-to-gold-the-indian-women-who-ruled-asian-games-2026-12138910",
@@ -5202,7 +5194,18 @@
         "https://space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432"
       ],
       "date": "2026-11-08T08:01:50.720523+00:00"
+    },
+    {
+      "title": "AP Sports Newsletter Delivers Daily Breakdowns of Major Sports Headlines Worldwide",
+      "urls": [
+        "https://apnews.com/sports",
+        "https://www.independent.co.uk/topic/world-record",
+        "https://www.espn.com/espn/latestnews",
+        "https://www.nbcnews.com/sports",
+        "https://www.express.co.uk/latest/world-records"
+      ],
+      "date": "2026-11-08T08:31:41.573452+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T08:01:50.720588+00:00"
+  "lastUpdated": "2026-11-08T08:31:41.573517+00:00"
 }
