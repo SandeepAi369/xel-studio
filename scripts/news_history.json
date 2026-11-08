@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "SocialBee Publishes Weekly X Updates Report Highlighting New Features and Trends",
-      "urls": [
-        "https://socialbee.com/blog/meta-facebook-updates-news",
-        "https://socialbee.com/blog/latest-social-media-news",
-        "https://socialbee.com/blog/x-updates-news",
-        "https://www.pewresearch.org/internet/fact-sheet/social-media"
-      ],
-      "date": "2026-10-29T17:01:52.633653+00:00"
-    },
-    {
       "title": "Federal Communications Commission Seeks Public Comment on E‑Rate Program Affecting Autism Services",
       "urls": [
         "https://autismsociety.org/capitol-connection-october-15-2026",
@@ -5217,7 +5207,16 @@
         "https://www.tennis.com"
       ],
       "date": "2026-11-08T16:32:05.515306+00:00"
+    },
+    {
+      "title": "Anna Skorobogatova Receives Breakthrough Prize in Mathematics for Symplectic Topology Work",
+      "urls": [
+        "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/from-gene-therapy-to-ai-drug-discovery-sixth-annual-biotech-breakthrough-awards-names-2026-winners/2462981",
+        "https://en.wikipedia.org/wiki/Breakthrough_Prize_in_Mathematics",
+        "https://www.science.org/journal/science"
+      ],
+      "date": "2026-11-08T17:01:59.495193+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T16:32:05.515415+00:00"
+  "lastUpdated": "2026-11-08T17:01:59.495261+00:00"
 }
