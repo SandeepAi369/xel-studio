@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Intel Shares Plunge After PC Demand Slump and Supply Constraints Hit Outlook",
-      "urls": [
-        "https://www.bloomberg.com/latest/tech-company-earnings",
-        "https://admiralmarkets.com/analytics/traders-blog/earnings-calendar-this-week-october-26-2026",
-        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10262026-12194076",
-        "https://sentisense.ai/blog/big-tech-earnings-this-week",
-        "https://finobird.com/news/roundup/stock-big-tech-earnings-week-collides-with-fed-decision-as-brazil-vote-rattles-em-2026-10-26",
-        "https://finance.yahoo.com/calendar/earnings"
-      ],
-      "date": "2026-10-29T20:31:43.467584+00:00"
-    },
-    {
       "title": "United States Sets Record Gold Medal Count at Milano Cortina 2026 Winter Olympics",
       "urls": [
         "https://www.si.com/olympics",
@@ -5213,7 +5201,20 @@
         "https://www.bakermckenzie.com/en/insight/publications/2026/03/trade-and-tariff-shifts-reshaping-tech"
       ],
       "date": "2026-11-08T20:02:17.081690+00:00"
+    },
+    {
+      "title": "SpaceX Ends Crew Dragon Flights, Leaving NASA Without Primary Commercial Launch Partner",
+      "urls": [
+        "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency",
+        "https://en.wikipedia.org/wiki/SpaceX",
+        "https://en.wikipedia.org/wiki/SpaceX_Raptor",
+        "https://www.nasa.gov/2026-news-releases",
+        "https://en.wikipedia.org/wiki/SpaceX_Starship",
+        "https://www.spacex.com",
+        "https://en.wikipedia.org/wiki/List_of_Starship_launches"
+      ],
+      "date": "2026-11-08T20:32:05.427865+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T20:02:17.081748+00:00"
+  "lastUpdated": "2026-11-08T20:32:05.427934+00:00"
 }
