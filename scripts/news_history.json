@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ministry of Electronics and Information Technology Expands Digital India BHASHINI Division Services",
-      "urls": [
-        "https://www.meity.gov.in?prvcaeprm=1740747059662",
-        "https://www.digitalindia.gov.in/press-release",
-        "https://en.wikipedia.org/wiki/Ministry_of_Electronics_and_Information_Technology"
-      ],
-      "date": "2026-10-29T15:32:10.959696+00:00"
-    },
-    {
-      "title": "DRDO Tests Indigenous Quantum Encryption System Ahead of VISV‑2026 Defence Showcase",
-      "urls": [
-        "https://indianmasterminds.com/news/defence/visv-2026-india-defence-technology-246536",
-        "https://organiser.org/2026/10/18/413954/bharat/drdo-tests-quantum-key-distribution-on-military-track-indigenous-tech-shields-critical-defence-data-from-espionage",
-        "https://www.janes.com/defence-intelligence-insights/defence-news/land/india-releases-land-warfare-doctrine-2026",
-        "https://www.ssbpsych.com/indian-armed-forces/indian-army-latest-updates-october-2026",
-        "https://www.wionews.com/india-news/-space-will-define-future-wars-drdo-chief-calls-for-urgent-national-push-sounds-alarm-on-defence-gap-1776954533825",
-        "https://en.wikipedia.org/wiki/2026_in_India",
-        "https://www.defensenews.com/global/asia-pacific/2026/09/11/india-puts-domestic-industry-at-heart-of-new-military-equipment-orders",
-        "https://timesofindia.indiatimes.com/defence/drdo-successfully-tests-quantum-secured-communication-to-shield-sensitive-military-data/articleshow/134947088.cms",
-        "https://en.wikipedia.org/wiki/Netra_AEW%26C"
-      ],
-      "date": "2026-10-29T16:01:58.371284+00:00"
-    },
-    {
       "title": "Lonely Planet Expands Thailand Beach Guide to Fifteen Destinations Highlighting Patong Beach",
       "urls": [
         "https://www.guinnessworldrecords.com/news/sports-and-fitness",
@@ -5229,7 +5205,15 @@
         "https://www.producthunt.com/categories/ai-coding-agents"
       ],
       "date": "2026-11-08T15:31:45.031214+00:00"
+    },
+    {
+      "title": "DRDO Extends Scramjet Test Run Over Twelve Minutes Advancing Hypersonic Missile Capability",
+      "urls": [
+        "https://indianexpress.com/about/drdo",
+        "https://indianexpress.com/about/defence-research-and-development-organisation"
+      ],
+      "date": "2026-11-08T16:02:02.510030+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T15:31:45.031273+00:00"
+  "lastUpdated": "2026-11-08T16:02:02.510105+00:00"
 }
