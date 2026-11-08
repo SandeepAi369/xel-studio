@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Celebrates Festival Commemorating Good Over Evil with Nationwide Rituals",
-      "urls": [
-        "https://www.bbc.com/news/world/asia/india",
-        "https://www.zeebiz.com/companies/news-tech-mahindra-partners-coroverai-to-expand-bharatgpt-sovereign-ai-globally-402730"
-      ],
-      "date": "2026-10-29T23:02:11.657445+00:00"
-    },
-    {
       "title": "System Detects Early Pancreatic Cancer Signs Years Before Traditional Diagnosis",
       "urls": [
         "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
@@ -5225,7 +5217,16 @@
         "https://indianopensourcecommunity.in/index"
       ],
       "date": "2026-11-08T23:02:04.543610+00:00"
+    },
+    {
+      "title": "India's Public Sector Undertakings Consolidate Transport, Power, and Financial Safety Nets",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Public_Sector_Undertakings_in_India",
+        "https://en.m.wikipedia.org/wiki/India",
+        "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+      ],
+      "date": "2026-11-08T23:31:38.983108+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T23:02:04.543668+00:00"
+  "lastUpdated": "2026-11-08T23:31:38.983285+00:00"
 }
