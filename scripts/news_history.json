@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Premier League 2 Table Shows Competitive Balance After Seven Matchdays",
-      "urls": [
-        "https://www.kicker.de/premier-league-2-division-1/tabelle",
-        "https://www.kicker.de/championship/tabelle"
-      ],
-      "date": "2026-10-29T07:31:47.537271+00:00"
-    },
-    {
       "title": "Faker Wins National Cheongnyong Medal and Razer Player of the Year Award in 2025",
       "urls": [
         "https://en.wikipedia.org/wiki/Esports",
@@ -5199,7 +5191,18 @@
         "https://en.wikipedia.org/wiki/Ladakh"
       ],
       "date": "2026-11-08T07:31:39.517541+00:00"
+    },
+    {
+      "title": "SpaceX Launches Classified US Space Force Mission From California in Sunset Display",
+      "urls": [
+        "https://sciencedaily.com/news/space_time",
+        "https://www.spacex.com/launches",
+        "https://www.sciencedaily.com/news/space_time/space_exploration",
+        "https://tech-insider.org/nicole-junkermann-spacex-november-space-milestones-three-launches-2026",
+        "https://space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432"
+      ],
+      "date": "2026-11-08T08:01:50.720523+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T07:31:39.517628+00:00"
+  "lastUpdated": "2026-11-08T08:01:50.720588+00:00"
 }
