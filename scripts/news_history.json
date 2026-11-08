@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Reports Simple Touch Revives Dying Corals Within Seven Weeks",
-      "urls": [
-        "https://www.worldwildlife.org/news/stories",
-        "https://newsroom.wcs.org/News-Releases.aspx",
-        "https://sustainabletimes.org/environmental-news-2026",
-        "https://www.euronews.com/2026/10/23/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
-        "https://www.conservation.org/news",
-        "https://wwf.panda.org/wwf_news",
-        "https://news.mongabay.com",
-        "https://www.tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
-        "https://www.sciencedaily.com/news/earth_climate/ecology"
-      ],
-      "date": "2026-10-29T01:31:36.339751+00:00"
-    },
-    {
       "title": "Meta Releases Muse Spark Open Weights Enabling Researchers to Build Advanced Multimodal AI Applications",
       "urls": [
         "https://llm-stats.com/llm-updates",
@@ -5173,7 +5158,17 @@
         "https://en.wikipedia.org/wiki/Timeline_of_disability_rights_in_the_United_States"
       ],
       "date": "2026-11-08T01:02:01.056455+00:00"
+    },
+    {
+      "title": "Potsdam Institute Reports Accelerated Global Warming In Lead Up To COP31",
+      "urls": [
+        "https://www.weforum.org/stories/climate-action-and-waste-reduction/cop31-un-warming-climate-change-nature-news",
+        "https://time.com/article/2026/10/14/climate-change-accelerating-study",
+        "https://news.un.org/en/story/2026/11/1168725",
+        "https://www.sciencedaily.com/releases/2026/08/260801093239.htm"
+      ],
+      "date": "2026-11-08T01:31:41.272309+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T01:02:01.056565+00:00"
+  "lastUpdated": "2026-11-08T01:31:41.272378+00:00"
 }
