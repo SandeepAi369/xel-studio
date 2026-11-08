@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lonely Planet Expands Thailand Beach Guide to Fifteen Destinations Highlighting Patong Beach",
-      "urls": [
-        "https://www.guinnessworldrecords.com/news/sports-and-fitness",
-        "https://www.lonelyplanet.com/articles/best-beaches-thailand",
-        "https://thaiadventureclub.com/best-beaches-to-visit-in-thailand",
-        "https://en.wikipedia.org/wiki/Guinness_World_Records",
-        "https://trackandfieldnews.com/article/for-the-record-october-2026"
-      ],
-      "date": "2026-10-29T16:31:34.628434+00:00"
-    },
-    {
       "title": "SocialBee Publishes Weekly X Updates Report Highlighting New Features and Trends",
       "urls": [
         "https://socialbee.com/blog/meta-facebook-updates-news",
@@ -5213,7 +5202,22 @@
         "https://indianexpress.com/about/defence-research-and-development-organisation"
       ],
       "date": "2026-11-08T16:02:02.510030+00:00"
+    },
+    {
+      "title": "Conor McGregor Announces Final Opponent Amid Middleweight Shift For Islam Makhachev",
+      "urls": [
+        "https://www.ufc.com",
+        "https://www.bjpenn.com",
+        "https://www.essentiallysports.com/ufc-mma-news-conor-mcgregor-names-his-final-ufc-opponent-in-unhinged-rant",
+        "https://athlonsports.com/mma/ufc-334-5-reasons-amanda-nunes-vs-kayla-harrison-is-womens-mmas-biggest-fight-of-2026",
+        "https://si.com/fannation/mma/ufc/ufc-vegas-124-odds-results-stream-for-waldo-cortes-acosta-vs-johnny-walker",
+        "https://sports.ndtv.com/us/mma/ufc-fans-get-major-update-on-islam-makhachev-s-middleweight-move-12297513",
+        "https://boxingnews.com/results",
+        "https://en.wikipedia.org/wiki/Sport_in_England",
+        "https://www.tennis.com"
+      ],
+      "date": "2026-11-08T16:32:05.515306+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T16:02:02.510105+00:00"
+  "lastUpdated": "2026-11-08T16:32:05.515415+00:00"
 }
