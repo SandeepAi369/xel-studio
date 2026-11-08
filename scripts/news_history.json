@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Artificial Intelligence Accelerates Drug Discovery With Computational Repertoires In New Lab Manager Report",
-      "urls": [
-        "https://www.drugdiscoverynews.com/tag/artificial-intelligence"
-      ],
-      "date": "2026-10-29T15:01:56.286170+00:00"
-    },
-    {
       "title": "Ministry of Electronics and Information Technology Expands Digital India BHASHINI Division Services",
       "urls": [
         "https://www.meity.gov.in?prvcaeprm=1740747059662",
@@ -5227,7 +5220,16 @@
         "https://www.kicker.de/championship/tabelle"
       ],
       "date": "2026-11-08T15:01:54.227241+00:00"
+    },
+    {
+      "title": "LogRocket Ranks AI Development Tools as Developers Seek Faster Code Generation",
+      "urls": [
+        "https://zdnet.com/innovation/most-popular-programming-languages-in-2026-developer-job-growth",
+        "https://blog.logrocket.com/ai-dev-tool-power-rankings",
+        "https://www.producthunt.com/categories/ai-coding-agents"
+      ],
+      "date": "2026-11-08T15:31:45.031214+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T15:01:54.227289+00:00"
+  "lastUpdated": "2026-11-08T15:31:45.031273+00:00"
 }
