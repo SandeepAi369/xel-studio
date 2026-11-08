@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Emergent Secures $130 Million Series C Funding, Achieves Unicorn Valuation",
-      "urls": [
-        "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch",
-        "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-26-october-2026"
-      ],
-      "date": "2026-10-29T04:01:46.613106+00:00"
-    },
-    {
       "title": "Mumbai Indians Lead IPL Franchise Valuations at $2.1 Billion as RCB Overtakes KKR",
       "urls": [
         "https://crickettimes.com/category/ipl",
@@ -5164,7 +5156,22 @@
         "https://investingnews.com/top-tech-news"
       ],
       "date": "2026-11-08T03:32:02.574604+00:00"
+    },
+    {
+      "title": "India Launches $13.5 Billion Chip Packaging Drive as Semiconductor Ecosystem Grows",
+      "urls": [
+        "https://www.analyticsinsight.net/tech-news/top-news-today-india-chip-push-graduate-jobs-tether-transfer-vensum-funding-anthropic-ai-gains",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2026-indias-chip-story-has-moved-from-files-to-factories-says-pm-modi/articleshow/134303425.cms",
+        "https://eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape",
+        "https://livemint.com/companies/news/semicon-india-2026-india-s-chip-ambitions-draw-12-billion-which-companies-are-investing-11789724927418.html",
+        "https://timesofindia.indiatimes.com/technology/tech-news/semicon-india-2026-live-updates-pm-modi-speech-delhi-yashobhoomi-stadium-semiconductor-conference-exhibition-latest-news/liveblog/134305254.cms",
+        "https://cnbctv18.com/technology/odisha-lines-up-4-7-billion-in-chip-projects-can-india-become-a-global-manufacturing-hub-20024841.htm",
+        "https://economictimes.indiatimes.com/topic/india-semiconductor",
+        "https://bharatbusinessindex.com/blog/india-semiconductor-mission-2026-tata-asml-11b-fab-micron-live-13-projects-approved-complete-guide",
+        "https://en.wikipedia.org/wiki/Electronics_and_semiconductor_manufacturing_industry_in_India"
+      ],
+      "date": "2026-11-08T04:01:59.180363+00:00"
     }
   ],
-  "lastUpdated": "2026-11-08T03:32:02.574692+00:00"
+  "lastUpdated": "2026-11-08T04:01:59.180427+00:00"
 }
