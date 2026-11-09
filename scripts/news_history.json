@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Johns Hopkins News‑Letter Highlights Recent Scientific Breakthroughs in October Review",
-      "urls": [
-        "https://www.jhunewsletter.com/article/2026/10/science-news-in-review-oct-26"
-      ],
-      "date": "2026-10-30T13:02:03.911066+00:00"
-    },
-    {
       "title": "American Foundation for the Blind Publishes Innovation for Access Report on AI Assistive Tools",
       "urls": [
         "https://www.afb.org/research-and-initiatives/ai-series/innovation-access",
@@ -5182,7 +5175,17 @@
         "https://www.livescore.com/en"
       ],
       "date": "2026-11-09T12:32:17.062530+00:00"
+    },
+    {
+      "title": "Scientific Journals Reach 11,500 Titles, Marking Expansive Growth in Global Research Publishing",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Science",
+        "https://thehindu.com/sci-tech/science/science-snapshots-november-1-2026/article71655133.ece",
+        "https://www.sciencedaily.com/news/mind_brain/neuroscience",
+        "https://en.wikipedia.org/wiki/Steven_Weinberg"
+      ],
+      "date": "2026-11-09T13:02:22.851433+00:00"
     }
   ],
-  "lastUpdated": "2026-11-09T12:32:17.062604+00:00"
+  "lastUpdated": "2026-11-09T13:02:22.851488+00:00"
 }
