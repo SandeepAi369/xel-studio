@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Expands Disability Pension Coverage to 27 Lakh Beneficiaries and Raises Benefits",
-      "urls": [
-        "https://thehindubusinessline.com/economy/policy/cabinet-expands-disability-pension-coverage-to-27-lakh-raises-monthly-assistance/article71583756.ece"
-      ],
-      "date": "2026-10-30T21:31:30.326114+00:00"
-    },
-    {
       "title": "Modal Secures $750 Million Funding Round Valuing Company at $15.75 Billion",
       "urls": [
         "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent",
@@ -5183,7 +5176,19 @@
         "https://www.urdupure.com/blog/the-biggest-sports-moments-of-2026-so-far-and-whats-still-to-come"
       ],
       "date": "2026-11-09T21:02:32.227049+00:00"
+    },
+    {
+      "title": "Autism Speaks Study Analyzes 16,000 Genomes to Inform Culturally Adapted WHO Guidelines",
+      "urls": [
+        "https://autismspectrumnews.org",
+        "https://danmarinofoundation.org/assistive-technology-autism-tools",
+        "https://www.autismspeaks.org/news",
+        "https://www.autism.org.uk/what-we-do/news",
+        "https://www.cdc.gov/autism/index.html",
+        "https://theconversation.com/topics/neurodiversity-103349"
+      ],
+      "date": "2026-11-09T21:32:16.587758+00:00"
     }
   ],
-  "lastUpdated": "2026-11-09T21:02:32.227126+00:00"
+  "lastUpdated": "2026-11-09T21:32:16.587829+00:00"
 }
