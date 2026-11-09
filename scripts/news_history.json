@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "International Monetary Fund Raises 2026 Global Growth Forecast Amid Persistent Inflation Pressures",
-      "urls": [
-        "https://www.cnbc.com/economy",
-        "https://imf.org/en/news/articles/2026/10/13/tr-101326-press-briefing-transcript-world-economic-outlook-annual-meetings-2026",
-        "https://www.weforum.org/stories/economic-growth/why-are-prices-still-rising-and-more-top-economic-stories-to-read-this-month",
-        "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge",
-        "https://www.tripadvisor.com/Attractions-g28968-Activities-c48-Washington.html",
-        "https://en.wikipedia.org/wiki/Great_Recession"
-      ],
-      "date": "2026-10-30T16:02:00.509842+00:00"
-    },
-    {
       "title": "Royal Challengers Bengaluru Wins IPL 2026 Final Over Gujarat Titans by Six Runs",
       "urls": [
         "https://www.iplt20.com/news",
@@ -5188,7 +5176,20 @@
         "https://theairankings.com/best-ai-for-coding"
       ],
       "date": "2026-11-09T15:31:45.076980+00:00"
+    },
+    {
+      "title": "India Presents Union Budget 2026 Emphasizing Debt Management and Social Priorities",
+      "urls": [
+        "https://www.bbc.com/news/articles/c3dm790vxlko",
+        "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+        "https://www.indiabudget.gov.in",
+        "https://indianexpress.com/section/business/budget",
+        "https://www.business-standard.com/budget",
+        "https://en.wikipedia.org/wiki/Last_Week_Tonight_with_John_Oliver",
+        "https://timesofindia.indiatimes.com/business/budget"
+      ],
+      "date": "2026-11-09T16:02:03.760641+00:00"
     }
   ],
-  "lastUpdated": "2026-11-09T15:31:45.077039+00:00"
+  "lastUpdated": "2026-11-09T16:02:03.760713+00:00"
 }
