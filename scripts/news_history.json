@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "American Foundation for the Blind Publishes Innovation for Access Report on AI Assistive Tools",
-      "urls": [
-        "https://www.afb.org/research-and-initiatives/ai-series/innovation-access",
-        "https://en.wikipedia.org/wiki/Intellectual_disability",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education",
-        "https://cloud.google.com/learn/what-is-artificial-intelligence"
-      ],
-      "date": "2026-10-30T13:31:36.825613+00:00"
-    },
-    {
       "title": "Australia Climate Minister Chris Bowen Highlights India's Clean Energy Shift During Delhi E‑Rickshaw Ride",
       "urls": [
         "https://www.wwlp.com/news/local-news/franklin-county/greenfield-community-college-wins-clean-energy-leadership-award",
@@ -5185,7 +5175,16 @@
         "https://en.wikipedia.org/wiki/Steven_Weinberg"
       ],
       "date": "2026-11-09T13:02:22.851433+00:00"
+    },
+    {
+      "title": "Chefkoch Expands Noodle Recipe Collection With Over 84,000 Options For German Home Cooks",
+      "urls": [
+        "https://www.chefkoch.de/rs/s0/nudel/Rezepte.html",
+        "https://www.chefkoch.de/rs/s0/nudeln/Rezepte.html",
+        "https://search.google"
+      ],
+      "date": "2026-11-09T13:31:47.229187+00:00"
     }
   ],
-  "lastUpdated": "2026-11-09T13:02:22.851488+00:00"
+  "lastUpdated": "2026-11-09T13:31:47.229254+00:00"
 }
