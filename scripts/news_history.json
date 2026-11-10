@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google TPUs Enable One‑Line PyTorch Model Switch From Nvidia GPUs",
-      "urls": [
-        "https://www.techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
-      ],
-      "date": "2026-10-31T14:31:31.596322+00:00"
-    },
-    {
       "title": "India's Pharma Exports Surge 4.9% to $16.13 Billion in First Half of Fiscal 2027",
       "urls": [
         "https://www.epw.in/journal/2026/44/commentary/indias-pharmaceutical-industry.html",
@@ -5208,7 +5201,18 @@
         "https://www.theguardian.com/us-news/2026/sep/25/hurricane-nolo-hawaii"
       ],
       "date": "2026-11-10T14:02:11.909597+00:00"
+    },
+    {
+      "title": "Mistral Builds $14 Billion AI Empire Without Launching Flagship Model",
+      "urls": [
+        "https://en.m.wikipedia.org/wiki/Mistral_AI",
+        "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap",
+        "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
+        "https://demo.mistralcdn.net",
+        "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained"
+      ],
+      "date": "2026-11-10T14:31:45.073675+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T14:02:11.909674+00:00"
+  "lastUpdated": "2026-11-10T14:31:45.073739+00:00"
 }
