@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Adobe Launches Firefly Video Tool As OpenAI Unveils Sora 2 Text‑to‑Video Model",
-      "urls": [
-        "https://www.kombitz.com/2026/10/24/ai-image-video-model-news-roundup-october-24-2026",
-        "https://en.wikipedia.org/wiki/Text-to-video_model",
-        "https://finance.yahoo.com/technology/ai/articles/ai-powered-content-creation-software-103000393.html",
-        "https://en.wikipedia.org/wiki/Sora_%28text-to-video_model%29",
-        "https://gemini.google.com"
-      ],
-      "date": "2026-10-31T06:01:44.277711+00:00"
-    },
-    {
       "title": "IUCN Issues New Guidance to Anchor Global Conservation in Ecological Integrity",
       "urls": [
         "https://tandfonline.com/doi/full/10.1080/14888386.2026.2663853",
@@ -5191,7 +5180,14 @@
         "https://en.wikipedia.org/wiki/Netflix"
       ],
       "date": "2026-11-10T05:31:54.515695+00:00"
+    },
+    {
+      "title": "Madhya Pradesh Invests $655 Million to Build India's First 3D AI Chip Packaging Facility",
+      "urls": [
+        "https://www.techtimes.com/articles/329443/20261023/madhya-pradesh-bets-655m-indias-first-3d-ai-chip-packaging-facility.htm"
+      ],
+      "date": "2026-11-10T06:01:59.258288+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T05:31:54.515772+00:00"
+  "lastUpdated": "2026-11-10T06:01:59.258353+00:00"
 }
