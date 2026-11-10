@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Advances Electric Mobility Through PM E-DRIVE Scheme and Vehicle Incentives",
-      "urls": [
-        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10062_20261001_19244601.pdf",
-        "https://en.wikipedia.org/wiki/Battery_electric_vehicle",
-        "https://en.wikipedia.org/wiki/Hybrid_electric_vehicle"
-      ],
-      "date": "2026-10-31T01:31:52.961458+00:00"
-    },
-    {
       "title": "Indian Developers Open Source Ai Contributions News Recent Highlights October 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/github-india-developer-base-hits-27-million-amid-ai-driven-coding-surge/130222912",
@@ -5205,7 +5196,15 @@
         "https://economictimes.indiatimes.com/news/india/delhis-post-diwali-smog-puts-rekha-gupta-cos-clean-air-promise-to-test/articleshow/135675336.cms"
       ],
       "date": "2026-11-10T01:31:44.470025+00:00"
+    },
+    {
+      "title": "Open Source Large Language Model Release News Top Stories November 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://geotoolbox.ai/blog/best-open-source-llms",
+        "https://alphacraftai.com/large-language-model-news"
+      ],
+      "date": "2026-11-10T02:02:00.638103+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T01:31:44.470070+00:00"
+  "lastUpdated": "2026-11-10T02:02:00.638173+00:00"
 }
