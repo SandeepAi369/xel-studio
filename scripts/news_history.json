@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Evaxion Wins International Prix Galien Award for AI‑Immunology Platform Advancing Digital Health",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Health_care",
-        "https://finance.yahoo.com/healthcare/articles/evaxion-receives-international-prix-galien-080000089.html",
-        "https://www.kkr.in",
-        "https://finance.yahoo.com/healthcare/articles/tampa-bay-wave-announces-2026-152700939.html",
-        "https://www.icthealth.org/news"
-      ],
-      "date": "2026-10-31T11:03:30.497045+00:00"
-    },
-    {
       "title": "Mistral Launches Large 4 Open‑Source Trillion‑Parameter Model to Boost Sovereign AI",
       "urls": [
         "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense",
@@ -5208,7 +5197,20 @@
         "https://finance.yahoo.com/quote/PM"
       ],
       "date": "2026-11-10T11:02:14.618537+00:00"
+    },
+    {
+      "title": "Anthropic Accelerates AI Model Growth, Raising Safety Concerns in New Report",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Anthropic",
+        "https://claude.ai",
+        "https://claude.com",
+        "https://www.the-independent.com/tech/anthropic-ai-progress-claude-safety-b3080302.html",
+        "https://anthropic.skilljar.com",
+        "https://academy.claude.com",
+        "https://www.zacks.com/featured-articles/761/anthropic-ipo"
+      ],
+      "date": "2026-11-10T11:31:39.297733+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T11:02:14.618592+00:00"
+  "lastUpdated": "2026-11-10T11:31:39.297791+00:00"
 }
