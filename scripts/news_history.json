@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "ProFunds Biotechnology UltraSector Fund Shows NAV Decline Amid Leveraged Exposure",
-      "urls": [
-        "https://www.morningstar.com/funds/XNAS/BIPIX/quote",
-        "https://www.profunds.com/mutual-funds/biotechnology",
-        "https://finance.yahoo.com/quote/BIPIX"
-      ],
-      "date": "2026-10-31T13:31:58.925294+00:00"
-    },
-    {
-      "title": "German Farmers Drive Biodiversity Efforts Yet Face Limited Conservation Options",
-      "urls": [
-        "https://phys.org/news/2026-08-biodiversity-agriculture-forestry-high-options.html",
-        "https://www.aol.de?r=www.aol.com",
-        "https://www.ipsnews.net/2026/08/nairobi-biodiversity-talks-set-the-stage-for-key-cop17-decisions"
-      ],
-      "date": "2026-10-31T14:02:08.429859+00:00"
-    },
-    {
       "title": "Google TPUs Enable One‑Line PyTorch Model Switch From Nvidia GPUs",
       "urls": [
         "https://www.techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
@@ -5212,7 +5194,21 @@
         "https://www.disabilitydebrief.org/library/country-india"
       ],
       "date": "2026-11-10T13:31:45.175791+00:00"
+    },
+    {
+      "title": "Hurricane Nolo Brings Life‑Threatening Flooding to Hawaii, Prompting Evacuations Across Multiple Islands",
+      "urls": [
+        "https://weather.com/2026/11/03/science/weather-explainers/florida-desert-southwest-flooding-recap-el-nino",
+        "https://www.usatoday.com/story/news/weather/2026/11/03/dramatic-rain-flooding-in-florida-prompt-rescues-evacuations/92581349007",
+        "https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event",
+        "https://theguardian.com/us-news/2026/oct/23/severe-flooding-west-triggers-rescues-evacuations",
+        "https://www.merriam-webster.com/dictionary/extreme",
+        "https://www.orbisweather.com/global-natural-disasters-this-week-november-6-2026",
+        "https://disasterlookup.com/declared",
+        "https://www.theguardian.com/us-news/2026/sep/25/hurricane-nolo-hawaii"
+      ],
+      "date": "2026-11-10T14:02:11.909597+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T13:31:45.175844+00:00"
+  "lastUpdated": "2026-11-10T14:02:11.909674+00:00"
 }
