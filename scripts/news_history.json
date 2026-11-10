@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Halts GPT‑6 Astra Rollout Citing Safety and Alignment Concerns",
-      "urls": [
-        "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html",
-        "https://www.bbc.com/news/articles/cm5y5nynl75ko",
-        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "https://openai.com/research/index/release"
-      ],
-      "date": "2026-10-31T09:01:41.465164+00:00"
-    },
-    {
       "title": "J&J Mobility Introduces Solid‑State Battery Powered Smart Wheelchair for Enhanced Mobility and Independence",
       "urls": [
         "https://www.accio.com/business/trending-2026-wheelchair",
@@ -5185,7 +5175,21 @@
         "https://www.sportbusy.com/events"
       ],
       "date": "2026-11-10T08:31:47.100996+00:00"
+    },
+    {
+      "title": "Google, AdaniConneX, and Airtel Accelerate AI Data Centre Expansion Across India",
+      "urls": [
+        "https://digitallearning.eletsonline.com/2026/11/iit-delhi-walmart-yardi-ai",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+        "https://fortuneindia.com/technology/india-ranks-11th-in-commonwealth-ai-readiness-index-ai-could-add-79-billion-to-gdp/169449",
+        "https://cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+        "https://digitimes.com/news/a20261106VL205/electronics-manufacturing-capacity-expansion-2027.html",
+        "https://indiatoday.in/technology/news/story/india-launches-three-new-ai-models-including-two-that-work-without-the-internet-3032641-2026-11-05",
+        "https://varindia.com/news/india-ai-data-centre-boom",
+        "https://thehill.com/homenews/house/6160610-democrats-plan-trump-investigations"
+      ],
+      "date": "2026-11-10T09:02:33.709254+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T08:31:47.101067+00:00"
+  "lastUpdated": "2026-11-10T09:02:33.709335+00:00"
 }
