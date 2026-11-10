@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Glenn Phillips Scores Match‑Winning Century Against India, Credits IPL Experience for Success",
-      "urls": [
-        "https://www.crictracker.com/t20/ipl-indian-premier-league",
-        "https://news.abplive.com/sports/cricket/ind-vs-nz-4th-t20i-glenn-phillips-credits-ipl-after-match-winning-ton-against-india-1874038",
-        "https://indianexpress.com/section/sports/ipl",
-        "https://www.cricbuzz.com/cricket-match/live-scores",
-        "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/the-time-is-now-at-eden-park-how-glenn-phillips-turned-a-john-cena-moment-into-team-indias-nightmare/articleshow/135373273.cms"
-      ],
-      "date": "2026-10-31T04:31:52.288648+00:00"
-    },
-    {
       "title": "PyTorch Dominates 2026 AI Research While TensorFlow Holds Production Edge",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -5194,7 +5183,18 @@
         "https://www.news18.com/business/economy/semicon-india-2026-from-chip-design-to-ai-how-india-is-building-a-semiconductor-ecosystem-10345371.html"
       ],
       "date": "2026-11-10T04:02:14.459324+00:00"
+    },
+    {
+      "title": "UFC Announces Title Stripping and Preview for Upcoming UFC 334 Event",
+      "urls": [
+        "https://www.ufc.com/trending/all",
+        "https://www.espn.com/mma/ufc",
+        "https://sports.yahoo.com/mma",
+        "https://www.mmamania.com/ufc-news",
+        "https://www.sherdog.com/news/news/list"
+      ],
+      "date": "2026-11-10T04:32:03.144909+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T04:02:14.459387+00:00"
+  "lastUpdated": "2026-11-10T04:32:03.144972+00:00"
 }
