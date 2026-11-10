@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Launches GPT‑6 Sol and Replaces It With GPT‑6.1 Sol Within a Week",
-      "urls": [
-        "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
-        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://chatgpt.com",
-        "https://openai.com/index/chatgpt",
-        "https://en.wikipedia.org/wiki/ChatGPT",
-        "https://platform.openai.com/onboarding"
-      ],
-      "date": "2026-10-31T19:31:35.976688+00:00"
-    },
-    {
       "title": "Supreme Court Triples Judges' Salaries Amid Broad Judicial Reform Agenda",
       "urls": [
         "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
@@ -5228,7 +5216,15 @@
         "https://medicalbuyer.co.in/mohfw-charts-roadmap-for-strengthening-ab-pmjay-abdm-implementation"
       ],
       "date": "2026-11-10T19:02:06.371530+00:00"
+    },
+    {
+      "title": "ISRO Launches GSLV-F18 Carrying NVS-03 Navigation Satellite to Strengthen Regional Positioning Network",
+      "urls": [
+        "https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece",
+        "https://www.thehindu.com/sci-tech/science/isro-nvs-03-launch-navic-constellation-5-things-to-know-about-india-next-generation-satellite/article71648294.ece"
+      ],
+      "date": "2026-11-10T19:31:43.019262+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T19:02:06.371592+00:00"
+  "lastUpdated": "2026-11-10T19:31:43.019333+00:00"
 }
