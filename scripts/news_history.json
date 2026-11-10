@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Coronavirus is identified on the WHO site as a disease caused by a novel coronavirus virus, with the Spanish description",
-      "urls": [
-        "https://www.americantelemed.org/news",
-        "https://www.hopkinsmedicine.org/health/expert-qa/benefits-of-telemedicine",
-        "https://www.who.int/es/health-topics/coronavirus"
-      ],
-      "date": "2026-10-31T07:32:03.780873+00:00"
-    },
-    {
-      "title": "Meta Preserves 2019 Newsroom Announcement in Archived Social Media Record",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Social_media",
-        "https://about.fb.com/news"
-      ],
-      "date": "2026-10-31T08:01:52.532229+00:00"
-    },
-    {
       "title": "New York Yankees Secure Historic Three‑Peat, First Team to Win Three Straight World Series in Over 25 Years",
       "urls": [
         "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
@@ -5197,7 +5180,14 @@
         "https://ncdc.mohfw.gov.in"
       ],
       "date": "2026-11-10T07:31:41.838308+00:00"
+    },
+    {
+      "title": "Sciencing Highlights 2026 Scientific Breakthroughs Amid Nearly 8,000 Grant Terminations",
+      "urls": [
+        "https://www.sciencing.com/2171796/greatest-scientific-discoveries-2026"
+      ],
+      "date": "2026-11-10T08:01:57.079276+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T07:31:41.838370+00:00"
+  "lastUpdated": "2026-11-10T08:01:57.079341+00:00"
 }
