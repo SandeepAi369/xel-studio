@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "WWF Report Highlights Need for Food Production as Key to Reversing Nature Loss",
-      "urls": [
-        "https://theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
-        "https://must-visit-destinations.com/best-lighthouses-usa",
-        "https://en.wikipedia.org/wiki/Conservation_movement",
-        "https://www.theguardian.com/environment/2026/mar/16/conservation-trump-cuts-natural-world-usaid-funding-biodiversity-aoe"
-      ],
-      "date": "2026-11-01T22:31:48.499510+00:00"
-    },
-    {
       "title": "Mistral AI Unveils Large 2 Model, Boosting AI‑Native Industry Capabilities",
       "urls": [
         "https://mistral.ai/news",
@@ -5189,7 +5179,17 @@
         "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
       ],
       "date": "2026-11-11T22:01:59.115086+00:00"
+    },
+    {
+      "title": "Guatemala, Israel, and Guam Record Simultaneous Earthquakes as Live Map Highlights Global Tremors",
+      "urls": [
+        "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
+        "https://www.the-world-now.com/global-disaster-tracker",
+        "https://earthquake.usgs.gov/earthquakes/map/Recent",
+        "https://www.theuktimes.co.uk/who-is-bill-gates-and-why-is-he-famous"
+      ],
+      "date": "2026-11-11T22:32:00.704218+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T22:01:59.115155+00:00"
+  "lastUpdated": "2026-11-11T22:32:00.704289+00:00"
 }
