@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "John Sheehan Highlights Dow Jones Stickiness While Eyeing Early Investment in Anthropic",
-      "urls": [
-        "https://kennethbordes.com",
-        "https://markets.businessinsider.com/index/dow_jones",
-        "https://shop.avfc.co.uk/en",
-        "https://tracksuccession.com/ceo-changes",
-        "https://en.wikipedia.org/wiki/2025%E2%80%932026_China%E2%80%93Japan_diplomatic_crisis"
-      ],
-      "date": "2026-11-01T17:02:09.359104+00:00"
-    },
-    {
-      "title": "India Shifts Disability Budget Toward Skills Training While Cutting Accessibility Funding",
-      "urls": [
-        "https://government.economictimes.indiatimes.com/news/education/decoding-indias-accessibility-mandate-from-constitutional-promises-to-non-negotiable-realities/133539121",
-        "https://countercurrents.org/2026/09/skilling-up-accessibility-down-the-contradiction-at-the-heart-of-budget-2026s-disability-agenda",
-        "https://mondaq.com/india/compliance/1824050/the-new-accessibility-conformance-regime-key-takeaways-from-the-draft-rpwd-amendment-rules-2026"
-      ],
-      "date": "2026-11-01T17:31:43.977317+00:00"
-    },
-    {
       "title": "Tōhoku Earthquake and Tsunami Remains Costliest Disaster as Live Tracker Highlights New Puerto Rico Quake",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_disasters_by_cost",
@@ -5218,7 +5198,16 @@
         "https://www.cityam.com/big-tech-earnings-to-test-ai-demand-and-nvidia-surge"
       ],
       "date": "2026-11-11T17:01:55.682295+00:00"
+    },
+    {
+      "title": "Intelligence Journal Highlights 12 Percent Bias Gap In AI Systems",
+      "urls": [
+        "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
+        "https://www.onrec.com/news/opinion-insights/how-assistive-technologies-and-ai-are-transforming-workplace-accessibility",
+        "https://en.wikipedia.org/wiki/Algorithmic_bias"
+      ],
+      "date": "2026-11-11T17:32:02.793268+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T17:01:55.682358+00:00"
+  "lastUpdated": "2026-11-11T17:32:02.793324+00:00"
 }
