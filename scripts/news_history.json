@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Merriam-Webster Adds Artificial Classification Definition Reflecting AI Terminology Growth In 2026",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/artificial",
-        "https://en.wikipedia.org/wiki/Artificial_(2026_film)",
-        "https://aiweekly.co/ai-news-today",
-        "https://www.iplt20.com/fantasy",
-        "https://dict.leo.org/englisch-deutsch/artificial",
-        "https://headsupai.io/ai-news-and-updates/this-month"
-      ],
-      "date": "2026-11-01T22:01:51.853248+00:00"
-    },
-    {
       "title": "WWF Report Highlights Need for Food Production as Key to Reversing Nature Loss",
       "urls": [
         "https://theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
@@ -5194,7 +5182,14 @@
         "https://digitalmagma.com/knowledge-base/ai-overviews"
       ],
       "date": "2026-11-11T21:33:14.830339+00:00"
+    },
+    {
+      "title": "Llama 4 Ushers In New Era Of Native AI Model Optimization",
+      "urls": [
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
+      ],
+      "date": "2026-11-11T22:01:59.115086+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T21:33:14.830401+00:00"
+  "lastUpdated": "2026-11-11T22:01:59.115155+00:00"
 }
