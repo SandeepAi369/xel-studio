@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Quantum Computing Breakthrough Research News New Developments November 2026 — Latest Developments and Key Updates",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Quantum_computing",
-        "https://aibropro.com/latest-breakthroughs-quantum-computing",
-        "https://www.cnbc.com/2026/09/23/ionq-shares-rally-after-company-says-it-made-a-major-quantum-computing-breakthrough.html",
-        "https://www.insidedeeptech.com/the-latest-quantum-computing-breakthroughs-of-2026-explained",
-        "https://thequantuminsider.com/2026/03/26/leading-quantum-computing-countries",
-        "https://en.wikipedia.org/wiki/List_of_companies_involved_in_quantum_computing%2C_communication_or_sensing",
-        "https://www.sciencedaily.com/releases/2026/09/260930020309.htm"
-      ],
-      "date": "2026-11-01T09:01:51.790142+00:00"
-    },
-    {
       "title": "Deaf Tech 2026 Report Highlights Eleven Companies Transforming Hearing Accessibility",
       "urls": [
         "https://verbit.ai/blog/accessibility-hub/web-accessibility-for-people-with-hearing-loss-a-comprehensive-guide",
@@ -5222,7 +5209,17 @@
         "https://sportstar.thehindu.com/wrestling"
       ],
       "date": "2026-11-11T08:31:40.079829+00:00"
+    },
+    {
+      "title": "OpenAI Publishes Timeline Detailing GPT Model Releases and Key Features Through 2026",
+      "urls": [
+        "https://en.wikipedia.org/wiki/GPT-6",
+        "https://openai.com/index/introducing-gpt-6-cyber",
+        "https://www.scriptbyai.com/timeline-of-chatgpt",
+        "https://openai.com/index/chatgpt"
+      ],
+      "date": "2026-11-11T09:01:59.387047+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T08:31:40.079885+00:00"
+  "lastUpdated": "2026-11-11T09:01:59.387128+00:00"
 }
