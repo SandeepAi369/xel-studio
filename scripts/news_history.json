@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Unveils Large 2 Model, Boosting AI‑Native Industry Capabilities",
-      "urls": [
-        "https://mistral.ai/news",
-        "https://mistral.ai/products/vibe"
-      ],
-      "date": "2026-11-01T23:03:25.193371+00:00"
-    },
-    {
       "title": "Maharashtra Hosts PULSE‑2026 Global Healthcare Innovation Summit to Boost Rural Access",
       "urls": [
         "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
@@ -5197,7 +5189,19 @@
         "https://softwaremill.com/ml-engineer-comparison-of-pytorch-tensorflow-jax-and-flax"
       ],
       "date": "2026-11-11T23:02:11.828249+00:00"
+    },
+    {
+      "title": "Global Wellness Tourism Market Projects 13.7% CAGR, Attracting Major Resorts and Investors",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Mental_health",
+        "https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health",
+        "https://www.apa.org/pubs/reports/chatbots-mental-health-2026",
+        "https://www.forbes.com/sites/hollyeve/2026/07/24/navi-digital-wellness-app-co-designed-by-teens-launches-in-new-mexico",
+        "https://en.wikipedia.org/wiki/Digital_health",
+        "https://uk.finance.yahoo.com/news/global-wellness-tourism-mental-fitness-154000682.html"
+      ],
+      "date": "2026-11-11T23:31:37.804298+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T23:02:11.828310+00:00"
+  "lastUpdated": "2026-11-11T23:31:37.804360+00:00"
 }
