@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "ChatGPT Expands Everyday Use By Enabling Learning, Writing, And Task Automation",
-      "urls": [
-        "https://en.wikipedia.org/wiki/GPT-6",
-        "https://platform.openai.com",
-        "https://chatgpt.com/overview"
-      ],
-      "date": "2026-11-01T04:02:43.585266+00:00"
-    },
-    {
-      "title": "Slovakia Celebrates EU Membership With Thumping Enthusiasm Ahead of 2004 Entry",
-      "urls": [
-        "https://economictimes.indiatimes.com/news/sports/other-sports/asian-games-2026-10-indian-athletes-to-watch-as-india-chases-another-100-medal-haul/articleshow/134258628.cms",
-        "https://en.wikipedia.org/wiki/2003"
-      ],
-      "date": "2026-11-01T04:31:41.292467+00:00"
-    },
-    {
       "title": "CoRover.ai Partners With Tech Mahindra to Expand BharatGPT Indian Language AI Platform",
       "urls": [
         "https://economictimes.indiatimes.com/tech/information-tech/corover-ai-tech-mahindra-partner-on-india-origin-ai/articleshow/134414036.cms",
@@ -5236,7 +5219,19 @@
         "https://releasebot.io/updates/openai/chatgpt"
       ],
       "date": "2026-11-11T04:01:55.401511+00:00"
+    },
+    {
+      "title": "Indian Premier League Ipl Cricket Updates News News Today November 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://en.wikipedia.org/wiki/2025_Indian_Premier_League",
+        "https://en.wikipedia.org/wiki/2024_Indian_Premier_League",
+        "https://www.espn.com/cricket/series/_/id/8048/ipl",
+        "https://en.wikipedia.org/wiki/List_of_2026_Indian_Premier_League_personnel_changes",
+        "https://sports.yahoo.com/articles/two-ipl-teams-indian-premier-081648039.html",
+        "https://indianexpress.com/article/sports/cricket/ipl-player-trade-transfer-deals-hardik-pandya-sanju-samson-rishabh-pant-10957155"
+      ],
+      "date": "2026-11-11T04:32:15.428390+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T04:01:55.401606+00:00"
+  "lastUpdated": "2026-11-11T04:32:15.428427+00:00"
 }
