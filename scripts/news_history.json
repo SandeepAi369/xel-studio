@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "NASA Schedules 2026 Cargo Resupply Flight Delivering 6,300 Pounds and New Solar Arrays to ISS",
-      "urls": [
-        "https://www.usatoday.com/story/tech/space/2026/10/16/nasa-spacex-missions-rocket-launches-space/92261097007",
-        "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station"
-      ],
-      "date": "2026-11-01T13:02:03.162463+00:00"
-    },
-    {
-      "title": "Hatta Resorts Expands Luxury Holiday Portfolio With Premium Farmhouses and Private Pool Resorts",
-      "urls": [
-        "https://www.delhicapitals.in",
-        "https://www.hattaresorts.org",
-        "https://en.wikipedia.org/wiki/Wearable_technology",
-        "https://rylo.com/post/latest-innovations-in-technology-for-deaf"
-      ],
-      "date": "2026-11-01T13:31:39.979995+00:00"
-    },
-    {
       "title": "Hurricane Isaias Triggers Record Flooding Across U.S. Coastlines and Sparks Emergency Declarations",
       "urls": [
         "https://yaleclimateconnections.org/2026/10/record-flooding-hits-the-u-s-as-powerful-tropical-storms-threaten-asia",
@@ -5219,7 +5201,15 @@
         "https://www.cointribune.com/en/news/web3-news"
       ],
       "date": "2026-11-11T13:02:00.982581+00:00"
+    },
+    {
+      "title": "India Extends Welfare Support to Over 58,000 Divyangjan and Senior Citizens Through New Initiative",
+      "urls": [
+        "https://www.dailypioneer.com/india/more-than-58000-divyangjan-senior-citizens-receive-assistive-devices-at-nationwide-camps",
+        "https://www.state.gov/countries-areas/india"
+      ],
+      "date": "2026-11-11T13:31:49.235325+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T13:02:00.982642+00:00"
+  "lastUpdated": "2026-11-11T13:31:49.235386+00:00"
 }
