@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tōhoku Earthquake and Tsunami Remains Costliest Disaster as Live Tracker Highlights New Puerto Rico Quake",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_disasters_by_cost",
-        "https://www.the-world-now.com/global-disaster-tracker"
-      ],
-      "date": "2026-11-01T18:01:40.681694+00:00"
-    },
-    {
       "title": "Online Calculator Launches Free Tool for Instant Everyday Math Solutions",
       "urls": [
         "https://analyticsindiamag.com/ai-news-updates/corover-launches-bharatgpt-mini-534-mn-parameter-model-in-14-indic-languages-1",
@@ -5207,7 +5199,15 @@
         "https://en.wikipedia.org/wiki/Algorithmic_bias"
       ],
       "date": "2026-11-11T17:32:02.793268+00:00"
+    },
+    {
+      "title": "El Nino Sets Record Strength Since 1950 Threatening Monsoon and Causing Droughts",
+      "urls": [
+        "https://www.techbone.de/xbox/series-s-x/ausschalten",
+        "https://www.livemint.com/news/strongest-el-nino-since-1950-is-on-the-way-what-will-be-its-impact-on-indian-monsoon-11785925372159.html"
+      ],
+      "date": "2026-11-11T18:01:51.565446+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T17:32:02.793324+00:00"
+  "lastUpdated": "2026-11-11T18:01:51.565515+00:00"
 }
