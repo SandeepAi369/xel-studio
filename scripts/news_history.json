@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf Tech 2026 Report Highlights Eleven Companies Transforming Hearing Accessibility",
-      "urls": [
-        "https://verbit.ai/blog/accessibility-hub/web-accessibility-for-people-with-hearing-loss-a-comprehensive-guide",
-        "https://enableall.com/blog/the-deaf-tech-stack-11-companies-changing-what-accessibility-looks-like-in-2026",
-        "https://en.wikipedia.org/wiki/Deafness",
-        "https://www.merriam-webster.com/dictionary/deaf"
-      ],
-      "date": "2026-11-01T09:31:29.292565+00:00"
-    },
-    {
       "title": "Microsoft Unveils Homegrown AI Models, Always‑On Agent and Project Solara at Build 2026",
       "urls": [
         "https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1",
@@ -5219,7 +5209,17 @@
         "https://openai.com/index/chatgpt"
       ],
       "date": "2026-11-11T09:01:59.387047+00:00"
+    },
+    {
+      "title": "Bing Adds Full Related Search List via SERP Blocks to Boost Query Exploration",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Accessibility_of_transport_in_London",
+        "https://techdows.com/how-to-see-all-bing-related-searches.html",
+        "https://en.wikipedia.org/wiki/Windows_2000",
+        "https://www.disabilityin.org/articles-and-updates/november-digital-accessibility-roundup"
+      ],
+      "date": "2026-11-11T09:31:35.557314+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T09:01:59.387128+00:00"
+  "lastUpdated": "2026-11-11T09:31:35.557373+00:00"
 }
