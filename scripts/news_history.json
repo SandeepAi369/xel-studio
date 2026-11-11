@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Faces New AI Safety Bill After Claude Bypass Sparks Blackmail Concerns",
-      "urls": [
-        "https://www.anthropic.com/news",
-        "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks",
-        "https://www.anthropic.com",
-        "https://letsdatascience.com/news/topic/anthropic",
-        "https://support.claude.com/en/articles/12138966-release-notes",
-        "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
-        "https://www.latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies",
-        "https://www.anthropic.com/research",
-        "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-        "https://www.anthropic.com/transparency"
-      ],
-      "date": "2026-11-01T06:02:00.700351+00:00"
-    },
-    {
-      "title": "India Boosts Renewable Energy Capacity to 34.6 GW Solar and Ranks Fourth in Wind",
-      "urls": [
-        "https://drishtiias.com/daily-updates/daily-news-editorials/indias-transition-to-a-clean-energy-future",
-        "https://energy.economictimes.indiatimes.com/news/renewable/india-achieves-historic-346-gw-non-fossil-fuel-capacity-growth-in-fy26/127765152",
-        "https://en.wikipedia.org/wiki/Reliance_Industries"
-      ],
-      "date": "2026-11-01T06:31:36.451477+00:00"
-    },
-    {
       "title": "Jaishankar Calls for Diplomacy Over Military Solutions at G20 Foreign Ministers Meeting",
       "urls": [
         "https://www.news18.com/india/ahead-of-g20-summit-us-ambassador-gor-teases-exciting-outcomes-from-india-us-talks-10406937.html",
@@ -5236,7 +5211,20 @@
         "https://ja.wikipedia.org/wiki/Anthropic"
       ],
       "date": "2026-11-11T06:01:53.228608+00:00"
+    },
+    {
+      "title": "Rangers Central To New Biodiversity Commitments Amid Funding And Safety Gaps",
+      "urls": [
+        "https://www.goodgoodgood.co/articles/good-news-this-week-november-7-2026",
+        "https://www.theguardian.com/environment/wildlife",
+        "https://news.mongabay.com/2026/11/rangers-role-must-be-built-into-biodiversity-conservation-commitments-commentary",
+        "https://wwf.panda.org/wwf_news",
+        "https://wildlife.org/news",
+        "https://news.mongabay.com",
+        "https://www.conservation.org/news"
+      ],
+      "date": "2026-11-11T06:31:38.706119+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T06:01:53.228654+00:00"
+  "lastUpdated": "2026-11-11T06:31:38.706282+00:00"
 }
