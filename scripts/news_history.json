@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "PBS News Provides Live ASL Interpretation for 2026 Election Night Coverage",
-      "urls": [
-        "https://www.pbs.org/newshour/politics/watch-live-election-night-2026-pbs-news-special-coverage",
-        "https://www.nbcnews.com/politics/2026-elections/midterms",
-        "https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back",
-        "https://www.270towin.com/news",
-        "https://greeleyco.gov/city-clerk/elections",
-        "https://www.olmstedcounty.gov/residents/elections-and-voting"
-      ],
-      "date": "2026-11-01T16:01:39.977179+00:00"
-    },
-    {
       "title": "India's Women Athletes Lead Asian Games Gold Rush with Five of Six Victories",
       "urls": [
         "https://www.cnbctv18.com/webstories/sports/womens-day-2026-these-indian-sportswomen-have-made-india-proud-22911.htm",
@@ -5208,7 +5196,18 @@
         "https://en.wikipedia.org/wiki/2025_in_science"
       ],
       "date": "2026-11-11T15:31:46.573409+00:00"
+    },
+    {
+      "title": "Kentucky, Rhode Island, and Indiana Enact Comprehensive Privacy Laws in 2026",
+      "urls": [
+        "https://secureprivacy.ai/blog/privacy-laws-2026",
+        "https://en.wikipedia.org/wiki/Digital_privacy",
+        "https://cdslegal.com/insights/global-data-privacy-laws-in-2026-mid-year-update",
+        "https://www.informationgovernanceservices.com/news/data-protection-news-update-02-november-2026",
+        "https://www.edpb.europa.eu/news_en"
+      ],
+      "date": "2026-11-11T16:02:00.101529+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T15:31:46.573494+00:00"
+  "lastUpdated": "2026-11-11T16:02:00.101607+00:00"
 }
