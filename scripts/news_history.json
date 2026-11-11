@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "American Psychological Association Says AI Wellness Apps Cannot Alone Solve Mental Health Crisis",
-      "urls": [
-        "https://thewmhi.com/news/recent-news-on-mental-health",
-        "https://www.apa.org/news/press/releases/2025/11/ai-wellness-apps-mental-health",
-        "https://www.hindustantimes.com/ht-insight/public-health/the-digital-revolution-in-mental-wellness-101696916402746.html",
-        "https://www.sidley.com/en/insights/newsupdates/2025/11/us-fda-and-cms-actions-on-generative-ai-enabled-mental-health-devices-yield-insights-across-ai",
-        "https://www.hindustantimes.com/technology/mental-wellness-tech-reviewing-the-most-effective-ai-companions-of-2025-101751371814485.html",
-        "https://brainwavepost.com/article/digital-mental-health-technologies-standards-2026",
-        "https://en.wikipedia.org/wiki/The_Anxious_Generation"
-      ],
-      "date": "2026-11-01T15:01:58.101631+00:00"
-    },
-    {
       "title": "OpenAI Releases GPT-6.1 Model and Previews Next‑Generation GPT-5.6 With New Safety Safeguards",
       "urls": [
         "https://en.wikipedia.org/wiki/GPT-6.1",
@@ -5209,7 +5196,16 @@
         "https://www.zdnet.com/article/the-5-best-linux-alternatives-to-windows-in-2026-that-arent-mint"
       ],
       "date": "2026-11-11T14:32:10.683079+00:00"
+    },
+    {
+      "title": "India Reaffirms Commitment to Regional Health Cooperation at First BIMSTEC Ministers’ Meeting",
+      "urls": [
+        "https://tribuneindia.com/news/ayushman-bharat-scheme/india-reaffirms-commitment-to-stronger-regional-health-cooperation-at-first-bimstec-health-ministers-meeting",
+        "https://www.ndtv.com/health/family-health/ayushman-bharat-data-could-transform-indias-healthcare-says-niti-aayog-member-12246968",
+        "https://www.digitalhealthnews.com/category/nha-news"
+      ],
+      "date": "2026-11-11T15:02:34.485713+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T14:32:10.683183+00:00"
+  "lastUpdated": "2026-11-11T15:02:34.485772+00:00"
 }
