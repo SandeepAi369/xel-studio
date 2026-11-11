@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Pay Launches in India Targeting Credit Card Users Amid UPI Dominance",
-      "urls": [
-        "https://digitalinasia.com/india-digital-payments-revolution-2026",
-        "https://www.techrepublic.com/article/news-apple-pay-india-axis-bank-upi-apac",
-        "https://en.wikipedia.org/wiki/National_Common_Mobility_Card",
-        "https://www.upi.com",
-        "https://en.m.wikipedia.org/wiki/Unified_Payments_Interface",
-        "https://www.cnbctv18.com/personal-finance/gff-2026-upi-payment-passkey-authentication-ai-banking-cards-key-launches-19989447.htm",
-        "https://en.wikipedia.org/wiki/Paytm",
-        "https://www.techtimes.com/articles/327058/20260909/india-declares-upi-its-export-32-million-nris-3-remittance-fees-one-fix.htm",
-        "https://www.hindustantimes.com/ht-insight/economy/upis-next-chapter-is-about-making-scale-sustainable-101791701567744.html"
-      ],
-      "date": "2026-11-01T19:31:35.544025+00:00"
-    },
-    {
       "title": "Supreme Court Holds Banks Liable for Digital Arrest Fraud Losses",
       "urls": [
         "https://www.hindustantimes.com/india-news/supreme-court-registers-suo-motu-contempt-case-over-kerala-congress-derogatory-post-against-cji-surya-kant-101793454470951.html",
@@ -5208,7 +5193,17 @@
         "https://newsable.asianetnews.com/india/aiims-population-counter-goes-viral-as-india-inches-towards-1-5-billion-read-on-articleshow-693sc62"
       ],
       "date": "2026-11-11T19:02:00.924198+00:00"
+    },
+    {
+      "title": "Cloudflare Launches Workers, Expanding Edge Computing Services",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Cloudflare",
+        "https://www.forbes.com/sites/chuckbrooks/2026/10/08/infinite-computing-when-ai-and-quantum-computing-become-one",
+        "https://www.moneycontrol.com/technology/intel-at-computex-2026-from-new-xeon-6-to-rackscale-ai-infrastructure-everything-intel-announced-article-13938645.html",
+        "https://stockanalysis.com/stocks/amzn"
+      ],
+      "date": "2026-11-11T19:32:12.128285+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T19:02:00.924255+00:00"
+  "lastUpdated": "2026-11-11T19:32:12.128356+00:00"
 }
