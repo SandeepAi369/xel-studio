@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alibaba Elevates Eddie Wu to Full Control to Accelerate AI Dominance Strategy",
-      "urls": [
-        "https://techcrunch.com",
-        "https://en.wikipedia.org/wiki/Qwen",
-        "https://www.boardroomalpha.com/executive-moves",
-        "https://en.wikipedia.org/wiki/2026_Los_Angeles_mayoral_election",
-        "https://www.pcmag.com/news"
-      ],
-      "date": "2026-11-01T20:31:36.676703+00:00"
-    },
-    {
       "title": "India Faces Medal Shortfall in Badminton, Wrestling and Hockey at Commonwealth Games",
       "urls": [
         "https://olympics.com/en/news/indian-athletes-qualified-asian-games-2026-aichi-nagoya",
@@ -5207,7 +5196,22 @@
         "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
       ],
       "date": "2026-11-11T20:01:51.581453+00:00"
+    },
+    {
+      "title": "BCCI Announces India A Squad for ACC Rising Stars Asia Cup",
+      "urls": [
+        "https://www.bcci.tv/news/article/india-a-squad-for-acc-rising-stars-asia-cup-announced",
+        "https://www.bcci.tv/news",
+        "https://www.cricinfo.com/team/india-6",
+        "https://www.bcci.tv/latest-news",
+        "https://sports.ndtv.com/new-zealand-vs-india-2026-27/india-add-pacer-auqib-nabi-in-squad-for-first-three-odis-against-new-zealand-12262100",
+        "https://www.bcci.tv",
+        "https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced",
+        "https://sports.ndtv.com/cricket/teams/6-india-teamprofile/news",
+        "https://en.wikipedia.org/wiki/India_at_the_2026_Asian_Games"
+      ],
+      "date": "2026-11-11T21:01:57.446178+00:00"
     }
   ],
-  "lastUpdated": "2026-11-11T20:01:51.581522+00:00"
+  "lastUpdated": "2026-11-11T21:01:57.446241+00:00"
 }
