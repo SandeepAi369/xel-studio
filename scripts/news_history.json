@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "EU Parliament Advances AI Regulation Framework Targeting High‑Risk Systems By 2026",
-      "urls": [
-        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy",
-        "https://worldairegulation.org/news/global-ai-regulation-in-2026-key-laws-and-policies-reshaping-the-ai-landscape",
-        "https://www.themodernblog.com/ai-regulation-news"
-      ],
-      "date": "2026-11-02T19:31:44.059648+00:00"
-    },
-    {
       "title": "India's RBI Raises Repo Rate to 5.50 Percent Amid Calibrated Tightening",
       "urls": [
         "https://bloomberg.com/news/articles/2026-10-11/india-s-rupee-defense-raises-question-of-how-far-rbi-will-go",
@@ -5168,7 +5159,20 @@
         "https://www.americantelemed.org/news"
       ],
       "date": "2026-11-12T19:02:17.559700+00:00"
+    },
+    {
+      "title": "Rajan Anandan Declares Clear Winner for India's AI Race Amid Industry Optimism",
+      "urls": [
+        "https://indiaai.gov.in",
+        "https://timesofindia.indiatimes.com/technology/aiq/beyond-the-hype-how-india-is-building-its-own-ai-future-in-2026/articleshow/135763908.cms",
+        "https://ndtvprofit.com/technology/who-will-win-indias-ai-race-peak-xvs-rajan-anandan-has-a-clear-answer-12319235",
+        "https://pib.gov.in/PressReleasePage.aspx?PRID=2108810",
+        "https://timesofindia.indiatimes.com/business/india-business/is-ai-putting-indian-it-jobs-at-risk-what-moodys-says-about-the-future-of-work/articleshow/135766484.cms",
+        "https://business-standard.com/amp/economy/news/india-should-join-ai-play-not-ride-anti-ai-wave-citi-s-raghavan-126111101599_1.html",
+        "https://business-standard.com/amp/technology/artificial-intelligence/india-not-a-refuge-but-compelling-ai-opportunity-anand-mahindra-126111000734_1.html"
+      ],
+      "date": "2026-11-12T19:32:31.913881+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T19:02:17.559778+00:00"
+  "lastUpdated": "2026-11-12T19:32:31.913946+00:00"
 }
