@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Standardizes AI Development on PyTorch to Streamline Model Creation",
-      "urls": [
-        "https://dev.to/practicaldevblog/pytorch-explained-machine-learning-you-can-watch-learn-obp",
-        "https://futurumresearch.com/pytorch-tensorflow-deep-learning-dominance-may-be-waning",
-        "https://en.wikipedia.org/wiki/Machine_learning",
-        "https://heytensor.com/research/ml-framework-comparison-2026.html",
-        "https://bkpilates.com/pilates-core-exercises",
-        "https://www.gmx.net"
-      ],
-      "date": "2026-11-02T23:01:46.477117+00:00"
-    },
-    {
       "title": "Apple Introduces M6‑Powered MacBook Pro and iMac Ahead of Holiday Season",
       "urls": [
         "https://zhidao.baidu.com/question/1510394464856340100.html",
@@ -5181,7 +5169,16 @@
         "https://economictimes.indiatimes.com/news/environment/global-warming"
       ],
       "date": "2026-11-12T22:31:59.836923+00:00"
+    },
+    {
+      "title": "Mahindra Integrates BharatGPT Platform Through CoRover.ai Partnership to Boost Indian AI Services",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_arms_race",
+        "https://www.zeebiz.com/companies/news-tech-mahindra-partners-coroverai-to-expand-bharatgpt-sovereign-ai-globally-402730"
+      ],
+      "date": "2026-11-12T23:02:00.923761+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T22:31:59.837018+00:00"
+  "lastUpdated": "2026-11-12T23:02:00.923835+00:00"
 }
