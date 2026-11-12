@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Gemini Unveils Gemini 4 Carbon and Genie 4, Accelerating AI Software Creation",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Gemini_(language_model)",
-        "https://gemini.google/latest-news",
-        "https://chromeunboxed.com/googles-gemini-4-carbon-and-genie-4-just-changed-how-ai-builds-software-and-worlds"
-      ],
-      "date": "2026-11-02T06:01:57.367990+00:00"
-    },
-    {
       "title": "Climate Fingerprints Study Strengthens Evidence of Human-Caused Global Warming Worldwide",
       "urls": [
         "https://phys.org/news/2026-10-climate-fingerprints-reveal-stronger-evidence.html",
@@ -5178,7 +5169,18 @@
         "https://login.yahoo.com"
       ],
       "date": "2026-11-12T05:31:49.973779+00:00"
+    },
+    {
+      "title": "Google DeepMind Deploys Gemini Agentic System to Verify Signal Protocol Security",
+      "urls": [
+        "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+        "https://deepmind.google/blog/introducing-alphaproof-code",
+        "https://en.wikipedia.org/wiki/Google_AI",
+        "https://en.wikipedia.org/wiki/Google_Antigravity"
+      ],
+      "date": "2026-11-12T06:02:08.827228+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T05:31:49.973849+00:00"
+  "lastUpdated": "2026-11-12T06:02:08.827307+00:00"
 }
