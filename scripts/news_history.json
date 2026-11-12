@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Louisiana Scholastic Esports Federation Launches Expanded Fall 2026 Season and Student Internships",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_esports_leagues_and_tournaments",
-        "https://www.esports.net/news",
-        "https://en.wikipedia.org/wiki/League_Championship_Series_%28esports%29",
-        "https://www.streetinsider.com/Press+Releases/Louisiana+Scholastic+Esports+Federation+Announces+2026+Fall+Season%2C+State+Championship%2C+and+Student+Internship+Expansion/27049891.html",
-        "https://www.thegamingdiary.com/ongoing-esports-tournaments-schedule-prize-pools-november-2026",
-        "https://esports.gg",
-        "https://www.forbes.com/sites/johnarcher/2026/09/21/lg-display-launches-first-oled-screen-targeted-at-esports"
-      ],
-      "date": "2026-11-02T04:31:36.202235+00:00"
-    },
-    {
       "title": "Impact includes faster hypothesis testing for scientists, broader public access to DNA information, and a potential shift toward open‑source bio‑informatics",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Hugging_face",
@@ -5194,7 +5181,14 @@
         "https://www.foxnews.com/sports/world-cup-messi-bellingham-haaland-usa-cape-verde"
       ],
       "date": "2026-11-12T04:31:33.390258+00:00"
+    },
+    {
+      "title": "PyTorch Showcases Open-Source Advances and Awards at North America Conference",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together"
+      ],
+      "date": "2026-11-12T05:02:08.297224+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T04:31:33.390316+00:00"
+  "lastUpdated": "2026-11-12T05:02:08.297310+00:00"
 }
