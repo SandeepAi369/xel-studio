@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Impact includes faster hypothesis testing for scientists, broader public access to DNA information, and a potential shift toward open‑source bio‑informatics",
-      "urls": [
-        "https://en.m.wikipedia.org/wiki/Hugging_face",
-        "https://huggingface.co/blog",
-        "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
-        "https://huggingface.co/papers",
-        "https://builtin.com/articles/what-is-hugging-face"
-      ],
-      "date": "2026-11-02T05:02:18.266582+00:00"
-    },
-    {
-      "title": "Delaware Launches Alert Device Program to Protect Deaf and Hard‑of‑Hearing Residents",
-      "urls": [
-        "https://news.delaware.gov/2026/09/28/delaware-launches-life-saving-alert-device-program-for-deaf-hard-of-hearing-communities",
-        "https://www.accessibility.com/blog/accessibility-trends-to-watch-in-2026"
-      ],
-      "date": "2026-11-02T05:31:34.030765+00:00"
-    },
-    {
       "title": "Google Gemini Unveils Gemini 4 Carbon and Genie 4, Accelerating AI Software Creation",
       "urls": [
         "https://en.wikipedia.org/wiki/Gemini_(language_model)",
@@ -5188,7 +5169,16 @@
         "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together"
       ],
       "date": "2026-11-12T05:02:08.297224+00:00"
+    },
+    {
+      "title": "U.S. Department of Defense Publishes Marine Wearable Technology Report Detailing Future Gear",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Wearable_technology",
+        "https://uk.yahoo.com",
+        "https://login.yahoo.com"
+      ],
+      "date": "2026-11-12T05:31:49.973779+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T05:02:08.297310+00:00"
+  "lastUpdated": "2026-11-12T05:31:49.973849+00:00"
 }
