@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Shows Long‑Term Stock Growth in New Interactive Chart Since 1986",
-      "urls": [
-        "https://www.risingtrends.co/trends/gaming-trends-2026",
-        "https://wallstreetnumbers.com/stocks/msft/price",
-        "https://www.gaming.net/de",
-        "https://news.supwil.com/en/news/gaming/2026-11-01"
-      ],
-      "date": "2026-11-02T17:01:59.394752+00:00"
-    },
-    {
       "title": "Microsoft Windows Enhances Display Clarity With Adjustable Resolution, Scale, and Layout Settings",
       "urls": [
         "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026",
@@ -5171,7 +5161,14 @@
         "https://www.cricinfo.com/series/ipl-2026-1510719"
       ],
       "date": "2026-11-12T16:32:08.762051+00:00"
+    },
+    {
+      "title": "Apple Expands Media Access Through Official Newsroom Platform Offering Press Releases, Videos, Images",
+      "urls": [
+        "https://www.apple.com/newsroom"
+      ],
+      "date": "2026-11-12T17:02:03.702887+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T16:32:08.762131+00:00"
+  "lastUpdated": "2026-11-12T17:02:03.702949+00:00"
 }
