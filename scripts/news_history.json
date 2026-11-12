@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Survey Shows Half Want AI Development Pause Amid Growing Safety Concerns",
-      "urls": [
-        "https://aigovernance.com/news",
-        "https://reason.com/2026/09/24/half-the-public-wants-to-pause-ai-would-regulation-actually-make-it-safer",
-        "https://axis-intelligence.com/ai-regulation-tracker",
-        "https://presenc.ai/research/ai-policy-regulation-tracker-2026"
-      ],
-      "date": "2026-11-02T22:02:00.646572+00:00"
-    },
-    {
-      "title": "Scientists Confirm Global Warming Accelerates Faster Than Ever Recorded in New Study",
-      "urls": [
-        "https://www.sciencedaily.com/releases/2026/10/261027231200.htm",
-        "https://www.sciencedaily.com/news/earth_climate/global_warming",
-        "https://sciencedaily.com/news/earth_climate",
-        "https://www.nature.com/subjects/climate-change",
-        "https://techtimes.com/articles/329109/20261016/warming-rate-doubled-since-2010-seven-climate-records-broken-2026-state-climate-report.htm",
-        "https://science.nasa.gov/climate-change",
-        "https://en.wikipedia.org/wiki/Climate"
-      ],
-      "date": "2026-11-02T22:31:32.036587+00:00"
-    },
-    {
       "title": "OpenAI Standardizes AI Development on PyTorch to Streamline Model Creation",
       "urls": [
         "https://dev.to/practicaldevblog/pytorch-explained-machine-learning-you-can-watch-learn-obp",
@@ -5195,7 +5172,16 @@
         "https://thenewstack.io/meta-muse-specialized-models"
       ],
       "date": "2026-11-12T22:01:54.545089+00:00"
+    },
+    {
+      "title": "Bilal and Känzig Update Climate Change Impacts With New Regional Risk Analysis",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Effects_of_climate_change",
+        "https://www.merriam-webster.com/dictionary/vindicate",
+        "https://economictimes.indiatimes.com/news/environment/global-warming"
+      ],
+      "date": "2026-11-12T22:31:59.836923+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T22:01:54.545156+00:00"
+  "lastUpdated": "2026-11-12T22:31:59.837018+00:00"
 }
