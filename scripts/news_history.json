@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Open‑Sources TorchTPU to Enable One‑Line PyTorch Migration to TPUs",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Python_%28programming_language%29",
-        "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
-        "https://techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm"
-      ],
-      "date": "2026-11-02T02:01:54.390685+00:00"
-    },
-    {
       "title": "CDC PCD Publishes Research Advancing Chronic Disease Prevention and Policy",
       "urls": [
         "https://www.cdc.gov/index.html",
@@ -5183,7 +5174,19 @@
         "https://en.wikipedia.org/wiki/Solar_panel"
       ],
       "date": "2026-11-12T01:31:46.416192+00:00"
+    },
+    {
+      "title": "Google Invests $15 Billion in Indian Data Centre Amid Water and Wildlife Concerns",
+      "urls": [
+        "https://economictimes.indiatimes.com/tech/information-tech/corover-ai-tech-mahindra-partner-on-india-origin-ai/articleshow/134414036.cms",
+        "https://ground.news/article/india-seeks-inclusive-global-order-based-on-humanity-pm-modi_ac0cf4",
+        "https://ground.news/article/anita-anand-visits-india-uae-for-trade-and-security-talks_032eaa",
+        "https://ground.news/article/indian-embassy-presses-venezuela-for-probe-after-family-alleges-missing-organs-in-deceased-seafarers-body",
+        "https://ground.news/article/googles-15-billion-india-data-centre-project-battles-water-wildlife-concerns",
+        "https://analyticsindiamag.com/ai-news-updates/dst-announces-new-hub-with-bharatgpt-for-building-llms-in-indian-languages"
+      ],
+      "date": "2026-11-12T02:02:03.986658+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T01:31:46.416252+00:00"
+  "lastUpdated": "2026-11-12T02:02:03.986727+00:00"
 }
