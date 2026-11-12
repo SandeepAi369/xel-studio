@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Expands Global Enterprise Adoption With Over 400,000 Organizations Using AI2 Platform",
-      "urls": [
-        "https://huggingface.co",
-        "https://huggingface.co/huggingface",
-        "https://baike.baidu.com/item/Hugging%20Face/65708376",
-        "https://zhuanlan.zhihu.com/p/535100411",
-        "https://forums.commentcamarche.net/forum/affich-18216108-mettre-sa-creation-audio-mp3-sur-facebook"
-      ],
-      "date": "2026-11-02T10:02:21.125343+00:00"
-    },
-    {
       "title": "India Faces Warmer, Drier November Across Nation as El Niño Strengthens",
       "urls": [
         "https://www.newindianexpress.com/india/2026/Oct/31/imd-predicts-warmer-and-drier-november-across-india-weaker-north-east-monsoon",
@@ -5183,7 +5172,18 @@
         "https://indianewengland.com/india-based-founders-building-ai-for-global-customers-microsoft-executive-says"
       ],
       "date": "2026-11-12T10:01:56.185051+00:00"
+    },
+    {
+      "title": "Nvidia Claims AI Can Mitigate Climate Impact Amid Rising Supply Chain Emissions",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-10/global-carbon-emissions-set-to-dip-in-2026-after-iran-war-oil-surge",
+        "https://www.premierleague.com/en/news/261976",
+        "https://www.nytimes.com/2026/09/23/climate/nvidia-ai-climate-change-sustainability-data-centers.html",
+        "https://en.wikipedia.org/wiki/Climate_change_in_Turkey",
+        "https://yaleclimateconnections.org/2026/11/12-free-reports-about-climate-change-for-cop31"
+      ],
+      "date": "2026-11-12T10:31:37.073186+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T10:01:56.185104+00:00"
+  "lastUpdated": "2026-11-12T10:31:37.073239+00:00"
 }
