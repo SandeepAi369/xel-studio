@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Faces Warmer, Drier November Across Nation as El Niño Strengthens",
-      "urls": [
-        "https://www.newindianexpress.com/india/2026/Oct/31/imd-predicts-warmer-and-drier-november-across-india-weaker-north-east-monsoon",
-        "https://www.techtimes.com/articles/328334/20260930/india-monsoon-2026-ends-worst-deficit-over-decade-imd-confirms.htm",
-        "https://indiatoday.in/science/story/india-weather-october-december-rainfall-forecast-2026-el-nino-3006733-2026-09-30",
-        "https://www.theunitedindian.com/news/godzilla-el-nino-2026-india-impact-noaa-83-percent",
-        "https://news.abplive.com/news/india/imd-cuts-monsoon-forecast-2026-to-90-average-warns-el-nio-may-trigger-heatwaves-rainfall-deficit-1846885",
-        "https://www.ndtv.com/india-news/super-el-nino-on-the-horizon-will-it-crush-indias-2026-monsoon-or-spare-it-once-again-11522587",
-        "https://mausam.imd.gov.in/responsive/monsooninformation.php"
-      ],
-      "date": "2026-11-02T10:31:57.291662+00:00"
-    },
-    {
-      "title": "Drugs.com Expands Database Covering Over 24,000 Medications for Public Use",
-      "urls": [
-        "https://healthcarediscovery.ai/ai-designed-drugs-human-trials-2026-status-report",
-        "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials",
-        "https://www.drugs.com/drug_information.html"
-      ],
-      "date": "2026-11-02T11:01:45.798430+00:00"
-    },
-    {
       "title": "Meta AI Launches Llama 3.1 as Its Most Capable Language Model Yet",
       "urls": [
         "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
@@ -5183,7 +5161,17 @@
         "https://yaleclimateconnections.org/2026/11/12-free-reports-about-climate-change-for-cop31"
       ],
       "date": "2026-11-12T10:31:37.073186+00:00"
+    },
+    {
+      "title": "WHO Accelerates Mercury Device Phase‑Out in Indian Health Facilities",
+      "urls": [
+        "https://www.cdc.gov/index.html",
+        "https://www.who.int/india/news-room",
+        "https://www.who.int/countries/ind",
+        "https://www.who.int/india"
+      ],
+      "date": "2026-11-12T11:02:05.488398+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T10:31:37.073239+00:00"
+  "lastUpdated": "2026-11-12T11:02:05.488469+00:00"
 }
