@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "CDC PCD Publishes Research Advancing Chronic Disease Prevention and Policy",
-      "urls": [
-        "https://www.cdc.gov/index.html",
-        "https://www.who.int/india",
-        "https://healthandfamily.in/india-bolsters-public-health-infrastructure-high-immunization-coverage-and-massive-hpv-campaign-signal-new-era-in-pandemic-preparedness"
-      ],
-      "date": "2026-11-02T02:31:41.883853+00:00"
-    },
-    {
       "title": "Donald Trump – Former president Trump publicly threatened to",
       "urls": [
         "https://www.wto.org/english/news_e/news26_e/news26_e.htm",
@@ -5194,7 +5185,18 @@
         "https://www.aiims.edu?lang=en"
       ],
       "date": "2026-11-12T02:31:35.239615+00:00"
+    },
+    {
+      "title": "RBI Raises Repo Rate by 25 Basis Points Amid Inflation Near Six Percent Ceiling",
+      "urls": [
+        "https://timesofindia.indiatimes.com/business/india-business/rbi-mpc-meeting-october-2026-live-updates-governor-sanjay-malhotra-repo-rate-cut-fd-rate-monetary-policy-committee-emi-west-asia-crisis-rbi-news-today/liveblog/134753997.cms",
+        "https://livemint.com/news/retail-inflation-likely-hit-a-two-year-high-of-6-in-october-mint-poll-11794382308555.html",
+        "https://www.rbi.org.in?m=1",
+        "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+        "https://www.rbi.org.in/scripts/Annualpolicy.aspx"
+      ],
+      "date": "2026-11-12T03:01:47.617628+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T02:31:35.239662+00:00"
+  "lastUpdated": "2026-11-12T03:01:47.617664+00:00"
 }
