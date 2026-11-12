@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India’s 2026 Monsoon Faces Record Shortfall as El Niño Strengthens Across Country",
-      "urls": [
-        "https://www.ndtv.com/india-news/indias-2026-monsoon-journey-a-decades-lowest-rainfall-drought-concerns-and-a-strengthening-el-nino-12128155",
-        "https://www.newsx.com/india/when-will-monsoon-start-in-delhi-2026-imd-rain-forecast-expected-weather-date-227646",
-        "https://www.etvbharat.com/en/opinion/el-nino-indias-deficient-2026-monsoon-and-risks-ahead-climate-change-winter-rainfall-humidity-enn26101605007",
-        "https://www.livemint.com/news/india/drought-in-delhi-floods-in-chennai-how-super-el-nino-could-impact-india-2026-monsoon-which-cities-will-be-hit-hardest-11778990058786.html",
-        "https://www.livemint.com/industry/agriculture/monsoon-2026-india-rainfall-crop-sowing-el-nino-impact-weather-11785308818848.html",
-        "https://en.wikipedia.org/wiki/2026_Pacific_hurricane_season",
-        "https://mausam.imd.gov.in/index_en.php"
-      ],
-      "date": "2026-11-02T18:03:59.459941+00:00"
-    },
-    {
       "title": "LLM Updates Tracks 462 New Models From 67 Providers in November 2026",
       "urls": [
         "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
@@ -5179,7 +5166,15 @@
         "https://en.wikipedia.org/wiki/Carbon_footprint"
       ],
       "date": "2026-11-12T18:02:11.723225+00:00"
+    },
+    {
+      "title": "PyTorch Advances Open Source AI Stack at China Conference Hosted by Huawei",
+      "urls": [
+        "https://pytorch.org/blog/pytorch-conference-china-2026-advancing-the-open-source-ai-stack",
+        "https://pytorch.org/announcements"
+      ],
+      "date": "2026-11-12T18:31:46.599108+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T18:02:11.723284+00:00"
+  "lastUpdated": "2026-11-12T18:31:46.599191+00:00"
 }
