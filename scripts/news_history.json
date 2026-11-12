@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta AI Launches Llama 3.1 as Its Most Capable Language Model Yet",
-      "urls": [
-        "https://explainx.ai/blog/meta-llama-4-open-source-models-guide-2026",
-        "https://www.meta.ai",
-        "https://axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
-        "https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3",
-        "https://ai.meta.com/blog/meta-llama-3-1"
-      ],
-      "date": "2026-11-02T11:31:33.846666+00:00"
-    },
-    {
       "title": "Foreign Affairs Portal Expands Access to Government Officials' Latest News and Media",
       "urls": [
         "https://www.thehindu.com/news/national/external-affairs-minister-jaishankar-g20-foreign-ministers-meet-in-atlanta/article71643686.ece",
@@ -5171,7 +5160,17 @@
         "https://www.who.int/india"
       ],
       "date": "2026-11-12T11:02:05.488398+00:00"
+    },
+    {
+      "title": "Beacon Filing Highlights Bengaluru Dominance in India Startup Funding and Average Series A Sizes",
+      "urls": [
+        "https://beststartup.in/india-startup-funding-november-2026",
+        "https://indianstartupnews.com/funding/indian-startups-raised-over-290-million-from-november-2-to-november-7-2026-giva-tops-the-list-12798052",
+        "https://www.financialexpress.com/business/start-ups/7-indian-companies-achieved-the-status-of-unicorn-in-2026/4376462",
+        "https://beaconfiling.com/blog/india-startup-ecosystem-unicorns-funding"
+      ],
+      "date": "2026-11-12T11:31:35.207498+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T11:02:05.488469+00:00"
+  "lastUpdated": "2026-11-12T11:31:35.207576+00:00"
 }
