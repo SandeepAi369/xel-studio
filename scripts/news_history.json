@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Rising Fuel Costs Drive Electric Vehicle Adoption Amid Infrastructure Challenges",
-      "urls": [
-        "https://bbc.com/news/articles/cx21181yq4no",
-        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc202685944701.pdf",
-        "https://en.wikipedia.org/wiki/Electric_vehicle",
-        "https://www.india.gov.in/explore-india",
-        "https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_China"
-      ],
-      "date": "2026-11-02T01:31:32.607276+00:00"
-    },
-    {
       "title": "Google Open‑Sources TorchTPU to Enable One‑Line PyTorch Migration to TPUs",
       "urls": [
         "https://en.wikipedia.org/wiki/Python_%28programming_language%29",
@@ -5185,7 +5174,16 @@
         "https://en.wikipedia.org/wiki/AOL"
       ],
       "date": "2026-11-12T01:01:47.033102+00:00"
+    },
+    {
+      "title": "PM Modi Unveils Three Solar Guides to Boost India's Clean‑Energy Transition",
+      "urls": [
+        "https://www.nationpress.com/national/modi-releases-3-solar-docs-at-re-summit",
+        "https://en.wikipedia.org/wiki/Solar_energy",
+        "https://en.wikipedia.org/wiki/Solar_panel"
+      ],
+      "date": "2026-11-12T01:31:46.416192+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T01:01:47.033162+00:00"
+  "lastUpdated": "2026-11-12T01:31:46.416252+00:00"
 }
