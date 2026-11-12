@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Launches Starlink 15-15 Mission After Three Scrubs to Expand Satellite Network",
-      "urls": [
-        "https://www.nasa.gov/mission/nasas-spacex-crew-13",
-        "https://en.as.com/latest_news/upcoming-spacex-launches-in-november-2026-dates-times-and-how-to-watch-from-home-f202611-n",
-        "https://shattered.io/spacex-november-2026-launches-falcon-9-dates-starship-flight-15-how-to-watch-2026",
-        "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-        "https://spaceflightnow.com/2026/10/20/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5"
-      ],
-      "date": "2026-11-02T13:02:04.548396+00:00"
-    },
-    {
       "title": "Yosemite National Park Maintains Entrance Fee and Urges Early Reservations for 2026 Visitors",
       "urls": [
         "https://www.nps.gov/yose/index.htm",
@@ -5189,7 +5178,17 @@
         "https://www.bloomberg.com/crypto"
       ],
       "date": "2026-11-12T13:01:54.407913+00:00"
+    },
+    {
+      "title": "Microsoft Offers Seven-Command Guide to Repair Windows 10 Issues for Home Users",
+      "urls": [
+        "https://support.microsoft.com/de-de/windows",
+        "https://en.wikipedia.org/wiki/Microsoft",
+        "https://www.afb.org/research-and-initiatives/ai-series/innovation-access",
+        "https://www.heise.de/tipps-tricks/Windows-10-reparieren-so-geht-s-4208457.html"
+      ],
+      "date": "2026-11-12T13:31:42.273919+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T13:01:54.407976+00:00"
+  "lastUpdated": "2026-11-12T13:31:42.273998+00:00"
 }
