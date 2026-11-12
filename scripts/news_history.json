@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEM Beijing Showcases New CS2 Legends Against Veteran Heavy Hitters",
-      "urls": [
-        "https://esports.gg/news/what-is-esports",
-        "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
-        "https://en.wikipedia.org/wiki/Complexity_Gaming",
-        "https://esports.gg/news"
-      ],
-      "date": "2026-11-02T12:32:08.271123+00:00"
-    },
-    {
       "title": "SpaceX Launches Starlink 15-15 Mission After Three Scrubs to Expand Satellite Network",
       "urls": [
         "https://www.nasa.gov/mission/nasas-spacex-crew-13",
@@ -5187,7 +5177,19 @@
         "https://www.bbc.com/sport/football/indian-super-league/table"
       ],
       "date": "2026-11-12T12:31:49.550261+00:00"
+    },
+    {
+      "title": "CryptoJS Flaw Exposes Wallets, Triggers $5.7 Million Theft Across Five Apps",
+      "urls": [
+        "https://coinmarketcap.com",
+        "https://www.timesofblockchain.com",
+        "https://www.cryptobreaking.com",
+        "https://www.coingecko.com",
+        "https://thehackernews.com/search/label/Blockchain",
+        "https://www.bloomberg.com/crypto"
+      ],
+      "date": "2026-11-12T13:01:54.407913+00:00"
     }
   ],
-  "lastUpdated": "2026-11-12T12:31:49.550319+00:00"
+  "lastUpdated": "2026-11-12T13:01:54.407976+00:00"
 }
