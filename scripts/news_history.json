@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Faces Earnings Pressure as Tech Season Turns Brutal for Industry",
-      "urls": [
-        "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11022026-12206945",
-        "https://www.fastcompany.com/91634042/apple-q4-earnings-preview-tech-giant-save-brutal-ai-sell-off-today"
-      ],
-      "date": "2026-11-03T03:31:36.866428+00:00"
-    },
-    {
       "title": "Anthropic Deploys Secret Flagging System to Block Harmful Claude Interactions",
       "urls": [
         "https://www.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
@@ -5184,7 +5176,17 @@
         "https://en.wikipedia.org/wiki/Mumbai"
       ],
       "date": "2026-11-13T03:02:04.222034+00:00"
+    },
+    {
+      "title": "Dow Surges 1,100 Points as Market Rebounds From AI Sell‑Off",
+      "urls": [
+        "https://investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409",
+        "https://techcrunch.com",
+        "https://www.lonelyplanet.com/articles/best-beaches-thailand",
+        "https://en.wikipedia.org/wiki/Tech_Mahindra"
+      ],
+      "date": "2026-11-13T03:31:49.353687+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T03:02:04.222113+00:00"
+  "lastUpdated": "2026-11-13T03:31:49.353766+00:00"
 }
