@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Australia Faces Growing Recession Anxiety as Official Job Data May Mask Real Losses",
-      "urls": [
-        "https://www.wsj.com/economy/global",
-        "https://en.wikipedia.org/wiki/Early_1990s_recession_in_Australia",
-        "https://www.abc.net.au/news/2026-10-06/recession-leads-to-high-unemployment-pain-not-evenly-shared/107230632",
-        "https://www.ft.com/global-economy",
-        "https://www.imfconnect.org/content/imf/en/gmm.html",
-        "https://buenosairesherald.com/economics/market-considers-economy-in-recession-as-it-curtails-2026-growth-prospects",
-        "https://www.reuters.com/markets/econ-world"
-      ],
-      "date": "2026-11-03T03:01:54.046319+00:00"
-    },
-    {
       "title": "Apple Faces Earnings Pressure as Tech Season Turns Brutal for Industry",
       "urls": [
         "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11022026-12206945",
@@ -5185,7 +5172,19 @@
         "https://en.wikipedia.org/wiki/Cipla"
       ],
       "date": "2026-11-13T02:31:49.581310+00:00"
+    },
+    {
+      "title": "Allahabad Municipal Board Unveils Comprehensive 2041 City Development Blueprint for Future Growth",
+      "urls": [
+        "https://www.livemint.com/industry/indias-infrastructure-challenge-shifts-from-raising-capital-to-making-projects-investable-says-deloitte-11791203958309.html",
+        "https://www.livemint.com/industry/infrastructure",
+        "https://en.wikipedia.org/wiki/Smart_city",
+        "https://en.wikipedia.org/wiki/Prayagraj",
+        "https://www.marketbeat.com/stocks/NASDAQ/MSFT/news",
+        "https://en.wikipedia.org/wiki/Mumbai"
+      ],
+      "date": "2026-11-13T03:02:04.222034+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T02:31:49.581364+00:00"
+  "lastUpdated": "2026-11-13T03:02:04.222113+00:00"
 }
