@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Rubén Sets New Guinness World Record Redefining Parkour Standards for Urban Agility",
-      "urls": [
-        "https://therunningchannel.com/running-records-2026",
-        "https://sports.yahoo.com",
-        "https://en.wikipedia.org/wiki/Seven_News",
-        "https://www.guinnessworldrecords.com/news",
-        "https://www.guinnessworldrecords.com/news/2025/11/parkour-prodigy-conquers-guinness-world-records-2026-after-losing-his-leg",
-        "https://www.espn.com"
-      ],
-      "date": "2026-11-03T04:32:00.348493+00:00"
-    },
-    {
-      "title": "Linux Kernel Integrates AI Monitoring as Microsoft Defender Expands to Linux",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
-        "https://www.phoronix.com/news/October-2026-Highlights",
-        "https://www.linuxnews.net",
-        "https://en.wikipedia.org/wiki/Linux_Mint",
-        "https://en.wikipedia.org/wiki/Blender_%28software%29"
-      ],
-      "date": "2026-11-03T05:01:49.980131+00:00"
-    },
-    {
       "title": "AssisTech Unveils AI Wheelchair Controls Aiming to Break Mobility Barriers",
       "urls": [
         "https://news.un.org/en/story/2025/10/1166082",
@@ -5199,7 +5176,15 @@
         "https://en.wikipedia.org/wiki/Sachin_Tendulkar"
       ],
       "date": "2026-11-13T04:31:42.751874+00:00"
+    },
+    {
+      "title": "Google Maps Expands Street View Access to Global Landmarks and Natural Wonders",
+      "urls": [
+        "https://support.google.com/maps/answer/3093484?hl=id&co=GENIE.Platform%3DDesktop",
+        "https://www.indianculture.gov.in"
+      ],
+      "date": "2026-11-13T05:02:16.711117+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T04:31:42.751938+00:00"
+  "lastUpdated": "2026-11-13T05:02:16.711189+00:00"
 }
