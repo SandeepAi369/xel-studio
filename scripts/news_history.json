@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Azure Surges 48 Percent While Alphabet Earnings Slip 12.6 Percent",
-      "urls": [
-        "https://bloomberg.com/latest/tech-company-earnings",
-        "https://shattered.io/big-tech-earnings-azure-48-alphabet-12-6-developer-tools-2026",
-        "https://investingcalendar.com/sector/technology/earnings/this-week",
-        "https://www.cnbc.com/earnings-announcements?msockid=304c80204035681105d4982641da69f7",
-        "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar"
-      ],
-      "date": "2026-11-03T13:02:10.158315+00:00"
-    },
-    {
       "title": "Prime Minister Narendra Modi Addresses Bharat Renewable Energy Summit Emphasizing India's Clean Power Goals",
       "urls": [
         "https://en.wikipedia.org/wiki/Renewable_energy",
@@ -5194,7 +5183,19 @@
         "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
       ],
       "date": "2026-11-13T13:02:02.635641+00:00"
+    },
+    {
+      "title": "Louisiana School for the Visually Impaired Showcases Assistive Tech Advances for Blind Students",
+      "urls": [
+        "https://www.disabilityworld.org/articles/assistive-tech-for-blind-people-2026",
+        "https://en.wikipedia.org/wiki/Educational_technology",
+        "https://www.wbrz.com/videos/louisiana-school-for-the-visually-impaired-event-shows-how-students-navigate-daily-life",
+        "https://en.wikipedia.org/wiki/GPT-4",
+        "https://journals.sagepub.com/doi/10.1177/00224669261424860",
+        "https://www.gao.gov/products/gao-26-107506"
+      ],
+      "date": "2026-11-13T13:31:38.441209+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T13:02:02.635708+00:00"
+  "lastUpdated": "2026-11-13T13:31:38.441292+00:00"
 }
