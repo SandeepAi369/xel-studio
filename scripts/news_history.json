@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Delays Disability Policy Overhaul as Draft Acknowledges Decade of Developments",
-      "urls": [
-        "https://timesofindia.indiatimes.com/india/decade-on-disability-policy-rejig-in-limbo/articleshow/134229366.cms"
-      ],
-      "date": "2026-11-03T01:01:59.151198+00:00"
-    },
-    {
-      "title": "Paris Agreement Marks Milestone as Nations Update Climate Pledges Under Ratcheting Mechanism",
-      "urls": [
-        "https://www.iea.org/reports/state-of-energy-policy-2026/climate-pledges",
-        "https://www.bloomberg.com/professional/insights/regulation/july-2026-global-regulatory-brief-sfdr-reform-climate-disclosures-and-carbon-reporting"
-      ],
-      "date": "2026-11-03T01:31:33.111578+00:00"
-    },
-    {
       "title": "Model Context Protocol Enables Seamless AI Integration While Kimi K3 Leads Open‑Source Coding Models",
       "urls": [
         "https://apps.microsoft.com/detail/9nrx63209r7b?hl=en-US&gl=US",
@@ -5192,7 +5177,20 @@
         "https://gb-kb.sage.com/portal/app/portlets/results/view2.jsp?k2dockey=200821075636890"
       ],
       "date": "2026-11-13T01:01:46.105447+00:00"
+    },
+    {
+      "title": "EY Launches My EY Portal Centralizing Technologies, Insights and Collaboration Tools",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-11/rise-of-clean-tech-makes-2026-a-climate-turning-point-gore-says",
+        "https://en.wikipedia.org/wiki/Joe_Romm",
+        "https://login.ey.com",
+        "https://www.ksat.com/business/2026/09/21/world-leaders-in-new-york-to-grapple-with-climate-fuel-prices-ai-and-disasters-complicate-things",
+        "https://mfareg.ey.com/signin-oidc",
+        "https://www.thehawk.in/news/india/pm-modi-to-inaugurate-bharat-renewable-energy-summit-expo-2026-in-delhi-today",
+        "https://en.wikipedia.org/wiki/Climate_change_policy_of_the_United_States"
+      ],
+      "date": "2026-11-13T01:31:34.002127+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T01:01:46.105521+00:00"
+  "lastUpdated": "2026-11-13T01:31:34.002167+00:00"
 }
