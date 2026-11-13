@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kerala Announces Ten Sites for New AIIMS Hospital to Boost State Healthcare",
-      "urls": [
-        "https://www.aiimsexams.ac.in",
-        "https://en.wikipedia.org/wiki/All_India_Institute_of_Medical_Sciences,_Delhi",
-        "https://aiimsexams.ac.in/all-application",
-        "https://medicaldialogues.in/news/health/hospital-diagnostics/kerala-identifies-10-potential-sites-for-aiims-establishment-health-minister-k-muraleedharan-182492",
-        "https://freejobalert.com/articles/aiims-delhi-field-investigator-data-collector-recruitment-2026-apply-online-3078083"
-      ],
-      "date": "2026-11-03T19:02:08.689916+00:00"
-    },
-    {
-      "title": "Advanced Micro Devices Backs $6 Billion AI Assistant Amid Growing Infrastructure Investments",
-      "urls": [
-        "https://nvidianews.nvidia.com/news/latest",
-        "https://nvidianews.nvidia.com/news",
-        "https://finance.yahoo.com/technology/ai/articles/why-advanced-micro-devices-amd-180651035.html",
-        "https://www.crn.com/news/components-peripherals/2026/6-big-intel-amd-and-nvidia-ai-data-center-announcements-at-ocp-2026",
-        "https://www.nvidia.com/en-us",
-        "https://www.nvidia.com/en-gb"
-      ],
-      "date": "2026-11-03T19:32:09.200147+00:00"
-    },
-    {
       "title": "Trump Leads New Russia-Ukraine Peace Talks, Emphasizing Post-War Security Efforts",
       "urls": [
         "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms",
@@ -5213,7 +5190,18 @@
         "https://www.sciencedaily.com/news/health_medicine/medical_topics"
       ],
       "date": "2026-11-13T19:01:53.422650+00:00"
+    },
+    {
+      "title": "Google AI Announces October 2026 Update Emphasizing Experimental Generative Tools",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+        "https://www.marketscreener.com/news/trimble-launches-new-trimble-connect-platform-ai-capabilities-aimed-at-de-risking-construction-ce785fd3de8cfe23",
+        "https://www.hilton.com/en/hotels/lonpdhi-hilton-london-paddington?msockid=3832913d2fd86dbb0c15892d2e186c17",
+        "https://en.m.wikipedia.org/wiki/Praed_Street",
+        "https://www.northjersey.com/press-release/story/264954/tricoast-advanced-technology-studios-launches-global-ai-feature-film-production-company-targeting-35-features-per-year"
+      ],
+      "date": "2026-11-13T19:32:11.323084+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T19:01:53.422723+00:00"
+  "lastUpdated": "2026-11-13T19:32:11.323149+00:00"
 }
