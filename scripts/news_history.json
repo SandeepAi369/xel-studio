@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Deploys Secret Flagging System to Block Harmful Claude Interactions",
-      "urls": [
-        "https://www.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
-        "https://www.anthropic.com/claude/opus",
-        "https://www.wionews.com/technology/anthropic-s-claude-can-now-secretly-flag-harmful-chats-for-review-how-its-new-ai-safety-feature-works-1793594723509",
-        "https://ninzaverse.beehiiv.com/p/anthropic-asked-claude-to-secretly-poison-another-ai"
-      ],
-      "date": "2026-11-03T04:02:04.333502+00:00"
-    },
-    {
       "title": "Rubén Sets New Guinness World Record Redefining Parkour Standards for Urban Agility",
       "urls": [
         "https://therunningchannel.com/running-records-2026",
@@ -5198,7 +5188,18 @@
         "https://www.pixazo.ai/blog/ai-video-generation-models-comparison"
       ],
       "date": "2026-11-13T04:01:55.973926+00:00"
+    },
+    {
+      "title": "ESPN Expands India Cricket Coverage With Live Scores and Historic Tendulkar Archive",
+      "urls": [
+        "https://www.espn.com/cricket/team/_/id/6/india",
+        "https://www.zoomnews.in/en/news-detail/team-india-squad-changes-for-final-two-odis-against-new-zealand-tour-latest-key-updates.html",
+        "https://www.cricketnmore.com/tagging/senior-men",
+        "https://www.news18.com/cricket/india-to-tour-bangladesh-for-white-ball-series-in-2026-bcci-secretary-gives-major-update-ws-no-10070184.html",
+        "https://en.wikipedia.org/wiki/Sachin_Tendulkar"
+      ],
+      "date": "2026-11-13T04:31:42.751874+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T04:01:55.973980+00:00"
+  "lastUpdated": "2026-11-13T04:31:42.751938+00:00"
 }
