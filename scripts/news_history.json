@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Expands Open‑Source Model Hub Driving Wider AI Collaboration",
-      "urls": [
-        "https://www.ibm.com/think/topics/hugging-face",
-        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face"
-      ],
-      "date": "2026-11-03T14:31:58.872192+00:00"
-    },
-    {
       "title": "Doctor Invests in AI Startup After Using Chatbot for Rare Cancer Diagnosis",
       "urls": [
         "https://euronews.com/2026/10/13/can-ai-help-healthcare-move-from-treatment-to-prevention",
@@ -5193,7 +5185,18 @@
         "https://www.merriam-webster.com/dictionary/renewable"
       ],
       "date": "2026-11-13T14:01:58.951655+00:00"
+    },
+    {
+      "title": "Mistral Releases Trillion‑Parameter Open‑Source Model to Boost Cybersecurity Capabilities for Global Enterprises",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+        "https://euronews.com/2026/10/29/mistral-releases-latest-ai-model-for-download-giving-companies-more-control-over-their-cyb",
+        "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity",
+        "https://www.ibm.com/think/topics/mistral-ai",
+        "https://mistral.ai/news"
+      ],
+      "date": "2026-11-13T14:32:03.685372+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T14:01:58.951729+00:00"
+  "lastUpdated": "2026-11-13T14:32:03.685450+00:00"
 }
