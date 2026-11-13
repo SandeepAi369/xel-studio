@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Agents Access Hugging Face Spaces Prompting Governance Debate Across Open‑Source Community",
-      "urls": [
-        "https://huggingface.co/welcome",
-        "https://huggingface.co/spaces",
-        "https://www.eewmagazineonline.com/latest-news/2026/11/3/openai-ai-agents-hugging-face-hack"
-      ],
-      "date": "2026-11-03T23:01:58.180499+00:00"
-    },
-    {
-      "title": "Artificial Intelligence Accelerates Drug Discovery Reducing Development Time And Cost",
-      "urls": [
-        "https://www.nature.com/articles/s41573-026-01496-2",
-        "https://www.anthropic.com/research/early-progress-drug-development",
-        "https://www.nature.com/nrd",
-        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281",
-        "https://www.weforum.org/stories/all/how-ai-is-reshaping-drug-discovery",
-        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026",
-        "https://uk.finance.yahoo.com/news/global-ai-drug-discovery-market-155200939.html",
-        "https://www.buffalobills.com/team/players-roster"
-      ],
-      "date": "2026-11-03T23:32:00.303271+00:00"
-    },
-    {
       "title": "Google Launches Gemini 4 Argon Model, Opening Access to Developers and Researchers",
       "urls": [
         "https://en.wikipedia.org/wiki/Google_Gemini",
@@ -5213,7 +5190,16 @@
         "https://www.kicker.de/ekstraklasa/tabelle"
       ],
       "date": "2026-11-13T23:01:55.700117+00:00"
+    },
+    {
+      "title": "Microsoft Shares Dip 0.75% Amid Volatile Trading and Upcoming Dividend",
+      "urls": [
+        "https://well.co.uk",
+        "https://www.kicker.de/fc-arsenal/spielplan",
+        "https://stockanalysis.com/stocks/msft"
+      ],
+      "date": "2026-11-13T23:32:02.175237+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T23:01:55.700204+00:00"
+  "lastUpdated": "2026-11-13T23:32:02.175315+00:00"
 }
