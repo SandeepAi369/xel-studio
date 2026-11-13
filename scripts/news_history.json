@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Times of India Expands Live Sports Coverage Highlighting Indian Cricket Stars",
-      "urls": [
-        "https://timesofindia.indiatimes.com/sports",
-        "https://en.wikipedia.org/wiki/Cognizant",
-        "https://english.zeenews.com/sports",
-        "https://www.msn.com/en-US/sports"
-      ],
-      "date": "2026-11-03T12:31:48.255158+00:00"
-    },
-    {
       "title": "Microsoft Azure Surges 48 Percent While Alphabet Earnings Slip 12.6 Percent",
       "urls": [
         "https://bloomberg.com/latest/tech-company-earnings",
@@ -5195,7 +5185,16 @@
         "https://indianexpress.com/article/sports/cricket/ipl-player-trade-transfer-deals-hardik-pandya-sanju-samson-rishabh-pant-10957155/lite"
       ],
       "date": "2026-11-13T12:31:36.244786+00:00"
+    },
+    {
+      "title": "Pew Research Center Finds Social Media Remains Core Platform for News and Connection in 2026",
+      "urls": [
+        "https://www.pewresearch.org/internet/fact-sheet/social-media",
+        "https://www.wikipedia.org",
+        "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+      ],
+      "date": "2026-11-13T13:02:02.635641+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T12:31:36.244873+00:00"
+  "lastUpdated": "2026-11-13T13:02:02.635708+00:00"
 }
