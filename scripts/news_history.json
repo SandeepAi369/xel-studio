@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Prime Minister Narendra Modi Addresses Bharat Renewable Energy Summit Emphasizing India's Clean Power Goals",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Renewable_energy",
-        "https://www.nationpress.com/national/modi-speaks-at-renewable-energy-summit",
-        "https://renewablesnow.com/news",
-        "https://www.energyconnects.com/news/renewables/2026/november",
-        "https://www.renewable-energy-industry.com/news/world/article-7738-stock-market-week-44-26-renixx-world-stabilises-after-losses-scatec-and-ballard-surge-enphase-plunges",
-        "https://www.lsprenewables.com/news/november-renewable-energy-round-up-global-momentum-builds-across-wind-solar-and-grid-infrastructure",
-        "https://stackoverflow.com/questions/15036706/creating-facebook-app-with-callback-url",
-        "https://renewablesnow.com/regions"
-      ],
-      "date": "2026-11-03T14:01:58.109693+00:00"
-    },
-    {
       "title": "Hugging Face Expands Open‑Source Model Hub Driving Wider AI Collaboration",
       "urls": [
         "https://www.ibm.com/think/topics/hugging-face",
@@ -5195,7 +5181,19 @@
         "https://www.gao.gov/products/gao-26-107506"
       ],
       "date": "2026-11-13T13:31:38.441209+00:00"
+    },
+    {
+      "title": "Energy Security Concerns Accelerate Global Renewable Growth, IEA Forecast Shows",
+      "urls": [
+        "https://www.iea.org/news/energy-security-concerns-spur-faster-renewables-growth-across-a-widening-constellation-of-countries",
+        "https://www.theguardian.com/environment/2026/nov/11/burnham-offshore-wind-investment-norfolk-climate-summit-cop31-jackdaw-gasfield",
+        "https://en.wikipedia.org/wiki/Variable_renewable_energy",
+        "https://www.carterjonas.co.uk/insights/energy-news-november-2026",
+        "https://www.iea.org/reports/renewables-2026",
+        "https://www.merriam-webster.com/dictionary/renewable"
+      ],
+      "date": "2026-11-13T14:01:58.951655+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T13:31:38.441292+00:00"
+  "lastUpdated": "2026-11-13T14:01:58.951729+00:00"
 }
