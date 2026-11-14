@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Launches Gemini 4 Argon Model, Opening Access to Developers and Researchers",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Google_Gemini",
-        "https://deepmind.google",
-        "https://en.wikipedia.org/wiki/Google_DeepMind",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-        "https://en.wikipedia.org/wiki/Google"
-      ],
-      "date": "2026-11-04T00:01:48.676017+00:00"
-    },
-    {
       "title": "India Announces Vision to Host 2036 Olympic and Paralympic Games",
       "urls": [
         "https://www.ndtv.com/topic/india-olympics",
@@ -5199,7 +5188,18 @@
         "https://stockanalysis.com/stocks/msft"
       ],
       "date": "2026-11-13T23:32:02.175237+00:00"
+    },
+    {
+      "title": "Anthropic Updates Usage Policy to Strengthen Model Safety and Compliance Standards",
+      "urls": [
+        "https://cryptobriefing.com/anthropic-usage-policy-claude-abuse",
+        "https://letsdatascience.com/news/topic/anthropic",
+        "https://releasebot.io/updates/anthropic",
+        "https://www.anthropic.com/news/2026-usage-policy-update",
+        "https://www.anthropic.com/company"
+      ],
+      "date": "2026-11-14T00:02:32.446110+00:00"
     }
   ],
-  "lastUpdated": "2026-11-13T23:32:02.175315+00:00"
+  "lastUpdated": "2026-11-14T00:02:32.446167+00:00"
 }
