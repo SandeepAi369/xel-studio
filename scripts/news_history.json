@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "USGS Earthquake Portal Expands Data Access With Comprehensive Recent and Historic Seismic Listings",
-      "urls": [
-        "https://earthquaketrackers.com/earthquakes/today",
-        "https://en.wikipedia.org/wiki/List_of_tsunamis",
-        "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtVnVLQUFQAQ",
-        "https://www.usgs.gov/programs/earthquake-hazards/earthquakes"
-      ],
-      "date": "2026-11-04T14:02:10.719007+00:00"
-    },
-    {
       "title": "TensorFlow and PyTorch Survey Highlights Convergence and Model Conversion Options",
       "urls": [
         "https://arxiv.org/html/2508.04035v1",
@@ -5191,7 +5181,18 @@
         "https://en.wikipedia.org/wiki/Department_for_Science%2C_Innovation_and_Technology"
       ],
       "date": "2026-11-14T14:01:52.856267+00:00"
+    },
+    {
+      "title": "Ebola Outbreak 2026 Wikipedia Page Captures Surge and Global Response After November Archive",
+      "urls": [
+        "https://www.business-standard.com/content/press-releases-ani/nature-conference-india-2026-at-mahe-manipal-puts-infectious-disease-threats-under-the-scientific-spotlight-126101700024_1.html",
+        "https://de.m.wikipedia.org/wiki/COVID-19",
+        "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+        "https://www.ndtv.com/health/national-health-research-policy-2026-india-to-overhaul-research-system-to-meet-public-health-needs-11773817",
+        "https://en.m.wikipedia.org/wiki/Coronavirus"
+      ],
+      "date": "2026-11-14T14:31:44.256482+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T14:01:52.856330+00:00"
+  "lastUpdated": "2026-11-14T14:31:44.256561+00:00"
 }
