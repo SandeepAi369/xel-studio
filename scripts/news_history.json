@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Launches Divyang Sahara Yojana and Two New Empowerment Schemes in Union Budget",
-      "urls": [
-        "https://www.livemint.com/budget/news/india-budget-2026-27-divyangjan-welfare-sports-mission-initiatives-11769953310090.html",
-        "https://striveedgeias.in/budget-2026-divyang-schemes",
-        "https://www.ndtv.com/india-news/union-budget-2026-live-centres-focus-on-divyangjan-artificial-limbs-production-10924223",
-        "https://ddindia.co.in/2026/02/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27",
-        "https://www.govtschemesindia.com/divyang-sahara-yojana-benefits-eligibility-and-details",
-        "https://www.drishtiias.com/daily-updates/daily-news-analysis/indias-roadmap-for-empowering-divyangjans"
-      ],
-      "date": "2026-11-04T21:31:45.552636+00:00"
-    },
-    {
-      "title": "Hugging Face Ranks Eleven Open‑Source LLMs Highlighting Gemma and Emerging Competitors",
-      "urls": [],
-      "date": "2026-11-04T22:01:33.775993+00:00"
-    },
-    {
       "title": "India Prepares Draft AI Regulations To Guide Responsible Technology Use",
       "urls": [
         "https://www.meity.gov.in/documents/act-and-policies",
@@ -5199,7 +5182,15 @@
         "https://www.worldometers.info/countries/india"
       ],
       "date": "2026-11-14T21:31:38.364707+00:00"
+    },
+    {
+      "title": "Meta Releases Model Weights While Keeping Core AI Technology Proprietary",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/meta-releases-open-ai-model-170000703.html",
+        "https://ai.meta.com"
+      ],
+      "date": "2026-11-14T22:02:01.280604+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T21:31:38.364775+00:00"
+  "lastUpdated": "2026-11-14T22:02:01.280643+00:00"
 }
