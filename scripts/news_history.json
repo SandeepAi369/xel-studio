@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Pharma Exports Rise Amid U.S. Generic Drug Tariff Threat",
-      "urls": [
-        "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-        "https://www.devdiscourse.com/article/business/3998969-indias-pharma-exports-rise-490-to-usd-1614-billion-in-h1-fy27-as-european-demand-surges"
-      ],
-      "date": "2026-11-04T19:04:31.078484+00:00"
-    },
-    {
       "title": "CrowdStrike Acquires Fiddler AI and Dreadnode for $495 Million to Boost AI Security",
       "urls": [
         "https://techjacksolutions.com/ai-news/markets",
@@ -5201,7 +5193,18 @@
         "https://digitalhealthnews.com/government-plans-ai-led-upgrade-of-ayushman-bharat-for-claims-processing-digital-health-records"
       ],
       "date": "2026-11-14T19:02:14.337012+00:00"
+    },
+    {
+      "title": "AWS Introduces AI‑Powered Continuum and Agentic Services to Strengthen Cloud Vulnerability Management",
+      "urls": [
+        "https://builder.aws.com/content/3LoBWXqi6PmsVdK0zEx0SXNnUjJ/aws-dominates-cloud-innovation-ai-agents-security-tools-and-cost-savings-lead-november-2026",
+        "https://www.tmcnet.com/usubmit/2026/11/12/10480662.htm",
+        "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage?msockid=3485a8afd38e6e990be6b0bed21c6f4e",
+        "https://siliconangle.com/2026/11/09/red-hat-adds-agentic-ai-operations-stronger-security-in-openshift-5-and-rhel-updates",
+        "https://techcloudup.com/2026/10/how-ai-services-are-reshaping-cloud-computing-in-2026"
+      ],
+      "date": "2026-11-14T19:31:45.890430+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T19:02:14.337082+00:00"
+  "lastUpdated": "2026-11-14T19:31:45.890497+00:00"
 }
