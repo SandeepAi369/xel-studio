@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bradley Kühn Highlights Conflict Between Open Source Funding and Copyleft Opposition",
-      "urls": [
-        "https://ebb.org/bkuhn/blog",
-        "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters"
-      ],
-      "date": "2026-11-04T02:02:00.590327+00:00"
-    },
-    {
       "title": "India's Generic Drug Exports confront a newly announced U.S. tariff proposal that may impose additional duties on a broad spectrum",
       "urls": [
         "https://epw.in/journal/2026/44/commentary/indias-pharmaceutical-industry.html",
@@ -5199,7 +5191,19 @@
         "https://etedge-insights.com/trending/google-deepmind-invests-in-corover-ai-creator-of-indias-first-large-language-model-bharatgpt"
       ],
       "date": "2026-11-14T02:01:57.769183+00:00"
+    },
+    {
+      "title": "Telemedicine Digital Health Innovation News Fresh Announcements November 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
+        "https://tateeda.com/blog/future-of-telemedicine",
+        "https://www.sermo.com/resources/future-of-telemedicine",
+        "https://www.aamc.org/news/telehealth-innovations-health-technology",
+        "https://openloophealth.com/blog/recent-digital-health-trends-insight-and-news-december-2025",
+        "https://www.aha.org/aha-center-health-innovation-market-scan/2026-04-07-4-digital-health-projects-transforming-care-delivery"
+      ],
+      "date": "2026-11-14T02:31:48.587303+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T02:01:57.769231+00:00"
+  "lastUpdated": "2026-11-14T02:31:48.587374+00:00"
 }
