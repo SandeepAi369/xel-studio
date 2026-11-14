@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Details Simple Steps to Pair Any Bluetooth Device on Windows PCs",
-      "urls": [
-        "https://support.microsoft.com/es-es/windows/hardware/bluetooth/pair-a-bluetooth-device-in-windows",
-        "https://www.techiestimes.com/cloud-computing-news",
-        "https://support.microsoft.com/ko-kr/windows/hardware/bluetooth/fix-bluetooth-problems-in-windows",
-        "https://www.computerweekly.com/news/366636636/Middle-East-tech-trends-2026-AI-cyber-security-and-sovereign-infrastructure-take-centre-stage",
-        "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud",
-        "https://www.cloudtechdaily.com/en/articles/cloud-computing-trends-2026-enterprise-ai-multicloud"
-      ],
-      "date": "2026-11-04T11:32:06.421966+00:00"
-    },
-    {
       "title": "Geopolitics Shapes Global Power Through Infrastructure and Rare Earth Competition",
       "urls": [
         "https://www.libertify.com/interactive-library/technology-international-affairs-2026-ai-cybersecurity-geopolitics",
@@ -5187,7 +5175,18 @@
         "https://www.itvoice.in/openai-launches-dots-always-on-ai-agents-that-work-for-you-even-after-you-close-chatgpt"
       ],
       "date": "2026-11-14T11:31:49.736826+00:00"
+    },
+    {
+      "title": "India's DRDO Transfers Technology for Advanced Medium Combat Aircraft to Boost Indigenous Fighter Production",
+      "urls": [
+        "https://www.indiandefensenews.in",
+        "https://idrw.org",
+        "https://en.wikipedia.org/wiki/Advanced_Medium_Combat_Aircraft",
+        "https://en.wikipedia.org/wiki/Netra_AEW%26C",
+        "https://www.drdo.gov.in/drdo/en/what-is-news"
+      ],
+      "date": "2026-11-14T12:01:50.981839+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T11:31:49.736889+00:00"
+  "lastUpdated": "2026-11-14T12:01:50.981900+00:00"
 }
