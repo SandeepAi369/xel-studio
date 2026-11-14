@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "New AI Model Accelerates Rare Disease Diagnosis, Cutting Weeks to Days",
-      "urls": [
-        "https://www.healthcareitnews.com",
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://www.beckershospitalreview.com/healthcare-information-technology/digital-health/12-ai-digital-health-tools-among-times-best-inventions-of-2026",
-        "https://www.usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
-        "https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493"
-      ],
-      "date": "2026-11-04T07:31:45.798119+00:00"
-    },
-    {
       "title": "Gene Editing Study Proposes Replacing Lifetime Medication With One‑Time Treatment",
       "urls": [
         "https://www.sciencedaily.com",
@@ -5177,7 +5166,17 @@
         "https://business-standard.com/amp/industry/banking/bank-lending-rates-fall-september-2026-deposit-rates-rbi-liquidity-126111300942_1.html"
       ],
       "date": "2026-11-14T07:02:00.713176+00:00"
+    },
+    {
+      "title": "OpenAI Acquires Health Startup to Expand AI Into Medical Diagnostics",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Healthcare_in_the_United_States",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://en.m.wikipedia.org/wiki/Health_care",
+        "https://en.wikipedia.org/wiki/Cleveland_Clinic"
+      ],
+      "date": "2026-11-14T07:31:54.885909+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T07:02:00.713267+00:00"
+  "lastUpdated": "2026-11-14T07:31:54.885945+00:00"
 }
