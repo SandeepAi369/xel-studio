@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Kali Linux Unveils 2026.1 Release Adding New Tools and Classic Desktop Theme",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://www.notebookcheck.net/Kali-Linux-2026-1-delivers-several-new-tools-and-a-classic-desktop-theme.1258527.0.html",
-        "https://news.rs1.es",
-        "https://en.wikipedia.org/wiki/Source-available_software",
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://en.wikipedia.org/wiki/Void_Linux"
-      ],
-      "date": "2026-11-04T23:01:55.131681+00:00"
-    },
-    {
       "title": "Mental Health Innovations Transform Care Delivery With New Therapies and Digital Tools",
       "urls": [
         "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/03/30/mental-wellness-initiative-trends-for-2026",
@@ -5185,7 +5173,20 @@
         "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon"
       ],
       "date": "2026-11-14T23:01:52.186853+00:00"
+    },
+    {
+      "title": "Tempus Introduces AI Platform Cutting Early Drug Discovery Timelines by 30 Percent",
+      "urls": [
+        "https://www.nature.com/nrd",
+        "https://www.nature.com/articles/s41573-026-01496-2",
+        "https://finance.yahoo.com/healthcare/articles/ai-drug-development-discovery-global-151500819.html",
+        "https://en.wikipedia.org/wiki/Drug_discovery",
+        "https://visionlifesciences.com/insights/drug-discovery-ai-news",
+        "https://bioengineer.org/ai-drug-discovery-tools-dominated-early-stage-pharma-research-after-covid-19-review-finds",
+        "https://www.drugs.com/drug_information.html"
+      ],
+      "date": "2026-11-14T23:31:35.855444+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T23:01:52.186943+00:00"
+  "lastUpdated": "2026-11-14T23:31:35.855508+00:00"
 }
