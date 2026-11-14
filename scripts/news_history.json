@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow and PyTorch Survey Highlights Convergence and Model Conversion Options",
-      "urls": [
-        "https://arxiv.org/html/2508.04035v1",
-        "https://discoverinai.com/ai-frameworks-tensorflow-vs-pytorch-in-2026"
-      ],
-      "date": "2026-11-04T14:31:49.960302+00:00"
-    },
-    {
-      "title": "India Health Budget Increases Funding for Digital Services and Mental Health Programs",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Mental_health_during_the_COVID-19_pandemic",
-        "https://www.halkwinds.com/research/mental-health-technology-report-2026",
-        "https://amfmtreatment.com/blog/10-mental-health-advances-to-know-2026",
-        "https://twinsdaily.com/news-rumors/minnesota-twins/a-way-too-early-minnesota-twins-2027-opening-day-roster-projection-r21199",
-        "https://www.indiatvnews.com/health/budget-2026-healthcare-mental-health-digital-systems-covid-emergency-systems-2026-02-01-1028499",
-        "https://twinsdaily.com"
-      ],
-      "date": "2026-11-04T15:01:58.036434+00:00"
-    },
-    {
       "title": "IIT Delhi Showcases 500 Research Projects to 4,500 Visitors at Open House",
       "urls": [
         "https://timesofindia.indiatimes.com/education/news/iit-delhi-open-house-2026-draws-4500-visitors-showcases-over-500-research-presentations/articleshow/135419038.cms",
@@ -5192,7 +5172,19 @@
         "https://en.m.wikipedia.org/wiki/Coronavirus"
       ],
       "date": "2026-11-14T14:31:44.256482+00:00"
+    },
+    {
+      "title": "Ayushman Bharat Shifts 112 Treatment Packages to Government Hospitals Only",
+      "urls": [
+        "https://english.gujaratsamachar.com/news/national/112-treatments-covered-under-ayushman-bharat-may-move-exclusively-to-government-hospitals-from-dec-1-22822037596",
+        "https://india.com/news/india/ayushman-scheme-cataract-liver-treatments-beneficiaries-cant-get-at-private-hospitals-8544709",
+        "https://www.news18.com/business/lost-your-ayushman-bharat-card-heres-how-to-reapply-or-download-a-new-one-ws-l-aa-9405058.html",
+        "https://udaipurkiran.com/major-change-in-ayushman-bharat-scheme",
+        "https://economictimes.indiatimes.com/news/india/health-ministry-showcases-24-programmes-at-india-international-trade-fair/articleshow/135835839.cms",
+        "https://cnbctv18.com/india/ayushman-bharat-scheme-112-treatment-packages-may-be-restricted-to-govt-hospitals-from-dec-1-says-report-20033400.htm"
+      ],
+      "date": "2026-11-14T15:02:15.067564+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T14:31:44.256561+00:00"
+  "lastUpdated": "2026-11-14T15:02:15.067632+00:00"
 }
