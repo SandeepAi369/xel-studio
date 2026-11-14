@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "IIT Delhi Showcases 500 Research Projects to 4,500 Visitors at Open House",
-      "urls": [
-        "https://timesofindia.indiatimes.com/education/news/iit-delhi-open-house-2026-draws-4500-visitors-showcases-over-500-research-presentations/articleshow/135419038.cms",
-        "https://timesofindia.indiatimes.com/education/news/pralhad-joshi-interacts-with-iit-madras-students-discusses-innovation-aspirations-and-indias-future/articleshow/134792122.cms",
-        "https://www.worldatlas.com/maps/india",
-        "https://www.jagranjosh.com/news/atomic-hack-india-2026-iit-bombay-and-rosatom-launch-national-hackathon-for-engineering-students-188272"
-      ],
-      "date": "2026-11-04T15:31:58.133546+00:00"
-    },
-    {
       "title": "WorldAtNet Publishes Futuristic World Map Detailing Emerging Economic and Geopolitical Shifts",
       "urls": [
         "https://www.weforum.org/media/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition",
@@ -5195,7 +5185,17 @@
         "https://en.wikipedia.org/wiki/E-commerce_in_India"
       ],
       "date": "2026-11-14T15:31:40.737665+00:00"
+    },
+    {
+      "title": "India's Forex Reserves Surge by $2.49 Billion to $719.55 Billion Amid Gold Gains",
+      "urls": [
+        "https://india.entrepreneur.com/business-news/indias-forex-reserves-rise-usd-2-49-bn-to-usd-719-55-bn",
+        "https://cnbctv18.com/economy/india-cpi-retail-inflation-in-october-next-rbi-monetary-policy-december-4-20032087.htm",
+        "https://en.wikipedia.org/wiki/Governor_of_the_Reserve_Bank_of_India",
+        "https://business-standard.com/amp/economy/news/retail-inflation-breaches-rbi-s-6-upper-limit-at-2-yr-high-of-6-09-in-oct-126111201211_1.html"
+      ],
+      "date": "2026-11-14T16:01:51.757943+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T15:31:40.737739+00:00"
+  "lastUpdated": "2026-11-14T16:01:51.758001+00:00"
 }
