@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Boosts Electric Vehicle Market With 647 Models and New E‑Drive Subsidy Scheme",
-      "urls": [
-        "https://auto.hindustantimes.com/electric-vehicles",
-        "https://www.bouncedaily.in/feeds/blog/ev-policy-india",
-        "https://www.evselect.in/ev-news",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/strategic-shift-in-ev-adoption-in-india",
-        "https://www.ndtv.com/auto/year-ender-2025-is-india-ready-for-electric-vehicles-2026-brings-a-reality-check-10167848",
-        "https://www.wri.org/outcomes/india-significantly-scales-electric-vehicle-adoption",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-s-shift-to-electric-vehicles"
-      ],
-      "date": "2026-11-04T22:31:45.573154+00:00"
-    },
-    {
       "title": "Kali Linux Unveils 2026.1 Release Adding New Tools and Classic Desktop Theme",
       "urls": [
         "https://en.wikipedia.org/wiki/Linux",
@@ -5190,7 +5177,15 @@
         "https://www.bbc.co.uk/news/articles/c8xkvzlz0x4o"
       ],
       "date": "2026-11-14T22:31:43.918255+00:00"
+    },
+    {
+      "title": "India AI Impact Summit Highlights Open‑Source Strategy to Counter Western AI Dominance",
+      "urls": [
+        "https://carnegieendowment.org/india/research/2026/05/outlooks-on-open-source-innovation-at-the-india-ai-impact-summit-2026",
+        "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon"
+      ],
+      "date": "2026-11-14T23:01:52.186853+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T22:31:43.918321+00:00"
+  "lastUpdated": "2026-11-14T23:01:52.186943+00:00"
 }
