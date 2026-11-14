@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "IEA Publishes Second State of Energy Innovation Report Highlighting 2026 Technologies and Funding",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch",
-        "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list",
-        "https://www.originbrief.app/en/reports/climate-tech-clean-energy/2026-11-02/weekly",
-        "https://www.iea.org/reports/the-state-of-energy-innovation-2026/interactive-highlights-in-energy-innovation",
-        "https://www.newswire.ca/news-releases/regenerative-energy-2026-new-national-survey-highlights-strength-and-growth-of-indigenous-clean-energy-leadership-across-canada-821418870.html",
-        "https://weather.gc.ca/en/location/index.html?coords=43.655%2C-79.383",
-        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
-        "https://www.iea.org/reports/the-state-of-energy-innovation-2026"
-      ],
-      "date": "2026-11-04T06:31:36.156924+00:00"
-    },
-    {
       "title": "Democrats Flip Senate and Secure House Majority in 2026 Midterm Elections",
       "urls": [
         "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
@@ -5182,7 +5168,17 @@
         "https://en.wikipedia.org/wiki/Panasonic"
       ],
       "date": "2026-11-14T06:02:11.237763+00:00"
+    },
+    {
+      "title": "NASA Reports Record Growth of Antarctic Ozone Hole Prompting Global Climate Concerns",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate/global_warming",
+        "https://www.un.org/en/climatechange",
+        "https://www.merriam-webster.com/dictionary/climate",
+        "https://www.rmets.org/news/cop31-begins-latest-climate-science-highlights-urgency-action-9-november-2026"
+      ],
+      "date": "2026-11-14T06:31:36.391002+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T06:02:11.237834+00:00"
+  "lastUpdated": "2026-11-14T06:31:36.391061+00:00"
 }
