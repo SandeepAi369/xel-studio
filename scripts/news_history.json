@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Announces Vision to Host 2036 Olympic and Paralympic Games",
-      "urls": [
-        "https://www.ndtv.com/topic/india-olympics",
-        "https://www.olympics.com/ioc/india",
-        "https://en.m.wikipedia.org/wiki/India_at_the_Olympics",
-        "https://olympic.ind.in/news",
-        "https://timesofindia.indiatimes.com/sports/more-sports/others/just-17-athletes-india-prepare-for-dakar-2026-youth-olympics-with-smallest-ever-squad-full-list-and-everything-you-need-to-know/articleshow/135346820.cms",
-        "https://en.m.wikipedia.org/wiki/Indian_Olympic_Association",
-        "https://indianexpress.com/about/india-olympics",
-        "https://olympic.ind.in/news/back-to-training-and-hard-work-after-the-opening-ceremony-highs"
-      ],
-      "date": "2026-11-04T00:31:58.736287+00:00"
-    },
-    {
       "title": "NeoMotion Launches Customized Tech‑Powered Wheelchairs to Boost Mobility Inclusion Across India",
       "urls": [
         "https://1000mobility.com/en/wheelchair-innovation-news-2026",
@@ -5199,7 +5185,18 @@
         "https://www.anthropic.com/company"
       ],
       "date": "2026-11-14T00:02:32.446110+00:00"
+    },
+    {
+      "title": "Canada Military Base Fire Claims Four Soldiers, Triggers Nationwide Safety Review",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Ellyse_Perry",
+        "https://www.espn.com/watch/video_highlights",
+        "https://www.bbc.co.uk/sport/football/scores-fixtures",
+        "https://www.aol.de/articles/kanada-meldet-tote-verletzte-milit%C3%A4rst%C3%BCtzpunkt-082149000.html",
+        "https://www.espn.com/nfl"
+      ],
+      "date": "2026-11-14T00:31:58.896423+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T00:02:32.446167+00:00"
+  "lastUpdated": "2026-11-14T00:31:58.896488+00:00"
 }
