@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Democrats Flip Senate and Secure House Majority in 2026 Midterm Elections",
-      "urls": [
-        "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
-        "https://www.foxnews.com/live-news/election-day-results-11-3-2026",
-        "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-        "https://www.nbcnews.com/politics/2026-elections/house-results",
-        "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
-        "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292",
-        "https://www.politico.com/2026-elections"
-      ],
-      "date": "2026-11-04T07:01:50.080081+00:00"
-    },
-    {
       "title": "New AI Model Accelerates Rare Disease Diagnosis, Cutting Weeks to Days",
       "urls": [
         "https://www.healthcareitnews.com",
@@ -5178,7 +5165,19 @@
         "https://www.rmets.org/news/cop31-begins-latest-climate-science-highlights-urgency-action-9-november-2026"
       ],
       "date": "2026-11-14T06:31:36.391002+00:00"
+    },
+    {
+      "title": "RBI Raises Repo Rate to 6 Percent as Inflation Tops 6 Point Threshold",
+      "urls": [
+        "https://www.bbc.com/news/articles/c5j9kngz3j1go",
+        "https://www.rbi.org.in/Home.aspx",
+        "https://business-standard.com/amp/finance/news/rbi-repo-rate-6-percent-december-february-policy-inflation-october-126111300961_1.html",
+        "https://thehindu.com/business/Economy/retail-inflation-crosses-rbis-upper-limit-for-first-time-in-two-years-comes-in-at-61-in-october-2026/article71693503.ece",
+        "https://m.rediff.com/news/commentary/2026/nov/14/indias-forex-reserves-jump-to-719-billion/02ce9a183d04071a4515ce99e566c3b1",
+        "https://business-standard.com/amp/industry/banking/bank-lending-rates-fall-september-2026-deposit-rates-rbi-liquidity-126111300942_1.html"
+      ],
+      "date": "2026-11-14T07:02:00.713176+00:00"
     }
   ],
-  "lastUpdated": "2026-11-14T06:31:36.391061+00:00"
+  "lastUpdated": "2026-11-14T07:02:00.713267+00:00"
 }
