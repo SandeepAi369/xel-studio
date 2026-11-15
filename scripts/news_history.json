@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tiered AI Models Expand Options as Open-Weight Releases Accelerate Research Under EU AI Act",
-      "urls": [
-        "https://kanerika.com/blogs/recent-developments-in-ai"
-      ],
-      "date": "2026-11-05T23:02:01.105666+00:00"
-    },
-    {
-      "title": "NIMH Highlights Technology Opportunities and Challenges for Mental Health Care in Low‑Income Nations",
-      "urls": [
-        "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/03/5-challenges-student-well-being-digital-age",
-        "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
-        "https://wellcome.org/insights/articles/how-technology-can-help-shape-future-mental-health-treatment",
-        "https://www.nature.com/articles/s41599-025-06441-z",
-        "https://news.mit.edu/topic/mental-health",
-        "https://hypnothera.ai/ai-mental-wellness-statistics-2026.html",
-        "https://research2guidance.com/ai-in-mental-health-2026-clinical-infrastructure-wins-the-funding-race-and-wellness-apps-are-priced-out",
-        "https://www.scoop.co.nz/stories/AK2609/S00397/mental-health-awareness-week-2026-tackles-rising-loneliness-across-aotearoa.htm"
-      ],
-      "date": "2026-11-05T23:31:39.460782+00:00"
-    },
-    {
       "title": "Nxcode Ranks GPT-6.1 Codex as Top Value AI Coding Tool in 2026 Survey",
       "urls": [
         "https://nxcode.io/resources/news/best-ai-for-coding-2026-complete-ranking",
@@ -5167,7 +5146,14 @@
         "https://mistral.ai/news/mistral-3"
       ],
       "date": "2026-11-15T23:01:56.967935+00:00"
+    },
+    {
+      "title": "American Medical Association Launches AI in Health Care Hub to Guide Physicians",
+      "urls": [
+        "https://www.ama-assn.org/topics/healthcare-ai"
+      ],
+      "date": "2026-11-15T23:31:41.207083+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T23:01:56.968003+00:00"
+  "lastUpdated": "2026-11-15T23:31:41.207159+00:00"
 }
