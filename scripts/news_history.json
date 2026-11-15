@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Appoints Koray Kavukcuoglu To Lead Frontier AI Push",
-      "urls": [
-        "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
-        "https://blockchain.news/news/google-october-2026-ai-launches-gemini-4-carbon",
-        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-        "https://about.google"
-      ],
-      "date": "2026-11-05T06:02:23.455575+00:00"
-    },
-    {
-      "title": "United Nations Releases Policy Brief on Enabling Sustainable Lifestyles Amid Climate Emergency",
-      "urls": [
-        "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-3-november-2026",
-        "https://www.un.org/en/climatechange/reports"
-      ],
-      "date": "2026-11-05T06:31:37.802936+00:00"
-    },
-    {
       "title": "UK Government Blocks Gaza Families Reunion Amid Ongoing Humanitarian Crisis",
       "urls": [
         "https://cwsglobal.org/blog/daily-state-of-play-trumps-indefinite-refugee-ban-and-funding-halt",
@@ -5169,7 +5151,17 @@
         "https://www.ndtv.com/education/iit-madras-pravartak-launches-executive-program-in-generative-ai-and-agentic-ai-tools-for-business-11055216"
       ],
       "date": "2026-11-15T06:01:51.306438+00:00"
+    },
+    {
+      "title": "Trump’s previous administration targeted renewable subsidies, but the new political climate signals a shift away from that stance and encourages",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Renewable_energy_in_the_United_States",
+        "https://theguardian.com/business/2026/nov/05/democrats-midterms-triumph-renewable-energy-industry-donald-trump",
+        "https://parcelvision.app/parcel-maps/south-dakota/perkins-county",
+        "https://renewablesnow.com/projects"
+      ],
+      "date": "2026-11-15T06:32:21.483357+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T06:01:51.306503+00:00"
+  "lastUpdated": "2026-11-15T06:32:21.483421+00:00"
 }
