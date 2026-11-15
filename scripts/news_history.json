@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Scientists Identify Mysterious “Lonely” Brain Waves Linked to Memory Function",
-      "urls": [
-        "https://www.sciencedaily.com/news/top/health",
-        "https://sciencedaily.com/news/health_medicine/medical_topics",
-        "https://sciencedaily.com/news/health_medicine/medical_imaging",
-        "https://distance.physiology.med.ufl.edu/about/articles/general/7-medical-sciences-trends-shaping-healthcare-in-2026",
-        "https://www.webmd.com"
-      ],
-      "date": "2026-11-05T15:03:22.628001+00:00"
-    },
-    {
-      "title": "ISRO Launches NavIC Satellite NVS-03 Restoring Full Constellation and Boosting Navigation Services Across India",
-      "urls": [
-        "https://www.thehindu.com/newsletter/space-wrap/space-wrap-newsletter-back-to-back-gslv-successes-help-isro-win-back-some-pride/article71665366.ece",
-        "https://astronomy.com/whats-launching-this-week/india-works-to-rebuild-its-navigation-constellation-with-upcoming-launch",
-        "https://tech-insider.org/gslv-f18-nvs-03-orbit-navic-four-satellites-minimum-2026",
-        "https://en.wikipedia.org/wiki/Gujarat_Titans",
-        "https://www.yahoo.com/news/science/articles/watch-india-launch-1st-geosynchronous-120000096.html"
-      ],
-      "date": "2026-11-05T15:31:49.690754+00:00"
-    },
-    {
       "title": "Commonwealth Games Cuts Nine Sports, Slashing India's Medal Prospects For 2026 Event",
       "urls": [
         "https://en.wikipedia.org/wiki/Sport_in_India",
@@ -5156,7 +5134,17 @@
         "https://business-standard.com/health/india-s-health-spending-triples-out-of-pocket-share-falls-to-42-7-nha-126111500324_1.html"
       ],
       "date": "2026-11-15T15:03:04.160607+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils Gemini Robotics 2.5 for Partner Labs to Accelerate Research and Development",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+        "https://en.wikipedia.org/wiki/Google_DeepMind",
+        "https://casrai.org/news/deepmind-gemini-robotics-2-5-2026",
+        "https://www.google.com.ai/webhp?gl=ai&hl=en-GB&gws_rd=cr&pws=0"
+      ],
+      "date": "2026-11-15T15:33:47.414450+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T15:03:04.160687+00:00"
+  "lastUpdated": "2026-11-15T15:33:47.414509+00:00"
 }
