@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "New York City Marathon organized by TCS attracted over 60,000 participants, the first marathon ever",
-      "urls": [
-        "https://www.nyrr.org/media-center/news/2026/11/02/2026-tcs-new-york-city-marathon-becomes-the-first-marathon-ever-to-exceed-60000-finisher-mark",
-        "https://www.flotrack.org/articles/16239989-chicago-marathon-2026-live-updates-results-and-highlights",
-        "https://world-track.org/2026",
-        "https://www.flotrack.org/articles",
-        "https://worldathletics.org",
-        "https://trackandfieldnews.com",
-        "https://runningnews.live",
-        "https://marathonjournal.com",
-        "https://worldathletics.org/news/discipline/marathon"
-      ],
-      "date": "2026-11-05T04:33:42.194017+00:00"
-    },
-    {
       "title": "Tencent Launches Hy4 Open-Source AI Model to Challenge Global Leaders",
       "urls": [
         "https://www.prnewswire.com/apac/news-releases/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models-302929177.html",
@@ -5180,7 +5165,16 @@
         "https://en.wikipedia.org/wiki/2026_Asian_Games"
       ],
       "date": "2026-11-15T04:31:35.752865+00:00"
+    },
+    {
+      "title": "ServiceNow Enables Real‑Time Plugin Activation Tracking Through System Table Records",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Python_%28programming_language%29",
+        "https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software",
+        "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0997287"
+      ],
+      "date": "2026-11-15T05:01:49.452699+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T04:31:35.752941+00:00"
+  "lastUpdated": "2026-11-15T05:01:49.452762+00:00"
 }
