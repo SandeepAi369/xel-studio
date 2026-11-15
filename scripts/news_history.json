@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Prime Minister Modi Opens Bharat Renewable Energy Summit Emphasizing Self‑Reliant Clean Power Drive",
-      "urls": [
-        "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-bharat-renewable-energy-summit-expo-2026",
-        "https://en.wikipedia.org/wiki/Rooftop_solar_power",
-        "https://cleantechnica.com/2026/08/26/renewable-energy-solar-wind-storage-us-energy-policy-trump-fail",
-        "https://www.britannica.com/science/renewable-energy",
-        "https://en.wikipedia.org/wiki/Solar_power",
-        "https://en.wikipedia.org/wiki/Wind_power_in_the_United_States"
-      ],
-      "date": "2026-11-05T14:02:17.972338+00:00"
-    },
-    {
       "title": "Mistral AI Launches 1 Trillion Parameter Model to Boost Cybersecurity Defenses",
       "urls": [
         "https://mistral.ai/news/mistral-3",
@@ -5164,7 +5152,15 @@
         "https://www.onvista.de/aktien/Volkswagen-VZ-Aktie-DE0007664039"
       ],
       "date": "2026-11-15T14:01:47.768586+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Large 4 Model With Fine‑Tuning and Unified Dashboard for Enterprise Customization",
+      "urls": [
+        "https://csoonline.com/article/4242648/mistral-releases-large-4-weights-despite-warning-of-cyberattack-uplift.html",
+        "https://docs.mistral.ai/models/mistral-large-4-0"
+      ],
+      "date": "2026-11-15T14:31:55.963193+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T14:01:47.768649+00:00"
+  "lastUpdated": "2026-11-15T14:31:55.963249+00:00"
 }
