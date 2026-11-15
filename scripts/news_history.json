@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Partners on AI Cancer Platform to Accelerate Drug Trials",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare",
-        "https://ca.news.yahoo.com/ai-innovation-reshaping-healthcare-diagnosis-190907838.html",
-        "https://aiomnifeed.com/research/how-ai-is-transforming-healthcare-in-2026-from-drug-discovery-to-diagnosis",
-        "https://ca.news.yahoo.com/diagnosis-data-ai-reshaping-healthcare-060016247.html",
-        "https://aiindigo.com/blog/ai-healthcare-2026",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_India"
-      ],
-      "date": "2026-11-05T11:02:08.004556+00:00"
-    },
-    {
       "title": "U.S. Government Suspends Green Card Sponsorship For Eight Indian IT Firms",
       "urls": [
         "https://timesofindia.indiatimes.com/business/india-business/8-it-firms-including-tcs-infosys-microsoft-wipro-suspended-from-us-green-card-programme-perm-how-does-it-hit-indian-professionals/articleshow/134803978.cms",
@@ -5170,7 +5158,19 @@
         "https://tarunbharat.com/delhi-aiims-creates-history"
       ],
       "date": "2026-11-15T11:01:44.509287+00:00"
+    },
+    {
+      "title": "J.P. Morgan Forecasts US Humanoid Robot Production Reaching Up to 400,000 Units by 2030",
+      "urls": [
+        "https://therobotreport.com/top-10-robotics-developments-october-2026",
+        "https://www.forbes.com/sites/technology/article/what-is-a-humanoid-robot",
+        "https://www.usnews.com/news/top-news/articles/2026-11-12/us-humanoid-robot-production-could-hit-400-000-by-2030-as-deployment-ramps-j-p-morgan-says",
+        "https://en.wikipedia.org/wiki/Humanoid_robot",
+        "https://en.wikipedia.org/wiki/Cynthia_Breazeal",
+        "https://machinedawn.ai/today"
+      ],
+      "date": "2026-11-15T11:31:43.912085+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T11:01:44.509362+00:00"
+  "lastUpdated": "2026-11-15T11:31:43.912150+00:00"
 }
