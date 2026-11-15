@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Voters Reject AI Data Centers Citing Water Resource Concerns In Nationwide Vote",
-      "urls": [
-        "https://www.cnbc.com/technology",
-        "https://www.cnbc.com/earnings",
-        "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
-        "https://www.investing.com/earnings-calendar",
-        "https://www.reuters.com/technology"
-      ],
-      "date": "2026-11-05T13:01:54.723967+00:00"
-    },
-    {
       "title": "WELT Expands Multimedia Coverage While TAG24 Highlights Human Interest Bottle Message Story",
       "urls": [
         "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
@@ -5169,7 +5158,16 @@
         "https://en.wikipedia.org/wiki/SpaceX_Dragon_2"
       ],
       "date": "2026-11-15T13:01:52.612038+00:00"
+    },
+    {
+      "title": "Roblox Expands Free Online Gaming Platform to Engage Millions of Creators and Players Worldwide",
+      "urls": [
+        "https://www.roblox.com",
+        "https://en.wikipedia.org/wiki/Online_age_verification_laws_by_country",
+        "https://www.roblox.com/Login"
+      ],
+      "date": "2026-11-15T13:31:47.800477+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T13:01:52.612111+00:00"
+  "lastUpdated": "2026-11-15T13:31:47.800711+00:00"
 }
