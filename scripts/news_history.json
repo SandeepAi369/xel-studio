@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Releases GPT‑4 as Most Advanced Language Model, Building on GPT‑2 Foundations",
-      "urls": [
-        "https://en.wikipedia.org/wiki/GPT-2",
-        "https://platform.openai.com/onboarding?app=chat",
-        "https://openai.com/index/gpt-4"
-      ],
-      "date": "2026-11-05T19:32:13.103140+00:00"
-    },
-    {
       "title": "Supreme Court India Latest Rulings Judgments News Key Updates November 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.livelaw.in/supreme-court",
@@ -5165,7 +5156,19 @@
         "https://markets.businessinsider.com/news/currencies/concentrate-ai-launches-hipaa-compliant-ai-gateway-with-one-baa-to-simplify-model-access-and-reduce-inference-costs-1036755810"
       ],
       "date": "2026-11-15T19:32:08.375964+00:00"
+    },
+    {
+      "title": "India Faces Diplomatic Headwinds as Foreign Policy Meets Domestic Politics",
+      "urls": [
+        "https://www.indiandefensenews.in/2026/11/jaishankar-urges-diplomatic-pathways.html",
+        "https://www.thehindu.com/news/national/external-affairs-minister-jaishankar-g20-foreign-ministers-meet-in-atlanta/article71643686.ece",
+        "https://www.chathamhouse.org/2026/01/lines-between-indias-foreign-policy-domestic-politics-and-economy-will-become-increasingly",
+        "https://www.thehindu.com/news/national/what-are-indias-diplomatic-headwinds-in-2026-explained/article70443191.ece",
+        "https://thediplomat.com/2025/11/india-revives-old-partnership-forges-new-one-at-g20-summit",
+        "https://www.shankariasparliament.com/current-affairs/indias-diplomatic-headwinds-in-2026"
+      ],
+      "date": "2026-11-15T20:01:46.429043+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T19:32:08.376047+00:00"
+  "lastUpdated": "2026-11-15T20:01:46.429116+00:00"
 }
