@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Transforms Open Source Development While Raising Governance and Licensing Concerns",
-      "urls": [
-        "https://www.heise.de/en/background/How-AI-is-changing-open-source-development-10444483.html"
-      ],
-      "date": "2026-11-05T18:31:45.694234+00:00"
-    },
-    {
       "title": "Global Wellness Tourism Market Projects 13.7% Growth as Resorts Expand Mental Fitness Retreats",
       "urls": [
         "https://finance.yahoo.com/healthcare/articles/global-wellness-tourism-mental-fitness-154000126.html",
@@ -5160,7 +5153,20 @@
         "https://americanbazaaronline.com/2026/11/14/hugging-face-ceo-vows-to-fight-for-open-source-ai-after-jensen-huangs-nvidia-exit-492299"
       ],
       "date": "2026-11-15T18:31:40.661148+00:00"
+    },
+    {
+      "title": "Healthcare IT Pilot Cuts 277,000 Clicks in 90 Days Using AI Automation",
+      "urls": [
+        "https://www.crescendo.ai/news/ai-in-healthcare-news",
+        "https://www.icthealth.org/news",
+        "https://www.modernhealthcare.com/health-tech/ai/mh-tracking-ai-healthcare-live-updates",
+        "https://www.healthcareitnews.com",
+        "https://www.nejm.org/ai-in-medicine",
+        "https://www.healthcareitnews.com/projects/how-health-its-leading-innovators-are-using-ai-now-and-where-they-see-it-going",
+        "https://www.forbes.com/topics/ai-in-healthcare"
+      ],
+      "date": "2026-11-15T19:01:50.056519+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T18:31:40.661211+00:00"
+  "lastUpdated": "2026-11-15T19:01:50.056599+00:00"
 }
