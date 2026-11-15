@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tencent Launches Hy4 Open-Source AI Model to Challenge Global Leaders",
-      "urls": [
-        "https://www.prnewswire.com/apac/news-releases/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models-302929177.html",
-        "https://en.wikipedia.org/wiki/Large_language_model",
-        "https://thehype.news/calendar/releases",
-        "https://en.wikipedia.org/wiki/Grok_%28chatbot%29"
-      ],
-      "date": "2026-11-05T05:02:11.483502+00:00"
-    },
-    {
       "title": "Google Expands Optical Character Recognition to Enable Real-Time Handwriting Control",
       "urls": [
         "https://warriorswire.usatoday.com/story/news/local/acadiana/2026/10/16/blind-veteran-from-louisiana-finishes-army-ten-miler-with-ai-help/92250319007",
@@ -5174,7 +5164,16 @@
         "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0997287"
       ],
       "date": "2026-11-15T05:01:49.452699+00:00"
+    },
+    {
+      "title": "Adam Zewe Publishes Study Evaluating Code‑Focused Large Language Models in 2023",
+      "urls": [
+        "https://edtechmagazine.com/k12/article/2026/01/ai-assistive-technology-improves-inclusion-k-12-environments-perfcon",
+        "https://en.wikipedia.org/wiki/Generative_AI",
+        "https://www.aninews.in/news/national/general-news/stpi-tech-conclave-highlights-ais-potential-in-healthcare-assistive-technologies20261018125915"
+      ],
+      "date": "2026-11-15T05:31:28.747150+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T05:01:49.452762+00:00"
+  "lastUpdated": "2026-11-15T05:31:28.747205+00:00"
 }
