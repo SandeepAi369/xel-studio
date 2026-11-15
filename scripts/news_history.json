@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Josh Kerr Shatters World Mile Record With 3:42.66 Run in London",
-      "urls": [
-        "https://www.bbc.com/news/topics/celyp4y5rwrt",
-        "https://en.wikipedia.org/wiki/CBS_Evening_News",
-        "https://www.britishathletics.org.uk/2026-highlights-world-records-set-thousands-of-fans-and-multiple-history-makers",
-        "https://worldathletics.org/news/report/london-athletics-meet-2026-josh-kerr-world-mile-record"
-      ],
-      "date": "2026-11-05T12:32:11.888060+00:00"
-    },
-    {
       "title": "Voters Reject AI Data Centers Citing Water Resource Concerns In Nationwide Vote",
       "urls": [
         "https://www.cnbc.com/technology",
@@ -5170,7 +5160,16 @@
         "https://uniquelysport.com/post/exploring-the-future-of-sports-technology-innovations-and-trends"
       ],
       "date": "2026-11-15T12:31:54.565652+00:00"
+    },
+    {
+      "title": "SpaceX Catches Starship Upper Stage for First Time, Marks Reusability Milestone",
+      "urls": [
+        "https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch",
+        "https://space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+        "https://en.wikipedia.org/wiki/SpaceX_Dragon_2"
+      ],
+      "date": "2026-11-15T13:01:52.612038+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T12:31:54.565722+00:00"
+  "lastUpdated": "2026-11-15T13:01:52.612111+00:00"
 }
