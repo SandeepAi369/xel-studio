@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Carbon Brief Expands Global Climate Guide Offering Weekly Insights Amid Rising Environmental Concerns",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2026_in_climate_change",
-        "https://www.carbonbrief.org",
-        "https://www.climatechangenews.com",
-        "https://www.reuters.com/business/environment",
-        "https://www.theccc.org.uk/publication/progress-in-reducing-emissions-2026-report-to-parliament",
-        "https://www.nytimes.com/section/climate"
-      ],
-      "date": "2026-11-05T01:31:48.992175+00:00"
-    },
-    {
       "title": "Mistral Unveils New AI Model Claiming Parity With Leading Open‑Source Systems",
       "urls": [
         "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
@@ -5185,7 +5173,17 @@
         "https://volcano.si.edu/gvp_currenteruptions.cfm"
       ],
       "date": "2026-11-15T01:31:35.263242+00:00"
+    },
+    {
+      "title": "Corporate America Shifts to Cheaper Open AI Models Amid Rising Licensing Costs",
+      "urls": [
+        "https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1",
+        "https://en.wikipedia.org/wiki/Open_source",
+        "https://opensource.org/blog/category/news",
+        "https://www.opentable.ca"
+      ],
+      "date": "2026-11-15T02:02:01.638129+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T01:31:35.263308+00:00"
+  "lastUpdated": "2026-11-15T02:02:01.638202+00:00"
 }
