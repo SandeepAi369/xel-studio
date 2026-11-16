@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. The U.S. men’s hockey team capped the list, marking the country’s gold medal win",
-      "urls": [
-        "https://www.nytimes.com/athletic/7063488/2026/02/22/winter-olympics-best-gold-medal-moments",
-        "https://tribuna.com/de/clubs/arsenal/table/2026-2027/epl",
-        "https://www.indiatourism.guide/2026/07/india-gate.html",
-        "https://tribuna.com/de/clubs/arsenal/table/2025-2026/epl",
-        "https://www.nbcolympics.com/videos/topic/gold-medal-moments"
-      ],
-      "date": "2026-11-06T04:33:38.671430+00:00"
-    },
-    {
       "title": "Implications include faster integration of advanced reasoning into custom software, increased competition for closed‑source offerings, and a broader push toward",
       "urls": [
         "https://releasebot.io/updates/mistral"
@@ -5150,7 +5139,15 @@
         "https://sports.yahoo.com/soccer/article/lionel-messis-heroics-cape-verdes-run-viral-ducks-and-other-top-moments-from-the-2026-world-cup-143512363.html?fr=sycsrp_catchall"
       ],
       "date": "2026-11-16T04:31:36.264827+00:00"
+    },
+    {
+      "title": "llm-d Reaches Production With Version 1.0, Cutting Inference Costs Elevenfold",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://www.techtimes.com/articles/329305/20261021/open-source-llm-d-10-hits-production-ibm-research-confirms-115x-ai-inference-cost-drop.htm"
+      ],
+      "date": "2026-11-16T05:01:47.922844+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T04:31:36.264893+00:00"
+  "lastUpdated": "2026-11-16T05:01:47.922906+00:00"
 }
