@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SUSE Cuts Ten Percent of Workforce to Accelerate AI Product Shift",
-      "urls": [
-        "https://theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
-        "https://blog.desdelinux.net/en/Linuxverse-news-November-2026",
-        "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026",
-        "https://itsfoss.com/news",
-        "https://en.wikipedia.org/wiki/Arch_Linux"
-      ],
-      "date": "2026-11-06T18:31:58.710288+00:00"
-    },
-    {
       "title": "United States Delays Tariffs on Indian Generic Drugs for Two Years",
       "urls": [
         "https://economictimes.indiatimes.com/topic/india-generic-drug-exports",
@@ -5149,7 +5138,15 @@
         "https://www.orbisweather.com/global-natural-disasters-this-week-november-13-2026"
       ],
       "date": "2026-11-16T18:02:25.340961+00:00"
+    },
+    {
+      "title": "Open Source India Showcases AI Collaboration at Successful OSI 2026 Summit",
+      "urls": [
+        "https://www.opensourceindia.in",
+        "https://www.rediff.com/business/report/india-eyes-open-source-homegrown-ai-amid-access-curbs/20260630.htm"
+      ],
+      "date": "2026-11-16T18:33:06.203000+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T18:02:25.341025+00:00"
+  "lastUpdated": "2026-11-16T18:33:06.203075+00:00"
 }
