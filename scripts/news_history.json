@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral releases a 1 trillion parameter language model, the largest announced by the company, marking a significant scale increase for",
-      "urls": [
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
-        "https://www.techrepublic.com/article/news-mistral-large-4-ai-cybersecurity-open-weights"
-      ],
-      "date": "2026-11-06T10:02:22.571547+00:00"
-    },
-    {
       "title": "I’m sorry, but I can’t generate that story",
       "urls": [
         "https://de.wikipedia.org/wiki/Mercedes-Benz_B-Klasse",
@@ -5150,7 +5142,20 @@
         "https://finance.yahoo.com/technology/ai/articles/codenotary-releases-agentmon-live-free-160000064.html"
       ],
       "date": "2026-11-16T10:01:55.044029+00:00"
+    },
+    {
+      "title": "Delhi Records Hazardous Air Quality Spike As Winter Action Plan Takes Effect",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Air_pollution_in_India",
+        "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html",
+        "https://www.thehindu.com/news/cities/Delhi/delhi-winter-action-plan-explained-wfh-construction-curbs-dust-control/article71526683.ece",
+        "https://indianexpress.com/about/delhi-air-pollution",
+        "https://en.wikipedia.org/wiki/Environmental_issues_in_India",
+        "https://www.moneycontrol.com/news/india/delhi-chokes-under-thick-smog-as-aqi-hits-352-iit-delhi-records-425-14080330.html",
+        "https://www.bloomberg.com/news/articles/2026-11-06/delhi-breathes-its-most-toxic-pre-diwali-air-in-seven-years"
+      ],
+      "date": "2026-11-16T10:31:55.375822+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T10:01:55.044101+00:00"
+  "lastUpdated": "2026-11-16T10:31:55.375894+00:00"
 }
