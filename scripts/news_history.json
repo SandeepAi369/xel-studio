@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Strutt ev¹ Redefines Wheelchair Mobility With Self‑Steering Capability Highlighted In TIME’s 2026 Inventions",
-      "urls": [
-        "https://economictimes.indiatimes.com/world/us/times-best-inventions-of-2026-this-wheelchair-drives-like-a-self-driving-car-with-sensors-voice-commands-and-collision-avoidance/articleshow/135535441.cms",
-        "https://www.paiseec.com/blogs/hot/wheelchair-innovations-in-2026-beyond-the-traditional-power-chair",
-        "https://www.wgbh.org/news/local/2026-07-14/disability-advocates-rally-in-boston-for-faster-wheelchair-repairs",
-        "https://en.wikipedia.org/wiki/Supported_employment",
-        "https://en.wikipedia.org/wiki/Personal_transporter_regulation_by_country"
-      ],
-      "date": "2026-11-06T13:31:52.645416+00:00"
-    },
-    {
       "title": "Delhi Implements Winter Pollution Plan to Combat Severe Air Quality Crisis",
       "urls": [
         "https://www.timesnownews.com/delhi/delhi-aqi-severe-november-6-8-nasa-map-stubble-burning-punjab-pakistan-article-156472881",
@@ -5149,7 +5138,19 @@
         "https://www.hearingtracker.com/news"
       ],
       "date": "2026-11-16T13:31:44.489982+00:00"
+    },
+    {
+      "title": "UN Climate Secretariat Calls for Accelerated Financing to Break Fossil Fuel Dependence",
+      "urls": [
+        "https://www.sciencedaily.com/news/earth_climate",
+        "https://www.nature.com/subjects/climate-change",
+        "https://www.npr.org/sections/climate",
+        "https://insideclimatenews.org/news/11112026/cactus-heat-drought-global-warming",
+        "https://unfccc.int/news",
+        "https://www.theguardian.com/environment/climate-crisis"
+      ],
+      "date": "2026-11-16T14:01:48.989039+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T13:31:44.490057+00:00"
+  "lastUpdated": "2026-11-16T14:01:48.989099+00:00"
 }
