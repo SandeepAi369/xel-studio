@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Delays Tariffs on Indian Generic Drugs for Two Years",
-      "urls": [
-        "https://economictimes.indiatimes.com/topic/india-generic-drug-exports",
-        "https://playwithstock.com/pharma-sector-analysis-india-us-tariff-2026",
-        "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India"
-      ],
-      "date": "2026-11-06T19:02:40.733034+00:00"
-    },
-    {
       "title": "Athenahealth Introduces Patient MCP Enabling Direct Link To Anthropic Claude",
       "urls": [
         "https://www.rutlandherald.com/news/business/athenahealth-launches-new-solution-to-let-patients-connect-their-health-records-to-anthropic-s-claude/article_54717f9f-ab75-5d54-a21a-4b34f36cbf45.html",
@@ -5153,7 +5144,21 @@
         "https://en.wikipedia.org/wiki/Telehealth"
       ],
       "date": "2026-11-16T19:02:04.595220+00:00"
+    },
+    {
+      "title": "Nvidia Faces New Export Restrictions as U.S. Adds Five Countries to AI Chip Ban",
+      "urls": [
+        "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
+        "https://www.nvidia.com/en-us",
+        "https://www.nvidia.com/en-gb",
+        "https://hakia.com/tech-insights/ai-chip-wars",
+        "https://politico.com/news/2026/11/16/nvidia-washington-ai-industry-scramble-01166738",
+        "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d",
+        "https://stockanalysis.com/stocks/nvda",
+        "https://build.nvidia.com"
+      ],
+      "date": "2026-11-16T19:31:45.324726+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T19:02:04.595287+00:00"
+  "lastUpdated": "2026-11-16T19:31:45.324819+00:00"
 }
