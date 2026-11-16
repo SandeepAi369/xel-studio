@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Secures €3 Billion Funding Backed by Samsung and ASML to Expand European Infrastructure",
-      "urls": [
-        "https://www.livemint.com/ai/mistrals-3-billion-open-ai-bet-why-samsung-asml-are-backing-it-and-what-s-next-for-french-startup-11788872862928.html"
-      ],
-      "date": "2026-11-06T14:31:54.092936+00:00"
-    },
-    {
       "title": "India’s Pharmaceutical Exports Reach $31.12 Billion, Marking 2.16% Growth in FY26",
       "urls": [
         "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
@@ -5147,7 +5140,15 @@
         "https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Hugging_Face"
       ],
       "date": "2026-11-16T14:31:52.015273+00:00"
+    },
+    {
+      "title": "Pancreatic Cancer Alters DNA to Evade Treatment, Study Finds In Patients",
+      "urls": [
+        "https://www.sciencedaily.com/news/top/health",
+        "https://www.fastcompany.com/91612096/health-medicine-next-big-things-in-tech-2026"
+      ],
+      "date": "2026-11-16T15:02:04.625433+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T14:31:52.015347+00:00"
+  "lastUpdated": "2026-11-16T15:02:04.625510+00:00"
 }
