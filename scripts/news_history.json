@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Issues 2026 EV Policy Aiming to Cut Vehicle Pollution by 2030",
-      "urls": [
-        "https://www.ndtv.com/topic/electric-vehicle-ev",
-        "https://www.business-standard.com/topic/ev-policy",
-        "https://sancharexpress.com/article/latest-electric-vehicle-ev-policy-2026-pm-e-drive-updates-subsidies"
-      ],
-      "date": "2026-11-06T06:31:45.139557+00:00"
-    },
-    {
       "title": "Reserve Bank of India Highlights Financial Stability Plans Amid Global Economic Turbulence",
       "urls": [
         "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
@@ -5147,7 +5138,19 @@
         "https://www.renewable-energy-industry.com/news/world"
       ],
       "date": "2026-11-16T06:31:41.223080+00:00"
+    },
+    {
+      "title": "India Presents 2026‑27 Budget Emphasizing Fiscal Priorities and Social Programs",
+      "urls": [
+        "https://www.livemint.com/budget",
+        "https://www.ndtv.com/budget",
+        "https://www.hindustantimes.com/budget",
+        "https://www.thehindu.com/business/budget",
+        "https://www.businesstoday.in/union-budget",
+        "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
+      ],
+      "date": "2026-11-16T07:02:11.002456+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T06:31:41.223145+00:00"
+  "lastUpdated": "2026-11-16T07:02:11.002533+00:00"
 }
