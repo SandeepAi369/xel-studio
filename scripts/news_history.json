@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Athenahealth Introduces Patient MCP Enabling Direct Link To Anthropic Claude",
-      "urls": [
-        "https://www.rutlandherald.com/news/business/athenahealth-launches-new-solution-to-let-patients-connect-their-health-records-to-anthropic-s-claude/article_54717f9f-ab75-5d54-a21a-4b34f36cbf45.html",
-        "https://www.tooljunction.io/new-ai-tools",
-        "https://www.rpvca.gov",
-        "https://www.rpvca.gov/m/newsflash/Home/Detail/2932",
-        "https://www.usatoday.com/press-release/story/51514/payani-ai-launches-ai-powered-marketing-and-sales-execution-tell-the-ai-what-you-want-done",
-        "https://www.cricinfo.com/cricket-grounds/eden-gardens-kolkata-57980"
-      ],
-      "date": "2026-11-06T19:31:51.420553+00:00"
-    },
-    {
-      "title": "Mozambique Sees Over 7,000 Flee Violence in Cabo Delgado Province Amid Ongoing Conflict",
-      "urls": [
-        "https://www.unhcr.org/news/stories/hungarian-refugee-crisis-offers-lessons-global-solidarity-70-years",
-        "https://news.un.org/en/audio/2026/11/1168754",
-        "https://www.forbes.com/sites/stuartanderson/2026/09/10/immigration-report-finds-trump-blocks-persecuted-christian-refugees",
-        "https://press.un.org/en/refugees",
-        "https://en.wikipedia.org/wiki/Venezuelan_refugee_crisis",
-        "https://www.iom.int/news/iom-and-unhcr-warn-millions-sudan-risk-losing-emergency-shelter-funding-runs-out",
-        "https://www.merriam-webster.com/dictionary/refugee"
-      ],
-      "date": "2026-11-06T20:02:08.568485+00:00"
-    },
-    {
       "title": "Mars Reveals Ongoing Tectonic Activity After 2021 Marsquake in Valles Marineris",
       "urls": [
         "https://www.science.org/news",
@@ -5158,7 +5133,19 @@
         "https://build.nvidia.com"
       ],
       "date": "2026-11-16T19:31:45.324726+00:00"
+    },
+    {
+      "title": "India Budget Announces Five Major Tech and AI Initiatives to Boost Digital Growth",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Union_budget_of_India",
+        "https://www.financialexpress.com/life/technology-union-budget-2026-highlights-top-5-tech-and-ai-announcements-by-fm-nirmala-sitharaman-driving-indias-digital-future-4127370",
+        "https://economictimes.indiatimes.com/budget",
+        "https://www.indiabudget.gov.in?newbg=true",
+        "https://www.indiatvnews.com/business/budget/budget-2026-what-s-in-store-for-farmers-and-agriculture-sector-key-announcements-here-2026-02-01-1028434",
+        "https://en.wikipedia.org/wiki/Chris_Van_Hollen"
+      ],
+      "date": "2026-11-16T20:02:20.627739+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T19:31:45.324819+00:00"
+  "lastUpdated": "2026-11-16T20:02:20.627813+00:00"
 }
