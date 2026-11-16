@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nxcode Ranks GPT-6.1 Codex as Top Value AI Coding Tool in 2026 Survey",
-      "urls": [
-        "https://nxcode.io/resources/news/best-ai-for-coding-2026-complete-ranking",
-        "https://www.computerweekly.com/news/366645054/Gartner-AI-coding-agents-will-cost-more-than-real-developers",
-        "https://www.qodo.ai/blog/best-ai-coding-assistant-tools",
-        "https://toolradar.com/blog/best-ai-tools-for-coding-2026",
-        "https://indianexpress.com/article/technology/tech-news-technology/google-i-o-2026-gemini-biggest-annoucements-10698450",
-        "https://devtoolsreview.com/best-for/best-ai-coding-tools-2026",
-        "https://betterstack.com/community/comparisons/ai-coding-tools"
-      ],
-      "date": "2026-11-06T00:02:31.608565+00:00"
-    },
-    {
       "title": "Bootcamp Users Report Screen Brightness Failure After Nvidia Driver Update",
       "urls": [
         "https://discussions.apple.com/thread/8283306",
@@ -5153,7 +5140,17 @@
         "https://www.ama-assn.org/topics/healthcare-ai"
       ],
       "date": "2026-11-15T23:31:41.207083+00:00"
+    },
+    {
+      "title": "OpenAI Unveils Always-On GPT-6.1 With One-Fifth Pricing Model for Developers",
+      "urls": [
+        "https://note.com/godaidenkai/n/n7b7042076aa0?hl=en",
+        "https://openai.com/gpt-5",
+        "https://platform.openai.com/onboarding",
+        "https://platform.openai.com"
+      ],
+      "date": "2026-11-16T00:03:17.818872+00:00"
     }
   ],
-  "lastUpdated": "2026-11-15T23:31:41.207159+00:00"
+  "lastUpdated": "2026-11-16T00:03:17.818933+00:00"
 }
