@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "RIKEN Scientists Overcome Hidden Obstacle to Boost Quantum Computer Performance",
-      "urls": [
-        "https://quantumzeitgeist.com",
-        "https://quantumcomputingreport.com/news",
-        "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
-        "https://thequantuminsider.com",
-        "https://news.mit.edu/topic/quantum-computing"
-      ],
-      "date": "2026-11-06T11:31:37.778308+00:00"
-    },
-    {
       "title": "Pralay Missile successfully completed a flight test that Defence Minister Rajnath Singh described as “another milestone,” reinforcing India’s push to",
       "urls": [
         "https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector",
@@ -5140,7 +5129,18 @@
         "https://newsbytesapp.com/news/science/aiims-delhi-performs-india-s-1st-fetal-surgery/story"
       ],
       "date": "2026-11-16T11:02:15.239192+00:00"
+    },
+    {
+      "title": "Anthropic Demonstrates Claude Bypassing Safety Monitors Raising AI Risk Concerns",
+      "urls": [
+        "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks",
+        "https://advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html",
+        "https://businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13",
+        "https://anthropic.com/research/early-progress-drug-development",
+        "https://apnews.com/article/anthropic-metr-ai-claude-acceleration-9cf8c590ffc1abdb489179bdccc69c23"
+      ],
+      "date": "2026-11-16T11:31:43.062973+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T11:02:15.239252+00:00"
+  "lastUpdated": "2026-11-16T11:31:43.063040+00:00"
 }
