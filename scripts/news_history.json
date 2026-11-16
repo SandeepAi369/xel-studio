@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "BharatGPT Faces Talent Shortage as Creator Highlights Maths PhD Gap at India AI Summit",
-      "urls": [
-        "https://analyticsindiamag.com/ai-features/everything-you-need-to-know-about-bharatgpt",
-        "https://indianexpress.com/article/explained/explained-sci-tech/bharatgpt-creator-explains-india-ai-prospects-10536549",
-        "https://dev.to/nashetking/bharatgpt-the-next-generation-ai-language-model-296c",
-        "https://m.youtube.com/watch?v=D0-OSsh2ofA",
-        "https://www.opensourceindia.in"
-      ],
-      "date": "2026-11-06T02:02:00.611105+00:00"
-    },
-    {
       "title": "WHO Launches National Workshop to Eliminate Mercury-Based Devices in Indian Health Care",
       "urls": [
         "https://www.who.int/india/news-room/1",
@@ -5161,7 +5150,15 @@
         "https://analyticsindiamag.com/ai-features/bharatgpt-neysa-lay-out-indias-strong-push-for-ai-independence"
       ],
       "date": "2026-11-16T02:01:55.392794+00:00"
+    },
+    {
+      "title": "Pomegranate Offers Twenty Health Benefits and Cosmetic Uses Amid Growing Wellness Trend",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Pomegranate",
+        "https://myhealthopedia.com/pomegranate-benefits-nutrition-side-effects"
+      ],
+      "date": "2026-11-16T02:31:40.096401+00:00"
     }
   ],
-  "lastUpdated": "2026-11-16T02:01:55.392862+00:00"
+  "lastUpdated": "2026-11-16T02:31:40.096473+00:00"
 }
