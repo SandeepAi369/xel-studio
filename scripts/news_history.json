@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Media Reports had popularized the term “tomato flu” after observing a red rash on children that resembled tomatoes, which sparked",
-      "urls": [
-        "https://www.nejm.org/doi/full/10.1056/NEJMra2607216",
-        "https://en.wikipedia.org/wiki/Public_health",
-        "https://en.wikipedia.org/wiki/Hand%2C_foot%2C_and_mouth_disease"
-      ],
-      "date": "2026-11-07T23:31:47.469733+00:00"
-    },
-    {
       "title": "OpenAI Unveils GPT‑Image‑2.6 Sunburst, Enhancing Detail and Precision in AI‑Generated Images",
       "urls": [
         "https://openai.com/index/introducing-images-2-6",
@@ -5166,7 +5157,16 @@
         "https://en.wikipedia.org/wiki/Open_weights"
       ],
       "date": "2026-11-17T23:02:26.913115+00:00"
+    },
+    {
+      "title": "India reports pharmaceutical exports of $16.14 billion, with Europe and emerging markets accounting for the bulk of the increase. The",
+      "urls": [
+        "https://maritimegateway.com/indias-pharma-exports-reach-16-14-billion-as-europe-and-emerging-markets-drive-growth",
+        "https://pharma.economictimes.indiatimes.com/tag/india+pharmaceutical+industry",
+        "https://en.wikipedia.org/wiki/Economy_of_India"
+      ],
+      "date": "2026-11-17T23:31:50.927228+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T23:02:26.913190+00:00"
+  "lastUpdated": "2026-11-17T23:31:50.927314+00:00"
 }
