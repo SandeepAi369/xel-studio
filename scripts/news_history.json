@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Accelerates Renewable Energy Expansion, Boosting Global Clean Power Leadership",
-      "urls": [
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-s-renewable-energy-transition-1",
-        "https://www.iea.org/news/indias-rapid-renewables-growth-is-strengthening-its-role-in-global-energy-markets-iea-report-finds",
-        "https://energy.economictimes.indiatimes.com/news/renewable/distributed-renewable-energy-is-the-fastest-way-to-address-rural-energy-needs-gk-energys-gopal-kabra/135572981",
-        "https://energy.economictimes.indiatimes.com/news/power/data-centres-should-source-at-least-50-60-power-from-clean-energy-sumant-sinha-ceo-renew/135576897",
-        "https://www.iea.org/reports/india-renewable-energy-market-report-2026/executive-summary",
-        "https://www.ibef.org/news/prime-minister-mr-narendra-modi-inaugurates-bharat-renewable-energy-summit-expo-2026",
-        "https://www.hindustantimes.com/opinion/renewable-energy-success-that-should-inspire-the-world-101793558931456.html"
-      ],
-      "date": "2026-11-07T14:01:47.567412+00:00"
-    },
-    {
       "title": "TensorFlow Launches LiteRT Amid Declining Research Paper Share to PyTorch",
       "urls": [
         "https://en.wikipedia.org/wiki/TensorFlow",
@@ -5165,7 +5152,18 @@
         "https://www.indialaw.in/blog/regulatory/rpwd-amendment-rules-2026"
       ],
       "date": "2026-11-17T13:31:50.226003+00:00"
+    },
+    {
+      "title": "International Energy Agency Publishes State of Energy Innovation 2026 Report Highlighting Progress and Challenges",
+      "urls": [
+        "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch",
+        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
+        "https://cleantech.com/about/press-releases",
+        "https://iea.blob.core.windows.net/assets/d24ccc77-ef68-491c-848d-b9c0ec0c484b/TheStateofEnergyInnovation2026.pdf",
+        "https://www.iea.org/reports/the-state-of-energy-innovation-2026"
+      ],
+      "date": "2026-11-17T14:02:00.023287+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T13:31:50.226039+00:00"
+  "lastUpdated": "2026-11-17T14:02:00.023354+00:00"
 }
