@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "TensorFlow Launches LiteRT Amid Declining Research Paper Share to PyTorch",
-      "urls": [
-        "https://en.wikipedia.org/wiki/TensorFlow",
-        "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
-        "https://www.techtarget.com/ai/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning"
-      ],
-      "date": "2026-11-07T14:31:38.654372+00:00"
-    },
-    {
       "title": "Insilico Medicine Open‑Sources Personal Longevity Superintelligence to Accelerate Aging Research",
       "urls": [
         "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies",
@@ -5163,7 +5154,18 @@
         "https://www.iea.org/reports/the-state-of-energy-innovation-2026"
       ],
       "date": "2026-11-17T14:02:00.023287+00:00"
+    },
+    {
+      "title": "The article notes that the break‑in highlights potential vulnerabilities in AI platform hosting, implying that organizations may",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns",
+        "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+        "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor",
+        "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+        "https://www.politico.com/news/2026/11/16/bonta-sues-openai-over-rogue-ai-hack-of-hugging-face-01166953"
+      ],
+      "date": "2026-11-17T14:31:49.951935+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T14:02:00.023354+00:00"
+  "lastUpdated": "2026-11-17T14:31:49.952005+00:00"
 }
