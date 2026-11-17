@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux.org Highlights Twenty‑Four Popular Distributions for Users Seeking Flexible Operating Systems",
-      "urls": [
-        "https://www.linux.org/pages/download",
-        "https://en.wikipedia.org/wiki/Linus_Torvalds",
-        "https://de.wikipedia.org/wiki/Linux"
-      ],
-      "date": "2026-11-07T18:31:38.067678+00:00"
-    },
-    {
       "title": "Innovation Transforms Healthcare From Diagnosis to Drug Discovery Across All Stages",
       "urls": [
         "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
@@ -5168,7 +5159,18 @@
         "https://en.wikipedia.org/wiki/List_of_Florida_hurricanes_%282000%E2%80%93present%29"
       ],
       "date": "2026-11-17T18:02:11.716437+00:00"
+    },
+    {
+      "title": "Linux learning guides cover installation, package management, shell scripting, and system administration, enabling",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Arch_Linux",
+        "https://en.wikipedia.org/wiki/Linux_kernel_version_history",
+        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
+        "https://en.wikipedia.org/wiki/Free_and_open-source_software",
+        "https://www.linux.org"
+      ],
+      "date": "2026-11-17T18:31:48.444693+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T18:02:11.716507+00:00"
+  "lastUpdated": "2026-11-17T18:31:48.444757+00:00"
 }
