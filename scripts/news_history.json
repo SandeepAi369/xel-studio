@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "BCCI Extends 2027 IPL Retention Deadline to November 17, 2026",
-      "urls": [
-        "https://sports.yahoo.com/articles/ipl-retention-deadline-date-time-161218468.html",
-        "https://iplt20.com",
-        "https://hindustantimes.com/cricket/ipls-impact-player-rule-set-to-continue-for-another-season-101793811429147.html",
-        "https://www.cricbuzz.com/cricket-series/9249/indian-premier-league-2027/news",
-        "https://www.cricbuzz.com/cricket-news",
-        "https://www.news18.com/cricket/ipl",
-        "https://www.cricbuzz.com/live-cricket-scorecard/155409/rcb-vs-gt-final-indian-premier-league-2026"
-      ],
-      "date": "2026-11-07T08:35:13.129305+00:00"
-    },
-    {
-      "title": "Workday Launches AI Agent Deluge and Acquires Identity Startup Ahead of Earnings",
-      "urls": [
-        "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26",
-        "https://en.wikipedia.org/wiki/Airtable",
-        "https://en.wikipedia.org/wiki/Figma",
-        "https://www.crn.com/news/ai/2026/workday-launches-ai-agent-deluge-acquires-agentic-identity-startup"
-      ],
-      "date": "2026-11-07T09:01:47.907561+00:00"
-    },
-    {
       "title": "India Advances Accessible India Campaign to Expand Sign Language Resources",
       "urls": [
         "https://depwd.gov.in/en/accessible-india-campaign",
@@ -5179,7 +5156,17 @@
         "https://sports.ndtv.com/commonwealth-games-2026/more-than-rs-50-crore-spent-in-preparing-indian-athletes-for-commonwealth-games-11796922"
       ],
       "date": "2026-11-17T08:31:49.405273+00:00"
+    },
+    {
+      "title": "NVIDIA Launches DGX Spark Personal AI Supercomputer Amid China Curbs Impacting Chip Stocks",
+      "urls": [
+        "https://www.nvidia.com",
+        "https://marketplace.nvidia.com/en-in",
+        "https://benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
+        "https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus"
+      ],
+      "date": "2026-11-17T09:01:57.465170+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T08:31:49.405367+00:00"
+  "lastUpdated": "2026-11-17T09:01:57.465251+00:00"
 }
