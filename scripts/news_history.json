@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "League of Conservation Voters Launches Weekly Climate Action Brief Ahead of Energy Bill Vote",
-      "urls": [
-        "https://lcv.org/media-center/this-week-in-climate-action-november-6-2026",
-        "https://climatechangenews.com/2026/11/02/whats-on-the-climate-calendar-for-november-2026",
-        "https://en.wikipedia.org/wiki/Energy_policy_of_the_United_States",
-        "https://en.wikipedia.org/wiki/Renewable_energy_in_Australia"
-      ],
-      "date": "2026-11-07T01:31:32.396251+00:00"
-    },
-    {
       "title": "PyTorch Maintains Lead Over TensorFlow in Research While Industry Weighs Production Trade‑offs",
       "urls": [
         "https://www.secondtalent.com/resources/pytorch-vs-tensorflow-usage-popularity-and-performance",
@@ -5157,7 +5147,17 @@
         "https://eventslist.co.uk/leeds/events/bill-bailey-2026-11-28"
       ],
       "date": "2026-11-17T01:01:52.111623+00:00"
+    },
+    {
+      "title": "India's Renewable Push Cuts $100 Billion Fuel Imports, Saves $240 Billion by 2030",
+      "urls": [
+        "https://economictimes.indiatimes.com/industry/renewables/indias-renewable-energy-expansion-averts-100-bn-in-fuel-imports-savings-seen-at-240-bn-by-2030/articleshow/135739839.cms",
+        "https://pragativadi.com/pm-narendra-modi-to-inaugurate-mega-bharat-renewable-energy-summit-2026-on-nov-2",
+        "https://orissadiary.com/prime-minister-shares-an-article-on-role-of-solar-energy-in-indias-clean-energy-transition",
+        "https://finance.yahoo.com/energy/articles/latest-news-energy-transition-renewable-113700332.html"
+      ],
+      "date": "2026-11-17T01:31:36.565612+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T01:01:52.111703+00:00"
+  "lastUpdated": "2026-11-17T01:31:36.565682+00:00"
 }
