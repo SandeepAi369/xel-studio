@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Paramount+ provides a detailed schedule that lists dates and start times",
-      "urls": [
-        "https://www.espn.com/mma",
-        "https://www.espn.com/mma/fightcenter/_/league/ufc",
-        "https://www.sportskeeda.com/mma/news-islam-makhachev-gives-honest-take-potential-middleweight-move",
-        "https://www.paramountplus.com/sneak-peak/ufc-schedule-2026",
-        "https://sports.yahoo.com/mma?fr=sycsrp_catchall",
-        "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
-        "https://www.wikihow.com/Lock-a-Computer"
-      ],
-      "date": "2026-11-07T04:31:47.520028+00:00"
-    },
-    {
       "title": "Linux.org Launches LXC Tutorial Series to Guide Developers Toward Lightweight Virtualization",
       "urls": [
         "https://en.wikipedia.org/wiki/Open-source_software_development",
@@ -5167,7 +5154,19 @@
         "https://www.confused.com/compare-car-insurance/classic"
       ],
       "date": "2026-11-17T04:31:45.701959+00:00"
+    },
+    {
+      "title": "9to5Linux Highlights Major Open‑Source Updates Including Mesa 26.3, Blender 5.3, and Firefox 160",
+      "urls": [
+        "https://lwn.net",
+        "https://9to5linux.com/9to5linux-weekly-roundup-november-15th-2026",
+        "https://9to5linux.com",
+        "https://news.opensuse.org",
+        "https://fossforce.com",
+        "https://www.phoronix.com"
+      ],
+      "date": "2026-11-17T05:02:10.039003+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T04:31:45.702026+00:00"
+  "lastUpdated": "2026-11-17T05:02:10.039063+00:00"
 }
