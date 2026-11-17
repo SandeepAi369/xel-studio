@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Meta Introduces Llama 3 as Most Capable Open Source Language Model",
-      "urls": [
-        "https://ai.meta.com/blog/future-of-ai-built-with-llama",
-        "https://ai.meta.com/Open",
-        "https://en.m.wikipedia.org/wiki/Llama_(language_model)",
-        "https://ai.meta.com/blog/meta-llama-3",
-        "https://huggingface.co/meta-llama"
-      ],
-      "date": "2026-11-07T06:05:07.090176+00:00"
-    },
-    {
       "title": "India Monsoon Intensifies as ISRO Satellite Shows Five Weather Systems Amid Record El Niño",
       "urls": [
         "https://newindianexpress.com/india/2026/Oct/31/imd-predicts-warmer-and-drier-november-across-india-weaker-north-east-monsoon",
@@ -5172,7 +5161,18 @@
         "https://therobotdaily.com"
       ],
       "date": "2026-11-17T06:02:02.060077+00:00"
+    },
+    {
+      "title": "United Nations Acknowledges Escalating Global Warming, Marks Potential Climate Turning Point",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Climate_change",
+        "https://www.nbcnews.com/science/climate-change/war-iran-global-emissions-drop-2026-rcna607918",
+        "https://en.wikipedia.org/wiki/Climate_change_denial",
+        "https://phys.org/news/2026-11-worse-climate-harder.html",
+        "https://www.climatecentral.org/climate-matters/el-nino-global-temperatures-explained"
+      ],
+      "date": "2026-11-17T06:31:41.974431+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T06:02:02.060139+00:00"
+  "lastUpdated": "2026-11-17T06:31:41.974492+00:00"
 }
