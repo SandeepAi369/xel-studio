@@ -589,3 +589,9 @@ This project is open source under the [MIT License](LICENSE).
 ⚡ XeL Studio v3.8.0
 
 </div>
+
+---
+
+## 💖 Sponsor & Support
+
+If you find this project useful, consider supporting my open-source work and systems research via [GitHub Sponsors](https://github.com/sponsors/SandeepAi369).
