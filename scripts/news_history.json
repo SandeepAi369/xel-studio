@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "BharatGPT-2 Launches Sovereign AI Model Backed by Rs 10,372 Crore Mission",
-      "urls": [
-        "https://economictimes.indiatimes.com/topic/bharatgpt/news",
-        "https://dailytips.in/tech/ai/india-launches-bharatgpt-2-sovereign-ai-model-as-government-and-startups-race-to-build-homegrown-language-intelligence"
-      ],
-      "date": "2026-11-07T10:02:47.034695+00:00"
-    },
-    {
-      "title": "Pentagon Grants $250 Million Loan To Battery Startup RadianX For U.S. Factory",
-      "urls": [
-        "https://www.reuters.com/sustainability/climate-energy",
-        "https://www.sciencedaily.com/news/earth_climate/renewable_energy",
-        "https://techcrunch.com/category/climate",
-        "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
-        "https://interestingengineering.com/energy",
-        "https://spectrum.ieee.org/topic/climate-tech"
-      ],
-      "date": "2026-11-07T10:31:43.829177+00:00"
-    },
-    {
       "title": "Philips, Siemens Healthineers, and GE are noted for supplying imaging, monitoring and connectivity hardware that enable remote diagnostics, data exchange",
       "urls": [
         "https://telehealth.org/news",
@@ -5173,7 +5153,16 @@
         "https://releasebot.io/updates/mistral"
       ],
       "date": "2026-11-17T10:02:24.598773+00:00"
+    },
+    {
+      "title": "Microsoft Emissions Rise 25 Percent Last Year",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+        "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+        "https://phys.org/news/2026-11-global-climate-policies-advance-setbacks.html"
+      ],
+      "date": "2026-11-17T10:32:18.190896+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T10:02:24.598829+00:00"
+  "lastUpdated": "2026-11-17T10:32:18.190971+00:00"
 }
