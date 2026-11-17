@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philips, Siemens Healthineers, and GE are noted for supplying imaging, monitoring and connectivity hardware that enable remote diagnostics, data exchange",
-      "urls": [
-        "https://telehealth.org/news",
-        "https://uk.finance.yahoo.com/news/telemedicine-digital-health-research-report-101600488.html"
-      ],
-      "date": "2026-11-07T11:02:04.850273+00:00"
-    },
-    {
-      "title": "PhonePe Launches Tatkal NPS Service Enabling Pension Accounts With ₹250 Minimum",
-      "urls": [
-        "https://economictimes.indiatimes.com/topic/upi-digital-payments",
-        "https://bfsi.economictimes.indiatimes.com/articles/upi-must-move-beyond-india-connect-more-countries-like-singapore-pm-modi-at-gff-2026/133928044",
-        "https://www.upi.com/Top_News",
-        "https://www.business-standard.com/topic/fintech-sector"
-      ],
-      "date": "2026-11-07T11:31:36.180600+00:00"
-    },
-    {
       "title": "India Sets ₹3 Lakh Crore Defence Production Target by 2029 to Boost Domestic Industry",
       "urls": [
         "https://www.indiandefensenews.in/2026/11/not-drdo-indias-new-missile-test-puts.html",
@@ -5171,7 +5153,19 @@
         "https://www.taiwannews.com.tw/en/news/6477416"
       ],
       "date": "2026-11-17T11:02:02.396806+00:00"
+    },
+    {
+      "title": "Assam Government On 17 November 2026 the chief minister announced a state‑run semiconductor talent pipeline, creating training centers and scholarships",
+      "urls": [
+        "https://businesstoday.in/technology/news/story/indias-chip-push-goes-global-semiconductor-heavyweights-deepen-footprint-ahead-of-semicon-2026-555970-2026-09-16",
+        "https://en.wikipedia.org/wiki/List_of_semiconductor_fabrication_plants",
+        "https://www.nationpress.com/national/assam-bets-on-semiconductor-talent-pipeline",
+        "https://www.livemint.com/technology/semicon-india-2026-pm-modi-inaugurates-semiconductor-event-in-delhi-600-exhibitors-to-showcase-latest-tech-11789624007357.html",
+        "https://timesofindia.indiatimes.com/technology/tech-news/micron-tata-infineon-outline-next-steps-in-chip-expansion/articleshow/134323210.cms",
+        "https://en.wikipedia.org/wiki/Semiconductor_device_fabrication"
+      ],
+      "date": "2026-11-17T11:31:48.605325+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T11:02:02.396873+00:00"
+  "lastUpdated": "2026-11-17T11:31:48.605393+00:00"
 }
