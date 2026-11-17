@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Innovation Transforms Healthcare From Diagnosis to Drug Discovery Across All Stages",
-      "urls": [
-        "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
-        "https://www.healthcare.gov",
-        "https://www.scvh.org/home",
-        "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://en.wikipedia.org/wiki/Nvidia"
-      ],
-      "date": "2026-11-07T19:01:49.958909+00:00"
-    },
-    {
       "title": "Agility Robotics Partners With FORT Robotics to Scale Safe Humanoid Production to 500 Units",
       "urls": [
         "https://fastcompany.com/91612138/robotics-automation-next-big-things-in-tech-2026",
@@ -5170,7 +5159,21 @@
         "https://www.linux.org"
       ],
       "date": "2026-11-17T18:31:48.444693+00:00"
+    },
+    {
+      "title": "India and United States Sign Trade Deal to Boost Generic Drug Exports",
+      "urls": [
+        "https://www.nytimes.com/2026/10/02/business/india-generic-drugs-tariffs.html",
+        "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
+        "https://www.maritimegateway.com/indias-pharma-exports-reach-16-14-billion-as-europe-and-emerging-markets-drive-growth",
+        "https://www.thepharmaletter.com/generics-news",
+        "https://www.ibef.org/industry/pharmaceutical-india",
+        "https://pharma.economictimes.indiatimes.com/news/policy-and-regulations/india-us-trade-deal-generic-drugmakers-to-get-negotiated-outcome-in-section-232-probe/128033554",
+        "https://en.wikipedia.org/wiki/Pharmaceutical_industry_in_India",
+        "https://www.eurasiareview.com/13112026-china-is-not-a-trade-threat-large-imports-catalyze-indias-value-added-export-basket-strengthening-make-in-india-analysis"
+      ],
+      "date": "2026-11-17T19:01:58.170811+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T18:31:48.444757+00:00"
+  "lastUpdated": "2026-11-17T19:01:58.170882+00:00"
 }
