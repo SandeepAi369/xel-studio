@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux.org Launches LXC Tutorial Series to Guide Developers Toward Lightweight Virtualization",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Open-source_software_development",
-        "https://www.linux.org"
-      ],
-      "date": "2026-11-07T05:02:25.825830+00:00"
-    },
-    {
-      "title": "Neurodiversity Enhances Social Work Practice Through Inclusive Policies and Support",
-      "urls": [
-        "https://www.communitycare.co.uk/content/news/neurodiversity-belongs-in-social-work-a-campaign-celebrating-the-professions-diverse-minds"
-      ],
-      "date": "2026-11-07T05:31:32.263662+00:00"
-    },
-    {
       "title": "Meta Introduces Llama 3 as Most Capable Open Source Language Model",
       "urls": [
         "https://ai.meta.com/blog/future-of-ai-built-with-llama",
@@ -5166,7 +5151,16 @@
         "https://www.phoronix.com"
       ],
       "date": "2026-11-17T05:02:10.039003+00:00"
+    },
+    {
+      "title": "India Distributes Assistive Devices to 58,000 Disabled Citizens, Boosting Inclusion Nationwide",
+      "urls": [
+        "https://thenewsmill.com/2026/09/india-distributes-assistive-devices-to-over-58000-divyangjan-and-senior-citizens",
+        "https://www.drishtiias.com/daily-updates/daily-news-editorials/building-a-barrier-free-india-for-divyangjan",
+        "https://www.newindianexpress.com/india/2026/Jun/24/india-needs-national-assistive-technology-policy-say-experts"
+      ],
+      "date": "2026-11-17T05:31:52.873519+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T05:02:10.039063+00:00"
+  "lastUpdated": "2026-11-17T05:31:52.873586+00:00"
 }
