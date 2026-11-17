@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "New Models Today Lists Multiple AI Releases With Pricing Details",
-      "urls": [
-        "https://llmgateway.io/timeline",
-        "https://pricepertoken.com/news/model-releases"
-      ],
-      "date": "2026-11-07T23:01:52.837653+00:00"
-    },
-    {
       "title": "Media Reports had popularized the term “tomato flu” after observing a red rash on children that resembled tomatoes, which sparked",
       "urls": [
         "https://www.nejm.org/doi/full/10.1056/NEJMra2607216",
@@ -5164,7 +5156,17 @@
         "https://www.theguardian.com/world/extreme-weather"
       ],
       "date": "2026-11-17T22:31:44.890734+00:00"
+    },
+    {
+      "title": "Researchers Find Public Trust Significantly Lower for AI Developments Than Traditional Innovations",
+      "urls": [
+        "https://en.wikipedia.org/wiki/AI_boom",
+        "https://chat.mistral.ai",
+        "https://console.mistral.ai/home",
+        "https://en.wikipedia.org/wiki/Open_weights"
+      ],
+      "date": "2026-11-17T23:02:26.913115+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T22:31:44.890812+00:00"
+  "lastUpdated": "2026-11-17T23:02:26.913190+00:00"
 }
