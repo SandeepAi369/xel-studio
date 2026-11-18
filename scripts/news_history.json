@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "Conor McGregor Announces Final Opponent Amid Middleweight Shift For Islam Makhachev",
-      "urls": [
-        "https://www.ufc.com",
-        "https://www.bjpenn.com",
-        "https://www.essentiallysports.com/ufc-mma-news-conor-mcgregor-names-his-final-ufc-opponent-in-unhinged-rant",
-        "https://athlonsports.com/mma/ufc-334-5-reasons-amanda-nunes-vs-kayla-harrison-is-womens-mmas-biggest-fight-of-2026",
-        "https://si.com/fannation/mma/ufc/ufc-vegas-124-odds-results-stream-for-waldo-cortes-acosta-vs-johnny-walker",
-        "https://sports.ndtv.com/us/mma/ufc-fans-get-major-update-on-islam-makhachev-s-middleweight-move-12297513",
-        "https://boxingnews.com/results",
-        "https://en.wikipedia.org/wiki/Sport_in_England",
-        "https://www.tennis.com"
-      ],
-      "date": "2026-11-08T16:32:05.515306+00:00"
-    },
-    {
-      "title": "Anna Skorobogatova Receives Breakthrough Prize in Mathematics for Symplectic Topology Work",
-      "urls": [
-        "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/from-gene-therapy-to-ai-drug-discovery-sixth-annual-biotech-breakthrough-awards-names-2026-winners/2462981",
-        "https://en.wikipedia.org/wiki/Breakthrough_Prize_in_Mathematics",
-        "https://www.science.org/journal/science"
-      ],
-      "date": "2026-11-08T17:01:59.495193+00:00"
-    },
-    {
       "title": "Andhra Loyola College Provides Specialized Laptops to Visually Impaired Students in Vijayawada Workshop",
       "urls": [
         "https://www.thehindu.com/news/cities/Vijayawada/visually-impaired-students-of-loyola-college-trained-in-assistive-technology/article71612580.ece",
@@ -5143,7 +5119,16 @@
         "https://nyrr.org/media-center/news/2026/08/19/new-york-road-runners-announces-2026-tcs-new-york-city-marathon-professional-athlete"
       ],
       "date": "2026-11-18T16:31:48.428898+00:00"
+    },
+    {
+      "title": "SpaceX Returns Starship Amid Catch, NASA Prepares 35th Resupply Mission",
+      "urls": [
+        "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+        "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure",
+        "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday"
+      ],
+      "date": "2026-11-18T17:02:18.714862+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T16:31:48.428978+00:00"
+  "lastUpdated": "2026-11-18T17:02:18.714923+00:00"
 }
