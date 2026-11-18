@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Alex DiChiara Joins Booz Allen After Departing BIS ICTS Policy Analyst Role",
-      "urls": [
-        "https://natlawreview.com/article/tariff-ied-week-international-trade-november-2-2026",
-        "https://internationaltradetoday.com",
-        "https://www.weforum.org/stories/trade-and-investment/trade-policy-surge-and-other-trade-news-to-know",
-        "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update",
-        "https://dimerco.com/us-tariff-update-2026",
-        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda.pdf",
-        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20Trade%20Policy%20Agenda%202025%20Annual%20Report.pdf",
-        "https://www.bakermckenzie.com/en/insight/publications/2026/03/trade-and-tariff-shifts-reshaping-tech"
-      ],
-      "date": "2026-11-08T20:02:17.081690+00:00"
-    },
-    {
       "title": "SpaceX Ends Crew Dragon Flights, Leaving NASA Without Primary Commercial Launch Partner",
       "urls": [
         "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency",
@@ -5118,7 +5104,20 @@
         "https://en.wikipedia.org/wiki/City_of_London"
       ],
       "date": "2026-11-18T19:32:12.699307+00:00"
+    },
+    {
+      "title": "International Monetary Fund Releases World Economic Outlook Forecasting Modest Global Growth Amid Uncertainty",
+      "urls": [
+        "https://www.cnbc.com/economy",
+        "https://www.ft.com/global-economy",
+        "https://www.imf.org/en/publications/weo",
+        "https://www.ft.com/global-inflation",
+        "https://www.worldbank.org/en/publication/global-economic-prospects",
+        "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en",
+        "https://www.bloomberg.com/economics"
+      ],
+      "date": "2026-11-18T20:03:36.865469+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T19:32:12.699371+00:00"
+  "lastUpdated": "2026-11-18T20:03:36.865550+00:00"
 }
