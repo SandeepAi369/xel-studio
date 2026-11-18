@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Climate Taxonomy Tool Translates Risk Assessments Into Actionable Adaptation Guidance",
-      "urls": [
-        "https://climateandeconomy.com/2026/11/07/7th-november-2026-todays-round-up-of-climate-news",
-        "https://apnews.com/article/climate-change-global-warming-united-states-projections-0eff0561e0af1f3d7421a96d9db02ba9",
-        "https://phys.org/news/2026-08-climate-taxonomy-tool-guidance.html"
-      ],
-      "date": "2026-11-08T06:31:33.541247+00:00"
-    },
-    {
       "title": "IMF World Economic Outlook Signals Slower Global Growth Amid Trade Tensions",
       "urls": [
         "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html",
@@ -5164,7 +5155,19 @@
         "https://english.dainikjagranmpcg.com/opinion/why-delhi-becoming-the-world%E2%80%99s-most-polluted-city-should-alarm/article-44239"
       ],
       "date": "2026-11-18T06:31:29.756977+00:00"
+    },
+    {
+      "title": "Bangladesh Faces Education Shortfall for Half a Million Rohingya Children",
+      "urls": [
+        "https://www.hrw.org/news/2026/11/16/bangladesh-education-crisis-for-rohingya-refugee-children",
+        "https://en.wikipedia.org/wiki/Sudanese_refugee_crisis",
+        "https://www.forbes.com/sites/stuartanderson/2026/09/10/immigration-report-finds-trump-blocks-persecuted-christian-refugees",
+        "https://en.wikipedia.org/wiki/Refugee_crisis",
+        "https://www.globalrefuge.org/the-latest",
+        "https://theconversation.com/immigration-in-sweden-how-the-country-went-from-one-of-europes-most-welcoming-to-one-of-its-most-restrictive-288995"
+      ],
+      "date": "2026-11-18T07:01:49.565285+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T06:31:29.757033+00:00"
+  "lastUpdated": "2026-11-18T07:01:49.565349+00:00"
 }
