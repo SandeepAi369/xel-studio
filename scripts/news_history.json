@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Unveils GPT‑Image‑2.6 Sunburst, Enhancing Detail and Precision in AI‑Generated Images",
-      "urls": [
-        "https://openai.com/index/introducing-images-2-6",
-        "https://blog.mean.ceo/ai-video-news-november-2026",
-        "https://wavespeed.ai/blog/posts/ai-video-generation-news-2026",
-        "https://www.prnewswire.com/news-releases/wizstar-launches-wizshot-1-0--its-first-in-house-video-generation-model-making-high-quality-ai-video-creation-more-cost-efficient-302932003.html",
-        "https://markets.businessinsider.com/news/stocks/aivideofree-integrates-openai-s-gpt-image-2-6-a-day-after-release-running-both-new-models-alongside-competing-image-generators-1036721272"
-      ],
-      "date": "2026-11-08T00:02:02.677336+00:00"
-    },
-    {
       "title": "India Women's 4x100m Relay Team Intensifies Training in Poland Ahead of Olympic Qualifiers",
       "urls": [
         "https://en.wikipedia.org/wiki/Olympic_Games",
@@ -5166,7 +5155,18 @@
         "https://en.wikipedia.org/wiki/Economy_of_India"
       ],
       "date": "2026-11-17T23:31:50.927228+00:00"
+    },
+    {
+      "title": "Google Gemini Adds Video Generation and Budget Management Features to AI Suite",
+      "urls": [
+        "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026",
+        "https://note.com/shinya_latte/n/nf5b49052cde7?hl=en",
+        "https://en.wikipedia.org/wiki/Flux_%28text-to-image_model%29",
+        "https://note.com/mypaceotoko/n/n64f80970e1e5?hl=en",
+        "https://deepai.org/chat"
+      ],
+      "date": "2026-11-18T00:02:10.660667+00:00"
     }
   ],
-  "lastUpdated": "2026-11-17T23:31:50.927314+00:00"
+  "lastUpdated": "2026-11-18T00:02:10.660749+00:00"
 }
