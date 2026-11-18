@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Premier League 2 Table Shows Early Season Leaders After Nine Matchdays",
-      "urls": [
-        "https://cdc.gov/global-health/impact/featured-stories-india.html",
-        "https://www.ecdc.europa.eu/en/public-health-events/2017-eip-00005/2026-11-05",
-        "https://www.kicker.de/premier-league-2-division-1/tabelle"
-      ],
-      "date": "2026-11-08T19:01:52.657477+00:00"
-    },
-    {
       "title": "White House Links Federal Funding to State AI Alignment in New 2026 Policy",
       "urls": [
         "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-november-2026",
@@ -5123,7 +5114,16 @@
         "https://theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit"
       ],
       "date": "2026-11-18T18:31:53.274732+00:00"
+    },
+    {
+      "title": "U.S. News Survey Finds Patients Prefer AI Healthcare Decisions Over Doctors",
+      "urls": [
+        "https://usnews.com/news/health-news/articles/2026-11-13/patients-more-comfortable-than-doctors-with-ai-driven-healthcare-decisions-survey-finds",
+        "https://usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
+        "https://www.usatoday.com/press-release/story/58339/vinfuture-announces-eight-major-events-for-vinfuture-sci-tech-week-2026"
+      ],
+      "date": "2026-11-18T19:02:01.701039+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T18:31:53.274796+00:00"
+  "lastUpdated": "2026-11-18T19:02:01.701121+00:00"
 }
