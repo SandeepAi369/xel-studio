@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Issues Updated COVID‑19 Public Guidance to Strengthen Global Prevention",
-      "urls": [
-        "https://www.who.int/health-topics/coronavirus",
-        "https://en.wikipedia.org/wiki/Grand_National",
-        "https://www.thejockeyclub.co.uk/the-grand-national/event-schedule",
-        "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
-      ],
-      "date": "2026-11-08T03:02:04.804193+00:00"
-    },
-    {
       "title": "Nasdaq-100 Slides Into Correction as Volatile Tech Stocks Influence Midterm Week",
       "urls": [
         "https://www.benzinga.com/markets/tech/26/11/62765985/earnings-microsoft-alphabet-amazon",
@@ -5163,7 +5153,18 @@
         "https://www.who.int/india/news-room/1"
       ],
       "date": "2026-11-18T02:33:17.164811+00:00"
+    },
+    {
+      "title": "India Defence Military Drdo Technology News Breaking Developments November 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.thedefensenews.com/DRDO-Releases-Expression-of-Interest-for-Indian-Industry-Partner-to-Develop-BEDHAK-High-Power-RF-Directed-Energy-Weapon",
+        "https://en.wikipedia.org/wiki/DRDO_Rustom",
+        "https://en.wikipedia.org/wiki/LRAShM_%28missile%29",
+        "https://en.wikipedia.org/wiki/Cyberwarfare",
+        "https://en.wikipedia.org/wiki/HAL_TEDBF"
+      ],
+      "date": "2026-11-18T03:02:18.358270+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T02:33:17.164873+00:00"
+  "lastUpdated": "2026-11-18T03:02:18.358420+00:00"
 }
