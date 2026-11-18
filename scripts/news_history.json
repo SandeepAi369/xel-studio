@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Lancashire Hotels Offer Online Deals and Pay‑At‑Door Options for Travelers",
-      "urls": [
-        "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence",
-        "https://disabilityworld.org/articles/assistive-tech-for-blind-people-2026",
-        "https://specialneeds.com/articles/assistive-tech/software/microsoft-accessibility-features-for-people-with-disabilities-whats-new-in-2026",
-        "https://www.booking.com/region/gb/lancashire-county.html?msockid=3ac3bacd13c967dc01f1a2c6121166d1",
-        "https://www.afb.org/ios-27-accessibility",
-        "https://www.booking.com/region/gb/lancashire-county.en-gb.html?msockid=3ac3bacd13c967dc01f1a2c6121166d1"
-      ],
-      "date": "2026-11-08T05:31:37.627801+00:00"
-    },
-    {
       "title": "DeepMind Unveils Genie 4 World‑Simulation AI to Boost Scientific Research Capabilities",
       "urls": [
         "https://hellogrowth.ai/en/blog/google-ai-news-november-2026",
@@ -5158,7 +5146,15 @@
         "https://mistral.ai/products/vibe"
       ],
       "date": "2026-11-18T05:05:02.647559+00:00"
+    },
+    {
+      "title": "United Nations Highlights AI Potential for Disability Inclusion at International Purple Fest",
+      "urls": [
+        "https://www.disabilitybelongs.org/2026/11/ai-digital-accessibility",
+        "https://news.un.org/en/story/2025/10/1166082"
+      ],
+      "date": "2026-11-18T05:31:40.975819+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T05:05:02.647642+00:00"
+  "lastUpdated": "2026-11-18T05:31:40.975888+00:00"
 }
