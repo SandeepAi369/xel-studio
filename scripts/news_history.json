@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Potsdam Institute Reports Accelerated Global Warming In Lead Up To COP31",
-      "urls": [
-        "https://www.weforum.org/stories/climate-action-and-waste-reduction/cop31-un-warming-climate-change-nature-news",
-        "https://time.com/article/2026/10/14/climate-change-accelerating-study",
-        "https://news.un.org/en/story/2026/11/1168725",
-        "https://www.sciencedaily.com/releases/2026/08/260801093239.htm"
-      ],
-      "date": "2026-11-08T01:31:41.272309+00:00"
-    },
-    {
       "title": "Mistral AI Deploys Mixtral 8x7B Model for Real‑World Navigation and Interaction",
       "urls": [
         "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -5167,7 +5157,19 @@
         "https://en.wikipedia.org/wiki/2026_Kazakh_legislative_election"
       ],
       "date": "2026-11-18T01:02:10.205421+00:00"
+    },
+    {
+      "title": "RMI Highlights Ten Energy Transition Trends for 2026, Emphasizing Nonlinear Technological Progress",
+      "urls": [
+        "https://rmi.org/resources/the-energy-transition-in-2026-10-trends-to-watch",
+        "https://en.wikipedia.org/wiki/International_Energy_Agency",
+        "https://www.hindustantimes.com/india-news/india-updates-paris-pledge-with-tougher-2035-climate-targets-on-emissions-clean-energy-101774480092652.html",
+        "https://thedailyexplainer.com/breakthrough-climate-technologies-2026",
+        "https://www.britannica.com/science/climate-meteorology",
+        "https://en.wikipedia.org/wiki/NextEra_Energy"
+      ],
+      "date": "2026-11-18T01:31:51.348195+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T01:02:10.205484+00:00"
+  "lastUpdated": "2026-11-18T01:31:51.348268+00:00"
 }
