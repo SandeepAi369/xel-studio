@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "AP Sports Newsletter Delivers Daily Breakdowns of Major Sports Headlines Worldwide",
-      "urls": [
-        "https://apnews.com/sports",
-        "https://www.independent.co.uk/topic/world-record",
-        "https://www.espn.com/espn/latestnews",
-        "https://www.nbcnews.com/sports",
-        "https://www.express.co.uk/latest/world-records"
-      ],
-      "date": "2026-11-08T08:31:41.573452+00:00"
-    },
-    {
       "title": "India Delays UPI Market‑Share Cap Providing Relief to PhonePe and Google Pay",
       "urls": [
         "https://finance.yahoo.com/news/india-delays-upi-payments-market-112343220.html",
@@ -5163,7 +5152,17 @@
         "https://en.wikipedia.org/wiki/Kelvin_Kiptum"
       ],
       "date": "2026-11-18T08:31:41.325812+00:00"
+    },
+    {
+      "title": "Gemini Robotics 2.5 Boosts Industrial Precision, Cutting Production Errors and Costs",
+      "urls": [
+        "https://roboticsandautomationnews.com/2026/11/15/google-deepmind-launches-gemini-robotics-2-5-with-improved-dexterity-and-industrial-capabilities/107186",
+        "https://www.cnet.com/tech/services-and-software/what-is-gemini-everything-you-should-know-google-ai-tool",
+        "https://deepmind.google/models/gemini",
+        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29"
+      ],
+      "date": "2026-11-18T09:02:05.510832+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T08:31:41.325880+00:00"
+  "lastUpdated": "2026-11-18T09:02:05.510900+00:00"
 }
