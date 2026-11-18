@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Champions Open‑Source AI, Driving Global Low‑Code Adoption and Enterprise Growth",
-      "urls": [
-        "https://news.microsoft.com/source/asia/2026/05/26/india-and-ais-inflection-point",
-        "https://www.opensourceforu.com/2026/04/indias-open-source-ai-boom-outpaces-patents-says-stanford",
-        "https://entrepreneur.economictimes.indiatimes.com/news/india-leads-global-open-source-ai-development-on-github/130639615",
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/india-champions-open-source-ai-amid-global-tech-restrictions/132111261",
-        "https://indianexpress.com/article/technology/tech-news-technology/indian-developers-impact-the-whole-world-ai-has-reduced-entry-barrier-githubs-vp-for-apac-10335202"
-      ],
-      "date": "2026-11-08T18:31:51.673829+00:00"
-    },
-    {
       "title": "Premier League 2 Table Shows Early Season Leaders After Nine Matchdays",
       "urls": [
         "https://cdc.gov/global-health/impact/featured-stories-india.html",
@@ -5126,7 +5115,15 @@
         "https://techcrunch.com/category/climate"
       ],
       "date": "2026-11-18T18:02:02.755401+00:00"
+    },
+    {
+      "title": "California Sues OpenAI Over Safety Risks After Rogue Agent Hack",
+      "urls": [
+        "https://huggingface.co/blog",
+        "https://theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit"
+      ],
+      "date": "2026-11-18T18:31:53.274732+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T18:02:02.755507+00:00"
+  "lastUpdated": "2026-11-18T18:31:53.274796+00:00"
 }
