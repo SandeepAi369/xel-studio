@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Deploys Mixtral 8x7B Model for Real‑World Navigation and Interaction",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://en.cryptonomist.ch/2026/11/03/mistral-large-4-ai-model",
-        "https://de.wikipedia.org/wiki/Mistral_AI"
-      ],
-      "date": "2026-11-08T02:01:53.060905+00:00"
-    },
-    {
-      "title": "Digital Technology Shapes Mental Health Landscape In The Digital Age",
-      "urls": [
-        "https://www.towardshealthcare.com/insights/mental-health-technology-market-sizing",
-        "https://www.sciencetimes.com/articles/61141/20260116/ces-2026-health-wellness-tech-that-are-changing-science.htm",
-        "https://www.worldhealthexpo.com/insights/medical-technology/are-mental-health-and-wellness-apps-really-helping-consumers",
-        "https://www.analyticsinsight.net/healthcare/how-ai-is-transforming-psychology-and-mental-health-in-2026",
-        "https://en.m.wikipedia.org/wiki/Mental_health",
-        "https://en.wikipedia.org/wiki/BBC_Online",
-        "https://www.vcbacked.co/blog/top-mental-health-startups-2026"
-      ],
-      "date": "2026-11-08T02:31:35.085645+00:00"
-    },
-    {
       "title": "World Health Organization Issues Updated COVID‑19 Public Guidance to Strengthen Global Prevention",
       "urls": [
         "https://www.who.int/health-topics/coronavirus",
@@ -5178,7 +5155,15 @@
         "https://www.linuxfoundation.org/press/linux-foundation-research-finds-open-source-is-key-to-driving-indias-ai-market"
       ],
       "date": "2026-11-18T02:01:51.542337+00:00"
+    },
+    {
+      "title": "World Health Organization Pushes India to Phase Out Mercury Medical Devices",
+      "urls": [
+        "https://pragativadi.com/india-cuts-tb-mortality-by-38-hits-94-treatment-success-who-report-2026",
+        "https://www.who.int/india/news-room/1"
+      ],
+      "date": "2026-11-18T02:33:17.164811+00:00"
     }
   ],
-  "lastUpdated": "2026-11-18T02:01:51.542395+00:00"
+  "lastUpdated": "2026-11-18T02:33:17.164873+00:00"
 }
