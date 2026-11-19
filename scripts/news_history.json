@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "United States Agrees to Exempt Goods Amid 2026 Tariff Overhaul Impacting Global Trade",
-      "urls": [
-        "https://www.avalara.com/us/en/blog/tariffs-2026-how-new-trade-rules-impact-business.html",
-        "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026",
-        "https://en.wikipedia.org/wiki/2026_Iran_war",
-        "https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/sanctions-update-november-9-2026.html",
-        "https://unctad.org/publication/global-trade-update-november-2026",
-        "https://www.doncasterroversfc.co.uk/news"
-      ],
-      "date": "2026-11-09T20:01:55.705098+00:00"
-    },
-    {
       "title": "NVIDIA Presents Full GTC 2026 Keynote Highlighting AI and GPU Roadmap",
       "urls": [
         "https://www.nvidia.com/gtc/keynote",
@@ -5148,7 +5136,17 @@
         "https://www.pagliacci.com/locations/redmond"
       ],
       "date": "2026-11-19T19:31:52.791319+00:00"
+    },
+    {
+      "title": "India Urges G20 to End Wars and Reopen Black Sea Grain Corridor",
+      "urls": [
+        "https://indianexpress.com/article/india/quad-asean-summit-manila-narendra-modi-donald-trump-2026-10960698",
+        "https://www.thehindu.com/news/national/jaishankar-to-travel-to-us-for-g20-foreign-ministers-meet-quad-this-week/article71632365.ece",
+        "https://www.freepressjournal.in/india/india-urges-g20-to-end-wars-restore-black-sea-grain-exports-secure-supply-chains",
+        "https://www.microsoft.com/en-us/investor/default?msockid=10f0244cced86ced28ab3c5acf556d52"
+      ],
+      "date": "2026-11-19T20:02:00.850727+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T19:31:52.791381+00:00"
+  "lastUpdated": "2026-11-19T20:02:00.850801+00:00"
 }
