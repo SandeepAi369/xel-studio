@@ -5127,7 +5127,16 @@
         "https://www.nytimes.com/2026/11/18/weather/florida-flooding-rain.html"
       ],
       "date": "2026-11-19T01:31:52.606813+00:00"
+    },
+    {
+      "title": "Hugging Face Exposes Hijacked Account That Altered Kokoro AI Model Weights",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_controversies",
+        "https://cryptobriefing.com/hugging-face-ceo-ai-attack-open-source"
+      ],
+      "date": "2026-11-19T02:01:50.754478+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T01:31:52.606891+00:00"
+  "lastUpdated": "2026-11-19T02:01:50.754544+00:00"
 }
