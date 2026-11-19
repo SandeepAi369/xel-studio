@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ecosia Drops Mistral Model and Switches to Chinese Open‑Source AI",
-      "urls": [
-        "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai",
-        "https://mistralni.co.uk"
-      ],
-      "date": "2026-11-09T05:01:56.266929+00:00"
-    },
-    {
       "title": "India Advances Digital Inclusion With Draft RPwD Rules Mandating ICT Accessibility Standards",
       "urls": [
         "https://www.legalitysimplified.com/ministry-of-social-justice-issues-draft-rights-of-persons-with-disabilities-amendment-rules-2026-to-mandate-ict-accessibility-standards",
@@ -5144,7 +5136,17 @@
         "https://uk.finance.yahoo.com/quote/MSFT/holders"
       ],
       "date": "2026-11-19T04:33:19.144641+00:00"
+    },
+    {
+      "title": "India Highlights 34 Fascinating Facts in New Comprehensive Overview Across History, Economy, and Culture",
+      "urls": [
+        "https://www.britannica.com/place/India",
+        "https://factsinstitute.com/countries/facts-about-india",
+        "https://www.bbc.com/news/world/asia/india",
+        "https://www.tagesschau.de/thema/indien"
+      ],
+      "date": "2026-11-19T05:02:05.230829+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T04:33:19.144703+00:00"
+  "lastUpdated": "2026-11-19T05:02:05.230899+00:00"
 }
