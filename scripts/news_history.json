@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Surpasses 27 Million GitHub Contributions, Leading Global Open‑Source Surge",
-      "urls": [
-        "https://www.thehindubusinessline.com/info-tech/india-moves-beyond-ai-adoption-to-open-source-contribution-red-hat/article71429186.ece",
-        "https://www.opensourceforu.com/2026/04/india-hits-27m-on-github-leads-global-open-source-surge",
-        "https://en.wikipedia.org/wiki/2026",
-        "https://munderdiffl.in/blog/indian-open-source-ai-projects-vs-big-tech"
-      ],
-      "date": "2026-11-09T14:31:55.868059+00:00"
-    },
-    {
       "title": "India Pharma Exports Rise to $981 Million in UK Market Amid Trade Deal Boost",
       "urls": [
         "https://fortuneindia.com/business-news/india-pharma-exports-powering-on-despite-global-trade-crisis/169376",
@@ -5156,7 +5146,18 @@
         "https://www.digitalindia.gov.in/journey/2026"
       ],
       "date": "2026-11-19T14:31:55.501525+00:00"
+    },
+    {
+      "title": "Outperforms Generalist Doctors In Diagnosis Challenge Raising Trust Questions",
+      "urls": [
+        "https://emergent.sh/news/week-s-top-5-ai-stories-november-2026-roundup",
+        "https://aiomnifeed.com/research/how-ai-is-transforming-healthcare-in-2026-from-drug-discovery-to-diagnosis",
+        "https://medicalxpress.com/news/2026-11-patient-comfort-ai-driven-health.html",
+        "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
+        "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain"
+      ],
+      "date": "2026-11-19T15:01:58.151723+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T14:31:55.501599+00:00"
+  "lastUpdated": "2026-11-19T15:01:58.151801+00:00"
 }
