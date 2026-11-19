@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Warns Weakest Monsoon in 11 Years Amid El Niño Threat to Agriculture",
-      "urls": [
-        "https://www.indiawaterportal.org/climate-change/climate/indias-monsoon-forecast-2026-highlights-need-for-smarter-agriculture-and-water-planning",
-        "https://internal.imd.gov.in/pages/press_release_mausam.php",
-        "https://www.reuters.com/business/environment/india-expected-have-below-average-monsoon-rains-2026-weather-office-says-2026-05-29",
-        "https://sea.weathernews.com/resources/202604/81",
-        "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
-        "https://www.elninolive.com/impacts/india-monsoon",
-        "https://scienceindiamag.in/el-nino-and-indias-monsoon-2026-scientific-signals-risks-and-preparedness"
-      ],
-      "date": "2026-11-09T10:31:38.624127+00:00"
-    },
-    {
       "title": "Digital Health Records Surge of Firsts and Rapid Innovation Across September",
       "urls": [
         "https://openloophealth.com/blog/digital-health-trends-and-news-october-2026"
@@ -5150,7 +5137,19 @@
         "https://sourceforge.net/projects/taskbarx"
       ],
       "date": "2026-11-19T10:02:13.749037+00:00"
+    },
+    {
+      "title": "Delhi Launches Cloud‑Seeding Trials to Combat Record‑High Smog Levels During Winter",
+      "urls": [
+        "https://phys.org/news/2026-11-restrictions-delhi-pollution.html",
+        "https://www.dw.com/en/how-can-delhi-finally-end-chronic-air-pollution/a-70908021",
+        "https://www.indiatoday.in/science/story/delhi-air-pollution-cloud-seeding-trials-after-diwali-chhath-puja-3034227-2026-11-07",
+        "https://www.hindustantimes.com/india-news/delhi-smog-came-from-farm-fires-lit-after-nasa-satellite-passed-punjab-haryana-stubble-burning-air-quality-101793628039130.html",
+        "https://indiatoday.in/science/story/delhi-pollution-weather-calm-winds-november-ncr-smog-3042054-2026-11-19",
+        "https://www.hindustantimes.com/india-news/delhi-aqi-turns-very-poor-for-first-time-this-season-ahead-of-diwali-air-quality-likely-to-worsen-101793587128875.html"
+      ],
+      "date": "2026-11-19T10:31:46.830142+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T10:02:13.749113+00:00"
+  "lastUpdated": "2026-11-19T10:31:46.830219+00:00"
 }
