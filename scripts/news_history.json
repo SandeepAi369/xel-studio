@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Companies Urged To Co‑Design Digital Services With Disabled Users",
-      "urls": [
-        "https://edd.ca.gov/en/disability",
-        "https://royalsociety.org/news/2025/06/disability-technology",
-        "https://www.medianama.com/2026/09/223-government-proposal-tech-disability",
-        "https://edd.ca.gov/en/Disability/SDI_Online"
-      ],
-      "date": "2026-11-09T17:32:00.145096+00:00"
-    },
-    {
       "title": "Delhi Faces Record‑Breaking Smog After Diwali Firecracker Surge, Prompting Health Warnings",
       "urls": [
         "https://aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality",
@@ -5163,7 +5153,18 @@
         "https://www.apetito.de/essen-auf-raedern"
       ],
       "date": "2026-11-19T17:31:55.111081+00:00"
+    },
+    {
+      "title": "Tropical Storm Kyle Threatens Coastal Flooding with Heavy Rainfall in the Gulf of Mexico",
+      "urls": [
+        "https://usatoday.com/story/news/weather/2026/11/19/flash-flooding-heavy-rain-florida/92856835007",
+        "https://theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+        "https://finance.yahoo.com/real-estate/articles/america-riskiest-states-extreme-weather-155100475.html",
+        "https://www.reflector.com/news/national/america-s-riskiest-states-for-extreme-weather-flooding-hurricanes-and-storms-to-drive-biggest-losses/article_b2f95732-347e-5ad9-b1b1-0b46915df052.html",
+        "https://www.theguardian.com/us-news/2026/oct/23/severe-flooding-west-triggers-rescues-evacuations"
+      ],
+      "date": "2026-11-19T18:01:51.883517+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T17:31:55.111149+00:00"
+  "lastUpdated": "2026-11-19T18:01:51.883579+00:00"
 }
