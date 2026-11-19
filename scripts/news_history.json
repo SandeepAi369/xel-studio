@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Chefkoch Expands Noodle Recipe Collection With Over 84,000 Options For German Home Cooks",
-      "urls": [
-        "https://www.chefkoch.de/rs/s0/nudel/Rezepte.html",
-        "https://www.chefkoch.de/rs/s0/nudeln/Rezepte.html",
-        "https://search.google"
-      ],
-      "date": "2026-11-09T13:31:47.229187+00:00"
-    },
-    {
-      "title": "India Accelerates Electric Vehicle Adoption With New Budget Incentives And Rising Fuel Costs",
-      "urls": [
-        "https://www.ibef.org/industry/electric-vehicle",
-        "https://www.speedcharge.in/ev-policies-india-2026",
-        "https://www.bbc.com/news/articles/cx21181yq4no",
-        "https://allindiaev.com",
-        "https://www.azlyrics.com/lyrics/mariahcarey/whenisawyou.html"
-      ],
-      "date": "2026-11-09T14:01:55.725870+00:00"
-    },
-    {
       "title": "India Surpasses 27 Million GitHub Contributions, Leading Global Open‑Source Surge",
       "urls": [
         "https://www.thehindubusinessline.com/info-tech/india-moves-beyond-ai-adoption-to-open-source-contribution-red-hat/article71429186.ece",
@@ -5157,7 +5137,18 @@
         "https://stellarix.com/white-paper/mobility-aid-advancements-in-wheelchairs"
       ],
       "date": "2026-11-19T13:31:33.938001+00:00"
+    },
+    {
+      "title": "Thailand Accelerates Electric Vehicle Hub Ambitions Amid Policy Push for Cleaner Transport",
+      "urls": [
+        "https://www.theengineer.co.uk/content/news/global-ev-growth-hinges-on-policy-and-cost-cuts",
+        "https://en.wikipedia.org/wiki/Hybrid_electric_vehicle",
+        "https://auto.economictimes.indiatimes.com/tag/electric+vehicle+adoption",
+        "https://en.wikipedia.org/wiki/Electric_car_use_by_country",
+        "https://en.wikipedia.org/wiki/Electric_car"
+      ],
+      "date": "2026-11-19T14:01:59.567308+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T13:31:33.938063+00:00"
+  "lastUpdated": "2026-11-19T14:01:59.567384+00:00"
 }
