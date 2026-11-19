@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Digital Health Records Surge of Firsts and Rapid Innovation Across September",
-      "urls": [
-        "https://openloophealth.com/blog/digital-health-trends-and-news-october-2026"
-      ],
-      "date": "2026-11-09T11:01:55.034223+00:00"
-    },
-    {
       "title": "TechCrunch launched its own app inside ChatGPT, embedding the technology news site directly within the chatbot interface and allowing users",
       "urls": [
         "https://techcrunch.com/tag/generative-ai",
@@ -5149,7 +5142,17 @@
         "https://www.hindustantimes.com/india-news/delhi-aqi-turns-very-poor-for-first-time-this-season-ahead-of-diwali-air-quality-likely-to-worsen-101793587128875.html"
       ],
       "date": "2026-11-19T10:31:46.830142+00:00"
+    },
+    {
+      "title": "India Revises Public Health Standards To Address Colonial Era Gaps",
+      "urls": [
+        "https://en.wikipedia.org/wiki/World_Health_Organization",
+        "https://en.wikipedia.org/wiki/Public_health_system_in_India",
+        "https://en.wikipedia.org/wiki/Public_health",
+        "https://de.wikipedia.org/wiki/Indien"
+      ],
+      "date": "2026-11-19T11:01:57.804315+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T10:31:46.830219+00:00"
+  "lastUpdated": "2026-11-19T11:01:57.804378+00:00"
 }
