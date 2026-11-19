@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "TechCrunch launched its own app inside ChatGPT, embedding the technology news site directly within the chatbot interface and allowing users",
-      "urls": [
-        "https://techcrunch.com/tag/generative-ai",
-        "https://techcrunch.com/category/artificial-intelligence",
-        "https://aitoolsrecap.com/ai-news-today",
-        "https://finance.yahoo.com/technology/ai/articles/j-horror-master-goes-ai-123600521.html",
-        "https://www.merriam-webster.com/dictionary/generative"
-      ],
-      "date": "2026-11-09T11:31:43.206831+00:00"
-    },
-    {
-      "title": "Supreme Court Issues Detailed GEM Bid Notice Guidance to Streamline Procurement Process",
-      "urls": [
-        "https://www.livelaw.in",
-        "https://www.sci.gov.in/all-updates",
-        "https://www.scconline.com/blog/post/2026/11/04/supreme-court-october-2026-key-rulings-top-stories",
-        "https://www.verdictum.in"
-      ],
-      "date": "2026-11-09T12:01:53.815700+00:00"
-    },
-    {
       "title": "Delhi Capitals Unveil New Jersey Ahead of IPL 2026 Season",
       "urls": [
         "https://en.wikipedia.org/wiki/2019_in_the_United_Kingdom",
@@ -5165,7 +5144,14 @@
         "https://www.robodaily.com"
       ],
       "date": "2026-11-19T11:31:37.660442+00:00"
+    },
+    {
+      "title": "Indian Motorcycle Unveils 2026 Lineup Emphasizing Performance and Innovation Across Standard and Cruiser Categories",
+      "urls": [
+        "https://www.indianmotorcycle.com/en-us/motorcycles"
+      ],
+      "date": "2026-11-19T12:02:01.402061+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T11:31:37.660497+00:00"
+  "lastUpdated": "2026-11-19T12:02:01.402128+00:00"
 }
