@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nottingham Forest Forum Receives Security Patch to Protect Fan Discussions",
-      "urls": [
-        "https://www.forestforum.co.uk/index.php",
-        "https://forums.vitalfootball.co.uk/categories/vital-nottingham-forest-forum.57"
-      ],
-      "date": "2026-11-09T23:02:09.739071+00:00"
-    },
-    {
       "title": "Enabled Clinical Decision Support Software Promises Faster, More Accurate Patient Care",
       "urls": [
         "https://www.healthcareitnews.com/topics/artificial-intelligence",
@@ -5154,7 +5146,18 @@
         "https://in.yahoo.com"
       ],
       "date": "2026-11-19T23:02:03.119963+00:00"
+    },
+    {
+      "title": "AIIMS Performs Groundbreaking Prenatal Surgery To Repair Fetal Spinal Defect",
+      "urls": [
+        "https://indianexpress.com/about/aiims",
+        "https://www.tripadvisor.co.uk/Restaurants-g186338-c31-London_England.html",
+        "https://en.wikipedia.org/wiki/Sushant_Singh_Rajput",
+        "https://timesofindia.indiatimes.com/topic/all-india-institutes-of-medical-sciences",
+        "https://en.wikipedia.org/wiki/Atal_Bihari_Vajpayee"
+      ],
+      "date": "2026-11-19T23:31:40.266343+00:00"
     }
   ],
-  "lastUpdated": "2026-11-19T23:02:03.120018+00:00"
+  "lastUpdated": "2026-11-19T23:31:40.266434+00:00"
 }
