@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Madhya Pradesh Invests $655 Million to Build India's First 3D AI Chip Packaging Facility",
-      "urls": [
-        "https://www.techtimes.com/articles/329443/20261023/madhya-pradesh-bets-655m-indias-first-3d-ai-chip-packaging-facility.htm"
-      ],
-      "date": "2026-11-10T06:01:59.258288+00:00"
-    },
-    {
       "title": "Japan Experiences 7.1 Magnitude Earthquake Prompting Cancelled Tsunami Warning Across Pacific",
       "urls": [
         "https://en.wikipedia.org/wiki/Sidoarjo_mud_flow",
@@ -5155,7 +5148,19 @@
         "https://www.business-standard.com/industry/news/india-tech-startup-funding-rises-12-per-cent-in-h1-2026-126062500605_1.html"
       ],
       "date": "2026-11-20T06:01:57.796821+00:00"
+    },
+    {
+      "title": "India’s Fuel Demand Projected to Rise Through 2034 Despite Accelerating EV Adoption",
+      "urls": [
+        "https://bbc.com/news/articles/cx21181yq4no",
+        "https://www.bloomberg.com/news/articles/2026-11-13/india-s-fuel-demand-to-keep-climbing-until-2034-despite-ev-boom",
+        "https://www.speedcharge.in/ev-policies-india-2026",
+        "https://en.m.wikipedia.org/wiki/India",
+        "https://www.india.gov.in",
+        "https://www.business-standard.com/topic/ev-policy"
+      ],
+      "date": "2026-11-20T06:31:30.872688+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T06:01:57.796894+00:00"
+  "lastUpdated": "2026-11-20T06:31:30.872742+00:00"
 }
