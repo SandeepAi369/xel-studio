@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google, AdaniConneX, and Airtel Accelerate AI Data Centre Expansion Across India",
-      "urls": [
-        "https://digitallearning.eletsonline.com/2026/11/iit-delhi-walmart-yardi-ai",
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
-        "https://fortuneindia.com/technology/india-ranks-11th-in-commonwealth-ai-readiness-index-ai-could-add-79-billion-to-gdp/169449",
-        "https://cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
-        "https://digitimes.com/news/a20261106VL205/electronics-manufacturing-capacity-expansion-2027.html",
-        "https://indiatoday.in/technology/news/story/india-launches-three-new-ai-models-including-two-that-work-without-the-internet-3032641-2026-11-05",
-        "https://varindia.com/news/india-ai-data-centre-boom",
-        "https://thehill.com/homenews/house/6160610-democrats-plan-trump-investigations"
-      ],
-      "date": "2026-11-10T09:02:33.709254+00:00"
-    },
-    {
-      "title": "Google Unveils SL2T AI Model Translating Sign Language Into Voice for Deaf Users",
-      "urls": [
-        "https://phys.org/news/2026-08-deaf-audiences-afterthought-theater-cinema.html",
-        "https://en.wikipedia.org/wiki/Hearing_loss",
-        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
-        "https://en.wikipedia.org/wiki/Deaf_culture",
-        "https://www.forbes.com/sites/keelycatwells/2026/08/20/built-by-deaf-people-for-deaf-people-the-new-era-of-american-sign-language-technology"
-      ],
-      "date": "2026-11-10T09:31:53.934852+00:00"
-    },
-    {
       "title": "Hugging Face Faces Safety Scrutiny After Multi‑Agent Incident Highlights Open‑Source AI Risks",
       "urls": [
         "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
@@ -5168,7 +5143,18 @@
         "https://de.wikipedia.org/wiki/Anthropic"
       ],
       "date": "2026-11-20T09:01:57.889422+00:00"
+    },
+    {
+      "title": "Apple Launches Disability Rights Documentary on Streaming Service to Boost Accessibility",
+      "urls": [
+        "https://www.disabilityscoop.com/latest-news",
+        "https://www.ces.tech/topics/accessibility",
+        "https://www.ameridisability.com/tech",
+        "https://royalsociety.org/news-resources/projects/disability-data-assistive-technology",
+        "https://www.continualengine.com/blog/digital-accessibility-trends"
+      ],
+      "date": "2026-11-20T09:33:21.117524+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T09:01:57.889495+00:00"
+  "lastUpdated": "2026-11-20T09:33:21.117613+00:00"
 }
