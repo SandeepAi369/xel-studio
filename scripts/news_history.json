@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Accelerates Chip Exports as Tata‑PSMC Silicon Fab Begins Global Shipments",
-      "urls": [
-        "https://www.digitimes.com/news/a20261030VL223/india-roundup-chipmakers-equipment-investment-launch-manufacturing.html",
-        "https://www.eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape",
-        "https://www.hindustantimes.com/ht-explainers/indias-semiconductor-story-5-out-of-12-units-now-producing-chips-commercially-101789642901782.html",
-        "https://currentaffairs.adda247.com/semiconductor-plants-in-india-2026-complete-list-locations-and-manufacturing-details",
-        "https://www.news18.com/business/economy/semicon-india-2026-from-chip-design-to-ai-how-india-is-building-a-semiconductor-ecosystem-10345371.html"
-      ],
-      "date": "2026-11-10T04:02:14.459324+00:00"
-    },
-    {
       "title": "UFC Announces Title Stripping and Preview for Upcoming UFC 334 Event",
       "urls": [
         "https://www.ufc.com/trending/all",
@@ -5159,7 +5148,14 @@
         "https://shattered.io/amd-vs-nvidia-gpu-ai-buyers-guide-97-percent-growth-vs-30x-claim-2026"
       ],
       "date": "2026-11-20T04:01:56.910255+00:00"
+    },
+    {
+      "title": "BCCI Announces Chief Selector Salary and Potential Extension Amid Calls for Transparency",
+      "urls": [
+        "https://sports.yahoo.com/articles/india-chief-selector-salary-much-155301297.html"
+      ],
+      "date": "2026-11-20T04:31:55.574717+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T04:01:56.910322+00:00"
+  "lastUpdated": "2026-11-20T04:31:55.574782+00:00"
 }
