@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Hugging Face Faces Safety Scrutiny After Multi‑Agent Incident Highlights Open‑Source AI Risks",
-      "urls": [
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
-        "https://finance.yahoo.com/technology/ai/articles/open-source-ai-booming-hugging-193004403.html",
-        "https://myengineeringpath.dev/tools/hugging-face",
-        "https://en.wikipedia.org/wiki/Kimi_%28AI%29",
-        "https://en.wikipedia.org/wiki/GLM_%28AI%29",
-        "https://labelyourdata.com/articles/machine-learning/hugging-face"
-      ],
-      "date": "2026-11-10T10:01:52.393153+00:00"
-    },
-    {
-      "title": "India Showcases 18 Biosphere Reserves Model Boosting Conservation and Community Livelihoods",
-      "urls": [
-        "https://www.aninews.in/news/business/eco-warrior-awards-2026-bhupender-yadav-calls-conservation-a-national-responsibility-honours-indias-environmental-champions20260930141426",
-        "https://www.theguardian.com/environment/conservation+biodiversity",
-        "https://www.thehansindia.com/life-style/national-wildlife-week-2026-dates-significance-history-and-ways-to-protect-wildlife-1127973",
-        "https://www.worldwildlife.org/news/stories",
-        "https://en.wikipedia.org/wiki/Environmentalist_Foundation_of_India",
-        "https://ibgnews.com/2026/11/02/indias-18-biosphere-reserves-showcase-a-biodiversity-conservation-model-13-recognised-by-unesco"
-      ],
-      "date": "2026-11-10T10:31:40.715610+00:00"
-    },
-    {
       "title": "Philip Morris International shares closed at $197.77, giving the tobacco giant a market capitalization of $308.25 billion, according to the",
       "urls": [
         "https://www.mdpi.com/journal/healthcare",
@@ -5165,7 +5140,18 @@
         "https://open.money"
       ],
       "date": "2026-11-20T10:01:49.285866+00:00"
+    },
+    {
+      "title": "Delhi Government Engages AISA President Over Air Pollution Protest After Diwali Smog",
+      "urls": [
+        "https://www.npr.org/2026/11/09/g-s1-152634/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution",
+        "https://www.ndtv.com/topic/air-pollution-north-india",
+        "https://en.wikipedia.org/wiki/Particulate_matter",
+        "https://indianexpress.com/article/india/breaking-india-news-live-updates-06-november-2026-delhi-aqi-pollution-tarun-tejpal-supreme-court-verdict-accident-fire-building-collapse-10952839",
+        "https://pragativadi.com/delhi-air-pollution-aisa-protest-bhupender-yadav-updates"
+      ],
+      "date": "2026-11-20T10:31:52.199965+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T10:01:49.285926+00:00"
+  "lastUpdated": "2026-11-20T10:31:52.200044+00:00"
 }
