@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "IBM Partners With MeitY to Accelerate Deep‑Tech Startup Growth Across India",
-      "urls": [
-        "https://aigovernance.com/policy/india-ai-governance-framework-meity",
-        "https://www.hindustantimes.com/technology/ibm-partners-with-meity-to-boost-india-s-deep-tech-startups-md-outlines-vision-for-digital-swaraj-101791882003982.html",
-        "https://www.digitalindia.gov.in/press-release",
-        "https://www.legal500.com/intelligence/india/privacy/update-meity-notifies-rules-operationalising-the-dpdp-framework-in-india",
-        "https://www.incorpx.io/blog/ai-regulation-india-meity-guidelines-2026",
-        "https://chambers.com/articles/government-notifies-information-technology-amendment-rules-2026"
-      ],
-      "date": "2026-11-10T22:02:03.406305+00:00"
-    },
-    {
       "title": "India EV Policy 2026 Sets Course for $1.3 Trillion Global Market by 2035",
       "urls": [
         "https://www.mobec.io/blog/india-ev-policy-2026-mobec",
@@ -5150,7 +5138,18 @@
         "https://lmmarketcap.com/meta-llama-models"
       ],
       "date": "2026-11-20T22:01:57.133479+00:00"
+    },
+    {
+      "title": "China Expands Solar Market with Golden Sun Incentive Scheme to Accelerate Renewable Adoption",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Renewable_energy_in_China",
+        "https://taiyangnews.info/markets/europe-solar-pv-news-snippets-november-17-2026",
+        "https://renewablesnow.com/regions",
+        "https://en.wikipedia.org/wiki/Renewable_energy_in_India",
+        "https://finance.yahoo.com/energy/articles/3-canadian-renewable-energy-stocks-051836627.html"
+      ],
+      "date": "2026-11-20T22:31:43.859770+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T22:01:57.133540+00:00"
+  "lastUpdated": "2026-11-20T22:31:43.859838+00:00"
 }
