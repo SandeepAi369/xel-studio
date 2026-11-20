@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India EV Policy 2026 Sets Course for $1.3 Trillion Global Market by 2035",
-      "urls": [
-        "https://www.mobec.io/blog/india-ev-policy-2026-mobec",
-        "https://english.zeenews.com",
-        "https://en.wikipedia.org/wiki/Battery_electric_vehicle",
-        "https://www.zoo.org",
-        "https://www.prnewswire.com/news-releases/electric-vehicle-market-worth-1-312-73-billion-by-2035--marketsandmarkets-302912447.html",
-        "https://www.cnbctv18.com/india"
-      ],
-      "date": "2026-11-10T22:32:02.727722+00:00"
-    },
-    {
       "title": "World Internet Conference Highlights Open Source as Core Driver of Global Ecosystem",
       "urls": [
         "https://openai.com/news",
@@ -5149,7 +5137,16 @@
         "https://finance.yahoo.com/energy/articles/3-canadian-renewable-energy-stocks-051836627.html"
       ],
       "date": "2026-11-20T22:31:43.859770+00:00"
+    },
+    {
+      "title": "OpenAI Tightens Monitoring After Hugging Face Incident to Curb Misaligned Model Behavior",
+      "urls": [
+        "https://releasebot.io/updates/huggingface",
+        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+        "https://orangebot.ai/top-ai-models-this-week"
+      ],
+      "date": "2026-11-20T23:01:52.355342+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T22:31:43.859838+00:00"
+  "lastUpdated": "2026-11-20T23:01:52.355420+00:00"
 }
