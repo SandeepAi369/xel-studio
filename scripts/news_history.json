@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Internet Conference Highlights Open Source as Core Driver of Global Ecosystem",
-      "urls": [
-        "https://openai.com/news",
-        "https://olud.ai/latest.html",
-        "https://english.news.cn/20261104/d33eab53524144b4a8efbd47c724aa9a/c.html"
-      ],
-      "date": "2026-11-10T23:01:57.628488+00:00"
-    },
-    {
-      "title": "Pierre Fabre Teams With XtalPi to Accelerate AI‑Driven Drug Discovery",
-      "urls": [
-        "https://uk.finance.yahoo.com/news/ai-drug-development-discovery-global-151500976.html",
-        "https://uk.finance.yahoo.com/news/artificial-intelligence-ai-novo-drug-141300047.html",
-        "https://en.wikipedia.org/wiki/Takeda_Pharmaceutical_Company",
-        "https://vir.com.vn/pierre-fabre-collaborates-with-xtalpi-on-drug-discovery-164796.html",
-        "https://www.nature.com/nrd/articles?year=2026"
-      ],
-      "date": "2026-11-10T23:31:42.839176+00:00"
-    },
-    {
       "title": "Java Surpasses C++ in TIOBE Index as Rust Drops Out of Top Ten",
       "urls": [
         "https://techrepublic.com/article/news-tiobe-november-2026-java-overtakes-cpp",
@@ -5146,7 +5126,17 @@
         "https://orangebot.ai/top-ai-models-this-week"
       ],
       "date": "2026-11-20T23:01:52.355342+00:00"
+    },
+    {
+      "title": "Aiims Indian Medical Research Breakthrough News Top Stories November 2026 — Latest Developments and Key Updates",
+      "urls": [
+        "https://www.aiimsexams.ac.in/auth/login",
+        "https://www.thehindubusinessline.com/news/aiims-allows-faculty-to-set-up-healthcare-start-ups-seeks-5-non-dilutable-equity-stake/article71723116.ece",
+        "https://www.tribuneindia.com/news/delhi/aiims-delhi-breaks-new-ground-with-indias-first-in-utero-spinal-surgery",
+        "https://www.thehindu.com/sci-tech/health/aiims-delhi-performs-a-life-changing-spinal-repair-in-utero-before-the-patients-first-breath/article71708137.ece"
+      ],
+      "date": "2026-11-20T23:32:18.741945+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T23:01:52.355420+00:00"
+  "lastUpdated": "2026-11-20T23:32:18.742013+00:00"
 }
