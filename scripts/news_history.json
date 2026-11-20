@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Surat Engineer Sets New Ultra Marathon Record in South India",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Marathon",
-        "https://en.wikipedia.org/wiki/List_of_United_States_records_in_track_and_field",
-        "https://en.wikipedia.org/wiki/List_of_Indian_records_in_athletics",
-        "https://trackandfieldnews.com/issue/november-2026",
-        "https://trackandfieldnews.com/article/for-the-record-november-2026",
-        "https://runningintheusa.com/classic/list/co/marathon",
-        "https://nutritionhealthinfo.com/nutrition-and-performance-strategies",
-        "https://en.wikipedia.org/wiki/Shalane_Flanagan",
-        "https://www.runcolfax.org"
-      ],
-      "date": "2026-11-10T00:31:49.225376+00:00"
-    },
-    {
       "title": "Managers Struggle With Neuroinclusion Readiness As Only One‑Third Feel Prepared",
       "urls": [
         "https://le.ac.uk/news/2026/november/neurodiversity-autism-mental-health-reform",
@@ -5158,7 +5143,14 @@
         "https://www.usatf.org/campus/articles/2026/biggest-world-athletics-rankings-movers-of-th-32"
       ],
       "date": "2026-11-20T00:31:40.388319+00:00"
+    },
+    {
+      "title": "Education Week Highlights Generative AI's Growing Role in Modern Classrooms",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education"
+      ],
+      "date": "2026-11-20T01:01:53.276569+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T00:31:40.388376+00:00"
+  "lastUpdated": "2026-11-20T01:01:53.276628+00:00"
 }
