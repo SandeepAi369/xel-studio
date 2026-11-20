@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "UFC Announces Title Stripping and Preview for Upcoming UFC 334 Event",
-      "urls": [
-        "https://www.ufc.com/trending/all",
-        "https://www.espn.com/mma/ufc",
-        "https://sports.yahoo.com/mma",
-        "https://www.mmamania.com/ufc-news",
-        "https://www.sherdog.com/news/news/list"
-      ],
-      "date": "2026-11-10T04:32:03.144909+00:00"
-    },
-    {
-      "title": "India Shifts Toward Open Source AI to Counter Frontier Model Restrictions",
-      "urls": [
-        "https://economictimes.indiatimes.com/tech/technology/india-eyes-open-source-homegrown-ai-amid-access-curbs-on-frontier-models/articleshow/132094233.cms",
-        "https://www.india.gov.in"
-      ],
-      "date": "2026-11-10T05:01:52.396146+00:00"
-    },
-    {
       "title": "Screen Reader Roadmap 2026 Highlights Growth of JAWS, NVDA, VoiceOver Across Platforms",
       "urls": [
         "https://en.wikipedia.org/wiki/Amazon_Kindle_devices",
@@ -5155,7 +5136,17 @@
         "https://sports.yahoo.com/articles/india-chief-selector-salary-much-155301297.html"
       ],
       "date": "2026-11-20T04:31:55.574717+00:00"
+    },
+    {
+      "title": "GitHub Reports India Developer Base Hits 27 Million Amid AI‑Assisted Coding Surge",
+      "urls": [
+        "https://www.moneycontrol.com/artificial-intelligence/github-s-india-developer-base-surges-to-27-million-as-ai-agents-reshape-coding-article-13886172.html",
+        "https://www.ndtvprofit.com/technology/india-poised-to-lead-global-ai-deployment-with-scale-trust-and-digital-infrastructure-microsoft-executive-11549421",
+        "https://indianbank.bank.in/en/internet-banking",
+        "https://enterpriseai.economictimes.indiatimes.com/news/industry/india-champions-open-source-ai-amid-global-tech-restrictions/132111261"
+      ],
+      "date": "2026-11-20T05:01:53.007622+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T04:31:55.574782+00:00"
+  "lastUpdated": "2026-11-20T05:01:53.007705+00:00"
 }
