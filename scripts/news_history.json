@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philip Morris International shares closed at $197.77, giving the tobacco giant a market capitalization of $308.25 billion, according to the",
-      "urls": [
-        "https://www.mdpi.com/journal/healthcare",
-        "https://www.usatoday.com/press-release/story/55960/tiber-health-innovation-launches-md-tutor-bringing-ai-powered-individualized-learning-to-universities",
-        "https://www.marketbeat.com/stocks/NYSE/PM/chart",
-        "https://finance.yahoo.com/quote/PM"
-      ],
-      "date": "2026-11-10T11:02:14.618537+00:00"
-    },
-    {
-      "title": "Anthropic Accelerates AI Model Growth, Raising Safety Concerns in New Report",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Anthropic",
-        "https://claude.ai",
-        "https://claude.com",
-        "https://www.the-independent.com/tech/anthropic-ai-progress-claude-safety-b3080302.html",
-        "https://anthropic.skilljar.com",
-        "https://academy.claude.com",
-        "https://www.zacks.com/featured-articles/761/anthropic-ipo"
-      ],
-      "date": "2026-11-10T11:31:39.297733+00:00"
-    },
-    {
       "title": "AOL.com Expands Multilingual News Coverage Across Business, Health, and World Sections",
       "urls": [
         "https://www.thehindu.com/business/budget/union-budget-2026-nirmala-sitharaman-allocations-income-tax-slabs-live-updates/article70573992.ece",
@@ -5163,7 +5140,21 @@
         "https://timesofindia.indiatimes.com/health/aiims-first-fetal-surgery-5-major-challenges-doctors-faced-while-operating-on-an-unborn-baby-for-six-hours/articleshow/135934429.cms"
       ],
       "date": "2026-11-20T11:02:08.964985+00:00"
+    },
+    {
+      "title": "JetBrains Survey Shows Python Overtakes JavaScript While Rust Leads Future Adoption",
+      "urls": [
+        "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-complete-ranking",
+        "https://www.cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html",
+        "https://blog.logrocket.com/ai-dev-tool-power-rankings",
+        "https://www.developer-tech.com",
+        "https://www.infoworld.com",
+        "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-2-2026",
+        "https://techrepublic.com/article/news-jetbrains-2026-python-javascript-rust-survey",
+        "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology"
+      ],
+      "date": "2026-11-20T11:31:59.606144+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T11:02:08.965058+00:00"
+  "lastUpdated": "2026-11-20T11:31:59.606210+00:00"
 }
