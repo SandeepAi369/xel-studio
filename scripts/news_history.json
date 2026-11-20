@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "title": "UN Reports Global Refugee Numbers Decline for First Time in a Decade",
-      "urls": [
-        "https://www.bloomberg.com/news/features/2026-11-06/europe-s-refugee-crisis-how-asylum-protections-are-eroding",
-        "https://www.theguardian.com/world/refugees",
-        "https://www.refugeesinternational.org/the-latest",
-        "https://www.thenewhumanitarian.org/migration",
-        "https://www.thenewhumanitarian.org",
-        "https://news.un.org/en/story/2026/08/1168127",
-        "https://news.un.org/en/story/2026/06/1167693"
-      ],
-      "date": "2026-11-10T03:01:55.021655+00:00"
-    },
-    {
-      "title": "NASA Partners With SpaceX to Launch First Permanent Moon Base Project",
-      "urls": [
-        "https://www.basenor.com/blogs/news/nasa-and-spacex-are-building-a-moon-base-heres-where-things-stand",
-        "https://www.usatoday.com/story/tech/space/2026/11/09/spacex-starship-flight-15-dual-catch/92687599007",
-        "https://spacenews.com/spacex-sets-nov-13-date-for-starship-launch-and-catch",
-        "https://en.wikipedia.org/wiki/2026_in_spaceflight",
-        "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches"
-      ],
-      "date": "2026-11-10T03:31:47.107807+00:00"
-    },
-    {
       "title": "India Accelerates Chip Exports as Tata‑PSMC Silicon Fab Begins Global Shipments",
       "urls": [
         "https://www.digitimes.com/news/a20261030VL223/india-roundup-chipmakers-equipment-investment-launch-manufacturing.html",
@@ -5159,7 +5135,18 @@
         "https://www.hindustantimes.com/india-news/eci-to-host-india-international-conference-on-democracy-and-election-management-101767855438450.html"
       ],
       "date": "2026-11-20T03:01:53.465857+00:00"
+    },
+    {
+      "title": "Nvidia Triggers Chip Market Shakeup With Earnings That Pressure AI Startups",
+      "urls": [
+        "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-19-2026",
+        "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar",
+        "https://investingnews.com/top-tech-news",
+        "https://www.cnbc.com/earnings-announcements",
+        "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+      ],
+      "date": "2026-11-20T03:31:54.060865+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T03:01:53.465987+00:00"
+  "lastUpdated": "2026-11-20T03:31:54.060923+00:00"
 }
