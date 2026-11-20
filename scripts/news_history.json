@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Waaree Renewable Technologies Ltd Secures 200 MW/500 MWh BESS and 360 MWp Solar O&M Contracts",
-      "urls": [
-        "https://www.newindianexpress.com/india/2026/Nov/08/indias-renewables-expansion-offers-energy-security-gains-amid-global-market-uncertainty-says-iea-chief",
-        "https://about.bnef.com/insights/clean-energy/india-transition-factbook-2026",
-        "https://www.mercomindia.com",
-        "https://www.thehawk.in/news/world/indias-energy-storage-scheme-aims-to-attract-10-billion-investment-report",
-        "https://www.pv-magazine-india.com",
-        "https://www.energetica-india.net",
-        "https://www.eqmagpro.com",
-        "https://en.wikipedia.org/wiki/Energy_in_Australia"
-      ],
-      "date": "2026-11-10T18:02:01.906729+00:00"
-    },
-    {
       "title": "TensorFlow Releases Version 2.21 Emphasizing Stability as PyTorch Dominates Research Share",
       "urls": [
         "https://tech-insider.org/pytorch-vs-tensorflow-2026",
@@ -5141,7 +5127,17 @@
         "https://www.computerweekly.com/news/366643997/DfE-proposes-changes-to-student-funding-for-assistive-technology"
       ],
       "date": "2026-11-20T17:31:48.307338+00:00"
+    },
+    {
+      "title": "Bain Survey Highlights Battery Reliability and Charging Gaps as Key Barriers to India's EV Adoption",
+      "urls": [
+        "https://auto.economictimes.indiatimes.com/news/industry/battery-reliability-concerns-charging-gaps-remain-key-barriers-to-ev-adoption-in-india-bain-survey/135093327",
+        "https://www.nationpress.com/business/centre-makes-evs-must-for-govt-staff-cars",
+        "https://www.statista.com/topics/12011/electric-vehicles-in-india",
+        "https://www.moneycontrol.com/news/business/stocks/nomura-sees-ev-adoption-at-inflection-point-in-india-prefers-ather-m-m-hyundai-14051832.html"
+      ],
+      "date": "2026-11-20T18:02:04.335003+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T17:31:48.307403+00:00"
+  "lastUpdated": "2026-11-20T18:02:04.335067+00:00"
 }
