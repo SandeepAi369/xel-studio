@@ -5137,7 +5137,20 @@
         "https://www.moneycontrol.com/news/business/stocks/nomura-sees-ev-adoption-at-inflection-point-in-india-prefers-ather-m-m-hyundai-14051832.html"
       ],
       "date": "2026-11-20T18:02:04.335003+00:00"
+    },
+    {
+      "title": "OpenJDK Vulnerability Enables Remote Code Execution Through Base64 Decoder Flaw",
+      "urls": [
+        "https://entrepreneur.economictimes.indiatimes.com/news/india-leads-global-open-source-ai-development-on-github/130639615",
+        "https://indianexpress.com/article/technology/tech-news-technology/indian-developers-impact-the-whole-world-ai-has-reduced-entry-barrier-githubs-vp-for-apac-10335202",
+        "https://www.business-standard.com/industry/news/github-india-57-million-developers-2030-ai-growth-125102801381_1.html",
+        "https://www.businesstoday.in/technology/news/story/indias-developer-boom-17-million-strong-on-github-ai-and-open-source-drive-growth-452139-2024-10-31",
+        "https://economictimes.indiatimes.com/tech/technology/india-eyes-open-source-homegrown-ai-amid-access-curbs-on-frontier-models/articleshow/132094233.cms",
+        "https://gssoc.girlscript.org/open-source-india",
+        "https://cybersecuritynews.com/java4shell"
+      ],
+      "date": "2026-11-20T18:31:38.852364+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T18:02:04.335067+00:00"
+  "lastUpdated": "2026-11-20T18:31:38.852419+00:00"
 }
