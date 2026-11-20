@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Philips Highlights Emerging Healthcare AI Trends Driving Innovation in 2026",
-      "urls": [
-        "https://www.philips.com/a-w/about/news/archive/features/2026/this-years-emerging-trends-in-healthcare-ai-so-far.html",
-        "https://www.gewobag.de/bauen-in-berlin/bauprojekte/neues-gartenfeld-1-bauabschnitt",
-        "https://finance.yahoo.com/quote/TSLA",
-        "https://newsroom.heart.org/news/health-technology-companies-recognized-as-innovation-winners-at-scientific-sessions-2026"
-      ],
-      "date": "2026-11-10T15:02:11.056696+00:00"
-    },
-    {
       "title": "US Suspends Indian IT Firms From Green Card Program After Security Concerns",
       "urls": [
         "https://economictimes.indiatimes.com/markets/stocks/news/infosys-wipro-tcs-other-it-stocks-in-focus-as-ai-meltdown-sparks-worst-rout-in-us-stocks-since-2020-is-ai-bubble-bursting/articleshow/135592632.cms",
@@ -5144,7 +5134,19 @@
         "https://www.nationalgeographic.com/travel/national-parks/article/great-smoky-mountains-national-park"
       ],
       "date": "2026-11-20T14:31:46.792568+00:00"
+    },
+    {
+      "title": "Pfizer Shifts R&D Toward Higher‑Profit Antibiotics Amid Penicillin Price Decline",
+      "urls": [
+        "https://www.thepharmaletter.com/insights/the-companies-funding-and-developing-ai-for-drug-discovery",
+        "https://en.wikipedia.org/wiki/Pfizer",
+        "https://en.wikipedia.org/wiki/Insilico_Medicine",
+        "https://www.britannica.com/science/drug-chemical-agent",
+        "https://bioengineer.org/artificial-intelligence-significantly-accelerates-drug-discovery-and-molecular-development-timelines",
+        "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-expands-pipeline-ai-181657639.html"
+      ],
+      "date": "2026-11-20T15:02:31.203616+00:00"
     }
   ],
-  "lastUpdated": "2026-11-20T14:31:46.792649+00:00"
+  "lastUpdated": "2026-11-20T15:02:31.203690+00:00"
 }
