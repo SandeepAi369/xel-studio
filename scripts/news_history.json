@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Thorburn Brailsford Robertson Archive Expands Public Access to Historical Media",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Thorburn_Brailsford_Robertson",
-        "https://www.nature.com/nature/articles?type=research-highlight&year=2026"
-      ],
-      "date": "2026-11-11T03:31:55.616179+00:00"
-    },
-    {
       "title": "OpenAI Launches GPT‑6 Astra and Cyber Models to Advance Complex Reasoning and Security Testing",
       "urls": [
         "https://en.wikipedia.org/wiki/ChatGPT",
@@ -5147,7 +5139,17 @@
         "https://www.theverge.com/tech"
       ],
       "date": "2026-11-21T03:31:49.369639+00:00"
+    },
+    {
+      "title": "Google Introduces AI-Powered Docs Creation Tool to Streamline Personal Files and Emails",
+      "urls": [
+        "https://about.google",
+        "https://about.google/company-info",
+        "https://ai.google",
+        "https://mail.google.com"
+      ],
+      "date": "2026-11-21T04:01:51.078898+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T03:31:49.369717+00:00"
+  "lastUpdated": "2026-11-21T04:01:51.078970+00:00"
 }
