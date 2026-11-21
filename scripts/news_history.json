@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Releases Le Chonk Model With Open Weights, Enabling Sovereign AI Control",
-      "urls": [
-        "https://www.cnet.com/tech/services-and-software/mistral-new-le-chonk-ai-model-open-source-available",
-        "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model"
-      ],
-      "date": "2026-11-11T05:02:02.581199+00:00"
-    },
-    {
       "title": "Divyang Sahara Transforms Assistive Technology Delivery Model for Disabled Users",
       "urls": [
         "https://graam.org.in/reimagining-assistive-technology-delivery-through-divyang-sahara-yojana-for-viksit-bharat-2047"
@@ -5136,7 +5128,19 @@
         "https://en.wikipedia.org/wiki/Track_and_field"
       ],
       "date": "2026-11-21T04:32:23.758739+00:00"
+    },
+    {
+      "title": "CHIP Publishes Updated Windows 11 Background Change Guide Highlighting New Personalization Menu",
+      "urls": [
+        "https://www.chip.de/ratgeber/software/windows-10-hintergrundbild-aendern-so-geht-s_72c1f9b0-28c1-4f9e-a087-512829ff39e1.html",
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://music.youtube.com/explore",
+        "https://www.heise.de/tipps-tricks/Windows-11-Hintergrundbild-aendern-so-funktioniert-s-9979847.html",
+        "https://en.wikipedia.org/wiki/Blender_%28software%29",
+        "https://www.llm-releases.com/latest"
+      ],
+      "date": "2026-11-21T05:02:14.822996+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T04:32:23.758804+00:00"
+  "lastUpdated": "2026-11-21T05:02:14.823085+00:00"
 }
