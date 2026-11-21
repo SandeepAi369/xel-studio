@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bing Adds Full Related Search List via SERP Blocks to Boost Query Exploration",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Accessibility_of_transport_in_London",
-        "https://techdows.com/how-to-see-all-bing-related-searches.html",
-        "https://en.wikipedia.org/wiki/Windows_2000",
-        "https://www.disabilityin.org/articles-and-updates/november-digital-accessibility-roundup"
-      ],
-      "date": "2026-11-11T09:31:35.557314+00:00"
-    },
-    {
-      "title": "YouTube Expands Site Sections While Cineworld Cardiff Highlights Immersive Movie Experiences",
-      "urls": [
-        "https://aitoolsrecap.com/Blog/upcoming-ai-models-2026-release-tracker",
-        "https://www.youtube.com/youtube",
-        "https://www.cineworld.co.uk/cinemas/cardiff/055"
-      ],
-      "date": "2026-11-11T10:01:45.507180+00:00"
-    },
-    {
       "title": "Arun Jaitley Stadium Hosts Historic T20I Victory for Bangladesh In New Delhi",
       "urls": [
         "https://en.wikipedia.org/wiki/Arun_Jaitley_Cricket_Stadium",
@@ -5163,7 +5144,16 @@
         "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_Persons_with_Disabilities"
       ],
       "date": "2026-11-21T09:31:34.086931+00:00"
+    },
+    {
+      "title": "Hugging Face Partners With OpenRouter to Boost Open-Weight Model Access",
+      "urls": [
+        "https://huggingface.co/models",
+        "https://thenewstack.io/hugging-face-openrouter-inference",
+        "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed"
+      ],
+      "date": "2026-11-21T10:01:54.328272+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T09:31:34.086976+00:00"
+  "lastUpdated": "2026-11-21T10:01:54.328351+00:00"
 }
