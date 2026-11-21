@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "AIIMS Records Over Six Crore Outpatient Visits Nationwide in 2025‑26",
-      "urls": [
-        "https://timesofindia.indiatimes.com/city/allahabad/aiims-like-facility-is-must-for-prayagraj-ujjwal-raman/articleshow/135745480.cms",
-        "https://health.economictimes.indiatimes.com/news/hospitals/new-aiims-hospitals-record-over-6-crore-opd-consultations-since-2021-22/135722784",
-        "https://socialnews.xyz/2026/11/10/new-aiims-opd-consultations-jump-nearly-3-fold-to-1-45-crore-in-2025-26-govt",
-        "https://healthcareasiamagazine.com/healthcare/news/indias-new-medical-institutes-record-6-crore-outpatient-consultations",
-        "https://observervoice.com/aiims-achieves-6-crore-opd-consultations-nationwide-245200",
-        "https://indulgexpress.com/msociety/2026/Nov/11/aiims-delhis-population-counter-goes-viral-again-is-india-really-close-to-15-billion-people",
-        "https://newsable.asianetnews.com/india/aiims-population-counter-goes-viral-as-india-inches-towards-1-5-billion-read-on-articleshow-693sc62"
-      ],
-      "date": "2026-11-11T19:02:00.924198+00:00"
-    },
-    {
       "title": "Cloudflare Launches Workers, Expanding Edge Computing Services",
       "urls": [
         "https://en.wikipedia.org/wiki/Cloudflare",
@@ -5190,7 +5177,16 @@
         "https://en.wikipedia.org/wiki/COVID-19"
       ],
       "date": "2026-11-21T19:01:47.988222+00:00"
+    },
+    {
+      "title": "Meta Switches From Open‑Source Llama to Proprietary Muse Spark Model",
+      "urls": [
+        "https://thenewstack.io/meta-abandons-llama-spark",
+        "https://en.wikipedia.org/wiki/Qwen",
+        "https://www.livemint.com/technology/tech-news/metas-standalone-ai-app-goes-live-llama-4-powered-voice-assistant-comes-with-memory-and-a-social-side-11745947690506.html"
+      ],
+      "date": "2026-11-21T19:31:38.472832+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T19:01:47.988288+00:00"
+  "lastUpdated": "2026-11-21T19:31:38.472893+00:00"
 }
