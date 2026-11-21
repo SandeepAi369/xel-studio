@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tennessee Tech University Claims Top Public University Spot in Tennessee, Money Magazine Reports",
-      "urls": [
-        "https://www.tntech.edu",
-        "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
-        "https://www.cityam.com/big-tech-earnings-to-test-ai-demand-and-nvidia-surge"
-      ],
-      "date": "2026-11-11T17:01:55.682295+00:00"
-    },
-    {
       "title": "Intelligence Journal Highlights 12 Percent Bias Gap In AI Systems",
       "urls": [
         "https://unric.org/en/building-an-accessible-future-for-all-ai-and-the-inclusion-of-persons-with-disabilities",
@@ -5173,7 +5164,18 @@
         "https://en.wikipedia.org/wiki/List_of_multi-sport_athletes"
       ],
       "date": "2026-11-21T16:31:48.346361+00:00"
+    },
+    {
+      "title": "SpaceX Defends Independence After Elon Musk Denies NASA Subsidies and Highlights Customer Diversity",
+      "urls": [
+        "https://en.wikipedia.org/wiki/SpaceX",
+        "https://en.wikipedia.org/wiki/Tiangong_space_station",
+        "https://www.moneycontrol.com/science/international-space-missions-2026-nasa-isro-spacex-moon-mars-launch-updates-article-13739709.html",
+        "https://bipix.in",
+        "https://www.livemint.com/companies/news/elon-musk-denies-800-billion-valuation-spacex-says-nasa-contracts-comprise-less-than-5-pc-revenue-2026-compared-starlink-11765184633640.html"
+      ],
+      "date": "2026-11-21T17:01:57.355569+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T16:31:48.346441+00:00"
+  "lastUpdated": "2026-11-21T17:01:57.355638+00:00"
 }
