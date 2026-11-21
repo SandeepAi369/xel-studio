@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Publishes Timeline Detailing GPT Model Releases and Key Features Through 2026",
-      "urls": [
-        "https://en.wikipedia.org/wiki/GPT-6",
-        "https://openai.com/index/introducing-gpt-6-cyber",
-        "https://www.scriptbyai.com/timeline-of-chatgpt",
-        "https://openai.com/index/chatgpt"
-      ],
-      "date": "2026-11-11T09:01:59.387047+00:00"
-    },
-    {
       "title": "Bing Adds Full Related Search List via SERP Blocks to Boost Query Exploration",
       "urls": [
         "https://en.wikipedia.org/wiki/Accessibility_of_transport_in_London",
@@ -5152,7 +5142,20 @@
         "https://www.gov.uk/foreign-travel-advice/india"
       ],
       "date": "2026-11-21T08:32:05.852122+00:00"
+    },
+    {
+      "title": "Global AI Rout drove a broad sell‑off in U.S. markets, yet the Indian IT rally persisted despite Anthropic’s blockbuster debut",
+      "urls": [
+        "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-persistent-systems-other-it-stocks-rally-up-to-4-on-ai-rout-despite-anthropics-stellar-debut-time-to-buy/articleshow/136013530.cms",
+        "https://economictimes.indiatimes.com/markets/stocks/news/infosys-wipro-tcs-other-it-stocks-in-focus-as-ai-meltdown-sparks-worst-rout-in-us-stocks-since-2020-is-ai-bubble-bursting/articleshow/135592632.cms",
+        "https://indianexpress.com/article/explained/explained-global/us-perm-suspension-indian-it-firms-green-card-workers-explained-10913011",
+        "https://news.microsoft.com/source/asia/2026/06/03/infosys-tcs-and-wipro-scale-microsoft-365-copilot-to-over-300000-employees?msockid=27872151d5ce6f6f223a3949d4226eee",
+        "https://www.kotakneo.com/news/sectors/indian-it-stocks-rally-despite-global-ai-market-faces-rout",
+        "https://www.etnownews.com/markets/it-stocks-today-tcs-infosys-wipro-hcltech-shares-in-focus-after-us-green-card-crackdown-expert-warns-of-higher-costs-margin-pressure-article-156300608",
+        "https://www.entertales.com/infosys-tcs-wipro-new-work-from-home-rules-it"
+      ],
+      "date": "2026-11-21T09:02:02.860009+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T08:32:05.852203+00:00"
+  "lastUpdated": "2026-11-21T09:02:02.860078+00:00"
 }
