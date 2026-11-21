@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Guatemala, Israel, and Guam Record Simultaneous Earthquakes as Live Map Highlights Global Tremors",
-      "urls": [
-        "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
-        "https://www.the-world-now.com/global-disaster-tracker",
-        "https://earthquake.usgs.gov/earthquakes/map/Recent",
-        "https://www.theuktimes.co.uk/who-is-bill-gates-and-why-is-he-famous"
-      ],
-      "date": "2026-11-11T22:32:00.704218+00:00"
-    },
-    {
       "title": "PyTorch Beats TensorFlow in GitHub Popularity as Developers Favor Flexible Framework",
       "urls": [
         "https://www.spheron.network/blog/pytorch-vs-tensorflow",
@@ -5191,7 +5181,19 @@
         "https://www.crn.com/news/ai/2026/workday-launches-ai-agent-deluge-acquires-agentic-identity-startup"
       ],
       "date": "2026-11-21T22:02:49.281658+00:00"
+    },
+    {
+      "title": "India Faces Above‑Normal Heat and Below‑Normal Rainfall in November as El Nino Persists",
+      "urls": [
+        "https://indiatoday.in/india/story/india-november-weather-imd-forecasts-above-normal-heat-below-normal-rainfall-ptag-3029444-2026-10-31",
+        "https://en.wikipedia.org/wiki/Cyclone_Arnab",
+        "https://www.livemint.com/news/india/monsoon-rainfall-in-2026-fourth-lowest-since-2001-says-imd-11790769632110.html",
+        "https://en.wikipedia.org/wiki/Climate_change_in_Australia",
+        "https://en.wikipedia.org/wiki/Climate_of_Africa",
+        "https://www.indiawaterportal.org/climate-change/climate/indias-monsoon-forecast-2026-highlights-need-for-smarter-agriculture-and-water-planning"
+      ],
+      "date": "2026-11-21T22:33:27.193654+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T22:02:49.281729+00:00"
+  "lastUpdated": "2026-11-21T22:33:27.193714+00:00"
 }
