@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Cloudflare Launches Workers, Expanding Edge Computing Services",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Cloudflare",
-        "https://www.forbes.com/sites/chuckbrooks/2026/10/08/infinite-computing-when-ai-and-quantum-computing-become-one",
-        "https://www.moneycontrol.com/technology/intel-at-computex-2026-from-new-xeon-6-to-rackscale-ai-infrastructure-everything-intel-announced-article-13938645.html",
-        "https://stockanalysis.com/stocks/amzn"
-      ],
-      "date": "2026-11-11T19:32:12.128285+00:00"
-    },
-    {
-      "title": "Jaishankar Rules Out Military Solutions at G20, Calls for Dialogue on Ukraine and Terrorism",
-      "urls": [
-        "https://www.indiatoday.in/world/story/s-jaishankar-g20-atlanta-meetings-russia-poland-south-korea-ptag-3029704-2026-11-01",
-        "https://www.indiandefensenews.in/2026/11/g20-foreign-ministers-conclude-atlanta.html",
-        "https://en.wikipedia.org/wiki/Foreign_relations_of_Australia",
-        "https://en.wikipedia.org/wiki/Foreign_relations_of_India",
-        "https://www.mea.gov.in/press-releases",
-        "https://www.republicworld.com/world-news/jaishankar-at-g20-rules-out-military-solutions-to-conflicts-calls-for-energy-stability-and-diversified-supply-chains-2026-11-01-140173",
-        "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
-      ],
-      "date": "2026-11-11T20:01:51.581453+00:00"
-    },
-    {
       "title": "BCCI Announces India A Squad for ACC Rising Stars Asia Cup",
       "urls": [
         "https://www.bcci.tv/news/article/india-a-squad-for-acc-rising-stars-asia-cup-announced",
@@ -5186,7 +5163,19 @@
         "https://www.livemint.com/technology/tech-news/metas-standalone-ai-app-goes-live-llama-4-powered-voice-assistant-comes-with-memory-and-a-social-side-11745947690506.html"
       ],
       "date": "2026-11-21T19:31:38.472832+00:00"
+    },
+    {
+      "title": "Donald Trump Returns to White House in Second Presidency Amid Political Analysis",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+        "https://en.wikipedia.org/wiki/United_States",
+        "https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration",
+        "https://moneycontrol.com/budget/interim-budget-vs-full-budget-why-india-had-two-budget-announcements-in-2024-article-14085701.html/amp",
+        "https://en.wikipedia.org/wiki/Government_shutdowns_in_the_United_States",
+        "https://thehindu.com/news/top-news-of-the-day-november-20-2026/article71724226.ece"
+      ],
+      "date": "2026-11-21T20:02:31.534103+00:00"
     }
   ],
-  "lastUpdated": "2026-11-21T19:31:38.472893+00:00"
+  "lastUpdated": "2026-11-21T20:02:31.534179+00:00"
 }
