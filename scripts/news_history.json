@@ -1,22 +1,6 @@
 {
   "entries": [
     {
-      "title": "PyTorch Showcases Open-Source Advances and Awards at North America Conference",
-      "urls": [
-        "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together"
-      ],
-      "date": "2026-11-12T05:02:08.297224+00:00"
-    },
-    {
-      "title": "U.S. Department of Defense Publishes Marine Wearable Technology Report Detailing Future Gear",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Wearable_technology",
-        "https://uk.yahoo.com",
-        "https://login.yahoo.com"
-      ],
-      "date": "2026-11-12T05:31:49.973779+00:00"
-    },
-    {
       "title": "Google DeepMind Deploys Gemini Agentic System to Verify Signal Protocol Security",
       "urls": [
         "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model",
@@ -5230,7 +5214,20 @@
         "https://linuxfoundation.org/blog/linux-foundation-newsletter-november-2026"
       ],
       "date": "2026-11-22T05:01:44.217956+00:00"
+    },
+    {
+      "title": "Nashville International Airport Launches New Accessibility Service for Travelers with Disabilities",
+      "urls": [
+        "https://www.nvaccess.org/post/in-process-13th-november-2026",
+        "https://www.nvaccess.org/post/in-process-2nd-november-2026",
+        "https://www.loc.gov/nls/new-materials/talking-book-topics/talking-book-topics-november-december-2026",
+        "https://toptechtidbits.com/newsletter-11-19-2026",
+        "https://www.mojeek.com/search?q=screen+reader+accessibility+blind+people+technology+news+fresh+announcements+November+2026&fmt=news",
+        "https://www.disabilityin.org/articles-and-updates/november-digital-accessibility-roundup",
+        "https://ood.ohio.gov/accessible-ohio/accessible-ohio-blog/screen-reader-advancements-2026"
+      ],
+      "date": "2026-11-22T05:32:05.121912+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T05:01:44.218012+00:00"
+  "lastUpdated": "2026-11-22T05:32:05.121977+00:00"
 }
