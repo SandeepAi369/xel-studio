@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google DeepMind Deploys Gemini Agentic System to Verify Signal Protocol Security",
-      "urls": [
-        "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
-        "https://deepmind.google/blog/introducing-alphaproof-code",
-        "https://en.wikipedia.org/wiki/Google_AI",
-        "https://en.wikipedia.org/wiki/Google_Antigravity"
-      ],
-      "date": "2026-11-12T06:02:08.827228+00:00"
-    },
-    {
       "title": "UN Weather Agency Reports Accelerating Global Heat Accumulation Threatening Climate Goals",
       "urls": [
         "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-extremes-earth-global-heating",
@@ -5239,7 +5228,21 @@
         "https://economictimes.indiatimes.com/news/company/corporate-trends/google-to-invest-5-million-in-iit-kharagpur-to-support-artificial-intelligence-research/articleshow/136048608.cms"
       ],
       "date": "2026-11-22T06:02:07.012287+00:00"
+    },
+    {
+      "title": "South Florida Flooding Forces School Closures and Strands Residents as Storm Kyle Intensifies",
+      "urls": [
+        "https://www.floridadisaster.org",
+        "https://www.noaa.gov/news-release/noaa-predicts-below-normal-2026-atlantic-hurricane-season",
+        "https://www.usatoday.com/story/news/weather/2026/11/19/flash-flooding-heavy-rain-florida/92856835007",
+        "https://www.world-today-news.com/historic-flooding-moves-north-across-florida-coast-shift-toward-georgia-carolinas-forecast",
+        "https://www.cbsnews.com/miami/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade",
+        "https://www.yahoo.com/news/weather-news/articles/florida-flooding-d-j-vu-203206871.html",
+        "https://nbcmiami.com/news/local/breaking-news-live-updates-south-florida-miami-today-november-18-2026/3889620",
+        "https://www.cfldr.com/florida-flooding"
+      ],
+      "date": "2026-11-22T06:31:32.177575+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T06:02:07.012345+00:00"
+  "lastUpdated": "2026-11-22T06:31:32.177634+00:00"
 }
