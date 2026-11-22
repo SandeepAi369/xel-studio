@@ -37,7 +37,7 @@ A cutting-edge, full-stack platform built with **Next.js 16** and **React 19**, 
 
 ---
 
-## 🌟 Overview
+## 🌟XeL Studio Overview
 
 **XeL Studio** is a personal AI research and cyber security platform that combines:
 
