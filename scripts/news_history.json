@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Bilal and Känzig Update Climate Change Impacts With New Regional Risk Analysis",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Effects_of_climate_change",
-        "https://www.merriam-webster.com/dictionary/vindicate",
-        "https://economictimes.indiatimes.com/news/environment/global-warming"
-      ],
-      "date": "2026-11-12T22:31:59.836923+00:00"
-    },
-    {
       "title": "Mahindra Integrates BharatGPT Platform Through CoRover.ai Partnership to Boost Indian AI Services",
       "urls": [
         "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
@@ -5290,7 +5281,20 @@
         "https://www.techtimes.com/articles/329109/20261016/warming-rate-doubled-since-2010-seven-climate-records-broken-2026-state-climate-report.htm"
       ],
       "date": "2026-11-22T22:31:39.344787+00:00"
+    },
+    {
+      "title": "BharatGPT Enables Offline AI Access for Indian Startups, Claiming Fivefold Return on Investment",
+      "urls": [
+        "https://thehindu.com/news/morning-digest-november-20-2026/article71721983.ece",
+        "https://aidevdayindia.org/blogs/india-ai-ecosystem/bharatgpt-vs-international-models.html",
+        "https://hindustantimes.com/education/news/openai-offers-12-months-of-free-chatgpt-plus-to-researchers-in-india-applications-begin-on-november-20-101794905656173.html",
+        "https://bharatgpt.ai",
+        "https://www.sify.com/ai-analytics/no-internet-no-cloud-indias-bharatgpt-is-taking-a-different-ai-path",
+        "https://www.callmissed.com/blog/india-s-public-ai-stack-bharatgpt-sarvam-krutrim-unveiling-the-nation-s-ai-ambit",
+        "https://indianexpress.com/article/explained/explained-sci-tech/bharatgpt-creator-explains-india-ai-prospects-10536549"
+      ],
+      "date": "2026-11-22T23:01:54.106726+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T22:31:39.344845+00:00"
+  "lastUpdated": "2026-11-22T23:01:54.106806+00:00"
 }
