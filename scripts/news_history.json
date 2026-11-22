@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Reserve Bank of India Warns Public About Fake Job Offers and Wealth Advice Scams",
-      "urls": [
-        "https://opportunities.rbi.org.in",
-        "https://m.rbi.org.in/commonman/english/Scripts/Home.aspx",
-        "https://www.cnbctv18.com/economy/india-cpi-retail-inflation-in-october-next-rbi-monetary-policy-december-4-20032087.htm"
-      ],
-      "date": "2026-11-12T07:02:09.281597+00:00"
-    },
-    {
-      "title": "National Health Authority says the AI system will use predictive analytics to flag fraudulent claims and automatically approve routine treatments,",
-      "urls": [
-        "https://www.digitalhealthnews.com/government-plans-ai-led-upgrade-of-ayushman-bharat-for-claims-processing-digital-health-records",
-        "https://hindustantimes.com/cities/chandigarh-news/ayushman-bharat-scheme-low-income-families-to-get-subsidised-healthcare-in-ggm-says-saini-101794339802557.html",
-        "https://en.wikipedia.org/wiki/Timeline_of_the_Narendra_Modi_premiership"
-      ],
-      "date": "2026-11-12T07:31:38.882173+00:00"
-    },
-    {
       "title": "Microsoft Unveils New MAI Models and Majorana 2 at Build 2026 Conference",
       "urls": [
         "https://techstartups.com/2026/11/10/top-tech-news-roundup-for-today-november-10-2026-anthropic-1-4-trillion-ipo-google-nvidia-investigation-microsoft-open-spacex-more",
@@ -5242,7 +5224,21 @@
         "https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf"
       ],
       "date": "2026-11-22T07:01:53.390341+00:00"
+    },
+    {
+      "title": "Pharma AI Vendor Landscape Highlights Surge in AI-Driven Drug Trials and Discoveries",
+      "urls": [
+        "https://intuitionlabs.ai/articles/ai-adoption-pharma-biotech-benchmarks",
+        "https://intuitionlabs.ai/articles/pharma-ai-vendor-landscape-2026",
+        "https://www.reuters.com/business/healthcare-pharmaceuticals",
+        "https://drugscontrol.org/news-detail.php?newsid=46369",
+        "https://www.biospace.com/news",
+        "https://www.mojeek.com/search?q=drug+discovery+AI+pharmaceutical+research+news+top+stories+November+2026&fmt=news",
+        "https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026",
+        "https://www.cdc.gov/free-mind/about-substances/index.html"
+      ],
+      "date": "2026-11-22T07:31:43.449860+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T07:01:53.390410+00:00"
+  "lastUpdated": "2026-11-22T07:31:43.449927+00:00"
 }
