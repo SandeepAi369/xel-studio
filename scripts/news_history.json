@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "IPL 2026 Offers Complete Fixture Schedule, Live Scores and Real‑Time Points Table",
-      "urls": [
-        "https://www.outlookindia.com/sports/cricket/ipl-2027-trade-window-list-of-completed-deals-in-pics",
-        "https://www.cricinfo.com/series/ipl-2026-1510719"
-      ],
-      "date": "2026-11-12T16:32:08.762051+00:00"
-    },
-    {
       "title": "Apple Expands Media Access Through Official Newsroom Platform Offering Press Releases, Videos, Images",
       "urls": [
         "https://www.apple.com/newsroom"
@@ -5285,7 +5277,19 @@
         "https://irunfar.com/this-week-in-running-november-16-2026"
       ],
       "date": "2026-11-22T16:31:52.737822+00:00"
+    },
+    {
+      "title": "NASA Awards Six Moon Base Contracts to Advance Transportation, Infrastructure, and Science Projects",
+      "urls": [
+        "https://www.jpl.nasa.gov/news/nasa-awards-moon-base-transportation-technology-science-projects",
+        "https://www.nasa.gov/mission/nasas-spacex-crs-35",
+        "https://www.space.com/news/archive",
+        "https://www.space.com/tag/spacex",
+        "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt",
+        "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station"
+      ],
+      "date": "2026-11-22T17:01:52.032432+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T16:31:52.737907+00:00"
+  "lastUpdated": "2026-11-22T17:01:52.032514+00:00"
 }
