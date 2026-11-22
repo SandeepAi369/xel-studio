@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Unveils New MAI Models and Majorana 2 at Build 2026 Conference",
-      "urls": [
-        "https://techstartups.com/2026/11/10/top-tech-news-roundup-for-today-november-10-2026-anthropic-1-4-trillion-ipo-google-nvidia-investigation-microsoft-open-spacex-more",
-        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks",
-        "https://news.microsoft.com/build-2026",
-        "https://news.microsoft.com/build-2026?msockid=1d7a2d3e3a366e20368a35313bec6f3e"
-      ],
-      "date": "2026-11-12T08:01:51.620490+00:00"
-    },
-    {
       "title": "Chicago Marathon Draws Over 50,000 Runners to City Streets This Weekend",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_European_records_in_athletics",
@@ -5238,7 +5228,17 @@
         "https://www.cdc.gov/free-mind/about-substances/index.html"
       ],
       "date": "2026-11-22T07:31:43.449860+00:00"
+    },
+    {
+      "title": "SpaceX Launches 35th Cargo Mission Delivering Disease Research to Space Station",
+      "urls": [
+        "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station",
+        "https://www.spacex.com/launches",
+        "https://www.spacex.com/news",
+        "https://www.nasa.gov/news-release/nasas-spacex-crew-12-launches-to-international-space-station"
+      ],
+      "date": "2026-11-22T08:02:07.438040+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T07:31:43.449927+00:00"
+  "lastUpdated": "2026-11-22T08:02:07.438103+00:00"
 }
