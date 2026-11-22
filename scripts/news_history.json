@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google Open‑Sources TorchTPU to Simplify PyTorch Use on Tensor Processing Units",
-      "urls": [
-        "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
-        "https://www.toptal.com/developers/deep-learning/pytorch-vs-tensorflow"
-      ],
-      "date": "2026-11-12T14:31:44.858176+00:00"
-    },
-    {
       "title": "Trump Announces 200% Tariff on Generic Drugs, Threatening $9.7 Billion Indian Export Market",
       "urls": [
         "https://www.fortuneindia.com/business-news/india-pharma-exports-powering-on-despite-global-trade-crisis/169376",
@@ -5276,7 +5268,19 @@
         "https://www.tomshardware.com/software/operating-systems/linux"
       ],
       "date": "2026-11-22T14:31:36.360626+00:00"
+    },
+    {
+      "title": "Imperial College London AI Spin‑Out Acquired By Neurotech Firm to Boost Brain Health Tools",
+      "urls": [
+        "https://www.digitalhealth.net/news",
+        "https://healthcare.digital/single-post/nelson-advisors-this-week-in-european-healthtech-medtech-and-health-ai-20th-november-2026",
+        "https://www.healthleadersmedia.com/innovation/cms-offers-good-news-bad-news-telehealth",
+        "https://healthcareittoday.com/2026/11/21/weekly-roundup-november-21-2026",
+        "https://isfteh.org",
+        "https://openloophealth.com/blog/digital-health-trends-and-news-october-2026"
+      ],
+      "date": "2026-11-22T15:01:47.038720+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T14:31:36.360725+00:00"
+  "lastUpdated": "2026-11-22T15:01:47.038781+00:00"
 }
