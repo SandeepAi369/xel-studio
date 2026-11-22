@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "PM Modi Unveils Three Solar Guides to Boost India's Clean‑Energy Transition",
-      "urls": [
-        "https://www.nationpress.com/national/modi-releases-3-solar-docs-at-re-summit",
-        "https://en.wikipedia.org/wiki/Solar_energy",
-        "https://en.wikipedia.org/wiki/Solar_panel"
-      ],
-      "date": "2026-11-12T01:31:46.416192+00:00"
-    },
-    {
       "title": "Google Invests $15 Billion in Indian Data Centre Amid Water and Wildlife Concerns",
       "urls": [
         "https://economictimes.indiatimes.com/tech/information-tech/corover-ai-tech-mahindra-partner-on-india-origin-ai/articleshow/134414036.cms",
@@ -5199,7 +5190,19 @@
         "https://www.latestly.com/agency-news/india-news-empowering-india-enabling-lives-58000-divyangjan-senior-citizens-benefit-from-nationwide-samajik-adhikarita-camps-7608919.html"
       ],
       "date": "2026-11-22T01:01:56.569311+00:00"
+    },
+    {
+      "title": "Climate India 2026 Report Highlights Nationwide Vulnerability to Extreme Weather",
+      "urls": [
+        "https://public.wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-son2026",
+        "https://www.indiatoday.in/india/story/india-november-weather-imd-forecasts-above-normal-heat-below-normal-rainfall-ptag-3029444-2026-10-31",
+        "https://www.cseindia.org/climate-india-2026-an-assessment-of-extreme-weather-events-13324",
+        "https://www.newindianexpress.com/cities/chennai/2026/Nov/11/third-low-pressure-system-likely-over-bay-of-bengal-on-november-13-tamil-nadus-impact-uncertain",
+        "https://rankvyuh.com/current-affairs/news/imd-november-2026-rainfall-outlook-below-normal-el-nino",
+        "https://sea.weathernews.com/resources/202604/81"
+      ],
+      "date": "2026-11-22T01:31:57.171863+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T01:01:56.569375+00:00"
+  "lastUpdated": "2026-11-22T01:31:57.171927+00:00"
 }
