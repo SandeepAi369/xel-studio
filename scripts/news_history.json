@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Age of Empires II Reveals Popular Cheat Codes That Instantly Grant Resources",
-      "urls": [
-        "https://www.calculator.com",
-        "https://en.wikipedia.org/wiki/World_Wildlife_Fund",
-        "https://www.undp.org/nature/our-work-areas/biodiversity-conservation",
-        "https://zhidao.baidu.com/question/2073760346883207148.html",
-        "https://www.gosforthcent.newcastle.sch.uk/inc/sub_build_ICS.asp?pageID=34544"
-      ],
-      "date": "2026-11-12T14:02:21.239827+00:00"
-    },
-    {
       "title": "Google Open‑Sources TorchTPU to Simplify PyTorch Use on Tensor Processing Units",
       "urls": [
         "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
@@ -5276,7 +5265,18 @@
         "https://www.pv-tech.org/indias-solar-generation-rises-39-in-q2-crea"
       ],
       "date": "2026-11-22T14:01:57.129099+00:00"
+    },
+    {
+      "title": "German States Adopt Nextcloud Collaboration for Schools, Chimera Linux Gains NVIDIA Driver Support",
+      "urls": [
+        "https://9to5linux.com/9to5linux-weekly-roundup-november-22nd-2026",
+        "https://opensource.googleblog.com/2026/11/this-week-in-open-source-nov-20.html",
+        "https://lwn.net/free",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-45-2026-november-2-8",
+        "https://www.tomshardware.com/software/operating-systems/linux"
+      ],
+      "date": "2026-11-22T14:31:36.360626+00:00"
     }
   ],
-  "lastUpdated": "2026-11-22T14:01:57.129171+00:00"
+  "lastUpdated": "2026-11-22T14:31:36.360725+00:00"
 }
