@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "EY Launches My EY Portal Centralizing Technologies, Insights and Collaboration Tools",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-11-11/rise-of-clean-tech-makes-2026-a-climate-turning-point-gore-says",
-        "https://en.wikipedia.org/wiki/Joe_Romm",
-        "https://login.ey.com",
-        "https://www.ksat.com/business/2026/09/21/world-leaders-in-new-york-to-grapple-with-climate-fuel-prices-ai-and-disasters-complicate-things",
-        "https://mfareg.ey.com/signin-oidc",
-        "https://www.thehawk.in/news/india/pm-modi-to-inaugurate-bharat-renewable-energy-summit-expo-2026-in-delhi-today",
-        "https://en.wikipedia.org/wiki/Climate_change_policy_of_the_United_States"
-      ],
-      "date": "2026-11-13T01:31:34.002127+00:00"
-    },
-    {
       "title": "Princeton University Press Publishes Comprehensive Source Book on Indian Philosophy",
       "urls": [
         "https://en.m.wikipedia.org/wiki/Indian_people"
@@ -5284,7 +5271,20 @@
         "https://ozewai.org/blog/ozewai-news/weekly-reading-list-16-november-2026"
       ],
       "date": "2026-11-23T01:01:55.837175+00:00"
+    },
+    {
+      "title": "USGS Releases Satellite Images Highlighting Hawaiian Volcano Activity and Safety Alerts",
+      "urls": [
+        "https://www.usgs.gov/programs/VHP/news",
+        "https://www.orbisweather.com/weekly-earth-watch-volcanoes-earthquakes-natural-hazards-november-16-22-2026",
+        "https://earthquake.usgs.gov/earthquakes/map/Earthquaketoday",
+        "https://www.tripadvisor.in/Restaurants-g304554-c8-Mumbai_Maharashtra.html",
+        "https://earthquake.usgs.gov/earthquakes/map?extent=47.37045%2C-123.20206&extent=47.90253%2C-122.20505&range=month&magnitude=all&listOnlyShown=true&baseLayer=street&settings=true",
+        "https://en.wikipedia.org/wiki/2023%E2%80%932025_Sundhn%C3%BAkur_eruptions",
+        "https://www.tripadvisor.in/Restaurants-g304551-c8-New_Delhi_National_Capital_Territory_of_Delhi.html"
+      ],
+      "date": "2026-11-23T01:32:08.045727+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T01:01:55.837212+00:00"
+  "lastUpdated": "2026-11-23T01:32:08.045786+00:00"
 }
