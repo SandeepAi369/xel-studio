@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "ESPN Expands India Cricket Coverage With Live Scores and Historic Tendulkar Archive",
-      "urls": [
-        "https://www.espn.com/cricket/team/_/id/6/india",
-        "https://www.zoomnews.in/en/news-detail/team-india-squad-changes-for-final-two-odis-against-new-zealand-tour-latest-key-updates.html",
-        "https://www.cricketnmore.com/tagging/senior-men",
-        "https://www.news18.com/cricket/india-to-tour-bangladesh-for-white-ball-series-in-2026-bcci-secretary-gives-major-update-ws-no-10070184.html",
-        "https://en.wikipedia.org/wiki/Sachin_Tendulkar"
-      ],
-      "date": "2026-11-13T04:31:42.751874+00:00"
-    },
-    {
       "title": "Google Maps Expands Street View Access to Global Landmarks and Natural Wonders",
       "urls": [
         "https://support.google.com/maps/answer/3093484?hl=id&co=GENIE.Platform%3DDesktop",
@@ -5307,7 +5296,17 @@
         "https://www.bcci.tv/news/article/indias-squad-for-afghanistan-t20i-series-announced"
       ],
       "date": "2026-11-23T04:31:40.252002+00:00"
+    },
+    {
+      "title": "Mistral AI Launches 1 Trillion Parameter Model and Open‑Weight Large 4 to Challenge Global Competitors",
+      "urls": [
+        "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+        "https://www.cnet.com/tech/services-and-software/mistral-new-le-chonk-ai-model-open-source-available",
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+        "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model"
+      ],
+      "date": "2026-11-23T05:02:00.887612+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T04:31:40.252063+00:00"
+  "lastUpdated": "2026-11-23T05:02:00.887694+00:00"
 }
