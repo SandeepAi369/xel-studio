@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Overtakes Lahore As World's Most Polluted City After Diwali Smog Surge",
-      "urls": [
-        "https://www.cseindia.org/cse-releases-early-winter-post-diwali-air-pollution-analysis-for-delhi-ncr-13335",
-        "https://economictimes.indiatimes.com/news/delhi-pollution",
-        "https://apnews.com/article/india-new-delhi-pollution-diwali-air-quality-f3ba17c93d6fb0898392dce06ca4d776",
-        "https://www.thestar.com.my/news/world/2026/11/13/delhi-overtakes-lahore-as-world039s-most-polluted-city-as-air-quality-drops",
-        "https://en.wikipedia.org/wiki/Air_pollution",
-        "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo"
-      ],
-      "date": "2026-11-13T18:02:24.325009+00:00"
-    },
-    {
-      "title": "Edge0 Launches 145B and 120B Language Models Targeting Edge Computing Performance",
-      "urls": [
-        "https://cryptobriefing.com/openai-anthropic-reveal-new-ai-models-products-in-week-45-of-2026",
-        "https://openai.com",
-        "https://aiweekly.co/ai-news-today",
-        "https://artificial-intelligence-wiki.com/ai-research/ai-news-and-trends/ai-open-source-news"
-      ],
-      "date": "2026-11-13T18:31:59.004949+00:00"
-    },
-    {
       "title": "Scientists Uncover Hidden Viral Threat That May Undermine Current Vaccines",
       "urls": [
         "https://www.sciencedaily.com/news/health_medicine",
@@ -5331,7 +5309,20 @@
         "https://www.indiatoday.in/science/story/delhi-pollution-weather-calm-winds-november-ncr-smog-3042054-2026-11-19"
       ],
       "date": "2026-11-23T18:01:59.823258+00:00"
+    },
+    {
+      "title": "OpenAI Launches Local API Inference in India to Remove Deployment Barriers",
+      "urls": [
+        "https://opensourcegen.com/blog/open-source-ai-model-releases-november-2026",
+        "https://casrai.org/news/openai-india-api-inference-residency-november-2026",
+        "https://www.mojeek.com/search?q=Indian+developers+open+source+AI+contributions+news+fresh+announcements+November+2026&fmt=news",
+        "https://blog.mean.ceo/latest-ai-announcements-news-november-2026",
+        "https://newsbytesapp.com/news/science/openai-india-program-applications-open-november-30-3-seats-each/tldr",
+        "https://dev.to/gksu_demirci_56f752953e7/weekly-ai-digest-november-23-2026-2e2h",
+        "https://www.gla.ac.uk/schools/computing/research/researchsections/systems-section/events"
+      ],
+      "date": "2026-11-23T18:32:12.757239+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T18:01:59.823323+00:00"
+  "lastUpdated": "2026-11-23T18:32:12.757334+00:00"
 }
