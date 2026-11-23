@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clean Max Enviro Energy Solutions Ltd Plans 3 GW Wind‑Solar Build and 1 GW Pumped Storage",
-      "urls": [
-        "https://renewablesnow.com/news",
-        "https://en.wikipedia.org/wiki/Renewable_energy",
-        "https://renewablesnow.com/news/solar",
-        "https://renewablesnow.com",
-        "https://renewablesnow.com/news/wind",
-        "https://www.solarpowerworldonline.com/category/industry-news",
-        "https://www.renews.biz",
-        "https://www.renewableenergyworld.com/news"
-      ],
-      "date": "2026-11-13T22:31:43.961042+00:00"
-    },
-    {
-      "title": "PKO Bank Polski Ekstraklasa Publishes 2026‑27 Standings Highlighting Wins, Goals and Points",
-      "urls": [
-        "https://infoq.com/news/2026/10/google-meta-torchtpu",
-        "https://brainly.ph/question/533798",
-        "https://www.kicker.de/ekstraklasa/tabelle"
-      ],
-      "date": "2026-11-13T23:01:55.700117+00:00"
-    },
-    {
       "title": "Microsoft Shares Dip 0.75% Amid Volatile Trading and Upcoming Dividend",
       "urls": [
         "https://well.co.uk",
@@ -5328,7 +5305,19 @@
         "https://volcanoes.einnews.com"
       ],
       "date": "2026-11-23T22:31:39.783461+00:00"
+    },
+    {
+      "title": "Mahindra and CoRover.ai Expand BharatGPT to Deliver Scalable Multilingual AI Across India",
+      "urls": [
+        "https://www.zeebiz.com/companies/news-tech-mahindra-partners-coroverai-to-expand-bharatgpt-sovereign-ai-globally-402730",
+        "https://timesofindia.indiatimes.com/india/coroverai-unveils-bharatgpt-indias-first-indigenous-generative-ai-llm/articleshow/106888408.cms",
+        "https://analyticsindiamag.com/ai-features/everything-you-need-to-know-about-bharatgpt",
+        "https://www.thebharatbiz.com/news-detail/bharatgpt-indias-indigenous-ai-engine-set-to-transform-the-nation",
+        "https://dev.to/nashetking/bharatgpt-the-next-generation-ai-language-model-296c",
+        "https://github.com/Anvesh-21/BharatGPT"
+      ],
+      "date": "2026-11-23T23:02:02.310262+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T22:31:39.783511+00:00"
+  "lastUpdated": "2026-11-23T23:02:02.310334+00:00"
 }
