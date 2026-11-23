@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Releases Trillion‑Parameter Open‑Source Model to Boost Cybersecurity Capabilities for Global Enterprises",
-      "urls": [
-        "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
-        "https://euronews.com/2026/10/29/mistral-releases-latest-ai-model-for-download-giving-companies-more-control-over-their-cyb",
-        "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity",
-        "https://www.ibm.com/think/topics/mistral-ai",
-        "https://mistral.ai/news"
-      ],
-      "date": "2026-11-13T14:32:03.685372+00:00"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei Predicts Cancer and Alzheimer’s Eradication Within Ten Years",
-      "urls": [
-        "https://tomsguide.com/ai/ai-is-changing-cancer-treatment-and-a-new-breakthrough-shows-just-how-far-weve-come",
-        "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
-        "https://www.usnews.com/news/health-news/articles/2026-11-13/patients-more-comfortable-than-doctors-with-ai-driven-healthcare-decisions-survey-finds",
-        "https://www.indiatvnews.com/news/world/ai-to-bring-medical-breakthrough-anthropic-ceo-promises-cancer-alzheimer-s-will-be-history-in-10-years-2026-11-11-1059191"
-      ],
-      "date": "2026-11-13T15:02:04.034167+00:00"
-    },
-    {
       "title": "India Showcases Fintech Ambitions at Global FinTech Fest 2026 in Mumbai",
       "urls": [
         "https://en.wikipedia.org/wiki/Digital_India",
@@ -5315,7 +5294,19 @@
         "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-20-november-2026-gangster-naseem-durrani-encounter-delhi-aqi-cyclone-akvan-nikhil-gupta-sentencing-accident-pollution-south-weather-odisha-chennai-10970814"
       ],
       "date": "2026-11-23T14:31:39.784693+00:00"
+    },
+    {
+      "title": "IIT Madras Opens Autism and Sleep Research Centers to Boost Campus Health Services",
+      "urls": [
+        "https://theweek.in/news/health/2026/11/22/the-week-health-summit-2026-advanced-healthcare-must-reach-patients-beyond-metros-and-pincodes-says-aiims-director.html",
+        "https://aiims.edu",
+        "https://timesofindia.indiatimes.com/education/news/aiims-ini-ss-registration-window-2026-opens-at-aiimsexams-ac-in-direct-link-to-apply-here/articleshow/129939986.cms",
+        "https://indianexpress.com/article/education/iit-madras-launches-autism-lab-sleep-study-facility-in-chennai-campus-added-ambulance-service-10974969",
+        "https://www.freejobalert.com/articles/aiims-new-delhi-project-research-scientist-ii-recruitment-2026-3079946",
+        "https://www.freejobalert.com/articles/aiims-project-research-scientist-i-non-medical-recruitment-2026-3081261"
+      ],
+      "date": "2026-11-23T15:02:13.243484+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T14:31:39.784753+00:00"
+  "lastUpdated": "2026-11-23T15:02:13.243558+00:00"
 }
