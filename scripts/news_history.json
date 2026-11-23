@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Google AI Announces October 2026 Update Emphasizing Experimental Generative Tools",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-        "https://www.marketscreener.com/news/trimble-launches-new-trimble-connect-platform-ai-capabilities-aimed-at-de-risking-construction-ce785fd3de8cfe23",
-        "https://www.hilton.com/en/hotels/lonpdhi-hilton-london-paddington?msockid=3832913d2fd86dbb0c15892d2e186c17",
-        "https://en.m.wikipedia.org/wiki/Praed_Street",
-        "https://www.northjersey.com/press-release/story/264954/tricoast-advanced-technology-studios-launches-global-ai-feature-film-production-company-targeting-35-features-per-year"
-      ],
-      "date": "2026-11-13T19:32:11.323084+00:00"
-    },
-    {
       "title": "UNHCR Warns of Worsening Crisis as 64,000 Flee Nigeria Into Niger",
       "urls": [
         "https://www.intel.de/content/www/de/de/download/18293/intel-network-adapter-driver-for-windows-10.html",
@@ -5321,7 +5310,20 @@
         "https://en.wikipedia.org/wiki/Partners_In_Health"
       ],
       "date": "2026-11-23T19:01:56.642731+00:00"
+    },
+    {
+      "title": "Google DeepMind Unveils Gemini 4 Neon Coding Agent and Robotics 2.5 Enhancements",
+      "urls": [
+        "https://deepmind.google/blog",
+        "https://aimagazine.com/news/gemini-4-neon-google-deepminds-frontier-coding-agent",
+        "https://timesofindia.indiatimes.com/technology/tech-news/google-i/o-2026-live-update-google-event-android-17-gemini-intelligence-keynote-developer-conference-sundar-pichai/liveblog/131200008.cms",
+        "https://research.google",
+        "https://uk.finance.yahoo.com/news/alibaba-poaches-google-deepmind-research-143114188.html",
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie"
+      ],
+      "date": "2026-11-23T19:32:17.841535+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T19:01:56.642801+00:00"
+  "lastUpdated": "2026-11-23T19:32:17.841614+00:00"
 }
