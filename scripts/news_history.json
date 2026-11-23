@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Sage Enables Remote Data Access Feature to Expand Company Data Reach",
-      "urls": [
-        "https://www.merriam-webster.com/dictionary/accessible",
-        "https://help.sbc.sage.com/en-gb/control-centre-dt/D/Configuring_the_Data_Link.html",
-        "https://en.wikipedia.org/wiki/Microsoft_Copilot",
-        "https://gb-kb.sage.com/portal/app/portlets/results/view2.jsp?k2dockey=200821075636890"
-      ],
-      "date": "2026-11-13T01:01:46.105447+00:00"
-    },
-    {
       "title": "EY Launches My EY Portal Centralizing Technologies, Insights and Collaboration Tools",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-11-11/rise-of-clean-tech-makes-2026-a-climate-turning-point-gore-says",
@@ -5285,7 +5275,16 @@
         "https://sports.yahoo.com/article/2026-nyc-marathon-andreas-almgren-wins-marathon-debut-sheila-chepkirui-captures-another-win-on-womens-side-162134477.html?fr=sycsrp_catchall"
       ],
       "date": "2026-11-23T00:32:08.614072+00:00"
+    },
+    {
+      "title": "MIT News Highlights AI-Assisted Learning Platform Advancing Assistive Technology For Students With Disabilities",
+      "urls": [
+        "https://news.mit.edu/topic/assistive-technology",
+        "https://disabilityin.org/articles-and-updates/november-digital-accessibility-roundup",
+        "https://ozewai.org/blog/ozewai-news/weekly-reading-list-16-november-2026"
+      ],
+      "date": "2026-11-23T01:01:55.837175+00:00"
     }
   ],
-  "lastUpdated": "2026-11-23T00:32:08.614134+00:00"
+  "lastUpdated": "2026-11-23T01:01:55.837212+00:00"
 }
