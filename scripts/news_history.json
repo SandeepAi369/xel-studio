@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Ayushman Bharat Shifts 112 Treatment Packages to Government Hospitals Only",
-      "urls": [
-        "https://english.gujaratsamachar.com/news/national/112-treatments-covered-under-ayushman-bharat-may-move-exclusively-to-government-hospitals-from-dec-1-22822037596",
-        "https://india.com/news/india/ayushman-scheme-cataract-liver-treatments-beneficiaries-cant-get-at-private-hospitals-8544709",
-        "https://www.news18.com/business/lost-your-ayushman-bharat-card-heres-how-to-reapply-or-download-a-new-one-ws-l-aa-9405058.html",
-        "https://udaipurkiran.com/major-change-in-ayushman-bharat-scheme",
-        "https://economictimes.indiatimes.com/news/india/health-ministry-showcases-24-programmes-at-india-international-trade-fair/articleshow/135835839.cms",
-        "https://cnbctv18.com/india/ayushman-bharat-scheme-112-treatment-packages-may-be-restricted-to-govt-hospitals-from-dec-1-says-report-20033400.htm"
-      ],
-      "date": "2026-11-14T15:02:15.067564+00:00"
-    },
-    {
-      "title": "NPCI Launches UPI Tap & Pay and MyUPI to Bring NFC Payments and AI Features",
-      "urls": [
-        "https://www.upi.com",
-        "https://en.wikipedia.org/wiki/National_Common_Mobility_Card",
-        "https://www.gadgets360.com/apps/news/npci-upi-tap-and-pay-for-nfc-phones-myupi-for-customer-support-12032124",
-        "https://bfsi.economictimes.indiatimes.com/tag/Fintech+Funding",
-        "https://en.wikipedia.org/wiki/E-commerce_in_India"
-      ],
-      "date": "2026-11-14T15:31:40.737665+00:00"
-    },
-    {
       "title": "India's Forex Reserves Surge by $2.49 Billion to $719.55 Billion Amid Gold Gains",
       "urls": [
         "https://india.entrepreneur.com/business-news/indias-forex-reserves-rise-usd-2-49-bn-to-usd-719-55-bn",
@@ -5361,7 +5338,23 @@
         "https://aiimsbhubaneswar.nic.in"
       ],
       "date": "2026-11-24T15:02:04.222474+00:00"
+    },
+    {
+      "title": "Anthropic Unveils Claude Fable 5.2 and Claude Mythos 5.2 Amid IPO Preparations",
+      "urls": [
+        "https://www.anthropic.com",
+        "https://www.itechpost.com/articles/237532/20261009/anthropic-updates-claude-usage-policy-new-ai-safety-rules-against-needless-cruelty.htm",
+        "https://www.anthropic.com/news",
+        "https://claude5.com/news/ai-safety-2026-alignment-research-breakthroughs",
+        "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "https://claude.ai",
+        "https://www.anthropic.com/news/healthcare-life-sciences",
+        "https://claude.com",
+        "https://www.anthropic.com/news/2026-usage-policy-update",
+        "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+      ],
+      "date": "2026-11-24T15:31:48.716236+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T15:02:04.222533+00:00"
+  "lastUpdated": "2026-11-24T15:31:48.716277+00:00"
 }
