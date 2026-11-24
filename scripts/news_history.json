@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "RBI Raises Repo Rate to 6 Percent as Inflation Tops 6 Point Threshold",
-      "urls": [
-        "https://www.bbc.com/news/articles/c5j9kngz3j1go",
-        "https://www.rbi.org.in/Home.aspx",
-        "https://business-standard.com/amp/finance/news/rbi-repo-rate-6-percent-december-february-policy-inflation-october-126111300961_1.html",
-        "https://thehindu.com/business/Economy/retail-inflation-crosses-rbis-upper-limit-for-first-time-in-two-years-comes-in-at-61-in-october-2026/article71693503.ece",
-        "https://m.rediff.com/news/commentary/2026/nov/14/indias-forex-reserves-jump-to-719-billion/02ce9a183d04071a4515ce99e566c3b1",
-        "https://business-standard.com/amp/industry/banking/bank-lending-rates-fall-september-2026-deposit-rates-rbi-liquidity-126111300942_1.html"
-      ],
-      "date": "2026-11-14T07:02:00.713176+00:00"
-    },
-    {
       "title": "OpenAI Acquires Health Startup to Expand AI Into Medical Diagnostics",
       "urls": [
         "https://en.wikipedia.org/wiki/Healthcare_in_the_United_States",
@@ -5329,7 +5317,21 @@
         "https://economictimes.indiatimes.com/news/new-updates/weather-update-for-november-24-will-tamil-nadu-kerala-see-heavy-rain-imd-issues-fog-alert-for-8-states/articleshow/136109725.cms"
       ],
       "date": "2026-11-24T06:31:44.293445+00:00"
+    },
+    {
+      "title": "India Secures Third Spot in Asia Power Index Amid Border Tensions and Market Volatility",
+      "urls": [
+        "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html",
+        "https://thehindu.com/news/top-news-of-the-day-november-23-2026/article71734724.ece",
+        "https://thehindu.com/news/morning-digest-november-24-2026/article71736183.ece",
+        "https://economictimes.indiatimes.com/news/new-updates/school-assembly-headlines-for-november-24-check-latest-india-international-business-and-sports-news/articleshow/136105834.cms",
+        "https://thehindu.com/newsletter/the-evening-wrap/the-hindu-evening-wrap-on-november-21-2026/article71728963.ece",
+        "https://thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23-november-2026/article71733179.ece",
+        "https://indianexpress.com/article/india/india-news-live-updates-21-november-2026-delhi-wakes-up-to-poor-air-quality-with-aqi-at-279-data-backs-pm-modis-message-to-india-inc-on-stagnant-pay-kl-rahul-hits-test-ton-in-all-sena-10972271",
+        "https://business-standard.com/amp/economy/news/nepal-pm-india-visit-pmi-flash-deposit-growth-forex-reserves-november-126112300222_1.html"
+      ],
+      "date": "2026-11-24T07:02:03.446888+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T06:31:44.293508+00:00"
+  "lastUpdated": "2026-11-24T07:02:03.446953+00:00"
 }
