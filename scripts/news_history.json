@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Disability Gateway Expands COVID‑19 Support for People With Disabilities and Carers",
-      "urls": [
-        "https://www.opentable.de/region/de/bavaria/aichach-friedberg-restaurants",
-        "https://cleantechjournal.com",
-        "https://www.grandnational.org.uk/grand-national-start-times.php",
-        "https://www.health.gov.au/topics/disability-and-carers/funding/help-and-support/covid-19"
-      ],
-      "date": "2026-11-14T01:31:55.770513+00:00"
-    },
-    {
-      "title": "Google DeepMind Invests in CoRover.ai to Boost India's AI Deployment Scale",
-      "urls": [
-        "https://www.cargurus.com/Cars/l-Used-Toyota-Camry-Seattle-d292_L37788?msockid=274cce15dbce6b3820d0d604dac66a40",
-        "https://en.wikipedia.org/wiki/Google",
-        "https://www.ndtv.com/india",
-        "https://etedge-insights.com/trending/google-deepmind-invests-in-corover-ai-creator-of-indias-first-large-language-model-bharatgpt"
-      ],
-      "date": "2026-11-14T02:01:57.769183+00:00"
-    },
-    {
       "title": "Telemedicine Digital Health Innovation News Fresh Announcements November 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
@@ -5331,7 +5311,22 @@
         "https://wmo.int/themes/climate"
       ],
       "date": "2026-11-24T01:31:46.632492+00:00"
+    },
+    {
+      "title": "Google Opens TorchTPU Source Code to Enable One‑Line PyTorch Switch to TPUs",
+      "urls": [
+        "https://www.techtimes.com/articles/329303/20261021/switch-your-pytorch-model-nvidia-google-tpus-one-line-torchtpu-now-open-source.htm",
+        "https://helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus",
+        "https://pytorch.org/newsletter/november-2026",
+        "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together",
+        "https://pytorch.org/blog/pytorch-conference-china-2026-advancing-the-open-source-ai-stack",
+        "https://pytorch.org/blog/pytorch-ambassador-community-highlights-november-2026",
+        "https://shattered.io/torchtpu-open-source-google-meta-native-pytorch-tpus-2026",
+        "https://futurumgroup.com/insights/pytorch-grows-up-open-source-ai-tooling-targets-enterprise-production",
+        "https://linuxfoundation.org/press/pytorch-foundation-welcomes-nine-new-members-as-momentum-builds-around-open-source-ai-center-of-gravity"
+      ],
+      "date": "2026-11-24T02:02:22.572545+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T01:31:46.632570+00:00"
+  "lastUpdated": "2026-11-24T02:02:22.572621+00:00"
 }
