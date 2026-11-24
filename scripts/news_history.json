@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "BharatGPT Launches 3 Billion Parameter Model to Boost Indic Language AI Capabilities",
-      "urls": [
-        "https://corover.ai/products/bharatgpt",
-        "https://analyticsindiamag.com/it-services/bharatgpt-aims-to-become-meta-of-indic-llms",
-        "https://timesofindia.indiatimes.com/city/bengaluru/bluru-firm-funding-bharatgpt-indias-ai-platform-for-11-indian-languages/articleshow/106363531.cms"
-      ],
-      "date": "2026-11-14T05:02:05.833187+00:00"
-    },
-    {
-      "title": "China Ends One‑Child Policy Amid Human Rights Concerns and Taiwanese Tensions",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Disability_rights_movement",
-        "https://en.wikipedia.org/wiki/India",
-        "https://en.wikipedia.org/wiki/Human_rights_in_China",
-        "https://en.wikipedia.org/wiki/History_of_India"
-      ],
-      "date": "2026-11-14T05:31:32.802616+00:00"
-    },
-    {
       "title": "Sumitomo Chemical Pursues India Semiconductor Materials Partnership With Tata Electronics",
       "urls": [
         "https://en.wikipedia.org/wiki/Economy_of_South_Korea",
@@ -5338,7 +5319,15 @@
         "https://cio.economictimes.indiatimes.com/news/corporate-news/corover-ai-taps-nvidia-infrastructure-for-offline-bharatgpt-deployment/128813402"
       ],
       "date": "2026-11-24T05:01:56.898243+00:00"
+    },
+    {
+      "title": "National Organization on Disability Launches Top Tech Tidbits Weekly Broadcast for Inclusive Technology",
+      "urls": [
+        "https://toptechtidbits.com/newsletter-11-12-2026",
+        "https://www.mojeek.com/search?q=AI+assistive+technology+disability+inclusion+news+key+updates+November+2026&fmt=news"
+      ],
+      "date": "2026-11-24T05:31:44.223028+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T05:01:56.898317+00:00"
+  "lastUpdated": "2026-11-24T05:31:44.223086+00:00"
 }
