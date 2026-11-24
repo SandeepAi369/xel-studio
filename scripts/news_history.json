@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "India’s Ayushman Bharat Digital Mission Expands Telemedicine and Surveillance Capabilities",
-      "urls": [
-        "https://organiser.org/2026/02/25/341713/bharat/how-ai-and-ayushman-bharat-digital-mission-are-powering-an-ai-driven-healthcare-revolution-in-india",
-        "https://timesbull.com/ayushman-scheme-rules-changed",
-        "https://digitalhealthnews.com/government-plans-ai-led-upgrade-of-ayushman-bharat-for-claims-processing-digital-health-records"
-      ],
-      "date": "2026-11-14T19:02:14.337012+00:00"
-    },
-    {
       "title": "AWS Introduces AI‑Powered Continuum and Agentic Services to Strengthen Cloud Vulnerability Management",
       "urls": [
         "https://builder.aws.com/content/3LoBWXqi6PmsVdK0zEx0SXNnUjJ/aws-dominates-cloud-innovation-ai-agents-security-tools-and-cost-savings-lead-november-2026",
@@ -5358,7 +5349,21 @@
         "https://linuxtoday.com/blog/the-state-of-pytorch-2026"
       ],
       "date": "2026-11-24T18:31:58.099686+00:00"
+    },
+    {
+      "title": "World Health Organization, FDA, and NICE Advance Global Digital Wellness Standards for Health Apps",
+      "urls": [
+        "https://brainwavepost.com/article/digital-mental-health-technologies-standards-2026",
+        "https://www.apna.org/news/psychiatric-mental-health-monthly-news-digest-november-2026",
+        "https://www.risingtrends.co/trends/mental-health-trends-2026",
+        "https://startupsavant.com/startups-to-watch/mental-health",
+        "https://news.mit.edu/topic/mental-health",
+        "https://link.springer.com/article/10.1186/s42269-026-01419-6",
+        "https://en.wikipedia.org/wiki/The_Anxious_Generation",
+        "https://www.healthline.com/health-news"
+      ],
+      "date": "2026-11-24T19:02:26.093910+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T18:31:58.099793+00:00"
+  "lastUpdated": "2026-11-24T19:02:26.094013+00:00"
 }
