@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Acquires Health Startup to Expand AI Into Medical Diagnostics",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Healthcare_in_the_United_States",
-        "https://en.wikipedia.org/wiki/OpenAI",
-        "https://en.m.wikipedia.org/wiki/Health_care",
-        "https://en.wikipedia.org/wiki/Cleveland_Clinic"
-      ],
-      "date": "2026-11-14T07:31:54.885909+00:00"
-    },
-    {
       "title": "SpaceX Launches Fifteenth Starship Test Mission Amid Booster Recovery Failure",
       "urls": [
         "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
@@ -5340,7 +5330,21 @@
         "https://theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026"
       ],
       "date": "2026-11-24T07:31:39.400580+00:00"
+    },
+    {
+      "title": "Microsoft Showcases Frontier Ecosystem at Ignite 2026 Conference Driving Innovation Across Cloud AI and Developer Tools",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
+        "https://www.techrepublic.com/article/news-microsoft-ignite-2026-announcements",
+        "https://blogs.microsoft.com",
+        "https://www.apple.com/apple-events",
+        "https://cqubedigital.com/blog/tech-brief-major-technology-developments-november-2026",
+        "https://www.apple.com/newsroom",
+        "https://memeburn.com/apple-wwdc-2026-siri-ai-ios-27-every-big-announcement",
+        "https://www.secondtalent.com/news/tech"
+      ],
+      "date": "2026-11-24T08:01:48.814551+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T07:31:39.400642+00:00"
+  "lastUpdated": "2026-11-24T08:01:48.814621+00:00"
 }
