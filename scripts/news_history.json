@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Redesigns Public Spaces to Boost Inclusion for Persons With Disabilities",
-      "urls": [
-        "https://government.economictimes.indiatimes.com/news/education/decoding-indias-accessibility-mandate-from-constitutional-promises-to-non-negotiable-realities/133539121",
-        "https://policycircle.org/opinion/disability-rights-law-india",
-        "https://theindiaforum.in/forum/indias-accessibility-promise-and-its-implementation-gap",
-        "https://www.drishtiias.com/daily-updates/daily-news-editorials/redesigning-india-for-inclusion-of-pwds",
-        "https://www.impriindia.com/insights/policy-update/rights-of-persons-disabilities-act",
-        "https://www.studyiq.com/articles/disability-rights-in-india"
-      ],
-      "date": "2026-11-14T13:31:37.737717+00:00"
-    },
-    {
       "title": "COP31 Sets 35‑By‑35 Electrification Goal to Accelerate Global Energy Transition",
       "urls": [
         "https://cnn.com/2026/11/05/climate/three-charts-clean-energy-progress-cop31",
@@ -5355,7 +5343,18 @@
         "https://blog.mean.ceo/social-media-marketing-news-november-2026"
       ],
       "date": "2026-11-24T13:02:14.786501+00:00"
+    },
+    {
+      "title": "SiriusXM and Pandora Commit to High‑Quality Podcast Transcripts for Deaf Listeners",
+      "urls": [
+        "https://nad.org",
+        "https://verbit.ai/blog/accessibility-hub/web-accessibility-for-people-with-hearing-loss-a-comprehensive-guide",
+        "https://hearingloss.org/media-and-publications/hearing-life-magazine",
+        "https://www.mojeek.com/search?q=deaf+hearing+impaired+technology+accessibility+news+recent+highlights+November+2026&fmt=news",
+        "https://dl.acm.org/doi/10.1145/3772318.3791869"
+      ],
+      "date": "2026-11-24T13:32:03.735415+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T13:02:14.786575+00:00"
+  "lastUpdated": "2026-11-24T13:32:03.735451+00:00"
 }
