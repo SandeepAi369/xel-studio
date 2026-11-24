@@ -1,23 +1,6 @@
 {
   "entries": [
     {
-      "title": "Premier League – The league standings provide a snapshot of how Arsenal’s results",
-      "urls": [
-        "https://time.is/Karachi",
-        "https://fc-arsenal.com/standings",
-        "https://www.bbc.co.uk/sport/football/teams/arsenal/table"
-      ],
-      "date": "2026-11-14T09:31:48.714643+00:00"
-    },
-    {
-      "title": "Mistral Launches Le Chonk, Top Open-Source Coding Model Rivaling Codex and GPT-6.1 Terra",
-      "urls": [
-        "https://www.zdnet.com/innovation/mistral-large-4-weights-release",
-        "https://mistral.ai"
-      ],
-      "date": "2026-11-14T10:01:50.129653+00:00"
-    },
-    {
       "title": "India Cuts Fuel Import Bill by $240 Billion Through Clean Energy Expansion",
       "urls": [
         "https://apnews.com/article/india-renewables-coal-climate-change-cop31-695ca45d03df77bc207941ae7ca66fca",
@@ -5347,7 +5330,18 @@
         "https://business-standard.com/amp/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html"
       ],
       "date": "2026-11-24T09:31:38.420910+00:00"
+    },
+    {
+      "title": "OpenAI chief scientist put forward a proposal that AI developers adopt shared development limits, arguing that common safety boundaries are",
+      "urls": [
+        "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit",
+        "https://killtheai.com/news/top-10-ai-news-today-november-23-2026",
+        "https://kombitz.com/2026/11/21/ai-image-video-model-news-roundup-november-21-2026",
+        "https://www.mojeek.com/search?q=open+source+AI+models+community+development+news+recent+highlights+November+2026&fmt=news",
+        "https://en.wikipedia.org/wiki/OpenAI"
+      ],
+      "date": "2026-11-24T10:02:02.219908+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T09:31:38.420984+00:00"
+  "lastUpdated": "2026-11-24T10:02:02.220001+00:00"
 }
