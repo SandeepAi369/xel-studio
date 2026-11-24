@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "SportsPro Forecasts Six Key Technology Trends Shaping Sports in 2026",
-      "urls": [
-        "https://www.sportspro.com/features/technology/sports-tech-predictions-trends-2026-ai-analytics-media-data",
-        "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html",
-        "https://aibuzz.blog/ai-in-sports-performance",
-        "https://watchers.io/post/sports-industry-trends",
-        "https://www.sunnysports.com/blog/top-sports-technology-trends-to-watch-in-2026"
-      ],
-      "date": "2026-11-14T04:31:43.366824+00:00"
-    },
-    {
       "title": "BharatGPT Launches 3 Billion Parameter Model to Boost Indic Language AI Capabilities",
       "urls": [
         "https://corover.ai/products/bharatgpt",
@@ -5340,7 +5329,16 @@
         "https://therunningchannel.com/running-records-2026"
       ],
       "date": "2026-11-24T04:31:40.730496+00:00"
+    },
+    {
+      "title": "CoRover.ai Taps NVIDIA Infrastructure To Deploy Offline BharatGPT Across India",
+      "urls": [
+        "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-24-november-2026-thirupparankundram-security-deepathoon-delhi-road-sweeping-machines-delay-10975898",
+        "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-13-november-2026-delhi-aqi-severe-aiims-iaf-officer-espionage-adani-satara-10961128",
+        "https://cio.economictimes.indiatimes.com/news/corporate-news/corover-ai-taps-nvidia-infrastructure-for-offline-bharatgpt-deployment/128813402"
+      ],
+      "date": "2026-11-24T05:01:56.898243+00:00"
     }
   ],
-  "lastUpdated": "2026-11-24T04:31:40.730586+00:00"
+  "lastUpdated": "2026-11-24T05:01:56.898317+00:00"
 }
