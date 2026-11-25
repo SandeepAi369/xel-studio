@@ -1,21 +1,6 @@
 {
   "entries": [
     {
-      "title": "Global Volcanic Activity Shows Decline As 40 Eruptions Continue Worldwide",
-      "urls": [
-        "https://volcano.si.edu/reports_weekly.cfm",
-        "https://www.usgs.gov/programs/VHP/volcano-updates",
-        "https://www.volcanodiscovery.com/earthquakes-volcanoes/news/405247/Volcano-earthquake-report-2026-11-10.html",
-        "https://earthquake.usgs.gov/earthquakes/map",
-        "https://apnews.com/hub/natural-disasters",
-        "https://www.volcanoesandearthquakes.com",
-        "https://www.atlas-mag.net/en/articles/natural-disasters",
-        "https://www.usgs.gov/programs/VHP",
-        "https://volcano.si.edu/gvp_currenteruptions.cfm"
-      ],
-      "date": "2026-11-15T01:31:35.263242+00:00"
-    },
-    {
       "title": "Corporate America Shifts to Cheaper Open AI Models Amid Rising Licensing Costs",
       "urls": [
         "https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1",
@@ -5374,7 +5359,19 @@
         "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1900591/full"
       ],
       "date": "2026-11-25T01:01:56.169188+00:00"
+    },
+    {
+      "title": "Global Renewable Energy Market Projects $5.88 Trillion Value by 2034 Driven by Storage and Policy",
+      "urls": [
+        "https://www.energy.gov/cmei/systems/quarterly-solar-industry-update",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Australia",
+        "https://finance.yahoo.com/energy/articles/global-renewable-energy-market-size-162800694.html",
+        "https://www.iea.org/reports/renewables-2026",
+        "https://www.iea.org/news/energy-security-concerns-spur-faster-renewables-growth-across-a-widening-constellation-of-countries",
+        "https://www.merriam-webster.com/dictionary/renewable"
+      ],
+      "date": "2026-11-25T01:32:00.888310+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T01:01:56.169264+00:00"
+  "lastUpdated": "2026-11-25T01:32:00.888388+00:00"
 }
