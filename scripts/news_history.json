@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "BharatGPT Listed on India Fund Direct Platform Amid Growing AI Market Visibility",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Google_Gemini",
-        "https://analyticsindiamag.com/ai-news-updates/bharatgpt-unveils-hanooman-a-newsuite-of-indic-generative-ai-models",
-        "https://www.cricinfo.com/team/india-6/match-schedule-fixtures-and-results",
-        "https://economictimes.indiatimes.com/topic/bharatgpt"
-      ],
-      "date": "2026-11-15T10:02:15.858540+00:00"
-    },
-    {
       "title": "FluoRok Secures $30 Million to Eliminate Hydrofluoric Acid From Battery Supply Chains",
       "urls": [
         "https://www.cnn.com/2026/11/05/climate/three-charts-clean-energy-progress-cop31",
@@ -5400,7 +5390,16 @@
         "https://www.ndtv.com/offbeat/world-autism-awareness-day-2026-aprile-2-theme-history-and-importance-11290486"
       ],
       "date": "2026-11-25T09:31:51.159294+00:00"
+    },
+    {
+      "title": "Nvidia Acquires Hugging Face for $12.9 Billion to Expand Open‑AI Model Portfolio",
+      "urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
+        "https://www.news18.com/tech/nvidia-to-buy-hugging-face-for-12-9-billion-report-but-why-10295978.html"
+      ],
+      "date": "2026-11-25T10:02:21.636279+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T09:31:51.159359+00:00"
+  "lastUpdated": "2026-11-25T10:02:21.636355+00:00"
 }
