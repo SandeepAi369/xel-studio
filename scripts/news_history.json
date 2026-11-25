@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Deaf-Run Café Uses Sign Language to Transform Coffee Ordering Experience",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Deaf_culture_in_the_United_States",
-        "https://www.theguardian.com/society/2026/feb/01/deaf-run-cafe-london-where-hearing-people-order-via-sign",
-        "https://weather.com/us/washington/city/seattle/today",
-        "https://en.wikipedia.org/wiki/Perkins_School_for_the_Blind"
-      ],
-      "date": "2026-11-15T17:31:51.019344+00:00"
-    },
-    {
       "title": "Soils Store More Carbon Than All World’s Trees, Study Highlights Climate Mitigation Potential",
       "urls": [
         "https://www.wri.org/climate-change-news",
@@ -5420,7 +5410,14 @@
         "https://bhaskar.com/local/uttar-pradesh/sonbhadra/chopan/news/chopon-sanjeev-kumar-gaur-divyang-sahayak-upkaran-vitaran-shivir-139795762.html"
       ],
       "date": "2026-11-25T17:31:47.597423+00:00"
+    },
+    {
+      "title": "World Meteorological Organization Expands Climate Report With Detailed High‑Impact Weather Supplement",
+      "urls": [
+        "https://wmo.int/sites/default/files/2026-03/State_of_the_Global_Climate_2025_Extreme_Supplement.pdf"
+      ],
+      "date": "2026-11-25T18:01:50.026299+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T17:31:47.597493+00:00"
+  "lastUpdated": "2026-11-25T18:01:50.026367+00:00"
 }
