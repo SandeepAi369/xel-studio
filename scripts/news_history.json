@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Catches Starship Upper Stage for First Time, Marks Reusability Milestone",
-      "urls": [
-        "https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch",
-        "https://space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
-        "https://en.wikipedia.org/wiki/SpaceX_Dragon_2"
-      ],
-      "date": "2026-11-15T13:01:52.612038+00:00"
-    },
-    {
       "title": "Roblox Expands Free Online Gaming Platform to Engage Millions of Creators and Players Worldwide",
       "urls": [
         "https://www.roblox.com",
@@ -5387,7 +5378,16 @@
         "https://hindi.crictracker.com/23-november-2026-evening-todays-top-news-and-headlines-from-cricket-world"
       ],
       "date": "2026-11-25T12:32:17.114865+00:00"
+    },
+    {
+      "title": "Apple Announces Pro, HomeView, and Apple TV 4K for November 2026 Release",
+      "urls": [
+        "https://news.microsoft.com/build-2026",
+        "https://macworld.com/article/3273463/apples-probably-done-announcing-new-hardware-but-november-is-still-pretty-jammed.html",
+        "https://seroundtable.com/google-december-2026-core-update-42615.html"
+      ],
+      "date": "2026-11-25T13:02:04.602641+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T12:32:17.114936+00:00"
+  "lastUpdated": "2026-11-25T13:02:04.602712+00:00"
 }
