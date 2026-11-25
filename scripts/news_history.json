@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Launches Large 4 Model With Fine‑Tuning and Unified Dashboard for Enterprise Customization",
-      "urls": [
-        "https://csoonline.com/article/4242648/mistral-releases-large-4-weights-despite-warning-of-cyberattack-uplift.html",
-        "https://docs.mistral.ai/models/mistral-large-4-0"
-      ],
-      "date": "2026-11-15T14:31:55.963193+00:00"
-    },
-    {
       "title": "India Triples Health Spending to ₹4.14 Trillion, Out‑of‑Pocket Share Drops to 42.7 Percent",
       "urls": [
         "https://business-standard.com/health/india-s-health-spending-triples-out-of-pocket-share-falls-to-42-7-nha-126111500324_1.html"
@@ -5406,7 +5398,21 @@
         "https://economictimes.indiatimes.com/topic/bharatgpt/news"
       ],
       "date": "2026-11-25T14:31:48.793027+00:00"
+    },
+    {
+      "title": "India Launches Nationwide Campaign to Combat Antimicrobial Resistance During Awareness Week",
+      "urls": [
+        "https://vajiramandravi.com/current-affairs/who-global-tuberculosis-report-2026",
+        "https://www.bwhealthcareworld.com/article/india-calls-for-collective-action-against-antimicrobial-resistance-during-world-amr-awareness-week-2026-634424",
+        "https://www.who.int/en/news-room/releases",
+        "https://countercurrents.org/2026/11/india-records-2-63-lakh-tb-deaths-in-2025-who-report-raises-questions-over-elimination-claims",
+        "https://www.theweek.in/news/health/2026/11/22/preventive-healthcare-key-to-indias-2047-vision-says-union-minister-jitendra-singh-at-the-week-health-summit-2026.html",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/world-antimicrobial-resistance-awareness-week-2026",
+        "https://www.thehindu.com/sci-tech/health/india-missed-its-2025-tb-elimination-target-what-does-the-who-report-show/article71708204.ece",
+        "https://indianexpress.com/article/india/india-news-live-updates-16-november-2026-delhi-mumbai-weather-pollution-aqi-yamuna-chhath-asean-modi-quad-trump-10964698"
+      ],
+      "date": "2026-11-25T15:02:08.438872+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T14:31:48.793093+00:00"
+  "lastUpdated": "2026-11-25T15:02:08.438956+00:00"
 }
