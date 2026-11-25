@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Soils Store More Carbon Than All World’s Trees, Study Highlights Climate Mitigation Potential",
-      "urls": [
-        "https://www.wri.org/climate-change-news",
-        "https://www.whatsupermarketisopennow.co.uk/blog/christmas-new-year-supermarket-hours-uk.html",
-        "https://wheresiton.com/christmas-opening-hours"
-      ],
-      "date": "2026-11-15T18:03:20.788280+00:00"
-    },
-    {
-      "title": "Hugging Face Reaffirms Open‑Source AI Commitment After Nvidia Leader Departs",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Hugging_Face",
-        "https://huggingface.co",
-        "https://github.com/huggingface",
-        "https://huggingface.co/huggingface",
-        "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
-        "https://americanbazaaronline.com/2026/11/14/hugging-face-ceo-vows-to-fight-for-open-source-ai-after-jensen-huangs-nvidia-exit-492299"
-      ],
-      "date": "2026-11-15T18:31:40.661148+00:00"
-    },
-    {
       "title": "Healthcare IT Pilot Cuts 277,000 Clicks in 90 Days Using AI Automation",
       "urls": [
         "https://www.crescendo.ai/news/ai-in-healthcare-news",
@@ -5417,7 +5396,18 @@
         "https://wmo.int/sites/default/files/2026-03/State_of_the_Global_Climate_2025_Extreme_Supplement.pdf"
       ],
       "date": "2026-11-25T18:01:50.026299+00:00"
+    },
+    {
+      "title": "PyTorch and TensorFlow Face Ongoing Comparison as Developers Weigh Trade‑offs",
+      "urls": [
+        "https://pytorch.org/announcements",
+        "https://blog.jetbrains.com/pycharm/2026/05/pytorch-vs-tensorflow-choosing-framework-2026",
+        "https://labelyourdata.com/articles/pytorch-vs-tensorflow",
+        "https://morsoftware.com/blog/pytorch-vs-tensorflow",
+        "https://www.techtarget.com/ai/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning"
+      ],
+      "date": "2026-11-25T18:32:18.410603+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T18:01:50.026367+00:00"
+  "lastUpdated": "2026-11-25T18:32:18.410686+00:00"
 }
