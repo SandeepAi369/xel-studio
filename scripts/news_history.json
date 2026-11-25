@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "EBSCOhost Publishes Research Starter on Social Media as Primary News Source",
-      "urls": [
-        "https://finnpartners.com/news-insights/boom-scroll-november-2026-social-media-updates",
-        "https://en.wikipedia.org/wiki/Social_media_as_a_news_source"
-      ],
-      "date": "2026-11-15T08:03:23.148089+00:00"
-    },
-    {
-      "title": "UFC 334 Nears Perfect Year for Hokit but Ends in Split Decision Loss",
-      "urls": [
-        "https://bloodyelbow.com",
-        "https://www.cbssports.com/ufc",
-        "https://openscoringsports.com/mma",
-        "https://www.tbnewswatch.com/classifieds/events/community-events/2173021",
-        "https://www.tbnewswatch.com/classifieds/events/community-events/2172815",
-        "https://agentmma.com/news"
-      ],
-      "date": "2026-11-15T08:31:39.246904+00:00"
-    },
-    {
       "title": "India’s Startup Ecosystem Attracts Fresh Funding Across AI And Digital Sectors",
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
@@ -5405,7 +5385,19 @@
         "https://www.pewresearch.org/internet/fact-sheet/social-media"
       ],
       "date": "2026-11-25T08:01:51.389302+00:00"
+    },
+    {
+      "title": "Indian Premier League Registers Record 1,220 Players for 2027 Auction",
+      "urls": [
+        "https://indianexpress.com/article/sports/cricket/13-players-from-the-usa-10-from-the-uae-and-nepal-each-and-2-from-japan-are-among-1220-registered-for-ipl-auction-10977699",
+        "https://sports.yahoo.com/cricket/articles/ipl-2027-auction-list-overseas-042053203.html",
+        "https://sportstar.thehindu.com/cricket/ipl/ipl-news/ipl-2027-auction-when-will-full-list-of-players-be-released-registry-breakdown-slots-overseas/article71741394.ece",
+        "https://indianexpress.com/article/sports/cricket/ipl-player-trade-transfer-deals-hardik-pandya-sanju-samson-rishabh-pant-10957155",
+        "https://www.manilatimes.net/2026/11/12/tmt-newswire/globenewswire/winbuzz-announces-spotlight-on-cricket-ipl-and-live-sports-features-for-indian-audiences/2467807",
+        "https://www.iplt20.com"
+      ],
+      "date": "2026-11-25T08:31:49.586028+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T08:01:51.389358+00:00"
+  "lastUpdated": "2026-11-25T08:31:49.586123+00:00"
 }
