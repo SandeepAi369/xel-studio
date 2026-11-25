@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Corporate America Shifts to Cheaper Open AI Models Amid Rising Licensing Costs",
-      "urls": [
-        "https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1",
-        "https://en.wikipedia.org/wiki/Open_source",
-        "https://opensource.org/blog/category/news",
-        "https://www.opentable.ca"
-      ],
-      "date": "2026-11-15T02:02:01.638129+00:00"
-    },
-    {
-      "title": "Mass General Brigham Reports Surge in Clinical AI Use for Treatment Planning",
-      "urls": [
-        "https://www.usatoday.com/story/money/money-management/healthcare/2026/09/14/ai-medical-innovation-healthcare/91713919007",
-        "https://www.healthcareitnews.com/news/use-clinical-ai-treatment-planning-spikes-mgb-study-shows",
-        "https://www.euronews.com/2026/10/13/can-ai-help-healthcare-move-from-treatment-to-prevention"
-      ],
-      "date": "2026-11-15T02:31:35.308938+00:00"
-    },
-    {
       "title": "Nigeria Conflict Drives Nearly 64,000 Refugees Into Niger Amid Worsening Humanitarian Crisis",
       "urls": [
         "https://news.un.org/en/story/2026/11/1168779",
@@ -5378,7 +5359,19 @@
         "https://huggingface.blog"
       ],
       "date": "2026-11-25T02:01:57.912941+00:00"
+    },
+    {
+      "title": "Medical Tech Highlights Seven Breakthrough Innovations Transforming Global Accessibility In 2026",
+      "urls": [
+        "https://lawrenceevans.com/2026/11/23/healthcare-news-deals-and-investments-update-november-23rd-2026",
+        "https://telehealth.org/news/telehealth-ai-and-digital-health-news-briefs-june-2026",
+        "https://www.mojeek.com/search?q=telemedicine+digital+health+innovation+news+breaking+developments+November+2026&fmt=news",
+        "https://www.sciencetimes.com/articles/61266/20260205/7-breakthrough-medical-technologies-revolutionizing-healthcare-2026.htm",
+        "https://finance.yahoo.com/healthcare/articles/asia-pacific-telemedicine-market-size-153500191.html",
+        "https://finance.yahoo.com/healthcare/articles/telemedicine-digital-health-market-2026-093200195.html"
+      ],
+      "date": "2026-11-25T02:31:47.130629+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T02:01:57.912991+00:00"
+  "lastUpdated": "2026-11-25T02:31:47.130722+00:00"
 }
