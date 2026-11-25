@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Healthcare IT Pilot Cuts 277,000 Clicks in 90 Days Using AI Automation",
-      "urls": [
-        "https://www.crescendo.ai/news/ai-in-healthcare-news",
-        "https://www.icthealth.org/news",
-        "https://www.modernhealthcare.com/health-tech/ai/mh-tracking-ai-healthcare-live-updates",
-        "https://www.healthcareitnews.com",
-        "https://www.nejm.org/ai-in-medicine",
-        "https://www.healthcareitnews.com/projects/how-health-its-leading-innovators-are-using-ai-now-and-where-they-see-it-going",
-        "https://www.forbes.com/topics/ai-in-healthcare"
-      ],
-      "date": "2026-11-15T19:01:50.056519+00:00"
-    },
-    {
       "title": "Concentrate AI Launches HIPAA‑Compliant AI Gateway to Simplify Model Access and Cut Inference Costs",
       "urls": [
         "https://www.businesswire.com/news/home/20261109819633/en/Omdia-AI-Software-Revenue-to-Surpass-%24200-Billion-in-2026-Amid-Generative-AI-Surge",
@@ -5407,7 +5394,20 @@
         "https://www.techtarget.com/ai/tip/Compare-PyTorch-vs-TensorFlow-for-AI-and-machine-learning"
       ],
       "date": "2026-11-25T18:32:18.410603+00:00"
+    },
+    {
+      "title": "Health Ministry Launches National Campaign to Raise Awareness on Antimicrobial Resistance",
+      "urls": [
+        "https://www.who.int/news",
+        "https://www.who.int/news-room/headlines",
+        "https://www.yahoo.com/news/ap-top-stories-november-11-091609202.html",
+        "https://en.wikipedia.org/wiki/India",
+        "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+        "https://en.wikipedia.org/wiki/Prostitution_in_India",
+        "https://ddnews.gov.in/en/health-ministry-launches-world-amr-awareness-week-2026-calls-for-responsible-antibiotic-use"
+      ],
+      "date": "2026-11-25T19:02:02.079696+00:00"
     }
   ],
-  "lastUpdated": "2026-11-25T18:32:18.410686+00:00"
+  "lastUpdated": "2026-11-25T19:02:02.079778+00:00"
 }
