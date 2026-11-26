@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Open Source India Showcases AI Collaboration at Successful OSI 2026 Summit",
-      "urls": [
-        "https://www.opensourceindia.in",
-        "https://www.rediff.com/business/report/india-eyes-open-source-homegrown-ai-amid-access-curbs/20260630.htm"
-      ],
-      "date": "2026-11-16T18:33:06.203000+00:00"
-    },
-    {
       "title": "Telehealth Study Highlights Remote Care Benefits in Digestive and Liver Disease Journal",
       "urls": [
         "https://en.wikipedia.org/wiki/Telehealth"
@@ -5440,7 +5432,16 @@
         "https://aitoolly.com/ai-news/2026-11-25"
       ],
       "date": "2026-11-26T18:32:05.106007+00:00"
+    },
+    {
+      "title": "Global Digital Therapeutics Report Forecasts $12.77 Billion Market by 2030",
+      "urls": [
+        "https://www.samhsa.gov/mental-health",
+        "https://finance.yahoo.com/healthcare/articles/global-digital-therapeutics-dtx-mental-144100495.html",
+        "https://www.mumbaiindians.com"
+      ],
+      "date": "2026-11-26T19:01:59.902783+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T18:32:05.106091+00:00"
+  "lastUpdated": "2026-11-26T19:01:59.902871+00:00"
 }
