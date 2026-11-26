@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tesla Publishes Source Code to Satisfy Open Source License Requirements",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Linux",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-46-2026-november-9-15",
-        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-43-2026-october-26-november-1",
-        "https://www.zdnet.com/article/linux-and-open-source-2026-predictions",
-        "https://linuxiac.com/category/news",
-        "https://en.wikipedia.org/wiki/Qt_%28software%29",
-        "https://itsfoss.com/news",
-        "https://www.phoronix.com/news/October-2026-Highlights"
-      ],
-      "date": "2026-11-16T23:02:13.544042+00:00"
-    },
-    {
       "title": "Menlo Ventures Reports AI Healthcare Spending Surges to $3.7 Billion as Drug Discovery Gains Momentum",
       "urls": [
         "https://www.drugs.com",
@@ -5425,7 +5411,16 @@
         "https://www.mojeek.com/search?q=earthquake+volcano+natural+disaster+news+today+new+developments+November+2026&fmt=news"
       ],
       "date": "2026-11-26T22:31:48.997690+00:00"
+    },
+    {
+      "title": "Ecosia Switches From Mistral to Chinese Open‑Source AI Amid Quality Concerns",
+      "urls": [
+        "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai",
+        "https://techxplore.com/news/2026-10-france-mistral-unveils-latest-sovereign.html",
+        "https://mistral.ai/news/mistral-3"
+      ],
+      "date": "2026-11-26T23:02:41.815914+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T22:31:48.997757+00:00"
+  "lastUpdated": "2026-11-26T23:02:41.815980+00:00"
 }
