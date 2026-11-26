@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Proposes GST Relief for Assistive Use of Mainstream Technology",
-      "urls": [
-        "https://www.accessibility.org.au/digital-accessibility-trends-of-2026-a-year-in-review",
-        "https://www.ameridisability.com/ai-and-disability-in-2026-a-comprehensive-guide-for-people-with-disabilities-caregivers-seniors-and-families",
-        "https://www.who.int/news-room/fact-sheets/detail/assistive-technology",
-        "https://www.rehabtool.com/news.html",
-        "https://medianama.com/2026/09/223-government-proposal-tech-disability",
-        "https://www.levelaccess.com/blog/ai-and-assistive-tech-key-advancements-in-accessibility",
-        "https://www.accessibility.com/blog/accessibility-trends-to-watch-in-2026"
-      ],
-      "date": "2026-11-16T09:31:39.363251+00:00"
-    },
-    {
-      "title": "LMSYS Org Launches SGLang Consortium to Boost Open‑Source AI Inference Efficiency",
-      "urls": [
-        "https://www.chennaisuperkings.com",
-        "https://uk.finance.yahoo.com/news/lmsys-org-launches-sglang-consortium-190000546.html",
-        "https://markets.businessinsider.com/news/stocks/upbound-submits-modelplane-for-contribution-to-cncf-to-advance-open-source-inference-across-clouds-1036743604",
-        "https://finance.yahoo.com/technology/ai/articles/codenotary-releases-agentmon-live-free-160000064.html"
-      ],
-      "date": "2026-11-16T10:01:55.044029+00:00"
-    },
-    {
       "title": "Delhi Records Hazardous Air Quality Spike As Winter Action Plan Takes Effect",
       "urls": [
         "https://en.wikipedia.org/wiki/Air_pollution_in_India",
@@ -5435,7 +5412,16 @@
         "https://www.specialneeds.com/articles/research/assistive-tech/assistive-technology-research-in-2026-whats-real-and-whats-coming"
       ],
       "date": "2026-11-26T09:31:38.446352+00:00"
+    },
+    {
+      "title": "BharatGPT Targets Role as Meta of Indic Large Language Models",
+      "urls": [
+        "https://thehindu.com/news/top-news-of-the-day-november-24-2026/article71738347.ece",
+        "https://timesofindia.indiatimes.com/astrology/horoscope/daily-astrology-news-alert-26-november-2026-moon-moves-into-gemini-as-mercury-picks-up-speed-in-libra-calls-contracts-and-short-trips-turn-busy/articleshow/136022286.cms",
+        "https://analyticsindiamag.com/it-services/bharatgpt-aims-to-become-meta-of-indic-llms"
+      ],
+      "date": "2026-11-26T10:01:56.135199+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T09:31:38.446413+00:00"
+  "lastUpdated": "2026-11-26T10:01:56.135302+00:00"
 }
