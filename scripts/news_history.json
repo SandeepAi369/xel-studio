@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Records Hazardous Air Quality Spike As Winter Action Plan Takes Effect",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Air_pollution_in_India",
-        "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html",
-        "https://www.thehindu.com/news/cities/Delhi/delhi-winter-action-plan-explained-wfh-construction-curbs-dust-control/article71526683.ece",
-        "https://indianexpress.com/about/delhi-air-pollution",
-        "https://en.wikipedia.org/wiki/Environmental_issues_in_India",
-        "https://www.moneycontrol.com/news/india/delhi-chokes-under-thick-smog-as-aqi-hits-352-iit-delhi-records-425-14080330.html",
-        "https://www.bloomberg.com/news/articles/2026-11-06/delhi-breathes-its-most-toxic-pre-diwali-air-in-seven-years"
-      ],
-      "date": "2026-11-16T10:31:55.375822+00:00"
-    },
-    {
       "title": "AIIMS-Delhi Performs India's First Fetal Surgery Marking New Medical Milestone",
       "urls": [
         "https://www.ndtv.com/health/family-health/aiims-performs-indias-first-fetal-spine-surgery-what-the-milestone-means-for-fetal-medicine-12332023",
@@ -5430,7 +5417,16 @@
         "https://www.sciencedaily.com/releases/2026/08/260801093239.htm"
       ],
       "date": "2026-11-26T10:31:38.096670+00:00"
+    },
+    {
+      "title": "University of Florida Medical Sciences Highlights Seven Trends Driving Healthcare Innovation in 2026",
+      "urls": [
+        "https://www.news-medical.net/category/Medical-Research-News.aspx",
+        "https://distance.physiology.med.ufl.edu/about/articles/general/7-medical-sciences-trends-shaping-healthcare-in-2026",
+        "https://healthcare.digital/single-post/nelson-advisors-this-week-in-european-healthtech-medtech-and-health-ai-27th-november-2026"
+      ],
+      "date": "2026-11-26T11:01:58.320841+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T10:31:38.096722+00:00"
+  "lastUpdated": "2026-11-26T11:01:58.320921+00:00"
 }
