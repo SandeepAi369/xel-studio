@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Presents 2026‑27 Budget Emphasizing Fiscal Priorities and Social Programs",
-      "urls": [
-        "https://www.livemint.com/budget",
-        "https://www.ndtv.com/budget",
-        "https://www.hindustantimes.com/budget",
-        "https://www.thehindu.com/business/budget",
-        "https://www.businesstoday.in/union-budget",
-        "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
-      ],
-      "date": "2026-11-16T07:02:11.002456+00:00"
-    },
-    {
       "title": "AIIMS New Delhi Announces Two Open Positions in 2026 Recruitment Drive",
       "urls": [
         "https://en.wikipedia.org/wiki/All_India_Institutes_of_Medical_Sciences",
@@ -5443,7 +5431,17 @@
         "https://everythingbriefing.substack.com/p/todays-news-history-and-calendar-9f1"
       ],
       "date": "2026-11-26T07:02:03.808801+00:00"
+    },
+    {
+      "title": "Ayushman Bharat Digital Mission Reaches 93.95 Crore Health Records, Boosting Nationwide Care",
+      "urls": [
+        "https://www.hindustantimes.com/cities/chandigarh-news/ut-honoured-for-digital-linking-of-health-records-under-ayushman-bharat-digital-mission-101790366900691.html",
+        "https://organiser.org/2026/02/25/341713/bharat/how-ai-and-ayushman-bharat-digital-mission-are-powering-an-ai-driven-healthcare-revolution-in-india",
+        "https://www.thehindubusinessline.com/news/ayushman-bharat-digital-mission-crosses-9395-crore-health-accounts-centre/article71206193.ece",
+        "https://newsonair.gov.in/centre-reviews-ayushman-bharat-schemes-focuses-on-quality-healthcare-and-digital-adoption"
+      ],
+      "date": "2026-11-26T07:31:49.635213+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T07:02:03.808884+00:00"
+  "lastUpdated": "2026-11-26T07:31:49.635293+00:00"
 }
