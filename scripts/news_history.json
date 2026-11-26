@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "OpenAI Expands AI Reach Through Microsoft Partnership and Flagship Models",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI",
-        "https://www.britannica.com/money/OpenAI"
-      ],
-      "date": "2026-11-16T06:01:55.036431+00:00"
-    },
-    {
       "title": "U.S. Renewable Buildout Reaches New Capacity Milestone Amid Growing Solar Adoption",
       "urls": [
         "https://www.energyconnects.com/news/renewables/2026/november",
@@ -5427,7 +5419,18 @@
         "https://accessibility.arizona.edu/news/what-1780-screen-reader-users-told-webaim-2026"
       ],
       "date": "2026-11-26T05:32:22.620060+00:00"
+    },
+    {
+      "title": "Google DeepMind Accelerates Quantum Algorithm Discovery Using AI Agents and Formal Verification",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+        "https://deepmind.google",
+        "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+        "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month"
+      ],
+      "date": "2026-11-26T06:01:55.218955+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T05:32:22.620099+00:00"
+  "lastUpdated": "2026-11-26T06:01:55.219049+00:00"
 }
