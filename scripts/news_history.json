@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Tampa Bay Rays Deliver Five Unforgettable Moments in Historic 2026 Playoff Run",
-      "urls": [
-        "https://sports.yahoo.com/articles/5-unforgettable-moments-rays-incredible-082806835.html",
-        "https://en.wikipedia.org/wiki/LeBron_James",
-        "https://www.sportingnews.com/us/soccer/news/ranking-best-moments-2026-world-cup/0709178a1e470af5b46b68d4",
-        "https://en.wikipedia.org/wiki/Kimi_Antonelli",
-        "https://en.wikipedia.org/wiki/Max_Verstappen",
-        "https://sports.yahoo.com/soccer/article/lionel-messis-heroics-cape-verdes-run-viral-ducks-and-other-top-moments-from-the-2026-world-cup-143512363.html?fr=sycsrp_catchall"
-      ],
-      "date": "2026-11-16T04:31:36.264827+00:00"
-    },
-    {
       "title": "llm-d Reaches Production With Version 1.0, Cutting Inference Costs Elevenfold",
       "urls": [
         "https://en.wikipedia.org/wiki/Large_language_model",
@@ -5430,7 +5418,14 @@
         "https://www.analyticsinsight.net/top-list/top-10-generative-ai-tools-worth-using-in-2026-ranked"
       ],
       "date": "2026-11-26T04:01:54.454181+00:00"
+    },
+    {
+      "title": "Andreas Almgren Wins Men’s Race as Sheila Chepkirui Takes Women’s Title at 2026 New York City Marathon",
+      "urls": [
+        "https://nbcsports.com/olympics/news/new-york-city-marathon-2026-andreas-almgren-sheila-chepkirui"
+      ],
+      "date": "2026-11-26T04:31:41.891154+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T04:01:54.454257+00:00"
+  "lastUpdated": "2026-11-26T04:31:41.891196+00:00"
 }
