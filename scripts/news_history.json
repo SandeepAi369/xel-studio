@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Faces New Export Restrictions as U.S. Adds Five Countries to AI Chip Ban",
-      "urls": [
-        "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
-        "https://www.nvidia.com/en-us",
-        "https://www.nvidia.com/en-gb",
-        "https://hakia.com/tech-insights/ai-chip-wars",
-        "https://politico.com/news/2026/11/16/nvidia-washington-ai-industry-scramble-01166738",
-        "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d",
-        "https://stockanalysis.com/stocks/nvda",
-        "https://build.nvidia.com"
-      ],
-      "date": "2026-11-16T19:31:45.324726+00:00"
-    },
-    {
       "title": "India Budget Announces Five Major Tech and AI Initiatives to Boost Digital Growth",
       "urls": [
         "https://en.wikipedia.org/wiki/Union_budget_of_India",
@@ -5449,7 +5435,21 @@
         "https://playcode.io/blog/best-ai-coding-assistants-2026"
       ],
       "date": "2026-11-26T19:31:37.641204+00:00"
+    },
+    {
+      "title": "Reserve Bank of India Raises Repo Rate to 5.50% Amid Inflation Concerns",
+      "urls": [
+        "https://goodreturns.in/news/rbi-gold-reserves-shift-why-india-is-moving-massive-gold-stock-to-domestic-vaults-in-2026-explained-014-1549785.html",
+        "https://economictimes.indiatimes.com/markets/rbi",
+        "https://bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
+        "https://economictimes.indiatimes.com/news/economy/indicators/rbi-mpc-meeting-october-2026-repo-rate-decision-inflation-gdp-growth-outlook-key-takeaways/articleshow/134755892.cms",
+        "https://indianexpress.com/article/business/india-retail-inflation-november-2026-rbi-report-10978576",
+        "https://economictimes.indiatimes.com/news/economy/policy/rbi-mpc-meeting-2026-key-takeaways-repo-rate-decision-inflation-gdp-growth-outlook-check-major-announcements-by-gov-sanjay-malhotra/articleshow/130100138.cms",
+        "https://finscans.com/news/2026/11/25/rbi-november-2026-bulletin-highlights-economic-resilience",
+        "https://economictimes.indiatimes.com/news/economy/policy/rbi-mpc-meet-february-2026-read-the-full-statement-by-governor-sanjay-malhotra-here/articleshow/127970995.cms"
+      ],
+      "date": "2026-11-26T20:02:16.690096+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T19:31:37.641242+00:00"
+  "lastUpdated": "2026-11-26T20:02:16.690178+00:00"
 }
