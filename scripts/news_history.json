@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Telehealth Study Highlights Remote Care Benefits in Digestive and Liver Disease Journal",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Telehealth"
-      ],
-      "date": "2026-11-16T19:02:04.595220+00:00"
-    },
-    {
       "title": "Nvidia Faces New Export Restrictions as U.S. Adds Five Countries to AI Chip Ban",
       "urls": [
         "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
@@ -5441,7 +5434,22 @@
         "https://www.mumbaiindians.com"
       ],
       "date": "2026-11-26T19:01:59.902783+00:00"
+    },
+    {
+      "title": "Coding Agents Boost Code Volume Yet Fail to Accelerate Software Delivery",
+      "urls": [
+        "https://www.techrepublic.com/article/news-tiobe-november-2026-java-overtakes-cpp",
+        "https://www.shakudo.io/blog/best-ai-coding-assistants",
+        "https://www.techtimes.com/articles/315999/20260420/ai-tools-everyone-will-use-2026-best-apps-work-creativity-daily-life.htm",
+        "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+        "https://www.sitepoint.com/ai-coding-tools-comparison-2026",
+        "https://en.wikipedia.org/wiki/15.ai",
+        "https://devtoolsreview.com/best-for/ai-coding-tools-complete-guide-2026",
+        "https://en.wikipedia.org/wiki/Julia_%28programming_language%29",
+        "https://playcode.io/blog/best-ai-coding-assistants-2026"
+      ],
+      "date": "2026-11-26T19:31:37.641204+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T19:01:59.902871+00:00"
+  "lastUpdated": "2026-11-26T19:31:37.641242+00:00"
 }
