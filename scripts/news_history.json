@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "llm-d Reaches Production With Version 1.0, Cutting Inference Costs Elevenfold",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Large_language_model",
-        "https://www.techtimes.com/articles/329305/20261021/open-source-llm-d-10-hits-production-ibm-research-confirms-115x-ai-inference-cost-drop.htm"
-      ],
-      "date": "2026-11-16T05:01:47.922844+00:00"
-    },
-    {
       "title": "Autism Neurodiversity Technology Support News This Week November 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.theguardian.com/society/autism",
@@ -5425,7 +5417,17 @@
         "https://nbcsports.com/olympics/news/new-york-city-marathon-2026-andreas-almgren-sheila-chepkirui"
       ],
       "date": "2026-11-26T04:31:41.891154+00:00"
+    },
+    {
+      "title": "Linux Foundation Highlights Costly, Time‑Intensive Nature of Open‑Source Projects in New Blog",
+      "urls": [
+        "https://www.linuxfoundation.org/blog",
+        "https://linuxiac.com/linuxiac-weekly-wrap-up-week-47-2026-november-16-22",
+        "https://www.mojeek.com/search?q=Linux+open+source+software+community+news+top+stories+November+2026&fmt=news",
+        "https://www.zdnet.com/article/best-linux-alternatives-windows-2026-not-mint"
+      ],
+      "date": "2026-11-26T05:02:11.278917+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T04:31:41.891196+00:00"
+  "lastUpdated": "2026-11-26T05:02:11.279010+00:00"
 }
