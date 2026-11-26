@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "India Launches YuvAI Initiative to Boost Financial Inclusion and BharatGPT to Achieve AI Independence",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_India",
-        "https://analyticsindiamag.com/ai-features/bharatgpt-neysa-lay-out-indias-strong-push-for-ai-independence"
-      ],
-      "date": "2026-11-16T02:01:55.392794+00:00"
-    },
-    {
       "title": "Pomegranate Offers Twenty Health Benefits and Cosmetic Uses Amid Growing Wellness Trend",
       "urls": [
         "https://en.wikipedia.org/wiki/Pomegranate",
@@ -5416,7 +5408,18 @@
         "https://www.mojeek.com/search?q=climate+change+global+warming+research+news+today+key+updates+November+2026&fmt=news"
       ],
       "date": "2026-11-26T01:31:46.170920+00:00"
+    },
+    {
+      "title": "BenchLM.ai Unveils 90‑Model Open‑Source LLM Leaderboard, Highlighting Top Five Performers",
+      "urls": [
+        "https://benchlm.ai/best/open-source",
+        "https://www.dataaihub.co/research/top-open-source-ai-models-2026",
+        "https://www.unite.ai/best-open-source-llms",
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+        "https://research.google/blog"
+      ],
+      "date": "2026-11-26T02:02:19.529995+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T01:31:46.170974+00:00"
+  "lastUpdated": "2026-11-26T02:02:19.530072+00:00"
 }
