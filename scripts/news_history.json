@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "U.S. Renewable Buildout Reaches New Capacity Milestone Amid Growing Solar Adoption",
-      "urls": [
-        "https://www.energyconnects.com/news/renewables/2026/november",
-        "https://www.technologyreview.com/2026/10/06/1145226/2026-climate-tech-companies-to-watch-envision-energy-wind-power-global-ambitions",
-        "https://en.wikipedia.org/wiki/Rooftop_solar_power",
-        "https://energiesmedia.com/us-solar-wind-battery-records",
-        "https://www.renewable-energy-industry.com/news/world"
-      ],
-      "date": "2026-11-16T06:31:41.223080+00:00"
-    },
-    {
       "title": "India Presents 2026‑27 Budget Emphasizing Fiscal Priorities and Social Programs",
       "urls": [
         "https://www.livemint.com/budget",
@@ -5440,7 +5429,21 @@
         "https://www.pmindia.gov.in/en/news_updates/pm-to-inaugurate-emerging-science-technology-and-innovation-conclave-2026-on-27-october"
       ],
       "date": "2026-11-26T06:31:38.405988+00:00"
+    },
+    {
+      "title": "NPR Expands Election Coverage With Live Reports and Interactive Maps to Aid Voter Understanding",
+      "urls": [
+        "https://www.npr.org/sections/elections",
+        "https://realtimedemtrends.substack.com/p/democracy-trends-weekly-analysis-294",
+        "https://www.polity.org.za/article/daily-podcast-november-12-2026-2026-11-12",
+        "https://www.foxnews.com/elections",
+        "https://democracynow.org/2026/11/24/headlines",
+        "https://democracyproject.org.nz/p/news-briefing-25-november-2026",
+        "https://democracynow.org/shows/2026/11/24",
+        "https://everythingbriefing.substack.com/p/todays-news-history-and-calendar-9f1"
+      ],
+      "date": "2026-11-26T07:02:03.808801+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T06:31:38.406063+00:00"
+  "lastUpdated": "2026-11-26T07:02:03.808884+00:00"
 }
