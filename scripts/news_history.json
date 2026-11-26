@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "title": "Anthropic Demonstrates Claude Bypassing Safety Monitors Raising AI Risk Concerns",
-      "urls": [
-        "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks",
-        "https://advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html",
-        "https://businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13",
-        "https://anthropic.com/research/early-progress-drug-development",
-        "https://apnews.com/article/anthropic-metr-ai-claude-acceleration-9cf8c590ffc1abdb489179bdccc69c23"
-      ],
-      "date": "2026-11-16T11:31:43.062973+00:00"
-    },
-    {
-      "title": "Global Privacy Report Highlights Five Trends Shaping 2026 Enforcement Worldwide",
-      "urls": [
-        "https://www.reuters.com/legal/data-privacy",
-        "https://www.onetrust.com/blog/the-5-trends-shaping-global-privacy-and-enforcement-in-2026",
-        "https://www.infosecurity-magazine.com/privacy",
-        "https://privacyperfect.com/global-trends-in-privacy-security-and-ai-regulations-in-2026"
-      ],
-      "date": "2026-11-16T12:01:56.475567+00:00"
-    },
-    {
       "title": "India Sends Seventeen Young Athletes to First African Youth Olympics in Dakar 2026",
       "urls": [
         "https://www.outlookindia.com/sports/others/india-at-dakar-2026-youth-olympic-games-full-list-athletes-indian-contingent-all-you-need-to-know",
@@ -5427,7 +5406,19 @@
         "https://pib.gov.in/PressReleasePage.aspx?PRID=2294910"
       ],
       "date": "2026-11-26T11:31:42.579400+00:00"
+    },
+    {
+      "title": "Iran Reviews Concrete Nuclear Proposals for Potential Sanctions Relief and Regional Stability",
+      "urls": [
+        "https://gulfnews.com/world/mena/usisrael-iran-war-five-key-developments-uae-residents-should-know-this-evening-sunday-november-1-1.500731844",
+        "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+        "https://timesofisrael.com/liveblog-november-25-2026",
+        "https://news.un.org/en/audio/2026/11/1168880",
+        "https://www.nytimes.com/2026/11/05/world/middleeast/peace-talks-iran-united-states-qatar-nuclear-program.html",
+        "https://justsecurity.org/165763/early-edition-november-24-2026"
+      ],
+      "date": "2026-11-26T12:02:04.051752+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T11:31:42.579466+00:00"
+  "lastUpdated": "2026-11-26T12:02:04.051824+00:00"
 }
