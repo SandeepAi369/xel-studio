@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "Apple Launches Three New Devices in November 2026 Including MacBook Pro, HomeView, Apple TV 4K",
-      "urls": [
-        "https://www.macworld.com/article/3273463/apples-probably-done-announcing-new-hardware-but-november-is-still-pretty-jammed.html",
-        "https://www.cnbc.com/technology",
-        "https://thehansindia.com/tech/upcoming-ai-updates-in-november-2026-major-developments-to-watch-1137527",
-        "https://www.macrumors.com/2026/11/02/apple-isnt-done-with-2026-heres-whats-still-coming",
-        "https://macrumors.com/2026/11/14/top-stories-apple-new-software-approach",
-        "https://en.wikipedia.org/wiki/Safari_%28web_browser%29"
-      ],
-      "date": "2026-11-16T13:02:04.094461+00:00"
-    },
-    {
       "title": "National Association of the Deaf Opposes Gene Therapy Targeting Hearing Status",
       "urls": [
         "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
@@ -5421,7 +5409,16 @@
         "https://en.wikipedia.org/wiki/International_Men%27s_Day"
       ],
       "date": "2026-11-26T12:33:52.420880+00:00"
+    },
+    {
+      "title": "Platform Change Tracker Unveils Broad Social Media Product, Ads, API, Policy Updates Across Meta, TikTok, YouTube, X, LinkedIn",
+      "urls": [
+        "https://www.finnpartners.com/news-insights/boom-scroll-november-2026-social-media-updates",
+        "https://socialstrategyhub.com",
+        "https://socialbee.com/blog/latest-social-media-news"
+      ],
+      "date": "2026-11-26T13:02:10.870876+00:00"
     }
   ],
-  "lastUpdated": "2026-11-26T12:33:52.420948+00:00"
+  "lastUpdated": "2026-11-26T13:02:10.870940+00:00"
 }
