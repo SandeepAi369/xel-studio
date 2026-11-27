@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "The article notes that the break‑in highlights potential vulnerabilities in AI platform hosting, implying that organizations may",
-      "urls": [
-        "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns",
-        "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
-        "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor",
-        "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
-        "https://www.politico.com/news/2026/11/16/bonta-sues-openai-over-rogue-ai-hack-of-hugging-face-01166953"
-      ],
-      "date": "2026-11-17T14:31:49.951935+00:00"
-    },
-    {
       "title": "Hyderabad Pin Code 500020 Reveals Detailed Post Office Network Across District",
       "urls": [
         "https://openloophealth.com/blog/recent-digital-health-trends-insights-and-news-november-2026",
@@ -5446,7 +5435,16 @@
         "https://www.weforum.org/stories/health-and-healthcare-systems/10-technology-trends-coronavirus-covid19-pandemic-robotics-telehealth"
       ],
       "date": "2026-11-27T14:02:13.129498+00:00"
+    },
+    {
+      "title": "Danish Foundation Models Launches Munin 2.0, a 120 Billion Parameter Open‑Source Language Model",
+      "urls": [
+        "https://www.nocode.mba/ai-release-tracker/2026/11",
+        "https://www.shakudo.io/blog/top-9-large-language-models",
+        "https://aifront-page.com/llm-launches-november-2026"
+      ],
+      "date": "2026-11-27T14:32:21.414741+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T14:02:13.129554+00:00"
+  "lastUpdated": "2026-11-27T14:32:21.414819+00:00"
 }
