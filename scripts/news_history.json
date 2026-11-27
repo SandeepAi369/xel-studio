@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "India's Renewable Push Cuts $100 Billion Fuel Imports, Saves $240 Billion by 2030",
-      "urls": [
-        "https://economictimes.indiatimes.com/industry/renewables/indias-renewable-energy-expansion-averts-100-bn-in-fuel-imports-savings-seen-at-240-bn-by-2030/articleshow/135739839.cms",
-        "https://pragativadi.com/pm-narendra-modi-to-inaugurate-mega-bharat-renewable-energy-summit-2026-on-nov-2",
-        "https://orissadiary.com/prime-minister-shares-an-article-on-role-of-solar-energy-in-indias-clean-energy-transition",
-        "https://finance.yahoo.com/energy/articles/latest-news-energy-transition-renewable-113700332.html"
-      ],
-      "date": "2026-11-17T01:31:36.565612+00:00"
-    },
-    {
       "title": "Mistral AI Unveils Large 4 Model Claiming Fourfold Performance Edge Over Open Competitors",
       "urls": [
         "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
@@ -5420,7 +5410,19 @@
         "https://enableall.com/blog/the-deaf-tech-stack-11-companies-changing-what-accessibility-looks-like-in-2026"
       ],
       "date": "2026-11-27T01:01:54.649893+00:00"
+    },
+    {
+      "title": "Delhi Battles Hazardous Smog After Diwali as AQI Peaks at 366",
+      "urls": [
+        "https://www.thehindu.com/news/cities/Delhi/how-is-air-pollution-in-delhi-ncr-ahead-of-winter/article71615365.ece",
+        "https://www.thehindu.com/news/cities/Delhi/citys-early-winter-air-pollution-highest-in-3-years-study/article71691227.ece",
+        "https://www.indiatvnews.com/delhi/delhis-air-pollution-dips-slightly-post-diwali-as-wind-speed-helps-disperse-smog-2026-11-10-1059058",
+        "https://www.kjzz.org/npr-top-stories/2026-11-09/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution",
+        "https://www.newindianexpress.com/cities/delhi/2026/Nov/09/delhi-aqi-data-under-scrutiny-as-monitoring-stations-go-offline-amid-peak-diwali-pollution",
+        "https://www.outlookindia.com/national/delhi-air-pollution-after-diwali-thick-smog-chokes-capital-delhi-aqi-severe-air-quality-firecracker-smoke-grap-stage-3"
+      ],
+      "date": "2026-11-27T01:31:45.812336+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T01:01:54.649975+00:00"
+  "lastUpdated": "2026-11-27T01:31:45.812398+00:00"
 }
