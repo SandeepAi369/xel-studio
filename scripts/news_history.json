@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Boosts Quarterly Revenue 8.5 Percent With Blackwell GPU Production Ramp",
-      "urls": [],
-      "date": "2026-11-17T22:01:34.936070+00:00"
-    },
-    {
       "title": "Claude and Peer AI Coding Assistants Accelerate Development Across Software Industry",
       "urls": [
         "https://en.wikipedia.org/wiki/Claude_%28AI%29",
@@ -5433,7 +5428,18 @@
         "https://www.dgfscdhg.gov.in/publication"
       ],
       "date": "2026-11-27T21:33:40.349075+00:00"
+    },
+    {
+      "title": "Skyroot Aerospace Achieves First Successful Orbital Launch with Vikram‑1 Mission Aagaman",
+      "urls": [
+        "https://www.indiatoday.in/science/story/isro-sslv-launch-two-satellites-in-space-customer-withdrawals-delay-3047267-2026-11-26",
+        "https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece",
+        "https://www.isro.gov.in/LaunchMissions.html",
+        "https://www.moneycontrol.com/news/india/skyroot-vikram-1-rocket-launch-live-updates-isro-vikram-mission-aagaman-sriharikota-liveblog-13977181.html",
+        "https://www.news18.com/science/isro-gslv-f17-launch-on-sep-4-eos-05-to-be-indias-first-imaging-satellite-from-high-orbit-10302916.html"
+      ],
+      "date": "2026-11-27T22:02:23.722073+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T21:33:40.349157+00:00"
+  "lastUpdated": "2026-11-27T22:02:23.722152+00:00"
 }
