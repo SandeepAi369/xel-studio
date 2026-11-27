@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral Releases Updated AI Platform, Expands Open Source Collaboration for Developers Worldwide",
-      "urls": [
-        "https://mistral.ai/about",
-        "https://releasebot.io/updates/mistral"
-      ],
-      "date": "2026-11-17T10:02:24.598773+00:00"
-    },
-    {
       "title": "Microsoft Emissions Rise 25 Percent Last Year",
       "urls": [
         "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
@@ -5448,7 +5440,16 @@
         "https://en.planet.wikimedia.org"
       ],
       "date": "2026-11-27T10:02:13.417623+00:00"
+    },
+    {
+      "title": "Delhi Smog Intensifies as AQI Data Shows Nationwide Air Quality Decline",
+      "urls": [
+        "https://www.thehindu.com/infographics/2026-11-20/delhi-smog-cpcb-aqi-data-rest-of-india-winter-pollution/index.html",
+        "https://theweek.in/news/india/2026/11/25/delhis-air-quality-to-remain-poor-till-november-27-aqi-stays-at-200-anand-vihar-records-336.html",
+        "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html"
+      ],
+      "date": "2026-11-27T10:31:52.479429+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T10:02:13.417695+00:00"
+  "lastUpdated": "2026-11-27T10:31:52.479512+00:00"
 }
