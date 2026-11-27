@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Mistral AI Unveils Large 4 Model Claiming Fourfold Performance Edge Over Open Competitors",
-      "urls": [
-        "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-        "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense",
-        "https://www.secondtalent.com/resources/every-mistral-ai-model-explained-compared"
-      ],
-      "date": "2026-11-17T02:01:51.739451+00:00"
-    },
-    {
       "title": "Telemedicine Expands Access and Integrates Digital Therapeutics to Transform Patient Care",
       "urls": [
         "https://www.nature.com/subjects/telehealth-innovations-for-healthcare-delivery",
@@ -5422,7 +5413,18 @@
         "https://www.outlookindia.com/national/delhi-air-pollution-after-diwali-thick-smog-chokes-capital-delhi-aqi-severe-air-quality-firecracker-smoke-grap-stage-3"
       ],
       "date": "2026-11-27T01:31:45.812336+00:00"
+    },
+    {
+      "title": "Hugging Face Launches Security Crusade After AI Agent Breach Threatens Open‑Source Models",
+      "urls": [
+        "https://huggingface.co",
+        "https://finance.yahoo.com/technology/article/hugging-face-cofounder-open-weight-ai-models-were-our-savior-220000916.html",
+        "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
+        "https://www.nytimes.com/2026/08/24/technology/hugging-face-open-source-ai-attack.html",
+        "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit"
+      ],
+      "date": "2026-11-27T02:01:57.010623+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T01:31:45.812398+00:00"
+  "lastUpdated": "2026-11-27T02:01:57.010693+00:00"
 }
