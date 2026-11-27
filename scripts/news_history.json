@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "title": "Passaic County Posts Live Election Results Across All Races on County Website",
-      "urls": [
-        "https://www.nj.com/passaic-county/2026/11/nj-election-day-2026-passaic-county-live-results.html",
-        "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-        "https://www.nj.gov/state/elections/election-night-results.shtml"
-      ],
-      "date": "2026-11-17T03:03:41.595641+00:00"
-    },
-    {
-      "title": "Apple Expands Online Store Offerings With Unified Account Access Across Devices",
-      "urls": [
-        "https://www.apple.com/store",
-        "https://account.apple.com",
-        "https://asw.apple.com/home",
-        "https://account.apple.com/sign-in",
-        "https://www.icloud.com"
-      ],
-      "date": "2026-11-17T03:31:54.236630+00:00"
-    },
-    {
       "title": "Monitoring Plan includes regular water testing and community reporting mechanisms to ensure the restored sections remain free of waste and",
       "urls": [
         "https://www.homesnacks.com/most-dangerous-cities-in-florida",
@@ -5444,7 +5424,19 @@
         "https://www.drdo.gov.in/drdo/home"
       ],
       "date": "2026-11-27T03:02:02.052852+00:00"
+    },
+    {
+      "title": "SpaceX Targets Space‑Based Data Centers With Starship to Transform Satellite Computing",
+      "urls": [
+        "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
+        "https://nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch",
+        "https://techtimes.com/articles/331504/20261125/ussf-266-launch-spacex-sends-another-classified-payload-orbit-us-space-force.htm",
+        "https://www.nasa.gov/international-space-station/space-station-research-and-technology/latest-news-from-space-station-research",
+        "https://www.nasa.gov/news-release/nasa-shares-progress-toward-early-artemis-moon-missions-with-crew",
+        "https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch"
+      ],
+      "date": "2026-11-27T03:32:11.886705+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T03:02:02.052918+00:00"
+  "lastUpdated": "2026-11-27T03:32:11.886770+00:00"
 }
