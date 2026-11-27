@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Greta Thunberg Warns Planet Is Being Killed at COP31 Climate Summit",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Weather_of_2026",
-        "https://www.wuft.org/weather/2026-11-12/historic-flooding-leaves-parts-of-eastern-florida-in-disarray",
-        "https://www.theguardian.com/world/extreme-weather"
-      ],
-      "date": "2026-11-17T22:31:44.890734+00:00"
-    },
-    {
       "title": "Researchers Find Public Trust Significantly Lower for AI Developments Than Traditional Innovations",
       "urls": [
         "https://en.wikipedia.org/wiki/AI_boom",
@@ -5439,7 +5430,15 @@
         "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-25-november-2026"
       ],
       "date": "2026-11-27T22:31:42.511398+00:00"
+    },
+    {
+      "title": "Mistral Unveils Large 4 Trillion‑Parameter Model Claiming Top Open AI Performance",
+      "urls": [
+        "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense",
+        "https://mistral.ai/news/timestral"
+      ],
+      "date": "2026-11-27T23:01:47.533970+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T22:31:42.511466+00:00"
+  "lastUpdated": "2026-11-27T23:01:47.534027+00:00"
 }
