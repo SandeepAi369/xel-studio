@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "title": "Researchers Find Public Trust Significantly Lower for AI Developments Than Traditional Innovations",
-      "urls": [
-        "https://en.wikipedia.org/wiki/AI_boom",
-        "https://chat.mistral.ai",
-        "https://console.mistral.ai/home",
-        "https://en.wikipedia.org/wiki/Open_weights"
-      ],
-      "date": "2026-11-17T23:02:26.913115+00:00"
-    },
-    {
-      "title": "India reports pharmaceutical exports of $16.14 billion, with Europe and emerging markets accounting for the bulk of the increase. The",
-      "urls": [
-        "https://maritimegateway.com/indias-pharma-exports-reach-16-14-billion-as-europe-and-emerging-markets-drive-growth",
-        "https://pharma.economictimes.indiatimes.com/tag/india+pharmaceutical+industry",
-        "https://en.wikipedia.org/wiki/Economy_of_India"
-      ],
-      "date": "2026-11-17T23:31:50.927228+00:00"
-    },
-    {
       "title": "Google Gemini Adds Video Generation and Budget Management Features to AI Suite",
       "urls": [
         "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026",
@@ -5438,7 +5419,18 @@
         "https://mistral.ai/news/timestral"
       ],
       "date": "2026-11-27T23:01:47.533970+00:00"
+    },
+    {
+      "title": "Anthropic Acquires AI‑Powered Biotech Startup to Expand Into Rare‑Disease Drug Design",
+      "urls": [
+        "https://www.nature.com/articles/d41586-026-03640-9",
+        "https://technewsreel.com/software-and-development/ai-drug-discovery-reality-check-zero-diseases-cured-as-of-november-2026",
+        "https://ft.com/content/86cef5ab-ce61-4b50-8511-164aa3e5f499",
+        "https://www.mojeek.com/search?q=drug+discovery+AI+pharmaceutical+research+news+new+developments+November+2026&fmt=news",
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/ddr.70281"
+      ],
+      "date": "2026-11-27T23:31:52.958792+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T23:01:47.534027+00:00"
+  "lastUpdated": "2026-11-27T23:31:52.958861+00:00"
 }
