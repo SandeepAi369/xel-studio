@@ -1,31 +1,6 @@
 {
   "entries": [
     {
-      "title": "Linux learning guides cover installation, package management, shell scripting, and system administration, enabling",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Arch_Linux",
-        "https://en.wikipedia.org/wiki/Linux_kernel_version_history",
-        "https://www.geeksforgeeks.org/linux-unix/linux-tutorial",
-        "https://en.wikipedia.org/wiki/Free_and_open-source_software",
-        "https://www.linux.org"
-      ],
-      "date": "2026-11-17T18:31:48.444693+00:00"
-    },
-    {
-      "title": "India and United States Sign Trade Deal to Boost Generic Drug Exports",
-      "urls": [
-        "https://www.nytimes.com/2026/10/02/business/india-generic-drugs-tariffs.html",
-        "https://www.ibef.org/exports/pharmaceutical-exports-from-india",
-        "https://www.maritimegateway.com/indias-pharma-exports-reach-16-14-billion-as-europe-and-emerging-markets-drive-growth",
-        "https://www.thepharmaletter.com/generics-news",
-        "https://www.ibef.org/industry/pharmaceutical-india",
-        "https://pharma.economictimes.indiatimes.com/news/policy-and-regulations/india-us-trade-deal-generic-drugmakers-to-get-negotiated-outcome-in-section-232-probe/128033554",
-        "https://en.wikipedia.org/wiki/Pharmaceutical_industry_in_India",
-        "https://www.eurasiareview.com/13112026-china-is-not-a-trade-threat-large-imports-catalyze-indias-value-added-export-basket-strengthening-make-in-india-analysis"
-      ],
-      "date": "2026-11-17T19:01:58.170811+00:00"
-    },
-    {
       "title": "November 2026 Sees Record 38 AI Model Releases Across 32 Vendors, Driving Innovation",
       "urls": [
         "https://af.net/realtime/ai-model-releases-november-2026",
@@ -5442,7 +5417,18 @@
         "https://www.educationtimes.com/news/school-assembly-news-headlines-for-november-28-2026-top-india-international-sports-and-business-news/articleshow/136218688.cms"
       ],
       "date": "2026-11-27T18:31:44.239512+00:00"
+    },
+    {
+      "title": "India Projects Pharmaceutical Exports Surpassing $33 Billion in FY27 Amid Global Trade Challenges",
+      "urls": [
+        "https://newswire.lk/2026/11/25/indias-pharmaceutical-exports-projected-to-exceed-us33-billion",
+        "https://economictimes.indiatimes.com/topic/generic-drugs",
+        "https://www.mojeek.com/search?q=India+pharmaceutical+generic+drugs+export+news+key+updates+November+2026&fmt=news",
+        "https://www.fortuneindia.com/business-news/india-pharma-exports-powering-on-despite-global-trade-crisis/169376",
+        "https://money.rediff.com/news/market/india-pharma-exports-to-hit-33-bn-in-fy27-cphi-india-kicks-off/58616520261123"
+      ],
+      "date": "2026-11-27T19:03:28.998124+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T18:31:44.239570+00:00"
+  "lastUpdated": "2026-11-27T19:03:28.998192+00:00"
 }
