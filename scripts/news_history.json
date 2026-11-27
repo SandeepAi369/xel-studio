@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "Microsoft Emissions Rise 25 Percent Last Year",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
-        "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-        "https://phys.org/news/2026-11-global-climate-policies-advance-setbacks.html"
-      ],
-      "date": "2026-11-17T10:32:18.190896+00:00"
-    },
-    {
       "title": "Menlo Ventures Reports AI Spending Surges to $3.7 Billion, Shifts Toward Drug Discovery",
       "urls": [
         "https://www.wolterskluwer.com/en/expert-insights/2026-future-ready-healthcare",
@@ -5449,7 +5440,15 @@
         "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html"
       ],
       "date": "2026-11-27T10:31:52.479429+00:00"
+    },
+    {
+      "title": "Mojeek Appears As Only Search Result, Offering No Additional Information for Reporters",
+      "urls": [
+        "https://medcitynews.com/2026/11/safety-and-regulation-must-lead-the-way-in-healthcare-ai-innovation",
+        "https://www.mojeek.com/search?q=healthcare+technology+innovation+AI+medical+news+news+today+November+2026&fmt=news"
+      ],
+      "date": "2026-11-27T11:01:52.987481+00:00"
     }
   ],
-  "lastUpdated": "2026-11-27T10:31:52.479512+00:00"
+  "lastUpdated": "2026-11-27T11:01:52.987521+00:00"
 }
