@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "title": "Olmo 3 Charts Open‑Source AI Path, Challenging Proprietary Model Dominance",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://www.techrepublic.com/article/news-mistral-large-4-ai-cybersecurity-open-weights",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://mistral.ai/products/vibe"
-      ],
-      "date": "2026-11-18T05:05:02.647559+00:00"
-    },
-    {
-      "title": "United Nations Highlights AI Potential for Disability Inclusion at International Purple Fest",
-      "urls": [
-        "https://www.disabilitybelongs.org/2026/11/ai-digital-accessibility",
-        "https://news.un.org/en/story/2025/10/1166082"
-      ],
-      "date": "2026-11-18T05:31:40.975819+00:00"
-    },
-    {
       "title": "Perry AI Secures $2.2 Million Seed Funding to Advance AI Legal Agents for Private Capital Funds",
       "urls": [
         "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor",
@@ -5438,7 +5420,15 @@
         "https://www.mojeek.com/search?q=Linux+open+source+software+community+news+new+developments+November+2026&fmt=news"
       ],
       "date": "2026-11-28T05:01:48.023045+00:00"
+    },
+    {
+      "title": "India Announces Squad for West Indies ODI Series and Japan T20I Including Shreyas Iyer",
+      "urls": [
+        "https://www.news18.com/cricket/bcci-invites-application-for-new-selector-after-ajit-agarkars-tenure-ends-ws-l-10369999.html",
+        "https://www.bcci.tv/news/article/indias-squad-for-home-series-against-west-indies-and-roi-squad-for-irani-cup-announced"
+      ],
+      "date": "2026-11-28T05:31:53.324368+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T05:01:48.023108+00:00"
+  "lastUpdated": "2026-11-28T05:31:53.324427+00:00"
 }
