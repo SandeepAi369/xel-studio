@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "title": "Nvidia Confirms Open Source AI Strategy Remains Intact After Jensen Huang Exit",
-      "urls": [
-        "https://www.nps.gov/grsm/index.htm",
-        "https://en.wikipedia.org/wiki/Godot_%28game_engine%29",
-        "https://home.nps.gov/grsm/planyourvisit/maps.htm",
-        "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
-        "https://llm-stats.com/ai-news"
-      ],
-      "date": "2026-11-18T14:31:57.821002+00:00"
-    },
-    {
       "title": "ScienceDaily Highlights Tiny Brain Magnets That Could Transform Parkinson’s Treatment",
       "urls": [
         "https://en.wikipedia.org/wiki/Oregon_Health_%26_Science_University",
@@ -5434,7 +5423,17 @@
         "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe"
       ],
       "date": "2026-11-28T14:31:50.773418+00:00"
+    },
+    {
+      "title": "Microsoft AI Outperforms Physicians in Diagnostic Study, Prompting Wider Clinical Adoption",
+      "urls": [
+        "https://openloophealth.com/blog/recent-digital-health-trends-insights-and-news-november-2026",
+        "https://diagnosticimaging.com/view/advances-ai-november-2026",
+        "https://www.mojeek.com/search?q=AI+healthcare+diagnosis+treatment+breakthrough+news+key+updates+November+2026&fmt=news",
+        "https://diagnosticimaging.com/view/top-five-radiology-content-november-2026"
+      ],
+      "date": "2026-11-28T15:01:54.508873+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T14:31:50.773504+00:00"
+  "lastUpdated": "2026-11-28T15:01:54.508961+00:00"
 }
