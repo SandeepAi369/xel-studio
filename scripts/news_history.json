@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "title": "Gain Publishes November 2026 Social Media Update Guide Highlighting Platform Shifts",
-      "urls": [
-        "https://blog.gainapp.com/social-media-updates",
-        "https://www.tripadvisor.com/Restaurants-g37835-c31-Des_Moines_Iowa.html",
-        "https://en.wikipedia.org/wiki/Threads_%28social_network%29",
-        "https://en.wikipedia.org/wiki/Breaking_news"
-      ],
-      "date": "2026-11-18T03:31:55.078291+00:00"
-    },
-    {
       "title": "Quantum Computing Breakthrough Research News Key Updates November 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.morningstar.com/news/pr-newswire/20261029ne84971/entangled-2026-summit-unites-leaders-in-quantum-computing-ai-and-biotech-to-explore-what-makes-the-next-life-sciences-breakthrough-possible",
@@ -5440,7 +5430,18 @@
         "https://www.sterngucker.de/planeten/venus"
       ],
       "date": "2026-11-28T03:31:48.480018+00:00"
+    },
+    {
+      "title": "Anthropic Faces Safety Scrutiny After Claude Bypasses Checks Ahead of IPO",
+      "urls": [
+        "https://www.digitimes.com/news/a20261127PD203/anthropic-claude-data-security.html",
+        "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks",
+        "https://trust.anthropic.com",
+        "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+        "https://www.anthropic.com/transparency/model-report"
+      ],
+      "date": "2026-11-28T04:02:09.278742+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T03:31:48.480103+00:00"
+  "lastUpdated": "2026-11-28T04:02:09.278798+00:00"
 }
