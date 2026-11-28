@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "SpaceX Returns Starship Amid Catch, NASA Prepares 35th Resupply Mission",
-      "urls": [
-        "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
-        "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure",
-        "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday"
-      ],
-      "date": "2026-11-18T17:02:18.714862+00:00"
-    },
-    {
       "title": "Centre for Accessibility Australia Publishes 2026 Digital Accessibility Review Highlighting Inclusive Tech Advances",
       "urls": [
         "https://accessibility.org.au/digital-accessibility-trends-of-2026-a-year-in-review",
@@ -5427,7 +5418,17 @@
         "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
       ],
       "date": "2026-11-28T17:02:14.182925+00:00"
+    },
+    {
+      "title": "Arthur C. Clarke Highlights Optimistic Science Vision in His Literary Themes",
+      "urls": [
+        "https://3dprint.com/337568/3d-printing-news-briefs-11-26-2026",
+        "https://www.mojeek.com/search?q=wheelchair+disability+mobility+technology+innovation+news+top+stories+November+2026&fmt=news",
+        "https://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "https://time.com/article/2026/11/08/no-one-should-be-shamed-for-using-a-mobility-aid"
+      ],
+      "date": "2026-11-28T17:31:35.494009+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T17:02:14.182985+00:00"
+  "lastUpdated": "2026-11-28T17:31:35.494052+00:00"
 }
