@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "title": "World Health Organization Pushes India to Phase Out Mercury Medical Devices",
-      "urls": [
-        "https://pragativadi.com/india-cuts-tb-mortality-by-38-hits-94-treatment-success-who-report-2026",
-        "https://www.who.int/india/news-room/1"
-      ],
-      "date": "2026-11-18T02:33:17.164811+00:00"
-    },
-    {
       "title": "India Defence Military Drdo Technology News Breaking Developments November 2026 — Latest Developments and Key Updates",
       "urls": [
         "https://www.thedefensenews.com/DRDO-Releases-Expression-of-Interest-for-Indian-Industry-Partner-to-Develop-BEDHAK-High-Power-RF-Directed-Energy-Weapon",
@@ -5436,7 +5428,19 @@
         "https://indianexpress.com/article/health-wellness/india-unlikely-to-meet-2026-measles-rubella-elimination-goal-despite-98-vaccination-coverage-who-10981804"
       ],
       "date": "2026-11-28T02:31:44.967452+00:00"
+    },
+    {
+      "title": "DRDO Conducts Successful Pralay Missile Flight Test From Coastal Launch Site",
+      "urls": [
+        "https://economictimes.indiatimes.com/news/india/drdo-conducts-flight-test-of-pralay-the-indigenously-developed-quasi-ballistic-missile/videoshow/135579208.cms",
+        "https://www.drdo.gov.in/drdo/en/home",
+        "https://www.indiandefensenews.in/2026/11/drdo-accelerates-indias-semiconductor.html",
+        "https://www.indiandefensenews.in/2026/07/drdo-validates-quantum-key-distribution.html",
+        "https://www.indiandefensenews.in/2026/08/government-approves-transfer-of-drdo.html",
+        "https://ddnews.gov.in/en/tag/drdo"
+      ],
+      "date": "2026-11-28T03:02:05.946534+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T02:31:44.967511+00:00"
+  "lastUpdated": "2026-11-28T03:02:05.946600+00:00"
 }
