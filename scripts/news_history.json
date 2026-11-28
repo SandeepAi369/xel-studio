@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "title": "Jacksonville Jaguars Defeat Titans 40 Points in Week Ten Home Victory",
-      "urls": [
-        "https://www.jaguars.com",
-        "https://markets.businessinsider.com/index/dow_jones",
-        "https://www.investing.com/indices/us-30",
-        "https://www.marathonpetroleum.com",
-        "https://www.britannica.com/sports/marathon-race",
-        "https://www.wsj.com/market-data/index/djia?msockid=3764b5d061e36b36385cadc560c66a96",
-        "https://en.wikipedia.org/wiki/Kelvin_Kiptum"
-      ],
-      "date": "2026-11-18T08:31:41.325812+00:00"
-    },
-    {
-      "title": "Gemini Robotics 2.5 Boosts Industrial Precision, Cutting Production Errors and Costs",
-      "urls": [
-        "https://roboticsandautomationnews.com/2026/11/15/google-deepmind-launches-gemini-robotics-2-5-with-improved-dexterity-and-industrial-capabilities/107186",
-        "https://www.cnet.com/tech/services-and-software/what-is-gemini-everything-you-should-know-google-ai-tool",
-        "https://deepmind.google/models/gemini",
-        "https://en.wikipedia.org/wiki/Gemini_%28language_model%29"
-      ],
-      "date": "2026-11-18T09:02:05.510832+00:00"
-    },
-    {
       "title": "Union Budget Introduces Divyang Sahara and Divyangjan Kaushal Schemes to Boost Skill Development",
       "urls": [
         "https://ddnews.gov.in/en/two-new-schemes-for-empowerment-of-divyangjan-in-union-budget-2026-27",
@@ -5444,7 +5421,16 @@
         "https://news18.com/cricket/bcci-breaks-silence-on-mohammed-siraj-selection-controversy-dont-drag-him-ws-lt-10441923.html"
       ],
       "date": "2026-11-28T08:31:37.009680+00:00"
+    },
+    {
+      "title": "Meta Announces Over 1.2 Billion Llama Downloads and Launches AI Glasses Partnership",
+      "urls": [
+        "https://dev.meta.ai/llama/models/llama-4",
+        "https://ai.meta.com/Open",
+        "https://ai.meta.com"
+      ],
+      "date": "2026-11-28T09:02:53.379473+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T08:31:37.009746+00:00"
+  "lastUpdated": "2026-11-28T09:02:53.379530+00:00"
 }
