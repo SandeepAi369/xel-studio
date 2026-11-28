@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "title": "Delhi Records Severe Air Quality Spike After Diwali, Prompting Health Alerts",
-      "urls": [
-        "https://outlookindia.com/national/column-delhi-air-pollution-crisis-children-health-politics",
-        "https://www.thehindu.com/news/national/post-diwali-air-pollution-delhi-hits-severe-as-air-quality-index-aqi-soars-across-major-indian-cities/article71681352.ece",
-        "https://en.wikipedia.org/wiki/Nestl%C3%A9",
-        "https://ftnnews.com/travel-news/other-news/delhi-smog-after-diwali-2026-travel-alert",
-        "https://www.financialexpress.com/india-news/delhi-ncr-anti-pollution-crackdown-whats-changing-from-november-5-who-is-exempt-explained/4373735",
-        "https://www.dw.com/en/india-delhi-smog-hits-highest-level-this-year/a-70806351",
-        "https://www.dw.com/en/india-dehli-diwali-fireworks-smog-air-pollution-v2/a-70625759",
-        "https://hindustantimes.com/ht-insight/governance/four-reforms-could-fix-delhi-s-smog-numbers-101794805444655.html"
-      ],
-      "date": "2026-11-18T14:02:07.438989+00:00"
-    },
-    {
       "title": "Nvidia Confirms Open Source AI Strategy Remains Intact After Jensen Huang Exit",
       "urls": [
         "https://www.nps.gov/grsm/index.htm",
@@ -5440,7 +5426,15 @@
         "https://www.worldwildlife.org/news/press-releases/wildlife-population-sizes-decline-73-on-average-but-tiger-elephant-turtle-and-tuna-recoveries-offer-hope"
       ],
       "date": "2026-11-28T14:01:53.557967+00:00"
+    },
+    {
+      "title": "Mistral AI Launches Mistral Large 4 Model Nicknamed Le Chonk",
+      "urls": [
+        "https://docs.mistral.ai/models/mistral-large-4-0",
+        "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe"
+      ],
+      "date": "2026-11-28T14:31:50.773418+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T14:01:53.558026+00:00"
+  "lastUpdated": "2026-11-28T14:31:50.773504+00:00"
 }
