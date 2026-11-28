@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "title": "GitHub Reports 27 Million Indian Developers Amid Surge in AI Coding Tool Adoption",
-      "urls": [
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/github-india-developer-base-hits-27-million-amid-ai-driven-coding-surge/130222912",
-        "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit",
-        "https://www.linuxfoundation.org/press/linux-foundation-research-finds-open-source-is-key-to-driving-indias-ai-market"
-      ],
-      "date": "2026-11-18T02:01:51.542337+00:00"
-    },
-    {
       "title": "World Health Organization Pushes India to Phase Out Mercury Medical Devices",
       "urls": [
         "https://pragativadi.com/india-cuts-tb-mortality-by-38-hits-94-treatment-success-who-report-2026",
@@ -5429,7 +5420,16 @@
         "https://www.mojeek.com/search?q=Indian+monsoon+climate+impact+weather+forecast+news+this+week+November+2026&fmt=news"
       ],
       "date": "2026-11-28T01:32:09.940045+00:00"
+    },
+    {
+      "title": "Nvidia Acquires Hugging Face for $12.9 Billion to Accelerate Open‑Source AI",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hugging_Face",
+        "https://huggingface.co/huggingface",
+        "https://www.firstpost.com/tech/nvidias-12-9-billion-hugging-face-deal-expands-its-open-source-ai-push-14043015.html"
+      ],
+      "date": "2026-11-28T02:01:53.374588+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T01:32:09.940109+00:00"
+  "lastUpdated": "2026-11-28T02:01:53.374656+00:00"
 }
