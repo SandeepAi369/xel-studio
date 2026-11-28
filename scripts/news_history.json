@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "title": "ScienceDaily Highlights Tiny Brain Magnets That Could Transform Parkinson’s Treatment",
-      "urls": [
-        "https://en.wikipedia.org/wiki/Oregon_Health_%26_Science_University",
-        "https://www.labiotech.eu/trends-news/preclinical-pulse-the-research-catching-our-eye-in-november-2026",
-        "https://www.aol.de/articles/auge-giftfischs-tun-peterm%C3%A4nnchen-zusticht-081433000.html",
-        "https://en.wikipedia.org/wiki/Cedars-Sinai_Medical_Center",
-        "https://www.sciencedaily.com/news/health_medicine/medical_devices",
-        "https://en.wikipedia.org/wiki/2026_in_science"
-      ],
-      "date": "2026-11-18T15:02:33.166947+00:00"
-    },
-    {
       "title": "SoftBank Announces Planned Infrastructure Investment to Boost AI Project Support",
       "urls": [
         "https://note.com/kohei2292/n/n89a78280506d?hl=en",
@@ -5433,7 +5421,16 @@
         "https://diagnosticimaging.com/view/top-five-radiology-content-november-2026"
       ],
       "date": "2026-11-28T15:01:54.508873+00:00"
+    },
+    {
+      "title": "Fintechs Target Credit Market After Dominating India Payments Landscape Sector",
+      "urls": [
+        "https://www.bbc.com/news/articles/ckpd0y9gdp5lo",
+        "https://www.indiatoday.in/business/story/upi-tap-and-pay-myupi-rbi-unveils-nfc-payments-ai-support-fintech-fest-2992371-2026-09-11",
+        "https://www.cnbc.com/2026/09/11/fintechs-upi-india-is-credit-economy-gff.html"
+      ],
+      "date": "2026-11-28T15:31:41.161877+00:00"
     }
   ],
-  "lastUpdated": "2026-11-28T15:01:54.508961+00:00"
+  "lastUpdated": "2026-11-28T15:31:41.161948+00:00"
 }
